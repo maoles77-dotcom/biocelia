@@ -1,0 +1,254 @@
+[
+  {
+    "id": 101,
+    "bloque": "Biomoléculas",
+    "tema": "Agua y sales",
+    "tipo": "simulacro",
+    "pregunta": "Explique por qué el agua es esencial para la vida y relacione al menos dos propiedades con funciones biológicas.",
+    "respuesta": [
+      "El agua es el principal disolvente biológico.",
+      "Permite el desarrollo de reacciones metabólicas y el transporte de sustancias.",
+      "Su elevado calor específico y calor de vaporización contribuyen a la termorregulación."
+    ],
+    "fuente": "B1.TEMA 1. AGUA Y SALES.docx",
+    "dificultad": "media"
+  },
+  {
+    "id": 102,
+    "bloque": "Biomoléculas",
+    "tema": "Glúcidos",
+    "tipo": "simulacro",
+    "pregunta": "Compare la función energética y estructural de los glúcidos en los seres vivos.",
+    "respuesta": [
+      "Los glúcidos aportan energía rápida, especialmente glucosa y glucógeno.",
+      "También pueden cumplir funciones estructurales, como la celulosa en paredes vegetales.",
+      "La función depende del tipo de enlace y de la estructura molecular."
+    ],
+    "fuente": "B1.TEMA 2. GLUCIDOS.docx",
+    "dificultad": "media"
+  },
+  {
+    "id": 103,
+    "bloque": "Biomoléculas",
+    "tema": "Proteínas",
+    "tipo": "simulacro",
+    "pregunta": "Explique qué factores pueden provocar la desnaturalización de una proteína y qué consecuencias tiene.",
+    "respuesta": [
+      "La temperatura, el pH y ciertos agentes químicos pueden desnaturalizar una proteína.",
+      "La desnaturalización altera su estructura tridimensional.",
+      "Esto puede modificar o perder su función biológica."
+    ],
+    "fuente": "B1.TEMA 4. PROTEINAS.docx",
+    "dificultad": "media"
+  },
+  {
+    "id": 104,
+    "bloque": "Célula",
+    "tema": "Biología celular",
+    "tipo": "simulacro",
+    "pregunta": "Relacione la estructura del núcleo con sus funciones principales.",
+    "respuesta": [
+      "El núcleo contiene el material genético y controla la expresión génica.",
+      "La envoltura nuclear regula los intercambios con el citoplasma.",
+      "El nucleolo participa en la producción de ARN ribosómico."
+    ],
+    "fuente": "B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx",
+    "dificultad": "media"
+  },
+  {
+    "id": 105,
+    "bloque": "Célula",
+    "tema": "Ciclo celular",
+    "tipo": "simulacro",
+    "pregunta": "Indique la importancia biológica de la mitosis.",
+    "respuesta": [
+      "La mitosis permite el crecimiento y la reparación de tejidos.",
+      "También es importante en la reproducción asexual.",
+      "Garantiza la distribución equitativa del material genético."
+    ],
+    "fuente": "B2.TEMA 10. CICLO CELULAR.docx",
+    "dificultad": "media"
+  },
+  {
+    "id": 106,
+    "bloque": "Metabolismo",
+    "tema": "Respiración celular",
+    "tipo": "simulacro",
+    "pregunta": "Comparación entre respiración aerobia y anaerobia en términos de rendimiento energético.",
+    "respuesta": [
+      "La respiración aerobia obtiene más ATP que la anaerobia.",
+      "La aerobia completa la oxidación de la glucosa.",
+      "La anaerobia mantiene la producción de energía de forma limitada y con metabolitos incompletos."
+    ],
+    "fuente": "B3.TEMA 11-12. METABOLISMO.docx",
+    "dificultad": "alta"
+  },
+  {
+    "id": 107,
+    "bloque": "Genética molecular",
+    "tema": "Expresión génica",
+    "tipo": "simulacro",
+    "pregunta": "Explique el proceso de transcripción y su relación con la síntesis de proteínas.",
+    "respuesta": [
+      "La transcripción permite copiar la información genética del ADN en ARNm.",
+      "Este ARNm se utiliza luego en la traducción.",
+      "La síntesis de proteínas depende de la correcta transcripción y traducción."
+    ],
+    "fuente": "B4.TEMA 13. BASE QUÍMICA DE LA HERENCIA.docx",
+    "dificultad": "media"
+  },
+  {
+    "id": 108,
+    "bloque": "Genética molecular",
+    "tema": "Traducción",
+    "tipo": "simulacro",
+    "pregunta": "Relacione el papel del ARNm, del ARNt y de los ribosomas en la síntesis proteica.",
+    "respuesta": [
+      "El ARNm aporta la información codificada en forma de codones.",
+      "El ARNt aporta los aminoácidos y reconoce los codones mediante el anticodón.",
+      "Los ribosomas unen los aminoácidos para formar el polipéptido."
+    ],
+    "fuente": "B4.TEMA 13. BASE QUÍMICA DE LA HERENCIA.docx",
+    "dificultad": "media"
+  },
+  {
+    "id": 109,
+    "bloque": "Inmunología",
+    "tema": "Respuesta inmune",
+    "tipo": "simulacro",
+    "pregunta": "Compare la respuesta inmunitaria innata y la adaptativa.",
+    "respuesta": [
+      "La respuesta innata es inmediata y no depende de una exposición previa.",
+      "La adaptativa es más específica y genera memoria inmunológica.",
+      "Ambas participan en la defensa frente a patógenos."
+    ],
+    "fuente": "B5. TEMA 15. INMUNOLOGÍA.docx",
+    "dificultad": "media"
+  },
+  {
+    "id": 110,
+    "bloque": "Biotecnología",
+    "tema": "Ingeniería genética",
+    "tipo": "simulacro",
+    "pregunta": "Explique brevemente qué es una bacteria recombinante y para qué se utiliza.",
+    "respuesta": [
+      "Una bacteria recombinante contiene material genético introducido por ingeniería genética.",
+      "Se utiliza para producir proteínas o compuestos de interés.",
+      "También sirve para estudiar genes y para la clonación de fragmentos de ADN."
+    ],
+    "fuente": "POSIBLES PREGUNTAS DE INGENIERIA GENÉTICA.docx",
+    "dificultad": "media"
+  },
+  {
+    "id": 111,
+    "bloque": "Biomoléculas",
+    "tema": "Ácidos nucleicos",
+    "tipo": "simulacro",
+    "pregunta": "Compare la función del ADN y del ARN en la célula.",
+    "respuesta": [
+      "El ADN almacena la información genética.",
+      "El ARN participa en la expresión génica y en la síntesis proteica.",
+      "Ambos son esenciales para la transmisión y uso de la información genética."
+    ],
+    "fuente": "B1.TEMA 5. ACIDOS NUCLEICOS.docx",
+    "dificultad": "media"
+  },
+  {
+    "id": 112,
+    "bloque": "Célula",
+    "tema": "Membrana plasmática",
+    "tipo": "simulacro",
+    "pregunta": "Relacione la estructura de la membrana plasmática con su función de transporte y comunicación.",
+    "respuesta": [
+      "La membrana está formada por una bicapa lipídica con proteínas integradas.",
+      "Permite el transporte selectivo y la recepción de señales.",
+      "Esto mantiene la homeostasis y la comunicación celular."
+    ],
+    "fuente": "B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx",
+    "dificultad": "media"
+  },
+  {
+    "id": 113,
+    "bloque": "Metabolismo",
+    "tema": "Fotosíntesis",
+    "tipo": "simulacro",
+    "pregunta": "Explique la importancia de la fotosíntesis para los ecosistemas.",
+    "respuesta": [
+      "La fotosíntesis produce materia orgánica y oxígeno.",
+      "Es la base de las cadenas tróficas.",
+      "Contribuye a fijar carbono y a mantener el equilibrio energético del planeta."
+    ],
+    "fuente": "B3.TEMA 11-12. METABOLISMO.docx",
+    "dificultad": "media"
+  },
+  {
+    "id": 114,
+    "bloque": "Inmunología",
+    "tema": "Vacunas y sueros",
+    "tipo": "simulacro",
+    "pregunta": "Justifique por qué una vacuna y un suero no tienen el mismo objetivo terapéutico.",
+    "respuesta": [
+      "La vacuna previene al estimular la respuesta inmunitaria y generar memoria.",
+      "El suero actúa de forma inmediata aportando anticuerpos ya formados.",
+      "Por ello, la vacuna es preventiva y el suero suele ser terapéutico."
+    ],
+    "fuente": "B5. TEMA 15. INMUNOLOGÍA.docx",
+    "dificultad": "media"
+  },
+  {
+    "id": 115,
+    "bloque": "Metabolismo",
+    "tema": "Respiración celular",
+    "tipo": "simulacro",
+    "pregunta": "Explique por qué la respiración celular es esencial para la vida de la célula y qué papel juega el oxígeno.",
+    "respuesta": [
+      "La respiración celular permite obtener energía en forma de ATP.",
+      "El oxígeno actúa como aceptor final de electrones en la cadena respiratoria.",
+      "Sin oxígeno, el rendimiento energético disminuye mucho y la célula debe recurrir a fermentación."
+    ],
+    "fuente": "B3.TEMA 11-12. METABOLISMO.docx",
+    "dificultad": "alta"
+  },
+  {
+    "id": 116,
+    "bloque": "Metabolismo",
+    "tema": "Respiración celular",
+    "tipo": "simulacro",
+    "pregunta": "Relacione la glucólisis con el ciclo de Krebs y con la cadena respiratoria.",
+    "respuesta": [
+      "La glucólisis genera piruvato y un pequeño rendimiento de ATP.",
+      "El piruvato entra en el ciclo de Krebs, donde se liberan electrones transportados por NADH y FADH2.",
+      "Estos electrones se utilizan en la cadena respiratoria para producir la mayor parte del ATP."
+    ],
+    "fuente": "B3.TEMA 11-12. METABOLISMO.docx",
+    "dificultad": "alta"
+  },
+  {
+    "id": 117,
+    "bloque": "Metabolismo",
+    "tema": "Fermentación",
+    "tipo": "simulacro",
+    "pregunta": "Compare la fermentación láctica y la fermentación alcohólica.",
+    "respuesta": [
+      "La fermentación láctica produce lactato y la alcohólica etanol y CO2.",
+      "Ambas regeneran NAD+ para que continúe la glucólisis.",
+      "Se diferencian en los productos finales y en los organismos que las realizan."
+    ],
+    "fuente": "B3.TEMA 11-12. METABOLISMO.docx",
+    "dificultad": "media"
+  },
+  {
+    "id": 118,
+    "bloque": "Metabolismo",
+    "tema": "Fermentación",
+    "tipo": "simulacro",
+    "pregunta": "Justifique por qué la fermentación permite la supervivencia de algunas células en ausencia de oxígeno.",
+    "respuesta": [
+      "La fermentación permite seguir produciendo ATP de forma limitada a través de la glucólisis.",
+      "Regenera NAD+ necesario para mantener la glucólisis activa.",
+      "Así, la célula puede seguir obteniendo energía aunque no disponga de oxígeno."
+    ],
+    "fuente": "B3.TEMA 11-12. METABOLISMO.docx",
+    "dificultad": "media"
+  }
+]

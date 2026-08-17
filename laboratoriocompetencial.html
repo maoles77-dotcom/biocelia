@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Laboratorio Competencial PAU Biología Andalucía 2025-26 — Entrenamiento avanzado de razonamiento científico.">
+<title>Laboratorio Competencial PAU · BioCelia</title>
+<link rel="stylesheet" href="pau-theme.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;900&family=Lora:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+<style>
+
+:root {
+  --primary:   #2c3e50;
+  --accent:    #e67e22;
+  --accent2:   #27ae60;
+  --info:      #2980b9;
+  --danger:    #c0392b;
+  --bg:        #f4f7f6;
+  --card:      #ffffff;
+  --sticky-bg: #fff9c4;
+  --border:    #e0e6e3;
+  --text:      #2c3e50;
+  --muted:     #7f8c8d;
+}
+
+*,*::before,*::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Nunito', system-ui, sans-serif;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.lab-wrapper { max-width: 1120px; margin: 0 auto; }
+
+/* ── Cabecera ── */
+.lab-header {
+  background: var(--primary);
+  color: white;
+  padding: 44px 24px 36px;
+  border-radius: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+}
+.lab-header h1 { font-size: clamp(1.6rem,4vw,2.2rem); font-weight: 900; margin-bottom: 8px; }
+.lab-header p  { opacity: .85; font-size: 1rem; }
+.header-stats  { display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; margin-top: 16px; }
+.hstat { font-size: .78rem; opacity: .75; display: flex; align-items: center; gap: 5px; }
+.hstat strong { opacity: 1; color: #f9ca74; }
+
+/* ── Barra de filtro ── */
+.control-bar {
+  background: var(--card);
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  padding: 14px 20px;
+  margin-bottom: 24px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.ctrl-label { font-size:.75rem; font-weight:700; color:var(--muted); text-transform:uppercase; letter-spacing:.06em; white-space:nowrap; }
+.filter-pills { display:flex; gap:6px; flex-wrap:wrap; flex:1; }
+.pill {
+  font-size:.75rem; font-weight:700; padding:5px 13px;
+  border-radius:20px; border:1.5px solid var(--border);
+  background:var(--bg); color:var(--muted);
+  cursor:pointer; transition:all .18s; user-select:none;
+}
+.pill:hover { border-color:var(--accent); color:var(--accent); }
+.pill.active { background:var(--accent); border-color:var(--accent); color:white; }
+.pill:focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+
+.progress-wrap { margin-left:auto; display:flex; align-items:center; gap:8px; white-space:nowrap; }
+.prog-text { font-size:.78rem; color:var(--muted); font-weight:600; }
+.prog-text strong { color:var(--accent2); }
+.prog-bar { width:70px; height:5px; background:var(--border); border-radius:3px; overflow:hidden; }
+.prog-fill { height:100%; background:var(--accent2); border-radius:3px; transition:width .4s ease; width:0%; }
+
+/* ── Layout ── */
+.main-content { display:flex; gap:28px; align-items:flex-start; }
+
+/* ── Columna retos ── */
+.retos-col { flex:3; display:flex; flex-direction:column; gap:22px; }
+.no-results {
+  display:none; text-align:center; padding:48px; color:var(--muted);
+  font-size:.95rem; border:2px dashed var(--border); border-radius:12px; background:var(--card);
+}
+
+/* ── Tarjeta ── */
+.reto-card {
+  background: var(--card);
+  border: 1px solid #ddd;
+  border-radius: 14px;
+  overflow: hidden;
+  border-left: 7px solid var(--accent);
+  transition: transform .25s, box-shadow .25s, border-left-color .25s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.reto-card:hover { transform:translateY(-3px); box-shadow:0 8px 24px rgba(0,0,0,0.09); }
+.reto-card[data-solved="true"] { border-left-color: var(--accent2); }
+
+.reto-head {
+  padding: 10px 20px;
+  background: #fdf2e9;
+  border-bottom: 1px solid #f5e0c8;
+  display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+}
+.reto-card[data-solved="true"] .reto-head { background:#eafaf1; border-bottom-color:#c3e6cb; }
+
+.case-num { font-size:.68rem; font-weight:700; color:var(--muted); letter-spacing:.08em; }
+
+.block-tag {
+  font-size:.68rem; font-weight:700; padding:3px 10px;
+  border-radius:12px; text-transform:uppercase; letter-spacing:.06em;
+}
+.tag-Metabolismo   { background:#fdebd0; color:#935116; }
+.tag-Microbiologia { background:#fadbd8; color:#922b21; }
+.tag-Inmunologia   { background:#d5f5e3; color:#1e8449; }
+.tag-Biotecnologia { background:#d6eaf8; color:#1a5276; }
+.tag-Celula        { background:#e8daef; color:#6c3483; }
+.tag-Genetica      { background:#fef9e7; color:#9a7d0a; }
+.tag-Biomoleculas  { background:#d1f2eb; color:#0e6655; }
+
+.diff-stars { font-size:.8rem; color:var(--accent); letter-spacing:.04em; }
+.diff-stars .dim { color:#ddd; }
+
+.solved-badge {
+  font-size:.68rem; font-weight:700; color:var(--accent2);
+  border:1.5px solid var(--accent2); padding:2px 8px; border-radius:10px; display:none;
+}
+.reto-card[data-solved="true"] .solved-badge { display:inline; }
+
+.reto-body { padding:22px 24px 20px; }
+
+.reto-topic {
+  font-size:.72rem; font-weight:700; color:var(--accent);
+  text-transform:uppercase; letter-spacing:.1em; margin-bottom:10px;
+}
+
+.reto-q {
+  font-family: 'Lora', Georgia, serif;
+  font-size: 1.07rem; line-height:1.72; color:var(--primary); margin-bottom:18px;
+}
+.reto-q .verb  { color:var(--danger); font-weight:700; font-style:italic; }
+
+.btn-reveal {
+  background: var(--primary); color: white; border: none;
+  padding: 12px 24px; border-radius: 8px; cursor: pointer;
+  width: 100%; font-family: 'Nunito', sans-serif; font-weight: 700; font-size:.92rem;
+  transition: background .2s; text-align:left;
+  display: flex; align-items: center; gap: 10px;
+}
+.btn-reveal::before { content:'▶'; font-size:.6rem; transition:transform .2s; flex-shrink:0; }
+.btn-reveal[aria-expanded="true"]::before { transform:rotate(90deg); }
+.btn-reveal:hover { background:#34495e; }
+.btn-reveal:focus-visible { outline:3px solid var(--accent); outline-offset:2px; }
+
+/* ── Caja de solución ── */
+.solucion-box {
+  display:none; margin-top:18px;
+  background:#eafaf1; border-radius:10px; border:1px solid #a9dfbf;
+  overflow:hidden; animation:fadeIn .35s ease;
+}
+.solucion-box.open { display:block; }
+
+@keyframes fadeIn {
+  from { opacity:0; transform:translateY(8px); }
+  to   { opacity:1; transform:translateY(0); }
+}
+
+.sol-header { background:#d5f5e3; padding:10px 18px; border-bottom:1px solid #a9dfbf; }
+.sol-header h4 { color:var(--accent2); font-size:.9rem; font-weight:700; margin:0; }
+
+.sol-body { padding:16px 20px; }
+.sol-items { list-style:none; display:flex; flex-direction:column; gap:9px; margin-bottom:14px; }
+.sol-item { display:flex; gap:10px; align-items:flex-start; font-size:.93rem; line-height:1.65; }
+.sol-item::before { content:'→'; color:var(--accent2); font-weight:700; margin-top:1px; flex-shrink:0; }
+
+.tip-pau {
+  font-size:.88rem; background:white; padding:11px 14px;
+  border-radius:7px; border-left:3px solid var(--accent2);
+  font-style:italic; color:#555; line-height:1.6;
+}
+
+/* ── Guía lateral ── */
+.guia-col {
+  flex:1; position:sticky; top:20px;
+  display:flex; flex-direction:column; gap:16px; min-width:250px;
+}
+.guia-card {
+  background:var(--sticky-bg); padding:20px; border-radius:12px;
+  border-left:5px solid #fbc02d; box-shadow:4px 4px 14px rgba(0,0,0,0.08);
+}
+.guia-card h3 {
+  margin:0 0 14px; color:#455a64; font-size:1rem; font-weight:700;
+  border-bottom:2px solid #fbc02d; padding-bottom:8px;
+}
+
+.guide-step { display:flex; gap:10px; margin-bottom:12px; align-items:flex-start; }
+.guide-step:last-child { margin-bottom:0; }
+.step-num {
+  width:22px; height:22px; border-radius:50%; background:#fbc02d; color:white;
+  font-size:.72rem; font-weight:900; display:flex; align-items:center;
+  justify-content:center; flex-shrink:0; margin-top:1px;
+}
+.step-text b { display:block; font-size:.82rem; color:#d32f2f; text-transform:uppercase; letter-spacing:.04em; margin-bottom:2px; }
+.step-text span { font-size:.82rem; color:#546e7a; line-height:1.5; }
+
+.verbo-item { display:flex; gap:8px; align-items:baseline; padding:6px 0; border-bottom:1px solid rgba(0,0,0,0.07); font-size:.82rem; }
+.verbo-item:last-child { border-bottom:none; }
+.verbo-kw { font-weight:700; color:#c0392b; font-size:.78rem; min-width:82px; }
+.verbo-desc { color:#546e7a; line-height:1.4; }
+
+/* Círculo de progreso */
+.prog-guia { text-align:center; }
+.prog-circle {
+  width:72px; height:72px; border-radius:50%; border:4px solid #fbc02d;
+  display:flex; align-items:center; justify-content:center;
+  margin:0 auto 8px; position:relative; flex-direction:column;
+}
+.prog-circle svg { position:absolute; top:-4px; left:-4px; transform:rotate(-90deg); }
+.prog-circle circle {
+  fill:none; stroke-width:4; stroke-dasharray:213; stroke-dashoffset:213;
+  stroke:var(--accent2); stroke-linecap:round; transition:stroke-dashoffset .5s ease;
+}
+.prog-num { font-size:1.3rem; font-weight:900; color:var(--primary); position:relative; }
+.prog-sub { font-size:.68rem; color:var(--muted); font-weight:700; text-transform:uppercase; letter-spacing:.06em; margin-top:4px; }
+
+/* ── Responsive ── */
+@media (max-width:860px) {
+  body { padding:14px; }
+  .main-content { flex-direction:column; }
+  .guia-col { position:static; flex-direction:row; flex-wrap:wrap; order:-1; }
+  .guia-card { flex:1; min-width:200px; }
+}
+@media (max-width:540px) {
+  .guia-col { flex-direction:column; }
+  .pill { font-size:.7rem; padding:4px 10px; }
+}
+</style>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Saltar al contenido principal</a>
+  <nav class="site-nav" aria-label="Navegación principal">
+    <a href="index.html">Inicio</a>
+    <a href="orientacionespau.html">Orientaciones</a>
+    <a href="resumenespau.html">Resúmenes</a>
+    <a href="Entrenamientopau.html">Entrenamiento</a>
+    <a href="simulacropau.html">Simulacro</a>
+    <a class="active" href="laboratoriocompetencial.html">Laboratorio</a>
+  </nav>
+
+<div class="lab-wrapper" id="main-content">
+  <div class="page-intro">
+    <p><strong>Aplicación práctica de los contenidos de Biología.</strong> Estos retos invitan a interpretar datos, relacionar conceptos y justificar respuestas de forma científica, tal como se espera en la evaluación de la PAU.</p>
+    <span class="pill">Razonamiento científico y argumentación</span>
+  </div>
+
+  <header class="lab-header">
+    <h1>🔬 Laboratorio Competencial PAU 2026</h1>
+    <p>Entrenamiento avanzado: De la teoría al razonamiento científico</p>
+    <div class="header-stats">
+      <span class="hstat">📋 Casos: <strong id="totalCasos">0</strong></span>
+      <span class="hstat">🧬 Bloques: <strong>7</strong></span>
+      <span class="hstat">🎯 Andalucía <strong>2025-26</strong></span>
+    </div>
+  </header>
+
+  <div class="control-bar" role="toolbar" aria-label="Filtros y progreso">
+    <span class="ctrl-label">Filtrar:</span>
+    <div class="filter-pills" role="group" aria-label="Bloques temáticos">
+      <button class="pill active" data-filter="all"          onclick="filtrar(this)">Todos</button>
+      <button class="pill" data-filter="Metabolismo"         onclick="filtrar(this)">Metabolismo</button>
+      <button class="pill" data-filter="Célula"              onclick="filtrar(this)">Célula</button>
+      <button class="pill" data-filter="Genética"            onclick="filtrar(this)">Genética</button>
+      <button class="pill" data-filter="Biomoléculas"        onclick="filtrar(this)">Biomoléculas</button>
+      <button class="pill" data-filter="Inmunología"         onclick="filtrar(this)">Inmunología</button>
+      <button class="pill" data-filter="Biotecnología"       onclick="filtrar(this)">Biotecnología</button>
+      <button class="pill" data-filter="Microbiología"       onclick="filtrar(this)">Microbiología</button>
+    </div>
+    <div class="progress-wrap">
+      <span class="prog-text">Resueltos: <strong id="progTexto">0 / 0</strong></span>
+      <div class="prog-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" id="progBar">
+        <div class="prog-fill" id="progFill"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-content">
+    <main class="retos-col" id="contenedorRetos" aria-label="Casos de laboratorio"></main>
+    <p class="no-results" id="noResults">No hay casos para este bloque. Prueba otro filtro.</p>
+
+    <aside class="guia-col" aria-label="Guía de razonamiento científico">
+
+      <div class="guia-card prog-guia">
+        <h3>📊 Progreso de sesión</h3>
+        <div class="prog-circle">
+          <svg width="80" height="80" viewBox="0 0 80 80" aria-hidden="true">
+            <circle cx="40" cy="40" r="34" id="circSvg"/>
+          </svg>
+          <span class="prog-num" id="circNum">0</span>
+        </div>
+        <p class="prog-sub">casos resueltos</p>
+      </div>
+
+      <div class="guia-card">
+        <h3>🌟 Guía de Razonamiento</h3>
+        <div class="guide-step">
+          <div class="step-num">1</div>
+          <div class="step-text"><b>Identifica</b><span>Nombra el proceso: ¿ósmosis? ¿mitosis? ¿respuesta inmune?</span></div>
+        </div>
+        <div class="guide-step">
+          <div class="step-num">2</div>
+          <div class="step-text"><b>Localiza</b><span>¿Dónde ocurre? Cita el orgánulo o compartimento exacto.</span></div>
+        </div>
+        <div class="guide-step">
+          <div class="step-num">3</div>
+          <div class="step-text"><b>Explica</b><span>Usa términos precisos: gradiente, especificidad, desnaturalización.</span></div>
+        </div>
+        <div class="guide-step">
+          <div class="step-num">4</div>
+          <div class="step-text"><b>Concluye</b><span>Une los puntos y responde directo a lo que preguntan.</span></div>
+        </div>
+        <div class="guide-step">
+          <div class="step-num">5</div>
+          <div class="step-text"><b>Valora</b><span>Añade implicaciones biológicas o clínicas si la pregunta lo permite.</span></div>
+        </div>
+      </div>
+
+      <div class="guia-card">
+        <h3>📌 Verbos PAU — Qué exigen</h3>
+        <div class="verbo-item"><span class="verbo-kw">Justifica</span><span class="verbo-desc">Argumenta con base molecular</span></div>
+        <div class="verbo-item"><span class="verbo-kw">Razona</span><span class="verbo-desc">Explica el mecanismo, no solo el resultado</span></div>
+        <div class="verbo-item"><span class="verbo-kw">Identifica</span><span class="verbo-desc">Nombra y señala con precisión</span></div>
+        <div class="verbo-item"><span class="verbo-kw">Compara</span><span class="verbo-desc">Señala diferencias explícitas</span></div>
+        <div class="verbo-item"><span class="verbo-kw">Explica</span><span class="verbo-desc">Describe el mecanismo paso a paso</span></div>
+        <div class="verbo-item"><span class="verbo-kw">Calcula</span><span class="verbo-desc">Resuelve con operaciones y unidades</span></div>
+      </div>
+
+    </aside>
+  </div>
+</div>
+
+<script>
+const casos = [
+  { block:"Metabolismo", topic:"Análisis Experimental — Inhibición por cianuro", diff:2,
+    q:"Un investigador analiza el consumo de oxígeno de una suspensión celular. Observa que al añadir cianuro el consumo de O₂ se detiene y la síntesis de ATP cae drásticamente. <span class='verb'>Justifique</span> qué orgánulo está siendo afectado y por qué se detiene la producción de energía.",
+    c:["El orgánulo afectado es la mitocondria, concretamente su membrana interna (crestas mitocondriales).",
+       "El cianuro bloquea la citocromo c oxidasa (complejo IV), aceptor final de electrones de la cadena de transporte. Sin esta enzima, los electrones no pueden transferirse al O₂.",
+       "Al bloquearse el flujo de electrones desaparece el gradiente de protones que impulsa la ATP-sintasa. Sin gradiente protónico no hay fosforilación oxidativa y el ATP colapsa.",
+       "La célula podría sobrevivir temporalmente mediante glucólisis anaerobia (2 ATP/glucosa), pero el rendimiento es mínimo y la acumulación de lactato resulta tóxica."],
+    f:"Tip PAU: identifica primero el proceso (respiración), localízalo en el orgánulo (mitocondria) y explica el mecanismo: bloqueo complejo IV → sin gradiente H⁺ → sin ATP-sintasa → sin ATP." },
+
+  { block:"Microbiología", topic:"Interpretación de Antibiograma", diff:1,
+    q:"Se realiza un antibiograma para tratar una infección bacteriana. El antibiótico A muestra un halo de inhibición de 20 mm; el antibiótico B no presenta halo. <span class='verb'>Razone</span> cuál elegiría para el tratamiento e <span class='verb'>indique</span> qué significa la ausencia de halo en el antibiótico B.",
+    c:["Se elegiría el antibiótico A: el halo de inhibición indica que la bacteria es sensible a él (no crece en la zona de difusión del fármaco).",
+       "La ausencia de halo en el antibiótico B indica resistencia bacteriana: las bacterias crecen incluso en presencia del fármaco.",
+       "La resistencia puede deberse a mutaciones en la diana del antibiótico, a bombas de eflujo, o a plásmidos (factores R) que codifican enzimas degradadoras (ej. β-lactamasas).",
+       "Esta resistencia se selecciona por presión selectiva: individuos con genes de resistencia sobreviven y se reproducen (selección natural bacteriana)."],
+    f:"El uso responsable de antibióticos —terminar siempre el tratamiento completo— evita la selección de cepas con resistencia incipiente." },
+
+  { block:"Inmunología", topic:"Respuesta Primaria vs Secundaria — Vacunación", diff:1,
+    q:"Un paciente recibe la 1ª dosis de una vacuna y, tras 20 días, la 2ª. <span class='verb'>Explique</span> por qué la respuesta tras la 2ª dosis es más rápida, intensa y duradera que la primera.",
+    c:["Respuesta primaria (1ª dosis): lenta (días de latencia), de baja intensidad, con predominio de IgM. El sistema inmune debe reconocer el antígeno por primera vez y diferenciar linfocitos B vírgenes.",
+       "Al mismo tiempo se generan linfocitos B y T de memoria de larga vida que quedan circulando en el organismo.",
+       "Respuesta secundaria (2ª dosis): inmediata, muy intensa y duradera, con predominio de IgG de alta afinidad. Las células de memoria reconocen el antígeno al instante y proliferan masivamente.",
+       "Este principio biológico es el fundamento científico de las dosis de refuerzo en los calendarios vacunales."],
+    f:"Recuerda: IgM (respuesta primaria, baja afinidad) → IgG (respuesta secundaria, alta afinidad). La clave siempre es la memoria inmunológica." },
+
+  { block:"Biotecnología", topic:"Biorremediación: Bioestimulación vs Bioaumento", diff:2,
+    q:"Tras un vertido de petróleo, se añadieron nitratos y fosfatos al agua para acelerar la degradación del crudo. <span class='verb'>Identifique</span> la técnica utilizada, <span class='verb'>explique</span> su mecanismo y <span class='verb'>diferencíela</span> del bioaumento.",
+    c:["Técnica: bioestimulación, subtipo de biorremediación que estimula el crecimiento de microorganismos degradadores ya presentes en el ecosistema.",
+       "Mecanismo: las bacterias hidrocarbonoclastas (ej. Alcanivorax) usan el petróleo como fuente de carbono, pero están limitadas por la escasez de N y P. Al añadir fertilizante se elimina el factor limitante y las poblaciones crecen exponencialmente.",
+       "El bioaumento consiste en añadir microorganismos degradadores externos (cultivados en laboratorio) al ecosistema contaminado, no solo nutrientes.",
+       "Ventaja ambiental frente a métodos químicos: no generan residuos tóxicos secundarios y son más sostenibles ecológicamente."],
+    f:"Clave: bioestimulación = dar nutrientes a bacterias que ya están; bioaumento = añadir nuevas bacterias degradadoras. Ambas son subtipos de biorremediación." },
+
+  { block:"Célula", topic:"Microscopía MET — Identificación de Orgánulo", diff:1,
+    q:"Una microfotografía de MET muestra un orgánulo con doble membrana, donde la membrana interna forma repliegues hacia el interior. <span class='verb'>Identifique</span> el orgánulo e <span class='verb'>indique</span> qué importancia tienen esos repliegues para la función celular.",
+    c:["El orgánulo es la mitocondria. Los repliegues de la membrana interna se denominan crestas mitocondriales.",
+       "Importancia de las crestas: aumentan enormemente la superficie de membrana interna disponible para albergar los complejos de la cadena de transporte electrónico y las ATP-sintasas.",
+       "A mayor superficie de crestas → mayor número de cadenas respiratorias → mayor producción de ATP por fosforilación oxidativa.",
+       "La doble membrana también apoya la teoría endosimbiótica: la mitocondria posee ADN circular propio y ribosomas 70S similares a los de bacterias."],
+    f:"Regla visual: doble membrana con crestas = mitocondria; membranas en sacos apilados (tilacoides/grana) = cloroplasto. Las crestas son la clave diferencial." },
+
+  { block:"Genética", topic:"Análisis de Pedigrí — Tipo de herencia", diff:2,
+    q:"En un árbol genealógico, dos progenitores fenotípicamente sanos tienen una hija enferma. <span class='verb'>Razone</span> si la enfermedad puede ser dominante, ligada al cromosoma Y, o autosómica recesiva.",
+    c:["La enfermedad NO puede ser dominante: si lo fuera, al menos uno de los progenitores sanos debería portar el alelo dominante y estaría enfermo.",
+       "La enfermedad NO puede estar ligada al Y: el cromosoma Y solo lo tienen los varones, y la enferma es una hija (XX).",
+       "La enfermedad ES autosómica recesiva: los progenitores son portadores sanos (Aa × Aa) con un 25% de probabilidad de descendencia enferma (aa).",
+       "Genotipos: progenitores Aa (portadores heterocigotos) e hija enferma aa (homocigota recesiva)."],
+    f:"Regla de oro PAU: padres sanos → hijo enfermo = SIEMPRE RECESIVO. Si la afectada es mujer con padre sano, descarta herencia ligada al X recesiva." },
+
+  { block:"Biomoléculas", topic:"Desnaturalización proteica — Clara del huevo", diff:1,
+    q:"Al cocer un huevo, la clara pasa de ser transparente y gelatinosa a opaca y sólida. <span class='verb'>Explique</span> el mecanismo molecular de este cambio y <span class='verb'>razone</span> por qué la clara cocida conserva el mismo valor nutritivo.",
+    c:["El cambio se debe a la desnaturalización de las proteínas de la clara (principalmente ovoalbúmina). El calor rompe los enlaces débiles (puentes de hidrógeno, interacciones hidrofóbicas) que mantienen la estructura terciaria.",
+       "Al perder la estructura tridimensional, las cadenas se despliegan y quedan expuestos grupos hidrófobos que forman agregados insolubles → aspecto sólido y opaco.",
+       "El valor nutritivo se conserva porque la desnaturalización solo afecta a las estructuras secundaria, terciaria y cuaternaria. La estructura primaria (secuencia de aminoácidos) permanece intacta.",
+       "Las enzimas digestivas (proteasas) hidrolizan igualmente los enlaces peptídicos de la proteína desnaturalizada, liberando los aminoácidos con el mismo rendimiento nutricional."],
+    f:"Clave: desnaturalización ≠ hidrólisis. No se rompen los enlaces peptídicos (estructura 1ª), solo los enlaces débiles de la estructura 3D. Por eso el valor nutritivo no cambia." },
+
+  { block:"Metabolismo", topic:"Ósmosis y comportamiento celular", diff:1,
+    q:"El contenido salino de los glóbulos rojos es del 0,9%. <span class='verb'>Razone</span> qué ocurriría al sumergirlos en: a) agua destilada (0%), b) solución salina al 3%, c) solución salina al 0,9%.",
+    c:["a) Agua destilada (hipotónico): el agua entra por ósmosis. Sin pared celular rígida, la célula se hincha hasta romperse → hemólisis.",
+       "b) Solución al 3% (hipertónico): el agua sale por ósmosis. La célula se deshidrata y arruga → crenación.",
+       "c) Solución al 0,9% (isotónico): no hay diferencia de concentración neta. El flujo de agua es cero. Los glóbulos rojos mantienen su forma y volumen normales.",
+       "Por eso los sueros fisiológicos se preparan al 0,9% de NaCl: garantizan el equilibrio osmótico con los eritrocitos."],
+    f:"Diferencia clave: célula animal en medio hipotónico → hemólisis (sin pared). Célula vegetal en medio hipotónico → turgencia (protegida por pared rígida)." },
+
+  { block:"Biotecnología", topic:"PCR: Taq polimerasa y ciclo térmico", diff:2,
+    q:"Un laboratorio amplifica un fragmento de ADN viral mediante PCR. <span class='verb'>Explique</span> las tres etapas de un ciclo térmico e <span class='verb'>indique</span> por qué se usa la Taq polimerasa y no la ADN polimerasa humana.",
+    c:["Etapa 1 — Desnaturalización (~95°C): el calor rompe los puentes de hidrógeno entre las cadenas del ADN molde, separándolas en cadenas simples.",
+       "Etapa 2 — Hibridación (~55-65°C): los cebadores (oligonucleótidos sintéticos) se unen por complementariedad de bases a las regiones específicas de cada cadena molde.",
+       "Etapa 3 — Extensión (~72°C): la Taq polimerasa sintetiza la nueva cadena en dirección 5'→3' a partir de cada cebador, usando los dNTPs libres del medio.",
+       "Se usa Taq polimerasa (de Thermus aquaticus, bacteria termófila) porque es termoestable: no se desnaturaliza a 95°C, a diferencia de la ADN polimerasa humana que se destruiría en cada ciclo."],
+    f:"Sin Taq polimerasa no hay PCR: hay que calentar a 95°C en cada ciclo. Una polimerasa normal se destruiría en el primer ciclo de desnaturalización." },
+
+  { block:"Célula", topic:"ATP inhibido — Transporte de membrana", diff:2,
+    q:"Se inhibe completamente la síntesis de ATP en una célula animal. <span class='verb'>Razone</span> cuáles de estos procesos podrán seguir ocurriendo: a) difusión simple, b) difusión facilitada, c) transporte activo, d) bomba Na⁺/K⁺.",
+    c:["a) Difusión simple: SÍ. Es transporte pasivo a favor del gradiente, sin gasto de ATP. No se ve afectada.",
+       "b) Difusión facilitada: SÍ. También es transporte pasivo (a favor de gradiente) aunque requiere proteínas de canal. No consume ATP.",
+       "c) Transporte activo: NO. Se realiza en contra del gradiente electroquímico y requiere hidrólisis directa de ATP. Sin ATP, es imposible.",
+       "d) Bomba Na⁺/K⁺: NO. Es una Na⁺/K⁺-ATPasa que usa ATP para bombear 3 Na⁺ al exterior y 2 K⁺ al interior. Sin ATP cesa por completo, desestabilizando el potencial de membrana."],
+    f:"Regla: pasivo (difusión simple y facilitada) = sin ATP = NO afectados. Activo (bomba Na/K, cotransporte) = con ATP = BLOQUEADOS. Distinción esencial en PAU." },
+
+  { block:"Genética", topic:"BrdU y Replicación Semiconservativa", diff:3,
+    q:"La BrdU es un análogo de la timina incorporado al ADN durante la replicación. Al añadirla a células en división, <span class='verb'>justifique</span> por qué TODAS las células hijas dan positivo para BrdU tras la mitosis.",
+    c:["El resultado se explica por el carácter semiconservativo de la replicación del ADN (demostrado por Meselson y Stahl).",
+       "Durante la fase S, la BrdU se incorpora en las nuevas cadenas sintetizadas. Cada molécula hija queda formada por una cadena parental (sin BrdU) + una cadena nueva (con BrdU).",
+       "Tras la mitosis, cada célula hija recibe una copia del ADN replicado → todas tienen al menos una cadena con BrdU → todas son BrdU-positivas.",
+       "Si la replicación fuera conservativa, la mitad de las células serían BrdU-negativas. El hecho de que todas sean positivas demuestra el carácter semiconservativo."],
+    f:"Es la versión simplificada del experimento de Meselson y Stahl (1958) con ¹⁵N. Puede aparecer en exámenes de razonamiento experimental." },
+
+  { block:"Inmunología", topic:"Alergia: IgE, mastocitos e histamina", diff:2,
+    q:"Un paciente sufre urticaria y broncoespasmo al inhalar polen. <span class='verb'>Describa</span> el mecanismo celular y molecular de esta reacción, <span class='verb'>indicando</span> las células e inmunoglobulinas implicadas.",
+    c:["1ª exposición (sensibilización): los linfocitos B, activados por linfocitos T colaboradores, producen IgE específica frente al alérgeno (proteína del polen).",
+       "La IgE se une a receptores de alta afinidad en mastocitos y basófilos, 'armando' estas células frente al alérgeno.",
+       "2ª exposición (respuesta): el alérgeno se une a la IgE de los mastocitos, provocando su degranulación: liberación masiva de histamina, leucotrienos y prostaglandinas.",
+       "La histamina provoca vasodilatación, aumento de permeabilidad capilar (urticaria, edema) y contracción del músculo liso bronquial (broncoespasmo). Es hipersensibilidad de tipo I (inmediata)."],
+    f:"Cadena mínima para el examen: alérgeno → IgE (linfocitos B) → IgE en mastocitos → reexposición → degranulación → histamina → síntomas." },
+
+  { block:"Biomoléculas", topic:"Glucólisis bloqueada y β-oxidación", diff:3,
+    q:"Se bloquea enzimáticamente la glucólisis de una célula que solo dispone de glucosa. <span class='verb'>Razone</span> qué ocurre energéticamente. ¿Cambiaría la respuesta si la célula dispusiera también de ácidos grasos?",
+    c:["Sin glucólisis, la glucosa no puede convertirse en piruvato. Sin piruvato no hay ciclo de Krebs ni fosforilación oxidativa. La célula no genera ATP por ninguna vía → muerte celular por déficit energético.",
+       "Con ácidos grasos disponibles: la situación cambia radicalmente. Los ácidos grasos no necesitan la glucólisis: se activan a acil-CoA y entran directamente en la β-oxidación mitocondrial.",
+       "La β-oxidación produce Acetil-CoA que entra en el ciclo de Krebs, generando NADH y FADH₂ que alimentan la cadena respiratoria → fosforilación oxidativa → ATP.",
+       "Conclusión: con ácidos grasos disponibles, la célula puede sobrevivir sin glucólisis. Este es el principio metabólico del ayuno prolongado y las dietas cetogénicas."],
+    f:"Los ácidos grasos entran a la mitocondria directamente (β-oxidación), saltándose la glucólisis. Por eso el cuerpo puede funcionar quemando grasas cuando no hay glucosa." },
+
+  { block:"Microbiología", topic:"Identificación de virus por su ácido nucleico", diff:3,
+    q:"Un análisis revela: adenina 20%, timina 0%, uracilo 24%, guanina 30%, citosina 26%, y presencia de fosfolípidos en su cubierta. <span class='verb'>Identifique</span> razonadamente el tipo de virus.",
+    c:["Tipo de ácido nucleico: la presencia de uracilo (U) y ausencia de timina (T) indica que es ARN, no ADN.",
+       "Tipo de cadena: en ARN bicatenario debería cumplirse A=U y G=C. Pero A(20%) ≠ U(24%) y G(30%) ≠ C(26%), por lo que es ARN monocatenario (ssARN).",
+       "Presencia de fosfolípidos: el virus posee envuelta lipídica, adquirida por gemación de la membrana plasmática de la célula huésped.",
+       "Conclusión: virus de ARN monocatenario con envuelta lipídica. Ejemplos: Influenza (gripe), VIH (retrovirus), SARS-CoV-2 (coronavirus)."],
+    f:"Regla: timina sin uracilo → ADN. Uracilo sin timina → ARN. A=U y G=C → doble cadena. A≠U → monocatenario. Fosfolípidos en cubierta → envuelta viral." }
+];
+
+let resueltosIds = new Set();
+let filtroActivo = 'all';
+
+function renderCasos() {
+  const contenedor = document.getElementById('contenedorRetos');
+  const noRes      = document.getElementById('noResults');
+  contenedor.innerHTML = '';
+
+  const visibles = filtroActivo === 'all' ? casos : casos.filter(c => c.block === filtroActivo);
+  document.getElementById('totalCasos').textContent = casos.length;
+  actualizarProgreso();
+
+  if (visibles.length === 0) {
+    contenedor.style.display = 'none';
+    noRes.style.display = 'block';
+    return;
+  }
+  contenedor.style.display = 'flex';
+  noRes.style.display = 'none';
+
+  visibles.forEach(caso => {
+    const idx  = casos.indexOf(caso);
+    const card = document.createElement('article');
+    card.className  = 'reto-card';
+    card.dataset.block  = caso.block;
+    card.dataset.solved = resueltosIds.has(idx) ? 'true' : 'false';
+    card.dataset.idx    = idx;
+
+    const slug      = caso.block.normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/\s/g,'');
+    const estrellas = '★'.repeat(caso.diff) + '<span class="dim">' + '★'.repeat(3 - caso.diff) + '</span>';
+    const items     = caso.c.map(x => `<li class="sol-item">${x}</li>`).join('');
+
+    card.innerHTML = `
+      <div class="reto-head">
+        <span class="case-num">CASO · ${String(idx + 1).padStart(2,'0')}</span>
+        <span class="block-tag tag-${slug}">${caso.block}</span>
+        <span class="diff-stars" aria-label="Dificultad ${caso.diff} de 3">${estrellas}</span>
+        <span class="solved-badge" aria-live="polite">✓ Resuelto</span>
+      </div>
+      <div class="reto-body">
+        <p class="reto-topic">${caso.topic}</p>
+        <p class="reto-q">${caso.q}</p>
+        <button class="btn-reveal" aria-expanded="false" aria-controls="sol-${idx}">
+          Analizar caso y ver solución
+        </button>
+        <div class="solucion-box" id="sol-${idx}" role="region" aria-label="Resolución caso ${idx+1}">
+          <div class="sol-header"><h4>✅ Resolución Razonada:</h4></div>
+          <div class="sol-body">
+            <ul class="sol-items">${items}</ul>
+            <div class="tip-pau">💡 ${caso.f}</div>
+          </div>
+        </div>
+      </div>`;
+
+    card.querySelector('.btn-reveal').addEventListener('click', function() {
+      toggleSolucion(this, idx);
+    });
+    contenedor.appendChild(card);
+  });
+}
+
+function toggleSolucion(btn, idx) {
+  const box     = document.getElementById(`sol-${idx}`);
+  const abierto = btn.getAttribute('aria-expanded') === 'true';
+  btn.setAttribute('aria-expanded', String(!abierto));
+  box.classList.toggle('open', !abierto);
+  btn.textContent = abierto ? 'Analizar caso y ver solución' : 'Ocultar solución';
+
+  if (!abierto && !resueltosIds.has(idx)) {
+    resueltosIds.add(idx);
+    const card = document.querySelector(`[data-idx="${idx}"]`);
+    if (card) card.dataset.solved = 'true';
+    actualizarProgreso();
+  }
+}
+
+function filtrar(btn) {
+  document.querySelectorAll('.pill').forEach(p => p.classList.remove('active'));
+  btn.classList.add('active');
+  filtroActivo = btn.dataset.filter;
+  renderCasos();
+}
+
+function actualizarProgreso() {
+  const total     = casos.length;
+  const resueltos = resueltosIds.size;
+  const pct       = total > 0 ? (resueltos / total) * 100 : 0;
+  document.getElementById('progTexto').textContent  = `${resueltos} / ${total}`;
+  document.getElementById('progFill').style.width   = pct + '%';
+  document.getElementById('progBar').setAttribute('aria-valuenow', Math.round(pct));
+  document.getElementById('circNum').textContent    = resueltos;
+  const circumference = 2 * Math.PI * 34;
+  const circ = document.getElementById('circSvg');
+  if (circ) {
+    circ.style.strokeDasharray  = circumference;
+    circ.style.strokeDashoffset = circumference * (1 - pct / 100);
+  }
+}
+
+document.addEventListener('DOMContentLoaded', renderCasos);
+</script>
+</body>
+</html>

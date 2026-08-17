@@ -1,0 +1,452 @@
+[
+  {
+    "id": 1,
+    "bloque": "Biomoléculas",
+    "tema": "Agua y sales",
+    "tipo": "respuesta breve",
+    "pregunta": "Describa la estructura de la molécula del agua.",
+    "respuesta": [
+      "La molécula de agua está formada por un átomo de oxígeno unido covalentemente a dos átomos de hidrógeno.",
+      "La geometría molecular es angular y la molécula presenta carácter dipolar.",
+      "La polaridad del agua explica muchas de sus propiedades biológicas."
+    ],
+    "fuente": "B1.TEMA 1. AGUA Y SALES.docx",
+    "dificultad": "media"
+  },
+  {
+    "id": 2,
+    "bloque": "Biomoléculas",
+    "tema": "Agua y sales",
+    "tipo": "respuesta breve",
+    "pregunta": "Enumere cuatro propiedades físico-químicas del agua y relaciónelas con sus funciones biológicas.",
+    "respuesta": [
+      "Elevado calor específico: contribuye al mantenimiento de la temperatura corporal.",
+      "Elevado calor de vaporización: favorece la termorregulación.",
+      "Gran poder disolvente: permite que las reacciones metabólicas ocurran en disolución.",
+      "Cohesión y adhesión: intervienen en el transporte de sustancias y en la estructura celular."
+    ],
+    "fuente": "B1.TEMA 1. AGUA Y SALES.docx",
+    "dificultad": "media"
+  },
+  {
+    "id": 3,
+    "bloque": "Biomoléculas",
+    "tema": "Glúcidos",
+    "tipo": "respuesta breve",
+    "pregunta": "Defina qué son los monosacáridos y cite dos de sus funciones.",
+    "respuesta": [
+      "Los monosacáridos son polialcoholes con un grupo carbonilo.",
+      "Son la base para la formación de oligosacáridos y polisacáridos.",
+      "Pueden tener funciones energéticas y estructurales."
+    ],
+    "fuente": "B1.TEMA 2. GLUCIDOS.docx",
+    "dificultad": "media"
+  },
+  {
+    "id": 4,
+    "bloque": "Biomoléculas",
+    "tema": "Glúcidos",
+    "tipo": "respuesta breve",
+    "pregunta": "Realice una clasificación de los monosacáridos indicando el criterio utilizado.",
+    "respuesta": [
+      "Se pueden clasificar según el número de carbonos.",
+      "También pueden clasificarse según el grupo funcional presente, aldehído o cetona.",
+      "Esto da lugar a aldosas y cetosas, y a triosas, tetrosas, pentosas o hexosas."
+    ],
+    "fuente": "B1.TEMA 2. GLUCIDOS.docx",
+    "dificultad": "media"
+  },
+  {
+    "id": 5,
+    "bloque": "Biomoléculas",
+    "tema": "Lípidos",
+    "tipo": "respuesta breve",
+    "pregunta": "Explique la relación entre el punto de fusión de los ácidos grasos, el tamaño y el grado de saturación de sus cadenas.",
+    "respuesta": [
+      "El punto de fusión aumenta con la longitud de la cadena.",
+      "Cuanto más larga es la cadena, mayor cantidad de interacciones hidrofóbicas se forman.",
+      "Los ácidos grasos saturados tienen un punto de fusión mayor que los insaturados.",
+      "Las dobles ligaduras dificultan el empaquetamiento y disminuyen el punto de fusión."
+    ],
+    "fuente": "B1.TEMA 3. LIPIDOS.docx",
+    "dificultad": "media"
+  },
+  {
+    "id": 6,
+    "bloque": "Biomoléculas",
+    "tema": "Lípidos",
+    "tipo": "respuesta breve",
+    "pregunta": "Indique dos diferencias entre lípidos saponificables e insaponificables y ponga un ejemplo de cada uno.",
+    "respuesta": [
+      "Los lípidos saponificables contienen ácidos grasos y pueden hidrolizarse formando jabones.",
+      "Los lípidos insaponificables no contienen ácidos grasos y no experimentan saponificación.",
+      "Ejemplo de saponificable: triglicérido.",
+      "Ejemplo de insaponificable: esterol o terpeno."
+    ],
+    "fuente": "B1.TEMA 3. LIPIDOS.docx",
+    "dificultad": "media"
+  },
+  {
+    "id": 7,
+    "bloque": "Biomoléculas",
+    "tema": "Proteínas",
+    "tipo": "respuesta breve",
+    "pregunta": "Defina proteína y cite dos tipos de estructura secundaria que pueden presentar.",
+    "respuesta": [
+      "Una proteína es una macromolécula formada por aminoácidos unidos por enlaces peptídicos.",
+      "Dos estructuras secundarias frecuentes son la hélice alfa y la lámina beta.",
+      "Ambas se estabilizan principalmente por puentes de hidrógeno."
+    ],
+    "fuente": "B1.TEMA 4. PROTEINAS.docx",
+    "dificultad": "media"
+  },
+  {
+    "id": 8,
+    "bloque": "Biomoléculas",
+    "tema": "Proteínas",
+    "tipo": "respuesta breve",
+    "pregunta": "Explique en qué consiste la desnaturalización y la renaturalización de las proteínas.",
+    "respuesta": [
+      "La desnaturalización consiste en la pérdida de la estructura tridimensional propia de la proteína.",
+      "Puede deberse a cambios de pH, temperatura o agentes químicos.",
+      "La renaturalización es la recuperación parcial o total de la estructura cuando el agente causante desaparece."
+    ],
+    "fuente": "B1.TEMA 4. PROTEINAS.docx",
+    "dificultad": "media"
+  },
+  {
+    "id": 9,
+    "bloque": "Biomoléculas",
+    "tema": "Ácidos nucleicos",
+    "tipo": "respuesta breve",
+    "pregunta": "Explique la estructura primaria y secundaria del ADN.",
+    "respuesta": [
+      "La estructura primaria del ADN es la secuencia de desoxirribonucleótidos unidos por enlaces fosfodiéster.",
+      "La estructura secundaria consiste en la doble hélice antiparalela.",
+      "Las bases nitrogenadas se aparean por puentes de hidrógeno: adenina con timina y citosina con guanina."
+    ],
+    "fuente": "B1.TEMA 5. ACIDOS NUCLEICOS.docx",
+    "dificultad": "media"
+  },
+  {
+    "id": 10,
+    "bloque": "Biomoléculas",
+    "tema": "Enzimas",
+    "tipo": "respuesta breve",
+    "pregunta": "Defina qué es un inhibidor enzimático y describa la inhibición competitiva y no competitiva.",
+    "respuesta": [
+      "Un inhibidor enzimático es una sustancia que disminuye o anula la actividad enzimática.",
+      "En la inhibición competitiva, el inhibidor compite con el sustrato por el centro activo.",
+      "En la inhibición no competitiva, el inhibidor se une a otro lugar de la enzima y altera su actividad."
+    ],
+    "fuente": "B1.TEMA 6. ENZIMAS Y VITAMINAS.docx",
+    "dificultad": "media"
+  },
+  {
+    "id": 11,
+    "bloque": "Célula",
+    "tema": "Ciclo celular",
+    "tipo": "respuesta breve",
+    "pregunta": "Defina mitosis y citocinesis y explique su importancia para los organismos eucariotas.",
+    "respuesta": [
+      "La mitosis es la división del núcleo que produce dos núcleos con la misma información genética.",
+      "La citocinesis es la división del citoplasma.",
+      "La mitosis permite el crecimiento, la reparación tisular y la reproducción asexual."
+    ],
+    "fuente": "B2.TEMA 10. CICLO CELULAR.docx",
+    "dificultad": "media"
+  },
+  {
+    "id": 12,
+    "bloque": "Célula",
+    "tema": "Biología celular",
+    "tipo": "respuesta breve",
+    "pregunta": "Cite cuatro componentes principales del núcleo interfásico y una función de cada uno.",
+    "respuesta": [
+      "Envoltura nuclear: separa el contenido nuclear del citoplasma.",
+      "Cromatina: contiene el ADN asociado a proteínas.",
+      "Nucleolo: participa en la síntesis de ARN ribosómico.",
+      "Ribosomas: sintetizan proteínas."
+    ],
+    "fuente": "B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx",
+    "dificultad": "media"
+  },
+  {
+    "id": 13,
+    "bloque": "Metabolismo",
+    "tema": "Anabolismo y catabolismo",
+    "tipo": "respuesta breve",
+    "pregunta": "Defina divergencia metabólica, quimiosíntesis y fotosíntesis.",
+    "respuesta": [
+      "La divergencia metabólica es la capacidad de obtener diversos productos a partir de unos pocos sustratos.",
+      "La quimiosíntesis es la síntesis de materia orgánica a partir de energía química.",
+      "La fotosíntesis es la síntesis de materia orgánica a partir de energía luminosa."
+    ],
+    "fuente": "B3.TEMA 11-12. METABOLISMO.docx",
+    "dificultad": "media"
+  },
+  {
+    "id": 14,
+    "bloque": "Metabolismo",
+    "tema": "Respiración celular",
+    "tipo": "respuesta breve",
+    "pregunta": "Explique razonadamente cuál de las vías aerobia o anaerobia es más rentable energéticamente.",
+    "respuesta": [
+      "La vía aerobia es más rentable energéticamente porque permite la degradación completa de la glucosa.",
+      "Produce más ATP gracias a la cadena de transporte de electrones y la fosforilación oxidativa.",
+      "La vía anaerobia genera menos energía y deja metabolitos incompletamente oxidados."
+    ],
+    "fuente": "B3.TEMA 11-12. METABOLISMO.docx",
+    "dificultad": "alta"
+  },
+  {
+    "id": 15,
+    "bloque": "Genética molecular",
+    "tema": "Expresión génica",
+    "tipo": "respuesta breve",
+    "pregunta": "Realice un esquema general de los procesos implicados en la expresión de la información genética desde el ADN hasta la proteína.",
+    "respuesta": [
+      "La información pasa de ADN a ARN mensajero mediante transcripción.",
+      "El ARNm sale del núcleo y se traduce en el citoplasma para sintetizar una proteína.",
+      "Este flujo de información es la base de la expresión génica."
+    ],
+    "fuente": "B4.TEMA 13. BASE QUÍMICA DE LA HERENCIA.docx",
+    "dificultad": "media"
+  },
+  {
+    "id": 16,
+    "bloque": "Genética molecular",
+    "tema": "Genética molecular",
+    "tipo": "respuesta breve",
+    "pregunta": "Defina locus, centrómero, cromosoma submetacéntrico y alelo recesivo.",
+    "respuesta": [
+      "Un locus es la posición que ocupa un gen en un cromosoma.",
+      "El centrómero es la zona de unión de las cromátidas hermanas.",
+      "Un cromosoma submetacéntrico tiene brazos de distinta longitud.",
+      "El alelo recesivo solo se expresa en homocigosis."
+    ],
+    "fuente": "B4.TEMA 13. BASE QUÍMICA DE LA HERENCIA.docx",
+    "dificultad": "media"
+  },
+  {
+    "id": 17,
+    "bloque": "Genética molecular",
+    "tema": "Traducción",
+    "tipo": "respuesta breve",
+    "pregunta": "Defina traducción y describa sus fases de iniciación, elongación y terminación.",
+    "respuesta": [
+      "La traducción es la síntesis de una secuencia de aminoácidos a partir de la información del ARNm.",
+      "La iniciación comienza con la unión del ribosoma al ARNm y al ARNt iniciador.",
+      "La elongación añade aminoácidos y la terminación se produce cuando aparece un codón de parada."
+    ],
+    "fuente": "B4.TEMA 13. BASE QUÍMICA DE LA HERENCIA.docx",
+    "dificultad": "alta"
+  },
+  {
+    "id": 18,
+    "bloque": "Inmunología",
+    "tema": "Sistema inmunitario",
+    "tipo": "respuesta breve",
+    "pregunta": "Cite tres órganos o tejidos del sistema inmunitario y dos tipos de moléculas implicadas en la respuesta inmune.",
+    "respuesta": [
+      "Órganos o tejidos: médula ósea, timo, bazo o ganglios linfáticos.",
+      "Moléculas implicadas: anticuerpos, sistema del complemento, linfocinas o interferón."
+    ],
+    "fuente": "B5. TEMA 15. INMUNOLOGÍA.docx",
+    "dificultad": "media"
+  },
+  {
+    "id": 19,
+    "bloque": "Inmunología",
+    "tema": "Respuesta inmunitaria",
+    "tipo": "respuesta breve",
+    "pregunta": "Defina respuesta inmunitaria innata y respuesta inmunitaria adaptativa.",
+    "respuesta": [
+      "La respuesta innata es propia de la especie y no requiere una activación previa.",
+      "La respuesta adaptativa se desarrolla a lo largo de la vida tras el contacto con antígenos."
+    ],
+    "fuente": "B5. TEMA 15. INMUNOLOGÍA.docx",
+    "dificultad": "media"
+  },
+  {
+    "id": 20,
+    "bloque": "Inmunología",
+    "tema": "Antígenos y anticuerpos",
+    "tipo": "respuesta breve",
+    "pregunta": "Defina antígeno y anticuerpo y describa la estructura general de un anticuerpo.",
+    "respuesta": [
+      "Un antígeno es una molécula capaz de desencadenar una respuesta inmunitaria.",
+      "Un anticuerpo es una molécula proteica producida por los linfocitos B.",
+      "Está formado por dos cadenas pesadas y dos ligeras, con regiones constante y variable."
+    ],
+    "fuente": "B5. TEMA 15. INMUNOLOGÍA.docx",
+    "dificultad": "media"
+  },
+  {
+    "id": 21,
+    "bloque": "Biotecnología",
+    "tema": "Ingeniería genética",
+    "tipo": "respuesta breve",
+    "pregunta": "Defina biotecnología e ingeniería genética y explique brevemente el proceso de obtención de una bacteria recombinante.",
+    "respuesta": [
+      "La biotecnología utiliza células u organismos vivos para obtener productos de interés.",
+      "La ingeniería genética modifica el material genético para introducir nuevas características.",
+      "Se inserta un gen de interés en un plásmido y se introduce en una bacteria para clonarlo o expresarlo."
+    ],
+    "fuente": "POSIBLES PREGUNTAS DE INGENIERIA GENÉTICA.docx",
+    "dificultad": "media"
+  },
+  {
+    "id": 22,
+    "bloque": "Biotecnología",
+    "tema": "Aplicaciones",
+    "tipo": "respuesta breve",
+    "pregunta": "Mencione dos microorganismos útiles en biotecnología, indicando el reino al que pertenecen y una aplicación.",
+    "respuesta": [
+      "Levaduras, del reino Fungi, empleadas en fermentación alcohólica.",
+      "Lactobacillus, del reino Monera, empleado en fermentación láctica para yogur o queso."
+    ],
+    "fuente": "POSIBLES PREGUNTAS DE INGENIERIA GENÉTICA.docx",
+    "dificultad": "media"
+  },
+  {
+    "id": 23,
+    "bloque": "Biomoléculas",
+    "tema": "Ácidos nucleicos",
+    "tipo": "respuesta breve",
+    "pregunta": "Indique dos diferencias entre ADN y ARN.",
+    "respuesta": [
+      "El ADN contiene desoxirribosa, mientras que el ARN contiene ribosa.",
+      "El ADN suele ser bicatenario y el ARN suele ser monocatenario.",
+      "El ADN contiene timina y el ARN uracilo."
+    ],
+    "fuente": "B1.TEMA 5. ACIDOS NUCLEICOS.docx",
+    "dificultad": "fácil"
+  },
+  {
+    "id": 24,
+    "bloque": "Célula",
+    "tema": "Membrana plasmática",
+    "tipo": "respuesta breve",
+    "pregunta": "Explique la importancia biológica de la membrana plasmática.",
+    "respuesta": [
+      "La membrana plasmática regula el intercambio de sustancias con el medio.",
+      "Mantiene el equilibrio interno de la célula.",
+      "Permite la comunicación celular y la identidad de la célula."
+    ],
+    "fuente": "B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx",
+    "dificultad": "fácil"
+  },
+  {
+    "id": 25,
+    "bloque": "Metabolismo",
+    "tema": "Fotosíntesis",
+    "tipo": "respuesta breve",
+    "pregunta": "Explique brevemente la relación entre la fotosíntesis y la respiración celular.",
+    "respuesta": [
+      "La fotosíntesis captura energía luminosa y produce materia orgánica.",
+      "La respiración celular libera energía a partir de esa materia orgánica.",
+      "Ambas procesos están relacionados en el flujo de energía y de carbono."
+    ],
+    "fuente": "B3.TEMA 11-12. METABOLISMO.docx",
+    "dificultad": "media"
+  },
+  {
+    "id": 26,
+    "bloque": "Genética molecular",
+    "tema": "Mutación",
+    "tipo": "respuesta breve",
+    "pregunta": "¿Qué es una mutación y qué consecuencias puede tener en la información genética?",
+    "respuesta": [
+      "Una mutación es un cambio en la secuencia de ADN.",
+      "Puede ser neutra, beneficiosa o perjudicial.",
+      "Puede alterar la proteína codificada o no tener efecto aparente."
+    ],
+    "fuente": "B4.TEMA 13. BASE QUÍMICA DE LA HERENCIA.docx",
+    "dificultad": "media"
+  },
+  {
+    "id": 27,
+    "bloque": "Inmunología",
+    "tema": "Vacunas y sueros",
+    "tipo": "respuesta breve",
+    "pregunta": "Explique dos diferencias entre vacuna y suero.",
+    "respuesta": [
+      "La vacuna suele prevenir la enfermedad al estimular la respuesta inmunitaria.",
+      "El suero aporta anticuerpos ya formados para actuar de forma inmediata.",
+      "La vacuna genera memoria inmunológica, mientras que el suero no."
+    ],
+    "fuente": "B5. TEMA 15. INMUNOLOGÍA.docx",
+    "dificultad": "media"
+  },
+  {
+    "id": 28,
+    "bloque": "Metabolismo",
+    "tema": "Respiración celular",
+    "tipo": "respuesta breve",
+    "pregunta": "Explique la importancia del ATP en la célula y relacione su producción con la respiración celular.",
+    "respuesta": [
+      "El ATP es la principal molécula de transferencia de energía en la célula.",
+      "Se obtiene principalmente en la respiración celular mediante la oxidación de compuestos orgánicos.",
+      "Su hidrólisis libera energía que permite realizar procesos celulares como el transporte activo o la síntesis de moléculas."
+    ],
+    "fuente": "B3.TEMA 11-12. METABOLISMO.docx",
+    "dificultad": "media"
+  },
+  {
+    "id": 29,
+    "bloque": "Metabolismo",
+    "tema": "Respiración celular",
+    "tipo": "respuesta breve",
+    "pregunta": "Indique en qué parte de la célula se realiza la glucólisis y qué productos obtiene.",
+    "respuesta": [
+      "La glucólisis se realiza en el citoplasma.",
+      "Convierte una molécula de glucosa en dos moléculas de piruvato.",
+      "Además produce una pequeña cantidad de ATP y NADH."
+    ],
+    "fuente": "B3.TEMA 11-12. METABOLISMO.docx",
+    "dificultad": "fácil"
+  },
+  {
+    "id": 30,
+    "bloque": "Metabolismo",
+    "tema": "Respiración celular",
+    "tipo": "respuesta breve",
+    "pregunta": "Compare la respiración aerobia y la fermentación en cuanto a rendimiento energético y a la presencia de oxígeno.",
+    "respuesta": [
+      "La respiración aerobia necesita oxígeno y obtiene más ATP.",
+      "La fermentación no requiere oxígeno y produce mucho menos ATP.",
+      "La fermentación permite regenerar NAD+ para que la glucólisis continúe."
+    ],
+    "fuente": "B3.TEMA 11-12. METABOLISMO.docx",
+    "dificultad": "media"
+  },
+  {
+    "id": 31,
+    "bloque": "Metabolismo",
+    "tema": "Fermentación",
+    "tipo": "respuesta breve",
+    "pregunta": "Explique brevemente en qué consiste la fermentación láctica y qué organismos la realizan.",
+    "respuesta": [
+      "La fermentación láctica convierte el piruvato en lactato.",
+      "Se produce en algunas bacterias y en células musculares humanas cuando falta oxígeno.",
+      "Permite regenerar NAD+ para continuar con la glucólisis."
+    ],
+    "fuente": "B3.TEMA 11-12. METABOLISMO.docx",
+    "dificultad": "media"
+  },
+  {
+    "id": 32,
+    "bloque": "Metabolismo",
+    "tema": "Fermentación",
+    "tipo": "respuesta breve",
+    "pregunta": "Explique la importancia biológica de la fermentación alcohólica en microorganismos y en la industria.",
+    "respuesta": [
+      "La fermentación alcohólica convierte el piruvato en etanol y CO2.",
+      "La realizan levaduras y otros hongos.",
+      "Tiene interés industrial en la producción de pan, vino y cerveza."
+    ],
+    "fuente": "B3.TEMA 11-12. METABOLISMO.docx",
+    "dificultad": "media"
+  }
+]

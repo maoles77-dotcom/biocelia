@@ -1,0 +1,35 @@
+# ══════════════════════════════════════════════════════════════
+#  BioCelia — qué NO entra en el repositorio
+#
+#  El material fuente (922 MB) se queda en local como fuente de
+#  verdad. Al repositorio solo suben la aplicación y las figuras
+#  ya extraídas y optimizadas.
+# ══════════════════════════════════════════════════════════════
+
+# ─── Material fuente PAU (922 MB · 273 PDF · 24 PPTX · 1 ZIP de 205 MB) ───
+PAU 2025/
+
+# ─── Formatos pesados o binarios de trabajo ───
+# GitHub rechaza cualquier archivo de más de 100 MB.
+*.zip
+*.pptx
+*.ppt
+*.docx
+*.doc
+*.odt
+*.pdf
+
+# ─── Figuras en resolución original (se publican solo los WebP) ───
+_archivo/
+
+# ─── Herramientas y entorno ───
+.vscode/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ─── Sistema operativo ───
+Thumbs.db
+desktop.ini
+.DS_Store

@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Resúmenes, presentaciones y temas completos PAU Biología 2025-2026 organizados por los 6 bloques oficiales del currículo de Andalucía.">
+<title>Recursos PAU Biología 2025-2026</title>
+<link rel="stylesheet" href="pau-theme.css">
+<style>
+  :root {
+    --primary:      #2c3e50;
+    --accent:       #d35400;
+    --bg-block:     #f8f9fa;
+    --border-color: #e0e0e0;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; }
+
+  body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    color: #333;
+    background: #fff;
+    padding: 20px;
+    margin: 0;
+  }
+
+  .recursos-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  /* ── Cabecera ── */
+  .recursos-header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid var(--accent);
+  }
+  .recursos-header h2 {
+    color: var(--primary);
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  .recursos-header p {
+    color: #666;
+    font-size: 1.05rem;
+    margin: 0;
+  }
+
+  /* ── Bloque contenedor ── */
+  .bloque-container {
+    background: var(--bg-block);
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    border: 1px solid var(--border-color);
+    border-left: 6px solid var(--primary);
+    opacity: 0;
+    transform: translateY(16px);
+    animation: slideUp 0.45s ease forwards;
+  }
+  .bloque-container:nth-child(1) { animation-delay: 0.05s; }
+  .bloque-container:nth-child(2) { animation-delay: 0.15s; }
+  .bloque-container:nth-child(3) { animation-delay: 0.25s; }
+  .bloque-container:nth-child(4) { animation-delay: 0.35s; }
+  .bloque-container:nth-child(5) { animation-delay: 0.45s; }
+  .bloque-container:nth-child(6) { animation-delay: 0.55s; }
+
+  @keyframes slideUp {
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .bloque-titulo {
+    color: var(--primary);
+    font-size: 1.3rem;
+    margin: 0 0 8px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+
+  /* ── Barra de cobertura ── */
+  .cobertura {
+    font-size: 0.8rem;
+    color: #888;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .cobertura-bar {
+    flex: 1;
+    height: 5px;
+    background: #e0e0e0;
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .cobertura-fill {
+    height: 100%;
+    background: var(--primary);
+    border-radius: 3px;
+    transition: width 0.8s ease;
+  }
+
+  /* ── Rejilla de tarjetas de tema ── */
+  .tema-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 15px;
+  }
+
+  /* ══════════════════════════════════════
+     TARJETA DE TEMA (expandible)
+  ══════════════════════════════════════ */
+  .tema-card {
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background: white;
+    overflow: hidden;
+    transition: box-shadow 0.25s ease;
+  }
+  .tema-card:not(.tema-disabled):hover {
+    box-shadow: 0 4px 12px rgba(44,62,80,0.15);
+  }
+
+  /* Cabecera de la tarjeta — actúa como botón toggle */
+  .tema-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 15px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: var(--primary);
+    background: white;
+    border: none;
+    width: 100%;
+    text-align: left;
+    transition: background 0.2s ease;
+    position: relative;
+    user-select: none;
+  }
+  .tema-header:focus-visible {
+    outline: 3px solid var(--accent);
+    outline-offset: -2px;
+  }
+  .tema-card:not(.tema-disabled) .tema-header:hover {
+    background: #f0f4f8;
+  }
+
+  .tema-header .icono {
+    font-size: 1.1rem;
+    flex-shrink: 0;
+    line-height: 1;
+  }
+  .tema-header .tema-nombre {
+    flex: 1;
+    line-height: 1.3;
+  }
+
+  /* Flecha indicadora de expandible */
+  .tema-header .flecha {
+    font-size: 0.75rem;
+    opacity: 0.5;
+    flex-shrink: 0;
+    transition: transform 0.25s ease;
+  }
+  .tema-card.abierto .tema-header .flecha {
+    transform: rotate(180deg);
+  }
+
+  /* ── Tarjeta deshabilitada ── */
+  .tema-disabled {
+    opacity: 0.55;
+    cursor: not-allowed;
+    border-style: dashed;
+  }
+  .tema-disabled .tema-header {
+    cursor: not-allowed;
+    color: #666;
+  }
+
+  /* Badge Próximamente */
+  .badge-pronto {
+    font-size: 0.68rem;
+    font-weight: 700;
+    background: #e67e22;
+    color: white;
+    padding: 2px 7px;
+    border-radius: 10px;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  /* ── Panel de subbotones (oculto por defecto) ── */
+  .tema-panel {
+    display: none;
+    flex-direction: column;
+    gap: 1px;
+    border-top: 1px solid #eee;
+    animation: fadeDown 0.2s ease;
+  }
+  .tema-card.abierto .tema-panel {
+    display: flex;
+  }
+  @keyframes fadeDown {
+    from { opacity: 0; transform: translateY(-4px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  /* ── Subbotones dentro del panel ── */
+  .sub-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 0.88rem;
+    font-weight: 500;
+    color: #444;
+    background: #fafafa;
+    border: none;
+    transition: background 0.2s ease, color 0.2s ease;
+    border-left: 3px solid transparent;
+  }
+  .sub-btn:hover {
+    background: var(--primary);
+    color: white;
+    border-left-color: var(--accent);
+  }
+  .sub-btn:focus-visible {
+    outline: 3px solid var(--accent);
+    outline-offset: -2px;
+  }
+  /* Botones con href="#" pendientes de enlace */
+  .sub-btn[href="#"] {
+    opacity: 0.45;
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+  .sub-btn .sub-icono {
+    font-size: 1rem;
+    flex-shrink: 0;
+    line-height: 1;
+  }
+  .sub-btn .sub-label {
+    flex: 1;
+  }
+  .sub-btn .ext-icon {
+    font-size: 0.72rem;
+    opacity: 0.4;
+    flex-shrink: 0;
+  }
+
+  /* Colores por tipo de recurso */
+  .sub-btn.tipo-resumen    { border-left-color: #2980b9; }
+  .sub-btn.tipo-slides     { border-left-color: #8e44ad; }
+  .sub-btn.tipo-tema       { border-left-color: #27ae60; }
+
+  .sub-btn.tipo-resumen:hover  { background: #2980b9; border-left-color: #1a5276; }
+  .sub-btn.tipo-slides:hover   { background: #8e44ad; border-left-color: #6c3483; }
+  .sub-btn.tipo-tema:hover     { background: #27ae60; border-left-color: #1e8449; }
+
+  /* ── Leyenda inferior ── */
+  .leyenda {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 30px;
+    padding: 14px 18px;
+    background: #f0f4f8;
+    border-radius: 8px;
+    font-size: 0.82rem;
+    color: #555;
+    border: 1px solid #dde3ea;
+  }
+  .leyenda-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .leyenda-muestra {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: white;
+  }
+
+  /* ── Responsive ── */
+  @media (max-width: 500px) {
+    .tema-grid { grid-template-columns: 1fr; }
+    .recursos-header h2 { font-size: 1.4rem; }
+  }
+</style>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Saltar al contenido principal</a>
+  <nav class="site-nav" aria-label="Navegación principal">
+    <a href="index.html">Inicio</a>
+    <a href="orientacionespau.html">Orientaciones</a>
+    <a class="active" href="resumenespau.html">Resúmenes</a>
+    <a href="Entrenamientopau.html">Entrenamiento</a>
+    <a href="simulacropau.html">Simulacro</a>
+    <a href="laboratoriocompetencial.html">Laboratorio</a>
+  </nav>
+
+<div class="recursos-wrapper" id="main-content">
+  <div class="page-intro">
+    <p><strong>Recursos de estudio para la PAU de Biología.</strong> Los materiales están organizados por bloques y temas para favorecer la revisión activa, la comprensión conceptual y la conexión con los criterios de evaluación.</p>
+    <span class="pill">Basado en la organización de los recursos PAU 2025</span>
+  </div>
+
+  <!-- CABECERA -->
+  <div class="recursos-header">
+    <h2><span aria-hidden="true">📚</span> Resúmenes y Apuntes PAU 2025</h2>
+    <p>Descarga los materiales organizados por los 6 bloques oficiales del currículo.<br>
+       Haz clic en cada tema para ver los recursos disponibles.</p>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════════
+       BLOQUE A: LAS BIOMOLÉCULAS
+       6 temas activos / 6 temas totales → 100 %
+  ══════════════════════════════════════════════════════════ -->
+  <div class="bloque-container" style="border-left-color: #2980b9;">
+    <h3 class="bloque-titulo"><span aria-hidden="true">🔵</span> A. Las Biomoléculas</h3>
+    <div class="cobertura" aria-label="6 de 6 temas disponibles">
+      <span>6 / 6 temas</span>
+      <div class="cobertura-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+        <div class="cobertura-fill" style="width:100%;"></div>
+      </div>
+    </div>
+    <div class="tema-grid">
+
+      <!-- A1 · Bioelementos y biomoléculas inorgánicas -->
+      <div class="tema-card" role="group" aria-label="Bioelementos y biomoléculas inorgánicas">
+        <button class="tema-header" aria-expanded="false" onclick="toggleTema(this)">
+          <span class="icono" aria-hidden="true">📄</span>
+          <span class="tema-nombre">Bioelementos y biomoléculas inorgánicas</span>
+          <span class="flecha" aria-hidden="true">▼</span>
+        </button>
+        <div class="tema-panel" role="list">
+          <a href="https://drive.google.com/file/d/18k97spjdvwrBdh0dN0o99DgtUp8h-aeC/view?usp=sharing"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Resumen — Bioelementos (abrir en otra pestaña)"
+             class="sub-btn tipo-resumen" role="listitem">
+            <span class="sub-icono" aria-hidden="true">📄</span>
+            <span class="sub-label">Resumen</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+          <a href="#"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Presentación — Bioelementos (abrir en otra pestaña)"
+             class="sub-btn tipo-slides" role="listitem">
+            <span class="sub-icono" aria-hidden="true">🎞️</span>
+            <span class="sub-label">Presentación</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+          <a href="#"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Tema completo — Bioelementos (abrir en otra pestaña)"
+             class="sub-btn tipo-tema" role="listitem">
+            <span class="sub-icono" aria-hidden="true">📖</span>
+            <span class="sub-label">Tema completo</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- A2 · Glúcidos -->
+      <div class="tema-card" role="group" aria-label="Glúcidos">
+        <button class="tema-header" aria-expanded="false" onclick="toggleTema(this)">
+          <span class="icono" aria-hidden="true">📄</span>
+          <span class="tema-nombre">Glúcidos</span>
+          <span class="flecha" aria-hidden="true">▼</span>
+        </button>
+        <div class="tema-panel" role="list">
+          <a href="https://drive.google.com/file/d/1K7ytibB6QL-_hS0B7e2s31UedPKTJzKK/view?usp=drive_link"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Resumen — Glúcidos (abrir en otra pestaña)"
+             class="sub-btn tipo-resumen" role="listitem">
+            <span class="sub-icono" aria-hidden="true">📄</span>
+            <span class="sub-label">Resumen</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+          <a href="#"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Presentación — Glúcidos (abrir en otra pestaña)"
+             class="sub-btn tipo-slides" role="listitem">
+            <span class="sub-icono" aria-hidden="true">🎞️</span>
+            <span class="sub-label">Presentación</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+          <a href="#"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Tema completo — Glúcidos (abrir en otra pestaña)"
+             class="sub-btn tipo-tema" role="listitem">
+            <span class="sub-icono" aria-hidden="true">📖</span>
+            <span class="sub-label">Tema completo</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- A3 · Lípidos -->
+      <div class="tema-card" role="group" aria-label="Lípidos">
+        <button class="tema-header" aria-expanded="false" onclick="toggleTema(this)">
+          <span class="icono" aria-hidden="true">📄</span>
+          <span class="tema-nombre">Lípidos</span>
+          <span class="flecha" aria-hidden="true">▼</span>
+        </button>
+        <div class="tema-panel" role="list">
+          <a href="https://drive.google.com/file/d/1vT-61VV8A1kfsFIFmwXc19RPRkL5B3j0/view?usp=drive_link"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Resumen — Lípidos (abrir en otra pestaña)"
+             class="sub-btn tipo-resumen" role="listitem">
+            <span class="sub-icono" aria-hidden="true">📄</span>
+            <span class="sub-label">Resumen</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+          <a href="#"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Presentación — Lípidos (abrir en otra pestaña)"
+             class="sub-btn tipo-slides" role="listitem">
+            <span class="sub-icono" aria-hidden="true">🎞️</span>
+            <span class="sub-label">Presentación</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+          <a href="#"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Tema completo — Lípidos (abrir en otra pestaña)"
+             class="sub-btn tipo-tema" role="listitem">
+            <span class="sub-icono" aria-hidden="true">📖</span>
+            <span class="sub-label">Tema completo</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- A4 · Proteínas -->
+      <div class="tema-card" role="group" aria-label="Proteínas">
+        <button class="tema-header" aria-expanded="false" onclick="toggleTema(this)">
+          <span class="icono" aria-hidden="true">📄</span>
+          <span class="tema-nombre">Proteínas</span>
+          <span class="flecha" aria-hidden="true">▼</span>
+        </button>
+        <div class="tema-panel" role="list">
+          <a href="https://drive.google.com/file/d/1gkYWzYzCP4GduQd0aUz8nCUQNaJYEGEY/view?usp=drive_link"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Resumen — Proteínas (abrir en otra pestaña)"
+             class="sub-btn tipo-resumen" role="listitem">
+            <span class="sub-icono" aria-hidden="true">📄</span>
+            <span class="sub-label">Resumen</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+          <a href="#"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Presentación — Proteínas (abrir en otra pestaña)"
+             class="sub-btn tipo-slides" role="listitem">
+            <span class="sub-icono" aria-hidden="true">🎞️</span>
+            <span class="sub-label">Presentación</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+          <a href="#"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Tema completo — Proteínas (abrir en otra pestaña)"
+             class="sub-btn tipo-tema" role="listitem">
+            <span class="sub-icono" aria-hidden="true">📖</span>
+            <span class="sub-label">Tema completo</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- A5 · Enzimas -->
+      <div class="tema-card" role="group" aria-label="Enzimas">
+        <button class="tema-header" aria-expanded="false" onclick="toggleTema(this)">
+          <span class="icono" aria-hidden="true">📄</span>
+          <span class="tema-nombre">Enzimas</span>
+          <span class="flecha" aria-hidden="true">▼</span>
+        </button>
+        <div class="tema-panel" role="list">
+          <a href="https://drive.google.com/file/d/1vIkQIT3Mqdb44-8vhY7A_CchGwiPTPXI/view?usp=drive_link"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Resumen — Enzimas (abrir en otra pestaña)"
+             class="sub-btn tipo-resumen" role="listitem">
+            <span class="sub-icono" aria-hidden="true">📄</span>
+            <span class="sub-label">Resumen</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+          <a href="#"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Presentación — Enzimas (abrir en otra pestaña)"
+             class="sub-btn tipo-slides" role="listitem">
+            <span class="sub-icono" aria-hidden="true">🎞️</span>
+            <span class="sub-label">Presentación</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+          <a href="#"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Tema completo — Enzimas (abrir en otra pestaña)"
+             class="sub-btn tipo-tema" role="listitem">
+            <span class="sub-icono" aria-hidden="true">📖</span>
+            <span class="sub-label">Tema completo</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- A6 · Ácidos Nucleicos -->
+      <div class="tema-card" role="group" aria-label="Ácidos Nucleicos">
+        <button class="tema-header" aria-expanded="false" onclick="toggleTema(this)">
+          <span class="icono" aria-hidden="true">📄</span>
+          <span class="tema-nombre">Ácidos Nucleicos</span>
+          <span class="flecha" aria-hidden="true">▼</span>
+        </button>
+        <div class="tema-panel" role="list">
+          <a href="https://drive.google.com/file/d/141F7ZlY_GBWiYdb0WiImojfatipyCXUN/view?usp=drive_link"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Resumen — Ácidos Nucleicos (abrir en otra pestaña)"
+             class="sub-btn tipo-resumen" role="listitem">
+            <span class="sub-icono" aria-hidden="true">📄</span>
+            <span class="sub-label">Resumen</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+          <a href="#"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Presentación — Ácidos Nucleicos (abrir en otra pestaña)"
+             class="sub-btn tipo-slides" role="listitem">
+            <span class="sub-icono" aria-hidden="true">🎞️</span>
+            <span class="sub-label">Presentación</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+          <a href="#"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Tema completo — Ácidos Nucleicos (abrir en otra pestaña)"
+             class="sub-btn tipo-tema" role="listitem">
+            <span class="sub-icono" aria-hidden="true">📖</span>
+            <span class="sub-label">Tema completo</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+
+    </div><!-- /tema-grid bloque A -->
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════════
+       BLOQUE B: GENÉTICA MOLECULAR
+       1 tema activo / 3 temas totales → 33 %
+  ══════════════════════════════════════════════════════════ -->
+  <div class="bloque-container" style="border-left-color: #8e44ad;">
+    <h3 class="bloque-titulo"><span aria-hidden="true">🟣</span> B. Genética Molecular</h3>
+    <div class="cobertura" aria-label="1 de 3 temas disponibles">
+      <span>1 / 3 temas</span>
+      <div class="cobertura-bar" role="progressbar" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100">
+        <div class="cobertura-fill" style="width:33%;"></div>
+      </div>
+    </div>
+    <div class="tema-grid">
+
+      <!-- B1 · Genética Molecular (Dogma Central) -->
+      <div class="tema-card" role="group" aria-label="Genética Molecular">
+        <button class="tema-header" aria-expanded="false" onclick="toggleTema(this)">
+          <span class="icono" aria-hidden="true">📄</span>
+          <span class="tema-nombre">Genética Molecular</span>
+          <span class="flecha" aria-hidden="true">▼</span>
+        </button>
+        <div class="tema-panel" role="list">
+          <a href="https://drive.google.com/file/d/1qmzn8edhIBmDwP987VYP6TKGLlGc-1u9/view?usp=drive_link"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Resumen — Genética Molecular (abrir en otra pestaña)"
+             class="sub-btn tipo-resumen" role="listitem">
+            <span class="sub-icono" aria-hidden="true">📄</span>
+            <span class="sub-label">Resumen</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+          <a href="#"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Presentación — Genética Molecular (abrir en otra pestaña)"
+             class="sub-btn tipo-slides" role="listitem">
+            <span class="sub-icono" aria-hidden="true">🎞️</span>
+            <span class="sub-label">Presentación</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+          <a href="#"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Tema completo — Genética Molecular (abrir en otra pestaña)"
+             class="sub-btn tipo-tema" role="listitem">
+            <span class="sub-icono" aria-hidden="true">📖</span>
+            <span class="sub-label">Tema completo</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- B2 · Regulación de la expresión génica — pendiente -->
+      <div class="tema-card tema-disabled" role="group" aria-label="Regulación de la expresión génica — próximamente">
+        <div class="tema-header" aria-disabled="true">
+          <span class="icono" aria-hidden="true">📄</span>
+          <span class="tema-nombre">Regulación de la expresión génica</span>
+          <span class="badge-pronto">Próximamente</span>
+        </div>
+        <!--
+        ACTIVAR: quitar clase tema-disabled, cambiar <div> por <button onclick="toggleTema(this)"
+                 aria-expanded="false">, añadir <span class="flecha">▼</span> y descomentar panel.
+        <div class="tema-panel" role="list">
+          <a href="PONER_URL_RESUMEN" target="_blank" rel="noopener noreferrer"
+             aria-label="Resumen — Regulación de la expresión génica (abrir en otra pestaña)"
+             class="sub-btn tipo-resumen" role="listitem">
+            <span class="sub-icono" aria-hidden="true">📄</span>
+            <span class="sub-label">Resumen</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+          <a href="PONER_URL_PRESENTACION" target="_blank" rel="noopener noreferrer"
+             aria-label="Presentación — Regulación de la expresión génica (abrir en otra pestaña)"
+             class="sub-btn tipo-slides" role="listitem">
+            <span class="sub-icono" aria-hidden="true">🎞️</span>
+            <span class="sub-label">Presentación</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+          <a href="PONER_URL_TEMA" target="_blank" rel="noopener noreferrer"
+             aria-label="Tema completo — Regulación de la expresión génica (abrir en otra pestaña)"
+             class="sub-btn tipo-tema" role="listitem">
+            <span class="sub-icono" aria-hidden="true">📖</span>
+            <span class="sub-label">Tema completo</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+        </div>
+        -->
+      </div>
+
+      <!-- B3 · Mutaciones — pendiente -->
+      <div class="tema-card tema-disabled" role="group" aria-label="Mutaciones — próximamente">
+        <div class="tema-header" aria-disabled="true">
+          <span class="icono" aria-hidden="true">📄</span>
+          <span class="tema-nombre">Mutaciones</span>
+          <span class="badge-pronto">Próximamente</span>
+        </div>
+        <!--
+        ACTIVAR: quitar clase tema-disabled, cambiar <div> por <button onclick="toggleTema(this)"
+                 aria-expanded="false">, añadir <span class="flecha">▼</span> y descomentar panel.
+        <div class="tema-panel" role="list">
+          <a href="PONER_URL_RESUMEN" target="_blank" rel="noopener noreferrer"
+             aria-label="Resumen — Mutaciones (abrir en otra pestaña)"
+             class="sub-btn tipo-resumen" role="listitem">
+            <span class="sub-icono" aria-hidden="true">📄</span>
+            <span class="sub-label">Resumen</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+          <a href="PONER_URL_PRESENTACION" target="_blank" rel="noopener noreferrer"
+             aria-label="Presentación — Mutaciones (abrir en otra pestaña)"
+             class="sub-btn tipo-slides" role="listitem">
+            <span class="sub-icono" aria-hidden="true">🎞️</span>
+            <span class="sub-label">Presentación</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+          <a href="PONER_URL_TEMA" target="_blank" rel="noopener noreferrer"
+             aria-label="Tema completo — Mutaciones (abrir en otra pestaña)"
+             class="sub-btn tipo-tema" role="listitem">
+            <span class="sub-icono" aria-hidden="true">📖</span>
+            <span class="sub-label">Tema completo</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+        </div>
+        -->
+      </div>
+
+    </div><!-- /tema-grid bloque B -->
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════════
+       BLOQUE C: BIOLOGÍA CELULAR
+       1 tema activo / 2 temas totales → 50 %
+  ══════════════════════════════════════════════════════════ -->
+  <div class="bloque-container" style="border-left-color: #27ae60;">
+    <h3 class="bloque-titulo"><span aria-hidden="true">🟢</span> C. Biología Celular</h3>
+    <div class="cobertura" aria-label="1 de 2 temas disponibles">
+      <span>1 / 2 temas</span>
+      <div class="cobertura-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+        <div class="cobertura-fill" style="width:50%;"></div>
+      </div>
+    </div>
+    <div class="tema-grid">
+
+      <!-- C1 · Morfología Celular — pendiente -->
+      <div class="tema-card tema-disabled" role="group" aria-label="Morfología Celular — próximamente">
+        <div class="tema-header" aria-disabled="true">
+          <span class="icono" aria-hidden="true">📄</span>
+          <span class="tema-nombre">Morfología Celular</span>
+          <span class="badge-pronto">Próximamente</span>
+        </div>
+        <!--
+        ACTIVAR: quitar clase tema-disabled, cambiar <div> por <button onclick="toggleTema(this)"
+                 aria-expanded="false">, añadir <span class="flecha">▼</span> y descomentar panel.
+        <div class="tema-panel" role="list">
+          <a href="PONER_URL_RESUMEN" target="_blank" rel="noopener noreferrer"
+             aria-label="Resumen — Morfología Celular (abrir en otra pestaña)"
+             class="sub-btn tipo-resumen" role="listitem">
+            <span class="sub-icono" aria-hidden="true">📄</span>
+            <span class="sub-label">Resumen</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+          <a href="PONER_URL_PRESENTACION" target="_blank" rel="noopener noreferrer"
+             aria-label="Presentación — Morfología Celular (abrir en otra pestaña)"
+             class="sub-btn tipo-slides" role="listitem">
+            <span class="sub-icono" aria-hidden="true">🎞️</span>
+            <span class="sub-label">Presentación</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+          <a href="PONER_URL_TEMA" target="_blank" rel="noopener noreferrer"
+             aria-label="Tema completo — Morfología Celular (abrir en otra pestaña)"
+             class="sub-btn tipo-tema" role="listitem">
+            <span class="sub-icono" aria-hidden="true">📖</span>
+            <span class="sub-label">Tema completo</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+        </div>
+        -->
+      </div>
+
+      <!-- C2 · Mitosis y Meiosis -->
+      <div class="tema-card" role="group" aria-label="Mitosis y Meiosis">
+        <button class="tema-header" aria-expanded="false" onclick="toggleTema(this)">
+          <span class="icono" aria-hidden="true">📄</span>
+          <span class="tema-nombre">Mitosis y Meiosis</span>
+          <span class="flecha" aria-hidden="true">▼</span>
+        </button>
+        <div class="tema-panel" role="list">
+          <a href="https://drive.google.com/file/d/14JsEIGa715q5QaqW5Hxt8PVplL-SDVfe/view?usp=drive_link"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Resumen — Mitosis y Meiosis (abrir en otra pestaña)"
+             class="sub-btn tipo-resumen" role="listitem">
+            <span class="sub-icono" aria-hidden="true">📄</span>
+            <span class="sub-label">Resumen</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+          <a href="#"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Presentación — Mitosis y Meiosis (abrir en otra pestaña)"
+             class="sub-btn tipo-slides" role="listitem">
+            <span class="sub-icono" aria-hidden="true">🎞️</span>
+            <span class="sub-label">Presentación</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+          <a href="#"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Tema completo — Mitosis y Meiosis (abrir en otra pestaña)"
+             class="sub-btn tipo-tema" role="listitem">
+            <span class="sub-icono" aria-hidden="true">📖</span>
+            <span class="sub-label">Tema completo</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+
+    </div><!-- /tema-grid bloque C -->
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════════
+       BLOQUE D: METABOLISMO
+       1 tema activo / 3 temas totales → 33 %
+  ══════════════════════════════════════════════════════════ -->
+  <div class="bloque-container" style="border-left-color: #f39c12;">
+    <h3 class="bloque-titulo"><span aria-hidden="true">🟡</span> D. Metabolismo</h3>
+    <div class="cobertura" aria-label="1 de 3 temas disponibles">
+      <span>1 / 3 temas</span>
+      <div class="cobertura-bar" role="progressbar" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100">
+        <div class="cobertura-fill" style="width:33%;"></div>
+      </div>
+    </div>
+    <div class="tema-grid">
+
+      <!-- D1 · Nutrición celular (enzimas y generalidades del metabolismo) -->
+      <div class="tema-card" role="group" aria-label="Nutrición celular">
+        <button class="tema-header" aria-expanded="false" onclick="toggleTema(this)">
+          <span class="icono" aria-hidden="true">📄</span>
+          <span class="tema-nombre">Nutrición celular</span>
+          <span class="flecha" aria-hidden="true">▼</span>
+        </button>
+        <div class="tema-panel" role="list">
+          <a href="https://drive.google.com/file/d/1glpkS76VBsK9dbH2z17QkyM0zYqxaUNA/view?usp=drive_link"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Resumen — Nutrición celular (abrir en otra pestaña)"
+             class="sub-btn tipo-resumen" role="listitem">
+            <span class="sub-icono" aria-hidden="true">📄</span>
+            <span class="sub-label">Resumen</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+          <a href="#"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Presentación — Nutrición celular (abrir en otra pestaña)"
+             class="sub-btn tipo-slides" role="listitem">
+            <span class="sub-icono" aria-hidden="true">🎞️</span>
+            <span class="sub-label">Presentación</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+          <a href="#"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Tema completo — Nutrición celular (abrir en otra pestaña)"
+             class="sub-btn tipo-tema" role="listitem">
+            <span class="sub-icono" aria-hidden="true">📖</span>
+            <span class="sub-label">Tema completo</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- D2 · Respiración celular — pendiente -->
+      <div class="tema-card tema-disabled" role="group" aria-label="Respiración celular — próximamente">
+        <div class="tema-header" aria-disabled="true">
+          <span class="icono" aria-hidden="true">📄</span>
+          <span class="tema-nombre">Respiración celular</span>
+          <span class="badge-pronto">Próximamente</span>
+        </div>
+        <!--
+        ACTIVAR: quitar clase tema-disabled, cambiar <div> por <button onclick="toggleTema(this)"
+                 aria-expanded="false">, añadir <span class="flecha">▼</span> y descomentar panel.
+        <div class="tema-panel" role="list">
+          <a href="PONER_URL_RESUMEN" target="_blank" rel="noopener noreferrer"
+             aria-label="Resumen — Respiración celular (abrir en otra pestaña)"
+             class="sub-btn tipo-resumen" role="listitem">
+            <span class="sub-icono" aria-hidden="true">📄</span>
+            <span class="sub-label">Resumen</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+          <a href="PONER_URL_PRESENTACION" target="_blank" rel="noopener noreferrer"
+             aria-label="Presentación — Respiración celular (abrir en otra pestaña)"
+             class="sub-btn tipo-slides" role="listitem">
+            <span class="sub-icono" aria-hidden="true">🎞️</span>
+            <span class="sub-label">Presentación</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+          <a href="PONER_URL_TEMA" target="_blank" rel="noopener noreferrer"
+             aria-label="Tema completo — Respiración celular (abrir en otra pestaña)"
+             class="sub-btn tipo-tema" role="listitem">
+            <span class="sub-icono" aria-hidden="true">📖</span>
+            <span class="sub-label">Tema completo</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+        </div>
+        -->
+      </div>
+
+      <!-- D3 · Fotosíntesis — pendiente -->
+      <div class="tema-card tema-disabled" role="group" aria-label="Fotosíntesis — próximamente">
+        <div class="tema-header" aria-disabled="true">
+          <span class="icono" aria-hidden="true">📄</span>
+          <span class="tema-nombre">Fotosíntesis</span>
+          <span class="badge-pronto">Próximamente</span>
+        </div>
+        <!--
+        ACTIVAR: quitar clase tema-disabled, cambiar <div> por <button onclick="toggleTema(this)"
+                 aria-expanded="false">, añadir <span class="flecha">▼</span> y descomentar panel.
+        <div class="tema-panel" role="list">
+          <a href="PONER_URL_RESUMEN" target="_blank" rel="noopener noreferrer"
+             aria-label="Resumen — Fotosíntesis (abrir en otra pestaña)"
+             class="sub-btn tipo-resumen" role="listitem">
+            <span class="sub-icono" aria-hidden="true">📄</span>
+            <span class="sub-label">Resumen</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+          <a href="PONER_URL_PRESENTACION" target="_blank" rel="noopener noreferrer"
+             aria-label="Presentación — Fotosíntesis (abrir en otra pestaña)"
+             class="sub-btn tipo-slides" role="listitem">
+            <span class="sub-icono" aria-hidden="true">🎞️</span>
+            <span class="sub-label">Presentación</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+          <a href="PONER_URL_TEMA" target="_blank" rel="noopener noreferrer"
+             aria-label="Tema completo — Fotosíntesis (abrir en otra pestaña)"
+             class="sub-btn tipo-tema" role="listitem">
+            <span class="sub-icono" aria-hidden="true">📖</span>
+            <span class="sub-label">Tema completo</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+        </div>
+        -->
+      </div>
+
+    </div><!-- /tema-grid bloque D -->
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════════
+       BLOQUE E: BIOTECNOLOGÍA
+       1 tema activo / 2 temas totales → 50 %
+  ══════════════════════════════════════════════════════════ -->
+  <div class="bloque-container" style="border-left-color: #c0392b;">
+    <h3 class="bloque-titulo"><span aria-hidden="true">🔴</span> E. Biotecnología</h3>
+    <div class="cobertura" aria-label="1 de 2 temas disponibles">
+      <span>1 / 2 temas</span>
+      <div class="cobertura-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+        <div class="cobertura-fill" style="width:50%;"></div>
+      </div>
+    </div>
+    <div class="tema-grid">
+
+      <!-- E1 · Microbiología — pendiente -->
+      <div class="tema-card tema-disabled" role="group" aria-label="Microbiología — próximamente">
+        <div class="tema-header" aria-disabled="true">
+          <span class="icono" aria-hidden="true">📄</span>
+          <span class="tema-nombre">Microbiología</span>
+          <span class="badge-pronto">Próximamente</span>
+        </div>
+        <!--
+        ACTIVAR: quitar clase tema-disabled, cambiar <div> por <button onclick="toggleTema(this)"
+                 aria-expanded="false">, añadir <span class="flecha">▼</span> y descomentar panel.
+        <div class="tema-panel" role="list">
+          <a href="PONER_URL_RESUMEN" target="_blank" rel="noopener noreferrer"
+             aria-label="Resumen — Microbiología (abrir en otra pestaña)"
+             class="sub-btn tipo-resumen" role="listitem">
+            <span class="sub-icono" aria-hidden="true">📄</span>
+            <span class="sub-label">Resumen</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+          <a href="PONER_URL_PRESENTACION" target="_blank" rel="noopener noreferrer"
+             aria-label="Presentación — Microbiología (abrir en otra pestaña)"
+             class="sub-btn tipo-slides" role="listitem">
+            <span class="sub-icono" aria-hidden="true">🎞️</span>
+            <span class="sub-label">Presentación</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+          <a href="PONER_URL_TEMA" target="_blank" rel="noopener noreferrer"
+             aria-label="Tema completo — Microbiología (abrir en otra pestaña)"
+             class="sub-btn tipo-tema" role="listitem">
+            <span class="sub-icono" aria-hidden="true">📖</span>
+            <span class="sub-label">Tema completo</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+        </div>
+        -->
+      </div>
+
+      <!-- E2 · Ingeniería Genética y Biotecnología -->
+      <div class="tema-card" role="group" aria-label="Ingeniería Genética y Biotecnología">
+        <button class="tema-header" aria-expanded="false" onclick="toggleTema(this)">
+          <span class="icono" aria-hidden="true">📄</span>
+          <span class="tema-nombre">Ingeniería Genética y Biotecnología</span>
+          <span class="flecha" aria-hidden="true">▼</span>
+        </button>
+        <div class="tema-panel" role="list">
+          <a href="#"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Resumen — Ingeniería Genética y Biotecnología (abrir en otra pestaña)"
+             class="sub-btn tipo-resumen" role="listitem">
+            <span class="sub-icono" aria-hidden="true">📄</span>
+            <span class="sub-label">Resumen</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+          <a href="https://canva.link/ulj9cp34o2ozfie"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Presentación — Ingeniería Genética y Biotecnología (abrir en otra pestaña)"
+             class="sub-btn tipo-slides" role="listitem">
+            <span class="sub-icono" aria-hidden="true">🎞️</span>
+            <span class="sub-label">Presentación</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+          <a href="#"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Tema completo — Ingeniería Genética y Biotecnología (abrir en otra pestaña)"
+             class="sub-btn tipo-tema" role="listitem">
+            <span class="sub-icono" aria-hidden="true">📖</span>
+            <span class="sub-label">Tema completo</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+
+    </div><!-- /tema-grid bloque E -->
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════════
+       BLOQUE F: INMUNOLOGÍA
+       1 tema activo / 1 tema total → 100 %
+  ══════════════════════════════════════════════════════════ -->
+  <div class="bloque-container" style="border-left-color: #16a085;">
+    <h3 class="bloque-titulo"><span aria-hidden="true">🟩</span> F. Inmunología</h3>
+    <div class="cobertura" aria-label="1 de 1 temas disponibles">
+      <span>1 / 1 temas</span>
+      <div class="cobertura-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+        <div class="cobertura-fill" style="width:100%;"></div>
+      </div>
+    </div>
+    <div class="tema-grid">
+
+      <!-- F1 · Inmunología -->
+      <div class="tema-card" role="group" aria-label="Inmunología">
+        <button class="tema-header" aria-expanded="false" onclick="toggleTema(this)">
+          <span class="icono" aria-hidden="true">📄</span>
+          <span class="tema-nombre">Inmunología</span>
+          <span class="flecha" aria-hidden="true">▼</span>
+        </button>
+        <div class="tema-panel" role="list">
+          <a href="https://drive.google.com/file/d/18LHXSuxoIHf9ZCNeUq7Zj-bEWaFSvmeZ/view?usp=drive_link"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Resumen — Inmunología (abrir en otra pestaña)"
+             class="sub-btn tipo-resumen" role="listitem">
+            <span class="sub-icono" aria-hidden="true">📄</span>
+            <span class="sub-label">Resumen</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+          <a href="#"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Presentación — Inmunología (abrir en otra pestaña)"
+             class="sub-btn tipo-slides" role="listitem">
+            <span class="sub-icono" aria-hidden="true">🎞️</span>
+            <span class="sub-label">Presentación</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+          <a href="#"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Tema completo — Inmunología (abrir en otra pestaña)"
+             class="sub-btn tipo-tema" role="listitem">
+            <span class="sub-icono" aria-hidden="true">📖</span>
+            <span class="sub-label">Tema completo</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+
+    </div><!-- /tema-grid bloque F -->
+  </div>
+
+  <!-- ── LEYENDA ── -->
+  <div class="leyenda" role="note" aria-label="Leyenda de tipos de recurso">
+    <div class="leyenda-item">
+      <span class="leyenda-muestra" style="background:#2980b9;" aria-hidden="true">📄 Resumen</span>
+      Apuntes en PDF
+    </div>
+    <div class="leyenda-item">
+      <span class="leyenda-muestra" style="background:#8e44ad;" aria-hidden="true">🎞️ Presentación</span>
+      Diapositivas del tema
+    </div>
+    <div class="leyenda-item">
+      <span class="leyenda-muestra" style="background:#27ae60;" aria-hidden="true">📖 Tema completo</span>
+      Documento extendido
+    </div>
+    <div class="leyenda-item">
+      <span class="badge-pronto" aria-hidden="true">Próximamente</span>
+      Recurso en preparación
+    </div>
+  </div>
+<!-- ── PIE DE PÁGINA CON LICENCIA CREATIVE COMMONS ── -->
+<footer class="recursos-footer">
+  <p>
+    © 2025–2026 · Elaborado por <span class="autor">María Dolores Gámez Ortiz</span>
+  </p>
+  <p class="licencia">
+    <span>Esta obra está bajo licencia</span>
+    <span class="cc-iconos" aria-hidden="true">
+      <span class="cc-badge">CC</span>
+      <span class="cc-badge">BY</span>
+      <span class="cc-badge">NC</span>
+    </span>
+    <a class="licencia-link"
+       href="https://creativecommons.org/licenses/by-nc/4.0/deed.es"
+       target="_blank" rel="license noopener noreferrer">
+      Creative Commons Reconocimiento-NoComercial 4.0 Internacional ↗
+    </a>
+  </p>
+  <p class="nota-licencia">
+    Puedes <strong>copiar, distribuir y adaptar</strong> estos materiales para fines
+    educativos, siempre que cites a la autora. <strong>No se permite el uso comercial</strong>
+    ni lucrarse con su distribución.
+  </p>
+</footer>
+</div><!-- fin .recursos-wrapper -->
+
+<script>
+  function toggleTema(btn) {
+    const card = btn.closest('.tema-card');
+    const estaAbierto = card.classList.contains('abierto');
+
+    // Cerrar todas las tarjetas del mismo bloque antes de abrir
+    const bloque = card.closest('.tema-grid');
+    bloque.querySelectorAll('.tema-card.abierto').forEach(c => {
+      c.classList.remove('abierto');
+      c.querySelector('.tema-header').setAttribute('aria-expanded', 'false');
+    });
+
+    // Si no estaba abierto, abrirlo
+    if (!estaAbierto) {
+      card.classList.add('abierto');
+      btn.setAttribute('aria-expanded', 'true');
+    }
+  }
+</script>
+
+
+</body>
+</html>

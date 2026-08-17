@@ -1,0 +1,1416 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Generador de simulacros PAU Biología Andalucía 2025 — Exámenes aleatorios con estructura oficial.">
+<title>Simulacro PAU Biología · BioCelia</title>
+<link rel="stylesheet" href="pau-theme.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+
+/* ═══════════════════════════════════════════
+   VARIABLES Y RESET
+═══════════════════════════════════════════ */
+:root {
+  --primary:   #1a2744;
+  --secondary: #2c3e6b;
+  --accent:    #c0392b;
+  --gold:      #c9952a;
+  --success:   #1e7e4f;
+  --info:      #1a6fa8;
+  --bg:        #f0f2f5;
+  --card:      #ffffff;
+  --text:      #1a1a2e;
+  --muted:     #666;
+  --border:    #dde3ec;
+  --radius:    14px;
+  --shadow:    0 8px 32px rgba(26,39,68,.10);
+}
+
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+
+body {
+  font-family: 'Source Serif 4', Georgia, serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  padding: 0 0 60px 0;
+}
+
+/* ═══════════════════════════════════════════
+   CABECERA PRINCIPAL
+═══════════════════════════════════════════ */
+.site-header {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+  color: white;
+  text-align: center;
+  padding: 48px 24px 40px;
+  position: relative;
+  overflow: hidden;
+}
+.site-header::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+.site-header h1 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: clamp(1.8rem, 5vw, 2.8rem);
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  position: relative;
+}
+.site-header h1 span { color: #f0c060; }
+.site-header p {
+  margin-top: 10px;
+  font-size: 1.05rem;
+  opacity: .75;
+  position: relative;
+  font-style: italic;
+}
+.badges {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 18px;
+  position: relative;
+}
+.badge-pill {
+  background: rgba(255,255,255,.15);
+  border: 1px solid rgba(255,255,255,.25);
+  color: white;
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-size: .78rem;
+  font-family: 'Source Serif 4', serif;
+  letter-spacing: .03em;
+}
+
+/* ═══════════════════════════════════════════
+   PANEL DE CONTROL
+═══════════════════════════════════════════ */
+.control-panel {
+  max-width: 780px;
+  margin: -24px auto 0;
+  padding: 0 20px;
+  position: relative;
+  z-index: 10;
+}
+.control-card {
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 36px 40px;
+  border-top: 4px solid var(--gold);
+}
+.control-card h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+  color: var(--primary);
+  margin-bottom: 8px;
+}
+.control-card .subtitle {
+  color: var(--muted);
+  font-size: .95rem;
+  margin-bottom: 28px;
+  font-style: italic;
+}
+
+/* Aviso de fallback */
+.filter-notice {
+  display: none;
+  background: #fef9ec;
+  border: 1px solid #f0e6c0;
+  color: #5a4a1a;
+  border-radius: 8px;
+  padding: 10px 14px;
+  margin-bottom: 18px;
+  font-size: .85rem;
+}
+
+/* Estructura del examen */
+.exam-structure {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 28px;
+}
+@media(max-width:560px){.exam-structure{grid-template-columns:1fr}}
+.structure-block {
+  background: #f7f9fc;
+  border-radius: 10px;
+  padding: 16px 20px;
+  border-left: 4px solid var(--info);
+}
+.structure-block.part2 { border-left-color: var(--gold); }
+.structure-block strong {
+  display: block;
+  font-size: .85rem;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  color: var(--info);
+  margin-bottom: 4px;
+}
+.structure-block.part2 strong { color: var(--gold); }
+.structure-block p { font-size: .92rem; color: var(--text); line-height: 1.5; }
+
+/* Filtros */
+.filter-row {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+.filter-row label {
+  font-size: .88rem;
+  font-weight: 600;
+  color: var(--primary);
+  white-space: nowrap;
+}
+.filter-row select {
+  flex: 1;
+  min-width: 180px;
+  padding: 10px 14px;
+  border: 1.5px solid var(--border);
+  border-radius: 8px;
+  font-size: .9rem;
+  font-family: 'Source Serif 4', serif;
+  color: var(--text);
+  background: white;
+  cursor: pointer;
+}
+.filter-row select:focus-visible {
+  outline: 3px solid var(--gold);
+  outline-offset: 2px;
+}
+
+/* Botones de acción */
+.action-row {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+.btn-generate {
+  flex: 1;
+  min-width: 200px;
+  padding: 16px 32px;
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background .25s, transform .15s, box-shadow .25s;
+  box-shadow: 0 4px 16px rgba(26,39,68,.25);
+}
+.btn-generate:hover {
+  background: var(--secondary);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(26,39,68,.3);
+}
+.btn-generate:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+
+.btn-print {
+  padding: 16px 28px;
+  background: var(--success);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background .25s, transform .15s;
+  display: none;
+  box-shadow: 0 4px 16px rgba(30,126,79,.25);
+}
+.btn-print:hover { background: #166940; transform: translateY(-2px); }
+.btn-print:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+
+/* Contador */
+.session-stats {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.stat-chip {
+  background: #f0f2f5;
+  border-radius: 8px;
+  padding: 8px 18px;
+  font-size: .84rem;
+  color: var(--muted);
+}
+.stat-chip strong { color: var(--primary); }
+
+/* ═══════════════════════════════════════════
+   TEMPORIZADOR
+═══════════════════════════════════════════ */
+.timer-bar {
+  max-width: 780px;
+  margin: 20px auto 0;
+  padding: 0 20px;
+  display: none;
+}
+.timer-card {
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 16px 28px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.timer-display {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary);
+  letter-spacing: .05em;
+  min-width: 100px;
+}
+.timer-display.warning { color: var(--accent); }
+.timer-track {
+  flex: 1;
+  height: 6px;
+  background: #e8ecf2;
+  border-radius: 3px;
+  overflow: hidden;
+  min-width: 100px;
+}
+.timer-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--success), var(--info));
+  border-radius: 3px;
+  transition: width .9s linear, background .5s;
+  width: 100%;
+}
+.timer-fill.warning { background: linear-gradient(90deg, var(--accent), #e67e22); }
+.timer-label { font-size: .85rem; color: var(--muted); font-style: italic; }
+
+/* ═══════════════════════════════════════════
+   PAPEL DE EXAMEN (pantalla)
+═══════════════════════════════════════════ */
+.exam-wrapper {
+  max-width: 820px;
+  margin: 24px auto 0;
+  padding: 0 20px;
+  display: none;
+}
+.exam-sheet {
+  background: white;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  animation: slideDown .4s ease;
+}
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Cabecera del papel */
+.exam-header {
+  background: var(--primary);
+  color: white;
+  padding: 28px 40px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.exam-header-logo {
+  width: 56px;
+  height: 56px;
+  background: rgba(255,255,255,.15);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  flex-shrink: 0;
+}
+.exam-header-text h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.3rem;
+  letter-spacing: .03em;
+}
+.exam-header-text p {
+  font-size: .85rem;
+  opacity: .7;
+  margin-top: 3px;
+  font-style: italic;
+}
+.exam-meta {
+  margin-left: auto;
+  text-align: right;
+  font-size: .82rem;
+  opacity: .75;
+  line-height: 1.7;
+}
+
+/* Instrucciones del examen */
+.exam-instructions {
+  background: #fef9ec;
+  border-bottom: 1px solid #f0e6c0;
+  padding: 18px 40px;
+  font-size: .9rem;
+  color: #5a4a1a;
+  line-height: 1.6;
+}
+
+/* Cuerpo del examen */
+.exam-body { padding: 32px 40px; }
+
+/* Título de parte */
+.part-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 28px 0 18px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--border);
+}
+.part-header:first-child { margin-top: 0; }
+.part-badge {
+  background: var(--primary);
+  color: white;
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-size: .78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  white-space: nowrap;
+}
+.part-badge.electiva { background: var(--gold); }
+.part-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.15rem;
+  color: var(--primary);
+}
+.part-meta {
+  margin-left: auto;
+  font-size: .8rem;
+  color: var(--muted);
+  font-style: italic;
+  white-space: nowrap;
+}
+
+/* Pregunta individual */
+.exam-q {
+  margin-bottom: 36px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.exam-q-header {
+  background: #f7f9fc;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid var(--border);
+}
+.q-num {
+  background: var(--primary);
+  color: white;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: .8rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+.q-topic {
+  font-size: .8rem;
+  color: var(--muted);
+  font-style: italic;
+}
+.q-score {
+  margin-left: auto;
+  background: var(--gold);
+  color: white;
+  padding: 2px 10px;
+  border-radius: 10px;
+  font-size: .75rem;
+  font-weight: 700;
+}
+.new-tag {
+  background: var(--accent);
+  color: white;
+  padding: 2px 8px;
+  border-radius: 8px;
+  font-size: .7rem;
+  font-weight: 700;
+  animation: pulse 2s infinite;
+}
+@keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.65} }
+
+.exam-q-body { padding: 18px 20px; }
+.img-placeholder {
+  background: #f7f9fc;
+  border: 2px dashed #c8d2e0;
+  border-radius: 8px;
+  padding: 18px;
+  text-align: center;
+  color: var(--muted);
+  font-size: .88rem;
+  margin-bottom: 14px;
+  font-style: italic;
+}
+.q-text {
+  font-size: .98rem;
+  line-height: 1.75;
+  color: var(--text);
+}
+/* Resaltado verbos cognitivos */
+.q-text .verb { color: var(--accent); font-weight: 700; }
+/* Puntuaciones */
+.q-text .pts { color: var(--info); font-weight: 700; }
+
+/* Espacio para respuesta */
+.answer-space {
+  margin-top: 14px;
+  border-top: 1px dashed #c8d2e0;
+  padding-top: 10px;
+}
+.answer-lines {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.answer-line {
+  border-bottom: 1px solid #e0e0e0;
+  height: 24px;
+}
+
+/* Parejas de opciones A/B */
+.option-pair { display: flex; flex-direction: column; gap: 0; }
+.option-block {
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--border);
+}
+.option-block:last-child { border-bottom: none; }
+.option-block:nth-child(2) { background: #fffdf7; }
+.option-label {
+  display: inline-block;
+  font-weight: 700;
+  font-size: .82rem;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  padding: 3px 10px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+.option-label.a { background: #e8f0fe; color: #1a5fb4; }
+.option-label.b { background: #fef3e2; color: #9a6700; }
+.choose-note {
+  text-align: center;
+  font-size: .78rem;
+  color: var(--muted);
+  font-style: italic;
+  padding: 8px;
+  background: #f7f9fc;
+  border-top: 1px solid var(--border);
+}
+
+/* ═══════════════════════════════════════════
+   IMPRESIÓN
+═══════════════════════════════════════════ */
+@media print {
+  @page { size: A4; margin: 1.8cm 2cm; }
+  body { background: white; padding: 0; font-family: "Times New Roman", Times, serif; }
+  .site-header, .control-panel, .timer-bar, .btn-print,
+  .session-stats, .exam-wrapper > *:not(.exam-sheet) { display: none !important; }
+  .exam-wrapper { display: block !important; margin: 0; padding: 0; max-width: none; }
+  .exam-sheet { border-radius: 0; box-shadow: none; animation: none; }
+  .exam-header { background: white; color: black; border-bottom: 2pt solid black; padding: 0 0 12pt 0; }
+  .exam-header-logo { display: none; }
+  .exam-header-text h2 { font-size: 14pt; font-family: "Times New Roman", serif; }
+  .exam-header-text p, .exam-meta { font-size: 9pt; }
+  .exam-instructions { background: none; border: 1pt solid #ccc; margin: 8pt 0; padding: 8pt; font-size: 9pt; }
+  .exam-body { padding: 0; }
+  .part-badge { border: 1pt solid black; padding: 2pt 6pt; background: none; color: black; }
+  .part-title { font-size: 11pt; }
+  .exam-q { border: 1pt solid #aaa; page-break-inside: avoid; margin-bottom: 12pt; }
+  .exam-q-header { background: #f0f0f0; padding: 6pt 10pt; }
+  .q-num { border: 1pt solid black; background: none; color: black; width: 18pt; height: 18pt; font-size: 8pt; }
+  .q-score { background: none; border: 1pt solid #888; color: #444; }
+  .new-tag { display: none; }
+  .exam-q-body { padding: 8pt 10pt; }
+  .q-text { font-size: 10pt; line-height: 1.6; }
+  .img-placeholder { border: 1pt dashed #888; font-size: 8pt; padding: 8pt; }
+  .option-label.a, .option-label.b { border: 1pt solid #aaa; background: none; color: black; }
+  .choose-note { font-size: 8pt; border-top: 1pt solid #ccc; }
+  .answer-line { border-bottom: .5pt solid #bbb; }
+  .answer-space { border-top: .5pt dashed #bbb; }
+}
+</style>
+</head>
+<body>
+
+<!-- ══ CABECERA ══ -->
+<header class="site-header">
+  <h1>Simulacro <span>PAU</span> Biología</h1>
+  <p>Generador de exámenes con estructura oficial · Andalucía 2025</p>
+  <div class="badges">
+    <span class="badge-pill">📋 Estructura real PAU</span>
+    <span class="badge-pill">⏱ 90 minutos</span>
+    <span class="badge-pill">📚 Banco 2017-2025</span>
+    <span class="badge-pill">🖨 Imprimible</span>
+  </div>
+</header>
+
+<!-- ══ PANEL DE CONTROL ══ -->
+<div class="control-panel">
+  <div class="control-card">
+    <h2>Generar examen aleatorio</h2>
+    <p class="subtitle">Cada examen es único. Las preguntas se eligen aleatoriamente del banco oficial actualizado.</p>
+
+    <div class="exam-structure">
+      <div class="structure-block">
+        <strong>Parte I — Obligatoria</strong>
+        <p>2 preguntas competenciales (con imagen o datos). <strong>4 puntos</strong> (2 por pregunta).</p>
+      </div>
+      <div class="structure-block part2">
+        <strong>Parte II — Electiva</strong>
+        <p>3 bloques con opciones A y B. Eliges una por bloque. <strong>6 puntos</strong> (2 por bloque).</p>
+      </div>
+    </div>
+
+    <div class="filter-row">
+      <label for="themeFilter">Énfasis temático:</label>
+      <select id="themeFilter" aria-label="Filtrar bloques temáticos del examen">
+        <option value="all">🎲 Aleatorio completo (todos los bloques)</option>
+        <option value="Biomoléculas">Biomoléculas</option>
+        <option value="Célula">Biología Celular</option>
+        <option value="Genética">Genética</option>
+        <option value="Metabolismo">Metabolismo</option>
+        <option value="Biotecnología">Biotecnología</option>
+        <option value="Inmunología">Inmunología</option>
+        <option value="Microbiología">Microbiología</option>
+      </select>
+    </div>
+
+    <div class="filter-notice" id="filterNotice"></div>
+
+    <div class="action-row">
+      <button class="btn-generate" id="btnGenerate" onclick="generateExam()">
+        🖨 Generar Examen
+      </button>
+      <button class="btn-print" id="btnPrint" onclick="window.print()">
+        📄 Imprimir / PDF
+      </button>
+    </div>
+
+    <div class="session-stats">
+      <div class="stat-chip">Exámenes generados: <strong id="genCount">0</strong></div>
+      <div class="stat-chip">Preguntas en banco: <strong id="dbCount">0</strong></div>
+    </div>
+  </div>
+</div>
+
+<!-- ══ TEMPORIZADOR ══ -->
+<div class="timer-bar" id="timerBar">
+  <div class="timer-card">
+    <div>
+      <div class="timer-label">Tiempo restante</div>
+      <div class="timer-display" id="timerDisplay">90:00</div>
+    </div>
+    <div class="timer-track">
+      <div class="timer-fill" id="timerFill"></div>
+    </div>
+    <div>
+      <button onclick="resetTimer()" style="padding:8px 18px;border:1.5px solid var(--border);border-radius:8px;background:white;cursor:pointer;font-size:.85rem;color:var(--muted);">↺ Reiniciar</button>
+    </div>
+  </div>
+</div>
+
+<!-- ══ PAPEL DE EXAMEN ══ -->
+<div class="exam-wrapper" id="examWrapper">
+  <div class="exam-sheet" id="examSheet">
+
+    <div class="exam-header">
+      <div class="exam-header-logo">🧬</div>
+      <div class="exam-header-text">
+        <h2>Prueba de Acceso a la Universidad · Biología</h2>
+        <p>Universidades Públicas de Andalucía · Convocatoria 2025</p>
+      </div>
+      <div class="exam-meta" id="examMeta"></div>
+    </div>
+
+    <div class="exam-instructions">
+      <strong>Instrucciones:</strong> Duración: 90 minutos. La <strong>Parte I</strong> es obligatoria (Preguntas 1 y 2, 2 puntos cada una). En la <strong>Parte II</strong>, elige <strong>una sola opción (A o B)</strong> para cada una de las Preguntas 3, 4 y 5. No mezcles opciones dentro de una misma pregunta. La calificación máxima es de 10 puntos.
+    </div>
+
+    <div class="exam-body" id="examBody"></div>
+  </div>
+</div>
+
+<script>
+// ══════════════════════════════════════════════════════════════
+//  BASE DE DATOS DE PREGUNTAS  (v2 · normalizada y ampliada)
+//
+//  isNew: true  → Parte I (competencial, con imagen o datos)
+//  isNew: false → Parte II (electiva, desarrollo)
+//
+//  Bloques NORMALIZADOS (coinciden con el selector):
+//    Biomoléculas | Célula | Genética | Metabolismo |
+//    Biotecnología | Inmunología | Microbiología
+//
+//  CAMBIOS v3 respecto a v2:
+//   · Añadidas 45 preguntas más (32 competenciales + 13 electivas)
+//     desde 3 JSON adicionales de NotebookLM.
+//   · Reclasificación: "Deducción de ácido nucleico vírico" pasa
+//     de Genética → Microbiología (encaja por contenido y equilibra
+//     el bloque). Producción de bioetanol y anticuerpos en plantas
+//     transgénicas → Biotecnología (eran "Metabolismo" en origen).
+//   · Verbos cognitivos ampliados con: proponga, redacte, enuncie.
+//
+//  CAMBIOS v2 respecto a v1:
+//   · Renombrado "Bioquímica" → "Biomoléculas"
+//   · Renombrado "Estructura y Fisiología Celular" → "Célula"
+//   · Renombrado "Genética y Evolución" → "Genética"
+//   · Añadidas 15 preguntas nuevas (8 competenciales + 7 electivas)
+//     procedentes del análisis NotebookLM, limpiadas y con
+//     puntuaciones PAU reales (suman 2 pts/pregunta).
+// ══════════════════════════════════════════════════════════════
+const database = [
+
+  // ─── PARTE I: COMPETENCIALES ─────────────────────────────────
+
+  {
+    block:"Biomoléculas", topic:"Molécula del agua y dipolo", isNew:true,
+    q:"<b>A la vista del esquema de la molécula de agua:</b><br>a) Explique por qué se considera un dipolo eléctrico. [0,5]<br>b) Describa el enlace por puentes de hidrógeno. [0,5]<br>c) Justifique cómo esta estructura permite la capilaridad en las plantas. [0,5]<br>d) Explique la importancia de la densidad anómala del agua para los ecosistemas acuáticos polares. [0,5]"
+  },
+  {
+    block:"Metabolismo", topic:"Cianuro y cadena respiratoria", isNew:true,
+    q:"<b>Un investigador bloquea la citocromo c oxidasa con cianuro:</b><br>a) ¿Qué orgánulo y proceso se ven afectados directamente? [0,5]<br>b) Justifique por qué cesa la producción de ATP. [0,5]<br>c) ¿Podría la célula sobrevivir mediante fermentación láctica? Razone la respuesta. [0,5]<br>d) Si se añadiesen ácidos grasos al medio, ¿podría la célula obtener energía? Razone. [0,5]"
+  },
+  {
+    block:"Inmunología", topic:"Gráfica respuesta primaria vs secundaria", isNew:true,
+    q:"<b>Analice la gráfica de concentración de anticuerpos tras dos contactos con el mismo antígeno:</b><br>a) Compare la respuesta primaria y secundaria en cuanto a tiempo de respuesta e intensidad. [0,5]<br>b) Identifique las células responsables de la memoria inmunológica. [0,5]<br>c) ¿Qué tipo de anticuerpo (IgM o IgG) predomina en cada respuesta? Justifique. [0,5]<br>d) ¿En qué se basa el calendario de vacunación con dosis de refuerzo? [0,5]"
+  },
+  {
+    block:"Biotecnología", topic:"Biorremediación tras vertido de petróleo", isNew:true,
+    q:"<b>Tras un vertido de petróleo, se observa un aumento de bacterias del género <i>Alcanivorax</i>:</b><br>a) Defina biorremediación. [0,5]<br>b) Explique la diferencia entre bioestimulación y bioaumento. [0,5]<br>c) ¿Qué ventaja ambiental tiene este proceso frente a métodos químicos? [0,5]<br>d) ¿Qué tipo de nutrición tienen estas bacterias? ¿Son autótrofas o heterótrofas? Razone. [0,5]"
+  },
+  {
+    block:"Célula", topic:"Identificación de fase de división celular", isNew:true,
+    q:"<b>Dada una microfotografía de una célula en división con cromosomas alineados en el ecuador y fibras del huso visibles:</b><br>a) Identifique la fase y tipo de división representada. Justifique. [0,5]<br>b) Describa los eventos que ocurren en esta fase con los cromosomas y el huso acromático. [0,5]<br>c) ¿Es célula animal o vegetal? Indique los criterios morfológicos utilizados. [0,5]<br>d) ¿Cuál es la finalidad biológica de este proceso? [0,5]"
+  },
+  {
+    block:"Metabolismo", topic:"Esquema del cloroplasto y fotosíntesis", isNew:true,
+    q:"<b>Observe el esquema del cloroplasto con sus estructuras señaladas:</b><br>a) Identifique las estructuras señaladas (tilacoides, grana, estroma, membrana interna). [0,5]<br>b) Localice la fase fotoquímica y el ciclo de Calvin. ¿Qué productos genera cada una? [0,5]<br>c) Indique la procedencia del oxígeno liberado en la fotosíntesis. [0,5]<br>d) ¿Por qué los organismos fotosintéticos realizan el ciclo de Calvin incluso en presencia de luz? Razone por qué el término 'fase oscura' es impreciso. [0,5]"
+  },
+  {
+    block:"Genética", topic:"Árbol genealógico y determinación del tipo de herencia", isNew:true,
+    q:"<b>Analice el pedigrí adjunto donde dos padres sanos tienen una hija enferma:</b><br>a) Determine si el alelo causante es dominante o recesivo. Razone. [0,5]<br>b) Razone si el gen puede estar ligado al cromosoma X. ¿Qué dato del pedigrí es determinante? [0,5]<br>c) Indique los genotipos de los progenitores. [0,5]<br>d) ¿Qué probabilidad existe de que el siguiente hijo esté afectado? [0,5]"
+  },
+  {
+    block:"Célula", topic:"Esquema de la mitocondria y endosimbiosis", isNew:true,
+    q:"<b>A la vista de un esquema de una mitocondria con sus componentes señalados:</b><br>a) Identifique siete de sus componentes estructurales. [0,5]<br>b) Cite dos procesos metabólicos que ocurran en la mitocondria, indicando en qué parte exacta. [0,5]<br>c) Indique dos argumentos estructurales o moleculares que justifiquen el origen endosimbiótico de las mitocondrias. [0,5]<br>d) ¿Puede una célula vegetal poseer mitocondrias y cloroplastos a la vez? Razone. [0,5]"
+  },
+  {
+    block:"Metabolismo", topic:"Rutas metabólicas: glucosa a CO₂", isNew:true,
+    q:"<b>Dado el esquema: Glucosa → Piruvato → Acetil-CoA → Ciclo de Krebs → Cadena respiratoria:</b><br>a) Justifique si es un proceso anabólico o catabólico. [0,5]<br>b) Localice cada paso en la célula (orgánulo o compartimento específico). [0,5]<br>c) ¿Qué ocurre en ausencia de oxígeno? Explique el proceso alternativo y su rendimiento energético. [0,5]<br>d) Calcule las moléculas de CO₂ que se liberarían si se oxidasen completamente 100 moléculas de glucosa. [0,5]"
+  },
+  {
+    block:"Microbiología", topic:"Antibiograma: interpretación de halos", isNew:true,
+    q:"<b>Se presenta una imagen de una placa con discos de tres antibióticos diferentes y sus halos de inhibición:</b><br>a) Razone cuál es el antibiótico más eficaz y cuál muestra resistencia bacteriana. [0,5]<br>b) ¿Por qué los antibióticos no sirven contra virus? Justifique a nivel molecular. [0,5]<br>c) Explique el riesgo de la resistencia bacteriana y su origen mediante selección natural. [0,5]<br>d) ¿Por qué los antibióticos son útiles contra bacterias pero no dañan nuestras células? [0,5]"
+  },
+  {
+    block:"Biomoléculas", topic:"Identificación de glúcidos en laboratorio", isNew:true,
+    q:"<b>En el laboratorio hay cuatro tubos (A, B, C, D) con glucosa, lactosa, sacarosa y almidón:</b><br>Tubo A: dulce, reductor, soluble, NO hidrolizable.<br>Tubo B: no dulce, no reductor, insoluble, hidrolizable.<br>Tubo C: dulce, reductor, soluble, hidrolizable.<br>Tubo D: dulce, NO reductor, soluble, hidrolizable.<br>a) Identifica cada tubo razonando tus respuestas. [1]<br>b) ¿Cuáles liberarían glucosa libre al hidrolizarse? Justifica. [0,5]<br>c) ¿Cuáles podría ingerir un paciente diabético con menos riesgo de hiperglucemia rápida? [0,5]"
+  },
+  {
+    block:"Genética", topic:"Desnaturalización del ADN y contenido GC", isNew:true,
+    q:"<b>Se comparan dos muestras de ADN de igual tamaño: la muestra A se desnaturaliza a 80°C y la B a 90°C:</b><br>a) Explique razonadamente qué causa esta diferencia de temperatura de desnaturalización. [0,5]<br>b) ¿Qué tipo de enlace se rompe durante la desnaturalización del ADN? [0,5]<br>c) ¿Cuántos puentes de hidrógeno establece el par G-C y el par A-T? ¿Qué consecuencia tiene esto? [0,5]<br>d) ¿Qué muestra (A o B) tendrá mayor proporción de pares G-C? Razone. [0,5]"
+  },
+  {
+    block:"Célula", topic:"Gráfica de variación del ADN en el ciclo celular", isNew:true,
+    q:"<b>A la vista de una gráfica que representa la variación del contenido de ADN a lo largo del ciclo celular:</b><br>a) Identifica cada fase del ciclo (G1, S, G2, mitosis). Justifica tu respuesta. [0,5]<br>b) ¿En qué fase ocurre la replicación del ADN? ¿Y la transcripción y la traducción? [0,5]<br>c) Si se bloquearan los centrómeros (impidiendo la separación de cromátidas), ¿en qué fase se detendría la división? Razona. [0,5]<br>d) Dibuja (describe) la gráfica esperada si a partir de la mitosis la célula hija entrara directamente en G0 (reposo). [0,5]"
+  },
+  {
+    block:"Inmunología", topic:"Suero vs vacuna: tratamiento del Ébola", isNew:true,
+    q:"<b>Dos pacientes infectados por el virus del Ébola reciben tratamientos distintos: el paciente A recibe suero de personas que superaron la enfermedad; el paciente B recibe partículas virales muertas:</b><br>a) ¿Cuál es el tratamiento más adecuado para una infección activa grave? Razone. [0,5]<br>b) Define inmunidad pasiva e inmunidad activa. ¿Cuál de ellas genera memoria inmunológica? [0,5]<br>c) ¿Qué tipo de inmunoglobulinas contiene el suero del paciente A? [0,5]<br>d) ¿Por qué el tratamiento del paciente B no es eficaz como terapia de urgencia? [0,5]"
+  },
+
+  // ─── PARTE I — NUEVAS (procedentes de NotebookLM, limpiadas) ──
+
+  {
+    block:"Célula", topic:"Fenómenos osmóticos en vegetales (lechuga)", isNew:true,
+    q:"<b>Considere las siguientes observaciones experimentales con hojas de lechuga:</b><br>a) Razone por qué las hojas se ponen turgentes cuando se sumergen en agua para lavarlas. [0,5]<br>b) Razone por qué esas mismas hojas se arrugan cuando se aliñan con sal. [0,5]<br>c) Defina los conceptos de medio hipotónico, hipertónico e isotónico. [0,5]<br>d) Indique qué orgánulo de la célula vegetal es el principal responsable de la turgencia y explique su papel. [0,5]"
+  },
+  {
+    block:"Biomoléculas", topic:"Estructura del aminoácido y enlace peptídico", isNew:true,
+    q:"<b>En relación con la imagen de un aminoácido genérico con los grupos químicos numerados (1, 2 y R):</b><br>a) Identifique los grupos químicos señalados con los números 1 y 2 y explique qué representa R. [0,5]<br>b) Indique el nombre de las macromoléculas formadas por la unión de muchos de estos monómeros y enumere cuatro funciones biológicas de las mismas. [0,5]<br>c) Indique cómo se denomina el compuesto que se forma al unirse dos aminoácidos y represente esquemáticamente el proceso. [0,5]<br>d) Indique el nombre del enlace que se forma entre ambos y cite dos características del mismo. [0,5]"
+  },
+  {
+    block:"Genética", topic:"Esquema de la expresión génica", isNew:true,
+    q:"<b>A la vista del esquema del flujo de la información genética con moléculas numeradas (1-7):</b><br>a) Nombre las moléculas representadas con los números 1, 2, 3 y 5 e indique qué procesos se desarrollan en el núcleo. [0,5]<br>b) Comente los cambios que ocurren entre las moléculas 3 y 5 (maduración o procesamiento del ARNm). [0,5]<br>c) Indique qué representan los números 6 y 7 y nombre el proceso que se desarrolla en el citoplasma. [0,5]<br>d) Explique brevemente dicho proceso citoplasmático (traducción). [0,5]"
+  },
+  {
+    block:"Microbiología", topic:"Estructura y ciclo del bacteriófago (esquema)", isNew:true,
+    q:"<b>A la vista de la imagen de un bacteriófago con sus partes y su ciclo numerados (1-8):</b><br>a) Indique cuatro componentes estructurales del virus y especifique qué tipo de ácido nucleico posee. [0,5]<br>b) Indique qué representan los números 1 y 2 y nombre el tipo de célula a la que infecta. [0,5]<br>c) Comente los procesos que tienen lugar desde el número 3 hasta el 8 (adsorción, inyección, replicación, ensamblaje, lisis). [0,5]<br>d) Diferencie el ciclo lítico del ciclo lisogénico. [0,5]"
+  },
+  {
+    block:"Genética", topic:"Relación ADN-fenotipo: del genotipo al carácter", isNew:true,
+    q:"<b>Explique razonadamente las siguientes cuestiones que conectan la secuencia de ADN con los caracteres observables:</b><br>a) Justifique por qué la secuencia de nucleótidos del ADN determina que tengamos el pelo liso o rizado. [0,5]<br>b) Justifique por qué la secuencia de nucleótidos del ADN determina que los guisantes sean amarillos o verdes. [0,5]<br>c) Defina los conceptos de gen, alelo y fenotipo, y relaciónelos entre sí. [0,5]<br>d) Explique brevemente el flujo de información genética: ADN → ARN → proteína → carácter. [0,5]"
+  },
+  {
+    block:"Genética", topic:"Dogma central de la biología molecular (esquema)", isNew:true,
+    q:"<b>A la vista del esquema con cuatro procesos (A, B, C, D) del flujo de la información genética:</b><br>a) Indique el nombre del proceso representado por cada letra. [0,5]<br>b) Asigne cada uno de los siguientes términos al proceso correspondiente: anticodón, transcriptasa inversa, promotor, aminoácidos, ARN transferente y cebadores. [0,5]<br>c) Defina el proceso B (transcripción). [0,5]<br>d) Defina el proceso D (traducción o replicación, según el esquema). [0,5]"
+  },
+  {
+    block:"Genética", topic:"Traducción de polipéptido y mutación puntual", isNew:true,
+    q:"<b>Dado el polipéptido NH₂—Met—Cys—Asp—Trp—COOH y la tabla del código genético adjunta:</b><br>a) Escriba una posible secuencia de ARNm que dé lugar a este polipéptido, indicando los extremos 5' y 3'. [0,5]<br>b) Indique la secuencia de bases del ADN molde que codificaría el ARNm propuesto. [0,5]<br>c) Señale una posible mutación del ADN que cambiaría el aminoácido Cys por Ser e indique qué tipo de mutación es. [0,5]<br>d) Razone si dicha mutación se transmitirá a la descendencia. [0,5]"
+  },
+  {
+    block:"Microbiología", topic:"Regla de Chargaff aplicada a patógenos", isNew:true,
+    q:"<b>Se analiza el genoma de varios agentes patógenos. Deduzca razonadamente el porcentaje de las restantes bases nitrogenadas cuando sea posible:</b><br>a) Viroide aislado de aguacate: 29% adenina, ARN monocatenario. [0,4]<br>b) Coronavirus aislado de secreción nasal humana: 31% adenina, ARN monocatenario. [0,4]<br>c) <i>Salmonella enteritidis</i> aislada de heces humanas: 22% adenina, ADN bicatenario. [0,4]<br>d) Parvovirus aislado de epitelio canino: 27% adenina, ADN monocatenario. [0,4]<br>e) Birnavirus aislado de piel de gallina: 32% adenina, ARN bicatenario. Indique en qué casos NO puede aplicarse la regla de Chargaff y por qué. [0,4]"
+  },
+
+  // ─── PARTE I — NUEVAS v3 (NotebookLM docs 4/5/6 limpiados) ───
+
+  {
+    block:"Metabolismo", topic:"Pardeamiento enzimático de la manzana (polifenoloxidasa)", isNew:true,
+    q:"<b>La polifenoloxidasa oxida los polifenoles en presencia de oxígeno y causa el pardeamiento de los frutos cortados, como la manzana. Este pardeamiento puede evitarse de tres formas distintas. Explique razonadamente cada caso:</b><br>a) Reduciendo el acceso de la enzima al oxígeno (envasado al vacío o inmersión en agua). [0,6]<br>b) Añadiendo compuestos ácidos (zumo de limón). Justifique la dependencia enzimática del pH. [0,7]<br>c) Calentando la fruta cinco minutos en agua hirviendo. Justifique mencionando desnaturalización. [0,7]"
+  },
+  {
+    block:"Genética", topic:"Mutaciones silenciosas y degeneración del código", isNew:true,
+    q:"<b>Considere la siguiente cuestión sobre código genético:</b><br>a) ¿Se puede alterar la secuencia de bases de un gen sin que resulte afectada la proteína que codifica? Razone la respuesta. [1]<br>b) Indique qué característica del código genético hace posible este fenómeno. [0,5]<br>c) ¿Cómo se denomina este tipo de mutación? Ponga un ejemplo concreto con un codón. [0,5]"
+  },
+  {
+    block:"Genética", topic:"Mutación por sustitución de bases y propagación somática", isNew:true,
+    q:"<b>Por la acción de un mutágeno se produce la sustitución de una base por otra en una de las cadenas de un gen que codifica una proteína. Sin que ocurra reparación, tienen lugar sucesivas divisiones celulares:</b><br>a) ¿Presentarán todas las células descendientes la mutación? Razone la respuesta. [1]<br>b) Explique en qué medida puede verse afectada la funcionalidad de la proteína (mutación silenciosa, de sentido erróneo o sin sentido). [1]"
+  },
+  {
+    block:"Metabolismo", topic:"Temperatura y rendimiento fotosintético", isNew:true,
+    q:"<b>Un investigador observa que la actividad fotosintética se duplica al subir la temperatura de 25 °C a 45 °C, pero por encima de 55 °C disminuye drásticamente:</b><br>a) Explique razonadamente el incremento entre 25 °C y 45 °C en términos de cinética enzimática. [0,7]<br>b) Explique razonadamente la caída por encima de 55 °C en términos de estructura proteica. [0,7]<br>c) ¿En qué fase de la fotosíntesis (fotoquímica o ciclo de Calvin) influye especialmente la temperatura? Justifique. [0,6]"
+  },
+  {
+    block:"Inmunología", topic:"Esquema de respuesta celular y humoral", isNew:true,
+    q:"<b>A la vista de un esquema del sistema inmunitario con células numeradas del 1 al 6 y procesos A, B y C:</b><br>a) Identifique las células 1-6 (macrófago, linfocito B, linfocito T colaborador, T citotóxico, célula plasmática, célula de memoria) y nombre los procesos A, B, C. [1]<br>b) Diferencie funcionalmente la célula 5 (plasmática) de la célula 6 (de memoria). [0,5]<br>c) Indique una función concreta de la célula 2 (presentadora de antígeno) y otra de la célula 4 (citotóxica). [0,5]"
+  },
+  {
+    block:"Metabolismo", topic:"Gráfica de actividad enzimática frente a temperatura", isNew:true,
+    q:"<b>A la vista de una gráfica con la actividad de dos enzimas (A y B) frente a la temperatura, con óptimos diferentes:</b><br>a) Describa el comportamiento de ambas enzimas indicando temperatura óptima y zona de desnaturalización. [0,8]<br>b) La enzima A transforma el sustrato X en producto Y; la enzima B transforma X en producto Z. ¿Cuál de los dos productos se formará en mayor cantidad a 40 °C? Razone. [0,6]<br>c) ¿Y a 70 °C? Razone. [0,6]"
+  },
+  {
+    block:"Metabolismo", topic:"Energía liberada y catálisis enzimática", isNew:true,
+    q:"<b>En una reacción química, la sustancia A se transforma en B liberando 10 kcal/mol de sustrato:</b><br>a) ¿Cuánta energía se liberaría si la reacción estuviera catalizada por una enzima? Razone la respuesta. [1]<br>b) Defina energía de activación y explique cómo la afecta una enzima. [0,5]<br>c) Represente esquemáticamente el perfil energético de la reacción con y sin enzima. [0,5]"
+  },
+  {
+    block:"Célula", topic:"Recuento de cromosomas y cromátidas en el ciclo celular", isNew:true,
+    q:"<b>La especie humana tiene 2n = 46 cromosomas. Indique cuántos cromosomas y cuántas cromátidas por cromosoma habrá en cada situación, razonando la respuesta:</b><br>a) Inicio de la interfase (fase G1). [0,4]<br>b) Metafase I meiótica. [0,4]<br>c) Profase II meiótica. [0,4]<br>d) Gameto (espermatozoide u óvulo maduro). [0,4]<br>e) Zigoto recién formado. [0,4]"
+  },
+  {
+    block:"Célula", topic:"Ósmosis en células animales en tres medios", isNew:true,
+    q:"<b>Se introducen células animales en tres tubos: A con solución hipertónica, B con hipotónica y C con isotónica. Exponga razonadamente lo que ocurrirá en cada tubo:</b><br>a) Tubo A: crenación o plasmólisis. [0,5]<br>b) Tubo B: turgencia y posible hemólisis. [0,5]<br>c) Tubo C: equilibrio osmótico. [0,5]<br>d) ¿Por qué una célula animal estalla en medio hipotónico mientras que una célula vegetal solo se vuelve turgente? [0,5]"
+  },
+  {
+    block:"Genética", topic:"Autofecundación hermafrodita y variabilidad (tenias)", isNew:true,
+    q:"<b>Las tenias son organismos hermafroditas que pueden autofecundarse: se fusionan gametos femeninos y masculinos procedentes del mismo individuo, de manera que todos los cromosomas de la descendencia derivan del mismo progenitor:</b><br>a) Explique razonadamente si los descendientes de una tenia tendrán todos el mismo genotipo. [1]<br>b) Justifique su respuesta mencionando los mecanismos meióticos que generan variabilidad (entrecruzamiento, segregación independiente). [0,5]<br>c) ¿La autofecundación tiende a aumentar o disminuir la homocigosis con las generaciones? Razone. [0,5]"
+  },
+  {
+    block:"Biotecnología", topic:"Procesos fermentativos en cuatro productos industriales", isNew:true,
+    q:"<b>Observe una figura con cuatro productos derivados de procesos fermentativos (por ejemplo, vino, pan, yogur y queso):</b><br>a) ¿Qué proceso metabólico tienen en común los cuatro productos? [0,6]<br>b) ¿Qué tipo de microorganismo es responsable de la producción de cada uno? Indique género o grupo. [0,7]<br>c) Para cada producto, indique la molécula de partida y la molécula orgánica resultante. [0,7]"
+  },
+  {
+    block:"Metabolismo", topic:"Identificación de vías metabólicas por gases producidos", isNew:true,
+    q:"<b>En un experimento con dos matraces (matraz A: planta verde iluminada; matraz B: cultivo de levaduras con glucosa) se observa la producción de gases:</b><br>a) ¿Qué gas se genera principalmente en el matraz A y en el matraz B? [0,5]<br>b) Nombre la vía metabólica responsable de la producción del gas en cada matraz. [0,5]<br>c) ¿Qué gases se generarían en cada matraz si el experimento se realizara en oscuridad? Razone. [0,5]<br>d) ¿Se generarían los gases si la temperatura del experimento fuese de 60 °C? Razone. [0,5]"
+  },
+  {
+    block:"Metabolismo", topic:"Digestión enzimática de albúmina (pepsina + HCl)", isNew:true,
+    q:"<b>Se preparan cuatro tubos con clara de huevo (albúmina) y distintas mezclas, todos a 40 °C. Solo en uno se observa hidrólisis (aclaramiento):<br>Tubo 1: albúmina + agua. Tubo 2: albúmina + HCl 0,1 N. Tubo 3: albúmina + pepsina + HCl. Tubo 4: albúmina + pepsina + agua.</b><br>a) ¿En qué tubo se ha producido la hidrólisis? Razone indicando los dos factores indispensables para la actividad de la pepsina. [1]<br>b) Si el experimento se realizara a 80 °C, ¿se obtendría el mismo resultado? Razone la respuesta. [1]"
+  },
+  {
+    block:"Microbiología", topic:"Deducción del tipo de ácido nucleico vírico", isNew:true,
+    q:"<b>El análisis del ácido nucleico de un virus arroja los siguientes porcentajes: A = 24 %, G = 31 %, T = 33 %, C = 12 %:</b><br>a) ¿De qué tipo de ácido nucleico se trata (ADN o ARN)? Justifique a partir de las bases presentes. [0,7]<br>b) ¿Es bicatenario o monocatenario? Razone aplicando la regla de Chargaff. [0,7]<br>c) Explique por qué algunos virus pueden tener genomas que no cumplen las proporciones de Chargaff. [0,6]"
+  },
+  {
+    block:"Célula", topic:"Orgánulos en células secretoras de glicoproteínas", isNew:true,
+    q:"<b>Las mucosas internas están recubiertas por mucus, un líquido viscoso rico en mucinas (glicoproteínas) producidas por células secretoras del epitelio:</b><br>a) Cite, razonando la respuesta, dos orgánulos que deben estar especialmente desarrollados en estas células. [1]<br>b) Indique en qué orgánulo se añaden los glúcidos a las glicoproteínas durante su procesamiento. [0,5]<br>c) Describa el recorrido intracelular de una glicoproteína de secreción desde su síntesis hasta su exocitosis. [0,5]"
+  },
+  {
+    block:"Biomoléculas", topic:"Poder reductor de glúcidos: madurez de la miel", isNew:true,
+    q:"<b>Las abejas recolectan néctar (rico en sacarosa) y lo mezclan con la enzima sacarasa. Durante la maduración de la miel, la sacarosa se hidroliza casi por completo:</b><br>a) ¿Qué monosacáridos resultan de la hidrólisis de la sacarosa? [0,5]<br>b) ¿Cómo podría determinarse en el laboratorio si una miel está suficientemente madura para ser cosechada? Indique el reactivo a emplear (Fehling o Benedict). [0,7]<br>c) Razone por qué la sacarosa NO es reductora pero sus productos de hidrólisis SÍ lo son (papel del carbono anomérico libre). [0,8]"
+  },
+  {
+    block:"Metabolismo", topic:"Fermentación láctica y desnaturalización ácida de la caseína", isNew:true,
+    q:"<b>Se realizan tres tratamientos a vasos de leche. Vaso 1: leche + zumo de limón, 10 h a 37 °C. Vaso 2: leche + <i>Lactobacillus acidophilus</i>, 10 h a 37 °C. Vaso 3: leche + <i>L. acidophilus</i>, 5 min a 90 °C, después 10 h a 37 °C. En los vasos 1 y 2 se observa cuajado; en el 3 no:</b><br>a) Explique qué ocurre en el vaso 1 (acidificación directa y desnaturalización de la caseína). [0,7]<br>b) Explique por qué ocurre lo mismo en el vaso 2 sin añadir ácido externo. [0,7]<br>c) Razone por qué el vaso 3 no muestra cambios. [0,6]"
+  },
+  {
+    block:"Célula", topic:"Inhibición de ribosomas 70S y teoría endosimbiótica", isNew:true,
+    q:"<b>En un cultivo de células eucarióticas animales se introduce un inhibidor selectivo de los ribosomas 70S:</b><br>a) ¿Podrán las células sintetizar proteínas en el citosol? Razone indicando el tipo de ribosoma citosólico eucariótico (80S). [0,7]<br>b) ¿Podrán esas células realizar la respiración celular? Razone indicando qué orgánulo contiene ribosomas 70S y por qué. [0,8]<br>c) ¿Qué argumento aporta esta observación a la teoría endosimbiótica? [0,5]"
+  },
+  {
+    block:"Célula", topic:"Tasa de evaporación y medio osmótico en plantas de tomate", isNew:true,
+    q:"<b>Dos plantas de tomate se cultivan en medio acuoso con iluminación y temperatura iguales, pero una en medio hipotónico y otra en medio hipertónico:</b><br>a) Suponiendo que la planta controla la evaporación, explique razonadamente con cuál de los dos medios la tasa de evaporación será menor. [1]<br>b) ¿Qué consecuencias tendrá para las células vegetales crecer en medio hipertónico? Mencione plasmólisis y pérdida de turgencia. [1]"
+  },
+  {
+    block:"Metabolismo", topic:"Factores limitantes de la fotosíntesis (CO₂ y temperatura)", isNew:true,
+    q:"<b>En un invernadero se enriquece la atmósfera en CO₂. Un grupo de plantas se mantiene a temperatura habitual y otro a temperatura baja:</b><br>a) ¿Cómo afectará el enriquecimiento en CO₂ al primer grupo (temperatura adecuada)? Justifique mencionando el ciclo de Calvin y la rubisco. [1]<br>b) Explique razonadamente qué grupo presentará mayor rendimiento fotosintético y por qué la temperatura limita la fase oscura. [1]"
+  },
+  {
+    block:"Célula", topic:"Plantas halófilas: adaptación osmótica al suelo salino", isNew:true,
+    q:"<b>En suelos con elevada concentración de sales solo crecen plantas halófilas, cuyas células acumulan más sales que el medio externo:</b><br>a) Justifique la necesidad de mantener una concentración salina intracelular elevada teniendo en cuenta los requerimientos hídricos de la planta. [1]<br>b) Defina los términos hipertónico, hipotónico e isotónico aplicados al suelo y a la raíz. [0,5]<br>c) ¿Qué le ocurriría a una planta no halófila en un suelo salino? Razone en términos osmóticos. [0,5]"
+  },
+  {
+    block:"Genética", topic:"Determinación de genotipos por cruzamientos (gatos)", isNew:true,
+    q:"<b>En los gatos el pelo corto (A) es dominante sobre el pelo largo (a). Una tabla recoge varios cruzamientos con fenotipos de los parentales y descendencia:</b><br>a) Indique los genotipos posibles de los parentales y de los descendientes de cada cruzamiento. [1]<br>b) Razone qué cruzamientos permiten distinguir un homocigoto dominante de un heterocigoto (cruzamiento prueba). [0,5]<br>c) Represente como cuadro de Punnett uno de los cruces propuestos. [0,5]"
+  },
+  {
+    block:"Genética", topic:"Síntesis de proteínas: relación coherente de términos", isNew:true,
+    q:"<b>Redacte un texto breve y coherente que relacione los siguientes términos del flujo de información genética:</b><br>ADN · ARN · poros nucleares · ribosomas · aminoácidos [1,5]<br>El texto debe describir en orden los procesos de transcripción, exportación del ARNm al citoplasma y traducción, indicando dónde ocurre cada uno. [0,5]"
+  },
+  {
+    block:"Genética", topic:"Mutaciones somáticas vs germinales: consecuencias", isNew:true,
+    q:"<b>Compare razonadamente los dos grandes tipos de mutación según el tejido afectado:</b><br>a) ¿Tienen las mismas consecuencias las mutaciones que se producen en células somáticas que las que se producen en células germinales? Razone la respuesta. [1]<br>b) Ponga un ejemplo concreto de mutación somática con consecuencias para el individuo (por ejemplo, cáncer). [0,5]<br>c) Ponga un ejemplo concreto de mutación germinal con consecuencias para la descendencia o para la evolución. [0,5]"
+  },
+  {
+    block:"Metabolismo", topic:"Fermentación alcohólica común en pan y cerveza", isNew:true,
+    q:"<b>En relación con la fabricación de pan y cerveza:</b><br>a) ¿Qué proceso metabólico tienen en común? [0,5]<br>b) ¿Cuál es y de dónde procede la molécula de partida? [0,5]<br>c) ¿Cuáles son las moléculas resultantes y qué se aprovecha de cada una en pan y en cerveza? [0,5]<br>d) ¿Qué organismo es el responsable de esta reacción? Indique género. [0,5]"
+  },
+  {
+    block:"Metabolismo", topic:"Velocidad de fermentación bacteriana en yogur", isNew:true,
+    q:"<b>Para preparar yogur casero se mezcla un poco de yogur con leche y se mantiene a 35-40 °C durante 8 horas para que se realice la fermentación bacteriana:</b><br>a) ¿Qué ocurriría si la mezcla se mantuviera en el frigorífico a 4 °C? Razone en términos de cinética enzimática. [1]<br>b) ¿Qué tipo de fermentación realizan los <i>Lactobacillus</i>? Indique sustrato y producto. [0,5]<br>c) Explique por qué el yogur conserva mejor que la leche fresca (papel del descenso del pH). [0,5]"
+  },
+  {
+    block:"Metabolismo", topic:"Levaduras en la industria panadera: esponjosidad", isNew:true,
+    q:"<b>Las levaduras se utilizan en la industria panadera para hacer esponjar la masa, formando los huecos característicos del pan:</b><br>a) Identifique y describa brevemente el proceso metabólico que realizan las levaduras. ¿Cuál de los productos resultantes es la causa de la esponjosidad? [1]<br>b) Explique dos diferencias entre este proceso anaeróbico y la respiración celular aeróbica (rendimiento de ATP y productos finales). [1]"
+  },
+  {
+    block:"Biotecnología", topic:"Producción biotecnológica de bioetanol", isNew:true,
+    q:"<b>Como alternativa renovable a los combustibles fósiles se está introduciendo el bioetanol:</b><br>a) ¿Qué tipo de organismos son capaces de producir etanol a partir de glucosa y qué ventaja metabólica les supone esta producción? Razone la respuesta. [1]<br>b) Ayudándose de un esquema, detalle el proceso bioquímico de obtención de etanol a partir de glucosa (glucólisis + fermentación alcohólica). [0,7]<br>c) Cite dos ventajas ambientales del bioetanol frente a la gasolina. [0,3]"
+  },
+  {
+    block:"Metabolismo", topic:"Eliminación selectiva de una proteasa contaminante", isNew:true,
+    q:"<b>Un investigador descubre que una reacción catalizada por la enzima A no se produce porque la disolución de sustrato está contaminada con una enzima proteolítica B que hidroliza a la enzima A:</b><br>a) Proponga un tratamiento previo al sustrato que permita que la reacción con A se produzca. Razone la respuesta. [1]<br>b) Explique por qué un tratamiento térmico (por ejemplo 80 °C unos minutos) desactivaría a B pero no afectaría al sustrato si este no es proteico. [0,5]<br>c) ¿Por qué no sería una buena alternativa añadir un inhibidor químico de proteasas si después hay que añadir la enzima A? [0,5]"
+  },
+  {
+    block:"Genética", topic:"Selección natural en polillas (melanismo industrial)", isNew:true,
+    q:"<b>En una zona campestre con abedules de troncos blanquecinos, lejos de contaminación, se libera una población de 100 polillas claras y 100 oscuras (oscuro dominante sobre claro). Tras 3 días solo se capturan polillas claras; un año después se capturan también oscuras, en baja proporción:</b><br>a) Explique los resultados de las primeras capturas en términos de selección natural y depredación por aves. [0,7]<br>b) Explique por qué reaparecen polillas oscuras un año después en baja proporción (mutación, herencia, baja frecuencia inicial). [0,7]<br>c) Cite el ejemplo real (<i>Biston betularia</i>) y relaciónelo con la revolución industrial. [0,6]"
+  },
+  {
+    block:"Biotecnología", topic:"Anticuerpos humanos en plantas transgénicas", isNew:true,
+    q:"<b>Se han desarrollado sistemas de producción de anticuerpos humanos utilizando plantas transgénicas (por ejemplo, alfalfa):</b><br>a) Explique cómo se puede obtener un anticuerpo humano en una planta y defina tres herramientas moleculares necesarias para el proceso (gen de interés, vector, enzimas de restricción y ADN ligasa). [1]<br>b) Describa la estructura de una molécula de anticuerpo (IgG) indicando cadenas pesadas y ligeras, y regiones variable y constante. [1]"
+  },
+  {
+    block:"Genética", topic:"Esquema de transcripción y región promotora", isNew:true,
+    q:"<b>A la vista de un esquema con varias ARN polimerasas transcribiendo simultáneamente el mismo segmento de ADN:</b><br>a) Indique el nombre de las biomoléculas poliméricas que se están sintetizando y cómo se denomina el proceso. [0,7]<br>b) Explique qué es la región promotora e indique cuántas hay en el esquema. Justifique la respuesta. [0,7]<br>c) Indique qué cadena del ADN (5'→3' o 3'→5') actúa como molde. Justifique. [0,6]"
+  },
+
+  // ─── PARTE II: ELECTIVAS ─────────────────────────────────────
+
+  // BIOMOLÉCULAS
+  {
+    block:"Biomoléculas", topic:"Glúcidos: monosacáridos y funciones", isNew:false,
+    q:"a) Defina los monosacáridos [0,5] y explique dos de sus funciones. [0,6]<br>b) Realice una clasificación de los mismos indicando el criterio utilizado. [0,5]<br>c) Represente la fórmula desarrollada de la glucosa. [0,4]"
+  },
+  {
+    block:"Biomoléculas", topic:"Ácidos nucleicos: ADN y ARN", isNew:false,
+    q:"a) Defina ácido nucleico. [0,5]<br>b) Indique una diferencia entre ADN y ARN en cuanto a composición [0,5], estructura [0,5] y función. [0,5]"
+  },
+  {
+    block:"Biomoléculas", topic:"Niveles estructurales de las proteínas", isNew:false,
+    q:"a) Defina los cuatro niveles estructurales de las proteínas (primaria a cuaternaria), indicando el tipo de enlace que estabiliza cada uno. [1,2]<br>b) Explique qué ocurre durante la desnaturalización y qué nivel estructural NO se ve afectado. [0,4]<br>c) ¿Por qué la desnaturalización no elimina las propiedades nutritivas de la proteína? [0,4]"
+  },
+  {
+    block:"Biomoléculas", topic:"Proteínas: estabilización y renaturalización", isNew:false,
+    q:"a) Describa los distintos niveles estructurales de las proteínas indicando los tipos de enlaces, interacciones y fuerzas que las estabilizan. [1,5]<br>b) Explique en qué consisten los procesos de desnaturalización y renaturalización de las proteínas. [0,5]"
+  },
+  {
+    block:"Biomoléculas", topic:"Almidón vs celulosa: enlace e indigestibilidad", isNew:false,
+    q:"a) Compare el almidón y la celulosa: indica sus monómeros, el tipo de enlace glucosídico (α o β) y su función biológica. [1]<br>b) Razone por qué el ser humano puede digerir el almidón pero no la celulosa, a pesar de que ambos están formados por glucosa. [0,5]<br>c) ¿Qué función tiene la celulosa en la dieta humana, aunque no pueda digerirse? [0,5]"
+  },
+  {
+    block:"Biomoléculas", topic:"Lípidos: clasificación, funciones y jabón", isNew:false,
+    q:"a) Defina triacilglicérido, indique dos funciones biológicas y explique cómo se obtiene jabón a partir de él. [1]<br>b) Cite una biomolécula lipídica hidrófoba insaponificable y dos funciones de la misma. [0,6]<br>c) ¿Qué tipo de lípido es más saludable cardiovascularmente, saturado o insaturado? Justifique molecularmente. [0,4]"
+  },
+  {
+    block:"Biomoléculas", topic:"Ácidos grasos: esterificación y bicapas", isNew:false,
+    q:"a) Defina ácido graso. [0,5]<br>b) Explique en qué consisten las reacciones de esterificación y saponificación. [1]<br>c) Explique cómo se comportan las moléculas anfipáticas en el agua y relaciónelo con la formación de las membranas biológicas. [0,5]"
+  },
+  {
+    block:"Biomoléculas", topic:"Moléculas anfipáticas y membranas", isNew:false,
+    q:"a) Defina molécula hidrofílica, hidrofóbica y anfipática. [0,6]<br>b) Indique un ejemplo de biomolécula de cada uno de estos tipos. [0,6]<br>c) Explique el comportamiento de las moléculas anfipáticas en medio acuoso (formación de micelas y bicapas) y relaciónelo con la organización de las membranas biológicas. [0,8]"
+  },
+  {
+    block:"Biomoléculas", topic:"Vitaminas: clasificación y avitaminosis", isNew:false,
+    q:"a) Defina vitamina y realice una clasificación indicando el criterio utilizado. Cite dos ejemplos de cada grupo. [1]<br>b) Explique el término avitaminosis y cite dos enfermedades por déficit vitamínico. [0,5]<br>c) ¿Por qué las vitaminas liposolubles pueden resultar tóxicas en exceso mientras que las hidrosolubles raramente lo son? [0,5]"
+  },
+  {
+    block:"Biomoléculas", topic:"ARN: tipos, estructura y función", isNew:false,
+    q:"a) Indica la composición y estructura de los distintos tipos de ARN (ARNm, ARNt, ARNr). [1]<br>b) Explica la función biológica específica de cada tipo. [0,6]<br>c) ¿En qué se diferencia estructuralmente el ARN del ADN? Indica al menos tres diferencias precisas. [0,4]"
+  },
+
+  // CÉLULA
+  {
+    block:"Célula", topic:"Membrana plasmática y transporte", isNew:false,
+    q:"a) Describa la estructura y la composición química de la membrana plasmática. [1]<br>b) ¿A qué tipos celulares y a qué membranas celulares es aplicable el modelo de Mosaico Fluido? [0,4]<br>c) Nombre tres funciones de la membrana plasmática. [0,6]"
+  },
+  {
+    block:"Célula", topic:"Citoesqueleto: actina, microtúbulos y filamentos intermedios", isNew:false,
+    q:"a) Defina citoesqueleto. [0,4]<br>b) Explique la estructura de los filamentos de actina e indique tres de sus funciones. [1]<br>c) ¿Qué nombre reciben los otros dos componentes del citoesqueleto? [0,4]<br>d) Especifique qué componente del citoesqueleto forma parte de los cilios. [0,2]"
+  },
+  {
+    block:"Célula", topic:"Mosaico fluido: composición, transporte y osmosis", isNew:false,
+    q:"a) Describa el modelo de mosaico fluido de la membrana plasmática: componentes y función de cada uno. [1]<br>b) Diferencie entre transporte pasivo (difusión simple y facilitada) y transporte activo, indicando el papel del ATP. [0,6]<br>c) Una célula animal sin ATP: ¿podrá realizar difusión simple? ¿Y transporte activo? Razone brevemente. [0,4]"
+  },
+  {
+    block:"Célula", topic:"Permeabilidad selectiva y modalidades de transporte", isNew:false,
+    q:"a) Explique en qué consiste la permeabilidad selectiva de la membrana plasmática. [0,5]<br>b) Describa el transporte activo indicando el papel del ATP y un ejemplo concreto (bomba Na⁺/K⁺). [0,7]<br>c) Describa las distintas modalidades de transporte pasivo (difusión simple, difusión facilitada y ósmosis). [0,8]"
+  },
+  {
+    block:"Célula", topic:"Mitosis vs meiosis: comparativa", isNew:false,
+    q:"a) Compare la mitosis y la meiosis en cuanto a: tipo de células donde ocurre, número de divisiones, células hijas resultantes y variabilidad genética. [1]<br>b) Explique qué son los quiasmas y cuál es su importancia biológica. [0,5]<br>c) ¿Por qué una célula haploide (n) no puede dividirse por meiosis? Razone. [0,5]"
+  },
+  {
+    block:"Célula", topic:"Mitosis y citocinesis (animal vs vegetal)", isNew:false,
+    q:"a) Describa las fases de la mitosis. [1,2]<br>b) Indique en qué células tiene lugar este tipo de reproducción celular y cuál es su significado biológico. [0,3]<br>c) Defina citocinesis y describa las diferencias entre la citocinesis de células animales y vegetales. [0,5]"
+  },
+  {
+    block:"Célula", topic:"Orgánulos: Golgi, lisosomas y REL", isNew:false,
+    q:"a) Nombre y describa la función de: Complejo de Golgi, Lisosomas y Retículo Endoplasmático Liso. [0,9]<br>b) Explique el recorrido de una proteína de secreción desde su síntesis hasta su salida al exterior (RER → Golgi → exocitosis). [0,7]<br>c) ¿Por qué los lisosomas no se autodigieren? ¿Qué ocurriría si su membrana se rompiese? [0,4]"
+  },
+  {
+    block:"Célula", topic:"Retículo endoplasmático y relación con Golgi", isNew:false,
+    q:"a) Cite los tipos de retículo endoplasmático que existen en la célula e indique una función de cada uno. [0,8]<br>b) Indique dos características morfológicas que permitan distinguir un tipo de retículo del otro en una observación microscópica. [0,4]<br>c) Indique si estos tipos de retículo se presentan en células animales, vegetales o en ambos tipos. [0,4]<br>d) ¿Qué relación funcional tiene el retículo endoplasmático con el complejo de Golgi? [0,4]"
+  },
+  {
+    block:"Célula", topic:"Mitocondrias y cloroplastos: origen endosimbiótico", isNew:false,
+    q:"a) Describa la estructura de las mitocondrias y cite dos de sus componentes. [1]<br>b) Indique dos procesos metabólicos relacionados con la obtención de energía y en qué parte de la mitocondria ocurren. [1]<br>c) Exponga la hipótesis admitida sobre el origen evolutivo de estos orgánulos. [0,4]"
+  },
+  {
+    block:"Célula", topic:"Ciclo celular: fases, replicación y puntos de control", isNew:false,
+    q:"a) Defina ciclo celular e indique sus fases, explicando qué ocurre en cada una. [1]<br>b) ¿En qué fase del ciclo se replica el ADN? ¿Y ocurren la transcripción y la traducción? [0,5]<br>c) Explique el punto de restricción R (G1→S) del ciclo celular y su relación con el cáncer. [0,5]"
+  },
+  {
+    block:"Célula", topic:"Procariota vs eucariota: diferencias", isNew:false,
+    q:"a) Cite tres diferencias estructurales entre células procarióticas y eucarióticas. [0,6]<br>b) Indique tres diferencias entre células animales y vegetales. [0,6]<br>c) Explique por qué las bacterias aerobias pueden realizar respiración aunque carezcan de mitocondrias. [0,8]"
+  },
+
+  // GENÉTICA
+  {
+    block:"Genética", topic:"Mecanismos de variabilidad y selección natural", isNew:false,
+    q:"a) Explique tres mecanismos responsables de la variabilidad genética de las poblaciones. [1,2]<br>b) Defina selección natural. [0,4]<br>c) Explique la importancia de la variabilidad genética de una población en su evolución. [0,4]"
+  },
+  {
+    block:"Genética", topic:"Replicación del ADN: definición y relación con la mitosis", isNew:false,
+    q:"a) Defina el concepto de replicación del ADN. [0,4]<br>b) Indique los orgánulos de la célula eucariótica en que tiene lugar. [0,3]<br>c) ¿Qué significa que la replicación es semiconservativa y bidireccional? [0,8]<br>d) Explique la relación que existe entre el proceso de replicación y la mitosis. [0,5]"
+  },
+  {
+    block:"Genética", topic:"Código genético: características y protección frente a mutaciones", isNew:false,
+    q:"a) Explique las características del código genético: universalidad, degeneración y ausencia de solapamiento. [0,9]<br>b) Justifique por qué la degeneración protege frente a mutaciones silenciosas. [0,5]<br>c) ¿Qué es un codón de terminación? Cite los tres codones stop. ¿Tienen anticodón en el ARNt? [0,6]"
+  },
+  {
+    block:"Genética", topic:"Leyes de Mendel: uniformidad, segregación y cruzamiento prueba", isNew:false,
+    q:"a) Enuncia y explica las dos primeras leyes de Mendel. [0,6]<br>b) Explica en qué consiste el cruzamiento prueba (test cross). ¿Para qué se utiliza? [0,5]<br>c) En guisantes, color amarillo (A) domina sobre verde (a). Cruce entre Aa × Aa: indica los genotipos y fenotipos de la F2 con sus proporciones. [0,9]"
+  },
+  {
+    block:"Genética", topic:"Mutaciones: tipos, agentes y consecuencias evolutivas", isNew:false,
+    q:"a) Define mutación. Diferencia mutación espontánea de mutación inducida. [0,5]<br>b) Cita un ejemplo de agente mutagénico físico, químico y biológico. [0,6]<br>c) Explica dos posibles consecuencias de las mutaciones: una perjudicial y una beneficiosa. Relaciona las mutaciones con la evolución. [0,9]"
+  },
+  {
+    block:"Genética", topic:"Replicación: semiconservativa, bidireccional y cebadores", isNew:false,
+    q:"a) Explique qué significa que la replicación es semiconservativa y bidireccional. [0,5]<br>b) Indique tres orgánulos de la célula eucariótica donde tiene lugar la replicación. [0,3]<br>c) ¿Por qué la replicación necesita cebadores de ARN? Explique la diferencia entre la cadena líder y la retardada. [0,7]<br>d) Explique la relación entre replicación del ADN y la posterior división por mitosis. [0,5]"
+  },
+  {
+    block:"Genética", topic:"Herencia intermedia y dominancia: rábanos", isNew:false,
+    q:"a) Un agricultor cruzó rábanos largos (RR) × rábanos redondos (rr) y obtuvo F1 100% ovales (Rr).<br>   i) ¿Qué tipo de herencia controla la forma? Razone. [0,3]<br>   ii) ¿Qué porcentaje de rábanos redondos se esperaría en la F2? [0,3]<br>b) Si cruzara F1 ovales (Rr) × largos (RR), ¿qué porcentaje sería redondo? Representa el cruce. [0,4]<br>c) Diferencia la herencia intermedia de la herencia dominante clásica. [0,4]<br>d) Pon otro ejemplo de herencia intermedia distinto de los rábanos. [0,2]"
+  },
+  {
+    block:"Genética", topic:"Herencia ligada al sexo: daltonismo", isNew:false,
+    q:"a) El daltonismo está ligado al cromosoma X. Un hombre daltónico tiene hijos con una mujer sana cuya madre era daltónica.<br>   i) Indica los genotipos de los progenitores. [0,4]<br>   ii) ¿Qué probabilidad hay de tener una hija daltónica? [0,4]<br>b) Razona por qué los hombres nunca pueden ser portadores de una enfermedad ligada al X. [0,4]<br>c) ¿Cómo se denomina el tipo de herencia cuando el gen causante se localiza en el cromosoma X? [0,2]<br>d) Diferencia entre gen autosómico y gen ligado al sexo. [0,6]"
+  },
+  {
+    block:"Genética", topic:"Genes procariotas vs eucariotas: intrones y splicing", isNew:false,
+    q:"a) Explique las dos diferencias estructurales fundamentales entre genes procariotas y eucariotas (organización en intrones/exones y agrupación en operones). [0,8]<br>b) Defina splicing o maduración del ARNm e indique en qué tipo de células ocurre. [0,5]<br>c) Cite dos ventajas evolutivas de la organización en intrones y exones (por ejemplo, splicing alternativo). [0,4]<br>d) Justifique por qué para producir insulina humana en bacterias se utiliza ADNc en lugar de ADN genómico. [0,3]"
+  },
+
+  // METABOLISMO
+  {
+    block:"Metabolismo", topic:"Fermentaciones: definición y rentabilidad", isNew:false,
+    q:"a) Defina fermentación [0,5] e indique el lugar de la célula donde se realiza. [0,1]<br>b) Cite dos ejemplos de fermentación [0,3] indicando el tipo celular que la realiza. [0,3]<br>c) Explique la diferencia entre la rentabilidad energética de la fermentación y de la respiración. [0,8]"
+  },
+  {
+    block:"Metabolismo", topic:"Fermentación: características, tipos y aplicaciones", isNew:false,
+    q:"a) Defina fermentación. Cite tres características de los procesos fermentativos. [0,8]<br>b) Compare la fermentación láctica y la alcohólica: sustratos, productos finales y microorganismo ejemplo. [0,8]<br>c) Explica una aplicación industrial de cada tipo de fermentación. [0,4]"
+  },
+  {
+    block:"Metabolismo", topic:"Ciclo de Krebs: compuestos, productos y diferencia con Calvin", isNew:false,
+    q:"a) Defina ciclo de Krebs. Cite los dos compuestos necesarios para comenzar el ciclo. [0,5]<br>b) Nombre los productos que ceden electrones a la cadena de transporte electrónico. [0,4]<br>c) Diferencia el ciclo de Krebs del ciclo de Calvin respecto al ATP. [0,5]<br>d) Si se inhibiera la enzima citrato sintasa (primer paso del ciclo), ¿qué ocurriría con la producción de ATP? Razone. [0,6]"
+  },
+  {
+    block:"Metabolismo", topic:"Fotosíntesis: fases, productos y factores limitantes", isNew:false,
+    q:"a) Explica las fases de la fotosíntesis (fotoquímica y biosintética): localización, sustratos y productos de cada una. [1]<br>b) ¿Podría ocurrir el ciclo de Calvin sin luz? Justifica la respuesta. [0,5]<br>c) Si se enriquece la atmósfera en CO₂ pero la temperatura es muy baja, ¿aumentará la fotosíntesis? Razone. [0,5]"
+  },
+  {
+    block:"Metabolismo", topic:"Fosforilación oxidativa vs fotofosforilación", isNew:false,
+    q:"a) Cite dos fuentes energéticas para el metabolismo de los seres vivos. [0,3]<br>b) Describa en qué consiste la fosforilación oxidativa y la fotofosforilación, e indique en qué orgánulos y estructuras se realizan. [1,2]<br>c) ¿Puede tener lugar la fosforilación oxidativa si se rompe la membrana mitocondrial interna? Razone la respuesta. [0,5]"
+  },
+  {
+    block:"Metabolismo", topic:"Glucólisis: bloqueo, rutas alternativas y rendimiento", isNew:false,
+    q:"a) Indica la localización celular de la glucólisis y sus moléculas iniciales y finales. [0,5]<br>b) ¿Qué ocurre si se bloquea la glucólisis en una célula que solo tiene glucosa como fuente de energía? ¿Y si dispone además de ácidos grasos? [0,8]<br>c) Compara el rendimiento energético de la respiración aeróbica (con glucosa) frente a la fermentación. [0,7]"
+  },
+  {
+    block:"Metabolismo", topic:"Glucólisis, Krebs y fosforilación oxidativa: localización y condiciones", isNew:false,
+    q:"a) Defina qué es la glucólisis, el ciclo de Krebs y la fosforilación oxidativa. [0,9]<br>b) Indique en qué lugares de la célula se realiza cada uno de estos procesos. [0,6]<br>c) Indique en qué condiciones (aeróbicas o anaeróbicas) se pueden producir la glucólisis y el ciclo de Krebs. [0,5]"
+  },
+
+  // BIOTECNOLOGÍA
+  {
+    block:"Biotecnología", topic:"Biotecnología y microorganismos industriales", isNew:false,
+    q:"a) Defina biotecnología. [0,6]<br>b) Exponga un ejemplo de aplicación biotecnológica en la industria alimentaria y otro en la farmacéutica, indicando en cada caso qué tipo de microorganismos participa. [0,9]<br>c) Defina microorganismo patógeno y microorganismo oportunista. [0,5]"
+  },
+  {
+    block:"Biotecnología", topic:"PCR: objetivo, componentes y ciclo térmico", isNew:false,
+    q:"a) Describe la técnica PCR: indica su objetivo y los componentes necesarios para la reacción. [0,8]<br>b) Explica brevemente las tres etapas de un ciclo térmico de la PCR y qué ocurre molecularmente en cada una. [0,8]<br>c) ¿Por qué se utiliza la Taq polimerasa y no una ADN polimerasa convencional? [0,4]"
+  },
+  {
+    block:"Biotecnología", topic:"Clonación génica: enzimas de restricción y ligasa", isNew:false,
+    q:"a) Explica el proceso de clonación de un gen humano en un plásmido bacteriano, mencionando las enzimas de restricción y la ADN ligasa. [1]<br>b) ¿Por qué se usa ADNc (y no ADN genómico) para producir proteínas humanas en bacterias? Menciona el splicing. [0,6]<br>c) ¿Cómo se puede seleccionar qué colonias bacterianas han incorporado el gen de interés? [0,4]"
+  },
+  {
+    block:"Biotecnología", topic:"CRISPR-Cas9: ARN guía, Cas9 y aplicaciones", isNew:false,
+    q:"a) Describe los dos elementos principales del sistema CRISPR-Cas9 (ARN guía y Cas9) y explica el papel de cada uno. [0,8]<br>b) Explica cómo podría usarse CRISPR para corregir la mutación causante de la anemia falciforme. [0,6]<br>c) Cita dos aplicaciones biotecnológicas del sistema CRISPR distintas de la terapia génica. [0,4]<br>d) Diferencia OMG de organismo transgénico y pon un ejemplo de cada uno. [0,2]"
+  },
+  {
+    block:"Biotecnología", topic:"Antibióticos: mecanismo, resistencias y uso responsable", isNew:false,
+    q:"a) ¿Por qué los antibióticos actúan contra bacterias pero no contra virus? Justifique a nivel molecular. [0,6]<br>b) Explica cómo surge la resistencia bacteriana a los antibióticos mediante selección natural. [0,6]<br>c) Cite dos consecuencias del uso indiscriminado de antibióticos y argumenta la importancia de terminar el tratamiento. [0,4]<br>d) ¿Qué son las bacterias multirresistentes y por qué suponen un problema de salud pública? [0,4]"
+  },
+
+  // INMUNOLOGÍA
+  {
+    block:"Inmunología", topic:"Tipos de inmunidad: definiciones", isNew:false,
+    q:"Defina los siguientes términos referidos a la inmunidad: a) inmunidad congénita o innata; b) inmunidad adquirida o adaptativa; c) inmunidad natural; d) inmunidad artificial; e) inmunidad pasiva. [2]"
+  },
+  {
+    block:"Inmunología", topic:"Conceptos fundamentales: antígeno, anticuerpo y patologías", isNew:false,
+    q:"Defina los siguientes términos: a) antígeno; b) anticuerpo; c) inmunodeficiencia; d) enfermedad autoinmune; e) reacción alérgica o de hipersensibilidad. [2]"
+  },
+  {
+    block:"Inmunología", topic:"Vacunación y sueroterapia: comparativa", isNew:false,
+    q:"a) Indique dos diferencias entre vacunación y sueroterapia. [0,6]<br>b) Explique en qué consiste cada procedimiento citando las moléculas y células implicadas. [1]<br>c) Indique con qué tipo de inmunidad (activa/pasiva) está relacionado cada procedimiento. [0,4]"
+  },
+  {
+    block:"Inmunología", topic:"Sueroterapia: inmunidad activa vs pasiva", isNew:false,
+    q:"a) Diferencie entre inmunidad activa y pasiva, indicando un ejemplo natural y otro artificial de cada una. [0,8]<br>b) Explique en qué consiste la sueroterapia: procedencia, duración del efecto y casos clínicos donde es necesaria. [0,7]<br>c) ¿Por qué el suero no genera memoria inmunológica? Justifique molecularmente. [0,5]"
+  },
+  {
+    block:"Inmunología", topic:"Tipos de respuesta inmunitaria", isNew:false,
+    q:"a) Defina respuesta inmunitaria. [0,4]<br>b) Diferencie entre respuesta primaria y secundaria. [0,5]<br>c) Diferencie entre respuesta humoral y celular. [0,5]<br>d) Diferencie entre inmunidad congénita (innata) y adquirida (adaptativa). [0,6]"
+  },
+  {
+    block:"Inmunología", topic:"Antígenos, anticuerpos y enfermedades del sistema inmune", isNew:false,
+    q:"a) Defina antígeno e inmunoglobulina. Explique la estructura de un anticuerpo IgG. [0,7]<br>b) Explique qué es una enfermedad autoinmune y ponga un ejemplo clínico. [0,4]<br>c) ¿En qué consiste la hipersensibilidad alérgica? Menciona el papel de la IgE y los mastocitos. [0,5]<br>d) Diferencia inmunodeficiencia congénita de adquirida. Pon un ejemplo de cada una. [0,4]"
+  },
+  {
+    block:"Inmunología", topic:"Hipersensibilidad, autoinmunidad e inmunodeficiencia infecciosa", isNew:false,
+    q:"a) Defina hipersensibilidad, autoinmunidad e inmunodeficiencia. [0,9]<br>b) Cite un ejemplo de una inmunodeficiencia de origen infeccioso y de otra que no lo sea. [0,4]<br>c) Describa el mecanismo por el que se produce la inmunodeficiencia de origen infeccioso (por ejemplo, VIH/SIDA). [0,7]"
+  },
+  {
+    block:"Inmunología", topic:"Respuesta humoral, celular y memoria inmunológica", isNew:false,
+    q:"a) Explique los conceptos de respuesta humoral y respuesta celular, indicando las células protagonistas de cada una. [0,8]<br>b) Cite una función de los linfocitos B, los linfocitos T citotóxicos y los linfocitos T colaboradores. [0,6]<br>c) Explique qué es la memoria inmunológica y por qué la respuesta secundaria es más rápida e intensa. [0,6]"
+  },
+  {
+    block:"Inmunología", topic:"Vacunación: mecanismo, tipos y calendario vacunal", isNew:false,
+    q:"a) Explique el mecanismo de acción de una vacuna, indicando las moléculas y células implicadas. [0,8]<br>b) Diferencia vacuna atenuada de vacuna inactivada. ¿Cuál genera una respuesta inmune más duradera? [0,6]<br>c) ¿Por qué se necesitan varias dosis de refuerzo en algunos calendarios de vacunación? Razone. [0,6]"
+  },
+
+  // MICROBIOLOGÍA
+  {
+    block:"Microbiología", topic:"Virus, bacterias y bacteriófagos", isNew:false,
+    q:"a) Indique qué es un virus. [0,5]<br>b) Cite tres diferencias entre los virus y los procariotas. [0,6]<br>c) Distinga entre cápsida vírica y cápsula bacteriana. [0,6]<br>d) Explique la principal diferencia entre el ciclo lítico y el ciclo lisogénico de un bacteriófago. [0,3]"
+  },
+  {
+    block:"Microbiología", topic:"Ciclo lítico del bacteriófago", isNew:false,
+    q:"a) Describa las etapas del ciclo lítico de un bacteriófago, indicando qué ocurre en cada una. [1]<br>b) Diferencia el ciclo lítico del ciclo lisogénico. ¿Qué es un profago? [0,6]<br>c) ¿Por qué los bacteriófagos no pueden infectar células eucariotas humanas? [0,4]"
+  },
+  {
+    block:"Microbiología", topic:"Clasificación de microorganismos: grupos y características", isNew:false,
+    q:"a) Realice una clasificación de los principales grupos de microorganismos (virus, bacterias, hongos, protozoos) indicando el criterio. [0,5]<br>b) Exponga dos características propias de cada grupo. [1]<br>c) ¿Cuál de estos grupos no se considera estrictamente un ser vivo? Razone. [0,5]"
+  },
+  {
+    block:"Microbiología", topic:"Identificación de virus por ácido nucleico y envuelta", isNew:false,
+    q:"a) Un virus analizado presenta: adenina 20%, timina 0%, uracilo 24%, guanina 30%, citosina 26%, y fosfolípidos en su cubierta. Describe razonadamente el tipo de virus. [0,8]<br>b) ¿Qué es la cápside y de qué está formada? [0,4]<br>c) Explica por qué un virus de ARN monocatenario NO cumple la regla de Chargaff (A=U, G=C). [0,8]"
+  },
+
+  // ─── PARTE II — NUEVAS v3 (NotebookLM docs 4/5/6 limpiados) ──
+
+  {
+    block:"Metabolismo", topic:"Enzimas: centro activo, especificidad e inhibidores", isNew:false,
+    q:"a) Defina enzima. [0,4]<br>b) ¿Qué es el centro activo y qué relación existe entre el mismo y la especificidad enzimática? [0,6]<br>c) ¿Qué son los inhibidores enzimáticos? Diferencie entre inhibidores competitivos y no competitivos. [0,5]<br>d) ¿En qué se diferencia la inhibición irreversible de la reversible y cuál es la causa molecular de esta diferencia? [0,5]"
+  },
+  {
+    block:"Genética", topic:"Expresión de la información genética: procesos y productos", isNew:false,
+    q:"a) ¿Qué se entiende por expresión de la información genética? [0,4]<br>b) ¿Qué nombre reciben los procesos que permiten que se exprese el mensaje genético? [0,6]<br>c) Indique los productos resultantes de cada uno de estos procesos. [0,5]<br>d) Indique en qué lugar de la célula eucariótica se produce cada uno. [0,5]"
+  },
+  {
+    block:"Biotecnología", topic:"Selección artificial vs ingeniería genética", isNew:false,
+    q:"a) Explique el fundamento de la mejora genética clásica mediante selección artificial, indicando ejemplos en agricultura y ganadería. [1]<br>b) Exponga tres diferencias entre la mejora por selección artificial y la mejora por ingeniería genética (rapidez, especificidad, traspaso de información entre especies). [1]"
+  },
+  {
+    block:"Célula", topic:"Transporte transmembrana y procesos vesiculares", isNew:false,
+    q:"a) Indique las características del transporte pasivo y del transporte activo. [0,6]<br>b) Defina pinocitosis. [0,4]<br>c) Defina fagocitosis e indique un tipo celular que la realice (macrófago). [0,5]<br>d) Defina exocitosis y ponga un ejemplo (secreción de neurotransmisores). [0,5]"
+  },
+  {
+    block:"Genética", topic:"Segunda ley de Mendel y cruzamiento prueba", isNew:false,
+    q:"a) Enuncie la segunda ley de Mendel (segregación). [0,5]<br>b) Realice un esquema (cuadro de Punnett) que ilustre esta ley para un cruce Aa × Aa con sus proporciones. [0,5]<br>c) Explique en qué consiste el cruzamiento prueba y para qué se utiliza. [0,5]<br>d) Realice un esquema del cruzamiento prueba diferenciando los dos posibles resultados (homocigoto vs heterocigoto). [0,5]"
+  },
+  {
+    block:"Célula", topic:"Mosaico fluido: fluidez de membrana y esteroles", isNew:false,
+    q:"a) Indique dos características del modelo de mosaico fluido. [0,5]<br>b) Explique la acción de dos factores que aumenten la fluidez de la membrana (temperatura, ácidos grasos insaturados). [0,5]<br>c) Si la célula es vegetal, ¿puede llevar esteroles en su membrana? Razone la respuesta. [0,5]<br>d) Indique dos diferencias entre transporte pasivo y transporte activo, con un ejemplo de cada uno. [0,5]"
+  },
+  {
+    block:"Biotecnología", topic:"Hormona del crecimiento humano en bacterias recombinantes", isNew:false,
+    q:"a) Explique el proceso general para obtener hormona del crecimiento humano a partir de microorganismos modificados genéticamente (gen → vector → bacteria → producción). [1,2]<br>b) Indique tres ventajas del empleo de hormona obtenida por este método frente a la extraída de hipófisis animales (cantidad, pureza, no transmisión de enfermedades como la de Creutzfeldt-Jakob). [0,8]"
+  },
+  {
+    block:"Genética", topic:"Regulación de la expresión génica y operón lactosa", isNew:false,
+    q:"a) Explique qué es la regulación de la expresión génica y por qué es necesaria en pluricelulares con un genoma idéntico en todas las células. [1]<br>b) ¿Qué son los genes estructurales y los genes reguladores? [0,5]<br>c) Explique brevemente el modelo del operón lactosa en bacterias (promotor, operador, represor, inducción por lactosa). [0,5]"
+  },
+  {
+    block:"Genética", topic:"Mendel y genes ligados al sexo", isNew:false,
+    q:"a) Enuncie la primera ley de Mendel e indique en qué consiste el retrocruzamiento. [0,7]<br>b) Explique la diferencia entre genes autosómicos y genes ligados al sexo. [0,6]<br>c) ¿Cumplen las proporciones mendelianas los cruzamientos para genes ligados al sexo? Razone la respuesta con un ejemplo (daltonismo o hemofilia). [0,7]"
+  },
+  {
+    block:"Biotecnología", topic:"Biorremediación, OMG, enzimas de restricción y terapia génica", isNew:false,
+    q:"a) Defina biorremediación y ponga dos ejemplos (vertido de petróleo, descontaminación de metales pesados). [0,7]<br>b) Defina enzima de restricción. [0,4]<br>c) Defina organismo modificado genéticamente (OMG). [0,4]<br>d) Defina terapia génica y ponga un ejemplo. [0,5]"
+  },
+  {
+    block:"Biotecnología", topic:"Ingeniería genética: conceptos y aplicaciones no fermentativas", isNew:false,
+    q:"a) Defina ingeniería genética. [0,5]<br>b) Defina ADN recombinante. [0,5]<br>c) Defina vector génico y ponga un ejemplo (plásmido, bacteriófago). [0,5]<br>d) Cite dos ejemplos de aplicaciones biotecnológicas que NO impliquen procesos fermentativos (PCR, producción de insulina recombinante, vacunas recombinantes). [0,5]"
+  },
+  {
+    block:"Metabolismo", topic:"Papel del agua en la fotosíntesis y estequiometría del Calvin", isNew:false,
+    q:"a) ¿Por qué necesitan agua los cloroplastos? Razone indicando dónde se rompe la molécula (fotólisis del agua en el fotosistema II). [0,7]<br>b) ¿Qué es un fotosistema? Indique sus componentes principales (antena, centro de reacción). [0,5]<br>c) ¿Cuántas moléculas de CO₂ se tendrán que incorporar al ciclo de Calvin para formar una molécula de sacarosa (C₁₂H₂₂O₁₁)? Razone el cálculo. [0,8]"
+  },
+  {
+    block:"Genética", topic:"ADN: componentes, estructura y flujo de información", isNew:false,
+    q:"a) Enumere los componentes del ADN (azúcar, fosfato, bases nitrogenadas). [0,4]<br>b) Explique su estructura tridimensional: doble hélice antiparalela, complementariedad de bases y enrollamiento. [0,8]<br>c) Indique de forma esquemática cómo se realiza la expresión de la información genética desde el ADN hasta la proteína. [0,8]"
+  }
+
+]; // fin database
+
+// ══════════════════════════════════════════════════════════════
+//  VERBOS COGNITIVOS para resaltado automático
+// ══════════════════════════════════════════════════════════════
+const VERBOS = ['defina','define','describa','describe','explique','explica','razone',
+  'razona','calcule','calcula','cite','indica','indique','nombre','nombra','justifique',
+  'justifica','compare','compara','diferencia','diferencie','relaciona','relacione',
+  'identifica','identifique','analiza','analice','clasifica','clasifique','representa',
+  'represente','señala','señale','determina','determine','exponga','enumere',
+  'asigne','escriba','deduzca','exponga','proponga','redacte','enuncie'];
+const reVerbos = new RegExp(`\\b(${VERBOS.join('|')})\\b`, 'gi');
+
+// ══════════════════════════════════════════════════════════════
+//  ESTADO
+// ══════════════════════════════════════════════════════════════
+let genCount = 0;
+let timerInterval = null;
+let timerSeconds = 90 * 60;
+
+// Inicializar contadores
+document.getElementById('dbCount').textContent = database.length;
+
+// ══════════════════════════════════════════════════════════════
+//  GENERADOR
+// ══════════════════════════════════════════════════════════════
+function generateExam() {
+  const themeFilter = document.getElementById('themeFilter').value;
+  const compAll  = database.filter(q => q.isNew);
+  const elecAll  = database.filter(q => !q.isNew);
+  const notice   = document.getElementById('filterNotice');
+  notice.style.display = 'none';
+  notice.textContent = '';
+
+  let compPool, elecPool, usedFallback = false;
+
+  if (themeFilter === 'all') {
+    compPool = compAll;
+    elecPool = elecAll;
+  } else {
+    const compFiltered = compAll.filter(q => q.block === themeFilter);
+    const elecFiltered = elecAll.filter(q => q.block === themeFilter);
+    // Necesitamos al menos 2 competenciales y 6 electivas para no repetir
+    if (compFiltered.length >= 2 && elecFiltered.length >= 6) {
+      compPool = compFiltered;
+      elecPool = elecFiltered;
+    } else {
+      compPool = compAll;
+      elecPool = elecAll;
+      usedFallback = true;
+      notice.textContent = `⚠ El bloque "${themeFilter}" no tiene aún preguntas suficientes (necesita 2 competenciales y 6 electivas distintas). Se ha generado un examen del banco completo.`;
+      notice.style.display = 'block';
+    }
+  }
+
+  const parte1 = getRandom(compPool, 2);
+  const parte2 = getRandom(elecPool, 6);
+
+  // Metadata del examen
+  const now   = new Date();
+  const fecha = now.toLocaleDateString('es-ES', { day:'2-digit', month:'long', year:'numeric' });
+  document.getElementById('examMeta').innerHTML =
+    `Fecha: ${fecha}<br>Modelo nº ${genCount + 1}<br>Tiempo: 90 min`;
+
+  // ── Parte I ──
+  let html = `
+    <div class="part-header">
+      <span class="part-badge">Parte I</span>
+      <span class="part-title">Preguntas Competenciales — Obligatorias</span>
+      <span class="part-meta">4 puntos (2 por pregunta)</span>
+    </div>
+    <p style="font-size:.88rem;color:var(--muted);margin-bottom:20px;font-style:italic;">
+      Responda a las <strong>dos</strong> preguntas siguientes.
+    </p>`;
+
+  parte1.forEach((q, i) => {
+    const textoQ = formatQ(q.q);
+    html += `
+      <div class="exam-q">
+        <div class="exam-q-header">
+          <div class="q-num">${i + 1}</div>
+          <span class="q-topic">${q.block} · ${q.topic}</span>
+          <span class="new-tag">2025</span>
+          <span class="q-score">2 pts</span>
+        </div>
+        <div class="exam-q-body">
+          <div class="img-placeholder">🖼 <em>Imagen de apoyo: ${q.topic}</em><br><small>Inserta aquí el esquema o gráfica correspondiente.</small></div>
+          <div class="q-text">${textoQ}</div>
+          ${answerLines(8)}
+        </div>
+      </div>`;
+  });
+
+  // ── Parte II ──
+  html += `
+    <div class="part-header">
+      <span class="part-badge electiva">Parte II</span>
+      <span class="part-title">Preguntas Electivas</span>
+      <span class="part-meta">6 puntos (2 por bloque)</span>
+    </div>
+    <p style="font-size:.88rem;color:var(--muted);margin-bottom:20px;font-style:italic;">
+      Elija <strong>una sola opción (A o B)</strong> para cada una de las preguntas 3, 4 y 5. No mezcle opciones.
+    </p>`;
+
+  for (let i = 0; i < 3; i++) {
+    const qa = parte2[i * 2];
+    const qb = parte2[i * 2 + 1];
+    html += `
+      <div class="exam-q">
+        <div class="exam-q-header">
+          <div class="q-num">${i + 3}</div>
+          <span class="q-topic">Elige una opción</span>
+          <span class="q-score">2 pts</span>
+        </div>
+        <div class="option-pair">
+          <div class="option-block">
+            <span class="option-label a">OPCIÓN A — ${qa.block}</span>
+            <div class="q-text">${formatQ(qa.q)}</div>
+            ${answerLines(6)}
+          </div>
+          <div class="option-block">
+            <span class="option-label b">OPCIÓN B — ${qb.block}</span>
+            <div class="q-text">${formatQ(qb.q)}</div>
+            ${answerLines(6)}
+          </div>
+          <div class="choose-note">✏ Tacha claramente la opción que NO vayas a responder.</div>
+        </div>
+      </div>`;
+  }
+
+  document.getElementById('examBody').innerHTML  = html;
+  document.getElementById('examWrapper').style.display = 'block';
+  document.getElementById('btnPrint').style.display    = 'inline-flex';
+  document.getElementById('timerBar').style.display    = 'block';
+
+  genCount++;
+  document.getElementById('genCount').textContent = genCount;
+
+  // Reiniciar y arrancar temporizador
+  resetTimer(true);
+
+  // Scroll al examen
+  setTimeout(() => {
+    document.getElementById('timerBar').scrollIntoView({ behavior:'smooth', block:'start' });
+  }, 100);
+}
+
+// ── Helpers ──
+
+function formatQ(text) {
+  return text
+    .replace(reVerbos, (_, v) => `<span class="verb">${v}</span>`)
+    .replace(/\[\d[\d,\s]*\]/g, m => `<span class="pts">${m}</span>`);
+}
+
+function answerLines(n) {
+  const lines = Array(n).fill('<div class="answer-line"></div>').join('');
+  return `<div class="answer-space"><div class="answer-lines">${lines}</div></div>`;
+}
+
+function getRandom(arr, n) {
+  const copy = [...arr];
+  const result = [];
+  for (let i = 0; i < n && copy.length > 0; i++) {
+    const idx = Math.floor(Math.random() * copy.length);
+    result.push(copy.splice(idx, 1)[0]);
+  }
+  return result;
+}
+
+// ══════════════════════════════════════════════════════════════
+//  TEMPORIZADOR
+// ══════════════════════════════════════════════════════════════
+function resetTimer(start = false) {
+  clearInterval(timerInterval);
+  timerSeconds = 90 * 60;
+  updateTimerUI();
+  if (start) timerInterval = setInterval(tickTimer, 1000);
+}
+
+function tickTimer() {
+  if (timerSeconds <= 0) {
+    clearInterval(timerInterval);
+    document.getElementById('timerDisplay').textContent = '00:00';
+    document.getElementById('timerDisplay').classList.add('warning');
+    return;
+  }
+  timerSeconds--;
+  updateTimerUI();
+}
+
+function updateTimerUI() {
+  const m = Math.floor(timerSeconds / 60);
+  const s = timerSeconds % 60;
+  const display = document.getElementById('timerDisplay');
+  const fill    = document.getElementById('timerFill');
+  display.textContent = `${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
+  const pct = timerSeconds / (90 * 60) * 100;
+  fill.style.width = pct + '%';
+  const isWarning = timerSeconds < 10 * 60; // últimos 10 min
+  display.classList.toggle('warning', isWarning);
+  fill.classList.toggle('warning', isWarning);
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,1351 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Orientaciones PAU Biología 2025-2026: saberes básicos, resultados de aprendizaje y concreciones organizados por bloques temáticos.">
+<title>Orientaciones PAU Biología 2025-2026</title>
+<link rel="stylesheet" href="pau-theme.css">
+<style>
+  :root { 
+      --primary: #2c3e50; 
+      --secondary: #34495e;
+      --accent: #d35400; 
+      --bg: #ffffff; 
+      --bg-level1: #f8f9fa;
+      --bg-level2: #eaf2f8;
+      --bg-level3: #fdf2e9;
+  }
+  
+  body { 
+      font-family: 'Segoe UI', system-ui, sans-serif; 
+      color: #333; 
+      line-height: 1.6; 
+      padding: 20px; 
+      background: var(--bg);
+  }
+  
+  h2 { 
+      color: var(--primary); 
+      border-bottom: 2px solid var(--accent); 
+      padding-bottom: 10px; 
+      margin-bottom: 20px;
+  }
+  
+  p.intro {
+      font-size: 1.05rem;
+      color: #555;
+      margin-bottom: 30px;
+  }
+
+  /* ESTILOS DE LOS DESPLEGABLES (ACORDEÓN) */
+  details {
+      margin-bottom: 15px;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+      transition: all 0.3s ease;
+  }
+
+  /* Animación al abrir el desplegable */
+  details > div {
+      animation: fadeIn 0.35s ease;
+  }
+
+  @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-6px); }
+      to   { opacity: 1; transform: translateY(0); }
+  }
+
+  summary {
+      cursor: pointer;
+      position: relative;
+      list-style: none;
+  }
+
+  /* Accesibilidad: foco visible por teclado */
+  summary:focus-visible {
+      outline: 3px solid var(--accent);
+      outline-offset: 2px;
+  }
+
+  summary::-webkit-details-marker { display: none; } 
+
+  summary::after {
+      content: '▼';
+      position: absolute;
+      right: 20px;
+      font-size: 0.9rem;
+      color: var(--accent);
+      transition: transform 0.3s ease;
+  }
+  
+  details[open] > summary::after {
+      transform: rotate(180deg);
+  }
+
+  /* NIVEL 1: BLOQUES */
+  details.bloque { border-left: 5px solid var(--primary); background: var(--bg-level1); }
+  details.bloque > summary { padding: 20px 40px 20px 20px; display: block; }
+  details.bloque > summary::after { top: 25px; }
+  
+  .bloque-titulo { margin: 0 0 5px 0; color: var(--accent); font-size: 1.15rem; font-weight: bold; }
+  .bloque-desc { font-size: 0.95rem; color: #666; margin: 0; font-weight: normal; }
+  .bloque-content { padding: 0 20px 20px 20px; border-top: 1px solid #eaeaea; margin-top: 10px; }
+
+  /* NIVEL 2: SABERES BÁSICOS */
+  details.saber { margin-top: 15px; background: var(--bg-level2); border-left: 4px solid #2980b9; }
+  details.saber > summary { color: var(--primary); font-size: 1.05rem; padding: 12px 40px 12px 20px; font-weight: 600; }
+  details.saber > summary::after { top: 50%; transform: translateY(-50%); }
+  .saber-content { padding: 0 20px 15px 20px; }
+
+  /* NIVEL 3: RESULTADOS DEL APRENDIZAJE */
+  details.ra { margin-top: 10px; background: var(--bg-level3); border-left: 3px solid #f39c12; }
+  details.ra > summary { color: #d35400; font-size: 0.95rem; padding: 10px 40px 10px 20px; font-weight: 600; }
+  details.ra > summary::after { top: 50%; transform: translateY(-50%); }
+  
+  /* NIVEL 4: CONCRECIÓN */
+  .concrecion {
+      padding: 15px 20px;
+      background: white;
+      font-size: 0.9rem;
+      color: #444;
+      border-top: 1px dashed #ccc;
+  }
+  .concrecion ul { margin: 0; padding-left: 20px; }
+  .concrecion li { margin-bottom: 8px; }
+
+  /* Aparición progresiva de bloques al hacer scroll */
+  details.bloque {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.5s ease, transform 0.5s ease, box-shadow 0.3s ease;
+  }
+  details.bloque.visible {
+      opacity: 1;
+      transform: translateY(0);
+  }
+
+  /* Botón "Ver presentación" */
+  .btn-presentacion {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--accent);
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 18px;
+      border-radius: 6px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      margin: 0 0 18px 0;
+      border: none;
+      cursor: pointer;
+      transition: background 0.2s ease, transform 0.15s ease;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+  .btn-presentacion:hover {
+      background: #b14400;
+      transform: translateY(-1px);
+      color: #fff;
+  }
+  .btn-presentacion svg {
+      width: 16px;
+      height: 16px;
+      flex-shrink: 0;
+  }
+
+  /* Indicador discreto en el summary de los saberes con presentación */
+  .has-presentation > summary::before {
+      content: '◆';
+      color: var(--accent);
+      font-size: 0.75rem;
+      margin-right: 10px;
+      vertical-align: middle;
+  }
+</style>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Saltar al contenido principal</a>
+  <nav class="site-nav" aria-label="Navegación principal">
+    <a href="index.html">Inicio</a>
+    <a class="active" href="orientacionespau.html">Orientaciones</a>
+    <a href="resumenespau.html">Resúmenes</a>
+    <a href="Entrenamientopau.html">Entrenamiento</a>
+    <a href="simulacropau.html">Simulacro</a>
+    <a href="laboratoriocompetencial.html">Laboratorio</a>
+  </nav>
+
+<div id="main-content">
+<h2>🧬 Orientaciones PAU Biología 2025-2026</h2>
+<div class="page-intro">
+  <p><strong>Guía de referencia para la preparación de la prueba.</strong> La información se presenta de forma progresiva para facilitar la comprensión de los saberes básicos, los resultados de aprendizaje y las concreciones que orientan la evaluación de la PAU.</p>
+  <span class="pill">Rigor científico y enfoque competencial</span>
+</div>
+<p class="intro">Bienvenido a la plataforma de consulta de las orientaciones PAU 25-26. Podrás consultar los saberes básicos, resultados de aprendizaje y concreciones para la PAU. Haz clic en cada nivel para desplegar la información completa.</p>
+
+<!-- ============================================================ -->
+<!-- BLOQUE A -->
+<!-- ============================================================ -->
+<details class="bloque">
+  <summary>
+      <div class="bloque-titulo">Bloque A: Las biomoléculas.</div>
+      <p class="bloque-desc">Bioelementos, agua, sales minerales y macromoléculas orgánicas.</p>
+  </summary>
+  <div class="bloque-content">
+
+    <details class="saber" data-presentation="https://drive.google.com/file/d/1Va1fGS-iiDH2EpVvNIGEeyA3A5OuXI9c/preview">
+      <summary>A.1 Las biomoléculas orgánicas e inorgánicas: características generales y diferencias. Enlaces químicos en la formación de las biomoléculas.</summary>
+      <div class="saber-content">
+        <details class="ra">
+          <summary>A.1.1 Conocer la clasificación de las sales minerales en solubles e insolubles, con ejemplos de cada grupo.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Diferenciar entre sales minerales solubles e insolubles. Relacionar cada grupo con sus funciones generales en los organismos.</li>
+              <li>Conocer los principales iones (sodio, potasio, calcio, magnesio) relevantes para los seres vivos.</li>
+              <li>Conocer el papel de las sales solubles en el equilibrio osmótico y regulación del pH.</li>
+              <li>Conocer el papel de las sales insolubles (fosfato de calcio y carbonato de calcio) y su función estructural.</li>
+            </ul>
+          </div>
+        </details>
+        <details class="ra">
+          <summary>A.1.2 Caracterizar los tipos generales de biomoléculas orgánicas. Conocer las fórmulas generales de algunas biomoléculas.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Clasificar las biomoléculas, indicando el criterio utilizado para establecer dicha clasificación.</li>
+              <li>Identificar una biomolécula orgánica hasta el nivel de tipo al que corresponde (glúcido, lípido, etc.).</li>
+              <li>Conocer las fórmulas químicas generales de las biomoléculas orgánicas.</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <details class="saber">
+      <summary>A.2 Los enlaces químicos y su importancia en biología.</summary>
+      <div class="saber-content">
+        <details class="ra">
+          <summary>A.2.1 Definir los enlaces químicos iónico y covalente.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Conocer la importancia de los puentes de hidrógeno y los enlaces covalentes polares en el agua y en las biomoléculas.</li>
+            </ul>
+          </div>
+        </details>
+        <details class="ra">
+          <summary>A.2.2 Describir las interacciones débiles y reconocer su papel en el mantenimiento de la estructura y función biológica de las distintas biomoléculas.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Identificar los enlaces e interacciones débiles (puentes de hidrógeno, fuerzas de Van der Waals, interacciones electrostáticas, interacciones hidrofóbicas) responsables del mantenimiento de la estructura y función biológica de las distintas biomoléculas.</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <details class="saber">
+      <summary>A.3 El agua: relación entre sus características químicas y funciones biológicas.</summary>
+      <div class="saber-content">
+        <details class="ra">
+          <summary>A.3.1 Relacionar la estructura molecular del agua y sus propiedades físico-químicas. Valorar el papel biológico del agua como disolvente, reactivo químico, estructural y termorregulador, en relación con sus propiedades físico-químicas.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Conocer las propiedades del agua responsables de su importancia biológica, relacionándolas con su estructura y con las interacciones que se producen entre moléculas (puentes o enlaces de hidrógeno), y señalando el significado biológico de esas propiedades.</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <details class="saber">
+      <summary>A.4 Los monosacáridos (pentosas y hexosas): características químicas, formas lineales y cíclicas, isomerías, enlaces y funciones.</summary>
+      <div class="saber-content">
+        <details class="ra">
+          <summary>A.4.1 Conocer sus propiedades físico-químicas y clasificarlos en función de su número de átomos de carbono y grupo funcional. Reconocer las fórmulas de algunos monosacáridos. Conocer la importancia biológica de los monosacáridos.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Conocer el concepto de glúcido y sus propiedades.</li>
+              <li>Clasificar los monosacáridos en aldosas y cetosas, así como según el número de átomos de carbonos.</li>
+              <li>Conocer las propiedades físicas y químicas de los monosacáridos (sólidos cristalinos, sabor y color, isomería y solubilidad), así como sus funciones.</li>
+              <li>Reconocer las fórmulas de los principales monosacáridos (glucosa, fructosa, galactosa, ribosa, desoxirribosa).</li>
+              <li>Conocer los conceptos de carbono asimétrico, enantiómeros y carbono anomérico, alfa o beta según la posición del -OH.</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <details class="saber">
+      <summary>A.5 Los disacáridos y polisacáridos: ejemplos con mayor relevancia biológica.</summary>
+      <div class="saber-content">
+        <details class="ra">
+          <summary>A.5.1 Describir y reconocer el enlace O-glucosídico como característico de los disacáridos y polisacáridos.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Reconocer en fórmulas el enlace O-glucosídico, e identificarlo como característico de los glúcidos. Clasificar los glúcidos: disacáridos, oligosacáridos y polisacáridos.</li>
+            </ul>
+          </div>
+        </details>
+        <details class="ra">
+          <summary>A.5.2 Conocer la importancia biológica de los disacáridos.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Reconocer las fórmulas de la maltosa, lactosa, celobiosa y sacarosa, e identificar el tipo de enlace que mantiene unidos sus monómeros.</li>
+            </ul>
+          </div>
+        </details>
+        <details class="ra">
+          <summary>A.5.3 Conocer las funciones estructural y de reserva energética de los polisacáridos, relacionándolas con la presencia de enlaces de tipo alfa o beta.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Conocer y reconocer la estructura y funciones de los polisacáridos, específicamente del almidón, el glucógeno, la celulosa y la quitina.</li>
+              <li>Conocer la importancia de las formas alfa y beta de disacáridos y polisacáridos.</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <details class="saber">
+      <summary>A.6 Los lípidos saponificables y no saponificables: características químicas, tipos, diferencias y funciones biológicas.</summary>
+      <div class="saber-content">
+        <details class="ra">
+          <summary>A.6.1 Conocer la clasificación de los ácidos grasos y sus propiedades químicas.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Conocer el concepto de ácido graso y reconocer su fórmula química general.</li>
+              <li>Clasificar los ácidos grasos en saturados e insaturados.</li>
+              <li>Conocer las propiedades más relevantes de los ácidos grasos: insolubilidad en agua, carácter anfipático, puntos de fusión y su relación con la longitud de la cadena y grado de insaturación.</li>
+            </ul>
+          </div>
+        </details>
+        <details class="ra">
+          <summary>A.6.2 Reconocer los lípidos como un grupo de biomoléculas químicamente heterogéneas y clasificarlos en función de sus componentes.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Clasificar los lípidos en función de la presencia o no de ácidos grasos.</li>
+              <li>Reconocer en una fórmula el enlace éster e identificarlo como característico de los lípidos saponificables e hidrolizables.</li>
+              <li>Conocer la estructura y función de los triacilglicéridos. Conocer la función de las ceras y de los esfingolípidos.</li>
+            </ul>
+          </div>
+        </details>
+        <details class="ra">
+          <summary>A.6.3 Conocer las propiedades y principales funciones de los lípidos de membrana: fosfolípidos y glucolípidos.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Conocer la estructura general de los fosfolípidos y glucolípidos, y ser capaz de reconocerlos en un esquema.</li>
+              <li>Conocer su carácter anfipático, funciones y disposición en las membranas.</li>
+            </ul>
+          </div>
+        </details>
+        <details class="ra">
+          <summary>A.6.4 Conocer la estructura general y el papel biológico de los esteroides y terpenos.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Conocer el papel de los esteroides como componentes de membranas, y precursores de hormonas y vitaminas.</li>
+              <li>Conocer el papel de los carotenoides como pigmentos y vitaminas.</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <details class="saber">
+      <summary>A.7 Las proteínas: características químicas, estructura, función biológica, papel biocatalizador.</summary>
+      <div class="saber-content">
+        <details class="ra">
+          <summary>A.7.1 Conocer qué es una proteína y destacar su multifuncionalidad.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Conocer la composición química de las proteínas.</li>
+              <li>Describir las funciones más relevantes de las proteínas: catálisis, transporte, movimiento y contracción, reconocimiento molecular y celular, estructural, nutritiva y reserva, hormonal y defensa. Conocer algún ejemplo de cada una de las funciones.</li>
+            </ul>
+          </div>
+        </details>
+        <details class="ra">
+          <summary>A.7.2 Definir qué son los aminoácidos y conocer su fórmula general.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Identificar y escribir la fórmula general de un aminoácido, detallando sus componentes y conocer su diversidad debido a sus radicales.</li>
+            </ul>
+          </div>
+        </details>
+        <details class="ra">
+          <summary>A.7.3 Identificar y describir el enlace peptídico como característico de las proteínas.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Reconocer en una fórmula el enlace peptídico y utilizarlo para identificar el compuesto como una proteína.</li>
+              <li>Saber formular un péptido a partir de aminoácidos.</li>
+            </ul>
+          </div>
+        </details>
+        <details class="ra">
+          <summary>A.7.4 Conocer los niveles de organización de las proteínas.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Conocer la estructura primaria (secuencia de aminoácidos), secundaria (alfa-hélice y beta-plegada), terciaria y cuaternaria (enlaces que estabilizan estas estructuras) de las proteínas.</li>
+              <li>Conocer que las propiedades biológicas y las funciones de las proteínas están determinadas tanto por la secuencia de aminoácidos (tipo de aminoácido y posición que ocupan en la secuencia) como por su conformación espacial (proteínas globulares y fibrosas).</li>
+              <li>Conocer los procesos de desnaturalización y renaturalización de proteínas, así como algunos factores físico-químicos que influyen en ellos (temperatura y pH).</li>
+            </ul>
+          </div>
+        </details>
+        <details class="ra">
+          <summary>A.7.5 Comprender y valorar la función enzimática de las proteínas.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Entender el concepto de enzima como biocatalizador.</li>
+              <li>Describir el papel que desempeñan los cofactores y coenzimas en la actividad enzimática.</li>
+              <li>Conocer qué es el centro activo y resaltar su importancia en relación con la especificidad enzimática.</li>
+            </ul>
+          </div>
+        </details>
+        <details class="ra">
+          <summary>A.7.6 Conocer que la velocidad de una reacción enzimática es función de la cantidad de enzima y de la concentración de sustrato.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Interpretar gráficos de actividad enzimática (no es necesario conocer las fórmulas matemáticas que describen la cinética enzimática).</li>
+            </ul>
+          </div>
+        </details>
+        <details class="ra">
+          <summary>A.7.7 Conocer el papel de la energía de activación y de la formación del complejo enzima-sustrato en el mecanismo de acción enzimático.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Interpretar gráficos de energía de activación.</li>
+            </ul>
+          </div>
+        </details>
+        <details class="ra">
+          <summary>A.7.8 Comprender los factores que afectan a la acción enzimática.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Explicar cómo afectan la temperatura, el pH y los inhibidores a la actividad enzimática.</li>
+              <li>Definir y describir la inhibición reversible (competitiva y no competitiva) y la irreversible.</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <details class="saber">
+      <summary>A.8 Los ácidos nucleicos: tipos, características químicas, estructura y función biológica.</summary>
+      <div class="saber-content">
+        <details class="ra">
+          <summary>A.8.1 Definir los ácidos nucleicos y destacar su importancia.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Conocer el concepto de ácido nucleico.</li>
+              <li>Valorar la importancia biológica de los ácidos nucleicos en el mantenimiento y transmisión de la información genética.</li>
+            </ul>
+          </div>
+        </details>
+        <details class="ra">
+          <summary>A.8.2 Conocer la composición y estructura general de los nucleótidos.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Conocer los componentes de un nucleótido. Distinguir entre bases nitrogenadas púricas y pirimidínicas.</li>
+              <li>Reconocer la fórmula del ATP.</li>
+            </ul>
+          </div>
+        </details>
+        <details class="ra">
+          <summary>A.8.3 Reconocer a los nucleótidos como moléculas de gran versatilidad funcional y describir las funciones más importantes.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Conocer las principales funciones de los nucleótidos: estructural, energética y coenzimática, ejemplificando cada una de ellas.</li>
+            </ul>
+          </div>
+        </details>
+        <details class="ra">
+          <summary>A.8.4 Describir el enlace fosfodiéster como característico de los polinucleótidos.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Identificar en un esquema el enlace fosfodiéster y relacionarlo con los ácidos nucleicos.</li>
+            </ul>
+          </div>
+        </details>
+        <details class="ra">
+          <summary>A.8.5 Diferenciar y analizar los diferentes tipos de ácidos nucleicos de acuerdo con su composición, estructura, localización y función.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Diferenciar el ADN del ARN en función de su composición química y de su estructura.</li>
+              <li>Conocer la localización intracelular de los distintos tipos de ácidos nucleicos.</li>
+              <li>Conocer las funciones biológicas del ADN relacionándolas con su estructura.</li>
+              <li>Conocer las características estructurales, localización y funciones de los principales tipos de ARN (mensajero, ribosómico y transferente). Conocer la existencia de otros tipos de ARN (heteronuclear, etc.).</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <details class="saber">
+      <summary>A.9 Las vitaminas y sales. Bioelementos, biomoléculas y la salud.</summary>
+      <div class="saber-content">
+        <details class="ra">
+          <summary>A.9.1 Reconocer la función de algunas vitaminas como cofactores enzimáticos y la importancia de su incorporación en la dieta.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Conocer que las vitaminas presentan naturaleza hidrosoluble (vitamina C y el grupo B: ácido fólico y B12) o liposoluble (vitaminas A y D).</li>
+              <li>Conocer el papel coenzimático de algunas vitaminas y los efectos de su déficit en la dieta, valorando sus efectos para la salud (escorbuto, espina bífida, anemia perniciosa, ceguera nocturna y raquitismo).</li>
+              <li>Conocer el concepto de nutriente esencial.</li>
+            </ul>
+          </div>
+        </details>
+        <details class="ra">
+          <summary>A.9.2 Conocer la relación entre los bioelementos y biomoléculas y la salud.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Conocer el concepto de enfermedad carencial referido a los bioelementos, los ácidos grasos insaturados y los aminoácidos. Valorar sus consecuencias para la salud.</li>
+              <li>Comprender los riesgos y consecuencias para la salud de una ingesta excesiva de vitaminas.</li>
+              <li>Conocer las consecuencias de una ingesta insuficiente de bioelementos esenciales (ej. calcio, hierro, iodo o flúor) y valorar sus consecuencias para la salud.</li>
+              <li>Valorar las consecuencias para la salud de una ingesta inadecuada de agua (ej. deshidratación).</li>
+              <li>Comprender la relevancia de una ingesta adecuada de glúcidos, lípidos y proteínas, identificando los riesgos para la salud derivados de su consumo deficiente o excesivo: el exceso de glúcidos con la diabetes tipo II o su déficit con la hipoglucemia; el exceso de lípidos con la aterosclerosis, enfermedades cardiovasculares y obesidad, o su déficit con alteraciones neurológicas y disminución de la respuesta inmunitaria; el exceso de proteínas con daño renal o su déficit con la pérdida de masa muscular.</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </details>
+
+  </div>
+</details>
+
+<!-- ============================================================ -->
+<!-- BLOQUE B -->
+<!-- ============================================================ -->
+<details class="bloque">
+  <summary>
+      <div class="bloque-titulo">Bloque B: Genética molecular.</div>
+      <p class="bloque-desc">Flujo de información genética, código genético y mutaciones.</p>
+  </summary>
+  <div class="bloque-content">
+
+    <details class="saber">
+      <summary>B.1 Identificación del ADN como portador de la información genética. Los genomas.</summary>
+      <div class="saber-content">
+        <details class="ra">
+          <summary>B.1.1 Comprender que el ADN contiene la información de las características biológicas de los seres vivos.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Conocer que la secuencia de bases del ADN es la responsable de la información genética.</li>
+              <li>Conocer qué es un gen, su estructura y la función de cada uno de sus elementos, así como el concepto de alelo y de individuo homocigótico y heterocigótico.</li>
+            </ul>
+          </div>
+        </details>
+        <details class="ra">
+          <summary>B.1.2 Conocer las características generales de los genomas de procariotas y eucariotas.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Establecer las diferencias que existen entre la organización del genoma procariota y la del genoma eucariota: número y estructura de moléculas de ADN (circular y lineal), y en eucariotas existencia de ADN no codificante, exones e intrones, etc.</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <details class="saber">
+      <summary>B.2 Mecanismo de replicación del ADN: modelo procariota.</summary>
+      <div class="saber-content">
+        <details class="ra">
+          <summary>B.2.1 Conocer el proceso de replicación del ADN en células procariotas y las principales diferencias con eucariotas.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Conocer las etapas de iniciación, elongación y terminación, el origen de replicación, el sentido 5'→3', la cadena adelantada (conductora) y la cadena retrasada (retardada), el cebador (primer), el fragmento de Okazaki, la ADN polimerasa y ARN polimerasa, la ADN ligasa, las helicasas, topoisomerasas y proteínas SSB.</li>
+              <li>Establecer las diferencias entre la replicación de eucariotas y procariotas: lugar de replicación, estructura de la molécula de ADN, origen de replicación, velocidad de replicación y enzimas que intervienen.</li>
+              <li>Reconocer e interpretar el proceso en esquemas y gráficos.</li>
+              <li>Describir el proceso destacando su carácter semiconservativo.</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <details class="saber">
+      <summary>B.3 Etapas de la expresión génica: transcripción y traducción genética en procariotas y eucariotas.</summary>
+      <div class="saber-content">
+        <details class="ra">
+          <summary>B.3.1 Conocer el proceso de transcripción en procariotas y las diferencias con eucariotas.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Conocer las etapas de iniciación, elongación y terminación, la diferencia entre cadena codificante y cadena molde del ADN, el sentido 5'→3', la copia de una sola cadena del ADN, la señal de inicio (promotor), la acción de la ARN polimerasa y la señal de terminación.</li>
+              <li>Conocer la presencia de factores de transcripción en eucariotas.</li>
+              <li>Conocer la presencia de intrones y exones en eucariotas, así como el proceso de maduración del ARNm (splicing), sin que sea necesaria su descripción detallada.</li>
+              <li>Establecer las diferencias entre la transcripción de eucariotas y procariotas: localización, tipos de ARN polimerasas, procesamiento y maduración del ARNm, simultaneidad o no con la traducción.</li>
+              <li>Reconocer e interpretar el proceso en esquemas y gráficos.</li>
+            </ul>
+          </div>
+        </details>
+        <details class="ra">
+          <summary>B.3.2 Conocer el proceso de traducción en procariotas y las diferencias con eucariotas.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Conocer las siguientes etapas y elementos: etapa de iniciación (ARN mensajero, ARN transferente, codón de inicio, anticodón y subunidades ribosómicas); etapa de elongación (formación del enlace peptídico y desplazamiento del ribosoma — translocación); etapa de terminación (codón de terminación).</li>
+              <li>Conocer la simultaneidad de la transcripción y la traducción en procariotas y la compartimentación de estos procesos en eucariotas.</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <details class="saber">
+      <summary>B.4 El código genético: características y resolución de problemas.</summary>
+      <div class="saber-content">
+        <details class="ra">
+          <summary>B.4.1 Comprender las características del código genético.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Conocer que el código genético es universal (aunque con excepciones), continuo, no solapado y degenerado.</li>
+              <li>Definir los conceptos de codón y anticodón.</li>
+              <li>Resolver problemas de replicación, transcripción y traducción usando diferentes tablas o imágenes del código genético donde se muestre la asignación de aminoácidos a los 64 tripletes.</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <details class="saber">
+      <summary>B.5 El flujo de la información genética en virus.</summary>
+      <div class="saber-content">
+        <details class="ra">
+          <summary>B.5.1 Conocer el ciclo de vida de los virus y comprender que el flujo de información en los retrovirus presenta una excepción al dogma central de la biología molecular.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Describir las características estructurales de los virus.</li>
+              <li>Explicar los ciclos lítico y lisogénico de un bacteriófago.</li>
+              <li>Explicar el ciclo de un retrovirus (VIH), destacando el papel de la enzima retrotranscriptasa (o transcriptasa inversa).</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <details class="saber">
+      <summary>B.6 Las mutaciones: su relación con la replicación del ADN, la evolución y la biodiversidad.</summary>
+      <div class="saber-content">
+        <details class="ra">
+          <summary>B.6.1 Comprender el concepto de mutación y su significado biológico.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Definir mutación y reconocer la importancia de las mutaciones, la segregación cromosómica, la recombinación genética y la reproducción sexual en relación con el proceso evolutivo y el incremento de la variabilidad genética.</li>
+              <li>Diferenciar entre mutaciones somáticas y germinales.</li>
+            </ul>
+          </div>
+        </details>
+        <details class="ra">
+          <summary>B.6.2 Conocer las causas de las mutaciones y los tipos de agentes mutagénicos.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Conocer la diferencia entre mutaciones espontáneas e inducidas.</li>
+              <li>Clasificar los agentes mutagénicos en físicos (radiaciones ionizantes y no ionizantes), químicos y biológicos (virus).</li>
+            </ul>
+          </div>
+        </details>
+        <details class="ra">
+          <summary>B.6.3 Conocer los tipos de mutaciones y las consecuencias que provocan.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Diferenciar los tipos de mutaciones génicas (o puntuales: sustituciones, deleciones e inserciones), cromosómicas (deleción, duplicación, inversión y translocación) y genómicas (aneuploidías: trisomías y monosomías; euploidías: poliploidía).</li>
+              <li>Reconocer los diferentes tipos de mutaciones en dibujos, esquemas o textos, incluyendo las alteraciones del número normal de cromosomas (no es necesario conocer el nombre de los síndromes o anomalías).</li>
+              <li>Evaluar las consecuencias de las mutaciones atendiendo a su efecto sobre la viabilidad del organismo y su papel como fuente de variabilidad genética y evolución.</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <details class="saber">
+      <summary>B.7 Regulación de la expresión génica: su importancia en la diferenciación celular.</summary>
+      <div class="saber-content">
+        <details class="ra">
+          <summary>B.7.1 Conocer algún mecanismo de regulación de la expresión génica y explicar su importancia biológica.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Entender el concepto de regulación génica. Comprender que las características particulares de cada célula dependen de los genes que se expresen en ella.</li>
+              <li>Diferenciar el concepto de regulación génica en procariotas (ej. modelo del operón lac) y en eucariotas (a distintos niveles: grado de condensación de la cromatina, transcripción, maduración del ARNm, etc.).</li>
+              <li>Conocer que, en eucariotas, el grado de condensación del ADN (eucromatina/heterocromatina) es el principal factor de diferenciación celular.</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </details>
+
+  </div>
+</details>
+
+<!-- ============================================================ -->
+<!-- BLOQUE C -->
+<!-- ============================================================ -->
+<details class="bloque">
+  <summary>
+      <div class="bloque-titulo">Bloque C: Biología celular.</div>
+      <p class="bloque-desc">Modelos de organización celular, orgánulos y ciclo celular.</p>
+  </summary>
+  <div class="bloque-content">
+
+    <details class="saber">
+      <summary>C.1 La teoría celular: implicaciones biológicas.</summary>
+      <div class="saber-content">
+        <details class="ra">
+          <summary>C.1.1 Diferenciar entre los tipos de organización celular: procariota y eucariota (animal y vegetal).</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Conocer la teoría celular.</li>
+              <li>Describir los modelos de organización celular (procariota, eucariota animal y eucariota vegetal).</li>
+              <li>Establecer las semejanzas y diferencias entre los distintos tipos celulares, reconociéndolos en esquemas o imágenes, o describiéndolos en un texto.</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <details class="saber">
+      <summary>C.2 Microscopía óptica y electrónica: imágenes, poder de resolución y técnicas de preparación de muestras.</summary>
+      <div class="saber-content">
+        <details class="ra">
+          <summary>C.2.1 Conocer el fundamento básico de la microscopía óptica y electrónica (de transmisión y de barrido).</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Enunciar semejanzas y diferencias entre los microscopios óptico, electrónico de transmisión y electrónico de barrido.</li>
+              <li>Conocer el concepto de poder de resolución.</li>
+              <li>Identificar en imágenes de microscopía los tipos celulares y sus componentes.</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <details class="saber">
+      <summary>C.3 La membrana biológica: ultraestructura y propiedades.</summary>
+      <div class="saber-content">
+        <details class="ra">
+          <summary>C.3.1 Conocer la estructura, composición y funciones de las membranas biológicas.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Conocer los componentes de la membrana (fosfolípidos, glucolípidos, colesterol, proteínas y glucoproteínas) y su disposición (modelo del mosaico fluido), y establecer la relación entre la composición y la función de la membrana.</li>
+              <li>Relacionar la estructura de la membrana biológica con sus funciones: barrera, permeabilidad selectiva, reconocimiento celular, comunicación celular, etc.</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <details class="saber">
+      <summary>C.4 El proceso osmótico: repercusión en la célula animal, vegetal y procariota.</summary>
+      <div class="saber-content">
+        <details class="ra">
+          <summary>C.4.1 Explicar el papel del agua y de las disoluciones salinas en el equilibrio osmótico.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Conocer los fenómenos osmóticos en las células animales y vegetales en medios hipertónicos, isotónicos o hipotónicos y sus efectos.</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <details class="saber">
+      <summary>C.5 El transporte a través de las membranas biológicas: mecanismos y tipos de moléculas transportadas.</summary>
+      <div class="saber-content">
+        <details class="ra">
+          <summary>C.5.1 Conocer los procesos de transporte a través de las membranas.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Conocer los procesos de difusión simple y facilitada, así como el transporte activo (bomba de sodio y potasio), identificar en qué condiciones se dan cada uno de ellos y sus requerimientos.</li>
+              <li>Conocer los mecanismos por los que se transportan los distintos tipos de sustancias que atraviesan la membrana.</li>
+            </ul>
+          </div>
+        </details>
+        <details class="ra">
+          <summary>C.5.2 Conocer los procesos de transporte de vesículas a través de las membranas.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Conocer los procesos de endocitosis (pinocitosis y fagocitosis) y exocitosis.</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <details class="saber">
+      <summary>C.6 Los orgánulos celulares eucariotas y procariotas: funciones básicas.</summary>
+      <div class="saber-content">
+        <details class="ra">
+          <summary>C.6.1 Describir, localizar e identificar los componentes de la célula procariota y relacionarlos con su estructura y función.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Conocer la estructura y función de: apéndices (flagelos, fimbrias), cápsula, pared celular, membrana plasmática, citoplasma, cromosoma bacteriano, plásmidos, ribosomas y gránulos (o inclusiones). Identificarlos en microfotografías, figuras o dibujos.</li>
+            </ul>
+          </div>
+        </details>
+        <details class="ra">
+          <summary>C.6.2 Describir, localizar e identificar los componentes de la célula eucariota y relacionarlos con su estructura y función.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Conocer la estructura y función de: pared celular, membrana celular, cilios, flagelos, mitocondria, plastos, retículo endoplásmico liso y rugoso, complejo de Golgi, vesículas (lisosomas y sus tipos), vacuolas, peroxisomas, ribosomas, citoesqueleto, centrosoma, núcleo y cromosomas/cromatina. Conocer en qué tipos celulares se encuentran cada una de ellas. Identificarlas en microfotografías, figuras o dibujos.</li>
+              <li>Conocer la composición del citoesqueleto (microtúbulos, microfilamentos y filamentos intermedios) y sus funciones, relacionándolo con la formación del huso acromático, cilios y flagelos.</li>
+              <li>Conocer la estructura y funciones del retículo endoplasmático (rugoso y liso) y del aparato de Golgi, así como su coordinación funcional en el proceso de secreción celular.</li>
+              <li>Conocer la teoría endosimbionte del origen de mitocondrias y cloroplastos.</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <details class="saber">
+      <summary>C.7 El ciclo celular: fases y mecanismos de regulación.</summary>
+      <div class="saber-content">
+        <details class="ra">
+          <summary>C.7.1 Identificar las fases del ciclo celular.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Identificar en un esquema o dibujo las fases del ciclo celular y conocer los principales procesos que ocurren en cada una de ellas: interfase (etapas G1, S y G2) y división o fase M.</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <details class="saber">
+      <summary>C.8 La mitosis: fases y función biológica.</summary>
+      <div class="saber-content">
+        <details class="ra">
+          <summary>C.8.1 Describir las fases de la división celular, cariocinesis y citocinesis, reconocer las diferencias entre la mitosis de las células animales y vegetales, y su significado biológico.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Describir las etapas de la mitosis (profase, metafase, anafase y telofase), destacando los principales procesos que ocurren en cada una.</li>
+              <li>Explicar la citocinesis y diferenciar cómo ocurre en células animales y vegetales.</li>
+              <li>Conocer el papel de la mitosis como proceso básico de reproducción en organismos unicelulares, y de crecimiento y renovación tisular en los pluricelulares.</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <details class="saber">
+      <summary>C.9 La meiosis: fases e importancia en la reproducción sexual y en la evolución.</summary>
+      <div class="saber-content">
+        <details class="ra">
+          <summary>C.9.1 Describir las fases de la meiosis y su significado biológico.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Describir las etapas de la meiosis, subrayando el proceso de sobrecruzamiento o recombinación genética y la segregación de los cromosomas. Se requiere conocer estos procesos pero no la denominación exhaustiva de las etapas de la Profase I.</li>
+              <li>Establecer las diferencias fundamentales entre mitosis y meiosis: tipo de células que las realizan, fases, resultados y significado biológico, tanto en esquemas o imágenes como mediante textos.</li>
+              <li>Comprender el significado biológico de la meiosis en la reproducción sexual como fuente de variabilidad genética. Valorar la importancia de la recombinación génica, la segregación cromosómica y la unión al azar de los gametos (fecundación).</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <details class="saber">
+      <summary>C.10 El cáncer: relación con las mutaciones y el ciclo celular.</summary>
+      <div class="saber-content">
+        <details class="ra">
+          <summary>C.10.1 Describir el cáncer como un proceso de alteración del ciclo celular normal.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Conocer qué es el cáncer y relacionarlo con la pérdida del control del ciclo celular.</li>
+              <li>Relacionar el cáncer con agentes mutagénicos físicos, químicos y biológicos.</li>
+              <li>Proponer hábitos de vida saludables que reduzcan la probabilidad de padecer cáncer.</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </details>
+
+  </div>
+</details>
+
+<!-- ============================================================ -->
+<!-- BLOQUE D -->
+<!-- ============================================================ -->
+<details class="bloque">
+  <summary>
+      <div class="bloque-titulo">Bloque D: Metabolismo.</div>
+      <p class="bloque-desc">Enzimas, catabolismo de glúcidos/lípidos y anabolismo (fotosíntesis).</p>
+  </summary>
+  <div class="bloque-content">
+
+    <details class="saber">
+      <summary>D.1 Concepto de metabolismo y de nutrición celular (autótrofa y heterótrofa).</summary>
+      <div class="saber-content">
+        <details class="ra">
+          <summary>D.1.1 Conocer el concepto de metabolismo y de nutrición celular.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Conocer la diferencia entre nutrición autótrofa y heterótrofa.</li>
+              <li>Distinguir los tipos de metabolismo según la fuente de carbono y energía y según la presencia o ausencia de oxígeno.</li>
+            </ul>
+          </div>
+        </details>
+        <details class="ra">
+          <summary>D.1.2 Conocer los procesos de transformación de las sustancias incorporadas y localizar los orgánulos que intervienen en el proceso.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Identificar los orgánulos que participan en el proceso de nutrición celular.</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <details class="saber">
+      <summary>D.2 Conceptos de anabolismo y catabolismo: diferencias.</summary>
+      <div class="saber-content">
+        <details class="ra">
+          <summary>D.2.1 Conocer el concepto de catabolismo y anabolismo y saber diferenciarlos.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Interpretar esquemas generales de catabolismo y anabolismo.</li>
+              <li>Interpretar esquemas de las fases de catabolismo y anabolismo.</li>
+            </ul>
+          </div>
+        </details>
+        <details class="ra">
+          <summary>D.2.2 Reconocer y analizar las principales características de las reacciones catabólicas y anabólicas.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Conocer que las reacciones catabólicas suponen degradación y oxidación, mientras que las anabólicas consisten en síntesis y reducción de los metabolitos implicados.</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <details class="saber">
+      <summary>D.3 Las enzimas: características y modo de acción. Cinética enzimática. Coenzimas y vitaminas.</summary>
+      <div class="saber-content">
+        <details class="ra">
+          <summary>D.3.1 Conocer la naturaleza y función de las enzimas.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Definir el concepto de centro activo y explicar la formación del complejo enzima-sustrato.</li>
+              <li>Conocer que la velocidad de una reacción enzimática es función de la cantidad de enzima y de la concentración de sustrato (Km y Vmax).</li>
+              <li>Interpretar gráficos de actividad enzimática.</li>
+              <li>Interpretar gráficos de energía de activación.</li>
+              <li>Explicar cómo afectan la temperatura y el pH a la actividad enzimática.</li>
+              <li>Definir y describir la inhibición reversible (competitiva y no competitiva) e irreversible.</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <details class="saber">
+      <summary>D.4 El catabolismo: degradación de moléculas orgánicas. Glucólisis, respiración celular y fermentaciones.</summary>
+      <div class="saber-content">
+        <details class="ra">
+          <summary>D.4.1 Conocer globalmente las principales rutas catabólicas.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Describir las distintas rutas metabólicas de forma global, analizando en qué consisten, en qué compartimento celular transcurren y cuál es su balance energético. No es necesario formular los intermediarios de las rutas metabólicas, aunque el alumnado deberá conocer los nombres de los sustratos iniciales y de los productos finales.</li>
+            </ul>
+          </div>
+        </details>
+        <details class="ra">
+          <summary>D.4.2 Destacar el papel de las reacciones de óxido-reducción como mecanismo general de transferencia de energía.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Conocer el papel del NADH y del NADPH en los procesos metabólicos y diferenciar las principales rutas metabólicas donde participan.</li>
+            </ul>
+          </div>
+        </details>
+        <details class="ra">
+          <summary>D.4.3 Destacar el papel del ATP como vehículo en la transferencia de energía.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Conocer el papel del ATP como principal moneda energética de la célula.</li>
+            </ul>
+          </div>
+        </details>
+        <details class="ra">
+          <summary>D.4.4 Describir las rutas catabólicas de los glúcidos y de los lípidos y proteínas.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Describir la glucólisis indicando sus sustratos iniciales, productos finales, balance energético y localización celular (citosol).</li>
+              <li>Explicar las etapas de la respiración celular: descarboxilación oxidativa del piruvato, ciclo de Krebs (matriz mitocondrial), cadena de transporte de electrones y fosforilación oxidativa (crestas mitocondriales). Identificar los productos finales y el balance energético global.</li>
+              <li>Describir la beta-oxidación de los ácidos grasos (hélice de Lynen), indicando su localización (matriz mitocondrial) y su conexión con el ciclo de Krebs.</li>
+              <li>Comprender que las proteínas se degradan a aminoácidos y que el grupo amino debe ser eliminado (desaminación oxidativa) antes de que el esqueleto carbonado entre en el metabolismo energético.</li>
+            </ul>
+          </div>
+        </details>
+        <details class="ra">
+          <summary>D.4.5 Comparar las vías anaerobias y aerobias con relación a la rentabilidad energética y a los productos finales.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Analizar la diferencia de rendimiento energético entre el catabolismo anaerobio (fermentación) y el aerobio (respiración celular).</li>
+              <li>Explicar los procesos de fermentación láctica y alcohólica, indicando su localización, balance energético y su importancia biológica e industrial.</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <details class="saber">
+      <summary>D.5 El anabolismo: síntesis de moléculas orgánicas. Fotosíntesis y Quimiosíntesis.</summary>
+      <div class="saber-content">
+        <details class="ra">
+          <summary>D.5.1 Conocer que la materia y la energía obtenidas en los procesos catabólicos se utilizan en los procesos biosintéticos.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Esquematizar las fases y procesos generales del anabolismo.</li>
+              <li>Conocer que la célula puede sintetizar aminoácidos y ácidos grasos a partir de metabolitos más sencillos derivados del ciclo de Krebs y acetil-CoA, sin detallar las rutas metabólicas.</li>
+            </ul>
+          </div>
+        </details>
+        <details class="ra">
+          <summary>D.5.2 Localizar las fases de la fotosíntesis en el cloroplasto.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Definir la fotosíntesis y distinguir entre fotosíntesis oxigénica y anoxigénica.</li>
+              <li>Diferenciar la <strong>fase fotoquímica</strong> (en los tilacoides) y la <strong>fase de fijación de carbono o biosintética</strong> (en el estroma), localizándolas dentro del cloroplasto. <em>⚠️ Nota: evitar los términos "fase luminosa/oscura" o "fase dependiente/no dependiente de la luz", que no se usan en las directrices oficiales.</em></li>
+            </ul>
+          </div>
+        </details>
+        <details class="ra">
+          <summary>D.5.3 Identificar los sustratos y los productos de las fases de la fotosíntesis.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Describir la fase fotoquímica: captación de luz por los fotosistemas, fotólisis del agua, transporte electrónico fotosintético, fotofosforilación (síntesis de ATP) y reducción del NADP+. No es necesario el conocimiento pormenorizado de los intermediarios del transporte electrónico.</li>
+              <li>Describir la fase biosintética: el ciclo de Calvin, destacando la fijación del CO2 por la enzima Rubisco, el consumo de ATP y NADPH, y la síntesis de moléculas orgánicas. No es necesario conocer las reacciones químicas que tienen lugar en él.</li>
+            </ul>
+          </div>
+        </details>
+        <details class="ra">
+          <summary>D.5.4 Analizar los factores que influyen en el rendimiento de la fotosíntesis y valorar su importancia biológica.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Explicar cómo afectan la intensidad luminosa, la concentración de CO2, la concentración de O2 y la temperatura al rendimiento fotosintético.</li>
+              <li>Conocer la importancia biológica de la fotosíntesis para la biosfera.</li>
+            </ul>
+          </div>
+        </details>
+        <details class="ra">
+          <summary>D.5.5 Comprender la importancia de la quimiosíntesis.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Explicar el concepto de quimiosíntesis como forma de nutrición autótrofa que utiliza energía química, su importancia en la naturaleza y los tipos de organismos que la realizan (ej. bacterias nitrificantes y su papel en los ciclos biogeoquímicos).</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </details>
+
+  </div>
+</details>
+
+<!-- ============================================================ -->
+<!-- BLOQUE E -->
+<!-- ============================================================ -->
+<details class="bloque">
+  <summary>
+      <div class="bloque-titulo">Bloque E: Biotecnología.</div>
+      <p class="bloque-desc">Técnicas de ADN recombinante, PCR, CRISPR-Cas9 y aplicaciones.</p>
+  </summary>
+  <div class="bloque-content">
+
+    <details class="saber">
+      <summary>E.1 La biotecnología: concepto y aplicaciones tradicionales.</summary>
+      <div class="saber-content">
+        <details class="ra">
+          <summary>E.1.1 Definir el concepto de biotecnología.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Conocer el concepto básico de biotecnología.</li>
+              <li>Distinguir entre la biotecnología tradicional y la moderna (o ingeniería genética).</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <details class="saber">
+      <summary>E.2 Técnicas de ingeniería genética y sus aplicaciones. Terapia génica. Bioética y bioseguridad.</summary>
+      <div class="saber-content">
+        <details class="ra">
+          <summary>E.2.1 Conocer el concepto básico de ingeniería genética: técnicas y aplicaciones.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Conocer el concepto de ingeniería genética.</li>
+              <li>Conocer el concepto y la utilidad del ADN recombinante, las enzimas de restricción y los vectores de clonación (tipos principales: plásmidos y fagos). Resolver problemas sencillos relacionados con el uso de enzimas de restricción.</li>
+              <li>Describir los pasos básicos para la obtención de una molécula de ADN recombinante y su clonación en una célula hospedadora.</li>
+              <li>Conocer los conceptos de organismos modificados genéticamente (OMG) y de organismos y microorganismos transgénicos.</li>
+              <li>Conocer el concepto de terapia génica.</li>
+            </ul>
+          </div>
+        </details>
+        <details class="ra">
+          <summary>E.2.2 Explicar la técnica de la PCR.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Conocer el fundamento y la utilidad de la técnica de la Reacción en Cadena de la Polimerasa (PCR).</li>
+              <li>Identificar los reactivos necesarios: ADN molde, cebadores (primers), desoxirribonucleótidos (dNTPs) y la enzima Taq polimerasa.</li>
+              <li>Describir las etapas de un ciclo de PCR: desnaturalización del ADN, unión de los cebadores (hibridación) y elongación (extensión o ciclos de amplificación). Conocer aplicaciones de la PCR.</li>
+            </ul>
+          </div>
+        </details>
+        <details class="ra">
+          <summary>E.2.3 Conocer la tecnología CRISPR-Cas9.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Conocer el concepto básico y la utilidad de la tecnología CRISPR-Cas como sistema de edición genómica. No se exigirá el conocimiento pormenorizado de esta técnica.</li>
+              <li>Identificar sus elementos fundamentales: el ARN guía y la enzima Cas9 (nucleasa).</li>
+            </ul>
+          </div>
+        </details>
+        <details class="ra">
+          <summary>E.2.4 Analizar las aplicaciones de la ingeniería genética.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Conocer las aplicaciones en medicina: obtención de proteínas recombinantes (insulina, hormona del crecimiento), obtención de vacunas recombinantes y diagnóstico de enfermedades.</li>
+              <li>Definir el concepto de terapia génica y comprender su importancia en el tratamiento de enfermedades genéticas.</li>
+              <li>Conocer las aplicaciones en agricultura y ganadería: obtención de organismos modificados genéticamente (OMG) o transgénicos (resistencia a insectos, enfermedades o herbicidas, mayor productividad).</li>
+              <li>Conocer las aplicaciones en el medio ambiente: biorremediación (uso de microorganismos o plantas para eliminar contaminantes, mareas negras, pesticidas).</li>
+            </ul>
+          </div>
+        </details>
+        <details class="ra">
+          <summary>E.2.5 Valorar las implicaciones éticas y sociales de la biotecnología.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Reflexionar sobre los aspectos bioéticos relacionados con la manipulación genética, la clonación y el uso de OMG.</li>
+              <li>Comprender la importancia de las normas de bioseguridad y el etiquetado de productos derivados de OMG.</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <details class="saber">
+      <summary>E.3 Importancia y repercusiones de la biotecnología: aplicaciones en salud, agricultura, medio ambiente e industria alimentaria.</summary>
+      <div class="saber-content">
+        <details class="ra">
+          <summary>E.3.1 Conocer las principales aplicaciones de la biotecnología.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Conocer ejemplos de la utilización de microorganismos en la industria química (ej. producción de ácidos orgánicos, aminoácidos); en la industria farmacéutica (ej. síntesis de antibióticos, hormonas, interferón, vacunas); en la industria energética (ej. obtención de biocombustibles).</li>
+              <li>Conocer los procesos de elaboración de pan, cerveza, vino, yogur y queso.</li>
+              <li>Conocer el concepto de biorremediación y ejemplos sobre la utilización de microorganismos en la mejora del medio ambiente: eliminación de mareas negras, depuración de aguas residuales y compostaje, lixiviación microbiana o biolixiviación, bioacumulación y control de plagas.</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </details>
+
+  </div>
+</details>
+
+<!-- ============================================================ -->
+<!-- BLOQUE F -->
+<!-- ============================================================ -->
+<details class="bloque">
+  <summary>
+      <div class="bloque-titulo">Bloque F: Inmunología.</div>
+      <p class="bloque-desc">Sistema inmunitario, defensas, memoria y patologías del sistema.</p>
+  </summary>
+  <div class="bloque-content">
+
+    <details class="saber">
+      <summary>F.1 Concepto de inmunidad y de sistema inmunitario.</summary>
+      <div class="saber-content">
+        <details class="ra">
+          <summary>F.1.1 Conocer los componentes del sistema inmunitario.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Conocer la función de los órganos linfoides primarios (médula ósea y timo) y secundarios (bazo, ganglios linfáticos y tejidos linfoides asociados a mucosas).</li>
+              <li>Identificar las células implicadas: macrófagos, neutrófilos, células cebadas (mastocitos o basófilos), linfocitos B y linfocitos T (colaboradores y citotóxicos).</li>
+              <li>Conocer las moléculas del sistema: anticuerpos, interferón, interleucinas, citocinas y el sistema del complemento.</li>
+            </ul>
+          </div>
+        </details>
+        <details class="ra">
+          <summary>F.1.2 Conocer la naturaleza de antígenos y anticuerpos.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Comprender que los antígenos son sustancias heterogéneas mientras que los anticuerpos tienen una estructura molecular similar y actúan de forma específica frente a los antígenos.</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <details class="saber">
+      <summary>F.2 La inmunidad innata o inespecífica.</summary>
+      <div class="saber-content">
+        <details class="ra">
+          <summary>F.2.1 Describir las barreras externas o primarias.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Conocer la barrera mecánica (piel y mucosas), química (secreción ácida, enzimática — lisozima —, moco, antibiótica) y biológica (microbiota). <em>Nota: evitar el término "flora microbiana".</em></li>
+            </ul>
+          </div>
+        </details>
+        <details class="ra">
+          <summary>F.2.2 Explicar la respuesta inmunitaria innata secundaria: inflamación y fagocitosis.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Describir el proceso de la fagocitosis realizado por macrófagos y neutrófilos.</li>
+              <li>Conocer el concepto de inflamación y su naturaleza inespecífica. Conocer los mecanismos (vasodilatación, diapédesis, aumento de permeabilidad) que desencadenan las manifestaciones (edema, dolor, calor y rubor) de la inflamación. No es necesario conocer el proceso inflamatorio de forma exhaustiva.</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <details class="saber">
+      <summary>F.3 La inmunidad adquirida o específica.</summary>
+      <div class="saber-content">
+        <details class="ra">
+          <summary>F.3.1 Diferenciar entre inmunidad innata (inespecífica) y adquirida (específica).</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Diferenciar la inmunidad innata (reacción inflamatoria, fagocitosis) de la adquirida (respuesta inmune humoral y celular), que permite generar memoria inmunitaria.</li>
+            </ul>
+          </div>
+        </details>
+        <details class="ra">
+          <summary>F.3.2 Comprender los mecanismos de inmunidad humoral y celular.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Conocer la función de: macrófagos (células presentadoras de antígenos), linfocitos B, células plasmáticas, células de memoria, linfocitos T colaboradores (helper) y citotóxicos, anticuerpos y Complejo Mayor de Histocompatibilidad (MHC).</li>
+              <li>Identificar la estructura de los anticuerpos: región variable (parátopo) y región constante; cadenas pesadas y ligeras; puentes disulfuro. Conocer la función general de los anticuerpos.</li>
+              <li>Conocer los tipos de anticuerpos, sus distintas funciones biológicas y localizaciones: estructura dimérica de la IgA y pentamérica de la IgM; solo la IgG atraviesa la placenta; en secreciones es mayoritaria la IgA; papel de las IgE en las alergias.</li>
+              <li>Comprender la especificidad de la reacción antígeno-anticuerpo (unión epítopo-parátopo).</li>
+              <li>Conocer los tipos de reacción antígeno-anticuerpo: aglutinación, precipitación, neutralización y opsonización.</li>
+              <li>Explicar el papel de los linfocitos B (diferenciación en células plasmáticas y células B de memoria) y de los linfocitos T colaboradores (Th) y citotóxicos (Tc).</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <details class="saber">
+      <summary>F.4 Memoria inmunológica: respuesta primaria y secundaria.</summary>
+      <div class="saber-content">
+        <details class="ra">
+          <summary>F.4.1 Comprender el concepto de memoria inmunológica.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Diferenciar entre respuesta inmunitaria primaria y secundaria.</li>
+              <li>Conocer el concepto de memoria inmunológica.</li>
+              <li>Conocer el cambio en los niveles de anticuerpos (de IgM a IgG) a lo largo de la respuesta inmune.</li>
+              <li>Analizar e interpretar gráficas que comparen la respuesta inmunitaria primaria y secundaria (tiempo de respuesta, intensidad y tipo de anticuerpos).</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <details class="saber">
+      <summary>F.5 Inmunidad natural y artificial. Vacunas y sueros.</summary>
+      <div class="saber-content">
+        <details class="ra">
+          <summary>F.5.1 Conocer los mecanismos de funcionamiento de la inmunidad natural y artificial, y de la inmunidad pasiva y activa.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Distinguir entre inmunidad activa (natural tras la enfermedad y artificial mediante vacunas) e inmunidad pasiva (natural vía placenta/leche materna y artificial mediante sueros).</li>
+              <li>Conocer el concepto de vacuna, su composición, mecanismo de acción y papel preventivo. Las vacunas producen respuesta tanto humoral (producción de anticuerpos) como celular (activación de linfocitos T). Comprender la importancia de las vacunas en la prevención de enfermedades infecciosas y la inmunidad de grupo.</li>
+              <li>Conocer el concepto de sueroterapia, composición de un suero, mecanismo de acción y papel curativo.</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <details class="saber">
+      <summary>F.6 La enfermedad infecciosa. Prevención y tratamiento.</summary>
+      <div class="saber-content">
+        <details class="ra">
+          <summary>F.6.1 Conocer las fases de una enfermedad infecciosa.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Identificar las fases: incubación, desarrollo y convalecencia, relacionándolas con la respuesta inmunitaria. Entender que se puede producir contagio aunque no haya síntomas.</li>
+              <li>Diferenciar el uso de antibióticos (bacterias) y antivirales. Valorar el uso responsable de antibióticos para evitar la aparición de resistencias.</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </details>
+
+    <details class="saber">
+      <summary>F.7 Principales patologías del sistema inmunitario y trasplantes.</summary>
+      <div class="saber-content">
+        <details class="ra">
+          <summary>F.7.1 Conocer hipersensibilidad, autoinmunidad e inmunodeficiencia.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Definir hipersensibilidad (alergias: papel de IgE, mastocitos e histamina), autoinmunidad (esclerosis múltiple, lupus eritematoso, diabetes tipo I) e inmunodeficiencia (natural como niños burbuja y adquirida como el SIDA). Indicar al menos un ejemplo de cada uno.</li>
+            </ul>
+          </div>
+        </details>
+        <details class="ra">
+          <summary>F.7.2 Conocer el concepto de trasplante y rechazo.</summary>
+          <div class="concrecion">
+            <ul>
+              <li>Conocer el concepto de trasplante y los tipos según la relación entre donante y receptor: autoinjerto, isoinjerto, aloinjerto y xenoinjerto.</li>
+              <li>Comprender la causa del rechazo inmunológico basada en el reconocimiento del Complejo Mayor de Histocompatibilidad (MHC). Conocer el uso de inmunosupresores para evitarlo.</li>
+            </ul>
+          </div>
+        </details>
+      </div>
+    </details>
+
+  </div>
+</details>
+
+<script>
+  /* ── Aparición progresiva de bloques al hacer scroll ── */
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('visible');
+        observer.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.05 });
+
+  document.querySelectorAll('details.bloque').forEach(el => observer.observe(el));
+
+  /* ── Resaltado de verbos de acción cognitiva en RAs ── */
+  const verbos = [
+    'conocer','describir','identificar','relacionar','comprender',
+    'analizar','definir','explicar','valorar','diferenciar',
+    'reconocer','comparar','interpretar','evaluar','distinguir',
+    'establecer','entender','justificar','localizar','nombrar',
+    'clasificar','argumentar','deducir','resolver','calcular'
+  ];
+  const regex = new RegExp(`\\b(${verbos.join('|')})`, 'gi');
+
+  document.querySelectorAll('details.ra > summary').forEach(el => {
+    el.innerHTML = el.innerHTML.replace(regex,
+      '<strong style="color:var(--accent)">$1</strong>');
+  });
+
+  /* ── Botón "Ver presentación" en saberes con data-presentation ── */
+  document.querySelectorAll('details.saber[data-presentation]').forEach(saber => {
+    const url = saber.dataset.presentation;
+    const content = saber.querySelector('.saber-content');
+    if (!content || !url) return;
+
+    // Indicador en el summary (rombo de color)
+    saber.classList.add('has-presentation');
+
+    // Botón al inicio del contenido del saber
+    const btn = document.createElement('a');
+    btn.href = url;
+    btn.target = '_blank';
+    btn.rel = 'noopener noreferrer';
+    btn.className = 'btn-presentacion';
+    btn.innerHTML = `
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="3" width="20" height="14" rx="2"/>
+            <line x1="8" y1="21" x2="16" y2="21"/>
+            <line x1="12" y1="17" x2="12" y2="21"/>
+        </svg>
+        Ver presentación
+    `;
+    content.prepend(btn);
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="BioCelia — Plataforma de preparación PAU Biología. Recursos orientados a la selectividad de Andalucía con rigor científico y enfoque competencial.">
+<title>BioCelia — PAU Biología</title>
+<link rel="stylesheet" href="pau-theme.css">
+<style>
+  :root {
+    --cyan:    #00e5ff;
+    --green:   #39ff14;
+    --amber:   #ffaa00;
+    --purple:  #bf5fff;
+    --red:     #ff3355;
+    --void:    #020510;
+    --text:    #ddeeff;
+    --dim:     #a8c0d8;
+    --glass:   rgba(255, 255, 255, 0.05);
+    --glass-border: rgba(255, 255, 255, 0.1);
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  
+  body {
+    background-color: var(--void);
+    color: var(--text);
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    overflow-x: hidden;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* ─── FONDO ANIMADO LIGERO (PURO CSS) ─── */
+  .bg-blobs {
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    z-index: -1;
+    overflow: hidden;
+    background: radial-gradient(circle at center, #0a1128 0%, var(--void) 100%);
+  }
+
+  .blob {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(80px);
+    opacity: 0.4;
+    animation: floatBlob 15s infinite alternate ease-in-out;
+  }
+
+  .blob-1 { width: 300px; height: 300px; background: var(--cyan); top: -10%; left: -10%; }
+  .blob-2 { width: 400px; height: 400px; background: var(--purple); bottom: -20%; right: -10%; animation-delay: -5s; }
+  .blob-3 { width: 250px; height: 250px; background: var(--green); top: 40%; left: 50%; animation-delay: -10s; opacity: 0.2; }
+
+  @keyframes floatBlob {
+    0% { transform: translate(0, 0) scale(1); }
+    100% { transform: translate(50px, 50px) scale(1.1); }
+  }
+
+  /* ─── CONTENIDO CENTRAL ─── */
+  .container {
+    width: 100%;
+    max-width: 1100px;
+    padding: 0 20px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* ─── NAVEGACIÓN ─── */
+  nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 1px solid rgba(0,229,255,0.1);
+    margin-bottom: 40px;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-decoration: none;
+    color: var(--text);
+  }
+  
+  .logo em {
+    font-style: normal;
+    color: var(--cyan);
+    text-shadow: 0 0 10px rgba(0,229,255,0.5);
+  }
+
+  .badge {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--cyan);
+    background: rgba(0,229,255,0.1);
+    border: 1px solid rgba(0,229,255,0.3);
+    padding: 6px 12px;
+    border-radius: 20px;
+  }
+
+  /* ─── HERO (BIENVENIDA) ─── */
+  .hero {
+    text-align: center;
+    max-width: 800px;
+    margin-bottom: 60px;
+    animation: fadeIn 1s ease-out;
+  }
+
+  .hero-tag {
+    font-size: 0.8rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--cyan);
+    margin-bottom: 15px;
+    display: block;
+  }
+
+  .hero-title {
+    font-size: clamp(2.5rem, 8vw, 5rem);
+    font-weight: 900;
+    line-height: 1.1;
+    margin-bottom: 25px;
+  }
+
+  .hero-title .gradient-text {
+    background: linear-gradient(100deg, var(--cyan), var(--purple), var(--green));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: block;
+  }
+
+  .hero-desc {
+    font-size: clamp(1rem, 2vw, 1.15rem);
+    color: var(--dim);
+    line-height: 1.6;
+  }
+
+  .hero-desc strong {
+    color: var(--text);
+  }
+
+  /* ─── GRID DE TARJETAS (RESPONSIVE AUTOMÁTICO) ─── */
+  .grid-title {
+    font-size: 0.85rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--dim);
+    margin-bottom: 25px;
+    text-align: center;
+  }
+
+  .cards-container {
+    width: 100%;
+    display: grid;
+    /* Esto hace que se adapte al móvil mágicamente sin media queries complejas */
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    animation: fadeIn 1.2s ease-out;
+  }
+
+  .card {
+    background: var(--glass);
+    border: 1px solid var(--glass-border);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 30px 25px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+  }
+
+  .card-n {
+    font-size: 0.8rem;
+    letter-spacing: 0.15em;
+    color: rgba(255,255,255,0.4);
+    margin-bottom: 15px;
+  }
+
+  .card-ico {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+  }
+
+  .card:hover .card-ico {
+    transform: scale(1.1);
+  }
+
+  .card-title {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: var(--text);
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+  }
+
+  .card-desc {
+    font-size: 0.95rem;
+    color: var(--dim);
+    line-height: 1.5;
+    flex-grow: 1;
+  }
+
+  /* Colores específicos por tarjeta en hover */
+  .c1:hover { border-color: var(--cyan); box-shadow: 0 10px 30px rgba(0,229,255,0.15); }
+  .c1:hover .card-title { color: var(--cyan); }
+
+  .c2:hover { border-color: var(--green); box-shadow: 0 10px 30px rgba(57,255,20,0.15); }
+  .c2:hover .card-title { color: var(--green); }
+
+  .c3:hover { border-color: var(--red); box-shadow: 0 10px 30px rgba(255,51,85,0.15); }
+  .c3:hover .card-title { color: var(--red); }
+
+  .c4:hover { border-color: var(--amber); box-shadow: 0 10px 30px rgba(255,170,0,0.15); }
+  .c4:hover .card-title { color: var(--amber); }
+
+  .c5:hover { border-color: var(--purple); box-shadow: 0 10px 30px rgba(191,95,255,0.15); }
+  .c5:hover .card-title { color: var(--purple); }
+
+  /* ─── FOOTER ─── */
+  footer {
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    width: 100%;
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--dim);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .status {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--cyan);
+  }
+
+  .dot {
+    width: 8px; height: 8px;
+    background: var(--cyan);
+    border-radius: 50%;
+    animation: blink 2s infinite;
+  }
+
+  /* ─── ANIMACIONES BÁSICAS ─── */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes blink {
+    0%, 100% { opacity: 1; box-shadow: 0 0 10px var(--cyan); }
+    50% { opacity: 0.3; box-shadow: none; }
+  }
+
+  /* ─── AJUSTES MÓVILES EXTRAS ─── */
+  @media (max-width: 600px) {
+    nav { flex-direction: column; gap: 15px; }
+    .hero { margin-bottom: 40px; }
+    .card { padding: 25px 20px; }
+  }
+</style>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Saltar al contenido principal</a>
+  <nav class="site-nav" aria-label="Navegación principal">
+    <a class="active" href="index.html">Inicio</a>
+    <a href="orientacionespau.html">Orientaciones</a>
+    <a href="resumenespau.html">Resúmenes</a>
+    <a href="Entrenamientopau.html">Entrenamiento</a>
+    <a href="simulacropau.html">Simulacro</a>
+    <a href="laboratoriocompetencial.html">Laboratorio</a>
+  </nav>
+
+  <div class="bg-blobs" aria-hidden="true">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <div class="container">
+    
+    <nav>
+      <a href="#" class="logo">Bio<em>Celia</em></a>
+      <span class="badge">PAU · Biología · Andalucía 25/26</span>
+    </nav>
+
+    <header class="hero">
+      <span class="hero-tag">⬡ Plataforma de Inmersión ⬡</span>
+      <h1 class="hero-title">
+        Adéntrate en <span class="gradient-text">la Célula</span>
+      </h1>
+      <p class="hero-desc">
+        Esta plataforma reúne recursos de apoyo para preparar la selectividad de Biología en Andalucía. Los materiales se organizan según los bloques y competencias propios de la PAU 2025, con un enfoque en la comprensión conceptual, la aplicación y la argumentación científica.
+      </p>
+    </header>
+
+    <p class="grid-title">— Menú de Navegación —</p>
+
+    <main class="cards-container" id="main-content">
+      
+      <a href="orientacionespau.html" class="card c1">
+        <span class="card-n">01</span>
+        <span class="card-ico">🧭</span>
+        <h2 class="card-title">Orientaciones PAU</h2>
+        <p class="card-desc">Guía de saberes básicos, resultados de aprendizaje y criterios de evaluación para preparar la prueba con rigor.</p>
+      </a>
+
+      <a href="resumenespau.html" class="card c2">
+        <span class="card-n">02</span>
+        <span class="card-ico">🧠</span>
+        <h2 class="card-title">Resúmenes</h2>
+        <p class="card-desc">Resumenes y apuntes organizados por bloques temáticos para facilitar la revisión conceptual y la memorización activa.</p>
+      </a>
+
+      <a href="Entrenamientopau.html" class="card c3">
+        <span class="card-n">03</span>
+        <span class="card-ico">⚡</span>
+        <h2 class="card-title">Entrenamiento</h2>
+        <p class="card-desc">Banco de preguntas y soluciones razonadas que ayuda a practicar la respuesta breve y la argumentación científica.</p>
+      </a>
+
+      <a href="simulacropau.html" class="card c4">
+        <span class="card-n">04</span>
+        <span class="card-ico">⏱️</span>
+        <h2 class="card-title">Simulacro</h2>
+        <p class="card-desc">Simulacros con estructura de examen para practicar la gestión del tiempo y la respuesta bajo presión.</p>
+      </a>
+
+      <a href="laboratoriocompetencial.html" class="card c5">
+        <span class="card-n">05</span>
+        <span class="card-ico">🎮</span>
+        <h2 class="card-title">Laboratorio competencial</h2>
+        <p class="card-desc">Retos de razonamiento científico que conectan la teoría con la aplicación y el análisis de casos.</p>
+      </a>
+
+    </main>
+
+    <footer>
+      <div class="status">
+        <span class="dot"></span> Sistema Activo
+      </div>
+      <p>Hecho con 🧬 para el alumnado de Biología</p>
+    <div class="footer-content">
+        <p>&copy; 2026 María Dolores Gámez Ortiz. Todos los derechos reservados.</p>
+        
+        <div class="cc-license">
+            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
+                <img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
+            </a>
+            <p>Este contenido está bajo una <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Licencia Creative Commons Atribución 4.0 Internacional</a>.</p>
+        </div>
+    </div>
+    </footer>
+
+  </div>
+
+</body>
+</html>
