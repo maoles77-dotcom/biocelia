@@ -473,6 +473,27 @@ body {
   margin-bottom: 14px;
   font-style: italic;
 }
+.exam-fig {
+  margin: 0 0 14px;
+  padding: 12px;
+  background: #fff;
+  border: 1px solid #dfe7ef;
+  border-radius: 8px;
+  text-align: center;
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+.exam-fig img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.img-fuente {
+  margin-top: 7px;
+  font-size: .72rem;
+  color: var(--muted);
+  font-style: italic;
+}
 .q-text {
   font-size: .98rem;
   line-height: 1.75;
@@ -555,6 +576,10 @@ body {
   .exam-q-body { padding: 8pt 10pt; }
   .q-text { font-size: 10pt; line-height: 1.6; }
   .img-placeholder { border: 1pt dashed #888; font-size: 8pt; padding: 8pt; }
+  /* La figura debe imprimirse legible y sin partirse entre páginas. */
+  .exam-fig { border: 1pt solid #bbb; padding: 6pt; margin-bottom: 8pt; }
+  .exam-fig img { max-height: 70mm; width: auto; }
+  .img-fuente { font-size: 7pt; color: #555; }
   .option-label.a, .option-label.b { border: 1pt solid #aaa; background: none; color: black; }
   .choose-note { font-size: 8pt; border-top: 1pt solid #ccc; }
   .answer-line { border-bottom: .5pt solid #bbb; }
@@ -661,6 +686,11 @@ body {
     <div class="exam-body" id="examBody"></div>
   </div>
 </div>
+
+<!-- Preguntas con figura real extraídas de los documentos PAU.
+     Se carga con <script src> y no con fetch a propósito: así la página
+     sigue funcionando al abrirla con doble clic, sin servidor local. -->
+<script src="data/preguntas-figuras.js"></script>
 
 <script>
 // ══════════════════════════════════════════════════════════════
@@ -1211,6 +1241,15 @@ const database = [
 ]; // fin database
 
 // ══════════════════════════════════════════════════════════════
+//  PREGUNTAS CON FIGURA (data/preguntas-figuras.js)
+//  Llevan isNew:true, así que entran en el grupo de la Parte I, que
+//  es donde el examen reserva sitio para el esquema o la gráfica.
+// ══════════════════════════════════════════════════════════════
+if (Array.isArray(window.BIOCELIA_FIGURAS) && window.BIOCELIA_FIGURAS.length) {
+  database.push(...window.BIOCELIA_FIGURAS);
+}
+
+// ══════════════════════════════════════════════════════════════
 //  VERBOS COGNITIVOS para resaltado automático
 // ══════════════════════════════════════════════════════════════
 const VERBOS = ['defina','define','describa','describe','explique','explica','razone',
@@ -1220,6 +1259,24 @@ const VERBOS = ['defina','define','describa','describe','explique','explica','ra
   'represente','señala','señale','determina','determine','exponga','enumere',
   'asigne','escriba','deduzca','exponga','proponga','redacte','enuncie'];
 const reVerbos = new RegExp(`\\b(${VERBOS.join('|')})\\b`, 'gi');
+
+// ══════════════════════════════════════════════════════════════
+//  FIGURA DE UNA PREGUNTA
+//  Si hay imagen real se pinta; si no, se mantiene el recuadro de
+//  aviso, porque el examen impreso necesita el hueco reservado.
+// ══════════════════════════════════════════════════════════════
+function figuraDe(q) {
+  if (q.hasImg && q.imgSrc) {
+    const alt = q.imageDesc || `Figura de la pregunta sobre ${q.topic}`;
+    const fuente = q.origen
+      ? `<figcaption class="img-fuente">Figura de «${q.origen.documento}»</figcaption>` : '';
+    return `<figure class="exam-fig">
+        <img src="${q.imgSrc}" alt="${alt}" loading="lazy">${fuente}
+      </figure>`;
+  }
+  return `<div class="img-placeholder">🖼 <em>Imagen de apoyo: ${q.topic}</em>` +
+         `<br><small>Esta pregunta requiere un esquema que aún no se ha localizado.</small></div>`;
+}
 
 // ══════════════════════════════════════════════════════════════
 //  ESTADO
@@ -1294,7 +1351,7 @@ function generateExam() {
           <span class="q-score">2 pts</span>
         </div>
         <div class="exam-q-body">
-          <div class="img-placeholder">🖼 <em>Imagen de apoyo: ${q.topic}</em><br><small>Inserta aquí el esquema o gráfica correspondiente.</small></div>
+          ${figuraDe(q)}
           <div class="q-text">${textoQ}</div>
           ${answerLines(8)}
         </div>

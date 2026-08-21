@@ -247,8 +247,20 @@
   @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.65} }
 
   /* ─── IMAGEN ─── */
-  .img-box { margin: 14px 0; display: none; }
-  .img-box img { max-width: 100%; border-radius: 8px; border: 1px solid #dde; }
+  .img-box { margin: 14px 0; display: none; text-align: center; }
+  .img-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #dde;
+    background: #fff;
+  }
+  .img-fuente {
+    margin-top: 6px;
+    font-size: .74rem;
+    color: #7b8a99;
+    font-style: italic;
+  }
   .img-placeholder {
     background: #fdf2e9;
     padding: 18px;
@@ -423,6 +435,11 @@
   </div>
 
 </div><!-- /container -->
+
+<!-- Preguntas con figura real extraídas de los documentos PAU.
+     Se carga con <script src> y no con fetch a propósito: así la página
+     sigue funcionando al abrirla con doble clic, sin servidor local. -->
+<script src="data/preguntas-figuras.js"></script>
 
 <script>
 // ══════════════════════════════════════════════════════════════
@@ -3457,6 +3474,15 @@ const verbos = [
 const regexVerbos = new RegExp(`\\b(${verbos.join('|')})\\b`, 'gi');
 
 // ══════════════════════════════════════════════════════════════
+//  PREGUNTAS CON FIGURA (data/preguntas-figuras.js)
+//  Cada una lleva una imagen vinculada por su posición dentro del
+//  documento de origen, no por parecido temático.
+// ══════════════════════════════════════════════════════════════
+if (Array.isArray(window.BIOCELIA_FIGURAS) && window.BIOCELIA_FIGURAS.length) {
+  database.push(...window.BIOCELIA_FIGURAS);
+}
+
+// ══════════════════════════════════════════════════════════════
 //  ESTADO
 // ══════════════════════════════════════════════════════════════
 let contadorPreguntas = 0;
@@ -3561,11 +3587,22 @@ function loadQ() {
   const imgCont = document.getElementById('imgContainer');
   if (q.hasImg) {
     imgCont.style.display = 'block';
-    imgCont.setAttribute('aria-hidden', 'true');
     if (q.imgSrc && q.imgSrc.length > 5) {
-      imgCont.innerHTML = `<img src="${q.imgSrc}" alt="${q.imageDesc || 'Imagen de la pregunta'}">`;
+      // Hay figura real: debe quedar accesible, no oculta al lector de pantalla.
+      imgCont.removeAttribute('aria-hidden');
+      const alt = q.imageDesc
+        || (q.origen ? `Figura de la pregunta, procedente de ${q.origen.documento}`
+                     : 'Figura de la pregunta');
+      imgCont.innerHTML =
+        `<img src="${q.imgSrc}" alt="${alt}" loading="lazy">` +
+        (q.origen ? `<p class="img-fuente">Figura de «${q.origen.documento}»</p>` : '');
     } else {
-      imgCont.innerHTML = `<div class="img-placeholder">🖼️ ${q.imageDesc || 'Imagen no disponible'}<br><small>Sustituye el placeholder con el enlace de Google Drive.</small></div>`;
+      // Sin figura localizada. La descripción sigue siendo útil para razonar
+      // la pregunta, así que se muestra en lugar de un hueco vacío.
+      imgCont.setAttribute('aria-hidden', 'false');
+      imgCont.innerHTML = q.imageDesc
+        ? `<div class="img-placeholder">🖼️ <strong>La pregunta se apoya en esta figura:</strong><br>${q.imageDesc}<br><small>Aún no se ha localizado la imagen original en los documentos.</small></div>`
+        : `<div class="img-placeholder">🖼️ <small>Esta pregunta lleva figura, pero todavía no se ha localizado.</small></div>`;
     }
   } else {
     imgCont.style.display = 'none';
@@ -3580,9 +3617,12 @@ function loadQ() {
     m => `<span class="puntuacion">${m}</span>`);
   document.getElementById('qText').innerHTML = textoQ;
 
-  // Criterios de corrección
-  document.getElementById('critList').innerHTML =
-    q.c.map(i => `<li>${i}</li>`).join('');
+  // Criterios de corrección. Puede no haberlos: hay preguntas transcritas de
+  // documentos que no traían solución, y no se ha redactado ninguna.
+  const criterios = Array.isArray(q.c) ? q.c : [];
+  document.getElementById('critList').innerHTML = criterios.length
+    ? criterios.map(i => `<li>${i}</li>`).join('')
+    : '<li><em>El documento de origen no incluye solución para esta pregunta.</em></li>';
 
   // Feedback
   const feedText = (q.f || '').replace(/\[cite:\s*[\d,\s]+\]/g, '').trim();

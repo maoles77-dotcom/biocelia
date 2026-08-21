@@ -177,42 +177,52 @@ def analizar_tramo(tramo: dict) -> dict:
     """
     Separa enunciado / apartados / solución dentro de un tramo.
 
-    El criterio NO es el orden de las series de letras, que resultó poco
-    fiable: es la presencia de la puntuación entre corchetes. En estos
-    documentos el enunciado siempre lleva sus [0,5] y la solución oficial
-    nunca los lleva. Es un rasgo del propio documento, no una suposición.
+    El corte se hace donde REINICIA la secuencia de letras: estos documentos
+    plantean "a) b) c)" y a continuación responden "a) b) c)" otra vez, así
+    que la segunda vuelta es la solución. Es el rasgo más fiable de los tres
+    que he probado:
+
+      · por orden de párrafo -> falla con los enunciados de un solo párrafo.
+      · por presencia de [0,5] -> falla cuando el enunciado no puntúa los
+        apartados, y entonces las preguntas acaban archivadas como respuestas.
+      · por reinicio de letras -> funciona en ambos casos, y cuando no hay
+        reinicio se recurre a los corchetes como desempate.
     """
     parrafos = [p for p in tramo["parrafos"] if p["texto"] or p["imagenes"]]
     imagenes = [m for p in parrafos for m in p["imagenes"]]
 
-    con_marca, sin_marca = [], []
-    for p in parrafos:
-        if not p["texto"]:
-            continue
-        (con_marca if RE_PUNTOS.search(p["texto"]) else sin_marca).append(p["texto"])
-
-    # El enunciado es la cabecera del primer párrafo, hasta el primer "a)".
     primero = parrafos[0]["texto"] if parrafos else ""
     m_prim = RE_APARTADO_INLINE.search(primero)
     enunciado = limpia(primero[: m_prim.start()] if m_prim else primero)
 
-    # Apartados: todo el texto con puntuación, venga en el mismo párrafo del
-    # enunciado o en párrafos aparte.
-    apartados = partir_apartados(" ".join(con_marca))
-
-    # Solución: los párrafos con forma de apartado y sin puntuación. Se
-    # descartan los que preceden al primer apartado (son enunciado suelto).
-    solucion = []
-    for t in sin_marca:
-        m = RE_APARTADO.match(t)
-        if m:
-            cuerpo = limpia(t[m.end():])
-            if cuerpo:
-                solucion.append({"letra": m.group(1).lower(), "texto": cuerpo, "puntos": None})
-        elif not apartados and not solucion and len(t) > 3 and enunciado:
+    # Todos los apartados en orden de documento, vengan dentro del párrafo
+    # del enunciado o en párrafos sueltos.
+    todos: list[dict] = []
+    if m_prim:
+        todos.extend(partir_apartados(primero[m_prim.start():]))
+    for p in parrafos[1:]:
+        t = p["texto"]
+        if not t:
+            continue
+        if RE_APARTADO.match(t):
+            todos.extend(partir_apartados(t))
+        elif not todos and len(t) > 3:
+            # Todavía no ha empezado ningún apartado: sigue siendo enunciado.
             enunciado = limpia(f"{enunciado} {t}")
 
+    corte = None
+    for i in range(1, len(todos)):
+        if todos[i]["letra"] <= todos[i - 1]["letra"]:
+            corte = i
+            break
+    if corte is None:
+        marcados = [i for i, a in enumerate(todos) if a["puntos"] is not None]
+        corte = (marcados[-1] + 1) if marcados else len(todos)
+
+    apartados, solucion = todos[:corte], todos[corte:]
+
     ref = RE_REF_EXAMEN.search(primero)
+    letras = [a["letra"] for a in apartados]
     return {
         "enunciado": RE_REF_EXAMEN.sub("", enunciado).strip(),
         "apartados": apartados,
@@ -220,10 +230,9 @@ def analizar_tramo(tramo: dict) -> dict:
         "imagenes": imagenes,
         "ref_pregunta": ref.group(1) if ref else None,
         "ref_anio": int(ref.group(2)) if ref else None,
-        # Señal de calidad para la revisión: si las letras de los apartados no
-        # forman una secuencia limpia, el troceo es dudoso.
-        "secuencia_limpia": [a["letra"] for a in apartados]
-                            == sorted({a["letra"] for a in apartados}),
+        # Señal de calidad para la revisión: las letras del enunciado deben
+        # ir en orden y sin repetirse.
+        "secuencia_limpia": letras == sorted(set(letras)),
     }
 
 
@@ -277,11 +286,28 @@ def main() -> int:
             ]
             total = sum(a["puntos"] for a in d["apartados"] if a["puntos"])
 
+            # ── Detección de contaminación ────────────────────────────
+            # Un "criterio" que termina en interrogación o que lleva la
+            # puntuación entre corchetes no es una respuesta: es un apartado
+            # del enunciado que se ha colado en el lado equivocado. Y un
+            # enunciado largísimo sin apartados suele haberse tragado la
+            # solución. En ambos casos la pregunta no puede publicarse.
+            sospechas = []
+            for s in d["solucion"]:
+                t = s["texto"].rstrip()
+                if t.endswith("?"):
+                    sospechas.append("criterio-interrogativo")
+                    break
+            if any(RE_PUNTOS.search(s["texto"]) for s in d["solucion"]):
+                sospechas.append("criterio-con-puntuacion")
+            if not d["apartados"] and len(d["enunciado"]) > 700:
+                sospechas.append("enunciado-posiblemente-con-solucion")
+
             # Confianza en EL TROCEO, no en la riqueza del registro. Una
             # pregunta de enunciado corrido y puntuación en línea, sin
             # apartados con letra, está perfectamente bien troceada: lo que
             # delata un mal corte es una secuencia de letras desordenada.
-            if not d["secuencia_limpia"]:
+            if not d["secuencia_limpia"] or sospechas:
                 confianza = "baja"
             elif d["solucion"]:
                 confianza = "alta"
@@ -322,6 +348,7 @@ def main() -> int:
                     "script": "tools/extraer_preguntas_docx.py",
                     "confianza_troceo": confianza,
                     "secuencia_apartados_limpia": d["secuencia_limpia"],
+                    "sospechas": sospechas,
                     "nota": "Transcripción literal. Requiere revisión humana "
                             "antes de publicarse.",
                 },
