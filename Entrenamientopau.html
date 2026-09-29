@@ -261,6 +261,17 @@
     color: #7b8a99;
     font-style: italic;
   }
+  /* Esquema escrito en el propio enunciado (sin imagen) */
+  .esquema-texto {
+    display: block;
+    margin: 8px 0;
+    padding: 8px 12px;
+    background: #f4f7fb;
+    border-left: 3px solid #c8d2e0;
+    font-family: Consolas, "Courier New", monospace;
+    font-size: .9em;
+    overflow-x: auto;
+  }
   .img-placeholder {
     background: #fdf2e9;
     padding: 18px;
@@ -440,6 +451,9 @@
      Se carga con <script src> y no con fetch a propósito: así la página
      sigue funcionando al abrirla con doble clic, sin servidor local. -->
 <script src="data/preguntas-figuras.js"></script>
+<!-- Preguntas de exámenes PAU de años anteriores con sus criterios oficiales
+     (generado por tools/generar_banco_historico.py). -->
+<script src="data/preguntas-historico.js"></script>
 
 <script>
 // ══════════════════════════════════════════════════════════════
@@ -3483,6 +3497,14 @@ if (Array.isArray(window.BIOCELIA_FIGURAS) && window.BIOCELIA_FIGURAS.length) {
 }
 
 // ══════════════════════════════════════════════════════════════
+//  EXÁMENES PAU DE AÑOS ANTERIORES (data/preguntas-historico.js)
+//  Enunciado oficial y solución según los criterios de corrección.
+// ══════════════════════════════════════════════════════════════
+if (window.BIOCELIA_HISTORICO && Array.isArray(window.BIOCELIA_HISTORICO.entrenamiento)) {
+  database.push(...window.BIOCELIA_HISTORICO.entrenamiento);
+}
+
+// ══════════════════════════════════════════════════════════════
 //  ESTADO
 // ══════════════════════════════════════════════════════════════
 let contadorPreguntas = 0;
@@ -3579,9 +3601,12 @@ function loadQ() {
   badge.textContent        = q.block + ' · ' + q.topic;
   badge.setAttribute('data-block', q.block);
 
-  // Badge "2025"
+  // Badge "2025", o el año del examen si es una pregunta PAU anterior
   const badgeNew = document.getElementById('badgeNew');
-  badgeNew.style.display = q.isNew ? 'inline-block' : 'none';
+  badgeNew.textContent = q.anio ? `PAU ${q.anio}` : '2025';
+  badgeNew.setAttribute('aria-label',
+    q.anio ? `Pregunta de la PAU de ${q.anio}` : 'Pregunta nueva 2025');
+  badgeNew.style.display = (q.isNew || q.anio) ? 'inline-block' : 'none';
 
   // Imagen
   const imgCont = document.getElementById('imgContainer');

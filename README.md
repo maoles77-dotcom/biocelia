@@ -13,8 +13,8 @@ conceptual, la aplicación y la argumentación científica.
 | `index.html` | Portada y navegación |
 | `orientacionespau.html` | Saberes básicos, resultados de aprendizaje y criterios de evaluación |
 | `resumenespau.html` | Resúmenes y apuntes por bloques temáticos |
-| `Entrenamientopau.html` | Banco de 258 preguntas con criterios de corrección y tips, más diccionario de 805 términos |
-| `simulacropau.html` | 122 preguntas con estructura de examen |
+| `Entrenamientopau.html` | Banco de 482 preguntas con criterios de corrección y tips, más diccionario de 805 términos |
+| `simulacropau.html` | 322 preguntas con estructura de examen |
 | `laboratoriocompetencial.html` | Casos de razonamiento científico |
 
 ## Ver en local
@@ -27,6 +27,24 @@ el navegador bloquea `fetch` sobre `file://`:
 python -m http.server 8000
 # después: http://localhost:8000
 ```
+
+## Exámenes PAU de años anteriores
+
+Cada año se transcribe en `data/historico/pau-AAAA.json`: enunciado oficial,
+solución según los criterios oficiales de corrección y, si la hay, la figura
+extraída del PDF. Después se ejecuta:
+
+```bash
+python tools/generar_banco_historico.py
+```
+
+que regenera `data/preguntas-historico.js` (lo cargan Entrenamiento y
+Simulacro) y añade las preguntas a `preguntasjsonentrenamiento.json` y
+`preguntasjsonsimulacro.json` sin duplicar. En el simulacro entran las
+preguntas de 2 puntos: la 1-3 de cada opción en la Parte II y la 6 (con
+figura) en la Parte I. Las de 1 punto (4 y 5) quedan solo en Entrenamiento.
+
+Incorporados: 2010 (72 preguntas).
 
 ## Qué no está en el repositorio
 
