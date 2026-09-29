@@ -1,0 +1,1577 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Laboratorio de investigación BioCelia: actividades competenciales para aplicar las novedades de la PAU de Biología de Andalucía 2026-2027.">
+<title>Laboratorio de Investigación · BioCelia</title>
+<link rel="stylesheet" href="pau-theme.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;900&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --ink: #22313f;
+  --muted: #62727f;
+  --bg: #f3f6f5;
+  --card: #ffffff;
+  --border: #dde5e2;
+  --lab: #146c62;
+  --lab-soft: #e3f3ef;
+  --lab-strong: #0c4a43;
+  --gold: #c77d00;
+  --gold-soft: #fff4df;
+  --ok: #1e8449;
+  --ok-soft: #e6f5ec;
+  --ko: #b03a2e;
+  --ko-soft: #fbeae8;
+  --violet: #6d3fc0;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  padding: 0 16px 40px;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'Nunito', system-ui, sans-serif;
+  line-height: 1.6;
+}
+.wrap { max-width: 1040px; margin: 0 auto; }
+
+/* ── Portada ── */
+.hero {
+  position: relative;
+  overflow: hidden;
+  border-radius: 18px;
+  padding: 38px 28px 30px;
+  color: #fff;
+  background:
+    radial-gradient(circle at 85% 20%, rgba(255,255,255,.12) 0 60px, transparent 61px),
+    radial-gradient(circle at 92% 70%, rgba(255,255,255,.08) 0 38px, transparent 39px),
+    linear-gradient(135deg, var(--lab-strong), var(--lab) 60%, #1f8a7a);
+  box-shadow: 0 8px 28px rgba(12,74,67,.25);
+}
+.hero .badge-26 {
+  display: inline-block;
+  background: var(--gold-soft);
+  color: var(--gold);
+  font-weight: 800;
+  font-size: .75rem;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  padding: 4px 12px;
+  border-radius: 999px;
+}
+.hero h1 {
+  font-family: 'Lora', Georgia, serif;
+  font-size: clamp(1.7rem, 4.5vw, 2.5rem);
+  margin: 12px 0 6px;
+  line-height: 1.2;
+}
+.hero p { margin: 0; max-width: 720px; opacity: .92; }
+.hero .firma { margin-top: 14px; font-family: 'Lora', serif; font-style: italic; opacity: .85; }
+
+.equipo {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 12px;
+  margin: 18px 0;
+}
+.persona {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 14px 16px;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+.avatar {
+  flex: 0 0 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-weight: 900;
+  color: #fff;
+}
+.av-ines { background: #146c62; }
+.av-marcos { background: #34495e; }
+.av-lucia { background: #b9770e; }
+.av-tu { background: #6d3fc0; }
+.persona strong { display: block; font-size: .95rem; }
+.persona span { font-size: .82rem; color: var(--muted); }
+
+/* ── Panel de progreso ── */
+.panel {
+  position: sticky;
+  top: env(safe-area-inset-top, 0px);
+  z-index: 20;
+  background: rgba(255,255,255,.96);
+  backdrop-filter: blur(6px);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 10px 16px;
+  margin: 14px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px 18px;
+  box-shadow: 0 4px 14px rgba(0,0,0,.05);
+}
+.panel .dato { font-size: .85rem; color: var(--muted); }
+.panel .dato b { color: var(--ink); font-size: 1.05rem; }
+.rango {
+  background: var(--lab-soft);
+  color: var(--lab-strong);
+  font-weight: 800;
+  font-size: .82rem;
+  padding: 4px 12px;
+  border-radius: 999px;
+}
+.barra { flex: 1 1 160px; height: 8px; background: #e7eeeb; border-radius: 99px; overflow: hidden; }
+.barra i { display: block; height: 100%; width: 0; background: linear-gradient(90deg, var(--lab), #2fb39f); transition: width .4s; }
+.btn-mini {
+  border: 1px solid var(--border);
+  background: #fff;
+  color: var(--muted);
+  font: inherit;
+  font-size: .78rem;
+  border-radius: 999px;
+  padding: 4px 12px;
+  cursor: pointer;
+}
+.btn-mini:hover { color: var(--ko); border-color: var(--ko); }
+.confirmar { font-size: .8rem; color: var(--ko); display: flex; gap: 6px; align-items: center; }
+
+/* ── Filtros ── */
+.filtros { display: flex; flex-wrap: wrap; gap: 6px; margin: 6px 0 16px; }
+.filtros button {
+  font: inherit;
+  font-size: .8rem;
+  font-weight: 700;
+  padding: 5px 13px;
+  border-radius: 999px;
+  border: 1.5px solid var(--border);
+  background: #fff;
+  color: var(--muted);
+  cursor: pointer;
+}
+.filtros button[aria-pressed="true"] { background: var(--lab); border-color: var(--lab); color: #fff; }
+
+/* ── Expedientes ── */
+.expediente {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  margin-bottom: 14px;
+  box-shadow: 0 2px 8px rgba(0,0,0,.03);
+  overflow: hidden;
+}
+.expediente > summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 16px 18px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 4px 14px;
+  align-items: center;
+}
+.expediente > summary::-webkit-details-marker { display: none; }
+.num {
+  grid-row: span 2;
+  width: 46px; height: 46px;
+  border-radius: 12px;
+  display: grid; place-items: center;
+  font-weight: 900;
+  background: var(--lab-soft);
+  color: var(--lab-strong);
+}
+.expediente.hecho .num { background: var(--ok); color: #fff; }
+.exp-titulo { font-family: 'Lora', serif; font-weight: 600; font-size: 1.08rem; }
+.exp-meta { font-size: .78rem; color: var(--muted); grid-column: 2; }
+.etq {
+  display: inline-block;
+  font-size: .7rem;
+  font-weight: 800;
+  padding: 2px 8px;
+  border-radius: 6px;
+  margin-right: 4px;
+  background: var(--gold-soft);
+  color: var(--gold);
+}
+.etq.bloque { background: #eef2f7; color: #34495e; }
+.flecha { grid-row: span 2; color: var(--muted); transition: transform .2s; }
+.expediente[open] .flecha { transform: rotate(90deg); }
+.exp-cuerpo { padding: 0 18px 18px; border-top: 1px solid var(--border); }
+
+.escena { margin-top: 14px; }
+.bocadillo { display: flex; gap: 10px; margin: 10px 0; align-items: flex-start; }
+.bocadillo .avatar { flex-basis: 34px; height: 34px; font-size: .8rem; }
+.bocadillo p {
+  margin: 0;
+  background: #f6f9f8;
+  border: 1px solid var(--border);
+  border-radius: 4px 14px 14px 14px;
+  padding: 9px 13px;
+  font-size: .94rem;
+}
+.bocadillo p b.quien { display: block; font-size: .76rem; color: var(--muted); }
+.narra { font-family: 'Lora', serif; font-style: italic; color: #465663; margin: 10px 0; }
+
+.datos {
+  margin: 14px 0;
+  padding: 14px;
+  background: #fbfcfc;
+  border: 1px dashed #c7d3cf;
+  border-radius: 12px;
+  overflow-x: auto;
+}
+.datos h4 { margin: 0 0 8px; font-size: .82rem; letter-spacing: .05em; text-transform: uppercase; color: var(--lab-strong); }
+.datos table { border-collapse: collapse; font-size: .88rem; min-width: 100%; }
+.datos th, .datos td { border: 1px solid #d5dfdb; padding: 6px 9px; text-align: center; }
+.datos th { background: #eef5f3; }
+.datos svg { display: block; max-width: 100%; height: auto; margin: 0 auto; }
+.formula { font-family: Consolas, 'Courier New', monospace; font-size: .92rem; }
+
+/* ── Decisiones ── */
+.decision { margin: 16px 0; padding: 14px; border-radius: 12px; background: #f7f5fc; border: 1px solid #e3dcf3; }
+.decision .enun { font-weight: 700; margin-bottom: 10px; }
+.decision .enun small { font-weight: 600; color: var(--violet); display: block; font-size: .72rem; text-transform: uppercase; letter-spacing: .05em; }
+.opciones { display: grid; gap: 7px; }
+.opciones button {
+  text-align: left;
+  font: inherit;
+  font-size: .92rem;
+  padding: 9px 13px;
+  border-radius: 10px;
+  border: 1.5px solid #d9d2ec;
+  background: #fff;
+  color: var(--ink);
+  cursor: pointer;
+}
+.opciones button:hover:not(:disabled) { border-color: var(--violet); }
+.opciones button.ok { background: var(--ok-soft); border-color: var(--ok); }
+.opciones button.ko { background: var(--ko-soft); border-color: var(--ko); }
+.opciones button:disabled { cursor: default; }
+.clasif { display: grid; gap: 7px; }
+.clasif label { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; justify-content: space-between; background: #fff; border: 1.5px solid #d9d2ec; border-radius: 10px; padding: 7px 12px; font-size: .92rem; }
+.clasif label.ok { border-color: var(--ok); background: var(--ok-soft); }
+.clasif label.ko { border-color: var(--ko); background: var(--ko-soft); }
+.clasif select { font: inherit; font-size: .88rem; padding: 4px 6px; border-radius: 8px; border: 1px solid #cfd8d4; max-width: 100%; }
+.btn {
+  font: inherit;
+  font-weight: 800;
+  font-size: .88rem;
+  border: none;
+  border-radius: 10px;
+  padding: 9px 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.btn-lab { background: var(--lab); color: #fff; }
+.btn-lab:hover { background: var(--lab-strong); }
+.btn-oro { background: var(--gold); color: #fff; }
+.feedback { margin-top: 10px; padding: 10px 13px; border-radius: 10px; font-size: .92rem; }
+.feedback.ok { background: var(--ok-soft); border-left: 4px solid var(--ok); }
+.feedback.ko { background: var(--ko-soft); border-left: 4px solid var(--ko); }
+
+/* ── Informe PAU ── */
+.informe { margin-top: 18px; border-radius: 12px; border: 1px solid #f0dcb4; background: #fffaf0; padding: 14px; }
+.informe h4 { margin: 0 0 6px; color: var(--gold); font-size: .82rem; text-transform: uppercase; letter-spacing: .05em; }
+.informe .preg { font-weight: 700; }
+.pts { color: #2980b9; font-weight: 800; }
+.modelo { margin-top: 10px; }
+.modelo ul { margin: 6px 0; padding-left: 20px; }
+.modelo li { margin: 4px 0; }
+mark.clave { background: #fff1a8; color: inherit; font-weight: 700; padding: 0 2px; border-radius: 3px; }
+.autoeval { margin-top: 10px; padding: 10px 12px; background: #fff; border: 1px solid #f0dcb4; border-radius: 10px; }
+.autoeval p { margin: 0 0 6px; font-size: .85rem; color: var(--muted); }
+.autoeval label { display: flex; gap: 8px; align-items: flex-start; font-size: .9rem; margin: 4px 0; cursor: pointer; }
+.tip-trib { margin-top: 8px; font-size: .85rem; color: #6b5a2e; }
+
+/* ── Congreso ── */
+.congreso {
+  margin-top: 26px;
+  background: var(--card);
+  border: 2px solid var(--gold);
+  border-radius: 18px;
+  padding: 22px;
+  text-align: center;
+}
+.congreso h2 { font-family: 'Lora', serif; margin: 0 0 6px; }
+.insignias { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-top: 12px; }
+.insignia { padding: 6px 12px; border-radius: 999px; background: #eef2f7; color: #8a98a3; font-size: .82rem; font-weight: 700; }
+.insignia.on { background: var(--lab); color: #fff; }
+.pie { margin-top: 28px; font-size: .8rem; color: var(--muted); text-align: center; }
+
+@media (max-width: 560px) {
+  .hero { padding: 28px 18px 24px; }
+  .expediente > summary { padding: 14px; gap: 2px 10px; }
+  .exp-cuerpo { padding: 0 14px 14px; }
+  .num { width: 40px; height: 40px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .barra i, .flecha { transition: none; }
+}
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Saltar al contenido</a>
+
+<nav class="site-nav" aria-label="Navegación principal">
+  <a href="index.html">Inicio</a>
+  <a href="orientacionespau.html">Orientaciones</a>
+  <a href="resumenespau.html">Resúmenes</a>
+  <a href="Entrenamientopau.html">Entrenamiento</a>
+  <a href="simulacropau.html">Simulacro</a>
+  <a href="laboratoriocompetencial.html">Laboratorio</a>
+  <a class="active" href="laboratorioinvestigacion.html">Investigación</a>
+</nav>
+
+<div class="wrap" id="main-content">
+
+  <header class="hero">
+    <span class="badge-26">Novedades PAU 2026-27</span>
+    <h1>Tu primer año en el laboratorio</h1>
+    <p>Acabas de conseguir una beca de iniciación a la investigación en el Laboratorio BioCelia. Hay muestras sin etiquetar, geles por interpretar, un congreso a la vista y un postdoc que no acepta una conclusión sin datos. Cada expediente es una situación real de laboratorio: decide con ciencia, redacta tu informe y suma puntos de rigor.</p>
+    <p class="firma">«Una hipótesis no es una corazonada: es una pregunta que se puede poner a prueba».</p>
+  </header>
+
+  <section class="equipo" aria-label="Equipo del laboratorio">
+    <div class="persona"><div class="avatar av-ines" aria-hidden="true">IN</div><div><strong>Dra. Inés Navarro</strong><span>Investigadora principal. Te ha dado la beca y confía en ti… siempre que justifiques cada paso.</span></div></div>
+    <div class="persona"><div class="avatar av-marcos" aria-hidden="true">MV</div><div><strong>Dr. Marcos Vidal</strong><span>Postdoc. Exigente, puntual y temido en las reuniones de grupo. Su frase: «¿Y el control?».</span></div></div>
+    <div class="persona"><div class="avatar av-lucia" aria-hidden="true">LO</div><div><strong>Lucía Ortega</strong><span>Doctoranda de tercer año. Tu aliada: sabe dónde está cada reactivo y cada truco.</span></div></div>
+    <div class="persona"><div class="avatar av-tu" aria-hidden="true">TÚ</div><div><strong>Tú</strong><span>Becario/a de primer año. Tu misión: llegar al congreso de junio… y aprobar la PAU por el camino.</span></div></div>
+  </section>
+
+  <div class="panel" role="status" aria-live="polite">
+    <span class="rango" id="rango">Becario/a en prácticas</span>
+    <span class="dato">Puntos de rigor: <b id="puntos">0</b> / <b id="puntosMax">0</b></span>
+    <span class="dato">Expedientes cerrados: <b id="cerrados">0</b> / <b id="totalExp">0</b></span>
+    <div class="barra" aria-hidden="true"><i id="barra"></i></div>
+    <span id="zonaReset"><button class="btn-mini" type="button" id="btnReset">Reiniciar</button></span>
+  </div>
+
+  <div class="filtros" id="filtros" role="group" aria-label="Filtrar expedientes por bloque"></div>
+
+  <main id="expedientes"></main>
+
+  <section class="congreso" aria-labelledby="tituloCongreso">
+    <h2 id="tituloCongreso">🎤 Congreso de jóvenes investigadores · junio</h2>
+    <p id="textoCongreso">Cierra expedientes para conseguir las insignias de cada bloque. Con todas, la Dra. Navarro te inscribe como ponente.</p>
+    <div class="insignias" id="insignias"></div>
+  </section>
+
+  <p class="pie">Laboratorio y personajes ficticios, con ambientación inspirada en el día a día de los laboratorios de investigación que retratan historias como <i>La hipótesis del amor</i>. Las actividades aplican los saberes marcados como «Nuevo 26-27» y los resaltados en las <a href="orientacionespau.html">Orientaciones PAU 2026-2027</a>. Los centros y lugares andaluces citados son reales; las situaciones y los datos son didácticos.<br>&copy; 2026 María Dolores Gámez Ortiz · CC BY 4.0</p>
+</div>
+
+<script>
+// ══════════════════════════════════════════════════════════════
+//  EXPEDIENTES
+//  Cada uno aplica una novedad de las directrices PAU 2026-27
+//  (código entre corchetes en «novedad»).
+//  Tipos de decisión: "opcion" (una respuesta) y "clasificar"
+//  (varios elementos con un desplegable cada uno).
+//  En los modelos de informe, **texto** = idea clave para el tribunal.
+// ══════════════════════════════════════════════════════════════
+const PERSONAS = {
+  ines:   { ini: 'IN', clase: 'av-ines',   nombre: 'Dra. Inés Navarro' },
+  marcos: { ini: 'MV', clase: 'av-marcos', nombre: 'Dr. Marcos Vidal' },
+  lucia:  { ini: 'LO', clase: 'av-lucia',  nombre: 'Lucía Ortega' },
+};
+
+const GEL_SVG = `
+<svg viewBox="0 0 420 250" role="img" aria-labelledby="gelT gelD">
+  <title id="gelT">Gel de electroforesis de la PCR de Xylella</title>
+  <desc id="gelD">Seis carriles. M: marcador con bandas de 1000, 500, 300 y 100 pb. C+: una banda a la altura de 300 pb. C−: sin bandas. Muestra 1: banda a 300 pb. Muestra 2: sin banda. Muestra 3: banda a 300 pb, más tenue.</desc>
+  <rect x="0" y="0" width="420" height="250" rx="10" fill="#1d2b36"/>
+  <text x="18" y="20" fill="#9fb3c2" font-size="11" font-family="Nunito, sans-serif">Polo −  (pocillos)</text>
+  <text x="18" y="242" fill="#9fb3c2" font-size="11" font-family="Nunito, sans-serif">Polo +</text>
+  <g font-family="Nunito, sans-serif" font-size="12" fill="#dfe8ee" text-anchor="middle">
+    <text x="80" y="42">M</text><text x="145" y="42">C+</text><text x="210" y="42">C−</text>
+    <text x="275" y="42">1</text><text x="340" y="42">2</text><text x="395" y="42">3</text>
+  </g>
+  <g fill="#0d161d"><rect x="62" y="50" width="36" height="8"/><rect x="127" y="50" width="36" height="8"/><rect x="192" y="50" width="36" height="8"/><rect x="257" y="50" width="36" height="8"/><rect x="322" y="50" width="36" height="8"/><rect x="380" y="50" width="30" height="8"/></g>
+  <g fill="#7ff0d6">
+    <rect x="62" y="82" width="36" height="5" rx="2"/><rect x="62" y="122" width="36" height="5" rx="2"/><rect x="62" y="152" width="36" height="5" rx="2"/><rect x="62" y="205" width="36" height="5" rx="2"/>
+    <rect x="127" y="152" width="36" height="5" rx="2"/>
+    <rect x="257" y="152" width="36" height="5" rx="2"/>
+    <rect x="380" y="152" width="30" height="5" rx="2" opacity=".45"/>
+  </g>
+  <g font-family="Nunito, sans-serif" font-size="10" fill="#9fb3c2" text-anchor="end">
+    <text x="56" y="88">1000 pb</text><text x="56" y="128">500 pb</text><text x="56" y="158">300 pb</text><text x="56" y="211">100 pb</text>
+  </g>
+</svg>`;
+
+const CELULAS_SVG = (() => {
+  // Células vegetales esquemáticas de un meristemo de raíz (A-D).
+  const cel = (x, contenido, letra) => `
+    <g transform="translate(${x},10)">
+      <rect x="0" y="0" width="120" height="120" rx="6" fill="#fdf8ec" stroke="#8a7a52" stroke-width="3"/>
+      ${contenido}
+      <text x="60" y="142" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="800" font-size="15" fill="#22313f">${letra}</text>
+    </g>`;
+  const X = (cx, cy, r = 0) => `<g transform="translate(${cx},${cy}) rotate(${r})"><path d="M-6,-9 L6,9 M6,-9 L-6,9" stroke="#6d2f8a" stroke-width="4" stroke-linecap="round"/></g>`;
+  const V = (cx, cy, arriba) => `<path d="M${cx - 6},${cy + (arriba ? 8 : -8)} L${cx},${cy} L${cx + 6},${cy + (arriba ? 8 : -8)}" fill="none" stroke="#6d2f8a" stroke-width="4" stroke-linecap="round"/>`;
+  const huso = `<g stroke="#b9b09a" stroke-width="1"><path d="M60,14 L20,60 L60,106 M60,14 L45,60 L60,106 M60,14 L75,60 L60,106 M60,14 L100,60 L60,106" fill="none"/></g>`;
+  const A = `<circle cx="60" cy="60" r="36" fill="none" stroke="#b9b09a" stroke-dasharray="4 4"/>${X(45, 50, 20)}${X(70, 48, -30)}${X(52, 74, 60)}${X(74, 72, 10)}`;
+  const B = `${huso}${X(60, 30)}${X(60, 50)}${X(60, 70)}${X(60, 90)}`;
+  const C = `${huso.replace(/M60,14 L20,60 L60,106 /, '')}${V(38, 25, true)}${V(52, 25, true)}${V(68, 25, true)}${V(82, 25, true)}${V(38, 95, false)}${V(52, 95, false)}${V(68, 95, false)}${V(82, 95, false)}`;
+  const D = `<ellipse cx="60" cy="28" rx="28" ry="14" fill="#eadcf2" stroke="#6d2f8a"/><ellipse cx="60" cy="92" rx="28" ry="14" fill="#eadcf2" stroke="#6d2f8a"/><line x1="8" y1="60" x2="112" y2="60" stroke="#8a7a52" stroke-width="3" stroke-dasharray="6 4"/>`;
+  return `
+<svg viewBox="0 0 560 160" role="img" aria-labelledby="celT celD">
+  <title id="celT">Cuatro células del meristemo de raíz de cebolla</title>
+  <desc id="celD">A: cromosomas condensados dispersos dentro de un contorno nuclear que se desdibuja. B: cromosomas alineados en el centro de la célula con fibras del huso. C: cromátidas separándose hacia los dos polos. D: dos núcleos en los polos y una línea discontinua en el centro de la célula.</desc>
+  ${cel(10, A, 'A')}${cel(150, B, 'B')}${cel(290, C, 'C')}${cel(430, D, 'D')}
+</svg>`;
+})();
+
+const RUTA_SVG = `
+<svg viewBox="0 0 520 150" role="img" aria-labelledby="rutaT rutaD">
+  <title id="rutaT">Ruta de síntesis de isoleucina</title>
+  <desc id="rutaD">Treonina se transforma en A por la enzima E1, A en B por E2, B en C por E3 y C en isoleucina por E4. Una flecha discontinua roja parte de la isoleucina y vuelve a la enzima E1 con un signo menos.</desc>
+  <g font-family="Nunito, sans-serif" font-size="13" text-anchor="middle" fill="#22313f">
+    <rect x="10" y="40" width="80" height="32" rx="8" fill="#e3f3ef" stroke="#146c62"/><text x="50" y="61">Treonina</text>
+    <rect x="130" y="40" width="50" height="32" rx="8" fill="#fff" stroke="#146c62"/><text x="155" y="61">A</text>
+    <rect x="220" y="40" width="50" height="32" rx="8" fill="#fff" stroke="#146c62"/><text x="245" y="61">B</text>
+    <rect x="310" y="40" width="50" height="32" rx="8" fill="#fff" stroke="#146c62"/><text x="335" y="61">C</text>
+    <rect x="400" y="40" width="100" height="32" rx="8" fill="#e3f3ef" stroke="#146c62"/><text x="450" y="61">Isoleucina</text>
+    <g font-size="11" fill="#62727f"><text x="110" y="34">E1</text><text x="200" y="34">E2</text><text x="290" y="34">E3</text><text x="380" y="34">E4</text></g>
+  </g>
+  <g stroke="#146c62" stroke-width="2" fill="none" marker-end="url(#pta)">
+    <line x1="92" y1="56" x2="126" y2="56"/><line x1="182" y1="56" x2="216" y2="56"/><line x1="272" y1="56" x2="306" y2="56"/><line x1="362" y1="56" x2="396" y2="56"/>
+  </g>
+  <path d="M450,74 C450,130 110,130 110,78" stroke="#b03a2e" stroke-width="2" stroke-dasharray="6 4" fill="none" marker-end="url(#ptr)"/>
+  <text x="280" y="140" text-anchor="middle" font-family="Nunito, sans-serif" font-size="13" font-weight="800" fill="#b03a2e">−</text>
+  <defs>
+    <marker id="pta" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#146c62"/></marker>
+    <marker id="ptr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#b03a2e"/></marker>
+  </defs>
+</svg>`;
+
+const EXPEDIENTES = [
+  {
+    id: 'grupos',
+    bloque: 'Biomoléculas',
+    novedad: 'A.1.2 · Grupos funcionales',
+    titulo: 'Día 1: el armario de reactivos sin etiquetas',
+    escena: [
+      { n: 'Tu primera mañana. Lucía te enseña el laboratorio y se detiene ante un armario con cuatro frascos cuyas etiquetas se han borrado. Solo se lee la fórmula escrita a rotulador en la tapa.' },
+      { p: 'marcos', t: 'Antes de tocar ninguna muestra quiero que sepas qué tienes delante. Mira los grupos funcionales: te dicen cómo se va a comportar cada molécula.' },
+    ],
+    datos: `<h4>Fórmulas de las tapas</h4>
+      <table><tr><th>Frasco</th><th>Fórmula</th></tr>
+      <tr><td>1</td><td class="formula">CH₂OH–(CHOH)₄–CHO</td></tr>
+      <tr><td>2</td><td class="formula">CH₃–(CH₂)₁₄–COOH</td></tr>
+      <tr><td>3</td><td class="formula">H₂N–CH(CH₃)–COOH</td></tr>
+      <tr><td>4</td><td class="formula">HS–CH₂–CH(NH₂)–COOH</td></tr></table>`,
+    decisiones: [
+      {
+        tipo: 'clasificar',
+        enun: 'Asigna a cada frasco el tipo de biomolécula.',
+        items: ['Frasco 1', 'Frasco 2', 'Frasco 3', 'Frasco 4'],
+        opciones: ['Monosacárido (aldosa)', 'Ácido graso', 'Aminoácido sin azufre', 'Aminoácido con grupo tiol'],
+        solucion: [0, 1, 2, 3],
+        fb_ok: 'Exacto. El frasco 1 tiene muchos hidroxilos y un carbonilo (aldehído): glucosa. El 2 es un ácido graso (palmítico). El 3 y el 4 son aminoácidos (alanina y cisteína); el 4 lleva un grupo tiol (–SH).',
+        fb_ko: 'Fíjate en los grupos: –OH y –CHO indican un glúcido; una cadena larga –(CH₂)ₙ– con –COOH, un ácido graso; –NH₂ y –COOH en el mismo carbono, un aminoácido; –SH es el grupo tiol.',
+      },
+      {
+        tipo: 'opcion',
+        enun: 'Marcos quiere preparar una disolución acuosa concentrada. ¿Qué frasco se disolverá peor en agua?',
+        opciones: [
+          { t: 'El 1: el carbonilo lo hace apolar.', fb: 'No: el carbonilo y los cinco hidroxilos forman puentes de hidrógeno con el agua. La glucosa es muy soluble.' },
+          { t: 'El 2: su larga cadena hidrocarbonada es apolar y solo el carboxilo es polar.', ok: true, fb: 'Correcto. El ácido graso es anfipático: la cabeza carboxilo es polar, pero la cola de 15 carbonos es hidrófoba y domina. En agua forma micelas en lugar de disolverse.' },
+          { t: 'El 3: los aminoácidos son siempre apolares.', fb: 'No: el amino y el carboxilo se ionizan en agua. La alanina es soluble.' },
+        ],
+      },
+      {
+        tipo: 'opcion',
+        enun: 'Lucía añade un poco de ácido a una disolución del frasco 3 y después un poco de base. ¿Qué le pasa a la molécula?',
+        opciones: [
+          { t: 'Se comporta como ácido y como base: capta H⁺ por el grupo amino en medio ácido y cede H⁺ por el carboxilo en medio básico.', ok: true, fb: 'Correcto: es anfótera. Por eso los aminoácidos (y las proteínas) amortiguan cambios de pH.' },
+          { t: 'Solo reacciona con la base, porque el carboxilo es su único grupo ionizable.', fb: 'Olvidas el grupo amino, que actúa como base captando protones.' },
+          { t: 'No cambia: los aminoácidos no se ionizan.', fb: 'Sí se ionizan; en disolución suelen estar como ion dipolar (zwitterión).' },
+        ],
+      },
+    ],
+    informe: {
+      preg: 'Relacione los grupos funcionales con: a) la polaridad de los glúcidos; b) el carácter anfipático de los ácidos grasos; c) la naturaleza anfótera de los aminoácidos; d) la capacidad de la cisteína para estabilizar la estructura de las proteínas.',
+      pts: '[2]',
+      modelo: [
+        'a) Los glúcidos tienen numerosos **grupos hidroxilo** y un **grupo carbonilo** (aldehído o cetona) que forman **puentes de hidrógeno** con el agua: son **polares y solubles**.',
+        'b) El ácido graso tiene una **cabeza polar (carboxilo)** y una **cola apolar (cadena hidrocarbonada)**: es **anfipático** y en agua forma micelas o bicapas.',
+        'c) El **grupo amino** puede captar H⁺ (base) y el **grupo carboxilo** puede cederlo (ácido): el aminoácido es **anfótero** y actúa como **amortiguador del pH**.',
+        'd) El **grupo tiol (–SH)** de dos cisteínas forma **puentes disulfuro**, enlaces covalentes que estabilizan la **estructura terciaria**.',
+      ],
+      tip: 'En la PAU nombra siempre el grupo funcional concreto (hidroxilo, carbonilo, carboxilo, amino, tiol, amida): el tribunal lo exige.',
+    },
+  },
+  {
+    id: 'reactivos',
+    bloque: 'Biomoléculas',
+    novedad: 'A.3.5 · Identificación de biomoléculas en el laboratorio',
+    titulo: 'Las muestras de la cafetería',
+    escena: [
+      { p: 'ines', t: 'La cafetería del instituto nos ha pedido ayuda: se han mezclado las etiquetas de cuatro muestras. Tenemos leche entera, clara de huevo, aceite de oliva y un puré de patata. Aplica las pruebas de rutina y dime cuál es cuál.' },
+      { p: 'lucia', t: 'Pista de doctoranda: no necesitas saber la química de cada reactivo, solo qué detecta y qué color da si es positivo.' },
+    ],
+    datos: `<h4>Resultados de las pruebas</h4>
+      <table><tr><th>Muestra</th><th>Benedict (calor)</th><th>Lugol</th><th>Biuret</th><th>Sudán III</th></tr>
+      <tr><td>W</td><td>azul</td><td>amarillo-pardo</td><td>azul</td><td>capa roja intensa</td></tr>
+      <tr><td>X</td><td>rojo ladrillo</td><td>amarillo-pardo</td><td>violeta</td><td>gotitas rojas</td></tr>
+      <tr><td>Y</td><td>azul</td><td>amarillo-pardo</td><td>violeta intenso</td><td>sin teñir</td></tr>
+      <tr><td>Z</td><td>azul</td><td>azul-negro</td><td>azul</td><td>sin teñir</td></tr></table>
+      <p style="font-size:.82rem;margin:.6em 0 0;color:#62727f">Recuerda: Benedict → glúcidos reductores · Lugol → almidón · Biuret → proteínas · Sudán III → lípidos.</p>`,
+    decisiones: [
+      {
+        tipo: 'clasificar',
+        enun: 'Identifica cada muestra.',
+        items: ['Muestra W', 'Muestra X', 'Muestra Y', 'Muestra Z'],
+        opciones: ['Aceite de oliva', 'Leche entera', 'Clara de huevo', 'Puré de patata'],
+        solucion: [0, 1, 2, 3],
+        fb_ok: 'Perfecto. W solo tiene lípidos (aceite). X tiene azúcar reductor (lactosa), proteínas y grasa: leche entera. Y es casi solo proteína: clara. Z tiene almidón: patata.',
+        fb_ko: 'Lee fila a fila: ¿qué pruebas son positivas? Solo lípidos → aceite; almidón → patata; proteína sin grasa ni azúcar → clara; las tres cosas → leche.',
+      },
+      {
+        tipo: 'opcion',
+        enun: 'Marcos prueba una quinta muestra, agua con azúcar de mesa (sacarosa), y el Benedict sale azul. «¿Y ahora qué? ¿No había azúcar?»',
+        opciones: [
+          { t: 'El reactivo está caducado: toda muestra con azúcar debe dar rojo ladrillo.', fb: 'Antes de culpar al reactivo, piensa en el tipo de azúcar. ¿Y el control positivo?' },
+          { t: 'La sacarosa no es reductora: sus dos carbonos anoméricos están unidos en el enlace glucosídico. Si se hidroliza antes, el Benedict sí sale positivo.', ok: true, fb: 'Eso es. El Benedict detecta glúcidos reductores; la sacarosa no lo es. Tras hidrolizarla (ácido y calor, o invertasa) se liberan glucosa y fructosa, que sí reducen el reactivo.' },
+          { t: 'El Benedict solo detecta almidón.', fb: 'El almidón se detecta con Lugol.' },
+        ],
+      },
+    ],
+    informe: {
+      preg: 'Una muestra problema da Biuret violeta y Sudán III positivo, pero Benedict y Lugol negativos. a) Deduzca qué biomoléculas contiene y cuáles no, justificando cada prueba. b) ¿Por qué no se puede afirmar que carece de glúcidos?',
+      pts: '[1]',
+      modelo: [
+        'a) **Biuret violeta**: contiene **proteínas**. **Sudán III** positivo: contiene **lípidos**. **Lugol** negativo (amarillo): **no contiene almidón**. **Benedict** negativo (azul): **no contiene glúcidos reductores**.',
+        'b) Puede contener **glúcidos no reductores**, como la **sacarosa**, que no dan positivo en Benedict sin **hidrólisis** previa.',
+      ],
+      tip: 'Cita siempre la prueba, el color observado y la conclusión. No hace falta explicar el fundamento químico.',
+    },
+  },
+  {
+    id: 'iones',
+    bloque: 'Biomoléculas',
+    novedad: 'A.2 · Iones y funciones (resaltado 26-27)',
+    titulo: 'El medio de cultivo que alguien preparó mal',
+    escena: [
+      { n: 'Lunes, 9:00. Dos experimentos han fallado durante el fin de semana y todas las miradas se dirigen al mismo lote de medio de cultivo y de tampón.' },
+      { p: 'marcos', t: 'Las fibras musculares cultivadas no se contraen al estimularlas y la PCR del viernes no ha amplificado nada. Alguien ha olvidado un ion. Encuéntralo.' },
+    ],
+    datos: `<h4>Composición preparada</h4>
+      <table><tr><th>Ion</th><th>Medio de las fibras</th><th>Tampón de la PCR</th></tr>
+      <tr><td>Na⁺</td><td>✔</td><td>✔</td></tr>
+      <tr><td>K⁺</td><td>✔</td><td>✔</td></tr>
+      <tr><td>Ca²⁺</td><td>✘</td><td>—</td></tr>
+      <tr><td>Mg²⁺</td><td>✔</td><td>✘</td></tr></table>`,
+    decisiones: [
+      {
+        tipo: 'opcion',
+        enun: '¿Por qué no se contraen las fibras musculares?',
+        opciones: [
+          { t: 'Falta Ca²⁺, imprescindible para la contracción muscular y la señalización celular.', ok: true, fb: 'Correcto. El Ca²⁺ desencadena la interacción actina-miosina y actúa como señal intracelular.' },
+          { t: 'Falta Mg²⁺, que es el ion que transmite el impulso nervioso.', fb: 'El impulso nervioso depende sobre todo de Na⁺ y K⁺. Y el Mg²⁺ sí está en el medio.' },
+          { t: 'Sobra Na⁺, que bloquea el músculo.', fb: 'El Na⁺ es necesario para el potencial de membrana y la transmisión del impulso.' },
+        ],
+      },
+      {
+        tipo: 'opcion',
+        enun: '¿Y por qué no ha amplificado la PCR?',
+        opciones: [
+          { t: 'Porque sin K⁺ el ADN no se desnaturaliza.', fb: 'La desnaturalización la produce la temperatura (unos 95 ºC).' },
+          { t: 'Porque falta Mg²⁺, cofactor necesario para la actividad de la ADN polimerasa.', ok: true, fb: 'Exacto. Muchas enzimas necesitan Mg²⁺ como cofactor; sin él la polimerasa no sintetiza ADN.' },
+          { t: 'Porque falta Ca²⁺, que forma los puentes de hidrógeno.', fb: 'Los puentes de hidrógeno entre bases no necesitan iones.' },
+        ],
+      },
+    ],
+    informe: {
+      preg: 'Relacione cada ion con una función biológica: Na⁺ y K⁺, Ca²⁺ y Mg²⁺. Explique además su papel en el equilibrio osmótico.',
+      pts: '[1]',
+      modelo: [
+        '**Na⁺ y K⁺**: mantienen el **potencial de membrana** y permiten la **transmisión del impulso nervioso**.',
+        '**Ca²⁺**: interviene en la **contracción muscular** y en la **señalización celular** (además de formar parte de huesos y conchas).',
+        '**Mg²⁺**: **cofactor** de muchas enzimas, por lo que regula la **actividad enzimática** (y forma parte de la clorofila).',
+        'Las sales disueltas determinan la **concentración de solutos** a ambos lados de la membrana y, por tanto, el paso de agua por **ósmosis**: mantienen el **equilibrio osmótico**.',
+      ],
+    },
+  },
+  {
+    id: 'chargaff',
+    bloque: 'Genética',
+    novedad: 'B.1.2 · Chargaff y temperatura de fusión',
+    titulo: 'La bacteria de las aguas termales',
+    escena: [
+      { n: 'El grupo ha aislado dos bacterias: una de un manantial termal de Granada a 60 ºC y otra de un arroyo frío de Sierra Nevada. Hay que analizar su ADN antes de la reunión con la Dra. Navarro.' },
+      { p: 'lucia', t: 'Del ADN de la bacteria 1 sabemos que un 32 % de las bases son adenina. De la bacteria 2, un 18 %. Con eso y Chargaff puedes sacar todo lo demás.' },
+    ],
+    datos: `<h4>Composición de bases (ADN bicatenario)</h4>
+      <table><tr><th>Bacteria</th><th>% A</th><th>% T</th><th>% G</th><th>% C</th></tr>
+      <tr><td>1</td><td>32</td><td>?</td><td>?</td><td>?</td></tr>
+      <tr><td>2</td><td>18</td><td>?</td><td>?</td><td>?</td></tr></table>`,
+    decisiones: [
+      {
+        tipo: 'opcion',
+        enun: '¿Cuál es el porcentaje de guanina de la bacteria 2?',
+        opciones: [
+          { t: '18 %', fb: 'Ese es el de timina (A = T).' },
+          { t: '32 %', ok: true, fb: 'Correcto: A = T = 18 %, así que A + T = 36 % y G + C = 64 %; G = C = 32 %.' },
+          { t: '64 %', fb: '64 % es G + C juntas; cada una es la mitad.' },
+        ],
+      },
+      {
+        tipo: 'opcion',
+        enun: 'Marcos calienta ambos ADN. ¿Cuál necesitará más temperatura para separar sus hebras y de qué bacteria procede probablemente?',
+        opciones: [
+          { t: 'El de la bacteria 1, porque tiene más adenina y la adenina es más pesada.', fb: 'La temperatura de fusión no depende del peso de las bases, sino de los enlaces entre ellas.' },
+          { t: 'El de la bacteria 2: tiene más pares G-C, unidos por tres puentes de hidrógeno. Encaja con la bacteria del manantial termal.', ok: true, fb: 'Así es. G-C forma tres puentes de hidrógeno y A-T dos; más G-C significa mayor temperatura de fusión, una ventaja en ambientes calientes.' },
+          { t: 'Los dos igual: todo el ADN se desnaturaliza a 100 ºC.', fb: 'La temperatura de fusión varía con la proporción G-C.' },
+        ],
+      },
+      {
+        tipo: 'opcion',
+        enun: 'Un fragmento de una hebra es 5′–GATTACCA–3′. ¿Cuál es la hebra complementaria, escrita de 5′ a 3′?',
+        opciones: [
+          { t: '5′–CTAATGGT–3′', fb: 'Has complementado bien las bases, pero las hebras son antiparalelas: esa secuencia va en realidad de 3′ a 5′. Hay que invertirla.' },
+          { t: '5′–TGGTAATC–3′', ok: true, fb: 'Correcto: la complementaria es 3′–CTAATGGT–5′, que escrita de 5′ a 3′ es 5′–TGGTAATC–3′.' },
+          { t: '5′–ACCATTAG–3′', fb: 'Solo has invertido el orden, sin cambiar cada base por su complementaria.' },
+          { t: '5′–GATTACCA–3′', fb: 'Es la misma hebra, no su complementaria.' },
+        ],
+      },
+    ],
+    informe: {
+      preg: 'a) Aplicando las reglas de Chargaff, calcule la composición de bases de la bacteria 1. b) Razone cuál de las dos bacterias tiene un ADN con mayor temperatura de fusión. c) ¿Se podrían aplicar estas reglas al ARN de un virus de cadena sencilla? d) ¿Qué aportó Rosalind Franklin al modelo de la doble hélice?',
+      pts: '[2]',
+      modelo: [
+        'a) Por **complementariedad de bases**, **A = T y G = C**. A = T = 32 %; G + C = 100 − 64 = 36 %, luego **G = C = 18 %**.',
+        'b) La bacteria 2 tiene más **pares G-C (64 %)**, unidos por **tres puentes de hidrógeno** frente a los **dos de A-T**: su ADN tiene **mayor temperatura de fusión**, lo que es coherente con vivir en un **ambiente termal**.',
+        'c) **No**: las reglas se deben a la **complementariedad entre dos cadenas**; en un ácido nucleico **monocatenario** las proporciones de bases no tienen por qué igualarse.',
+        'd) Sus imágenes de **difracción de rayos X** (como la «fotografía 51») mostraron que el ADN es una **hélice** con los **fosfatos hacia el exterior**, dato **esencial** para el modelo de **Watson y Crick**.',
+      ],
+      tip: 'La temperatura de fusión es la temperatura a la que se separa la mitad del ADN bicatenario: sube con el porcentaje de G-C.',
+    },
+  },
+  {
+    id: 'replicacion',
+    bloque: 'Genética',
+    novedad: 'B.2 · Replicación y reparación (resaltado 26-27)',
+    titulo: 'La cepa que muta demasiado',
+    escena: [
+      { p: 'lucia', t: 'Esta cepa de E. coli acumula mutaciones cien veces más rápido que la normal. Hemos secuenciado su genoma y tiene inactivado un gen de una enzima que revisa el ADN recién sintetizado.' },
+      { p: 'marcos', t: 'Antes de proponer una hipótesis, dime qué sabes de cómo se copia el ADN. Y sin inventar mecanismos que no has visto.' },
+    ],
+    datos: `<h4>Mutaciones por generación (unidades relativas)</h4>
+      <table><tr><th>Cepa</th><th>Tasa de mutación</th></tr><tr><td>Silvestre</td><td>1</td></tr><tr><td>Mutante</td><td>100</td></tr></table>`,
+    decisiones: [
+      {
+        tipo: 'opcion',
+        enun: '¿Qué hipótesis es la más razonable?',
+        opciones: [
+          { t: 'La mutante replica el ADN de forma conservativa.', fb: 'La replicación es semiconservativa en todos los organismos; no cambia por una mutación en una enzima reparadora.' },
+          { t: 'La mutante ha perdido un mecanismo de reparación de errores, así que los fallos de la replicación no se corrigen y se convierten en mutaciones.', ok: true, fb: 'Correcto. La replicación tiene mecanismos de reparación de errores; sin ellos, los errores de emparejamiento persisten. No hace falta describir cómo funcionan.' },
+          { t: 'La mutante sintetiza el ADN en sentido 3′→5′.', fb: 'Todas las ADN polimerasas sintetizan en sentido 5′→3′.' },
+        ],
+      },
+    ],
+    informe: {
+      preg: 'Explique qué significa que la replicación del ADN sea semiconservativa y bidireccional, en qué sentido se sintetizan las nuevas cadenas y por qué es importante que existan mecanismos de reparación de errores.',
+      pts: '[1]',
+      modelo: [
+        '**Semiconservativa**: cada molécula hija conserva **una hebra original y otra de nueva síntesis**.',
+        '**Bidireccional**: desde cada **origen de replicación** avanzan **dos horquillas en sentidos opuestos**.',
+        'Las nuevas cadenas se sintetizan siempre en sentido **5′→3′**.',
+        'Los **mecanismos de reparación** corrigen los **errores de emparejamiento**; sin ellos aumentaría la **tasa de mutación** y la información genética no se transmitiría con **fidelidad**.',
+      ],
+    },
+  },
+  {
+    id: 'microscopio',
+    bloque: 'Célula',
+    novedad: 'C.6.4 · Fases de mitosis y meiosis al microscopio',
+    titulo: 'La tarde del microscopio',
+    escena: [
+      { n: 'Lucía ha teñido un ápice de raíz de cebolla con orceína. Te sientas al microscopio mientras ella dibuja en la pizarra las células más claras.' },
+      { p: 'lucia', t: 'Cuando las tengas, cuenta 200 células al azar. En la reunión, Marcos siempre pregunta qué fase dura más.' },
+    ],
+    datos: `<h4>Células del meristemo (esquema)</h4>${CELULAS_SVG}
+      <table style="margin-top:10px"><tr><th>Recuento</th><th>Interfase</th><th>Profase</th><th>Metafase</th><th>Anafase</th><th>Telofase</th></tr>
+      <tr><td>Nº de células</td><td>164</td><td>18</td><td>8</td><td>4</td><td>6</td></tr></table>`,
+    decisiones: [
+      {
+        tipo: 'clasificar',
+        enun: 'Identifica la fase de cada célula dibujada.',
+        items: ['Célula A', 'Célula B', 'Célula C', 'Célula D'],
+        opciones: ['Profase', 'Metafase', 'Anafase', 'Telofase y citocinesis'],
+        solucion: [0, 1, 2, 3],
+        fb_ok: 'Muy bien. A: cromosomas condensados y envoltura desapareciendo. B: placa metafásica. C: cromátidas hacia los polos. D: dos núcleos y fragmoplasto (tabique) en formación.',
+        fb_ko: 'Busca pistas: ¿envoltura nuclear visible? ¿cromosomas en el ecuador? ¿cromátidas separándose? ¿dos núcleos y tabique central?',
+      },
+      {
+        tipo: 'opcion',
+        enun: 'Marcos: «¿Qué fase del ciclo es la más larga, según tu recuento?»',
+        opciones: [
+          { t: 'La profase, porque es la fase de la mitosis con más células.', fb: 'Es la más larga de la mitosis, pero el ciclo incluye la interfase.' },
+          { t: 'La interfase: el 82 % de las células están en ella, y la proporción de células en cada fase es proporcional a su duración.', ok: true, fb: 'Correcto: 164 de 200 células. La interfase ocupa la mayor parte del ciclo.' },
+          { t: 'No se puede saber sin un cronómetro.', fb: 'En un tejido que se divide de forma asincrónica, la frecuencia de cada fase refleja su duración relativa.' },
+        ],
+      },
+      {
+        tipo: 'opcion',
+        enun: 'La Dra. Navarro te pide que busques meiosis en la misma preparación. ¿Qué respondes?',
+        opciones: [
+          { t: 'La buscaré: todas las células que se dividen pueden hacer meiosis.', fb: 'La meiosis solo ocurre en células de la línea germinal.' },
+          { t: 'No la encontraré: la raíz es tejido somático y solo hace mitosis. Para meiosis necesito anteras jóvenes.', ok: true, fb: 'Exacto: en los meristemos solo hay mitosis. Las anteras (o los ovarios) tienen células que hacen meiosis.' },
+        ],
+      },
+    ],
+    informe: {
+      preg: 'En una fotomicrografía se observa una célula con los cromosomas en la placa ecuatorial. Indique qué observaciones le permitirían decidir si se trata de una metafase mitótica, una metafase I o una metafase II de meiosis.',
+      pts: '[1]',
+      modelo: [
+        '**Metafase mitótica**: cromosomas **individuales** (con dos cromátidas) alineados en la placa; número **diploide**.',
+        '**Metafase I**: en la placa hay **bivalentes** (parejas de **cromosomas homólogos**), a veces con **quiasmas** visibles.',
+        '**Metafase II**: cromosomas individuales en la placa, pero en número **haploide** (la mitad).',
+      ],
+      tip: 'En las preguntas de imagen, describe lo que ves (bivalentes, número de cromosomas) antes de nombrar la fase.',
+    },
+  },
+  {
+    id: 'cancer',
+    bloque: 'Célula',
+    novedad: 'C.7.2 · Avances biomédicos frente al cáncer en Andalucía',
+    titulo: 'Seminario con un grupo de oncología',
+    escena: [
+      { n: 'Hoy el grupo visita un centro andaluz de investigación biomédica. En Andalucía trabajan en cáncer centros como GENYO (Granada), el IBiS (Sevilla), el IBIMA (Málaga) o el IMIBIC (Córdoba).' },
+      { p: 'ines', t: 'Nos han cedido datos de un fármaco experimental que impide la polimerización de los microtúbulos. Quiero que expliques en el seminario qué observaríamos en las células tumorales tratadas.' },
+    ],
+    datos: `<h4>Células tumorales tratadas (24 h)</h4>
+      <table><tr><th></th><th>Control</th><th>Tratadas</th></tr>
+      <tr><td>% en interfase</td><td>85</td><td>52</td></tr>
+      <tr><td>% en metafase (o bloqueadas antes de la anafase)</td><td>3</td><td>44</td></tr>
+      <tr><td>% en anafase</td><td>2</td><td>0</td></tr></table>`,
+    decisiones: [
+      {
+        tipo: 'opcion',
+        enun: '¿Cómo interpretas los datos?',
+        opciones: [
+          { t: 'El fármaco impide la replicación, por eso hay menos células en interfase.', fb: 'Si bloqueara la replicación se acumularían en interfase (fase S), no en metafase.' },
+          { t: 'Sin microtúbulos no se forma el huso acromático: los cromosomas no se separan, las células se bloquean antes de la anafase y el tumor deja de proliferar.', ok: true, fb: 'Correcto. Es el mecanismo de fármacos como la vinblastina o el taxol.' },
+          { t: 'El fármaco acelera la mitosis.', fb: 'No hay células en anafase: la mitosis se detiene.' },
+        ],
+      },
+      {
+        tipo: 'opcion',
+        enun: 'Un estudiante del seminario pregunta por qué el fármaco también da efectos secundarios en el pelo y el intestino.',
+        opciones: [
+          { t: 'Porque afecta a todas las células que se dividen con rapidez, no solo a las tumorales.', ok: true, fb: 'Eso es: folículos pilosos y epitelio intestinal también tienen alta tasa de división.' },
+          { t: 'Porque el pelo y el intestino son tejidos tumorales.', fb: 'No; son tejidos sanos con divisiones frecuentes.' },
+        ],
+      },
+    ],
+    informe: {
+      preg: 'Explique qué es el cáncer desde el punto de vista del ciclo celular y por qué los fármacos que bloquean el huso mitótico se usan en quimioterapia. Cite un ámbito en que la investigación biomédica andaluza contribuye frente al cáncer.',
+      pts: '[1]',
+      modelo: [
+        'El cáncer es una **proliferación celular descontrolada** causada por **mutaciones** en genes que regulan el **ciclo celular** (protooncogenes y genes supresores de tumores).',
+        'Sin **microtúbulos** no se forma el **huso acromático**: los cromosomas no se reparten, la **mitosis se detiene** y el tumor **deja de crecer**.',
+        'Afectan también a **células sanas de división rápida**, lo que explica los efectos secundarios.',
+        'Centros andaluces (GENYO, IBiS, IBIMA, IMIBIC…) investigan en **genómica del cáncer**, **diagnóstico** y **nuevas terapias**.',
+      ],
+    },
+  },
+  {
+    id: 'retroinhibicion',
+    bloque: 'Metabolismo',
+    novedad: 'D.1 · Regulación por retroalimentación (resaltado 26-27)',
+    titulo: 'Una ruta que se frena sola',
+    escena: [
+      { p: 'marcos', t: 'Cultivamos bacterias en un medio sin isoleucina y la producen. Si añado isoleucina al medio, la síntesis se para en minutos, mucho antes de que dé tiempo a fabricar menos enzimas. Explícame eso.' },
+    ],
+    datos: `<h4>Ruta metabólica</h4>${RUTA_SVG}
+      <table style="margin-top:10px"><tr><th>Medio</th><th>Actividad de E1</th><th>Concentración de A, B y C</th></tr>
+      <tr><td>Sin isoleucina</td><td>100 %</td><td>normal</td></tr><tr><td>Con isoleucina</td><td>8 %</td><td>casi nula</td></tr></table>`,
+    decisiones: [
+      {
+        tipo: 'opcion',
+        enun: '¿Qué ocurre al añadir isoleucina?',
+        opciones: [
+          { t: 'La isoleucina inhibe la primera enzima de su propia ruta (E1): es una retroinhibición o retroalimentación negativa.', ok: true, fb: 'Correcto. El producto final inhibe la enzima inicial y la ruta se frena sin gastar sustratos ni energía.' },
+          { t: 'La isoleucina destruye la enzima E4.', fb: 'La actividad que cae es la de E1, y los intermediarios A, B y C desaparecen: el freno está al principio.' },
+          { t: 'La treonina se agota.', fb: 'Si se agotara la treonina, E1 no perdería actividad medida con sustrato.' },
+        ],
+      },
+      {
+        tipo: 'opcion',
+        enun: '¿Qué ventaja tiene para la célula frenar la enzima inicial y no la última?',
+        opciones: [
+          { t: 'Evita acumular intermediarios inútiles y ahorra materia y energía.', ok: true, fb: 'Exacto: si se frenara E4 se acumularía C sin necesidad.' },
+          { t: 'Ninguna: da igual qué enzima se inhiba.', fb: 'Sí importa: inhibir tarde gasta recursos en intermediarios.' },
+        ],
+      },
+    ],
+    informe: {
+      preg: 'Explique cómo se regula el metabolismo mediante el control de la actividad enzimática, utilizando como ejemplo la retroalimentación.',
+      pts: '[1]',
+      modelo: [
+        'Las rutas se regulan **modificando la actividad de enzimas clave**, lo que permite a la célula **ajustar su metabolismo** a las condiciones internas y externas.',
+        'En la **retroalimentación negativa (retroinhibición)**, el **producto final** de la ruta **inhibe la enzima inicial**; cuando se acumula el producto, la ruta se detiene.',
+        'Así la célula **ahorra materia y energía** y evita acumular **intermediarios**. (También existe retroalimentación positiva, en la que el producto activa una enzima inicial.)',
+      ],
+    },
+  },
+  {
+    id: 'marismas',
+    bloque: 'Metabolismo',
+    novedad: 'D · Respiración anaerobia frente a fermentación (Nuevo 26-27)',
+    titulo: 'Barro negro de las marismas',
+    escena: [
+      { n: 'Salida de campo a las marismas del Guadalquivir, en el entorno de Doñana. El sedimento huele a huevo podrido y es negro a pocos centímetros de la superficie.' },
+      { p: 'ines', t: 'Ese olor es sulfuro de hidrógeno. Aquí abajo no llega el oxígeno, pero la materia orgánica se sigue oxidando. Quiero que clasifiques las tres cepas que hemos aislado.' },
+    ],
+    datos: `<h4>Cepas aisladas (misma cantidad de glucosa)</h4>
+      <table><tr><th>Cepa</th><th>O₂</th><th>Aceptor final de electrones</th><th>Productos</th><th>Biomasa</th></tr>
+      <tr><td>1</td><td>no</td><td>piruvato (molécula orgánica)</td><td>ácido láctico</td><td>baja</td></tr>
+      <tr><td>2</td><td>no</td><td>sulfato (SO₄²⁻)</td><td>CO₂ y H₂S</td><td>media</td></tr>
+      <tr><td>3</td><td>sí</td><td>O₂</td><td>CO₂ y H₂O</td><td>alta</td></tr></table>`,
+    decisiones: [
+      {
+        tipo: 'clasificar',
+        enun: 'Clasifica el metabolismo de cada cepa.',
+        items: ['Cepa 1', 'Cepa 2', 'Cepa 3'],
+        opciones: ['Fermentación láctica', 'Respiración anaerobia', 'Respiración aerobia'],
+        solucion: [0, 1, 2],
+        fb_ok: 'Perfecto. La cepa 2 oxida la glucosa por completo (hasta CO₂) sin oxígeno, usando sulfato como aceptor: respiración anaerobia. La 1 fermenta: oxidación parcial con aceptor orgánico.',
+        fb_ko: 'Claves: ¿la oxidación es completa (CO₂) o parcial (producto orgánico)? ¿El aceptor final es O₂, un ion inorgánico distinto del O₂ o una molécula orgánica?',
+      },
+      {
+        tipo: 'opcion',
+        enun: '¿Por qué la cepa 2 produce más biomasa que la 1 con la misma glucosa?',
+        opciones: [
+          { t: 'Porque tiene cadena de transporte de electrones y oxida la glucosa por completo, obteniendo mucho más ATP que la fermentación (2 ATP por glucosa).', ok: true, fb: 'Correcto. Rendimiento: respiración aerobia > respiración anaerobia > fermentación.' },
+          { t: 'Porque el sulfato es un nutriente orgánico.', fb: 'El sulfato es inorgánico; actúa como aceptor de electrones.' },
+          { t: 'Porque produce H₂S, que aporta energía.', fb: 'El H₂S es un producto de desecho de la reducción del sulfato.' },
+        ],
+      },
+    ],
+    informe: {
+      preg: 'Defina respiración anaerobia, indique qué tipo de organismos la realizan y diferénciela de la fermentación. Compare el rendimiento energético de la respiración aerobia, la anaerobia y la fermentación.',
+      pts: '[2]',
+      modelo: [
+        '**Respiración anaerobia**: vía catabólica de **oxidación completa** de la materia orgánica **en ausencia de oxígeno**, con **aceptores finales de electrones distintos del O₂** (nitrato, sulfato…). La realizan **determinados microorganismos**.',
+        '**Fermentación**: **oxidación parcial** en la que el **aceptor final es una molécula orgánica**; **no interviene cadena de transporte** de electrones y el ATP se obtiene por **fosforilación a nivel de sustrato**.',
+        'Rendimiento: **aerobia (unos 30-32 ATP) > anaerobia > fermentación (2 ATP)**, porque solo las respiraciones tienen cadena de transporte y oxidan la glucosa por completo.',
+      ],
+      tip: 'Error típico en la PAU: llamar «respiración anaerobia» a la fermentación. Si no hay cadena de transporte ni oxidación completa, es fermentación.',
+    },
+  },
+  {
+    id: 'minimo',
+    bloque: 'Metabolismo',
+    novedad: 'D · Biosíntesis desde metabolitos sencillos (Nuevo 26-27)',
+    titulo: 'Solo glucosa y sales',
+    escena: [
+      { p: 'lucia', t: 'Truco de becario: si E. coli crece en un «medio mínimo», con glucosa, sales de amonio y fosfatos y nada más, es que sabe fabricarse todo lo demás.' },
+      { p: 'marcos', t: 'Todo lo demás son proteínas, lípidos de membrana y ácidos nucleicos. ¿De dónde saca los ladrillos?' },
+    ],
+    datos: `<h4>Medio mínimo</h4><p style="margin:0">Glucosa (fuente de carbono y energía) · NH₄Cl (nitrógeno) · KH₂PO₄ (fósforo) · MgSO₄ · agua.</p>`,
+    decisiones: [
+      {
+        tipo: 'opcion',
+        enun: '¿Qué conclusión es correcta?',
+        opciones: [
+          { t: 'La bacteria obtiene aminoácidos y nucleótidos ya formados del agua.', fb: 'El medio no los contiene: los sintetiza.' },
+          { t: 'La bacteria sintetiza aminoácidos, ácidos grasos y nucleótidos a partir de metabolitos sencillos del metabolismo central (como el acetil-CoA o intermediarios del ciclo de Krebs) y del nitrógeno y el fósforo del medio.', ok: true, fb: 'Correcto. Es el anabolismo: no hace falta conocer cada ruta, sino saber que parten de metabolitos del metabolismo central.' },
+          { t: 'La glucosa se transforma directamente en proteínas.', fb: 'No hay un paso directo: la glucosa se degrada a metabolitos intermedios que sirven de precursores.' },
+        ],
+      },
+    ],
+    informe: {
+      preg: 'Explique la relación entre catabolismo y anabolismo a partir de la síntesis de biomoléculas desde metabolitos sencillos.',
+      pts: '[1]',
+      modelo: [
+        'El **catabolismo** degrada la glucosa y produce **energía (ATP)**, **poder reductor (NADPH)** y **metabolitos sencillos** del metabolismo central (piruvato, **acetil-CoA**, intermediarios del **ciclo de Krebs**).',
+        'El **anabolismo** usa esos precursores para **sintetizar aminoácidos, proteínas, ácidos grasos y ácidos nucleicos**, con **gasto de energía**.',
+        'Ambos procesos están **acoplados**: el ATP y el poder reductor del catabolismo alimentan el anabolismo.',
+      ],
+    },
+  },
+  {
+    id: 'fermentaciones',
+    bloque: 'Microbiología',
+    novedad: 'D/E · Fermentaciones en el entorno cercano (Nuevo 26-27)',
+    titulo: 'Aceitunas, fino y vinagre',
+    escena: [
+      { n: 'La Dra. Navarro colabora con una cooperativa de aceitunas de mesa de Sevilla y con una bodega del Marco de Jerez. Te encarga preparar la ficha microbiológica de sus productos.' },
+      { p: 'ines', t: 'En la bodega verás la «flor»: un velo de levaduras que crece sobre el vino fino en las botas. Toma nota de qué organismo hace qué.' },
+    ],
+    datos: `<h4>Productos a documentar</h4><p style="margin:0">Aceituna de mesa fermentada en salmuera · Vino fino de Jerez · Vinagre de Jerez · Queso fresco de cabra.</p>`,
+    decisiones: [
+      {
+        tipo: 'clasificar',
+        enun: 'Asocia cada producto con el proceso principal.',
+        items: ['Aceituna en salmuera', 'Mosto → vino', 'Vino → vinagre', 'Leche → queso fresco'],
+        opciones: ['Fermentación láctica (bacterias lácticas)', 'Fermentación alcohólica (levaduras)', 'Oxidación acética (bacterias acéticas)', 'Coagulación por acidificación láctica y cuajo'],
+        solucion: [0, 1, 2, 3],
+        fb_ok: 'Perfecto. En la aceituna, las bacterias lácticas bajan el pH; en el vino, las levaduras pasan azúcares a etanol y CO₂; en el vinagre, bacterias acéticas oxidan el etanol a ácido acético (proceso aerobio).',
+        fb_ko: 'Piensa en el producto final: ácido láctico, etanol o ácido acético, y en qué microorganismo lo produce.',
+      },
+      {
+        tipo: 'opcion',
+        enun: 'La cooperativa pregunta por qué la salmuera y la fermentación láctica evitan que se estropeen las aceitunas.',
+        opciones: [
+          { t: 'Porque la sal y el ácido láctico (pH bajo) impiden el crecimiento de la mayoría de microorganismos alterantes y patógenos.', ok: true, fb: 'Correcto: la sal reduce el agua disponible y la acidez inhibe a los competidores.' },
+          { t: 'Porque las bacterias lácticas producen antibióticos para el consumidor.', fb: 'La conservación se debe sobre todo a la acidez y la sal, no a proteger al consumidor.' },
+        ],
+      },
+    ],
+    informe: {
+      preg: 'Defina fermentación y explique, con dos ejemplos del entorno andaluz, su aplicación en la industria alimentaria, indicando el microorganismo y el producto final.',
+      pts: '[1]',
+      modelo: [
+        '**Fermentación**: **degradación anaerobia** y **parcial** de la materia orgánica en la que el **aceptor final de electrones es una molécula orgánica**.',
+        '**Aceitunas de mesa**: **bacterias lácticas** producen **ácido láctico**, que acidifica y conserva.',
+        '**Vino (Jerez, Montilla-Moriles, Condado de Huelva)**: **levaduras** (<i>Saccharomyces</i>) realizan la **fermentación alcohólica**: **etanol y CO₂**.',
+      ],
+      tip: 'El vinagre se obtiene por oxidación aerobia del etanol: en sentido estricto no es una fermentación, aunque tradicionalmente se llame «fermentación acética».',
+    },
+  },
+  {
+    id: 'adnc',
+    bloque: 'Biotecnología',
+    novedad: 'E.1 · Transcriptasa inversa y ADNc (Nuevo 26-27)',
+    titulo: 'Insulina humana en bacterias',
+    escena: [
+      { p: 'marcos', t: 'Un estudiante de máster metió el gen de la insulina, copiado directamente del genoma humano, en un plásmido de E. coli. La bacteria fabrica una proteína sin sentido. Otra vez: ¿y el control?' },
+      { p: 'lucia', t: 'Pista: los genes eucariotas tienen algo que las bacterias no saben quitar.' },
+    ],
+    datos: `<h4>Gen humano vs. ARNm maduro</h4><p class="formula" style="margin:0">Gen:   [exón 1]—intrón—[exón 2]—intrón—[exón 3]<br>ARNm:  [exón 1][exón 2][exón 3]  (tras la maduración)</p>`,
+    decisiones: [
+      {
+        tipo: 'opcion',
+        enun: '¿Por qué ha fallado?',
+        opciones: [
+          { t: 'El gen eucariota tiene intrones y las bacterias no realizan la maduración (corte y empalme): traducen también los intrones.', ok: true, fb: 'Exacto. Las bacterias carecen de la maquinaria de maduración del ARN.' },
+          { t: 'Las bacterias no tienen ribosomas.', fb: 'Sí los tienen (70S).' },
+          { t: 'El código genético de las bacterias es distinto.', fb: 'El código genético es prácticamente universal.' },
+        ],
+      },
+      {
+        tipo: 'opcion',
+        enun: '¿Qué propones?',
+        opciones: [
+          { t: 'Aislar el ARNm maduro de la insulina de células pancreáticas y usar la transcriptasa inversa para obtener ADN complementario (ADNc), sin intrones, e insertarlo en el plásmido.', ok: true, fb: 'Así se produce la insulina recombinante. El ADNc contiene solo la secuencia codificante.' },
+          { t: 'Usar más bacterias.', fb: 'El problema no es la cantidad sino la secuencia.' },
+          { t: 'Insertar directamente el ARNm en el plásmido.', fb: 'El plásmido es ADN: hay que retrotranscribir el ARNm a ADN.' },
+        ],
+      },
+    ],
+    informe: {
+      preg: 'Explique qué es la transcriptasa inversa y por qué es una herramienta útil en ingeniería genética para producir proteínas humanas en bacterias.',
+      pts: '[1]',
+      modelo: [
+        'La **transcriptasa inversa** es una enzima (de origen **retroviral**) que **sintetiza ADN a partir de un molde de ARN**.',
+        'Aplicada al **ARNm maduro** produce **ADN complementario (ADNc)**, que **carece de intrones**.',
+        'Como las **bacterias no eliminan intrones**, el ADNc permite **expresar genes eucariotas en procariotas** (por ejemplo, **insulina humana recombinante**).',
+      ],
+    },
+  },
+  {
+    id: 'secuenciacion',
+    bloque: 'Biotecnología',
+    novedad: 'E.1 · Secuenciación y diseño de cebadores y ARN guía (Nuevo 26-27)',
+    titulo: 'Sin secuencia no hay diseño',
+    escena: [
+      { p: 'ines', t: 'Vamos a detectar una bacteria patógena del olivo en muestras de campo. Primero secuenciamos un fragmento de su ADN; luego diseñaremos los cebadores de la PCR. Y el año que viene, si hay financiación, un ARN guía para CRISPR.' },
+    ],
+    datos: `<h4>Fragmento secuenciado (hebra 5′→3′)</h4><p class="formula" style="margin:0;word-break:break-all">5′–<b>GACTTCGAA</b>GGTACCTTAGGCATCGATAAC…(300 pb)…TTCGGAT<b>CCTAGCAAT</b>–3′</p>`,
+    decisiones: [
+      {
+        tipo: 'opcion',
+        enun: '¿Por qué hay que conocer la secuencia antes de hacer la PCR?',
+        opciones: [
+          { t: 'Porque los cebadores deben ser complementarios a los extremos del fragmento que se quiere amplificar.', ok: true, fb: 'Correcto. Sin secuencia no se pueden diseñar cebadores específicos (ni ARN guía para CRISPR-Cas, ni localizar genes para clonarlos).' },
+          { t: 'Porque la ADN polimerasa solo copia secuencias conocidas.', fb: 'La polimerasa copia cualquier molde; lo que necesita es un cebador unido a él.' },
+          { t: 'No hace falta: la PCR amplifica todo el genoma.', fb: 'La PCR amplifica solo la región delimitada por los cebadores.' },
+        ],
+      },
+      {
+        tipo: 'opcion',
+        enun: 'Para editar un gen con CRISPR-Cas, ¿qué molécula se diseña a partir de la secuencia?',
+        opciones: [
+          { t: 'El ARN guía, complementario a la secuencia diana, que dirige la nucleasa Cas al punto de corte.', ok: true, fb: 'Exacto: la secuencia del ARN guía determina dónde corta Cas9.' },
+          { t: 'Un anticuerpo contra el ADN.', fb: 'La especificidad de CRISPR la aporta un ARN, no un anticuerpo.' },
+        ],
+      },
+    ],
+    informe: {
+      preg: 'Explique por qué conocer la secuencia de nucleótidos de un fragmento de ADN es fundamental para aplicar otras técnicas de ingeniería genética. Cite tres ejemplos.',
+      pts: '[1]',
+      modelo: [
+        'Las **técnicas de secuenciación** determinan el **orden de los nucleótidos**; esa información es imprescindible para **diseñar herramientas específicas**.',
+        '**PCR**: diseño de **cebadores** complementarios a los extremos del fragmento.',
+        '**ADN recombinante y clonación**: **identificar e insertar genes** en vectores.',
+        '**CRISPR-Cas**: diseño del **ARN guía**. También permite **identificar y comparar muestras biológicas** (diagnóstico, estudios forenses, evolución).',
+      ],
+    },
+  },
+  {
+    id: 'gel',
+    bloque: 'Biotecnología',
+    novedad: 'E.1 · Interpretar PCR y electroforesis (Nuevo 26-27)',
+    titulo: 'El gel de las ocho de la mañana',
+    escena: [
+      { n: 'Dentro del plan de vigilancia de sanidad vegetal, llegan tres muestras de olivos con hojas secas. Se busca <i>Xylella fastidiosa</i>, una bacteria que obstruye los vasos del xilema. Los cebadores amplifican un fragmento de 300 pb de su ADN.' },
+      { p: 'marcos', t: 'Lo primero que miro en un gel son los controles. Si fallan, no hay resultado que valga.' },
+    ],
+    datos: `<h4>Gel de agarosa tras la PCR</h4>${GEL_SVG}
+      <p style="font-size:.82rem;margin:.6em 0 0;color:#62727f">M: marcador de tamaños · C+: control positivo (ADN de <i>Xylella</i>) · C−: control negativo (agua en lugar de ADN molde).</p>`,
+    decisiones: [
+      {
+        tipo: 'opcion',
+        enun: '¿Son válidos los controles?',
+        opciones: [
+          { t: 'Sí: C+ da la banda esperada (300 pb), así que la PCR funciona; C− no da banda, así que no hay contaminación.', ok: true, fb: 'Correcto: ahora ya puedes interpretar las muestras.' },
+          { t: 'No: el control negativo debería tener banda.', fb: 'Si C− tuviera banda indicaría contaminación: no debe tenerla.' },
+        ],
+      },
+      {
+        tipo: 'clasificar',
+        enun: 'Interpreta cada muestra.',
+        items: ['Muestra 1', 'Muestra 2', 'Muestra 3'],
+        opciones: ['Positiva: hay ADN de Xylella', 'Negativa: no se detecta', 'Positiva, con poca cantidad de ADN molde'],
+        solucion: [0, 1, 2],
+        fb_ok: 'Bien interpretado. Las muestras 1 y 3 tienen la banda de 300 pb; en la 3 es tenue, lo que indica menos ADN molde. La 2 es negativa.',
+        fb_ko: 'Compara cada carril con el control positivo: ¿hay banda a la altura de 300 pb?',
+      },
+      {
+        tipo: 'opcion',
+        enun: 'Lucía te pregunta por qué los fragmentos pequeños llegan más lejos.',
+        opciones: [
+          { t: 'El ADN tiene carga negativa (grupos fosfato) y migra hacia el polo positivo; los fragmentos pequeños atraviesan con más facilidad el gel y avanzan más.', ok: true, fb: 'Correcto: la electroforesis separa por tamaño.' },
+          { t: 'Los fragmentos grandes tienen más carga y se frenan.', fb: 'La relación carga/masa es parecida; lo que frena a los grandes es la malla del gel.' },
+        ],
+      },
+    ],
+    informe: {
+      preg: 'A la vista del gel, identifique los elementos básicos de la PCR y explique cómo se interpretan los resultados de la electroforesis.',
+      pts: '[2]',
+      modelo: [
+        'Elementos de la **PCR**: **ADN molde** (la muestra), **cebadores** (complementarios a los extremos de la región de 300 pb), **ADN polimerasa termoestable**, **nucleótidos** y ciclos de temperatura. El producto son **fragmentos amplificados**.',
+        'En la **electroforesis**, el ADN (**carga negativa**) migra hacia el **polo positivo**; los fragmentos **más pequeños migran más**. Se compara con el **marcador de tamaños**.',
+        'Los **controles** validan el ensayo: C+ con banda y C− sin banda. Las muestras **1 y 3** presentan la **banda de 300 pb**: contienen ADN de <i>Xylella</i>; la **2 es negativa**.',
+      ],
+      tip: 'En preguntas de gel: 1) controles, 2) tamaño comparando con el marcador, 3) conclusión para cada muestra.',
+    },
+  },
+  {
+    id: 'ambiente',
+    bloque: 'Biotecnología',
+    novedad: 'E.2.1 y E.2.3 · Microorganismos y biotecnología en Andalucía',
+    titulo: 'Microbios que limpian, fertilizan y fabrican',
+    escena: [
+      { n: 'El grupo participa en un proyecto con socios andaluces: recuperación de suelos en el corredor verde del Guadiamar (afectado por el vertido minero de Aznalcóllar en 1998), cultivos de leguminosas en la campiña y una planta de compostaje.' },
+      { p: 'ines', t: 'Cada problema necesita un microorganismo con el metabolismo adecuado. Empareja bien y el proyecto sale adelante.' },
+    ],
+    datos: '',
+    decisiones: [
+      {
+        tipo: 'clasificar',
+        enun: 'Empareja cada necesidad con el microorganismo o proceso adecuado.',
+        items: ['Suelo con metales pesados', 'Garbanzos sin abono nitrogenado', 'Restos de poda y hortalizas', 'Aguas residuales urbanas', 'Producción de bioetanol'],
+        opciones: ['Biorremediación con bacterias que inmovilizan o transforman contaminantes', 'Bacterias fijadoras de nitrógeno (Rhizobium) en nódulos', 'Compostaje por descomponedores aerobios', 'Depuración con lodos activos y digestión anaerobia', 'Fermentación alcohólica por levaduras'],
+        solucion: [0, 1, 2, 3, 4],
+        fb_ok: '¡Proyecto financiado! Cada aplicación aprovecha una capacidad metabólica concreta de los microorganismos.',
+        fb_ko: 'Piensa qué hace cada microorganismo: fijar N₂, descomponer materia orgánica, transformar contaminantes o fermentar azúcares.',
+      },
+    ],
+    informe: {
+      preg: 'Relacione las características metabólicas de los microorganismos con tres aplicaciones biotecnológicas (industrial, agrícola y medioambiental), citando un ejemplo del entorno andaluz.',
+      pts: '[2]',
+      modelo: [
+        'Los microorganismos tienen **metabolismos muy diversos** y **crecen rápido**, por lo que **transforman materia** y obtienen **productos útiles**.',
+        '**Industrial**: producción de **antibióticos**, **hormonas recombinantes**, **aminoácidos**, **ácidos orgánicos** o **biocombustibles** (bioetanol por **fermentación alcohólica**).',
+        '**Agrícola**: **fijación de nitrógeno** por <i>Rhizobium</i> en leguminosas, que reduce el uso de abonos.',
+        '**Medioambiental**: **biorremediación** de suelos contaminados (por ejemplo, en la recuperación del Guadiamar), **depuración de aguas** y **compostaje**.',
+      ],
+    },
+  },
+  {
+    id: 'serologia',
+    bloque: 'Inmunología',
+    novedad: 'F · Tipos de inmunoglobulinas (resaltado 26-27)',
+    titulo: 'Tres análisis y una residencia',
+    escena: [
+      { n: 'Un brote vírico en una residencia universitaria. El laboratorio colabora con el hospital analizando anticuerpos específicos contra el virus.' },
+      { p: 'marcos', t: 'IgM e IgG no son lo mismo. Si confundes cuál aparece primero, confundirás a quién hay que aislar.' },
+    ],
+    datos: `<h4>Serología frente al virus</h4>
+      <table><tr><th>Persona</th><th>IgM</th><th>IgG</th></tr>
+      <tr><td>Estudiante A</td><td>+</td><td>−</td></tr>
+      <tr><td>Estudiante B</td><td>−</td><td>+</td></tr>
+      <tr><td>Bebé de 1 mes (madre inmunizada)</td><td>−</td><td>+</td></tr></table>`,
+    decisiones: [
+      {
+        tipo: 'clasificar',
+        enun: 'Interpreta cada resultado.',
+        items: ['Estudiante A', 'Estudiante B', 'Bebé de 1 mes'],
+        opciones: ['Infección reciente (respuesta primaria)', 'Infección pasada o vacunación (memoria)', 'IgG materna que atravesó la placenta'],
+        solucion: [0, 1, 2],
+        fb_ok: 'Correcto. La IgM (pentamérica) es la primera en aparecer; la IgG predomina en la respuesta secundaria y es la única que atraviesa la placenta.',
+        fb_ko: 'Recuerda: IgM → respuesta primaria (reciente). IgG → respuesta secundaria y memoria; además pasa de la madre al feto.',
+      },
+      {
+        tipo: 'opcion',
+        enun: '¿Qué inmunoglobulina buscarías en la leche materna y cuál en una alergia al polen?',
+        opciones: [
+          { t: 'IgA en la leche (secreciones) e IgE en la alergia.', ok: true, fb: 'Exacto. La IgD, por su parte, está en la membrana de los linfocitos B.' },
+          { t: 'IgG en ambas.', fb: 'La IgG circula en sangre; en secreciones predomina la IgA y en alergias interviene la IgE.' },
+        ],
+      },
+    ],
+    informe: {
+      preg: 'Cite los cinco tipos de inmunoglobulinas e indique una característica o función de cada una. Explique por qué la presencia de IgM indica una infección reciente.',
+      pts: '[2]',
+      modelo: [
+        '**IgM**: **pentámero**; primera en producirse en la **respuesta primaria**.',
+        '**IgG**: la más abundante en sangre; predomina en la **respuesta secundaria** y **atraviesa la placenta**.',
+        '**IgA**: mayoritaria en **secreciones** (leche, saliva, mucosas).',
+        '**IgE**: interviene en **procesos alérgicos**. **IgD**: en la **membrana de los linfocitos B**.',
+        'La **IgM** aparece la primera tras el contacto con el antígeno y desaparece en pocas semanas: su presencia indica **infección reciente**.',
+      ],
+    },
+  },
+  {
+    id: 'inflamacion',
+    bloque: 'Inmunología',
+    novedad: 'F · Inflamación, CMH y vacunas de ARNm (resaltados 26-27)',
+    titulo: 'La astilla de la mesa de disección',
+    escena: [
+      { n: 'Te clavas una astilla en el dedo al montar una mesa del laboratorio. Al día siguiente la zona está roja, caliente, hinchada y con un punto de pus.' },
+      { p: 'lucia', t: 'Ya que te duele, apúntalo en tu cuaderno: es el mejor ejemplo de inflamación que vas a tener.' },
+    ],
+    datos: '',
+    decisiones: [
+      {
+        tipo: 'clasificar',
+        enun: 'Relaciona cada signo con su mecanismo.',
+        items: ['Rubor y calor', 'Edema (hinchazón)', 'Pus'],
+        opciones: ['Vasodilatación: llega más sangre', 'Aumento de la permeabilidad vascular: sale plasma', 'Diapédesis de leucocitos que fagocitan y mueren'],
+        solucion: [0, 1, 2],
+        fb_ok: 'Muy bien: vasodilatación, permeabilidad y diapédesis explican los signos clásicos (el dolor se debe a la presión y a mediadores químicos).',
+        fb_ko: 'Piensa en qué pasa en los capilares: se dilatan, se vuelven permeables y dejan salir leucocitos.',
+      },
+      {
+        tipo: 'opcion',
+        enun: 'Días después, un macrófago muestra fragmentos de la bacteria a un linfocito T. ¿Qué molécula lo permite?',
+        opciones: [
+          { t: 'El Complejo Mayor de Histocompatibilidad (CMH), que presenta los antígenos en la superficie celular.', ok: true, fb: 'Correcto: sin presentación por el CMH, los linfocitos T no reconocen el antígeno.' },
+          { t: 'Una citocina, que se une directamente al antígeno.', fb: 'Las citocinas comunican y coordinan a las células inmunitarias, pero no presentan antígenos.' },
+          { t: 'La IgD.', fb: 'La IgD está en la membrana de los linfocitos B.' },
+        ],
+      },
+      {
+        tipo: 'opcion',
+        enun: 'En la pausa del café alguien afirma que las vacunas de ARNm «modifican tu ADN». ¿Qué contestas con base científica?',
+        opciones: [
+          { t: 'Tiene razón: el ARNm entra en el núcleo y se integra en los cromosomas.', fb: 'El ARNm no entra en el núcleo ni se integra: no hay transcriptasa inversa implicada.' },
+          { t: 'No: el ARNm se traduce en los ribosomas del citoplasma, la célula fabrica la proteína del patógeno (antígeno) y el sistema inmunitario genera memoria. Después el ARNm se degrada.', ok: true, fb: 'Correcto. Es una vacuna que hace que nuestras células produzcan el antígeno temporalmente.' },
+        ],
+      },
+    ],
+    informe: {
+      preg: 'Explique la respuesta inflamatoria relacionando sus mecanismos con sus manifestaciones. Indique el papel del CMH y de las citocinas en la respuesta específica posterior.',
+      pts: '[2]',
+      modelo: [
+        'La inflamación es una **respuesta inespecífica** de la **inmunidad innata** frente a infecciones o lesiones.',
+        '**Vasodilatación** → más riego: **rubor y calor**. **Aumento de la permeabilidad vascular** → salida de plasma: **edema** (y **dolor** por la presión). **Diapédesis**: los leucocitos salen de los capilares, **fagocitan** y sus restos forman el **pus**.',
+        'El **CMH** (**Complejo Mayor de Histocompatibilidad**) **presenta los antígenos** a los linfocitos T; las **citocinas** **comunican y coordinan** a las células inmunitarias.',
+      ],
+    },
+  },
+  {
+    id: 'triaje',
+    bloque: 'Inmunología',
+    novedad: 'F · Barreras, tratamientos y priones (resaltados y Nuevo 26-27)',
+    titulo: 'Guardia en el servicio de microbiología',
+    escena: [
+      { p: 'ines', t: 'Esta semana haces prácticas en el servicio de microbiología del hospital. Tu tarea: proponer el tipo de tratamiento para cada caso y revisar un protocolo de bioseguridad.' },
+    ],
+    datos: '',
+    decisiones: [
+      {
+        tipo: 'clasificar',
+        enun: 'Propón el tipo de tratamiento según el agente.',
+        items: ['Faringitis por estreptococo', 'Gripe', 'Pie de atleta (hongo)', 'Giardiasis (protozoo)'],
+        opciones: ['Antibiótico', 'Antiviral', 'Antifúngico', 'Antiparasitario'],
+        solucion: [0, 1, 2, 3],
+        fb_ok: 'Correcto. Los antibióticos solo sirven frente a bacterias; recetarlos para un virus favorece resistencias.',
+        fb_ko: 'Identifica primero el agente: bacteria, virus, hongo o protozoo. Cada uno tiene su tratamiento.',
+      },
+      {
+        tipo: 'opcion',
+        enun: 'Una paciente desarrolla candidiasis tras un tratamiento largo con antibióticos de amplio espectro. ¿Por qué?',
+        opciones: [
+          { t: 'Los antibióticos eliminaron parte de la microbiota, una barrera biológica que compite con los patógenos; el hongo aprovechó el hueco.', ok: true, fb: 'Correcto: la microbiota es una barrera externa biológica, junto a las mecánicas (piel, mucosas) y químicas (ácidos, enzimas, moco).' },
+          { t: 'Los antibióticos transformaron las bacterias en hongos.', fb: 'Eso no ocurre: son organismos distintos.' },
+        ],
+      },
+      {
+        tipo: 'opcion',
+        enun: 'El protocolo de un laboratorio que trabaja con muestras de encefalopatías espongiformes usa el autoclave estándar. ¿Es suficiente?',
+        opciones: [
+          { t: 'Sí: el autoclave destruye cualquier agente infeccioso.', fb: 'Los priones resisten la esterilización convencional.' },
+          { t: 'No: los priones son proteínas mal plegadas sin ácido nucleico, muy resistentes al calor y a los tratamientos habituales. Requieren protocolos especiales.', ok: true, fb: 'Correcto. Por eso son difíciles de prevenir y no tienen tratamiento: no hay ácido nucleico ni metabolismo sobre los que actuar.' },
+        ],
+      },
+    ],
+    informe: {
+      preg: 'a) Describa las barreras externas del organismo frente a los patógenos. b) Explique qué son los priones y por qué es difícil tratarlos y prevenirlos.',
+      pts: '[2]',
+      modelo: [
+        'a) **Mecánicas**: **piel y mucosas**. **Químicas**: **secreciones ácidas**, **enzimas** (lisozima) y **moco**. **Biológicas**: la **microbiota**, que compite con los patógenos. Son la **primera línea de defensa**.',
+        'b) Los **priones** son **agentes infecciosos acelulares** formados solo por **proteína mal plegada**, **sin ácido nucleico**, que inducen el mal plegamiento de la proteína normal. Causan **enfermedades neurodegenerativas**.',
+        'b) Son **muy resistentes** a los métodos habituales de esterilización y, al no tener ácido nucleico ni metabolismo, **no hay antibióticos ni antivirales** eficaces.',
+      ],
+    },
+  },
+  {
+    id: 'biodiversidad',
+    bloque: 'Genética',
+    novedad: 'B.6.3 y F.4.3 · Biodiversidad e investigación en Andalucía',
+    titulo: 'Lince, pinsapo y la reunión de fin de curso',
+    escena: [
+      { n: 'Último expediente antes del congreso. La Dra. Navarro te pide un informe para una colaboración con el programa de conservación del lince ibérico y con un grupo que estudia el pinsapo, abeto endémico de las sierras de Grazalema, Ronda y Sierra Bermeja.' },
+      { p: 'ines', t: 'Ambas especies pasaron por poblaciones muy pequeñas. Quiero entender qué supone eso para su variabilidad genética y para su futuro.' },
+    ],
+    datos: `<h4>Heterocigosis media (datos didácticos)</h4>
+      <table><tr><th>Población</th><th>Heterocigosis</th></tr>
+      <tr><td>Especie de amplia distribución</td><td>0,30</td></tr><tr><td>Población pequeña y aislada</td><td>0,08</td></tr></table>`,
+    decisiones: [
+      {
+        tipo: 'opcion',
+        enun: '¿Qué riesgo supone la baja variabilidad genética?',
+        opciones: [
+          { t: 'Ninguno: si los individuos están sanos, la población está a salvo.', fb: 'La salud actual no garantiza capacidad de adaptación futura.' },
+          { t: 'Menor capacidad de adaptación a cambios (enfermedades, clima) y más problemas por consanguinidad.', ok: true, fb: 'Correcto. Por eso los programas de cría intercambian ejemplares entre poblaciones para aumentar la diversidad genética.' },
+          { t: 'Que las mutaciones dejan de producirse.', fb: 'Las mutaciones siguen ocurriendo, pero son pocas frente a la pérdida de alelos.' },
+        ],
+      },
+      {
+        tipo: 'opcion',
+        enun: '¿Qué procesos generan la variabilidad sobre la que actúa la selección natural?',
+        opciones: [
+          { t: 'Las mutaciones y la recombinación y segregación de cromosomas en la meiosis.', ok: true, fb: 'Exacto: la mutación crea alelos nuevos; la reproducción sexual los combina.' },
+          { t: 'Solo la mitosis.', fb: 'La mitosis produce células idénticas.' },
+        ],
+      },
+    ],
+    informe: {
+      preg: 'Explique qué es la variabilidad genética, qué procesos la originan y por qué es importante para la conservación de especies andaluzas como el lince ibérico o el pinsapo. Valore el papel de la investigación biológica en Andalucía.',
+      pts: '[2]',
+      modelo: [
+        'La **variabilidad genética** es la **diversidad de alelos** en una población. La originan las **mutaciones** y, en la reproducción sexual, la **recombinación** (profase I) y la **segregación** de cromosomas (anafase I).',
+        'Es la **materia prima de la evolución**: permite la **adaptación** a cambios ambientales. Las poblaciones pequeñas **pierden alelos** y sufren **consanguinidad**.',
+        'En el **lince ibérico** o el **pinsapo**, la **gestión genética** (intercambio de ejemplares, bancos de semillas) aumenta la diversidad. La investigación andaluza en **genética, conservación e inmunología** contribuye a la **salud** y a la **biodiversidad**.',
+      ],
+    },
+  },
+];
+
+// ══════════════════════════════════════════════════════════════
+//  PUNTUACIÓN Y PROGRESO
+//  Decisión acertada a la primera: 10 puntos; en intentos posteriores: 5.
+//  Cada idea clave marcada en la autoevaluación del informe: 3 puntos.
+//  El progreso se guarda solo en este navegador (localStorage).
+// ══════════════════════════════════════════════════════════════
+const PUNTOS_PRIMERA = 10, PUNTOS_DESPUES = 5, PUNTOS_IDEA = 3;
+const CLAVE_GUARDADO = 'biocelia-laboratorio-2627';
+const RANGOS = [
+  [0, 'Becario/a en prácticas'],
+  [0.25, 'Técnico/a de laboratorio'],
+  [0.5, 'Investigador/a predoctoral'],
+  [0.75, 'Investigador/a principal'],
+];
+
+let estado = { decisiones: {}, intentos: {}, informes: {}, vistos: {} };
+try {
+  const guardado = JSON.parse(localStorage.getItem(CLAVE_GUARDADO) || 'null');
+  if (guardado && typeof guardado === 'object') estado = { ...estado, ...guardado };
+} catch (e) { /* sin almacenamiento: el progreso dura lo que la visita */ }
+
+function guardar() {
+  try { localStorage.setItem(CLAVE_GUARDADO, JSON.stringify(estado)); } catch (e) {}
+}
+
+const puntosMax = EXPEDIENTES.reduce((t, e) =>
+  t + e.decisiones.length * PUNTOS_PRIMERA + e.informe.modelo.length * PUNTOS_IDEA, 0);
+
+function puntosActuales() {
+  let t = 0;
+  for (const v of Object.values(estado.decisiones)) t += v;
+  for (const marcas of Object.values(estado.informes)) t += marcas.filter(Boolean).length * PUNTOS_IDEA;
+  return t;
+}
+
+function expedienteCerrado(e) {
+  return e.decisiones.every((_, i) => (e.id + ':' + i) in estado.decisiones) && estado.vistos[e.id];
+}
+
+function conMarcas(texto) {
+  return texto.replace(/\*\*(.+?)\*\*/g, '<mark class="clave">$1</mark>');
+}
+function conPuntos(texto) {
+  return texto.replace(/\[\d[\d,]*\]/g, m => `<span class="pts">${m}</span>`);
+}
+
+// ══════════════════════════════════════════════════════════════
+//  PINTADO
+// ══════════════════════════════════════════════════════════════
+function pintarEscena(e) {
+  return e.escena.map(b => {
+    if (b.n) return `<p class="narra">${b.n}</p>`;
+    const p = PERSONAS[b.p];
+    return `<div class="bocadillo"><div class="avatar ${p.clase}" aria-hidden="true">${p.ini}</div>
+      <p><b class="quien">${p.nombre}</b>${b.t}</p></div>`;
+  }).join('');
+}
+
+// Orden aleatorio de las opciones: la respuesta correcta no debe
+// estar siempre en la misma posición ni coincidir con la del elemento.
+function barajado(n) {
+  const idx = [...Array(n).keys()];
+  for (let k = n - 1; k > 0; k--) {
+    const r = Math.floor(Math.random() * (k + 1));
+    [idx[k], idx[r]] = [idx[r], idx[k]];
+  }
+  return idx;
+}
+
+function pintarDecision(e, d, i) {
+  const clave = e.id + ':' + i;
+  const n = `<small>Decisión ${i + 1} de ${e.decisiones.length}</small>`;
+  if (d.tipo === 'opcion') {
+    const botones = barajado(d.opciones.length).map(j =>
+      `<button type="button" data-exp="${e.id}" data-dec="${i}" data-op="${j}">${d.opciones[j].t}</button>`).join('');
+    return `<div class="decision" id="dec-${e.id}-${i}"><div class="enun">${n}${d.enun}</div>
+      <div class="opciones">${botones}</div><div class="feedback" hidden role="status"></div></div>`;
+  }
+  const orden = barajado(d.opciones.length);
+  const filas = d.items.map((it, j) => {
+    const ops = ['<option value="">— elige —</option>']
+      .concat(orden.map(k => `<option value="${k}">${d.opciones[k]}</option>`)).join('');
+    return `<label><span>${it}</span><select data-item="${j}" aria-label="${it}">${ops}</select></label>`;
+  }).join('');
+  return `<div class="decision" id="dec-${e.id}-${i}"><div class="enun">${n}${d.enun}</div>
+    <div class="clasif">${filas}</div>
+    <button type="button" class="btn btn-lab" data-comprobar="${e.id}" data-dec="${i}">Comprobar</button>
+    <div class="feedback" hidden role="status"></div></div>`;
+}
+
+function pintarInforme(e) {
+  const inf = e.informe;
+  const ideas = inf.modelo.map((m, j) =>
+    `<label><input type="checkbox" data-informe="${e.id}" data-idea="${j}"> <span>Idea ${j + 1}: ${m.replace(/\*\*(.+?)\*\*/g, '$1').split(/[.:;]/)[0]}</span></label>`).join('');
+  return `<div class="informe">
+    <h4>📝 Informe para la PAU</h4>
+    <p class="preg">${conPuntos(inf.preg)} <span class="pts">${inf.pts}</span></p>
+    <p style="font-size:.85rem;color:#6b5a2e;margin:.3em 0 0">Redacta tu respuesta en el cuaderno antes de ver el modelo.</p>
+    <button type="button" class="btn btn-oro" data-ver="${e.id}">Ver informe modelo</button>
+    <div class="modelo" id="modelo-${e.id}" hidden>
+      <ul>${inf.modelo.map(m => `<li>${conMarcas(m)}</li>`).join('')}</ul>
+      ${inf.tip ? `<p class="tip-trib">💡 <b>Consejo del tribunal:</b> ${inf.tip}</p>` : ''}
+      <div class="autoeval"><p>Autoevaluación: marca las ideas clave que incluiste en tu respuesta (resaltadas en amarillo en el modelo).</p>${ideas}</div>
+    </div>
+  </div>`;
+}
+
+function pintarTodo() {
+  const cont = document.getElementById('expedientes');
+  cont.innerHTML = EXPEDIENTES.map((e, k) => `
+    <details class="expediente" id="exp-${e.id}" data-bloque="${e.bloque}">
+      <summary>
+        <span class="num">${String(k + 1).padStart(2, '0')}</span>
+        <span class="exp-titulo">${e.titulo}</span>
+        <span class="flecha" aria-hidden="true">▶</span>
+        <span class="exp-meta"><span class="etq bloque">${e.bloque}</span><span class="etq">${e.novedad}</span></span>
+      </summary>
+      <div class="exp-cuerpo">
+        <div class="escena">${pintarEscena(e)}</div>
+        ${e.datos ? `<div class="datos">${e.datos}</div>` : ''}
+        ${e.decisiones.map((d, i) => pintarDecision(e, d, i)).join('')}
+        ${pintarInforme(e)}
+      </div>
+    </details>`).join('');
+  restaurar();
+  actualizarPanel();
+}
+
+// Devuelve a la página el estado guardado (decisiones resueltas, informes vistos).
+function restaurar() {
+  for (const e of EXPEDIENTES) {
+    e.decisiones.forEach((d, i) => {
+      const clave = e.id + ':' + i;
+      if (!(clave in estado.decisiones)) return;
+      const caja = document.getElementById(`dec-${e.id}-${i}`);
+      if (d.tipo === 'opcion') {
+        const j = d.opciones.findIndex(o => o.ok);
+        marcarOpcion(caja, d, j, true);
+      } else {
+        caja.querySelectorAll('select').forEach((s, j) => { s.value = d.solucion[j]; });
+        corregirClasificacion(caja, d, true);
+      }
+    });
+    if (estado.vistos[e.id]) {
+      document.getElementById('modelo-' + e.id).hidden = false;
+      (estado.informes[e.id] || []).forEach((v, j) => {
+        const c = document.querySelector(`input[data-informe="${e.id}"][data-idea="${j}"]`);
+        if (c) c.checked = v;
+      });
+    }
+  }
+}
+
+function mostrarFeedback(caja, ok, texto) {
+  const fb = caja.querySelector('.feedback');
+  fb.hidden = false;
+  fb.className = 'feedback ' + (ok ? 'ok' : 'ko');
+  fb.innerHTML = (ok ? '✅ ' : '❌ ') + texto;
+}
+
+function marcarOpcion(caja, d, j, restaurando) {
+  const o = d.opciones[j];
+  const botones = caja.querySelectorAll('.opciones button');
+  caja.querySelector(`[data-op="${j}"]`).classList.add(o.ok ? 'ok' : 'ko');
+  if (o.ok) botones.forEach(b => { b.disabled = true; });
+  mostrarFeedback(caja, !!o.ok, o.fb);
+  return !!o.ok;
+}
+
+function corregirClasificacion(caja, d, restaurando) {
+  let todas = true;
+  caja.querySelectorAll('select').forEach((s, j) => {
+    const bien = s.value !== '' && Number(s.value) === d.solucion[j];
+    s.closest('label').classList.toggle('ok', bien);
+    s.closest('label').classList.toggle('ko', !bien);
+    if (!bien) todas = false;
+  });
+  if (todas) {
+    caja.querySelectorAll('select').forEach(s => { s.disabled = true; });
+    caja.querySelector('[data-comprobar]').hidden = true;
+  }
+  mostrarFeedback(caja, todas, todas ? d.fb_ok : d.fb_ko);
+  return todas;
+}
+
+function registrarAcierto(e, i) {
+  const clave = e.id + ':' + i;
+  if (clave in estado.decisiones) return;
+  estado.decisiones[clave] = (estado.intentos[clave] || 0) === 0 ? PUNTOS_PRIMERA : PUNTOS_DESPUES;
+}
+function registrarFallo(e, i) {
+  const clave = e.id + ':' + i;
+  if (clave in estado.decisiones) return;
+  estado.intentos[clave] = (estado.intentos[clave] || 0) + 1;
+}
+
+function actualizarPanel() {
+  const pts = puntosActuales();
+  const cerrados = EXPEDIENTES.filter(expedienteCerrado);
+  document.getElementById('puntos').textContent = pts;
+  document.getElementById('puntosMax').textContent = puntosMax;
+  document.getElementById('cerrados').textContent = cerrados.length;
+  document.getElementById('totalExp').textContent = EXPEDIENTES.length;
+  document.getElementById('barra').style.width = (100 * pts / puntosMax).toFixed(1) + '%';
+  const frac = pts / puntosMax;
+  document.getElementById('rango').textContent = RANGOS.filter(([u]) => frac >= u).pop()[1];
+  for (const e of EXPEDIENTES) {
+    document.getElementById('exp-' + e.id).classList.toggle('hecho', expedienteCerrado(e));
+  }
+  // Insignias por bloque
+  const bloques = [...new Set(EXPEDIENTES.map(e => e.bloque))];
+  const conseguidas = bloques.filter(b => EXPEDIENTES.filter(e => e.bloque === b).every(expedienteCerrado));
+  document.getElementById('insignias').innerHTML = bloques.map(b =>
+    `<span class="insignia ${conseguidas.includes(b) ? 'on' : ''}">${conseguidas.includes(b) ? '🏅' : '🔒'} ${b}</span>`).join('');
+  document.getElementById('textoCongreso').textContent = conseguidas.length === bloques.length
+    ? '¡Enhorabuena! Has cerrado todos los expedientes: la Dra. Navarro te inscribe como ponente en el congreso. Ahora, a por la PAU.'
+    : `Cierra expedientes para conseguir las insignias de cada bloque (${conseguidas.length} de ${bloques.length}). Con todas, la Dra. Navarro te inscribe como ponente.`;
+}
+
+// ══════════════════════════════════════════════════════════════
+//  EVENTOS
+// ══════════════════════════════════════════════════════════════
+document.getElementById('expedientes').addEventListener('click', ev => {
+  const b = ev.target.closest('button');
+  if (!b) return;
+  const buscar = id => EXPEDIENTES.find(e => e.id === id);
+  if (b.dataset.op !== undefined) {
+    const e = buscar(b.dataset.exp), i = Number(b.dataset.dec), d = e.decisiones[i];
+    const ok = marcarOpcion(b.closest('.decision'), d, Number(b.dataset.op));
+    ok ? registrarAcierto(e, i) : registrarFallo(e, i);
+  } else if (b.dataset.comprobar) {
+    const e = buscar(b.dataset.comprobar), i = Number(b.dataset.dec), d = e.decisiones[i];
+    const ok = corregirClasificacion(b.closest('.decision'), d);
+    ok ? registrarAcierto(e, i) : registrarFallo(e, i);
+  } else if (b.dataset.ver) {
+    document.getElementById('modelo-' + b.dataset.ver).hidden = false;
+    estado.vistos[b.dataset.ver] = true;
+    b.hidden = true;
+  } else {
+    return;
+  }
+  guardar();
+  actualizarPanel();
+});
+
+document.getElementById('expedientes').addEventListener('change', ev => {
+  const c = ev.target;
+  if (!c.dataset.informe) return;
+  const id = c.dataset.informe;
+  const n = EXPEDIENTES.find(e => e.id === id).informe.modelo.length;
+  const marcas = estado.informes[id] || Array(n).fill(false);
+  marcas[Number(c.dataset.idea)] = c.checked;
+  estado.informes[id] = marcas;
+  guardar();
+  actualizarPanel();
+});
+
+// Filtros por bloque
+(() => {
+  const cont = document.getElementById('filtros');
+  const bloques = ['Todos', ...new Set(EXPEDIENTES.map(e => e.bloque))];
+  cont.innerHTML = bloques.map((b, i) =>
+    `<button type="button" aria-pressed="${i === 0}" data-bloque="${b}">${b}</button>`).join('');
+  cont.addEventListener('click', ev => {
+    const b = ev.target.closest('button');
+    if (!b) return;
+    cont.querySelectorAll('button').forEach(x => x.setAttribute('aria-pressed', x === b));
+    document.querySelectorAll('.expediente').forEach(x => {
+      x.hidden = b.dataset.bloque !== 'Todos' && x.dataset.bloque !== b.dataset.bloque;
+    });
+  });
+})();
+
+// Reinicio con confirmación en la propia página
+document.getElementById('zonaReset').addEventListener('click', ev => {
+  const zona = document.getElementById('zonaReset');
+  if (ev.target.id === 'btnReset') {
+    zona.innerHTML = `<span class="confirmar">¿Borrar todo el progreso?
+      <button class="btn-mini" type="button" id="resetSi">Sí, borrar</button>
+      <button class="btn-mini" type="button" id="resetNo">Cancelar</button></span>`;
+  } else if (ev.target.id === 'resetSi' || ev.target.id === 'resetNo') {
+    if (ev.target.id === 'resetSi') {
+      estado = { decisiones: {}, intentos: {}, informes: {}, vistos: {} };
+      guardar();
+      pintarTodo();
+    }
+    zona.innerHTML = '<button class="btn-mini" type="button" id="btnReset">Reiniciar</button>';
+  }
+});
+
+pintarTodo();
+</script>
+</body>
+</html>

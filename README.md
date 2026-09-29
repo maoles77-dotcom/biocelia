@@ -16,6 +16,7 @@ conceptual, la aplicación y la argumentación científica.
 | `Entrenamientopau.html` | Banco de 554 preguntas con criterios de corrección y tips, más diccionario de 805 términos |
 | `simulacropau.html` | 394 preguntas con estructura de examen |
 | `laboratoriocompetencial.html` | Casos de razonamiento científico |
+| `laboratorioinvestigacion.html` | «Tu primer año en el laboratorio»: 19 expedientes que aplican las novedades de la PAU 2026-27, con decisiones, informe modelo y progreso |
 
 ## Ver en local
 
