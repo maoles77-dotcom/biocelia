@@ -15720,6 +15720,1431 @@
   },
   {
     "id": 597,
+    "clave": "pau2018-junio-a1",
+    "bloque": "Metabolismo",
+    "tema": "Fases de la fotosíntesis y fotofosforilación",
+    "tipo": "respuesta breve",
+    "pregunta": "a) Indique las fases de la fotosíntesis [0,2] y los procesos básicos que se realizan en cada una de ellas [1]. b) Describa la fotofosforilación [0,6] y su localización dentro del orgánulo celular correspondiente [0,2].",
+    "respuesta": [
+      "a) Fase dependiente de la luz y fase no dependiente de la luz (0,2 p).",
+      "a) Fase luminosa: captación de luz por los fotosistemas y fotólisis del agua, transporte electrónico, síntesis de ATP y síntesis de NADPH. 0,2 p cada proceso (0,8 p).",
+      "a) Fase no dependiente de la luz: fijación del carbono a partir del CO₂ con gasto de ATP y NADPH (0,2 p).",
+      "b) Fotofosforilación: flujo de electrones desde los fotosistemas excitados por la luz hasta el NADPH, que genera un gradiente de protones cuya energía se usa para sintetizar ATP (0,6 p). Localización: membrana tilacoidal (0,2 p)."
+    ],
+    "palabras_clave": [
+      "Fase dependiente de la luz",
+      "NADPH",
+      "captación de luz por los fotosistemas y fotólisis del agua",
+      "fase no dependiente de la luz",
+      "fijación del carbono a partir del CO₂ con gasto de ATP y NADPH",
+      "fotosistemas excitados por la luz",
+      "gradiente de protones",
+      "membrana tilacoidal",
+      "sintetizar ATP",
+      "síntesis de ATP",
+      "síntesis de NADPH",
+      "transporte electrónico"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/junio EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/junio CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 598,
+    "clave": "pau2018-junio-a2",
+    "bloque": "Genética",
+    "tema": "Gen, mutación, recombinación y segregación",
+    "tipo": "respuesta breve",
+    "pregunta": "Defina: a) gen; b) mutación; c) recombinación; d) segregación cromosómica [2].",
+    "respuesta": [
+      "a) Gen: fragmento de ADN que determina una característica y que puede tener diferentes alelos (0,5 p).",
+      "b) Mutación: alteración en el material genético (0,5 p).",
+      "c) Recombinación: intercambio de fragmentos de ADN entre cromosomas homólogos (0,5 p).",
+      "d) Segregación cromosómica: reparto al azar de los cromosomas paternos y maternos en la meiosis (0,5 p)."
+    ],
+    "palabras_clave": [
+      "alteración en el material genético",
+      "fragmento de ADN que determina una característica",
+      "intercambio de fragmentos de ADN entre cromosomas homólogos",
+      "reparto al azar de los cromosomas paternos y maternos en la meiosis"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/junio EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/junio CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 599,
+    "clave": "pau2018-junio-a3",
+    "bloque": "Inmunología",
+    "tema": "Conceptos de inmunidad y alteraciones del sistema inmunitario",
+    "tipo": "respuesta breve",
+    "pregunta": "Defina los siguientes términos referidos a la inmunidad: a) sistema inmunitario; b) anticuerpo; c) inmunodeficiencia; d) enfermedad autoinmune; e) reacción alérgica o de hipersensibilidad [2].",
+    "respuesta": [
+      "a) Sistema inmunitario: conjunto de órganos, tejidos, células y moléculas responsables de la respuesta inmunitaria (0,4 p).",
+      "b) Anticuerpo: proteína producida por los linfocitos B (células plasmáticas) en respuesta a un antígeno, al que se une específicamente (0,4 p).",
+      "c) Inmunodeficiencia: incapacidad del sistema inmunitario para defender al organismo frente a las infecciones (0,4 p).",
+      "d) Enfermedad autoinmune: la respuesta inmunitaria destruye moléculas o células propias (0,4 p).",
+      "e) Alergia o hipersensibilidad: respuesta inadecuada o exagerada del sistema inmunitario (0,4 p)."
+    ],
+    "palabras_clave": [
+      "antígeno",
+      "conjunto de órganos, tejidos, células y moléculas responsables de la respuesta inmunitaria",
+      "destruye moléculas o células propias",
+      "incapacidad del sistema inmunitario para defender al organismo frente a las infecciones",
+      "proteína producida por los linfocitos B",
+      "respuesta inadecuada o exagerada del sistema inmunitario",
+      "se une específicamente"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/junio EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/junio CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 600,
+    "clave": "pau2018-junio-a4",
+    "bloque": "Metabolismo",
+    "tema": "Pardeamiento de la manzana y actividad enzimática",
+    "tipo": "respuesta breve",
+    "pregunta": "La polifenoloxidasa es una enzima capaz de oxidar los polifenoles en presencia de oxígeno, siendo responsable del pardeamiento (oscurecimiento) que sufren los frutos, como la manzana, a los pocos minutos de haberlos cortado. Este pardeamiento se puede evitar de tres formas: a) reduciendo el acceso al oxígeno de la enzima; b) añadiendo compuestos ácidos; c) calentando en agua hirviendo. Explique razonadamente por qué no se produce el pardeamiento en estos tres casos [1].",
+    "respuesta": [
+      "a) Sin oxígeno la enzima no puede catalizar la reacción y no se forman los compuestos pardos (0,4 p).",
+      "b) Con ácidos la enzima se desnaturaliza por la bajada del pH (0,3 p).",
+      "c) El calor desnaturaliza la enzima y esta pierde su actividad (0,3 p)."
+    ],
+    "palabras_clave": [
+      "desnaturaliza la enzima",
+      "no puede catalizar la reacción",
+      "pierde su actividad",
+      "se desnaturaliza por la bajada del pH"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/junio EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/junio CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 601,
+    "clave": "pau2018-junio-a5",
+    "bloque": "Célula",
+    "tema": "Síndrome de Kartagener: cilios, flagelos e infertilidad",
+    "tipo": "respuesta breve",
+    "pregunta": "El síndrome de Kartagener afecta a diferentes componentes de los cilios dando lugar a la formación de cilios con estructura defectuosa. Este síndrome causa, entre otros síntomas, infertilidad en el hombre. Explique de forma razonada por qué se produce la infertilidad masculina [1].",
+    "respuesta": [
+      "La estructura de los cilios es similar a la de los flagelos, así que el defecto también afecta al flagelo del espermatozoide. Sin movilidad adecuada, el espermatozoide no puede llegar hasta el óvulo y se produce infertilidad (1 p)."
+    ],
+    "palabras_clave": [
+      "estructura de los cilios es similar a la de los flagelos",
+      "flagelo del espermatozoide",
+      "infertilidad",
+      "movilidad",
+      "no puede llegar hasta el óvulo"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/junio EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/junio CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 602,
+    "clave": "pau2018-junio-a6",
+    "bloque": "Biomoléculas",
+    "tema": "Formación de un triacilglicérido",
+    "tipo": "respuesta breve",
+    "pregunta": "La imagen adjunta muestra el esquema de una importante reacción bioquímica. Conteste a las siguientes cuestiones: a) Indique los nombres de los reactivos 1 y 2 y el del producto final de la reacción 3 [0,6]. b) ¿Cómo se denomina esta reacción? [0,2] c) ¿Y la reacción inversa? [0,2]",
+    "respuesta": [
+      "a) 1: ácidos grasos; 2: glicerol; 3: triacilglicérido. 0,2 p cada uno (0,6 p).",
+      "b) Esterificación (0,2 p). c) Hidrólisis (0,2 p)."
+    ],
+    "palabras_clave": [
+      "Esterificación",
+      "Hidrólisis",
+      "glicerol",
+      "triacilglicérido",
+      "ácidos grasos"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/junio EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/junio CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2018/junio-a6.webp"
+  },
+  {
+    "id": 603,
+    "clave": "pau2018-junio-a7",
+    "bloque": "Biomoléculas",
+    "tema": "Propiedades de los ácidos grasos y funciones de las grasas",
+    "tipo": "respuesta breve",
+    "pregunta": "En relación a la imagen anterior conteste las siguientes preguntas: a) Cite dos propiedades del reactivo 1 [0,5]. b) Cite una función común del compuesto 3 en organismos animales y vegetales [0,25]. c) Cite una función exclusiva de este compuesto en los organismos animales [0,25].",
+    "respuesta": [
+      "a) Son anfipáticos, saponificables y pueden ser saturados o insaturados. Dos, a 0,25 p (0,5 p).",
+      "b) Reserva energética en animales y vegetales (0,25 p).",
+      "c) Aislamiento térmico, flotabilidad o protección mecánica. Una (0,25 p)."
+    ],
+    "palabras_clave": [
+      "Aislamiento térmico",
+      "Reserva energética",
+      "anfipáticos",
+      "flotabilidad",
+      "protección mecánica",
+      "saponificables",
+      "saturados o insaturados"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/junio EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/junio CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2018/junio-a6.webp"
+  },
+  {
+    "id": 604,
+    "clave": "pau2018-junio-b1",
+    "bloque": "Biomoléculas",
+    "tema": "Monosacáridos: concepto, funciones y clasificación",
+    "tipo": "respuesta breve",
+    "pregunta": "a) Defina monosacáridos [0,5]. b) Indique dos de sus funciones [0,6]. c) Clasifíquelos según el número de átomos de carbono [0,5]. d) Represente la fórmula desarrollada de la glucosa y de la ribosa [0,4].",
+    "respuesta": [
+      "a) Glúcidos no hidrolizables, polihidroxialdehídos o polihidroxicetonas con 3 a 7 átomos de carbono (0,5 p).",
+      "b) Monómeros de todos los glúcidos, nutrientes para obtener energía, intermediarios metabólicos; la ribosa y la desoxirribosa son componentes de los ácidos nucleicos. Dos, a 0,3 p (0,6 p).",
+      "c) Triosas (3C), tetrosas (4C), pentosas (5C), hexosas (6C) y heptosas (7C). 0,1 p cada una (0,5 p).",
+      "d) Fórmula de la glucosa y de la ribosa, lineal o cíclica (0,4 p): glucosa, CHO–(CHOH)₄–CH₂OH; ribosa, CHO–(CHOH)₃–CH₂OH."
+    ],
+    "palabras_clave": [
+      "3 a 7 átomos de carbono",
+      "Fórmula de la glucosa y de la ribosa",
+      "Glúcidos no hidrolizables",
+      "Monómeros de todos los glúcidos",
+      "Triosas (3C), tetrosas (4C), pentosas (5C), hexosas (6C) y heptosas (7C)",
+      "componentes de los ácidos nucleicos",
+      "intermediarios metabólicos",
+      "nutrientes para obtener energía",
+      "polihidroxialdehídos o polihidroxicetonas"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/junio EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/junio CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 605,
+    "clave": "pau2018-junio-b2",
+    "bloque": "Microbiología",
+    "tema": "Conceptos de microbiología y biotecnología",
+    "tipo": "respuesta breve",
+    "pregunta": "Defina: a) microorganismo; b) bacteriófago; c) célula procariótica; d) biotecnología; e) ciclo lítico [2].",
+    "respuesta": [
+      "a) Microorganismo: ser vivo de pequeño tamaño que solo se ve con microscopio (0,4 p).",
+      "b) Bacteriófago: virus que infecta a bacterias (0,4 p).",
+      "c) Célula procariótica: célula sin núcleo verdadero (0,4 p).",
+      "d) Biotecnología: procesos industriales que utilizan microorganismos o células animales o vegetales para obtener productos (0,4 p).",
+      "e) Ciclo lítico: ciclo de multiplicación de los fagos en el que el genoma del virus no se incorpora al de la bacteria y termina con la lisis celular (0,4 p)."
+    ],
+    "palabras_clave": [
+      "célula sin núcleo verdadero",
+      "el genoma del virus no se incorpora al de la bacteria",
+      "para obtener productos",
+      "procesos industriales que utilizan microorganismos o células",
+      "ser vivo de pequeño tamaño que solo se ve con microscopio",
+      "virus que infecta a bacterias"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/junio EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/junio CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 606,
+    "clave": "pau2018-junio-b3",
+    "bloque": "Metabolismo",
+    "tema": "Fermentación frente a respiración",
+    "tipo": "respuesta breve",
+    "pregunta": "a) Defina fermentación [0,5]. b) Indique dos tipos de células que la realizan [0,5] y en qué lugar de las mismas se lleva a cabo [0,2]. c) ¿Por qué su rentabilidad energética es diferente a la de la respiración celular? [0,8]",
+    "respuesta": [
+      "a) Degradación anaeróbica de la glucosa en la que el aceptor final de electrones es una molécula orgánica (0,5 p).",
+      "b) Bacterias, levaduras, células musculares, células vegetales. Dos (0,5 p). Lugar: citoplasma (0,2 p).",
+      "c) Es menos rentable porque los sustratos no se oxidan completamente y el ATP solo procede de la glucólisis (0,8 p)."
+    ],
+    "palabras_clave": [
+      "Bacterias",
+      "Degradación anaeróbica de la glucosa",
+      "aceptor final de electrones es una molécula orgánica",
+      "citoplasma",
+      "células musculares",
+      "levaduras",
+      "los sustratos no se oxidan completamente",
+      "menos rentable"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/junio EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/junio CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 607,
+    "clave": "pau2018-junio-b4",
+    "bloque": "Célula",
+    "tema": "Composición de los compartimentos celulares",
+    "tipo": "respuesta breve",
+    "pregunta": "¿Cómo explicaría que diferentes compartimentos subcelulares (por ejemplo lisosomas, mitocondrias, cloroplastos) mantengan una composición química distinta a la del citosol? [1]",
+    "respuesta": [
+      "Las membranas de los compartimentos, como la membrana plasmática, tienen permeabilidad selectiva con transportadores y bombas propias que controlan qué entra y sale (1 p)."
+    ],
+    "palabras_clave": [
+      "membranas de los compartimentos",
+      "permeabilidad selectiva"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/junio EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/junio CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 608,
+    "clave": "pau2018-junio-b5",
+    "bloque": "Inmunología",
+    "tema": "Varicela y memoria inmunológica",
+    "tipo": "respuesta breve",
+    "pregunta": "La varicela es una enfermedad vírica que suele padecerse solo una vez en la vida. a) ¿Cómo explica que las personas que han sufrido alguna vez la varicela queden protegidas durante toda la vida? [0,4] b) Indique qué tipo de respuesta inmune se produce [0,2]. c) ¿Qué función desempeñan los linfocitos B tras un segundo ataque del virus? [0,4]",
+    "respuesta": [
+      "a) Por la memoria inmunológica: al pasar la enfermedad se crean células de memoria que responden mejor ante nuevas infecciones (0,4 p).",
+      "b) Inmunidad natural activa (0,2 p).",
+      "c) Reconocen rápidamente al virus y desencadenan una respuesta humoral más rápida y eficaz (respuesta secundaria) (0,4 p)."
+    ],
+    "palabras_clave": [
+      "Inmunidad natural activa",
+      "Reconocen rápidamente al virus",
+      "células de memoria",
+      "memoria inmunológica",
+      "respuesta humoral más rápida y eficaz",
+      "respuesta secundaria"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/junio EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/junio CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 609,
+    "clave": "pau2018-junio-b6",
+    "bloque": "Genética",
+    "tema": "Codominancia y herencia intermedia en vacas",
+    "tipo": "respuesta breve",
+    "pregunta": "Conteste a las siguientes preguntas con relación a los esquemas A y B. a) ¿Qué tipo de herencia se representa en A? [0,25] b) ¿Qué tipo de herencia se representa en B? [0,25] c) ¿Qué genotipo y fenotipo tendrá la descendencia resultante del cruce de dos individuos con manchas negras? Indique los porcentajes [0,5].",
+    "respuesta": [
+      "a) Codominancia (0,25 p). b) Herencia intermedia (0,25 p).",
+      "c) BN × BN: 25 % blancos BB, 25 % negros NN y 50 % manchados BN (0,5 p)."
+    ],
+    "palabras_clave": [
+      "25 % blancos BB",
+      "25 % negros NN",
+      "50 % manchados BN",
+      "Codominancia",
+      "Herencia intermedia"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/junio EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/junio CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2018/junio-b6.webp"
+  },
+  {
+    "id": 610,
+    "clave": "pau2018-junio-b7",
+    "bloque": "Genética",
+    "tema": "Diferencia entre codominancia y herencia intermedia",
+    "tipo": "respuesta breve",
+    "pregunta": "Conteste a las siguientes preguntas en relación con los esquemas de la pregunta anterior. Razone las respuestas. a) ¿Qué diferencia existe entre las herencias representadas en A y en B? [0,5] b) ¿La vaca blanca del esquema B podría proceder de dos parentales grises? [0,25] ¿Y de un parental gris y otro negro? [0,25] Razone las respuestas con el cruce correspondiente.",
+    "respuesta": [
+      "a) En A (codominancia) la descendencia muestra las características de ambos parentales; en B (herencia intermedia) muestra un fenotipo diferente al de los parentales (0,5 p).",
+      "b) Sí: BN × BN → ¼ BB blancas, ½ BN grises, ¼ NN negras (0,25 p).",
+      "b) No: BN × NN → ½ BN grises y ½ NN negras; ninguna BB (0,25 p)."
+    ],
+    "palabras_clave": [
+      "No",
+      "Sí",
+      "codominancia",
+      "fenotipo diferente al de los parentales",
+      "herencia intermedia",
+      "muestra las características de ambos parentales"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/junio EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/junio CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2018/junio-b6.webp"
+  },
+  {
+    "id": 611,
+    "clave": "pau2018-septiembre-a1",
+    "bloque": "Biomoléculas",
+    "tema": "Funciones del agua",
+    "tipo": "respuesta breve",
+    "pregunta": "Nombre y explique cuatro funciones del agua en los seres vivos [2].",
+    "respuesta": [
+      "Cuatro de estas funciones: transportadora, disolvente, termorreguladora, lubricante, estructural. Cada una, 0,1 p por el nombre y 0,4 p por la explicación (2 p).",
+      "Ejemplos de explicación: disolvente, por su polaridad disuelve sales y moléculas polares; termorreguladora, por su elevado calor específico amortigua los cambios de temperatura; transportadora, lleva sustancias por la savia y la sangre; estructural, da turgencia a las células."
+    ],
+    "palabras_clave": [
+      "disolvente",
+      "estructural",
+      "lubricante",
+      "termorreguladora",
+      "transportadora"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/septiembre EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/septiembre CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 612,
+    "clave": "pau2018-septiembre-a2",
+    "bloque": "Célula",
+    "tema": "Tabla de orgánulos: estructura y función",
+    "tipo": "respuesta breve",
+    "pregunta": "Copie y complete la siguiente tabla [2]:OrgánuloEstructuraFunción*retículo endoplásmico lisosistema de membranas12complejo de proteínas y ARNsíntesis de proteínas3sistema de membranas con aceptores de fotones4lisosomas5digestión celularnúcleo67complejo de Golgicisternas apiladas8910obtención de energía*Una sola función",
+    "respuesta": [
+      "1: síntesis de lípidos; 2: ribosomas; 3: cloroplastos; 4: fotosíntesis; 5: vesículas membranosas con enzimas.",
+      "6: envoltura nuclear, poros, cromatina y nucleolo; 7: replicación del ADN y síntesis de ARN (o contener la información genética); 8: maduración de proteínas y lípidos, embalaje de proteínas de secreción, formación de lisosomas; 9: mitocondria; 10: membranas externa e interna, espacio intermembrana, matriz y ADN. 0,2 p cada una (2 p)."
+    ],
+    "palabras_clave": [
+      "cloroplastos",
+      "envoltura nuclear, poros, cromatina y nucleolo",
+      "fotosíntesis",
+      "maduración de proteínas y lípidos",
+      "membranas externa e interna, espacio intermembrana, matriz y ADN",
+      "mitocondria",
+      "replicación del ADN y síntesis de ARN",
+      "ribosomas",
+      "síntesis de lípidos",
+      "vesículas membranosas con enzimas"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/septiembre EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/septiembre CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 613,
+    "clave": "pau2018-septiembre-a3",
+    "bloque": "Genética",
+    "tema": "Código genético, codón y anticodón",
+    "tipo": "respuesta breve",
+    "pregunta": "a) Explique qué se entiende por código genético [0,6]. b) Defina los términos codón y anticodón [0,5]. c) ¿Qué son los codones sin sentido o de terminación? [0,4] d) Describa dos características del código genético [0,5].",
+    "respuesta": [
+      "a) Sistema que establece la correspondencia entre los tripletes del ARNm y los aminoácidos que codifican (0,6 p).",
+      "b) Codón: triplete de nucleótidos consecutivos del ARNm que codifica un aminoácido (0,25 p). Anticodón: triplete del ARNt que se une específicamente a un codón complementario (0,25 p).",
+      "c) No corresponden a ningún aminoácido y finalizan la síntesis de proteínas (0,4 p).",
+      "d) Universal, degenerado, específico, continuo, con señales de inicio y final, sin solapamientos. Dos, a 0,25 p (0,5 p)."
+    ],
+    "palabras_clave": [
+      "No corresponden a ningún aminoácido",
+      "Universal",
+      "con señales de inicio y final",
+      "continuo",
+      "correspondencia entre los tripletes del ARNm y los aminoácidos",
+      "degenerado",
+      "específico",
+      "finalizan la síntesis de proteínas",
+      "sin solapamientos",
+      "triplete de nucleótidos consecutivos del ARNm que codifica un aminoácido",
+      "triplete del ARNt que se une específicamente a un codón complementario"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/septiembre EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/septiembre CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 614,
+    "clave": "pau2018-septiembre-a4",
+    "bloque": "Célula",
+    "tema": "Inhibidor de ribosomas 70S en células eucarióticas",
+    "tipo": "respuesta breve",
+    "pregunta": "En un cultivo de células eucarióticas animales y vegetales se introduce un inhibidor de la actividad de los ribosomas 70S. a) ¿Podrán las células animales sintetizar proteínas? [0,2] b) ¿Y las células vegetales? [0,2] c) ¿Podrán las células animales realizar la respiración celular? [0,2] d) ¿Y las células vegetales? [0,2] e) ¿Podrán realizar las células vegetales la fotosíntesis? [0,2] Razone todas las respuestas.",
+    "respuesta": [
+      "a) Sí: sus ribosomas citoplasmáticos son 80S y no se ven afectados (también se admite «no» si se razona que, al fallar la mitocondria, falta ATP) (0,2 p).",
+      "b) Sí, por la misma razón: ribosomas 80S (0,2 p).",
+      "c) y d) No: los ribosomas mitocondriales son 70S y el inhibidor impide la respiración en animales y vegetales (0,4 p).",
+      "e) No: los ribosomas de los cloroplastos también son 70S (0,2 p)."
+    ],
+    "palabras_clave": [
+      "No",
+      "Sí",
+      "ribosomas 80S",
+      "ribosomas citoplasmáticos son 80S",
+      "ribosomas de los cloroplastos también son 70S",
+      "ribosomas mitocondriales son 70S"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/septiembre EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/septiembre CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 615,
+    "clave": "pau2018-septiembre-a5",
+    "bloque": "Inmunología",
+    "tema": "Vacunas de por vida frente a la gripe",
+    "tipo": "respuesta breve",
+    "pregunta": "a) Existen enfermedades, como la rubeola, para las que es suficiente vacunar o superar la enfermedad una sola vez para quedar protegido durante toda la vida. b) Para otras enfermedades, como la gripe, la vacunación o el padecimiento de la misma no implica quedar protegido permanentemente. Explique la razón de cada uno de estos hechos [1].",
+    "respuesta": [
+      "a) Los antígenos de muchos agentes infecciosos no varían o varían muy poco, así que la memoria inmunológica protege toda la vida (0,5 p).",
+      "b) En los virus gripales las mutaciones son muy frecuentes y la variación de sus antígenos impide una protección permanente (0,5 p)."
+    ],
+    "palabras_clave": [
+      "antígenos",
+      "memoria inmunológica",
+      "mutaciones son muy frecuentes",
+      "no varían o varían muy poco",
+      "variación de sus antígenos"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/septiembre EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/septiembre CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 616,
+    "clave": "pau2018-septiembre-a6",
+    "bloque": "Microbiología",
+    "tema": "Bacteriófago y bacteria: estructuras",
+    "tipo": "respuesta breve",
+    "pregunta": "En relación con la figura adjunta, conteste las siguientes cuestiones: a) Indique el grupo al que pertenecen los organismos representados con las letras A y B [0,2]. b) Nombre las estructuras indicadas con los números del 1 al 8 [0,8].",
+    "respuesta": [
+      "a) A: virus bacteriófago; B: bacteria (0,2 p).",
+      "b) 1: cápsida; 2: ácido nucleico; 3: vaina contráctil; 4: fibras caudales; 5: flagelo; 6: ribosomas; 7: ADN (material genético); 8: membrana plasmática (se admite pared celular). 0,1 p cada una (0,8 p)."
+    ],
+    "palabras_clave": [
+      "ADN",
+      "bacteria",
+      "cápsida",
+      "fibras caudales",
+      "flagelo",
+      "membrana plasmática",
+      "ribosomas",
+      "vaina contráctil",
+      "virus bacteriófago",
+      "ácido nucleico"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/septiembre EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/septiembre CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2018/sept-a6.webp"
+  },
+  {
+    "id": 617,
+    "clave": "pau2018-septiembre-a7",
+    "bloque": "Microbiología",
+    "tema": "Funciones de estructuras del fago y de la bacteria",
+    "tipo": "respuesta breve",
+    "pregunta": "En relación con las imágenes de la pregunta anterior, explique la función de las estructuras señaladas con los números 2, 4, 5 y 6 [1].",
+    "respuesta": [
+      "2: contiene la información necesaria para fabricar nuevos virus (0,25 p).",
+      "4: anclaje o fijación a la pared bacteriana (0,25 p).",
+      "5: movimiento de la bacteria (0,25 p).",
+      "6: síntesis de proteínas (0,25 p)."
+    ],
+    "palabras_clave": [
+      "anclaje o fijación a la pared bacteriana",
+      "información necesaria para fabricar nuevos virus",
+      "movimiento de la bacteria",
+      "síntesis de proteínas"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/septiembre EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/septiembre CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2018/sept-a6.webp"
+  },
+  {
+    "id": 618,
+    "clave": "pau2018-septiembre-b1",
+    "bloque": "Metabolismo",
+    "tema": "Conceptos de cinética y mecanismo enzimático",
+    "tipo": "respuesta breve",
+    "pregunta": "Defina: a) velocidad de reacción [0,25]; b) energía de activación [0,25]; c) biocatalizador [0,25]; d) centro activo [0,25]. e) Describa el mecanismo de acción de una enzima [1].",
+    "respuesta": [
+      "a) Cantidad de producto que se forma por unidad de tiempo (0,25 p). b) Energía que hay que suministrar a los reactivos para que la reacción se produzca (0,25 p).",
+      "c) Enzimas que aceleran las reacciones disminuyendo la energía de activación (0,25 p). d) Región de la enzima donde se une el sustrato (0,25 p).",
+      "e) Especificidad enzima-sustrato, formación del complejo enzima-sustrato, disminución de la energía de activación y aceleración de la reacción, formación del producto y liberación de la enzima (1 p)."
+    ],
+    "palabras_clave": [
+      "Cantidad de producto que se forma por unidad de tiempo",
+      "Energía que hay que suministrar a los reactivos para que la reacción se produzca",
+      "Enzimas que aceleran las reacciones disminuyendo la energía de activación",
+      "Especificidad enzima-sustrato",
+      "Región de la enzima donde se une el sustrato",
+      "disminución de la energía de activación",
+      "formación del complejo enzima-sustrato",
+      "formación del producto y liberación de la enzima"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/septiembre EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/septiembre CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 619,
+    "clave": "pau2018-septiembre-b2",
+    "bloque": "Célula",
+    "tema": "Mitosis frente a meiosis",
+    "tipo": "respuesta breve",
+    "pregunta": "a) Indique cuatro diferencias entre la división mitótica y la meiótica [1]. b) ¿Por qué es importante la meiosis para la reproducción sexual y la variabilidad de las especies? [0,5] c) Describa la diferencia fundamental entre anafase I y anafase II de la meiosis [0,5].",
+    "respuesta": [
+      "a) Número de divisiones, recombinación, separación de cromosomas homólogos, existencia de bivalentes, reducción del número de cromosomas. 0,25 p cada una (1 p).",
+      "b) Reproducción sexual: reduce el número de cromosomas a la mitad en los gametos y mantiene el número de la especie (0,25 p). Variabilidad: la genera mediante la recombinación y la segregación cromosómica (0,25 p).",
+      "c) En anafase I se separan los cromosomas homólogos; en anafase II, las cromátidas hermanas (0,5 p)."
+    ],
+    "palabras_clave": [
+      "Número de divisiones",
+      "anafase I",
+      "anafase II",
+      "cromosomas homólogos",
+      "cromátidas hermanas",
+      "existencia de bivalentes",
+      "mantiene el número de la especie",
+      "recombinación",
+      "reducción del número de cromosomas",
+      "reduce el número de cromosomas a la mitad",
+      "segregación cromosómica",
+      "separación de cromosomas homólogos"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/septiembre EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/septiembre CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 620,
+    "clave": "pau2018-septiembre-b3",
+    "bloque": "Inmunología",
+    "tema": "Respuesta inmunitaria celular",
+    "tipo": "respuesta breve",
+    "pregunta": "a) Defina la respuesta inmunitaria celular [0,6]. b) Cite dos tipos de células sobre las que actúa [0,4]. c) Describa dos funciones de cada uno de los tipos de células involucradas en esta respuesta [1].",
+    "respuesta": [
+      "a) Inmunidad mediada por los linfocitos T y los macrófagos (0,6 p).",
+      "b) Células infectadas por microorganismos, células tumorales, células trasplantadas. Dos, a 0,2 p (0,4 p).",
+      "c) Linfocitos T: unión a antígenos y activación de los linfocitos B, destrucción de células infectadas o tumorales. Macrófagos: presentación de antígenos y fagocitosis. 0,25 p cada función (1 p)."
+    ],
+    "palabras_clave": [
+      "Células infectadas por microorganismos",
+      "células trasplantadas",
+      "células tumorales",
+      "destrucción de células infectadas o tumorales",
+      "fagocitosis",
+      "mediada por los linfocitos T y los macrófagos",
+      "presentación de antígenos",
+      "unión a antígenos y activación de los linfocitos B"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/septiembre EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/septiembre CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 621,
+    "clave": "pau2018-septiembre-b4",
+    "bloque": "Biomoléculas",
+    "tema": "Identificar carotenoides y esteroides",
+    "tipo": "respuesta breve",
+    "pregunta": "En una muestra tenemos una mezcla de dos sustancias, ambas insolubles en agua. Al analizar químicamente la muestra se determina que: la sustancia 1 posee una gran cantidad de dobles enlaces en cadena lineal, color característico y es precursor de la vitamina A; la sustancia 2 presenta cinco anillos cíclicos y es precursor de la vitamina D. Explique razonadamente de qué tipo de compuestos se trata [1].",
+    "respuesta": [
+      "Sustancia 1: carotenoide, por ser coloreado, precursor de la vitamina A y tener muchos dobles enlaces (0,5 p).",
+      "Sustancia 2: esteroide, por tener anillos cíclicos y ser precursor de la vitamina D (0,5 p)."
+    ],
+    "palabras_clave": [
+      "anillos cíclicos",
+      "carotenoide",
+      "coloreado",
+      "esteroide",
+      "muchos dobles enlaces",
+      "precursor de la vitamina A",
+      "precursor de la vitamina D"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/septiembre EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/septiembre CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 622,
+    "clave": "pau2018-septiembre-b5",
+    "bloque": "Genética",
+    "tema": "Herencia de la hipermetropía",
+    "tipo": "respuesta breve",
+    "pregunta": "La hipermetropía es un defecto ocular hereditario que impide enfocar correctamente los objetos cercanos. La herencia de algunos tipos de hipermetropía se debe a un único gen autosómico con dos alelos: H y h. Un hombre y una mujer hipermétropes tienen un hijo hipermétrope y otro con visión normal. A partir de estos datos indique: a) si la hipermetropía que sufre esta familia es un carácter dominante o recesivo [0,4]; b) los genotipos de los padres y de los dos hijos [0,3]; c) en el caso de que el hijo hipermétrope tuviera una niña con una mujer con visión normal, ¿qué probabilidad tendría esa niña de ser hipermétrope? [0,3]. En cada caso, razone las respuestas mediante la realización de los cruces necesarios.",
+    "respuesta": [
+      "a) Dominante, porque dos padres hipermétropes tienen un hijo con visión normal (0,4 p).",
+      "b) Padres Hh; hijo hipermétrope HH o Hh; hijo con visión normal hh Hh × Hh → ¼ HH, ½ Hh, ¼ hh (0,3 p).",
+      "c) Con una mujer hh: si el hijo es HH, 100 %; si es Hh, 50 % (0,3 p)."
+    ],
+    "palabras_clave": [
+      "Dominante",
+      "HH o Hh",
+      "HH, 100 %",
+      "Hh",
+      "Hh, 50 %",
+      "hh",
+      "un hijo con visión normal"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/septiembre EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/septiembre CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 623,
+    "clave": "pau2018-septiembre-b6",
+    "bloque": "Metabolismo",
+    "tema": "Destinos del ácido pirúvico",
+    "tipo": "respuesta breve",
+    "pregunta": "En relación con la figura adjunta, conteste las siguientes cuestiones: a) ¿Cómo se denominan los procesos metabólicos numerados del 1 al 4? [0,6] b) ¿En qué estructuras u orgánulos de las células eucarióticas se desarrollan dichos procesos? [0,4]",
+    "respuesta": [
+      "a) 1: glucólisis; 2: fermentación láctica; 3: fermentación alcohólica; 4: ciclo de Krebs. 0,15 p cada uno (0,6 p).",
+      "b) Glucólisis y fermentaciones en el citosol; ciclo de Krebs en las mitocondrias matriz mitocondrial. 0,1 p cada una (0,4 p)."
+    ],
+    "palabras_clave": [
+      "ciclo de Krebs",
+      "citosol",
+      "fermentación alcohólica",
+      "fermentación láctica",
+      "glucólisis",
+      "mitocondrias"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/septiembre EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/septiembre CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2018/sept-b6.webp"
+  },
+  {
+    "id": 624,
+    "clave": "pau2018-septiembre-b7",
+    "bloque": "Metabolismo",
+    "tema": "Rentabilidad energética y fermentación láctica",
+    "tipo": "respuesta breve",
+    "pregunta": "En relación con la imagen de la pregunta anterior, conteste a las siguientes cuestiones: a) Explique razonadamente cuál de los tres destinos del ácido pirúvico será energéticamente más rentable para la célula [0,3]. b) Explique el proceso número 2 [0,5] e indique un tipo de célula humana que, en determinadas condiciones, lleva a cabo este proceso [0,2].",
+    "respuesta": [
+      "a) La respiración celular (vía del ciclo de Krebs), porque genera más ATP al permitir la oxidación total de la glucosa (0,3 p).",
+      "b) La fermentación láctica es un catabolismo incompleto por falta de oxígeno: el piruvato se reduce a lactato y se regenera el NAD⁺ (0,5 p).",
+      "b) Células musculares, eritrocitos, células del cristalino. Una (0,2 p)."
+    ],
+    "palabras_clave": [
+      "Células musculares",
+      "catabolismo incompleto",
+      "eritrocitos",
+      "falta de oxígeno",
+      "más ATP",
+      "oxidación total de la glucosa",
+      "piruvato se reduce a lactato",
+      "regenera el NAD⁺",
+      "respiración celular"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/septiembre EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/septiembre CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2018/sept-b6.webp"
+  },
+  {
+    "id": 625,
+    "clave": "pau2018-suplente-junio-a1",
+    "bloque": "Célula",
+    "tema": "Transporte activo, lisosomas, pinocitosis, centrómero y peroxisomas",
+    "tipo": "respuesta breve",
+    "pregunta": "Describa brevemente los siguientes términos: a) transporte activo; b) lisosomas; c) pinocitosis; d) centrómero; e) peroxisomas [2].",
+    "respuesta": [
+      "a) Transporte activo: mediado por proteínas, con gasto de energía y contra gradiente electroquímico (0,4 p).",
+      "b) Lisosomas: vesículas con enzimas hidrolíticas para la digestión intracelular (0,4 p).",
+      "c) Pinocitosis: entrada de fluidos y moléculas disueltas en vesículas pinocíticas (0,4 p).",
+      "d) Centrómero: estrechamiento que divide el cromosoma en dos partes (0,4 p).",
+      "e) Peroxisomas: orgánulos membranosos con enzimas oxidativas (0,4 p)."
+    ],
+    "palabras_clave": [
+      "con gasto de energía",
+      "contra gradiente electroquímico",
+      "digestión intracelular",
+      "entrada de fluidos y moléculas disueltas en vesículas pinocíticas",
+      "estrechamiento que divide el cromosoma en dos partes",
+      "mediado por proteínas",
+      "orgánulos membranosos con enzimas oxidativas",
+      "vesículas con enzimas hidrolíticas"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente junio EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente junio CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 626,
+    "clave": "pau2018-suplente-junio-a2",
+    "bloque": "Biomoléculas",
+    "tema": "Tipos de ARN: estructura, localización y función",
+    "tipo": "respuesta breve",
+    "pregunta": "a) Nombre tres tipos de ácidos ribonucleicos [0,3] e indique su composición [0,2]. b) Describa la estructura, localización y función de cada uno de ellos en las células eucarióticas [1,5].",
+    "respuesta": [
+      "a) ARN mensajero, ARN de transferencia y ARN ribosómico (0,3 p). Composición: polirribonucleótidos de A, G, U y C (0,2 p).",
+      "b) ARNm: monocatenario; en núcleo y citoplasma; transferencia de la información (0,5 p).",
+      "b) ARNt: monocatenario con regiones de doble hélice (apareamiento interno); en núcleo, citoplasma o ribosoma; identifica el codón y transporta aminoácidos (0,5 p).",
+      "b) ARNr: monocatenario con regiones de doble hélice, asociado a proteínas; en nucleolo y citoplasma; estructural en el ribosoma (0,5 p)."
+    ],
+    "palabras_clave": [
+      "ARN de transferencia",
+      "ARN mensajero",
+      "ARN ribosómico",
+      "asociado a proteínas",
+      "estructural en el ribosoma",
+      "identifica el codón y transporta aminoácidos",
+      "monocatenario",
+      "nucleolo y citoplasma",
+      "núcleo y citoplasma",
+      "polirribonucleótidos de A, G, U y C",
+      "regiones de doble hélice",
+      "transferencia de la información"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente junio EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente junio CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 627,
+    "clave": "pau2018-suplente-junio-a3",
+    "bloque": "Microbiología",
+    "tema": "Viroides y priones",
+    "tipo": "respuesta breve",
+    "pregunta": "a) Explique qué es un viroide [0,5]. b) ¿A qué tipo de células afectan? [0,5] c) Explique qué es un prión [0,5]. d) ¿A qué tipo de células afectan? [0,5]",
+    "respuesta": [
+      "a) Viroide: partícula de ARN desnudo que no codifica proteínas y se transmite de forma infectiva entre células (0,5 p).",
+      "b) A células vegetales (0,5 p).",
+      "c) Prión: proteína con estructura anómala con capacidad infecciosa (0,5 p).",
+      "d) A células animales (0,5 p)."
+    ],
+    "palabras_clave": [
+      "células animales",
+      "células vegetales",
+      "infectiva",
+      "no codifica proteínas",
+      "partícula de ARN desnudo",
+      "proteína con estructura anómala con capacidad infecciosa"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente junio EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente junio CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 628,
+    "clave": "pau2018-suplente-junio-a4",
+    "bloque": "Metabolismo",
+    "tema": "Glucógeno hepático tras comer pasta o tras el ayuno",
+    "tipo": "respuesta breve",
+    "pregunta": "El glucógeno se encuentra en forma de gránulos dispersos en el citoplasma de las células hepáticas. a) Tras una alimentación rica en pasta, estos gránulos son muy grandes y abundantes en los hepatocitos, b) mientras que tras un día de ayuno o una carrera ciclista prácticamente desaparecen. Proporcione una explicación razonada a estos hechos [1].",
+    "respuesta": [
+      "a) La pasta aporta muchos carbohidratos que se transforman en glucosa; en el hígado se almacena como glucógeno, y por eso los gránulos crecen (0,5 p).",
+      "b) Tras el ayuno o el ejercicio, el glucógeno se degrada para abastecer de glucosa a la sangre y a los tejidos, y los gránulos desaparecen (0,5 p)."
+    ],
+    "palabras_clave": [
+      "almacena como glucógeno",
+      "glucosa",
+      "glucógeno se degrada para abastecer de glucosa a la sangre",
+      "muchos carbohidratos"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente junio EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente junio CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 629,
+    "clave": "pau2018-suplente-junio-a5",
+    "bloque": "Genética",
+    "tema": "Cromosomas homólogos y cromátidas hermanas",
+    "tipo": "respuesta breve",
+    "pregunta": "a) ¿Es igual el material genético de los cromosomas homólogos? [0,5] b) ¿Y el de las cromátidas hermanas? [0,5] Justifique las respuestas.",
+    "respuesta": [
+      "a) No: cada homólogo procede de un progenitor distinto (0,5 p).",
+      "b) Sí: proceden de una misma molécula de ADN que se replica dando dos copias iguales (0,5 p)."
+    ],
+    "palabras_clave": [
+      "No",
+      "Sí",
+      "procede de un progenitor",
+      "una misma molécula de ADN que se replica"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente junio EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente junio CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 630,
+    "clave": "pau2018-suplente-junio-a6",
+    "bloque": "Metabolismo",
+    "tema": "Reacción enzimática e inhibición competitiva",
+    "tipo": "respuesta breve",
+    "pregunta": "En relación con la figura adjunta: a) Identifique los procesos que se representan en A y B [0,4] y b) cada una de las moléculas señaladas con los números del 1 al 6 [0,6].",
+    "respuesta": [
+      "a) A: reacción enzimática; B: inhibición enzimática (competitiva). 0,2 p cada uno (0,4 p).",
+      "b) 1: enzima (o centro activo); 2: sustratos; 3: complejo enzima-sustrato; 4: productos; 5: inhibidor; 6: complejo enzima-inhibidor. 0,1 p cada uno (0,6 p)."
+    ],
+    "palabras_clave": [
+      "complejo enzima-inhibidor",
+      "complejo enzima-sustrato",
+      "enzima",
+      "inhibición enzimática (competitiva)",
+      "inhibidor",
+      "productos",
+      "reacción enzimática",
+      "sustratos"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente junio EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente junio CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2018/suplente-junio-a6.webp"
+  },
+  {
+    "id": 631,
+    "clave": "pau2018-suplente-junio-a7",
+    "bloque": "Metabolismo",
+    "tema": "Evolución de sustrato y producto en la inhibición",
+    "tipo": "respuesta breve",
+    "pregunta": "En relación con la figura anterior: a) Explique cómo evoluciona la cantidad de las sustancias 2 y 4 con el tiempo en cada uno de los casos [0,5]. b) ¿En qué caso podría aparecer la sustancia 4 en el proceso B? [0,5]",
+    "respuesta": [
+      "a) En A aumenta el producto (4) y disminuye el sustrato (2); en B el sustrato se mantiene constante y no aparece producto (0,5 p).",
+      "b) Si se revierte la inhibición (inhibición competitiva reversible); también si aumenta la cantidad de sustrato (0,5 p)."
+    ],
+    "palabras_clave": [
+      "aumenta el producto (4)",
+      "aumenta la cantidad de sustrato",
+      "disminuye el sustrato (2)",
+      "el sustrato se mantiene constante",
+      "inhibición competitiva reversible",
+      "no aparece producto",
+      "se revierte la inhibición"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente junio EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente junio CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2018/suplente-junio-a6.webp"
+  },
+  {
+    "id": 632,
+    "clave": "pau2018-suplente-junio-b1",
+    "bloque": "Biomoléculas",
+    "tema": "Nucleósido, nucleótido y diferencias ADN-ARN",
+    "tipo": "respuesta breve",
+    "pregunta": "a) Defina nucleósido, nucleótido y ácido nucleico [0,6]. b) ¿Qué tipo de enlace une los nucleótidos entre sí en la cadena lineal? [0,2] c) Indique las diferencias en composición, estructura y función entre el ADN y el ARN [1,2].",
+    "respuesta": [
+      "a) Nucleósido: base nitrogenada unida a una pentosa (ribosa o desoxirribosa) (0,2 p). Nucleótido: nucleósido unido a ácido fosfórico (0,2 p). Ácido nucleico: polímero de nucleótidos (0,2 p).",
+      "b) Enlace fosfodiéster (nucleotídico) (0,2 p).",
+      "c) Composición: desoxirribosa en el ADN y ribosa en el ARN; timina en el ADN y uracilo en el ARN (0,4 p). Estructura: ARN monocatenario y ADN bicatenario (0,4 p). Función: el ADN almacena la información genética; el ARN la transmite (0,4 p)."
+    ],
+    "palabras_clave": [
+      "ARN monocatenario y ADN bicatenario",
+      "Enlace fosfodiéster",
+      "almacena la información genética",
+      "base nitrogenada unida a una pentosa",
+      "desoxirribosa en el ADN y ribosa en el ARN",
+      "nucleósido unido a ácido fosfórico",
+      "polímero de nucleótidos",
+      "timina en el ADN y uracilo en el ARN",
+      "transmite"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente junio EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente junio CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 633,
+    "clave": "pau2018-suplente-junio-b2",
+    "bloque": "Célula",
+    "tema": "Núcleo y cromosomas: términos",
+    "tipo": "respuesta breve",
+    "pregunta": "Describa los siguientes términos: a) cinetocoro; b) nucleoplasma; c) centrómero; d) nucleolo; e) telómero [2].",
+    "respuesta": [
+      "a) Cinetocoro: estructura del cromosoma a la que se unen los microtúbulos del huso (0,4 p).",
+      "b) Nucleoplasma: líquido viscoso con agua y biomoléculas en el interior del núcleo (0,4 p).",
+      "c) Centrómero: estrechamiento que divide el cromosoma en dos partes (0,4 p).",
+      "d) Nucleolo: componente del núcleo, visible en interfase, donde se forman las subunidades ribosómicas (0,4 p).",
+      "e) Telómero: extremo del cromosoma (0,4 p)."
+    ],
+    "palabras_clave": [
+      "estrechamiento que divide el cromosoma en dos partes",
+      "extremo del cromosoma",
+      "líquido viscoso con agua y biomoléculas en el interior del núcleo",
+      "se forman las subunidades ribosómicas",
+      "se unen los microtúbulos del huso",
+      "visible en interfase"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente junio EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente junio CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 634,
+    "clave": "pau2018-suplente-junio-b3",
+    "bloque": "Inmunología",
+    "tema": "Linfocito, macrófago, antígeno, inmunoglobulina e interferón",
+    "tipo": "respuesta breve",
+    "pregunta": "Defina los siguientes términos referidos a la inmunidad: a) linfocito; b) macrófago; c) antígeno; d) inmunoglobulina; e) interferón [2].",
+    "respuesta": [
+      "a) Linfocito: célula inmunitaria que reconoce antígenos y se activa frente a ellos (0,4 p).",
+      "b) Macrófago: célula presentadora de antígenos o fagocítica (0,4 p).",
+      "c) Antígeno: molécula no reconocida como propia por el sistema inmunitario (0,4 p).",
+      "d) Inmunoglobulina: proteína producida por los linfocitos B (células plasmáticas) que se une específicamente al antígeno (0,4 p).",
+      "e) Interferón: proteínas producidas en respuesta a virus que impiden su replicación en otras células (0,4 p)."
+    ],
+    "palabras_clave": [
+      "célula presentadora de antígenos o fagocítica",
+      "impiden su replicación en otras células",
+      "molécula no reconocida como propia",
+      "proteína producida por los linfocitos B",
+      "proteínas producidas en respuesta a virus",
+      "reconoce antígenos y se activa frente a ellos",
+      "se une específicamente al antígeno"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente junio EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente junio CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 635,
+    "clave": "pau2018-suplente-junio-b4",
+    "bloque": "Biotecnología",
+    "tema": "Liposomas para introducir ADN en células",
+    "tipo": "respuesta breve",
+    "pregunta": "Una de las estrategias para introducir ADN exógeno (extraño) en una célula eucariótica es rodear ese ADN con una bicapa lipídica, facilitando así su entrada en las células. a) ¿Por qué este método tiene éxito en las células animales? [0,5] b) ¿Qué ocurriría en células vegetales? [0,5]. Razone las respuestas.",
+    "respuesta": [
+      "a) La bicapa que rodea el ADN se fusiona con la membrana plasmática por su composición química similar y vierte el ADN al interior (0,5 p).",
+      "b) En las células vegetales la pared celular impide ese contacto entre la bicapa y la membrana (0,5 p)."
+    ],
+    "palabras_clave": [
+      "composición química similar",
+      "la pared celular impide ese contacto",
+      "se fusiona con la membrana plasmática",
+      "vierte el ADN al interior"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente junio EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente junio CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 636,
+    "clave": "pau2018-suplente-junio-b5",
+    "bloque": "Genética",
+    "tema": "Mutaciones somáticas y germinales",
+    "tipo": "respuesta breve",
+    "pregunta": "a) ¿Tienen las mismas consecuencias las mutaciones que se producen en las células somáticas que las que se producen en las células germinales? [0,7] b) ¿Tendrán la misma importancia evolutiva? [0,3] Razone las respuestas.",
+    "respuesta": [
+      "a) No: las somáticas afectan al individuo (0,35 p) y las germinales afectan a la descendencia (0,35 p).",
+      "b) No: solo se transmiten a la descendencia las mutaciones de los gametos (células germinales), que son las que tienen importancia evolutiva (0,3 p)."
+    ],
+    "palabras_clave": [
+      "No",
+      "afectan a la descendencia",
+      "afectan al individuo",
+      "se transmiten a la descendencia las mutaciones de los gametos"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente junio EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente junio CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 637,
+    "clave": "pau2018-suplente-junio-b6",
+    "bloque": "Metabolismo",
+    "tema": "Esquema del catabolismo",
+    "tipo": "respuesta breve",
+    "pregunta": "En relación con la imagen adjunta: a) Nombre los procesos señalados con los números del 1 al 7 [0,7]. b) ¿En qué lugar de la célula ocurren los procesos 1, 2 y 3? [0,3]",
+    "respuesta": [
+      "a) 1: glucólisis; 2: fermentación alcohólica; 3: fermentación láctica; 4: β-oxidación de los ácidos grasos; 5: ciclo de Krebs; 6: cadena de transporte de electrones; 7: fosforilación oxidativa (0,7 p).",
+      "b) 1, 2 y 3 en el citoplasma (0,3 p)."
+    ],
+    "palabras_clave": [
+      "cadena de transporte de electrones",
+      "ciclo de Krebs",
+      "citoplasma",
+      "fermentación alcohólica",
+      "fermentación láctica",
+      "fosforilación oxidativa",
+      "glucólisis",
+      "β-oxidación de los ácidos grasos"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente junio EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente junio CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2018/suplente-junio-b6.webp"
+  },
+  {
+    "id": 638,
+    "clave": "pau2018-suplente-junio-b7",
+    "bloque": "Microbiología",
+    "tema": "Fermentaciones industriales",
+    "tipo": "respuesta breve",
+    "pregunta": "En relación con la imagen anterior, conteste las siguientes cuestiones: a) Cite un microorganismo que pueda realizar el proceso 2 [0,2]. b) Y otro que pueda realizar el proceso 3 [0,2]. c) Indique dos productos con interés económico-industrial que se obtendrían en cada uno de estos dos procesos [0,4]. d) ¿Qué procesos de los indicados en la imagen se llevan a cabo en anaerobiosis? [0,2]",
+    "respuesta": [
+      "a) Proceso 2: levaduras Saccharomyces cerevisiae (0,2 p). b) Proceso 3: bacterias Lactobacillus (0,2 p).",
+      "c) Alcohólica: vino, cerveza, pan (0,2 p). Láctica: yogur, queso (0,2 p).",
+      "d) Glucólisis y fermentaciones alcohólica y láctica (0,2 p)."
+    ],
+    "palabras_clave": [
+      "Glucólisis",
+      "bacterias",
+      "cerveza",
+      "fermentaciones alcohólica y láctica",
+      "levaduras",
+      "pan",
+      "queso",
+      "vino",
+      "yogur"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente junio EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente junio CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2018/suplente-junio-b6.webp"
+  },
+  {
+    "id": 639,
+    "clave": "pau2018-suplente-septiembre-a1",
+    "bloque": "Biomoléculas",
+    "tema": "Formación de triacilglicéridos y saponificación",
+    "tipo": "respuesta breve",
+    "pregunta": "a) Explique el proceso de formación de un triacilglicérido con los productos que intervienen [1]. b) Indique dos funciones de los triacilglicéridos [0,5]. c) Explique en qué consiste la reacción de saponificación [0,5].",
+    "respuesta": [
+      "a) Se unen 3 ácidos grasos (por sus grupos carboxilo) a los 3 grupos hidroxilo del glicerol, formando 3 enlaces éster y liberando 3 moléculas de agua (1 p).",
+      "b) Reserva, aislamiento térmico, protección mecánica. Dos, a 0,25 p (0,5 p).",
+      "c) Hidrólisis alcalina de los enlaces éster que da glicerol y la sal sódica del ácido graso (jabón) (0,5 p)."
+    ],
+    "palabras_clave": [
+      "3 enlaces éster",
+      "3 grupos hidroxilo del glicerol",
+      "3 ácidos grasos",
+      "Hidrólisis alcalina de los enlaces éster",
+      "Reserva",
+      "aislamiento térmico",
+      "glicerol",
+      "grupos carboxilo",
+      "liberando 3 moléculas de agua",
+      "protección mecánica",
+      "sal sódica del ácido graso (jabón)"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente septiembre EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente septiembre CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 640,
+    "clave": "pau2018-suplente-septiembre-a2",
+    "bloque": "Metabolismo",
+    "tema": "Metabolismo, catabolismo, anabolismo, glucólisis y fermentación",
+    "tipo": "respuesta breve",
+    "pregunta": "Defina: a) metabolismo; b) catabolismo; c) anabolismo; d) glucólisis; e) fermentación [2].",
+    "respuesta": [
+      "a) Metabolismo: conjunto de reacciones químicas de la célula, catabólicas y anabólicas (0,4 p).",
+      "b) Catabolismo: reacciones de degradación de macromoléculas para obtener precursores, energía y poder reductor (0,4 p).",
+      "c) Anabolismo: procesos en los que la célula sintetiza, con gasto de energía, las sustancias que la constituyen (0,4 p).",
+      "d) Glucólisis: reacciones que convierten la glucosa en ácido pirúvico con liberación de energía (ATP) (0,4 p).",
+      "e) Fermentación: degradación anaeróbica de la glucosa con una molécula orgánica como aceptor final de electrones (0,4 p)."
+    ],
+    "palabras_clave": [
+      "catabólicas y anabólicas",
+      "conjunto de reacciones químicas de la célula",
+      "degradación anaeróbica de la glucosa",
+      "degradación de macromoléculas",
+      "liberación de energía (ATP)",
+      "precursores, energía y poder reductor",
+      "reacciones que convierten la glucosa en ácido pirúvico",
+      "sintetiza, con gasto de energía",
+      "una molécula orgánica como aceptor final de electrones"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente septiembre EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente septiembre CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 641,
+    "clave": "pau2018-suplente-septiembre-a3",
+    "bloque": "Genética",
+    "tema": "Primera ley de Mendel, retrocruzamiento y herencia ligada al sexo",
+    "tipo": "respuesta breve",
+    "pregunta": "a) Enuncie la primera ley de Mendel [0,5] e indique en qué consiste el retrocruzamiento [0,5]. b) Explique la diferencia entre genes autosómicos y genes ligados al sexo [0,5]. c) ¿Cumplen las proporciones mendelianas los cruzamientos para genes ligados al sexo? [0,5] Razone las respuestas.",
+    "respuesta": [
+      "a) Uniformidad de los híbridos de la F1: al cruzar dos razas puras que difieren en un carácter, todos los descendientes de la F1 son iguales, genotípica y fenotípicamente (0,5 p).",
+      "a) Retrocruzamiento o cruzamiento prueba: cruce de un individuo de fenotipo dominante y genotipo desconocido con un homocigótico recesivo para averiguar su genotipo (0,5 p).",
+      "b) Los autosómicos están en los autosomas; los ligados al sexo, en los cromosomas sexuales (0,5 p).",
+      "c) No: las hembras tienen dos cromosomas X (dos alelos) y los machos un X y un Y (un solo alelo) (0,5 p)."
+    ],
+    "palabras_clave": [
+      "No",
+      "Uniformidad de los híbridos de la F1",
+      "autosomas",
+      "averiguar su genotipo",
+      "cromosomas sexuales",
+      "dos cromosomas X",
+      "dos razas puras",
+      "fenotipo dominante",
+      "homocigótico recesivo",
+      "todos los descendientes de la F1 son iguales",
+      "un X y un Y"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente septiembre EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente septiembre CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 642,
+    "clave": "pau2018-suplente-septiembre-a4",
+    "bloque": "Célula",
+    "tema": "Paso de hormonas esteroideas e iones por la membrana",
+    "tipo": "respuesta breve",
+    "pregunta": "a) ¿Por qué las hormonas esteroideas no necesitan mecanismos específicos para atravesar la membrana celular? [0,5] b) ¿Por qué sí los necesitan los iones y moléculas como los aminoácidos o glúcidos? [0,5] Razone las respuestas.",
+    "respuesta": [
+      "a) Los esteroides son lípidos y la membrana es permeable a ellos atraviesan la bicapa por difusión simple (0,5 p).",
+      "b) Iones, aminoácidos y glúcidos no son liposolubles en la bicapa y necesitan canales o transportadores específicos (0,5 p)."
+    ],
+    "palabras_clave": [
+      "canales o transportadores específicos",
+      "lípidos",
+      "no son liposolubles",
+      "permeable a ellos"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente septiembre EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente septiembre CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 643,
+    "clave": "pau2018-suplente-septiembre-a5",
+    "bloque": "Inmunología",
+    "tema": "Consecuencias de un timo no funcional",
+    "tipo": "respuesta breve",
+    "pregunta": "A un individuo se le irradia el timo de forma accidental, quedando el órgano totalmente disfuncional. a) ¿Se afectará su respuesta inmune específica? [0,25] b) ¿Será más proclive a infecciones? [0,25] c) ¿Qué grado de rechazo tendrá este individuo frente a un trasplante? [0,25] d) ¿Y cómo responderá frente a un proceso cancerígeno? [0,25] Razone las respuestas.",
+    "respuesta": [
+      "a) Sí: la respuesta específica depende de los linfocitos T que maduran en el timo (0,25 p).",
+      "b) Sí: tendrá una menor respuesta frente a los antígenos de los agentes infecciosos (0,25 p).",
+      "c) Menor rechazo: con menos linfocitos T, no se reconocen las células trasplantadas como extrañas (0,25 p).",
+      "d) Peor: no habrá respuesta eficaz frente a las células tumorales, que seguirán dividiéndose (0,25 p)."
+    ],
+    "palabras_clave": [
+      "Menor rechazo",
+      "Peor",
+      "Sí",
+      "depende de los linfocitos T",
+      "menor respuesta frente a los antígenos",
+      "no habrá respuesta eficaz frente a las células tumorales",
+      "no se reconocen las células trasplantadas como extrañas"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente septiembre EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente septiembre CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 644,
+    "clave": "pau2018-suplente-septiembre-a6",
+    "bloque": "Célula",
+    "tema": "Fases de la mitosis en una célula vegetal",
+    "tipo": "respuesta breve",
+    "pregunta": "En relación con la figura adjunta responda las siguientes cuestiones: a) ¿De qué proceso biológico se trata? [0,1] b) Nombre las fases representadas en los dibujos A, B, C y D [0,4]. c) Ordénelas secuencialmente [0,1]. d) Identifique los elementos o estructuras señalados con los números 1, 2, 3 y 4 [0,4].",
+    "respuesta": [
+      "a) Mitosis (0,1 p).",
+      "b) A: anafase; B: telofase; C: metafase; D: profase. 0,1 p cada una (0,4 p).",
+      "c) D-C-A-B (0,1 p).",
+      "d) 1: cromosoma (cromátida); 2: vesículas de la placa celular o fragmoplasto; 3: fibras del huso acromático; 4: cromosomas en la placa metafásica. 0,1 p cada uno (0,4 p)."
+    ],
+    "palabras_clave": [
+      "D-C-A-B",
+      "Mitosis",
+      "anafase",
+      "cromosoma",
+      "cromosomas en la placa metafásica",
+      "fibras del huso acromático",
+      "fragmoplasto",
+      "metafase",
+      "profase",
+      "telofase",
+      "vesículas de la placa celular"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente septiembre EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente septiembre CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2018/suplente-sept-a6.webp"
+  },
+  {
+    "id": 645,
+    "clave": "pau2018-suplente-septiembre-a7",
+    "bloque": "Célula",
+    "tema": "Significado de la mitosis y telofase vegetal",
+    "tipo": "respuesta breve",
+    "pregunta": "En relación con la figura anterior conteste a las siguientes preguntas: a) ¿Cuál es el significado biológico de este proceso en su conjunto? [0,4] b) Cite dos características presentes en la figura que indiquen si los esquemas corresponden a una célula animal o vegetal [0,2]. c) Explique la fase representada con la letra B [0,4].",
+    "respuesta": [
+      "a) Obtener células hijas con idéntica información genética que la progenitora y permitir el crecimiento y el recambio celular en los pluricelulares (0,4 p).",
+      "b) Célula vegetal: ausencia de centriolos, presencia de pared celular, ausencia de fibras del áster. Dos, a 0,1 p (0,2 p).",
+      "c) Telofase: las cromátidas se descondensan y reaparecen las envolturas nucleares (0,2 p); en el plano medio se forma la placa celular (fragmoplasto) que separará las dos células hijas (0,2 p)."
+    ],
+    "palabras_clave": [
+      "ausencia de centriolos",
+      "ausencia de fibras del áster",
+      "crecimiento",
+      "células hijas con idéntica información genética",
+      "placa celular",
+      "presencia de pared celular",
+      "reaparecen las envolturas nucleares",
+      "recambio celular",
+      "se descondensan"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente septiembre EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente septiembre CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2018/suplente-sept-a6.webp"
+  },
+  {
+    "id": 646,
+    "clave": "pau2018-suplente-septiembre-b1",
+    "bloque": "Célula",
+    "tema": "Difusión, ósmosis y comportamiento celular",
+    "tipo": "respuesta breve",
+    "pregunta": "a) Diferencie entre los procesos de difusión y ósmosis [0,8]. b) Explique el comportamiento de la célula en función de la concentración del medio donde se encuentre [1,2].",
+    "respuesta": [
+      "a) Difusión: los solutos pasan de la disolución más concentrada a la más diluida. Ósmosis: pasa el disolvente (agua) de la más diluida a la más concentrada. 0,4 p cada una (0,8 p).",
+      "b) Isotónico: el volumen no cambia (no hay intercambio neto) (0,4 p). Hipertónico: el volumen disminuye porque sale agua (0,4 p). Hipotónico: el volumen aumenta porque entra agua (0,4 p)."
+    ],
+    "palabras_clave": [
+      "Hipertónico",
+      "Hipotónico",
+      "Isotónico",
+      "aumenta",
+      "disminuye",
+      "disolvente (agua)",
+      "entra agua",
+      "más concentrada a la más diluida",
+      "más diluida a la más concentrada",
+      "no cambia",
+      "sale agua",
+      "solutos"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente septiembre EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente septiembre CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 647,
+    "clave": "pau2018-suplente-septiembre-b2",
+    "bloque": "Célula",
+    "tema": "Lisosomas",
+    "tipo": "respuesta breve",
+    "pregunta": "En relación con los lisosomas conteste las siguientes cuestiones: a) concepto [0,4]; b) origen [0,4]; c) diferencia entre lisosomas primarios y secundarios [0,4]; d) funcionamiento y necesidad de la bomba de protones en este orgánulo [0,8].",
+    "respuesta": [
+      "a) Vesículas membranosas con enzimas digestivas (0,4 p).",
+      "b) Se forman a partir de cisternas del aparato de Golgi (0,4 p).",
+      "c) Primarios: recién formados. Secundarios: resultan de la fusión con una vesícula con materiales para digerir (0,4 p).",
+      "d) La bomba de protones introduce H⁺ continuamente para mantener un pH ácido, necesario para el funcionamiento de las enzimas del interior (0,8 p)."
+    ],
+    "palabras_clave": [
+      "Vesículas membranosas con enzimas digestivas",
+      "bomba de protones introduce H⁺",
+      "cisternas del aparato de Golgi",
+      "enzimas",
+      "fusión con una vesícula con materiales para digerir",
+      "pH ácido",
+      "recién formados"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente septiembre EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente septiembre CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 648,
+    "clave": "pau2018-suplente-septiembre-b3",
+    "bloque": "Metabolismo",
+    "tema": "Características y usos de las fermentaciones",
+    "tipo": "respuesta breve",
+    "pregunta": "a) Indique tres características de los procesos fermentativos [1,2]. b) Exponga dos ejemplos de fermentación [0,3] y dos de sus posibles usos industriales [0,5].",
+    "respuesta": [
+      "a) Tres de estas (1,2 p): proceso anaerobio; degradación incompleta; productos finales orgánicos que aún almacenan energía; poca energía (solo la de la glucólisis); sin coenzimas reducidos netos.",
+      "b) Láctica y alcohólica, 0,15 p cada una (0,3 p). Usos: yogur, pan, bebidas alcohólicas. Dos, a 0,25 p (0,5 p)."
+    ],
+    "palabras_clave": [
+      "Láctica",
+      "alcohólica",
+      "anaerobio",
+      "bebidas alcohólicas",
+      "degradación incompleta",
+      "pan",
+      "poca energía",
+      "productos finales orgánicos que aún almacenan energía",
+      "sin coenzimas reducidos netos",
+      "yogur"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente septiembre EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente septiembre CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 649,
+    "clave": "pau2018-suplente-septiembre-b4",
+    "bloque": "Célula",
+    "tema": "Número de nucleolos en células secretoras",
+    "tipo": "respuesta breve",
+    "pregunta": "La mayoría de las células tienen uno o dos nucleolos. Sin embargo, las células secretoras de enzimas tienen más de dos. Proporcione una explicación razonada a este hecho [1].",
+    "respuesta": [
+      "Las enzimas son proteínas y su síntesis requiere muchos ribosomas; eso implica más síntesis de ARN ribosómico, que se consigue con más nucleolos (1 p)."
+    ],
+    "palabras_clave": [
+      "muchos ribosomas",
+      "más nucleolos",
+      "más síntesis de ARN ribosómico",
+      "proteínas"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente septiembre EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente septiembre CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 650,
+    "clave": "pau2018-suplente-septiembre-b5",
+    "bloque": "Genética",
+    "tema": "Replicación en procariotas y eucariotas",
+    "tipo": "respuesta breve",
+    "pregunta": "El tamaño del genoma de la bacteria Escherichia coli es de 4,6 Mb y tarda aproximadamente 40 minutos en replicarlo. El genoma de la mosca del vinagre Drosophila melanogaster es 40 veces superior (180 Mb) y tarda en replicarse diez veces menos (4 minutos). Explique razonadamente a qué puede deberse esta diferencia en el tiempo de replicación [1].",
+    "respuesta": [
+      "La mosca es eucariota: su ADN se replica desde muchos puntos de iniciación (orígenes de replicación) a la vez. La bacteria, procariota, tiene un solo punto de iniciación, por lo que tarda más (1 p)."
+    ],
+    "palabras_clave": [
+      "eucariota",
+      "muchos puntos de iniciación",
+      "procariota",
+      "un solo punto de iniciación"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente septiembre EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente septiembre CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 651,
+    "clave": "pau2018-suplente-septiembre-b6",
+    "bloque": "Genética",
+    "tema": "La transcripción: elementos",
+    "tipo": "respuesta breve",
+    "pregunta": "En relación con la figura adjunta responda a las siguientes cuestiones: a) ¿Qué proceso representa la figura? [0,2]. b) Identifique las estructuras señaladas con las letras A, B y C [0,3]. c) ¿Qué tipo de molécula está señalada con el número 3? [0,2]. d) Cite tres tipos de moléculas que se sinteticen mediante este proceso [0,3].",
+    "respuesta": [
+      "a) Transcripción (0,2 p).",
+      "b) A: ARN polimerasa; B: ADN; C: ARN. 0,1 p cada una (0,3 p).",
+      "c) Ribonucleótido (0,2 p).",
+      "d) ARN mensajero, ARN transferente y ARN ribosómico. 0,1 p cada uno (0,3 p)."
+    ],
+    "palabras_clave": [
+      "ADN",
+      "ARN",
+      "ARN mensajero",
+      "ARN polimerasa",
+      "ARN ribosómico",
+      "ARN transferente",
+      "Ribonucleótido",
+      "Transcripción"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente septiembre EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente septiembre CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2018/suplente-sept-b6.webp"
+  },
+  {
+    "id": 652,
+    "clave": "pau2018-suplente-septiembre-b7",
+    "bloque": "Genética",
+    "tema": "Mecanismo de la transcripción; cadenas codificante y molde",
+    "tipo": "respuesta breve",
+    "pregunta": "Describa cómo se produce el proceso representado en la figura anterior [0,7]. Indique qué representan las estructuras señaladas con los números 1 y 2 [0,3].",
+    "respuesta": [
+      "Debe mencionar al menos: señal de inicio promotor, ARN polimerasa, síntesis de ARN en sentido 5'→3' y señal de terminación (0,7 p).",
+      "1: cadena codificante; 2: cadena molde. 0,15 p cada una (0,3 p)."
+    ],
+    "palabras_clave": [
+      "ARN polimerasa",
+      "cadena codificante",
+      "cadena molde",
+      "señal de inicio",
+      "señal de terminación",
+      "síntesis de ARN en sentido 5'→3'"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente septiembre EXAMEN-Biología-17-18.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2018/suplente septiembre CRITERIOS-Biología 17-18.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2018/suplente-sept-b6.webp"
+  },
+  {
+    "id": 653,
     "clave": "pau2026-modelo-1",
     "bloque": "Genética",
     "tema": "Replicación en una célula procariota",
@@ -15755,7 +17180,7 @@
     "dificultad": "media"
   },
   {
-    "id": 598,
+    "id": 654,
     "clave": "pau2026-modelo-2",
     "bloque": "Célula",
     "tema": "Tipos celulares, nutrición y teoría celular",
@@ -15788,7 +17213,7 @@
     "dificultad": "media"
   },
   {
-    "id": 599,
+    "id": 655,
     "clave": "pau2026-modelo-13",
     "bloque": "Metabolismo",
     "tema": "Cadena respiratoria y fosforilación oxidativa",
@@ -15826,7 +17251,7 @@
     "imagen": "assets/figuras/historico/2026/ej3-op1.webp"
   },
   {
-    "id": 600,
+    "id": 656,
     "clave": "pau2026-modelo-23",
     "bloque": "Metabolismo",
     "tema": "Fase fotoquímica y lípidos de membrana",
@@ -15867,7 +17292,7 @@
     "imagen": "assets/figuras/historico/2026/ej3-op2.webp"
   },
   {
-    "id": 601,
+    "id": 657,
     "clave": "pau2026-modelo-14",
     "bloque": "Biotecnología",
     "tema": "La PCR paso a paso",
@@ -15900,7 +17325,7 @@
     "imagen": "assets/figuras/historico/2026/ej4-op1.webp"
   },
   {
-    "id": 602,
+    "id": 658,
     "clave": "pau2026-modelo-24",
     "bloque": "Microbiología",
     "tema": "El yogur y otros usos de los microorganismos",
@@ -15932,7 +17357,7 @@
     "dificultad": "media"
   },
   {
-    "id": 603,
+    "id": 659,
     "clave": "pau2026-modelo-15",
     "bloque": "Inmunología",
     "tema": "Inmunoglobulinas y grupos sanguíneos",
@@ -15970,7 +17395,7 @@
     "imagen": "assets/figuras/historico/2026/ej5-op1.webp"
   },
   {
-    "id": 604,
+    "id": 660,
     "clave": "pau2026-modelo-25",
     "bloque": "Inmunología",
     "tema": "Curso de una infección: IgM e IgG",
