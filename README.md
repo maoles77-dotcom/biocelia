@@ -13,8 +13,8 @@ conceptual, la aplicación y la argumentación científica.
 | `index.html` | Portada y navegación |
 | `orientacionespau.html` | Saberes básicos, resultados de aprendizaje y criterios de evaluación |
 | `resumenespau.html` | Resúmenes y apuntes por bloques temáticos |
-| `Entrenamientopau.html` | Banco de 1038 preguntas con criterios de corrección y tips, más diccionario de 805 términos |
-| `simulacropau.html` | 782 preguntas con estructura de examen |
+| `Entrenamientopau.html` | Banco de 1128 preguntas con criterios de corrección y tips, más diccionario de 805 términos |
+| `simulacropau.html` | 842 preguntas con estructura de examen |
 | `laboratoriocompetencial.html` | Casos de razonamiento científico |
 | `laboratorioinvestigacion.html` | «Tu primer año en el laboratorio»: 19 expedientes que aplican las novedades de la PAU 2026-27, con decisiones, informe modelo y progreso |
 
@@ -44,13 +44,15 @@ Simulacro) y añade las preguntas a `preguntasjsonentrenamiento.json` y
 `preguntasjsonsimulacro.json` sin duplicar. En el simulacro, las preguntas
 de 2 puntos con figura van a la Parte I y el resto a la Parte II; las de 1
 punto se unen de dos en dos (apartados I y II) para no perder ninguna.
+Desde 2021 el examen va por bloques: el año lleva `"formato": "bloques"`
+y cada pregunta indica su bloque en `opcion` (A vale 2 puntos; B y C, 1).
 
 En las soluciones, `**texto**` marca las palabras clave de los criterios
 oficiales (se ven resaltadas) y `((texto))` lo que ha redactado BioCelia y
 no está en los criterios (se ve en morado). Las figuras se recortan del PDF
 a 200 ppp en `assets/figuras/historico/AAAA/` para conservar las etiquetas.
 
-Incorporados: 2010 a 2018 (620 preguntas; de 2012 no está el examen 2) y el modelo oficial de prueba de las Directrices 2026-27 (8 preguntas, etiqueta «Modelo 26-27»).
+Incorporados: 2010 a 2018 y 2021 (710 preguntas; de 2012 no está el examen 2) y el modelo oficial de prueba de las Directrices 2026-27 (8 preguntas, etiqueta «Modelo 26-27»).
 
 ## Qué no está en el repositorio
 

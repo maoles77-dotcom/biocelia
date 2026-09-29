@@ -68,8 +68,11 @@ def cargar_fuentes():
     return anios
 
 
-def puntos_de(p):
+def puntos_de(p, bloques=False):
     # 2010-2016: las preguntas 4 y 5 valen 1 punto; el resto, 2.
+    # Desde 2021 (formato por bloques): A vale 2 puntos; B y C, 1.
+    if bloques:
+        return p.get('puntos', 2 if p.get('opcion') == 'A' else 1)
     return p.get('puntos', 1 if p['n'] in (4, 5) else 2)
 
 
@@ -91,6 +94,7 @@ def construir(anios):
     for anio in anios:
         a = anio['anio']
         sueltas_anio = []
+        bloques = anio.get('formato') == 'bloques'
         for examen in anio['examenes']:
             ex_id = examen.get('id') or f"e{examen['numero']}"
             ex_nombre = examen.get('nombre') or f"Examen {examen['numero']}"
@@ -102,11 +106,11 @@ def construir(anios):
             for p in examen['preguntas']:
                 opcion = p.get('opcion', '')
                 ref_txt = ', '.join(x for x in (
-                    ex_nombre, f'opción {opcion}' if opcion else '',
+                    ex_nombre, (f'bloque {opcion}' if bloques else f'opción {opcion}') if opcion else '',
                     f"pregunta {p['n']}") if x)
                 validar(f'{a} {ref_txt}', p)
                 clave = re.sub(r'[^a-z0-9-]', '', f"pau{a}-{ex_id}-{opcion}{p['n']}".lower())
-                puntos = puntos_de(p)
+                puntos = puntos_de(p, bloques)
                 figura = p.get('figura')
                 comun = {
                     'id': clave,

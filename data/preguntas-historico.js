@@ -1,7 +1,7 @@
 /* ══════════════════════════════════════════════════════════════
    Generado por tools/generar_banco_historico.py el 2026-09-29.
    NO editar a mano: se regenera desde data/historico/pau-*.json.
-   628 preguntas para Entrenamiento y 508 para Simulacro,
+   718 preguntas para Entrenamiento y 568 para Simulacro,
    de exámenes PAU oficiales con sus criterios de corrección.
    ══════════════════════════════════════════════════════════════ */
 window.BIOCELIA_HISTORICO = {
@@ -16690,6 +16690,2436 @@ window.BIOCELIA_HISTORICO = {
    "f": "Pregunta oficial de la PAU de Andalucía 2017-2018 (Suplente de septiembre, opción B, pregunta 7, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
   },
   {
+   "id": "pau2021-junio-a1",
+   "block": "Biomoléculas",
+   "topic": "Ácidos grasos y lípidos saponificables e insaponificables",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Explique la relación entre el punto de fusión de los ácidos grasos, el tamaño y el grado de saturación de sus cadenas [0,5]. b) Indique dos diferencias entre los lípidos saponificables e insaponificables [0,4]. c) Ponga un ejemplo de cada uno de ellos [0,5]. d) Cite dos ejemplos de lípidos con función estructural [0,6].",
+   "c": [
+    "a) El punto de fusión <mark class=\"clave-criterio\">aumenta con la longitud de la cadena</mark> y <mark class=\"clave-criterio\">disminuye con el grado de insaturación</mark> (0,5 p).",
+    "b) Los saponificables <mark class=\"clave-criterio\">contienen ácidos grasos y son ésteres</mark>; los insaponificables <mark class=\"clave-criterio\">no tienen ácidos grasos ni son ésteres</mark>; unos <mark class=\"clave-criterio\">forman jabones con álcalis</mark> y otros no. Dos (0,4 p).",
+    "c) Saponificables: <mark class=\"clave-criterio\">acilglicéridos</mark>, <mark class=\"clave-criterio\">céridos</mark>, <mark class=\"clave-criterio\">fosfolípidos</mark>; insaponificables: <mark class=\"clave-criterio\">carotenoides</mark> y <mark class=\"clave-criterio\">esteroides</mark>. Uno de cada (0,5 p).",
+    "d) <mark class=\"clave-criterio\">Fosfolípidos</mark> (fosfoglicéridos) y <mark class=\"clave-criterio\">esteroides</mark> (colesterol) (0,6 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de junio",
+    "referencia": "Titular de junio, bloque A, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_BIOLOGÍA-JUNIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Titular de junio, bloque A, pregunta 1, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-junio-a2",
+   "block": "Célula",
+   "topic": "Mitosis y citocinesis",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina mitosis y citocinesis [0,4]. b) Describa las etapas de la mitosis [1,2]. c) Explique la importancia de la mitosis para los organismos eucariotas unicelulares y pluricelulares [0,4].",
+   "c": [
+    "a) Mitosis: <mark class=\"clave-criterio\">división del núcleo</mark> que origina <mark class=\"clave-criterio\">dos núcleos con idéntica información genética</mark> a la de la célula madre. Citocinesis: <mark class=\"clave-criterio\">división del citoplasma</mark> (0,4 p).",
+    "b) <mark class=\"clave-criterio\">Profase</mark>: condensación de cromosomas, formación del huso, desaparición del nucléolo y de la envoltura nuclear. <mark class=\"clave-criterio\">Metafase</mark>: cromosomas en la <mark class=\"clave-criterio\">placa ecuatorial</mark>. <mark class=\"clave-criterio\">Anafase</mark>: <mark class=\"clave-criterio\">separación de las cromátidas hermanas</mark> hacia los polos. <mark class=\"clave-criterio\">Telofase</mark>: descondensación y <mark class=\"clave-criterio\">reorganización de la envoltura nuclear</mark> y los nucléolos. 0,3 p cada una (1,2 p).",
+    "c) En unicelulares es el mecanismo de <mark class=\"clave-criterio\">reproducción asexual</mark>; en pluricelulares, necesaria para el <mark class=\"clave-criterio\">desarrollo embrionario</mark>, el <mark class=\"clave-criterio\">crecimiento</mark> y la <mark class=\"clave-criterio\">reparación de tejidos</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de junio",
+    "referencia": "Titular de junio, bloque A, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_BIOLOGÍA-JUNIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Titular de junio, bloque A, pregunta 2, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-junio-a3",
+   "block": "Genética",
+   "topic": "Pruebas bioquímicas de la evolución",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Explique dos pruebas bioquímicas que avalen la teoría de la evolución [2].",
+   "c": [
+    "Dos de estas, 1 p cada una (2 p): <mark class=\"clave-criterio\">gran uniformidad en los componentes moleculares</mark> de todos los organismos; el <mark class=\"clave-criterio\">código genético es el mismo para todos los seres vivos</mark>; los <mark class=\"clave-criterio\">procesos metabólicos son prácticamente los mismos</mark>; la <mark class=\"clave-criterio\">comparación de secuencias de aminoácidos o de nucleótidos</mark> indica el <mark class=\"clave-criterio\">grado de parentesco evolutivo</mark>."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de junio",
+    "referencia": "Titular de junio, bloque A, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_BIOLOGÍA-JUNIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Titular de junio, bloque A, pregunta 3, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-junio-a4",
+   "block": "Microbiología",
+   "topic": "Estructura y metabolismo bacteriano",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Cite dos estructuras que se encuentren en el citoplasma de una célula procariótica [0,2]. b) Nombre dos apéndices bacterianos y describa su función [0,6]. c) Indique dos funciones de la pared celular bacteriana y su composición [0,6]. d) Respecto al metabolismo bacteriano, explique el significado de los términos quimiótrofo y anaerobio facultativo [0,6].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Cromosoma bacteriano</mark> (ADN), <mark class=\"clave-criterio\">plásmidos</mark>, <mark class=\"clave-criterio\">ribosomas</mark>. Dos (0,2 p).",
+    "b) <mark class=\"clave-criterio\">Fimbrias</mark>: adherencia a sustratos; <mark class=\"clave-criterio\">pili</mark>: transferencia de material genético; <mark class=\"clave-criterio\">flagelo</mark>: movimiento. Dos (0,6 p).",
+    "c) Funciones: <mark class=\"clave-criterio\">protección</mark>, <mark class=\"clave-criterio\">dar forma</mark>, <mark class=\"clave-criterio\">rigidez</mark>, <mark class=\"clave-criterio\">soportar presiones osmóticas</mark>. Dos, a 0,2 p. Composición: <mark class=\"clave-criterio\">peptidoglucano (mureína)</mark> (0,2 p).",
+    "d) Quimiótrofo: sintetiza ATP con la <mark class=\"clave-criterio\">energía química de las moléculas que oxida</mark>. Anaerobio facultativo: <mark class=\"clave-criterio\">crece tanto en presencia como en ausencia de oxígeno</mark> (0,6 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de junio",
+    "referencia": "Titular de junio, bloque A, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_BIOLOGÍA-JUNIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Titular de junio, bloque A, pregunta 4, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-junio-a5",
+   "block": "Inmunología",
+   "topic": "Órganos y moléculas del sistema inmunitario",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Cite tres órganos (o tejidos) y dos tipos de moléculas que formen parte del sistema inmunitario de los mamíferos [0,5]. b) Indique una función que desempeñe cada uno de ellos en la respuesta inmunitaria [1,5].",
+   "c": [
+    "a) Órganos o tejidos: <mark class=\"clave-criterio\">médula ósea</mark>, <mark class=\"clave-criterio\">timo</mark>, <mark class=\"clave-criterio\">ganglios linfáticos</mark>, <mark class=\"clave-criterio\">bazo</mark>, <mark class=\"clave-criterio\">tejido linfoide asociado a mucosas</mark> (0,3 p). Moléculas: <mark class=\"clave-criterio\">anticuerpos</mark>, <mark class=\"clave-criterio\">linfocinas</mark>, <mark class=\"clave-criterio\">complemento</mark>, <mark class=\"clave-criterio\">interferón</mark> (0,2 p).",
+    "b) Médula ósea: <mark class=\"clave-criterio\">maduración de linfocitos B</mark>; timo: <mark class=\"clave-criterio\">maduración y selección de linfocitos T</mark>; ganglios: <mark class=\"clave-criterio\">filtran la linfa</mark> y ponen en contacto linfocitos y antígeno; bazo: <mark class=\"clave-criterio\">filtra la sangre</mark> y activa linfocitos; mucosas: <mark class=\"clave-criterio\">acumulan linfocitos y fagocitos</mark>.",
+    "b) Anticuerpos: <mark class=\"clave-criterio\">unión específica con antígenos</mark>; linfocinas: <mark class=\"clave-criterio\">regulan la respuesta inmune</mark>; complemento: <mark class=\"clave-criterio\">destrucción celular</mark> e <mark class=\"clave-criterio\">inflamación</mark>; interferón: <mark class=\"clave-criterio\">respuesta frente a virus</mark>. Tres órganos y dos moléculas, 0,3 p cada función (1,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de junio",
+    "referencia": "Titular de junio, bloque A, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_BIOLOGÍA-JUNIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Titular de junio, bloque A, pregunta 5, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-junio-b1",
+   "block": "Metabolismo",
+   "topic": "pH, temperatura y actividad enzimática",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Si el pH óptimo de una enzima es igual a 7,3, a) ¿qué ocurrirá con la actividad enzimática a pH 3,0 y a pH 9,9? [0,5] b) Si la temperatura óptima es de 36 ºC, ¿qué ocurrirá a 80 ºC? [0,5] Razone las respuestas.",
+   "c": [
+    "a) Por encima o por debajo del <mark class=\"clave-criterio\">pH óptimo</mark> la <mark class=\"clave-criterio\">actividad disminuye</mark>, y la enzima puede <mark class=\"clave-criterio\">desnaturalizarse</mark> (0,5 p).",
+    "b) Por encima de la temperatura óptima la enzima, de <mark class=\"clave-criterio\">naturaleza proteica</mark>, se <mark class=\"clave-criterio\">desnaturaliza</mark> y <mark class=\"clave-criterio\">pierde su actividad catalítica</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de junio",
+    "referencia": "Titular de junio, bloque B, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_BIOLOGÍA-JUNIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Titular de junio, bloque B, pregunta 1, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-junio-b2",
+   "block": "Microbiología",
+   "topic": "Salazón del jamón",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Antes de colgar y someter a los jamones al proceso de secado en un lugar frío y seco, se introducen en sal abundante durante varios días. ¿Para qué se introducen en sal? Razone la respuesta [1].",
+   "c": [
+    "Para que las células de la parte externa queden en un <mark class=\"clave-criterio\">medio hipertónico</mark>, <mark class=\"clave-criterio\">pierdan agua</mark> y <mark class=\"clave-criterio\">no puedan ser atacadas por los microorganismos</mark> <span class=\"redactado\">que tampoco pueden crecer en ese medio</span> (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de junio",
+    "referencia": "Titular de junio, bloque B, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_BIOLOGÍA-JUNIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Titular de junio, bloque B, pregunta 2, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-junio-b3",
+   "block": "Genética",
+   "topic": "Misma información genética, distinta expresión",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Indique si el ADN de una célula de la piel de un individuo contendrá la misma información genética que una célula del hígado [0,5]. b) ¿Sintetizan las dos células las mismas proteínas? [0,5] Razone las respuestas.",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Sí</mark>: todas las células de un organismo pluricelular <mark class=\"clave-criterio\">contienen la misma información genética</mark> (0,5 p).",
+    "b) <mark class=\"clave-criterio\">No</mark>: la <mark class=\"clave-criterio\">diferenciación celular</mark> implica una <mark class=\"clave-criterio\">regulación distinta de la expresión génica</mark> en cada tejido (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de junio",
+    "referencia": "Titular de junio, bloque B, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_BIOLOGÍA-JUNIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Titular de junio, bloque B, pregunta 3, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-junio-b4",
+   "block": "Microbiología",
+   "topic": "Kuru: un prion",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "El kuru es una enfermedad mortal que afectaba a individuos de ciertas tribus de Nueva Guinea que practicaban el canibalismo ritual en los funerales. Tras analizar restos de tejidos infectados, el agente causante no podía observarse al microscopio óptico, no incorporaba ni timina ni uracilo durante su replicación y su composición química fundamental era carbono, nitrógeno, hidrógeno, oxígeno y azufre. Según estos resultados, a) ¿qué agente infeccioso sería el responsable de esta enfermedad? [0,6] Este agente infeccioso pudo eliminarse de los instrumentos utilizados en los análisis utilizando calor húmedo (a alta temperatura y presión). b) ¿Qué efecto produce el calor elevado en este agente infeccioso? [0,4] Razone adecuadamente las respuestas.",
+   "c": [
+    "a) Un <mark class=\"clave-criterio\">prion</mark>: no es visible al microscopio óptico, <mark class=\"clave-criterio\">no tiene ADN ni ARN</mark> (no usa timina ni uracilo) y su composición es la <mark class=\"clave-criterio\">de una proteína</mark> (C, H, O, N y S) (0,6 p).",
+    "b) Al ser una proteína, el calor la <mark class=\"clave-criterio\">desnaturaliza</mark> y <mark class=\"clave-criterio\">pierde su actividad biológica</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de junio",
+    "referencia": "Titular de junio, bloque B, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_BIOLOGÍA-JUNIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Titular de junio, bloque B, pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-junio-b5",
+   "block": "Inmunología",
+   "topic": "Defensa inespecífica y específica ante picaduras",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "En el organismo pueden penetrar diferentes tipos de microorganismos por la picadura de insectos. En ocasiones la picadura produce una infección que no tiene consecuencias graves (por ejemplo, una erupción) y en pocos días se elimina. Otras veces la infección puede producir una enfermedad grave (por ejemplo, la enfermedad causada por el virus del Zika). Explique razonadamente qué tipo de mecanismo de defensa actúa en cada caso [1].",
+   "c": [
+    "Primer caso: <mark class=\"clave-criterio\">respuesta inespecífica</mark> (<mark class=\"clave-criterio\">inflamación local</mark> y <mark class=\"clave-criterio\">fagocitosis</mark>), suficiente para aislar y eliminar al agente (0,5 p).",
+    "Segundo caso: la defensa inespecífica no basta, la infección se extiende y se desencadena una <mark class=\"clave-criterio\">respuesta inmunitaria específica</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de junio",
+    "referencia": "Titular de junio, bloque B, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_BIOLOGÍA-JUNIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Titular de junio, bloque B, pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-junio-c1",
+   "block": "Biomoléculas",
+   "topic": "Cadenas de ADN y ARN",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>A la vista de la imagen, conteste las siguientes cuestiones:</b><br>a) ¿De qué moléculas formarán parte las cadenas A y B? [0,4]<br>b) ¿Cómo se denominan los monómeros que forman las cadenas A y B? [0,1]<br>c) Cite los tres componentes que forman cada uno de esos monómeros [0,3].<br>d) Indique qué dos diferencias fundamentales hay en la composición química de los monómeros de la cadena A y de la B [0,2].",
+   "c": [
+    "a) Cadena A: <mark class=\"clave-criterio\">ADN</mark>; cadena B: <mark class=\"clave-criterio\">ARN</mark> (0,4 p).",
+    "b) <mark class=\"clave-criterio\">Nucleótidos</mark> (0,1 p).",
+    "c) <mark class=\"clave-criterio\">Pentosa</mark>, <mark class=\"clave-criterio\">base nitrogenada</mark> y <mark class=\"clave-criterio\">fosfato</mark> (0,3 p).",
+    "d) Azúcar: <mark class=\"clave-criterio\">desoxirribosa (ADN)</mark> o <mark class=\"clave-criterio\">ribosa (ARN)</mark>; base: <mark class=\"clave-criterio\">timina (ADN)</mark> o <mark class=\"clave-criterio\">uracilo (ARN)</mark> (0,2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de junio",
+    "referencia": "Titular de junio, bloque C, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_BIOLOGÍA-JUNIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/junio-c1.webp",
+   "imgThumb": "assets/figuras/historico/2021/junio-c1.thumb.webp",
+   "imageDesc": "Cadena A (de 3' a 5') con bases T, T, A, T, T y cadena B (de 5' a 3') con bases A, U, A, A, A; cada unidad tiene un pentágono, un círculo y una base.",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Titular de junio, bloque C, pregunta 1, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-junio-c2",
+   "block": "Metabolismo",
+   "topic": "Membrana tilacoidal y fase luminosa",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la imagen adjunta, conteste a las siguientes cuestiones:</b><br>a) ¿Qué estructura representa? [0,1]<br>b) Indique el nombre de los compuestos A, B, C, D, E y F y de las localizaciones intracelulares G y H [0,8].<br>c) ¿Qué proceso da lugar a la formación del compuesto F? [0,1]",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Membrana tilacoidal</mark> (0,1 p).",
+    "b) A: <mark class=\"clave-criterio\">H₂O</mark>; B: <mark class=\"clave-criterio\">H⁺</mark>; C: <mark class=\"clave-criterio\">NADP⁺</mark>; D: <mark class=\"clave-criterio\">NADPH</mark>; E: <mark class=\"clave-criterio\">ADP</mark>; F: <mark class=\"clave-criterio\">ATP</mark>; G: <mark class=\"clave-criterio\">espacio tilacoidal</mark>; H: <mark class=\"clave-criterio\">estroma</mark>. 0,1 p cada uno (0,8 p).",
+    "c) <mark class=\"clave-criterio\">Fotofosforilación</mark> (0,1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de junio",
+    "referencia": "Titular de junio, bloque C, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_BIOLOGÍA-JUNIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/junio-c2.webp",
+   "imgThumb": "assets/figuras/historico/2021/junio-c2.thumb.webp",
+   "imageDesc": "Una membrana con PS II (P680), citocromo b6f, PS I (P700) y una ATP sintasa; la luz incide en los fotosistemas; A se rompe dando ½ O₂ y 2 B; B se acumula a un lado; C pasa a D; E + Pi da F. Los compartimentos a ambos lados son G (abajo) y H (arriba).",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Titular de junio, bloque C, pregunta 2, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-junio-c3",
+   "block": "Genética",
+   "topic": "Herencia intermedia en flores",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la imagen adjunta conteste a las siguientes cuestiones:</b><br>a) Indique los genotipos de los dos parentales y de la generación F1 [0,3].<br>b) ¿Qué se puede concluir acerca de las relaciones de dominancia de los alelos responsables del fenotipo de la generación F1? [0,2]<br>c) Indique las proporciones genotípicas y fenotípicas de la generación F2 como consecuencia de la autopolinización de F1 [0,5].",
+   "c": [
+    "a) Parental 1: <mark class=\"clave-criterio\">C1C1</mark>; parental 2: <mark class=\"clave-criterio\">C2C2</mark>; F1: <mark class=\"clave-criterio\">C1C2</mark> (vale otra notación correcta) (0,3 p).",
+    "b) Los alelos <mark class=\"clave-criterio\">no son ni dominantes ni recesivos</mark>: <mark class=\"clave-criterio\">dominancia incompleta</mark> o <mark class=\"clave-criterio\">herencia intermedia</mark> (0,2 p).",
+    "c) Genotipos: <mark class=\"clave-criterio\">1/4 C1C1, 1/2 C1C2, 1/4 C2C2</mark>. Fenotipos: <mark class=\"clave-criterio\">1/4 oscuras, 1/2 grises, 1/4 blancas</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de junio",
+    "referencia": "Titular de junio, bloque C, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_BIOLOGÍA-JUNIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/junio-c3.webp",
+   "imgThumb": "assets/figuras/historico/2021/junio-c3.thumb.webp",
+   "imageDesc": "Una flor oscura (parental 1) cruzada con una flor blanca (parental 2) da una flor gris (F1).",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Titular de junio, bloque C, pregunta 3, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-junio-c4",
+   "block": "Microbiología",
+   "topic": "Bacteriófago y virus envuelto",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>A la vista de la imagen, conteste las siguientes cuestiones:</b><br>a) ¿Qué tipo de microorganismos representa la imagen? [0,1]<br>b) ¿A qué tipos celulares infectan A y B? [0,2]<br>c) Nombre las estructuras señaladas con los números del 1 al 7 [0,7].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Virus</mark> (0,1 p).",
+    "b) A: <mark class=\"clave-criterio\">bacterias</mark> (células procarióticas); B: <mark class=\"clave-criterio\">células eucarióticas</mark> (0,2 p).",
+    "c) 1: <mark class=\"clave-criterio\">cápsida</mark>; 2: <mark class=\"clave-criterio\">vaina</mark> (cola); 3: <mark class=\"clave-criterio\">fibras de la cola</mark>; 4: <mark class=\"clave-criterio\">placa basal</mark>; 5: <mark class=\"clave-criterio\">envoltura</mark>; 6: <mark class=\"clave-criterio\">genoma</mark> (material genético); 7: <mark class=\"clave-criterio\">cápsida</mark> (0,7 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de junio",
+    "referencia": "Titular de junio, bloque C, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_BIOLOGÍA-JUNIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/junio-c4.webp",
+   "imgThumb": "assets/figuras/historico/2021/junio-c4.thumb.webp",
+   "imageDesc": "A: cabeza icosaédrica (1), un tubo (2), fibras (3) y una base (4). B: partícula esférica con una cubierta externa con espículas (5) que rodea un icosaedro (7) con material en su interior (6).",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Titular de junio, bloque C, pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-junio-c5",
+   "block": "Inmunología",
+   "topic": "La IgM",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la figura adjunta, conteste a las siguientes preguntas:</b><br>a) ¿Qué tipo de molécula representa la imagen? [0,2]<br>b) ¿En qué tipo de respuesta inmunitaria humoral es predominante? [0,2]<br>c) Indique qué cadenas polipeptídicas forman el monómero señalado con el recuadro [0,4].<br>d) Indique, en un organismo, dónde se localiza la molécula representada [0,2].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">IgM</mark> (0,2 p). b) <mark class=\"clave-criterio\">Respuesta primaria</mark> (0,2 p).",
+    "c) <mark class=\"clave-criterio\">Dos cadenas pesadas y dos cadenas ligeras</mark> (0,4 p).",
+    "d) En la <mark class=\"clave-criterio\">sangre</mark> (0,2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de junio",
+    "referencia": "Titular de junio, bloque C, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_BIOLOGÍA-JUNIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/junio-c5.webp",
+   "imgThumb": "assets/figuras/historico/2021/junio-c5.thumb.webp",
+   "imageDesc": "Cinco unidades en forma de Y unidas por sus bases formando una estrella; una de ellas está enmarcada con un recuadro discontinuo.",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Titular de junio, bloque C, pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-suplente-junio-a1",
+   "block": "Metabolismo",
+   "topic": "Inhibición enzimática",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina qué es un inhibidor enzimático [0,5]. b) Indique dos diferencias entre inhibidores reversibles e inhibidores irreversibles [0,5]. c) Describa la inhibición enzimática competitiva y no competitiva [1].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Sustancia que disminuye o anula la actividad enzimática</mark> (0,5 p).",
+    "b) Reversibles: <mark class=\"clave-criterio\">unión temporal</mark>, las regiones funcionales <mark class=\"clave-criterio\">no cambian</mark> y el efecto <mark class=\"clave-criterio\">se puede eliminar</mark>. Irreversibles: <mark class=\"clave-criterio\">cambios permanentes</mark>, <mark class=\"clave-criterio\">unión irreversible al centro activo</mark>, <mark class=\"clave-criterio\">anulan la capacidad catalítica</mark>. Dos (0,5 p).",
+    "c) <mark class=\"clave-criterio\">Competitiva</mark>: el inhibidor tiene una <mark class=\"clave-criterio\">configuración parecida a la del sustrato</mark> y <mark class=\"clave-criterio\">compite por el centro activo</mark>. <mark class=\"clave-criterio\">No competitiva</mark>: se une a <mark class=\"clave-criterio\">un lugar distinto del centro activo</mark> y no compite con el sustrato (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de junio",
+    "referencia": "Suplente de junio, bloque A, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Suplente de junio, bloque A, pregunta 1, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-suplente-junio-a2",
+   "block": "Célula",
+   "topic": "Células animales y vegetales",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Establezca cuatro diferencias entre las células vegetales y las células animales [1]. b) Nombre una función de dos componentes que sean exclusivos de células vegetales [0,5]. c) Cite un orgánulo de doble membrana que comparten estos dos tipos de células [0,25]. d) ¿Qué función presenta el mismo? [0,25]",
+   "c": [
+    "a) La vegetal tiene <mark class=\"clave-criterio\">pared celular</mark>, <mark class=\"clave-criterio\">cloroplastos</mark> y <mark class=\"clave-criterio\">vacuolas grandes</mark>, <mark class=\"clave-criterio\">no tiene centriolos</mark> y forma <mark class=\"clave-criterio\">fragmoplasto</mark> al dividirse; la animal forma un <mark class=\"clave-criterio\">surco de segmentación</mark>. Cuatro, a 0,25 p (1 p).",
+    "b) Cloroplastos: <mark class=\"clave-criterio\">fotosíntesis</mark>; pared celular: <mark class=\"clave-criterio\">rigidez</mark>, unión entre células, barrera frente a patógenos. 0,25 p cada uno (0,5 p).",
+    "c) <mark class=\"clave-criterio\">Mitocondria</mark> o <mark class=\"clave-criterio\">núcleo</mark> (0,25 p). d) Mitocondria: <mark class=\"clave-criterio\">respiración celular</mark>; núcleo: <mark class=\"clave-criterio\">contiene la información genética</mark> (0,25 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de junio",
+    "referencia": "Suplente de junio, bloque A, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Suplente de junio, bloque A, pregunta 2, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-suplente-junio-a3",
+   "block": "Genética",
+   "topic": "Mutaciones espontáneas e inducidas",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina el término mutación [0,5] y b) distinga entre mutaciones espontáneas e inducidas [1]. c) Cite dos ejemplos en los que se pongan de manifiesto los efectos perjudiciales de las mutaciones [0,5].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Alteración del material genético</mark> (0,5 p).",
+    "b) Espontáneas: <mark class=\"clave-criterio\">se producen de forma natural</mark>. Inducidas: por <mark class=\"clave-criterio\">exposición a agentes mutagénicos químicos o físicos</mark> (1 p).",
+    "c) <mark class=\"clave-criterio\">Cáncer</mark>, <mark class=\"clave-criterio\">enfermedades genéticas</mark>. 0,25 p cada uno (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de junio",
+    "referencia": "Suplente de junio, bloque A, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Suplente de junio, bloque A, pregunta 3, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-suplente-junio-a4",
+   "block": "Microbiología",
+   "topic": "Partículas subvirales: viroides y priones",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina partícula subviral [0,5]. b) Nombre dos partículas subvirales [0,4] e indique su composición [0,6]. c) Indique, en cada caso, a qué tipo de organismos infectan [0,5].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Agente infeccioso más simple y de menor tamaño que los virus</mark> (0,5 p).",
+    "b) <mark class=\"clave-criterio\">Viroides</mark>: <mark class=\"clave-criterio\">ARN monocatenario circular</mark>. <mark class=\"clave-criterio\">Priones</mark>: <mark class=\"clave-criterio\">proteínas</mark>. 0,2 p cada partícula y 0,3 p por su composición (1 p).",
+    "c) Viroides: <mark class=\"clave-criterio\">plantas</mark>; priones: <mark class=\"clave-criterio\">animales</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de junio",
+    "referencia": "Suplente de junio, bloque A, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Suplente de junio, bloque A, pregunta 4, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-suplente-junio-a5",
+   "block": "Inmunología",
+   "topic": "Respuesta inmunitaria celular",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Explique en qué consiste la respuesta inmunitaria celular [0,6]. b) Indique dos tipos de células implicadas en este tipo de respuesta [0,4]. c) Describa dos funciones de cada uno de estos tipos de células [1].",
+   "c": [
+    "a) Inmunidad basada en la <mark class=\"clave-criterio\">actividad directa de células</mark> del sistema inmunitario sobre <mark class=\"clave-criterio\">microorganismos, células infectadas o tumorales</mark> (0,6 p).",
+    "b) <mark class=\"clave-criterio\">Linfocitos T</mark> y <mark class=\"clave-criterio\">macrófagos</mark> (0,4 p).",
+    "c) Linfocitos T: <mark class=\"clave-criterio\">activan los linfocitos B</mark>, <mark class=\"clave-criterio\">destruyen células infectadas o tumorales</mark>. Macrófagos: <mark class=\"clave-criterio\">fagocitosis</mark> y <mark class=\"clave-criterio\">presentación de antígenos</mark>. 0,25 p cada una (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de junio",
+    "referencia": "Suplente de junio, bloque A, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Suplente de junio, bloque A, pregunta 5, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-suplente-junio-b1",
+   "block": "Genética",
+   "topic": "Composición de bases en ADN y ARN",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Analizando el genoma de una bacteria se sabe que contiene un 28% de citosina. Explique razonadamente si se podrían deducir: a) los porcentajes de las restantes bases nitrogenadas del ADN bacteriano [0,3]; b) los porcentajes de las restantes bases nitrogenadas de un ARNm con 360 nucleótidos que contiene un 18% de adenina [0,3]; y c) el número máximo de aminoácidos de la proteína codificada por este ARNm [0,4].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Sí</mark>: el ADN bacteriano es <mark class=\"clave-criterio\">bicatenario</mark> (C = G, A = T): <mark class=\"clave-criterio\">G 28 %, A 22 %, T 22 %</mark> (0,3 p).",
+    "b) <mark class=\"clave-criterio\">No</mark>: el ARN es <mark class=\"clave-criterio\">monocatenario</mark> y <mark class=\"clave-criterio\">no hay complementariedad</mark> entre sus bases (0,3 p).",
+    "c) Como máximo <mark class=\"clave-criterio\">120 aminoácidos</mark> (360 / 3), porque cada aminoácido lo codifica <mark class=\"clave-criterio\">un triplete</mark>; o <mark class=\"clave-criterio\">119</mark> si se descuenta el <mark class=\"clave-criterio\">codón de terminación</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de junio",
+    "referencia": "Suplente de junio, bloque B, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Suplente de junio, bloque B, pregunta 1, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-suplente-junio-b2",
+   "block": "Genética",
+   "topic": "Autofecundación y variabilidad en las tenias",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Las tenias son organismos hermafroditas que pueden autofecundarse, es decir, en estos organismos se puede producir la fusión de un gameto femenino y masculino procedentes del mismo individuo. Todos los cromosomas de la descendencia de una tenia proceden, por tanto, del mismo individuo. Explique de forma razonada si los descendientes de una tenia tendrán el mismo genotipo [1].",
+   "c": [
+    "<mark class=\"clave-criterio\">No</mark>: los gametos se forman por <mark class=\"clave-criterio\">meiosis</mark>, que implica <mark class=\"clave-criterio\">variabilidad genética</mark> <span class=\"redactado\">recombinación y segregación al azar</span> (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de junio",
+    "referencia": "Suplente de junio, bloque B, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Suplente de junio, bloque B, pregunta 2, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-suplente-junio-b3",
+   "block": "Genética",
+   "topic": "Selección natural en polillas",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "En una zona campestre de abedules cuyos troncos son blanquecinos, lejos de cualquier fuente de polución, se dejan en libertad una población de polillas compuesta por 100 polillas claras y otras 100 oscuras. Se sabe que el color claro de las polillas es recesivo frente al color oscuro en esta población. Después de tres días se colocan trampas para capturar las polillas y sólo se capturan polillas claras. Sin embargo, cuando se realiza una nueva captura un año después sí se capturan polillas oscuras, aunque con una proporción muy baja. ¿Cómo podría explicar los resultados encontrados en ambas capturas? [1] Razone las respuestas.",
+   "c": [
+    "Las polillas claras <mark class=\"clave-criterio\">se camuflan en los troncos claros</mark> y no son detectadas; los <mark class=\"clave-criterio\">depredadores consumen las oscuras</mark>, más visibles (0,5 p).",
+    "Aunque desaparezcan al principio, <mark class=\"clave-criterio\">vuelven a aparecer oscuras</mark> en la descendencia <span class=\"redactado\">por los alelos que portan las supervivientes</span>, pero son <mark class=\"clave-criterio\">más consumidas</mark> y siguen siendo <mark class=\"clave-criterio\">menos frecuentes</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de junio",
+    "referencia": "Suplente de junio, bloque B, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Suplente de junio, bloque B, pregunta 3, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-suplente-junio-b4",
+   "block": "Metabolismo",
+   "topic": "Gases de cianobacterias y levaduras",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "En el laboratorio se dispone de un matraz con cianobacterias (matraz A) y otro con una solución de agua y glucosa y la levadura <i>Saccharomyces cerevisiae</i> (matraz B). Los matraces se tapan con tubos de ensayo invertidos a modo de capuchón. Al cabo de 1 hora la parte superior de los dos tubos de ensayo contiene gases. Responda de forma razonada a las siguientes cuestiones: a) ¿Qué gas se genera principalmente durante el experimento en cada uno de los matraces (A y B)? [0,2] b) ¿Cuál es el nombre de la vía metabólica responsable de que se haya generado el gas en cada uno de ellos? [0,4] c) ¿Qué gases se generarían en los distintos matraces en oscuridad? [0,2] d) ¿Se generarían los gases en los distintos matraces si el experimento se realizara a 60 °C? [0,2]",
+   "c": [
+    "a) A: <mark class=\"clave-criterio\">oxígeno</mark>; B: <mark class=\"clave-criterio\">dióxido de carbono</mark> (0,2 p).",
+    "b) A: <mark class=\"clave-criterio\">fase luminosa de la fotosíntesis</mark>; B: <mark class=\"clave-criterio\">fermentación alcohólica</mark> (0,4 p).",
+    "c) A: <mark class=\"clave-criterio\">CO₂</mark>, porque sin luz no hay fase luminosa pero sí <mark class=\"clave-criterio\">respiración celular</mark>; B: <mark class=\"clave-criterio\">CO₂</mark> de la fermentación (0,2 p).",
+    "d) <mark class=\"clave-criterio\">No</mark>: a 60 °C las <mark class=\"clave-criterio\">enzimas se desnaturalizan</mark> (0,2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de junio",
+    "referencia": "Suplente de junio, bloque B, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Suplente de junio, bloque B, pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-suplente-junio-b5",
+   "block": "Inmunología",
+   "topic": "Microorganismos oportunistas e inmunodeficiencia",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "En condiciones normales, en nuestro cuerpo habitan más de 400 especies diferentes de microorganismos, inicialmente inocuos. Sin embargo, en algunas personas, ciertos microorganismos proliferan y producen infecciones. ¿Qué personas tienen mayor predisposición para ser infectadas? [1] Razone la respuesta.",
+   "c": [
+    "Las personas con <mark class=\"clave-criterio\">inmunodeficiencia</mark> (sistema inmunitario incapaz de realizar su función): los <mark class=\"clave-criterio\">patógenos oportunistas</mark> aprovechan esa debilidad para proliferar (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de junio",
+    "referencia": "Suplente de junio, bloque B, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Suplente de junio, bloque B, pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-suplente-junio-c1",
+   "block": "Biomoléculas",
+   "topic": "Lípidos: ácido graso, triacilglicérido e isopreno",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>Teniendo en cuenta la figura adjunta indique:</b><br>a) ¿A qué grupo de biomoléculas pertenecen las tres moléculas representadas (A, B y C)? [0,2]<br>b) ¿Cuáles podrían reaccionar con una base fuerte y dar lugar a jabón? [0,3].<br>c) Escriba la fórmula general (o semidesarrollada) de la molécula A [0,3].<br>d) ¿Cuál es la función biológica principal de la molécula B? [0,2]",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Lípidos</mark> (0,2 p).",
+    "b) <mark class=\"clave-criterio\">A y B</mark> (0,3 p).",
+    "c) <mark class=\"clave-criterio\">CH₃–(CH₂)₁₀–COOH</mark> (0,3 p).",
+    "d) <mark class=\"clave-criterio\">Reserva energética</mark> (0,2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de junio",
+    "referencia": "Suplente de junio, bloque C, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/suplente-junio-c1.webp",
+   "imgThumb": "assets/figuras/historico/2021/suplente-junio-c1.thumb.webp",
+   "imageDesc": "A: cadena lineal de 12 carbonos terminada en COOH. B: tres cadenas H₃C–(CH₂)n–CO–O unidas a una molécula de tres carbonos. C: molécula pequeña de cinco carbonos con dos dobles enlaces y una ramificación CH₃.",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Suplente de junio, bloque C, pregunta 1, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-suplente-junio-c2",
+   "block": "Célula",
+   "topic": "Ribosomas 80S y 70S",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la figura adjunta, conteste a las siguientes cuestiones:</b><br>a) Indique el nombre, la composición química y la función de las estructuras A y B [0,3].<br>b) ¿Cuál es el coeficiente de sedimentación de A y B? [0,2]<br>c) Según su organización celular, ¿en qué tipo de células coexisten las estructuras A y B? [0,2] Indique dos posibles localizaciones de cada una de ellas en estas células [0,2].<br>d) Indique en qué tipo de células sólo es posible encontrar una de las dos estructuras y especifique cuál de ellas (A o B) [0,1].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Ribosomas</mark>, formados por <mark class=\"clave-criterio\">proteínas y ARN ribosómico</mark>, que realizan la <mark class=\"clave-criterio\">síntesis de proteínas</mark> (0,3 p).",
+    "b) A: <mark class=\"clave-criterio\">80S</mark>; B: <mark class=\"clave-criterio\">70S</mark> (0,2 p).",
+    "c) En las <mark class=\"clave-criterio\">células eucarióticas</mark> (0,2 p). A: <mark class=\"clave-criterio\">citosol</mark>, <mark class=\"clave-criterio\">adosado al RER</mark>, cara externa de la envoltura nuclear; B: <mark class=\"clave-criterio\">mitocondrias</mark> y <mark class=\"clave-criterio\">cloroplastos</mark> (0,2 p).",
+    "d) En las <mark class=\"clave-criterio\">células procarióticas</mark>, solo <mark class=\"clave-criterio\">B</mark> (0,1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de junio",
+    "referencia": "Suplente de junio, bloque C, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/suplente-junio-c2.webp",
+   "imgThumb": "assets/figuras/historico/2021/suplente-junio-c2.thumb.webp",
+   "imageDesc": "Dos subunidades de 60s y 40s se unen para formar A; otras dos de 50s y 30s se unen para formar B.",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Suplente de junio, bloque C, pregunta 2, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-suplente-junio-c3",
+   "block": "Genética",
+   "topic": "Cruce de gatos: gametos y genotipos",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>La imagen muestra el cruce entre dos gatos, ambos con pelo de color negro, que da lugar a tres gatitos de color negro y un gatito de color gris. Conteste a las siguientes cuestiones:</b><br>a) Deduzca qué gametos se corresponden con los números 2, 3 y 4 [0,3].<br>b) Indique los genotipos para el color del pelo de los gatos 1, 5, 6 y 7 [0,4].<br>c) ¿En qué proporción se presentan los genotipos de la descendencia? [0,3]",
+   "c": [
+    "a) 2: <mark class=\"clave-criterio\">A</mark>; 3: <mark class=\"clave-criterio\">a</mark>; 4: <mark class=\"clave-criterio\">a</mark> (0,3 p).",
+    "b) 1: <mark class=\"clave-criterio\">Aa</mark>; 5: <mark class=\"clave-criterio\">AA</mark>; 6: <mark class=\"clave-criterio\">Aa</mark>; 7: <mark class=\"clave-criterio\">aa</mark> (0,4 p).",
+    "c) <mark class=\"clave-criterio\">AA 25 %, Aa 50 %, aa 25 %</mark> (0,3 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de junio",
+    "referencia": "Suplente de junio, bloque C, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/suplente-junio-c3.webp",
+   "imgThumb": "assets/figuras/historico/2021/suplente-junio-c3.thumb.webp",
+   "imageDesc": "F0: gato negro Aa × gato negro (1). Gametos 2 y 3 del primero, A y 4 del segundo. F1: gatitos negros 5, 6 y Aa, y un gatito gris 7.",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Suplente de junio, bloque C, pregunta 3, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-suplente-junio-c4",
+   "block": "Microbiología",
+   "topic": "Fermentaciones en queso, yogur, vino y pan",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la figura adjunta, conteste a las siguientes cuestiones:</b><br>a) ¿Qué proceso metabólico tiene en común la fabricación de estos cuatro productos? [0,2]<br>b) ¿Qué tipo de microorganismo es responsable de la producción de cada uno de ellos? [0,4]<br>c) Para cada uno de los productos, indique cuál es la molécula de partida y la molécula orgánica resultante [0,4].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Fermentación</mark> (0,2 p).",
+    "b) 1 y 2: <mark class=\"clave-criterio\">bacterias</mark> (Lactobacillus); 3 y 4: <mark class=\"clave-criterio\">levaduras</mark> (Saccharomyces) (0,4 p).",
+    "c) 1 y 2: de <mark class=\"clave-criterio\">glucosa</mark> a <mark class=\"clave-criterio\">ácido láctico</mark>; 3 y 4: de <mark class=\"clave-criterio\">glucosa</mark> a <mark class=\"clave-criterio\">etanol</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de junio",
+    "referencia": "Suplente de junio, bloque C, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/suplente-junio-c4.webp",
+   "imgThumb": "assets/figuras/historico/2021/suplente-junio-c4.thumb.webp",
+   "imageDesc": "Cuatro productos: 1, queso; 2, yogur; 3, copa de vino; 4, pan de molde.",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Suplente de junio, bloque C, pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-suplente-junio-c5",
+   "block": "Inmunología",
+   "topic": "Formas de adquirir inmunidad",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la imagen, que representa cuatro formas de adquirir inmunidad, conteste a las siguientes cuestiones:</b><br>a) Tipo de inmunidad que representan A y B [0,2].<br>b) Utilizando los números de la imagen, indique cuáles se corresponden con la adquisición de una inmunidad a largo plazo de tiempo [0,2].<br>c) ¿Y cuáles con una a corto plazo? [0,2]<br>d) ¿En cuáles de ellas se adquiere memoria inmunológica? [0,2]<br>e) Indique si la adquisición de inmunidad en 2 se corresponde con un método con fin curativo o preventivo [0,2].",
+   "c": [
+    "a) A: <mark class=\"clave-criterio\">activa</mark>; B: <mark class=\"clave-criterio\">pasiva</mark> (0,2 p).",
+    "b) Largo plazo: <mark class=\"clave-criterio\">1 y 2</mark> (0,2 p). c) Corto plazo: <mark class=\"clave-criterio\">3 y 4</mark> (0,2 p).",
+    "d) Memoria inmunológica: <mark class=\"clave-criterio\">en 1 y en 2</mark> (0,2 p).",
+    "e) <mark class=\"clave-criterio\">Preventivo</mark> <span class=\"redactado\">es una vacuna</span> (0,2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de junio",
+    "referencia": "Suplente de junio, bloque C, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/suplente-junio-c5.webp",
+   "imgThumb": "assets/figuras/historico/2021/suplente-junio-c5.thumb.webp",
+   "imageDesc": "Grupo A: 1, un virus; 2, una jeringa con virus. Grupo B: 3, una madre amamantando a su bebé; 4, una bolsa de suero con anticuerpos.",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Suplente de junio, bloque C, pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-reserva-junio-a1",
+   "block": "Biomoléculas",
+   "topic": "Proteínas: estructura secundaria y desnaturalización",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina proteína [0,6] y b) cite dos tipos de estructura secundaria que pueden presentar [0,4]. c) Explique en qué consiste la desnaturalización y la renaturalización de las proteínas [0,6]. d) Entre los diferentes tipos de enlaces que pueden existir en una proteína, indique cuál permanece tras el proceso de desnaturalización [0,4].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Macromolécula de una o varias cadenas polipeptídicas</mark> formadas por <mark class=\"clave-criterio\">aminoácidos unidos por enlaces peptídicos</mark> (0,6 p).",
+    "b) <mark class=\"clave-criterio\">Alfa-hélice</mark> y <mark class=\"clave-criterio\">conformación beta</mark> (hoja plegada) (0,4 p).",
+    "c) Desnaturalización: <mark class=\"clave-criterio\">pérdida de la estructura nativa</mark> y, con ella, <mark class=\"clave-criterio\">de la función</mark>. Renaturalización: <mark class=\"clave-criterio\">recuperación de la estructura nativa y de la función</mark> (0,6 p).",
+    "d) <mark class=\"clave-criterio\">Enlace peptídico</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de junio",
+    "referencia": "Reserva de junio, bloque A, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Reserva de junio, bloque A, pregunta 1, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-reserva-junio-a2",
+   "block": "Metabolismo",
+   "topic": "Conceptos de anabolismo",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "En relación con el anabolismo celular, defina los conceptos: a) divergencia metabólica [0,5]; b) quimiosíntesis [0,5]; c) anabolismo heterótrofo [0,5]; d) fotosíntesis [0,5].",
+   "c": [
+    "a) Divergencia metabólica: <mark class=\"clave-criterio\">a partir de unos pocos sustratos se forman muchos productos diferentes</mark> (0,5 p).",
+    "b) Quimiosíntesis: obtención de <mark class=\"clave-criterio\">materia orgánica a partir de inorgánica</mark> con la <mark class=\"clave-criterio\">energía de reacciones químicas de oxidación</mark> (0,5 p).",
+    "c) Anabolismo heterótrofo: <mark class=\"clave-criterio\">a partir de precursores orgánicos sencillos</mark> se obtienen <mark class=\"clave-criterio\">moléculas orgánicas más complejas</mark> (0,5 p).",
+    "d) Fotosíntesis: captación de la <mark class=\"clave-criterio\">energía de la luz</mark> para <mark class=\"clave-criterio\">transformar materia inorgánica en orgánica</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de junio",
+    "referencia": "Reserva de junio, bloque A, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Reserva de junio, bloque A, pregunta 2, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-reserva-junio-a3",
+   "block": "Genética",
+   "topic": "Determinación del sexo; caracteres ligados e influidos por el sexo",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Explique dos formas en las que se puede determinar el sexo de un organismo pluricelular [1,4]. b) Diferencie entre un carácter ligado al sexo y otro influido por el sexo [0,6].",
+   "c": [
+    "a) Por <mark class=\"clave-criterio\">cromosomas sexuales</mark> (heterocromosomas), que contienen los factores que determinan el sexo; o por el <mark class=\"clave-criterio\">número de cromosomas</mark> (<mark class=\"clave-criterio\">haplodiploidía</mark>): los individuos de <mark class=\"clave-criterio\">óvulos fecundados (diploides)</mark> y los de <mark class=\"clave-criterio\">óvulos sin fecundar (haploides)</mark> son de sexo diferente (1,4 p).",
+    "b) Ligado al sexo: gen situado en <mark class=\"clave-criterio\">uno de los cromosomas sexuales</mark>. Influido por el sexo: gen <mark class=\"clave-criterio\">autosómico</mark> que <mark class=\"clave-criterio\">se manifiesta según el sexo</mark> del individuo (0,6 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de junio",
+    "referencia": "Reserva de junio, bloque A, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Reserva de junio, bloque A, pregunta 3, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-reserva-junio-a4",
+   "block": "Microbiología",
+   "topic": "Virus y ciclo lítico",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) ¿Qué es un virus? [0,5] b) Describa el ciclo lítico de un bacteriófago [1,5].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Forma acelular</mark> de <mark class=\"clave-criterio\">proteínas y un solo tipo de ácido nucleico</mark> que <mark class=\"clave-criterio\">necesita células vivas para multiplicarse</mark> (parásito obligado) (0,5 p).",
+    "b) <mark class=\"clave-criterio\">Unión a receptores específicos</mark> de la bacteria; <mark class=\"clave-criterio\">inyección del ácido nucleico</mark> por la vaina contráctil; <mark class=\"clave-criterio\">uso de la maquinaria biosintética</mark> de la bacteria para copiar el ácido nucleico y las proteínas de la cápsida; <mark class=\"clave-criterio\">ensamblaje</mark>; <mark class=\"clave-criterio\">lisis</mark> por enzimas líticas y <mark class=\"clave-criterio\">salida de los nuevos fagos</mark> (1,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de junio",
+    "referencia": "Reserva de junio, bloque A, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Reserva de junio, bloque A, pregunta 4, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-reserva-junio-a5",
+   "block": "Inmunología",
+   "topic": "Antígeno, anticuerpo, vacuna y suero",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina antígeno [0,4] y b) anticuerpo [0,4]. c) Describa la estructura de un anticuerpo [0,6]. d) Explique dos diferencias entre vacuna y suero [0,6].",
+   "c": [
+    "a) Antígeno: <mark class=\"clave-criterio\">molécula no reconocida como propia</mark> que <mark class=\"clave-criterio\">desencadena una respuesta inmunitaria</mark> (0,4 p).",
+    "b) Anticuerpo: <mark class=\"clave-criterio\">proteína producida por los linfocitos B</mark> (células plasmáticas) en respuesta a un antígeno (0,4 p).",
+    "c) <mark class=\"clave-criterio\">Dos cadenas ligeras y dos pesadas</mark> (0,3 p), con <mark class=\"clave-criterio\">región constante</mark> (0,15 p) y <mark class=\"clave-criterio\">región variable</mark> (0,15 p).",
+    "d) <mark class=\"clave-criterio\">Preventivo o curativo</mark>; <mark class=\"clave-criterio\">forma o no células de memoria</mark>; <mark class=\"clave-criterio\">inmunidad activa o pasiva</mark>; <mark class=\"clave-criterio\">administra antígenos o anticuerpos</mark>. Dos (0,6 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de junio",
+    "referencia": "Reserva de junio, bloque A, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Reserva de junio, bloque A, pregunta 5, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-reserva-junio-b1",
+   "block": "Célula",
+   "topic": "Plantas en medios hipotónico e hipertónico",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Dos plantas de tomate se cultivan en medio acuoso en condiciones similares de iluminación y temperatura, pero el medio líquido que se les aporta es diferente: en un caso es hipotónico y en otro hipertónico. a) Si la planta es capaz de controlar la evaporación, explique de forma razonada con cuál de los dos medios la tasa de evaporación será menor [0,5]. b) ¿Qué consecuencias tendrá en las células de estas plantas crecer en un medio hipertónico? [0,5]",
+   "c": [
+    "a) Será menor en la planta del <mark class=\"clave-criterio\">medio hipertónico</mark>, para <mark class=\"clave-criterio\">evitar pérdidas de agua</mark> (0,5 p).",
+    "b) Las células pueden sufrir <mark class=\"clave-criterio\">plasmólisis</mark>, con <mark class=\"clave-criterio\">separación de la membrana y la pared</mark>, y posible <mark class=\"clave-criterio\">muerte celular</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de junio",
+    "referencia": "Reserva de junio, bloque B, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Reserva de junio, bloque B, pregunta 1, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-reserva-junio-b2",
+   "block": "Célula",
+   "topic": "Ribosomas en el páncreas, mitocondrias en el corazón",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Las células del páncreas tienen un gran número de ribosomas mientras que las del corazón contienen numerosas mitocondrias. ¿A qué se deben estas diferencias? [1] Razone la respuesta.",
+   "c": [
+    "Páncreas: muchos <mark class=\"clave-criterio\">ribosomas</mark> porque produce <mark class=\"clave-criterio\">enzimas y hormonas de naturaleza proteica</mark> (0,5 p).",
+    "Corazón: muchas <mark class=\"clave-criterio\">mitocondrias</mark> porque necesita <mark class=\"clave-criterio\">mucho ATP para la contracción muscular</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de junio",
+    "referencia": "Reserva de junio, bloque B, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Reserva de junio, bloque B, pregunta 2, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-reserva-junio-b3",
+   "block": "Genética",
+   "topic": "Reproducción sexual y adaptación en Posidonia",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "<i>Posidonia oceanica</i> es una angiosperma marina endémica del Mediterráneo que puede reproducirse tanto de un modo sexual a través de frutos y semillas, como asexualmente a través de crecimiento clonal y propágulos. Se ha observado que en aquellas zonas donde existen condiciones ambientales más variables, la frecuencia de plantas que producen frutos y semillas es mucho más alta que en zonas donde las condiciones ambientales son más estables. a) Explique razonadamente a qué puede deberse este hecho [0,5]. b) Teniendo en cuenta el cambio climático que se está produciendo, ¿cuál de las dos poblaciones tendría una mayor capacidad de adaptación a dicho cambio? [0,5]",
+   "c": [
+    "a) La <mark class=\"clave-criterio\">reproducción sexual</mark> da <mark class=\"clave-criterio\">más variabilidad genética</mark>, necesaria para <mark class=\"clave-criterio\">adaptarse a los cambios ambientales</mark>; donde el ambiente cambia más, <mark class=\"clave-criterio\">se han seleccionado</mark> los genotipos con <mark class=\"clave-criterio\">más reproducción sexual</mark> (0,5 p).",
+    "b) La población con <mark class=\"clave-criterio\">más reproducción sexual</mark>: produce <mark class=\"clave-criterio\">más genotipos diferentes</mark> y es más probable que alguno <mark class=\"clave-criterio\">se adapte y sobreviva</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de junio",
+    "referencia": "Reserva de junio, bloque B, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Reserva de junio, bloque B, pregunta 3, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-reserva-junio-b4",
+   "block": "Microbiología",
+   "topic": "Experimento de fabricación de yogur",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "En un experimento de laboratorio se intenta fabricar yogur. Para ello se preparan 4 vasos y se mezclan en cada uno 200 ml de leche con una cucharada pequeña de yogur. Cada vaso se somete a unas condiciones diferentes:<br>Vaso A: se mantiene a una temperatura de 40-45 ºC.<br>Vaso B: se mete directamente en el frigorífico a una temperatura de 4 ºC.<br>Vaso C: se le añaden 5 gramos de amoxicilina (antibiótico que inhibe la síntesis de la pared celular bacteriana) y se mantiene a una temperatura de 40-45 ºC.<br>Vaso D: se esteriliza y después se mantiene a una temperatura de 40-45 ºC.<br>Explique razonadamente cuáles serán los resultados esperados en cada uno de los 4 vasos después de tres horas en las condiciones descritas [1].",
+   "c": [
+    "Vaso A: <mark class=\"clave-criterio\">sí hay yogur</mark>: la temperatura permite que proliferen las bacterias de la <mark class=\"clave-criterio\">fermentación láctica</mark> (0,25 p).",
+    "Vaso B: <mark class=\"clave-criterio\">no</mark>: con el frío <mark class=\"clave-criterio\">se detiene el crecimiento de las bacterias</mark> (0,25 p).",
+    "Vaso C: <mark class=\"clave-criterio\">no</mark>: el antibiótico <mark class=\"clave-criterio\">inhibe el crecimiento de las bacterias lácticas</mark> (0,25 p).",
+    "Vaso D: <mark class=\"clave-criterio\">no</mark>: tras la esterilización <mark class=\"clave-criterio\">no quedan bacterias viables</mark> (0,25 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de junio",
+    "referencia": "Reserva de junio, bloque B, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Reserva de junio, bloque B, pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-reserva-junio-b5",
+   "block": "Inmunología",
+   "topic": "Vacuna de la tosferina en el embarazo",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "La tosferina es una enfermedad infecciosa que afecta al aparato respiratorio y que presenta el cuadro clínico más grave en niños lactantes, pudiendo causar su muerte. La medida de prevención más eficaz es la vacunación, pero ésta no resulta efectiva si se aplica a niños de menos de dos meses. Para que el recién nacido también esté protegido durante las primeras semanas de vida se recomienda vacunar a las madres durante el embarazo. Explique qué tipo de respuesta inmune se producirá en: a) la madre [0,25]; b) el recién nacido [0,25]. c) ¿Qué elementos del sistema inmunitario estarán implicados en cada caso? [0,25] d) ¿Será igual de duradera la protección en ambos casos? [0,25] Justifique las respuestas.",
+   "c": [
+    "a) Madre: respuesta <mark class=\"clave-criterio\">activa</mark> y <mark class=\"clave-criterio\">artificial</mark> (primaria, o secundaria si ya estaba vacunada) (0,25 p).",
+    "b) Recién nacido: respuesta <mark class=\"clave-criterio\">pasiva</mark> y <mark class=\"clave-criterio\">natural</mark>, aportada por la madre (0,25 p).",
+    "c) Madre: <mark class=\"clave-criterio\">linfocitos T y B</mark> y <mark class=\"clave-criterio\">anticuerpos</mark>; recién nacido: <mark class=\"clave-criterio\">solo anticuerpos</mark> (0,25 p).",
+    "d) <mark class=\"clave-criterio\">No</mark>: la protección pasiva <mark class=\"clave-criterio\">desaparece con el tiempo</mark>; la de la madre es <mark class=\"clave-criterio\">duradera</mark> gracias a la <mark class=\"clave-criterio\">memoria inmunitaria</mark> (0,25 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de junio",
+    "referencia": "Reserva de junio, bloque B, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Reserva de junio, bloque B, pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-reserva-junio-c1",
+   "block": "Biomoléculas",
+   "topic": "Almidón y enlace O-glucosídico",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la figura adjunta, conteste a las siguientes cuestiones:</b><br>a) Indique el nombre de la molécula representada [0,2].<br>b) Cite una función de la misma [0,2].<br>c) Nombre el monómero del recuadro [0,2] y cite su función principal [0,2].<br>d) ¿Qué tipo de enlace señala la flecha? [0,2]",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Almidón</mark> (amilosa) (0,2 p).",
+    "b) <mark class=\"clave-criterio\">Reserva energética en vegetales</mark> (0,2 p).",
+    "c) <mark class=\"clave-criterio\">Glucosa</mark> (0,2 p), el <mark class=\"clave-criterio\">azúcar más utilizado como fuente de energía</mark> (0,2 p).",
+    "d) <mark class=\"clave-criterio\">Enlace O-glucosídico</mark> (0,2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de junio",
+    "referencia": "Reserva de junio, bloque C, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/reserva-junio-c1.webp",
+   "imgThumb": "assets/figuras/historico/2021/reserva-junio-c1.thumb.webp",
+   "imageDesc": "Una larga cadena de anillos de seis átomos unidos por puentes de oxígeno que forma una hélice; un anillo aparece enmarcado y una flecha señala uno de los puentes.",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Reserva de junio, bloque C, pregunta 1, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-reserva-junio-c2",
+   "block": "Célula",
+   "topic": "Lisosomas: heterofagia y autofagia",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la figura adjunta, conteste las siguientes cuestiones:</b><br>a) ¿Cómo se denominan los orgánulos celulares representados en la figura con los números 1, 2, 3 y 4? [0,4]<br>b) ¿Cuál es el origen del orgánulo señalado con el número 1? [0,2]<br>c) Nombre los procesos que tendrán lugar tras la fusión de 1 con 2 y de 1 con 3 [0,4].",
+   "c": [
+    "a) 1: <mark class=\"clave-criterio\">lisosoma</mark>; 2: <mark class=\"clave-criterio\">fagosoma</mark>; 3: <mark class=\"clave-criterio\">autofagosoma</mark>; 4: <mark class=\"clave-criterio\">retículo endoplasmático</mark> (0,4 p).",
+    "b) El <mark class=\"clave-criterio\">complejo de Golgi</mark> (0,2 p).",
+    "c) 1 con 2: <mark class=\"clave-criterio\">heterofagia</mark>; 1 con 3: <mark class=\"clave-criterio\">autofagia</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de junio",
+    "referencia": "Reserva de junio, bloque C, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/reserva-junio-c2.webp",
+   "imgThumb": "assets/figuras/historico/2021/reserva-junio-c2.thumb.webp",
+   "imageDesc": "Célula con núcleo y un sistema de cisternas (4); pequeñas vesículas (1) se fusionan con una vesícula que contiene material captado del exterior (2) y con otra que rodea una mitocondria (3).",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Reserva de junio, bloque C, pregunta 2, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-reserva-junio-c3",
+   "block": "Genética",
+   "topic": "Enzimas de la replicación",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>Analice la figura adjunta y responda a las siguientes cuestiones:</b><br>a) ¿Qué proceso se representa en la imagen? [0,1]<br>b) Indique dos compartimentos de la célula eucariótica en los que se desarrolla este proceso [0,1].<br>c) Nombre las enzimas señaladas con las letras A, B, C y D [0,5].<br>d) Indique qué señalan los números 1, 2 y 3 [0,3].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Replicación del ADN</mark> (0,1 p).",
+    "b) <mark class=\"clave-criterio\">Núcleo</mark>, <mark class=\"clave-criterio\">mitocondria</mark> y <mark class=\"clave-criterio\">cloroplasto</mark>. Dos (0,1 p).",
+    "c) A: <mark class=\"clave-criterio\">topoisomerasa</mark>; B: <mark class=\"clave-criterio\">helicasa</mark>; C: <mark class=\"clave-criterio\">ADN polimerasa</mark>; D: <mark class=\"clave-criterio\">ADN ligasa</mark>; (los criterios añaden E: <mark class=\"clave-criterio\">ARN primasa</mark>) (0,5 p).",
+    "d) 1: <mark class=\"clave-criterio\">cadena retrasada</mark>; 2: <mark class=\"clave-criterio\">cadena adelantada</mark>; 3: <mark class=\"clave-criterio\">fragmento de Okazaki</mark> (0,3 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de junio",
+    "referencia": "Reserva de junio, bloque C, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/reserva-junio-c3.webp",
+   "imgThumb": "assets/figuras/historico/2021/reserva-junio-c3.thumb.webp",
+   "imageDesc": "Una burbuja con dos horquillas a partir de un ORI; se señalan con letras A a E varias piezas sobre las hebras, y con números 1 a 3 distintos tramos de hebra nueva (continua y a trozos).",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Reserva de junio, bloque C, pregunta 3, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-reserva-junio-c4",
+   "block": "Microbiología",
+   "topic": "Levaduras, bacterias y fagos",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con las figuras adjuntas, responda las siguientes cuestiones:</b><br>a) Identifique los microorganismos representados con las letras A y B [0,2] e indique, en cada caso, a qué Reino pertenecen [0,2] y el tipo de organización celular que poseen [0,2].<br>b) Indique qué está representado con la letra C [0,1] y a qué tipo de células puede parasitar [0,1].<br>c) ¿Cuál de estos microorganismos puede emplearse en la fabricación de cerveza? ¿Y en la de yogur? [0,2]",
+   "c": [
+    "a) A: <mark class=\"clave-criterio\">levaduras</mark> (Saccharomyces), reino <mark class=\"clave-criterio\">Fungi</mark>, <mark class=\"clave-criterio\">eucariota</mark>; B: <mark class=\"clave-criterio\">bacterias</mark>, reino <mark class=\"clave-criterio\">Monera</mark>, <mark class=\"clave-criterio\">procariota</mark> (0,6 p).",
+    "b) C: <mark class=\"clave-criterio\">bacteriófago</mark>, que parasita <mark class=\"clave-criterio\">bacterias</mark> (procariotas) (0,2 p).",
+    "c) Cerveza: <mark class=\"clave-criterio\">A</mark>; yogur: <mark class=\"clave-criterio\">B</mark> (0,2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de junio",
+    "referencia": "Reserva de junio, bloque C, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/reserva-junio-c4.webp",
+   "imgThumb": "assets/figuras/historico/2021/reserva-junio-c4.thumb.webp",
+   "imageDesc": "A: micrografía de células ovaladas agrupadas, algunas con yemas. B: célula alargada con flagelo y pelos. C: partícula con cabeza poliédrica, cola y patas.",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Reserva de junio, bloque C, pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-reserva-junio-c5",
+   "block": "Inmunología",
+   "topic": "Opsonización y fagocitosis",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la figura adjunta, conteste las siguientes cuestiones:</b><br>a) Identifique las células o moléculas indicadas como A, B y C en la imagen 1 [0,3].<br>b) ¿Qué células producen la molécula señalada como B? [0,2]<br>c) Nombre el proceso que transcurre en la imagen 2 [0,25].<br>d) Cite otro proceso en el que interviene la célula A [0,25].",
+   "c": [
+    "a) A: <mark class=\"clave-criterio\">macrófago</mark> y/o neutrófilo; B: <mark class=\"clave-criterio\">anticuerpo</mark> o IgG; C: <mark class=\"clave-criterio\">receptor de anticuerpo</mark> (0,3 p).",
+    "b) <mark class=\"clave-criterio\">Linfocitos B</mark> o <mark class=\"clave-criterio\">células plasmáticas</mark> (0,2 p).",
+    "c) <mark class=\"clave-criterio\">Fagocitosis</mark> (0,25 p). d) <mark class=\"clave-criterio\">Presentación de antígenos</mark> (0,25 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de junio",
+    "referencia": "Reserva de junio, bloque C, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/reserva-junio-c5.webp",
+   "imgThumb": "assets/figuras/historico/2021/reserva-junio-c5.thumb.webp",
+   "imageDesc": "Imagen 1: célula grande (A) con receptores (C) y una partícula recubierta de moléculas en forma de Y (B). Imagen 2: la célula rodea la partícula con su membrana.",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Reserva de junio, bloque C, pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-julio-a1",
+   "block": "Biomoléculas",
+   "topic": "Monosacáridos",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina qué son los monosacáridos [0,6] y cite dos de sus funciones [0,4]. b) Realice una clasificación de los mismos indicando el criterio utilizado [0,5]. c) Represente la fórmula desarrollada (lineal o cíclica) de la glucosa [0,5].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Polialcoholes con un grupo carbonilo</mark> (C=O); son las <mark class=\"clave-criterio\">unidades de los demás hidratos de carbono</mark> (0,6 p). Funciones: <mark class=\"clave-criterio\">estructural</mark> y <mark class=\"clave-criterio\">energética</mark> (0,4 p).",
+    "b) Cualquier clasificación correcta con su criterio (0,5 p): <span class=\"redactado\">por el grupo carbonilo, <mark class=\"clave-criterio\">aldosas</mark> y <mark class=\"clave-criterio\">cetosas</mark>; por el número de carbonos, <mark class=\"clave-criterio\">triosas, tetrosas, pentosas, hexosas y heptosas</mark></span>.",
+    "c) <mark class=\"clave-criterio\">Fórmula de la glucosa</mark>, lineal o cíclica (0,5 p): <span class=\"redactado\">CHO–CHOH–CHOH–CHOH–CHOH–CH₂OH</span>."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de julio",
+    "referencia": "Titular de julio, bloque A, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_BIOLOGIA-JULIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Titular de julio, bloque A, pregunta 1, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-julio-a2",
+   "block": "Célula",
+   "topic": "Componentes del núcleo interfásico",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Cite cuatro componentes principales del núcleo interfásico [0,4]. b) Indique la composición [0,8] y c) una función de cada uno de ellos [0,8].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Envoltura nuclear</mark>, <mark class=\"clave-criterio\">nucleoplasma</mark>, <mark class=\"clave-criterio\">cromatina</mark>, <mark class=\"clave-criterio\">nucléolo</mark>, poros nucleares. Cuatro (0,4 p).",
+    "b) Envoltura: <mark class=\"clave-criterio\">fosfolípidos, colesterol y proteínas</mark>; nucleoplasma: <mark class=\"clave-criterio\">agua, sales, nucleótidos y enzimas</mark>; cromatina: <mark class=\"clave-criterio\">ADN y proteínas</mark>; nucléolo: <mark class=\"clave-criterio\">ADN, ARN y proteínas</mark> (0,8 p).",
+    "c) Envoltura: <mark class=\"clave-criterio\">protección y transporte</mark>; nucleoplasma: <mark class=\"clave-criterio\">medio de las reacciones nucleares</mark>; cromatina: <mark class=\"clave-criterio\">contiene la información genética</mark>; nucléolo: <mark class=\"clave-criterio\">síntesis de ARN ribosómico</mark>. 0,2 p cada una (0,8 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de julio",
+    "referencia": "Titular de julio, bloque A, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_BIOLOGIA-JULIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Titular de julio, bloque A, pregunta 2, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-julio-a3",
+   "block": "Genética",
+   "topic": "Órganos homólogos y análogos",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina qué son órganos homólogos y órganos análogos [1]. b) Ponga un ejemplo de cada tipo [0,6]. c) Indique qué tipo de estos órganos aporta información para entender la evolución a partir de un antepasado común y por qué [0,4].",
+   "c": [
+    "a) Homólogos: <mark class=\"clave-criterio\">origen evolutivo común</mark> y <mark class=\"clave-criterio\">misma estructura básica</mark>, aunque realicen <mark class=\"clave-criterio\">distinta función</mark> (0,5 p). Análogos: <mark class=\"clave-criterio\">misma función</mark> pero <mark class=\"clave-criterio\">origen y estructura distintos</mark> (0,5 p).",
+    "b) Homólogos: <mark class=\"clave-criterio\">extremidades anteriores de los vertebrados</mark>; análogos: <mark class=\"clave-criterio\">ala de insecto y ala de ave</mark>. 0,3 p cada uno (0,6 p).",
+    "c) Los <mark class=\"clave-criterio\">homólogos</mark>, porque surgen de una <mark class=\"clave-criterio\">evolución divergente</mark> (<mark class=\"clave-criterio\">radiación adaptativa</mark>) (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de julio",
+    "referencia": "Titular de julio, bloque A, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_BIOLOGIA-JULIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Titular de julio, bloque A, pregunta 3, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-julio-a4",
+   "block": "Microbiología",
+   "topic": "Tabla de grupos de microorganismos",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Copie la siguiente tabla y rellene las casillas indicando las características de cada grupo de microorganismos [1,5]. b) Cite dos diferencias que distingan a los virus del resto de microorganismos [0,5].<table class=\"tabla-pau\"><tr><th></th><th>Algas</th><th>Bacterias</th><th>Hongos</th><th>Protozoos</th></tr><tr><td>Organización celular</td><td></td><td></td><td></td><td></td></tr><tr><td>Número de células</td><td></td><td></td><td></td><td></td></tr><tr><td>Tipo de nutrición</td><td></td><td></td><td></td><td></td></tr><tr><td>Realización de fotosíntesis</td><td></td><td></td><td></td><td></td></tr><tr><td>Tipo de división celular</td><td></td><td></td><td></td><td></td></tr></table>",
+   "c": [
+    "a) Organización: algas <mark class=\"clave-criterio\">eucariota</mark>, bacterias <mark class=\"clave-criterio\">procariota</mark>, hongos <mark class=\"clave-criterio\">eucariota</mark>, protozoos <mark class=\"clave-criterio\">eucariota</mark>. Número de células: algas <mark class=\"clave-criterio\">uni- y pluricelulares</mark>, bacterias <mark class=\"clave-criterio\">unicelulares</mark>, hongos <mark class=\"clave-criterio\">uni- y pluricelulares</mark>, protozoos <mark class=\"clave-criterio\">unicelulares</mark>.",
+    "a) Nutrición: algas <mark class=\"clave-criterio\">autótrofa</mark>, bacterias <mark class=\"clave-criterio\">autótrofa y heterótrofa</mark>, hongos <mark class=\"clave-criterio\">heterótrofa</mark>, protozoos <mark class=\"clave-criterio\">heterótrofa</mark>. Fotosíntesis: algas <mark class=\"clave-criterio\">sí</mark>, bacterias <mark class=\"clave-criterio\">sí</mark> <span class=\"redactado\">algunas</span>, hongos <mark class=\"clave-criterio\">no</mark>, protozoos <mark class=\"clave-criterio\">no</mark>. División: algas, hongos y protozoos <mark class=\"clave-criterio\">mitosis</mark>; bacterias <mark class=\"clave-criterio\">bipartición</mark>. 0,075 p por casilla (1,5 p).",
+    "b) <mark class=\"clave-criterio\">Genoma de ARN</mark> en algunos; <mark class=\"clave-criterio\">uno solo de los dos tipos de ácido nucleico</mark>; <mark class=\"clave-criterio\">sin metabolismo propio</mark>; <mark class=\"clave-criterio\">estructura acelular</mark>. Dos (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de julio",
+    "referencia": "Titular de julio, bloque A, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_BIOLOGIA-JULIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Titular de julio, bloque A, pregunta 4, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-julio-a5",
+   "block": "Inmunología",
+   "topic": "Tipos de respuesta inmunitaria",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Defina: a) respuesta inmunitaria congénita o innata [0,5]; b) respuesta inmunitaria adquirida o adaptativa [0,5]; c) respuesta humoral [0,5]; d) respuesta celular [0,5].",
+   "c": [
+    "a) Innata: <mark class=\"clave-criterio\">propia de la especie</mark> y <mark class=\"clave-criterio\">no precisa activación</mark> (0,5 p).",
+    "b) Adquirida: <mark class=\"clave-criterio\">propia del individuo</mark>, se desarrolla a lo largo de la vida <mark class=\"clave-criterio\">por contacto con antígenos</mark> (0,5 p).",
+    "c) Humoral: basada en la <mark class=\"clave-criterio\">producción de sustancias</mark>, esencialmente <mark class=\"clave-criterio\">anticuerpos</mark> (0,5 p).",
+    "d) Celular: basada en la <mark class=\"clave-criterio\">acción directa de células</mark> como <mark class=\"clave-criterio\">linfocitos T y macrófagos</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de julio",
+    "referencia": "Titular de julio, bloque A, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_BIOLOGIA-JULIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Titular de julio, bloque A, pregunta 5, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-julio-b1",
+   "block": "Biomoléculas",
+   "topic": "Fragmentos de tripsina y quimotripsina",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "La tripsina es una enzima proteolítica que cataliza la hidrólisis de los enlaces peptídicos en los que el grupo carboxilo es aportado por la Lys o Arg. a) Escriba la secuencia de los fragmentos resultantes de la acción de la tripsina en el péptido que se indica a continuación [0,5]. La quimotripsina tiene la misma función, pero corta por el extremo carboxilo del aminoácido Met. b) En este caso, ¿cuáles son los fragmentos resultantes? [0,5]<br>H₂N-Lys – Met – Cys – Met – Lys – Ala – Cys – Arg – Ala-COOH",
+   "c": [
+    "a) Tripsina: <mark class=\"clave-criterio\">H₂N-Lys-COOH + H₂N-Met-Cys-Met-Lys-COOH + H₂N-Ala-Cys-Arg-COOH + H₂N-Ala-COOH</mark> (0,5 p).",
+    "b) Quimotripsina: <mark class=\"clave-criterio\">H₂N-Lys-Met-COOH + H₂N-Cys-Met-COOH + H₂N-Lys-Ala-Cys-Arg-Ala-COOH</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de julio",
+    "referencia": "Titular de julio, bloque B, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_BIOLOGIA-JULIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Titular de julio, bloque B, pregunta 1, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-julio-b2",
+   "block": "Metabolismo",
+   "topic": "Transportadores de glucosa dañados",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Un individuo ingiere una sustancia que causa daños en los transportadores de glucosa de las membranas celulares. a) ¿Se afectará por este motivo la respiración celular? [0,6] b) ¿Podrá sobrevivir este individuo? [0,4] Razone las respuestas.",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Sí</mark>: si la glucosa <mark class=\"clave-criterio\">no entra en la célula</mark>, no puede usarse para obtener energía y sus metabolitos <mark class=\"clave-criterio\">no participan en la respiración celular</mark> (0,6 p).",
+    "b) <mark class=\"clave-criterio\">Sí</mark>: podrá obtener energía <mark class=\"clave-criterio\">a partir de proteínas y ácidos grasos</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de julio",
+    "referencia": "Titular de julio, bloque B, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_BIOLOGIA-JULIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Titular de julio, bloque B, pregunta 2, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-julio-b3",
+   "block": "Genética",
+   "topic": "Cruce de cobayas negras (3:1)",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "La pigmentación del pelo de una determinada línea de cobayas de laboratorio se debe a un gen con dos alelos, que determinan el color blanco o negro. Se observó que, al cruzar un macho negro con una hembra negra en sucesivas ocasiones, se obtuvo de ellos una descendencia de 85 cobayas, de los cuales 64 eran negras y 21 blancas. Indique, realizando los correspondientes cruzamientos, lo siguiente: a) los genotipos de las cobayas que se cruzan [0,25]; b) los fenotipos y los genotipos de las cobayas obtenidas [0,25]; c) el color y la proporción de la descendencia que es heterocigótica [0,25]; d) justifique si estos resultados se ajustan a alguna de las leyes de Mendel [0,25].",
+   "c": [
+    "a) Ambos progenitores <mark class=\"clave-criterio\">heterocigóticos Nn</mark> (0,25 p).",
+    "b) Negros: <mark class=\"clave-criterio\">NN (25 %) o Nn (50 %)</mark>; blancos: <mark class=\"clave-criterio\">nn (25 %)</mark> <span class=\"redactado\">64:21 ≈ 3:1</span> (0,25 p).",
+    "c) Heterocigóticas: cobayas <mark class=\"clave-criterio\">negras Nn</mark>, el <mark class=\"clave-criterio\">50 %</mark> (0,25 p).",
+    "d) <mark class=\"clave-criterio\">Sí</mark>, a la <mark class=\"clave-criterio\">segunda ley de Mendel</mark> (segregación) (0,25 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de julio",
+    "referencia": "Titular de julio, bloque B, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_BIOLOGIA-JULIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Titular de julio, bloque B, pregunta 3, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-julio-b4",
+   "block": "Microbiología",
+   "topic": "Tratamientos antivirales que bloquean la entrada",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "En algunos tratamientos para enfermedades de origen vírico se utilizan macromoléculas que se unen a ciertas proteínas de la superficie del virus (de la envoltura de la cápsida). Indique razonadamente el fundamento de este tratamiento [1].",
+   "c": [
+    "Se <mark class=\"clave-criterio\">bloquea la interacción entre las proteínas de la superficie del virus</mark> y las <mark class=\"clave-criterio\">proteínas de la superficie de las células</mark> que va a infectar; así se <mark class=\"clave-criterio\">impide la entrada del virus</mark> y el progreso de la enfermedad (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de julio",
+    "referencia": "Titular de julio, bloque B, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_BIOLOGIA-JULIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Titular de julio, bloque B, pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-julio-b5",
+   "block": "Inmunología",
+   "topic": "Vacunados sin anticuerpos: memoria inmunológica",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Es frecuente que personas vacunadas frente a una enfermedad infecciosa durante la infancia no presenten anticuerpos frente a la misma después de algunos años; a) ¿quiere decir esto necesariamente que han perdido la inmunidad frente a esa enfermedad? [0,5] b) Si inyectamos el antígeno del agente infeccioso a un grupo de personas y se deja transcurrir una semana, ¿cómo se podría distinguir entre las personas que fueron vacunadas con anterioridad y las que no mediante un análisis de sangre? [0,5] Justifique las respuestas.",
+   "c": [
+    "a) <mark class=\"clave-criterio\">No</mark>: los anticuerpos <mark class=\"clave-criterio\">duran un tiempo limitado</mark>, pero la inmunidad persiste gracias a las <mark class=\"clave-criterio\">células de memoria</mark>, capaces de una <mark class=\"clave-criterio\">respuesta secundaria</mark> (0,5 p).",
+    "b) Los vacunados darán una <mark class=\"clave-criterio\">respuesta secundaria</mark>, <mark class=\"clave-criterio\">más rápida e intensa</mark>, con <mark class=\"clave-criterio\">IgG</mark>; los no vacunados, una <mark class=\"clave-criterio\">respuesta primaria</mark>, más lenta y débil, con predominio de <mark class=\"clave-criterio\">IgM</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de julio",
+    "referencia": "Titular de julio, bloque B, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_BIOLOGIA-JULIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Titular de julio, bloque B, pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-julio-c1",
+   "block": "Biomoléculas",
+   "topic": "Ribosa, desoxirribosa, nucleósidos y nucleótidos",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>Teniendo en cuenta la figura adjunta, indique:</b><br>a) El nombre de cada una de las dos moléculas mostradas [0,3].<br>b) ¿Cómo se denomina la biomolécula que se forma cuando se une a cada una de estas moléculas una base nitrogenada púrica o pirimídica? [0,15]<br>c) ¿Y cuándo se une además la molécula de ácido fosfórico? [0,15]<br>d) Cuando se unen muchas de estas últimas biomoléculas a través de enlaces fosfodiéster, ¿cuál es la función biológica principal del polímero que resulta? [0,2]<br>e) Indique una función para la biomolécula del apartado “c” cuando se encuentra libre no formando parte de un polímero [0,2].",
+   "c": [
+    "a) A: <mark class=\"clave-criterio\">desoxirribosa</mark> (β-D-2'-desoxirribosa); B: <mark class=\"clave-criterio\">ribosa</mark> (β-D-ribosa) (0,3 p).",
+    "b) <mark class=\"clave-criterio\">Nucleósido</mark> (0,15 p). c) <mark class=\"clave-criterio\">Nucleótido</mark> (0,15 p).",
+    "d) <mark class=\"clave-criterio\">Formar los ácidos nucleicos</mark>: <mark class=\"clave-criterio\">portar la información genética</mark> (0,2 p).",
+    "e) <mark class=\"clave-criterio\">Coenzimas</mark>, <mark class=\"clave-criterio\">moneda energética</mark> (ATP), <mark class=\"clave-criterio\">intermediario de la acción hormonal</mark> (AMPc). Una (0,2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de julio",
+    "referencia": "Titular de julio, bloque C, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_BIOLOGIA-JULIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/julio-c1.webp",
+   "imgThumb": "assets/figuras/historico/2021/julio-c1.thumb.webp",
+   "imageDesc": "Dos anillos de cinco átomos con un grupo CH₂OH: A tiene un OH y un H en los carbonos inferiores; B tiene dos OH.",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Titular de julio, bloque C, pregunta 1, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-julio-c2",
+   "block": "Célula",
+   "topic": "Fases del ciclo celular en una célula animal",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la figura adjunta, conteste a las siguientes cuestiones:</b><br>a) Indique, ordenándolos temporalmente, qué momento del ciclo celular representa cada esquema de la figura [0,6].<br>b) Nombre tres componentes celulares representados en el esquema D [0,3].<br>c) Indique dos características que permitan saber si se trata de una célula procariótica, eucariótica animal o vegetal [0,1].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">E: interfase</mark>; <mark class=\"clave-criterio\">B: profase</mark>; <mark class=\"clave-criterio\">D: metafase</mark>; <mark class=\"clave-criterio\">C: anafase</mark>; <mark class=\"clave-criterio\">A: telofase</mark>; <mark class=\"clave-criterio\">F: citocinesis</mark> (se admite E al final) (0,6 p).",
+    "b) <mark class=\"clave-criterio\">Cromosomas</mark>, <mark class=\"clave-criterio\">microtúbulos</mark>, <mark class=\"clave-criterio\">centriolos</mark>, membrana plasmática. Tres (0,3 p).",
+    "c) Es una <mark class=\"clave-criterio\">eucariótica animal</mark>: tiene <mark class=\"clave-criterio\">centriolos</mark>, <mark class=\"clave-criterio\">no tiene pared celular</mark> y la citocinesis es por <mark class=\"clave-criterio\">surco de segmentación</mark> (0,1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de julio",
+    "referencia": "Titular de julio, bloque C, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_BIOLOGIA-JULIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/julio-c2.webp",
+   "imgThumb": "assets/figuras/historico/2021/julio-c2.thumb.webp",
+   "imageDesc": "Seis esquemas de una célula redonda: D, cromosomas en el centro con fibras; B, cromosomas condensados en el núcleo; A, célula estrangulada con dos núcleos; C, cromosomas hacia los polos; E, núcleo con cromatina; F, dos células separándose.",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Titular de julio, bloque C, pregunta 2, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-julio-c3",
+   "block": "Genética",
+   "topic": "Transcripción y traducción",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la figura adjunta, conteste las siguientes cuestiones:</b><br>a) Indique el nombre de las moléculas 1, 2 y 3 [0,3].<br>b) ¿Qué representan las letras A y B? [0,2]<br>c) Cite los procesos realizados por A y por B [0,2].<br>d) Indique en qué lugar de la célula eucariótica se produce cada uno de los dos procesos [0,2].<br>e) Nombre una molécula similar a 2 y que forme parte de B [0,1].",
+   "c": [
+    "a) 1: <mark class=\"clave-criterio\">ADN</mark>; 2: <mark class=\"clave-criterio\">ARN mensajero</mark>; 3: <mark class=\"clave-criterio\">proteína</mark> (cadena polipeptídica) (0,3 p).",
+    "b) A: <mark class=\"clave-criterio\">ARN polimerasa</mark>; B: <mark class=\"clave-criterio\">ribosoma</mark> (0,2 p).",
+    "c) A: <mark class=\"clave-criterio\">transcripción</mark>; B: <mark class=\"clave-criterio\">traducción</mark> (0,2 p).",
+    "d) Transcripción: <mark class=\"clave-criterio\">núcleo</mark>; traducción: <mark class=\"clave-criterio\">citosol</mark> (0,2 p).",
+    "e) <mark class=\"clave-criterio\">ARN ribosómico</mark> (0,1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de julio",
+    "referencia": "Titular de julio, bloque C, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_BIOLOGIA-JULIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/julio-c3.webp",
+   "imgThumb": "assets/figuras/historico/2021/julio-c3.thumb.webp",
+   "imageDesc": "Una doble hélice (1) sobre la que actúa A produce una hebra sencilla (2); sobre esta actúa B y se forma una cadena de cuentas (3).",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Titular de julio, bloque C, pregunta 3, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-julio-c4",
+   "block": "Microbiología",
+   "topic": "Estructura del VIH",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la figura adjunta, que representa al VIH, indique:</b><br>a) Si se trata de un virus desnudo o envuelto [0,1] y a qué tipo de células puede infectar [0,1].<br>b) Tipo de ácido nucleico representado con el número 1 [0,2].<br>c) Número que se corresponde con la cápsida [0,1] y composición química de dicha estructura [0,1].<br>d) Número que representa la estructura a través de la cual el virus reconoce a sus células dianas [0,1]. ¿Cuál es su composición química? [0,1]<br>e) ¿Qué número representa una enzima esencial en el ciclo de vida de este virus? [0,1] ¿Qué nombre recibe esta enzima? [0,1]",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Envuelto</mark>; infecta <mark class=\"clave-criterio\">linfocitos T</mark> (0,2 p).",
+    "b) <mark class=\"clave-criterio\">ARN</mark> (0,2 p).",
+    "c) <mark class=\"clave-criterio\">3</mark>; <mark class=\"clave-criterio\">proteínas</mark> (0,2 p).",
+    "d) <mark class=\"clave-criterio\">4</mark>; <mark class=\"clave-criterio\">glucoproteínas</mark> (0,2 p).",
+    "e) <mark class=\"clave-criterio\">2</mark>; <mark class=\"clave-criterio\">retrotranscriptasa</mark> o <mark class=\"clave-criterio\">transcriptasa inversa</mark> (0,2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de julio",
+    "referencia": "Titular de julio, bloque C, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_BIOLOGIA-JULIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/julio-c4.webp",
+   "imgThumb": "assets/figuras/historico/2021/julio-c4.thumb.webp",
+   "imageDesc": "Partícula esférica con una bicapa externa con salientes (4), una cubierta interna (3) y, dentro, dos hebras (1) con pequeñas moléculas asociadas (2).",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Titular de julio, bloque C, pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-julio-c5",
+   "block": "Inmunología",
+   "topic": "Presentación de antígenos",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la imagen adjunta, conteste las siguientes cuestiones:</b><br>a) ¿Qué representa la imagen en su conjunto? [0,2]<br>b) Nombre cada uno de los procesos que tienen lugar en ese momento, indicados en la figura como A, B y C [0,3].<br>c) Nombre las células, moléculas o complejos indicados en la figura como 1, 2, 3, 4 y 5 [0,5].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Presentación de antígenos por los macrófagos a los linfocitos T</mark> (0,2 p).",
+    "b) A: <mark class=\"clave-criterio\">fagocitosis</mark>; B: <mark class=\"clave-criterio\">procesamiento del antígeno</mark> (digestión); C: <mark class=\"clave-criterio\">presentación del antígeno a los linfocitos T</mark> (0,3 p).",
+    "c) 1: <mark class=\"clave-criterio\">macrófago</mark>; 2: <mark class=\"clave-criterio\">microorganismo</mark> (elemento extraño); 3: <mark class=\"clave-criterio\">antígenos</mark>; 4: <mark class=\"clave-criterio\">proteínas del complejo mayor de histocompatibilidad</mark>; 5: <mark class=\"clave-criterio\">linfocito T colaborador</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de julio",
+    "referencia": "Titular de julio, bloque C, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_BIOLOGIA-JULIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/julio-c5.webp",
+   "imgThumb": "assets/figuras/historico/2021/julio-c5.thumb.webp",
+   "imageDesc": "A: una célula (1) engloba una partícula (2). B: dentro de la célula aparecen fragmentos (3). C: los fragmentos se exponen en la superficie unidos a moléculas (4) y los reconoce otra célula redonda (5).",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Titular de julio, bloque C, pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-suplente-julio-a1",
+   "block": "Biomoléculas",
+   "topic": "Estructura primaria y secundaria del ADN",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "En relación con el ADN: a) explique su estructura primaria [0,5] y b) su estructura secundaria [1]. c) Indique en qué consiste la desnaturalización de la estructura secundaria del ADN [0,3] y d) dos factores que la ocasionen [0,2].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Secuencia de desoxirribonucleótidos unidos por enlaces fosfodiéster</mark> (0,5 p).",
+    "b) <mark class=\"clave-criterio\">Dos cadenas antiparalelas</mark> enrolladas formando una <mark class=\"clave-criterio\">doble hélice</mark>, con las <mark class=\"clave-criterio\">bases en el interior</mark>, <mark class=\"clave-criterio\">complementarias</mark> y unidas por <mark class=\"clave-criterio\">puentes de hidrógeno</mark> (A=T, C≡G) (1 p).",
+    "c) <mark class=\"clave-criterio\">Pérdida de la doble hélice</mark> por <mark class=\"clave-criterio\">rotura de los puentes de hidrógeno</mark>: <mark class=\"clave-criterio\">las hebras se separan</mark> (0,3 p).",
+    "d) Cambios de <mark class=\"clave-criterio\">temperatura</mark>, de <mark class=\"clave-criterio\">pH</mark> o de las <mark class=\"clave-criterio\">condiciones iónicas</mark>. Dos (0,2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de julio",
+    "referencia": "Suplente de julio, bloque A, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Suplente de julio, bloque A, pregunta 1, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-suplente-julio-a2",
+   "block": "Metabolismo",
+   "topic": "Ciclo de Krebs",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina ciclo de Krebs [0,4]. b) Indique en qué parte de la célula vegetal se realiza [0,2]. c) Cite los dos compuestos imprescindibles para comenzar cada vuelta del ciclo [0,2] y d) de dónde procede cada uno de ellos [0,4]. e) Nombre los productos del ciclo de Krebs que al oxidarse ceden sus electrones a la cadena de transporte electrónico [0,4]. f) ¿En qué se diferencian el ciclo de Krebs y el ciclo de Calvin con respecto al ATP? [0,4]",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Vía metabólica central</mark> de los aerobios que <mark class=\"clave-criterio\">oxida los grupos acetilo hasta CO₂</mark> y produce <mark class=\"clave-criterio\">ATP y NADH</mark> (0,4 p).",
+    "b) <mark class=\"clave-criterio\">Matriz mitocondrial</mark> (0,2 p). c) <mark class=\"clave-criterio\">Oxalacético</mark> y <mark class=\"clave-criterio\">acetil-CoA</mark> (0,2 p).",
+    "d) El oxalacético <mark class=\"clave-criterio\">se regenera en cada vuelta</mark>; el acetil-CoA procede de la <mark class=\"clave-criterio\">descarboxilación oxidativa del pirúvico</mark> o de la <mark class=\"clave-criterio\">β-oxidación</mark> (0,4 p).",
+    "e) <mark class=\"clave-criterio\">NADH</mark> y <mark class=\"clave-criterio\">FADH₂</mark> (0,4 p).",
+    "f) El ciclo de Krebs es <mark class=\"clave-criterio\">catabólico</mark> y <mark class=\"clave-criterio\">produce ATP</mark>; el de Calvin es <mark class=\"clave-criterio\">anabólico</mark> y <mark class=\"clave-criterio\">consume ATP</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de julio",
+    "referencia": "Suplente de julio, bloque A, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Suplente de julio, bloque A, pregunta 2, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-suplente-julio-a3",
+   "block": "Genética",
+   "topic": "Segunda ley de Mendel y cruzamiento prueba",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Enuncie [0,5] y b) realice un esquema de la segunda ley de Mendel [0,5]. c) Explique en qué consiste el cruzamiento prueba [0,5] y d) realice un esquema del mismo [0,5].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Ley de la segregación</mark>: al cruzar los <mark class=\"clave-criterio\">híbridos de la F1</mark> aparece en la F2 una proporción <mark class=\"clave-criterio\">3:1</mark>, reapareciendo el carácter que había desaparecido, porque <mark class=\"clave-criterio\">los alelos se separan sin modificarse</mark> (0,5 p).",
+    "b) Esquema: <mark class=\"clave-criterio\">Aa × Aa → 25 % AA, 50 % Aa, 25 % aa</mark> (0,5 p).",
+    "c) Cruce de un individuo de <mark class=\"clave-criterio\">fenotipo dominante</mark> y genotipo desconocido con un <mark class=\"clave-criterio\">homocigótico recesivo</mark> para <mark class=\"clave-criterio\">averiguar su genotipo</mark> (0,5 p).",
+    "d) Esquema: <mark class=\"clave-criterio\">aa × AA → 100 % dominante</mark>; <mark class=\"clave-criterio\">aa × Aa → 50 % dominante y 50 % recesivo</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de julio",
+    "referencia": "Suplente de julio, bloque A, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Suplente de julio, bloque A, pregunta 3, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-suplente-julio-a4",
+   "block": "Microbiología",
+   "topic": "Componentes de la célula bacteriana",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Dibuje una bacteria [0,3] e b) identifique claramente siete de sus componentes [0,7]. c) Cite una función de cinco de estos componentes [1].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Dibujo</mark> de una bacteria (0,3 p).",
+    "b) <mark class=\"clave-criterio\">Flagelos</mark>, <mark class=\"clave-criterio\">pili</mark>, <mark class=\"clave-criterio\">fimbrias</mark>, <mark class=\"clave-criterio\">cápsula</mark>, <mark class=\"clave-criterio\">pared celular</mark>, <mark class=\"clave-criterio\">membrana plasmática</mark>, <mark class=\"clave-criterio\">citoplasma</mark>, <mark class=\"clave-criterio\">cromosoma bacteriano</mark>, <mark class=\"clave-criterio\">plásmidos</mark>, <mark class=\"clave-criterio\">ribosomas</mark>, vesículas de gas, inclusiones. Siete (0,7 p).",
+    "c) Flagelos: <mark class=\"clave-criterio\">movilidad</mark>; pili: <mark class=\"clave-criterio\">transferencia de material genético</mark>; fimbrias: <mark class=\"clave-criterio\">adhesión</mark>; cápsula: <mark class=\"clave-criterio\">protección frente a la fagocitosis y la desecación</mark>; pared: <mark class=\"clave-criterio\">forma y rigidez</mark>, soporta presiones osmóticas; membrana: <mark class=\"clave-criterio\">permeabilidad selectiva</mark>; cromosoma: <mark class=\"clave-criterio\">información genética</mark>; plásmidos: <mark class=\"clave-criterio\">características ventajosas</mark>; ribosomas: <mark class=\"clave-criterio\">síntesis de proteínas</mark>. Cinco, a 0,2 p (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de julio",
+    "referencia": "Suplente de julio, bloque A, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Suplente de julio, bloque A, pregunta 4, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-suplente-julio-a5",
+   "block": "Inmunología",
+   "topic": "Hipersensibilidad, autoinmunidad e inmunodeficiencia",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina hipersensibilidad, autoinmunidad e inmunodeficiencia [1,2]. b) Cite un ejemplo de una inmunodeficiencia de origen infeccioso y de otra que no lo sea [0,2]. c) Describa el mecanismo por el que se produce la inmunodeficiencia de origen infeccioso que ha citado en el apartado anterior [0,6].",
+   "c": [
+    "a) Hipersensibilidad: <mark class=\"clave-criterio\">respuesta inadecuada o exagerada</mark>. Autoinmunidad: <mark class=\"clave-criterio\">respuesta contra moléculas, células o tejidos propios</mark>. Inmunodeficiencia: <mark class=\"clave-criterio\">incapacidad para defender al organismo frente a las infecciones</mark> (1,2 p).",
+    "b) Infecciosa: <mark class=\"clave-criterio\">SIDA</mark>; no infecciosa: <mark class=\"clave-criterio\">inmunodeficiencia combinada severa</mark> (niño burbuja) (0,2 p).",
+    "c) El <mark class=\"clave-criterio\">VIH infecta los linfocitos T4 (colaboradores)</mark> y causa su muerte, así que el enfermo <mark class=\"clave-criterio\">no puede dar una respuesta adecuada frente a otras infecciones</mark> (0,6 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de julio",
+    "referencia": "Suplente de julio, bloque A, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Suplente de julio, bloque A, pregunta 5, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-suplente-julio-b1",
+   "block": "Biotecnología",
+   "topic": "Introducir ADN con una bicapa lipídica",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Una de las estrategias para introducir ADN extraño en una célula eucariótica es rodearlo de una bicapa lipídica. Explique de manera razonada por qué así se facilita la entrada de ADN en la célula eucariótica [1].",
+   "c": [
+    "Los lípidos, por su <mark class=\"clave-criterio\">carácter anfipático</mark>, <mark class=\"clave-criterio\">se fusionan con la bicapa de la membrana</mark>, formada por los <mark class=\"clave-criterio\">mismos componentes</mark>, e <mark class=\"clave-criterio\">introducen el ADN en el citoplasma</mark> (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de julio",
+    "referencia": "Suplente de julio, bloque B, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Suplente de julio, bloque B, pregunta 1, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-suplente-julio-b2",
+   "block": "Célula",
+   "topic": "Replicación y número de cromosomas",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Durante el ciclo celular se observa que una célula pasa por una primera etapa, interfase, donde se duplica el ADN, y por una segunda etapa, división celular, donde los cromosomas son visibles. ¿Aumenta el número de cromosomas como consecuencia de la duplicación del ADN en esa célula? Razone la respuesta [1].",
+   "c": [
+    "<mark class=\"clave-criterio\">No</mark>: al duplicarse el ADN los cromosomas aparecen con <mark class=\"clave-criterio\">dos cromátidas</mark>, pero el <mark class=\"clave-criterio\">número de cromosomas sigue siendo el mismo</mark> (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de julio",
+    "referencia": "Suplente de julio, bloque B, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Suplente de julio, bloque B, pregunta 2, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-suplente-julio-b3",
+   "block": "Genética",
+   "topic": "Evolución sin mutaciones",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) ¿Podría evolucionar una población de organismos genotípicamente idénticos que se reproducen asexualmente si no se produjeran mutaciones? [0,5] b) ¿Y si se reprodujeran sexualmente y también sin mutaciones? [0,5]. Razone las respuestas.",
+   "c": [
+    "a) <mark class=\"clave-criterio\">No</mark>: sin mutación ni recombinación <mark class=\"clave-criterio\">no hay variabilidad genética</mark> y la población <mark class=\"clave-criterio\">no puede evolucionar</mark> (0,5 p).",
+    "b) <mark class=\"clave-criterio\">Sí</mark>: la <mark class=\"clave-criterio\">reproducción sexual</mark> es una <mark class=\"clave-criterio\">fuente de variabilidad genética</mark> <span class=\"redactado\">recombinación y segregación</span> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de julio",
+    "referencia": "Suplente de julio, bloque B, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Suplente de julio, bloque B, pregunta 3, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-suplente-julio-b4",
+   "block": "Microbiología",
+   "topic": "Viroide del tubérculo fusiforme de la patata",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "La enfermedad del tubérculo fusiforme de la patata provoca, entre otros síntomas, la deformación y la reducción en el tamaño de las patatas, generando importantes pérdidas económicas en los cultivos. Tras aislar el agente causante y realizar diversas pruebas, se observó que no era visible al microscopio óptico y que mantenía su capacidad infectiva cuando era sometido a la acción de enzimas peptidasas (hidrolizan enlaces peptídicos) y desoxirribonucleasas (hidrolizan cadenas de ADN). a) ¿Podría ser un virus el causante de la enfermedad? [0,4] b) Si se alimentaran vacas con estas patatas infectadas, ¿podría desarrollar el ganado el mal de las vacas locas? [0,6] Razone adecuadamente las respuestas.",
+   "c": [
+    "a) <mark class=\"clave-criterio\">No</mark>: los virus tienen <mark class=\"clave-criterio\">proteínas</mark>, que serían <mark class=\"clave-criterio\">degradadas por las peptidasas</mark> (0,4 p).",
+    "b) <mark class=\"clave-criterio\">No</mark>: el agente es un <mark class=\"clave-criterio\">viroide</mark> <span class=\"redactado\">ARN desnudo</span>, mientras que el mal de las vacas locas lo causa un <mark class=\"clave-criterio\">prion</mark> (0,6 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de julio",
+    "referencia": "Suplente de julio, bloque B, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Suplente de julio, bloque B, pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-suplente-julio-b5",
+   "block": "Inmunología",
+   "topic": "IgG y paso de anticuerpos por la placenta",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Explique razonadamente qué genes que controlan el funcionamiento del sistema inmunológico de la madre deberían verse afectados por una mutación para que el feto no pudiera adquirir inmunidad adaptativa natural y pasiva [1].",
+   "c": [
+    "Los <mark class=\"clave-criterio\">genes que codifican la inmunoglobulina G</mark>, porque las <mark class=\"clave-criterio\">IgG</mark> son los <mark class=\"clave-criterio\">únicos anticuerpos que atraviesan la placenta</mark> y dan al feto <mark class=\"clave-criterio\">inmunidad natural pasiva</mark> (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de julio",
+    "referencia": "Suplente de julio, bloque B, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Suplente de julio, bloque B, pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-suplente-julio-c1",
+   "block": "Metabolismo",
+   "topic": "pH óptimo de enzimas digestivas",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la imagen adjunta, conteste las siguientes cuestiones:</b><br>a) ¿Cuáles son los valores óptimos de pH de las enzimas A, B y C? [0,3]<br>b) Indique un lugar del tracto digestivo donde podría funcionar la enzima A y otro donde podría funcionar la enzima C [0,3].<br>c) Cite otros dos factores que influyen sobre la actividad enzimática [0,4].",
+   "c": [
+    "a) Alrededor de <mark class=\"clave-criterio\">3, 7 y 8</mark>, respectivamente (0,3 p).",
+    "b) A: <mark class=\"clave-criterio\">estómago</mark>; C: <mark class=\"clave-criterio\">intestino delgado</mark> (duodeno) (0,3 p).",
+    "c) <mark class=\"clave-criterio\">Temperatura</mark>, <mark class=\"clave-criterio\">concentración de sustrato</mark>, <mark class=\"clave-criterio\">concentración de enzima</mark>, <mark class=\"clave-criterio\">inhibidores</mark> y <mark class=\"clave-criterio\">activadores</mark>. Dos (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de julio",
+    "referencia": "Suplente de julio, bloque C, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/suplente-julio-c1.webp",
+   "imgThumb": "assets/figuras/historico/2021/suplente-julio-c1.thumb.webp",
+   "imageDesc": "Gráfica de actividad enzimática frente al pH con tres curvas: A con el máximo hacia la izquierda, B y C con máximos más a la derecha.",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Suplente de julio, bloque C, pregunta 1, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-suplente-julio-c2",
+   "block": "Célula",
+   "topic": "Citoesqueleto: microtúbulos y actina",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la figura adjunta, conteste las siguientes cuestiones:</b><br>a) Nombre los dos componentes del citoesqueleto que están representados en A y B [0,2].<br>b) Las figuras señaladas con los números del 1 al 4 representan cuatro funciones desempeñadas por el citoesqueleto. Identifique, en cada caso, de qué función se trata y qué elemento del citoesqueleto la realiza [0,8].",
+   "c": [
+    "a) A: <mark class=\"clave-criterio\">microtúbulo</mark>; B: <mark class=\"clave-criterio\">filamento de actina</mark> (0,2 p).",
+    "b) 1: <mark class=\"clave-criterio\">citocinesis</mark> de célula animal, <mark class=\"clave-criterio\">actina</mark>; 2: <mark class=\"clave-criterio\">movimiento del flagelo</mark> del espermatozoide, <mark class=\"clave-criterio\">microtúbulos</mark>; 3: <mark class=\"clave-criterio\">movimiento de los cromosomas</mark> en la división, <mark class=\"clave-criterio\">microtúbulos</mark>; 4: <mark class=\"clave-criterio\">movimiento ameboide</mark>, <mark class=\"clave-criterio\">actina</mark>. 0,2 p cada uno (0,8 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de julio",
+    "referencia": "Suplente de julio, bloque C, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/suplente-julio-c2.webp",
+   "imgThumb": "assets/figuras/historico/2021/suplente-julio-c2.thumb.webp",
+   "imageDesc": "A: tubo hueco de subunidades (con su luz); B: fibra de dos cadenas de esferas enrolladas. 1: célula estrangulándose en dos; 2: espermatozoide; 3: célula con huso y cromosomas; 4: célula emitiendo prolongaciones al desplazarse.",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Suplente de julio, bloque C, pregunta 2, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-suplente-julio-c3",
+   "block": "Genética",
+   "topic": "Dihibridismo en el guisante",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En la planta del guisante los caracteres que determinan el color de la vaina (oscuro o moteado) y la rugosidad de la misma (lisa o rugosa) se sabe que son rasgos independientes heredables por la descendencia. Atendiendo al cruzamiento mostrado en la imagen, en el que el parental 1 es oscuro y liso, el parental 2 moteado y rugoso, y todos los descendientes 3 oscuros y lisos, responda a las siguientes cuestiones:</b><br>a) ¿Cuál es el genotipo de los parentales 1 y 2? [0,5]<br>b) ¿Y el de la descendencia 3? [0,25]<br>c) Indique el porcentaje de homocigóticos en la descendencia [0,25].<br>Justifique las respuestas con los cruces correspondientes, utilizando la siguiente notación: A para color y B para la rugosidad.",
+   "c": [
+    "a) Parental 1: <mark class=\"clave-criterio\">AABB</mark>; parental 2: <mark class=\"clave-criterio\">aabb</mark> (0,5 p).",
+    "b) Descendencia 3: <mark class=\"clave-criterio\">AaBb</mark> (0,25 p).",
+    "c) <mark class=\"clave-criterio\">0 % homocigóticos</mark>: el 100 % son <mark class=\"clave-criterio\">AaBb</mark> (0,25 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de julio",
+    "referencia": "Suplente de julio, bloque C, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/suplente-julio-c3.webp",
+   "imgThumb": "assets/figuras/historico/2021/suplente-julio-c3.thumb.webp",
+   "imageDesc": "Una vaina oscura y lisa (1) cruzada con una vaina moteada y rugosa (2) da una vaina oscura y lisa (3).",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Suplente de julio, bloque C, pregunta 3, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-suplente-julio-c4",
+   "block": "Microbiología",
+   "topic": "Ciclo del VIH",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>A la vista del siguiente esquema, que representa el ciclo simplificado del VIH, conteste las siguientes cuestiones:</b><br>a) ¿Qué procesos indican los números del 1 al 8? [0,8]<br>b) ¿Cuál es la naturaleza química de la estructura con la que el virus reconoce a la célula? [0,1]<br>c) Nombre la célula que es infectada por el VIH [0,1].",
+   "c": [
+    "a) 1: <mark class=\"clave-criterio\">adsorción y penetración</mark>; 2: <mark class=\"clave-criterio\">liberación del ARN vírico</mark>; 3: <mark class=\"clave-criterio\">transcripción inversa</mark>; 4: <mark class=\"clave-criterio\">inserción del ADN vírico en el ADN celular</mark>; 5: <mark class=\"clave-criterio\">transcripción del ARN vírico</mark>; 6: <mark class=\"clave-criterio\">traducción de proteínas víricas</mark>; 7: <mark class=\"clave-criterio\">ensamblaje</mark>; 8: <mark class=\"clave-criterio\">liberación de los viriones</mark> (0,8 p).",
+    "b) <mark class=\"clave-criterio\">Glucoproteica</mark> (0,1 p).",
+    "c) <mark class=\"clave-criterio\">Linfocito T</mark> (0,1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de julio",
+    "referencia": "Suplente de julio, bloque C, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/suplente-julio-c4.webp",
+   "imgThumb": "assets/figuras/historico/2021/suplente-julio-c4.thumb.webp",
+   "imageDesc": "Un virus se une a la célula y entra (1); se liberan hebras (2) que se convierten en doble hebra (3), que se integra en el ADN del núcleo (4); se copian hebras (5), se forman proteínas (6), se ensamblan (7) y salen nuevos virus (8).",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Suplente de julio, bloque C, pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-suplente-julio-c5",
+   "block": "Inmunología",
+   "topic": "Respuesta primaria y secundaria tras vacunar",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>La gráfica muestra los cambios en la concentración de la molécula C en la sangre tras una primera exposición (inyección) con un virus atenuado (fase A), seguida de una segunda exposición (infección) con el mismo virus pero natural (fase B).</b><br>a) Indique el nombre de la molécula C [0,2].<br>b) Cite la célula que la produce [0,2].<br>c) Indique qué tipo de respuesta inmunológica representa la gráfica en global en función de los elementos que intervienen en la misma [0,2].<br>d) ¿Cómo se denominan las fases A y B señaladas en la gráfica? [0,2]<br>e) Indique el nombre del proceso que da lugar a la fase A [0,2].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Anticuerpos</mark> o inmunoglobulinas (0,2 p).",
+    "b) <mark class=\"clave-criterio\">Linfocito B</mark> o <mark class=\"clave-criterio\">célula plasmática</mark> (0,2 p).",
+    "c) <mark class=\"clave-criterio\">Respuesta humoral</mark> (0,2 p).",
+    "d) A: <mark class=\"clave-criterio\">respuesta primaria</mark>; B: <mark class=\"clave-criterio\">respuesta secundaria</mark> (0,2 p).",
+    "e) <mark class=\"clave-criterio\">Vacunación</mark> (0,2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de julio",
+    "referencia": "Suplente de julio, bloque C, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/suplente-julio-c5.webp",
+   "imgThumb": "assets/figuras/historico/2021/suplente-julio-c5.thumb.webp",
+   "imageDesc": "Gráfica de concentración de la molécula C (escala logarítmica) frente al tiempo: tras el virus atenuado (fase A) sube poco; tras la infección natural (fase B) sube mucho más y más rápido.",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Suplente de julio, bloque C, pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-reserva-julio-a1",
+   "block": "Biomoléculas",
+   "topic": "Vitaminas y enfermedades carenciales",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina vitamina [0,5]. b) Indique los criterios por los que se clasifican [0,2]. c) Nombre dos vitaminas de cada grupo [0,6]. d) ¿Cómo se denominan las enfermedades causadas por su déficit? [0,2] e) Indique dos ejemplos de dichas enfermedades y las vitaminas implicadas en cada caso [0,5].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Molécula orgánica necesaria para las funciones vitales</mark> que se toma <mark class=\"clave-criterio\">en pequeñas cantidades con los alimentos</mark> (0,5 p).",
+    "b) <mark class=\"clave-criterio\">Hidrosolubles</mark> y <mark class=\"clave-criterio\">liposolubles</mark> (0,2 p).",
+    "c) Hidrosolubles: <mark class=\"clave-criterio\">B12</mark> (cobalamina), <mark class=\"clave-criterio\">B9</mark> (ácido fólico), <mark class=\"clave-criterio\">C</mark> (ácido ascórbico). Liposolubles: <mark class=\"clave-criterio\">A</mark> (retinol), <mark class=\"clave-criterio\">D</mark> (calciferol). Dos de cada (0,6 p).",
+    "d) <mark class=\"clave-criterio\">Enfermedades carenciales</mark> (avitaminosis) (0,2 p).",
+    "e) <mark class=\"clave-criterio\">Escorbuto: C</mark>; <mark class=\"clave-criterio\">raquitismo: D</mark>; <mark class=\"clave-criterio\">espina bífida: B9</mark>; <mark class=\"clave-criterio\">ceguera nocturna: A</mark>; <mark class=\"clave-criterio\">anemia perniciosa: B12</mark>. Dos (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de julio",
+    "referencia": "Reserva de julio, bloque A, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Reserva de julio, bloque A, pregunta 1, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-reserva-julio-a2",
+   "block": "Célula",
+   "topic": "Orgánulos de una y de dos membranas",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Cite dos orgánulos celulares delimitados por una doble membrana [0,4] y b) tres orgánulos rodeados por una membrana [0,6]. c) Indique una función para cada uno de ellos [1].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Núcleo</mark>, <mark class=\"clave-criterio\">mitocondrias</mark>, <mark class=\"clave-criterio\">cloroplastos</mark>. Dos (0,4 p).",
+    "b) <mark class=\"clave-criterio\">Complejo de Golgi</mark>, <mark class=\"clave-criterio\">REL</mark>, <mark class=\"clave-criterio\">RER</mark>, <mark class=\"clave-criterio\">lisosomas</mark>, <mark class=\"clave-criterio\">peroxisomas</mark>, <mark class=\"clave-criterio\">vacuolas</mark>. Tres (0,6 p).",
+    "c) Núcleo: <mark class=\"clave-criterio\">material genético</mark>; mitocondria: <mark class=\"clave-criterio\">ciclo de Krebs, fosforilación oxidativa</mark>; cloroplasto: <mark class=\"clave-criterio\">fotosíntesis</mark>; Golgi: <mark class=\"clave-criterio\">glucosilación y secreción</mark>; REL: <mark class=\"clave-criterio\">síntesis de lípidos, detoxificación</mark>; RER: <mark class=\"clave-criterio\">glucosilación de proteínas</mark>; lisosomas: <mark class=\"clave-criterio\">digestión celular</mark>; peroxisomas: <mark class=\"clave-criterio\">eliminación del peróxido de hidrógeno</mark>; vacuolas: <mark class=\"clave-criterio\">almacenamiento, control osmótico</mark>. 0,2 p cada una (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de julio",
+    "referencia": "Reserva de julio, bloque A, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Reserva de julio, bloque A, pregunta 2, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-reserva-julio-a3",
+   "block": "Genética",
+   "topic": "Variabilidad genética y selección natural",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Explique tres mecanismos responsables de la variabilidad genética de las poblaciones [1,2]. b) Defina selección natural [0,4]. c) Explique la importancia de la variabilidad genética de una población en su evolución [0,4].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Mutación</mark>: cambio en el material genético; <mark class=\"clave-criterio\">segregación cromosómica</mark>: separación al azar de cromosomas en la meiosis; <mark class=\"clave-criterio\">recombinación</mark>: intercambio entre cromátidas en la meiosis; <mark class=\"clave-criterio\">combinación al azar de los gametos</mark> en la fecundación. Tres, 0,4 p cada explicación (1,2 p).",
+    "b) Mecanismo por el que los individuos con <mark class=\"clave-criterio\">características favorables</mark> en un ambiente tienen <mark class=\"clave-criterio\">más probabilidad de sobrevivir y reproducirse</mark> (0,4 p).",
+    "c) Aumenta la probabilidad de que, <mark class=\"clave-criterio\">ante un cambio ambiental</mark>, haya <mark class=\"clave-criterio\">individuos capaces de sobrevivir</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de julio",
+    "referencia": "Reserva de julio, bloque A, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Reserva de julio, bloque A, pregunta 3, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-reserva-julio-a4",
+   "block": "Microbiología",
+   "topic": "Microorganismos patógenos, oportunistas y beneficiosos",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina microorganismo [0,5]. b) Defina microorganismo patógeno [0,25] y c) microorganismo oportunista [0,25]. d) Cite dos ejemplos de relación beneficiosa entre la especie humana y los microorganismos [0,5] y e) otros dos ejemplos de relación perjudicial [0,5].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Ser vivo que, por su reducido tamaño, solo es visible al microscopio</mark> (0,5 p).",
+    "b) Patógeno: <mark class=\"clave-criterio\">produce daños y causa una enfermedad</mark> (0,25 p).",
+    "c) Oportunista: normalmente <mark class=\"clave-criterio\">no causa enfermedad</mark>, pero <mark class=\"clave-criterio\">se vuelve patógeno</mark> en ciertas circunstancias (<mark class=\"clave-criterio\">defensas debilitadas</mark>, invasión de otros tejidos) (0,25 p).",
+    "d) Beneficiosas: <mark class=\"clave-criterio\">producción de alimentos</mark>, <mark class=\"clave-criterio\">medicamentos</mark>, <mark class=\"clave-criterio\">vacunas</mark>, <mark class=\"clave-criterio\">ciclos biogeoquímicos</mark>, <mark class=\"clave-criterio\">microbiota</mark>. Dos (0,5 p).",
+    "e) Perjudiciales: <mark class=\"clave-criterio\">infecciones</mark> por bacterias, virus u hongos, <mark class=\"clave-criterio\">deterioro de alimentos</mark>. Dos (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de julio",
+    "referencia": "Reserva de julio, bloque A, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Reserva de julio, bloque A, pregunta 4, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-reserva-julio-a5",
+   "block": "Inmunología",
+   "topic": "Respuesta humoral, celular y memoria inmunológica",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina respuesta inmunitaria humoral y respuesta inmunitaria celular [0,6]. b) Cite una función de cada uno de los tres tipos principales de células implicadas en estas respuestas inmunitarias [0,9]. c) Indique qué es la memoria inmunológica [0,5].",
+   "c": [
+    "a) Humoral: basada en la <mark class=\"clave-criterio\">producción de sustancias</mark>, sobre todo <mark class=\"clave-criterio\">anticuerpos</mark>. Celular: basada en la <mark class=\"clave-criterio\">acción directa de células</mark> como <mark class=\"clave-criterio\">linfocitos T y macrófagos</mark> (0,6 p).",
+    "b) Linfocitos B: <mark class=\"clave-criterio\">producción de anticuerpos</mark>; linfocitos T: <mark class=\"clave-criterio\">activan a los B</mark> o <mark class=\"clave-criterio\">destruyen células infectadas o tumorales</mark>; macrófagos: <mark class=\"clave-criterio\">fagocitosis</mark>, <mark class=\"clave-criterio\">presentación de antígenos</mark> (0,9 p).",
+    "c) Capacidad de <mark class=\"clave-criterio\">reconocer un antígeno ya conocido</mark> y responder de forma <mark class=\"clave-criterio\">más rápida y eficaz</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de julio",
+    "referencia": "Reserva de julio, bloque A, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Reserva de julio, bloque A, pregunta 5, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-reserva-julio-b1",
+   "block": "Biomoléculas",
+   "topic": "Madurez de la miel y azúcares reductores",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Las abejas recolectan el néctar de las flores (rico en sacarosa) y lo mezclan en su tubo digestivo con la enzima sacarasa. Esta mezcla se deposita en los panales de las colmenas para su maduración (formación de miel). Durante la maduración, la sacarosa es hidrolizada hasta los monosacáridos que la constituyen por acción de la sacarasa, de tal manera que, en la miel comercial madura, el contenido del disacárido es prácticamente nulo. Atendiendo a las características químicas de los glúcidos, ¿cómo podríamos saber si una miel está suficientemente madura o no para ser cosechada? Razone la respuesta [1].",
+   "c": [
+    "Por la <mark class=\"clave-criterio\">capacidad reductora</mark> de sus azúcares <span class=\"redactado\">por ejemplo, con el reactivo de Fehling</span>: la miel inmadura, rica en <mark class=\"clave-criterio\">sacarosa</mark>, tiene <mark class=\"clave-criterio\">poca capacidad reductora</mark>; la madura tiene mucha <mark class=\"clave-criterio\">glucosa y fructosa</mark>, monosacáridos con <mark class=\"clave-criterio\">elevada capacidad reductora</mark> (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de julio",
+    "referencia": "Reserva de julio, bloque B, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Reserva de julio, bloque B, pregunta 1, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-reserva-julio-b2",
+   "block": "Metabolismo",
+   "topic": "Estomas cerrados y ciclo de Calvin",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Los estomas son estructuras a través de los cuales las plantas realizan el intercambio de gases. En una situación de sequía los estomas están cerrados. a) ¿Podría la planta sintetizar azúcares en estas condiciones? [0,5] b) ¿Se afectaría el proceso de fotosíntesis? [0,5] Razone las respuestas.",
+   "c": [
+    "a) <mark class=\"clave-criterio\">No</mark>: sin <mark class=\"clave-criterio\">CO₂</mark> no puede realizar el <mark class=\"clave-criterio\">ciclo de Calvin</mark> ni sintetizar azúcares (0,5 p).",
+    "b) Sí, se afecta la <mark class=\"clave-criterio\">fase no dependiente de la luz</mark>, que es donde <mark class=\"clave-criterio\">se usa el CO₂</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de julio",
+    "referencia": "Reserva de julio, bloque B, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Reserva de julio, bloque B, pregunta 2, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-reserva-julio-b3",
+   "block": "Genética",
+   "topic": "Fenilcetonuria: probabilidades",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "La fenilcetonuria es una enfermedad humana hereditaria caracterizada por la incapacidad del organismo para metabolizar el aminoácido fenilalanina. Una pareja constituida por un hombre y una mujer que se plantea tener hijos está preocupada porque, aunque ellos no padecen la enfermedad, cada uno de ellos tiene un hermano fenilcetonúrico. Ninguno de los padres de la pareja son fenilcetonúricos. Acuden al médico para conocer la probabilidad de que su descendiente sea fenilcetonúrico. Justifique, a partir de la realización de los cruzamientos oportunos, lo siguiente: a) si la enfermedad está causada por un alelo dominante o recesivo [0,25]; b) los genotipos de los padres de la pareja [0,25]; c) la probabilidad de que alguno de los dos componentes de la pareja sea portador del alelo responsable de la enfermedad sabiendo que no la padecen [0,25]; d) la probabilidad de que su descendiente sea fenilcetonúrico [0,25].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Recesivo</mark>: ni la pareja ni sus padres están enfermos, pero <mark class=\"clave-criterio\">sí hay hermanos enfermos</mark> (0,25 p).",
+    "b) Los padres de ambos son <mark class=\"clave-criterio\">portadores heterocigóticos (Nn)</mark> (0,25 p).",
+    "c) Para cada miembro de la pareja, <mark class=\"clave-criterio\">2/3</mark>: al no estar enfermos se descarta nn, y quedan NN (1/4) o Nn (2/4) (0,25 p).",
+    "d) <mark class=\"clave-criterio\">1/9</mark> = 2/3 (madre portadora) × 2/3 (padre portador) × 1/4 (nn) (0,25 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de julio",
+    "referencia": "Reserva de julio, bloque B, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Reserva de julio, bloque B, pregunta 3, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-reserva-julio-b4",
+   "block": "Microbiología",
+   "topic": "Resistencia a antibióticos en la gonorrea",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "La gonorrea es una enfermedad bacteriana de transmisión sexual que se trataba fácilmente con antibióticos comunes como la penicilina o la tetraciclina. Actualmente sólo puede ser tratada con nuevos antibióticos. Los científicos comienzan a preocuparse debido a que estos nuevos antibióticos son cada vez menos eficaces. ¿Qué explicación razonada daría a este hecho? [1]",
+   "c": [
+    "La <mark class=\"clave-criterio\">alta capacidad de mutación y adaptación</mark> de las bacterias hace que surjan <mark class=\"clave-criterio\">variantes resistentes a los antibióticos</mark> <span class=\"redactado\">que el uso del antibiótico selecciona</span>, por lo que hay que usar <mark class=\"clave-criterio\">nuevos compuestos</mark> (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de julio",
+    "referencia": "Reserva de julio, bloque B, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Reserva de julio, bloque B, pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-reserva-julio-b5",
+   "block": "Inmunología",
+   "topic": "Rechazo en auto-, alo- y xenotrasplantes",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Partiendo de los siguientes tipos de trasplante: autotrasplante (donante y receptor son el mismo individuo), alotrasplante (donante y receptor son diferentes individuos pero de la misma especie) y xenotrasplante (donante y receptor son de diferente especie) indique, para cada caso y de forma razonada, si es probable que ocurra rechazo inmunológico [1].",
+   "c": [
+    "Autotrasplante: <mark class=\"clave-criterio\">no hay rechazo</mark>, el tejido es del mismo individuo (0,3 p).",
+    "Alotrasplante: depende de la <mark class=\"clave-criterio\">compatibilidad inmunológica entre donante y receptor</mark> (0,4 p).",
+    "Xenotrasplante: <mark class=\"clave-criterio\">probablemente sí</mark>, porque entre especies distintas <mark class=\"clave-criterio\">no suele haber compatibilidad</mark> (0,3 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de julio",
+    "referencia": "Reserva de julio, bloque B, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Reserva de julio, bloque B, pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-reserva-julio-c1",
+   "block": "Biomoléculas",
+   "topic": "Clasificación de aminoácidos y enlace peptídico",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la figura adjunta, conteste a las siguientes cuestiones:</b><br>a) Realice una clasificación de las siguientes moléculas en función de sus cadenas R [0,4].<br>b) Escriba la unión entre Ala y Gly [0,4].<br>c) ¿Qué nombre recibe la molécula resultante? [0,1] ¿Qué enlace los mantiene unidos? [0,1]",
+   "c": [
+    "a) Ala: <mark class=\"clave-criterio\">neutro apolar</mark>; Gly: <mark class=\"clave-criterio\">neutro apolar</mark>; Asp: <mark class=\"clave-criterio\">ácido</mark>; Lys: <mark class=\"clave-criterio\">básico</mark> (0,4 p).",
+    "b) Unión de ambos formando un <mark class=\"clave-criterio\">enlace amida</mark> <span class=\"redactado\">el COOH de Ala con el NH₂ de Gly, liberando H₂O: H₂N–CH(CH₃)–CO–NH–CH₂–COOH</span> (0,4 p).",
+    "c) <mark class=\"clave-criterio\">Dipéptido</mark>; <mark class=\"clave-criterio\">enlace peptídico</mark> (0,2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de julio",
+    "referencia": "Reserva de julio, bloque C, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/reserva-julio-c1.webp",
+   "imgThumb": "assets/figuras/historico/2021/reserva-julio-c1.thumb.webp",
+   "imageDesc": "Cuatro aminoácidos: Ala (cadena CH₃), Gly (H), Asp (CH₂–COOH) y Lys (cadena de cuatro CH₂ terminada en NH₃⁺).",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Reserva de julio, bloque C, pregunta 1, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-reserva-julio-c2",
+   "block": "Célula",
+   "topic": "Fases de la meiosis",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la figura adjunta, conteste a las siguientes cuestiones:</b><br>a) ¿De qué proceso se trata? [0,1]<br>b) Nombre las fases señaladas con las letras D y H [0,2].<br>c) Indique el nombre de las estructuras que aparecen dentro del núcleo en la fase B [0,1].<br>d) ¿Cuál es la primera fase de la figura (indique la letra) en la que se aprecia que se ha producido la replicación del ADN? [0,1]<br>e) ¿Qué proceso tiene lugar en la fase C y qué finalidad tiene? [0,2]<br>f) ¿Cuál es la diferencia entre las fases E e I? [0,1]<br>g) ¿Qué tipo de células se originan al final del proceso y cuál es su dotación cromosómica? [0,2]",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Meiosis</mark> (0,1 p). b) D: <mark class=\"clave-criterio\">metafase I</mark>; H: <mark class=\"clave-criterio\">metafase II</mark> (0,2 p).",
+    "c) <mark class=\"clave-criterio\">Cromosomas homólogos</mark> (0,1 p). d) <mark class=\"clave-criterio\">B</mark> (0,1 p).",
+    "e) <mark class=\"clave-criterio\">Entrecruzamiento</mark> de cromátidas homólogas, para generar <mark class=\"clave-criterio\">variabilidad genética</mark> (0,2 p).",
+    "f) E: <mark class=\"clave-criterio\">separación de cromosomas homólogos</mark>; I: <mark class=\"clave-criterio\">separación de cromátidas hermanas</mark> (0,1 p).",
+    "g) <mark class=\"clave-criterio\">Gametos haploides</mark> (n = 2) (0,2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de julio",
+    "referencia": "Reserva de julio, bloque C, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/reserva-julio-c2.webp",
+   "imgThumb": "assets/figuras/historico/2021/reserva-julio-c2.thumb.webp",
+   "imageDesc": "Doce esquemas de una célula en división, de A a L: los cromosomas se emparejan, se alinean y se separan; la célula se divide en dos y luego en cuatro.",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Reserva de julio, bloque C, pregunta 2, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-reserva-julio-c3",
+   "block": "Genética",
+   "topic": "Transcripción, maduración y traducción",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la figura adjunta, responda las siguientes preguntas:</b><br>a) Nombre las moléculas representadas con los números 1, 2 y 3 [0,3].<br>b) Cite el nombre del proceso A que permite la síntesis de la molécula número 2 [0,2].<br>c) ¿Qué se representa con el número 5? [0,2]<br>d) Cite el nombre del proceso B que permite la síntesis de la molécula número 4 [0,2].<br>e) Cite el nombre de la macromolécula representada con el número 4 [0,1].",
+   "c": [
+    "a) 1: <mark class=\"clave-criterio\">ADN</mark>; 2: <mark class=\"clave-criterio\">ARNm inmaduro</mark> (transcrito primario); 3: <mark class=\"clave-criterio\">ARNm maduro</mark> (0,3 p).",
+    "b) A: <mark class=\"clave-criterio\">transcripción</mark> (0,2 p). c) 5: <mark class=\"clave-criterio\">ribosoma</mark> (0,2 p).",
+    "d) B: <mark class=\"clave-criterio\">traducción</mark> o síntesis de proteínas (0,2 p).",
+    "e) 4: <mark class=\"clave-criterio\">polipéptido en formación</mark> (0,1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de julio",
+    "referencia": "Reserva de julio, bloque C, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/reserva-julio-c3.webp",
+   "imgThumb": "assets/figuras/historico/2021/reserva-julio-c3.thumb.webp",
+   "imageDesc": "Una doble hélice (1) da, por el proceso A, una hebra (2); en el proceso B, sobre una hebra (3) una estructura (5) une piezas y forma una cadena (4).",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Reserva de julio, bloque C, pregunta 3, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-reserva-julio-c4",
+   "block": "Microbiología",
+   "topic": "Bipartición bacteriana",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la figura adjunta, conteste las siguientes cuestiones:</b><br>a) ¿Qué proceso representa? [0,2]<br>b) ¿A qué grupo pertenece el organismo representado? [0,2]<br>c) Indique dos características propias de este grupo de organismos [0,4].<br>d) Indique un componente que comparta con otros tipos celulares [0,2].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Bipartición</mark> (fisión binaria) (0,2 p).",
+    "b) <mark class=\"clave-criterio\">Bacterias</mark> (procariotas) (0,2 p).",
+    "c) <mark class=\"clave-criterio\">Sin núcleo</mark>, <mark class=\"clave-criterio\">sin orgánulos membranosos</mark>, <mark class=\"clave-criterio\">ADN circular</mark>, <mark class=\"clave-criterio\">plásmidos</mark>. Dos (0,4 p).",
+    "d) <mark class=\"clave-criterio\">Ribosomas 70S</mark> (como los de mitocondrias y cloroplastos), <mark class=\"clave-criterio\">flagelos</mark>, <mark class=\"clave-criterio\">pared celular</mark> (como las vegetales), <mark class=\"clave-criterio\">membrana plasmática</mark>. Uno (0,2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de julio",
+    "referencia": "Reserva de julio, bloque C, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/reserva-julio-c4.webp",
+   "imgThumb": "assets/figuras/historico/2021/reserva-julio-c4.thumb.webp",
+   "imageDesc": "Seis pasos: una célula alargada con material enrollado y un pequeño círculo lo duplica, se alarga, se estrangula en el centro y se separa en dos células iguales.",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Reserva de julio, bloque C, pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2021-reserva-julio-c5",
+   "block": "Inmunología",
+   "topic": "Vacuna y suero en ratones",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la figura adjunta que representa distintos procedimientos experimentales cuya finalidad es evitar la muerte causada por un patógeno, responda a las siguientes cuestiones:</b><br>a) ¿Qué tipo de tratamiento se está utilizando en el caso 2 al inyectar la sustancia A? [0,2]<br>b) En el caso 2, ¿qué células son las que actúan para protegerlo de la acción del patógeno? [0,2]<br>c) ¿De qué otra manera, por vía natural, podría el ratón del caso 2 evitar la muerte? [0,2]<br>d) ¿Qué tipo de tratamiento se utiliza en el caso 3 al inyectar la sustancia B (extraída del ratón vivo del caso 2)? [0,2]<br>e) ¿Qué ocurrirá con los componentes de la sustancia B pasados unos meses? [0,2]",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Vacuna</mark> (0,2 p). b) <mark class=\"clave-criterio\">Linfocitos de memoria</mark> (0,2 p).",
+    "c) <mark class=\"clave-criterio\">Pasando la enfermedad y sobreviviendo</mark> a ella (0,2 p).",
+    "d) <mark class=\"clave-criterio\">Sueroterapia</mark> (0,2 p).",
+    "e) Los <mark class=\"clave-criterio\">anticuerpos inyectados desaparecen con el tiempo</mark> (0,2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de julio",
+    "referencia": "Reserva de julio, bloque C, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/reserva-julio-c5.webp",
+   "imgThumb": "assets/figuras/historico/2021/reserva-julio-c5.thumb.webp",
+   "imageDesc": "Caso 1: ratón inyectado con el patógeno, muere. Caso 2: ratón inyectado antes con A y luego con el patógeno, vive. Caso 3: ratón inyectado con el patógeno y con B, vive.",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2020-2021 (Reserva de julio, bloque C, pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
    "id": "pau2026-modelo-1",
    "block": "Genética",
    "topic": "Replicación en una célula procariota",
@@ -30269,6 +32699,1710 @@ window.BIOCELIA_HISTORICO = {
    "imgSrc": "assets/figuras/historico/2018/suplente-sept-b6.webp",
    "imgThumb": "assets/figuras/historico/2018/suplente-sept-b6.thumb.webp",
    "imageDesc": "Una doble hélice (B) se abre dentro de una gran estructura (A); sobre una de sus hebras (2) se va formando una cadena nueva (C) que sale por la izquierda, añadiendo una unidad (3); la otra hebra se señala con el 1."
+  },
+  {
+   "id": "pau2021-junio-a1",
+   "block": "Biomoléculas",
+   "topic": "Ácidos grasos y lípidos saponificables e insaponificables",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Explique la relación entre el punto de fusión de los ácidos grasos, el tamaño y el grado de saturación de sus cadenas [0,5]. b) Indique dos diferencias entre los lípidos saponificables e insaponificables [0,4]. c) Ponga un ejemplo de cada uno de ellos [0,5]. d) Cite dos ejemplos de lípidos con función estructural [0,6].",
+   "c": [
+    "a) El punto de fusión <mark class=\"clave-criterio\">aumenta con la longitud de la cadena</mark> y <mark class=\"clave-criterio\">disminuye con el grado de insaturación</mark> (0,5 p).",
+    "b) Los saponificables <mark class=\"clave-criterio\">contienen ácidos grasos y son ésteres</mark>; los insaponificables <mark class=\"clave-criterio\">no tienen ácidos grasos ni son ésteres</mark>; unos <mark class=\"clave-criterio\">forman jabones con álcalis</mark> y otros no. Dos (0,4 p).",
+    "c) Saponificables: <mark class=\"clave-criterio\">acilglicéridos</mark>, <mark class=\"clave-criterio\">céridos</mark>, <mark class=\"clave-criterio\">fosfolípidos</mark>; insaponificables: <mark class=\"clave-criterio\">carotenoides</mark> y <mark class=\"clave-criterio\">esteroides</mark>. Uno de cada (0,5 p).",
+    "d) <mark class=\"clave-criterio\">Fosfolípidos</mark> (fosfoglicéridos) y <mark class=\"clave-criterio\">esteroides</mark> (colesterol) (0,6 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de junio",
+    "referencia": "Titular de junio, bloque A, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_BIOLOGÍA-JUNIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2021-junio-a2",
+   "block": "Célula",
+   "topic": "Mitosis y citocinesis",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina mitosis y citocinesis [0,4]. b) Describa las etapas de la mitosis [1,2]. c) Explique la importancia de la mitosis para los organismos eucariotas unicelulares y pluricelulares [0,4].",
+   "c": [
+    "a) Mitosis: <mark class=\"clave-criterio\">división del núcleo</mark> que origina <mark class=\"clave-criterio\">dos núcleos con idéntica información genética</mark> a la de la célula madre. Citocinesis: <mark class=\"clave-criterio\">división del citoplasma</mark> (0,4 p).",
+    "b) <mark class=\"clave-criterio\">Profase</mark>: condensación de cromosomas, formación del huso, desaparición del nucléolo y de la envoltura nuclear. <mark class=\"clave-criterio\">Metafase</mark>: cromosomas en la <mark class=\"clave-criterio\">placa ecuatorial</mark>. <mark class=\"clave-criterio\">Anafase</mark>: <mark class=\"clave-criterio\">separación de las cromátidas hermanas</mark> hacia los polos. <mark class=\"clave-criterio\">Telofase</mark>: descondensación y <mark class=\"clave-criterio\">reorganización de la envoltura nuclear</mark> y los nucléolos. 0,3 p cada una (1,2 p).",
+    "c) En unicelulares es el mecanismo de <mark class=\"clave-criterio\">reproducción asexual</mark>; en pluricelulares, necesaria para el <mark class=\"clave-criterio\">desarrollo embrionario</mark>, el <mark class=\"clave-criterio\">crecimiento</mark> y la <mark class=\"clave-criterio\">reparación de tejidos</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de junio",
+    "referencia": "Titular de junio, bloque A, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_BIOLOGÍA-JUNIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2021-junio-a3",
+   "block": "Genética",
+   "topic": "Pruebas bioquímicas de la evolución",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Explique dos pruebas bioquímicas que avalen la teoría de la evolución [2].",
+   "c": [
+    "Dos de estas, 1 p cada una (2 p): <mark class=\"clave-criterio\">gran uniformidad en los componentes moleculares</mark> de todos los organismos; el <mark class=\"clave-criterio\">código genético es el mismo para todos los seres vivos</mark>; los <mark class=\"clave-criterio\">procesos metabólicos son prácticamente los mismos</mark>; la <mark class=\"clave-criterio\">comparación de secuencias de aminoácidos o de nucleótidos</mark> indica el <mark class=\"clave-criterio\">grado de parentesco evolutivo</mark>."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de junio",
+    "referencia": "Titular de junio, bloque A, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_BIOLOGÍA-JUNIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2021-junio-a4",
+   "block": "Microbiología",
+   "topic": "Estructura y metabolismo bacteriano",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Cite dos estructuras que se encuentren en el citoplasma de una célula procariótica [0,2]. b) Nombre dos apéndices bacterianos y describa su función [0,6]. c) Indique dos funciones de la pared celular bacteriana y su composición [0,6]. d) Respecto al metabolismo bacteriano, explique el significado de los términos quimiótrofo y anaerobio facultativo [0,6].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Cromosoma bacteriano</mark> (ADN), <mark class=\"clave-criterio\">plásmidos</mark>, <mark class=\"clave-criterio\">ribosomas</mark>. Dos (0,2 p).",
+    "b) <mark class=\"clave-criterio\">Fimbrias</mark>: adherencia a sustratos; <mark class=\"clave-criterio\">pili</mark>: transferencia de material genético; <mark class=\"clave-criterio\">flagelo</mark>: movimiento. Dos (0,6 p).",
+    "c) Funciones: <mark class=\"clave-criterio\">protección</mark>, <mark class=\"clave-criterio\">dar forma</mark>, <mark class=\"clave-criterio\">rigidez</mark>, <mark class=\"clave-criterio\">soportar presiones osmóticas</mark>. Dos, a 0,2 p. Composición: <mark class=\"clave-criterio\">peptidoglucano (mureína)</mark> (0,2 p).",
+    "d) Quimiótrofo: sintetiza ATP con la <mark class=\"clave-criterio\">energía química de las moléculas que oxida</mark>. Anaerobio facultativo: <mark class=\"clave-criterio\">crece tanto en presencia como en ausencia de oxígeno</mark> (0,6 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de junio",
+    "referencia": "Titular de junio, bloque A, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_BIOLOGÍA-JUNIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2021-junio-a5",
+   "block": "Inmunología",
+   "topic": "Órganos y moléculas del sistema inmunitario",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Cite tres órganos (o tejidos) y dos tipos de moléculas que formen parte del sistema inmunitario de los mamíferos [0,5]. b) Indique una función que desempeñe cada uno de ellos en la respuesta inmunitaria [1,5].",
+   "c": [
+    "a) Órganos o tejidos: <mark class=\"clave-criterio\">médula ósea</mark>, <mark class=\"clave-criterio\">timo</mark>, <mark class=\"clave-criterio\">ganglios linfáticos</mark>, <mark class=\"clave-criterio\">bazo</mark>, <mark class=\"clave-criterio\">tejido linfoide asociado a mucosas</mark> (0,3 p). Moléculas: <mark class=\"clave-criterio\">anticuerpos</mark>, <mark class=\"clave-criterio\">linfocinas</mark>, <mark class=\"clave-criterio\">complemento</mark>, <mark class=\"clave-criterio\">interferón</mark> (0,2 p).",
+    "b) Médula ósea: <mark class=\"clave-criterio\">maduración de linfocitos B</mark>; timo: <mark class=\"clave-criterio\">maduración y selección de linfocitos T</mark>; ganglios: <mark class=\"clave-criterio\">filtran la linfa</mark> y ponen en contacto linfocitos y antígeno; bazo: <mark class=\"clave-criterio\">filtra la sangre</mark> y activa linfocitos; mucosas: <mark class=\"clave-criterio\">acumulan linfocitos y fagocitos</mark>.",
+    "b) Anticuerpos: <mark class=\"clave-criterio\">unión específica con antígenos</mark>; linfocinas: <mark class=\"clave-criterio\">regulan la respuesta inmune</mark>; complemento: <mark class=\"clave-criterio\">destrucción celular</mark> e <mark class=\"clave-criterio\">inflamación</mark>; interferón: <mark class=\"clave-criterio\">respuesta frente a virus</mark>. Tres órganos y dos moléculas, 0,3 p cada función (1,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de junio",
+    "referencia": "Titular de junio, bloque A, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_BIOLOGÍA-JUNIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2021-junio-b1+b2",
+   "block": "Metabolismo",
+   "topic": "pH, temperatura y actividad enzimática · Salazón del jamón",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "q": "<b>I.</b> Si el pH óptimo de una enzima es igual a 7,3, a) ¿qué ocurrirá con la actividad enzimática a pH 3,0 y a pH 9,9? [0,5] b) Si la temperatura óptima es de 36 ºC, ¿qué ocurrirá a 80 ºC? [0,5] Razone las respuestas. <i>(1 punto)</i><br><br><b>II.</b> Antes de colgar y someter a los jamones al proceso de secado en un lugar frío y seco, se introducen en sal abundante durante varios días. ¿Para qué se introducen en sal? Razone la respuesta [1]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) Por encima o por debajo del <mark class=\"clave-criterio\">pH óptimo</mark> la <mark class=\"clave-criterio\">actividad disminuye</mark>, y la enzima puede <mark class=\"clave-criterio\">desnaturalizarse</mark> (0,5 p).",
+    "<b>I.</b> b) Por encima de la temperatura óptima la enzima, de <mark class=\"clave-criterio\">naturaleza proteica</mark>, se <mark class=\"clave-criterio\">desnaturaliza</mark> y <mark class=\"clave-criterio\">pierde su actividad catalítica</mark> (0,5 p).",
+    "<b>II.</b> Para que las células de la parte externa queden en un <mark class=\"clave-criterio\">medio hipertónico</mark>, <mark class=\"clave-criterio\">pierdan agua</mark> y <mark class=\"clave-criterio\">no puedan ser atacadas por los microorganismos</mark> <span class=\"redactado\">que tampoco pueden crecer en ese medio</span> (1 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2021-junio-b1",
+    "pau2021-junio-b2"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de junio",
+    "referencia": "Titular de junio, bloque B, pregunta 1 + Titular de junio, bloque B, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_BIOLOGÍA-JUNIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2021-junio-b3+b4",
+   "block": "Genética",
+   "topic": "Misma información genética, distinta expresión · Kuru: un prion",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "q": "<b>I.</b> a) Indique si el ADN de una célula de la piel de un individuo contendrá la misma información genética que una célula del hígado [0,5]. b) ¿Sintetizan las dos células las mismas proteínas? [0,5] Razone las respuestas. <i>(1 punto)</i><br><br><b>II.</b> El kuru es una enfermedad mortal que afectaba a individuos de ciertas tribus de Nueva Guinea que practicaban el canibalismo ritual en los funerales. Tras analizar restos de tejidos infectados, el agente causante no podía observarse al microscopio óptico, no incorporaba ni timina ni uracilo durante su replicación y su composición química fundamental era carbono, nitrógeno, hidrógeno, oxígeno y azufre. Según estos resultados, a) ¿qué agente infeccioso sería el responsable de esta enfermedad? [0,6] Este agente infeccioso pudo eliminarse de los instrumentos utilizados en los análisis utilizando calor húmedo (a alta temperatura y presión). b) ¿Qué efecto produce el calor elevado en este agente infeccioso? [0,4] Razone adecuadamente las respuestas. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) <mark class=\"clave-criterio\">Sí</mark>: todas las células de un organismo pluricelular <mark class=\"clave-criterio\">contienen la misma información genética</mark> (0,5 p).",
+    "<b>I.</b> b) <mark class=\"clave-criterio\">No</mark>: la <mark class=\"clave-criterio\">diferenciación celular</mark> implica una <mark class=\"clave-criterio\">regulación distinta de la expresión génica</mark> en cada tejido (0,5 p).",
+    "<b>II.</b> a) Un <mark class=\"clave-criterio\">prion</mark>: no es visible al microscopio óptico, <mark class=\"clave-criterio\">no tiene ADN ni ARN</mark> (no usa timina ni uracilo) y su composición es la <mark class=\"clave-criterio\">de una proteína</mark> (C, H, O, N y S) (0,6 p).",
+    "<b>II.</b> b) Al ser una proteína, el calor la <mark class=\"clave-criterio\">desnaturaliza</mark> y <mark class=\"clave-criterio\">pierde su actividad biológica</mark> (0,4 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2021-junio-b3",
+    "pau2021-junio-b4"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de junio",
+    "referencia": "Titular de junio, bloque B, pregunta 3 + Titular de junio, bloque B, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_BIOLOGÍA-JUNIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2021-junio-c1+c2",
+   "block": "Biomoléculas",
+   "topic": "Cadenas de ADN y ARN · Membrana tilacoidal y fase luminosa",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "q": "<b>I.</b> <b>A la vista de la imagen, conteste las siguientes cuestiones:</b><br>a) ¿De qué moléculas formarán parte las cadenas A y B? [0,4]<br>b) ¿Cómo se denominan los monómeros que forman las cadenas A y B? [0,1]<br>c) Cite los tres componentes que forman cada uno de esos monómeros [0,3].<br>d) Indique qué dos diferencias fundamentales hay en la composición química de los monómeros de la cadena A y de la B [0,2]. <i>(1 punto)</i><br><br><b>II.</b> <b>En relación con la imagen adjunta, conteste a las siguientes cuestiones:</b><br>a) ¿Qué estructura representa? [0,1]<br>b) Indique el nombre de los compuestos A, B, C, D, E y F y de las localizaciones intracelulares G y H [0,8].<br>c) ¿Qué proceso da lugar a la formación del compuesto F? [0,1] <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) Cadena A: <mark class=\"clave-criterio\">ADN</mark>; cadena B: <mark class=\"clave-criterio\">ARN</mark> (0,4 p).",
+    "<b>I.</b> b) <mark class=\"clave-criterio\">Nucleótidos</mark> (0,1 p).",
+    "<b>I.</b> c) <mark class=\"clave-criterio\">Pentosa</mark>, <mark class=\"clave-criterio\">base nitrogenada</mark> y <mark class=\"clave-criterio\">fosfato</mark> (0,3 p).",
+    "<b>I.</b> d) Azúcar: <mark class=\"clave-criterio\">desoxirribosa (ADN)</mark> o <mark class=\"clave-criterio\">ribosa (ARN)</mark>; base: <mark class=\"clave-criterio\">timina (ADN)</mark> o <mark class=\"clave-criterio\">uracilo (ARN)</mark> (0,2 p).",
+    "<b>II.</b> a) <mark class=\"clave-criterio\">Membrana tilacoidal</mark> (0,1 p).",
+    "<b>II.</b> b) A: <mark class=\"clave-criterio\">H₂O</mark>; B: <mark class=\"clave-criterio\">H⁺</mark>; C: <mark class=\"clave-criterio\">NADP⁺</mark>; D: <mark class=\"clave-criterio\">NADPH</mark>; E: <mark class=\"clave-criterio\">ADP</mark>; F: <mark class=\"clave-criterio\">ATP</mark>; G: <mark class=\"clave-criterio\">espacio tilacoidal</mark>; H: <mark class=\"clave-criterio\">estroma</mark>. 0,1 p cada uno (0,8 p).",
+    "<b>II.</b> c) <mark class=\"clave-criterio\">Fotofosforilación</mark> (0,1 p)."
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2021-junio-c1",
+    "pau2021-junio-c2"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de junio",
+    "referencia": "Titular de junio, bloque C, pregunta 1 + Titular de junio, bloque C, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_BIOLOGÍA-JUNIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/junio-c1.webp",
+   "imgThumb": "assets/figuras/historico/2021/junio-c1.thumb.webp",
+   "imageDesc": "Cadena A (de 3' a 5') con bases T, T, A, T, T y cadena B (de 5' a 3') con bases A, U, A, A, A; cada unidad tiene un pentágono, un círculo y una base."
+  },
+  {
+   "id": "pau2021-junio-c3+c4",
+   "block": "Genética",
+   "topic": "Herencia intermedia en flores · Bacteriófago y virus envuelto",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "q": "<b>I.</b> <b>En relación con la imagen adjunta conteste a las siguientes cuestiones:</b><br>a) Indique los genotipos de los dos parentales y de la generación F1 [0,3].<br>b) ¿Qué se puede concluir acerca de las relaciones de dominancia de los alelos responsables del fenotipo de la generación F1? [0,2]<br>c) Indique las proporciones genotípicas y fenotípicas de la generación F2 como consecuencia de la autopolinización de F1 [0,5]. <i>(1 punto)</i><br><br><b>II.</b> <b>A la vista de la imagen, conteste las siguientes cuestiones:</b><br>a) ¿Qué tipo de microorganismos representa la imagen? [0,1]<br>b) ¿A qué tipos celulares infectan A y B? [0,2]<br>c) Nombre las estructuras señaladas con los números del 1 al 7 [0,7]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) Parental 1: <mark class=\"clave-criterio\">C1C1</mark>; parental 2: <mark class=\"clave-criterio\">C2C2</mark>; F1: <mark class=\"clave-criterio\">C1C2</mark> (vale otra notación correcta) (0,3 p).",
+    "<b>I.</b> b) Los alelos <mark class=\"clave-criterio\">no son ni dominantes ni recesivos</mark>: <mark class=\"clave-criterio\">dominancia incompleta</mark> o <mark class=\"clave-criterio\">herencia intermedia</mark> (0,2 p).",
+    "<b>I.</b> c) Genotipos: <mark class=\"clave-criterio\">1/4 C1C1, 1/2 C1C2, 1/4 C2C2</mark>. Fenotipos: <mark class=\"clave-criterio\">1/4 oscuras, 1/2 grises, 1/4 blancas</mark> (0,5 p).",
+    "<b>II.</b> a) <mark class=\"clave-criterio\">Virus</mark> (0,1 p).",
+    "<b>II.</b> b) A: <mark class=\"clave-criterio\">bacterias</mark> (células procarióticas); B: <mark class=\"clave-criterio\">células eucarióticas</mark> (0,2 p).",
+    "<b>II.</b> c) 1: <mark class=\"clave-criterio\">cápsida</mark>; 2: <mark class=\"clave-criterio\">vaina</mark> (cola); 3: <mark class=\"clave-criterio\">fibras de la cola</mark>; 4: <mark class=\"clave-criterio\">placa basal</mark>; 5: <mark class=\"clave-criterio\">envoltura</mark>; 6: <mark class=\"clave-criterio\">genoma</mark> (material genético); 7: <mark class=\"clave-criterio\">cápsida</mark> (0,7 p)."
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2021-junio-c3",
+    "pau2021-junio-c4"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de junio",
+    "referencia": "Titular de junio, bloque C, pregunta 3 + Titular de junio, bloque C, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_BIOLOGÍA-JUNIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/junio-c3.webp",
+   "imgThumb": "assets/figuras/historico/2021/junio-c3.thumb.webp",
+   "imageDesc": "Una flor oscura (parental 1) cruzada con una flor blanca (parental 2) da una flor gris (F1)."
+  },
+  {
+   "id": "pau2021-suplente-junio-a1",
+   "block": "Metabolismo",
+   "topic": "Inhibición enzimática",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina qué es un inhibidor enzimático [0,5]. b) Indique dos diferencias entre inhibidores reversibles e inhibidores irreversibles [0,5]. c) Describa la inhibición enzimática competitiva y no competitiva [1].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Sustancia que disminuye o anula la actividad enzimática</mark> (0,5 p).",
+    "b) Reversibles: <mark class=\"clave-criterio\">unión temporal</mark>, las regiones funcionales <mark class=\"clave-criterio\">no cambian</mark> y el efecto <mark class=\"clave-criterio\">se puede eliminar</mark>. Irreversibles: <mark class=\"clave-criterio\">cambios permanentes</mark>, <mark class=\"clave-criterio\">unión irreversible al centro activo</mark>, <mark class=\"clave-criterio\">anulan la capacidad catalítica</mark>. Dos (0,5 p).",
+    "c) <mark class=\"clave-criterio\">Competitiva</mark>: el inhibidor tiene una <mark class=\"clave-criterio\">configuración parecida a la del sustrato</mark> y <mark class=\"clave-criterio\">compite por el centro activo</mark>. <mark class=\"clave-criterio\">No competitiva</mark>: se une a <mark class=\"clave-criterio\">un lugar distinto del centro activo</mark> y no compite con el sustrato (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de junio",
+    "referencia": "Suplente de junio, bloque A, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2021-suplente-junio-a2",
+   "block": "Célula",
+   "topic": "Células animales y vegetales",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Establezca cuatro diferencias entre las células vegetales y las células animales [1]. b) Nombre una función de dos componentes que sean exclusivos de células vegetales [0,5]. c) Cite un orgánulo de doble membrana que comparten estos dos tipos de células [0,25]. d) ¿Qué función presenta el mismo? [0,25]",
+   "c": [
+    "a) La vegetal tiene <mark class=\"clave-criterio\">pared celular</mark>, <mark class=\"clave-criterio\">cloroplastos</mark> y <mark class=\"clave-criterio\">vacuolas grandes</mark>, <mark class=\"clave-criterio\">no tiene centriolos</mark> y forma <mark class=\"clave-criterio\">fragmoplasto</mark> al dividirse; la animal forma un <mark class=\"clave-criterio\">surco de segmentación</mark>. Cuatro, a 0,25 p (1 p).",
+    "b) Cloroplastos: <mark class=\"clave-criterio\">fotosíntesis</mark>; pared celular: <mark class=\"clave-criterio\">rigidez</mark>, unión entre células, barrera frente a patógenos. 0,25 p cada uno (0,5 p).",
+    "c) <mark class=\"clave-criterio\">Mitocondria</mark> o <mark class=\"clave-criterio\">núcleo</mark> (0,25 p). d) Mitocondria: <mark class=\"clave-criterio\">respiración celular</mark>; núcleo: <mark class=\"clave-criterio\">contiene la información genética</mark> (0,25 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de junio",
+    "referencia": "Suplente de junio, bloque A, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2021-suplente-junio-a3",
+   "block": "Genética",
+   "topic": "Mutaciones espontáneas e inducidas",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina el término mutación [0,5] y b) distinga entre mutaciones espontáneas e inducidas [1]. c) Cite dos ejemplos en los que se pongan de manifiesto los efectos perjudiciales de las mutaciones [0,5].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Alteración del material genético</mark> (0,5 p).",
+    "b) Espontáneas: <mark class=\"clave-criterio\">se producen de forma natural</mark>. Inducidas: por <mark class=\"clave-criterio\">exposición a agentes mutagénicos químicos o físicos</mark> (1 p).",
+    "c) <mark class=\"clave-criterio\">Cáncer</mark>, <mark class=\"clave-criterio\">enfermedades genéticas</mark>. 0,25 p cada uno (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de junio",
+    "referencia": "Suplente de junio, bloque A, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2021-suplente-junio-a4",
+   "block": "Microbiología",
+   "topic": "Partículas subvirales: viroides y priones",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina partícula subviral [0,5]. b) Nombre dos partículas subvirales [0,4] e indique su composición [0,6]. c) Indique, en cada caso, a qué tipo de organismos infectan [0,5].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Agente infeccioso más simple y de menor tamaño que los virus</mark> (0,5 p).",
+    "b) <mark class=\"clave-criterio\">Viroides</mark>: <mark class=\"clave-criterio\">ARN monocatenario circular</mark>. <mark class=\"clave-criterio\">Priones</mark>: <mark class=\"clave-criterio\">proteínas</mark>. 0,2 p cada partícula y 0,3 p por su composición (1 p).",
+    "c) Viroides: <mark class=\"clave-criterio\">plantas</mark>; priones: <mark class=\"clave-criterio\">animales</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de junio",
+    "referencia": "Suplente de junio, bloque A, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2021-suplente-junio-a5",
+   "block": "Inmunología",
+   "topic": "Respuesta inmunitaria celular",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Explique en qué consiste la respuesta inmunitaria celular [0,6]. b) Indique dos tipos de células implicadas en este tipo de respuesta [0,4]. c) Describa dos funciones de cada uno de estos tipos de células [1].",
+   "c": [
+    "a) Inmunidad basada en la <mark class=\"clave-criterio\">actividad directa de células</mark> del sistema inmunitario sobre <mark class=\"clave-criterio\">microorganismos, células infectadas o tumorales</mark> (0,6 p).",
+    "b) <mark class=\"clave-criterio\">Linfocitos T</mark> y <mark class=\"clave-criterio\">macrófagos</mark> (0,4 p).",
+    "c) Linfocitos T: <mark class=\"clave-criterio\">activan los linfocitos B</mark>, <mark class=\"clave-criterio\">destruyen células infectadas o tumorales</mark>. Macrófagos: <mark class=\"clave-criterio\">fagocitosis</mark> y <mark class=\"clave-criterio\">presentación de antígenos</mark>. 0,25 p cada una (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de junio",
+    "referencia": "Suplente de junio, bloque A, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2021-suplente-junio-b1+b2",
+   "block": "Genética",
+   "topic": "Composición de bases en ADN y ARN · Autofecundación y variabilidad en las tenias",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "q": "<b>I.</b> Analizando el genoma de una bacteria se sabe que contiene un 28% de citosina. Explique razonadamente si se podrían deducir: a) los porcentajes de las restantes bases nitrogenadas del ADN bacteriano [0,3]; b) los porcentajes de las restantes bases nitrogenadas de un ARNm con 360 nucleótidos que contiene un 18% de adenina [0,3]; y c) el número máximo de aminoácidos de la proteína codificada por este ARNm [0,4]. <i>(1 punto)</i><br><br><b>II.</b> Las tenias son organismos hermafroditas que pueden autofecundarse, es decir, en estos organismos se puede producir la fusión de un gameto femenino y masculino procedentes del mismo individuo. Todos los cromosomas de la descendencia de una tenia proceden, por tanto, del mismo individuo. Explique de forma razonada si los descendientes de una tenia tendrán el mismo genotipo [1]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) <mark class=\"clave-criterio\">Sí</mark>: el ADN bacteriano es <mark class=\"clave-criterio\">bicatenario</mark> (C = G, A = T): <mark class=\"clave-criterio\">G 28 %, A 22 %, T 22 %</mark> (0,3 p).",
+    "<b>I.</b> b) <mark class=\"clave-criterio\">No</mark>: el ARN es <mark class=\"clave-criterio\">monocatenario</mark> y <mark class=\"clave-criterio\">no hay complementariedad</mark> entre sus bases (0,3 p).",
+    "<b>I.</b> c) Como máximo <mark class=\"clave-criterio\">120 aminoácidos</mark> (360 / 3), porque cada aminoácido lo codifica <mark class=\"clave-criterio\">un triplete</mark>; o <mark class=\"clave-criterio\">119</mark> si se descuenta el <mark class=\"clave-criterio\">codón de terminación</mark> (0,4 p).",
+    "<b>II.</b> <mark class=\"clave-criterio\">No</mark>: los gametos se forman por <mark class=\"clave-criterio\">meiosis</mark>, que implica <mark class=\"clave-criterio\">variabilidad genética</mark> <span class=\"redactado\">recombinación y segregación al azar</span> (1 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2021-suplente-junio-b1",
+    "pau2021-suplente-junio-b2"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de junio",
+    "referencia": "Suplente de junio, bloque B, pregunta 1 + Suplente de junio, bloque B, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2021-suplente-junio-b3+b4",
+   "block": "Genética",
+   "topic": "Selección natural en polillas · Gases de cianobacterias y levaduras",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "q": "<b>I.</b> En una zona campestre de abedules cuyos troncos son blanquecinos, lejos de cualquier fuente de polución, se dejan en libertad una población de polillas compuesta por 100 polillas claras y otras 100 oscuras. Se sabe que el color claro de las polillas es recesivo frente al color oscuro en esta población. Después de tres días se colocan trampas para capturar las polillas y sólo se capturan polillas claras. Sin embargo, cuando se realiza una nueva captura un año después sí se capturan polillas oscuras, aunque con una proporción muy baja. ¿Cómo podría explicar los resultados encontrados en ambas capturas? [1] Razone las respuestas. <i>(1 punto)</i><br><br><b>II.</b> En el laboratorio se dispone de un matraz con cianobacterias (matraz A) y otro con una solución de agua y glucosa y la levadura <i>Saccharomyces cerevisiae</i> (matraz B). Los matraces se tapan con tubos de ensayo invertidos a modo de capuchón. Al cabo de 1 hora la parte superior de los dos tubos de ensayo contiene gases. Responda de forma razonada a las siguientes cuestiones: a) ¿Qué gas se genera principalmente durante el experimento en cada uno de los matraces (A y B)? [0,2] b) ¿Cuál es el nombre de la vía metabólica responsable de que se haya generado el gas en cada uno de ellos? [0,4] c) ¿Qué gases se generarían en los distintos matraces en oscuridad? [0,2] d) ¿Se generarían los gases en los distintos matraces si el experimento se realizara a 60 °C? [0,2] <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> Las polillas claras <mark class=\"clave-criterio\">se camuflan en los troncos claros</mark> y no son detectadas; los <mark class=\"clave-criterio\">depredadores consumen las oscuras</mark>, más visibles (0,5 p).",
+    "<b>I.</b> Aunque desaparezcan al principio, <mark class=\"clave-criterio\">vuelven a aparecer oscuras</mark> en la descendencia <span class=\"redactado\">por los alelos que portan las supervivientes</span>, pero son <mark class=\"clave-criterio\">más consumidas</mark> y siguen siendo <mark class=\"clave-criterio\">menos frecuentes</mark> (0,5 p).",
+    "<b>II.</b> a) A: <mark class=\"clave-criterio\">oxígeno</mark>; B: <mark class=\"clave-criterio\">dióxido de carbono</mark> (0,2 p).",
+    "<b>II.</b> b) A: <mark class=\"clave-criterio\">fase luminosa de la fotosíntesis</mark>; B: <mark class=\"clave-criterio\">fermentación alcohólica</mark> (0,4 p).",
+    "<b>II.</b> c) A: <mark class=\"clave-criterio\">CO₂</mark>, porque sin luz no hay fase luminosa pero sí <mark class=\"clave-criterio\">respiración celular</mark>; B: <mark class=\"clave-criterio\">CO₂</mark> de la fermentación (0,2 p).",
+    "<b>II.</b> d) <mark class=\"clave-criterio\">No</mark>: a 60 °C las <mark class=\"clave-criterio\">enzimas se desnaturalizan</mark> (0,2 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2021-suplente-junio-b3",
+    "pau2021-suplente-junio-b4"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de junio",
+    "referencia": "Suplente de junio, bloque B, pregunta 3 + Suplente de junio, bloque B, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2021-suplente-junio-c1+c2",
+   "block": "Biomoléculas",
+   "topic": "Lípidos: ácido graso, triacilglicérido e isopreno · Ribosomas 80S y 70S",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "q": "<b>I.</b> <b>Teniendo en cuenta la figura adjunta indique:</b><br>a) ¿A qué grupo de biomoléculas pertenecen las tres moléculas representadas (A, B y C)? [0,2]<br>b) ¿Cuáles podrían reaccionar con una base fuerte y dar lugar a jabón? [0,3].<br>c) Escriba la fórmula general (o semidesarrollada) de la molécula A [0,3].<br>d) ¿Cuál es la función biológica principal de la molécula B? [0,2] <i>(1 punto)</i><br><br><b>II.</b> <b>En relación con la figura adjunta, conteste a las siguientes cuestiones:</b><br>a) Indique el nombre, la composición química y la función de las estructuras A y B [0,3].<br>b) ¿Cuál es el coeficiente de sedimentación de A y B? [0,2]<br>c) Según su organización celular, ¿en qué tipo de células coexisten las estructuras A y B? [0,2] Indique dos posibles localizaciones de cada una de ellas en estas células [0,2].<br>d) Indique en qué tipo de células sólo es posible encontrar una de las dos estructuras y especifique cuál de ellas (A o B) [0,1]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) <mark class=\"clave-criterio\">Lípidos</mark> (0,2 p).",
+    "<b>I.</b> b) <mark class=\"clave-criterio\">A y B</mark> (0,3 p).",
+    "<b>I.</b> c) <mark class=\"clave-criterio\">CH₃–(CH₂)₁₀–COOH</mark> (0,3 p).",
+    "<b>I.</b> d) <mark class=\"clave-criterio\">Reserva energética</mark> (0,2 p).",
+    "<b>II.</b> a) <mark class=\"clave-criterio\">Ribosomas</mark>, formados por <mark class=\"clave-criterio\">proteínas y ARN ribosómico</mark>, que realizan la <mark class=\"clave-criterio\">síntesis de proteínas</mark> (0,3 p).",
+    "<b>II.</b> b) A: <mark class=\"clave-criterio\">80S</mark>; B: <mark class=\"clave-criterio\">70S</mark> (0,2 p).",
+    "<b>II.</b> c) En las <mark class=\"clave-criterio\">células eucarióticas</mark> (0,2 p). A: <mark class=\"clave-criterio\">citosol</mark>, <mark class=\"clave-criterio\">adosado al RER</mark>, cara externa de la envoltura nuclear; B: <mark class=\"clave-criterio\">mitocondrias</mark> y <mark class=\"clave-criterio\">cloroplastos</mark> (0,2 p).",
+    "<b>II.</b> d) En las <mark class=\"clave-criterio\">células procarióticas</mark>, solo <mark class=\"clave-criterio\">B</mark> (0,1 p)."
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2021-suplente-junio-c1",
+    "pau2021-suplente-junio-c2"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de junio",
+    "referencia": "Suplente de junio, bloque C, pregunta 1 + Suplente de junio, bloque C, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/suplente-junio-c1.webp",
+   "imgThumb": "assets/figuras/historico/2021/suplente-junio-c1.thumb.webp",
+   "imageDesc": "A: cadena lineal de 12 carbonos terminada en COOH. B: tres cadenas H₃C–(CH₂)n–CO–O unidas a una molécula de tres carbonos. C: molécula pequeña de cinco carbonos con dos dobles enlaces y una ramificación CH₃."
+  },
+  {
+   "id": "pau2021-suplente-junio-c3+c4",
+   "block": "Genética",
+   "topic": "Cruce de gatos: gametos y genotipos · Fermentaciones en queso, yogur, vino y pan",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "q": "<b>I.</b> <b>La imagen muestra el cruce entre dos gatos, ambos con pelo de color negro, que da lugar a tres gatitos de color negro y un gatito de color gris. Conteste a las siguientes cuestiones:</b><br>a) Deduzca qué gametos se corresponden con los números 2, 3 y 4 [0,3].<br>b) Indique los genotipos para el color del pelo de los gatos 1, 5, 6 y 7 [0,4].<br>c) ¿En qué proporción se presentan los genotipos de la descendencia? [0,3] <i>(1 punto)</i><br><br><b>II.</b> <b>En relación con la figura adjunta, conteste a las siguientes cuestiones:</b><br>a) ¿Qué proceso metabólico tiene en común la fabricación de estos cuatro productos? [0,2]<br>b) ¿Qué tipo de microorganismo es responsable de la producción de cada uno de ellos? [0,4]<br>c) Para cada uno de los productos, indique cuál es la molécula de partida y la molécula orgánica resultante [0,4]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) 2: <mark class=\"clave-criterio\">A</mark>; 3: <mark class=\"clave-criterio\">a</mark>; 4: <mark class=\"clave-criterio\">a</mark> (0,3 p).",
+    "<b>I.</b> b) 1: <mark class=\"clave-criterio\">Aa</mark>; 5: <mark class=\"clave-criterio\">AA</mark>; 6: <mark class=\"clave-criterio\">Aa</mark>; 7: <mark class=\"clave-criterio\">aa</mark> (0,4 p).",
+    "<b>I.</b> c) <mark class=\"clave-criterio\">AA 25 %, Aa 50 %, aa 25 %</mark> (0,3 p).",
+    "<b>II.</b> a) <mark class=\"clave-criterio\">Fermentación</mark> (0,2 p).",
+    "<b>II.</b> b) 1 y 2: <mark class=\"clave-criterio\">bacterias</mark> (Lactobacillus); 3 y 4: <mark class=\"clave-criterio\">levaduras</mark> (Saccharomyces) (0,4 p).",
+    "<b>II.</b> c) 1 y 2: de <mark class=\"clave-criterio\">glucosa</mark> a <mark class=\"clave-criterio\">ácido láctico</mark>; 3 y 4: de <mark class=\"clave-criterio\">glucosa</mark> a <mark class=\"clave-criterio\">etanol</mark> (0,4 p)."
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2021-suplente-junio-c3",
+    "pau2021-suplente-junio-c4"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de junio",
+    "referencia": "Suplente de junio, bloque C, pregunta 3 + Suplente de junio, bloque C, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/suplente-junio-c3.webp",
+   "imgThumb": "assets/figuras/historico/2021/suplente-junio-c3.thumb.webp",
+   "imageDesc": "F0: gato negro Aa × gato negro (1). Gametos 2 y 3 del primero, A y 4 del segundo. F1: gatitos negros 5, 6 y Aa, y un gatito gris 7."
+  },
+  {
+   "id": "pau2021-reserva-junio-a1",
+   "block": "Biomoléculas",
+   "topic": "Proteínas: estructura secundaria y desnaturalización",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina proteína [0,6] y b) cite dos tipos de estructura secundaria que pueden presentar [0,4]. c) Explique en qué consiste la desnaturalización y la renaturalización de las proteínas [0,6]. d) Entre los diferentes tipos de enlaces que pueden existir en una proteína, indique cuál permanece tras el proceso de desnaturalización [0,4].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Macromolécula de una o varias cadenas polipeptídicas</mark> formadas por <mark class=\"clave-criterio\">aminoácidos unidos por enlaces peptídicos</mark> (0,6 p).",
+    "b) <mark class=\"clave-criterio\">Alfa-hélice</mark> y <mark class=\"clave-criterio\">conformación beta</mark> (hoja plegada) (0,4 p).",
+    "c) Desnaturalización: <mark class=\"clave-criterio\">pérdida de la estructura nativa</mark> y, con ella, <mark class=\"clave-criterio\">de la función</mark>. Renaturalización: <mark class=\"clave-criterio\">recuperación de la estructura nativa y de la función</mark> (0,6 p).",
+    "d) <mark class=\"clave-criterio\">Enlace peptídico</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de junio",
+    "referencia": "Reserva de junio, bloque A, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2021-reserva-junio-a2",
+   "block": "Metabolismo",
+   "topic": "Conceptos de anabolismo",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "En relación con el anabolismo celular, defina los conceptos: a) divergencia metabólica [0,5]; b) quimiosíntesis [0,5]; c) anabolismo heterótrofo [0,5]; d) fotosíntesis [0,5].",
+   "c": [
+    "a) Divergencia metabólica: <mark class=\"clave-criterio\">a partir de unos pocos sustratos se forman muchos productos diferentes</mark> (0,5 p).",
+    "b) Quimiosíntesis: obtención de <mark class=\"clave-criterio\">materia orgánica a partir de inorgánica</mark> con la <mark class=\"clave-criterio\">energía de reacciones químicas de oxidación</mark> (0,5 p).",
+    "c) Anabolismo heterótrofo: <mark class=\"clave-criterio\">a partir de precursores orgánicos sencillos</mark> se obtienen <mark class=\"clave-criterio\">moléculas orgánicas más complejas</mark> (0,5 p).",
+    "d) Fotosíntesis: captación de la <mark class=\"clave-criterio\">energía de la luz</mark> para <mark class=\"clave-criterio\">transformar materia inorgánica en orgánica</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de junio",
+    "referencia": "Reserva de junio, bloque A, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2021-reserva-junio-a3",
+   "block": "Genética",
+   "topic": "Determinación del sexo; caracteres ligados e influidos por el sexo",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Explique dos formas en las que se puede determinar el sexo de un organismo pluricelular [1,4]. b) Diferencie entre un carácter ligado al sexo y otro influido por el sexo [0,6].",
+   "c": [
+    "a) Por <mark class=\"clave-criterio\">cromosomas sexuales</mark> (heterocromosomas), que contienen los factores que determinan el sexo; o por el <mark class=\"clave-criterio\">número de cromosomas</mark> (<mark class=\"clave-criterio\">haplodiploidía</mark>): los individuos de <mark class=\"clave-criterio\">óvulos fecundados (diploides)</mark> y los de <mark class=\"clave-criterio\">óvulos sin fecundar (haploides)</mark> son de sexo diferente (1,4 p).",
+    "b) Ligado al sexo: gen situado en <mark class=\"clave-criterio\">uno de los cromosomas sexuales</mark>. Influido por el sexo: gen <mark class=\"clave-criterio\">autosómico</mark> que <mark class=\"clave-criterio\">se manifiesta según el sexo</mark> del individuo (0,6 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de junio",
+    "referencia": "Reserva de junio, bloque A, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2021-reserva-junio-a4",
+   "block": "Microbiología",
+   "topic": "Virus y ciclo lítico",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) ¿Qué es un virus? [0,5] b) Describa el ciclo lítico de un bacteriófago [1,5].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Forma acelular</mark> de <mark class=\"clave-criterio\">proteínas y un solo tipo de ácido nucleico</mark> que <mark class=\"clave-criterio\">necesita células vivas para multiplicarse</mark> (parásito obligado) (0,5 p).",
+    "b) <mark class=\"clave-criterio\">Unión a receptores específicos</mark> de la bacteria; <mark class=\"clave-criterio\">inyección del ácido nucleico</mark> por la vaina contráctil; <mark class=\"clave-criterio\">uso de la maquinaria biosintética</mark> de la bacteria para copiar el ácido nucleico y las proteínas de la cápsida; <mark class=\"clave-criterio\">ensamblaje</mark>; <mark class=\"clave-criterio\">lisis</mark> por enzimas líticas y <mark class=\"clave-criterio\">salida de los nuevos fagos</mark> (1,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de junio",
+    "referencia": "Reserva de junio, bloque A, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2021-reserva-junio-a5",
+   "block": "Inmunología",
+   "topic": "Antígeno, anticuerpo, vacuna y suero",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina antígeno [0,4] y b) anticuerpo [0,4]. c) Describa la estructura de un anticuerpo [0,6]. d) Explique dos diferencias entre vacuna y suero [0,6].",
+   "c": [
+    "a) Antígeno: <mark class=\"clave-criterio\">molécula no reconocida como propia</mark> que <mark class=\"clave-criterio\">desencadena una respuesta inmunitaria</mark> (0,4 p).",
+    "b) Anticuerpo: <mark class=\"clave-criterio\">proteína producida por los linfocitos B</mark> (células plasmáticas) en respuesta a un antígeno (0,4 p).",
+    "c) <mark class=\"clave-criterio\">Dos cadenas ligeras y dos pesadas</mark> (0,3 p), con <mark class=\"clave-criterio\">región constante</mark> (0,15 p) y <mark class=\"clave-criterio\">región variable</mark> (0,15 p).",
+    "d) <mark class=\"clave-criterio\">Preventivo o curativo</mark>; <mark class=\"clave-criterio\">forma o no células de memoria</mark>; <mark class=\"clave-criterio\">inmunidad activa o pasiva</mark>; <mark class=\"clave-criterio\">administra antígenos o anticuerpos</mark>. Dos (0,6 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de junio",
+    "referencia": "Reserva de junio, bloque A, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2021-reserva-junio-b1+b2",
+   "block": "Célula",
+   "topic": "Plantas en medios hipotónico e hipertónico · Ribosomas en el páncreas, mitocondrias en el corazón",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "q": "<b>I.</b> Dos plantas de tomate se cultivan en medio acuoso en condiciones similares de iluminación y temperatura, pero el medio líquido que se les aporta es diferente: en un caso es hipotónico y en otro hipertónico. a) Si la planta es capaz de controlar la evaporación, explique de forma razonada con cuál de los dos medios la tasa de evaporación será menor [0,5]. b) ¿Qué consecuencias tendrá en las células de estas plantas crecer en un medio hipertónico? [0,5] <i>(1 punto)</i><br><br><b>II.</b> Las células del páncreas tienen un gran número de ribosomas mientras que las del corazón contienen numerosas mitocondrias. ¿A qué se deben estas diferencias? [1] Razone la respuesta. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) Será menor en la planta del <mark class=\"clave-criterio\">medio hipertónico</mark>, para <mark class=\"clave-criterio\">evitar pérdidas de agua</mark> (0,5 p).",
+    "<b>I.</b> b) Las células pueden sufrir <mark class=\"clave-criterio\">plasmólisis</mark>, con <mark class=\"clave-criterio\">separación de la membrana y la pared</mark>, y posible <mark class=\"clave-criterio\">muerte celular</mark> (0,5 p).",
+    "<b>II.</b> Páncreas: muchos <mark class=\"clave-criterio\">ribosomas</mark> porque produce <mark class=\"clave-criterio\">enzimas y hormonas de naturaleza proteica</mark> (0,5 p).",
+    "<b>II.</b> Corazón: muchas <mark class=\"clave-criterio\">mitocondrias</mark> porque necesita <mark class=\"clave-criterio\">mucho ATP para la contracción muscular</mark> (0,5 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2021-reserva-junio-b1",
+    "pau2021-reserva-junio-b2"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de junio",
+    "referencia": "Reserva de junio, bloque B, pregunta 1 + Reserva de junio, bloque B, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2021-reserva-junio-b3+b4",
+   "block": "Genética",
+   "topic": "Reproducción sexual y adaptación en Posidonia · Experimento de fabricación de yogur",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "q": "<b>I.</b> <i>Posidonia oceanica</i> es una angiosperma marina endémica del Mediterráneo que puede reproducirse tanto de un modo sexual a través de frutos y semillas, como asexualmente a través de crecimiento clonal y propágulos. Se ha observado que en aquellas zonas donde existen condiciones ambientales más variables, la frecuencia de plantas que producen frutos y semillas es mucho más alta que en zonas donde las condiciones ambientales son más estables. a) Explique razonadamente a qué puede deberse este hecho [0,5]. b) Teniendo en cuenta el cambio climático que se está produciendo, ¿cuál de las dos poblaciones tendría una mayor capacidad de adaptación a dicho cambio? [0,5] <i>(1 punto)</i><br><br><b>II.</b> En un experimento de laboratorio se intenta fabricar yogur. Para ello se preparan 4 vasos y se mezclan en cada uno 200 ml de leche con una cucharada pequeña de yogur. Cada vaso se somete a unas condiciones diferentes:<br>Vaso A: se mantiene a una temperatura de 40-45 ºC.<br>Vaso B: se mete directamente en el frigorífico a una temperatura de 4 ºC.<br>Vaso C: se le añaden 5 gramos de amoxicilina (antibiótico que inhibe la síntesis de la pared celular bacteriana) y se mantiene a una temperatura de 40-45 ºC.<br>Vaso D: se esteriliza y después se mantiene a una temperatura de 40-45 ºC.<br>Explique razonadamente cuáles serán los resultados esperados en cada uno de los 4 vasos después de tres horas en las condiciones descritas [1]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) La <mark class=\"clave-criterio\">reproducción sexual</mark> da <mark class=\"clave-criterio\">más variabilidad genética</mark>, necesaria para <mark class=\"clave-criterio\">adaptarse a los cambios ambientales</mark>; donde el ambiente cambia más, <mark class=\"clave-criterio\">se han seleccionado</mark> los genotipos con <mark class=\"clave-criterio\">más reproducción sexual</mark> (0,5 p).",
+    "<b>I.</b> b) La población con <mark class=\"clave-criterio\">más reproducción sexual</mark>: produce <mark class=\"clave-criterio\">más genotipos diferentes</mark> y es más probable que alguno <mark class=\"clave-criterio\">se adapte y sobreviva</mark> (0,5 p).",
+    "<b>II.</b> Vaso A: <mark class=\"clave-criterio\">sí hay yogur</mark>: la temperatura permite que proliferen las bacterias de la <mark class=\"clave-criterio\">fermentación láctica</mark> (0,25 p).",
+    "<b>II.</b> Vaso B: <mark class=\"clave-criterio\">no</mark>: con el frío <mark class=\"clave-criterio\">se detiene el crecimiento de las bacterias</mark> (0,25 p).",
+    "<b>II.</b> Vaso C: <mark class=\"clave-criterio\">no</mark>: el antibiótico <mark class=\"clave-criterio\">inhibe el crecimiento de las bacterias lácticas</mark> (0,25 p).",
+    "<b>II.</b> Vaso D: <mark class=\"clave-criterio\">no</mark>: tras la esterilización <mark class=\"clave-criterio\">no quedan bacterias viables</mark> (0,25 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2021-reserva-junio-b3",
+    "pau2021-reserva-junio-b4"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de junio",
+    "referencia": "Reserva de junio, bloque B, pregunta 3 + Reserva de junio, bloque B, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2021-reserva-junio-c1+c2",
+   "block": "Biomoléculas",
+   "topic": "Almidón y enlace O-glucosídico · Lisosomas: heterofagia y autofagia",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "q": "<b>I.</b> <b>En relación con la figura adjunta, conteste a las siguientes cuestiones:</b><br>a) Indique el nombre de la molécula representada [0,2].<br>b) Cite una función de la misma [0,2].<br>c) Nombre el monómero del recuadro [0,2] y cite su función principal [0,2].<br>d) ¿Qué tipo de enlace señala la flecha? [0,2] <i>(1 punto)</i><br><br><b>II.</b> <b>En relación con la figura adjunta, conteste las siguientes cuestiones:</b><br>a) ¿Cómo se denominan los orgánulos celulares representados en la figura con los números 1, 2, 3 y 4? [0,4]<br>b) ¿Cuál es el origen del orgánulo señalado con el número 1? [0,2]<br>c) Nombre los procesos que tendrán lugar tras la fusión de 1 con 2 y de 1 con 3 [0,4]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) <mark class=\"clave-criterio\">Almidón</mark> (amilosa) (0,2 p).",
+    "<b>I.</b> b) <mark class=\"clave-criterio\">Reserva energética en vegetales</mark> (0,2 p).",
+    "<b>I.</b> c) <mark class=\"clave-criterio\">Glucosa</mark> (0,2 p), el <mark class=\"clave-criterio\">azúcar más utilizado como fuente de energía</mark> (0,2 p).",
+    "<b>I.</b> d) <mark class=\"clave-criterio\">Enlace O-glucosídico</mark> (0,2 p).",
+    "<b>II.</b> a) 1: <mark class=\"clave-criterio\">lisosoma</mark>; 2: <mark class=\"clave-criterio\">fagosoma</mark>; 3: <mark class=\"clave-criterio\">autofagosoma</mark>; 4: <mark class=\"clave-criterio\">retículo endoplasmático</mark> (0,4 p).",
+    "<b>II.</b> b) El <mark class=\"clave-criterio\">complejo de Golgi</mark> (0,2 p).",
+    "<b>II.</b> c) 1 con 2: <mark class=\"clave-criterio\">heterofagia</mark>; 1 con 3: <mark class=\"clave-criterio\">autofagia</mark> (0,4 p)."
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2021-reserva-junio-c1",
+    "pau2021-reserva-junio-c2"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de junio",
+    "referencia": "Reserva de junio, bloque C, pregunta 1 + Reserva de junio, bloque C, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/reserva-junio-c1.webp",
+   "imgThumb": "assets/figuras/historico/2021/reserva-junio-c1.thumb.webp",
+   "imageDesc": "Una larga cadena de anillos de seis átomos unidos por puentes de oxígeno que forma una hélice; un anillo aparece enmarcado y una flecha señala uno de los puentes."
+  },
+  {
+   "id": "pau2021-reserva-junio-c3+c4",
+   "block": "Genética",
+   "topic": "Enzimas de la replicación · Levaduras, bacterias y fagos",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "q": "<b>I.</b> <b>Analice la figura adjunta y responda a las siguientes cuestiones:</b><br>a) ¿Qué proceso se representa en la imagen? [0,1]<br>b) Indique dos compartimentos de la célula eucariótica en los que se desarrolla este proceso [0,1].<br>c) Nombre las enzimas señaladas con las letras A, B, C y D [0,5].<br>d) Indique qué señalan los números 1, 2 y 3 [0,3]. <i>(1 punto)</i><br><br><b>II.</b> <b>En relación con las figuras adjuntas, responda las siguientes cuestiones:</b><br>a) Identifique los microorganismos representados con las letras A y B [0,2] e indique, en cada caso, a qué Reino pertenecen [0,2] y el tipo de organización celular que poseen [0,2].<br>b) Indique qué está representado con la letra C [0,1] y a qué tipo de células puede parasitar [0,1].<br>c) ¿Cuál de estos microorganismos puede emplearse en la fabricación de cerveza? ¿Y en la de yogur? [0,2] <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) <mark class=\"clave-criterio\">Replicación del ADN</mark> (0,1 p).",
+    "<b>I.</b> b) <mark class=\"clave-criterio\">Núcleo</mark>, <mark class=\"clave-criterio\">mitocondria</mark> y <mark class=\"clave-criterio\">cloroplasto</mark>. Dos (0,1 p).",
+    "<b>I.</b> c) A: <mark class=\"clave-criterio\">topoisomerasa</mark>; B: <mark class=\"clave-criterio\">helicasa</mark>; C: <mark class=\"clave-criterio\">ADN polimerasa</mark>; D: <mark class=\"clave-criterio\">ADN ligasa</mark>; (los criterios añaden E: <mark class=\"clave-criterio\">ARN primasa</mark>) (0,5 p).",
+    "<b>I.</b> d) 1: <mark class=\"clave-criterio\">cadena retrasada</mark>; 2: <mark class=\"clave-criterio\">cadena adelantada</mark>; 3: <mark class=\"clave-criterio\">fragmento de Okazaki</mark> (0,3 p).",
+    "<b>II.</b> a) A: <mark class=\"clave-criterio\">levaduras</mark> (Saccharomyces), reino <mark class=\"clave-criterio\">Fungi</mark>, <mark class=\"clave-criterio\">eucariota</mark>; B: <mark class=\"clave-criterio\">bacterias</mark>, reino <mark class=\"clave-criterio\">Monera</mark>, <mark class=\"clave-criterio\">procariota</mark> (0,6 p).",
+    "<b>II.</b> b) C: <mark class=\"clave-criterio\">bacteriófago</mark>, que parasita <mark class=\"clave-criterio\">bacterias</mark> (procariotas) (0,2 p).",
+    "<b>II.</b> c) Cerveza: <mark class=\"clave-criterio\">A</mark>; yogur: <mark class=\"clave-criterio\">B</mark> (0,2 p)."
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2021-reserva-junio-c3",
+    "pau2021-reserva-junio-c4"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de junio",
+    "referencia": "Reserva de junio, bloque C, pregunta 3 + Reserva de junio, bloque C, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/reserva-junio-c3.webp",
+   "imgThumb": "assets/figuras/historico/2021/reserva-junio-c3.thumb.webp",
+   "imageDesc": "Una burbuja con dos horquillas a partir de un ORI; se señalan con letras A a E varias piezas sobre las hebras, y con números 1 a 3 distintos tramos de hebra nueva (continua y a trozos)."
+  },
+  {
+   "id": "pau2021-julio-a1",
+   "block": "Biomoléculas",
+   "topic": "Monosacáridos",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina qué son los monosacáridos [0,6] y cite dos de sus funciones [0,4]. b) Realice una clasificación de los mismos indicando el criterio utilizado [0,5]. c) Represente la fórmula desarrollada (lineal o cíclica) de la glucosa [0,5].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Polialcoholes con un grupo carbonilo</mark> (C=O); son las <mark class=\"clave-criterio\">unidades de los demás hidratos de carbono</mark> (0,6 p). Funciones: <mark class=\"clave-criterio\">estructural</mark> y <mark class=\"clave-criterio\">energética</mark> (0,4 p).",
+    "b) Cualquier clasificación correcta con su criterio (0,5 p): <span class=\"redactado\">por el grupo carbonilo, <mark class=\"clave-criterio\">aldosas</mark> y <mark class=\"clave-criterio\">cetosas</mark>; por el número de carbonos, <mark class=\"clave-criterio\">triosas, tetrosas, pentosas, hexosas y heptosas</mark></span>.",
+    "c) <mark class=\"clave-criterio\">Fórmula de la glucosa</mark>, lineal o cíclica (0,5 p): <span class=\"redactado\">CHO–CHOH–CHOH–CHOH–CHOH–CH₂OH</span>."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de julio",
+    "referencia": "Titular de julio, bloque A, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_BIOLOGIA-JULIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2021-julio-a2",
+   "block": "Célula",
+   "topic": "Componentes del núcleo interfásico",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Cite cuatro componentes principales del núcleo interfásico [0,4]. b) Indique la composición [0,8] y c) una función de cada uno de ellos [0,8].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Envoltura nuclear</mark>, <mark class=\"clave-criterio\">nucleoplasma</mark>, <mark class=\"clave-criterio\">cromatina</mark>, <mark class=\"clave-criterio\">nucléolo</mark>, poros nucleares. Cuatro (0,4 p).",
+    "b) Envoltura: <mark class=\"clave-criterio\">fosfolípidos, colesterol y proteínas</mark>; nucleoplasma: <mark class=\"clave-criterio\">agua, sales, nucleótidos y enzimas</mark>; cromatina: <mark class=\"clave-criterio\">ADN y proteínas</mark>; nucléolo: <mark class=\"clave-criterio\">ADN, ARN y proteínas</mark> (0,8 p).",
+    "c) Envoltura: <mark class=\"clave-criterio\">protección y transporte</mark>; nucleoplasma: <mark class=\"clave-criterio\">medio de las reacciones nucleares</mark>; cromatina: <mark class=\"clave-criterio\">contiene la información genética</mark>; nucléolo: <mark class=\"clave-criterio\">síntesis de ARN ribosómico</mark>. 0,2 p cada una (0,8 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de julio",
+    "referencia": "Titular de julio, bloque A, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_BIOLOGIA-JULIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2021-julio-a3",
+   "block": "Genética",
+   "topic": "Órganos homólogos y análogos",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina qué son órganos homólogos y órganos análogos [1]. b) Ponga un ejemplo de cada tipo [0,6]. c) Indique qué tipo de estos órganos aporta información para entender la evolución a partir de un antepasado común y por qué [0,4].",
+   "c": [
+    "a) Homólogos: <mark class=\"clave-criterio\">origen evolutivo común</mark> y <mark class=\"clave-criterio\">misma estructura básica</mark>, aunque realicen <mark class=\"clave-criterio\">distinta función</mark> (0,5 p). Análogos: <mark class=\"clave-criterio\">misma función</mark> pero <mark class=\"clave-criterio\">origen y estructura distintos</mark> (0,5 p).",
+    "b) Homólogos: <mark class=\"clave-criterio\">extremidades anteriores de los vertebrados</mark>; análogos: <mark class=\"clave-criterio\">ala de insecto y ala de ave</mark>. 0,3 p cada uno (0,6 p).",
+    "c) Los <mark class=\"clave-criterio\">homólogos</mark>, porque surgen de una <mark class=\"clave-criterio\">evolución divergente</mark> (<mark class=\"clave-criterio\">radiación adaptativa</mark>) (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de julio",
+    "referencia": "Titular de julio, bloque A, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_BIOLOGIA-JULIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2021-julio-a4",
+   "block": "Microbiología",
+   "topic": "Tabla de grupos de microorganismos",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Copie la siguiente tabla y rellene las casillas indicando las características de cada grupo de microorganismos [1,5]. b) Cite dos diferencias que distingan a los virus del resto de microorganismos [0,5].<table class=\"tabla-pau\"><tr><th></th><th>Algas</th><th>Bacterias</th><th>Hongos</th><th>Protozoos</th></tr><tr><td>Organización celular</td><td></td><td></td><td></td><td></td></tr><tr><td>Número de células</td><td></td><td></td><td></td><td></td></tr><tr><td>Tipo de nutrición</td><td></td><td></td><td></td><td></td></tr><tr><td>Realización de fotosíntesis</td><td></td><td></td><td></td><td></td></tr><tr><td>Tipo de división celular</td><td></td><td></td><td></td><td></td></tr></table>",
+   "c": [
+    "a) Organización: algas <mark class=\"clave-criterio\">eucariota</mark>, bacterias <mark class=\"clave-criterio\">procariota</mark>, hongos <mark class=\"clave-criterio\">eucariota</mark>, protozoos <mark class=\"clave-criterio\">eucariota</mark>. Número de células: algas <mark class=\"clave-criterio\">uni- y pluricelulares</mark>, bacterias <mark class=\"clave-criterio\">unicelulares</mark>, hongos <mark class=\"clave-criterio\">uni- y pluricelulares</mark>, protozoos <mark class=\"clave-criterio\">unicelulares</mark>.",
+    "a) Nutrición: algas <mark class=\"clave-criterio\">autótrofa</mark>, bacterias <mark class=\"clave-criterio\">autótrofa y heterótrofa</mark>, hongos <mark class=\"clave-criterio\">heterótrofa</mark>, protozoos <mark class=\"clave-criterio\">heterótrofa</mark>. Fotosíntesis: algas <mark class=\"clave-criterio\">sí</mark>, bacterias <mark class=\"clave-criterio\">sí</mark> <span class=\"redactado\">algunas</span>, hongos <mark class=\"clave-criterio\">no</mark>, protozoos <mark class=\"clave-criterio\">no</mark>. División: algas, hongos y protozoos <mark class=\"clave-criterio\">mitosis</mark>; bacterias <mark class=\"clave-criterio\">bipartición</mark>. 0,075 p por casilla (1,5 p).",
+    "b) <mark class=\"clave-criterio\">Genoma de ARN</mark> en algunos; <mark class=\"clave-criterio\">uno solo de los dos tipos de ácido nucleico</mark>; <mark class=\"clave-criterio\">sin metabolismo propio</mark>; <mark class=\"clave-criterio\">estructura acelular</mark>. Dos (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de julio",
+    "referencia": "Titular de julio, bloque A, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_BIOLOGIA-JULIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2021-julio-a5",
+   "block": "Inmunología",
+   "topic": "Tipos de respuesta inmunitaria",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Defina: a) respuesta inmunitaria congénita o innata [0,5]; b) respuesta inmunitaria adquirida o adaptativa [0,5]; c) respuesta humoral [0,5]; d) respuesta celular [0,5].",
+   "c": [
+    "a) Innata: <mark class=\"clave-criterio\">propia de la especie</mark> y <mark class=\"clave-criterio\">no precisa activación</mark> (0,5 p).",
+    "b) Adquirida: <mark class=\"clave-criterio\">propia del individuo</mark>, se desarrolla a lo largo de la vida <mark class=\"clave-criterio\">por contacto con antígenos</mark> (0,5 p).",
+    "c) Humoral: basada en la <mark class=\"clave-criterio\">producción de sustancias</mark>, esencialmente <mark class=\"clave-criterio\">anticuerpos</mark> (0,5 p).",
+    "d) Celular: basada en la <mark class=\"clave-criterio\">acción directa de células</mark> como <mark class=\"clave-criterio\">linfocitos T y macrófagos</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de julio",
+    "referencia": "Titular de julio, bloque A, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_BIOLOGIA-JULIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2021-julio-b1+b2",
+   "block": "Biomoléculas",
+   "topic": "Fragmentos de tripsina y quimotripsina · Transportadores de glucosa dañados",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "q": "<b>I.</b> La tripsina es una enzima proteolítica que cataliza la hidrólisis de los enlaces peptídicos en los que el grupo carboxilo es aportado por la Lys o Arg. a) Escriba la secuencia de los fragmentos resultantes de la acción de la tripsina en el péptido que se indica a continuación [0,5]. La quimotripsina tiene la misma función, pero corta por el extremo carboxilo del aminoácido Met. b) En este caso, ¿cuáles son los fragmentos resultantes? [0,5]<br>H₂N-Lys – Met – Cys – Met – Lys – Ala – Cys – Arg – Ala-COOH <i>(1 punto)</i><br><br><b>II.</b> Un individuo ingiere una sustancia que causa daños en los transportadores de glucosa de las membranas celulares. a) ¿Se afectará por este motivo la respiración celular? [0,6] b) ¿Podrá sobrevivir este individuo? [0,4] Razone las respuestas. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) Tripsina: <mark class=\"clave-criterio\">H₂N-Lys-COOH + H₂N-Met-Cys-Met-Lys-COOH + H₂N-Ala-Cys-Arg-COOH + H₂N-Ala-COOH</mark> (0,5 p).",
+    "<b>I.</b> b) Quimotripsina: <mark class=\"clave-criterio\">H₂N-Lys-Met-COOH + H₂N-Cys-Met-COOH + H₂N-Lys-Ala-Cys-Arg-Ala-COOH</mark> (0,5 p).",
+    "<b>II.</b> a) <mark class=\"clave-criterio\">Sí</mark>: si la glucosa <mark class=\"clave-criterio\">no entra en la célula</mark>, no puede usarse para obtener energía y sus metabolitos <mark class=\"clave-criterio\">no participan en la respiración celular</mark> (0,6 p).",
+    "<b>II.</b> b) <mark class=\"clave-criterio\">Sí</mark>: podrá obtener energía <mark class=\"clave-criterio\">a partir de proteínas y ácidos grasos</mark> (0,4 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2021-julio-b1",
+    "pau2021-julio-b2"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de julio",
+    "referencia": "Titular de julio, bloque B, pregunta 1 + Titular de julio, bloque B, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_BIOLOGIA-JULIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2021-julio-b3+b4",
+   "block": "Genética",
+   "topic": "Cruce de cobayas negras (3:1) · Tratamientos antivirales que bloquean la entrada",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "q": "<b>I.</b> La pigmentación del pelo de una determinada línea de cobayas de laboratorio se debe a un gen con dos alelos, que determinan el color blanco o negro. Se observó que, al cruzar un macho negro con una hembra negra en sucesivas ocasiones, se obtuvo de ellos una descendencia de 85 cobayas, de los cuales 64 eran negras y 21 blancas. Indique, realizando los correspondientes cruzamientos, lo siguiente: a) los genotipos de las cobayas que se cruzan [0,25]; b) los fenotipos y los genotipos de las cobayas obtenidas [0,25]; c) el color y la proporción de la descendencia que es heterocigótica [0,25]; d) justifique si estos resultados se ajustan a alguna de las leyes de Mendel [0,25]. <i>(1 punto)</i><br><br><b>II.</b> En algunos tratamientos para enfermedades de origen vírico se utilizan macromoléculas que se unen a ciertas proteínas de la superficie del virus (de la envoltura de la cápsida). Indique razonadamente el fundamento de este tratamiento [1]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) Ambos progenitores <mark class=\"clave-criterio\">heterocigóticos Nn</mark> (0,25 p).",
+    "<b>I.</b> b) Negros: <mark class=\"clave-criterio\">NN (25 %) o Nn (50 %)</mark>; blancos: <mark class=\"clave-criterio\">nn (25 %)</mark> <span class=\"redactado\">64:21 ≈ 3:1</span> (0,25 p).",
+    "<b>I.</b> c) Heterocigóticas: cobayas <mark class=\"clave-criterio\">negras Nn</mark>, el <mark class=\"clave-criterio\">50 %</mark> (0,25 p).",
+    "<b>I.</b> d) <mark class=\"clave-criterio\">Sí</mark>, a la <mark class=\"clave-criterio\">segunda ley de Mendel</mark> (segregación) (0,25 p).",
+    "<b>II.</b> Se <mark class=\"clave-criterio\">bloquea la interacción entre las proteínas de la superficie del virus</mark> y las <mark class=\"clave-criterio\">proteínas de la superficie de las células</mark> que va a infectar; así se <mark class=\"clave-criterio\">impide la entrada del virus</mark> y el progreso de la enfermedad (1 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2021-julio-b3",
+    "pau2021-julio-b4"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de julio",
+    "referencia": "Titular de julio, bloque B, pregunta 3 + Titular de julio, bloque B, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_BIOLOGIA-JULIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2021-julio-c1+c2",
+   "block": "Biomoléculas",
+   "topic": "Ribosa, desoxirribosa, nucleósidos y nucleótidos · Fases del ciclo celular en una célula animal",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "q": "<b>I.</b> <b>Teniendo en cuenta la figura adjunta, indique:</b><br>a) El nombre de cada una de las dos moléculas mostradas [0,3].<br>b) ¿Cómo se denomina la biomolécula que se forma cuando se une a cada una de estas moléculas una base nitrogenada púrica o pirimídica? [0,15]<br>c) ¿Y cuándo se une además la molécula de ácido fosfórico? [0,15]<br>d) Cuando se unen muchas de estas últimas biomoléculas a través de enlaces fosfodiéster, ¿cuál es la función biológica principal del polímero que resulta? [0,2]<br>e) Indique una función para la biomolécula del apartado “c” cuando se encuentra libre no formando parte de un polímero [0,2]. <i>(1 punto)</i><br><br><b>II.</b> <b>En relación con la figura adjunta, conteste a las siguientes cuestiones:</b><br>a) Indique, ordenándolos temporalmente, qué momento del ciclo celular representa cada esquema de la figura [0,6].<br>b) Nombre tres componentes celulares representados en el esquema D [0,3].<br>c) Indique dos características que permitan saber si se trata de una célula procariótica, eucariótica animal o vegetal [0,1]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) A: <mark class=\"clave-criterio\">desoxirribosa</mark> (β-D-2'-desoxirribosa); B: <mark class=\"clave-criterio\">ribosa</mark> (β-D-ribosa) (0,3 p).",
+    "<b>I.</b> b) <mark class=\"clave-criterio\">Nucleósido</mark> (0,15 p). c) <mark class=\"clave-criterio\">Nucleótido</mark> (0,15 p).",
+    "<b>I.</b> d) <mark class=\"clave-criterio\">Formar los ácidos nucleicos</mark>: <mark class=\"clave-criterio\">portar la información genética</mark> (0,2 p).",
+    "<b>I.</b> e) <mark class=\"clave-criterio\">Coenzimas</mark>, <mark class=\"clave-criterio\">moneda energética</mark> (ATP), <mark class=\"clave-criterio\">intermediario de la acción hormonal</mark> (AMPc). Una (0,2 p).",
+    "<b>II.</b> a) <mark class=\"clave-criterio\">E: interfase</mark>; <mark class=\"clave-criterio\">B: profase</mark>; <mark class=\"clave-criterio\">D: metafase</mark>; <mark class=\"clave-criterio\">C: anafase</mark>; <mark class=\"clave-criterio\">A: telofase</mark>; <mark class=\"clave-criterio\">F: citocinesis</mark> (se admite E al final) (0,6 p).",
+    "<b>II.</b> b) <mark class=\"clave-criterio\">Cromosomas</mark>, <mark class=\"clave-criterio\">microtúbulos</mark>, <mark class=\"clave-criterio\">centriolos</mark>, membrana plasmática. Tres (0,3 p).",
+    "<b>II.</b> c) Es una <mark class=\"clave-criterio\">eucariótica animal</mark>: tiene <mark class=\"clave-criterio\">centriolos</mark>, <mark class=\"clave-criterio\">no tiene pared celular</mark> y la citocinesis es por <mark class=\"clave-criterio\">surco de segmentación</mark> (0,1 p)."
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2021-julio-c1",
+    "pau2021-julio-c2"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de julio",
+    "referencia": "Titular de julio, bloque C, pregunta 1 + Titular de julio, bloque C, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_BIOLOGIA-JULIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/julio-c1.webp",
+   "imgThumb": "assets/figuras/historico/2021/julio-c1.thumb.webp",
+   "imageDesc": "Dos anillos de cinco átomos con un grupo CH₂OH: A tiene un OH y un H en los carbonos inferiores; B tiene dos OH."
+  },
+  {
+   "id": "pau2021-julio-c3+c4",
+   "block": "Genética",
+   "topic": "Transcripción y traducción · Estructura del VIH",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "q": "<b>I.</b> <b>En relación con la figura adjunta, conteste las siguientes cuestiones:</b><br>a) Indique el nombre de las moléculas 1, 2 y 3 [0,3].<br>b) ¿Qué representan las letras A y B? [0,2]<br>c) Cite los procesos realizados por A y por B [0,2].<br>d) Indique en qué lugar de la célula eucariótica se produce cada uno de los dos procesos [0,2].<br>e) Nombre una molécula similar a 2 y que forme parte de B [0,1]. <i>(1 punto)</i><br><br><b>II.</b> <b>En relación con la figura adjunta, que representa al VIH, indique:</b><br>a) Si se trata de un virus desnudo o envuelto [0,1] y a qué tipo de células puede infectar [0,1].<br>b) Tipo de ácido nucleico representado con el número 1 [0,2].<br>c) Número que se corresponde con la cápsida [0,1] y composición química de dicha estructura [0,1].<br>d) Número que representa la estructura a través de la cual el virus reconoce a sus células dianas [0,1]. ¿Cuál es su composición química? [0,1]<br>e) ¿Qué número representa una enzima esencial en el ciclo de vida de este virus? [0,1] ¿Qué nombre recibe esta enzima? [0,1] <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) 1: <mark class=\"clave-criterio\">ADN</mark>; 2: <mark class=\"clave-criterio\">ARN mensajero</mark>; 3: <mark class=\"clave-criterio\">proteína</mark> (cadena polipeptídica) (0,3 p).",
+    "<b>I.</b> b) A: <mark class=\"clave-criterio\">ARN polimerasa</mark>; B: <mark class=\"clave-criterio\">ribosoma</mark> (0,2 p).",
+    "<b>I.</b> c) A: <mark class=\"clave-criterio\">transcripción</mark>; B: <mark class=\"clave-criterio\">traducción</mark> (0,2 p).",
+    "<b>I.</b> d) Transcripción: <mark class=\"clave-criterio\">núcleo</mark>; traducción: <mark class=\"clave-criterio\">citosol</mark> (0,2 p).",
+    "<b>I.</b> e) <mark class=\"clave-criterio\">ARN ribosómico</mark> (0,1 p).",
+    "<b>II.</b> a) <mark class=\"clave-criterio\">Envuelto</mark>; infecta <mark class=\"clave-criterio\">linfocitos T</mark> (0,2 p).",
+    "<b>II.</b> b) <mark class=\"clave-criterio\">ARN</mark> (0,2 p).",
+    "<b>II.</b> c) <mark class=\"clave-criterio\">3</mark>; <mark class=\"clave-criterio\">proteínas</mark> (0,2 p).",
+    "<b>II.</b> d) <mark class=\"clave-criterio\">4</mark>; <mark class=\"clave-criterio\">glucoproteínas</mark> (0,2 p).",
+    "<b>II.</b> e) <mark class=\"clave-criterio\">2</mark>; <mark class=\"clave-criterio\">retrotranscriptasa</mark> o <mark class=\"clave-criterio\">transcriptasa inversa</mark> (0,2 p)."
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2021-julio-c3",
+    "pau2021-julio-c4"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de julio",
+    "referencia": "Titular de julio, bloque C, pregunta 3 + Titular de julio, bloque C, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_BIOLOGIA-JULIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/julio-c3.webp",
+   "imgThumb": "assets/figuras/historico/2021/julio-c3.thumb.webp",
+   "imageDesc": "Una doble hélice (1) sobre la que actúa A produce una hebra sencilla (2); sobre esta actúa B y se forma una cadena de cuentas (3)."
+  },
+  {
+   "id": "pau2021-suplente-julio-a1",
+   "block": "Biomoléculas",
+   "topic": "Estructura primaria y secundaria del ADN",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "En relación con el ADN: a) explique su estructura primaria [0,5] y b) su estructura secundaria [1]. c) Indique en qué consiste la desnaturalización de la estructura secundaria del ADN [0,3] y d) dos factores que la ocasionen [0,2].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Secuencia de desoxirribonucleótidos unidos por enlaces fosfodiéster</mark> (0,5 p).",
+    "b) <mark class=\"clave-criterio\">Dos cadenas antiparalelas</mark> enrolladas formando una <mark class=\"clave-criterio\">doble hélice</mark>, con las <mark class=\"clave-criterio\">bases en el interior</mark>, <mark class=\"clave-criterio\">complementarias</mark> y unidas por <mark class=\"clave-criterio\">puentes de hidrógeno</mark> (A=T, C≡G) (1 p).",
+    "c) <mark class=\"clave-criterio\">Pérdida de la doble hélice</mark> por <mark class=\"clave-criterio\">rotura de los puentes de hidrógeno</mark>: <mark class=\"clave-criterio\">las hebras se separan</mark> (0,3 p).",
+    "d) Cambios de <mark class=\"clave-criterio\">temperatura</mark>, de <mark class=\"clave-criterio\">pH</mark> o de las <mark class=\"clave-criterio\">condiciones iónicas</mark>. Dos (0,2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de julio",
+    "referencia": "Suplente de julio, bloque A, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2021-suplente-julio-a2",
+   "block": "Metabolismo",
+   "topic": "Ciclo de Krebs",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina ciclo de Krebs [0,4]. b) Indique en qué parte de la célula vegetal se realiza [0,2]. c) Cite los dos compuestos imprescindibles para comenzar cada vuelta del ciclo [0,2] y d) de dónde procede cada uno de ellos [0,4]. e) Nombre los productos del ciclo de Krebs que al oxidarse ceden sus electrones a la cadena de transporte electrónico [0,4]. f) ¿En qué se diferencian el ciclo de Krebs y el ciclo de Calvin con respecto al ATP? [0,4]",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Vía metabólica central</mark> de los aerobios que <mark class=\"clave-criterio\">oxida los grupos acetilo hasta CO₂</mark> y produce <mark class=\"clave-criterio\">ATP y NADH</mark> (0,4 p).",
+    "b) <mark class=\"clave-criterio\">Matriz mitocondrial</mark> (0,2 p). c) <mark class=\"clave-criterio\">Oxalacético</mark> y <mark class=\"clave-criterio\">acetil-CoA</mark> (0,2 p).",
+    "d) El oxalacético <mark class=\"clave-criterio\">se regenera en cada vuelta</mark>; el acetil-CoA procede de la <mark class=\"clave-criterio\">descarboxilación oxidativa del pirúvico</mark> o de la <mark class=\"clave-criterio\">β-oxidación</mark> (0,4 p).",
+    "e) <mark class=\"clave-criterio\">NADH</mark> y <mark class=\"clave-criterio\">FADH₂</mark> (0,4 p).",
+    "f) El ciclo de Krebs es <mark class=\"clave-criterio\">catabólico</mark> y <mark class=\"clave-criterio\">produce ATP</mark>; el de Calvin es <mark class=\"clave-criterio\">anabólico</mark> y <mark class=\"clave-criterio\">consume ATP</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de julio",
+    "referencia": "Suplente de julio, bloque A, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2021-suplente-julio-a3",
+   "block": "Genética",
+   "topic": "Segunda ley de Mendel y cruzamiento prueba",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Enuncie [0,5] y b) realice un esquema de la segunda ley de Mendel [0,5]. c) Explique en qué consiste el cruzamiento prueba [0,5] y d) realice un esquema del mismo [0,5].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Ley de la segregación</mark>: al cruzar los <mark class=\"clave-criterio\">híbridos de la F1</mark> aparece en la F2 una proporción <mark class=\"clave-criterio\">3:1</mark>, reapareciendo el carácter que había desaparecido, porque <mark class=\"clave-criterio\">los alelos se separan sin modificarse</mark> (0,5 p).",
+    "b) Esquema: <mark class=\"clave-criterio\">Aa × Aa → 25 % AA, 50 % Aa, 25 % aa</mark> (0,5 p).",
+    "c) Cruce de un individuo de <mark class=\"clave-criterio\">fenotipo dominante</mark> y genotipo desconocido con un <mark class=\"clave-criterio\">homocigótico recesivo</mark> para <mark class=\"clave-criterio\">averiguar su genotipo</mark> (0,5 p).",
+    "d) Esquema: <mark class=\"clave-criterio\">aa × AA → 100 % dominante</mark>; <mark class=\"clave-criterio\">aa × Aa → 50 % dominante y 50 % recesivo</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de julio",
+    "referencia": "Suplente de julio, bloque A, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2021-suplente-julio-a4",
+   "block": "Microbiología",
+   "topic": "Componentes de la célula bacteriana",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Dibuje una bacteria [0,3] e b) identifique claramente siete de sus componentes [0,7]. c) Cite una función de cinco de estos componentes [1].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Dibujo</mark> de una bacteria (0,3 p).",
+    "b) <mark class=\"clave-criterio\">Flagelos</mark>, <mark class=\"clave-criterio\">pili</mark>, <mark class=\"clave-criterio\">fimbrias</mark>, <mark class=\"clave-criterio\">cápsula</mark>, <mark class=\"clave-criterio\">pared celular</mark>, <mark class=\"clave-criterio\">membrana plasmática</mark>, <mark class=\"clave-criterio\">citoplasma</mark>, <mark class=\"clave-criterio\">cromosoma bacteriano</mark>, <mark class=\"clave-criterio\">plásmidos</mark>, <mark class=\"clave-criterio\">ribosomas</mark>, vesículas de gas, inclusiones. Siete (0,7 p).",
+    "c) Flagelos: <mark class=\"clave-criterio\">movilidad</mark>; pili: <mark class=\"clave-criterio\">transferencia de material genético</mark>; fimbrias: <mark class=\"clave-criterio\">adhesión</mark>; cápsula: <mark class=\"clave-criterio\">protección frente a la fagocitosis y la desecación</mark>; pared: <mark class=\"clave-criterio\">forma y rigidez</mark>, soporta presiones osmóticas; membrana: <mark class=\"clave-criterio\">permeabilidad selectiva</mark>; cromosoma: <mark class=\"clave-criterio\">información genética</mark>; plásmidos: <mark class=\"clave-criterio\">características ventajosas</mark>; ribosomas: <mark class=\"clave-criterio\">síntesis de proteínas</mark>. Cinco, a 0,2 p (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de julio",
+    "referencia": "Suplente de julio, bloque A, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2021-suplente-julio-a5",
+   "block": "Inmunología",
+   "topic": "Hipersensibilidad, autoinmunidad e inmunodeficiencia",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina hipersensibilidad, autoinmunidad e inmunodeficiencia [1,2]. b) Cite un ejemplo de una inmunodeficiencia de origen infeccioso y de otra que no lo sea [0,2]. c) Describa el mecanismo por el que se produce la inmunodeficiencia de origen infeccioso que ha citado en el apartado anterior [0,6].",
+   "c": [
+    "a) Hipersensibilidad: <mark class=\"clave-criterio\">respuesta inadecuada o exagerada</mark>. Autoinmunidad: <mark class=\"clave-criterio\">respuesta contra moléculas, células o tejidos propios</mark>. Inmunodeficiencia: <mark class=\"clave-criterio\">incapacidad para defender al organismo frente a las infecciones</mark> (1,2 p).",
+    "b) Infecciosa: <mark class=\"clave-criterio\">SIDA</mark>; no infecciosa: <mark class=\"clave-criterio\">inmunodeficiencia combinada severa</mark> (niño burbuja) (0,2 p).",
+    "c) El <mark class=\"clave-criterio\">VIH infecta los linfocitos T4 (colaboradores)</mark> y causa su muerte, así que el enfermo <mark class=\"clave-criterio\">no puede dar una respuesta adecuada frente a otras infecciones</mark> (0,6 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de julio",
+    "referencia": "Suplente de julio, bloque A, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2021-suplente-julio-b1+b2",
+   "block": "Biotecnología",
+   "topic": "Introducir ADN con una bicapa lipídica · Replicación y número de cromosomas",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "q": "<b>I.</b> Una de las estrategias para introducir ADN extraño en una célula eucariótica es rodearlo de una bicapa lipídica. Explique de manera razonada por qué así se facilita la entrada de ADN en la célula eucariótica [1]. <i>(1 punto)</i><br><br><b>II.</b> Durante el ciclo celular se observa que una célula pasa por una primera etapa, interfase, donde se duplica el ADN, y por una segunda etapa, división celular, donde los cromosomas son visibles. ¿Aumenta el número de cromosomas como consecuencia de la duplicación del ADN en esa célula? Razone la respuesta [1]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> Los lípidos, por su <mark class=\"clave-criterio\">carácter anfipático</mark>, <mark class=\"clave-criterio\">se fusionan con la bicapa de la membrana</mark>, formada por los <mark class=\"clave-criterio\">mismos componentes</mark>, e <mark class=\"clave-criterio\">introducen el ADN en el citoplasma</mark> (1 p).",
+    "<b>II.</b> <mark class=\"clave-criterio\">No</mark>: al duplicarse el ADN los cromosomas aparecen con <mark class=\"clave-criterio\">dos cromátidas</mark>, pero el <mark class=\"clave-criterio\">número de cromosomas sigue siendo el mismo</mark> (1 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2021-suplente-julio-b1",
+    "pau2021-suplente-julio-b2"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de julio",
+    "referencia": "Suplente de julio, bloque B, pregunta 1 + Suplente de julio, bloque B, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2021-suplente-julio-b3+b4",
+   "block": "Genética",
+   "topic": "Evolución sin mutaciones · Viroide del tubérculo fusiforme de la patata",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "q": "<b>I.</b> a) ¿Podría evolucionar una población de organismos genotípicamente idénticos que se reproducen asexualmente si no se produjeran mutaciones? [0,5] b) ¿Y si se reprodujeran sexualmente y también sin mutaciones? [0,5]. Razone las respuestas. <i>(1 punto)</i><br><br><b>II.</b> La enfermedad del tubérculo fusiforme de la patata provoca, entre otros síntomas, la deformación y la reducción en el tamaño de las patatas, generando importantes pérdidas económicas en los cultivos. Tras aislar el agente causante y realizar diversas pruebas, se observó que no era visible al microscopio óptico y que mantenía su capacidad infectiva cuando era sometido a la acción de enzimas peptidasas (hidrolizan enlaces peptídicos) y desoxirribonucleasas (hidrolizan cadenas de ADN). a) ¿Podría ser un virus el causante de la enfermedad? [0,4] b) Si se alimentaran vacas con estas patatas infectadas, ¿podría desarrollar el ganado el mal de las vacas locas? [0,6] Razone adecuadamente las respuestas. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) <mark class=\"clave-criterio\">No</mark>: sin mutación ni recombinación <mark class=\"clave-criterio\">no hay variabilidad genética</mark> y la población <mark class=\"clave-criterio\">no puede evolucionar</mark> (0,5 p).",
+    "<b>I.</b> b) <mark class=\"clave-criterio\">Sí</mark>: la <mark class=\"clave-criterio\">reproducción sexual</mark> es una <mark class=\"clave-criterio\">fuente de variabilidad genética</mark> <span class=\"redactado\">recombinación y segregación</span> (0,5 p).",
+    "<b>II.</b> a) <mark class=\"clave-criterio\">No</mark>: los virus tienen <mark class=\"clave-criterio\">proteínas</mark>, que serían <mark class=\"clave-criterio\">degradadas por las peptidasas</mark> (0,4 p).",
+    "<b>II.</b> b) <mark class=\"clave-criterio\">No</mark>: el agente es un <mark class=\"clave-criterio\">viroide</mark> <span class=\"redactado\">ARN desnudo</span>, mientras que el mal de las vacas locas lo causa un <mark class=\"clave-criterio\">prion</mark> (0,6 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2021-suplente-julio-b3",
+    "pau2021-suplente-julio-b4"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de julio",
+    "referencia": "Suplente de julio, bloque B, pregunta 3 + Suplente de julio, bloque B, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2021-suplente-julio-c1+c2",
+   "block": "Metabolismo",
+   "topic": "pH óptimo de enzimas digestivas · Citoesqueleto: microtúbulos y actina",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "q": "<b>I.</b> <b>En relación con la imagen adjunta, conteste las siguientes cuestiones:</b><br>a) ¿Cuáles son los valores óptimos de pH de las enzimas A, B y C? [0,3]<br>b) Indique un lugar del tracto digestivo donde podría funcionar la enzima A y otro donde podría funcionar la enzima C [0,3].<br>c) Cite otros dos factores que influyen sobre la actividad enzimática [0,4]. <i>(1 punto)</i><br><br><b>II.</b> <b>En relación con la figura adjunta, conteste las siguientes cuestiones:</b><br>a) Nombre los dos componentes del citoesqueleto que están representados en A y B [0,2].<br>b) Las figuras señaladas con los números del 1 al 4 representan cuatro funciones desempeñadas por el citoesqueleto. Identifique, en cada caso, de qué función se trata y qué elemento del citoesqueleto la realiza [0,8]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) Alrededor de <mark class=\"clave-criterio\">3, 7 y 8</mark>, respectivamente (0,3 p).",
+    "<b>I.</b> b) A: <mark class=\"clave-criterio\">estómago</mark>; C: <mark class=\"clave-criterio\">intestino delgado</mark> (duodeno) (0,3 p).",
+    "<b>I.</b> c) <mark class=\"clave-criterio\">Temperatura</mark>, <mark class=\"clave-criterio\">concentración de sustrato</mark>, <mark class=\"clave-criterio\">concentración de enzima</mark>, <mark class=\"clave-criterio\">inhibidores</mark> y <mark class=\"clave-criterio\">activadores</mark>. Dos (0,4 p).",
+    "<b>II.</b> a) A: <mark class=\"clave-criterio\">microtúbulo</mark>; B: <mark class=\"clave-criterio\">filamento de actina</mark> (0,2 p).",
+    "<b>II.</b> b) 1: <mark class=\"clave-criterio\">citocinesis</mark> de célula animal, <mark class=\"clave-criterio\">actina</mark>; 2: <mark class=\"clave-criterio\">movimiento del flagelo</mark> del espermatozoide, <mark class=\"clave-criterio\">microtúbulos</mark>; 3: <mark class=\"clave-criterio\">movimiento de los cromosomas</mark> en la división, <mark class=\"clave-criterio\">microtúbulos</mark>; 4: <mark class=\"clave-criterio\">movimiento ameboide</mark>, <mark class=\"clave-criterio\">actina</mark>. 0,2 p cada uno (0,8 p)."
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2021-suplente-julio-c1",
+    "pau2021-suplente-julio-c2"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de julio",
+    "referencia": "Suplente de julio, bloque C, pregunta 1 + Suplente de julio, bloque C, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/suplente-julio-c1.webp",
+   "imgThumb": "assets/figuras/historico/2021/suplente-julio-c1.thumb.webp",
+   "imageDesc": "Gráfica de actividad enzimática frente al pH con tres curvas: A con el máximo hacia la izquierda, B y C con máximos más a la derecha."
+  },
+  {
+   "id": "pau2021-suplente-julio-c3+c4",
+   "block": "Genética",
+   "topic": "Dihibridismo en el guisante · Ciclo del VIH",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "q": "<b>I.</b> <b>En la planta del guisante los caracteres que determinan el color de la vaina (oscuro o moteado) y la rugosidad de la misma (lisa o rugosa) se sabe que son rasgos independientes heredables por la descendencia. Atendiendo al cruzamiento mostrado en la imagen, en el que el parental 1 es oscuro y liso, el parental 2 moteado y rugoso, y todos los descendientes 3 oscuros y lisos, responda a las siguientes cuestiones:</b><br>a) ¿Cuál es el genotipo de los parentales 1 y 2? [0,5]<br>b) ¿Y el de la descendencia 3? [0,25]<br>c) Indique el porcentaje de homocigóticos en la descendencia [0,25].<br>Justifique las respuestas con los cruces correspondientes, utilizando la siguiente notación: A para color y B para la rugosidad. <i>(1 punto)</i><br><br><b>II.</b> <b>A la vista del siguiente esquema, que representa el ciclo simplificado del VIH, conteste las siguientes cuestiones:</b><br>a) ¿Qué procesos indican los números del 1 al 8? [0,8]<br>b) ¿Cuál es la naturaleza química de la estructura con la que el virus reconoce a la célula? [0,1]<br>c) Nombre la célula que es infectada por el VIH [0,1]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) Parental 1: <mark class=\"clave-criterio\">AABB</mark>; parental 2: <mark class=\"clave-criterio\">aabb</mark> (0,5 p).",
+    "<b>I.</b> b) Descendencia 3: <mark class=\"clave-criterio\">AaBb</mark> (0,25 p).",
+    "<b>I.</b> c) <mark class=\"clave-criterio\">0 % homocigóticos</mark>: el 100 % son <mark class=\"clave-criterio\">AaBb</mark> (0,25 p).",
+    "<b>II.</b> a) 1: <mark class=\"clave-criterio\">adsorción y penetración</mark>; 2: <mark class=\"clave-criterio\">liberación del ARN vírico</mark>; 3: <mark class=\"clave-criterio\">transcripción inversa</mark>; 4: <mark class=\"clave-criterio\">inserción del ADN vírico en el ADN celular</mark>; 5: <mark class=\"clave-criterio\">transcripción del ARN vírico</mark>; 6: <mark class=\"clave-criterio\">traducción de proteínas víricas</mark>; 7: <mark class=\"clave-criterio\">ensamblaje</mark>; 8: <mark class=\"clave-criterio\">liberación de los viriones</mark> (0,8 p).",
+    "<b>II.</b> b) <mark class=\"clave-criterio\">Glucoproteica</mark> (0,1 p).",
+    "<b>II.</b> c) <mark class=\"clave-criterio\">Linfocito T</mark> (0,1 p)."
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2021-suplente-julio-c3",
+    "pau2021-suplente-julio-c4"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de julio",
+    "referencia": "Suplente de julio, bloque C, pregunta 3 + Suplente de julio, bloque C, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/suplente-julio-c3.webp",
+   "imgThumb": "assets/figuras/historico/2021/suplente-julio-c3.thumb.webp",
+   "imageDesc": "Una vaina oscura y lisa (1) cruzada con una vaina moteada y rugosa (2) da una vaina oscura y lisa (3)."
+  },
+  {
+   "id": "pau2021-reserva-julio-a1",
+   "block": "Biomoléculas",
+   "topic": "Vitaminas y enfermedades carenciales",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina vitamina [0,5]. b) Indique los criterios por los que se clasifican [0,2]. c) Nombre dos vitaminas de cada grupo [0,6]. d) ¿Cómo se denominan las enfermedades causadas por su déficit? [0,2] e) Indique dos ejemplos de dichas enfermedades y las vitaminas implicadas en cada caso [0,5].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Molécula orgánica necesaria para las funciones vitales</mark> que se toma <mark class=\"clave-criterio\">en pequeñas cantidades con los alimentos</mark> (0,5 p).",
+    "b) <mark class=\"clave-criterio\">Hidrosolubles</mark> y <mark class=\"clave-criterio\">liposolubles</mark> (0,2 p).",
+    "c) Hidrosolubles: <mark class=\"clave-criterio\">B12</mark> (cobalamina), <mark class=\"clave-criterio\">B9</mark> (ácido fólico), <mark class=\"clave-criterio\">C</mark> (ácido ascórbico). Liposolubles: <mark class=\"clave-criterio\">A</mark> (retinol), <mark class=\"clave-criterio\">D</mark> (calciferol). Dos de cada (0,6 p).",
+    "d) <mark class=\"clave-criterio\">Enfermedades carenciales</mark> (avitaminosis) (0,2 p).",
+    "e) <mark class=\"clave-criterio\">Escorbuto: C</mark>; <mark class=\"clave-criterio\">raquitismo: D</mark>; <mark class=\"clave-criterio\">espina bífida: B9</mark>; <mark class=\"clave-criterio\">ceguera nocturna: A</mark>; <mark class=\"clave-criterio\">anemia perniciosa: B12</mark>. Dos (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de julio",
+    "referencia": "Reserva de julio, bloque A, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2021-reserva-julio-a2",
+   "block": "Célula",
+   "topic": "Orgánulos de una y de dos membranas",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Cite dos orgánulos celulares delimitados por una doble membrana [0,4] y b) tres orgánulos rodeados por una membrana [0,6]. c) Indique una función para cada uno de ellos [1].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Núcleo</mark>, <mark class=\"clave-criterio\">mitocondrias</mark>, <mark class=\"clave-criterio\">cloroplastos</mark>. Dos (0,4 p).",
+    "b) <mark class=\"clave-criterio\">Complejo de Golgi</mark>, <mark class=\"clave-criterio\">REL</mark>, <mark class=\"clave-criterio\">RER</mark>, <mark class=\"clave-criterio\">lisosomas</mark>, <mark class=\"clave-criterio\">peroxisomas</mark>, <mark class=\"clave-criterio\">vacuolas</mark>. Tres (0,6 p).",
+    "c) Núcleo: <mark class=\"clave-criterio\">material genético</mark>; mitocondria: <mark class=\"clave-criterio\">ciclo de Krebs, fosforilación oxidativa</mark>; cloroplasto: <mark class=\"clave-criterio\">fotosíntesis</mark>; Golgi: <mark class=\"clave-criterio\">glucosilación y secreción</mark>; REL: <mark class=\"clave-criterio\">síntesis de lípidos, detoxificación</mark>; RER: <mark class=\"clave-criterio\">glucosilación de proteínas</mark>; lisosomas: <mark class=\"clave-criterio\">digestión celular</mark>; peroxisomas: <mark class=\"clave-criterio\">eliminación del peróxido de hidrógeno</mark>; vacuolas: <mark class=\"clave-criterio\">almacenamiento, control osmótico</mark>. 0,2 p cada una (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de julio",
+    "referencia": "Reserva de julio, bloque A, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2021-reserva-julio-a3",
+   "block": "Genética",
+   "topic": "Variabilidad genética y selección natural",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Explique tres mecanismos responsables de la variabilidad genética de las poblaciones [1,2]. b) Defina selección natural [0,4]. c) Explique la importancia de la variabilidad genética de una población en su evolución [0,4].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Mutación</mark>: cambio en el material genético; <mark class=\"clave-criterio\">segregación cromosómica</mark>: separación al azar de cromosomas en la meiosis; <mark class=\"clave-criterio\">recombinación</mark>: intercambio entre cromátidas en la meiosis; <mark class=\"clave-criterio\">combinación al azar de los gametos</mark> en la fecundación. Tres, 0,4 p cada explicación (1,2 p).",
+    "b) Mecanismo por el que los individuos con <mark class=\"clave-criterio\">características favorables</mark> en un ambiente tienen <mark class=\"clave-criterio\">más probabilidad de sobrevivir y reproducirse</mark> (0,4 p).",
+    "c) Aumenta la probabilidad de que, <mark class=\"clave-criterio\">ante un cambio ambiental</mark>, haya <mark class=\"clave-criterio\">individuos capaces de sobrevivir</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de julio",
+    "referencia": "Reserva de julio, bloque A, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2021-reserva-julio-a4",
+   "block": "Microbiología",
+   "topic": "Microorganismos patógenos, oportunistas y beneficiosos",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina microorganismo [0,5]. b) Defina microorganismo patógeno [0,25] y c) microorganismo oportunista [0,25]. d) Cite dos ejemplos de relación beneficiosa entre la especie humana y los microorganismos [0,5] y e) otros dos ejemplos de relación perjudicial [0,5].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Ser vivo que, por su reducido tamaño, solo es visible al microscopio</mark> (0,5 p).",
+    "b) Patógeno: <mark class=\"clave-criterio\">produce daños y causa una enfermedad</mark> (0,25 p).",
+    "c) Oportunista: normalmente <mark class=\"clave-criterio\">no causa enfermedad</mark>, pero <mark class=\"clave-criterio\">se vuelve patógeno</mark> en ciertas circunstancias (<mark class=\"clave-criterio\">defensas debilitadas</mark>, invasión de otros tejidos) (0,25 p).",
+    "d) Beneficiosas: <mark class=\"clave-criterio\">producción de alimentos</mark>, <mark class=\"clave-criterio\">medicamentos</mark>, <mark class=\"clave-criterio\">vacunas</mark>, <mark class=\"clave-criterio\">ciclos biogeoquímicos</mark>, <mark class=\"clave-criterio\">microbiota</mark>. Dos (0,5 p).",
+    "e) Perjudiciales: <mark class=\"clave-criterio\">infecciones</mark> por bacterias, virus u hongos, <mark class=\"clave-criterio\">deterioro de alimentos</mark>. Dos (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de julio",
+    "referencia": "Reserva de julio, bloque A, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2021-reserva-julio-a5",
+   "block": "Inmunología",
+   "topic": "Respuesta humoral, celular y memoria inmunológica",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina respuesta inmunitaria humoral y respuesta inmunitaria celular [0,6]. b) Cite una función de cada uno de los tres tipos principales de células implicadas en estas respuestas inmunitarias [0,9]. c) Indique qué es la memoria inmunológica [0,5].",
+   "c": [
+    "a) Humoral: basada en la <mark class=\"clave-criterio\">producción de sustancias</mark>, sobre todo <mark class=\"clave-criterio\">anticuerpos</mark>. Celular: basada en la <mark class=\"clave-criterio\">acción directa de células</mark> como <mark class=\"clave-criterio\">linfocitos T y macrófagos</mark> (0,6 p).",
+    "b) Linfocitos B: <mark class=\"clave-criterio\">producción de anticuerpos</mark>; linfocitos T: <mark class=\"clave-criterio\">activan a los B</mark> o <mark class=\"clave-criterio\">destruyen células infectadas o tumorales</mark>; macrófagos: <mark class=\"clave-criterio\">fagocitosis</mark>, <mark class=\"clave-criterio\">presentación de antígenos</mark> (0,9 p).",
+    "c) Capacidad de <mark class=\"clave-criterio\">reconocer un antígeno ya conocido</mark> y responder de forma <mark class=\"clave-criterio\">más rápida y eficaz</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de julio",
+    "referencia": "Reserva de julio, bloque A, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2021-reserva-julio-b1+b2",
+   "block": "Biomoléculas",
+   "topic": "Madurez de la miel y azúcares reductores · Estomas cerrados y ciclo de Calvin",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "q": "<b>I.</b> Las abejas recolectan el néctar de las flores (rico en sacarosa) y lo mezclan en su tubo digestivo con la enzima sacarasa. Esta mezcla se deposita en los panales de las colmenas para su maduración (formación de miel). Durante la maduración, la sacarosa es hidrolizada hasta los monosacáridos que la constituyen por acción de la sacarasa, de tal manera que, en la miel comercial madura, el contenido del disacárido es prácticamente nulo. Atendiendo a las características químicas de los glúcidos, ¿cómo podríamos saber si una miel está suficientemente madura o no para ser cosechada? Razone la respuesta [1]. <i>(1 punto)</i><br><br><b>II.</b> Los estomas son estructuras a través de los cuales las plantas realizan el intercambio de gases. En una situación de sequía los estomas están cerrados. a) ¿Podría la planta sintetizar azúcares en estas condiciones? [0,5] b) ¿Se afectaría el proceso de fotosíntesis? [0,5] Razone las respuestas. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> Por la <mark class=\"clave-criterio\">capacidad reductora</mark> de sus azúcares <span class=\"redactado\">por ejemplo, con el reactivo de Fehling</span>: la miel inmadura, rica en <mark class=\"clave-criterio\">sacarosa</mark>, tiene <mark class=\"clave-criterio\">poca capacidad reductora</mark>; la madura tiene mucha <mark class=\"clave-criterio\">glucosa y fructosa</mark>, monosacáridos con <mark class=\"clave-criterio\">elevada capacidad reductora</mark> (1 p).",
+    "<b>II.</b> a) <mark class=\"clave-criterio\">No</mark>: sin <mark class=\"clave-criterio\">CO₂</mark> no puede realizar el <mark class=\"clave-criterio\">ciclo de Calvin</mark> ni sintetizar azúcares (0,5 p).",
+    "<b>II.</b> b) Sí, se afecta la <mark class=\"clave-criterio\">fase no dependiente de la luz</mark>, que es donde <mark class=\"clave-criterio\">se usa el CO₂</mark> (0,5 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2021-reserva-julio-b1",
+    "pau2021-reserva-julio-b2"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de julio",
+    "referencia": "Reserva de julio, bloque B, pregunta 1 + Reserva de julio, bloque B, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2021-reserva-julio-b3+b4",
+   "block": "Genética",
+   "topic": "Fenilcetonuria: probabilidades · Resistencia a antibióticos en la gonorrea",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": false,
+   "q": "<b>I.</b> La fenilcetonuria es una enfermedad humana hereditaria caracterizada por la incapacidad del organismo para metabolizar el aminoácido fenilalanina. Una pareja constituida por un hombre y una mujer que se plantea tener hijos está preocupada porque, aunque ellos no padecen la enfermedad, cada uno de ellos tiene un hermano fenilcetonúrico. Ninguno de los padres de la pareja son fenilcetonúricos. Acuden al médico para conocer la probabilidad de que su descendiente sea fenilcetonúrico. Justifique, a partir de la realización de los cruzamientos oportunos, lo siguiente: a) si la enfermedad está causada por un alelo dominante o recesivo [0,25]; b) los genotipos de los padres de la pareja [0,25]; c) la probabilidad de que alguno de los dos componentes de la pareja sea portador del alelo responsable de la enfermedad sabiendo que no la padecen [0,25]; d) la probabilidad de que su descendiente sea fenilcetonúrico [0,25]. <i>(1 punto)</i><br><br><b>II.</b> La gonorrea es una enfermedad bacteriana de transmisión sexual que se trataba fácilmente con antibióticos comunes como la penicilina o la tetraciclina. Actualmente sólo puede ser tratada con nuevos antibióticos. Los científicos comienzan a preocuparse debido a que estos nuevos antibióticos son cada vez menos eficaces. ¿Qué explicación razonada daría a este hecho? [1] <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) <mark class=\"clave-criterio\">Recesivo</mark>: ni la pareja ni sus padres están enfermos, pero <mark class=\"clave-criterio\">sí hay hermanos enfermos</mark> (0,25 p).",
+    "<b>I.</b> b) Los padres de ambos son <mark class=\"clave-criterio\">portadores heterocigóticos (Nn)</mark> (0,25 p).",
+    "<b>I.</b> c) Para cada miembro de la pareja, <mark class=\"clave-criterio\">2/3</mark>: al no estar enfermos se descarta nn, y quedan NN (1/4) o Nn (2/4) (0,25 p).",
+    "<b>I.</b> d) <mark class=\"clave-criterio\">1/9</mark> = 2/3 (madre portadora) × 2/3 (padre portador) × 1/4 (nn) (0,25 p).",
+    "<b>II.</b> La <mark class=\"clave-criterio\">alta capacidad de mutación y adaptación</mark> de las bacterias hace que surjan <mark class=\"clave-criterio\">variantes resistentes a los antibióticos</mark> <span class=\"redactado\">que el uso del antibiótico selecciona</span>, por lo que hay que usar <mark class=\"clave-criterio\">nuevos compuestos</mark> (1 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2021-reserva-julio-b3",
+    "pau2021-reserva-julio-b4"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de julio",
+    "referencia": "Reserva de julio, bloque B, pregunta 3 + Reserva de julio, bloque B, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2021-reserva-julio-c1+c2",
+   "block": "Biomoléculas",
+   "topic": "Clasificación de aminoácidos y enlace peptídico · Fases de la meiosis",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "q": "<b>I.</b> <b>En relación con la figura adjunta, conteste a las siguientes cuestiones:</b><br>a) Realice una clasificación de las siguientes moléculas en función de sus cadenas R [0,4].<br>b) Escriba la unión entre Ala y Gly [0,4].<br>c) ¿Qué nombre recibe la molécula resultante? [0,1] ¿Qué enlace los mantiene unidos? [0,1] <i>(1 punto)</i><br><br><b>II.</b> <b>En relación con la figura adjunta, conteste a las siguientes cuestiones:</b><br>a) ¿De qué proceso se trata? [0,1]<br>b) Nombre las fases señaladas con las letras D y H [0,2].<br>c) Indique el nombre de las estructuras que aparecen dentro del núcleo en la fase B [0,1].<br>d) ¿Cuál es la primera fase de la figura (indique la letra) en la que se aprecia que se ha producido la replicación del ADN? [0,1]<br>e) ¿Qué proceso tiene lugar en la fase C y qué finalidad tiene? [0,2]<br>f) ¿Cuál es la diferencia entre las fases E e I? [0,1]<br>g) ¿Qué tipo de células se originan al final del proceso y cuál es su dotación cromosómica? [0,2] <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) Ala: <mark class=\"clave-criterio\">neutro apolar</mark>; Gly: <mark class=\"clave-criterio\">neutro apolar</mark>; Asp: <mark class=\"clave-criterio\">ácido</mark>; Lys: <mark class=\"clave-criterio\">básico</mark> (0,4 p).",
+    "<b>I.</b> b) Unión de ambos formando un <mark class=\"clave-criterio\">enlace amida</mark> <span class=\"redactado\">el COOH de Ala con el NH₂ de Gly, liberando H₂O: H₂N–CH(CH₃)–CO–NH–CH₂–COOH</span> (0,4 p).",
+    "<b>I.</b> c) <mark class=\"clave-criterio\">Dipéptido</mark>; <mark class=\"clave-criterio\">enlace peptídico</mark> (0,2 p).",
+    "<b>II.</b> a) <mark class=\"clave-criterio\">Meiosis</mark> (0,1 p). b) D: <mark class=\"clave-criterio\">metafase I</mark>; H: <mark class=\"clave-criterio\">metafase II</mark> (0,2 p).",
+    "<b>II.</b> c) <mark class=\"clave-criterio\">Cromosomas homólogos</mark> (0,1 p). d) <mark class=\"clave-criterio\">B</mark> (0,1 p).",
+    "<b>II.</b> e) <mark class=\"clave-criterio\">Entrecruzamiento</mark> de cromátidas homólogas, para generar <mark class=\"clave-criterio\">variabilidad genética</mark> (0,2 p).",
+    "<b>II.</b> f) E: <mark class=\"clave-criterio\">separación de cromosomas homólogos</mark>; I: <mark class=\"clave-criterio\">separación de cromátidas hermanas</mark> (0,1 p).",
+    "<b>II.</b> g) <mark class=\"clave-criterio\">Gametos haploides</mark> (n = 2) (0,2 p)."
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2021-reserva-julio-c1",
+    "pau2021-reserva-julio-c2"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de julio",
+    "referencia": "Reserva de julio, bloque C, pregunta 1 + Reserva de julio, bloque C, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/reserva-julio-c1.webp",
+   "imgThumb": "assets/figuras/historico/2021/reserva-julio-c1.thumb.webp",
+   "imageDesc": "Cuatro aminoácidos: Ala (cadena CH₃), Gly (H), Asp (CH₂–COOH) y Lys (cadena de cuatro CH₂ terminada en NH₃⁺)."
+  },
+  {
+   "id": "pau2021-reserva-julio-c3+c4",
+   "block": "Genética",
+   "topic": "Transcripción, maduración y traducción · Bipartición bacteriana",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "q": "<b>I.</b> <b>En relación con la figura adjunta, responda las siguientes preguntas:</b><br>a) Nombre las moléculas representadas con los números 1, 2 y 3 [0,3].<br>b) Cite el nombre del proceso A que permite la síntesis de la molécula número 2 [0,2].<br>c) ¿Qué se representa con el número 5? [0,2]<br>d) Cite el nombre del proceso B que permite la síntesis de la molécula número 4 [0,2].<br>e) Cite el nombre de la macromolécula representada con el número 4 [0,1]. <i>(1 punto)</i><br><br><b>II.</b> <b>En relación con la figura adjunta, conteste las siguientes cuestiones:</b><br>a) ¿Qué proceso representa? [0,2]<br>b) ¿A qué grupo pertenece el organismo representado? [0,2]<br>c) Indique dos características propias de este grupo de organismos [0,4].<br>d) Indique un componente que comparta con otros tipos celulares [0,2]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) 1: <mark class=\"clave-criterio\">ADN</mark>; 2: <mark class=\"clave-criterio\">ARNm inmaduro</mark> (transcrito primario); 3: <mark class=\"clave-criterio\">ARNm maduro</mark> (0,3 p).",
+    "<b>I.</b> b) A: <mark class=\"clave-criterio\">transcripción</mark> (0,2 p). c) 5: <mark class=\"clave-criterio\">ribosoma</mark> (0,2 p).",
+    "<b>I.</b> d) B: <mark class=\"clave-criterio\">traducción</mark> o síntesis de proteínas (0,2 p).",
+    "<b>I.</b> e) 4: <mark class=\"clave-criterio\">polipéptido en formación</mark> (0,1 p).",
+    "<b>II.</b> a) <mark class=\"clave-criterio\">Bipartición</mark> (fisión binaria) (0,2 p).",
+    "<b>II.</b> b) <mark class=\"clave-criterio\">Bacterias</mark> (procariotas) (0,2 p).",
+    "<b>II.</b> c) <mark class=\"clave-criterio\">Sin núcleo</mark>, <mark class=\"clave-criterio\">sin orgánulos membranosos</mark>, <mark class=\"clave-criterio\">ADN circular</mark>, <mark class=\"clave-criterio\">plásmidos</mark>. Dos (0,4 p).",
+    "<b>II.</b> d) <mark class=\"clave-criterio\">Ribosomas 70S</mark> (como los de mitocondrias y cloroplastos), <mark class=\"clave-criterio\">flagelos</mark>, <mark class=\"clave-criterio\">pared celular</mark> (como las vegetales), <mark class=\"clave-criterio\">membrana plasmática</mark>. Uno (0,2 p)."
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2021-reserva-julio-c3",
+    "pau2021-reserva-julio-c4"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de julio",
+    "referencia": "Reserva de julio, bloque C, pregunta 3 + Reserva de julio, bloque C, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/reserva-julio-c3.webp",
+   "imgThumb": "assets/figuras/historico/2021/reserva-julio-c3.thumb.webp",
+   "imageDesc": "Una doble hélice (1) da, por el proceso A, una hebra (2); en el proceso B, sobre una hebra (3) una estructura (5) une piezas y forma una cadena (4)."
+  },
+  {
+   "id": "pau2021-junio-b5+c5",
+   "block": "Inmunología",
+   "topic": "Defensa inespecífica y específica ante picaduras · La IgM",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "q": "<b>I.</b> En el organismo pueden penetrar diferentes tipos de microorganismos por la picadura de insectos. En ocasiones la picadura produce una infección que no tiene consecuencias graves (por ejemplo, una erupción) y en pocos días se elimina. Otras veces la infección puede producir una enfermedad grave (por ejemplo, la enfermedad causada por el virus del Zika). Explique razonadamente qué tipo de mecanismo de defensa actúa en cada caso [1]. <i>(1 punto)</i><br><br><b>II.</b> <b>En relación con la figura adjunta, conteste a las siguientes preguntas:</b><br>a) ¿Qué tipo de molécula representa la imagen? [0,2]<br>b) ¿En qué tipo de respuesta inmunitaria humoral es predominante? [0,2]<br>c) Indique qué cadenas polipeptídicas forman el monómero señalado con el recuadro [0,4].<br>d) Indique, en un organismo, dónde se localiza la molécula representada [0,2]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> Primer caso: <mark class=\"clave-criterio\">respuesta inespecífica</mark> (<mark class=\"clave-criterio\">inflamación local</mark> y <mark class=\"clave-criterio\">fagocitosis</mark>), suficiente para aislar y eliminar al agente (0,5 p).",
+    "<b>I.</b> Segundo caso: la defensa inespecífica no basta, la infección se extiende y se desencadena una <mark class=\"clave-criterio\">respuesta inmunitaria específica</mark> (0,5 p).",
+    "<b>II.</b> a) <mark class=\"clave-criterio\">IgM</mark> (0,2 p). b) <mark class=\"clave-criterio\">Respuesta primaria</mark> (0,2 p).",
+    "<b>II.</b> c) <mark class=\"clave-criterio\">Dos cadenas pesadas y dos cadenas ligeras</mark> (0,4 p).",
+    "<b>II.</b> d) En la <mark class=\"clave-criterio\">sangre</mark> (0,2 p)."
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2021-junio-b5",
+    "pau2021-junio-c5"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de junio",
+    "referencia": "Titular de junio, bloque B, pregunta 5 + Titular de junio, bloque C, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_BIOLOGÍA-JUNIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/junio-c5.webp",
+   "imgThumb": "assets/figuras/historico/2021/junio-c5.thumb.webp",
+   "imageDesc": "Cinco unidades en forma de Y unidas por sus bases formando una estrella; una de ellas está enmarcada con un recuadro discontinuo."
+  },
+  {
+   "id": "pau2021-suplente-junio-b5+c5",
+   "block": "Inmunología",
+   "topic": "Microorganismos oportunistas e inmunodeficiencia · Formas de adquirir inmunidad",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "q": "<b>I.</b> En condiciones normales, en nuestro cuerpo habitan más de 400 especies diferentes de microorganismos, inicialmente inocuos. Sin embargo, en algunas personas, ciertos microorganismos proliferan y producen infecciones. ¿Qué personas tienen mayor predisposición para ser infectadas? [1] Razone la respuesta. <i>(1 punto)</i><br><br><b>II.</b> <b>En relación con la imagen, que representa cuatro formas de adquirir inmunidad, conteste a las siguientes cuestiones:</b><br>a) Tipo de inmunidad que representan A y B [0,2].<br>b) Utilizando los números de la imagen, indique cuáles se corresponden con la adquisición de una inmunidad a largo plazo de tiempo [0,2].<br>c) ¿Y cuáles con una a corto plazo? [0,2]<br>d) ¿En cuáles de ellas se adquiere memoria inmunológica? [0,2]<br>e) Indique si la adquisición de inmunidad en 2 se corresponde con un método con fin curativo o preventivo [0,2]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> Las personas con <mark class=\"clave-criterio\">inmunodeficiencia</mark> (sistema inmunitario incapaz de realizar su función): los <mark class=\"clave-criterio\">patógenos oportunistas</mark> aprovechan esa debilidad para proliferar (1 p).",
+    "<b>II.</b> a) A: <mark class=\"clave-criterio\">activa</mark>; B: <mark class=\"clave-criterio\">pasiva</mark> (0,2 p).",
+    "<b>II.</b> b) Largo plazo: <mark class=\"clave-criterio\">1 y 2</mark> (0,2 p). c) Corto plazo: <mark class=\"clave-criterio\">3 y 4</mark> (0,2 p).",
+    "<b>II.</b> d) Memoria inmunológica: <mark class=\"clave-criterio\">en 1 y en 2</mark> (0,2 p).",
+    "<b>II.</b> e) <mark class=\"clave-criterio\">Preventivo</mark> <span class=\"redactado\">es una vacuna</span> (0,2 p)."
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2021-suplente-junio-b5",
+    "pau2021-suplente-junio-c5"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de junio",
+    "referencia": "Suplente de junio, bloque B, pregunta 5 + Suplente de junio, bloque C, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/suplente-junio-c5.webp",
+   "imgThumb": "assets/figuras/historico/2021/suplente-junio-c5.thumb.webp",
+   "imageDesc": "Grupo A: 1, un virus; 2, una jeringa con virus. Grupo B: 3, una madre amamantando a su bebé; 4, una bolsa de suero con anticuerpos."
+  },
+  {
+   "id": "pau2021-reserva-junio-b5+c5",
+   "block": "Inmunología",
+   "topic": "Vacuna de la tosferina en el embarazo · Opsonización y fagocitosis",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "q": "<b>I.</b> La tosferina es una enfermedad infecciosa que afecta al aparato respiratorio y que presenta el cuadro clínico más grave en niños lactantes, pudiendo causar su muerte. La medida de prevención más eficaz es la vacunación, pero ésta no resulta efectiva si se aplica a niños de menos de dos meses. Para que el recién nacido también esté protegido durante las primeras semanas de vida se recomienda vacunar a las madres durante el embarazo. Explique qué tipo de respuesta inmune se producirá en: a) la madre [0,25]; b) el recién nacido [0,25]. c) ¿Qué elementos del sistema inmunitario estarán implicados en cada caso? [0,25] d) ¿Será igual de duradera la protección en ambos casos? [0,25] Justifique las respuestas. <i>(1 punto)</i><br><br><b>II.</b> <b>En relación con la figura adjunta, conteste las siguientes cuestiones:</b><br>a) Identifique las células o moléculas indicadas como A, B y C en la imagen 1 [0,3].<br>b) ¿Qué células producen la molécula señalada como B? [0,2]<br>c) Nombre el proceso que transcurre en la imagen 2 [0,25].<br>d) Cite otro proceso en el que interviene la célula A [0,25]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) Madre: respuesta <mark class=\"clave-criterio\">activa</mark> y <mark class=\"clave-criterio\">artificial</mark> (primaria, o secundaria si ya estaba vacunada) (0,25 p).",
+    "<b>I.</b> b) Recién nacido: respuesta <mark class=\"clave-criterio\">pasiva</mark> y <mark class=\"clave-criterio\">natural</mark>, aportada por la madre (0,25 p).",
+    "<b>I.</b> c) Madre: <mark class=\"clave-criterio\">linfocitos T y B</mark> y <mark class=\"clave-criterio\">anticuerpos</mark>; recién nacido: <mark class=\"clave-criterio\">solo anticuerpos</mark> (0,25 p).",
+    "<b>I.</b> d) <mark class=\"clave-criterio\">No</mark>: la protección pasiva <mark class=\"clave-criterio\">desaparece con el tiempo</mark>; la de la madre es <mark class=\"clave-criterio\">duradera</mark> gracias a la <mark class=\"clave-criterio\">memoria inmunitaria</mark> (0,25 p).",
+    "<b>II.</b> a) A: <mark class=\"clave-criterio\">macrófago</mark> y/o neutrófilo; B: <mark class=\"clave-criterio\">anticuerpo</mark> o IgG; C: <mark class=\"clave-criterio\">receptor de anticuerpo</mark> (0,3 p).",
+    "<b>II.</b> b) <mark class=\"clave-criterio\">Linfocitos B</mark> o <mark class=\"clave-criterio\">células plasmáticas</mark> (0,2 p).",
+    "<b>II.</b> c) <mark class=\"clave-criterio\">Fagocitosis</mark> (0,25 p). d) <mark class=\"clave-criterio\">Presentación de antígenos</mark> (0,25 p)."
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2021-reserva-junio-b5",
+    "pau2021-reserva-junio-c5"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de junio",
+    "referencia": "Reserva de junio, bloque B, pregunta 5 + Reserva de junio, bloque C, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/ORD_RESER_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/reserva-junio-c5.webp",
+   "imgThumb": "assets/figuras/historico/2021/reserva-junio-c5.thumb.webp",
+   "imageDesc": "Imagen 1: célula grande (A) con receptores (C) y una partícula recubierta de moléculas en forma de Y (B). Imagen 2: la célula rodea la partícula con su membrana."
+  },
+  {
+   "id": "pau2021-julio-b5+c5",
+   "block": "Inmunología",
+   "topic": "Vacunados sin anticuerpos: memoria inmunológica · Presentación de antígenos",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "q": "<b>I.</b> Es frecuente que personas vacunadas frente a una enfermedad infecciosa durante la infancia no presenten anticuerpos frente a la misma después de algunos años; a) ¿quiere decir esto necesariamente que han perdido la inmunidad frente a esa enfermedad? [0,5] b) Si inyectamos el antígeno del agente infeccioso a un grupo de personas y se deja transcurrir una semana, ¿cómo se podría distinguir entre las personas que fueron vacunadas con anterioridad y las que no mediante un análisis de sangre? [0,5] Justifique las respuestas. <i>(1 punto)</i><br><br><b>II.</b> <b>En relación con la imagen adjunta, conteste las siguientes cuestiones:</b><br>a) ¿Qué representa la imagen en su conjunto? [0,2]<br>b) Nombre cada uno de los procesos que tienen lugar en ese momento, indicados en la figura como A, B y C [0,3].<br>c) Nombre las células, moléculas o complejos indicados en la figura como 1, 2, 3, 4 y 5 [0,5]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) <mark class=\"clave-criterio\">No</mark>: los anticuerpos <mark class=\"clave-criterio\">duran un tiempo limitado</mark>, pero la inmunidad persiste gracias a las <mark class=\"clave-criterio\">células de memoria</mark>, capaces de una <mark class=\"clave-criterio\">respuesta secundaria</mark> (0,5 p).",
+    "<b>I.</b> b) Los vacunados darán una <mark class=\"clave-criterio\">respuesta secundaria</mark>, <mark class=\"clave-criterio\">más rápida e intensa</mark>, con <mark class=\"clave-criterio\">IgG</mark>; los no vacunados, una <mark class=\"clave-criterio\">respuesta primaria</mark>, más lenta y débil, con predominio de <mark class=\"clave-criterio\">IgM</mark> (0,5 p).",
+    "<b>II.</b> a) <mark class=\"clave-criterio\">Presentación de antígenos por los macrófagos a los linfocitos T</mark> (0,2 p).",
+    "<b>II.</b> b) A: <mark class=\"clave-criterio\">fagocitosis</mark>; B: <mark class=\"clave-criterio\">procesamiento del antígeno</mark> (digestión); C: <mark class=\"clave-criterio\">presentación del antígeno a los linfocitos T</mark> (0,3 p).",
+    "<b>II.</b> c) 1: <mark class=\"clave-criterio\">macrófago</mark>; 2: <mark class=\"clave-criterio\">microorganismo</mark> (elemento extraño); 3: <mark class=\"clave-criterio\">antígenos</mark>; 4: <mark class=\"clave-criterio\">proteínas del complejo mayor de histocompatibilidad</mark>; 5: <mark class=\"clave-criterio\">linfocito T colaborador</mark> (0,5 p)."
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2021-julio-b5",
+    "pau2021-julio-c5"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Titular de julio",
+    "referencia": "Titular de julio, bloque B, pregunta 5 + Titular de julio, bloque C, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_BIOLOGIA-JULIO-IMPRESO.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_TITULAR_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/julio-c5.webp",
+   "imgThumb": "assets/figuras/historico/2021/julio-c5.thumb.webp",
+   "imageDesc": "A: una célula (1) engloba una partícula (2). B: dentro de la célula aparecen fragmentos (3). C: los fragmentos se exponen en la superficie unidos a moléculas (4) y los reconoce otra célula redonda (5)."
+  },
+  {
+   "id": "pau2021-suplente-julio-b5+c5",
+   "block": "Inmunología",
+   "topic": "IgG y paso de anticuerpos por la placenta · Respuesta primaria y secundaria tras vacunar",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "q": "<b>I.</b> Explique razonadamente qué genes que controlan el funcionamiento del sistema inmunológico de la madre deberían verse afectados por una mutación para que el feto no pudiera adquirir inmunidad adaptativa natural y pasiva [1]. <i>(1 punto)</i><br><br><b>II.</b> <b>La gráfica muestra los cambios en la concentración de la molécula C en la sangre tras una primera exposición (inyección) con un virus atenuado (fase A), seguida de una segunda exposición (infección) con el mismo virus pero natural (fase B).</b><br>a) Indique el nombre de la molécula C [0,2].<br>b) Cite la célula que la produce [0,2].<br>c) Indique qué tipo de respuesta inmunológica representa la gráfica en global en función de los elementos que intervienen en la misma [0,2].<br>d) ¿Cómo se denominan las fases A y B señaladas en la gráfica? [0,2]<br>e) Indique el nombre del proceso que da lugar a la fase A [0,2]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> Los <mark class=\"clave-criterio\">genes que codifican la inmunoglobulina G</mark>, porque las <mark class=\"clave-criterio\">IgG</mark> son los <mark class=\"clave-criterio\">únicos anticuerpos que atraviesan la placenta</mark> y dan al feto <mark class=\"clave-criterio\">inmunidad natural pasiva</mark> (1 p).",
+    "<b>II.</b> a) <mark class=\"clave-criterio\">Anticuerpos</mark> o inmunoglobulinas (0,2 p).",
+    "<b>II.</b> b) <mark class=\"clave-criterio\">Linfocito B</mark> o <mark class=\"clave-criterio\">célula plasmática</mark> (0,2 p).",
+    "<b>II.</b> c) <mark class=\"clave-criterio\">Respuesta humoral</mark> (0,2 p).",
+    "<b>II.</b> d) A: <mark class=\"clave-criterio\">respuesta primaria</mark>; B: <mark class=\"clave-criterio\">respuesta secundaria</mark> (0,2 p).",
+    "<b>II.</b> e) <mark class=\"clave-criterio\">Vacunación</mark> (0,2 p)."
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2021-suplente-julio-b5",
+    "pau2021-suplente-julio-c5"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Suplente de julio",
+    "referencia": "Suplente de julio, bloque B, pregunta 5 + Suplente de julio, bloque C, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Examen_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_SUPLENTE_Criterios_Biologia.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/suplente-julio-c5.webp",
+   "imgThumb": "assets/figuras/historico/2021/suplente-julio-c5.thumb.webp",
+   "imageDesc": "Gráfica de concentración de la molécula C (escala logarítmica) frente al tiempo: tras el virus atenuado (fase A) sube poco; tras la infección natural (fase B) sube mucho más y más rápido."
+  },
+  {
+   "id": "pau2021-reserva-julio-b5+c5",
+   "block": "Inmunología",
+   "topic": "Rechazo en auto-, alo- y xenotrasplantes · Vacuna y suero en ratones",
+   "anio": 2021,
+   "etiqueta": "PAU 2021",
+   "hasImg": true,
+   "q": "<b>I.</b> Partiendo de los siguientes tipos de trasplante: autotrasplante (donante y receptor son el mismo individuo), alotrasplante (donante y receptor son diferentes individuos pero de la misma especie) y xenotrasplante (donante y receptor son de diferente especie) indique, para cada caso y de forma razonada, si es probable que ocurra rechazo inmunológico [1]. <i>(1 punto)</i><br><br><b>II.</b> <b>En relación con la figura adjunta que representa distintos procedimientos experimentales cuya finalidad es evitar la muerte causada por un patógeno, responda a las siguientes cuestiones:</b><br>a) ¿Qué tipo de tratamiento se está utilizando en el caso 2 al inyectar la sustancia A? [0,2]<br>b) En el caso 2, ¿qué células son las que actúan para protegerlo de la acción del patógeno? [0,2]<br>c) ¿De qué otra manera, por vía natural, podría el ratón del caso 2 evitar la muerte? [0,2]<br>d) ¿Qué tipo de tratamiento se utiliza en el caso 3 al inyectar la sustancia B (extraída del ratón vivo del caso 2)? [0,2]<br>e) ¿Qué ocurrirá con los componentes de la sustancia B pasados unos meses? [0,2] <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> Autotrasplante: <mark class=\"clave-criterio\">no hay rechazo</mark>, el tejido es del mismo individuo (0,3 p).",
+    "<b>I.</b> Alotrasplante: depende de la <mark class=\"clave-criterio\">compatibilidad inmunológica entre donante y receptor</mark> (0,4 p).",
+    "<b>I.</b> Xenotrasplante: <mark class=\"clave-criterio\">probablemente sí</mark>, porque entre especies distintas <mark class=\"clave-criterio\">no suele haber compatibilidad</mark> (0,3 p).",
+    "<b>II.</b> a) <mark class=\"clave-criterio\">Vacuna</mark> (0,2 p). b) <mark class=\"clave-criterio\">Linfocitos de memoria</mark> (0,2 p).",
+    "<b>II.</b> c) <mark class=\"clave-criterio\">Pasando la enfermedad y sobreviviendo</mark> a ella (0,2 p).",
+    "<b>II.</b> d) <mark class=\"clave-criterio\">Sueroterapia</mark> (0,2 p).",
+    "<b>II.</b> e) Los <mark class=\"clave-criterio\">anticuerpos inyectados desaparecen con el tiempo</mark> (0,2 p)."
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2021-reserva-julio-b5",
+    "pau2021-reserva-julio-c5"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2021 · Reserva de julio",
+    "referencia": "Reserva de julio, bloque B, pregunta 5 + Reserva de julio, bloque C, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Examen_Biología.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2021/EXTRA_RESERVA_B_Criterios_Biología.pdf",
+    "examen_anio": 2021,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2021/reserva-julio-c5.webp",
+   "imgThumb": "assets/figuras/historico/2021/reserva-julio-c5.thumb.webp",
+   "imageDesc": "Caso 1: ratón inyectado con el patógeno, muere. Caso 2: ratón inyectado antes con A y luego con el patógeno, vive. Caso 3: ratón inyectado con el patógeno y con B, vive."
   },
   {
    "id": "pau2026-modelo-1",
