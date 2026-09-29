@@ -13,8 +13,8 @@ conceptual, la aplicación y la argumentación científica.
 | `index.html` | Portada y navegación |
 | `orientacionespau.html` | Saberes básicos, resultados de aprendizaje y criterios de evaluación |
 | `resumenespau.html` | Resúmenes y apuntes por bloques temáticos |
-| `Entrenamientopau.html` | Banco de 482 preguntas con criterios de corrección y tips, más diccionario de 805 términos |
-| `simulacropau.html` | 322 preguntas con estructura de examen |
+| `Entrenamientopau.html` | Banco de 554 preguntas con criterios de corrección y tips, más diccionario de 805 términos |
+| `simulacropau.html` | 394 preguntas con estructura de examen |
 | `laboratoriocompetencial.html` | Casos de razonamiento científico |
 
 ## Ver en local
@@ -40,11 +40,16 @@ python tools/generar_banco_historico.py
 
 que regenera `data/preguntas-historico.js` (lo cargan Entrenamiento y
 Simulacro) y añade las preguntas a `preguntasjsonentrenamiento.json` y
-`preguntasjsonsimulacro.json` sin duplicar. En el simulacro entran las
-preguntas de 2 puntos: la 1-3 de cada opción en la Parte II y la 6 (con
-figura) en la Parte I. Las de 1 punto (4 y 5) quedan solo en Entrenamiento.
+`preguntasjsonsimulacro.json` sin duplicar. En el simulacro, las preguntas
+de 2 puntos con figura van a la Parte I y el resto a la Parte II; las de 1
+punto se unen de dos en dos (apartados I y II) para no perder ninguna.
 
-Incorporados: 2010 (72 preguntas).
+En las soluciones, `**texto**` marca las palabras clave de los criterios
+oficiales (se ven resaltadas) y `((texto))` lo que ha redactado BioCelia y
+no está en los criterios (se ve en morado). Las figuras se recortan del PDF
+a 200 ppp en `assets/figuras/historico/AAAA/` para conservar las etiquetas.
+
+Incorporados: 2010 y 2011 (144 preguntas).
 
 ## Qué no está en el repositorio
 
