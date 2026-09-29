@@ -5998,6 +5998,1992 @@
   },
   {
     "id": 237,
+    "clave": "pau2013-e1-a1",
+    "bloque": "Biomoléculas",
+    "tema": "Monosacáridos: definición, funciones y glucosa",
+    "tipo": "respuesta breve",
+    "pregunta": "Defina los monosacáridos [0,5] y explique dos de sus funciones [0,6]. Realice una clasificación de los mismos indicando el criterio utilizado [0,5]. Represente la fórmula desarrollada de la glucosa [0,4].",
+    "respuesta": [
+      "Monosacárido: biomolécula de C, H y O con fórmula empírica CnH2nOn; o bien polihidroxialdehídos o polihidroxicetonas. Basta una definición (0,5 p).",
+      "Funciones. Estructural: por polimerización forman polisacáridos, nucleótidos, etc. Energética: las células obtienen energía de su oxidación. 0,3 p cada una (0,6 p).",
+      "Clasificación según el número de átomos de carbono o el tipo de grupo carbonilo (aldosas y cetosas): clasificación 0,3 p y criterio 0,2 p (0,5 p).",
+      "Fórmula desarrollada de la glucosa, lineal o cíclica (0,4 p)."
+    ],
+    "palabras_clave": [
+      "C, H y O",
+      "CnH2nOn",
+      "Energética",
+      "Estructural",
+      "Fórmula desarrollada de la glucosa",
+      "número de átomos de carbono",
+      "oxidación",
+      "polihidroxialdehídos o polihidroxicetonas",
+      "polisacáridos, nucleótidos",
+      "tipo de grupo carbonilo (aldosas y cetosas)"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 1-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGIA-CRITERIOS EXAMEN 1-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 238,
+    "clave": "pau2013-e1-a2",
+    "bloque": "Célula",
+    "tema": "Mitocondria: estructura y localización de procesos",
+    "tipo": "respuesta breve",
+    "pregunta": "Describa la estructura de las mitocondrias [1] e indique en qué parte de las mismas se llevan a cabo las distintas reacciones metabólicas que estas realizan [1].",
+    "respuesta": [
+      "Membrana externa e interna (0,4 p); espacio intermembranal y matriz (0,4 p), donde están el ADN mitocondrial y los ribosomas (0,2 p).",
+      "β-oxidación y ciclo de Krebs en la matriz; cadena transportadora de electrones y fosforilación oxidativa en la membrana interna. Cada reacción con su ubicación, 0,25 p (1 p)."
+    ],
+    "palabras_clave": [
+      "ADN mitocondrial",
+      "Membrana externa e interna",
+      "cadena transportadora de electrones",
+      "ciclo de Krebs",
+      "espacio intermembranal y matriz",
+      "fosforilación oxidativa",
+      "matriz",
+      "membrana interna",
+      "ribosomas",
+      "β-oxidación"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 1-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGIA-CRITERIOS EXAMEN 1-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 239,
+    "clave": "pau2013-e1-a3",
+    "bloque": "Genética",
+    "tema": "Replicación del ADN",
+    "tipo": "respuesta breve",
+    "pregunta": "Explique el proceso de replicación [1]. Indique la finalidad de este proceso [0,5] y el significado de la afirmación: “la replicación del ADN es semiconservativa” [0,5].",
+    "respuesta": [
+      "Deben mencionarse: origen de replicación, cadenas adelantada y retrasada, cebador, fragmentos de Okazaki, ADN y ARN polimerasas y ligasa (1 p).",
+      "Finalidad: duplicar el material genético antes de la división celular (0,5 p).",
+      "Cada molécula resultante tiene una cadena antigua y otra de nueva síntesis (0,5 p)."
+    ],
+    "palabras_clave": [
+      "ADN y ARN polimerasas",
+      "cadenas adelantada y retrasada",
+      "cebador",
+      "duplicar el material genético antes de la división celular",
+      "fragmentos de Okazaki",
+      "ligasa",
+      "origen de replicación",
+      "una cadena antigua y otra de nueva síntesis"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 1-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGIA-CRITERIOS EXAMEN 1-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 240,
+    "clave": "pau2013-e1-a4",
+    "bloque": "Célula",
+    "tema": "Complejo de Golgi bloqueado",
+    "tipo": "respuesta breve",
+    "pregunta": "Las células de una glándula endocrina sintetizan una hormona de naturaleza proteica que es secretada al torrente sanguíneo. Si a las células de esa glándula se les impide el funcionamiento del complejo de Golgi, ¿podrán sintetizar la hormona? [0,25]; ¿podrán secretarla? [0,25]; ¿podrán realizar su división celular normalmente? [0,25]. Si el bloqueo del complejo de Golgi se realizara en una célula vegetal, ¿podría realizar su división celular normalmente? [0,25]. Razone las respuestas.",
+    "respuesta": [
+      "Sí la sintetizan: se fabrica en los ribosomas del RER, que no está afectado (0,25 p).",
+      "No se secreta, por la inactividad del complejo de Golgi (0,25 p).",
+      "Sí se dividen: la citocinesis animal es por estrangulamiento y no interviene el Golgi (0,25 p).",
+      "La célula vegetal no: no podría formar el fragmoplasto, que se origina de vesículas del Golgi (0,25 p)."
+    ],
+    "palabras_clave": [
+      "No se secreta",
+      "Sí la sintetizan",
+      "Sí se dividen",
+      "estrangulamiento",
+      "fragmoplasto",
+      "inactividad del complejo de Golgi",
+      "no",
+      "ribosomas del RER",
+      "vesículas del Golgi"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 1-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGIA-CRITERIOS EXAMEN 1-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 241,
+    "clave": "pau2013-e1-a5",
+    "bloque": "Inmunología",
+    "tema": "Entamoeba y proteínas parecidas a las humanas",
+    "tipo": "respuesta breve",
+    "pregunta": "Entamoeba histolytica es un protozoo causante de la disentería amebiana en el ser humano. Se ha demostrado experimentalmente que las cepas que producen la enfermedad con carácter más grave presentan en sus membranas proteínas similares a las proteínas humanas. Dé una explicación razonada de por qué esta característica puede estar relacionada con la mayor gravedad de la enfermedad [1].",
+    "respuesta": [
+      "El sistema inmunitario no reconoce como extrañas las proteínas de la ameba, al ser similares a las humanas, y no se desencadena la respuesta inmunitaria (1 p)."
+    ],
+    "palabras_clave": [
+      "no reconoce como extrañas",
+      "no se desencadena la respuesta inmunitaria",
+      "similares a las humanas"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 1-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGIA-CRITERIOS EXAMEN 1-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 242,
+    "clave": "pau2013-e1-a6",
+    "bloque": "Microbiología",
+    "tema": "Ciclo lítico de un bacteriófago (desordenado)",
+    "tipo": "respuesta breve",
+    "pregunta": "En relación con la imagen adjunta, que representa, de forma desordenada, el ciclo de vida de un microorganismo, conteste las siguientes cuestiones: a) Ordene adecuadamente el ciclo de vida de este microorganismo [0,5]. Cite dos características propias del mismo [0,4]. ¿Qué otro microorganismo se encuentra representado? [0,1]. b) Identifique las fases representadas con las letras A, B, C, D y F [1].",
+    "respuesta": [
+      "a) Orden: G-A-F-D-B-E-C (0,5 p).",
+      "a) Características: organismo acelular, parásito intracelular, etc. Solo dos, a 0,2 p (0,4 p).",
+      "a) El otro microorganismo es una bacteria (0,1 p).",
+      "b) A: adsorción o fijación; F: inyección del material genético; D: replicación del material genético viral; B: síntesis de las envolturas proteicas; C: lisis y liberación de los virus. 0,2 p cada una (1 p)."
+    ],
+    "palabras_clave": [
+      "G-A-F-D-B-E-C",
+      "adsorción o fijación",
+      "bacteria",
+      "inyección del material genético",
+      "lisis y liberación",
+      "organismo acelular",
+      "parásito intracelular",
+      "replicación del material genético",
+      "síntesis de las envolturas proteicas"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 1-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGIA-CRITERIOS EXAMEN 1-2012-13.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2013/e1-a6.webp"
+  },
+  {
+    "id": 243,
+    "clave": "pau2013-e1-b1",
+    "bloque": "Biomoléculas",
+    "tema": "Estructura primaria y desnaturalización",
+    "tipo": "respuesta breve",
+    "pregunta": "Defina la estructura primaria de una proteína [0,5]. Represente el enlace que la caracteriza indicando los grupos químicos que participan en el mismo [0,5]. ¿Qué se entiende por desnaturalización de una proteína? [0,5]. ¿Qué orgánulos están implicados en la síntesis y empaquetamiento de las proteínas? [0,5].",
+    "respuesta": [
+      "Secuencia lineal de aminoácidos unidos por enlace peptídico (0,5 p).",
+      "Representación del enlace peptídico (0,25 p); grupos: carboxilo y amino (0,25 p).",
+      "Desnaturalización: pérdida de las estructuras secundaria, terciaria y cuaternaria (0,5 p).",
+      "Ribosomas (0,1 p), retículo endoplasmático rugoso (0,2 p) y complejo de Golgi (0,2 p)."
+    ],
+    "palabras_clave": [
+      "Ribosomas",
+      "Secuencia lineal de aminoácidos",
+      "carboxilo y amino",
+      "complejo de Golgi",
+      "enlace peptídico",
+      "pérdida de las estructuras secundaria, terciaria y cuaternaria",
+      "retículo endoplasmático rugoso"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 1-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGIA-CRITERIOS EXAMEN 1-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 244,
+    "clave": "pau2013-e1-b2",
+    "bloque": "Célula",
+    "tema": "Mitosis: concepto, significado y fases",
+    "tipo": "respuesta breve",
+    "pregunta": "Defina mitosis [0,3] e indique cuál es su significado biológico [0,3]. ¿En qué tipo de células de un organismo pluricelular tiene lugar? [0,2]. Explique sus diferentes fases [1,2].",
+    "respuesta": [
+      "Mitosis: división por la que una célula da dos células iguales entre sí y a la progenitora (0,3 p).",
+      "Significado: células hijas con idéntica información genética; en pluricelulares, crecimiento y recambio celular. 0,15 p cada uno (0,3 p).",
+      "En las células somáticas (0,2 p).",
+      "Profase: condensación, huso acromático, desaparece nucleolo y envoltura. Metafase: cromosomas en la placa ecuatorial, unidos a microtúbulos cinetocóricos. Anafase: separación de los centrómeros y cromátidas hacia los polos. Telofase: descondensación y reaparición de la envoltura. 0,3 p cada fase (1,2 p)."
+    ],
+    "palabras_clave": [
+      "condensación",
+      "crecimiento y recambio celular",
+      "cromátidas hacia los polos",
+      "células somáticas",
+      "descondensación",
+      "dos células iguales entre sí y a la progenitora",
+      "huso acromático",
+      "idéntica información genética",
+      "microtúbulos cinetocóricos",
+      "placa ecuatorial",
+      "reaparición de la envoltura",
+      "separación de los centrómeros"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 1-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGIA-CRITERIOS EXAMEN 1-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 245,
+    "clave": "pau2013-e1-b3",
+    "bloque": "Inmunología",
+    "tema": "Respuestas primaria y secundaria",
+    "tipo": "respuesta breve",
+    "pregunta": "Explique en qué consisten las respuestas inmunológicas primaria [0,4] y secundaria [0,6]. Represente gráficamente cómo varía la concentración de anticuerpos a lo largo del tiempo en ambas respuestas [0,5]. Defina memoria inmunológica [0,5].",
+    "respuesta": [
+      "Primaria: la que se produce tras la primera exposición a un antígeno (0,4 p).",
+      "Secundaria: tras un segundo contacto, incluso años después; más rápida y eficaz gracias a los linfocitos de memoria, con más anticuerpos y antes (0,6 p).",
+      "Gráfica correcta (0,5 p).",
+      "Memoria inmunológica: capacidad de reconocer un antígeno al que ya se ha estado expuesto y responder más rápida y eficazmente (0,5 p)."
+    ],
+    "palabras_clave": [
+      "Gráfica",
+      "linfocitos de memoria",
+      "más anticuerpos y antes",
+      "más rápida y eficaz",
+      "más rápida y eficazmente",
+      "primera exposición",
+      "reconocer un antígeno al que ya se ha estado expuesto",
+      "segundo contacto"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 1-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGIA-CRITERIOS EXAMEN 1-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 246,
+    "clave": "pau2013-e1-b4",
+    "bloque": "Genética",
+    "tema": "Desnaturalización del ADN y contenido G-C",
+    "tipo": "respuesta breve",
+    "pregunta": "Tenemos dos moléculas de ADN (I y II) de doble cadena y de la misma longitud. Sometemos a ambas a altas temperaturas y observamos que el ADN I se desnaturaliza antes que el ADN II. Explique este resultado [0,5]. ¿Cuál de las dos moléculas de ADN tendrá mayor cantidad de guanina? [0,5]. Razone las respuestas.",
+    "respuesta": [
+      "El ADN I tiene menos puentes de hidrógeno, por lo que se desnaturaliza antes (0,5 p).",
+      "La molécula II tendrá más guanina: los pares G-C están unidos por más puentes de hidrógeno que los A-T (0,5 p)."
+    ],
+    "palabras_clave": [
+      "G-C",
+      "II tendrá más guanina",
+      "menos puentes de hidrógeno",
+      "más puentes de hidrógeno"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 1-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGIA-CRITERIOS EXAMEN 1-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 247,
+    "clave": "pau2013-e1-b5",
+    "bloque": "Genética",
+    "tema": "Grupos sanguíneos y factor Rh",
+    "tipo": "respuesta breve",
+    "pregunta": "En una pareja uno de los miembros es del grupo sanguíneo AB y factor Rh negativo y el otro es del grupo A y factor Rh positivo, siendo uno de los progenitores de este último del grupo 0 y factor Rh negativo. Indique los genotipos de la pareja [0,4], los gametos producidos por cada uno [0,3] y la frecuencia fenotípica de la descendencia [0,3]. Razone las respuestas representando los esquemas de los posibles cruces.",
+    "respuesta": [
+      "Genotipos: IAIBdd e IAI0Dd. 0,2 p cada uno (0,4 p).",
+      "Gametos: IAd, IBd y IAD, IAd, I0D, I0d. 0,05 p cada uno (0,3 p).",
+      "Descendencia: A Rh+ 2/8; A Rh− 2/8; B Rh+ 1/8; B Rh− 1/8; AB Rh+ 1/8; AB Rh− 1/8 (0,3 p). Se justifica con los cruces."
+    ],
+    "palabras_clave": [
+      "A Rh+ 2/8",
+      "A Rh− 2/8",
+      "AB Rh+ 1/8",
+      "AB Rh− 1/8",
+      "B Rh+ 1/8",
+      "B Rh− 1/8",
+      "I<sup>A</sup>D, I<sup>A</sup>d, I<sup>0</sup>D, I<sup>0</sup>d",
+      "I<sup>A</sup>I<sup>0</sup>Dd",
+      "I<sup>A</sup>I<sup>B</sup>dd",
+      "I<sup>A</sup>d, I<sup>B</sup>d"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 1-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGIA-CRITERIOS EXAMEN 1-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 248,
+    "clave": "pau2013-e1-b6",
+    "bloque": "Célula",
+    "tema": "Célula vegetal: orgánulos y funciones",
+    "tipo": "respuesta breve",
+    "pregunta": "En relación con la imagen adjunta, conteste las siguientes cuestiones: a) Indique el nombre de las estructuras u orgánulos celulares señalados por flechas y representados por números [1]. b) ¿Cuál es el componente mayoritario de la estructura señalada con el número 1? [0,1]. Cite la principal función de los orgánulos señalados con los números 3, 4, 7, 8 y 9 [0,5]. Indique los números correspondientes a tres orgánulos o estructuras que contengan ADN [0,3]. Indique una función de la estructura señalada con el número 1 [0,1].",
+    "respuesta": [
+      "a) 1: pared celular; 2: citosol; 3: cloroplasto; 4: vacuola; 5: complejo de Golgi; 6: citoesqueleto; 7: nucleolo (núcleo); 8: retículo endoplasmático rugoso; 9: mitocondria; 10: membrana. 0,1 p cada uno (1 p).",
+      "b) 1: celulosa (0,1 p).",
+      "b) 3: fotosíntesis; 4: reserva de agua y sustancias; 7: síntesis de ARN ribosómico; 8: síntesis de proteínas; 9: respiración celular. 0,1 p cada una (0,5 p).",
+      "b) Con ADN: 3, 7 y 9 (0,3 p).",
+      "b) 1: proteger frente a cambios osmóticos, función estructural (0,1 p)."
+    ],
+    "palabras_clave": [
+      "3, 7 y 9",
+      "celulosa",
+      "citoesqueleto",
+      "citosol",
+      "cloroplasto",
+      "complejo de Golgi",
+      "estructural",
+      "fotosíntesis",
+      "membrana",
+      "mitocondria",
+      "nucleolo",
+      "pared celular",
+      "proteger frente a cambios osmóticos",
+      "reserva",
+      "respiración celular",
+      "retículo endoplasmático rugoso",
+      "síntesis de ARN ribosómico",
+      "síntesis de proteínas",
+      "vacuola"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 1-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGIA-CRITERIOS EXAMEN 1-2012-13.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2013/e1-b6.webp"
+  },
+  {
+    "id": 249,
+    "clave": "pau2013-e2-a1",
+    "bloque": "Biomoléculas",
+    "tema": "Monosacáridos, disacáridos y polisacáridos",
+    "tipo": "respuesta breve",
+    "pregunta": "Defina monosacárido [0,5]. Realice una clasificación de los monosacáridos según el número de átomos de carbono [0,25]. Cite dos ejemplos de monosacáridos con cinco átomos de carbono y otros dos con seis [0,4]. Diferencie disacárido y polisacárido [0,25]. Cite dos funciones de los polisacáridos en los seres vivos indicando el nombre de un polisacárido que desempeñe cada función [0,6].",
+    "respuesta": [
+      "Monosacárido: biomolécula de C, H y O de fórmula CnH2nOn, o polihidroxialdehídos o polihidroxicetonas (0,5 p).",
+      "Triosas, tetrosas, pentosas, hexosas y heptosas (0,25 p).",
+      "Pentosas: ribosa, desoxirribosa; hexosas: glucosa, fructosa. 0,1 p cada una (0,4 p).",
+      "Disacárido: dos monosacáridos unidos por enlace O-glucosídico; polisacárido: muchos monosacáridos unidos por ese enlace (0,25 p).",
+      "Estructural (celulosa, quitina) y reserva (glucógeno, almidón). 0,3 p cada una (0,6 p)."
+    ],
+    "palabras_clave": [
+      "C, H y O",
+      "CnH2nOn",
+      "Estructural",
+      "Triosas, tetrosas, pentosas, hexosas y heptosas",
+      "almidón",
+      "celulosa",
+      "dos monosacáridos",
+      "enlace O-glucosídico",
+      "glucosa, fructosa",
+      "glucógeno",
+      "muchos monosacáridos",
+      "polihidroxialdehídos o polihidroxicetonas",
+      "reserva",
+      "ribosa, desoxirribosa"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 2-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 2-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 250,
+    "clave": "pau2013-e2-a2",
+    "bloque": "Célula",
+    "tema": "Primera división meiótica e importancia",
+    "tipo": "respuesta breve",
+    "pregunta": "Explique la primera división meiótica [1,5]. Indique la importancia biológica de la meiosis [0,5].",
+    "respuesta": [
+      "Profase I: condensación, apareamiento de homólogos (bivalentes), recombinación (quiasmas), desaparece la envoltura (0,5 p).",
+      "Metafase I: homólogos en el plano medio (0,25 p).",
+      "Anafase I: se separan los cromosomas homólogos hacia cada polo (0,5 p).",
+      "Telofase I: descondensación y reaparición de la envoltura (0,25 p).",
+      "Importancia: produce células haploides (dotación correcta del cigoto) y aumenta la variabilidad genética. 0,25 p cada una (0,5 p)."
+    ],
+    "palabras_clave": [
+      "apareamiento de homólogos (bivalentes)",
+      "aumenta la variabilidad genética",
+      "células haploides",
+      "homólogos en el plano medio",
+      "reaparición de la envoltura",
+      "recombinación (quiasmas)",
+      "separan los cromosomas homólogos"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 2-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 2-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 251,
+    "clave": "pau2013-e2-a3",
+    "bloque": "Genética",
+    "tema": "Código genético, codón y anticodón",
+    "tipo": "respuesta breve",
+    "pregunta": "Explique qué se entiende por código genético [0,6]. Defina los términos codón y anticodón [0,5]. ¿Qué son los codones sin sentido o de terminación? [0,4]. Describa dos características del código genético [0,5].",
+    "respuesta": [
+      "Relación entre secuencia de bases (ARNm) y secuencia de aminoácidos (0,6 p).",
+      "Codón: tres bases del ARNm que codifican un aminoácido (0,25 p). Anticodón: triplete del ARNt complementario de un codón (0,25 p).",
+      "Codones que no corresponden a ningún aminoácido (0,4 p).",
+      "Universalidad, degeneración, etc. Dos, a 0,25 p (0,5 p)."
+    ],
+    "palabras_clave": [
+      "Universalidad",
+      "degeneración",
+      "no corresponden a ningún aminoácido",
+      "secuencia de aminoácidos",
+      "secuencia de bases (ARNm)",
+      "tres bases del ARNm",
+      "triplete del ARNt complementario"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 2-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 2-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 252,
+    "clave": "pau2013-e2-a4",
+    "bloque": "Biomoléculas",
+    "tema": "Inhibición competitiva",
+    "tipo": "respuesta breve",
+    "pregunta": "En una reacción enzimática se adiciona un compuesto similar al sustrato en estructura y composición. ¿Cuál sería el efecto producido [0,5] y la causa que lo determina [0,5]? Razone las respuestas.",
+    "respuesta": [
+      "Efecto: disminución de la velocidad de la reacción (0,5 p).",
+      "Causa: inhibición competitiva (0,5 p) el compuesto compite con el sustrato por el centro activo."
+    ],
+    "palabras_clave": [
+      "disminución de la velocidad",
+      "inhibición competitiva"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 2-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 2-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 253,
+    "clave": "pau2013-e2-a5",
+    "bloque": "Inmunología",
+    "tema": "Sueroterapia frente a vacunación",
+    "tipo": "respuesta breve",
+    "pregunta": "¿Por qué se utiliza la sueroterapia y no la vacunación una vez que se ha contraído una enfermedad? [0,5]. ¿Por qué el suero se administra mediante una inyección (vía intramuscular) y no mediante una toma oral (vía digestiva)? [0,5]. Razone las respuestas.",
+    "respuesta": [
+      "El suero aporta anticuerpos ya formados que reconocen al patógeno; la vacuna introduce el patógeno inactivo para desencadenar una respuesta, que llega tarde cuando ya hay enfermedad (0,5 p).",
+      "Por vía oral los anticuerpos se destruirían en el aparato digestivo (0,5 p)."
+    ],
+    "palabras_clave": [
+      "anticuerpos ya formados",
+      "desencadenar una respuesta",
+      "los anticuerpos se destruirían en el aparato digestivo"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 2-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 2-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 254,
+    "clave": "pau2013-e2-a6",
+    "bloque": "Metabolismo",
+    "tema": "Esquema global de la fotosíntesis",
+    "tipo": "respuesta breve",
+    "pregunta": "En relación con la imagen adjunta, conteste las siguientes cuestiones: a) ¿Qué proceso representa la imagen? [0,1]. ¿En qué orgánulo se lleva a cabo? [0,1]. ¿En qué tipo de células? [0,1]. ¿Qué estructura es la señalada con el número 1? [0,1]. ¿Qué proceso ocurre en dicha estructura? [0,1]. ¿Qué papel tiene la luz en dicho proceso? [0,5]. b) ¿Qué proceso es el señalado con el número 2? [0,2]. ¿Qué ocurre de forma global en dicho proceso? [0,5]. ¿En qué compartimento del orgánulo tiene lugar? [0,1]. Escriba la ecuación general de lo que sucede de manera conjunta en este orgánulo [0,2].",
+    "respuesta": [
+      "a) Fotosíntesis; cloroplastos; células vegetales fotosintéticas; 1: tilacoides apilados (granum); fase dependiente de la luz. 0,1 p cada uno.",
+      "a) La luz excita los electrones de la clorofila, que sirven para reducir el NADP⁺ a NADPH a la vez que se forma ATP (0,5 p).",
+      "b) Fase no dependiente de la luz (ciclo de Calvin) (0,2 p).",
+      "b) Se usan el ATP y el NADPH de la fase luminosa para reducir el CO₂ hasta glucosa (0,5 p). En el estroma (0,1 p).",
+      "b) Ecuación: nCO₂ + nH₂O → (CH₂O)n + nO₂ (con luz) (0,2 p)."
+    ],
+    "palabras_clave": [
+      "ATP y el NADPH",
+      "Fase no dependiente de la luz (ciclo de Calvin)",
+      "Fotosíntesis",
+      "cloroplastos",
+      "células vegetales fotosintéticas",
+      "estroma",
+      "excita los electrones de la clorofila",
+      "fase dependiente de la luz",
+      "forma ATP",
+      "nCO₂ + nH₂O → (CH₂O)n + nO₂",
+      "reducir el CO₂ hasta glucosa",
+      "reducir el NADP⁺ a NADPH",
+      "tilacoides apilados (granum)"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 2-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 2-2012-13.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2013/e2-a6.webp"
+  },
+  {
+    "id": 255,
+    "clave": "pau2013-e2-b1",
+    "bloque": "Biomoléculas",
+    "tema": "Lípidos saponificables e insaponificables",
+    "tipo": "respuesta breve",
+    "pregunta": "Defina triacilglicérido y fosfolípido [0,8]. Indique las diferencias entre los lípidos saponificables y los insaponificables [0,6] y cite un tipo [0,2] y una función de cada uno de ellos [0,4].",
+    "respuesta": [
+      "Triacilglicérido: éster de glicerina con tres ácidos grasos (0,3 p).",
+      "Fosfolípido: glicerina unida a dos ácidos grasos por enlace éster y a un grupo fosfato unido a un aminoalcohol (0,5 p).",
+      "Diferencias: presencia o no de ácidos grasos y formación de jabones. 0,3 p cada una (0,6 p).",
+      "Saponificables: acilglicéridos, céridos, fosfolípidos, esfingolípidos. Insaponificables: carotenoides y esteroides. Un ejemplo de cada tipo, 0,1 p (0,2 p).",
+      "Funciones: acilglicéridos, energética; fosfolípidos, membranas; céridos, protectora; esteroides, membranas, hormonas y vitaminas; carotenoides, antioxidantes. Una por tipo, 0,2 p (0,4 p)."
+    ],
+    "palabras_clave": [
+      "acilglicéridos",
+      "aminoalcohol",
+      "carotenoides",
+      "dos ácidos grasos",
+      "energética",
+      "enlace éster",
+      "esteroides",
+      "formación de jabones",
+      "fosfolípidos",
+      "grupo fosfato",
+      "membranas",
+      "membranas, hormonas y vitaminas",
+      "presencia o no de ácidos grasos",
+      "éster de glicerina con tres ácidos grasos"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 2-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 2-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 256,
+    "clave": "pau2013-e2-b2",
+    "bloque": "Célula",
+    "tema": "Retículo endoplasmático liso y rugoso",
+    "tipo": "respuesta breve",
+    "pregunta": "Cite los tipos de retículo endoplasmático que existen en la célula [0,2] e indique una función de cada uno de ellos [0,5]. ¿Qué características morfológicas permiten distinguir un tipo del otro en una observación microscópica? [0,6]. Indique si estos tipos de retículo son exclusivos de células animales o de células vegetales o si se presentan en ambos tipos de células [0,2]. ¿Qué relación tiene el retículo endoplasmático con el complejo de Golgi? [0,5].",
+    "respuesta": [
+      "REL y RER (0,2 p).",
+      "REL: síntesis de lípidos, detoxificación, contracción muscular. RER: síntesis, almacenamiento y glucosilación de proteínas. Una cada uno, 0,25 p (0,5 p).",
+      "RER: cisternas con ribosomas adosados. REL: túbulos sin ribosomas. 0,3 p cada uno (0,6 p).",
+      "Están en todas las células eucarióticas, animales y vegetales (0,2 p).",
+      "Continuidad funcional: lo sintetizado en el retículo se modifica, madura y empaqueta en el Golgi (0,5 p)."
+    ],
+    "palabras_clave": [
+      "Continuidad funcional",
+      "REL y RER",
+      "cisternas con ribosomas adosados",
+      "modifica, madura y empaqueta en el Golgi",
+      "síntesis de lípidos",
+      "síntesis, almacenamiento y glucosilación de proteínas",
+      "todas las células eucarióticas",
+      "túbulos sin ribosomas"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 2-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 2-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 257,
+    "clave": "pau2013-e2-b3",
+    "bloque": "Microbiología",
+    "tema": "Microorganismos y biotecnología",
+    "tipo": "respuesta breve",
+    "pregunta": "Defina microorganismo [0,5]. Cite un ejemplo de relación beneficiosa [0,25] y otro de relación perjudicial [0,25] entre los microorganismos y la especie humana. Defina biotecnología [0,5]. Exponga un ejemplo de aplicación biotecnológica [0,5].",
+    "respuesta": [
+      "Microorganismo: ser vivo que no puede percibirse sin microscopio (0,5 p).",
+      "Beneficiosa: producción de alimentos, medicamentos y vacunas, ciclos de la materia (0,25 p). Perjudicial: infecciones, deterioro de alimentos (0,25 p).",
+      "Biotecnología: procesos industriales que usan microorganismos o células para obtener productos (0,5 p).",
+      "Ejemplo: hormonas, fermentaciones industriales, alimentos transgénicos (0,5 p)."
+    ],
+    "palabras_clave": [
+      "alimentos transgénicos",
+      "alimentos, medicamentos y vacunas",
+      "ciclos de la materia",
+      "deterioro de alimentos",
+      "fermentaciones industriales",
+      "hormonas",
+      "infecciones",
+      "microorganismos o células",
+      "no puede percibirse sin microscopio",
+      "obtener productos"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 2-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 2-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 258,
+    "clave": "pau2013-e2-b4",
+    "bloque": "Microbiología",
+    "tema": "Bacteriófagos y endocitosis",
+    "tipo": "respuesta breve",
+    "pregunta": "Los bacteriófagos inyectan su material genético en la célula hospedadora. ¿Podrían entrar por endocitosis? [0,5]. ¿Llevan a cabo las células procarióticas procesos de transporte y permeabilidad celular a través de membrana? [0,5]. Razone las respuestas.",
+    "respuesta": [
+      "No: la pared celular rígida que rodea la membrana bacteriana impide la endocitosis (0,5 p).",
+      "Sí: la membrana bacteriana tiene una composición y estructura prácticamente idénticas a la eucariótica y regula el paso de sustancias (0,5 p)."
+    ],
+    "palabras_clave": [
+      "No",
+      "Sí",
+      "composición y estructura prácticamente idénticas",
+      "impide la endocitosis",
+      "pared celular rígida",
+      "regula el paso de sustancias"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 2-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 2-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 259,
+    "clave": "pau2013-e2-b5",
+    "bloque": "Genética",
+    "tema": "Inhibición de las ARN polimerasas",
+    "tipo": "respuesta breve",
+    "pregunta": "Suponga que con un tratamiento se han inhibido todas las ARN polimerasas de una célula. Indique de qué forma se verá afectada la replicación del ADN [0,5]. ¿Cuál será el efecto sobre la síntesis de los ribosomas? [0,5]. Razone las respuestas.",
+    "respuesta": [
+      "No se sintetizarán los cebadores de ARN y la replicación no se producirá (o no se transcribirán los ARN necesarios para las proteínas de la replicación). Basta una (0,5 p).",
+      "No se transcribirán los ARNr que forman los ribosomas (ni los ARNm de sus proteínas). Basta una (0,5 p)."
+    ],
+    "palabras_clave": [
+      "No se sintetizarán los cebadores de ARN",
+      "No se transcribirán los ARNr",
+      "replicación no se producirá"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 2-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 2-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 260,
+    "clave": "pau2013-e2-b6",
+    "bloque": "Genética",
+    "tema": "Monohibridismo: color de las plumas",
+    "tipo": "respuesta breve",
+    "pregunta": "La imagen adjunta representa un experimento basado en las Leyes de Mendel. En ella se muestra el cruce entre un gallo y una gallina, ambos con plumas de color negro, que da lugar a tres pollitos de color negro y un pollito de color gris. Con los datos que se indican, conteste las siguientes cuestiones: a) Deduzca qué alelos corresponderán a los números 2, 3 y 4 [0,3]. Indique los genotipos para el color de las plumas de los animales 1, 5, 6 y 7 [0,4]. ¿En qué proporción se presentan los genotipos de los descendientes? [0,3]. b) ¿Cuáles serían las proporciones de los genotipos y los fenotipos de la F1 si el cruce se hubiera producido entre los pollos 1 y 7? [0,6]. ¿Y si el cruce se hubiera producido entre los ejemplares 5 y 7? [0,4]. Razone las respuestas representando los esquemas de los posibles cruces.",
+    "respuesta": [
+      "a) 2: A; 3: a; 4: a. 0,1 p cada uno (0,3 p).",
+      "a) 1: Aa; 5: AA; 6: Aa; 7: aa. 0,1 p cada uno (0,4 p).",
+      "a) AA 25 %; Aa 50 %; aa 25 % (0,3 p).",
+      "b) 1 × 7: Aa 50 %, aa 50 %; 50 % negros, 50 % grises (0,6 p).",
+      "b) 5 × 7: 100 % Aa; 100 % negros (0,4 p). Se justifica con los cruces."
+    ],
+    "palabras_clave": [
+      "100 % Aa",
+      "100 % negros",
+      "50 % negros, 50 % grises",
+      "A",
+      "AA",
+      "AA 25 %; Aa 50 %; aa 25 %",
+      "Aa",
+      "Aa 50 %, aa 50 %",
+      "a",
+      "aa"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 2-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 2-2012-13.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2013/e2-b6.webp"
+  },
+  {
+    "id": 261,
+    "clave": "pau2013-e3-a1",
+    "bloque": "Célula",
+    "tema": "Membrana plasmática: mosaico fluido",
+    "tipo": "respuesta breve",
+    "pregunta": "Describa la estructura y la composición química de la membrana plasmática [1]. ¿A qué tipos celulares y a qué membranas celulares es aplicable el modelo de Mosaico Fluido? [0,4]. Nombre tres funciones de la membrana plasmática [0,6].",
+    "respuesta": [
+      "Bicapa lipídica (fosfolípidos, colesterol), con proteínas periféricas y transmembranales y glúcidos en la capa externa (1 p).",
+      "Es un modelo universal: aplicable a todos los tipos celulares y todas las membranas (0,4 p).",
+      "Permeabilidad selectiva, mantenimiento del medio interno, intercambio de sustancias, reconocimiento molecular y celular. Solo tres, a 0,2 p (0,6 p)."
+    ],
+    "palabras_clave": [
+      "Bicapa lipídica",
+      "Permeabilidad selectiva",
+      "glúcidos en la capa externa",
+      "intercambio de sustancias",
+      "medio interno",
+      "modelo universal",
+      "proteínas periféricas y transmembranales",
+      "reconocimiento",
+      "todas las membranas",
+      "todos los tipos celulares"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 3-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 3-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 262,
+    "clave": "pau2013-e3-a2",
+    "bloque": "Genética",
+    "tema": "Genotipo, fenotipo, alelo, homocigoto y código",
+    "tipo": "respuesta breve",
+    "pregunta": "Defina: genotipo, fenotipo, alelo, homocigoto y código genético [2].",
+    "respuesta": [
+      "Genotipo: información genética de un organismo en forma de ADN (0,4 p).",
+      "Fenotipo: caracteres que exhibe un individuo; expresión del genotipo en un ambiente (0,4 p).",
+      "Alelo: cada una de las formas alternativas de un gen (0,4 p).",
+      "Homocigoto: individuo con los dos alelos de un gen iguales (0,4 p).",
+      "Código genético: relación entre secuencia de bases (ARNm) y secuencia de aminoácidos (0,4 p)."
+    ],
+    "palabras_clave": [
+      "caracteres que exhibe",
+      "dos alelos de un gen iguales",
+      "expresión del genotipo en un ambiente",
+      "formas alternativas",
+      "información genética",
+      "secuencia de aminoácidos",
+      "secuencia de bases (ARNm)"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 3-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 3-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 263,
+    "clave": "pau2013-e3-a3",
+    "bloque": "Inmunología",
+    "tema": "Antígenos e inmunoglobulinas",
+    "tipo": "respuesta breve",
+    "pregunta": "Exponga el concepto de antígeno [0,4]. Indique la composición química de las inmunoglobulinas [0,2]. ¿Qué hecho desencadena su producción? [0,3]. ¿Cuál es su función? [0,3]. ¿Qué células las producen? [0,2]. ¿Dónde se originan estas células? [0,2]. Dibuje una inmunoglobulina indicando sus cadenas y regiones [0,4].",
+    "respuesta": [
+      "Antígeno: molécula no reconocida por el sistema inmunitario que provoca la aparición de anticuerpos específicos (0,4 p).",
+      "Composición: glicoproteica (0,2 p).",
+      "Se producen en respuesta a la entrada de un antígeno específico (0,3 p).",
+      "Función: unirse específicamente a los antígenos, neutralizar microorganismos y toxinas, opsonización, precipitación, activar el complemento. Basta una (0,3 p).",
+      "Células plasmáticas o linfocitos B (0,2 p), originadas en la médula ósea (0,2 p).",
+      "Dibujo con cadenas ligeras y pesadas y regiones constante (Fc) y variable (Fab) (0,4 p)."
+    ],
+    "palabras_clave": [
+      "Células plasmáticas o linfocitos B",
+      "anticuerpos específicos",
+      "cadenas ligeras y pesadas",
+      "complemento",
+      "entrada de un antígeno específico",
+      "glicoproteica",
+      "médula ósea",
+      "neutralizar",
+      "no reconocida",
+      "opsonización",
+      "precipitación",
+      "regiones constante (Fc) y variable (Fab)",
+      "unirse específicamente a los antígenos"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 3-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 3-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 264,
+    "clave": "pau2013-e3-a4",
+    "bloque": "Microbiología",
+    "tema": "Ácido nucleico de un virus",
+    "tipo": "respuesta breve",
+    "pregunta": "El análisis del ácido nucleico de un virus ha dado los siguientes resultados: A= 24%, G= 31%, T= 33% y C= 12%. ¿Qué dos conclusiones se pueden obtener acerca del tipo de ácido nucleico del virus? Razone las respuestas [1].",
+    "respuesta": [
+      "Es ADN porque presenta timina (0,5 p).",
+      "Es monocatenario porque las proporciones de púricas y pirimidínicas no son iguales (0,5 p)."
+    ],
+    "palabras_clave": [
+      "ADN",
+      "monocatenario",
+      "presenta timina",
+      "púricas y pirimidínicas no son iguales"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 3-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 3-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 265,
+    "clave": "pau2013-e3-a5",
+    "bloque": "Célula",
+    "tema": "Células secretoras de mucinas",
+    "tipo": "respuesta breve",
+    "pregunta": "Las mucosas de las cavidades internas están cubiertas por una capa de líquido viscoso (mucus), que lubrifica y protege al epitelio de estas cavidades. El mucus posee un alto contenido de mucinas (glicoproteínas) producidas por las células mucosas del epitelio y por glándulas secretoras. Cite, razonando la respuesta, dos orgánulos que deben estar muy desarrollados en estas células [1].",
+    "respuesta": [
+      "RER, por la síntesis de las glicoproteínas (0,5 p), y complejo de Golgi, por su maduración y secreción (0,5 p)."
+    ],
+    "palabras_clave": [
+      "RER",
+      "complejo de Golgi",
+      "maduración y secreción",
+      "síntesis de las glicoproteínas"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 3-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 3-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 266,
+    "clave": "pau2013-e3-a6",
+    "bloque": "Biomoléculas",
+    "tema": "Agua: puentes de hidrógeno",
+    "tipo": "respuesta breve",
+    "pregunta": "En relación con la imagen adjunta, conteste las siguientes cuestiones: a) Identifique la sustancia representada [0,2] y explique los criterios utilizados para identificarla [0,3]. ¿Qué tipo de enlace se establece entre ambas moléculas? [0,2]. Explique una consecuencia biológica de la existencia de estos enlaces [0,3]. b) Indique cinco funciones que realiza esta sustancia en los seres vivos [1].",
+    "respuesta": [
+      "a) Agua (0,2 p).",
+      "a) Dos átomos con carga parcial positiva (H) unidos a uno con carga parcial negativa (O), con un ángulo de 105º (0,3 p).",
+      "a) Puentes de hidrógeno (0,2 p).",
+      "a) Consecuencias: capilaridad para el transporte, sostén en plantas herbáceas, menor densidad del hielo que preserva la vida acuática. Basta una (0,3 p).",
+      "b) Disolvente, transporte, termorregulación, participación en reacciones, hidrólisis, estructural, lubricante. Solo cinco, a 0,2 p (1 p)."
+    ],
+    "palabras_clave": [
+      "Agua",
+      "Disolvente",
+      "Dos átomos con carga parcial positiva (H)",
+      "Puentes de hidrógeno",
+      "capilaridad",
+      "hidrólisis",
+      "menor densidad del hielo",
+      "reacciones",
+      "sostén",
+      "termorregulación",
+      "transporte",
+      "uno con carga parcial negativa (O)",
+      "ángulo de 105º"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 3-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 3-2012-13.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2013/e3-a6.webp"
+  },
+  {
+    "id": 267,
+    "clave": "pau2013-e3-b1",
+    "bloque": "Biomoléculas",
+    "tema": "Enzima, centro activo, coenzima e inhibidor",
+    "tipo": "respuesta breve",
+    "pregunta": "Defina: enzima, centro activo, coenzima, inhibidor y energía de activación [2].",
+    "respuesta": [
+      "Enzima: proteína que acelera las reacciones metabólicas (0,4 p).",
+      "Centro activo: región del enzima formada por los aminoácidos que se unen al sustrato (0,4 p).",
+      "Coenzima: biomolécula orgánica que interviene en determinadas reacciones enzimáticas (0,4 p).",
+      "Inhibidor: sustancia que disminuye o anula la actividad enzimática (0,4 p).",
+      "Energía de activación: energía que hay que suministrar a los reactivos para que la reacción se produzca (0,4 p)."
+    ],
+    "palabras_clave": [
+      "aminoácidos que se unen al sustrato",
+      "biomolécula orgánica",
+      "disminuye o anula la actividad enzimática",
+      "proteína que acelera",
+      "reacciones enzimáticas",
+      "región del enzima",
+      "suministrar a los reactivos para que la reacción se produzca"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 3-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 3-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 268,
+    "clave": "pau2013-e3-b2",
+    "bloque": "Metabolismo",
+    "tema": "Ciclo de Calvin e importancia de la fotosíntesis",
+    "tipo": "respuesta breve",
+    "pregunta": "Defina fotosíntesis [0,4]. Describa la etapa de asimilación del CO2 [0,7] e indique su localización en el interior del cloroplasto [0,3]. Exponga dos razones que justifiquen la importancia biológica de la fotosíntesis en la evolución [0,6].",
+    "respuesta": [
+      "Fotosíntesis: proceso anabólico de organismos autótrofos para sintetizar sustancias orgánicas a partir de inorgánicas con energía lumínica (0,4 p).",
+      "Uso del NADPH y ATP de la fase luminosa para sintetizar glucosa; hay que indicar el papel de la enzima Rubisco (0,7 p).",
+      "Localización: estroma (0,3 p).",
+      "Importancia: materia orgánica para los heterótrofos, producción de oxígeno, retirada de CO₂ de la atmósfera. Dos, a 0,3 p (0,6 p)."
+    ],
+    "palabras_clave": [
+      "NADPH y ATP",
+      "Rubisco",
+      "anabólico",
+      "energía lumínica",
+      "estroma",
+      "materia orgánica para los heterótrofos",
+      "producción de oxígeno",
+      "retirada de CO₂",
+      "sintetizar glucosa",
+      "sintetizar sustancias orgánicas a partir de inorgánicas"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 3-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 3-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 269,
+    "clave": "pau2013-e3-b3",
+    "bloque": "Microbiología",
+    "tema": "Bacteriófago y célula bacteriana",
+    "tipo": "respuesta breve",
+    "pregunta": "Describa la estructura de un bacteriófago [1] y cite cinco componentes estructurales de la célula a la que infecta [1].",
+    "respuesta": [
+      "Virus complejo con cabeza y cola: cabeza con cápsida proteica y ácido nucleico (ADN); cola con vaina contráctil para inyectar el ADN y placa basal con fibras para fijarse a la bacteria (1 p).",
+      "Cápsula, pared celular, membrana plasmática, cromosoma bacteriano, ribosomas, flagelos, plásmidos. Solo cinco, a 0,2 p (1 p)."
+    ],
+    "palabras_clave": [
+      "Cápsula",
+      "cabeza y cola",
+      "cromosoma bacteriano",
+      "cápsida proteica",
+      "fibras",
+      "membrana plasmática",
+      "pared celular",
+      "placa basal",
+      "ribosomas",
+      "vaina contráctil",
+      "ácido nucleico (ADN)"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 3-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 3-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 270,
+    "clave": "pau2013-e3-b4",
+    "bloque": "Célula",
+    "tema": "Cromosomas y ADN en la meiosis",
+    "tipo": "respuesta breve",
+    "pregunta": "Una célula en interfase (periodo G2) tiene 20 pares de cromosomas y presenta un contenido en ADN de 8 x 10-6 g. ¿Cuántos cromosomas y qué cantidad de ADN tendrá una de las células resultantes de la primera división meiótica? [0,5]. ¿Y después de la segunda división meiótica? [0,5]. Razone las respuestas.",
+    "respuesta": [
+      "Tras la meiosis I: 20 cromosomas (no 20 pares), porque reciben uno de cada pareja de homólogos: son haploides (0,25 p). ADN: 4 × 10⁻⁶ g (0,25 p).",
+      "Tras la meiosis II: reciben una cromátida de cada cromosoma: 2 × 10⁻⁶ g (0,25 p); siguen siendo haploides, con 20 cromosomas de una cromátida (0,25 p)."
+    ],
+    "palabras_clave": [
+      "2 × 10⁻⁶ g",
+      "20 cromosomas",
+      "20 cromosomas de una cromátida",
+      "4 × 10⁻⁶ g",
+      "haploides",
+      "una cromátida de cada cromosoma",
+      "uno de cada pareja de homólogos"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 3-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 3-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 271,
+    "clave": "pau2013-e3-b5",
+    "bloque": "Inmunología",
+    "tema": "Autotrasplante y trasplante de corazón",
+    "tipo": "respuesta breve",
+    "pregunta": "Un paciente que sufre una grave quemadura recibe un autotrasplante de piel para regenerar la zona quemada; no se le administran inmunosupresores porque los médicos no lo consideran necesario. Sin embargo, sí le administran inmunosupresores a otro paciente trasplantado de corazón. Razone la decisión médica en ambos casos [1].",
+    "respuesta": [
+      "Autotrasplante: el sistema inmunitario no reconoce como extraña la piel: no hay rechazo (0,5 p).",
+      "Corazón: lo reconoce como extraño; los inmunosupresores evitan el rechazo (0,5 p)."
+    ],
+    "palabras_clave": [
+      "inmunosupresores evitan el rechazo",
+      "lo reconoce como extraño",
+      "no hay rechazo",
+      "no reconoce como extraña"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 3-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 3-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 272,
+    "clave": "pau2013-e3-b6",
+    "bloque": "Genética",
+    "tema": "Traducción en el ribosoma",
+    "tipo": "respuesta breve",
+    "pregunta": "En relación con la imagen adjunta, conteste las siguientes cuestiones: a) ¿Qué proceso biológico representa la imagen? [0,2]. Identifique los elementos señalados con las letras A, B, C, y D [0,8]. b) Indique el tipo de enlace que caracteriza a la molécula C y escriba la reacción de formación de este enlace [0,5]. Indique la composición química y la función del elemento A en este proceso [0,5].",
+    "respuesta": [
+      "a) Traducción o síntesis de proteínas (0,2 p).",
+      "a) A: ARN transferente (aminoacil-ARNt); B: ARN mensajero; C: polipéptido; D: ribosoma (subunidad grande). 0,2 p cada uno (0,8 p).",
+      "b) Enlace peptídico (0,2 p) y su reacción de formación (0,3 p).",
+      "b) A: ribonucleótidos (bases, ribosa y fosfato) (0,25 p); transporta de forma específica los aminoácidos según su anticodón (0,25 p)."
+    ],
+    "palabras_clave": [
+      "ARN mensajero",
+      "ARN transferente",
+      "Enlace peptídico",
+      "Traducción o síntesis de proteínas",
+      "anticodón",
+      "polipéptido",
+      "reacción de formación",
+      "ribonucleótidos",
+      "ribosoma",
+      "transporta de forma específica los aminoácidos"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 3-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 3-2012-13.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2013/e3-b6.webp"
+  },
+  {
+    "id": 273,
+    "clave": "pau2013-e4-a1",
+    "bloque": "Biomoléculas",
+    "tema": "Aminoácidos y enlace peptídico",
+    "tipo": "respuesta breve",
+    "pregunta": "Defina los aminoácidos [0,4], escriba su fórmula general [0,4] y clasifíquelos en función de sus radicales [0,6]. Describa el enlace peptídico y cite dos de sus características [0,6].",
+    "respuesta": [
+      "Aminoácido: molécula orgánica con un grupo amino (-NH₂) y un grupo carboxilo (-COOH) unidos a un carbono central (0,4 p).",
+      "Fórmula: carbono alfa unido al amino, al carboxilo, a un hidrógeno y a un radical (0,4 p).",
+      "Ácidos, básicos, neutros polares y neutros apolares, 0,15 p cada uno (0,6 p).",
+      "Enlace peptídico: reacción del carboxilo de un aminoácido con el amino de otro con liberación de agua (0,3 p). Características: covalente, coplanario, sin giro. Dos, a 0,15 p (0,3 p)."
+    ],
+    "palabras_clave": [
+      "carbono alfa",
+      "carbono central",
+      "carboxilo de un aminoácido con el amino de otro",
+      "coplanario",
+      "covalente",
+      "grupo amino",
+      "grupo carboxilo",
+      "hidrógeno",
+      "liberación de agua",
+      "radical",
+      "sin giro",
+      "Ácidos, básicos, neutros polares y neutros apolares"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 4-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 4-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 274,
+    "clave": "pau2013-e4-a2",
+    "bloque": "Metabolismo",
+    "tema": "ATP: función, composición y síntesis",
+    "tipo": "respuesta breve",
+    "pregunta": "Explique la función del ATP en el metabolismo celular [0,5]. Indique su composición química [0,3]. Mencione en qué orgánulos de la célula vegetal se realiza su síntesis [0,4], el nombre de las reacciones metabólicas en las que se produce [0,4] y el nombre de los procesos celulares en los que se desarrollan esas reacciones [0,4].",
+    "respuesta": [
+      "Función: intermediario energético en la transferencia de energía celular (también coenzima, regulador) (0,5 p).",
+      "Composición: adenina, ribosa y tres ácidos fosfóricos (0,3 p).",
+      "Orgánulos: mitocondrias y cloroplastos (0,4 p).",
+      "Reacciones: fosforilación oxidativa y fotofosforilación (0,4 p).",
+      "Procesos: respiración celular y fotosíntesis (0,4 p)."
+    ],
+    "palabras_clave": [
+      "adenina",
+      "fosforilación oxidativa",
+      "fotofosforilación",
+      "fotosíntesis",
+      "intermediario energético",
+      "mitocondrias y cloroplastos",
+      "respiración celular",
+      "ribosa",
+      "transferencia de energía",
+      "tres ácidos fosfóricos"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 4-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 4-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 275,
+    "clave": "pau2013-e4-a3",
+    "bloque": "Genética",
+    "tema": "Gen, cromosoma y empaquetamiento",
+    "tipo": "respuesta breve",
+    "pregunta": "Defina gen y cromosoma [0,5]. ¿Cuáles son los componentes moleculares de los cromosomas? [0,5]. Explique la estructura de los cromosomas [1].",
+    "respuesta": [
+      "Gen: secuencia de ADN que determina una característica (0,25 p). Cromosoma: estructura de ADN y proteínas visible durante la división celular (0,25 p).",
+      "ADN y proteínas (histonas) (0,5 p).",
+      "ADN asociado a histonas (nucleosomas) formando un collar de perlas, que se pliega en solenoide y sufre nuevos plegamientos hasta el cromosoma (1 p)."
+    ],
+    "palabras_clave": [
+      "ADN y proteínas",
+      "ADN y proteínas (histonas)",
+      "collar de perlas",
+      "división celular",
+      "histonas (nucleosomas)",
+      "plegamientos",
+      "secuencia de ADN",
+      "solenoide"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 4-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 4-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 276,
+    "clave": "pau2013-e4-a4",
+    "bloque": "Biomoléculas",
+    "tema": "Glucemia tras glucosa, almidón o celulosa",
+    "tipo": "respuesta breve",
+    "pregunta": "En una situación experimental, tras permanecer en ayunas, tres personas ingieren: la primera (A) una ración de celulosa, la segunda (B) una ración de glucosa y la tercera (C) una ración de almidón. Compare la rapidez con la que cabe esperar que suba la glucemia (nivel de glucosa en sangre) de las tres personas. Razone la respuesta [1].",
+    "respuesta": [
+      "Primero B: la glucosa se absorbe rápidamente sin transformarse (0,3 p).",
+      "Después C: el almidón debe ser hidrolizado a glucosa por varias enzimas (0,4 p).",
+      "A no sube: los humanos carecemos de enzimas para digerir la celulosa (0,3 p)."
+    ],
+    "palabras_clave": [
+      "A no sube",
+      "B",
+      "C",
+      "carecemos de enzimas para digerir la celulosa",
+      "hidrolizado a glucosa por varias enzimas",
+      "se absorbe rápidamente"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 4-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 4-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 277,
+    "clave": "pau2013-e4-a5",
+    "bloque": "Microbiología",
+    "tema": "Infectividad: cápsidas frente a ADN vírico",
+    "tipo": "respuesta breve",
+    "pregunta": "Los tubos A y B contienen una suspensión de las cápsidas vacías de un tipo de virus que produce hepatitis en ratones. Los tubos C y D contienen una suspensión del ADN del mismo tipo de virus. Los tubos A y C se mantienen a temperatura ambiente, mientras que los tubos B y D están a 100 ºC durante una hora y luego se dejan enfriar. Se inoculan 4 grupos distintos de ratones (1, 2, 3 y 4) con muestras de los distintos tubos (1-A, 2-B, 3-C y 4-D). ¿Cuáles de estos grupos desarrollarán la enfermedad? [0,5]. ¿Qué pasaría si inyectáramos a unos ratones una mezcla de los tubos B y C? [0,25]. ¿Y si lo hiciéramos con una mezcla de los tubos A y D? [0,25]. Razone las respuestas.",
+    "respuesta": [
+      "Solo el grupo 3 (tubo C): las cápsidas vacías no son infecciosas y es el ADN el que lleva la información; el ADN hervido (D) está desnaturalizado (0,5 p).",
+      "B + C: sí enferman, porque el ADN está intacto (0,25 p).",
+      "A + D: no enferman, porque el ADN está desnaturalizado (0,25 p)."
+    ],
+    "palabras_clave": [
+      "ADN",
+      "ADN está desnaturalizado",
+      "ADN está intacto",
+      "cápsidas vacías no son infecciosas",
+      "desnaturalizado",
+      "grupo 3 (tubo C)",
+      "no enferman",
+      "sí enferman"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 4-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 4-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 278,
+    "clave": "pau2013-e4-a6",
+    "bloque": "Inmunología",
+    "tema": "Estructura de un anticuerpo",
+    "tipo": "respuesta breve",
+    "pregunta": "En relación con la imagen adjunta, conteste las siguientes cuestiones: a) ¿Qué tipo de molécula representa la imagen? [0,2]. ¿Cuál es su naturaleza química? [0,1]. ¿Qué células la producen? [0,2]. Cite las distintas clases que existen de este tipo de molécula [0,5]. b) ¿Qué indican los números 1, 2 y 3? [0,3]. ¿Qué indican las siglas Fab y Fc de la figura pequeña? [0,3]. ¿Cuál es la función en el organismo humano de la molécula representada en la imagen? [0,4].",
+    "respuesta": [
+      "a) Anticuerpo o inmunoglobulina (0,2 p); glicoproteica (0,1 p); células plasmáticas o linfocitos B (0,2 p).",
+      "a) IgA, IgD, IgE, IgG e IgM, 0,1 p cada una (0,5 p).",
+      "b) 1: cadenas pesadas; 2: zonas de unión con el antígeno; 3: cadenas ligeras (0,3 p).",
+      "b) Fab: fracción variable; Fc: fracción constante (0,3 p).",
+      "b) Función: unirse específicamente a los antígenos, neutralizar, opsonización, precipitación, activar el complemento. Basta una (0,4 p)."
+    ],
+    "palabras_clave": [
+      "Anticuerpo o inmunoglobulina",
+      "IgA, IgD, IgE, IgG e IgM",
+      "cadenas ligeras",
+      "cadenas pesadas",
+      "complemento",
+      "células plasmáticas o linfocitos B",
+      "fracción constante",
+      "fracción variable",
+      "glicoproteica",
+      "neutralizar",
+      "opsonización",
+      "precipitación",
+      "unirse específicamente a los antígenos",
+      "zonas de unión con el antígeno"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 4-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 4-2012-13.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2013/e4-a6.webp"
+  },
+  {
+    "id": 279,
+    "clave": "pau2013-e4-b1",
+    "bloque": "Biomoléculas",
+    "tema": "Agua: estructura, puentes de hidrógeno y propiedades",
+    "tipo": "respuesta breve",
+    "pregunta": "Describa la estructura de la molécula del agua y represéntela mediante un esquema [0,7]. Indique el tipo de enlace que se establece entre dos moléculas de agua [0,3]. Enumere cuatro propiedades físico-químicas del agua y relaciónelas con sus funciones biológicas [1].",
+    "respuesta": [
+      "Dipolo eléctrico (0,3 p); el esquema debe mostrar el ángulo y las cargas parciales negativa del O y positivas de los H (0,4 p).",
+      "Puentes de hidrógeno (0,3 p).",
+      "Cohesión y constante dieléctrica (transporte y disolvente); calor específico (termorregulación); calor de vaporización (refrigerante); adhesión (capilaridad); densidad en estado sólido (vida acuática en zonas frías). Cuatro, a 0,25 p (1 p)."
+    ],
+    "palabras_clave": [
+      "Cohesión y constante dieléctrica",
+      "Dipolo eléctrico",
+      "Puentes de hidrógeno",
+      "adhesión",
+      "calor de vaporización",
+      "calor específico",
+      "capilaridad",
+      "cargas parciales",
+      "densidad en estado sólido",
+      "disolvente",
+      "refrigerante",
+      "termorregulación",
+      "ángulo"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 4-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 4-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 280,
+    "clave": "pau2013-e4-b2",
+    "bloque": "Célula",
+    "tema": "Pared, membrana, retículo y lisosoma",
+    "tipo": "respuesta breve",
+    "pregunta": "Defina los siguientes componentes de la célula eucariótica e indique una función de cada uno de ellos: pared celular, membrana plasmática, retículo endoplasmático y lisosoma [2].",
+    "respuesta": [
+      "Pared celular: capa que rodea la célula vegetal, de celulosa; función: protección, esquelética, resistencia a la presión osmótica (0,5 p).",
+      "Membrana plasmática: bicapa lipídica con proteínas y glúcidos; función: separar el medio interno del externo, permeabilidad selectiva (0,5 p).",
+      "Retículo endoplasmático: red de cisternas y túbulos membranosos; función: síntesis de proteínas y lípidos, detoxificación (0,5 p).",
+      "Lisosoma: vesícula con enzimas hidrolíticas; función: digestión intracelular (0,5 p)."
+    ],
+    "palabras_clave": [
+      "bicapa lipídica",
+      "celulosa",
+      "digestión intracelular",
+      "esquelética",
+      "permeabilidad selectiva",
+      "presión osmótica",
+      "protección",
+      "red de cisternas y túbulos",
+      "separar el medio interno del externo",
+      "síntesis de proteínas y lípidos",
+      "vesícula con enzimas hidrolíticas"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 4-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 4-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 281,
+    "clave": "pau2013-e4-b3",
+    "bloque": "Inmunología",
+    "tema": "Tipos de inmunidad",
+    "tipo": "respuesta breve",
+    "pregunta": "Defina: inmunidad congénita o innata, inmunidad adquirida o adaptativa, inmunidad natural, inmunidad artificial e inmunidad pasiva [2].",
+    "respuesta": [
+      "Innata: moléculas y células que no precisan activación, activas antes de que aparezca el antígeno (0,4 p).",
+      "Adquirida: se contrae a lo largo de la vida a partir de la presencia del antígeno (0,4 p).",
+      "Natural: por mecanismos biológicos naturales, como una infección (0,4 p).",
+      "Artificial: por intervención humana, como una vacuna (0,4 p).",
+      "Pasiva: la conseguida mediante sueroterapia o a través de la madre (0,4 p)."
+    ],
+    "palabras_clave": [
+      "a lo largo de la vida",
+      "activas antes de que aparezca el antígeno",
+      "infección",
+      "intervención humana",
+      "mecanismos biológicos naturales",
+      "no precisan activación",
+      "presencia del antígeno",
+      "sueroterapia o a través de la madre",
+      "vacuna"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 4-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 4-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 282,
+    "clave": "pau2013-e4-b4",
+    "bloque": "Metabolismo",
+    "tema": "Ácidos grasos frente a hexosas",
+    "tipo": "respuesta breve",
+    "pregunta": "¿Por qué la oxidación de una molécula de ácido graso proporciona mayor rendimiento energético que la oxidación de una molécula de hexosa? [0,5]. Desde un punto de vista evolutivo, ¿qué recurso energético debieron utilizar en primer lugar las células para obtener energía: los azúcares o las grasas? [0,5]. Razone las respuestas.",
+    "respuesta": [
+      "El ácido graso produce más acetil-CoA, el ciclo de Krebs funciona más veces y se obtiene más ATP (0,5 p).",
+      "Primero los azúcares, en anaerobiosis: usar grasas requiere un ambiente aerobio, que apareció después (0,5 p)."
+    ],
+    "palabras_clave": [
+      "ambiente aerobio",
+      "azúcares, en anaerobiosis",
+      "ciclo de Krebs funciona más veces",
+      "más ATP",
+      "más acetil-CoA"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 4-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 4-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 283,
+    "clave": "pau2013-e4-b5",
+    "bloque": "Genética",
+    "tema": "Albinismo: cruces",
+    "tipo": "respuesta breve",
+    "pregunta": "El albinismo es un carácter autosómico recesivo (a) con respecto a la pigmentación normal (A). Indique cómo serían los descendientes que tendría un hombre albino en los siguientes casos: a) con una mujer de pigmentación normal homocigótica [0,25]; b) con una mujer de pigmentación normal cuya madre era albina [0,25]; c) con una mujer de pigmentación normal uno de cuyos abuelos era heterocigótico [0,5]. Razone las respuestas representando los esquemas de los posibles cruces.",
+    "respuesta": [
+      "a) Todos heterocigóticos (Aa) de pigmentación normal (0,25 p).",
+      "b) Mitad albinos (aa) y mitad heterocigóticos normales (Aa) (0,25 p).",
+      "c) Si la mujer es AA, todos Aa normales; si es Aa, igual que en b. 0,25 p cada posibilidad (0,5 p). Se justifica con los cruces."
+    ],
+    "palabras_clave": [
+      "AA",
+      "Aa",
+      "Aa normales",
+      "Mitad albinos (aa)",
+      "Todos heterocigóticos (Aa) de pigmentación normal",
+      "mitad heterocigóticos normales (Aa)"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 4-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 4-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 284,
+    "clave": "pau2013-e4-b6",
+    "bloque": "Célula",
+    "tema": "Ciclo celular",
+    "tipo": "respuesta breve",
+    "pregunta": "En relación con la imagen adjunta, conteste las siguientes cuestiones: a) ¿Qué representa la imagen? [0,1]. ¿Qué representan las letras S y M de la imagen? [0,2]. Explique en qué consisten G1 y G2 [0,5]. ¿Qué nombre recibe el conjunto de las fases G1, S y G2? [0,2]. b) Represente gráficamente la variación de la cantidad de ADN a lo largo del proceso [0,5]. Indique dos motivos que justifiquen la importancia de la fase M [0,5].",
+    "respuesta": [
+      "a) El ciclo celular (0,1 p).",
+      "a) S: síntesis de ADN; M: división celular (0,2 p).",
+      "a) G1: crecimiento y desarrollo, con transcripción y traducción; G2: preparación para la división. 0,25 p cada una (0,5 p).",
+      "a) Interfase (0,2 p).",
+      "b) La gráfica debe mostrar la duplicación de la cantidad de ADN y que la cantidad final coincide con la inicial (0,5 p).",
+      "b) Motivos: proliferación celular, mantenimiento de la información, reparación de tejidos, reproducción. Dos, a 0,25 p (0,5 p)."
+    ],
+    "palabras_clave": [
+      "El ciclo celular",
+      "Interfase",
+      "coincide con la inicial",
+      "crecimiento y desarrollo",
+      "división celular",
+      "duplicación de la cantidad de ADN",
+      "mantenimiento de la información",
+      "preparación para la división",
+      "proliferación celular",
+      "reparación de tejidos",
+      "reproducción",
+      "síntesis de ADN",
+      "transcripción y traducción"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 4-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 4-2012-13.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2013/e4-b6.webp"
+  },
+  {
+    "id": 285,
+    "clave": "pau2013-e5-a1",
+    "bloque": "Biomoléculas",
+    "tema": "Enzimas: pH y temperatura",
+    "tipo": "respuesta breve",
+    "pregunta": "Defina el término enzima [0,4]. Explique la influencia del pH [0,8] y de la temperatura [0,8] sobre la actividad enzimática.",
+    "respuesta": [
+      "Enzima: proteína que acelera las reacciones metabólicas (0,4 p).",
+      "pH: variación de la actividad (óptimo) y desnaturalización. 0,4 p cada una (0,8 p).",
+      "Temperatura: variación de la actividad y desnaturalización. 0,4 p cada una (0,8 p)."
+    ],
+    "palabras_clave": [
+      "desnaturalización",
+      "proteína que acelera",
+      "variación de la actividad"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 5-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 5-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 286,
+    "clave": "pau2013-e5-a2",
+    "bloque": "Metabolismo",
+    "tema": "Nutrición, metabolismo y tipos de organismos",
+    "tipo": "respuesta breve",
+    "pregunta": "Defina nutrición celular y metabolismo [1]. Explique qué son organismos autótrofos, heterótrofos, fotótrofos y quimiótrofos [1].",
+    "respuesta": [
+      "Nutrición: procesos de introducción de alimento y conversión de nutrientes en energía y biomoléculas (0,5 p).",
+      "Metabolismo: reacciones químicas de la célula, catabólicas (degradan con obtención de energía) y anabólicas (síntesis con gasto) (0,5 p).",
+      "Autótrofos: moléculas orgánicas a partir del CO₂; heterótrofos: a partir de otras orgánicas; fotótrofos: energía luminosa para obtener ATP; quimiótrofos: energía química de las moléculas que oxidan. 0,25 p cada uno (1 p)."
+    ],
+    "palabras_clave": [
+      "a partir de otras orgánicas",
+      "a partir del CO₂",
+      "anabólicas",
+      "catabólicas",
+      "conversión de nutrientes en energía y biomoléculas",
+      "energía luminosa",
+      "energía química",
+      "introducción de alimento"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 5-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 5-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 287,
+    "clave": "pau2013-e5-a3",
+    "bloque": "Genética",
+    "tema": "Primera ley de Mendel y ligamiento al sexo",
+    "tipo": "respuesta breve",
+    "pregunta": "Enuncie la primera ley de Mendel [0,5] e indique en qué consiste el retrocruzamiento [0,5]. Explique la diferencia entre genes autosómicos y genes ligados al sexo [0,5]. ¿Cumplen las proporciones mendelianas los cruzamientos para genes ligados al sexo? Razone la respuesta [0,5].",
+    "respuesta": [
+      "Uniformidad de los híbridos de la primera generación: al cruzar razas puras, la F1 es toda igual e igual a uno de los parentales (0,5 p).",
+      "Retrocruzamiento: cruce de un dominante con un recesivo para averiguar el genotipo del primero (0,5 p).",
+      "Autosómicos: en los autosomas; ligados al sexo: en los cromosomas sexuales (0,5 p).",
+      "No: las hembras tienen dos X y los machos un solo X (0,5 p)."
+    ],
+    "palabras_clave": [
+      "Uniformidad de los híbridos de la primera generación",
+      "autosomas",
+      "averiguar el genotipo",
+      "cromosomas sexuales",
+      "dominante",
+      "hembras tienen dos X",
+      "machos un solo X",
+      "razas puras",
+      "recesivo",
+      "toda igual"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 5-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 5-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 288,
+    "clave": "pau2013-e5-a4",
+    "bloque": "Genética",
+    "tema": "Cromátidas hermanas diferentes",
+    "tipo": "respuesta breve",
+    "pregunta": "¿Podría encontrarse en algún momento de la meiosis un cromosoma con cromátidas hermanas con distinta información genética? [0,5]. ¿Y durante la mitosis? [0,5]. Razone las respuestas.",
+    "respuesta": [
+      "En la meiosis sí, porque puede producirse la recombinación entre cromosomas homólogos (0,5 p).",
+      "En la mitosis no, porque no hay recombinación (se acepta que sí si se plantea una mutación durante la replicación) (0,5 p)."
+    ],
+    "palabras_clave": [
+      "mutación durante la replicación",
+      "no",
+      "no hay recombinación",
+      "recombinación entre cromosomas homólogos",
+      "sí"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 5-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 5-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 289,
+    "clave": "pau2013-e5-a5",
+    "bloque": "Microbiología",
+    "tema": "Ciclo lítico y lisogénico en dos cultivos",
+    "tipo": "respuesta breve",
+    "pregunta": "Se infectan dos cultivos bacterianos (A y B) con un determinado tipo de bacteriófago. En el cultivo A se observa como en pocas horas todas las bacterias se han lisado. En el cultivo B las bacterias continúan creciendo durante varios días sin que se observen virus en el medio. Sin embargo, tras cambiar las condiciones del cultivo B, en poco tiempo se lisan todas las bacterias y se observan virus en el medio. Explique razonadamente el diferente comportamiento del bacteriófago en ambos cultivos [1].",
+    "respuesta": [
+      "En A se produce un ciclo lítico, con lisis de las bacterias (0,5 p).",
+      "En B, un ciclo lisogénico; tras el cambio en el medio se activa el virus y se produce la lisis (0,5 p)."
+    ],
+    "palabras_clave": [
+      "cambio en el medio se activa",
+      "ciclo lisogénico",
+      "ciclo lítico",
+      "lisis"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 5-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 5-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 290,
+    "clave": "pau2013-e5-a6",
+    "bloque": "Genética",
+    "tema": "Cadena de ARN: monómeros y tipos",
+    "tipo": "respuesta breve",
+    "pregunta": "En relación con la imagen adjunta, conteste las siguientes cuestiones: a) ¿Qué tipo de macromolécula representa la imagen? [0,2]. Nombre y describa la estructura de los monómeros que la forman [0,4]. Nombre el enlace que se establece entre los monómeros [0,2]. ¿Cuál es el significado de la notación 5´ 3´? [0,2]. b) Cite tres tipos de esta macromolécula [0,3] e indique la función que desempeña cada uno de ellos [0,6]. ¿Cuál de estos tipos presenta algunos de sus monómeros apareados? [0,1].",
+    "respuesta": [
+      "a) Ácido ribonucleico (ARN) (0,2 p).",
+      "a) Ribonucleótidos (0,1 p): ribosa unida por el C5 a un fosfato y por el C1 a una base (A, G, C o U) (0,3 p).",
+      "a) Enlace fosfodiéster (0,2 p). La notación indica la orientación de la molécula (0,2 p).",
+      "b) ARNm, ARNr y ARNt (0,3 p).",
+      "b) ARNm: lleva la información genética a los ribosomas; ARNr: estructura de los ribosomas; ARNt: transporta los aminoácidos al ribosoma. 0,2 p cada uno (0,6 p).",
+      "b) El ARNt (0,1 p)."
+    ],
+    "palabras_clave": [
+      "ARNm, ARNr y ARNt",
+      "ARNt",
+      "C1 a una base",
+      "C5 a un fosfato",
+      "Enlace fosfodiéster",
+      "Ribonucleótidos",
+      "estructura de los ribosomas",
+      "lleva la información genética a los ribosomas",
+      "orientación de la molécula",
+      "ribosa",
+      "transporta los aminoácidos",
+      "Ácido ribonucleico (ARN)"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 5-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 5-2012-13.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2013/e5-a6.webp"
+  },
+  {
+    "id": 291,
+    "clave": "pau2013-e5-b1",
+    "bloque": "Biomoléculas",
+    "tema": "Bioelementos y biomoléculas",
+    "tipo": "respuesta breve",
+    "pregunta": "Defina bioelemento y biomolécula [0,4]. Cite cuatro ejemplos de bioelementos y cuatro de biomoléculas [0,8] e indique la importancia biológica de cada uno de los ejemplos [0,8].",
+    "respuesta": [
+      "Bioelemento: elemento químico que forma parte de la materia viva (0,2 p). Biomolécula: molécula formada por bioelementos unidos por enlaces que forma parte de los seres vivos (0,2 p).",
+      "Bioelementos: C, O, H, N, P; biomoléculas: glúcidos, lípidos, proteínas, agua. 0,1 p cada uno (0,8 p).",
+      "Importancia biológica de cada ejemplo, 0,1 p cada uno; no se exige una explicación exhaustiva (0,8 p)."
+    ],
+    "palabras_clave": [
+      "C, O, H, N, P",
+      "bioelementos unidos por enlaces",
+      "elemento químico que forma parte de la materia viva",
+      "glúcidos, lípidos, proteínas, agua"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 5-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 5-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 292,
+    "clave": "pau2013-e5-b2",
+    "bloque": "Genética",
+    "tema": "Mutaciones y variabilidad",
+    "tipo": "respuesta breve",
+    "pregunta": "¿Qué son las mutaciones? [0,3]. Diferencie entre mutación espontánea e inducida [0,8]. Cite un ejemplo de un agente mutagénico físico, uno químico y uno biológico [0,3]. Indique y defina otro mecanismo que produzca variabilidad genética [0,6].",
+    "respuesta": [
+      "Mutaciones: cambios al azar en el genoma (0,3 p).",
+      "Espontánea: por errores en la replicación o lesiones al azar (0,4 p). Inducida: por agentes mutagénicos (0,4 p).",
+      "Físicos: rayos X, gamma, UV; químicos: 5-bromouracilo, ácido nitroso; biológicos: elementos genéticos móviles, virus. Uno de cada, 0,1 p (0,3 p).",
+      "Recombinación (intercambio de fragmentos entre homólogos en la profase meiótica) o segregación cromosómica (reparto al azar de cromosomas maternos y paternos). Nombre 0,2 p y definición 0,4 p (0,6 p)."
+    ],
+    "palabras_clave": [
+      "5-bromouracilo, ácido nitroso",
+      "Recombinación",
+      "agentes mutagénicos",
+      "cambios al azar en el genoma",
+      "elementos genéticos móviles, virus",
+      "errores en la replicación",
+      "homólogos",
+      "profase meiótica",
+      "rayos X, gamma, UV",
+      "segregación cromosómica"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 5-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 5-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 293,
+    "clave": "pau2013-e5-b3",
+    "bloque": "Inmunología",
+    "tema": "Sistema inmunitario y sus alteraciones",
+    "tipo": "respuesta breve",
+    "pregunta": "Defina: sistema inmunitario, anticuerpo, inmunodeficiencia, enfermedad autoinmune y reacción alérgica o de hipersensibilidad [2].",
+    "respuesta": [
+      "Sistema inmunitario: órganos, tejidos, células y moléculas que responden de forma coordinada a lo que el organismo no reconoce como propio (0,4 p).",
+      "Anticuerpo: proteína de los linfocitos B (células plasmáticas) que se une específicamente a los antígenos (0,4 p).",
+      "Inmunodeficiencia: incapacidad del sistema inmunitario para defender frente a las infecciones (0,4 p).",
+      "Autoinmune: respuesta en la que se destruyen moléculas o células propias (0,4 p).",
+      "Alergia: respuesta inadecuada o desproporcionada (0,4 p)."
+    ],
+    "palabras_clave": [
+      "destruyen moléculas o células propias",
+      "inadecuada o desproporcionada",
+      "incapacidad",
+      "linfocitos B (células plasmáticas)",
+      "no reconoce como propio",
+      "proteína",
+      "se une específicamente",
+      "órganos, tejidos, células y moléculas"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 5-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 5-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 294,
+    "clave": "pau2013-e5-b4",
+    "bloque": "Biomoléculas",
+    "tema": "Saponificación en el laboratorio",
+    "tipo": "respuesta breve",
+    "pregunta": "A una sustancia orgánica se le añade una base fuerte (hidróxido sódico) y se produce una reacción de hidrólisis alcalina en la que se obtiene un producto que, al ser agitado en solución acuosa, da lugar a una espuma persistente. Explique razonadamente qué ha sucedido en este ensayo, indicando el nombre de la reacción que se produce, el tipo de sustancia inicial y el nombre del producto final [1].",
+    "respuesta": [
+      "La sustancia inicial es un lípido saponificable (acilglicérido, grasa, ácido graso); con la base fuerte se produce una saponificación y se forma un jabón (sal del ácido graso), responsable de la espuma (1 p)."
+    ],
+    "palabras_clave": [
+      "espuma",
+      "jabón",
+      "lípido saponificable",
+      "sal del ácido graso",
+      "saponificación"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 5-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 5-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 295,
+    "clave": "pau2013-e5-b5",
+    "bloque": "Genética",
+    "tema": "Verdadero o falso: traducción y código",
+    "tipo": "respuesta breve",
+    "pregunta": "Indique si las afirmaciones siguientes son verdaderas o falsas, razonando en cada caso por qué: a) en eucariotas el ARN mensajero puede ser traducido incluso antes de terminar de sintetizarse [0,5]; b) dos secuencias de ADN que presenten algunas diferencias en sus tripletes de bases codificarán siempre cadenas peptídicas distintas [0,5].",
+    "respuesta": [
+      "a) Falsa: el ARNm debe madurar, salir del núcleo y llegar a los ribosomas del citoplasma (0,5 p).",
+      "b) Falsa: los péptidos pueden ser idénticos por la degeneración del código genético (0,5 p)."
+    ],
+    "palabras_clave": [
+      "Falsa",
+      "degeneración del código genético",
+      "madurar",
+      "ribosomas del citoplasma",
+      "salir del núcleo"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 5-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 5-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 296,
+    "clave": "pau2013-e5-b6",
+    "bloque": "Metabolismo",
+    "tema": "Balance de la respiración aerobia",
+    "tipo": "respuesta breve",
+    "pregunta": "En relación con la imagen adjunta, conteste las siguientes cuestiones: a) ¿Qué representa la imagen? [0,2]. Nombre los procesos A, B y C e indique la localización en la célula de cada uno de ellos [0,6]. Justifique si estos procesos son catabólicos o anabólicos [0,2]. b) ¿En qué condiciones tiene lugar el proceso C, en aerobiosis o en anaerobiosis? ¿Por qué? [0,2]. Indique la composición química del ATP [0,3] y explique su función en el metabolismo celular [0,5].",
+    "respuesta": [
+      "a) Degradación aerobia de la glucosa o su balance energético (0,2 p).",
+      "a) A: glucólisis (citosol); B: ciclo de Krebs (matriz mitocondrial); C: cadena respiratoria (membrana interna mitocondrial). 0,2 p cada uno (0,6 p).",
+      "a) Catabólicos: procesos oxidativos que liberan energía (también se acepta B como anfibólico) (0,2 p).",
+      "b) En aerobiosis: el último aceptor de electrones es el oxígeno (0,2 p).",
+      "b) ATP: adenina, ribosa y tres fosfatos (0,3 p); intermediario energético en la transferencia de energía (0,5 p)."
+    ],
+    "palabras_clave": [
+      "Catabólicos",
+      "Degradación aerobia de la glucosa",
+      "adenina, ribosa y tres fosfatos",
+      "aerobiosis",
+      "balance energético",
+      "cadena respiratoria",
+      "ciclo de Krebs",
+      "citosol",
+      "glucólisis",
+      "intermediario energético",
+      "liberan energía",
+      "matriz mitocondrial",
+      "membrana interna mitocondrial",
+      "oxidativos",
+      "último aceptor de electrones es el oxígeno"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 5-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 5-2012-13.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2013/e5-b6.webp"
+  },
+  {
+    "id": 297,
+    "clave": "pau2013-e6-a1",
+    "bloque": "Célula",
+    "tema": "Localización de procesos celulares",
+    "tipo": "respuesta breve",
+    "pregunta": "Indique en qué orgánulo o estructura celular de una célula eucariótica se localizan las siguientes funciones o procesos: a) transformación de energía luminosa en energía química; b) síntesis de proteínas; c) movimiento celular; d) ciclo de Calvin; e) síntesis de ARN transferente; f) cadena respiratoria; g) glicosilación de proteínas; h) síntesis de almidón; i) difusión facilitada; j) síntesis de lípidos [2].",
+    "respuesta": [
+      "a) Membrana de los tilacoides; b) ribosomas (RER); c) cilios, flagelos; d) estroma del cloroplasto; e) núcleo; f) membrana mitocondrial interna; g) complejo de Golgi; h) cloroplasto; i) membranas; j) retículo endoplasmático liso. 0,2 p cada una (2 p)."
+    ],
+    "palabras_clave": [
+      "Membrana de los tilacoides",
+      "cilios, flagelos",
+      "cloroplasto",
+      "complejo de Golgi",
+      "estroma del cloroplasto",
+      "membrana mitocondrial interna",
+      "membranas",
+      "núcleo",
+      "retículo endoplasmático liso",
+      "ribosomas (RER)"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 6-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 6-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 298,
+    "clave": "pau2013-e6-a2",
+    "bloque": "Genética",
+    "tema": "Mutación, recombinación y segregación en la evolución",
+    "tipo": "respuesta breve",
+    "pregunta": "Explique en qué consisten los siguientes procesos: mutación [0,3], recombinación [0,3] y segregación cromosómica [0,2]. Describa la importancia biológica de cada uno de ellos en la evolución [1,2].",
+    "respuesta": [
+      "Mutación: cambios al azar en el genoma (0,3 p).",
+      "Recombinación: intercambio de fragmentos entre cromosomas homólogos en la profase meiótica (0,3 p).",
+      "Segregación: separación al azar de los cromosomas maternos y paternos en anafase (0,2 p).",
+      "Importancia: generar variabilidad genética; la mutación crea nuevos alelos, la recombinación nuevas combinaciones alélicas y la segregación combina al azar los cromosomas. 0,4 p cada uno (1,2 p)."
+    ],
+    "palabras_clave": [
+      "cambios al azar en el genoma",
+      "combina al azar",
+      "cromosomas homólogos",
+      "generar variabilidad genética",
+      "intercambio de fragmentos",
+      "maternos y paternos",
+      "nuevas combinaciones alélicas",
+      "nuevos alelos",
+      "profase meiótica",
+      "separación al azar"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 6-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 6-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 299,
+    "clave": "pau2013-e6-a3",
+    "bloque": "Microbiología",
+    "tema": "Tabla de microorganismos y virus",
+    "tipo": "respuesta breve",
+    "pregunta": "Copie la siguiente tabla y rellene las casillas indicando las características de cada grupo de microorganismos [1,6]. Cite dos diferencias que distingan a los virus del resto de microorganismos [0,4]. AlgasBacteriasHongosProtozoosTipo de organización celularNúmero de célulasTipo de nutriciónExistencia de fotosíntesisTipo de división celular",
+    "respuesta": [
+      "Cada casilla, 0,08 p (si tiene dos respuestas, 0,04 p cada una) (1,6 p).",
+      "Algas: eucariótica; uni- y pluricelulares; autótrofa; sí; mitosis.",
+      "Bacterias: procariótica; unicelulares; autótrofa y heterótrofa; sí; bipartición.",
+      "Hongos: eucariótica; uni- y pluricelulares; heterótrofa; no; mitosis. Protozoos: eucariótica; unicelulares; heterótrofa; no; mitosis.",
+      "Virus: genoma de ARN en algunos; un solo tipo de ácido nucleico; sin metabolismo propio; estructura acelular. Dos, a 0,2 p (0,4 p)."
+    ],
+    "palabras_clave": [
+      "ARN",
+      "autótrofa",
+      "autótrofa y heterótrofa",
+      "bipartición",
+      "estructura acelular",
+      "eucariótica",
+      "heterótrofa",
+      "mitosis",
+      "no",
+      "procariótica",
+      "sin metabolismo propio",
+      "sí",
+      "un solo tipo de ácido nucleico",
+      "uni- y pluricelulares",
+      "unicelulares"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 6-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 6-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 300,
+    "clave": "pau2013-e6-a4",
+    "bloque": "Biomoléculas",
+    "tema": "Saturación del enzima por el sustrato",
+    "tipo": "respuesta breve",
+    "pregunta": "Al aumentar la cantidad de sustrato en una reacción enzimática, sin variar la concentración de enzima, se observa como la velocidad de la reacción va aumentando. Sin embargo, llega un momento en que el aumento de la cantidad de sustrato no tiene efecto sobre la velocidad de la reacción, que es máxima y constante. Explique este hecho [0,5]. ¿Qué le ocurrirá con el tiempo a la velocidad de reacción si se deja de suministrar más sustrato? [0,5]. Razone las respuestas.",
+    "respuesta": [
+      "Al aumentar el sustrato se forman más complejos enzima-sustrato hasta que todas las moléculas de enzima están ocupadas: velocidad máxima (0,5 p).",
+      "La velocidad se reducirá a medida que disminuye el sustrato y se detendrá cuando se agote (0,5 p)."
+    ],
+    "palabras_clave": [
+      "complejos enzima-sustrato",
+      "detendrá cuando se agote",
+      "disminuye el sustrato",
+      "se reducirá",
+      "todas las moléculas de enzima están ocupadas",
+      "velocidad máxima"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 6-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 6-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 301,
+    "clave": "pau2013-e6-a5",
+    "bloque": "Microbiología",
+    "tema": "Levadura y reposo de la masa de pan",
+    "tipo": "respuesta breve",
+    "pregunta": "¿Por qué cuando se emplea levadura natural para la fabricación del pan es necesario dejar reposar la masa durante un cierto tiempo? Razone la respuesta [1].",
+    "respuesta": [
+      "Durante el reposo se produce la fermentación alcohólica y la liberación de CO₂ que hace subir la masa (1 p)."
+    ],
+    "palabras_clave": [
+      "fermentación alcohólica",
+      "liberación de CO₂"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 6-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 6-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 302,
+    "clave": "pau2013-e6-a6",
+    "bloque": "Biomoléculas",
+    "tema": "Formación de un dipéptido",
+    "tipo": "respuesta breve",
+    "pregunta": "En relación con la imagen adjunta, que representa una reacción biológica, conteste las siguientes cuestiones: a) ¿Qué tipo de biomoléculas están representadas en la primera parte de la reacción? [0,1]. ¿Cuáles son las características estructurales de esas biomoléculas? [0,4]. ¿Qué nombre recibe el enlace que se produce? [0,1]. Cite dos características de este enlace [0,4]. b) ¿Qué nombre recibe la molécula resultante? [0,1]. ¿Qué nombre reciben las moléculas biológicas formadas por gran cantidad de monómeros, unidos por enlaces de este tipo? [0,1]. Enumere cinco de sus funciones [0,5]. ¿Qué representan R1 y R2? [0,1]. Señale la procedencia de los átomos de H y de O de la molécula de H2O que se libera en la reacción [0,2].",
+    "respuesta": [
+      "a) Aminoácidos (0,1 p): grupo amino y grupo carboxilo unidos a un carbono alfa, que tiene también un H y un radical (R) variable (0,4 p).",
+      "a) Enlace peptídico (0,1 p): covalente, coplanario, sin giro. Dos, a 0,2 p (0,4 p).",
+      "b) Dipéptido (0,1 p); proteínas (0,1 p).",
+      "b) Funciones: enzimática, transporte, contracción, estructural, reserva, inmunidad, hormonal. Solo cinco, a 0,1 p (0,5 p).",
+      "b) R1 y R2: cadenas laterales o radicales (0,1 p). El carboxilo pierde un OH y el amino pierde un H (0,2 p)."
+    ],
+    "palabras_clave": [
+      "Aminoácidos",
+      "Dipéptido",
+      "Enlace peptídico",
+      "amino pierde un H",
+      "cadenas laterales o radicales",
+      "carbono alfa",
+      "carboxilo pierde un OH",
+      "contracción",
+      "coplanario",
+      "covalente",
+      "enzimática",
+      "estructural",
+      "grupo amino",
+      "grupo carboxilo",
+      "hormonal",
+      "inmunidad",
+      "proteínas",
+      "radical (R)",
+      "reserva",
+      "sin giro",
+      "transporte"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 6-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 6-2012-13.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2013/e6-a6.webp"
+  },
+  {
+    "id": 303,
+    "clave": "pau2013-e6-b1",
+    "bloque": "Biomoléculas",
+    "tema": "Ácidos grasos y fosfolípidos",
+    "tipo": "respuesta breve",
+    "pregunta": "Diferencie entre ácido graso saturado e insaturado [0,3]. Explique la reacción de saponificación [0,4]. Describa la estructura molecular de un fosfolípido [0,5] nombrando el tipo de enlace que se establece entre sus componentes [0,2]. Indique la principal función de los fosfolípidos [0,2]. Explique la propiedad que permite a los fosfolípidos formar bicapas en medios acuosos [0,4].",
+    "respuesta": [
+      "Saturado: sin dobles enlaces; insaturado: uno o más dobles enlaces (0,3 p).",
+      "Saponificación: grasas con álcalis (NaOH o KOH) → glicerol y jabones (0,4 p).",
+      "Fosfolípido: glicerina, dos ácidos grasos por enlace éster y un fosfato unido a un aminoalcohol (0,7 p).",
+      "Función: estructural (membranas) (0,2 p).",
+      "Carácter anfipático: partes polares hacia el agua y apolares hacia el interior de la bicapa (0,4 p)."
+    ],
+    "palabras_clave": [
+      "aminoalcohol",
+      "anfipático",
+      "apolares hacia el interior",
+      "dos ácidos grasos",
+      "enlace éster",
+      "estructural",
+      "fosfato",
+      "glicerina",
+      "glicerol",
+      "jabones",
+      "polares hacia el agua",
+      "sin dobles enlaces",
+      "uno o más dobles enlaces",
+      "álcalis (NaOH o KOH)"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 6-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 6-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 304,
+    "clave": "pau2013-e6-b2",
+    "bloque": "Célula",
+    "tema": "Ribosomas eucarióticos",
+    "tipo": "respuesta breve",
+    "pregunta": "Describa la estructura de los ribosomas eucarióticos [0,6]. Indique su composición química [0,2], el lugar en el que se forman [0,2], su función [0,2] y su localización celular [0,4]. Nombre dos orgánulos celulares que contengan ribosomas en su interior [0,4].",
+    "respuesta": [
+      "Dos subunidades, 80S: subunidad grande 60S y pequeña 40S (0,6 p).",
+      "ARN ribosómico y proteínas (0,2 p); se forman en el nucleolo (0,2 p); función: síntesis de proteínas (0,2 p).",
+      "Localización: libres en el citoplasma y unidos al RER o a la envoltura nuclear (0,4 p).",
+      "Mitocondrias y cloroplastos (0,4 p)."
+    ],
+    "palabras_clave": [
+      "40S",
+      "60S",
+      "80S",
+      "ARN ribosómico y proteínas",
+      "Dos subunidades",
+      "Mitocondrias y cloroplastos",
+      "envoltura nuclear",
+      "libres en el citoplasma",
+      "nucleolo",
+      "síntesis de proteínas",
+      "unidos al RER"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 6-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 6-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 305,
+    "clave": "pau2013-e6-b3",
+    "bloque": "Inmunología",
+    "tema": "Parejas de conceptos inmunológicos",
+    "tipo": "respuesta breve",
+    "pregunta": "Diferencie entre los elementos de cada pareja de conceptos: antígeno y anticuerpo, linfocito B y linfocito T, respuesta humoral y respuesta celular, vacunación y sueroterapia [2].",
+    "respuesta": [
+      "Antígeno: molécula no reconocida como propia que provoca anticuerpos; anticuerpo: glicoproteína de los linfocitos B (0,5 p).",
+      "Linfocito B: inmunidad por anticuerpos, se diferencia en célula plasmática; linfocito T: respuesta celular, activa macrófagos y estimula a los B (0,5 p).",
+      "Humoral: basada en anticuerpos; celular: acción directa de células (linfocitos T y macrófagos) (0,5 p).",
+      "Vacunación: preventiva, inoculación de antígenos; sueroterapia: curativa, inoculación de anticuerpos (0,5 p)."
+    ],
+    "palabras_clave": [
+      "acción directa de células",
+      "activa macrófagos",
+      "anticuerpos",
+      "antígenos",
+      "curativa",
+      "célula plasmática",
+      "estimula a los B",
+      "glicoproteína de los linfocitos B",
+      "inmunidad por anticuerpos",
+      "no reconocida como propia",
+      "preventiva",
+      "respuesta celular"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 6-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 6-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 306,
+    "clave": "pau2013-e6-b4",
+    "bloque": "Célula",
+    "tema": "Tubulina y cáncer",
+    "tipo": "respuesta breve",
+    "pregunta": "La tubulina resulta clave en procesos cancerígenos. Explique razonadamente este hecho [1].",
+    "respuesta": [
+      "La tubulina es el elemento estructural de los microtúbulos y, por tanto, del huso mitótico, necesario para la división celular; el cáncer se debe a una división celular descontrolada (1 p)."
+    ],
+    "palabras_clave": [
+      "división celular",
+      "división celular descontrolada",
+      "elemento estructural de los microtúbulos",
+      "huso mitótico"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 6-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 6-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 307,
+    "clave": "pau2013-e6-b5",
+    "bloque": "Genética",
+    "tema": "Hemofilia: herencia ligada al X",
+    "tipo": "respuesta breve",
+    "pregunta": "El gen de la hemofilia (Xh) es recesivo respecto al gen normal (XH). Indique el genotipo y el fenotipo de la posible descendencia entre una mujer portadora y un hombre no hemofílico [0,8]. ¿Qué proporción de los hijos varones serán hemofílicos? [0,2]. Razone las respuestas representando los esquemas de los posibles cruces.",
+    "respuesta": [
+      "XHXH: mujeres sanas no portadoras; XHXh: mujeres sanas portadoras; XHY: hombres sanos; XhY: hombres hemofílicos. 0,1 p cada genotipo y fenotipo (0,8 p).",
+      "Hijos varones hemofílicos: 50 % (0,2 p). Se justifica con los cruces."
+    ],
+    "palabras_clave": [
+      "50 %",
+      "X<sup>H</sup>X<sup>H</sup>",
+      "X<sup>H</sup>X<sup>h</sup>",
+      "X<sup>H</sup>Y",
+      "X<sup>h</sup>Y",
+      "hemofílicos",
+      "sanas no portadoras",
+      "sanas portadoras",
+      "sanos"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 6-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 6-2012-13.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 308,
+    "clave": "pau2013-e6-b6",
+    "bloque": "Célula",
+    "tema": "Endocitosis, exocitosis y complejo de Golgi",
+    "tipo": "respuesta breve",
+    "pregunta": "En relación con la imagen adjunta, conteste las siguientes cuestiones: a) Nombre los procesos señalados con las letras A, B y C [0,3]. ¿Qué diferencias hay entre los procesos B y C? [0,5]. ¿Cómo se llaman los orgánulos señalados con los números 1 y 2? [0,2]. b) ¿Qué orgánulo es el señalado con el número 3? [0,1]. ¿Cuál es su estructura [0,5]? Cite dos funciones de este orgánulo [0,4].",
+    "respuesta": [
+      "a) A: pinocitosis; B: fagocitosis o endocitosis; C: secreción o exocitosis (0,3 p).",
+      "a) B: entrada de fluidos o partículas mediante vesículas; C: salida de moléculas mediante vesículas. 0,25 p cada uno (0,5 p).",
+      "a) 1: lisosoma; 2: fagosoma (0,2 p).",
+      "b) Complejo de Golgi (0,1 p).",
+      "b) Cisternas aplanadas y apiladas (dictiosomas), con cara cis (próxima al RER) y cara trans, y vesículas de transporte y de secreción (0,5 p).",
+      "b) Funciones: glucosilación, maduración de proteínas, secreción, formación de lisosomas, síntesis de la pared vegetal. Dos, a 0,2 p (0,4 p)."
+    ],
+    "palabras_clave": [
+      "Cisternas aplanadas y apiladas (dictiosomas)",
+      "Complejo de Golgi",
+      "cara cis",
+      "cara trans",
+      "entrada",
+      "fagocitosis o endocitosis",
+      "fagosoma",
+      "formación de lisosomas",
+      "glucosilación",
+      "lisosoma",
+      "maduración de proteínas",
+      "mediante vesículas",
+      "pinocitosis",
+      "salida",
+      "secreción",
+      "secreción o exocitosis",
+      "vesículas de transporte y de secreción"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 6-2012-13.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 6-2012-13.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2013/e6-b6.webp"
+  },
+  {
+    "id": 309,
     "clave": "pau2026-modelo-1",
     "bloque": "Genética",
     "tema": "Replicación en una célula procariota",
@@ -6033,7 +8019,7 @@
     "dificultad": "media"
   },
   {
-    "id": 238,
+    "id": 310,
     "clave": "pau2026-modelo-2",
     "bloque": "Célula",
     "tema": "Tipos celulares, nutrición y teoría celular",
@@ -6066,7 +8052,7 @@
     "dificultad": "media"
   },
   {
-    "id": 239,
+    "id": 311,
     "clave": "pau2026-modelo-13",
     "bloque": "Metabolismo",
     "tema": "Cadena respiratoria y fosforilación oxidativa",
@@ -6104,7 +8090,7 @@
     "imagen": "assets/figuras/historico/2026/ej3-op1.webp"
   },
   {
-    "id": 240,
+    "id": 312,
     "clave": "pau2026-modelo-23",
     "bloque": "Metabolismo",
     "tema": "Fase fotoquímica y lípidos de membrana",
@@ -6145,7 +8131,7 @@
     "imagen": "assets/figuras/historico/2026/ej3-op2.webp"
   },
   {
-    "id": 241,
+    "id": 313,
     "clave": "pau2026-modelo-14",
     "bloque": "Biotecnología",
     "tema": "La PCR paso a paso",
@@ -6178,7 +8164,7 @@
     "imagen": "assets/figuras/historico/2026/ej4-op1.webp"
   },
   {
-    "id": 242,
+    "id": 314,
     "clave": "pau2026-modelo-24",
     "bloque": "Microbiología",
     "tema": "El yogur y otros usos de los microorganismos",
@@ -6210,7 +8196,7 @@
     "dificultad": "media"
   },
   {
-    "id": 243,
+    "id": 315,
     "clave": "pau2026-modelo-15",
     "bloque": "Inmunología",
     "tema": "Inmunoglobulinas y grupos sanguíneos",
@@ -6248,7 +8234,7 @@
     "imagen": "assets/figuras/historico/2026/ej5-op1.webp"
   },
   {
-    "id": 244,
+    "id": 316,
     "clave": "pau2026-modelo-25",
     "bloque": "Inmunología",
     "tema": "Curso de una infección: IgM e IgG",
