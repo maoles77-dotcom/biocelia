@@ -3633,9 +3633,9 @@ function loadQ() {
 
   // Badge "2025", o el año del examen si es una pregunta PAU anterior
   const badgeNew = document.getElementById('badgeNew');
-  badgeNew.textContent = q.anio ? `PAU ${q.anio}` : '2025';
+  badgeNew.textContent = q.anio ? (q.etiqueta || `PAU ${q.anio}`) : '2025';
   badgeNew.setAttribute('aria-label',
-    q.anio ? `Pregunta de la PAU de ${q.anio}` : 'Pregunta nueva 2025');
+    q.anio ? `Pregunta de ${q.etiqueta || 'la PAU de ' + q.anio}` : 'Pregunta nueva 2025');
   badgeNew.style.display = (q.isNew || q.anio) ? 'inline-block' : 'none';
 
   // Imagen

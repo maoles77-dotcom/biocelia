@@ -94,7 +94,7 @@ def construir(anios):
         for examen in anio['examenes']:
             ex_id = examen.get('id') or f"e{examen['numero']}"
             ex_nombre = examen.get('nombre') or f"Examen {examen['numero']}"
-            documento = f"PAU {anio.get('region', 'Andalucía')} {a} · {ex_nombre}"
+            documento = f"{anio.get('documento', f'PAU Andalucía {a}')} · {ex_nombre}"
             fuente = f"{anio['carpeta']}/{examen['enunciado']}"
             criterios = (f"{anio['carpeta']}/{examen['criterios']}"
                          if examen.get('criterios') else None)
@@ -113,6 +113,7 @@ def construir(anios):
                     'block': p['bloque'],
                     'topic': p['tema'],
                     'anio': a,
+                    'etiqueta': anio.get('etiqueta', f'PAU {a}'),
                     'hasImg': bool(figura),
                     'competencial': bool(figura) or bool(p.get('competencial')),
                     'q': p['q'],
@@ -135,8 +136,8 @@ def construir(anios):
                     **comun,
                     'isNew': False,
                     'puntos': puntos,
-                    'f': (f"Pregunta oficial de la PAU {anio.get('region', 'de Andalucía')} "
-                          f"{anio['curso']} ({ref_txt}, {puntos} "
+                    'f': (f"{anio.get('origen_texto', 'Pregunta oficial de la PAU de Andalucía ' + anio['curso'])} "
+                          f"({ref_txt}, {puntos} "
                           f"{'punto' if puntos == 1 else 'puntos'}). "
                           + p.get('tip', 'Resaltadas, las palabras clave de los criterios '
                                          'oficiales de corrección: son las que puntúan.')),
@@ -171,6 +172,7 @@ def unir(p1, p2):
         'topic': (p1['topic'] if p1['topic'] == p2['topic']
                   else f"{p1['topic']} · {p2['topic']}"),
         'anio': p1['anio'],
+        'etiqueta': p1['etiqueta'],
         'hasImg': bool(figura),
         'q': (f"<b>I.</b> {p1['q']} <i>(1 punto)</i><br><br>"
               f"<b>II.</b> {p2['q']} <i>(1 punto)</i>"),

@@ -1377,7 +1377,7 @@ function generateExam() {
         <div class="exam-q-header">
           <div class="q-num">${i + 1}</div>
           <span class="q-topic">${q.block} · ${q.topic}</span>
-          <span class="new-tag">${q.anio ? 'PAU ' + q.anio : '2025'}</span>
+          <span class="new-tag">${q.anio ? (q.etiqueta || 'PAU ' + q.anio) : '2025'}</span>
           <span class="q-score">2 pts</span>
         </div>
         <div class="exam-q-body">
@@ -1411,12 +1411,12 @@ function generateExam() {
         </div>
         <div class="option-pair">
           <div class="option-block">
-            <span class="option-label a">OPCIÓN A — ${qa.block}${qa.anio ? ' · PAU ' + qa.anio : ''}</span>
+            <span class="option-label a">OPCIÓN A — ${qa.block}${qa.anio ? ' · ' + (qa.etiqueta || 'PAU ' + qa.anio) : ''}</span>
             <div class="q-text">${formatQ(qa.q)}</div>
             ${answerLines(6)}
           </div>
           <div class="option-block">
-            <span class="option-label b">OPCIÓN B — ${qb.block}${qb.anio ? ' · PAU ' + qb.anio : ''}</span>
+            <span class="option-label b">OPCIÓN B — ${qb.block}${qb.anio ? ' · ' + (qb.etiqueta || 'PAU ' + qb.anio) : ''}</span>
             <div class="q-text">${formatQ(qb.q)}</div>
             ${answerLines(6)}
           </div>
