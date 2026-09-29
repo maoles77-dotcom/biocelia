@@ -1,7 +1,7 @@
 /* ══════════════════════════════════════════════════════════════
    Generado por tools/generar_banco_historico.py el 2026-09-29.
    NO editar a mano: se regenera desde data/historico/pau-*.json.
-   284 preguntas para Entrenamiento y 238 para Simulacro,
+   356 preguntas para Entrenamiento y 298 para Simulacro,
    de exámenes PAU oficiales con sus criterios de corrección.
    ══════════════════════════════════════════════════════════════ */
 window.BIOCELIA_HISTORICO = {
@@ -7470,6 +7470,1931 @@ window.BIOCELIA_HISTORICO = {
    "f": "Pregunta oficial de la PAU de Andalucía 2012-2013 (Examen 6, opción B, pregunta 6, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
   },
   {
+   "id": "pau2014-junio-a1",
+   "block": "Biomoléculas",
+   "topic": "Estructura terciaria y cuaternaria",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Describa la estructura terciaria y cuaternaria de las proteínas indicando tres tipos de enlaces o fuerzas que las estabilizan [2].",
+   "c": [
+    "Terciaria: <mark class=\"clave-criterio\">plegamiento de una cadena polipeptídica</mark> (0,25 p), mantenido por <mark class=\"clave-criterio\">interacciones hidrofóbicas</mark>, <mark class=\"clave-criterio\">puentes de hidrógeno</mark>, <mark class=\"clave-criterio\">fuerzas de Van der Waals</mark>, <mark class=\"clave-criterio\">fuerzas electrostáticas</mark> y <mark class=\"clave-criterio\">puentes disulfuro</mark>. Solo tres, a 0,25 p (0,75 p).",
+    "Cuaternaria: <mark class=\"clave-criterio\">asociación de varias subunidades polipeptídicas</mark> (0,25 p), mantenida por los mismos enlaces. Solo tres, a 0,25 p (0,75 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Junio",
+    "referencia": "Junio, opción A, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/Biologia_JUN 13-14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_JUN 13-14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Junio, opción A, pregunta 1, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-junio-a2",
+   "block": "Metabolismo",
+   "topic": "Mitocondria, cadena respiratoria y fosforilación",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Dibuje una mitocondria indicando el nombre de cinco de sus componentes [0,5]. Describa la cadena de transporte electrónico y la fosforilación oxidativa e indique en qué lugar de la mitocondria se realizan estos procesos [1,5].",
+   "c": [
+    "Dibujo y componentes: <mark class=\"clave-criterio\">membrana externa</mark>, <mark class=\"clave-criterio\">espacio intermembranal</mark>, <mark class=\"clave-criterio\">membrana interna</mark>, <mark class=\"clave-criterio\">crestas</mark>, <mark class=\"clave-criterio\">matriz</mark>, <mark class=\"clave-criterio\">ADN</mark>, <mark class=\"clave-criterio\">ribosomas</mark> (0,5 p).",
+    "Cadena de transporte: los <mark class=\"clave-criterio\">electrones del ciclo de Krebs</mark>, llevados por <mark class=\"clave-criterio\">coenzimas</mark> a <mark class=\"clave-criterio\">transportadores de la membrana interna</mark>, <mark class=\"clave-criterio\">caen de nivel energético desprendiendo energía</mark> (0,6 p). Lugar: <mark class=\"clave-criterio\">membrana mitocondrial interna</mark> (0,15 p).",
+    "Fosforilación oxidativa: <mark class=\"clave-criterio\">síntesis de ATP por la ATP sintasa</mark> gracias a un <mark class=\"clave-criterio\">gradiente de protones</mark> creado por la cadena de transporte (0,6 p). Lugar: <mark class=\"clave-criterio\">membrana mitocondrial interna</mark> (0,15 p). No se requiere una descripción exhaustiva."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Junio",
+    "referencia": "Junio, opción A, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/Biologia_JUN 13-14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_JUN 13-14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Junio, opción A, pregunta 2, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-junio-a3",
+   "block": "Genética",
+   "topic": "Genoma, gen, alelo, heterocigoto y herencia intermedia",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Defina los siguientes conceptos: genoma, gen, alelo, heterocigótico y herencia intermedia [2].",
+   "c": [
+    "Genoma: <mark class=\"clave-criterio\">conjunto de genes</mark> de una célula, un individuo o una especie (0,4 p).",
+    "Gen: <mark class=\"clave-criterio\">fragmento de ADN que determina una característica</mark> (unidad genética funcional) (0,4 p).",
+    "Alelo: cada una de las <mark class=\"clave-criterio\">formas alternativas</mark> de un gen (0,4 p).",
+    "Heterocigótico: individuo con <mark class=\"clave-criterio\">dos alelos diferentes</mark> de un gen (0,4 p).",
+    "Herencia intermedia: con los dos alelos resulta un <mark class=\"clave-criterio\">fenotipo de características intermedias</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Junio",
+    "referencia": "Junio, opción A, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/Biologia_JUN 13-14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_JUN 13-14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Junio, opción A, pregunta 3, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-junio-a4",
+   "block": "Biomoléculas",
+   "topic": "Acción de la tripsina sobre un polipéptido",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "La tripsina es una enzima proteolítica que solamente cataliza la hidrólisis de los enlaces peptídicos en los que el grupo carboxilo es aportado por la lisina o la arginina. Con estos datos escriba los péptidos que se obtienen [0,5], indicando los grupos funcionales [0,5], como resultado de la acción de la tripsina, sobre el siguiente polipéptido: NH2-Ala-Gly-Val-Trp-Ile-Gly-Arg-Cys-Cys-Met-Trp-COOH. Razone la respuesta.",
+   "c": [
+    "La tripsina <mark class=\"clave-criterio\">hidroliza el enlace peptídico entre la arginina (Arg) y la cisteína (Cys)</mark> y se originan dos péptidos: <mark class=\"clave-criterio\">NH₂-Ala-Gly-Val-Trp-Ile-Gly-Arg-COOH</mark> y <mark class=\"clave-criterio\">NH₂-Cys-Cys-Met-Trp-COOH</mark>. 0,5 p cada péptido (1 p).",
+    "Sin indicar los <mark class=\"clave-criterio\">grupos funcionales</mark> (amino y carboxilo terminales), cada péptido vale 0,25 p."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Junio",
+    "referencia": "Junio, opción A, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/Biologia_JUN 13-14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_JUN 13-14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Junio, opción A, pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-junio-a5",
+   "block": "Microbiología",
+   "topic": "Identificar algas, bacterias, hongos y protozoos",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "A un laboratorio de microbiología llegan cuatro muestras. Una contiene algas, otra bacterias, otra hongos y otra protozoos. Tras el análisis correspondiente, se obtienen los siguientes resultados: la muestra 1 contiene microorganismos que pueden realizar fotosíntesis y presentan ribosomas solo del tipo 70S; la muestra 2 contiene microorganismos unicelulares y pluricelulares de nutrición heterótrofa; la muestra 3 contiene microorganismos eucarióticos exclusivamente unicelulares; la muestra 4 contiene microorganismos autótrofos que se dividen por mitosis. Identifique razonadamente el tipo de microorganismo que hay en cada muestra [1].",
+   "c": [
+    "Muestra 1: <mark class=\"clave-criterio\">bacterias</mark>, porque solo tienen <mark class=\"clave-criterio\">ribosomas 70S</mark> (procarióticos) (0,25 p).",
+    "Muestra 2: <mark class=\"clave-criterio\">hongos</mark>: <mark class=\"clave-criterio\">heterótrofos</mark> con miembros <mark class=\"clave-criterio\">uni y pluricelulares</mark> (0,25 p).",
+    "Muestra 3: <mark class=\"clave-criterio\">protozoos</mark>: los únicos eucarióticos <mark class=\"clave-criterio\">exclusivamente unicelulares</mark> (0,25 p).",
+    "Muestra 4: <mark class=\"clave-criterio\">algas</mark>: <mark class=\"clave-criterio\">autótrofas</mark> que se dividen por <mark class=\"clave-criterio\">mitosis</mark> (0,25 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Junio",
+    "referencia": "Junio, opción A, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/Biologia_JUN 13-14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_JUN 13-14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Junio, opción A, pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-junio-a6",
+   "block": "Inmunología",
+   "topic": "Fagocitosis y producción de anticuerpos",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con las figuras adjuntas, en el contexto del sistema inmunitario, conteste las siguientes cuestiones:</b><br>a) ¿Qué proceso representa la imagen 1? [0,15]. Una vez que finaliza este proceso, ¿qué dos funciones fundamentales realizan estas células? [0,4]. ¿Cómo se denominan las moléculas señaladas con la flecha en la imagen 2? [0,15]. Cite dos funciones de estas moléculas [0,3].<br>b) Indique cuál de los dos procesos (1 ó 2) está relacionado con la inmunidad adquirida. Razone la respuesta [0,3]. ¿Cómo se puede desarrollar esta inmunidad? [0,3]. ¿Qué se necesita para activar las células A de la imagen 2? [0,4].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Fagocitosis</mark> (0,15 p).",
+    "a) Actuar como <mark class=\"clave-criterio\">células presentadoras de antígenos</mark> y <mark class=\"clave-criterio\">producir citoquinas</mark> que activan a otras células inmunitarias. 0,2 p cada una (0,4 p).",
+    "a) <mark class=\"clave-criterio\">Anticuerpos (inmunoglobulinas)</mark> (0,15 p). Funciones: <mark class=\"clave-criterio\">neutralizar</mark>, <mark class=\"clave-criterio\">precipitar</mark>, <mark class=\"clave-criterio\">aglutinar</mark> y <mark class=\"clave-criterio\">opsonizar</mark> antígenos. Dos, a 0,15 p (0,3 p).",
+    "b) La <mark class=\"clave-criterio\">imagen 2</mark> (0,1 p), porque aparecen <mark class=\"clave-criterio\">linfocitos B y anticuerpos</mark> (0,2 p).",
+    "b) De forma <mark class=\"clave-criterio\">natural</mark> (por haber pasado la <mark class=\"clave-criterio\">enfermedad</mark>) (0,15 p) o <mark class=\"clave-criterio\">artificial</mark> mediante <mark class=\"clave-criterio\">vacunación</mark> (0,15 p).",
+    "b) Deben ser <mark class=\"clave-criterio\">reconocidas por los linfocitos T auxiliares</mark> (0,1 p), que producen <mark class=\"clave-criterio\">citoquinas</mark> que activan al linfocito B para que se diferencie en <mark class=\"clave-criterio\">célula plasmática</mark> y produzca anticuerpos (0,3 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Junio",
+    "referencia": "Junio, opción A, pregunta 6",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/Biologia_JUN 13-14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_JUN 13-14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2014/junio-a6.webp",
+   "imgThumb": "assets/figuras/historico/2014/junio-a6.thumb.webp",
+   "imageDesc": "Imagen 1: una célula engloba y digiere una partícula en tres pasos. Imagen 2: una célula A con receptores da lugar a varias células que liberan moléculas en forma de Y (flecha).",
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Junio, opción A, pregunta 6, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-junio-b1",
+   "block": "Genética",
+   "topic": "ARN y transcripción",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Indique la estructura del ARN [0,2]. Cite los diferentes tipos de ARN [0,3] y explique la función de cada uno [0,9]. Defina la transcripción e indique en qué parte de la célula eucariótica se realiza [0,6].",
+   "c": [
+    "<mark class=\"clave-criterio\">Cadena de ribonucleótidos</mark> unidos por <mark class=\"clave-criterio\">enlace fosfodiéster</mark> (0,2 p).",
+    "<mark class=\"clave-criterio\">ARN ribosómico, ARN transferente y ARN mensajero</mark> (0,3 p).",
+    "ARNr: asociado a proteínas forma los <mark class=\"clave-criterio\">ribosomas</mark>; ARNt: <mark class=\"clave-criterio\">transporta los aminoácidos</mark>; ARNm: aporta la <mark class=\"clave-criterio\">secuencia de bases que se traduce</mark> a aminoácidos. 0,3 p cada uno (0,9 p).",
+    "Transcripción: síntesis de <mark class=\"clave-criterio\">ARN</mark> con la <mark class=\"clave-criterio\">secuencia complementaria</mark> de una cadena de ADN <mark class=\"clave-criterio\">molde</mark> (0,5 p), en el <mark class=\"clave-criterio\">núcleo</mark> (0,1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Junio",
+    "referencia": "Junio, opción B, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/Biologia_JUN 13-14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_JUN 13-14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Junio, opción B, pregunta 1, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-junio-b2",
+   "block": "Célula",
+   "topic": "Aparato de Golgi",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Describa el aparato de Golgi [1]. Enumere dos de sus funciones [0,5]. Indique el contenido y el destino de las vesículas que surgen de él [0,5].",
+   "c": [
+    "<mark class=\"clave-criterio\">Cisternas apiladas</mark>, con <mark class=\"clave-criterio\">cara cis</mark> (próxima al RER) y <mark class=\"clave-criterio\">cara trans</mark>; junto a la cis, <mark class=\"clave-criterio\">vesículas de transición</mark>, y junto a la trans, <mark class=\"clave-criterio\">vesículas de secreción</mark> (1 p).",
+    "Funciones: <mark class=\"clave-criterio\">transferencia</mark>, <mark class=\"clave-criterio\">maduración de proteínas</mark>, <mark class=\"clave-criterio\">glucosilación</mark>, <mark class=\"clave-criterio\">embalaje de productos de secreción</mark>. Dos, a 0,25 p (0,5 p).",
+    "Contenido: <mark class=\"clave-criterio\">proteínas modificadas</mark> (0,25 p). Destino: <mark class=\"clave-criterio\">membrana plasmática</mark>, <mark class=\"clave-criterio\">medio extracelular</mark> o <mark class=\"clave-criterio\">lisosomas</mark> (0,25 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Junio",
+    "referencia": "Junio, opción B, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/Biologia_JUN 13-14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_JUN 13-14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Junio, opción B, pregunta 2, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-junio-b3",
+   "block": "Inmunología",
+   "topic": "Respuesta inmunitaria celular",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Explique en qué consiste la respuesta inmunitaria celular indicando qué células están implicadas en dicha respuesta [1]. Describa dos funciones de cada uno de esos tipos de células [1].",
+   "c": [
+    "Se basa en la actividad de los <mark class=\"clave-criterio\">linfocitos T y los macrófagos</mark> (0,4 p por las células); tarda más que la humoral, pero es útil contra microorganismos <mark class=\"clave-criterio\">que viven dentro de las células</mark>; los linfocitos T <mark class=\"clave-criterio\">destruyen células infectadas o tumorales</mark> (1 p).",
+    "Linfocitos T: <mark class=\"clave-criterio\">activar la producción de anticuerpos</mark> por los B, <mark class=\"clave-criterio\">destruir células infectadas o tumorales</mark>. Macrófagos: <mark class=\"clave-criterio\">presentar antígenos</mark> y <mark class=\"clave-criterio\">fagocitosis</mark>. 0,25 p cada función (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Junio",
+    "referencia": "Junio, opción B, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/Biologia_JUN 13-14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_JUN 13-14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Junio, opción B, pregunta 3, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-junio-b4",
+   "block": "Biomoléculas",
+   "topic": "Amilasa salival y patata",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Tras incubar a 37ºC una patata cruda con enzimas extraídas de la saliva, se aprecia que la patata adquiere sabor dulce. Explique por qué aparece este sabor [0,5]. Si la incubación se realiza a 60ºC no es posible detectar el sabor dulce. ¿Por qué? [0,5]. Razone las respuestas.",
+   "c": [
+    "Las enzimas <mark class=\"clave-criterio\">degradan el almidón hasta azúcares sencillos</mark>, que son dulces (0,5 p).",
+    "A 60 ºC las enzimas de la saliva <mark class=\"clave-criterio\">se desnaturalizan</mark> y no degradan el almidón (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Junio",
+    "referencia": "Junio, opción B, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/Biologia_JUN 13-14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_JUN 13-14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Junio, opción B, pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-junio-b5",
+   "block": "Genética",
+   "topic": "Heredabilidad de las alteraciones",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Tras un accidente nuclear, se examinó a los habitantes de una población cercana, observándose que su genotipo había sufrido algunas alteraciones. ¿Heredarán sus descendientes dichas alteraciones? [0,6]. En una industria química se produjo un incendio que afectó a miles de personas produciéndoles graves quemaduras y alteraciones en la piel. ¿Heredarán sus descendientes dichas alteraciones? [0,4]. Razone las respuestas.",
+   "c": [
+    "Los cambios en el genotipo <mark class=\"clave-criterio\">se heredan si afectan a las células germinales</mark> (no si afectan a las somáticas) (0,6 p).",
+    "<mark class=\"clave-criterio\">No</mark>: los cambios en las <mark class=\"clave-criterio\">células somáticas no se heredan</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Junio",
+    "referencia": "Junio, opción B, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/Biologia_JUN 13-14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_JUN 13-14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Junio, opción B, pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-junio-b6",
+   "block": "Célula",
+   "topic": "Etapas de la meiosis",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la imagen adjunta, conteste las siguientes cuestiones:</b><br>a) Indique a qué tipo de división celular pertenecen las imágenes del esquema [0,1] y en qué tipo de células tiene lugar [0,15]. ¿Qué representan las imágenes numeradas (1 a 5) y en qué fase se produce cada una de ellas? [0,75].<br>b) Indique qué proceso ocurre en el círculo de la imagen número 1 y la importancia biológica del mismo [0,4]. Indique la relación del proceso representado mediante el esquema número 3 con dos aspectos fundamentales de la importancia biológica de este tipo de división [0,6].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Meiosis</mark> (0,1 p), en <mark class=\"clave-criterio\">células de la línea germinal</mark> (0,15 p).",
+    "a) 1: <mark class=\"clave-criterio\">apareamiento de homólogos (tétrada)</mark> en <mark class=\"clave-criterio\">profase I</mark>; 2: <mark class=\"clave-criterio\">homólogos apareados y recombinados</mark> en <mark class=\"clave-criterio\">metafase I</mark>; 3: <mark class=\"clave-criterio\">homólogos en anafase I</mark>; 4: <mark class=\"clave-criterio\">cromosomas con dos cromátidas en metafase II</mark>; 5: <mark class=\"clave-criterio\">cromátidas hermanas en anafase II</mark>. 0,15 p cada una (0,75 p).",
+    "b) <mark class=\"clave-criterio\">Recombinación</mark>: intercambio de fragmentos entre <mark class=\"clave-criterio\">cromátidas de homólogos</mark> (0,2 p), fundamental para la <mark class=\"clave-criterio\">variabilidad genética</mark> (0,2 p).",
+    "b) En la anafase I los homólogos van a los polos: se <mark class=\"clave-criterio\">reduce a la mitad</mark> el número de cromosomas (<mark class=\"clave-criterio\">células haploides</mark>), lo que asegura la <mark class=\"clave-criterio\">constancia del número cromosómico tras la fecundación</mark> (0,3 p); y hay <mark class=\"clave-criterio\">reparto al azar</mark> de cromosomas paternos y maternos (<mark class=\"clave-criterio\">segregación</mark>), que aporta <mark class=\"clave-criterio\">variabilidad</mark> (0,3 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Junio",
+    "referencia": "Junio, opción B, pregunta 6",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/Biologia_JUN 13-14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_JUN 13-14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2014/junio-b6.webp",
+   "imgThumb": "assets/figuras/historico/2014/junio-b6.thumb.webp",
+   "imageDesc": "Cinco esquemas numerados de cromosomas: una pareja apareada (1), una pareja cruzada (2), homólogos separándose (3), cromosomas de dos cromátidas (4) y cromátidas separándose (5).",
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Junio, opción B, pregunta 6, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-septiembre-a1",
+   "block": "Biomoléculas",
+   "topic": "Aminoácidos y funciones de las proteínas",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Indique cuáles son los monómeros de las proteínas [0,2]. Escriba su fórmula general [0,2]. Atendiendo a la variedad de radicales cite cuatro tipos de dichos monómeros [0,6]. Enumere cinco funciones de las proteínas y ponga un ejemplo de cada una de ellas [1].",
+   "c": [
+    "<mark class=\"clave-criterio\">Aminoácidos</mark> (0,2 p).",
+    "Fórmula: <mark class=\"clave-criterio\">carbono alfa</mark> unido al <mark class=\"clave-criterio\">amino</mark>, al <mark class=\"clave-criterio\">carboxilo</mark>, a un <mark class=\"clave-criterio\">H</mark> y a un <mark class=\"clave-criterio\">radical</mark> (0,2 p).",
+    "Tipos: <mark class=\"clave-criterio\">ácidos</mark>, <mark class=\"clave-criterio\">básicos</mark>, <mark class=\"clave-criterio\">neutros</mark>, hidrófilos, hidrófobos (o apolares, polares con carga negativa, polares con carga positiva y polares sin carga). Cuatro, a 0,15 p (0,6 p).",
+    "Transporte: <mark class=\"clave-criterio\">hemoglobina</mark>; enzimática: <mark class=\"clave-criterio\">pepsina</mark>; contráctil: <mark class=\"clave-criterio\">miosina</mark>; hormonal: <mark class=\"clave-criterio\">insulina</mark>; inmunitaria: <mark class=\"clave-criterio\">inmunoglobulinas</mark>; estructural: <mark class=\"clave-criterio\">queratina</mark>. 0,2 p cada una con su ejemplo (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Septiembre",
+    "referencia": "Septiembre, opción A, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/Bilogia_SEP13-14T.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_SEPT13-14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Septiembre, opción A, pregunta 1, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-septiembre-a2",
+   "block": "Metabolismo",
+   "topic": "Metabolismo, catabolismo, anabolismo, glucólisis y fermentación",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Defina: metabolismo, catabolismo, anabolismo, glucólisis y fermentación [2].",
+   "c": [
+    "Metabolismo: <mark class=\"clave-criterio\">reacciones químicas de la célula</mark>, <mark class=\"clave-criterio\">catabólicas y anabólicas</mark> (0,4 p).",
+    "Catabolismo: reacciones que proporcionan <mark class=\"clave-criterio\">precursores, energía y poder reductor</mark> (0,4 p).",
+    "Anabolismo: procesos por los que la célula <mark class=\"clave-criterio\">sintetiza, con gasto de energía</mark>, sus sustancias (0,4 p).",
+    "Glucólisis: reacciones que convierten <mark class=\"clave-criterio\">glucosa en ácido pirúvico</mark> con liberación de <mark class=\"clave-criterio\">ATP</mark> (0,4 p).",
+    "Fermentación: <mark class=\"clave-criterio\">degradación anaeróbica</mark> de la glucosa con una <mark class=\"clave-criterio\">molécula orgánica</mark> como aceptor final de electrones (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Septiembre",
+    "referencia": "Septiembre, opción A, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/Bilogia_SEP13-14T.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_SEPT13-14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Septiembre, opción A, pregunta 2, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-septiembre-a3",
+   "block": "Genética",
+   "topic": "Cruzamiento prueba y herencia intermedia",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Defina cruzamiento prueba [0,5] y realice un esquema del mismo utilizando los símbolos genéticos A y a [0,5]. Defina herencia intermedia [0,5] y realice un esquema de la misma usando los símbolos genéticos A y a [0,5].",
+   "c": [
+    "Cruzamiento prueba: cruce de un individuo de <mark class=\"clave-criterio\">fenotipo dominante</mark> con otro de <mark class=\"clave-criterio\">fenotipo recesivo</mark> para <mark class=\"clave-criterio\">averiguar su genotipo</mark> (0,5 p).",
+    "Esquema con dos posibilidades: <mark class=\"clave-criterio\">AA × aa → 100 % Aa</mark>; <mark class=\"clave-criterio\">Aa × aa → 50 % Aa y 50 % aa</mark> (0,5 p).",
+    "Herencia intermedia: los alelos se expresan <mark class=\"clave-criterio\">con la misma intensidad</mark> y los híbridos tienen un <mark class=\"clave-criterio\">fenotipo intermedio</mark> (0,5 p).",
+    "Esquema del cruce <span class=\"redactado\">AA × aa → 100 % Aa, de fenotipo intermedio</span> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Septiembre",
+    "referencia": "Septiembre, opción A, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/Bilogia_SEP13-14T.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_SEPT13-14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Septiembre, opción A, pregunta 3, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-septiembre-a4",
+   "block": "Genética",
+   "topic": "Meiosis sin recombinación",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Suponga que los individuos de una especie no realizan la recombinación genética durante la profase I de la meiosis. Las células haploides resultantes de la meiosis ¿tendrían todas la misma información genética? [0,5] ¿Los individuos de esta especie mostrarían variabilidad genética? [0,5]. Razone las respuestas.",
+   "c": [
+    "<mark class=\"clave-criterio\">No</mark>: por la <mark class=\"clave-criterio\">segregación cromosómica</mark> no llevan la misma combinación de cromosomas paternos y maternos (0,5 p).",
+    "<mark class=\"clave-criterio\">Sí</mark>: por las <mark class=\"clave-criterio\">mutaciones</mark>, la <mark class=\"clave-criterio\">segregación cromosómica</mark> o la <mark class=\"clave-criterio\">fusión de gametos</mark>. Basta una (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Septiembre",
+    "referencia": "Septiembre, opción A, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/Bilogia_SEP13-14T.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_SEPT13-14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Septiembre, opción A, pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-septiembre-a5",
+   "block": "Inmunología",
+   "topic": "Alergia al polen",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "El polen es un cuerpo extraño para el organismo que, en personas alérgicas, provoca reacciones molestas (tos, estornudo, picor, congestión nasal). ¿Por qué un primer contacto con el polen en estas personas puede no provocar síntomas externos, que sí se manifiestan tras una segunda exposición? [0,5]. ¿Significa esto que los alérgicos al polen padecen inmunodeficiencia? [0,5]. Razone las respuestas.",
+   "c": [
+    "En el primer contacto hay <mark class=\"clave-criterio\">respuesta primaria (sensibilización)</mark> sin síntomas; en el segundo, <mark class=\"clave-criterio\">respuesta secundaria</mark> (0,5 p).",
+    "<mark class=\"clave-criterio\">No</mark>: es un problema de <mark class=\"clave-criterio\">hipersensibilidad</mark>; la inmunodeficiencia es la <mark class=\"clave-criterio\">falta de respuesta</mark> o de algún elemento del sistema inmunitario (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Septiembre",
+    "referencia": "Septiembre, opción A, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/Bilogia_SEP13-14T.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_SEPT13-14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Septiembre, opción A, pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-septiembre-a6",
+   "block": "Microbiología",
+   "topic": "Ciclos lítico y lisogénico",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la figura adjunta, conteste las siguientes cuestiones:</b><br>a) Nombre los microorganismos señalados con los números 1 y 2 [0,2]. Indique dos características de cada uno de ellos [0,6]. Nombre las estructuras señaladas con los números 3 y 4 [0,2].<br>b) Identifique los procesos indicados con las letras A y B [0,2]. Explique las diferentes fases que ocurren en el proceso A [0,8].",
+   "c": [
+    "a) 1: <mark class=\"clave-criterio\">bacteria</mark>; 2: <mark class=\"clave-criterio\">bacteriófago</mark> (si se dice virus, 0,05 p) (0,2 p).",
+    "a) Bacteria: <mark class=\"clave-criterio\">procariótica</mark>, <mark class=\"clave-criterio\">unicelular</mark>, división por <mark class=\"clave-criterio\">bipartición</mark>. Bacteriófago: <mark class=\"clave-criterio\">acelular</mark>, <mark class=\"clave-criterio\">sin metabolismo propio</mark>, usa los recursos de la <mark class=\"clave-criterio\">célula hospedadora</mark>. Dos de cada, a 0,15 p (0,6 p).",
+    "a) 3: <mark class=\"clave-criterio\">ADN circular bacteriano</mark>; 4: <mark class=\"clave-criterio\">ADN del fago</mark> (0,2 p).",
+    "b) A: <mark class=\"clave-criterio\">ciclo lítico</mark>; B: <mark class=\"clave-criterio\">ciclo lisogénico</mark> (0,2 p).",
+    "b) Lítico: <mark class=\"clave-criterio\">receptores específicos</mark> donde se une el fago (0,1 p); <mark class=\"clave-criterio\">inyección del ácido nucleico</mark> (0,2 p); uso de la <mark class=\"clave-criterio\">maquinaria biosintética</mark> bacteriana para copiar ácido nucleico y cápsida (0,2 p); <mark class=\"clave-criterio\">ensamblaje</mark> (0,2 p); <mark class=\"clave-criterio\">rotura por enzimas líticas</mark> y salida de fagos (0,1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Septiembre",
+    "referencia": "Septiembre, opción A, pregunta 6",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/Bilogia_SEP13-14T.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_SEPT13-14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2014/septiembre-a6.webp",
+   "imgThumb": "assets/figuras/historico/2014/septiembre-a6.thumb.webp",
+   "imageDesc": "Una célula (1) infectada por un virus con cabeza y cola (2); desde ella salen dos ciclos: A, que termina con la rotura de la célula, y B, en el que la célula se divide con el ADN del virus integrado; se señalan 3 y 4.",
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Septiembre, opción A, pregunta 6, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-septiembre-b1",
+   "block": "Biomoléculas",
+   "topic": "Disacárido, triacilglicérido, proteína y nucleótido",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Defina disacárido, triacilglicérido, proteína y nucleótido [2].",
+   "c": [
+    "Disacárido: <mark class=\"clave-criterio\">dos monosacáridos</mark> unidos por <mark class=\"clave-criterio\">enlace O-glucosídico</mark> (0,5 p).",
+    "Triacilglicérido: <mark class=\"clave-criterio\">triéster de glicerina y ácidos grasos</mark> (0,5 p).",
+    "Proteína: macromolécula de <mark class=\"clave-criterio\">una o varias cadenas polipeptídicas</mark> de <mark class=\"clave-criterio\">aminoácidos unidos por enlace peptídico</mark> (0,5 p).",
+    "Nucleótido: unión de <mark class=\"clave-criterio\">ácido fosfórico</mark>, una <mark class=\"clave-criterio\">pentosa</mark> y una <mark class=\"clave-criterio\">base nitrogenada</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Septiembre",
+    "referencia": "Septiembre, opción B, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/Bilogia_SEP13-14T.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_SEPT13-14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Septiembre, opción B, pregunta 1, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-septiembre-b2",
+   "block": "Célula",
+   "topic": "Fases y significado de la mitosis",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Describa las fases de la mitosis [1,2]. Indique en qué células tiene lugar este tipo de reproducción [0,3] y cuál es su significado biológico [0,5].",
+   "c": [
+    "Profase: <mark class=\"clave-criterio\">condensación</mark>, <mark class=\"clave-criterio\">huso acromático</mark>, desaparecen nucleolo y membrana nuclear. Metafase: <mark class=\"clave-criterio\">placa ecuatorial</mark>, <mark class=\"clave-criterio\">microtúbulos cinetocóricos</mark>. Anafase: <mark class=\"clave-criterio\">separación de los centrómeros</mark> y <mark class=\"clave-criterio\">cromátidas hacia los polos</mark>. Telofase: <mark class=\"clave-criterio\">descondensación</mark> y <mark class=\"clave-criterio\">reaparición del nucleolo y la envoltura</mark>. 0,3 p cada fase (1,2 p).",
+    "En todas las <mark class=\"clave-criterio\">células eucarióticas somáticas</mark>, animales y vegetales (0,3 p).",
+    "Significado: células hijas con <mark class=\"clave-criterio\">idéntica información genética</mark>; en pluricelulares, <mark class=\"clave-criterio\">crecimiento y recambio celular</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Septiembre",
+    "referencia": "Septiembre, opción B, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/Bilogia_SEP13-14T.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_SEPT13-14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Septiembre, opción B, pregunta 2, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-septiembre-b3",
+   "block": "Inmunología",
+   "topic": "Componentes del sistema inmunitario",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Enumere cinco componentes (células o moléculas) del sistema inmunitario [0,5] e indique la función de cada uno de ellos [1,5].",
+   "c": [
+    "<mark class=\"clave-criterio\">Macrófagos</mark>, <mark class=\"clave-criterio\">linfocitos B</mark>, <mark class=\"clave-criterio\">linfocitos T</mark>, <mark class=\"clave-criterio\">anticuerpos</mark>, <mark class=\"clave-criterio\">linfocinas</mark>, <mark class=\"clave-criterio\">interferón</mark>, <mark class=\"clave-criterio\">complemento</mark>. Cinco, a 0,1 p (0,5 p).",
+    "Macrófago: <mark class=\"clave-criterio\">fagocitosis</mark>. Linfocitos B: <mark class=\"clave-criterio\">producción de anticuerpos</mark>. Linfocitos T: <mark class=\"clave-criterio\">activan la producción de anticuerpos</mark>. Anticuerpos: <mark class=\"clave-criterio\">unión con antígenos específicos</mark>. Linfocinas: <mark class=\"clave-criterio\">regulan la respuesta</mark>. Interferón: respuesta frente a <mark class=\"clave-criterio\">virus</mark> y células cancerígenas. Complemento: <mark class=\"clave-criterio\">destrucción celular</mark> e <mark class=\"clave-criterio\">inflamación</mark>. Cinco, a 0,3 p (1,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Septiembre",
+    "referencia": "Septiembre, opción B, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/Bilogia_SEP13-14T.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_SEPT13-14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Septiembre, opción B, pregunta 3, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-septiembre-b4",
+   "block": "Genética",
+   "topic": "Tipos de ARNm y de ARNt",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "En una célula eucariótica y en relación al ARN mensajero y al ARN transferente, ¿de cuál de estos dos ácidos ribonucleicos habrá más tipos distintos? Razone la respuesta [1].",
+   "c": [
+    "Habrá <mark class=\"clave-criterio\">más tipos de ARNm</mark>: tantos como <mark class=\"clave-criterio\">proteínas diferentes</mark> fabrique la célula (0,5 p); los de ARNt son tantos como <mark class=\"clave-criterio\">codones que codifican aminoácidos</mark>, un número claramente inferior (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Septiembre",
+    "referencia": "Septiembre, opción B, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/Bilogia_SEP13-14T.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_SEPT13-14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Septiembre, opción B, pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-septiembre-b5",
+   "block": "Genética",
+   "topic": "Hemofilia: deducir los progenitores",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "La descendencia de una pareja está constituida únicamente por mujeres portadoras de la hemofilia y por hombres sanos. Indique el genotipo y el fenotipo de ambos progenitores. Razone las respuestas representando los esquemas de los posibles cruces [1].",
+   "c": [
+    "Mujer: <mark class=\"clave-criterio\">X<sup>H</sup>X<sup>H</sup></mark>, <mark class=\"clave-criterio\">sana no portadora</mark> (0,5 p).",
+    "Hombre: <mark class=\"clave-criterio\">X<sup>h</sup>Y</mark>, <mark class=\"clave-criterio\">hemofílico</mark> (0,5 p). Se justifica con los cruces."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Septiembre",
+    "referencia": "Septiembre, opción B, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/Bilogia_SEP13-14T.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_SEPT13-14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Septiembre, opción B, pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-septiembre-b6",
+   "block": "Célula",
+   "topic": "Mitocondria y cloroplasto",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con las figuras adjuntas, conteste las siguientes cuestiones:</b><br>a) ¿Cómo se llaman los orgánulos que representan las figuras A y B? [0,2]. Identifique las 8 estructuras numeradas [0,8].<br>b) ¿En qué tipo de células eucarióticas se presentan estos orgánulos? [0,3]. ¿Cuál es la función principal de cada uno de ellos? [0,2]. Cite un producto común a los procesos metabólicos que tienen lugar en estos orgánulos [0,1]. Cite un producto específico de los procesos metabólicos que tienen lugar en cada uno de estos orgánulos [0,2]. ¿Cuál es el tipo de metabolismo propio de cada uno de ellos? [0,2].",
+   "c": [
+    "a) A: <mark class=\"clave-criterio\">mitocondria</mark>; B: <mark class=\"clave-criterio\">cloroplasto</mark> (0,2 p).",
+    "a) 1: <mark class=\"clave-criterio\">ADN mitocondrial</mark>; 2: <mark class=\"clave-criterio\">matriz</mark>; 3: <mark class=\"clave-criterio\">membrana externa</mark>; 4: <mark class=\"clave-criterio\">membrana interna</mark>; 5: <mark class=\"clave-criterio\">crestas</mark>; 6: <mark class=\"clave-criterio\">estroma</mark>; 7: <mark class=\"clave-criterio\">tilacoide</mark>; 8: <mark class=\"clave-criterio\">grana</mark>. 0,1 p cada una (0,8 p).",
+    "b) Mitocondria: <mark class=\"clave-criterio\">células animales y vegetales</mark> (0,2 p); cloroplasto: <mark class=\"clave-criterio\">células vegetales fotosintéticas</mark> (0,1 p).",
+    "b) Funciones: <mark class=\"clave-criterio\">respiración celular</mark> (mitocondria) y <mark class=\"clave-criterio\">fotosíntesis</mark> (cloroplasto) (0,2 p).",
+    "b) Producto común: <mark class=\"clave-criterio\">ATP</mark> (0,1 p). Específicos: <mark class=\"clave-criterio\">CO₂, NADH</mark> (mitocondria) y <mark class=\"clave-criterio\">O₂, NADPH</mark> (cloroplasto) (0,2 p).",
+    "b) Mitocondria: <mark class=\"clave-criterio\">catabolismo</mark>; cloroplasto: <mark class=\"clave-criterio\">anabolismo</mark> (0,2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Septiembre",
+    "referencia": "Septiembre, opción B, pregunta 6",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/Bilogia_SEP13-14T.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_SEPT13-14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2014/septiembre-b6.webp",
+   "imgThumb": "assets/figuras/historico/2014/septiembre-b6.thumb.webp",
+   "imageDesc": "Dos orgánulos de doble membrana: A, con pliegues internos (estructuras 1 a 5); B, con pilas de discos en su interior (estructuras 6 a 8).",
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Septiembre, opción B, pregunta 6, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m2-a1",
+   "block": "Biomoléculas",
+   "topic": "Estructura secundaria de las proteínas",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Nombre [0,5] y describa los tipos de estructura secundaria en las proteínas [1,5].",
+   "c": [
+    "<mark class=\"clave-criterio\">Alfa-hélice</mark> y <mark class=\"clave-criterio\">conformación beta</mark>. 0,25 p cada una (0,5 p).",
+    "Alfa-hélice: <mark class=\"clave-criterio\">estructura helicoidal</mark>, <mark class=\"clave-criterio\">radicales hacia la periferia</mark>, estabilizada por <mark class=\"clave-criterio\">puentes de hidrógeno</mark> (0,75 p).",
+    "Conformación beta: <mark class=\"clave-criterio\">estructura laminar</mark>, <mark class=\"clave-criterio\">varias cadenas unidas</mark> y estabilizadas por <mark class=\"clave-criterio\">puentes de hidrógeno</mark> (0,75 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 2",
+    "referencia": "Modelo 2, opción A, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO 2_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_2_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 2, opción A, pregunta 1, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m2-a2",
+   "block": "Célula",
+   "topic": "Endosimbiosis y núcleo interfásico",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Exponga la hipótesis admitida sobre el origen evolutivo de la célula eucariótica [0,75]. Describa los componentes estructurales del núcleo interfásico [1,25].",
+   "c": [
+    "La hipótesis (endosimbiótica) se apoya en que mitocondrias y cloroplastos tienen <mark class=\"clave-criterio\">ADN propio</mark>, <mark class=\"clave-criterio\">ribosomas 70S</mark> y <mark class=\"clave-criterio\">división independiente</mark>. 0,25 p cada uno (0,75 p).",
+    "<mark class=\"clave-criterio\">Envoltura</mark>: <mark class=\"clave-criterio\">doble membrana con poros</mark> (0,25 p); <mark class=\"clave-criterio\">nucleoplasma</mark>: líquido con biomoléculas (0,25 p); <mark class=\"clave-criterio\">nucléolo</mark>: donde se forman las <mark class=\"clave-criterio\">subunidades ribosómicas</mark> (0,25 p); <mark class=\"clave-criterio\">cromatina</mark>: <mark class=\"clave-criterio\">fibra nucleoproteica</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 2",
+    "referencia": "Modelo 2, opción A, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO 2_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_2_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 2, opción A, pregunta 2, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m2-a3",
+   "block": "Genética",
+   "topic": "Transcripción en procariotas",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Defina transcripción [0,4]. Indique cuál es su significado biológico [0,2] y en qué parte de la célula eucariótica se realiza [0,2]. Describa el proceso en procariotas [1,2].",
+   "c": [
+    "Transcripción: síntesis de <mark class=\"clave-criterio\">ARN</mark> con la <mark class=\"clave-criterio\">secuencia complementaria</mark> de una cadena de ADN <mark class=\"clave-criterio\">molde</mark> (0,4 p).",
+    "Significado: obtener los <mark class=\"clave-criterio\">ARN necesarios para la síntesis de proteínas</mark> (0,2 p). En el <mark class=\"clave-criterio\">núcleo</mark> (0,2 p).",
+    "Proceso: <mark class=\"clave-criterio\">cadena codificante y cadena molde</mark>, sentido <mark class=\"clave-criterio\">5′→3′</mark>, copia de <mark class=\"clave-criterio\">una sola cadena</mark>, señal de inicio (<mark class=\"clave-criterio\">promotor</mark>), acción de la <mark class=\"clave-criterio\">ARN polimerasa</mark> y <mark class=\"clave-criterio\">señal de terminación</mark>. 0,2 p cada una (1,2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 2",
+    "referencia": "Modelo 2, opción A, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO 2_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_2_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 2, opción A, pregunta 3, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m2-a4",
+   "block": "Biomoléculas",
+   "topic": "Agua y temperatura constante",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "¿Qué propiedad físico-química del agua permite a las plantas y animales mantener una temperatura interna relativamente constante? [0,3] ¿De qué característica de las moléculas de agua depende a su vez esta propiedad? [0,7]. Razone las respuestas.",
+   "c": [
+    "Su <mark class=\"clave-criterio\">elevado calor específico</mark> y/o <mark class=\"clave-criterio\">calor de vaporización</mark> (0,3 p).",
+    "De los <mark class=\"clave-criterio\">puentes de hidrógeno</mark> entre moléculas de agua: romperlos para que suba la temperatura <mark class=\"clave-criterio\">consume calor</mark> (0,7 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 2",
+    "referencia": "Modelo 2, opción A, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO 2_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_2_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 2, opción A, pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m2-a5",
+   "block": "Inmunología",
+   "topic": "SIDA e infecciones oportunistas",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Entre los posibles síntomas del desarrollo de la enfermedad del SIDA es frecuente la aparición de infecciones en la mucosa de la boca, vagina, esófago, etc. Explique razonadamente por qué [1].",
+   "c": [
+    "El SIDA es una <mark class=\"clave-criterio\">inmunodeficiencia adquirida</mark> causada por el <mark class=\"clave-criterio\">VIH</mark>, que <mark class=\"clave-criterio\">afecta al sistema inmunitario</mark>; por eso aparecen <mark class=\"clave-criterio\">enfermedades oportunistas</mark> como las infecciones de mucosas (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 2",
+    "referencia": "Modelo 2, opción A, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO 2_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_2_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 2, opción A, pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m2-a6",
+   "block": "Metabolismo",
+   "topic": "Descarboxilación del pirúvico y ciclo de Krebs",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la figura adjunta, conteste las siguientes cuestiones:</b><br>a) ¿Qué procesos representan los números 1 y 2? [0,3]. ¿De dónde proceden las dos moléculas de CO2 desprendidas en el proceso número 2? [0,1]. ¿Cuántas vueltas se precisan en el proceso 2 para la degradación total de una molécula de glucosa? [0,2]. ¿Por qué el proceso 2 se considera un proceso catabólico? [0,2]. ¿Por qué se considera un proceso aeróbico si no requiere oxígeno para llevarse a cabo? [0,2].<br>b) ¿De qué ruta procede el ácido pirúvico utilizado en el proceso 1? [0,2]. ¿Qué ocurriría con el ácido pirúvico en ausencia de oxígeno? [0,3]. ¿En qué orgánulo celular se produce el proceso 2? [0,1]. ¿Y en qué compartimento de dicho orgánulo? [0,1]. ¿A partir de qué biomoléculas se puede producir el Acetil-CoA? [0,3].",
+   "c": [
+    "a) 1: <mark class=\"clave-criterio\">descarboxilación oxidativa del ácido pirúvico</mark>; 2: <mark class=\"clave-criterio\">ciclo de Krebs</mark> (0,3 p).",
+    "a) El CO₂ procede del <mark class=\"clave-criterio\">acetil-CoA</mark> (0,1 p). <mark class=\"clave-criterio\">Dos vueltas</mark> por glucosa (0,2 p).",
+    "a) Es <mark class=\"clave-criterio\">catabólica</mark> porque <mark class=\"clave-criterio\">sirve para obtener energía</mark> (0,2 p); es <mark class=\"clave-criterio\">aeróbica</mark> porque el <mark class=\"clave-criterio\">oxígeno es el último aceptor de los electrones</mark> liberados (0,2 p).",
+    "b) De la <mark class=\"clave-criterio\">glucólisis</mark> (0,2 p). Sin oxígeno se produciría una <mark class=\"clave-criterio\">fermentación</mark> (0,3 p).",
+    "b) En la <mark class=\"clave-criterio\">mitocondria</mark> (0,1 p), en la <mark class=\"clave-criterio\">matriz</mark> (0,1 p).",
+    "b) El acetil-CoA procede de <mark class=\"clave-criterio\">glúcidos</mark>, <mark class=\"clave-criterio\">lípidos (ácidos grasos)</mark> y <mark class=\"clave-criterio\">proteínas (aminoácidos)</mark> (0,3 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 2",
+    "referencia": "Modelo 2, opción A, pregunta 6",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO 2_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_2_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2014/m2-a6.webp",
+   "imgThumb": "assets/figuras/historico/2014/m2-a6.thumb.webp",
+   "imageDesc": "Ácido pirúvico que atraviesa una membrana plegada y pasa a acetil-CoA (1, con salida de CO₂ y NADH) y un ciclo (2) de ácidos cítrico, isocítrico, α-cetoglutárico, succinil-CoA, succínico, fumárico, málico y oxalacético.",
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 2, opción A, pregunta 6, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m2-b1",
+   "block": "Genética",
+   "topic": "Nucleósido, nucleótido, nucléolo y nucleosoma",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Defina los siguientes conceptos: nucleósido, nucleótido, nucleoplasma, nucléolo y nucleosoma [2].",
+   "c": [
+    "Nucleósido: <mark class=\"clave-criterio\">base nitrogenada + pentosa</mark> (0,4 p).",
+    "Nucleótido: <mark class=\"clave-criterio\">base nitrogenada + pentosa + ácido fosfórico</mark> (0,4 p).",
+    "Nucleoplasma: <mark class=\"clave-criterio\">líquido viscoso</mark> del interior del núcleo, con agua y biomoléculas (0,4 p).",
+    "Nucléolo: componente del núcleo donde se <mark class=\"clave-criterio\">forman las subunidades ribosómicas</mark> (0,4 p).",
+    "Nucleosoma: <mark class=\"clave-criterio\">unidad fundamental de la cromatina</mark>, un <mark class=\"clave-criterio\">núcleo de histonas con ADN</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 2",
+    "referencia": "Modelo 2, opción B, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO 2_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_2_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 2, opción B, pregunta 1, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m2-b2",
+   "block": "Célula",
+   "topic": "Modelo de mosaico fluido",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Describa el modelo de Mosaico Fluido de membrana que propusieron Singer y Nicholson en 1972 [1]. ¿A qué tipos celulares es aplicable este modelo de membrana? [0,3]. ¿A qué tipos de membranas de orgánulos es aplicable este modelo de membrana? [0,3]. Indique dos funciones de la membrana plasmática [0,4].",
+   "c": [
+    "Membranas <mark class=\"clave-criterio\">fluidas</mark> formadas por una <mark class=\"clave-criterio\">bicapa lipídica</mark>; los lípidos <mark class=\"clave-criterio\">giran y se desplazan lateralmente</mark>; las <mark class=\"clave-criterio\">proteínas forman un mosaico</mark> y pueden atravesar la bicapa (1 p).",
+    "Es un <mark class=\"clave-criterio\">modelo universal</mark>: aplicable a <mark class=\"clave-criterio\">todos los tipos celulares</mark> (0,3 p) y a <mark class=\"clave-criterio\">todas las membranas de orgánulos</mark> (0,3 p).",
+    "Funciones: <mark class=\"clave-criterio\">delimitar la célula</mark>, <mark class=\"clave-criterio\">relación con el medio</mark>, <mark class=\"clave-criterio\">transporte selectivo</mark>. Dos, a 0,2 p (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 2",
+    "referencia": "Modelo 2, opción B, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO 2_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_2_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 2, opción B, pregunta 2, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m2-b3",
+   "block": "Microbiología",
+   "topic": "Ciclo lítico, procariota y biotecnología",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Defina los siguientes términos: ciclo lítico, célula procariótica y biotecnología [1,5]. Cite dos características propias de los virus que permitan diferenciarlos del resto de microorganismos [0,5].",
+   "c": [
+    "Ciclo lítico: el virus usa la célula huésped para <mark class=\"clave-criterio\">sintetizar copias de su material genético y de sus proteínas</mark> y después <mark class=\"clave-criterio\">la destruye</mark> (0,5 p).",
+    "Célula procariótica: organización de las bacterias, <mark class=\"clave-criterio\">sin núcleo ni orgánulos</mark>, que se reproduce por <mark class=\"clave-criterio\">bipartición</mark> (0,5 p).",
+    "Biotecnología: uso de <mark class=\"clave-criterio\">organismos vivos o sus partes</mark> para <mark class=\"clave-criterio\">obtener o modificar productos</mark> (0,5 p).",
+    "Virus: <mark class=\"clave-criterio\">un solo tipo de ácido nucleico</mark>, <mark class=\"clave-criterio\">sin metabolismo propio</mark>, <mark class=\"clave-criterio\">acelulares</mark>. Dos, a 0,25 p (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 2",
+    "referencia": "Modelo 2, opción B, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO 2_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_2_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 2, opción B, pregunta 3, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m2-b4",
+   "block": "Microbiología",
+   "topic": "Antibiótico contra ribosomas 70S",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Suponga que se ha descubierto un nuevo antibiótico llamado “Bactericida 70S” que bloquea a los ribosomas 70S. ¿Se podría usar este antibiótico para combatir las infecciones bacterianas en humanos? [0,5]. ¿Sería recomendable este antibiótico para tratar una infección vírica? [0,5]. Razone las respuestas.",
+   "c": [
+    "<mark class=\"clave-criterio\">No</mark>: los <mark class=\"clave-criterio\">ribosomas 70S también están en las mitocondrias</mark> humanas y se <mark class=\"clave-criterio\">paralizarían las funciones mitocondriales</mark> (0,5 p).",
+    "<mark class=\"clave-criterio\">No</mark>: los <mark class=\"clave-criterio\">virus carecen de ribosomas</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 2",
+    "referencia": "Modelo 2, opción B, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO 2_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_2_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 2, opción B, pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m2-b5",
+   "block": "Genética",
+   "topic": "Borregos blancos y negros",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Un ganadero compró una pareja de borregos con lana blanca que suponía de raza pura. Todos los cruces entre estos dos borregos dieron lugar a borregos blancos. Sin embargo, en algunos cruces entre estos descendientes aparecieron borregos negros. Explique cómo es posible que haya habido descendencia de borregos negros [0,5]. ¿Qué haría usted para demostrar si los borregos que compró el ganadero eran de raza pura? [0,5]. Razone las respuestas representando los esquemas de los posibles cruces.",
+   "c": [
+    "Uno de los parentales era <mark class=\"clave-criterio\">heterocigótico (Bb)</mark>: la mitad de su descendencia fue Bb y, al cruzarse entre sí, dio <mark class=\"clave-criterio\">homocigóticos recesivos (bb) negros</mark> (0,5 p).",
+    "Un <mark class=\"clave-criterio\">cruzamiento prueba</mark> de cada parental con un <mark class=\"clave-criterio\">borrego negro (bb)</mark>: el que dé descendencia negra será el <mark class=\"clave-criterio\">heterocigótico</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 2",
+    "referencia": "Modelo 2, opción B, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO 2_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_2_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 2, opción B, pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m2-b6",
+   "block": "Genética",
+   "topic": "Del ADN al cromosoma",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la imagen adjunta, conteste las siguientes cuestiones:</b><br>a) Indique qué representan cada uno de los números 1, 2 y 3 [0,3]. Indique las funciones de la biomolécula señalada con el número 3 [0,2]. Indique la etapa del ciclo celular y la fase de esta etapa en que se pueden observar elementos como el señalado por el número 2 [0,2]. Nombre tres compartimentos u orgánulos de las células eucarióticas en los que se encuentran moléculas como la señalada con el número 3 [0,3].<br>b) Indique qué nombre reciben y cuál es la composición de los monómeros que forman la biomolécula señalada con el número 3 [0,4]. Describa las principales etapas de empaquetamiento que sufre la biomolécula número 3 hasta llegar a la estructura número 2 [0,6].",
+   "c": [
+    "a) 1: <mark class=\"clave-criterio\">cromátida</mark>; 2: <mark class=\"clave-criterio\">cromosoma</mark>; 3: <mark class=\"clave-criterio\">ADN</mark> (0,3 p).",
+    "a) <mark class=\"clave-criterio\">Portar y transmitir la información genética</mark> (0,2 p).",
+    "a) En la <mark class=\"clave-criterio\">división celular (mitosis)</mark>, en <mark class=\"clave-criterio\">metafase</mark> (0,2 p).",
+    "a) <mark class=\"clave-criterio\">Núcleo, mitocondrias y cloroplastos</mark> (0,3 p).",
+    "b) <mark class=\"clave-criterio\">Desoxirribonucleótidos</mark> (0,1 p): <mark class=\"clave-criterio\">desoxirribosa, bases nitrogenadas y fosfato</mark> (0,3 p).",
+    "b) El ADN se enrolla en <mark class=\"clave-criterio\">octámeros de histonas</mark> formando <mark class=\"clave-criterio\">nucleosomas</mark> (0,3 p); el <mark class=\"clave-criterio\">collar de cuentas</mark> se pliega en hélice y, con sucesivos plegamientos, llega al <mark class=\"clave-criterio\">cromosoma metafásico</mark> (0,3 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 2",
+    "referencia": "Modelo 2, opción B, pregunta 6",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO 2_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_2_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2014/m2-b6.webp",
+   "imgThumb": "assets/figuras/historico/2014/m2-b6.thumb.webp",
+   "imageDesc": "Una doble hélice (3) que se enrolla y compacta hasta formar un cromosoma (2), del que se señala una de sus mitades (1).",
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 2, opción B, pregunta 6, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m3-a1",
+   "block": "Célula",
+   "topic": "Metafase, mitosis y meiosis",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Haga un esquema de la metafase mitótica de una célula con 2n = 6 cromosomas [0,5]. Indique en qué tipo de células tiene lugar la mitosis y en qué tipo de células la meiosis [0,4]. Explique la profase, la anafase y la telofase mitóticas [0,8]. Nombre las etapas de la interfase [0,3].",
+   "c": [
+    "Esquema de la metafase con los <mark class=\"clave-criterio\">cromosomas en el plano medio</mark> de la célula (0,5 p).",
+    "Mitosis: <mark class=\"clave-criterio\">células somáticas</mark>. Meiosis: <mark class=\"clave-criterio\">células germinales</mark> (0,4 p).",
+    "Profase: <mark class=\"clave-criterio\">condensación</mark>, <mark class=\"clave-criterio\">huso acromático</mark>, desaparecen nucléolo y envoltura (0,4 p). Anafase: <mark class=\"clave-criterio\">separación de los centrómeros</mark> y <mark class=\"clave-criterio\">cromátidas hacia los polos</mark> (0,2 p). Telofase: <mark class=\"clave-criterio\">descondensación</mark> y <mark class=\"clave-criterio\">reaparición del nucléolo y la envoltura</mark> (0,2 p).",
+    "Interfase: <mark class=\"clave-criterio\">G1, S y G2</mark> (0,3 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 3",
+    "referencia": "Modelo 3, opción A, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO 3_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_3_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 3, opción A, pregunta 1, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m3-a2",
+   "block": "Genética",
+   "topic": "Expresión génica y transcripción inversa",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Cite y defina los dos procesos que tienen lugar en la expresión de la información genética [0,75]. Indique si alguno de estos procesos podría darse en sentido inverso y en qué tipo de microorganismos se produce [0,5]. Explique la función de los distintos tipos de ARN en la expresión génica [0,75].",
+   "c": [
+    "<mark class=\"clave-criterio\">Transcripción</mark> y <mark class=\"clave-criterio\">traducción</mark> (0,25 p). Transcripción: síntesis de <mark class=\"clave-criterio\">ARN complementario</mark> de un <mark class=\"clave-criterio\">ADN molde</mark> (0,25 p). Traducción: síntesis de un <mark class=\"clave-criterio\">polipéptido a partir del ARNm</mark> (0,25 p).",
+    "La <mark class=\"clave-criterio\">transcripción inversa</mark> (0,25 p), que se produce en <mark class=\"clave-criterio\">algunos virus</mark> (0,25 p).",
+    "ARNr: <mark class=\"clave-criterio\">forma parte del ribosoma</mark>; ARNm: <mark class=\"clave-criterio\">contiene el mensaje genético</mark>; ARNt: <mark class=\"clave-criterio\">transporta los aminoácidos</mark>. 0,25 p cada uno (0,75 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 3",
+    "referencia": "Modelo 3, opción A, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO 3_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_3_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 3, opción A, pregunta 2, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m3-a3",
+   "block": "Inmunología",
+   "topic": "Antígeno, anticuerpo, vacuna y suero",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Defina antígeno [0,5] y anticuerpo [0,5]. Describa la estructura de un anticuerpo [0,5]. Explique dos diferencias entre vacunación y sueroterapia [0,5].",
+   "c": [
+    "Antígeno: molécula <mark class=\"clave-criterio\">no reconocida como propia</mark> que provoca <mark class=\"clave-criterio\">anticuerpos específicos</mark> (0,5 p).",
+    "Anticuerpo: <mark class=\"clave-criterio\">proteína de los linfocitos B</mark> frente a los antígenos (0,5 p).",
+    "<mark class=\"clave-criterio\">Dos cadenas ligeras y dos pesadas</mark> (0,3 p); <mark class=\"clave-criterio\">región constante</mark> (0,1 p); <mark class=\"clave-criterio\">región variable</mark> (0,1 p).",
+    "Diferencias: <mark class=\"clave-criterio\">preventiva / curativa</mark>, <mark class=\"clave-criterio\">formación o no de células de memoria</mark>, <mark class=\"clave-criterio\">inmunidad activa / pasiva</mark>, <mark class=\"clave-criterio\">antígenos / anticuerpos</mark>. Dos, a 0,25 p (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 3",
+    "referencia": "Modelo 3, opción A, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO 3_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_3_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 3, opción A, pregunta 3, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m3-a4",
+   "block": "Célula",
+   "topic": "Lechuga turgente y aliñada",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "¿Por qué las hojas de lechuga se ponen turgentes cuando las dejamos durante un tiempo en un recipiente con agua para lavarlas? [0,5]. ¿Y por qué esas mismas hojas de lechuga se arrugan cuando las aliñamos con sal? [0,5]. Razone las respuestas.",
+   "c": [
+    "En agua las células están en un <mark class=\"clave-criterio\">medio hipotónico</mark> y <mark class=\"clave-criterio\">entra agua por ósmosis</mark> (0,5 p).",
+    "Con sal el medio es <mark class=\"clave-criterio\">hipertónico</mark> y <mark class=\"clave-criterio\">sale agua por ósmosis</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 3",
+    "referencia": "Modelo 3, opción A, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO 3_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_3_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 3, opción A, pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m3-a5",
+   "block": "Célula",
+   "topic": "Cafeína y fragmoplasto",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "La administración de cafeína en los tejidos vegetales inhibe la formación del fragmoplasto en la división celular. Indique qué fase de la división celular se vería afectada [0,5] y cómo serán las células originadas tras la administración de este alcaloide [0,5]. Razone las respuestas.",
+   "c": [
+    "Se relaciona el fragmoplasto con la <mark class=\"clave-criterio\">citocinesis</mark>, que <mark class=\"clave-criterio\">no podría producirse</mark> (0,5 p).",
+    "Serán <mark class=\"clave-criterio\">células binucleadas</mark>: dos núcleos tras la <mark class=\"clave-criterio\">cariocinesis</mark> sin separación del citoplasma (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 3",
+    "referencia": "Modelo 3, opción A, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO 3_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_3_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 3, opción A, pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m3-a6",
+   "block": "Biomoléculas",
+   "topic": "Enzima, sustrato e inhibidores",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la figura adjunta, en la que se representa un enzima, su sustrato y dos inhibidores, conteste las siguientes cuestiones:</b><br>a) Describa qué ocurre en los procesos A y B [1].<br>b) Realice un dibujo y describa qué ocurriría en una reacción con la enzima en presencia de su sustrato y del inhibidor 2 [0,5]. Indique qué ocurre en el proceso A si se produce un cambio brusco en el pH o en la temperatura [0,5].",
+   "c": [
+    "a) A: <mark class=\"clave-criterio\">reacción enzimática</mark>: la enzima se une al sustrato por el <mark class=\"clave-criterio\">centro activo</mark>, forma el <mark class=\"clave-criterio\">complejo enzima-sustrato</mark>, se produce la catálisis y se <mark class=\"clave-criterio\">liberan la enzima y los productos</mark> (0,5 p).",
+    "a) B: <mark class=\"clave-criterio\">inhibición</mark>: el inhibidor se une a la enzima y <mark class=\"clave-criterio\">modifica el centro activo</mark>, que <mark class=\"clave-criterio\">no puede unirse al sustrato</mark> (0,5 p).",
+    "b) Dibujo de una <mark class=\"clave-criterio\">inhibición competitiva</mark> (0,25 p): el inhibidor 2, <mark class=\"clave-criterio\">análogo del sustrato</mark>, <mark class=\"clave-criterio\">ocupa el centro activo</mark> y <mark class=\"clave-criterio\">ralentiza la reacción</mark> (0,25 p).",
+    "b) Fuera del <mark class=\"clave-criterio\">pH y temperatura óptimos</mark> la actividad <mark class=\"clave-criterio\">se ralentiza</mark> y puede llegar a la <mark class=\"clave-criterio\">desnaturalización</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 3",
+    "referencia": "Modelo 3, opción A, pregunta 6",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO 3_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_3_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2014/m3-a6.webp",
+   "imgThumb": "assets/figuras/historico/2014/m3-a6.thumb.webp",
+   "imageDesc": "Una enzima, su sustrato, un inhibidor 1 (triángulo) y un inhibidor 2 (parecido al sustrato). A: la enzima se une al sustrato y libera productos. B: el inhibidor 1 se une en otro lugar y la enzima deforma su centro activo.",
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 3, opción A, pregunta 6, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m3-b1",
+   "block": "Biomoléculas",
+   "topic": "Agua: estructura y propiedades",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Describa la estructura de la molécula del agua [0,4]. Enumere cuatro propiedades físico-químicas del agua y relaciónelas con sus funciones biológicas [1,6].",
+   "c": [
+    "<mark class=\"clave-criterio\">Dos hidrógenos</mark> unidos a <mark class=\"clave-criterio\">un oxígeno</mark> por <mark class=\"clave-criterio\">enlaces covalentes</mark> (0,4 p).",
+    "<mark class=\"clave-criterio\">Cohesión y constante dieléctrica</mark> (transporte y <mark class=\"clave-criterio\">disolvente</mark>); <mark class=\"clave-criterio\">calor específico</mark> (<mark class=\"clave-criterio\">termorregulación</mark>); <mark class=\"clave-criterio\">calor de vaporización</mark> (<mark class=\"clave-criterio\">refrigerante</mark>); <mark class=\"clave-criterio\">adhesión</mark> (<mark class=\"clave-criterio\">capilaridad</mark>); <mark class=\"clave-criterio\">densidad en estado sólido</mark> (vida acuática en zonas frías). Cuatro, a 0,4 p (1,6 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 3",
+    "referencia": "Modelo 3, opción B, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO 3_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_3_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 3, opción B, pregunta 1, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m3-b2",
+   "block": "Metabolismo",
+   "topic": "Glucólisis y destinos del piruvato",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Indique la localización intracelular de la glucólisis [0,1]. ¿De qué moléculas se parte y qué moléculas se obtienen al final? [0,4]. ¿Qué rutas metabólicas puede seguir el producto final de la glucólisis? [0,5]. Indique cuáles son los compuestos iniciales y los productos finales de cada una de estas rutas [1].",
+   "c": [
+    "<mark class=\"clave-criterio\">Citosol</mark> (0,1 p).",
+    "Iniciales: <mark class=\"clave-criterio\">glucosa, NAD⁺, ADP, Pi</mark>; finales: <mark class=\"clave-criterio\">piruvato, NADH+H⁺ y ATP</mark> (0,4 p).",
+    "Rutas: <mark class=\"clave-criterio\">fermentaciones</mark> (anaeróbica) y <mark class=\"clave-criterio\">ciclo de Krebs</mark> (aeróbica) (0,5 p).",
+    "Fermentaciones: <mark class=\"clave-criterio\">piruvato</mark> → <mark class=\"clave-criterio\">lactato o etanol</mark> y <mark class=\"clave-criterio\">NAD⁺</mark> (0,5 p).",
+    "Ciclo de Krebs: <mark class=\"clave-criterio\">acetil-CoA y oxalacético</mark> → <mark class=\"clave-criterio\">CO₂, NADH+H⁺, FADH₂ y GTP (ATP)</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 3",
+    "referencia": "Modelo 3, opción B, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO 3_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_3_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 3, opción B, pregunta 2, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m3-b3",
+   "block": "Microbiología",
+   "topic": "La bacteria y sus componentes",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Dibuje una bacteria [0,3] e identifique siete de sus componentes [0,7]. Cite una función de cinco de estos componentes [1].",
+   "c": [
+    "Dibujo (0,3 p).",
+    "Componentes: <mark class=\"clave-criterio\">flagelo o fimbrias</mark>, <mark class=\"clave-criterio\">cápsula</mark>, <mark class=\"clave-criterio\">pared celular</mark>, <mark class=\"clave-criterio\">membrana plasmática</mark>, citoplasma, <mark class=\"clave-criterio\">cromosoma bacteriano</mark>, <mark class=\"clave-criterio\">plásmidos</mark>, <mark class=\"clave-criterio\">ribosomas</mark>, vesículas de gas, gránulos. Siete, a 0,1 p (0,7 p).",
+    "Funciones: flagelos, <mark class=\"clave-criterio\">movilidad</mark>; fimbrias, <mark class=\"clave-criterio\">adhesión</mark>; cápsula, <mark class=\"clave-criterio\">protección</mark> frente a fagocitosis y desecación; pared, <mark class=\"clave-criterio\">forma y rigidez</mark>; membrana, <mark class=\"clave-criterio\">paso selectivo</mark>; cromosoma, <mark class=\"clave-criterio\">información genética</mark>; plásmidos, <mark class=\"clave-criterio\">ventajas adicionales</mark>; ribosomas, <mark class=\"clave-criterio\">síntesis de proteínas</mark>. Cinco, a 0,2 p (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 3",
+    "referencia": "Modelo 3, opción B, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO 3_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_3_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 3, opción B, pregunta 3, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m3-b4",
+   "block": "Célula",
+   "topic": "Nucléolo y síntesis de proteínas",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Explique razonadamente la relación que existe entre el nucléolo y la síntesis de proteínas [1].",
+   "c": [
+    "La síntesis de proteínas ocurre en los <mark class=\"clave-criterio\">ribosomas</mark>, formados por <mark class=\"clave-criterio\">ARN ribosómico</mark> que <mark class=\"clave-criterio\">se sintetiza en el nucléolo</mark> (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 3",
+    "referencia": "Modelo 3, opción B, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO 3_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_3_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 3, opción B, pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m3-b5",
+   "block": "Inmunología",
+   "topic": "Respuestas frente a dos antígenos",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "En un experimento se inoculan ratones con un antígeno A con el que no habían tenido contacto previo. Trascurridas cuatro semanas vuelven a ser inoculados con una mezcla de antígeno A y un nuevo antígeno B, con el que tampoco habían tenido contacto anteriormente. Describa [0,7] y represente gráficamente [0,3] la evolución de la concentración de anticuerpos anti A y anti B en sangre durante las ocho semanas que dura el experimento. Razone las respuestas.",
+   "c": [
+    "El primer contacto con cada antígeno produce una <mark class=\"clave-criterio\">respuesta primaria</mark>, <mark class=\"clave-criterio\">lenta</mark> (0,3 p).",
+    "Frente a A, el segundo contacto produce una <mark class=\"clave-criterio\">respuesta secundaria</mark>: anticuerpos <mark class=\"clave-criterio\">más elevados, rápidos y persistentes</mark>, gracias a las <mark class=\"clave-criterio\">células de memoria</mark> (0,4 p).",
+    "<mark class=\"clave-criterio\">Gráfica</mark> de la concentración de anticuerpos frente al tiempo (0,3 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 3",
+    "referencia": "Modelo 3, opción B, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO 3_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_3_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 3, opción B, pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m3-b6",
+   "block": "Genética",
+   "topic": "Dihibridismo en hojas de jardín",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>Una planta de jardín presenta dos variedades (P1 y P2). La variedad P1 tiene hojas de borde liso y moteadas (manchas distribuidas al azar) y la variedad P2 tiene hojas de borde lobulado y sin motear. El carácter borde liso (B) es dominante sobre el carácter lobulado (b) y el carácter no moteado (M) es dominante sobre el carácter moteado (m). Se cruza una planta P1 con una P2 y los resultados obtenidos se indican en el esquema. A la vista de los mismos, conteste las siguientes cuestiones:</b><br>a) Deduzca los genotipos de P1 y P2 [0,6] e indique los gametos que formarán cada una de ellas [0,2]. ¿Cuál es el genotipo de las plantas 1 y 4 de la F1? [0,2].<br>b) Indique el genotipo de la planta número 2 de la F1 y explique cuáles serían los genotipos de la F2 resultante del cruce de esta planta con la número 4 [0,8]. ¿Cuáles serían las proporciones fenotípicas esperadas de cada uno de ellos? [0,2]. Razone las respuestas representando los esquemas de los posibles cruces.",
+   "c": [
+    "a) P1: <mark class=\"clave-criterio\">Bbmm</mark>: heterocigótica para el borde, si no no habría descendientes lobulados (0,3 p). P2: <mark class=\"clave-criterio\">bbMm</mark>: heterocigótica para el moteado, si no no habría moteados (0,3 p).",
+    "a) Gametos de P1: <mark class=\"clave-criterio\">Bm y bm</mark>; de P2: <mark class=\"clave-criterio\">bM y bm</mark> (0,2 p).",
+    "a) Planta 1: <mark class=\"clave-criterio\">BbMm</mark>; planta 4: <mark class=\"clave-criterio\">bbmm</mark> (0,2 p).",
+    "b) Planta 2: <mark class=\"clave-criterio\">Bbmm</mark> (0,2 p). Cruce 2 × 4: <mark class=\"clave-criterio\">Bbmm 50 %</mark> y <mark class=\"clave-criterio\">bbmm 50 %</mark> (0,6 p).",
+    "b) Fenotipos: <mark class=\"clave-criterio\">borde liso y moteada 50 %</mark>; <mark class=\"clave-criterio\">borde lobulado y moteada 50 %</mark> (0,2 p). Se justifica con los cruces."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 3",
+    "referencia": "Modelo 3, opción B, pregunta 6",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO 3_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_3_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2014/m3-b6.webp",
+   "imgThumb": "assets/figuras/historico/2014/m3-b6.thumb.webp",
+   "imageDesc": "P1 (hoja de borde liso y moteada) × P2 (hoja lobulada sin motear); en la F1, cuatro hojas: 1 lisa sin motear, 2 lisa moteada, 3 lobulada sin motear y 4 lobulada moteada.",
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 3, opción B, pregunta 6, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m5-a1",
+   "block": "Biomoléculas",
+   "topic": "Ácidos grasos, triacilglicéridos y fosfolípidos",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Defina ácido graso, triacilglicérido y fosfolípido [1,2]. Explique por qué los fosfolípidos son moléculas anfipáticas [0,4]. Cite una función biológica de los carotenoides y otra de los esteroides [0,4].",
+   "c": [
+    "Ácido graso: <mark class=\"clave-criterio\">cadena hidrocarbonada larga</mark> con un <mark class=\"clave-criterio\">grupo carboxilo</mark> en un extremo (0,4 p).",
+    "Triacilglicérido: <mark class=\"clave-criterio\">triéster de glicerina y ácidos grasos</mark> (0,4 p).",
+    "Fosfolípido: <mark class=\"clave-criterio\">éster de glicerina con dos ácidos grasos</mark> y un <mark class=\"clave-criterio\">ácido fosfórico unido a un alcohol</mark> (0,4 p).",
+    "Son anfipáticos porque tienen una <mark class=\"clave-criterio\">parte hidrófila (polar)</mark> y otra <mark class=\"clave-criterio\">hidrófoba (apolar)</mark> (0,4 p).",
+    "Carotenoides: <mark class=\"clave-criterio\">pigmentos y vitaminas</mark>; esteroides: <mark class=\"clave-criterio\">componentes de membranas</mark>, <mark class=\"clave-criterio\">precursores de hormonas</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 5",
+    "referencia": "Modelo 5, opción A, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO_5_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_5_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 5, opción A, pregunta 1, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m5-a2",
+   "block": "Célula",
+   "topic": "Mitosis frente a meiosis",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Compare y describa los procesos de mitosis y meiosis en relación con: a) tipos de células implicadas [0,5], b) anafase de la mitosis y anafase de la primera división meiótica [1] y c) resultado del proceso [0,5].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Somáticas (mitosis)</mark> y <mark class=\"clave-criterio\">germinales (meiosis)</mark> (0,5 p).",
+    "b) Anafase mitótica: <mark class=\"clave-criterio\">separación de cromátidas hermanas</mark> hacia polos opuestos (0,5 p). Anafase I: cada <mark class=\"clave-criterio\">mitad de la tétrada</mark> va a un polo: <mark class=\"clave-criterio\">no se separan cromátidas sino cromosomas de dos cromátidas</mark> (0,5 p).",
+    "c) Mitosis: <mark class=\"clave-criterio\">dos células hijas idénticas</mark> a la madre (0,25 p). Meiosis: <mark class=\"clave-criterio\">cuatro células haploides</mark> con <mark class=\"clave-criterio\">distinta información genética</mark> (0,25 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 5",
+    "referencia": "Modelo 5, opción A, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO_5_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_5_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 5, opción A, pregunta 2, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m5-a3",
+   "block": "Genética",
+   "topic": "Pares de conceptos genéticos",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Explique la diferencia entre los siguientes pares de conceptos: gen-alelo [0,5], homocigoto-heterocigoto [0,5], herencia dominante-herencia intermedia [0,5], gen autosómico-gen ligado al sexo [0,5].",
+   "c": [
+    "Gen: <mark class=\"clave-criterio\">fragmento de ADN</mark> que determina una característica; alelo: <mark class=\"clave-criterio\">forma alternativa</mark> de un gen (0,5 p).",
+    "Homocigoto: dos alelos <mark class=\"clave-criterio\">idénticos</mark>; heterocigoto: dos alelos <mark class=\"clave-criterio\">diferentes</mark> (0,5 p).",
+    "Dominante: el fenotipo lo determina <mark class=\"clave-criterio\">uno de los dos alelos</mark>; intermedia: <mark class=\"clave-criterio\">fenotipo intermedio</mark> (0,5 p).",
+    "Autosómico: en los <mark class=\"clave-criterio\">autosomas</mark>; ligado al sexo: en los <mark class=\"clave-criterio\">cromosomas sexuales</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 5",
+    "referencia": "Modelo 5, opción A, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO_5_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_5_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 5, opción A, pregunta 3, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m5-a4",
+   "block": "Célula",
+   "topic": "Células animales en medios hiper, hipo e isotónicos",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Se introducen células animales en tres tubos de ensayo: el tubo A tiene una solución hipertónica, el B una hipotónica y el C una isotónica. Exponga razonadamente lo que les ocurrirá a las células en cada uno de los tubos [1].",
+   "c": [
+    "Tubo A: <mark class=\"clave-criterio\">pierden agua (plasmólisis)</mark> (0,4 p); tubo B: <mark class=\"clave-criterio\">entra agua</mark> y pueden <mark class=\"clave-criterio\">lisarse</mark> (0,3 p); tubo C: <mark class=\"clave-criterio\">no ocurre nada</mark>, por ser <mark class=\"clave-criterio\">isotónico</mark> (0,3 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 5",
+    "referencia": "Modelo 5, opción A, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO_5_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_5_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 5, opción A, pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m5-a5",
+   "block": "Biotecnología",
+   "topic": "Por qué se usan fermentadores en industria",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "A pesar de que el rendimiento energético de la fermentación es menor que el de la respiración, los organismos con capacidad de producir fermentaciones son muy utilizados en biotecnología y con fines industriales. Dé una explicación razonada a este hecho [1].",
+   "c": [
+    "Lo determinante no es el rendimiento energético sino que den <mark class=\"clave-criterio\">productos de interés comercial</mark> (vinagre, <mark class=\"clave-criterio\">bebidas alcohólicas</mark>, <mark class=\"clave-criterio\">derivados lácteos</mark>…). También vale: <mark class=\"clave-criterio\">fácil mantenimiento y reproducción</mark>, fáciles de <mark class=\"clave-criterio\">manipular genéticamente</mark>, <mark class=\"clave-criterio\">pocos requerimientos</mark> (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 5",
+    "referencia": "Modelo 5, opción A, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO_5_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_5_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 5, opción A, pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m5-a6",
+   "block": "Biomoléculas",
+   "topic": "Aminoácido y dipéptido",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la imagen adjunta, conteste las siguientes cuestiones:</b><br>a) ¿Qué tipo de biomolécula representa? [0,1]. Indique los nombres de los grupos químicos de los recuadros señalados con los números 1 y 2 [0,3]. ¿Qué representa R? [0,1]. ¿Qué nombre reciben las macromoléculas biológicas formadas por gran cantidad de monómeros de este tipo? [0,1]. Enumere cuatro de las funciones biológicas de estas macromoléculas [0,4].<br>b) Indique qué nombre recibe el compuesto que se forma al unirse dos biomoléculas como la representada [0,1] y dibújelo [0,5]. Indique el nombre que recibe el enlace que se forma entre estas biomoléculas [0,2] y cite dos características de este enlace [0,2].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Aminoácido</mark> (0,1 p). 1: <mark class=\"clave-criterio\">grupo amino (-NH₂)</mark>; 2: <mark class=\"clave-criterio\">grupo carboxilo (-COOH)</mark> (0,3 p).",
+    "a) R: <mark class=\"clave-criterio\">cadena lateral o radical</mark>, el componente variable (0,1 p). <mark class=\"clave-criterio\">Proteínas</mark> (0,1 p).",
+    "a) Funciones: <mark class=\"clave-criterio\">enzimática</mark>, <mark class=\"clave-criterio\">transporte</mark>, <mark class=\"clave-criterio\">contracción</mark>, <mark class=\"clave-criterio\">estructural</mark>, <mark class=\"clave-criterio\">reserva</mark>, <mark class=\"clave-criterio\">inmunidad</mark>, <mark class=\"clave-criterio\">hormonal</mark>. Cuatro, a 0,1 p (0,4 p).",
+    "b) <mark class=\"clave-criterio\">Dipéptido</mark> (0,1 p) y su <mark class=\"clave-criterio\">dibujo</mark> (0,5 p).",
+    "b) <mark class=\"clave-criterio\">Enlace peptídico</mark> (0,2 p): <mark class=\"clave-criterio\">covalente</mark>, <mark class=\"clave-criterio\">coplanario</mark>, <mark class=\"clave-criterio\">sin giro</mark>. Dos, a 0,1 p (0,2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 5",
+    "referencia": "Modelo 5, opción A, pregunta 6",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO_5_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_5_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2014/m5-a6.webp",
+   "imgThumb": "assets/figuras/historico/2014/m5-a6.thumb.webp",
+   "imageDesc": "Molécula con un carbono central unido a un H, a un grupo R, a un grupo NH₂ (recuadro 1) y a un grupo COOH (recuadro 2).",
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 5, opción A, pregunta 6, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m5-b1",
+   "block": "Biomoléculas",
+   "topic": "Enzimas, cofactores e inhibidores",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Explique cuál es la función de las enzimas [0,4]. ¿Qué se entiende por cofactor enzimático [0,4], coenzima [0,4], inhibidor enzimático [0,4] y centro activo [0,4]?",
+   "c": [
+    "Las enzimas <mark class=\"clave-criterio\">aceleran las reacciones</mark> (0,2 p) <mark class=\"clave-criterio\">disminuyendo la energía de activación</mark> (0,2 p).",
+    "Cofactor: <mark class=\"clave-criterio\">componente no proteico necesario</mark> para la acción de una enzima (0,4 p).",
+    "Coenzima: <mark class=\"clave-criterio\">cofactor orgánico</mark> que interviene en reacciones enzimáticas (0,4 p).",
+    "Inhibidor: sustancia que <mark class=\"clave-criterio\">disminuye o anula la actividad enzimática</mark> (0,4 p).",
+    "Centro activo: <mark class=\"clave-criterio\">región de la enzima</mark> con los <mark class=\"clave-criterio\">aminoácidos que se unen al sustrato</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 5",
+    "referencia": "Modelo 5, opción B, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO_5_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_5_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 5, opción B, pregunta 1, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m5-b2",
+   "block": "Metabolismo",
+   "topic": "Catabolismo aerobio y anaerobio de la glucosa",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Defina catabolismo [0,5]. Compare las vías aeróbica y anaeróbica del catabolismo de la glucosa en células eucarióticas en cuanto a su localización [0,5], rendimiento energético [0,4] y productos finales [0,6].",
+   "c": [
+    "Catabolismo: reacciones que proporcionan <mark class=\"clave-criterio\">precursores, energía y poder reductor</mark> (0,5 p).",
+    "Localización: aeróbica en <mark class=\"clave-criterio\">citoplasma y mitocondria</mark>; anaeróbica en el <mark class=\"clave-criterio\">citoplasma</mark> (0,5 p).",
+    "La vía aeróbica tiene <mark class=\"clave-criterio\">mayor rendimiento energético</mark> (0,4 p).",
+    "Productos: <mark class=\"clave-criterio\">ATP, CO₂ y H₂O</mark> en aerobiosis; <mark class=\"clave-criterio\">ATP, lactato y/o etanol</mark> en anaerobiosis. 0,3 p cada una (0,6 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 5",
+    "referencia": "Modelo 5, opción B, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO_5_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_5_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 5, opción B, pregunta 2, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m5-b3",
+   "block": "Inmunología",
+   "topic": "Términos de inmunología",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Defina los siguientes términos: antígeno, inmunidad artificial, respuesta primaria, enfermedad autoinmune y respuesta humoral [2].",
+   "c": [
+    "Antígeno: molécula <mark class=\"clave-criterio\">no reconocida</mark> que provoca <mark class=\"clave-criterio\">anticuerpos específicos</mark> (0,4 p).",
+    "Inmunidad artificial: la producida por <mark class=\"clave-criterio\">intervención humana</mark>, como una <mark class=\"clave-criterio\">vacuna</mark> (0,4 p).",
+    "Respuesta primaria: la que se produce la <mark class=\"clave-criterio\">primera vez</mark> que entra un patógeno (0,4 p).",
+    "Autoinmune: se <mark class=\"clave-criterio\">destruyen moléculas o células propias</mark> (0,4 p).",
+    "Respuesta humoral: basada en la producción de <mark class=\"clave-criterio\">anticuerpos</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 5",
+    "referencia": "Modelo 5, opción B, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO_5_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_5_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 5, opción B, pregunta 3, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m5-b4",
+   "block": "Célula",
+   "topic": "Fosfolípido frente a aminoácido en la membrana",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "La fosfatidilcolina (fosfolípido) puede atravesar la bicapa lipídica mientras que la histidina (aminoácido) no lo puede hacer. Explique razonadamente cuál es la causa de este diferente comportamiento [1].",
+   "c": [
+    "La fosfatidilcolina, por ser un <mark class=\"clave-criterio\">lípido</mark>, <mark class=\"clave-criterio\">se disuelve en la bicapa</mark> y la atraviesa por <mark class=\"clave-criterio\">difusión simple</mark> (0,5 p).",
+    "La histidina <mark class=\"clave-criterio\">tiene carga</mark> y <mark class=\"clave-criterio\">requiere un transportador</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 5",
+    "referencia": "Modelo 5, opción B, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO_5_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_5_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 5, opción B, pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m5-b5",
+   "block": "Genética",
+   "topic": "Experimento de replicación con ¹⁵N",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Al cultivar <i>Escherichia coli</i> en un medio con <sup>15</sup>N se obtienen bacterias con ADN de densidad alta. Las bacterias que viven en un medio normal, con <sup>14</sup>N, tienen un ADN con densidad baja. Si se cultivan bacterias con ADN de densidad alta en un medio normal con <sup>14</sup>N, ¿qué densidad tendrá el ADN de las bacterias de la primera generación? [0,5]. ¿Cómo será la densidad del ADN en la segunda generación? [0,5]. Razone las respuestas.",
+   "c": [
+    "Primera generación: <mark class=\"clave-criterio\">densidad intermedia</mark>: cada ADN tiene <mark class=\"clave-criterio\">una hebra con ¹⁴N y otra con ¹⁵N</mark>, porque la replicación es <mark class=\"clave-criterio\">semiconservativa</mark> (0,5 p).",
+    "Segunda generación: <mark class=\"clave-criterio\">mitad de densidad intermedia</mark> y <mark class=\"clave-criterio\">mitad de densidad baja</mark> (las dos hebras con ¹⁴N) (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 5",
+    "referencia": "Modelo 5, opción B, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO_5_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_5_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 5, opción B, pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m5-b6",
+   "block": "Célula",
+   "topic": "Célula vegetal: estructuras y funciones",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la imagen adjunta, conteste las siguientes cuestiones:</b><br>a) Indique el tipo celular de que se trata [0,1], basándose en tres características [0,3]. Indique qué números corresponden con las siguientes estructuras: retículo endoplasmático rugoso, retículo endoplasmático liso, mitocondria, y complejo de Golgi [0,4]. ¿Qué funciones tienen las estructuras 3 y 6? [0,2].<br>b) Indique dos funciones de la estructura señalada con el número 7 [0,2], dos funciones de la estructura número 8 [0,2] y otras dos realizadas por la estructura número 1 [0,2]. Nombre dos reinos en los que se pueda encontrar este tipo celular [0,4].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Célula eucariótica vegetal</mark> (0,1 p): <mark class=\"clave-criterio\">cloroplastos</mark>, <mark class=\"clave-criterio\">pared celular</mark>, <mark class=\"clave-criterio\">vacuolas</mark>, <mark class=\"clave-criterio\">ausencia de centriolos</mark>. Tres, a 0,1 p (0,3 p).",
+    "a) RER: <mark class=\"clave-criterio\">4</mark>; REL: <mark class=\"clave-criterio\">8</mark>; mitocondria: <mark class=\"clave-criterio\">6</mark>; Golgi: <mark class=\"clave-criterio\">5</mark> (0,4 p).",
+    "a) 3: <mark class=\"clave-criterio\">fotosíntesis</mark>; 6: <mark class=\"clave-criterio\">respiración celular</mark> (0,2 p).",
+    "b) 7 (vacuola): <mark class=\"clave-criterio\">reserva</mark>, <mark class=\"clave-criterio\">almacén de desechos</mark>, <mark class=\"clave-criterio\">regulación osmótica</mark> (0,2 p). 8 (REL): <mark class=\"clave-criterio\">síntesis de lípidos</mark>, <mark class=\"clave-criterio\">detoxificación</mark> (0,2 p). 1 (pared): <mark class=\"clave-criterio\">estructural</mark>, <mark class=\"clave-criterio\">forma y rigidez</mark>, <mark class=\"clave-criterio\">turgencia</mark> (0,2 p).",
+    "b) <mark class=\"clave-criterio\">Reino Plantas</mark> y <mark class=\"clave-criterio\">Reino Protoctistas</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 5",
+    "referencia": "Modelo 5, opción B, pregunta 6",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO_5_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_5_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2014/m5-b6.webp",
+   "imgThumb": "assets/figuras/historico/2014/m5-b6.thumb.webp",
+   "imageDesc": "Célula con pared gruesa, gran vacuola central, cloroplastos, núcleo y otros orgánulos; ocho estructuras numeradas.",
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 5, opción B, pregunta 6, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m6-a1",
+   "block": "Célula",
+   "topic": "Transporte y endocitosis",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Indique las características de los siguientes procesos: transporte pasivo, transporte activo, pinocitosis, fagocitosis y exocitosis [2].",
+   "c": [
+    "Pasivo: <mark class=\"clave-criterio\">difusión simple</mark> (sin energía, <mark class=\"clave-criterio\">a favor de gradiente</mark>) (0,2 p) y <mark class=\"clave-criterio\">difusión facilitada</mark> (además, <mark class=\"clave-criterio\">mediada por proteínas</mark>) (0,3 p).",
+    "Activo: <mark class=\"clave-criterio\">contra gradiente</mark>, <mark class=\"clave-criterio\">proteínas</mark> y <mark class=\"clave-criterio\">gasto de energía</mark> (0,3 p).",
+    "Pinocitosis: entrada de <mark class=\"clave-criterio\">fluidos</mark> en <mark class=\"clave-criterio\">vesículas pinocíticas</mark> (0,4 p).",
+    "Fagocitosis: incorporación de <mark class=\"clave-criterio\">partículas sólidas</mark> formando <mark class=\"clave-criterio\">fagosomas</mark> (0,4 p).",
+    "Exocitosis: <mark class=\"clave-criterio\">expulsión de moléculas</mark> en <mark class=\"clave-criterio\">vesículas de secreción</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 6",
+    "referencia": "Modelo 6, opción A, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO_6_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_6_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 6, opción A, pregunta 1, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m6-a2",
+   "block": "Genética",
+   "topic": "Codón, anticodón y código genético",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Defina el concepto de codón y anticodón [0,6]. ¿Cuáles son las funciones del ARN mensajero y del ARN transferente? [0,8]. Cite tres características del código genético [0,6].",
+   "c": [
+    "Codón: <mark class=\"clave-criterio\">tres nucleótidos consecutivos del ARNm</mark> que codifican un aminoácido (0,3 p). Anticodón: <mark class=\"clave-criterio\">triplete del ARNt</mark> que se une a un <mark class=\"clave-criterio\">codón complementario</mark> (0,3 p).",
+    "ARNm: <mark class=\"clave-criterio\">contiene y transporta el mensaje genético</mark> (0,4 p). ARNt: <mark class=\"clave-criterio\">transporta los aminoácidos</mark> (0,4 p).",
+    "<mark class=\"clave-criterio\">Universal</mark>, <mark class=\"clave-criterio\">específico</mark>, <mark class=\"clave-criterio\">continuo</mark>, <mark class=\"clave-criterio\">degenerado</mark>, con <mark class=\"clave-criterio\">señales de inicio y final</mark>. Tres, a 0,2 p (0,6 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 6",
+    "referencia": "Modelo 6, opción A, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO_6_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_6_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 6, opción A, pregunta 2, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m6-a3",
+   "block": "Microbiología",
+   "topic": "Virus frente a procariotas",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Indique qué es un virus [0,5]. Cite tres diferencias entre los virus y los procariotas [0,6]. Distinga entre cápsida vírica y cápsula bacteriana [0,6]. Explique la principal diferencia entre el ciclo lítico y el ciclo lisogénico de un bacteriófago [0,3].",
+   "c": [
+    "Virus: <mark class=\"clave-criterio\">forma acelular</mark> de <mark class=\"clave-criterio\">proteínas y un solo tipo de ácido nucleico</mark> que necesita <mark class=\"clave-criterio\">células vivas</mark> para multiplicarse (<mark class=\"clave-criterio\">parásito obligado</mark>) (0,5 p).",
+    "Diferencias: <mark class=\"clave-criterio\">un tipo de ácido nucleico</mark>, <mark class=\"clave-criterio\">sin metabolismo propio</mark>, <mark class=\"clave-criterio\">sin estructura celular</mark>. Tres, a 0,2 p (0,6 p).",
+    "Cápsida: <mark class=\"clave-criterio\">cubierta proteica</mark> del ácido nucleico vírico; cápsula: <mark class=\"clave-criterio\">capa externa</mark> de algunas bacterias, generalmente de <mark class=\"clave-criterio\">glúcidos</mark> (0,6 p).",
+    "En el ciclo lisogénico el <mark class=\"clave-criterio\">ADN vírico se integra en el genoma celular</mark>; en el lítico no (0,3 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 6",
+    "referencia": "Modelo 6, opción A, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO_6_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_6_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 6, opción A, pregunta 3, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m6-a4",
+   "block": "Biomoléculas",
+   "topic": "Sustitución de aminoácidos en una enzima",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "La sustitución de unos aminoácidos por otros en la secuencia de una determinada proteína impide que lleve a cabo su función catalítica. Dé una explicación razonada a este hecho [1].",
+   "c": [
+    "Puede haberse sustituido algún aminoácido del <mark class=\"clave-criterio\">centro activo</mark>, que ya <mark class=\"clave-criterio\">no reconoce al sustrato</mark>; o el cambio de secuencia afecta al <mark class=\"clave-criterio\">plegamiento</mark> de la proteína. Basta una (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 6",
+    "referencia": "Modelo 6, opción A, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO_6_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_6_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 6, opción A, pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m6-a5",
+   "block": "Microbiología",
+   "topic": "Cloranfenicol y ribosomas 70S",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "El cloranfenicol es un antibiótico que bloquea la actividad de la enzima peptidil transferasa al unirse a los ribosomas 70S. Explique por qué en una placa de cultivo no se produce crecimiento bacteriano en presencia del cloranfenicol [0,5]. ¿Por qué la respiración en las células eucarióticas se ve afectada negativamente en presencia de cloranfenicol? [0,5]. Razone las respuestas.",
+   "c": [
+    "Los <mark class=\"clave-criterio\">ribosomas 70S son bacterianos</mark>: al bloquearlos se <mark class=\"clave-criterio\">impide la síntesis proteica</mark> y <mark class=\"clave-criterio\">no crecen</mark> (0,5 p).",
+    "La respiración ocurre en la <mark class=\"clave-criterio\">mitocondria</mark>, cuyos <mark class=\"clave-criterio\">ribosomas son similares a los bacterianos</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 6",
+    "referencia": "Modelo 6, opción A, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO_6_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_6_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 6, opción A, pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m6-a6",
+   "block": "Metabolismo",
+   "topic": "ATP: estructura y funciones",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la imagen adjunta, conteste las siguientes cuestiones:</b><br>a) Identifique el tipo de molécula representada [0,2]. Cite dos funciones que pueden realizar moléculas con este tipo de estructura [0,4]. Nombre los componentes representados con los números 1, 2 y 3 [0,3]. ¿Qué enlace une lo representado con los números 2 y 3? [0,1].<br>b) Indique dos procesos en los que se genera este tipo de compuestos [0,4] e identifique su localización celular [0,2]. Indique dos procesos en los que se consuma este tipo de compuestos [0,4].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Nucleótido</mark> (<mark class=\"clave-criterio\">ATP</mark>) (0,2 p). Funciones: <mark class=\"clave-criterio\">energética</mark>, <mark class=\"clave-criterio\">precursor de coenzimas</mark>, <mark class=\"clave-criterio\">estructural</mark>, <mark class=\"clave-criterio\">segundo mensajero</mark>. Dos, a 0,2 p (0,4 p).",
+    "a) 1: <mark class=\"clave-criterio\">adenina</mark>; 2: <mark class=\"clave-criterio\">ribosa</mark>; 3: <mark class=\"clave-criterio\">tres ácidos fosfóricos</mark> (0,3 p). Enlace: <mark class=\"clave-criterio\">éster</mark> (0,1 p).",
+    "b) <mark class=\"clave-criterio\">Glucólisis</mark> (citosol), <mark class=\"clave-criterio\">ciclo de Krebs</mark> (matriz), <mark class=\"clave-criterio\">fosforilación oxidativa</mark> (membrana interna mitocondrial), <mark class=\"clave-criterio\">fotofosforilación</mark> (tilacoide). Dos procesos a 0,2 p y su localización a 0,1 p (0,6 p).",
+    "b) Se consume en <mark class=\"clave-criterio\">reacciones de síntesis</mark>, <mark class=\"clave-criterio\">transporte activo</mark>, formación de <mark class=\"clave-criterio\">intermediarios metabólicos</mark>. Dos, a 0,2 p (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 6",
+    "referencia": "Modelo 6, opción A, pregunta 6",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO_6_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_6_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2014/m6-a6.webp",
+   "imgThumb": "assets/figuras/historico/2014/m6-a6.thumb.webp",
+   "imageDesc": "Molécula formada por una base con NH₂ (1), un azúcar de cinco carbonos (2) y tres grupos fosfato encadenados (3).",
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 6, opción A, pregunta 6, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m6-b1",
+   "block": "Biomoléculas",
+   "topic": "Nucleótidos: estructura y funciones",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Describa la estructura general [0,5] y la composición química de los nucleótidos [0,5]. Explique dos funciones biológicas de los nucleótidos y cite un ejemplo de cada una [1].",
+   "c": [
+    "<mark class=\"clave-criterio\">Pentosa</mark> y <mark class=\"clave-criterio\">base nitrogenada</mark> unidas a <mark class=\"clave-criterio\">ácido fosfórico</mark> mediante <mark class=\"clave-criterio\">enlace éster</mark> (0,5 p).",
+    "Bases (<mark class=\"clave-criterio\">A, G, C, T</mark>), pentosas (<mark class=\"clave-criterio\">ribosa, desoxirribosa</mark>) y <mark class=\"clave-criterio\">ácido fosfórico</mark> (0,5 p).",
+    "<mark class=\"clave-criterio\">Transferencia de energía</mark> (<mark class=\"clave-criterio\">ATP</mark>, GTP); <mark class=\"clave-criterio\">estructural</mark> (<mark class=\"clave-criterio\">ácidos nucleicos</mark>); <mark class=\"clave-criterio\">coenzimas</mark> (<mark class=\"clave-criterio\">NAD, FAD</mark>). Dos, a 0,5 p con su ejemplo (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 6",
+    "referencia": "Modelo 6, opción B, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO_6_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_6_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 6, opción B, pregunta 1, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m6-b2",
+   "block": "Célula",
+   "topic": "Mosaico fluido con dibujo",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Describa el modelo del Mosaico Fluido de membrana [1,25] e ilústrelo con un dibujo indicando los componentes principales [0,75].",
+   "c": [
+    "<mark class=\"clave-criterio\">Bicapa lipídica</mark> (fosfolípidos, colesterol), <mark class=\"clave-criterio\">proteínas periféricas e integradas</mark> y <mark class=\"clave-criterio\">glúcidos en la hemicapa externa</mark> (1,25 p).",
+    "<mark class=\"clave-criterio\">Dibujo</mark> con bicapa, proteínas y glúcidos (0,75 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 6",
+    "referencia": "Modelo 6, opción B, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO_6_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_6_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 6, opción B, pregunta 2, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m6-b3",
+   "block": "Inmunología",
+   "topic": "Inmunidad humoral y celular",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Defina inmunidad humoral e inmunidad celular [0,8]. Describa las principales características de cada una de ellas [1,2].",
+   "c": [
+    "Humoral: resistencia debida a los <mark class=\"clave-criterio\">anticuerpos de los linfocitos B (células plasmáticas)</mark> (0,4 p). Celular: resistencia mediada por los <mark class=\"clave-criterio\">linfocitos T</mark> (0,4 p).",
+    "Humoral: los anticuerpos <mark class=\"clave-criterio\">se unen específicamente a los antígenos</mark> y <mark class=\"clave-criterio\">bloquean su capacidad de unirse a otras células</mark> (0,6 p).",
+    "Celular: los <mark class=\"clave-criterio\">linfocitos T estimulan a otras células o destruyen células infectadas</mark>; los <mark class=\"clave-criterio\">macrófagos presentan antígenos</mark> y <mark class=\"clave-criterio\">fagocitan</mark> (0,6 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 6",
+    "referencia": "Modelo 6, opción B, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO_6_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_6_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 6, opción B, pregunta 3, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m6-b4",
+   "block": "Metabolismo",
+   "topic": "Energía en los glóbulos rojos",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "A pesar de carecer de mitocondrias los glóbulos rojos humanos siguen produciendo energía y viven unos 120 días. Proponga una hipótesis razonada para justificar cómo pueden obtener, a partir de glucosa, la energía que necesitan para mantener su actividad biológica durante ese tiempo [1].",
+   "c": [
+    "Sin mitocondrias no hay respiración celular: la única vía es la <mark class=\"clave-criterio\">fermentación</mark> (si solo se menciona la <mark class=\"clave-criterio\">glucólisis</mark>, 0,5 p) (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 6",
+    "referencia": "Modelo 6, opción B, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO_6_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_6_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 6, opción B, pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m6-b5",
+   "block": "Genética",
+   "topic": "Daltonismo: portadora × hombre normal",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "¿Cuáles serán los genotipos posibles de los descendientes de una mujer portadora del gen del daltonismo y un hombre de visión normal? [0,25]. ¿Cuál es la probabilidad de que alguno de sus descendientes sea daltónico? [0,25]. Si tienen hijas, ¿cuál es la probabilidad de que sean daltónicas? [0,25]. ¿Cuál es la probabilidad de tener un descendiente portador del daltonismo? [0,25]. Razone las respuestas representando los esquemas de los posibles cruces.",
+   "c": [
+    "Genotipos: <mark class=\"clave-criterio\">X<sup>d</sup>Y, X<sup>D</sup>X<sup>D</sup>, X<sup>D</sup>Y y X<sup>D</sup>X<sup>d</sup></mark> (0,25 p).",
+    "Descendiente daltónico: <mark class=\"clave-criterio\">25 %</mark> (0,25 p). Hijas daltónicas: <mark class=\"clave-criterio\">0 %</mark> (0,25 p). Descendiente portador: <mark class=\"clave-criterio\">25 %</mark> (0,25 p). Se justifica con el cruce."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 6",
+    "referencia": "Modelo 6, opción B, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO_6_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_6_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 6, opción B, pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2014-m6-b6",
+   "block": "Célula",
+   "topic": "Fases de la mitosis animal",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la figura adjunta que representa un proceso biológico, responda las siguientes cuestiones:</b><br>a) ¿De qué proceso biológico se trata? [0,2]. Nombre las fases representadas con los dibujos II y IV [0,1]. Identifique los elementos señalados con los números 1, 2 y 3 [0,3]. Exponga dos razones que justifiquen el tipo celular eucariótico en el que tiene lugar este proceso [0,4].<br>b) Nombre y describa brevemente las fases I y III [0,6]. ¿Cuál es el significado biológico de este proceso? [0,4].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Mitosis</mark> (0,2 p). II: <mark class=\"clave-criterio\">metafase</mark>; IV: <mark class=\"clave-criterio\">telofase</mark> (0,1 p).",
+    "a) 1: <mark class=\"clave-criterio\">cromosoma</mark>; 2: <mark class=\"clave-criterio\">microtúbulos del huso</mark>; 3: <mark class=\"clave-criterio\">cromosomas de una sola cromátida</mark> (0,3 p).",
+    "a) <mark class=\"clave-criterio\">Célula animal</mark>: <mark class=\"clave-criterio\">centriolos</mark>, <mark class=\"clave-criterio\">ausencia de pared</mark>, <mark class=\"clave-criterio\">anillo de segmentación</mark>. Dos, a 0,2 p (0,4 p).",
+    "b) I, <mark class=\"clave-criterio\">profase</mark>: cromosomas condensados de <mark class=\"clave-criterio\">dos cromátidas hermanas</mark>; <mark class=\"clave-criterio\">desaparecen nucléolo y envoltura</mark> (0,3 p). III, <mark class=\"clave-criterio\">anafase</mark>: <mark class=\"clave-criterio\">separación de las cromátidas hermanas</mark> por <mark class=\"clave-criterio\">acortamiento de los microtúbulos cinetocóricos</mark> (0,3 p).",
+    "b) Significado: células hijas con <mark class=\"clave-criterio\">idéntica información genética</mark>; <mark class=\"clave-criterio\">crecimiento y recambio celular</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 6",
+    "referencia": "Modelo 6, opción B, pregunta 6",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO_6_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_6_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2014/m6-b6.webp",
+   "imgThumb": "assets/figuras/historico/2014/m6-b6.thumb.webp",
+   "imageDesc": "Cuatro células en división (I a IV): cromosomas condensados (I), alineados en el ecuador (II), separándose hacia los polos (III) y célula estrangulándose en dos (IV); se señalan 1, 2 y 3.",
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2013-2014 (Modelo 6, opción B, pregunta 6, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
    "id": "pau2026-modelo-1",
    "block": "Genética",
    "topic": "Replicación en una célula procariota",
@@ -13833,6 +15758,1583 @@ window.BIOCELIA_HISTORICO = {
     "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA- EXAMEN 6-2012-13.pdf",
     "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2013/BIOLOGÍA-CRITERIOS EXAMEN 6-2012-13.pdf",
     "examen_anio": 2013,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2014-junio-a1",
+   "block": "Biomoléculas",
+   "topic": "Estructura terciaria y cuaternaria",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Describa la estructura terciaria y cuaternaria de las proteínas indicando tres tipos de enlaces o fuerzas que las estabilizan [2].",
+   "c": [
+    "Terciaria: <mark class=\"clave-criterio\">plegamiento de una cadena polipeptídica</mark> (0,25 p), mantenido por <mark class=\"clave-criterio\">interacciones hidrofóbicas</mark>, <mark class=\"clave-criterio\">puentes de hidrógeno</mark>, <mark class=\"clave-criterio\">fuerzas de Van der Waals</mark>, <mark class=\"clave-criterio\">fuerzas electrostáticas</mark> y <mark class=\"clave-criterio\">puentes disulfuro</mark>. Solo tres, a 0,25 p (0,75 p).",
+    "Cuaternaria: <mark class=\"clave-criterio\">asociación de varias subunidades polipeptídicas</mark> (0,25 p), mantenida por los mismos enlaces. Solo tres, a 0,25 p (0,75 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Junio",
+    "referencia": "Junio, opción A, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/Biologia_JUN 13-14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_JUN 13-14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2014-junio-a2",
+   "block": "Metabolismo",
+   "topic": "Mitocondria, cadena respiratoria y fosforilación",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Dibuje una mitocondria indicando el nombre de cinco de sus componentes [0,5]. Describa la cadena de transporte electrónico y la fosforilación oxidativa e indique en qué lugar de la mitocondria se realizan estos procesos [1,5].",
+   "c": [
+    "Dibujo y componentes: <mark class=\"clave-criterio\">membrana externa</mark>, <mark class=\"clave-criterio\">espacio intermembranal</mark>, <mark class=\"clave-criterio\">membrana interna</mark>, <mark class=\"clave-criterio\">crestas</mark>, <mark class=\"clave-criterio\">matriz</mark>, <mark class=\"clave-criterio\">ADN</mark>, <mark class=\"clave-criterio\">ribosomas</mark> (0,5 p).",
+    "Cadena de transporte: los <mark class=\"clave-criterio\">electrones del ciclo de Krebs</mark>, llevados por <mark class=\"clave-criterio\">coenzimas</mark> a <mark class=\"clave-criterio\">transportadores de la membrana interna</mark>, <mark class=\"clave-criterio\">caen de nivel energético desprendiendo energía</mark> (0,6 p). Lugar: <mark class=\"clave-criterio\">membrana mitocondrial interna</mark> (0,15 p).",
+    "Fosforilación oxidativa: <mark class=\"clave-criterio\">síntesis de ATP por la ATP sintasa</mark> gracias a un <mark class=\"clave-criterio\">gradiente de protones</mark> creado por la cadena de transporte (0,6 p). Lugar: <mark class=\"clave-criterio\">membrana mitocondrial interna</mark> (0,15 p). No se requiere una descripción exhaustiva."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Junio",
+    "referencia": "Junio, opción A, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/Biologia_JUN 13-14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_JUN 13-14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2014-junio-a3",
+   "block": "Genética",
+   "topic": "Genoma, gen, alelo, heterocigoto y herencia intermedia",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Defina los siguientes conceptos: genoma, gen, alelo, heterocigótico y herencia intermedia [2].",
+   "c": [
+    "Genoma: <mark class=\"clave-criterio\">conjunto de genes</mark> de una célula, un individuo o una especie (0,4 p).",
+    "Gen: <mark class=\"clave-criterio\">fragmento de ADN que determina una característica</mark> (unidad genética funcional) (0,4 p).",
+    "Alelo: cada una de las <mark class=\"clave-criterio\">formas alternativas</mark> de un gen (0,4 p).",
+    "Heterocigótico: individuo con <mark class=\"clave-criterio\">dos alelos diferentes</mark> de un gen (0,4 p).",
+    "Herencia intermedia: con los dos alelos resulta un <mark class=\"clave-criterio\">fenotipo de características intermedias</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Junio",
+    "referencia": "Junio, opción A, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/Biologia_JUN 13-14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_JUN 13-14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2014-junio-a6",
+   "block": "Inmunología",
+   "topic": "Fagocitosis y producción de anticuerpos",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con las figuras adjuntas, en el contexto del sistema inmunitario, conteste las siguientes cuestiones:</b><br>a) ¿Qué proceso representa la imagen 1? [0,15]. Una vez que finaliza este proceso, ¿qué dos funciones fundamentales realizan estas células? [0,4]. ¿Cómo se denominan las moléculas señaladas con la flecha en la imagen 2? [0,15]. Cite dos funciones de estas moléculas [0,3].<br>b) Indique cuál de los dos procesos (1 ó 2) está relacionado con la inmunidad adquirida. Razone la respuesta [0,3]. ¿Cómo se puede desarrollar esta inmunidad? [0,3]. ¿Qué se necesita para activar las células A de la imagen 2? [0,4].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Fagocitosis</mark> (0,15 p).",
+    "a) Actuar como <mark class=\"clave-criterio\">células presentadoras de antígenos</mark> y <mark class=\"clave-criterio\">producir citoquinas</mark> que activan a otras células inmunitarias. 0,2 p cada una (0,4 p).",
+    "a) <mark class=\"clave-criterio\">Anticuerpos (inmunoglobulinas)</mark> (0,15 p). Funciones: <mark class=\"clave-criterio\">neutralizar</mark>, <mark class=\"clave-criterio\">precipitar</mark>, <mark class=\"clave-criterio\">aglutinar</mark> y <mark class=\"clave-criterio\">opsonizar</mark> antígenos. Dos, a 0,15 p (0,3 p).",
+    "b) La <mark class=\"clave-criterio\">imagen 2</mark> (0,1 p), porque aparecen <mark class=\"clave-criterio\">linfocitos B y anticuerpos</mark> (0,2 p).",
+    "b) De forma <mark class=\"clave-criterio\">natural</mark> (por haber pasado la <mark class=\"clave-criterio\">enfermedad</mark>) (0,15 p) o <mark class=\"clave-criterio\">artificial</mark> mediante <mark class=\"clave-criterio\">vacunación</mark> (0,15 p).",
+    "b) Deben ser <mark class=\"clave-criterio\">reconocidas por los linfocitos T auxiliares</mark> (0,1 p), que producen <mark class=\"clave-criterio\">citoquinas</mark> que activan al linfocito B para que se diferencie en <mark class=\"clave-criterio\">célula plasmática</mark> y produzca anticuerpos (0,3 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Junio",
+    "referencia": "Junio, opción A, pregunta 6",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/Biologia_JUN 13-14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_JUN 13-14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2014/junio-a6.webp",
+   "imgThumb": "assets/figuras/historico/2014/junio-a6.thumb.webp",
+   "imageDesc": "Imagen 1: una célula engloba y digiere una partícula en tres pasos. Imagen 2: una célula A con receptores da lugar a varias células que liberan moléculas en forma de Y (flecha).",
+   "isNew": true
+  },
+  {
+   "id": "pau2014-junio-b1",
+   "block": "Genética",
+   "topic": "ARN y transcripción",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Indique la estructura del ARN [0,2]. Cite los diferentes tipos de ARN [0,3] y explique la función de cada uno [0,9]. Defina la transcripción e indique en qué parte de la célula eucariótica se realiza [0,6].",
+   "c": [
+    "<mark class=\"clave-criterio\">Cadena de ribonucleótidos</mark> unidos por <mark class=\"clave-criterio\">enlace fosfodiéster</mark> (0,2 p).",
+    "<mark class=\"clave-criterio\">ARN ribosómico, ARN transferente y ARN mensajero</mark> (0,3 p).",
+    "ARNr: asociado a proteínas forma los <mark class=\"clave-criterio\">ribosomas</mark>; ARNt: <mark class=\"clave-criterio\">transporta los aminoácidos</mark>; ARNm: aporta la <mark class=\"clave-criterio\">secuencia de bases que se traduce</mark> a aminoácidos. 0,3 p cada uno (0,9 p).",
+    "Transcripción: síntesis de <mark class=\"clave-criterio\">ARN</mark> con la <mark class=\"clave-criterio\">secuencia complementaria</mark> de una cadena de ADN <mark class=\"clave-criterio\">molde</mark> (0,5 p), en el <mark class=\"clave-criterio\">núcleo</mark> (0,1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Junio",
+    "referencia": "Junio, opción B, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/Biologia_JUN 13-14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_JUN 13-14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2014-junio-b2",
+   "block": "Célula",
+   "topic": "Aparato de Golgi",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Describa el aparato de Golgi [1]. Enumere dos de sus funciones [0,5]. Indique el contenido y el destino de las vesículas que surgen de él [0,5].",
+   "c": [
+    "<mark class=\"clave-criterio\">Cisternas apiladas</mark>, con <mark class=\"clave-criterio\">cara cis</mark> (próxima al RER) y <mark class=\"clave-criterio\">cara trans</mark>; junto a la cis, <mark class=\"clave-criterio\">vesículas de transición</mark>, y junto a la trans, <mark class=\"clave-criterio\">vesículas de secreción</mark> (1 p).",
+    "Funciones: <mark class=\"clave-criterio\">transferencia</mark>, <mark class=\"clave-criterio\">maduración de proteínas</mark>, <mark class=\"clave-criterio\">glucosilación</mark>, <mark class=\"clave-criterio\">embalaje de productos de secreción</mark>. Dos, a 0,25 p (0,5 p).",
+    "Contenido: <mark class=\"clave-criterio\">proteínas modificadas</mark> (0,25 p). Destino: <mark class=\"clave-criterio\">membrana plasmática</mark>, <mark class=\"clave-criterio\">medio extracelular</mark> o <mark class=\"clave-criterio\">lisosomas</mark> (0,25 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Junio",
+    "referencia": "Junio, opción B, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/Biologia_JUN 13-14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_JUN 13-14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2014-junio-b3",
+   "block": "Inmunología",
+   "topic": "Respuesta inmunitaria celular",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Explique en qué consiste la respuesta inmunitaria celular indicando qué células están implicadas en dicha respuesta [1]. Describa dos funciones de cada uno de esos tipos de células [1].",
+   "c": [
+    "Se basa en la actividad de los <mark class=\"clave-criterio\">linfocitos T y los macrófagos</mark> (0,4 p por las células); tarda más que la humoral, pero es útil contra microorganismos <mark class=\"clave-criterio\">que viven dentro de las células</mark>; los linfocitos T <mark class=\"clave-criterio\">destruyen células infectadas o tumorales</mark> (1 p).",
+    "Linfocitos T: <mark class=\"clave-criterio\">activar la producción de anticuerpos</mark> por los B, <mark class=\"clave-criterio\">destruir células infectadas o tumorales</mark>. Macrófagos: <mark class=\"clave-criterio\">presentar antígenos</mark> y <mark class=\"clave-criterio\">fagocitosis</mark>. 0,25 p cada función (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Junio",
+    "referencia": "Junio, opción B, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/Biologia_JUN 13-14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_JUN 13-14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2014-junio-b6",
+   "block": "Célula",
+   "topic": "Etapas de la meiosis",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la imagen adjunta, conteste las siguientes cuestiones:</b><br>a) Indique a qué tipo de división celular pertenecen las imágenes del esquema [0,1] y en qué tipo de células tiene lugar [0,15]. ¿Qué representan las imágenes numeradas (1 a 5) y en qué fase se produce cada una de ellas? [0,75].<br>b) Indique qué proceso ocurre en el círculo de la imagen número 1 y la importancia biológica del mismo [0,4]. Indique la relación del proceso representado mediante el esquema número 3 con dos aspectos fundamentales de la importancia biológica de este tipo de división [0,6].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Meiosis</mark> (0,1 p), en <mark class=\"clave-criterio\">células de la línea germinal</mark> (0,15 p).",
+    "a) 1: <mark class=\"clave-criterio\">apareamiento de homólogos (tétrada)</mark> en <mark class=\"clave-criterio\">profase I</mark>; 2: <mark class=\"clave-criterio\">homólogos apareados y recombinados</mark> en <mark class=\"clave-criterio\">metafase I</mark>; 3: <mark class=\"clave-criterio\">homólogos en anafase I</mark>; 4: <mark class=\"clave-criterio\">cromosomas con dos cromátidas en metafase II</mark>; 5: <mark class=\"clave-criterio\">cromátidas hermanas en anafase II</mark>. 0,15 p cada una (0,75 p).",
+    "b) <mark class=\"clave-criterio\">Recombinación</mark>: intercambio de fragmentos entre <mark class=\"clave-criterio\">cromátidas de homólogos</mark> (0,2 p), fundamental para la <mark class=\"clave-criterio\">variabilidad genética</mark> (0,2 p).",
+    "b) En la anafase I los homólogos van a los polos: se <mark class=\"clave-criterio\">reduce a la mitad</mark> el número de cromosomas (<mark class=\"clave-criterio\">células haploides</mark>), lo que asegura la <mark class=\"clave-criterio\">constancia del número cromosómico tras la fecundación</mark> (0,3 p); y hay <mark class=\"clave-criterio\">reparto al azar</mark> de cromosomas paternos y maternos (<mark class=\"clave-criterio\">segregación</mark>), que aporta <mark class=\"clave-criterio\">variabilidad</mark> (0,3 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Junio",
+    "referencia": "Junio, opción B, pregunta 6",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/Biologia_JUN 13-14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_JUN 13-14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2014/junio-b6.webp",
+   "imgThumb": "assets/figuras/historico/2014/junio-b6.thumb.webp",
+   "imageDesc": "Cinco esquemas numerados de cromosomas: una pareja apareada (1), una pareja cruzada (2), homólogos separándose (3), cromosomas de dos cromátidas (4) y cromátidas separándose (5).",
+   "isNew": true
+  },
+  {
+   "id": "pau2014-junio-a4+a5",
+   "block": "Biomoléculas",
+   "topic": "Acción de la tripsina sobre un polipéptido · Identificar algas, bacterias, hongos y protozoos",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "q": "<b>I.</b> La tripsina es una enzima proteolítica que solamente cataliza la hidrólisis de los enlaces peptídicos en los que el grupo carboxilo es aportado por la lisina o la arginina. Con estos datos escriba los péptidos que se obtienen [0,5], indicando los grupos funcionales [0,5], como resultado de la acción de la tripsina, sobre el siguiente polipéptido: NH2-Ala-Gly-Val-Trp-Ile-Gly-Arg-Cys-Cys-Met-Trp-COOH. Razone la respuesta. <i>(1 punto)</i><br><br><b>II.</b> A un laboratorio de microbiología llegan cuatro muestras. Una contiene algas, otra bacterias, otra hongos y otra protozoos. Tras el análisis correspondiente, se obtienen los siguientes resultados: la muestra 1 contiene microorganismos que pueden realizar fotosíntesis y presentan ribosomas solo del tipo 70S; la muestra 2 contiene microorganismos unicelulares y pluricelulares de nutrición heterótrofa; la muestra 3 contiene microorganismos eucarióticos exclusivamente unicelulares; la muestra 4 contiene microorganismos autótrofos que se dividen por mitosis. Identifique razonadamente el tipo de microorganismo que hay en cada muestra [1]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> La tripsina <mark class=\"clave-criterio\">hidroliza el enlace peptídico entre la arginina (Arg) y la cisteína (Cys)</mark> y se originan dos péptidos: <mark class=\"clave-criterio\">NH₂-Ala-Gly-Val-Trp-Ile-Gly-Arg-COOH</mark> y <mark class=\"clave-criterio\">NH₂-Cys-Cys-Met-Trp-COOH</mark>. 0,5 p cada péptido (1 p).",
+    "<b>I.</b> Sin indicar los <mark class=\"clave-criterio\">grupos funcionales</mark> (amino y carboxilo terminales), cada péptido vale 0,25 p.",
+    "<b>II.</b> Muestra 1: <mark class=\"clave-criterio\">bacterias</mark>, porque solo tienen <mark class=\"clave-criterio\">ribosomas 70S</mark> (procarióticos) (0,25 p).",
+    "<b>II.</b> Muestra 2: <mark class=\"clave-criterio\">hongos</mark>: <mark class=\"clave-criterio\">heterótrofos</mark> con miembros <mark class=\"clave-criterio\">uni y pluricelulares</mark> (0,25 p).",
+    "<b>II.</b> Muestra 3: <mark class=\"clave-criterio\">protozoos</mark>: los únicos eucarióticos <mark class=\"clave-criterio\">exclusivamente unicelulares</mark> (0,25 p).",
+    "<b>II.</b> Muestra 4: <mark class=\"clave-criterio\">algas</mark>: <mark class=\"clave-criterio\">autótrofas</mark> que se dividen por <mark class=\"clave-criterio\">mitosis</mark> (0,25 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2014-junio-a4",
+    "pau2014-junio-a5"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Junio",
+    "referencia": "Junio, opción A, pregunta 4 + Junio, opción A, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/Biologia_JUN 13-14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_JUN 13-14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2014-junio-b4+b5",
+   "block": "Biomoléculas",
+   "topic": "Amilasa salival y patata · Heredabilidad de las alteraciones",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "q": "<b>I.</b> Tras incubar a 37ºC una patata cruda con enzimas extraídas de la saliva, se aprecia que la patata adquiere sabor dulce. Explique por qué aparece este sabor [0,5]. Si la incubación se realiza a 60ºC no es posible detectar el sabor dulce. ¿Por qué? [0,5]. Razone las respuestas. <i>(1 punto)</i><br><br><b>II.</b> Tras un accidente nuclear, se examinó a los habitantes de una población cercana, observándose que su genotipo había sufrido algunas alteraciones. ¿Heredarán sus descendientes dichas alteraciones? [0,6]. En una industria química se produjo un incendio que afectó a miles de personas produciéndoles graves quemaduras y alteraciones en la piel. ¿Heredarán sus descendientes dichas alteraciones? [0,4]. Razone las respuestas. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> Las enzimas <mark class=\"clave-criterio\">degradan el almidón hasta azúcares sencillos</mark>, que son dulces (0,5 p).",
+    "<b>I.</b> A 60 ºC las enzimas de la saliva <mark class=\"clave-criterio\">se desnaturalizan</mark> y no degradan el almidón (0,5 p).",
+    "<b>II.</b> Los cambios en el genotipo <mark class=\"clave-criterio\">se heredan si afectan a las células germinales</mark> (no si afectan a las somáticas) (0,6 p).",
+    "<b>II.</b> <mark class=\"clave-criterio\">No</mark>: los cambios en las <mark class=\"clave-criterio\">células somáticas no se heredan</mark> (0,4 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2014-junio-b4",
+    "pau2014-junio-b5"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Junio",
+    "referencia": "Junio, opción B, pregunta 4 + Junio, opción B, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/Biologia_JUN 13-14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_JUN 13-14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2014-septiembre-a1",
+   "block": "Biomoléculas",
+   "topic": "Aminoácidos y funciones de las proteínas",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Indique cuáles son los monómeros de las proteínas [0,2]. Escriba su fórmula general [0,2]. Atendiendo a la variedad de radicales cite cuatro tipos de dichos monómeros [0,6]. Enumere cinco funciones de las proteínas y ponga un ejemplo de cada una de ellas [1].",
+   "c": [
+    "<mark class=\"clave-criterio\">Aminoácidos</mark> (0,2 p).",
+    "Fórmula: <mark class=\"clave-criterio\">carbono alfa</mark> unido al <mark class=\"clave-criterio\">amino</mark>, al <mark class=\"clave-criterio\">carboxilo</mark>, a un <mark class=\"clave-criterio\">H</mark> y a un <mark class=\"clave-criterio\">radical</mark> (0,2 p).",
+    "Tipos: <mark class=\"clave-criterio\">ácidos</mark>, <mark class=\"clave-criterio\">básicos</mark>, <mark class=\"clave-criterio\">neutros</mark>, hidrófilos, hidrófobos (o apolares, polares con carga negativa, polares con carga positiva y polares sin carga). Cuatro, a 0,15 p (0,6 p).",
+    "Transporte: <mark class=\"clave-criterio\">hemoglobina</mark>; enzimática: <mark class=\"clave-criterio\">pepsina</mark>; contráctil: <mark class=\"clave-criterio\">miosina</mark>; hormonal: <mark class=\"clave-criterio\">insulina</mark>; inmunitaria: <mark class=\"clave-criterio\">inmunoglobulinas</mark>; estructural: <mark class=\"clave-criterio\">queratina</mark>. 0,2 p cada una con su ejemplo (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Septiembre",
+    "referencia": "Septiembre, opción A, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/Bilogia_SEP13-14T.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_SEPT13-14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2014-septiembre-a2",
+   "block": "Metabolismo",
+   "topic": "Metabolismo, catabolismo, anabolismo, glucólisis y fermentación",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Defina: metabolismo, catabolismo, anabolismo, glucólisis y fermentación [2].",
+   "c": [
+    "Metabolismo: <mark class=\"clave-criterio\">reacciones químicas de la célula</mark>, <mark class=\"clave-criterio\">catabólicas y anabólicas</mark> (0,4 p).",
+    "Catabolismo: reacciones que proporcionan <mark class=\"clave-criterio\">precursores, energía y poder reductor</mark> (0,4 p).",
+    "Anabolismo: procesos por los que la célula <mark class=\"clave-criterio\">sintetiza, con gasto de energía</mark>, sus sustancias (0,4 p).",
+    "Glucólisis: reacciones que convierten <mark class=\"clave-criterio\">glucosa en ácido pirúvico</mark> con liberación de <mark class=\"clave-criterio\">ATP</mark> (0,4 p).",
+    "Fermentación: <mark class=\"clave-criterio\">degradación anaeróbica</mark> de la glucosa con una <mark class=\"clave-criterio\">molécula orgánica</mark> como aceptor final de electrones (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Septiembre",
+    "referencia": "Septiembre, opción A, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/Bilogia_SEP13-14T.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_SEPT13-14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2014-septiembre-a3",
+   "block": "Genética",
+   "topic": "Cruzamiento prueba y herencia intermedia",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Defina cruzamiento prueba [0,5] y realice un esquema del mismo utilizando los símbolos genéticos A y a [0,5]. Defina herencia intermedia [0,5] y realice un esquema de la misma usando los símbolos genéticos A y a [0,5].",
+   "c": [
+    "Cruzamiento prueba: cruce de un individuo de <mark class=\"clave-criterio\">fenotipo dominante</mark> con otro de <mark class=\"clave-criterio\">fenotipo recesivo</mark> para <mark class=\"clave-criterio\">averiguar su genotipo</mark> (0,5 p).",
+    "Esquema con dos posibilidades: <mark class=\"clave-criterio\">AA × aa → 100 % Aa</mark>; <mark class=\"clave-criterio\">Aa × aa → 50 % Aa y 50 % aa</mark> (0,5 p).",
+    "Herencia intermedia: los alelos se expresan <mark class=\"clave-criterio\">con la misma intensidad</mark> y los híbridos tienen un <mark class=\"clave-criterio\">fenotipo intermedio</mark> (0,5 p).",
+    "Esquema del cruce <span class=\"redactado\">AA × aa → 100 % Aa, de fenotipo intermedio</span> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Septiembre",
+    "referencia": "Septiembre, opción A, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/Bilogia_SEP13-14T.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_SEPT13-14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2014-septiembre-a6",
+   "block": "Microbiología",
+   "topic": "Ciclos lítico y lisogénico",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la figura adjunta, conteste las siguientes cuestiones:</b><br>a) Nombre los microorganismos señalados con los números 1 y 2 [0,2]. Indique dos características de cada uno de ellos [0,6]. Nombre las estructuras señaladas con los números 3 y 4 [0,2].<br>b) Identifique los procesos indicados con las letras A y B [0,2]. Explique las diferentes fases que ocurren en el proceso A [0,8].",
+   "c": [
+    "a) 1: <mark class=\"clave-criterio\">bacteria</mark>; 2: <mark class=\"clave-criterio\">bacteriófago</mark> (si se dice virus, 0,05 p) (0,2 p).",
+    "a) Bacteria: <mark class=\"clave-criterio\">procariótica</mark>, <mark class=\"clave-criterio\">unicelular</mark>, división por <mark class=\"clave-criterio\">bipartición</mark>. Bacteriófago: <mark class=\"clave-criterio\">acelular</mark>, <mark class=\"clave-criterio\">sin metabolismo propio</mark>, usa los recursos de la <mark class=\"clave-criterio\">célula hospedadora</mark>. Dos de cada, a 0,15 p (0,6 p).",
+    "a) 3: <mark class=\"clave-criterio\">ADN circular bacteriano</mark>; 4: <mark class=\"clave-criterio\">ADN del fago</mark> (0,2 p).",
+    "b) A: <mark class=\"clave-criterio\">ciclo lítico</mark>; B: <mark class=\"clave-criterio\">ciclo lisogénico</mark> (0,2 p).",
+    "b) Lítico: <mark class=\"clave-criterio\">receptores específicos</mark> donde se une el fago (0,1 p); <mark class=\"clave-criterio\">inyección del ácido nucleico</mark> (0,2 p); uso de la <mark class=\"clave-criterio\">maquinaria biosintética</mark> bacteriana para copiar ácido nucleico y cápsida (0,2 p); <mark class=\"clave-criterio\">ensamblaje</mark> (0,2 p); <mark class=\"clave-criterio\">rotura por enzimas líticas</mark> y salida de fagos (0,1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Septiembre",
+    "referencia": "Septiembre, opción A, pregunta 6",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/Bilogia_SEP13-14T.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_SEPT13-14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2014/septiembre-a6.webp",
+   "imgThumb": "assets/figuras/historico/2014/septiembre-a6.thumb.webp",
+   "imageDesc": "Una célula (1) infectada por un virus con cabeza y cola (2); desde ella salen dos ciclos: A, que termina con la rotura de la célula, y B, en el que la célula se divide con el ADN del virus integrado; se señalan 3 y 4.",
+   "isNew": true
+  },
+  {
+   "id": "pau2014-septiembre-b1",
+   "block": "Biomoléculas",
+   "topic": "Disacárido, triacilglicérido, proteína y nucleótido",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Defina disacárido, triacilglicérido, proteína y nucleótido [2].",
+   "c": [
+    "Disacárido: <mark class=\"clave-criterio\">dos monosacáridos</mark> unidos por <mark class=\"clave-criterio\">enlace O-glucosídico</mark> (0,5 p).",
+    "Triacilglicérido: <mark class=\"clave-criterio\">triéster de glicerina y ácidos grasos</mark> (0,5 p).",
+    "Proteína: macromolécula de <mark class=\"clave-criterio\">una o varias cadenas polipeptídicas</mark> de <mark class=\"clave-criterio\">aminoácidos unidos por enlace peptídico</mark> (0,5 p).",
+    "Nucleótido: unión de <mark class=\"clave-criterio\">ácido fosfórico</mark>, una <mark class=\"clave-criterio\">pentosa</mark> y una <mark class=\"clave-criterio\">base nitrogenada</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Septiembre",
+    "referencia": "Septiembre, opción B, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/Bilogia_SEP13-14T.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_SEPT13-14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2014-septiembre-b2",
+   "block": "Célula",
+   "topic": "Fases y significado de la mitosis",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Describa las fases de la mitosis [1,2]. Indique en qué células tiene lugar este tipo de reproducción [0,3] y cuál es su significado biológico [0,5].",
+   "c": [
+    "Profase: <mark class=\"clave-criterio\">condensación</mark>, <mark class=\"clave-criterio\">huso acromático</mark>, desaparecen nucleolo y membrana nuclear. Metafase: <mark class=\"clave-criterio\">placa ecuatorial</mark>, <mark class=\"clave-criterio\">microtúbulos cinetocóricos</mark>. Anafase: <mark class=\"clave-criterio\">separación de los centrómeros</mark> y <mark class=\"clave-criterio\">cromátidas hacia los polos</mark>. Telofase: <mark class=\"clave-criterio\">descondensación</mark> y <mark class=\"clave-criterio\">reaparición del nucleolo y la envoltura</mark>. 0,3 p cada fase (1,2 p).",
+    "En todas las <mark class=\"clave-criterio\">células eucarióticas somáticas</mark>, animales y vegetales (0,3 p).",
+    "Significado: células hijas con <mark class=\"clave-criterio\">idéntica información genética</mark>; en pluricelulares, <mark class=\"clave-criterio\">crecimiento y recambio celular</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Septiembre",
+    "referencia": "Septiembre, opción B, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/Bilogia_SEP13-14T.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_SEPT13-14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2014-septiembre-b3",
+   "block": "Inmunología",
+   "topic": "Componentes del sistema inmunitario",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Enumere cinco componentes (células o moléculas) del sistema inmunitario [0,5] e indique la función de cada uno de ellos [1,5].",
+   "c": [
+    "<mark class=\"clave-criterio\">Macrófagos</mark>, <mark class=\"clave-criterio\">linfocitos B</mark>, <mark class=\"clave-criterio\">linfocitos T</mark>, <mark class=\"clave-criterio\">anticuerpos</mark>, <mark class=\"clave-criterio\">linfocinas</mark>, <mark class=\"clave-criterio\">interferón</mark>, <mark class=\"clave-criterio\">complemento</mark>. Cinco, a 0,1 p (0,5 p).",
+    "Macrófago: <mark class=\"clave-criterio\">fagocitosis</mark>. Linfocitos B: <mark class=\"clave-criterio\">producción de anticuerpos</mark>. Linfocitos T: <mark class=\"clave-criterio\">activan la producción de anticuerpos</mark>. Anticuerpos: <mark class=\"clave-criterio\">unión con antígenos específicos</mark>. Linfocinas: <mark class=\"clave-criterio\">regulan la respuesta</mark>. Interferón: respuesta frente a <mark class=\"clave-criterio\">virus</mark> y células cancerígenas. Complemento: <mark class=\"clave-criterio\">destrucción celular</mark> e <mark class=\"clave-criterio\">inflamación</mark>. Cinco, a 0,3 p (1,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Septiembre",
+    "referencia": "Septiembre, opción B, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/Bilogia_SEP13-14T.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_SEPT13-14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2014-septiembre-b6",
+   "block": "Célula",
+   "topic": "Mitocondria y cloroplasto",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con las figuras adjuntas, conteste las siguientes cuestiones:</b><br>a) ¿Cómo se llaman los orgánulos que representan las figuras A y B? [0,2]. Identifique las 8 estructuras numeradas [0,8].<br>b) ¿En qué tipo de células eucarióticas se presentan estos orgánulos? [0,3]. ¿Cuál es la función principal de cada uno de ellos? [0,2]. Cite un producto común a los procesos metabólicos que tienen lugar en estos orgánulos [0,1]. Cite un producto específico de los procesos metabólicos que tienen lugar en cada uno de estos orgánulos [0,2]. ¿Cuál es el tipo de metabolismo propio de cada uno de ellos? [0,2].",
+   "c": [
+    "a) A: <mark class=\"clave-criterio\">mitocondria</mark>; B: <mark class=\"clave-criterio\">cloroplasto</mark> (0,2 p).",
+    "a) 1: <mark class=\"clave-criterio\">ADN mitocondrial</mark>; 2: <mark class=\"clave-criterio\">matriz</mark>; 3: <mark class=\"clave-criterio\">membrana externa</mark>; 4: <mark class=\"clave-criterio\">membrana interna</mark>; 5: <mark class=\"clave-criterio\">crestas</mark>; 6: <mark class=\"clave-criterio\">estroma</mark>; 7: <mark class=\"clave-criterio\">tilacoide</mark>; 8: <mark class=\"clave-criterio\">grana</mark>. 0,1 p cada una (0,8 p).",
+    "b) Mitocondria: <mark class=\"clave-criterio\">células animales y vegetales</mark> (0,2 p); cloroplasto: <mark class=\"clave-criterio\">células vegetales fotosintéticas</mark> (0,1 p).",
+    "b) Funciones: <mark class=\"clave-criterio\">respiración celular</mark> (mitocondria) y <mark class=\"clave-criterio\">fotosíntesis</mark> (cloroplasto) (0,2 p).",
+    "b) Producto común: <mark class=\"clave-criterio\">ATP</mark> (0,1 p). Específicos: <mark class=\"clave-criterio\">CO₂, NADH</mark> (mitocondria) y <mark class=\"clave-criterio\">O₂, NADPH</mark> (cloroplasto) (0,2 p).",
+    "b) Mitocondria: <mark class=\"clave-criterio\">catabolismo</mark>; cloroplasto: <mark class=\"clave-criterio\">anabolismo</mark> (0,2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Septiembre",
+    "referencia": "Septiembre, opción B, pregunta 6",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/Bilogia_SEP13-14T.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_SEPT13-14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2014/septiembre-b6.webp",
+   "imgThumb": "assets/figuras/historico/2014/septiembre-b6.thumb.webp",
+   "imageDesc": "Dos orgánulos de doble membrana: A, con pliegues internos (estructuras 1 a 5); B, con pilas de discos en su interior (estructuras 6 a 8).",
+   "isNew": true
+  },
+  {
+   "id": "pau2014-septiembre-a4+a5",
+   "block": "Genética",
+   "topic": "Meiosis sin recombinación · Alergia al polen",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "q": "<b>I.</b> Suponga que los individuos de una especie no realizan la recombinación genética durante la profase I de la meiosis. Las células haploides resultantes de la meiosis ¿tendrían todas la misma información genética? [0,5] ¿Los individuos de esta especie mostrarían variabilidad genética? [0,5]. Razone las respuestas. <i>(1 punto)</i><br><br><b>II.</b> El polen es un cuerpo extraño para el organismo que, en personas alérgicas, provoca reacciones molestas (tos, estornudo, picor, congestión nasal). ¿Por qué un primer contacto con el polen en estas personas puede no provocar síntomas externos, que sí se manifiestan tras una segunda exposición? [0,5]. ¿Significa esto que los alérgicos al polen padecen inmunodeficiencia? [0,5]. Razone las respuestas. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> <mark class=\"clave-criterio\">No</mark>: por la <mark class=\"clave-criterio\">segregación cromosómica</mark> no llevan la misma combinación de cromosomas paternos y maternos (0,5 p).",
+    "<b>I.</b> <mark class=\"clave-criterio\">Sí</mark>: por las <mark class=\"clave-criterio\">mutaciones</mark>, la <mark class=\"clave-criterio\">segregación cromosómica</mark> o la <mark class=\"clave-criterio\">fusión de gametos</mark>. Basta una (0,5 p).",
+    "<b>II.</b> En el primer contacto hay <mark class=\"clave-criterio\">respuesta primaria (sensibilización)</mark> sin síntomas; en el segundo, <mark class=\"clave-criterio\">respuesta secundaria</mark> (0,5 p).",
+    "<b>II.</b> <mark class=\"clave-criterio\">No</mark>: es un problema de <mark class=\"clave-criterio\">hipersensibilidad</mark>; la inmunodeficiencia es la <mark class=\"clave-criterio\">falta de respuesta</mark> o de algún elemento del sistema inmunitario (0,5 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2014-septiembre-a4",
+    "pau2014-septiembre-a5"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Septiembre",
+    "referencia": "Septiembre, opción A, pregunta 4 + Septiembre, opción A, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/Bilogia_SEP13-14T.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_SEPT13-14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2014-septiembre-b4+b5",
+   "block": "Genética",
+   "topic": "Tipos de ARNm y de ARNt · Hemofilia: deducir los progenitores",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "q": "<b>I.</b> En una célula eucariótica y en relación al ARN mensajero y al ARN transferente, ¿de cuál de estos dos ácidos ribonucleicos habrá más tipos distintos? Razone la respuesta [1]. <i>(1 punto)</i><br><br><b>II.</b> La descendencia de una pareja está constituida únicamente por mujeres portadoras de la hemofilia y por hombres sanos. Indique el genotipo y el fenotipo de ambos progenitores. Razone las respuestas representando los esquemas de los posibles cruces [1]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> Habrá <mark class=\"clave-criterio\">más tipos de ARNm</mark>: tantos como <mark class=\"clave-criterio\">proteínas diferentes</mark> fabrique la célula (0,5 p); los de ARNt son tantos como <mark class=\"clave-criterio\">codones que codifican aminoácidos</mark>, un número claramente inferior (0,5 p).",
+    "<b>II.</b> Mujer: <mark class=\"clave-criterio\">X<sup>H</sup>X<sup>H</sup></mark>, <mark class=\"clave-criterio\">sana no portadora</mark> (0,5 p).",
+    "<b>II.</b> Hombre: <mark class=\"clave-criterio\">X<sup>h</sup>Y</mark>, <mark class=\"clave-criterio\">hemofílico</mark> (0,5 p). Se justifica con los cruces."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2014-septiembre-b4",
+    "pau2014-septiembre-b5"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Septiembre",
+    "referencia": "Septiembre, opción B, pregunta 4 + Septiembre, opción B, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/Bilogia_SEP13-14T.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_SEPT13-14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2014-m2-a1",
+   "block": "Biomoléculas",
+   "topic": "Estructura secundaria de las proteínas",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Nombre [0,5] y describa los tipos de estructura secundaria en las proteínas [1,5].",
+   "c": [
+    "<mark class=\"clave-criterio\">Alfa-hélice</mark> y <mark class=\"clave-criterio\">conformación beta</mark>. 0,25 p cada una (0,5 p).",
+    "Alfa-hélice: <mark class=\"clave-criterio\">estructura helicoidal</mark>, <mark class=\"clave-criterio\">radicales hacia la periferia</mark>, estabilizada por <mark class=\"clave-criterio\">puentes de hidrógeno</mark> (0,75 p).",
+    "Conformación beta: <mark class=\"clave-criterio\">estructura laminar</mark>, <mark class=\"clave-criterio\">varias cadenas unidas</mark> y estabilizadas por <mark class=\"clave-criterio\">puentes de hidrógeno</mark> (0,75 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 2",
+    "referencia": "Modelo 2, opción A, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO 2_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_2_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2014-m2-a2",
+   "block": "Célula",
+   "topic": "Endosimbiosis y núcleo interfásico",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Exponga la hipótesis admitida sobre el origen evolutivo de la célula eucariótica [0,75]. Describa los componentes estructurales del núcleo interfásico [1,25].",
+   "c": [
+    "La hipótesis (endosimbiótica) se apoya en que mitocondrias y cloroplastos tienen <mark class=\"clave-criterio\">ADN propio</mark>, <mark class=\"clave-criterio\">ribosomas 70S</mark> y <mark class=\"clave-criterio\">división independiente</mark>. 0,25 p cada uno (0,75 p).",
+    "<mark class=\"clave-criterio\">Envoltura</mark>: <mark class=\"clave-criterio\">doble membrana con poros</mark> (0,25 p); <mark class=\"clave-criterio\">nucleoplasma</mark>: líquido con biomoléculas (0,25 p); <mark class=\"clave-criterio\">nucléolo</mark>: donde se forman las <mark class=\"clave-criterio\">subunidades ribosómicas</mark> (0,25 p); <mark class=\"clave-criterio\">cromatina</mark>: <mark class=\"clave-criterio\">fibra nucleoproteica</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 2",
+    "referencia": "Modelo 2, opción A, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO 2_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_2_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2014-m2-a3",
+   "block": "Genética",
+   "topic": "Transcripción en procariotas",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Defina transcripción [0,4]. Indique cuál es su significado biológico [0,2] y en qué parte de la célula eucariótica se realiza [0,2]. Describa el proceso en procariotas [1,2].",
+   "c": [
+    "Transcripción: síntesis de <mark class=\"clave-criterio\">ARN</mark> con la <mark class=\"clave-criterio\">secuencia complementaria</mark> de una cadena de ADN <mark class=\"clave-criterio\">molde</mark> (0,4 p).",
+    "Significado: obtener los <mark class=\"clave-criterio\">ARN necesarios para la síntesis de proteínas</mark> (0,2 p). En el <mark class=\"clave-criterio\">núcleo</mark> (0,2 p).",
+    "Proceso: <mark class=\"clave-criterio\">cadena codificante y cadena molde</mark>, sentido <mark class=\"clave-criterio\">5′→3′</mark>, copia de <mark class=\"clave-criterio\">una sola cadena</mark>, señal de inicio (<mark class=\"clave-criterio\">promotor</mark>), acción de la <mark class=\"clave-criterio\">ARN polimerasa</mark> y <mark class=\"clave-criterio\">señal de terminación</mark>. 0,2 p cada una (1,2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 2",
+    "referencia": "Modelo 2, opción A, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO 2_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_2_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2014-m2-a6",
+   "block": "Metabolismo",
+   "topic": "Descarboxilación del pirúvico y ciclo de Krebs",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la figura adjunta, conteste las siguientes cuestiones:</b><br>a) ¿Qué procesos representan los números 1 y 2? [0,3]. ¿De dónde proceden las dos moléculas de CO2 desprendidas en el proceso número 2? [0,1]. ¿Cuántas vueltas se precisan en el proceso 2 para la degradación total de una molécula de glucosa? [0,2]. ¿Por qué el proceso 2 se considera un proceso catabólico? [0,2]. ¿Por qué se considera un proceso aeróbico si no requiere oxígeno para llevarse a cabo? [0,2].<br>b) ¿De qué ruta procede el ácido pirúvico utilizado en el proceso 1? [0,2]. ¿Qué ocurriría con el ácido pirúvico en ausencia de oxígeno? [0,3]. ¿En qué orgánulo celular se produce el proceso 2? [0,1]. ¿Y en qué compartimento de dicho orgánulo? [0,1]. ¿A partir de qué biomoléculas se puede producir el Acetil-CoA? [0,3].",
+   "c": [
+    "a) 1: <mark class=\"clave-criterio\">descarboxilación oxidativa del ácido pirúvico</mark>; 2: <mark class=\"clave-criterio\">ciclo de Krebs</mark> (0,3 p).",
+    "a) El CO₂ procede del <mark class=\"clave-criterio\">acetil-CoA</mark> (0,1 p). <mark class=\"clave-criterio\">Dos vueltas</mark> por glucosa (0,2 p).",
+    "a) Es <mark class=\"clave-criterio\">catabólica</mark> porque <mark class=\"clave-criterio\">sirve para obtener energía</mark> (0,2 p); es <mark class=\"clave-criterio\">aeróbica</mark> porque el <mark class=\"clave-criterio\">oxígeno es el último aceptor de los electrones</mark> liberados (0,2 p).",
+    "b) De la <mark class=\"clave-criterio\">glucólisis</mark> (0,2 p). Sin oxígeno se produciría una <mark class=\"clave-criterio\">fermentación</mark> (0,3 p).",
+    "b) En la <mark class=\"clave-criterio\">mitocondria</mark> (0,1 p), en la <mark class=\"clave-criterio\">matriz</mark> (0,1 p).",
+    "b) El acetil-CoA procede de <mark class=\"clave-criterio\">glúcidos</mark>, <mark class=\"clave-criterio\">lípidos (ácidos grasos)</mark> y <mark class=\"clave-criterio\">proteínas (aminoácidos)</mark> (0,3 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 2",
+    "referencia": "Modelo 2, opción A, pregunta 6",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO 2_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_2_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2014/m2-a6.webp",
+   "imgThumb": "assets/figuras/historico/2014/m2-a6.thumb.webp",
+   "imageDesc": "Ácido pirúvico que atraviesa una membrana plegada y pasa a acetil-CoA (1, con salida de CO₂ y NADH) y un ciclo (2) de ácidos cítrico, isocítrico, α-cetoglutárico, succinil-CoA, succínico, fumárico, málico y oxalacético.",
+   "isNew": true
+  },
+  {
+   "id": "pau2014-m2-b1",
+   "block": "Genética",
+   "topic": "Nucleósido, nucleótido, nucléolo y nucleosoma",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Defina los siguientes conceptos: nucleósido, nucleótido, nucleoplasma, nucléolo y nucleosoma [2].",
+   "c": [
+    "Nucleósido: <mark class=\"clave-criterio\">base nitrogenada + pentosa</mark> (0,4 p).",
+    "Nucleótido: <mark class=\"clave-criterio\">base nitrogenada + pentosa + ácido fosfórico</mark> (0,4 p).",
+    "Nucleoplasma: <mark class=\"clave-criterio\">líquido viscoso</mark> del interior del núcleo, con agua y biomoléculas (0,4 p).",
+    "Nucléolo: componente del núcleo donde se <mark class=\"clave-criterio\">forman las subunidades ribosómicas</mark> (0,4 p).",
+    "Nucleosoma: <mark class=\"clave-criterio\">unidad fundamental de la cromatina</mark>, un <mark class=\"clave-criterio\">núcleo de histonas con ADN</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 2",
+    "referencia": "Modelo 2, opción B, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO 2_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_2_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2014-m2-b2",
+   "block": "Célula",
+   "topic": "Modelo de mosaico fluido",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Describa el modelo de Mosaico Fluido de membrana que propusieron Singer y Nicholson en 1972 [1]. ¿A qué tipos celulares es aplicable este modelo de membrana? [0,3]. ¿A qué tipos de membranas de orgánulos es aplicable este modelo de membrana? [0,3]. Indique dos funciones de la membrana plasmática [0,4].",
+   "c": [
+    "Membranas <mark class=\"clave-criterio\">fluidas</mark> formadas por una <mark class=\"clave-criterio\">bicapa lipídica</mark>; los lípidos <mark class=\"clave-criterio\">giran y se desplazan lateralmente</mark>; las <mark class=\"clave-criterio\">proteínas forman un mosaico</mark> y pueden atravesar la bicapa (1 p).",
+    "Es un <mark class=\"clave-criterio\">modelo universal</mark>: aplicable a <mark class=\"clave-criterio\">todos los tipos celulares</mark> (0,3 p) y a <mark class=\"clave-criterio\">todas las membranas de orgánulos</mark> (0,3 p).",
+    "Funciones: <mark class=\"clave-criterio\">delimitar la célula</mark>, <mark class=\"clave-criterio\">relación con el medio</mark>, <mark class=\"clave-criterio\">transporte selectivo</mark>. Dos, a 0,2 p (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 2",
+    "referencia": "Modelo 2, opción B, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO 2_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_2_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2014-m2-b3",
+   "block": "Microbiología",
+   "topic": "Ciclo lítico, procariota y biotecnología",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Defina los siguientes términos: ciclo lítico, célula procariótica y biotecnología [1,5]. Cite dos características propias de los virus que permitan diferenciarlos del resto de microorganismos [0,5].",
+   "c": [
+    "Ciclo lítico: el virus usa la célula huésped para <mark class=\"clave-criterio\">sintetizar copias de su material genético y de sus proteínas</mark> y después <mark class=\"clave-criterio\">la destruye</mark> (0,5 p).",
+    "Célula procariótica: organización de las bacterias, <mark class=\"clave-criterio\">sin núcleo ni orgánulos</mark>, que se reproduce por <mark class=\"clave-criterio\">bipartición</mark> (0,5 p).",
+    "Biotecnología: uso de <mark class=\"clave-criterio\">organismos vivos o sus partes</mark> para <mark class=\"clave-criterio\">obtener o modificar productos</mark> (0,5 p).",
+    "Virus: <mark class=\"clave-criterio\">un solo tipo de ácido nucleico</mark>, <mark class=\"clave-criterio\">sin metabolismo propio</mark>, <mark class=\"clave-criterio\">acelulares</mark>. Dos, a 0,25 p (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 2",
+    "referencia": "Modelo 2, opción B, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO 2_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_2_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2014-m2-b6",
+   "block": "Genética",
+   "topic": "Del ADN al cromosoma",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la imagen adjunta, conteste las siguientes cuestiones:</b><br>a) Indique qué representan cada uno de los números 1, 2 y 3 [0,3]. Indique las funciones de la biomolécula señalada con el número 3 [0,2]. Indique la etapa del ciclo celular y la fase de esta etapa en que se pueden observar elementos como el señalado por el número 2 [0,2]. Nombre tres compartimentos u orgánulos de las células eucarióticas en los que se encuentran moléculas como la señalada con el número 3 [0,3].<br>b) Indique qué nombre reciben y cuál es la composición de los monómeros que forman la biomolécula señalada con el número 3 [0,4]. Describa las principales etapas de empaquetamiento que sufre la biomolécula número 3 hasta llegar a la estructura número 2 [0,6].",
+   "c": [
+    "a) 1: <mark class=\"clave-criterio\">cromátida</mark>; 2: <mark class=\"clave-criterio\">cromosoma</mark>; 3: <mark class=\"clave-criterio\">ADN</mark> (0,3 p).",
+    "a) <mark class=\"clave-criterio\">Portar y transmitir la información genética</mark> (0,2 p).",
+    "a) En la <mark class=\"clave-criterio\">división celular (mitosis)</mark>, en <mark class=\"clave-criterio\">metafase</mark> (0,2 p).",
+    "a) <mark class=\"clave-criterio\">Núcleo, mitocondrias y cloroplastos</mark> (0,3 p).",
+    "b) <mark class=\"clave-criterio\">Desoxirribonucleótidos</mark> (0,1 p): <mark class=\"clave-criterio\">desoxirribosa, bases nitrogenadas y fosfato</mark> (0,3 p).",
+    "b) El ADN se enrolla en <mark class=\"clave-criterio\">octámeros de histonas</mark> formando <mark class=\"clave-criterio\">nucleosomas</mark> (0,3 p); el <mark class=\"clave-criterio\">collar de cuentas</mark> se pliega en hélice y, con sucesivos plegamientos, llega al <mark class=\"clave-criterio\">cromosoma metafásico</mark> (0,3 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 2",
+    "referencia": "Modelo 2, opción B, pregunta 6",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO 2_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_2_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2014/m2-b6.webp",
+   "imgThumb": "assets/figuras/historico/2014/m2-b6.thumb.webp",
+   "imageDesc": "Una doble hélice (3) que se enrolla y compacta hasta formar un cromosoma (2), del que se señala una de sus mitades (1).",
+   "isNew": true
+  },
+  {
+   "id": "pau2014-m2-a4+a5",
+   "block": "Biomoléculas",
+   "topic": "Agua y temperatura constante · SIDA e infecciones oportunistas",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "q": "<b>I.</b> ¿Qué propiedad físico-química del agua permite a las plantas y animales mantener una temperatura interna relativamente constante? [0,3] ¿De qué característica de las moléculas de agua depende a su vez esta propiedad? [0,7]. Razone las respuestas. <i>(1 punto)</i><br><br><b>II.</b> Entre los posibles síntomas del desarrollo de la enfermedad del SIDA es frecuente la aparición de infecciones en la mucosa de la boca, vagina, esófago, etc. Explique razonadamente por qué [1]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> Su <mark class=\"clave-criterio\">elevado calor específico</mark> y/o <mark class=\"clave-criterio\">calor de vaporización</mark> (0,3 p).",
+    "<b>I.</b> De los <mark class=\"clave-criterio\">puentes de hidrógeno</mark> entre moléculas de agua: romperlos para que suba la temperatura <mark class=\"clave-criterio\">consume calor</mark> (0,7 p).",
+    "<b>II.</b> El SIDA es una <mark class=\"clave-criterio\">inmunodeficiencia adquirida</mark> causada por el <mark class=\"clave-criterio\">VIH</mark>, que <mark class=\"clave-criterio\">afecta al sistema inmunitario</mark>; por eso aparecen <mark class=\"clave-criterio\">enfermedades oportunistas</mark> como las infecciones de mucosas (1 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2014-m2-a4",
+    "pau2014-m2-a5"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 2",
+    "referencia": "Modelo 2, opción A, pregunta 4 + Modelo 2, opción A, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO 2_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_2_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2014-m2-b4+b5",
+   "block": "Microbiología",
+   "topic": "Antibiótico contra ribosomas 70S · Borregos blancos y negros",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "q": "<b>I.</b> Suponga que se ha descubierto un nuevo antibiótico llamado “Bactericida 70S” que bloquea a los ribosomas 70S. ¿Se podría usar este antibiótico para combatir las infecciones bacterianas en humanos? [0,5]. ¿Sería recomendable este antibiótico para tratar una infección vírica? [0,5]. Razone las respuestas. <i>(1 punto)</i><br><br><b>II.</b> Un ganadero compró una pareja de borregos con lana blanca que suponía de raza pura. Todos los cruces entre estos dos borregos dieron lugar a borregos blancos. Sin embargo, en algunos cruces entre estos descendientes aparecieron borregos negros. Explique cómo es posible que haya habido descendencia de borregos negros [0,5]. ¿Qué haría usted para demostrar si los borregos que compró el ganadero eran de raza pura? [0,5]. Razone las respuestas representando los esquemas de los posibles cruces. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> <mark class=\"clave-criterio\">No</mark>: los <mark class=\"clave-criterio\">ribosomas 70S también están en las mitocondrias</mark> humanas y se <mark class=\"clave-criterio\">paralizarían las funciones mitocondriales</mark> (0,5 p).",
+    "<b>I.</b> <mark class=\"clave-criterio\">No</mark>: los <mark class=\"clave-criterio\">virus carecen de ribosomas</mark> (0,5 p).",
+    "<b>II.</b> Uno de los parentales era <mark class=\"clave-criterio\">heterocigótico (Bb)</mark>: la mitad de su descendencia fue Bb y, al cruzarse entre sí, dio <mark class=\"clave-criterio\">homocigóticos recesivos (bb) negros</mark> (0,5 p).",
+    "<b>II.</b> Un <mark class=\"clave-criterio\">cruzamiento prueba</mark> de cada parental con un <mark class=\"clave-criterio\">borrego negro (bb)</mark>: el que dé descendencia negra será el <mark class=\"clave-criterio\">heterocigótico</mark> (0,5 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2014-m2-b4",
+    "pau2014-m2-b5"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 2",
+    "referencia": "Modelo 2, opción B, pregunta 4 + Modelo 2, opción B, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO 2_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_2_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2014-m3-a1",
+   "block": "Célula",
+   "topic": "Metafase, mitosis y meiosis",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Haga un esquema de la metafase mitótica de una célula con 2n = 6 cromosomas [0,5]. Indique en qué tipo de células tiene lugar la mitosis y en qué tipo de células la meiosis [0,4]. Explique la profase, la anafase y la telofase mitóticas [0,8]. Nombre las etapas de la interfase [0,3].",
+   "c": [
+    "Esquema de la metafase con los <mark class=\"clave-criterio\">cromosomas en el plano medio</mark> de la célula (0,5 p).",
+    "Mitosis: <mark class=\"clave-criterio\">células somáticas</mark>. Meiosis: <mark class=\"clave-criterio\">células germinales</mark> (0,4 p).",
+    "Profase: <mark class=\"clave-criterio\">condensación</mark>, <mark class=\"clave-criterio\">huso acromático</mark>, desaparecen nucléolo y envoltura (0,4 p). Anafase: <mark class=\"clave-criterio\">separación de los centrómeros</mark> y <mark class=\"clave-criterio\">cromátidas hacia los polos</mark> (0,2 p). Telofase: <mark class=\"clave-criterio\">descondensación</mark> y <mark class=\"clave-criterio\">reaparición del nucléolo y la envoltura</mark> (0,2 p).",
+    "Interfase: <mark class=\"clave-criterio\">G1, S y G2</mark> (0,3 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 3",
+    "referencia": "Modelo 3, opción A, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO 3_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_3_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2014-m3-a2",
+   "block": "Genética",
+   "topic": "Expresión génica y transcripción inversa",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Cite y defina los dos procesos que tienen lugar en la expresión de la información genética [0,75]. Indique si alguno de estos procesos podría darse en sentido inverso y en qué tipo de microorganismos se produce [0,5]. Explique la función de los distintos tipos de ARN en la expresión génica [0,75].",
+   "c": [
+    "<mark class=\"clave-criterio\">Transcripción</mark> y <mark class=\"clave-criterio\">traducción</mark> (0,25 p). Transcripción: síntesis de <mark class=\"clave-criterio\">ARN complementario</mark> de un <mark class=\"clave-criterio\">ADN molde</mark> (0,25 p). Traducción: síntesis de un <mark class=\"clave-criterio\">polipéptido a partir del ARNm</mark> (0,25 p).",
+    "La <mark class=\"clave-criterio\">transcripción inversa</mark> (0,25 p), que se produce en <mark class=\"clave-criterio\">algunos virus</mark> (0,25 p).",
+    "ARNr: <mark class=\"clave-criterio\">forma parte del ribosoma</mark>; ARNm: <mark class=\"clave-criterio\">contiene el mensaje genético</mark>; ARNt: <mark class=\"clave-criterio\">transporta los aminoácidos</mark>. 0,25 p cada uno (0,75 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 3",
+    "referencia": "Modelo 3, opción A, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO 3_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_3_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2014-m3-a3",
+   "block": "Inmunología",
+   "topic": "Antígeno, anticuerpo, vacuna y suero",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Defina antígeno [0,5] y anticuerpo [0,5]. Describa la estructura de un anticuerpo [0,5]. Explique dos diferencias entre vacunación y sueroterapia [0,5].",
+   "c": [
+    "Antígeno: molécula <mark class=\"clave-criterio\">no reconocida como propia</mark> que provoca <mark class=\"clave-criterio\">anticuerpos específicos</mark> (0,5 p).",
+    "Anticuerpo: <mark class=\"clave-criterio\">proteína de los linfocitos B</mark> frente a los antígenos (0,5 p).",
+    "<mark class=\"clave-criterio\">Dos cadenas ligeras y dos pesadas</mark> (0,3 p); <mark class=\"clave-criterio\">región constante</mark> (0,1 p); <mark class=\"clave-criterio\">región variable</mark> (0,1 p).",
+    "Diferencias: <mark class=\"clave-criterio\">preventiva / curativa</mark>, <mark class=\"clave-criterio\">formación o no de células de memoria</mark>, <mark class=\"clave-criterio\">inmunidad activa / pasiva</mark>, <mark class=\"clave-criterio\">antígenos / anticuerpos</mark>. Dos, a 0,25 p (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 3",
+    "referencia": "Modelo 3, opción A, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO 3_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_3_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2014-m3-a6",
+   "block": "Biomoléculas",
+   "topic": "Enzima, sustrato e inhibidores",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la figura adjunta, en la que se representa un enzima, su sustrato y dos inhibidores, conteste las siguientes cuestiones:</b><br>a) Describa qué ocurre en los procesos A y B [1].<br>b) Realice un dibujo y describa qué ocurriría en una reacción con la enzima en presencia de su sustrato y del inhibidor 2 [0,5]. Indique qué ocurre en el proceso A si se produce un cambio brusco en el pH o en la temperatura [0,5].",
+   "c": [
+    "a) A: <mark class=\"clave-criterio\">reacción enzimática</mark>: la enzima se une al sustrato por el <mark class=\"clave-criterio\">centro activo</mark>, forma el <mark class=\"clave-criterio\">complejo enzima-sustrato</mark>, se produce la catálisis y se <mark class=\"clave-criterio\">liberan la enzima y los productos</mark> (0,5 p).",
+    "a) B: <mark class=\"clave-criterio\">inhibición</mark>: el inhibidor se une a la enzima y <mark class=\"clave-criterio\">modifica el centro activo</mark>, que <mark class=\"clave-criterio\">no puede unirse al sustrato</mark> (0,5 p).",
+    "b) Dibujo de una <mark class=\"clave-criterio\">inhibición competitiva</mark> (0,25 p): el inhibidor 2, <mark class=\"clave-criterio\">análogo del sustrato</mark>, <mark class=\"clave-criterio\">ocupa el centro activo</mark> y <mark class=\"clave-criterio\">ralentiza la reacción</mark> (0,25 p).",
+    "b) Fuera del <mark class=\"clave-criterio\">pH y temperatura óptimos</mark> la actividad <mark class=\"clave-criterio\">se ralentiza</mark> y puede llegar a la <mark class=\"clave-criterio\">desnaturalización</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 3",
+    "referencia": "Modelo 3, opción A, pregunta 6",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO 3_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_3_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2014/m3-a6.webp",
+   "imgThumb": "assets/figuras/historico/2014/m3-a6.thumb.webp",
+   "imageDesc": "Una enzima, su sustrato, un inhibidor 1 (triángulo) y un inhibidor 2 (parecido al sustrato). A: la enzima se une al sustrato y libera productos. B: el inhibidor 1 se une en otro lugar y la enzima deforma su centro activo.",
+   "isNew": true
+  },
+  {
+   "id": "pau2014-m3-b1",
+   "block": "Biomoléculas",
+   "topic": "Agua: estructura y propiedades",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Describa la estructura de la molécula del agua [0,4]. Enumere cuatro propiedades físico-químicas del agua y relaciónelas con sus funciones biológicas [1,6].",
+   "c": [
+    "<mark class=\"clave-criterio\">Dos hidrógenos</mark> unidos a <mark class=\"clave-criterio\">un oxígeno</mark> por <mark class=\"clave-criterio\">enlaces covalentes</mark> (0,4 p).",
+    "<mark class=\"clave-criterio\">Cohesión y constante dieléctrica</mark> (transporte y <mark class=\"clave-criterio\">disolvente</mark>); <mark class=\"clave-criterio\">calor específico</mark> (<mark class=\"clave-criterio\">termorregulación</mark>); <mark class=\"clave-criterio\">calor de vaporización</mark> (<mark class=\"clave-criterio\">refrigerante</mark>); <mark class=\"clave-criterio\">adhesión</mark> (<mark class=\"clave-criterio\">capilaridad</mark>); <mark class=\"clave-criterio\">densidad en estado sólido</mark> (vida acuática en zonas frías). Cuatro, a 0,4 p (1,6 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 3",
+    "referencia": "Modelo 3, opción B, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO 3_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_3_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2014-m3-b2",
+   "block": "Metabolismo",
+   "topic": "Glucólisis y destinos del piruvato",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Indique la localización intracelular de la glucólisis [0,1]. ¿De qué moléculas se parte y qué moléculas se obtienen al final? [0,4]. ¿Qué rutas metabólicas puede seguir el producto final de la glucólisis? [0,5]. Indique cuáles son los compuestos iniciales y los productos finales de cada una de estas rutas [1].",
+   "c": [
+    "<mark class=\"clave-criterio\">Citosol</mark> (0,1 p).",
+    "Iniciales: <mark class=\"clave-criterio\">glucosa, NAD⁺, ADP, Pi</mark>; finales: <mark class=\"clave-criterio\">piruvato, NADH+H⁺ y ATP</mark> (0,4 p).",
+    "Rutas: <mark class=\"clave-criterio\">fermentaciones</mark> (anaeróbica) y <mark class=\"clave-criterio\">ciclo de Krebs</mark> (aeróbica) (0,5 p).",
+    "Fermentaciones: <mark class=\"clave-criterio\">piruvato</mark> → <mark class=\"clave-criterio\">lactato o etanol</mark> y <mark class=\"clave-criterio\">NAD⁺</mark> (0,5 p).",
+    "Ciclo de Krebs: <mark class=\"clave-criterio\">acetil-CoA y oxalacético</mark> → <mark class=\"clave-criterio\">CO₂, NADH+H⁺, FADH₂ y GTP (ATP)</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 3",
+    "referencia": "Modelo 3, opción B, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO 3_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_3_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2014-m3-b3",
+   "block": "Microbiología",
+   "topic": "La bacteria y sus componentes",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Dibuje una bacteria [0,3] e identifique siete de sus componentes [0,7]. Cite una función de cinco de estos componentes [1].",
+   "c": [
+    "Dibujo (0,3 p).",
+    "Componentes: <mark class=\"clave-criterio\">flagelo o fimbrias</mark>, <mark class=\"clave-criterio\">cápsula</mark>, <mark class=\"clave-criterio\">pared celular</mark>, <mark class=\"clave-criterio\">membrana plasmática</mark>, citoplasma, <mark class=\"clave-criterio\">cromosoma bacteriano</mark>, <mark class=\"clave-criterio\">plásmidos</mark>, <mark class=\"clave-criterio\">ribosomas</mark>, vesículas de gas, gránulos. Siete, a 0,1 p (0,7 p).",
+    "Funciones: flagelos, <mark class=\"clave-criterio\">movilidad</mark>; fimbrias, <mark class=\"clave-criterio\">adhesión</mark>; cápsula, <mark class=\"clave-criterio\">protección</mark> frente a fagocitosis y desecación; pared, <mark class=\"clave-criterio\">forma y rigidez</mark>; membrana, <mark class=\"clave-criterio\">paso selectivo</mark>; cromosoma, <mark class=\"clave-criterio\">información genética</mark>; plásmidos, <mark class=\"clave-criterio\">ventajas adicionales</mark>; ribosomas, <mark class=\"clave-criterio\">síntesis de proteínas</mark>. Cinco, a 0,2 p (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 3",
+    "referencia": "Modelo 3, opción B, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO 3_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_3_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2014-m3-b6",
+   "block": "Genética",
+   "topic": "Dihibridismo en hojas de jardín",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>Una planta de jardín presenta dos variedades (P1 y P2). La variedad P1 tiene hojas de borde liso y moteadas (manchas distribuidas al azar) y la variedad P2 tiene hojas de borde lobulado y sin motear. El carácter borde liso (B) es dominante sobre el carácter lobulado (b) y el carácter no moteado (M) es dominante sobre el carácter moteado (m). Se cruza una planta P1 con una P2 y los resultados obtenidos se indican en el esquema. A la vista de los mismos, conteste las siguientes cuestiones:</b><br>a) Deduzca los genotipos de P1 y P2 [0,6] e indique los gametos que formarán cada una de ellas [0,2]. ¿Cuál es el genotipo de las plantas 1 y 4 de la F1? [0,2].<br>b) Indique el genotipo de la planta número 2 de la F1 y explique cuáles serían los genotipos de la F2 resultante del cruce de esta planta con la número 4 [0,8]. ¿Cuáles serían las proporciones fenotípicas esperadas de cada uno de ellos? [0,2]. Razone las respuestas representando los esquemas de los posibles cruces.",
+   "c": [
+    "a) P1: <mark class=\"clave-criterio\">Bbmm</mark>: heterocigótica para el borde, si no no habría descendientes lobulados (0,3 p). P2: <mark class=\"clave-criterio\">bbMm</mark>: heterocigótica para el moteado, si no no habría moteados (0,3 p).",
+    "a) Gametos de P1: <mark class=\"clave-criterio\">Bm y bm</mark>; de P2: <mark class=\"clave-criterio\">bM y bm</mark> (0,2 p).",
+    "a) Planta 1: <mark class=\"clave-criterio\">BbMm</mark>; planta 4: <mark class=\"clave-criterio\">bbmm</mark> (0,2 p).",
+    "b) Planta 2: <mark class=\"clave-criterio\">Bbmm</mark> (0,2 p). Cruce 2 × 4: <mark class=\"clave-criterio\">Bbmm 50 %</mark> y <mark class=\"clave-criterio\">bbmm 50 %</mark> (0,6 p).",
+    "b) Fenotipos: <mark class=\"clave-criterio\">borde liso y moteada 50 %</mark>; <mark class=\"clave-criterio\">borde lobulado y moteada 50 %</mark> (0,2 p). Se justifica con los cruces."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 3",
+    "referencia": "Modelo 3, opción B, pregunta 6",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO 3_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_3_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2014/m3-b6.webp",
+   "imgThumb": "assets/figuras/historico/2014/m3-b6.thumb.webp",
+   "imageDesc": "P1 (hoja de borde liso y moteada) × P2 (hoja lobulada sin motear); en la F1, cuatro hojas: 1 lisa sin motear, 2 lisa moteada, 3 lobulada sin motear y 4 lobulada moteada.",
+   "isNew": true
+  },
+  {
+   "id": "pau2014-m3-a4+a5",
+   "block": "Célula",
+   "topic": "Lechuga turgente y aliñada · Cafeína y fragmoplasto",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "q": "<b>I.</b> ¿Por qué las hojas de lechuga se ponen turgentes cuando las dejamos durante un tiempo en un recipiente con agua para lavarlas? [0,5]. ¿Y por qué esas mismas hojas de lechuga se arrugan cuando las aliñamos con sal? [0,5]. Razone las respuestas. <i>(1 punto)</i><br><br><b>II.</b> La administración de cafeína en los tejidos vegetales inhibe la formación del fragmoplasto en la división celular. Indique qué fase de la división celular se vería afectada [0,5] y cómo serán las células originadas tras la administración de este alcaloide [0,5]. Razone las respuestas. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> En agua las células están en un <mark class=\"clave-criterio\">medio hipotónico</mark> y <mark class=\"clave-criterio\">entra agua por ósmosis</mark> (0,5 p).",
+    "<b>I.</b> Con sal el medio es <mark class=\"clave-criterio\">hipertónico</mark> y <mark class=\"clave-criterio\">sale agua por ósmosis</mark> (0,5 p).",
+    "<b>II.</b> Se relaciona el fragmoplasto con la <mark class=\"clave-criterio\">citocinesis</mark>, que <mark class=\"clave-criterio\">no podría producirse</mark> (0,5 p).",
+    "<b>II.</b> Serán <mark class=\"clave-criterio\">células binucleadas</mark>: dos núcleos tras la <mark class=\"clave-criterio\">cariocinesis</mark> sin separación del citoplasma (0,5 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2014-m3-a4",
+    "pau2014-m3-a5"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 3",
+    "referencia": "Modelo 3, opción A, pregunta 4 + Modelo 3, opción A, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO 3_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_3_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2014-m3-b4+b5",
+   "block": "Célula",
+   "topic": "Nucléolo y síntesis de proteínas · Respuestas frente a dos antígenos",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "q": "<b>I.</b> Explique razonadamente la relación que existe entre el nucléolo y la síntesis de proteínas [1]. <i>(1 punto)</i><br><br><b>II.</b> En un experimento se inoculan ratones con un antígeno A con el que no habían tenido contacto previo. Trascurridas cuatro semanas vuelven a ser inoculados con una mezcla de antígeno A y un nuevo antígeno B, con el que tampoco habían tenido contacto anteriormente. Describa [0,7] y represente gráficamente [0,3] la evolución de la concentración de anticuerpos anti A y anti B en sangre durante las ocho semanas que dura el experimento. Razone las respuestas. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> La síntesis de proteínas ocurre en los <mark class=\"clave-criterio\">ribosomas</mark>, formados por <mark class=\"clave-criterio\">ARN ribosómico</mark> que <mark class=\"clave-criterio\">se sintetiza en el nucléolo</mark> (1 p).",
+    "<b>II.</b> El primer contacto con cada antígeno produce una <mark class=\"clave-criterio\">respuesta primaria</mark>, <mark class=\"clave-criterio\">lenta</mark> (0,3 p).",
+    "<b>II.</b> Frente a A, el segundo contacto produce una <mark class=\"clave-criterio\">respuesta secundaria</mark>: anticuerpos <mark class=\"clave-criterio\">más elevados, rápidos y persistentes</mark>, gracias a las <mark class=\"clave-criterio\">células de memoria</mark> (0,4 p).",
+    "<b>II.</b> <mark class=\"clave-criterio\">Gráfica</mark> de la concentración de anticuerpos frente al tiempo (0,3 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2014-m3-b4",
+    "pau2014-m3-b5"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 3",
+    "referencia": "Modelo 3, opción B, pregunta 4 + Modelo 3, opción B, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO 3_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_3_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2014-m5-a1",
+   "block": "Biomoléculas",
+   "topic": "Ácidos grasos, triacilglicéridos y fosfolípidos",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Defina ácido graso, triacilglicérido y fosfolípido [1,2]. Explique por qué los fosfolípidos son moléculas anfipáticas [0,4]. Cite una función biológica de los carotenoides y otra de los esteroides [0,4].",
+   "c": [
+    "Ácido graso: <mark class=\"clave-criterio\">cadena hidrocarbonada larga</mark> con un <mark class=\"clave-criterio\">grupo carboxilo</mark> en un extremo (0,4 p).",
+    "Triacilglicérido: <mark class=\"clave-criterio\">triéster de glicerina y ácidos grasos</mark> (0,4 p).",
+    "Fosfolípido: <mark class=\"clave-criterio\">éster de glicerina con dos ácidos grasos</mark> y un <mark class=\"clave-criterio\">ácido fosfórico unido a un alcohol</mark> (0,4 p).",
+    "Son anfipáticos porque tienen una <mark class=\"clave-criterio\">parte hidrófila (polar)</mark> y otra <mark class=\"clave-criterio\">hidrófoba (apolar)</mark> (0,4 p).",
+    "Carotenoides: <mark class=\"clave-criterio\">pigmentos y vitaminas</mark>; esteroides: <mark class=\"clave-criterio\">componentes de membranas</mark>, <mark class=\"clave-criterio\">precursores de hormonas</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 5",
+    "referencia": "Modelo 5, opción A, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO_5_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_5_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2014-m5-a2",
+   "block": "Célula",
+   "topic": "Mitosis frente a meiosis",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Compare y describa los procesos de mitosis y meiosis en relación con: a) tipos de células implicadas [0,5], b) anafase de la mitosis y anafase de la primera división meiótica [1] y c) resultado del proceso [0,5].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Somáticas (mitosis)</mark> y <mark class=\"clave-criterio\">germinales (meiosis)</mark> (0,5 p).",
+    "b) Anafase mitótica: <mark class=\"clave-criterio\">separación de cromátidas hermanas</mark> hacia polos opuestos (0,5 p). Anafase I: cada <mark class=\"clave-criterio\">mitad de la tétrada</mark> va a un polo: <mark class=\"clave-criterio\">no se separan cromátidas sino cromosomas de dos cromátidas</mark> (0,5 p).",
+    "c) Mitosis: <mark class=\"clave-criterio\">dos células hijas idénticas</mark> a la madre (0,25 p). Meiosis: <mark class=\"clave-criterio\">cuatro células haploides</mark> con <mark class=\"clave-criterio\">distinta información genética</mark> (0,25 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 5",
+    "referencia": "Modelo 5, opción A, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO_5_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_5_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2014-m5-a3",
+   "block": "Genética",
+   "topic": "Pares de conceptos genéticos",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Explique la diferencia entre los siguientes pares de conceptos: gen-alelo [0,5], homocigoto-heterocigoto [0,5], herencia dominante-herencia intermedia [0,5], gen autosómico-gen ligado al sexo [0,5].",
+   "c": [
+    "Gen: <mark class=\"clave-criterio\">fragmento de ADN</mark> que determina una característica; alelo: <mark class=\"clave-criterio\">forma alternativa</mark> de un gen (0,5 p).",
+    "Homocigoto: dos alelos <mark class=\"clave-criterio\">idénticos</mark>; heterocigoto: dos alelos <mark class=\"clave-criterio\">diferentes</mark> (0,5 p).",
+    "Dominante: el fenotipo lo determina <mark class=\"clave-criterio\">uno de los dos alelos</mark>; intermedia: <mark class=\"clave-criterio\">fenotipo intermedio</mark> (0,5 p).",
+    "Autosómico: en los <mark class=\"clave-criterio\">autosomas</mark>; ligado al sexo: en los <mark class=\"clave-criterio\">cromosomas sexuales</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 5",
+    "referencia": "Modelo 5, opción A, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO_5_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_5_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2014-m5-a6",
+   "block": "Biomoléculas",
+   "topic": "Aminoácido y dipéptido",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la imagen adjunta, conteste las siguientes cuestiones:</b><br>a) ¿Qué tipo de biomolécula representa? [0,1]. Indique los nombres de los grupos químicos de los recuadros señalados con los números 1 y 2 [0,3]. ¿Qué representa R? [0,1]. ¿Qué nombre reciben las macromoléculas biológicas formadas por gran cantidad de monómeros de este tipo? [0,1]. Enumere cuatro de las funciones biológicas de estas macromoléculas [0,4].<br>b) Indique qué nombre recibe el compuesto que se forma al unirse dos biomoléculas como la representada [0,1] y dibújelo [0,5]. Indique el nombre que recibe el enlace que se forma entre estas biomoléculas [0,2] y cite dos características de este enlace [0,2].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Aminoácido</mark> (0,1 p). 1: <mark class=\"clave-criterio\">grupo amino (-NH₂)</mark>; 2: <mark class=\"clave-criterio\">grupo carboxilo (-COOH)</mark> (0,3 p).",
+    "a) R: <mark class=\"clave-criterio\">cadena lateral o radical</mark>, el componente variable (0,1 p). <mark class=\"clave-criterio\">Proteínas</mark> (0,1 p).",
+    "a) Funciones: <mark class=\"clave-criterio\">enzimática</mark>, <mark class=\"clave-criterio\">transporte</mark>, <mark class=\"clave-criterio\">contracción</mark>, <mark class=\"clave-criterio\">estructural</mark>, <mark class=\"clave-criterio\">reserva</mark>, <mark class=\"clave-criterio\">inmunidad</mark>, <mark class=\"clave-criterio\">hormonal</mark>. Cuatro, a 0,1 p (0,4 p).",
+    "b) <mark class=\"clave-criterio\">Dipéptido</mark> (0,1 p) y su <mark class=\"clave-criterio\">dibujo</mark> (0,5 p).",
+    "b) <mark class=\"clave-criterio\">Enlace peptídico</mark> (0,2 p): <mark class=\"clave-criterio\">covalente</mark>, <mark class=\"clave-criterio\">coplanario</mark>, <mark class=\"clave-criterio\">sin giro</mark>. Dos, a 0,1 p (0,2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 5",
+    "referencia": "Modelo 5, opción A, pregunta 6",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO_5_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_5_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2014/m5-a6.webp",
+   "imgThumb": "assets/figuras/historico/2014/m5-a6.thumb.webp",
+   "imageDesc": "Molécula con un carbono central unido a un H, a un grupo R, a un grupo NH₂ (recuadro 1) y a un grupo COOH (recuadro 2).",
+   "isNew": true
+  },
+  {
+   "id": "pau2014-m5-b1",
+   "block": "Biomoléculas",
+   "topic": "Enzimas, cofactores e inhibidores",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Explique cuál es la función de las enzimas [0,4]. ¿Qué se entiende por cofactor enzimático [0,4], coenzima [0,4], inhibidor enzimático [0,4] y centro activo [0,4]?",
+   "c": [
+    "Las enzimas <mark class=\"clave-criterio\">aceleran las reacciones</mark> (0,2 p) <mark class=\"clave-criterio\">disminuyendo la energía de activación</mark> (0,2 p).",
+    "Cofactor: <mark class=\"clave-criterio\">componente no proteico necesario</mark> para la acción de una enzima (0,4 p).",
+    "Coenzima: <mark class=\"clave-criterio\">cofactor orgánico</mark> que interviene en reacciones enzimáticas (0,4 p).",
+    "Inhibidor: sustancia que <mark class=\"clave-criterio\">disminuye o anula la actividad enzimática</mark> (0,4 p).",
+    "Centro activo: <mark class=\"clave-criterio\">región de la enzima</mark> con los <mark class=\"clave-criterio\">aminoácidos que se unen al sustrato</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 5",
+    "referencia": "Modelo 5, opción B, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO_5_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_5_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2014-m5-b2",
+   "block": "Metabolismo",
+   "topic": "Catabolismo aerobio y anaerobio de la glucosa",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Defina catabolismo [0,5]. Compare las vías aeróbica y anaeróbica del catabolismo de la glucosa en células eucarióticas en cuanto a su localización [0,5], rendimiento energético [0,4] y productos finales [0,6].",
+   "c": [
+    "Catabolismo: reacciones que proporcionan <mark class=\"clave-criterio\">precursores, energía y poder reductor</mark> (0,5 p).",
+    "Localización: aeróbica en <mark class=\"clave-criterio\">citoplasma y mitocondria</mark>; anaeróbica en el <mark class=\"clave-criterio\">citoplasma</mark> (0,5 p).",
+    "La vía aeróbica tiene <mark class=\"clave-criterio\">mayor rendimiento energético</mark> (0,4 p).",
+    "Productos: <mark class=\"clave-criterio\">ATP, CO₂ y H₂O</mark> en aerobiosis; <mark class=\"clave-criterio\">ATP, lactato y/o etanol</mark> en anaerobiosis. 0,3 p cada una (0,6 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 5",
+    "referencia": "Modelo 5, opción B, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO_5_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_5_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2014-m5-b3",
+   "block": "Inmunología",
+   "topic": "Términos de inmunología",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Defina los siguientes términos: antígeno, inmunidad artificial, respuesta primaria, enfermedad autoinmune y respuesta humoral [2].",
+   "c": [
+    "Antígeno: molécula <mark class=\"clave-criterio\">no reconocida</mark> que provoca <mark class=\"clave-criterio\">anticuerpos específicos</mark> (0,4 p).",
+    "Inmunidad artificial: la producida por <mark class=\"clave-criterio\">intervención humana</mark>, como una <mark class=\"clave-criterio\">vacuna</mark> (0,4 p).",
+    "Respuesta primaria: la que se produce la <mark class=\"clave-criterio\">primera vez</mark> que entra un patógeno (0,4 p).",
+    "Autoinmune: se <mark class=\"clave-criterio\">destruyen moléculas o células propias</mark> (0,4 p).",
+    "Respuesta humoral: basada en la producción de <mark class=\"clave-criterio\">anticuerpos</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 5",
+    "referencia": "Modelo 5, opción B, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO_5_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_5_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2014-m5-b6",
+   "block": "Célula",
+   "topic": "Célula vegetal: estructuras y funciones",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la imagen adjunta, conteste las siguientes cuestiones:</b><br>a) Indique el tipo celular de que se trata [0,1], basándose en tres características [0,3]. Indique qué números corresponden con las siguientes estructuras: retículo endoplasmático rugoso, retículo endoplasmático liso, mitocondria, y complejo de Golgi [0,4]. ¿Qué funciones tienen las estructuras 3 y 6? [0,2].<br>b) Indique dos funciones de la estructura señalada con el número 7 [0,2], dos funciones de la estructura número 8 [0,2] y otras dos realizadas por la estructura número 1 [0,2]. Nombre dos reinos en los que se pueda encontrar este tipo celular [0,4].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Célula eucariótica vegetal</mark> (0,1 p): <mark class=\"clave-criterio\">cloroplastos</mark>, <mark class=\"clave-criterio\">pared celular</mark>, <mark class=\"clave-criterio\">vacuolas</mark>, <mark class=\"clave-criterio\">ausencia de centriolos</mark>. Tres, a 0,1 p (0,3 p).",
+    "a) RER: <mark class=\"clave-criterio\">4</mark>; REL: <mark class=\"clave-criterio\">8</mark>; mitocondria: <mark class=\"clave-criterio\">6</mark>; Golgi: <mark class=\"clave-criterio\">5</mark> (0,4 p).",
+    "a) 3: <mark class=\"clave-criterio\">fotosíntesis</mark>; 6: <mark class=\"clave-criterio\">respiración celular</mark> (0,2 p).",
+    "b) 7 (vacuola): <mark class=\"clave-criterio\">reserva</mark>, <mark class=\"clave-criterio\">almacén de desechos</mark>, <mark class=\"clave-criterio\">regulación osmótica</mark> (0,2 p). 8 (REL): <mark class=\"clave-criterio\">síntesis de lípidos</mark>, <mark class=\"clave-criterio\">detoxificación</mark> (0,2 p). 1 (pared): <mark class=\"clave-criterio\">estructural</mark>, <mark class=\"clave-criterio\">forma y rigidez</mark>, <mark class=\"clave-criterio\">turgencia</mark> (0,2 p).",
+    "b) <mark class=\"clave-criterio\">Reino Plantas</mark> y <mark class=\"clave-criterio\">Reino Protoctistas</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 5",
+    "referencia": "Modelo 5, opción B, pregunta 6",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO_5_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_5_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2014/m5-b6.webp",
+   "imgThumb": "assets/figuras/historico/2014/m5-b6.thumb.webp",
+   "imageDesc": "Célula con pared gruesa, gran vacuola central, cloroplastos, núcleo y otros orgánulos; ocho estructuras numeradas.",
+   "isNew": true
+  },
+  {
+   "id": "pau2014-m5-a4+a5",
+   "block": "Célula",
+   "topic": "Células animales en medios hiper, hipo e isotónicos · Por qué se usan fermentadores en industria",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "q": "<b>I.</b> Se introducen células animales en tres tubos de ensayo: el tubo A tiene una solución hipertónica, el B una hipotónica y el C una isotónica. Exponga razonadamente lo que les ocurrirá a las células en cada uno de los tubos [1]. <i>(1 punto)</i><br><br><b>II.</b> A pesar de que el rendimiento energético de la fermentación es menor que el de la respiración, los organismos con capacidad de producir fermentaciones son muy utilizados en biotecnología y con fines industriales. Dé una explicación razonada a este hecho [1]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> Tubo A: <mark class=\"clave-criterio\">pierden agua (plasmólisis)</mark> (0,4 p); tubo B: <mark class=\"clave-criterio\">entra agua</mark> y pueden <mark class=\"clave-criterio\">lisarse</mark> (0,3 p); tubo C: <mark class=\"clave-criterio\">no ocurre nada</mark>, por ser <mark class=\"clave-criterio\">isotónico</mark> (0,3 p).",
+    "<b>II.</b> Lo determinante no es el rendimiento energético sino que den <mark class=\"clave-criterio\">productos de interés comercial</mark> (vinagre, <mark class=\"clave-criterio\">bebidas alcohólicas</mark>, <mark class=\"clave-criterio\">derivados lácteos</mark>…). También vale: <mark class=\"clave-criterio\">fácil mantenimiento y reproducción</mark>, fáciles de <mark class=\"clave-criterio\">manipular genéticamente</mark>, <mark class=\"clave-criterio\">pocos requerimientos</mark> (1 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2014-m5-a4",
+    "pau2014-m5-a5"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 5",
+    "referencia": "Modelo 5, opción A, pregunta 4 + Modelo 5, opción A, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO_5_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_5_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2014-m5-b4+b5",
+   "block": "Célula",
+   "topic": "Fosfolípido frente a aminoácido en la membrana · Experimento de replicación con ¹⁵N",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "q": "<b>I.</b> La fosfatidilcolina (fosfolípido) puede atravesar la bicapa lipídica mientras que la histidina (aminoácido) no lo puede hacer. Explique razonadamente cuál es la causa de este diferente comportamiento [1]. <i>(1 punto)</i><br><br><b>II.</b> Al cultivar <i>Escherichia coli</i> en un medio con <sup>15</sup>N se obtienen bacterias con ADN de densidad alta. Las bacterias que viven en un medio normal, con <sup>14</sup>N, tienen un ADN con densidad baja. Si se cultivan bacterias con ADN de densidad alta en un medio normal con <sup>14</sup>N, ¿qué densidad tendrá el ADN de las bacterias de la primera generación? [0,5]. ¿Cómo será la densidad del ADN en la segunda generación? [0,5]. Razone las respuestas. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> La fosfatidilcolina, por ser un <mark class=\"clave-criterio\">lípido</mark>, <mark class=\"clave-criterio\">se disuelve en la bicapa</mark> y la atraviesa por <mark class=\"clave-criterio\">difusión simple</mark> (0,5 p).",
+    "<b>I.</b> La histidina <mark class=\"clave-criterio\">tiene carga</mark> y <mark class=\"clave-criterio\">requiere un transportador</mark> (0,5 p).",
+    "<b>II.</b> Primera generación: <mark class=\"clave-criterio\">densidad intermedia</mark>: cada ADN tiene <mark class=\"clave-criterio\">una hebra con ¹⁴N y otra con ¹⁵N</mark>, porque la replicación es <mark class=\"clave-criterio\">semiconservativa</mark> (0,5 p).",
+    "<b>II.</b> Segunda generación: <mark class=\"clave-criterio\">mitad de densidad intermedia</mark> y <mark class=\"clave-criterio\">mitad de densidad baja</mark> (las dos hebras con ¹⁴N) (0,5 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2014-m5-b4",
+    "pau2014-m5-b5"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 5",
+    "referencia": "Modelo 5, opción B, pregunta 4 + Modelo 5, opción B, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO_5_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_5_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2014-m6-a1",
+   "block": "Célula",
+   "topic": "Transporte y endocitosis",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Indique las características de los siguientes procesos: transporte pasivo, transporte activo, pinocitosis, fagocitosis y exocitosis [2].",
+   "c": [
+    "Pasivo: <mark class=\"clave-criterio\">difusión simple</mark> (sin energía, <mark class=\"clave-criterio\">a favor de gradiente</mark>) (0,2 p) y <mark class=\"clave-criterio\">difusión facilitada</mark> (además, <mark class=\"clave-criterio\">mediada por proteínas</mark>) (0,3 p).",
+    "Activo: <mark class=\"clave-criterio\">contra gradiente</mark>, <mark class=\"clave-criterio\">proteínas</mark> y <mark class=\"clave-criterio\">gasto de energía</mark> (0,3 p).",
+    "Pinocitosis: entrada de <mark class=\"clave-criterio\">fluidos</mark> en <mark class=\"clave-criterio\">vesículas pinocíticas</mark> (0,4 p).",
+    "Fagocitosis: incorporación de <mark class=\"clave-criterio\">partículas sólidas</mark> formando <mark class=\"clave-criterio\">fagosomas</mark> (0,4 p).",
+    "Exocitosis: <mark class=\"clave-criterio\">expulsión de moléculas</mark> en <mark class=\"clave-criterio\">vesículas de secreción</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 6",
+    "referencia": "Modelo 6, opción A, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO_6_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_6_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2014-m6-a2",
+   "block": "Genética",
+   "topic": "Codón, anticodón y código genético",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Defina el concepto de codón y anticodón [0,6]. ¿Cuáles son las funciones del ARN mensajero y del ARN transferente? [0,8]. Cite tres características del código genético [0,6].",
+   "c": [
+    "Codón: <mark class=\"clave-criterio\">tres nucleótidos consecutivos del ARNm</mark> que codifican un aminoácido (0,3 p). Anticodón: <mark class=\"clave-criterio\">triplete del ARNt</mark> que se une a un <mark class=\"clave-criterio\">codón complementario</mark> (0,3 p).",
+    "ARNm: <mark class=\"clave-criterio\">contiene y transporta el mensaje genético</mark> (0,4 p). ARNt: <mark class=\"clave-criterio\">transporta los aminoácidos</mark> (0,4 p).",
+    "<mark class=\"clave-criterio\">Universal</mark>, <mark class=\"clave-criterio\">específico</mark>, <mark class=\"clave-criterio\">continuo</mark>, <mark class=\"clave-criterio\">degenerado</mark>, con <mark class=\"clave-criterio\">señales de inicio y final</mark>. Tres, a 0,2 p (0,6 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 6",
+    "referencia": "Modelo 6, opción A, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO_6_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_6_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2014-m6-a3",
+   "block": "Microbiología",
+   "topic": "Virus frente a procariotas",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Indique qué es un virus [0,5]. Cite tres diferencias entre los virus y los procariotas [0,6]. Distinga entre cápsida vírica y cápsula bacteriana [0,6]. Explique la principal diferencia entre el ciclo lítico y el ciclo lisogénico de un bacteriófago [0,3].",
+   "c": [
+    "Virus: <mark class=\"clave-criterio\">forma acelular</mark> de <mark class=\"clave-criterio\">proteínas y un solo tipo de ácido nucleico</mark> que necesita <mark class=\"clave-criterio\">células vivas</mark> para multiplicarse (<mark class=\"clave-criterio\">parásito obligado</mark>) (0,5 p).",
+    "Diferencias: <mark class=\"clave-criterio\">un tipo de ácido nucleico</mark>, <mark class=\"clave-criterio\">sin metabolismo propio</mark>, <mark class=\"clave-criterio\">sin estructura celular</mark>. Tres, a 0,2 p (0,6 p).",
+    "Cápsida: <mark class=\"clave-criterio\">cubierta proteica</mark> del ácido nucleico vírico; cápsula: <mark class=\"clave-criterio\">capa externa</mark> de algunas bacterias, generalmente de <mark class=\"clave-criterio\">glúcidos</mark> (0,6 p).",
+    "En el ciclo lisogénico el <mark class=\"clave-criterio\">ADN vírico se integra en el genoma celular</mark>; en el lítico no (0,3 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 6",
+    "referencia": "Modelo 6, opción A, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO_6_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_6_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2014-m6-a6",
+   "block": "Metabolismo",
+   "topic": "ATP: estructura y funciones",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la imagen adjunta, conteste las siguientes cuestiones:</b><br>a) Identifique el tipo de molécula representada [0,2]. Cite dos funciones que pueden realizar moléculas con este tipo de estructura [0,4]. Nombre los componentes representados con los números 1, 2 y 3 [0,3]. ¿Qué enlace une lo representado con los números 2 y 3? [0,1].<br>b) Indique dos procesos en los que se genera este tipo de compuestos [0,4] e identifique su localización celular [0,2]. Indique dos procesos en los que se consuma este tipo de compuestos [0,4].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Nucleótido</mark> (<mark class=\"clave-criterio\">ATP</mark>) (0,2 p). Funciones: <mark class=\"clave-criterio\">energética</mark>, <mark class=\"clave-criterio\">precursor de coenzimas</mark>, <mark class=\"clave-criterio\">estructural</mark>, <mark class=\"clave-criterio\">segundo mensajero</mark>. Dos, a 0,2 p (0,4 p).",
+    "a) 1: <mark class=\"clave-criterio\">adenina</mark>; 2: <mark class=\"clave-criterio\">ribosa</mark>; 3: <mark class=\"clave-criterio\">tres ácidos fosfóricos</mark> (0,3 p). Enlace: <mark class=\"clave-criterio\">éster</mark> (0,1 p).",
+    "b) <mark class=\"clave-criterio\">Glucólisis</mark> (citosol), <mark class=\"clave-criterio\">ciclo de Krebs</mark> (matriz), <mark class=\"clave-criterio\">fosforilación oxidativa</mark> (membrana interna mitocondrial), <mark class=\"clave-criterio\">fotofosforilación</mark> (tilacoide). Dos procesos a 0,2 p y su localización a 0,1 p (0,6 p).",
+    "b) Se consume en <mark class=\"clave-criterio\">reacciones de síntesis</mark>, <mark class=\"clave-criterio\">transporte activo</mark>, formación de <mark class=\"clave-criterio\">intermediarios metabólicos</mark>. Dos, a 0,2 p (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 6",
+    "referencia": "Modelo 6, opción A, pregunta 6",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO_6_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_6_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2014/m6-a6.webp",
+   "imgThumb": "assets/figuras/historico/2014/m6-a6.thumb.webp",
+   "imageDesc": "Molécula formada por una base con NH₂ (1), un azúcar de cinco carbonos (2) y tres grupos fosfato encadenados (3).",
+   "isNew": true
+  },
+  {
+   "id": "pau2014-m6-b1",
+   "block": "Biomoléculas",
+   "topic": "Nucleótidos: estructura y funciones",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Describa la estructura general [0,5] y la composición química de los nucleótidos [0,5]. Explique dos funciones biológicas de los nucleótidos y cite un ejemplo de cada una [1].",
+   "c": [
+    "<mark class=\"clave-criterio\">Pentosa</mark> y <mark class=\"clave-criterio\">base nitrogenada</mark> unidas a <mark class=\"clave-criterio\">ácido fosfórico</mark> mediante <mark class=\"clave-criterio\">enlace éster</mark> (0,5 p).",
+    "Bases (<mark class=\"clave-criterio\">A, G, C, T</mark>), pentosas (<mark class=\"clave-criterio\">ribosa, desoxirribosa</mark>) y <mark class=\"clave-criterio\">ácido fosfórico</mark> (0,5 p).",
+    "<mark class=\"clave-criterio\">Transferencia de energía</mark> (<mark class=\"clave-criterio\">ATP</mark>, GTP); <mark class=\"clave-criterio\">estructural</mark> (<mark class=\"clave-criterio\">ácidos nucleicos</mark>); <mark class=\"clave-criterio\">coenzimas</mark> (<mark class=\"clave-criterio\">NAD, FAD</mark>). Dos, a 0,5 p con su ejemplo (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 6",
+    "referencia": "Modelo 6, opción B, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO_6_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_6_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2014-m6-b2",
+   "block": "Célula",
+   "topic": "Mosaico fluido con dibujo",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Describa el modelo del Mosaico Fluido de membrana [1,25] e ilústrelo con un dibujo indicando los componentes principales [0,75].",
+   "c": [
+    "<mark class=\"clave-criterio\">Bicapa lipídica</mark> (fosfolípidos, colesterol), <mark class=\"clave-criterio\">proteínas periféricas e integradas</mark> y <mark class=\"clave-criterio\">glúcidos en la hemicapa externa</mark> (1,25 p).",
+    "<mark class=\"clave-criterio\">Dibujo</mark> con bicapa, proteínas y glúcidos (0,75 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 6",
+    "referencia": "Modelo 6, opción B, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO_6_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_6_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2014-m6-b3",
+   "block": "Inmunología",
+   "topic": "Inmunidad humoral y celular",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Defina inmunidad humoral e inmunidad celular [0,8]. Describa las principales características de cada una de ellas [1,2].",
+   "c": [
+    "Humoral: resistencia debida a los <mark class=\"clave-criterio\">anticuerpos de los linfocitos B (células plasmáticas)</mark> (0,4 p). Celular: resistencia mediada por los <mark class=\"clave-criterio\">linfocitos T</mark> (0,4 p).",
+    "Humoral: los anticuerpos <mark class=\"clave-criterio\">se unen específicamente a los antígenos</mark> y <mark class=\"clave-criterio\">bloquean su capacidad de unirse a otras células</mark> (0,6 p).",
+    "Celular: los <mark class=\"clave-criterio\">linfocitos T estimulan a otras células o destruyen células infectadas</mark>; los <mark class=\"clave-criterio\">macrófagos presentan antígenos</mark> y <mark class=\"clave-criterio\">fagocitan</mark> (0,6 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 6",
+    "referencia": "Modelo 6, opción B, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO_6_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_6_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2014-m6-b6",
+   "block": "Célula",
+   "topic": "Fases de la mitosis animal",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la figura adjunta que representa un proceso biológico, responda las siguientes cuestiones:</b><br>a) ¿De qué proceso biológico se trata? [0,2]. Nombre las fases representadas con los dibujos II y IV [0,1]. Identifique los elementos señalados con los números 1, 2 y 3 [0,3]. Exponga dos razones que justifiquen el tipo celular eucariótico en el que tiene lugar este proceso [0,4].<br>b) Nombre y describa brevemente las fases I y III [0,6]. ¿Cuál es el significado biológico de este proceso? [0,4].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Mitosis</mark> (0,2 p). II: <mark class=\"clave-criterio\">metafase</mark>; IV: <mark class=\"clave-criterio\">telofase</mark> (0,1 p).",
+    "a) 1: <mark class=\"clave-criterio\">cromosoma</mark>; 2: <mark class=\"clave-criterio\">microtúbulos del huso</mark>; 3: <mark class=\"clave-criterio\">cromosomas de una sola cromátida</mark> (0,3 p).",
+    "a) <mark class=\"clave-criterio\">Célula animal</mark>: <mark class=\"clave-criterio\">centriolos</mark>, <mark class=\"clave-criterio\">ausencia de pared</mark>, <mark class=\"clave-criterio\">anillo de segmentación</mark>. Dos, a 0,2 p (0,4 p).",
+    "b) I, <mark class=\"clave-criterio\">profase</mark>: cromosomas condensados de <mark class=\"clave-criterio\">dos cromátidas hermanas</mark>; <mark class=\"clave-criterio\">desaparecen nucléolo y envoltura</mark> (0,3 p). III, <mark class=\"clave-criterio\">anafase</mark>: <mark class=\"clave-criterio\">separación de las cromátidas hermanas</mark> por <mark class=\"clave-criterio\">acortamiento de los microtúbulos cinetocóricos</mark> (0,3 p).",
+    "b) Significado: células hijas con <mark class=\"clave-criterio\">idéntica información genética</mark>; <mark class=\"clave-criterio\">crecimiento y recambio celular</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 6",
+    "referencia": "Modelo 6, opción B, pregunta 6",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO_6_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_6_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2014/m6-b6.webp",
+   "imgThumb": "assets/figuras/historico/2014/m6-b6.thumb.webp",
+   "imageDesc": "Cuatro células en división (I a IV): cromosomas condensados (I), alineados en el ecuador (II), separándose hacia los polos (III) y célula estrangulándose en dos (IV); se señalan 1, 2 y 3.",
+   "isNew": true
+  },
+  {
+   "id": "pau2014-m6-a4+a5",
+   "block": "Biomoléculas",
+   "topic": "Sustitución de aminoácidos en una enzima · Cloranfenicol y ribosomas 70S",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "q": "<b>I.</b> La sustitución de unos aminoácidos por otros en la secuencia de una determinada proteína impide que lleve a cabo su función catalítica. Dé una explicación razonada a este hecho [1]. <i>(1 punto)</i><br><br><b>II.</b> El cloranfenicol es un antibiótico que bloquea la actividad de la enzima peptidil transferasa al unirse a los ribosomas 70S. Explique por qué en una placa de cultivo no se produce crecimiento bacteriano en presencia del cloranfenicol [0,5]. ¿Por qué la respiración en las células eucarióticas se ve afectada negativamente en presencia de cloranfenicol? [0,5]. Razone las respuestas. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> Puede haberse sustituido algún aminoácido del <mark class=\"clave-criterio\">centro activo</mark>, que ya <mark class=\"clave-criterio\">no reconoce al sustrato</mark>; o el cambio de secuencia afecta al <mark class=\"clave-criterio\">plegamiento</mark> de la proteína. Basta una (1 p).",
+    "<b>II.</b> Los <mark class=\"clave-criterio\">ribosomas 70S son bacterianos</mark>: al bloquearlos se <mark class=\"clave-criterio\">impide la síntesis proteica</mark> y <mark class=\"clave-criterio\">no crecen</mark> (0,5 p).",
+    "<b>II.</b> La respiración ocurre en la <mark class=\"clave-criterio\">mitocondria</mark>, cuyos <mark class=\"clave-criterio\">ribosomas son similares a los bacterianos</mark> (0,5 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2014-m6-a4",
+    "pau2014-m6-a5"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 6",
+    "referencia": "Modelo 6, opción A, pregunta 4 + Modelo 6, opción A, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO_6_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_6_13_14.pdf",
+    "examen_anio": 2014,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2014-m6-b4+b5",
+   "block": "Metabolismo",
+   "topic": "Energía en los glóbulos rojos · Daltonismo: portadora × hombre normal",
+   "anio": 2014,
+   "etiqueta": "PAU 2014",
+   "hasImg": false,
+   "q": "<b>I.</b> A pesar de carecer de mitocondrias los glóbulos rojos humanos siguen produciendo energía y viven unos 120 días. Proponga una hipótesis razonada para justificar cómo pueden obtener, a partir de glucosa, la energía que necesitan para mantener su actividad biológica durante ese tiempo [1]. <i>(1 punto)</i><br><br><b>II.</b> ¿Cuáles serán los genotipos posibles de los descendientes de una mujer portadora del gen del daltonismo y un hombre de visión normal? [0,25]. ¿Cuál es la probabilidad de que alguno de sus descendientes sea daltónico? [0,25]. Si tienen hijas, ¿cuál es la probabilidad de que sean daltónicas? [0,25]. ¿Cuál es la probabilidad de tener un descendiente portador del daltonismo? [0,25]. Razone las respuestas representando los esquemas de los posibles cruces. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> Sin mitocondrias no hay respiración celular: la única vía es la <mark class=\"clave-criterio\">fermentación</mark> (si solo se menciona la <mark class=\"clave-criterio\">glucólisis</mark>, 0,5 p) (1 p).",
+    "<b>II.</b> Genotipos: <mark class=\"clave-criterio\">X<sup>d</sup>Y, X<sup>D</sup>X<sup>D</sup>, X<sup>D</sup>Y y X<sup>D</sup>X<sup>d</sup></mark> (0,25 p).",
+    "<b>II.</b> Descendiente daltónico: <mark class=\"clave-criterio\">25 %</mark> (0,25 p). Hijas daltónicas: <mark class=\"clave-criterio\">0 %</mark> (0,25 p). Descendiente portador: <mark class=\"clave-criterio\">25 %</mark> (0,25 p). Se justifica con el cruce."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2014-m6-b4",
+    "pau2014-m6-b5"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2014 · Modelo 6",
+    "referencia": "Modelo 6, opción B, pregunta 4 + Modelo 6, opción B, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_EXAMEN_MODELO_6_13_14.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2014/BIOLOGÍA_CRITERIOS_EXAMEN_MODELO_6_13_14.pdf",
+    "examen_anio": 2014,
     "verificado": true
    }
   },
