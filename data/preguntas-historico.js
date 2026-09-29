@@ -1,7 +1,7 @@
 /* ══════════════════════════════════════════════════════════════
    Generado por tools/generar_banco_historico.py el 2026-09-29.
    NO editar a mano: se regenera desde data/historico/pau-*.json.
-   488 preguntas para Entrenamiento y 408 para Simulacro,
+   572 preguntas para Entrenamiento y 468 para Simulacro,
    de exámenes PAU oficiales con sus criterios de corrección.
    ══════════════════════════════════════════════════════════════ */
 window.BIOCELIA_HISTORICO = {
@@ -12940,6 +12940,2254 @@ window.BIOCELIA_HISTORICO = {
    "f": "Pregunta oficial de la PAU de Andalucía 2015-2016 (Reserva B, opción B, pregunta 6, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
   },
   {
+   "id": "pau2017-reserva-a-a1",
+   "block": "Metabolismo",
+   "topic": "Energía de activación y factores de la actividad enzimática",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina energía de activación de las reacciones enzimáticas [0,2]. b) Cite tres factores cuya variación pueda modificar la velocidad de las reacciones enzimáticas [0,3] y c) explique el fundamento de la acción de cada uno de ellos [1,5].",
+   "c": [
+    "a) Energía de activación: <mark class=\"clave-criterio\">energía que hay que suministrar a los reactivos</mark> para que la reacción química se produzca (0,2 p).",
+    "b) <mark class=\"clave-criterio\">Concentración de sustrato</mark>, <mark class=\"clave-criterio\">pH</mark> y <mark class=\"clave-criterio\">temperatura</mark>. 0,1 p cada uno (0,3 p).",
+    "c) Sustrato: al aumentar su concentración aumenta la velocidad por <mark class=\"clave-criterio\">ocupar más centros activos</mark>, hasta que <mark class=\"clave-criterio\">se saturan</mark> y la velocidad ya no aumenta (0,5 p).",
+    "c) pH: por encima o por debajo del <mark class=\"clave-criterio\">pH óptimo</mark> baja la velocidad porque se <mark class=\"clave-criterio\">dificulta la unión del sustrato al centro activo</mark>; con pH extremo la enzima se <mark class=\"clave-criterio\">desnaturaliza</mark> (0,5 p).",
+    "c) Temperatura: por debajo de la <mark class=\"clave-criterio\">óptima</mark> la velocidad disminuye; por encima también disminuye y, si es alta, la enzima se <mark class=\"clave-criterio\">desnaturaliza</mark> y cesa la actividad (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva A",
+    "referencia": "Reserva A, opción A, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Modelo 1 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Criterios Modelo 1 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Reserva A, opción A, pregunta 1, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-reserva-a-a2",
+   "block": "Metabolismo",
+   "topic": "Nutrición, metabolismo y tipos de organismos",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina nutrición celular y metabolismo [1]. b) Explique qué son organismos autótrofos, heterótrofos, fotótrofos y quimiótrofos [1].",
+   "c": [
+    "a) Nutrición: conjunto de procesos que permiten la <mark class=\"clave-criterio\">introducción de los nutrientes</mark> en la célula y su <mark class=\"clave-criterio\">conversión en energía y biomoléculas</mark> necesarias para las funciones vitales (0,5 p).",
+    "a) Metabolismo: <mark class=\"clave-criterio\">conjunto de reacciones químicas que tienen lugar en la célula</mark> (0,5 p).",
+    "b) Autótrofos: obtienen su materia orgánica <mark class=\"clave-criterio\">a partir del CO₂</mark>. Heterótrofos: la obtienen <mark class=\"clave-criterio\">a partir de otras moléculas orgánicas</mark>. Fotótrofos: usan la <mark class=\"clave-criterio\">energía luminosa</mark> para obtener ATP. Quimiótrofos: obtienen ATP de la <mark class=\"clave-criterio\">energía química de las moléculas que oxidan</mark>. 0,25 p cada uno (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva A",
+    "referencia": "Reserva A, opción A, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Modelo 1 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Criterios Modelo 1 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Reserva A, opción A, pregunta 2, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-reserva-a-a3",
+   "block": "Genética",
+   "topic": "Conceptos básicos de genética",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Defina: a) gen; b) genotipo; c) fenotipo; d) alelo; e) locus [2].",
+   "c": [
+    "a) Gen: <mark class=\"clave-criterio\">fragmento de ADN que determina una característica</mark> y que puede tener diferentes formas o alelos (0,4 p).",
+    "b) Genotipo: <mark class=\"clave-criterio\">conjunto de genes de un individuo</mark> (0,4 p).",
+    "c) Fenotipo: <mark class=\"clave-criterio\">manifestación del genotipo en un determinado ambiente</mark> (0,4 p).",
+    "d) Alelo: cada una de las <mark class=\"clave-criterio\">formas alternativas que puede presentar un gen</mark> (0,4 p).",
+    "e) Locus: <mark class=\"clave-criterio\">posición fija de un gen sobre un cromosoma</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva A",
+    "referencia": "Reserva A, opción A, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Modelo 1 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Criterios Modelo 1 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Reserva A, opción A, pregunta 3, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-reserva-a-a4",
+   "block": "Microbiología",
+   "topic": "Antibióticos: penicilina y estreptomicina",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "La penicilina y la estreptomicina son dos antibióticos utilizados en el tratamiento de enfermedades producidas por bacterias. La penicilina inhibe la síntesis de la pared celular bacteriana y la estreptomicina inhibe la síntesis de proteínas actuando sobre los ribosomas e impidiendo su normal funcionamiento. Explique de forma razonada por qué estos antibióticos atacan a las bacterias y, sin embargo, no atacan a las células eucarióticas [1].",
+   "c": [
+    "Penicilina: las células eucarióticas <mark class=\"clave-criterio\">no poseen pared celular bacteriana</mark> (peptidoglucano) (0,5 p).",
+    "Estreptomicina: afecta a los <mark class=\"clave-criterio\">ribosomas 70S</mark> de las bacterias, pero <mark class=\"clave-criterio\">no a los ribosomas 80S</mark> de las células eucarióticas (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva A",
+    "referencia": "Reserva A, opción A, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Modelo 1 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Criterios Modelo 1 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Reserva A, opción A, pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-reserva-a-a5",
+   "block": "Inmunología",
+   "topic": "Inmunidad transferida por la leche materna",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "A diferencia de lo que ocurre en la placenta humana, la placenta de la mayoría de los animales domésticos de granja es impermeable para macromoléculas como las proteínas complejas, que no pueden pasar de la circulación materna a la fetal. a) Explique un posible mecanismo por el que las hembras de estos animales pueden transferir inmunidad a sus crías recién nacidas, que están desprotegidas y con muy poca capacidad de respuesta inmune propia [0,5]. b) Indique qué tipo de respuesta inmune está implicada [0,25] y nombre las moléculas del sistema inmunitario que transferirán inmunidad a las crías [0,25].",
+   "c": [
+    "a) La inmunidad se transfiere tras el nacimiento, <mark class=\"clave-criterio\">durante el amamantamiento</mark>: la leche lleva los <mark class=\"clave-criterio\">anticuerpos específicos</mark> que la madre desarrolló mediante una <mark class=\"clave-criterio\">respuesta inmune activa</mark> (0,5 p).",
+    "b) Inmunidad <mark class=\"clave-criterio\">natural pasiva</mark> (0,25 p). Moléculas: <mark class=\"clave-criterio\">anticuerpos</mark> (0,25 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva A",
+    "referencia": "Reserva A, opción A, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Modelo 1 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Criterios Modelo 1 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Reserva A, opción A, pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-reserva-a-a6",
+   "block": "Microbiología",
+   "topic": "Estructura de la célula bacteriana",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>A la vista de la figura adjunta, conteste a las siguientes cuestiones:</b><br>a) ¿Qué tipo de célula representa el dibujo? [0,1].<br>b) Nombre las estructuras numeradas del 1 al 9 [0,9].",
+   "c": [
+    "a) Una <mark class=\"clave-criterio\">célula procariótica</mark> o <mark class=\"clave-criterio\">bacteria</mark> (0,1 p).",
+    "b) 1: <mark class=\"clave-criterio\">flagelo</mark>; 2: <mark class=\"clave-criterio\">plásmido</mark>; 3: <mark class=\"clave-criterio\">ribosomas</mark>; 4: <mark class=\"clave-criterio\">pared celular</mark> (membrana externa); 5: <mark class=\"clave-criterio\">membrana plasmática</mark>; 6: <mark class=\"clave-criterio\">cápsula</mark>; 7: <mark class=\"clave-criterio\">pili</mark> (pelos o fimbrias); 8: <mark class=\"clave-criterio\">citoplasma</mark>; 9: <mark class=\"clave-criterio\">ADN circular, nucleoide</mark>. 0,1 p cada una (0,9 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva A",
+    "referencia": "Reserva A, opción A, pregunta 6",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Modelo 1 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Criterios Modelo 1 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2017/reserva-a-a6.webp",
+   "imgThumb": "assets/figuras/historico/2017/reserva-a-a6.thumb.webp",
+   "imageDesc": "Célula alargada sin núcleo con envolturas externas, un largo filamento (1), numerosos apéndices cortos (7) y estructuras internas señaladas con los números 2 a 9.",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Reserva A, opción A, pregunta 6, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-reserva-a-a7",
+   "block": "Microbiología",
+   "topic": "Funciones de estructuras bacterianas y bipartición",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la figura de la pregunta anterior, responda a las siguientes cuestiones:</b><br>a) Cite una función de las estructuras señaladas con los números 1, 2, 3 y 4 [0,8].<br>b) ¿Cómo se reproducen estas células? [0,2].",
+   "c": [
+    "a) 1: <mark class=\"clave-criterio\">movilidad</mark>; 2: <mark class=\"clave-criterio\">resistencia a antibióticos</mark>, características adicionales, <mark class=\"clave-criterio\">conjugación</mark>; 3: <mark class=\"clave-criterio\">síntesis de proteínas</mark>; 4: <mark class=\"clave-criterio\">mantener la forma</mark> de la bacteria, <mark class=\"clave-criterio\">proteger</mark>. Una por estructura, 0,2 p cada una (0,8 p).",
+    "b) Por <mark class=\"clave-criterio\">bipartición</mark> o <mark class=\"clave-criterio\">fisión binaria</mark> (0,2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva A",
+    "referencia": "Reserva A, opción A, pregunta 7",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Modelo 1 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Criterios Modelo 1 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2017/reserva-a-a6.webp",
+   "imgThumb": "assets/figuras/historico/2017/reserva-a-a6.thumb.webp",
+   "imageDesc": "Célula alargada sin núcleo con envolturas externas, un largo filamento (1), numerosos apéndices cortos (7) y estructuras internas señaladas con los números 2 a 9.",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Reserva A, opción A, pregunta 7, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-reserva-a-b1",
+   "block": "Biomoléculas",
+   "topic": "Estructura primaria, desnaturalización y funciones de las proteínas",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina la estructura primaria de las proteínas [0,25], b) indique qué tipo de enlace la caracteriza [0,25] y c) nombre los grupos funcionales que participan en el mismo [0,25]. d) Explique qué se entiende por desnaturalización de una proteína [0,25]. e) Nombre los orgánulos que están implicados en su síntesis y maduración [0,6] y f) cite dos funciones de las proteínas [0,4].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Secuencia de aminoácidos</mark> (0,25 p). b) <mark class=\"clave-criterio\">Enlace peptídico</mark> (0,25 p). c) Grupos <mark class=\"clave-criterio\">carboxilo</mark> y <mark class=\"clave-criterio\">amino</mark> (0,25 p).",
+    "d) <mark class=\"clave-criterio\">Pérdida</mark>, reversible o no, <mark class=\"clave-criterio\">de las estructuras secundaria, terciaria y cuaternaria</mark> (0,25 p).",
+    "e) <mark class=\"clave-criterio\">Ribosomas</mark>, <mark class=\"clave-criterio\">retículo endoplasmático rugoso</mark> y <mark class=\"clave-criterio\">complejo de Golgi</mark>. 0,2 p cada uno (0,6 p).",
+    "f) <mark class=\"clave-criterio\">Catálisis</mark>, <mark class=\"clave-criterio\">transporte</mark>, <mark class=\"clave-criterio\">movimiento</mark>, <mark class=\"clave-criterio\">contracción</mark>, <mark class=\"clave-criterio\">reconocimiento celular</mark>, <mark class=\"clave-criterio\">estructural</mark>, <mark class=\"clave-criterio\">nutritiva</mark>. Dos, a 0,2 p (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva A",
+    "referencia": "Reserva A, opción B, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Modelo 1 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Criterios Modelo 1 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Reserva A, opción B, pregunta 1, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-reserva-a-b2",
+   "block": "Metabolismo",
+   "topic": "Anabolismo, catabolismo, fosforilación oxidativa y fotofosforilación",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina los conceptos de anabolismo y catabolismo [0,5]. b) Describa la fosforilación oxidativa y la fotofosforilación [1], c) e indique en qué orgánulos de la célula se realizan [0,5].",
+   "c": [
+    "a) Anabolismo: reacciones en las que la célula <mark class=\"clave-criterio\">sintetiza, con gasto de energía</mark>, las sustancias que la constituyen (0,25 p). Catabolismo: reacciones de <mark class=\"clave-criterio\">degradación de biomoléculas</mark> para obtener <mark class=\"clave-criterio\">precursores metabólicos y energía (ATP)</mark> (0,25 p).",
+    "b) Fosforilación oxidativa: <mark class=\"clave-criterio\">flujo de electrones por la cadena de transporte electrónico hasta el oxígeno</mark>, que genera un <mark class=\"clave-criterio\">gradiente de protones</mark> cuya energía se usa para <mark class=\"clave-criterio\">sintetizar ATP</mark> (0,5 p).",
+    "b) Fotofosforilación: flujo de electrones desde los <mark class=\"clave-criterio\">fotosistemas excitados por la luz</mark> hasta el <mark class=\"clave-criterio\">NADPH</mark>, con un <mark class=\"clave-criterio\">gradiente de protones</mark> que se usa para <mark class=\"clave-criterio\">sintetizar ATP</mark> (0,5 p).",
+    "c) <mark class=\"clave-criterio\">Mitocondrias</mark> (fosforilación oxidativa) y <mark class=\"clave-criterio\">cloroplastos</mark> (fotofosforilación). 0,25 p cada uno (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva A",
+    "referencia": "Reserva A, opción B, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Modelo 1 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Criterios Modelo 1 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Reserva A, opción B, pregunta 2, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-reserva-a-b3",
+   "block": "Inmunología",
+   "topic": "Memoria inmunológica",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Explique en qué consiste la memoria inmunológica [0,8]. b) ¿Cuáles son las células implicadas en ella? [0,6]. c) ¿Qué ventajas y desventajas supone para los organismos que la poseen? [0,6].",
+   "c": [
+    "a) Tras el contacto con un antígeno se producen células defensivas y anticuerpos (<mark class=\"clave-criterio\">respuesta primaria</mark>), y algunas células <mark class=\"clave-criterio\">permanecen</mark>; ante un nuevo contacto con el mismo antígeno la respuesta es <mark class=\"clave-criterio\">más rápida</mark> (<mark class=\"clave-criterio\">respuesta secundaria</mark>) (0,8 p).",
+    "b) <mark class=\"clave-criterio\">Linfocitos T</mark> y <mark class=\"clave-criterio\">linfocitos B</mark> (0,6 p).",
+    "c) Ventaja: <mark class=\"clave-criterio\">respuesta más rápida ante una nueva infección</mark>. Inconveniente: pueden producirse <mark class=\"clave-criterio\">reacciones de hipersensibilidad (alergias)</mark> (0,6 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva A",
+    "referencia": "Reserva A, opción B, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Modelo 1 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Criterios Modelo 1 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Reserva A, opción B, pregunta 3, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-reserva-a-b4",
+   "block": "Biomoléculas",
+   "topic": "Digestión de almidón, glucógeno y celulosa",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Dos polisacáridos A y B, ambos homopolímeros de glucosa, son sometidos a la acción de jugos digestivos humanos. El homopolímero A se descompone en glucosa, mientras que la acción de los jugos sobre el polisacárido B no provoca que éste se descomponga en glucosa. a) Identifique qué polisacáridos pueden ser A y B [0,4] y b) justifique cuál es la causa de este comportamiento diferente [0,6].",
+   "c": [
+    "a) A puede ser <mark class=\"clave-criterio\">almidón o glucógeno</mark>; B tiene que ser <mark class=\"clave-criterio\">celulosa</mark> (0,4 p).",
+    "b) Los jugos digestivos humanos <mark class=\"clave-criterio\">no tienen enzimas que hidrolicen los enlaces β(1→4)</mark> de la celulosa, pero <mark class=\"clave-criterio\">sí las que hidrolizan los enlaces α(1→4) y α(1→6)</mark> del almidón o el glucógeno. 0,2 p cada tipo de enlace (0,6 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva A",
+    "referencia": "Reserva A, opción B, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Modelo 1 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Criterios Modelo 1 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Reserva A, opción B, pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-reserva-a-b5",
+   "block": "Microbiología",
+   "topic": "Retrovirus e inhibidores de la transcriptasa inversa",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Cuando a un paciente se le detecta una enfermedad causada por un retrovirus se le trata con inhibidores específicos de la transcriptasa inversa (retrotranscriptasa) viral y, entonces, la cantidad de virus desciende bruscamente. Explique razonadamente el fundamento de este efecto [1].",
+   "c": [
+    "La <mark class=\"clave-criterio\">transcriptasa inversa</mark> es imprescindible para el ciclo del virus porque <mark class=\"clave-criterio\">sintetiza una copia de ADN a partir del ARN</mark> del genoma del retrovirus. Sin ella <mark class=\"clave-criterio\">no se pueden sintetizar nuevas copias del genoma viral ni las proteínas víricas</mark>, y el virus deja de multiplicarse (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva A",
+    "referencia": "Reserva A, opción B, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Modelo 1 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Criterios Modelo 1 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Reserva A, opción B, pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-reserva-a-b6",
+   "block": "Célula",
+   "topic": "Meiosis: metafase I",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la figura adjunta, que muestra una célula cuyo número de cromosomas es 2n=4 y las letras “A”, “a”, “B”, “b” representan alelos de los genes situados en dichos cromosomas, conteste las siguientes cuestiones:</b><br>a) ¿A qué tipo de división celular hace alusión la figura? [0,2].<br>b) ¿Qué fase de la división representa? [0,2].<br>c) Nombre los componentes celulares señalados con los números 1, 2 y 3 [0,3].<br>d) ¿En qué tipo de célula eucariótica se desarrolla este tipo de división celular? [0,1].<br>e) Al finalizar el proceso de división celular, indique el número de células resultantes y el número de cromosomas de cada una de ellas [0,2].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Meiosis</mark> (0,2 p). b) <mark class=\"clave-criterio\">Metafase I</mark> (0,2 p).",
+    "c) 1: <mark class=\"clave-criterio\">cromosoma</mark> o cromátida; 2: <mark class=\"clave-criterio\">centrosoma</mark> o centriolo; 3: <mark class=\"clave-criterio\">fibras del huso acromático</mark> (huso meiótico). 0,1 p cada una (0,3 p).",
+    "d) En la <mark class=\"clave-criterio\">célula germinal</mark> (0,1 p).",
+    "e) <mark class=\"clave-criterio\">Cuatro células</mark> con <mark class=\"clave-criterio\">dos cromosomas</mark> cada una. 0,1 p cada dato (0,2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva A",
+    "referencia": "Reserva A, opción B, pregunta 6",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Modelo 1 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Criterios Modelo 1 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2017/reserva-a-b6.webp",
+   "imgThumb": "assets/figuras/historico/2017/reserva-a-b6.thumb.webp",
+   "imageDesc": "Célula en división con dos parejas de cromosomas homólogos (alelos A, a y B, b) en el centro, dos polos con pequeñas estructuras (2) y fibras que los unen (3); la flecha 1 señala un cromosoma.",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Reserva A, opción B, pregunta 6, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-reserva-a-b7",
+   "block": "Célula",
+   "topic": "Profase I e importancia de la meiosis",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la figura de la pregunta anterior, conteste las siguientes cuestiones:</b><br>a) Nombre la fase de la división celular anterior a la representada [0,1].<br>b) Explique los principales acontecimientos que tienen lugar durante la misma [0,5].<br>c) Señale dos razones que indiquen la importancia biológica de este tipo de división celular [0,4].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Profase I</mark> (0,1 p).",
+    "b) <mark class=\"clave-criterio\">Condensación del material genético</mark>, <mark class=\"clave-criterio\">apareamiento de los cromosomas homólogos formando bivalentes</mark>, <mark class=\"clave-criterio\">recombinación (quiasmas)</mark> y <mark class=\"clave-criterio\">desaparición de la envoltura nuclear</mark> (0,5 p).",
+    "c) <mark class=\"clave-criterio\">Reduce el número de cromosomas a la mitad</mark> en la formación de los gametos y <mark class=\"clave-criterio\">aumenta la variabilidad genética</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva A",
+    "referencia": "Reserva A, opción B, pregunta 7",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Modelo 1 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Criterios Modelo 1 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2017/reserva-a-b6.webp",
+   "imgThumb": "assets/figuras/historico/2017/reserva-a-b6.thumb.webp",
+   "imageDesc": "Célula en división con dos parejas de cromosomas homólogos (alelos A, a y B, b) en el centro, dos polos con pequeñas estructuras (2) y fibras que los unen (3); la flecha 1 señala un cromosoma.",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Reserva A, opción B, pregunta 7, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-reserva-b-a1",
+   "block": "Biomoléculas",
+   "topic": "El agua: estructura, propiedades y capilaridad",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Describa la estructura de la molécula del agua [0,5]. b) Indique cinco propiedades físico-químicas [0,5] y cinco funciones biológicas del agua [0,5]. c) Explique de qué depende el fenómeno de la capilaridad [0,5].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Dos átomos de hidrógeno unidos a un átomo de oxígeno mediante enlaces covalentes</mark> (0,5 p).",
+    "b) Propiedades: <mark class=\"clave-criterio\">elevado punto de ebullición</mark>, <mark class=\"clave-criterio\">elevado calor específico</mark>, <mark class=\"clave-criterio\">molécula bipolar</mark>, <mark class=\"clave-criterio\">elevada fuerza de cohesión-adhesión</mark>, <mark class=\"clave-criterio\">baja densidad en estado sólido</mark>. 0,1 p cada una (0,5 p).",
+    "b) Funciones: <mark class=\"clave-criterio\">termorreguladora</mark>, <mark class=\"clave-criterio\">disolvente</mark>, <mark class=\"clave-criterio\">estructural</mark>, <mark class=\"clave-criterio\">mecánica</mark>, <mark class=\"clave-criterio\">química</mark>. 0,1 p cada una (0,5 p).",
+    "c) Depende de la <mark class=\"clave-criterio\">elevada fuerza de cohesión-adhesión</mark> entre las moléculas de agua (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva B",
+    "referencia": "Reserva B, opción A, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Modelo 4 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Criterios Modelo 4 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Reserva B, opción A, pregunta 1, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-reserva-b-a2",
+   "block": "Célula",
+   "topic": "Transporte a través de membrana, endocitosis y exocitosis",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Explique los procesos de transporte pasivo y de transporte activo de moléculas a través de las membranas celulares [1,2]. b) Defina endocitosis, pinocitosis, fagocitosis y exocitosis [0,8].",
+   "c": [
+    "a) Pasivo: <mark class=\"clave-criterio\">difusión simple</mark> (sin gasto de energía, <mark class=\"clave-criterio\">a favor de gradiente</mark>, a través de la bicapa) y <mark class=\"clave-criterio\">difusión facilitada</mark> (sin gasto de energía, a favor de gradiente, <mark class=\"clave-criterio\">mediada por proteínas</mark>). 0,3 p cada una (0,6 p).",
+    "a) Activo: <mark class=\"clave-criterio\">en contra de gradiente</mark>, intervienen <mark class=\"clave-criterio\">proteínas</mark> y <mark class=\"clave-criterio\">requiere energía</mark> (0,6 p).",
+    "b) Endocitosis: entrada de fluidos y partículas en <mark class=\"clave-criterio\">vesículas endocíticas</mark>. Pinocitosis: entrada de <mark class=\"clave-criterio\">fluidos y moléculas disueltas</mark> en vesículas pinocíticas. Fagocitosis: entrada de <mark class=\"clave-criterio\">grandes partículas</mark> formando <mark class=\"clave-criterio\">fagosomas</mark>. Exocitosis: <mark class=\"clave-criterio\">salida de moléculas en vesículas que se unen a la membrana plasmática</mark>. 0,2 p cada una (0,8 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva B",
+    "referencia": "Reserva B, opción A, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Modelo 4 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Criterios Modelo 4 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Reserva B, opción A, pregunta 2, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-reserva-b-a3",
+   "block": "Genética",
+   "topic": "Cruzamiento prueba y herencia intermedia",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina qué es un cruzamiento prueba [0,5] y realice un esquema del mismo utilizando símbolos genéticos [0,5]. b) Defina herencia intermedia [0,5] y realice un esquema de la misma usando símbolos genéticos [0,5].",
+   "c": [
+    "a) Cruzamiento entre un <mark class=\"clave-criterio\">individuo de fenotipo dominante</mark> y un <mark class=\"clave-criterio\">homocigótico recesivo</mark> para <mark class=\"clave-criterio\">averiguar el genotipo del primero</mark> (0,5 p).",
+    "a) Esquema (0,5 p): <span class=\"redactado\">A_ × aa → si todos son A_, el problema era AA; si sale ½ Aa y ½ aa, era Aa</span>.",
+    "b) Los dos alelos <mark class=\"clave-criterio\">se expresan con la misma intensidad</mark> y los híbridos muestran un <mark class=\"clave-criterio\">fenotipo intermedio</mark> diferente al de ambos homocigóticos (0,5 p).",
+    "b) Esquema (0,5 p): <span class=\"redactado\">RR rojo × BB blanco → F1 RB rosa; F1 × F1 → 1 RR : 2 RB : 1 BB</span>."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva B",
+    "referencia": "Reserva B, opción A, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Modelo 4 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Criterios Modelo 4 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Reserva B, opción A, pregunta 3, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-reserva-b-a4",
+   "block": "Genética",
+   "topic": "Mismo genoma, distinta expresión génica",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Si comparamos una célula hepática con una célula renal del mismo individuo: a) ¿contendrá su ADN la misma información genética? [0,5]; b) y las proteínas de ambas células, ¿serán las mismas? [0,5]. Razone las respuestas.",
+   "c": [
+    "a) Sí: <mark class=\"clave-criterio\">todas las células somáticas de un individuo contienen el mismo genoma</mark> (0,5 p).",
+    "b) No: las células <mark class=\"clave-criterio\">se especializan expresando proteínas diferentes</mark> por una <mark class=\"clave-criterio\">expresión diferencial del genoma</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva B",
+    "referencia": "Reserva B, opción A, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Modelo 4 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Criterios Modelo 4 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Reserva B, opción A, pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-reserva-b-a5",
+   "block": "Microbiología",
+   "topic": "La salazón como método de conservación",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "La salazón es una técnica de conservación de alimentos muy utilizada desde antiguo, consistente en añadir una considerable cantidad de sal al alimento para preservarlo del ataque de microorganismos que puedan alterarlo. Explique de forma razonada la base de esta técnica [1].",
+   "c": [
+    "La mayoría de los microorganismos no pueden vivir con esa salinidad porque sufrirían un <mark class=\"clave-criterio\">proceso osmótico de deshidratación</mark> <span class=\"redactado\">el medio es hipertónico</span>. También se admite que la <mark class=\"clave-criterio\">falta de agua</mark> evita las reacciones que deterioran el alimento (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva B",
+    "referencia": "Reserva B, opción A, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Modelo 4 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Criterios Modelo 4 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Reserva B, opción A, pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-reserva-b-a6",
+   "block": "Inmunología",
+   "topic": "Opsonización y fagocitosis",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación a las imágenes adjuntas, conteste las siguientes cuestiones:</b><br>a) Identifique las células o moléculas indicadas como A, B y C en la figura 1 [0,3].<br>b) ¿Qué células producen la molécula señalada como B? [0,2].<br>c) Nombre el proceso que transcurre en la figura 2 [0,25].<br>d) Cite otro proceso en el que interviene la célula A [0,25].",
+   "c": [
+    "a) A: <mark class=\"clave-criterio\">macrófago</mark> y/o neutrófilo; B: <mark class=\"clave-criterio\">anticuerpo</mark> o IgG; C: <mark class=\"clave-criterio\">receptor de anticuerpo</mark> (receptor de IgG) (0,3 p).",
+    "b) <mark class=\"clave-criterio\">Linfocitos B</mark> o <mark class=\"clave-criterio\">células plasmáticas</mark> (0,2 p).",
+    "c) <mark class=\"clave-criterio\">Fagocitosis</mark> (0,25 p).",
+    "d) <mark class=\"clave-criterio\">Presentación de antígenos</mark> (0,25 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva B",
+    "referencia": "Reserva B, opción A, pregunta 6",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Modelo 4 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Criterios Modelo 4 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2017/reserva-b-a6.webp",
+   "imgThumb": "assets/figuras/historico/2017/reserva-b-a6.thumb.webp",
+   "imageDesc": "Figura 1: una célula grande (A) con receptores en su superficie (C) y una partícula alargada recubierta de moléculas en forma de Y (B). Figura 2: la célula rodea la partícula con prolongaciones de su membrana.",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Reserva B, opción A, pregunta 6, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-reserva-b-a7",
+   "block": "Inmunología",
+   "topic": "Estructura de los anticuerpos y fagocitosis",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con las imágenes de la pregunta anterior, conteste las siguientes cuestiones:</b><br>a) Indique la composición química, estructura y funciones que desempeñan las distintas partes de la molécula B [0,6].<br>b) Explique el mecanismo que ocurre desde que la partícula recubierta por B es reconocida hasta que es incorporada totalmente por la célula A [0,4].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Glucoproteína</mark> con <mark class=\"clave-criterio\">forma de Y</mark>: <mark class=\"clave-criterio\">dos cadenas pesadas y dos ligeras</mark>, con una <mark class=\"clave-criterio\">región constante</mark> y <mark class=\"clave-criterio\">dos variables iguales</mark>. Las <mark class=\"clave-criterio\">regiones variables se unen específicamente al antígeno</mark>; la <mark class=\"clave-criterio\">región constante es reconocida por los macrófagos</mark> o el complemento (0,6 p).",
+    "b) El macrófago <mark class=\"clave-criterio\">reconoce la partícula rodeada de anticuerpos</mark>; la membrana <mark class=\"clave-criterio\">se invagina</mark> arrastrando la partícula y se cierra formando un <mark class=\"clave-criterio\">fagosoma</mark>, donde luego será <mark class=\"clave-criterio\">digerida</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva B",
+    "referencia": "Reserva B, opción A, pregunta 7",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Modelo 4 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Criterios Modelo 4 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2017/reserva-b-a6.webp",
+   "imgThumb": "assets/figuras/historico/2017/reserva-b-a6.thumb.webp",
+   "imageDesc": "Figura 1: una célula grande (A) con receptores en su superficie (C) y una partícula alargada recubierta de moléculas en forma de Y (B). Figura 2: la célula rodea la partícula con prolongaciones de su membrana.",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Reserva B, opción A, pregunta 7, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-reserva-b-b1",
+   "block": "Metabolismo",
+   "topic": "Factores de la actividad enzimática e inhibición",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Explique razonadamente cómo afectan la temperatura, el pH y la concentración del sustrato a la actividad de las enzimas [1,5]. b) Describa dos tipos de inhibición enzimática [0,5].",
+   "c": [
+    "a) Temperatura: hay una <mark class=\"clave-criterio\">temperatura óptima</mark>; por debajo la actividad disminuye y por encima se produce <mark class=\"clave-criterio\">desnaturalización</mark> (0,5 p).",
+    "a) pH: cada enzima tiene un <mark class=\"clave-criterio\">pH óptimo</mark>; por encima y por debajo la actividad se reduce por <mark class=\"clave-criterio\">desnaturalización</mark> (0,5 p).",
+    "a) Sustrato: al aumentar su concentración aumenta la velocidad hasta que se mantiene constante por <mark class=\"clave-criterio\">saturación de la enzima</mark> (0,5 p).",
+    "b) <mark class=\"clave-criterio\">Irreversible</mark>: el inhibidor forma <mark class=\"clave-criterio\">enlaces covalentes</mark> con la enzima y anula su actividad <mark class=\"clave-criterio\">de forma definitiva</mark> (0,25 p). <mark class=\"clave-criterio\">Reversible</mark>: el inhibidor <mark class=\"clave-criterio\">se puede disociar</mark> y la enzima recupera su actividad; vale también explicar la <mark class=\"clave-criterio\">competitiva</mark> y la <mark class=\"clave-criterio\">no competitiva</mark> (0,25 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva B",
+    "referencia": "Reserva B, opción B, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Modelo 4 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Criterios Modelo 4 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Reserva B, opción B, pregunta 1, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-reserva-b-b2",
+   "block": "Célula",
+   "topic": "Estructuras celulares y sus funciones",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Defina e indique una función de las siguientes estructuras celulares: a) membrana plasmática, b) mitocondria, c) retículo endoplasmático rugoso, d) complejo de Golgi, e) cloroplasto [2].",
+   "c": [
+    "a) Membrana plasmática: <mark class=\"clave-criterio\">bicapa lipídica con proteínas y glúcidos</mark> que <mark class=\"clave-criterio\">delimita la célula</mark>; función: <mark class=\"clave-criterio\">relación</mark>, <mark class=\"clave-criterio\">transporte de sustancias</mark> (0,4 p).",
+    "b) Mitocondria: orgánulo con <mark class=\"clave-criterio\">dos membranas</mark> donde se <mark class=\"clave-criterio\">sintetiza ATP a partir del catabolismo</mark> de compuestos orgánicos; función: <mark class=\"clave-criterio\">respiración</mark>, <mark class=\"clave-criterio\">β-oxidación</mark> (0,4 p).",
+    "c) RER: <mark class=\"clave-criterio\">sistema de cisternas y túbulos membranosos</mark> (con ribosomas); función: <mark class=\"clave-criterio\">síntesis de proteínas</mark>, glucosilación (0,4 p).",
+    "d) Complejo de Golgi: <mark class=\"clave-criterio\">sáculos membranosos aplanados y apilados</mark>; función: <mark class=\"clave-criterio\">maduración, clasificación y distribución de proteínas</mark>, secreción de polisacáridos (0,4 p).",
+    "e) Cloroplasto: orgánulo con <mark class=\"clave-criterio\">dos membranas</mark> que <mark class=\"clave-criterio\">sintetiza ATP a partir de la energía de la luz</mark>; función: <mark class=\"clave-criterio\">fotosíntesis</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva B",
+    "referencia": "Reserva B, opción B, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Modelo 4 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Criterios Modelo 4 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Reserva B, opción B, pregunta 2, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-reserva-b-b3",
+   "block": "Inmunología",
+   "topic": "Conceptos de inmunidad",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Defina los siguientes términos referidos a la inmunidad: a) linfocito, b) macrófago, c) antígeno, d) anticuerpo, e) interferón [2].",
+   "c": [
+    "a) Linfocito: célula del sistema inmunitario que <mark class=\"clave-criterio\">reconoce y puede destruir antígenos</mark> (0,4 p).",
+    "b) Macrófago: <mark class=\"clave-criterio\">célula fagocítica</mark> o <mark class=\"clave-criterio\">presentadora de antígenos</mark> (0,4 p).",
+    "c) Antígeno: <mark class=\"clave-criterio\">molécula no reconocida como propia</mark> que <mark class=\"clave-criterio\">provoca la aparición de anticuerpos</mark> específicos (0,4 p).",
+    "d) Anticuerpo: <mark class=\"clave-criterio\">proteína producida por los linfocitos B</mark> (células plasmáticas) en respuesta a un antígeno, con el que <mark class=\"clave-criterio\">se une específicamente</mark> (0,4 p).",
+    "e) Interferón: <mark class=\"clave-criterio\">proteína</mark> que produce el sistema inmunitario <mark class=\"clave-criterio\">en respuesta a virus</mark>, bacterias, parásitos o células cancerosas y que <mark class=\"clave-criterio\">actúa sobre las células vecinas</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva B",
+    "referencia": "Reserva B, opción B, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Modelo 4 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Criterios Modelo 4 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Reserva B, opción B, pregunta 3, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-reserva-b-b4",
+   "block": "Célula",
+   "topic": "Células animales y vegetales en medio hipotónico",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "En un experimento de laboratorio realizado con células animales en medios hipotónicos se observa lisis celular. Al repetir el experimento con células vegetales se observa que en este caso las células no se lisan. Exponga una explicación razonada para cada caso [1].",
+   "c": [
+    "Células animales: se <mark class=\"clave-criterio\">lisan</mark> porque <mark class=\"clave-criterio\">entra agua por ósmosis</mark> y no alcanzan el equilibrio osmótico (0,5 p).",
+    "Células vegetales: la <mark class=\"clave-criterio\">pared celular evita que la célula se lise</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva B",
+    "referencia": "Reserva B, opción B, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Modelo 4 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Criterios Modelo 4 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Reserva B, opción B, pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-reserva-b-b5",
+   "block": "Genética",
+   "topic": "Diversidad de proteínas y universalidad del código",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) ¿Cómo se puede explicar que una célula típica de nuestro cuerpo posea alrededor de 10.000 tipos diferentes de proteínas, si el número de aminoácidos distintos es solamente 20? [0,5]. b) ¿Cómo es posible que insertando el gen que codifica la insulina del ratón en un cromosoma bacteriano, la bacteria sintetice la insulina de ratón? [0,5]. Razone las respuestas.",
+   "c": [
+    "a) Con los 20 aminoácidos se pueden formar <mark class=\"clave-criterio\">múltiples combinaciones</mark> (secuencias distintas en orden y longitud) (0,5 p).",
+    "b) Por la <mark class=\"clave-criterio\">universalidad del código genético</mark>: el gen se <mark class=\"clave-criterio\">transcribe</mark> y se <mark class=\"clave-criterio\">traduce en los ribosomas bacterianos</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva B",
+    "referencia": "Reserva B, opción B, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Modelo 4 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Criterios Modelo 4 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Reserva B, opción B, pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-reserva-b-b6",
+   "block": "Metabolismo",
+   "topic": "Glucólisis",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la imagen adjunta, que representa un proceso metabólico de la glucosa, conteste las siguientes cuestiones:</b><br>a) Identifique el proceso [0,2].<br>b) Indique en qué tipo de células tiene lugar este proceso [0,2] y dónde se realiza [0,1].<br>c) ¿Cuál es el rendimiento energético en forma de ATP del proceso representado? [0,25]<br>d) Cite dos vías metabólicas posibles que puede seguir el piruvato [0,25].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Glucólisis</mark> (0,2 p).",
+    "b) En <mark class=\"clave-criterio\">eucariotas y procariotas</mark> (0,2 p), en el <mark class=\"clave-criterio\">citoplasma</mark> (citosol) (0,1 p).",
+    "c) <mark class=\"clave-criterio\">2 ATP</mark> netos <span class=\"redactado\">se forman 4 y se gastan 2</span> (0,2 p).",
+    "d) <mark class=\"clave-criterio\">Ciclo de Krebs</mark> (respiración celular), <mark class=\"clave-criterio\">fermentación láctica o alcohólica</mark>, <mark class=\"clave-criterio\">descarboxilación oxidativa</mark>. Dos (0,3 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva B",
+    "referencia": "Reserva B, opción B, pregunta 6",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Modelo 4 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Criterios Modelo 4 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2017/reserva-b-b6.webp",
+   "imgThumb": "assets/figuras/historico/2017/reserva-b-b6.thumb.webp",
+   "imageDesc": "Ruta lineal de glucosa a 2 piruvato: se consumen 2 ATP (salen 2 ADP), se reducen 2 NAD⁺ a 2 NADH+2H⁺ con entrada de 2 Pi, y se forman 4 ATP a partir de 4 ADP con salida de 2 H₂O.",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Reserva B, opción B, pregunta 6, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-reserva-b-b7",
+   "block": "Metabolismo",
+   "topic": "Destino del ATP y del NADH en aerobiosis y anaerobiosis",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la imagen de la pregunta anterior, conteste las siguientes cuestiones:</b><br>a) ¿Mediante qué tipo de fosforilación se produce el ATP en anaerobiosis? [0,25] y ¿cuál será el destino del NADH+H⁺? [0,25].<br>b) Si el proceso se realiza en aerobiosis, ¿mediante qué tipo de fosforilación se produce el ATP? [0,25] y ¿cuál será el destino del NADH+H⁺? [0,25].",
+   "c": [
+    "a) Anaerobiosis: <mark class=\"clave-criterio\">fosforilación a nivel de sustrato</mark> (0,25 p); el NADH+H⁺ se usa para <mark class=\"clave-criterio\">reducir el pirúvico y regenerar el NAD⁺</mark> (fermentación) (0,25 p).",
+    "b) Aerobiosis: el ATP se forma principalmente por <mark class=\"clave-criterio\">fosforilación oxidativa</mark> (0,25 p); el NADH+H⁺ <mark class=\"clave-criterio\">cede sus electrones y protones a la cadena respiratoria</mark> (0,25 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva B",
+    "referencia": "Reserva B, opción B, pregunta 7",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Modelo 4 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Criterios Modelo 4 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2017/reserva-b-b6.webp",
+   "imgThumb": "assets/figuras/historico/2017/reserva-b-b6.thumb.webp",
+   "imageDesc": "Ruta lineal de glucosa a 2 piruvato: se consumen 2 ATP (salen 2 ADP), se reducen 2 NAD⁺ a 2 NADH+2H⁺ con entrada de 2 Pi, y se forman 4 ATP a partir de 4 ADP con salida de 2 H₂O.",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Reserva B, opción B, pregunta 7, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-suplente-junio-a1",
+   "block": "Biomoléculas",
+   "topic": "Lípidos y carácter anfipático de los ácidos grasos",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Indique qué son los lípidos [0,4]. b) Nombre dos ejemplos de lípidos y cite una función que desempeñen en los seres vivos cada uno de ellos [1]. c) Explique el carácter anfipático de los ácidos grasos [0,6].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Biomoléculas heterogéneas insolubles en agua y solubles en disolventes orgánicos</mark> (no polares) (0,4 p).",
+    "b) <mark class=\"clave-criterio\">Acilglicéridos</mark>: reserva energética; <mark class=\"clave-criterio\">fosfolípidos</mark>: estructural; <mark class=\"clave-criterio\">ceras</mark>: protectora; <mark class=\"clave-criterio\">esteroides</mark>: hormonal. Dos, a 0,5 p (1 p).",
+    "c) Tienen una <mark class=\"clave-criterio\">zona hidrófila polar</mark> (el <mark class=\"clave-criterio\">grupo carboxilo</mark>, –COOH) y una <mark class=\"clave-criterio\">zona hidrófoba apolar</mark> (la <mark class=\"clave-criterio\">cadena hidrocarbonada</mark>) (0,6 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de junio",
+    "referencia": "Suplente de junio, opción A, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Modelo 5 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Criterios Modelo 5 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Suplente de junio, opción A, pregunta 1, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-suplente-junio-a2",
+   "block": "Célula",
+   "topic": "Células animales y vegetales; pared celular",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Describa cuatro diferencias entre las células animales y vegetales [1]. b) Indique el principal componente de la pared celular [0,1]. c) Indique la estructura de la pared celular [0,3] y cite dos funciones de la misma [0,6].",
+   "c": [
+    "a) Las vegetales tienen <mark class=\"clave-criterio\">pared celular</mark>, <mark class=\"clave-criterio\">forma estable</mark>, <mark class=\"clave-criterio\">cloroplastos</mark> y <mark class=\"clave-criterio\">grandes vacuolas</mark> <span class=\"redactado\">y las animales, centriolos</span>. Cuatro, a 0,25 p (1 p).",
+    "b) <mark class=\"clave-criterio\">Celulosa</mark> (0,1 p).",
+    "c) <mark class=\"clave-criterio\">Pared primaria</mark>, <mark class=\"clave-criterio\">pared secundaria</mark> y <mark class=\"clave-criterio\">lámina media</mark> (0,3 p). Funciones: <mark class=\"clave-criterio\">estructural</mark>, <mark class=\"clave-criterio\">mantenimiento de la turgencia</mark>, <mark class=\"clave-criterio\">capacidad osmótica</mark>. Dos, a 0,3 p (0,6 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de junio",
+    "referencia": "Suplente de junio, opción A, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Modelo 5 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Criterios Modelo 5 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Suplente de junio, opción A, pregunta 2, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-suplente-junio-a3",
+   "block": "Genética",
+   "topic": "Transcripción y traducción",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Defina los conceptos de transcripción [0,5] y de traducción [0,5]. Describa el proceso de transcripción [1].",
+   "c": [
+    "Transcripción: <mark class=\"clave-criterio\">síntesis de ARN con la secuencia complementaria de una cadena de ADN que actúa como molde</mark> (0,5 p).",
+    "Traducción: <mark class=\"clave-criterio\">síntesis de un polipéptido</mark> con la información de la <mark class=\"clave-criterio\">secuencia de bases del ARNm</mark> (0,5 p).",
+    "Proceso: la <mark class=\"clave-criterio\">ARN polimerasa</mark> reconoce el <mark class=\"clave-criterio\">promotor</mark> (señal de inicio), copia <mark class=\"clave-criterio\">una sola cadena</mark> del ADN (la <mark class=\"clave-criterio\">cadena molde</mark>, distinta de la <mark class=\"clave-criterio\">codificante</mark>) en sentido <mark class=\"clave-criterio\">5'→3'</mark> y se detiene en la <mark class=\"clave-criterio\">señal de terminación</mark> (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de junio",
+    "referencia": "Suplente de junio, opción A, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Modelo 5 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Criterios Modelo 5 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Suplente de junio, opción A, pregunta 3, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-suplente-junio-a4",
+   "block": "Célula",
+   "topic": "Orgánulos predominantes según la función celular",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Exponga razonadamente una argumentación sobre las siguientes afirmaciones: a) Los orgánulos predominantes de los espermatozoides son las mitocondrias [0,25]. b) Las estructuras predominantes de las células de la tráquea son los cilios [0,25]. c) Los orgánulos predominantes de los glóbulos blancos son los lisosomas [0,25]. d) Los orgánulos predominantes de las células del páncreas son los ribosomas [0,25].",
+   "c": [
+    "a) Los espermatozoides necesitan <mark class=\"clave-criterio\">mucha energía para su locomoción</mark>, que se produce en las <mark class=\"clave-criterio\">mitocondrias</mark> (0,25 p).",
+    "b) Los cilios <mark class=\"clave-criterio\">mueven la mucosidad que retiene las partículas de polvo</mark> del aire (0,25 p).",
+    "c) Los glóbulos blancos <mark class=\"clave-criterio\">digieren las sustancias extrañas con las enzimas de los lisosomas</mark> (0,25 p).",
+    "d) El páncreas produce <mark class=\"clave-criterio\">insulina y enzimas digestivas</mark>, que son <mark class=\"clave-criterio\">proteínas</mark> fabricadas en los <mark class=\"clave-criterio\">ribosomas</mark> (0,25 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de junio",
+    "referencia": "Suplente de junio, opción A, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Modelo 5 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Criterios Modelo 5 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Suplente de junio, opción A, pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-suplente-junio-a5",
+   "block": "Microbiología",
+   "topic": "Identificar un virus por la composición de su ácido nucleico",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Tras analizar un virus en el laboratorio, se comprueba que su ácido nucleico presenta estas proporciones de bases nitrogenadas: adenina 20%, timina 0%, uracilo 24%, guanina 30%, citosina 26%. Además se identifica la presencia de fosfolípidos y proteínas. Describa de un modo razonado el tipo de virus que es atendiendo a los resultados obtenidos [1].",
+   "c": [
+    "Es un <mark class=\"clave-criterio\">virus de ARN</mark> porque <mark class=\"clave-criterio\">no tiene timina</mark> y <mark class=\"clave-criterio\">tiene uracilo</mark> (0,4 p).",
+    "Es <mark class=\"clave-criterio\">de una sola cadena</mark> porque los porcentajes <mark class=\"clave-criterio\">A-U y C-G no son complementarios</mark> <span class=\"redactado\">A 20 % ≠ U 24 %; G 30 % ≠ C 26 %</span> (0,4 p).",
+    "Es un <mark class=\"clave-criterio\">virus con envoltura</mark> por la <mark class=\"clave-criterio\">presencia de fosfolípidos</mark> (0,2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de junio",
+    "referencia": "Suplente de junio, opción A, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Modelo 5 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Criterios Modelo 5 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Suplente de junio, opción A, pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-suplente-junio-a6",
+   "block": "Biomoléculas",
+   "topic": "Tipos de ácidos nucleicos",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la figura adjunta, conteste las siguientes cuestiones:</b><br>a) Indique los nombres de las tres moléculas representadas con los números I, II y III [0,3].<br>b) Indique el nombre de los monómeros que constituyen estas moléculas [0,15] y el nombre del enlace por el que se unen [0,15].<br>c) Escriba los nombres de los componentes numerados del 1 al 4 en la molécula II [0,4].",
+   "c": [
+    "a) I: <mark class=\"clave-criterio\">ARN</mark>; II: <mark class=\"clave-criterio\">ADN</mark>; III: <mark class=\"clave-criterio\">ARN transferente</mark>. 0,1 p cada una (0,3 p).",
+    "b) <mark class=\"clave-criterio\">Nucleótidos</mark> (ribonucleótidos en I y III; desoxirribonucleótidos en II) (0,15 p). Enlace <mark class=\"clave-criterio\">fosfodiéster</mark> (0,15 p).",
+    "c) 1: <mark class=\"clave-criterio\">desoxirribosa</mark>; 2: <mark class=\"clave-criterio\">fosfato</mark>; 3: <mark class=\"clave-criterio\">timina</mark>; 4: <mark class=\"clave-criterio\">guanina</mark>. 0,1 p cada uno (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de junio",
+    "referencia": "Suplente de junio, opción A, pregunta 6",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Modelo 5 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Criterios Modelo 5 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2017/suplente-junio-a6.webp",
+   "imgThumb": "assets/figuras/historico/2017/suplente-junio-a6.thumb.webp",
+   "imageDesc": "I: secuencia 5'-AUUAGGGUAAUUAGGGC-3'. II: esquema de dos cadenas de cuadrados y círculos alternos unidas por piezas complementarias (C, A), con los números 1 a 4. III: molécula plegada en forma de trébol.",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Suplente de junio, opción A, pregunta 6, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-suplente-junio-a7",
+   "block": "Genética",
+   "topic": "Localización y estructura secundaria del ADN",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la figura de la pregunta anterior, conteste a las siguientes cuestiones:</b><br>a) Indique en qué compartimentos de la célula procariótica y de la célula eucariótica se localiza la molécula representada por el número II [0,4].<br>b) Además de la estructural, cite otra posible función de los monómeros que forman los compuestos representados en la figura [0,2].<br>c) Describa, brevemente, la estructura secundaria de la molécula II [0,4].",
+   "c": [
+    "a) Procariótica: <mark class=\"clave-criterio\">citosol</mark> o citoplasma (0,1 p). Eucariótica: <mark class=\"clave-criterio\">núcleo</mark>, <mark class=\"clave-criterio\">mitocondrias</mark> y <mark class=\"clave-criterio\">cloroplastos</mark>, 0,1 p cada uno (0,3 p).",
+    "b) <mark class=\"clave-criterio\">Transferencia de energía</mark>, <mark class=\"clave-criterio\">regulador de la actividad enzimática</mark>, <mark class=\"clave-criterio\">segundo mensajero</mark>. Una (0,2 p).",
+    "c) <mark class=\"clave-criterio\">Bicatenario</mark>, con <mark class=\"clave-criterio\">cadenas antiparalelas y complementarias</mark> unidas por <mark class=\"clave-criterio\">puentes de hidrógeno</mark> entre las bases, formando una <mark class=\"clave-criterio\">hélice dextrógira</mark> con un <mark class=\"clave-criterio\">giro cada 10 nucleótidos</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de junio",
+    "referencia": "Suplente de junio, opción A, pregunta 7",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Modelo 5 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Criterios Modelo 5 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2017/suplente-junio-a6.webp",
+   "imgThumb": "assets/figuras/historico/2017/suplente-junio-a6.thumb.webp",
+   "imageDesc": "I: secuencia 5'-AUUAGGGUAAUUAGGGC-3'. II: esquema de dos cadenas de cuadrados y círculos alternos unidas por piezas complementarias (C, A), con los números 1 a 4. III: molécula plegada en forma de trébol.",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Suplente de junio, opción A, pregunta 7, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-suplente-junio-b1",
+   "block": "Biomoléculas",
+   "topic": "Tipos de ARN: estructura y función",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Indique la composición y estructura de los distintos tipos de ARN [1]. b) Explique la función biológica de cada uno de ellos [1].",
+   "c": [
+    "a) Todos formados por <mark class=\"clave-criterio\">ribonucleótidos</mark> (A, G, C, U). ARNm: <mark class=\"clave-criterio\">monocatenario</mark> (0,2 p). ARNt: monocatenario con <mark class=\"clave-criterio\">regiones de doble hélice</mark> por apareamiento interno (0,4 p). ARNr: monocatenario con regiones de doble hélice, <mark class=\"clave-criterio\">asociado a proteínas</mark> (0,4 p).",
+    "b) ARNm: <mark class=\"clave-criterio\">transferencia de la información</mark> (0,3 p). ARNt: <mark class=\"clave-criterio\">transporte de aminoácidos</mark> en la síntesis de proteínas (0,4 p). ARNr: <mark class=\"clave-criterio\">soporte de la síntesis de proteínas</mark> <span class=\"redactado\">forma los ribosomas</span> (0,3 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de junio",
+    "referencia": "Suplente de junio, opción B, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Modelo 5 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Criterios Modelo 5 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Suplente de junio, opción B, pregunta 1, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-suplente-junio-b2",
+   "block": "Metabolismo",
+   "topic": "Fase luminosa de la fotosíntesis",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Describa la fase luminosa de la fotosíntesis [2].",
+   "c": [
+    "<mark class=\"clave-criterio\">Captación de luz por los fotosistemas</mark> y <mark class=\"clave-criterio\">fotólisis del agua</mark> <span class=\"redactado\">que libera O₂</span> (0,5 p).",
+    "<mark class=\"clave-criterio\">Transporte electrónico</mark> <span class=\"redactado\">por la cadena de la membrana tilacoidal</span> (0,5 p).",
+    "<mark class=\"clave-criterio\">Síntesis de ATP</mark> <span class=\"redactado\">fotofosforilación por la ATP sintasa</span> (0,5 p).",
+    "<mark class=\"clave-criterio\">Síntesis de NADPH</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de junio",
+    "referencia": "Suplente de junio, opción B, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Modelo 5 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Criterios Modelo 5 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Suplente de junio, opción B, pregunta 2, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-suplente-junio-b3",
+   "block": "Inmunología",
+   "topic": "Vacunación y sueroterapia",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Indique dos diferencias entre vacunación y sueroterapia [0,6] y b) explique en qué consiste cada procedimiento citando las moléculas y células implicadas [1]. c) ¿Con qué tipos de inmunidad están relacionados estos procesos? [0,4].",
+   "c": [
+    "a) Carácter <mark class=\"clave-criterio\">preventivo</mark> (vacuna) o <mark class=\"clave-criterio\">curativo</mark> (suero); <mark class=\"clave-criterio\">formación o no de células de memoria</mark>. Dos, a 0,3 p (0,6 p).",
+    "b) Vacunación: <mark class=\"clave-criterio\">inoculación de antígenos atenuados</mark> que activan los <mark class=\"clave-criterio\">linfocitos B</mark> y generan <mark class=\"clave-criterio\">células de memoria</mark>. Sueroterapia: <mark class=\"clave-criterio\">transferencia de anticuerpos de origen externo</mark>. 0,5 p cada una (1 p).",
+    "c) Vacunación: <mark class=\"clave-criterio\">inmunidad activa</mark>; sueroterapia: <mark class=\"clave-criterio\">inmunidad pasiva</mark> (ambas <mark class=\"clave-criterio\">artificiales</mark>) (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de junio",
+    "referencia": "Suplente de junio, opción B, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Modelo 5 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Criterios Modelo 5 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Suplente de junio, opción B, pregunta 3, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-suplente-junio-b4",
+   "block": "Célula",
+   "topic": "Glóbulos rojos en medios hipertónico e hipotónico",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "El contenido salino interno de los glóbulos rojos presentes en la sangre es del 0,9%. a) ¿Qué les pasaría en un medio de cultivo con una concentración salina del 3%? [0,5]. b) ¿Y si la concentración del medio fuese del 0,04%? [0,5]. Razone las respuestas.",
+   "c": [
+    "a) Al 3 % el medio es <mark class=\"clave-criterio\">hipertónico</mark>: por <mark class=\"clave-criterio\">ósmosis sale agua</mark> y la célula se deshidrata (<mark class=\"clave-criterio\">plasmólisis</mark>, <span class=\"redactado\">en glóbulos rojos se suele llamar crenación</span>) (0,5 p).",
+    "b) Al 0,04 % el medio es <mark class=\"clave-criterio\">hipotónico</mark>: por <mark class=\"clave-criterio\">ósmosis entra agua</mark> y se produce la <mark class=\"clave-criterio\">lisis</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de junio",
+    "referencia": "Suplente de junio, opción B, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Modelo 5 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Criterios Modelo 5 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Suplente de junio, opción B, pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-suplente-junio-b5",
+   "block": "Genética",
+   "topic": "Replicación semiconservativa con BrdU",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "La BrdU es una molécula similar a la timina y una célula la puede incorporar para la replicación del ADN en vez de este nucleótido. La BrdU se puede detectar fácilmente, por lo que se utiliza para estudiar las células que están en división. Si se añade BrdU a unas células en división, se observa que tras la mitosis todas las células hijas resultantes tienen BrdU. Justifique este resultado [1].",
+   "c": [
+    "Cada célula hija tiene ADN con <mark class=\"clave-criterio\">una hebra sin BrdU (la original)</mark> y <mark class=\"clave-criterio\">una hebra marcada con BrdU (la nueva)</mark>, porque la <mark class=\"clave-criterio\">replicación del ADN es semiconservativa</mark> (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de junio",
+    "referencia": "Suplente de junio, opción B, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Modelo 5 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Criterios Modelo 5 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Suplente de junio, opción B, pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-suplente-junio-b6",
+   "block": "Metabolismo",
+   "topic": "Glucólisis y ciclo de Krebs",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con el esquema adjunto conteste a las siguientes cuestiones:</b><br>a) Identifique las rutas metabólicas señaladas con los números I y II [0,4].<br>b) ¿En qué lugar de la célula eucariótica ocurre cada una de ellas? [0,4].<br>c) A partir de la ruta II, ¿con qué procesos se completa la obtención de energía contenida en la glucosa? [0,2].",
+   "c": [
+    "a) I: <mark class=\"clave-criterio\">glucólisis</mark>; II: <mark class=\"clave-criterio\">ciclo de Krebs</mark>. 0,2 p cada una (0,4 p).",
+    "b) Glucólisis en el <mark class=\"clave-criterio\">citosol</mark>; ciclo de Krebs en la <mark class=\"clave-criterio\">matriz mitocondrial</mark>. 0,2 p cada una (0,4 p).",
+    "c) Con la <mark class=\"clave-criterio\">cadena respiratoria</mark> y la <mark class=\"clave-criterio\">fosforilación oxidativa</mark> (0,2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de junio",
+    "referencia": "Suplente de junio, opción B, pregunta 6",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Modelo 5 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Criterios Modelo 5 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2017/suplente-junio-b6.webp",
+   "imgThumb": "assets/figuras/historico/2017/suplente-junio-b6.thumb.webp",
+   "imageDesc": "Esquema: glucosa → ác. pirúvico (tramo I) → acetil-CoA → un ciclo → CO₂ + NADH + H⁺ + FADH₂ (tramo II).",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Suplente de junio, opción B, pregunta 6, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-suplente-junio-b7",
+   "block": "Metabolismo",
+   "topic": "Respiración aerobia frente a fermentación",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con el esquema de la pregunta anterior, conteste a las siguientes cuestiones:</b><br>a) ¿Qué tipos de organismos llevan a cabo estos procesos de obtención de energía? [0,3].<br>b) ¿En qué condiciones no se llevaría a cabo la ruta nº II? ¿Qué ruta alternativa podría seguir el ácido pirúvico? [0,4].<br>c) Indique el rendimiento energético de la degradación de la glucosa en condiciones aeróbicas y anaeróbicas [0,3].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Todos los organismos con células aeróbicas</mark>, procarióticas y eucarióticas (0,3 p).",
+    "b) En <mark class=\"clave-criterio\">condiciones anaeróbicas</mark> (0,2 p); el pirúvico seguiría las <mark class=\"clave-criterio\">fermentaciones</mark> (0,2 p).",
+    "c) Aerobiosis: <mark class=\"clave-criterio\">36-38 ATP por glucosa</mark>; anaerobiosis: <mark class=\"clave-criterio\">2 ATP por glucosa</mark>. 0,15 p cada uno (0,3 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de junio",
+    "referencia": "Suplente de junio, opción B, pregunta 7",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Modelo 5 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Criterios Modelo 5 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2017/suplente-junio-b6.webp",
+   "imgThumb": "assets/figuras/historico/2017/suplente-junio-b6.thumb.webp",
+   "imageDesc": "Esquema: glucosa → ác. pirúvico (tramo I) → acetil-CoA → un ciclo → CO₂ + NADH + H⁺ + FADH₂ (tramo II).",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Suplente de junio, opción B, pregunta 7, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-suplente-septiembre-a1",
+   "block": "Metabolismo",
+   "topic": "Fermentaciones",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Describa tres características de los procesos fermentativos [1,5]. b) Exponga un ejemplo de fermentación [0,25] y de su posible uso industrial [0,25].",
+   "c": [
+    "a) Tres de estas, 0,5 p cada una (1,5 p): es un proceso <mark class=\"clave-criterio\">anaerobio</mark>; la <mark class=\"clave-criterio\">degradación no es completa</mark>; los <mark class=\"clave-criterio\">productos finales son compuestos orgánicos que aún almacenan energía</mark>; se obtiene <mark class=\"clave-criterio\">poca energía</mark> (solo la de la glucólisis); <mark class=\"clave-criterio\">no se obtienen coenzimas reducidos</mark> (balance neto nulo).",
+    "b) <mark class=\"clave-criterio\">Fermentación láctica</mark> o <mark class=\"clave-criterio\">alcohólica</mark> (0,25 p). Uso: láctica, <mark class=\"clave-criterio\">yogur</mark>; alcohólica, <mark class=\"clave-criterio\">pan</mark> o <mark class=\"clave-criterio\">bebidas alcohólicas</mark> (0,25 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de septiembre",
+    "referencia": "Suplente de septiembre, opción A, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Modelo 3 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Criterios Modelo 3 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Suplente de septiembre, opción A, pregunta 1, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-suplente-septiembre-a2",
+   "block": "Genética",
+   "topic": "Replicación del ADN y mitosis",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina el concepto de replicación del ADN [0,4]. b) Indique tres orgánulos de la célula eucariótica en los que tiene lugar [0,3]. c) Explique la relación que existe entre el proceso de replicación y la división celular por mitosis [0,5]. d) ¿Qué significa que la replicación es semiconservativa y bidireccional? [0,8].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Duplicación del ADN</mark> por la que se obtienen <mark class=\"clave-criterio\">dos copias idénticas</mark> (0,4 p).",
+    "b) <mark class=\"clave-criterio\">Núcleo</mark>, <mark class=\"clave-criterio\">mitocondria</mark> y <mark class=\"clave-criterio\">cloroplasto</mark> (0,3 p).",
+    "c) Es un <mark class=\"clave-criterio\">paso previo a la división celular</mark>: se duplica el material genético y así puede <mark class=\"clave-criterio\">repartirse equitativamente entre las dos células hijas</mark> (0,5 p).",
+    "d) Semiconservativa: cada ADN hijo tiene <mark class=\"clave-criterio\">una cadena vieja y otra de nueva síntesis</mark> (0,4 p). Bidireccional: en el <mark class=\"clave-criterio\">origen de replicación</mark> se forman <mark class=\"clave-criterio\">dos horquillas que avanzan en direcciones opuestas</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de septiembre",
+    "referencia": "Suplente de septiembre, opción A, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Modelo 3 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Criterios Modelo 3 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Suplente de septiembre, opción A, pregunta 2, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-suplente-septiembre-a3",
+   "block": "Inmunología",
+   "topic": "Respuesta humoral y celular; memoria inmunológica",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Explique los conceptos inmunológicos de respuesta humoral y respuesta celular [0,6]. b) Cite una función de cada uno de los tres tipos de células implicadas en estas respuestas inmunitarias [0,6]. c) Indique qué es la memoria inmunológica [0,8].",
+   "c": [
+    "a) Humoral: basada en la <mark class=\"clave-criterio\">producción de sustancias</mark>, especialmente <mark class=\"clave-criterio\">anticuerpos</mark> (0,3 p). Celular: basada en la <mark class=\"clave-criterio\">acción directa de células</mark> como los <mark class=\"clave-criterio\">linfocitos T</mark> y los <mark class=\"clave-criterio\">macrófagos</mark> (0,3 p).",
+    "b) <mark class=\"clave-criterio\">Linfocitos B</mark> (células plasmáticas): <mark class=\"clave-criterio\">producen anticuerpos</mark>. <mark class=\"clave-criterio\">Linfocitos T</mark>: activan a los B o <mark class=\"clave-criterio\">destruyen células infectadas o tumorales</mark>. <mark class=\"clave-criterio\">Macrófagos</mark>: <mark class=\"clave-criterio\">fagocitosis</mark> y <mark class=\"clave-criterio\">presentación de antígenos</mark>. 0,2 p cada una (0,6 p).",
+    "c) Capacidad de <mark class=\"clave-criterio\">reconocer un antígeno con el que ya se ha estado en contacto</mark> y responder de forma <mark class=\"clave-criterio\">más rápida y eficaz</mark> (0,8 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de septiembre",
+    "referencia": "Suplente de septiembre, opción A, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Modelo 3 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Criterios Modelo 3 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Suplente de septiembre, opción A, pregunta 3, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-suplente-septiembre-a4",
+   "block": "Biomoléculas",
+   "topic": "Densidad del hielo y capilaridad del agua",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "La densidad del agua es máxima a 4 ºC, por lo que en estado líquido es más densa que en estado sólido. a) ¿Qué consecuencia biológica tendría si fuese más densa en estado sólido? [0,5]. b) ¿Qué importancia biológica tiene el hecho de que el agua tenga gran capacidad para adherirse a las paredes de conductos muy estrechos, como los capilares? [0,5].",
+   "c": [
+    "a) El <mark class=\"clave-criterio\">hielo es menos denso</mark> y flota, de modo que el agua <mark class=\"clave-criterio\">se mantiene líquida bajo la superficie</mark>. Si fuese más denso, se hundiría, no se mantendría la capa aislante y se <mark class=\"clave-criterio\">afectaría la vida acuática</mark> (0,5 p).",
+    "b) La <mark class=\"clave-criterio\">capilaridad</mark> contribuye al <mark class=\"clave-criterio\">ascenso del agua por los vasos conductores</mark> de las plantas, fundamental para la vida de las <mark class=\"clave-criterio\">plantas terrestres</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de septiembre",
+    "referencia": "Suplente de septiembre, opción A, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Modelo 3 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Criterios Modelo 3 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Suplente de septiembre, opción A, pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-suplente-septiembre-a5",
+   "block": "Metabolismo",
+   "topic": "Temperatura y actividad fotosintética",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Un investigador observa que la actividad fotosintética es dos veces mayor cuando a las plantas cultivadas se les aumenta la temperatura de 25 ºC a 45 ºC. Sin embargo, encuentra que temperaturas por encima de 55 ºC disminuyen drásticamente dicha actividad. Dé una explicación razonada a estos hechos [1].",
+   "c": [
+    "Al subir la temperatura <mark class=\"clave-criterio\">aumenta la actividad de las enzimas</mark> implicadas en la fotosíntesis (0,5 p).",
+    "Las temperaturas altas <mark class=\"clave-criterio\">desnaturalizan las proteínas</mark> (enzimas) y por eso disminuye la actividad fotosintética (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de septiembre",
+    "referencia": "Suplente de septiembre, opción A, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Modelo 3 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Criterios Modelo 3 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Suplente de septiembre, opción A, pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-suplente-septiembre-a6",
+   "block": "Biomoléculas",
+   "topic": "La sacarosa y su enlace O-glucosídico",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>A la vista de la imagen adjunta, que representa una sustancia formada por dos monómeros unidos, conteste las siguientes cuestiones:</b><br>a) Nombre la molécula C y a qué grupo pertenece [0,3].<br>b) Nombre cada uno de los dos monómeros (A y B) que la forman [0,3].<br>c) Indique el nombre del enlace que los une [0,2].<br>d) Nombre la reacción de rotura del citado enlace [0,2].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Disacárido</mark> <span class=\"redactado\">(sacarosa</span>), del grupo de los <mark class=\"clave-criterio\">glúcidos</mark> (hidratos de carbono) (0,3 p).",
+    "b) A: <mark class=\"clave-criterio\">glucosa</mark> (α-D-glucopiranosa); B: <mark class=\"clave-criterio\">fructosa</mark> (β-D-fructofuranosa). 0,15 p cada uno (0,3 p).",
+    "c) <mark class=\"clave-criterio\">Enlace O-glucosídico</mark> (0,2 p).",
+    "d) <mark class=\"clave-criterio\">Hidrólisis</mark> (0,2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de septiembre",
+    "referencia": "Suplente de septiembre, opción A, pregunta 6",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Modelo 3 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Criterios Modelo 3 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2017/suplente-sept-a6.webp",
+   "imgThumb": "assets/figuras/historico/2017/suplente-sept-a6.thumb.webp",
+   "imageDesc": "Molécula C formada por un anillo de seis átomos (A) unido mediante un oxígeno a un anillo de cinco átomos (B), ambos con grupos OH y CH₂OH.",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Suplente de septiembre, opción A, pregunta 6, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-suplente-septiembre-a7",
+   "block": "Biomoléculas",
+   "topic": "Polisacáridos de glucosa",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la imagen de la pregunta anterior, conteste las siguientes cuestiones:</b><br>a) Cite tres sustancias formadas exclusivamente por la unión de cientos o miles de monómeros del tipo A [0,3].<br>b) Indique la función biológica que desempeñan [0,3].<br>c) Indique el tipo de células eucarióticas en las que podemos encontrarlas [0,4].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Almidón</mark>, <mark class=\"clave-criterio\">glucógeno</mark> y <mark class=\"clave-criterio\">celulosa</mark>. 0,1 p cada una (0,3 p).",
+    "b) Almidón: <mark class=\"clave-criterio\">reserva energética en plantas</mark>; glucógeno: <mark class=\"clave-criterio\">reserva energética en animales</mark>; celulosa: <mark class=\"clave-criterio\">función estructural en plantas</mark>. 0,1 p cada una (0,3 p).",
+    "c) Almidón y celulosa en <mark class=\"clave-criterio\">células vegetales</mark>; glucógeno en <mark class=\"clave-criterio\">células animales</mark>. 0,2 p cada una (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de septiembre",
+    "referencia": "Suplente de septiembre, opción A, pregunta 7",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Modelo 3 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Criterios Modelo 3 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2017/suplente-sept-a6.webp",
+   "imgThumb": "assets/figuras/historico/2017/suplente-sept-a6.thumb.webp",
+   "imageDesc": "Molécula C formada por un anillo de seis átomos (A) unido mediante un oxígeno a un anillo de cinco átomos (B), ambos con grupos OH y CH₂OH.",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Suplente de septiembre, opción A, pregunta 7, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-suplente-septiembre-b1",
+   "block": "Biomoléculas",
+   "topic": "Triacilglicéridos, saponificación y lípidos insaponificables",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina triacilglicérido [0,4] y b) explique dos de sus funciones biológicas [0,6]. c) Explique cómo obtendría jabón a partir de estas biomoléculas [0,4]. d) Cite una biomolécula hidrófoba insaponificable y dos funciones de la misma [0,6].",
+   "c": [
+    "a) Lípido formado por <mark class=\"clave-criterio\">glicerina y tres ácidos grasos</mark> unidos por <mark class=\"clave-criterio\">enlaces éster</mark> (0,4 p).",
+    "b) <mark class=\"clave-criterio\">Reserva energética</mark> en animales (por su hidrofobia se acumulan fácilmente y su catabolismo es muy rentable), <mark class=\"clave-criterio\">aislamiento térmico</mark>, <mark class=\"clave-criterio\">amortiguación mecánica</mark>. Dos, a 0,3 p (0,6 p).",
+    "c) Con <mark class=\"clave-criterio\">hidróxido sódico o potásico</mark> se <mark class=\"clave-criterio\">hidrolizan los enlaces éster</mark> y se obtienen <mark class=\"clave-criterio\">sales sódicas o potásicas de los ácidos grasos</mark>, que son los <mark class=\"clave-criterio\">jabones</mark> (0,4 p).",
+    "d) <mark class=\"clave-criterio\">Colesterol</mark> (u otro esteroide) (0,2 p). Funciones: <mark class=\"clave-criterio\">componente de membranas</mark>, <mark class=\"clave-criterio\">precursor de hormonas</mark>, <mark class=\"clave-criterio\">precursor de las sales biliares</mark>. Dos, a 0,2 p (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de septiembre",
+    "referencia": "Suplente de septiembre, opción B, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Modelo 3 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Criterios Modelo 3 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Suplente de septiembre, opción B, pregunta 1, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-suplente-septiembre-b2",
+   "block": "Célula",
+   "topic": "Localización de procesos en la célula eucariótica",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Indique dónde se localizan las siguientes funciones o procesos en una célula eucariótica: a) síntesis de proteínas; b) glucólisis; c) ciclo de Krebs; d) ciclo de Calvin; e) transcripción; f) transformación de energía luminosa en energía química; g) cadena respiratoria; h) digestión de materiales captados por endocitosis; i) β-oxidación de los ácidos grasos; j) síntesis de lípidos [2].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Ribosomas</mark>; b) <mark class=\"clave-criterio\">citoplasma</mark>; c) <mark class=\"clave-criterio\">matriz mitocondrial</mark>; d) <mark class=\"clave-criterio\">estroma del cloroplasto</mark>; e) <mark class=\"clave-criterio\">núcleo</mark>, mitocondrias o cloroplastos.",
+    "f) <mark class=\"clave-criterio\">Membrana de los tilacoides</mark>; g) <mark class=\"clave-criterio\">membrana mitocondrial interna</mark>; h) <mark class=\"clave-criterio\">lisosomas</mark>; i) <mark class=\"clave-criterio\">matriz mitocondrial</mark>; j) <mark class=\"clave-criterio\">retículo endoplasmático liso</mark>. 0,2 p cada una (2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de septiembre",
+    "referencia": "Suplente de septiembre, opción B, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Modelo 3 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Criterios Modelo 3 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Suplente de septiembre, opción B, pregunta 2, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-suplente-septiembre-b3",
+   "block": "Microbiología",
+   "topic": "Clasificación de los microorganismos",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Realice una clasificación de los principales grupos de microorganismos indicando claramente los criterios utilizados [0,5]. b) Exponga dos características propias de cada grupo [1,5].",
+   "c": [
+    "a) Vale cualquier clasificación con criterios correctos; por ejemplo: <mark class=\"clave-criterio\">formas acelulares</mark> (virus) y <mark class=\"clave-criterio\">formas celulares</mark>, de <mark class=\"clave-criterio\">organización procariótica</mark> (bacterias) o <mark class=\"clave-criterio\">eucariótica</mark> (algas, hongos y protozoos) (0,5 p).",
+    "b) Virus: <mark class=\"clave-criterio\">acelulares</mark>, <mark class=\"clave-criterio\">un solo tipo de ácido nucleico</mark>. Bacterias: <mark class=\"clave-criterio\">procarióticas</mark>, unicelulares, <mark class=\"clave-criterio\">bipartición</mark> (0,3 p cada grupo).",
+    "b) Algas: eucarióticas, <mark class=\"clave-criterio\">fotosintéticas, autótrofas</mark>, sin tejidos. Hongos: eucarióticos, <mark class=\"clave-criterio\">no fotosintéticos, heterótrofos</mark>, sin tejidos. Protozoos: eucarióticos, <mark class=\"clave-criterio\">heterótrofos, unicelulares</mark> (0,3 p cada grupo)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de septiembre",
+    "referencia": "Suplente de septiembre, opción B, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Modelo 3 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Criterios Modelo 3 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Suplente de septiembre, opción B, pregunta 3, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-suplente-septiembre-b4",
+   "block": "Metabolismo",
+   "topic": "Rendimiento energético en glóbulos rojos sin mitocondrias",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Los glóbulos rojos humanos carecen de mitocondrias. Argumente si el rendimiento energético por cada molécula de glucosa degradada será mayor o menor que el de cualquier otra célula del cuerpo que tenga mitocondrias [1].",
+   "c": [
+    "Será <mark class=\"clave-criterio\">menor</mark>: sin mitocondrias solo hay <mark class=\"clave-criterio\">metabolismo anaeróbico</mark> <span class=\"redactado\">glucólisis y fermentación láctica, 2 ATP</span>, mientras que el <mark class=\"clave-criterio\">metabolismo aeróbico</mark>, que depende de las <mark class=\"clave-criterio\">mitocondrias</mark>, tiene <mark class=\"clave-criterio\">mayor rendimiento</mark> <span class=\"redactado\">unos 36-38 ATP</span> (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de septiembre",
+    "referencia": "Suplente de septiembre, opción B, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Modelo 3 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Criterios Modelo 3 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Suplente de septiembre, opción B, pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-suplente-septiembre-b5",
+   "block": "Inmunología",
+   "topic": "Respuesta primaria y secundaria: toxina tetánica en caballos",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Se inocula por primera vez a un caballo con la toxina que produce el tétanos en humanos. En el transcurso de varias semanas, el caballo vuelve a ser inoculado varias veces con esa misma toxina. Una semana después de la primera inoculación se le extrae sangre para analizarla. a) Justifique el tipo de respuesta inmune que se habrá producido en esta primera semana y cómo variará la cantidad de anticuerpos [0,5]. b) Razone cómo cambiará la concentración de anticuerpos en la sangre del caballo tras las sucesivas inoculaciones varias semanas después [0,5].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Respuesta primaria</mark>, por ser el <mark class=\"clave-criterio\">primer contacto</mark>: los anticuerpos aumentan de <mark class=\"clave-criterio\">forma moderada</mark> tras un <mark class=\"clave-criterio\">periodo de latencia</mark> (0,5 p).",
+    "b) Los anticuerpos <mark class=\"clave-criterio\">aumentan considerablemente y de forma rápida</mark> por las sucesivas <mark class=\"clave-criterio\">respuestas secundarias</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de septiembre",
+    "referencia": "Suplente de septiembre, opción B, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Modelo 3 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Criterios Modelo 3 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Suplente de septiembre, opción B, pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-suplente-septiembre-b6",
+   "block": "Genética",
+   "topic": "Dihibridismo en ratones: parentales y F1",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>A la vista del esquema adjunto, que corresponde a un cruce de ratones que se diferencian para dos caracteres representados por las letras “B/b” para el color del pelo (B, alelo color negro; b, alelo color gris) y “L/l” para la longitud del rabo (L, alelo rabo largo; l, alelo rabo corto), responda razonadamente las siguientes cuestiones:</b><br>a) ¿Qué tipo de gametos desde el punto de vista genético pueden dar los ratones parentales? [0,4].<br>b) En función de la F1 resultante, ¿cuáles son los alelos dominantes para cada uno de los dos caracteres? [0,2].<br>c) ¿Qué tipo de gametos pueden producir los individuos de la F1? [0,4].",
+   "c": [
+    "a) <span class=\"redactado\">Parentales BBLL y bbll.</span> Gametos: <mark class=\"clave-criterio\">BL</mark> y <mark class=\"clave-criterio\">bl</mark> (0,4 p).",
+    "b) Dominantes: <mark class=\"clave-criterio\">B (color negro)</mark> y <mark class=\"clave-criterio\">L (rabo largo)</mark>, <span class=\"redactado\">porque toda la F1, BbLl, es negra de rabo largo</span> (0,2 p).",
+    "c) Gametos de la F1: <mark class=\"clave-criterio\">BL, Bl, bL y bl</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de septiembre",
+    "referencia": "Suplente de septiembre, opción B, pregunta 6",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Modelo 3 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Criterios Modelo 3 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2017/suplente-sept-b6.webp",
+   "imgThumb": "assets/figuras/historico/2017/suplente-sept-b6.thumb.webp",
+   "imageDesc": "Parentales: ratón negro de rabo largo × ratón gris de rabo corto. Filial F1: dos ratones negros de rabo largo.",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Suplente de septiembre, opción B, pregunta 6, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-suplente-septiembre-b7",
+   "block": "Genética",
+   "topic": "Dihibridismo en ratones: F2 y proporción 9:3:3:1",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>A la vista del esquema de la pregunta anterior, conteste a las siguientes cuestiones:</b><br>a) Indique todos los posibles genotipos que aparecerán en la F2 [0,45].<br>b) Indique los fenotipos y sus proporciones de la F2 [0,55].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">BBLL, BBLl, BBll, BbLL, BbLl, Bbll, bbLL, bbLl, bbll</mark>. 0,05 p cada uno (0,45 p).",
+    "b) Fenotipos: <mark class=\"clave-criterio\">negros de rabo largo</mark>, <mark class=\"clave-criterio\">negros de rabo corto</mark>, <mark class=\"clave-criterio\">grises de rabo largo</mark> y <mark class=\"clave-criterio\">grises de rabo corto</mark> (0,4 p), en proporción <mark class=\"clave-criterio\">9:3:3:1</mark> (0,15 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de septiembre",
+    "referencia": "Suplente de septiembre, opción B, pregunta 7",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Modelo 3 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Criterios Modelo 3 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2017/suplente-sept-b6.webp",
+   "imgThumb": "assets/figuras/historico/2017/suplente-sept-b6.thumb.webp",
+   "imageDesc": "Parentales: ratón negro de rabo largo × ratón gris de rabo corto. Filial F1: dos ratones negros de rabo largo.",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Suplente de septiembre, opción B, pregunta 7, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-junio-a1",
+   "block": "Célula",
+   "topic": "Digestión celular y fagocitosis",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina digestión celular [0,5]. b) Describa el proceso que va desde la ingestión de una bacteria por un macrófago hasta su digestión [1,5].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Degradación de biomoléculas por enzimas digestivas</mark> <span class=\"redactado\">dentro de la célula, en los lisosomas</span> (0,5 p).",
+    "b) <mark class=\"clave-criterio\">Formación del fagosoma</mark>, <mark class=\"clave-criterio\">fusión con vesículas con enzimas lisosómicas</mark> y <mark class=\"clave-criterio\">degradación de las macromoléculas</mark>. 0,5 p cada una (1,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de junio",
+    "referencia": "Titular de junio, opción A, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Modelo 6 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Criterios Modelo 6 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Titular de junio, opción A, pregunta 1, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-junio-a2",
+   "block": "Genética",
+   "topic": "Pares de conceptos de genética",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Explique la diferencia entre los siguientes pares de conceptos: a) gen-alelo [0,5]; b) homocigótico-heterocigótico [0,5]; c) herencia dominante-herencia intermedia [0,5]; d) gen autosómico-gen ligado al sexo [0,5].",
+   "c": [
+    "a) Gen: <mark class=\"clave-criterio\">fragmento de ADN que determina una característica</mark>; alelo: <mark class=\"clave-criterio\">cada una de las formas alternativas de un gen</mark> (0,5 p).",
+    "b) Homocigótico: <mark class=\"clave-criterio\">dos alelos iguales</mark> para un carácter; heterocigótico: <mark class=\"clave-criterio\">dos alelos diferentes</mark> (0,5 p).",
+    "c) Dominante: el fenotipo lo <mark class=\"clave-criterio\">determina un solo alelo</mark>; intermedia: el fenotipo presenta <mark class=\"clave-criterio\">características intermedias</mark> (0,5 p).",
+    "d) Autosómico: situado en los <mark class=\"clave-criterio\">cromosomas autosómicos</mark>; ligado al sexo: situado en el <mark class=\"clave-criterio\">cromosoma X</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de junio",
+    "referencia": "Titular de junio, opción A, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Modelo 6 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Criterios Modelo 6 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Titular de junio, opción A, pregunta 2, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-junio-a3",
+   "block": "Genética",
+   "topic": "Mutaciones y variabilidad genética",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina el concepto de mutación [0,5]. b) Diferencie entre mutación espontánea e inducida [0,6]. c) Cite un ejemplo de un agente mutagénico físico, uno químico y uno biológico [0,3]. d) Indique y defina otro mecanismo que produzca variabilidad genética [0,6].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Alteración en el material genético</mark> (0,5 p).",
+    "b) Espontánea: por <mark class=\"clave-criterio\">errores en la replicación</mark>, lesiones al azar o elementos genéticos móviles. Inducida: por la acción de <mark class=\"clave-criterio\">agentes mutagénicos</mark>. 0,3 p cada una (0,6 p).",
+    "c) Físico: <mark class=\"clave-criterio\">rayos X, gamma o UV</mark>; químico: <mark class=\"clave-criterio\">5-bromouracilo, ácido nitroso</mark>, acridinas; biológico: <mark class=\"clave-criterio\">elementos genéticos móviles, virus</mark> (0,3 p).",
+    "d) <mark class=\"clave-criterio\">Recombinación genética</mark>: intercambio de fragmentos entre <mark class=\"clave-criterio\">cromosomas homólogos</mark> en la <mark class=\"clave-criterio\">profase meiótica</mark>; o <mark class=\"clave-criterio\">segregación cromosómica</mark>: separación <mark class=\"clave-criterio\">al azar</mark> de los cromosomas maternos y paternos en anafase (0,6 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de junio",
+    "referencia": "Titular de junio, opción A, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Modelo 6 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Criterios Modelo 6 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Titular de junio, opción A, pregunta 3, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-junio-a4",
+   "block": "Metabolismo",
+   "topic": "2-desoxiglucosa, glucólisis y β-oxidación",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "La 2-deoxiglucosa es un análogo no metabolizable de la glucosa que bloquea la glucólisis. En un cultivo celular con glucosa como única fuente de energía, las células mueren al ser tratadas con este compuesto. No obstante, las células son capaces de proliferar en este mismo medio si contiene ácidos grasos. Explique razonadamente cada uno de estos efectos [1].",
+   "c": [
+    "Con glucosa como única fuente, el <mark class=\"clave-criterio\">bloqueo de la glucólisis</mark> impide producir ATP <mark class=\"clave-criterio\">ni por glucólisis ni por fosforilación oxidativa</mark>, y la célula muere (0,5 p).",
+    "Con ácidos grasos, las células realizan la <mark class=\"clave-criterio\">β-oxidación</mark> <span class=\"redactado\">que da acetil-CoA para el</span> <mark class=\"clave-criterio\">ciclo de Krebs</mark> y la <mark class=\"clave-criterio\">respiración aeróbica</mark>, generan <mark class=\"clave-criterio\">ATP</mark> y pueden crecer (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de junio",
+    "referencia": "Titular de junio, opción A, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Modelo 6 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Criterios Modelo 6 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Titular de junio, opción A, pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-junio-a5",
+   "block": "Metabolismo",
+   "topic": "Integridad de las membranas mitocondriales y fosforilación oxidativa",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Si se hace un orificio en las membranas externa e interna de una mitocondria, ¿podrá seguir realizando la fosforilación oxidativa? Razone la respuesta [1].",
+   "c": [
+    "<mark class=\"clave-criterio\">No</mark>. La fosforilación oxidativa está <mark class=\"clave-criterio\">acoplada a la cadena de transporte electrónico</mark> de la <mark class=\"clave-criterio\">membrana mitocondrial interna</mark>, y hace falta la <mark class=\"clave-criterio\">integridad de las membranas</mark> para mantener el <mark class=\"clave-criterio\">gradiente de protones</mark> (de la matriz al espacio intermembranoso); los protones deben volver a la matriz <mark class=\"clave-criterio\">a través de la ATP sintasa</mark> para generar ATP (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de junio",
+    "referencia": "Titular de junio, opción A, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Modelo 6 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Criterios Modelo 6 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Titular de junio, opción A, pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-junio-a6",
+   "block": "Biomoléculas",
+   "topic": "Aminoácidos, dipéptido y niveles estructurales de las proteínas",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con las imágenes adjuntas, conteste las siguientes cuestiones. La Figura A representa una reacción entre dos biomoléculas.</b><br>a) ¿Cómo se denominan las biomoléculas señaladas con los números 1 y 2? [0,1].<br>b) ¿Cuántos monómeros distintos de ese tipo existen en los seres vivos? [0,1].<br>c) ¿En qué se diferencian? [0,1].<br>d) ¿Qué nombre recibe la molécula señalada con el número 3 de la Figura A? [0,1].<br>e) ¿Qué representa la Figura B? [0,2].<br>f) Indique qué representan los números 1, 2, 3 y 4 de la Figura B [0,4].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Aminoácidos</mark> (0,1 p). b) <mark class=\"clave-criterio\">20</mark> (0,1 p). c) En el <mark class=\"clave-criterio\">radical R</mark> (0,1 p). d) <mark class=\"clave-criterio\">Dipéptido</mark> (0,1 p).",
+    "e) Los <mark class=\"clave-criterio\">niveles de estructura de las proteínas</mark> (se acepta plegamiento de proteínas) (0,2 p).",
+    "f) 1: <mark class=\"clave-criterio\">estructura primaria</mark>; 2: <mark class=\"clave-criterio\">secundaria</mark>; 3: <mark class=\"clave-criterio\">terciaria</mark>; 4: <mark class=\"clave-criterio\">cuaternaria</mark>. 0,1 p cada una (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de junio",
+    "referencia": "Titular de junio, opción A, pregunta 6",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Modelo 6 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Criterios Modelo 6 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2017/junio-a6.webp",
+   "imgThumb": "assets/figuras/historico/2017/junio-a6.thumb.webp",
+   "imageDesc": "Figura A: dos moléculas (1 y 2) con grupos amino, carboxilo y R que se unen liberando H₂O para formar la molécula 3; una flecha señala el enlace formado. Figura B: una cadena lineal (1) que se enrolla (2), se pliega en un ovillo (3) y se asocia con otros ovillos (4).",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Titular de junio, opción A, pregunta 6, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-junio-a7",
+   "block": "Biomoléculas",
+   "topic": "Enlace peptídico y desnaturalización",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con las imágenes de la pregunta anterior, conteste a las siguientes cuestiones:</b><br>a) ¿Cómo se denomina el enlace señalado por la flecha en la Figura A? [0,2].<br>b) Cite dos características de dicho enlace [0,4].<br>c) Identifique dos tipos de enlaces que mantengan la estructura número 3 de la Figura B [0,2].<br>d) Si hubiese un gran cambio de pH o de temperatura, indique una consecuencia que se produciría en la Figura B-4 [0,2].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Enlace peptídico</mark> (0,2 p).",
+    "b) <mark class=\"clave-criterio\">Covalente</mark>, <mark class=\"clave-criterio\">estructura coplanaria</mark>, <mark class=\"clave-criterio\">incapacidad de giro</mark>. Dos, a 0,2 p (0,4 p).",
+    "c) <mark class=\"clave-criterio\">Interacciones hidrofóbicas</mark>, <mark class=\"clave-criterio\">puentes de hidrógeno</mark>, <mark class=\"clave-criterio\">fuerzas de Van der Waals</mark>, <mark class=\"clave-criterio\">fuerzas electrostáticas</mark>, <mark class=\"clave-criterio\">puentes disulfuro</mark>. Dos, a 0,1 p (0,2 p).",
+    "d) <mark class=\"clave-criterio\">Desnaturalización</mark>: <mark class=\"clave-criterio\">pérdida de la estructura tridimensional</mark> y <mark class=\"clave-criterio\">pérdida de función</mark>. Una (0,2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de junio",
+    "referencia": "Titular de junio, opción A, pregunta 7",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Modelo 6 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Criterios Modelo 6 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2017/junio-a6.webp",
+   "imgThumb": "assets/figuras/historico/2017/junio-a6.thumb.webp",
+   "imageDesc": "Figura A: dos moléculas (1 y 2) con grupos amino, carboxilo y R que se unen liberando H₂O para formar la molécula 3; una flecha señala el enlace formado. Figura B: una cadena lineal (1) que se enrolla (2), se pliega en un ovillo (3) y se asocia con otros ovillos (4).",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Titular de junio, opción A, pregunta 7, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-junio-b1",
+   "block": "Biomoléculas",
+   "topic": "Nucleótidos del ADN y del ARN",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Describa la fórmula general de los nucleótidos indicando cómo se unen sus componentes [1]. b) Cite las diferencias básicas de composición química entre los nucleótidos del ARN y del ADN [1].",
+   "c": [
+    "a) Formados por <mark class=\"clave-criterio\">ácido fosfórico</mark>, una <mark class=\"clave-criterio\">pentosa</mark> (ribosa o desoxirribosa) y una <mark class=\"clave-criterio\">base nitrogenada</mark> (A, T, U, C o G), indicando cómo se unen: <span class=\"redactado\">la base se une al C1' de la pentosa por un enlace N-glucosídico y el fosfato al C5' por un enlace éster</span> (1 p).",
+    "b) Azúcar: <mark class=\"clave-criterio\">ribosa en el ARN</mark> y <mark class=\"clave-criterio\">desoxirribosa en el ADN</mark>; bases: <mark class=\"clave-criterio\">uracilo en el ARN</mark> y <mark class=\"clave-criterio\">timina en el ADN</mark> (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de junio",
+    "referencia": "Titular de junio, opción B, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Modelo 6 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Criterios Modelo 6 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Titular de junio, opción B, pregunta 1, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-junio-b2",
+   "block": "Metabolismo",
+   "topic": "Glucólisis y destinos del piruvato",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Indique la localización intracelular de la glucólisis [0,1]. b) ¿De qué moléculas se parte y qué moléculas se obtienen al final? [0,4]. c) ¿Qué rutas metabólicas puede seguir el producto final de la glucólisis? [0,5]. d) Indique cuáles son los compuestos iniciales y los productos finales de cada una de estas rutas [1].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Citosol</mark> (0,1 p).",
+    "b) Inicio: <mark class=\"clave-criterio\">glucosa, NAD⁺, ADP y Pi</mark>; final: <mark class=\"clave-criterio\">piruvato, NADH+H⁺ y ATP</mark> (0,4 p).",
+    "c) <mark class=\"clave-criterio\">Fermentaciones</mark> (anaeróbica) y <mark class=\"clave-criterio\">ciclo de Krebs</mark> (aeróbica) (0,5 p).",
+    "d) Fermentaciones: de <mark class=\"clave-criterio\">piruvato</mark> a <mark class=\"clave-criterio\">lactato o etanol y NAD⁺</mark> (0,5 p). Ciclo de Krebs: de <mark class=\"clave-criterio\">acetil-CoA y oxalacético</mark> a <mark class=\"clave-criterio\">CO₂, NADH+H⁺, FADH₂ y GTP (ATP)</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de junio",
+    "referencia": "Titular de junio, opción B, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Modelo 6 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Criterios Modelo 6 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Titular de junio, opción B, pregunta 2, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-junio-b3",
+   "block": "Inmunología",
+   "topic": "Respuesta alérgica",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Explique en qué consiste la respuesta alérgica [0,5] b) indicando el nombre y la naturaleza de los agentes que pueden desencadenarla [0,5], c) las células y moléculas implicadas y su mecanismo de acción [1].",
+   "c": [
+    "a) Mecanismo de <mark class=\"clave-criterio\">hipersensibilidad</mark> o <mark class=\"clave-criterio\">respuesta inmune exagerada ante antígenos</mark> (0,5 p).",
+    "b) <mark class=\"clave-criterio\">Alérgeno</mark> (0,25 p), de naturaleza diversa: <mark class=\"clave-criterio\">polvo, polen, ácaros</mark> (0,25 p).",
+    "c) Intervienen <mark class=\"clave-criterio\">linfocitos B y T</mark>, <mark class=\"clave-criterio\">células plasmáticas</mark> y <mark class=\"clave-criterio\">mastocitos</mark>, con la <mark class=\"clave-criterio\">IgE</mark> y la <mark class=\"clave-criterio\">histamina</mark> <span class=\"redactado\">: la IgE producida se fija a los mastocitos; en un segundo contacto el alérgeno se une a ella y los mastocitos liberan histamina</span> (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de junio",
+    "referencia": "Titular de junio, opción B, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Modelo 6 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Criterios Modelo 6 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Titular de junio, opción B, pregunta 3, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-junio-b4",
+   "block": "Célula",
+   "topic": "Células animales y vegetales en medios hipotónico e hipertónico",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) ¿Tendría una célula animal el mismo comportamiento que una célula vegetal en una solución hipotónica? [0,5]. b) ¿Y en una solución hipertónica? [0,5]. Razone las respuestas.",
+   "c": [
+    "a) <mark class=\"clave-criterio\">No</mark>: en medio hipotónico la célula animal sufre <mark class=\"clave-criterio\">lisis</mark>, mientras que la vegetal está <mark class=\"clave-criterio\">protegida por la pared celular</mark> (0,5 p).",
+    "b) <mark class=\"clave-criterio\">Sí</mark> (ambas pierden agua): la célula animal <mark class=\"clave-criterio\">se deshidrata y se encoge</mark>; en la vegetal la membrana <mark class=\"clave-criterio\">se separa de la pared</mark> y se produce <mark class=\"clave-criterio\">plasmólisis</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de junio",
+    "referencia": "Titular de junio, opción B, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Modelo 6 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Criterios Modelo 6 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Titular de junio, opción B, pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-junio-b5",
+   "block": "Genética",
+   "topic": "Herencia intermedia en mariposas",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Una mariposa negra se cruza con una mariposa gris y se obtienen 36 mariposas negras y 36 grises. Posteriormente, se cruza una mariposa gris con una blanca y se obtienen 36 mariposas blancas y 36 grises. a) Explique si se trata de un caso de herencia intermedia o dominante [0,5]. b) Realice los dos cruzamientos anteriormente señalados, indicando cuáles son los genotipos de las mariposas que se cruzan y los de la descendencia obtenida [0,5]. Utilice los símbolos N (alelo color negro) y n (alelo color blanco).",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Herencia intermedia</mark>, porque hay <mark class=\"clave-criterio\">tres fenotipos para un solo carácter</mark> (negro, gris y blanco) (0,5 p).",
+    "b) Primer cruce: <mark class=\"clave-criterio\">NN (negra) × Nn (gris) → ½ NN negras y ½ Nn grises</mark> (0,25 p).",
+    "b) Segundo cruce: <mark class=\"clave-criterio\">Nn (gris) × nn (blanca) → ½ Nn grises y ½ nn blancas</mark> (0,25 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de junio",
+    "referencia": "Titular de junio, opción B, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Modelo 6 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Criterios Modelo 6 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Titular de junio, opción B, pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-junio-b6",
+   "block": "Célula",
+   "topic": "RER, complejo de Golgi y secreción",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la figura adjunta:</b><br>a) Identifique los orgánulos A y B [0,2].<br>b) Identifique los elementos señalados con los números 1 y 2 [0,2].<br>c) ¿Qué proceso celular se señala con la letra C? [0,2].<br>d) Cite dos funciones del orgánulo A [0,4].",
+   "c": [
+    "a) A: <mark class=\"clave-criterio\">retículo endoplasmático rugoso</mark>; B: <mark class=\"clave-criterio\">complejo de Golgi</mark>. 0,1 p cada uno (0,2 p).",
+    "b) 1: <mark class=\"clave-criterio\">vesícula de transferencia</mark>; 2: <mark class=\"clave-criterio\">vesícula de secreción</mark>. 0,1 p cada una (0,2 p).",
+    "c) <mark class=\"clave-criterio\">Exocitosis</mark> (secreción) (0,2 p).",
+    "d) <mark class=\"clave-criterio\">Síntesis</mark>, <mark class=\"clave-criterio\">modificación</mark> y/o <mark class=\"clave-criterio\">almacenamiento de proteínas</mark>. Dos, a 0,2 p (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de junio",
+    "referencia": "Titular de junio, opción B, pregunta 6",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Modelo 6 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Criterios Modelo 6 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2017/junio-b6.webp",
+   "imgThumb": "assets/figuras/historico/2017/junio-b6.thumb.webp",
+   "imageDesc": "Junto al núcleo, un sistema de cisternas con gránulos (A) del que se desprende una vesícula (1) hacia un conjunto de sáculos apilados (B); de estos sale otra vesícula (2) que se fusiona con la membrana y vierte su contenido al exterior (C).",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Titular de junio, opción B, pregunta 6, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-junio-b7",
+   "block": "Célula",
+   "topic": "Complejo de Golgi y ruta de secreción",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la figura de la pregunta anterior, conteste a las siguientes cuestiones:</b><br>a) Describa la estructura del orgánulo B [0,2] y cite dos de sus funciones [0,4].<br>b) Explique la relación funcional entre las estructuras señaladas con las letras A, B y C [0,4].",
+   "c": [
+    "a) Estructura: <mark class=\"clave-criterio\">cara cis</mark>, que recibe las vesículas de transferencia del RER; <mark class=\"clave-criterio\">cisternas membranosas que forman los dictiosomas</mark>; y <mark class=\"clave-criterio\">cara trans</mark>, donde se forman las <mark class=\"clave-criterio\">vesículas de secreción</mark> (0,2 p).",
+    "a) Funciones: <mark class=\"clave-criterio\">glucosilación de lípidos y proteínas</mark>, <mark class=\"clave-criterio\">maduración de proteínas</mark>, <mark class=\"clave-criterio\">embalaje de productos de secreción</mark>, <mark class=\"clave-criterio\">formación de lisosomas</mark>, reciclaje de membrana, pared celular vegetal. Dos, a 0,2 p (0,4 p).",
+    "b) En el <mark class=\"clave-criterio\">RER se sintetizan y modifican las proteínas</mark>, que viajan en <mark class=\"clave-criterio\">vesículas de transferencia</mark> al <mark class=\"clave-criterio\">Golgi</mark>, donde <mark class=\"clave-criterio\">maduran y se distribuyen</mark>; salen en <mark class=\"clave-criterio\">vesículas de secreción</mark> hacia la membrana plasmática y se liberan por <mark class=\"clave-criterio\">exocitosis</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de junio",
+    "referencia": "Titular de junio, opción B, pregunta 7",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Modelo 6 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Criterios Modelo 6 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2017/junio-b6.webp",
+   "imgThumb": "assets/figuras/historico/2017/junio-b6.thumb.webp",
+   "imageDesc": "Junto al núcleo, un sistema de cisternas con gránulos (A) del que se desprende una vesícula (1) hacia un conjunto de sáculos apilados (B); de estos sale otra vesícula (2) que se fusiona con la membrana y vierte su contenido al exterior (C).",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Titular de junio, opción B, pregunta 7, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-septiembre-a1",
+   "block": "Metabolismo",
+   "topic": "Enzimas, centro activo e inhibición",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina enzima [0,4]. b) ¿Qué es el centro activo y qué relación existe entre el mismo y la especificidad enzimática? [0,5]. c) ¿Qué son los inhibidores enzimáticos? [0,3]. d) ¿En qué se diferencia la inhibición irreversible de la reversible y cuál es la causa de la diferencia? [0,8].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Proteína con función catalítica</mark> que <mark class=\"clave-criterio\">acelera las reacciones metabólicas</mark> (0,4 p).",
+    "b) Centro activo: <mark class=\"clave-criterio\">región de la enzima por la que se une al sustrato</mark> (0,2 p). De él depende la <mark class=\"clave-criterio\">especificidad</mark>, porque tiene una <mark class=\"clave-criterio\">configuración complementaria a la del sustrato</mark> (0,3 p).",
+    "c) <mark class=\"clave-criterio\">Sustancias que disminuyen o anulan la actividad enzimática</mark> (0,3 p).",
+    "d) Irreversible: el inhibidor <mark class=\"clave-criterio\">inutiliza la enzima de forma permanente</mark> porque se une mediante <mark class=\"clave-criterio\">enlace covalente</mark>. Reversible: la enzima <mark class=\"clave-criterio\">recupera su actividad al eliminar el inhibidor</mark>, porque la unión es por <mark class=\"clave-criterio\">enlaces débiles</mark>. 0,4 p cada una (0,8 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de septiembre",
+    "referencia": "Titular de septiembre, opción A, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Modelo 2 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Criterios Modelo 2 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Titular de septiembre, opción A, pregunta 1, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-septiembre-a2",
+   "block": "Célula",
+   "topic": "Localización de procesos celulares",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Para cada uno de los siguientes procesos celulares, indique una estructura, compartimento u orgánulo de las células eucarióticas en donde pueden producirse: a) síntesis de ARN ribosómico; b) fosforilación oxidativa; c) digestión de sustancias; d) síntesis de almidón; e) ciclo de Krebs; f) transporte activo; g) transcripción; h) traducción; i) fase luminosa de la fotosíntesis; j) glucólisis [2].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Nucleolo</mark> (núcleo), mitocondrias o cloroplastos; b) <mark class=\"clave-criterio\">membrana mitocondrial interna</mark>; c) <mark class=\"clave-criterio\">lisosomas</mark>; d) <mark class=\"clave-criterio\">cloroplastos</mark>; e) <mark class=\"clave-criterio\">matriz mitocondrial</mark>.",
+    "f) <mark class=\"clave-criterio\">Membranas</mark>; g) <mark class=\"clave-criterio\">núcleo</mark>, mitocondrias o cloroplastos; h) <mark class=\"clave-criterio\">ribosomas</mark>; i) <mark class=\"clave-criterio\">membrana tilacoidal</mark>; j) <mark class=\"clave-criterio\">citosol</mark>. 0,2 p cada uno (2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de septiembre",
+    "referencia": "Titular de septiembre, opción A, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Modelo 2 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Criterios Modelo 2 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Titular de septiembre, opción A, pregunta 2, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-septiembre-a3",
+   "block": "Genética",
+   "topic": "Mutaciones: agentes y consecuencias",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Indique qué es una mutación [0,5]. b) Cite tres agentes que provoquen mutaciones [0,6]. c) Explique dos posibles consecuencias de las mutaciones [0,9].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Alteración en el material genético</mark> (0,5 p).",
+    "b) <mark class=\"clave-criterio\">Físicos</mark> (rayos UV, rayos X, radiaciones ionizantes), <mark class=\"clave-criterio\">químicos</mark> (modificadores de bases, análogos de bases, agentes intercalantes o alquilantes) y <mark class=\"clave-criterio\">biológicos</mark> (virus, transposones). Tres, a 0,2 p (0,6 p).",
+    "c) Normalmente <mark class=\"clave-criterio\">perjudiciales</mark> (<mark class=\"clave-criterio\">enfermedades</mark>, <mark class=\"clave-criterio\">letalidad</mark>), pero también pueden ser <mark class=\"clave-criterio\">beneficiosas</mark> (<mark class=\"clave-criterio\">evolución</mark>, <mark class=\"clave-criterio\">variabilidad genética</mark>). Dos, a 0,45 p (0,9 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de septiembre",
+    "referencia": "Titular de septiembre, opción A, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Modelo 2 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Criterios Modelo 2 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Titular de septiembre, opción A, pregunta 3, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-septiembre-a4",
+   "block": "Biomoléculas",
+   "topic": "Desnaturalización de las proteínas de la clara de huevo",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Si se compara la consistencia de un huevo antes y después de cocerlo se observa que la clara, un producto gelatinoso y transparente, se transforma en otro de mayor consistencia y opaco a la luz. a) Explique por qué se produce este cambio [0,5]. b) ¿Por qué se mantienen las propiedades nutritivas de la clara del huevo después de cocerlo? [0,5]. Razone las respuestas.",
+   "c": [
+    "a) Por la <mark class=\"clave-criterio\">desnaturalización</mark> de las proteínas de la clara a temperaturas elevadas: se pierde la <mark class=\"clave-criterio\">estructura nativa (secundaria y terciaria)</mark> y las proteínas <mark class=\"clave-criterio\">coagulan</mark> (0,5 p).",
+    "b) Porque la <mark class=\"clave-criterio\">composición de aminoácidos se mantiene</mark> <span class=\"redactado\">la desnaturalización no rompe los enlaces peptídicos</span> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de septiembre",
+    "referencia": "Titular de septiembre, opción A, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Modelo 2 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Criterios Modelo 2 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Titular de septiembre, opción A, pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-septiembre-a5",
+   "block": "Inmunología",
+   "topic": "Suero frente a vacuna en pacientes con ébola",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "En un centro médico hay dos pacientes (A y B) infectados por el virus del Ébola. Al paciente A se le inocula suero sanguíneo de pacientes que han superado la enfermedad causada por este virus, mientras que al paciente B se le inocula un medio conteniendo partículas muertas del virus. Indique cuál de los dos tratamientos será más adecuado. Razone las respuestas [1].",
+   "c": [
+    "El más adecuado es el del <mark class=\"clave-criterio\">paciente A</mark>: el suero contiene <mark class=\"clave-criterio\">anticuerpos fabricados por los pacientes que superaron la enfermedad</mark>, que lo defienden del virus <mark class=\"clave-criterio\">mientras fabrica sus propios anticuerpos</mark> (0,5 p).",
+    "El paciente B <mark class=\"clave-criterio\">no recibe ayuda inmunológica inmediata</mark>: su sistema inmunitario ha de <mark class=\"clave-criterio\">sintetizar los anticuerpos</mark>, lo que lleva tiempo <span class=\"redactado\">una vacuna es preventiva, no curativa</span> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de septiembre",
+    "referencia": "Titular de septiembre, opción A, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Modelo 2 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Criterios Modelo 2 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Titular de septiembre, opción A, pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-septiembre-a6",
+   "block": "Célula",
+   "topic": "Cloroplasto y mitocondria",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con las figuras adjuntas, conteste las siguientes cuestiones:</b><br>a) Indique el nombre de los orgánulos representados con las letras A y B [0,2].<br>b) Nombre las estructuras indicadas con los números del 1 al 8 [0,8].",
+   "c": [
+    "a) A: <mark class=\"clave-criterio\">cloroplasto</mark>; B: <mark class=\"clave-criterio\">mitocondria</mark>. 0,1 p cada uno (0,2 p).",
+    "b) 1: <mark class=\"clave-criterio\">ribosomas</mark>; 2: <mark class=\"clave-criterio\">grana</mark> (tilacoides apilados); 3: <mark class=\"clave-criterio\">tilacoide</mark>; 4: <mark class=\"clave-criterio\">ADN cloroplástico</mark>; 5: <mark class=\"clave-criterio\">ADN mitocondrial</mark>; 6: <mark class=\"clave-criterio\">ribosomas</mark>; 7: <mark class=\"clave-criterio\">matriz mitocondrial</mark> o membrana interna; 8: <mark class=\"clave-criterio\">crestas mitocondriales</mark>. 0,1 p cada uno (0,8 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de septiembre",
+    "referencia": "Titular de septiembre, opción A, pregunta 6",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Modelo 2 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Criterios Modelo 2 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2017/sept-a6.webp",
+   "imgThumb": "assets/figuras/historico/2017/sept-a6.thumb.webp",
+   "imageDesc": "Orgánulo A: ovalado, con pilas de discos membranosos (2, 3), gránulos (1) y filamentos (4). Orgánulo B: alargado, con pliegues de la membrana interna (8), gránulos (6), filamentos (5) y un espacio interior (7).",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Titular de septiembre, opción A, pregunta 6, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-septiembre-a7",
+   "block": "Célula",
+   "topic": "Cloroplastos, mitocondrias y tipos de nutrición",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con las imágenes de la pregunta anterior, conteste las siguientes cuestiones:</b><br>a) Indique en qué tipo de células podemos encontrar el orgánulo A y dónde el orgánulo B [0,4].<br>b) ¿Qué tipo de nutrición tendrán las células que posean el orgánulo A? [0,15]<br>c) ¿Y las que contengan únicamente el orgánulo B? [0,15].<br>d) ¿Puede una célula poseer ambos tipos de orgánulos a la vez? Razone la respuesta [0,3].",
+   "c": [
+    "a) A: en <mark class=\"clave-criterio\">células eucarióticas vegetales</mark>; B: en <mark class=\"clave-criterio\">todas las células eucarióticas</mark>. 0,2 p cada uno (0,4 p).",
+    "b) Con A: <mark class=\"clave-criterio\">nutrición autótrofa</mark> (0,15 p). c) Solo con B: <mark class=\"clave-criterio\">nutrición heterótrofa</mark> (0,15 p).",
+    "d) <mark class=\"clave-criterio\">Sí</mark>: las <mark class=\"clave-criterio\">células vegetales</mark> (y protoctistas) tienen ambos, los <mark class=\"clave-criterio\">cloroplastos para la fotosíntesis</mark> y las <mark class=\"clave-criterio\">mitocondrias para el metabolismo oxidativo</mark> (0,3 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de septiembre",
+    "referencia": "Titular de septiembre, opción A, pregunta 7",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Modelo 2 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Criterios Modelo 2 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2017/sept-a6.webp",
+   "imgThumb": "assets/figuras/historico/2017/sept-a6.thumb.webp",
+   "imageDesc": "Orgánulo A: ovalado, con pilas de discos membranosos (2, 3), gránulos (1) y filamentos (4). Orgánulo B: alargado, con pliegues de la membrana interna (8), gránulos (6), filamentos (5) y un espacio interior (7).",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Titular de septiembre, opción A, pregunta 7, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-septiembre-b1",
+   "block": "Biomoléculas",
+   "topic": "Monosacáridos, enlace O-glucosídico y polisacáridos",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Indique dos funciones biológicas de los monosacáridos [0,4], b) describa el enlace O-glucosídico [0,4] y c) describa las características estructurales y funcionales de tres polisacáridos de interés biológico [1,2].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Energética</mark>, <mark class=\"clave-criterio\">estructural</mark> (forman polisacáridos, ácidos nucleicos) y <mark class=\"clave-criterio\">metabólica</mark> (intermediarios). Dos, a 0,2 p (0,4 p).",
+    "b) <mark class=\"clave-criterio\">Enlace covalente</mark> entre el <mark class=\"clave-criterio\">OH del carbono anomérico</mark> de un monosacárido y un <mark class=\"clave-criterio\">OH de otro monosacárido</mark>, <mark class=\"clave-criterio\">con liberación de una molécula de agua</mark> (0,4 p).",
+    "c) <mark class=\"clave-criterio\">Almidón</mark>: polímero de <mark class=\"clave-criterio\">α-glucosa</mark> con <mark class=\"clave-criterio\">amilosa</mark> (lineal) y <mark class=\"clave-criterio\">amilopectina</mark> (ramificada); <mark class=\"clave-criterio\">reserva energética en vegetales</mark>. <mark class=\"clave-criterio\">Glucógeno</mark>: polímero de α-glucosa <mark class=\"clave-criterio\">similar a la amilopectina</mark>; <mark class=\"clave-criterio\">reserva en animales</mark>. <mark class=\"clave-criterio\">Celulosa</mark>: polímero de <mark class=\"clave-criterio\">β-glucosa</mark> con cadenas paralelas que forman <mark class=\"clave-criterio\">fibras</mark>; <mark class=\"clave-criterio\">función estructural en vegetales</mark>. 0,4 p cada uno (1,2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de septiembre",
+    "referencia": "Titular de septiembre, opción B, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Modelo 2 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Criterios Modelo 2 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Titular de septiembre, opción B, pregunta 1, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-septiembre-b2",
+   "block": "Metabolismo",
+   "topic": "Fuentes de energía, fosforilación oxidativa y fotofosforilación",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Cite dos fuentes energéticas para el metabolismo de los seres vivos [0,5]. b) Describa en qué consiste la fosforilación oxidativa y la fotofosforilación y en qué orgánulos de la célula se realizan [1,5].",
+   "c": [
+    "a) La <mark class=\"clave-criterio\">luz</mark> y los <mark class=\"clave-criterio\">compuestos químicos</mark> (0,5 p).",
+    "b) Fosforilación oxidativa: <mark class=\"clave-criterio\">flujo de electrones por la cadena de transporte electrónico hasta el oxígeno</mark>, con un <mark class=\"clave-criterio\">gradiente de protones</mark> que se usa para <mark class=\"clave-criterio\">sintetizar ATP</mark>; en las <mark class=\"clave-criterio\">mitocondrias</mark> (0,75 p).",
+    "b) Fotofosforilación: flujo de electrones desde los <mark class=\"clave-criterio\">fotosistemas excitados por la luz</mark> hasta el <mark class=\"clave-criterio\">NADPH</mark>, con un <mark class=\"clave-criterio\">gradiente de protones</mark> que se usa para <mark class=\"clave-criterio\">sintetizar ATP</mark>; en los <mark class=\"clave-criterio\">cloroplastos</mark> (0,75 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de septiembre",
+    "referencia": "Titular de septiembre, opción B, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Modelo 2 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Criterios Modelo 2 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Titular de septiembre, opción B, pregunta 2, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-septiembre-b3",
+   "block": "Microbiología",
+   "topic": "Ciclo lítico de un bacteriófago",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Describa las etapas del ciclo lítico de un bacteriófago [2].",
+   "c": [
+    "1) <mark class=\"clave-criterio\">Adsorción</mark> (fijación) del fago a la bacteria (0,4 p).",
+    "2) <mark class=\"clave-criterio\">Inyección del ácido nucleico</mark> vírico por la <mark class=\"clave-criterio\">vaina contráctil</mark> (0,4 p).",
+    "3) <mark class=\"clave-criterio\">Uso de la maquinaria biosintética de la bacteria</mark> para producir <mark class=\"clave-criterio\">copias del ácido nucleico y de la cápsida</mark> (0,4 p).",
+    "4) <mark class=\"clave-criterio\">Ensamblaje</mark>: cada ácido nucleico se rodea de su cápsida y se une a la cola y la placa basal (0,4 p).",
+    "5) <mark class=\"clave-criterio\">Lisis</mark> de la célula por <mark class=\"clave-criterio\">enzimas líticas</mark> y <mark class=\"clave-criterio\">salida de los nuevos fagos</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de septiembre",
+    "referencia": "Titular de septiembre, opción B, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Modelo 2 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Criterios Modelo 2 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Titular de septiembre, opción B, pregunta 3, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-septiembre-b4",
+   "block": "Célula",
+   "topic": "Transporte a través de membrana sin ATP",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "En una célula animal se inhibe la síntesis de ATP. a) ¿Podrá llevar a cabo procesos de difusión simple? [0,25]. b) ¿Y procesos de difusión facilitada? [0,25] c) ¿Y transporte activo? [0,25]. d) ¿Cómo afectaría esa inhibición al funcionamiento de la bomba Na⁺-K⁺? [0,25]. Explique de forma razonada cada respuesta.",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Sí</mark>: la difusión simple es <mark class=\"clave-criterio\">transporte pasivo</mark> y <mark class=\"clave-criterio\">no requiere energía</mark> (0,25 p).",
+    "b) <mark class=\"clave-criterio\">Sí</mark>: la difusión facilitada también es <mark class=\"clave-criterio\">transporte pasivo</mark> (0,25 p).",
+    "c) <mark class=\"clave-criterio\">No</mark>: se realiza <mark class=\"clave-criterio\">en contra de gradiente</mark>, con <mark class=\"clave-criterio\">consumo de energía</mark> (0,25 p).",
+    "d) La bomba Na⁺-K⁺ <mark class=\"clave-criterio\">no funcionaría</mark> porque <mark class=\"clave-criterio\">requiere ATP</mark> al ser <mark class=\"clave-criterio\">transporte activo</mark> (0,25 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de septiembre",
+    "referencia": "Titular de septiembre, opción B, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Modelo 2 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Criterios Modelo 2 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Titular de septiembre, opción B, pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-septiembre-b5",
+   "block": "Genética",
+   "topic": "Herencia intermedia en rábanos",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Un agricultor cruzó plantas de rábanos largos con plantas de rábanos redondos y observó que toda la descendencia estaba formada por plantas de rábanos ovales. a) Explique razonadamente qué tipo de herencia controla la forma de los rábanos [0,3]. b) Indique los genotipos que poseen los tres tipos de plantas [0,3]. c) Si el agricultor cruzara plantas de rábanos ovales con plantas de rábanos largos ¿qué porcentaje de la descendencia cabría esperar que fuera de rábanos redondos? Razone la respuesta representando el esquema del posible cruce [0,4].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Herencia intermedia</mark>, porque aparece un <mark class=\"clave-criterio\">fenotipo intermedio</mark> (oval) (0,3 p).",
+    "b) <mark class=\"clave-criterio\">RR</mark> (largos), <mark class=\"clave-criterio\">rr</mark> (redondos) y <mark class=\"clave-criterio\">Rr</mark> (ovales), o cualquier otra nomenclatura (0,3 p).",
+    "c) Rr × RR: <mark class=\"clave-criterio\">0 % redondos</mark> (0,1 p); <mark class=\"clave-criterio\">50 % largos RR y 50 % ovales Rr</mark> (0,3 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de septiembre",
+    "referencia": "Titular de septiembre, opción B, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Modelo 2 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Criterios Modelo 2 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Titular de septiembre, opción B, pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-septiembre-b6",
+   "block": "Genética",
+   "topic": "Traducción: elementos del proceso",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la figura adjunta, responda a las siguientes cuestiones:</b><br>a) ¿Qué proceso biológico representa? [0,2].<br>b) Identifique los elementos señalados con las letras A, B, C, y D [0,8].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Traducción</mark> o síntesis de proteínas (0,2 p).",
+    "b) A: <mark class=\"clave-criterio\">ARN transferente</mark> (aminoacil-ARNt); B: <mark class=\"clave-criterio\">ARN mensajero</mark>; C: <mark class=\"clave-criterio\">polipéptido</mark>; D: <mark class=\"clave-criterio\">ribosoma</mark> (subunidad grande). 0,2 p cada uno (0,8 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de septiembre",
+    "referencia": "Titular de septiembre, opción B, pregunta 6",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Modelo 2 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Criterios Modelo 2 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2017/sept-b6.webp",
+   "imgThumb": "assets/figuras/historico/2017/sept-b6.thumb.webp",
+   "imageDesc": "Una gran estructura (D) sobre una hebra 5'→3' (B) con la secuencia GGGAAAUCGGUC; moléculas en forma de trébol (A) llevan unidades aa y se acoplan a la hebra; de la estructura sale una cadena aa1-aa4 con H₂N en el extremo (C).",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Titular de septiembre, opción B, pregunta 6, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2017-septiembre-b7",
+   "block": "Genética",
+   "topic": "Enlace peptídico y ARN transferente",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la figura de la pregunta anterior, responda a las siguientes cuestiones:</b><br>a) Indique el tipo de enlace que caracteriza a la molécula C y escriba la reacción de formación de este enlace [0,5].<br>b) Indique la composición [0,25] y la función que desempeña el elemento A en este proceso [0,25].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Enlace peptídico</mark> (0,1 p). Reacción (0,4 p): <span class=\"redactado\">el grupo carboxilo de un aminoácido reacciona con el grupo amino del siguiente: R₁–COOH + H₂N–R₂ → R₁–CO–NH–R₂ + H₂O</span>.",
+    "b) Composición: <mark class=\"clave-criterio\">ribonucleótidos</mark> (bases nitrogenadas, ribosa y fosfato) (0,25 p). Función: <mark class=\"clave-criterio\">transporta de forma específica los aminoácidos</mark> en la síntesis de proteínas según su <mark class=\"clave-criterio\">anticodón</mark> (0,25 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de septiembre",
+    "referencia": "Titular de septiembre, opción B, pregunta 7",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Modelo 2 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Criterios Modelo 2 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2017/sept-b6.webp",
+   "imgThumb": "assets/figuras/historico/2017/sept-b6.thumb.webp",
+   "imageDesc": "Una gran estructura (D) sobre una hebra 5'→3' (B) con la secuencia GGGAAAUCGGUC; moléculas en forma de trébol (A) llevan unidades aa y se acoplan a la hebra; de la estructura sale una cadena aa1-aa4 con H₂N en el extremo (C).",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2016-2017 (Titular de septiembre, opción B, pregunta 7, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
    "id": "pau2026-modelo-1",
    "block": "Genética",
    "topic": "Replicación en una célula procariota",
@@ -23789,6 +26037,1642 @@ window.BIOCELIA_HISTORICO = {
     "examen_anio": 2016,
     "verificado": true
    }
+  },
+  {
+   "id": "pau2017-reserva-a-a1",
+   "block": "Metabolismo",
+   "topic": "Energía de activación y factores de la actividad enzimática",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina energía de activación de las reacciones enzimáticas [0,2]. b) Cite tres factores cuya variación pueda modificar la velocidad de las reacciones enzimáticas [0,3] y c) explique el fundamento de la acción de cada uno de ellos [1,5].",
+   "c": [
+    "a) Energía de activación: <mark class=\"clave-criterio\">energía que hay que suministrar a los reactivos</mark> para que la reacción química se produzca (0,2 p).",
+    "b) <mark class=\"clave-criterio\">Concentración de sustrato</mark>, <mark class=\"clave-criterio\">pH</mark> y <mark class=\"clave-criterio\">temperatura</mark>. 0,1 p cada uno (0,3 p).",
+    "c) Sustrato: al aumentar su concentración aumenta la velocidad por <mark class=\"clave-criterio\">ocupar más centros activos</mark>, hasta que <mark class=\"clave-criterio\">se saturan</mark> y la velocidad ya no aumenta (0,5 p).",
+    "c) pH: por encima o por debajo del <mark class=\"clave-criterio\">pH óptimo</mark> baja la velocidad porque se <mark class=\"clave-criterio\">dificulta la unión del sustrato al centro activo</mark>; con pH extremo la enzima se <mark class=\"clave-criterio\">desnaturaliza</mark> (0,5 p).",
+    "c) Temperatura: por debajo de la <mark class=\"clave-criterio\">óptima</mark> la velocidad disminuye; por encima también disminuye y, si es alta, la enzima se <mark class=\"clave-criterio\">desnaturaliza</mark> y cesa la actividad (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva A",
+    "referencia": "Reserva A, opción A, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Modelo 1 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Criterios Modelo 1 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2017-reserva-a-a2",
+   "block": "Metabolismo",
+   "topic": "Nutrición, metabolismo y tipos de organismos",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina nutrición celular y metabolismo [1]. b) Explique qué son organismos autótrofos, heterótrofos, fotótrofos y quimiótrofos [1].",
+   "c": [
+    "a) Nutrición: conjunto de procesos que permiten la <mark class=\"clave-criterio\">introducción de los nutrientes</mark> en la célula y su <mark class=\"clave-criterio\">conversión en energía y biomoléculas</mark> necesarias para las funciones vitales (0,5 p).",
+    "a) Metabolismo: <mark class=\"clave-criterio\">conjunto de reacciones químicas que tienen lugar en la célula</mark> (0,5 p).",
+    "b) Autótrofos: obtienen su materia orgánica <mark class=\"clave-criterio\">a partir del CO₂</mark>. Heterótrofos: la obtienen <mark class=\"clave-criterio\">a partir de otras moléculas orgánicas</mark>. Fotótrofos: usan la <mark class=\"clave-criterio\">energía luminosa</mark> para obtener ATP. Quimiótrofos: obtienen ATP de la <mark class=\"clave-criterio\">energía química de las moléculas que oxidan</mark>. 0,25 p cada uno (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva A",
+    "referencia": "Reserva A, opción A, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Modelo 1 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Criterios Modelo 1 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2017-reserva-a-a3",
+   "block": "Genética",
+   "topic": "Conceptos básicos de genética",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Defina: a) gen; b) genotipo; c) fenotipo; d) alelo; e) locus [2].",
+   "c": [
+    "a) Gen: <mark class=\"clave-criterio\">fragmento de ADN que determina una característica</mark> y que puede tener diferentes formas o alelos (0,4 p).",
+    "b) Genotipo: <mark class=\"clave-criterio\">conjunto de genes de un individuo</mark> (0,4 p).",
+    "c) Fenotipo: <mark class=\"clave-criterio\">manifestación del genotipo en un determinado ambiente</mark> (0,4 p).",
+    "d) Alelo: cada una de las <mark class=\"clave-criterio\">formas alternativas que puede presentar un gen</mark> (0,4 p).",
+    "e) Locus: <mark class=\"clave-criterio\">posición fija de un gen sobre un cromosoma</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva A",
+    "referencia": "Reserva A, opción A, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Modelo 1 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Criterios Modelo 1 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2017-reserva-a-b1",
+   "block": "Biomoléculas",
+   "topic": "Estructura primaria, desnaturalización y funciones de las proteínas",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina la estructura primaria de las proteínas [0,25], b) indique qué tipo de enlace la caracteriza [0,25] y c) nombre los grupos funcionales que participan en el mismo [0,25]. d) Explique qué se entiende por desnaturalización de una proteína [0,25]. e) Nombre los orgánulos que están implicados en su síntesis y maduración [0,6] y f) cite dos funciones de las proteínas [0,4].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Secuencia de aminoácidos</mark> (0,25 p). b) <mark class=\"clave-criterio\">Enlace peptídico</mark> (0,25 p). c) Grupos <mark class=\"clave-criterio\">carboxilo</mark> y <mark class=\"clave-criterio\">amino</mark> (0,25 p).",
+    "d) <mark class=\"clave-criterio\">Pérdida</mark>, reversible o no, <mark class=\"clave-criterio\">de las estructuras secundaria, terciaria y cuaternaria</mark> (0,25 p).",
+    "e) <mark class=\"clave-criterio\">Ribosomas</mark>, <mark class=\"clave-criterio\">retículo endoplasmático rugoso</mark> y <mark class=\"clave-criterio\">complejo de Golgi</mark>. 0,2 p cada uno (0,6 p).",
+    "f) <mark class=\"clave-criterio\">Catálisis</mark>, <mark class=\"clave-criterio\">transporte</mark>, <mark class=\"clave-criterio\">movimiento</mark>, <mark class=\"clave-criterio\">contracción</mark>, <mark class=\"clave-criterio\">reconocimiento celular</mark>, <mark class=\"clave-criterio\">estructural</mark>, <mark class=\"clave-criterio\">nutritiva</mark>. Dos, a 0,2 p (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva A",
+    "referencia": "Reserva A, opción B, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Modelo 1 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Criterios Modelo 1 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2017-reserva-a-b2",
+   "block": "Metabolismo",
+   "topic": "Anabolismo, catabolismo, fosforilación oxidativa y fotofosforilación",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina los conceptos de anabolismo y catabolismo [0,5]. b) Describa la fosforilación oxidativa y la fotofosforilación [1], c) e indique en qué orgánulos de la célula se realizan [0,5].",
+   "c": [
+    "a) Anabolismo: reacciones en las que la célula <mark class=\"clave-criterio\">sintetiza, con gasto de energía</mark>, las sustancias que la constituyen (0,25 p). Catabolismo: reacciones de <mark class=\"clave-criterio\">degradación de biomoléculas</mark> para obtener <mark class=\"clave-criterio\">precursores metabólicos y energía (ATP)</mark> (0,25 p).",
+    "b) Fosforilación oxidativa: <mark class=\"clave-criterio\">flujo de electrones por la cadena de transporte electrónico hasta el oxígeno</mark>, que genera un <mark class=\"clave-criterio\">gradiente de protones</mark> cuya energía se usa para <mark class=\"clave-criterio\">sintetizar ATP</mark> (0,5 p).",
+    "b) Fotofosforilación: flujo de electrones desde los <mark class=\"clave-criterio\">fotosistemas excitados por la luz</mark> hasta el <mark class=\"clave-criterio\">NADPH</mark>, con un <mark class=\"clave-criterio\">gradiente de protones</mark> que se usa para <mark class=\"clave-criterio\">sintetizar ATP</mark> (0,5 p).",
+    "c) <mark class=\"clave-criterio\">Mitocondrias</mark> (fosforilación oxidativa) y <mark class=\"clave-criterio\">cloroplastos</mark> (fotofosforilación). 0,25 p cada uno (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva A",
+    "referencia": "Reserva A, opción B, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Modelo 1 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Criterios Modelo 1 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2017-reserva-a-b3",
+   "block": "Inmunología",
+   "topic": "Memoria inmunológica",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Explique en qué consiste la memoria inmunológica [0,8]. b) ¿Cuáles son las células implicadas en ella? [0,6]. c) ¿Qué ventajas y desventajas supone para los organismos que la poseen? [0,6].",
+   "c": [
+    "a) Tras el contacto con un antígeno se producen células defensivas y anticuerpos (<mark class=\"clave-criterio\">respuesta primaria</mark>), y algunas células <mark class=\"clave-criterio\">permanecen</mark>; ante un nuevo contacto con el mismo antígeno la respuesta es <mark class=\"clave-criterio\">más rápida</mark> (<mark class=\"clave-criterio\">respuesta secundaria</mark>) (0,8 p).",
+    "b) <mark class=\"clave-criterio\">Linfocitos T</mark> y <mark class=\"clave-criterio\">linfocitos B</mark> (0,6 p).",
+    "c) Ventaja: <mark class=\"clave-criterio\">respuesta más rápida ante una nueva infección</mark>. Inconveniente: pueden producirse <mark class=\"clave-criterio\">reacciones de hipersensibilidad (alergias)</mark> (0,6 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva A",
+    "referencia": "Reserva A, opción B, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Modelo 1 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Criterios Modelo 1 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2017-reserva-a-a4+a5",
+   "block": "Microbiología",
+   "topic": "Antibióticos: penicilina y estreptomicina · Inmunidad transferida por la leche materna",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "q": "<b>I.</b> La penicilina y la estreptomicina son dos antibióticos utilizados en el tratamiento de enfermedades producidas por bacterias. La penicilina inhibe la síntesis de la pared celular bacteriana y la estreptomicina inhibe la síntesis de proteínas actuando sobre los ribosomas e impidiendo su normal funcionamiento. Explique de forma razonada por qué estos antibióticos atacan a las bacterias y, sin embargo, no atacan a las células eucarióticas [1]. <i>(1 punto)</i><br><br><b>II.</b> A diferencia de lo que ocurre en la placenta humana, la placenta de la mayoría de los animales domésticos de granja es impermeable para macromoléculas como las proteínas complejas, que no pueden pasar de la circulación materna a la fetal. a) Explique un posible mecanismo por el que las hembras de estos animales pueden transferir inmunidad a sus crías recién nacidas, que están desprotegidas y con muy poca capacidad de respuesta inmune propia [0,5]. b) Indique qué tipo de respuesta inmune está implicada [0,25] y nombre las moléculas del sistema inmunitario que transferirán inmunidad a las crías [0,25]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> Penicilina: las células eucarióticas <mark class=\"clave-criterio\">no poseen pared celular bacteriana</mark> (peptidoglucano) (0,5 p).",
+    "<b>I.</b> Estreptomicina: afecta a los <mark class=\"clave-criterio\">ribosomas 70S</mark> de las bacterias, pero <mark class=\"clave-criterio\">no a los ribosomas 80S</mark> de las células eucarióticas (0,5 p).",
+    "<b>II.</b> a) La inmunidad se transfiere tras el nacimiento, <mark class=\"clave-criterio\">durante el amamantamiento</mark>: la leche lleva los <mark class=\"clave-criterio\">anticuerpos específicos</mark> que la madre desarrolló mediante una <mark class=\"clave-criterio\">respuesta inmune activa</mark> (0,5 p).",
+    "<b>II.</b> b) Inmunidad <mark class=\"clave-criterio\">natural pasiva</mark> (0,25 p). Moléculas: <mark class=\"clave-criterio\">anticuerpos</mark> (0,25 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2017-reserva-a-a4",
+    "pau2017-reserva-a-a5"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva A",
+    "referencia": "Reserva A, opción A, pregunta 4 + Reserva A, opción A, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Modelo 1 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Criterios Modelo 1 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2017-reserva-a-a6+a7",
+   "block": "Microbiología",
+   "topic": "Estructura de la célula bacteriana · Funciones de estructuras bacterianas y bipartición",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": true,
+   "q": "<b>I.</b> <b>A la vista de la figura adjunta, conteste a las siguientes cuestiones:</b><br>a) ¿Qué tipo de célula representa el dibujo? [0,1].<br>b) Nombre las estructuras numeradas del 1 al 9 [0,9]. <i>(1 punto)</i><br><br><b>II.</b> <b>En relación con la figura de la pregunta anterior, responda a las siguientes cuestiones:</b><br>a) Cite una función de las estructuras señaladas con los números 1, 2, 3 y 4 [0,8].<br>b) ¿Cómo se reproducen estas células? [0,2]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) Una <mark class=\"clave-criterio\">célula procariótica</mark> o <mark class=\"clave-criterio\">bacteria</mark> (0,1 p).",
+    "<b>I.</b> b) 1: <mark class=\"clave-criterio\">flagelo</mark>; 2: <mark class=\"clave-criterio\">plásmido</mark>; 3: <mark class=\"clave-criterio\">ribosomas</mark>; 4: <mark class=\"clave-criterio\">pared celular</mark> (membrana externa); 5: <mark class=\"clave-criterio\">membrana plasmática</mark>; 6: <mark class=\"clave-criterio\">cápsula</mark>; 7: <mark class=\"clave-criterio\">pili</mark> (pelos o fimbrias); 8: <mark class=\"clave-criterio\">citoplasma</mark>; 9: <mark class=\"clave-criterio\">ADN circular, nucleoide</mark>. 0,1 p cada una (0,9 p).",
+    "<b>II.</b> a) 1: <mark class=\"clave-criterio\">movilidad</mark>; 2: <mark class=\"clave-criterio\">resistencia a antibióticos</mark>, características adicionales, <mark class=\"clave-criterio\">conjugación</mark>; 3: <mark class=\"clave-criterio\">síntesis de proteínas</mark>; 4: <mark class=\"clave-criterio\">mantener la forma</mark> de la bacteria, <mark class=\"clave-criterio\">proteger</mark>. Una por estructura, 0,2 p cada una (0,8 p).",
+    "<b>II.</b> b) Por <mark class=\"clave-criterio\">bipartición</mark> o <mark class=\"clave-criterio\">fisión binaria</mark> (0,2 p)."
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2017-reserva-a-a6",
+    "pau2017-reserva-a-a7"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva A",
+    "referencia": "Reserva A, opción A, pregunta 6 + Reserva A, opción A, pregunta 7",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Modelo 1 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Criterios Modelo 1 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2017/reserva-a-a6.webp",
+   "imgThumb": "assets/figuras/historico/2017/reserva-a-a6.thumb.webp",
+   "imageDesc": "Célula alargada sin núcleo con envolturas externas, un largo filamento (1), numerosos apéndices cortos (7) y estructuras internas señaladas con los números 2 a 9."
+  },
+  {
+   "id": "pau2017-reserva-a-b4+b5",
+   "block": "Biomoléculas",
+   "topic": "Digestión de almidón, glucógeno y celulosa · Retrovirus e inhibidores de la transcriptasa inversa",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "q": "<b>I.</b> Dos polisacáridos A y B, ambos homopolímeros de glucosa, son sometidos a la acción de jugos digestivos humanos. El homopolímero A se descompone en glucosa, mientras que la acción de los jugos sobre el polisacárido B no provoca que éste se descomponga en glucosa. a) Identifique qué polisacáridos pueden ser A y B [0,4] y b) justifique cuál es la causa de este comportamiento diferente [0,6]. <i>(1 punto)</i><br><br><b>II.</b> Cuando a un paciente se le detecta una enfermedad causada por un retrovirus se le trata con inhibidores específicos de la transcriptasa inversa (retrotranscriptasa) viral y, entonces, la cantidad de virus desciende bruscamente. Explique razonadamente el fundamento de este efecto [1]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) A puede ser <mark class=\"clave-criterio\">almidón o glucógeno</mark>; B tiene que ser <mark class=\"clave-criterio\">celulosa</mark> (0,4 p).",
+    "<b>I.</b> b) Los jugos digestivos humanos <mark class=\"clave-criterio\">no tienen enzimas que hidrolicen los enlaces β(1→4)</mark> de la celulosa, pero <mark class=\"clave-criterio\">sí las que hidrolizan los enlaces α(1→4) y α(1→6)</mark> del almidón o el glucógeno. 0,2 p cada tipo de enlace (0,6 p).",
+    "<b>II.</b> La <mark class=\"clave-criterio\">transcriptasa inversa</mark> es imprescindible para el ciclo del virus porque <mark class=\"clave-criterio\">sintetiza una copia de ADN a partir del ARN</mark> del genoma del retrovirus. Sin ella <mark class=\"clave-criterio\">no se pueden sintetizar nuevas copias del genoma viral ni las proteínas víricas</mark>, y el virus deja de multiplicarse (1 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2017-reserva-a-b4",
+    "pau2017-reserva-a-b5"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva A",
+    "referencia": "Reserva A, opción B, pregunta 4 + Reserva A, opción B, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Modelo 1 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Criterios Modelo 1 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2017-reserva-a-b6+b7",
+   "block": "Célula",
+   "topic": "Meiosis: metafase I · Profase I e importancia de la meiosis",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": true,
+   "q": "<b>I.</b> <b>En relación con la figura adjunta, que muestra una célula cuyo número de cromosomas es 2n=4 y las letras “A”, “a”, “B”, “b” representan alelos de los genes situados en dichos cromosomas, conteste las siguientes cuestiones:</b><br>a) ¿A qué tipo de división celular hace alusión la figura? [0,2].<br>b) ¿Qué fase de la división representa? [0,2].<br>c) Nombre los componentes celulares señalados con los números 1, 2 y 3 [0,3].<br>d) ¿En qué tipo de célula eucariótica se desarrolla este tipo de división celular? [0,1].<br>e) Al finalizar el proceso de división celular, indique el número de células resultantes y el número de cromosomas de cada una de ellas [0,2]. <i>(1 punto)</i><br><br><b>II.</b> <b>En relación con la figura de la pregunta anterior, conteste las siguientes cuestiones:</b><br>a) Nombre la fase de la división celular anterior a la representada [0,1].<br>b) Explique los principales acontecimientos que tienen lugar durante la misma [0,5].<br>c) Señale dos razones que indiquen la importancia biológica de este tipo de división celular [0,4]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) <mark class=\"clave-criterio\">Meiosis</mark> (0,2 p). b) <mark class=\"clave-criterio\">Metafase I</mark> (0,2 p).",
+    "<b>I.</b> c) 1: <mark class=\"clave-criterio\">cromosoma</mark> o cromátida; 2: <mark class=\"clave-criterio\">centrosoma</mark> o centriolo; 3: <mark class=\"clave-criterio\">fibras del huso acromático</mark> (huso meiótico). 0,1 p cada una (0,3 p).",
+    "<b>I.</b> d) En la <mark class=\"clave-criterio\">célula germinal</mark> (0,1 p).",
+    "<b>I.</b> e) <mark class=\"clave-criterio\">Cuatro células</mark> con <mark class=\"clave-criterio\">dos cromosomas</mark> cada una. 0,1 p cada dato (0,2 p).",
+    "<b>II.</b> a) <mark class=\"clave-criterio\">Profase I</mark> (0,1 p).",
+    "<b>II.</b> b) <mark class=\"clave-criterio\">Condensación del material genético</mark>, <mark class=\"clave-criterio\">apareamiento de los cromosomas homólogos formando bivalentes</mark>, <mark class=\"clave-criterio\">recombinación (quiasmas)</mark> y <mark class=\"clave-criterio\">desaparición de la envoltura nuclear</mark> (0,5 p).",
+    "<b>II.</b> c) <mark class=\"clave-criterio\">Reduce el número de cromosomas a la mitad</mark> en la formación de los gametos y <mark class=\"clave-criterio\">aumenta la variabilidad genética</mark> (0,4 p)."
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2017-reserva-a-b6",
+    "pau2017-reserva-a-b7"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva A",
+    "referencia": "Reserva A, opción B, pregunta 6 + Reserva A, opción B, pregunta 7",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Modelo 1 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_a_Criterios Modelo 1 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2017/reserva-a-b6.webp",
+   "imgThumb": "assets/figuras/historico/2017/reserva-a-b6.thumb.webp",
+   "imageDesc": "Célula en división con dos parejas de cromosomas homólogos (alelos A, a y B, b) en el centro, dos polos con pequeñas estructuras (2) y fibras que los unen (3); la flecha 1 señala un cromosoma."
+  },
+  {
+   "id": "pau2017-reserva-b-a1",
+   "block": "Biomoléculas",
+   "topic": "El agua: estructura, propiedades y capilaridad",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Describa la estructura de la molécula del agua [0,5]. b) Indique cinco propiedades físico-químicas [0,5] y cinco funciones biológicas del agua [0,5]. c) Explique de qué depende el fenómeno de la capilaridad [0,5].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Dos átomos de hidrógeno unidos a un átomo de oxígeno mediante enlaces covalentes</mark> (0,5 p).",
+    "b) Propiedades: <mark class=\"clave-criterio\">elevado punto de ebullición</mark>, <mark class=\"clave-criterio\">elevado calor específico</mark>, <mark class=\"clave-criterio\">molécula bipolar</mark>, <mark class=\"clave-criterio\">elevada fuerza de cohesión-adhesión</mark>, <mark class=\"clave-criterio\">baja densidad en estado sólido</mark>. 0,1 p cada una (0,5 p).",
+    "b) Funciones: <mark class=\"clave-criterio\">termorreguladora</mark>, <mark class=\"clave-criterio\">disolvente</mark>, <mark class=\"clave-criterio\">estructural</mark>, <mark class=\"clave-criterio\">mecánica</mark>, <mark class=\"clave-criterio\">química</mark>. 0,1 p cada una (0,5 p).",
+    "c) Depende de la <mark class=\"clave-criterio\">elevada fuerza de cohesión-adhesión</mark> entre las moléculas de agua (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva B",
+    "referencia": "Reserva B, opción A, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Modelo 4 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Criterios Modelo 4 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2017-reserva-b-a2",
+   "block": "Célula",
+   "topic": "Transporte a través de membrana, endocitosis y exocitosis",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Explique los procesos de transporte pasivo y de transporte activo de moléculas a través de las membranas celulares [1,2]. b) Defina endocitosis, pinocitosis, fagocitosis y exocitosis [0,8].",
+   "c": [
+    "a) Pasivo: <mark class=\"clave-criterio\">difusión simple</mark> (sin gasto de energía, <mark class=\"clave-criterio\">a favor de gradiente</mark>, a través de la bicapa) y <mark class=\"clave-criterio\">difusión facilitada</mark> (sin gasto de energía, a favor de gradiente, <mark class=\"clave-criterio\">mediada por proteínas</mark>). 0,3 p cada una (0,6 p).",
+    "a) Activo: <mark class=\"clave-criterio\">en contra de gradiente</mark>, intervienen <mark class=\"clave-criterio\">proteínas</mark> y <mark class=\"clave-criterio\">requiere energía</mark> (0,6 p).",
+    "b) Endocitosis: entrada de fluidos y partículas en <mark class=\"clave-criterio\">vesículas endocíticas</mark>. Pinocitosis: entrada de <mark class=\"clave-criterio\">fluidos y moléculas disueltas</mark> en vesículas pinocíticas. Fagocitosis: entrada de <mark class=\"clave-criterio\">grandes partículas</mark> formando <mark class=\"clave-criterio\">fagosomas</mark>. Exocitosis: <mark class=\"clave-criterio\">salida de moléculas en vesículas que se unen a la membrana plasmática</mark>. 0,2 p cada una (0,8 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva B",
+    "referencia": "Reserva B, opción A, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Modelo 4 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Criterios Modelo 4 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2017-reserva-b-a3",
+   "block": "Genética",
+   "topic": "Cruzamiento prueba y herencia intermedia",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina qué es un cruzamiento prueba [0,5] y realice un esquema del mismo utilizando símbolos genéticos [0,5]. b) Defina herencia intermedia [0,5] y realice un esquema de la misma usando símbolos genéticos [0,5].",
+   "c": [
+    "a) Cruzamiento entre un <mark class=\"clave-criterio\">individuo de fenotipo dominante</mark> y un <mark class=\"clave-criterio\">homocigótico recesivo</mark> para <mark class=\"clave-criterio\">averiguar el genotipo del primero</mark> (0,5 p).",
+    "a) Esquema (0,5 p): <span class=\"redactado\">A_ × aa → si todos son A_, el problema era AA; si sale ½ Aa y ½ aa, era Aa</span>.",
+    "b) Los dos alelos <mark class=\"clave-criterio\">se expresan con la misma intensidad</mark> y los híbridos muestran un <mark class=\"clave-criterio\">fenotipo intermedio</mark> diferente al de ambos homocigóticos (0,5 p).",
+    "b) Esquema (0,5 p): <span class=\"redactado\">RR rojo × BB blanco → F1 RB rosa; F1 × F1 → 1 RR : 2 RB : 1 BB</span>."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva B",
+    "referencia": "Reserva B, opción A, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Modelo 4 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Criterios Modelo 4 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2017-reserva-b-b1",
+   "block": "Metabolismo",
+   "topic": "Factores de la actividad enzimática e inhibición",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Explique razonadamente cómo afectan la temperatura, el pH y la concentración del sustrato a la actividad de las enzimas [1,5]. b) Describa dos tipos de inhibición enzimática [0,5].",
+   "c": [
+    "a) Temperatura: hay una <mark class=\"clave-criterio\">temperatura óptima</mark>; por debajo la actividad disminuye y por encima se produce <mark class=\"clave-criterio\">desnaturalización</mark> (0,5 p).",
+    "a) pH: cada enzima tiene un <mark class=\"clave-criterio\">pH óptimo</mark>; por encima y por debajo la actividad se reduce por <mark class=\"clave-criterio\">desnaturalización</mark> (0,5 p).",
+    "a) Sustrato: al aumentar su concentración aumenta la velocidad hasta que se mantiene constante por <mark class=\"clave-criterio\">saturación de la enzima</mark> (0,5 p).",
+    "b) <mark class=\"clave-criterio\">Irreversible</mark>: el inhibidor forma <mark class=\"clave-criterio\">enlaces covalentes</mark> con la enzima y anula su actividad <mark class=\"clave-criterio\">de forma definitiva</mark> (0,25 p). <mark class=\"clave-criterio\">Reversible</mark>: el inhibidor <mark class=\"clave-criterio\">se puede disociar</mark> y la enzima recupera su actividad; vale también explicar la <mark class=\"clave-criterio\">competitiva</mark> y la <mark class=\"clave-criterio\">no competitiva</mark> (0,25 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva B",
+    "referencia": "Reserva B, opción B, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Modelo 4 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Criterios Modelo 4 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2017-reserva-b-b2",
+   "block": "Célula",
+   "topic": "Estructuras celulares y sus funciones",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Defina e indique una función de las siguientes estructuras celulares: a) membrana plasmática, b) mitocondria, c) retículo endoplasmático rugoso, d) complejo de Golgi, e) cloroplasto [2].",
+   "c": [
+    "a) Membrana plasmática: <mark class=\"clave-criterio\">bicapa lipídica con proteínas y glúcidos</mark> que <mark class=\"clave-criterio\">delimita la célula</mark>; función: <mark class=\"clave-criterio\">relación</mark>, <mark class=\"clave-criterio\">transporte de sustancias</mark> (0,4 p).",
+    "b) Mitocondria: orgánulo con <mark class=\"clave-criterio\">dos membranas</mark> donde se <mark class=\"clave-criterio\">sintetiza ATP a partir del catabolismo</mark> de compuestos orgánicos; función: <mark class=\"clave-criterio\">respiración</mark>, <mark class=\"clave-criterio\">β-oxidación</mark> (0,4 p).",
+    "c) RER: <mark class=\"clave-criterio\">sistema de cisternas y túbulos membranosos</mark> (con ribosomas); función: <mark class=\"clave-criterio\">síntesis de proteínas</mark>, glucosilación (0,4 p).",
+    "d) Complejo de Golgi: <mark class=\"clave-criterio\">sáculos membranosos aplanados y apilados</mark>; función: <mark class=\"clave-criterio\">maduración, clasificación y distribución de proteínas</mark>, secreción de polisacáridos (0,4 p).",
+    "e) Cloroplasto: orgánulo con <mark class=\"clave-criterio\">dos membranas</mark> que <mark class=\"clave-criterio\">sintetiza ATP a partir de la energía de la luz</mark>; función: <mark class=\"clave-criterio\">fotosíntesis</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva B",
+    "referencia": "Reserva B, opción B, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Modelo 4 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Criterios Modelo 4 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2017-reserva-b-b3",
+   "block": "Inmunología",
+   "topic": "Conceptos de inmunidad",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Defina los siguientes términos referidos a la inmunidad: a) linfocito, b) macrófago, c) antígeno, d) anticuerpo, e) interferón [2].",
+   "c": [
+    "a) Linfocito: célula del sistema inmunitario que <mark class=\"clave-criterio\">reconoce y puede destruir antígenos</mark> (0,4 p).",
+    "b) Macrófago: <mark class=\"clave-criterio\">célula fagocítica</mark> o <mark class=\"clave-criterio\">presentadora de antígenos</mark> (0,4 p).",
+    "c) Antígeno: <mark class=\"clave-criterio\">molécula no reconocida como propia</mark> que <mark class=\"clave-criterio\">provoca la aparición de anticuerpos</mark> específicos (0,4 p).",
+    "d) Anticuerpo: <mark class=\"clave-criterio\">proteína producida por los linfocitos B</mark> (células plasmáticas) en respuesta a un antígeno, con el que <mark class=\"clave-criterio\">se une específicamente</mark> (0,4 p).",
+    "e) Interferón: <mark class=\"clave-criterio\">proteína</mark> que produce el sistema inmunitario <mark class=\"clave-criterio\">en respuesta a virus</mark>, bacterias, parásitos o células cancerosas y que <mark class=\"clave-criterio\">actúa sobre las células vecinas</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva B",
+    "referencia": "Reserva B, opción B, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Modelo 4 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Criterios Modelo 4 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2017-reserva-b-a4+a5",
+   "block": "Genética",
+   "topic": "Mismo genoma, distinta expresión génica · La salazón como método de conservación",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "q": "<b>I.</b> Si comparamos una célula hepática con una célula renal del mismo individuo: a) ¿contendrá su ADN la misma información genética? [0,5]; b) y las proteínas de ambas células, ¿serán las mismas? [0,5]. Razone las respuestas. <i>(1 punto)</i><br><br><b>II.</b> La salazón es una técnica de conservación de alimentos muy utilizada desde antiguo, consistente en añadir una considerable cantidad de sal al alimento para preservarlo del ataque de microorganismos que puedan alterarlo. Explique de forma razonada la base de esta técnica [1]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) Sí: <mark class=\"clave-criterio\">todas las células somáticas de un individuo contienen el mismo genoma</mark> (0,5 p).",
+    "<b>I.</b> b) No: las células <mark class=\"clave-criterio\">se especializan expresando proteínas diferentes</mark> por una <mark class=\"clave-criterio\">expresión diferencial del genoma</mark> (0,5 p).",
+    "<b>II.</b> La mayoría de los microorganismos no pueden vivir con esa salinidad porque sufrirían un <mark class=\"clave-criterio\">proceso osmótico de deshidratación</mark> <span class=\"redactado\">el medio es hipertónico</span>. También se admite que la <mark class=\"clave-criterio\">falta de agua</mark> evita las reacciones que deterioran el alimento (1 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2017-reserva-b-a4",
+    "pau2017-reserva-b-a5"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva B",
+    "referencia": "Reserva B, opción A, pregunta 4 + Reserva B, opción A, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Modelo 4 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Criterios Modelo 4 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2017-reserva-b-a6+a7",
+   "block": "Inmunología",
+   "topic": "Opsonización y fagocitosis · Estructura de los anticuerpos y fagocitosis",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": true,
+   "q": "<b>I.</b> <b>En relación a las imágenes adjuntas, conteste las siguientes cuestiones:</b><br>a) Identifique las células o moléculas indicadas como A, B y C en la figura 1 [0,3].<br>b) ¿Qué células producen la molécula señalada como B? [0,2].<br>c) Nombre el proceso que transcurre en la figura 2 [0,25].<br>d) Cite otro proceso en el que interviene la célula A [0,25]. <i>(1 punto)</i><br><br><b>II.</b> <b>En relación con las imágenes de la pregunta anterior, conteste las siguientes cuestiones:</b><br>a) Indique la composición química, estructura y funciones que desempeñan las distintas partes de la molécula B [0,6].<br>b) Explique el mecanismo que ocurre desde que la partícula recubierta por B es reconocida hasta que es incorporada totalmente por la célula A [0,4]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) A: <mark class=\"clave-criterio\">macrófago</mark> y/o neutrófilo; B: <mark class=\"clave-criterio\">anticuerpo</mark> o IgG; C: <mark class=\"clave-criterio\">receptor de anticuerpo</mark> (receptor de IgG) (0,3 p).",
+    "<b>I.</b> b) <mark class=\"clave-criterio\">Linfocitos B</mark> o <mark class=\"clave-criterio\">células plasmáticas</mark> (0,2 p).",
+    "<b>I.</b> c) <mark class=\"clave-criterio\">Fagocitosis</mark> (0,25 p).",
+    "<b>I.</b> d) <mark class=\"clave-criterio\">Presentación de antígenos</mark> (0,25 p).",
+    "<b>II.</b> a) <mark class=\"clave-criterio\">Glucoproteína</mark> con <mark class=\"clave-criterio\">forma de Y</mark>: <mark class=\"clave-criterio\">dos cadenas pesadas y dos ligeras</mark>, con una <mark class=\"clave-criterio\">región constante</mark> y <mark class=\"clave-criterio\">dos variables iguales</mark>. Las <mark class=\"clave-criterio\">regiones variables se unen específicamente al antígeno</mark>; la <mark class=\"clave-criterio\">región constante es reconocida por los macrófagos</mark> o el complemento (0,6 p).",
+    "<b>II.</b> b) El macrófago <mark class=\"clave-criterio\">reconoce la partícula rodeada de anticuerpos</mark>; la membrana <mark class=\"clave-criterio\">se invagina</mark> arrastrando la partícula y se cierra formando un <mark class=\"clave-criterio\">fagosoma</mark>, donde luego será <mark class=\"clave-criterio\">digerida</mark> (0,4 p)."
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2017-reserva-b-a6",
+    "pau2017-reserva-b-a7"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva B",
+    "referencia": "Reserva B, opción A, pregunta 6 + Reserva B, opción A, pregunta 7",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Modelo 4 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Criterios Modelo 4 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2017/reserva-b-a6.webp",
+   "imgThumb": "assets/figuras/historico/2017/reserva-b-a6.thumb.webp",
+   "imageDesc": "Figura 1: una célula grande (A) con receptores en su superficie (C) y una partícula alargada recubierta de moléculas en forma de Y (B). Figura 2: la célula rodea la partícula con prolongaciones de su membrana."
+  },
+  {
+   "id": "pau2017-reserva-b-b4+b5",
+   "block": "Célula",
+   "topic": "Células animales y vegetales en medio hipotónico · Diversidad de proteínas y universalidad del código",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "q": "<b>I.</b> En un experimento de laboratorio realizado con células animales en medios hipotónicos se observa lisis celular. Al repetir el experimento con células vegetales se observa que en este caso las células no se lisan. Exponga una explicación razonada para cada caso [1]. <i>(1 punto)</i><br><br><b>II.</b> a) ¿Cómo se puede explicar que una célula típica de nuestro cuerpo posea alrededor de 10.000 tipos diferentes de proteínas, si el número de aminoácidos distintos es solamente 20? [0,5]. b) ¿Cómo es posible que insertando el gen que codifica la insulina del ratón en un cromosoma bacteriano, la bacteria sintetice la insulina de ratón? [0,5]. Razone las respuestas. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> Células animales: se <mark class=\"clave-criterio\">lisan</mark> porque <mark class=\"clave-criterio\">entra agua por ósmosis</mark> y no alcanzan el equilibrio osmótico (0,5 p).",
+    "<b>I.</b> Células vegetales: la <mark class=\"clave-criterio\">pared celular evita que la célula se lise</mark> (0,5 p).",
+    "<b>II.</b> a) Con los 20 aminoácidos se pueden formar <mark class=\"clave-criterio\">múltiples combinaciones</mark> (secuencias distintas en orden y longitud) (0,5 p).",
+    "<b>II.</b> b) Por la <mark class=\"clave-criterio\">universalidad del código genético</mark>: el gen se <mark class=\"clave-criterio\">transcribe</mark> y se <mark class=\"clave-criterio\">traduce en los ribosomas bacterianos</mark> (0,5 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2017-reserva-b-b4",
+    "pau2017-reserva-b-b5"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva B",
+    "referencia": "Reserva B, opción B, pregunta 4 + Reserva B, opción B, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Modelo 4 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Criterios Modelo 4 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2017-reserva-b-b6+b7",
+   "block": "Metabolismo",
+   "topic": "Glucólisis · Destino del ATP y del NADH en aerobiosis y anaerobiosis",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": true,
+   "q": "<b>I.</b> <b>En relación con la imagen adjunta, que representa un proceso metabólico de la glucosa, conteste las siguientes cuestiones:</b><br>a) Identifique el proceso [0,2].<br>b) Indique en qué tipo de células tiene lugar este proceso [0,2] y dónde se realiza [0,1].<br>c) ¿Cuál es el rendimiento energético en forma de ATP del proceso representado? [0,25]<br>d) Cite dos vías metabólicas posibles que puede seguir el piruvato [0,25]. <i>(1 punto)</i><br><br><b>II.</b> <b>En relación con la imagen de la pregunta anterior, conteste las siguientes cuestiones:</b><br>a) ¿Mediante qué tipo de fosforilación se produce el ATP en anaerobiosis? [0,25] y ¿cuál será el destino del NADH+H⁺? [0,25].<br>b) Si el proceso se realiza en aerobiosis, ¿mediante qué tipo de fosforilación se produce el ATP? [0,25] y ¿cuál será el destino del NADH+H⁺? [0,25]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) <mark class=\"clave-criterio\">Glucólisis</mark> (0,2 p).",
+    "<b>I.</b> b) En <mark class=\"clave-criterio\">eucariotas y procariotas</mark> (0,2 p), en el <mark class=\"clave-criterio\">citoplasma</mark> (citosol) (0,1 p).",
+    "<b>I.</b> c) <mark class=\"clave-criterio\">2 ATP</mark> netos <span class=\"redactado\">se forman 4 y se gastan 2</span> (0,2 p).",
+    "<b>I.</b> d) <mark class=\"clave-criterio\">Ciclo de Krebs</mark> (respiración celular), <mark class=\"clave-criterio\">fermentación láctica o alcohólica</mark>, <mark class=\"clave-criterio\">descarboxilación oxidativa</mark>. Dos (0,3 p).",
+    "<b>II.</b> a) Anaerobiosis: <mark class=\"clave-criterio\">fosforilación a nivel de sustrato</mark> (0,25 p); el NADH+H⁺ se usa para <mark class=\"clave-criterio\">reducir el pirúvico y regenerar el NAD⁺</mark> (fermentación) (0,25 p).",
+    "<b>II.</b> b) Aerobiosis: el ATP se forma principalmente por <mark class=\"clave-criterio\">fosforilación oxidativa</mark> (0,25 p); el NADH+H⁺ <mark class=\"clave-criterio\">cede sus electrones y protones a la cadena respiratoria</mark> (0,25 p)."
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2017-reserva-b-b6",
+    "pau2017-reserva-b-b7"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Reserva B",
+    "referencia": "Reserva B, opción B, pregunta 6 + Reserva B, opción B, pregunta 7",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Modelo 4 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/reserva_b_Criterios Modelo 4 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2017/reserva-b-b6.webp",
+   "imgThumb": "assets/figuras/historico/2017/reserva-b-b6.thumb.webp",
+   "imageDesc": "Ruta lineal de glucosa a 2 piruvato: se consumen 2 ATP (salen 2 ADP), se reducen 2 NAD⁺ a 2 NADH+2H⁺ con entrada de 2 Pi, y se forman 4 ATP a partir de 4 ADP con salida de 2 H₂O."
+  },
+  {
+   "id": "pau2017-suplente-junio-a1",
+   "block": "Biomoléculas",
+   "topic": "Lípidos y carácter anfipático de los ácidos grasos",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Indique qué son los lípidos [0,4]. b) Nombre dos ejemplos de lípidos y cite una función que desempeñen en los seres vivos cada uno de ellos [1]. c) Explique el carácter anfipático de los ácidos grasos [0,6].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Biomoléculas heterogéneas insolubles en agua y solubles en disolventes orgánicos</mark> (no polares) (0,4 p).",
+    "b) <mark class=\"clave-criterio\">Acilglicéridos</mark>: reserva energética; <mark class=\"clave-criterio\">fosfolípidos</mark>: estructural; <mark class=\"clave-criterio\">ceras</mark>: protectora; <mark class=\"clave-criterio\">esteroides</mark>: hormonal. Dos, a 0,5 p (1 p).",
+    "c) Tienen una <mark class=\"clave-criterio\">zona hidrófila polar</mark> (el <mark class=\"clave-criterio\">grupo carboxilo</mark>, –COOH) y una <mark class=\"clave-criterio\">zona hidrófoba apolar</mark> (la <mark class=\"clave-criterio\">cadena hidrocarbonada</mark>) (0,6 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de junio",
+    "referencia": "Suplente de junio, opción A, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Modelo 5 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Criterios Modelo 5 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2017-suplente-junio-a2",
+   "block": "Célula",
+   "topic": "Células animales y vegetales; pared celular",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Describa cuatro diferencias entre las células animales y vegetales [1]. b) Indique el principal componente de la pared celular [0,1]. c) Indique la estructura de la pared celular [0,3] y cite dos funciones de la misma [0,6].",
+   "c": [
+    "a) Las vegetales tienen <mark class=\"clave-criterio\">pared celular</mark>, <mark class=\"clave-criterio\">forma estable</mark>, <mark class=\"clave-criterio\">cloroplastos</mark> y <mark class=\"clave-criterio\">grandes vacuolas</mark> <span class=\"redactado\">y las animales, centriolos</span>. Cuatro, a 0,25 p (1 p).",
+    "b) <mark class=\"clave-criterio\">Celulosa</mark> (0,1 p).",
+    "c) <mark class=\"clave-criterio\">Pared primaria</mark>, <mark class=\"clave-criterio\">pared secundaria</mark> y <mark class=\"clave-criterio\">lámina media</mark> (0,3 p). Funciones: <mark class=\"clave-criterio\">estructural</mark>, <mark class=\"clave-criterio\">mantenimiento de la turgencia</mark>, <mark class=\"clave-criterio\">capacidad osmótica</mark>. Dos, a 0,3 p (0,6 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de junio",
+    "referencia": "Suplente de junio, opción A, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Modelo 5 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Criterios Modelo 5 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2017-suplente-junio-a3",
+   "block": "Genética",
+   "topic": "Transcripción y traducción",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Defina los conceptos de transcripción [0,5] y de traducción [0,5]. Describa el proceso de transcripción [1].",
+   "c": [
+    "Transcripción: <mark class=\"clave-criterio\">síntesis de ARN con la secuencia complementaria de una cadena de ADN que actúa como molde</mark> (0,5 p).",
+    "Traducción: <mark class=\"clave-criterio\">síntesis de un polipéptido</mark> con la información de la <mark class=\"clave-criterio\">secuencia de bases del ARNm</mark> (0,5 p).",
+    "Proceso: la <mark class=\"clave-criterio\">ARN polimerasa</mark> reconoce el <mark class=\"clave-criterio\">promotor</mark> (señal de inicio), copia <mark class=\"clave-criterio\">una sola cadena</mark> del ADN (la <mark class=\"clave-criterio\">cadena molde</mark>, distinta de la <mark class=\"clave-criterio\">codificante</mark>) en sentido <mark class=\"clave-criterio\">5'→3'</mark> y se detiene en la <mark class=\"clave-criterio\">señal de terminación</mark> (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de junio",
+    "referencia": "Suplente de junio, opción A, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Modelo 5 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Criterios Modelo 5 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2017-suplente-junio-b1",
+   "block": "Biomoléculas",
+   "topic": "Tipos de ARN: estructura y función",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Indique la composición y estructura de los distintos tipos de ARN [1]. b) Explique la función biológica de cada uno de ellos [1].",
+   "c": [
+    "a) Todos formados por <mark class=\"clave-criterio\">ribonucleótidos</mark> (A, G, C, U). ARNm: <mark class=\"clave-criterio\">monocatenario</mark> (0,2 p). ARNt: monocatenario con <mark class=\"clave-criterio\">regiones de doble hélice</mark> por apareamiento interno (0,4 p). ARNr: monocatenario con regiones de doble hélice, <mark class=\"clave-criterio\">asociado a proteínas</mark> (0,4 p).",
+    "b) ARNm: <mark class=\"clave-criterio\">transferencia de la información</mark> (0,3 p). ARNt: <mark class=\"clave-criterio\">transporte de aminoácidos</mark> en la síntesis de proteínas (0,4 p). ARNr: <mark class=\"clave-criterio\">soporte de la síntesis de proteínas</mark> <span class=\"redactado\">forma los ribosomas</span> (0,3 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de junio",
+    "referencia": "Suplente de junio, opción B, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Modelo 5 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Criterios Modelo 5 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2017-suplente-junio-b2",
+   "block": "Metabolismo",
+   "topic": "Fase luminosa de la fotosíntesis",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Describa la fase luminosa de la fotosíntesis [2].",
+   "c": [
+    "<mark class=\"clave-criterio\">Captación de luz por los fotosistemas</mark> y <mark class=\"clave-criterio\">fotólisis del agua</mark> <span class=\"redactado\">que libera O₂</span> (0,5 p).",
+    "<mark class=\"clave-criterio\">Transporte electrónico</mark> <span class=\"redactado\">por la cadena de la membrana tilacoidal</span> (0,5 p).",
+    "<mark class=\"clave-criterio\">Síntesis de ATP</mark> <span class=\"redactado\">fotofosforilación por la ATP sintasa</span> (0,5 p).",
+    "<mark class=\"clave-criterio\">Síntesis de NADPH</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de junio",
+    "referencia": "Suplente de junio, opción B, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Modelo 5 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Criterios Modelo 5 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2017-suplente-junio-b3",
+   "block": "Inmunología",
+   "topic": "Vacunación y sueroterapia",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Indique dos diferencias entre vacunación y sueroterapia [0,6] y b) explique en qué consiste cada procedimiento citando las moléculas y células implicadas [1]. c) ¿Con qué tipos de inmunidad están relacionados estos procesos? [0,4].",
+   "c": [
+    "a) Carácter <mark class=\"clave-criterio\">preventivo</mark> (vacuna) o <mark class=\"clave-criterio\">curativo</mark> (suero); <mark class=\"clave-criterio\">formación o no de células de memoria</mark>. Dos, a 0,3 p (0,6 p).",
+    "b) Vacunación: <mark class=\"clave-criterio\">inoculación de antígenos atenuados</mark> que activan los <mark class=\"clave-criterio\">linfocitos B</mark> y generan <mark class=\"clave-criterio\">células de memoria</mark>. Sueroterapia: <mark class=\"clave-criterio\">transferencia de anticuerpos de origen externo</mark>. 0,5 p cada una (1 p).",
+    "c) Vacunación: <mark class=\"clave-criterio\">inmunidad activa</mark>; sueroterapia: <mark class=\"clave-criterio\">inmunidad pasiva</mark> (ambas <mark class=\"clave-criterio\">artificiales</mark>) (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de junio",
+    "referencia": "Suplente de junio, opción B, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Modelo 5 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Criterios Modelo 5 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2017-suplente-junio-a4+a5",
+   "block": "Célula",
+   "topic": "Orgánulos predominantes según la función celular · Identificar un virus por la composición de su ácido nucleico",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "q": "<b>I.</b> Exponga razonadamente una argumentación sobre las siguientes afirmaciones: a) Los orgánulos predominantes de los espermatozoides son las mitocondrias [0,25]. b) Las estructuras predominantes de las células de la tráquea son los cilios [0,25]. c) Los orgánulos predominantes de los glóbulos blancos son los lisosomas [0,25]. d) Los orgánulos predominantes de las células del páncreas son los ribosomas [0,25]. <i>(1 punto)</i><br><br><b>II.</b> Tras analizar un virus en el laboratorio, se comprueba que su ácido nucleico presenta estas proporciones de bases nitrogenadas: adenina 20%, timina 0%, uracilo 24%, guanina 30%, citosina 26%. Además se identifica la presencia de fosfolípidos y proteínas. Describa de un modo razonado el tipo de virus que es atendiendo a los resultados obtenidos [1]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) Los espermatozoides necesitan <mark class=\"clave-criterio\">mucha energía para su locomoción</mark>, que se produce en las <mark class=\"clave-criterio\">mitocondrias</mark> (0,25 p).",
+    "<b>I.</b> b) Los cilios <mark class=\"clave-criterio\">mueven la mucosidad que retiene las partículas de polvo</mark> del aire (0,25 p).",
+    "<b>I.</b> c) Los glóbulos blancos <mark class=\"clave-criterio\">digieren las sustancias extrañas con las enzimas de los lisosomas</mark> (0,25 p).",
+    "<b>I.</b> d) El páncreas produce <mark class=\"clave-criterio\">insulina y enzimas digestivas</mark>, que son <mark class=\"clave-criterio\">proteínas</mark> fabricadas en los <mark class=\"clave-criterio\">ribosomas</mark> (0,25 p).",
+    "<b>II.</b> Es un <mark class=\"clave-criterio\">virus de ARN</mark> porque <mark class=\"clave-criterio\">no tiene timina</mark> y <mark class=\"clave-criterio\">tiene uracilo</mark> (0,4 p).",
+    "<b>II.</b> Es <mark class=\"clave-criterio\">de una sola cadena</mark> porque los porcentajes <mark class=\"clave-criterio\">A-U y C-G no son complementarios</mark> <span class=\"redactado\">A 20 % ≠ U 24 %; G 30 % ≠ C 26 %</span> (0,4 p).",
+    "<b>II.</b> Es un <mark class=\"clave-criterio\">virus con envoltura</mark> por la <mark class=\"clave-criterio\">presencia de fosfolípidos</mark> (0,2 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2017-suplente-junio-a4",
+    "pau2017-suplente-junio-a5"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de junio",
+    "referencia": "Suplente de junio, opción A, pregunta 4 + Suplente de junio, opción A, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Modelo 5 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Criterios Modelo 5 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2017-suplente-junio-a6+a7",
+   "block": "Biomoléculas",
+   "topic": "Tipos de ácidos nucleicos · Localización y estructura secundaria del ADN",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": true,
+   "q": "<b>I.</b> <b>En relación con la figura adjunta, conteste las siguientes cuestiones:</b><br>a) Indique los nombres de las tres moléculas representadas con los números I, II y III [0,3].<br>b) Indique el nombre de los monómeros que constituyen estas moléculas [0,15] y el nombre del enlace por el que se unen [0,15].<br>c) Escriba los nombres de los componentes numerados del 1 al 4 en la molécula II [0,4]. <i>(1 punto)</i><br><br><b>II.</b> <b>En relación con la figura de la pregunta anterior, conteste a las siguientes cuestiones:</b><br>a) Indique en qué compartimentos de la célula procariótica y de la célula eucariótica se localiza la molécula representada por el número II [0,4].<br>b) Además de la estructural, cite otra posible función de los monómeros que forman los compuestos representados en la figura [0,2].<br>c) Describa, brevemente, la estructura secundaria de la molécula II [0,4]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) I: <mark class=\"clave-criterio\">ARN</mark>; II: <mark class=\"clave-criterio\">ADN</mark>; III: <mark class=\"clave-criterio\">ARN transferente</mark>. 0,1 p cada una (0,3 p).",
+    "<b>I.</b> b) <mark class=\"clave-criterio\">Nucleótidos</mark> (ribonucleótidos en I y III; desoxirribonucleótidos en II) (0,15 p). Enlace <mark class=\"clave-criterio\">fosfodiéster</mark> (0,15 p).",
+    "<b>I.</b> c) 1: <mark class=\"clave-criterio\">desoxirribosa</mark>; 2: <mark class=\"clave-criterio\">fosfato</mark>; 3: <mark class=\"clave-criterio\">timina</mark>; 4: <mark class=\"clave-criterio\">guanina</mark>. 0,1 p cada uno (0,4 p).",
+    "<b>II.</b> a) Procariótica: <mark class=\"clave-criterio\">citosol</mark> o citoplasma (0,1 p). Eucariótica: <mark class=\"clave-criterio\">núcleo</mark>, <mark class=\"clave-criterio\">mitocondrias</mark> y <mark class=\"clave-criterio\">cloroplastos</mark>, 0,1 p cada uno (0,3 p).",
+    "<b>II.</b> b) <mark class=\"clave-criterio\">Transferencia de energía</mark>, <mark class=\"clave-criterio\">regulador de la actividad enzimática</mark>, <mark class=\"clave-criterio\">segundo mensajero</mark>. Una (0,2 p).",
+    "<b>II.</b> c) <mark class=\"clave-criterio\">Bicatenario</mark>, con <mark class=\"clave-criterio\">cadenas antiparalelas y complementarias</mark> unidas por <mark class=\"clave-criterio\">puentes de hidrógeno</mark> entre las bases, formando una <mark class=\"clave-criterio\">hélice dextrógira</mark> con un <mark class=\"clave-criterio\">giro cada 10 nucleótidos</mark> (0,4 p)."
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2017-suplente-junio-a6",
+    "pau2017-suplente-junio-a7"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de junio",
+    "referencia": "Suplente de junio, opción A, pregunta 6 + Suplente de junio, opción A, pregunta 7",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Modelo 5 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Criterios Modelo 5 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2017/suplente-junio-a6.webp",
+   "imgThumb": "assets/figuras/historico/2017/suplente-junio-a6.thumb.webp",
+   "imageDesc": "I: secuencia 5'-AUUAGGGUAAUUAGGGC-3'. II: esquema de dos cadenas de cuadrados y círculos alternos unidas por piezas complementarias (C, A), con los números 1 a 4. III: molécula plegada en forma de trébol."
+  },
+  {
+   "id": "pau2017-suplente-junio-b4+b5",
+   "block": "Célula",
+   "topic": "Glóbulos rojos en medios hipertónico e hipotónico · Replicación semiconservativa con BrdU",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "q": "<b>I.</b> El contenido salino interno de los glóbulos rojos presentes en la sangre es del 0,9%. a) ¿Qué les pasaría en un medio de cultivo con una concentración salina del 3%? [0,5]. b) ¿Y si la concentración del medio fuese del 0,04%? [0,5]. Razone las respuestas. <i>(1 punto)</i><br><br><b>II.</b> La BrdU es una molécula similar a la timina y una célula la puede incorporar para la replicación del ADN en vez de este nucleótido. La BrdU se puede detectar fácilmente, por lo que se utiliza para estudiar las células que están en división. Si se añade BrdU a unas células en división, se observa que tras la mitosis todas las células hijas resultantes tienen BrdU. Justifique este resultado [1]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) Al 3 % el medio es <mark class=\"clave-criterio\">hipertónico</mark>: por <mark class=\"clave-criterio\">ósmosis sale agua</mark> y la célula se deshidrata (<mark class=\"clave-criterio\">plasmólisis</mark>, <span class=\"redactado\">en glóbulos rojos se suele llamar crenación</span>) (0,5 p).",
+    "<b>I.</b> b) Al 0,04 % el medio es <mark class=\"clave-criterio\">hipotónico</mark>: por <mark class=\"clave-criterio\">ósmosis entra agua</mark> y se produce la <mark class=\"clave-criterio\">lisis</mark> (0,5 p).",
+    "<b>II.</b> Cada célula hija tiene ADN con <mark class=\"clave-criterio\">una hebra sin BrdU (la original)</mark> y <mark class=\"clave-criterio\">una hebra marcada con BrdU (la nueva)</mark>, porque la <mark class=\"clave-criterio\">replicación del ADN es semiconservativa</mark> (1 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2017-suplente-junio-b4",
+    "pau2017-suplente-junio-b5"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de junio",
+    "referencia": "Suplente de junio, opción B, pregunta 4 + Suplente de junio, opción B, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Modelo 5 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Criterios Modelo 5 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2017-suplente-junio-b6+b7",
+   "block": "Metabolismo",
+   "topic": "Glucólisis y ciclo de Krebs · Respiración aerobia frente a fermentación",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": true,
+   "q": "<b>I.</b> <b>En relación con el esquema adjunto conteste a las siguientes cuestiones:</b><br>a) Identifique las rutas metabólicas señaladas con los números I y II [0,4].<br>b) ¿En qué lugar de la célula eucariótica ocurre cada una de ellas? [0,4].<br>c) A partir de la ruta II, ¿con qué procesos se completa la obtención de energía contenida en la glucosa? [0,2]. <i>(1 punto)</i><br><br><b>II.</b> <b>En relación con el esquema de la pregunta anterior, conteste a las siguientes cuestiones:</b><br>a) ¿Qué tipos de organismos llevan a cabo estos procesos de obtención de energía? [0,3].<br>b) ¿En qué condiciones no se llevaría a cabo la ruta nº II? ¿Qué ruta alternativa podría seguir el ácido pirúvico? [0,4].<br>c) Indique el rendimiento energético de la degradación de la glucosa en condiciones aeróbicas y anaeróbicas [0,3]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) I: <mark class=\"clave-criterio\">glucólisis</mark>; II: <mark class=\"clave-criterio\">ciclo de Krebs</mark>. 0,2 p cada una (0,4 p).",
+    "<b>I.</b> b) Glucólisis en el <mark class=\"clave-criterio\">citosol</mark>; ciclo de Krebs en la <mark class=\"clave-criterio\">matriz mitocondrial</mark>. 0,2 p cada una (0,4 p).",
+    "<b>I.</b> c) Con la <mark class=\"clave-criterio\">cadena respiratoria</mark> y la <mark class=\"clave-criterio\">fosforilación oxidativa</mark> (0,2 p).",
+    "<b>II.</b> a) <mark class=\"clave-criterio\">Todos los organismos con células aeróbicas</mark>, procarióticas y eucarióticas (0,3 p).",
+    "<b>II.</b> b) En <mark class=\"clave-criterio\">condiciones anaeróbicas</mark> (0,2 p); el pirúvico seguiría las <mark class=\"clave-criterio\">fermentaciones</mark> (0,2 p).",
+    "<b>II.</b> c) Aerobiosis: <mark class=\"clave-criterio\">36-38 ATP por glucosa</mark>; anaerobiosis: <mark class=\"clave-criterio\">2 ATP por glucosa</mark>. 0,15 p cada uno (0,3 p)."
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2017-suplente-junio-b6",
+    "pau2017-suplente-junio-b7"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de junio",
+    "referencia": "Suplente de junio, opción B, pregunta 6 + Suplente de junio, opción B, pregunta 7",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Modelo 5 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_junio_Criterios Modelo 5 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2017/suplente-junio-b6.webp",
+   "imgThumb": "assets/figuras/historico/2017/suplente-junio-b6.thumb.webp",
+   "imageDesc": "Esquema: glucosa → ác. pirúvico (tramo I) → acetil-CoA → un ciclo → CO₂ + NADH + H⁺ + FADH₂ (tramo II)."
+  },
+  {
+   "id": "pau2017-suplente-septiembre-a1",
+   "block": "Metabolismo",
+   "topic": "Fermentaciones",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Describa tres características de los procesos fermentativos [1,5]. b) Exponga un ejemplo de fermentación [0,25] y de su posible uso industrial [0,25].",
+   "c": [
+    "a) Tres de estas, 0,5 p cada una (1,5 p): es un proceso <mark class=\"clave-criterio\">anaerobio</mark>; la <mark class=\"clave-criterio\">degradación no es completa</mark>; los <mark class=\"clave-criterio\">productos finales son compuestos orgánicos que aún almacenan energía</mark>; se obtiene <mark class=\"clave-criterio\">poca energía</mark> (solo la de la glucólisis); <mark class=\"clave-criterio\">no se obtienen coenzimas reducidos</mark> (balance neto nulo).",
+    "b) <mark class=\"clave-criterio\">Fermentación láctica</mark> o <mark class=\"clave-criterio\">alcohólica</mark> (0,25 p). Uso: láctica, <mark class=\"clave-criterio\">yogur</mark>; alcohólica, <mark class=\"clave-criterio\">pan</mark> o <mark class=\"clave-criterio\">bebidas alcohólicas</mark> (0,25 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de septiembre",
+    "referencia": "Suplente de septiembre, opción A, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Modelo 3 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Criterios Modelo 3 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2017-suplente-septiembre-a2",
+   "block": "Genética",
+   "topic": "Replicación del ADN y mitosis",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina el concepto de replicación del ADN [0,4]. b) Indique tres orgánulos de la célula eucariótica en los que tiene lugar [0,3]. c) Explique la relación que existe entre el proceso de replicación y la división celular por mitosis [0,5]. d) ¿Qué significa que la replicación es semiconservativa y bidireccional? [0,8].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Duplicación del ADN</mark> por la que se obtienen <mark class=\"clave-criterio\">dos copias idénticas</mark> (0,4 p).",
+    "b) <mark class=\"clave-criterio\">Núcleo</mark>, <mark class=\"clave-criterio\">mitocondria</mark> y <mark class=\"clave-criterio\">cloroplasto</mark> (0,3 p).",
+    "c) Es un <mark class=\"clave-criterio\">paso previo a la división celular</mark>: se duplica el material genético y así puede <mark class=\"clave-criterio\">repartirse equitativamente entre las dos células hijas</mark> (0,5 p).",
+    "d) Semiconservativa: cada ADN hijo tiene <mark class=\"clave-criterio\">una cadena vieja y otra de nueva síntesis</mark> (0,4 p). Bidireccional: en el <mark class=\"clave-criterio\">origen de replicación</mark> se forman <mark class=\"clave-criterio\">dos horquillas que avanzan en direcciones opuestas</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de septiembre",
+    "referencia": "Suplente de septiembre, opción A, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Modelo 3 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Criterios Modelo 3 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2017-suplente-septiembre-a3",
+   "block": "Inmunología",
+   "topic": "Respuesta humoral y celular; memoria inmunológica",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Explique los conceptos inmunológicos de respuesta humoral y respuesta celular [0,6]. b) Cite una función de cada uno de los tres tipos de células implicadas en estas respuestas inmunitarias [0,6]. c) Indique qué es la memoria inmunológica [0,8].",
+   "c": [
+    "a) Humoral: basada en la <mark class=\"clave-criterio\">producción de sustancias</mark>, especialmente <mark class=\"clave-criterio\">anticuerpos</mark> (0,3 p). Celular: basada en la <mark class=\"clave-criterio\">acción directa de células</mark> como los <mark class=\"clave-criterio\">linfocitos T</mark> y los <mark class=\"clave-criterio\">macrófagos</mark> (0,3 p).",
+    "b) <mark class=\"clave-criterio\">Linfocitos B</mark> (células plasmáticas): <mark class=\"clave-criterio\">producen anticuerpos</mark>. <mark class=\"clave-criterio\">Linfocitos T</mark>: activan a los B o <mark class=\"clave-criterio\">destruyen células infectadas o tumorales</mark>. <mark class=\"clave-criterio\">Macrófagos</mark>: <mark class=\"clave-criterio\">fagocitosis</mark> y <mark class=\"clave-criterio\">presentación de antígenos</mark>. 0,2 p cada una (0,6 p).",
+    "c) Capacidad de <mark class=\"clave-criterio\">reconocer un antígeno con el que ya se ha estado en contacto</mark> y responder de forma <mark class=\"clave-criterio\">más rápida y eficaz</mark> (0,8 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de septiembre",
+    "referencia": "Suplente de septiembre, opción A, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Modelo 3 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Criterios Modelo 3 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2017-suplente-septiembre-b1",
+   "block": "Biomoléculas",
+   "topic": "Triacilglicéridos, saponificación y lípidos insaponificables",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina triacilglicérido [0,4] y b) explique dos de sus funciones biológicas [0,6]. c) Explique cómo obtendría jabón a partir de estas biomoléculas [0,4]. d) Cite una biomolécula hidrófoba insaponificable y dos funciones de la misma [0,6].",
+   "c": [
+    "a) Lípido formado por <mark class=\"clave-criterio\">glicerina y tres ácidos grasos</mark> unidos por <mark class=\"clave-criterio\">enlaces éster</mark> (0,4 p).",
+    "b) <mark class=\"clave-criterio\">Reserva energética</mark> en animales (por su hidrofobia se acumulan fácilmente y su catabolismo es muy rentable), <mark class=\"clave-criterio\">aislamiento térmico</mark>, <mark class=\"clave-criterio\">amortiguación mecánica</mark>. Dos, a 0,3 p (0,6 p).",
+    "c) Con <mark class=\"clave-criterio\">hidróxido sódico o potásico</mark> se <mark class=\"clave-criterio\">hidrolizan los enlaces éster</mark> y se obtienen <mark class=\"clave-criterio\">sales sódicas o potásicas de los ácidos grasos</mark>, que son los <mark class=\"clave-criterio\">jabones</mark> (0,4 p).",
+    "d) <mark class=\"clave-criterio\">Colesterol</mark> (u otro esteroide) (0,2 p). Funciones: <mark class=\"clave-criterio\">componente de membranas</mark>, <mark class=\"clave-criterio\">precursor de hormonas</mark>, <mark class=\"clave-criterio\">precursor de las sales biliares</mark>. Dos, a 0,2 p (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de septiembre",
+    "referencia": "Suplente de septiembre, opción B, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Modelo 3 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Criterios Modelo 3 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2017-suplente-septiembre-b2",
+   "block": "Célula",
+   "topic": "Localización de procesos en la célula eucariótica",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Indique dónde se localizan las siguientes funciones o procesos en una célula eucariótica: a) síntesis de proteínas; b) glucólisis; c) ciclo de Krebs; d) ciclo de Calvin; e) transcripción; f) transformación de energía luminosa en energía química; g) cadena respiratoria; h) digestión de materiales captados por endocitosis; i) β-oxidación de los ácidos grasos; j) síntesis de lípidos [2].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Ribosomas</mark>; b) <mark class=\"clave-criterio\">citoplasma</mark>; c) <mark class=\"clave-criterio\">matriz mitocondrial</mark>; d) <mark class=\"clave-criterio\">estroma del cloroplasto</mark>; e) <mark class=\"clave-criterio\">núcleo</mark>, mitocondrias o cloroplastos.",
+    "f) <mark class=\"clave-criterio\">Membrana de los tilacoides</mark>; g) <mark class=\"clave-criterio\">membrana mitocondrial interna</mark>; h) <mark class=\"clave-criterio\">lisosomas</mark>; i) <mark class=\"clave-criterio\">matriz mitocondrial</mark>; j) <mark class=\"clave-criterio\">retículo endoplasmático liso</mark>. 0,2 p cada una (2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de septiembre",
+    "referencia": "Suplente de septiembre, opción B, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Modelo 3 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Criterios Modelo 3 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2017-suplente-septiembre-b3",
+   "block": "Microbiología",
+   "topic": "Clasificación de los microorganismos",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Realice una clasificación de los principales grupos de microorganismos indicando claramente los criterios utilizados [0,5]. b) Exponga dos características propias de cada grupo [1,5].",
+   "c": [
+    "a) Vale cualquier clasificación con criterios correctos; por ejemplo: <mark class=\"clave-criterio\">formas acelulares</mark> (virus) y <mark class=\"clave-criterio\">formas celulares</mark>, de <mark class=\"clave-criterio\">organización procariótica</mark> (bacterias) o <mark class=\"clave-criterio\">eucariótica</mark> (algas, hongos y protozoos) (0,5 p).",
+    "b) Virus: <mark class=\"clave-criterio\">acelulares</mark>, <mark class=\"clave-criterio\">un solo tipo de ácido nucleico</mark>. Bacterias: <mark class=\"clave-criterio\">procarióticas</mark>, unicelulares, <mark class=\"clave-criterio\">bipartición</mark> (0,3 p cada grupo).",
+    "b) Algas: eucarióticas, <mark class=\"clave-criterio\">fotosintéticas, autótrofas</mark>, sin tejidos. Hongos: eucarióticos, <mark class=\"clave-criterio\">no fotosintéticos, heterótrofos</mark>, sin tejidos. Protozoos: eucarióticos, <mark class=\"clave-criterio\">heterótrofos, unicelulares</mark> (0,3 p cada grupo)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de septiembre",
+    "referencia": "Suplente de septiembre, opción B, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Modelo 3 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Criterios Modelo 3 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2017-suplente-septiembre-a4+a5",
+   "block": "Biomoléculas",
+   "topic": "Densidad del hielo y capilaridad del agua · Temperatura y actividad fotosintética",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "q": "<b>I.</b> La densidad del agua es máxima a 4 ºC, por lo que en estado líquido es más densa que en estado sólido. a) ¿Qué consecuencia biológica tendría si fuese más densa en estado sólido? [0,5]. b) ¿Qué importancia biológica tiene el hecho de que el agua tenga gran capacidad para adherirse a las paredes de conductos muy estrechos, como los capilares? [0,5]. <i>(1 punto)</i><br><br><b>II.</b> Un investigador observa que la actividad fotosintética es dos veces mayor cuando a las plantas cultivadas se les aumenta la temperatura de 25 ºC a 45 ºC. Sin embargo, encuentra que temperaturas por encima de 55 ºC disminuyen drásticamente dicha actividad. Dé una explicación razonada a estos hechos [1]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) El <mark class=\"clave-criterio\">hielo es menos denso</mark> y flota, de modo que el agua <mark class=\"clave-criterio\">se mantiene líquida bajo la superficie</mark>. Si fuese más denso, se hundiría, no se mantendría la capa aislante y se <mark class=\"clave-criterio\">afectaría la vida acuática</mark> (0,5 p).",
+    "<b>I.</b> b) La <mark class=\"clave-criterio\">capilaridad</mark> contribuye al <mark class=\"clave-criterio\">ascenso del agua por los vasos conductores</mark> de las plantas, fundamental para la vida de las <mark class=\"clave-criterio\">plantas terrestres</mark> (0,5 p).",
+    "<b>II.</b> Al subir la temperatura <mark class=\"clave-criterio\">aumenta la actividad de las enzimas</mark> implicadas en la fotosíntesis (0,5 p).",
+    "<b>II.</b> Las temperaturas altas <mark class=\"clave-criterio\">desnaturalizan las proteínas</mark> (enzimas) y por eso disminuye la actividad fotosintética (0,5 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2017-suplente-septiembre-a4",
+    "pau2017-suplente-septiembre-a5"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de septiembre",
+    "referencia": "Suplente de septiembre, opción A, pregunta 4 + Suplente de septiembre, opción A, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Modelo 3 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Criterios Modelo 3 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2017-suplente-septiembre-a6+a7",
+   "block": "Biomoléculas",
+   "topic": "La sacarosa y su enlace O-glucosídico · Polisacáridos de glucosa",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": true,
+   "q": "<b>I.</b> <b>A la vista de la imagen adjunta, que representa una sustancia formada por dos monómeros unidos, conteste las siguientes cuestiones:</b><br>a) Nombre la molécula C y a qué grupo pertenece [0,3].<br>b) Nombre cada uno de los dos monómeros (A y B) que la forman [0,3].<br>c) Indique el nombre del enlace que los une [0,2].<br>d) Nombre la reacción de rotura del citado enlace [0,2]. <i>(1 punto)</i><br><br><b>II.</b> <b>En relación con la imagen de la pregunta anterior, conteste las siguientes cuestiones:</b><br>a) Cite tres sustancias formadas exclusivamente por la unión de cientos o miles de monómeros del tipo A [0,3].<br>b) Indique la función biológica que desempeñan [0,3].<br>c) Indique el tipo de células eucarióticas en las que podemos encontrarlas [0,4]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) <mark class=\"clave-criterio\">Disacárido</mark> <span class=\"redactado\">(sacarosa</span>), del grupo de los <mark class=\"clave-criterio\">glúcidos</mark> (hidratos de carbono) (0,3 p).",
+    "<b>I.</b> b) A: <mark class=\"clave-criterio\">glucosa</mark> (α-D-glucopiranosa); B: <mark class=\"clave-criterio\">fructosa</mark> (β-D-fructofuranosa). 0,15 p cada uno (0,3 p).",
+    "<b>I.</b> c) <mark class=\"clave-criterio\">Enlace O-glucosídico</mark> (0,2 p).",
+    "<b>I.</b> d) <mark class=\"clave-criterio\">Hidrólisis</mark> (0,2 p).",
+    "<b>II.</b> a) <mark class=\"clave-criterio\">Almidón</mark>, <mark class=\"clave-criterio\">glucógeno</mark> y <mark class=\"clave-criterio\">celulosa</mark>. 0,1 p cada una (0,3 p).",
+    "<b>II.</b> b) Almidón: <mark class=\"clave-criterio\">reserva energética en plantas</mark>; glucógeno: <mark class=\"clave-criterio\">reserva energética en animales</mark>; celulosa: <mark class=\"clave-criterio\">función estructural en plantas</mark>. 0,1 p cada una (0,3 p).",
+    "<b>II.</b> c) Almidón y celulosa en <mark class=\"clave-criterio\">células vegetales</mark>; glucógeno en <mark class=\"clave-criterio\">células animales</mark>. 0,2 p cada una (0,4 p)."
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2017-suplente-septiembre-a6",
+    "pau2017-suplente-septiembre-a7"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de septiembre",
+    "referencia": "Suplente de septiembre, opción A, pregunta 6 + Suplente de septiembre, opción A, pregunta 7",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Modelo 3 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Criterios Modelo 3 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2017/suplente-sept-a6.webp",
+   "imgThumb": "assets/figuras/historico/2017/suplente-sept-a6.thumb.webp",
+   "imageDesc": "Molécula C formada por un anillo de seis átomos (A) unido mediante un oxígeno a un anillo de cinco átomos (B), ambos con grupos OH y CH₂OH."
+  },
+  {
+   "id": "pau2017-suplente-septiembre-b4+b5",
+   "block": "Metabolismo",
+   "topic": "Rendimiento energético en glóbulos rojos sin mitocondrias · Respuesta primaria y secundaria: toxina tetánica en caballos",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "q": "<b>I.</b> Los glóbulos rojos humanos carecen de mitocondrias. Argumente si el rendimiento energético por cada molécula de glucosa degradada será mayor o menor que el de cualquier otra célula del cuerpo que tenga mitocondrias [1]. <i>(1 punto)</i><br><br><b>II.</b> Se inocula por primera vez a un caballo con la toxina que produce el tétanos en humanos. En el transcurso de varias semanas, el caballo vuelve a ser inoculado varias veces con esa misma toxina. Una semana después de la primera inoculación se le extrae sangre para analizarla. a) Justifique el tipo de respuesta inmune que se habrá producido en esta primera semana y cómo variará la cantidad de anticuerpos [0,5]. b) Razone cómo cambiará la concentración de anticuerpos en la sangre del caballo tras las sucesivas inoculaciones varias semanas después [0,5]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> Será <mark class=\"clave-criterio\">menor</mark>: sin mitocondrias solo hay <mark class=\"clave-criterio\">metabolismo anaeróbico</mark> <span class=\"redactado\">glucólisis y fermentación láctica, 2 ATP</span>, mientras que el <mark class=\"clave-criterio\">metabolismo aeróbico</mark>, que depende de las <mark class=\"clave-criterio\">mitocondrias</mark>, tiene <mark class=\"clave-criterio\">mayor rendimiento</mark> <span class=\"redactado\">unos 36-38 ATP</span> (1 p).",
+    "<b>II.</b> a) <mark class=\"clave-criterio\">Respuesta primaria</mark>, por ser el <mark class=\"clave-criterio\">primer contacto</mark>: los anticuerpos aumentan de <mark class=\"clave-criterio\">forma moderada</mark> tras un <mark class=\"clave-criterio\">periodo de latencia</mark> (0,5 p).",
+    "<b>II.</b> b) Los anticuerpos <mark class=\"clave-criterio\">aumentan considerablemente y de forma rápida</mark> por las sucesivas <mark class=\"clave-criterio\">respuestas secundarias</mark> (0,5 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2017-suplente-septiembre-b4",
+    "pau2017-suplente-septiembre-b5"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de septiembre",
+    "referencia": "Suplente de septiembre, opción B, pregunta 4 + Suplente de septiembre, opción B, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Modelo 3 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Criterios Modelo 3 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2017-suplente-septiembre-b6+b7",
+   "block": "Genética",
+   "topic": "Dihibridismo en ratones: parentales y F1 · Dihibridismo en ratones: F2 y proporción 9:3:3:1",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": true,
+   "q": "<b>I.</b> <b>A la vista del esquema adjunto, que corresponde a un cruce de ratones que se diferencian para dos caracteres representados por las letras “B/b” para el color del pelo (B, alelo color negro; b, alelo color gris) y “L/l” para la longitud del rabo (L, alelo rabo largo; l, alelo rabo corto), responda razonadamente las siguientes cuestiones:</b><br>a) ¿Qué tipo de gametos desde el punto de vista genético pueden dar los ratones parentales? [0,4].<br>b) En función de la F1 resultante, ¿cuáles son los alelos dominantes para cada uno de los dos caracteres? [0,2].<br>c) ¿Qué tipo de gametos pueden producir los individuos de la F1? [0,4]. <i>(1 punto)</i><br><br><b>II.</b> <b>A la vista del esquema de la pregunta anterior, conteste a las siguientes cuestiones:</b><br>a) Indique todos los posibles genotipos que aparecerán en la F2 [0,45].<br>b) Indique los fenotipos y sus proporciones de la F2 [0,55]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) <span class=\"redactado\">Parentales BBLL y bbll.</span> Gametos: <mark class=\"clave-criterio\">BL</mark> y <mark class=\"clave-criterio\">bl</mark> (0,4 p).",
+    "<b>I.</b> b) Dominantes: <mark class=\"clave-criterio\">B (color negro)</mark> y <mark class=\"clave-criterio\">L (rabo largo)</mark>, <span class=\"redactado\">porque toda la F1, BbLl, es negra de rabo largo</span> (0,2 p).",
+    "<b>I.</b> c) Gametos de la F1: <mark class=\"clave-criterio\">BL, Bl, bL y bl</mark> (0,4 p).",
+    "<b>II.</b> a) <mark class=\"clave-criterio\">BBLL, BBLl, BBll, BbLL, BbLl, Bbll, bbLL, bbLl, bbll</mark>. 0,05 p cada uno (0,45 p).",
+    "<b>II.</b> b) Fenotipos: <mark class=\"clave-criterio\">negros de rabo largo</mark>, <mark class=\"clave-criterio\">negros de rabo corto</mark>, <mark class=\"clave-criterio\">grises de rabo largo</mark> y <mark class=\"clave-criterio\">grises de rabo corto</mark> (0,4 p), en proporción <mark class=\"clave-criterio\">9:3:3:1</mark> (0,15 p)."
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2017-suplente-septiembre-b6",
+    "pau2017-suplente-septiembre-b7"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Suplente de septiembre",
+    "referencia": "Suplente de septiembre, opción B, pregunta 6 + Suplente de septiembre, opción B, pregunta 7",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Modelo 3 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/suplemente_septiembre_Criterios Modelo 3 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2017/suplente-sept-b6.webp",
+   "imgThumb": "assets/figuras/historico/2017/suplente-sept-b6.thumb.webp",
+   "imageDesc": "Parentales: ratón negro de rabo largo × ratón gris de rabo corto. Filial F1: dos ratones negros de rabo largo."
+  },
+  {
+   "id": "pau2017-junio-a1",
+   "block": "Célula",
+   "topic": "Digestión celular y fagocitosis",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina digestión celular [0,5]. b) Describa el proceso que va desde la ingestión de una bacteria por un macrófago hasta su digestión [1,5].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Degradación de biomoléculas por enzimas digestivas</mark> <span class=\"redactado\">dentro de la célula, en los lisosomas</span> (0,5 p).",
+    "b) <mark class=\"clave-criterio\">Formación del fagosoma</mark>, <mark class=\"clave-criterio\">fusión con vesículas con enzimas lisosómicas</mark> y <mark class=\"clave-criterio\">degradación de las macromoléculas</mark>. 0,5 p cada una (1,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de junio",
+    "referencia": "Titular de junio, opción A, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Modelo 6 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Criterios Modelo 6 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2017-junio-a2",
+   "block": "Genética",
+   "topic": "Pares de conceptos de genética",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Explique la diferencia entre los siguientes pares de conceptos: a) gen-alelo [0,5]; b) homocigótico-heterocigótico [0,5]; c) herencia dominante-herencia intermedia [0,5]; d) gen autosómico-gen ligado al sexo [0,5].",
+   "c": [
+    "a) Gen: <mark class=\"clave-criterio\">fragmento de ADN que determina una característica</mark>; alelo: <mark class=\"clave-criterio\">cada una de las formas alternativas de un gen</mark> (0,5 p).",
+    "b) Homocigótico: <mark class=\"clave-criterio\">dos alelos iguales</mark> para un carácter; heterocigótico: <mark class=\"clave-criterio\">dos alelos diferentes</mark> (0,5 p).",
+    "c) Dominante: el fenotipo lo <mark class=\"clave-criterio\">determina un solo alelo</mark>; intermedia: el fenotipo presenta <mark class=\"clave-criterio\">características intermedias</mark> (0,5 p).",
+    "d) Autosómico: situado en los <mark class=\"clave-criterio\">cromosomas autosómicos</mark>; ligado al sexo: situado en el <mark class=\"clave-criterio\">cromosoma X</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de junio",
+    "referencia": "Titular de junio, opción A, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Modelo 6 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Criterios Modelo 6 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2017-junio-a3",
+   "block": "Genética",
+   "topic": "Mutaciones y variabilidad genética",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina el concepto de mutación [0,5]. b) Diferencie entre mutación espontánea e inducida [0,6]. c) Cite un ejemplo de un agente mutagénico físico, uno químico y uno biológico [0,3]. d) Indique y defina otro mecanismo que produzca variabilidad genética [0,6].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Alteración en el material genético</mark> (0,5 p).",
+    "b) Espontánea: por <mark class=\"clave-criterio\">errores en la replicación</mark>, lesiones al azar o elementos genéticos móviles. Inducida: por la acción de <mark class=\"clave-criterio\">agentes mutagénicos</mark>. 0,3 p cada una (0,6 p).",
+    "c) Físico: <mark class=\"clave-criterio\">rayos X, gamma o UV</mark>; químico: <mark class=\"clave-criterio\">5-bromouracilo, ácido nitroso</mark>, acridinas; biológico: <mark class=\"clave-criterio\">elementos genéticos móviles, virus</mark> (0,3 p).",
+    "d) <mark class=\"clave-criterio\">Recombinación genética</mark>: intercambio de fragmentos entre <mark class=\"clave-criterio\">cromosomas homólogos</mark> en la <mark class=\"clave-criterio\">profase meiótica</mark>; o <mark class=\"clave-criterio\">segregación cromosómica</mark>: separación <mark class=\"clave-criterio\">al azar</mark> de los cromosomas maternos y paternos en anafase (0,6 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de junio",
+    "referencia": "Titular de junio, opción A, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Modelo 6 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Criterios Modelo 6 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2017-junio-b1",
+   "block": "Biomoléculas",
+   "topic": "Nucleótidos del ADN y del ARN",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Describa la fórmula general de los nucleótidos indicando cómo se unen sus componentes [1]. b) Cite las diferencias básicas de composición química entre los nucleótidos del ARN y del ADN [1].",
+   "c": [
+    "a) Formados por <mark class=\"clave-criterio\">ácido fosfórico</mark>, una <mark class=\"clave-criterio\">pentosa</mark> (ribosa o desoxirribosa) y una <mark class=\"clave-criterio\">base nitrogenada</mark> (A, T, U, C o G), indicando cómo se unen: <span class=\"redactado\">la base se une al C1' de la pentosa por un enlace N-glucosídico y el fosfato al C5' por un enlace éster</span> (1 p).",
+    "b) Azúcar: <mark class=\"clave-criterio\">ribosa en el ARN</mark> y <mark class=\"clave-criterio\">desoxirribosa en el ADN</mark>; bases: <mark class=\"clave-criterio\">uracilo en el ARN</mark> y <mark class=\"clave-criterio\">timina en el ADN</mark> (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de junio",
+    "referencia": "Titular de junio, opción B, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Modelo 6 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Criterios Modelo 6 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2017-junio-b2",
+   "block": "Metabolismo",
+   "topic": "Glucólisis y destinos del piruvato",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Indique la localización intracelular de la glucólisis [0,1]. b) ¿De qué moléculas se parte y qué moléculas se obtienen al final? [0,4]. c) ¿Qué rutas metabólicas puede seguir el producto final de la glucólisis? [0,5]. d) Indique cuáles son los compuestos iniciales y los productos finales de cada una de estas rutas [1].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Citosol</mark> (0,1 p).",
+    "b) Inicio: <mark class=\"clave-criterio\">glucosa, NAD⁺, ADP y Pi</mark>; final: <mark class=\"clave-criterio\">piruvato, NADH+H⁺ y ATP</mark> (0,4 p).",
+    "c) <mark class=\"clave-criterio\">Fermentaciones</mark> (anaeróbica) y <mark class=\"clave-criterio\">ciclo de Krebs</mark> (aeróbica) (0,5 p).",
+    "d) Fermentaciones: de <mark class=\"clave-criterio\">piruvato</mark> a <mark class=\"clave-criterio\">lactato o etanol y NAD⁺</mark> (0,5 p). Ciclo de Krebs: de <mark class=\"clave-criterio\">acetil-CoA y oxalacético</mark> a <mark class=\"clave-criterio\">CO₂, NADH+H⁺, FADH₂ y GTP (ATP)</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de junio",
+    "referencia": "Titular de junio, opción B, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Modelo 6 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Criterios Modelo 6 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2017-junio-b3",
+   "block": "Inmunología",
+   "topic": "Respuesta alérgica",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Explique en qué consiste la respuesta alérgica [0,5] b) indicando el nombre y la naturaleza de los agentes que pueden desencadenarla [0,5], c) las células y moléculas implicadas y su mecanismo de acción [1].",
+   "c": [
+    "a) Mecanismo de <mark class=\"clave-criterio\">hipersensibilidad</mark> o <mark class=\"clave-criterio\">respuesta inmune exagerada ante antígenos</mark> (0,5 p).",
+    "b) <mark class=\"clave-criterio\">Alérgeno</mark> (0,25 p), de naturaleza diversa: <mark class=\"clave-criterio\">polvo, polen, ácaros</mark> (0,25 p).",
+    "c) Intervienen <mark class=\"clave-criterio\">linfocitos B y T</mark>, <mark class=\"clave-criterio\">células plasmáticas</mark> y <mark class=\"clave-criterio\">mastocitos</mark>, con la <mark class=\"clave-criterio\">IgE</mark> y la <mark class=\"clave-criterio\">histamina</mark> <span class=\"redactado\">: la IgE producida se fija a los mastocitos; en un segundo contacto el alérgeno se une a ella y los mastocitos liberan histamina</span> (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de junio",
+    "referencia": "Titular de junio, opción B, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Modelo 6 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Criterios Modelo 6 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2017-junio-a4+a5",
+   "block": "Metabolismo",
+   "topic": "2-desoxiglucosa, glucólisis y β-oxidación · Integridad de las membranas mitocondriales y fosforilación oxidativa",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "q": "<b>I.</b> La 2-deoxiglucosa es un análogo no metabolizable de la glucosa que bloquea la glucólisis. En un cultivo celular con glucosa como única fuente de energía, las células mueren al ser tratadas con este compuesto. No obstante, las células son capaces de proliferar en este mismo medio si contiene ácidos grasos. Explique razonadamente cada uno de estos efectos [1]. <i>(1 punto)</i><br><br><b>II.</b> Si se hace un orificio en las membranas externa e interna de una mitocondria, ¿podrá seguir realizando la fosforilación oxidativa? Razone la respuesta [1]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> Con glucosa como única fuente, el <mark class=\"clave-criterio\">bloqueo de la glucólisis</mark> impide producir ATP <mark class=\"clave-criterio\">ni por glucólisis ni por fosforilación oxidativa</mark>, y la célula muere (0,5 p).",
+    "<b>I.</b> Con ácidos grasos, las células realizan la <mark class=\"clave-criterio\">β-oxidación</mark> <span class=\"redactado\">que da acetil-CoA para el</span> <mark class=\"clave-criterio\">ciclo de Krebs</mark> y la <mark class=\"clave-criterio\">respiración aeróbica</mark>, generan <mark class=\"clave-criterio\">ATP</mark> y pueden crecer (0,5 p).",
+    "<b>II.</b> <mark class=\"clave-criterio\">No</mark>. La fosforilación oxidativa está <mark class=\"clave-criterio\">acoplada a la cadena de transporte electrónico</mark> de la <mark class=\"clave-criterio\">membrana mitocondrial interna</mark>, y hace falta la <mark class=\"clave-criterio\">integridad de las membranas</mark> para mantener el <mark class=\"clave-criterio\">gradiente de protones</mark> (de la matriz al espacio intermembranoso); los protones deben volver a la matriz <mark class=\"clave-criterio\">a través de la ATP sintasa</mark> para generar ATP (1 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2017-junio-a4",
+    "pau2017-junio-a5"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de junio",
+    "referencia": "Titular de junio, opción A, pregunta 4 + Titular de junio, opción A, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Modelo 6 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Criterios Modelo 6 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2017-junio-a6+a7",
+   "block": "Biomoléculas",
+   "topic": "Aminoácidos, dipéptido y niveles estructurales de las proteínas · Enlace peptídico y desnaturalización",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": true,
+   "q": "<b>I.</b> <b>En relación con las imágenes adjuntas, conteste las siguientes cuestiones. La Figura A representa una reacción entre dos biomoléculas.</b><br>a) ¿Cómo se denominan las biomoléculas señaladas con los números 1 y 2? [0,1].<br>b) ¿Cuántos monómeros distintos de ese tipo existen en los seres vivos? [0,1].<br>c) ¿En qué se diferencian? [0,1].<br>d) ¿Qué nombre recibe la molécula señalada con el número 3 de la Figura A? [0,1].<br>e) ¿Qué representa la Figura B? [0,2].<br>f) Indique qué representan los números 1, 2, 3 y 4 de la Figura B [0,4]. <i>(1 punto)</i><br><br><b>II.</b> <b>En relación con las imágenes de la pregunta anterior, conteste a las siguientes cuestiones:</b><br>a) ¿Cómo se denomina el enlace señalado por la flecha en la Figura A? [0,2].<br>b) Cite dos características de dicho enlace [0,4].<br>c) Identifique dos tipos de enlaces que mantengan la estructura número 3 de la Figura B [0,2].<br>d) Si hubiese un gran cambio de pH o de temperatura, indique una consecuencia que se produciría en la Figura B-4 [0,2]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) <mark class=\"clave-criterio\">Aminoácidos</mark> (0,1 p). b) <mark class=\"clave-criterio\">20</mark> (0,1 p). c) En el <mark class=\"clave-criterio\">radical R</mark> (0,1 p). d) <mark class=\"clave-criterio\">Dipéptido</mark> (0,1 p).",
+    "<b>I.</b> e) Los <mark class=\"clave-criterio\">niveles de estructura de las proteínas</mark> (se acepta plegamiento de proteínas) (0,2 p).",
+    "<b>I.</b> f) 1: <mark class=\"clave-criterio\">estructura primaria</mark>; 2: <mark class=\"clave-criterio\">secundaria</mark>; 3: <mark class=\"clave-criterio\">terciaria</mark>; 4: <mark class=\"clave-criterio\">cuaternaria</mark>. 0,1 p cada una (0,4 p).",
+    "<b>II.</b> a) <mark class=\"clave-criterio\">Enlace peptídico</mark> (0,2 p).",
+    "<b>II.</b> b) <mark class=\"clave-criterio\">Covalente</mark>, <mark class=\"clave-criterio\">estructura coplanaria</mark>, <mark class=\"clave-criterio\">incapacidad de giro</mark>. Dos, a 0,2 p (0,4 p).",
+    "<b>II.</b> c) <mark class=\"clave-criterio\">Interacciones hidrofóbicas</mark>, <mark class=\"clave-criterio\">puentes de hidrógeno</mark>, <mark class=\"clave-criterio\">fuerzas de Van der Waals</mark>, <mark class=\"clave-criterio\">fuerzas electrostáticas</mark>, <mark class=\"clave-criterio\">puentes disulfuro</mark>. Dos, a 0,1 p (0,2 p).",
+    "<b>II.</b> d) <mark class=\"clave-criterio\">Desnaturalización</mark>: <mark class=\"clave-criterio\">pérdida de la estructura tridimensional</mark> y <mark class=\"clave-criterio\">pérdida de función</mark>. Una (0,2 p)."
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2017-junio-a6",
+    "pau2017-junio-a7"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de junio",
+    "referencia": "Titular de junio, opción A, pregunta 6 + Titular de junio, opción A, pregunta 7",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Modelo 6 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Criterios Modelo 6 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2017/junio-a6.webp",
+   "imgThumb": "assets/figuras/historico/2017/junio-a6.thumb.webp",
+   "imageDesc": "Figura A: dos moléculas (1 y 2) con grupos amino, carboxilo y R que se unen liberando H₂O para formar la molécula 3; una flecha señala el enlace formado. Figura B: una cadena lineal (1) que se enrolla (2), se pliega en un ovillo (3) y se asocia con otros ovillos (4)."
+  },
+  {
+   "id": "pau2017-junio-b4+b5",
+   "block": "Célula",
+   "topic": "Células animales y vegetales en medios hipotónico e hipertónico · Herencia intermedia en mariposas",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "q": "<b>I.</b> a) ¿Tendría una célula animal el mismo comportamiento que una célula vegetal en una solución hipotónica? [0,5]. b) ¿Y en una solución hipertónica? [0,5]. Razone las respuestas. <i>(1 punto)</i><br><br><b>II.</b> Una mariposa negra se cruza con una mariposa gris y se obtienen 36 mariposas negras y 36 grises. Posteriormente, se cruza una mariposa gris con una blanca y se obtienen 36 mariposas blancas y 36 grises. a) Explique si se trata de un caso de herencia intermedia o dominante [0,5]. b) Realice los dos cruzamientos anteriormente señalados, indicando cuáles son los genotipos de las mariposas que se cruzan y los de la descendencia obtenida [0,5]. Utilice los símbolos N (alelo color negro) y n (alelo color blanco). <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) <mark class=\"clave-criterio\">No</mark>: en medio hipotónico la célula animal sufre <mark class=\"clave-criterio\">lisis</mark>, mientras que la vegetal está <mark class=\"clave-criterio\">protegida por la pared celular</mark> (0,5 p).",
+    "<b>I.</b> b) <mark class=\"clave-criterio\">Sí</mark> (ambas pierden agua): la célula animal <mark class=\"clave-criterio\">se deshidrata y se encoge</mark>; en la vegetal la membrana <mark class=\"clave-criterio\">se separa de la pared</mark> y se produce <mark class=\"clave-criterio\">plasmólisis</mark> (0,5 p).",
+    "<b>II.</b> a) <mark class=\"clave-criterio\">Herencia intermedia</mark>, porque hay <mark class=\"clave-criterio\">tres fenotipos para un solo carácter</mark> (negro, gris y blanco) (0,5 p).",
+    "<b>II.</b> b) Primer cruce: <mark class=\"clave-criterio\">NN (negra) × Nn (gris) → ½ NN negras y ½ Nn grises</mark> (0,25 p).",
+    "<b>II.</b> b) Segundo cruce: <mark class=\"clave-criterio\">Nn (gris) × nn (blanca) → ½ Nn grises y ½ nn blancas</mark> (0,25 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2017-junio-b4",
+    "pau2017-junio-b5"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de junio",
+    "referencia": "Titular de junio, opción B, pregunta 4 + Titular de junio, opción B, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Modelo 6 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Criterios Modelo 6 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2017-junio-b6+b7",
+   "block": "Célula",
+   "topic": "RER, complejo de Golgi y secreción · Complejo de Golgi y ruta de secreción",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": true,
+   "q": "<b>I.</b> <b>En relación con la figura adjunta:</b><br>a) Identifique los orgánulos A y B [0,2].<br>b) Identifique los elementos señalados con los números 1 y 2 [0,2].<br>c) ¿Qué proceso celular se señala con la letra C? [0,2].<br>d) Cite dos funciones del orgánulo A [0,4]. <i>(1 punto)</i><br><br><b>II.</b> <b>En relación con la figura de la pregunta anterior, conteste a las siguientes cuestiones:</b><br>a) Describa la estructura del orgánulo B [0,2] y cite dos de sus funciones [0,4].<br>b) Explique la relación funcional entre las estructuras señaladas con las letras A, B y C [0,4]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) A: <mark class=\"clave-criterio\">retículo endoplasmático rugoso</mark>; B: <mark class=\"clave-criterio\">complejo de Golgi</mark>. 0,1 p cada uno (0,2 p).",
+    "<b>I.</b> b) 1: <mark class=\"clave-criterio\">vesícula de transferencia</mark>; 2: <mark class=\"clave-criterio\">vesícula de secreción</mark>. 0,1 p cada una (0,2 p).",
+    "<b>I.</b> c) <mark class=\"clave-criterio\">Exocitosis</mark> (secreción) (0,2 p).",
+    "<b>I.</b> d) <mark class=\"clave-criterio\">Síntesis</mark>, <mark class=\"clave-criterio\">modificación</mark> y/o <mark class=\"clave-criterio\">almacenamiento de proteínas</mark>. Dos, a 0,2 p (0,4 p).",
+    "<b>II.</b> a) Estructura: <mark class=\"clave-criterio\">cara cis</mark>, que recibe las vesículas de transferencia del RER; <mark class=\"clave-criterio\">cisternas membranosas que forman los dictiosomas</mark>; y <mark class=\"clave-criterio\">cara trans</mark>, donde se forman las <mark class=\"clave-criterio\">vesículas de secreción</mark> (0,2 p).",
+    "<b>II.</b> a) Funciones: <mark class=\"clave-criterio\">glucosilación de lípidos y proteínas</mark>, <mark class=\"clave-criterio\">maduración de proteínas</mark>, <mark class=\"clave-criterio\">embalaje de productos de secreción</mark>, <mark class=\"clave-criterio\">formación de lisosomas</mark>, reciclaje de membrana, pared celular vegetal. Dos, a 0,2 p (0,4 p).",
+    "<b>II.</b> b) En el <mark class=\"clave-criterio\">RER se sintetizan y modifican las proteínas</mark>, que viajan en <mark class=\"clave-criterio\">vesículas de transferencia</mark> al <mark class=\"clave-criterio\">Golgi</mark>, donde <mark class=\"clave-criterio\">maduran y se distribuyen</mark>; salen en <mark class=\"clave-criterio\">vesículas de secreción</mark> hacia la membrana plasmática y se liberan por <mark class=\"clave-criterio\">exocitosis</mark> (0,4 p)."
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2017-junio-b6",
+    "pau2017-junio-b7"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de junio",
+    "referencia": "Titular de junio, opción B, pregunta 6 + Titular de junio, opción B, pregunta 7",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Modelo 6 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_junio_Criterios Modelo 6 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2017/junio-b6.webp",
+   "imgThumb": "assets/figuras/historico/2017/junio-b6.thumb.webp",
+   "imageDesc": "Junto al núcleo, un sistema de cisternas con gránulos (A) del que se desprende una vesícula (1) hacia un conjunto de sáculos apilados (B); de estos sale otra vesícula (2) que se fusiona con la membrana y vierte su contenido al exterior (C)."
+  },
+  {
+   "id": "pau2017-septiembre-a1",
+   "block": "Metabolismo",
+   "topic": "Enzimas, centro activo e inhibición",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina enzima [0,4]. b) ¿Qué es el centro activo y qué relación existe entre el mismo y la especificidad enzimática? [0,5]. c) ¿Qué son los inhibidores enzimáticos? [0,3]. d) ¿En qué se diferencia la inhibición irreversible de la reversible y cuál es la causa de la diferencia? [0,8].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Proteína con función catalítica</mark> que <mark class=\"clave-criterio\">acelera las reacciones metabólicas</mark> (0,4 p).",
+    "b) Centro activo: <mark class=\"clave-criterio\">región de la enzima por la que se une al sustrato</mark> (0,2 p). De él depende la <mark class=\"clave-criterio\">especificidad</mark>, porque tiene una <mark class=\"clave-criterio\">configuración complementaria a la del sustrato</mark> (0,3 p).",
+    "c) <mark class=\"clave-criterio\">Sustancias que disminuyen o anulan la actividad enzimática</mark> (0,3 p).",
+    "d) Irreversible: el inhibidor <mark class=\"clave-criterio\">inutiliza la enzima de forma permanente</mark> porque se une mediante <mark class=\"clave-criterio\">enlace covalente</mark>. Reversible: la enzima <mark class=\"clave-criterio\">recupera su actividad al eliminar el inhibidor</mark>, porque la unión es por <mark class=\"clave-criterio\">enlaces débiles</mark>. 0,4 p cada una (0,8 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de septiembre",
+    "referencia": "Titular de septiembre, opción A, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Modelo 2 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Criterios Modelo 2 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2017-septiembre-a2",
+   "block": "Célula",
+   "topic": "Localización de procesos celulares",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Para cada uno de los siguientes procesos celulares, indique una estructura, compartimento u orgánulo de las células eucarióticas en donde pueden producirse: a) síntesis de ARN ribosómico; b) fosforilación oxidativa; c) digestión de sustancias; d) síntesis de almidón; e) ciclo de Krebs; f) transporte activo; g) transcripción; h) traducción; i) fase luminosa de la fotosíntesis; j) glucólisis [2].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Nucleolo</mark> (núcleo), mitocondrias o cloroplastos; b) <mark class=\"clave-criterio\">membrana mitocondrial interna</mark>; c) <mark class=\"clave-criterio\">lisosomas</mark>; d) <mark class=\"clave-criterio\">cloroplastos</mark>; e) <mark class=\"clave-criterio\">matriz mitocondrial</mark>.",
+    "f) <mark class=\"clave-criterio\">Membranas</mark>; g) <mark class=\"clave-criterio\">núcleo</mark>, mitocondrias o cloroplastos; h) <mark class=\"clave-criterio\">ribosomas</mark>; i) <mark class=\"clave-criterio\">membrana tilacoidal</mark>; j) <mark class=\"clave-criterio\">citosol</mark>. 0,2 p cada uno (2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de septiembre",
+    "referencia": "Titular de septiembre, opción A, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Modelo 2 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Criterios Modelo 2 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2017-septiembre-a3",
+   "block": "Genética",
+   "topic": "Mutaciones: agentes y consecuencias",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Indique qué es una mutación [0,5]. b) Cite tres agentes que provoquen mutaciones [0,6]. c) Explique dos posibles consecuencias de las mutaciones [0,9].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Alteración en el material genético</mark> (0,5 p).",
+    "b) <mark class=\"clave-criterio\">Físicos</mark> (rayos UV, rayos X, radiaciones ionizantes), <mark class=\"clave-criterio\">químicos</mark> (modificadores de bases, análogos de bases, agentes intercalantes o alquilantes) y <mark class=\"clave-criterio\">biológicos</mark> (virus, transposones). Tres, a 0,2 p (0,6 p).",
+    "c) Normalmente <mark class=\"clave-criterio\">perjudiciales</mark> (<mark class=\"clave-criterio\">enfermedades</mark>, <mark class=\"clave-criterio\">letalidad</mark>), pero también pueden ser <mark class=\"clave-criterio\">beneficiosas</mark> (<mark class=\"clave-criterio\">evolución</mark>, <mark class=\"clave-criterio\">variabilidad genética</mark>). Dos, a 0,45 p (0,9 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de septiembre",
+    "referencia": "Titular de septiembre, opción A, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Modelo 2 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Criterios Modelo 2 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2017-septiembre-b1",
+   "block": "Biomoléculas",
+   "topic": "Monosacáridos, enlace O-glucosídico y polisacáridos",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Indique dos funciones biológicas de los monosacáridos [0,4], b) describa el enlace O-glucosídico [0,4] y c) describa las características estructurales y funcionales de tres polisacáridos de interés biológico [1,2].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Energética</mark>, <mark class=\"clave-criterio\">estructural</mark> (forman polisacáridos, ácidos nucleicos) y <mark class=\"clave-criterio\">metabólica</mark> (intermediarios). Dos, a 0,2 p (0,4 p).",
+    "b) <mark class=\"clave-criterio\">Enlace covalente</mark> entre el <mark class=\"clave-criterio\">OH del carbono anomérico</mark> de un monosacárido y un <mark class=\"clave-criterio\">OH de otro monosacárido</mark>, <mark class=\"clave-criterio\">con liberación de una molécula de agua</mark> (0,4 p).",
+    "c) <mark class=\"clave-criterio\">Almidón</mark>: polímero de <mark class=\"clave-criterio\">α-glucosa</mark> con <mark class=\"clave-criterio\">amilosa</mark> (lineal) y <mark class=\"clave-criterio\">amilopectina</mark> (ramificada); <mark class=\"clave-criterio\">reserva energética en vegetales</mark>. <mark class=\"clave-criterio\">Glucógeno</mark>: polímero de α-glucosa <mark class=\"clave-criterio\">similar a la amilopectina</mark>; <mark class=\"clave-criterio\">reserva en animales</mark>. <mark class=\"clave-criterio\">Celulosa</mark>: polímero de <mark class=\"clave-criterio\">β-glucosa</mark> con cadenas paralelas que forman <mark class=\"clave-criterio\">fibras</mark>; <mark class=\"clave-criterio\">función estructural en vegetales</mark>. 0,4 p cada uno (1,2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de septiembre",
+    "referencia": "Titular de septiembre, opción B, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Modelo 2 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Criterios Modelo 2 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2017-septiembre-b2",
+   "block": "Metabolismo",
+   "topic": "Fuentes de energía, fosforilación oxidativa y fotofosforilación",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Cite dos fuentes energéticas para el metabolismo de los seres vivos [0,5]. b) Describa en qué consiste la fosforilación oxidativa y la fotofosforilación y en qué orgánulos de la célula se realizan [1,5].",
+   "c": [
+    "a) La <mark class=\"clave-criterio\">luz</mark> y los <mark class=\"clave-criterio\">compuestos químicos</mark> (0,5 p).",
+    "b) Fosforilación oxidativa: <mark class=\"clave-criterio\">flujo de electrones por la cadena de transporte electrónico hasta el oxígeno</mark>, con un <mark class=\"clave-criterio\">gradiente de protones</mark> que se usa para <mark class=\"clave-criterio\">sintetizar ATP</mark>; en las <mark class=\"clave-criterio\">mitocondrias</mark> (0,75 p).",
+    "b) Fotofosforilación: flujo de electrones desde los <mark class=\"clave-criterio\">fotosistemas excitados por la luz</mark> hasta el <mark class=\"clave-criterio\">NADPH</mark>, con un <mark class=\"clave-criterio\">gradiente de protones</mark> que se usa para <mark class=\"clave-criterio\">sintetizar ATP</mark>; en los <mark class=\"clave-criterio\">cloroplastos</mark> (0,75 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de septiembre",
+    "referencia": "Titular de septiembre, opción B, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Modelo 2 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Criterios Modelo 2 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2017-septiembre-b3",
+   "block": "Microbiología",
+   "topic": "Ciclo lítico de un bacteriófago",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Describa las etapas del ciclo lítico de un bacteriófago [2].",
+   "c": [
+    "1) <mark class=\"clave-criterio\">Adsorción</mark> (fijación) del fago a la bacteria (0,4 p).",
+    "2) <mark class=\"clave-criterio\">Inyección del ácido nucleico</mark> vírico por la <mark class=\"clave-criterio\">vaina contráctil</mark> (0,4 p).",
+    "3) <mark class=\"clave-criterio\">Uso de la maquinaria biosintética de la bacteria</mark> para producir <mark class=\"clave-criterio\">copias del ácido nucleico y de la cápsida</mark> (0,4 p).",
+    "4) <mark class=\"clave-criterio\">Ensamblaje</mark>: cada ácido nucleico se rodea de su cápsida y se une a la cola y la placa basal (0,4 p).",
+    "5) <mark class=\"clave-criterio\">Lisis</mark> de la célula por <mark class=\"clave-criterio\">enzimas líticas</mark> y <mark class=\"clave-criterio\">salida de los nuevos fagos</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de septiembre",
+    "referencia": "Titular de septiembre, opción B, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Modelo 2 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Criterios Modelo 2 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2017-septiembre-a4+a5",
+   "block": "Biomoléculas",
+   "topic": "Desnaturalización de las proteínas de la clara de huevo · Suero frente a vacuna en pacientes con ébola",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "q": "<b>I.</b> Si se compara la consistencia de un huevo antes y después de cocerlo se observa que la clara, un producto gelatinoso y transparente, se transforma en otro de mayor consistencia y opaco a la luz. a) Explique por qué se produce este cambio [0,5]. b) ¿Por qué se mantienen las propiedades nutritivas de la clara del huevo después de cocerlo? [0,5]. Razone las respuestas. <i>(1 punto)</i><br><br><b>II.</b> En un centro médico hay dos pacientes (A y B) infectados por el virus del Ébola. Al paciente A se le inocula suero sanguíneo de pacientes que han superado la enfermedad causada por este virus, mientras que al paciente B se le inocula un medio conteniendo partículas muertas del virus. Indique cuál de los dos tratamientos será más adecuado. Razone las respuestas [1]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) Por la <mark class=\"clave-criterio\">desnaturalización</mark> de las proteínas de la clara a temperaturas elevadas: se pierde la <mark class=\"clave-criterio\">estructura nativa (secundaria y terciaria)</mark> y las proteínas <mark class=\"clave-criterio\">coagulan</mark> (0,5 p).",
+    "<b>I.</b> b) Porque la <mark class=\"clave-criterio\">composición de aminoácidos se mantiene</mark> <span class=\"redactado\">la desnaturalización no rompe los enlaces peptídicos</span> (0,5 p).",
+    "<b>II.</b> El más adecuado es el del <mark class=\"clave-criterio\">paciente A</mark>: el suero contiene <mark class=\"clave-criterio\">anticuerpos fabricados por los pacientes que superaron la enfermedad</mark>, que lo defienden del virus <mark class=\"clave-criterio\">mientras fabrica sus propios anticuerpos</mark> (0,5 p).",
+    "<b>II.</b> El paciente B <mark class=\"clave-criterio\">no recibe ayuda inmunológica inmediata</mark>: su sistema inmunitario ha de <mark class=\"clave-criterio\">sintetizar los anticuerpos</mark>, lo que lleva tiempo <span class=\"redactado\">una vacuna es preventiva, no curativa</span> (0,5 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2017-septiembre-a4",
+    "pau2017-septiembre-a5"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de septiembre",
+    "referencia": "Titular de septiembre, opción A, pregunta 4 + Titular de septiembre, opción A, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Modelo 2 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Criterios Modelo 2 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2017-septiembre-a6+a7",
+   "block": "Célula",
+   "topic": "Cloroplasto y mitocondria · Cloroplastos, mitocondrias y tipos de nutrición",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": true,
+   "q": "<b>I.</b> <b>En relación con las figuras adjuntas, conteste las siguientes cuestiones:</b><br>a) Indique el nombre de los orgánulos representados con las letras A y B [0,2].<br>b) Nombre las estructuras indicadas con los números del 1 al 8 [0,8]. <i>(1 punto)</i><br><br><b>II.</b> <b>En relación con las imágenes de la pregunta anterior, conteste las siguientes cuestiones:</b><br>a) Indique en qué tipo de células podemos encontrar el orgánulo A y dónde el orgánulo B [0,4].<br>b) ¿Qué tipo de nutrición tendrán las células que posean el orgánulo A? [0,15]<br>c) ¿Y las que contengan únicamente el orgánulo B? [0,15].<br>d) ¿Puede una célula poseer ambos tipos de orgánulos a la vez? Razone la respuesta [0,3]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) A: <mark class=\"clave-criterio\">cloroplasto</mark>; B: <mark class=\"clave-criterio\">mitocondria</mark>. 0,1 p cada uno (0,2 p).",
+    "<b>I.</b> b) 1: <mark class=\"clave-criterio\">ribosomas</mark>; 2: <mark class=\"clave-criterio\">grana</mark> (tilacoides apilados); 3: <mark class=\"clave-criterio\">tilacoide</mark>; 4: <mark class=\"clave-criterio\">ADN cloroplástico</mark>; 5: <mark class=\"clave-criterio\">ADN mitocondrial</mark>; 6: <mark class=\"clave-criterio\">ribosomas</mark>; 7: <mark class=\"clave-criterio\">matriz mitocondrial</mark> o membrana interna; 8: <mark class=\"clave-criterio\">crestas mitocondriales</mark>. 0,1 p cada uno (0,8 p).",
+    "<b>II.</b> a) A: en <mark class=\"clave-criterio\">células eucarióticas vegetales</mark>; B: en <mark class=\"clave-criterio\">todas las células eucarióticas</mark>. 0,2 p cada uno (0,4 p).",
+    "<b>II.</b> b) Con A: <mark class=\"clave-criterio\">nutrición autótrofa</mark> (0,15 p). c) Solo con B: <mark class=\"clave-criterio\">nutrición heterótrofa</mark> (0,15 p).",
+    "<b>II.</b> d) <mark class=\"clave-criterio\">Sí</mark>: las <mark class=\"clave-criterio\">células vegetales</mark> (y protoctistas) tienen ambos, los <mark class=\"clave-criterio\">cloroplastos para la fotosíntesis</mark> y las <mark class=\"clave-criterio\">mitocondrias para el metabolismo oxidativo</mark> (0,3 p)."
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2017-septiembre-a6",
+    "pau2017-septiembre-a7"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de septiembre",
+    "referencia": "Titular de septiembre, opción A, pregunta 6 + Titular de septiembre, opción A, pregunta 7",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Modelo 2 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Criterios Modelo 2 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2017/sept-a6.webp",
+   "imgThumb": "assets/figuras/historico/2017/sept-a6.thumb.webp",
+   "imageDesc": "Orgánulo A: ovalado, con pilas de discos membranosos (2, 3), gránulos (1) y filamentos (4). Orgánulo B: alargado, con pliegues de la membrana interna (8), gránulos (6), filamentos (5) y un espacio interior (7)."
+  },
+  {
+   "id": "pau2017-septiembre-b4+b5",
+   "block": "Célula",
+   "topic": "Transporte a través de membrana sin ATP · Herencia intermedia en rábanos",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": false,
+   "q": "<b>I.</b> En una célula animal se inhibe la síntesis de ATP. a) ¿Podrá llevar a cabo procesos de difusión simple? [0,25]. b) ¿Y procesos de difusión facilitada? [0,25] c) ¿Y transporte activo? [0,25]. d) ¿Cómo afectaría esa inhibición al funcionamiento de la bomba Na⁺-K⁺? [0,25]. Explique de forma razonada cada respuesta. <i>(1 punto)</i><br><br><b>II.</b> Un agricultor cruzó plantas de rábanos largos con plantas de rábanos redondos y observó que toda la descendencia estaba formada por plantas de rábanos ovales. a) Explique razonadamente qué tipo de herencia controla la forma de los rábanos [0,3]. b) Indique los genotipos que poseen los tres tipos de plantas [0,3]. c) Si el agricultor cruzara plantas de rábanos ovales con plantas de rábanos largos ¿qué porcentaje de la descendencia cabría esperar que fuera de rábanos redondos? Razone la respuesta representando el esquema del posible cruce [0,4]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) <mark class=\"clave-criterio\">Sí</mark>: la difusión simple es <mark class=\"clave-criterio\">transporte pasivo</mark> y <mark class=\"clave-criterio\">no requiere energía</mark> (0,25 p).",
+    "<b>I.</b> b) <mark class=\"clave-criterio\">Sí</mark>: la difusión facilitada también es <mark class=\"clave-criterio\">transporte pasivo</mark> (0,25 p).",
+    "<b>I.</b> c) <mark class=\"clave-criterio\">No</mark>: se realiza <mark class=\"clave-criterio\">en contra de gradiente</mark>, con <mark class=\"clave-criterio\">consumo de energía</mark> (0,25 p).",
+    "<b>I.</b> d) La bomba Na⁺-K⁺ <mark class=\"clave-criterio\">no funcionaría</mark> porque <mark class=\"clave-criterio\">requiere ATP</mark> al ser <mark class=\"clave-criterio\">transporte activo</mark> (0,25 p).",
+    "<b>II.</b> a) <mark class=\"clave-criterio\">Herencia intermedia</mark>, porque aparece un <mark class=\"clave-criterio\">fenotipo intermedio</mark> (oval) (0,3 p).",
+    "<b>II.</b> b) <mark class=\"clave-criterio\">RR</mark> (largos), <mark class=\"clave-criterio\">rr</mark> (redondos) y <mark class=\"clave-criterio\">Rr</mark> (ovales), o cualquier otra nomenclatura (0,3 p).",
+    "<b>II.</b> c) Rr × RR: <mark class=\"clave-criterio\">0 % redondos</mark> (0,1 p); <mark class=\"clave-criterio\">50 % largos RR y 50 % ovales Rr</mark> (0,3 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2017-septiembre-b4",
+    "pau2017-septiembre-b5"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de septiembre",
+    "referencia": "Titular de septiembre, opción B, pregunta 4 + Titular de septiembre, opción B, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Modelo 2 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Criterios Modelo 2 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2017-septiembre-b6+b7",
+   "block": "Genética",
+   "topic": "Traducción: elementos del proceso · Enlace peptídico y ARN transferente",
+   "anio": 2017,
+   "etiqueta": "PAU 2017",
+   "hasImg": true,
+   "q": "<b>I.</b> <b>En relación con la figura adjunta, responda a las siguientes cuestiones:</b><br>a) ¿Qué proceso biológico representa? [0,2].<br>b) Identifique los elementos señalados con las letras A, B, C, y D [0,8]. <i>(1 punto)</i><br><br><b>II.</b> <b>En relación con la figura de la pregunta anterior, responda a las siguientes cuestiones:</b><br>a) Indique el tipo de enlace que caracteriza a la molécula C y escriba la reacción de formación de este enlace [0,5].<br>b) Indique la composición [0,25] y la función que desempeña el elemento A en este proceso [0,25]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) <mark class=\"clave-criterio\">Traducción</mark> o síntesis de proteínas (0,2 p).",
+    "<b>I.</b> b) A: <mark class=\"clave-criterio\">ARN transferente</mark> (aminoacil-ARNt); B: <mark class=\"clave-criterio\">ARN mensajero</mark>; C: <mark class=\"clave-criterio\">polipéptido</mark>; D: <mark class=\"clave-criterio\">ribosoma</mark> (subunidad grande). 0,2 p cada uno (0,8 p).",
+    "<b>II.</b> a) <mark class=\"clave-criterio\">Enlace peptídico</mark> (0,1 p). Reacción (0,4 p): <span class=\"redactado\">el grupo carboxilo de un aminoácido reacciona con el grupo amino del siguiente: R₁–COOH + H₂N–R₂ → R₁–CO–NH–R₂ + H₂O</span>.",
+    "<b>II.</b> b) Composición: <mark class=\"clave-criterio\">ribonucleótidos</mark> (bases nitrogenadas, ribosa y fosfato) (0,25 p). Función: <mark class=\"clave-criterio\">transporta de forma específica los aminoácidos</mark> en la síntesis de proteínas según su <mark class=\"clave-criterio\">anticodón</mark> (0,25 p)."
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2017-septiembre-b6",
+    "pau2017-septiembre-b7"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2017 · Titular de septiembre",
+    "referencia": "Titular de septiembre, opción B, pregunta 6 + Titular de septiembre, opción B, pregunta 7",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Modelo 2 Andalucia 16-17-BIOLOGIA.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2017/titular_septiembre_Criterios Modelo 2 Andalucía 16-17-BIOLOGIA.pdf",
+    "examen_anio": 2017,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2017/sept-b6.webp",
+   "imgThumb": "assets/figuras/historico/2017/sept-b6.thumb.webp",
+   "imageDesc": "Una gran estructura (D) sobre una hebra 5'→3' (B) con la secuencia GGGAAAUCGGUC; moléculas en forma de trébol (A) llevan unidades aa y se acoplan a la hebra; de la estructura sale una cadena aa1-aa4 con H₂N en el extremo (C)."
   },
   {
    "id": "pau2026-modelo-1",
