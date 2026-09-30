@@ -13,8 +13,8 @@ conceptual, la aplicación y la argumentación científica.
 | `index.html` | Portada y navegación |
 | `orientacionespau.html` | Saberes básicos, resultados de aprendizaje y criterios de evaluación |
 | `resumenespau.html` | Resúmenes y apuntes por bloques temáticos |
-| `Entrenamientopau.html` | Banco de 1128 preguntas con criterios de corrección y tips, más diccionario de 805 términos |
-| `simulacropau.html` | 842 preguntas con estructura de examen |
+| `Entrenamientopau.html` | Banco de 1218 preguntas con criterios de corrección y tips, más diccionario de 805 términos |
+| `simulacropau.html` | 902 preguntas con estructura de examen |
 | `laboratoriocompetencial.html` | Casos de razonamiento científico |
 | `laboratorioinvestigacion.html` | «Tu primer año en el laboratorio»: 19 expedientes que aplican las novedades de la PAU 2026-27, con decisiones, informe modelo y progreso |
 
@@ -52,7 +52,7 @@ oficiales (se ven resaltadas) y `((texto))` lo que ha redactado BioCelia y
 no está en los criterios (se ve en morado). Las figuras se recortan del PDF
 a 200 ppp en `assets/figuras/historico/AAAA/` para conservar las etiquetas.
 
-Incorporados: 2010 a 2018 y 2021 (710 preguntas; de 2012 no está el examen 2) y el modelo oficial de prueba de las Directrices 2026-27 (8 preguntas, etiqueta «Modelo 26-27»).
+Incorporados: 2010 a 2018, 2021 y 2022 (800 preguntas; de 2012 no está el examen 2) y el modelo oficial de prueba de las Directrices 2026-27 (8 preguntas, etiqueta «Modelo 26-27»).
 
 ## Qué no está en el repositorio
 
