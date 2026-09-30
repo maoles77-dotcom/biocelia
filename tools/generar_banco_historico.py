@@ -98,7 +98,12 @@ def construir(anios):
         for examen in anio['examenes']:
             ex_id = examen.get('id') or f"e{examen['numero']}"
             ex_nombre = examen.get('nombre') or f"Examen {examen['numero']}"
-            documento = f"{anio.get('documento', f'PAU Andalucía {a}')} · {ex_nombre}"
+            # Un examen puede sustituir la etiqueta, el documento y el texto de
+            # origen del año (p. ej. los de otras comunidades en 2025).
+            etiqueta = examen.get('etiqueta') or anio.get('etiqueta', f'PAU {a}')
+            origen_texto = examen.get('origen_texto') or anio.get(
+                'origen_texto', 'Pregunta oficial de la PAU de Andalucía ' + anio['curso'])
+            documento = f"{examen.get('documento') or anio.get('documento', f'PAU Andalucía {a}')} · {ex_nombre}"
             fuente = f"{anio['carpeta']}/{examen['enunciado']}"
             criterios = (f"{anio['carpeta']}/{examen['criterios']}"
                          if examen.get('criterios') else None)
@@ -110,14 +115,14 @@ def construir(anios):
                     f"pregunta {p['n']}") if x)
                 validar(f'{a} {ref_txt}', p)
                 clave = re.sub(r'[^a-z0-9-]', '', f"pau{a}-{ex_id}-{opcion}{p['n']}".lower())
-                puntos = puntos_de(p, bloques)
+                puntos = p.get('puntos') or examen.get('puntos') or puntos_de(p, bloques)
                 figura = p.get('figura')
                 comun = {
                     'id': clave,
                     'block': p['bloque'],
                     'topic': p['tema'],
                     'anio': a,
-                    'etiqueta': anio.get('etiqueta', f'PAU {a}'),
+                    'etiqueta': etiqueta,
                     'hasImg': bool(figura),
                     'competencial': bool(figura) or bool(p.get('competencial')),
                     'q': p['q'],
@@ -140,8 +145,8 @@ def construir(anios):
                     **comun,
                     'isNew': False,
                     'puntos': puntos,
-                    'f': (f"{anio.get('origen_texto', 'Pregunta oficial de la PAU de Andalucía ' + anio['curso'])} "
-                          f"({ref_txt}, {puntos} "
+                    'f': (f"{origen_texto} "
+                          f"({ref_txt}, {str(puntos).replace('.', ',')} "
                           f"{'punto' if puntos == 1 else 'puntos'}). "
                           + p.get('tip', 'Resaltadas, las palabras clave de los criterios '
                                          'oficiales de corrección: son las que puntúan.')),

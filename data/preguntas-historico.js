@@ -1,7 +1,7 @@
 /* ══════════════════════════════════════════════════════════════
    Generado por tools/generar_banco_historico.py el 2026-09-30.
    NO editar a mano: se regenera desde data/historico/pau-*.json.
-   928 preguntas para Entrenamiento y 708 para Simulacro,
+   947 preguntas para Entrenamiento y 727 para Simulacro,
    de exámenes PAU oficiales con sus criterios de corrección.
    ══════════════════════════════════════════════════════════════ */
 window.BIOCELIA_HISTORICO = {
@@ -24803,6 +24803,553 @@ window.BIOCELIA_HISTORICO = {
    "f": "Pregunta oficial de la PAU de Andalucía 2023-2024 (Reserva, modelo B, bloque C, pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
   },
   {
+   "id": "pau2025-aragon-1",
+   "block": "Metabolismo",
+   "topic": "Fermentación alcohólica y láctica en dos tanques; OMG y transgénicos",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Aragón",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>PREGUNTA DE CARÁCTER OBLIGATORIO (2 puntos): En el laboratorio se está trabajando con dos tanques con reactivos. En cada uno de ellos se está llevando a cabo un proceso bioquímico diferente, representado por las gráficas A y B. A partir de las gráficas responda las siguientes preguntas:</b><br>a) ¿Desde el punto de vista metabólico, qué ocurre en el minuto 4 en ambas gráficas? Razone su respuesta. (0,4 puntos)<br>b) ¿Qué rutas de degradación de la glucosa se están llevando a cabo antes y después del minuto 4 en cada gráfica? (0,4 puntos)<br>c) Explique el comportamiento de la concentración de CO₂ a lo largo del tiempo en ambos casos. ¿A qué se debe este patrón? (0,4 puntos)<br>d) Tras un tiempo de incubación, ¿cómo habrá cambiado el pH en ambas gráficas? Justifíquelo. (0,2 puntos)<br>e) ¿Cuál de las dos gráficas representaría el proceso para la obtención del pan? ¿Y del vino? Justifique su respuesta, indicando en ambos casos qué sucede al final con el producto representado por la línea verde. (0,2 puntos)<br>f) En la industria alimentaria, en agricultura, en medicina, etc. se están utilizando organismos modificados genéticamente (OMG) y organismos transgénicos, ¿cuál es la diferencia? Cite un ejemplo de cada uno. (0,4 puntos)",
+   "c": [
+    "a) En el minuto 4 el metabolismo <mark class=\"clave-criterio\">pasa de aeróbico a anaeróbico</mark>: en A empieza a aumentar el <mark class=\"clave-criterio\">etanol</mark> y en B el <mark class=\"clave-criterio\">ácido láctico</mark>, señal de que <mark class=\"clave-criterio\">se ha iniciado la fermentación</mark> (0,4 p).",
+    "b) Antes del minuto 4, en ambas: <mark class=\"clave-criterio\">glucólisis</mark> y <mark class=\"clave-criterio\">respiración aeróbica</mark> (<mark class=\"clave-criterio\">ciclo de Krebs</mark> y <mark class=\"clave-criterio\">fosforilación oxidativa</mark>). Después: en A, <mark class=\"clave-criterio\">glucólisis y fermentación alcohólica</mark> (piruvato → etanol + CO₂); en B, <mark class=\"clave-criterio\">glucólisis y fermentación láctica</mark> (piruvato → ácido láctico, <mark class=\"clave-criterio\">sin CO₂</mark>) (0,4 p).",
+    "c) En A el CO₂ aumenta poco antes del minuto 4 (del <mark class=\"clave-criterio\">ciclo de Krebs</mark>) y <mark class=\"clave-criterio\">más rápido después</mark>, por la <mark class=\"clave-criterio\">fermentación alcohólica</mark>, que <mark class=\"clave-criterio\">libera CO₂</mark>. En B sube un poco antes del minuto 4 y luego <mark class=\"clave-criterio\">se estabiliza</mark>, porque la <mark class=\"clave-criterio\">fermentación láctica no produce CO₂</mark> (sin descarboxilación) (0,4 p).",
+    "d) En A el pH <mark class=\"clave-criterio\">no varía</mark> (o baja ligeramente por el CO₂, que forma ácido carbónico); en B el pH <mark class=\"clave-criterio\">desciende notablemente</mark> porque se acumula <mark class=\"clave-criterio\">ácido láctico</mark> (0,2 p).",
+    "e) <mark class=\"clave-criterio\">Pan: gráfica A</mark>: el <mark class=\"clave-criterio\">CO₂</mark> de la fermentación alcohólica <mark class=\"clave-criterio\">esponja la masa</mark> y el etanol <mark class=\"clave-criterio\">se evapora en la cocción</mark>. <mark class=\"clave-criterio\">Vino: gráfica A</mark>: el <mark class=\"clave-criterio\">etanol</mark> (línea verde) es el <mark class=\"clave-criterio\">producto de interés</mark>. La gráfica B no sirve para ninguno (0,2 p).",
+    "f) <mark class=\"clave-criterio\">OMG</mark>: organismo cuyo material genético se ha <mark class=\"clave-criterio\">alterado con técnicas biotecnológicas</mark>, <mark class=\"clave-criterio\">sin necesidad de genes de otra especie</mark> (p. ej., <mark class=\"clave-criterio\">tomate con una mutación que retrasa la maduración</mark>). <mark class=\"clave-criterio\">Transgénico</mark>: OMG que ha <mark class=\"clave-criterio\">recibido genes de otra especie</mark> (p. ej., <mark class=\"clave-criterio\">maíz Bt</mark> con un gen de <i>Bacillus thuringiensis</i> resistente a plagas) (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU 2025 Aragón (Universidad de Zaragoza) · Aragón, convocatoria ordinaria",
+    "referencia": "Aragón, convocatoria ordinaria, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Aragón (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Aragón (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025/aragon-1.webp",
+   "imgThumb": "assets/figuras/historico/2025/aragon-1.thumb.webp",
+   "imageDesc": "Dos gráficas de cantidad frente al tiempo (minutos 1 a 8). En A la glucosa baja, el CO₂ sube poco hasta el minuto 4 y luego más deprisa, y el etanol aparece a partir del minuto 4. En B la glucosa baja, el CO₂ sube hasta el minuto 4 y luego se estabiliza, y el ácido láctico aparece a partir del minuto 4.",
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU 2025 de Aragón, con sus criterios de corrección (modelo competencial, útil para 2026) (Aragón, convocatoria ordinaria, pregunta 1, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2025-aragon-a2",
+   "block": "Genética",
+   "topic": "Replicación del ADN: burbujas y horquilla",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Aragón",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>Responda las siguientes cuestiones:</b><br>a) ¿Qué proceso muestra la imagen de microscopía electrónica? Identifique la región señalada con flechas. (0,2 puntos)<br>b) Identifique el tipo de molécula (número 1) que está siendo sintetizada mediante el proceso esquematizado en la figura adjunta. (0,2 puntos)<br>c) Identifique y describa la función de los elementos 2, 3, 4, 5 y 6 en este proceso de síntesis. (1 punto)<br>d) Indique cuál es el motivo por el cual la síntesis de la molécula 1 en la cadena A es diferente a la síntesis de la molécula 1 en la cadena B. Justifique su respuesta. (0,6 puntos)",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Replicación del ADN</mark>; las flechas señalan <mark class=\"clave-criterio\">burbujas de replicación</mark> (0,2 p).",
+    "b) <mark class=\"clave-criterio\">ADN</mark>: una <mark class=\"clave-criterio\">nueva hebra de ADN</mark> (0,2 p).",
+    "c) 2: <mark class=\"clave-criterio\">ADN polimerasa</mark>, añade nucleótidos en sentido <mark class=\"clave-criterio\">5'→3'</mark> usando la hebra molde. 3: <mark class=\"clave-criterio\">proteínas SSB</mark>, <mark class=\"clave-criterio\">impiden que las hebras separadas vuelvan a unirse</mark>. 4: <mark class=\"clave-criterio\">cebadores de ARN</mark> (sintetizados por la <mark class=\"clave-criterio\">primasa</mark>), <mark class=\"clave-criterio\">punto de inicio</mark> para la ADN polimerasa. 5: <mark class=\"clave-criterio\">helicasa</mark>, <mark class=\"clave-criterio\">desenrolla y separa</mark> las hebras. 6: <mark class=\"clave-criterio\">topoisomerasa</mark>, <mark class=\"clave-criterio\">evita el superenrollamiento</mark> delante de la horquilla (1 p).",
+    "d) Por el <mark class=\"clave-criterio\">antiparalelismo</mark> del ADN y porque la ADN polimerasa <mark class=\"clave-criterio\">solo sintetiza en sentido 5'→3'</mark>: la cadena A (<mark class=\"clave-criterio\">adelantada</mark>) se sintetiza <mark class=\"clave-criterio\">de forma continua</mark>; la B (<mark class=\"clave-criterio\">retardada</mark>) de forma <mark class=\"clave-criterio\">discontinua</mark>, en <mark class=\"clave-criterio\">fragmentos de Okazaki</mark>, con <mark class=\"clave-criterio\">varios cebadores</mark> (0,6 p)."
+   ],
+   "origen": {
+    "documento": "PAU 2025 Aragón (Universidad de Zaragoza) · Aragón, convocatoria ordinaria",
+    "referencia": "Aragón, convocatoria ordinaria, opción A, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Aragón (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Aragón (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025/aragon-2a.webp",
+   "imgThumb": "assets/figuras/historico/2025/aragon-2a.thumb.webp",
+   "imageDesc": "Micrografía electrónica de filamentos con zonas abiertas señaladas con flechas. Esquema de una horquilla: la doble hélice se abre por la acción de 6 y 5; las hebras separadas se cubren de pequeñas esferas (3); sobre la hebra A se sintetiza una cadena continua (1) desde un cebador (4); sobre la hebra B, varios fragmentos con cebadores (4) y enzimas (2).",
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU 2025 de Aragón, con sus criterios de corrección (modelo competencial, útil para 2026) (Aragón, convocatoria ordinaria, opción A, pregunta 2, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2025-aragon-b2",
+   "block": "Genética",
+   "topic": "Código genético: del polipéptido al ADN y mutación",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Aragón",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>A continuación, se muestra el fragmento de una cadena polipeptídica cuya secuencia es: NH₂ - Met - Cys - Asp - Trp - COOH. Usando la tabla adjunta, responda a las siguientes cuestiones:</b><br>a) ¿Qué representa la tabla? Explíquelo brevemente. (0,2 puntos)<br>b) Escriba una posible secuencia de ARNm que dé lugar a este polipéptido, indicando sus extremos. (0,5 puntos)<br>c) Indique la secuencia de bases del ADN que codificaría el ARNm que ha propuesto. (0,6 puntos)<br>d) Señale una posible mutación de la secuencia de ADN que cambiaría el aminoácido Cys por Ser. ¿Qué tipo de mutación sería? (0,3 puntos)<br>e) ¿Dicha mutación se transmitirá a la descendencia? Razone su respuesta (0,4 puntos)",
+   "c": [
+    "a) El <mark class=\"clave-criterio\">código genético</mark>: la <mark class=\"clave-criterio\">correspondencia entre los codones del ARNm y los aminoácidos</mark>, con el <mark class=\"clave-criterio\">codón de inicio AUG</mark> (Met) y los <mark class=\"clave-criterio\">de terminación</mark> (UAA, UAG, UGA) (0,2 p).",
+    "b) Por ejemplo, <mark class=\"clave-criterio\">5'-AUG UGC GAU UGG-3'</mark> (también UGU para Cys y GAC para Asp) (0,5 p).",
+    "c) Cadena molde: <mark class=\"clave-criterio\">3'-TAC ACG CTA ACC-5'</mark> <span class=\"redactado\">y su codificante 5'-ATG TGC GAT TGG-3'</span> (0,6 p).",
+    "d) Cambiar UGC por <mark class=\"clave-criterio\">UCC</mark> (en la cadena codificante TGC → TCC; en la molde ACG → AGG): <mark class=\"clave-criterio\">mutación de sustitución (puntual)</mark> (0,3 p).",
+    "e) <mark class=\"clave-criterio\">Depende de la célula</mark>: en una <mark class=\"clave-criterio\">célula somática no se hereda</mark>; en una <mark class=\"clave-criterio\">célula germinal sí</mark> puede pasar a los gametos y a la descendencia (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU 2025 Aragón (Universidad de Zaragoza) · Aragón, convocatoria ordinaria",
+    "referencia": "Aragón, convocatoria ordinaria, opción B, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Aragón (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Aragón (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025/aragon-2b.webp",
+   "imgThumb": "assets/figuras/historico/2025/aragon-2b.thumb.webp",
+   "imageDesc": "Tabla del código genético: primera letra (U, C, A, G) en filas, segunda letra en columnas y tercera letra a la derecha; cada casilla indica los codones y su aminoácido, con AUG (Met) y los codones STOP UAA, UAG y UGA.",
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU 2025 de Aragón, con sus criterios de corrección (modelo competencial, útil para 2026) (Aragón, convocatoria ordinaria, opción B, pregunta 2, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2025-aragon-a3",
+   "block": "Biomoléculas",
+   "topic": "Moléculas del asteroide Ryugu: disacárido y aminoácido",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Aragón",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>Un equipo de científicos analizó muestras del asteroide Ryugu, recogidas a 15 millones de kilómetros de la Tierra, y encontró moléculas que podrían haber contribuido al origen de la vida.</b><br>a) Identifique las moléculas 1 y 2 de la imagen. Sea lo más concreto posible. (0,2 puntos)<br>b) Respecto a la molécula 1, ¿cuáles son sus unidades estructurales? ¿cómo se llama el enlace entre dichas estructuras? (0,4 puntos)<br>c) Respecto a la molécula 2, ¿de qué macromolécula es monómero y qué enlace une esos monómeros tipo 2? (0,4 puntos)<br>d) Describa los diferentes niveles estructurales de la macromolécula formada por la unión de varios monómeros tipo 2, así como el tipo de enlaces que se forman para la estabilización de dichas estructuras. ¿En qué orgánulo celular se añaden moléculas 1 a las macromoléculas formadas por las moléculas 2? (1 punto)",
+   "c": [
+    "a) 1: <mark class=\"clave-criterio\">disacárido</mark> (lactosa); 2: <mark class=\"clave-criterio\">aminoácido</mark> (0,2 p).",
+    "b) Dos <mark class=\"clave-criterio\">monosacáridos</mark> (glucosa y galactosa), unidos por <mark class=\"clave-criterio\">enlace O-glucosídico</mark> (0,4 p).",
+    "c) Monómero de las <mark class=\"clave-criterio\">proteínas</mark>; enlace <mark class=\"clave-criterio\">peptídico</mark> (0,4 p).",
+    "d) <mark class=\"clave-criterio\">Primaria</mark>: secuencia de aminoácidos, <mark class=\"clave-criterio\">enlaces peptídicos</mark>. <mark class=\"clave-criterio\">Secundaria</mark>: <mark class=\"clave-criterio\">α-hélice</mark> o <mark class=\"clave-criterio\">lámina β</mark>, <mark class=\"clave-criterio\">puentes de hidrógeno</mark> entre CO y NH. <mark class=\"clave-criterio\">Terciaria</mark>: plegamiento por interacciones entre radicales: <mark class=\"clave-criterio\">puentes disulfuro</mark>, <mark class=\"clave-criterio\">interacciones hidrofóbicas</mark>, <mark class=\"clave-criterio\">puentes de hidrógeno</mark> e <mark class=\"clave-criterio\">iónicas</mark>. <mark class=\"clave-criterio\">Cuaternaria</mark>: <mark class=\"clave-criterio\">varias cadenas</mark> unidas por los mismos enlaces. Los glúcidos se añaden en el <mark class=\"clave-criterio\">aparato de Golgi</mark> (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU 2025 Aragón (Universidad de Zaragoza) · Aragón, convocatoria ordinaria",
+    "referencia": "Aragón, convocatoria ordinaria, opción A, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Aragón (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Aragón (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025/aragon-3a.webp",
+   "imgThumb": "assets/figuras/historico/2025/aragon-3a.thumb.webp",
+   "imageDesc": "1: dos anillos de seis átomos con grupos OH y CH₂OH unidos por un oxígeno. 2: un carbono unido a un grupo carboxilo, un grupo amino, un H y un radical R.",
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU 2025 de Aragón, con sus criterios de corrección (modelo competencial, útil para 2026) (Aragón, convocatoria ordinaria, opción A, pregunta 3, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2025-aragon-b3",
+   "block": "Biomoléculas",
+   "topic": "Un fosfolípido: componentes, membrana y ácidos grasos",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Aragón",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>Observando la molécula de la imagen:</b><br>a) ¿De qué tipo de biomolécula se trata? Indique sus componentes químicos y tipo de enlaces entre ellos. (0,6 puntos)<br>b) ¿En qué estructura celular aparece principalmente? Justifique su orientación en esta estructura, basándose en sus propiedades químicas. (0,4 puntos)<br>c) Las moléculas unidas a los carbonos 1C y 2C presentan estados físicos distintos a temperatura ambiente (sólido y líquido, respectivamente). ¿A qué se debe esta diferencia? Justifique su respuesta. (0,4 puntos)<br>d) Si el compuesto unido al carbono 1 se degradara en una célula animal, ¿Qué rutas metabólicas, y en qué parte de la célula se llevarían a cabo, para conseguir su oxidación completa? (0,6 puntos)",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Fosfolípido</mark> (glicerofosfolípido): <mark class=\"clave-criterio\">glicerol</mark>, <mark class=\"clave-criterio\">dos ácidos grasos</mark> (uno saturado y otro insaturado) unidos por <mark class=\"clave-criterio\">enlaces éster</mark>, y una <mark class=\"clave-criterio\">cabeza polar</mark> con <mark class=\"clave-criterio\">fosfato</mark> y un <mark class=\"clave-criterio\">aminoalcohol</mark>, unida por <mark class=\"clave-criterio\">enlace fosfodiéster</mark> (0,6 p).",
+    "b) En la <mark class=\"clave-criterio\">membrana plasmática</mark>, formando una <mark class=\"clave-criterio\">bicapa</mark>: las <mark class=\"clave-criterio\">cabezas polares (hidrófilas)</mark> hacia el <mark class=\"clave-criterio\">medio acuoso</mark> y las <mark class=\"clave-criterio\">colas hidrófobas</mark> hacia el <mark class=\"clave-criterio\">interior</mark> (0,4 p).",
+    "c) El del C1 es <mark class=\"clave-criterio\">saturado</mark> (sin dobles enlaces), se <mark class=\"clave-criterio\">empaqueta mejor</mark> y es sólido; el del C2 es <mark class=\"clave-criterio\">insaturado</mark>, sus dobles enlaces forman <mark class=\"clave-criterio\">codos</mark> que <mark class=\"clave-criterio\">impiden el empaquetamiento</mark> y <mark class=\"clave-criterio\">bajan el punto de fusión</mark> (0,4 p).",
+    "d) <mark class=\"clave-criterio\">β-oxidación</mark> (matriz mitocondrial), <mark class=\"clave-criterio\">ciclo de Krebs</mark> (matriz mitocondrial) y <mark class=\"clave-criterio\">cadena de transporte electrónico y fosforilación oxidativa</mark> (membrana mitocondrial interna) (0,6 p)."
+   ],
+   "origen": {
+    "documento": "PAU 2025 Aragón (Universidad de Zaragoza) · Aragón, convocatoria ordinaria",
+    "referencia": "Aragón, convocatoria ordinaria, opción B, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Aragón (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Aragón (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025/aragon-3b.webp",
+   "imgThumb": "assets/figuras/historico/2025/aragon-3b.thumb.webp",
+   "imageDesc": "Molécula de tres carbonos (¹C, ²C, ³C): en ¹C un grupo –O–CO–(CH₂)₁₆–CH₃; en ²C un grupo –O–CO– con una cadena con dos dobles enlaces; en ³C un grupo fosfato unido a –(CH₂)₂–NH₃⁺.",
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU 2025 de Aragón, con sus criterios de corrección (modelo competencial, útil para 2026) (Aragón, convocatoria ordinaria, opción B, pregunta 3, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2025-aragon-a4",
+   "block": "Célula",
+   "topic": "Membrana plasmática: componentes y transporte",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Aragón",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>A continuación se visualiza la siguiente estructura de una célula animal.</b><br>a) ¿Qué estructura representa la siguiente imagen? Justifíquelo (0,3 puntos)<br>b) Identifique las estructuras señaladas con los números 1 al 7. (0,7 puntos)<br>c) Si esta estructura presentara una gran cantidad de moléculas identificadas con el número 2, ¿qué le ocurriría a esta estructura? Justifique su respuesta (0,2 puntos)<br>d) ¿En qué se parecen y en qué se diferencian las estructuras A y B en cuanto a su función? (0,8 puntos)",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Membrana plasmática</mark>: <mark class=\"clave-criterio\">bicapa lipídica con proteínas</mark>, <mark class=\"clave-criterio\">citoesqueleto</mark> asociado y otros componentes (0,3 p).",
+    "b) 1: <mark class=\"clave-criterio\">bicapa lipídica</mark>; 2: <mark class=\"clave-criterio\">colesterol</mark>; 3: <mark class=\"clave-criterio\">citoesqueleto</mark> (córtex); 4: <mark class=\"clave-criterio\">glucocálix</mark> (glucolípido); 5: <mark class=\"clave-criterio\">proteína integral</mark>; 6: <mark class=\"clave-criterio\">glucoproteínas</mark>; 7: <mark class=\"clave-criterio\">fosfolípido</mark> (hemicapa interna) (0,7 p).",
+    "c) Con mucho colesterol la membrana <mark class=\"clave-criterio\">perdería fluidez</mark> (0,2 p).",
+    "d) Semejanza: ambas <mark class=\"clave-criterio\">transportan moléculas a través de la membrana</mark>. Diferencia: A (<mark class=\"clave-criterio\">proteína canal</mark>) permite el paso <mark class=\"clave-criterio\">a favor de gradiente, sin gasto de energía</mark> (<mark class=\"clave-criterio\">transporte pasivo</mark>); B (<mark class=\"clave-criterio\">bomba</mark>) usa <mark class=\"clave-criterio\">ATP</mark> para transportar <mark class=\"clave-criterio\">contra gradiente</mark> (<mark class=\"clave-criterio\">transporte activo</mark>) (0,8 p)."
+   ],
+   "origen": {
+    "documento": "PAU 2025 Aragón (Universidad de Zaragoza) · Aragón, convocatoria ordinaria",
+    "referencia": "Aragón, convocatoria ordinaria, opción A, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Aragón (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Aragón (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025/aragon-4a.webp",
+   "imgThumb": "assets/figuras/historico/2025/aragon-4a.thumb.webp",
+   "imageDesc": "Bicapa de esferas con colas (1), pequeñas moléculas intercaladas (2), una red de filamentos por debajo (3), cadenas ramificadas en la superficie (4, 6), una proteína que atraviesa la bicapa (5), la capa interna (7), una proteína con un canal (A) y otra que transporta partículas con gasto de P (B).",
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU 2025 de Aragón, con sus criterios de corrección (modelo competencial, útil para 2026) (Aragón, convocatoria ordinaria, opción A, pregunta 4, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2025-aragon-b4",
+   "block": "Célula",
+   "topic": "Meiosis y mitosis; quiasma",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Aragón",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la figura:</b><br>a) ¿Qué imagen representa la mitosis y la meiosis? ¿En qué fase se encuentra cada una de ellas? ¿En qué tipo de células se produce A y en cuáles se produce B? (0,6 puntos)<br>b) Identifique la estructura marcada con el número 1. ¿Cuál es su función? (0,4 puntos)<br>c) Identifique la estructura marcada con el número 2. ¿Qué está ocurriendo? ¿Qué importancia biológica tiene? (0,6 puntos)<br>d) ¿Qué particularidades presenta la división celular de la célula eucariota vegetal respecto a la célula animal? (0,4 puntos)",
+   "c": [
+    "a) <mark class=\"clave-criterio\">A: meiosis</mark>, en <mark class=\"clave-criterio\">metafase I</mark>, en <mark class=\"clave-criterio\">células germinales</mark>. <mark class=\"clave-criterio\">B: mitosis</mark>, en <mark class=\"clave-criterio\">metafase</mark>, en <mark class=\"clave-criterio\">células somáticas</mark> (0,6 p).",
+    "b) 1: <mark class=\"clave-criterio\">huso acromático</mark> (mitótico o meiótico): <mark class=\"clave-criterio\">dirige el movimiento de los cromosomas</mark> para que cada célula hija reciba su dotación (0,4 p).",
+    "c) 2: <mark class=\"clave-criterio\">quiasma</mark>: se ha producido la <mark class=\"clave-criterio\">recombinación genética</mark> (intercambio de segmentos entre <mark class=\"clave-criterio\">cromátidas homólogas</mark>), que <mark class=\"clave-criterio\">aumenta la variabilidad genética</mark> de los gametos (0,6 p).",
+    "d) Citocinesis: en animales por <mark class=\"clave-criterio\">anillo contráctil</mark> y <mark class=\"clave-criterio\">surco de segmentación</mark>; en vegetales por <mark class=\"clave-criterio\">fragmoplasto</mark> (placa celular) a partir de <mark class=\"clave-criterio\">vesículas del Golgi</mark>. Huso: en vegetales <mark class=\"clave-criterio\">sin centriolos ni áster</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU 2025 Aragón (Universidad de Zaragoza) · Aragón, convocatoria ordinaria",
+    "referencia": "Aragón, convocatoria ordinaria, opción B, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Aragón (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Aragón (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025/aragon-4b.webp",
+   "imgThumb": "assets/figuras/historico/2025/aragon-4b.thumb.webp",
+   "imageDesc": "A: célula con parejas de cromosomas homólogos en el centro y un detalle ampliado de un cruce entre cromátidas (2). B: célula con cromosomas alineados uno a uno en el ecuador. Unas fibras (1) van de los polos a los cromosomas.",
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU 2025 de Aragón, con sus criterios de corrección (modelo competencial, útil para 2026) (Aragón, convocatoria ordinaria, opción B, pregunta 4, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2025-aragon-a5",
+   "block": "Inmunología",
+   "topic": "Rubeola: respuesta primaria y secundaria",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Aragón",
+   "hasImg": false,
+   "competencial": true,
+   "q": "Una mujer, que de niña contrajo el virus de la rubeola, presenta en sangre una baja concentración de anticuerpos frente al virus. Se le recomienda vacunarse para evitar problemas. La analítica tras la vacunación muestra una concentración de anticuerpos frente al virus mayor.<br>a) ¿Qué tipo de respuesta inmune se generó tras el contacto con el virus? ¿Y tras la vacunación? Razónelo. (0,6 puntos)<br>b) Tras la vacuna la respuesta inmune es más rápida e intensa, ¿por qué? (0,6 puntos)<br>c) ¿Qué anticuerpo predominó tras el contacto con el virus? ¿Y tras la vacunación? (0,6 puntos)<br>d) Dada la naturaleza molecular de los anticuerpos, ¿en qué orgánulo se sintetizan? (0,2 puntos)",
+   "c": [
+    "a) Tras el virus: <mark class=\"clave-criterio\">respuesta primaria</mark> (primer contacto con el antígeno). Tras la vacuna: <mark class=\"clave-criterio\">respuesta secundaria</mark>, porque ya había <mark class=\"clave-criterio\">células de memoria</mark> (0,6 p).",
+    "b) La primera exposición generó <mark class=\"clave-criterio\">linfocitos B de memoria</mark>, que <mark class=\"clave-criterio\">responden rápidamente</mark> y producen anticuerpos <mark class=\"clave-criterio\">en más cantidad</mark> (0,6 p).",
+    "c) Tras el virus: <mark class=\"clave-criterio\">IgM</mark>; tras la vacuna: <mark class=\"clave-criterio\">IgG</mark> (0,6 p).",
+    "d) Son <mark class=\"clave-criterio\">glucoproteínas</mark>: se sintetizan en el <mark class=\"clave-criterio\">retículo endoplasmático rugoso</mark> (ribosomas asociados al RER) (0,2 p)."
+   ],
+   "origen": {
+    "documento": "PAU 2025 Aragón (Universidad de Zaragoza) · Aragón, convocatoria ordinaria",
+    "referencia": "Aragón, convocatoria ordinaria, opción A, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Aragón (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Aragón (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU 2025 de Aragón, con sus criterios de corrección (modelo competencial, útil para 2026) (Aragón, convocatoria ordinaria, opción A, pregunta 5, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2025-aragon-b5",
+   "block": "Inmunología",
+   "topic": "Tuberculosis: transferencia de plasma o de linfocitos",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Aragón",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>El bacilo de Koch produce la tuberculosis. El ratón A superó esta enfermedad de manera natural hace un año. Se le extrajo sangre, y en un tubo se aisló el plasma (contiene todos los componentes de la sangre salvo las células), mientras que en otro tubo se aislaron únicamente sus linfocitos. El contenido de estos tubos se administró a dos ratones diferentes. Horas después a ambos se les administró el bacilo. El ratón B murió, mientras que el ratón C sobrevivió.</b><br>a) ¿Cómo podría explicar el resultado? Razónelo. (0,6 puntos)<br>b) Se analizó la sangre del ratón B (una vez fallecido) y no se detectaron anticuerpos contra el bacilo. Transcurridas unas horas, en el ratón C sí que se detectaron anticuerpos contra el bacilo. Razone qué tipos de anticuerpos habrá en la sangre del ratón C. (0,6 puntos)<br>c) ¿En qué se diferenciará esta respuesta del ratón C con la que tuvo el ratón A cuándo enfermó por primera vez? Razónelo (puede ayudarse de una gráfica). (0,8 puntos)",
+   "c": [
+    "a) La protección no está en el <mark class=\"clave-criterio\">plasma</mark> sino en los <mark class=\"clave-criterio\">linfocitos</mark>: al ratón B el plasma ya <mark class=\"clave-criterio\">no le aportaba anticuerpos</mark> (había pasado mucho tiempo) ni <mark class=\"clave-criterio\">linfocitos de memoria</mark>; el ratón C recibió <mark class=\"clave-criterio\">células de memoria</mark> que <mark class=\"clave-criterio\">reconocieron rápido al bacilo</mark> (0,6 p).",
+    "b) Sobre todo <mark class=\"clave-criterio\">IgG</mark>, propias de la <mark class=\"clave-criterio\">respuesta secundaria</mark>; poca IgM (0,6 p).",
+    "c) Ratón A (<mark class=\"clave-criterio\">primaria</mark>): primero <mark class=\"clave-criterio\">IgM</mark> y luego IgG, respuesta <mark class=\"clave-criterio\">más lenta y menos intensa</mark>. Ratón C (<mark class=\"clave-criterio\">secundaria</mark>): <mark class=\"clave-criterio\">rápida e intensa</mark>, con <mark class=\"clave-criterio\">IgG</mark> desde el principio <span class=\"redactado\">en una gráfica, la curva de C sube antes y mucho más alto</span> (0,8 p)."
+   ],
+   "origen": {
+    "documento": "PAU 2025 Aragón (Universidad de Zaragoza) · Aragón, convocatoria ordinaria",
+    "referencia": "Aragón, convocatoria ordinaria, opción B, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Aragón (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Aragón (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025/aragon-5b.webp",
+   "imgThumb": "assets/figuras/historico/2025/aragon-5b.thumb.webp",
+   "imageDesc": "Del ratón A, que superó la enfermedad, se obtienen un tubo con plasma y otro con linfocitos. El ratón B recibe el plasma (1) y el bacilo (3); el ratón C recibe los linfocitos (2) y el bacilo (3).",
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU 2025 de Aragón, con sus criterios de corrección (modelo competencial, útil para 2026) (Aragón, convocatoria ordinaria, opción B, pregunta 5, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2025-asturias-a1",
+   "block": "Biomoléculas",
+   "topic": "Etiqueta del surimi: grasas, colesterol y transporte de lípidos",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Asturias",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>La tabla adjunta corresponde a la etiqueta de la información nutricional expuesta en la zona exterior del envase de un alimento ultra-procesado, los denominados palitos de cangrejo o surimi, un preparado disponible en tiendas de alimentación. Abreviaturas: g: gramos; mg: miligramos (0.001 gramos); μg: microgramos (0.000001 gramos).</b><br>1. Indica qué diferencia las grasas saturadas, las monoinsaturadas y polinsaturadas. Indica cuál de los tres tipos tiene la temperatura de fusión más baja y explica por qué. (Calificación 1 punto)<br>2. Explica si el colesterol es o no un lípido anfipático e indica si tiene relación con alguna de las vitaminas que aparecen en la etiqueta de la información nutricional. Justifica tu respuesta. (Calificación 1 punto)<br>3. Explica cómo es posible que los lípidos se puedan transportar por la sangre de una zona a otra del organismo si son moléculas altamente hidrofóbicas y, por tanto, insolubles en un medio acuoso como la sangre. (Calificación 0.5 puntos)",
+   "c": [
+    "1. Se diferencian en el <mark class=\"clave-criterio\">número de dobles enlaces</mark>: <mark class=\"clave-criterio\">0 en las saturadas</mark>, <mark class=\"clave-criterio\">1 en las monoinsaturadas</mark> y <mark class=\"clave-criterio\">2 o más en las polinsaturadas</mark> (0,5 p). El punto de fusión más bajo lo tienen las <mark class=\"clave-criterio\">polinsaturadas</mark>: los dobles enlaces producen <mark class=\"clave-criterio\">curvaturas</mark> que <mark class=\"clave-criterio\">reducen el empaquetamiento</mark> y debilitan las <mark class=\"clave-criterio\">interacciones hidrofóbicas</mark> (0,5 p).",
+    "2. <mark class=\"clave-criterio\">Sí es anfipático</mark>: tiene una parte <mark class=\"clave-criterio\">polar (el grupo –OH)</mark> y otra <mark class=\"clave-criterio\">apolar (los anillos y la cadena hidrocarbonada)</mark> (0,5 p). Se relaciona con la <mark class=\"clave-criterio\">vitamina D</mark>, que <mark class=\"clave-criterio\">se sintetiza a partir del colesterol</mark> (0,5 p).",
+    "3. Gracias a <mark class=\"clave-criterio\">proteínas de transporte (lipoproteínas o apoproteínas)</mark>, <mark class=\"clave-criterio\">anfipáticas</mark>: con su parte apolar se unen al lípido y con la polar interaccionan con el agua (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU 2025 Asturias (Universidad de Oviedo) · Asturias, convocatoria extraordinaria",
+    "referencia": "Asturias, convocatoria extraordinaria, opción A, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Asturias (Extraordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Asturias (Extraordinaria de 2025)criterios.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025/asturias-1.webp",
+   "imgThumb": "assets/figuras/historico/2025/asturias-1.thumb.webp",
+   "imageDesc": "Tabla «Información nutricional/100 g»: carbohidratos totales 14,8 g (almidón 12,4; azúcares 1,6; fibra 0,8); grasas totales 1,15 g (saturadas 0,38; monoinsaturadas 0,56; polinsaturadas 0,21, con omega 3 y omega 6); colesterol 40,1 mg; proteína 7,62 g; minerales (sodio, calcio, fósforo, hierro, potasio, magnesio) y vitaminas B1, B12, B3, B6, D y E.",
+   "isNew": false,
+   "puntos": 2.5,
+   "f": "Pregunta oficial de la PAU 2025 de Asturias, con sus criterios de corrección (modelo competencial, útil para 2026) (Asturias, convocatoria extraordinaria, opción A, pregunta 1, 2,5 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2025-asturias-b1",
+   "block": "Biomoléculas",
+   "topic": "Etiqueta del surimi: enlaces O- y N-glucosídicos",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Asturias",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>La tabla adjunta corresponde a la etiqueta de la información nutricional expuesta en la zona exterior del envase de un alimento ultra-procesado, los denominados palitos de cangrejo o surimi, un preparado disponible en tiendas de alimentación.</b><br>1. Indica qué compuestos de los que se enumeran en la etiqueta de la información nutricional presentan enlaces O-glucosílico y explica cómo se establece ese enlace. (Calificación 1 punto)<br>2. Indica cómo se establece un enlace N-glucosílico, pon un ejemplo de macromolécula con este tipo de enlace y explica si este enlace participa directamente en la formación de polímeros, esto es, en la unión repetitiva de pequeñas moléculas o monómeros para formar una macromolécula polimérica. (Calificación 1 punto)<br>3. Indica si con la información de la etiqueta nutricional se puede saber si el producto tiene un origen exclusivamente animal. Justifica tu respuesta. (Calificación 0.5 puntos)",
+   "c": [
+    "1. Los <mark class=\"clave-criterio\">carbohidratos</mark> (<mark class=\"clave-criterio\">almidón</mark>, <mark class=\"clave-criterio\">azúcares</mark>, <mark class=\"clave-criterio\">fibra</mark>) (0,5 p). El enlace se forma entre <mark class=\"clave-criterio\">dos grupos –OH de dos glúcidos</mark>: dos carbonos quedan unidos por un <mark class=\"clave-criterio\">puente de oxígeno</mark> y se <mark class=\"clave-criterio\">libera una molécula de agua</mark> (0,5 p).",
+    "2. Se forma entre el <mark class=\"clave-criterio\">–OH de un monosacárido</mark> y un <mark class=\"clave-criterio\">grupo amino (–NH₂)</mark> de otra molécula: el <mark class=\"clave-criterio\">carbono queda unido al nitrógeno</mark> y se libera agua (0,5 p). Ejemplo: <mark class=\"clave-criterio\">ADN o ARN</mark> (une la base a la pentosa) (0,25 p). <mark class=\"clave-criterio\">No participa en la polimerización</mark>: los nucleótidos se unen por <mark class=\"clave-criterio\">enlaces fosfodiéster</mark> (0,25 p).",
+    "3. <mark class=\"clave-criterio\">No</mark>: contiene compuestos de <mark class=\"clave-criterio\">origen vegetal</mark>, el <mark class=\"clave-criterio\">almidón</mark> y la <mark class=\"clave-criterio\">fibra alimentaria</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU 2025 Asturias (Universidad de Oviedo) · Asturias, convocatoria extraordinaria",
+    "referencia": "Asturias, convocatoria extraordinaria, opción B, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Asturias (Extraordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Asturias (Extraordinaria de 2025)criterios.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025/asturias-1.webp",
+   "imgThumb": "assets/figuras/historico/2025/asturias-1.thumb.webp",
+   "imageDesc": "Tabla «Información nutricional/100 g»: carbohidratos totales 14,8 g (almidón 12,4; azúcares 1,6; fibra 0,8); grasas totales 1,15 g (saturadas, monoinsaturadas y polinsaturadas); colesterol 40,1 mg; proteína 7,62 g; minerales y vitaminas B1, B12, B3, B6, D y E.",
+   "isNew": false,
+   "puntos": 2.5,
+   "f": "Pregunta oficial de la PAU 2025 de Asturias, con sus criterios de corrección (modelo competencial, útil para 2026) (Asturias, convocatoria extraordinaria, opción B, pregunta 1, 2,5 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2025-asturias-a2",
+   "block": "Genética",
+   "topic": "Transcripción y traducción simultáneas; promotor",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Asturias",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>El esquema adjunto representa procesos biosintéticos que dan lugar a grandes moléculas poliméricas fundamentales para las células. El recuadro corresponde a un detalle ampliado.</b><br>1. Indica el nombre de las biomoléculas poliméricas que se están sintetizando en el esquema y señala cómo se denominan esos procesos de síntesis. (Calificación 1 punto)<br>2. Explica qué es el promotor o región promotora e indica cuántas de estas regiones hay en el ejemplo que se representa en el esquema. Justifica tu respuesta. (Calificación 1 punto)<br>3. Con la información que se muestra en el recuadro ampliado, indica qué cadena, azul-5´ o rosa-3´, es la cadena molde. Justifica tu respuesta. (Calificación 0.5 puntos)",
+   "c": [
+    "1. <mark class=\"clave-criterio\">ARN mensajero</mark> y <mark class=\"clave-criterio\">proteínas</mark> (0,5 p); procesos: <mark class=\"clave-criterio\">transcripción</mark> y <mark class=\"clave-criterio\">traducción</mark> (0,5 p).",
+    "2. El promotor es una <mark class=\"clave-criterio\">secuencia corta de ADN</mark> que <mark class=\"clave-criterio\">reconoce la ARN polimerasa</mark> y que <mark class=\"clave-criterio\">marca el inicio de la transcripción</mark> (0,5 p). Hay <mark class=\"clave-criterio\">una sola región promotora</mark>, porque se transcribe <mark class=\"clave-criterio\">un único tipo de ARNm</mark> (aunque haya 5 copias) (0,5 p).",
+    "3. La <mark class=\"clave-criterio\">rosa</mark>: el ADN se lee en sentido <mark class=\"clave-criterio\">3'→5'</mark> y la ARN polimerasa <mark class=\"clave-criterio\">avanza de izquierda a derecha</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU 2025 Asturias (Universidad de Oviedo) · Asturias, convocatoria extraordinaria",
+    "referencia": "Asturias, convocatoria extraordinaria, opción A, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Asturias (Extraordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Asturias (Extraordinaria de 2025)criterios.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025/asturias-2.webp",
+   "imgThumb": "assets/figuras/historico/2025/asturias-2.thumb.webp",
+   "imageDesc": "Una doble hélice horizontal sobre la que avanzan de izquierda a derecha varias enzimas verdes; de cada una cuelga una hebra roja cada vez más larga con varias estructuras de las que salen cadenas de esferas de colores terminadas en una esfera negra. Recuadro ampliado: hebras azul (5') y rosa (3').",
+   "isNew": false,
+   "puntos": 2.5,
+   "f": "Pregunta oficial de la PAU 2025 de Asturias, con sus criterios de corrección (modelo competencial, útil para 2026) (Asturias, convocatoria extraordinaria, opción A, pregunta 2, 2,5 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2025-asturias-b2",
+   "block": "Genética",
+   "topic": "Transcripción y traducción en procariotas; enzimas",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Asturias",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>El esquema adjunto representa procesos biosintéticos que dan lugar a grandes moléculas poliméricas fundamentales para las células. El recuadro corresponde a un detalle ampliado.</b><br>1. Explica si el proceso, tal como se representa, tiene lugar en células procariotas, o en eucariotas o en ambos tipos. Justifica tu respuesta. (Calificación 1 punto)<br>2. Indica el nombre y localización celular del enzima responsable de activación de los aminoácidos y del enzima responsable de la formación del enlace peptídico. (Calificación 1 punto)<br>3. Todas las cadenas que se representan en el esquema como una sucesión de pequeñas esferas de varios colores tienen en el extremo una esfera de color negro. ¿Se puede saber a qué molécula corresponde dicha esfera negra del extremo? Justifica tu respuesta. (Calificación 0.5 puntos)",
+   "c": [
+    "1. En <mark class=\"clave-criterio\">procariotas</mark>: solo en ellas la <mark class=\"clave-criterio\">transcripción y la traducción ocurren en el mismo compartimento (citoplasma)</mark>, y un ARNm <mark class=\"clave-criterio\">se traduce mientras se transcribe</mark> (1 p).",
+    "2. Activación: <mark class=\"clave-criterio\">aminoacil-ARNt sintetasa</mark>, en el <mark class=\"clave-criterio\">citoplasma</mark> (0,5 p). Enlace peptídico: <mark class=\"clave-criterio\">peptidil transferasa</mark>, en los <mark class=\"clave-criterio\">ribosomas</mark> (0,5 p).",
+    "3. <mark class=\"clave-criterio\">Sí</mark>: es la <mark class=\"clave-criterio\">N-formil-metionina</mark> (o metionina), porque la traducción empieza siempre por el <mark class=\"clave-criterio\">codón AUG</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU 2025 Asturias (Universidad de Oviedo) · Asturias, convocatoria extraordinaria",
+    "referencia": "Asturias, convocatoria extraordinaria, opción B, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Asturias (Extraordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Asturias (Extraordinaria de 2025)criterios.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025/asturias-2.webp",
+   "imgThumb": "assets/figuras/historico/2025/asturias-2.thumb.webp",
+   "imageDesc": "Una doble hélice horizontal sobre la que avanzan varias enzimas verdes; de cada una cuelga una hebra roja cada vez más larga con varias estructuras de las que salen cadenas de esferas de colores terminadas en una esfera negra.",
+   "isNew": false,
+   "puntos": 2.5,
+   "f": "Pregunta oficial de la PAU 2025 de Asturias, con sus criterios de corrección (modelo competencial, útil para 2026) (Asturias, convocatoria extraordinaria, opción B, pregunta 2, 2,5 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2025-asturias-a3",
+   "block": "Célula",
+   "topic": "Centrosoma y fragmoplasto",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Asturias",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>El esquema adjunto es una representación esquemática de una célula y el recuadro de la derecha corresponde a un detalle a mayor aumento de una estructura presente en el citoplasma.</b><br>1. Señala el nombre de la estructura que se representa en color verde y naranja y se presenta en el recuadro a mayor aumento. Indica los componentes que constituyen esta estructura. (Calificación 1 punto)<br>2. Explica brevemente qué es el fragmoplasto de una célula, cómo se origina y para qué sirve, e indica si esa estructura está presente en la célula que se representa. Justifica tu respuesta. (Calificación 1 punto)<br>3. Explica si es posible que la estructura que se representa con los colores verde y naranja y se presenta en el recuadro a mayor aumento, aparezca duplicada en una célula. Justifica tu respuesta. (Calificación 0.5 puntos)",
+   "c": [
+    "1. <mark class=\"clave-criterio\">Centrosoma</mark> (0,25 p), formado por <mark class=\"clave-criterio\">dos centriolos (diplosoma)</mark>, <mark class=\"clave-criterio\">material pericentriolar</mark> y <mark class=\"clave-criterio\">microtúbulos radiales (áster)</mark> (0,75 p).",
+    "2. Fragmoplasto: <mark class=\"clave-criterio\">tabique formado a partir del aparato de Golgi</mark> que <mark class=\"clave-criterio\">divide el citoplasma (citocinesis)</mark> en las <mark class=\"clave-criterio\">células vegetales</mark> (0,5 p). <mark class=\"clave-criterio\">No está</mark> en la célula representada: es <mark class=\"clave-criterio\">animal</mark>, porque tiene <mark class=\"clave-criterio\">centrosoma con centriolos</mark> (0,5 p).",
+    "3. <mark class=\"clave-criterio\">Sí</mark>: se <mark class=\"clave-criterio\">duplica en la fase S</mark> para formar el <mark class=\"clave-criterio\">huso mitótico</mark> que reparte los cromosomas (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU 2025 Asturias (Universidad de Oviedo) · Asturias, convocatoria extraordinaria",
+    "referencia": "Asturias, convocatoria extraordinaria, opción A, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Asturias (Extraordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Asturias (Extraordinaria de 2025)criterios.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025/asturias-3.webp",
+   "imgThumb": "assets/figuras/historico/2025/asturias-3.thumb.webp",
+   "imageDesc": "Célula con núcleo con nucléolo, mitocondrias, retículo, aparato de Golgi, vesículas y, cerca del núcleo, una masa verde con dos cilindros de la que salen radialmente líneas naranjas; el recuadro amplía esa estructura.",
+   "isNew": false,
+   "puntos": 2.5,
+   "f": "Pregunta oficial de la PAU 2025 de Asturias, con sus criterios de corrección (modelo competencial, útil para 2026) (Asturias, convocatoria extraordinaria, opción A, pregunta 3, 2,5 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2025-asturias-b3",
+   "block": "Célula",
+   "topic": "Nucleoide y nucléolo; interfase y anafase I",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Asturias",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>El esquema adjunto es una representación esquemática de una célula y el recuadro de la derecha corresponde a un detalle a mayor aumento de una estructura presente en el citoplasma.</b><br>1. Explica cuál es la diferencia entre nucleoide y nucléolo e indica si alguna de estas dos estructuras o las dos están presentes en la célula que se representa. (Calificación 1 punto)<br>2. Indica si la célula que se representa está en interfase o en fase M. Justifica tu respuesta en base a dos características de la célula representada. (Calificación 1 punto)<br>3. Señala en qué proceso y fase se encontrará una célula en la que los cromosomas homólogos están formados por dos cromátidas y se están desplazando hacia polos opuestos. Justifica tu respuesta. (Calificación 0.5 puntos)",
+   "c": [
+    "1. <mark class=\"clave-criterio\">Nucleoide</mark>: zona de las <mark class=\"clave-criterio\">células procariotas</mark> donde está el <mark class=\"clave-criterio\">ADN sin membrana</mark>. <mark class=\"clave-criterio\">Nucléolo</mark>: estructura del <mark class=\"clave-criterio\">núcleo eucariota</mark> donde se <mark class=\"clave-criterio\">sintetiza el ARNr</mark> y se forman los <mark class=\"clave-criterio\">ribosomas</mark> (0,75 p). La célula tiene <mark class=\"clave-criterio\">nucléolo</mark> pero <mark class=\"clave-criterio\">no nucleoide</mark> (0,25 p).",
+    "2. <mark class=\"clave-criterio\">Interfase</mark>, por dos de estas: <mark class=\"clave-criterio\">envoltura nuclear</mark>, <mark class=\"clave-criterio\">nucléolo</mark>, <mark class=\"clave-criterio\">cromatina sin condensar</mark>, <mark class=\"clave-criterio\">no se ven cromosomas</mark>, <mark class=\"clave-criterio\">centrosoma sin dividir</mark> (1 p).",
+    "3. <mark class=\"clave-criterio\">Anafase I de la meiosis</mark>: se separan los <mark class=\"clave-criterio\">homólogos completos, cada uno con sus dos cromátidas</mark> (en la mitosis se separan cromátidas) (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU 2025 Asturias (Universidad de Oviedo) · Asturias, convocatoria extraordinaria",
+    "referencia": "Asturias, convocatoria extraordinaria, opción B, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Asturias (Extraordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Asturias (Extraordinaria de 2025)criterios.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025/asturias-3.webp",
+   "imgThumb": "assets/figuras/historico/2025/asturias-3.thumb.webp",
+   "imageDesc": "Célula con núcleo con envoltura y nucléolo, mitocondrias, retículo, aparato de Golgi, vesículas y, cerca del núcleo, un centrosoma del que salen radialmente fibras naranjas.",
+   "isNew": false,
+   "puntos": 2.5,
+   "f": "Pregunta oficial de la PAU 2025 de Asturias, con sus criterios de corrección (modelo competencial, útil para 2026) (Asturias, convocatoria extraordinaria, opción B, pregunta 3, 2,5 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2025-asturias-a4",
+   "block": "Metabolismo",
+   "topic": "Movilización de la grasa: β-oxidación y balance de NADH y FADH₂",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Asturias",
+   "hasImg": false,
+   "competencial": true,
+   "q": "<b>Dos gemelos adultos del mismo peso, 80 kg, y el mismo porcentaje de grasa corporal (PGC), 25%, deciden cambiar de hábitos, ya que el rango de normalidad de PGC para su edad es 10-15%. El primero (individuo A) siguió una dieta hipocalórica con ejercicio moderado durante 1 año, alcanzando un PGC de 14% y un peso de 72 kg. El segundo (individuo B) hizo entrenamiento de musculación y en un año bajó su PGC al 11%, aumentando su tejido muscular proteico, por lo que su peso no se modificó (80 kg).</b><br>1. Indica cuál es la molécula más abundante de la grasa corporal, en qué compartimento de la célula se almacena y en qué consiste la primera reacción para su catabolismo. (Calificación 1 punto)<br>2. En el caso del individuo A, indica cuál es la ruta catabólica responsable de la movilización de las reservas energéticas y el compartimento celular donde tiene lugar. (Calificación 1 punto)<br>3. Indica cuántas moléculas de NADH y de FADH₂ se generarán por la oxidación completa de una molécula un ácido graso saturado de 18 carbonos. Justifica tu respuesta. (Calificación 0.5 puntos)",
+   "c": [
+    "1. <mark class=\"clave-criterio\">Triglicéridos</mark> (triacilgliceroles) (0,25 p), almacenados en el <mark class=\"clave-criterio\">citoplasma</mark> (0,25 p). Primera reacción: <mark class=\"clave-criterio\">hidrólisis (lipólisis)</mark> en <mark class=\"clave-criterio\">ácidos grasos y glicerol</mark> (0,5 p).",
+    "2. <mark class=\"clave-criterio\">β-oxidación de los ácidos grasos</mark> (0,5 p), en la <mark class=\"clave-criterio\">matriz mitocondrial</mark> (también peroxisomas) (0,5 p).",
+    "3. Un ácido graso de 18 C necesita <mark class=\"clave-criterio\">8 vueltas</mark> de β-oxidación y da <mark class=\"clave-criterio\">9 acetil-CoA</mark>; cada vuelta produce <mark class=\"clave-criterio\">1 NADH y 1 FADH₂</mark> (8 + 8), y cada acetil-CoA en el <mark class=\"clave-criterio\">ciclo de Krebs</mark> da <mark class=\"clave-criterio\">3 NADH y 1 FADH₂</mark> (27 + 9). Total: <mark class=\"clave-criterio\">35 NADH y 17 FADH₂</mark> <span class=\"redactado\">los criterios dan 16 FADH₂ en el total, pero su propio desglose, 8 + 9, suma 17</span> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU 2025 Asturias (Universidad de Oviedo) · Asturias, convocatoria extraordinaria",
+    "referencia": "Asturias, convocatoria extraordinaria, opción A, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Asturias (Extraordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Asturias (Extraordinaria de 2025)criterios.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2.5,
+   "f": "Pregunta oficial de la PAU 2025 de Asturias, con sus criterios de corrección (modelo competencial, útil para 2026) (Asturias, convocatoria extraordinaria, opción A, pregunta 4, 2,5 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2025-asturias-b4",
+   "block": "Metabolismo",
+   "topic": "Musculación: equilibrio entre anabolismo y catabolismo",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Asturias",
+   "hasImg": false,
+   "competencial": true,
+   "q": "<b>Dos gemelos adultos del mismo peso, 80 kg, y el mismo porcentaje de grasa corporal (PGC), 25%, deciden cambiar de hábitos, ya que el rango de normalidad de PGC para su edad es 10-15%. El primero (individuo A) siguió una dieta hipocalórica con ejercicio moderado durante 1 año, alcanzando un PGC de 14% y un peso de 72 kg. El segundo (individuo B) hizo entrenamiento de musculación y en un año bajó su PGC al 11%, aumentando su tejido muscular proteico, por lo que su peso no se modificó (80 kg).</b><br>1. Indica si en el caso del individuo B, las rutas que han predominado de forma global son las anabólicas o las catabólicas. Justifica tu respuesta. (Calificación 1 punto)<br>2. Describe brevemente una ruta catabólica y una ruta anabólica que ocurran en el caso del individuo B, indicando el compartimento celular donde tienen lugar. (Calificación 1 punto)<br>3. Indica si el individuo B podría haber llegado a la situación descrita en el texto con una dieta rica en glúcidos y pobre en proteínas. Justifica tu respuesta. (Calificación 0.5 puntos)",
+   "c": [
+    "1. Como <mark class=\"clave-criterio\">el peso no cambia</mark>, el <mark class=\"clave-criterio\">catabolismo y el anabolismo están equilibrados</mark> (también vale razonar que predomina el catabolismo, que aporta la energía del anabolismo y del resto de funciones) (1 p).",
+    "2. Catabólica: <mark class=\"clave-criterio\">lipólisis</mark> y <mark class=\"clave-criterio\">β-oxidación</mark> en la <mark class=\"clave-criterio\">matriz mitocondrial</mark> → <mark class=\"clave-criterio\">acetil-CoA</mark> → <mark class=\"clave-criterio\">ciclo de Krebs</mark> → <mark class=\"clave-criterio\">cadena respiratoria</mark> (membrana interna) y <mark class=\"clave-criterio\">ATP sintasa</mark> (0,5 p). Anabólica: <mark class=\"clave-criterio\">síntesis de proteínas</mark> en los <mark class=\"clave-criterio\">ribosomas</mark> del citoplasma o del <mark class=\"clave-criterio\">RER</mark> (0,5 p).",
+    "3. <mark class=\"clave-criterio\">No</mark>: la dieta debe ser <mark class=\"clave-criterio\">rica en proteínas</mark>, porque ha aumentado su masa proteica y hay <mark class=\"clave-criterio\">aminoácidos esenciales</mark> que <mark class=\"clave-criterio\">no podemos sintetizar</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU 2025 Asturias (Universidad de Oviedo) · Asturias, convocatoria extraordinaria",
+    "referencia": "Asturias, convocatoria extraordinaria, opción B, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Asturias (Extraordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Asturias (Extraordinaria de 2025)criterios.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2.5,
+   "f": "Pregunta oficial de la PAU 2025 de Asturias, con sus criterios de corrección (modelo competencial, útil para 2026) (Asturias, convocatoria extraordinaria, opción B, pregunta 4, 2,5 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2025-asturias-a5",
+   "block": "Biotecnología",
+   "topic": "Anticuerpos humanos en alfalfa transgénica; CRISPR-Cas",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Asturias",
+   "hasImg": false,
+   "competencial": true,
+   "q": "<b>En los últimos años se han desarrollado sistemas de producción de anticuerpos humanos utilizando plantas transgénicas de alfalfa. Estos sistemas abaratan mucho el proceso, por lo que resultan muy prometedores para obtener anticuerpos que puedan usarse en diversas terapias humanas.</b><br>1. Explica cómo se puede obtener un anticuerpo humano en una planta y define tres herramientas moleculares necesarias para este proceso. (Calificación 1 punto)<br>2. Describe una molécula de anticuerpo (IgG) indicando cómo son las cadenas de aminoácidos, las uniones entre ellas y las regiones de los extremos amino y carboxilo. (Calificación 1 punto)<br>3. Las siglas CRISPR-Cas describen los dos elementos principales que constituyen este sistema. Indica qué elemento es referido por las siglas CRISPR y cuál por las siglas Cas. (Calificación 0.5 puntos)",
+   "c": [
+    "1. Se <mark class=\"clave-criterio\">aísla de una célula humana el gen del anticuerpo</mark> y se <mark class=\"clave-criterio\">introduce en el genoma de la planta</mark> (planta transgénica) (0,5 p). Herramientas (tres, 0,5 p): <mark class=\"clave-criterio\">enzimas de restricción</mark> (cortan el ADN en secuencias concretas), <mark class=\"clave-criterio\">ADN ligasa</mark> (une los fragmentos), <mark class=\"clave-criterio\">vectores</mark> (plásmidos o virus que transportan y replican el ADN), <mark class=\"clave-criterio\">ADN recombinante</mark>.",
+    "2. <mark class=\"clave-criterio\">Cuatro cadenas iguales dos a dos</mark>: <mark class=\"clave-criterio\">dos pesadas (H)</mark> y <mark class=\"clave-criterio\">dos ligeras (L)</mark> (0,25 p), unidas por <mark class=\"clave-criterio\">puentes disulfuro</mark> (0,25 p). El extremo amino forma la <mark class=\"clave-criterio\">región variable</mark> (<mark class=\"clave-criterio\">paratopo</mark>, se une al antígeno) (0,25 p) y el carboxilo la <mark class=\"clave-criterio\">región constante</mark> (0,25 p).",
+    "3. <mark class=\"clave-criterio\">CRISPR</mark>: <mark class=\"clave-criterio\">secuencias de ADN</mark> repetidas que guardan fragmentos de <mark class=\"clave-criterio\">ADN exógeno</mark> (virus, plásmidos) (0,25 p). <mark class=\"clave-criterio\">Cas</mark>: <mark class=\"clave-criterio\">endonucleasas</mark> que <mark class=\"clave-criterio\">cortan el ADN</mark> en esas secuencias (0,25 p)."
+   ],
+   "origen": {
+    "documento": "PAU 2025 Asturias (Universidad de Oviedo) · Asturias, convocatoria extraordinaria",
+    "referencia": "Asturias, convocatoria extraordinaria, opción A, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Asturias (Extraordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Asturias (Extraordinaria de 2025)criterios.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2.5,
+   "f": "Pregunta oficial de la PAU 2025 de Asturias, con sus criterios de corrección (modelo competencial, útil para 2026) (Asturias, convocatoria extraordinaria, opción A, pregunta 5, 2,5 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2025-asturias-b5",
+   "block": "Inmunología",
+   "topic": "Sueroterapia, reacciones antígeno-anticuerpo y biorremediación",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Asturias",
+   "hasImg": false,
+   "competencial": true,
+   "q": "<b>En los últimos años se han desarrollado sistemas de producción de anticuerpos humanos utilizando plantas transgénicas de alfalfa. Estos sistemas abaratan mucho el proceso, por lo que resultan muy prometedores para obtener anticuerpos que puedan usarse en diversas terapias humanas.</b><br>1. Indica cómo se llama la administración a un paciente de anticuerpos para tratar una enfermedad y explica tres tipos de reacción antígeno-anticuerpo que se pueden producir. (Calificación 1 punto)<br>2. Explica qué es la biorremediación y señala tres ejemplos. (Calificación 1 punto)<br>3. Indica un caso de inmunidad pasiva natural señalando qué tipo de inmunoglobulina está implicada en el proceso. (Calificación 0.5 puntos)",
+   "c": [
+    "1. <mark class=\"clave-criterio\">Sueroterapia</mark> (inmunidad pasiva artificial) (0,25 p). Tres reacciones (0,75 p): <mark class=\"clave-criterio\">neutralización</mark> (anula los efectos del antígeno), <mark class=\"clave-criterio\">precipitación</mark> (antígenos solubles forman complejos que precipitan), <mark class=\"clave-criterio\">aglutinación</mark> (agregados de bacterias), <mark class=\"clave-criterio\">opsonización</mark> (marca las bacterias para los fagocitos).",
+    "2. Proceso biotecnológico que usa <mark class=\"clave-criterio\">microorganismos, hongos, plantas o sus enzimas</mark> para <mark class=\"clave-criterio\">recuperar un medio contaminado</mark> (0,5 p). Ejemplos: <mark class=\"clave-criterio\">hidrocarburos (petróleo)</mark>, <mark class=\"clave-criterio\">metales pesados</mark>, <mark class=\"clave-criterio\">aguas residuales</mark>, <mark class=\"clave-criterio\">biodegradación de plásticos</mark> (0,5 p).",
+    "3. <mark class=\"clave-criterio\">Paso de anticuerpos de la madre al feto por la placenta (IgG)</mark> o <mark class=\"clave-criterio\">al bebé por la leche materna (IgA)</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU 2025 Asturias (Universidad de Oviedo) · Asturias, convocatoria extraordinaria",
+    "referencia": "Asturias, convocatoria extraordinaria, opción B, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Asturias (Extraordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Asturias (Extraordinaria de 2025)criterios.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2.5,
+   "f": "Pregunta oficial de la PAU 2025 de Asturias, con sus criterios de corrección (modelo competencial, útil para 2026) (Asturias, convocatoria extraordinaria, opción B, pregunta 5, 2,5 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
    "id": "pau2026-modelo-1",
    "block": "Genética",
    "topic": "Replicación en una célula procariota",
@@ -44075,6 +44622,515 @@ window.BIOCELIA_HISTORICO = {
    "imgSrc": "assets/figuras/historico/2024/reserva-b-c5.webp",
    "imgThumb": "assets/figuras/historico/2024/reserva-b-c5.thumb.webp",
    "imageDesc": "A: un linfocito T contacta con un linfocito B; este da una célula con mucho retículo (1) que libera moléculas en forma de Y (2) y otra célula (3) con esas moléculas en su superficie."
+  },
+  {
+   "id": "pau2025-aragon-1",
+   "block": "Metabolismo",
+   "topic": "Fermentación alcohólica y láctica en dos tanques; OMG y transgénicos",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Aragón",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>PREGUNTA DE CARÁCTER OBLIGATORIO (2 puntos): En el laboratorio se está trabajando con dos tanques con reactivos. En cada uno de ellos se está llevando a cabo un proceso bioquímico diferente, representado por las gráficas A y B. A partir de las gráficas responda las siguientes preguntas:</b><br>a) ¿Desde el punto de vista metabólico, qué ocurre en el minuto 4 en ambas gráficas? Razone su respuesta. (0,4 puntos)<br>b) ¿Qué rutas de degradación de la glucosa se están llevando a cabo antes y después del minuto 4 en cada gráfica? (0,4 puntos)<br>c) Explique el comportamiento de la concentración de CO₂ a lo largo del tiempo en ambos casos. ¿A qué se debe este patrón? (0,4 puntos)<br>d) Tras un tiempo de incubación, ¿cómo habrá cambiado el pH en ambas gráficas? Justifíquelo. (0,2 puntos)<br>e) ¿Cuál de las dos gráficas representaría el proceso para la obtención del pan? ¿Y del vino? Justifique su respuesta, indicando en ambos casos qué sucede al final con el producto representado por la línea verde. (0,2 puntos)<br>f) En la industria alimentaria, en agricultura, en medicina, etc. se están utilizando organismos modificados genéticamente (OMG) y organismos transgénicos, ¿cuál es la diferencia? Cite un ejemplo de cada uno. (0,4 puntos)",
+   "c": [
+    "a) En el minuto 4 el metabolismo <mark class=\"clave-criterio\">pasa de aeróbico a anaeróbico</mark>: en A empieza a aumentar el <mark class=\"clave-criterio\">etanol</mark> y en B el <mark class=\"clave-criterio\">ácido láctico</mark>, señal de que <mark class=\"clave-criterio\">se ha iniciado la fermentación</mark> (0,4 p).",
+    "b) Antes del minuto 4, en ambas: <mark class=\"clave-criterio\">glucólisis</mark> y <mark class=\"clave-criterio\">respiración aeróbica</mark> (<mark class=\"clave-criterio\">ciclo de Krebs</mark> y <mark class=\"clave-criterio\">fosforilación oxidativa</mark>). Después: en A, <mark class=\"clave-criterio\">glucólisis y fermentación alcohólica</mark> (piruvato → etanol + CO₂); en B, <mark class=\"clave-criterio\">glucólisis y fermentación láctica</mark> (piruvato → ácido láctico, <mark class=\"clave-criterio\">sin CO₂</mark>) (0,4 p).",
+    "c) En A el CO₂ aumenta poco antes del minuto 4 (del <mark class=\"clave-criterio\">ciclo de Krebs</mark>) y <mark class=\"clave-criterio\">más rápido después</mark>, por la <mark class=\"clave-criterio\">fermentación alcohólica</mark>, que <mark class=\"clave-criterio\">libera CO₂</mark>. En B sube un poco antes del minuto 4 y luego <mark class=\"clave-criterio\">se estabiliza</mark>, porque la <mark class=\"clave-criterio\">fermentación láctica no produce CO₂</mark> (sin descarboxilación) (0,4 p).",
+    "d) En A el pH <mark class=\"clave-criterio\">no varía</mark> (o baja ligeramente por el CO₂, que forma ácido carbónico); en B el pH <mark class=\"clave-criterio\">desciende notablemente</mark> porque se acumula <mark class=\"clave-criterio\">ácido láctico</mark> (0,2 p).",
+    "e) <mark class=\"clave-criterio\">Pan: gráfica A</mark>: el <mark class=\"clave-criterio\">CO₂</mark> de la fermentación alcohólica <mark class=\"clave-criterio\">esponja la masa</mark> y el etanol <mark class=\"clave-criterio\">se evapora en la cocción</mark>. <mark class=\"clave-criterio\">Vino: gráfica A</mark>: el <mark class=\"clave-criterio\">etanol</mark> (línea verde) es el <mark class=\"clave-criterio\">producto de interés</mark>. La gráfica B no sirve para ninguno (0,2 p).",
+    "f) <mark class=\"clave-criterio\">OMG</mark>: organismo cuyo material genético se ha <mark class=\"clave-criterio\">alterado con técnicas biotecnológicas</mark>, <mark class=\"clave-criterio\">sin necesidad de genes de otra especie</mark> (p. ej., <mark class=\"clave-criterio\">tomate con una mutación que retrasa la maduración</mark>). <mark class=\"clave-criterio\">Transgénico</mark>: OMG que ha <mark class=\"clave-criterio\">recibido genes de otra especie</mark> (p. ej., <mark class=\"clave-criterio\">maíz Bt</mark> con un gen de <i>Bacillus thuringiensis</i> resistente a plagas) (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU 2025 Aragón (Universidad de Zaragoza) · Aragón, convocatoria ordinaria",
+    "referencia": "Aragón, convocatoria ordinaria, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Aragón (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Aragón (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025/aragon-1.webp",
+   "imgThumb": "assets/figuras/historico/2025/aragon-1.thumb.webp",
+   "imageDesc": "Dos gráficas de cantidad frente al tiempo (minutos 1 a 8). En A la glucosa baja, el CO₂ sube poco hasta el minuto 4 y luego más deprisa, y el etanol aparece a partir del minuto 4. En B la glucosa baja, el CO₂ sube hasta el minuto 4 y luego se estabiliza, y el ácido láctico aparece a partir del minuto 4.",
+   "isNew": true
+  },
+  {
+   "id": "pau2025-aragon-a2",
+   "block": "Genética",
+   "topic": "Replicación del ADN: burbujas y horquilla",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Aragón",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>Responda las siguientes cuestiones:</b><br>a) ¿Qué proceso muestra la imagen de microscopía electrónica? Identifique la región señalada con flechas. (0,2 puntos)<br>b) Identifique el tipo de molécula (número 1) que está siendo sintetizada mediante el proceso esquematizado en la figura adjunta. (0,2 puntos)<br>c) Identifique y describa la función de los elementos 2, 3, 4, 5 y 6 en este proceso de síntesis. (1 punto)<br>d) Indique cuál es el motivo por el cual la síntesis de la molécula 1 en la cadena A es diferente a la síntesis de la molécula 1 en la cadena B. Justifique su respuesta. (0,6 puntos)",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Replicación del ADN</mark>; las flechas señalan <mark class=\"clave-criterio\">burbujas de replicación</mark> (0,2 p).",
+    "b) <mark class=\"clave-criterio\">ADN</mark>: una <mark class=\"clave-criterio\">nueva hebra de ADN</mark> (0,2 p).",
+    "c) 2: <mark class=\"clave-criterio\">ADN polimerasa</mark>, añade nucleótidos en sentido <mark class=\"clave-criterio\">5'→3'</mark> usando la hebra molde. 3: <mark class=\"clave-criterio\">proteínas SSB</mark>, <mark class=\"clave-criterio\">impiden que las hebras separadas vuelvan a unirse</mark>. 4: <mark class=\"clave-criterio\">cebadores de ARN</mark> (sintetizados por la <mark class=\"clave-criterio\">primasa</mark>), <mark class=\"clave-criterio\">punto de inicio</mark> para la ADN polimerasa. 5: <mark class=\"clave-criterio\">helicasa</mark>, <mark class=\"clave-criterio\">desenrolla y separa</mark> las hebras. 6: <mark class=\"clave-criterio\">topoisomerasa</mark>, <mark class=\"clave-criterio\">evita el superenrollamiento</mark> delante de la horquilla (1 p).",
+    "d) Por el <mark class=\"clave-criterio\">antiparalelismo</mark> del ADN y porque la ADN polimerasa <mark class=\"clave-criterio\">solo sintetiza en sentido 5'→3'</mark>: la cadena A (<mark class=\"clave-criterio\">adelantada</mark>) se sintetiza <mark class=\"clave-criterio\">de forma continua</mark>; la B (<mark class=\"clave-criterio\">retardada</mark>) de forma <mark class=\"clave-criterio\">discontinua</mark>, en <mark class=\"clave-criterio\">fragmentos de Okazaki</mark>, con <mark class=\"clave-criterio\">varios cebadores</mark> (0,6 p)."
+   ],
+   "origen": {
+    "documento": "PAU 2025 Aragón (Universidad de Zaragoza) · Aragón, convocatoria ordinaria",
+    "referencia": "Aragón, convocatoria ordinaria, opción A, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Aragón (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Aragón (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025/aragon-2a.webp",
+   "imgThumb": "assets/figuras/historico/2025/aragon-2a.thumb.webp",
+   "imageDesc": "Micrografía electrónica de filamentos con zonas abiertas señaladas con flechas. Esquema de una horquilla: la doble hélice se abre por la acción de 6 y 5; las hebras separadas se cubren de pequeñas esferas (3); sobre la hebra A se sintetiza una cadena continua (1) desde un cebador (4); sobre la hebra B, varios fragmentos con cebadores (4) y enzimas (2).",
+   "isNew": true
+  },
+  {
+   "id": "pau2025-aragon-b2",
+   "block": "Genética",
+   "topic": "Código genético: del polipéptido al ADN y mutación",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Aragón",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>A continuación, se muestra el fragmento de una cadena polipeptídica cuya secuencia es: NH₂ - Met - Cys - Asp - Trp - COOH. Usando la tabla adjunta, responda a las siguientes cuestiones:</b><br>a) ¿Qué representa la tabla? Explíquelo brevemente. (0,2 puntos)<br>b) Escriba una posible secuencia de ARNm que dé lugar a este polipéptido, indicando sus extremos. (0,5 puntos)<br>c) Indique la secuencia de bases del ADN que codificaría el ARNm que ha propuesto. (0,6 puntos)<br>d) Señale una posible mutación de la secuencia de ADN que cambiaría el aminoácido Cys por Ser. ¿Qué tipo de mutación sería? (0,3 puntos)<br>e) ¿Dicha mutación se transmitirá a la descendencia? Razone su respuesta (0,4 puntos)",
+   "c": [
+    "a) El <mark class=\"clave-criterio\">código genético</mark>: la <mark class=\"clave-criterio\">correspondencia entre los codones del ARNm y los aminoácidos</mark>, con el <mark class=\"clave-criterio\">codón de inicio AUG</mark> (Met) y los <mark class=\"clave-criterio\">de terminación</mark> (UAA, UAG, UGA) (0,2 p).",
+    "b) Por ejemplo, <mark class=\"clave-criterio\">5'-AUG UGC GAU UGG-3'</mark> (también UGU para Cys y GAC para Asp) (0,5 p).",
+    "c) Cadena molde: <mark class=\"clave-criterio\">3'-TAC ACG CTA ACC-5'</mark> <span class=\"redactado\">y su codificante 5'-ATG TGC GAT TGG-3'</span> (0,6 p).",
+    "d) Cambiar UGC por <mark class=\"clave-criterio\">UCC</mark> (en la cadena codificante TGC → TCC; en la molde ACG → AGG): <mark class=\"clave-criterio\">mutación de sustitución (puntual)</mark> (0,3 p).",
+    "e) <mark class=\"clave-criterio\">Depende de la célula</mark>: en una <mark class=\"clave-criterio\">célula somática no se hereda</mark>; en una <mark class=\"clave-criterio\">célula germinal sí</mark> puede pasar a los gametos y a la descendencia (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU 2025 Aragón (Universidad de Zaragoza) · Aragón, convocatoria ordinaria",
+    "referencia": "Aragón, convocatoria ordinaria, opción B, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Aragón (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Aragón (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025/aragon-2b.webp",
+   "imgThumb": "assets/figuras/historico/2025/aragon-2b.thumb.webp",
+   "imageDesc": "Tabla del código genético: primera letra (U, C, A, G) en filas, segunda letra en columnas y tercera letra a la derecha; cada casilla indica los codones y su aminoácido, con AUG (Met) y los codones STOP UAA, UAG y UGA.",
+   "isNew": true
+  },
+  {
+   "id": "pau2025-aragon-a3",
+   "block": "Biomoléculas",
+   "topic": "Moléculas del asteroide Ryugu: disacárido y aminoácido",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Aragón",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>Un equipo de científicos analizó muestras del asteroide Ryugu, recogidas a 15 millones de kilómetros de la Tierra, y encontró moléculas que podrían haber contribuido al origen de la vida.</b><br>a) Identifique las moléculas 1 y 2 de la imagen. Sea lo más concreto posible. (0,2 puntos)<br>b) Respecto a la molécula 1, ¿cuáles son sus unidades estructurales? ¿cómo se llama el enlace entre dichas estructuras? (0,4 puntos)<br>c) Respecto a la molécula 2, ¿de qué macromolécula es monómero y qué enlace une esos monómeros tipo 2? (0,4 puntos)<br>d) Describa los diferentes niveles estructurales de la macromolécula formada por la unión de varios monómeros tipo 2, así como el tipo de enlaces que se forman para la estabilización de dichas estructuras. ¿En qué orgánulo celular se añaden moléculas 1 a las macromoléculas formadas por las moléculas 2? (1 punto)",
+   "c": [
+    "a) 1: <mark class=\"clave-criterio\">disacárido</mark> (lactosa); 2: <mark class=\"clave-criterio\">aminoácido</mark> (0,2 p).",
+    "b) Dos <mark class=\"clave-criterio\">monosacáridos</mark> (glucosa y galactosa), unidos por <mark class=\"clave-criterio\">enlace O-glucosídico</mark> (0,4 p).",
+    "c) Monómero de las <mark class=\"clave-criterio\">proteínas</mark>; enlace <mark class=\"clave-criterio\">peptídico</mark> (0,4 p).",
+    "d) <mark class=\"clave-criterio\">Primaria</mark>: secuencia de aminoácidos, <mark class=\"clave-criterio\">enlaces peptídicos</mark>. <mark class=\"clave-criterio\">Secundaria</mark>: <mark class=\"clave-criterio\">α-hélice</mark> o <mark class=\"clave-criterio\">lámina β</mark>, <mark class=\"clave-criterio\">puentes de hidrógeno</mark> entre CO y NH. <mark class=\"clave-criterio\">Terciaria</mark>: plegamiento por interacciones entre radicales: <mark class=\"clave-criterio\">puentes disulfuro</mark>, <mark class=\"clave-criterio\">interacciones hidrofóbicas</mark>, <mark class=\"clave-criterio\">puentes de hidrógeno</mark> e <mark class=\"clave-criterio\">iónicas</mark>. <mark class=\"clave-criterio\">Cuaternaria</mark>: <mark class=\"clave-criterio\">varias cadenas</mark> unidas por los mismos enlaces. Los glúcidos se añaden en el <mark class=\"clave-criterio\">aparato de Golgi</mark> (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU 2025 Aragón (Universidad de Zaragoza) · Aragón, convocatoria ordinaria",
+    "referencia": "Aragón, convocatoria ordinaria, opción A, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Aragón (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Aragón (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025/aragon-3a.webp",
+   "imgThumb": "assets/figuras/historico/2025/aragon-3a.thumb.webp",
+   "imageDesc": "1: dos anillos de seis átomos con grupos OH y CH₂OH unidos por un oxígeno. 2: un carbono unido a un grupo carboxilo, un grupo amino, un H y un radical R.",
+   "isNew": true
+  },
+  {
+   "id": "pau2025-aragon-b3",
+   "block": "Biomoléculas",
+   "topic": "Un fosfolípido: componentes, membrana y ácidos grasos",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Aragón",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>Observando la molécula de la imagen:</b><br>a) ¿De qué tipo de biomolécula se trata? Indique sus componentes químicos y tipo de enlaces entre ellos. (0,6 puntos)<br>b) ¿En qué estructura celular aparece principalmente? Justifique su orientación en esta estructura, basándose en sus propiedades químicas. (0,4 puntos)<br>c) Las moléculas unidas a los carbonos 1C y 2C presentan estados físicos distintos a temperatura ambiente (sólido y líquido, respectivamente). ¿A qué se debe esta diferencia? Justifique su respuesta. (0,4 puntos)<br>d) Si el compuesto unido al carbono 1 se degradara en una célula animal, ¿Qué rutas metabólicas, y en qué parte de la célula se llevarían a cabo, para conseguir su oxidación completa? (0,6 puntos)",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Fosfolípido</mark> (glicerofosfolípido): <mark class=\"clave-criterio\">glicerol</mark>, <mark class=\"clave-criterio\">dos ácidos grasos</mark> (uno saturado y otro insaturado) unidos por <mark class=\"clave-criterio\">enlaces éster</mark>, y una <mark class=\"clave-criterio\">cabeza polar</mark> con <mark class=\"clave-criterio\">fosfato</mark> y un <mark class=\"clave-criterio\">aminoalcohol</mark>, unida por <mark class=\"clave-criterio\">enlace fosfodiéster</mark> (0,6 p).",
+    "b) En la <mark class=\"clave-criterio\">membrana plasmática</mark>, formando una <mark class=\"clave-criterio\">bicapa</mark>: las <mark class=\"clave-criterio\">cabezas polares (hidrófilas)</mark> hacia el <mark class=\"clave-criterio\">medio acuoso</mark> y las <mark class=\"clave-criterio\">colas hidrófobas</mark> hacia el <mark class=\"clave-criterio\">interior</mark> (0,4 p).",
+    "c) El del C1 es <mark class=\"clave-criterio\">saturado</mark> (sin dobles enlaces), se <mark class=\"clave-criterio\">empaqueta mejor</mark> y es sólido; el del C2 es <mark class=\"clave-criterio\">insaturado</mark>, sus dobles enlaces forman <mark class=\"clave-criterio\">codos</mark> que <mark class=\"clave-criterio\">impiden el empaquetamiento</mark> y <mark class=\"clave-criterio\">bajan el punto de fusión</mark> (0,4 p).",
+    "d) <mark class=\"clave-criterio\">β-oxidación</mark> (matriz mitocondrial), <mark class=\"clave-criterio\">ciclo de Krebs</mark> (matriz mitocondrial) y <mark class=\"clave-criterio\">cadena de transporte electrónico y fosforilación oxidativa</mark> (membrana mitocondrial interna) (0,6 p)."
+   ],
+   "origen": {
+    "documento": "PAU 2025 Aragón (Universidad de Zaragoza) · Aragón, convocatoria ordinaria",
+    "referencia": "Aragón, convocatoria ordinaria, opción B, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Aragón (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Aragón (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025/aragon-3b.webp",
+   "imgThumb": "assets/figuras/historico/2025/aragon-3b.thumb.webp",
+   "imageDesc": "Molécula de tres carbonos (¹C, ²C, ³C): en ¹C un grupo –O–CO–(CH₂)₁₆–CH₃; en ²C un grupo –O–CO– con una cadena con dos dobles enlaces; en ³C un grupo fosfato unido a –(CH₂)₂–NH₃⁺.",
+   "isNew": true
+  },
+  {
+   "id": "pau2025-aragon-a4",
+   "block": "Célula",
+   "topic": "Membrana plasmática: componentes y transporte",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Aragón",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>A continuación se visualiza la siguiente estructura de una célula animal.</b><br>a) ¿Qué estructura representa la siguiente imagen? Justifíquelo (0,3 puntos)<br>b) Identifique las estructuras señaladas con los números 1 al 7. (0,7 puntos)<br>c) Si esta estructura presentara una gran cantidad de moléculas identificadas con el número 2, ¿qué le ocurriría a esta estructura? Justifique su respuesta (0,2 puntos)<br>d) ¿En qué se parecen y en qué se diferencian las estructuras A y B en cuanto a su función? (0,8 puntos)",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Membrana plasmática</mark>: <mark class=\"clave-criterio\">bicapa lipídica con proteínas</mark>, <mark class=\"clave-criterio\">citoesqueleto</mark> asociado y otros componentes (0,3 p).",
+    "b) 1: <mark class=\"clave-criterio\">bicapa lipídica</mark>; 2: <mark class=\"clave-criterio\">colesterol</mark>; 3: <mark class=\"clave-criterio\">citoesqueleto</mark> (córtex); 4: <mark class=\"clave-criterio\">glucocálix</mark> (glucolípido); 5: <mark class=\"clave-criterio\">proteína integral</mark>; 6: <mark class=\"clave-criterio\">glucoproteínas</mark>; 7: <mark class=\"clave-criterio\">fosfolípido</mark> (hemicapa interna) (0,7 p).",
+    "c) Con mucho colesterol la membrana <mark class=\"clave-criterio\">perdería fluidez</mark> (0,2 p).",
+    "d) Semejanza: ambas <mark class=\"clave-criterio\">transportan moléculas a través de la membrana</mark>. Diferencia: A (<mark class=\"clave-criterio\">proteína canal</mark>) permite el paso <mark class=\"clave-criterio\">a favor de gradiente, sin gasto de energía</mark> (<mark class=\"clave-criterio\">transporte pasivo</mark>); B (<mark class=\"clave-criterio\">bomba</mark>) usa <mark class=\"clave-criterio\">ATP</mark> para transportar <mark class=\"clave-criterio\">contra gradiente</mark> (<mark class=\"clave-criterio\">transporte activo</mark>) (0,8 p)."
+   ],
+   "origen": {
+    "documento": "PAU 2025 Aragón (Universidad de Zaragoza) · Aragón, convocatoria ordinaria",
+    "referencia": "Aragón, convocatoria ordinaria, opción A, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Aragón (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Aragón (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025/aragon-4a.webp",
+   "imgThumb": "assets/figuras/historico/2025/aragon-4a.thumb.webp",
+   "imageDesc": "Bicapa de esferas con colas (1), pequeñas moléculas intercaladas (2), una red de filamentos por debajo (3), cadenas ramificadas en la superficie (4, 6), una proteína que atraviesa la bicapa (5), la capa interna (7), una proteína con un canal (A) y otra que transporta partículas con gasto de P (B).",
+   "isNew": true
+  },
+  {
+   "id": "pau2025-aragon-b4",
+   "block": "Célula",
+   "topic": "Meiosis y mitosis; quiasma",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Aragón",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la figura:</b><br>a) ¿Qué imagen representa la mitosis y la meiosis? ¿En qué fase se encuentra cada una de ellas? ¿En qué tipo de células se produce A y en cuáles se produce B? (0,6 puntos)<br>b) Identifique la estructura marcada con el número 1. ¿Cuál es su función? (0,4 puntos)<br>c) Identifique la estructura marcada con el número 2. ¿Qué está ocurriendo? ¿Qué importancia biológica tiene? (0,6 puntos)<br>d) ¿Qué particularidades presenta la división celular de la célula eucariota vegetal respecto a la célula animal? (0,4 puntos)",
+   "c": [
+    "a) <mark class=\"clave-criterio\">A: meiosis</mark>, en <mark class=\"clave-criterio\">metafase I</mark>, en <mark class=\"clave-criterio\">células germinales</mark>. <mark class=\"clave-criterio\">B: mitosis</mark>, en <mark class=\"clave-criterio\">metafase</mark>, en <mark class=\"clave-criterio\">células somáticas</mark> (0,6 p).",
+    "b) 1: <mark class=\"clave-criterio\">huso acromático</mark> (mitótico o meiótico): <mark class=\"clave-criterio\">dirige el movimiento de los cromosomas</mark> para que cada célula hija reciba su dotación (0,4 p).",
+    "c) 2: <mark class=\"clave-criterio\">quiasma</mark>: se ha producido la <mark class=\"clave-criterio\">recombinación genética</mark> (intercambio de segmentos entre <mark class=\"clave-criterio\">cromátidas homólogas</mark>), que <mark class=\"clave-criterio\">aumenta la variabilidad genética</mark> de los gametos (0,6 p).",
+    "d) Citocinesis: en animales por <mark class=\"clave-criterio\">anillo contráctil</mark> y <mark class=\"clave-criterio\">surco de segmentación</mark>; en vegetales por <mark class=\"clave-criterio\">fragmoplasto</mark> (placa celular) a partir de <mark class=\"clave-criterio\">vesículas del Golgi</mark>. Huso: en vegetales <mark class=\"clave-criterio\">sin centriolos ni áster</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU 2025 Aragón (Universidad de Zaragoza) · Aragón, convocatoria ordinaria",
+    "referencia": "Aragón, convocatoria ordinaria, opción B, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Aragón (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Aragón (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025/aragon-4b.webp",
+   "imgThumb": "assets/figuras/historico/2025/aragon-4b.thumb.webp",
+   "imageDesc": "A: célula con parejas de cromosomas homólogos en el centro y un detalle ampliado de un cruce entre cromátidas (2). B: célula con cromosomas alineados uno a uno en el ecuador. Unas fibras (1) van de los polos a los cromosomas.",
+   "isNew": true
+  },
+  {
+   "id": "pau2025-aragon-a5",
+   "block": "Inmunología",
+   "topic": "Rubeola: respuesta primaria y secundaria",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Aragón",
+   "hasImg": false,
+   "competencial": true,
+   "q": "Una mujer, que de niña contrajo el virus de la rubeola, presenta en sangre una baja concentración de anticuerpos frente al virus. Se le recomienda vacunarse para evitar problemas. La analítica tras la vacunación muestra una concentración de anticuerpos frente al virus mayor.<br>a) ¿Qué tipo de respuesta inmune se generó tras el contacto con el virus? ¿Y tras la vacunación? Razónelo. (0,6 puntos)<br>b) Tras la vacuna la respuesta inmune es más rápida e intensa, ¿por qué? (0,6 puntos)<br>c) ¿Qué anticuerpo predominó tras el contacto con el virus? ¿Y tras la vacunación? (0,6 puntos)<br>d) Dada la naturaleza molecular de los anticuerpos, ¿en qué orgánulo se sintetizan? (0,2 puntos)",
+   "c": [
+    "a) Tras el virus: <mark class=\"clave-criterio\">respuesta primaria</mark> (primer contacto con el antígeno). Tras la vacuna: <mark class=\"clave-criterio\">respuesta secundaria</mark>, porque ya había <mark class=\"clave-criterio\">células de memoria</mark> (0,6 p).",
+    "b) La primera exposición generó <mark class=\"clave-criterio\">linfocitos B de memoria</mark>, que <mark class=\"clave-criterio\">responden rápidamente</mark> y producen anticuerpos <mark class=\"clave-criterio\">en más cantidad</mark> (0,6 p).",
+    "c) Tras el virus: <mark class=\"clave-criterio\">IgM</mark>; tras la vacuna: <mark class=\"clave-criterio\">IgG</mark> (0,6 p).",
+    "d) Son <mark class=\"clave-criterio\">glucoproteínas</mark>: se sintetizan en el <mark class=\"clave-criterio\">retículo endoplasmático rugoso</mark> (ribosomas asociados al RER) (0,2 p)."
+   ],
+   "origen": {
+    "documento": "PAU 2025 Aragón (Universidad de Zaragoza) · Aragón, convocatoria ordinaria",
+    "referencia": "Aragón, convocatoria ordinaria, opción A, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Aragón (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Aragón (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": true
+  },
+  {
+   "id": "pau2025-aragon-b5",
+   "block": "Inmunología",
+   "topic": "Tuberculosis: transferencia de plasma o de linfocitos",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Aragón",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>El bacilo de Koch produce la tuberculosis. El ratón A superó esta enfermedad de manera natural hace un año. Se le extrajo sangre, y en un tubo se aisló el plasma (contiene todos los componentes de la sangre salvo las células), mientras que en otro tubo se aislaron únicamente sus linfocitos. El contenido de estos tubos se administró a dos ratones diferentes. Horas después a ambos se les administró el bacilo. El ratón B murió, mientras que el ratón C sobrevivió.</b><br>a) ¿Cómo podría explicar el resultado? Razónelo. (0,6 puntos)<br>b) Se analizó la sangre del ratón B (una vez fallecido) y no se detectaron anticuerpos contra el bacilo. Transcurridas unas horas, en el ratón C sí que se detectaron anticuerpos contra el bacilo. Razone qué tipos de anticuerpos habrá en la sangre del ratón C. (0,6 puntos)<br>c) ¿En qué se diferenciará esta respuesta del ratón C con la que tuvo el ratón A cuándo enfermó por primera vez? Razónelo (puede ayudarse de una gráfica). (0,8 puntos)",
+   "c": [
+    "a) La protección no está en el <mark class=\"clave-criterio\">plasma</mark> sino en los <mark class=\"clave-criterio\">linfocitos</mark>: al ratón B el plasma ya <mark class=\"clave-criterio\">no le aportaba anticuerpos</mark> (había pasado mucho tiempo) ni <mark class=\"clave-criterio\">linfocitos de memoria</mark>; el ratón C recibió <mark class=\"clave-criterio\">células de memoria</mark> que <mark class=\"clave-criterio\">reconocieron rápido al bacilo</mark> (0,6 p).",
+    "b) Sobre todo <mark class=\"clave-criterio\">IgG</mark>, propias de la <mark class=\"clave-criterio\">respuesta secundaria</mark>; poca IgM (0,6 p).",
+    "c) Ratón A (<mark class=\"clave-criterio\">primaria</mark>): primero <mark class=\"clave-criterio\">IgM</mark> y luego IgG, respuesta <mark class=\"clave-criterio\">más lenta y menos intensa</mark>. Ratón C (<mark class=\"clave-criterio\">secundaria</mark>): <mark class=\"clave-criterio\">rápida e intensa</mark>, con <mark class=\"clave-criterio\">IgG</mark> desde el principio <span class=\"redactado\">en una gráfica, la curva de C sube antes y mucho más alto</span> (0,8 p)."
+   ],
+   "origen": {
+    "documento": "PAU 2025 Aragón (Universidad de Zaragoza) · Aragón, convocatoria ordinaria",
+    "referencia": "Aragón, convocatoria ordinaria, opción B, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Aragón (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Aragón (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025/aragon-5b.webp",
+   "imgThumb": "assets/figuras/historico/2025/aragon-5b.thumb.webp",
+   "imageDesc": "Del ratón A, que superó la enfermedad, se obtienen un tubo con plasma y otro con linfocitos. El ratón B recibe el plasma (1) y el bacilo (3); el ratón C recibe los linfocitos (2) y el bacilo (3).",
+   "isNew": true
+  },
+  {
+   "id": "pau2025-asturias-a1",
+   "block": "Biomoléculas",
+   "topic": "Etiqueta del surimi: grasas, colesterol y transporte de lípidos",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Asturias",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>La tabla adjunta corresponde a la etiqueta de la información nutricional expuesta en la zona exterior del envase de un alimento ultra-procesado, los denominados palitos de cangrejo o surimi, un preparado disponible en tiendas de alimentación. Abreviaturas: g: gramos; mg: miligramos (0.001 gramos); μg: microgramos (0.000001 gramos).</b><br>1. Indica qué diferencia las grasas saturadas, las monoinsaturadas y polinsaturadas. Indica cuál de los tres tipos tiene la temperatura de fusión más baja y explica por qué. (Calificación 1 punto)<br>2. Explica si el colesterol es o no un lípido anfipático e indica si tiene relación con alguna de las vitaminas que aparecen en la etiqueta de la información nutricional. Justifica tu respuesta. (Calificación 1 punto)<br>3. Explica cómo es posible que los lípidos se puedan transportar por la sangre de una zona a otra del organismo si son moléculas altamente hidrofóbicas y, por tanto, insolubles en un medio acuoso como la sangre. (Calificación 0.5 puntos)",
+   "c": [
+    "1. Se diferencian en el <mark class=\"clave-criterio\">número de dobles enlaces</mark>: <mark class=\"clave-criterio\">0 en las saturadas</mark>, <mark class=\"clave-criterio\">1 en las monoinsaturadas</mark> y <mark class=\"clave-criterio\">2 o más en las polinsaturadas</mark> (0,5 p). El punto de fusión más bajo lo tienen las <mark class=\"clave-criterio\">polinsaturadas</mark>: los dobles enlaces producen <mark class=\"clave-criterio\">curvaturas</mark> que <mark class=\"clave-criterio\">reducen el empaquetamiento</mark> y debilitan las <mark class=\"clave-criterio\">interacciones hidrofóbicas</mark> (0,5 p).",
+    "2. <mark class=\"clave-criterio\">Sí es anfipático</mark>: tiene una parte <mark class=\"clave-criterio\">polar (el grupo –OH)</mark> y otra <mark class=\"clave-criterio\">apolar (los anillos y la cadena hidrocarbonada)</mark> (0,5 p). Se relaciona con la <mark class=\"clave-criterio\">vitamina D</mark>, que <mark class=\"clave-criterio\">se sintetiza a partir del colesterol</mark> (0,5 p).",
+    "3. Gracias a <mark class=\"clave-criterio\">proteínas de transporte (lipoproteínas o apoproteínas)</mark>, <mark class=\"clave-criterio\">anfipáticas</mark>: con su parte apolar se unen al lípido y con la polar interaccionan con el agua (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU 2025 Asturias (Universidad de Oviedo) · Asturias, convocatoria extraordinaria",
+    "referencia": "Asturias, convocatoria extraordinaria, opción A, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Asturias (Extraordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Asturias (Extraordinaria de 2025)criterios.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025/asturias-1.webp",
+   "imgThumb": "assets/figuras/historico/2025/asturias-1.thumb.webp",
+   "imageDesc": "Tabla «Información nutricional/100 g»: carbohidratos totales 14,8 g (almidón 12,4; azúcares 1,6; fibra 0,8); grasas totales 1,15 g (saturadas 0,38; monoinsaturadas 0,56; polinsaturadas 0,21, con omega 3 y omega 6); colesterol 40,1 mg; proteína 7,62 g; minerales (sodio, calcio, fósforo, hierro, potasio, magnesio) y vitaminas B1, B12, B3, B6, D y E.",
+   "isNew": true
+  },
+  {
+   "id": "pau2025-asturias-b1",
+   "block": "Biomoléculas",
+   "topic": "Etiqueta del surimi: enlaces O- y N-glucosídicos",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Asturias",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>La tabla adjunta corresponde a la etiqueta de la información nutricional expuesta en la zona exterior del envase de un alimento ultra-procesado, los denominados palitos de cangrejo o surimi, un preparado disponible en tiendas de alimentación.</b><br>1. Indica qué compuestos de los que se enumeran en la etiqueta de la información nutricional presentan enlaces O-glucosílico y explica cómo se establece ese enlace. (Calificación 1 punto)<br>2. Indica cómo se establece un enlace N-glucosílico, pon un ejemplo de macromolécula con este tipo de enlace y explica si este enlace participa directamente en la formación de polímeros, esto es, en la unión repetitiva de pequeñas moléculas o monómeros para formar una macromolécula polimérica. (Calificación 1 punto)<br>3. Indica si con la información de la etiqueta nutricional se puede saber si el producto tiene un origen exclusivamente animal. Justifica tu respuesta. (Calificación 0.5 puntos)",
+   "c": [
+    "1. Los <mark class=\"clave-criterio\">carbohidratos</mark> (<mark class=\"clave-criterio\">almidón</mark>, <mark class=\"clave-criterio\">azúcares</mark>, <mark class=\"clave-criterio\">fibra</mark>) (0,5 p). El enlace se forma entre <mark class=\"clave-criterio\">dos grupos –OH de dos glúcidos</mark>: dos carbonos quedan unidos por un <mark class=\"clave-criterio\">puente de oxígeno</mark> y se <mark class=\"clave-criterio\">libera una molécula de agua</mark> (0,5 p).",
+    "2. Se forma entre el <mark class=\"clave-criterio\">–OH de un monosacárido</mark> y un <mark class=\"clave-criterio\">grupo amino (–NH₂)</mark> de otra molécula: el <mark class=\"clave-criterio\">carbono queda unido al nitrógeno</mark> y se libera agua (0,5 p). Ejemplo: <mark class=\"clave-criterio\">ADN o ARN</mark> (une la base a la pentosa) (0,25 p). <mark class=\"clave-criterio\">No participa en la polimerización</mark>: los nucleótidos se unen por <mark class=\"clave-criterio\">enlaces fosfodiéster</mark> (0,25 p).",
+    "3. <mark class=\"clave-criterio\">No</mark>: contiene compuestos de <mark class=\"clave-criterio\">origen vegetal</mark>, el <mark class=\"clave-criterio\">almidón</mark> y la <mark class=\"clave-criterio\">fibra alimentaria</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU 2025 Asturias (Universidad de Oviedo) · Asturias, convocatoria extraordinaria",
+    "referencia": "Asturias, convocatoria extraordinaria, opción B, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Asturias (Extraordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Asturias (Extraordinaria de 2025)criterios.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025/asturias-1.webp",
+   "imgThumb": "assets/figuras/historico/2025/asturias-1.thumb.webp",
+   "imageDesc": "Tabla «Información nutricional/100 g»: carbohidratos totales 14,8 g (almidón 12,4; azúcares 1,6; fibra 0,8); grasas totales 1,15 g (saturadas, monoinsaturadas y polinsaturadas); colesterol 40,1 mg; proteína 7,62 g; minerales y vitaminas B1, B12, B3, B6, D y E.",
+   "isNew": true
+  },
+  {
+   "id": "pau2025-asturias-a2",
+   "block": "Genética",
+   "topic": "Transcripción y traducción simultáneas; promotor",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Asturias",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>El esquema adjunto representa procesos biosintéticos que dan lugar a grandes moléculas poliméricas fundamentales para las células. El recuadro corresponde a un detalle ampliado.</b><br>1. Indica el nombre de las biomoléculas poliméricas que se están sintetizando en el esquema y señala cómo se denominan esos procesos de síntesis. (Calificación 1 punto)<br>2. Explica qué es el promotor o región promotora e indica cuántas de estas regiones hay en el ejemplo que se representa en el esquema. Justifica tu respuesta. (Calificación 1 punto)<br>3. Con la información que se muestra en el recuadro ampliado, indica qué cadena, azul-5´ o rosa-3´, es la cadena molde. Justifica tu respuesta. (Calificación 0.5 puntos)",
+   "c": [
+    "1. <mark class=\"clave-criterio\">ARN mensajero</mark> y <mark class=\"clave-criterio\">proteínas</mark> (0,5 p); procesos: <mark class=\"clave-criterio\">transcripción</mark> y <mark class=\"clave-criterio\">traducción</mark> (0,5 p).",
+    "2. El promotor es una <mark class=\"clave-criterio\">secuencia corta de ADN</mark> que <mark class=\"clave-criterio\">reconoce la ARN polimerasa</mark> y que <mark class=\"clave-criterio\">marca el inicio de la transcripción</mark> (0,5 p). Hay <mark class=\"clave-criterio\">una sola región promotora</mark>, porque se transcribe <mark class=\"clave-criterio\">un único tipo de ARNm</mark> (aunque haya 5 copias) (0,5 p).",
+    "3. La <mark class=\"clave-criterio\">rosa</mark>: el ADN se lee en sentido <mark class=\"clave-criterio\">3'→5'</mark> y la ARN polimerasa <mark class=\"clave-criterio\">avanza de izquierda a derecha</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU 2025 Asturias (Universidad de Oviedo) · Asturias, convocatoria extraordinaria",
+    "referencia": "Asturias, convocatoria extraordinaria, opción A, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Asturias (Extraordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Asturias (Extraordinaria de 2025)criterios.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025/asturias-2.webp",
+   "imgThumb": "assets/figuras/historico/2025/asturias-2.thumb.webp",
+   "imageDesc": "Una doble hélice horizontal sobre la que avanzan de izquierda a derecha varias enzimas verdes; de cada una cuelga una hebra roja cada vez más larga con varias estructuras de las que salen cadenas de esferas de colores terminadas en una esfera negra. Recuadro ampliado: hebras azul (5') y rosa (3').",
+   "isNew": true
+  },
+  {
+   "id": "pau2025-asturias-b2",
+   "block": "Genética",
+   "topic": "Transcripción y traducción en procariotas; enzimas",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Asturias",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>El esquema adjunto representa procesos biosintéticos que dan lugar a grandes moléculas poliméricas fundamentales para las células. El recuadro corresponde a un detalle ampliado.</b><br>1. Explica si el proceso, tal como se representa, tiene lugar en células procariotas, o en eucariotas o en ambos tipos. Justifica tu respuesta. (Calificación 1 punto)<br>2. Indica el nombre y localización celular del enzima responsable de activación de los aminoácidos y del enzima responsable de la formación del enlace peptídico. (Calificación 1 punto)<br>3. Todas las cadenas que se representan en el esquema como una sucesión de pequeñas esferas de varios colores tienen en el extremo una esfera de color negro. ¿Se puede saber a qué molécula corresponde dicha esfera negra del extremo? Justifica tu respuesta. (Calificación 0.5 puntos)",
+   "c": [
+    "1. En <mark class=\"clave-criterio\">procariotas</mark>: solo en ellas la <mark class=\"clave-criterio\">transcripción y la traducción ocurren en el mismo compartimento (citoplasma)</mark>, y un ARNm <mark class=\"clave-criterio\">se traduce mientras se transcribe</mark> (1 p).",
+    "2. Activación: <mark class=\"clave-criterio\">aminoacil-ARNt sintetasa</mark>, en el <mark class=\"clave-criterio\">citoplasma</mark> (0,5 p). Enlace peptídico: <mark class=\"clave-criterio\">peptidil transferasa</mark>, en los <mark class=\"clave-criterio\">ribosomas</mark> (0,5 p).",
+    "3. <mark class=\"clave-criterio\">Sí</mark>: es la <mark class=\"clave-criterio\">N-formil-metionina</mark> (o metionina), porque la traducción empieza siempre por el <mark class=\"clave-criterio\">codón AUG</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU 2025 Asturias (Universidad de Oviedo) · Asturias, convocatoria extraordinaria",
+    "referencia": "Asturias, convocatoria extraordinaria, opción B, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Asturias (Extraordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Asturias (Extraordinaria de 2025)criterios.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025/asturias-2.webp",
+   "imgThumb": "assets/figuras/historico/2025/asturias-2.thumb.webp",
+   "imageDesc": "Una doble hélice horizontal sobre la que avanzan varias enzimas verdes; de cada una cuelga una hebra roja cada vez más larga con varias estructuras de las que salen cadenas de esferas de colores terminadas en una esfera negra.",
+   "isNew": true
+  },
+  {
+   "id": "pau2025-asturias-a3",
+   "block": "Célula",
+   "topic": "Centrosoma y fragmoplasto",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Asturias",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>El esquema adjunto es una representación esquemática de una célula y el recuadro de la derecha corresponde a un detalle a mayor aumento de una estructura presente en el citoplasma.</b><br>1. Señala el nombre de la estructura que se representa en color verde y naranja y se presenta en el recuadro a mayor aumento. Indica los componentes que constituyen esta estructura. (Calificación 1 punto)<br>2. Explica brevemente qué es el fragmoplasto de una célula, cómo se origina y para qué sirve, e indica si esa estructura está presente en la célula que se representa. Justifica tu respuesta. (Calificación 1 punto)<br>3. Explica si es posible que la estructura que se representa con los colores verde y naranja y se presenta en el recuadro a mayor aumento, aparezca duplicada en una célula. Justifica tu respuesta. (Calificación 0.5 puntos)",
+   "c": [
+    "1. <mark class=\"clave-criterio\">Centrosoma</mark> (0,25 p), formado por <mark class=\"clave-criterio\">dos centriolos (diplosoma)</mark>, <mark class=\"clave-criterio\">material pericentriolar</mark> y <mark class=\"clave-criterio\">microtúbulos radiales (áster)</mark> (0,75 p).",
+    "2. Fragmoplasto: <mark class=\"clave-criterio\">tabique formado a partir del aparato de Golgi</mark> que <mark class=\"clave-criterio\">divide el citoplasma (citocinesis)</mark> en las <mark class=\"clave-criterio\">células vegetales</mark> (0,5 p). <mark class=\"clave-criterio\">No está</mark> en la célula representada: es <mark class=\"clave-criterio\">animal</mark>, porque tiene <mark class=\"clave-criterio\">centrosoma con centriolos</mark> (0,5 p).",
+    "3. <mark class=\"clave-criterio\">Sí</mark>: se <mark class=\"clave-criterio\">duplica en la fase S</mark> para formar el <mark class=\"clave-criterio\">huso mitótico</mark> que reparte los cromosomas (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU 2025 Asturias (Universidad de Oviedo) · Asturias, convocatoria extraordinaria",
+    "referencia": "Asturias, convocatoria extraordinaria, opción A, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Asturias (Extraordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Asturias (Extraordinaria de 2025)criterios.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025/asturias-3.webp",
+   "imgThumb": "assets/figuras/historico/2025/asturias-3.thumb.webp",
+   "imageDesc": "Célula con núcleo con nucléolo, mitocondrias, retículo, aparato de Golgi, vesículas y, cerca del núcleo, una masa verde con dos cilindros de la que salen radialmente líneas naranjas; el recuadro amplía esa estructura.",
+   "isNew": true
+  },
+  {
+   "id": "pau2025-asturias-b3",
+   "block": "Célula",
+   "topic": "Nucleoide y nucléolo; interfase y anafase I",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Asturias",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>El esquema adjunto es una representación esquemática de una célula y el recuadro de la derecha corresponde a un detalle a mayor aumento de una estructura presente en el citoplasma.</b><br>1. Explica cuál es la diferencia entre nucleoide y nucléolo e indica si alguna de estas dos estructuras o las dos están presentes en la célula que se representa. (Calificación 1 punto)<br>2. Indica si la célula que se representa está en interfase o en fase M. Justifica tu respuesta en base a dos características de la célula representada. (Calificación 1 punto)<br>3. Señala en qué proceso y fase se encontrará una célula en la que los cromosomas homólogos están formados por dos cromátidas y se están desplazando hacia polos opuestos. Justifica tu respuesta. (Calificación 0.5 puntos)",
+   "c": [
+    "1. <mark class=\"clave-criterio\">Nucleoide</mark>: zona de las <mark class=\"clave-criterio\">células procariotas</mark> donde está el <mark class=\"clave-criterio\">ADN sin membrana</mark>. <mark class=\"clave-criterio\">Nucléolo</mark>: estructura del <mark class=\"clave-criterio\">núcleo eucariota</mark> donde se <mark class=\"clave-criterio\">sintetiza el ARNr</mark> y se forman los <mark class=\"clave-criterio\">ribosomas</mark> (0,75 p). La célula tiene <mark class=\"clave-criterio\">nucléolo</mark> pero <mark class=\"clave-criterio\">no nucleoide</mark> (0,25 p).",
+    "2. <mark class=\"clave-criterio\">Interfase</mark>, por dos de estas: <mark class=\"clave-criterio\">envoltura nuclear</mark>, <mark class=\"clave-criterio\">nucléolo</mark>, <mark class=\"clave-criterio\">cromatina sin condensar</mark>, <mark class=\"clave-criterio\">no se ven cromosomas</mark>, <mark class=\"clave-criterio\">centrosoma sin dividir</mark> (1 p).",
+    "3. <mark class=\"clave-criterio\">Anafase I de la meiosis</mark>: se separan los <mark class=\"clave-criterio\">homólogos completos, cada uno con sus dos cromátidas</mark> (en la mitosis se separan cromátidas) (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU 2025 Asturias (Universidad de Oviedo) · Asturias, convocatoria extraordinaria",
+    "referencia": "Asturias, convocatoria extraordinaria, opción B, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Asturias (Extraordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Asturias (Extraordinaria de 2025)criterios.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025/asturias-3.webp",
+   "imgThumb": "assets/figuras/historico/2025/asturias-3.thumb.webp",
+   "imageDesc": "Célula con núcleo con envoltura y nucléolo, mitocondrias, retículo, aparato de Golgi, vesículas y, cerca del núcleo, un centrosoma del que salen radialmente fibras naranjas.",
+   "isNew": true
+  },
+  {
+   "id": "pau2025-asturias-a4",
+   "block": "Metabolismo",
+   "topic": "Movilización de la grasa: β-oxidación y balance de NADH y FADH₂",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Asturias",
+   "hasImg": false,
+   "competencial": true,
+   "q": "<b>Dos gemelos adultos del mismo peso, 80 kg, y el mismo porcentaje de grasa corporal (PGC), 25%, deciden cambiar de hábitos, ya que el rango de normalidad de PGC para su edad es 10-15%. El primero (individuo A) siguió una dieta hipocalórica con ejercicio moderado durante 1 año, alcanzando un PGC de 14% y un peso de 72 kg. El segundo (individuo B) hizo entrenamiento de musculación y en un año bajó su PGC al 11%, aumentando su tejido muscular proteico, por lo que su peso no se modificó (80 kg).</b><br>1. Indica cuál es la molécula más abundante de la grasa corporal, en qué compartimento de la célula se almacena y en qué consiste la primera reacción para su catabolismo. (Calificación 1 punto)<br>2. En el caso del individuo A, indica cuál es la ruta catabólica responsable de la movilización de las reservas energéticas y el compartimento celular donde tiene lugar. (Calificación 1 punto)<br>3. Indica cuántas moléculas de NADH y de FADH₂ se generarán por la oxidación completa de una molécula un ácido graso saturado de 18 carbonos. Justifica tu respuesta. (Calificación 0.5 puntos)",
+   "c": [
+    "1. <mark class=\"clave-criterio\">Triglicéridos</mark> (triacilgliceroles) (0,25 p), almacenados en el <mark class=\"clave-criterio\">citoplasma</mark> (0,25 p). Primera reacción: <mark class=\"clave-criterio\">hidrólisis (lipólisis)</mark> en <mark class=\"clave-criterio\">ácidos grasos y glicerol</mark> (0,5 p).",
+    "2. <mark class=\"clave-criterio\">β-oxidación de los ácidos grasos</mark> (0,5 p), en la <mark class=\"clave-criterio\">matriz mitocondrial</mark> (también peroxisomas) (0,5 p).",
+    "3. Un ácido graso de 18 C necesita <mark class=\"clave-criterio\">8 vueltas</mark> de β-oxidación y da <mark class=\"clave-criterio\">9 acetil-CoA</mark>; cada vuelta produce <mark class=\"clave-criterio\">1 NADH y 1 FADH₂</mark> (8 + 8), y cada acetil-CoA en el <mark class=\"clave-criterio\">ciclo de Krebs</mark> da <mark class=\"clave-criterio\">3 NADH y 1 FADH₂</mark> (27 + 9). Total: <mark class=\"clave-criterio\">35 NADH y 17 FADH₂</mark> <span class=\"redactado\">los criterios dan 16 FADH₂ en el total, pero su propio desglose, 8 + 9, suma 17</span> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU 2025 Asturias (Universidad de Oviedo) · Asturias, convocatoria extraordinaria",
+    "referencia": "Asturias, convocatoria extraordinaria, opción A, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Asturias (Extraordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Asturias (Extraordinaria de 2025)criterios.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": true
+  },
+  {
+   "id": "pau2025-asturias-b4",
+   "block": "Metabolismo",
+   "topic": "Musculación: equilibrio entre anabolismo y catabolismo",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Asturias",
+   "hasImg": false,
+   "competencial": true,
+   "q": "<b>Dos gemelos adultos del mismo peso, 80 kg, y el mismo porcentaje de grasa corporal (PGC), 25%, deciden cambiar de hábitos, ya que el rango de normalidad de PGC para su edad es 10-15%. El primero (individuo A) siguió una dieta hipocalórica con ejercicio moderado durante 1 año, alcanzando un PGC de 14% y un peso de 72 kg. El segundo (individuo B) hizo entrenamiento de musculación y en un año bajó su PGC al 11%, aumentando su tejido muscular proteico, por lo que su peso no se modificó (80 kg).</b><br>1. Indica si en el caso del individuo B, las rutas que han predominado de forma global son las anabólicas o las catabólicas. Justifica tu respuesta. (Calificación 1 punto)<br>2. Describe brevemente una ruta catabólica y una ruta anabólica que ocurran en el caso del individuo B, indicando el compartimento celular donde tienen lugar. (Calificación 1 punto)<br>3. Indica si el individuo B podría haber llegado a la situación descrita en el texto con una dieta rica en glúcidos y pobre en proteínas. Justifica tu respuesta. (Calificación 0.5 puntos)",
+   "c": [
+    "1. Como <mark class=\"clave-criterio\">el peso no cambia</mark>, el <mark class=\"clave-criterio\">catabolismo y el anabolismo están equilibrados</mark> (también vale razonar que predomina el catabolismo, que aporta la energía del anabolismo y del resto de funciones) (1 p).",
+    "2. Catabólica: <mark class=\"clave-criterio\">lipólisis</mark> y <mark class=\"clave-criterio\">β-oxidación</mark> en la <mark class=\"clave-criterio\">matriz mitocondrial</mark> → <mark class=\"clave-criterio\">acetil-CoA</mark> → <mark class=\"clave-criterio\">ciclo de Krebs</mark> → <mark class=\"clave-criterio\">cadena respiratoria</mark> (membrana interna) y <mark class=\"clave-criterio\">ATP sintasa</mark> (0,5 p). Anabólica: <mark class=\"clave-criterio\">síntesis de proteínas</mark> en los <mark class=\"clave-criterio\">ribosomas</mark> del citoplasma o del <mark class=\"clave-criterio\">RER</mark> (0,5 p).",
+    "3. <mark class=\"clave-criterio\">No</mark>: la dieta debe ser <mark class=\"clave-criterio\">rica en proteínas</mark>, porque ha aumentado su masa proteica y hay <mark class=\"clave-criterio\">aminoácidos esenciales</mark> que <mark class=\"clave-criterio\">no podemos sintetizar</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU 2025 Asturias (Universidad de Oviedo) · Asturias, convocatoria extraordinaria",
+    "referencia": "Asturias, convocatoria extraordinaria, opción B, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Asturias (Extraordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Asturias (Extraordinaria de 2025)criterios.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": true
+  },
+  {
+   "id": "pau2025-asturias-a5",
+   "block": "Biotecnología",
+   "topic": "Anticuerpos humanos en alfalfa transgénica; CRISPR-Cas",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Asturias",
+   "hasImg": false,
+   "competencial": true,
+   "q": "<b>En los últimos años se han desarrollado sistemas de producción de anticuerpos humanos utilizando plantas transgénicas de alfalfa. Estos sistemas abaratan mucho el proceso, por lo que resultan muy prometedores para obtener anticuerpos que puedan usarse en diversas terapias humanas.</b><br>1. Explica cómo se puede obtener un anticuerpo humano en una planta y define tres herramientas moleculares necesarias para este proceso. (Calificación 1 punto)<br>2. Describe una molécula de anticuerpo (IgG) indicando cómo son las cadenas de aminoácidos, las uniones entre ellas y las regiones de los extremos amino y carboxilo. (Calificación 1 punto)<br>3. Las siglas CRISPR-Cas describen los dos elementos principales que constituyen este sistema. Indica qué elemento es referido por las siglas CRISPR y cuál por las siglas Cas. (Calificación 0.5 puntos)",
+   "c": [
+    "1. Se <mark class=\"clave-criterio\">aísla de una célula humana el gen del anticuerpo</mark> y se <mark class=\"clave-criterio\">introduce en el genoma de la planta</mark> (planta transgénica) (0,5 p). Herramientas (tres, 0,5 p): <mark class=\"clave-criterio\">enzimas de restricción</mark> (cortan el ADN en secuencias concretas), <mark class=\"clave-criterio\">ADN ligasa</mark> (une los fragmentos), <mark class=\"clave-criterio\">vectores</mark> (plásmidos o virus que transportan y replican el ADN), <mark class=\"clave-criterio\">ADN recombinante</mark>.",
+    "2. <mark class=\"clave-criterio\">Cuatro cadenas iguales dos a dos</mark>: <mark class=\"clave-criterio\">dos pesadas (H)</mark> y <mark class=\"clave-criterio\">dos ligeras (L)</mark> (0,25 p), unidas por <mark class=\"clave-criterio\">puentes disulfuro</mark> (0,25 p). El extremo amino forma la <mark class=\"clave-criterio\">región variable</mark> (<mark class=\"clave-criterio\">paratopo</mark>, se une al antígeno) (0,25 p) y el carboxilo la <mark class=\"clave-criterio\">región constante</mark> (0,25 p).",
+    "3. <mark class=\"clave-criterio\">CRISPR</mark>: <mark class=\"clave-criterio\">secuencias de ADN</mark> repetidas que guardan fragmentos de <mark class=\"clave-criterio\">ADN exógeno</mark> (virus, plásmidos) (0,25 p). <mark class=\"clave-criterio\">Cas</mark>: <mark class=\"clave-criterio\">endonucleasas</mark> que <mark class=\"clave-criterio\">cortan el ADN</mark> en esas secuencias (0,25 p)."
+   ],
+   "origen": {
+    "documento": "PAU 2025 Asturias (Universidad de Oviedo) · Asturias, convocatoria extraordinaria",
+    "referencia": "Asturias, convocatoria extraordinaria, opción A, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Asturias (Extraordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Asturias (Extraordinaria de 2025)criterios.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": true
+  },
+  {
+   "id": "pau2025-asturias-b5",
+   "block": "Inmunología",
+   "topic": "Sueroterapia, reacciones antígeno-anticuerpo y biorremediación",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Asturias",
+   "hasImg": false,
+   "competencial": true,
+   "q": "<b>En los últimos años se han desarrollado sistemas de producción de anticuerpos humanos utilizando plantas transgénicas de alfalfa. Estos sistemas abaratan mucho el proceso, por lo que resultan muy prometedores para obtener anticuerpos que puedan usarse en diversas terapias humanas.</b><br>1. Indica cómo se llama la administración a un paciente de anticuerpos para tratar una enfermedad y explica tres tipos de reacción antígeno-anticuerpo que se pueden producir. (Calificación 1 punto)<br>2. Explica qué es la biorremediación y señala tres ejemplos. (Calificación 1 punto)<br>3. Indica un caso de inmunidad pasiva natural señalando qué tipo de inmunoglobulina está implicada en el proceso. (Calificación 0.5 puntos)",
+   "c": [
+    "1. <mark class=\"clave-criterio\">Sueroterapia</mark> (inmunidad pasiva artificial) (0,25 p). Tres reacciones (0,75 p): <mark class=\"clave-criterio\">neutralización</mark> (anula los efectos del antígeno), <mark class=\"clave-criterio\">precipitación</mark> (antígenos solubles forman complejos que precipitan), <mark class=\"clave-criterio\">aglutinación</mark> (agregados de bacterias), <mark class=\"clave-criterio\">opsonización</mark> (marca las bacterias para los fagocitos).",
+    "2. Proceso biotecnológico que usa <mark class=\"clave-criterio\">microorganismos, hongos, plantas o sus enzimas</mark> para <mark class=\"clave-criterio\">recuperar un medio contaminado</mark> (0,5 p). Ejemplos: <mark class=\"clave-criterio\">hidrocarburos (petróleo)</mark>, <mark class=\"clave-criterio\">metales pesados</mark>, <mark class=\"clave-criterio\">aguas residuales</mark>, <mark class=\"clave-criterio\">biodegradación de plásticos</mark> (0,5 p).",
+    "3. <mark class=\"clave-criterio\">Paso de anticuerpos de la madre al feto por la placenta (IgG)</mark> o <mark class=\"clave-criterio\">al bebé por la leche materna (IgA)</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU 2025 Asturias (Universidad de Oviedo) · Asturias, convocatoria extraordinaria",
+    "referencia": "Asturias, convocatoria extraordinaria, opción B, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Asturias (Extraordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Asturias (Extraordinaria de 2025)criterios.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": true
   },
   {
    "id": "pau2026-modelo-1",

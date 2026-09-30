@@ -1,0 +1,245 @@
+{
+  "anio": 2025,
+  "curso": "2024-2025",
+  "carpeta": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025",
+  "nota": "Exámenes de Biología de la PAU 2025 (primer año del nuevo modelo competencial) de otras comunidades autónomas, útiles para practicar el formato de 2026. Cada examen lleva la etiqueta de su comunidad. Enunciados literales. Cuando hay criterios oficiales, la solución los sigue, con palabras clave entre **; lo redactado por BioCelia va entre (( )). Figuras recortadas del PDF a 200 ppp.",
+  "examenes": [
+    {
+      "id": "aragon", "nombre": "Aragón, convocatoria ordinaria",
+      "etiqueta": "PAU 2025 Aragón",
+      "documento": "PAU 2025 Aragón (Universidad de Zaragoza)",
+      "origen_texto": "Pregunta oficial de la PAU 2025 de Aragón, con sus criterios de corrección (modelo competencial, útil para 2026)",
+      "puntos": 2,
+      "enunciado": "Examen Biología de Aragón (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+      "criterios": "Examen Biología de Aragón (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+      "preguntas": [
+        {
+          "n": 1, "bloque": "Metabolismo", "tema": "Fermentación alcohólica y láctica en dos tanques; OMG y transgénicos",
+          "q": "<b>PREGUNTA DE CARÁCTER OBLIGATORIO (2 puntos): En el laboratorio se está trabajando con dos tanques con reactivos. En cada uno de ellos se está llevando a cabo un proceso bioquímico diferente, representado por las gráficas A y B. A partir de las gráficas responda las siguientes preguntas:</b><br>a) ¿Desde el punto de vista metabólico, qué ocurre en el minuto 4 en ambas gráficas? Razone su respuesta. (0,4 puntos)<br>b) ¿Qué rutas de degradación de la glucosa se están llevando a cabo antes y después del minuto 4 en cada gráfica? (0,4 puntos)<br>c) Explique el comportamiento de la concentración de CO₂ a lo largo del tiempo en ambos casos. ¿A qué se debe este patrón? (0,4 puntos)<br>d) Tras un tiempo de incubación, ¿cómo habrá cambiado el pH en ambas gráficas? Justifíquelo. (0,2 puntos)<br>e) ¿Cuál de las dos gráficas representaría el proceso para la obtención del pan? ¿Y del vino? Justifique su respuesta, indicando en ambos casos qué sucede al final con el producto representado por la línea verde. (0,2 puntos)<br>f) En la industria alimentaria, en agricultura, en medicina, etc. se están utilizando organismos modificados genéticamente (OMG) y organismos transgénicos, ¿cuál es la diferencia? Cite un ejemplo de cada uno. (0,4 puntos)",
+          "figura": "assets/figuras/historico/2025/aragon-1.webp",
+          "figuraDesc": "Dos gráficas de cantidad frente al tiempo (minutos 1 a 8). En A la glucosa baja, el CO₂ sube poco hasta el minuto 4 y luego más deprisa, y el etanol aparece a partir del minuto 4. En B la glucosa baja, el CO₂ sube hasta el minuto 4 y luego se estabiliza, y el ácido láctico aparece a partir del minuto 4.",
+          "c": [
+            "a) En el minuto 4 el metabolismo **pasa de aeróbico a anaeróbico**: en A empieza a aumentar el **etanol** y en B el **ácido láctico**, señal de que **se ha iniciado la fermentación** (0,4 p).",
+            "b) Antes del minuto 4, en ambas: **glucólisis** y **respiración aeróbica** (**ciclo de Krebs** y **fosforilación oxidativa**). Después: en A, **glucólisis y fermentación alcohólica** (piruvato → etanol + CO₂); en B, **glucólisis y fermentación láctica** (piruvato → ácido láctico, **sin CO₂**) (0,4 p).",
+            "c) En A el CO₂ aumenta poco antes del minuto 4 (del **ciclo de Krebs**) y **más rápido después**, por la **fermentación alcohólica**, que **libera CO₂**. En B sube un poco antes del minuto 4 y luego **se estabiliza**, porque la **fermentación láctica no produce CO₂** (sin descarboxilación) (0,4 p).",
+            "d) En A el pH **no varía** (o baja ligeramente por el CO₂, que forma ácido carbónico); en B el pH **desciende notablemente** porque se acumula **ácido láctico** (0,2 p).",
+            "e) **Pan: gráfica A**: el **CO₂** de la fermentación alcohólica **esponja la masa** y el etanol **se evapora en la cocción**. **Vino: gráfica A**: el **etanol** (línea verde) es el **producto de interés**. La gráfica B no sirve para ninguno (0,2 p).",
+            "f) **OMG**: organismo cuyo material genético se ha **alterado con técnicas biotecnológicas**, **sin necesidad de genes de otra especie** (p. ej., **tomate con una mutación que retrasa la maduración**). **Transgénico**: OMG que ha **recibido genes de otra especie** (p. ej., **maíz Bt** con un gen de <i>Bacillus thuringiensis</i> resistente a plagas) (0,4 p)."
+          ]
+        },
+        {
+          "opcion": "A", "n": 2, "bloque": "Genética", "tema": "Replicación del ADN: burbujas y horquilla",
+          "q": "<b>Responda las siguientes cuestiones:</b><br>a) ¿Qué proceso muestra la imagen de microscopía electrónica? Identifique la región señalada con flechas. (0,2 puntos)<br>b) Identifique el tipo de molécula (número 1) que está siendo sintetizada mediante el proceso esquematizado en la figura adjunta. (0,2 puntos)<br>c) Identifique y describa la función de los elementos 2, 3, 4, 5 y 6 en este proceso de síntesis. (1 punto)<br>d) Indique cuál es el motivo por el cual la síntesis de la molécula 1 en la cadena A es diferente a la síntesis de la molécula 1 en la cadena B. Justifique su respuesta. (0,6 puntos)",
+          "figura": "assets/figuras/historico/2025/aragon-2a.webp",
+          "figuraDesc": "Micrografía electrónica de filamentos con zonas abiertas señaladas con flechas. Esquema de una horquilla: la doble hélice se abre por la acción de 6 y 5; las hebras separadas se cubren de pequeñas esferas (3); sobre la hebra A se sintetiza una cadena continua (1) desde un cebador (4); sobre la hebra B, varios fragmentos con cebadores (4) y enzimas (2).",
+          "c": [
+            "a) **Replicación del ADN**; las flechas señalan **burbujas de replicación** (0,2 p).",
+            "b) **ADN**: una **nueva hebra de ADN** (0,2 p).",
+            "c) 2: **ADN polimerasa**, añade nucleótidos en sentido **5'→3'** usando la hebra molde. 3: **proteínas SSB**, **impiden que las hebras separadas vuelvan a unirse**. 4: **cebadores de ARN** (sintetizados por la **primasa**), **punto de inicio** para la ADN polimerasa. 5: **helicasa**, **desenrolla y separa** las hebras. 6: **topoisomerasa**, **evita el superenrollamiento** delante de la horquilla (1 p).",
+            "d) Por el **antiparalelismo** del ADN y porque la ADN polimerasa **solo sintetiza en sentido 5'→3'**: la cadena A (**adelantada**) se sintetiza **de forma continua**; la B (**retardada**) de forma **discontinua**, en **fragmentos de Okazaki**, con **varios cebadores** (0,6 p)."
+          ]
+        },
+        {
+          "opcion": "B", "n": 2, "bloque": "Genética", "tema": "Código genético: del polipéptido al ADN y mutación",
+          "q": "<b>A continuación, se muestra el fragmento de una cadena polipeptídica cuya secuencia es: NH₂ - Met - Cys - Asp - Trp - COOH. Usando la tabla adjunta, responda a las siguientes cuestiones:</b><br>a) ¿Qué representa la tabla? Explíquelo brevemente. (0,2 puntos)<br>b) Escriba una posible secuencia de ARNm que dé lugar a este polipéptido, indicando sus extremos. (0,5 puntos)<br>c) Indique la secuencia de bases del ADN que codificaría el ARNm que ha propuesto. (0,6 puntos)<br>d) Señale una posible mutación de la secuencia de ADN que cambiaría el aminoácido Cys por Ser. ¿Qué tipo de mutación sería? (0,3 puntos)<br>e) ¿Dicha mutación se transmitirá a la descendencia? Razone su respuesta (0,4 puntos)",
+          "figura": "assets/figuras/historico/2025/aragon-2b.webp",
+          "figuraDesc": "Tabla del código genético: primera letra (U, C, A, G) en filas, segunda letra en columnas y tercera letra a la derecha; cada casilla indica los codones y su aminoácido, con AUG (Met) y los codones STOP UAA, UAG y UGA.",
+          "c": [
+            "a) El **código genético**: la **correspondencia entre los codones del ARNm y los aminoácidos**, con el **codón de inicio AUG** (Met) y los **de terminación** (UAA, UAG, UGA) (0,2 p).",
+            "b) Por ejemplo, **5'-AUG UGC GAU UGG-3'** (también UGU para Cys y GAC para Asp) (0,5 p).",
+            "c) Cadena molde: **3'-TAC ACG CTA ACC-5'** ((y su codificante 5'-ATG TGC GAT TGG-3')) (0,6 p).",
+            "d) Cambiar UGC por **UCC** (en la cadena codificante TGC → TCC; en la molde ACG → AGG): **mutación de sustitución (puntual)** (0,3 p).",
+            "e) **Depende de la célula**: en una **célula somática no se hereda**; en una **célula germinal sí** puede pasar a los gametos y a la descendencia (0,4 p)."
+          ]
+        },
+        {
+          "opcion": "A", "n": 3, "bloque": "Biomoléculas", "tema": "Moléculas del asteroide Ryugu: disacárido y aminoácido",
+          "q": "<b>Un equipo de científicos analizó muestras del asteroide Ryugu, recogidas a 15 millones de kilómetros de la Tierra, y encontró moléculas que podrían haber contribuido al origen de la vida.</b><br>a) Identifique las moléculas 1 y 2 de la imagen. Sea lo más concreto posible. (0,2 puntos)<br>b) Respecto a la molécula 1, ¿cuáles son sus unidades estructurales? ¿cómo se llama el enlace entre dichas estructuras? (0,4 puntos)<br>c) Respecto a la molécula 2, ¿de qué macromolécula es monómero y qué enlace une esos monómeros tipo 2? (0,4 puntos)<br>d) Describa los diferentes niveles estructurales de la macromolécula formada por la unión de varios monómeros tipo 2, así como el tipo de enlaces que se forman para la estabilización de dichas estructuras. ¿En qué orgánulo celular se añaden moléculas 1 a las macromoléculas formadas por las moléculas 2? (1 punto)",
+          "figura": "assets/figuras/historico/2025/aragon-3a.webp",
+          "figuraDesc": "1: dos anillos de seis átomos con grupos OH y CH₂OH unidos por un oxígeno. 2: un carbono unido a un grupo carboxilo, un grupo amino, un H y un radical R.",
+          "c": [
+            "a) 1: **disacárido** (lactosa); 2: **aminoácido** (0,2 p).",
+            "b) Dos **monosacáridos** (glucosa y galactosa), unidos por **enlace O-glucosídico** (0,4 p).",
+            "c) Monómero de las **proteínas**; enlace **peptídico** (0,4 p).",
+            "d) **Primaria**: secuencia de aminoácidos, **enlaces peptídicos**. **Secundaria**: **α-hélice** o **lámina β**, **puentes de hidrógeno** entre CO y NH. **Terciaria**: plegamiento por interacciones entre radicales: **puentes disulfuro**, **interacciones hidrofóbicas**, **puentes de hidrógeno** e **iónicas**. **Cuaternaria**: **varias cadenas** unidas por los mismos enlaces. Los glúcidos se añaden en el **aparato de Golgi** (1 p)."
+          ]
+        },
+        {
+          "opcion": "B", "n": 3, "bloque": "Biomoléculas", "tema": "Un fosfolípido: componentes, membrana y ácidos grasos",
+          "q": "<b>Observando la molécula de la imagen:</b><br>a) ¿De qué tipo de biomolécula se trata? Indique sus componentes químicos y tipo de enlaces entre ellos. (0,6 puntos)<br>b) ¿En qué estructura celular aparece principalmente? Justifique su orientación en esta estructura, basándose en sus propiedades químicas. (0,4 puntos)<br>c) Las moléculas unidas a los carbonos 1C y 2C presentan estados físicos distintos a temperatura ambiente (sólido y líquido, respectivamente). ¿A qué se debe esta diferencia? Justifique su respuesta. (0,4 puntos)<br>d) Si el compuesto unido al carbono 1 se degradara en una célula animal, ¿Qué rutas metabólicas, y en qué parte de la célula se llevarían a cabo, para conseguir su oxidación completa? (0,6 puntos)",
+          "figura": "assets/figuras/historico/2025/aragon-3b.webp",
+          "figuraDesc": "Molécula de tres carbonos (¹C, ²C, ³C): en ¹C un grupo –O–CO–(CH₂)₁₆–CH₃; en ²C un grupo –O–CO– con una cadena con dos dobles enlaces; en ³C un grupo fosfato unido a –(CH₂)₂–NH₃⁺.",
+          "c": [
+            "a) **Fosfolípido** (glicerofosfolípido): **glicerol**, **dos ácidos grasos** (uno saturado y otro insaturado) unidos por **enlaces éster**, y una **cabeza polar** con **fosfato** y un **aminoalcohol**, unida por **enlace fosfodiéster** (0,6 p).",
+            "b) En la **membrana plasmática**, formando una **bicapa**: las **cabezas polares (hidrófilas)** hacia el **medio acuoso** y las **colas hidrófobas** hacia el **interior** (0,4 p).",
+            "c) El del C1 es **saturado** (sin dobles enlaces), se **empaqueta mejor** y es sólido; el del C2 es **insaturado**, sus dobles enlaces forman **codos** que **impiden el empaquetamiento** y **bajan el punto de fusión** (0,4 p).",
+            "d) **β-oxidación** (matriz mitocondrial), **ciclo de Krebs** (matriz mitocondrial) y **cadena de transporte electrónico y fosforilación oxidativa** (membrana mitocondrial interna) (0,6 p)."
+          ]
+        },
+        {
+          "opcion": "A", "n": 4, "bloque": "Célula", "tema": "Membrana plasmática: componentes y transporte",
+          "q": "<b>A continuación se visualiza la siguiente estructura de una célula animal.</b><br>a) ¿Qué estructura representa la siguiente imagen? Justifíquelo (0,3 puntos)<br>b) Identifique las estructuras señaladas con los números 1 al 7. (0,7 puntos)<br>c) Si esta estructura presentara una gran cantidad de moléculas identificadas con el número 2, ¿qué le ocurriría a esta estructura? Justifique su respuesta (0,2 puntos)<br>d) ¿En qué se parecen y en qué se diferencian las estructuras A y B en cuanto a su función? (0,8 puntos)",
+          "figura": "assets/figuras/historico/2025/aragon-4a.webp",
+          "figuraDesc": "Bicapa de esferas con colas (1), pequeñas moléculas intercaladas (2), una red de filamentos por debajo (3), cadenas ramificadas en la superficie (4, 6), una proteína que atraviesa la bicapa (5), la capa interna (7), una proteína con un canal (A) y otra que transporta partículas con gasto de P (B).",
+          "c": [
+            "a) **Membrana plasmática**: **bicapa lipídica con proteínas**, **citoesqueleto** asociado y otros componentes (0,3 p).",
+            "b) 1: **bicapa lipídica**; 2: **colesterol**; 3: **citoesqueleto** (córtex); 4: **glucocálix** (glucolípido); 5: **proteína integral**; 6: **glucoproteínas**; 7: **fosfolípido** (hemicapa interna) (0,7 p).",
+            "c) Con mucho colesterol la membrana **perdería fluidez** (0,2 p).",
+            "d) Semejanza: ambas **transportan moléculas a través de la membrana**. Diferencia: A (**proteína canal**) permite el paso **a favor de gradiente, sin gasto de energía** (**transporte pasivo**); B (**bomba**) usa **ATP** para transportar **contra gradiente** (**transporte activo**) (0,8 p)."
+          ]
+        },
+        {
+          "opcion": "B", "n": 4, "bloque": "Célula", "tema": "Meiosis y mitosis; quiasma",
+          "q": "<b>En relación con la figura:</b><br>a) ¿Qué imagen representa la mitosis y la meiosis? ¿En qué fase se encuentra cada una de ellas? ¿En qué tipo de células se produce A y en cuáles se produce B? (0,6 puntos)<br>b) Identifique la estructura marcada con el número 1. ¿Cuál es su función? (0,4 puntos)<br>c) Identifique la estructura marcada con el número 2. ¿Qué está ocurriendo? ¿Qué importancia biológica tiene? (0,6 puntos)<br>d) ¿Qué particularidades presenta la división celular de la célula eucariota vegetal respecto a la célula animal? (0,4 puntos)",
+          "figura": "assets/figuras/historico/2025/aragon-4b.webp",
+          "figuraDesc": "A: célula con parejas de cromosomas homólogos en el centro y un detalle ampliado de un cruce entre cromátidas (2). B: célula con cromosomas alineados uno a uno en el ecuador. Unas fibras (1) van de los polos a los cromosomas.",
+          "c": [
+            "a) **A: meiosis**, en **metafase I**, en **células germinales**. **B: mitosis**, en **metafase**, en **células somáticas** (0,6 p).",
+            "b) 1: **huso acromático** (mitótico o meiótico): **dirige el movimiento de los cromosomas** para que cada célula hija reciba su dotación (0,4 p).",
+            "c) 2: **quiasma**: se ha producido la **recombinación genética** (intercambio de segmentos entre **cromátidas homólogas**), que **aumenta la variabilidad genética** de los gametos (0,6 p).",
+            "d) Citocinesis: en animales por **anillo contráctil** y **surco de segmentación**; en vegetales por **fragmoplasto** (placa celular) a partir de **vesículas del Golgi**. Huso: en vegetales **sin centriolos ni áster** (0,4 p)."
+          ]
+        },
+        {
+          "opcion": "A", "n": 5, "bloque": "Inmunología", "tema": "Rubeola: respuesta primaria y secundaria",
+          "q": "Una mujer, que de niña contrajo el virus de la rubeola, presenta en sangre una baja concentración de anticuerpos frente al virus. Se le recomienda vacunarse para evitar problemas. La analítica tras la vacunación muestra una concentración de anticuerpos frente al virus mayor.<br>a) ¿Qué tipo de respuesta inmune se generó tras el contacto con el virus? ¿Y tras la vacunación? Razónelo. (0,6 puntos)<br>b) Tras la vacuna la respuesta inmune es más rápida e intensa, ¿por qué? (0,6 puntos)<br>c) ¿Qué anticuerpo predominó tras el contacto con el virus? ¿Y tras la vacunación? (0,6 puntos)<br>d) Dada la naturaleza molecular de los anticuerpos, ¿en qué orgánulo se sintetizan? (0,2 puntos)",
+          "competencial": true,
+          "c": [
+            "a) Tras el virus: **respuesta primaria** (primer contacto con el antígeno). Tras la vacuna: **respuesta secundaria**, porque ya había **células de memoria** (0,6 p).",
+            "b) La primera exposición generó **linfocitos B de memoria**, que **responden rápidamente** y producen anticuerpos **en más cantidad** (0,6 p).",
+            "c) Tras el virus: **IgM**; tras la vacuna: **IgG** (0,6 p).",
+            "d) Son **glucoproteínas**: se sintetizan en el **retículo endoplasmático rugoso** (ribosomas asociados al RER) (0,2 p)."
+          ]
+        },
+        {
+          "opcion": "B", "n": 5, "bloque": "Inmunología", "tema": "Tuberculosis: transferencia de plasma o de linfocitos",
+          "q": "<b>El bacilo de Koch produce la tuberculosis. El ratón A superó esta enfermedad de manera natural hace un año. Se le extrajo sangre, y en un tubo se aisló el plasma (contiene todos los componentes de la sangre salvo las células), mientras que en otro tubo se aislaron únicamente sus linfocitos. El contenido de estos tubos se administró a dos ratones diferentes. Horas después a ambos se les administró el bacilo. El ratón B murió, mientras que el ratón C sobrevivió.</b><br>a) ¿Cómo podría explicar el resultado? Razónelo. (0,6 puntos)<br>b) Se analizó la sangre del ratón B (una vez fallecido) y no se detectaron anticuerpos contra el bacilo. Transcurridas unas horas, en el ratón C sí que se detectaron anticuerpos contra el bacilo. Razone qué tipos de anticuerpos habrá en la sangre del ratón C. (0,6 puntos)<br>c) ¿En qué se diferenciará esta respuesta del ratón C con la que tuvo el ratón A cuándo enfermó por primera vez? Razónelo (puede ayudarse de una gráfica). (0,8 puntos)",
+          "figura": "assets/figuras/historico/2025/aragon-5b.webp",
+          "figuraDesc": "Del ratón A, que superó la enfermedad, se obtienen un tubo con plasma y otro con linfocitos. El ratón B recibe el plasma (1) y el bacilo (3); el ratón C recibe los linfocitos (2) y el bacilo (3).",
+          "c": [
+            "a) La protección no está en el **plasma** sino en los **linfocitos**: al ratón B el plasma ya **no le aportaba anticuerpos** (había pasado mucho tiempo) ni **linfocitos de memoria**; el ratón C recibió **células de memoria** que **reconocieron rápido al bacilo** (0,6 p).",
+            "b) Sobre todo **IgG**, propias de la **respuesta secundaria**; poca IgM (0,6 p).",
+            "c) Ratón A (**primaria**): primero **IgM** y luego IgG, respuesta **más lenta y menos intensa**. Ratón C (**secundaria**): **rápida e intensa**, con **IgG** desde el principio ((en una gráfica, la curva de C sube antes y mucho más alto)) (0,8 p)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asturias", "nombre": "Asturias, convocatoria extraordinaria",
+      "etiqueta": "PAU 2025 Asturias",
+      "documento": "PAU 2025 Asturias (Universidad de Oviedo)",
+      "origen_texto": "Pregunta oficial de la PAU 2025 de Asturias, con sus criterios de corrección (modelo competencial, útil para 2026)",
+      "puntos": 2.5,
+      "enunciado": "Examen Biología de Asturias (Extraordinaria de 2025) [www.examenesdepau.com].pdf",
+      "criterios": "Examen Biología de Asturias (Extraordinaria de 2025)criterios.pdf",
+      "preguntas": [
+        {
+          "opcion": "A", "n": 1, "bloque": "Biomoléculas", "tema": "Etiqueta del surimi: grasas, colesterol y transporte de lípidos",
+          "q": "<b>La tabla adjunta corresponde a la etiqueta de la información nutricional expuesta en la zona exterior del envase de un alimento ultra-procesado, los denominados palitos de cangrejo o surimi, un preparado disponible en tiendas de alimentación. Abreviaturas: g: gramos; mg: miligramos (0.001 gramos); μg: microgramos (0.000001 gramos).</b><br>1. Indica qué diferencia las grasas saturadas, las monoinsaturadas y polinsaturadas. Indica cuál de los tres tipos tiene la temperatura de fusión más baja y explica por qué. (Calificación 1 punto)<br>2. Explica si el colesterol es o no un lípido anfipático e indica si tiene relación con alguna de las vitaminas que aparecen en la etiqueta de la información nutricional. Justifica tu respuesta. (Calificación 1 punto)<br>3. Explica cómo es posible que los lípidos se puedan transportar por la sangre de una zona a otra del organismo si son moléculas altamente hidrofóbicas y, por tanto, insolubles en un medio acuoso como la sangre. (Calificación 0.5 puntos)",
+          "figura": "assets/figuras/historico/2025/asturias-1.webp",
+          "figuraDesc": "Tabla «Información nutricional/100 g»: carbohidratos totales 14,8 g (almidón 12,4; azúcares 1,6; fibra 0,8); grasas totales 1,15 g (saturadas 0,38; monoinsaturadas 0,56; polinsaturadas 0,21, con omega 3 y omega 6); colesterol 40,1 mg; proteína 7,62 g; minerales (sodio, calcio, fósforo, hierro, potasio, magnesio) y vitaminas B1, B12, B3, B6, D y E.",
+          "c": [
+            "1. Se diferencian en el **número de dobles enlaces**: **0 en las saturadas**, **1 en las monoinsaturadas** y **2 o más en las polinsaturadas** (0,5 p). El punto de fusión más bajo lo tienen las **polinsaturadas**: los dobles enlaces producen **curvaturas** que **reducen el empaquetamiento** y debilitan las **interacciones hidrofóbicas** (0,5 p).",
+            "2. **Sí es anfipático**: tiene una parte **polar (el grupo –OH)** y otra **apolar (los anillos y la cadena hidrocarbonada)** (0,5 p). Se relaciona con la **vitamina D**, que **se sintetiza a partir del colesterol** (0,5 p).",
+            "3. Gracias a **proteínas de transporte (lipoproteínas o apoproteínas)**, **anfipáticas**: con su parte apolar se unen al lípido y con la polar interaccionan con el agua (0,5 p)."
+          ]
+        },
+        {
+          "opcion": "B", "n": 1, "bloque": "Biomoléculas", "tema": "Etiqueta del surimi: enlaces O- y N-glucosídicos",
+          "q": "<b>La tabla adjunta corresponde a la etiqueta de la información nutricional expuesta en la zona exterior del envase de un alimento ultra-procesado, los denominados palitos de cangrejo o surimi, un preparado disponible en tiendas de alimentación.</b><br>1. Indica qué compuestos de los que se enumeran en la etiqueta de la información nutricional presentan enlaces O-glucosílico y explica cómo se establece ese enlace. (Calificación 1 punto)<br>2. Indica cómo se establece un enlace N-glucosílico, pon un ejemplo de macromolécula con este tipo de enlace y explica si este enlace participa directamente en la formación de polímeros, esto es, en la unión repetitiva de pequeñas moléculas o monómeros para formar una macromolécula polimérica. (Calificación 1 punto)<br>3. Indica si con la información de la etiqueta nutricional se puede saber si el producto tiene un origen exclusivamente animal. Justifica tu respuesta. (Calificación 0.5 puntos)",
+          "figura": "assets/figuras/historico/2025/asturias-1.webp",
+          "figuraDesc": "Tabla «Información nutricional/100 g»: carbohidratos totales 14,8 g (almidón 12,4; azúcares 1,6; fibra 0,8); grasas totales 1,15 g (saturadas, monoinsaturadas y polinsaturadas); colesterol 40,1 mg; proteína 7,62 g; minerales y vitaminas B1, B12, B3, B6, D y E.",
+          "c": [
+            "1. Los **carbohidratos** (**almidón**, **azúcares**, **fibra**) (0,5 p). El enlace se forma entre **dos grupos –OH de dos glúcidos**: dos carbonos quedan unidos por un **puente de oxígeno** y se **libera una molécula de agua** (0,5 p).",
+            "2. Se forma entre el **–OH de un monosacárido** y un **grupo amino (–NH₂)** de otra molécula: el **carbono queda unido al nitrógeno** y se libera agua (0,5 p). Ejemplo: **ADN o ARN** (une la base a la pentosa) (0,25 p). **No participa en la polimerización**: los nucleótidos se unen por **enlaces fosfodiéster** (0,25 p).",
+            "3. **No**: contiene compuestos de **origen vegetal**, el **almidón** y la **fibra alimentaria** (0,5 p)."
+          ]
+        },
+        {
+          "opcion": "A", "n": 2, "bloque": "Genética", "tema": "Transcripción y traducción simultáneas; promotor",
+          "q": "<b>El esquema adjunto representa procesos biosintéticos que dan lugar a grandes moléculas poliméricas fundamentales para las células. El recuadro corresponde a un detalle ampliado.</b><br>1. Indica el nombre de las biomoléculas poliméricas que se están sintetizando en el esquema y señala cómo se denominan esos procesos de síntesis. (Calificación 1 punto)<br>2. Explica qué es el promotor o región promotora e indica cuántas de estas regiones hay en el ejemplo que se representa en el esquema. Justifica tu respuesta. (Calificación 1 punto)<br>3. Con la información que se muestra en el recuadro ampliado, indica qué cadena, azul-5´ o rosa-3´, es la cadena molde. Justifica tu respuesta. (Calificación 0.5 puntos)",
+          "figura": "assets/figuras/historico/2025/asturias-2.webp",
+          "figuraDesc": "Una doble hélice horizontal sobre la que avanzan de izquierda a derecha varias enzimas verdes; de cada una cuelga una hebra roja cada vez más larga con varias estructuras de las que salen cadenas de esferas de colores terminadas en una esfera negra. Recuadro ampliado: hebras azul (5') y rosa (3').",
+          "c": [
+            "1. **ARN mensajero** y **proteínas** (0,5 p); procesos: **transcripción** y **traducción** (0,5 p).",
+            "2. El promotor es una **secuencia corta de ADN** que **reconoce la ARN polimerasa** y que **marca el inicio de la transcripción** (0,5 p). Hay **una sola región promotora**, porque se transcribe **un único tipo de ARNm** (aunque haya 5 copias) (0,5 p).",
+            "3. La **rosa**: el ADN se lee en sentido **3'→5'** y la ARN polimerasa **avanza de izquierda a derecha** (0,5 p)."
+          ]
+        },
+        {
+          "opcion": "B", "n": 2, "bloque": "Genética", "tema": "Transcripción y traducción en procariotas; enzimas",
+          "q": "<b>El esquema adjunto representa procesos biosintéticos que dan lugar a grandes moléculas poliméricas fundamentales para las células. El recuadro corresponde a un detalle ampliado.</b><br>1. Explica si el proceso, tal como se representa, tiene lugar en células procariotas, o en eucariotas o en ambos tipos. Justifica tu respuesta. (Calificación 1 punto)<br>2. Indica el nombre y localización celular del enzima responsable de activación de los aminoácidos y del enzima responsable de la formación del enlace peptídico. (Calificación 1 punto)<br>3. Todas las cadenas que se representan en el esquema como una sucesión de pequeñas esferas de varios colores tienen en el extremo una esfera de color negro. ¿Se puede saber a qué molécula corresponde dicha esfera negra del extremo? Justifica tu respuesta. (Calificación 0.5 puntos)",
+          "figura": "assets/figuras/historico/2025/asturias-2.webp",
+          "figuraDesc": "Una doble hélice horizontal sobre la que avanzan varias enzimas verdes; de cada una cuelga una hebra roja cada vez más larga con varias estructuras de las que salen cadenas de esferas de colores terminadas en una esfera negra.",
+          "c": [
+            "1. En **procariotas**: solo en ellas la **transcripción y la traducción ocurren en el mismo compartimento (citoplasma)**, y un ARNm **se traduce mientras se transcribe** (1 p).",
+            "2. Activación: **aminoacil-ARNt sintetasa**, en el **citoplasma** (0,5 p). Enlace peptídico: **peptidil transferasa**, en los **ribosomas** (0,5 p).",
+            "3. **Sí**: es la **N-formil-metionina** (o metionina), porque la traducción empieza siempre por el **codón AUG** (0,5 p)."
+          ]
+        },
+        {
+          "opcion": "A", "n": 3, "bloque": "Célula", "tema": "Centrosoma y fragmoplasto",
+          "q": "<b>El esquema adjunto es una representación esquemática de una célula y el recuadro de la derecha corresponde a un detalle a mayor aumento de una estructura presente en el citoplasma.</b><br>1. Señala el nombre de la estructura que se representa en color verde y naranja y se presenta en el recuadro a mayor aumento. Indica los componentes que constituyen esta estructura. (Calificación 1 punto)<br>2. Explica brevemente qué es el fragmoplasto de una célula, cómo se origina y para qué sirve, e indica si esa estructura está presente en la célula que se representa. Justifica tu respuesta. (Calificación 1 punto)<br>3. Explica si es posible que la estructura que se representa con los colores verde y naranja y se presenta en el recuadro a mayor aumento, aparezca duplicada en una célula. Justifica tu respuesta. (Calificación 0.5 puntos)",
+          "figura": "assets/figuras/historico/2025/asturias-3.webp",
+          "figuraDesc": "Célula con núcleo con nucléolo, mitocondrias, retículo, aparato de Golgi, vesículas y, cerca del núcleo, una masa verde con dos cilindros de la que salen radialmente líneas naranjas; el recuadro amplía esa estructura.",
+          "c": [
+            "1. **Centrosoma** (0,25 p), formado por **dos centriolos (diplosoma)**, **material pericentriolar** y **microtúbulos radiales (áster)** (0,75 p).",
+            "2. Fragmoplasto: **tabique formado a partir del aparato de Golgi** que **divide el citoplasma (citocinesis)** en las **células vegetales** (0,5 p). **No está** en la célula representada: es **animal**, porque tiene **centrosoma con centriolos** (0,5 p).",
+            "3. **Sí**: se **duplica en la fase S** para formar el **huso mitótico** que reparte los cromosomas (0,5 p)."
+          ]
+        },
+        {
+          "opcion": "B", "n": 3, "bloque": "Célula", "tema": "Nucleoide y nucléolo; interfase y anafase I",
+          "q": "<b>El esquema adjunto es una representación esquemática de una célula y el recuadro de la derecha corresponde a un detalle a mayor aumento de una estructura presente en el citoplasma.</b><br>1. Explica cuál es la diferencia entre nucleoide y nucléolo e indica si alguna de estas dos estructuras o las dos están presentes en la célula que se representa. (Calificación 1 punto)<br>2. Indica si la célula que se representa está en interfase o en fase M. Justifica tu respuesta en base a dos características de la célula representada. (Calificación 1 punto)<br>3. Señala en qué proceso y fase se encontrará una célula en la que los cromosomas homólogos están formados por dos cromátidas y se están desplazando hacia polos opuestos. Justifica tu respuesta. (Calificación 0.5 puntos)",
+          "figura": "assets/figuras/historico/2025/asturias-3.webp",
+          "figuraDesc": "Célula con núcleo con envoltura y nucléolo, mitocondrias, retículo, aparato de Golgi, vesículas y, cerca del núcleo, un centrosoma del que salen radialmente fibras naranjas.",
+          "c": [
+            "1. **Nucleoide**: zona de las **células procariotas** donde está el **ADN sin membrana**. **Nucléolo**: estructura del **núcleo eucariota** donde se **sintetiza el ARNr** y se forman los **ribosomas** (0,75 p). La célula tiene **nucléolo** pero **no nucleoide** (0,25 p).",
+            "2. **Interfase**, por dos de estas: **envoltura nuclear**, **nucléolo**, **cromatina sin condensar**, **no se ven cromosomas**, **centrosoma sin dividir** (1 p).",
+            "3. **Anafase I de la meiosis**: se separan los **homólogos completos, cada uno con sus dos cromátidas** (en la mitosis se separan cromátidas) (0,5 p)."
+          ]
+        },
+        {
+          "opcion": "A", "n": 4, "bloque": "Metabolismo", "tema": "Movilización de la grasa: β-oxidación y balance de NADH y FADH₂",
+          "q": "<b>Dos gemelos adultos del mismo peso, 80 kg, y el mismo porcentaje de grasa corporal (PGC), 25%, deciden cambiar de hábitos, ya que el rango de normalidad de PGC para su edad es 10-15%. El primero (individuo A) siguió una dieta hipocalórica con ejercicio moderado durante 1 año, alcanzando un PGC de 14% y un peso de 72 kg. El segundo (individuo B) hizo entrenamiento de musculación y en un año bajó su PGC al 11%, aumentando su tejido muscular proteico, por lo que su peso no se modificó (80 kg).</b><br>1. Indica cuál es la molécula más abundante de la grasa corporal, en qué compartimento de la célula se almacena y en qué consiste la primera reacción para su catabolismo. (Calificación 1 punto)<br>2. En el caso del individuo A, indica cuál es la ruta catabólica responsable de la movilización de las reservas energéticas y el compartimento celular donde tiene lugar. (Calificación 1 punto)<br>3. Indica cuántas moléculas de NADH y de FADH₂ se generarán por la oxidación completa de una molécula un ácido graso saturado de 18 carbonos. Justifica tu respuesta. (Calificación 0.5 puntos)",
+          "competencial": true,
+          "c": [
+            "1. **Triglicéridos** (triacilgliceroles) (0,25 p), almacenados en el **citoplasma** (0,25 p). Primera reacción: **hidrólisis (lipólisis)** en **ácidos grasos y glicerol** (0,5 p).",
+            "2. **β-oxidación de los ácidos grasos** (0,5 p), en la **matriz mitocondrial** (también peroxisomas) (0,5 p).",
+            "3. Un ácido graso de 18 C necesita **8 vueltas** de β-oxidación y da **9 acetil-CoA**; cada vuelta produce **1 NADH y 1 FADH₂** (8 + 8), y cada acetil-CoA en el **ciclo de Krebs** da **3 NADH y 1 FADH₂** (27 + 9). Total: **35 NADH y 17 FADH₂** ((los criterios dan 16 FADH₂ en el total, pero su propio desglose, 8 + 9, suma 17)) (0,5 p)."
+          ]
+        },
+        {
+          "opcion": "B", "n": 4, "bloque": "Metabolismo", "tema": "Musculación: equilibrio entre anabolismo y catabolismo",
+          "q": "<b>Dos gemelos adultos del mismo peso, 80 kg, y el mismo porcentaje de grasa corporal (PGC), 25%, deciden cambiar de hábitos, ya que el rango de normalidad de PGC para su edad es 10-15%. El primero (individuo A) siguió una dieta hipocalórica con ejercicio moderado durante 1 año, alcanzando un PGC de 14% y un peso de 72 kg. El segundo (individuo B) hizo entrenamiento de musculación y en un año bajó su PGC al 11%, aumentando su tejido muscular proteico, por lo que su peso no se modificó (80 kg).</b><br>1. Indica si en el caso del individuo B, las rutas que han predominado de forma global son las anabólicas o las catabólicas. Justifica tu respuesta. (Calificación 1 punto)<br>2. Describe brevemente una ruta catabólica y una ruta anabólica que ocurran en el caso del individuo B, indicando el compartimento celular donde tienen lugar. (Calificación 1 punto)<br>3. Indica si el individuo B podría haber llegado a la situación descrita en el texto con una dieta rica en glúcidos y pobre en proteínas. Justifica tu respuesta. (Calificación 0.5 puntos)",
+          "competencial": true,
+          "c": [
+            "1. Como **el peso no cambia**, el **catabolismo y el anabolismo están equilibrados** (también vale razonar que predomina el catabolismo, que aporta la energía del anabolismo y del resto de funciones) (1 p).",
+            "2. Catabólica: **lipólisis** y **β-oxidación** en la **matriz mitocondrial** → **acetil-CoA** → **ciclo de Krebs** → **cadena respiratoria** (membrana interna) y **ATP sintasa** (0,5 p). Anabólica: **síntesis de proteínas** en los **ribosomas** del citoplasma o del **RER** (0,5 p).",
+            "3. **No**: la dieta debe ser **rica en proteínas**, porque ha aumentado su masa proteica y hay **aminoácidos esenciales** que **no podemos sintetizar** (0,5 p)."
+          ]
+        },
+        {
+          "opcion": "A", "n": 5, "bloque": "Biotecnología", "tema": "Anticuerpos humanos en alfalfa transgénica; CRISPR-Cas",
+          "q": "<b>En los últimos años se han desarrollado sistemas de producción de anticuerpos humanos utilizando plantas transgénicas de alfalfa. Estos sistemas abaratan mucho el proceso, por lo que resultan muy prometedores para obtener anticuerpos que puedan usarse en diversas terapias humanas.</b><br>1. Explica cómo se puede obtener un anticuerpo humano en una planta y define tres herramientas moleculares necesarias para este proceso. (Calificación 1 punto)<br>2. Describe una molécula de anticuerpo (IgG) indicando cómo son las cadenas de aminoácidos, las uniones entre ellas y las regiones de los extremos amino y carboxilo. (Calificación 1 punto)<br>3. Las siglas CRISPR-Cas describen los dos elementos principales que constituyen este sistema. Indica qué elemento es referido por las siglas CRISPR y cuál por las siglas Cas. (Calificación 0.5 puntos)",
+          "competencial": true,
+          "c": [
+            "1. Se **aísla de una célula humana el gen del anticuerpo** y se **introduce en el genoma de la planta** (planta transgénica) (0,5 p). Herramientas (tres, 0,5 p): **enzimas de restricción** (cortan el ADN en secuencias concretas), **ADN ligasa** (une los fragmentos), **vectores** (plásmidos o virus que transportan y replican el ADN), **ADN recombinante**.",
+            "2. **Cuatro cadenas iguales dos a dos**: **dos pesadas (H)** y **dos ligeras (L)** (0,25 p), unidas por **puentes disulfuro** (0,25 p). El extremo amino forma la **región variable** (**paratopo**, se une al antígeno) (0,25 p) y el carboxilo la **región constante** (0,25 p).",
+            "3. **CRISPR**: **secuencias de ADN** repetidas que guardan fragmentos de **ADN exógeno** (virus, plásmidos) (0,25 p). **Cas**: **endonucleasas** que **cortan el ADN** en esas secuencias (0,25 p)."
+          ]
+        },
+        {
+          "opcion": "B", "n": 5, "bloque": "Inmunología", "tema": "Sueroterapia, reacciones antígeno-anticuerpo y biorremediación",
+          "q": "<b>En los últimos años se han desarrollado sistemas de producción de anticuerpos humanos utilizando plantas transgénicas de alfalfa. Estos sistemas abaratan mucho el proceso, por lo que resultan muy prometedores para obtener anticuerpos que puedan usarse en diversas terapias humanas.</b><br>1. Indica cómo se llama la administración a un paciente de anticuerpos para tratar una enfermedad y explica tres tipos de reacción antígeno-anticuerpo que se pueden producir. (Calificación 1 punto)<br>2. Explica qué es la biorremediación y señala tres ejemplos. (Calificación 1 punto)<br>3. Indica un caso de inmunidad pasiva natural señalando qué tipo de inmunoglobulina está implicada en el proceso. (Calificación 0.5 puntos)",
+          "competencial": true,
+          "c": [
+            "1. **Sueroterapia** (inmunidad pasiva artificial) (0,25 p). Tres reacciones (0,75 p): **neutralización** (anula los efectos del antígeno), **precipitación** (antígenos solubles forman complejos que precipitan), **aglutinación** (agregados de bacterias), **opsonización** (marca las bacterias para los fagocitos).",
+            "2. Proceso biotecnológico que usa **microorganismos, hongos, plantas o sus enzimas** para **recuperar un medio contaminado** (0,5 p). Ejemplos: **hidrocarburos (petróleo)**, **metales pesados**, **aguas residuales**, **biodegradación de plásticos** (0,5 p).",
+            "3. **Paso de anticuerpos de la madre al feto por la placenta (IgG)** o **al bebé por la leche materna (IgA)** (0,5 p)."
+          ]
+        }
+      ]
+    }
+  ]
+}
