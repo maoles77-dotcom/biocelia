@@ -13,8 +13,8 @@ conceptual, la aplicación y la argumentación científica.
 | `index.html` | Portada y navegación |
 | `orientacionespau.html` | Saberes básicos, resultados de aprendizaje y criterios de evaluación |
 | `resumenespau.html` | Resúmenes y apuntes por bloques temáticos |
-| `Entrenamientopau.html` | Banco de 1357 preguntas con criterios de corrección y tips, más diccionario de 805 términos |
-| `simulacropau.html` | 1001 preguntas con estructura de examen |
+| `Entrenamientopau.html` | Banco de 1377 preguntas con criterios de corrección y tips, más diccionario de 805 términos |
+| `simulacropau.html` | 1017 preguntas con estructura de examen |
 | `laboratoriocompetencial.html` | Casos de razonamiento científico |
 | `laboratorioinvestigacion.html` | «Tu primer año en el laboratorio»: 19 expedientes que aplican las novedades de la PAU 2026-27, con decisiones, informe modelo y progreso |
 

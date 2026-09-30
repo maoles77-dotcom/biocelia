@@ -124,6 +124,7 @@ def construir(anios):
                     'anio': a,
                     'etiqueta': etiqueta,
                     'hasImg': bool(figura),
+                    'puntos': puntos,
                     'competencial': bool(figura) or bool(p.get('competencial')),
                     'q': p['q'],
                     'c': [a_html(c) for c in p['c']],
@@ -146,9 +147,8 @@ def construir(anios):
                     'isNew': False,
                     'puntos': puntos,
                     'f': (f"{origen_texto} "
-                          f"({ref_txt}, {str(puntos).replace('.', ',')} "
-                          f"{'punto' if puntos == 1 else 'puntos'}). "
-                          + p.get('tip', 'Resaltadas, las palabras clave de los criterios '
+                          f"({ref_txt}, {texto_puntos(puntos)}). "
+                          + p.get('tip', examen.get('tip') or 'Resaltadas, las palabras clave de los criterios '
                                          'oficiales de corrección: son las que puntúan.')),
                 })
                 if puntos >= 2:
@@ -165,10 +165,14 @@ def construir(anios):
             # Una sola suelta en todo el año: se une a la primera de 1 punto
             # de ese año para que no se pierda.
             otra = next(q for q in entrenamiento
-                        if q['anio'] == a and q['puntos'] == 1
+                        if q['anio'] == a and q['puntos'] < 2
                         and q['id'] != sueltas_anio[0]['id'])
             simulacro.append(unir(sueltas_anio[0], otra))
     return entrenamiento, simulacro
+
+
+def texto_puntos(puntos):
+    return f"{str(puntos).replace('.', ',')} {'punto' if puntos == 1 else 'puntos'}"
 
 
 def unir(p1, p2):
@@ -183,8 +187,9 @@ def unir(p1, p2):
         'anio': p1['anio'],
         'etiqueta': p1['etiqueta'],
         'hasImg': bool(figura),
-        'q': (f"<b>I.</b> {p1['q']} <i>(1 punto)</i><br><br>"
-              f"<b>II.</b> {p2['q']} <i>(1 punto)</i>"),
+        'q': (f"<b>I.</b> {p1['q']} <i>({texto_puntos(p1['puntos'])})</i><br><br>"
+              f"<b>II.</b> {p2['q']} <i>({texto_puntos(p2['puntos'])})</i>"),
+        'puntos': p1['puntos'] + p2['puntos'],
         'c': [f'<b>I.</b> {c}' for c in p1['c']] + [f'<b>II.</b> {c}' for c in p2['c']],
         'isNew': p1['competencial'] or p2['competencial'],
         'competencial': p1['competencial'] or p2['competencial'],

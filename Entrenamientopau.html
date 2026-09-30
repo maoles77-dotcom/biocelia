@@ -3668,9 +3668,9 @@ function loadQ() {
   let textoQ = q.q;
   textoQ = textoQ.replace(regexVerbos,
     (_, v) => `<span class="verbo-pau">${v}</span>`);
-  // [0,5] y, en los exámenes de 2025 de otras comunidades, (0,4 puntos) o
-  // (Calificación 1 punto).
-  textoQ = textoQ.replace(/\[\d[\d,\s]*\]|\((?:Calificación\s+)?\d+(?:[.,]\d+)?\s+puntos?\)/g,
+  // [0,5] y, en los exámenes de 2025 de otras comunidades, (0,4 puntos),
+  // (Calificación 1 punto) o (0,6).
+  textoQ = textoQ.replace(/\[\d[\d,\s]*\]|\((?:Calificación\s+)?\d+(?:[.,]\d+)?\s+puntos?\)|\(\d+,\d+\)/g,
     m => `<span class="puntuacion">${m}</span>`);
   document.getElementById('qText').innerHTML = textoQ;
 

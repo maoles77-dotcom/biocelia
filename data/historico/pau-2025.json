@@ -5,7 +5,8 @@
   "nota": "Exámenes de Biología de la PAU 2025 (primer año del nuevo modelo competencial) de otras comunidades autónomas, útiles para practicar el formato de 2026. Cada examen lleva la etiqueta de su comunidad. Enunciados literales. Cuando hay criterios oficiales, la solución los sigue, con palabras clave entre **; lo redactado por BioCelia va entre (( )). Figuras recortadas del PDF a 200 ppp.",
   "examenes": [
     {
-      "id": "aragon", "nombre": "Aragón, convocatoria ordinaria",
+      "id": "aragon",
+      "nombre": "Aragón, convocatoria ordinaria",
       "etiqueta": "PAU 2025 Aragón",
       "documento": "PAU 2025 Aragón (Universidad de Zaragoza)",
       "origen_texto": "Pregunta oficial de la PAU 2025 de Aragón, con sus criterios de corrección (modelo competencial, útil para 2026)",
@@ -14,7 +15,9 @@
       "criterios": "Examen Biología de Aragón (Ordinaria de 2025) [www.examenesdepau.com].pdf",
       "preguntas": [
         {
-          "n": 1, "bloque": "Metabolismo", "tema": "Fermentación alcohólica y láctica en dos tanques; OMG y transgénicos",
+          "n": 1,
+          "bloque": "Metabolismo",
+          "tema": "Fermentación alcohólica y láctica en dos tanques; OMG y transgénicos",
           "q": "<b>PREGUNTA DE CARÁCTER OBLIGATORIO (2 puntos): En el laboratorio se está trabajando con dos tanques con reactivos. En cada uno de ellos se está llevando a cabo un proceso bioquímico diferente, representado por las gráficas A y B. A partir de las gráficas responda las siguientes preguntas:</b><br>a) ¿Desde el punto de vista metabólico, qué ocurre en el minuto 4 en ambas gráficas? Razone su respuesta. (0,4 puntos)<br>b) ¿Qué rutas de degradación de la glucosa se están llevando a cabo antes y después del minuto 4 en cada gráfica? (0,4 puntos)<br>c) Explique el comportamiento de la concentración de CO₂ a lo largo del tiempo en ambos casos. ¿A qué se debe este patrón? (0,4 puntos)<br>d) Tras un tiempo de incubación, ¿cómo habrá cambiado el pH en ambas gráficas? Justifíquelo. (0,2 puntos)<br>e) ¿Cuál de las dos gráficas representaría el proceso para la obtención del pan? ¿Y del vino? Justifique su respuesta, indicando en ambos casos qué sucede al final con el producto representado por la línea verde. (0,2 puntos)<br>f) En la industria alimentaria, en agricultura, en medicina, etc. se están utilizando organismos modificados genéticamente (OMG) y organismos transgénicos, ¿cuál es la diferencia? Cite un ejemplo de cada uno. (0,4 puntos)",
           "figura": "assets/figuras/historico/2025/aragon-1.webp",
           "figuraDesc": "Dos gráficas de cantidad frente al tiempo (minutos 1 a 8). En A la glucosa baja, el CO₂ sube poco hasta el minuto 4 y luego más deprisa, y el etanol aparece a partir del minuto 4. En B la glucosa baja, el CO₂ sube hasta el minuto 4 y luego se estabiliza, y el ácido láctico aparece a partir del minuto 4.",
@@ -28,7 +31,10 @@
           ]
         },
         {
-          "opcion": "A", "n": 2, "bloque": "Genética", "tema": "Replicación del ADN: burbujas y horquilla",
+          "opcion": "A",
+          "n": 2,
+          "bloque": "Genética",
+          "tema": "Replicación del ADN: burbujas y horquilla",
           "q": "<b>Responda las siguientes cuestiones:</b><br>a) ¿Qué proceso muestra la imagen de microscopía electrónica? Identifique la región señalada con flechas. (0,2 puntos)<br>b) Identifique el tipo de molécula (número 1) que está siendo sintetizada mediante el proceso esquematizado en la figura adjunta. (0,2 puntos)<br>c) Identifique y describa la función de los elementos 2, 3, 4, 5 y 6 en este proceso de síntesis. (1 punto)<br>d) Indique cuál es el motivo por el cual la síntesis de la molécula 1 en la cadena A es diferente a la síntesis de la molécula 1 en la cadena B. Justifique su respuesta. (0,6 puntos)",
           "figura": "assets/figuras/historico/2025/aragon-2a.webp",
           "figuraDesc": "Micrografía electrónica de filamentos con zonas abiertas señaladas con flechas. Esquema de una horquilla: la doble hélice se abre por la acción de 6 y 5; las hebras separadas se cubren de pequeñas esferas (3); sobre la hebra A se sintetiza una cadena continua (1) desde un cebador (4); sobre la hebra B, varios fragmentos con cebadores (4) y enzimas (2).",
@@ -40,7 +46,10 @@
           ]
         },
         {
-          "opcion": "B", "n": 2, "bloque": "Genética", "tema": "Código genético: del polipéptido al ADN y mutación",
+          "opcion": "B",
+          "n": 2,
+          "bloque": "Genética",
+          "tema": "Código genético: del polipéptido al ADN y mutación",
           "q": "<b>A continuación, se muestra el fragmento de una cadena polipeptídica cuya secuencia es: NH₂ - Met - Cys - Asp - Trp - COOH. Usando la tabla adjunta, responda a las siguientes cuestiones:</b><br>a) ¿Qué representa la tabla? Explíquelo brevemente. (0,2 puntos)<br>b) Escriba una posible secuencia de ARNm que dé lugar a este polipéptido, indicando sus extremos. (0,5 puntos)<br>c) Indique la secuencia de bases del ADN que codificaría el ARNm que ha propuesto. (0,6 puntos)<br>d) Señale una posible mutación de la secuencia de ADN que cambiaría el aminoácido Cys por Ser. ¿Qué tipo de mutación sería? (0,3 puntos)<br>e) ¿Dicha mutación se transmitirá a la descendencia? Razone su respuesta (0,4 puntos)",
           "figura": "assets/figuras/historico/2025/aragon-2b.webp",
           "figuraDesc": "Tabla del código genético: primera letra (U, C, A, G) en filas, segunda letra en columnas y tercera letra a la derecha; cada casilla indica los codones y su aminoácido, con AUG (Met) y los codones STOP UAA, UAG y UGA.",
@@ -53,7 +62,10 @@
           ]
         },
         {
-          "opcion": "A", "n": 3, "bloque": "Biomoléculas", "tema": "Moléculas del asteroide Ryugu: disacárido y aminoácido",
+          "opcion": "A",
+          "n": 3,
+          "bloque": "Biomoléculas",
+          "tema": "Moléculas del asteroide Ryugu: disacárido y aminoácido",
           "q": "<b>Un equipo de científicos analizó muestras del asteroide Ryugu, recogidas a 15 millones de kilómetros de la Tierra, y encontró moléculas que podrían haber contribuido al origen de la vida.</b><br>a) Identifique las moléculas 1 y 2 de la imagen. Sea lo más concreto posible. (0,2 puntos)<br>b) Respecto a la molécula 1, ¿cuáles son sus unidades estructurales? ¿cómo se llama el enlace entre dichas estructuras? (0,4 puntos)<br>c) Respecto a la molécula 2, ¿de qué macromolécula es monómero y qué enlace une esos monómeros tipo 2? (0,4 puntos)<br>d) Describa los diferentes niveles estructurales de la macromolécula formada por la unión de varios monómeros tipo 2, así como el tipo de enlaces que se forman para la estabilización de dichas estructuras. ¿En qué orgánulo celular se añaden moléculas 1 a las macromoléculas formadas por las moléculas 2? (1 punto)",
           "figura": "assets/figuras/historico/2025/aragon-3a.webp",
           "figuraDesc": "1: dos anillos de seis átomos con grupos OH y CH₂OH unidos por un oxígeno. 2: un carbono unido a un grupo carboxilo, un grupo amino, un H y un radical R.",
@@ -65,7 +77,10 @@
           ]
         },
         {
-          "opcion": "B", "n": 3, "bloque": "Biomoléculas", "tema": "Un fosfolípido: componentes, membrana y ácidos grasos",
+          "opcion": "B",
+          "n": 3,
+          "bloque": "Biomoléculas",
+          "tema": "Un fosfolípido: componentes, membrana y ácidos grasos",
           "q": "<b>Observando la molécula de la imagen:</b><br>a) ¿De qué tipo de biomolécula se trata? Indique sus componentes químicos y tipo de enlaces entre ellos. (0,6 puntos)<br>b) ¿En qué estructura celular aparece principalmente? Justifique su orientación en esta estructura, basándose en sus propiedades químicas. (0,4 puntos)<br>c) Las moléculas unidas a los carbonos 1C y 2C presentan estados físicos distintos a temperatura ambiente (sólido y líquido, respectivamente). ¿A qué se debe esta diferencia? Justifique su respuesta. (0,4 puntos)<br>d) Si el compuesto unido al carbono 1 se degradara en una célula animal, ¿Qué rutas metabólicas, y en qué parte de la célula se llevarían a cabo, para conseguir su oxidación completa? (0,6 puntos)",
           "figura": "assets/figuras/historico/2025/aragon-3b.webp",
           "figuraDesc": "Molécula de tres carbonos (¹C, ²C, ³C): en ¹C un grupo –O–CO–(CH₂)₁₆–CH₃; en ²C un grupo –O–CO– con una cadena con dos dobles enlaces; en ³C un grupo fosfato unido a –(CH₂)₂–NH₃⁺.",
@@ -77,7 +92,10 @@
           ]
         },
         {
-          "opcion": "A", "n": 4, "bloque": "Célula", "tema": "Membrana plasmática: componentes y transporte",
+          "opcion": "A",
+          "n": 4,
+          "bloque": "Célula",
+          "tema": "Membrana plasmática: componentes y transporte",
           "q": "<b>A continuación se visualiza la siguiente estructura de una célula animal.</b><br>a) ¿Qué estructura representa la siguiente imagen? Justifíquelo (0,3 puntos)<br>b) Identifique las estructuras señaladas con los números 1 al 7. (0,7 puntos)<br>c) Si esta estructura presentara una gran cantidad de moléculas identificadas con el número 2, ¿qué le ocurriría a esta estructura? Justifique su respuesta (0,2 puntos)<br>d) ¿En qué se parecen y en qué se diferencian las estructuras A y B en cuanto a su función? (0,8 puntos)",
           "figura": "assets/figuras/historico/2025/aragon-4a.webp",
           "figuraDesc": "Bicapa de esferas con colas (1), pequeñas moléculas intercaladas (2), una red de filamentos por debajo (3), cadenas ramificadas en la superficie (4, 6), una proteína que atraviesa la bicapa (5), la capa interna (7), una proteína con un canal (A) y otra que transporta partículas con gasto de P (B).",
@@ -89,7 +107,10 @@
           ]
         },
         {
-          "opcion": "B", "n": 4, "bloque": "Célula", "tema": "Meiosis y mitosis; quiasma",
+          "opcion": "B",
+          "n": 4,
+          "bloque": "Célula",
+          "tema": "Meiosis y mitosis; quiasma",
           "q": "<b>En relación con la figura:</b><br>a) ¿Qué imagen representa la mitosis y la meiosis? ¿En qué fase se encuentra cada una de ellas? ¿En qué tipo de células se produce A y en cuáles se produce B? (0,6 puntos)<br>b) Identifique la estructura marcada con el número 1. ¿Cuál es su función? (0,4 puntos)<br>c) Identifique la estructura marcada con el número 2. ¿Qué está ocurriendo? ¿Qué importancia biológica tiene? (0,6 puntos)<br>d) ¿Qué particularidades presenta la división celular de la célula eucariota vegetal respecto a la célula animal? (0,4 puntos)",
           "figura": "assets/figuras/historico/2025/aragon-4b.webp",
           "figuraDesc": "A: célula con parejas de cromosomas homólogos en el centro y un detalle ampliado de un cruce entre cromátidas (2). B: célula con cromosomas alineados uno a uno en el ecuador. Unas fibras (1) van de los polos a los cromosomas.",
@@ -101,7 +122,10 @@
           ]
         },
         {
-          "opcion": "A", "n": 5, "bloque": "Inmunología", "tema": "Rubeola: respuesta primaria y secundaria",
+          "opcion": "A",
+          "n": 5,
+          "bloque": "Inmunología",
+          "tema": "Rubeola: respuesta primaria y secundaria",
           "q": "Una mujer, que de niña contrajo el virus de la rubeola, presenta en sangre una baja concentración de anticuerpos frente al virus. Se le recomienda vacunarse para evitar problemas. La analítica tras la vacunación muestra una concentración de anticuerpos frente al virus mayor.<br>a) ¿Qué tipo de respuesta inmune se generó tras el contacto con el virus? ¿Y tras la vacunación? Razónelo. (0,6 puntos)<br>b) Tras la vacuna la respuesta inmune es más rápida e intensa, ¿por qué? (0,6 puntos)<br>c) ¿Qué anticuerpo predominó tras el contacto con el virus? ¿Y tras la vacunación? (0,6 puntos)<br>d) Dada la naturaleza molecular de los anticuerpos, ¿en qué orgánulo se sintetizan? (0,2 puntos)",
           "competencial": true,
           "c": [
@@ -112,7 +136,10 @@
           ]
         },
         {
-          "opcion": "B", "n": 5, "bloque": "Inmunología", "tema": "Tuberculosis: transferencia de plasma o de linfocitos",
+          "opcion": "B",
+          "n": 5,
+          "bloque": "Inmunología",
+          "tema": "Tuberculosis: transferencia de plasma o de linfocitos",
           "q": "<b>El bacilo de Koch produce la tuberculosis. El ratón A superó esta enfermedad de manera natural hace un año. Se le extrajo sangre, y en un tubo se aisló el plasma (contiene todos los componentes de la sangre salvo las células), mientras que en otro tubo se aislaron únicamente sus linfocitos. El contenido de estos tubos se administró a dos ratones diferentes. Horas después a ambos se les administró el bacilo. El ratón B murió, mientras que el ratón C sobrevivió.</b><br>a) ¿Cómo podría explicar el resultado? Razónelo. (0,6 puntos)<br>b) Se analizó la sangre del ratón B (una vez fallecido) y no se detectaron anticuerpos contra el bacilo. Transcurridas unas horas, en el ratón C sí que se detectaron anticuerpos contra el bacilo. Razone qué tipos de anticuerpos habrá en la sangre del ratón C. (0,6 puntos)<br>c) ¿En qué se diferenciará esta respuesta del ratón C con la que tuvo el ratón A cuándo enfermó por primera vez? Razónelo (puede ayudarse de una gráfica). (0,8 puntos)",
           "figura": "assets/figuras/historico/2025/aragon-5b.webp",
           "figuraDesc": "Del ratón A, que superó la enfermedad, se obtienen un tubo con plasma y otro con linfocitos. El ratón B recibe el plasma (1) y el bacilo (3); el ratón C recibe los linfocitos (2) y el bacilo (3).",
@@ -125,7 +152,8 @@
       ]
     },
     {
-      "id": "asturias", "nombre": "Asturias, convocatoria extraordinaria",
+      "id": "asturias",
+      "nombre": "Asturias, convocatoria extraordinaria",
       "etiqueta": "PAU 2025 Asturias",
       "documento": "PAU 2025 Asturias (Universidad de Oviedo)",
       "origen_texto": "Pregunta oficial de la PAU 2025 de Asturias, con sus criterios de corrección (modelo competencial, útil para 2026)",
@@ -134,7 +162,10 @@
       "criterios": "Examen Biología de Asturias (Extraordinaria de 2025)criterios.pdf",
       "preguntas": [
         {
-          "opcion": "A", "n": 1, "bloque": "Biomoléculas", "tema": "Etiqueta del surimi: grasas, colesterol y transporte de lípidos",
+          "opcion": "A",
+          "n": 1,
+          "bloque": "Biomoléculas",
+          "tema": "Etiqueta del surimi: grasas, colesterol y transporte de lípidos",
           "q": "<b>La tabla adjunta corresponde a la etiqueta de la información nutricional expuesta en la zona exterior del envase de un alimento ultra-procesado, los denominados palitos de cangrejo o surimi, un preparado disponible en tiendas de alimentación. Abreviaturas: g: gramos; mg: miligramos (0.001 gramos); μg: microgramos (0.000001 gramos).</b><br>1. Indica qué diferencia las grasas saturadas, las monoinsaturadas y polinsaturadas. Indica cuál de los tres tipos tiene la temperatura de fusión más baja y explica por qué. (Calificación 1 punto)<br>2. Explica si el colesterol es o no un lípido anfipático e indica si tiene relación con alguna de las vitaminas que aparecen en la etiqueta de la información nutricional. Justifica tu respuesta. (Calificación 1 punto)<br>3. Explica cómo es posible que los lípidos se puedan transportar por la sangre de una zona a otra del organismo si son moléculas altamente hidrofóbicas y, por tanto, insolubles en un medio acuoso como la sangre. (Calificación 0.5 puntos)",
           "figura": "assets/figuras/historico/2025/asturias-1.webp",
           "figuraDesc": "Tabla «Información nutricional/100 g»: carbohidratos totales 14,8 g (almidón 12,4; azúcares 1,6; fibra 0,8); grasas totales 1,15 g (saturadas 0,38; monoinsaturadas 0,56; polinsaturadas 0,21, con omega 3 y omega 6); colesterol 40,1 mg; proteína 7,62 g; minerales (sodio, calcio, fósforo, hierro, potasio, magnesio) y vitaminas B1, B12, B3, B6, D y E.",
@@ -145,7 +176,10 @@
           ]
         },
         {
-          "opcion": "B", "n": 1, "bloque": "Biomoléculas", "tema": "Etiqueta del surimi: enlaces O- y N-glucosídicos",
+          "opcion": "B",
+          "n": 1,
+          "bloque": "Biomoléculas",
+          "tema": "Etiqueta del surimi: enlaces O- y N-glucosídicos",
           "q": "<b>La tabla adjunta corresponde a la etiqueta de la información nutricional expuesta en la zona exterior del envase de un alimento ultra-procesado, los denominados palitos de cangrejo o surimi, un preparado disponible en tiendas de alimentación.</b><br>1. Indica qué compuestos de los que se enumeran en la etiqueta de la información nutricional presentan enlaces O-glucosílico y explica cómo se establece ese enlace. (Calificación 1 punto)<br>2. Indica cómo se establece un enlace N-glucosílico, pon un ejemplo de macromolécula con este tipo de enlace y explica si este enlace participa directamente en la formación de polímeros, esto es, en la unión repetitiva de pequeñas moléculas o monómeros para formar una macromolécula polimérica. (Calificación 1 punto)<br>3. Indica si con la información de la etiqueta nutricional se puede saber si el producto tiene un origen exclusivamente animal. Justifica tu respuesta. (Calificación 0.5 puntos)",
           "figura": "assets/figuras/historico/2025/asturias-1.webp",
           "figuraDesc": "Tabla «Información nutricional/100 g»: carbohidratos totales 14,8 g (almidón 12,4; azúcares 1,6; fibra 0,8); grasas totales 1,15 g (saturadas, monoinsaturadas y polinsaturadas); colesterol 40,1 mg; proteína 7,62 g; minerales y vitaminas B1, B12, B3, B6, D y E.",
@@ -156,7 +190,10 @@
           ]
         },
         {
-          "opcion": "A", "n": 2, "bloque": "Genética", "tema": "Transcripción y traducción simultáneas; promotor",
+          "opcion": "A",
+          "n": 2,
+          "bloque": "Genética",
+          "tema": "Transcripción y traducción simultáneas; promotor",
           "q": "<b>El esquema adjunto representa procesos biosintéticos que dan lugar a grandes moléculas poliméricas fundamentales para las células. El recuadro corresponde a un detalle ampliado.</b><br>1. Indica el nombre de las biomoléculas poliméricas que se están sintetizando en el esquema y señala cómo se denominan esos procesos de síntesis. (Calificación 1 punto)<br>2. Explica qué es el promotor o región promotora e indica cuántas de estas regiones hay en el ejemplo que se representa en el esquema. Justifica tu respuesta. (Calificación 1 punto)<br>3. Con la información que se muestra en el recuadro ampliado, indica qué cadena, azul-5´ o rosa-3´, es la cadena molde. Justifica tu respuesta. (Calificación 0.5 puntos)",
           "figura": "assets/figuras/historico/2025/asturias-2.webp",
           "figuraDesc": "Una doble hélice horizontal sobre la que avanzan de izquierda a derecha varias enzimas verdes; de cada una cuelga una hebra roja cada vez más larga con varias estructuras de las que salen cadenas de esferas de colores terminadas en una esfera negra. Recuadro ampliado: hebras azul (5') y rosa (3').",
@@ -167,7 +204,10 @@
           ]
         },
         {
-          "opcion": "B", "n": 2, "bloque": "Genética", "tema": "Transcripción y traducción en procariotas; enzimas",
+          "opcion": "B",
+          "n": 2,
+          "bloque": "Genética",
+          "tema": "Transcripción y traducción en procariotas; enzimas",
           "q": "<b>El esquema adjunto representa procesos biosintéticos que dan lugar a grandes moléculas poliméricas fundamentales para las células. El recuadro corresponde a un detalle ampliado.</b><br>1. Explica si el proceso, tal como se representa, tiene lugar en células procariotas, o en eucariotas o en ambos tipos. Justifica tu respuesta. (Calificación 1 punto)<br>2. Indica el nombre y localización celular del enzima responsable de activación de los aminoácidos y del enzima responsable de la formación del enlace peptídico. (Calificación 1 punto)<br>3. Todas las cadenas que se representan en el esquema como una sucesión de pequeñas esferas de varios colores tienen en el extremo una esfera de color negro. ¿Se puede saber a qué molécula corresponde dicha esfera negra del extremo? Justifica tu respuesta. (Calificación 0.5 puntos)",
           "figura": "assets/figuras/historico/2025/asturias-2.webp",
           "figuraDesc": "Una doble hélice horizontal sobre la que avanzan varias enzimas verdes; de cada una cuelga una hebra roja cada vez más larga con varias estructuras de las que salen cadenas de esferas de colores terminadas en una esfera negra.",
@@ -178,7 +218,10 @@
           ]
         },
         {
-          "opcion": "A", "n": 3, "bloque": "Célula", "tema": "Centrosoma y fragmoplasto",
+          "opcion": "A",
+          "n": 3,
+          "bloque": "Célula",
+          "tema": "Centrosoma y fragmoplasto",
           "q": "<b>El esquema adjunto es una representación esquemática de una célula y el recuadro de la derecha corresponde a un detalle a mayor aumento de una estructura presente en el citoplasma.</b><br>1. Señala el nombre de la estructura que se representa en color verde y naranja y se presenta en el recuadro a mayor aumento. Indica los componentes que constituyen esta estructura. (Calificación 1 punto)<br>2. Explica brevemente qué es el fragmoplasto de una célula, cómo se origina y para qué sirve, e indica si esa estructura está presente en la célula que se representa. Justifica tu respuesta. (Calificación 1 punto)<br>3. Explica si es posible que la estructura que se representa con los colores verde y naranja y se presenta en el recuadro a mayor aumento, aparezca duplicada en una célula. Justifica tu respuesta. (Calificación 0.5 puntos)",
           "figura": "assets/figuras/historico/2025/asturias-3.webp",
           "figuraDesc": "Célula con núcleo con nucléolo, mitocondrias, retículo, aparato de Golgi, vesículas y, cerca del núcleo, una masa verde con dos cilindros de la que salen radialmente líneas naranjas; el recuadro amplía esa estructura.",
@@ -189,7 +232,10 @@
           ]
         },
         {
-          "opcion": "B", "n": 3, "bloque": "Célula", "tema": "Nucleoide y nucléolo; interfase y anafase I",
+          "opcion": "B",
+          "n": 3,
+          "bloque": "Célula",
+          "tema": "Nucleoide y nucléolo; interfase y anafase I",
           "q": "<b>El esquema adjunto es una representación esquemática de una célula y el recuadro de la derecha corresponde a un detalle a mayor aumento de una estructura presente en el citoplasma.</b><br>1. Explica cuál es la diferencia entre nucleoide y nucléolo e indica si alguna de estas dos estructuras o las dos están presentes en la célula que se representa. (Calificación 1 punto)<br>2. Indica si la célula que se representa está en interfase o en fase M. Justifica tu respuesta en base a dos características de la célula representada. (Calificación 1 punto)<br>3. Señala en qué proceso y fase se encontrará una célula en la que los cromosomas homólogos están formados por dos cromátidas y se están desplazando hacia polos opuestos. Justifica tu respuesta. (Calificación 0.5 puntos)",
           "figura": "assets/figuras/historico/2025/asturias-3.webp",
           "figuraDesc": "Célula con núcleo con envoltura y nucléolo, mitocondrias, retículo, aparato de Golgi, vesículas y, cerca del núcleo, un centrosoma del que salen radialmente fibras naranjas.",
@@ -200,7 +246,10 @@
           ]
         },
         {
-          "opcion": "A", "n": 4, "bloque": "Metabolismo", "tema": "Movilización de la grasa: β-oxidación y balance de NADH y FADH₂",
+          "opcion": "A",
+          "n": 4,
+          "bloque": "Metabolismo",
+          "tema": "Movilización de la grasa: β-oxidación y balance de NADH y FADH₂",
           "q": "<b>Dos gemelos adultos del mismo peso, 80 kg, y el mismo porcentaje de grasa corporal (PGC), 25%, deciden cambiar de hábitos, ya que el rango de normalidad de PGC para su edad es 10-15%. El primero (individuo A) siguió una dieta hipocalórica con ejercicio moderado durante 1 año, alcanzando un PGC de 14% y un peso de 72 kg. El segundo (individuo B) hizo entrenamiento de musculación y en un año bajó su PGC al 11%, aumentando su tejido muscular proteico, por lo que su peso no se modificó (80 kg).</b><br>1. Indica cuál es la molécula más abundante de la grasa corporal, en qué compartimento de la célula se almacena y en qué consiste la primera reacción para su catabolismo. (Calificación 1 punto)<br>2. En el caso del individuo A, indica cuál es la ruta catabólica responsable de la movilización de las reservas energéticas y el compartimento celular donde tiene lugar. (Calificación 1 punto)<br>3. Indica cuántas moléculas de NADH y de FADH₂ se generarán por la oxidación completa de una molécula un ácido graso saturado de 18 carbonos. Justifica tu respuesta. (Calificación 0.5 puntos)",
           "competencial": true,
           "c": [
@@ -210,7 +259,10 @@
           ]
         },
         {
-          "opcion": "B", "n": 4, "bloque": "Metabolismo", "tema": "Musculación: equilibrio entre anabolismo y catabolismo",
+          "opcion": "B",
+          "n": 4,
+          "bloque": "Metabolismo",
+          "tema": "Musculación: equilibrio entre anabolismo y catabolismo",
           "q": "<b>Dos gemelos adultos del mismo peso, 80 kg, y el mismo porcentaje de grasa corporal (PGC), 25%, deciden cambiar de hábitos, ya que el rango de normalidad de PGC para su edad es 10-15%. El primero (individuo A) siguió una dieta hipocalórica con ejercicio moderado durante 1 año, alcanzando un PGC de 14% y un peso de 72 kg. El segundo (individuo B) hizo entrenamiento de musculación y en un año bajó su PGC al 11%, aumentando su tejido muscular proteico, por lo que su peso no se modificó (80 kg).</b><br>1. Indica si en el caso del individuo B, las rutas que han predominado de forma global son las anabólicas o las catabólicas. Justifica tu respuesta. (Calificación 1 punto)<br>2. Describe brevemente una ruta catabólica y una ruta anabólica que ocurran en el caso del individuo B, indicando el compartimento celular donde tienen lugar. (Calificación 1 punto)<br>3. Indica si el individuo B podría haber llegado a la situación descrita en el texto con una dieta rica en glúcidos y pobre en proteínas. Justifica tu respuesta. (Calificación 0.5 puntos)",
           "competencial": true,
           "c": [
@@ -220,7 +272,10 @@
           ]
         },
         {
-          "opcion": "A", "n": 5, "bloque": "Biotecnología", "tema": "Anticuerpos humanos en alfalfa transgénica; CRISPR-Cas",
+          "opcion": "A",
+          "n": 5,
+          "bloque": "Biotecnología",
+          "tema": "Anticuerpos humanos en alfalfa transgénica; CRISPR-Cas",
           "q": "<b>En los últimos años se han desarrollado sistemas de producción de anticuerpos humanos utilizando plantas transgénicas de alfalfa. Estos sistemas abaratan mucho el proceso, por lo que resultan muy prometedores para obtener anticuerpos que puedan usarse en diversas terapias humanas.</b><br>1. Explica cómo se puede obtener un anticuerpo humano en una planta y define tres herramientas moleculares necesarias para este proceso. (Calificación 1 punto)<br>2. Describe una molécula de anticuerpo (IgG) indicando cómo son las cadenas de aminoácidos, las uniones entre ellas y las regiones de los extremos amino y carboxilo. (Calificación 1 punto)<br>3. Las siglas CRISPR-Cas describen los dos elementos principales que constituyen este sistema. Indica qué elemento es referido por las siglas CRISPR y cuál por las siglas Cas. (Calificación 0.5 puntos)",
           "competencial": true,
           "c": [
@@ -230,13 +285,296 @@
           ]
         },
         {
-          "opcion": "B", "n": 5, "bloque": "Inmunología", "tema": "Sueroterapia, reacciones antígeno-anticuerpo y biorremediación",
+          "opcion": "B",
+          "n": 5,
+          "bloque": "Inmunología",
+          "tema": "Sueroterapia, reacciones antígeno-anticuerpo y biorremediación",
           "q": "<b>En los últimos años se han desarrollado sistemas de producción de anticuerpos humanos utilizando plantas transgénicas de alfalfa. Estos sistemas abaratan mucho el proceso, por lo que resultan muy prometedores para obtener anticuerpos que puedan usarse en diversas terapias humanas.</b><br>1. Indica cómo se llama la administración a un paciente de anticuerpos para tratar una enfermedad y explica tres tipos de reacción antígeno-anticuerpo que se pueden producir. (Calificación 1 punto)<br>2. Explica qué es la biorremediación y señala tres ejemplos. (Calificación 1 punto)<br>3. Indica un caso de inmunidad pasiva natural señalando qué tipo de inmunoglobulina está implicada en el proceso. (Calificación 0.5 puntos)",
           "competencial": true,
           "c": [
             "1. **Sueroterapia** (inmunidad pasiva artificial) (0,25 p). Tres reacciones (0,75 p): **neutralización** (anula los efectos del antígeno), **precipitación** (antígenos solubles forman complejos que precipitan), **aglutinación** (agregados de bacterias), **opsonización** (marca las bacterias para los fagocitos).",
             "2. Proceso biotecnológico que usa **microorganismos, hongos, plantas o sus enzimas** para **recuperar un medio contaminado** (0,5 p). Ejemplos: **hidrocarburos (petróleo)**, **metales pesados**, **aguas residuales**, **biodegradación de plásticos** (0,5 p).",
             "3. **Paso de anticuerpos de la madre al feto por la placenta (IgG)** o **al bebé por la leche materna (IgA)** (0,5 p)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "castilla-leon",
+      "nombre": "Castilla y León, convocatoria ordinaria",
+      "etiqueta": "PAU 2025 Castilla y León",
+      "documento": "PAU 2025 Castilla y León",
+      "origen_texto": "Pregunta oficial de la PAU 2025 de Castilla y León (modelo competencial, útil para 2026)",
+      "tip": "Solución redactada por BioCelia (en morado): la PAU de Castilla y León solo publica criterios generales de corrección, sin soluciones.",
+      "puntos": 2,
+      "enunciado": "Examen Biología de Castilla y León (Ordinaria de 2025) .pdf",
+      "criterios": "Examen Biología de Castilla y León (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+      "preguntas": [
+        {
+          "n": 1,
+          "bloque": "Biotecnología",
+          "tema": "Terapia génica y mutaciones",
+          "competencial": true,
+          "q": "<b>Pregunta 1. Competencial (Obligatoria) (2 puntos). La biotecnología utiliza sistemas biológicos para crear o modificar procesos o productos para fines específicos. Una aplicación importante de la biotecnología es introducir mejoras en la medicina y, más concretamente, en la terapia génica, cuyo objetivo es corregir un gen defectuoso o reemplazarlo por otro sano. Investigadores del Reeve-Irvine Research Center, EEUU, han desarrollado una terapia basada en la inyección de fibrina de salmón y de ARN inhibidor de la acción del gen PTEN (phosphatase and tensin homolog) que permite la regeneración de axones tras una lesión en la médula espinal (Revista Genética Médica).</b><br>a) Explique brevemente en qué consiste la terapia génica. (0,6 puntos)<br>b) Un gen defectuoso puede generarse a partir de una mutación. Explique brevemente en qué consiste una mutación e indique dos tipos. (0,6 puntos)<br>c) Indique si una modificación en un único nucleótido de un gen siempre tiene como consecuencia la síntesis de una proteína defectuosa. Razone la respuesta. (0,8 puntos)",
+          "c": [
+            "((a) La terapia génica consiste en introducir material genético en las células de un paciente para tratar una enfermedad: corregir o sustituir un gen defectuoso por una copia sana, o bien silenciar un gen, como hace el ARN inhibidor del gen PTEN. El gen suele llevarse con un vector, por ejemplo un virus modificado.))",
+            "((b) Una mutación es una alteración del material genético. Tipos: génicas o puntuales (sustitución, inserción o deleción de nucleótidos), cromosómicas (cambian la estructura de un cromosoma) y genómicas (cambian el número de cromosomas). También pueden clasificarse en espontáneas e inducidas.))",
+            "((c) No siempre. El código genético es degenerado: un cambio en la tercera base de un codón suele dar otro codón del mismo aminoácido (mutación silenciosa). También puede cambiar un aminoácido por otro de propiedades parecidas sin afectar a la función, o el cambio puede caer en un intrón o en una región no codificante. En cambio, si crea un codón de parada o cambia un aminoácido del centro activo, la proteína será defectuosa.))"
+          ]
+        },
+        {
+          "opcion": "A",
+          "n": 2,
+          "bloque": "Biomoléculas",
+          "tema": "ARN frente a ADN: componentes y enlaces",
+          "q": "<b>En relación con la imagen:</b><br>a) Identifique a qué tipo de macromolécula pertenecen los esquemas A y B. Indique de manera razonada una característica que permita diferenciar entre A y B. (0,6)<br>b) Identifique las moléculas señaladas con los números 1, 2, 3, 4 y 5. ¿Qué representan las líneas punteadas de la macromolécula “B”? ¿Qué tipo de enlace es el señalado como 6? (0,9)<br>c) Indique la localización de la molécula “B” en la célula procariota y eucariota. (0,5)",
+          "figura": "assets/figuras/historico/2025/castilla-leon-2a.webp",
+          "figuraDesc": "A: una cadena de unidades P–pentágono–base con las bases C, A, U y G. B: dos cadenas enfrentadas con los pares C-G, A-T, T-A y G-C unidos por líneas punteadas; se señalan un fosfato (2), un pentágono (3), una unidad completa recuadrada (1 en B, 5 en A), las bases (4) y la unión entre unidades (6).",
+          "c": [
+            "((a) Ambos son ácidos nucleicos: A es ARN y B es ADN. A tiene uracilo (U) y es monocatenario; B tiene timina (T) y es bicatenario.))",
+            "((b) 1: nucleótido (desoxirribonucleótido); 2: grupo fosfato; 3: pentosa (desoxirribosa); 4: bases nitrogenadas; 5: nucleótido (ribonucleótido). Las líneas punteadas son puentes de hidrógeno entre bases complementarias (2 entre A y T, 3 entre G y C). El enlace 6 es un enlace fosfodiéster.))",
+            "((c) En procariotas, en el citoplasma (nucleoide) y en los plásmidos; en eucariotas, en el núcleo, las mitocondrias y los cloroplastos.))"
+          ]
+        },
+        {
+          "opcion": "B",
+          "n": 2,
+          "bloque": "Biomoléculas",
+          "tema": "Celulosa y almidón",
+          "q": "<b>Respecto a las moléculas biológicas:</b><br>a) Indique qué tipo de biomolécula es la celulosa, su función y localización. ¿Cómo se llama y de qué tipo es el enlace que se produce entre los monómeros constituyentes de la celulosa? (0,7)<br>b) Indique las unidades monoméricas que componen el almidón, los tipos de polímeros que lo constituyen y los tipos de enlace que se forman. ¿En qué tipo de células se encuentra esta molécula y cuál es su función? (1,3)",
+          "c": [
+            "((a) La celulosa es un polisacárido (homopolisacárido de β-glucosa) con función estructural: forma la pared celular de las células vegetales. Sus monómeros se unen por enlaces O-glucosídicos β(1→4).))",
+            "((b) El almidón está formado por α-glucosa. Tiene dos polímeros: la amilosa, lineal, con enlaces α(1→4), y la amilopectina, ramificada, con enlaces α(1→4) y ramificaciones α(1→6). Se encuentra en las células vegetales (amiloplastos, cloroplastos) y su función es la reserva energética.))"
+          ]
+        },
+        {
+          "opcion": "3.1.A",
+          "n": 3,
+          "puntos": 1.5,
+          "bloque": "Célula",
+          "tema": "Funciones de orgánulos y tipos de transporte",
+          "q": "<b>Conteste a las siguientes cuestiones sobre la organización celular:</b><br>a) Cite una función de cada uno de los siguientes orgánulos: lisosomas, retículo endoplasmático liso, aparato de Golgi y nucléolo. (0,8)<br>b) Señale dos diferencias entre el transporte pasivo y el transporte activo, y cite un ejemplo para cada uno de ellos. (0,7)",
+          "c": [
+            "((a) Lisosomas: digestión intracelular. REL: síntesis de lípidos y detoxificación. Aparato de Golgi: maduración, glucosilación y empaquetado de proteínas para su secreción. Nucléolo: síntesis del ARN ribosómico y formación de las subunidades de los ribosomas.))",
+            "((b) El transporte pasivo va a favor de gradiente y sin gasto de energía; el activo va en contra de gradiente y consume ATP. Ejemplos: difusión simple del O₂ o difusión facilitada de la glucosa (pasivo); bomba de Na⁺/K⁺ (activo).))"
+          ]
+        },
+        {
+          "opcion": "3.1.B",
+          "n": 3,
+          "puntos": 1.5,
+          "bloque": "Célula",
+          "tema": "Fases de la mitosis en una célula animal",
+          "q": "<b>Con referencia a los procesos de división celular.</b><br>a) Identifique el tipo de división celular y el nombre de las fases representadas en las figuras. Ordene cronológicamente estas fases e indique si se corresponde con una célula animal o vegetal. (0,7)<br>b) Indique dos acontecimientos que tienen lugar en «B» y en «C». (0,8)",
+          "figura": "assets/figuras/historico/2025/castilla-leon-31b.webp",
+          "figuraDesc": "Cuatro células redondeadas con ásteres en los polos: A, cromosomas alineados en el centro; B, núcleo con cromosomas condensándose y dos ásteres; C, célula estrangulada con dos grupos de cromosomas; D, cromosomas separándose hacia los polos.",
+          "c": [
+            "((a) Es una mitosis. A: metafase; B: profase; C: telofase; D: anafase. Orden: B → A → D → C. Es una célula animal: tiene centriolos y ásteres y se divide por estrangulamiento.))",
+            "((b) En B (profase): los cromosomas se condensan, se forma el huso acromático entre los centrosomas y desaparecen el nucléolo y la envoltura nuclear. En C (telofase): los cromosomas se descondensan, reaparecen la envoltura nuclear y el nucléolo, y comienza la citocinesis con el surco de segmentación.))"
+          ]
+        },
+        {
+          "opcion": "3.2.A",
+          "n": 3,
+          "puntos": 1.5,
+          "bloque": "Metabolismo",
+          "tema": "Esquema del catabolismo: procesos y localización",
+          "q": "<b>Observe la imagen adjunta:</b><br>a) Nombre los procesos numerados del 1 al 8 e indique en qué parte de la célula tienen lugar. (0,8)<br>b) Indique en cuál de estas rutas se forma poder reductor en forma de NADH. (0,4)<br>c) Defina los términos gluconeogénesis y glucogenogénesis. (0,3)",
+          "figura": "assets/figuras/historico/2025/castilla-leon-32a.webp",
+          "figuraDesc": "Glucosa → (1) ácido pirúvico, que da etanol (2), ácido láctico (3) o, por 4, acetil-CoA; los ácidos grasos también dan acetil-CoA (6); el acetil-CoA entra en un ciclo (5) que cede H⁺ y electrones a una cadena escalonada (7) hasta el O₂, acoplada a la formación de ATP (8).",
+          "c": [
+            "((a) 1: glucólisis (citosol); 2: fermentación alcohólica (citosol); 3: fermentación láctica (citosol); 4: descarboxilación oxidativa del piruvato (matriz mitocondrial); 5: ciclo de Krebs (matriz mitocondrial); 6: β-oxidación de los ácidos grasos (matriz mitocondrial); 7: cadena de transporte de electrones (membrana mitocondrial interna); 8: fosforilación oxidativa (membrana mitocondrial interna, ATP sintasa).))",
+            "((b) Se forma NADH en la glucólisis (1), la descarboxilación oxidativa (4), el ciclo de Krebs (5) y la β-oxidación (6).))",
+            "((c) Gluconeogénesis: síntesis de glucosa a partir de precursores que no son glúcidos (lactato, aminoácidos, glicerol). Glucogenogénesis: síntesis de glucógeno a partir de glucosa.))"
+          ]
+        },
+        {
+          "opcion": "3.2.B",
+          "n": 3,
+          "puntos": 1.5,
+          "bloque": "Metabolismo",
+          "tema": "Agua en la fotosíntesis, fotosistemas y ciclo de Calvin",
+          "q": "<b>En relación con la fotosíntesis conteste a las siguientes cuestiones:</b><br>a) ¿Por qué necesitan agua los cloroplastos? Razone la respuesta. (0,8)<br>b) ¿Qué es un fotosistema? (0,5)<br>c) ¿Cuántas moléculas de CO₂ se tendrán que incorporar al ciclo de Calvin para dar lugar a una molécula de sacarosa? (0,2)",
+          "c": [
+            "((a) En la fase luminosa, la fotólisis del agua repone los electrones que pierde el fotosistema II al excitarse con la luz; además libera protones, que contribuyen al gradiente para sintetizar ATP, y oxígeno. Sin agua no habría flujo de electrones ni se formarían ATP y NADPH.))",
+            "((b) Un complejo de proteínas y pigmentos (clorofilas y carotenoides) de la membrana de los tilacoides, con una antena que capta la luz y un centro de reacción con una clorofila que cede electrones a la cadena de transporte.))",
+            "((c) 12 moléculas de CO₂, porque la sacarosa tiene 12 carbonos (glucosa + fructosa).))"
+          ]
+        },
+        {
+          "opcion": "A",
+          "n": 4,
+          "puntos": 1.5,
+          "bloque": "Genética",
+          "tema": "Código genético y cadenas complementarias",
+          "q": "<b>Conteste las siguientes cuestiones:</b><br>a) Enumere y explique cuatro características fundamentales del código genético. (1,0)<br>b) Dado el siguiente fragmento de ADN de la cadena codificante: 5'ATG TTT GGC TAA 3', escriba su cadena complementaria y la del ARNm correspondiente, indicando la polaridad. (0,5)",
+          "c": [
+            "((a) Universal: el mismo en casi todos los seres vivos. Degenerado: varios codones pueden codificar el mismo aminoácido. Sin ambigüedad: cada codón corresponde a un solo aminoácido. Sin solapamiento y sin comas: se lee de tres en tres, de forma continua, desde un codón de inicio (AUG) hasta uno de parada.))",
+            "((b) Cadena complementaria (molde): 3'-TAC AAA CCG ATT-5'. ARNm: 5'-AUG UUU GGC UAA-3'.))"
+          ]
+        },
+        {
+          "opcion": "B",
+          "n": 4,
+          "puntos": 1.5,
+          "bloque": "Genética",
+          "tema": "Mutaciones génicas y evolución",
+          "q": "<b>Conteste las siguientes cuestiones:</b><br>a) Represente esquemáticamente los siguientes tipos de mutación: substitución, inserción y deleción, e indique a qué grupo de mutaciones pertenecen. Analice su impacto en la traducción de proteínas. (1,0)<br>b) Relacione el concepto de mutación con la evolución, explicando cómo puede influir en la selección natural. (0,5)",
+          "c": [
+            "((a) Son mutaciones génicas o puntuales. Por ejemplo, con ATG TTT GGC: sustitución ATG TCT GGC (cambia una base); inserción ATG TAT TGG C (se añade una base); deleción ATG TTG GC (se pierde una base). La sustitución cambia como mucho un codón: puede ser silenciosa, cambiar un aminoácido o crear un codón de parada. La inserción y la deleción (si no son de tres bases) desplazan la pauta de lectura y cambian todos los aminoácidos siguientes.))",
+            "((b) Las mutaciones son la fuente primaria de variabilidad genética. La selección natural actúa sobre esa variabilidad: las mutaciones que dan ventaja en un ambiente aumentan su frecuencia porque sus portadores sobreviven y se reproducen más, y las perjudiciales se eliminan.))"
+          ]
+        },
+        {
+          "opcion": "A",
+          "n": 5,
+          "puntos": 1.5,
+          "bloque": "Biotecnología",
+          "tema": "CRISPR-Cas y barreras primarias",
+          "q": "<b>Conteste las siguientes cuestiones:</b><br>a) Explique en qué consiste la tecnología CRISPR-Cas, indicando dos elementos necesarios para su realización. Enumere tres posibles aplicaciones. (1,0)<br>b) Respecto al sistema inmunitario, defina las barreras externas o primarias. Enumere dos de ellas. (0,5)",
+          "c": [
+            "((a) Es una herramienta de edición genética basada en un sistema de defensa bacteriano: un ARN guía reconoce una secuencia concreta del ADN y la endonucleasa Cas9 la corta, de modo que se puede eliminar, corregir o insertar un gen. Elementos: la proteína Cas9 y el ARN guía. Aplicaciones: terapia génica de enfermedades hereditarias, mejora de cultivos y animales, y modelos de enfermedades en investigación.))",
+            "((b) Son las defensas inespecíficas que impiden la entrada de patógenos en el organismo. Ejemplos: la piel (queratina, descamación) y las mucosas (moco, cilios); también secreciones como la lisozima de las lágrimas o el ácido del estómago.))"
+          ]
+        },
+        {
+          "opcion": "B",
+          "n": 5,
+          "puntos": 1.5,
+          "bloque": "Inmunología",
+          "tema": "Fermentaciones industriales y células inmunitarias",
+          "q": "<b>Conteste las siguientes cuestiones:</b><br>a) Indique dos procesos fermentativos industriales, dos productos obtenidos en cada uno de ellos y especifique el tipo de microrganismos que intervienen en cada uno. (0,5)<br>b) Indique un tipo celular que participe en la respuesta inmune innata y otro que participe en la respuesta específica o adquirida. Explique su función en cada una de ellas. (1,0)",
+          "c": [
+            "((a) Fermentación alcohólica: pan y vino (o cerveza), por levaduras (Saccharomyces). Fermentación láctica: yogur y queso, por bacterias lácticas (Lactobacillus, Streptococcus).))",
+            "((b) Innata: el macrófago (o el neutrófilo), que fagocita a los patógenos y, en el caso del macrófago, presenta antígenos a los linfocitos T. Adquirida: el linfocito B, que al reconocer un antígeno se diferencia en célula plasmática productora de anticuerpos específicos y en células de memoria (o el linfocito T, que coordina la respuesta y destruye células infectadas).))"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "madrid",
+      "nombre": "Madrid, convocatoria extraordinaria",
+      "etiqueta": "PAU 2025 Madrid",
+      "documento": "PAU 2025 Comunidad de Madrid",
+      "origen_texto": "Pregunta oficial de la PAU 2025 de la Comunidad de Madrid, con sus soluciones orientativas (modelo competencial, útil para 2026)",
+      "puntos": 2,
+      "enunciado": "Examen Biología de la Comunidad de Madrid (Extraordinaria de 2025) [www.examenesdepau.com].pdf",
+      "criterios": "Examen Biología de la Comunidad de Madrid (Extraordinaria de 2025) [www.examenesdepau.com].pdf",
+      "preguntas": [
+        {
+          "n": 1,
+          "bloque": "Inmunología",
+          "tema": "Síndrome de DiGeorge, diabetes tipo 1 e insulina recombinante",
+          "competencial": true,
+          "q": "<b>Con respecto al sistema inmunitario y la biotecnología: En la enfermedad conocida como Síndrome de DiGeorge completo, el timo no se desarrolla de forma normal durante el proceso embrionario y es funcionalmente muy deficiente, de manera que sin tratamiento es letal, ya que la respuesta inmunitaria está muy afectada, además de presentarse otras anomalías. El tratamiento consistiría en el trasplante de tejido de timo cultivado procedente de un individuo compatible. Por otra parte, la diabetes mellitus tipo 1 es una enfermedad debida a factores genéticos y ambientales en la que el individuo no produce insulina, ya que las células beta productoras de esta hormona en el páncreas son destruidas por el sistema inmune. En este caso, el tratamiento se centra en controlar la cantidad de glucosa en sangre mediante aplicación exógena de insulina.</b><br>a) Indique a qué tipo de patología del sistema inmunitario da lugar el Síndrome de DiGeorge. Razone la respuesta explicando la manera en que se ve afectado el sistema inmunitario (0,5 puntos).<br>b) Indique qué tipo de respuesta inmune específica se ve afectada esencialmente en el Síndrome de DiGeorge. Explique brevemente por qué (0,25 puntos).<br>c) Explique a qué tipo de trasplante se hace referencia en el texto anterior, en función de la relación existente entre el donante y el receptor (0,25 puntos).<br>d) Explique en qué tipo de patología del sistema inmunitario se encuadra la diabetes mellitus tipo I (0,25 puntos).<br>e) Describa brevemente cuáles son los principales pasos en el proceso de producción de insulina humana mediante la utilización de las técnicas de ingeniería genética (0,75 puntos).",
+          "c": [
+            "a) **Inmunodeficiencia congénita** (primaria) (0,25 p): falla la **formación de los linfocitos T**, que **maduran en el timo** (0,25 p).",
+            "b) La **respuesta celular**, porque la median los **linfocitos T** (0,25 p).",
+            "c) **Alotrasplante**: donante y receptor son **genéticamente distintos** pero de la **misma especie** (0,25 p).",
+            "d) **Enfermedad autoinmune**: el propio sistema inmunitario **destruye las células beta** del páncreas (0,25 p).",
+            "e) **Aislar el gen de la insulina**; preparar un **vector** (plásmido); **insertar el gen** en él (**ADN recombinante**); **introducirlo en una célula hospedadora** (transformación bacteriana); **cultivar** las células para que **expresen el gen**; **extraer y purificar** la insulina (0,75 p)."
+          ]
+        },
+        {
+          "opcion": "A",
+          "n": 2,
+          "bloque": "Biomoléculas",
+          "tema": "ADN: nucleótidos, enlace fosfodiéster y Chargaff",
+          "q": "<b>En relación con las biomoléculas: En 1962 Watson, Crick y Wilkins compartieron el Premio Nobel de Fisiología y Medicina por su contribución al conocimiento del ADN.</b><br>a) Cite los monómeros que forman esta biomolécula y explique la composición de los mismos. Nombre el modelo que explica la estructura del ADN bicatenario (0,75 puntos).<br>b) ¿Mediante qué tipo de enlace se unen estos monómeros para formar la biomolécula en cuestión? Explique cómo se forma este enlace (0,75 puntos).<br>c) Si una molécula de ADN presenta en su composición un 17% de Adenina, indique el porcentaje de las restantes bases nitrogenadas que posee. Razone la respuesta (0,5 puntos).",
+          "c": [
+            "a) **Desoxirribonucleótidos** (0,25 p), formados por una **base nitrogenada** (A, T, C o G), una **desoxirribosa** y **ácido fosfórico** (0,25 p). Modelo de la **doble hélice** (0,25 p).",
+            "b) **Enlace fosfodiéster** (0,25 p): reacción entre el **–OH en 3'** de un nucleótido y el **–OH del fosfato en 5'** del siguiente, **liberando agua** (0,5 p).",
+            "c) **17 % de timina, 33 % de guanina y 33 % de citosina** (0,25 p), porque **A es complementaria de T y G de C** (0,25 p)."
+          ]
+        },
+        {
+          "opcion": "B",
+          "n": 2,
+          "bloque": "Biomoléculas",
+          "tema": "Etiquetas de galletas: energía, azúcares, fibra y grasas",
+          "q": "<b>En relación con las biomoléculas: En dos envases de distintos tipos de galletas aparece la información nutricional que se muestra en las siguientes tablas:</b><br>a) Compare la información nutricional de los dos tipos de galletas y determine cuál de ellas tiene mayor valor energético y cuál mayor contenido en sal por cada 100 g (0,5 puntos).<br>b) Los hidratos de carbono presentes en la galleta son de varios tipos. Según la AESAN (Agencia Española de Seguridad Alimentaria y Nutrición), el término azúcares añadidos hace referencia a monosacáridos y disacáridos. Ponga cuatro ejemplos de estos tipos de hidratos de carbono (0,5 puntos).<br>c) El otro tipo de hidrato de carbono presente es la fibra alimentaria. Indique cuál es el componente principal de la fibra y señale qué efecto beneficioso tiene en el organismo (0,5 puntos).<br>d) Teniendo en cuenta las cantidades de los distintos tipos de grasas saturadas e insaturadas presentes, explique cuál de los dos tipos de galletas sería menos perjudicial para una persona que quiera disminuir el riesgo de padecer enfermedades cardiovasculares (0,5 puntos).",
+          "figura": "assets/figuras/historico/2025/madrid-2b.webp",
+          "figuraDesc": "Galleta de avena (por galleta de 20 g): 377 kJ / 90 kcal; grasas 4,2 g (poliinsaturadas 0,54; monoinsaturadas 3,2; saturadas 0,45); hidratos de carbono 12,2 g (azúcares 3,6); fibra 1,3 g; proteínas 1,4 g; sal 0,21 g. Galleta con chocolate (por 100 g): 2089 kJ / 499 kcal; proteínas 3,7 g; grasas 25,5 g (poliinsaturada 2,0; monoinsaturada 5,5; saturada 17,4); hidratos de carbono 63,7 g (azúcares 48,7; añadidos 45,8); fibra 2,4 g; sodio 0,27 g (sal = sodio × 2,5).",
+          "c": [
+            "a) La de **chocolate es algo más energética** (499 kcal frente a **450 kcal** por 100 g) (0,25 p); la de **avena tiene más sal** (**1,05 g** frente a **0,675 g** por 100 g) ((hay que pasar la avena a 100 g multiplicando por 5 y la sal del chocolate calcularla como 0,27 × 2,5)) (0,25 p).",
+            "b) **Glucosa**, **fructosa**, **sacarosa**, **maltosa**, **lactosa**. Cuatro (0,5 p).",
+            "c) Componente principal: **celulosa** (0,25 p); **facilita el tránsito intestinal** (0,25 p).",
+            "d) La de **avena** (0,25 p), porque tiene **mucha menos grasa saturada** (**2,25 g** frente a **17,4 g** por 100 g), la más perjudicial (0,25 p)."
+          ]
+        },
+        {
+          "opcion": "A",
+          "n": 3,
+          "bloque": "Genética",
+          "tema": "Afirmaciones falsas sobre la expresión génica",
+          "q": "<b>En relación con la genética molecular: Razone por qué son falsas las siguientes afirmaciones:</b><br>a) El proceso de corte y empalme o splicing del ARN consiste en cortar los exones y empalmar los intrones para generar ARNm y se produce en el citosol de células eucariotas (0,5 puntos).<br>b) El inicio de la transcripción en procariotas está regulado por la unión de factores de iniciación a los ribosomas (0,5 puntos).<br>c) Los telómeros de procariotas se acortan tras cada replicación del ADN (0,5 puntos).<br>d) El código genético es degenerado porque a cada aminoácido sólo le corresponde un codón (0,5 puntos).",
+          "c": [
+            "a) En el splicing se **cortan los intrones y se empalman los exones** (0,25 p), y ocurre en el **núcleo** (0,25 p).",
+            "b) La transcripción **no ocurre en los ribosomas**; la unión de **factores de iniciación a los ribosomas** regula el inicio de la **traducción** (0,5 p).",
+            "c) Los procariotas **no tienen telómeros**: su cromosoma es **circular** y **no tiene extremos** (0,5 p).",
+            "d) Es degenerado porque **cada aminoácido puede estar codificado por más de un codón** (0,5 p)."
+          ]
+        },
+        {
+          "opcion": "B",
+          "n": 3,
+          "bloque": "Genética",
+          "tema": "Mutaciones silenciosas, poliploidías y cáncer",
+          "q": "<b>En relación con la genética molecular:</b><br>a) Razone por qué algunas mutaciones puntuales son silenciosas (0,5 puntos).<br>b) Indique cuál es la diferencia entre poliploidías y aneuploidías (0,5 puntos).<br>c) Indique cuál es la diferencia entre mutaciones espontáneas e inducidas (0,5 puntos).<br>d) Razone la relación existente entre las mutaciones y el cáncer (0,5 puntos).",
+          "c": [
+            "a) **No alteran la secuencia de aminoácidos**: el cambio produce **un codón que codifica el mismo aminoácido** (código **degenerado**) (0,5 p).",
+            "b) **Poliploidía**: cambio en **múltiplos de la dotación haploide** (3n, 4n). **Aneuploidía**: **pérdida o ganancia de un solo cromosoma** (trisomías, monosomías) (0,5 p).",
+            "c) **Espontáneas**: sin factor externo, por **errores de replicación o reparación**. **Inducidas**: por **agentes físicos** (rayos X, UV), **químicos** o **biológicos** (virus) (0,5 p).",
+            "d) El cáncer es una **proliferación descontrolada de células** causada, en la mayoría de casos, por **mutaciones en genes que controlan el crecimiento y la división celular** (0,5 p)."
+          ]
+        },
+        {
+          "opcion": "A",
+          "n": 4,
+          "bloque": "Célula",
+          "tema": "Ciclo celular y meiosis en una célula 2n = 4",
+          "q": "<b>En relación con la biología celular:</b><br>a) Cite las fases principales del ciclo celular y explique brevemente qué ocurre en cada una de ellas (1 punto).<br>b) Cite dos procesos que contribuyan a producir variabilidad genética durante la meiosis e indique las fases de la meiosis en las que se producen. Justifique brevemente su respuesta (0,5 puntos).<br>c) Nombre cada una de las fases de la reproducción celular de un organismo 2n=4 representadas a continuación (0,5 puntos).",
+          "figura": "assets/figuras/historico/2025/madrid-4a.webp",
+          "figuraDesc": "Cuatro células: A, célula estrangulándose con dos cromosomas en cada mitad; B, dos cromosomas alineados en el ecuador; C, dos parejas de cromosomas alineadas en el ecuador; D, célula alargada con cromátidas separándose hacia los polos.",
+          "c": [
+            "a) **G1**: la célula **crece** y se prepara para la replicación; **S**: **replicación del ADN**; **G2**: sigue creciendo y **se prepara para la mitosis**; **M**: **división celular** (mitosis y citocinesis). 0,25 p cada una (1 p).",
+            "b) **Sobrecruzamiento** en la **profase I** (los homólogos intercambian segmentos) (0,25 p) y **segregación al azar** de homólogos y cromátidas en las **anafases I y II** (0,25 p).",
+            "c) A: **telofase I**; B: **metafase II**; C: **metafase I**; D: **anafase II** (0,5 p)."
+          ]
+        },
+        {
+          "opcion": "B",
+          "n": 4,
+          "bloque": "Célula",
+          "tema": "Transporte de membrana y componentes de la membrana",
+          "q": "<b>En relación con las membranas biológicas:</b><br>a) Relacione cada característica de la columna de la izquierda con un único concepto de entre los de la derecha (no hace falta que copie el texto, solo que empareje los números y letras que identifican cada opción) (1 punto).<table class=\"tabla-pau\"><tr><td>1. Célula vegetal en medio hipertónico</td><td>A. Difusión simple mediada por proteínas</td></tr><tr><td>2. Un catión pasa por una proteína canal</td><td>B. Difusión facilitada</td></tr><tr><td>3. Célula vegetal en medio hipotónico</td><td>C. Simporte activo secundario</td></tr><tr><td>4. Entrada de O₂ gas</td><td>D. Antiporte activo secundario</td></tr><tr><td>5. La glucosa entra a través de una permeasa</td><td>E. Transporte activo primario (bomba)</td></tr><tr><td>6. Entran iones contra gradiente electroquímico con gasto de ATP</td><td>F. Turgencia</td></tr><tr><td>7. Entra un aminoácido contra gradiente junto con un ion a favor de gradiente</td><td>G. Difusión simple a través de la bicapa lipídica</td></tr><tr><td>8. Entra un aminoácido contra gradiente y sale un ion a favor de gradiente</td><td>H. Plasmolisis</td></tr></table>b) Indique dos funciones de las membranas distintas de la permeabilidad selectiva y el transporte de compuestos (0,5 puntos).<br>c) Indique los tres componentes principales de la membrana plasmática y describa brevemente su localización en la misma (0,5 puntos).",
+          "c": [
+            "a) **1-H**, **2-A**, **3-F**, **4-G**, **5-B**, **6-E**, **7-C**, **8-D**. 0,25 p cada dos (1 p).",
+            "b) **Barrera entre el medio externo y el interno**, **comunicación intercelular**, **recepción de señales** (hormonas, neurotransmisores), **soporte de enzimas**. Dos (0,5 p).",
+            "c) **Lípidos anfipáticos** (fosfolípidos), **proteínas** y **glúcidos** (0,25 p). Los lípidos forman una **bicapa** con los grupos **polares hacia fuera** y las **colas apolares enfrentadas**; las proteínas quedan **total o parcialmente integradas** (mosaico fluido); los glúcidos, **hacia el exterior** (0,25 p)."
+          ]
+        },
+        {
+          "opcion": "A",
+          "n": 5,
+          "bloque": "Metabolismo",
+          "tema": "Respiración frente a fermentación láctica; β-oxidación",
+          "q": "<b>En relación con el metabolismo celular:</b><br>a) Respecto a la respiración celular y la fermentación láctica, indique: 1) qué metabolito tienen en común estos dos procesos, 2) qué las diferencia respecto al requerimiento de oxígeno para que se produzcan, 3) cuáles son los productos finales de estos procesos y 4) a qué se debe la diferencia en la producción de ATP entre ambas (1 punto).<br>b) Indique en qué orgánulo y, dentro del mismo, en qué compartimento ocurre la beta-oxidación de los ácidos grasos y cuáles son los tres productos finales de esta vía metabólica (1 punto).",
+          "c": [
+            "a) 1) Parten de la **glucosa** o del **piruvato**; 2) la respiración necesita **O₂**, la fermentación láctica ocurre **en su ausencia**; 3) respiración: **ATP, CO₂ y H₂O**; fermentación: **ácido láctico** (y NAD⁺); 4) la respiración **oxida completamente la glucosa** (glucólisis, Krebs y fosforilación oxidativa) y la fermentación solo produce ATP **en la glucólisis** (1 p).",
+            "b) En la **matriz mitocondrial** (0,25 p); productos: **acetil-CoA**, **NADH** y **FADH₂** (0,75 p)."
+          ]
+        },
+        {
+          "opcion": "B",
+          "n": 5,
+          "bloque": "Metabolismo",
+          "tema": "ATP, ciclo de Krebs y cianobacterias",
+          "q": "<b>Respecto al metabolismo de los seres vivos:</b><br>a) En relación con el ATP: 1) indique el nombre de dos tipos de reacciones metabólicas en las que se produce; 2) cite en qué orgánulo/s membranoso/s de la célula vegetal se puede sintetizar; 3) indique una función de este en el metabolismo celular (0,75 puntos).<br>b) Explique brevemente la relación del ciclo de Krebs con la cadena de transporte electrónico mitocondrial (0,5 puntos).<br>c) Si en un laboratorio se miden los productos generados por un cultivo de cianobacterias en H₂O, se observa que uno de ellos es un gas. Responda razonadamente qué gas se genera a partir de este cultivo. Explique si este gas se produciría si el cultivo se realizara a 70 °C (0,75 puntos).",
+          "c": [
+            "a) 1) **Fosforilación oxidativa**, **a nivel de sustrato** y **fotofosforilación** (dos); 2) **mitocondrias y cloroplastos**; 3) **intermediario energético** (transferencia de energía), coenzima, regulador enzimático (0,75 p).",
+            "b) Ambos ocurren en la **mitocondria**: el ciclo de Krebs produce **NADH y FADH₂**, que **ceden sus electrones a la cadena de transporte** (donde se oxidan a NAD⁺ y FAD) (0,5 p).",
+            "c) **Oxígeno**, producido en la **fase luminosa** porque realizan **fotosíntesis oxigénica** (0,5 p). A 70 ºC **no se produciría**: las **enzimas fotosintéticas se desnaturalizan** (0,25 p)."
           ]
         }
       ]
