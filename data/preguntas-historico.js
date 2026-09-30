@@ -1,7 +1,7 @@
 /* ══════════════════════════════════════════════════════════════
    Generado por tools/generar_banco_historico.py el 2026-09-30.
    NO editar a mano: se regenera desde data/historico/pau-*.json.
-   808 preguntas para Entrenamiento y 628 para Simulacro,
+   838 preguntas para Entrenamiento y 648 para Simulacro,
    de exámenes PAU oficiales con sus criterios de corrección.
    ══════════════════════════════════════════════════════════════ */
 window.BIOCELIA_HISTORICO = {
@@ -21546,6 +21546,820 @@ window.BIOCELIA_HISTORICO = {
    "f": "Pregunta oficial de la PAU de Andalucía 2021-2022 (Reserva de julio, bloque C, pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
   },
   {
+   "id": "pau2023-junio-a1",
+   "block": "Biomoléculas",
+   "topic": "Nucleósidos, nucleótidos y sus funciones",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Indique los tipos de moléculas que se pueden obtener por hidrólisis de un nucleósido y de un nucleótido [0,5]. b) Cite el nombre de tres nucleótidos que participen en procesos metabólicos [0,3]. c) ¿Qué tipos de enlaces soportan la estructura bicatenaria de los ácidos nucleicos? [0,4] d) Describa una función estructural y otra energética de los nucleótidos [0,8].",
+   "c": [
+    "a) Nucleósido: <mark class=\"clave-criterio\">base nitrogenada y pentosa</mark>; nucleótido: <mark class=\"clave-criterio\">base nitrogenada, pentosa y ácido fosfórico</mark> (0,5 p).",
+    "b) <mark class=\"clave-criterio\">NAD⁺</mark>, <mark class=\"clave-criterio\">NADP⁺</mark>, <mark class=\"clave-criterio\">ATP</mark>, GTP, <mark class=\"clave-criterio\">AMPc</mark>, <mark class=\"clave-criterio\">coenzima A</mark>, <mark class=\"clave-criterio\">FAD</mark>. Tres (0,3 p).",
+    "c) <mark class=\"clave-criterio\">Fosfodiéster</mark> y <mark class=\"clave-criterio\">enlaces de hidrógeno</mark> (0,4 p).",
+    "d) Estructural: <mark class=\"clave-criterio\">forman parte de los ácidos nucleicos</mark>, cromosomas y ribosomas. Energética: <mark class=\"clave-criterio\">transfieren la energía acumulada en los enlaces fosfato</mark> (ATP) (0,8 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de junio",
+    "referencia": "Titular de junio, bloque A, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com] (1).pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com].pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2022-2023 (Titular de junio, bloque A, pregunta 1, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2023-junio-a2",
+   "block": "Metabolismo",
+   "topic": "Glucólisis, fermentación y fosforilaciones",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Defina los siguientes conceptos: a) glucólisis [0,4]; b) fermentación [0,4]. c) Describa dos modalidades de fosforilación [1,2].",
+   "c": [
+    "a) Glucólisis: <mark class=\"clave-criterio\">reacciones que convierten la glucosa en ácido pirúvico</mark> con <mark class=\"clave-criterio\">liberación de energía (ATP)</mark> (0,4 p).",
+    "b) Fermentación: <mark class=\"clave-criterio\">degradación anaeróbica de la glucosa</mark> con <mark class=\"clave-criterio\">una molécula orgánica como aceptor final de electrones</mark> (0,4 p).",
+    "c) <mark class=\"clave-criterio\">Fosforilación oxidativa</mark>: síntesis de ATP <mark class=\"clave-criterio\">acoplada al gradiente de protones</mark> generado por la <mark class=\"clave-criterio\">cadena de transporte electrónico mitocondrial</mark>. <mark class=\"clave-criterio\">Fotofosforilación</mark>: síntesis de ATP <mark class=\"clave-criterio\">dependiente de la luz</mark>, con electrones de los <mark class=\"clave-criterio\">fotosistemas</mark> hasta el <mark class=\"clave-criterio\">NADP⁺</mark> y un gradiente de protones (vale también la <mark class=\"clave-criterio\">fosforilación a nivel de sustrato</mark>) (1,2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de junio",
+    "referencia": "Titular de junio, bloque A, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com] (1).pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com].pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2022-2023 (Titular de junio, bloque A, pregunta 2, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2023-junio-a3",
+   "block": "Genética",
+   "topic": "Evolución, homología, selección natural y mutación",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Defina los siguientes términos: a) evolución biológica [0,5]; b) estructura homóloga u órgano homólogo [0,5]; c) selección natural [0,5]; d) mutación [0,5].",
+   "c": [
+    "a) Evolución: proceso de <mark class=\"clave-criterio\">aparición de nuevas especies</mark> por <mark class=\"clave-criterio\">variaciones fenotípicas y genéticas</mark> que se suceden generación tras generación y llevan a la <mark class=\"clave-criterio\">adaptación al ambiente</mark> (0,5 p).",
+    "b) Homólogas: <mark class=\"clave-criterio\">origen evolutivo común</mark> y <mark class=\"clave-criterio\">estructura interna similar</mark>, aunque puedan tener <mark class=\"clave-criterio\">funciones distintas</mark> (0,5 p).",
+    "c) Selección natural: explica la <mark class=\"clave-criterio\">supervivencia de los individuos mejor adaptados</mark>, <mark class=\"clave-criterio\">favoreciendo los fenotipos</mark> con más posibilidades de sobrevivir (0,5 p).",
+    "d) Mutación: <mark class=\"clave-criterio\">alteración en el material genético</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de junio",
+    "referencia": "Titular de junio, bloque A, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com] (1).pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com].pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2022-2023 (Titular de junio, bloque A, pregunta 3, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2023-junio-a4",
+   "block": "Biotecnología",
+   "topic": "Microorganismos y biotecnología",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina microorganismo [0,5]. b) Cite un ejemplo de relación beneficiosa y otro de relación perjudicial entre los microorganismos y la especie humana [0,5]. c) Defina biotecnología [0,6]. d) Exponga un ejemplo de aplicación biotecnológica en la industria alimentaria y otro en la farmacéutica, indicando en cada caso qué tipo de microorganismos participa [0,4].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Ser vivo que, por su reducido tamaño, solo es visible al microscopio</mark> (0,5 p).",
+    "b) Beneficiosa: <mark class=\"clave-criterio\">producción de alimentos, medicamentos y vacunas</mark>, <mark class=\"clave-criterio\">ciclos de la materia</mark>. Perjudicial: <mark class=\"clave-criterio\">infecciones</mark>, <mark class=\"clave-criterio\">deterioro de alimentos</mark>. Una de cada (0,5 p).",
+    "c) <mark class=\"clave-criterio\">Aplicaciones tecnológicas que utilizan seres vivos para obtener productos de interés</mark> para el ser humano (0,6 p).",
+    "d) Alimentaria: <mark class=\"clave-criterio\">yogur (bacterias)</mark>, queso, <mark class=\"clave-criterio\">vino o cerveza (levaduras)</mark>. Farmacéutica: <mark class=\"clave-criterio\">antibióticos (bacterias, hongos)</mark>, <mark class=\"clave-criterio\">hormonas (bacterias, levaduras)</mark>, vacunas. Uno de cada, 0,2 p (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de junio",
+    "referencia": "Titular de junio, bloque A, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com] (1).pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com].pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2022-2023 (Titular de junio, bloque A, pregunta 4, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2023-junio-a5",
+   "block": "Inmunología",
+   "topic": "Tipos de inmunidad y alteraciones",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Defina los siguientes términos: a) inmunidad adquirida o adaptativa [0,4]; b) inmunidad natural [0,4]; c) inmunidad pasiva [0,4]; d) enfermedad autoinmune [0,4]; e) inmunodeficiencia [0,4].",
+   "c": [
+    "a) Adquirida: la que <mark class=\"clave-criterio\">se contrae tras un contacto con un antígeno</mark> (0,4 p).",
+    "b) Natural: la producida por <mark class=\"clave-criterio\">mecanismos biológicos naturales</mark> (por ejemplo, una <mark class=\"clave-criterio\">infección</mark>) (0,4 p).",
+    "c) Pasiva: el individuo <mark class=\"clave-criterio\">no elabora la respuesta</mark> (<mark class=\"clave-criterio\">sueroterapia</mark> o <mark class=\"clave-criterio\">a través de la madre</mark>) (0,4 p).",
+    "d) Autoinmune: la respuesta <mark class=\"clave-criterio\">destruye moléculas o células propias</mark> (0,4 p).",
+    "e) Inmunodeficiencia: <mark class=\"clave-criterio\">incapacidad del sistema inmunitario para defender al organismo</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de junio",
+    "referencia": "Titular de junio, bloque A, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com] (1).pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com].pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2022-2023 (Titular de junio, bloque A, pregunta 5, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2023-junio-b1",
+   "block": "Metabolismo",
+   "topic": "Pardeamiento de las alcachofas",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Las alcachofas y otras verduras sufren un pardeamiento (oscurecimiento) al poco tiempo de ser cortadas. Esto se debe a la acción de enzimas que oxidan determinados compuestos de estos alimentos. Existen tres formas de evitar este pardeamiento: a) reducir la exposición de estos alimentos al oxígeno [0,4]; b) añadir compuestos ácidos [0,3]; c) calentar las verduras en agua hirviendo [0,3]. Explique razonadamente por qué no se produce el pardeamiento en estos tres casos.",
+   "c": [
+    "a) Sin oxígeno las enzimas <mark class=\"clave-criterio\">no pueden catalizar la reacción</mark> y no se forman los compuestos pardos (0,4 p).",
+    "b) Con ácidos las enzimas <mark class=\"clave-criterio\">se desnaturalizan por la bajada del pH</mark> (0,3 p).",
+    "c) El calor <mark class=\"clave-criterio\">desnaturaliza las enzimas</mark> y <mark class=\"clave-criterio\">pierden su actividad</mark> (0,3 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de junio",
+    "referencia": "Titular de junio, bloque B, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com] (1).pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com].pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2022-2023 (Titular de junio, bloque B, pregunta 1, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2023-junio-b2",
+   "block": "Célula",
+   "topic": "Mitosis seguida de meiosis",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Suponga una célula animal con cuatro pares de cromosomas que sufre una mitosis. Cada una de las células resultantes sufre posteriormente una meiosis. a) ¿Cuántas células se han producido al final del proceso? [0,5] b) ¿Cuál sería la dotación cromosómica que tiene cada una de las células tras cada división? [0,5] Razone todas las respuestas.",
+   "c": [
+    "a) <mark class=\"clave-criterio\">8 células</mark>: la mitosis da <mark class=\"clave-criterio\">2</mark>, y la meiosis de cada una da <mark class=\"clave-criterio\">4</mark> (0,5 p).",
+    "b) Tras la mitosis: <mark class=\"clave-criterio\">2n = 8</mark> (se mantiene la dotación). Tras la meiosis: <mark class=\"clave-criterio\">n = 4</mark>, por la <mark class=\"clave-criterio\">separación de los cromosomas homólogos</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de junio",
+    "referencia": "Titular de junio, bloque B, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com] (1).pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com].pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2022-2023 (Titular de junio, bloque B, pregunta 2, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2023-junio-b3",
+   "block": "Genética",
+   "topic": "Replicación semiconservativa con fósforo radiactivo",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Se dispone de una molécula de ADN bicatenario que previamente ha sido sintetizada con fósforo radiactivo y, por lo tanto, todos sus nucleótidos poseen este elemento radiactivo. Tras una primera duplicación en un medio sin dicho elemento, a) ¿qué porcentaje de hebras poseerá el elemento radiactivo tras la primera división? [0,5] b) ¿Y tras la segunda? [0,5] Explique razonadamente los resultados y realice un esquema para ambos casos.",
+   "c": [
+    "a) <mark class=\"clave-criterio\">50 % de las hebras</mark> <span class=\"redactado\">2 moléculas, cada una con una hebra radiactiva vieja y otra nueva</span>: explicación 0,25 p y esquema 0,25 p (0,5 p).",
+    "b) <mark class=\"clave-criterio\">25 % de las hebras</mark> <span class=\"redactado\">4 moléculas: 2 híbridas y 2 sin marca; 2 hebras marcadas de 8</span>: explicación y esquema (0,5 p).",
+    "<span class=\"redactado\">Se debe a que la replicación es semiconservativa.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de junio",
+    "referencia": "Titular de junio, bloque B, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com] (1).pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com].pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2022-2023 (Titular de junio, bloque B, pregunta 3, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2023-junio-b4",
+   "block": "Microbiología",
+   "topic": "Identificar levadura, alga y protozoo",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": false,
+   "competencial": false,
+   "q": "En el laboratorio del instituto se dispone de tres muestras que contienen tres microorganismos unicelulares diferentes: A, B y C. Después de analizar las muestras se obtuvieron los siguientes resultados:<table class=\"tabla-pau\"><tr><th>Muestra</th><th>Crecimiento en oscuridad</th><th>Crecimiento en ausencia de O₂</th><th>Desprendimiento de O₂ con luz</th><th>Envoltura nuclear</th><th>Pared celular</th></tr><tr><td>A</td><td>Sí</td><td>Sí</td><td>No</td><td>Sí</td><td>Sí</td></tr><tr><td>B</td><td>No</td><td>No</td><td>Sí</td><td>Sí</td><td>Sí</td></tr><tr><td>C</td><td>Sí</td><td>No</td><td>No</td><td>Sí</td><td>No</td></tr></table>Responda razonadamente a las siguientes cuestiones: a) ¿Cuál es el modelo de organización celular de cada uno de estos microorganismos? [0,2] b) Identifique a qué grupo de microorganismos pertenece cada uno de ellos [0,6]. c) El microorganismo A es el único capaz de crecer en ausencia de O₂ si dispone de glucosa: ¿qué productos desprenderá al medio de cultivo como consecuencia de su actividad? [0,2]",
+   "c": [
+    "a) Los tres son <mark class=\"clave-criterio\">eucariotas</mark> porque tienen <mark class=\"clave-criterio\">envoltura nuclear</mark> (0,2 p).",
+    "b) A: <mark class=\"clave-criterio\">levadura</mark> (hongo unicelular: pared, crece sin luz y sin O₂); B: <mark class=\"clave-criterio\">alga unicelular</mark> (desprende O₂ con luz); C: <mark class=\"clave-criterio\">protozoo</mark> (sin pared, no fotosintético). Argumentando con la tabla, 0,2 p cada uno (0,6 p).",
+    "c) <mark class=\"clave-criterio\">CO₂ y etanol</mark>, porque sin O₂ las levaduras realizan <mark class=\"clave-criterio\">fermentación alcohólica</mark> (0,2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de junio",
+    "referencia": "Titular de junio, bloque B, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com] (1).pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com].pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2022-2023 (Titular de junio, bloque B, pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2023-junio-b5",
+   "block": "Inmunología",
+   "topic": "Anticuerpos frente al SARS-CoV-2",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Tras la exposición de una población al SARS-CoV-2, se realiza una analítica para detectar la concentración de anticuerpos. Sabiendo que un grupo de personas expuesta al virus ya había pasado la enfermedad (grupo 1), otro grupo había sido vacunado (grupo 2) y para otro era el primer contacto con el virus (grupo 3), indique qué resultados se obtendrían para cada uno de ellos si dicho análisis se realiza: a) a los 7 días [0,5] y b) a los 30 días [0,5]. Razone las respuestas.",
+   "c": [
+    "a) A los 7 días: grupos 1 y 2 con <mark class=\"clave-criterio\">niveles elevados</mark> (<mark class=\"clave-criterio\">respuesta secundaria</mark> gracias a las <mark class=\"clave-criterio\">células de memoria</mark>); grupo 3 con <mark class=\"clave-criterio\">niveles bajos</mark> (<mark class=\"clave-criterio\">respuesta primaria</mark>) (0,5 p).",
+    "b) A los 30 días: <mark class=\"clave-criterio\">niveles elevados en todos</mark>, porque al grupo 3 le ha dado tiempo a sintetizarlos (aunque <mark class=\"clave-criterio\">más altos en 1 y 2</mark>) (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de junio",
+    "referencia": "Titular de junio, bloque B, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com] (1).pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com].pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2022-2023 (Titular de junio, bloque B, pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2023-junio-c1",
+   "block": "Metabolismo",
+   "topic": "Reacción enzimática e inhibición",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la figura adjunta, conteste a las siguientes cuestiones:</b><br>a) ¿Qué tipo de reacción está representada con la letra A? [0,2]<br>b) Indique qué tipo de moléculas están representadas con los números 1, 2, 3, y 4 [0,4].<br>c) ¿Qué parte de la molécula 1 está representada con el número 5? [0,2]<br>d) ¿Qué complejos están representados con los números 6 y 7? [0,2]",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Reacción enzimática</mark> (unión enzima-sustrato y aparición de productos) (0,2 p).",
+    "b) 1: <mark class=\"clave-criterio\">enzima</mark>; 2: <mark class=\"clave-criterio\">sustrato</mark>; 3: <mark class=\"clave-criterio\">inhibidor competitivo</mark> (o irreversible); 4: <mark class=\"clave-criterio\">inhibidor no competitivo</mark> (o alostérico) (0,4 p).",
+    "c) <mark class=\"clave-criterio\">Centro activo</mark> (0,2 p).",
+    "d) 6: <mark class=\"clave-criterio\">complejo enzima-sustrato</mark>; 7: <mark class=\"clave-criterio\">complejo enzima-inhibidor</mark> (0,2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de junio",
+    "referencia": "Titular de junio, bloque C, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com] (1).pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com].pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2023/junio-c1.webp",
+   "imgThumb": "assets/figuras/historico/2023/junio-c1.thumb.webp",
+   "imageDesc": "Tres secuencias (A, B y C) con una molécula grande con una hendidura (1, hendidura 5): en A se une una pieza (2), forma el complejo 6 y la pieza sale transformada; en B se une otra pieza (3) en la hendidura (7); en C una pieza (4) se une en otro lugar y deforma la hendidura.",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2022-2023 (Titular de junio, bloque C, pregunta 1, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2023-junio-c2",
+   "block": "Célula",
+   "topic": "Retículo endoplasmático liso y rugoso",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la figura adjunta:</b><br>a) Identifique los elementos señalados con los números del 1 al 4 [0,4].<br>b) Indique dos funciones de la estructura 1 y otras dos de la estructura 2 [0,4].<br>c) ¿En qué otra localización de la célula eucariótica se encuentran los elementos señalados con el número 3 y que presentan exactamente las mismas características? [0,2]",
+   "c": [
+    "a) 1: <mark class=\"clave-criterio\">retículo endoplasmático liso</mark>; 2: <mark class=\"clave-criterio\">retículo endoplasmático rugoso</mark>; 3: <mark class=\"clave-criterio\">ribosomas</mark>; 4: <mark class=\"clave-criterio\">envoltura nuclear</mark> (0,4 p).",
+    "b) REL: <mark class=\"clave-criterio\">síntesis de lípidos</mark>, <mark class=\"clave-criterio\">detoxificación</mark>, almacén de Ca²⁺. RER: <mark class=\"clave-criterio\">síntesis de proteínas</mark>, <mark class=\"clave-criterio\">glucosilación</mark>, plegamiento. Dos de cada (0,4 p).",
+    "c) En el <mark class=\"clave-criterio\">citosol</mark> <span class=\"redactado\">ribosomas libres</span> (0,2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de junio",
+    "referencia": "Titular de junio, bloque C, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com] (1).pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com].pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2023/junio-c2.webp",
+   "imgThumb": "assets/figuras/historico/2023/junio-c2.thumb.webp",
+   "imageDesc": "Un sistema de membranas alrededor del núcleo: túbulos lisos (1), cisternas aplanadas con gránulos (2), los gránulos (3) y la envoltura del núcleo (4).",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2022-2023 (Titular de junio, bloque C, pregunta 2, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2023-junio-c3",
+   "block": "Genética",
+   "topic": "Herencia de los grupos sanguíneos",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>La siguiente imagen representa un tipo de herencia de grupos sanguíneos. Indique:</b><br>a) El fenotipo (grupo sanguíneo) de cada progenitor [0,2].<br>b) El fenotipo (grupo sanguíneo) y el genotipo de cada descendiente (D1, D2, D3, D4) [0,8].",
+   "c": [
+    "a) Progenitor 1: <mark class=\"clave-criterio\">grupo A</mark>; progenitor 2: <mark class=\"clave-criterio\">grupo B</mark> (no vale A0 ni B0 como fenotipo) (0,2 p).",
+    "b) D1: <mark class=\"clave-criterio\">grupo A, A0</mark>; D2: <mark class=\"clave-criterio\">grupo AB, AB</mark>; D3: <mark class=\"clave-criterio\">grupo B, B0</mark>; D4: <mark class=\"clave-criterio\">grupo 0, 00</mark> (0,8 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de junio",
+    "referencia": "Titular de junio, bloque C, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com] (1).pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com].pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2023/junio-c3.webp",
+   "imgThumb": "assets/figuras/historico/2023/junio-c3.thumb.webp",
+   "imageDesc": "Progenitor 1 con genotipo A0 y progenitor 2 con genotipo B0; cuatro descendientes (D1, D2, D4, D3) con sus parejas de cromosomas marcadas.",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2022-2023 (Titular de junio, bloque C, pregunta 3, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2023-junio-c4",
+   "block": "Microbiología",
+   "topic": "Estructura del VIH",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la imagen adjunta, conteste a las siguientes cuestiones:</b><br>a) ¿Qué agente infeccioso está representado? [0,2]<br>b) ¿Qué indican los números del 1 al 5? [0,5]<br>c) ¿Cómo se denominan estos tipos de agentes infecciosos cuando poseen la estructura señalada con el número 2? ¿Y aquellos que carecen de dicha estructura? [0,3]",
+   "c": [
+    "a) <mark class=\"clave-criterio\">VIH</mark> (virus del SIDA) (0,2 p).",
+    "b) 1: <mark class=\"clave-criterio\">glucoproteína</mark> (espículas); 2: <mark class=\"clave-criterio\">bicapa lipídica</mark> (envoltura); 3: <mark class=\"clave-criterio\">cápsida</mark>; 4: <mark class=\"clave-criterio\">ARN</mark>; 5: <mark class=\"clave-criterio\">transcriptasa inversa</mark> (0,5 p).",
+    "c) Con envoltura: <mark class=\"clave-criterio\">virus envueltos</mark>; sin ella: <mark class=\"clave-criterio\">virus desnudos</mark> (0,3 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de junio",
+    "referencia": "Titular de junio, bloque C, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com] (1).pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com].pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2023/junio-c4.webp",
+   "imgThumb": "assets/figuras/historico/2023/junio-c4.thumb.webp",
+   "imageDesc": "Partícula esférica con salientes en la superficie (1), una envoltura (2), una cubierta interna (3), dos hebras en el interior (4) y pequeñas moléculas asociadas (5).",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2022-2023 (Titular de junio, bloque C, pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2023-junio-c5",
+   "block": "Inmunología",
+   "topic": "Reacción alérgica: IgE, mastocitos e histamina",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con los procesos alérgicos que se muestran en la figura:</b><br>a) Identifique la molécula 1 [0,2].<br>b) Señale el tipo de célula indicada con el número 2 [0,1].<br>c) Indique el nombre de la molécula 3 [0,2].<br>d) Indique el nombre de la sustancia señalada con el número 4 [0,2].<br>e) Señale un efecto en el organismo de la molécula 4 [0,3].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">IgE</mark> (0,2 p). b) <mark class=\"clave-criterio\">Mastocito</mark> (también basófilo) (0,1 p).",
+    "c) <mark class=\"clave-criterio\">Alérgeno</mark> (0,2 p). d) <mark class=\"clave-criterio\">Histamina</mark> (0,2 p).",
+    "e) <mark class=\"clave-criterio\">Aumento de la permeabilidad vascular</mark>, <mark class=\"clave-criterio\">atracción de macrófagos</mark>, <mark class=\"clave-criterio\">aumento de la secreción exocrina</mark>. Uno (0,3 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de junio",
+    "referencia": "Titular de junio, bloque C, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com] (1).pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com].pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2023/junio-c5.webp",
+   "imgThumb": "assets/figuras/historico/2023/junio-c5.thumb.webp",
+   "imageDesc": "Un marisco libera partículas (3) que se unen a moléculas en forma de Y (1) de la superficie de una célula (2); la célula libera gránulos (4) y la persona presenta síntomas.",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2022-2023 (Titular de junio, bloque C, pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2023-julio-a1",
+   "block": "Metabolismo",
+   "topic": "Factores de la actividad enzimática e inhibición",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Explique cómo afectan a la actividad de las enzimas: a) temperatura [0,5]; b) pH [0,5]; c) concentración del sustrato [0,5]. d) Describa dos tipos de inhibición enzimática [0,5].",
+   "c": [
+    "a) Hay una <mark class=\"clave-criterio\">temperatura óptima</mark>; fuera de ella baja la actividad y las muy altas <mark class=\"clave-criterio\">desnaturalizan</mark> la enzima (0,5 p).",
+    "b) Hay un <mark class=\"clave-criterio\">pH óptimo</mark>; los valores extremos <mark class=\"clave-criterio\">desnaturalizan</mark> la enzima (0,5 p).",
+    "c) Al aumentar el sustrato la velocidad aumenta hasta <mark class=\"clave-criterio\">mantenerse constante</mark> por <mark class=\"clave-criterio\">saturación de la enzima</mark> (0,5 p).",
+    "d) <mark class=\"clave-criterio\">Irreversible</mark>: el inhibidor forma <mark class=\"clave-criterio\">enlaces covalentes con el centro activo</mark> y anula la actividad <mark class=\"clave-criterio\">para siempre</mark>. <mark class=\"clave-criterio\">Reversible</mark>: el inhibidor <mark class=\"clave-criterio\">se puede disociar</mark> y la enzima recupera la actividad (vale competitiva y no competitiva) (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de julio",
+    "referencia": "Titular de julio, bloque A, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com] (4).pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2022-2023 (Titular de julio, bloque A, pregunta 1, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2023-julio-a2",
+   "block": "Célula",
+   "topic": "Membrana plasmática, orgánulos y transporte",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina membrana plasmática [0,3] e indique una función de esta estructura [0,2]. b) Nombre tres orgánulos celulares delimitados por una membrana simple [0,3] e indique una función que desempeñen [0,6]. c) Defina transporte pasivo y transporte activo [0,6].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Bicapa lipídica con proteínas</mark> (periféricas y transmembrana) y <mark class=\"clave-criterio\">glúcidos en la cara externa</mark> (0,3 p). Función: <mark class=\"clave-criterio\">separar el medio interno del externo</mark>, <mark class=\"clave-criterio\">permeabilidad selectiva</mark>, transferencia de información (0,2 p).",
+    "b) <mark class=\"clave-criterio\">Complejo de Golgi</mark> (maduración y secreción), <mark class=\"clave-criterio\">retículo endoplasmático</mark> (síntesis y transporte), <mark class=\"clave-criterio\">lisosomas</mark> (digestión intracelular), <mark class=\"clave-criterio\">peroxisomas</mark> (metabolismo oxidativo), <mark class=\"clave-criterio\">vacuolas</mark> (almacenamiento). Tres con su función (0,9 p).",
+    "c) Pasivo: por la bicapa o por una proteína, <mark class=\"clave-criterio\">a favor de gradiente</mark> y <mark class=\"clave-criterio\">sin gasto de energía</mark>. Activo: por un transportador, <mark class=\"clave-criterio\">en contra de gradiente</mark> y <mark class=\"clave-criterio\">con gasto de energía</mark> (0,6 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de julio",
+    "referencia": "Titular de julio, bloque A, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com] (4).pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2022-2023 (Titular de julio, bloque A, pregunta 2, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2023-julio-a3",
+   "block": "Genética",
+   "topic": "Teoría cromosómica, ligamiento y recombinación",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Enuncie tres de los postulados de la teoría cromosómica de la herencia [0,6]. b) Defina ligamiento genético y recombinación genética [0,8]. c) Explique la relación del ligamiento genético con las leyes de Mendel [0,6].",
+   "c": [
+    "a) Tres de estos (0,6 p): <mark class=\"clave-criterio\">los genes están en los cromosomas</mark>; <mark class=\"clave-criterio\">se disponen linealmente</mark>; cada gen ocupa un <mark class=\"clave-criterio\">locus</mark>; el <mark class=\"clave-criterio\">sobrecruzamiento corresponde a la recombinación</mark>; los genes <mark class=\"clave-criterio\">muy próximos tienden a heredarse juntos</mark>.",
+    "b) Ligamiento: herencia de <mark class=\"clave-criterio\">genes situados en el mismo cromosoma</mark>, que <mark class=\"clave-criterio\">se heredan juntos</mark>. Recombinación: <mark class=\"clave-criterio\">intercambio de fragmentos entre cromosomas homólogos en la meiosis</mark> (0,8 p).",
+    "c) Si los genes están ligados <mark class=\"clave-criterio\">no se cumple la tercera ley de Mendel</mark> <span class=\"redactado\">la transmisión independiente</span> (0,6 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de julio",
+    "referencia": "Titular de julio, bloque A, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com] (4).pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2022-2023 (Titular de julio, bloque A, pregunta 3, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2023-julio-a4",
+   "block": "Biotecnología",
+   "topic": "Microorganismos industriales",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": false,
+   "competencial": false,
+   "q": "En relación con la tabla adjunta:<table class=\"tabla-pau\"><tr><th>Microorganismo</th><th>Grupo</th><th>Productos industriales</th></tr><tr><td><i>Saccharomyces</i></td><td>levadura</td><td>1</td></tr><tr><td><i>Streptococcus</i>, <i>Lactobacillus</i></td><td>2</td><td>yogur</td></tr><tr><td><i>Penicillium</i></td><td>3</td><td>4</td></tr></table>a) Copie y complete los números del 1 al 4 [1].<br>b) ¿Qué proceso bioquímico realiza <i>Saccharomyces</i> para la obtención del producto 1? [0,2] ¿cuál es el sustrato inicial y los productos finales de dicho proceso? [0,3]<br>c) Cite dos grupos de microorganismos diferentes a los representados en la tabla e indique su organización celular [0,5].",
+   "c": [
+    "a) 1: <mark class=\"clave-criterio\">pan, cerveza o vino</mark>; 2: <mark class=\"clave-criterio\">bacteria</mark>; 3: <mark class=\"clave-criterio\">moho</mark> (hongo microscópico); 4: <mark class=\"clave-criterio\">penicilina</mark> (antibióticos) (1 p).",
+    "b) <mark class=\"clave-criterio\">Fermentación alcohólica</mark> (0,2 p); sustrato: <mark class=\"clave-criterio\">azúcares</mark>; productos: <mark class=\"clave-criterio\">etanol y CO₂</mark> (0,3 p).",
+    "c) <mark class=\"clave-criterio\">Algas (eucariotas)</mark> y <mark class=\"clave-criterio\">protozoos (eucariotas)</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de julio",
+    "referencia": "Titular de julio, bloque A, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com] (4).pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2022-2023 (Titular de julio, bloque A, pregunta 4, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2023-julio-a5",
+   "block": "Inmunología",
+   "topic": "Antígenos y anticuerpos",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina los términos antígeno y anticuerpo [0,8]. b) Indique la naturaleza química de ambos [0,4]. c) Justifique el hecho de que un anticuerpo pueda comportarse como un antígeno [0,8].",
+   "c": [
+    "a) Antígeno: <mark class=\"clave-criterio\">molécula que induce la respuesta del sistema inmunitario</mark>. Anticuerpo: molécula producida por las <mark class=\"clave-criterio\">células plasmáticas (linfocitos B)</mark> ante un antígeno, al que <mark class=\"clave-criterio\">se une específicamente</mark> (0,8 p).",
+    "b) Antígenos: <mark class=\"clave-criterio\">proteicos o polisacarídicos</mark> (también algunos lípidos); anticuerpos: <mark class=\"clave-criterio\">glucoproteínas</mark> (0,4 p).",
+    "c) El anticuerpo es una <mark class=\"clave-criterio\">proteína</mark>: en <mark class=\"clave-criterio\">otro organismo</mark> puede <mark class=\"clave-criterio\">no reconocerse como propia</mark> y <mark class=\"clave-criterio\">provocar una respuesta inmune</mark> (0,8 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de julio",
+    "referencia": "Titular de julio, bloque A, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com] (4).pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 2,
+   "f": "Pregunta oficial de la PAU de Andalucía 2022-2023 (Titular de julio, bloque A, pregunta 5, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2023-julio-b1",
+   "block": "Biomoléculas",
+   "topic": "Identificar glúcidos por sus propiedades",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": false,
+   "competencial": false,
+   "q": "En un laboratorio hay 4 tubos que contienen los siguientes compuestos por separado: glucosa, maltosa, sacarosa y almidón. Para saber el tipo de carbohidrato que contiene cada tubo se hacen varias pruebas: a) análisis de la solubilidad; b) poder reductor; c) hidrólisis en medio ácido; d) sabor dulce. Tras el análisis se obtienen los siguientes resultados:<table class=\"tabla-pau\"><tr><th>Tubo</th><th>Solubilidad</th><th>Poder reductor</th><th>Hidrólisis en medio ácido</th><th>Sabor dulce</th></tr><tr><td>1</td><td>insoluble</td><td>no</td><td>sí</td><td>no</td></tr><tr><td>2</td><td>soluble</td><td>sí</td><td>no</td><td>sí</td></tr><tr><td>3</td><td>soluble</td><td>no</td><td>sí</td><td>sí</td></tr><tr><td>4</td><td>soluble</td><td>sí</td><td>sí</td><td>sí</td></tr></table>Indique razonadamente qué compuesto de los indicados se encuentra en cada tubo [1].",
+   "c": [
+    "Tubo 1: <mark class=\"clave-criterio\">almidón</mark> <span class=\"redactado\">insoluble, no dulce, hidrolizable</span>; 2: <mark class=\"clave-criterio\">glucosa</mark> <span class=\"redactado\">reductora y no hidrolizable: monosacárido</span>; 3: <mark class=\"clave-criterio\">sacarosa</mark> <span class=\"redactado\">disacárido no reductor</span>; 4: <mark class=\"clave-criterio\">maltosa</mark> <span class=\"redactado\">disacárido reductor</span>. Argumentando con la tabla (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de julio",
+    "referencia": "Titular de julio, bloque B, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com] (4).pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2022-2023 (Titular de julio, bloque B, pregunta 1, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2023-julio-b2",
+   "block": "Biomoléculas",
+   "topic": "Agua metabólica en la rata canguro",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": false,
+   "competencial": false,
+   "q": "La rata canguro vive en el desierto sin necesidad de beber agua. Este animal usa diferentes mecanismos fisiológicos para evitar la pérdida de agua y además es capaz de utilizar agua de producción interna. a) ¿Cómo se denomina el agua así generada? [0,2] b) ¿Cómo la obtienen estos seres vivos? Razone la respuesta [0,8].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Agua metabólica</mark> (0,2 p).",
+    "b) La <mark class=\"clave-criterio\">oxidación de grasas, carbohidratos y proteínas</mark> produce, además de CO₂, <mark class=\"clave-criterio\">agua</mark> que mantiene los líquidos corporales <span class=\"redactado\">en la cadena respiratoria el O₂ se reduce a H₂O</span> (0,8 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de julio",
+    "referencia": "Titular de julio, bloque B, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com] (4).pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2022-2023 (Titular de julio, bloque B, pregunta 2, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2023-julio-b3",
+   "block": "Genética",
+   "topic": "Talasemia: alelo letal",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": false,
+   "competencial": false,
+   "q": "La talasemia es una enfermedad hereditaria de la sangre del ser humano que produce anemia. La anemia severa (talasemia mayor) aparece en individuos homocigóticos (TᴹTᴹ) y un tipo más benigno de anemia (talasemia menor) en los heterocigóticos (TᴹTᴺ). Los individuos sanos son homocigóticos (TᴺTᴺ). Si todos los individuos con talasemia mayor mueren antes de la madurez sexual, conteste de forma razonada a las siguientes preguntas realizando los cruzamientos correspondientes: a) ¿qué porcentaje de adultos de la F1 puede esperarse que sea sano en apareamientos de talasémicos menores con sanos? [0,5]; b) ¿qué fracción de individuos adultos de la F1 serán anémicos en cruzamientos entre talasémicos menores? [0,5]",
+   "c": [
+    "a) <mark class=\"clave-criterio\">TᴹTᴺ × TᴺTᴺ</mark>: los talasémicos menores dan gametos Tᴹ y Tᴺ y los sanos solo Tᴺ, así que el <mark class=\"clave-criterio\">50 %</mark> de la F1 serán <mark class=\"clave-criterio\">TᴺTᴺ (sanos)</mark> (0,5 p).",
+    "b) <mark class=\"clave-criterio\">TᴹTᴺ × TᴹTᴺ</mark>: el <mark class=\"clave-criterio\">¼ TᴹTᴹ muere</mark>; de los adultos, <mark class=\"clave-criterio\">⅔ serán talasémicos menores (anémicos)</mark> y <mark class=\"clave-criterio\">⅓ sanos</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de julio",
+    "referencia": "Titular de julio, bloque B, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com] (4).pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2022-2023 (Titular de julio, bloque B, pregunta 3, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2023-julio-b4",
+   "block": "Microbiología",
+   "topic": "Identificar microorganismos por su crecimiento",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": false,
+   "competencial": false,
+   "q": "En un laboratorio se cultivan cuatro microorganismos (A, B, C y D) en un medio con todos los nutrientes y las condiciones necesarias para su crecimiento. A continuación, se varía una condición en cada uno de los cultivos. La siguiente tabla muestra los resultados obtenidos en las diferentes condiciones; el signo + indica crecimiento y el signo – que no hubo crecimiento.<table class=\"tabla-pau\"><tr><th>Microorganismo</th><th>Medio con penicilina</th><th>Medio con inhibidor de fotosíntesis</th><th>Medio con inhibidor de síntesis de quitina</th></tr><tr><td>A</td><td>+</td><td>+</td><td>+</td></tr><tr><td>B</td><td>–</td><td>+</td><td>+</td></tr><tr><td>C</td><td>+</td><td>–</td><td>+</td></tr><tr><td>D</td><td>+</td><td>+</td><td>–</td></tr></table>Identifique el tipo de microorganismo presente en cada cultivo. Razone las respuestas [1].",
+   "c": [
+    "A: <mark class=\"clave-criterio\">protozoo</mark>: <mark class=\"clave-criterio\">sin pared</mark> y <mark class=\"clave-criterio\">no fotosintético</mark> (0,25 p).",
+    "B: <mark class=\"clave-criterio\">bacteria</mark>: la <mark class=\"clave-criterio\">penicilina inhibe la síntesis de la pared bacteriana</mark> (0,25 p).",
+    "C: <mark class=\"clave-criterio\">alga</mark>: <mark class=\"clave-criterio\">no crece sin fotosíntesis</mark> (0,25 p).",
+    "D: <mark class=\"clave-criterio\">levadura</mark>: su <mark class=\"clave-criterio\">pared es de quitina</mark> (0,25 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de julio",
+    "referencia": "Titular de julio, bloque B, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com] (4).pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2022-2023 (Titular de julio, bloque B, pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2023-julio-b5",
+   "block": "Inmunología",
+   "topic": "Gemelos: respuesta primaria y secundaria",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Al inocular un determinado antígeno a dos gemelos univitelinos (genéticamente idénticos), se observa que el pico máximo de producción de anticuerpos ocurre a los 20 días en el gemelo A y a los 5 días en el gemelo B. a) Proponga una explicación que justifique la diferencia en la respuesta inmune de ambos [0,5]. b) Si se analiza la sangre de cada gemelo en ese pico máximo de producción, ¿existiría alguna diferencia en los tipos de anticuerpos de ambos? Razone la respuesta [0,5].",
+   "c": [
+    "a) El gemelo B <mark class=\"clave-criterio\">ya había estado expuesto al antígeno</mark>: tiene una <mark class=\"clave-criterio\">respuesta secundaria</mark>, más rápida; el A, una <mark class=\"clave-criterio\">respuesta primaria</mark>, más lenta (0,5 p).",
+    "b) <mark class=\"clave-criterio\">Sí</mark>: en A predominaría la <mark class=\"clave-criterio\">IgM</mark> (respuesta primaria) y en B la <mark class=\"clave-criterio\">IgG</mark> (respuesta secundaria) (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de julio",
+    "referencia": "Titular de julio, bloque B, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com] (4).pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2022-2023 (Titular de julio, bloque B, pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2023-julio-c1",
+   "block": "Biomoléculas",
+   "topic": "La alfa-hélice",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la figura adjunta, conteste a las siguientes preguntas:</b><br>a) ¿Qué molécula está representada en la imagen y qué tipo de estructura presenta? [0,3]<br>b) ¿Cómo se denominan los monómeros que la forman? [0,2]<br>c) ¿Qué parte de estos monómeros se encuentra proyectada hacia fuera? [0,2]<br>d) Indique qué enlaces mantienen esta estructura [0,3].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Proteína</mark> con estructura en <mark class=\"clave-criterio\">α-hélice</mark> (0,3 p).",
+    "b) <mark class=\"clave-criterio\">Aminoácidos</mark> (0,2 p).",
+    "c) Las <mark class=\"clave-criterio\">cadenas laterales (radicales R)</mark> (0,2 p).",
+    "d) <mark class=\"clave-criterio\">Enlaces de hidrógeno</mark> y <mark class=\"clave-criterio\">enlaces peptídicos</mark> (0,3 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de julio",
+    "referencia": "Titular de julio, bloque C, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com] (4).pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2023/julio-c1.webp",
+   "imgThumb": "assets/figuras/historico/2023/julio-c1.thumb.webp",
+   "imageDesc": "Una cinta enrollada en espiral con grupos de átomos que sobresalen hacia fuera y líneas finas que unen las vueltas.",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2022-2023 (Titular de julio, bloque C, pregunta 1, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2023-julio-c2",
+   "block": "Célula",
+   "topic": "Tipos de endocitosis",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la imagen adjunta, conteste a las siguientes cuestiones:</b><br>a) ¿Qué tipo de transporte de membrana representa la imagen en su conjunto? [0,2]<br>b) ¿Qué procesos específicos se representan con las letras A, B y C? [0,3]<br>c) ¿Cómo se denominan los orgánulos, estructuras o moléculas representadas con los números del 1 al 5? [0,5]",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Endocitosis</mark> (0,2 p).",
+    "b) A: <mark class=\"clave-criterio\">fagocitosis</mark>; B: <mark class=\"clave-criterio\">pinocitosis</mark>; C: <mark class=\"clave-criterio\">endocitosis mediada por receptor</mark> (0,3 p).",
+    "c) 1: <mark class=\"clave-criterio\">pseudópodos</mark>; 2: <mark class=\"clave-criterio\">fagosoma</mark>; 3: <mark class=\"clave-criterio\">vesícula pinocítica</mark>; 4: <mark class=\"clave-criterio\">vesícula endocítica</mark>; 5: <mark class=\"clave-criterio\">receptor de membrana</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de julio",
+    "referencia": "Titular de julio, bloque C, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com] (4).pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2023/julio-c2.webp",
+   "imgThumb": "assets/figuras/historico/2023/julio-c2.thumb.webp",
+   "imageDesc": "A: la membrana emite prolongaciones (1) que engloban una partícula grande y forman una vesícula (2). B: la membrana se invagina y forma una vesícula pequeña con líquido (3). C: moléculas se unen a receptores (5) de la membrana y se forma una vesícula recubierta (4).",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2022-2023 (Titular de julio, bloque C, pregunta 2, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2023-julio-c3",
+   "block": "Genética",
+   "topic": "Flujo de la información genética",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En relación con la figura adjunta:</b><br>a) Identifique las moléculas o estructuras señaladas con los números del 1 al 4 [0,4].<br>b) Señale los procesos indicados con las letras A, B, C y D [0,4].<br>c) Indique en qué compartimentos de la célula eucariótica se producen los procesos A y D [0,2].",
+   "c": [
+    "a) 1: <mark class=\"clave-criterio\">ADN</mark>; 2: <mark class=\"clave-criterio\">ARNm</mark>; 3: <mark class=\"clave-criterio\">proteína</mark>; 4: <mark class=\"clave-criterio\">ribosoma</mark> (0,4 p).",
+    "b) A: <mark class=\"clave-criterio\">replicación</mark>; B: <mark class=\"clave-criterio\">transcripción</mark>; C: <mark class=\"clave-criterio\">transcripción inversa</mark>; D: <mark class=\"clave-criterio\">traducción</mark> (0,4 p).",
+    "c) A: <mark class=\"clave-criterio\">núcleo</mark>; D: <mark class=\"clave-criterio\">citoplasma</mark> (también mitocondria y cloroplasto) (0,2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de julio",
+    "referencia": "Titular de julio, bloque C, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com] (4).pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2023/julio-c3.webp",
+   "imgThumb": "assets/figuras/historico/2023/julio-c3.thumb.webp",
+   "imageDesc": "Una doble hélice (1) con una flecha circular (A); flechas B (hacia abajo) y C (hacia arriba) la conectan con una hebra sencilla (2); la flecha D lleva a una estructura (4) sobre una hebra que forma una cadena de cuentas (3).",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2022-2023 (Titular de julio, bloque C, pregunta 3, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2023-julio-c4",
+   "block": "Biotecnología",
+   "topic": "Insulina humana producida por bacterias",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>En la siguiente figura se ilustra la producción de insulina humana por un microorganismo:</b><br>a) Identifique qué tipo de microorganismo está señalado con 1 y cuál es su organización celular [0,2].<br>b) Indique qué representan las estructuras señaladas con 2 y 3 [0,3].<br>c) ¿Qué debe contener la estructura 2 para que se pueda obtener el producto final insulina? [0,2]<br>d) Indique qué proceso se representa en 4 [0,3].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Bacteria</mark>, <mark class=\"clave-criterio\">procariota</mark> (0,2 p).",
+    "b) 2: <mark class=\"clave-criterio\">plásmido</mark>; 3: <mark class=\"clave-criterio\">ADN</mark> (cromosoma bacteriano) (0,3 p).",
+    "c) El <mark class=\"clave-criterio\">gen de la insulina</mark> (0,2 p).",
+    "d) <mark class=\"clave-criterio\">Crecimiento bacteriano</mark> (se admite selección de bacterias con el gen integrado) (0,3 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de julio",
+    "referencia": "Titular de julio, bloque C, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com] (4).pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2023/julio-c4.webp",
+   "imgThumb": "assets/figuras/historico/2023/julio-c4.thumb.webp",
+   "imageDesc": "Una célula alargada (1) con material enrollado (3) recibe un pequeño círculo (2); después se cultiva en una placa (4) y se obtiene un frasco de insulina.",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2022-2023 (Titular de julio, bloque C, pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2023-julio-c5",
+   "block": "Inmunología",
+   "topic": "Vacuna y suero",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": true,
+   "competencial": true,
+   "q": "<b>La imagen adjunta representa dos tipos de tratamientos (1 y 2) empleados para conseguir una inmunización artificial:</b><br>a) ¿Qué contiene la vacuna que se administra en el tratamiento 1? [0,1]<br>b) ¿Qué se administra en el tratamiento 2? ¿Qué nombre recibe este tratamiento 2? [0,2]<br>c) Indique, en cada caso, si tras administrar el tratamiento se consigue una inmunidad de tipo humoral o celular [0,3].<br>d) ¿Cuál de ellos es un tratamiento preventivo y cuál curativo? [0,2]<br>e) Cite un proceso natural por el que un organismo pueda desarrollar una respuesta semejante a la que se consigue con el tratamiento 1 y otro que genere una respuesta semejante a la que se consigue cuando se emplea el tratamiento 2 [0,2].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Antígenos</mark> (agente infeccioso debilitado) (0,1 p).",
+    "b) <mark class=\"clave-criterio\">Anticuerpos</mark>; <mark class=\"clave-criterio\">sueroterapia</mark> (0,2 p).",
+    "c) 1: <mark class=\"clave-criterio\">humoral y celular</mark> (0,2 p); 2: <mark class=\"clave-criterio\">humoral</mark> (0,1 p).",
+    "d) Preventivo: <mark class=\"clave-criterio\">1</mark>; curativo: <mark class=\"clave-criterio\">2</mark> (0,2 p).",
+    "e) 1: <mark class=\"clave-criterio\">padecer una infección</mark>; 2: <mark class=\"clave-criterio\">inmunidad pasiva de origen materno</mark> (0,2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de julio",
+    "referencia": "Titular de julio, bloque C, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com] (4).pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2023/julio-c5.webp",
+   "imgThumb": "assets/figuras/historico/2023/julio-c5.thumb.webp",
+   "imageDesc": "1: un frasco de vacuna y una jeringa. 2: una bolsa de suero con moléculas en forma de Y ampliadas.",
+   "isNew": false,
+   "puntos": 1,
+   "f": "Pregunta oficial de la PAU de Andalucía 2022-2023 (Titular de julio, bloque C, pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
    "id": "pau2026-modelo-1",
    "block": "Genética",
    "topic": "Replicación en una célula procariota",
@@ -38529,6 +39343,578 @@ window.BIOCELIA_HISTORICO = {
    "imgSrc": "assets/figuras/historico/2022/reserva-julio-c5.webp",
    "imgThumb": "assets/figuras/historico/2022/reserva-julio-c5.thumb.webp",
    "imageDesc": "Dos madres con su bebé: una da el pecho y la otra le da un biberón."
+  },
+  {
+   "id": "pau2023-junio-a1",
+   "block": "Biomoléculas",
+   "topic": "Nucleósidos, nucleótidos y sus funciones",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Indique los tipos de moléculas que se pueden obtener por hidrólisis de un nucleósido y de un nucleótido [0,5]. b) Cite el nombre de tres nucleótidos que participen en procesos metabólicos [0,3]. c) ¿Qué tipos de enlaces soportan la estructura bicatenaria de los ácidos nucleicos? [0,4] d) Describa una función estructural y otra energética de los nucleótidos [0,8].",
+   "c": [
+    "a) Nucleósido: <mark class=\"clave-criterio\">base nitrogenada y pentosa</mark>; nucleótido: <mark class=\"clave-criterio\">base nitrogenada, pentosa y ácido fosfórico</mark> (0,5 p).",
+    "b) <mark class=\"clave-criterio\">NAD⁺</mark>, <mark class=\"clave-criterio\">NADP⁺</mark>, <mark class=\"clave-criterio\">ATP</mark>, GTP, <mark class=\"clave-criterio\">AMPc</mark>, <mark class=\"clave-criterio\">coenzima A</mark>, <mark class=\"clave-criterio\">FAD</mark>. Tres (0,3 p).",
+    "c) <mark class=\"clave-criterio\">Fosfodiéster</mark> y <mark class=\"clave-criterio\">enlaces de hidrógeno</mark> (0,4 p).",
+    "d) Estructural: <mark class=\"clave-criterio\">forman parte de los ácidos nucleicos</mark>, cromosomas y ribosomas. Energética: <mark class=\"clave-criterio\">transfieren la energía acumulada en los enlaces fosfato</mark> (ATP) (0,8 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de junio",
+    "referencia": "Titular de junio, bloque A, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com] (1).pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com].pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2023-junio-a2",
+   "block": "Metabolismo",
+   "topic": "Glucólisis, fermentación y fosforilaciones",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Defina los siguientes conceptos: a) glucólisis [0,4]; b) fermentación [0,4]. c) Describa dos modalidades de fosforilación [1,2].",
+   "c": [
+    "a) Glucólisis: <mark class=\"clave-criterio\">reacciones que convierten la glucosa en ácido pirúvico</mark> con <mark class=\"clave-criterio\">liberación de energía (ATP)</mark> (0,4 p).",
+    "b) Fermentación: <mark class=\"clave-criterio\">degradación anaeróbica de la glucosa</mark> con <mark class=\"clave-criterio\">una molécula orgánica como aceptor final de electrones</mark> (0,4 p).",
+    "c) <mark class=\"clave-criterio\">Fosforilación oxidativa</mark>: síntesis de ATP <mark class=\"clave-criterio\">acoplada al gradiente de protones</mark> generado por la <mark class=\"clave-criterio\">cadena de transporte electrónico mitocondrial</mark>. <mark class=\"clave-criterio\">Fotofosforilación</mark>: síntesis de ATP <mark class=\"clave-criterio\">dependiente de la luz</mark>, con electrones de los <mark class=\"clave-criterio\">fotosistemas</mark> hasta el <mark class=\"clave-criterio\">NADP⁺</mark> y un gradiente de protones (vale también la <mark class=\"clave-criterio\">fosforilación a nivel de sustrato</mark>) (1,2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de junio",
+    "referencia": "Titular de junio, bloque A, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com] (1).pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com].pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2023-junio-a3",
+   "block": "Genética",
+   "topic": "Evolución, homología, selección natural y mutación",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Defina los siguientes términos: a) evolución biológica [0,5]; b) estructura homóloga u órgano homólogo [0,5]; c) selección natural [0,5]; d) mutación [0,5].",
+   "c": [
+    "a) Evolución: proceso de <mark class=\"clave-criterio\">aparición de nuevas especies</mark> por <mark class=\"clave-criterio\">variaciones fenotípicas y genéticas</mark> que se suceden generación tras generación y llevan a la <mark class=\"clave-criterio\">adaptación al ambiente</mark> (0,5 p).",
+    "b) Homólogas: <mark class=\"clave-criterio\">origen evolutivo común</mark> y <mark class=\"clave-criterio\">estructura interna similar</mark>, aunque puedan tener <mark class=\"clave-criterio\">funciones distintas</mark> (0,5 p).",
+    "c) Selección natural: explica la <mark class=\"clave-criterio\">supervivencia de los individuos mejor adaptados</mark>, <mark class=\"clave-criterio\">favoreciendo los fenotipos</mark> con más posibilidades de sobrevivir (0,5 p).",
+    "d) Mutación: <mark class=\"clave-criterio\">alteración en el material genético</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de junio",
+    "referencia": "Titular de junio, bloque A, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com] (1).pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com].pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2023-junio-a4",
+   "block": "Biotecnología",
+   "topic": "Microorganismos y biotecnología",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina microorganismo [0,5]. b) Cite un ejemplo de relación beneficiosa y otro de relación perjudicial entre los microorganismos y la especie humana [0,5]. c) Defina biotecnología [0,6]. d) Exponga un ejemplo de aplicación biotecnológica en la industria alimentaria y otro en la farmacéutica, indicando en cada caso qué tipo de microorganismos participa [0,4].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Ser vivo que, por su reducido tamaño, solo es visible al microscopio</mark> (0,5 p).",
+    "b) Beneficiosa: <mark class=\"clave-criterio\">producción de alimentos, medicamentos y vacunas</mark>, <mark class=\"clave-criterio\">ciclos de la materia</mark>. Perjudicial: <mark class=\"clave-criterio\">infecciones</mark>, <mark class=\"clave-criterio\">deterioro de alimentos</mark>. Una de cada (0,5 p).",
+    "c) <mark class=\"clave-criterio\">Aplicaciones tecnológicas que utilizan seres vivos para obtener productos de interés</mark> para el ser humano (0,6 p).",
+    "d) Alimentaria: <mark class=\"clave-criterio\">yogur (bacterias)</mark>, queso, <mark class=\"clave-criterio\">vino o cerveza (levaduras)</mark>. Farmacéutica: <mark class=\"clave-criterio\">antibióticos (bacterias, hongos)</mark>, <mark class=\"clave-criterio\">hormonas (bacterias, levaduras)</mark>, vacunas. Uno de cada, 0,2 p (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de junio",
+    "referencia": "Titular de junio, bloque A, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com] (1).pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com].pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2023-junio-a5",
+   "block": "Inmunología",
+   "topic": "Tipos de inmunidad y alteraciones",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Defina los siguientes términos: a) inmunidad adquirida o adaptativa [0,4]; b) inmunidad natural [0,4]; c) inmunidad pasiva [0,4]; d) enfermedad autoinmune [0,4]; e) inmunodeficiencia [0,4].",
+   "c": [
+    "a) Adquirida: la que <mark class=\"clave-criterio\">se contrae tras un contacto con un antígeno</mark> (0,4 p).",
+    "b) Natural: la producida por <mark class=\"clave-criterio\">mecanismos biológicos naturales</mark> (por ejemplo, una <mark class=\"clave-criterio\">infección</mark>) (0,4 p).",
+    "c) Pasiva: el individuo <mark class=\"clave-criterio\">no elabora la respuesta</mark> (<mark class=\"clave-criterio\">sueroterapia</mark> o <mark class=\"clave-criterio\">a través de la madre</mark>) (0,4 p).",
+    "d) Autoinmune: la respuesta <mark class=\"clave-criterio\">destruye moléculas o células propias</mark> (0,4 p).",
+    "e) Inmunodeficiencia: <mark class=\"clave-criterio\">incapacidad del sistema inmunitario para defender al organismo</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de junio",
+    "referencia": "Titular de junio, bloque A, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com] (1).pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com].pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2023-junio-b1+b2",
+   "block": "Metabolismo",
+   "topic": "Pardeamiento de las alcachofas · Mitosis seguida de meiosis",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": false,
+   "q": "<b>I.</b> Las alcachofas y otras verduras sufren un pardeamiento (oscurecimiento) al poco tiempo de ser cortadas. Esto se debe a la acción de enzimas que oxidan determinados compuestos de estos alimentos. Existen tres formas de evitar este pardeamiento: a) reducir la exposición de estos alimentos al oxígeno [0,4]; b) añadir compuestos ácidos [0,3]; c) calentar las verduras en agua hirviendo [0,3]. Explique razonadamente por qué no se produce el pardeamiento en estos tres casos. <i>(1 punto)</i><br><br><b>II.</b> Suponga una célula animal con cuatro pares de cromosomas que sufre una mitosis. Cada una de las células resultantes sufre posteriormente una meiosis. a) ¿Cuántas células se han producido al final del proceso? [0,5] b) ¿Cuál sería la dotación cromosómica que tiene cada una de las células tras cada división? [0,5] Razone todas las respuestas. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) Sin oxígeno las enzimas <mark class=\"clave-criterio\">no pueden catalizar la reacción</mark> y no se forman los compuestos pardos (0,4 p).",
+    "<b>I.</b> b) Con ácidos las enzimas <mark class=\"clave-criterio\">se desnaturalizan por la bajada del pH</mark> (0,3 p).",
+    "<b>I.</b> c) El calor <mark class=\"clave-criterio\">desnaturaliza las enzimas</mark> y <mark class=\"clave-criterio\">pierden su actividad</mark> (0,3 p).",
+    "<b>II.</b> a) <mark class=\"clave-criterio\">8 células</mark>: la mitosis da <mark class=\"clave-criterio\">2</mark>, y la meiosis de cada una da <mark class=\"clave-criterio\">4</mark> (0,5 p).",
+    "<b>II.</b> b) Tras la mitosis: <mark class=\"clave-criterio\">2n = 8</mark> (se mantiene la dotación). Tras la meiosis: <mark class=\"clave-criterio\">n = 4</mark>, por la <mark class=\"clave-criterio\">separación de los cromosomas homólogos</mark> (0,5 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2023-junio-b1",
+    "pau2023-junio-b2"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de junio",
+    "referencia": "Titular de junio, bloque B, pregunta 1 + Titular de junio, bloque B, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com] (1).pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com].pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2023-junio-b3+b4",
+   "block": "Genética",
+   "topic": "Replicación semiconservativa con fósforo radiactivo · Identificar levadura, alga y protozoo",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": false,
+   "q": "<b>I.</b> Se dispone de una molécula de ADN bicatenario que previamente ha sido sintetizada con fósforo radiactivo y, por lo tanto, todos sus nucleótidos poseen este elemento radiactivo. Tras una primera duplicación en un medio sin dicho elemento, a) ¿qué porcentaje de hebras poseerá el elemento radiactivo tras la primera división? [0,5] b) ¿Y tras la segunda? [0,5] Explique razonadamente los resultados y realice un esquema para ambos casos. <i>(1 punto)</i><br><br><b>II.</b> En el laboratorio del instituto se dispone de tres muestras que contienen tres microorganismos unicelulares diferentes: A, B y C. Después de analizar las muestras se obtuvieron los siguientes resultados:<table class=\"tabla-pau\"><tr><th>Muestra</th><th>Crecimiento en oscuridad</th><th>Crecimiento en ausencia de O₂</th><th>Desprendimiento de O₂ con luz</th><th>Envoltura nuclear</th><th>Pared celular</th></tr><tr><td>A</td><td>Sí</td><td>Sí</td><td>No</td><td>Sí</td><td>Sí</td></tr><tr><td>B</td><td>No</td><td>No</td><td>Sí</td><td>Sí</td><td>Sí</td></tr><tr><td>C</td><td>Sí</td><td>No</td><td>No</td><td>Sí</td><td>No</td></tr></table>Responda razonadamente a las siguientes cuestiones: a) ¿Cuál es el modelo de organización celular de cada uno de estos microorganismos? [0,2] b) Identifique a qué grupo de microorganismos pertenece cada uno de ellos [0,6]. c) El microorganismo A es el único capaz de crecer en ausencia de O₂ si dispone de glucosa: ¿qué productos desprenderá al medio de cultivo como consecuencia de su actividad? [0,2] <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) <mark class=\"clave-criterio\">50 % de las hebras</mark> <span class=\"redactado\">2 moléculas, cada una con una hebra radiactiva vieja y otra nueva</span>: explicación 0,25 p y esquema 0,25 p (0,5 p).",
+    "<b>I.</b> b) <mark class=\"clave-criterio\">25 % de las hebras</mark> <span class=\"redactado\">4 moléculas: 2 híbridas y 2 sin marca; 2 hebras marcadas de 8</span>: explicación y esquema (0,5 p).",
+    "<b>I.</b> <span class=\"redactado\">Se debe a que la replicación es semiconservativa.</span>",
+    "<b>II.</b> a) Los tres son <mark class=\"clave-criterio\">eucariotas</mark> porque tienen <mark class=\"clave-criterio\">envoltura nuclear</mark> (0,2 p).",
+    "<b>II.</b> b) A: <mark class=\"clave-criterio\">levadura</mark> (hongo unicelular: pared, crece sin luz y sin O₂); B: <mark class=\"clave-criterio\">alga unicelular</mark> (desprende O₂ con luz); C: <mark class=\"clave-criterio\">protozoo</mark> (sin pared, no fotosintético). Argumentando con la tabla, 0,2 p cada uno (0,6 p).",
+    "<b>II.</b> c) <mark class=\"clave-criterio\">CO₂ y etanol</mark>, porque sin O₂ las levaduras realizan <mark class=\"clave-criterio\">fermentación alcohólica</mark> (0,2 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2023-junio-b3",
+    "pau2023-junio-b4"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de junio",
+    "referencia": "Titular de junio, bloque B, pregunta 3 + Titular de junio, bloque B, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com] (1).pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com].pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2023-junio-c1+c2",
+   "block": "Metabolismo",
+   "topic": "Reacción enzimática e inhibición · Retículo endoplasmático liso y rugoso",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": true,
+   "q": "<b>I.</b> <b>En relación con la figura adjunta, conteste a las siguientes cuestiones:</b><br>a) ¿Qué tipo de reacción está representada con la letra A? [0,2]<br>b) Indique qué tipo de moléculas están representadas con los números 1, 2, 3, y 4 [0,4].<br>c) ¿Qué parte de la molécula 1 está representada con el número 5? [0,2]<br>d) ¿Qué complejos están representados con los números 6 y 7? [0,2] <i>(1 punto)</i><br><br><b>II.</b> <b>En relación con la figura adjunta:</b><br>a) Identifique los elementos señalados con los números del 1 al 4 [0,4].<br>b) Indique dos funciones de la estructura 1 y otras dos de la estructura 2 [0,4].<br>c) ¿En qué otra localización de la célula eucariótica se encuentran los elementos señalados con el número 3 y que presentan exactamente las mismas características? [0,2] <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) <mark class=\"clave-criterio\">Reacción enzimática</mark> (unión enzima-sustrato y aparición de productos) (0,2 p).",
+    "<b>I.</b> b) 1: <mark class=\"clave-criterio\">enzima</mark>; 2: <mark class=\"clave-criterio\">sustrato</mark>; 3: <mark class=\"clave-criterio\">inhibidor competitivo</mark> (o irreversible); 4: <mark class=\"clave-criterio\">inhibidor no competitivo</mark> (o alostérico) (0,4 p).",
+    "<b>I.</b> c) <mark class=\"clave-criterio\">Centro activo</mark> (0,2 p).",
+    "<b>I.</b> d) 6: <mark class=\"clave-criterio\">complejo enzima-sustrato</mark>; 7: <mark class=\"clave-criterio\">complejo enzima-inhibidor</mark> (0,2 p).",
+    "<b>II.</b> a) 1: <mark class=\"clave-criterio\">retículo endoplasmático liso</mark>; 2: <mark class=\"clave-criterio\">retículo endoplasmático rugoso</mark>; 3: <mark class=\"clave-criterio\">ribosomas</mark>; 4: <mark class=\"clave-criterio\">envoltura nuclear</mark> (0,4 p).",
+    "<b>II.</b> b) REL: <mark class=\"clave-criterio\">síntesis de lípidos</mark>, <mark class=\"clave-criterio\">detoxificación</mark>, almacén de Ca²⁺. RER: <mark class=\"clave-criterio\">síntesis de proteínas</mark>, <mark class=\"clave-criterio\">glucosilación</mark>, plegamiento. Dos de cada (0,4 p).",
+    "<b>II.</b> c) En el <mark class=\"clave-criterio\">citosol</mark> <span class=\"redactado\">ribosomas libres</span> (0,2 p)."
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2023-junio-c1",
+    "pau2023-junio-c2"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de junio",
+    "referencia": "Titular de junio, bloque C, pregunta 1 + Titular de junio, bloque C, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com] (1).pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com].pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2023/junio-c1.webp",
+   "imgThumb": "assets/figuras/historico/2023/junio-c1.thumb.webp",
+   "imageDesc": "Tres secuencias (A, B y C) con una molécula grande con una hendidura (1, hendidura 5): en A se une una pieza (2), forma el complejo 6 y la pieza sale transformada; en B se une otra pieza (3) en la hendidura (7); en C una pieza (4) se une en otro lugar y deforma la hendidura."
+  },
+  {
+   "id": "pau2023-junio-c3+c4",
+   "block": "Genética",
+   "topic": "Herencia de los grupos sanguíneos · Estructura del VIH",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": true,
+   "q": "<b>I.</b> <b>La siguiente imagen representa un tipo de herencia de grupos sanguíneos. Indique:</b><br>a) El fenotipo (grupo sanguíneo) de cada progenitor [0,2].<br>b) El fenotipo (grupo sanguíneo) y el genotipo de cada descendiente (D1, D2, D3, D4) [0,8]. <i>(1 punto)</i><br><br><b>II.</b> <b>En relación con la imagen adjunta, conteste a las siguientes cuestiones:</b><br>a) ¿Qué agente infeccioso está representado? [0,2]<br>b) ¿Qué indican los números del 1 al 5? [0,5]<br>c) ¿Cómo se denominan estos tipos de agentes infecciosos cuando poseen la estructura señalada con el número 2? ¿Y aquellos que carecen de dicha estructura? [0,3] <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) Progenitor 1: <mark class=\"clave-criterio\">grupo A</mark>; progenitor 2: <mark class=\"clave-criterio\">grupo B</mark> (no vale A0 ni B0 como fenotipo) (0,2 p).",
+    "<b>I.</b> b) D1: <mark class=\"clave-criterio\">grupo A, A0</mark>; D2: <mark class=\"clave-criterio\">grupo AB, AB</mark>; D3: <mark class=\"clave-criterio\">grupo B, B0</mark>; D4: <mark class=\"clave-criterio\">grupo 0, 00</mark> (0,8 p).",
+    "<b>II.</b> a) <mark class=\"clave-criterio\">VIH</mark> (virus del SIDA) (0,2 p).",
+    "<b>II.</b> b) 1: <mark class=\"clave-criterio\">glucoproteína</mark> (espículas); 2: <mark class=\"clave-criterio\">bicapa lipídica</mark> (envoltura); 3: <mark class=\"clave-criterio\">cápsida</mark>; 4: <mark class=\"clave-criterio\">ARN</mark>; 5: <mark class=\"clave-criterio\">transcriptasa inversa</mark> (0,5 p).",
+    "<b>II.</b> c) Con envoltura: <mark class=\"clave-criterio\">virus envueltos</mark>; sin ella: <mark class=\"clave-criterio\">virus desnudos</mark> (0,3 p)."
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2023-junio-c3",
+    "pau2023-junio-c4"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de junio",
+    "referencia": "Titular de junio, bloque C, pregunta 3 + Titular de junio, bloque C, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com] (1).pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com].pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2023/junio-c3.webp",
+   "imgThumb": "assets/figuras/historico/2023/junio-c3.thumb.webp",
+   "imageDesc": "Progenitor 1 con genotipo A0 y progenitor 2 con genotipo B0; cuatro descendientes (D1, D2, D4, D3) con sus parejas de cromosomas marcadas."
+  },
+  {
+   "id": "pau2023-julio-a1",
+   "block": "Metabolismo",
+   "topic": "Factores de la actividad enzimática e inhibición",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": false,
+   "competencial": false,
+   "q": "Explique cómo afectan a la actividad de las enzimas: a) temperatura [0,5]; b) pH [0,5]; c) concentración del sustrato [0,5]. d) Describa dos tipos de inhibición enzimática [0,5].",
+   "c": [
+    "a) Hay una <mark class=\"clave-criterio\">temperatura óptima</mark>; fuera de ella baja la actividad y las muy altas <mark class=\"clave-criterio\">desnaturalizan</mark> la enzima (0,5 p).",
+    "b) Hay un <mark class=\"clave-criterio\">pH óptimo</mark>; los valores extremos <mark class=\"clave-criterio\">desnaturalizan</mark> la enzima (0,5 p).",
+    "c) Al aumentar el sustrato la velocidad aumenta hasta <mark class=\"clave-criterio\">mantenerse constante</mark> por <mark class=\"clave-criterio\">saturación de la enzima</mark> (0,5 p).",
+    "d) <mark class=\"clave-criterio\">Irreversible</mark>: el inhibidor forma <mark class=\"clave-criterio\">enlaces covalentes con el centro activo</mark> y anula la actividad <mark class=\"clave-criterio\">para siempre</mark>. <mark class=\"clave-criterio\">Reversible</mark>: el inhibidor <mark class=\"clave-criterio\">se puede disociar</mark> y la enzima recupera la actividad (vale competitiva y no competitiva) (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de julio",
+    "referencia": "Titular de julio, bloque A, pregunta 1",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com] (4).pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2023-julio-a2",
+   "block": "Célula",
+   "topic": "Membrana plasmática, orgánulos y transporte",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina membrana plasmática [0,3] e indique una función de esta estructura [0,2]. b) Nombre tres orgánulos celulares delimitados por una membrana simple [0,3] e indique una función que desempeñen [0,6]. c) Defina transporte pasivo y transporte activo [0,6].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Bicapa lipídica con proteínas</mark> (periféricas y transmembrana) y <mark class=\"clave-criterio\">glúcidos en la cara externa</mark> (0,3 p). Función: <mark class=\"clave-criterio\">separar el medio interno del externo</mark>, <mark class=\"clave-criterio\">permeabilidad selectiva</mark>, transferencia de información (0,2 p).",
+    "b) <mark class=\"clave-criterio\">Complejo de Golgi</mark> (maduración y secreción), <mark class=\"clave-criterio\">retículo endoplasmático</mark> (síntesis y transporte), <mark class=\"clave-criterio\">lisosomas</mark> (digestión intracelular), <mark class=\"clave-criterio\">peroxisomas</mark> (metabolismo oxidativo), <mark class=\"clave-criterio\">vacuolas</mark> (almacenamiento). Tres con su función (0,9 p).",
+    "c) Pasivo: por la bicapa o por una proteína, <mark class=\"clave-criterio\">a favor de gradiente</mark> y <mark class=\"clave-criterio\">sin gasto de energía</mark>. Activo: por un transportador, <mark class=\"clave-criterio\">en contra de gradiente</mark> y <mark class=\"clave-criterio\">con gasto de energía</mark> (0,6 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de julio",
+    "referencia": "Titular de julio, bloque A, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com] (4).pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2023-julio-a3",
+   "block": "Genética",
+   "topic": "Teoría cromosómica, ligamiento y recombinación",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Enuncie tres de los postulados de la teoría cromosómica de la herencia [0,6]. b) Defina ligamiento genético y recombinación genética [0,8]. c) Explique la relación del ligamiento genético con las leyes de Mendel [0,6].",
+   "c": [
+    "a) Tres de estos (0,6 p): <mark class=\"clave-criterio\">los genes están en los cromosomas</mark>; <mark class=\"clave-criterio\">se disponen linealmente</mark>; cada gen ocupa un <mark class=\"clave-criterio\">locus</mark>; el <mark class=\"clave-criterio\">sobrecruzamiento corresponde a la recombinación</mark>; los genes <mark class=\"clave-criterio\">muy próximos tienden a heredarse juntos</mark>.",
+    "b) Ligamiento: herencia de <mark class=\"clave-criterio\">genes situados en el mismo cromosoma</mark>, que <mark class=\"clave-criterio\">se heredan juntos</mark>. Recombinación: <mark class=\"clave-criterio\">intercambio de fragmentos entre cromosomas homólogos en la meiosis</mark> (0,8 p).",
+    "c) Si los genes están ligados <mark class=\"clave-criterio\">no se cumple la tercera ley de Mendel</mark> <span class=\"redactado\">la transmisión independiente</span> (0,6 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de julio",
+    "referencia": "Titular de julio, bloque A, pregunta 3",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com] (4).pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2023-julio-a4",
+   "block": "Biotecnología",
+   "topic": "Microorganismos industriales",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": false,
+   "competencial": false,
+   "q": "En relación con la tabla adjunta:<table class=\"tabla-pau\"><tr><th>Microorganismo</th><th>Grupo</th><th>Productos industriales</th></tr><tr><td><i>Saccharomyces</i></td><td>levadura</td><td>1</td></tr><tr><td><i>Streptococcus</i>, <i>Lactobacillus</i></td><td>2</td><td>yogur</td></tr><tr><td><i>Penicillium</i></td><td>3</td><td>4</td></tr></table>a) Copie y complete los números del 1 al 4 [1].<br>b) ¿Qué proceso bioquímico realiza <i>Saccharomyces</i> para la obtención del producto 1? [0,2] ¿cuál es el sustrato inicial y los productos finales de dicho proceso? [0,3]<br>c) Cite dos grupos de microorganismos diferentes a los representados en la tabla e indique su organización celular [0,5].",
+   "c": [
+    "a) 1: <mark class=\"clave-criterio\">pan, cerveza o vino</mark>; 2: <mark class=\"clave-criterio\">bacteria</mark>; 3: <mark class=\"clave-criterio\">moho</mark> (hongo microscópico); 4: <mark class=\"clave-criterio\">penicilina</mark> (antibióticos) (1 p).",
+    "b) <mark class=\"clave-criterio\">Fermentación alcohólica</mark> (0,2 p); sustrato: <mark class=\"clave-criterio\">azúcares</mark>; productos: <mark class=\"clave-criterio\">etanol y CO₂</mark> (0,3 p).",
+    "c) <mark class=\"clave-criterio\">Algas (eucariotas)</mark> y <mark class=\"clave-criterio\">protozoos (eucariotas)</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de julio",
+    "referencia": "Titular de julio, bloque A, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com] (4).pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2023-julio-a5",
+   "block": "Inmunología",
+   "topic": "Antígenos y anticuerpos",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": false,
+   "competencial": false,
+   "q": "a) Defina los términos antígeno y anticuerpo [0,8]. b) Indique la naturaleza química de ambos [0,4]. c) Justifique el hecho de que un anticuerpo pueda comportarse como un antígeno [0,8].",
+   "c": [
+    "a) Antígeno: <mark class=\"clave-criterio\">molécula que induce la respuesta del sistema inmunitario</mark>. Anticuerpo: molécula producida por las <mark class=\"clave-criterio\">células plasmáticas (linfocitos B)</mark> ante un antígeno, al que <mark class=\"clave-criterio\">se une específicamente</mark> (0,8 p).",
+    "b) Antígenos: <mark class=\"clave-criterio\">proteicos o polisacarídicos</mark> (también algunos lípidos); anticuerpos: <mark class=\"clave-criterio\">glucoproteínas</mark> (0,4 p).",
+    "c) El anticuerpo es una <mark class=\"clave-criterio\">proteína</mark>: en <mark class=\"clave-criterio\">otro organismo</mark> puede <mark class=\"clave-criterio\">no reconocerse como propia</mark> y <mark class=\"clave-criterio\">provocar una respuesta inmune</mark> (0,8 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de julio",
+    "referencia": "Titular de julio, bloque A, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com] (4).pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2023-julio-b1+b2",
+   "block": "Biomoléculas",
+   "topic": "Identificar glúcidos por sus propiedades · Agua metabólica en la rata canguro",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": false,
+   "q": "<b>I.</b> En un laboratorio hay 4 tubos que contienen los siguientes compuestos por separado: glucosa, maltosa, sacarosa y almidón. Para saber el tipo de carbohidrato que contiene cada tubo se hacen varias pruebas: a) análisis de la solubilidad; b) poder reductor; c) hidrólisis en medio ácido; d) sabor dulce. Tras el análisis se obtienen los siguientes resultados:<table class=\"tabla-pau\"><tr><th>Tubo</th><th>Solubilidad</th><th>Poder reductor</th><th>Hidrólisis en medio ácido</th><th>Sabor dulce</th></tr><tr><td>1</td><td>insoluble</td><td>no</td><td>sí</td><td>no</td></tr><tr><td>2</td><td>soluble</td><td>sí</td><td>no</td><td>sí</td></tr><tr><td>3</td><td>soluble</td><td>no</td><td>sí</td><td>sí</td></tr><tr><td>4</td><td>soluble</td><td>sí</td><td>sí</td><td>sí</td></tr></table>Indique razonadamente qué compuesto de los indicados se encuentra en cada tubo [1]. <i>(1 punto)</i><br><br><b>II.</b> La rata canguro vive en el desierto sin necesidad de beber agua. Este animal usa diferentes mecanismos fisiológicos para evitar la pérdida de agua y además es capaz de utilizar agua de producción interna. a) ¿Cómo se denomina el agua así generada? [0,2] b) ¿Cómo la obtienen estos seres vivos? Razone la respuesta [0,8]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> Tubo 1: <mark class=\"clave-criterio\">almidón</mark> <span class=\"redactado\">insoluble, no dulce, hidrolizable</span>; 2: <mark class=\"clave-criterio\">glucosa</mark> <span class=\"redactado\">reductora y no hidrolizable: monosacárido</span>; 3: <mark class=\"clave-criterio\">sacarosa</mark> <span class=\"redactado\">disacárido no reductor</span>; 4: <mark class=\"clave-criterio\">maltosa</mark> <span class=\"redactado\">disacárido reductor</span>. Argumentando con la tabla (1 p).",
+    "<b>II.</b> a) <mark class=\"clave-criterio\">Agua metabólica</mark> (0,2 p).",
+    "<b>II.</b> b) La <mark class=\"clave-criterio\">oxidación de grasas, carbohidratos y proteínas</mark> produce, además de CO₂, <mark class=\"clave-criterio\">agua</mark> que mantiene los líquidos corporales <span class=\"redactado\">en la cadena respiratoria el O₂ se reduce a H₂O</span> (0,8 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2023-julio-b1",
+    "pau2023-julio-b2"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de julio",
+    "referencia": "Titular de julio, bloque B, pregunta 1 + Titular de julio, bloque B, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com] (4).pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2023-julio-b3+b4",
+   "block": "Genética",
+   "topic": "Talasemia: alelo letal · Identificar microorganismos por su crecimiento",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": false,
+   "q": "<b>I.</b> La talasemia es una enfermedad hereditaria de la sangre del ser humano que produce anemia. La anemia severa (talasemia mayor) aparece en individuos homocigóticos (TᴹTᴹ) y un tipo más benigno de anemia (talasemia menor) en los heterocigóticos (TᴹTᴺ). Los individuos sanos son homocigóticos (TᴺTᴺ). Si todos los individuos con talasemia mayor mueren antes de la madurez sexual, conteste de forma razonada a las siguientes preguntas realizando los cruzamientos correspondientes: a) ¿qué porcentaje de adultos de la F1 puede esperarse que sea sano en apareamientos de talasémicos menores con sanos? [0,5]; b) ¿qué fracción de individuos adultos de la F1 serán anémicos en cruzamientos entre talasémicos menores? [0,5] <i>(1 punto)</i><br><br><b>II.</b> En un laboratorio se cultivan cuatro microorganismos (A, B, C y D) en un medio con todos los nutrientes y las condiciones necesarias para su crecimiento. A continuación, se varía una condición en cada uno de los cultivos. La siguiente tabla muestra los resultados obtenidos en las diferentes condiciones; el signo + indica crecimiento y el signo – que no hubo crecimiento.<table class=\"tabla-pau\"><tr><th>Microorganismo</th><th>Medio con penicilina</th><th>Medio con inhibidor de fotosíntesis</th><th>Medio con inhibidor de síntesis de quitina</th></tr><tr><td>A</td><td>+</td><td>+</td><td>+</td></tr><tr><td>B</td><td>–</td><td>+</td><td>+</td></tr><tr><td>C</td><td>+</td><td>–</td><td>+</td></tr><tr><td>D</td><td>+</td><td>+</td><td>–</td></tr></table>Identifique el tipo de microorganismo presente en cada cultivo. Razone las respuestas [1]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) <mark class=\"clave-criterio\">TᴹTᴺ × TᴺTᴺ</mark>: los talasémicos menores dan gametos Tᴹ y Tᴺ y los sanos solo Tᴺ, así que el <mark class=\"clave-criterio\">50 %</mark> de la F1 serán <mark class=\"clave-criterio\">TᴺTᴺ (sanos)</mark> (0,5 p).",
+    "<b>I.</b> b) <mark class=\"clave-criterio\">TᴹTᴺ × TᴹTᴺ</mark>: el <mark class=\"clave-criterio\">¼ TᴹTᴹ muere</mark>; de los adultos, <mark class=\"clave-criterio\">⅔ serán talasémicos menores (anémicos)</mark> y <mark class=\"clave-criterio\">⅓ sanos</mark> (0,5 p).",
+    "<b>II.</b> A: <mark class=\"clave-criterio\">protozoo</mark>: <mark class=\"clave-criterio\">sin pared</mark> y <mark class=\"clave-criterio\">no fotosintético</mark> (0,25 p).",
+    "<b>II.</b> B: <mark class=\"clave-criterio\">bacteria</mark>: la <mark class=\"clave-criterio\">penicilina inhibe la síntesis de la pared bacteriana</mark> (0,25 p).",
+    "<b>II.</b> C: <mark class=\"clave-criterio\">alga</mark>: <mark class=\"clave-criterio\">no crece sin fotosíntesis</mark> (0,25 p).",
+    "<b>II.</b> D: <mark class=\"clave-criterio\">levadura</mark>: su <mark class=\"clave-criterio\">pared es de quitina</mark> (0,25 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2023-julio-b3",
+    "pau2023-julio-b4"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de julio",
+    "referencia": "Titular de julio, bloque B, pregunta 3 + Titular de julio, bloque B, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com] (4).pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2023-julio-c1+c2",
+   "block": "Biomoléculas",
+   "topic": "La alfa-hélice · Tipos de endocitosis",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": true,
+   "q": "<b>I.</b> <b>En relación con la figura adjunta, conteste a las siguientes preguntas:</b><br>a) ¿Qué molécula está representada en la imagen y qué tipo de estructura presenta? [0,3]<br>b) ¿Cómo se denominan los monómeros que la forman? [0,2]<br>c) ¿Qué parte de estos monómeros se encuentra proyectada hacia fuera? [0,2]<br>d) Indique qué enlaces mantienen esta estructura [0,3]. <i>(1 punto)</i><br><br><b>II.</b> <b>En relación con la imagen adjunta, conteste a las siguientes cuestiones:</b><br>a) ¿Qué tipo de transporte de membrana representa la imagen en su conjunto? [0,2]<br>b) ¿Qué procesos específicos se representan con las letras A, B y C? [0,3]<br>c) ¿Cómo se denominan los orgánulos, estructuras o moléculas representadas con los números del 1 al 5? [0,5] <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) <mark class=\"clave-criterio\">Proteína</mark> con estructura en <mark class=\"clave-criterio\">α-hélice</mark> (0,3 p).",
+    "<b>I.</b> b) <mark class=\"clave-criterio\">Aminoácidos</mark> (0,2 p).",
+    "<b>I.</b> c) Las <mark class=\"clave-criterio\">cadenas laterales (radicales R)</mark> (0,2 p).",
+    "<b>I.</b> d) <mark class=\"clave-criterio\">Enlaces de hidrógeno</mark> y <mark class=\"clave-criterio\">enlaces peptídicos</mark> (0,3 p).",
+    "<b>II.</b> a) <mark class=\"clave-criterio\">Endocitosis</mark> (0,2 p).",
+    "<b>II.</b> b) A: <mark class=\"clave-criterio\">fagocitosis</mark>; B: <mark class=\"clave-criterio\">pinocitosis</mark>; C: <mark class=\"clave-criterio\">endocitosis mediada por receptor</mark> (0,3 p).",
+    "<b>II.</b> c) 1: <mark class=\"clave-criterio\">pseudópodos</mark>; 2: <mark class=\"clave-criterio\">fagosoma</mark>; 3: <mark class=\"clave-criterio\">vesícula pinocítica</mark>; 4: <mark class=\"clave-criterio\">vesícula endocítica</mark>; 5: <mark class=\"clave-criterio\">receptor de membrana</mark> (0,5 p)."
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2023-julio-c1",
+    "pau2023-julio-c2"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de julio",
+    "referencia": "Titular de julio, bloque C, pregunta 1 + Titular de julio, bloque C, pregunta 2",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com] (4).pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2023/julio-c1.webp",
+   "imgThumb": "assets/figuras/historico/2023/julio-c1.thumb.webp",
+   "imageDesc": "Una cinta enrollada en espiral con grupos de átomos que sobresalen hacia fuera y líneas finas que unen las vueltas."
+  },
+  {
+   "id": "pau2023-julio-c3+c4",
+   "block": "Genética",
+   "topic": "Flujo de la información genética · Insulina humana producida por bacterias",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": true,
+   "q": "<b>I.</b> <b>En relación con la figura adjunta:</b><br>a) Identifique las moléculas o estructuras señaladas con los números del 1 al 4 [0,4].<br>b) Señale los procesos indicados con las letras A, B, C y D [0,4].<br>c) Indique en qué compartimentos de la célula eucariótica se producen los procesos A y D [0,2]. <i>(1 punto)</i><br><br><b>II.</b> <b>En la siguiente figura se ilustra la producción de insulina humana por un microorganismo:</b><br>a) Identifique qué tipo de microorganismo está señalado con 1 y cuál es su organización celular [0,2].<br>b) Indique qué representan las estructuras señaladas con 2 y 3 [0,3].<br>c) ¿Qué debe contener la estructura 2 para que se pueda obtener el producto final insulina? [0,2]<br>d) Indique qué proceso se representa en 4 [0,3]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) 1: <mark class=\"clave-criterio\">ADN</mark>; 2: <mark class=\"clave-criterio\">ARNm</mark>; 3: <mark class=\"clave-criterio\">proteína</mark>; 4: <mark class=\"clave-criterio\">ribosoma</mark> (0,4 p).",
+    "<b>I.</b> b) A: <mark class=\"clave-criterio\">replicación</mark>; B: <mark class=\"clave-criterio\">transcripción</mark>; C: <mark class=\"clave-criterio\">transcripción inversa</mark>; D: <mark class=\"clave-criterio\">traducción</mark> (0,4 p).",
+    "<b>I.</b> c) A: <mark class=\"clave-criterio\">núcleo</mark>; D: <mark class=\"clave-criterio\">citoplasma</mark> (también mitocondria y cloroplasto) (0,2 p).",
+    "<b>II.</b> a) <mark class=\"clave-criterio\">Bacteria</mark>, <mark class=\"clave-criterio\">procariota</mark> (0,2 p).",
+    "<b>II.</b> b) 2: <mark class=\"clave-criterio\">plásmido</mark>; 3: <mark class=\"clave-criterio\">ADN</mark> (cromosoma bacteriano) (0,3 p).",
+    "<b>II.</b> c) El <mark class=\"clave-criterio\">gen de la insulina</mark> (0,2 p).",
+    "<b>II.</b> d) <mark class=\"clave-criterio\">Crecimiento bacteriano</mark> (se admite selección de bacterias con el gen integrado) (0,3 p)."
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2023-julio-c3",
+    "pau2023-julio-c4"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de julio",
+    "referencia": "Titular de julio, bloque C, pregunta 3 + Titular de julio, bloque C, pregunta 4",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com] (4).pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2023/julio-c3.webp",
+   "imgThumb": "assets/figuras/historico/2023/julio-c3.thumb.webp",
+   "imageDesc": "Una doble hélice (1) con una flecha circular (A); flechas B (hacia abajo) y C (hacia arriba) la conectan con una hebra sencilla (2); la flecha D lleva a una estructura (4) sobre una hebra que forma una cadena de cuentas (3)."
+  },
+  {
+   "id": "pau2023-junio-b5+c5",
+   "block": "Inmunología",
+   "topic": "Anticuerpos frente al SARS-CoV-2 · Reacción alérgica: IgE, mastocitos e histamina",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": true,
+   "q": "<b>I.</b> Tras la exposición de una población al SARS-CoV-2, se realiza una analítica para detectar la concentración de anticuerpos. Sabiendo que un grupo de personas expuesta al virus ya había pasado la enfermedad (grupo 1), otro grupo había sido vacunado (grupo 2) y para otro era el primer contacto con el virus (grupo 3), indique qué resultados se obtendrían para cada uno de ellos si dicho análisis se realiza: a) a los 7 días [0,5] y b) a los 30 días [0,5]. Razone las respuestas. <i>(1 punto)</i><br><br><b>II.</b> <b>En relación con los procesos alérgicos que se muestran en la figura:</b><br>a) Identifique la molécula 1 [0,2].<br>b) Señale el tipo de célula indicada con el número 2 [0,1].<br>c) Indique el nombre de la molécula 3 [0,2].<br>d) Indique el nombre de la sustancia señalada con el número 4 [0,2].<br>e) Señale un efecto en el organismo de la molécula 4 [0,3]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) A los 7 días: grupos 1 y 2 con <mark class=\"clave-criterio\">niveles elevados</mark> (<mark class=\"clave-criterio\">respuesta secundaria</mark> gracias a las <mark class=\"clave-criterio\">células de memoria</mark>); grupo 3 con <mark class=\"clave-criterio\">niveles bajos</mark> (<mark class=\"clave-criterio\">respuesta primaria</mark>) (0,5 p).",
+    "<b>I.</b> b) A los 30 días: <mark class=\"clave-criterio\">niveles elevados en todos</mark>, porque al grupo 3 le ha dado tiempo a sintetizarlos (aunque <mark class=\"clave-criterio\">más altos en 1 y 2</mark>) (0,5 p).",
+    "<b>II.</b> a) <mark class=\"clave-criterio\">IgE</mark> (0,2 p). b) <mark class=\"clave-criterio\">Mastocito</mark> (también basófilo) (0,1 p).",
+    "<b>II.</b> c) <mark class=\"clave-criterio\">Alérgeno</mark> (0,2 p). d) <mark class=\"clave-criterio\">Histamina</mark> (0,2 p).",
+    "<b>II.</b> e) <mark class=\"clave-criterio\">Aumento de la permeabilidad vascular</mark>, <mark class=\"clave-criterio\">atracción de macrófagos</mark>, <mark class=\"clave-criterio\">aumento de la secreción exocrina</mark>. Uno (0,3 p)."
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2023-junio-b5",
+    "pau2023-junio-c5"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de junio",
+    "referencia": "Titular de junio, bloque B, pregunta 5 + Titular de junio, bloque C, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com] (1).pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Ordinaria de 2023) [www.examenesdepau.com].pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2023/junio-c5.webp",
+   "imgThumb": "assets/figuras/historico/2023/junio-c5.thumb.webp",
+   "imageDesc": "Un marisco libera partículas (3) que se unen a moléculas en forma de Y (1) de la superficie de una célula (2); la célula libera gránulos (4) y la persona presenta síntomas."
+  },
+  {
+   "id": "pau2023-julio-b5+c5",
+   "block": "Inmunología",
+   "topic": "Gemelos: respuesta primaria y secundaria · Vacuna y suero",
+   "anio": 2023,
+   "etiqueta": "PAU 2023",
+   "hasImg": true,
+   "q": "<b>I.</b> Al inocular un determinado antígeno a dos gemelos univitelinos (genéticamente idénticos), se observa que el pico máximo de producción de anticuerpos ocurre a los 20 días en el gemelo A y a los 5 días en el gemelo B. a) Proponga una explicación que justifique la diferencia en la respuesta inmune de ambos [0,5]. b) Si se analiza la sangre de cada gemelo en ese pico máximo de producción, ¿existiría alguna diferencia en los tipos de anticuerpos de ambos? Razone la respuesta [0,5]. <i>(1 punto)</i><br><br><b>II.</b> <b>La imagen adjunta representa dos tipos de tratamientos (1 y 2) empleados para conseguir una inmunización artificial:</b><br>a) ¿Qué contiene la vacuna que se administra en el tratamiento 1? [0,1]<br>b) ¿Qué se administra en el tratamiento 2? ¿Qué nombre recibe este tratamiento 2? [0,2]<br>c) Indique, en cada caso, si tras administrar el tratamiento se consigue una inmunidad de tipo humoral o celular [0,3].<br>d) ¿Cuál de ellos es un tratamiento preventivo y cuál curativo? [0,2]<br>e) Cite un proceso natural por el que un organismo pueda desarrollar una respuesta semejante a la que se consigue con el tratamiento 1 y otro que genere una respuesta semejante a la que se consigue cuando se emplea el tratamiento 2 [0,2]. <i>(1 punto)</i>",
+   "c": [
+    "<b>I.</b> a) El gemelo B <mark class=\"clave-criterio\">ya había estado expuesto al antígeno</mark>: tiene una <mark class=\"clave-criterio\">respuesta secundaria</mark>, más rápida; el A, una <mark class=\"clave-criterio\">respuesta primaria</mark>, más lenta (0,5 p).",
+    "<b>I.</b> b) <mark class=\"clave-criterio\">Sí</mark>: en A predominaría la <mark class=\"clave-criterio\">IgM</mark> (respuesta primaria) y en B la <mark class=\"clave-criterio\">IgG</mark> (respuesta secundaria) (0,5 p).",
+    "<b>II.</b> a) <mark class=\"clave-criterio\">Antígenos</mark> (agente infeccioso debilitado) (0,1 p).",
+    "<b>II.</b> b) <mark class=\"clave-criterio\">Anticuerpos</mark>; <mark class=\"clave-criterio\">sueroterapia</mark> (0,2 p).",
+    "<b>II.</b> c) 1: <mark class=\"clave-criterio\">humoral y celular</mark> (0,2 p); 2: <mark class=\"clave-criterio\">humoral</mark> (0,1 p).",
+    "<b>II.</b> d) Preventivo: <mark class=\"clave-criterio\">1</mark>; curativo: <mark class=\"clave-criterio\">2</mark> (0,2 p).",
+    "<b>II.</b> e) 1: <mark class=\"clave-criterio\">padecer una infección</mark>; 2: <mark class=\"clave-criterio\">inmunidad pasiva de origen materno</mark> (0,2 p)."
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2023-julio-b5",
+    "pau2023-julio-c5"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2023 · Titular de julio",
+    "referencia": "Titular de julio, bloque B, pregunta 5 + Titular de julio, bloque C, pregunta 5",
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2023/CRITERIOS CORRECCIÓN Examen Biología de Andalucía (Extraordinaria de 2023) [www.examenesdepau.com] (4).pdf",
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2023/julio-c5.webp",
+   "imgThumb": "assets/figuras/historico/2023/julio-c5.thumb.webp",
+   "imageDesc": "1: un frasco de vacuna y una jeringa. 2: una bolsa de suero con moléculas en forma de Y ampliadas."
   },
   {
    "id": "pau2026-modelo-1",
