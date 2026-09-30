@@ -392,7 +392,7 @@
           "opcion": "B", "n": 4, "puntos": 1, "bloque": "Célula", "tema": "Glóbulos rojos en medios hipertónico e hipotónico",
           "q": "El contenido salino interno de los glóbulos rojos presentes en la sangre es del 0,9%. a) ¿Qué les pasaría en un medio de cultivo con una concentración salina del 3%? [0,5]. b) ¿Y si la concentración del medio fuese del 0,04%? [0,5]. Razone las respuestas.",
           "c": [
-            "a) Al 3 % el medio es **hipertónico**: por **ósmosis sale agua** y la célula se deshidrata (**plasmólisis**, ((en glóbulos rojos se suele llamar crenación))) (0,5 p).",
+            "a) Al 3 % el medio es **hipertónico**: por **ósmosis sale agua** y la célula se deshidrata (**plasmólisis**, ((en glóbulos rojos se suele llamar crenación)) (0,5 p).",
             "b) Al 0,04 % el medio es **hipotónico**: por **ósmosis entra agua** y se produce la **lisis** (0,5 p)."
           ]
         },
@@ -481,7 +481,7 @@
           "figura": "assets/figuras/historico/2017/suplente-sept-a6.webp",
           "figuraDesc": "Molécula C formada por un anillo de seis átomos (A) unido mediante un oxígeno a un anillo de cinco átomos (B), ambos con grupos OH y CH₂OH.",
           "c": [
-            "a) **Disacárido** (((sacarosa))), del grupo de los **glúcidos** (hidratos de carbono) (0,3 p).",
+            "a) **Disacárido** ((sacarosa)), del grupo de los **glúcidos** (hidratos de carbono) (0,3 p).",
             "b) A: **glucosa** (α-D-glucopiranosa); B: **fructosa** (β-D-fructofuranosa). 0,15 p cada uno (0,3 p).",
             "c) **Enlace O-glucosídico** (0,2 p).",
             "d) **Hidrólisis** (0,2 p)."
