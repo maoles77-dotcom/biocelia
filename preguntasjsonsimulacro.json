@@ -22417,6 +22417,567 @@
   },
   {
     "id": 852,
+    "clave": "pau2025-valencia-1",
+    "bloque": "Biomoléculas",
+    "tema": "Nobel 2024: estructura de las proteínas y diseño de fármacos",
+    "tipo": "simulacro",
+    "pregunta": "Nobel de Química 2024 a David Baker, Demis Hassabis y John Jumper por revelar los secretos de las proteínas con IA y computación. La Real Academia de las Ciencias de Suecia ha otorgado este miércoles el Premio Nobel de Química 2024, con una mitad a David Baker por “el diseño de proteínas con computación” y la otra mitad conjuntamente a Demis Hassabis y John Jumper por “la predicción de la estructura de las proteínas mediante el uso de inteligencia artificial”. El comité que ha otorgado el galardón ha destacado las potenciales aplicaciones de sus logros científicos en numerosos procesos en los que están implicadas las proteínas, desde el desarrollo más rápido de vacunas al descubrimiento de nuevos nanomateriales, pasando por el diseño de fármacos dirigidos a tratar el cáncer o la evolución hacia una industria química más verde. (El País, 9 de octubre de 2024, Francisco Doménech.) a) Explique brevemente los diferentes niveles de complejidad estructural que se pueden diferenciar en una proteína. ¿A cuál/es de ellos haría referencia el texto? Razone su respuesta (1,25 puntos). b) Según esta noticia, la predicción de la estructura tridimensional de las proteínas supone un gran avance para estudios relacionados con la biomedicina. ¿Por qué es importante conocer la estructura de las proteínas? Justifique su respuesta (0,5 puntos). c) Una de las aplicaciones que se citan en el texto es el diseño de fármacos que podrían alterar la actividad enzimática de una proteína. ¿Qué zona de una enzima sería interesante analizar para poder diseñar una molécula que alterase su actividad? ¿Por qué? Indique un efecto que podría tener dicho fármaco sobre la reacción enzimática (0,75 puntos).",
+    "respuesta": [
+      "a) Primaria: secuencia lineal de aminoácidos. Secundaria: disposición espacial de la cadena por puentes de hidrógeno entre aminoácidos próximos. Terciaria: conformación por interacciones entre las cadenas laterales, que da la función. Cuaternaria: asociación de varias cadenas con estructura terciaria. El texto se refiere a la disposición espacial: secundaria, terciaria y cuaternaria (no a la primaria, aunque se basan en ella) (1,25 p).",
+      "b) Porque la estructura tridimensional determina la función: cada proteína tiene una estructura única que le da una actividad biológica específica (0,5 p).",
+      "c) El centro activo (vale el sitio alostérico), donde se une el sustrato y que determina la especificidad. El fármaco podría actuar como inhibidor, disminuyendo o anulando la actividad (o como activador) (0,75 p)."
+    ],
+    "palabras_clave": [
+      "Cuaternaria",
+      "Primaria",
+      "Secundaria",
+      "Terciaria",
+      "actividad biológica específica",
+      "asociación de varias cadenas",
+      "centro activo",
+      "da la función",
+      "determina la especificidad",
+      "disminuyendo o anulando la actividad",
+      "disposición espacial",
+      "estructura tridimensional determina la función",
+      "inhibidor",
+      "interacciones entre las cadenas laterales",
+      "puentes de hidrógeno",
+      "se une el sustrato",
+      "secuencia lineal de aminoácidos",
+      "secundaria, terciaria y cuaternaria",
+      "sitio alostérico"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de la Comunidad Valenciana (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de la Comunidad Valenciana (Ordinaria de 2025) criterios.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 853,
+    "clave": "pau2025-valencia-212",
+    "bloque": "Genética",
+    "tema": "Cariotipo con trisomía 21 y ciclo de Krebs",
+    "tipo": "simulacro",
+    "pregunta": "Apartado 2.1. a) Indique el nivel de ploidía que se representa en el siguiente cariotipo. ¿Existe algún tipo de mutación? ¿Dónde tendrá un mayor efecto una mutación, en una célula somática o en una germinal? Justifique sus respuestas (1,5 puntos). b) Identifique el proceso marcado con una A de la siguiente imagen. Explique brevemente el proceso indicando dónde se produce y cuáles son los productos finales (1 punto).",
+    "respuesta": [
+      "a) Es diploide. Hay una aneuploidía: trisomía del cromosoma 21 (síndrome de Down). Las mutaciones de la línea germinal tienen más efecto porque se transmiten a la descendencia; las somáticas no se transmiten (1,5 p).",
+      "b) Ciclo de Krebs, en la mitocondria matriz: oxidación completa del acetil-CoA a CO₂, produciendo 2 CO₂, GTP y poder reductor (3 NADH y 1 FADH₂) (1 p)."
+    ],
+    "palabras_clave": [
+      "2 CO₂",
+      "3 NADH y 1 FADH₂",
+      "Ciclo de Krebs",
+      "GTP",
+      "aneuploidía",
+      "diploide",
+      "línea germinal",
+      "mitocondria",
+      "oxidación completa del acetil-CoA a CO₂",
+      "se transmiten a la descendencia",
+      "síndrome de Down",
+      "trisomía del cromosoma 21"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de la Comunidad Valenciana (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de la Comunidad Valenciana (Ordinaria de 2025) criterios.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2025/valencia-21.webp"
+  },
+  {
+    "id": 854,
+    "clave": "pau2025-valencia-222",
+    "bloque": "Célula",
+    "tema": "Fases de la mitosis; ciclo de Calvin e importancia de la fotosíntesis",
+    "tipo": "simulacro",
+    "pregunta": "Apartado 2.2. a) ¿Qué tipo de división celular se representa en las imágenes? Relacione las siguientes imágenes con su correspondiente fase del ciclo celular e indique el orden cronológico correcto (1,5 puntos). b) ¿Dónde se produce el ciclo de Calvin? ¿Cuál es el producto final y cómo se produce? (0,5 puntos). c) ¿Cuál es la importancia biológica de la fotosíntesis? (0,5 puntos).",
+    "respuesta": [
+      "a) Mitosis: interfase (4), profase (1), metafase (3), anafase (5) y telofase (2). Orden: 4-1-3-5-2 (1,5 p).",
+      "b) En el estroma del cloroplasto: con el ATP y el NADPH se asimila el CO₂ y se obtiene gliceraldehído 3-fosfato (triosas fosfato) y finalmente glucosa (0,5 p).",
+      "c) Libera oxígeno y fija CO₂; los fotosintéticos son productores primarios, que transforman la materia inorgánica en orgánica, primer eslabón de la cadena trófica (0,5 p)."
+    ],
+    "palabras_clave": [
+      "ATP",
+      "CO₂",
+      "Libera oxígeno",
+      "Mitosis",
+      "NADPH",
+      "anafase (5)",
+      "estroma del cloroplasto",
+      "fija CO₂",
+      "gliceraldehído 3-fosfato",
+      "glucosa",
+      "interfase (4)",
+      "metafase (3)",
+      "primer eslabón de la cadena trófica",
+      "productores primarios",
+      "profase (1)",
+      "telofase (2)",
+      "transforman la materia inorgánica en orgánica"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de la Comunidad Valenciana (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de la Comunidad Valenciana (Ordinaria de 2025) criterios.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2025/valencia-22a.webp"
+  },
+  {
+    "id": 855,
+    "clave": "pau2025-valencia-313",
+    "bloque": "Célula",
+    "tema": "Orgánulos y funciones; traducción",
+    "tipo": "simulacro",
+    "pregunta": "Apartado 3.1. a) Relacione cada estructura/orgánulo con su función (1,5 puntos).Estructura/orgánuloFunción1. Ribosomaa. Movimiento de células libres en medio líquido2. Microtúbulosb. Síntesis de lípidos y derivados lipídicos3. Lisosomac. Síntesis de proteínas4. Aparato de Golgid. Transporte de orgánulos y estructuras intracelulares5. Retículo endoplasmático lisoe. Digestión intracelular de diferentes tipos de biomoléculas6. Flagelof. Glucosilación de proteínas y lípidosb) ¿Dónde se produce la traducción del ARN mensajero en la célula eucariota? Explique brevemente sus fases (1 punto).",
+    "respuesta": [
+      "a) 1-c; 2-d; 3-e; 4-f; 5-b; 6-a (1,5 p).",
+      "b) En los ribosomas, libres en el citosol o asociados al RER. Iniciación: la subunidad pequeña localiza el codón AUG, se une el ARNt con metionina en el sitio P y después la subunidad grande. Elongación: entra el aminoacil-ARNt en el sitio A, la peptidil transferasa forma el enlace peptídico y el ribosoma se transloca 5'→3'. Terminación: un codón de parada (UAA, UGA, UAG) en el sitio A, factores de terminación y disociación del ribosoma (1 p)."
+    ],
+    "palabras_clave": [
+      "1-c",
+      "2-d",
+      "3-e",
+      "4-f",
+      "5-b",
+      "6-a",
+      "ARNt con metionina en el sitio P",
+      "Elongación",
+      "Iniciación",
+      "RER",
+      "Terminación",
+      "aminoacil-ARNt en el sitio A",
+      "citosol",
+      "codón AUG",
+      "codón de parada",
+      "disociación",
+      "enlace peptídico",
+      "factores de terminación",
+      "peptidil transferasa",
+      "ribosomas",
+      "se transloca 5'→3'",
+      "subunidad grande",
+      "subunidad pequeña"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de la Comunidad Valenciana (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de la Comunidad Valenciana (Ordinaria de 2025) criterios.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 856,
+    "clave": "pau2025-valencia-323",
+    "bloque": "Genética",
+    "tema": "Verdadero o falso: splicing, código, PCR, mutaciones; bomba Na⁺/K⁺",
+    "tipo": "simulacro",
+    "pregunta": "Apartado 3.2. a) Indica si son verdaderas o falsas estas afirmaciones justificando las respuestas (1,5 puntos). a.1. El empalme (splicing) alternativo es el proceso que le permite a la célula obtener diferentes proteínas a partir de un único gen. a.2. El código genético es degenerado por lo que varios aminoácidos pueden estar codificados por un mismo triplete o codón. a.3. Las enzimas de restricción cortan la doble cadena de ADN cuando reconocen secuencias específicas. a.4. La reacción en cadena de la polimerasa (PCR) se utiliza para amplificar fragmentos de ADN inespecíficamente. a.5. Tanto la ADN polimerasa como la ARN polimerasa necesitan cebadores para iniciar sus procesos. a.6. Las mutaciones puntuales siempre tienen consecuencias negativas en el organismo. b) ¿Cuál es la estructura que se observa en la imagen? Explique brevemente su funcionamiento (1 punto).",
+    "respuesta": [
+      "a.1. Verdadero: a partir de un transcrito primario se obtienen distintas isoformas de ARNm y de proteínas.",
+      "a.2. Falso: es degenerado porque un aminoácido puede estar codificado por más de un codón.",
+      "a.3. Verdadero: son nucleasas que cortan el ADN bicatenario en secuencias específicas.",
+      "a.4. Falso: la PCR amplifica un fragmento concreto de ADN (millones de copias iguales).",
+      "a.5. Falso: la ADN polimerasa necesita cebador, pero la ARN polimerasa puede iniciar de novo.",
+      "a.6. Falso: pueden ser beneficiosas, neutras o perjudiciales. (1,5 p en total)",
+      "b) Bomba sodio-potasio, una ATPasa de la membrana plasmática que realiza transporte activo: con la hidrólisis de ATP saca Na⁺ y mete K⁺, en contra de gradiente 3 Na⁺ fuera por 2 K⁺ dentro (1 p)."
+    ],
+    "palabras_clave": [
+      "ADN polimerasa necesita cebador",
+      "ARN polimerasa puede iniciar de novo",
+      "ATPasa",
+      "Bomba sodio-potasio",
+      "Falso",
+      "Verdadero",
+      "beneficiosas, neutras o perjudiciales",
+      "cortan el ADN bicatenario en secuencias específicas",
+      "distintas isoformas de ARNm y de proteínas",
+      "en contra de gradiente",
+      "hidrólisis de ATP",
+      "nucleasas",
+      "saca Na⁺ y mete K⁺",
+      "transcrito primario",
+      "transporte activo",
+      "un aminoácido puede estar codificado por más de un codón",
+      "un fragmento concreto"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de la Comunidad Valenciana (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de la Comunidad Valenciana (Ordinaria de 2025) criterios.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2025/valencia-32b.webp"
+  },
+  {
+    "id": 857,
+    "clave": "pau2025-valencia-414",
+    "bloque": "Biotecnología",
+    "tema": "Levadura fresca frente a química; autoinmunidad y alergia",
+    "tipo": "simulacro",
+    "pregunta": "Apartado 4.1. a) Durante el confinamiento por la pandemia de COVID-19, en los supermercados españoles se acabó la levadura, tanto la fresca como la química. La levadura fresca contiene fermentos vivos y la levadura química o gasificante contiene bicarbonato sódico y un compuesto ácido que al reaccionar libera dióxido de carbono. Indique qué microorganismo está presente en la levadura fresca y explique el proceso que lleva a cabo una vez se añade a la masa de pan. Indique qué similitudes y diferencias hay entre el proceso llevado a cabo por la levadura fresca y por la levadura química (1,5 puntos). b) Defina autoinmunidad e inmunodeficiencia. ¿Es la alergia un tipo de proceso autoinmune? Razone su respuesta (1 punto).",
+    "respuesta": [
+      "a) La levadura Saccharomyces cerevisiae, que realiza la fermentación alcohólica: transforma azúcares en etanol y CO₂. Similitud: ambas producen CO₂ (que esponja la masa). Diferencia: las reacciones son distintas; en la levadura fresca las realiza un microorganismo y están catalizadas por enzimas (1,5 p).",
+      "b) Autoinmunidad: pérdida de tolerancia a los antígenos propios, que desencadenan la respuesta. Inmunodeficiencia: respuestas inmunitarias no efectivas. La alergia no es autoinmune: es una hipersensibilidad frente a un antígeno externo (1 p)."
+    ],
+    "palabras_clave": [
+      "Autoinmunidad",
+      "CO₂",
+      "Inmunodeficiencia",
+      "Saccharomyces cerevisiae",
+      "antígeno externo",
+      "catalizadas por enzimas",
+      "fermentación alcohólica",
+      "hipersensibilidad",
+      "microorganismo",
+      "no efectivas",
+      "no es autoinmune",
+      "pérdida de tolerancia a los antígenos propios",
+      "transforma azúcares en etanol y CO₂"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de la Comunidad Valenciana (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de la Comunidad Valenciana (Ordinaria de 2025) criterios.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 858,
+    "clave": "pau2025-valencia-424",
+    "bloque": "Inmunología",
+    "tema": "Vacuna del sarampión: respuesta primaria y secundaria; bacteriófago",
+    "tipo": "simulacro",
+    "pregunta": "Apartado 4.2. a) Se ha inyectado la vacuna del sarampión a una persona que no había padecido la enfermedad y a otra que sí la había padecido. ¿Qué tipo de respuesta inmune (primaria o secundaria) experimentará cada una de ellas tras recibir la vacuna? ¿Qué células del sistema inmune estarán principalmente implicadas y qué tipos de inmunoglobulinas se producirán mayoritariamente en cada caso? Justifique sus respuestas (1,5 puntos). b) Dibuje un bacteriófago indicando las principales estructuras (1 punto).",
+    "respuesta": [
+      "a) Sin enfermedad previa: respuesta primaria: los linfocitos T activan a los B, que dan células plasmáticas (anticuerpos sobre todo IgM) y células de memoria. Con enfermedad previa: respuesta secundaria, más rápida y efectiva, gracias a las células de memoria, con IgG (1,5 p).",
+      "b) Dibujo con al menos cuatro estructuras: cabeza o cápsida con el ácido nucleico dentro, cuello, vaina o cola, placa basal y fibras caudales (1 p)."
+    ],
+    "palabras_clave": [
+      "IgG",
+      "IgM",
+      "cabeza o cápsida",
+      "cuatro estructuras",
+      "cuello",
+      "células de memoria",
+      "células plasmáticas",
+      "fibras caudales",
+      "linfocitos T activan a los B",
+      "placa basal",
+      "respuesta primaria",
+      "respuesta secundaria",
+      "rápida y efectiva",
+      "vaina o cola",
+      "ácido nucleico"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de la Comunidad Valenciana (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de la Comunidad Valenciana (Ordinaria de 2025) criterios.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 859,
+    "clave": "pau2025-la-rioja-7",
+    "bloque": "Inmunología",
+    "tema": "Células madre «invisibles» para el Parkinson: rechazo inmunitario",
+    "tipo": "simulacro",
+    "pregunta": "Lea detenidamente la información que se adjunta y luego conteste a las preguntas que se plantean. Células «invisibles» para tratar los síntomas del Parkinson: Las células cerebrales humanas modificadas para evadir la detección por parte del sistema inmunológico han restaurado con éxito el control muscular en un modelo de rata con enfermedad de Parkinson. Los investigadores alteraron ocho genes en una línea de células madre humanas para aumentar su actividad, de modo que actuaran como una «capa de invisibilidad» inmunitaria. Luego, las células se diferenciaron en células nerviosas adecuadas para tratar la enfermedad de Parkinson. El estudio es un paso hacia el desarrollo de una línea celular «universal» que puede ser trasplantada a cualquier persona, para curar una serie de afecciones, desde la diabetes tipo 2 hasta la ceguera, sin la necesidad de medicamentos contra el rechazo. (Pavan et al., 2025, Cell Stem Cell.) En este trabajo se han utilizado células madre pluripotentes como base para realizar sobre ellas las modificaciones que se detallan, pero: a. ¿Qué son las células madre embrionarias? (0,5 puntos) b. ¿Qué quiere decir que son pluripotentes? Y, ¿el resto de las células de un organismo animal tienen características similares? (0,5 puntos) c. A qué se refiere la noticia cuando habla del rechazo. (0,5 puntos) d. ¿Qué modificaciones cree que se habrían realizado en las células para evitar la detección por parte del sistema inmune? (0,5 puntos) e. ¿Qué moléculas del sistema inmune podrían atacar estas células extrañas si no estuviesen modificadas? Explique brevemente su estructura. (0,5 puntos)",
+    "respuesta": [
+      "a. Células no especializadas procedentes de la masa celular interna del embrión temprano (blastocisto), capaces de dividirse indefinidamente y de diferenciarse en cualquier tipo celular del organismo.",
+      "b. Pueden originar células de las tres capas embrionarias, es decir, de cualquier tejido, pero no un organismo completo. La mayoría de las células del adulto están diferenciadas y no pueden hacerlo; solo algunas células madre adultas conservan una capacidad limitada (multipotentes).",
+      "c. Al rechazo inmunitario del trasplante: el sistema inmune del receptor reconoce como extrañas las moléculas del complejo mayor de histocompatibilidad (CMH, HLA) de las células trasplantadas y las destruye, sobre todo mediante linfocitos T.",
+      "d. Probablemente se eliminó o redujo la expresión de las moléculas del CMH y se aumentó la de moléculas inmunosupresoras que frenan a los linfocitos T y a las células NK, de modo que no fueran reconocidas como extrañas.",
+      "e. Anticuerpos (inmunoglobulinas): glucoproteínas en forma de Y con dos cadenas pesadas y dos ligeras unidas por puentes disulfuro, con regiones variables que se unen al antígeno y una región constante. También los receptores de los linfocitos T y el complemento."
+    ],
+    "palabras_clave": [],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de La Rioja (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de La Rioja (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 860,
+    "clave": "pau2025-la-rioja-1+3",
+    "bloque": "Biomoléculas",
+    "tema": "Monosacáridos: formas, series D y L e isomería · Características de la replicación del ADN",
+    "tipo": "simulacro",
+    "pregunta": "I. Los monosacáridos pueden existir en la naturaleza en diferentes formas estructurales: a) ¿Qué son los monosacáridos? (0,1 puntos) b) Explique en qué formas podemos encontrarlos en la naturaleza (0,2 puntos). c) ¿Qué son las estructuras D y L de los carbohidratos? ¿Qué relación tiene esto con los conceptos de enantiómeros, epímeros o diastereoisómeros? (0,7 puntos) (1 punto)  II. Cuando explicamos la replicación del ADN utilizamos términos que indican cómo se da este proceso. Explique qué quiere decir que la replicación es: a) Semiconservativa. (0,2 puntos) b) Bidireccional. (0,2 puntos) c) Que hay orígenes de replicación. (0,1 puntos) d) Que se produce en dirección 5' → 3' (0,2 puntos) e) Que se forma una horquilla de replicación. (0,2 puntos) f) Que necesita cebadores de ARN. (0,1 puntos) (1 punto)",
+    "respuesta": [
+      "I. a) Los glúcidos más sencillos, no hidrolizables: polihidroxialdehídos (aldosas) o polihidroxicetonas (cetosas) de 3 a 7 carbonos.",
+      "I. b) En forma lineal (abierta) y, los de 5 o más carbonos en disolución, sobre todo en forma cíclica (anillos de furanosa o piranosa), con los anómeros α y β.",
+      "I. c) D y L indican la posición del –OH del carbono asimétrico más alejado del grupo carbonilo: a la derecha (D) o a la izquierda (L) en la proyección de Fischer; en los seres vivos predominan los D. Una forma D y su L son enantiómeros (imágenes especulares). Los diastereoisómeros son estereoisómeros que no son imágenes especulares; los epímeros son diastereoisómeros que difieren en un solo carbono asimétrico (como glucosa y galactosa).",
+      "II. a) Cada molécula hija conserva una hebra original y tiene otra de nueva síntesis. b) Desde cada origen avanzan dos horquillas en sentidos opuestos. c) Hay secuencias concretas donde empieza la replicación: una en procariotas y muchas en eucariotas.",
+      "II. d) La ADN polimerasa solo añade nucleótidos al extremo 3'-OH, por lo que la nueva hebra crece en sentido 5'→3'; por eso una hebra es continua (adelantada) y la otra discontinua (fragmentos de Okazaki). e) Es la zona en forma de Y donde la helicasa separa las dos hebras y se copian. f) La ADN polimerasa no puede empezar una cadena: necesita un fragmento corto de ARN (cebador), sintetizado por la primasa, que luego se elimina."
+    ],
+    "palabras_clave": [],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de La Rioja (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de La Rioja (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 861,
+    "clave": "pau2025-la-rioja-a2+a4",
+    "bloque": "Metabolismo",
+    "tema": "Km, Vmax e inhibidores · El dogma central de la biología molecular",
+    "tipo": "simulacro",
+    "pregunta": "I. Cuando nos referimos a la actividad enzimática manejamos términos como Km y Vmax para caracterizar esta actividad. a) ¿Qué mide la Km, cuando nos referimos a la actividad de un enzima? ¿Qué indica si tiene un valor alto o bajo? (0,4 puntos) b) ¿Qué es la Vmax, en la reacción enzimática? (0,3 puntos) c) Explique qué son y cómo afectan a los parámetros anteriores los inhibidores competitivos y no competitivos. (0,8 puntos) (1,5 puntos)  II. El llamado “dogma central de la biología molecular” fue inicialmente propuesto por Francis Crick en 1958 y ha sido una base fundamental para comprender el flujo de información genética en las células. Sin embargo, a lo largo del tiempo este dogma ha evolucionado para incluir otros procesos moleculares que se han ido conociendo posteriormente. a) ¿Qué postulaba inicialmente este dogma? (0,3 puntos) b) Presente un esquema de la disposición inicial del dogma. (0,2 puntos) c) ¿Qué nuevas incorporaciones se han hecho a lo largo de los años a este dogma que han obligado a modificarlo? (0,3 puntos) d) Realice un esquema que represente la situación actual del dogma. (0,2 puntos) (1 punto)",
+    "respuesta": [
+      "I. a) La Km es la concentración de sustrato con la que la reacción alcanza la mitad de la velocidad máxima; mide la afinidad de la enzima por el sustrato. Una Km baja indica mucha afinidad; una Km alta, poca.",
+      "I. b) La Vmax es la velocidad máxima que alcanza la reacción cuando todas las moléculas de enzima están saturadas de sustrato.",
+      "I. c) Competitivos: se parecen al sustrato y compiten por el centro activo; aumentan la Km y no cambian la Vmax (se superan con más sustrato). No competitivos: se unen a otro lugar de la enzima y la deforman; disminuyen la Vmax y no cambian la Km.",
+      "II. a) Que la información genética fluye en un solo sentido: del ADN (que se replica) al ARN por transcripción y del ARN a las proteínas por traducción, nunca de las proteínas a los ácidos nucleicos.",
+      "II. b) ADN (replicación) → ARN → proteína.",
+      "II. c) La transcripción inversa (de ARN a ADN, en los retrovirus) y la replicación del ARN (en muchos virus de ARN); también se conoce la regulación por ARN no codificantes y la transmisión de conformaciones anómalas en los priones.",
+      "II. d) ADN ⇄ ARN → proteína, con flechas de replicación sobre el ADN y sobre el ARN, y la flecha de ARN a ADN de la transcripción inversa."
+    ],
+    "palabras_clave": [],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de La Rioja (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de La Rioja (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 862,
+    "clave": "pau2025-la-rioja-b2+b4",
+    "bloque": "Biomoléculas",
+    "tema": "ATP, AMPc y NAD⁺ · Genética del cáncer",
+    "tipo": "simulacro",
+    "pregunta": "I. En la imagen siguiente se presentan esquemas de varias moléculas. a) Indique el tipo de moléculas que son e identifique cada una de ellas. (0,4 puntos) b) Explique su estructura: componentes generales y enlaces. (0,5 puntos) c) Explique su función en el metabolismo de los seres vivos. (0,6 puntos) (1,5 puntos)  II. Cada día hay más evidencias de la relación del cáncer con la genética. Conteste a las siguientes cuestiones acerca de esta relación. a) ¿Qué son los protooncogenes y cómo pueden transformarse en oncogenes? (0,2 puntos) b) ¿Qué función tienen los genes supresores de tumores y los de reparación del ADN en la aparición del cáncer? (0,2 puntos) c) ¿Por qué se dice que el cáncer es una enfermedad genética pero no necesariamente hereditaria? (0,6 puntos) (1 punto)",
+    "respuesta": [
+      "I. a) Son nucleótidos no nucleicos: a, ATP (adenosín trifosfato); b, AMP cíclico (AMPc); c, NAD⁺ (nicotinamida adenina dinucleótido).",
+      "I. b) Todos tienen una base nitrogenada unida por enlace N-glucosídico al C1' de una ribosa, y grupos fosfato unidos por enlaces éster (fosfoéster) al C5'. El ATP tiene tres fosfatos unidos por enlaces anhídrido de alta energía; el AMPc, un fosfato unido a los C3' y C5' formando un anillo; el NAD⁺, dos nucleótidos (de nicotinamida y de adenina) unidos por sus fosfatos.",
+      "I. c) ATP: moneda energética, almacena y transfiere energía en sus enlaces fosfato. AMPc: segundo mensajero de hormonas. NAD⁺: coenzima de oxidorreducción que transporta electrones e hidrógenos (NADH) en el catabolismo, por ejemplo en la glucólisis y el ciclo de Krebs.",
+      "II. a) Genes normales que estimulan la división celular; se transforman en oncogenes (hiperactivos) por mutaciones puntuales, amplificaciones, translocaciones o inserción de virus.",
+      "II. b) Los supresores de tumores frenan la división o inducen la apoptosis de las células dañadas (como p53); los de reparación corrigen los errores del ADN. Si se inactivan por mutación, las células acumulan mutaciones y proliferan sin control.",
+      "II. c) Porque se origina por mutaciones en genes que controlan el ciclo celular, pero la mayoría ocurren en células somáticas a lo largo de la vida (por agentes mutagénicos o errores de replicación) y no se transmiten a los hijos. Solo algunas mutaciones de la línea germinal (como BRCA1) se heredan y predisponen al cáncer."
+    ],
+    "palabras_clave": [],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de La Rioja (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de La Rioja (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2025/rioja-2b.webp"
+  },
+  {
+    "id": 863,
+    "clave": "pau2025-murcia-3",
+    "bloque": "Biomoléculas",
+    "tema": "Caroteno, esfingomielina, testosterona y ácido araquidónico",
+    "tipo": "simulacro",
+    "pregunta": "PREGUNTA 3. BIOMOLÉCULAS (2 puntos): Clasifique las biomoléculas siguientes (concrete lo máximo posible), explique su importancia biológica y describa su estructura general: A) Caroteno (0,5 puntos). B) Esfingomielina (0,5 puntos). C) Testosterona (0,5 puntos). D) Ácido araquidónico (0,5 puntos).",
+    "respuesta": [
+      "Los criterios valoran identificar lípidos saponificables (esfingomielina y ácido araquidónico) y no saponificables (caroteno y testosterona), su importancia biológica y su estructura general.",
+      "A) Caroteno: lípido insaponificable, terpeno (tetraterpeno, 40 C, de 8 unidades de isopreno con dobles enlaces conjugados); pigmento fotosintético accesorio y precursor de la vitamina A.",
+      "B) Esfingomielina: lípido saponificable, esfingolípido (fosfoesfingolípido): esfingosina + ácido graso (ceramida) + fosfato + colina; anfipático, componente de las membranas, abundante en la vaina de mielina.",
+      "C) Testosterona: lípido insaponificable, esteroide (anillo de ciclopentanoperhidrofenantreno); hormona sexual masculina.",
+      "D) Ácido araquidónico: ácido graso poliinsaturado de 20 C con 4 dobles enlaces (omega-6), saponificable; forma parte de los fosfolípidos de membrana y es precursor de las prostaglandinas (eicosanoides), que intervienen en la inflamación."
+    ],
+    "palabras_clave": [
+      "caroteno",
+      "esfingomielina",
+      "estructura general",
+      "importancia biológica",
+      "no saponificables",
+      "saponificables",
+      "testosterona",
+      "ácido araquidónico"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Murcia (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Murcia (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 864,
+    "clave": "pau2025-murcia-4",
+    "bloque": "Célula",
+    "tema": "Fases del ciclo celular y punto de control R",
+    "tipo": "simulacro",
+    "pregunta": "PREGUNTA 4. BIOLOGÍA CELULAR (2 puntos): En relación con el ciclo celular: A) Enumere las fases de que consta el ciclo celular completo e indique, en términos generales, qué ocurre en la célula en cada una de ellas (1,5 puntos). B) Explique el punto de control R del ciclo celular (0,5 puntos).",
+    "respuesta": [
+      "A) Interfase, con las fases G1 crecimiento y síntesis de proteínas y orgánulos, S replicación del ADN y G2 preparación para la división; y división celular (fase M), con la mitosis reparto del material genético y la citocinesis división del citoplasma (1,5 p).",
+      "B) El punto R controla el paso de G1 a S: comprueba el tamaño celular, los nutrientes, las señales externas y el estado del ADN; superado, la célula se compromete a dividirse; si no, puede quedar en G0 (0,5 p)."
+    ],
+    "palabras_clave": [
+      "G1",
+      "G2",
+      "Interfase",
+      "S",
+      "citocinesis",
+      "controla el paso de G1 a S",
+      "división celular (fase M)",
+      "mitosis",
+      "replicación del ADN"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Murcia (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Murcia (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 865,
+    "clave": "pau2025-murcia-5",
+    "bloque": "Metabolismo",
+    "tema": "Fotosíntesis: ecuación global y fases",
+    "tipo": "simulacro",
+    "pregunta": "PREGUNTA 5. METABOLISMO (2 puntos): En relación con la fotosíntesis: A) Explique de forma concisa (una o dos frases) en qué consiste, escriba la ecuación global del proceso y razone si se trata de una vía anabólica o catabólica (1,25 puntos). B) Nombre las fases de que consta y explique la relación entre ellas (0,75 puntos).",
+    "respuesta": [
+      "A) Proceso por el que los organismos fotosintéticos transforman la energía luminosa en química y la usan para sintetizar materia orgánica a partir de CO₂ y H₂O, liberando O₂. Ecuación: 6 CO₂ + 6 H₂O + luz → C₆H₁₂O₆ + 6 O₂. Es una ruta anabólica: sintetiza moléculas complejas con aporte de energía (1,25 p).",
+      "B) Fase luminosa y fase sintética o ciclo de Calvin: la fase luminosa produce el ATP y el NADPH que el ciclo de Calvin consume para fijar el CO₂; este devuelve ADP, Pi y NADP⁺ a la fase luminosa (0,75 p)."
+    ],
+    "palabras_clave": [
+      "Fase luminosa",
+      "fase sintética o ciclo de Calvin",
+      "ruta anabólica"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Murcia (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Murcia (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 866,
+    "clave": "pau2025-murcia-6+7",
+    "bloque": "Genética",
+    "tema": "Genes procariotas y eucariotas · CRISPR-Cas9: ARN guía y Cas9",
+    "tipo": "simulacro",
+    "pregunta": "I. PREGUNTA 6. GENÉTICA MOLECULAR (1 punto): En relación con los genomas procariota y eucariota, explique en qué se diferencian los genes procariotas de los genes eucariotas (1 punto). (1 punto)  II. PREGUNTA 7. INGENIERÍA GENÉTICA Y BIOTECNOLOGÍA (1 punto): En relación con la técnica CRISPR-Cas9, describa los siguientes elementos y explique su papel en la técnica: A) Guía de ARN o ARN CRISPR (0,5 puntos). B) Cas9 (0,5 puntos). (1 punto)",
+    "respuesta": [
+      "I. Los genes eucariotas son fragmentados tienen exones e intrones, que se eliminan por maduración o splicing y monocistrónicos cada ARNm codifica una proteína; los procariotas son continuos sin intrones y policistrónicos un ARNm puede codificar varias proteínas, como en los operones (1 p).",
+      "II. A) ARN guía: ARN con una secuencia complementaria del ADN que se quiere editar; lleva a la Cas9 hasta ese punto exacto del genoma (0,5 p).",
+      "II. B) Cas9: endonucleasa que corta las dos hebras del ADN en el sitio indicado por el ARN guía; al repararse el corte se puede inactivar el gen o introducir una secuencia nueva (0,5 p)."
+    ],
+    "palabras_clave": [
+      "ARN guía",
+      "Cas9",
+      "continuos",
+      "exones e intrones",
+      "fragmentados",
+      "monocistrónicos",
+      "policistrónicos"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Murcia (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Murcia (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 867,
+    "clave": "pau2025-navarra-a1+a2",
+    "bloque": "Biomoléculas",
+    "tema": "Sales minerales: funciones y solubilidad · Seda de araña: proteínas y conformación β",
+    "tipo": "simulacro",
+    "pregunta": "I. Las sales minerales están presentes en todos los seres vivos. a) Describe una de sus funciones en la célula. (0.5 P) b) Relaciona la solubilidad de las sales con las funciones que cumplen en los seres vivos. (0.5 P) (1 punto)  II. En la figura 1 se muestra un esquema de la estructura de la seda de araña (Wikipedia). a) ¿De qué tipo de biomoléculas está formada? (0.25 P) b) Explica el tipo de enlace característico de estas biomoléculas. (0.5 P) c) ¿A qué hace referencia el término conformación-β en la figura y qué sentido tiene su presencia en la seda de araña? (0.25 P) (1 punto)",
+    "respuesta": [
+      "I. a) Por ejemplo, mantener el equilibrio osmótico (Na⁺, K⁺, Cl⁻) o regular el pH como tampones (bicarbonato, fosfatos); también intervienen en la transmisión del impulso nervioso o como cofactores enzimáticos (Mg²⁺).",
+      "I. b) Las sales insolubles (precipitadas) cumplen funciones estructurales: fosfato cálcico de huesos y dientes, carbonato cálcico de caparazones. Las solubles, disociadas en iones, cumplen funciones reguladoras: ósmosis, tampón, impulso nervioso, contracción muscular.",
+      "II. a) Proteínas.",
+      "II. b) El enlace peptídico: enlace covalente de tipo amida entre el grupo carboxilo de un aminoácido y el amino del siguiente, con liberación de agua; es rígido y plano por su carácter parcial de doble enlace.",
+      "II. c) A la lámina plegada β, una estructura secundaria en zigzag con cadenas paralelas o antiparalelas unidas por puentes de hidrógeno. En los segmentos cristalinos da a la seda gran resistencia a la tracción, mientras que los amorfos le dan elasticidad."
+    ],
+    "palabras_clave": [],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Navarra (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2025/navarra-2.webp"
+  },
+  {
+    "id": 868,
+    "clave": "pau2025-navarra-a3+a4",
+    "bloque": "Genética",
+    "tema": "Genoma procariota y eucariota; plásmidos · Gen de la glutenina: ARNm, traducción y trigo sin gluten",
+    "tipo": "simulacro",
+    "pregunta": "I. a) Presenta en una tabla dos diferencias entre el genoma procariota y el eucariota. (0.5 P) b) Explica qué son los plásmidos, dónde se encuentran y qué función cumplen. (0.5 P) (1 punto)  II. La siguiente secuencia de ADN corresponde a un fragmento del gen que expresa la proteína glutenina del trigo (Gluten): 5'- AGTTAAATGAACAAGGTACGT – 3' 3'- TCAATTTACTTGTTCCATGCA – 5' a) Escriba la secuencia del ARNm correspondiente. (0.25 P) b) Una vez formado el ARNm ¿Qué pasos debe de seguir hasta formarse la proteína? (0.5 P) c) ¿Cómo podríamos obtener trigo sin gluten? (0.25 P) (1 punto)",
+    "respuesta": [
+      "I. a) Procariota: ADN circular, en el nucleoide del citoplasma, sin histonas, genes continuos (sin intrones), poco ADN no codificante. Eucariota: varios cromosomas lineales, en el núcleo, asociados a histonas, genes con intrones, mucho ADN no codificante.",
+      "I. b) Pequeñas moléculas de ADN circular, extracromosómicas, que se replican de forma independiente; se encuentran en el citoplasma de las bacterias (y en algunas levaduras). Aportan genes ventajosos, como la resistencia a antibióticos, y se transfieren por conjugación; en biotecnología se usan como vectores.",
+      "II. a) Tomando como molde la cadena inferior (3'→5'), el ARNm es igual a la superior con U: 5'-AGUUAAAUGAACAAGGUACGU-3' (contiene el codón de inicio AUG).",
+      "II. b) Maduración en el núcleo (caperuza en 5', cola de poli-A y eliminación de intrones), salida al citoplasma por los poros nucleares y traducción en los ribosomas: iniciación en el AUG, elongación con los ARNt que llevan los aminoácidos y terminación en un codón de parada; después, plegamiento y modificaciones de la proteína (en el RER y el Golgi).",
+      "II. c) Con ingeniería genética, por ejemplo editando con CRISPR-Cas9 los genes de las gluteninas y gliadinas para inactivarlos o silenciándolos con ARN de interferencia (también por selección de variedades o mutagénesis)."
+    ],
+    "palabras_clave": [],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Navarra (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "dificultad": "media"
+  },
+  {
+    "id": 869,
+    "clave": "pau2025-navarra-a5+a6",
+    "bloque": "Célula",
+    "tema": "Verdadero o falso sobre la recombinación genética · Ribosomas eucariotas y endosimbiosis",
+    "tipo": "simulacro",
+    "pregunta": "I. Indica si las siguientes afirmaciones sobre recombinación genética (RG) son verdaderas o falsas razonando la respuesta. a) La RG ocurre entre las cromátidas hermanas cuando se juntan. (0.25 P) b) Los genes que recibe cada célula hija dependen de cómo se produzca la RG. (0.25 P) c) Los lugares en los que se ha producido RG presentan unas estructuras llamadas «quiasmas». (0.25 P) d) La RG promueve la evolución de las especies. (0.25 P) (1 punto)  II. a) Explica la estructura de los ribosomas eucariotas. (0.5 P) b) Indica su función y su localización en la célula. (0.25 P) c) ¿Cómo se explica la presencia de ribosomas en las mitocondrias y cloroplastos? (0.25 P) (1 punto)",
+    "respuesta": [
+      "I. a) Falsa: ocurre entre cromátidas no hermanas de cromosomas homólogos, en la profase I de la meiosis.",
+      "I. b) Verdadera: el intercambio de fragmentos determina qué combinación de alelos lleva cada cromátida y, por tanto, cada gameto (junto con la segregación al azar).",
+      "I. c) Verdadera: los quiasmas son los puntos de unión visibles donde se ha producido el entrecruzamiento.",
+      "I. d) Verdadera: genera nuevas combinaciones de alelos, es decir, variabilidad genética sobre la que actúa la selección natural.",
+      "II. a) Partículas sin membrana formadas por ARNr y proteínas, con dos subunidades: una grande (60S) y una pequeña (40S), que se unen para formar el ribosoma 80S al traducir.",
+      "II. b) Síntesis de proteínas (traducción). Se encuentran libres en el citosol, adosados al RER y a la membrana nuclear externa, y en mitocondrias y cloroplastos.",
+      "II. c) Por la teoría endosimbiótica: mitocondrias y cloroplastos proceden de bacterias que fueron englobadas por una célula ancestral; por eso tienen su propio ADN y ribosomas 70S, como los procariotas."
+    ],
+    "palabras_clave": [],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Navarra (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "dificultad": "media"
+  },
+  {
+    "id": 870,
+    "clave": "pau2025-navarra-a7+a8",
+    "bloque": "Metabolismo",
+    "tema": "Espeleólogo con poco oxígeno: respiración y fermentación · Esquema de la fotosíntesis; fotosíntesis en el mar",
+    "tipo": "simulacro",
+    "pregunta": "I. Un espeleólogo entra en una cueva donde el nivel de oxígeno ha descendido ((1 punto)  II. a) Elabora un esquema que represente las principales etapas de la fotosíntesis, indicando los productos iniciales y finales de cada etapa, así como la localización celular donde se llevan a cabo. (0.75 P) b) ¿Podemos encontrar actividad fotosintética en el mar? Razona la respuesta (0.25 P) (1 punto)",
+    "respuesta": [
+      "I. a) La respiración celular aerobia, en concreto la cadena de transporte electrónico y la fosforilación oxidativa, cuyo aceptor final de electrones es el O₂.",
+      "I. b) Con poco O₂ se produce menos ATP en las mitocondrias y las células musculares recurren a la fermentación láctica, que solo da 2 ATP por glucosa y acumula ácido láctico. El espeleólogo se fatigará antes, tendrá menos resistencia, calambres y respirará más deprisa.",
+      "II. a) Fase luminosa, en la membrana de los tilacoides: H₂O + luz + ADP + Pi + NADP⁺ → O₂ + ATP + NADPH. Fase oscura o ciclo de Calvin, en el estroma del cloroplasto: CO₂ + ATP + NADPH → glúcidos (triosas fosfato, glucosa) + ADP + Pi + NADP⁺.",
+      "II. b) Sí: en la zona iluminada (fótica) la realizan el fitoplancton (algas unicelulares y cianobacterias), las algas y las plantas marinas como la posidonia; producen buena parte del oxígeno del planeta."
+    ],
+    "palabras_clave": [],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Navarra (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "dificultad": "media"
+  },
+  {
+    "id": 871,
+    "clave": "pau2025-navarra-a9+a10",
+    "bloque": "Biotecnología",
+    "tema": "Plantas transgénicas: transferencia de genes · Enfermedad autoinmune, infecciosa y alergia",
+    "tipo": "simulacro",
+    "pregunta": "I. Las plantas transgénicas son utilizadas de forma habitual en la industria agrícola de América y Asia, mientras que en Europa su cultivo está muy regulado. Razona la respuesta a las siguientes preguntas. Los genes de una planta transgénica cultivada a) ¿pueden ser transferidos al genoma de una planta silvestre de modo natural? (0.25 P) b) ¿y al genoma de un consumidor de esa planta? (0.25 P) c) ¿Qué es una planta transgénica? (0.5 P) (1 punto)  II. Una persona desarrolla una enfermedad autoinmune. a) ¿Cuál es la diferencia entre una enfermedad autoinmune y una enfermedad infecciosa? (0.5 P) b) ¿Y respecto a las alergias? (0.5 P) (1 punto)",
+    "respuesta": [
+      "I. a) Sí, si son especies emparentadas: por polinización cruzada (flujo génico) el polen de la transgénica puede fecundar a una silvestre compatible; por eso se regula su cultivo.",
+      "I. b) No: al comerla, su ADN se degrada en la digestión a nucleótidos y no se incorpora al genoma del consumidor.",
+      "I. c) Una planta cuyo genoma se ha modificado por ingeniería genética introduciendo un gen de otra especie (transgén) para darle una característica nueva, como resistencia a plagas (maíz Bt) o a herbicidas.",
+      "II. a) En la autoinmune el sistema inmunitario ataca a moléculas o células propias (pérdida de la tolerancia); en la infecciosa, la causa es un patógeno externo (virus, bacteria…) que se multiplica en el organismo, y el sistema inmune lo combate.",
+      "II. b) La alergia es una respuesta exagerada (hipersensibilidad) frente a un antígeno externo inocuo (alérgeno), mediada por IgE, mastocitos e histamina; en la autoinmune el antígeno es propio."
+    ],
+    "palabras_clave": [],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Navarra (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "dificultad": "media"
+  },
+  {
+    "id": 872,
+    "clave": "pau2025-navarra-b11+b12",
+    "bloque": "Metabolismo",
+    "tema": "Efecto Warburg: enzimas, transportadores e intermediarios · Isoformas de las enzimas",
+    "tipo": "simulacro",
+    "pregunta": "I. La Sociedad Española de Bioquímica y Biología Molecular (SEBBM), publica una sección llamada «Rincón del aula» donde encontramos el siguiente texto (adaptado): Típicamente, las células tumorales se caracterizan por un aumento de la captación de glucosa para generar mayoritariamente lactato aún en presencia de oxígeno, fenómeno conocido como efecto Warburg o glicolisis aerobia (Figura 2). En este efecto se ha implicado a reguladores de la expresión génica como el factor inducible por hipoxia HIF-1. Este factor incrementa la expresión de los transportadores GLUT1 y GLUT3, la síntesis de enzimas glicolíticos como la hexoquinasa y la isoforma M2 de piruvato quinasa, así como la producción de lactato y su transporte al espacio extracelular por inducción de la expresión del enzima lactato deshidrogenasa y del transportador MCT4. Estas alteraciones conllevan, entre otras, una deficiencia en la función mitocondrial. La consecuente reducción en la respiración celular, junto a la inactivación de la piruvato deshidrogenasa mitocondrial, reforzarían la mayor dependencia en la glicolisis de estas células para la obtención de energía, dando una ventaja selectiva para la proliferación tumoral. a) Identifica en el texto el nombre de tres enzimas del proceso descrito. (0.25 P) b) ¿Qué función tienen GLUT1 y MCT4? (0.25 P) c) Identifica en el texto y/o gráfico dos intermediarios metabólicos y explica en qué punto del metabolismo intervienen. (0.5 P) (1 punto)  II. Una isoforma es cada una de las distintas formas de la misma proteína. Las distintas formas de una proteína podrían ser generadas por genes relacionados, o podrían generarse por el mismo gen. a) ¿Cuál es la ventaja evolutiva de que existan múltiples isoformas de una misma enzima en un organismo? (0.5 P) b) Considerando isoformas derivadas del mismo gen, indica un proceso que pueda dar lugar a las distintas formas de una misma proteína. (0.5 P) (1 punto)",
+    "respuesta": [
+      "I. a) Hexoquinasa, piruvato quinasa (isoforma M2), lactato deshidrogenasa y piruvato deshidrogenasa (tres).",
+      "I. b) GLUT1: transportador de membrana que introduce la glucosa en la célula (difusión facilitada). MCT4: transportador que saca el lactato al espacio extracelular.",
+      "I. c) Por ejemplo: piruvato, producto final de la glucólisis, que puede pasar a lactato (fermentación) o a acetil-CoA en la mitocondria; y acetil-CoA, formado por la piruvato deshidrogenasa, que entra en el ciclo de Krebs. También vale el lactato o la glucosa-6-fosfato, primer paso de la glucólisis por la hexoquinasa.",
+      "II. a) Permiten adaptar la misma reacción a las necesidades de cada tejido o situación, con distinta afinidad, regulación o localización (como la piruvato quinasa M2 del texto), lo que da flexibilidad metabólica y aumenta la diversidad de proteínas sin multiplicar el número de genes.",
+      "II. b) El splicing o empalme alternativo del ARNm, que combina distintos exones del mismo gen; también las modificaciones postraduccionales."
+    ],
+    "palabras_clave": [],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Navarra (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2025/navarra-b.webp"
+  },
+  {
+    "id": 873,
+    "clave": "pau2025-navarra-b13+b14",
+    "bloque": "Metabolismo",
+    "tema": "Glucólisis aerobia de las células tumorales · pH intracelular y proliferación del cáncer",
+    "tipo": "simulacro",
+    "pregunta": "I. En relación con el texto de la SEBBM sobre el efecto Warburg (las células tumorales captan más glucosa y generan sobre todo lactato aún en presencia de oxígeno, con una función mitocondrial deficiente): a) En base al texto anterior, explica mediante qué proceso o ruta metabólica obtienen la mayor parte de la energía las células tumorales. (0.5 P) b) En el texto, se hace referencia a la glicolisis aerobia ¿Qué relación tiene con el oxígeno? ¿es necesario el oxígeno para llevarla a cabo? Razona la respuesta. (0.5 P) (1 punto)  II. Un modelo computacional publicado en Nature Communications (2018) permite identificar nuevas dianas terapéuticas para atacar a las células cancerosas haciendo más ácido su pH (Figura 3: predicción computacional de la proliferación de células cancerosas y normales). a) Explica el gráfico. (0.5 P) b) ¿Qué importancia tiene en el cáncer la regulación del ciclo celular? (0.25 P) c) ¿Tiene importancia la dieta en la proliferación de tumores? Justifica la respuesta (0.25 P) (1 punto)",
+    "respuesta": [
+      "I. a) Mediante la glucólisis seguida de la fermentación láctica (piruvato → lactato): captan mucha glucosa y obtienen 2 ATP por molécula, porque la respiración mitocondrial está reducida y la piruvato deshidrogenasa inactivada.",
+      "I. b) Se llama aerobia porque ocurre en presencia de oxígeno, pero no lo necesita: la glucólisis y la fermentación láctica no usan O₂ (el NAD⁺ se regenera al formar lactato). Las células tumorales fermentan aunque haya oxígeno.",
+      "II. a) La proliferación de las células cancerosas depende mucho del pH intracelular: es baja con pH ácido (6,5) y máxima con pH alrededor de 7,5-8; las normales proliferan bien en casi todo el rango. Por eso acidificar el interior de las células tumorales frenaría su proliferación afectando poco a las normales.",
+      "II. b) El cáncer es una proliferación descontrolada por fallos en la regulación del ciclo (puntos de control, protooncogenes y genes supresores); si fallan los controles, las células se dividen sin freno y acumulan mutaciones.",
+      "II. c) Sí: los tumores dependen de captar mucha glucosa (efecto Warburg) y de otros nutrientes; la dieta influye en su disponibilidad y en factores como la obesidad o la inflamación, aunque no basta por sí sola para controlar un tumor."
+    ],
+    "palabras_clave": [],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Navarra (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2025/navarra-b.webp"
+  },
+  {
+    "id": 874,
     "clave": "pau2025-castilla-leon-31a3+31b3",
     "bloque": "Célula",
     "tema": "Funciones de orgánulos y tipos de transporte · Fases de la mitosis en una célula animal",
@@ -22435,7 +22996,7 @@
     "imagen": "assets/figuras/historico/2025/castilla-leon-31b.webp"
   },
   {
-    "id": 853,
+    "id": 875,
     "clave": "pau2025-castilla-leon-32a3+32b3",
     "bloque": "Metabolismo",
     "tema": "Esquema del catabolismo: procesos y localización · Agua en la fotosíntesis, fotosistemas y ciclo de Calvin",
@@ -22456,7 +23017,119 @@
     "imagen": "assets/figuras/historico/2025/castilla-leon-32a.webp"
   },
   {
-    "id": 854,
+    "id": 876,
+    "clave": "pau2025-la-rioja-5+a6",
+    "bloque": "Célula",
+    "tema": "Retículo, Golgi y lisosomas: el sistema de endomembranas · Envoltura nuclear",
+    "tipo": "simulacro",
+    "pregunta": "I. En la célula eucariota existen numerosos orgánulos que intervienen en procesos clave de su metabolismo, como pueden ser el retículo endoplasmático, el complejo de Golgi o los lisosomas. a) Explique brevemente la estructura de estos tres orgánulos. (0,6 puntos) b) Explique la relación estructural y funcional que hay entre ellos. (0,4 puntos) c) Explique su papel en el metabolismo celular. (0,5 puntos) (1,5 puntos)  II. El núcleo interfásico en las células eucariotas está rodeado por la envoltura nuclear. a) ¿Qué es y qué estructura tiene la envoltura nuclear? (0,5 puntos) b) ¿Qué funciones tiene la envoltura nuclear? (0,5 puntos) c) ¿Qué relación tiene con el sistema de endomembranas presentes en la célula? (0,5 puntos) (1,5 puntos)",
+    "respuesta": [
+      "I. a) Retículo endoplasmático: red de sacos y túbulos membranosos comunicados, rugoso (con ribosomas) o liso. Complejo de Golgi: pilas de sáculos aplanados (dictiosomas) con una cara cis y otra trans, y vesículas. Lisosomas: vesículas de una membrana con enzimas hidrolíticas y pH ácido.",
+      "I. b) Forman el sistema de endomembranas: del RER salen vesículas de transporte hacia la cara cis del Golgi; de la cara trans salen vesículas de secreción y los lisosomas primarios, que llevan enzimas fabricadas en el RER y maduradas en el Golgi.",
+      "I. c) RER: síntesis y glucosilación de proteínas; REL: síntesis de lípidos y detoxificación; Golgi: maduración, glucosilación y distribución de proteínas y lípidos, y secreción; lisosomas: digestión intracelular (heterofagia y autofagia).",
+      "II. a) Es la doble membrana que rodea el núcleo: una membrana externa (con ribosomas), un espacio perinuclear y una membrana interna, reforzada por la lámina nuclear; tiene poros nucleares formados por complejos proteicos.",
+      "II. b) Separa el contenido nuclear del citoplasma (la transcripción de la traducción) y regula a través de los poros el paso de moléculas: salida de ARN y subunidades ribosómicas, y entrada de proteínas como histonas o polimerasas; además, ancla la cromatina.",
+      "II. c) La membrana externa se continúa con el retículo endoplasmático y el espacio perinuclear con su luz; por tanto, forma parte del sistema de endomembranas."
+    ],
+    "palabras_clave": [],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de La Rioja (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de La Rioja (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 877,
+    "clave": "pau2025-la-rioja-b6+111",
+    "bloque": "Metabolismo",
+    "tema": "Plantas C3, C4 y CAM; fotorrespiración · Los glúcidos de los garbanzos como combustible",
+    "tipo": "simulacro",
+    "pregunta": "I. Cuando nos referimos a la forma de realizar la fotosíntesis citamos que existen tres tipos de plantas, las llamadas C3, las denominadas C4 y las CAM. a) ¿A qué hace referencia cada una de estas denominaciones? (0,3 puntos) b) Cite al menos dos ejemplos de planta de cada grupo. (0,3 puntos) c) El proceso de la fotorrespiración, ¿aparece por igual en los tres grupos de plantas citados? Justifique la respuesta. (0,5 puntos) d) ¿Qué consecuencias tiene la fotorrespiración para la productividad de la planta? (0,4 puntos) (1,5 puntos)  II. Las legumbres constituyen un grupo de alimentos con una composición nutricional excelente. Presentan un equilibrio en hidratos de carbono de alta calidad, fibra y proteínas, además de aportar minerales como el hierro, fósforo, magnesio y zinc, y vitaminas, principalmente del grupo B. Aportan, aproximadamente, un 50% de hidratos de carbono y un 20% de proteínas de alta calidad, lo que es perfecto para cubrir las necesidades de estos nutrientes. (Adaptado de: Equipo de endocrinología, nutrición y dietética de Quirón prevención. Octubre 5, 2022.) Imagine que ha comido garbanzos y, tras la digestión, las unidades constituyentes de los nutrientes que contienen se incorporan a sus células. A) ¿Cuál será el uso principal que harán sus células de las unidades constituyentes de los carbohidratos? (0,2 puntos). B) ¿Qué vías o procesos metabólicos tendrán lugar en sus células para ello, en condiciones aeróbicas? Indique el nombre de las vías o procesos y su localización precisa en la célula. ¿Cuáles serán los productos finales obtenidos? (1,3 puntos). (1,5 puntos)",
+    "respuesta": [
+      "I. a) C3: el primer compuesto estable al fijar el CO₂ en el ciclo de Calvin tiene 3 carbonos (3-fosfoglicerato). C4: fijan primero el CO₂ en un compuesto de 4 carbonos (oxalacetato) en unas células y lo liberan en otras para el ciclo de Calvin (separación espacial). CAM: fijan el CO₂ de noche como ácidos de 4 carbonos (málico) y lo usan de día con los estomas cerrados (separación temporal).",
+      "I. b) C3: trigo, arroz, soja. C4: maíz, caña de azúcar, sorgo. CAM: cactus, piña, crasuláceas como el aloe.",
+      "I. c) No: es importante en las C3, sobre todo con calor y estomas cerrados, porque la RuBisCO fija O₂ en vez de CO₂; en las C4 y CAM es mínima, porque concentran CO₂ alrededor de la RuBisCO.",
+      "I. d) Disminuye la productividad: consume ATP y NADPH y libera CO₂ ya fijado, de modo que se pierde parte del carbono y de la energía de la fotosíntesis.",
+      "II. A) Usar la glucosa como combustible metabólico: oxidarla para obtener energía (ATP)  (0,2 p).",
+      "II. B) Las rutas de la respiración aerobia de la glucosa: glucólisis en el citosol; descarboxilación oxidativa del piruvato y ciclo de Krebs en la matriz mitocondrial; cadena de transporte electrónico y fosforilación oxidativa en la membrana mitocondrial interna. Productos finales: CO₂, H₂O y energía en forma de ATP (1,3 p)."
+    ],
+    "palabras_clave": [
+      "CO₂, H₂O y energía en forma de ATP",
+      "cadena de transporte electrónico",
+      "ciclo de Krebs",
+      "combustible metabólico",
+      "descarboxilación oxidativa",
+      "fosforilación oxidativa",
+      "glucólisis",
+      "respiración aerobia de la glucosa"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de La Rioja (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de La Rioja (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 878,
+    "clave": "pau2025-murcia-121+212",
+    "bloque": "Célula",
+    "tema": "Colchicina, microtúbulos y citoesqueleto · Daltonismo: herencia ligada al sexo",
+    "tipo": "simulacro",
+    "pregunta": "I. En un periódico se podía leer la siguiente noticia: El Grupo de Síntesis Orgánica de la Universitat Jaume I ha desarrollado un derivado de la colchicina, uno de los fármacos contra el cáncer más potentes. Tal y como explican los investigadores, «la colchicina es uno de los compuestos naturales con mayor capacidad para detener la reproducción de las células cancerosas, pero su elevada toxicidad impide que pueda ser utilizado en tratamientos extensos como los que requieren los pacientes oncológicos» (El Mundo, 5 oct 2018). Para explicar la noticia a su padre, ha buscado y encontrado la siguiente información: «La colchicina es una sustancia química altamente tóxica para ciertas células; es un compuesto que bloquea la mitosis e interrumpe el transporte a lo largo de los axones de las neuronas. La colchicina inhibe la dinámica de formación de los microtúbulos uniéndose a la tubulina» (adaptado de Mundy y Tilson, Neurotoxicology, 1990). A) Teniendo en cuenta esta información y sus conocimientos sobre la composición y la función de los microtúbulos, explique cómo interfiere esta droga en: i) la reproducción de las células (0,5 puntos); ii) el correcto funcionamiento de las neuronas (0,5 puntos). B) Nombre otro componente del citoesqueleto de células eucariotas e indique su composición y una de sus funciones (0,5 puntos). (1,5 puntos)  II. El daltonismo es una alteración que causa dificultad para distinguir los colores y es un carácter cuya herencia está ligada al sexo. Luisa y Alfredo, los dos con visión normal, tienen un hijo daltónico, Daniel, y se preguntan cómo es posible, ya que tanto la madre y el padre de Luisa, como la madre y el padre de Alfredo tienen visión normal. Podría explicárselo contestando a las siguientes preguntas: A) Indique, razonando las respuestas, el genotipo de Luisa y de Alfredo (0,4 puntos). B) Indique, razonando la respuesta, de cuál de entre sus cuatro abuelos y abuelas ha heredado Daniel el cromosoma X afectado (0,4 puntos). C) Represente el cruce entre Luisa y Alfredo y razone si cabe esperar que entre la descendencia de la pareja haya una hija daltónica (0,7 puntos). (1,5 puntos)",
+    "respuesta": [
+      "I. A) i) Al unirse a la tubulina e impedir la formación de los microtúbulos, altera el huso mitótico y bloquea la mitosis los cromosomas no pueden separarse (0,5 p). ii) Interrumpe el transporte a lo largo de los axones, que se realiza sobre los microtúbulos con motores como la cinesina y la dineína (0,5 p).",
+      "I. B) Los filamentos de actina (microfilamentos), de actina, intervienen en la contracción, el movimiento ameboide y la citocinesis; o los filamentos intermedios, de proteínas fibrosas como la queratina, dan resistencia mecánica (0,5 p).",
+      "II. Problema de herencia ligada al sexo con un gen: el alelo del daltonismo (Xᵈ) es recesivo y está en el cromosoma X.",
+      "II. A) Alfredo tiene visión normal y un solo X: XᴰY. Luisa tiene visión normal pero su hijo varón es daltónico, y los varones reciben el X de la madre: Luisa es portadora, XᴰXᵈ.",
+      "II. B) Daniel recibió el Xᵈ de su madre Luisa, que a su vez lo recibió de uno de sus padres; como el padre de Luisa tiene visión normal (XᴰY), el Xᵈ procede de la abuela materna, la madre de Luisa, que es portadora.",
+      "II. C) XᴰXᵈ × XᴰY → hijas XᴰXᴰ (normales) y XᴰXᵈ (portadoras); hijos XᴰY (normales) y XᵈY (daltónicos). No cabe esperar hijas daltónicas, porque todas reciben el Xᴰ del padre."
+    ],
+    "palabras_clave": [
+      "Interrumpe el transporte a lo largo de los axones",
+      "actina",
+      "altera el huso mitótico",
+      "bloquea la mitosis",
+      "citocinesis",
+      "contracción",
+      "filamentos de actina (microfilamentos)",
+      "filamentos intermedios",
+      "herencia ligada al sexo",
+      "impedir la formación de los microtúbulos",
+      "resistencia mecánica",
+      "sobre los microtúbulos",
+      "unirse a la tubulina"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Murcia (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Murcia (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 879,
+    "clave": "pau2025-murcia-222+8",
+    "bloque": "Genética",
+    "tema": "Pimientos picantes y dulces: monohibridismo · Estructura del anticuerpo",
+    "tipo": "simulacro",
+    "pregunta": "I. Un agricultor cruzó plantas de pimiento picante con plantas de pimiento dulce y obtuvo una F1 en la que todas las plantas tenían pimientos picantes; del cruce de las plantas de la F1 entre sí obtuvo 31 plantas de pimientos picantes y 10 plantas de pimientos dulces (F2). A) Indique, razonando la respuesta, si el carácter dominante es que las plantas tengan pimientos dulces o pimientos picantes y el genotipo de las plantas cruzadas para obtener la F1 (0,4 puntos). B) Represente el cruce entre plantas de la F1 e indique el número aproximado de plantas con pimientos picantes de la F2 que se espera sean homocigóticas y heterocigóticas (0,8 puntos). C) ¿Cómo podría el agricultor averiguar qué plantas de las 31 con pimientos picantes son heterocigóticas? Razone la respuesta (0,3 puntos). (1,5 puntos)  II. PREGUNTA 8. INMUNOLOGÍA (1 punto). En relación con el siguiente esquema: A) Identifique la molécula representada y nombre las partes que señalan los números del 1 al 4 (0,5 p.). B) Mencione el tipo de respuesta inmunitaria en la que está implicada la molécula (concrete lo máximo posible). ¿Qué función tienen las regiones marcadas con el número 1? (0,25 puntos). C) Nombre las células que forman esta molécula y explique su procedencia (0,25 puntos). (1 punto)",
+    "respuesta": [
+      "I. Problema de herencia con relación de dominancia y recesividad con un gen.",
+      "I. A) Dominante: picante (P), porque toda la F1 es picante. Parentales homocigóticos: PP (picante) × pp (dulce).",
+      "I. B) Pp × Pp → 1 PP : 2 Pp : 1 pp (3 picantes : 1 dulce, como 31:10). De las 31 picantes, aproximadamente 1/3 homocigóticas (unas 10) y 2/3 heterocigóticas (unas 21).",
+      "I. C) Con un cruzamiento prueba con plantas dulces (pp): si alguna descendiente es dulce, la planta es heterocigótica (Pp); si todas son picantes, es PP.",
+      "II. A) Anticuerpo inmunoglobulina: 1, regiones variables o sitios de unión al antígeno; 2, cadenas ligeras; 3, puentes disulfuro; 4, cadenas pesadas (0,5 p).",
+      "II. B) Respuesta humoral de la defensa específica; las regiones 1 reconocen y se unen específicamente al antígeno (0,25 p).",
+      "II. C) Las células plasmáticas, que proceden de linfocitos B activados (0,25 p)."
+    ],
+    "palabras_clave": [
+      "Anticuerpo",
+      "Respuesta humoral",
+      "células plasmáticas",
+      "defensa específica",
+      "linfocitos B activados",
+      "relación de dominancia y recesividad"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Murcia (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Examen Biología de Murcia (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2025/murcia-8.webp"
+  },
+  {
+    "id": 880,
     "clave": "pau2026-modelo-1",
     "bloque": "Genética",
     "tema": "Replicación en una célula procariota",
@@ -22492,7 +23165,7 @@
     "dificultad": "media"
   },
   {
-    "id": 855,
+    "id": 881,
     "clave": "pau2026-modelo-2",
     "bloque": "Célula",
     "tema": "Tipos celulares, nutrición y teoría celular",
@@ -22525,7 +23198,7 @@
     "dificultad": "media"
   },
   {
-    "id": 856,
+    "id": 882,
     "clave": "pau2026-modelo-13",
     "bloque": "Metabolismo",
     "tema": "Cadena respiratoria y fosforilación oxidativa",
@@ -22563,7 +23236,7 @@
     "imagen": "assets/figuras/historico/2026/ej3-op1.webp"
   },
   {
-    "id": 857,
+    "id": 883,
     "clave": "pau2026-modelo-23",
     "bloque": "Metabolismo",
     "tema": "Fase fotoquímica y lípidos de membrana",
@@ -22604,7 +23277,7 @@
     "imagen": "assets/figuras/historico/2026/ej3-op2.webp"
   },
   {
-    "id": 858,
+    "id": 884,
     "clave": "pau2026-modelo-14",
     "bloque": "Biotecnología",
     "tema": "La PCR paso a paso",
@@ -22637,7 +23310,7 @@
     "imagen": "assets/figuras/historico/2026/ej4-op1.webp"
   },
   {
-    "id": 859,
+    "id": 885,
     "clave": "pau2026-modelo-24",
     "bloque": "Microbiología",
     "tema": "El yogur y otros usos de los microorganismos",
@@ -22669,7 +23342,7 @@
     "dificultad": "media"
   },
   {
-    "id": 860,
+    "id": 886,
     "clave": "pau2026-modelo-15",
     "bloque": "Inmunología",
     "tema": "Inmunoglobulinas y grupos sanguíneos",
@@ -22707,7 +23380,7 @@
     "imagen": "assets/figuras/historico/2026/ej5-op1.webp"
   },
   {
-    "id": 861,
+    "id": 887,
     "clave": "pau2026-modelo-25",
     "bloque": "Inmunología",
     "tema": "Curso de una infección: IgM e IgG",
