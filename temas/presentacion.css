@@ -1,0 +1,267 @@
+/* ══════════════════════════════════════════════════════════════
+   BioCelia · Presentaciones de los temas PAU
+   Diapositivas 16:9 (1280×720) escaladas a la pantalla.
+   Al imprimir, cada diapositiva ocupa una página apaisada.
+   ══════════════════════════════════════════════════════════════ */
+
+:root {
+  --ink: #1f2d3a;
+  --muted: #5c6b78;
+  --pri: #0f4c81;
+  --pri-strong: #093252;
+  --pri-soft: #e7f0f8;
+  --acc: #c77d00;
+  --acc-soft: #fff4df;
+  --ok: #1e7a4c;
+  --ok-soft: #e5f4ec;
+  --ko: #b03a2e;
+  --ko-soft: #fbeae8;
+  --extra: #6d3fc0;
+  --extra-soft: #f1ebfb;
+  --marca: #ffef9f;
+  --teal: #2a9d8f;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; }
+body {
+  background: #0b1a2a;
+  color: var(--ink);
+  font-family: 'Nunito', 'Segoe UI', system-ui, sans-serif;
+  overflow: hidden;
+}
+
+.escenario {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+}
+.lienzo {
+  width: 1280px;
+  height: 720px;
+  position: relative;
+  transform-origin: center center;
+}
+
+.slide {
+  position: absolute;
+  inset: 0;
+  background: #fff;
+  border-radius: 6px;
+  padding: 56px 72px 48px;
+  display: none;
+  flex-direction: column;
+  overflow: hidden;
+  font-size: 26px;
+  line-height: 1.4;
+}
+.slide.activa { display: flex; animation: entra 0.35s ease; }
+@keyframes entra { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .slide.activa { animation: none; } }
+
+/* Cinta superior de cada diapositiva */
+.slide::before {
+  content: "";
+  position: absolute;
+  left: 0; top: 0; right: 0;
+  height: 10px;
+  background: linear-gradient(90deg, var(--pri), #2a7fc1 60%, var(--teal));
+}
+.slide .pie {
+  position: absolute;
+  left: 72px; right: 72px; bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.slide h2 {
+  font-size: 44px;
+  line-height: 1.1;
+  margin: 0 0 26px;
+  color: var(--pri-strong);
+  font-weight: 900;
+}
+.slide h2 small {
+  display: block;
+  font-size: 18px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--acc);
+  margin-bottom: 8px;
+}
+.slide h3 { font-size: 28px; margin: 0 0 10px; color: var(--pri); }
+.slide p { margin: 0 0 14px; }
+.slide ul { margin: 0; padding-left: 1.2em; }
+.slide li { margin: 0 0 12px; }
+.slide b, .slide strong { color: var(--pri-strong); }
+
+/* Portada y cierres */
+.slide.portada {
+  background: linear-gradient(135deg, var(--pri-strong), var(--pri) 55%, #2a7fc1);
+  color: #fff;
+  justify-content: center;
+}
+.slide.portada::before { display: none; }
+.slide.portada h1 { font-size: 60px; max-width: 760px; line-height: 1.05; margin: 14px 0 18px; font-weight: 900; }
+.slide.portada p { font-size: 26px; opacity: 0.9; max-width: 900px; }
+.slide.portada .etiqueta {
+  display: inline-block;
+  align-self: flex-start;
+  font-size: 18px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: rgba(255, 255, 255, 0.16);
+  padding: 6px 16px;
+  border-radius: 999px;
+}
+.slide.portada .pie { color: rgba(255, 255, 255, 0.75); }
+.slide.portada b { color: #fff; }
+.portada-img {
+  position: absolute;
+  right: 60px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 370px;
+  background: #fff;
+  border-radius: 28px;
+  padding: 18px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+}
+.portada-img img { display: block; width: 100%; }
+
+/* Rejillas */
+.cols { display: grid; gap: 28px; grid-template-columns: 1fr 1fr; align-items: center; align-content: center; flex: 1; min-height: 0; }
+.cols.c3 { grid-template-columns: repeat(3, 1fr); }
+.cols.c3, .cols:has(> .tarj) { align-items: stretch; }
+.cols.img-izq { grid-template-columns: 1.15fr 1fr; }
+.cols.img-der { grid-template-columns: 1fr 1.15fr; }
+.centro { flex: 1; display: grid; place-items: center; min-height: 0; }
+.centro img, .cols img { max-height: 520px; max-width: 100%; object-fit: contain; }
+
+/* Tarjetas */
+.tarj {
+  border-radius: 16px;
+  padding: 20px 22px;
+  background: var(--pri-soft);
+  border-top: 8px solid var(--pri);
+  font-size: 23px;
+}
+.tarj h3 { margin-bottom: 6px; }
+.tarj .grande { font-size: 46px; font-weight: 900; color: var(--pri); line-height: 1.1; }
+.tarj.t2 { background: #e3f4f1; border-top-color: var(--teal); }
+.tarj.t2 .grande, .tarj.t2 h3 { color: #1f7a6f; }
+.tarj.t3 { background: var(--acc-soft); border-top-color: var(--acc); }
+.tarj.t3 .grande, .tarj.t3 h3 { color: #8a5600; }
+.tarj.t4 { background: var(--extra-soft); border-top-color: var(--extra); }
+.tarj.t4 h3 { color: var(--extra); }
+
+/* Tablas */
+table.t { width: 100%; border-collapse: collapse; font-size: 21px; }
+.t th { background: var(--pri); color: #fff; text-align: left; padding: 9px 14px; }
+.t td { padding: 8px 14px; border-bottom: 1px solid #dde5ec; vertical-align: top; }
+.t tr:nth-child(even) td { background: #f6f9fb; }
+.t td:first-child { font-weight: 800; color: var(--pri-strong); }
+
+/* Recuadros */
+.aviso { border-radius: 14px; padding: 16px 20px; font-size: 23px; border-left: 8px solid; margin-top: 14px; }
+.aviso.ojo { background: var(--ko-soft); border-color: var(--ko); }
+.aviso.truco { background: var(--ok-soft); border-color: var(--ok); }
+.aviso.pau { background: var(--acc-soft); border-color: var(--acc); }
+.aviso .tt { display: block; font-size: 15px; font-weight: 900; letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 4px; }
+.aviso.ojo .tt { color: var(--ko); }
+.aviso.truco .tt { color: var(--ok); }
+.aviso.pau .tt { color: #8a5600; }
+
+.clave { background: linear-gradient(transparent 45%, var(--marca) 45%); font-weight: 800; }
+.extra { color: var(--extra); }
+.nuevo {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 900;
+  color: #fff;
+  background: var(--acc);
+  padding: 3px 12px;
+  border-radius: 999px;
+  vertical-align: middle;
+  letter-spacing: 0.04em;
+}
+.ec {
+  font-family: 'Cambria Math', 'Times New Roman', serif;
+  font-size: 34px;
+  text-align: center;
+  background: #f6f9fb;
+  border: 2px dashed #dde5ec;
+  border-radius: 14px;
+  padding: 14px;
+  margin: 8px 0 18px;
+}
+.cadena { display: flex; align-items: center; justify-content: center; gap: 14px; flex-wrap: wrap; font-size: 26px; font-weight: 800; }
+.cadena span { background: var(--pri-soft); color: var(--pri-strong); padding: 10px 18px; border-radius: 12px; }
+.cadena i { font-style: normal; color: var(--acc); font-size: 32px; }
+
+/* Revelado paso a paso */
+.paso { transition: opacity 0.25s ease; }
+.paso.oculto { opacity: 0; }
+
+/* Pregunta reto */
+.reto { background: var(--acc-soft); border-radius: 16px; padding: 22px 26px; font-size: 25px; border-left: 10px solid var(--acc); }
+.respuesta { background: var(--ok-soft); border-radius: 16px; padding: 18px 24px; font-size: 23px; border-left: 10px solid var(--ok); margin-top: 18px; }
+
+/* ─── Controles ─── */
+.controles {
+  position: fixed;
+  left: 50%;
+  bottom: 12px;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(9, 27, 45, 0.88);
+  color: #fff;
+  border-radius: 999px;
+  padding: 6px 10px;
+  font-size: 14px;
+  z-index: 10;
+  transition: opacity 0.3s;
+}
+.controles.dormido { opacity: 0; }
+.controles button, .controles a {
+  background: none;
+  border: 0;
+  color: #fff;
+  font: inherit;
+  font-size: 16px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.controles button:hover, .controles a:hover, .controles button:focus-visible { background: rgba(255, 255, 255, 0.16); outline: none; }
+.controles .contador { min-width: 64px; text-align: center; font-variant-numeric: tabular-nums; }
+.progreso { position: fixed; left: 0; top: 0; height: 4px; background: var(--acc); z-index: 10; transition: width 0.3s; }
+
+/* ─── Impresión: una diapositiva por página ─── */
+@page { size: 297mm 167.06mm; margin: 0; }
+@media print {
+  html, body { height: auto; overflow: visible; background: #fff; }
+  .controles, .progreso { display: none !important; }
+  .escenario { position: static; display: block; }
+  .lienzo { transform: none !important; width: auto; height: auto; }
+  .slide {
+    position: relative;
+    display: flex !important;
+    width: 1280px;
+    height: 720px;
+    zoom: 0.8769;
+    border-radius: 0;
+    break-after: page;
+    animation: none !important;
+  }
+  .paso.oculto { opacity: 1; }
+  .clave { background: var(--marca); border-radius: 3px; }
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}

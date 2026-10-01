@@ -33,3 +33,9 @@ venv/
 Thumbs.db
 desktop.ini
 .DS_Store
+
+# ─── Biblioteca de consulta (libros con derechos de autor: solo en local) ───
+LIBROSBIOLOGÍA/
+
+# ─── Excepción: PDF de los apuntes generados por BioCelia ───
+!temas/pdf/*.pdf
