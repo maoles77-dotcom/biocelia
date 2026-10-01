@@ -27,7 +27,7 @@ def estructura(atomos, enlaces, size=22):
         n = math.hypot(x2 - x1, y2 - y1)
         ux, uy = (x2 - x1) / n, (y2 - y1) / n
         def hueco(et):
-            ancho = max(1, len(et.replace('₂', '').replace('₃', ''))) * size * 0.34
+            ancho = max(1, len(et.replace('₂', '').replace('₃', ''))) * size * 0.38
             return max(size * 0.62, abs(ux) * ancho + abs(uy) * size * 0.62)
         ga, gb = hueco(atomos[a][2]), hueco(atomos[b][2])
         p, q = (x1 + ux * ga, y1 + uy * ga), (x2 - ux * gb, y2 - uy * gb)

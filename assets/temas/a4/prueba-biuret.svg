@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 305" role="img" font-family="Nunito, 'Segoe UI', system-ui, sans-serif"><title>Prueba de Biuret: negativa azul y positiva violeta</title>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2a7fc1"/></marker><marker id="fk" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#22313f"/></marker><radialGradient id="gO" cx="35%" cy="35%" r="70%"><stop offset="0" stop-color="#f08a7e"/><stop offset="1" stop-color="#c0392b"/></radialGradient><radialGradient id="gH" cx="35%" cy="35%" r="70%"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#d5dde3"/></radialGradient></defs>
+<text x="165.0" y="20.0" font-size="16" text-anchor="middle" font-weight="900" fill="#0f4c81" >Biuret: proteínas</text>
+<path d="M58,40 V190 A22,22 0 0 0 102,190 V40" fill="#fff" stroke="#7b8a97" stroke-width="3"/><path d="M60,110 V190 A20,20 0 0 0 100,190 V110z" fill="#7fb3e6"/><text x="80.0" y="240.0" font-size="15" text-anchor="middle" font-weight="900" fill="#22313f" >Negativo</text>
+<text x="80.0" y="258.0" font-size="12" text-anchor="middle" font-weight="700" fill="#4c5b67" >azul</text>
+<path d="M228,40 V190 A22,22 0 0 0 272,190 V40" fill="#fff" stroke="#7b8a97" stroke-width="3"/><path d="M230,110 V190 A20,20 0 0 0 270,190 V110z" fill="#7b3fb0"/><text x="250.0" y="240.0" font-size="15" text-anchor="middle" font-weight="900" fill="#22313f" >Positivo</text>
+<text x="250.0" y="258.0" font-size="12" text-anchor="middle" font-weight="700" fill="#4c5b67" >violeta</text>
+<text x="165.0" y="290.0" font-size="13" text-anchor="middle" font-weight="800" fill="#22313f" >detecta los enlaces peptídicos</text>
+</svg>
