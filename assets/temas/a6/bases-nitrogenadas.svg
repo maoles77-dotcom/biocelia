@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 210" role="img" font-family="Nunito, 'Segoe UI', system-ui, sans-serif"><title>Bases púricas, adenina y guanina, y pirimidínicas, citosina, timina y uracilo</title>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2a7fc1"/></marker><marker id="fk" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#22313f"/></marker><radialGradient id="gO" cx="35%" cy="35%" r="70%"><stop offset="0" stop-color="#f08a7e"/><stop offset="1" stop-color="#c0392b"/></radialGradient><radialGradient id="gH" cx="35%" cy="35%" r="70%"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#d5dde3"/></radialGradient></defs>
+<text x="170.0" y="30.0" font-size="17" text-anchor="middle" font-weight="900" fill="#0f4c81" >Púricas (dos anillos)</text>
+<text x="540.0" y="30.0" font-size="17" text-anchor="middle" font-weight="900" fill="#0f4c81" >Pirimidínicas (un anillo)</text>
+<polygon points="107.0,118.6 74.8,137.2 42.6,118.6 42.6,81.4 74.8,62.8 107.0,81.4" fill="#e76f51" stroke="#22313f" stroke-width="2"/><polygon points="170.2,100.0 147.4,131.4 110.5,119.4 110.5,80.6 147.4,68.6" fill="#e76f51" stroke="#22313f" stroke-width="2"/><text x="74.8" y="106.0" font-size="42.0" text-anchor="middle" font-weight="900" fill="#fff" >A</text>
+<text x="100.0" y="175.0" font-size="15" text-anchor="middle" font-weight="900" fill="#22313f" >Adenina</text>
+<text x="100.0" y="194.0" font-size="12" text-anchor="middle" font-weight="800" fill="#4c5b67" >ADN y ARN</text>
+<polygon points="257.0,118.6 224.8,137.2 192.6,118.6 192.6,81.4 224.8,62.8 257.0,81.4" fill="#264653" stroke="#22313f" stroke-width="2"/><polygon points="320.2,100.0 297.4,131.4 260.5,119.4 260.5,80.6 297.4,68.6" fill="#264653" stroke="#22313f" stroke-width="2"/><text x="224.8" y="106.0" font-size="42.0" text-anchor="middle" font-weight="900" fill="#fff" >G</text>
+<text x="250.0" y="175.0" font-size="15" text-anchor="middle" font-weight="900" fill="#22313f" >Guanina</text>
+<text x="250.0" y="194.0" font-size="12" text-anchor="middle" font-weight="800" fill="#4c5b67" >ADN y ARN</text>
+<polygon points="457.4,121.6 420.0,143.2 382.6,121.6 382.6,78.4 420.0,56.8 457.4,78.4" fill="#e9c46a" stroke="#22313f" stroke-width="2"/><text x="420.0" y="106.0" font-size="42.0" text-anchor="middle" font-weight="900" fill="#22313f" >C</text>
+<text x="420.0" y="175.0" font-size="15" text-anchor="middle" font-weight="900" fill="#22313f" >Citosina</text>
+<text x="420.0" y="194.0" font-size="12" text-anchor="middle" font-weight="800" fill="#4c5b67" >ADN y ARN</text>
+<polygon points="567.4,121.6 530.0,143.2 492.6,121.6 492.6,78.4 530.0,56.8 567.4,78.4" fill="#2a9d8f" stroke="#22313f" stroke-width="2"/><text x="530.0" y="106.0" font-size="42.0" text-anchor="middle" font-weight="900" fill="#fff" >T</text>
+<text x="530.0" y="175.0" font-size="15" text-anchor="middle" font-weight="900" fill="#22313f" >Timina</text>
+<text x="530.0" y="194.0" font-size="12" text-anchor="middle" font-weight="800" fill="#c0392b" >solo ADN</text>
+<polygon points="677.4,121.6 640.0,143.2 602.6,121.6 602.6,78.4 640.0,56.8 677.4,78.4" fill="#8ab17d" stroke="#22313f" stroke-width="2"/><text x="640.0" y="106.0" font-size="42.0" text-anchor="middle" font-weight="900" fill="#22313f" >U</text>
+<text x="640.0" y="175.0" font-size="15" text-anchor="middle" font-weight="900" fill="#22313f" >Uracilo</text>
+<text x="640.0" y="194.0" font-size="12" text-anchor="middle" font-weight="800" fill="#c0392b" >solo ARN</text>
+<line x1="330" y1="40" x2="330" y2="200" stroke="#dde5ec" stroke-width="2"/></svg>
