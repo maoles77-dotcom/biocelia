@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Apuntes PAU de Biología (Andalucía 2026-27), Bloque A: prácticas de identificación de biomoléculas con Benedict, Lugol, Biuret y Sudán.">
+<title>Identificación de biomoléculas · BioCelia</title>
+<link rel="stylesheet" href="../pau-theme.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="apuntes.css">
+</head>
+<body>
+<a class="skip-link" href="#main-content">Saltar al contenido</a>
+
+<nav class="site-nav" aria-label="Navegación principal">
+  <a href="../index.html">Inicio</a>
+  <a href="../orientacionespau.html">Orientaciones</a>
+  <a class="active" href="../resumenespau.html">Resúmenes</a>
+  <a href="../Entrenamientopau.html">Entrenamiento</a>
+  <a href="../simulacropau.html">Simulacro</a>
+  <a href="../laboratoriocompetencial.html">Laboratorio</a>
+  <a href="../laboratorioinvestigacion.html">Investigación</a>
+</nav>
+
+<div class="apuntes">
+
+<details class="indice">
+  <summary>Índice del tema</summary>
+  <ol>
+    <li><a href="#pau">Qué entra en la PAU</a></li>
+    <li><a href="#ensayos">Los cuatro ensayos</a></li>
+    <li><a href="#controles">Controles y diseño experimental</a></li>
+    <li><a href="#estrategia">Cómo resolver un problema</a></li>
+    <li><a href="#examen">Así se pregunta en la PAU</a></li>
+    <li><a href="#autoevaluacion">Autoevaluación</a></li>
+  </ol>
+</details>
+
+<main class="contenido" id="main-content">
+
+<header class="hero">
+  <span class="etiqueta">Bloque A · Biomoléculas · Prácticas <span style="margin-left:6px">Nuevo 26-27</span></span>
+  <h1>Prácticas de identificación de biomoléculas</h1>
+  <p>Cuatro reactivos, cuatro cambios de color y una forma de razonar: deducir qué moléculas hay en una muestra a partir de lo que se observa en el tubo.</p>
+  <div class="acciones">
+    <a class="btn claro" href="a8-practicas-biomoleculas-presentacion.html">🎞️ Presentación</a>
+    <a class="btn" href="a8-practicas-biomoleculas-resumen.html">📝 Resumen</a>
+    <a class="btn" href="pdf/a8-practicas-biomoleculas.pdf" download>⬇️ Descargar PDF</a>
+    <button class="btn" type="button" data-imprimir>🖨️ Imprimir</button>
+    <a class="btn" href="../laboratoriocompetencial.html">🔬 Laboratorio competencial</a>
+  </div>
+</header>
+
+<p class="leyenda">
+  <span><span class="clave">Palabra clave</span> = lo que buscan los criterios oficiales de corrección</span>
+  <span><span class="extra">Texto en violeta</span> = aclaración de BioCelia que no está en los criterios</span>
+</p>
+
+<section class="seccion" id="pau">
+  <h2><span class="num">1</span>Qué entra en la PAU</h2>
+  <div class="caja directrices">
+    <span class="titulo-caja">Directrices de Andalucía 2026-27 · A.3.5 <span class="nuevo">Nuevo 26-27</span></span>
+    <p>«Resolver problemas basados en experiencias de laboratorio, <b>interpretando los resultados</b> de ensayos sencillos de identificación de biomoléculas orgánicas y deduciendo su presencia en una muestra a partir de cambios observables. Se consideran como ensayos básicos <b>Benedict</b> (glúcidos reductores), <b>Lugol</b> (almidón), <b>Biuret</b> (proteínas) y <b>Sudán</b> (lípidos), <b>sin necesidad de conocer su fundamento químico ni los procedimientos experimentales</b>.»</p>
+  </div>
+  <div class="caja truco">
+    <span class="titulo-caja">Qué significa en la práctica</span>
+    <p>No te pedirán reactivos, concentraciones ni reacciones químicas. Te darán resultados (colores) y tendrás que <b>deducir</b> qué biomoléculas hay, <b>justificarlo</b> con lo que sabes de cada una (reductor o no, hidrolizable o no…) y, a veces, <b>predecir</b> qué pasaría si se cambia algo (hidrolizar, hervir una enzima…).</p>
+  </div>
+</section>
+
+<section class="seccion" id="ensayos">
+  <h2><span class="num">2</span>Los cuatro ensayos</h2>
+  <figure class="figura">
+    <img src="../assets/temas/a8/ensayos-identificacion.svg" width="1020" height="810" alt="Benedict: azul en negativo y rojo ladrillo con glúcidos reductores. Lugol: amarillo-pardo en negativo y azul-negro con almidón. Biuret: azul en negativo y violeta con proteínas. Sudán: tiñe de rojo la capa de grasa." style="max-height:560px">
+    <figcaption><b>Figura 1.</b> Resultado negativo y positivo de cada ensayo (colores orientativos).</figcaption>
+  </figure>
+  <div class="tabla-wrap"><table class="tabla">
+    <thead><tr><th>Ensayo</th><th>Detecta</th><th>Positivo</th><th>Dan positivo</th><th>Dan negativo (ojo)</th></tr></thead>
+    <tbody>
+      <tr><td>Benedict (o Fehling)</td><td>Glúcidos <b>reductores</b></td><td>De azul a <b>rojo ladrillo</b> (verde, amarillo o naranja si hay poco)</td><td>Glucosa, fructosa, galactosa, maltosa, lactosa</td><td><b>Sacarosa</b> (no reductora) y polisacáridos; dan positivo <b>tras hidrolizarlos</b></td></tr>
+      <tr><td>Lugol</td><td><b>Almidón</b></td><td><b>Azul oscuro o negro</b></td><td>Patata, harina, pan, arroz</td><td>Glucosa, sacarosa, celulosa</td></tr>
+      <tr><td>Biuret</td><td><b>Proteínas</b> (enlaces peptídicos)</td><td>De azul a <b>violeta</b></td><td>Clara de huevo, leche, gelatina; también proteínas desnaturalizadas</td><td>Aminoácidos sueltos (no hay cadena de enlaces peptídicos)</td></tr>
+      <tr><td>Sudán (III o IV)</td><td><b>Lípidos</b></td><td>La grasa se tiñe de <b>rojo-anaranjado</b></td><td>Aceite, mantequilla, frutos secos</td><td>Agua, glúcidos y proteínas</td></tr>
+    </tbody>
+  </table></div>
+  <div class="caja ojo">
+    <span class="titulo-caja">Errores típicos</span>
+    <ul>
+      <li>Benedict <b>no</b> detecta «azúcares» en general: solo los <b>reductores</b>. La sacarosa es dulce pero da negativo.</li>
+      <li>Lugol detecta <b>almidón</b>, no glucosa.</li>
+      <li>Hervir una proteína no la «quita» del Biuret: desnaturalizada sigue teniendo enlaces peptídicos.</li>
+    </ul>
+  </div>
+</section>
+
+<section class="seccion" id="controles">
+  <h2><span class="num">3</span>Controles y diseño experimental</h2>
+  <p>Un resultado solo es fiable si se compara con <b>controles</b>:</p>
+  <ul>
+    <li><b>Control positivo:</b> una muestra que sabemos que contiene la biomolécula (por ejemplo, glucosa para Benedict). Demuestra que el reactivo funciona y muestra el color «positivo».</li>
+    <li><b>Control negativo:</b> una muestra sin ella, normalmente <b>agua destilada</b>. Muestra el color del reactivo sin cambio y descarta contaminaciones.</li>
+  </ul>
+  <p>En los experimentos con enzimas (amilasa y almidón, por ejemplo) se distinguen además:</p>
+  <ul>
+    <li><b>Variable independiente:</b> lo que cambia el investigador (temperatura, pH, presencia de saliva…).</li>
+    <li><b>Variable dependiente:</b> lo que se mide u observa (el color en Benedict o en Lugol).</li>
+    <li><b>Variables controladas:</b> lo que se mantiene igual en todos los tubos (volúmenes, tiempo, cantidad de muestra).</li>
+  </ul>
+  <div class="caja vida">
+    <span class="titulo-caja">Ejemplo resuelto: saliva y almidón</span>
+    <p>Tubo A: almidón + agua. Tubo B: almidón + saliva a 37 ºC. Tubo C: almidón + saliva hervida. Tras 15 minutos: con Lugol, A y C azul-negro y B más claro; con Benedict, A y C azul y B rojo ladrillo. <b>Conclusión:</b> la amilasa de la saliva hidroliza el almidón y libera azúcares reductores; hervida, se desnaturaliza y no actúa. A es el control.</p>
+  </div>
+</section>
+
+<section class="seccion" id="estrategia">
+  <h2><span class="num">4</span>Cómo resolver un problema</h2>
+  <figure class="figura">
+    <img src="../assets/temas/a8/arbol-identificacion.svg" width="960" height="490" alt="Árbol de decisión: si el Lugol da azul-negro hay almidón; si no, se hace Benedict: rojo indica glúcido reductor; si es negativo, se hidroliza y se repite; si entonces da rojo, era un disacárido no reductor como la sacarosa.">
+    <figcaption><b>Figura 2.</b> Árbol de decisión para identificar glúcidos.</figcaption>
+  </figure>
+  <div class="caja truco">
+    <span class="titulo-caja">Pasos</span>
+    <ol>
+      <li>Haz una tabla con cada muestra y el resultado de cada ensayo.</li>
+      <li>Relaciona cada resultado con una propiedad: <b>reductor</b>, <b>almidón</b>, <b>proteína</b>, <b>lípido</b>, y también <b>soluble</b>, <b>dulce</b>, <b>hidrolizable</b> si te dan esos datos.</li>
+      <li>Descarta candidatos: un monosacárido es reductor y <b>no hidrolizable</b>; la sacarosa es <b>no reductora</b> pero hidrolizable; el almidón es <b>insoluble</b> y no dulce.</li>
+      <li><b>Justifica</b> cada identificación con el dato que la permite: en la PAU, una respuesta sin razonar vale menos.</li>
+    </ol>
+  </div>
+</section>
+
+<section class="seccion salto" id="examen">
+  <h2><span class="num">5</span>Así se pregunta en la PAU</h2>
+  <p>Las respuestas siguen los <b>criterios oficiales de corrección</b>: <span class="clave">palabra clave</span> = lo que puntúa; <span class="extra">texto violeta</span> = aclaración nuestra.</p>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2023 · Julio</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">En 4 tubos hay glucosa, maltosa, sacarosa y almidón. Resultados: tubo 1, insoluble, no reductor, hidrolizable, no dulce; tubo 2, soluble, reductor, no hidrolizable, dulce; tubo 3, soluble, no reductor, hidrolizable, dulce; tubo 4, soluble, reductor, hidrolizable, dulce. Indique razonadamente qué compuesto hay en cada tubo [1].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>Tubo 1: <span class="clave">almidón</span>; 2: <span class="clave">glucosa</span>; 3: <span class="clave">sacarosa</span>; 4: <span class="clave">maltosa</span>, argumentando con la tabla <span class="extra">(el almidón es el único insoluble y no dulce; la glucosa, la única no hidrolizable; de los dos disacáridos, la sacarosa es la no reductora)</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2024 · Suplente A</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">Test de Fehling: tubo 1, glucosa: rojo; 2, almidón: azul; 3, patata + agua (37 ºC): azul; 4, patata + saliva (37 ºC): rojo; 5, patata + saliva hervida y luego 37 ºC: azul. a) ¿Por qué difieren 3 y 4? [0,5] b) ¿Y 4 y 5? [0,5]</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) En el 3 <span class="clave">no hay enzima</span>: el almidón no se hidroliza y el color es <span class="clave">azul</span>. En el 4 la enzima <span class="clave">hidroliza los enlaces α(1→4) del almidón</span> y libera <span class="clave">glucosa (reductora)</span>: el color vira a <span class="clave">rojo</span>.</p>
+      <p>b) En el 4 la enzima actúa a su <span class="clave">temperatura óptima</span>; en el 5, a 100 ºC, <span class="clave">se desnaturaliza</span> y no hay hidrólisis. <span class="extra">Los tubos 1 y 2 son los controles positivo y negativo.</span></p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2021 · Reserva julio</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">Durante la maduración de la miel la sacarasa hidroliza la sacarosa del néctar. ¿Cómo podríamos saber si una miel está suficientemente madura? [1]</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>Por la <span class="clave">capacidad reductora</span> de sus azúcares <span class="extra">(Benedict o Fehling)</span>: la miel inmadura, rica en <span class="clave">sacarosa</span>, tiene <span class="clave">poca capacidad reductora</span>; la madura tiene mucha <span class="clave">glucosa y fructosa</span>, con <span class="clave">elevada capacidad reductora</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip lila">Práctica BioCelia · estilo 26-27</span><span class="chip oro">2 puntos</span></div>
+    <p class="enunciado">Se analizan cinco alimentos con cuatro ensayos (+ = positivo, − = negativo):</p>
+    <div class="tabla-wrap"><table class="tabla">
+      <thead><tr><th>Muestra</th><th>Benedict</th><th>Lugol</th><th>Biuret</th><th>Sudán</th></tr></thead>
+      <tbody>
+        <tr><td>1</td><td>+</td><td>−</td><td>−</td><td>−</td></tr>
+        <tr><td>2</td><td>−</td><td>+</td><td>−</td><td>−</td></tr>
+        <tr><td>3</td><td>−</td><td>−</td><td>+</td><td>−</td></tr>
+        <tr><td>4</td><td>−</td><td>−</td><td>−</td><td>+</td></tr>
+        <tr><td>5</td><td>+</td><td>−</td><td>+</td><td>+</td></tr>
+      </tbody>
+    </table></div>
+    <p class="enunciado">a) Asigne a cada muestra uno de estos alimentos: aceite de oliva, leche entera, zumo de uva, clara de huevo, harina de trigo [1]. b) ¿Qué resultado esperaría en el Benedict de una disolución de azúcar de mesa? ¿Y si antes se hidrolizara? Razone [0,5]. c) Indique qué tubos usaría como control negativo y positivo del ensayo de Biuret [0,5].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p class="extra">a) 1: zumo de uva (azúcares reductores: glucosa y fructosa). 2: harina (almidón). 3: clara de huevo (proteínas). 4: aceite de oliva (lípidos). 5: leche entera (lactosa reductora, proteínas como la caseína y grasa).</p>
+      <p class="extra">b) Negativo, porque la sacarosa no es reductora: su enlace une los dos carbonos anoméricos. Tras la hidrólisis, positivo: se liberan glucosa y fructosa, que son reductoras.</p>
+      <p class="extra">c) Negativo: agua destilada (o una muestra sin proteínas, como el aceite). Positivo: una disolución de una proteína conocida, como la clara de huevo.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip lila">Práctica BioCelia · estilo 26-27</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">Un estudiante quiere demostrar que la amilasa de la saliva necesita una temperatura adecuada para actuar. Diseñe el experimento indicando la variable independiente, la dependiente, dos variables controladas y el ensayo que usaría para medir el resultado [1].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p class="extra">Tubos con la misma cantidad de almidón y de saliva incubados a distintas temperaturas (por ejemplo, 0, 37 y 90 ºC), más un tubo sin saliva como control. Variable independiente: la temperatura. Variable dependiente: la hidrólisis del almidón, que se observa con Lugol (el azul-negro desaparece) o con Benedict (aparece el rojo). Variables controladas: volumen de almidón y de saliva, tiempo de incubación, pH.</p>
+    </div></details>
+  </article>
+</section>
+
+<section class="seccion" id="autoevaluacion">
+  <h2><span class="num">6</span>Autoevaluación rápida</h2>
+  <ol class="auto">
+    <li>¿Qué detecta el ensayo de Benedict? <details><summary>Ver</summary><span class="resp">Glúcidos reductores.</span></details></li>
+    <li>¿De qué color da positivo el Lugol y qué detecta? <details><summary>Ver</summary><span class="resp">Azul-negro; almidón.</span></details></li>
+    <li>¿Da positivo en Biuret una clara de huevo cocida? <details><summary>Ver</summary><span class="resp">Sí: las proteínas desnaturalizadas conservan los enlaces peptídicos.</span></details></li>
+    <li>¿Por qué la sacarosa da Benedict negativo? <details><summary>Ver</summary><span class="resp">Porque no es reductora: su enlace une los dos carbonos anoméricos.</span></details></li>
+    <li>¿Qué sería un buen control negativo? <details><summary>Ver</summary><span class="resp">Agua destilada.</span></details></li>
+    <li>Una muestra da Sudán rojo y Biuret violeta. ¿Qué contiene? <details><summary>Ver</summary><span class="resp">Lípidos y proteínas.</span></details></li>
+  </ol>
+</section>
+
+<p class="fuentes">Fuentes: Directrices y orientaciones de la PAU de Biología de Andalucía (curso 2026-27); criterios oficiales de corrección de la PAU de Andalucía (2021-2024); resúmenes del departamento. Colores de los ensayos orientativos. Esquemas: elaboración propia de BioCelia.</p>
+
+</main>
+</div>
+
+<script src="apuntes.js"></script>
+</body>
+</html>
