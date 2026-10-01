@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 305" role="img" font-family="Nunito, 'Segoe UI', system-ui, sans-serif"><title>Inhibición competitiva, no competitiva e irreversible</title>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2a7fc1"/></marker><marker id="fk" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#22313f"/></marker><radialGradient id="gO" cx="35%" cy="35%" r="70%"><stop offset="0" stop-color="#f08a7e"/><stop offset="1" stop-color="#c0392b"/></radialGradient><radialGradient id="gH" cx="35%" cy="35%" r="70%"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#d5dde3"/></radialGradient></defs>
+<text x="130.0" y="30.0" font-size="16" text-anchor="middle" font-weight="900" fill="#0f4c81" >Competitiva (reversible)</text>
+<text x="440.0" y="30.0" font-size="16" text-anchor="middle" font-weight="900" fill="#0f4c81" >No competitiva (reversible)</text>
+<text x="750.0" y="30.0" font-size="16" text-anchor="middle" font-weight="900" fill="#0f4c81" >Irreversible</text>
+<path d="M70.0,220 V154 Q70.0,140 84.0,140 H116 V164 H144 V140 H176.0 Q190.0,140 190.0,154 V220z" fill="#9ed49a" stroke="#3f8a3a" stroke-width="2.5"/><rect x="117" y="134" width="26" height="36" rx="5" fill="#e76f51" stroke="#9c3b1f" stroke-width="2"/><text x="130.0" y="157.0" font-size="14" text-anchor="middle" font-weight="900" fill="#fff" >I</text>
+<rect x="167" y="74" width="26" height="36" rx="5" fill="#f7c948" stroke="#8a6d00" stroke-width="2"/><text x="180.0" y="97.0" font-size="14" text-anchor="middle" font-weight="900" fill="#8a6d00" >S</text>
+<line x1="167" y1="80" x2="193" y2="106" stroke="#c0392b" stroke-width="3"/><text x="130.0" y="255.0" font-size="12" text-anchor="middle" font-weight="800" fill="#4c5b67" >el inhibidor se parece al sustrato</text>
+<text x="130.0" y="271.0" font-size="12" text-anchor="middle" font-weight="800" fill="#4c5b67" >y compite por el centro activo</text>
+<text x="130.0" y="293.0" font-size="12" text-anchor="middle" font-weight="900" fill="#3f8a3a" >se supera añadiendo más sustrato</text>
+<path d="M380.0,220 V154 Q380.0,140 394.0,140 H426 L436,164 L458,158 L454,140 H486.0 Q500.0,140 500.0,154 V220z" fill="#9ed49a" stroke="#3f8a3a" stroke-width="2.5"/><circle cx="492" cy="200" r="14" fill="#e76f51" stroke="#9c3b1f" stroke-width="2"/><text x="492.0" y="205.0" font-size="13" text-anchor="middle" font-weight="900" fill="#fff" >I</text>
+<rect x="421" y="74" width="26" height="36" rx="5" fill="#f7c948" stroke="#8a6d00" stroke-width="2"/><text x="434.0" y="97.0" font-size="14" text-anchor="middle" font-weight="900" fill="#8a6d00" >S</text>
+<line x1="421" y1="80" x2="447" y2="106" stroke="#c0392b" stroke-width="3"/><text x="440.0" y="255.0" font-size="12" text-anchor="middle" font-weight="800" fill="#4c5b67" >se une a otro lugar y deforma</text>
+<text x="440.0" y="271.0" font-size="12" text-anchor="middle" font-weight="800" fill="#4c5b67" >el centro activo</text>
+<text x="440.0" y="293.0" font-size="12" text-anchor="middle" font-weight="900" fill="#c0392b" >más sustrato no lo evita</text>
+<path d="M690.0,220 V154 Q690.0,140 704.0,140 H736 V164 H764 V140 H796.0 Q810.0,140 810.0,154 V220z" fill="#9ed49a" stroke="#3f8a3a" stroke-width="2.5"/><rect x="737" y="134" width="26" height="36" rx="5" fill="#6d597a" stroke="#3c2f45" stroke-width="2"/><text x="750.0" y="157.0" font-size="14" text-anchor="middle" font-weight="900" fill="#fff" >I</text>
+<line x1="732" y1="168" x2="768" y2="168" stroke="#c0392b" stroke-width="4"/><text x="750.0" y="236.0" font-size="12" text-anchor="middle" font-weight="900" fill="#c0392b" >enlace covalente</text>
+<text x="750.0" y="255.0" font-size="12" text-anchor="middle" font-weight="800" fill="#4c5b67" >unión permanente: la enzima</text>
+<text x="750.0" y="271.0" font-size="12" text-anchor="middle" font-weight="800" fill="#4c5b67" >queda inutilizada</text>
+<text x="750.0" y="293.0" font-size="12" text-anchor="middle" font-weight="900" fill="#c0392b" >venenos (cianuro, metales pesados)</text>
+</svg>

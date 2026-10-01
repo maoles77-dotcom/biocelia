@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 250" role="img" font-family="Nunito, 'Segoe UI', system-ui, sans-serif"><title>La apoenzima más el cofactor, un ion metálico o una coenzima, forman la holoenzima activa</title>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2a7fc1"/></marker><marker id="fk" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#22313f"/></marker><radialGradient id="gO" cx="35%" cy="35%" r="70%"><stop offset="0" stop-color="#f08a7e"/><stop offset="1" stop-color="#c0392b"/></radialGradient><radialGradient id="gH" cx="35%" cy="35%" r="70%"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#d5dde3"/></radialGradient></defs>
+<path d="M50.0,170 V104 Q50.0,90 64.0,90  H156.0 Q170.0,90 170.0,104 V170z" fill="#9ed49a" stroke="#3f8a3a" stroke-width="2.5"/><text x="110.0" y="140.0" font-size="15" text-anchor="middle" font-weight="900" fill="#3f8a3a" >apoenzima</text>
+<text x="110.0" y="200.0" font-size="13" text-anchor="middle" font-weight="800" fill="#4c5b67" >parte proteica</text>
+<text x="205.0" y="135.0" font-size="30" text-anchor="middle" font-weight="900" fill="#22313f" >+</text>
+<circle cx="290" cy="110" r="22" fill="#6d3fc0"/><text x="290.0" y="116.0" font-size="13" text-anchor="middle" font-weight="900" fill="#fff" >Mg²⁺</text>
+<text x="290.0" y="160.0" font-size="13" text-anchor="middle" font-weight="800" fill="#6d3fc0" >ion metálico</text>
+<text x="290.0" y="182.0" font-size="13" text-anchor="middle" font-weight="800" fill="#4c5b67" >o</text>
+<rect x="262" y="190" width="56" height="26" rx="8" fill="#f4a261" stroke="#b5600f" stroke-width="2"/><text x="290.0" y="208.0" font-size="12" text-anchor="middle" font-weight="900" fill="#7a3a00" >NAD⁺</text>
+<text x="290.0" y="236.0" font-size="13" text-anchor="middle" font-weight="800" fill="#b5600f" >coenzima (orgánica)</text>
+<text x="290.0" y="60.0" font-size="15" text-anchor="middle" font-weight="900" fill="#0f4c81" >cofactor</text>
+<line x1="360" y1="130" x2="420" y2="130" stroke="#22313f" stroke-width="3" marker-end="url(#fk)"/><path d="M470.0,170 V104 Q470.0,90 484.0,90  H576.0 Q590.0,90 590.0,104 V170z" fill="#9ed49a" stroke="#3f8a3a" stroke-width="2.5"/><circle cx="530" cy="120" r="18" fill="#6d3fc0"/><text x="530.0" y="125.0" font-size="11" text-anchor="middle" font-weight="900" fill="#fff" >Mg²⁺</text>
+<text x="530.0" y="200.0" font-size="15" text-anchor="middle" font-weight="900" fill="#0f4c81" >holoenzima (activa)</text>
+</svg>

@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Apuntes PAU de Biología (Andalucía 2026-27), Bloque A, tema 5: enzimas. Energía de activación, mecanismo, cofactores, factores de la actividad, inhibición y alosterismo.">
+<title>Enzimas · BioCelia</title>
+<link rel="stylesheet" href="../pau-theme.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="apuntes.css">
+</head>
+<body>
+<a class="skip-link" href="#main-content">Saltar al contenido</a>
+
+<nav class="site-nav" aria-label="Navegación principal">
+  <a href="../index.html">Inicio</a>
+  <a href="../orientacionespau.html">Orientaciones</a>
+  <a class="active" href="../resumenespau.html">Resúmenes</a>
+  <a href="../Entrenamientopau.html">Entrenamiento</a>
+  <a href="../simulacropau.html">Simulacro</a>
+  <a href="../laboratoriocompetencial.html">Laboratorio</a>
+  <a href="../laboratorioinvestigacion.html">Investigación</a>
+</nav>
+
+<div class="apuntes">
+
+<details class="indice">
+  <summary>Índice del tema</summary>
+  <ol>
+    <li><a href="#pau">Qué entra en la PAU</a></li>
+    <li><a href="#concepto">Concepto y propiedades</a></li>
+    <li><a href="#energia">Energía de activación</a></li>
+    <li><a href="#mecanismo">Mecanismo y centro activo</a></li>
+    <li><a href="#cofactores">Cofactores y coenzimas</a></li>
+    <li><a href="#velocidad">Velocidad: enzima y sustrato</a></li>
+    <li><a href="#temperatura">Temperatura y pH</a></li>
+    <li><a href="#inhibicion">Inhibición</a></li>
+    <li><a href="#alosterismo">Regulación alostérica</a></li>
+    <li><a href="#experiencias">Experiencias de laboratorio</a></li>
+    <li><a href="#examen">Así se pregunta en la PAU</a></li>
+    <li><a href="#autoevaluacion">Autoevaluación</a></li>
+  </ol>
+</details>
+
+<main class="contenido" id="main-content">
+
+<header class="hero">
+  <span class="etiqueta">Bloque A · Biomoléculas · Tema 5</span>
+  <h1>Enzimas</h1>
+  <p>Sin ellas, las reacciones de la vida serían tan lentas que no habría vida. Las enzimas las aceleran sin gastarse, con una precisión enorme y bajo control.</p>
+  <div class="acciones">
+    <a class="btn claro" href="a5-enzimas-presentacion.html">🎞️ Presentación</a>
+    <a class="btn" href="a5-enzimas-resumen.html">📝 Resumen</a>
+    <a class="btn" href="pdf/a5-enzimas.pdf" download>⬇️ Descargar PDF</a>
+    <button class="btn" type="button" data-imprimir>🖨️ Imprimir</button>
+    <a class="btn" href="../Entrenamientopau.html">🏋️ Practicar preguntas</a>
+  </div>
+</header>
+
+<p class="leyenda">
+  <span><span class="clave">Palabra clave</span> = lo que buscan los criterios oficiales de corrección</span>
+  <span><span class="extra">Texto en violeta</span> = aclaración de BioCelia que no está en los criterios</span>
+</p>
+
+<!-- ═══════════════ 1 · PAU ═══════════════ -->
+<section class="seccion" id="pau">
+  <h2><span class="num">1</span>Qué entra en la PAU</h2>
+  <div class="caja directrices">
+    <span class="titulo-caja">Directrices de Andalucía 2026-27 · A.3.3 (segunda parte)</span>
+    <ul>
+      <li>Concepto de <b>enzima como biocatalizador</b> y sus propiedades: <b>especificidad, alta eficiencia y regulación</b>.</li>
+      <li>Papel de los <b>cofactores y coenzimas</b>.</li>
+      <li><b>Energía de activación</b> e interpretación de gráficos.</li>
+      <li>Formación del <b>complejo enzima-sustrato</b>; <b>centro activo</b> y especificidad.</li>
+      <li>La velocidad depende de la <b>cantidad de enzima</b> y de la <b>concentración de sustrato</b>: interpretar gráficos <b>sin ecuaciones</b> de cinética.</li>
+      <li>Efecto de la <b>temperatura, el pH y los inhibidores</b>.</li>
+      <li>Inhibición <b>reversible (competitiva y no competitiva) e irreversible</b>; <b>regulación alostérica</b>.</li>
+    </ul>
+    <p>Las <b>vitaminas como coenzimas</b> (A.4.1) se desarrollan en el tema «Vitaminas y salud».</p>
+  </div>
+  <div class="caja pau">
+    <span class="titulo-caja">Lo que más se ha preguntado (2010-2025)</span>
+    <ul>
+      <li><b>Definir</b>: enzima, centro activo, coenzima, inhibidor, energía de activación.</li>
+      <li><b>Factores</b> que influyen en la actividad (temperatura, pH, sustrato) e <b>inhibición</b> (reversible e irreversible; competitiva y no competitiva).</li>
+      <li><b>Gráficas</b>: energía de activación con y sin enzima, pH óptimo de enzimas digestivas, velocidad frente a sustrato.</li>
+      <li><b>Problemas:</b> fiebre, pardeamiento de la manzana, patata y saliva, saturación de la enzima, compuesto análogo al sustrato.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ═══════════════ 2 · CONCEPTO ═══════════════ -->
+<section class="seccion" id="concepto">
+  <h2><span class="num">2</span>Concepto y propiedades</h2>
+  <p>Las <span class="clave">enzimas</span> son <span class="clave">proteínas con función catalítica</span> (<b>biocatalizadores</b>) que <span class="clave">aceleran las reacciones metabólicas</span> al <span class="clave">disminuir la energía de activación</span>. Gracias a ellas las reacciones ocurren rápidamente en las condiciones suaves de la célula (unos 37 ºC, pH próximo a 7, presión normal). <span class="extra">Casi todas son proteínas globulares; también existen algunos ARN con actividad catalítica (ribozimas).</span></p>
+  <p>Se nombran normalmente con el sufijo <b>-asa</b> añadido al sustrato o a la reacción: sacarasa, lactasa, ADN polimerasa, deshidrogenasa.</p>
+  <div class="tarjetas">
+    <div class="tarjeta"><h4>Especificidad</h4><p>Cada enzima actúa sobre un sustrato (o un grupo de sustratos parecidos) y cataliza un tipo de reacción. Se debe a la forma del <b>centro activo</b>.</p></div>
+    <div class="tarjeta t2"><h4>Alta eficiencia</h4><p>Aceleran enormemente las reacciones y son eficaces en <b>cantidades muy pequeñas</b>, porque <b>no se consumen</b>: se recuperan intactas y actúan una y otra vez.</p></div>
+    <div class="tarjeta t3"><h4>Regulación</h4><p>Su actividad puede aumentar o disminuir según las necesidades de la célula (alosterismo, inhibidores, cantidad de enzima).</p></div>
+  </div>
+  <div class="caja ojo">
+    <span class="titulo-caja">Lo que una enzima NO hace</span>
+    <ul>
+      <li>No hace posibles reacciones imposibles: solo acelera las que pueden ocurrir.</li>
+      <li><b>No cambia la energía liberada</b> o absorbida por la reacción ni su equilibrio: solo hace que se alcance antes.</li>
+      <li>No se consume ni se modifica al final de la reacción.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ═══════════════ 3 · ENERGÍA ═══════════════ -->
+<section class="seccion" id="energia">
+  <h2><span class="num">3</span>Energía de activación</h2>
+  <p>La <span class="clave">energía de activación</span> es la energía que <span class="clave">hay que suministrar a los reactivos para que la reacción se produzca</span>: la que necesitan para alcanzar el estado de transición, inestable, a partir del cual se forman los productos.</p>
+  <figure class="figura">
+    <img src="../assets/temas/a5/energia-activacion.svg" width="780" height="370" alt="Gráfica de energía: los sustratos deben superar una barrera, la energía de activación, más baja con enzima que sin ella. La energía liberada al formarse los productos es la misma en los dos casos.">
+    <figcaption><b>Figura 1.</b> La enzima reduce la energía de activación.</figcaption>
+  </figure>
+  <div class="caja truco">
+    <span class="titulo-caja">Cómo leer esta gráfica (aparece en la PAU)</span>
+    <ul>
+      <li>La curva más alta es la reacción <b>sin enzima</b>; la más baja, <b>con enzima</b>.</li>
+      <li>La altura desde los sustratos hasta el pico es la <b>energía de activación</b>: menor con enzima.</li>
+      <li>Si los <b>productos</b> están más abajo que los sustratos, la reacción <b>libera energía</b> (como las del catabolismo); si están más arriba, la consume (anabolismo).</li>
+      <li>La diferencia de energía entre sustratos y productos es <b>la misma</b> con y sin enzima.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ═══════════════ 4 · MECANISMO ═══════════════ -->
+<section class="seccion" id="mecanismo">
+  <h2><span class="num">4</span>Mecanismo de acción y centro activo</h2>
+  <figure class="figura">
+    <img src="../assets/temas/a5/mecanismo-enzimatico.svg" width="660" height="265" alt="El sustrato se une al centro activo de la enzima, forma el complejo enzima-sustrato y se transforma en productos; la enzima queda libre.">
+    <figcaption><b>Figura 2.</b> E + S ⇄ ES → E + P.</figcaption>
+  </figure>
+  <ol>
+    <li>El sustrato se une al <b>centro activo</b> de la enzima y se forma el <span class="clave">complejo enzima-sustrato (ES)</span>, mediante enlaces débiles.</li>
+    <li>En el complejo se <span class="clave">reduce la energía de activación</span>: los enlaces del sustrato se debilitan, los grupos reactivos quedan bien orientados, y la reacción se acelera.</li>
+    <li>Se forman los <span class="clave">productos</span>, que tienen menos afinidad por la enzima y se liberan. La <span class="clave">enzima queda libre</span> e intacta para actuar de nuevo.</li>
+  </ol>
+  <h3>Centro activo y especificidad</h3>
+  <p>El <span class="clave">centro activo</span> es la <span class="clave">región de la enzima por la que se une al sustrato</span>, formada por unos pocos <span class="clave">aminoácidos</span> (de fijación, que retienen el sustrato, y catalíticos, que lo transforman). Su forma tridimensional (un hueco o hendidura) es <span class="clave">complementaria a la del sustrato</span>, y de ahí la <span class="clave">especificidad</span>.</p>
+  <ul>
+    <li><b>Modelo de la llave y la cerradura:</b> el sustrato encaja en un centro activo rígido.</li>
+    <li><b>Modelo del ajuste inducido:</b> al unirse el sustrato, el centro activo cambia ligeramente de forma y se ajusta a él. Es el modelo aceptado.</li>
+  </ul>
+  <div class="caja pau">
+    <span class="titulo-caja">Así lo preguntan (PAU 2014)</span>
+    <p>«Sustituir unos aminoácidos por otros impide que una proteína catalice su reacción.» → Puede haberse cambiado un aminoácido del <b>centro activo</b>, que ya <b>no reconoce al sustrato</b>, o el cambio altera el <b>plegamiento</b> de la proteína.</p>
+  </div>
+</section>
+
+<!-- ═══════════════ 5 · COFACTORES ═══════════════ -->
+<section class="seccion" id="cofactores">
+  <h2><span class="num">5</span>Cofactores y coenzimas</h2>
+  <figure class="figura">
+    <img src="../assets/temas/a5/holoenzima.svg" width="650" height="250" alt="La apoenzima, parte proteica, se une a un cofactor, que puede ser un ion metálico como el Mg2+ o una coenzima orgánica como el NAD+, y forma la holoenzima activa.">
+    <figcaption><b>Figura 3.</b> Holoenzima = apoenzima + cofactor.</figcaption>
+  </figure>
+  <p>Muchas enzimas necesitan, además de su parte proteica (<b>apoenzima</b>), una molécula no proteica, el <b>cofactor</b>. Juntas forman la <b>holoenzima</b>, la enzima activa. Los cofactores <span class="clave">permiten que determinadas reacciones se desarrollen</span>, actuando como <span class="clave">activadores</span> o <span class="clave">transfiriendo grupos químicos</span> (o electrones):</p>
+  <ul>
+    <li><b>Iones metálicos</b>: Mg²⁺, Zn²⁺, Fe²⁺, Cu²⁺… Por ejemplo, muchas enzimas que usan ATP necesitan Mg²⁺.</li>
+    <li><span class="clave">Coenzimas</span>: <span class="clave">biomoléculas orgánicas</span> que intervienen en las reacciones transportando electrones o grupos químicos de una enzima a otra: NAD⁺, NADP⁺, FAD, coenzima A, ATP. Muchas derivan de <b>vitaminas del grupo B</b>, y por eso la falta de una vitamina impide que funcionen ciertas enzimas.</li>
+  </ul>
+  <p class="extra">Cuando el cofactor está unido a la enzima de forma permanente (covalente) se llama grupo prostético.</p>
+</section>
+
+<!-- ═══════════════ 6 · VELOCIDAD ═══════════════ -->
+<section class="seccion" id="velocidad">
+  <h2><span class="num">6</span>Velocidad de reacción: cantidad de enzima y de sustrato</h2>
+  <p>La <span class="clave">velocidad de reacción</span> es la <span class="clave">cantidad de producto que se forma por unidad de tiempo</span> (o de sustrato que desaparece).</p>
+  <figure class="figura">
+    <img src="../assets/temas/a5/velocidad-sustrato.svg" width="580" height="345" alt="La velocidad aumenta al aumentar el sustrato, primero deprisa y luego cada vez menos, hasta estabilizarse en la velocidad máxima.">
+    <figcaption><b>Figura 4.</b> Velocidad frente a concentración de sustrato (curva cualitativa).</figcaption>
+  </figure>
+  <ul>
+    <li><b>Concentración de sustrato:</b> al aumentarla, se forman más <span class="clave">complejos enzima-sustrato</span> y la velocidad aumenta, hasta que <span class="clave">todas las moléculas de enzima están ocupadas</span>: la enzima está <span class="clave">saturada</span> y se alcanza la <span class="clave">velocidad máxima</span>, que ya no aumenta aunque se añada más sustrato.</li>
+    <li><b>Cantidad de enzima:</b> si hay sustrato en exceso, la velocidad es <b>proporcional a la cantidad de enzima</b> (el doble de enzima, el doble de velocidad).</li>
+    <li>Si no se añade más sustrato, la velocidad <b>disminuye</b> a medida que se gasta y se <b>detiene</b> cuando se agota.</li>
+  </ul>
+  <p class="extra">En algún examen (PAU 2024) se ha pedido localizar en la gráfica la mitad de la velocidad máxima: la concentración de sustrato a la que se alcanza se llama Km e indica la afinidad de la enzima por su sustrato (cuanto menor es la Km, mayor es la afinidad). Las directrices de 2026-27 no exigen ecuaciones de cinética.</p>
+</section>
+
+<!-- ═══════════════ 7 · TEMPERATURA Y PH ═══════════════ -->
+<section class="seccion" id="temperatura">
+  <h2><span class="num">7</span>Temperatura y pH</h2>
+  <figure class="figura">
+    <img src="../assets/temas/a5/temperatura-ph.svg" width="880" height="345" alt="La actividad enzimática aumenta con la temperatura hasta un óptimo y después cae bruscamente por desnaturalización. Con el pH cada enzima tiene un óptimo: la pepsina hacia 2, la amilasa salival hacia 7 y la tripsina hacia 8.">
+    <figcaption><b>Figura 5.</b> Temperatura y pH óptimos (curvas cualitativas).</figcaption>
+  </figure>
+  <ul>
+    <li><b>Temperatura:</b> al subir la temperatura aumenta la actividad, porque las moléculas se mueven más y se forman más complejos ES, hasta la <span class="clave">temperatura óptima</span>. Por encima, la actividad cae bruscamente porque la enzima, de naturaleza proteica, se <span class="clave">desnaturaliza</span> y pierde su actividad. A temperaturas bajas la enzima está poco activa pero no se destruye.</li>
+    <li><b>pH:</b> cada enzima tiene un <span class="clave">pH óptimo</span> en el que su actividad es máxima. Fuera de él cambian las cargas de los aminoácidos, se <b>dificulta la unión del sustrato al centro activo</b> y la actividad baja; con valores extremos la enzima <span class="clave">se desnaturaliza</span>. Por ejemplo, la <b>pepsina</b> del estómago actúa a pH ácido (hacia 2) y la <b>tripsina</b> del intestino, a pH ligeramente básico.</li>
+  </ul>
+  <div class="caja vida">
+    <span class="titulo-caja">Conexión con la vida real</span>
+    <p>La <b>fiebre</b> moderada acelera el metabolismo, pero una temperatura muy alta desnaturaliza enzimas y puede ser mortal. Los <b>lisosomas</b> bombean H⁺ a su interior para mantener el pH ácido que necesitan sus enzimas hidrolíticas.</p>
+  </div>
+</section>
+
+<!-- ═══════════════ 8 · INHIBICIÓN ═══════════════ -->
+<section class="seccion" id="inhibicion">
+  <h2><span class="num">8</span>Inhibición enzimática</h2>
+  <p>Un <span class="clave">inhibidor</span> es una <span class="clave">sustancia que disminuye o anula la actividad enzimática</span>.</p>
+  <figure class="figura">
+    <img src="../assets/temas/a5/inhibicion.svg" width="880" height="305" alt="Inhibición competitiva: un inhibidor parecido al sustrato ocupa el centro activo. No competitiva: el inhibidor se une a otro lugar y deforma el centro activo. Irreversible: el inhibidor se une por enlace covalente de forma permanente.">
+    <figcaption><b>Figura 6.</b> Tipos de inhibición.</figcaption>
+  </figure>
+  <div class="tabla-wrap"><table class="tabla">
+    <thead><tr><th>Tipo</th><th>Cómo actúa</th><th>Consecuencia</th></tr></thead>
+    <tbody>
+      <tr><td>Irreversible</td><td>Se une a la enzima (a menudo al centro activo) mediante <span class="clave">enlace covalente</span></td><td><span class="clave">Inutiliza la enzima de forma permanente</span>. Ejemplos: el cianuro, que bloquea una enzima de la cadena respiratoria; metales pesados</td></tr>
+      <tr><td>Reversible competitiva</td><td>El inhibidor tiene una <b>forma parecida al sustrato</b> y <b>compite con él por el centro activo</b> (enlaces débiles)</td><td>Disminuye la velocidad, pero <b>se supera aumentando la concentración de sustrato</b></td></tr>
+      <tr><td>Reversible no competitiva</td><td>El inhibidor se une a <b>otro lugar de la enzima</b> (enlaces débiles) y <b>modifica la forma del centro activo</b></td><td>Disminuye la velocidad máxima; <b>no se supera añadiendo más sustrato</b></td></tr>
+    </tbody>
+  </table></div>
+  <p>La diferencia entre irreversible y reversible se debe al <b>tipo de unión</b>: el irreversible se une por <span class="clave">enlace covalente</span>; el reversible, por <span class="clave">enlaces débiles</span>, y la enzima <span class="clave">recupera su actividad</span> al separarse el inhibidor.</p>
+  <figure class="figura">
+    <img src="../assets/temas/a5/inhibicion-curvas.svg" width="760" height="320" alt="Gráfica de velocidad frente a sustrato: sin inhibidor; con inhibidor competitivo, más lenta pero alcanza la misma velocidad máxima; con inhibidor no competitivo, la velocidad máxima es menor.">
+    <figcaption><b>Figura 7.</b> Efecto de los inhibidores reversibles en la gráfica (cualitativa).</figcaption>
+  </figure>
+  <div class="caja vida">
+    <span class="titulo-caja">Un antídoto que es un inhibidor competitivo</span>
+    <p>El metanol no es tóxico en sí, pero una enzima del hígado lo transforma en compuestos muy tóxicos. En las intoxicaciones se administra <b>etanol</b>, una molécula parecida que <b>compite por el centro activo</b> de esa enzima: así se forma menos producto tóxico y el metanol se elimina.</p>
+  </div>
+</section>
+
+<!-- ═══════════════ 9 · ALOSTERISMO ═══════════════ -->
+<section class="seccion" id="alosterismo">
+  <h2><span class="num">9</span>Regulación alostérica</h2>
+  <figure class="figura">
+    <img src="../assets/temas/a5/alosterismo.svg" width="860" height="240" alt="Una enzima alostérica pasa de la forma activa a la inactiva cuando un inhibidor se une a su centro regulador. En una ruta A, B, C, D, el producto final D inhibe la primera enzima.">
+    <figcaption><b>Figura 8.</b> Enzima alostérica y retroinhibición.</figcaption>
+  </figure>
+  <p>Las <b>enzimas alostéricas</b> tienen, además del centro activo, un <b>centro regulador</b> (sitio alostérico). Pueden adoptar dos formas: <b>activa</b> e <b>inactiva</b>. Al centro regulador se unen <b>activadores</b>, que estabilizan la forma activa, o <b>inhibidores</b>, que estabilizan la inactiva.</p>
+  <p>Suelen ser la primera enzima de una ruta metabólica. En la <b>retroinhibición</b> (<i>feedback</i>), el <b>producto final</b> de la ruta actúa como inhibidor alostérico de la primera enzima: cuando hay suficiente producto, la ruta se frena, y cuando escasea, se reactiva. Es un mecanismo fundamental de <b>control del metabolismo</b>.</p>
+</section>
+
+<!-- ═══════════════ 10 · EXPERIENCIAS ═══════════════ -->
+<section class="seccion" id="experiencias">
+  <h2><span class="num">10</span>Experiencias de laboratorio</h2>
+  <div class="dos-col" style="align-items:center">
+    <figure class="figura">
+      <img src="../assets/temas/a5/catalasa-higado.svg" width="400" height="335" alt="Un trozo de hígado crudo con agua oxigenada produce burbujas de oxígeno; si el hígado se ha hervido, no hay burbujas." style="max-height:300px">
+      <figcaption><b>Figura 9.</b> La catalasa del hígado.</figcaption>
+    </figure>
+    <div>
+      <p><b>Catalasa:</b> el hígado contiene catalasa, que descompone el agua oxigenada (H₂O₂) en agua y oxígeno: aparecen <b>burbujas</b>. Si el hígado se hierve, la enzima se <b>desnaturaliza</b> y no hay burbujas.</p>
+      <p><b>Amilasa salival:</b> hidroliza el almidón. Con el tiempo, el <b>Lugol</b> deja de dar azul-negro y el <b>Benedict</b> da positivo (aparecen azúcares reductores). Si la saliva se ha hervido, no ocurre.</p>
+      <p><b>Pardeamiento:</b> la polifenoloxidasa oscurece la fruta cortada; se evita quitando el oxígeno, con ácido (limón) o escaldando.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════ 11 · EXAMEN ═══════════════ -->
+<section class="seccion salto" id="examen">
+  <h2><span class="num">11</span>Así se pregunta en la PAU</h2>
+  <p>Preguntas reales de la PAU. Las respuestas siguen los <b>criterios oficiales de corrección</b>: <span class="clave">palabra clave</span> = lo que puntúa; <span class="extra">texto violeta</span> = aclaración nuestra.</p>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2011</span><span class="chip oro">2 puntos</span></div>
+    <p class="enunciado">Defina el concepto de enzima [0,4] y describa el papel que desempeñan los cofactores y coenzimas en su actividad [0,5]. Indique cómo afecta la acción del enzima a la energía de activación [0,5]. Defina centro activo [0,3] y explique a qué se debe la especificidad enzimática [0,3].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>Enzima: <span class="clave">proteína con función catalítica</span> que <span class="clave">acelera las reacciones metabólicas</span>.</p>
+      <p>Cofactores y coenzimas: permiten que determinadas reacciones se desarrollen, actuando como <span class="clave">activadores</span> o <span class="clave">transfiriendo grupos químicos</span>.</p>
+      <p>La enzima <span class="clave">disminuye la energía de activación</span>.</p>
+      <p>Centro activo: <span class="clave">región del enzima</span> formada por los <span class="clave">aminoácidos que se unen con el sustrato</span>. Especificidad: el centro activo tiene una <span class="clave">estructura complementaria al sustrato</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2013</span><span class="chip oro">2 puntos</span></div>
+    <p class="enunciado">Defina: enzima, centro activo, coenzima, inhibidor y energía de activación [2].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>Enzima: <span class="clave">proteína que acelera</span> las reacciones metabólicas. Centro activo: <span class="clave">región del enzima</span> formada por los <span class="clave">aminoácidos que se unen al sustrato</span>. Coenzima: <span class="clave">biomolécula orgánica</span> que interviene en determinadas <span class="clave">reacciones enzimáticas</span>. Inhibidor: sustancia que <span class="clave">disminuye o anula la actividad enzimática</span>. Energía de activación: la que hay que <span class="clave">suministrar a los reactivos para que la reacción se produzca</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2023 · Julio</span><span class="chip oro">2 puntos</span></div>
+    <p class="enunciado">Explique cómo afectan a la actividad de las enzimas: a) temperatura [0,5]; b) pH [0,5]; c) concentración del sustrato [0,5]. d) Describa dos tipos de inhibición enzimática [0,5].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) Hay una <span class="clave">temperatura óptima</span>; fuera de ella baja la actividad y las muy altas <span class="clave">desnaturalizan</span> la enzima. b) Hay un <span class="clave">pH óptimo</span>; los valores extremos <span class="clave">desnaturalizan</span> la enzima. c) Al aumentar el sustrato la velocidad aumenta hasta <span class="clave">mantenerse constante</span> por <span class="clave">saturación de la enzima</span>.</p>
+      <p>d) <span class="clave">Irreversible</span>: el inhibidor forma <span class="clave">enlaces covalentes con el centro activo</span> y anula la actividad <span class="clave">para siempre</span>. <span class="clave">Reversible</span>: el inhibidor <span class="clave">se puede disociar</span> y la enzima recupera la actividad (vale competitiva y no competitiva).</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2024 · Suplente A (y 2017)</span><span class="chip oro">2 puntos</span></div>
+    <p class="enunciado">a) Defina enzima [0,4]. b) ¿Qué es el centro activo y qué relación existe entre el mismo y la especificidad enzimática? [0,5] c) ¿Qué son los inhibidores enzimáticos? [0,3] d) ¿En qué se diferencian la inhibición irreversible de la reversible y cuál es la causa de la diferencia? [0,8]</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) <span class="clave">Proteína con función catalítica</span> que <span class="clave">acelera las reacciones metabólicas</span>.</p>
+      <p>b) Centro activo: <span class="clave">región formada por los aminoácidos que se unen al sustrato</span>; determina la <span class="clave">especificidad</span> porque tiene una <span class="clave">configuración complementaria a la del sustrato</span>.</p>
+      <p>c) <span class="clave">Moléculas que disminuyen o anulan la actividad enzimática</span>.</p>
+      <p>d) Irreversible: el inhibidor se une por <span class="clave">enlace covalente</span> y <span class="clave">la inutiliza para siempre</span>. Reversible: se une por <span class="clave">enlaces débiles</span> y la enzima <span class="clave">recupera la actividad</span> al separarse.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2012</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">En una reacción en la que la sustancia A se transforma en B se liberan 10 kcal por mol de sustrato. ¿Cuánta energía se liberaría si la reacción estuviese catalizada por una enzima? Razone la respuesta [1].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p><span class="clave">La misma</span>: la <span class="clave">variación de energía</span> de una reacción <span class="clave">es independiente de la presencia de un catalizador</span>. <span class="extra">La enzima solo reduce la energía de activación.</span></p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2016 · Reserva B</span><span class="chip oro">2 puntos</span><span class="chip">Con gráfica</span></div>
+    <p class="enunciado">En una gráfica de energía (como la figura 1): a) ¿Qué representan las curvas A y B? ¿Cómo se denominan C y D? ¿Qué representan las flechas Ea1 y Ea2? [1] b) Explique por qué Ea2 es mayor que Ea1 [0,3]. ¿Qué elemento, C o D, es más rico en energía y por qué? [0,3]. ¿El proceso es catabólico o anabólico? [0,4]</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) Variación de energía <span class="clave">sin enzima (A)</span> y <span class="clave">con enzima (B)</span>. C: <span class="clave">sustratos</span>; D: <span class="clave">productos</span>. Ea1 y Ea2: <span class="clave">energías de activación</span>.</p>
+      <p>b) La <span class="clave">energía de activación es menor con enzima</span>. <span class="clave">C es más rico en energía</span>: está a <span class="clave">valores más altos</span> del eje de energía. <span class="clave">Catabólico</span>: se pasa de <span class="clave">compuestos complejos ricos en energía</span> a otros <span class="clave">más simples</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2013</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">Al aumentar la cantidad de sustrato, sin variar la de enzima, la velocidad aumenta hasta que llega un momento en que ya no aumenta: es máxima y constante. Explique este hecho [0,5]. ¿Qué le ocurrirá con el tiempo a la velocidad si se deja de suministrar sustrato? [0,5]</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>Al aumentar el sustrato se forman más <span class="clave">complejos enzima-sustrato</span> hasta que <span class="clave">todas las moléculas de enzima están ocupadas</span>: <span class="clave">velocidad máxima</span>.</p>
+      <p>La velocidad <span class="clave">se reducirá</span> a medida que <span class="clave">disminuye el sustrato</span> y se <span class="clave">detendrá cuando se agote</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2022 · Junio</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">a) Cuando a una reacción enzimática se le adiciona un compuesto análogo al sustrato, ¿qué efecto se produciría? [0,5] b) ¿Se podría conseguir el mismo efecto añadiendo una molécula no análoga al sustrato? [0,5] Razone.</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) Sería un <span class="clave">inhibidor competitivo</span>: se une al <span class="clave">centro activo</span> e impide la acción catalítica.</p>
+      <p>b) Sí, si es un <span class="clave">inhibidor no competitivo</span>: al unirse a <span class="clave">otra región de la enzima</span> puede <span class="clave">modificar su estructura y el centro activo</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2015</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">La temperatura media de una persona se sitúa entre 36,5 y 37 ºC. Cuando aparece la fiebre, en una primera etapa se acelera el metabolismo. Sin embargo, si la temperatura es excesivamente elevada puede sobrevenir la muerte. Explique razonadamente estas dos situaciones [1].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>Un aumento de temperatura <span class="clave">aumenta la velocidad de las reacciones enzimáticas</span>. Pasado un umbral, las enzimas <span class="clave">se desnaturalizan</span>, <span class="clave">se paran las reacciones</span> y sobreviene la muerte.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2018 · Junio</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">La polifenoloxidasa oxida los polifenoles en presencia de oxígeno y es responsable del pardeamiento de la manzana cortada. Se puede evitar: a) reduciendo el acceso al oxígeno; b) añadiendo compuestos ácidos; c) calentando en agua hirviendo. Explique por qué [1].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) Sin oxígeno la enzima <span class="clave">no puede catalizar la reacción</span> y no se forman los compuestos pardos. b) Con ácidos la enzima <span class="clave">se desnaturaliza por la bajada del pH</span>. c) El calor <span class="clave">desnaturaliza la enzima</span> y esta <span class="clave">pierde su actividad</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2021 · Suplente julio</span><span class="chip oro">1 punto</span><span class="chip">Con gráfica</span></div>
+    <p class="enunciado">Una gráfica muestra la actividad de tres enzimas digestivas (A, B y C) según el pH. a) ¿Cuáles son sus pH óptimos? [0,3] b) Indique un lugar del tubo digestivo donde podría funcionar A y otro donde podría funcionar C [0,3]. c) Cite otros dos factores que influyen en la actividad enzimática [0,4].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) Alrededor de <span class="clave">3, 7 y 8</span>, respectivamente. b) A: <span class="clave">estómago</span>; C: <span class="clave">intestino delgado</span> (duodeno). c) <span class="clave">Temperatura</span>, <span class="clave">concentración de sustrato</span>, <span class="clave">concentración de enzima</span>, <span class="clave">inhibidores</span> y <span class="clave">activadores</span>. Dos.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2015</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">El cianuro bloquea una enzima del transporte electrónico de la cadena respiratoria; la ruta se para y la célula muere. Indique qué tipo de interacción se produce entre el cianuro y la enzima [0,5]. ¿Por qué muere la célula? [0,5].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>Actúa como <span class="clave">inhibidor irreversible</span>. Al interrumpirse la <span class="clave">cadena de transporte electrónico</span> la célula <span class="clave">se queda sin energía</span> y muere.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2024 · Suplente B</span><span class="chip oro">1 punto</span><span class="chip">Con gráfica</span></div>
+    <p class="enunciado">Una gráfica representa la velocidad de una reacción enzimática frente a la concentración de sustrato (curva A); en B la velocidad es menor pero acaba alcanzando el mismo máximo; en C el máximo es menor. a) ¿Qué indican las líneas horizontales 1 (el máximo) y 2 (su mitad)? [0,4] b) ¿A qué parámetro hacen referencia los valores de sustrato 3 y 4? [0,2] c) ¿Qué sustancia ha cambiado la velocidad de A a B? [0,2] d) ¿Y de A a C? [0,2]</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) 1: <span class="clave">velocidad máxima (Vmax)</span>; 2: <span class="clave">mitad de la velocidad máxima</span>. b) 3: <span class="clave">Km de A</span>; 4: <span class="clave">Km de B</span>. c) <span class="clave">Inhibidor competitivo</span>. d) <span class="clave">Inhibidor no competitivo</span>. <span class="extra">Compara con la figura 7.</span></p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip lila">Práctica BioCelia · estilo 26-27</span><span class="chip oro">1 punto</span><span class="chip">Laboratorio</span></div>
+    <p class="enunciado">a) Al añadir agua oxigenada a un trozo de hígado fresco se produce un burbujeo inmediato. Explíquelo [0,5]. b) Si el hígado se hierve antes, no hay burbujeo. ¿Por qué? [0,5]</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p class="extra">a) El hígado contiene catalasa, una enzima que descompone el agua oxigenada en agua y oxígeno; el oxígeno forma las burbujas. b) Al hervir, la catalasa, que es una proteína, se desnaturaliza y pierde su actividad.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip lila">Práctica BioCelia · estilo 26-27</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">La ingestión de metanol es peligrosa porque una enzima lo transforma en compuestos muy tóxicos. Esta intoxicación se trata administrando etanol, una sustancia parecida al metanol. Explique razonadamente el efecto del etanol [1].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p class="extra">El etanol actúa como inhibidor competitivo: por su parecido con el metanol compite con él por el centro activo de la enzima. Si hay mucho etanol, la enzima se une sobre todo a él, se forman menos productos tóxicos del metanol y este puede eliminarse sin transformarse.</p>
+    </div></details>
+  </article>
+
+  <p class="no-imprimir"><a href="../Entrenamientopau.html">🏋️ Practica más preguntas de este tema en Entrenamiento →</a></p>
+</section>
+
+<!-- ═══════════════ 12 · AUTOEVALUACIÓN ═══════════════ -->
+<section class="seccion" id="autoevaluacion">
+  <h2><span class="num">12</span>Autoevaluación rápida</h2>
+  <p>Intenta responder antes de desplegar la solución.</p>
+  <ol class="auto">
+    <li>¿Qué efecto tiene una enzima sobre la energía de activación? ¿Y sobre la energía liberada? <details><summary>Ver</summary><span class="resp">Disminuye la energía de activación; la energía liberada no cambia.</span></details></li>
+    <li>¿Qué es el complejo enzima-sustrato? <details><summary>Ver</summary><span class="resp">La unión temporal del sustrato al centro activo de la enzima, en la que tiene lugar la reacción.</span></details></li>
+    <li>¿A qué se debe la especificidad de una enzima? <details><summary>Ver</summary><span class="resp">A que su centro activo tiene una forma complementaria a la del sustrato.</span></details></li>
+    <li>¿Qué es una holoenzima? <details><summary>Ver</summary><span class="resp">La enzima activa: apoenzima (parte proteica) + cofactor.</span></details></li>
+    <li>Pon un ejemplo de coenzima. <details><summary>Ver</summary><span class="resp">NAD⁺, FAD, coenzima A…</span></details></li>
+    <li>¿Por qué deja de aumentar la velocidad aunque añadas más sustrato? <details><summary>Ver</summary><span class="resp">Porque todas las enzimas están ocupadas (saturadas): se ha alcanzado la velocidad máxima.</span></details></li>
+    <li>¿Qué le ocurre a una enzima a 0 ºC? ¿Y a 90 ºC? <details><summary>Ver</summary><span class="resp">A 0 ºC está casi inactiva pero intacta; a 90 ºC se desnaturaliza.</span></details></li>
+    <li>¿Dónde actúa una enzima con pH óptimo 2? <details><summary>Ver</summary><span class="resp">En el estómago (como la pepsina).</span></details></li>
+    <li>¿Cómo se supera una inhibición competitiva? <details><summary>Ver</summary><span class="resp">Aumentando la concentración de sustrato.</span></details></li>
+    <li>¿Dónde se une un inhibidor no competitivo? <details><summary>Ver</summary><span class="resp">En un lugar distinto del centro activo, cuya forma modifica.</span></details></li>
+    <li>¿Por qué un inhibidor irreversible inutiliza la enzima para siempre? <details><summary>Ver</summary><span class="resp">Porque se une a ella mediante un enlace covalente.</span></details></li>
+    <li>¿Qué es la retroinhibición? <details><summary>Ver</summary><span class="resp">La inhibición de la primera enzima de una ruta por el producto final, que actúa como inhibidor alostérico.</span></details></li>
+  </ol>
+</section>
+
+<p class="fuentes">Fuentes: Directrices y orientaciones de la PAU de Biología de Andalucía (curso 2026-27); criterios oficiales de corrección de la PAU de Andalucía (2010-2024); resúmenes del departamento; Campbell y Reece, <i>Biología</i>; Solomon, Berg y Martin, <i>Biología</i>. Esquemas y curvas cualitativas: elaboración propia de BioCelia.</p>
+
+</main>
+</div>
+
+<script src="apuntes.js"></script>
+</body>
+</html>
