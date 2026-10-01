@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Resúmenes, presentaciones y temas completos PAU Biología 2025-2026 organizados por los 6 bloques oficiales del currículo de Andalucía.">
-<title>Recursos PAU Biología 2025-2026</title>
+<meta name="description" content="Resúmenes y recursos de Biología para la PAU Andalucía 2026-2027, organizados según los seis bloques oficiales.">
+<title>Recursos PAU Biología 2026-2027</title>
 <link rel="stylesheet" href="pau-theme.css">
 <style>
   :root {
@@ -104,6 +104,13 @@
     border-radius: 3px;
     transition: width 0.8s ease;
   }
+  .bloque-alcance {
+    margin: -4px 0 18px;
+    color: #555;
+    font-size: 0.88rem;
+    line-height: 1.5;
+  }
+  .bloque-alcance strong { color: var(--primary); }
 
   /* ── Rejilla de tarjetas de tema ── */
   .tema-grid {
@@ -316,28 +323,29 @@
 <div class="recursos-wrapper" id="main-content">
   <div class="page-intro">
     <p><strong>Recursos de estudio para la PAU de Biología.</strong> Los materiales están organizados por bloques y temas para favorecer la revisión activa, la comprensión conceptual y la conexión con los criterios de evaluación.</p>
-    <span class="pill">Basado en la organización de los recursos PAU 2025</span>
+    <span class="pill">Estructura oficial PAU 2026-27</span>
   </div>
 
   <!-- CABECERA -->
   <div class="recursos-header">
-    <h2><span aria-hidden="true">📚</span> Resúmenes y Apuntes PAU 2025</h2>
+    <h2><span aria-hidden="true">📚</span> Resúmenes y Apuntes PAU 2026-27</h2>
     <p>Descarga los materiales organizados por los 6 bloques oficiales del currículo.<br>
        Haz clic en cada tema para ver los recursos disponibles.</p>
   </div>
 
   <!-- ══════════════════════════════════════════════════════════
        BLOQUE A: LAS BIOMOLÉCULAS
-       6 temas activos / 6 temas totales → 100 %
+      6 temas con recursos / 8 temas totales → 75 %
   ══════════════════════════════════════════════════════════ -->
   <div class="bloque-container" style="border-left-color: #2980b9;">
     <h3 class="bloque-titulo"><span aria-hidden="true">🔵</span> A. Las Biomoléculas</h3>
-    <div class="cobertura" aria-label="6 de 6 temas disponibles">
-      <span>6 / 6 temas</span>
+    <div class="cobertura" aria-label="8 de 8 temas con recursos disponibles">
+      <span>8 / 8 temas</span>
       <div class="cobertura-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
         <div class="cobertura-fill" style="width:100%;"></div>
       </div>
     </div>
+    <p class="bloque-alcance"><strong>En las directrices 26-27:</strong> biomoléculas; agua y sales; glúcidos, lípidos, proteínas y ácidos nucleicos, incluida su identificación práctica; vitaminas y salud.</p>
     <div class="tema-grid">
 
       <!-- A1 · Bioelementos y biomoléculas inorgánicas -->
@@ -550,6 +558,74 @@
         </div>
       </div>
 
+      <div class="tema-card" role="group" aria-label="Vitaminas y salud">
+        <button class="tema-header" aria-expanded="false" onclick="toggleTema(this)">
+          <span class="icono" aria-hidden="true">📄</span>
+          <span class="tema-nombre">Vitaminas y salud</span>
+          <span class="flecha" aria-hidden="true">▼</span>
+        </button>
+        <div class="tema-panel" role="list">
+          <a href="temas/a7-vitaminas-salud-resumen.html"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Resumen — Vitaminas y salud (abrir en otra pestaña)"
+             class="sub-btn tipo-resumen" role="listitem">
+            <span class="sub-icono" aria-hidden="true">📄</span>
+            <span class="sub-label">Resumen</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+          <a href="temas/a7-vitaminas-salud-presentacion.html"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Presentación — Vitaminas y salud (abrir en otra pestaña)"
+             class="sub-btn tipo-slides" role="listitem">
+            <span class="sub-icono" aria-hidden="true">🎞️</span>
+            <span class="sub-label">Presentación</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+          <a href="temas/a7-vitaminas-salud.html"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Tema completo — Vitaminas y salud (abrir en otra pestaña)"
+             class="sub-btn tipo-tema" role="listitem">
+            <span class="sub-icono" aria-hidden="true">📖</span>
+            <span class="sub-label">Tema completo</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="tema-card" role="group" aria-label="Prácticas de identificación de biomoléculas">
+        <button class="tema-header" aria-expanded="false" onclick="toggleTema(this)">
+          <span class="icono" aria-hidden="true">📄</span>
+          <span class="tema-nombre">Prácticas de identificación de biomoléculas</span>
+          <span class="flecha" aria-hidden="true">▼</span>
+        </button>
+        <div class="tema-panel" role="list">
+          <a href="temas/a8-practicas-biomoleculas-resumen.html"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Resumen — Prácticas de identificación de biomoléculas (abrir en otra pestaña)"
+             class="sub-btn tipo-resumen" role="listitem">
+            <span class="sub-icono" aria-hidden="true">📄</span>
+            <span class="sub-label">Resumen</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+          <a href="temas/a8-practicas-biomoleculas-presentacion.html"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Presentación — Prácticas de identificación de biomoléculas (abrir en otra pestaña)"
+             class="sub-btn tipo-slides" role="listitem">
+            <span class="sub-icono" aria-hidden="true">🎞️</span>
+            <span class="sub-label">Presentación</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+          <a href="temas/a8-practicas-biomoleculas.html"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Tema completo — Prácticas de identificación de biomoléculas (abrir en otra pestaña)"
+             class="sub-btn tipo-tema" role="listitem">
+            <span class="sub-icono" aria-hidden="true">📖</span>
+            <span class="sub-label">Tema completo</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+
     </div><!-- /tema-grid bloque A -->
   </div>
 
@@ -565,6 +641,7 @@
         <div class="cobertura-fill" style="width:33%;"></div>
       </div>
     </div>
+    <p class="bloque-alcance"><strong>En las directrices 26-27:</strong> ADN, genomas, replicación, ARN, expresión génica, código genético, regulación, mutaciones y biodiversidad en Andalucía.</p>
     <div class="tema-grid">
 
       <!-- B1 · Genética Molecular (Dogma Central) -->
@@ -639,10 +716,10 @@
       </div>
 
       <!-- B3 · Mutaciones — pendiente -->
-      <div class="tema-card tema-disabled" role="group" aria-label="Mutaciones — próximamente">
+      <div class="tema-card tema-disabled" role="group" aria-label="Mutaciones y biodiversidad en Andalucía — próximamente">
         <div class="tema-header" aria-disabled="true">
           <span class="icono" aria-hidden="true">📄</span>
-          <span class="tema-nombre">Mutaciones</span>
+          <span class="tema-nombre">Mutaciones y biodiversidad en Andalucía</span>
           <span class="badge-pronto">Próximamente</span>
         </div>
         <!--
@@ -679,16 +756,17 @@
 
   <!-- ══════════════════════════════════════════════════════════
        BLOQUE C: BIOLOGÍA CELULAR
-       1 tema activo / 2 temas totales → 50 %
+      1 tema activo / 3 temas totales → 33 %
   ══════════════════════════════════════════════════════════ -->
   <div class="bloque-container" style="border-left-color: #27ae60;">
     <h3 class="bloque-titulo"><span aria-hidden="true">🟢</span> C. Biología Celular</h3>
-    <div class="cobertura" aria-label="1 de 2 temas disponibles">
-      <span>1 / 2 temas</span>
-      <div class="cobertura-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-        <div class="cobertura-fill" style="width:50%;"></div>
+    <div class="cobertura" aria-label="1 de 3 temas con recursos disponibles">
+      <span>1 / 3 temas</span>
+      <div class="cobertura-bar" role="progressbar" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100">
+        <div class="cobertura-fill" style="width:33%;"></div>
       </div>
     </div>
+    <p class="bloque-alcance"><strong>En las directrices 26-27:</strong> teoría celular, microscopía, membrana y transporte, orgánulos, ciclo celular, mitosis y meiosis, y cáncer.</p>
     <div class="tema-grid">
 
       <!-- C1 · Morfología Celular — pendiente -->
@@ -762,21 +840,30 @@
         </div>
       </div>
 
+      <div class="tema-card tema-disabled" role="group" aria-label="Ciclo celular y cáncer — próximamente">
+        <div class="tema-header" aria-disabled="true">
+          <span class="icono" aria-hidden="true">📄</span>
+          <span class="tema-nombre">Ciclo celular y cáncer</span>
+          <span class="badge-pronto">Próximamente</span>
+        </div>
+      </div>
+
     </div><!-- /tema-grid bloque C -->
   </div>
 
   <!-- ══════════════════════════════════════════════════════════
        BLOQUE D: METABOLISMO
-       1 tema activo / 3 temas totales → 33 %
+      1 tema activo / 5 temas totales → 20 %
   ══════════════════════════════════════════════════════════ -->
   <div class="bloque-container" style="border-left-color: #f39c12;">
     <h3 class="bloque-titulo"><span aria-hidden="true">🟡</span> D. Metabolismo</h3>
-    <div class="cobertura" aria-label="1 de 3 temas disponibles">
-      <span>1 / 3 temas</span>
-      <div class="cobertura-bar" role="progressbar" aria-valuenow="33" aria-valuemin="0" aria-valuemax="100">
-        <div class="cobertura-fill" style="width:33%;"></div>
+    <div class="cobertura" aria-label="1 de 5 temas con recursos disponibles">
+      <span>1 / 5 temas</span>
+      <div class="cobertura-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
+        <div class="cobertura-fill" style="width:20%;"></div>
       </div>
     </div>
+    <p class="bloque-alcance"><strong>En las directrices 26-27:</strong> metabolismo y rendimiento energético; catabolismo aeróbico y anaeróbico; anabolismo heterótrofo y autótrofo, fotosíntesis y quimiosíntesis; fermentación y aplicaciones industriales.</p>
     <div class="tema-grid">
 
       <!-- D1 · Nutrición celular (enzimas y generalidades del metabolismo) -->
@@ -850,11 +937,11 @@
         -->
       </div>
 
-      <!-- D3 · Fotosíntesis — pendiente -->
-      <div class="tema-card tema-disabled" role="group" aria-label="Fotosíntesis — próximamente">
+      <!-- D3 · Fotosíntesis y quimiosíntesis — pendiente -->
+      <div class="tema-card tema-disabled" role="group" aria-label="Fotosíntesis y quimiosíntesis — próximamente">
         <div class="tema-header" aria-disabled="true">
           <span class="icono" aria-hidden="true">📄</span>
-          <span class="tema-nombre">Fotosíntesis</span>
+          <span class="tema-nombre">Fotosíntesis y quimiosíntesis</span>
           <span class="badge-pronto">Próximamente</span>
         </div>
         <!--
@@ -886,28 +973,45 @@
         -->
       </div>
 
+      <div class="tema-card tema-disabled" role="group" aria-label="Anabolismo heterótrofo — próximamente">
+        <div class="tema-header" aria-disabled="true">
+          <span class="icono" aria-hidden="true">📄</span>
+          <span class="tema-nombre">Anabolismo heterótrofo</span>
+          <span class="badge-pronto">Próximamente</span>
+        </div>
+      </div>
+
+      <div class="tema-card tema-disabled" role="group" aria-label="Fermentaciones y aplicaciones industriales — próximamente">
+        <div class="tema-header" aria-disabled="true">
+          <span class="icono" aria-hidden="true">📄</span>
+          <span class="tema-nombre">Fermentaciones y aplicaciones industriales</span>
+          <span class="badge-pronto">Próximamente</span>
+        </div>
+      </div>
+
     </div><!-- /tema-grid bloque D -->
   </div>
 
   <!-- ══════════════════════════════════════════════════════════
-       BLOQUE E: BIOTECNOLOGÍA
+      BLOQUE E: INGENIERÍA GENÉTICA Y BIOTECNOLOGÍA
        1 tema activo / 2 temas totales → 50 %
   ══════════════════════════════════════════════════════════ -->
   <div class="bloque-container" style="border-left-color: #c0392b;">
-    <h3 class="bloque-titulo"><span aria-hidden="true">🔴</span> E. Biotecnología</h3>
+    <h3 class="bloque-titulo"><span aria-hidden="true">🔴</span> E. Ingeniería genética y biotecnología</h3>
     <div class="cobertura" aria-label="1 de 2 temas disponibles">
       <span>1 / 2 temas</span>
       <div class="cobertura-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
         <div class="cobertura-fill" style="width:50%;"></div>
       </div>
     </div>
+    <p class="bloque-alcance"><strong>En las directrices 26-27:</strong> técnicas de ingeniería genética, terapia génica, aplicaciones biotecnológicas y papel de los microorganismos.</p>
     <div class="tema-grid">
 
-      <!-- E1 · Microbiología — pendiente -->
-      <div class="tema-card tema-disabled" role="group" aria-label="Microbiología — próximamente">
+      <!-- E1 · Microorganismos y aplicaciones biotecnológicas — pendiente -->
+      <div class="tema-card tema-disabled" role="group" aria-label="Microorganismos y aplicaciones biotecnológicas — próximamente">
         <div class="tema-header" aria-disabled="true">
           <span class="icono" aria-hidden="true">📄</span>
-          <span class="tema-nombre">Microbiología</span>
+          <span class="tema-nombre">Microorganismos y aplicaciones biotecnológicas</span>
           <span class="badge-pronto">Próximamente</span>
         </div>
         <!--
@@ -989,6 +1093,7 @@
         <div class="cobertura-fill" style="width:100%;"></div>
       </div>
     </div>
+    <p class="bloque-alcance"><strong>En las directrices 26-27:</strong> inmunidad innata y específica, inmunidad natural y artificial, vacunas y sueros, enfermedades y patologías inmunitarias.</p>
     <div class="tema-grid">
 
       <!-- F1 · Inmunología -->
@@ -1051,7 +1156,7 @@
 <!-- ── PIE DE PÁGINA CON LICENCIA CREATIVE COMMONS ── -->
 <footer class="recursos-footer">
   <p>
-    © 2025–2026 · Elaborado por <span class="autor">María Dolores Gámez Ortiz</span>
+    © 2026–2027 · Elaborado por <span class="autor">María Dolores Gámez Ortiz</span>
   </p>
   <p class="licencia">
     <span>Esta obra está bajo licencia</span>
