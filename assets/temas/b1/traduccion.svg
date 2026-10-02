@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 455" role="img" font-family="Nunito, 'Segoe UI', system-ui, sans-serif"><title>Etapas de la traducción: iniciación, elongación y terminación</title>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2a7fc1"/></marker><marker id="fk" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#22313f"/></marker><radialGradient id="gO" cx="35%" cy="35%" r="70%"><stop offset="0" stop-color="#f08a7e"/><stop offset="1" stop-color="#c0392b"/></radialGradient><radialGradient id="gH" cx="35%" cy="35%" r="70%"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#d5dde3"/></radialGradient></defs>
+<rect x="20" y="10" width="380" height="400" rx="18" fill="#f6f9fb" stroke="#d5dde3"/><text x="210.0" y="38.0" font-size="19" text-anchor="middle" font-weight="900" fill="#0f4c81" >1 · Iniciación</text>
+<clipPath id="c0"><rect x="22" y="10" width="376" height="400"/></clipPath><g clip-path="url(#c0)"><rect x="99.0" y="78" width="222" height="166" rx="56" fill="#d6e9d4" fill-opacity="0.8" stroke="#3f8a3a" stroke-width="2.5"/><ellipse cx="210" cy="274" rx="112.2" ry="30" fill="#e9f3e8" stroke="#3f8a3a" stroke-width="2.5"/><text x="144.0" y="70.0" font-size="16" text-anchor="middle" font-weight="900" fill="#3f8a3a" >E</text>
+<text x="210.0" y="70.0" font-size="16" text-anchor="middle" font-weight="900" fill="#3f8a3a" >P</text>
+<text x="276.0" y="70.0" font-size="16" text-anchor="middle" font-weight="900" fill="#3f8a3a" >A</text>
+<line x1="50.0" y1="250.0" x2="547.0" y2="250.0" stroke="#8e44ad" stroke-width="5" stroke-linecap="round" /><text x="32.0" y="242.0" font-size="13" text-anchor="start" font-weight="900" fill="#8e44ad" >5'</text>
+<text x="210.0" y="272.0" font-size="15" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">AUG</text>
+<text x="276.0" y="272.0" font-size="15" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">GCU</text>
+<text x="342.0" y="272.0" font-size="15" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">UUC</text>
+<text x="408.0" y="272.0" font-size="15" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">UAA</text>
+<text x="474.0" y="272.0" font-size="15" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">…</text>
+<path d="M186,242 V184 H234 V242z" fill="#fde2c4" stroke="#c77d00" stroke-width="2.2"/><text x="210.0" y="235.0" font-size="13" text-anchor="middle" font-weight="900" fill="#8a5a00" font-family="Consolas, monospace">UAC</text>
+<circle cx="210" cy="170" r="13" fill="#e76f51" stroke="#22313f" stroke-width="1.5"/><text x="210.0" y="174.0" font-size="10" text-anchor="middle" font-weight="900" fill="#22313f" >Met</text>
+</g><text x="210.0" y="330.0" font-size="13" text-anchor="middle" font-weight="800" fill="#4c5b67" >La subunidad menor se une al ARNm</text>
+<text x="210.0" y="349.0" font-size="13" text-anchor="middle" font-weight="800" fill="#4c5b67" >y localiza el codón AUG.</text>
+<text x="210.0" y="368.0" font-size="13" text-anchor="middle" font-weight="800" fill="#4c5b67" >ARNt-Met (anticodón UAC) en el sitio P;</text>
+<text x="210.0" y="387.0" font-size="13" text-anchor="middle" font-weight="800" fill="#4c5b67" >después se une la subunidad mayor.</text>
+<rect x="420" y="10" width="380" height="400" rx="18" fill="#fff" stroke="#d5dde3"/><text x="610.0" y="38.0" font-size="19" text-anchor="middle" font-weight="900" fill="#0f4c81" >2 · Elongación</text>
+<clipPath id="c1"><rect x="422" y="10" width="376" height="400"/></clipPath><g clip-path="url(#c1)"><rect x="499.0" y="78" width="222" height="166" rx="56" fill="#d6e9d4" fill-opacity="0.8" stroke="#3f8a3a" stroke-width="2.5"/><ellipse cx="610" cy="274" rx="112.2" ry="30" fill="#e9f3e8" stroke="#3f8a3a" stroke-width="2.5"/><text x="544.0" y="70.0" font-size="16" text-anchor="middle" font-weight="900" fill="#3f8a3a" >E</text>
+<text x="610.0" y="70.0" font-size="16" text-anchor="middle" font-weight="900" fill="#3f8a3a" >P</text>
+<text x="676.0" y="70.0" font-size="16" text-anchor="middle" font-weight="900" fill="#3f8a3a" >A</text>
+<line x1="450.0" y1="250.0" x2="881.0" y2="250.0" stroke="#8e44ad" stroke-width="5" stroke-linecap="round" /><text x="432.0" y="242.0" font-size="13" text-anchor="start" font-weight="900" fill="#8e44ad" >5'</text>
+<text x="544.0" y="272.0" font-size="15" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">AUG</text>
+<text x="610.0" y="272.0" font-size="15" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">GCU</text>
+<text x="676.0" y="272.0" font-size="15" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">UUC</text>
+<text x="742.0" y="272.0" font-size="15" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">UAA</text>
+<text x="808.0" y="272.0" font-size="15" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">…</text>
+<path d="M520,212 V154 H568 V212z" fill="#fde2c4" stroke="#c77d00" stroke-width="2.2"/><text x="544.0" y="205.0" font-size="13" text-anchor="middle" font-weight="900" fill="#8a5a00" font-family="Consolas, monospace">UAC</text>
+<path d="M586,242 V184 H634 V242z" fill="#fde2c4" stroke="#c77d00" stroke-width="2.2"/><text x="610.0" y="235.0" font-size="13" text-anchor="middle" font-weight="900" fill="#8a5a00" font-family="Consolas, monospace">CGA</text>
+<circle cx="610" cy="170" r="13" fill="#2a9d8f" stroke="#22313f" stroke-width="1.5"/><text x="610.0" y="174.0" font-size="10" text-anchor="middle" font-weight="900" fill="#22313f" >Ala</text>
+<circle cx="610" cy="143" r="13" fill="#e76f51" stroke="#22313f" stroke-width="1.5"/><text x="610.0" y="147.0" font-size="10" text-anchor="middle" font-weight="900" fill="#22313f" >Met</text>
+<path d="M652,242 V184 H700 V242z" fill="#fde2c4" stroke="#c77d00" stroke-width="2.2"/><text x="676.0" y="235.0" font-size="13" text-anchor="middle" font-weight="900" fill="#8a5a00" font-family="Consolas, monospace">AAG</text>
+<circle cx="676" cy="170" r="13" fill="#e9c46a" stroke="#22313f" stroke-width="1.5"/><text x="676.0" y="174.0" font-size="10" text-anchor="middle" font-weight="900" fill="#22313f" >Phe</text>
+<line x1="623.0" y1="170.0" x2="663.0" y2="170.0" stroke="#c0392b" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="4 3"/><text x="676.0" y="130.0" font-size="11" text-anchor="middle" font-weight="900" fill="#c0392b" >enlace</text>
+<text x="676.0" y="143.0" font-size="11" text-anchor="middle" font-weight="900" fill="#c0392b" >peptídico</text>
+</g><text x="610.0" y="330.0" font-size="13" text-anchor="middle" font-weight="800" fill="#4c5b67" >Entra un ARNt-aa en el sitio A.</text>
+<text x="610.0" y="349.0" font-size="13" text-anchor="middle" font-weight="800" fill="#4c5b67" >Enlace peptídico (peptidil transferasa).</text>
+<text x="610.0" y="368.0" font-size="13" text-anchor="middle" font-weight="800" fill="#4c5b67" >Translocación: el ribosoma avanza un</text>
+<text x="610.0" y="387.0" font-size="13" text-anchor="middle" font-weight="800" fill="#4c5b67" >codón; el ARNt libre sale por el sitio E.</text>
+<rect x="820" y="10" width="380" height="400" rx="18" fill="#f6f9fb" stroke="#d5dde3"/><text x="1010.0" y="38.0" font-size="19" text-anchor="middle" font-weight="900" fill="#0f4c81" >3 · Terminación</text>
+<clipPath id="c2"><rect x="822" y="10" width="376" height="400"/></clipPath><g clip-path="url(#c2)"><rect x="899.0" y="78" width="222" height="166" rx="56" fill="#d6e9d4" fill-opacity="0.8" stroke="#3f8a3a" stroke-width="2.5"/><ellipse cx="1010" cy="274" rx="112.2" ry="30" fill="#e9f3e8" stroke="#3f8a3a" stroke-width="2.5"/><text x="944.0" y="70.0" font-size="16" text-anchor="middle" font-weight="900" fill="#3f8a3a" >E</text>
+<text x="1010.0" y="70.0" font-size="16" text-anchor="middle" font-weight="900" fill="#3f8a3a" >P</text>
+<text x="1076.0" y="70.0" font-size="16" text-anchor="middle" font-weight="900" fill="#3f8a3a" >A</text>
+<line x1="850.0" y1="250.0" x2="1215.0" y2="250.0" stroke="#8e44ad" stroke-width="5" stroke-linecap="round" /><text x="832.0" y="242.0" font-size="13" text-anchor="start" font-weight="900" fill="#8e44ad" >5'</text>
+<text x="878.0" y="272.0" font-size="15" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">AUG</text>
+<text x="944.0" y="272.0" font-size="15" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">GCU</text>
+<text x="1010.0" y="272.0" font-size="15" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">UUC</text>
+<text x="1076.0" y="272.0" font-size="15" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">UAA</text>
+<text x="1142.0" y="272.0" font-size="15" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">…</text>
+<path d="M986,242 V184 H1034 V242z" fill="#fde2c4" stroke="#c77d00" stroke-width="2.2"/><text x="1010.0" y="235.0" font-size="13" text-anchor="middle" font-weight="900" fill="#8a5a00" font-family="Consolas, monospace">AAG</text>
+<circle cx="1010" cy="170" r="13" fill="#e9c46a" stroke="#22313f" stroke-width="1.5"/><text x="1010.0" y="174.0" font-size="10" text-anchor="middle" font-weight="900" fill="#22313f" >Phe</text>
+<circle cx="1010" cy="143" r="13" fill="#2a9d8f" stroke="#22313f" stroke-width="1.5"/><text x="1010.0" y="147.0" font-size="10" text-anchor="middle" font-weight="900" fill="#22313f" >Ala</text>
+<circle cx="1010" cy="116" r="13" fill="#e76f51" stroke="#22313f" stroke-width="1.5"/><text x="1010.0" y="120.0" font-size="10" text-anchor="middle" font-weight="900" fill="#22313f" >Met</text>
+<path d="M1054,242 h44 v-44 l-22,-20 l-22,20z" fill="#f6d6e0" stroke="#c0392b" stroke-width="2.2"/><text x="1076.0" y="218.0" font-size="13" text-anchor="middle" font-weight="900" fill="#c0392b" >FL</text>
+</g><text x="1010.0" y="330.0" font-size="13" text-anchor="middle" font-weight="800" fill="#4c5b67" >Un codón de parada (UAA, UAG, UGA)</text>
+<text x="1010.0" y="349.0" font-size="13" text-anchor="middle" font-weight="800" fill="#4c5b67" >llega al sitio A: entra un factor de</text>
+<text x="1010.0" y="368.0" font-size="13" text-anchor="middle" font-weight="800" fill="#4c5b67" >liberación (FL), se libera el polipéptido</text>
+<text x="1010.0" y="387.0" font-size="13" text-anchor="middle" font-weight="800" fill="#4c5b67" >y se separan las subunidades.</text>
+<text x="620.0" y="438.0" font-size="14" text-anchor="middle" font-weight="900" fill="#0f4c81" >Codones: AUG (Met) · GCU (Ala) · UUC (Phe) · UAA (parada). Los anticodones se leen 3'→5'.</text>
+</svg>

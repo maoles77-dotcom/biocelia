@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Apuntes PAU de Biología (Andalucía 2026-27), Bloque B: genética molecular. ADN y gen, genomas procariota y eucariota, replicación, transcripción, código genético y traducción.">
+<title>Genética molecular · BioCelia</title>
+<link rel="stylesheet" href="../pau-theme.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="apuntes.css">
+</head>
+<body>
+<a class="skip-link" href="#main-content">Saltar al contenido</a>
+
+<nav class="site-nav" aria-label="Navegación principal">
+  <a href="../index.html">Inicio</a>
+  <a href="../orientacionespau.html">Orientaciones</a>
+  <a class="active" href="../resumenespau.html">Resúmenes</a>
+  <a href="../Entrenamientopau.html">Entrenamiento</a>
+  <a href="../simulacropau.html">Simulacro</a>
+  <a href="../laboratoriocompetencial.html">Laboratorio</a>
+  <a href="../laboratorioinvestigacion.html">Investigación</a>
+</nav>
+
+<div class="apuntes">
+
+<details class="indice">
+  <summary>Índice del tema</summary>
+  <ol>
+    <li><a href="#pau">Qué entra en la PAU</a></li>
+    <li><a href="#adn-informacion">El ADN, portador de la información</a></li>
+    <li><a href="#gen">Gen, alelo, homocigótico y heterocigótico</a></li>
+    <li><a href="#laboratorio">Problemas: Chargaff, complementariedad y Tm</a></li>
+    <li><a href="#genomas">Genomas procariota y eucariota</a></li>
+    <li><a href="#replicacion">Replicación: características</a></li>
+    <li><a href="#etapas-replicacion">Replicación en procariotas: etapas y enzimas</a></li>
+    <li><a href="#replicacion-euc">Replicación en eucariotas: diferencias</a></li>
+    <li><a href="#arn">Los ARN en la expresión génica</a></li>
+    <li><a href="#transcripcion">Transcripción en procariotas</a></li>
+    <li><a href="#transcripcion-euc">Transcripción en eucariotas y maduración</a></li>
+    <li><a href="#codigo">El código genético</a></li>
+    <li><a href="#traduccion">Traducción</a></li>
+    <li><a href="#problemas">Problemas de transcripción y traducción</a></li>
+    <li><a href="#examen">Así se pregunta en la PAU</a></li>
+    <li><a href="#autoevaluacion">Autoevaluación</a></li>
+  </ol>
+</details>
+
+<main class="contenido" id="main-content">
+
+<header class="hero">
+  <span class="etiqueta">Bloque B · Genética molecular</span>
+  <h1>Genética molecular</h1>
+  <p>Del ADN a la proteína: cómo se guarda la información, cómo se copia antes de cada división y cómo se lee para fabricar proteínas.</p>
+  <div class="acciones">
+    <a class="btn claro" href="b1-genetica-molecular-presentacion.html">🎞️ Presentación</a>
+    <a class="btn" href="b1-genetica-molecular-resumen.html">📝 Resumen</a>
+    <a class="btn" href="pdf/b1-genetica-molecular.pdf" download>⬇️ Descargar PDF</a>
+    <button class="btn" type="button" data-imprimir>🖨️ Imprimir</button>
+    <a class="btn" href="../Entrenamientopau.html">🏋️ Practicar preguntas</a>
+  </div>
+</header>
+
+<p class="leyenda">
+  <span><span class="clave">Palabra clave</span> = lo que buscan los criterios oficiales de corrección</span>
+  <span><span class="extra">Texto en violeta</span> = aclaración de BioCelia que no está en los criterios</span>
+</p>
+
+<!-- ═══════════════ 1 · PAU ═══════════════ -->
+<section class="seccion" id="pau">
+  <h2><span class="num">1</span>Qué entra en la PAU</h2>
+  <div class="caja directrices">
+    <span class="titulo-caja">Directrices de Andalucía 2026-27 · B.1 a B.5.2</span>
+    <ul>
+      <li><b>B.1</b> La secuencia de bases del ADN como <b>soporte de la información genética</b>. Concepto de <b>gen</b>, su estructura general, <b>alelo</b>, individuo <b>homocigótico y heterocigótico</b>. <b>Problemas de laboratorio</b>: reglas de Chargaff, secuencias complementarias, <b>temperatura de fusión</b>.</li>
+      <li><b>B.2</b> Genoma <b>procariota y eucariota</b>: ADN circular o lineal, ADN no codificante, exones e intrones, histonas.</li>
+      <li><b>B.3</b> Replicación: <b>semiconservativa, bidireccional, 5′→3′</b>, existencia de <b>mecanismos de reparación</b> (sin describirlos). Etapas en <b>procariotas</b> (iniciación, elongación, terminación), <b>origen de replicación</b>, cadena <b>adelantada y retrasada</b>, <b>cebador</b>, <b>fragmentos de Okazaki</b>, ADN polimerasa, primasa, ligasa, helicasa, topoisomerasa, <b>SSB</b>. Comparación con eucariotas. Interpretar <b>esquemas y fotomicrografías</b>.</li>
+      <li><b>B.4</b> Tipos de ARN (ARNm, ARNt, ARNr; también heteronuclear y nucleolar).</li>
+      <li><b>B.5.1</b> Transcripción en procariotas (etapas, 5′→3′, <b>cadena molde y codificante</b>, <b>promotor</b>, ARN polimerasa, <b>terminación</b>). En eucariotas: <b>factores de transcripción</b>, intrones y exones, <b>caperuza y cola poli-A</b> (sin detalle). Comparación. Traducción en procariotas: etapas, <b>codón de inicio, anticodón, subunidades</b>, <b>enlace peptídico</b>, <b>translocación</b>, <b>codones de terminación</b>.</li>
+      <li><b>B.5.2</b> Código genético: <b>universal (con excepciones), continuo, sin solapamiento y degenerado</b>. Problemas de transcripción y traducción con <b>direccionalidad</b> de las cadenas.</li>
+    </ul>
+  </div>
+  <div class="caja pau">
+    <span class="titulo-caja">Lo que más se ha preguntado (2010-2026)</span>
+    <ul>
+      <li><b>Replicación</b>: definición, semiconservativa y bidireccional, enzimas, <b>esquema de la horquilla</b> con letras (2021, 2024) y la pregunta del <b>modelo 2026</b> (replicación en una bacteria).</li>
+      <li><b>Transcripción y traducción</b>: definir, describir, cadena molde/codificante, promotor.</li>
+      <li><b>Código genético</b>: concepto, codón, anticodón, codones de terminación, <b>universal y degenerado</b>.</li>
+      <li><b>Problemas</b>: secuencias complementarias y polaridad, aminoácidos con la tabla del código, ¹⁵N y marcaje radiactivo, temperatura de desnaturalización.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ═══════════════ 2 · ADN E INFORMACIÓN ═══════════════ -->
+<section class="seccion" id="adn-informacion">
+  <h2><span class="num">2</span>El ADN, portador de la información genética</h2>
+  <p>La información genética está escrita en la <span class="clave">secuencia de bases nitrogenadas del ADN</span> (A, T, G y C). El orden de las bases de un gen determina el <b>orden de los aminoácidos</b> de una proteína, y las proteínas (enzimas, estructurales, transportadoras…) determinan las <b>características biológicas</b> del ser vivo.</p>
+  <figure class="figura">
+    <img src="../assets/temas/b1/dogma-central.svg" width="1000" height="345" alt="Dogma central: el ADN se replica, se transcribe a ARN y el ARN se traduce a proteína. Ampliaciones: transcripción inversa de ARN a ADN en retrovirus y replicación del ARN en virus de ARN. Nunca de proteína a ácido nucleico.">
+    <figcaption><b>Figura 1.</b> Dogma central de la biología molecular (Crick) y sus ampliaciones.</figcaption>
+  </figure>
+  <ul>
+    <li><span class="clave">Replicación</span>: copia del ADN antes de la división celular.</li>
+    <li><span class="clave">Transcripción</span>: síntesis de ARN a partir de un ADN molde.</li>
+    <li><span class="clave">Traducción</span>: síntesis de un polipéptido con la información del ARNm.</li>
+    <li>Ampliaciones: la <span class="clave">transcripción inversa</span> (de ARN a ADN), propia de <span class="clave">algunos virus</span> (<span class="extra">retrovirus como el VIH, mediante la enzima retrotranscriptasa</span>), y la <span class="extra">replicación del ARN en muchos virus de ARN</span>.</li>
+  </ul>
+  <div class="caja vida">
+    <span class="titulo-caja">Para saber más · cómo se demostró</span>
+    <p class="extra">Griffith (1928) vio que un «principio transformante» de neumococos muertos convertía en virulentas a bacterias vivas; Avery, MacLeod y McCarty (1944) demostraron que ese principio era el ADN; Hershey y Chase (1952) marcaron fagos con ³⁵S (proteínas) y ³²P (ADN) y comprobaron que en la bacteria solo entraba el ³²P, es decir, el ADN.</p>
+  </div>
+</section>
+
+<!-- ═══════════════ 3 · GEN ═══════════════ -->
+<section class="seccion" id="gen">
+  <h2><span class="num">3</span>Gen, alelo, homocigótico y heterocigótico</h2>
+  <ul>
+    <li><span class="clave">Gen</span>: <span class="clave">fragmento de ADN que determina una característica</span>; es la <span class="clave">unidad genética funcional</span>. <span class="extra">Hoy se precisa: secuencia de ADN que contiene la información para sintetizar una cadena polipeptídica o un ARN funcional (ARNt, ARNr…).</span></li>
+    <li><span class="clave">Genoma</span>: <span class="clave">conjunto de genes</span> (material genético) de una célula, un individuo o una especie.</li>
+    <li><span class="clave">Alelo</span>: cada una de las <span class="clave">formas alternativas</span> de un gen. <span class="extra">Ocupan el mismo lugar (locus) en los cromosomas homólogos.</span></li>
+    <li><span class="clave">Homocigótico</span>: individuo con los <span class="clave">dos alelos de un gen iguales</span> (AA o aa). <span class="clave">Heterocigótico</span>: con <span class="clave">dos alelos diferentes</span> (Aa).</li>
+    <li><span class="clave">Genotipo</span>: información genética de un organismo. <span class="clave">Fenotipo</span>: <span class="clave">caracteres que exhibe</span>, <span class="clave">expresión del genotipo en un ambiente</span>.</li>
+  </ul>
+  <h3>Estructura general de un gen</h3>
+  <figure class="figura">
+    <img src="../assets/temas/b1/genes-pro-euc.svg" width="1000" height="310" alt="Gen procariota: promotor, región codificante continua y terminador. Gen eucariota: promotor, exones alternando con intrones y terminador.">
+    <figcaption><b>Figura 2.</b> Elementos de un gen procariota y de uno eucariota.</figcaption>
+  </figure>
+  <ul>
+    <li><b>Promotor</b>: secuencia donde se <b>une la ARN polimerasa</b> e indica dónde empieza la transcripción.</li>
+    <li><b>Región codificante</b>: se transcribe y contiene la información. En eucariotas está fragmentada en <b>exones</b> (se expresan) e <b>intrones</b> (se eliminan durante la maduración).</li>
+    <li><b>Terminador</b>: señal de fin de la transcripción.</li>
+  </ul>
+</section>
+
+<!-- ═══════════════ 4 · LABORATORIO ═══════════════ -->
+<section class="seccion" id="laboratorio">
+  <h2><span class="num">4</span>Problemas de laboratorio: Chargaff, complementariedad y temperatura de fusión</h2>
+  <div class="caja directrices">
+    <span class="titulo-caja">Nuevo en 26-27 · B.1.2</span>
+    <p>Resolver problemas sencillos aplicando las <b>reglas de Chargaff</b>, determinando <b>secuencias complementarias</b> e interpretando la relación con la <b>temperatura de fusión</b>.</p>
+  </div>
+  <h3>Reglas de Chargaff (ADN bicatenario)</h3>
+  <ul>
+    <li><b>A = T</b> y <b>G = C</b>, por la <span class="clave">complementariedad de bases</span>.</li>
+    <li>Por tanto, <b>púricas = pirimidínicas</b> (A + G = T + C = 50 %).</li>
+    <li>La relación (A + T)/(G + C) <b>varía de una especie a otra</b>.</li>
+  </ul>
+  <div class="caja truco">
+    <span class="titulo-caja">Cómo razonar un problema de bases</span>
+    <ol>
+      <li>¿Tiene <b>T</b>? → ADN. ¿Tiene <b>U</b>? → ARN.</li>
+      <li>¿Se cumple A = T (o A = U) y G = C? → <b>bicatenario</b>. Si no se cumple → <b>monocatenario</b>.</li>
+      <li>Si es bicatenario y te dan una base: A = 30 % → T = 30 %, y G = C = (100 − 60)/2 = <b>20 %</b>.</li>
+      <li>Si es <b>monocatenario</b>, <span class="clave">no se puede usar la complementariedad</span>: no se deducen las demás bases.</li>
+    </ol>
+  </div>
+  <h3>Secuencias complementarias</h3>
+  <p>Las dos cadenas del ADN son <b>complementarias</b> (A–T, G–C) y <b>antiparalelas</b>: si una va 5′→3′, la otra va 3′→5′. Ejemplo:</p>
+  <p class="ecuacion">5′-ATG TTT GGC TAA-3′<br>3′-TAC AAA CCG ATT-5′</p>
+  <h3>Temperatura de fusión (Tm)</h3>
+  <div class="dos-col" style="align-items:center">
+    <figure class="figura">
+      <img src="../assets/temas/b1/temperatura-fusion.svg" width="740" height="400" alt="Curvas de desnaturalización: el ADN rico en A-T se desnaturaliza a menor temperatura que el ADN rico en G-C.">
+      <figcaption><b>Figura 3.</b> El ADN con más G≡C tiene una Tm más alta.</figcaption>
+    </figure>
+    <div>
+      <p>Al calentar el ADN <span class="clave">se rompen los puentes de hidrógeno</span> entre las bases y las dos hebras se separan (<b>desnaturalización</b>). La <b>temperatura de fusión (Tm)</b> es aquella a la que se ha separado <b>la mitad</b> del ADN.</p>
+      <p>Los pares <span class="clave">G–C tienen tres puentes de hidrógeno</span> y los <span class="clave">A–T, dos</span>: cuanto <span class="clave">más G y C</span>, <span class="clave">más temperatura</span> hace falta para separar las hebras.</p>
+      <p>Las hebras no se rompen porque los nucleótidos de una misma cadena están unidos por <span class="clave">enlaces fosfodiéster, más fuertes</span> <span class="extra">(covalentes)</span>.</p>
+      <p class="extra">Al enfriar lentamente, las hebras complementarias vuelven a unirse (renaturalización); en esto se basan técnicas como la PCR.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════ 5 · GENOMAS ═══════════════ -->
+<section class="seccion" id="genomas">
+  <h2><span class="num">5</span>Genomas procariota y eucariota</h2>
+  <figure class="figura">
+    <img src="../assets/temas/b1/genoma-pro-euc.svg" width="1000" height="614" alt="Bacteria con nucleoide de ADN circular y plásmidos; núcleo eucariota con varios cromosomas lineales asociados a histonas; tabla comparativa.">
+    <figcaption><b>Figura 4.</b> Organización del genoma en procariotas y eucariotas.</figcaption>
+  </figure>
+  <div class="tabla-wrap"><table class="tabla">
+    <thead><tr><th></th><th>Procariota</th><th>Eucariota</th></tr></thead>
+    <tbody>
+      <tr><td>Molécula de ADN</td><td><span class="clave">Una, circular</span></td><td><span class="clave">Varias, lineales</span> (cromosomas)</td></tr>
+      <tr><td>Localización</td><td><span class="clave">Nucleoide</span>, en el citoplasma (sin envoltura)</td><td><span class="clave">Núcleo</span>; también ADN circular en mitocondrias y cloroplastos</td></tr>
+      <tr><td>Proteínas asociadas</td><td><span class="clave">Sin histonas</span> <span class="extra">(otras proteínas lo compactan)</span></td><td><span class="clave">Asociado a histonas</span> (nucleosomas, cromatina)</td></tr>
+      <tr><td>Genes</td><td><span class="clave">Continuos, sin intrones</span>; a menudo <span class="clave">policistrónicos</span> (operones)</td><td><span class="clave">Fragmentados: exones e intrones</span>; <span class="clave">monocistrónicos</span></td></tr>
+      <tr><td>ADN no codificante</td><td><span class="clave">Escaso</span></td><td><span class="clave">Abundante</span> (intrones, secuencias repetidas…)</td></tr>
+      <tr><td>Plásmidos</td><td>Frecuentes</td><td>Raros (algunas levaduras)</td></tr>
+    </tbody>
+  </table></div>
+  <p><span class="clave">Plásmidos</span>: <span class="clave">pequeñas moléculas de ADN circular extracromosómico</span> que se <span class="clave">replican de forma independiente</span>. Aportan genes ventajosos, como la <span class="clave">resistencia a antibióticos</span>, se transfieren por <b>conjugación</b> y se usan como <b>vectores</b> en ingeniería genética.</p>
+  <div class="caja ojo">
+    <span class="titulo-caja">Mismo genoma, distintas proteínas</span>
+    <p>Todas las <span class="clave">células somáticas de un individuo tienen el mismo genoma</span>, pero una célula hepática y una renal fabrican proteínas distintas por <span class="clave">expresión diferencial del genoma</span> (lo verás en la regulación génica).</p>
+  </div>
+</section>
+
+<!-- ═══════════════ 6 · REPLICACIÓN ═══════════════ -->
+<section class="seccion" id="replicacion">
+  <h2><span class="num">6</span>Replicación del ADN: características</h2>
+  <p>La <span class="clave">replicación</span> es la <span class="clave">duplicación del ADN</span> mediante la cual se obtienen <span class="clave">dos copias idénticas</span>. Su finalidad es <span class="clave">duplicar el material genético antes de la división celular</span> para que se <span class="clave">reparta por igual</span> entre las células hijas. Ocurre en el <span class="clave">núcleo, las mitocondrias y los cloroplastos</span> de los eucariotas y en el <span class="clave">citoplasma</span> de los procariotas. <span class="extra">En eucariotas tiene lugar en la fase S de la interfase.</span></p>
+  <h3>Semiconservativa</h3>
+  <p>Cada molécula hija tiene <span class="clave">una cadena antigua (molde) y otra de nueva síntesis</span>. Lo demostraron <b>Meselson y Stahl</b> (1958):</p>
+  <figure class="figura">
+    <img src="../assets/temas/b1/meselson-stahl.svg" width="1020" height="520" alt="Generación 0: ADN con dos hebras pesadas, banda pesada. Generación 1 en nitrógeno 14: dos ADN híbridos, banda intermedia. Generación 2: dos híbridos y dos ligeros, bandas intermedia y ligera.">
+    <figcaption><b>Figura 5.</b> Experimento de Meselson y Stahl.</figcaption>
+  </figure>
+  <ul>
+    <li>Cultivaron <i>E. coli</i> en <b>¹⁵N</b> (ADN pesado) y lo pasaron a <b>¹⁴N</b>.</li>
+    <li><b>1.ª generación</b>: todo el ADN de <span class="clave">densidad intermedia</span> (<span class="clave">una hebra con ¹⁵N y otra con ¹⁴N</span>).</li>
+    <li><b>2.ª generación</b>: <span class="clave">mitad intermedio y mitad ligero</span> (las dos hebras con ¹⁴N).</li>
+    <li class="extra">Con replicación conservativa, en la 1.ª generación habría salido una banda pesada y otra ligera; con dispersiva, en la 2.ª generación no habría banda ligera. Solo el modelo semiconservativo explica los resultados.</li>
+  </ul>
+  <h3>Bidireccional</h3>
+  <p>En cada <span class="clave">origen de replicación</span> se abre una <b>burbuja</b> con <span class="clave">dos horquillas que avanzan en sentidos opuestos</span>.</p>
+  <figure class="figura">
+    <img src="../assets/temas/b1/burbuja-replicacion.svg" width="1100" height="460" alt="Burbuja de replicación con un origen en el centro y dos horquillas a los lados. En cada horquilla una hebra nueva es continua (adelantada) y la otra discontinua (retrasada).">
+    <figcaption><b>Figura 6.</b> Burbuja de replicación: desde el origen avanzan dos horquillas.</figcaption>
+  </figure>
+  <h3>Sentido 5′→3′</h3>
+  <p>La <b>ADN polimerasa</b> solo añade nucleótidos al <b>extremo 3′-OH</b> de una cadena: la nueva hebra crece siempre en <span class="clave">sentido 5′→3′</span>, leyendo el molde en sentido 3′→5′. Además, <b>no puede empezar una cadena</b>: necesita un <span class="clave">cebador</span> de ARN.</p>
+  <h3>Corrección de errores</h3>
+  <p>Existen <b>mecanismos de reparación</b> que corrigen los errores de copia y los daños del ADN <span class="extra">(por ejemplo, la propia ADN polimerasa revisa cada nucleótido añadido y elimina los mal emparejados)</span>. Las directrices piden saber que existen, <b>sin describirlos</b>.</p>
+</section>
+
+<!-- ═══════════════ 7 · ETAPAS ═══════════════ -->
+<section class="seccion" id="etapas-replicacion">
+  <h2><span class="num">7</span>Replicación en procariotas: etapas y enzimas</h2>
+  <figure class="figura">
+    <img src="../assets/temas/b1/horquilla-replicacion.svg" width="1100" height="540" alt="Horquilla de replicación: topoisomerasa delante, helicasa separando las hebras, proteínas SSB, primasa fabricando cebadores, ADN polimerasa III en la hebra adelantada continua, fragmentos de Okazaki en la hebra retrasada, ADN polimerasa I quitando cebadores y ADN ligasa uniendo fragmentos.">
+    <figcaption><b>Figura 7.</b> Horquilla de replicación. Pregunta muy frecuente con letras para identificar.</figcaption>
+  </figure>
+  <h3>1. Iniciación</h3>
+  <ul>
+    <li>Empieza en un único punto, el <span class="clave">origen de replicación</span> <span class="extra">(oriC en <i>E. coli</i>, reconocido por proteínas iniciadoras)</span>.</li>
+    <li>La <span class="clave">helicasa</span> <span class="clave">desenrolla y separa</span> las dos hebras rompiendo los puentes de hidrógeno.</li>
+    <li>Las <span class="clave">topoisomerasas</span> <span class="clave">evitan el superenrollamiento</span> que se produce delante de la horquilla <span class="extra">(cortan y vuelven a unir el ADN)</span>.</li>
+    <li>Las <span class="clave">proteínas SSB</span> se unen a las hebras sencillas e <span class="clave">impiden que vuelvan a unirse</span>.</li>
+    <li>Se forman <b>dos horquillas</b> (replicación bidireccional).</li>
+  </ul>
+  <h3>2. Elongación</h3>
+  <ul>
+    <li>La <span class="clave">primasa</span> <span class="extra">(una ARN polimerasa)</span> sintetiza un <span class="clave">cebador de ARN</span>, punto de inicio para la ADN polimerasa.</li>
+    <li>La <span class="clave">ADN polimerasa</span> (III en procariotas) añade desoxirribonucleótidos complementarios al molde en sentido <span class="clave">5′→3′</span>.</li>
+    <li>Como las cadenas son <span class="clave">antiparalelas</span> y la polimerasa solo trabaja en sentido 5′→3′:
+      <ul>
+        <li><span class="clave">Hebra adelantada o conductora</span>: se sintetiza <span class="clave">de forma continua</span>, en el <span class="clave">mismo sentido que avanza la horquilla</span>; necesita un solo cebador.</li>
+        <li><span class="clave">Hebra retrasada o retardada</span>: se sintetiza <span class="clave">de forma discontinua</span>, en <span class="clave">sentido opuesto al avance</span> de la horquilla, en <span class="clave">fragmentos de Okazaki</span>; cada uno necesita su cebador.</li>
+      </ul>
+    </li>
+    <li>La <b>ADN polimerasa I</b> <b>elimina los cebadores</b> y rellena los huecos con ADN.</li>
+    <li>La <span class="clave">ADN ligasa</span> <span class="clave">une los fragmentos de Okazaki</span>.</li>
+  </ul>
+  <h3>3. Terminación</h3>
+  <p>Las dos horquillas avanzan por el cromosoma circular hasta <b>encontrarse en el lado opuesto</b> al origen. Se obtienen <b>dos moléculas circulares idénticas</b>, que se reparten entre las dos células hijas.</p>
+  <div class="tabla-wrap"><table class="tabla">
+    <thead><tr><th>Molécula</th><th>Función</th></tr></thead>
+    <tbody>
+      <tr><td>Helicasa</td><td>Separa las dos hebras (rompe los puentes de hidrógeno)</td></tr>
+      <tr><td>Topoisomerasa</td><td>Elimina las tensiones y el superenrollamiento por delante de la horquilla</td></tr>
+      <tr><td>Proteínas SSB</td><td>Mantienen separadas las hebras sencillas</td></tr>
+      <tr><td>Primasa</td><td>Sintetiza los cebadores de ARN</td></tr>
+      <tr><td>ADN polimerasa</td><td>Sintetiza la nueva hebra 5′→3′; la ADN pol I además quita los cebadores</td></tr>
+      <tr><td>ADN ligasa</td><td>Une los fragmentos de Okazaki</td></tr>
+    </tbody>
+  </table></div>
+  <div class="caja pau">
+    <span class="titulo-caja">Tipo de molécula de cada elemento (PAU 2024)</span>
+    <p>Origen de replicación: <b>ADN</b>. Cebador: <b>ARN</b>. Hebra adelantada y fragmentos de Okazaki: <b>ADN</b>.</p>
+  </div>
+</section>
+
+<!-- ═══════════════ 8 · EUCARIOTAS ═══════════════ -->
+<section class="seccion" id="replicacion-euc">
+  <h2><span class="num">8</span>Replicación en eucariotas: diferencias</h2>
+  <figure class="figura">
+    <img src="../assets/temas/b1/origenes-replicacion.svg" width="1020" height="350" alt="Procariota: cromosoma circular con un único origen y dos horquillas. Eucariota: ADN lineal con muchas burbujas de replicación a la vez.">
+    <figcaption><b>Figura 8.</b> Un origen en procariotas; muchos orígenes (replicones) en eucariotas.</figcaption>
+  </figure>
+  <div class="tabla-wrap"><table class="tabla">
+    <thead><tr><th></th><th>Procariotas</th><th>Eucariotas</th></tr></thead>
+    <tbody>
+      <tr><td>Lugar</td><td>Citoplasma</td><td>Núcleo (y mitocondrias y cloroplastos)</td></tr>
+      <tr><td>Orígenes de replicación</td><td><span class="clave">Uno</span></td><td><span class="clave">Muchos</span> a la vez</td></tr>
+      <tr><td>ADN</td><td>Circular, sin histonas</td><td>Lineal, asociado a histonas (también hay que duplicar las histonas)</td></tr>
+      <tr><td>Velocidad por horquilla</td><td>Más rápida <span class="extra">(≈ 1000 nucleótidos/s)</span></td><td>Más lenta <span class="extra">(≈ 50-100 nucleótidos/s)</span>, aunque el genoma completo se copia pronto gracias a los muchos orígenes</td></tr>
+      <tr><td>Enzimas</td><td>ADN polimerasas I, II y III</td><td>Otras ADN polimerasas <span class="extra">(α, δ, ε…)</span></td></tr>
+      <tr><td>Fragmentos de Okazaki</td><td>Más largos <span class="extra">(1000-2000 nucleótidos)</span></td><td>Más cortos <span class="extra">(100-200 nucleótidos)</span></td></tr>
+      <tr><td>Extremos</td><td>No tiene (es circular)</td><td><span class="extra">Telómeros, que alarga la telomerasa en algunas células</span></td></tr>
+    </tbody>
+  </table></div>
+  <div class="caja pau">
+    <span class="titulo-caja">Así lo preguntan (2018)</span>
+    <p>«<i>E. coli</i> (4,6 Mb) tarda 40 minutos en replicar su genoma y <i>Drosophila</i> (180 Mb), solo 4. ¿Por qué?» → La mosca es <span class="clave">eucariota</span>: su ADN se replica desde <span class="clave">muchos orígenes de replicación a la vez</span>; la bacteria tiene <span class="clave">un solo origen</span>.</p>
+  </div>
+</section>
+
+<!-- ═══════════════ 9 · ARN ═══════════════ -->
+<section class="seccion" id="arn">
+  <h2><span class="num">9</span>Los ARN en la expresión génica</h2>
+  <p>La estructura de cada ARN se estudió en el tema de <a href="a6-acidos-nucleicos.html#arn">ácidos nucleicos</a>. Aquí importa su papel:</p>
+  <div class="tabla-wrap"><table class="tabla">
+    <thead><tr><th>ARN</th><th>Función en la expresión génica</th></tr></thead>
+    <tbody>
+      <tr><td>ARN mensajero (ARNm)</td><td><span class="clave">Contiene el mensaje genético</span>: lleva la información del ADN a los ribosomas, en codones</td></tr>
+      <tr><td>ARN transferente (ARNt)</td><td><span class="clave">Transporta los aminoácidos</span> al ribosoma; su <span class="clave">anticodón</span> reconoce el codón y su <span class="clave">extremo aceptor (3′)</span> lleva el aminoácido</td></tr>
+      <tr><td>ARN ribosómico (ARNr)</td><td><span class="clave">Forma parte del ribosoma</span> junto a proteínas <span class="extra">(y cataliza el enlace peptídico)</span></td></tr>
+      <tr><td>ARN heteronuclear (ARNhn)</td><td>Es el <b>transcrito primario</b> (pre-ARNm) en el núcleo, antes de madurar</td></tr>
+      <tr><td>ARN nucleolar</td><td>Se forma en el <b>nucleolo</b>: precursor de los ARNr <span class="extra">(y pequeños ARN que participan en su procesamiento)</span></td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- ═══════════════ 10 · TRANSCRIPCIÓN ═══════════════ -->
+<section class="seccion" id="transcripcion">
+  <h2><span class="num">10</span>Transcripción en procariotas</h2>
+  <p>La <span class="clave">transcripción</span> es la <span class="clave">síntesis de ARN complementario a una cadena de ADN que actúa como molde</span>. Su significado: obtener los <span class="clave">ARN necesarios para la síntesis de proteínas</span>. En eucariotas ocurre en el <span class="clave">núcleo</span> (y en mitocondrias y cloroplastos); en procariotas, en el citoplasma.</p>
+  <figure class="figura">
+    <img src="../assets/temas/b1/transcripcion.svg" width="1100" height="540" alt="Transcripción: la ARN polimerasa se une al promotor, abre la doble hélice, lee la cadena molde en sentido 3'-5' y sintetiza ARN 5'-3' hasta el terminador. Debajo, secuencias de cadena codificante, molde y ARNm.">
+    <figcaption><b>Figura 9.</b> Transcripción: el ARNm tiene la secuencia de la cadena codificante con U en lugar de T.</figcaption>
+  </figure>
+  <ul>
+    <li><span class="clave">Cadena molde</span>: la <span class="clave">cadena de ADN que se transcribe</span>; se lee en sentido 3′→5′.</li>
+    <li><span class="clave">Cadena codificante</span>: la <span class="clave">complementaria</span> de la molde; tiene <span class="clave">la misma secuencia que el ARNm, con T en lugar de U</span>.</li>
+    <li>Se copia <span class="clave">una sola cadena</span> y el ARN crece en <span class="clave">sentido 5′→3′</span>.</li>
+  </ul>
+  <h3>Etapas</h3>
+  <ol>
+    <li><b>Iniciación</b>: la <span class="clave">ARN polimerasa</span> reconoce y se une al <span class="clave">promotor</span>, <span class="clave">sitio de unión de la ARN polimerasa para iniciar la transcripción</span> <span class="extra">(en bacterias lo reconoce gracias a su subunidad o factor σ)</span>. Abre la doble hélice.</li>
+    <li><b>Elongación</b>: la ARN polimerasa <span class="clave">incorpora ribonucleótidos</span> complementarios a la cadena molde (A–U, T–A, G–C, C–G) y avanza; <b>no necesita cebador</b>. Detrás de ella el ADN vuelve a cerrarse.</li>
+    <li><b>Terminación</b>: al llegar a la <span class="clave">señal de terminación</span> (terminador) la polimerasa se separa y se libera el ARN <span class="extra">(en bacterias, por una horquilla del propio ARN o por la proteína ρ)</span>.</li>
+  </ol>
+  <div class="caja ojo">
+    <span class="titulo-caja">Errores que restan</span>
+    <ul>
+      <li>La transcripción <b>no</b> necesita cebador ni helicasa aparte: la propia ARN polimerasa abre el ADN.</li>
+      <li>El ARN <b>no</b> es igual a la cadena molde: es igual a la <b>codificante</b> (con U).</li>
+      <li>En procariotas el ARNm se <span class="clave">traduce mientras se transcribe</span>, porque <span class="clave">ambos procesos ocurren en el citoplasma</span>.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ═══════════════ 11 · EUCARIOTAS ═══════════════ -->
+<section class="seccion" id="transcripcion-euc">
+  <h2><span class="num">11</span>Transcripción en eucariotas y maduración del ARNm</h2>
+  <ul>
+    <li><b>Factores de transcripción</b>: proteínas que se unen al promotor <span class="extra">(por ejemplo, a la caja TATA)</span> y permiten que la ARN polimerasa se una e inicie la transcripción.</li>
+    <li>Los genes tienen <span class="clave">exones e intrones</span>: se transcribe todo y se obtiene un <span class="clave">ARNm inmaduro o transcrito primario</span> (ARN heteronuclear).</li>
+    <li><b>Maduración</b> (en el núcleo, sin necesidad de detallarla): se añade una <b>caperuza</b> en el extremo 5′ <span class="extra">(7-metilguanosina)</span>, una <b>cola de poli-A</b> en el extremo 3′ y se <b>eliminan los intrones</b> y se unen los exones (<b>corte y empalme</b> o <i>splicing</i>).</li>
+    <li>El <span class="clave">ARNm maduro</span> sale por los <b>poros nucleares</b> al citoplasma, donde se traduce.</li>
+  </ul>
+  <figure class="figura">
+    <img src="../assets/temas/b1/maduracion-arnm.svg" width="1000" height="510" alt="En el núcleo, el gen con exones e intrones se transcribe a pre-ARNm; en la maduración se añade la caperuza en 5', la cola poli-A en 3' y se eliminan los intrones. El ARNm maduro sale por un poro nuclear al ribosoma del citoplasma.">
+    <figcaption><b>Figura 10.</b> Transcripción y maduración del ARNm en eucariotas.</figcaption>
+  </figure>
+  <div class="tabla-wrap"><table class="tabla">
+    <thead><tr><th></th><th>Procariotas</th><th>Eucariotas</th></tr></thead>
+    <tbody>
+      <tr><td>Localización</td><td>Citoplasma</td><td>Núcleo (y mitocondrias y cloroplastos)</td></tr>
+      <tr><td>ARN polimerasas</td><td><b>Una</b> para todos los ARN</td><td><b>Tres</b> en el núcleo <span class="extra">(I: ARNr; II: ARNm; III: ARNt y ARNr 5S)</span></td></tr>
+      <tr><td>Inicio</td><td>La polimerasa reconoce el promotor</td><td>Necesita <b>factores de transcripción</b></td></tr>
+      <tr><td>Maduración</td><td>El ARNm apenas se modifica</td><td>Caperuza, cola poli-A y eliminación de intrones</td></tr>
+      <tr><td>ARNm</td><td>Policistrónico</td><td>Monocistrónico</td></tr>
+      <tr><td>Relación con la traducción</td><td><b>Simultáneas</b> (se traduce mientras se transcribe)</td><td><b>Separadas</b> en el espacio y en el tiempo</td></tr>
+    </tbody>
+  </table></div>
+  <div class="caja pau">
+    <span class="titulo-caja">Así lo preguntan (2013)</span>
+    <p>«En eucariotas el ARNm puede ser traducido antes de terminar de sintetizarse.» → <span class="clave">Falsa</span>: el ARNm debe <span class="clave">madurar</span>, <span class="clave">salir del núcleo</span> y llegar a los <span class="clave">ribosomas del citoplasma</span>.</p>
+  </div>
+</section>
+
+<!-- ═══════════════ 12 · CÓDIGO ═══════════════ -->
+<section class="seccion" id="codigo">
+  <h2><span class="num">12</span>El código genético</h2>
+  <p>El <span class="clave">código genético</span> es el sistema de <span class="clave">correspondencia entre los tripletes del ARNm y los aminoácidos</span> que codifican.</p>
+  <ul>
+    <li><span class="clave">Codón</span>: <span class="clave">tres nucleótidos consecutivos del ARNm</span> que codifican un aminoácido.</li>
+    <li><span class="clave">Anticodón</span>: triplete del <span class="clave">ARN transferente</span> que se une a un <span class="clave">codón complementario</span>.</li>
+    <li><span class="clave">Codones de terminación</span> (UAA, UAG, UGA): <span class="clave">no corresponden a ningún aminoácido</span> y <span class="clave">finalizan la síntesis de proteínas</span>.</li>
+    <li><b>Codón de inicio</b>: <b>AUG</b>, que codifica <b>metionina</b> <span class="extra">(N-formilmetionina en bacterias)</span>.</li>
+  </ul>
+  <figure class="figura">
+    <img src="../assets/temas/b1/codigo-genetico.svg" width="1050" height="620" alt="Tabla del código genético con los 64 codones: 61 codifican aminoácidos y UAA, UAG y UGA son de parada; AUG codifica metionina y es el codón de inicio.">
+    <figcaption><b>Figura 11.</b> Tabla del código genético. En el examen te la dan: hay que saber usarla, no memorizarla.</figcaption>
+  </figure>
+  <h3>Características</h3>
+  <div class="tabla-wrap"><table class="tabla">
+    <thead><tr><th>Característica</th><th>Significado</th></tr></thead>
+    <tbody>
+      <tr><td><span class="clave">Universal</span></td><td>Es <span class="clave">el mismo en casi todos los seres vivos</span>. <b>Con excepciones</b>: <span class="extra">en las mitocondrias y en algunos protozoos ciliados ciertos codones cambian de significado (por ejemplo, UGA codifica triptófano en las mitocondrias de los vertebrados)</span>.</td></tr>
+      <tr><td><span class="clave">Degenerado</span></td><td><span class="clave">Varios codones codifican el mismo aminoácido</span> (solo Met y Trp tienen un único codón).</td></tr>
+      <tr><td>Sin ambigüedad</td><td><span class="clave">Cada codón corresponde a un único aminoácido</span>.</td></tr>
+      <tr><td>Continuo (sin comas)</td><td>Se lee de tres en tres <b>sin interrupciones</b> desde el codón de inicio hasta uno de parada.</td></tr>
+      <tr><td>Sin solapamiento</td><td>Cada nucleótido pertenece a <b>un solo codón</b>.</td></tr>
+    </tbody>
+  </table></div>
+  <div class="caja truco">
+    <span class="titulo-caja">Las dos preguntas estrella</span>
+    <ul>
+      <li>¿Por qué la <b>insulina de ratón</b> se fabrica en una bacteria? → El código es <span class="clave">universal</span>.</li>
+      <li>¿Por qué dos ARNm distintos pueden dar <b>la misma proteína</b>? ¿Por qué no se puede deducir el ARNm a partir de la proteína? → El código es <span class="clave">degenerado</span>.</li>
+      <li>¿Y por qué un ARNm solo da una proteína? → <span class="clave">Cada codón corresponde a un único aminoácido</span> (no es ambiguo).</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ═══════════════ 13 · TRADUCCIÓN ═══════════════ -->
+<section class="seccion" id="traduccion">
+  <h2><span class="num">13</span>Traducción</h2>
+  <p>La <span class="clave">traducción</span> es la <span class="clave">síntesis de un polipéptido</span> con la información de la <span class="clave">secuencia de bases del ARNm</span>. Ocurre en los <b>ribosomas</b> <span class="extra">(70S en procariotas: 30S + 50S; 80S en eucariotas: 40S + 60S)</span>.</p>
+  <h3>Activación de los aminoácidos</h3>
+  <p>Cada aminoácido se une a su ARNt por la enzima <span class="clave">aminoacil-ARNt sintetasa</span>, en el <span class="clave">citoplasma</span>, con gasto de ATP. Así se forma el <b>aminoacil-ARNt</b>.</p>
+  <figure class="figura">
+    <img src="../assets/temas/b1/traduccion.svg" width="1240" height="455" alt="Iniciación: ARNt-Met en el sitio P sobre el codón AUG. Elongación: ARNt con Met-Ala en P y ARNt-Phe en A, enlace peptídico, el ARNt libre sale por E. Terminación: codón UAA en el sitio A, entra el factor de liberación y se libera el polipéptido.">
+    <figcaption><b>Figura 12.</b> Etapas de la traducción. Sitios del ribosoma: A (aminoacil), P (peptidil) y E (salida).</figcaption>
+  </figure>
+  <ol>
+    <li><b>Iniciación</b>: la <span class="clave">subunidad menor</span> se une al ARNm <span class="extra">(en bacterias, a una secuencia cercana al AUG)</span> y localiza el <span class="clave">codón de inicio AUG</span>. El <b>ARNt iniciador</b>, con <b>metionina</b> y el anticodón UAC, se coloca en el <b>sitio P</b>. Se une la <span class="clave">subunidad mayor</span> <span class="extra">(intervienen factores de iniciación y GTP)</span>.</li>
+    <li><b>Elongación</b>:
+      <ul>
+        <li>Un <b>aminoacil-ARNt</b> cuyo <span class="clave">anticodón es complementario</span> del codón entra en el <b>sitio A</b>.</li>
+        <li>Se forma el <span class="clave">enlace peptídico</span> entre el grupo carboxilo del aminoácido (o péptido) del sitio P y el grupo amino del aminoácido del sitio A, catalizado por la <span class="clave">peptidil transferasa</span> <span class="extra">(actividad del ARNr de la subunidad mayor)</span>. El péptido queda en el ARNt del sitio A.</li>
+        <li><span class="clave">Translocación</span>: el ribosoma <b>avanza un codón</b> (5′→3′): el ARNt con el péptido pasa al sitio P y el ARNt vacío sale por el sitio E. El sitio A queda libre para el siguiente.</li>
+      </ul>
+    </li>
+    <li><b>Terminación</b>: llega al sitio A un <span class="clave">codón de terminación</span> (UAA, UAG o UGA), que <b>ningún ARNt reconoce</b>. Entra un <b>factor de liberación</b>, se <b>libera el polipéptido</b> y se <b>separan las subunidades</b> del ribosoma.</li>
+  </ol>
+  <h3>Polirribosomas</h3>
+  <figure class="figura">
+    <img src="../assets/temas/b1/polisoma.svg" width="1040" height="370" alt="Varios ribosomas traduciendo el mismo ARNm: las cadenas son más largas en los ribosomas más próximos al extremo 3'.">
+    <figcaption><b>Figura 13.</b> Polirribosoma o polisoma.</figcaption>
+  </figure>
+  <p>Varios ribosomas traducen a la vez el mismo ARNm (<b>polisoma</b>), lo que permite fabricar muchas copias de la proteína. Después, la cadena se <b>pliega</b> y puede sufrir modificaciones <span class="extra">(en el RER y el aparato de Golgi en el caso de proteínas de secreción o de membrana)</span>.</p>
+  <div class="caja pau">
+    <span class="titulo-caja">Así lo preguntan (2012)</span>
+    <p>Al describir la traducción deben aparecer: <span class="clave">unión del ARNm al ribosoma</span>, el <span class="clave">ARNt</span>, el <span class="clave">enlace peptídico</span> y el <span class="clave">polipéptido</span>, ordenados en <b>iniciación, elongación y terminación</b>.</p>
+  </div>
+</section>
+
+<!-- ═══════════════ 14 · PROBLEMAS ═══════════════ -->
+<section class="seccion" id="problemas">
+  <h2><span class="num">14</span>Problemas de transcripción y traducción</h2>
+  <div class="caja truco">
+    <span class="titulo-caja">Método en cuatro pasos</span>
+    <ol>
+      <li>Escribe <b>siempre los extremos 5′ y 3′</b>.</li>
+      <li>ARNm = <b>complementario y antiparalelo a la cadena molde</b> = igual a la codificante con U.</li>
+      <li>Lee los codones del ARNm <b>de 5′ a 3′</b>, de tres en tres, empezando en el <b>AUG</b> (si te lo dicen) y hasta el codón de parada.</li>
+      <li>Anticodón = complementario del codón <span class="extra">(los criterios lo escriben alineado con el codón, es decir, de 3′ a 5′)</span>.</li>
+    </ol>
+  </div>
+  <h3>Ejemplo resuelto</h3>
+  <p>Cadena molde: <b>3′-TAC GGT CAT ACT-5′</b></p>
+  <ul>
+    <li>Cadena codificante: <b>5′-ATG CCA GTA TGA-3′</b></li>
+    <li>ARNm: <b>5′-AUG CCA GUA UGA-3′</b></li>
+    <li>Péptido: <b>Met – Pro – Val</b> (UGA es de parada)</li>
+    <li>Anticodones: 3′-UAC-5′, 3′-GGU-5′, 3′-CAU-5′ (ningún ARNt para UGA)</li>
+  </ul>
+  <h3>Cálculos frecuentes</h3>
+  <ul>
+    <li>Nucleótidos de ARNm para <b>n aminoácidos</b>: <b>3n + 3</b> (el codón de parada). Para 40 aminoácidos: <span class="clave">123 nucleótidos</span> y <span class="clave">40 ARNt</span>.</li>
+    <li>Aminoácidos máximos de un ARNm de N nucleótidos: N/3 (o N/3 − 1 si descuentas el codón de parada).</li>
+    <li>Replicación con marcaje: tras <b>n</b> replicaciones en medio sin marca hay <b>2</b> hebras marcadas de <b>2ⁿ⁺¹</b> en total. Tras 1: <span class="clave">50 %</span>; tras 2: <span class="clave">25 %</span> de las hebras.</li>
+  </ul>
+</section>
+
+<!-- ═══════════════ 15 · EXAMEN ═══════════════ -->
+<section class="seccion" id="examen">
+  <h2><span class="num">15</span>Así se pregunta en la PAU</h2>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2026 · Modelo</span><span class="chip oro">2 puntos</span><span class="chip">Competencial</span></div>
+    <p class="enunciado">Unos estudiantes observan al microscopio: «Una estructura circular y compacta en el citosol se abre por un único lugar y aparecen dos puntos que se alejan mientras se forman nuevas hebras. Una de las hebras nuevas se fabrica de seguido y en la otra vemos pequeños fragmentos que luego se fusionan. Finalmente aparecen dos estructuras circulares iguales antes de que la célula se divida». a) Nombre el proceso [0,1]. b) Tipo de organización celular y dos razones [0,5]. c) ¿Por qué «se abre por un único lugar y aparecen dos puntos que se alejan»? [0,2]. d) ¿Por qué una hebra «se fabrica de seguido» y la otra en fragmentos? [0,6] ¿Qué nombre recibe cada hebra? [0,2]. e) Monómeros de la estructura circular y moléculas de su hidrólisis completa [0,4].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) <span class="clave">Replicación del ADN</span>.</p>
+      <p>b) <span class="clave">Procariota</span> (bacteria): <span class="clave">un único origen de replicación</span>, ocurre <span class="clave">en el citosol</span>, <span class="clave">molécula circular</span> (dos de ellas).</p>
+      <p>c) La replicación es <span class="clave">bidireccional</span>: desde el origen avanzan dos horquillas en sentidos opuestos.</p>
+      <p>d) La ADN polimerasa solo sintetiza en <span class="clave">sentido 5′→3′</span> y las cadenas son antiparalelas. La <span class="clave">hebra adelantada o conductora</span> avanza en el <span class="clave">mismo sentido que la horquilla</span> y se sintetiza <span class="clave">de forma continua</span>; la <span class="clave">hebra retrasada o retardada</span> se sintetiza en <span class="clave">sentido opuesto al avance de la horquilla</span>, en <span class="clave">fragmentos de Okazaki</span> que luego une la ligasa.</p>
+      <p>e) <span class="clave">Desoxirribonucleótidos</span>; su hidrólisis completa da <span class="clave">ácido fosfórico, desoxirribosa y bases nitrogenadas</span> (A, T, G y C).</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2024 · Titular A</span><span class="chip oro">1 punto</span><span class="chip">Con imagen</span></div>
+    <p class="enunciado">Con relación a una imagen de una horquilla: a) Indique el proceso [0,1]. b) Nombre los elementos A (origen), B, C, D y E [0,5]. c) ¿Qué tipo de molécula son A, B, C y D? [0,4]</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) <span class="clave">Replicación del ADN</span>. b) A: <span class="clave">origen de replicación</span>; B: <span class="clave">cebador</span>; C: <span class="clave">hebra adelantada</span>; D: <span class="clave">fragmentos de Okazaki</span>; E: <span class="clave">hebra retrasada</span>. c) A: <span class="clave">ADN</span>; B: <span class="clave">ARN</span>; C: <span class="clave">ADN</span>; D: <span class="clave">ADN</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2024 · Reserva B (y 2011)</span><span class="chip oro">2 puntos</span></div>
+    <p class="enunciado">a) Defina replicación [0,4]. b) Cite cuatro enzimas implicadas [0,4]. c) ¿Dónde ocurre en células procarióticas? [0,2] d) ¿Qué significa que sea semiconservativa y bidireccional? [1]</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) <span class="clave">Copia del ADN</span> en la que interviene la <span class="clave">ADN polimerasa</span>; se obtienen dos moléculas idénticas. b) <span class="clave">Helicasa</span>, <span class="clave">topoisomerasa</span>, <span class="clave">ADN polimerasa</span>, <span class="clave">ligasa</span>, <span class="clave">primasa</span> (cuatro). c) En el <span class="clave">citoplasma</span>. d) Semiconservativa: cada ADN tiene <span class="clave">una cadena antigua y otra nueva</span>. Bidireccional: desde el <span class="clave">origen de replicación</span> avanzan <span class="clave">dos horquillas en sentidos opuestos</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2014</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">Bacterias con ADN pesado (¹⁵N) se cultivan en un medio con ¹⁴N. ¿Qué densidad tendrá el ADN en la primera generación? [0,5] ¿Y en la segunda? [0,5] Razone.</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>1.ª: <span class="clave">densidad intermedia</span>, porque cada ADN tiene <span class="clave">una hebra con ¹⁴N y otra con ¹⁵N</span>: la replicación es <span class="clave">semiconservativa</span>. 2.ª: <span class="clave">mitad de densidad intermedia</span> y <span class="clave">mitad de densidad baja</span> (dos hebras con ¹⁴N).</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2023 · Junio</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">Un ADN bicatenario con todos sus nucleótidos marcados con fósforo radiactivo se replica en un medio sin él. ¿Qué porcentaje de hebras será radiactivo tras la primera división? [0,5] ¿Y tras la segunda? [0,5] Razone y haga un esquema.</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) <span class="clave">50 % de las hebras</span>: dos moléculas, cada una con una hebra radiactiva vieja y otra nueva. b) <span class="clave">25 %</span>: cuatro moléculas, dos híbridas y dos sin marca (2 hebras marcadas de 8). Se debe a que la replicación es <span class="clave">semiconservativa</span>. <span class="extra">Esquema: dibuja las hebras viejas de un color y las nuevas de otro, como en la figura 5.</span></p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2022 · Junio (y 2014)</span><span class="chip oro">2 puntos</span></div>
+    <p class="enunciado">Defina: a) transcripción [0,5]; b) traducción [0,5]. c) Describa el proceso de transcripción [1].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) <span class="clave">Síntesis de ARN complementario a una cadena de ADN que actúa como molde</span>. b) <span class="clave">Síntesis de un polipéptido</span> con la información de la <span class="clave">secuencia de bases del ARNm</span>.</p>
+      <p>c) Debe mencionar: <span class="clave">cadena codificante y cadena molde</span>, copia de <span class="clave">una sola cadena</span>, <span class="clave">señal de inicio (promotor)</span> donde se une la <span class="clave">ARN polimerasa</span>, síntesis en <span class="clave">sentido 5′→3′</span> y <span class="clave">señal de terminación</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2024 · Suplente B</span><span class="chip oro">2 puntos</span></div>
+    <p class="enunciado">a) Explique el concepto de cadena molde y cadena codificante [0,4]. b) ¿Qué enzima interviene en la transcripción y cuál es su función? [0,6] c) Función de la región promotora [0,4]. d) Indique y defina los dos procesos de la expresión génica [0,6].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) Molde: <span class="clave">la cadena de ADN que se transcribe</span>; codificante: <span class="clave">la complementaria</span>, con <span class="clave">la misma secuencia que el ARNm</span> pero <span class="clave">con T en lugar de U</span>. b) <span class="clave">ARN polimerasa</span>: <span class="clave">incorpora ribonucleótidos para sintetizar ARN</span> usando el ADN como molde. c) <span class="clave">Sitio de unión de la ARN polimerasa</span> para <span class="clave">iniciar la transcripción</span>. d) <span class="clave">Transcripción</span>: síntesis de <span class="clave">ARNm a partir de ADN</span>; <span class="clave">traducción</span>: el ARNm <span class="clave">dirige la unión de aminoácidos</span> en la síntesis de proteínas.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2024 · Titular B (y 2011)</span><span class="chip oro">2 puntos</span></div>
+    <p class="enunciado">a) ¿Qué se entiende por código genético? [0,5] b) Explique los términos codón y anticodón [0,5]. c) ¿Qué son los codones de terminación? [0,4] d) Explique dos características del código genético [0,6].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) <span class="clave">Correspondencia entre los tripletes del ARNm y los aminoácidos</span>. b) Codón: <span class="clave">triplete del ARNm que codifica un aminoácido</span>; anticodón: <span class="clave">triplete del ARNt complementario de un codón</span>. c) Tripletes que <span class="clave">no codifican ningún aminoácido</span> y <span class="clave">marcan el final de la síntesis de proteínas</span>. d) <span class="clave">Universal</span>: el mismo en casi todos los seres vivos; <span class="clave">degenerado</span>: varios codones para un mismo aminoácido.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2024 · Suplente A</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">A partir del ARNm 3′-UAUAUACAAUUU-5′: a) determine la cadena de ADN de la que se transcribió, su complementaria y la orientación de ambas [0,7]. b) Escriba el anticodón de cada uno de los cuatro codones [0,3].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) Cadena molde: <span class="clave">5′-ATATATGTTAAA-3′</span>; complementaria (codificante): <span class="clave">3′-TATATACAATTT-5′</span>.</p>
+      <p>b) Anticodones: <span class="clave">AAA, UUG, UAU, AUA</span>. <span class="extra">Leyendo el ARNm de 5′ a 3′ los codones son UUU, AAC, AUA y UAU; los anticodones están escritos alineados con ellos, de 3′ a 5′.</span></p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2015</span><span class="chip oro">1 punto</span><span class="chip">Tabla del código</span></div>
+    <p class="enunciado">Un ARNm poli-UC (solo U y C, siempre en ese orden) se traduce. Escriba los doce primeros nucleótidos [0,1], la secuencia de aminoácidos [0,4] y los anticodones de los ARNt [0,5].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>ARNm: <span class="clave">UCUCUCUCUCUC</span>. Codones UCU, CUC, UCU, CUC → <span class="clave">Ser-Leu-Ser-Leu</span>. Anticodones: <span class="clave">AGA</span> (serina) y <span class="clave">GAG</span> (leucina).</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2024 · Titular A (y 2016)</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">Explique por qué a) una secuencia de aminoácidos puede corresponder a más de una secuencia de ARNm [0,5], b) mientras que un ARNm solo puede originar una secuencia de aminoácidos [0,5].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) Un aminoácido puede estar codificado por <span class="clave">más de un codón</span>: el código es <span class="clave">degenerado</span>. b) <span class="clave">Cada codón corresponde a un único aminoácido</span> <span class="extra">(el código no es ambiguo; los criterios lo relacionan también con su universalidad)</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2017 · Reserva B</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">a) ¿Cómo puede una célula tener unos 10 000 tipos de proteínas si solo hay 20 aminoácidos? [0,5] b) ¿Cómo es posible que una bacteria con el gen de la insulina de ratón fabrique insulina de ratón? [0,5]</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) Con 20 aminoácidos se pueden formar <span class="clave">múltiples combinaciones</span> (secuencias distintas en orden y longitud). b) Por la <span class="clave">universalidad del código genético</span>: el gen se <span class="clave">transcribe</span> y se <span class="clave">traduce en los ribosomas bacterianos</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2016 · Reserva A</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">Dos muestras de ADN del mismo tamaño se desnaturalizan: la A a 80 ºC y la B a 90 ºC. ¿A qué se debe la diferencia? [1]</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>A tiene más pares <span class="clave">A-T (dos puentes de hidrógeno)</span> y B más pares <span class="clave">G-C (tres puentes de hidrógeno)</span>; con <span class="clave">más puentes de hidrógeno</span> se necesita <span class="clave">más temperatura</span> para separar las hebras.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2025 · Navarra</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">a) Presente en una tabla dos diferencias entre el genoma procariota y el eucariota [0,5]. b) Explique qué son los plásmidos, dónde se encuentran y qué función cumplen [0,5].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p class="extra">a) Procariota: una molécula de ADN circular en el nucleoide, sin histonas, sin intrones y con poco ADN no codificante. Eucariota: varios cromosomas lineales en el núcleo, asociados a histonas, con intrones y mucho ADN no codificante (dos diferencias en tabla).</p>
+      <p class="extra">b) Pequeñas moléculas de ADN circular extracromosómico que se replican de forma independiente; están en el citoplasma de las bacterias (y en algunas levaduras). Aportan genes ventajosos, como la resistencia a antibióticos, y se usan como vectores en biotecnología.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip lila">Práctica BioCelia · estilo 26-27</span><span class="chip oro">1 punto</span><span class="chip">Laboratorio</span></div>
+    <p class="enunciado">En un laboratorio se analizan dos ADN bicatenarios de igual longitud. El ADN X tiene un 18 % de adenina y el ADN Y, un 32 %. a) Calcule el porcentaje de las demás bases de cada uno [0,5]. b) Al calentarlos, ¿cuál tendrá mayor temperatura de fusión? Razone [0,5].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p class="extra">a) Por complementariedad (A = T, G = C): X → T 18 %, G 32 %, C 32 %; Y → T 32 %, G 18 %, C 18 %. b) El ADN X, porque tiene más pares G-C, unidos por tres puentes de hidrógeno (frente a dos en los A-T): hace falta más energía para separar sus hebras.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip lila">Práctica BioCelia · estilo 26-27</span><span class="chip oro">1 punto</span><span class="chip">Tabla del código</span></div>
+    <p class="enunciado">La cadena molde de un fragmento de gen bacteriano es 3′-TAC GGT CAT ACT-5′. a) Escriba la cadena codificante y el ARNm, indicando la polaridad [0,4]. b) Con la tabla del código, indique el péptido resultante [0,3]. c) ¿Por qué en esta bacteria el ARNm puede empezar a traducirse antes de terminar de transcribirse? [0,3]</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p class="extra">a) Codificante: 5′-ATG CCA GTA TGA-3′; ARNm: 5′-AUG CCA GUA UGA-3′. b) Met-Pro-Val; UGA es un codón de terminación. c) Porque en las procariotas no hay núcleo: transcripción y traducción ocurren en el citoplasma y el ARNm no necesita madurar.</p>
+    </div></details>
+  </article>
+
+  <p class="no-imprimir"><a href="../Entrenamientopau.html">🏋️ Practica más preguntas de este tema en Entrenamiento →</a></p>
+</section>
+
+<!-- ═══════════════ 16 · AUTOEVALUACIÓN ═══════════════ -->
+<section class="seccion" id="autoevaluacion">
+  <h2><span class="num">16</span>Autoevaluación rápida</h2>
+  <p>Intenta responder antes de desplegar la solución.</p>
+  <ol class="auto">
+    <li>¿Qué diferencia hay entre un individuo homocigótico y uno heterocigótico? <details><summary>Ver</summary><span class="resp">El homocigótico tiene los dos alelos de un gen iguales; el heterocigótico, diferentes.</span></details></li>
+    <li>Un ADN bicatenario tiene un 30 % de A. ¿Cuánta G tiene? <details><summary>Ver</summary><span class="resp">20 % (T = 30 %, G = C = 20 %).</span></details></li>
+    <li>¿Por qué un ADN rico en G-C tiene mayor Tm? <details><summary>Ver</summary><span class="resp">Los pares G-C tienen tres puentes de hidrógeno y los A-T, dos.</span></details></li>
+    <li>Cita tres diferencias entre el genoma procariota y el eucariota. <details><summary>Ver</summary><span class="resp">Circular/lineal; sin/con histonas; sin/con intrones; poco/mucho ADN no codificante; nucleoide/núcleo.</span></details></li>
+    <li>¿Qué demostró el experimento de Meselson y Stahl? <details><summary>Ver</summary><span class="resp">Que la replicación es semiconservativa.</span></details></li>
+    <li>¿Por qué hace falta un cebador? <details><summary>Ver</summary><span class="resp">La ADN polimerasa no puede empezar una cadena: solo añade nucleótidos a un extremo 3′-OH.</span></details></li>
+    <li>¿Qué enzima une los fragmentos de Okazaki? <details><summary>Ver</summary><span class="resp">La ADN ligasa.</span></details></li>
+    <li>¿Qué hacen la helicasa, la topoisomerasa y las SSB? <details><summary>Ver</summary><span class="resp">Separa las hebras; evita el superenrollamiento; mantienen separadas las hebras sencillas.</span></details></li>
+    <li>¿Por qué los eucariotas replican tan rápido su enorme genoma? <details><summary>Ver</summary><span class="resp">Porque tienen muchos orígenes de replicación a la vez.</span></details></li>
+    <li>¿Qué es el promotor? <details><summary>Ver</summary><span class="resp">La secuencia de ADN donde se une la ARN polimerasa para iniciar la transcripción.</span></details></li>
+    <li>¿Qué tres modificaciones sufre el pre-ARNm eucariota? <details><summary>Ver</summary><span class="resp">Caperuza en 5′, cola poli-A en 3′ y eliminación de intrones.</span></details></li>
+    <li>¿Qué significa que el código es degenerado? <details><summary>Ver</summary><span class="resp">Que varios codones codifican el mismo aminoácido.</span></details></li>
+    <li>¿Qué enzima une cada aminoácido a su ARNt? <details><summary>Ver</summary><span class="resp">La aminoacil-ARNt sintetasa.</span></details></li>
+    <li>¿Qué es la translocación? <details><summary>Ver</summary><span class="resp">El avance del ribosoma un codón hacia el extremo 3′ del ARNm.</span></details></li>
+    <li>¿Cuántos nucleótidos de ARNm codifican, como mínimo, una proteína de 100 aminoácidos? <details><summary>Ver</summary><span class="resp">303 (300 + 3 del codón de parada).</span></details></li>
+  </ol>
+</section>
+
+<p class="fuentes">Fuentes: Directrices y orientaciones de la PAU de Biología de Andalucía (curso 2026-27); criterios oficiales de corrección de la PAU de Andalucía (2010-2026) y de otras comunidades (2025); resúmenes del departamento; Campbell y Reece, <i>Biología</i>; Alberts y col., <i>Biología molecular de la célula</i>; Lehninger, <i>Principios de bioquímica</i>. Esquemas: elaboración propia de BioCelia.</p>
+
+</main>
+</div>
+
+<script src="apuntes.js"></script>
+</body>
+</html>

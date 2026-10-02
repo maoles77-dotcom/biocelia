@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 620" role="img" font-family="Nunito, 'Segoe UI', system-ui, sans-serif"><title>Tabla del código genético estándar</title>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2a7fc1"/></marker><marker id="fk" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#22313f"/></marker><radialGradient id="gO" cx="35%" cy="35%" r="70%"><stop offset="0" stop-color="#f08a7e"/><stop offset="1" stop-color="#c0392b"/></radialGradient><radialGradient id="gH" cx="35%" cy="35%" r="70%"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#d5dde3"/></radialGradient></defs>
+<text x="530.0" y="30.0" font-size="18" text-anchor="middle" font-weight="900" fill="#0f4c81" >Segunda base</text>
+<text x="30.0" y="330.0" font-size="18" text-anchor="middle" font-weight="900" fill="#0f4c81" transform="rotate(-90 30 330)">Primera base (5')</text>
+<text x="1020.0" y="330.0" font-size="18" text-anchor="middle" font-weight="900" fill="#0f4c81" transform="rotate(90 1020 330)">Tercera base (3')</text>
+<text x="200.0" y="70.0" font-size="22" text-anchor="middle" font-weight="900" fill="#0f4c81" >U</text>
+<text x="420.0" y="70.0" font-size="22" text-anchor="middle" font-weight="900" fill="#0f4c81" >C</text>
+<text x="640.0" y="70.0" font-size="22" text-anchor="middle" font-weight="900" fill="#0f4c81" >A</text>
+<text x="860.0" y="70.0" font-size="22" text-anchor="middle" font-weight="900" fill="#0f4c81" >G</text>
+<text x="62.0" y="158.0" font-size="22" text-anchor="middle" font-weight="900" fill="#0f4c81" >U</text>
+<rect x="90" y="90" width="220" height="120" fill="#f6f9fb" stroke="#c3ccd4"/><text x="108.0" y="111.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">UUU</text>
+<text x="180.0" y="111.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Phe</text>
+<text x="108.0" y="141.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">UUC</text>
+<text x="180.0" y="141.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Phe</text>
+<text x="108.0" y="171.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">UUA</text>
+<text x="180.0" y="171.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Leu</text>
+<text x="108.0" y="201.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">UUG</text>
+<text x="180.0" y="201.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Leu</text>
+<rect x="310" y="90" width="220" height="120" fill="#fff" stroke="#c3ccd4"/><text x="328.0" y="111.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">UCU</text>
+<text x="400.0" y="111.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Ser</text>
+<text x="328.0" y="141.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">UCC</text>
+<text x="400.0" y="141.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Ser</text>
+<text x="328.0" y="171.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">UCA</text>
+<text x="400.0" y="171.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Ser</text>
+<text x="328.0" y="201.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">UCG</text>
+<text x="400.0" y="201.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Ser</text>
+<rect x="530" y="90" width="220" height="120" fill="#f6f9fb" stroke="#c3ccd4"/><text x="548.0" y="111.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">UAU</text>
+<text x="620.0" y="111.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Tyr</text>
+<text x="548.0" y="141.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">UAC</text>
+<text x="620.0" y="141.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Tyr</text>
+<text x="548.0" y="171.0" font-size="15" text-anchor="start" font-weight="900" fill="#c0392b" font-family="Consolas, monospace">UAA</text>
+<text x="620.0" y="171.0" font-size="15" text-anchor="start" font-weight="800" fill="#c0392b" >STOP</text>
+<text x="548.0" y="201.0" font-size="15" text-anchor="start" font-weight="900" fill="#c0392b" font-family="Consolas, monospace">UAG</text>
+<text x="620.0" y="201.0" font-size="15" text-anchor="start" font-weight="800" fill="#c0392b" >STOP</text>
+<rect x="750" y="90" width="220" height="120" fill="#fff" stroke="#c3ccd4"/><text x="768.0" y="111.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">UGU</text>
+<text x="840.0" y="111.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Cys</text>
+<text x="768.0" y="141.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">UGC</text>
+<text x="840.0" y="141.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Cys</text>
+<text x="768.0" y="171.0" font-size="15" text-anchor="start" font-weight="900" fill="#c0392b" font-family="Consolas, monospace">UGA</text>
+<text x="840.0" y="171.0" font-size="15" text-anchor="start" font-weight="800" fill="#c0392b" >STOP</text>
+<text x="768.0" y="201.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">UGG</text>
+<text x="840.0" y="201.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Trp</text>
+<text x="988.0" y="111.0" font-size="15" text-anchor="middle" font-weight="900" fill="#4c5b67" >U</text>
+<text x="988.0" y="141.0" font-size="15" text-anchor="middle" font-weight="900" fill="#4c5b67" >C</text>
+<text x="988.0" y="171.0" font-size="15" text-anchor="middle" font-weight="900" fill="#4c5b67" >A</text>
+<text x="988.0" y="201.0" font-size="15" text-anchor="middle" font-weight="900" fill="#4c5b67" >G</text>
+<text x="62.0" y="278.0" font-size="22" text-anchor="middle" font-weight="900" fill="#0f4c81" >C</text>
+<rect x="90" y="210" width="220" height="120" fill="#fff" stroke="#c3ccd4"/><text x="108.0" y="231.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">CUU</text>
+<text x="180.0" y="231.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Leu</text>
+<text x="108.0" y="261.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">CUC</text>
+<text x="180.0" y="261.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Leu</text>
+<text x="108.0" y="291.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">CUA</text>
+<text x="180.0" y="291.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Leu</text>
+<text x="108.0" y="321.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">CUG</text>
+<text x="180.0" y="321.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Leu</text>
+<rect x="310" y="210" width="220" height="120" fill="#f6f9fb" stroke="#c3ccd4"/><text x="328.0" y="231.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">CCU</text>
+<text x="400.0" y="231.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Pro</text>
+<text x="328.0" y="261.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">CCC</text>
+<text x="400.0" y="261.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Pro</text>
+<text x="328.0" y="291.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">CCA</text>
+<text x="400.0" y="291.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Pro</text>
+<text x="328.0" y="321.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">CCG</text>
+<text x="400.0" y="321.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Pro</text>
+<rect x="530" y="210" width="220" height="120" fill="#fff" stroke="#c3ccd4"/><text x="548.0" y="231.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">CAU</text>
+<text x="620.0" y="231.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >His</text>
+<text x="548.0" y="261.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">CAC</text>
+<text x="620.0" y="261.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >His</text>
+<text x="548.0" y="291.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">CAA</text>
+<text x="620.0" y="291.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Gln</text>
+<text x="548.0" y="321.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">CAG</text>
+<text x="620.0" y="321.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Gln</text>
+<rect x="750" y="210" width="220" height="120" fill="#f6f9fb" stroke="#c3ccd4"/><text x="768.0" y="231.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">CGU</text>
+<text x="840.0" y="231.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Arg</text>
+<text x="768.0" y="261.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">CGC</text>
+<text x="840.0" y="261.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Arg</text>
+<text x="768.0" y="291.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">CGA</text>
+<text x="840.0" y="291.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Arg</text>
+<text x="768.0" y="321.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">CGG</text>
+<text x="840.0" y="321.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Arg</text>
+<text x="988.0" y="231.0" font-size="15" text-anchor="middle" font-weight="900" fill="#4c5b67" >U</text>
+<text x="988.0" y="261.0" font-size="15" text-anchor="middle" font-weight="900" fill="#4c5b67" >C</text>
+<text x="988.0" y="291.0" font-size="15" text-anchor="middle" font-weight="900" fill="#4c5b67" >A</text>
+<text x="988.0" y="321.0" font-size="15" text-anchor="middle" font-weight="900" fill="#4c5b67" >G</text>
+<text x="62.0" y="398.0" font-size="22" text-anchor="middle" font-weight="900" fill="#0f4c81" >A</text>
+<rect x="90" y="330" width="220" height="120" fill="#f6f9fb" stroke="#c3ccd4"/><text x="108.0" y="351.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">AUU</text>
+<text x="180.0" y="351.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Ile</text>
+<text x="108.0" y="381.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">AUC</text>
+<text x="180.0" y="381.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Ile</text>
+<text x="108.0" y="411.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">AUA</text>
+<text x="180.0" y="411.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Ile</text>
+<text x="108.0" y="441.0" font-size="15" text-anchor="start" font-weight="900" fill="#3f8a3a" font-family="Consolas, monospace">AUG</text>
+<text x="180.0" y="441.0" font-size="15" text-anchor="start" font-weight="800" fill="#3f8a3a" >Met (inicio)</text>
+<rect x="310" y="330" width="220" height="120" fill="#fff" stroke="#c3ccd4"/><text x="328.0" y="351.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">ACU</text>
+<text x="400.0" y="351.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Thr</text>
+<text x="328.0" y="381.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">ACC</text>
+<text x="400.0" y="381.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Thr</text>
+<text x="328.0" y="411.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">ACA</text>
+<text x="400.0" y="411.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Thr</text>
+<text x="328.0" y="441.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">ACG</text>
+<text x="400.0" y="441.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Thr</text>
+<rect x="530" y="330" width="220" height="120" fill="#f6f9fb" stroke="#c3ccd4"/><text x="548.0" y="351.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">AAU</text>
+<text x="620.0" y="351.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Asn</text>
+<text x="548.0" y="381.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">AAC</text>
+<text x="620.0" y="381.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Asn</text>
+<text x="548.0" y="411.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">AAA</text>
+<text x="620.0" y="411.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Lys</text>
+<text x="548.0" y="441.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">AAG</text>
+<text x="620.0" y="441.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Lys</text>
+<rect x="750" y="330" width="220" height="120" fill="#fff" stroke="#c3ccd4"/><text x="768.0" y="351.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">AGU</text>
+<text x="840.0" y="351.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Ser</text>
+<text x="768.0" y="381.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">AGC</text>
+<text x="840.0" y="381.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Ser</text>
+<text x="768.0" y="411.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">AGA</text>
+<text x="840.0" y="411.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Arg</text>
+<text x="768.0" y="441.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">AGG</text>
+<text x="840.0" y="441.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Arg</text>
+<text x="988.0" y="351.0" font-size="15" text-anchor="middle" font-weight="900" fill="#4c5b67" >U</text>
+<text x="988.0" y="381.0" font-size="15" text-anchor="middle" font-weight="900" fill="#4c5b67" >C</text>
+<text x="988.0" y="411.0" font-size="15" text-anchor="middle" font-weight="900" fill="#4c5b67" >A</text>
+<text x="988.0" y="441.0" font-size="15" text-anchor="middle" font-weight="900" fill="#4c5b67" >G</text>
+<text x="62.0" y="518.0" font-size="22" text-anchor="middle" font-weight="900" fill="#0f4c81" >G</text>
+<rect x="90" y="450" width="220" height="120" fill="#fff" stroke="#c3ccd4"/><text x="108.0" y="471.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">GUU</text>
+<text x="180.0" y="471.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Val</text>
+<text x="108.0" y="501.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">GUC</text>
+<text x="180.0" y="501.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Val</text>
+<text x="108.0" y="531.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">GUA</text>
+<text x="180.0" y="531.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Val</text>
+<text x="108.0" y="561.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">GUG</text>
+<text x="180.0" y="561.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Val</text>
+<rect x="310" y="450" width="220" height="120" fill="#f6f9fb" stroke="#c3ccd4"/><text x="328.0" y="471.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">GCU</text>
+<text x="400.0" y="471.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Ala</text>
+<text x="328.0" y="501.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">GCC</text>
+<text x="400.0" y="501.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Ala</text>
+<text x="328.0" y="531.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">GCA</text>
+<text x="400.0" y="531.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Ala</text>
+<text x="328.0" y="561.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">GCG</text>
+<text x="400.0" y="561.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Ala</text>
+<rect x="530" y="450" width="220" height="120" fill="#fff" stroke="#c3ccd4"/><text x="548.0" y="471.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">GAU</text>
+<text x="620.0" y="471.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Asp</text>
+<text x="548.0" y="501.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">GAC</text>
+<text x="620.0" y="501.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Asp</text>
+<text x="548.0" y="531.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">GAA</text>
+<text x="620.0" y="531.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Glu</text>
+<text x="548.0" y="561.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">GAG</text>
+<text x="620.0" y="561.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Glu</text>
+<rect x="750" y="450" width="220" height="120" fill="#f6f9fb" stroke="#c3ccd4"/><text x="768.0" y="471.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">GGU</text>
+<text x="840.0" y="471.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Gly</text>
+<text x="768.0" y="501.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">GGC</text>
+<text x="840.0" y="501.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Gly</text>
+<text x="768.0" y="531.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">GGA</text>
+<text x="840.0" y="531.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Gly</text>
+<text x="768.0" y="561.0" font-size="15" text-anchor="start" font-weight="900" fill="#22313f" font-family="Consolas, monospace">GGG</text>
+<text x="840.0" y="561.0" font-size="15" text-anchor="start" font-weight="800" fill="#22313f" >Gly</text>
+<text x="988.0" y="471.0" font-size="15" text-anchor="middle" font-weight="900" fill="#4c5b67" >U</text>
+<text x="988.0" y="501.0" font-size="15" text-anchor="middle" font-weight="900" fill="#4c5b67" >C</text>
+<text x="988.0" y="531.0" font-size="15" text-anchor="middle" font-weight="900" fill="#4c5b67" >A</text>
+<text x="988.0" y="561.0" font-size="15" text-anchor="middle" font-weight="900" fill="#4c5b67" >G</text>
+<text x="530.0" y="602.0" font-size="15" text-anchor="middle" font-weight="900" fill="#0f4c81" >61 codones con sentido + 3 de parada (UAA, UAG, UGA) · AUG = metionina y señal de inicio</text>
+</svg>

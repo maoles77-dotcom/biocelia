@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 510" role="img" font-family="Nunito, 'Segoe UI', system-ui, sans-serif"><title>Transcripción y maduración del ARNm en eucariotas</title>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2a7fc1"/></marker><marker id="fk" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#22313f"/></marker><radialGradient id="gO" cx="35%" cy="35%" r="70%"><stop offset="0" stop-color="#f08a7e"/><stop offset="1" stop-color="#c0392b"/></radialGradient><radialGradient id="gH" cx="35%" cy="35%" r="70%"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#d5dde3"/></radialGradient></defs>
+<rect x="20" y="20" width="760" height="470" rx="40" fill="#eef4fa" stroke="#0f4c81" stroke-width="4" stroke-dasharray="26 6"/><text x="60.0" y="54.0" font-size="16" text-anchor="start" font-weight="900" fill="#0f4c81" >NÚCLEO</text>
+<text x="890.0" y="54.0" font-size="16" text-anchor="middle" font-weight="900" fill="#3f8a3a" >CITOPLASMA</text>
+<text x="60.0" y="104.0" font-size="16" text-anchor="start" font-weight="900" fill="#1f5f99" >ADN</text>
+<rect x="120" y="80" width="90" height="36" rx="5" fill="#fff4df" stroke="#c77d00" stroke-width="2"/><text x="165.0" y="104.0" font-size="14" text-anchor="middle" font-weight="900" fill="#c77d00" >promotor</text>
+<rect x="214" y="80" width="90" height="36" rx="5" fill="#1f5f99" stroke="#1f5f99" stroke-width="2"/><text x="259.0" y="104.0" font-size="14" text-anchor="middle" font-weight="900" fill="#fff" >E1</text>
+<rect x="306" y="80" width="70" height="36" rx="5" fill="#e9edf0" stroke="#9aa7b2" stroke-width="2"/><text x="341.0" y="104.0" font-size="14" text-anchor="middle" font-weight="900" fill="#4c5b67" >I1</text>
+<rect x="378" y="80" width="90" height="36" rx="5" fill="#1f5f99" stroke="#1f5f99" stroke-width="2"/><text x="423.0" y="104.0" font-size="14" text-anchor="middle" font-weight="900" fill="#fff" >E2</text>
+<rect x="470" y="80" width="70" height="36" rx="5" fill="#e9edf0" stroke="#9aa7b2" stroke-width="2"/><text x="505.0" y="104.0" font-size="14" text-anchor="middle" font-weight="900" fill="#4c5b67" >I2</text>
+<rect x="542" y="80" width="90" height="36" rx="5" fill="#1f5f99" stroke="#1f5f99" stroke-width="2"/><text x="587.0" y="104.0" font-size="14" text-anchor="middle" font-weight="900" fill="#fff" >E3</text>
+<line x1="400.0" y1="125.0" x2="400.0" y2="168.0" stroke="#22313f" stroke-width="2.5" stroke-linecap="round" marker-end="url(#fk)"/><text x="412.0" y="152.0" font-size="14" text-anchor="start" font-weight="900" fill="#0f4c81" >transcripción</text>
+<text x="60.0" y="204.0" font-size="15" text-anchor="start" font-weight="900" fill="#8e44ad" >pre-ARNm</text>
+<rect x="214" y="180" width="90" height="36" rx="5" fill="#8e44ad" stroke="#8e44ad" stroke-width="2"/><text x="259.0" y="204.0" font-size="14" text-anchor="middle" font-weight="900" fill="#fff" >E1</text>
+<rect x="306" y="180" width="70" height="36" rx="5" fill="#e9edf0" stroke="#9aa7b2" stroke-width="2"/><text x="341.0" y="204.0" font-size="14" text-anchor="middle" font-weight="900" fill="#4c5b67" >I1</text>
+<rect x="378" y="180" width="90" height="36" rx="5" fill="#8e44ad" stroke="#8e44ad" stroke-width="2"/><text x="423.0" y="204.0" font-size="14" text-anchor="middle" font-weight="900" fill="#fff" >E2</text>
+<rect x="470" y="180" width="70" height="36" rx="5" fill="#e9edf0" stroke="#9aa7b2" stroke-width="2"/><text x="505.0" y="204.0" font-size="14" text-anchor="middle" font-weight="900" fill="#4c5b67" >I2</text>
+<rect x="542" y="180" width="90" height="36" rx="5" fill="#8e44ad" stroke="#8e44ad" stroke-width="2"/><text x="587.0" y="204.0" font-size="14" text-anchor="middle" font-weight="900" fill="#fff" >E3</text>
+<text x="60.0" y="224.0" font-size="12" text-anchor="start" font-weight="800" fill="#4c5b67" >(transcrito primario)</text>
+<line x1="400.0" y1="225.0" x2="400.0" y2="268.0" stroke="#22313f" stroke-width="2.5" stroke-linecap="round" marker-end="url(#fk)"/><text x="412.0" y="252.0" font-size="14" text-anchor="start" font-weight="900" fill="#0f4c81" >maduración (sin detallar)</text>
+<circle cx="196" cy="308" r="16" fill="#ffe08a" stroke="#c77d00" stroke-width="2.5"/><text x="196.0" y="313.0" font-size="11" text-anchor="middle" font-weight="900" fill="#8a5a00" >cap</text>
+<rect x="214" y="290" width="90" height="36" rx="5" fill="#8e44ad" stroke="#8e44ad" stroke-width="2"/><text x="259.0" y="314.0" font-size="14" text-anchor="middle" font-weight="900" fill="#fff" >E1</text>
+<rect x="306" y="290" width="90" height="36" rx="5" fill="#8e44ad" stroke="#8e44ad" stroke-width="2"/><text x="351.0" y="314.0" font-size="14" text-anchor="middle" font-weight="900" fill="#fff" >E2</text>
+<rect x="398" y="290" width="90" height="36" rx="5" fill="#8e44ad" stroke="#8e44ad" stroke-width="2"/><text x="443.0" y="314.0" font-size="14" text-anchor="middle" font-weight="900" fill="#fff" >E3</text>
+<text x="496.0" y="314.0" font-size="16" text-anchor="start" font-weight="900" fill="#c77d00" >AAAA…</text>
+<text x="196.0" y="352.0" font-size="13" text-anchor="middle" font-weight="900" fill="#c77d00" >caperuza 5'</text>
+<text x="530.0" y="352.0" font-size="13" text-anchor="middle" font-weight="900" fill="#c77d00" >cola poli-A 3'</text>
+<text x="690.0" y="236.0" font-size="13" text-anchor="middle" font-weight="900" fill="#4c5b67" >intrones eliminados</text>
+<text x="690.0" y="252.0" font-size="13" text-anchor="middle" font-weight="900" fill="#4c5b67" >(corte y empalme)</text>
+<path d="M620,268 q15,-18 30,0 q15,18 30,0" fill="none" stroke="#9aa7b2" stroke-width="5"/><path d="M700,268 q15,-18 30,0 q15,18 30,0" fill="none" stroke="#9aa7b2" stroke-width="5"/><text x="400.0" y="400.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" >ARNm maduro</text>
+<rect x="768" y="300" width="24" height="70" fill="#fff" stroke="#0f4c81" stroke-width="2"/><text x="756.0" y="392.0" font-size="13" text-anchor="end" font-weight="900" fill="#0f4c81" >poro nuclear</text>
+<line x1="600.0" y1="335.0" x2="850.0" y2="335.0" stroke="#8e44ad" stroke-width="4" stroke-linecap="round" marker-end="url(#fk)"/><ellipse cx="900" cy="300" rx="44" ry="28" fill="#d6e9d4" stroke="#3f8a3a" stroke-width="2.5"/><ellipse cx="900" cy="350" rx="36" ry="20" fill="#e9f3e8" stroke="#3f8a3a" stroke-width="2.5"/><text x="900.0" y="410.0" font-size="14" text-anchor="middle" font-weight="900" fill="#3f8a3a" >ribosoma:</text>
+<text x="900.0" y="430.0" font-size="14" text-anchor="middle" font-weight="900" fill="#3f8a3a" >traducción</text>
+</svg>
