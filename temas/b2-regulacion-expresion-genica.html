@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Apuntes PAU de Biología (Andalucía 2026-27), Bloque B: regulación de la expresión génica. Operón lactosa, niveles de regulación en eucariotas, eucromatina y heterocromatina, diferenciación celular.">
+<title>Regulación de la expresión génica · BioCelia</title>
+<link rel="stylesheet" href="../pau-theme.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="apuntes.css">
+</head>
+<body>
+<a class="skip-link" href="#main-content">Saltar al contenido</a>
+
+<nav class="site-nav" aria-label="Navegación principal">
+  <a href="../index.html">Inicio</a>
+  <a href="../orientacionespau.html">Orientaciones</a>
+  <a class="active" href="../resumenespau.html">Resúmenes</a>
+  <a href="../Entrenamientopau.html">Entrenamiento</a>
+  <a href="../simulacropau.html">Simulacro</a>
+  <a href="../laboratoriocompetencial.html">Laboratorio</a>
+  <a href="../laboratorioinvestigacion.html">Investigación</a>
+</nav>
+
+<div class="apuntes">
+
+<details class="indice">
+  <summary>Índice del tema</summary>
+  <ol>
+    <li><a href="#pau">Qué entra en la PAU</a></li>
+    <li><a href="#por-que">¿Por qué regular la expresión génica?</a></li>
+    <li><a href="#operon">Procariotas: el operón lactosa</a></li>
+    <li><a href="#eucariotas">Eucariotas: niveles de regulación</a></li>
+    <li><a href="#cromatina">Eucromatina y heterocromatina</a></li>
+    <li><a href="#diferenciacion">Expresión génica y diferenciación celular</a></li>
+    <li><a href="#comparacion">Procariotas frente a eucariotas</a></li>
+    <li><a href="#examen">Así se pregunta en la PAU</a></li>
+    <li><a href="#autoevaluacion">Autoevaluación</a></li>
+  </ol>
+</details>
+
+<main class="contenido" id="main-content">
+
+<header class="hero">
+  <span class="etiqueta">Bloque B · Genética molecular</span>
+  <h1>Regulación de la expresión génica</h1>
+  <p>Todas tus células tienen los mismos genes, pero una neurona no se parece a un glóbulo blanco. La clave está en qué genes se encienden y cuáles se apagan.</p>
+  <div class="acciones">
+    <a class="btn claro" href="b2-regulacion-expresion-genica-presentacion.html">🎞️ Presentación</a>
+    <a class="btn" href="b2-regulacion-expresion-genica-resumen.html">📝 Resumen</a>
+    <a class="btn" href="pdf/b2-regulacion-expresion-genica.pdf" download>⬇️ Descargar PDF</a>
+    <button class="btn" type="button" data-imprimir>🖨️ Imprimir</button>
+    <a class="btn" href="../Entrenamientopau.html">🏋️ Practicar preguntas</a>
+  </div>
+</header>
+
+<p class="leyenda">
+  <span><span class="clave">Palabra clave</span> = lo que buscan los criterios oficiales de corrección</span>
+  <span><span class="extra">Texto en violeta</span> = aclaración de BioCelia que no está en los criterios</span>
+</p>
+
+<!-- ═══════════════ 1 · PAU ═══════════════ -->
+<section class="seccion" id="pau">
+  <h2><span class="num">1</span>Qué entra en la PAU</h2>
+  <div class="caja directrices">
+    <span class="titulo-caja">Directrices de Andalucía 2026-27 · B.5.3</span>
+    <ul>
+      <li>Conocer el <b>modelo del operón</b> como sistema de regulación de la transcripción en procariotas, con el ejemplo del <b>operón lactosa</b>.</li>
+      <li>Comprender los <b>niveles de regulación</b> de la expresión génica en eucariotas: <b>grado de condensación de la cromatina</b>, <b>transcripción</b> y <b>maduración del ARNm</b>, identificando la <b>eucromatina y la heterocromatina</b> como factor clave de la <b>diferenciación celular</b>.</li>
+      <li>Comprender que las características de cada tipo celular dependen del <b>conjunto de genes que se expresan</b> en ella.</li>
+    </ul>
+  </div>
+  <div class="caja pau">
+    <span class="titulo-caja">Un contenido casi nuevo</span>
+    <p>En los exámenes de Andalucía de 2010-2025 apenas se ha preguntado (sí la idea de que dos células del mismo individuo tienen el mismo genoma pero distintas proteínas). Con las directrices de 2026-27 es fácil que aparezca en preguntas competenciales: <b>interpretar un esquema del operón</b>, <b>predecir qué pasa con o sin lactosa</b> o <b>razonar la diferenciación celular</b>.</p>
+  </div>
+</section>
+
+<!-- ═══════════════ 2 · POR QUÉ ═══════════════ -->
+<section class="seccion" id="por-que">
+  <h2><span class="num">2</span>¿Por qué regular la expresión génica?</h2>
+  <p>Una célula <b>no expresa todos sus genes a la vez</b>. La <b>regulación de la expresión génica</b> es el conjunto de mecanismos que controlan <b>qué genes se expresan, cuándo y en qué cantidad</b>.</p>
+  <ul>
+    <li><b>Ahorro</b>: fabricar proteínas cuesta mucha energía y materia; solo se fabrican las que se necesitan.</li>
+    <li><b>Adaptación al medio</b> (sobre todo en bacterias): por ejemplo, fabricar las enzimas que digieren la lactosa solo cuando hay lactosa.</li>
+    <li><b>Diferenciación celular</b> (en pluricelulares): cada tipo celular expresa un conjunto distinto de genes.</li>
+  </ul>
+  <div class="tabla-wrap"><table class="tabla">
+    <thead><tr><th>Tipo de gen</th><th>Qué hace</th></tr></thead>
+    <tbody>
+      <tr><td><b>Genes estructurales</b></td><td>Codifican las proteínas que la célula usa (enzimas, proteínas estructurales…)</td></tr>
+      <tr><td><b>Genes reguladores</b></td><td>Codifican proteínas que <b>controlan la expresión</b> de otros genes (por ejemplo, el represor del operón)</td></tr>
+      <tr><td><b>Genes de mantenimiento</b> <span class="extra">(constitutivos)</span></td><td>Se expresan siempre y en todas las células porque son imprescindibles <span class="extra">(enzimas de la glucólisis, ARNr…)</span></td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- ═══════════════ 3 · OPERÓN ═══════════════ -->
+<section class="seccion" id="operon">
+  <h2><span class="num">3</span>Procariotas: el operón lactosa</h2>
+  <p>Un <b>operón</b> es un conjunto de <b>genes estructurales contiguos</b>, con funciones relacionadas, que se transcriben juntos en <b>un solo ARNm (policistrónico)</b> bajo el control de <b>un mismo promotor y un mismo operador</b>. Lo propusieron <b>Jacob y Monod</b> <span class="extra">(1961; premio Nobel en 1965)</span> estudiando <i>Escherichia coli</i>. La regulación ocurre sobre todo <b>en la transcripción</b>.</p>
+  <h3>Elementos</h3>
+  <div class="tabla-wrap"><table class="tabla">
+    <thead><tr><th>Elemento</th><th>Qué es</th></tr></thead>
+    <tbody>
+      <tr><td><b>Genes estructurales</b></td><td>Codifican las enzimas que metabolizan la lactosa: <span class="extra"><i>lacZ</i> (β-galactosidasa, que hidroliza la lactosa en glucosa y galactosa), <i>lacY</i> (permeasa, que la introduce en la célula) y <i>lacA</i> (transacetilasa)</span></td></tr>
+      <tr><td><b>Promotor</b></td><td>Secuencia donde se <b>une la ARN polimerasa</b></td></tr>
+      <tr><td><b>Operador</b></td><td>Secuencia, entre el promotor y los genes, donde se une el <b>represor</b>; actúa como un «interruptor»</td></tr>
+      <tr><td><b>Gen regulador</b></td><td>Gen próximo <span class="extra">(<i>lacI</i>)</span> que codifica la <b>proteína represora</b>; se expresa siempre</td></tr>
+      <tr><td><b>Inductor</b></td><td>Molécula que inactiva al represor: la <b>lactosa</b> <span class="extra">(en realidad, la alolactosa, un isómero que se forma a partir de ella)</span></td></tr>
+    </tbody>
+  </table></div>
+  <figure class="figura">
+    <img src="../assets/temas/b2/operon-lac.svg" width="1080" height="750" alt="Sin lactosa, el represor se une al operador y la ARN polimerasa no transcribe. Con lactosa, el inductor se une al represor, que cambia de forma y se suelta; la ARN polimerasa transcribe un ARNm policistrónico que da β-galactosidasa, permeasa y transacetilasa.">
+    <figcaption><b>Figura 1.</b> Funcionamiento del operón lactosa.</figcaption>
+  </figure>
+  <h3>Funcionamiento</h3>
+  <ol>
+    <li><b>Sin lactosa</b>: el represor, activo, <b>se une al operador</b> e <b>impide que la ARN polimerasa transcriba</b> los genes estructurales. No se fabrican enzimas que no hacen falta: el operón está <b>reprimido</b>.</li>
+    <li><b>Con lactosa</b>: el inductor <b>se une al represor</b>, que <b>cambia de conformación</b> y <b>ya no puede unirse al operador</b>. La ARN polimerasa transcribe los genes estructurales y se fabrican las enzimas que permiten aprovechar la lactosa: el operón está <b>inducido</b>.</li>
+    <li>Cuando se agota la lactosa, el represor vuelve a estar activo y el operón se apaga de nuevo.</li>
+  </ol>
+  <div class="caja truco">
+    <span class="titulo-caja">Razonar con mutaciones (muy competencial)</span>
+    <ul>
+      <li><b>Operador alterado</b> (el represor no se une) o <b>represor que no funciona</b> → los genes se expresan <b>siempre</b>, haya o no lactosa.</li>
+      <li><b>Represor que no reconoce el inductor</b> → el operón queda <b>siempre apagado</b>, aunque haya lactosa.</li>
+      <li><b>Promotor alterado</b> (la ARN polimerasa no se une) → <b>nunca</b> se expresan.</li>
+    </ul>
+  </div>
+  <div class="caja vida">
+    <span class="titulo-caja">Para saber más</span>
+    <p class="extra">Si en el medio hay glucosa y lactosa, la bacteria usa primero la glucosa: el operón lac se expresa muy poco hasta que la glucosa se agota (represión catabólica, mediada por el AMPc). Además, hay operones reprimibles, como el del triptófano: sus genes fabrican triptófano y se apagan cuando hay mucho, porque el propio triptófano activa a su represor.</p>
+  </div>
+</section>
+
+<!-- ═══════════════ 4 · EUCARIOTAS ═══════════════ -->
+<section class="seccion" id="eucariotas">
+  <h2><span class="num">4</span>Eucariotas: niveles de regulación</h2>
+  <p>En eucariotas no hay operones: cada gen tiene su propio promotor y da un ARNm <b>monocistrónico</b>. La regulación es más compleja y se produce en <b>varios niveles</b>:</p>
+  <figure class="figura">
+    <img src="../assets/temas/b2/niveles-regulacion.svg" width="1200" height="285" alt="Del ADN en la cromatina al transcrito primario, al ARNm maduro, a la proteína y a la proteína activa. Puntos de regulación: condensación de la cromatina, transcripción, maduración del ARNm y, además, traducción.">
+    <figcaption><b>Figura 2.</b> Los tres niveles que piden las directrices, en rojo.</figcaption>
+  </figure>
+  <h3>1. Grado de condensación de la cromatina</h3>
+  <p>Solo pueden transcribirse los genes situados en la cromatina <b>poco condensada</b> (<b>eucromatina</b>), porque la ARN polimerasa y los factores de transcripción tienen acceso al ADN. Los genes de la <b>heterocromatina</b>, muy condensada, quedan <b>silenciados</b>. Lo verás en detalle en el apartado siguiente.</p>
+  <h3>2. Transcripción</h3>
+  <p>La ARN polimerasa eucariota necesita <b>factores de transcripción</b>, proteínas que se unen al promotor y a otras secuencias reguladoras del ADN y <b>activan o inhiben</b> la transcripción. Cada tipo celular tiene <b>su propia combinación</b> de factores de transcripción, y por eso transcribe genes distintos. <span class="extra">Algunas señales externas actúan aquí: por ejemplo, las hormonas esteroideas entran en la célula, se unen a un receptor y el complejo actúa como factor de transcripción.</span></p>
+  <h3>3. Maduración del ARNm</h3>
+  <p>El transcrito primario puede procesarse de distintas formas. Con el <b>empalme alternativo</b>, un mismo pre-ARNm conserva unos exones u otros y origina <b>ARNm diferentes</b> y, por tanto, <b>proteínas diferentes</b> a partir de <b>un solo gen</b>. <span class="extra">Por eso los unos 20 000 genes que codifican proteínas en el genoma humano dan lugar a muchas más proteínas distintas.</span></p>
+  <figure class="figura">
+    <img src="../assets/temas/b2/empalme-alternativo.svg" width="940" height="360" alt="Un pre-ARNm con cuatro exones origina un ARNm con los exones 1, 2 y 4 y otro con los exones 1, 3 y 4, que dan dos proteínas distintas.">
+    <figcaption><b>Figura 3.</b> Empalme alternativo.</figcaption>
+  </figure>
+  <p class="extra">También se regula la salida del ARNm del núcleo, su duración en el citoplasma, la traducción y la activación o degradación de las proteínas; las directrices no lo exigen.</p>
+</section>
+
+<!-- ═══════════════ 5 · CROMATINA ═══════════════ -->
+<section class="seccion" id="cromatina">
+  <h2><span class="num">5</span>Eucromatina y heterocromatina</h2>
+  <div class="dos-col" style="align-items:center">
+    <figure class="figura">
+      <img src="../assets/temas/b2/nucleo-cromatina.svg" width="660" height="410" alt="Núcleo interfásico: heterocromatina oscura junto a la envoltura nuclear, eucromatina clara, nucleolo y envoltura nuclear.">
+      <figcaption><b>Figura 4.</b> Núcleo interfásico al microscopio electrónico (esquema).</figcaption>
+    </figure>
+    <div>
+      <p>En el núcleo interfásico la cromatina presenta distintos grados de condensación:</p>
+      <ul>
+        <li><span class="clave">Eucromatina</span>: poco condensada (laxa); es la <span class="clave">cromatina activa</span>, cuyos genes se transcriben. Al microscopio electrónico se ve <b>clara</b>.</li>
+        <li><span class="clave">Heterocromatina</span>: muy condensada; es la <span class="clave">cromatina no activa</span>: sus genes no se transcriben. Se ve <b>oscura</b>, a menudo junto a la envoltura nuclear.</li>
+      </ul>
+    </div>
+  </div>
+  <figure class="figura">
+    <img src="../assets/temas/b2/eucromatina-heterocromatina.svg" width="1040" height="345" alt="Eucromatina: collar de nucleosomas laxo al que accede la ARN polimerasa. Heterocromatina: nucleosomas muy empaquetados a los que la ARN polimerasa no accede.">
+    <figcaption><b>Figura 5.</b> El grado de condensación decide si un gen es accesible.</figcaption>
+  </figure>
+  <ul>
+    <li><b>Heterocromatina constitutiva</b>: está condensada en todas las células <span class="extra">(por ejemplo, junto a los centrómeros y en los telómeros)</span>.</li>
+    <li><b>Heterocromatina facultativa</b>: se condensa solo en algunas células, y así <b>silencia los genes que ese tipo celular no necesita</b>. Por eso es un <b>factor clave de la diferenciación celular</b>. <span class="extra">Ejemplo clásico: en las células de las hembras de mamífero uno de los dos cromosomas X se condensa por completo y queda inactivo (corpúsculo de Barr).</span></li>
+  </ul>
+  <p class="extra">La condensación depende de modificaciones químicas que no cambian la secuencia del ADN, como la acetilación de las histonas (descondensa) o la metilación del ADN (condensa y silencia). Se heredan al dividirse la célula y se estudian en la epigenética.</p>
+</section>
+
+<!-- ═══════════════ 6 · DIFERENCIACIÓN ═══════════════ -->
+<section class="seccion" id="diferenciacion">
+  <h2><span class="num">6</span>Expresión génica y diferenciación celular</h2>
+  <p>Todas las <span class="clave">células somáticas de un individuo contienen el mismo genoma</span>, porque proceden del cigoto por mitosis. Sin embargo, una célula hepática y una renal fabrican proteínas distintas: las células <span class="clave">se especializan expresando proteínas diferentes</span> por una <span class="clave">expresión diferencial del genoma</span>.</p>
+  <figure class="figura">
+    <img src="../assets/temas/b2/diferenciacion-celular.svg" width="1100" height="466" alt="Hepatocito, célula beta del páncreas y fibra muscular: todas expresan las enzimas de la glucólisis; solo el hepatocito expresa albúmina, solo la célula beta insulina, solo la fibra muscular actina y miosina musculares; ninguna expresa hemoglobina.">
+    <figcaption><b>Figura 6.</b> Mismo genoma, distinto conjunto de genes activos.</figcaption>
+  </figure>
+  <ul>
+    <li>Las <b>características de cada tipo celular</b> (forma, función, proteínas) dependen del <b>conjunto de genes que se expresan</b> en ella.</li>
+    <li>Los <b>genes de mantenimiento</b> se expresan en todas las células; los <b>genes específicos</b>, solo en un tipo celular (la insulina, en las células β del páncreas; la albúmina, en los hepatocitos).</li>
+    <li>Durante el desarrollo embrionario, la diferenciación se consigue condensando en heterocromatina los genes que no se usarán y activando, con factores de transcripción concretos, los que caracterizan cada tejido.</li>
+  </ul>
+  <div class="caja vida">
+    <span class="titulo-caja">Una prueba: la clonación</span>
+    <p class="extra">La oveja Dolly (1996) se obtuvo con el núcleo de una célula de glándula mamaria introducido en un óvulo sin núcleo. Que de un núcleo diferenciado saliera un animal completo demuestra que las células diferenciadas conservan todos los genes: lo que cambia es cuáles se expresan.</p>
+  </div>
+</section>
+
+<!-- ═══════════════ 7 · COMPARACIÓN ═══════════════ -->
+<section class="seccion" id="comparacion">
+  <h2><span class="num">7</span>Regulación en procariotas y eucariotas</h2>
+  <div class="tabla-wrap"><table class="tabla">
+    <thead><tr><th></th><th>Procariotas</th><th>Eucariotas</th></tr></thead>
+    <tbody>
+      <tr><td>Para qué</td><td>Adaptarse rápidamente a los cambios del medio</td><td>Además, la <b>diferenciación celular</b> y el desarrollo</td></tr>
+      <tr><td>Organización</td><td><b>Operones</b>: varios genes, un promotor, un ARNm policistrónico</td><td>Cada gen con su promotor; ARNm monocistrónico</td></tr>
+      <tr><td>Niveles principales</td><td>Sobre todo la <b>transcripción</b> (represor y operador)</td><td><b>Condensación de la cromatina</b>, <b>transcripción</b> (factores de transcripción), <b>maduración del ARNm</b> y otros</td></tr>
+      <tr><td>Cromatina</td><td>No hay (ADN sin histonas)</td><td>Eucromatina / heterocromatina</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- ═══════════════ 8 · EXAMEN ═══════════════ -->
+<section class="seccion" id="examen">
+  <h2><span class="num">8</span>Así se pregunta en la PAU</h2>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2017 · Reserva B</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">Si comparamos una célula hepática con una célula renal del mismo individuo: a) ¿contendrá su ADN la misma información genética? [0,5]; b) y las proteínas de ambas células, ¿serán las mismas? [0,5]. Razone las respuestas.</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) <span class="clave">Sí</span>: <span class="clave">todas las células somáticas de un individuo contienen el mismo genoma</span> <span class="extra">(proceden del cigoto por mitosis)</span>.</p>
+      <p>b) <span class="clave">No</span>: las células <span class="clave">se especializan expresando proteínas diferentes</span> por una <span class="clave">expresión diferencial del genoma</span>. <span class="extra">Comparten las de mantenimiento, pero cada una expresa además sus genes específicos.</span></p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">Banco PAU · Biología celular</span><span class="chip">Con imagen</span></div>
+    <p class="enunciado">En una imagen del núcleo de una célula eucariota se señalan el nucleolo, la heterocromatina, un poro nuclear, la eucromatina y la envoltura nuclear. Indique una función de cada uno.</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>Nucleolo: <span class="clave">biosíntesis de componentes de los ribosomas</span>. Heterocromatina: <span class="clave">cromatina no activa</span>. Poro nuclear: <span class="clave">transporte de moléculas a través de la envoltura</span>. Eucromatina: <span class="clave">cromatina activa</span>. Envoltura nuclear: <span class="clave">separa el núcleo del citoplasma</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip lila">Práctica BioCelia · estilo 26-27</span><span class="chip oro">2 puntos</span><span class="chip">Laboratorio</span></div>
+    <p class="enunciado">Se cultivan bacterias <i>E. coli</i> en tres medios y se mide la actividad β-galactosidasa: medio 1, sin lactosa: actividad casi nula; medio 2, con lactosa: actividad alta; medio 3, con lactosa, pero con una cepa mutante: actividad alta también en ausencia de lactosa. a) ¿Qué es un operón? Nombre sus elementos [0,6]. b) Explique los resultados de los medios 1 y 2 [0,8]. c) Proponga dos mutaciones que expliquen el resultado de la cepa mutante [0,6].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p class="extra">a) Conjunto de genes estructurales contiguos que se transcriben juntos en un único ARNm bajo el control de un mismo promotor y un mismo operador. Elementos: genes estructurales, promotor, operador y gen regulador (que codifica el represor).</p>
+      <p class="extra">b) Sin lactosa, el represor se une al operador e impide que la ARN polimerasa transcriba los genes: no hay β-galactosidasa. Con lactosa, el inductor se une al represor, que cambia de forma y se separa del operador: se transcriben los genes y se fabrica la enzima.</p>
+      <p class="extra">c) Una mutación en el operador que impida la unión del represor, o una mutación en el gen regulador que produzca un represor no funcional. En ambos casos los genes se expresan siempre.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip lila">Práctica BioCelia · estilo 26-27</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">En las micrografías electrónicas de los núcleos de neuronas maduras se observa mucha heterocromatina, mientras que en las células madre embrionarias predomina la eucromatina. a) Explique la diferencia entre ambos tipos de cromatina [0,5]. b) Relacione esta observación con la diferenciación celular [0,5].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p class="extra">a) La eucromatina está poco condensada y sus genes son accesibles y se transcriben (cromatina activa); la heterocromatina está muy condensada y sus genes no se transcriben (cromatina inactiva).</p>
+      <p class="extra">b) Las células madre embrionarias aún pueden originar muchos tipos celulares y mantienen accesibles muchos genes. Al diferenciarse, la neurona condensa en heterocromatina los genes que no necesita y solo expresa los propios de su función: su especialización depende del conjunto de genes que expresa.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip lila">Práctica BioCelia · estilo 26-27</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">El gen de la calcitonina se expresa en la tiroides y en algunas neuronas, pero cada tejido obtiene una proteína distinta a partir del mismo gen. a) ¿En qué nivel de la regulación se explica este hecho? [0,4] b) Explique el mecanismo [0,6].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p class="extra">a) En la maduración del ARNm (procesamiento postranscripcional). b) Mediante empalme alternativo: del mismo transcrito primario se eliminan los intrones, pero cada tejido conserva una combinación distinta de exones; se obtienen ARNm maduros diferentes que se traducen en proteínas diferentes (en la tiroides, la calcitonina; en las neuronas, el péptido relacionado con el gen de la calcitonina o CGRP).</p>
+    </div></details>
+  </article>
+
+  <p class="no-imprimir"><a href="../Entrenamientopau.html">🏋️ Practica más preguntas de genética molecular en Entrenamiento →</a></p>
+</section>
+
+<!-- ═══════════════ 9 · AUTOEVALUACIÓN ═══════════════ -->
+<section class="seccion" id="autoevaluacion">
+  <h2><span class="num">9</span>Autoevaluación rápida</h2>
+  <p>Intenta responder antes de desplegar la solución.</p>
+  <ol class="auto">
+    <li>¿Qué es un operón? <details><summary>Ver</summary><span class="resp">Conjunto de genes estructurales contiguos que se transcriben en un solo ARNm bajo el control de un mismo promotor y operador.</span></details></li>
+    <li>¿Dónde se une el represor? ¿Y la ARN polimerasa? <details><summary>Ver</summary><span class="resp">Al operador; al promotor.</span></details></li>
+    <li>¿Qué gen codifica el represor? <details><summary>Ver</summary><span class="resp">El gen regulador.</span></details></li>
+    <li>¿Qué hace la lactosa (inductor) sobre el represor? <details><summary>Ver</summary><span class="resp">Se une a él, le cambia la conformación y le impide unirse al operador.</span></details></li>
+    <li>Si el operador está mutado y el represor no puede unirse, ¿qué ocurre? <details><summary>Ver</summary><span class="resp">Los genes se expresan siempre, haya o no lactosa.</span></details></li>
+    <li>Cita los tres niveles de regulación eucariota de las directrices. <details><summary>Ver</summary><span class="resp">Condensación de la cromatina, transcripción y maduración del ARNm.</span></details></li>
+    <li>¿Qué cromatina es activa? <details><summary>Ver</summary><span class="resp">La eucromatina (poco condensada).</span></details></li>
+    <li>¿Qué son los factores de transcripción? <details><summary>Ver</summary><span class="resp">Proteínas que se unen al ADN y activan o inhiben la transcripción de los genes.</span></details></li>
+    <li>¿Cómo puede un gen dar varias proteínas? <details><summary>Ver</summary><span class="resp">Por empalme alternativo del pre-ARNm.</span></details></li>
+    <li>¿Por qué una neurona y un linfocito del mismo individuo son tan distintos? <details><summary>Ver</summary><span class="resp">Tienen el mismo genoma pero expresan conjuntos distintos de genes (expresión diferencial).</span></details></li>
+  </ol>
+</section>
+
+<p class="fuentes">Fuentes: Directrices y orientaciones de la PAU de Biología de Andalucía (curso 2026-27); criterios oficiales de corrección de la PAU de Andalucía (2017) y banco de preguntas del departamento; resúmenes del departamento; Campbell y Reece, <i>Biología</i>; Alberts y col., <i>Biología molecular de la célula</i>. Esquemas: elaboración propia de BioCelia.</p>
+
+</main>
+</div>
+
+<script src="apuntes.js"></script>
+</body>
+</html>
