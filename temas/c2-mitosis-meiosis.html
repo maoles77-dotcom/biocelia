@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Apuntes PAU de Biología (Andalucía 2026-27), Bloque C: mitosis y meiosis. Cromosoma, haploide y diploide, fases de la mitosis, citocinesis, meiosis, recombinación, variabilidad y problemas.">
+<title>Mitosis y meiosis · BioCelia</title>
+<link rel="stylesheet" href="../pau-theme.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="apuntes.css">
+</head>
+<body>
+<a class="skip-link" href="#main-content">Saltar al contenido</a>
+
+<nav class="site-nav" aria-label="Navegación principal">
+  <a href="../index.html">Inicio</a>
+  <a href="../orientacionespau.html">Orientaciones</a>
+  <a class="active" href="../resumenespau.html">Resúmenes</a>
+  <a href="../Entrenamientopau.html">Entrenamiento</a>
+  <a href="../simulacropau.html">Simulacro</a>
+  <a href="../laboratoriocompetencial.html">Laboratorio</a>
+  <a href="../laboratorioinvestigacion.html">Investigación</a>
+</nav>
+
+<div class="apuntes">
+
+<details class="indice">
+  <summary>Índice del tema</summary>
+  <ol>
+    <li><a href="#pau">Qué entra en la PAU</a></li>
+    <li><a href="#cromosoma">El cromosoma metafásico</a></li>
+    <li><a href="#ploidia">Haploide y diploide</a></li>
+    <li><a href="#mitosis">La mitosis</a></li>
+    <li><a href="#citocinesis">La citocinesis</a></li>
+    <li><a href="#significado-mitosis">Significado de la mitosis</a></li>
+    <li><a href="#meiosis">La meiosis</a></li>
+    <li><a href="#significado-meiosis">Significado de la meiosis y variabilidad</a></li>
+    <li><a href="#comparacion">Mitosis frente a meiosis</a></li>
+    <li><a href="#problemas">Problemas: cromosomas, cromátidas y ADN</a></li>
+    <li><a href="#identificar">Cómo identificar la fase en una imagen</a></li>
+    <li><a href="#examen">Así se pregunta en la PAU</a></li>
+    <li><a href="#autoevaluacion">Autoevaluación</a></li>
+  </ol>
+</details>
+
+<main class="contenido" id="main-content">
+
+<header class="hero">
+  <span class="etiqueta">Bloque C · Biología celular</span>
+  <h1>Mitosis y meiosis</h1>
+  <p>Dos formas de dividir el núcleo: una copia exacta para crecer y reparar, y una división que reparte la mitad de los cromosomas y baraja la información para formar gametos.</p>
+  <div class="acciones">
+    <a class="btn claro" href="c2-mitosis-meiosis-presentacion.html">🎞️ Presentación</a>
+    <a class="btn" href="c2-mitosis-meiosis-resumen.html">📝 Resumen</a>
+    <a class="btn" href="pdf/c2-mitosis-meiosis.pdf" download>⬇️ Descargar PDF</a>
+    <button class="btn" type="button" data-imprimir>🖨️ Imprimir</button>
+    <a class="btn" href="../Entrenamientopau.html">🏋️ Practicar preguntas</a>
+  </div>
+</header>
+
+<p class="leyenda">
+  <span><span class="clave">Palabra clave</span> = lo que buscan los criterios oficiales de corrección</span>
+  <span><span class="extra">Texto en violeta</span> = aclaración de BioCelia que no está en los criterios</span>
+</p>
+
+<!-- ═══════════════ 1 · PAU ═══════════════ -->
+<section class="seccion" id="pau">
+  <h2><span class="num">1</span>Qué entra en la PAU</h2>
+  <div class="caja directrices">
+    <span class="titulo-caja">Directrices de Andalucía 2026-27 · C.5.1-2 y C.6</span>
+    <ul>
+      <li>Partes del <b>cromosoma metafásico</b>: cromátidas, centrómero, cinetocoro, brazos y telómeros.</li>
+      <li><b>Haploide y diploide</b>: juegos cromosómicos, células somáticas y gametos, meiosis y fecundación; identificarlos en esquemas.</li>
+      <li>Fases de la división (<b>cariocinesis y citocinesis</b>) en células <b>animales y vegetales</b>, procesos de cada fase y su significado.</li>
+      <li>Papel de la mitosis: <b>reproducción</b> en eucariotas unicelulares; <b>crecimiento y renovación</b> en pluricelulares.</li>
+      <li>Procesos de la <b>meiosis</b>, incluidos el <b>sobrecruzamiento y la recombinación</b>, <b>sin</b> descripción molecular ni nombres de las etapas de la profase I.</li>
+      <li><b>Diferenciar mitosis y meiosis</b> (células, fases, resultado, significado) en esquemas, imágenes y textos.</li>
+      <li>La meiosis, imprescindible para formar gametos y <b>mantener el número de cromosomas</b>; <b>recombinación, segregación y fecundación</b> como fuentes de variabilidad.</li>
+      <li><b>Identificar las fases</b> de la mitosis y la meiosis en esquemas, dibujos o fotomicrografías.</li>
+    </ul>
+  </div>
+  <div class="caja pau">
+    <span class="titulo-caja">Lo que más se ha preguntado (2010-2025)</span>
+    <ul>
+      <li><b>Describir las fases de la mitosis</b> (con las palabras clave de cada una) y su <b>significado</b>.</li>
+      <li><b>Citocinesis animal y vegetal</b>; ¿qué pasa si falla el Golgi, la actina o los microtúbulos?</li>
+      <li><b>Primera división meiótica</b>, diferencias <b>anafase I / anafase II</b> y <b>mitosis / meiosis</b>.</li>
+      <li><b>Identificar fases</b> en un dibujo (muchas veces de una célula con 2n = 4).</li>
+      <li><b>Problemas</b>: número de células, cromosomas, cromátidas y cantidad de ADN.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ═══════════════ 2 · CROMOSOMA ═══════════════ -->
+<section class="seccion" id="cromosoma">
+  <h2><span class="num">2</span>El cromosoma metafásico</h2>
+  <p>Durante la división, la cromatina se condensa al máximo y forma los <b>cromosomas</b>. En metafase cada cromosoma tiene <b>dos cromátidas</b>, porque el ADN se replicó en la fase S.</p>
+  <figure class="figura">
+    <img src="../assets/temas/c2/cromosoma-metafasico.svg" width="760" height="420" alt="Cromosoma metafásico con dos cromátidas unidas por el centrómero, cinetocoros, brazo corto, brazo largo y telómeros en los extremos.">
+    <figcaption><b>Figura 1.</b> Partes del cromosoma metafásico.</figcaption>
+  </figure>
+  <ul>
+    <li><span class="clave">Cromátidas hermanas</span>: las dos mitades longitudinales, <b>idénticas</b>, que <span class="clave">resultan de la duplicación del material genético</span>.</li>
+    <li><span class="clave">Centrómero</span> (<span class="clave">constricción primaria</span>): <span class="clave">estrechamiento que divide al cromosoma en dos porciones o brazos</span> y mantiene unidas las cromátidas.</li>
+    <li><span class="clave">Cinetocoro</span>: estructura proteica a cada lado del centrómero a la que <span class="clave">se unen los microtúbulos del huso</span>.</li>
+    <li><b>Brazos</b>: las dos porciones a cada lado del centrómero (corto y largo).</li>
+    <li><span class="clave">Telómeros</span>: <span class="clave">regiones terminales</span> de los cromosomas, que protegen sus extremos.</li>
+  </ul>
+  <div class="caja ojo">
+    <span class="titulo-caja">Cromosoma ≠ cromátida (PAU 2021)</span>
+    <p>Tras duplicarse el ADN, ¿aumenta el número de cromosomas? <span class="clave">No</span>: los cromosomas aparecen con <span class="clave">dos cromátidas</span>, pero el <span class="clave">número de cromosomas sigue siendo el mismo</span>. Para contar cromosomas, cuenta <b>centrómeros</b>.</p>
+  </div>
+</section>
+
+<!-- ═══════════════ 3 · PLOIDÍA ═══════════════ -->
+<section class="seccion" id="ploidia">
+  <h2><span class="num">3</span>Haploide y diploide</h2>
+  <ul>
+    <li><b>Diploide (2n)</b>: célula con <b>dos juegos</b> de cromosomas; cada cromosoma tiene su <b>homólogo</b> (uno procede de la madre y otro del padre, con los mismos genes, aunque pueden tener alelos distintos). Son diploides las <b>células somáticas</b> de animales y plantas.</li>
+    <li><b>Haploide (n)</b>: célula con <b>un solo juego</b>; no hay homólogos. Son haploides los <b>gametos</b>.</li>
+    <li><b>Homólogos</b>: pareja de cromosomas de igual forma, tamaño y genes, uno de cada progenitor.</li>
+  </ul>
+  <figure class="figura">
+    <img src="../assets/temas/c2/haploide-diploide.svg" width="880" height="385" alt="Madre y padre 2n igual a 4 forman por meiosis un óvulo y un espermatozoide con n igual a 2; la fecundación da un cigoto 2n igual a 4 con un homólogo de cada progenitor, que por mitosis forma el organismo.">
+    <figcaption><b>Figura 2.</b> Meiosis, fecundación y mitosis en un organismo con 2n = 4.</figcaption>
+  </figure>
+  <p>La <b>meiosis</b> reduce el número de cromosomas a la mitad (2n → n) y la <b>fecundación</b> lo restablece (n + n → 2n). Así el número de cromosomas <b>se mantiene constante</b> de generación en generación. En la especie humana, <b>2n = 46</b> y <b>n = 23</b>.</p>
+</section>
+
+<!-- ═══════════════ 4 · MITOSIS ═══════════════ -->
+<section class="seccion" id="mitosis">
+  <h2><span class="num">4</span>La mitosis</h2>
+  <p>La <span class="clave">mitosis</span> es la <span class="clave">división del núcleo</span> que origina <span class="clave">dos núcleos con idéntica información genética</span> a la de la célula madre. Va seguida de la citocinesis. Ocurre en las <span class="clave">células somáticas</span> de los eucariotas. Antes, en la interfase, la célula ha <b>duplicado su ADN</b> (fase S) y su centrosoma.</p>
+  <figure class="figura">
+    <img src="../assets/temas/c2/mitosis-fases.svg" width="1210" height="315" alt="Interfase con núcleo; profase con cromosomas condensados y huso; metafase con cromosomas en la placa ecuatorial; anafase con cromátidas hacia los polos; telofase y citocinesis con dos núcleos y surco.">
+    <figcaption><b>Figura 3.</b> Fases de la mitosis en una célula animal con 2n = 4.</figcaption>
+  </figure>
+  <div class="tabla-wrap"><table class="tabla">
+    <thead><tr><th>Fase</th><th>Qué ocurre (palabras clave de los criterios)</th></tr></thead>
+    <tbody>
+      <tr><td><b>Profase</b></td><td><span class="clave">Condensación de los cromosomas</span> (dos cromátidas); los centrosomas se separan y se forma el <span class="clave">huso acromático</span>; al final <span class="clave">desaparecen el nucléolo y la envoltura nuclear</span> y los microtúbulos se unen a los cinetocoros.</td></tr>
+      <tr><td><b>Metafase</b></td><td><span class="clave">Máxima condensación</span>; los cromosomas se colocan en la <span class="clave">placa ecuatorial</span>, unidos por los centrómeros a los <span class="clave">microtúbulos cinetocóricos</span> (cada cromátida mira a un polo).</td></tr>
+      <tr><td><b>Anafase</b></td><td><span class="clave">Separación de los centrómeros</span> y las <span class="clave">cromátidas hermanas emigran hacia los polos</span> por <span class="clave">acortamiento de los microtúbulos cinetocóricos</span>.</td></tr>
+      <tr><td><b>Telofase</b></td><td>Los cromosomas llegan a los polos y se <span class="clave">descondensan</span>; <span class="clave">reaparecen el nucléolo y la envoltura nuclear</span>. Suele empezar la citocinesis.</td></tr>
+    </tbody>
+  </table></div>
+  <div class="caja truco">
+    <span class="titulo-caja">Ordenar procesos (PAU 2012)</span>
+    <p>Condensación de la cromatina → desintegración de la envoltura → ordenación en el plano ecuatorial → migración de cromátidas a los polos → descondensación. Es decir: <span class="clave">d – c – b – a – e</span>.</p>
+  </div>
+</section>
+
+<!-- ═══════════════ 5 · CITOCINESIS ═══════════════ -->
+<section class="seccion" id="citocinesis">
+  <h2><span class="num">5</span>La citocinesis</h2>
+  <p>La <span class="clave">citocinesis</span> es la <span class="clave">separación física (división) del citoplasma</span> en dos células hijas. Empieza al final de la mitosis (en anafase o telofase).</p>
+  <figure class="figura">
+    <img src="../assets/temas/c2/citocinesis.svg" width="920" height="355" alt="Célula animal: anillo contráctil y surco de segmentación. Célula vegetal: vesículas del Golgi que se fusionan y forman la placa celular entre los dos núcleos.">
+    <figcaption><b>Figura 4.</b> Citocinesis animal y vegetal.</figcaption>
+  </figure>
+  <div class="tabla-wrap"><table class="tabla">
+    <thead><tr><th></th><th>Célula animal</th><th>Célula vegetal</th></tr></thead>
+    <tbody>
+      <tr><td>Citocinesis</td><td>Por <b>estrangulamiento</b>: un <span class="clave">anillo contráctil</span> de <span class="clave">filamentos de actina y miosina</span> bajo la membrana forma el <span class="clave">surco de segmentación</span></td><td>Por <span class="clave">fragmoplasto</span>: <span class="clave">vesículas del complejo de Golgi</span> se fusionan en el plano ecuatorial y forman la <span class="clave">placa celular</span>, que origina la nueva pared</td></tr>
+      <tr><td>Huso</td><td>Con <span class="clave">centriolos</span> y áster</td><td><span class="clave">Sin centriolos</span> ni áster <span class="extra">(sí se forma huso: lo organizan otros centros organizadores de microtúbulos)</span></td></tr>
+    </tbody>
+  </table></div>
+  <div class="caja ojo">
+    <span class="titulo-caja">Cuidado con un error frecuente</span>
+    <p>Las células vegetales <b>sí forman huso acromático</b> y lo necesitan para separar los cromosomas; lo que no tienen es centriolos ni áster.</p>
+  </div>
+  <div class="caja pau">
+    <span class="titulo-caja">Inhibidores y división (muy frecuente)</span>
+    <ul>
+      <li>Sin <b>microtúbulos</b> (colchicina, taxol…): <span class="clave">no se forma (o no funciona) el huso mitótico</span> y no hay división.</li>
+      <li>Sin <b>filamentos de actina</b>: no hay citocinesis animal, porque la actina forma el <span class="clave">anillo contráctil</span>.</li>
+      <li>Sin <b>vesículas del Golgi</b>: las <b>vegetales</b> no completan la citocinesis (no hay fragmoplasto) y quedan en telofase; las <b>animales no se afectan</b>.</li>
+      <li>Sin <b>ATP</b> (inhibida la cadena respiratoria): falta energía para la división. Sin <b>ribosomas</b>: <span class="clave">no se sintetizan las proteínas</span> necesarias.</li>
+      <li>Sin citocinesis, una célula 2n = 10 da <span class="clave">una única célula</span> con <span class="clave">4n = 20</span> cromosomas de <b>una cromátida</b> (binucleada).</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ═══════════════ 6 · SIGNIFICADO MITOSIS ═══════════════ -->
+<section class="seccion" id="significado-mitosis">
+  <h2><span class="num">6</span>Significado biológico de la mitosis</h2>
+  <ul>
+    <li>Produce <span class="clave">células hijas con idéntica información genética</span> que la progenitora (mismo número y tipo de cromosomas).</li>
+    <li>En <b>unicelulares</b> eucariotas: <span class="clave">reproducción asexual</span> (cada división da dos individuos).</li>
+    <li>En <b>pluricelulares</b>: <span class="clave">desarrollo embrionario</span> y <span class="clave">crecimiento</span>, <span class="clave">renovación (recambio) celular</span> y <span class="clave">reparación de tejidos</span>.</li>
+  </ul>
+</section>
+
+<!-- ═══════════════ 7 · MEIOSIS ═══════════════ -->
+<section class="seccion" id="meiosis">
+  <h2><span class="num">7</span>La meiosis</h2>
+  <p>La <b>meiosis</b> es una división de las <span class="clave">células de la línea germinal</span> que, mediante <b>dos divisiones sucesivas</b> sin replicación del ADN entre ellas, produce <b>cuatro células haploides</b> genéticamente distintas. En animales origina los gametos.</p>
+  <figure class="figura">
+    <img src="../assets/temas/c2/meiosis-fases.svg" width="1170" height="590" alt="Profase I con bivalentes y quiasma; metafase I con bivalentes en la placa; anafase I separando homólogos; telofase I con dos células haploides; metafase II, anafase II separando cromátidas; telofase II y cuatro gametos distintos, dos con cromátidas recombinadas.">
+    <figcaption><b>Figura 5.</b> Meiosis en una célula con 2n = 4. Rojo: cromosomas de origen materno; azul: paterno.</figcaption>
+  </figure>
+  <h3>Meiosis I: división reduccional</h3>
+  <div class="tabla-wrap"><table class="tabla">
+    <thead><tr><th>Fase</th><th>Qué ocurre</th></tr></thead>
+    <tbody>
+      <tr><td><b>Profase I</b></td><td><span class="clave">Condensación</span>; <span class="clave">apareamiento de los cromosomas homólogos</span> gen a gen formando <span class="clave">bivalentes o tétradas</span> (cuatro cromátidas); <span class="clave">sobrecruzamiento</span>: intercambio de fragmentos entre <b>cromátidas no hermanas</b> de los homólogos (<span class="clave">recombinación</span>), visible como <span class="clave">quiasmas</span>; desaparecen la envoltura y el nucléolo; se forma el huso. <span class="extra">Las directrices no exigen los nombres de sus etapas.</span></td></tr>
+      <tr><td><b>Metafase I</b></td><td>Los <span class="clave">bivalentes</span> se sitúan en el <span class="clave">plano ecuatorial</span>: cada homólogo mira a un polo.</td></tr>
+      <tr><td><b>Anafase I</b></td><td>Los microtúbulos <span class="clave">separan los cromosomas homólogos</span> (cada uno con sus <b>dos cromátidas</b>) hacia <span class="clave">cada polo</span>. El reparto de los cromosomas maternos y paternos es <b>al azar</b> (<span class="clave">segregación</span>).</td></tr>
+      <tr><td><b>Telofase I</b></td><td><span class="clave">Descondensación</span> y <span class="clave">reaparición de la envoltura</span>; en cada polo queda el <span class="clave">número haploide</span>. Citocinesis: dos células haploides con cromosomas de dos cromátidas.</td></tr>
+    </tbody>
+  </table></div>
+  <p>Entre ambas divisiones hay una breve <b>intercinesis</b>, <b>sin replicación</b> del ADN.</p>
+  <h3>Meiosis II: división ecuacional (como una mitosis)</h3>
+  <ul>
+    <li><b>Profase II</b>: breve; se condensan los cromosomas y se forma el huso.</li>
+    <li><b>Metafase II</b>: los cromosomas (de dos cromátidas) en la placa ecuatorial de cada célula.</li>
+    <li><b>Anafase II</b>: se separan las <span class="clave">cromátidas hermanas</span> hacia los polos.</li>
+    <li><b>Telofase II</b>: se forman los núcleos; tras la citocinesis hay <b>cuatro células haploides</b> con cromosomas de una cromátida.</li>
+  </ul>
+  <div class="caja truco">
+    <span class="titulo-caja">La diferencia que más cae</span>
+    <p>En <b>anafase I</b> se separan <span class="clave">cromosomas homólogos</span> (de dos cromátidas); en <b>anafase II</b> (y en la anafase mitótica), <span class="clave">cromátidas hermanas</span>.</p>
+  </div>
+</section>
+
+<!-- ═══════════════ 8 · SIGNIFICADO MEIOSIS ═══════════════ -->
+<section class="seccion" id="significado-meiosis">
+  <h2><span class="num">8</span>Significado de la meiosis y variabilidad genética</h2>
+  <ul>
+    <li><span class="clave">Reducción cromosómica</span> ligada a la <span class="clave">reproducción sexual</span>: produce <span class="clave">células haploides</span> y, tras la fecundación, el cigoto recupera la dotación diploide; así <span class="clave">se mantiene el número de cromosomas de la especie</span>.</li>
+    <li><span class="clave">Fuente de variabilidad genética</span> para la <span class="clave">evolución</span>:
+      <ul>
+        <li><span class="clave">Recombinación</span> (profase I): <span class="clave">intercambio de segmentos entre cromosomas homólogos</span> → <b>nuevas combinaciones de alelos</b> en un mismo cromosoma.</li>
+        <li><span class="clave">Segregación cromosómica</span> (anafase I, y anafase II): <span class="clave">reparto al azar de los cromosomas maternos y paternos</span> → con n pares, 2ⁿ combinaciones posibles (en humanos, 2²³ ≈ 8,4 millones).</li>
+        <li>Y después, la <b>fecundación</b>: unión al azar de los gametos.</li>
+      </ul>
+    </li>
+  </ul>
+  <p>Ver también el tema de <a href="b3-mutaciones-biodiversidad.html#variabilidad">mutaciones y variabilidad</a>.</p>
+  <div class="caja pau">
+    <span class="titulo-caja">Por qué no todas las células hacen meiosis (PAU 2010)</span>
+    <p>Porque la meiosis <span class="clave">reduce el número de cromosomas</span>: si la hicieran las células somáticas, que no se fusionan con otras, cada división supondría una <span class="clave">pérdida de material genético</span>. Solo la necesitan las células de la <span class="clave">línea germinal</span>, que forman gametos.</p>
+  </div>
+  <div class="caja ojo">
+    <span class="titulo-caja">¿Iguales o distintas?</span>
+    <ul>
+      <li>Los descendientes de una tenia que se autofecunda <b>no</b> tienen el mismo genotipo: sus gametos se forman por <span class="clave">meiosis</span>, con <b>recombinación y segregación al azar</b> (PAU 2021).</li>
+      <li>¿Puede un cromosoma tener cromátidas hermanas distintas? En la meiosis, <b>sí</b>, por la <span class="clave">recombinación</span>; en la mitosis, <b>no</b> (salvo una mutación al replicarse).</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ═══════════════ 9 · COMPARACIÓN ═══════════════ -->
+<section class="seccion" id="comparacion">
+  <h2><span class="num">9</span>Mitosis frente a meiosis</h2>
+  <figure class="figura">
+    <img src="../assets/temas/c2/mitosis-vs-meiosis.svg" width="985" height="320" alt="Mitosis: una célula 2n da dos células 2n idénticas. Meiosis: una célula 2n da cuatro células n distintas.">
+    <figcaption><b>Figura 6.</b> Resultado de cada tipo de división.</figcaption>
+  </figure>
+  <div class="tabla-wrap"><table class="tabla">
+    <thead><tr><th></th><th>Mitosis</th><th>Meiosis</th></tr></thead>
+    <tbody>
+      <tr><td>Células</td><td><span class="clave">Somáticas</span></td><td><span class="clave">Germinales</span> (línea germinal)</td></tr>
+      <tr><td><span class="clave">Número de divisiones</span></td><td>Una</td><td>Dos</td></tr>
+      <tr><td>Apareamiento de homólogos (<span class="clave">bivalentes</span>)</td><td>No</td><td>Sí (profase I)</td></tr>
+      <tr><td><span class="clave">Recombinación</span></td><td>No</td><td>Sí</td></tr>
+      <tr><td>En anafase se separan…</td><td>Cromátidas hermanas</td><td>Anafase I: <span class="clave">homólogos</span>; anafase II: cromátidas</td></tr>
+      <tr><td>Resultado</td><td><span class="clave">Dos células hijas idénticas</span> a la madre (2n → 2n)</td><td><span class="clave">Cuatro células haploides</span> con <span class="clave">distinta información genética</span> (2n → n): <span class="clave">reducción del número de cromosomas</span></td></tr>
+      <tr><td>Significado</td><td>Reproducción asexual, crecimiento, renovación</td><td>Reproducción sexual (gametos) y variabilidad</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- ═══════════════ 10 · PROBLEMAS ═══════════════ -->
+<section class="seccion" id="problemas">
+  <h2><span class="num">10</span>Problemas: cromosomas, cromátidas y ADN</h2>
+  <figure class="figura">
+    <img src="../assets/temas/c2/adn-mitosis-meiosis.svg" width="940" height="390" alt="La cantidad de ADN pasa de 2C a 4C en la fase S; en la mitosis vuelve a 2C; en la meiosis baja a 2C tras la meiosis I y a 1C en los gametos.">
+    <figcaption><b>Figura 7.</b> Cantidad de ADN a lo largo de un ciclo con mitosis y de la meiosis.</figcaption>
+  </figure>
+  <div class="caja truco">
+    <span class="titulo-caja">Reglas para no fallar</span>
+    <ul>
+      <li>Nº de <b>cromosomas</b> = nº de <b>centrómeros</b>. Nº de <b>cromátidas</b> = cromosomas × 2 si están duplicados.</li>
+      <li>En <b>anafase</b> (mitótica o II) cada cromátida separada cuenta ya como cromosoma: se duplica el número de cromosomas en la célula hasta que se divide.</li>
+      <li>Tras la <b>meiosis I</b>: n cromosomas de dos cromátidas (la mitad de ADN que en G2). Tras la <b>meiosis II</b>: n cromosomas de una cromátida (la cuarta parte).</li>
+    </ul>
+  </div>
+  <h3>Ejemplo en la especie humana (n = 23)</h3>
+  <div class="tabla-wrap"><table class="tabla">
+    <thead><tr><th>Etapa</th><th>Cromosomas</th><th>Cromátidas</th><th>ADN</th></tr></thead>
+    <tbody>
+      <tr><td>G1</td><td>46</td><td>46</td><td>2C</td></tr>
+      <tr><td>G2, profase y <b>metafase mitótica</b></td><td><span class="clave">46</span></td><td><span class="clave">92</span></td><td>4C</td></tr>
+      <tr><td>Anafase mitótica</td><td>92</td><td>92</td><td>4C</td></tr>
+      <tr><td><b>Profase I</b></td><td><span class="clave">46</span></td><td><span class="clave">92</span></td><td>4C</td></tr>
+      <tr><td><b>Anafase I</b> (en la célula)</td><td><span class="clave">46</span></td><td><span class="clave">92</span></td><td>4C</td></tr>
+      <tr><td><b>Profase II</b></td><td><span class="clave">23</span></td><td><span class="clave">46</span></td><td>2C</td></tr>
+      <tr><td><b>Anafase II</b> (en la célula)</td><td><span class="clave">46</span></td><td><span class="clave">46</span></td><td>2C</td></tr>
+      <tr><td>Gameto</td><td>23</td><td>23</td><td>1C</td></tr>
+    </tbody>
+  </table></div>
+  <div class="caja pau">
+    <span class="titulo-caja">Problemas tipo resueltos</span>
+    <ul>
+      <li>Una célula se divide <b>dos veces por mitosis</b> y sus descendientes por <b>meiosis</b>: <span class="clave">16 células</span> (4 × 4), <span class="clave">distintas de la progenitora</span> (reducción) y <span class="clave">entre sí</span> (recombinación y segregación).</li>
+      <li>Célula animal con <b>cuatro pares</b> de cromosomas: mitosis y luego meiosis de cada hija → <span class="clave">8 células</span>; tras la mitosis <span class="clave">2n = 8</span>, tras la meiosis <span class="clave">n = 4</span>.</li>
+      <li>Célula en G2 con 20 pares de cromosomas y 8 × 10⁻⁶ g de ADN: tras la meiosis I, <span class="clave">20 cromosomas</span> (no 20 pares) y <span class="clave">4 × 10⁻⁶ g</span>; tras la meiosis II, 20 cromosomas de una cromátida y <span class="clave">2 × 10⁻⁶ g</span>.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ═══════════════ 11 · IDENTIFICAR ═══════════════ -->
+<section class="seccion" id="identificar">
+  <h2><span class="num">11</span>Cómo identificar la fase en una imagen</h2>
+  <div class="tabla-wrap"><table class="tabla">
+    <thead><tr><th>Si ves…</th><th>Es…</th></tr></thead>
+    <tbody>
+      <tr><td>Núcleo con envoltura y nucléolo, cromatina sin cromosomas visibles</td><td><b>Interfase</b></td></tr>
+      <tr><td>Cromosomas condensados dentro del núcleo, envoltura desapareciendo</td><td>Profase (si van <b>en parejas de homólogos</b>, con quiasmas: <b>profase I</b>)</td></tr>
+      <tr><td>Cromosomas sueltos en una sola fila en el ecuador</td><td><b>Metafase</b> mitótica (o metafase II, si son n cromosomas sin homólogos)</td></tr>
+      <tr><td><b>Parejas</b> de homólogos (bivalentes) en el ecuador</td><td><b>Metafase I</b></td></tr>
+      <tr><td>Cromosomas de <b>dos cromátidas</b> desplazándose a los polos</td><td><b>Anafase I</b></td></tr>
+      <tr><td>Cromátidas sueltas (una cromátida) hacia los polos</td><td>Anafase mitótica (2n en cada polo) o <b>anafase II</b> (n en cada polo)</td></tr>
+      <tr><td>Dos núcleos que se reorganizan, surco o placa celular</td><td>Telofase y citocinesis</td></tr>
+    </tbody>
+  </table></div>
+  <div class="caja truco">
+    <span class="titulo-caja">¿Animal o vegetal?</span>
+    <p><b>Animal</b>: <span class="clave">centriolos</span> (ásteres), <span class="clave">sin pared celular</span>, <span class="clave">anillo contráctil</span> / surco. <b>Vegetal</b>: <span class="clave">pared celular</span>, <span class="clave">sin centriolos</span> ni áster, <span class="clave">fragmoplasto</span> (placa celular).</p>
+  </div>
+  <p class="extra">En el laboratorio se suelen observar las fases de la mitosis en el ápice de raíces de cebolla (zona de crecimiento activo), teñidas con orceína acética; para la meiosis se usan anteras de flores jóvenes o testículos, porque solo allí hay células germinales.</p>
+</section>
+
+<!-- ═══════════════ 12 · EXAMEN ═══════════════ -->
+<section class="seccion" id="examen">
+  <h2><span class="num">12</span>Así se pregunta en la PAU</h2>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2021 · Junio (y 2013-2015)</span><span class="chip oro">2 puntos</span></div>
+    <p class="enunciado">a) Defina mitosis y citocinesis [0,4]. b) Describa las etapas de la mitosis [1,2]. c) Explique la importancia de la mitosis para los eucariotas unicelulares y pluricelulares [0,4].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) Mitosis: <span class="clave">división del núcleo</span> que origina <span class="clave">dos núcleos con idéntica información genética</span> a la de la célula madre. Citocinesis: <span class="clave">división del citoplasma</span>.</p>
+      <p>b) <span class="clave">Profase</span>: condensación de los cromosomas, formación del huso, desaparición del nucléolo y de la envoltura. <span class="clave">Metafase</span>: cromosomas en la <span class="clave">placa ecuatorial</span>. <span class="clave">Anafase</span>: <span class="clave">separación de las cromátidas hermanas</span> hacia los polos. <span class="clave">Telofase</span>: descondensación y <span class="clave">reorganización de la envoltura nuclear</span> y los nucléolos.</p>
+      <p>c) En unicelulares, mecanismo de <span class="clave">reproducción asexual</span>; en pluricelulares, necesaria para el <span class="clave">desarrollo embrionario</span>, el <span class="clave">crecimiento</span> y la <span class="clave">reparación de tejidos</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2022 · Junio (y 2010)</span><span class="chip oro">2 puntos</span></div>
+    <p class="enunciado">a) Explique las etapas de la interfase [0,6]. b) Nombre las fases de la mitosis en orden [0,4]. c) Defina citocinesis [0,5]. d) Diferencias entre la citocinesis animal y vegetal [0,5].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) <span class="clave">G1</span>: síntesis de compuestos para <span class="clave">crecer</span> y aumentar los orgánulos. <span class="clave">S</span>: <span class="clave">replicación del ADN</span>. <span class="clave">G2</span>: la célula <span class="clave">se prepara para la mitosis</span>. b) <span class="clave">Profase, metafase, anafase y telofase</span>. c) <span class="clave">División en dos del citoplasma</span>. d) Animales: <span class="clave">anillo contráctil</span> y <span class="clave">surco de segmentación</span>; vegetales: <span class="clave">fragmoplasto</span> y <span class="clave">placa celular</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2013 (y 2012)</span><span class="chip oro">2 puntos</span></div>
+    <p class="enunciado">Explique la primera división meiótica [1,5]. Indique la importancia biológica de la meiosis [0,5].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>Profase I: condensación, <span class="clave">apareamiento de homólogos (bivalentes)</span>, <span class="clave">recombinación (quiasmas)</span>, desaparece la envoltura. Metafase I: <span class="clave">homólogos en el plano medio</span>. Anafase I: se <span class="clave">separan los cromosomas homólogos</span> hacia cada polo. Telofase I: descondensación y <span class="clave">reaparición de la envoltura</span>.</p>
+      <p>Importancia: produce <span class="clave">células haploides</span> (dotación correcta del cigoto) y <span class="clave">aumenta la variabilidad genética</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2018 · Septiembre (y 2015)</span><span class="chip oro">2 puntos</span></div>
+    <p class="enunciado">a) Cuatro diferencias entre la división mitótica y la meiótica [1]. b) ¿Por qué es importante la meiosis para la reproducción sexual y la variabilidad? [0,5] c) Diferencia fundamental entre anafase I y anafase II [0,5].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) <span class="clave">Número de divisiones</span>, <span class="clave">recombinación</span>, <span class="clave">separación de cromosomas homólogos</span>, <span class="clave">existencia de bivalentes</span>, <span class="clave">reducción del número de cromosomas</span> (cuatro).</p>
+      <p>b) <span class="clave">Reduce el número de cromosomas a la mitad</span> en los gametos y <span class="clave">mantiene el número de la especie</span>; genera variabilidad mediante la <span class="clave">recombinación</span> y la <span class="clave">segregación cromosómica</span>.</p>
+      <p>c) En anafase I se separan los <span class="clave">cromosomas homólogos</span>; en anafase II, las <span class="clave">cromátidas hermanas</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2024 · Titular B</span><span class="chip oro">2 puntos</span></div>
+    <p class="enunciado">a) Significado biológico de la meiosis [0,8]. b) Cómo influyen en la variabilidad la recombinación [0,6] y la segregación cromosómica [0,6].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) <span class="clave">Reducción cromosómica</span> ligada a la <span class="clave">reproducción sexual</span> y <span class="clave">fuente de variabilidad</span> para la <span class="clave">evolución</span>. b) Recombinación: <span class="clave">intercambio de segmentos entre cromosomas homólogos</span> <span class="extra">(nuevas combinaciones de alelos)</span>. Segregación: <span class="clave">reparto al azar de los cromosomas maternos y paternos</span> <span class="extra">(2ⁿ combinaciones de gametos)</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2014 · Modelo</span><span class="chip oro">2 puntos</span></div>
+    <p class="enunciado">Compare mitosis y meiosis en: a) tipos de células [0,5]; b) anafase mitótica y anafase I [1]; c) resultado [0,5].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) <span class="clave">Somáticas (mitosis)</span> y <span class="clave">germinales (meiosis)</span>. b) Anafase mitótica: <span class="clave">separación de cromátidas hermanas</span> hacia polos opuestos. Anafase I: cada <span class="clave">mitad de la tétrada</span> va a un polo: <span class="clave">no se separan cromátidas sino cromosomas de dos cromátidas</span>. c) Mitosis: <span class="clave">dos células hijas idénticas</span>. Meiosis: <span class="clave">cuatro células haploides</span> con <span class="clave">distinta información genética</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2015</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">Si en las células humanas n = 23, ¿cuántos cromosomas y cuántas cromátidas hay en: a) profase I; b) profase II; c) anafase I; d) anafase II; e) metafase mitótica?</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>Cromosomas: a) <span class="clave">46</span>; b) <span class="clave">23</span>; c) <span class="clave">46</span>; d) <span class="clave">46</span>; e) <span class="clave">46</span>. Cromátidas: a) <span class="clave">92</span>; b) <span class="clave">46</span>; c) <span class="clave">92</span>; d) <span class="clave">46</span>; e) <span class="clave">92</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2023 · Junio (y 2016)</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">Una célula animal con cuatro pares de cromosomas sufre una mitosis y cada célula hija, una meiosis. a) ¿Cuántas células se producen? [0,5] b) ¿Qué dotación tienen tras cada división? [0,5]</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) <span class="clave">8 células</span>: la mitosis da <span class="clave">2</span> y la meiosis de cada una da <span class="clave">4</span>. b) Tras la mitosis, <span class="clave">2n = 8</span> (se mantiene); tras la meiosis, <span class="clave">n = 4</span>, por la <span class="clave">separación de los cromosomas homólogos</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2024 · Reserva B</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">A células vegetales y animales en división se les añade un compuesto que inhibe la formación de vesículas del Golgi. a) ¿Afectará igual a ambas? [0,5] b) Si la división dura 20 min y el ciclo 60 min, ¿en qué fase estarán 30 min después? [0,5]</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) <span class="clave">No</span>: en las vegetales se <span class="clave">bloquea la citocinesis</span> porque faltan las <span class="clave">vesículas del Golgi que forman el fragmoplasto</span>; en las animales <span class="clave">no afecta</span>, pues la citocinesis es por <span class="clave">estrangulamiento</span>. b) Vegetales: en <span class="clave">telofase</span>, sin poder terminar; animales: en <span class="clave">interfase</span>, porque ya la han completado.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2022 · Reserva julio</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">En una célula animal en división se usan cuatro sustancias que inhiben: 1) la formación de microtúbulos; 2) la cadena de transporte de electrones; 3) la formación de filamentos de actina; 4) los ribosomas. Explique un efecto de cada una sobre la división [1].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>1: <span class="clave">no se forma el huso mitótico</span>. 2: <span class="clave">no se produce ATP</span> y falta energía. 3: <span class="clave">no hay citocinesis</span>, porque la actina forma el <span class="clave">anillo contráctil</span>. 4: <span class="clave">no se sintetizan las proteínas</span> necesarias para la división.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2022 · Reserva junio</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">Para estudiar la meiosis se dispone de células de piel, riñón, intestino delgado y testículo. a) ¿Cuáles son las adecuadas? [0,5] b) ¿Y para estudiar la mitosis? [0,5]</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) Las del <span class="clave">testículo</span>: son <span class="clave">células germinales</span> que forman gametos por <span class="clave">meiosis</span>. b) Las de <span class="clave">piel, riñón e intestino</span>, <span class="clave">células somáticas</span> que se dividen por <span class="clave">mitosis</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2017 · Reserva A</span><span class="chip oro">1 punto</span><span class="chip">Con imagen</span></div>
+    <p class="enunciado">Una figura muestra una célula 2n = 4 con parejas de homólogos (alelos A/a y B/b) en el plano ecuatorial. a) Tipo de división [0,2]. b) Fase [0,2]. c) Nombre de 1 (cromosoma), 2 (centriolo) y 3 (fibras) [0,3]. d) Tipo de célula [0,1]. e) Número de células resultantes y de cromosomas de cada una [0,2].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) <span class="clave">Meiosis</span>. b) <span class="clave">Metafase I</span>. c) 1: <span class="clave">cromosoma</span>; 2: <span class="clave">centrosoma o centriolo</span>; 3: <span class="clave">fibras del huso acromático</span>. d) <span class="clave">Célula germinal</span>. e) <span class="clave">Cuatro células</span> con <span class="clave">dos cromosomas</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2025 · Asturias</span><span class="chip oro">0,5 puntos</span></div>
+    <p class="enunciado">¿En qué proceso y fase está una célula en la que los cromosomas homólogos, formados por dos cromátidas, se desplazan hacia polos opuestos?</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>En la <span class="clave">anafase I de la meiosis</span>: se separan los <span class="clave">homólogos completos, cada uno con sus dos cromátidas</span> (en la mitosis se separan cromátidas).</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip lila">Práctica BioCelia · estilo 26-27</span><span class="chip oro">1 punto</span><span class="chip">Laboratorio</span></div>
+    <p class="enunciado">En una práctica se observan al microscopio células del ápice de la raíz de cebolla teñidas. La mayoría de las células se ven en interfase y solo unas pocas en división. a) ¿Por qué se usa el ápice de la raíz? [0,4] b) ¿Por qué hay tantas células en interfase? [0,3] c) ¿Qué estructura se verá en la telofase que no aparecería en una célula animal? [0,3]</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p class="extra">a) Porque es una zona de crecimiento con muchas células dividiéndose por mitosis. b) Porque la interfase es la etapa más larga del ciclo celular; la división dura poco, así que en un instante dado pocas células están en ella. c) La placa celular (fragmoplasto), formada por vesículas del Golgi, que da lugar a la nueva pared entre las dos células hijas.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip lila">Práctica BioCelia · estilo 26-27</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">Una especie tiene 2n = 6. a) Dibuje una célula en metafase mitótica y otra en metafase I [0,6]. b) ¿Cuántas combinaciones distintas de cromosomas maternos y paternos pueden tener sus gametos, sin contar la recombinación? [0,4]</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p class="extra">a) Metafase mitótica: seis cromosomas de dos cromátidas alineados de uno en uno en el plano ecuatorial. Metafase I: tres parejas de homólogos (bivalentes) en el plano ecuatorial, cada homólogo mirando a un polo. b) 2³ = 8 combinaciones, por la segregación al azar de cada par de homólogos.</p>
+    </div></details>
+  </article>
+
+  <p class="no-imprimir"><a href="../Entrenamientopau.html">🏋️ Practica más preguntas de este tema en Entrenamiento →</a></p>
+</section>
+
+<!-- ═══════════════ 13 · AUTOEVALUACIÓN ═══════════════ -->
+<section class="seccion" id="autoevaluacion">
+  <h2><span class="num">13</span>Autoevaluación rápida</h2>
+  <p>Intenta responder antes de desplegar la solución.</p>
+  <ol class="auto">
+    <li>¿Qué es el cinetocoro? <details><summary>Ver</summary><span class="resp">La estructura del centrómero a la que se unen los microtúbulos del huso.</span></details></li>
+    <li>¿Qué es una célula haploide? Pon un ejemplo. <details><summary>Ver</summary><span class="resp">La que tiene un solo juego de cromosomas (n): un gameto.</span></details></li>
+    <li>¿En qué fase desaparece la envoltura nuclear? ¿Y en cuál reaparece? <details><summary>Ver</summary><span class="resp">En la profase; en la telofase.</span></details></li>
+    <li>¿Qué se separa en la anafase mitótica? <details><summary>Ver</summary><span class="resp">Las cromátidas hermanas.</span></details></li>
+    <li>¿Cómo se produce la citocinesis en una célula vegetal? <details><summary>Ver</summary><span class="resp">Por fragmoplasto: las vesículas del Golgi forman la placa celular.</span></details></li>
+    <li>Cita dos funciones de la mitosis en un pluricelular. <details><summary>Ver</summary><span class="resp">Crecimiento, renovación celular y reparación de tejidos.</span></details></li>
+    <li>¿Qué es un bivalente? <details><summary>Ver</summary><span class="resp">Pareja de cromosomas homólogos apareados en la profase I (cuatro cromátidas).</span></details></li>
+    <li>¿Qué es un quiasma? <details><summary>Ver</summary><span class="resp">El punto donde se ha producido el sobrecruzamiento entre cromátidas de homólogos.</span></details></li>
+    <li>¿Por qué la meiosis I es reduccional? <details><summary>Ver</summary><span class="resp">Porque separa los homólogos: cada célula hija recibe un juego (n).</span></details></li>
+    <li>¿Hay replicación del ADN entre la meiosis I y la II? <details><summary>Ver</summary><span class="resp">No.</span></details></li>
+    <li>¿Cuántas cromátidas hay en una célula humana en metafase mitótica? <details><summary>Ver</summary><span class="resp">92 (46 cromosomas de dos cromátidas).</span></details></li>
+    <li>¿Qué dos procesos de la meiosis generan variabilidad? <details><summary>Ver</summary><span class="resp">La recombinación (profase I) y la segregación al azar de los homólogos (anafase I).</span></details></li>
+  </ol>
+</section>
+
+<p class="fuentes">Fuentes: Directrices y orientaciones de la PAU de Biología de Andalucía (curso 2026-27); criterios oficiales de corrección de la PAU de Andalucía (2010-2024) y de otras comunidades (2025); resúmenes del departamento; Campbell y Reece, <i>Biología</i>; Alberts y col., <i>Biología molecular de la célula</i>. Esquemas: elaboración propia de BioCelia.</p>
+
+</main>
+</div>
+
+<script src="apuntes.js"></script>
+</body>
+</html>
