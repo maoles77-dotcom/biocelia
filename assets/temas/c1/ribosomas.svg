@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 345" role="img" font-family="Nunito, 'Segoe UI', system-ui, sans-serif"><title>Ribosomas 80S, 70S y mitocondriales</title>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2a7fc1"/></marker><marker id="fk" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#22313f"/></marker><radialGradient id="gO" cx="35%" cy="35%" r="70%"><stop offset="0" stop-color="#f08a7e"/><stop offset="1" stop-color="#c0392b"/></radialGradient><radialGradient id="gH" cx="35%" cy="35%" r="70%"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#d5dde3"/></radialGradient></defs>
+<ellipse cx="170" cy="99.0" rx="50.0" ry="36.0" fill="#cfe3f5" stroke="#22313f" stroke-width="2"/><ellipse cx="170" cy="147.5" rx="38.5" ry="21.0" fill="#fff" stroke="#22313f" stroke-width="2"/><text x="170.0" y="102.5" font-size="15" text-anchor="middle" font-weight="900" fill="#22313f" >60S</text>
+<text x="170.0" y="150.0" font-size="14" text-anchor="middle" font-weight="900" fill="#22313f" >40S</text>
+<text x="170.0" y="190.0" font-size="20" text-anchor="middle" font-weight="900" fill="#0f4c81" >80S</text>
+<text x="170.0" y="250.0" font-size="14" text-anchor="middle" font-weight="900" fill="#22313f" >citosol de eucariotas</text>
+<text x="170.0" y="268.0" font-size="12" text-anchor="middle" font-weight="800" fill="#4c5b67" >(libres, en el RER y la envoltura)</text>
+<ellipse cx="450" cy="103.2" rx="40.0" ry="28.799999999999997" fill="#e5f4ec" stroke="#22313f" stroke-width="2"/><ellipse cx="450" cy="142.0" rx="30.800000000000004" ry="16.8" fill="#fff" stroke="#22313f" stroke-width="2"/><text x="450.0" y="106.0" font-size="15" text-anchor="middle" font-weight="900" fill="#22313f" >50S</text>
+<text x="450.0" y="144.0" font-size="14" text-anchor="middle" font-weight="900" fill="#22313f" >30S</text>
+<text x="450.0" y="176.0" font-size="20" text-anchor="middle" font-weight="900" fill="#0f4c81" >70S</text>
+<text x="450.0" y="250.0" font-size="14" text-anchor="middle" font-weight="900" fill="#22313f" >bacterias y cloroplastos</text>
+<ellipse cx="700" cy="104.88" rx="36.0" ry="25.919999999999998" fill="#fbe3d3" stroke="#22313f" stroke-width="2"/><ellipse cx="700" cy="139.8" rx="27.720000000000002" ry="15.12" fill="#fff" stroke="#22313f" stroke-width="2"/><text x="700.0" y="107.4" font-size="15" text-anchor="middle" font-weight="900" fill="#22313f" >39S</text>
+<text x="700.0" y="141.6" font-size="14" text-anchor="middle" font-weight="900" fill="#22313f" >28S</text>
+<text x="700.0" y="170.4" font-size="20" text-anchor="middle" font-weight="900" fill="#0f4c81" >≈ 55S</text>
+<text x="700.0" y="250.0" font-size="14" text-anchor="middle" font-weight="900" fill="#22313f" >mitocondrias (mamíferos)</text>
+<text x="700.0" y="268.0" font-size="12" text-anchor="middle" font-weight="800" fill="#4c5b67" >más parecidos a los bacterianos</text>
+<text x="440.0" y="310.0" font-size="13" text-anchor="middle" font-weight="800" fill="#c0392b" >Los antibióticos que bloquean los ribosomas bacterianos pueden afectar también a los de mitocondrias y cloroplastos.</text>
+<text x="440.0" y="330.0" font-size="13" text-anchor="middle" font-weight="800" fill="#4c5b67" >S = unidad Svedberg (velocidad de sedimentación): no se suman (60S + 40S = 80S).</text>
+</svg>
