@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 526" role="img" font-family="Nunito, 'Segoe UI', system-ui, sans-serif"><title>Mutaciones puntuales: sustituciones, inserción y deleción y su efecto en la proteína</title>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2a7fc1"/></marker><marker id="fk" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#22313f"/></marker><radialGradient id="gO" cx="35%" cy="35%" r="70%"><stop offset="0" stop-color="#f08a7e"/><stop offset="1" stop-color="#c0392b"/></radialGradient><radialGradient id="gH" cx="35%" cy="35%" r="70%"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#d5dde3"/></radialGradient></defs>
+<text x="30.0" y="30.0" font-size="18" text-anchor="start" font-weight="900" fill="#0f4c81" >ARNm (5'→3') y polipéptido resultante</text>
+<rect x="10" y="42" width="1080" height="70" rx="12" fill="#f6f9fb"/><text x="24.0" y="68.0" font-size="15" text-anchor="start" font-weight="900" fill="#0f4c81" >Original</text>
+<text x="336.8" y="70.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">A</text>
+<text x="350.2" y="70.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">U</text>
+<text x="363.8" y="70.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">G</text>
+<text x="385.2" y="70.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">G</text>
+<text x="398.8" y="70.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">C</text>
+<text x="412.2" y="70.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">A</text>
+<text x="433.8" y="70.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">U</text>
+<text x="447.2" y="70.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">U</text>
+<text x="460.8" y="70.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">C</text>
+<text x="482.2" y="70.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">C</text>
+<text x="495.8" y="70.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">A</text>
+<text x="509.2" y="70.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">A</text>
+<text x="530.8" y="70.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">U</text>
+<text x="544.2" y="70.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">G</text>
+<text x="557.8" y="70.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">G</text>
+<rect x="640" y="52" width="54" height="26" rx="13" fill="#e5f4ec" stroke="#3f8a3a" stroke-width="1.8"/><text x="667.0" y="70.0" font-size="13" text-anchor="middle" font-weight="900" fill="#22313f" >Met</text>
+<rect x="700" y="52" width="54" height="26" rx="13" fill="#e5f4ec" stroke="#3f8a3a" stroke-width="1.8"/><text x="727.0" y="70.0" font-size="13" text-anchor="middle" font-weight="900" fill="#22313f" >Ala</text>
+<rect x="760" y="52" width="54" height="26" rx="13" fill="#e5f4ec" stroke="#3f8a3a" stroke-width="1.8"/><text x="787.0" y="70.0" font-size="13" text-anchor="middle" font-weight="900" fill="#22313f" >Phe</text>
+<rect x="820" y="52" width="54" height="26" rx="13" fill="#e5f4ec" stroke="#3f8a3a" stroke-width="1.8"/><text x="847.0" y="70.0" font-size="13" text-anchor="middle" font-weight="900" fill="#22313f" >Gln</text>
+<rect x="880" y="52" width="54" height="26" rx="13" fill="#e5f4ec" stroke="#3f8a3a" stroke-width="1.8"/><text x="907.0" y="70.0" font-size="13" text-anchor="middle" font-weight="900" fill="#22313f" >Trp</text>
+<rect x="10" y="118" width="1080" height="70" rx="12" fill="#fff"/><text x="24.0" y="144.0" font-size="15" text-anchor="start" font-weight="900" fill="#c0392b" >Sustitución silenciosa</text>
+<text x="24.0" y="166.0" font-size="12" text-anchor="start" font-weight="800" fill="#4c5b67" >mismo aminoácido (código degenerado)</text>
+<text x="336.8" y="146.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">A</text>
+<text x="350.2" y="146.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">U</text>
+<text x="363.8" y="146.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">G</text>
+<text x="385.2" y="146.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">G</text>
+<text x="398.8" y="146.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">C</text>
+<rect x="403.5" y="129" width="15.5" height="24" rx="4" fill="#fde8e6"/><text x="412.2" y="146.0" font-size="17" text-anchor="middle" font-weight="900" fill="#c0392b" font-family="Consolas, monospace">G</text>
+<text x="433.8" y="146.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">U</text>
+<text x="447.2" y="146.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">U</text>
+<text x="460.8" y="146.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">C</text>
+<text x="482.2" y="146.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">C</text>
+<text x="495.8" y="146.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">A</text>
+<text x="509.2" y="146.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">A</text>
+<text x="530.8" y="146.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">U</text>
+<text x="544.2" y="146.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">G</text>
+<text x="557.8" y="146.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">G</text>
+<rect x="640" y="128" width="54" height="26" rx="13" fill="#e5f4ec" stroke="#3f8a3a" stroke-width="1.8"/><text x="667.0" y="146.0" font-size="13" text-anchor="middle" font-weight="900" fill="#22313f" >Met</text>
+<rect x="700" y="128" width="54" height="26" rx="13" fill="#e5f4ec" stroke="#3f8a3a" stroke-width="1.8"/><text x="727.0" y="146.0" font-size="13" text-anchor="middle" font-weight="900" fill="#22313f" >Ala</text>
+<rect x="760" y="128" width="54" height="26" rx="13" fill="#e5f4ec" stroke="#3f8a3a" stroke-width="1.8"/><text x="787.0" y="146.0" font-size="13" text-anchor="middle" font-weight="900" fill="#22313f" >Phe</text>
+<rect x="820" y="128" width="54" height="26" rx="13" fill="#e5f4ec" stroke="#3f8a3a" stroke-width="1.8"/><text x="847.0" y="146.0" font-size="13" text-anchor="middle" font-weight="900" fill="#22313f" >Gln</text>
+<rect x="880" y="128" width="54" height="26" rx="13" fill="#e5f4ec" stroke="#3f8a3a" stroke-width="1.8"/><text x="907.0" y="146.0" font-size="13" text-anchor="middle" font-weight="900" fill="#22313f" >Trp</text>
+<rect x="10" y="194" width="1080" height="70" rx="12" fill="#f6f9fb"/><text x="24.0" y="220.0" font-size="15" text-anchor="start" font-weight="900" fill="#c0392b" >Sustitución con cambio de sentido</text>
+<text x="24.0" y="242.0" font-size="12" text-anchor="start" font-weight="800" fill="#4c5b67" >cambia un aminoácido</text>
+<text x="336.8" y="222.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">A</text>
+<text x="350.2" y="222.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">U</text>
+<text x="363.8" y="222.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">G</text>
+<text x="385.2" y="222.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">G</text>
+<text x="398.8" y="222.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">C</text>
+<text x="412.2" y="222.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">A</text>
+<text x="433.8" y="222.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">U</text>
+<rect x="438.5" y="205" width="15.5" height="24" rx="4" fill="#fde8e6"/><text x="447.2" y="222.0" font-size="17" text-anchor="middle" font-weight="900" fill="#c0392b" font-family="Consolas, monospace">C</text>
+<text x="460.8" y="222.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">C</text>
+<text x="482.2" y="222.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">C</text>
+<text x="495.8" y="222.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">A</text>
+<text x="509.2" y="222.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">A</text>
+<text x="530.8" y="222.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">U</text>
+<text x="544.2" y="222.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">G</text>
+<text x="557.8" y="222.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">G</text>
+<rect x="640" y="204" width="54" height="26" rx="13" fill="#e5f4ec" stroke="#3f8a3a" stroke-width="1.8"/><text x="667.0" y="222.0" font-size="13" text-anchor="middle" font-weight="900" fill="#22313f" >Met</text>
+<rect x="700" y="204" width="54" height="26" rx="13" fill="#e5f4ec" stroke="#3f8a3a" stroke-width="1.8"/><text x="727.0" y="222.0" font-size="13" text-anchor="middle" font-weight="900" fill="#22313f" >Ala</text>
+<rect x="760" y="204" width="54" height="26" rx="13" fill="#fff4df" stroke="#3f8a3a" stroke-width="1.8"/><text x="787.0" y="222.0" font-size="13" text-anchor="middle" font-weight="900" fill="#22313f" >Ser</text>
+<rect x="820" y="204" width="54" height="26" rx="13" fill="#e5f4ec" stroke="#3f8a3a" stroke-width="1.8"/><text x="847.0" y="222.0" font-size="13" text-anchor="middle" font-weight="900" fill="#22313f" >Gln</text>
+<rect x="880" y="204" width="54" height="26" rx="13" fill="#e5f4ec" stroke="#3f8a3a" stroke-width="1.8"/><text x="907.0" y="222.0" font-size="13" text-anchor="middle" font-weight="900" fill="#22313f" >Trp</text>
+<rect x="10" y="270" width="1080" height="70" rx="12" fill="#fff"/><text x="24.0" y="296.0" font-size="15" text-anchor="start" font-weight="900" fill="#c0392b" >Sustitución sin sentido</text>
+<text x="24.0" y="318.0" font-size="12" text-anchor="start" font-weight="800" fill="#4c5b67" >aparece un codón de parada: proteína corta</text>
+<text x="336.8" y="298.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">A</text>
+<text x="350.2" y="298.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">U</text>
+<text x="363.8" y="298.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">G</text>
+<text x="385.2" y="298.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">G</text>
+<text x="398.8" y="298.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">C</text>
+<text x="412.2" y="298.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">A</text>
+<text x="433.8" y="298.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">U</text>
+<text x="447.2" y="298.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">U</text>
+<text x="460.8" y="298.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">C</text>
+<rect x="473.5" y="281" width="15.5" height="24" rx="4" fill="#fde8e6"/><text x="482.2" y="298.0" font-size="17" text-anchor="middle" font-weight="900" fill="#c0392b" font-family="Consolas, monospace">U</text>
+<text x="495.8" y="298.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">A</text>
+<text x="509.2" y="298.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">A</text>
+<text x="530.8" y="298.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">U</text>
+<text x="544.2" y="298.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">G</text>
+<text x="557.8" y="298.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">G</text>
+<rect x="640" y="280" width="54" height="26" rx="13" fill="#e5f4ec" stroke="#3f8a3a" stroke-width="1.8"/><text x="667.0" y="298.0" font-size="13" text-anchor="middle" font-weight="900" fill="#22313f" >Met</text>
+<rect x="700" y="280" width="54" height="26" rx="13" fill="#e5f4ec" stroke="#3f8a3a" stroke-width="1.8"/><text x="727.0" y="298.0" font-size="13" text-anchor="middle" font-weight="900" fill="#22313f" >Ala</text>
+<rect x="760" y="280" width="54" height="26" rx="13" fill="#e5f4ec" stroke="#3f8a3a" stroke-width="1.8"/><text x="787.0" y="298.0" font-size="13" text-anchor="middle" font-weight="900" fill="#22313f" >Phe</text>
+<rect x="820" y="280" width="62" height="26" rx="13" fill="#fde8e6" stroke="#c0392b" stroke-width="1.8"/><text x="851.0" y="298.0" font-size="13" text-anchor="middle" font-weight="900" fill="#c0392b" >STOP</text>
+<rect x="10" y="346" width="1080" height="70" rx="12" fill="#f6f9fb"/><text x="24.0" y="372.0" font-size="15" text-anchor="start" font-weight="900" fill="#c0392b" >Inserción</text>
+<text x="24.0" y="394.0" font-size="12" text-anchor="start" font-weight="800" fill="#4c5b67" >se desplaza la pauta de lectura</text>
+<text x="336.8" y="374.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">A</text>
+<text x="350.2" y="374.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">U</text>
+<text x="363.8" y="374.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">G</text>
+<rect x="376.5" y="357" width="15.5" height="24" rx="4" fill="#fde8e6"/><text x="385.2" y="374.0" font-size="17" text-anchor="middle" font-weight="900" fill="#c0392b" font-family="Consolas, monospace">G</text>
+<text x="398.8" y="374.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">G</text>
+<text x="412.2" y="374.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">C</text>
+<text x="433.8" y="374.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">A</text>
+<text x="447.2" y="374.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">U</text>
+<text x="460.8" y="374.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">U</text>
+<text x="482.2" y="374.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">C</text>
+<text x="495.8" y="374.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">C</text>
+<text x="509.2" y="374.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">A</text>
+<text x="530.8" y="374.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">A</text>
+<text x="544.2" y="374.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">U</text>
+<text x="557.8" y="374.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">G</text>
+<text x="579.2" y="374.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">G</text>
+<rect x="640" y="356" width="54" height="26" rx="13" fill="#e5f4ec" stroke="#3f8a3a" stroke-width="1.8"/><text x="667.0" y="374.0" font-size="13" text-anchor="middle" font-weight="900" fill="#22313f" >Met</text>
+<rect x="700" y="356" width="54" height="26" rx="13" fill="#fff4df" stroke="#3f8a3a" stroke-width="1.8"/><text x="727.0" y="374.0" font-size="13" text-anchor="middle" font-weight="900" fill="#22313f" >Gly</text>
+<rect x="760" y="356" width="54" height="26" rx="13" fill="#fff4df" stroke="#3f8a3a" stroke-width="1.8"/><text x="787.0" y="374.0" font-size="13" text-anchor="middle" font-weight="900" fill="#22313f" >Ile</text>
+<rect x="820" y="356" width="54" height="26" rx="13" fill="#fff4df" stroke="#3f8a3a" stroke-width="1.8"/><text x="847.0" y="374.0" font-size="13" text-anchor="middle" font-weight="900" fill="#22313f" >Pro</text>
+<rect x="880" y="356" width="54" height="26" rx="13" fill="#fff4df" stroke="#3f8a3a" stroke-width="1.8"/><text x="907.0" y="374.0" font-size="13" text-anchor="middle" font-weight="900" fill="#22313f" >Met</text>
+<text x="944.0" y="374.0" font-size="16" text-anchor="start" font-weight="900" fill="#4c5b67" >…</text>
+<rect x="10" y="422" width="1080" height="70" rx="12" fill="#fff"/><text x="24.0" y="448.0" font-size="15" text-anchor="start" font-weight="900" fill="#c0392b" >Deleción</text>
+<text x="24.0" y="470.0" font-size="12" text-anchor="start" font-weight="800" fill="#4c5b67" >se desplaza la pauta de lectura</text>
+<text x="336.8" y="450.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">A</text>
+<text x="350.2" y="450.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">U</text>
+<text x="363.8" y="450.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">G</text>
+<text x="385.2" y="450.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">C</text>
+<text x="398.8" y="450.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">A</text>
+<text x="412.2" y="450.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">U</text>
+<text x="433.8" y="450.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">U</text>
+<text x="447.2" y="450.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">C</text>
+<text x="460.8" y="450.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">C</text>
+<text x="482.2" y="450.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">A</text>
+<text x="495.8" y="450.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">A</text>
+<text x="509.2" y="450.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">U</text>
+<text x="530.8" y="450.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">G</text>
+<text x="544.2" y="450.0" font-size="17" text-anchor="middle" font-weight="900" fill="#8e44ad" font-family="Consolas, monospace">G</text>
+<text x="374.5" y="428.0" font-size="11" text-anchor="start" font-weight="900" fill="#c0392b" >▼ falta la G del 2.º codón</text>
+<rect x="640" y="432" width="54" height="26" rx="13" fill="#e5f4ec" stroke="#3f8a3a" stroke-width="1.8"/><text x="667.0" y="450.0" font-size="13" text-anchor="middle" font-weight="900" fill="#22313f" >Met</text>
+<rect x="700" y="432" width="54" height="26" rx="13" fill="#fff4df" stroke="#3f8a3a" stroke-width="1.8"/><text x="727.0" y="450.0" font-size="13" text-anchor="middle" font-weight="900" fill="#22313f" >His</text>
+<rect x="760" y="432" width="54" height="26" rx="13" fill="#fff4df" stroke="#3f8a3a" stroke-width="1.8"/><text x="787.0" y="450.0" font-size="13" text-anchor="middle" font-weight="900" fill="#22313f" >Ser</text>
+<rect x="820" y="432" width="54" height="26" rx="13" fill="#fff4df" stroke="#3f8a3a" stroke-width="1.8"/><text x="847.0" y="450.0" font-size="13" text-anchor="middle" font-weight="900" fill="#22313f" >Asn</text>
+<text x="884.0" y="450.0" font-size="16" text-anchor="start" font-weight="900" fill="#4c5b67" >…</text>
+<text x="550.0" y="512.0" font-size="13" text-anchor="middle" font-weight="800" fill="#4c5b67" >Las sustituciones afectan a un solo codón; las inserciones y deleciones (de 1 o 2 bases) cambian todos los aminoácidos siguientes.</text>
+</svg>
