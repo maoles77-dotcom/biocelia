@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 440" role="img" font-family="Nunito, 'Segoe UI', system-ui, sans-serif"><title>Síntesis y degradación del glucógeno y de la glucosa en el hígado</title>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2a7fc1"/></marker><marker id="fk" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#22313f"/></marker><radialGradient id="gO" cx="35%" cy="35%" r="70%"><stop offset="0" stop-color="#f08a7e"/><stop offset="1" stop-color="#c0392b"/></radialGradient><radialGradient id="gH" cx="35%" cy="35%" r="70%"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#d5dde3"/></radialGradient></defs>
+<rect x="10" y="10" width="980" height="420" rx="20" fill="#fdf3e7" stroke="#2a7fc1" stroke-width="3"/><text x="30.0" y="40.0" font-size="15" text-anchor="start" font-weight="900" fill="#2a7fc1" >Ejemplo: el hígado</text>
+<rect x="400.0" y="63.0" width="200" height="54" rx="12" fill="#e3eef8" stroke="#0f4c81" stroke-width="2.5"/><text x="500.0" y="96.3" font-size="18" text-anchor="middle" font-weight="900" fill="#0f4c81" >Glucógeno</text>
+<rect x="400.0" y="203.0" width="200" height="54" rx="12" fill="#e3eef8" stroke="#0f4c81" stroke-width="2.5"/><text x="500.0" y="236.3" font-size="18" text-anchor="middle" font-weight="900" fill="#0f4c81" >Glucosa</text>
+<rect x="350.0" y="343.0" width="300" height="54" rx="12" fill="#fff" stroke="#22313f" stroke-width="2.5"/><text x="500.0" y="367.0" font-size="14" text-anchor="middle" font-weight="900" fill="#22313f" >Piruvato, lactato,</text>
+<text x="500.0" y="385.0" font-size="11.5" text-anchor="middle" font-weight="800" fill="#4c5b67" >aminoácidos, glicerina</text>
+<path d="M440,203 C400,160 400,150 440,117" fill="none" stroke="#3f8a3a" stroke-width="4" marker-end="url(#fk)"/><text x="390.0" y="150.0" font-size="15" text-anchor="end" font-weight="900" fill="#3f8a3a" >glucogenogénesis</text>
+<text x="390.0" y="170.0" font-size="12" text-anchor="end" font-weight="800" fill="#4c5b67" >(síntesis de glucógeno)</text>
+<path d="M560,117 C600,150 600,160 560,203" fill="none" stroke="#c0392b" stroke-width="4" marker-end="url(#fk)"/><text x="610.0" y="150.0" font-size="15" text-anchor="start" font-weight="900" fill="#c0392b" >glucogenólisis</text>
+<text x="610.0" y="170.0" font-size="12" text-anchor="start" font-weight="800" fill="#4c5b67" >(degradación del glucógeno)</text>
+<path d="M440,343 C400,300 400,290 440,257" fill="none" stroke="#3f8a3a" stroke-width="4" marker-end="url(#fk)"/><text x="390.0" y="290.0" font-size="15" text-anchor="end" font-weight="900" fill="#3f8a3a" >gluconeogénesis</text>
+<text x="390.0" y="310.0" font-size="12" text-anchor="end" font-weight="800" fill="#4c5b67" >(glucosa desde precursores no glúcidos)</text>
+<path d="M560,257 C600,290 600,300 560,343" fill="none" stroke="#c0392b" stroke-width="4" marker-end="url(#fk)"/><text x="610.0" y="290.0" font-size="15" text-anchor="start" font-weight="900" fill="#c0392b" >glucólisis</text>
+<text x="860.0" y="330.0" font-size="13" text-anchor="middle" font-weight="900" fill="#3f8a3a" >Tras comer (insulina):</text>
+<text x="860.0" y="348.0" font-size="12" text-anchor="middle" font-weight="800" fill="#4c5b67" >se almacena glucógeno</text>
+<text x="860.0" y="385.0" font-size="13" text-anchor="middle" font-weight="900" fill="#c0392b" >En ayuno o ejercicio (glucagón):</text>
+<text x="860.0" y="403.0" font-size="12" text-anchor="middle" font-weight="800" fill="#4c5b67" >se libera glucosa a la sangre</text>
+</svg>

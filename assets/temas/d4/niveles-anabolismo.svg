@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 490" role="img" font-family="Nunito, 'Segoe UI', system-ui, sans-serif"><title>Fases del anabolismo: de precursores sencillos a macromoléculas</title>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2a7fc1"/></marker><marker id="fk" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#22313f"/></marker><radialGradient id="gO" cx="35%" cy="35%" r="70%"><stop offset="0" stop-color="#f08a7e"/><stop offset="1" stop-color="#c0392b"/></radialGradient><radialGradient id="gH" cx="35%" cy="35%" r="70%"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#d5dde3"/></radialGradient></defs>
+<rect x="160" y="24" width="780" height="92" rx="18" fill="#e3eef8" stroke="#0f4c81" stroke-width="2.5"/><text x="176.0" y="44.0" font-size="13" text-anchor="start" font-weight="900" fill="#0f4c81" >Macromoléculas</text>
+<text x="257.5" y="76.0" font-size="15" text-anchor="middle" font-weight="900" fill="#22313f" >Proteínas</text>
+<text x="452.5" y="76.0" font-size="15" text-anchor="middle" font-weight="900" fill="#22313f" >Polisacáridos</text>
+<text x="647.5" y="76.0" font-size="15" text-anchor="middle" font-weight="900" fill="#22313f" >Lípidos</text>
+<text x="842.5" y="76.0" font-size="15" text-anchor="middle" font-weight="900" fill="#22313f" >Ácidos nucleicos</text>
+<rect x="160" y="184" width="780" height="92" rx="18" fill="#fff4df" stroke="#c77d00" stroke-width="2.5"/><text x="176.0" y="204.0" font-size="13" text-anchor="start" font-weight="900" fill="#c77d00" >Monómeros</text>
+<text x="257.5" y="236.0" font-size="15" text-anchor="middle" font-weight="900" fill="#22313f" >Aminoácidos</text>
+<text x="452.5" y="236.0" font-size="15" text-anchor="middle" font-weight="900" fill="#22313f" >Monosacáridos</text>
+<text x="647.5" y="236.0" font-size="15" text-anchor="middle" font-weight="900" fill="#22313f" >Ácidos grasos + glicerina</text>
+<text x="842.5" y="236.0" font-size="15" text-anchor="middle" font-weight="900" fill="#22313f" >Nucleótidos</text>
+<rect x="160" y="344" width="780" height="92" rx="18" fill="#e5f4ec" stroke="#3f8a3a" stroke-width="2.5"/><text x="176.0" y="364.0" font-size="13" text-anchor="start" font-weight="900" fill="#3f8a3a" >Precursores sencillos</text>
+<text x="550.0" y="396.0" font-size="14" text-anchor="middle" font-weight="900" fill="#22313f" >piruvato · acetil-CoA · intermediarios del ciclo de Krebs · triosas · CO₂ · NH₃</text>
+<line x1="1000.0" y1="420.0" x2="1000.0" y2="60.0" stroke="#3f8a3a" stroke-width="5" stroke-linecap="round" marker-end="url(#fk)"/><text x="1030.0" y="240.0" font-size="17" text-anchor="middle" font-weight="900" fill="#3f8a3a" transform="rotate(-90 1030 240)">ANABOLISMO</text>
+<text x="1060.0" y="240.0" font-size="12" text-anchor="middle" font-weight="800" fill="#4c5b67" transform="rotate(-90 1060 240)">divergente · gasta ATP y NADPH</text>
+<line x1="110.0" y1="60.0" x2="110.0" y2="420.0" stroke="#c0392b" stroke-width="5" stroke-linecap="round" marker-end="url(#fk)"/><text x="80.0" y="240.0" font-size="17" text-anchor="middle" font-weight="900" fill="#c0392b" transform="rotate(-90 80 240)">CATABOLISMO</text>
+<text x="50.0" y="240.0" font-size="12" text-anchor="middle" font-weight="800" fill="#4c5b67" transform="rotate(-90 50 240)">convergente · produce ATP y NADH</text>
+<line x1="550.0" y1="346.0" x2="550.0" y2="278.0" stroke="#3f8a3a" stroke-width="3" stroke-linecap="round" marker-end="url(#fk)"/><line x1="550.0" y1="186.0" x2="550.0" y2="118.0" stroke="#3f8a3a" stroke-width="3" stroke-linecap="round" marker-end="url(#fk)"/><text x="560.0" y="316.0" font-size="13" text-anchor="start" font-weight="900" fill="#3f8a3a" >1.ª fase: síntesis de monómeros</text>
+<text x="560.0" y="156.0" font-size="13" text-anchor="start" font-weight="900" fill="#3f8a3a" >2.ª fase: polimerización</text>
+<text x="550.0" y="470.0" font-size="13" text-anchor="middle" font-weight="800" fill="#0f4c81" >Los heterótrofos parten de precursores orgánicos (del catabolismo o de la dieta); los autótrofos, además, los fabrican desde el CO₂.</text>
+</svg>
