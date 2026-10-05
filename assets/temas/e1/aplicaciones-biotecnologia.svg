@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1030 450" role="img" font-family="Nunito, 'Segoe UI', system-ui, sans-serif"><title>Campos de aplicación de la biotecnología con microorganismos</title>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2a7fc1"/></marker><marker id="fk" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#22313f"/></marker><radialGradient id="gO" cx="35%" cy="35%" r="70%"><stop offset="0" stop-color="#f08a7e"/><stop offset="1" stop-color="#c0392b"/></radialGradient><radialGradient id="gH" cx="35%" cy="35%" r="70%"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#d5dde3"/></radialGradient></defs>
+<rect x="10" y="10" width="330" height="205" rx="16" fill="#fff4df" stroke="#c77d00" stroke-width="2.5"/><text x="175.0" y="44.0" font-size="18" text-anchor="middle" font-weight="900" fill="#c77d00" >Alimentación</text>
+<text x="32.0" y="82.0" font-size="14" text-anchor="start" font-weight="800" fill="#22313f" >• Pan, vino, cerveza (levaduras)</text>
+<text x="32.0" y="112.0" font-size="14" text-anchor="start" font-weight="800" fill="#22313f" >• Yogur, queso (bacterias lácticas)</text>
+<text x="32.0" y="142.0" font-size="14" text-anchor="start" font-weight="800" fill="#22313f" >• Vinagre (Acetobacter)</text>
+<text x="32.0" y="172.0" font-size="14" text-anchor="start" font-weight="800" fill="#22313f" >• Enzimas: quimosina (cuajo)</text>
+<rect x="350" y="10" width="330" height="205" rx="16" fill="#efe7fb" stroke="#6d3fc0" stroke-width="2.5"/><text x="515.0" y="44.0" font-size="18" text-anchor="middle" font-weight="900" fill="#6d3fc0" >Salud y farmacia</text>
+<text x="372.0" y="82.0" font-size="14" text-anchor="start" font-weight="800" fill="#22313f" >• Antibióticos (Penicillium,</text>
+<text x="386.0" y="112.0" font-size="14" text-anchor="start" font-weight="800" fill="#22313f" >Streptomyces)</text>
+<text x="372.0" y="142.0" font-size="14" text-anchor="start" font-weight="800" fill="#22313f" >• Insulina y hormona del</text>
+<text x="386.0" y="172.0" font-size="14" text-anchor="start" font-weight="800" fill="#22313f" >crecimiento recombinantes</text>
+<text x="372.0" y="202.0" font-size="14" text-anchor="start" font-weight="800" fill="#22313f" >• Vacunas (hepatitis B)</text>
+<rect x="690" y="10" width="330" height="205" rx="16" fill="#e3eef8" stroke="#0f4c81" stroke-width="2.5"/><text x="855.0" y="44.0" font-size="18" text-anchor="middle" font-weight="900" fill="#0f4c81" >Industria química</text>
+<text x="712.0" y="82.0" font-size="14" text-anchor="start" font-weight="800" fill="#22313f" >• Aminoácidos (glutamato, lisina)</text>
+<text x="712.0" y="112.0" font-size="14" text-anchor="start" font-weight="800" fill="#22313f" >• Ácidos orgánicos (cítrico)</text>
+<text x="712.0" y="142.0" font-size="14" text-anchor="start" font-weight="800" fill="#22313f" >• Enzimas de detergentes</text>
+<text x="712.0" y="172.0" font-size="14" text-anchor="start" font-weight="800" fill="#22313f" >• Bioplásticos</text>
+<rect x="10" y="230" width="330" height="205" rx="16" fill="#fbf3d1" stroke="#8a6d00" stroke-width="2.5"/><text x="175.0" y="264.0" font-size="18" text-anchor="middle" font-weight="900" fill="#8a6d00" >Energía</text>
+<text x="32.0" y="302.0" font-size="14" text-anchor="start" font-weight="800" fill="#22313f" >• Bioetanol (levaduras)</text>
+<text x="32.0" y="332.0" font-size="14" text-anchor="start" font-weight="800" fill="#22313f" >• Biogás: metano por digestión</text>
+<text x="46.0" y="362.0" font-size="14" text-anchor="start" font-weight="800" fill="#22313f" >anaerobia de residuos</text>
+<text x="46.0" y="392.0" font-size="14" text-anchor="start" font-weight="800" fill="#22313f" >(arqueas metanógenas)</text>
+<rect x="350" y="230" width="330" height="205" rx="16" fill="#e5f4ec" stroke="#3f8a3a" stroke-width="2.5"/><text x="515.0" y="264.0" font-size="18" text-anchor="middle" font-weight="900" fill="#3f8a3a" >Medio ambiente</text>
+<text x="372.0" y="302.0" font-size="14" text-anchor="start" font-weight="800" fill="#22313f" >• Biorremediación (mareas negras)</text>
+<text x="372.0" y="332.0" font-size="14" text-anchor="start" font-weight="800" fill="#22313f" >• Depuración de aguas</text>
+<text x="372.0" y="362.0" font-size="14" text-anchor="start" font-weight="800" fill="#22313f" >• Compostaje</text>
+<text x="372.0" y="392.0" font-size="14" text-anchor="start" font-weight="800" fill="#22313f" >• Biolixiviación de metales</text>
+<rect x="690" y="230" width="330" height="205" rx="16" fill="#e0f3f1" stroke="#2a9d8f" stroke-width="2.5"/><text x="855.0" y="264.0" font-size="18" text-anchor="middle" font-weight="900" fill="#2a9d8f" >Agricultura</text>
+<text x="712.0" y="302.0" font-size="14" text-anchor="start" font-weight="800" fill="#22313f" >• Fijación de N₂ (Rhizobium)</text>
+<text x="712.0" y="332.0" font-size="14" text-anchor="start" font-weight="800" fill="#22313f" >• Bioinsecticidas (Bacillus</text>
+<text x="726.0" y="362.0" font-size="14" text-anchor="start" font-weight="800" fill="#22313f" >thuringiensis)</text>
+<text x="712.0" y="392.0" font-size="14" text-anchor="start" font-weight="800" fill="#22313f" >• Plantas transgénicas</text>
+</svg>
