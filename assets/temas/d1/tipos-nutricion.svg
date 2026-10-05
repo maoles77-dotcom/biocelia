@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 476" role="img" font-family="Nunito, 'Segoe UI', system-ui, sans-serif"><title>Tipos de nutrición según la fuente de carbono y la fuente de energía</title>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2a7fc1"/></marker><marker id="fk" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#22313f"/></marker><radialGradient id="gO" cx="35%" cy="35%" r="70%"><stop offset="0" stop-color="#f08a7e"/><stop offset="1" stop-color="#c0392b"/></radialGradient><radialGradient id="gH" cx="35%" cy="35%" r="70%"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#d5dde3"/></radialGradient></defs>
+<text x="600.0" y="30.0" font-size="18" text-anchor="middle" font-weight="900" fill="#0f4c81" >Fuente de carbono</text>
+<text x="410.0" y="58.0" font-size="16" text-anchor="middle" font-weight="900" fill="#3f8a3a" >CO₂ → AUTÓTROFOS</text>
+<text x="790.0" y="58.0" font-size="16" text-anchor="middle" font-weight="900" fill="#c77d00" >materia orgánica → HETERÓTROFOS</text>
+<text x="40.0" y="240.0" font-size="18" text-anchor="middle" font-weight="900" fill="#0f4c81" transform="rotate(-90 40 240)">Fuente de energía</text>
+<text x="150.0" y="149.0" font-size="16" text-anchor="middle" font-weight="900" fill="#c49a00" >LUZ</text>
+<text x="150.0" y="169.0" font-size="14" text-anchor="middle" font-weight="800" fill="#4c5b67" >fotótrofos</text>
+<text x="150.0" y="319.0" font-size="15" text-anchor="middle" font-weight="900" fill="#6d3fc0" >REACCIONES</text>
+<text x="150.0" y="339.0" font-size="15" text-anchor="middle" font-weight="900" fill="#6d3fc0" >QUÍMICAS</text>
+<text x="150.0" y="357.0" font-size="14" text-anchor="middle" font-weight="800" fill="#4c5b67" >quimiótrofos</text>
+<rect x="226" y="76" width="368" height="158" rx="16" fill="#e5f4ec" stroke="#3f8a3a" stroke-width="2.5"/><text x="410.0" y="118.0" font-size="21" text-anchor="middle" font-weight="900" fill="#3f8a3a" >Fotoautótrofos</text>
+<text x="410.0" y="152.0" font-size="14" text-anchor="middle" font-weight="900" fill="#22313f" >luz + CO₂</text>
+<text x="410.0" y="186.0" font-size="12.5" text-anchor="middle" font-weight="800" fill="#4c5b67" >plantas, algas, cianobacterias</text>
+<rect x="606" y="76" width="368" height="158" rx="16" fill="#fff4df" stroke="#c77d00" stroke-width="2.5"/><text x="790.0" y="118.0" font-size="21" text-anchor="middle" font-weight="900" fill="#c77d00" >Fotoheterótrofos</text>
+<text x="790.0" y="152.0" font-size="14" text-anchor="middle" font-weight="900" fill="#22313f" >luz + materia orgánica</text>
+<text x="790.0" y="186.0" font-size="12.5" text-anchor="middle" font-weight="800" fill="#4c5b67" >algunas bacterias (bacterias purpúreas no del azufre)</text>
+<rect x="226" y="246" width="368" height="158" rx="16" fill="#efe7fb" stroke="#6d3fc0" stroke-width="2.5"/><text x="410.0" y="288.0" font-size="21" text-anchor="middle" font-weight="900" fill="#6d3fc0" >Quimioautótrofos</text>
+<text x="410.0" y="322.0" font-size="14" text-anchor="middle" font-weight="900" fill="#22313f" >oxidación de sustancias inorgánicas + CO₂</text>
+<text x="410.0" y="356.0" font-size="12.5" text-anchor="middle" font-weight="800" fill="#4c5b67" >bacterias nitrificantes, del azufre, del hierro</text>
+<rect x="606" y="246" width="368" height="158" rx="16" fill="#fdecea" stroke="#c0392b" stroke-width="2.5"/><text x="790.0" y="288.0" font-size="21" text-anchor="middle" font-weight="900" fill="#c0392b" >Quimioheterótrofos</text>
+<text x="790.0" y="322.0" font-size="14" text-anchor="middle" font-weight="900" fill="#22313f" >oxidación de materia orgánica</text>
+<text x="790.0" y="356.0" font-size="12.5" text-anchor="middle" font-weight="800" fill="#4c5b67" >animales, hongos, protozoos, la mayoría de bacterias</text>
+<text x="600.0" y="440.0" font-size="13" text-anchor="middle" font-weight="800" fill="#0f4c81" >Según el uso de oxígeno: aerobios · anaerobios estrictos (el O₂ les resulta tóxico)</text>
+<text x="600.0" y="460.0" font-size="13" text-anchor="middle" font-weight="800" fill="#0f4c81" >· anaerobios facultativos (viven con o sin O₂, como las levaduras)</text>
+</svg>

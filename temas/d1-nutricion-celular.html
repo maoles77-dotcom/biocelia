@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Apuntes PAU de Biología (Andalucía 2026-27), Bloque D: nutrición celular y metabolismo. Tipos de nutrición, catabolismo y anabolismo, ATP, poder reductor, esquema general de las rutas, rendimiento y regulación.">
+<title>Nutrición celular y metabolismo · BioCelia</title>
+<link rel="stylesheet" href="../pau-theme.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="apuntes.css">
+</head>
+<body>
+<a class="skip-link" href="#main-content">Saltar al contenido</a>
+
+<nav class="site-nav" aria-label="Navegación principal">
+  <a href="../index.html">Inicio</a>
+  <a href="../orientacionespau.html">Orientaciones</a>
+  <a class="active" href="../resumenespau.html">Resúmenes</a>
+  <a href="../Entrenamientopau.html">Entrenamiento</a>
+  <a href="../simulacropau.html">Simulacro</a>
+  <a href="../laboratoriocompetencial.html">Laboratorio</a>
+  <a href="../laboratorioinvestigacion.html">Investigación</a>
+</nav>
+
+<div class="apuntes">
+
+<details class="indice">
+  <summary>Índice del tema</summary>
+  <ol>
+    <li><a href="#pau">Qué entra en la PAU</a></li>
+    <li><a href="#conceptos">Nutrición y metabolismo</a></li>
+    <li><a href="#tipos">Tipos de nutrición</a></li>
+    <li><a href="#cat-ana">Catabolismo y anabolismo</a></li>
+    <li><a href="#atp">El ATP</a></li>
+    <li><a href="#poder">El poder reductor</a></li>
+    <li><a href="#mapa">Esquema general del catabolismo</a></li>
+    <li><a href="#oxigeno">Con oxígeno y sin oxígeno: rendimiento</a></li>
+    <li><a href="#organulos">Orgánulos de la nutrición celular</a></li>
+    <li><a href="#regulacion">Regulación del metabolismo</a></li>
+    <li><a href="#examen">Así se pregunta en la PAU</a></li>
+    <li><a href="#autoevaluacion">Autoevaluación</a></li>
+  </ol>
+</details>
+
+<main class="contenido" id="main-content">
+
+<header class="hero">
+  <span class="etiqueta">Bloque D · Metabolismo</span>
+  <h1>Nutrición celular y metabolismo</h1>
+  <p>Cómo consiguen las células materia y energía, y la idea general que une todas las rutas metabólicas: degradar para obtener energía y construir gastándola.</p>
+  <div class="acciones">
+    <a class="btn claro" href="d1-nutricion-celular-presentacion.html">🎞️ Presentación</a>
+    <a class="btn" href="d1-nutricion-celular-resumen.html">📝 Resumen</a>
+    <a class="btn" href="pdf/d1-nutricion-celular.pdf" download>⬇️ Descargar PDF</a>
+    <button class="btn" type="button" data-imprimir>🖨️ Imprimir</button>
+    <a class="btn" href="../Entrenamientopau.html">🏋️ Practicar preguntas</a>
+  </div>
+</header>
+
+<p class="leyenda">
+  <span><span class="clave">Palabra clave</span> = lo que buscan los criterios oficiales de corrección</span>
+  <span><span class="extra">Texto en violeta</span> = aclaración de BioCelia que no está en los criterios</span>
+</p>
+
+<!-- ═══════════════ 1 · PAU ═══════════════ -->
+<section class="seccion" id="pau">
+  <h2><span class="num">1</span>Qué entra en la PAU</h2>
+  <div class="caja directrices">
+    <span class="titulo-caja">Directrices de Andalucía 2026-27 · D.1</span>
+    <ul>
+      <li>Diferenciar <b>metabolismo y nutrición celular</b>; tipos de nutrición según la <b>fuente de carbono, de energía y el uso de oxígeno</b>; orgánulos implicados.</li>
+      <li><b>Catabolismo</b> (degradación, oxidación, exergónico) y <b>anabolismo</b> (síntesis, reducción, endergónico); interpretar esquemas generales.</li>
+      <li>Describir de forma <b>global</b> las principales rutas: <b>localización, sustratos iniciales, productos finales y significado energético</b>, <b>sin intermediarios</b>.</li>
+      <li><b>Poder reductor</b>: papel del <b>NADH</b> y del <b>NADPH</b>. Papel del <b>ATP</b> y acoplamiento de reacciones.</li>
+      <li>Vías para obtener ATP según el <b>oxígeno</b>; comparar el <b>rendimiento</b> de la respiración y la fermentación <b>sin balance exacto de ATP</b>.</li>
+      <li><b>Regulación</b> por control de la actividad enzimática (<b>retroalimentación</b>).</li>
+    </ul>
+  </div>
+  <div class="caja pau">
+    <span class="titulo-caja">Lo que más se ha preguntado</span>
+    <ul>
+      <li>Definir <b>nutrición, metabolismo, catabolismo y anabolismo</b>; <b>autótrofos, heterótrofos, fotótrofos y quimiótrofos</b>.</li>
+      <li><b>Esquema del catabolismo</b> con números: nombrar las rutas y su localización.</li>
+      <li><b>Sustratos y productos</b> de cada ruta; ATP y NAD⁺ como transportadores.</li>
+    </ul>
+  </div>
+  <p>Este tema es la <b>visión de conjunto</b>. El detalle de cada ruta está en <a href="d2-respiracion-celular.html">Respiración celular</a>, <a href="d3-fotosintesis-quimiosintesis.html">Fotosíntesis y quimiosíntesis</a>, <a href="d4-anabolismo-heterotrofo.html">Anabolismo heterótrofo</a> y <a href="d5-fermentaciones.html">Fermentaciones</a>.</p>
+</section>
+
+<!-- ═══════════════ 2 · CONCEPTOS ═══════════════ -->
+<section class="seccion" id="conceptos">
+  <h2><span class="num">2</span>Nutrición y metabolismo</h2>
+  <ul>
+    <li><span class="clave">Nutrición celular</span>: conjunto de procesos que permiten la <span class="clave">introducción de los nutrientes</span> en la célula y su <span class="clave">conversión en energía y en las biomoléculas</span> necesarias para las funciones vitales <span class="extra">(incluye también la eliminación de los productos de desecho)</span>.</li>
+    <li><span class="clave">Metabolismo</span>: <span class="clave">conjunto de reacciones químicas que tienen lugar en la célula</span>. Comprende las <span class="clave">catabólicas</span> (degradan biomoléculas obteniendo energía) y las <span class="clave">anabólicas</span> (sintetizan moléculas con gasto de energía).</li>
+    <li>Las reacciones se organizan en <b>rutas metabólicas</b>: secuencias en las que el producto de una reacción es el sustrato de la siguiente, cada una catalizada por una <b>enzima</b>. Los compuestos intermedios se llaman <b>metabolitos</b>.</li>
+  </ul>
+</section>
+
+<!-- ═══════════════ 3 · TIPOS ═══════════════ -->
+<section class="seccion" id="tipos">
+  <h2><span class="num">3</span>Tipos de nutrición</h2>
+  <figure class="figura">
+    <img src="../assets/temas/d1/tipos-nutricion.svg" width="1000" height="476" alt="Cuadro: fotoautótrofos (plantas, algas, cianobacterias), fotoheterótrofos (algunas bacterias), quimioautótrofos (bacterias nitrificantes, del azufre, del hierro) y quimioheterótrofos (animales, hongos, protozoos y la mayoría de bacterias).">
+    <figcaption><b>Figura 1.</b> Combinando la fuente de carbono y la de energía.</figcaption>
+  </figure>
+  <div class="tabla-wrap"><table class="tabla">
+    <thead><tr><th>Criterio</th><th>Tipos</th></tr></thead>
+    <tbody>
+      <tr><td><b>Fuente de carbono</b></td><td><span class="clave">Autótrofos</span>: obtienen su materia orgánica <span class="clave">a partir del CO₂</span> (carbono inorgánico).<br><span class="clave">Heterótrofos</span>: la obtienen <span class="clave">a partir de otras moléculas orgánicas</span> ya sintetizadas por otros seres vivos.</td></tr>
+      <tr><td><b>Fuente de energía</b></td><td><span class="clave">Fotótrofos</span>: usan la <span class="clave">energía luminosa</span> para obtener ATP.<br><span class="clave">Quimiótrofos</span>: obtienen ATP de la <span class="clave">energía química de las moléculas que oxidan</span> (orgánicas o inorgánicas).</td></tr>
+      <tr><td><b>Uso del oxígeno</b></td><td><b>Aerobios</b>: necesitan O₂ (aceptor final de electrones en la respiración).<br><b>Anaerobios estrictos</b>: no lo usan y les resulta tóxico.<br><b>Anaerobios facultativos</b>: viven con o sin O₂ (levaduras, muchas bacterias; también las células musculares cambian a fermentación si falta O₂).</td></tr>
+    </tbody>
+  </table></div>
+  <div class="caja ojo">
+    <span class="titulo-caja">No todos los autótrofos usan la luz (PAU 2024)</span>
+    <p>Los <span class="clave">quimioautótrofos</span> obtienen la energía <span class="clave">oxidando compuestos inorgánicos</span>. Una bacteria en un medio <b>sin materia orgánica ni luz</b> toma el carbono de <span class="clave">compuestos inorgánicos</span> (CO₂) y la energía de la <span class="clave">oxidación de moléculas inorgánicas</span>; con materia orgánica y O₂ pero sin luz, toma el carbono y la energía <span class="clave">oxidando la materia orgánica con el oxígeno</span> (quimioheterótrofa aerobia).</p>
+  </div>
+</section>
+
+<!-- ═══════════════ 4 · CAT/ANA ═══════════════ -->
+<section class="seccion" id="cat-ana">
+  <h2><span class="num">4</span>Catabolismo y anabolismo</h2>
+  <figure class="figura">
+    <img src="../assets/temas/d1/catabolismo-anabolismo.svg" width="1000" height="415" alt="El catabolismo degrada moléculas complejas en sencillas y produce ATP y poder reductor; el anabolismo los gasta para sintetizar moléculas complejas a partir de precursores sencillos.">
+    <figcaption><b>Figura 2.</b> Las dos caras del metabolismo, unidas por el ATP y el poder reductor.</figcaption>
+  </figure>
+  <div class="tabla-wrap"><table class="tabla">
+    <thead><tr><th></th><th>Catabolismo</th><th>Anabolismo</th></tr></thead>
+    <tbody>
+      <tr><td>Qué hace</td><td><span class="clave">Degradación de moléculas orgánicas</span> complejas en otras más sencillas</td><td><span class="clave">Síntesis de moléculas complejas a partir de sencillas</span></td></tr>
+      <tr><td>Tipo de reacciones</td><td><b>Oxidaciones</b> (las moléculas pierden electrones)</td><td><b>Reducciones</b></td></tr>
+      <tr><td>Energía</td><td><b>Exergónico</b>: libera energía, que se guarda en el <b>ATP</b></td><td><b>Endergónico</b>: <span class="clave">consume energía (ATP)</span></td></tr>
+      <tr><td>Produce / gasta</td><td>Produce <span class="clave">precursores, energía y poder reductor</span></td><td>Gasta ATP y poder reductor</td></tr>
+      <tr><td>Rutas</td><td><b>Convergentes</b>: muchos compuestos acaban en unos pocos (acetil-CoA, CO₂)</td><td><b>Divergentes</b>: de pocos precursores salen muchas moléculas</td></tr>
+      <tr><td>Ejemplos</td><td>Glucólisis, β-oxidación, ciclo de Krebs, fermentaciones</td><td>Fotosíntesis, gluconeogénesis, síntesis de ácidos grasos, de proteínas</td></tr>
+    </tbody>
+  </table></div>
+  <p>Ambos son <b>complementarios</b> y ocurren a la vez: el catabolismo aporta la <b>energía</b> y las <b>moléculas sencillas</b> (aminoácidos, monosacáridos, ácidos grasos…) que el anabolismo utiliza como materia prima. En un organismo que no gana ni pierde masa, ambos están equilibrados.</p>
+</section>
+
+<!-- ═══════════════ 5 · ATP ═══════════════ -->
+<section class="seccion" id="atp">
+  <h2><span class="num">5</span>El ATP, intermediario energético</h2>
+  <figure class="figura">
+    <img src="../assets/temas/d1/atp-poder-reductor.svg" width="1040" height="380" alt="Ciclo ATP: se sintetiza a partir de ADP y fosfato con la energía del catabolismo y se hidroliza liberando energía para el trabajo celular. Ciclo NAD: el NAD+ se reduce a NADH captando electrones y protones y se oxida cediéndolos.">
+    <figcaption><b>Figura 3.</b> El ATP transporta energía; el NADH transporta electrones (poder reductor).</figcaption>
+  </figure>
+  <ul>
+    <li>El <b>ATP</b> (adenosín trifosfato) almacena energía en los <b>enlaces entre sus fosfatos</b>. La <span class="clave">fosforilación del ADP</span> capta energía de unas reacciones (catabólicas) y la <span class="clave">hidrólisis del ATP</span> la cede a otras (ADP + Pi + energía ⇄ ATP). Así se <b>acoplan</b> reacciones exergónicas y endergónicas.</li>
+    <li>No se almacena en grandes cantidades: se fabrica y se gasta continuamente.</li>
+  </ul>
+  <h3>Formas de obtener ATP</h3>
+  <div class="tabla-wrap"><table class="tabla">
+    <thead><tr><th>Mecanismo</th><th>Cómo</th><th>Dónde</th></tr></thead>
+    <tbody>
+      <tr><td><b>Fosforilación a nivel de sustrato</b></td><td>Un compuesto fosforilado cede directamente su fosfato al ADP</td><td>Glucólisis (citosol), ciclo de Krebs (matriz); única fuente de ATP en las fermentaciones</td></tr>
+      <tr><td><b>Fosforilación oxidativa</b></td><td>La <span class="clave">cadena de transporte de electrones</span> crea un <span class="clave">gradiente de protones</span> que usa la <b>ATP sintasa</b></td><td><b>Membrana interna de la mitocondria</b> (crestas)</td></tr>
+      <tr><td><b>Fotofosforilación</b></td><td>Igual, pero los electrones proceden de los <span class="clave">fotosistemas excitados por la luz</span></td><td><b>Membrana de los tilacoides</b> (cloroplasto)</td></tr>
+    </tbody>
+  </table></div>
+  <div class="caja ojo">
+    <span class="titulo-caja">Verdadero o falso (PAU 2024)</span>
+    <p>«La fosforilación a nivel de sustrato genera la mayor parte del ATP de la respiración» → <span class="clave">Falsa</span>: la mayor parte la genera la <span class="clave">fosforilación oxidativa</span>.</p>
+  </div>
+</section>
+
+<!-- ═══════════════ 6 · PODER REDUCTOR ═══════════════ -->
+<section class="seccion" id="poder">
+  <h2><span class="num">6</span>El poder reductor</h2>
+  <p>En las oxidaciones del catabolismo se liberan <b>electrones y protones</b> que recogen coenzimas transportadoras. Cuando están cargadas (reducidas) se dice que tienen <b>poder reductor</b>: pueden ceder esos electrones a otra molécula.</p>
+  <ul>
+    <li>El <span class="clave">NAD⁺</span> <span class="clave">capta electrones y protones</span> de algunas moléculas en reacciones de <span class="clave">deshidrogenación</span> (<span class="clave">se reduce</span> a NADH) y los <span class="clave">cede a otras moléculas</span> (se oxida).</li>
+    <li><span class="clave">NAD⁺/NADH y FAD/FADH₂</span>: sobre todo en el <b>catabolismo</b>; ceden sus electrones a la <b>cadena respiratoria</b>, donde se obtiene ATP.</li>
+    <li><span class="clave">NADP⁺/NADPH</span>: sobre todo en el <b>anabolismo</b>; se produce en la <b>fase luminosa de la fotosíntesis</b> y se gasta en el ciclo de Calvin y en la síntesis de ácidos grasos.</li>
+  </ul>
+  <p>Por eso <span class="clave">las coenzimas de óxido-reducción de la respiración y de la fotosíntesis son distintas</span> (PAU 2024).</p>
+</section>
+
+<!-- ═══════════════ 7 · MAPA ═══════════════ -->
+<section class="seccion" id="mapa">
+  <h2><span class="num">7</span>Esquema general del catabolismo</h2>
+  <figure class="figura">
+    <img src="../assets/temas/d1/mapa-catabolismo.svg" width="1200" height="670" alt="Polisacáridos dan glucosa que por glucólisis da piruvato en el citosol; sin oxígeno, el piruvato fermenta a lactato o a etanol y CO2; con oxígeno entra en la mitocondria y da acetil-CoA, que también procede de la beta-oxidación de los ácidos grasos y de los aminoácidos; el acetil-CoA entra en el ciclo de Krebs, que da CO2, NADH y FADH2; estos van a la cadena respiratoria y la fosforilación oxidativa, que reducen el O2 a agua y producen mucho ATP.">
+    <figcaption><b>Figura 4.</b> Mapa global del catabolismo. Las preguntas con números suelen ser como este esquema.</figcaption>
+  </figure>
+  <div class="tabla-wrap"><table class="tabla">
+    <thead><tr><th>Ruta</th><th>Dónde</th><th>Sustratos iniciales</th><th>Productos finales</th></tr></thead>
+    <tbody>
+      <tr><td><b>Glucólisis</b></td><td>Citosol</td><td><span class="clave">Glucosa, ADP + Pi, NAD⁺</span></td><td><span class="clave">2 ácido pirúvico, ATP, NADH</span></td></tr>
+      <tr><td><b>Fermentaciones</b></td><td>Citosol</td><td>Piruvato, NADH</td><td>Lactato, o etanol + CO₂; NAD⁺</td></tr>
+      <tr><td><b>Descarboxilación oxidativa</b></td><td>Matriz mitocondrial</td><td>Piruvato, NAD⁺, CoA</td><td>Acetil-CoA, CO₂, NADH</td></tr>
+      <tr><td><b>β-oxidación</b></td><td>Matriz mitocondrial</td><td><span class="clave">Ácidos grasos</span> (activados con CoA)</td><td><span class="clave">Acetil-CoA</span>, NADH, FADH₂</td></tr>
+      <tr><td><b>Ciclo de Krebs</b></td><td>Matriz mitocondrial</td><td><span class="clave">Acetil-CoA, NAD⁺, FAD, GDP</span></td><td><span class="clave">CO₂, NADH, FADH₂, GTP</span></td></tr>
+      <tr><td><b>Cadena de transporte</b></td><td>Membrana mitocondrial interna</td><td><span class="clave">NADH, FADH₂ y O₂</span></td><td><span class="clave">NAD⁺, FAD y H₂O</span></td></tr>
+      <tr><td><b>Fosforilación oxidativa</b></td><td>Membrana mitocondrial interna (ATP sintasa)</td><td><span class="clave">ADP + Pi</span></td><td><span class="clave">ATP</span></td></tr>
+    </tbody>
+  </table></div>
+  <p class="extra">Las proteínas se usan poco como combustible: sus aminoácidos pierden el grupo amino (que se elimina como urea en los mamíferos) y su esqueleto de carbono entra en el metabolismo como piruvato, acetil-CoA o intermediarios del ciclo de Krebs.</p>
+</section>
+
+<!-- ═══════════════ 8 · OXÍGENO ═══════════════ -->
+<section class="seccion" id="oxigeno">
+  <h2><span class="num">8</span>Con oxígeno y sin oxígeno: rendimiento</h2>
+  <p>La célula puede obtener ATP por distintas vías según los <b>nutrientes</b> y el <b>oxígeno</b> disponibles:</p>
+  <div class="tabla-wrap"><table class="tabla">
+    <thead><tr><th></th><th>Respiración aerobia</th><th>Respiración anaerobia</th><th>Fermentación</th></tr></thead>
+    <tbody>
+      <tr><td>Oxidación de la glucosa</td><td><b>Completa</b>, hasta CO₂ y H₂O</td><td><b>Completa</b></td><td><b>Incompleta</b>: quedan compuestos orgánicos (lactato, etanol)</td></tr>
+      <tr><td>Aceptor final de electrones</td><td><b>O₂</b></td><td>Otra sustancia inorgánica (nitrato, sulfato…)</td><td>Una <b>molécula orgánica</b></td></tr>
+      <tr><td>Cadena respiratoria</td><td>Sí</td><td>Sí</td><td>No</td></tr>
+      <tr><td>Quién</td><td>Eucariotas y muchos procariotas</td><td>Solo algunos procariotas</td><td>Levaduras, bacterias, músculo sin O₂</td></tr>
+      <tr><td>Rendimiento</td><td><b>Alto</b> (decenas de ATP por glucosa)</td><td>Menor que la aerobia</td><td><b>Muy bajo</b>: solo los <b>2 ATP de la glucólisis</b></td></tr>
+    </tbody>
+  </table></div>
+  <div class="caja truco">
+    <span class="titulo-caja">¿Por qué rinde tan poco la fermentación?</span>
+    <p>Porque la glucosa <b>no se oxida por completo</b>: gran parte de su energía queda en el lactato o el etanol, y no hay cadena respiratoria. La fermentación solo sirve para <b>regenerar el NAD⁺</b> y que la glucólisis pueda seguir. Un ácido graso rinde más que una hexosa porque produce <span class="clave">más acetil-CoA</span>, el <span class="clave">ciclo de Krebs funciona más veces</span> y se obtiene <span class="clave">más ATP</span>.</p>
+  </div>
+  <p class="extra">Las directrices no piden el balance exacto. Como orientación, los libros recientes dan unos 30-32 ATP por glucosa en la respiración aerobia (los antiguos, 36-38) frente a 2 en la fermentación.</p>
+</section>
+
+<!-- ═══════════════ 9 · ORGÁNULOS ═══════════════ -->
+<section class="seccion" id="organulos">
+  <h2><span class="num">9</span>Orgánulos de la nutrición celular</h2>
+  <div class="tabla-wrap"><table class="tabla">
+    <thead><tr><th>Lugar</th><th>Procesos</th></tr></thead>
+    <tbody>
+      <tr><td><b>Citosol</b></td><td>Glucólisis, fermentaciones, síntesis de ácidos grasos, gluconeogénesis (en parte), síntesis de glucógeno</td></tr>
+      <tr><td><b>Mitocondria</b></td><td>Respiración celular: descarboxilación del piruvato, ciclo de Krebs y β-oxidación (matriz); cadena respiratoria y fosforilación oxidativa (membrana interna)</td></tr>
+      <tr><td><b>Cloroplasto</b></td><td>Fotosíntesis: fase luminosa (tilacoides) y ciclo de Calvin (estroma)</td></tr>
+      <tr><td><b>Ribosomas y RER</b></td><td>Síntesis de proteínas</td></tr>
+      <tr><td><b>REL</b></td><td>Síntesis de lípidos de membrana y esteroides</td></tr>
+      <tr><td><b>Peroxisomas</b></td><td>Oxidación de ácidos grasos de cadena muy larga y detoxificación; glioxisomas en semillas</td></tr>
+      <tr><td><b>Lisosomas</b></td><td>Digestión intracelular de macromoléculas</td></tr>
+    </tbody>
+  </table></div>
+  <p>Las células <b>procariotas</b>, sin mitocondrias, hacen la respiración en la <b>membrana plasmática</b> y el ciclo de Krebs en el citosol.</p>
+</section>
+
+<!-- ═══════════════ 10 · REGULACIÓN ═══════════════ -->
+<section class="seccion" id="regulacion">
+  <h2><span class="num">10</span>Regulación del metabolismo</h2>
+  <p>La célula ajusta su metabolismo a sus necesidades <b>controlando la actividad de las enzimas</b>. El mecanismo más típico es la <b>retroalimentación negativa</b> (retroinhibición): el <b>producto final</b> de una ruta <b>inhibe una enzima inicial</b>; si se acumula, la ruta se frena, y si se gasta, se reactiva.</p>
+  <figure class="figura">
+    <img src="../assets/temas/d1/retroalimentacion.svg" width="900" height="295" alt="Ruta de A a D con tres enzimas; el producto final D inhibe a la enzima 1.">
+    <figcaption><b>Figura 5.</b> Retroinhibición de una ruta metabólica.</figcaption>
+  </figure>
+  <p class="extra">Ejemplo: cuando hay mucho ATP en la célula, el propio ATP inhibe una enzima de la glucólisis (la fosfofructoquinasa) y se degrada menos glucosa. También regulan el metabolismo las hormonas: la insulina favorece la síntesis de glucógeno y el glucagón, su degradación.</p>
+  <p>Además, catabolismo y anabolismo de una misma molécula usan <b>enzimas distintas</b> y, a menudo, <b>compartimentos distintos</b> (por ejemplo, la síntesis de ácidos grasos en el citosol y su degradación en la mitocondria), lo que permite regularlos por separado.</p>
+</section>
+
+<!-- ═══════════════ 11 · EXAMEN ═══════════════ -->
+<section class="seccion" id="examen">
+  <h2><span class="num">11</span>Así se pregunta en la PAU</h2>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2017 · Reserva A (y 2010, 2013, 2016)</span><span class="chip oro">2 puntos</span></div>
+    <p class="enunciado">a) Defina nutrición celular y metabolismo [1]. b) Explique qué son organismos autótrofos, heterótrofos, fotótrofos y quimiótrofos [1].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) Nutrición: procesos que permiten la <span class="clave">introducción de los nutrientes</span> en la célula y su <span class="clave">conversión en energía y biomoléculas</span> necesarias para las funciones vitales. Metabolismo: <span class="clave">conjunto de reacciones químicas que tienen lugar en la célula</span>.</p>
+      <p>b) Autótrofos: materia orgánica <span class="clave">a partir del CO₂</span>. Heterótrofos: <span class="clave">a partir de otras moléculas orgánicas</span>. Fotótrofos: <span class="clave">energía luminosa</span> para obtener ATP. Quimiótrofos: ATP a partir de la <span class="clave">energía química de las moléculas que oxidan</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2018 · Suplente septiembre (y 2014)</span><span class="chip oro">2 puntos</span></div>
+    <p class="enunciado">Defina: a) metabolismo; b) catabolismo; c) anabolismo; d) glucólisis; e) fermentación [2].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) <span class="clave">Conjunto de reacciones químicas de la célula</span>, <span class="clave">catabólicas y anabólicas</span>. b) Reacciones de <span class="clave">degradación de macromoléculas</span> para obtener <span class="clave">precursores, energía y poder reductor</span>. c) Procesos en los que la célula <span class="clave">sintetiza, con gasto de energía</span>, sus sustancias. d) Reacciones que convierten <span class="clave">la glucosa en ácido pirúvico</span> con <span class="clave">liberación de energía (ATP)</span>. e) <span class="clave">Degradación anaeróbica de la glucosa</span> con <span class="clave">una molécula orgánica como aceptor final de electrones</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2024 · Titular B</span><span class="chip oro">2 puntos</span></div>
+    <p class="enunciado">Defina: a) metabolismo [0,4]; b) anabolismo [0,4]; c) catabolismo [0,4]. d) Explique una diferencia entre las células fotoautótrofas y las quimioautótrofas [0,8].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) <span class="clave">Conjunto de reacciones bioquímicas de la célula</span>. b) <span class="clave">Síntesis de moléculas complejas a partir de sencillas con gasto de energía (ATP)</span>. c) <span class="clave">Degradación de moléculas orgánicas para obtener energía (ATP)</span>. d) Las fotoautótrofas usan la <span class="clave">energía luminosa</span> para sintetizar ATP; las quimioautótrofas, la <span class="clave">energía química de las moléculas que oxidan</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2010</span><span class="chip oro">2 puntos</span></div>
+    <p class="enunciado">Clasifique los seres vivos según su fuente de carbono [0,2] e indique en cada grupo un proceso anabólico y otro catabólico con sus productos finales [0,8]. Clasifíquelos según su fuente de energía [0,2]. Explique el funcionamiento del ATP en la transferencia de energía y del NAD⁺ en la transferencia de electrones y protones [0,8].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>Carbono inorgánico (CO₂): <span class="clave">autótrofos</span>; orgánico: <span class="clave">heterótrofos</span>. Autótrofos: <span class="clave">fotosíntesis</span> → glúcidos; <span class="clave">respiración celular</span> → ATP, CO₂. Heterótrofos: <span class="clave">gluconeogénesis</span> → glucosa; <span class="clave">β-oxidación</span> → acetil-CoA.</p>
+      <p>Energía luminosa: <span class="clave">fotótrofos</span>; química: <span class="clave">quimiótrofos</span>. La <span class="clave">fosforilación de ADP</span> capta energía de unas reacciones que se cede a otras con la <span class="clave">hidrólisis del ATP</span>. El NAD⁺ <span class="clave">capta electrones y protones</span> (<span class="clave">se reduce</span>) en <span class="clave">deshidrogenaciones</span> y los <span class="clave">cede a otras moléculas</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2015</span><span class="chip oro">2 puntos</span></div>
+    <p class="enunciado">Indique los sustratos iniciales y productos finales de: glucólisis, β-oxidación, ciclo de Krebs, cadena de transporte electrónico y fosforilación oxidativa [2].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>Glucólisis: <span class="clave">glucosa, ADP+Pi, NAD</span> → <span class="clave">ácido pirúvico, ATP, NADH</span>. β-oxidación: <span class="clave">ácidos grasos</span> → <span class="clave">acetil-CoA</span>. Krebs: <span class="clave">acetil-CoA, NAD, FAD, GDP</span> → <span class="clave">CO₂, NADH, FADH₂, GTP</span>. Cadena: <span class="clave">NADH, FADH₂ y O₂</span> → <span class="clave">NAD, FAD y H₂O</span>. Fosforilación oxidativa: <span class="clave">ADP + Pi</span> → <span class="clave">ATP</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2024 · Suplente B (y 2018)</span><span class="chip oro">1 punto</span><span class="chip">Con imagen</span></div>
+    <p class="enunciado">En un esquema del catabolismo: a) Nombre los procesos 1 a 4 [0,4]. b) ¿Dónde ocurren 1, 3 y 4 en las células eucarióticas? [0,3] c) ¿Qué nombre reciben las reacciones 5 y qué productos son A y B? [0,3]</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) 1: <span class="clave">glucólisis</span>; 2: <span class="clave">descarboxilación oxidativa</span>; 3: <span class="clave">β-oxidación</span>; 4: <span class="clave">ciclo de Krebs</span>. b) 1: <span class="clave">citosol</span>; 3 y 4: <span class="clave">mitocondrias</span>. c) 5: <span class="clave">fermentaciones</span>; A: <span class="clave">etanol</span>; B: <span class="clave">ácido láctico</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2024 · Titular A</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">Verdadero o falso: a) En el catabolismo se sintetizan moléculas orgánicas a partir de inorgánicas, son oxidaciones y generan energía. b) La fosforilación a nivel de sustrato genera la mayor parte del ATP de la respiración. c) Todos los autótrofos usan la energía luminosa. d) Las coenzimas de óxido-reducción de la respiración y la fotosíntesis son distintas.</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) <span class="clave">Falsa</span>: el catabolismo <span class="clave">degrada moléculas orgánicas</span>. b) <span class="clave">Falsa</span>: la mayor parte la genera la <span class="clave">fosforilación oxidativa</span>. c) <span class="clave">Falsa</span>: los <span class="clave">quimioautótrofos</span> obtienen energía <span class="clave">oxidando compuestos inorgánicos</span>. d) <span class="clave">Verdadera</span>: en la respiración, <span class="clave">NAD⁺/NADH y FAD/FADH₂</span>; en la fotosíntesis, <span class="clave">NADP⁺/NADPH</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2013</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">¿Por qué la oxidación de un ácido graso rinde más que la de una hexosa? [0,5] Desde un punto de vista evolutivo, ¿qué usaron primero las células: azúcares o grasas? [0,5]</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>El ácido graso produce <span class="clave">más acetil-CoA</span>, el <span class="clave">ciclo de Krebs funciona más veces</span> y se obtiene <span class="clave">más ATP</span>. Primero los <span class="clave">azúcares, en anaerobiosis</span>: aprovechar las grasas requiere un <span class="clave">ambiente aerobio</span>, que apareció después.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2025 · Asturias</span><span class="chip oro">2,5 puntos</span><span class="chip">Competencial</span></div>
+    <p class="enunciado">Un adulto de 80 kg con un 25 % de grasa hace musculación durante un año: baja al 11 % de grasa y aumenta su masa muscular, pero mantiene los 80 kg. 1) ¿Han predominado las rutas anabólicas o las catabólicas? [1] 2) Describa una ruta catabólica y otra anabólica que hayan ocurrido y dónde [1]. 3) ¿Lo habría conseguido con una dieta rica en glúcidos y pobre en proteínas? [0,5]</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>1) Como <span class="clave">el peso no cambia</span>, el <span class="clave">catabolismo y el anabolismo están equilibrados</span> <span class="extra">(ha degradado grasa y ha sintetizado proteína muscular)</span>.</p>
+      <p>2) Catabólica: <span class="clave">lipólisis</span> y <span class="clave">β-oxidación</span> en la <span class="clave">matriz mitocondrial</span> → <span class="clave">acetil-CoA</span> → <span class="clave">ciclo de Krebs</span> → <span class="clave">cadena respiratoria</span> y <span class="clave">ATP sintasa</span>. Anabólica: <span class="clave">síntesis de proteínas</span> en los <span class="clave">ribosomas</span> del citoplasma o del <span class="clave">RER</span>.</p>
+      <p>3) <span class="clave">No</span>: la dieta debe ser <span class="clave">rica en proteínas</span>, porque hay <span class="clave">aminoácidos esenciales</span> que <span class="clave">no podemos sintetizar</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip lila">Práctica BioCelia · estilo 26-27</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">En las fuentes hidrotermales del fondo marino, donde no llega la luz, viven bacterias que oxidan el sulfuro de hidrógeno (H₂S) que sale de las chimeneas y fabrican materia orgánica a partir del CO₂. a) ¿Qué tipo de nutrición tienen? Razone [0,5]. b) ¿Por qué se dice que sostienen todo el ecosistema? [0,5]</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p class="extra">a) Quimioautótrofa (quimiosintética): el carbono procede del CO₂ (autótrofa) y la energía de la oxidación de una sustancia inorgánica, el H₂S (quimiótrofa). b) Porque son los productores primarios: fabrican la materia orgánica de la que dependen, directa o indirectamente, los demás organismos de la fuente hidrotermal, como harían las plantas en un ecosistema con luz.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip lila">Práctica BioCelia · estilo 26-27</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">En una bacteria, la síntesis del aminoácido isoleucina se realiza mediante una ruta de cinco enzimas. Si se añade isoleucina al medio de cultivo, la bacteria deja de fabricarla en pocos minutos, aunque sigue teniendo las enzimas. a) Explique este hecho [0,6]. b) ¿Qué ventaja tiene para la bacteria? [0,4]</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p class="extra">a) Es una retroinhibición: la isoleucina, producto final de la ruta, se une a la primera enzima y la inhibe, de modo que toda la ruta se detiene aunque las enzimas sigan presentes. b) Ahorra energía y precursores: no fabrica lo que ya tiene disponible, y la ruta se reactiva en cuanto la isoleucina escasea.</p>
+    </div></details>
+  </article>
+
+  <p class="no-imprimir"><a href="../Entrenamientopau.html">🏋️ Practica más preguntas de este tema en Entrenamiento →</a></p>
+</section>
+
+<!-- ═══════════════ 12 · AUTOEVALUACIÓN ═══════════════ -->
+<section class="seccion" id="autoevaluacion">
+  <h2><span class="num">12</span>Autoevaluación rápida</h2>
+  <p>Intenta responder antes de desplegar la solución.</p>
+  <ol class="auto">
+    <li>Diferencia nutrición y metabolismo. <details><summary>Ver</summary><span class="resp">Nutrición: entrada de nutrientes y su conversión en energía y biomoléculas. Metabolismo: conjunto de reacciones químicas de la célula.</span></details></li>
+    <li>¿Qué tipo de nutrición tiene un hongo? <details><summary>Ver</summary><span class="resp">Quimioheterótrofa.</span></details></li>
+    <li>¿Qué es un anaerobio facultativo? <details><summary>Ver</summary><span class="resp">El que puede vivir con o sin oxígeno (levaduras).</span></details></li>
+    <li>¿El catabolismo es oxidativo o reductor? ¿Exergónico o endergónico? <details><summary>Ver</summary><span class="resp">Oxidativo y exergónico.</span></details></li>
+    <li>¿Qué tres formas hay de sintetizar ATP? <details><summary>Ver</summary><span class="resp">Fosforilación a nivel de sustrato, fosforilación oxidativa y fotofosforilación.</span></details></li>
+    <li>¿Qué coenzima aporta poder reductor al anabolismo? <details><summary>Ver</summary><span class="resp">El NADPH.</span></details></li>
+    <li>¿Dónde ocurren la glucólisis y el ciclo de Krebs? <details><summary>Ver</summary><span class="resp">En el citosol y en la matriz mitocondrial.</span></details></li>
+    <li>¿Qué molécula une el catabolismo de glúcidos, lípidos y proteínas? <details><summary>Ver</summary><span class="resp">El acetil-CoA.</span></details></li>
+    <li>¿Por qué la fermentación rinde poco ATP? <details><summary>Ver</summary><span class="resp">Porque la oxidación de la glucosa es incompleta y no hay cadena respiratoria: solo el ATP de la glucólisis.</span></details></li>
+    <li>¿Qué es la retroinhibición? <details><summary>Ver</summary><span class="resp">El producto final de una ruta inhibe una enzima inicial de esa ruta.</span></details></li>
+  </ol>
+</section>
+
+<p class="fuentes">Fuentes: Directrices y orientaciones de la PAU de Biología de Andalucía (curso 2026-27); criterios oficiales de corrección de la PAU de Andalucía (2010-2024) y de otras comunidades (2025); resúmenes del departamento; Lehninger, <i>Principios de bioquímica</i>; Campbell y Reece, <i>Biología</i>. Esquemas: elaboración propia de BioCelia.</p>
+
+</main>
+</div>
+
+<script src="apuntes.js"></script>
+</body>
+</html>
