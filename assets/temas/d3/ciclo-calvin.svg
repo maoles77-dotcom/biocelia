@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1020 540" role="img" font-family="Nunito, 'Segoe UI', system-ui, sans-serif"><title>Ciclo de Calvin: fijación, reducción y regeneración</title>
+<defs><marker id="fl" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2a7fc1"/></marker><marker id="fk" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#22313f"/></marker><radialGradient id="gO" cx="35%" cy="35%" r="70%"><stop offset="0" stop-color="#f08a7e"/><stop offset="1" stop-color="#c0392b"/></radialGradient><radialGradient id="gH" cx="35%" cy="35%" r="70%"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#d5dde3"/></radialGradient></defs>
+<rect x="10" y="10" width="1000" height="520" rx="24" fill="#e3f3dc" stroke="#2f7d32" stroke-width="3"/><text x="30.0" y="42.0" font-size="15" text-anchor="start" font-weight="900" fill="#2f7d32" >ESTROMA DEL CLOROPLASTO</text>
+<circle cx="420" cy="280" r="150" fill="none" stroke="#c77d00" stroke-width="10" opacity="0.85"/><rect x="181.6320878171964" y="171.0" width="210" height="64" rx="14" fill="#fff" stroke="#c77d00" stroke-width="2.5"/><text x="286.6" y="193.0" font-size="14" text-anchor="middle" font-weight="900" fill="#c77d00" >1 · FIJACIÓN</text>
+<text x="286.6" y="211.0" font-size="12" text-anchor="middle" font-weight="800" fill="#22313f" >CO₂ + ribulosa-1,5-bisfosfato</text>
+<text x="286.6" y="227.0" font-size="12" text-anchor="middle" font-weight="800" fill="#4c5b67" >enzima RuBisCO</text>
+<rect x="448.3679121828036" y="171.0" width="210" height="64" rx="14" fill="#fff" stroke="#c77d00" stroke-width="2.5"/><text x="553.4" y="193.0" font-size="14" text-anchor="middle" font-weight="900" fill="#c77d00" >2 · REDUCCIÓN</text>
+<text x="553.4" y="211.0" font-size="12" text-anchor="middle" font-weight="800" fill="#22313f" >gasta ATP y NADPH</text>
+<text x="553.4" y="227.0" font-size="12" text-anchor="middle" font-weight="800" fill="#4c5b67" >→ triosas fosfato</text>
+<rect x="315.0" y="402.0" width="210" height="64" rx="14" fill="#fff" stroke="#c77d00" stroke-width="2.5"/><text x="420.0" y="424.0" font-size="14" text-anchor="middle" font-weight="900" fill="#c77d00" >3 · REGENERACIÓN</text>
+<text x="420.0" y="442.0" font-size="12" text-anchor="middle" font-weight="800" fill="#22313f" >de la ribulosa</text>
+<text x="420.0" y="458.0" font-size="12" text-anchor="middle" font-weight="800" fill="#4c5b67" >gasta ATP</text>
+<text x="420.0" y="276.0" font-size="18" text-anchor="middle" font-weight="900" fill="#c77d00" >CICLO DE</text>
+<text x="420.0" y="302.0" font-size="24" text-anchor="middle" font-weight="900" fill="#c77d00" >CALVIN</text>
+<rect x="652.55" y="76" width="134.9" height="28" rx="14" fill="#eef1f4" stroke="#4c5b67" stroke-width="2"/><text x="720.0" y="95.0" font-size="13" text-anchor="middle" font-weight="900" fill="#4c5b67" >CO₂ (atmósfera)</text>
+<line x1="670.0" y1="104.0" x2="560.0" y2="140.0" stroke="#4c5b67" stroke-width="2.5" stroke-linecap="round" marker-end="url(#fk)"/><rect x="698.67" y="286" width="102.66" height="28" rx="14" fill="#efe7fb" stroke="#6d3fc0" stroke-width="2"/><text x="750.0" y="305.0" font-size="13" text-anchor="middle" font-weight="900" fill="#6d3fc0" >ATP + NADPH</text>
+<text x="750.0" y="330.0" font-size="12" text-anchor="middle" font-weight="800" fill="#4c5b67" >(de la fase luminosa)</text>
+<line x1="680.0" y1="300.0" x2="620.0" y2="330.0" stroke="#6d3fc0" stroke-width="2.5" stroke-linecap="round" marker-end="url(#fk)"/><rect x="616.28" y="406" width="207.44" height="28" rx="14" fill="#e5f4ec" stroke="#3f8a3a" stroke-width="2"/><text x="720.0" y="425.0" font-size="12" text-anchor="middle" font-weight="900" fill="#3f8a3a" >triosas fosfato → glucosa,</text>
+<text x="720.0" y="450.0" font-size="12" text-anchor="middle" font-weight="800" fill="#3f8a3a" >almidón, sacarosa, otras moléculas</text>
+<line x1="570.0" y1="370.0" x2="630.0" y2="410.0" stroke="#3f8a3a" stroke-width="2.5" stroke-linecap="round" marker-end="url(#fk)"/><rect x="98.52" y="416" width="142.96" height="28" rx="14" fill="#fff" stroke="#4c5b67" stroke-width="2"/><text x="170.0" y="435.0" font-size="13" text-anchor="middle" font-weight="900" fill="#4c5b67" >ADP + Pi + NADP⁺</text>
+<text x="170.0" y="460.0" font-size="12" text-anchor="middle" font-weight="800" fill="#4c5b67" >vuelven a la fase luminosa</text>
+<text x="510.0" y="505.0" font-size="16" text-anchor="middle" font-weight="900" fill="#0f4c81" >Para una glucosa: 6 vueltas, 6 CO₂, 18 ATP y 12 NADPH</text>
+</svg>
