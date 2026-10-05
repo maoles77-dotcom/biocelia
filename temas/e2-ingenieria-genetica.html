@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Apuntes PAU de Biología (Andalucía 2026-27), Bloque E: ingeniería genética y biotecnología. OMG y transgénicos, enzimas de restricción, vectores, ADN recombinante, ADNc, PCR, electroforesis, secuenciación, CRISPR-Cas, terapia génica y problemas.">
+<title>Ingeniería genética y biotecnología · BioCelia</title>
+<link rel="stylesheet" href="../pau-theme.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="apuntes.css">
+</head>
+<body>
+<a class="skip-link" href="#main-content">Saltar al contenido</a>
+
+<nav class="site-nav" aria-label="Navegación principal">
+  <a href="../index.html">Inicio</a>
+  <a href="../orientacionespau.html">Orientaciones</a>
+  <a class="active" href="../resumenespau.html">Resúmenes</a>
+  <a href="../Entrenamientopau.html">Entrenamiento</a>
+  <a href="../simulacropau.html">Simulacro</a>
+  <a href="../laboratoriocompetencial.html">Laboratorio</a>
+  <a href="../laboratorioinvestigacion.html">Investigación</a>
+</nav>
+
+<div class="apuntes">
+
+<details class="indice">
+  <summary>Índice del tema</summary>
+  <ol>
+    <li><a href="#pau">Qué entra en la PAU</a></li>
+    <li><a href="#conceptos">Conceptos: biotecnología, ingeniería genética, OMG</a></li>
+    <li><a href="#herramientas">Herramientas: enzimas, ligasa, vectores, transcriptasa inversa</a></li>
+    <li><a href="#recombinante">ADN recombinante y clonación: la insulina</a></li>
+    <li><a href="#pcr">La PCR</a></li>
+    <li><a href="#electroforesis">Electroforesis</a></li>
+    <li><a href="#secuenciacion">Secuenciación del ADN</a></li>
+    <li><a href="#crispr">Edición genética: CRISPR-Cas</a></li>
+    <li><a href="#terapia">Terapia génica</a></li>
+    <li><a href="#aplicaciones">Aplicaciones de los OMG y Andalucía</a></li>
+    <li><a href="#problemas">Problemas resueltos</a></li>
+    <li><a href="#examen">Así se pregunta en la PAU</a></li>
+    <li><a href="#autoevaluacion">Autoevaluación</a></li>
+  </ol>
+</details>
+
+<main class="contenido" id="main-content">
+
+<header class="hero">
+  <span class="etiqueta">Bloque E · Biotecnología</span>
+  <h1>Ingeniería genética y biotecnología</h1>
+  <p>Cortar, pegar, copiar, leer y editar el ADN: las herramientas que permiten fabricar insulina en bacterias, identificar a una persona por su ADN o corregir un gen enfermo.</p>
+  <div class="acciones">
+    <a class="btn claro" href="e2-ingenieria-genetica-presentacion.html">🎞️ Presentación</a>
+    <a class="btn" href="e2-ingenieria-genetica-resumen.html">📝 Resumen</a>
+    <a class="btn" href="pdf/e2-ingenieria-genetica.pdf" download>⬇️ Descargar PDF</a>
+    <button class="btn" type="button" data-imprimir>🖨️ Imprimir</button>
+    <a class="btn" href="../Entrenamientopau.html">🏋️ Practicar preguntas</a>
+  </div>
+</header>
+
+<p class="leyenda">
+  <span><span class="clave">Palabra clave</span> = lo que buscan los criterios oficiales de corrección</span>
+  <span><span class="extra">Texto en violeta</span> = aclaración de BioCelia que no está en los criterios</span>
+</p>
+
+<!-- ═══════════════ 1 · PAU ═══════════════ -->
+<section class="seccion" id="pau">
+  <h2><span class="num">1</span>Qué entra en la PAU</h2>
+  <div class="caja directrices">
+    <span class="titulo-caja">Directrices de Andalucía 2026-27 · E.1 Técnicas de ingeniería genética</span>
+    <ul>
+      <li>Conceptos de <b>biotecnología</b> e <b>ingeniería genética</b>; diferenciar <b>OMG</b> y <b>transgénico</b> (un tipo particular de OMG).</li>
+      <li><b>ADN recombinante</b>: papel de las <b>enzimas de restricción</b> y de los <b>vectores</b> (plásmidos y bacteriófagos).</li>
+      <li><b>Transcriptasa inversa</b>: obtener <b>ADNc</b> a partir de ARNm para expresar genes eucariotas en procariotas.</li>
+      <li><b>PCR</b>: reactivos (ADN molde, cebadores, desoxirribonucleótidos, Taq polimerasa), etapas (desnaturalización, hibridación, extensión), aplicaciones, <b>especificidad y sensibilidad</b>.</li>
+      <li><b>CRISPR-Cas</b>: utilidad y aplicaciones, reconocerla en esquemas, <b>sin detallar su funcionamiento</b>.</li>
+      <li><b>Secuenciación</b>: saber que existe y para qué sirve (diseñar cebadores y ARN guía, identificar genes, comparar muestras), <b>sin su fundamento técnico</b>.</li>
+      <li><b>Problemas sencillos</b> de enzimas de restricción, PCR, vectores y OMG; interpretar <b>PCR y electroforesis</b> (tamaño de los fragmentos por su migración).</li>
+      <li><b>E.1.3</b>: <b>terapia génica</b> con ejemplos.</li>
+    </ul>
+  </div>
+  <div class="caja pau">
+    <span class="titulo-caja">Lo que más se ha preguntado</span>
+    <ul>
+      <li>Esquemas de <b>insulina recombinante</b>: plásmido, gen, enzima de restricción, ligasa; ordenar los pasos.</li>
+      <li>La <b>PCR</b> en una figura: moléculas, fases, enlaces que se rompen, por qué la Taq es termoestable.</li>
+      <li>Fragmentos que dan las <b>enzimas de restricción</b>.</li>
+      <li>Definir ingeniería genética, ADN recombinante, planta transgénica; <b>CRISPR-Cas</b> y <b>terapia génica</b> (otras comunidades, 2025).</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ═══════════════ 2 · CONCEPTOS ═══════════════ -->
+<section class="seccion" id="conceptos">
+  <h2><span class="num">2</span>Conceptos: biotecnología, ingeniería genética, OMG</h2>
+  <ul>
+    <li><b>Biotecnología</b>: conjunto de <span class="clave">técnicas, métodos y procesos que utilizan organismos vivos o sus derivados para obtener productos de interés</span> para el ser humano o mejorar procesos (ver <a href="e1-microorganismos-biotecnologia.html">Microorganismos y aplicaciones biotecnológicas</a>).</li>
+    <li><b>Ingeniería genética</b>: <span class="clave">técnicas que permiten manipular y modificar el material genético</span> de los organismos de forma directa, en el laboratorio.</li>
+    <li><b>ADN recombinante</b>: <span class="clave">ADN obtenido en el laboratorio uniendo secuencias de organismos diferentes</span>.</li>
+    <li><b>Organismo modificado genéticamente (OMG)</b>: aquel cuyo material genético se ha alterado mediante ingeniería genética de una forma que no se produce de manera natural.</li>
+    <li><b>Organismo transgénico</b>: OMG que lleva un <b>gen de otra especie</b> (<b>transgén</b>). <span class="extra">Todo transgénico es un OMG, pero no todo OMG es transgénico: un organismo al que se le ha inactivado un gen propio con CRISPR es un OMG sin genes ajenos.</span></li>
+  </ul>
+</section>
+
+<!-- ═══════════════ 3 · HERRAMIENTAS ═══════════════ -->
+<section class="seccion" id="herramientas">
+  <h2><span class="num">3</span>Herramientas: enzimas, ligasa, vectores, transcriptasa inversa</h2>
+  <h3>Enzimas de restricción (las «tijeras»)</h3>
+  <p>Son <b>endonucleasas</b> de origen bacteriano que <span class="clave">cortan el ADN en secuencias concretas</span> (<b>dianas o sitios de restricción</b>), normalmente de 4 a 8 pares de bases y <b>palindrómicas</b>. <span class="extra">En las bacterias destruyen el ADN de los virus que las infectan.</span> Muchas cortan de forma escalonada y dejan <b>extremos cohesivos</b>; otras dejan <b>extremos romos</b>.</p>
+  <figure class="figura">
+    <img src="../assets/temas/e2/enzima-restriccion.svg" width="900" height="470" alt="EcoRI reconoce la secuencia palindrómica GAATTC y corta entre G y A en las dos hebras; quedan dos fragmentos con colas de una sola hebra complementarias, AATT y TTAA, llamadas extremos cohesivos.">
+    <figcaption><b>Figura 1.</b> La enzima EcoRI y los extremos cohesivos.</figcaption>
+  </figure>
+  <p>Si el ADN humano y el plásmido se cortan con <b>la misma enzima</b>, sus extremos cohesivos son complementarios y pueden emparejarse.</p>
+  <h3>ADN ligasa (el «pegamento»)</h3>
+  <p><span class="clave">Une los fragmentos</span> de ADN formando <b>enlaces fosfodiéster</b>. Es la misma enzima que une los fragmentos de Okazaki en la replicación.</p>
+  <h3>Vectores de clonación (los «vehículos»)</h3>
+  <p>Moléculas de ADN que <span class="clave">transportan el gen</span> hasta la célula huésped y <span class="clave">se replican</span> dentro de ella.</p>
+  <ul>
+    <li><b>Plásmidos</b>: pequeñas moléculas de ADN <b>circular</b> bacteriano que se replican de forma independiente del cromosoma. Los que se usan como vector tienen un <b>origen de replicación</b>, uno o más <b>sitios de restricción</b> y un <b>gen marcador</b> (resistencia a un antibiótico) para seleccionar las bacterias que lo han captado.</li>
+    <li><b>Bacteriófagos</b>: virus que infectan bacterias e introducen en ellas su ADN.</li>
+    <li><span class="extra">Para células eucariotas: virus modificados (adenovirus, retrovirus) y <b>liposomas</b>; en plantas, la bacteria <i>Agrobacterium tumefaciens</i>, que transfiere de forma natural un fragmento de su plásmido Ti al genoma vegetal.</span></li>
+  </ul>
+  <div class="caja ojo">
+    <span class="titulo-caja">Liposomas (PAU 2018 y 2021)</span>
+    <p>Si el ADN se rodea de una bicapa lipídica, esta, por su <span class="clave">carácter anfipático</span> y su <span class="clave">composición similar</span>, <span class="clave">se fusiona con la membrana plasmática</span> y <span class="clave">vierte el ADN al interior</span>. En células vegetales funciona peor porque <span class="clave">la pared celular impide ese contacto</span>.</p>
+  </div>
+  <h3>Transcriptasa inversa: el ADNc</h3>
+  <figure class="figura">
+    <img src="../assets/temas/e2/adnc.svg" width="900" height="320" alt="Un gen eucariota tiene exones e intrones; su ARNm maduro no tiene intrones; la transcriptasa inversa copia el ARNm en ADN complementario sin intrones, que una bacteria puede expresar.">
+    <figcaption><b>Figura 2.</b> El ADN complementario no tiene intrones.</figcaption>
+  </figure>
+  <p>La <b>transcriptasa inversa</b>, una enzima de los <b>retrovirus</b> (como el VIH), sintetiza <b>ADN a partir de ARN</b>. A partir del <b>ARNm maduro</b> se obtiene un <b>ADN complementario (ADNc)</b> que, como el ARNm, <b>carece de intrones</b>. Las bacterias <b>no tienen maquinaria de corte y empalme</b>: si se les introdujera el gen eucariota con sus intrones, fabricarían una proteína errónea; con el ADNc pueden <b>expresar genes eucariotas</b>.</p>
+</section>
+
+<!-- ═══════════════ 4 · RECOMBINANTE ═══════════════ -->
+<section class="seccion" id="recombinante">
+  <h2><span class="num">4</span>ADN recombinante y clonación: la insulina</h2>
+  <p><b>Clonar un gen</b> es obtener muchas copias idénticas de él: se introduce en un vector y este en una célula que, al dividirse, lo copia. Si el gen además se <b>expresa</b>, la célula fabrica la proteína.</p>
+  <figure class="figura">
+    <img src="../assets/temas/e2/adn-recombinante.svg" width="1020" height="580" alt="1: se aísla el gen humano de la insulina y se toma un plásmido con un gen de resistencia a antibiótico. 2: ambos se cortan con la misma enzima de restricción. 3: la ADN ligasa une el inserto y el plásmido, formando ADN recombinante. 4: se introduce en la bacteria E. coli. 5: se seleccionan en un medio con antibiótico las bacterias que tienen el plásmido. 6: se cultivan en un fermentador y se extrae la insulina humana.">
+    <figcaption><b>Figura 3.</b> Obtención de insulina humana recombinante.</figcaption>
+  </figure>
+  <p>Orden de los pasos (PAU 2024, <span class="clave">D, C, E, B, A</span>):</p>
+  <ol>
+    <li><span class="clave">Selección y aislamiento del gen</span> que codifica la insulina humana <span class="extra">(en la práctica, ADNc o un gen sintetizado)</span>.</li>
+    <li><span class="clave">Corte del gen y del plásmido con enzimas de restricción</span>.</li>
+    <li><span class="clave">Introducción del gen en el plásmido</span> (unión con la <b>ligasa</b>), formando <span class="clave">ADN recombinante</span>.</li>
+    <li><span class="clave">Inserción del ADN recombinante en la bacteria</span> (transformación). Se <b>seleccionan</b> las bacterias transformadas cultivándolas con el antibiótico: solo sobreviven las que tienen el plásmido con el gen de resistencia.</li>
+    <li><span class="clave">Cultivo de las bacterias recombinantes y extracción de la insulina</span>.</li>
+  </ol>
+  <p>Funciona porque <span class="clave">todos los organismos usan el mismo código genético</span>: la bacteria <span class="clave">transcribe</span> y traduce el gen humano y <span class="clave">fabrica la insulina</span>.</p>
+</section>
+
+<!-- ═══════════════ 5 · PCR ═══════════════ -->
+<section class="seccion" id="pcr">
+  <h2><span class="num">5</span>La PCR (reacción en cadena de la polimerasa)</h2>
+  <p>Técnica que permite obtener <b>millones de copias de un fragmento concreto de ADN</b> en pocas horas, <b>en un tubo y sin células</b>. <span class="extra">La ideó Kary Mullis en 1983 (Nobel de Química 1993).</span></p>
+  <figure class="figura">
+    <img src="../assets/temas/e2/pcr.svg" width="1120" height="500" alt="1: desnaturalización a unos 95 ºC, se rompen los puentes de hidrógeno y se separan las hebras. 2: hibridación de los cebadores a unos 50-65 ºC. 3: extensión a 72 ºC por la Taq polimerasa termoestable. El ciclo se repite 25-35 veces; tras n ciclos hay 2 elevado a n copias.">
+    <figcaption><b>Figura 4.</b> Un ciclo de PCR y el crecimiento exponencial del número de copias.</figcaption>
+  </figure>
+  <div class="tabla-wrap"><table class="tabla">
+    <thead><tr><th>Reactivo</th><th>Función</th></tr></thead>
+    <tbody>
+      <tr><td><span class="clave">ADN molde</span></td><td>Contiene el fragmento que se quiere copiar.</td></tr>
+      <tr><td><span class="clave">Cebadores</span> (primers)</td><td>Dos oligonucleótidos de ADN, <b>complementarios de los extremos</b> del fragmento; marcan dónde empieza la copia y aportan el extremo 3′ que necesita la polimerasa.</td></tr>
+      <tr><td><span class="clave">Desoxirribonucleótidos</span> (dATP, dTTP, dGTP, dCTP)</td><td>Las «piezas» de las nuevas hebras.</td></tr>
+      <tr><td><span class="clave">Taq polimerasa</span></td><td>ADN polimerasa de la bacteria <i>Thermus aquaticus</i>, que vive en aguas termales: es <span class="clave">termoestable</span> y no se desnaturaliza a 95 ºC.</td></tr>
+    </tbody>
+  </table></div>
+  <div class="tabla-wrap"><table class="tabla">
+    <thead><tr><th>Etapa</th><th>Temperatura <span class="extra">(aprox.)</span></th><th>Qué ocurre</th></tr></thead>
+    <tbody>
+      <tr><td>1 · <span class="clave">Desnaturalización</span></td><td>≈ 95 ºC</td><td>Separación de las hebras por <span class="clave">aumento de la temperatura</span>: se rompen los <span class="clave">puentes de hidrógeno</span>; los <span class="clave">enlaces fosfodiéster</span> de cada hebra <b>permanecen intactos</b>.</td></tr>
+      <tr><td>2 · <span class="clave">Hibridación</span> (unión o alineamiento de los cebadores)</td><td>≈ 50-65 ºC</td><td>Los cebadores se unen a las <span class="clave">secuencias complementarias</span> del ADN molde.</td></tr>
+      <tr><td>3 · <span class="clave">Extensión</span> (elongación)</td><td>≈ 72 ºC</td><td>La <span class="clave">Taq polimerasa</span> sintetiza las nuevas hebras a partir de los cebadores, en sentido 5′→3′.</td></tr>
+    </tbody>
+  </table></div>
+  <ul>
+    <li>Se repite el ciclo en un <b>termociclador</b>; cada ciclo <b>duplica</b> el número de copias: tras <b>n ciclos, 2ⁿ</b> copias por cada molécula inicial.</li>
+    <li><b>Especificidad</b>: solo se copia la región delimitada por los cebadores. <b>Sensibilidad</b>: basta una cantidad mínima de ADN (incluso una sola molécula).</li>
+    <li><b>Aplicaciones</b>: <b>diagnóstico</b> de infecciones (la PCR de la COVID-19, con un paso previo de transcriptasa inversa porque el virus es de ARN) y de enfermedades genéticas; <b>medicina forense</b> e identificación de personas; <b>pruebas de paternidad</b>; estudio de ADN antiguo; control de alimentos y detección de OMG; obtener el gen que se va a clonar.</li>
+  </ul>
+</section>
+
+<!-- ═══════════════ 6 · ELECTROFORESIS ═══════════════ -->
+<section class="seccion" id="electroforesis">
+  <h2><span class="num">6</span>Electroforesis: separar fragmentos por tamaño</h2>
+  <p>Los fragmentos de ADN (obtenidos con enzimas de restricción o por PCR) se colocan en los pocillos de un <b>gel</b> sometido a un campo eléctrico. Por sus grupos <b>fosfato</b>, el ADN tiene <b>carga negativa</b> y migra hacia el <b>polo positivo</b>. El gel actúa como un tamiz: los fragmentos <b>pequeños avanzan más</b>, los grandes quedan cerca del pocillo. Un <b>marcador</b> con fragmentos de tamaño conocido permite estimar el tamaño de los demás.</p>
+  <figure class="figura">
+    <img src="../assets/temas/e2/electroforesis.svg" width="800" height="530" alt="Gel con cinco carriles: marcador de 10, 7, 5, 3, 2 y 1 kb; madre con bandas de 7 y 3 kb; hijo o hija con 7 y 2 kb; posible padre 1 con 5 y 3 kb; posible padre 2 con 2 y 1 kb. El ADN migra hacia el polo positivo.">
+    <figcaption><b>Figura 5.</b> Interpretar un gel: cada banda del hijo o la hija debe venir de la madre o del padre.</figcaption>
+  </figure>
+  <p><span class="extra">Lectura del gel: el hijo o la hija tiene una banda de 7 kb, que comparte con la madre, y otra de 2 kb, que debe venir del padre; solo P2 la tiene. En medicina forense se compara igual el perfil de una muestra con el de los sospechosos (huella genética).</span></p>
+</section>
+
+<!-- ═══════════════ 7 · SECUENCIACIÓN ═══════════════ -->
+<section class="seccion" id="secuenciacion">
+  <h2><span class="num">7</span>Secuenciación del ADN</h2>
+  <p>Conjunto de técnicas que determinan el <b>orden de los nucleótidos</b> de un fragmento de ADN o de un genoma completo. <span class="extra">El método clásico es el de Sanger (1977); hoy las técnicas «de nueva generación» leen millones de fragmentos a la vez y un genoma humano se secuencia en un día. El Proyecto Genoma Humano publicó su borrador en 2001 y se dio por terminado en 2003.</span> No hay que saber cómo funciona, sino <b>para qué sirve</b> conocer la secuencia:</p>
+  <ul>
+    <li><b>PCR</b>: diseñar los <b>cebadores</b>, que deben ser complementarios de los extremos del fragmento.</li>
+    <li><b>ADN recombinante y clonación</b>: identificar el gen y sus sitios de restricción para cortarlo e insertarlo.</li>
+    <li><b>CRISPR-Cas</b>: diseñar el <b>ARN guía</b> complementario de la secuencia que se quiere editar.</li>
+    <li><b>Identificar y comparar muestras</b>: diagnóstico de mutaciones, medicina personalizada, identificación de patógenos y de variantes (por ejemplo, del SARS-CoV-2), estudios de evolución y parentesco.</li>
+  </ul>
+</section>
+
+<!-- ═══════════════ 8 · CRISPR ═══════════════ -->
+<section class="seccion" id="crispr">
+  <h2><span class="num">8</span>Edición genética: CRISPR-Cas</h2>
+  <figure class="figura">
+    <img src="../assets/temas/e2/crispr.svg" width="1120" height="420" alt="La proteína Cas9, guiada por un ARN guía complementario de la secuencia diana, corta las dos hebras del ADN. Al repararse, el gen puede quedar inactivado o, si se aporta un ADN molde, corregido o con una secuencia nueva.">
+    <figcaption><b>Figura 6.</b> CRISPR-Cas9 en un esquema. Las directrices no piden detallar su funcionamiento.</figcaption>
+  </figure>
+  <ul>
+    <li>Es una herramienta de <b>edición genética</b> que permite <b>cortar el ADN en un punto exacto</b> del genoma para <b>inactivar, corregir o insertar</b> genes. Es más sencilla, barata y precisa que las técnicas anteriores.</li>
+    <li>Elementos: un <b>ARN guía</b>, <span class="extra">con una secuencia complementaria del ADN que se quiere editar, que lleva a la enzima hasta ese punto</span>, y la proteína <b>Cas9</b>, una <span class="clave">endonucleasa</span> que <span class="clave">corta el ADN</span>.</li>
+    <li>Las siglas: <b>CRISPR</b> son <span class="clave">secuencias de ADN repetidas</span> del genoma bacteriano que guardan fragmentos de <span class="clave">ADN exógeno</span> (de virus); <b>Cas</b> son las <span class="clave">endonucleasas</span> asociadas. Es un <b>sistema de defensa de bacterias y arqueas frente a los virus</b>.</li>
+    <li><b>Aplicaciones</b>: terapia génica de enfermedades hereditarias, modelos animales de enfermedades, mejora de cultivos y ganado, investigación sobre la función de los genes.</li>
+  </ul>
+  <p class="extra">Historia con acento español: Francisco Mojica (Universidad de Alicante) describió estas secuencias en arqueas de las salinas de Santa Pola y propuso su papel defensivo; Emmanuelle Charpentier y Jennifer Doudna las convirtieron en herramienta de edición (Nobel de Química 2020). En 2023 se aprobó el primer tratamiento con CRISPR, para la anemia falciforme y la β-talasemia.</p>
+</section>
+
+<!-- ═══════════════ 9 · TERAPIA ═══════════════ -->
+<section class="seccion" id="terapia">
+  <h2><span class="num">9</span>Terapia génica</h2>
+  <p>Estrategia que trata enfermedades mediante la <b>introducción, modificación o reemplazo de material genético</b> en las células del paciente: <b>añadir una copia sana</b> de un gen defectuoso, <b>corregirlo</b> (por ejemplo con CRISPR) o <b>silenciar</b> un gen perjudicial. El gen se lleva con un <b>vector</b>, normalmente un virus modificado que ya no causa enfermedad.</p>
+  <figure class="figura">
+    <img src="../assets/temas/e2/terapia-genica.svg" width="1060" height="400" alt="Ex vivo: se extraen células del paciente, se les añade el gen sano, se cultivan y se reinyectan. In vivo: un virus modificado con el gen sano se introduce directamente en el tejido enfermo.">
+    <figcaption><b>Figura 7.</b> Terapia génica ex vivo e in vivo.</figcaption>
+  </figure>
+  <ul>
+    <li><b>Ex vivo</b>: <span class="extra">en 1990 se trató así por primera vez a una niña con inmunodeficiencia combinada grave (déficit de ADA); hoy se modifican células madre de la sangre (anemia falciforme) o linfocitos T del propio paciente para que ataquen su cáncer (terapia CAR-T).</span></li>
+    <li><b>In vivo</b>: <span class="extra">hay tratamientos aprobados para una ceguera hereditaria (gen <i>RPE65</i> de la retina) y para la atrofia muscular espinal.</span></li>
+    <li>Se modifican <b>células somáticas</b>, por lo que el cambio no se hereda. <span class="extra">Modificar la línea germinal (óvulos, espermatozoides, embriones) plantea problemas éticos graves y está prohibido en España por el Convenio de Oviedo.</span></li>
+  </ul>
+</section>
+
+<!-- ═══════════════ 10 · APLICACIONES ═══════════════ -->
+<section class="seccion" id="aplicaciones">
+  <h2><span class="num">10</span>Aplicaciones de los OMG y Andalucía</h2>
+  <div class="tabla-wrap"><table class="tabla">
+    <thead><tr><th>Ámbito</th><th>Ejemplos</th></tr></thead>
+    <tbody>
+      <tr><td><b>Medicina y farmacia</b></td><td>Microorganismos que fabrican <b>insulina</b>, hormona del crecimiento, factores de coagulación, <b>vacunas</b> (hepatitis B); anticuerpos producidos en células o en plantas transgénicas; diagnóstico por PCR; terapia génica.</td></tr>
+      <tr><td><b>Animales</b></td><td><b>Modelos de enfermedades humanas</b> (ratones con un gen inactivado o con un gen humano) para estudiarlas y probar fármacos; <span class="extra">animales que producen proteínas humanas en la leche</span>.</td></tr>
+      <tr><td><b>Agricultura</b></td><td><b>Plantas transgénicas</b> resistentes a <b>plagas</b> (maíz Bt, con el gen de una toxina de <i>Bacillus thuringiensis</i>), a <b>herbicidas</b> o a <b>enfermedades</b>; <span class="extra">arroz dorado, enriquecido en provitamina A</span>.</td></tr>
+      <tr><td><b>Medio ambiente</b></td><td>Microorganismos capaces de <b>degradar hidrocarburos</b>, insecticidas u otros contaminantes (biorremediación).</td></tr>
+    </tbody>
+  </table></div>
+  <div class="caja ojo">
+    <span class="titulo-caja">Planta transgénica (PAU 2025, Navarra)</span>
+    <p class="extra">Sus genes pueden pasar a una planta silvestre emparentada por polinización (flujo génico): por eso su cultivo está regulado. En cambio, no pasan al genoma de quien la come, porque su ADN se digiere hasta nucleótidos. Los OMG deben evaluarse en cuanto a seguridad alimentaria, impacto ambiental y aspectos éticos y económicos.</p>
+  </div>
+  <div class="caja vida">
+    <span class="titulo-caja">Biotecnología en Andalucía</span>
+    <ul class="extra">
+      <li>En el Instituto de Agricultura Sostenible (IAS-CSIC, Córdoba) se han obtenido, primero con silenciamiento génico y después con CRISPR, líneas de trigo con muy poco gluten tóxico para las personas celíacas.</li>
+      <li>Andalucía tiene un programa público de terapias avanzadas (terapia génica y celular) y centros como GENYO (Granada), CABIMER (Sevilla) o BIONAND (Málaga).</li>
+      <li>La PCR y la secuenciación se usan a diario en los hospitales andaluces para el diagnóstico de infecciones y enfermedades genéticas, y en la mejora genética de cultivos.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ═══════════════ 11 · PROBLEMAS ═══════════════ -->
+<section class="seccion" id="problemas">
+  <h2><span class="num">11</span>Problemas resueltos</h2>
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2024 · Suplente B</span><span class="chip oro">1 punto</span><span class="chip">Problema</span></div>
+    <p class="enunciado">Un gen se corta con <i>Eco</i>RI en fragmentos de 3 kb ↓ 4 kb ↓ 1 kb, y con <i>Hin</i>dIII en 2 kb ↓ 4,5 kb ↓ 1,5 kb. a) ¿Tamaño del gen sin digerir? [0,2] b) Número y tamaño de los fragmentos al digerirlo con ambas enzimas a la vez [0,8].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) <span class="clave">8 kb</span>, la <span class="clave">suma de los fragmentos</span>.</p>
+      <p>b) Se sitúan los cortes en un mapa desde el extremo izquierdo: <i>Eco</i>RI corta en 3 y 7 kb; <i>Hin</i>dIII en 2 y 6,5 kb. Cortes ordenados: 2 · 3 · 6,5 · 7. Resultan <span class="clave">cinco fragmentos</span>: <span class="clave">2 kb, 1 kb, 3,5 kb, 0,5 kb y 1 kb</span>.</p>
+    </div></details>
+  </article>
+  <article class="preg">
+    <div class="meta"><span class="chip lila">Práctica BioCelia · estilo 26-27</span><span class="chip oro">1 punto</span><span class="chip">Problema</span></div>
+    <p class="enunciado">a) Partiendo de una sola molécula de ADN, ¿cuántas copias del fragmento habrá tras 10 ciclos de PCR? [0,4] b) ¿Por qué no se puede usar la ADN polimerasa humana? [0,3] c) ¿Qué ocurriría si los cebadores no fueran complementarios de ninguna secuencia de la muestra? [0,3]</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p class="extra">a) Cada ciclo duplica las copias: 2¹⁰ = 1024 copias. b) Porque se desnaturalizaría en la etapa de 95 ºC; la Taq polimerasa es termoestable. c) No habría amplificación: los cebadores no se unirían y la polimerasa no tendría dónde empezar (por eso la PCR es tan específica, y por eso sirve para saber si en una muestra hay o no ADN de un virus).</p>
+    </div></details>
+  </article>
+  <article class="preg">
+    <div class="meta"><span class="chip lila">Práctica BioCelia · estilo 26-27</span><span class="chip oro">1 punto</span><span class="chip">Problema</span></div>
+    <p class="enunciado">Se quiere fabricar en bacterias una proteína humana. a) ¿Por qué se usa el ADNc y no el gen tomado directamente del cromosoma? [0,4] b) ¿Por qué hay que cortar el plásmido y el ADNc con la misma enzima de restricción? [0,3] c) ¿Cómo se distinguen las bacterias que han incorporado el plásmido? [0,3]</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p class="extra">a) El gen humano tiene intrones y las bacterias no pueden eliminarlos; el ADNc, copiado del ARNm maduro con la transcriptasa inversa, no los tiene. b) Para que ambos tengan extremos cohesivos complementarios que se emparejen y la ligasa pueda unirlos. c) El plásmido lleva un gen de resistencia a un antibiótico: se cultivan las bacterias con ese antibiótico y solo sobreviven las que lo tienen.</p>
+    </div></details>
+  </article>
+</section>
+
+<!-- ═══════════════ 12 · EXAMEN ═══════════════ -->
+<section class="seccion" id="examen">
+  <h2><span class="num">12</span>Así se pregunta en la PAU</h2>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2026 · Modelo</span><span class="chip oro">2 puntos</span><span class="chip">Con figura</span></div>
+    <p class="enunciado">Sobre una imagen de una PCR: a) Nombre de la técnica [0,1]. b) Moléculas A (doble hélice) y B (unidad que se incorpora) [0,2]. c) Nombre y explique las fases 1, 2 y 3 [1,2]. d) Enlaces que se rompen en la fase 1 y los que permanecen intactos dentro de la cadena [0,3]. e) Enzima de la fase 3 y la característica que la diferencia de otras con la misma función [0,2].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) <span class="clave">Reacción en cadena de la polimerasa (PCR)</span>. b) A: <span class="clave">molécula de ADN</span>; B: <span class="clave">desoxirribonucleótido</span>.</p>
+      <p>c) 1: <span class="clave">desnaturalización</span>, separación de las hebras por <span class="clave">aumento de la temperatura</span>. 2: <span class="clave">unión de los cebadores</span> (hibridación) a las <span class="clave">secuencias complementarias</span> del ADN molde. 3: <span class="clave">extensión</span>, síntesis de nuevas hebras por la <span class="clave">Taq polimerasa</span>.</p>
+      <p>d) Se rompen los <span class="clave">puentes de hidrógeno</span>; permanecen los <span class="clave">enlaces nucleotídicos</span> (fosfodiéster). e) <span class="clave">Taq polimerasa</span>, <span class="clave">termoestable</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2024 · Reserva B</span><span class="chip oro">1 punto</span><span class="chip">Con figura</span></div>
+    <p class="enunciado">Sobre el primer ciclo de una PCR: a) ¿Qué representan 1, 2 y 3? [0,3] b) ¿Qué procesos ocurren en A, B y C? [0,6] c) ¿Qué enzima realiza C? [0,1]</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) 1: <span class="clave">ADN</span>; 2: <span class="clave">cebador</span>; 3: <span class="clave">nucleótidos</span>. b) A: <span class="clave">desnaturalización</span>; B: <span class="clave">hibridación de los cebadores</span>; C: <span class="clave">elongación</span> (extensión). c) <span class="clave">ADN polimerasa</span> (<span class="clave">Taq polimerasa</span>).</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2024 · Reserva A</span><span class="chip oro">1 punto</span><span class="chip">Con figura</span></div>
+    <p class="enunciado">En una figura de obtención de ADN recombinante: a) moléculas 1, 2 y 3 [0,3]; b) enzimas 4 y 5 [0,2]; c) región 6 [0,1]; d) reacciones A y B [0,4].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) 1: <span class="clave">plásmido</span> (vector); 2: <span class="clave">inserto</span> (gen de interés); 3: <span class="clave">ADN recombinante</span>. b) 4: <span class="clave">enzima de restricción</span>; 5: <span class="clave">ADN ligasa</span>. c) <span class="clave">Sitio de restricción</span>. d) A: <span class="clave">corte con enzimas de restricción</span>; B: <span class="clave">ligación</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2024 · Titular B</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">Ordene los pasos para obtener insulina recombinante en <i>E. coli</i>: A. Cultivo de las bacterias recombinantes y extracción de la insulina. B. Inserción del ADN recombinante en la bacteria. C. Corte del gen y del plásmido con enzimas de restricción. D. Selección y aislamiento del gen de la insulina. E. Introducción del gen en el plásmido formando ADN recombinante [1].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p><span class="clave">D, C, E, B, A</span> (0,2 p por posición correcta).</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2023 · Julio (y 2015)</span><span class="chip oro">1 punto</span><span class="chip">Con figura</span></div>
+    <p class="enunciado">Figura de producción de insulina humana por un microorganismo: a) tipo de microorganismo (1) y organización celular [0,2]; b) estructuras 2 y 3 [0,3]; c) ¿qué debe contener la estructura 2? [0,2]; d) proceso 4 [0,3].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) <span class="clave">Bacteria</span>, <span class="clave">procariota</span>. b) 2: <span class="clave">plásmido</span>; 3: <span class="clave">ADN</span> (cromosoma bacteriano). c) El <span class="clave">gen de la insulina</span>. d) <span class="clave">Crecimiento bacteriano</span> (o selección de las bacterias con el gen).</p>
+      <p>(2015) Es posible porque todos los organismos usan el <span class="clave">mismo código genético</span>: la bacteria <span class="clave">transcribe</span> el gen humano y <span class="clave">fabrica la insulina</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2025 · Asturias</span><span class="chip oro">1,5 puntos</span></div>
+    <p class="enunciado">Se producen anticuerpos humanos en alfalfa transgénica. 1. ¿Cómo se obtiene un anticuerpo humano en una planta? Defina tres herramientas moleculares necesarias [1]. 3. ¿Qué elemento designan las siglas CRISPR y cuál las siglas Cas? [0,5]</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>1. Se <span class="clave">aísla de una célula humana el gen del anticuerpo</span> y se <span class="clave">introduce en el genoma de la planta</span>. Herramientas: <span class="clave">enzimas de restricción</span> (cortan el ADN en secuencias concretas), <span class="clave">ADN ligasa</span> (une fragmentos), <span class="clave">vectores</span> (plásmidos o virus que transportan y replican el ADN).</p>
+      <p>3. <span class="clave">CRISPR</span>: <span class="clave">secuencias de ADN</span> repetidas que guardan fragmentos de <span class="clave">ADN exógeno</span>. <span class="clave">Cas</span>: <span class="clave">endonucleasas</span> que <span class="clave">cortan el ADN</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2025 · Murcia y Castilla y León</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">En la técnica CRISPR-Cas9, describa el papel de A) el ARN guía y B) Cas9. Cite tres aplicaciones.</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p class="extra">A) ARN con una secuencia complementaria del ADN que se quiere editar: lleva a Cas9 hasta ese punto exacto del genoma. B) Endonucleasa que corta las dos hebras del ADN en el sitio indicado; al repararse el corte se puede inactivar el gen o introducir una secuencia nueva. Aplicaciones: terapia génica de enfermedades hereditarias, mejora de cultivos y animales, modelos de enfermedades.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2025 · Castilla y León</span><span class="chip oro">0,6 puntos</span></div>
+    <p class="enunciado">Explique brevemente en qué consiste la terapia génica.</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p class="extra">Consiste en introducir material genético en las células de un paciente para tratar una enfermedad: corregir o sustituir un gen defectuoso por una copia sana, o silenciar un gen. El gen suele llevarse con un vector, por ejemplo un virus modificado.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2018 · Suplente junio (y 2021)</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">Para introducir ADN extraño en una célula eucariótica se rodea de una bicapa lipídica. a) ¿Por qué tiene éxito en células animales? [0,5] b) ¿Qué ocurriría en células vegetales? [0,5]</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) La bicapa <span class="clave">se fusiona con la membrana plasmática</span> por su <span class="clave">composición química similar</span> y <span class="clave">vierte el ADN al interior</span>. b) <span class="clave">La pared celular impide ese contacto</span>.</p>
+    </div></details>
+  </article>
+
+  <p class="no-imprimir"><a href="../Entrenamientopau.html">🏋️ Practica más preguntas de biotecnología en Entrenamiento →</a></p>
+</section>
+
+<!-- ═══════════════ 13 · AUTOEVALUACIÓN ═══════════════ -->
+<section class="seccion" id="autoevaluacion">
+  <h2><span class="num">13</span>Autoevaluación rápida</h2>
+  <p>Intenta responder antes de desplegar la solución.</p>
+  <ol class="auto">
+    <li>¿Todo OMG es transgénico? <details><summary>Ver</summary><span class="resp">No: el transgénico lleva un gen de otra especie; un OMG puede tener solo genes propios modificados.</span></details></li>
+    <li>¿Qué hacen las enzimas de restricción? <details><summary>Ver</summary><span class="resp">Cortan el ADN en secuencias concretas (sitios de restricción), a menudo dejando extremos cohesivos.</span></details></li>
+    <li>¿Y la ligasa? <details><summary>Ver</summary><span class="resp">Une fragmentos de ADN formando enlaces fosfodiéster.</span></details></li>
+    <li>Dos vectores de clonación. <details><summary>Ver</summary><span class="resp">Plásmidos y bacteriófagos.</span></details></li>
+    <li>¿Para qué sirve la transcriptasa inversa? <details><summary>Ver</summary><span class="resp">Para obtener ADNc (sin intrones) a partir de ARNm y expresar genes eucariotas en bacterias.</span></details></li>
+    <li>Reactivos de la PCR. <details><summary>Ver</summary><span class="resp">ADN molde, cebadores, desoxirribonucleótidos y Taq polimerasa.</span></details></li>
+    <li>Etapas de la PCR. <details><summary>Ver</summary><span class="resp">Desnaturalización, hibridación de los cebadores y extensión.</span></details></li>
+    <li>¿Hacia qué polo migra el ADN en una electroforesis y cuáles llegan más lejos? <details><summary>Ver</summary><span class="resp">Hacia el positivo, porque tiene carga negativa; los fragmentos más pequeños llegan más lejos.</span></details></li>
+    <li>Dos elementos de CRISPR-Cas9. <details><summary>Ver</summary><span class="resp">El ARN guía y la endonucleasa Cas9.</span></details></li>
+    <li>Define terapia génica. <details><summary>Ver</summary><span class="resp">Introducir, modificar o reemplazar material genético en las células de un paciente para tratar una enfermedad.</span></details></li>
+  </ol>
+</section>
+
+<p class="fuentes">Fuentes: Directrices y orientaciones de la PAU de Biología de Andalucía (curso 2026-27); criterios oficiales de corrección de la PAU de Andalucía (2015-2026) y de otras comunidades (2025); resúmenes del departamento (Tema 19, Ingeniería genética; Biotecnología); Alberts y otros, <i>Biología molecular de la célula</i>; Fundación Nobel (premios de Química 1993 y 2020). Esquemas: elaboración propia de BioCelia.</p>
+
+</main>
+</div>
+
+<script src="apuntes.js"></script>
+</body>
+</html>
