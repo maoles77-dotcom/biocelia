@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Apuntes PAU de Biología (Andalucía 2026-27), Bloque D: respiración celular. Glucólisis, descarboxilación del piruvato, ciclo de Krebs, cadena respiratoria, fosforilación oxidativa, beta-oxidación, respiración anaerobia y rendimiento.">
+<title>Respiración celular · BioCelia</title>
+<link rel="stylesheet" href="../pau-theme.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="apuntes.css">
+</head>
+<body>
+<a class="skip-link" href="#main-content">Saltar al contenido</a>
+
+<nav class="site-nav" aria-label="Navegación principal">
+  <a href="../index.html">Inicio</a>
+  <a href="../orientacionespau.html">Orientaciones</a>
+  <a class="active" href="../resumenespau.html">Resúmenes</a>
+  <a href="../Entrenamientopau.html">Entrenamiento</a>
+  <a href="../simulacropau.html">Simulacro</a>
+  <a href="../laboratoriocompetencial.html">Laboratorio</a>
+  <a href="../laboratorioinvestigacion.html">Investigación</a>
+</nav>
+
+<div class="apuntes">
+
+<details class="indice">
+  <summary>Índice del tema</summary>
+  <ol>
+    <li><a href="#pau">Qué entra en la PAU</a></li>
+    <li><a href="#vision">Visión general</a></li>
+    <li><a href="#glucolisis">La glucólisis</a></li>
+    <li><a href="#piruvato">Destinos del piruvato</a></li>
+    <li><a href="#krebs">El ciclo de Krebs</a></li>
+    <li><a href="#cadena">La cadena respiratoria</a></li>
+    <li><a href="#fosforilacion">La fosforilación oxidativa</a></li>
+    <li><a href="#beta">La β-oxidación de los ácidos grasos</a></li>
+    <li><a href="#balance">Rendimiento y comparación con la fermentación</a></li>
+    <li><a href="#anaerobia">La respiración anaerobia</a></li>
+    <li><a href="#casos">Razonamientos frecuentes</a></li>
+    <li><a href="#examen">Así se pregunta en la PAU</a></li>
+    <li><a href="#autoevaluacion">Autoevaluación</a></li>
+  </ol>
+</details>
+
+<main class="contenido" id="main-content">
+
+<header class="hero">
+  <span class="etiqueta">Bloque D · Metabolismo</span>
+  <h1>Respiración celular</h1>
+  <p>Cómo extrae la célula la energía de la glucosa y de las grasas: glucólisis en el citosol y, en la mitocondria, ciclo de Krebs, cadena respiratoria y fosforilación oxidativa.</p>
+  <div class="acciones">
+    <a class="btn claro" href="d2-respiracion-celular-presentacion.html">🎞️ Presentación</a>
+    <a class="btn" href="d2-respiracion-celular-resumen.html">📝 Resumen</a>
+    <a class="btn" href="pdf/d2-respiracion-celular.pdf" download>⬇️ Descargar PDF</a>
+    <button class="btn" type="button" data-imprimir>🖨️ Imprimir</button>
+    <a class="btn" href="../Entrenamientopau.html">🏋️ Practicar preguntas</a>
+  </div>
+</header>
+
+<p class="leyenda">
+  <span><span class="clave">Palabra clave</span> = lo que buscan los criterios oficiales de corrección</span>
+  <span><span class="extra">Texto en violeta</span> = aclaración de BioCelia que no está en los criterios</span>
+</p>
+
+<!-- ═══════════════ 1 · PAU ═══════════════ -->
+<section class="seccion" id="pau">
+  <h2><span class="num">1</span>Qué entra en la PAU</h2>
+  <div class="caja directrices">
+    <span class="titulo-caja">Directrices de Andalucía 2026-27 · D.2</span>
+    <ul>
+      <li><b>Glucólisis</b>: sustratos y productos, localización y condiciones; vía <b>independiente del oxígeno</b>.</li>
+      <li><b>Respiración aeróbica</b>: oxidación completa hasta CO₂ y H₂O con alto rendimiento.</li>
+      <li>De forma general (sustratos, productos, localización y condiciones): <b>ciclo de Krebs</b>, <b>cadena transportadora de electrones</b>, <b>fosforilación oxidativa</b> y <b>β-oxidación</b>.</li>
+      <li><b>Respiración anaeróbica</b> (aceptores distintos del O₂, en microorganismos) y su diferencia con la <b>fermentación</b>.</li>
+      <li>Comparar el <b>rendimiento</b> de la respiración y la fermentación, <b>sin balance exacto de ATP</b>. Sin intermediarios.</li>
+    </ul>
+  </div>
+  <div class="caja pau">
+    <span class="titulo-caja">Lo que más se ha preguntado</span>
+    <ul>
+      <li><b>Glucólisis y destinos del piruvato</b>; <b>ciclo de Krebs</b> (qué entra, qué sale, dónde).</li>
+      <li><b>Esquema de la mitocondria</b> con la cadena y la ATP sintasa (modelo 2026).</li>
+      <li>Venenos de la cadena (rotenona, monóxido de carbono), glóbulos rojos sin mitocondrias, membranas perforadas.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ═══════════════ 2 · VISIÓN ═══════════════ -->
+<section class="seccion" id="vision">
+  <h2><span class="num">2</span>Visión general</h2>
+  <p>La <b>respiración celular</b> es la oxidación de la materia orgánica en la que el <b>aceptor final de electrones es una sustancia inorgánica</b>; en la <b>respiración aerobia</b> ese aceptor es el <b>O₂</b>, que se reduce a agua. La glucosa se oxida <b>por completo</b>:</p>
+  <p class="ecuacion">C₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O + energía (ATP)</p>
+  <div class="tabla-wrap"><table class="tabla">
+    <thead><tr><th>Etapa</th><th>Dónde</th><th>Necesita O₂</th></tr></thead>
+    <tbody>
+      <tr><td>Glucólisis</td><td>Citosol</td><td>No</td></tr>
+      <tr><td>Descarboxilación oxidativa del piruvato</td><td>Matriz mitocondrial</td><td>Indirectamente</td></tr>
+      <tr><td>Ciclo de Krebs</td><td>Matriz mitocondrial</td><td>Indirectamente (regenera NAD⁺ y FAD gracias a la cadena)</td></tr>
+      <tr><td>Cadena respiratoria y fosforilación oxidativa</td><td>Membrana mitocondrial interna (crestas)</td><td><b>Sí</b>: el O₂ es el aceptor final</td></tr>
+    </tbody>
+  </table></div>
+  <p>En las <b>procariotas</b>, que no tienen mitocondrias, el ciclo de Krebs ocurre en el citosol y la cadena respiratoria está en la <b>membrana plasmática</b>: por eso muchas bacterias son aerobias aunque no tengan mitocondrias.</p>
+</section>
+
+<!-- ═══════════════ 3 · GLUCÓLISIS ═══════════════ -->
+<section class="seccion" id="glucolisis">
+  <h2><span class="num">3</span>La glucólisis</h2>
+  <p>La <span class="clave">glucólisis</span> es el conjunto de <span class="clave">reacciones que convierten la glucosa en ácido pirúvico</span> (piruvato) con <span class="clave">liberación de energía (ATP)</span>. Es una <span class="clave">degradación incompleta</span> de la glucosa.</p>
+  <figure class="figura">
+    <img src="../assets/temas/d2/glucolisis.svg" width="1000" height="400" alt="En el citosol, la glucosa de 6 carbonos se divide en 2 triosas gastando 2 ATP y después da 2 piruvatos, produciendo 4 ATP y 2 NADH; balance neto 2 ATP y 2 NADH.">
+    <figcaption><b>Figura 1.</b> Visión global de la glucólisis (sin intermediarios).</figcaption>
+  </figure>
+  <ul>
+    <li><b>Localización</b>: <span class="clave">citosol</span>, en <span class="clave">eucariotas y procariotas</span>.</li>
+    <li><b>Sustratos</b>: <span class="clave">glucosa, NAD⁺, ADP y Pi</span>. <b>Productos</b>: <span class="clave">2 piruvato, 2 NADH + H⁺ y ATP</span>.</li>
+    <li><b>Rendimiento</b>: se gastan 2 ATP y se forman 4: <span class="clave">2 ATP netos</span>, por <span class="clave">fosforilación a nivel de sustrato</span>.</li>
+    <li><b>Condiciones</b>: <span class="clave">no necesita oxígeno</span>: ocurre en <span class="clave">aerobios y anaerobios</span>. Es una ruta <span class="clave">catabólica</span>: <span class="clave">libera energía (ATP)</span> y <span class="clave">genera poder reductor</span>.</li>
+  </ul>
+</section>
+
+<!-- ═══════════════ 4 · PIRUVATO ═══════════════ -->
+<section class="seccion" id="piruvato">
+  <h2><span class="num">4</span>Destinos del piruvato</h2>
+  <figure class="figura">
+    <img src="../assets/temas/d2/destinos-piruvato.svg" width="1020" height="350" alt="Con oxígeno, el piruvato entra en la mitocondria y se transforma en acetil-CoA, CO2 y NADH, que va al ciclo de Krebs; sin oxígeno, fermenta a lactato o a etanol y CO2 en el citosol.">
+    <figcaption><b>Figura 2.</b> El oxígeno decide el camino del piruvato.</figcaption>
+  </figure>
+  <ul>
+    <li><b>Sin oxígeno</b>: <span class="clave">fermentaciones</span> en el citosol: piruvato → <span class="clave">lactato o etanol</span> y se regenera el <span class="clave">NAD⁺</span> (ver <a href="d5-fermentaciones.html">Fermentaciones</a>).</li>
+    <li><b>Con oxígeno</b>: el piruvato entra en la <b>matriz mitocondrial</b> y sufre la <span class="clave">descarboxilación oxidativa</span>: pierde un CO₂, se oxida (NAD⁺ → NADH) y se une a la coenzima A: <b>piruvato + CoA + NAD⁺ → acetil-CoA + CO₂ + NADH</b>.</li>
+  </ul>
+</section>
+
+<!-- ═══════════════ 5 · KREBS ═══════════════ -->
+<section class="seccion" id="krebs">
+  <h2><span class="num">5</span>El ciclo de Krebs</h2>
+  <p>El <span class="clave">ciclo de Krebs</span> (ciclo del ácido cítrico) es la <span class="clave">vía metabólica central de los aerobios</span> que <span class="clave">oxida los grupos acetilo hasta CO₂</span> y produce <span class="clave">ATP (GTP) y NADH</span>. Ocurre en la <span class="clave">matriz mitocondrial</span>.</p>
+  <figure class="figura">
+    <img src="../assets/temas/d2/ciclo-krebs.svg" width="1020" height="560" alt="El acetil-CoA de 2 carbonos se une al oxalacético de 4 carbonos y forma citrato; en cada vuelta se liberan 2 CO2, 3 NADH, 1 FADH2 y 1 GTP, y se regenera el oxalacético.">
+    <figcaption><b>Figura 3.</b> Entradas y salidas de una vuelta del ciclo de Krebs.</figcaption>
+  </figure>
+  <ul>
+    <li>Para cada vuelta hacen falta dos compuestos: <span class="clave">acetil-CoA y oxalacético</span>. El <span class="clave">oxalacético se regenera en cada vuelta</span>; el <span class="clave">acetil-CoA procede de la descarboxilación oxidativa del pirúvico o de la β-oxidación</span> (y de los aminoácidos): de <span class="clave">glúcidos, lípidos y proteínas</span>.</li>
+    <li><b>Productos por vuelta</b>: <span class="clave">2 CO₂</span> (procedentes del acetilo), <span class="clave">3 NADH</span>, <span class="clave">1 FADH₂</span> y <span class="clave">1 GTP</span> (equivale a un ATP, por fosforilación a nivel de sustrato).</li>
+    <li>Por cada glucosa se dan <span class="clave">dos vueltas</span> (hay dos acetil-CoA).</li>
+    <li>El <b>NADH y el FADH₂</b> <span class="clave">ceden sus electrones a la cadena de transporte</span>: así se relaciona el ciclo de Krebs con la cadena respiratoria.</li>
+    <li>Es <span class="clave">catabólico</span> porque <span class="clave">sirve para obtener energía</span>, y se considera <span class="clave">aeróbico</span> aunque no use O₂ directamente, porque el <span class="clave">oxígeno es el último aceptor de los electrones</span> que libera: sin O₂ se acumulan NADH y FADH₂ y el ciclo se detiene. <span class="extra">También es anfibólico: algunos de sus intermediarios sirven de precursores para síntesis.</span></li>
+  </ul>
+  <div class="caja truco">
+    <span class="titulo-caja">Krebs frente a Calvin (pregunta frecuente)</span>
+    <p>El ciclo de Krebs es <span class="clave">catabólico y produce ATP</span>; el ciclo de Calvin es <span class="clave">anabólico y consume ATP</span>.</p>
+  </div>
+</section>
+
+<!-- ═══════════════ 6 · CADENA ═══════════════ -->
+<section class="seccion" id="cadena">
+  <h2><span class="num">6</span>La cadena respiratoria</h2>
+  <figure class="figura">
+    <img src="../assets/temas/d2/cadena-respiratoria.svg" width="1100" height="560" alt="En la membrana mitocondrial interna, los complejos I, III y IV, la ubiquinona y el citocromo c transportan electrones desde el NADH y el FADH2 hasta el oxígeno, que forma agua; los complejos bombean protones al espacio intermembrana; los protones vuelven a la matriz por la ATP sintasa, que fabrica ATP a partir de ADP y fosfato.">
+    <figcaption><b>Figura 4.</b> Cadena de transporte de electrones y fosforilación oxidativa (como en el modelo de examen de 2026).</figcaption>
+  </figure>
+  <ul>
+    <li><b>Localización</b>: <span class="clave">membrana mitocondrial interna</span> (crestas).</li>
+    <li><b>Qué ocurre</b>: los <span class="clave">electrones</span> del NADH y el FADH₂ (procedentes de la glucólisis, la descarboxilación, el ciclo de Krebs y la β-oxidación) pasan por una serie de <span class="clave">transportadores de la membrana interna</span>, en los que <span class="clave">caen de nivel energético desprendiendo energía</span>.</li>
+    <li>Esa energía se usa para <b>bombear protones (H⁺)</b> desde la matriz al <b>espacio intermembrana</b>, creando un <b>gradiente de protones</b>.</li>
+    <li>El último aceptor es el <span class="clave">O₂</span>, que se reduce a <span class="clave">H₂O</span>.</li>
+    <li><b>Sustratos</b>: <span class="clave">NADH, FADH₂ y O₂</span>. <b>Productos</b>: <span class="clave">NAD⁺, FAD y H₂O</span> (y el gradiente de H⁺).</li>
+  </ul>
+  <p class="extra">Componentes (sin necesidad de memorizarlos): complejo I (recibe los electrones del NADH), complejo II (los del FADH₂), ubiquinona o coenzima Q, complejo III, citocromo c y complejo IV (citocromo oxidasa, que los cede al O₂). Los complejos I, III y IV bombean protones.</p>
+</section>
+
+<!-- ═══════════════ 7 · FOSFORILACIÓN ═══════════════ -->
+<section class="seccion" id="fosforilacion">
+  <h2><span class="num">7</span>La fosforilación oxidativa</h2>
+  <p>La <span class="clave">fosforilación oxidativa</span> es la <span class="clave">síntesis de ATP por la ATP sintasa</span> gracias a un <span class="clave">gradiente de protones</span> creado por el <span class="clave">flujo de electrones por la cadena de transporte hasta el oxígeno</span>. Ocurre en la <span class="clave">membrana mitocondrial interna</span>.</p>
+  <ul>
+    <li>Los protones acumulados en el espacio intermembrana vuelven a la matriz a favor de su gradiente, pero <b>solo pueden hacerlo a través de la ATP sintasa</b>, porque la <span class="clave">bicapa lipídica es impermeable a los protones</span>. Ese flujo hace funcionar la enzima, que une ADP y Pi.</li>
+    <li><b>Sustratos</b>: <span class="clave">ADP + Pi</span>. <b>Producto</b>: <span class="clave">ATP</span>. Es la fuente de la <b>mayor parte del ATP</b> de la respiración.</li>
+    <li>La explicación es la <b>hipótesis quimiosmótica</b> de Mitchell <span class="extra">(premio Nobel de Química en 1978)</span>.</li>
+  </ul>
+  <div class="caja ojo">
+    <span class="titulo-caja">¿Y si se perfora la mitocondria? (PAU 2017)</span>
+    <p><span class="clave">No</span> habría fosforilación oxidativa: hace falta la <span class="clave">integridad de las membranas</span> para mantener el <span class="clave">gradiente de protones</span>; los protones deben volver a la matriz <span class="clave">a través de la ATP sintasa</span>, y por el orificio se escaparían sin producir ATP.</p>
+  </div>
+</section>
+
+<!-- ═══════════════ 8 · BETA ═══════════════ -->
+<section class="seccion" id="beta">
+  <h2><span class="num">8</span>La β-oxidación de los ácidos grasos</h2>
+  <p>Las grasas de reserva (<b>triglicéridos</b>, almacenados en el citoplasma de los adipocitos) se <b>hidrolizan</b> primero (<b>lipólisis</b>) en <b>glicerina y ácidos grasos</b>. Los ácidos grasos se activan uniéndose a la coenzima A y entran en la mitocondria, donde se degradan por <span class="clave">β-oxidación</span>.</p>
+  <figure class="figura">
+    <img src="../assets/temas/d2/beta-oxidacion.svg" width="960" height="400" alt="En cada vuelta, el acil-CoA pierde dos carbonos en forma de acetil-CoA y se producen un NADH y un FADH2; se repite hasta degradar todo el ácido graso.">
+    <figcaption><b>Figura 5.</b> La β-oxidación separa el ácido graso en unidades de dos carbonos.</figcaption>
+  </figure>
+  <ul>
+    <li><b>Localización</b>: <span class="clave">matriz mitocondrial</span> (también en los <b>peroxisomas</b>, para ácidos grasos muy largos).</li>
+    <li><b>Sustrato</b>: <span class="clave">ácidos grasos</span> (activados como acil-CoA). <b>Productos</b>: <span class="clave">acetil-CoA, NADH y FADH₂</span>.</li>
+    <li>En cada vuelta se separan <b>dos carbonos</b> como acetil-CoA y se forman <b>1 NADH y 1 FADH₂</b>. El acetil-CoA va al ciclo de Krebs y las coenzimas, a la cadena respiratoria.</li>
+    <li>Necesita O₂ (indirectamente), porque el NADH y el FADH₂ solo se reoxidan en la cadena respiratoria.</li>
+  </ul>
+  <div class="caja truco">
+    <span class="titulo-caja">Cuentas con un ácido graso de 18 carbonos (PAU 2025, Asturias)</span>
+    <p>18 C → <b>9 acetil-CoA</b> en <b>8 vueltas</b> (8 NADH + 8 FADH₂). En el ciclo de Krebs, cada acetil-CoA da 3 NADH y 1 FADH₂ (27 + 9). Total: <b>35 NADH y 17 FADH₂</b>. <span class="extra">Los criterios oficiales escriben 16 FADH₂ en el total, pero su propio desglose (8 + 9) da 17.</span></p>
+  </div>
+</section>
+
+<!-- ═══════════════ 9 · BALANCE ═══════════════ -->
+<section class="seccion" id="balance">
+  <h2><span class="num">9</span>Rendimiento y comparación con la fermentación</h2>
+  <figure class="figura">
+    <img src="../assets/temas/d2/rendimiento.svg" width="900" height="480" alt="Gráfico de barras: la fermentación da 2 ATP por glucosa y la respiración aerobia unos 30 a 38.">
+    <figcaption><b>Figura 6.</b> La respiración rinde muchísimo más que la fermentación.</figcaption>
+  </figure>
+  <div class="tabla-wrap"><table class="tabla">
+    <thead><tr><th></th><th>Respiración aerobia</th><th>Fermentación</th></tr></thead>
+    <tbody>
+      <tr><td>Oxidación de la glucosa</td><td><span class="clave">Completa</span>, hasta <span class="clave">CO₂ y H₂O</span></td><td><span class="clave">Parcial</span>: queda una molécula orgánica (lactato, etanol)</td></tr>
+      <tr><td>Aceptor final de electrones</td><td>O₂</td><td>Una molécula orgánica</td></tr>
+      <tr><td>Dónde</td><td>Citosol + mitocondria</td><td>Citosol</td></tr>
+      <tr><td>ATP por glucosa</td><td><b>Muchos</b> <span class="extra">(36-38 en los cálculos clásicos; unos 30-32 en los actuales)</span></td><td><span class="clave">2</span>, solo los de la glucólisis</td></tr>
+      <tr><td>Productos</td><td><span class="clave">ATP, CO₂ y H₂O</span></td><td>Ácido láctico, o etanol y CO₂; NAD⁺</td></tr>
+    </tbody>
+  </table></div>
+  <p>La fermentación es <span class="clave">menos rentable</span> porque <span class="clave">los sustratos no se oxidan completamente</span> y el ATP solo procede de la glucólisis; la respiración añade el ciclo de Krebs y, sobre todo, la fosforilación oxidativa.</p>
+</section>
+
+<!-- ═══════════════ 10 · ANAEROBIA ═══════════════ -->
+<section class="seccion" id="anaerobia">
+  <h2><span class="num">10</span>La respiración anaerobia</h2>
+  <p>Algunos <b>microorganismos</b> (sobre todo bacterias) oxidan <b>completamente</b> la materia orgánica <b>sin oxígeno</b>: tienen cadena de transporte de electrones, pero el <b>aceptor final</b> es otra sustancia inorgánica, como el <b>nitrato</b> (NO₃⁻), el <b>sulfato</b> (SO₄²⁻) o el CO₂.</p>
+  <ul>
+    <li><b>Diferencia con la fermentación</b>: en la respiración anaerobia hay <b>cadena respiratoria</b> y la oxidación es completa; en la fermentación no hay cadena y el aceptor es <b>orgánico</b>.</li>
+    <li>Rinde menos que la aerobia, pero mucho más que la fermentación. <span class="extra">Las bacterias que reducen nitratos o sulfatos son importantes en los ciclos del nitrógeno y del azufre.</span></li>
+  </ul>
+</section>
+
+<!-- ═══════════════ 11 · CASOS ═══════════════ -->
+<section class="seccion" id="casos">
+  <h2><span class="num">11</span>Razonamientos frecuentes</h2>
+  <div class="tabla-wrap"><table class="tabla">
+    <thead><tr><th>Situación</th><th>Razonamiento</th></tr></thead>
+    <tbody>
+      <tr><td><b>Rotenona</b> (veneno de pesca amazónico), <b>monóxido de carbono</b> o cianuro</td><td>Bloquean la <span class="clave">cadena de transporte de electrones</span>: cesa el <span class="clave">consumo de O₂</span> (que deja de ser aceptor), <span class="clave">no hay gradiente de H⁺ ni producción de ATP</span>, y las células <span class="clave">mueren</span>.</td></tr>
+      <tr><td><b>Glóbulos rojos</b> humanos (sin mitocondrias)</td><td>Obtienen energía por <span class="clave">glucólisis y fermentación láctica</span>; el O₂ no les afecta y el rendimiento es <span class="clave">menor (2 ATP)</span>.</td></tr>
+      <tr><td><b>Procariotas</b> sin mitocondrias</td><td><span class="clave">No</span> son todas anaerobias: tienen la <span class="clave">maquinaria del catabolismo aerobio</span> en el citosol y la membrana.</td></tr>
+      <tr><td><b>Bloqueo de la glucólisis</b> (2-desoxiglucosa) con glucosa como única fuente</td><td>Las células mueren: no hay ATP ni por glucólisis ni por fosforilación oxidativa. Con <b>ácidos grasos</b> sobreviven gracias a la <span class="clave">β-oxidación</span>, el <span class="clave">ciclo de Krebs</span> y la respiración.</td></tr>
+      <tr><td>Daño en los <b>transportadores de glucosa</b></td><td>La glucosa no entra y no se respira, pero la persona sobrevive obteniendo energía de <span class="clave">proteínas y ácidos grasos</span>.</td></tr>
+      <tr><td><b>Células tumorales</b> (efecto Warburg)</td><td><span class="extra">Captan mucha glucosa y hacen glucólisis y fermentación láctica aunque haya oxígeno: obtienen poca energía por glucosa y compensan consumiendo mucha.</span></td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- ═══════════════ 12 · EXAMEN ═══════════════ -->
+<section class="seccion" id="examen">
+  <h2><span class="num">12</span>Así se pregunta en la PAU</h2>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2026 · Modelo</span><span class="chip oro">1,5 puntos</span><span class="chip">Con imagen</span></div>
+    <p class="enunciado">Una figura representa un proceso de la célula eucariota con NADH (A), FADH₂ (B), agua (C), transporte de electrones (D) y síntesis de ATP (E). a) Orgánulo y localización [0,2]. b) Compartimentos 1 a 5 [0,5]. c) A, B, C y los procesos D y E [0,7]. d) Una ruta que tenga lugar donde se forman A y B [0,2]. e) Molécula generada en E y sus componentes [0,4].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) <span class="clave">Mitocondrias</span>; <span class="clave">membrana mitocondrial interna</span> (crestas). b) 1: <span class="clave">citosol</span>; 2: <span class="clave">membrana externa</span>; 3: <span class="clave">espacio intermembrana</span>; 4: <span class="clave">membrana interna</span>; 5: <span class="clave">matriz</span>.</p>
+      <p>c) A: <span class="clave">NADH</span>; B: <span class="clave">FADH₂</span>; C: <span class="clave">H₂O</span>; D: <span class="clave">transporte de electrones</span>; E: <span class="clave">fosforilación oxidativa</span>. d) <span class="clave">Ciclo de Krebs</span> (o <span class="clave">β-oxidación</span>). e) <span class="clave">ATP</span>: <span class="clave">ribosa</span>, <span class="clave">adenina</span> y <span class="clave">tres grupos fosfato</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2017 · Junio (y 2014, 2016)</span><span class="chip oro">2 puntos</span></div>
+    <p class="enunciado">a) Localización de la glucólisis [0,1]. b) Moléculas de partida y finales [0,4]. c) Rutas que puede seguir el producto final [0,5]. d) Compuestos iniciales y productos finales de cada una [1].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) <span class="clave">Citosol</span>. b) <span class="clave">Glucosa, NAD⁺, ADP y Pi</span> → <span class="clave">piruvato, NADH + H⁺ y ATP</span>. c) <span class="clave">Fermentaciones</span> (anaeróbica) y <span class="clave">ciclo de Krebs</span> (aeróbica). d) Fermentaciones: <span class="clave">piruvato</span> → <span class="clave">lactato o etanol y NAD⁺</span>. Krebs: <span class="clave">acetil-CoA y oxalacético</span> → <span class="clave">CO₂, NADH + H⁺, FADH₂ y GTP (ATP)</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2021 · Suplente julio (y 2011, 2016)</span><span class="chip oro">2 puntos</span></div>
+    <p class="enunciado">a) Defina ciclo de Krebs [0,4]. b) ¿En qué parte de la célula vegetal se realiza? [0,2] c) Dos compuestos imprescindibles para cada vuelta [0,2] y d) su procedencia [0,4]. e) Productos que ceden electrones a la cadena [0,4]. f) Diferencia entre Krebs y Calvin respecto al ATP [0,4].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) <span class="clave">Vía metabólica central</span> de los aerobios que <span class="clave">oxida los grupos acetilo hasta CO₂</span> y produce <span class="clave">ATP y NADH</span>. b) <span class="clave">Matriz mitocondrial</span>. c) <span class="clave">Oxalacético</span> y <span class="clave">acetil-CoA</span>. d) El oxalacético <span class="clave">se regenera en cada vuelta</span>; el acetil-CoA procede de la <span class="clave">descarboxilación oxidativa del pirúvico</span> o de la <span class="clave">β-oxidación</span>. e) <span class="clave">NADH</span> y <span class="clave">FADH₂</span>. f) Krebs es <span class="clave">catabólico</span> y <span class="clave">produce ATP</span>; Calvin es <span class="clave">anabólico</span> y <span class="clave">consume ATP</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2022 · Suplente junio (y 2012)</span><span class="chip oro">2 puntos</span></div>
+    <p class="enunciado">a) Defina glucólisis, ciclo de Krebs y fosforilación oxidativa [1,2]. b) Dónde se realizan [0,3]. c) ¿En qué condiciones (aeróbicas o anaeróbicas) se producen la glucólisis y el ciclo de Krebs? [0,5]</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) Glucólisis: los azúcares se <span class="clave">degradan de forma incompleta con producción de ATP</span>. Krebs: vía central que <span class="clave">oxida grupos acetilo hasta CO₂</span>. Fosforilación oxidativa: <span class="clave">flujo de electrones hasta el oxígeno</span> con un <span class="clave">gradiente de protones</span> que se usa para <span class="clave">sintetizar ATP</span>.</p>
+      <p>b) Glucólisis: <span class="clave">citoplasma</span>; Krebs: <span class="clave">matriz mitocondrial</span>; fosforilación oxidativa: <span class="clave">membrana mitocondrial interna</span>. c) Glucólisis: <span class="clave">aeróbica y anaeróbica</span>; Krebs: <span class="clave">aeróbica</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2024 · Titular A</span><span class="chip oro">1 punto</span><span class="chip">Con imagen</span></div>
+    <p class="enunciado">En una figura de la respiración: a) ¿Qué proceso representa en su conjunto? [0,1] b) Nombre las rutas A, B y C [0,3]. c) Localice NADH + H⁺, H₂O, ADP + Pi, O₂, ATP y NAD⁺ [0,6].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) <span class="clave">Respiración celular</span>. b) A: <span class="clave">ciclo de Krebs</span>; B: <span class="clave">cadena de transporte electrónico</span>; C: <span class="clave">fosforilación oxidativa</span>. c) En la figura del examen: NADH + H⁺: <span class="clave">3</span>; H₂O: <span class="clave">2</span>; ADP + Pi: <span class="clave">5</span>; O₂: <span class="clave">1</span>; ATP: <span class="clave">6</span>; NAD⁺: <span class="clave">4</span>. <span class="extra">Para orientarte en cualquier figura: el NADH entra en la cadena y sale como NAD⁺, el O₂ se reduce a H₂O al final de la cadena, y el ADP + Pi se unen en la ATP sintasa para dar ATP.</span></p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2015</span><span class="chip oro">2 puntos</span><span class="chip">Con imagen</span></div>
+    <p class="enunciado">En el esquema de un orgánulo: a) ¿Qué orgánulo es? ¿Qué proceso es 1? ¿Y 2 a 6? ¿Con qué compuesto Y empieza y con cuál W termina? ¿Qué pasaría si faltara W? [1] b) ¿Qué es 7 y en qué proceso interviene? ¿Qué es X y por qué solo entra por 7? ¿Qué compuesto B se obtiene? [1]</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) <span class="clave">Mitocondria</span>; 1: <span class="clave">ciclo de Krebs</span>; 2-6: <span class="clave">cadena de transporte electrónico</span>; Y: <span class="clave">NADH</span>; W: <span class="clave">oxígeno</span>. Sin oxígeno <span class="clave">se inhibiría la respiración celular</span>.</p>
+      <p>b) 7: <span class="clave">ATP sintasa</span>, en la <span class="clave">fosforilación oxidativa</span>. X: <span class="clave">protones (H⁺)</span>; solo pasan por 7 porque la <span class="clave">bicapa lipídica es impermeable a los protones</span>. B: <span class="clave">ATP</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2015</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">El monóxido de carbono inhibe la citocromo c oxidasa de la cadena respiratoria. ¿Qué efecto tiene sobre el consumo de O₂? [0,5] ¿Y sobre la producción de ATP? [0,25] ¿Podrían vivir las células? [0,25]</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>El <span class="clave">consumo de O₂ cesaría</span>: al bloquearse la cadena, el O₂ ya no actúa como <span class="clave">aceptor final de electrones</span>. La <span class="clave">producción de ATP cesaría</span>: sin transporte de electrones no hay <span class="clave">gradiente de H⁺</span>. <span class="clave">No</span>: sin ATP suficiente las células <span class="clave">morirían</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2024 · Titular B (y 2014, 2017)</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">Los eritrocitos humanos carecen de mitocondrias. a) ¿Cómo obtienen energía? [0,4] b) ¿Les afecta el nivel de oxígeno? [0,3] c) ¿Su rendimiento es mayor o menor que el de otras células? [0,3]</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) Por <span class="clave">fermentación (láctica)</span>, porque <span class="clave">sin mitocondrias no hay respiración celular</span>. b) <span class="clave">No afecta</span>: la fermentación <span class="clave">no requiere oxígeno</span>. c) <span class="clave">Menor</span>: solo <span class="clave">2 ATP</span> de la glucólisis.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2017 · Junio</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">Si se hace un orificio en las membranas externa e interna de una mitocondria, ¿podrá seguir realizando la fosforilación oxidativa? [1]</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p><span class="clave">No</span>. La fosforilación oxidativa está <span class="clave">acoplada a la cadena de transporte electrónico</span> de la <span class="clave">membrana interna</span> y necesita la <span class="clave">integridad de las membranas</span> para mantener el <span class="clave">gradiente de protones</span>; los protones deben volver a la matriz <span class="clave">a través de la ATP sintasa</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2025 · Madrid</span><span class="chip oro">2 puntos</span></div>
+    <p class="enunciado">a) Respiración celular y fermentación láctica: metabolito común, requerimiento de O₂, productos finales y causa de la diferencia de ATP [1]. b) Orgánulo y compartimento de la β-oxidación y sus tres productos finales [1].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) Parten de la <span class="clave">glucosa</span> (o del <span class="clave">piruvato</span>); la respiración necesita <span class="clave">O₂</span> y la fermentación ocurre <span class="clave">en su ausencia</span>; respiración: <span class="clave">ATP, CO₂ y H₂O</span>; fermentación: <span class="clave">ácido láctico</span> (y NAD⁺); la respiración <span class="clave">oxida completamente la glucosa</span> y la fermentación solo produce ATP <span class="clave">en la glucólisis</span>.</p>
+      <p>b) <span class="clave">Matriz mitocondrial</span>; productos: <span class="clave">acetil-CoA</span>, <span class="clave">NADH</span> y <span class="clave">FADH₂</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2016 · Reserva A</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">Las células procariotas carecen de mitocondrias. ¿Implica que todas tienen metabolismo anaerobio obligado? [1]</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p><span class="clave">No</span>: pueden tener <span class="clave">toda la maquinaria enzimática del catabolismo aerobio</span>, que <span class="clave">no precisa mitocondrias</span> <span class="extra">(la cadena respiratoria está en su membrana plasmática)</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip lila">Práctica BioCelia · estilo 26-27</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">Durante una carrera larga, al principio los músculos obtienen energía sobre todo de la glucosa y del glucógeno, y después, cada vez más, de los ácidos grasos. a) ¿Qué rutas degradan los ácidos grasos y dónde? [0,5] b) ¿Por qué hace falta seguir respirando oxígeno para quemar grasa? [0,5]</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p class="extra">a) Primero la lipólisis libera los ácidos grasos de los triglicéridos; en la matriz mitocondrial, la β-oxidación los convierte en acetil-CoA, que se oxida en el ciclo de Krebs; el NADH y el FADH₂ van a la cadena respiratoria de la membrana interna, donde se produce el ATP. b) Porque el NADH y el FADH₂ que forman la β-oxidación y el ciclo de Krebs solo se reoxidan cediendo sus electrones al O₂ en la cadena respiratoria; sin O₂ ambas rutas se detienen. Las grasas no pueden usarse por fermentación.</p>
+    </div></details>
+  </article>
+
+  <p class="no-imprimir"><a href="../Entrenamientopau.html">🏋️ Practica más preguntas de este tema en Entrenamiento →</a></p>
+</section>
+
+<!-- ═══════════════ 13 · AUTOEVALUACIÓN ═══════════════ -->
+<section class="seccion" id="autoevaluacion">
+  <h2><span class="num">13</span>Autoevaluación rápida</h2>
+  <p>Intenta responder antes de desplegar la solución.</p>
+  <ol class="auto">
+    <li>¿Cuántos ATP netos da la glucólisis? ¿Por qué mecanismo? <details><summary>Ver</summary><span class="resp">2, por fosforilación a nivel de sustrato.</span></details></li>
+    <li>¿Necesita oxígeno la glucólisis? <details><summary>Ver</summary><span class="resp">No.</span></details></li>
+    <li>¿Qué ocurre con el piruvato al entrar en la mitocondria? <details><summary>Ver</summary><span class="resp">Descarboxilación oxidativa: acetil-CoA + CO₂ + NADH.</span></details></li>
+    <li>¿Con qué molécula se une el acetil-CoA al empezar el ciclo de Krebs? <details><summary>Ver</summary><span class="resp">Con el oxalacético.</span></details></li>
+    <li>¿Qué produce una vuelta del ciclo de Krebs? <details><summary>Ver</summary><span class="resp">2 CO₂, 3 NADH, 1 FADH₂ y 1 GTP.</span></details></li>
+    <li>¿Cuál es el aceptor final de la cadena respiratoria? <details><summary>Ver</summary><span class="resp">El O₂, que se reduce a agua.</span></details></li>
+    <li>¿Por qué los protones solo vuelven a la matriz por la ATP sintasa? <details><summary>Ver</summary><span class="resp">Porque la bicapa lipídica es impermeable a ellos.</span></details></li>
+    <li>¿Qué productos da la β-oxidación y dónde ocurre? <details><summary>Ver</summary><span class="resp">Acetil-CoA, NADH y FADH₂, en la matriz mitocondrial.</span></details></li>
+    <li>¿En qué se diferencia la respiración anaerobia de la fermentación? <details><summary>Ver</summary><span class="resp">La respiración anaerobia tiene cadena respiratoria y un aceptor inorgánico distinto del O₂; la fermentación no tiene cadena y su aceptor es orgánico.</span></details></li>
+    <li>¿Por qué el cianuro es mortal? <details><summary>Ver</summary><span class="resp">Bloquea la cadena respiratoria: no se forma el gradiente de protones ni ATP.</span></details></li>
+  </ol>
+</section>
+
+<p class="fuentes">Fuentes: Directrices y orientaciones de la PAU de Biología de Andalucía (curso 2026-27); criterios oficiales de corrección de la PAU de Andalucía (2010-2026) y de otras comunidades (2025); resúmenes del departamento; Lehninger, <i>Principios de bioquímica</i>; Campbell y Reece, <i>Biología</i>. Esquemas: elaboración propia de BioCelia.</p>
+
+</main>
+</div>
+
+<script src="apuntes.js"></script>
+</body>
+</html>
