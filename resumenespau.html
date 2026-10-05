@@ -766,10 +766,10 @@
   ══════════════════════════════════════════════════════════ -->
   <div class="bloque-container" style="border-left-color: #27ae60;">
     <h3 class="bloque-titulo"><span aria-hidden="true">🟢</span> C. Biología Celular</h3>
-    <div class="cobertura" aria-label="2 de 3 temas con recursos disponibles">
-      <span>2 / 3 temas</span>
-      <div class="cobertura-bar" role="progressbar" aria-valuenow="67" aria-valuemin="0" aria-valuemax="100">
-        <div class="cobertura-fill" style="width:67%;"></div>
+    <div class="cobertura" aria-label="3 de 3 temas con recursos disponibles">
+      <span>3 / 3 temas</span>
+      <div class="cobertura-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+        <div class="cobertura-fill" style="width:100%;"></div>
       </div>
     </div>
     <p class="bloque-alcance"><strong>En las directrices 26-27:</strong> teoría celular, microscopía, membrana y transporte, orgánulos, ciclo celular, mitosis y meiosis, y cáncer.</p>
@@ -853,11 +853,37 @@
         </div>
       </div>
 
-      <div class="tema-card tema-disabled" role="group" aria-label="Ciclo celular y cáncer — próximamente">
-        <div class="tema-header" aria-disabled="true">
+      <div class="tema-card" role="group" aria-label="Ciclo celular y cáncer">
+        <button class="tema-header" aria-expanded="false" onclick="toggleTema(this)">
           <span class="icono" aria-hidden="true">📄</span>
           <span class="tema-nombre">Ciclo celular y cáncer</span>
-          <span class="badge-pronto">Próximamente</span>
+          <span class="flecha" aria-hidden="true">▼</span>
+        </button>
+        <div class="tema-panel" role="list">
+          <a href="temas/c3-ciclo-celular-cancer-resumen.html"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Resumen — Ciclo celular y cáncer (abrir en otra pestaña)"
+             class="sub-btn tipo-resumen" role="listitem">
+            <span class="sub-icono" aria-hidden="true">📄</span>
+            <span class="sub-label">Resumen</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+          <a href="temas/c3-ciclo-celular-cancer-presentacion.html"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Presentación — Ciclo celular y cáncer (abrir en otra pestaña)"
+             class="sub-btn tipo-slides" role="listitem">
+            <span class="sub-icono" aria-hidden="true">🎞️</span>
+            <span class="sub-label">Presentación</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
+          <a href="temas/c3-ciclo-celular-cancer.html"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Tema completo — Ciclo celular y cáncer (abrir en otra pestaña)"
+             class="sub-btn tipo-tema" role="listitem">
+            <span class="sub-icono" aria-hidden="true">📖</span>
+            <span class="sub-label">Tema completo</span>
+            <span class="ext-icon" aria-hidden="true">↗</span>
+          </a>
         </div>
       </div>
 

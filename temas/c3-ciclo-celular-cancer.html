@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Apuntes PAU de Biología (Andalucía 2026-27), Bloque C: ciclo celular y cáncer. Fases del ciclo, cantidad de ADN, puntos de control, cáncer, mutaciones, agentes cancerígenos, prevención y avances en Andalucía.">
+<title>Ciclo celular y cáncer · BioCelia</title>
+<link rel="stylesheet" href="../pau-theme.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="apuntes.css">
+</head>
+<body>
+<a class="skip-link" href="#main-content">Saltar al contenido</a>
+
+<nav class="site-nav" aria-label="Navegación principal">
+  <a href="../index.html">Inicio</a>
+  <a href="../orientacionespau.html">Orientaciones</a>
+  <a class="active" href="../resumenespau.html">Resúmenes</a>
+  <a href="../Entrenamientopau.html">Entrenamiento</a>
+  <a href="../simulacropau.html">Simulacro</a>
+  <a href="../laboratoriocompetencial.html">Laboratorio</a>
+  <a href="../laboratorioinvestigacion.html">Investigación</a>
+</nav>
+
+<div class="apuntes">
+
+<details class="indice">
+  <summary>Índice del tema</summary>
+  <ol>
+    <li><a href="#pau">Qué entra en la PAU</a></li>
+    <li><a href="#ciclo">El ciclo celular</a></li>
+    <li><a href="#adn">La cantidad de ADN en el ciclo</a></li>
+    <li><a href="#control">Regulación: los puntos de control</a></li>
+    <li><a href="#cancer">El cáncer</a></li>
+    <li><a href="#genes">Genes implicados en el cáncer</a></li>
+    <li><a href="#causas">Agentes cancerígenos y prevención</a></li>
+    <li><a href="#tratamiento">Tratamientos y avances en Andalucía</a></li>
+    <li><a href="#examen">Así se pregunta en la PAU</a></li>
+    <li><a href="#autoevaluacion">Autoevaluación</a></li>
+  </ol>
+</details>
+
+<main class="contenido" id="main-content">
+
+<header class="hero">
+  <span class="etiqueta">Bloque C · Biología celular</span>
+  <h1>Ciclo celular y cáncer</h1>
+  <p>La vida de una célula entre dos divisiones, los controles que deciden si se divide o no y qué ocurre cuando esos controles fallan.</p>
+  <div class="acciones">
+    <a class="btn claro" href="c3-ciclo-celular-cancer-presentacion.html">🎞️ Presentación</a>
+    <a class="btn" href="c3-ciclo-celular-cancer-resumen.html">📝 Resumen</a>
+    <a class="btn" href="pdf/c3-ciclo-celular-cancer.pdf" download>⬇️ Descargar PDF</a>
+    <button class="btn" type="button" data-imprimir>🖨️ Imprimir</button>
+    <a class="btn" href="../Entrenamientopau.html">🏋️ Practicar preguntas</a>
+  </div>
+</header>
+
+<p class="leyenda">
+  <span><span class="clave">Palabra clave</span> = lo que buscan los criterios oficiales de corrección</span>
+  <span><span class="extra">Texto en violeta</span> = aclaración de BioCelia que no está en los criterios</span>
+</p>
+
+<!-- ═══════════════ 1 · PAU ═══════════════ -->
+<section class="seccion" id="pau">
+  <h2><span class="num">1</span>Qué entra en la PAU</h2>
+  <div class="caja directrices">
+    <span class="titulo-caja">Directrices de Andalucía 2026-27 · C.5.3-4 y C.7</span>
+    <ul>
+      <li>La <b>cantidad de ADN</b> varía a lo largo del ciclo: distinguir cromosomas con <b>una o dos cromátidas</b>.</li>
+      <li><b>Etapas del ciclo celular</b> (interfase y división): procesos de cada una e identificarlas en esquemas.</li>
+      <li><b>Cáncer</b>: <b>proliferación celular descontrolada</b>, relacionada con la <b>alteración de los mecanismos de control del ciclo</b> y la <b>acumulación de mutaciones</b>.</li>
+      <li><b>Agentes mutagénicos</b> físicos, químicos y biológicos y <b>hábitos de vida saludables</b> que reducen el riesgo.</li>
+      <li><b>Avances biomédicos frente al cáncer en Andalucía</b>: de forma transversal, con ejemplos del entorno.</li>
+    </ul>
+  </div>
+  <div class="caja pau">
+    <span class="titulo-caja">Lo que más se ha preguntado</span>
+    <ul>
+      <li><b>Definir ciclo celular</b>, sus fases y qué ocurre en G1, S y G2; <b>gráfica del ADN</b>.</li>
+      <li>Fármacos que actúan sobre los <b>microtúbulos</b> (taxol, vinblastina) o el <b>nucléolo</b> y por qué sirven contra el cáncer.</li>
+      <li>En otras comunidades (2025): punto de control R, protooncogenes y genes supresores, por qué el cáncer es genético pero no siempre hereditario.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ═══════════════ 2 · CICLO ═══════════════ -->
+<section class="seccion" id="ciclo">
+  <h2><span class="num">2</span>El ciclo celular</h2>
+  <p>El <span class="clave">ciclo celular</span> es el conjunto de fases por las que pasa una célula desde que <span class="clave">se origina por división de una preexistente</span> hasta que <span class="clave">se divide y da origen a dos células hijas</span>.</p>
+  <figure class="figura">
+    <img src="../assets/temas/c3/ciclo-celular.svg" width="1050" height="540" alt="Ciclo celular: G1, S y G2 forman la interfase; M es la mitosis y citocinesis. Desde G1 algunas células pasan a G0. Puntos de control en G1/S, G2/M y en la mitosis.">
+    <figcaption><b>Figura 1.</b> Fases del ciclo celular y puntos de control.</figcaption>
+  </figure>
+  <h3>Interfase: el periodo entre dos divisiones</h3>
+  <p>La <span class="clave">interfase</span> es el conjunto de fases que transcurren <span class="clave">entre dos mitosis consecutivas</span>. Es la etapa más larga y de mayor actividad metabólica: en ella hay <b>transcripción y traducción</b>.</p>
+  <div class="tabla-wrap"><table class="tabla">
+    <thead><tr><th>Fase</th><th>Qué ocurre</th></tr></thead>
+    <tbody>
+      <tr><td><b>G1</b></td><td>Se sintetizan los compuestos necesarios para que la célula <span class="clave">aumente de tamaño</span> (ARN, proteínas) y aumenta el número de <span class="clave">orgánulos citoplasmáticos</span>. Es la fase de duración más variable.</td></tr>
+      <tr><td><b>S</b></td><td><span class="clave">Replicación del ADN</span> y <span class="clave">síntesis de histonas</span>; también se duplica el centrosoma. Cada cromosoma pasa a tener <b>dos cromátidas</b>.</td></tr>
+      <tr><td><b>G2</b></td><td>La célula sigue creciendo y <span class="clave">se prepara para la mitosis</span> (síntesis de proteínas necesarias para la división, como la tubulina).</td></tr>
+    </tbody>
+  </table></div>
+  <h3>Fase M</h3>
+  <p><span class="clave">División celular</span>: <b>mitosis</b> (reparto del material hereditario) y <b>citocinesis</b> (división del citoplasma). Se estudia en el tema de <a href="c2-mitosis-meiosis.html">mitosis y meiosis</a>.</p>
+  <h3>Fase G0</h3>
+  <p>Algunas células salen del ciclo en G1 y quedan en <b>G0</b>: no se dividen, aunque siguen funcionando. Unas, como la mayoría de <b>neuronas</b> y las <b>fibras musculares</b> esqueléticas, permanecen así; otras, como los <b>hepatocitos</b>, pueden volver a dividirse si reciben señales (por ejemplo, tras una lesión del hígado).</p>
+  <div class="caja truco">
+    <span class="titulo-caja">¿Dónde ocurre cada proceso? (PAU 2010)</span>
+    <p><span class="clave">Replicación</span> → fase <span class="clave">S</span> · <span class="clave">Transcripción y traducción</span> → durante la <span class="clave">interfase</span> · <span class="clave">Reparto del material hereditario</span> → <span class="clave">mitosis</span>.</p>
+  </div>
+</section>
+
+<!-- ═══════════════ 3 · ADN ═══════════════ -->
+<section class="seccion" id="adn">
+  <h2><span class="num">3</span>La cantidad de ADN en el ciclo</h2>
+  <figure class="figura">
+    <img src="../assets/temas/c3/adn-ciclo.svg" width="900" height="380" alt="Gráfica: el ADN vale 2C en G1, se duplica a 4C durante la fase S, se mantiene en G2 y en la mitosis y vuelve a 2C al separarse las células hijas.">
+    <figcaption><b>Figura 2.</b> Variación del ADN de una célula somática a lo largo del ciclo.</figcaption>
+  </figure>
+  <ul>
+    <li>Si <b>C</b> es la cantidad de ADN de un juego haploide, una célula diploide tiene <b>2C</b> en G1.</li>
+    <li>En la fase S el ADN <span class="clave">se duplica</span>: de <span class="clave">2C a 4C</span>. Los cromosomas tienen ahora <b>dos cromátidas</b>, pero <b>su número no cambia</b>.</li>
+    <li>En la <span class="clave">anafase</span> se <span class="clave">separan las cromátidas</span>: cada conjunto de cromosomas que va a un polo lleva <span class="clave">2C</span>. Tras la citocinesis, cada célula hija vuelve a tener 2C: la cantidad final <span class="clave">coincide con la inicial</span>.</li>
+  </ul>
+</section>
+
+<!-- ═══════════════ 4 · CONTROL ═══════════════ -->
+<section class="seccion" id="control">
+  <h2><span class="num">4</span>Regulación del ciclo: los puntos de control</h2>
+  <p>La célula no se divide siempre: el ciclo está regulado por señales externas (factores de crecimiento, contacto con otras células) e internas. En ciertos momentos hay <b>puntos de control</b> que comprueban que todo está bien antes de seguir:</p>
+  <div class="tabla-wrap"><table class="tabla">
+    <thead><tr><th>Punto de control</th><th>Qué comprueba</th></tr></thead>
+    <tbody>
+      <tr><td><b>G1/S</b> (punto <b>R</b> o de restricción)</td><td><span class="clave">Controla el paso de G1 a S</span>: tamaño celular, nutrientes, señales externas y que el <b>ADN no esté dañado</b>. Si lo supera, la célula se compromete a dividirse; si no, puede quedar en G0.</td></tr>
+      <tr><td><b>G2/M</b></td><td>Que el ADN se haya <b>replicado por completo y sin errores</b> antes de entrar en mitosis.</td></tr>
+      <tr><td><b>En la mitosis</b> (del huso)</td><td>Que todos los cromosomas estén <b>unidos al huso</b> por sus cinetocoros antes de empezar la anafase.</td></tr>
+    </tbody>
+  </table></div>
+  <p class="extra">Estos controles los ejercen proteínas como las ciclinas y las quinasas dependientes de ciclinas (CDK), que «dan permiso» para avanzar, y otras como la proteína p53, que detiene el ciclo si el ADN está dañado y, si no puede repararse, provoca la muerte programada de la célula (apoptosis).</p>
+</section>
+
+<!-- ═══════════════ 5 · CÁNCER ═══════════════ -->
+<section class="seccion" id="cancer">
+  <h2><span class="num">5</span>El cáncer</h2>
+  <p>El <span class="clave">cáncer</span> es una <span class="clave">proliferación descontrolada de células</span> causada, en la mayoría de los casos, por <span class="clave">mutaciones en genes que controlan el crecimiento y la división celular</span>. Las células cancerosas <b>pierden el control del ciclo celular</b>: se dividen sin parar, aunque no haya señales para hacerlo.</p>
+  <figure class="figura">
+    <img src="../assets/temas/c3/desarrollo-cancer.svg" width="1180" height="355" alt="Tejido normal; una célula mutada empieza a proliferar; se forma un tumor; el tumor maligno invade tejidos vecinos; las células cancerosas viajan por la sangre o la linfa y forman metástasis.">
+    <figcaption><b>Figura 3.</b> Etapas en el desarrollo de un cáncer.</figcaption>
+  </figure>
+  <ul>
+    <li>Se forma un <b>tumor</b>: masa de células que se dividen sin control.
+      <ul>
+        <li><b>Benigno</b>: crece en su sitio, delimitado, sin invadir otros tejidos.</li>
+        <li><b>Maligno</b> (cáncer): <b>invade</b> los tejidos vecinos y puede producir <b>metástasis</b>: sus células viajan por la sangre o la linfa y forman tumores en otros órganos.</li>
+      </ul>
+    </li>
+    <li>Normalmente hace falta la <b>acumulación de varias mutaciones</b> en una misma célula; por eso el riesgo aumenta con la edad y con la exposición a agentes mutagénicos.</li>
+    <li>Características de las células cancerosas <span class="extra">(sin necesidad de detallarlas)</span>: se dividen sin señales externas, no responden a las señales de freno ni al contacto con otras células, escapan de la apoptosis, se dividen indefinidamente (la telomerasa mantiene sus telómeros) y estimulan la formación de vasos sanguíneos que alimentan el tumor.</li>
+  </ul>
+  <div class="caja pau">
+    <span class="titulo-caja">Genético pero no siempre hereditario (PAU 2025, La Rioja)</span>
+    <p>El cáncer es una enfermedad <b>genética</b> porque se origina por mutaciones, pero la mayoría ocurren en <b>células somáticas</b> a lo largo de la vida y <b>no se transmiten</b> a los hijos. Solo algunas mutaciones de la <b>línea germinal</b> (como las de los genes BRCA1 y BRCA2) se heredan y <b>predisponen</b> a padecerlo.</p>
+  </div>
+</section>
+
+<!-- ═══════════════ 6 · GENES ═══════════════ -->
+<section class="seccion" id="genes">
+  <h2><span class="num">6</span>Genes implicados en el cáncer</h2>
+  <figure class="figura">
+    <img src="../assets/temas/c3/genes-cancer.svg" width="1030" height="312" alt="Analogía del coche: en una célula normal acelerador y freno funcionan; un oncogén es un acelerador pisado siempre; un gen supresor inactivado es un freno roto.">
+    <figcaption><b>Figura 4.</b> Protooncogenes como acelerador y genes supresores como freno.</figcaption>
+  </figure>
+  <div class="tabla-wrap"><table class="tabla">
+    <thead><tr><th>Genes</th><th>Función normal</th><th>En el cáncer</th></tr></thead>
+    <tbody>
+      <tr><td><b>Protooncogenes</b></td><td>Estimulan la división cuando la célula recibe señales (el «acelerador»)</td><td>Una mutación los convierte en <b>oncogenes</b>, que estimulan la división <b>continuamente</b>. Basta con un alelo mutado.</td></tr>
+      <tr><td><b>Genes supresores de tumores</b> <span class="extra">(p53, Rb)</span></td><td>Frenan el ciclo o desencadenan la apoptosis si hay daños (el «freno»)</td><td>Si se <b>inactivan</b> (normalmente los dos alelos), la célula no se detiene.</td></tr>
+      <tr><td><b>Genes de reparación del ADN</b></td><td>Corrigen los errores del ADN</td><td>Si fallan, las mutaciones se acumulan más deprisa.</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- ═══════════════ 7 · CAUSAS ═══════════════ -->
+<section class="seccion" id="causas">
+  <h2><span class="num">7</span>Agentes cancerígenos y prevención</h2>
+  <p>Muchos <b>agentes mutagénicos</b> son también <b>cancerígenos</b> (carcinógenos), porque aumentan la probabilidad de mutaciones en los genes que controlan el ciclo:</p>
+  <figure class="figura">
+    <img src="../assets/temas/c3/prevencion-cancer.svg" width="1030" height="365" alt="Agentes físicos: radiación UV, rayos X y gamma, radón. Químicos: tabaco, alcohol, amianto, aflatoxinas. Biológicos: virus del papiloma, de las hepatitis B y C, Helicobacter pylori. Prevención: protección solar, no fumar, vacunas, dieta, ejercicio y cribados.">
+    <figcaption><b>Figura 5.</b> Agentes cancerígenos y medidas para reducir el riesgo.</figcaption>
+  </figure>
+  <div class="tabla-wrap"><table class="tabla">
+    <thead><tr><th>Tipo</th><th>Ejemplos</th><th>Cáncer asociado (ejemplos)</th></tr></thead>
+    <tbody>
+      <tr><td><b>Físicos</b></td><td>Radiación <b>ultravioleta</b>; radiaciones ionizantes (rayos X, γ, radón)</td><td>Piel (melanoma y otros); leucemias; pulmón (radón)</td></tr>
+      <tr><td><b>Químicos</b></td><td><b>Tabaco</b> (alquitrán, benzopireno), alcohol, amianto, aflatoxinas de alimentos enmohecidos</td><td>Pulmón, boca, laringe, vejiga; hígado; pleura</td></tr>
+      <tr><td><b>Biológicos</b></td><td><b>Virus del papiloma humano (VPH)</b>, virus de las hepatitis B y C, <i>Helicobacter pylori</i></td><td>Cuello de útero; hígado; estómago</td></tr>
+    </tbody>
+  </table></div>
+  <h3>Hábitos de vida saludables</h3>
+  <ul>
+    <li><b>No fumar</b> y evitar el humo del tabaco; reducir el alcohol.</li>
+    <li><b>Protegerse del sol</b>: evitar las horas centrales, usar crema de protección alta y ropa, no usar cabinas de bronceado. <span class="extra">En Andalucía, con muchas horas de sol e índices UV muy altos en verano, es especialmente importante.</span></li>
+    <li><b>Dieta</b> rica en fruta, verdura y fibra, con poca carne procesada; <b>actividad física</b> y peso saludable.</li>
+    <li><b>Vacunas</b> frente al VPH y la hepatitis B.</li>
+    <li>Participar en los <b>programas de cribado</b> (detección precoz) de cáncer de mama, colorrectal y de cuello de útero.</li>
+  </ul>
+</section>
+
+<!-- ═══════════════ 8 · TRATAMIENTO ═══════════════ -->
+<section class="seccion" id="tratamiento">
+  <h2><span class="num">8</span>Tratamientos y avances en Andalucía</h2>
+  <ul>
+    <li><b>Cirugía</b>: extirpar el tumor.</li>
+    <li><b>Radioterapia</b>: radiaciones que dañan el ADN de las células tumorales.</li>
+    <li><b>Quimioterapia</b>: fármacos que atacan a las células que se dividen. Muchos actúan sobre los <b>microtúbulos</b>: el <b>taxol</b> y la <b>vinblastina</b> (de la planta <i>Vinca</i>) impiden que funcione el <span class="clave">huso mitótico</span>, y sin él <span class="clave">no hay división</span>. Por eso también afectan a otras células que se dividen mucho (pelo, mucosa intestinal, médula ósea): de ahí sus efectos secundarios.</li>
+    <li><b>Inmunoterapia</b> y <b>terapias dirigidas</b>: estimulan las defensas contra el tumor o bloquean proteínas propias de las células cancerosas (por ejemplo, las células CAR-T, linfocitos del paciente modificados genéticamente para reconocer el tumor).</li>
+  </ul>
+  <div class="caja vida">
+    <span class="titulo-caja">Investigación contra el cáncer cerca de nosotros</span>
+    <p class="extra">En Andalucía trabajan en el cáncer centros como GENYO (Centro de Genómica e Investigación Oncológica, en Granada), el Instituto de Biomedicina de Sevilla (IBiS), CABIMER (Sevilla) o el Instituto de Investigación Biomédica de Málaga (IBIMA), junto a los servicios de oncología de los hospitales públicos. Investigan, por ejemplo, las mutaciones de cada tumor para elegir el tratamiento más adecuado (medicina personalizada) y nuevas inmunoterapias. Además, el sistema sanitario público andaluz organiza programas de cribado de cáncer de mama y colorrectal.</p>
+  </div>
+</section>
+
+<!-- ═══════════════ 9 · EXAMEN ═══════════════ -->
+<section class="seccion" id="examen">
+  <h2><span class="num">9</span>Así se pregunta en la PAU</h2>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2010</span><span class="chip oro">2 puntos</span></div>
+    <p class="enunciado">Defina ciclo celular [0,5] e indique con un esquema sus fases [0,5]. ¿En qué fase o fases ocurren la replicación, la transcripción, la traducción y el reparto del material hereditario? [0,5] Represente cómo varía el contenido de ADN durante el ciclo [0,5].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>Fases por las que discurre una célula desde que se origina por <span class="clave">división de una preexistente</span> hasta que se divide y da <span class="clave">dos células hijas</span>. Esquema con la <span class="clave">interfase</span> (<span class="clave">G1, S y G2</span>) y la <span class="clave">mitosis</span> (figura 1). Replicación: <span class="clave">fase S</span>; transcripción y traducción: <span class="clave">interfase</span>; reparto: <span class="clave">mitosis</span>. Gráfica como la figura 2.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2024 · Suplente B</span><span class="chip oro">2 puntos</span></div>
+    <p class="enunciado">a) Defina el ciclo celular [0,3]. b) Fases de la interfase [0,3]. c) Qué ocurre en cada una [0,6]. d) Nombre y describa la primera fase de la mitosis [0,5]. e) Nombre en orden el resto [0,3].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) Proceso desde que una célula <span class="clave">se origina por división</span> hasta que <span class="clave">se divide dando dos células hijas</span>. b) <span class="clave">G1, S y G2</span>. c) G1: <span class="clave">aumento de tamaño y de orgánulos</span>; S: <span class="clave">replicación del ADN</span> y síntesis de histonas; G2: <span class="clave">preparación para la mitosis</span>. d) <span class="clave">Profase</span>: <span class="clave">condensación de los cromosomas</span>, <span class="clave">formación del huso</span>, <span class="clave">desaparición del nucléolo y la envoltura</span>. e) <span class="clave">Metafase, anafase y telofase</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2013</span><span class="chip oro">2 puntos</span><span class="chip">Con imagen</span></div>
+    <p class="enunciado">En un esquema del ciclo celular: a) ¿Qué representa? ¿Qué son S y M? Explique G1 y G2. ¿Cómo se llama el conjunto de G1, S y G2? [1] b) Represente la variación del ADN [0,5] e indique dos motivos de la importancia de la fase M [0,5].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) <span class="clave">El ciclo celular</span>. S: <span class="clave">síntesis de ADN</span>; M: <span class="clave">división celular</span>. G1: <span class="clave">crecimiento y desarrollo</span>, con <span class="clave">transcripción y traducción</span>; G2: <span class="clave">preparación para la división</span>. El conjunto: <span class="clave">interfase</span>.</p>
+      <p>b) La gráfica muestra la <span class="clave">duplicación del ADN</span> y que la cantidad final <span class="clave">coincide con la inicial</span>. Importancia de M: <span class="clave">proliferación celular</span>, <span class="clave">mantenimiento de la información</span>, <span class="clave">reparación de tejidos</span>, <span class="clave">reproducción</span> (dos).</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2016 · Reserva B</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">Con el valor C (ADN por genoma haploide), exprese la cantidad de ADN al final de la fase S [0,5] y en cada conjunto de cromosomas de la anafase de una célula somática [0,5].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>En S el ADN <span class="clave">se duplica</span>: de <span class="clave">2C</span> pasa a <span class="clave">4C</span>. En anafase se <span class="clave">separan las cromátidas</span>: cada conjunto tiene <span class="clave">2C</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2011</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">La vinblastina, obtenida de <i>Vinca major</i>, impide el ensamblaje de los microtúbulos del huso. ¿Por qué se usa contra el cáncer? [0,5] ¿Afectaría a la formación de gametos? [0,5]</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>Sin microtúbulos <span class="clave">no se forma el huso mitótico</span> ni hay mitosis: <span class="clave">las células cancerosas no proliferan</span>. Sin huso no hay ningún tipo de división: <span class="clave">tampoco la meiosis</span>, y <span class="clave">no se forman gametos</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2013 (y 2012)</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">La tubulina resulta clave en los procesos cancerígenos. Explíquelo [1].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>La tubulina es el <span class="clave">elemento estructural de los microtúbulos</span> y, por tanto, del <span class="clave">huso mitótico</span>, necesario para la <span class="clave">división celular</span>; el cáncer se debe a una <span class="clave">división celular descontrolada</span>. <span class="extra">Por eso los fármacos que la bloquean, como el taxol, frenan los tumores.</span></p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2024 · Titular A</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">a) ¿Por qué los tratamientos con toxinas que atacan a los nucléolos matan a las células cancerosas? [0,6] b) ¿Tendrían el mismo efecto sobre células en mitosis? [0,4]</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>a) En el nucléolo se forman los <span class="clave">ARNr de las subunidades de los ribosomas</span>; sin ellos la célula <span class="clave">no sintetiza proteínas</span>, no crece ni completa el ciclo, y <span class="clave">muere</span>. b) <span class="clave">No</span>: durante la mitosis <span class="clave">el núcleo y el nucléolo no están presentes</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2025 · Murcia</span><span class="chip oro">2 puntos</span></div>
+    <p class="enunciado">A) Enumere las fases del ciclo celular completo e indique qué ocurre en cada una [1,5]. B) Explique el punto de control R [0,5].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>A) <span class="clave">Interfase</span>: <span class="clave">G1</span> <span class="extra">(crecimiento, síntesis de proteínas y orgánulos)</span>, <span class="clave">S</span> (<span class="clave">replicación del ADN</span>) y <span class="clave">G2</span> <span class="extra">(preparación para la división)</span>; y <span class="clave">fase M</span>: <span class="clave">mitosis</span> <span class="extra">(reparto del material genético)</span> y <span class="clave">citocinesis</span> <span class="extra">(división del citoplasma)</span>.</p>
+      <p>B) El punto R <span class="clave">controla el paso de G1 a S</span> <span class="extra">: comprueba el tamaño, los nutrientes, las señales externas y el estado del ADN; si lo supera, la célula se compromete a dividirse; si no, puede quedar en G0.</span></p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2025 · Madrid</span><span class="chip oro">0,5 puntos</span></div>
+    <p class="enunciado">Razone la relación entre las mutaciones y el cáncer.</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p>El cáncer es una <span class="clave">proliferación descontrolada de células</span> causada, en la mayoría de los casos, por <span class="clave">mutaciones en genes que controlan el crecimiento y la división celular</span> <span class="extra">(protooncogenes, genes supresores y de reparación)</span>.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip">PAU 2025 · La Rioja</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">a) ¿Qué son los protooncogenes y cómo se transforman en oncogenes? [0,2] b) Función de los genes supresores de tumores y de reparación del ADN en el cáncer [0,2]. c) ¿Por qué el cáncer es una enfermedad genética pero no necesariamente hereditaria? [0,6]</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p class="extra">a) Genes que estimulan la división celular de forma controlada; una mutación (o una duplicación o translocación) los convierte en oncogenes, que la estimulan continuamente. b) Los supresores frenan el ciclo o inducen la apoptosis cuando hay daños, y los de reparación corrigen el ADN; si se inactivan, la célula se divide sin control y acumula mutaciones. c) Se origina por mutaciones, pero la mayoría ocurren en células somáticas a lo largo de la vida y no pasan a los hijos; solo algunas mutaciones germinales (como BRCA1) se heredan y predisponen al cáncer.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip lila">Práctica BioCelia · estilo 26-27</span><span class="chip oro">2 puntos</span><span class="chip">Andalucía</span></div>
+    <p class="enunciado">En verano, el índice ultravioleta en muchas zonas de Andalucía es «muy alto» o «extremo». a) ¿Qué tipo de agente mutagénico es la radiación UV y cómo daña el ADN? [0,5] b) Explique cómo una mutación puede originar un cáncer de piel, relacionándolo con el ciclo celular [0,8]. c) Proponga tres medidas de prevención [0,3]. d) ¿Por qué el riesgo de cáncer aumenta con la edad? [0,4]</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p class="extra">a) Es un agente físico: une dos timinas contiguas de la misma hebra (dímeros de timina), que deforman el ADN y provocan errores al replicarlo. b) Si la mutación afecta a un gen que controla el ciclo (un protooncogén que pasa a oncogén o un gen supresor que se inactiva), la célula deja de responder a los puntos de control y se divide sin freno; al acumular más mutaciones forma un tumor que puede invadir y extenderse. c) Evitar el sol en las horas centrales, usar crema de protección alta, gorra, gafas y ropa, y no usar cabinas de bronceado. d) Porque hacen falta varias mutaciones en una misma célula y estas se acumulan a lo largo de la vida.</p>
+    </div></details>
+  </article>
+
+  <article class="preg">
+    <div class="meta"><span class="chip lila">Práctica BioCelia · estilo 26-27</span><span class="chip oro">1 punto</span></div>
+    <p class="enunciado">Los pacientes en quimioterapia con fármacos que bloquean los microtúbulos suelen perder el pelo y tener problemas digestivos y bajadas de defensas. Explique por qué [1].</p>
+    <details class="solucion"><summary>Ver respuesta modelo</summary><div class="cuerpo">
+      <p class="extra">Estos fármacos impiden que se forme el huso mitótico y, por tanto, la división de cualquier célula que se esté dividiendo, no solo de las tumorales. Las células de los folículos del pelo, el epitelio intestinal y la médula ósea (que fabrica los glóbulos blancos) se dividen continuamente, así que también se ven afectadas.</p>
+    </div></details>
+  </article>
+
+  <p class="no-imprimir"><a href="../Entrenamientopau.html">🏋️ Practica más preguntas de este tema en Entrenamiento →</a></p>
+</section>
+
+<!-- ═══════════════ 10 · AUTOEVALUACIÓN ═══════════════ -->
+<section class="seccion" id="autoevaluacion">
+  <h2><span class="num">10</span>Autoevaluación rápida</h2>
+  <p>Intenta responder antes de desplegar la solución.</p>
+  <ol class="auto">
+    <li>¿Qué fases forman la interfase? <details><summary>Ver</summary><span class="resp">G1, S y G2.</span></details></li>
+    <li>¿En qué fase se replica el ADN? <details><summary>Ver</summary><span class="resp">En la fase S.</span></details></li>
+    <li>¿Qué es G0? <details><summary>Ver</summary><span class="resp">Estado de las células que salen del ciclo y no se dividen (neuronas, fibras musculares).</span></details></li>
+    <li>Una célula 2n tiene 2C en G1. ¿Cuánto ADN tiene en G2? <details><summary>Ver</summary><span class="resp">4C.</span></details></li>
+    <li>¿Qué comprueba el punto de control G1/S? <details><summary>Ver</summary><span class="resp">Tamaño, nutrientes, señales y que el ADN no esté dañado.</span></details></li>
+    <li>Define cáncer. <details><summary>Ver</summary><span class="resp">Proliferación descontrolada de células por mutaciones en genes que controlan el ciclo celular.</span></details></li>
+    <li>¿Qué diferencia un tumor benigno de uno maligno? <details><summary>Ver</summary><span class="resp">El maligno invade otros tejidos y puede producir metástasis.</span></details></li>
+    <li>¿Qué es un oncogén? <details><summary>Ver</summary><span class="resp">Un protooncogén mutado que estimula la división de forma continua.</span></details></li>
+    <li>Cita un cancerígeno de cada tipo. <details><summary>Ver</summary><span class="resp">Físico: UV; químico: tabaco; biológico: VPH.</span></details></li>
+    <li>¿Por qué el taxol frena los tumores? <details><summary>Ver</summary><span class="resp">Bloquea los microtúbulos: sin huso no hay división.</span></details></li>
+  </ol>
+</section>
+
+<p class="fuentes">Fuentes: Directrices y orientaciones de la PAU de Biología de Andalucía (curso 2026-27); criterios oficiales de corrección de la PAU de Andalucía (2010-2024) y de otras comunidades (2025); resúmenes del departamento; Campbell y Reece, <i>Biología</i>; Alberts y col., <i>Biología molecular de la célula</i>; Organización Mundial de la Salud y Asociación Española Contra el Cáncer (factores de riesgo y prevención). Esquemas: elaboración propia de BioCelia.</p>
+
+</main>
+</div>
+
+<script src="apuntes.js"></script>
+</body>
+</html>
