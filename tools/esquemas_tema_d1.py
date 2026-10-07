@@ -135,6 +135,9 @@ def mapa():
     b += caja(720, 410, 150, 46, "Acetil-CoA", INK, "#fff", 16)
     b += text(440, 352, "descarboxilación oxidativa (CO₂, NADH)", 11.5, weight=800, fill=GRIS)
     b += flecha(600, 214, 700, 384, ACC, 3) + text(660, 290, "β-OXIDACIÓN", 14, "start", 900, fill=ACC)
+    # la glicerina no va a la β-oxidación: se incorpora a la glucólisis
+    b += f'<path d="M485,206 L172,258" fill="none" stroke="{ACC}" stroke-width="2.2" stroke-dasharray="6 4" marker-end="url(#fk)"/>'
+    b += text(370, 262, "glicerina → glucólisis", 12, weight=900, fill=ACC)
     b += flecha(1000, 214, 800, 386, TEAL, 3) + text(1000, 270, "desaminación", 13, "start", 900, fill=TEAL) + text(1000, 286, "(NH₃ → urea)", 12, "start", 800, fill=GRIS)
     # Krebs
     b += f'<circle cx="720" cy="530" r="58" fill="#fff" stroke="{ROJO}" stroke-width="4"/>' + text(720, 526, "CICLO DE", 13, weight=900, fill=ROJO) + text(720, 544, "KREBS", 16, weight=900, fill=ROJO)
