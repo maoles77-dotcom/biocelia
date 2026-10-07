@@ -62,7 +62,7 @@ def arbol():
     b += caja(650, 210, 240, "¿Benedict rojo?", ACC, "#fff4df") + flecha((530, 130), (620, 188), "no")
     b += caja(500, 300, 240, "Glúcido reductor", VERDE, "#e5f4ec") + flecha((610, 232), (540, 278), "sí")
     b += caja(800, 300, 280, "Hidrolizar y repetir Benedict", ACC, "#fff4df", 13) + flecha((690, 232), (770, 278), "no")
-    b += caja(680, 390, 260, "Rojo: disacárido no", VERDE, "#e5f4ec", 13) + text(680, 425, "reductor (sacarosa)", 13, weight=900, fill=VERDE) + flecha((790, 322), (720, 368), "")
+    b += caja(680, 390, 400, "Rojo: disacárido no reductor (sacarosa)", VERDE, "#e5f4ec", 13) + flecha((790, 322), (720, 368), "")
     b += text(450, 470, "Biuret violeta → proteínas · Sudán rojo → lípidos (se aplican aparte).", 14, weight=800, fill=GRIS)
     save("arbol-identificacion.svg", svg(960, 490, b, "Árbol de decisión para identificar glúcidos con Lugol y Benedict"))
 

@@ -238,14 +238,29 @@ def terpenos():
         return "".join(linea(v[i], v[(i + 1) % 6]) for i in range(6)), v
     h1, v1 = hexa(x0, y0)
     b += h1
-    s, cad = zigzag(v1[0][0], v1[0][1] - 10, 18, 22, 14)
+    # anillo β-ionona: C6 = v1[5] (une la cadena), C5 = v1[0], C1 = v1[4]
+    c6 = v1[5]
+    s, cad = zigzag(c6[0], c6[1] + 7, 19, 22, 14)  # cad[0] = C6, cad[1] = C7 … cad[19] = C6'
     b += s
-    for i in range(0, 18, 2):
-        b += doble(cad[i], cad[i + 1], 1 if i % 4 else -1, ROJO, 2.2, 4)
-    for i in (3, 7, 11, 15):
-        b += linea(cad[i], (cad[i][0], cad[i][1] - 22 if cad[i][1] < cad[i - 1][1] else cad[i][1] + 22), 2.2)
-    h2, v2 = hexa(cad[-1][0] + 26, cad[-1][1] + 10)
+
+    def metilo(p, arriba):
+        return linea(p, (p[0], p[1] - 22 if arriba else p[1] + 22), 2.2)
+    # 9 dobles enlaces conjugados en la cadena: C7=C8, C9=C10, C11=C12, C13=C14, C15=C15' y simétricos
+    for i in range(1, 19, 2):
+        b += doble(cad[i], cad[i + 1], 1 if cad[i][1] > cad[i + 1][1] else -1, ROJO, 2.2, 4)
+    for i in (3, 7, 12, 16):  # metilos en C9, C13, C13', C9'
+        b += metilo(cad[i], cad[i][1] < cad[i - 1][1])
+    r = 26
+    c6b = cad[-1]
+    h2, v2 = hexa(c6b[0] - r * math.cos(math.radians(210)), c6b[1] - r * math.sin(math.radians(210)))
     b += h2
+    # dobles enlaces C5=C6 de cada anillo, metilo en C5 y dos metilos en C1
+    for c6x, c5, c1, cen in ((v1[5], v1[0], v1[4], (x0, y0)), (v2[3], v2[2], v2[4], (c6b[0] - r * math.cos(math.radians(210)), c6b[1] - r * math.sin(math.radians(210))))):
+        lado = 1 if (c5[0] - c6x[0]) * (cen[1] - c6x[1]) - (c5[1] - c6x[1]) * (cen[0] - c6x[0]) > 0 else -1
+        b += doble(c6x, c5, lado, ROJO, 2.2, 4)
+        dx, dy = c5[0] - cen[0], c5[1] - cen[1]
+        b += linea(c5, (c5[0] + dx * 0.75, c5[1] + dy * 0.75), 2.2)
+        b += linea(c1, (c1[0] - 16, c1[1] - 16), 2.2) + linea(c1, (c1[0] + 16, c1[1] - 16), 2.2)
     b += text(560, 28, "β-caroteno (tetraterpeno, 40 C)", 17, weight=900, fill=ACC)
     b += text(560, 168, "muchos dobles enlaces alternos → color (naranja)", 13, weight=800, fill=GRIS)
     b += f'<line x1="560" y1="185" x2="560" y2="208" stroke="{INK}" stroke-width="2.5" marker-end="url(#fk)"/>'
@@ -294,14 +309,16 @@ def esteroides():
     b += linea(vA[0], (vA[0][0], vA[0][1] - 26)) if False else ""
     for v in (vB[5], vC[1]):  # metilos en C10 y C13
         b += linea(v, (v[0], v[1] - 26))
-    top = vD[4] if vD[4][1] < vD[0][1] else vD[0]
-    cad = [top]
+    # la cadena lateral (C20-C27) sale del C17: vértice superior del anillo D distinto del C13 (vD[0])
+    top = min(vD[1:], key=lambda v: v[1])
+    cad = [top]  # C17 → C20 → C22 → C23 → C24 → C25 → C26
     for i in range(6):
         p = cad[-1]
-        cad.append((p[0] + 20, p[1] + (-12 if i % 2 == 0 else 12)))
+        cad.append((p[0] + 22, p[1] + (-12 if i % 2 == 0 else 12)))
     b += "".join(linea(a, c) for a, c in zip(cad, cad[1:]))
-    b += linea(cad[4], (cad[4][0], cad[4][1] - 22))
-    b += text(cad[-1][0] - 30, cad[-1][1] + 40, "cadena lateral", 12, weight=800, fill=GRIS)
+    b += linea(cad[1], (cad[1][0], cad[1][1] - 22))  # metilo C21 en el C20
+    b += linea(cad[5], (cad[5][0], cad[5][1] - 22))  # metilo C27 en el C25
+    b += text(cad[-1][0] - 40, cad[-1][1] + 40, "cadena lateral", 12, weight=800, fill=GRIS)
     b += text(470, 270, "–OH polar pequeño + núcleo apolar: se intercala en la membrana", 13, weight=800, fill=GRIS)
     save("esteroides-colesterol.svg", svg(760, 285, b, "Núcleo de esterano con sus cuatro anillos y fórmula del colesterol"))
 
@@ -320,18 +337,18 @@ def clasificacion():
     b = ""
     b += ln((520, 50), (290, 120)) + ln((520, 50), (830, 120))
     b += ln((290, 145), (160, 210)) + ln((290, 145), (430, 210))
-    b += ln((160, 235), (90, 300)) + ln((160, 235), (230, 300))
-    b += ln((430, 235), (350, 300)) + ln((430, 235), (520, 300))
+    b += ln((160, 235), (80, 300)) + ln((160, 235), (210, 300))
+    b += ln((430, 235), (360, 300)) + ln((430, 235), (525, 300))
     b += ln((830, 145), (730, 210)) + ln((830, 145), (930, 210))
     b += caja(520, 34, 160, "LÍPIDOS", "", "#fff", PRI)
     b += caja(290, 120, 320, "Saponificables", "con ácidos grasos · forman jabones", PRI)
     b += caja(830, 120, 330, "Insaponificables", "sin ácidos grasos · no forman jabones", ACC, "#fff4df")
     b += caja(160, 214, 180, "Simples", "solo C, H, O", TEAL, "#e3f4f1")
     b += caja(430, 214, 200, "Complejos", "también P, N, S…", TEAL, "#e3f4f1")
-    b += caja(90, 304, 140, "Acilglicéridos", "grasas", TEAL, "#e3f4f1")
-    b += caja(230, 304, 110, "Ceras", "", TEAL, "#e3f4f1")
-    b += caja(350, 304, 150, "Fosfoglicéridos", "fosfolípidos", LILA, "#efe6fb")
-    b += caja(520, 304, 160, "Esfingolípidos", "", LILA, "#efe6fb")
+    b += caja(80, 304, 140, "Acilglicéridos", "grasas", TEAL, "#e3f4f1")
+    b += caja(210, 304, 110, "Ceras", "", TEAL, "#e3f4f1")
+    b += caja(360, 304, 150, "Fosfoglicéridos", "fosfolípidos", LILA, "#efe6fb")
+    b += caja(525, 304, 160, "Esfingolípidos", "", LILA, "#efe6fb")
     b += caja(730, 214, 180, "Terpenos", "derivan del isopreno", ACC, "#fff4df")
     b += caja(930, 214, 180, "Esteroides", "derivan del esterano", ACC, "#fff4df")
     save("clasificacion-lipidos.svg", svg(1040, 335, b, "Clasificación de los lípidos en saponificables e insaponificables"))

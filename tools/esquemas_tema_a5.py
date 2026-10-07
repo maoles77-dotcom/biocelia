@@ -197,7 +197,7 @@ def inhibicion():
     b += f'<rect x="{x - 13}" y="134" width="26" height="36" rx="5" fill="#6d597a" stroke="#3c2f45" stroke-width="2"/>' + text(x, 157, "I", 14, weight=900, fill="#fff")
     b += f'<line x1="{x - 18}" y1="168" x2="{x + 18}" y2="168" stroke="{ROJO}" stroke-width="4"/>' + text(x, 236, "enlace covalente", 12, "middle", 900, fill=ROJO)
     b += text(x, 255, "unión permanente: la enzima", 12, weight=800, fill=GRIS) + text(x, 271, "queda inutilizada", 12, weight=800, fill=GRIS)
-    b += text(x, 293, "venenos (cianuro, metales pesados)", 12, weight=900, fill=ROJO)
+    b += text(x, 293, "venenos (metales pesados, gases nerviosos)", 12, weight=900, fill=ROJO)
     save("inhibicion.svg", svg(880, 305, b, "Inhibición competitiva, no competitiva e irreversible"))
 
 

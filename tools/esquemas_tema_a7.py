@@ -34,7 +34,7 @@ def clasificacion():
     b = ""
     for x, t, col, fondo, vits, props in (
         (200, "Hidrosolubles", BLUE, "#e3f1fb", ["C", "B₁", "B₂", "B₃", "B₉", "B₁₂"],
-         ["solubles en agua", "precursoras de coenzimas", "el exceso se elimina por la orina", "hay que tomarlas a diario"]),
+         ["solubles en agua", "precursoras de coenzimas", "el exceso se elimina por la orina", "hay que tomarlas con regularidad"]),
         (600, "Liposolubles", ACC, "#fff4df", ["A", "D", "E", "K"],
          ["solubles en grasas (lípidos)", "se absorben con las grasas", "se acumulan en hígado y tejido graso", "el exceso puede ser tóxico"])):
         b += f'<rect x="{x - 180}" y="20" width="360" height="300" rx="18" fill="{fondo}" stroke="{col}" stroke-width="3"/>'

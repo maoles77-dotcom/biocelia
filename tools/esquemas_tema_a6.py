@@ -61,16 +61,17 @@ def nucleotido():
     pos = {1: v[1], 2: v[2], 3: v[3], 4: v[4]}
     for k, p in pos.items():
         dx = 16 if p[0] > cx else -16
-        b += text(p[0] + dx, p[1] + (16 if p[1] > cy else -6), etq[k], 13, weight=900, fill=LILA)
+        dy = 20 if k in (1, 4) else (16 if p[1] > cy else -6)  # 1′ y 4′ debajo del vértice, lejos de los enlaces
+        b += text(p[0] + dx, p[1] + dy, etq[k], 13, weight=900, fill=LILA)
     # C5' y fosfato
     c5 = (v[4][0] - 30, v[4][1] - 34)
-    b += linea(v[4], c5, 3) + text(c5[0] + 2, c5[1] + 20, "5′", 13, weight=900, fill=LILA)
+    b += linea(v[4], c5, 3) + text(c5[0] + 24, c5[1] + 12, "C5′", 13, weight=900, fill=LILA)
     b += linea(c5, (150, c5[1]), 3) + fosfato(130, c5[1], 24)
-    b += text(200, c5[1] - 30, "enlace éster", 13, weight=900, fill=ACC) + text(200, c5[1] - 14, "(fosfoéster)", 12, weight=800, fill=ACC)
+    b += text(190, c5[1] - 30, "enlace éster", 13, weight=900, fill=ACC) + text(190, c5[1] - 14, "(fosfoéster)", 12, weight=800, fill=ACC)
     # base en C1'
     bpos = (480, v[1][1])
     b += linea(v[1], (bpos[0] - 40, bpos[1]), 3) + base_n(bpos[0], bpos[1], "A", 40)
-    b += text(405, bpos[1] - 26, "enlace", 13, weight=900, fill=ACC) + text(405, bpos[1] - 10, "N-glucosídico", 13, weight=900, fill=ACC)
+    b += text(400, bpos[1] - 34, "enlace", 13, weight=900, fill=ACC) + text(400, bpos[1] - 18, "N-glucosídico", 13, weight=900, fill=ACC)
     # OH en 2' y 3'
     p2, p3 = v[2], v[3]
     b += linea(p2, (p2[0], p2[1] + 30), 2.4) + text(p2[0], p2[1] + 46, "OH / H", 14, weight=900, fill=ROJO)
