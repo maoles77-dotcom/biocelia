@@ -444,6 +444,11 @@ def cloroplasto_grande():
 def nucleo_grande():
     b = nucleo(300, 220, 180)
     b += rer(480, 120, 150, 3)
+    # las cisternas del RER nacen de la membrana externa de la envoltura
+    for k in range(3):
+        yy = 120 + k * 14
+        xe = 300 + math.sqrt(180 ** 2 - (yy - 220) ** 2)
+        b += f'<path d="M{xe - 2:.1f},{yy} H482" fill="none" stroke="#7b5ea7" stroke-width="5" stroke-linecap="round"/>'
     L = [(300, 40, 600, 40, "envoltura nuclear (doble membrana)"), (134, 281, 20, 200, "poro nuclear"), (350, 180, 600, 200, "nucléolo"),
          (200, 270, 20, 300, "cromatina"), (300, 330, 600, 330, "nucleoplasma"), (520, 116, 600, 90, "RER (continuo con la envoltura)")]
     for x, y, tx, ty, s in L:
