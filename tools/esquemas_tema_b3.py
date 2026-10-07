@@ -99,7 +99,7 @@ def puntuales():
 
 # ---------------------------------------------------------------- cromosómicas
 COLS = {"A": "#e76f51", "B": "#f4a261", "C": "#e9c46a", "D": "#8ab17d", "E": "#2a9d8f", "F": "#457b9d", "G": "#6d597a",
-        "P": "#b8c0ff", "Q": "#9bf6ff", "R": "#caffbf"}
+        "P": "#b8c0ff", "Q": "#9bf6ff", "R": "#caffbf", "S": "#fdffb6"}
 
 
 def cromosoma(x, y, letras, cen=2, w=40, h=36):
@@ -133,9 +133,9 @@ def cromosomicas():
     b += text(30, y + 24, "Translocación", 16, "start", 900, fill=ROJO)
     b += text(30, y + 44, "intercambio entre cromosomas", 12, "start", 800, fill=GRIS)
     b += text(30, y + 60, "no homólogos", 12, "start", 800, fill=GRIS)
-    b += cromosoma(260, y, ["A", "B", "C", "D", "E", "F"]) + cromosoma(260, y + 46, ["P", "Q", "R", "R"], cen=1)
+    b += cromosoma(260, y, ["A", "B", "C", "D", "E", "F"]) + cromosoma(260, y + 46, ["P", "Q", "R", "S"], cen=1)
     b += flecha(580, y + 40, 640, y + 40)
-    b += cromosoma(660, y, ["A", "B", "C", "D", "R", "R"]) + cromosoma(660, y + 46, ["P", "Q", "E", "F"], cen=1)
+    b += cromosoma(660, y, ["A", "B", "C", "D", "R", "S"]) + cromosoma(660, y + 46, ["P", "Q", "E", "F"], cen=1)
     save("mutaciones-cromosomicas.svg", svg(1000, y + 100, b, "Mutaciones cromosómicas: deleción, duplicación, inversión y translocación"))
 
 
