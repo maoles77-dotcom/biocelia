@@ -185,15 +185,15 @@ def anticuerpo():
     b += f'<path d="M218,118 l14,14 l-14,10 z" fill="{LILA}"/></g>'
     b += et(140, 90, "antígeno", LILA, 14, "end", 900)
     # etiquetas
-    lab = [(600, 120, "Región variable (Fab):", ACC, "se une al antígeno → parátopo"),
+    lab = [(600, 120, "Región variable (puntas de los brazos)", ACC, "se une al antígeno → parátopo"),
            (600, 190, "Cadena ligera (L)", TEAL, "2 iguales"),
            (600, 250, "Cadena pesada (H)", PRI, "2 iguales; forman el tallo"),
            (600, 320, "Puentes disulfuro", ROJO, "unen las cadenas"),
-           (600, 410, "Región constante (Fc)", INK, "la reconocen fagocitos y complemento;"),
+           (600, 410, "Región constante", INK, "el tallo y el resto de los brazos;"),
            ]
     for x, y, t, c, s in lab:
         b += et(x, y, t, c, 15, "start", 900) + et(x, y + 20, s, GRIS, 12.5, "start")
-    b += et(600, 450, "define la clase (IgG, IgA, IgM, IgE, IgD)", GRIS, 12.5, "start")
+    b += et(600, 450, "la reconocen fagocitos y complemento;", GRIS, 12.5, "start") + et(600, 470, "define la clase (IgG, IgA, IgM, IgE, IgD)", GRIS, 12.5, "start")
     b += linea(470, 185, 590, 120, GRIS, 1.5) + linea(497, 190, 590, 188, GRIS, 1.5) + linea(392, 260, 590, 248, GRIS, 1.5)
     b += linea(378, 330, 590, 318, GRIS, 1.5) + linea(380, 440, 590, 410, GRIS, 1.5)
     b += et(40, 200, "epítopo: zona del", LILA, 13, "start", 900) + et(40, 218, "antígeno que reconoce", LILA, 13, "start", 900) + et(40, 236, "el anticuerpo", LILA, 13, "start", 900)
