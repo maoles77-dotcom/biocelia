@@ -26963,6 +26963,1864 @@
   },
   {
     "id": 1033,
+    "clave": "pau2025-tit-a-1",
+    "bloque": "Genética",
+    "tema": "Transcripción, traducción e insulina recombinante",
+    "tipo": "respuesta breve",
+    "pregunta": "En relación con la figura adjunta, responda a las siguientes cuestiones: a) Cite y defina los dos procesos que tienen lugar en la expresión de la información genética [0,5]. b) ¿Cómo se denomina la enzima marcada como E? [0,1]. c) Identifique los elementos de la figura señalados con los números del 1 al 5 [0,5]. d) Indique el nombre de los extremos del elemento 2 (señalados con a y b), y el de los extremos del elemento 5 (señalados con c y d) [0,4]. e) La insulina humana se produce a gran escala mediante ingeniería genética en bacterias. Sin embargo, el ADN humano contiene intrones que no pueden ser eliminados por las bacterias. ¿Por qué el uso de la transcriptasa inversa, una enzima que sintetiza ADN utilizando como molde una molécula de ARN, permite que una bacteria exprese correctamente el gen de la insulina humana y sintetice la proteína funcional? [0,5].",
+    "respuesta": [
+      "a) Transcripción: síntesis de una copia de ARN a partir de una secuencia de ADN; traducción: la información del ARNm se utiliza para producir la secuencia de aminoácidos de una proteína (0,05 p cada nombre y 0,2 p cada definición) (0,5 p).",
+      "b) ARN polimerasa (0,1 p).",
+      "c) 1: ADN; 2: ARNm; 3: subunidad menor del ribosoma; 4: subunidad mayor del ribosoma; 5: polipéptido (proteína) (0,5 p).",
+      "d) a: extremo 5′; b: extremo 3′; c: extremo amino (–NH₂); d: extremo carboxilo (–COOH) (0,4 p).",
+      "e) La transcriptasa inversa permite sintetizar un ADN sin intrones a partir de un ARN maduro el ARNm ya procesado; ese ADNc puede expresarlo la bacteria (0,5 p)."
+    ],
+    "palabras_clave": [
+      "ADN",
+      "ARN polimerasa",
+      "ARNm",
+      "Transcripción",
+      "extremo 3′",
+      "extremo 5′",
+      "extremo amino (–NH₂)",
+      "extremo carboxilo (–COOH)",
+      "información del ARNm se utiliza para producir la secuencia de aminoácidos de una proteína",
+      "polipéptido (proteína)",
+      "sintetizar un ADN sin intrones a partir de un ARN maduro",
+      "subunidad mayor del ribosoma",
+      "subunidad menor del ribosoma",
+      "síntesis de una copia de ARN a partir de una secuencia de ADN",
+      "traducción"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Titular-A_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Titular-A_Biologia.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2025/andalucia/tit-a-p1.webp"
+  },
+  {
+    "id": 1034,
+    "clave": "pau2025-tit-a-12",
+    "bloque": "Biomoléculas",
+    "tema": "Niveles estructurales de las proteínas",
+    "tipo": "respuesta breve",
+    "pregunta": "En relación con la imagen adjunta: a) Indique qué biomolécula está representada [0,1]. b) ¿Qué tipo de estructuras, de dicha biomolécula, representan los números del 1 al 5? [0,5]. c) Indiqué qué tipo de enlace representa el número 6 y entre qué grupos funcionales se establece [0,3]. d) Indique tres tipos de enlaces que intervengan en la estabilización de la estructura representada con el número 4 [0,3]. e) Si esta biomolécula se somete a una temperatura superior a 100 ºC, ¿qué ocurrirá y qué consecuencia tendrá? [0,3]. f) Indique cinco localizaciones en una célula eucariota en las que se puedan encontrar las estructuras implicadas en la síntesis de esta biomolécula [0,5].",
+    "respuesta": [
+      "a) Proteína o polipéptido (0,1 p).",
+      "b) 1: estructura primaria; 2: secundaria en lámina plegada (β); 3: secundaria en α-hélice; 4: terciaria; 5: cuaternaria (0,5 p).",
+      "c) Enlace peptídico, entre los grupos carboxilo y amino (0,3 p).",
+      "d) Puentes de hidrógeno, puentes disulfuro, fuerzas de Van der Waals, interacciones hidrofóbicas e interacciones iónicas (solo tres) (0,3 p).",
+      "e) Se desnaturalizará y perderá su función biológica (0,3 p).",
+      "f) Los ribosomas se encuentran en el citoplasma, retículo endoplasmático rugoso, mitocondrias, cloroplastos y membrana externa del núcleo (0,5 p)."
+    ],
+    "palabras_clave": [
+      "Enlace peptídico",
+      "Proteína o polipéptido",
+      "Puentes de hidrógeno",
+      "carboxilo y amino",
+      "citoplasma",
+      "cloroplastos",
+      "cuaternaria",
+      "desnaturalizará",
+      "estructura primaria",
+      "fuerzas de Van der Waals",
+      "interacciones hidrofóbicas",
+      "interacciones iónicas",
+      "membrana externa del núcleo",
+      "mitocondrias",
+      "perderá su función biológica",
+      "puentes disulfuro",
+      "retículo endoplasmático rugoso",
+      "secundaria en lámina plegada (β)",
+      "secundaria en α-hélice",
+      "terciaria"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Titular-A_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Titular-A_Biologia.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2025/andalucia/tit-a-p2-1.webp"
+  },
+  {
+    "id": 1035,
+    "clave": "pau2025-tit-a-22",
+    "bloque": "Biomoléculas",
+    "tema": "Estructura del ADN y su replicación",
+    "tipo": "respuesta breve",
+    "pregunta": "En relación con la figura adjunta: a) ¿Qué molécula está representada en la imagen? [0,2]. b) ¿Qué representan los números 1, 2, 3, 4 y el recuadro 5? [0,5]. c) Indique tres características que presente dicha molécula [0,6]. d) Indique el nombre del proceso de síntesis de esta molécula y el nombre de la enzima principal de dicho proceso [0,3]. e) Razone cómo afectaría a dicha enzima y a dicho proceso un incremento considerable de pH [0,4].",
+    "respuesta": [
+      "a) ADN (0,2 p).",
+      "b) 1: grupo fosfato; 2: desoxirribosa; 3: timina; 4: citosina; 5: desoxirribonucleótido (0,5 p).",
+      "c) (Solo tres) cadenas complementarias unidas por puentes de hidrógeno, hélice dextrógira, cadenas antiparalelas, enrollamiento plectonémico (0,6 p).",
+      "d) Replicación; ADN polimerasa (0,3 p).",
+      "e) Por su naturaleza proteica, el aumento del pH desnaturaliza la enzima y pierde su función: no se realizará la replicación (0,4 p)."
+    ],
+    "palabras_clave": [
+      "ADN",
+      "ADN polimerasa",
+      "Replicación",
+      "cadenas antiparalelas",
+      "cadenas complementarias unidas por puentes de hidrógeno",
+      "citosina",
+      "desnaturaliza la enzima",
+      "desoxirribonucleótido",
+      "desoxirribosa",
+      "enrollamiento plectonémico",
+      "grupo fosfato",
+      "hélice dextrógira",
+      "naturaleza proteica",
+      "no se realizará la replicación",
+      "pierde su función",
+      "timina"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Titular-A_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Titular-A_Biologia.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2025/andalucia/tit-a-p2-2.webp"
+  },
+  {
+    "id": 1036,
+    "clave": "pau2025-tit-a-13",
+    "bloque": "Biomoléculas",
+    "tema": "Glóbulos rojos en medios salinos y fosfolípidos",
+    "tipo": "respuesta breve",
+    "pregunta": "Los glóbulos rojos mantienen un contenido salino interno del 0,9 %, lo que es crucial para su función. Su membrana plasmática, compuesta en un alto porcentaje por fosfolípidos regula el equilibrio osmótico con el plasma sanguíneo. Considerando estos aspectos, razone: a) ¿Qué ocurriría con estas células si se inyectara a un individuo una solución salina que hiciera que la concentración final de sales en sangre fuese del 2,2 %? [0,5]. b) ¿Y si la concentración final de sales en sangre fuese del 0,01%? [0,5]. c) Indique la composición de los fosfolípidos y explique por qué su estructura los hace idóneos para formar membranas biológicas [1].",
+    "respuesta": [
+      "a) Estarían en un medio hipertónico: saldría agua de ellos (crenación) con riesgo de muerte celular (0,5 p). Los criterios admiten también «plasmólisis», término que en rigor se reserva para células con pared.",
+      "b) Estarían en un medio hipotónico: entraría agua, aumentando su volumen (turgencia) con riesgo de estallido (citólisis o hemólisis) (0,5 p).",
+      "c) Glicerina (glicerol), dos ácidos grasos y un ácido fosfórico unido a un aminoalcohol (0,4 p). Por su carácter anfipático, las cabezas polares se orientan hacia el agua y las colas apolares hacia el lado opuesto, formando bicapas lipídicas (0,6 p)."
+    ],
+    "palabras_clave": [
+      "Glicerina (glicerol)",
+      "aumentando su volumen",
+      "bicapas lipídicas",
+      "cabezas polares se orientan hacia el agua",
+      "carácter anfipático",
+      "colas apolares hacia el lado opuesto",
+      "crenación",
+      "dos ácidos grasos",
+      "entraría agua",
+      "medio hipertónico",
+      "medio hipotónico",
+      "riesgo de estallido (citólisis o hemólisis)",
+      "riesgo de muerte celular",
+      "saldría agua",
+      "ácido fosfórico unido a un aminoalcohol"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Titular-A_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Titular-A_Biologia.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 1037,
+    "clave": "pau2025-tit-a-23",
+    "bloque": "Célula",
+    "tema": "Fases de la mitosis y colchicina",
+    "tipo": "respuesta breve",
+    "pregunta": "En una clase de biología aplicada, en la que se está estudiando la mitosis en células somáticas de un organismo animal, se observa que: A. Los cromosomas comienzan a desplazarse hacia extremos opuestos de la célula. B. Los cromosomas están condensados y se alinean en el centro de la célula. C. Dos núcleos nuevos comienzan a formarse. a) ¿A qué fases de la mitosis corresponden A, B y C? [0,3]. b) ¿Qué fase de la mitosis no se ha observado? [0,1]. Indique tres acontecimientos que ocurren en esta fase [0,6]. c) Indique la importancia biológica que tiene la mitosis para este organismo [0,5]. d) Sabiendo que la colchicina inhibe la polimerización de la tubulina, ¿qué efectos tendría en la mitosis de estas células? Razone la respuesta [0,5].",
+    "respuesta": [
+      "a) A: anafase; B: metafase; C: telofase (0,3 p).",
+      "b) Profase (0,1 p). (Solo tres, 0,2 p cada uno) inicio de la condensación de los cromosomas, desaparición de la envoltura nuclear, desaparición del nucléolo, los centrosomas se desplazan hacia los polos y se forma el huso.",
+      "c) Crecimiento y renovación celular y tisular reparación de tejidos; las células hijas son genéticamente idénticas (0,5 p).",
+      "d) Se inhibiría la división celular: sin polimerizar la tubulina no se forman los microtúbulos ni el huso mitótico (0,5 p)."
+    ],
+    "palabras_clave": [
+      "Crecimiento",
+      "Profase",
+      "Se inhibiría la división celular",
+      "anafase",
+      "desaparición de la envoltura nuclear",
+      "desaparición del nucléolo",
+      "inicio de la condensación de los cromosomas",
+      "los centrosomas se desplazan hacia los polos",
+      "metafase",
+      "no se forman los microtúbulos ni el huso mitótico",
+      "renovación celular y tisular",
+      "telofase"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Titular-A_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Titular-A_Biologia.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 1038,
+    "clave": "pau2025-tit-a-14",
+    "bloque": "Inmunología",
+    "tema": "Alergia a la picadura de abeja",
+    "tipo": "respuesta breve",
+    "pregunta": "Ulani se mudó a España desde una isla remota sin saber que era alérgica a las abejas. No pasó mucho tiempo antes de que le picase una abeja, lo que le produjo una reacción inflamatoria local que desconcertó bastante a la isleña. Sus amigos intentaron explicarle en qué consistía la respuesta alérgica utilizando la siguiente imagen. a) ¿Qué tipo de inmunoglobulinas, señaladas con el número 1, son específicas de la respuesta alérgica? [0,2] y ¿cuál es la naturaleza química de las inmunoglobulinas? [0,2]. Describa su estructura molecular [0,2]. b) ¿Cómo se denominan las diferentes sustancias, como la señalada con el número 2, que desencadenan una respuesta alérgica? [0,2]. c) Indique el nombre de la célula de la imagen y el nombre de una sustancia liberada por dicha célula como consecuencia de la respuesta alérgica [0,4]. d) ¿Qué tipo de células producen las inmunoglobulinas? [0,2]. Nombre dos orgánulos o estructuras de dichas células implicados en la síntesis y secreción de inmunoglobulinas, e indique cómo se denomina, en general, el proceso por el que la célula libera dichas sustancias al exterior [0,6].",
+    "respuesta": [
+      "a) IgE; glucoproteica. Dos cadenas pesadas y dos ligeras unidas por enlaces disulfuro (0,6 p).",
+      "b) Alérgenos (0,2 p).",
+      "c) Mastocito (célula cebada) o basófilo (solo uno); histamina o heparina (solo una) (0,4 p).",
+      "d) Células plasmáticas (linfocitos B) (0,2 p). (Solo dos, 0,2 p cada uno) ribosomas, retículo endoplasmático rugoso, aparato de Golgi, vesículas de secreción. Exocitosis (secreción) (0,2 p)."
+    ],
+    "palabras_clave": [
+      "Alérgenos",
+      "Células plasmáticas (linfocitos B)",
+      "Dos cadenas pesadas y dos ligeras unidas por enlaces disulfuro",
+      "Exocitosis (secreción)",
+      "IgE",
+      "Mastocito (célula cebada)",
+      "aparato de Golgi",
+      "basófilo",
+      "glucoproteica",
+      "heparina",
+      "histamina",
+      "retículo endoplasmático rugoso",
+      "ribosomas",
+      "vesículas de secreción"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Titular-A_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Titular-A_Biologia.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2025/andalucia/tit-a-p4-1.webp"
+  },
+  {
+    "id": 1039,
+    "clave": "pau2025-tit-a-24",
+    "bloque": "Inmunología",
+    "tema": "Inmunidad innata y adquirida; humoral y celular",
+    "tipo": "respuesta breve",
+    "pregunta": "En relación con la imagen adjunta: a) ¿Qué tipos de inmunidad se representan con las letras A y B? [0,3]. b) ¿Qué tipos de respuestas inmunitarias se representan con las letras C y D? [0,2]. c) Nombre las moléculas o células señaladas con los números del 1 al 5 [0,5]. d) Cite dos orgánulos o estructuras celulares que estén implicados en la producción de la molécula señalada con el número 3 [0,3]. Indique una función de cada uno de estos orgánulos en relación con la síntesis de esta molécula [0,2]. e) Explique razonadamente cómo se relacionan los procesos de transcripción y traducción en la generación de una respuesta inmunitaria [0,5].",
+    "respuesta": [
+      "a) A: innata (congénita, inespecífica); B: adquirida (adaptativa, específica) (0,3 p).",
+      "b) C: humoral; D: celular (0,2 p).",
+      "c) 1: macrófago (neutrófilo o fagocito); 2: linfocito B; 3: inmunoglobulina (anticuerpo); 4: célula presentadora de antígenos; 5: linfocito T (colaborador) (0,5 p).",
+      "d) (Solo dos, 0,3 p) retículo endoplasmático rugoso, aparato de Golgi, ribosomas. Función (una por orgánulo, 0,1 p): RER, síntesis de proteínas, glucosilación; Golgi, maduración y secreción de proteínas; ribosomas, síntesis de proteínas.",
+      "e) Las células utilizan la información genética para producir proteínas específicas (anticuerpos, citocinas) necesarias para combatir a los patógenos los genes se transcriben a ARNm y este se traduce en los ribosomas (0,5 p)."
+    ],
+    "palabras_clave": [
+      "adquirida (adaptativa, específica)",
+      "anticuerpos, citocinas",
+      "aparato de Golgi",
+      "celular",
+      "célula presentadora de antígenos",
+      "humoral",
+      "inmunoglobulina (anticuerpo)",
+      "innata (congénita, inespecífica)",
+      "linfocito B",
+      "linfocito T (colaborador)",
+      "macrófago (neutrófilo o fagocito)",
+      "maduración y secreción de proteínas",
+      "necesarias para combatir a los patógenos",
+      "retículo endoplasmático rugoso",
+      "ribosomas",
+      "síntesis de proteínas",
+      "síntesis de proteínas, glucosilación",
+      "utilizan la información genética para producir proteínas específicas"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Titular-A_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Titular-A_Biologia.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2025/andalucia/tit-a-p4-2.webp"
+  },
+  {
+    "id": 1040,
+    "clave": "pau2025-tit-a-15",
+    "bloque": "Microbiología",
+    "tema": "Fermentaciones del yogur y del pan",
+    "tipo": "respuesta breve",
+    "pregunta": "La industria alimentaria aprovecha diversos procesos de fermentación para la producción de alimentos y bebidas como el yogur o el pan. a) ¿Qué tipo de fermentación se utiliza en la producción de yogur? [0,2]. ¿Qué microorganismos están involucrados en su producción? [0,2]. b) ¿Qué tipo de fermentación se utiliza en la producción de pan? [0,2]. ¿Qué microorganismos están implicados en su producción? [0,2]. ¿Qué gas se produce durante este proceso y qué función cumple en la elaboración del pan? [0,3]. Indique qué otro producto final se obtiene en la fermentación y razone si está presente o no en el pan [0,3]. c) Indique tres características diferenciadoras entre los microorganismos que producen el yogur y los que producen el pan [0,3]. d) La producción de pan y yogur depende del correcto funcionamiento de las enzimas que intervienen en estos procesos. Razone cómo afectaría a la actividad de estas enzimas un aumento o descenso moderado de la temperatura [0,3].",
+    "respuesta": [
+      "a) Fermentación láctica. Bacterias (Lactobacillus) (0,4 p).",
+      "b) Fermentación alcohólica. Levaduras (Saccharomyces) (0,4 p). CO₂, que aporta esponjosidad. Etanol, que no está en el pan porque se evapora durante la cocción (0,6 p).",
+      "c) (Solo tres) Bacterias: procariotas, pared de peptidoglucano (mureína), sin orgánulos membranosos, división por bipartición. Levaduras: eucariotas, pared de quitina y glucanos, con orgánulos membranosos, gemación o mitosis (0,3 p).",
+      "d) Las enzimas tienen una temperatura óptima: una variación moderada disminuye su actividad si se aleja de ella o la aumenta si se acerca (0,3 p)."
+    ],
+    "palabras_clave": [
+      "Bacterias (Lactobacillus)",
+      "CO₂",
+      "Etanol",
+      "Fermentación alcohólica",
+      "Fermentación láctica",
+      "Levaduras (Saccharomyces)",
+      "con orgánulos membranosos",
+      "disminuye su actividad si se aleja de ella",
+      "división por bipartición",
+      "esponjosidad",
+      "eucariotas",
+      "gemación o mitosis",
+      "la aumenta si se acerca",
+      "no está en el pan porque se evapora durante la cocción",
+      "pared de peptidoglucano (mureína)",
+      "pared de quitina",
+      "procariotas",
+      "sin orgánulos membranosos",
+      "temperatura óptima"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Titular-A_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Titular-A_Biologia.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 1041,
+    "clave": "pau2025-tit-a-25",
+    "bloque": "Metabolismo",
+    "tema": "β-oxidación de los ácidos grasos",
+    "tipo": "respuesta breve",
+    "pregunta": "Con relación a la beta-oxidación de los ácidos grasos: a) Indique la localización intracelular de dicho proceso en una célula eucariota [0,2]. b) En dicho proceso, ¿de qué tipo de molécula orgánica se parte y qué moléculas se obtienen como productos finales? [0,8]. c) Indique el nombre de una ruta en la que se puedan incorporar cada uno de los productos finales con objeto de obtener energía [0,6]. d) Nombre cuatro componentes, diferentes de los relacionados con la beta-oxidación de los ácidos grasos, que se encuentren en la misma localización intracelular [0,4].",
+    "respuesta": [
+      "a) Matriz mitocondrial (y peroxisomas) (0,2 p).",
+      "b) Se parte de acil-CoA (ácidos grasos); se obtienen acetil-CoA, NADH y FADH₂ (0,2 p cada una) (0,8 p).",
+      "c) Acetil-CoA: ciclo de Krebs; NADH y FADH₂: cadena transportadora de electrones (0,6 p).",
+      "d) (Solo cuatro) ADN circular, ribosomas, iones, ARN (ARNm, ARNt), enzimas del ciclo de Krebs, sustratos del ciclo de Krebs (0,4 p)."
+    ],
+    "palabras_clave": [
+      "ADN circular",
+      "ARN (ARNm, ARNt)",
+      "Acetil-CoA: ciclo de Krebs",
+      "Matriz mitocondrial",
+      "NADH y FADH₂: cadena transportadora de electrones",
+      "acetil-CoA, NADH y FADH₂",
+      "acil-CoA (ácidos grasos)",
+      "enzimas del ciclo de Krebs",
+      "iones",
+      "ribosomas",
+      "sustratos del ciclo de Krebs"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Titular-A_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Titular-A_Biologia.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 1042,
+    "clave": "pau2025-tit-b-1",
+    "bloque": "Metabolismo",
+    "tema": "Ciclo de Krebs y fermentaciones",
+    "tipo": "respuesta breve",
+    "pregunta": "Conteste a las siguientes cuestiones relacionadas con la figura adjunta: a) En un cultivo celular se ha puesto de manifiesto que hay una ruta catabólica, la número 1, que se desarrolla en el interior de un orgánulo. ¿De qué ruta se trata? [0,1]. b) Indique qué tipo de organización tienen las células de dicho cultivo [0,2]. Cuál es el nombre del orgánulo y del compartimento de dicho orgánulo donde se desarrolla la ruta 1 [0,4]. c) Indique la naturaleza química del GTP y su composición [0,4]. d) En un proceso biotecnológico tradicional, que tiene lugar en las células representadas con 2, se lleva a cabo una ruta alternativa a la 1. Indique el nombre de la ruta y sus productos finales [0,4]. e) Una ruta del mismo tipo que la anterior ocurre en el órgano representado con el número 3. Indique el nombre de la ruta y en qué condiciones se lleva a cabo dicha reacción [0,5].",
+    "respuesta": [
+      "a) Ciclo de Krebs (0,1 p).",
+      "b) Eucariota. Orgánulo: mitocondria; compartimento: matriz mitocondrial (0,6 p).",
+      "c) Nucleotídica (0,1 p); fosfato (trifosfato), ribosa, guanina (0,1 p cada uno).",
+      "d) Fermentación alcohólica (0,2 p); etanol y CO₂ (0,2 p).",
+      "e) Fermentación láctica (0,2 p); cuando se hace ejercicio físico intenso sin aporte suficiente de oxígeno (0,3 p)."
+    ],
+    "palabras_clave": [
+      "Ciclo de Krebs",
+      "Eucariota",
+      "Fermentación alcohólica",
+      "Fermentación láctica",
+      "Nucleotídica",
+      "ejercicio físico intenso sin aporte suficiente de oxígeno",
+      "etanol y CO₂",
+      "fosfato (trifosfato)",
+      "guanina",
+      "matriz mitocondrial",
+      "mitocondria",
+      "ribosa"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Titular-B_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Titular-B_Biologia.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2025/andalucia/tit-b-p1.webp"
+  },
+  {
+    "id": 1043,
+    "clave": "pau2025-tit-b-12",
+    "bloque": "Biomoléculas",
+    "tema": "Glucemia tras ingerir celulosa, glucosa o almidón",
+    "tipo": "respuesta breve",
+    "pregunta": "En una situación experimental, tras permanecer en ayunas, tres personas ingieren: la primera (A) una ración de celulosa; la segunda (B) una ración de glucosa; y la tercera (C) una ración de almidón. a) Ordene los tres casos en función de la rapidez con la que aumentará la glucemia (nivel de glucosa en sangre). Justifique su respuesta [0,6]. b) Cite tres propiedades de los polisacáridos [0,6] c) y explique la composición e importancia biológica de un polisacárido de origen vegetal [0,4]. d) Indique dos características exclusivas de las células vegetales y nombre la función que corresponde a cada característica [0,4].",
+    "respuesta": [
+      "a) Primero B: la glucosa se absorbe directamente; segundo C: el almidón debe hidrolizarse a glucosa antes de pasar a la sangre; tercero A: los humanos no pueden hidrolizar la celulosa, por lo que no aumentará la glucemia (0,6 p).",
+      "b) No tienen sabor dulce, son insolubles en agua o forman dispersiones coloidales, no cristalizan, no tienen poder reductor, son macromoléculas de elevada masa molecular (0,6 p).",
+      "c) (Solo uno; 0,2 p la composición y 0,2 p la importancia) Almidón: amilosa y amilopectina (polímeros de glucosa), reserva en las plantas; o celulosa: polímero de glucosa, forma la pared celular de las células vegetales.",
+      "d) (Solo dos, con una función cada una) pared celular / rigidez, protección; cloroplasto / fotosíntesis; vacuola / almacenamiento, turgencia; plasmodesmos / comunicación celular (0,4 p)."
+    ],
+    "palabras_clave": [
+      "A: los humanos no pueden hidrolizar la celulosa",
+      "Almidón",
+      "B: la glucosa se absorbe directamente",
+      "C: el almidón debe hidrolizarse a glucosa",
+      "No tienen sabor dulce",
+      "amilosa y amilopectina",
+      "celulosa",
+      "cloroplasto / fotosíntesis",
+      "forma la pared celular",
+      "insolubles en agua",
+      "macromoléculas de elevada masa molecular",
+      "no cristalizan",
+      "no tienen poder reductor",
+      "pared celular / rigidez, protección",
+      "plasmodesmos / comunicación celular",
+      "polímero de glucosa",
+      "reserva en las plantas",
+      "vacuola / almacenamiento, turgencia"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Titular-B_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Titular-B_Biologia.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 1044,
+    "clave": "pau2025-tit-b-22",
+    "bloque": "Biomoléculas",
+    "tema": "Misma composición de aminoácidos, distinta función",
+    "tipo": "respuesta breve",
+    "pregunta": "En un estudio bioquímico se llevó a cabo la hidrólisis total de una toxina bacteriana de naturaleza proteica (muestra A) y una enzima de ratón que no tiene ningún efecto tóxico (muestra B), y se determinó que la composición de aminoácidos era exactamente igual en ambas. a) Sabiendo que las proteínas de los seres vivos están constituidas por los mismos 20 aminoácidos, responda razonadamente cómo se puede explicar que la proteína de la muestra A sea tóxica y la proteína de la muestra B no lo sea [0,5]. b) Indique qué elementos y/o grupos químicos son comunes en la composición química de los 20 aminoácidos y cuales son diferentes [0,5]. c) Explique cómo puede afectar la temperatura a la actividad de una enzima [0,4]. d) Indique la composición química de los ribosomas y cuatro localizaciones de una célula eucariota donde se pueden encontrar realizando su función [0,6].",
+    "respuesta": [
+      "a) La función de las proteínas depende de la secuencia de aminoácidos y de su estructura: los mismos aminoácidos unidos en diferente orden dan estructuras primaria, secundaria y terciaria diferentes (otra conformación espacial) y, por tanto, funciones diferentes (0,5 p).",
+      "b) Comunes: un carbono α unido a un grupo amino, un grupo carboxilo y un hidrógeno. Diferente: el radical (cadena lateral), característico de cada aminoácido (0,5 p).",
+      "c) Hay una temperatura óptima de velocidad máxima; por debajo disminuye la actividad; por encima también disminuye hasta que la enzima se desnaturaliza y la actividad cesa (0,4 p).",
+      "d) Proteínas y ARN ribosómico (0,2 p). (Solo cuatro, 0,1 p cada una) libres en el citoplasma, en la membrana externa del núcleo, en el retículo endoplasmático rugoso, en cloroplastos y en mitocondrias."
+    ],
+    "palabras_clave": [
+      "Proteínas y ARN ribosómico",
+      "carbono α",
+      "cloroplastos",
+      "disminuye la actividad",
+      "estructura",
+      "estructuras primaria, secundaria y terciaria diferentes",
+      "funciones diferentes",
+      "grupo amino",
+      "grupo carboxilo",
+      "hidrógeno",
+      "la actividad cesa",
+      "libres en el citoplasma",
+      "membrana externa del núcleo",
+      "mitocondrias",
+      "radical (cadena lateral)",
+      "retículo endoplasmático rugoso",
+      "se desnaturaliza",
+      "secuencia de aminoácidos",
+      "temperatura óptima",
+      "unidos en diferente orden",
+      "velocidad máxima"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Titular-B_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Titular-B_Biologia.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 1045,
+    "clave": "pau2025-tit-b-13",
+    "bloque": "Célula",
+    "tema": "Membrana plasmática: componentes y funciones",
+    "tipo": "respuesta breve",
+    "pregunta": "En relación con la figura adjunta: a) ¿Qué estructura representa la imagen? [0,2]. b) Identifique los componentes señalados con las letras A, B, C, D, E, F y G [0,7]. c) Relacione las siguientes funciones con algún componente celular de los identificados: fluidez, reconocimiento celular, transporte de sustancias [0,6]. d) Explique la estructura y composición del componente señalado con la letra D, relacionándolo con su función [0,5].",
+    "respuesta": [
+      "a) Membrana biológica (plasmática) (0,2 p).",
+      "b) A: bicapa lipídica; B: oligosacárido; C: proteína transmembrana (integral); D: fosfolípido; E: colesterol; F: proteína periférica (extrínseca); G: glucoproteína (0,7 p).",
+      "c) Fluidez: D o E; reconocimiento celular: B (se acepta C y G); transporte: C (0,6 p).",
+      "d) Molécula anfipática: cabeza polar (hidrofílica) con un grupo fosfato unido a glicerol y cola apolar (hidrofóbica) de dos ácidos grasos. Las cabezas se orientan hacia el agua y las colas hacia el lado opuesto formando la bicapa (0,5 p)."
+    ],
+    "palabras_clave": [
+      "B",
+      "C",
+      "D o E",
+      "Membrana biológica (plasmática)",
+      "Molécula anfipática",
+      "bicapa lipídica",
+      "cabeza polar (hidrofílica)",
+      "cabezas se orientan hacia el agua",
+      "cola apolar (hidrofóbica)",
+      "colas hacia el lado opuesto",
+      "colesterol",
+      "dos ácidos grasos",
+      "fosfolípido",
+      "glucoproteína",
+      "grupo fosfato unido a glicerol",
+      "oligosacárido",
+      "proteína periférica (extrínseca)",
+      "proteína transmembrana (integral)"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Titular-B_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Titular-B_Biologia.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2025/andalucia/tit-b-p3-1.webp"
+  },
+  {
+    "id": 1046,
+    "clave": "pau2025-tit-b-23",
+    "bloque": "Célula",
+    "tema": "Célula eucariota y procariota; compartimentación",
+    "tipo": "respuesta breve",
+    "pregunta": "En relación con la figura adjunta, responda las siguientes cuestiones: a) Identifique el tipo de organización de las células representadas en A y B [0,2]. b) Indique el nombre de las partes señaladas con 1, 2, 3 y 4 [0,4]. c) Explique una función de los orgánulos señalados con 2 y 3 [0,4]. d) Explique por qué en la célula A se pueden llevar a cabo procesos que requieren diferentes condiciones de pH [0,5]. e) Indique dos diferencias entre la transcripción que realizan las células A y B [0,5].",
+    "respuesta": [
+      "a) A: eucariota; B: procariota (0,2 p).",
+      "b) 1: membrana plasmática; 2: mitocondria; 3: centrosoma (centriolos); 4: flagelo (0,4 p).",
+      "c) (Una por orgánulo) Mitocondria: respiración celular (ciclo de Krebs, β-oxidación…); centrosoma: formación del huso acromático, organizador de microtúbulos (0,4 p).",
+      "d) La compartimentación en orgánulos membranosos permite mantener condiciones fisicoquímicas distintas en cada uno (las membranas tienen permeabilidad selectiva) (0,5 p).",
+      "e) (Solo dos) Eucariotas: en el núcleo (y mitocondrias); procariotas: en el citoplasma. Eucariotas: tres ARN polimerasas (I, II y III); procariotas: una. En eucariotas el ARN necesita maduración; en procariotas no (0,5 p)."
+    ],
+    "palabras_clave": [
+      "centrosoma (centriolos)",
+      "compartimentación en orgánulos membranosos",
+      "el ARN necesita maduración",
+      "en el citoplasma",
+      "en el núcleo",
+      "eucariota",
+      "flagelo",
+      "formación del huso acromático",
+      "mantener condiciones fisicoquímicas distintas en cada uno",
+      "membrana plasmática",
+      "mitocondria",
+      "organizador de microtúbulos",
+      "permeabilidad selectiva",
+      "procariota",
+      "respiración celular",
+      "tres ARN polimerasas (I, II y III)",
+      "una"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Titular-B_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Titular-B_Biologia.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2025/andalucia/tit-b-p3-2.webp"
+  },
+  {
+    "id": 1047,
+    "clave": "pau2025-tit-b-14",
+    "bloque": "Genética",
+    "tema": "Mutaciones, evolución y edición génica",
+    "tipo": "respuesta breve",
+    "pregunta": "Conteste a las siguientes cuestiones: a) Razone qué aportan las mutaciones a la evolución de las especies [0,4]. b) En un mamífero, ¿qué tipo celular tiene que experimentar mutaciones para que éstas se transmitan a la descendencia? Razone la respuesta [0,4]. c) Indique una técnica de ingeniería genética utilizada para inducir mutaciones genéticas y que éstas tengan una aplicación biotecnológica [0,2]. Justifique por qué esta técnica es más ventajosa frente a otros métodos (físicos o químicos) para inducir mutaciones [0,4]. d) Proporcione dos ejemplos de aplicaciones biotecnológicas de dicha técnica [0,6].",
+    "respuesta": [
+      "a) Aportan variabilidad genética, sobre la que actúa la selección natural, y un aumento de la biodiversidad (0,4 p).",
+      "b) Las células germinales o gametos, porque son las que transmiten la información a la descendencia (0,4 p).",
+      "c) Edición génica (CRISPR-Cas9): es más precisa, tanto en el tipo de mutación como en el gen donde se produce, frente a los métodos físicos o químicos que causan mutaciones al azar (0,6 p).",
+      "d) (Solo dos) resistencia a plagas en cultivos, terapia génica, biorremediación (0,6 p)."
+    ],
+    "palabras_clave": [
+      "Edición génica (CRISPR-Cas9)",
+      "aumento de la biodiversidad",
+      "biorremediación",
+      "células germinales o gametos",
+      "gen donde se produce",
+      "más precisa",
+      "resistencia a plagas",
+      "terapia génica",
+      "tipo de mutación",
+      "transmiten la información a la descendencia",
+      "variabilidad genética"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Titular-B_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Titular-B_Biologia.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 1048,
+    "clave": "pau2025-tit-b-24",
+    "bloque": "Biotecnología",
+    "tema": "Enzimas de la ingeniería genética y estabilidad térmica",
+    "tipo": "respuesta breve",
+    "pregunta": "La ingeniería genética ha revolucionado la biotecnología al emplear enzimas especializadas que permiten manipular el ADN de manera precisa. Comprender las funciones de estas enzimas es esencial para su aplicación tanto en investigación como en los ámbitos clínico e industrial. a) Identifique a qué enzimas hacen referencia las siguientes frases relacionadas con técnicas de ingeniería genética [0,8]: 1) Permite amplificar fragmentos de ADN a partir de cantidades mínimas. 2) Reconoce una secuencia específica de ADN y lo corta. 3) Se utiliza para unir fragmentos de ADN en la creación de vectores de clonación. 4) Permite editar genes de forma precisa usando un ARN guía. b) Indique qué tipo de biomolécula es una enzima, qué monómeros la componen y nombre el tipo de enlace que los une [0,3]. c) Nombre los cinco tipos de enlaces que podrían estabilizar la estructura terciaria de una enzima [0,5]. d) En un laboratorio se está diseñando una enzima artificial para su uso en procesos industriales que requieren altas temperaturas. Dado que la estabilidad de las proteínas depende de varios tipos de enlaces, ¿cuál de estos enlaces sería más efectivo aumentar para mejorar la estabilidad térmica de la enzima? Explique su respuesta en función de las características de estos enlaces [0,4].",
+    "respuesta": [
+      "a) 1: ADN polimerasa (Taq polimerasa); 2: enzima de restricción; 3: ADN ligasa; 4: nucleasa (Cas9) (0,8 p).",
+      "b) Proteína; aminoácidos; enlace peptídico (0,3 p).",
+      "c) Puentes de hidrógeno, interacciones iónicas, fuerzas de Van der Waals, interacciones hidrofóbicas y enlaces disulfuro (0,5 p).",
+      "d) El enlace disulfuro: al ser covalente es más estable (fuerte) y elevaría la temperatura de desnaturalización (0,1 p el enlace y 0,3 p el razonamiento)."
+    ],
+    "palabras_clave": [
+      "ADN ligasa",
+      "ADN polimerasa (Taq polimerasa)",
+      "Proteína",
+      "Puentes de hidrógeno",
+      "aminoácidos",
+      "covalente es más estable (fuerte)",
+      "elevaría la temperatura de desnaturalización",
+      "enlace disulfuro",
+      "enlace peptídico",
+      "enlaces disulfuro",
+      "enzima de restricción",
+      "fuerzas de Van der Waals",
+      "interacciones hidrofóbicas",
+      "interacciones iónicas",
+      "nucleasa (Cas9)"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Titular-B_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Titular-B_Biologia.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 1049,
+    "clave": "pau2025-tit-b-15",
+    "bloque": "Inmunología",
+    "tema": "Barreras externas e inflamación",
+    "tipo": "respuesta breve",
+    "pregunta": "Las barreras externas del sistema inmunitario están presentes en distintas partes del organismo y, cuando fallan, el cuerpo activa respuestas como la inflamación. a) ¿Qué son las barreras externas del sistema inmunitario y cuál es su función principal? [0,5]. b) Clasifique las barreras externas y cite un ejemplo de cada tipo [0,6]. c) Defina qué es la respuesta inflamatoria y explique su función en la protección del organismo [0,5]. d) Indique dos tipos de moléculas de carácter proteico que participen en la respuesta inmunitaria y cómo contribuyen a la defensa del organismo [0,4].",
+    "respuesta": [
+      "a) Mecanismos inespecíficos que actúan como primera línea de defensa para impedir la entrada de patógenos (0,5 p).",
+      "b) (Un ejemplo de cada; 0,1 p el tipo y 0,1 p el ejemplo) Mecánicas o físicas: piel, mucosas; químicas: secreción ácida, lisozima, moco; biológicas: microbiota, péptidos antimicrobianos (0,6 p).",
+      "c) Respuesta inespecífica (innata) que se desencadena ante una infección o lesión de los tejidos; función: detectar, aislar y/o eliminar el agente dañino y reparar el tejido (0,5 p).",
+      "d) (Solo dos) Anticuerpos: identifican y neutralizan patógenos; citocinas: comunicación entre células inmunitarias; proteínas del complemento: destruyen microorganismos y facilitan la inflamación (0,4 p)."
+    ],
+    "palabras_clave": [
+      "Anticuerpos: identifican y neutralizan patógenos",
+      "Mecanismos inespecíficos",
+      "Mecánicas o físicas: piel, mucosas",
+      "Respuesta inespecífica (innata)",
+      "biológicas: microbiota, péptidos antimicrobianos",
+      "citocinas: comunicación entre células inmunitarias",
+      "detectar, aislar y/o eliminar el agente dañino",
+      "impedir la entrada de patógenos",
+      "infección o lesión de los tejidos",
+      "primera línea de defensa",
+      "proteínas del complemento: destruyen microorganismos y facilitan la inflamación",
+      "químicas: secreción ácida, lisozima, moco",
+      "reparar el tejido"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Titular-B_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Titular-B_Biologia.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 1050,
+    "clave": "pau2025-tit-b-25",
+    "bloque": "Inmunología",
+    "tema": "El «niño burbuja» (IDCG-ADA)",
+    "tipo": "respuesta breve",
+    "pregunta": "La inmunodeficiencia combinada grave por déficit de adenosina desaminasa (IDCG-ADA, también conocida como síndrome del \"niño burbuja\") es un trastorno hereditario raro por el que se daña el sistema inmunitario de manera que la persona presenta un número reducido de linfocitos B y linfocitos T. En consecuencia, estos pacientes tienen un riesgo alto de contraer infecciones potencialmente mortales causadas por virus, bacterias y hongos, además de mayor riesgo de padecer cáncer. La causa de la IDCG-ADA son mutaciones en el gen de la enzima adenosina desaminasa (ADA). a) Razone por qué los pacientes con IDG-ADA tienen mayor riesgo de padecer cáncer [0,4]. b) Indique dónde se originan y dónde maduran los linfocitos B y los linfocitos T [0,4]. c) Indique qué tipo de respuesta inmunológica específica es liderada por los linfocitos B y cuál por los linfocitos T [0,2]. d) Enumere cuatro reacciones diferentes que puedan producirse entre los anticuerpos y los antígenos y que permitan la eliminación de estos últimos [0,6]. e) Indique una técnica de ingeniería genética que podría emplearse para tratar y/o curar a los pacientes con IDG-ADA. Razone la respuesta [0,4].",
+    "respuesta": [
+      "a) Por la falta de linfocitos T (respuesta celular), encargados de eliminar las células tumorales (0,4 p).",
+      "b) Linfocitos B: se originan y maduran en la médula ósea. Linfocitos T: se originan en la médula ósea y maduran en el timo (0,4 p).",
+      "c) Linfocitos B: respuesta humoral; linfocitos T: respuesta celular (0,2 p).",
+      "d) (Solo cuatro, 0,15 p cada una) neutralización, aglutinación, precipitación, opsonización, activación del complemento, lisis por acción de células (0,6 p).",
+      "e) Terapia génica: modificación genética de los linfocitos introduciendo una copia funcional del gen ADA mediante CRISPR-Cas u otra técnica válida (0,4 p)."
+    ],
+    "palabras_clave": [
+      "CRISPR-Cas",
+      "Linfocitos B: se originan y maduran en la médula ósea",
+      "Linfocitos T: se originan en la médula ósea y maduran en el timo",
+      "Terapia génica",
+      "activación del complemento",
+      "aglutinación",
+      "eliminar las células tumorales",
+      "linfocitos T (respuesta celular)",
+      "lisis por acción de células",
+      "modificación genética de los linfocitos",
+      "neutralización",
+      "opsonización",
+      "precipitación",
+      "respuesta celular",
+      "respuesta humoral"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Titular-B_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Titular-B_Biologia.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 1051,
+    "clave": "pau2025-tit2-a-1",
+    "bloque": "Biotecnología",
+    "tema": "Ámbitos de la biotecnología y expresión génica",
+    "tipo": "respuesta breve",
+    "pregunta": "En relación con la imagen adjunta: a) Indique el ámbito de aplicación de la biotecnología a la que hacen referencia las figuras A, B, C y D [0,4]. ¿Cómo se denomina el animal generado en la figura D? [0,2]. Indique el nombre de la técnica de biotecnología que permite generar el animal de la figura D [0,2]. b) Indique un producto alimentario generado por un tipo de microorganismo diferente al representado en la figura C [0,1]. ¿Qué microorganismo lo produce? [0,1]. c) Defina el concepto de ingeniería genética [0,3]. d) ¿Qué nombre reciben los procesos que permiten que se exprese el mensaje genético? [0,2]. ¿Cuáles son las moléculas resultantes de cada uno de estos procesos y en qué estructura de la célula eucariótica se producen? [0,5].",
+    "respuesta": [
+      "a) A: medio ambiente (biorremediación); B: industria farmacéutica; C: industria alimentaria; D: salud o medicina (0,4 p). Animal: organismo modificado genéticamente (OMG) (0,2 p). Técnica: CRISPR-Cas (se admite tecnología del ADN recombinante) (0,2 p).",
+      "b) Pan, vino (solo uno, 0,1 p); levadura (0,1 p).",
+      "c) Manipulación del material genético de los organismos mediante técnicas de laboratorio que permiten modificar su información genética añadiendo, eliminando o alterando genes específicos (0,3 p).",
+      "d) Transcripción / ARN (ARNm) / núcleo (y mitocondrias y cloroplastos); traducción / proteína / ribosoma (0,2 p el proceso, 0,15 p la molécula y 0,1 p la estructura) (0,7 p)."
+    ],
+    "palabras_clave": [
+      "CRISPR-Cas",
+      "Manipulación del material genético",
+      "Pan, vino",
+      "Transcripción / ARN (ARNm) / núcleo",
+      "industria alimentaria",
+      "industria farmacéutica",
+      "levadura",
+      "medio ambiente (biorremediación)",
+      "modificar su información genética añadiendo, eliminando o alterando genes específicos",
+      "organismo modificado genéticamente (OMG)",
+      "salud o medicina",
+      "traducción / proteína / ribosoma",
+      "técnicas de laboratorio"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Titular2-A_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Titular2-A_Biologia.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2025/andalucia/tit2-a-p1.webp"
+  },
+  {
+    "id": 1052,
+    "clave": "pau2025-tit2-a-12",
+    "bloque": "Biomoléculas",
+    "tema": "Agua, sales minerales y vitamina A",
+    "tipo": "respuesta breve",
+    "pregunta": "Razone las siguientes cuestiones: a) ¿Cómo justificaría que los alimentos puedan conservarse mediante la salazón o el secado? [0,5]. b) Indique tres ejemplos de procesos biológicos que podrían verse afectados si las moléculas de agua no establecieran puentes de hidrógeno entre ellas [0,6]. c) Algunos organismos que viven en el agua, como los crustáceos y los moluscos, tienen caparazones o conchas. Otros, como los vertebrados, tienen esqueletos. ¿Qué tipo de moléculas que les confieren dureza tienen en común y son las más abundantes en estas estructuras? [0,1]. Cite dos ejemplos [0,2]. d) Rafael tiene dificultad para ver con claridad por la noche o en ambientes poco iluminados. Descartados aspectos patológicos y tras comprobar que tiene una alimentación deficiente, explique de forma razonada qué le podría estar causando esta dificultad visual [0,6].",
+    "respuesta": [
+      "a) Ambos procedimientos reducen el agua de los alimentos, esencial para las reacciones metabólicas: sin ella no hay actividad biológica ni crecimiento de microorganismos (0,5 p).",
+      "b) (Solo tres) ascenso de la savia bruta, transporte de nutrientes y desechos, termorregulación, amortiguación mecánica (0,6 p).",
+      "c) Sales minerales precipitadas, insolubles; fosfatos, carbonatos fosfato cálcico de los huesos, carbonato cálcico de conchas y caparazones (0,3 p).",
+      "d) Una dieta deficiente en vitamina A, que provoca ceguera nocturna es necesaria para formar la rodopsina de los bastones de la retina (0,6 p)."
+    ],
+    "palabras_clave": [
+      "Sales minerales",
+      "amortiguación mecánica",
+      "ascenso de la savia bruta",
+      "ceguera nocturna",
+      "dieta deficiente en vitamina A",
+      "esencial para las reacciones metabólicas",
+      "fosfatos, carbonatos",
+      "no hay actividad biológica ni crecimiento de microorganismos",
+      "reducen el agua de los alimentos",
+      "termorregulación",
+      "transporte de nutrientes y desechos"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Titular2-A_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Titular2-A_Biologia.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 1053,
+    "clave": "pau2025-tit2-a-22",
+    "bloque": "Genética",
+    "tema": "Temperatura de fusión del ADN y PCR",
+    "tipo": "respuesta breve",
+    "pregunta": "La desnaturalización del ADN se utiliza a menudo en técnicas de biología molecular. La temperatura de fusión (Tm) es aquella a la que el 50 % de la doble hélice se ha desnaturalizado. a) Explique de forma razonada si tendrá la misma temperatura de fusión un ADN en el que predomina la base nitrogenada citosina que otro ADN donde predomina la timina [0,6]. b) ¿Cómo se denominan los monómeros del ADN? [0,2] c) Indique la composición química de dichos monómeros y el enlace que los mantiene unidos [0,4]. d) Indique una técnica de ingeniería genética en la que sea necesaria en primer lugar la desnaturalización del ADN y nombre las otras dos fases de la misma [0,3] e) ¿Cuál es la finalidad de dicha técnica? [0,5].",
+    "respuesta": [
+      "a) Tendrá mayor temperatura de fusión el ADN rico en citosina, que forma tres puentes de hidrógeno con la guanina, mientras que la timina forma dos con la adenina (0,6 p).",
+      "b) Desoxirribonucleótidos (0,2 p).",
+      "c) Base nitrogenada, desoxirribosa y grupo fosfato (ácido ortofosfórico). Enlace: fosfodiéster (0,4 p).",
+      "d) PCR (reacción en cadena de la polimerasa). Hibridación de los cebadores y amplificación (extensión) (0,3 p).",
+      "e) Amplificar un fragmento específico de ADN (0,5 p)."
+    ],
+    "palabras_clave": [
+      "Amplificar un fragmento específico de ADN",
+      "Base nitrogenada, desoxirribosa y grupo fosfato",
+      "Desoxirribonucleótidos",
+      "Hibridación",
+      "PCR",
+      "amplificación (extensión)",
+      "fosfodiéster",
+      "mayor temperatura de fusión el ADN rico en citosina",
+      "timina forma dos con la adenina",
+      "tres puentes de hidrógeno con la guanina"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Titular2-A_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Titular2-A_Biologia.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 1054,
+    "clave": "pau2025-tit2-a-13",
+    "bloque": "Inmunología",
+    "tema": "Vacuna y suero en una granja de cerdos",
+    "tipo": "respuesta breve",
+    "pregunta": "Eladio Viñuela, destacado virólogo español, realizó contribuciones significativas en el estudio de enfermedades virales que afectan a los cerdos, como la peste porcina africana. Su trabajo ha sido fundamental para el desarrollo de estrategias de inmunización en la ganadería porcina. La imagen adjunta representa las dos estrategias (A y B) que se han empleado en una granja de cerdos para conseguir la inmunización frente al virus de la gripe porcina: a) ¿Qué tipo de inmunidad se consigue con cada estrategia? [0,2]. b) ¿Qué contiene la vacuna que se administra en la estrategia A? [0,1]. ¿Qué se administra en la estrategia B y qué nombre recibe este tratamiento? [0,2]. ¿Cuál de las estrategias es un tratamiento preventivo y cuál curativo? [0,2]. c) Cite un proceso natural por el que un organismo pueda desarrollar una respuesta semejante a la que se consigue con la estrategia A y otro que genere una respuesta semejante a la que se consigue cuando se emplea la estrategia B e identifique el tipo de inmunidad conseguida para cada caso [0,4]. Razone qué estrategia (A o B) sería más efectiva para proteger a los lechones recién nacidos [0,2]. d) Señale dos tipos de células inmunitarias que se activarían con la estrategia A e indique su función [0,4]. e) Teniendo en cuenta la naturaleza de la molécula administrada en la estrategia B, indique dos orgánulos membranosos que debería tener desarrollados la célula inmunitaria responsable de su producción, y el mecanismo por el que esta célula la liberaría al exterior para que ejerciera su función [0,3].",
+    "respuesta": [
+      "a) A: inmunidad artificial activa; B: inmunidad artificial pasiva (0,2 p).",
+      "b) A: virus atenuados (inactivados, fragmentos del virus, ARNm del virus) (0,1 p). B: anticuerpos (IgG); sueroterapia (0,2 p). A (vacuna): preventivo; B (suero): curativo (0,2 p). Atención: los criterios oficiales publicados dicen «A: curativo; B: preventivo», lo que es una errata evidente: la vacuna previene y el suero cura, como se razona en la pregunta 3.2 de este mismo examen.",
+      "c) A: exposición previa al virus (padecer la enfermedad) / inmunidad natural activa; B: paso de anticuerpos por la leche materna (se admite la placenta) / inmunidad natural pasiva (0,4 p). La A, porque al vacunar a la madre los anticuerpos maternos pasarían a los lechones a través de la leche (0,2 p).",
+      "d) Linfocitos B: producción de anticuerpos; linfocitos T: respuesta citotóxica (0,4 p).",
+      "e) (Solo dos) retículo endoplasmático rugoso, aparato de Golgi, vesículas de secreción. Liberación por exocitosis (0,3 p)."
+    ],
+    "palabras_clave": [
+      "/ inmunidad natural pasiva",
+      "La A",
+      "Linfocitos B: producción de anticuerpos",
+      "anticuerpos (IgG)",
+      "aparato de Golgi",
+      "curativo",
+      "exocitosis",
+      "exposición previa al virus (padecer la enfermedad) / inmunidad natural activa",
+      "inmunidad artificial activa",
+      "inmunidad artificial pasiva",
+      "linfocitos T: respuesta citotóxica",
+      "los anticuerpos maternos pasarían a los lechones a través de la leche",
+      "paso de anticuerpos por la leche materna",
+      "preventivo",
+      "retículo endoplasmático rugoso",
+      "sueroterapia",
+      "vesículas de secreción",
+      "virus atenuados"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Titular2-A_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Titular2-A_Biologia.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2025/andalucia/tit2-a-p3-1.webp"
+  },
+  {
+    "id": 1055,
+    "clave": "pau2025-tit2-a-23",
+    "bloque": "Inmunología",
+    "tema": "Fagocitosis, anticuerpos y sueroterapia frente al tétanos",
+    "tipo": "respuesta breve",
+    "pregunta": "En relación con la imagen adjunta: a) Identifique qué tipos celulares y procesos se representan en las imágenes B y C y en qué tipo de inmunidad participan A y C [0,8]. b) La molécula D participa en un tratamiento que genera respuesta inmunitaria artificial pasiva. Indique el nombre del tratamiento y el de la molécula D, así como su estructura [0,5]. c) En un posible caso de tétanos, los médicos aplicaron el tratamiento anterior, pues el paciente nunca había sido vacunado frente a esta enfermedad. ¿Por qué los médicos optaron por aplicar dicho tratamiento en lugar de vacunar frente al tétanos? [0,5]. d) El órgano representado en A sufre una herida que necesita reparar. Razone qué mecanismo de división celular se llevará a cabo para dicha reparación [0,2].",
+    "respuesta": [
+      "a) B: macrófago (neutrófilo o fagocito) fagocitando bacterias; C: linfocito B (célula plasmática) produciendo anticuerpos (no vale «linfocito» sin especificar). A: inmunidad innata (inespecífica); C: inmunidad adquirida (específica) (0,2 p cada uno) (0,8 p).",
+      "b) Sueroterapia (0,2 p). Inmunoglobulina (0,1 p). Dos cadenas pesadas y dos ligeras unidas por enlaces disulfuro (0,2 p).",
+      "c) La sueroterapia tiene un efecto curativo inmediato, mientras que con una vacuna la respuesta inmunitaria tardaría demasiado en producirse (0,5 p).",
+      "d) Mitosis, al ser células somáticas (0,2 p)."
+    ],
+    "palabras_clave": [
+      "Dos cadenas pesadas y dos ligeras unidas por enlaces disulfuro",
+      "Inmunoglobulina",
+      "Mitosis",
+      "Sueroterapia",
+      "células somáticas",
+      "efecto curativo inmediato",
+      "inmunidad adquirida (específica)",
+      "inmunidad innata (inespecífica)",
+      "la respuesta inmunitaria tardaría demasiado",
+      "linfocito B (célula plasmática) produciendo anticuerpos",
+      "macrófago (neutrófilo o fagocito) fagocitando bacterias"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Titular2-A_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Titular2-A_Biologia.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2025/andalucia/tit2-a-p3-2.webp"
+  },
+  {
+    "id": 1056,
+    "clave": "pau2025-tit2-a-14",
+    "bloque": "Célula",
+    "tema": "Inhibidores de la división celular e inhibición enzimática",
+    "tipo": "respuesta breve",
+    "pregunta": "En un laboratorio se ha diseñado un experimento para estudiar la división celular de una célula animal, en el cual se han utilizado tres moléculas que inhiben determinados procesos celulares: Molécula 1: inhibe la formación de microtúbulos. Molécula 2: inhibe la cadena de transporte de electrones de la mitocondria. Molécula 3: inhibe la formación de filamentos de actina. a) Explique de forma razonada cómo afecta cada una de estas moléculas a la división celular [0,9]. b) La cafeína impide la fusión de vesículas. Razone cómo podría afectar a la división de las células vegetales [0,4]. c) Para comprender en detalle cómo estos fármacos afectan a los procesos celulares, es esencial entender el papel de las enzimas y cómo su actividad puede ser modulada por inhibidores. Defina inhibidor enzimático y explique la inhibición enzimática competitiva y no competitiva [0,7].",
+    "respuesta": [
+      "a) Molécula 1: no se forma el huso mitótico y no se mueven los cromosomas; molécula 2: no se produce ATP y la célula no tiene energía para la división; molécula 3: no se produce la citocinesis anillo contráctil y no se separan las dos células hijas (0,9 p).",
+      "b) No se formaría el fragmoplasto (placa celular), por lo que no habría citocinesis (0,4 p).",
+      "c) Inhibidor: sustancia que disminuye o anula la actividad enzimática (0,2 p). Competitiva: el inhibidor se une al centro activo compitiendo con el sustrato; no competitiva: se une a un sitio distinto del centro activo y provoca un cambio conformacional que reduce la actividad (0,5 p)."
+    ],
+    "palabras_clave": [
+      "Competitiva",
+      "No se formaría el fragmoplasto (placa celular)",
+      "cambio conformacional",
+      "no competitiva",
+      "no habría citocinesis",
+      "no se forma el huso mitótico",
+      "no se mueven los cromosomas",
+      "no se produce ATP",
+      "no se produce la citocinesis",
+      "no tiene energía",
+      "se une al centro activo compitiendo con el sustrato",
+      "sustancia que disminuye o anula la actividad enzimática",
+      "un sitio distinto del centro activo"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Titular2-A_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Titular2-A_Biologia.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 1057,
+    "clave": "pau2025-tit2-a-24",
+    "bloque": "Célula",
+    "tema": "Membranas con poros o con cadena de transporte",
+    "tipo": "respuesta breve",
+    "pregunta": "En un laboratorio se analiza la composición en proteínas de dos muestras diferentes de membranas celulares. En la muestra A se detectan altos niveles de proteínas constituyentes de poros y en la muestra B se encuentran proteínas de la cadena de transporte de electrones. a) Explique de forma razonada si estas dos muestras podrían proceder de una misma célula [0,4]. b) Con la información que se ha proporcionado, ¿podría deducirse si la muestra B procede de una célula animal o vegetal? [0,4]. Razone la respuesta. Otro de los componentes de las muestras A y B es muy abundante y tiene naturaleza anfipática. c) Defina el concepto de molécula anfipática [0.2]. d) Indique el nombre de este compuesto de naturaleza anfipática y cuáles son sus componentes estructurales [0,5]. e) ¿Cómo se denomina la estructura celular que forman las moléculas anfipáticas? Explique qué efecto tendría sobre ella un cambio de temperatura [0,5].",
+    "respuesta": [
+      "a) Sí: A sería membrana del núcleo (envoltura con poros; se acepta membrana plasmática) y B de mitocondrias o plastos (0,4 p).",
+      "b) No: tanto las células animales como las vegetales tienen mitocondrias. También se admite «sí» si se razona que las cadenas de transporte de mitocondrias y cloroplastos se diferencian (0,4 p).",
+      "c) Molécula con regiones hidrofílicas (polares) e hidrofóbicas (apolares) (0,2 p).",
+      "d) Fosfolípido (0,1 p): glicerol, dos ácidos grasos, ácido fosfórico y un aminoalcohol (0,4 p).",
+      "e) Bicapa lipídica (0,1 p). Al subir la temperatura aumenta la fluidez; al bajar, se vuelve más rígida (0,4 p)."
+    ],
+    "palabras_clave": [
+      "Al subir la temperatura aumenta la fluidez",
+      "Bicapa lipídica",
+      "Fosfolípido",
+      "No",
+      "Sí",
+      "al bajar, se vuelve más rígida",
+      "glicerol, dos ácidos grasos, ácido fosfórico y un aminoalcohol",
+      "membrana del núcleo",
+      "mitocondrias o plastos",
+      "regiones hidrofílicas (polares) e hidrofóbicas (apolares)",
+      "tanto las células animales como las vegetales tienen mitocondrias"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Titular2-A_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Titular2-A_Biologia.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 1058,
+    "clave": "pau2025-tit2-a-15",
+    "bloque": "Metabolismo",
+    "tema": "β-oxidación en el ayuno y la diabetes",
+    "tipo": "respuesta breve",
+    "pregunta": "La beta-oxidación de ácidos grasos se intensifica en situaciones de ayuno prolongado y en personas diabéticas en ausencia de insulina. a) Explique por qué ocurre esto [0,5]. b) Indique si la beta-oxidación es un proceso anabólico o catabólico y por qué [0,5]. c) Indique cuáles son los productos finales de la oxidación total de los ácidos grasos, y dónde tiene lugar en las células eucariotas [0,5]. d) La imagen representa la fórmula química de un ácido graso. Identifique las partes señaladas como 1 y 2, e indique el nombre de su grupo funcional [0,5].",
+    "respuesta": [
+      "a) En ayunas disminuye la disponibilidad de glucosa y el organismo aumenta el metabolismo de las grasas para obtener energía; en la diabetes sin insulina ocurre algo similar porque las células no pueden incorporar glucosa (0,5 p).",
+      "b) Catabólico: los ácidos grasos se oxidan, se forman moléculas más simples y se desprende energía (0,5 p).",
+      "c) Productos (según los criterios): acetil-CoA, FADH₂ y NADH (0,3 p). Localización: matriz mitocondrial (y peroxisomas) (0,1 p). Matiz: esos son los productos de la β-oxidación; si se pregunta por la oxidación total, es decir, β-oxidación, ciclo de Krebs y cadena respiratoria, los productos finales son CO₂, H₂O y ATP.",
+      "d) 1: cabeza polar (0,2 p); 2: cola hidrófoba (0,2 p). Grupo funcional: carboxilo (0,2 p)."
+    ],
+    "palabras_clave": [
+      "Catabólico",
+      "acetil-CoA, FADH₂ y NADH",
+      "aumenta el metabolismo de las grasas para obtener energía",
+      "cabeza polar",
+      "carboxilo",
+      "cola hidrófoba",
+      "desprende energía",
+      "disminuye la disponibilidad de glucosa",
+      "las células no pueden incorporar glucosa",
+      "matriz mitocondrial",
+      "moléculas más simples",
+      "se oxidan"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Titular2-A_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Titular2-A_Biologia.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2025/andalucia/tit2-a-p5-1.webp"
+  },
+  {
+    "id": 1059,
+    "clave": "pau2025-tit2-a-25",
+    "bloque": "Metabolismo",
+    "tema": "Fotosíntesis en Elodea: luz y temperatura",
+    "tipo": "respuesta breve",
+    "pregunta": "Se realiza un experimento con plantas de Elodea (planta acuática) exponiéndolas a diferentes condiciones de luz y temperatura, tal y como se muestra en la figura. Tras cuatro horas, se mide la cantidad de oxígeno y glucosa en cada uno de los frascos. Teniendo en cuenta los resultados obtenidos, conteste a las siguientes preguntas: a) ¿Qué proceso metabólico tiene lugar para que se produzca O2 y glucosa? [0,1]. b) Explique de forma razonada los resultados obtenidos comparando exclusivamente las condiciones experimentales A y B [0,6]. c) Explique de forma razonada los resultados obtenidos comparando exclusivamente las condiciones experimentales A y C [0,6]. d) Explique qué técnica biotecnológica podría emplearse para introducir en Elodea un gen que le permita producir altos niveles de glucosa en condiciones de bajas temperaturas [0,6]. ¿Qué tipo de organismo resultaría después de aplicar esta técnica? [0,1].",
+    "respuesta": [
+      "a) Fotosíntesis (0,1 p).",
+      "b) En A, con más intensidad de luz que en B, hay más liberación de oxígeno y se produce más ATP y NADPH en la fase fotoquímica, que se usan en la fase biosintética para producir más glucosa (0,6 p).",
+      "c) En C, con la misma luz que A, la temperatura muy baja reduce la actividad de las enzimas, por lo que se produce menos O₂ y glucosa (0,6 p).",
+      "d) Técnica del ADN recombinante: introducir en Elodea un gen adaptado al frío procedente de un organismo capaz de realizar la fase biosintética a bajas temperaturas (0,6 p). Organismo modificado genéticamente (se admite transgénico) (0,1 p)."
+    ],
+    "palabras_clave": [
+      "Fotosíntesis",
+      "Organismo modificado genéticamente",
+      "Técnica del ADN recombinante",
+      "fase biosintética",
+      "fase biosintética a bajas temperaturas",
+      "gen adaptado al frío",
+      "menos O₂ y glucosa",
+      "más ATP y NADPH en la fase fotoquímica",
+      "más glucosa",
+      "más intensidad de luz",
+      "más liberación de oxígeno",
+      "temperatura muy baja reduce la actividad de las enzimas"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Titular2-A_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Titular2-A_Biologia.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2025/andalucia/tit2-a-p5-2.webp"
+  },
+  {
+    "id": 1060,
+    "clave": "pau2025-sup1-a-1",
+    "bloque": "Célula",
+    "tema": "Célula vegetal: glucosa, mitocondria y cloroplasto",
+    "tipo": "respuesta breve",
+    "pregunta": "Observe la figura y conteste a las siguientes cuestiones: a) Identifique el tipo celular representado con el número 1 y cite dos orgánulos o estructuras exclusivos de él [0,6]. b) Identifique la molécula indicada con el número 2 y clasifique dicha molécula según el número de átomos de carbono y presencia de grupo funcional [0,3]. c) Indique el orgánulo identificado con el número 3 y señale el nombre de las partes A y B de dicho orgánulo [0,3]. d) ¿Qué proceso metabólico, realizado en el orgánulo 3, requiere de la molécula resultante de la oxidación de la molécula 2? [0,2]. e) En el orgánulo señalado con el número 4 se realiza un proceso anabólico. Cite el nombre del orgánulo, el proceso del que se trata e indique la finalidad de dicho proceso [0,6].",
+    "respuesta": [
+      "a) Eucariota vegetal (0,2 p); (solo dos, 0,2 p cada uno) pared celular, cloroplastos, vacuola de gran tamaño, otros plastos.",
+      "b) Glucosa: hexosa (6 C) y aldosa (grupo aldehído): aldohexosa (0,3 p).",
+      "c) 3: mitocondria; A: cresta mitocondrial; B: matriz mitocondrial (0,3 p).",
+      "d) Respiración celular el piruvato obtenido de la glucosa en la glucólisis entra en la mitocondria (0,2 p).",
+      "e) Cloroplasto (0,1 p); fotosíntesis (0,2 p); finalidad: síntesis de moléculas orgánicas a partir de inorgánicas con la luz como fuente de energía (0,3 p)."
+    ],
+    "palabras_clave": [
+      "Cloroplasto",
+      "Eucariota vegetal",
+      "Glucosa",
+      "Respiración celular",
+      "aldohexosa",
+      "aldosa (grupo aldehído)",
+      "cloroplastos",
+      "cresta mitocondrial",
+      "fotosíntesis",
+      "hexosa (6 C)",
+      "luz como fuente de energía",
+      "matriz mitocondrial",
+      "mitocondria",
+      "otros plastos",
+      "pared celular",
+      "síntesis de moléculas orgánicas a partir de inorgánicas",
+      "vacuola de gran tamaño"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Suplente1-A_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Suplente1-A_Biologia.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2025/andalucia/sup1-a-p1.webp"
+  },
+  {
+    "id": 1061,
+    "clave": "pau2025-sup1-a-12",
+    "bloque": "Genética",
+    "tema": "Transcripción de un fragmento de ADN y mutaciones puntuales",
+    "tipo": "respuesta breve",
+    "pregunta": "La siguiente secuencia de nucleótidos corresponde a la hebra molde de una molécula de ADN de un gen bacteriano: 5′…ATGCCAGGGGAAAATGCGTTG…3′. a) ¿Cómo se denomina el proceso que da lugar a la formación del ARNm? [0,2]. b) Escriba la secuencia de la cadena de ARNm complementaria a este ADN indicando su polaridad [0,3]. c) ¿Qué diferencia hay entre la cadena molde y la cadena codificante? [0,3]. d) Razone cuál es el número máximo de aminoácidos que puede codificar este fragmento [0,3]. e) Represente la fórmula general de un aminoácido [0,4]. Si en la secuencia del ADN se produce una alteración que cambia una base por otra, f) ¿cómo se llamaría este fenómeno? [0,1]. Indique todas las posibles consecuencias que podría tener en el producto de la traducción [0,4].",
+    "respuesta": [
+      "a) Transcripción (0,2 p).",
+      "b) 3′…UACGGUCCCCUUUUACGCAAC…5′ (0,2 p la cadena y 0,1 p la polaridad).",
+      "c) La cadena molde es la que se transcribe; la codificante es la complementaria, que no se transcribe y tiene la misma secuencia que el ARNm, con T en lugar de U (0,3 p).",
+      "d) Los aminoácidos se codifican por tripletes (codones): con 21 nucleótidos, un máximo de 7 aminoácidos (0,3 p).",
+      "e) Carbono α central unido a un grupo amino, un grupo carboxilo, un hidrógeno y la cadena lateral R H₂N–CαHR–COOH (0,4 p).",
+      "f) Mutación puntual, por sustitución (0,1 p). Consecuencias (0,4 p): ninguna, si el nuevo codón codifica el mismo aminoácido o el cambio no afecta a la funcionalidad de la proteína; alteración de la función si se incorpora un aminoácido diferente; polipéptido más largo o más corto si desaparece el codón stop o aparece un codón stop prematuro."
+    ],
+    "palabras_clave": [
+      "21 nucleótidos",
+      "3′…UACGGUCCCCUUUUACGCAAC…5′",
+      "Carbono α central",
+      "Mutación",
+      "Transcripción",
+      "alteración de la función",
+      "cadena lateral R",
+      "cadena molde es la que se transcribe",
+      "codificante es la complementaria, que no se transcribe",
+      "desaparece el codón stop",
+      "grupo amino",
+      "grupo carboxilo",
+      "hidrógeno",
+      "máximo de 7 aminoácidos",
+      "ninguna",
+      "no afecta a la funcionalidad",
+      "polipéptido más largo o más corto",
+      "tripletes (codones)",
+      "un aminoácido diferente",
+      "un codón stop prematuro"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Suplente1-A_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Suplente1-A_Biologia.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 1062,
+    "clave": "pau2025-sup1-a-22",
+    "bloque": "Biotecnología",
+    "tema": "PCR: etapas, reactivos y Taq polimerasa",
+    "tipo": "respuesta breve",
+    "pregunta": "En un laboratorio se realizó un experimento de PCR (Reacción en Cadena de la Polimerasa). a) Defina qué es la PCR [0,4]. b) Describa las etapas principales de la PCR [0,6] e indique cuatro reactivos esenciales necesarios para llevar a cabo esta técnica en su conjunto [0,2]. c) ¿Qué propiedad especial tiene la ADN polimerasa utilizada en la PCR? [0,1]. ¿Por qué esta propiedad es importante para el proceso? [0,4]. d) Una de las aplicaciones de la PCR es la detección de mutaciones. Indique qué consecuencia tienen las mutaciones en las células de la línea germinal [0,3].",
+    "respuesta": [
+      "a) Técnica que permite amplificar fragmentos específicos de ADN mediante ciclos repetidos de replicación in vitro (0,4 p).",
+      "b) Desnaturalización: separación de las dos cadenas por alta temperatura; hibridación: unión de los cebadores a las secuencias complementarias del molde; amplificación (extensión): síntesis de nuevas cadenas por la ADN polimerasa (0,2 p cada una). Reactivos: ADN molde, cebadores, nucleótidos (dNTP), ADN polimerasa (Taq) (0,2 p).",
+      "c) Es termoestable (0,1 p): debe mantener su estructura durante la desnaturalización para seguir siendo funcional en los ciclos de amplificación (0,4 p).",
+      "d) Se transmitirán a la descendencia (0,3 p)."
+    ],
+    "palabras_clave": [
+      "ADN molde, cebadores, nucleótidos (dNTP), ADN polimerasa (Taq)",
+      "ADN polimerasa",
+      "Desnaturalización",
+      "Se transmitirán a la descendencia",
+      "alta temperatura",
+      "amplificación (extensión)",
+      "amplificar fragmentos específicos de ADN",
+      "cebadores",
+      "ciclos repetidos de replicación in vitro",
+      "hibridación",
+      "mantener su estructura durante la desnaturalización",
+      "siendo funcional en los ciclos de amplificación",
+      "termoestable"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Suplente1-A_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Suplente1-A_Biologia.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 1063,
+    "clave": "pau2025-sup1-a-13",
+    "bloque": "Biomoléculas",
+    "tema": "Dieta vegana, vitamina B₁₂ y anemia",
+    "tipo": "respuesta breve",
+    "pregunta": "Ainhoa decide seguir una dieta estrictamente vegana, excluyendo de su alimentación cualquier producto de origen animal, y sin consumir además ningún tipo de suplemento nutricional. Tras varios meses, comienza a experimentar fatiga, entumecimiento en las extremidades y dificultad para concentrarse. a) Teniendo en cuenta la información mostrada en la figura sobre el origen de ciertas vitaminas, explique razonadamente cuál podría ser la causa del malestar de Ainhoa [0,5]. b) Defina qué es una vitamina [0,2]. c) Clasifique las cuatro vitaminas que aparecen en la figura en dos grupos, justificando el criterio utilizado para su clasificación [0,8]. d) Una analítica revela que Ainhoa padece anemia, es decir, que presenta un número de glóbulos rojos inferior a lo normal, implicando una menor capacidad de transporte de oxígeno en sangre. Explique de forma razonada cómo afecta esta disminución de oxígeno a la producción de energía en las células [0,5].",
+    "respuesta": [
+      "a) Déficit de vitamina B₁₂, que se obtiene de productos de origen animal, que no se consumen en una dieta estrictamente vegana (0,5 p).",
+      "b) Sustancia que actúa en cantidades mínimas, imprescindible para el funcionamiento del organismo y mayoritariamente de procedencia exógena (0,2 p).",
+      "c) Criterio: solubilidad. Liposolubles: A y D; hidrosolubles: B₁₂ y C (0,8 p).",
+      "d) Con menos O₂ las células realizan con menor eficiencia la respiración aerobia y obtienen menos ATP (se acepta mencionar la glucólisis anaerobia) (0,5 p)."
+    ],
+    "palabras_clave": [
+      "Déficit de vitamina B₁₂",
+      "Liposolubles: A y D",
+      "de procedencia exógena",
+      "en cantidades mínimas",
+      "glucólisis anaerobia",
+      "hidrosolubles: B₁₂ y C",
+      "imprescindible para el funcionamiento del organismo",
+      "menor eficiencia la respiración aerobia",
+      "menos ATP",
+      "productos de origen animal",
+      "solubilidad"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Suplente1-A_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Suplente1-A_Biologia.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2025/andalucia/sup1-a-p3-1.webp"
+  },
+  {
+    "id": 1064,
+    "clave": "pau2025-sup1-a-23",
+    "bloque": "Biomoléculas",
+    "tema": "Lípidos y fluidez de membrana en climas fríos",
+    "tipo": "respuesta breve",
+    "pregunta": "Las siguientes figuras representan biomoléculas importantes desde el punto de vista bioquímico: a) Señale a qué grupo de biomoléculas pertenecen las cuatro representadas y especifique a qué tipo pertenece cada una de ellas, estableciendo la diferencia entre A y C [0,6]. b) En relación con el tipo de biomoléculas al que pertenecen, cite cinco funciones biológicas de este grupo [0,5]. c) Este tipo de biomoléculas forma parte de una estructura celular determinada. Indique su nombre [0,1]. Cite otros dos tipos de biomoléculas presentes en esta estructura [0,2]. d) Las células de las extremidades de los animales de climas fríos poseen en dicha estructura mayor proporción de una de las moléculas representadas. Deduzca cuál es y razone su respuesta [0,6].",
+    "respuesta": [
+      "a) Lípidos (0,2 p). A: ácido graso insaturado; B: esteroide (colesterol); C: ácido graso saturado; D: triacilglicérido (0,1 p cada uno) A tiene dobles enlaces y C no.",
+      "b) (Solo cinco) reserva energética, estructural, aislamiento térmico, transporte, vitaminas, hormonas (0,5 p).",
+      "c) Membranas biológicas. Proteínas y glúcidos (0,3 p).",
+      "d) Ácidos grasos insaturados: mantienen la fluidez de las membranas, que aumenta con los dobles enlaces, contrarrestando la baja temperatura. (Se acepta el colesterol, razonando que impide un empaquetamiento excesivo de los ácidos grasos a baja temperatura) (0,2 p la molécula y 0,4 p el razonamiento)."
+    ],
+    "palabras_clave": [
+      "Lípidos",
+      "Membranas biológicas",
+      "Proteínas y glúcidos",
+      "aislamiento térmico",
+      "aumenta con los dobles enlaces",
+      "colesterol",
+      "contrarrestando la baja temperatura",
+      "esteroide (colesterol)",
+      "estructural",
+      "fluidez de las membranas",
+      "hormonas",
+      "impide un empaquetamiento excesivo",
+      "reserva energética",
+      "transporte",
+      "triacilglicérido",
+      "vitaminas",
+      "Ácidos grasos insaturados",
+      "ácido graso insaturado",
+      "ácido graso saturado"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Suplente1-A_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Suplente1-A_Biologia.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2025/andalucia/sup1-a-p3-2.webp"
+  },
+  {
+    "id": 1065,
+    "clave": "pau2025-sup1-a-14",
+    "bloque": "Metabolismo",
+    "tema": "Catabolismo, anabolismo, NADH, NADPH y ATP",
+    "tipo": "respuesta breve",
+    "pregunta": "La célula necesita mantener un equilibrio entre la obtención de energía y el metabolismo de biomoléculas esenciales. Este equilibrio está mediado por procesos en los que participan moléculas clave como el NADH y el NADPH, y se dividen en procesos anabólicos y catabólicos. a) Indique tres diferencias entre catabolismo y anabolismo [0,6]. b) Indique en qué tipos de procesos del metabolismo participan el NADH y el NADPH y cite un ejemplo para cada uno de ellos [0,4]. c) Explique por qué el nucleótido ATP se considera una molécula energética, e indique dos procesos o rutas metabólicas en los que se sintetiza ATP y su localización en una célula eucariota [0,6]. d) Cite dos diferencias entre los nucleótidos que forman parte del ADN respecto a los del ARN [0,4].",
+    "respuesta": [
+      "a) (Solo tres) Catabolismo: oxidación, obtención de energía, degradación de moléculas complejas, rutas convergentes; anabolismo: reducción, gasto de energía, síntesis de moléculas complejas, rutas divergentes (0,6 p).",
+      "b) NADH: procesos catabólicos (glucólisis, ciclo de Krebs); NADPH: procesos anabólicos (fotosíntesis) (0,1 p cada proceso y 0,1 p cada ejemplo).",
+      "c) Contiene enlaces fosfato de alta energía (0,2 p). (Solo dos, 0,2 p cada una) glucólisis / citosol, fotosíntesis / cloroplasto, respiración celular / mitocondria.",
+      "d) La pentosa: desoxirribosa en el ADN y ribosa en el ARN; la timina solo en el ADN y el uracilo solo en el ARN (0,4 p)."
+    ],
+    "palabras_clave": [
+      "NADH: procesos catabólicos",
+      "NADPH: procesos anabólicos",
+      "degradación de moléculas complejas",
+      "desoxirribosa",
+      "enlaces fosfato de alta energía",
+      "fotosíntesis",
+      "fotosíntesis / cloroplasto",
+      "gasto de energía",
+      "glucólisis / citosol",
+      "glucólisis, ciclo de Krebs",
+      "obtención de energía",
+      "oxidación",
+      "pentosa",
+      "reducción",
+      "respiración celular / mitocondria",
+      "ribosa",
+      "rutas convergentes",
+      "rutas divergentes",
+      "síntesis de moléculas complejas",
+      "timina solo en el ADN",
+      "uracilo solo en el ARN"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Suplente1-A_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Suplente1-A_Biologia.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 1066,
+    "clave": "pau2025-sup1-a-24",
+    "bloque": "Metabolismo",
+    "tema": "Jardín en botella: CO₂, mitocondrias y cloroplastos",
+    "tipo": "respuesta breve",
+    "pregunta": "Los jardines en botella son ecosistemas artificiales que contienen plantas y microorganismos capaces de sobrevivir en una botella cerrada. Las plantas se autoabastecen utilizando las sales minerales y el agua presentes en el sustrato. a) Razone de qué tres tipos de organismos procedería, a largo plazo, el CO2 que necesitan las plantas para la síntesis de su materia orgánica [0,6]. b) ¿A qué tipo de organismos de este ecosistema afectaría, a corto y largo plazo, la adición de un compuesto que bloqueara el funcionamiento de las mitocondrias? Razone la respuesta [0,6]. c) Describa la estructura de la mitocondria y mencione dos procesos metabólicos que ocurren en su interior [0,6]. d) Nombre otro orgánulo presente en las células de los organismos del jardín en botella que contenga ribosomas 70S [0,2].",
+    "respuesta": [
+      "a) De la respiración celular de las plantas y de los microorganismos autótrofos y heterótrofos (0,6 p).",
+      "b) Los autótrofos y heterótrofos eucariotas morirían: no podrían respirar ni obtener energía (0,4 p). Los procariotas aerobios también se verían afectados a largo plazo, al faltar el oxígeno que producen las plantas (0,2 p).",
+      "c) Membrana externa, membrana interna (crestas), espacio intermembrana y matriz (0,4 p). (Solo dos, 0,1 p cada uno) fosforilación oxidativa, ciclo de Krebs, β-oxidación.",
+      "d) Cloroplasto (0,2 p)."
+    ],
+    "palabras_clave": [
+      "Cloroplasto",
+      "Membrana externa",
+      "a largo plazo",
+      "al faltar el oxígeno",
+      "autótrofos y heterótrofos eucariotas morirían",
+      "ciclo de Krebs",
+      "espacio intermembrana",
+      "fosforilación oxidativa",
+      "las plantas",
+      "matriz",
+      "membrana interna (crestas)",
+      "microorganismos autótrofos y heterótrofos",
+      "no podrían respirar ni obtener energía",
+      "procariotas aerobios",
+      "respiración celular",
+      "β-oxidación"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Suplente1-A_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Suplente1-A_Biologia.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 1067,
+    "clave": "pau2025-sup1-a-15",
+    "bloque": "Inmunología",
+    "tema": "Leucemia, trasplante de médula e inmunosupresores",
+    "tipo": "respuesta breve",
+    "pregunta": "Samuel ha sido diagnosticado de leucemia, un cáncer de médula ósea. El tratamiento que recibirá consiste en la destrucción de las células cancerígenas mediante quimioterapia. Después, se someterá a un trasplante de médula ósea de un donante compatible. Finalmente, recibirá un tratamiento con inmunosupresores. a) ¿Cuál es la función de la médula ósea? [0,3]. b) ¿Por qué Samuel deberá tomar inmunosupresores el resto de su vida? [0,5]. c) Explique de forma razonada, y para cada etapa del tratamiento (quimioterapia, trasplante e inmunosupresores), por qué Samuel debe usar mascarillas [0,6]. d) Una de las funciones del sistema inmunitario es la producción de anticuerpos. ¿Qué tipo celular los produce? [0,2]. e) ¿En qué compartimento membranoso y estructura de la célula se sintetizan los anticuerpos? [0,4].",
+    "respuesta": [
+      "a) Producción de las células sanguíneas, incluidos los glóbulos blancos (0,3 p).",
+      "b) Para evitar el rechazo de la médula trasplantada, que su sistema inmunitario reconocería como extraña (0,5 p).",
+      "c) En todas las etapas el sistema inmunitario está debilitado. Quimioterapia: destruye las cancerosas pero también las sanas de la médula, y se producen menos glóbulos blancos. Trasplante: aún no se producen suficientes glóbulos blancos. Inmunosupresores: reducen la actividad del sistema inmunitario para evitar el rechazo (0,6 p).",
+      "d) Células plasmáticas (linfocitos B) (0,2 p).",
+      "e) Retículo endoplasmático rugoso; ribosomas (0,4 p)."
+    ],
+    "palabras_clave": [
+      "Células plasmáticas (linfocitos B)",
+      "Producción de las células sanguíneas",
+      "Retículo endoplasmático rugoso",
+      "aún no se producen suficientes glóbulos blancos",
+      "evitar el rechazo",
+      "glóbulos blancos",
+      "menos glóbulos blancos",
+      "reconocería como extraña",
+      "reducen la actividad del sistema inmunitario",
+      "ribosomas",
+      "sistema inmunitario está debilitado",
+      "también las sanas de la médula"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Suplente1-A_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Suplente1-A_Biologia.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 1068,
+    "clave": "pau2025-sup1-a-25",
+    "bloque": "Inmunología",
+    "tema": "Pared bacteriana, barreras y respuesta primaria y secundaria",
+    "tipo": "respuesta breve",
+    "pregunta": "En la superficie de los macrófagos se localizan unos receptores específicos que detectan una serie de patrones moleculares situados generalmente en la pared celular de una bacteria patógena. Una vez detectados, se inicia la cascada de señalización celular asociada a la respuesta inmunitaria. a) Indique la composición de la pared celular bacteriana [0,3]. b) Clasifique los tres tipos de barreras externas que presenta nuestro sistema inmunitario para evitar la entrada de bacterias patógenas, y cite un ejemplo de cada una de ellas [0,6]. c) Defina antígeno [0,2]. d) Indique tres diferencias entre la respuesta inmunitaria específica que se genera una vez detectado el patógeno por primera vez y tras una segunda exposición al mismo patógeno [0,6]. e) Indique el número de monómeros que conforman la estructura molecular de las inmunoglobulinas IgA, IgE e IgM [0,3].",
+    "respuesta": [
+      "a) Peptidoglucano (mureína) (0,3 p).",
+      "b) (Un ejemplo de cada; 0,1 p la barrera y 0,1 p el ejemplo) mecánicas: piel, mucosas, cilios; químicas: lisozima, secreciones; biológica: microbiota (0,6 p).",
+      "c) Sustancia de naturaleza heterogénea capaz de inducir una respuesta inmunitaria (0,2 p).",
+      "d) (Solo tres, 0,2 p cada una) Primaria: lenta, sin células de memoria, IgM e IgG, menor concentración de anticuerpos, menos eficiente. Secundaria: tras sucesivos contactos, más rápida e intensa, con células de memoria, más anticuerpos, más eficiente.",
+      "e) IgA: dos (dímero) en las secreciones; en el suero es monomérica; IgE: una (monómero); IgM: cinco (pentámero) (0,3 p)."
+    ],
+    "palabras_clave": [
+      "IgA: dos (dímero)",
+      "IgE: una (monómero)",
+      "IgM e IgG",
+      "IgM: cinco (pentámero)",
+      "Peptidoglucano (mureína)",
+      "biológica: microbiota",
+      "con células de memoria",
+      "de naturaleza heterogénea",
+      "inducir una respuesta inmunitaria",
+      "lenta",
+      "mecánicas: piel, mucosas, cilios",
+      "menor concentración de anticuerpos",
+      "menos eficiente",
+      "más anticuerpos",
+      "más eficiente",
+      "más rápida e intensa",
+      "químicas: lisozima, secreciones",
+      "sin células de memoria",
+      "tras sucesivos contactos"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Suplente1-A_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Suplente1-A_Biologia.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 1069,
+    "clave": "pau2025-sup1-b-1",
+    "bloque": "Biomoléculas",
+    "tema": "Propiedades del agua en una expedición por el mundo",
+    "tipo": "respuesta breve",
+    "pregunta": "Una expedición científica, que viaja por todo el mundo para estudiar las propiedades del agua en distintas condiciones, realiza las observaciones que se detallan a continuación. Razone, para cada caso, la propiedad del agua que explica cada una de estas afirmaciones. a) En el Océano Glaciar Ártico se observa que, por debajo de la capa de hielo, hay grandes ballenas nadando [0,5]. b) En el desierto del Sahara, las plantas de los oasis no alcanzan la misma temperatura que la arena que las rodea [0,5]. c) En los bosques de secuoyas de Canadá, el agua absorbida por las raíces llega hasta las copas más altas [0,5]. d) En las zonas costeras de Andalucía, la temperatura en invierno es más cálida que en las zonas del interior de la región [0,5].",
+    "respuesta": [
+      "a) La mayor densidad del agua líquida que la del hielo hace que se forme una capa de hielo flotante que actúa como barrera (aislante) entre la atmósfera y el agua, que sigue líquida debajo (0,5 p).",
+      "b) La diferencia de calor específico entre la arena y las plantas, debida al agua que contienen (0,5 p) también ayuda el calor de vaporización del agua que transpiran.",
+      "c) La alta cohesión y adhesión de las moléculas de agua; se admite capilaridad (0,5 p).",
+      "d) El elevado calor específico del agua del mar, que almacena y libera el calor más lentamente (0,5 p)."
+    ],
+    "palabras_clave": [
+      "almacena y libera el calor más lentamente",
+      "alta cohesión y adhesión",
+      "barrera",
+      "calor específico",
+      "capa de hielo flotante",
+      "capilaridad",
+      "debida al agua que contienen",
+      "elevado calor específico del agua",
+      "mayor densidad del agua líquida que la del hielo"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Suplente1-B_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Suplente1-B_Biologia.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 1070,
+    "clave": "pau2025-sup1-b-12",
+    "bloque": "Inmunología",
+    "tema": "Estudio de alergología: inmunidad innata y adquirida",
+    "tipo": "respuesta breve",
+    "pregunta": "En un centro de salud se está realizando un estudio de alergología a un paciente. Para ello se analiza la viscosidad de la mucosidad de las vías respiratorias, la concentración de lisozimas (sustancias bactericidas) en lágrimas, así como la permeabilidad de la piel del paciente. Además, se realiza un análisis de sangre para medir la concentración de las siguientes células o moléculas: linfocitos T, mastocitos, perforinas, anticuerpos IgG, macrófagos e histaminas. Con relación a este estudio, conteste a las siguientes cuestiones: a) Identifique a qué tipo de inmunidad (innata y/o adquirida) pertenece cada elemento subrayado [0,9]. b) Indique dos efectos provocados por la histamina durante una respuesta alérgica [0,4]. c) ¿Qué células producen los anticuerpos? [0,2]. Indique cuál es la naturaleza química de estas moléculas [0,2]. Enumere tres reacciones diferentes que puedan producirse entre los anticuerpos y los antígenos y que permitan la eliminación de estos últimos [0,3].",
+    "respuesta": [
+      "a) Mucosidad: innata; lisozimas: innata; piel: innata; linfocitos T: adquirida; mastocitos: innata; perforinas: adquirida; anticuerpos IgG: adquirida; macrófagos: innata y adquirida; histamina: innata (0,1 p cada una). Matiz: las perforinas las liberan los linfocitos T citotóxicos, de la inmunidad adquirida, pero también las células NK, de la innata.",
+      "b) (Solo dos) vasodilatación, enrojecimiento, picor, hinchazón (0,4 p).",
+      "c) Células plasmáticas (linfocitos B) (0,2 p). Glucoproteica (0,2 p). (Solo tres, 0,1 p cada una) neutralización, aglutinación, precipitación, opsonización, activación del complemento."
+    ],
+    "palabras_clave": [
+      "Células plasmáticas (linfocitos B)",
+      "Glucoproteica",
+      "activación del complemento",
+      "adquirida",
+      "aglutinación",
+      "enrojecimiento",
+      "hinchazón",
+      "innata",
+      "innata y adquirida",
+      "neutralización",
+      "opsonización",
+      "picor",
+      "precipitación",
+      "vasodilatación"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Suplente1-B_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Suplente1-B_Biologia.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 1071,
+    "clave": "pau2025-sup1-b-22",
+    "bloque": "Inmunología",
+    "tema": "Enfermedades infecciosas, vacunas, antibióticos y antivirales",
+    "tipo": "respuesta breve",
+    "pregunta": "Cuando se produce un brote de enfermedades infecciosas, las autoridades sanitarias pueden implementar una campaña de vacunación como estrategia para prevenirlas. a) Defina qué es una enfermedad infecciosa e indique dos tipos de agentes patógenos que puedan causarla [0,8]. b) Explique cómo funcionan las vacunas como método de prevención [0,4]. ¿Cuál es su mecanismo de acción? [0,4]. c) Explique el mecanismo de acción de los antibióticos y de los antivirales en el tratamiento de enfermedades infecciosas [0,4].",
+    "respuesta": [
+      "a) La causada por microorganismos patógenos que invaden el organismo y se multiplican en él (0,4 p). (Solo dos, 0,2 p cada uno) bacterias, virus, hongos, protozoos.",
+      "b) Previenen enfermedades al estimular el sistema inmunitario y generar células de memoria para la respuesta secundaria (0,4 p). Mecanismo: introducir antígenos (atenuados, inactivados, sintéticos) que activan los linfocitos y generan anticuerpos y células de memoria (respuesta primaria) (0,4 p).",
+      "c) Antibióticos: actúan frente a bacterias, inhibiendo su crecimiento o destruyéndolas; antivirales: inhiben la replicación de los virus dentro de las células (0,4 p)."
+    ],
+    "palabras_clave": [
+      "activan los linfocitos",
+      "anticuerpos y células de memoria",
+      "bacterias",
+      "estimular el sistema inmunitario",
+      "frente a bacterias",
+      "generar células de memoria",
+      "hongos",
+      "inhiben la replicación de los virus",
+      "inhibiendo su crecimiento o destruyéndolas",
+      "introducir antígenos",
+      "microorganismos patógenos que invaden el organismo y se multiplican en él",
+      "protozoos",
+      "respuesta secundaria",
+      "virus"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Suplente1-B_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Suplente1-B_Biologia.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 1072,
+    "clave": "pau2025-sup1-b-13",
+    "bloque": "Célula",
+    "tema": "Ciclo celular, G0 y vincristina",
+    "tipo": "respuesta breve",
+    "pregunta": "En relación con la figura adjunta: a) Indique el nombre del proceso representado e indique las dos etapas en las que se divide [0,6]. b) Ciertas células permanecen indefinidamente en una de las fases de este proceso. Indique cuál es y cite un ejemplo de célula que permanezca en esta fase [0,4]. c) La vincristina se utiliza como fármaco para inhibir la polimerización de la tubulina. Razone qué consecuencias tendrá la utilización de dicho fármaco y qué utilidad puede tener desde el punto de vista médico [0,4]. d) ¿En qué momento de la fase M se produce la desorganización de la envoltura nuclear? [0,2]. Indique qué componentes del citoesqueleto intervienen en la citocinesis de la célula animal y qué estructura forman [0,4].",
+    "respuesta": [
+      "a) Ciclo celular (0,2 p); interfase y división celular (0,2 p cada una).",
+      "b) G0; ejemplo: neuronas, células musculares (solo una) (0,4 p).",
+      "c) Sin polimerizar la tubulina no se forma el huso mitótico y se inhibe la división celular. Utilidad: frenar el crecimiento de células que se dividen descontroladamente, como las cancerosas (0,4 p).",
+      "d) Profase. Microfilamentos de actina; anillo contráctil (0,2 p cada respuesta)."
+    ],
+    "palabras_clave": [
+      "Ciclo celular",
+      "G0",
+      "Microfilamentos de actina",
+      "Profase",
+      "anillo contráctil",
+      "células musculares",
+      "división celular",
+      "frenar el crecimiento de células que se dividen descontroladamente, como las cancerosas",
+      "interfase",
+      "neuronas",
+      "no se forma el huso mitótico",
+      "se inhibe la división celular"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Suplente1-B_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Suplente1-B_Biologia.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2025/andalucia/sup1-b-p3-1.webp"
+  },
+  {
+    "id": 1073,
+    "clave": "pau2025-sup1-b-23",
+    "bloque": "Célula",
+    "tema": "Microscopio óptico y electrónico; usos de las bacterias",
+    "tipo": "respuesta breve",
+    "pregunta": "Atendiendo a las siguientes fotografías obtenidas con dos tipos de microscopios, conteste a las siguientes preguntas: a) Identifique el tipo de microscopio con el que se ha obtenido cada una de ellas [0,2]. b) Explique tres diferencias entre los dos tipos de microscopios [0,6]. c) Defina poder de resolución [0,2]. d) Nombre dos características de las células representadas en A que hacen que sean muy empleadas en biotecnología [0,4]. e) Nombre tres ámbitos de aplicación diferentes de la biotecnología y un ejemplo para cada uno de ellos [0,6].",
+    "respuesta": [
+      "a) A: microscopio electrónico (de barrido); B: microscopio óptico (0,2 p).",
+      "b) (Solo tres) Poder de resolución mayor en el electrónico; fuente: luz visible (fotones) en el óptico y haz de electrones en el electrónico; lentes: de vidrio en el óptico y electromagnéticas en el electrónico; observación in vivo posible en el óptico y no en el electrónico (0,6 p).",
+      "c) Capacidad para distinguir dos puntos próximos como elementos separados (0,2 p).",
+      "d) (Solo dos) gran capacidad de multiplicación, fácil manipulación en el laboratorio, presencia de plásmidos (0,4 p).",
+      "e) (Tres ámbitos con un ejemplo) farmacéutica: hormonas, antibióticos; medio ambiente: mareas negras, depuración de aguas; energética: biocombustibles; ganadería: mejora de la producción de carne o leche (0,6 p)."
+    ],
+    "palabras_clave": [
+      "Capacidad para distinguir dos puntos próximos como elementos separados",
+      "Poder de resolución",
+      "electromagnéticas",
+      "energética: biocombustibles",
+      "farmacéutica: hormonas, antibióticos",
+      "fuente",
+      "fácil manipulación en el laboratorio",
+      "ganadería: mejora de la producción de carne o leche",
+      "gran capacidad de multiplicación",
+      "haz de electrones",
+      "lentes",
+      "medio ambiente: mareas negras, depuración de aguas",
+      "microscopio electrónico (de barrido)",
+      "microscopio óptico",
+      "observación in vivo",
+      "presencia de plásmidos"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Suplente1-B_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Suplente1-B_Biologia.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2025/andalucia/sup1-b-p3-2.webp"
+  },
+  {
+    "id": 1074,
+    "clave": "pau2025-sup1-b-14",
+    "bloque": "Metabolismo",
+    "tema": "β-oxidación y ciclo de Krebs",
+    "tipo": "respuesta breve",
+    "pregunta": "En relación con la imagen, conteste a las siguientes cuestiones: a) ¿Cómo se denominan los ciclos representados con las letras A y B? [0,3]. b) ¿Qué moléculas representan los números 1, 2, 3, 4, 5, 6 y 7? [0,7]. c) ¿De qué depende el número de vueltas que tiene que dar la molécula acil(n) graso-CoA en el ciclo A? [0,1]. d) ¿En qué localización intracelular tienen lugar los ciclos A y B? [0,2] Mencione tres moléculas o componentes que se puedan encontrar en dicha localización [0,3]. e) Describa la estructura del orgánulo donde se llevan a cabo los ciclos A y B [0,4].",
+    "respuesta": [
+      "a) A: β-oxidación; B: ciclo de Krebs (0,3 p).",
+      "b) 1: FAD; 2: FADH₂; 3: NAD⁺; 4: NADH; 5: acil(n-2) graso-CoA; 6: acetil-CoA; 7: ATP (o agua) (0,7 p).",
+      "c) De su número de átomos de carbono (0,1 p).",
+      "d) Matriz mitocondrial (0,2 p). (Solo tres, 0,1 p cada uno) ADN mitocondrial, ribosomas, enzimas del ciclo de Krebs (0,3 p). Los criterios citan también «plásmidos», poco habitual en mitocondrias: mejor no usarlo.",
+      "e) Membrana externa, membrana interna (crestas), espacio intermembrana y matriz (0,4 p)."
+    ],
+    "palabras_clave": [
+      "ADN mitocondrial",
+      "ATP",
+      "FAD",
+      "FADH₂",
+      "Matriz mitocondrial",
+      "Membrana externa",
+      "NADH",
+      "NAD⁺",
+      "acetil-CoA",
+      "acil(n-2) graso-CoA",
+      "ciclo de Krebs",
+      "enzimas del ciclo de Krebs",
+      "espacio intermembrana",
+      "matriz",
+      "membrana interna (crestas)",
+      "número de átomos de carbono",
+      "ribosomas",
+      "β-oxidación"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Suplente1-B_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Suplente1-B_Biologia.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2025/andalucia/sup1-b-p4-1.webp"
+  },
+  {
+    "id": 1075,
+    "clave": "pau2025-sup1-b-24",
+    "bloque": "Metabolismo",
+    "tema": "Cadena respiratoria, ATP sintasa y transporte",
+    "tipo": "respuesta breve",
+    "pregunta": "En relación con la imagen adjunta, conteste a las siguientes cuestiones: a) ¿Qué proceso está representado por el número 1? [0,1]. ¿A qué proceso hacen referencia, en su conjunto, los números 2, 3, 4, 5 y 6? [0,1]. ¿Con qué molécula, representada por la letra Y, comienza dicho proceso? [0,1]. ¿Qué compuesto representa la letra W? [0,1]. ¿En qué orgánulo se llevan a cabo estos procesos? [0,1]. b) ¿Qué representa el número 7 y en qué proceso interviene? [0,2]. c) ¿Qué representan las letras X, A y B? [0,3]. d) Indique dos semejanzas entre el proceso representado por 2, 3, 4, 5 y 6 y la cadena de transporte de electrones fotosintética [0,4]. e) Si se inhibe el proceso representado por 7, ¿cómo se afectarían la difusión simple, la difusión facilitada y el transporte activo en la célula? [0,6] Razone la respuesta.",
+    "respuesta": [
+      "a) 1: ciclo de Krebs; 2 a 6: cadena de transporte de electrones; Y: NADH; W: oxígeno; mitocondria (0,5 p).",
+      "b) 7: ATP sintasa; fosforilación oxidativa (0,2 p).",
+      "c) X: protones; A: ADP; B: ATP (0,3 p).",
+      "d) (Solo dos) reacciones redox acopladas; el transporte de electrones se acopla al bombeo de protones y genera un gradiente de protones; los transportadores están en membranas internas del orgánulo (membrana mitocondrial interna / tilacoides) (0,4 p).",
+      "e) Difusión simple y facilitada: no se afectan (salvo excepciones), porque no necesitan energía. Transporte activo: no se llevaría a cabo, porque necesita la energía (ATP) de las mitocondrias (0,6 p)."
+    ],
+    "palabras_clave": [
+      "ADP",
+      "ATP",
+      "ATP sintasa",
+      "Difusión simple y facilitada: no se afectan",
+      "NADH",
+      "Transporte activo: no se llevaría a cabo",
+      "cadena de transporte de electrones",
+      "ciclo de Krebs",
+      "fosforilación oxidativa",
+      "gradiente de protones",
+      "membranas internas del orgánulo",
+      "mitocondria",
+      "necesita la energía (ATP)",
+      "no necesitan energía",
+      "oxígeno",
+      "protones",
+      "reacciones redox acopladas",
+      "transporte de electrones se acopla al bombeo de protones"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Suplente1-B_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Suplente1-B_Biologia.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2025/andalucia/sup1-b-p4-2.webp"
+  },
+  {
+    "id": 1076,
+    "clave": "pau2025-sup1-b-15",
+    "bloque": "Genética",
+    "tema": "Célula eucariota y procariota: material genético y expresión",
+    "tipo": "respuesta breve",
+    "pregunta": "En el año 2113, como consecuencia de un ataque de robots, se pierden todos los registros taxonómicos y hay que volver a clasificar a los seres vivos mediante el estudio comparado de éstos. En un laboratorio de Almería, un grupo de investigadores se encargan de caracterizar las células 1 y 2 de la imagen. Para ayudarlos en su trabajo, indique: a) Una semejanza y una diferencia entre el material genético de ambas células [0,4]. b) La localización de los procesos de transcripción y traducción del material genético en cada una de estas células [0,8]. c) Si tuviese que usar una de las dos células para producir a gran escala una proteína humana mediante técnicas de ingeniería genética, indique cuál elegiría dando una razón para su elección [0,4]. d) Explique qué característica del código genético permite que puedan expresarse genes de un organismo en otro diferente [0,4].",
+    "respuesta": [
+      "a) (Una de cada) Semejanzas: composición (ADN, nucleótidos), doble hélice. Diferencias: lineal / circular, núcleo / citoplasma, con intrones / sin intrones (0,4 p).",
+      "b) Célula 1: transcripción en el núcleo y traducción en el citoplasma; célula 2: ambas en el citoplasma (0,2 p cada una) (0,8 p).",
+      "c) Célula 2 (0,2 p). Razón (solo una, 0,2 p): se divide más rápido, se transforma fácilmente con plásmidos recombinantes, medio de cultivo barato.",
+      "d) Su universalidad: en todos los organismos los codones codifican los mismos aminoácidos (0,4 p)."
+    ],
+    "palabras_clave": [
+      "Célula 2",
+      "ambas en el citoplasma",
+      "composición (ADN, nucleótidos)",
+      "con intrones / sin intrones",
+      "doble hélice",
+      "lineal / circular",
+      "los codones codifican los mismos aminoácidos",
+      "medio de cultivo barato",
+      "núcleo / citoplasma",
+      "se divide más rápido",
+      "se transforma fácilmente con plásmidos recombinantes",
+      "traducción en el citoplasma",
+      "transcripción en el núcleo",
+      "universalidad"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Suplente1-B_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Suplente1-B_Biologia.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2025/andalucia/sup1-b-p5-1.webp"
+  },
+  {
+    "id": 1077,
+    "clave": "pau2025-sup1-b-25",
+    "bloque": "Biotecnología",
+    "tema": "Producción de insulina humana en bacterias",
+    "tipo": "respuesta breve",
+    "pregunta": "La figura adjunta muestra de forma esquemática el proceso de producción de insulina humana: a) ¿Cómo se denomina el conjunto de técnicas que hace posible la producción de insulina? [0,2]. b) Indique los elementos o estructuras que se identifican con los números del 1 al 4 [0,8]. c) Indique dos tipos de enzimas necesarias para obtener el elemento 3 a partir de los elementos 1 y 2 [0,4]. d) Explique razonadamente cómo es posible que la industria produzca insulina humana a partir de un cultivo bacteriano siendo dos organismos (el ser humano y la bacteria) tan diferentes [0,6].",
+    "respuesta": [
+      "a) Tecnología del ADN recombinante (se acepta biotecnología o ingeniería genética) (0,2 p).",
+      "b) 1: plásmido (vector de clonación); 2: gen de la insulina humana; 3: ADN recombinante (plásmido recombinante); 4: bacteria transgénica o transformada (0,8 p).",
+      "c) Enzimas de restricción y ligasa (0,4 p).",
+      "d) La universalidad del código genético: en todos los organismos los codones codifican los mismos aminoácidos (0,6 p). En la práctica se introduce el gen sin intrones, como ADNc obtenido del ARNm, porque la bacteria no puede eliminarlos."
+    ],
+    "palabras_clave": [
+      "ADN recombinante (plásmido recombinante)",
+      "Enzimas de restricción y ligasa",
+      "Tecnología del ADN recombinante",
+      "bacteria transgénica o transformada",
+      "gen de la insulina humana",
+      "los codones codifican los mismos aminoácidos",
+      "plásmido (vector de clonación)",
+      "universalidad del código genético"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Suplente1-B_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Suplente1-B_Biologia.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2025/andalucia/sup1-b-p5-2.webp"
+  },
+  {
+    "id": 1078,
+    "clave": "pau2025-sup2-b-1",
+    "bloque": "Inmunología",
+    "tema": "Lupus: autoinmunidad, CMH e inmunosupresores",
+    "tipo": "respuesta breve",
+    "pregunta": "Selena Gómez, Kim Kardashian y Lady Gaga padecen lupus eritematoso sistémico, una enfermedad autoinmune. a) ¿Qué es una enfermedad autoinmune? [0,4]. Este tipo de enfermedades parecen ser más frecuentes en personas que presentan ciertas variantes del Complejo Mayor de Histocompatibilidad (CMH). b) Indique qué es el CMH y qué función tiene [0,4] c) y explique por qué estas variantes pueden tener relación con las enfermedades autoinmunes [0,4]. d) ¿Qué tratamiento reciben las personas que sufren este tipo de enfermedades y cómo actúan dichos compuestos? [0,4]. e) Razone si estos tratamientos pueden tener algún efecto negativo en los pacientes que los reciben [0,4].",
+    "respuesta": [
+      "a) La que ocurre cuando el sistema inmunitario ataca a las células y tejidos sanos del propio organismo (0,4 p).",
+      "b) Conjunto de genes que codifican proteínas de superficie que permiten al sistema inmunitario diferenciar entre las células propias y las extrañas y presentar antígenos a los linfocitos T (0,4 p).",
+      "c) Las células con estas variantes pueden presentar antígenos propios de forma anormal, activando al sistema inmunitario contra ellos (0,4 p).",
+      "d) Inmunosupresores (0,1 p): reducen la actividad del sistema inmunitario y con ello su actividad autolesiva (0,3 p).",
+      "e) Sí: al inhibir el sistema inmunitario, los pacientes son más propensos a otras enfermedades infecciones, algunos cánceres (0,4 p)."
+    ],
+    "palabras_clave": [
+      "Conjunto de genes que codifican proteínas de superficie",
+      "Inmunosupresores",
+      "Sí",
+      "activando al sistema inmunitario",
+      "actividad autolesiva",
+      "diferenciar entre las células propias y las extrañas",
+      "inhibir el sistema inmunitario",
+      "más propensos a otras enfermedades",
+      "presentar antígenos propios de forma anormal",
+      "reducen la actividad del sistema inmunitario",
+      "sistema inmunitario ataca a las células y tejidos sanos del propio organismo"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Suplente2-B_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Suplente2-B_Biologia.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 1079,
+    "clave": "pau2025-sup2-b-12",
+    "bloque": "Metabolismo",
+    "tema": "Obesidad, β-oxidación y ácido caproico",
+    "tipo": "respuesta breve",
+    "pregunta": "La obesidad es una condición compleja que implica un exceso de grasa corporal. a) Razone por qué una dieta muy rica en carbohidratos puede favorecer dicha condición [0,5]. Otra condición que puede causar obesidad es la mutación del gen que codifica la lipasa ácida lisosómica, lo que impide que los triacilglicéridos se degraden adecuadamente. b) Razone cómo la tecnología CRISPR-Cas podría ayudar a paliar dicha enfermedad [0,4]. c) Defina beta-oxidación de los ácidos grasos e indique un orgánulo de la célula eucariota, precisando la región concreta, donde tiene lugar [0,7]. El ácido caproico es un ácido graso de 6 átomos de carbono responsable del olor de las cabras. d) Indique cuántos ciclos de beta-oxidación requiere su degradación y cuántas moléculas de acetil-CoA se generan [0,4].",
+    "respuesta": [
+      "a) El exceso de carbohidratos favorece la síntesis de ácidos grasos a partir del acetil-CoA, y se almacenan como triacilglicéridos y/o la no utilización de la reserva de triacilglicéridos del tejido adiposo (0,5 p).",
+      "b) Permitiría editar el gen mutado, restableciendo la función de la lipasa ácida lisosómica (0,4 p).",
+      "c) Proceso catabólico cíclico en el que los ácidos grasos liberan dos átomos de carbono en forma de acetil-CoA por vuelta (0,5 p). Mitocondria, matriz (o interior de los peroxisomas) (0,1 p el orgánulo y 0,1 p la región).",
+      "d) Dos ciclos y tres moléculas de acetil-CoA 6 C ÷ 2 = 3 acetil-CoA; la última vuelta ya da dos (0,4 p)."
+    ],
+    "palabras_clave": [
+      "Dos ciclos",
+      "Mitocondria, matriz",
+      "Proceso catabólico cíclico",
+      "editar el gen mutado",
+      "exceso de carbohidratos favorece la síntesis de ácidos grasos",
+      "liberan dos átomos de carbono en forma de acetil-CoA por vuelta",
+      "no utilización de la reserva de triacilglicéridos",
+      "restableciendo la función de la lipasa ácida lisosómica",
+      "tres moléculas de acetil-CoA"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Suplente2-B_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Suplente2-B_Biologia.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 1080,
+    "clave": "pau2025-sup2-b-22",
+    "bloque": "Metabolismo",
+    "tema": "Fermentación frente a respiración celular",
+    "tipo": "respuesta breve",
+    "pregunta": "La fermentación y la respiración celular son dos procesos metabólicos fundamentales para la obtención de energía. Compare ambas vías considerando los siguientes aspectos: a) ¿Cuál es la principal diferencia entre el aceptor final de electrones en la fermentación y en la respiración celular? [0,4]. b) ¿Cómo influye esta diferencia en el rendimiento energético de cada proceso? Razone su respuesta [0,4]. c) ¿Cuáles son los principales productos finales de la fermentación alcohólica y láctica? [0,3]. ¿Y los de la respiración celular? [0,3]. d) Indique en qué localización celular de una célula eucariota se produce la fermentación y en cuál la respiración celular [0,2]. e) Para que todas las reacciones de estas rutas metabólicas se lleven a cabo de manera adecuada es necesario que las enzimas que participen en ellas funcionen correctamente. Razone cómo afectaría a la actividad de las enzimas un aumento o descenso moderado del pH [0,4].",
+    "respuesta": [
+      "a) En la fermentación es un compuesto orgánico; en la respiración, el oxígeno (0,4 p).",
+      "b) El de la respiración es mayor: hay oxidación total de la materia orgánica; en la fermentación, oxidación parcial (0,4 p).",
+      "c) Alcohólica: etanol y CO₂; láctica: lactato. Respiración: CO₂, H₂O y ATP (0,6 p).",
+      "d) Fermentación: citoplasma citosol; respiración: mitocondria salvo la glucólisis, que es citosólica (0,2 p).",
+      "e) Las enzimas tienen un pH óptimo: una variación moderada disminuye su actividad si se aleja de él o la aumenta si se acerca (0,4 p)."
+    ],
+    "palabras_clave": [
+      "CO₂, H₂O y ATP",
+      "citoplasma",
+      "disminuye su actividad si se aleja de él",
+      "el oxígeno",
+      "etanol y CO₂",
+      "la aumenta si se acerca",
+      "lactato",
+      "mitocondria",
+      "oxidación parcial",
+      "oxidación total",
+      "pH óptimo",
+      "respiración es mayor",
+      "un compuesto orgánico"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Suplente2-B_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Suplente2-B_Biologia.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 1081,
+    "clave": "pau2025-sup2-b-13",
+    "bloque": "Biomoléculas",
+    "tema": "Moléculas para una membrana artificial",
+    "tipo": "respuesta breve",
+    "pregunta": "En un laboratorio de microbiología se pretende sintetizar una membrana plasmática artificial similar a las de las células eucariotas animales. Para ello, se dispone de cinco compuestos diferentes, de los cuales únicamente se conoce la estructura molecular. Observando la imagen adjunta, conteste a las siguientes cuestiones: a) Relacione cada molécula representada (del 1 al 5) con uno de los siguientes compuestos: glucosa, colesterol, glicina, triacilglicérido, cera, fosfolípido, adenina, metionina [0,5]. b) Identifique cuáles de las moléculas son lípidos e indique si son saponificables o insaponificables [0,6]. c) Indique a qué tipo pertenecen y una función biológica que desarrollen el resto de biomoléculas de la figura no mencionadas en el apartado anterior [0,5]. d) Señale qué lípidos de los indicados forman parte de la membrana plasmática de la célula eucariota animal [0,2]. e) ¿Cuál de las moléculas indicadas en el apartado d) no se encuentra de forma habitual en la membrana de una célula procariota? [0,2].",
+    "respuesta": [
+      "a) 1: colesterol; 2: fosfolípido; 3: glucosa; 4: adenina; 5: triacilglicérido (0,5 p).",
+      "b) Lípidos: 1, 2 y 5 (0,1 p cada uno); saponificables: 2 y 5; insaponificable: 1 (0,1 p cada uno).",
+      "c) 3: glúcido (monosacárido), función energética (o estructural, de reserva); 4: base nitrogenada, función estructural forma parte de nucleótidos como el ATP o los ácidos nucleicos (0,1 p cada nombre y 0,15 p cada función).",
+      "d) 1 (colesterol) y 2 (fosfolípido) (0,2 p).",
+      "e) 1 (colesterol) (0,2 p)."
+    ],
+    "palabras_clave": [
+      "1 (colesterol)",
+      "1 (colesterol) y 2 (fosfolípido)",
+      "1, 2 y 5",
+      "adenina",
+      "base nitrogenada",
+      "colesterol",
+      "energética",
+      "estructural",
+      "fosfolípido",
+      "glucosa",
+      "glúcido (monosacárido)",
+      "insaponificable: 1",
+      "saponificables: 2 y 5",
+      "triacilglicérido"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Suplente2-B_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Suplente2-B_Biologia.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2025/andalucia/sup2-b-p3-1.webp"
+  },
+  {
+    "id": 1082,
+    "clave": "pau2025-sup2-b-23",
+    "bloque": "Biomoléculas",
+    "tema": "Funciones biológicas del agua",
+    "tipo": "respuesta breve",
+    "pregunta": "La figura adjunta representa diferentes funciones biológicas del agua: a) Nombre las funciones señaladas con los números del 1 al 4 [0,4]. b) Cite una propiedad fisicoquímica del agua que esté relacionada con cada una de estas funciones [0,8]. c) ¿Qué tipo de enlace o interacción ocurre entre las moléculas de agua? [0,2]. d) Algunos organismos que viven en el agua, como los crustáceos y los moluscos, tienen caparazones o conchas. Otros tienen esqueletos, como es el caso de los vertebrados. ¿Qué tipo de moléculas tienen en común y son las más abundantes en estas estructuras para conferirles dureza? [0,2]. e) Indique un proceso metabólico en el que, como resultado del transporte electrónico, se produzcan moléculas de agua y otro en el que se consuman [0,4].",
+    "respuesta": [
+      "a) 1: disolvente; 2: permitir la vida acuática en climas fríos (aislante térmico); 3: termorreguladora (refrigerante); 4: transporte de sustancias (0,4 p).",
+      "b) 1: carácter dipolar (elevada constante dieléctrica); 2: mayor densidad en estado líquido que en sólido; 3: elevado calor de vaporización; 4: elevada cohesión molecular (0,8 p).",
+      "c) Puentes de hidrógeno (0,2 p).",
+      "d) Sales minerales precipitadas: carbonato y fosfato cálcico (0,2 p).",
+      "e) Producción: respiración celular (oxidación del poder reductor del ciclo de Krebs en la cadena respiratoria); consumo: fotosíntesis (fotólisis del agua) (0,4 p)."
+    ],
+    "palabras_clave": [
+      "Puentes de hidrógeno",
+      "Sales minerales",
+      "carácter dipolar (elevada constante dieléctrica)",
+      "disolvente",
+      "elevada cohesión molecular",
+      "elevado calor de vaporización",
+      "fotosíntesis",
+      "fotólisis del agua",
+      "mayor densidad en estado líquido que en sólido",
+      "permitir la vida acuática en climas fríos (aislante térmico)",
+      "poder reductor",
+      "respiración celular",
+      "termorreguladora (refrigerante)",
+      "transporte de sustancias"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Suplente2-B_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Suplente2-B_Biologia.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2025/andalucia/sup2-b-p3-2.webp"
+  },
+  {
+    "id": 1083,
+    "clave": "pau2025-sup2-b-14",
+    "bloque": "Genética",
+    "tema": "No disyunción en la meiosis femenina: trisomía",
+    "tipo": "respuesta breve",
+    "pregunta": "En relación con el esquema adjunto, que representa el proceso de meiosis simplificado, y considerando únicamente el mismo par de cromosomas homólogos (de los 23 pares) de las células germinales de un hombre y una mujer, conteste a las siguientes cuestiones: a) ¿Qué tipo de célula son a, b y c? [0,3]. b) ¿Qué particularidad genética presenta c? [0,3] ¿Qué nombre recibe este cambio en el genotipo? [0,3]. Explique si este tipo de cambio afecta sólo a los cromosomas autosómicos o puede afectar también a los sexuales [0,2]. c) Según el esquema, indique la causa que ha originado este cambio en el genotipo [0,4]. d) Indique cinco eventos destacados de la meiosis I [0,5].",
+    "respuesta": [
+      "a) a: espermatozoide; b: óvulo; c: cigoto (0,3 p).",
+      "b) Tiene tres cromosomas del par en vez de dos (0,3 p). Mutación genómica (trisomía, aneuploidía) (0,3 p). Puede afectar a cualquier cromosoma, autosómico o sexual, porque es una segregación anómala y azarosa (0,2 p).",
+      "c) En la primera división meiótica de las células germinales femeninas no se separaron los cromosomas homólogos (no disyunción) (0,4 p).",
+      "d) (Solo cinco) apareamiento de homólogos, entrecruzamiento e intercambio entre cromátidas no hermanas, segregación al azar de los homólogos, reducción del número de cromosomas, dos células haploides a partir de una diploide (0,5 p)."
+    ],
+    "palabras_clave": [
+      "Mutación genómica (trisomía, aneuploidía)",
+      "Puede afectar a cualquier cromosoma",
+      "apareamiento de homólogos",
+      "cigoto",
+      "cromátidas no hermanas",
+      "dos células haploides a partir de una diploide",
+      "entrecruzamiento",
+      "espermatozoide",
+      "primera división meiótica de las células germinales femeninas no se separaron los cromosomas homólogos",
+      "reducción del número de cromosomas",
+      "segregación al azar de los homólogos",
+      "segregación anómala y azarosa",
+      "tres cromosomas del par en vez de dos",
+      "óvulo"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Suplente2-B_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Suplente2-B_Biologia.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2025/andalucia/sup2-b-p4-1.webp"
+  },
+  {
+    "id": 1084,
+    "clave": "pau2025-sup2-b-24",
+    "bloque": "Biotecnología",
+    "tema": "PCR y diagnóstico de la enfermedad de Huntington",
+    "tipo": "respuesta breve",
+    "pregunta": "La figura 1 muestra un esquema de una PCR. a) ¿Qué finalidad tiene esta técnica? [0,2]. b) ¿Qué representan A, B y C? [0,3]. c) Nombre las fases 1, 2 y 3 e indique su finalidad [0,6]. La enfermedad de Huntington está provocada por la repetición de un codón en un gen situado en el cromosoma 4. Los individuos sanos tienen entre 10 y 35 repeticiones, mientras que los que tienen más de 40 repeticiones desarrollan la enfermedad. Para diagnosticar si cuatro pacientes con síntomas asociables a esa enfermedad la padecen, se diseñaron cebadores específicos a ambos lados de dichas repeticiones y se realizó una PCR. La figura 2 muestra el resultado del análisis tras separar los productos de las PCR por tamaños. d) A la vista de los resultados, razone qué pacientes pueden sufrir la enfermedad [0,4]. Además del diagnóstico de enfermedades genéticas, la PCR tiene otras aplicaciones. e) Indique dos de ellas [0,2]. f) La Taq polimerasa participa en la fase 3. Indique qué naturaleza tiene dicha molécula y qué la diferencia de otras polimerasas que le permite ser utilizada en la PCR [0,3].",
+    "respuesta": [
+      "a) Amplificar (replicar) una secuencia específica de ADN (0,2 p).",
+      "b) A: ADN molde; B: nucleótidos (desoxirribonucleótidos); C: cebador (0,3 p).",
+      "c) 1: desnaturalización / separar las dos cadenas; 2: hibridación / unir el cebador a la hebra complementaria; 3: amplificación (extensión) / sintetizar nuevas hebras complementarias (0,1 p el nombre y 0,1 p la finalidad).",
+      "d) Los pacientes 1 y 4, porque sus fragmentos tienen más de 120 nucleótidos (3 nucleótidos × 40 repeticiones) (0,4 p).",
+      "e) (Solo dos) pruebas de paternidad, identificación de mutaciones, diagnóstico de enfermedades infecciosas, medicina forense (0,2 p).",
+      "f) Proteica (enzimática); termoestable (0,3 p)."
+    ],
+    "palabras_clave": [
+      "ADN molde",
+      "Amplificar (replicar) una secuencia específica de ADN",
+      "Los pacientes 1 y 4",
+      "Proteica (enzimática)",
+      "amplificación (extensión) / sintetizar nuevas hebras complementarias",
+      "cebador",
+      "desnaturalización / separar las dos cadenas",
+      "diagnóstico de enfermedades infecciosas",
+      "hibridación / unir el cebador a la hebra complementaria",
+      "identificación de mutaciones",
+      "medicina forense",
+      "más de 120 nucleótidos (3 nucleótidos × 40 repeticiones)",
+      "nucleótidos (desoxirribonucleótidos)",
+      "pruebas de paternidad",
+      "termoestable"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Suplente2-B_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Suplente2-B_Biologia.pdf",
+    "dificultad": "media",
+    "imagen": "assets/figuras/historico/2025/andalucia/sup2-b-p4-2.webp"
+  },
+  {
+    "id": 1085,
+    "clave": "pau2025-sup2-b-15",
+    "bloque": "Célula",
+    "tema": "Transporte de glucosa, membrana, ósmosis y glucólisis",
+    "tipo": "respuesta breve",
+    "pregunta": "El transporte de la glucosa al interior celular se realiza en bacterias mediante un transporte activo que necesita un transportador específico denominado sistema de fosfotransferasa o PTS. Gracias a este sistema, la glucosa no sólo entra al interior celular, sino que acoplado al transporte también se le añade un grupo fosfato. a) Indique las diferencias entre el transporte pasivo y el transporte activo [0,4]. b) Describa brevemente la estructura de la membrana plasmática en una célula eucariota animal [0,4]. c) Razone qué ocurre en una célula animal en un medio hipotónico y en uno hipertónico [0,4]. d) Indique los productos finales de la glucólisis y el rendimiento en ATP y poder reductor [0,4]. e) Indique dos disacáridos en los que esté presente la glucosa, e indique el tipo de enlace que se establece entre ambos monosacáridos [0,4].",
+    "respuesta": [
+      "a) El pasivo va a favor de gradiente y no requiere energía (ATP); el activo va en contra de gradiente y requiere energía (0,4 p).",
+      "b) Fosfolípidos en bicapa con proteínas y glúcidos asociados a proteínas o lípidos; también colesterol (0,4 p).",
+      "c) Por la semipermeabilidad de la membrana tiende a igualarse la concentración de solutos: en el medio hipotónico entra agua la célula se hincha y puede estallar y en el hipertónico sale agua y se arruga.",
+      "d) 2 piruvatos; 2 ATP; 2 NADH.",
+      "e) (Solo dos, 0,1 p cada uno) sacarosa (glucosa + fructosa), lactosa (glucosa + galactosa), maltosa (glucosa + glucosa); enlace O-glucosídico (0,2 p)."
+    ],
+    "palabras_clave": [
+      "2 ATP",
+      "2 NADH",
+      "2 piruvatos",
+      "Fosfolípidos en bicapa",
+      "O-glucosídico",
+      "a favor de gradiente",
+      "colesterol",
+      "en contra de gradiente",
+      "glúcidos asociados a proteínas o lípidos",
+      "hipertónico sale agua",
+      "igualarse la concentración de solutos",
+      "lactosa (glucosa + galactosa)",
+      "maltosa (glucosa + glucosa)",
+      "medio hipotónico entra agua",
+      "no requiere energía (ATP)",
+      "proteínas",
+      "requiere energía",
+      "sacarosa (glucosa + fructosa)",
+      "semipermeabilidad"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Suplente2-B_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Suplente2-B_Biologia.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 1086,
+    "clave": "pau2025-sup2-b-25",
+    "bloque": "Célula",
+    "tema": "Procariotas y eucariotas vegetales; tipos de metabolismo",
+    "tipo": "respuesta breve",
+    "pregunta": "En el laboratorio se han mezclado por error un conjunto de placas de Petri con células que presentan distinto tipo de organización celular. Para ayudar a los científicos a clasificar las células como procariotas o eucariotas vegetales, responda a las siguientes preguntas: a) Compare ambos tipos en términos de organización del material genético, tipos de ribosomas y pared celular [0,6]. b) Una determinada toxina afecta a las subunidades 50S de los ribosomas. Razone qué tipos celulares se verán afectados y qué proceso celular se alterará [0,6]. c) Distinga los tipos de metabolismo según la fuente de carbono, la fuente de energía y la presencia o ausencia de oxígeno [0,6]. De acuerdo con esta clasificación, indique qué tipo de metabolismo podrían tener los procariotas [0,2].",
+    "respuesta": [
+      "a) Procariotas: cromosoma circular, pueden tener plásmidos, ribosomas 70S, pared de peptidoglucano (mureína). Eucariotas vegetales: ADN lineal organizado en cromosomas, ribosomas 80S (y 70S en orgánulos), pared principalmente de celulosa (0,6 p).",
+      "b) Ambos tipos celulares: se altera la traducción, porque la subunidad 50S forma parte de los ribosomas 70S, presentes en procariotas, cloroplastos y mitocondrias (0,6 p).",
+      "c) Fuente de carbono: autótrofos y heterótrofos; fuente de energía: fotótrofos y quimiótrofos; oxígeno: aerobios y anaerobios (0,2 p cada una). Procariotas: todos (0,2 p)."
+    ],
+    "palabras_clave": [
+      "ADN lineal organizado en cromosomas",
+      "Ambos tipos celulares",
+      "aerobios y anaerobios",
+      "autótrofos y heterótrofos",
+      "cromosoma circular",
+      "fotótrofos y quimiótrofos",
+      "pared de peptidoglucano (mureína)",
+      "pared principalmente de celulosa",
+      "plásmidos",
+      "procariotas, cloroplastos y mitocondrias",
+      "ribosomas 70S",
+      "ribosomas 80S",
+      "todos",
+      "traducción"
+    ],
+    "fuente": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Examen_Suplente2-B_Biologia.pdf",
+    "criterios": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2025/Andalucía/Criterios_Suplente2-B_Biologia.pdf",
+    "dificultad": "media"
+  },
+  {
+    "id": 1087,
     "clave": "pau2026-modelo-1",
     "bloque": "Genética",
     "tema": "Replicación en una célula procariota",
@@ -26998,7 +28856,7 @@
     "dificultad": "media"
   },
   {
-    "id": 1034,
+    "id": 1088,
     "clave": "pau2026-modelo-2",
     "bloque": "Célula",
     "tema": "Tipos celulares, nutrición y teoría celular",
@@ -27031,7 +28889,7 @@
     "dificultad": "media"
   },
   {
-    "id": 1035,
+    "id": 1089,
     "clave": "pau2026-modelo-13",
     "bloque": "Metabolismo",
     "tema": "Cadena respiratoria y fosforilación oxidativa",
@@ -27069,7 +28927,7 @@
     "imagen": "assets/figuras/historico/2026/ej3-op1.webp"
   },
   {
-    "id": 1036,
+    "id": 1090,
     "clave": "pau2026-modelo-23",
     "bloque": "Metabolismo",
     "tema": "Fase fotoquímica y lípidos de membrana",
@@ -27110,7 +28968,7 @@
     "imagen": "assets/figuras/historico/2026/ej3-op2.webp"
   },
   {
-    "id": 1037,
+    "id": 1091,
     "clave": "pau2026-modelo-14",
     "bloque": "Biotecnología",
     "tema": "La PCR paso a paso",
@@ -27143,7 +29001,7 @@
     "imagen": "assets/figuras/historico/2026/ej4-op1.webp"
   },
   {
-    "id": 1038,
+    "id": 1092,
     "clave": "pau2026-modelo-24",
     "bloque": "Microbiología",
     "tema": "El yogur y otros usos de los microorganismos",
@@ -27175,7 +29033,7 @@
     "dificultad": "media"
   },
   {
-    "id": 1039,
+    "id": 1093,
     "clave": "pau2026-modelo-15",
     "bloque": "Inmunología",
     "tema": "Inmunoglobulinas y grupos sanguíneos",
@@ -27213,7 +29071,7 @@
     "imagen": "assets/figuras/historico/2026/ej5-op1.webp"
   },
   {
-    "id": 1040,
+    "id": 1094,
     "clave": "pau2026-modelo-25",
     "bloque": "Inmunología",
     "tema": "Curso de una infección: IgM e IgG",
@@ -27250,7 +29108,7 @@
     "imagen": "assets/figuras/historico/2026/ej5-op2.webp"
   },
   {
-    "id": 1041,
+    "id": 1095,
     "clave": "pau2026-ord-s1-1",
     "bloque": "Célula",
     "tema": "Citoesqueleto, citocinesis y biorremediación",
@@ -27285,7 +29143,7 @@
     "dificultad": "media"
   },
   {
-    "id": 1042,
+    "id": 1096,
     "clave": "pau2026-ord-s1-2",
     "bloque": "Metabolismo",
     "tema": "Fotosíntesis y respiración en una misma célula",
@@ -27321,7 +29179,7 @@
     "imagen": "assets/figuras/historico/2026/ord-s1-ej2.webp"
   },
   {
-    "id": 1043,
+    "id": 1097,
     "clave": "pau2026-ord-s1-13",
     "bloque": "Microbiología",
     "tema": "El vino: fermentación alcohólica y rechazo de trasplantes",
@@ -27353,7 +29211,7 @@
     "imagen": "assets/figuras/historico/2026/ord-s1-ej3-op1.webp"
   },
   {
-    "id": 1044,
+    "id": 1098,
     "clave": "pau2026-ord-s1-23",
     "bloque": "Biotecnología",
     "tema": "La PCR y la replicación semiconservativa",
@@ -27388,7 +29246,7 @@
     "imagen": "assets/figuras/historico/2026/ord-s1-ej3-op2.webp"
   },
   {
-    "id": 1045,
+    "id": 1099,
     "clave": "pau2026-ord-s1-14",
     "bloque": "Inmunología",
     "tema": "Vacuna de la gripe y tipos de inmunidad",
@@ -27421,7 +29279,7 @@
     "dificultad": "media"
   },
   {
-    "id": 1046,
+    "id": 1100,
     "clave": "pau2026-ord-s1-24",
     "bloque": "Inmunología",
     "tema": "Clases de anticuerpos y su secreción",
@@ -27459,7 +29317,7 @@
     "imagen": "assets/figuras/historico/2026/ord-s1-ej4-op2.webp"
   },
   {
-    "id": 1047,
+    "id": 1101,
     "clave": "pau2026-ord-s1-15",
     "bloque": "Biomoléculas",
     "tema": "Coenzimas, vitaminas y enfermedades carenciales",
@@ -27491,7 +29349,7 @@
     "imagen": "assets/figuras/historico/2026/ord-s1-ej5-op1.webp"
   },
   {
-    "id": 1048,
+    "id": 1102,
     "clave": "pau2026-ord-s1-25",
     "bloque": "Biomoléculas",
     "tema": "Aspartamo: aminoácidos y enlace peptídico",
@@ -27525,7 +29383,7 @@
     "imagen": "assets/figuras/historico/2026/ord-s1-ej5-op2.webp"
   },
   {
-    "id": 1049,
+    "id": 1103,
     "clave": "pau2026-ord-s2-1",
     "bloque": "Biomoléculas",
     "tema": "Fiebre y actividad de una enzima digestiva",
@@ -27557,7 +29415,7 @@
     "imagen": "assets/figuras/historico/2026/ord-s2-ej1.webp"
   },
   {
-    "id": 1050,
+    "id": 1104,
     "clave": "pau2026-ord-s2-2",
     "bloque": "Genética",
     "tema": "Código genético, cadena molde y mutaciones",
@@ -27588,7 +29446,7 @@
     "dificultad": "media"
   },
   {
-    "id": 1051,
+    "id": 1105,
     "clave": "pau2026-ord-s2-13",
     "bloque": "Biomoléculas",
     "tema": "Ósmosis en glóbulos rojos y hemoglobina",
@@ -27627,7 +29485,7 @@
     "imagen": "assets/figuras/historico/2026/ord-s2-ej3-op1.webp"
   },
   {
-    "id": 1052,
+    "id": 1106,
     "clave": "pau2026-ord-s2-23",
     "bloque": "Célula",
     "tema": "Tipos celulares y operón lac",
@@ -27675,7 +29533,7 @@
     "imagen": "assets/figuras/historico/2026/ord-s2-ej3-op2.webp"
   },
   {
-    "id": 1053,
+    "id": 1107,
     "clave": "pau2026-ord-s2-14",
     "bloque": "Metabolismo",
     "tema": "β-oxidación y ácidos grasos",
@@ -27704,7 +29562,7 @@
     "dificultad": "media"
   },
   {
-    "id": 1054,
+    "id": 1108,
     "clave": "pau2026-ord-s2-24",
     "bloque": "Metabolismo",
     "tema": "Glucólisis y fermentación en una bacteria",
@@ -27734,7 +29592,7 @@
     "dificultad": "media"
   },
   {
-    "id": 1055,
+    "id": 1109,
     "clave": "pau2026-ord-s2-15",
     "bloque": "Biotecnología",
     "tema": "Vacunas recombinantes: enzimas, PCR y vectores",
@@ -27769,7 +29627,7 @@
     "dificultad": "media"
   },
   {
-    "id": 1056,
+    "id": 1110,
     "clave": "pau2026-ord-s2-25",
     "bloque": "Biotecnología",
     "tema": "Ámbitos de la biotecnología y anticuerpos",
@@ -27806,7 +29664,7 @@
     "imagen": "assets/figuras/historico/2026/ord-s2-ej5-op2.webp"
   },
   {
-    "id": 1057,
+    "id": 1111,
     "clave": "pau2026-ext-t-1",
     "bloque": "Microbiología",
     "tema": "Pan, masa madre, cerveza y bacterias transformadas",
@@ -27838,7 +29696,7 @@
     "dificultad": "media"
   },
   {
-    "id": 1058,
+    "id": 1112,
     "clave": "pau2026-ext-t-2",
     "bloque": "Inmunología",
     "tema": "Inflamación y fagocitosis a partir de un análisis",
@@ -27870,7 +29728,7 @@
     "imagen": "assets/figuras/historico/2026/ext-t-ej2.webp"
   },
   {
-    "id": 1059,
+    "id": 1113,
     "clave": "pau2026-ext-t-13",
     "bloque": "Biomoléculas",
     "tema": "Sacarosa, lactosa, amilosa y amilopectina",
@@ -27899,7 +29757,7 @@
     "imagen": "assets/figuras/historico/2026/ext-t-ej3-op1.webp"
   },
   {
-    "id": 1060,
+    "id": 1114,
     "clave": "pau2026-ext-t-23",
     "bloque": "Biomoléculas",
     "tema": "El ATP: estructura, funciones y síntesis",
@@ -27933,7 +29791,7 @@
     "imagen": "assets/figuras/historico/2026/ext-t-ej3-op2.webp"
   },
   {
-    "id": 1061,
+    "id": 1115,
     "clave": "pau2026-ext-t-14",
     "bloque": "Genética",
     "tema": "Transcripción y su ARN polimerasa",
@@ -27973,7 +29831,7 @@
     "imagen": "assets/figuras/historico/2026/ext-t-ej4-op1.webp"
   },
   {
-    "id": 1062,
+    "id": 1116,
     "clave": "pau2026-ext-t-24",
     "bloque": "Genética",
     "tema": "Traducción y universalidad del código",
@@ -28010,7 +29868,7 @@
     "imagen": "assets/figuras/historico/2026/ext-t-ej4-op2.webp"
   },
   {
-    "id": 1063,
+    "id": 1117,
     "clave": "pau2026-ext-t-15",
     "bloque": "Célula",
     "tema": "Orgánulos al microscopio electrónico",
@@ -28046,7 +29904,7 @@
     "imagen": "assets/figuras/historico/2026/ext-t-ej5-op1.webp"
   },
   {
-    "id": 1064,
+    "id": 1118,
     "clave": "pau2026-ext-t-25",
     "bloque": "Célula",
     "tema": "Ciclo celular y no disyunción en anafase",
@@ -28079,7 +29937,7 @@
     "imagen": "assets/figuras/historico/2026/ext-t-ej5-op2.webp"
   },
   {
-    "id": 1065,
+    "id": 1119,
     "clave": "pau2026-ext-s1-1",
     "bloque": "Genética",
     "tema": "Desnaturalización del ADN y tipos de ARN",
@@ -28115,7 +29973,7 @@
     "imagen": "assets/figuras/historico/2026/ext-s1-ej1.webp"
   },
   {
-    "id": 1066,
+    "id": 1120,
     "clave": "pau2026-ext-s1-2",
     "bloque": "Inmunología",
     "tema": "IgM e IgG: respuesta primaria y secundaria; PCR",
@@ -28147,7 +30005,7 @@
     "dificultad": "media"
   },
   {
-    "id": 1067,
+    "id": 1121,
     "clave": "pau2026-ext-s1-13",
     "bloque": "Genética",
     "tema": "Mutaciones y variabilidad en las lagartijas de Doñana",
@@ -28185,7 +30043,7 @@
     "dificultad": "media"
   },
   {
-    "id": 1068,
+    "id": 1122,
     "clave": "pau2026-ext-s1-23",
     "bloque": "Genética",
     "tema": "Gen, alelo, meiosis y expresión génica",
@@ -28221,7 +30079,7 @@
     "dificultad": "media"
   },
   {
-    "id": 1069,
+    "id": 1123,
     "clave": "pau2026-ext-s1-14",
     "bloque": "Metabolismo",
     "tema": "Glucólisis, destino del piruvato y fosforilación oxidativa",
@@ -28254,7 +30112,7 @@
     "dificultad": "media"
   },
   {
-    "id": 1070,
+    "id": 1124,
     "clave": "pau2026-ext-s1-24",
     "bloque": "Metabolismo",
     "tema": "Respiración celular y fermentaciones",
@@ -28284,7 +30142,7 @@
     "dificultad": "media"
   },
   {
-    "id": 1071,
+    "id": 1125,
     "clave": "pau2026-ext-s1-15",
     "bloque": "Microbiología",
     "tema": "Estructura bacteriana y horquilla de replicación",
@@ -28326,7 +30184,7 @@
     "imagen": "assets/figuras/historico/2026/ext-s1-ej5-op1.webp"
   },
   {
-    "id": 1072,
+    "id": 1126,
     "clave": "pau2026-ext-s1-25",
     "bloque": "Célula",
     "tema": "Membrana plasmática: componentes y fluidez",
@@ -28367,7 +30225,7 @@
     "imagen": "assets/figuras/historico/2026/ext-s1-ej5-op2.webp"
   },
   {
-    "id": 1073,
+    "id": 1127,
     "clave": "pau2026-ext-s2-1",
     "bloque": "Biotecnología",
     "tema": "Pasos para obtener una vacuna recombinante",
@@ -28387,7 +30245,7 @@
     "imagen": "assets/figuras/historico/2026/ext-s2-ej1.webp"
   },
   {
-    "id": 1074,
+    "id": 1128,
     "clave": "pau2026-ext-s2-2",
     "bloque": "Metabolismo",
     "tema": "Catabolismo de los ácidos grasos y transporte de glucosa",
@@ -28406,7 +30264,7 @@
     "imagen": "assets/figuras/historico/2026/ext-s2-ej2.webp"
   },
   {
-    "id": 1075,
+    "id": 1129,
     "clave": "pau2026-ext-s2-13",
     "bloque": "Inmunología",
     "tema": "Bacterias, virus, COVID-19 y antibióticos",
@@ -28424,7 +30282,7 @@
     "dificultad": "media"
   },
   {
-    "id": 1076,
+    "id": 1130,
     "clave": "pau2026-ext-s2-23",
     "bloque": "Inmunología",
     "tema": "Barreras externas, histamina y microbiota",
@@ -28442,7 +30300,7 @@
     "dificultad": "media"
   },
   {
-    "id": 1077,
+    "id": 1131,
     "clave": "pau2026-ext-s2-14",
     "bloque": "Célula",
     "tema": "Membrana plasmática, colesterol y fosfolípidos",
@@ -28460,7 +30318,7 @@
     "imagen": "assets/figuras/historico/2026/ext-s2-ej4-op1.webp"
   },
   {
-    "id": 1078,
+    "id": 1132,
     "clave": "pau2026-ext-s2-24",
     "bloque": "Biomoléculas",
     "tema": "Funciones de las proteínas y su síntesis",
@@ -28478,7 +30336,7 @@
     "imagen": "assets/figuras/historico/2026/ext-s2-ej4-op2.webp"
   },
   {
-    "id": 1079,
+    "id": 1133,
     "clave": "pau2026-ext-s2-15",
     "bloque": "Genética",
     "tema": "Tipos de mutaciones y agentes mutagénicos",
@@ -28497,7 +30355,7 @@
     "imagen": "assets/figuras/historico/2026/ext-s2-ej5-op1.webp"
   },
   {
-    "id": 1080,
+    "id": 1134,
     "clave": "pau2026-ext-s2-25",
     "bloque": "Genética",
     "tema": "Del gen del maíz a la proteína: código genético",
