@@ -13,9 +13,9 @@ DATOS = json.loads((RAIZ / "data" / "directrices-2026-27.json").read_text(encodi
 # (se indica que el resto del apartado se trata en otro tema).
 TEMAS = {
     "a1": [("A.1.1", None), ("A.1.2", None), ("A.2.1", None), ("A.4.2", [2, 3])],
-    "a2": [("A.3.1", None), ("A.3.5", None), ("A.4.2", [5])],
-    "a3": [("A.3.2", None), ("A.3.5", None), ("A.4.2", [1, 5])],
-    "a4": [("A.3.3", list(range(1, 12))), ("A.3.5", None), ("A.4.2", [1, 5])],
+    "a2": [("A.3.1", None), ("A.3.5", [1]), ("A.4.2", [5])],
+    "a3": [("A.3.2", None), ("A.3.5", [1]), ("A.4.2", [1, 5])],
+    "a4": [("A.3.3", list(range(1, 12))), ("A.3.5", [1]), ("A.4.2", [1, 5])],
     "a5": [("A.3.3", list(range(12, 20))), ("A.4.1", [1])],
     "a6": [("A.3.4", None)],
     "a7": [("A.4.1", None), ("A.4.2", None)],

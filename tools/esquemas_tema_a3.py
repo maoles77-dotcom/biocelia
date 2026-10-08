@@ -399,6 +399,60 @@ def arteria():
     save("aterosclerosis.svg", svg(600, 255, b, "Corte de una arteria sana y de una arteria con placa de ateroma"))
 
 
+# ─── 10 · Ceras: molécula y cutícula de una hoja ──────────────────────────
+def ceras():
+    b = text(200, 30, "Una cera", 18, weight=900, fill=PRI)
+    sa, pa = zigzag(30, 110, 9, 17, 9, col="#7b8a97", w=3)
+    b += sa + bloque(pa[-1][0] + 2, 95, 52, 30, "éster", ACC, "#fff4df", size=12)
+    sb, pb = zigzag(pa[-1][0] + 56, 110, 9, 17, 9, col=COLA, w=3)
+    b += sb
+    b += text(105, 82, "monoalcohol de cadena larga", 12, weight=800, fill=GRIS)
+    b += text(pb[0][0] + 75, 82, "ácido graso de cadena larga", 12, weight=800, fill=COLA)
+    b += text(200, 160, "los dos extremos son apolares → muy hidrófoba,", 13, weight=800, fill=INK)
+    b += text(200, 178, "sólida a temperatura ambiente", 13, weight=800, fill=INK)
+    # hoja con cutícula
+    x0 = 430
+    b += text(x0 + 180, 30, "Función protectora e impermeabilizante", 16, weight=900, fill=PRI)
+    b += f'<rect x="{x0}" y="70" width="360" height="22" rx="4" fill="#f3d27a" stroke="#c9a227" stroke-width="2"/>'
+    b += text(x0 + 180, 86, "cutícula de cera", 13, weight=900, fill="#8a6d10")
+    for i in range(6):
+        b += f'<rect x="{x0 + i * 60}" y="92" width="60" height="70" fill="#cfe8c4" stroke="#3f8a3a" stroke-width="2"/>'
+    b += text(x0 + 180, 182, "células de la epidermis de la hoja", 12, weight=800, fill=VERDE)
+    for cx in (x0 + 70, x0 + 190, x0 + 300):
+        b += f'<path d="M{cx},38 q-13,18 0,26 q13,-8 0,-26z" fill="#9fd0f0" stroke="#2a7fc1" stroke-width="1.5"/>'
+    b += text(x0 + 180, 212, "el agua no la atraviesa: evita la pérdida de agua", 13, weight=800, fill=BLUE)
+    b += text(400, 262, "También en plumas, pelo y piel de vertebrados, exoesqueleto de insectos y panales de abeja.", 13, weight=700, fill=GRIS)
+    save("ceras.svg", svg(820, 280, b, "Una cera es el éster de un ácido graso y un monoalcohol de cadena larga; forma la cutícula impermeable de las hojas"))
+
+
+# ─── 11 · Esfingolípidos ──────────────────────────────────────────────────
+def esfingolipidos():
+    b = ""
+    tipos = [(30, "Esfingomielina", "fosfocolina", ROJO, "#fbe3df", "vaina de mielina de los axones"),
+             (470, "Glucoesfingolípido", "glúcido(s)", VERDE, "#e3f2df", "glucocálix: reconocimiento celular")]
+    for x, t, g, col, fondo, fun in tipos:
+        b += text(x + 200, 28, t, 17, weight=900, fill=PRI)
+        b += bloque(x + 14, 58, 122, 34, g, col, fondo, size=13)
+        b += linea((x + 75, 92), (x + 75, 112))
+        b += bloque(x + 30, 112, 90, 80, "", PRI, "#cfe0f2")
+        b += text(x + 75, 148, "esfingosina", 12, weight=900, fill=PRI)
+        b += text(x + 75, 164, "(aminoalcohol)", 10, weight=800, fill=GRIS)
+        # cola de la esfingosina
+        s1, _ = zigzag(x + 122, 128, 11, 18, 9, col="#7b8a97", w=3)
+        b += s1
+        # amida + ácido graso
+        b += bloque(x + 122, 160, 50, 28, "amida", ACC, "#fff4df", size=11)
+        s2, _ = zigzag(x + 174, 174, 9, 18, 9, col=COLA, w=3)
+        b += s2 + text(x + 290, 205, "ácido graso", 12, weight=800, fill=COLA)
+        b += text(x + 215, 148, "cadena de la esfingosina", 11, "start", 800, fill=GRIS)
+        b += f'<rect x="{x + 18}" y="104" width="380" height="104" rx="10" fill="none" stroke="{ACC}" stroke-width="1.5" stroke-dasharray="3 4"/>'
+        b += text(x + 330, 224, "ceramida", 12, weight=900, fill=ACC)
+        b += text(x + 150, 80, "← cabeza polar", 13, "start", 900, fill=BLUE)
+        b += text(x + 200, 256, "Función: " + fun, 14, weight=900, fill=col)
+    b += text(450, 290, "Sin glicerina: ceramida (esfingosina + ácido graso por enlace amida) + un grupo polar. Son anfipáticos y forman parte de las membranas.", 13, weight=700, fill=GRIS)
+    save("esfingolipidos.svg", svg(900, 305, b, "Esfingolípidos: la ceramida unida a fosfocolina forma la esfingomielina y unida a glúcidos forma los glucoesfingolípidos"))
+
+
 if __name__ == "__main__":
-    for f in (acidos_grasos, empaquetamiento, esterificacion, jabon, saponificables, fosfolipido, terpenos, esteroides, clasificacion, funciones, arteria):
+    for f in (acidos_grasos, empaquetamiento, esterificacion, jabon, saponificables, fosfolipido, terpenos, esteroides, clasificacion, funciones, arteria, ceras, esfingolipidos):
         f()

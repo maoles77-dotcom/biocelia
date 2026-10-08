@@ -404,6 +404,8 @@ details.solucion .cuerpo { border-left: 3px solid var(--ok); padding: 2px 0 2px 
   .seccion h3, .seccion h4 { break-after: avoid; }
   .seccion.salto { break-before: page; }
   .caja, .tarjeta, .preg, .figura, .barras, .ecuacion { break-inside: avoid; }
+  .caja.directrices { break-inside: auto; }
+  .caja.directrices ol li { break-inside: avoid; }
   .tabla-wrap { overflow: visible; border: none; }
   .tabla tr { break-inside: avoid; }
   .tabla thead { display: table-header-group; }
