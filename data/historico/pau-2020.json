@@ -1,0 +1,1215 @@
+{
+  "anio": 2020,
+  "curso": "2019-2020",
+  "formato": "bloques",
+  "carpeta": "PAU 2025/EXÁMENES AÑOS ANTERIORES/2020",
+  "nota": "Seis exámenes del curso 2019-2020 (año de la COVID-19), publicados en la web oficial de la Junta de Andalucía sin indicar convocatoria; se numeran del 1 al 6. Formato por bloques, como en 2021: A (concepto, 2 puntos), B (razonamiento, 1 punto) y C (imagen, 1 punto). Enunciados literales; soluciones según los criterios oficiales, con palabras clave entre ** y lo añadido por BioCelia entre (( )), incluidos algunos matices a los criterios. Figuras recortadas del PDF a 200 ppp.",
+  "examenes": [
+    {
+      "id": "ex1",
+      "nombre": "Examen 1",
+      "enunciado": "biologia_P_1.pdf",
+      "criterios": "biologia_C_1.pdf",
+      "preguntas": [
+        {
+          "opcion": "A",
+          "n": 1,
+          "bloque": "Biomoléculas",
+          "tema": "ADN frente a ARN y tipos de ARN",
+          "q": "a) Indique dos semejanzas [0,6] y dos diferencias [0,6] entre el ADN y ARN. b) Enumere cuatro tipos de ARN y cite una función para cada uno de ellos [0,8].",
+          "c": [
+            "a) Semejanzas (solo dos, 0,3 p cada una): **son ácidos nucleicos**, **polímeros de nucleótidos**, **unidos por enlaces éster fosfórico (fosfodiéster)**. Diferencias (solo dos, 0,3 p cada una): **bases A, T, C, G en el ADN y A, U, C, G en el ARN**; **desoxirribosa en el ADN y ribosa en el ARN**; **el ADN es una doble hélice y el ARN una sola cadena**.",
+            "b) **ARNm: lleva la información del ADN a los ribosomas**; **ARNt: lleva los aminoácidos a los ribosomas**; **ARNr: forma los ribosomas**; **ARNhn: precursor de los ARN** ((sobre todo del ARNm)) (0,2 p cada uno)."
+          ]
+        },
+        {
+          "opcion": "A",
+          "n": 2,
+          "bloque": "Metabolismo",
+          "tema": "Anabolismo, catabolismo, fosforilación oxidativa y fotofosforilación",
+          "q": "a) Defina los conceptos de anabolismo y catabolismo [0,5]. b) Describa la fosforilación oxidativa y la fotofosforilación [1], e indique en qué orgánulos de la célula se realizan [0,5].",
+          "c": [
+            "a) Anabolismo: procesos en los que las células **sintetizan, con gasto de energía**, sus sustancias (0,25 p). Catabolismo: reacciones que proporcionan **precursores, energía (ATP) y poder reductor** ((degradando moléculas orgánicas; el poder reductor catabólico es sobre todo NADH, aunque los criterios citan NADPH)) (0,25 p).",
+            "b) Fosforilación oxidativa: **flujo de electrones por la cadena de transporte hasta el oxígeno**, con un **gradiente de protones** cuya energía se usa para **sintetizar ATP** (0,5 p). Fotofosforilación: flujo de electrones de los **fotosistemas excitados por la luz** a través de **aceptores hasta el NADP⁺** ((formando NADPH)), con un **gradiente de protones** que se usa para **sintetizar ATP** (0,5 p). Lugar: **mitocondrias** y **cloroplastos** (0,5 p)."
+          ]
+        },
+        {
+          "opcion": "A",
+          "n": 3,
+          "bloque": "Genética",
+          "tema": "Segunda ley de Mendel y cruzamiento prueba",
+          "q": "a) Exponga la segunda ley de Mendel [0,5]. b) Indique un ejemplo de dicha ley realizando un cruzamiento en el que se especifiquen los genotipos, fenotipos y proporciones [0,5]. c) Indique en qué consiste el cruzamiento prueba [0,5]. d) Realice un cruzamiento prueba en el que se especifiquen los genotipos, fenotipos y proporciones [0,5].",
+          "c": [
+            "a) **Ley de la separación (disyunción)**: al cruzar los **híbridos de la F1**, en la F2 aparece una **proporción fenotípica 3:1** y **reaparece el carácter recesivo**, porque **los alelos se separan sin modificarse** (0,5 p).",
+            "b) **Cruzamiento** (0,5 p) ((Aa × Aa → 1 AA : 2 Aa : 1 aa; 3/4 dominante y 1/4 recesivo, p. ej., guisantes amarillos y verdes)).",
+            "c) Cruzar un **individuo de fenotipo dominante** con un **homocigoto recesivo** para **averiguar el genotipo del primero** (0,5 p).",
+            "d) **Cruzamiento prueba** (0,5 p) ((si AA × aa → 100 % Aa, todos dominantes; si Aa × aa → 50 % Aa dominantes y 50 % aa recesivos))."
+          ]
+        },
+        {
+          "opcion": "A",
+          "n": 4,
+          "bloque": "Microbiología",
+          "tema": "Componentes de una bacteria y sus funciones",
+          "q": "a) Enumere cinco componentes que pueden estar presentes en una bacteria [0,5] y b) cite una función de cada uno de ellos [1]. c) Indique tres componentes exclusivos de las células eucarióticas y dos comunes con las bacterias [0,5].",
+          "c": [
+            "a) (Solo cinco, 0,1 p cada uno) **cápsula**, **pared celular**, **membrana plasmática**, **flagelos, fimbrias y pili**, **cromosoma bacteriano**, **ribosomas**, **plásmidos**.",
+            "b) (Una por componente, 0,2 p cada una) cápsula: **protege frente a la fagocitosis y la desecación** o **fijación a sustratos**; pared: **da forma**; membrana: **delimita y regula el paso de sustancias**, alberga **respiración o fotosíntesis**; flagelos: **movilidad**; fimbrias: **adhesión**; pili: **intercambio genético en la conjugación**; cromosoma: **porta y transmite la información genética**; ribosomas: **síntesis de proteínas**; plásmidos: **información genética adicional**.",
+            "c) Exclusivos (solo tres, 0,1 p cada uno): **aparato de Golgi**, **RER**, **REL**, **núcleo**. Comunes (solo dos, 0,1 p cada uno): **ribosomas**, **pared celular**, **flagelo**, **ADN** ((y membrana plasmática))."
+          ]
+        },
+        {
+          "opcion": "A",
+          "n": 5,
+          "bloque": "Inmunología",
+          "tema": "Inmunidad, barreras y respuesta inflamatoria",
+          "q": "a) Defina inmunidad [0,5]. b) Cite dos tipos de barreras orgánicas e indique cómo actúan [0,5]. c) Describa la respuesta inflamatoria que se produce tras una agresión a la piel [1].",
+          "c": [
+            "a) **Mecanismo de defensa** de los organismos frente a **agentes reconocidos como extraños** (0,5 p).",
+            "b) (Dos con su modo de actuación, 0,25 p cada uno) **piel**, **secreciones de las mucosas**, **pH ácido del estómago**, **microbiota**, **macrófagos**, **complemento**.",
+            "c) Debe aludir a la **vasodilatación** ((y aumento de la permeabilidad de los capilares, que provocan calor, rubor e hinchazón)), la **quimiotaxis** ((atracción de los leucocitos al foco, que salen por diapédesis)) y la **fagocitosis** (1 p)."
+          ]
+        },
+        {
+          "opcion": "B",
+          "n": 1,
+          "bloque": "Célula",
+          "tema": "Por qué los lípidos atraviesan la membrana y los iones no",
+          "competencial": true,
+          "q": "¿Por qué los lípidos, independientemente de su tamaño, atraviesan sin dificultad las membranas celulares y los iones, mucho más pequeños, no lo hacen? Dé una explicación razonada a este hecho [1].",
+          "c": [
+            "Los lípidos, por su **carácter lipófilo (apolar)**, **atraviesan la bicapa lipídica por difusión simple**; los iones **tienen carga** y **requieren proteínas transportadoras** (1 p)."
+          ]
+        },
+        {
+          "opcion": "B",
+          "n": 2,
+          "bloque": "Célula",
+          "tema": "Ruta de secreción de una proteína marcada",
+          "competencial": true,
+          "q": "En un laboratorio se realiza el seguimiento de una célula pancreática secretora de enzimas digestivas a la que se le ha añadido un aminoácido marcado radiactivamente. A diferentes tiempos, transcurridos 8, 20 y 90 minutos, se examina el lugar de la célula donde aparece la marca radiactiva. a) ¿Qué tres orgánulos citoplasmáticos se ven implicados en este proceso? [0,3] b) Explique razonadamente en qué orden aparece la marca radiactiva en estos orgánulos [0,7].",
+          "c": [
+            "a) **Retículo endoplasmático rugoso**, **aparato de Golgi** y **vesículas de secreción** (0,3 p).",
+            "b) Orden: **RER → aparato de Golgi → vesículas de secreción** ((el aminoácido se incorpora a la proteína en los ribosomas del RER; la proteína pasa al Golgi, donde madura, y sale en vesículas que la liberan por exocitosis)) (0,7 p)."
+          ]
+        },
+        {
+          "opcion": "B",
+          "n": 3,
+          "bloque": "Genética",
+          "tema": "ARNm de un fragmento de gen y regla de Chargaff",
+          "competencial": true,
+          "q": "A partir de la siguiente secuencia de bases nitrogenadas de un fragmento de un gen:<br><code>5′-TATATACAATTT-3′<br>3′-ATATATGTTAAA-5′</code><br>a) Indique cuál será la secuencia del ARN mensajero correspondiente a la cadena inferior del fragmento y su polaridad [0,5]. b) ¿A cuántos aminoácidos podría dar lugar la traducción de este fragmento? (se supone que todos los codones tienen traducción a aminoácidos) [0,25] c) Si la molécula completa de ADN contiene un 30% de adenina, ¿cuáles son los porcentajes de timina, guanina y citosina? [0,25].",
+          "c": [
+            "a) **5′-UAUAUACAAUUU-3′** ((usando la cadena inferior como molde)) (0,5 p).",
+            "b) **4 aminoácidos** ((12 nucleótidos ÷ 3)) (0,25 p).",
+            "c) **T = 30 %; G = 20 %; C = 20 %** (0,25 p)."
+          ]
+        },
+        {
+          "opcion": "B",
+          "n": 4,
+          "bloque": "Microbiología",
+          "tema": "Un agente con solo ARN en los cítricos: el viroide",
+          "competencial": true,
+          "q": "Una variedad de cítricos del valle del Guadalhorce está siendo atacada por un agente infeccioso que provoca la pérdida de sus hojas y daño en los frutos. Se analiza el agente infeccioso y se comprueba la presencia solo de ARN monocatenario, sin que se detecten otros elementos. Con estos datos: a) ¿cree que el agente infeccioso podría ser un virus?; b) ¿podría tratarse de un hongo? Razone ambas respuestas [0,6]. c) Si tuviera que realizar un diagnóstico, ¿se podría proponer cuál es el agente causante de la enfermedad? Justifique de forma razonada en qué hechos basaría este diagnóstico [0,4].",
+          "c": [
+            "a) **No**: los virus tienen además **proteínas** ((la cápsida; algunos, lípidos y glúcidos)) (0,3 p).",
+            "b) **No**: los hongos tienen además **ADN, proteínas, lípidos y glúcidos** (0,3 p).",
+            "c) Es un **viroide**: son los **únicos agentes infecciosos que solo tienen ARN monocatenario** ((y parasitan plantas)) (0,4 p)."
+          ]
+        },
+        {
+          "opcion": "B",
+          "n": 5,
+          "bloque": "Inmunología",
+          "tema": "Lechones protegidos por la leche materna",
+          "competencial": true,
+          "q": "El mal rojo es una enfermedad de los cerdos que causa rigidez en las articulaciones, problemas en las válvulas cardíacas y erupciones cutáneas. La vacuna suele ser bastante efectiva en cerdos adultos, pero en lechones no es necesaria hasta el destete. ¿Por qué cree que los lechones se mantienen protegidos? [1]",
+          "c": [
+            "Reciben de la madre **anticuerpos contra el mal rojo a través de la leche (lactancia)** ((inmunidad natural pasiva, que dura mientras maman)) (1 p)."
+          ]
+        },
+        {
+          "opcion": "C",
+          "n": 1,
+          "bloque": "Biomoléculas",
+          "tema": "Energía de activación con y sin enzima",
+          "figura": "assets/figuras/historico/2020/ex1-c1.webp",
+          "figuraDesc": "Energía frente al avance de la reacción: dos curvas (A, más alta, y B, más baja) que van de C a D, con las alturas Ea2 y Ea1.",
+          "q": "En relación con la figura adjunta, conteste a las siguientes cuestiones: a) ¿Qué representan las curvas de la gráfica señaladas con las letras A y B? [0,4] b) ¿Cómo se denominan los elementos señalados con las letras C y D? [0,4] c) Indique qué representan las flechas señaladas con Ea1 y Ea2 [0,2].",
+          "c": [
+            "a) La variación de energía de una reacción **sin enzima (A)** y **con enzima (B)** (0,4 p).",
+            "b) C: **sustratos**; D: **productos** (0,4 p).",
+            "c) Las **energías de activación** ((Ea1, con enzima, menor que Ea2, sin enzima)) (0,2 p)."
+          ]
+        },
+        {
+          "opcion": "C",
+          "n": 2,
+          "bloque": "Célula",
+          "tema": "Estructuras de una célula vegetal",
+          "figura": "assets/figuras/historico/2020/ex1-c2.webp",
+          "figuraDesc": "Célula con pared, núcleo, gran vacuola, cloroplastos y otros orgánulos numerados del 1 al 10.",
+          "q": "Atendiendo a la imagen adjunta, indique el nombre de las estructuras numeradas del 1 al 10 [1].",
+          "c": [
+            "1: **aparato de Golgi**; 2: **núcleo**; 3: **ribosomas**; 4: **RER**; 5: **cloroplasto**; 6: **mitocondria**; 7: **citoplasma**; 8: **plasmodesmo**; 9: **pared celular**; 10: **vacuola** (1 p)."
+          ]
+        },
+        {
+          "opcion": "C",
+          "n": 3,
+          "bloque": "Genética",
+          "tema": "Replicación en procariotas y horquilla de replicación",
+          "figura": "assets/figuras/historico/2020/ex1-c3.webp",
+          "figuraDesc": "A: un cromosoma circular que se abre por un punto (1) formando una burbuja (2) y da dos círculos; B: horquilla con una molécula corta (3) y un fragmento (4) de la hebra retardada.",
+          "q": "En relación con la figura adjunta, conteste a las siguientes cuestiones: a) ¿Qué proceso se representa en las figuras A y B? [0,2] b) ¿En qué grupos de organismos se produce el proceso representado en la figura A? ¿Y en la B? [0,2] c) Indique qué partes del proceso están señaladas con los números 1 y 2 [0,2]. d) Indique el nombre de la molécula señalada con el número 3 y de la porción señalada con el número 4 [0,4].",
+          "c": [
+            "a) **Replicación del ADN** (0,2 p).",
+            "b) A: **bacterias (procariotas)**; B: **eucariotas** ((la horquilla se da en ambos)) (0,2 p).",
+            "c) 1: **origen de replicación**; 2: **burbuja de replicación** (0,2 p).",
+            "d) 3: **cebador de ARN**; 4: **fragmento de Okazaki** (0,4 p)."
+          ]
+        },
+        {
+          "opcion": "C",
+          "n": 4,
+          "bloque": "Microbiología",
+          "tema": "Estructura del VIH",
+          "figura": "assets/figuras/historico/2020/ex1-c4.webp",
+          "figuraDesc": "Virus esférico con envoltura erizada de espículas (4), una cápsida cónica (3) y en su interior el material genético (1) y una enzima (2).",
+          "q": "En relación con la figura adjunta, responda a las siguientes cuestiones: a) ¿Qué microorganismo está representado? [0,2] b) Identifique las estructuras señaladas con los números del 1 al 4 [0,8].",
+          "c": [
+            "a) **Virus del sida (VIH)** (solo «virus»: 0,1 p) (0,2 p).",
+            "b) 1: **ARN**; 2: **transcriptasa inversa**; 3: **cápsida**; 4: **espículas (proteínas de la envoltura)** (0,2 p cada una)."
+          ]
+        },
+        {
+          "opcion": "C",
+          "n": 5,
+          "bloque": "Inmunología",
+          "tema": "Fagocitosis y anticuerpos",
+          "figura": "assets/figuras/historico/2020/ex1-c5.webp",
+          "figuraDesc": "1: una célula englobando partículas; 2: una célula (A) que da lugar a varias células que liberan moléculas en forma de Y, señaladas por una flecha.",
+          "q": "En relación con las figuras adjuntas, en el contexto del sistema inmunitario, conteste las siguientes cuestiones: a) ¿Qué proceso representa la imagen 1? [0,1] b) ¿Qué células pueden realizar este proceso? [0,2] c) ¿Cuál de ellas actúa como célula presentadora de antígenos? [0,2] d) ¿Cómo se denominan las moléculas señaladas con la flecha en la imagen 2? [0,2] e) Cite dos funciones de estas moléculas [0,3].",
+          "c": [
+            "a) **Fagocitosis** (0,1 p).",
+            "b) **Macrófagos o neutrófilos** (0,2 p).",
+            "c) **Macrófagos** (0,2 p).",
+            "d) **Anticuerpos (inmunoglobulinas)** (0,2 p).",
+            "e) (Solo dos) **neutralizar**, **precipitar**, **aglutinar** y **opsonizar** los antígenos (0,3 p)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex2",
+      "nombre": "Examen 2",
+      "enunciado": "biologia_P_2.pdf",
+      "criterios": "biologia_C_2.pdf",
+      "preguntas": [
+        {
+          "opcion": "A",
+          "n": 1,
+          "bloque": "Biomoléculas",
+          "tema": "Aldosas, cetosas y enlace O-glucosídico",
+          "q": "Defina los siguientes términos: a) aldosa [0,4]; b) cetosa [0,4]; c) enlace O-glucosídico [0,4]. d) Nombre un ejemplo de aldosa [0,2] y otro de cetosa [0,2]. e) Represente la fórmula de un disacárido señalando el enlace O-glucosídico [0,4].",
+          "c": [
+            "a) Aldosa: **monosacárido con el grupo carbonilo en posición terminal (aldehído)** (0,4 p).",
+            "b) Cetosa: **monosacárido con el grupo carbonilo en posición intermedia (cetona)** (0,4 p).",
+            "c) Enlace que resulta de la **reacción entre dos grupos –OH de dos monosacáridos** ((con liberación de una molécula de agua)) (0,4 p).",
+            "d) Aldosa: **ribosa, glucosa, galactosa**; cetosa: **ribulosa, fructosa** (uno de cada) (0,4 p).",
+            "e) **Fórmula del disacárido** (0,2 p) **señalando el enlace O-glucosídico** (0,2 p) ((p. ej., maltosa, α(1→4) entre dos glucosas))."
+          ]
+        },
+        {
+          "opcion": "A",
+          "n": 2,
+          "bloque": "Célula",
+          "tema": "Lisosomas y peroxisomas",
+          "q": "En relación con los orgánulos celulares indique: a) la función de los lisosomas y el tipo de enzimas que contienen [0,5]; b) dos funciones principales de los peroxisomas en las células animales [0,3]; c) la diferencia entre lisosoma primario y secundario [0,6]; d) la diferencia fundamental entre un heterofagolisosoma y un autofagolisosoma [0,6].",
+          "c": [
+            "a) **Digestión celular** de material **externo o interno**; **enzimas hidrolíticas** ((hidrolasas ácidas)) (0,5 p).",
+            "b) (Solo dos) **β-oxidación de los ácidos grasos**, **oxidación y eliminación de peróxidos** ((H₂O₂, por la catalasa)) (0,3 p).",
+            "c) Primarios: **solo contienen las enzimas hidrolíticas**; secundarios: **se han fusionado con una vesícula** y contienen también **sustratos en digestión** (0,6 p).",
+            "d) Heterofagolisosoma: fusión con una **vesícula endocítica** (material **del exterior**); autofagolisosoma: fusión con una vesícula que engloba **material del interior** de la célula (orgánulos, membranas) para **reciclarlo** (0,6 p)."
+          ]
+        },
+        {
+          "opcion": "A",
+          "n": 3,
+          "bloque": "Genética",
+          "tema": "Expresión génica y la transcripción",
+          "q": "a) Realice un esquema general de los procesos implicados en la expresión de la información genética desde ADN a proteína [0,5]. b) Indique en qué lugares de la célula eucariótica se producen [0,5]. c) Describa el primer proceso implicado en esta expresión [1].",
+          "c": [
+            "a) Esquema: **ADN → (transcripción) → ARNm → (traducción) → polipéptido** (0,5 p).",
+            "b) **Transcripción: núcleo**; **traducción: citoplasma** ((ribosomas)) (0,5 p).",
+            "c) **Transcripción**: debe mencionarse la **diferencia entre cadena codificante y molde**, el **sentido 5′→3′**, que **se copia una sola cadena**, la **señal de inicio (promotor)**, la acción de la **ARN polimerasa** y la **señal de terminación** (1 p)."
+          ]
+        },
+        {
+          "opcion": "A",
+          "n": 4,
+          "bloque": "Microbiología",
+          "tema": "Algas, hongos y protozoos frente a bacterias",
+          "q": "a) Enumere tres características de cada uno de los siguientes microorganismos: algas, hongos y protozoos [1,8]. b) Cite dos diferencias que puedan establecerse entre estos microorganismos y las bacterias [0,2].",
+          "c": [
+            "a) (Tres de cada, 0,6 p por grupo) Algas: **eucariotas**, **fotosintéticas (autótrofas)**, **uni o pluricelulares**, **sin tejidos**, **pared de celulosa**. Hongos: **eucariotas**, **no fotosintéticos (heterótrofos)**, **uni o pluricelulares**, **sin tejidos**, **pared de quitina**. Protozoos: **eucariotas**, **heterótrofos**, **unicelulares**, **sin pared**.",
+            "b) (Dos) Deben aludir a la **organización procariota** de las bacterias ((sin núcleo ni orgánulos membranosos, ribosomas 70S)) o a la **composición de su pared** ((peptidoglucano)) (0,2 p)."
+          ]
+        },
+        {
+          "opcion": "A",
+          "n": 5,
+          "bloque": "Inmunología",
+          "tema": "Respuesta inmunitaria inespecífica",
+          "q": "a) Explique en qué consiste la respuesta inmunitaria inespecífica [0,4] y b) nombre dos células que intervengan en la misma [0,4]. c) Cite dos mecanismos inespecíficos de defensa frente a las infecciones una vez superadas las barreras externas [1,2].",
+          "c": [
+            "a) **Mecanismos generales de defensa** que actúan **contra cualquier microorganismo o agente extraño** (0,4 p).",
+            "b) (Dos) **neutrófilos**, **macrófagos**, **células NK** (0,4 p).",
+            "c) (Dos) **reacción inflamatoria**, **fagocitosis**, **sistema del complemento** (1,2 p)."
+          ]
+        },
+        {
+          "opcion": "B",
+          "n": 1,
+          "bloque": "Biomoléculas",
+          "tema": "Verdadero o falso sobre proteínas",
+          "competencial": true,
+          "q": "En relación con las siguientes afirmaciones sobre las proteínas, responda si son verdaderas o falsas razonando la respuesta [1]. a) Cuando se hidroliza una cadena polipeptídica de 150 aminoácidos se consumen 150 moléculas de agua. b) Cuando una proteína se calienta por encima de los 100 ºC se produce la hidrólisis de los enlaces peptídicos. c) Una proteína desnaturalizada no tiene poder nutritivo. d) Cuando se está sintetizando una cadena polipeptídica en un ribosoma el primer extremo que sale es el carboxilo-terminal.",
+          "c": [
+            "a) **Falsa**: se consumen **149 moléculas de agua**, porque hay **149 enlaces peptídicos** (0,25 p).",
+            "b) **Falsa**: solo se produce la **desnaturalización**; se **conserva el enlace covalente de la estructura primaria** (0,25 p).",
+            "c) **Falsa**: el valor nutritivo depende de **los aminoácidos**, no de la estructura (0,25 p).",
+            "d) **Falsa**: primero sale el **extremo amino**, porque el enlace se forma entre el **carboxilo del primer aminoácido y el amino del segundo** (0,25 p)."
+          ]
+        },
+        {
+          "opcion": "B",
+          "n": 2,
+          "bloque": "Metabolismo",
+          "tema": "Fijación de CO₂ en la oscuridad",
+          "competencial": true,
+          "q": "a) ¿Podrá una planta asimilar CO<sub>2</sub> en ausencia permanente de luz? [0,5] b) ¿Y si se le priva de luz durante unas horas? [0,5] Razone las respuestas.",
+          "c": [
+            "a) **No**: aunque la **asimilación de CO₂ es independiente de la luz**, antes deben producirse **la energía (ATP) y el poder reductor (NADPH)**, que requieren luz (0,5 p).",
+            "b) **Sí**: durante las horas de luz **se habrán producido el ATP y el NADPH** para la posterior asimilación de CO₂ ((mientras duren)) (0,5 p)."
+          ]
+        },
+        {
+          "opcion": "B",
+          "n": 3,
+          "bloque": "Genética",
+          "tema": "Cruzamiento prueba para seleccionar homocigotos",
+          "competencial": true,
+          "q": "En una especie animal, la pareja alélica (B-b) determina el color: el alelo dominante B produce color gris; el alelo recesivo b produce color amarillo. De una población de ejemplares de color gris, de los que se desconoce su ascendencia, se precisan seleccionar ejemplares homocigóticos para emplearlos posteriormente como reproductores. ¿Qué cruzamientos realizaría para seleccionar a dichos homocigóticos? Justifique la respuesta con los cruzamientos oportunos [1].",
+          "c": [
+            "**Cruzar los grises con amarillos (bb)** ((cruzamiento prueba)): si la F1 es **toda gris**, el gris es **homocigótico (BB)** ((BB × bb → 100 % Bb, grises)); si aparecen **grises y amarillos**, es **heterocigótico** ((Bb × bb → 50 % Bb grises, 50 % bb amarillos)) y se descarta (0,5 p cada cruzamiento)."
+          ]
+        },
+        {
+          "opcion": "B",
+          "n": 4,
+          "bloque": "Microbiología",
+          "tema": "Estreptomicina, bacterias y virus",
+          "competencial": true,
+          "q": "La estreptomicina es un antibiótico que actúa sobre los ribosomas 70s impidiendo su normal funcionamiento. a) ¿Se podrá observar crecimiento bacteriano en una placa de cultivo en presencia de estreptomicina? [0,5] b) ¿Sería recomendable este antibiótico para tratar una infección vírica? [0,5] Razone las respuestas.",
+          "c": [
+            "a) **No**: las bacterias tienen **ribosomas 70S**; al bloquearse **no hay síntesis de proteínas** y **se inhibe el crecimiento** (0,5 p).",
+            "b) **No**: los virus **carecen de ribosomas** ((usan los de la célula hospedadora)) y el antibiótico **no tiene eficacia** contra ellos (0,5 p)."
+          ]
+        },
+        {
+          "opcion": "B",
+          "n": 5,
+          "bloque": "Inmunología",
+          "tema": "Proteína propia frente a proteína de otra especie",
+          "competencial": true,
+          "q": "Se sabe que el sistema inmunitario reacciona contra todo tipo de moléculas que no reconoce como propias. En un estudio realizado con ratones se les introducen dos proteínas del plasma sanguíneo: 1) un factor de coagulación de ratón; y 2) una proteína transportadora de hierro de caballo. Después de dos semanas se extrae sangre a los ratones. a) Indique si los ratones habrán producido anticuerpos contra cada proteína, razonando la respuesta [0,8] y b) el tipo de célula que los habrá producido [0,2].",
+          "c": [
+            "a) **Solo contra la proteína de caballo**, no contra la de ratón (0,2 p): al proceder de **otra especie**, los **linfocitos B la reconocen como extraña** y producen anticuerpos (0,8 p en total).",
+            "b) **Linfocitos B (células plasmáticas)** (0,2 p)."
+          ]
+        },
+        {
+          "opcion": "C",
+          "n": 1,
+          "bloque": "Biomoléculas",
+          "tema": "Agua, diálisis, difusión y ósmosis",
+          "figura": "assets/figuras/historico/2020/ex2-c1.webp",
+          "figuraDesc": "A: dos moléculas angulares (105º) con cargas δ⁺ y δ⁻ unidas por una línea de puntos. B, C y D: recipientes separados por una membrana en los que pasan partículas o agua de un lado a otro.",
+          "q": "En relación con las imágenes adjuntas, conteste a las siguientes cuestiones: a) Identifique las moléculas representadas en la imagen A y los fenómenos representados con las letras B, C y D [0,8]. b) En relación con la imagen A, indique el tipo de enlace que se establece entre ambas moléculas [0,2].",
+          "c": [
+            "a) A: **agua**; B: **diálisis**; C: **difusión**; D: **ósmosis** (0,8 p).",
+            "b) **Puentes de hidrógeno** (0,2 p)."
+          ]
+        },
+        {
+          "opcion": "C",
+          "n": 2,
+          "bloque": "Célula",
+          "tema": "Cantidad de ADN a lo largo del ciclo celular",
+          "figura": "assets/figuras/historico/2020/ex2-c2.webp",
+          "figuraDesc": "Cantidad de ADN frente al tiempo: constante en 2 (A), sube de 2 a 4 (B), se mantiene en 4 (C), cae bruscamente a 2 (D) y sigue en 2 (E).",
+          "q": "En un cultivo de células humanas en crecimiento se analiza la cantidad de ADN a distintos tiempos. El resultado se muestra en la siguiente figura: a) Indique el nombre de las fases señaladas con las letras de la A a la E [0,5]. b) Indique qué ocurre en cada una de esas fases [0,5].",
+          "c": [
+            "a) A: **G1**; B: **S**; C: **G2**; D: **mitosis (M)**; E: **G1** (0,5 p).",
+            "b) G1: **síntesis de proteínas y crecimiento**; S: **replicación del ADN y síntesis de histonas**; G2: **duplicación de los centriolos y síntesis de proteínas para la mitosis**; M: **división del núcleo y de la célula** (0,5 p)."
+          ]
+        },
+        {
+          "opcion": "C",
+          "n": 3,
+          "bloque": "Célula",
+          "tema": "Partes de un cromosoma metafásico",
+          "figura": "assets/figuras/historico/2020/ex2-c3.webp",
+          "figuraDesc": "Cromosoma con dos cromátidas unidas por una constricción (1), con los brazos (2), cada cromátida (3) y los extremos (4) señalados.",
+          "q": "En relación con la figura adjunta, responda a las siguientes cuestiones: a) Indique qué estructura representa la figura [0,2]. b) Nombre las partes señaladas con números del 1 al 4 [0,8].",
+          "c": [
+            "a) **Cromosoma (metafásico)** (0,2 p).",
+            "b) 1: **centrómero**; 2: **brazos**; 3: **cromátidas**; 4: **telómeros** (0,8 p)."
+          ]
+        },
+        {
+          "opcion": "C",
+          "n": 4,
+          "bloque": "Microbiología",
+          "tema": "Estructuras de una bacteria y sus funciones",
+          "figura": "assets/figuras/historico/2020/ex2-c4.webp",
+          "figuraDesc": "Bacteria con muchos apéndices cortos (1), un apéndice largo (2) y un detalle de las tres capas de su envoltura (3, 4 y 5, de dentro afuera).",
+          "q": "En relación con la figura adjunta, conteste a las siguientes cuestiones: a) Indique el nombre de las estructuras señaladas con los números del 1 al 5 [0,5]. b) Cite una función de cada una de ellas [0,5].",
+          "c": [
+            "a) 1: **pili** (se acepta fimbria); 2: **flagelo**; 3: **membrana plasmática**; 4: **pared celular**; 5: **cápsula o glucocálix** (0,5 p).",
+            "b) (Una por estructura, 0,1 p cada una) pili: **intercambio de ADN** (fimbria: **adhesión**); flagelo: **movilidad**; membrana: **separación y comunicación con el exterior**; pared: **rigidez y protección**; cápsula: **función antigénica y de reconocimiento** ((y protección frente a la fagocitosis y la desecación))."
+          ]
+        },
+        {
+          "opcion": "C",
+          "n": 5,
+          "bloque": "Inmunología",
+          "tema": "Tipos de inmunidad adquirida",
+          "figura": "assets/figuras/historico/2020/ex2-c5.webp",
+          "figuraDesc": "Cuatro viñetas: 1, una niña enferma rodeada de microbios; 2, una niña vacunada con antígenos atenuados; 3, anticuerpos que pasan de la madre al feto por la placenta y al bebé por la lactancia; 4, un frasco de suero con anticuerpos.",
+          "q": "En relación con la imagen adjunta, conteste a las siguientes cuestiones: a) ¿Qué tipo de inmunidad representa la imagen en su conjunto? [0,2] b) Utilizando los números de la imagen, indique el tipo de inmunidad que representan [0,8].",
+          "c": [
+            "a) **Inmunidad adquirida** (0,2 p).",
+            "b) 1: **natural activa**; 2: **artificial activa (vacunación)**; 3: **natural pasiva**; 4: **artificial pasiva (sueroterapia)** (0,8 p)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex3",
+      "nombre": "Examen 3",
+      "enunciado": "biologia_P_3.pdf",
+      "criterios": "biologia_C_3.pdf",
+      "preguntas": [
+        {
+          "opcion": "A",
+          "n": 1,
+          "bloque": "Biomoléculas",
+          "tema": "Moléculas hidrofílicas, hidrofóbicas y anfipáticas",
+          "q": "Defina e indique un ejemplo de molécula para cada uno de los siguientes tipos: a) hidrofílica [0,4]; b) hidrofóbica [0,4]; c) anfipática [0,4]. d) ¿Cómo se comportan las moléculas anfipáticas en soluciones acuosas? [0,3] e) Explique cómo se comportan las moléculas anfipáticas en relación con la formación de las membranas biológicas [0,5].",
+          "c": [
+            "a) **Molécula polar o iónica** que **se disuelve en agua** y disolventes polares (0,3 p); ejemplo: **sales minerales, glúcidos** (0,1 p).",
+            "b) **Sustancia apolar, insoluble en agua** y soluble en disolventes apolares (0,3 p); ejemplo: **ácidos grasos, hidrocarburos** (0,1 p).",
+            "c) Molécula con **regiones hidrofílicas e hidrofóbicas** (0,3 p); ejemplo: **fosfolípidos, colesterol, proteínas de membrana** (0,1 p).",
+            "d) Forman **micelas**, con la **parte hidrofílica hacia el agua** y la **hidrofóbica hacia el interior** (0,3 p).",
+            "e) Forman **bicapas lipídicas**: las **regiones hidrofóbicas se unen entre sí** y las **hidrofílicas se orientan hacia el medio acuoso** (0,5 p)."
+          ]
+        },
+        {
+          "opcion": "A",
+          "n": 2,
+          "bloque": "Célula",
+          "tema": "Cómo entra cada sustancia en la célula",
+          "q": "Indique el mecanismo de transporte que utilizarían los siguientes elementos, compuestos o microorganismos para entrar en una célula eucariótica y explique por qué: a) oxígeno; b) agua; c) bacteria; d) esteroide; e) dióxido de carbono; f) ion sodio; g) glucosa; h) aminoácido [2].",
+          "c": [
+            "(0,25 p cada uno) a) O₂: **difusión simple por la bicapa**, por ser **pequeño y apolar**. b) Agua: **difusión (ósmosis)**, por ser **pequeña** ((sobre todo a través de acuaporinas)). c) Bacteria: **fagocitosis**, por su **gran tamaño**. d) Esteroide: **difusión por la bicapa**, por ser **lipídico**. e) CO₂: **difusión por la bicapa**, por ser **pequeño** ((y apolar; los criterios lo describen como «polar con poca carga», pero la molécula de CO₂ es apolar)). f) Na⁺: **canales iónicos** (a favor de gradiente) o **transporte activo** (en contra), por tener **carga**. g) Glucosa y h) aminoácido: **proteínas transportadoras**, por su **tamaño y naturaleza no lipídica**."
+          ]
+        },
+        {
+          "opcion": "A",
+          "n": 3,
+          "bloque": "Genética",
+          "tema": "Recombinación genética",
+          "q": "a) Explique el concepto de recombinación genética [1]. b) ¿En qué tipo de células se produce y en qué etapa de la división tiene lugar? [0,5] c) ¿Cuál es su importancia biológica? [0,5]",
+          "c": [
+            "a) **Intercambio de fragmentos entre cromosomas homólogos** ((entre cromátidas no hermanas, por sobrecruzamiento)) durante la **profase meiótica** (1 p).",
+            "b) **Células germinales** (0,25 p); **profase I de la meiosis** (0,25 p).",
+            "c) Produce **nuevas combinaciones de alelos** y **aumenta la variabilidad genética** (0,5 p)."
+          ]
+        },
+        {
+          "opcion": "A",
+          "n": 4,
+          "bloque": "Microbiología",
+          "tema": "Antibióticos y resistencias",
+          "q": "a) Defina antibiótico [0,6]. b) ¿Habitualmente los antibióticos son sustancias de uso preventivo o curativo? [0,4] c) Indique un grupo de microorganismos productores de antibióticos [0,4]. d) Explique por qué no se debe abusar del uso de antibióticos [0,6].",
+          "c": [
+            "a) **Sustancias fabricadas y excretadas por microorganismos** con **capacidad antimicrobiana** (0,6 p).",
+            "b) **Curativo** (0,4 p).",
+            "c) **Hongos** o **bacterias** (uno) (0,4 p) ((p. ej., Penicillium o Streptomyces)).",
+            "d) Por la **aparición de resistencias**: se seleccionan **cepas resistentes** y el antibiótico **pierde su eficacia** (0,6 p)."
+          ]
+        },
+        {
+          "opcion": "A",
+          "n": 5,
+          "bloque": "Inmunología",
+          "tema": "Respuesta primaria, secundaria y memoria",
+          "q": "Explique en qué consisten las respuestas inmunitarias a) primaria [0,5] y b) secundaria [0,5]. c) Represente gráficamente cómo varía la concentración de anticuerpos a lo largo del tiempo en ambas respuestas [0,5]. d) Defina memoria inmunológica [0,5].",
+          "c": [
+            "a) La que se produce **tras el primer contacto con el antígeno** (infección o vacunación) (0,5 p).",
+            "b) La que se produce cuando **ya hubo un contacto previo** con el antígeno; es **consecuencia de la memoria inmunológica** (0,5 p).",
+            "c) **Gráfica** en la que la primaria tiene **menor concentración de anticuerpos** y **aparece más lentamente** que la secundaria (0,5 p).",
+            "d) **Capacidad de reconocer un antígeno con el que ya se ha estado en contacto**, que permite una **respuesta más rápida y efectiva** (0,5 p)."
+          ]
+        },
+        {
+          "opcion": "B",
+          "n": 1,
+          "bloque": "Biomoléculas",
+          "tema": "Prueba de Fehling: glucosa, sacarosa, glucógeno y celulosa",
+          "competencial": true,
+          "q": "La reacción de Fehling es típica de los azúcares reductores y se caracteriza porque cuando es positiva aparece color rojo. En el laboratorio, tres muestras de diferentes tipos de glúcidos se sometieron a esta reacción y se obtuvo el siguiente resultado: muestra 1: rojo; muestra 2: incoloro; muestra 3: incoloro. Previo a un segundo ensayo de Fehling, las muestras 2 y 3 se sometieron a la acción de una enzima que hidrolizaba los enlaces glucosídicos α (1→4). Tras realizar el segundo ensayo de Fehling, los resultados fueron: muestra 2: incoloro, muestra 3: rojo. a) ¿Cuál de las muestras puede estar constituida por glucógeno? [0,25] b) ¿Cuál puede ser sacarosa? [0,25] c) ¿Cuál puede ser glucosa? [0,25] d) De las tres muestras, ¿cuál podría ser también celulosa? [0,25] Explique cada respuesta de forma razonada.",
+          "c": [
+            "a) **Glucógeno: muestra 3**: negativa al principio y **positiva tras hidrolizar los enlaces α(1→4)**, que **liberan glucosa** (0,25 p).",
+            "b) **Sacarosa: muestra 2**: negativa en los dos ensayos, **no es reductora ni tiene enlaces α(1→4)** ((su enlace es α1→β2)) (0,25 p).",
+            "c) **Glucosa: muestra 1**: positiva desde el principio, **es reductora** (0,25 p).",
+            "d) **Celulosa: muestra 2**: no es reductora ((en la práctica)) y **no tiene enlaces α(1→4)** ((sus enlaces son β(1→4))) (0,25 p)."
+          ]
+        },
+        {
+          "opcion": "B",
+          "n": 2,
+          "bloque": "Metabolismo",
+          "tema": "Fijación de CO₂ por algas en la oscuridad",
+          "competencial": true,
+          "q": "Una suspensión de algas verdes se ilumina en ausencia de dióxido de carbono. Si posteriormente se añade dióxido de carbono en condiciones de oscuridad, se observa un rápido consumo de este gas, que cesa en un intervalo de tiempo pequeño. a) ¿Para qué utilizan las algas verdes el dióxido de carbono que se les suministra en condiciones de oscuridad? [0,4] b) ¿Por qué cesa en poco tiempo el consumo de dióxido de carbono en esas condiciones? [0,6] Razone todas las respuestas.",
+          "c": [
+            "a) Para **producir glucosa** (0,1 p) mediante la **fase no dependiente de la luz (ciclo de Calvin)** (0,3 p).",
+            "b) Se **agotan el NADPH y el ATP** acumulados durante la iluminación, y **sin luz no se regeneran** (0,6 p)."
+          ]
+        },
+        {
+          "opcion": "B",
+          "n": 3,
+          "bloque": "Genética",
+          "tema": "Enfermedad recesiva en hijos de padres sanos",
+          "competencial": true,
+          "q": "a) ¿Cómo es posible que una persona manifieste una enfermedad hereditaria que ninguno de sus padres muestra? [0,5] b) ¿Sería posible que los descendientes de esta persona enferma no padecieran la enfermedad, sin considerar mutaciones a lo largo de su vida? [0,5] Razone las respuestas representando los esquemas de los posibles cruzamientos.",
+          "c": [
+            "a) Si la enfermedad la causa un **alelo recesivo**: la persona es **homocigótica recesiva (aa)** y sus **padres heterocigóticos (Aa)** ((Aa × Aa → 1/4 aa)) (0,5 p).",
+            "b) **Sí**: si su pareja es **homocigótica dominante (AA)**, **el 100 % de los hijos será Aa, sano**; si es **heterocigótica (Aa)**, **50 % Aa sanos y 50 % aa enfermos** (0,5 p)."
+          ]
+        },
+        {
+          "opcion": "B",
+          "n": 4,
+          "bloque": "Microbiología",
+          "tema": "Leche pasteurizada y leche UHT",
+          "competencial": true,
+          "q": "La leche pasteurizada es un alimento muy perecedero, por lo que debe almacenarse en frío y consumirse en pocos días. Sin embargo, la leche “UHT” sufre un proceso de esterilización, pudiéndose conservar a temperatura ambiente durante varios meses, siempre que el envase permanezca cerrado. Explique de forma razonada cada uno de estos dos hechos [1].",
+          "c": [
+            "La **pasteurización no elimina todos los microorganismos**: si no se guarda en frío y se consume pronto, **se deteriora por su acción** (0,5 p).",
+            "La **esterilización elimina todos los microorganismos**, por lo que la leche **no se deteriora** ((mientras el envase cerrado impida que entren otros)) (0,5 p)."
+          ]
+        },
+        {
+          "opcion": "B",
+          "n": 5,
+          "bloque": "Inmunología",
+          "tema": "Rechazo de trasplantes e inmunosupresores",
+          "competencial": true,
+          "q": "Los trasplantes permiten a muchas personas continuar su vida tras perder la funcionalidad de alguno de sus propios órganos a causa de diferentes enfermedades. Sin embargo, incluso en el caso de encontrar un donante compatible, existe la posibilidad de que éste resulte rechazado por el receptor. a) Proponga una posible solución para disminuir la probabilidad de aparición de rechazo [0,5]. b) Comente algún riesgo de esta solución [0,5].",
+          "c": [
+            "a) El uso de **inmunosupresores** (0,5 p).",
+            "b) La inmunosupresión **no es exclusiva del rechazo**: **aumenta el riesgo de infecciones** por patógenos (0,5 p)."
+          ]
+        },
+        {
+          "opcion": "C",
+          "n": 1,
+          "bloque": "Biomoléculas",
+          "tema": "Lámina β y niveles estructurales",
+          "figura": "assets/figuras/historico/2020/ex3-c1.webp",
+          "figuraDesc": "Modelo de cintas de una proteína con una zona ampliada (región A) formada por varias flechas planas paralelas.",
+          "q": "La figura representa la conformación tridimensional de una proteína y una zona ampliada (región A) de la misma. a) ¿Qué tipo de estructura presenta la región A? [0,2] b) ¿Qué tipo de fuerzas o relaciones entre átomos mantiene esta estructura? [0,2] c) ¿Qué otros tipos de estructuras debe tener una proteína formada por una sola cadena polipeptídica para ser funcional? ¿Y una que esté formada por dos o más cadenas polipeptídicas? [0,6]",
+          "c": [
+            "a) **Lámina β (hoja plegada)** (solo «estructura secundaria»: 0,1 p) (0,2 p).",
+            "b) **Puentes de hidrógeno** (0,2 p).",
+            "c) Una cadena: **estructura primaria y terciaria** (0,3 p); dos o más cadenas: **primaria, terciaria y cuaternaria** (0,3 p)."
+          ]
+        },
+        {
+          "opcion": "C",
+          "n": 2,
+          "bloque": "Célula",
+          "tema": "Ribosoma y centrosoma",
+          "figura": "assets/figuras/historico/2020/ex3-c2.webp",
+          "figuraDesc": "A: dos subunidades de 60S y 40S que forman una partícula de 80S. B: una estructura con fibras radiales (1), una zona central (2) y dos cilindros perpendiculares ampliados (3).",
+          "q": "En relación con la imagen adjunta, en la que se observan dos estructuras presentes en las células eucarióticas, responda a las siguientes cuestiones: a) Indique el nombre de las estructuras señaladas con las letras A y B [0,2]. b) ¿En qué tipo de células eucarióticas se pueden encontrar la estructura A? ¿Y la B? [0,3] c) Identifique las partes de la estructura B señaladas con los números 1, 2 y 3 [0,3]. d) Indique una función de A y otra de B [0,2].",
+          "c": [
+            "a) A: **ribosoma**; B: **centrosoma** (0,2 p).",
+            "b) A: **células animales y vegetales**; B: **células animales** (0,3 p).",
+            "c) 1: **microtúbulos (áster)**; 2: **material pericentriolar (centrosfera)**; 3: **centriolos (diplosoma)** (0,3 p).",
+            "d) A: **síntesis de proteínas**; B: **organización de los microtúbulos** o **formación del huso mitótico** (0,2 p)."
+          ]
+        },
+        {
+          "opcion": "C",
+          "n": 3,
+          "bloque": "Genética",
+          "tema": "Transcripción, maduración y traducción en eucariotas",
+          "figura": "assets/figuras/historico/2020/ex3-c3.webp",
+          "figuraDesc": "En el núcleo, una enzima (2) sobre el ADN (1) produce un ARN (3) con zonas alternas; luego aparece con caperuza y cola de poli-A (4) y ya sin las zonas intermedias (5); en el citoplasma, varios ribosomas (7) sobre él liberan una cadena (6).",
+          "q": "En relación con la figura adjunta, responda a las siguientes cuestiones: a) Nombre las moléculas representadas con los números 1, 2, 4, 5 y 6 [0,5]. b) ¿Cómo se denominan los procesos de la figura que se desarrollan en el núcleo? [0,4] c) ¿Qué representa el número 7? [0,1]",
+          "c": [
+            "a) 1: **ADN**; 2: **ARN polimerasa**; 4: **ARNm transcrito primario (pre-ARNm)**; 5: **ARNm maduro**; 6: **polipéptido** (0,5 p).",
+            "b) **Transcripción y maduración** ((corte y empalme de intrones, caperuza y cola de poli-A)) (0,4 p).",
+            "c) **Ribosoma** (o subunidad mayor) (0,1 p)."
+          ]
+        },
+        {
+          "opcion": "C",
+          "n": 4,
+          "bloque": "Microbiología",
+          "tema": "Bacteria en división",
+          "figura": "assets/figuras/historico/2020/ex3-c4.webp",
+          "figuraDesc": "Una célula rectangular con envoltura (A), material genético (B) y citoplasma (C) que duplica su material genético y se divide en dos.",
+          "q": "En relación con la figura adjunta, responda a las siguientes cuestiones: a) ¿De qué microorganismo se trata? [0,1] b) Cite tres características que lo diferencien del resto de microorganismos [0,3]. c) Indique cómo se denominan las estructuras señaladas con las letras A, B y C [0,6].",
+          "c": [
+            "a) **Bacteria** (0,1 p) ((dividiéndose por bipartición)).",
+            "b) (Solo tres) **organización procariota**, **ribosomas 70S**, **ADN circular (nucleoide)**, **pared bacteriana** (0,3 p).",
+            "c) A: **pared bacteriana**; B: **ADN bacteriano**; C: **citoplasma** (0,6 p)."
+          ]
+        },
+        {
+          "opcion": "C",
+          "n": 5,
+          "bloque": "Inmunología",
+          "tema": "El anticuerpo y sus clases",
+          "figura": "assets/figuras/historico/2020/ex3-c5.webp",
+          "figuraDesc": "Molécula en forma de Y formada por cuatro cadenas.",
+          "q": "En relación con la figura adjunta, conteste a las siguientes cuestiones: a) ¿Qué tipo de molécula representa la figura? [0,2] b) ¿Cuál es su naturaleza química? [0,1] c) ¿Qué células la producen? [0,2] d) Cite las distintas clases que existen de este tipo de molécula [0,5].",
+          "c": [
+            "a) **Anticuerpo (inmunoglobulina)** (0,2 p).",
+            "b) **Proteica (glucoproteica)** (0,1 p).",
+            "c) **Células plasmáticas (linfocitos B)** (0,2 p).",
+            "d) **IgG, IgM, IgA, IgE e IgD** (0,5 p)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex4",
+      "nombre": "Examen 4",
+      "enunciado": "biologia_P_4.pdf",
+      "criterios": "biologia_C_4.pdf",
+      "preguntas": [
+        {
+          "opcion": "A",
+          "n": 1,
+          "bloque": "Biomoléculas",
+          "tema": "Enzimas: cofactores, energía de activación y especificidad",
+          "q": "a) Defina el concepto de enzima [0,4] y b) describa el papel que desempeñan los cofactores y coenzimas en su actividad [0,5]. c) Indique cómo afecta la acción del enzima a la energía de activación en el mecanismo de acción enzimática [0,5]. d) Defina centro activo [0,3] y e) explique a qué se debe la especificidad enzimática [0,3].",
+          "c": [
+            "a) **Proteína con función catalítica** que **acelera las reacciones metabólicas** (0,4 p) ((existen también ARN catalíticos, las ribozimas)).",
+            "b) Permiten que determinadas reacciones se desarrollen, **actuando como activadores** de la enzima o **transfiriendo grupos químicos** ((o electrones)) (0,5 p).",
+            "c) La enzima **disminuye la energía de activación** (0,5 p).",
+            "d) **Región de la enzima formada por los aminoácidos que se unen al sustrato** ((y catalizan la reacción)) (0,3 p).",
+            "e) Los aminoácidos del centro activo forman una **estructura complementaria al sustrato** (0,3 p)."
+          ]
+        },
+        {
+          "opcion": "A",
+          "n": 2,
+          "bloque": "Célula",
+          "tema": "Diferencias entre procariotas y eucariotas",
+          "q": "Indique cuatro diferencias entre las células procarióticas y eucarióticas [1,2]. Explique una función de dos estructuras que sólo se encuentren en células eucarióticas [0,8].",
+          "c": [
+            "(Solo cuatro, 0,3 p cada una) **presencia o ausencia de núcleo**, **de orgánulos membranosos**, **distinto tamaño de los ribosomas (70S/80S)**, **distinta organización del material genético**, **división por bipartición o por mitosis**.",
+            "(Dos con una función, 0,4 p cada una) **cloroplastos: fotosíntesis**; **mitocondrias: obtención de energía por la respiración celular**; o cualquier otra estructura exclusiva de eucariotas."
+          ]
+        },
+        {
+          "opcion": "A",
+          "n": 3,
+          "bloque": "Genética",
+          "tema": "Locus, centrómero, submetacéntrico y alelo recesivo",
+          "q": "Defina los siguientes conceptos: a) locus [0,4]; b) centrómero [0,4]; c) cromosoma submetacéntrico [0,4]; d) alelo recesivo [0,4]. e) Indique cuál es la composición molecular de los cromosomas en organismos eucarióticos [0,4].",
+          "c": [
+            "a) **Posición que ocupa un gen en un cromosoma** (0,4 p).",
+            "b) **Zona de unión de las dos cromátidas** de un cromosoma (0,4 p).",
+            "c) Cromosoma cuyo centrómero deja **brazos de longitud desigual** (0,4 p).",
+            "d) **Alelo que solo se expresa en homocigosis** (0,4 p).",
+            "e) **ADN y proteínas** ((histonas)) (0,4 p)."
+          ]
+        },
+        {
+          "opcion": "A",
+          "n": 4,
+          "bloque": "Microbiología",
+          "tema": "Virus, viroides y priones",
+          "q": "a) Describa la composición de virus, viroides y priones [0,6] b) indicando los organismos a los que pueden infectar [0,6]. c) Indique tres diferencias y una semejanza entre un bacteriófago y un viroide [0,8].",
+          "c": [
+            "a) Virus: **ácido nucleico (ADN o ARN) y proteínas**; viroides: **ARN monocatenario**; priones: **proteínas** (0,2 p cada uno).",
+            "b) Virus: **bacterias, animales y plantas**; viroides: **solo plantas**; priones: **solo animales** (0,2 p cada uno).",
+            "c) Diferencias (solo tres, 0,2 p cada una): **tipo de ácido nucleico**, **presencia o no de cápsida**, **tipo de célula que infectan**. Semejanza (una, 0,2 p): **parásitos obligados**, **formas acelulares**, **agentes infecciosos**."
+          ]
+        },
+        {
+          "opcion": "A",
+          "n": 5,
+          "bloque": "Inmunología",
+          "tema": "Estructura de los anticuerpos",
+          "q": "a) Defina anticuerpo [0,5]. b) ¿Por cuántas cadenas está formada la estructura básica de una inmunoglobulina? [0,2] c) ¿Qué tipo de enlace covalente mantiene unidas a estas cadenas? [0,2] d) Indique dos características que tengan en común dichas cadenas [0,6]. e) Enumere los diferentes tipos de anticuerpos [0,5].",
+          "c": [
+            "a) **Molécula proteica producida por los linfocitos B (células plasmáticas)** en respuesta a la entrada de **antígenos** (0,5 p).",
+            "b) **Dos cadenas pesadas y dos ligeras** (cuatro) (0,2 p).",
+            "c) **Puentes disulfuro** (0,2 p).",
+            "d) (Solo dos) **dominio constante**, **dominio variable**, **regiones hipervariables**, **dominios de unos 110 aminoácidos** (0,6 p).",
+            "e) **IgG, IgM, IgA, IgE e IgD** (0,5 p)."
+          ]
+        },
+        {
+          "opcion": "B",
+          "n": 1,
+          "bloque": "Biomoléculas",
+          "tema": "Desnaturalización del ADN y contenido en G+C",
+          "competencial": true,
+          "q": "Dos moléculas de ADN (I y II) de doble cadena y de la misma longitud, se someten a altas temperaturas. Se observa que el ADN I se desnaturaliza antes que el ADN II. a) Explique este resultado [0,5]. b) ¿Cuál de las dos moléculas de ADN tendrá mayor cantidad de guaninas? [0,5]. Razone ambas respuestas.",
+          "c": [
+            "a) El ADN I tiene **menos puentes de hidrógeno**, por lo que se desnaturaliza antes (0,5 p).",
+            "b) **La molécula II**: los pares **G-C se unen por tres puentes de hidrógeno** y los **A-T por dos**, así que **más G-C exige más energía** para separarlas (0,5 p)."
+          ]
+        },
+        {
+          "opcion": "B",
+          "n": 2,
+          "bloque": "Célula",
+          "tema": "Taxanos, huso mitótico y cáncer",
+          "competencial": true,
+          "q": "Los taxanos son compuestos que alteran la función de los microtúbulos e interfieren en la formación del huso mitótico. Explique de forma razonada las siguientes cuestiones: a) ¿por qué se utilizan en el tratamiento del cáncer? [0,75]; b) ¿afectarán a otras células del organismo además de a las células cancerosas? [0,25]",
+          "c": [
+            "a) Los microtúbulos y el **huso mitótico** son **esenciales para la división celular**; como las células cancerosas tienen una **alta tasa de división**, estos compuestos **impiden su proliferación** (0,75 p).",
+            "b) **Sí**: afectarán a la **división de cualquier otra célula** del organismo ((sobre todo a las que se dividen mucho)) (0,25 p)."
+          ]
+        },
+        {
+          "opcion": "B",
+          "n": 3,
+          "bloque": "Genética",
+          "tema": "Evolución divergente de los camélidos",
+          "competencial": true,
+          "q": "Actualmente existen especies de camélidos (camello, dromedario, llama, vicuña, etc.) con importantes diferencias fenotípicas en África, América y Asia. ¿Qué explicación razonada daría a este hecho desde el punto de vista de la evolución? [1]",
+          "c": [
+            "Proceden de **un antepasado común**, y cada especie es el resultado de la **selección de los fenotipos mejor adaptados a su ambiente** ((tras quedar aisladas geográficamente)): **evolución divergente** (1 p)."
+          ]
+        },
+        {
+          "opcion": "B",
+          "n": 4,
+          "bloque": "Microbiología",
+          "tema": "Respiración aerobia sin mitocondrias",
+          "competencial": true,
+          "q": "Las células procariotas carecen de mitocondrias. ¿Implica este hecho que todas las células procariotas presenten un metabolismo anaerobio obligado? Razone la respuesta [1].",
+          "c": [
+            "**No**: los procariotas pueden tener **toda la maquinaria enzimática del catabolismo aerobio**, que **no precisa de mitocondrias** ((la cadena respiratoria está en su membrana plasmática)) (1 p)."
+          ]
+        },
+        {
+          "opcion": "B",
+          "n": 5,
+          "bloque": "Inmunología",
+          "tema": "Recién nacidos seropositivos de madres con VIH",
+          "competencial": true,
+          "q": "El 80-85% de los recién nacidos de madres con SIDA son seropositivos al realizar la prueba tras el parto. Sin embargo, al repetir la prueba pasados unos meses el porcentaje de seropositivos se reducirá al 20-25%. Dé una explicación razonada a esta sucesión de acontecimientos [1].",
+          "c": [
+            "Muchos recién nacidos son seropositivos porque tienen **anticuerpos de la madre** en su sangre ((IgG que atravesaron la placenta)) (0,5 p). Al **desaparecer con el tiempo los anticuerpos maternos**, solo siguen seropositivos los **realmente infectados** por el virus (0,5 p)."
+          ]
+        },
+        {
+          "opcion": "C",
+          "n": 1,
+          "bloque": "Biomoléculas",
+          "tema": "La sacarosa",
+          "figura": "assets/figuras/historico/2020/ex4-c1.webp",
+          "figuraDesc": "Fórmula de un disacárido formado por un anillo de seis átomos y otro de cinco unidos por un oxígeno.",
+          "q": "En relación con la figura adjunta, conteste a las siguientes preguntas: a) ¿Cómo se llama la molécula representada? [0,2] b) ¿Qué nombre recibe cada uno de los monómeros por los que está formada? [0,2] c) ¿Cómo se denomina el enlace entre los dos monómeros? [0,2] d) Cite dos propiedades de la molécula [0,2]. e) Nombre una función de dicha molécula [0,2].",
+          "c": [
+            "a) **Sacarosa**; b) **glucosa y fructosa**; c) **O-glucosídico** ((α1→β2)); d) (dos) **soluble**, **sabor dulce**, **sin poder reductor**; e) **energética** (0,2 p cada apartado)."
+          ]
+        },
+        {
+          "opcion": "C",
+          "n": 2,
+          "bloque": "Célula",
+          "tema": "Componentes de la membrana plasmática",
+          "figura": "assets/figuras/historico/2020/ex4-c2.webp",
+          "figuraDesc": "Bicapa (A) con una proteína que lleva glúcidos (B), cadenas de glúcidos (C), una proteína que la atraviesa (D), un lípido (E) y una proteína en la cara interna (F).",
+          "q": "En relación con la figura adjunta: a) ¿Qué estructura está representada? [0,2] b) Identifique los componentes representados con las letras A, B, C, D, E y F [0,6]. c) Indique qué otra estructura, exterior a ésta, presentan algunas células eucarióticas y cuál es su componente principal [0,2].",
+          "c": [
+            "a) **Membrana celular (plasmática)** (0,2 p).",
+            "b) A: **bicapa lipídica**; B: **glucoproteína**; C: **fracción glucídica**; D: **proteína transmembrana (integral)**; E: **fosfolípido**; F: **proteína periférica** (0,6 p).",
+            "c) **Pared celular**; **celulosa** (0,2 p)."
+          ]
+        },
+        {
+          "opcion": "C",
+          "n": 3,
+          "bloque": "Genética",
+          "tema": "Herencia ligada al X: los ojos de Drosophila",
+          "figura": "assets/figuras/historico/2020/ex4-c3.webp",
+          "figuraDesc": "A: hembra de ojos rojos × macho de ojos blancos → F1 toda de ojos rojos. B: hembra y macho de la F1 (ojos rojos) → F2: hembras 100 % ojos rojos; machos 50 % blancos y 50 % rojos.",
+          "q": "Morgan, estudiando la transmisión del carácter color de los ojos en la mosca del vinagre, donde el color rojo es dominante (R, alelo para el color rojo) sobre el color blanco (r, alelo para el color blanco), obtuvo los siguientes resultados representados en los esquemas A y B. A la vista de los mismos conteste a las siguientes cuestiones: a) ¿Qué tipo de herencia presenta el carácter estudiado? [0,4] b) Indique el genotipo para el color de los ojos de las moscas progenitoras de los esquemas A y B [0,6].",
+          "c": [
+            "a) **Herencia ligada al cromosoma X** ((el blanco solo aparece en machos de la F2)) (0,4 p).",
+            "b) A: hembra **X<sup>R</sup>X<sup>R</sup>**, macho **X<sup>r</sup>Y**. B: hembra **X<sup>R</sup>X<sup>r</sup>**, macho **X<sup>R</sup>Y** (0,6 p)."
+          ]
+        },
+        {
+          "opcion": "C",
+          "n": 4,
+          "bloque": "Microbiología",
+          "tema": "Elaboración del yogur",
+          "figura": "assets/figuras/historico/2020/ex4-c4.webp",
+          "figuraDesc": "Leche más un yogur, 8 horas a 35-40 ºC, dan muchos yogures.",
+          "q": "En relación con la figura adjunta, conteste a las siguientes cuestiones: a) ¿Qué proceso bioquímico está representado? [0,25] b) ¿Qué tipo de microorganismos participan en la obtención del yogur? [0,25] c) ¿Qué papel desempeña la leche en este proceso? [0,25] d) Indique dos ejemplos de otros procesos industriales en los que intervengan microorganismos [0,25].",
+          "c": [
+            "a) **Fermentación láctica**; b) **bacterias (lácticas)**; c) es la **fuente de azúcares** ((lactosa)) para la fermentación; d) (dos) **pan**, **queso**, **bebidas alcohólicas**, **antibióticos**, **insulina**, **hormona del crecimiento** (0,25 p cada apartado)."
+          ]
+        },
+        {
+          "opcion": "C",
+          "n": 5,
+          "bloque": "Inmunología",
+          "tema": "Linfocitos B de memoria y células plasmáticas",
+          "figura": "assets/figuras/historico/2020/ex4-c5.webp",
+          "figuraDesc": "Un linfocito reconoce un antígeno (1), se activa (2) y origina células I y una célula II que libera anticuerpos (3); ante un nuevo contacto con el antígeno, una célula I origina muchas células productoras de anticuerpos (4).",
+          "q": "En relación con la figura adjunta, conteste a las siguientes cuestiones: a) Indique el tipo de respuesta que muestra la figura [0,2]. b) ¿Cómo se llaman las células I y II representadas en la línea 3 de la figura? [0,3] c) ¿Qué función desempeña cada una de ellas? [0,5]",
+          "c": [
+            "a) **Respuesta humoral** (0,2 p).",
+            "b) I: **linfocitos B de memoria**; II: **célula plasmática** (0,3 p).",
+            "c) Plasmáticas: **sintetizar y secretar anticuerpos**; B de memoria: **diferenciarse en células plasmáticas** ante un nuevo contacto con el antígeno ((respuesta secundaria)) (0,5 p)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex5",
+      "nombre": "Examen 5",
+      "enunciado": "biologia_P_5.pdf",
+      "criterios": "biologia_C_5.pdf",
+      "preguntas": [
+        {
+          "opcion": "A",
+          "n": 1,
+          "bloque": "Biomoléculas",
+          "tema": "Estructura primaria, enlace peptídico y desnaturalización",
+          "q": "a) Defina la estructura primaria de las proteínas [0,3]; b) indique qué tipo de enlace caracteriza a dicha estructura [0,2]; c) cite dos características del mismo [0,3]; d) escriba la fórmula de dicho enlace [0,5]. e) Explique qué se entiende por desnaturalización de una proteína [0,3], y f) indique un tipo de enlace que se conserve y tres que se vean afectados por ese proceso [0,4].",
+          "c": [
+            "a) **Secuencia lineal de aminoácidos** de una proteína (0,3 p).",
+            "b) **Enlace peptídico** (0,2 p).",
+            "c) (Solo dos, 0,15 p cada una) **covalente**, **coplanar**, **rígido**, **carácter parcial de doble enlace (resonancia)**.",
+            "d) **Fórmula correcta** ((–CO–NH– entre el carboxilo de un aminoácido y el amino del siguiente)) (0,5 p).",
+            "e) **Pérdida de la conformación espacial nativa** (secundaria, terciaria o cuaternaria) **y de la función**, **conservando la estructura primaria** (0,3 p).",
+            "f) Se conserva: **enlace peptídico**; se alteran: **puentes disulfuro**, **puentes de hidrógeno**, **interacciones hidrofóbicas** (0,1 p cada uno). ((Los puentes disulfuro solo se rompen con agentes reductores, no con el calor solo; los criterios los incluyen entre los afectados.))"
+          ]
+        },
+        {
+          "opcion": "A",
+          "n": 2,
+          "bloque": "Metabolismo",
+          "tema": "El ATP: función, composición y síntesis",
+          "q": "En relación con el ATP: a) explique una función del mismo en el metabolismo celular [0,5]; b) indique su composición química [0,3]; c) mencione en qué orgánulos de la célula vegetal tiene lugar su síntesis [0,4]; d) proporcione el nombre de dos reacciones metabólicas en las que se produce [0,4] y e) el nombre de los procesos celulares en los que se desarrollan esas reacciones [0,4].",
+          "c": [
+            "a) (Una) **intermediario energético** (transferencia de energía), **coenzima**, **regulador enzimático** (0,5 p).",
+            "b) **Adenina, ribosa y tres grupos fosfato** (0,3 p).",
+            "c) **Mitocondrias y cloroplastos** (0,4 p) ((también en el citosol, por fosforilación a nivel de sustrato en la glucólisis)).",
+            "d) (Dos) **fosforilación oxidativa**, **fosforilación a nivel de sustrato**, **fotofosforilación** (0,4 p).",
+            "e) **Respiración celular y fotosíntesis** (0,4 p)."
+          ]
+        },
+        {
+          "opcion": "A",
+          "n": 3,
+          "bloque": "Genética",
+          "tema": "Gen, mutación y agentes mutagénicos",
+          "q": "a) Defina los términos gen [0,5] y mutación [0,5]. b) Cite dos agentes mutagénicos [0,5]. c) Describa la importancia de las mutaciones en la evolución [0,5].",
+          "c": [
+            "a) Gen: **fragmento de ADN que codifica una proteína** (0,5 p). Mutación: **cambio al azar en el material genético** (0,5 p).",
+            "b) (Dos) **rayos UV**, **radiaciones ionizantes**, **agentes químicos**, **agentes biológicos** (0,5 p).",
+            "c) **Aumentan la variabilidad genética** ((sobre la que actúa la selección natural)) (0,5 p)."
+          ]
+        },
+        {
+          "opcion": "A",
+          "n": 4,
+          "bloque": "Microbiología",
+          "tema": "Virus: ciclo lítico y lisogénico",
+          "q": "a) Indique qué son los virus [0,5]. b) Describa el ciclo lítico de un bacteriófago [1,2]. c) Explique la diferencia principal entre el ciclo lítico y el ciclo lisogénico [0,3].",
+          "c": [
+            "a) **Formas acelulares** de **proteínas y un solo tipo de ácido nucleico**, que **necesitan células vivas para multiplicarse (parásitos obligados)** (0,5 p).",
+            "b) **Fijación a receptores específicos** de la bacteria; **inyección del ácido nucleico** (o entrada con la cápsida); **uso de la maquinaria de la bacteria** para copiar el ácido nucleico y sintetizar la cápsida; **ensamblaje**; **lisis por enzimas líticas** y **salida de los nuevos fagos** (1,2 p).",
+            "c) En el lisogénico **el ADN vírico se integra en el genoma de la célula** ((como profago, sin destruirla de momento)); en el lítico, no (0,3 p)."
+          ]
+        },
+        {
+          "opcion": "A",
+          "n": 5,
+          "bloque": "Inmunología",
+          "tema": "Anticuerpos, respuesta celular y células presentadoras",
+          "q": "a) ¿Qué tipo de moléculas producen los linfocitos B de memoria para combatir a los agentes extraños? [0,2] b) Enumere cuatro reacciones diferentes que puedan producirse entre estas moléculas y los antígenos que permitan la eliminación de los mismos [0,6]. c) Establezca dos diferencias entre la respuesta inmunitaria primaria y la secundaria [0,4]. d) Enumere dos células que intervengan en la respuesta inmunitaria celular [0,4]. e) Indique dos funciones de una célula presentadora de antígenos durante la respuesta inmune [0,4].",
+          "c": [
+            "a) **Anticuerpos (inmunoglobulinas)** (0,2 p) ((en realidad los producen las células plasmáticas en que se diferencian los B de memoria)).",
+            "b) (Cuatro, 0,15 p cada una) **neutralización**, **aglutinación**, **precipitación**, **opsonización**, **activación del complemento**.",
+            "c) (Dos) Primaria: **tras el primer contacto**, **más lenta**, **predomina la IgM**. Secundaria: **tras un segundo contacto**, **más rápida y duradera**, **predomina la IgG** (0,4 p).",
+            "d) (Dos) **linfocitos T citotóxicos**, **linfocitos T colaboradores**, **macrófagos**, **células presentadoras de antígenos** (0,4 p).",
+            "e) (Dos) **fagocitar** el agente extraño, **fragmentar el antígeno**, **presentar el determinante antigénico en su superficie** ((unido al MHC)), **liberar citocinas** que avisan a los linfocitos T (0,4 p)."
+          ]
+        },
+        {
+          "opcion": "B",
+          "n": 1,
+          "bloque": "Biomoléculas",
+          "tema": "El escorbuto en la expedición de Magallanes",
+          "competencial": true,
+          "q": "<i>“Miércoles 28 de noviembre, desembocamos por el Estrecho para entrar en el gran mar, al que dimos en seguida el nombre de Pacífico, y en el cual navegamos durante el espacio de tres meses y veinte días, sin probar ni un alimento fresco... Para no morirnos de hambre, nos vimos aun obligados a comer pedazos de cuero de vaca con que se había forrado la gran verga para evitar que la madera destruyera las cuerdas... Nuestra mayor desgracia era vernos atacados de una especie de enfermedad que hacía hincharse las encías hasta el extremo de sobrepasar los dientes en ambas mandíbulas...”</i> Año 1522. Antonio Pigafetta, <i>Viaje alrededor del Globo</i>.<br>a) ¿A qué tipo de enfermedad se refiere el texto? [0,5] b) ¿Qué haría para evitar este tipo de enfermedad en los navegantes si viviera en esa época? [0,5]",
+          "c": [
+            "a) **Escorbuto**, por **carencia de vitamina C** (avitaminosis) (0,5 p).",
+            "b) **Llevar frutas y verduras frescas, sobre todo cítricos** (0,5 p)."
+          ]
+        },
+        {
+          "opcion": "B",
+          "n": 2,
+          "bloque": "Célula",
+          "tema": "Valor C del ADN a lo largo del ciclo",
+          "competencial": true,
+          "q": "El valor C es la cantidad de ADN por genoma haploide de un organismo eucariota diploide. Utilizando dicho valor: a) exprese la cantidad de ADN que existirá al final del período S de la interfase de una célula somática de dicho organismo [0,5] y b) en cada uno de los polos de la célula al final de la anafase [0,5]. Razone las respuestas.",
+          "c": [
+            "a) En S **se duplica el ADN**: la célula diploide (**2C**) pasa a **4C** (0,5 p).",
+            "b) En anafase **se separan las cromátidas** y cada polo tiene **2C** (0,5 p)."
+          ]
+        },
+        {
+          "opcion": "B",
+          "n": 3,
+          "bloque": "Genética",
+          "tema": "Tipos de pruebas de la evolución",
+          "q": "En relación con las pruebas de la evolución, indique el tipo de prueba que representa cada uno de los siguientes ejemplos: a) la conservación de las rutas metabólicas principales en las células eucarióticas [0,25]; b) la presencia de hendiduras branquiales en los embriones de mamíferos durante la gestación [0,25]; c) el descubrimiento de los fósiles que permiten elaborar las líneas evolutivas de las especies [0,25]; d) presencia de primates emparentados en continentes diferentes [0,25].",
+          "c": [
+            "a) **Bioquímica**; b) **embriológica**; c) **paleontológica**; d) **biogeográfica** (0,25 p cada una)."
+          ]
+        },
+        {
+          "opcion": "B",
+          "n": 4,
+          "bloque": "Microbiología",
+          "tema": "Penicilina: amebas, hongos, priones y bacterias",
+          "competencial": true,
+          "q": "La penicilina es un antibiótico que inhibe la síntesis de la pared celular de procariotas. a) ¿Podría emplearse para tratar una enfermedad producida por amebas (amebiasis)? [0,25] b) ¿Y en el caso de que necesitáramos curar una enfermedad producida por hongos (micosis)? [0,25] c) ¿Y si la enfermedad estuviera causada por priones? [0,25] d) Si usted fuera médico, ¿en qué casos prescribiría este antibiótico? [0,25] Razone las respuestas.",
+          "c": [
+            "a) **No**: la ameba es un **protozoo eucariota sin pared** (0,25 p).",
+            "b) **No**: los hongos tienen pared, pero **son eucariotas** ((pared de quitina, no de peptidoglucano)) (0,25 p).",
+            "c) **No**: los priones **no tienen pared**, **solo son proteínas** (0,25 p).",
+            "d) En **infecciones bacterianas**: las bacterias son **procariotas con pared** ((de peptidoglucano)) (0,25 p)."
+          ]
+        },
+        {
+          "opcion": "B",
+          "n": 5,
+          "bloque": "Inmunología",
+          "tema": "Suero de convalecientes frente a la COVID-19",
+          "competencial": true,
+          "q": "La COVID-19 es una enfermedad, causada por un virus nuevo, para la que no existen tratamientos efectivos ni vacunas. Entre las estrategias que se están investigando actualmente se encuentra la inoculación a los enfermos de suero sanguíneo de pacientes que han superado la enfermedad. a) Explique de forma razonada la base científica que soporta esta estrategia [0,5]. b) Si se pudiera emplear en toda la población mundial, ¿sería útil este método para erradicar la enfermedad? Razone la respuesta [0,5].",
+          "c": [
+            "a) El suero de quienes la han superado **contiene anticuerpos contra el virus**, que **ayudan al sistema inmunitario del enfermo** mientras **sintetiza sus propios anticuerpos** (0,5 p).",
+            "b) **No**: con la sueroterapia **la inmunidad es temporal** y **los anticuerpos inoculados acaban desapareciendo** ((no genera memoria)) (0,5 p)."
+          ]
+        },
+        {
+          "opcion": "C",
+          "n": 1,
+          "bloque": "Biomoléculas",
+          "tema": "Fosfolípidos y colesterol en la membrana",
+          "figura": "assets/figuras/historico/2020/ex5-c1.webp",
+          "figuraDesc": "Bicapa con moléculas de cabeza esférica (1) y dos colas (2) (A) y moléculas pequeñas de anillos intercaladas (B).",
+          "q": "La figura adjunta muestra la forma típica de representar dos moléculas A y B. a) Indique de qué moléculas se trata [0,2]. b) Indique la composición de 1 y 2 en la molécula A [0,4]. c) Las moléculas A y B forman parte de una estructura celular, indique cuál [0,2]. d) Clasifique las moléculas A y B según su capacidad de reaccionar con una base fuerte [0,2].",
+          "c": [
+            "a) A: **fosfolípido**; B: **colesterol** (0,2 p).",
+            "b) 1: **cabeza polar** con un **alcohol y un grupo fosfato**; 2: **colas hidrofóbicas de ácidos grasos** (0,4 p).",
+            "c) **Membrana celular (plasmática)** (0,2 p).",
+            "d) A: **saponificable**; B: **insaponificable** (0,2 p)."
+          ]
+        },
+        {
+          "opcion": "C",
+          "n": 2,
+          "bloque": "Célula",
+          "tema": "Célula vegetal en medios de distinta concentración",
+          "figura": "assets/figuras/historico/2020/ex5-c2.webp",
+          "figuraDesc": "Tres células con pared en los medios A, B y C: en A entra más agua de la que sale y la vacuola se agranda; en B el flujo está equilibrado; en C sale agua y la membrana se separa de la pared. Se señalan el núcleo (1), la pared (2), la vacuola (3) y la membrana (4).",
+          "q": "En relación con las imágenes, que representan los efectos de tres medios acuosos diferentes (A, B y C) sobre una célula eucariótica, conteste a las siguientes cuestiones: a) ¿Qué tipo de célula está representada? [0,2] b) Identifique las estructuras señaladas con los números del 1 al 4 [0,2]. c) Indique cómo son los medios acuosos A, B y C con respecto a las células [0,6].",
+          "c": [
+            "a) **Célula vegetal** (0,2 p).",
+            "b) 1: **núcleo**; 2: **pared celular**; 3: **vacuola**; 4: **membrana plasmática** (0,2 p).",
+            "c) A: **hipotónico** ((turgencia)); B: **isotónico**; C: **hipertónico** ((plasmólisis)) (0,6 p)."
+          ]
+        },
+        {
+          "opcion": "C",
+          "n": 3,
+          "bloque": "Genética",
+          "tema": "Transcripción: ADN, ARN polimerasa y ARN",
+          "figura": "assets/figuras/historico/2020/ex5-c3.webp",
+          "figuraDesc": "Doble hélice de ADN (A) abierta por una enzima (B) que sintetiza una cadena con U en lugar de T (C), que se separa con su extremo 5′.",
+          "q": "En relación con la figura adjunta, responda a las siguientes cuestiones: a) Nombre las moléculas A, B y C [0,3]. b) Indique cómo se denominan los monómeros de las moléculas B y C [0,2] y cuál es la composición de los monómeros de la molécula C [0,3]. c) Nombre los procesos por los que se sintetizan las moléculas A y C [0,2].",
+          "c": [
+            "a) A: **ADN**; B: **ARN polimerasa**; C: **ARN** (0,3 p).",
+            "b) B: **aminoácidos**; C: **ribonucleótidos** (0,2 p). Monómeros de C: **ácido fosfórico, ribosa y base nitrogenada** (0,3 p).",
+            "c) A: **replicación**; C: **transcripción** (0,2 p)."
+          ]
+        },
+        {
+          "opcion": "C",
+          "n": 4,
+          "bloque": "Microbiología",
+          "tema": "Identificar microorganismos y su reino",
+          "figura": "assets/figuras/historico/2020/ex5-c4.webp",
+          "figuraDesc": "A: célula con cilios y vacuolas; B: célula con flagelo y cloroplastos; C: célula alargada sin núcleo con flagelo; D: filamentos ramificados con esporas en cadena; E: partícula esférica con envoltura y espículas.",
+          "q": "En relación con los dibujos que representan diferentes tipos de microorganismos, conteste a las siguientes cuestiones: a) Para los dibujos A, B, C y D, indique el tipo de microorganismo y el Reino al que pertenecen cada uno [0,8]. b) Indique qué tipo de microorganismo está representado con la letra E [0,2].",
+          "c": [
+            "a) A: **protozoo, reino Protoctista**; B: **alga unicelular, reino Protoctista**; C: **bacteria, reino Monera**; D: **moho, reino Fungi** (0,8 p).",
+            "b) **Virus** (0,2 p)."
+          ]
+        },
+        {
+          "opcion": "C",
+          "n": 5,
+          "bloque": "Inmunología",
+          "tema": "Opsonización y fagocitosis",
+          "figura": "assets/figuras/historico/2020/ex5-c5.webp",
+          "figuraDesc": "A: un antígeno (1) rodeado de anticuerpos (2) junto a una célula (3); B: la célula engloba el complejo antígeno-anticuerpo.",
+          "q": "En relación con la figura adjunta: a) Identifique las células o moléculas señaladas con los números 1, 2 y 3 [0,3]. b) ¿Qué células producen la molécula señalada con el número 2? [0,2] c) ¿Cómo se denomina a la interacción entre los elementos 1 y 2? [0,3] d) Nombre el proceso que transcurre en la imagen B [0,2].",
+          "c": [
+            "a) 1: **bacteria, virus o partícula antigénica**; 2: **anticuerpo**; 3: **macrófago o neutrófilo** (0,3 p).",
+            "b) **Linfocitos B (células plasmáticas)** (0,2 p).",
+            "c) **Reacción específica antígeno-anticuerpo** ((aquí, opsonización)) (0,3 p).",
+            "d) **Fagocitosis** (0,2 p)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ex6",
+      "nombre": "Examen 6",
+      "enunciado": "biologia_P_6.pdf",
+      "criterios": "biologia_C_6.pdf",
+      "preguntas": [
+        {
+          "opcion": "A",
+          "n": 1,
+          "bloque": "Biomoléculas",
+          "tema": "Triacilglicéridos, saponificación y lípidos insaponificables",
+          "q": "a) Defina triacilglicérido [0,4] y b) explique dos de sus funciones biológicas [0,6]. c) Explique cómo obtendría jabón a partir de estas biomoléculas [0,4]. d) Cite dos biomoléculas hidrófobas insaponificables [0,2] y e) una función de cada una de ellas [0,4].",
+          "c": [
+            "a) **Éster de la glicerina con tres ácidos grasos** (0,4 p).",
+            "b) (Dos) por su hidrofobia **se acumulan fácilmente** y su catabolismo es **muy rentable**: **reserva energética**; además, **aislamiento térmico** y **amortiguación mecánica** (0,6 p).",
+            "c) Con **hidróxido sódico o potásico** se **hidrolizan los enlaces éster** y se obtienen **sales sódicas o potásicas de los ácidos grasos (jabones)** ((y glicerina)) (0,4 p).",
+            "d) **Terpenos y esteroides** (0,2 p).",
+            "e) (Una de cada) Terpenos: **aceites esenciales**, **precursores de la vitamina A**; esteroides: **componentes de membrana** (colesterol), **precursores de hormonas** (0,4 p)."
+          ]
+        },
+        {
+          "opcion": "A",
+          "n": 2,
+          "bloque": "Célula",
+          "tema": "Profase y diferencias de la división en células animales y vegetales",
+          "q": "a) Describa los acontecimientos que suceden durante la profase de la mitosis [1]. b) Exponga una diferencia entre la cariocinesis de células animales y de células vegetales [0,5], y otra diferencia respecto a su citocinesis [0,5].",
+          "c": [
+            "a) **Desaparición del nucléolo**, **desorganización de la envoltura nuclear**, **condensación de la cromatina en cromosomas** y **formación del huso acromático** (0,25 p cada uno).",
+            "b) Cariocinesis: **presencia o ausencia de centriolos** ((huso astral en animales, anastral en vegetales)) (0,5 p). Citocinesis: **surco de segmentación** (animales) o **formación de la lámina media** ((fragmoplasto)) (vegetales) (0,5 p)."
+          ]
+        },
+        {
+          "opcion": "A",
+          "n": 3,
+          "bloque": "Genética",
+          "tema": "Homólogos, segregación, cruzamiento prueba y herencia ligada al sexo",
+          "q": "Defina los siguientes conceptos: a) cromosomas homólogos [0,4]; b) segregación cromosómica [0,4]; c) cruzamiento prueba [0,4]; d) recombinación genética [0,4]; e) herencia ligada al sexo [0,2]. f) Indique dos ejemplos de enfermedades humanas hereditarias ligadas al sexo [0,2].",
+          "c": [
+            "a) Cromosomas con **igual estructura e información para los mismos caracteres**, que **se recombinan en la meiosis** (0,4 p).",
+            "b) **Separación al azar de cromosomas o cromátidas en la meiosis** (0,4 p).",
+            "c) Cruzar un **individuo de fenotipo dominante** con un **homocigoto recesivo** para **averiguar su genotipo** (0,4 p).",
+            "d) **Intercambio de material genético entre cromátidas en la meiosis** (0,4 p).",
+            "e) La determinada por **genes situados en los cromosomas sexuales** (0,2 p).",
+            "f) **Daltonismo**, **hemofilia** (0,2 p)."
+          ]
+        },
+        {
+          "opcion": "A",
+          "n": 4,
+          "bloque": "Microbiología",
+          "tema": "Bacterias: diferencias, reproducción y nutrición",
+          "q": "a) Enumere seis diferencias entre bacterias y células eucarióticas [0,9]. b) Describa la reproducción bacteriana y explique si aporta o no variabilidad genética [0,5]. Indique cómo se clasifican las bacterias en función de: c) la fuente de carbono [0,3] y d) la fuente de energía que utilizan para su nutrición [0,3].",
+          "c": [
+            "a) (Seis, 0,15 p cada una) **núcleo definido** en eucariotas, **orgánulos membranosos**, **cromosoma bacteriano circular**, **ADN bacteriano sin histonas**, **ribosomas 70S**, **distinta pared**, **distinta estructura de los flagelos**, **fimbrias** en bacterias.",
+            "b) La bacteria **duplica su ADN y se divide en dos** células **genéticamente idénticas** (**bipartición**) (0,3 p); son **clones**, así que **no aporta variabilidad** (se acepta mencionar la variabilidad por **mutaciones**) (0,2 p).",
+            "c) **Autótrofas y heterótrofas** (0,3 p).",
+            "d) **Fotótrofas y quimiótrofas** (0,3 p)."
+          ]
+        },
+        {
+          "opcion": "A",
+          "n": 5,
+          "bloque": "Inmunología",
+          "tema": "Macrófago, linfocito B, inmunoglobulina, vacuna e inmunodeficiencia",
+          "q": "Defina los siguientes términos: a) macrófago [0,4]; b) linfocito B [0,4]; c) inmunoglobulina [0,4]; d) vacuna [0,4]; e) inmunodeficiencia [0,4].",
+          "c": [
+            "a) Macrófago: célula que **realiza fagocitosis** y actúa como **célula presentadora de antígenos** (0,4 p).",
+            "b) Linfocito B: leucocito de la **inmunidad mediada por anticuerpos** que, ante un antígeno, **se diferencia en células plasmáticas productoras de anticuerpos** (0,4 p).",
+            "c) Inmunoglobulina: **proteína producida por los linfocitos B (células plasmáticas)** frente a un **antígeno**, al que **se une específicamente** (0,4 p).",
+            "d) Vacuna: **sustancia antigénica** que se administra para **inducir una inmunidad adquirida activa** frente a un patógeno (0,4 p).",
+            "e) Inmunodeficiencia: **incapacidad del sistema inmunitario para defender al organismo** frente a las infecciones (0,4 p)."
+          ]
+        },
+        {
+          "opcion": "B",
+          "n": 1,
+          "bloque": "Biomoléculas",
+          "tema": "Temperatura y velocidad de una reacción enzimática",
+          "competencial": true,
+          "q": "Al investigar el efecto de la temperatura sobre la velocidad de una reacción enzimática se obtuvo la siguiente tabla. Proponga una explicación razonada al conjunto de resultados registrados en la misma [1].<br><table class=\"tabla-pau\"><tr><th>T (ºC)</th><td>10</td><td>15</td><td>20</td><td>25</td><td>30</td><td>35</td><td>40</td><td>45</td><td>50</td><td>55</td><td>60</td></tr><tr><th>V (µM/min)</th><td>0,5</td><td>0,9</td><td>1,4</td><td>2</td><td>2,7</td><td>3,3</td><td>3,7</td><td>3,6</td><td>2,3</td><td>0,9</td><td>0</td></tr></table>",
+          "c": [
+            "Al **aumentar la temperatura aumenta la velocidad**, porque **se favorece la formación de complejos enzima-sustrato** ((más choques eficaces)) (0,5 p). A partir de cierta temperatura ((óptima, unos 40 ºC)) la velocidad **disminuye por la desnaturalización de la enzima**, que es una proteína ((a 60 ºC la actividad es nula)) (0,5 p)."
+          ]
+        },
+        {
+          "opcion": "B",
+          "n": 2,
+          "bloque": "Célula",
+          "tema": "Organismos del planeta B612 e inhibidor de ribosomas 70S",
+          "competencial": true,
+          "q": "En el planeta B612 se han descubierto dos formas de vida unicelulares (A y B) muy similares a ciertos microorganismos del planeta Tierra. Después de realizar unos análisis preliminares, los científicos han elaborado la siguiente tabla, donde se resumen ciertas características de estos organismos extraterrestres:<br><table class=\"tabla-pau\"><tr><th>Organismo</th><th>Pared celular</th><th>Tamaño celular</th><th>Cromosomas</th><th>Envoltura nuclear</th><th>Fotosíntesis</th></tr><tr><td>A</td><td>Sí</td><td>1 µm</td><td>1 circular</td><td>No</td><td>Sí</td></tr><tr><td>B</td><td>Sí</td><td>100 µm</td><td>24 pares lineales</td><td>Sí</td><td>Sí</td></tr></table><br>a) Teniendo en cuenta esta información, indique qué organización celular poseen estos organismos y en qué grupo se podrían clasificar cada uno de ellos [0,4]. b) Si se añade un inhibidor de ribosomas 70s, explique de forma razonada qué procesos se verían afectados en cada uno de estos microorganismos [0,6].",
+          "c": [
+            "a) A: **procariota, bacteria (cianobacteria)**; B: **eucariota, alga unicelular** (0,4 p).",
+            "b) En A se afecta **toda la síntesis de proteínas (traducción)**, por tener **ribosomas 70S**. En B **no se afecta la síntesis en el citosol y el RER (ribosomas 80S)** (0,3 p), pero **sí la de mitocondrias y plastos**, cuyos **ribosomas son 70S** (0,3 p)."
+          ]
+        },
+        {
+          "opcion": "B",
+          "n": 3,
+          "bloque": "Célula",
+          "tema": "Empaquetamiento del ADN en el núcleo",
+          "competencial": true,
+          "q": "a) ¿Cómo puede una célula eucariótica contener en el núcleo de 6 μm de diámetro (6×10<sup>-6</sup> m) su ADN total, que tiene una longitud de más de 1 metro? [0,5] b) ¿Cómo pueden las células distribuir sin problemas las dos copias del ADN de tanta longitud durante la división celular? [0,5] Razone las respuestas.",
+          "c": [
+            "a) Gracias a las **proteínas (histonas)** se produce una **gran compactación del ADN** ((nucleosomas, fibra de 30 nm y niveles superiores)) (0,5 p).",
+            "b) El ADN está repartido en **distintas moléculas** que **se empaquetan en cromosomas**, de **dimensiones adecuadas para repartirse equitativamente** entre las células hijas (0,5 p)."
+          ]
+        },
+        {
+          "opcion": "B",
+          "n": 4,
+          "bloque": "Microbiología",
+          "tema": "Virus y priones en el sistema nervioso",
+          "competencial": true,
+          "q": "Dos pacientes (A y B) presentan una enfermedad infecciosa que afecta al sistema nervioso central. El agente causante de la enfermedad en el paciente A contiene un único tipo de ácido nucleico, sólo es observable al microscopio electrónico e induce la respuesta inmune. En el paciente B el agente infeccioso no contiene ningún tipo de ácido nucleico, sólo es observable al microscopio electrónico y no induce respuesta inmune. a) Justifique el tipo de agente infeccioso causante de la enfermedad en el paciente A [0,5] y b) en el paciente B [0,5].",
+          "c": [
+            "a) Paciente A: **un virus** ((un solo tipo de ácido nucleico, tamaño submicroscópico y antigénico)) (0,5 p).",
+            "b) Paciente B: **un prión** ((solo proteína, plegada de forma anómala; al ser una forma de una proteína propia no provoca respuesta inmunitaria)) (0,5 p)."
+          ]
+        },
+        {
+          "opcion": "B",
+          "n": 5,
+          "bloque": "Inmunología",
+          "tema": "Suero o vacuna antes de un viaje",
+          "competencial": true,
+          "q": "A partir de la información de los prospectos de los siguientes compuestos:<br><b>Compuesto A</b>, inmunoglobulinas humanas para un amplio espectro de antígenos.<br><b>Compuesto B</b>, antígenos inactivados del virus de la fiebre amarilla.<br>Conteste de forma razonada a las siguientes preguntas: a) ¿cuál de ellos utilizaría si viajara mañana a un país en el que la enfermedad es endémica? [0,5] b) ¿Cuál utilizaría si se está preparando para viajar a ese país dentro de unos meses, y va a vivir allí durante una larga temporada? [0,5]",
+          "c": [
+            "a) **El compuesto A**: es un **suero con anticuerpos** que da **protección inmediata** (0,5 p).",
+            "b) **El compuesto B**: es una **vacuna** que da **inmunidad duradera** ((con tiempo para que se forme la memoria)) (0,5 p)."
+          ]
+        },
+        {
+          "opcion": "C",
+          "n": 1,
+          "bloque": "Biomoléculas",
+          "tema": "ADN y ARN de transferencia",
+          "figura": "assets/figuras/historico/2020/ex6-c1.webp",
+          "figuraDesc": "A: doble hélice con pares de bases; B: molécula de una sola cadena plegada en forma de trébol, con sus extremos 5′ y 3′ y un bucle inferior señalado (C).",
+          "q": "En relación con la imagen adjunta, conteste a las siguientes cuestiones: a) Nombre las moléculas representadas en los esquemas A y B [0,2]. b) Indique el nombre de los monómeros que constituyen la molécula A [0,1] y la molécula B [0,1]. c) Especifique el nombre del enlace covalente que se establece entre los monómeros que originan estas macromoléculas [0,2]. d) ¿Qué tipo de molécula se une al extremo 3′ de la molécula B? [0,1] e) Escriba el nombre de la región señalada con la letra C en la molécula B [0,1]. f) ¿En qué proceso metabólico interviene la molécula B? [0,2].",
+          "c": [
+            "a) A: **ADN**; B: **ARN de transferencia** (0,2 p).",
+            "b) A: **desoxirribonucleótidos**; B: **ribonucleótidos** (0,2 p).",
+            "c) **Fosfodiéster** (0,2 p).",
+            "d) **Un aminoácido** (0,1 p).",
+            "e) **Anticodón** (0,1 p).",
+            "f) **Síntesis de proteínas (traducción)** (0,2 p)."
+          ]
+        },
+        {
+          "opcion": "C",
+          "n": 2,
+          "bloque": "Metabolismo",
+          "tema": "Fase luminosa de la fotosíntesis en la membrana tilacoidal",
+          "figura": "assets/figuras/historico/2020/ex6-c2.webp",
+          "figuraDesc": "Membrana del tilacoide con fotosistema II, complejo de citocromos, fotosistema I, ferredoxina-NADP reductasa y ATP sintasa, y las moléculas numeradas del 1 al 8 entre el espacio tilacoidal y el estroma.",
+          "q": "En relación con la figura adjunta, conteste a las siguientes cuestiones: a) ¿Qué proceso biológico se representa en la figura? [0,2] b) Identifique a qué corresponde cada número del 1 al 8 [0,8].",
+          "c": [
+            "a) **Fase luminosa (dependiente de la luz) de la fotosíntesis** (0,2 p).",
+            "b) 1: **luz**; 2: **agua**; 3: **oxígeno**; 4: **protones (H⁺)**; 5: **NADP⁺**; 6: **NADPH**; 7: **ADP + Pi**; 8: **ATP** (0,8 p)."
+          ]
+        },
+        {
+          "opcion": "C",
+          "n": 3,
+          "bloque": "Genética",
+          "tema": "Herencia del daltonismo",
+          "figura": "assets/figuras/historico/2020/ex6-c3.webp",
+          "figuraDesc": "Mujer de visión normal × hombre daltónico tienen un hijo de visión normal y una hija daltónica.",
+          "q": "El daltonismo es una alteración de origen genético que causa dificultad para distinguir los colores. A la vista del esquema, responda a las siguientes cuestiones utilizando la nomenclatura adecuada al tipo de herencia. a) ¿Cuál es el genotipo de la mujer y del hombre? [0,3] b) ¿Cuál es el genotipo de cada uno de los hijos? [0,3] c) ¿Cuál es el genotipo de los abuelos maternos teniendo en cuenta que ninguno de los dos son daltónicos? [0,4]",
+          "c": [
+            "(Se admite cualquier nomenclatura válida.) a) Mujer: **X<sup>D</sup>X<sup>d</sup>**; hombre: **X<sup>d</sup>Y** (0,3 p).",
+            "b) Hija: **X<sup>d</sup>X<sup>d</sup>**; hijo: **X<sup>D</sup>Y** (0,3 p).",
+            "c) Abuela: **X<sup>D</sup>X<sup>d</sup>**; abuelo: **X<sup>D</sup>Y** ((la madre recibió su X<sup>d</sup> de la abuela, porque el abuelo, sano, solo tiene X<sup>D</sup>)) (0,4 p)."
+          ]
+        },
+        {
+          "opcion": "C",
+          "n": 4,
+          "bloque": "Microbiología",
+          "tema": "Ciclos lítico y lisogénico de un fago",
+          "figura": "assets/figuras/historico/2020/ex6-c4.webp",
+          "figuraDesc": "Un virus (1) infecta una bacteria (2); a la izquierda (A) se forman nuevos virus que rompen la célula; a la derecha (B) el material del virus se integra y la bacteria se divide.",
+          "q": "Analice la imagen adjunta y responda a las siguientes cuestiones: a) ¿Qué representa la imagen en su conjunto? [0,2] b) ¿A qué hacen referencia las letras A y B? [0,4] c) ¿Qué señalan los números 1 y 2? [0,4]",
+          "c": [
+            "a) **Ciclo de vida de un virus** (0,2 p).",
+            "b) A: **ciclo lítico**; B: **ciclo lisogénico** (0,4 p).",
+            "c) 1: **bacteriófago (fago)**; 2: **bacteria** (0,4 p)."
+          ]
+        },
+        {
+          "opcion": "C",
+          "n": 5,
+          "bloque": "Inmunología",
+          "tema": "Estructura de un anticuerpo",
+          "figura": "assets/figuras/historico/2020/ex6-c5.webp",
+          "figuraDesc": "Molécula en forma de Y con dominios V y C, cadenas largas (1) y cortas (3) unidas por puentes S–S y extremos de los brazos recuadrados (2).",
+          "q": "En relación con la imagen adjunta, conteste las siguientes cuestiones: a) ¿Qué tipo de molécula representa la imagen? [0,2] b) ¿Cuál es su naturaleza química? [0,1] c) ¿Qué indican los números 1, 2 y 3? [0,3] d) ¿Qué indican las letras C y V? [0,2] e) ¿Qué células la producen? [0,2]",
+          "c": [
+            "a) **Anticuerpo (inmunoglobulina)** (0,2 p).",
+            "b) **Proteica (glucoproteica)** (0,1 p).",
+            "c) 1: **cadenas pesadas**; 2: **zonas de unión al antígeno**; 3: **cadenas ligeras** (0,3 p).",
+            "d) V: **región variable**; C: **región constante** (0,2 p).",
+            "e) **Células plasmáticas (linfocitos B)** (0,2 p)."
+          ]
+        }
+      ]
+    }
+  ]
+}
