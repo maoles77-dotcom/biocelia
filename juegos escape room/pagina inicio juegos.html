@@ -1,0 +1,72 @@
+<style>
+    .juegos-landing { font-family: 'Segoe UI', system-ui, sans-serif; color: #333; max-width: 920px; margin: 0 auto; padding: 20px; }
+    .hero-banner { background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); color: white; border-radius: 16px; padding: 44px 28px;
+        text-align: center; box-shadow: 0 10px 20px rgba(0,0,0,0.15); margin-bottom: 32px; position: relative; overflow: hidden; }
+    .hero-banner::after { content: '🧬'; position: absolute; font-size: 150px; opacity: 0.05; right: -20px; bottom: -40px; transform: rotate(-15deg); }
+    .hero-banner h1 { color: #38bdf8; font-size: 2.3rem; margin: 0 0 14px; border: none; }
+    .hero-banner p { font-size: 1.12rem; color: #cbd5e1; max-width: 640px; margin: 0 auto; line-height: 1.6; }
+    .seccion { color: #0f172a; font-size: 1.35rem; margin: 30px 0 14px; }
+    .niveles { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; }
+    .nivel { background: white; border-radius: 12px; padding: 18px 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); border-top: 4px solid #16a34a; }
+    .nivel h3 { margin: 0 0 6px; font-size: 1.1rem; color: #0f172a; }
+    .nivel p { margin: 0; color: #475569; font-size: .95rem; line-height: 1.5; }
+    .catalogo { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
+    .juego { background: white; border-radius: 12px; padding: 18px 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); border-left: 5px solid #0284c7; }
+    .juego h3 { margin: 0 0 4px; font-size: 1.12rem; color: #0f172a; }
+    .juego .bloque { display: inline-block; font-size: .78rem; font-weight: 700; color: #0369a1; background: #e0f2fe; border-radius: 999px; padding: 3px 10px; margin-bottom: 8px; }
+    .juego p { margin: 0; color: #475569; font-size: .93rem; line-height: 1.5; }
+    .instructions { background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 12px; padding: 24px 26px; margin-top: 30px; }
+    .instructions h2 { color: #0369a1; margin: 0 0 12px; font-size: 1.25rem; }
+    .instructions ol { color: #0c4a6e; font-size: 1rem; line-height: 1.7; margin: 0; padding-left: 22px; }
+    .pulse-btn { display: inline-block; margin-top: 18px; background: #0284c7; color: white; padding: 12px 24px; border-radius: 30px; font-weight: bold;
+        text-decoration: none; animation: pulse-blue 2s infinite; }
+    @keyframes pulse-blue { 0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(2,132,199,.7); } 70% { transform: scale(1); box-shadow: 0 0 0 10px rgba(2,132,199,0); } 100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(2,132,199,0); } }
+    @media (prefers-reduced-motion: reduce) { .pulse-btn { animation: none; } }
+</style>
+
+<div class="juegos-landing">
+    <div class="hero-banner">
+        <h1>🎮 Laboratorio de Retos</h1>
+        <p>Escape rooms y simuladores para aplicar la Biología de la PAU de Andalucía 2026-27: razonar casos, interpretar gráficas, hacer cálculos y corregir respuestas como lo haría el tribunal.</p>
+    </div>
+
+    <h2 class="seccion">Tres niveles en cada juego</h2>
+    <div class="niveles">
+        <div class="nivel"><h3>🟢 Básico</h3><p>Para aprender el tema: más tiempo, más pistas y los errores no penalizan.</p></div>
+        <div class="nivel" style="border-top-color:#eab308"><h3>🟡 Intermedio</h3><p>Para repasar: casos y problemas con el tiempo justo. Cada error cuesta segundos.</p></div>
+        <div class="nivel" style="border-top-color:#dc2626"><h3>🔴 PAU</h3><p>Modo examen: preguntas competenciales, una sola pista y penalización alta por error.</p></div>
+    </div>
+
+    <h2 class="seccion">Catálogo</h2>
+    <div class="catalogo">
+        <div class="juego"><h3>🧪 El Laboratorio del Dr. Carbono</h3><span class="bloque">Bloque A · Biomoléculas</span>
+            <p>Cuatro expedientes (proteínas y enzimas, lípidos y membranas, glúcidos, ácidos nucleicos) con moléculas, imágenes, gráficas y cálculos.</p></div>
+        <div class="juego"><h3>⚗️ El Laboratorio Cerrado</h3><span class="bloque">Bloque A · Prácticas, agua, sales y nutrición</span>
+            <p>Ensayos de identificación (Benedict, Lugol, Biuret, Sudán), diseño experimental, agua, tampones, grupos funcionales y vitaminas. Retos distintos en cada partida.</p></div>
+        <div class="juego"><h3>🌊 Misión Bio-Rescate</h3><span class="bloque">Bloque B · Genética molecular</span>
+            <p>Replicación, transcripción, traducción, código genético, mutaciones y variabilidad. Retos distintos en cada partida.</p></div>
+        <div class="juego"><h3>🧬 Instalación BIO-CORE</h3><span class="bloque">Bloques C y D · Célula y metabolismo</span>
+            <p>Orgánulos, transporte, división celular, respiración, fotosíntesis y fermentaciones. Retos distintos en cada partida.</p></div>
+        <div class="juego"><h3>🦠 Expedición Cajal</h3><span class="bloque">Bloques C y E · Célula, cáncer y microbiología</span>
+            <p>Teoría celular, microscopía, ciclo celular, cáncer y su prevención, y microorganismos en depuradoras, agricultura e industria. Retos distintos en cada partida.</p></div>
+        <div class="juego"><h3>🔬 Unidad de Crisis Genómica</h3><span class="bloque">Bloque E · Biotecnología</span>
+            <p>Tres expedientes: terapia génica (CRISPR, PCR), análisis forense (restricción, electroforesis) e insulina transgénica.</p></div>
+        <div class="juego"><h3>🛡️ Terminal Inmuno-Core</h3><span class="bloque">Bloque F · Inmunología</span>
+            <p>Respuesta primaria y secundaria, humoral y celular, vacunas y sueros, y alteraciones del sistema inmunitario.</p></div>
+        <div class="juego"><h3>☣️ Proyecto Quimera</h3><span class="bloque">Bloque F · Inmunología + transversal</span>
+            <p>Casos clínicos que relacionan la inmunología con la genética y el metabolismo. Retos distintos en cada partida.</p></div>
+        <div class="juego" style="border-left-color:#b91c1c"><h3>🔴 El Bolígrafo Rojo</h3><span class="bloque">Todos los bloques · Corrección</span>
+            <p>Corrige respuestas de alumnos a preguntas reales de la PAU: encuentra el error y, en el modo PAU, ponle nota con el criterio oficial.</p></div>
+    </div>
+
+    <div class="instructions">
+        <h2>¿Cómo sacarles partido?</h2>
+        <ol>
+            <li>Juega <strong>después de estudiar el tema</strong>: empieza en Básico y sube de nivel cuando superes el 80 %.</li>
+            <li>Lee siempre la <strong>explicación</strong> que aparece al acertar: es la respuesta que puntúa en la PAU.</li>
+            <li>Repite: en varios juegos los retos se sortean y en otros las opciones se barajan, así que no basta con memorizar.</li>
+            <li>Termina con <strong>El Bolígrafo Rojo</strong>: corregir a otros es la mejor forma de no cometer esos errores.</li>
+        </ol>
+        <div class="pulse-btn">Elige un juego en el menú de esta pestaña 👆</div>
+    </div>
+</div>

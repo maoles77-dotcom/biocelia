@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Terminal INMUNO-CORE — Escape Room Inmunología PAU Andalucía. BioCelia 2026-27.">
+<title>Terminal INMUNO-CORE · Inmunología PAU · BioCelia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700&family=Nunito:wght@400;600;700;900&display=swap" rel="stylesheet">
+<style>
+:root {
+  --primary:    #0284c7;
+  --primary-hv: #0369a1;
+  --green:      #16a34a;
+  --red:        #dc2626;
+  --amber:      #d97706;
+  --teal:       #0d9488;
+  --purple:     #7c3aed;
+  --text-dark:  #0f172a;
+  --muted:      #64748b;
+  --surface:    rgba(255,255,255,0.96);
+  --panel:      #f8fafc;
+  --border:     #e2e8f0;
+  --mono: 'Courier Prime','Courier New',monospace;
+  --sans: 'Nunito',system-ui,sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+
+/* ── BODY — fondo cambia por fase ── */
+body{
+  font-family:var(--sans);color:var(--text-dark);
+  min-height:100vh;display:flex;justify-content:center;align-items:flex-start;
+  padding:24px 16px;transition:background-image .7s ease;
+}
+body.bg-intro{
+  background-image:url('https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&w=1920&q=80');
+  background-size:cover;background-position:center;background-attachment:fixed;
+}
+body.bg-1{
+  background-image:url('https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=1920&q=80');
+  background-size:cover;background-position:center;background-attachment:fixed;
+}
+body.bg-2{
+  background-image:url('https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=1920&q=80');
+  background-size:cover;background-position:center;background-attachment:fixed;
+}
+body.bg-3{
+  background-image:url('https://images.unsplash.com/photo-1584118624012-df056829fbd0?auto=format&fit=crop&w=1920&q=80');
+  background-size:cover;background-position:center;background-attachment:fixed;
+}
+body.bg-4{
+  background-image:url('https://images.unsplash.com/photo-1576671081837-49000212a370?auto=format&fit=crop&w=1920&q=80');
+  background-size:cover;background-position:center;background-attachment:fixed;
+}
+body.bg-v{
+  background-image:url('https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=1920&q=80');
+  background-size:cover;background-position:center;background-attachment:fixed;
+}
+
+/* ── CONTENEDOR ── */
+.container{
+  position:relative;max-width:860px;width:100%;
+  background:var(--surface);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);
+  border-radius:20px;overflow:hidden;
+  box-shadow:0 30px 70px rgba(0,0,0,.5),0 0 0 1px rgba(255,255,255,.65);
+  border:1px solid rgba(255,255,255,.7);
+}
+
+/* ── TOP BAR ── */
+.top-bar{
+  background:#0f172a;padding:11px 22px;
+  display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;
+  border-radius:20px 20px 0 0;
+}
+.top-left{display:flex;align-items:center;gap:10px;}
+.sdot{width:8px;height:8px;border-radius:50%;background:#f87171;box-shadow:0 0 8px #f87171;animation:blink 2s infinite;}
+.top-label{font-family:var(--mono);font-size:.68rem;color:#94a3b8;letter-spacing:.1em;text-transform:uppercase;}
+.top-label strong{color:#fda4af;}
+.phase-nav{display:flex;gap:7px;}
+.pnav{font-family:var(--mono);font-size:.6rem;letter-spacing:.07em;text-transform:uppercase;padding:5px 12px;border-radius:20px;border:1px solid #334155;color:#475569;cursor:default;transition:all .3s;}
+.pnav.done{border-color:#4ade80;color:#4ade80;background:rgba(74,222,128,.07);}
+.pnav.current{border-color:#f87171;color:#f87171;background:rgba(248,113,113,.07);}
+.pnav.locked{opacity:.3;}
+.prog-strip{display:none;align-items:center;gap:8px;}
+.prog-strip.on{display:flex;}
+.prog-label{font-family:var(--mono);font-size:.6rem;color:#94a3b8;letter-spacing:.07em;white-space:nowrap;}
+.prog-track{width:65px;height:4px;background:#334155;border-radius:2px;overflow:hidden;}
+.prog-fill{height:100%;border-radius:2px;transition:width .5s ease;background:#f87171;}
+.hint-c{font-family:var(--mono);font-size:.6rem;color:#fbbf24;}
+#timer{font-family:var(--mono);font-size:1.3rem;font-weight:bold;color:#f1f5f9;letter-spacing:.08em;display:none;padding:5px 15px;background:#1e293b;border:2px solid #334155;border-radius:30px;}
+#timer.urgent{color:#fca5a5;border-color:#ef4444;animation:tpulse 1s infinite;}
+
+/* ── ROOMS ── */
+.room-inner{padding:34px 38px 38px;}
+.room{display:none;}
+.room.active{display:block;animation:fadeIn .45s ease;}
+
+@keyframes fadeIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
+@keyframes tpulse{0%,100%{opacity:1}50%{opacity:.5}}
+@keyframes glow{0%,100%{box-shadow:0 0 0 0 rgba(22,163,74,.2)}50%{box-shadow:0 0 0 10px rgba(22,163,74,0)}}
+@keyframes shake{0%,100%{transform:translateX(0)}25%{transform:translateX(-7px)}75%{transform:translateX(7px)}}
+
+/* ── INTRO ── */
+.intro-hero{display:flex;align-items:center;gap:18px;margin-bottom:26px;padding-bottom:22px;border-bottom:2px solid var(--border);}
+.intro-icon{font-size:4rem;flex-shrink:0;}
+.intro-title{font-family:var(--sans);font-size:clamp(1.7rem,4vw,2.4rem);font-weight:900;color:var(--text-dark);line-height:1.05;text-transform:uppercase;letter-spacing:-.01em;}
+.intro-title em{font-style:normal;color:var(--red);}
+.intro-sub{font-family:var(--mono);font-size:.72rem;color:var(--muted);letter-spacing:.14em;text-transform:uppercase;margin-top:6px;}
+.briefing{background:#fff1f2;border:1px solid #fecdd3;border-left:4px solid var(--red);border-radius:0 12px 12px 0;padding:18px 22px;margin-bottom:26px;font-size:.97rem;line-height:1.75;color:var(--text-dark);}
+.briefing strong{color:var(--red);}
+
+.phases-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-bottom:26px;}
+.pc{background:white;border:2px solid var(--border);border-radius:12px;padding:16px 14px;text-align:center;}
+.pc .pnum{font-family:var(--mono);font-size:.6rem;color:var(--muted);letter-spacing:.14em;margin-bottom:5px;}
+.pc .ptitle{font-weight:900;font-size:.95rem;text-transform:uppercase;margin-bottom:5px;}
+.pc .pdesc{font-size:.78rem;color:var(--muted);line-height:1.5;}
+.pc-1 .ptitle{color:var(--red);}
+.pc-2 .ptitle{color:var(--primary);}
+.pc-3 .ptitle{color:var(--green);}
+.pc-4 .ptitle{color:var(--purple);}
+
+/* ── FASE headers ── */
+.phase-tag{font-family:var(--mono);font-size:.65rem;color:var(--muted);letter-spacing:.15em;text-transform:uppercase;margin-bottom:6px;}
+.phase-title{font-family:var(--sans);font-size:clamp(1.3rem,3vw,1.8rem);font-weight:900;color:var(--text-dark);margin-bottom:18px;line-height:1.15;text-transform:uppercase;letter-spacing:.02em;}
+.acc-1{color:var(--red);}
+.acc-2{color:var(--primary);}
+.acc-3{color:var(--green);}
+.acc-4{color:var(--purple);}
+
+/* imagen inmersiva */
+.level-img{width:100%;height:175px;object-fit:cover;border-radius:10px;margin-bottom:14px;border:1px solid var(--border);box-shadow:0 4px 20px rgba(0,0,0,.12);}
+.img-cap{font-family:var(--mono);font-size:.65rem;color:var(--muted);text-align:center;margin-top:-8px;margin-bottom:16px;letter-spacing:.06em;}
+
+/* ── ESCENARIO ── */
+.scenario{background:#1e293b;border-left:5px solid #f87171;border-radius:8px;padding:16px 20px;margin-bottom:20px;}
+.sc-tag{font-family:var(--mono);font-size:.63rem;color:#f87171;letter-spacing:.1em;margin-bottom:8px;opacity:.85;}
+.sc-body{font-family:var(--mono);font-size:.87rem;line-height:1.7;color:#cbd5e1;}
+.sc-body .hl{color:#93c5fd;font-weight:bold;}
+.sc-body .warn{color:#fbbf24;}
+.sc-body .ok{color:#86efac;}
+
+/* ── BLOQUE PREGUNTA ── */
+.q-block{background:rgba(220,38,38,.04);border:1px solid var(--border);border-radius:10px;padding:20px 22px;margin-bottom:16px;}
+.q-label{font-size:1rem;font-weight:700;color:var(--text-dark);line-height:1.6;margin-bottom:14px;}
+.q-label .verb{color:var(--amber);font-style:italic;}
+.q-ref{font-family:var(--mono);font-size:.6rem;color:var(--muted);letter-spacing:.07em;display:block;margin-bottom:10px;}
+.sub-q{background:var(--panel);border:1px solid var(--border);border-radius:8px;padding:13px 16px;margin-bottom:10px;}
+.sub-q-label{font-size:.9rem;font-weight:600;color:var(--text-dark);margin-bottom:8px;line-height:1.5;}
+.sub-q-label .verb{color:var(--amber);font-style:italic;}
+select{width:100%;padding:11px 14px;background:white;border:2px solid var(--border);border-radius:8px;font-family:var(--sans);font-size:.95rem;color:var(--text-dark);transition:border-color .2s,box-shadow .2s;cursor:pointer;}
+select:focus{outline:none;border-color:var(--primary);box-shadow:0 0 0 3px rgba(2,132,199,.15);}
+select option{background:white;color:var(--text-dark);}
+
+/* gráfica SVG wrapper */
+.chart-wrap{background:white;border:2px solid var(--border);border-radius:12px;padding:16px;margin-bottom:16px;}
+.chart-wrap svg{max-width:100%;height:auto;display:block;margin:0 auto 10px;}
+
+/* tabla datos */
+.data-table{width:100%;border-collapse:collapse;font-family:var(--mono);font-size:.8rem;margin-bottom:14px;border-radius:8px;overflow:hidden;border:1px solid var(--border);}
+.data-table th{background:#0f172a;color:#fda4af;padding:9px 14px;text-align:left;font-size:.72rem;letter-spacing:.06em;}
+.data-table td{padding:8px 14px;border-top:1px solid var(--border);color:var(--text-dark);background:white;}
+.data-table tr:nth-child(even) td{background:#f8fafc;}
+.data-table .hi{color:var(--green);font-weight:bold;}
+.data-table .lo{color:var(--red);font-weight:bold;}
+.data-table .em{color:var(--primary);font-weight:bold;}
+
+/* ── BOTONES ── */
+.btn-row{display:flex;gap:10px;margin-top:18px;}
+.btn-action{flex:3;padding:14px 22px;background:var(--red);color:white;border:none;border-radius:8px;font-family:var(--sans);font-weight:700;font-size:1rem;cursor:pointer;transition:background .2s,transform .15s,box-shadow .2s;box-shadow:0 4px 14px rgba(220,38,38,.3);}
+.btn-action:hover{background:#b91c1c;transform:translateY(-1px);}
+.btn-action:focus-visible{outline:3px solid var(--red);outline-offset:2px;}
+.btn-p2{background:var(--primary);box-shadow:0 4px 14px rgba(2,132,199,.3);}
+.btn-p2:hover{background:var(--primary-hv);}
+.btn-p3{background:var(--green);box-shadow:0 4px 14px rgba(22,163,74,.3);}
+.btn-p3:hover{background:#15803d;}
+.btn-p4{background:var(--purple);box-shadow:0 4px 14px rgba(124,58,237,.3);}
+.btn-p4:hover{background:#6d28d9;}
+.btn-hint{flex:1;padding:14px;background:#f8fafc;color:var(--text-dark);border:2px solid var(--border);border-radius:8px;font-family:var(--sans);font-weight:700;font-size:.87rem;cursor:pointer;transition:all .2s;}
+.btn-hint:hover{background:#e2e8f0;border-color:#94a3b8;}
+.btn-hint:disabled{opacity:.35;cursor:not-allowed;}
+
+/* ── MENSAJES ── */
+.msg-box{font-size:.92rem;font-weight:600;padding:14px 18px;border-radius:8px;margin-top:14px;display:none;line-height:1.6;text-align:center;}
+.msg-err{background:#fee2e2;color:var(--red);border:1px solid #fca5a5;animation:shake .3s ease;}
+.msg-ok{background:#dcfce7;color:var(--green);border:1px solid #86efac;animation:glow 1.5s infinite;}
+.hint-box{background:#fef9c3;color:#854d0e;border-left:4px solid #eab308;border-radius:0 8px 8px 0;padding:13px 16px;margin-top:13px;font-family:var(--mono);font-size:.84rem;font-style:italic;line-height:1.65;display:none;}
+.hint-box::before{content:'💡 PISTA — ';font-style:normal;font-weight:bold;opacity:.85;}
+
+/* ── RESULTADO ── */
+.result-screen{text-align:center;padding:10px 0;}
+.result-icon{font-size:5rem;margin-bottom:14px;}
+.result-title{font-family:var(--sans);font-size:clamp(1.6rem,4vw,2.4rem);font-weight:900;letter-spacing:-.01em;text-transform:uppercase;margin-bottom:10px;}
+.vt{color:var(--green);}
+.gt{color:var(--red);}
+.result-sub{font-family:var(--mono);font-size:.85rem;color:var(--primary);margin-bottom:22px;letter-spacing:.05em;}
+.time-badge{display:inline-block;font-family:var(--mono);font-size:1.05rem;font-weight:bold;color:var(--text-dark);background:#e2e8f0;border:1px solid #cbd5e1;padding:10px 24px;border-radius:30px;margin-bottom:24px;letter-spacing:.04em;}
+.rubric{background:#f8fafc;border:1px solid var(--border);border-left:4px solid var(--green);border-radius:0 10px 10px 0;padding:20px 24px;text-align:left;margin-bottom:20px;}
+.rubric h4{font-family:var(--mono);font-size:.68rem;color:var(--green);letter-spacing:.12em;text-transform:uppercase;margin-bottom:12px;padding-bottom:10px;border-bottom:1px solid var(--border);}
+.rub-item{display:flex;gap:10px;align-items:flex-start;font-size:.9rem;color:var(--text-dark);line-height:1.6;margin-bottom:10px;}
+.rub-item::before{content:'✓';color:var(--green);font-weight:900;flex-shrink:0;margin-top:2px;}
+.rub-item strong{color:var(--primary);}
+.btn-reset{width:100%;padding:15px;background:#475569;color:white;border:none;border-radius:8px;font-family:var(--sans);font-weight:700;font-size:1rem;cursor:pointer;transition:background .2s;}
+.btn-reset:hover{background:#334155;}
+
+@media(max-width:680px){.room-inner{padding:20px;}.phases-grid{grid-template-columns:1fr;}.btn-row{flex-direction:column;}}
+</style>
+</head>
+<body class="bg-intro">
+<div class="container" role="main">
+
+<!-- TOP BAR -->
+<div class="top-bar">
+  <div class="top-left">
+    <div class="sdot" aria-hidden="true"></div>
+    <span class="top-label">TERMINAL <strong>INMUNO-CORE</strong> · Inmunología PAU Andalucía</span>
+  </div>
+  <div class="phase-nav">
+    <div class="pnav locked" id="pn1">FASE 1</div>
+    <div class="pnav locked" id="pn2">FASE 2</div>
+    <div class="pnav locked" id="pn3">FASE 3</div>
+    <div class="pnav locked" id="pn4">FASE 4</div>
+  </div>
+  <div class="prog-strip" id="progStrip">
+    <span class="prog-label" id="progLabel">F1/4</span>
+    <div class="prog-track"><div class="prog-fill" id="progFill" style="width:0%"></div></div>
+    <span class="hint-c" id="hintC">💡 3</span>
+  </div>
+  <div id="timer" role="timer" aria-live="off">15:00</div>
+</div>
+
+<div class="room-inner">
+
+<!-- ══ INTRO ══ -->
+<div id="intro" class="room active">
+  <div class="intro-hero">
+    <span class="intro-icon" aria-hidden="true">🛡️</span>
+    <div>
+      <h1 class="intro-title">Terminal <em>Inmuno-Core</em></h1>
+      <p class="intro-sub">// Simulador de Respuesta Inmune · PAU Biología Andalucía 2026-27</p>
+    </div>
+  </div>
+  <div class="briefing">
+    <strong>Cuatro módulos críticos del sistema inmune han fallado simultáneamente.</strong> Para restaurarlos debes aplicar el rigor científico de la Selectividad: definiciones exactas, vocabulario técnico PAU, análisis de gráficas y casos clínicos reales. Dispones de <strong>15 minutos</strong> y <strong>3 pistas</strong> (cada pista resta 60 segundos). Los casos están adaptados de preguntas reales de la PAU de Andalucía (fuentes comprobadas en el banco de BioCelia).
+  </div>
+  <div class="phases-grid">
+    <div class="pc pc-1">
+      <p class="pnum">FASE 1 · CINÉTICA</p>
+      <p class="ptitle">Respuesta Primaria y Secundaria</p>
+      <p class="pdesc">Gráfica de anticuerpos, IgM vs IgG, células de memoria y vacunación.</p>
+    </div>
+    <div class="pc pc-2">
+      <p class="pnum">FASE 2 · MECANISMOS</p>
+      <p class="ptitle">Humoral vs Celular</p>
+      <p class="pdesc">Anticuerpos extracelulares, linfocitos T citotóxicos, antígenos intracelulares.</p>
+    </div>
+    <div class="pc pc-3">
+      <p class="pnum">FASE 3 · TRATAMIENTOS</p>
+      <p class="ptitle">Vacunas, Sueros e Inmunidad</p>
+      <p class="pdesc">Sueroterapia, inmunosupresores, IgG placentaria y lactancia materna.</p>
+    </div>
+    <div class="pc pc-4">
+      <p class="pnum">FASE 4 · PATOLOGÍAS</p>
+      <p class="ptitle">Disfunciones del Sistema Inmune</p>
+      <p class="pdesc">Hipersensibilidad, autoinmunidad, inmunodeficiencia y mecanismos moleculares.</p>
+    </div>
+  </div>
+  <div class="btn-row" style="margin-top:0">
+    <button class="btn-action" style="flex:1;font-size:1.1rem;padding:17px;" onclick="startGame()">🛡️ INICIAR PROTOCOLO INMUNO-CORE</button>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════
+     FASE 1 — CINÉTICA: RESPUESTA PRIMARIA Y SECUNDARIA
+     Fuentes:
+     - PAU Andalucía Suplente-A 2023-24 C.5:
+       "Gráfica de respuesta inmune tras dos exposiciones al mismo antígeno (A y B).
+        ¿Con qué tipo de respuesta se relacionan A y B?
+        ¿Qué nombre reciben las células 1, 2, 3 y 4?
+        ¿Cómo se denominan las moléculas 5 y 6? ¿Qué tipo particular son 5 y 6?"
+     - PAU Andalucía 2022-23 Ext. B.5:
+       "Gemelo A pico a 20 días (respuesta primaria → IgM). Gemelo B pico a 5 días (respuesta secundaria → IgG)."
+     - Criterios Suplente-A 2023-24:
+       "A: respuesta primaria; B: respuesta secundaria. 1: linfocito B; 2: célula plasmática;
+        3: linfocito B de memoria; 4: célula plasmática. 5: IgM; 6: IgG."
+══════════════════════════════════════ -->
+<div id="phase1" class="room">
+  <p class="phase-tag">FASE 1/4 · MÓDULO ALFA</p>
+  <h2 class="phase-title"><span class="acc-1">ALFA</span> — Cinética de la Respuesta Inmune</h2>
+
+  <img src="https://images.unsplash.com/photo-1576086213369-97a306d36557?auto=format&fit=crop&w=860&q=80"
+       alt="Microscopía de linfocitos" class="level-img">
+  <p class="img-cap">// CITOMETRÍA DE FLUJO · ANÁLISIS DE POBLACIONES LINFOCITARIAS</p>
+
+  <div class="scenario">
+    <p class="sc-tag">> CASO TIPO PAU · GRÁFICA DE RESPUESTA INMUNE</p>
+    <p class="sc-body">La siguiente gráfica representa la respuesta del sistema inmune tras <span class="hl">dos exposiciones sucesivas al mismo antígeno</span>. La primera exposición genera la <span class="warn">respuesta A</span> y la segunda genera la <span class="warn">respuesta B</span>, más rápida e intensa. En ambas respuestas se producen moléculas efectoras diferentes.</p>
+  </div>
+
+  <!-- Gráfica respuesta primaria/secundaria SVG -->
+  <div class="chart-wrap">
+    <svg viewBox="0 0 480 210" xmlns="http://www.w3.org/2000/svg" aria-label="Gráfica de producción de anticuerpos tras dos exposiciones al mismo antígeno. Respuesta A (primaria): pico tardío y bajo con IgM. Respuesta B (secundaria): pico rápido y alto con IgG.">
+      <rect width="480" height="210" fill="white"/>
+      <!-- Ejes -->
+      <line x1="55" y1="180" x2="440" y2="180" stroke="#475569" stroke-width="2"/>
+      <line x1="55" y1="180" x2="55" y2="18" stroke="#475569" stroke-width="2"/>
+      <!-- Etiquetas -->
+      <text x="248" y="200" text-anchor="middle" font-size="10" fill="#475569" font-family="Nunito,sans-serif">Tiempo →</text>
+      <text x="14" y="100" text-anchor="middle" font-size="10" fill="#475569" font-family="Nunito,sans-serif" transform="rotate(-90,14,100)">[Anticuerpos] →</text>
+      <!-- Línea de referencia -->
+      <line x1="55" y1="148" x2="440" y2="148" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3"/>
+      <!-- Exposición 1 -->
+      <line x1="100" y1="18" x2="100" y2="180" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="4,3"/>
+      <text x="100" y="14" text-anchor="middle" font-size="8" fill="#dc2626" font-family="Courier Prime,monospace" font-weight="bold">1ª EXPOSICIÓN</text>
+      <!-- Exposición 2 -->
+      <line x1="280" y1="18" x2="280" y2="180" stroke="#0284c7" stroke-width="1.5" stroke-dasharray="4,3"/>
+      <text x="280" y="14" text-anchor="middle" font-size="8" fill="#0284c7" font-family="Courier Prime,monospace" font-weight="bold">2ª EXPOSICIÓN</text>
+      <!-- Curva A (respuesta primaria, IgM) — lenta, baja, corta -->
+      <path d="M100,180 Q140,165 165,130 Q185,105 195,95 Q215,105 230,130 Q248,162 265,175 Q275,178 280,180" fill="none" stroke="#dc2626" stroke-width="2.5"/>
+      <!-- Etiqueta A + IgM -->
+      <text x="196" y="83" text-anchor="middle" font-size="9" fill="#dc2626" font-family="Courier Prime,monospace" font-weight="bold">A</text>
+      <text x="196" y="94" text-anchor="middle" font-size="8" fill="#dc2626" font-family="Courier Prime,monospace">(IgM)</text>
+      <!-- Curva B (respuesta secundaria, IgG) — rápida, alta, duradera -->
+      <path d="M280,180 Q295,165 310,130 Q322,90 332,55 Q342,38 352,35 Q380,38 410,65 Q430,90 440,120" fill="none" stroke="#0284c7" stroke-width="3"/>
+      <!-- Etiqueta B + IgG -->
+      <text x="355" y="28" text-anchor="middle" font-size="9" fill="#0284c7" font-family="Courier Prime,monospace" font-weight="bold">B</text>
+      <text x="355" y="39" text-anchor="middle" font-size="8" fill="#0284c7" font-family="Courier Prime,monospace">(IgG)</text>
+      <!-- Leyenda -->
+      <rect x="65" y="150" width="10" height="3" fill="#dc2626" rx="1"/>
+      <text x="79" y="154" font-size="8" fill="#475569" font-family="Nunito,sans-serif">Respuesta A (primaria)</text>
+      <rect x="65" y="163" width="10" height="3" fill="#0284c7" rx="1"/>
+      <text x="79" y="167" font-size="8" fill="#475569" font-family="Nunito,sans-serif">Respuesta B (secundaria)</text>
+    </svg>
+    <p style="font-family:var(--mono);font-size:.65rem;color:var(--muted);text-align:center;letter-spacing:.05em;">FIG.1 — CURVAS DE PRODUCCIÓN DE ANTICUERPOS · RESPUESTA PRIMARIA VS SECUNDARIA</p>
+  </div>
+
+  <div class="q-block">
+    <span class="q-ref">// FUENTE: adaptado de PAU Andalucía 2022, suplente de junio, A5 (respuesta primaria y secundaria)</span>
+    <div class="sub-q">
+      <p class="sub-q-label">1. <span class="verb">Identifica</span> a qué tipo de respuesta inmunitaria corresponden A y B. <span class="verb">Explica</span> por qué la respuesta B es más rápida e intensa que la A, indicando qué células son responsables de esta diferencia:</p>
+      <select id="p1q1" aria-label="Tipo de respuesta A y B">
+        <option value="">Seleccionar respuesta...</option>
+        <option value="ok">A es la respuesta primaria y B la secundaria; B es más rápida e intensa gracias a las células de memoria.</option>
+        <option value="e1">A es la respuesta celular y B la humoral; B es más intensa porque los linfocitos B fabrican anticuerpos.</option>
+        <option value="e2">A es la respuesta innata y B la adaptativa; B es más rápida porque los macrófagos ya conocen el antígeno.</option>
+      </select>
+    </div>
+    <div class="sub-q">
+      <p class="sub-q-label">2. <span class="verb">Indica</span> qué tipo particular de anticuerpo (inmunoglobulina) predomina en la respuesta A y cuál en la B, y <span class="verb">explica</span> sus diferencias funcionales:</p>
+      <select id="p1q2" aria-label="Tipo de inmunoglobulina en respuesta primaria y secundaria">
+        <option value="">Seleccionar tipo de Ig y diferencias...</option>
+        <option value="e1">En A predomina IgG y en B IgM: la IgM, pentamérica, aparece cuando el antígeno ya es conocido.</option>
+        <option value="ok">En A predomina IgM (pentámero, la primera en aparecer) y en B IgG (monómero, la más abundante).</option>
+        <option value="e2">En ambas predomina IgM, porque es el único anticuerpo capaz de unirse a antígenos extraños.</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="btn-row">
+    <button class="btn-action" onclick="checkP1()">▶ Calibrar Módulo ALFA</button>
+    <button class="btn-hint" onclick="useHint('h1')" id="hb1">💡 Pista (−60s)</button>
+  </div>
+  <div id="h1" class="hint-box">Claves: Respuesta A = PRIMARIA (primer contacto, lenta, IgM). Respuesta B = SECUNDARIA (segundo contacto, rápida, intensa, IgG). El mecanismo de la B son las CÉLULAS DE MEMORIA generadas en la A. IgM = pentámero, primera que aparece. IgG = monómero, mayor afinidad, atraviesa la placenta.</div>
+  <div id="m1" class="msg-box" role="alert"></div>
+</div>
+
+<!-- ══════════════════════════════════════
+     FASE 2 — HUMORAL vs CELULAR
+     Fuentes:
+     - PAU Andalucía Extra Titular 2023-24 A.5:
+       "Linfocito T: leucocito responsable de la respuesta inmunitaria celular implicado
+        en la eliminación de células infectadas o tumorales."
+     - PAU Andalucía 2022-23 Ext. (criterios antígeno/anticuerpo)
+     - PAU Andalucía 2016-17 Modelo 3 Sept. (respuesta humoral y celular, función de cada célula)
+     - Criterios Extra Reserva 2021-22:
+       "Mecanismos inmunitarios: opsonización, aglutinación, precipitación, neutralización."
+══════════════════════════════════════ -->
+<div id="phase2" class="room">
+  <p class="phase-tag">FASE 2/4 · MÓDULO BETA</p>
+  <h2 class="phase-title"><span class="acc-2">BETA</span> — Respuesta Humoral vs Respuesta Celular</h2>
+
+  <img src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=860&q=80"
+       alt="Laboratorio de bioquímica" class="level-img">
+  <p class="img-cap">// LAB. DE CULTIVO CELULAR · ANÁLISIS DE MECANISMOS EFECTORES</p>
+
+  <div class="scenario">
+    <p class="sc-tag">> EXPEDIENTE 88-B: INFECCIÓN VÍRICA INTRACELULAR · FALLO DE LA RESPUESTA HUMORAL</p>
+    <p class="sc-body">
+      Se han infectado células hepáticas con un virus. Aunque se inyectan <span class="hl">anticuerpos IgG específicos</span> en el líquido de cultivo, la infección no se detiene y los virus siguen replicándose dentro de las células.<br><br>
+      Simultáneamente, se analiza cómo actúan los anticuerpos frente a antígenos extracelulares: <span class="warn">neutralización, opsonización, aglutinación y precipitación</span>.
+    </p>
+  </div>
+
+  <!-- Tabla mecanismos efectores -->
+  <table class="data-table" aria-label="Mecanismos efectores de los anticuerpos sobre antígenos extracelulares">
+    <thead><tr><th>Mecanismo</th><th>Descripción</th><th>Célula/molécula implicada</th></tr></thead>
+    <tbody>
+      <tr><td class="em">Neutralización</td><td>El anticuerpo bloquea al virus o a la toxina e impide que actúe</td><td class="hi">Anticuerpos</td></tr>
+      <tr><td class="em">Opsonización</td><td>El anticuerpo recubre al antígeno y facilita su fagocitosis</td><td class="hi">Anticuerpos y macrófagos</td></tr>
+      <tr><td class="em">Aglutinación</td><td>Los anticuerpos aglutinan (agrupan) antígenos particulados (bacterias)</td><td class="hi">Anticuerpos IgM o IgG</td></tr>
+      <tr><td class="em">Precipitación</td><td>Los anticuerpos forman complejos insolubles con antígenos solubles</td><td class="hi">Anticuerpos</td></tr>
+      <tr><td class="lo">Lisis de la célula infectada</td><td>Destrucción de células infectadas por virus</td><td class="lo">❌ Anticuerpos NO pueden hacerlo</td></tr>
+    </tbody>
+  </table>
+
+  <div class="q-block">
+    <span class="q-ref">// FUENTE: adaptado de PAU Andalucía 2017, suplente de septiembre, A3, y 2018, titular de septiembre, B3</span>
+    <div class="sub-q">
+      <p class="sub-q-label">1. <span class="verb">Explica</span> molecularmente por qué los anticuerpos NO pueden detener la infección intracelular de las células hepáticas, y qué tipo de respuesta inmune y qué célula específica SÍ puede hacerlo:</p>
+      <select id="p2q1" aria-label="Por qué fallan los anticuerpos intracelular">
+        <option value="">Seleccionar justificación...</option>
+        <option value="ok">Los anticuerpos no entran en las células: la infectada la destruye el linfocito T citotóxico (respuesta celular).</option>
+        <option value="e1">Los anticuerpos necesitan el complemento; sin él actúan los linfocitos B de memoria, que fagocitan la célula.</option>
+        <option value="e2">El virus muta tan deprisa que la IgG ya no lo reconoce; solo los macrófagos pueden eliminarlo.</option>
+      </select>
+    </div>
+    <div class="sub-q">
+      <p class="sub-q-label">2. De los mecanismos efectores de la tabla, <span class="verb">indica</span> cuáles corresponden a la respuesta HUMORAL (anticuerpos) y cuál es el mecanismo específico de la respuesta CELULAR frente a células infectadas:</p>
+      <select id="p2q2" aria-label="Mecanismos humorales vs celulares">
+        <option value="">Seleccionar clasificación...</option>
+        <option value="e1">Humoral: lisis y aglutinación. Celular: neutralización y precipitación, a cargo del T colaborador.</option>
+        <option value="ok">Humoral: neutralización, opsonización, aglutinación y precipitación. Celular: lisis por el T citotóxico.</option>
+        <option value="e2">Humoral: solo aglutinación. Celular: neutralización, precipitación y lisis, por el T colaborador.</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="btn-row">
+    <button class="btn-action btn-p2" onclick="checkP2()">▶ Reconfigurar Módulo BETA</button>
+    <button class="btn-hint" onclick="useHint('h2')" id="hb2">💡 Pista (−60s)</button>
+  </div>
+  <div id="h2" class="hint-box">Regla fundamental: ANTICUERPOS = extracelular (neutralización, aglutinación, precipitación). Linfocito T citotóxico (CD8+) = intracelular (lisis de células infectadas mediante perforinas/granzimas). Los anticuerpos NO atraviesan membranas. El CMH-I presenta fragmentos del virus en la superficie de la célula infectada para que el T citotóxico la reconozca y destruya.</div>
+  <div id="m2" class="msg-box" role="alert"></div>
+</div>
+
+<!-- ══════════════════════════════════════
+     FASE 3 — VACUNAS, SUEROS E INMUNIDAD
+     Fuentes:
+     - PAU Andalucía Suplente-A 2023-24 B.5 (textual):
+       "Persona con inmunosupresores → puede padecer enfermedad autoinmune (o trasplante).
+        Persona con sueroterapia → puede padecer una infección (o haber estado expuesta a toxina)."
+     - PAU Andalucía Reserva-A 2023-24 C.5 (textual):
+       "IgG atraviesa la placenta; IgA en leche materna; IgM en respuesta primaria; IgG en secundaria."
+     - PAU Andalucía Extra Reserva 2021-22 C.5 (textual):
+       "Lactancia materna: anticuerpos (IgA); inmunidad pasiva; otra vía = placenta (IgG)."
+     - PAU Andalucía 2016-17 Modelo 5B (textual):
+       "Dos diferencias entre vacunación y sueroterapia; moléculas y células implicadas en cada procedimiento."
+     - Criterios Suplente-B 2023-24:
+       "Sueroterapia: curativo, poco durable, pasiva. Vacunación: preventivo, duradero, activa."
+══════════════════════════════════════ -->
+<div id="phase3" class="room">
+  <p class="phase-tag">FASE 3/4 · MÓDULO GAMMA</p>
+  <h2 class="phase-title"><span class="acc-3">GAMMA</span> — Vacunas, Sueros e Inmunidad Transferida</h2>
+
+  <img src="https://images.unsplash.com/photo-1584118624012-df056829fbd0?auto=format&fit=crop&w=860&q=80"
+       alt="Vacunas y jeringa en laboratorio" class="level-img">
+  <p class="img-cap">// UNIDAD DE TRATAMIENTOS INMUNOLÓGICOS · MÓDULO GAMMA</p>
+
+  <div class="scenario">
+    <p class="sc-tag">> EXPEDIENTE CLÍNICO · DOS PACIENTES Y TRES CASOS DE INMUNIDAD TRANSFERIDA</p>
+    <p class="sc-body">
+      <span class="warn">Paciente 1:</span> recibe inmunosupresores tras un diagnóstico.<br>
+      <span class="warn">Paciente 2:</span> recibe sueroterapia de urgencia.<br>
+      <span class="warn">Caso adicional:</span> Se compara la protección inmune de un recién nacido por <span class="hl">lactancia materna</span> versus por <span class="hl">placenta</span>.
+    </p>
+  </div>
+
+  <div class="q-block">
+    <span class="q-ref">// FUENTE: adaptado de PAU Andalucía 2024, suplente A, B5; 2024, reserva A, C5, y 2022, reserva de julio, C5</span>
+    <div class="sub-q">
+      <p class="sub-q-label">1. <span class="verb">Indica</span> qué tipo de enfermedad podría padecer el Paciente 1 (inmunosupresores) y el Paciente 2 (sueroterapia), y <span class="verb">justifica</span> la lógica terapéutica de cada tratamiento:</p>
+      <select id="p3q1" aria-label="Diagnóstico paciente 1 y 2">
+        <option value="">Seleccionar diagnóstico y justificación...</option>
+        <option value="ok">1: enfermedad autoinmune o trasplante (hay que frenar la respuesta). 2: infección o toxina (anticuerpos ya hechos).</option>
+        <option value="e1">1: SIDA (los inmunosupresores lo protegen de su propio cuerpo). 2: alergia (el suero lleva antihistamínicos).</option>
+        <option value="e2">Ambos tienen infecciones: los inmunosupresores refuerzan las defensas y el suero genera memoria duradera.</option>
+      </select>
+    </div>
+    <div class="sub-q">
+      <p class="sub-q-label">2. <span class="verb">Indica</span> qué tipo de anticuerpo (inmunoglobulina) transfiere la madre al bebé por la PLACENTA y cuál transfiere por la LECHE MATERNA. <span class="verb">Explica</span> por qué esta inmunidad es PASIVA y si es duradera:</p>
+      <select id="p3q2" aria-label="IgG placenta IgA leche materna">
+        <option value="">Seleccionar tipo de Ig y justificación...</option>
+        <option value="e1">Placenta: IgM. Leche: IgG. Es activa, porque el bebé fabrica anticuerpos al recibir los de la madre.</option>
+        <option value="ok">Placenta: IgG. Leche: IgA. Es pasiva: recibe anticuerpos ya hechos, sin memoria, y la protección es temporal.</option>
+        <option value="e2">Placenta y leche: IgE, frente a alérgenos. Es activa, porque el bebé copia los anticuerpos de la madre.</option>
+      </select>
+    </div>
+    <div class="sub-q">
+      <p class="sub-q-label">3. <span class="verb">Indica</span> DOS diferencias entre vacunación y sueroterapia usando los criterios oficiales PAU (tipo de inmunidad, lo que se inyecta, duración, momento de uso):</p>
+      <select id="p3q3" aria-label="Diferencias vacuna sueroterapia">
+        <option value="">Seleccionar diferencias correctas...</option>
+        <option value="e1">La vacuna actúa en horas y el suero tarda semanas; la vacuna lleva anticuerpos y el suero, antígenos.</option>
+        <option value="ok">La vacuna lleva antígenos (activa, preventiva, duradera); el suero, anticuerpos (pasiva, curativa, breve).</option>
+        <option value="e2">La vacuna necesita tres dosis y el suero una; la vacuna usa bacterias y el suero, virus atenuados.</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="btn-row">
+    <button class="btn-action btn-p3" onclick="checkP3()">▶ Validar Módulo GAMMA</button>
+    <button class="btn-hint" onclick="useHint('h3')" id="hb3">💡 Pista (−60s)</button>
+  </div>
+  <div id="h3" class="hint-box">Inmunosupresores → autoinmunidad o trasplante (se frena el sistema para no atacar lo propio o el trasplante). Sueroterapia → infección/toxina aguda (anticuerpos prestados = pasiva). IgG = atraviesa la placenta. IgA = leche materna (protege mucosas del bebé). Vacuna (activa, preventiva, duradera) ≠ Suero (pasiva, curativa, temporal).</div>
+  <div id="m3" class="msg-box" role="alert"></div>
+</div>
+
+<!-- ══════════════════════════════════════
+     FASE 4 — PATOLOGÍAS INMUNOLÓGICAS
+     Fuentes:
+     - PAU Andalucía 2023-24 Suplente-B A.5 (textual):
+       "Autoinmunidad: se producen respuestas que atacan moléculas o células propias.
+        Inmunodeficiencia: incapacidad del sistema inmune para defender al organismo.
+        Hipersensibilidad: respuesta inadecuada o exagerada del sistema inmunitario."
+     - PAU Andalucía 2022-23 Ord. C.5 (IgE, mastocito, alérgeno, histamina — criterios)
+     - PAU Andalucía 2021-22 Ord. B.5 (VIH destruye T4 → más cáncer por falta de vigilancia inmune)
+     - PAU Andalucía Sept. 2017-18 (criterios): déficit de linfocitos T:
+       "(a) sí afecta la respuesta inmune específica por depender de linfocitos T;
+        (c) menor rechazo de trasplantes porque no hay linfocitos T que reconozcan células extrañas;
+        (d) peor respuesta ante cáncer porque no habrá respuesta eficaz frente a células tumorales."
+     - PAU Andalucía Extra Reserva 2021-22 B.3 (macrófagos como presentadores de antígeno)
+══════════════════════════════════════ -->
+<div id="phase4" class="room">
+  <p class="phase-tag">FASE 4/4 · MÓDULO DELTA — MISIÓN FINAL</p>
+  <h2 class="phase-title"><span class="acc-4">DELTA</span> — Disfunciones del Sistema Inmune</h2>
+
+  <img src="https://images.unsplash.com/photo-1576671081837-49000212a370?auto=format&fit=crop&w=860&q=80"
+       alt="Laboratorio de análisis clínico" class="level-img">
+  <p class="img-cap">// SALA DE DIAGNÓSTICO INMUNOLÓGICO AVANZADO · MÓDULO DELTA</p>
+
+  <div class="scenario">
+    <p class="sc-tag">> EXPEDIENTES 09-C, 10-D Y 11-E · ANÁLISIS DE DISFUNCIONES INMUNOLÓGICAS</p>
+    <p class="sc-body">
+      <span class="warn">Expediente 09-C:</span> Paciente con reacción alérgica grave al consumir cacahuetes (anafilaxia). Mastocitos activados de forma masiva.<br>
+      <span class="warn">Expediente 10-D:</span> Paciente con Esclerosis Múltiple. Sus linfocitos T destruyen la mielina de sus propias neuronas.<br>
+      <span class="warn">Expediente 11-E:</span> Paciente con VIH sin tratamiento. Sus linfocitos <span class="hl">T colaboradores (CD4+)</span> están siendo destruidos progresivamente. Se observa mayor incidencia de cáncer que en la población general.
+    </p>
+  </div>
+
+  <div class="q-block">
+    <span class="q-ref">// FUENTE: adaptado de PAU Andalucía 2024, suplente B, A5, y 2022, titular de junio, A5</span>
+    <div class="sub-q">
+      <p class="sub-q-label">1. <span class="verb">Asigna</span> el término patológico correcto a cada expediente (09-C, 10-D, 11-E) y <span class="verb">define</span> brevemente cada tipo de disfunción:</p>
+      <select id="p4q1" aria-label="Clasificación de disfunciones inmunológicas">
+        <option value="">Seleccionar clasificación y definiciones...</option>
+        <option value="e1">09-C: autoinmunidad. 10-D: hipersensibilidad. 11-E: inmunodeficiencia congénita.</option>
+        <option value="ok">09-C: hipersensibilidad. 10-D: autoinmunidad. 11-E: inmunodeficiencia adquirida.</option>
+        <option value="e2">09-C: inmunodeficiencia. 10-D: inmunodeficiencia. 11-E: autoinmunidad adquirida.</option>
+      </select>
+    </div>
+    <div class="sub-q">
+      <p class="sub-q-label">2. <span class="verb">Explica</span> el mecanismo molecular de la alergia del Expediente 09-C, indicando: tipo de inmunoglobulina implicada, célula que la porta y mediador químico que produce los síntomas:</p>
+      <select id="p4q2" aria-label="Mecanismo molecular de la alergia">
+        <option value="">Seleccionar mecanismo correcto...</option>
+        <option value="ok">Los linfocitos B producen IgE, que se fija a los mastocitos; en un nuevo contacto liberan histamina.</option>
+        <option value="e1">Los linfocitos T colaboradores producen IgM, que activa a los macrófagos y estos liberan interferón.</option>
+        <option value="e2">Los linfocitos T citotóxicos destruyen las células que han captado el alérgeno con perforinas.</option>
+      </select>
+    </div>
+    <div class="sub-q">
+      <p class="sub-q-label">3. <span class="verb">Razona</span> por qué el paciente del Expediente 11-E (VIH sin tratar) presenta MAYOR incidencia de cáncer que la población general, sabiendo que el VIH NO causa el cáncer directamente:</p>
+      <select id="p4q3" aria-label="VIH cancer y T4">
+        <option value="">Seleccionar razonamiento correcto...</option>
+        <option value="e1">El VIH inserta su material genético en los protooncogenes y los convierte en oncogenes.</option>
+        <option value="ok">Sin T colaboradores no se activan bien los T citotóxicos, que eliminan las células tumorales.</option>
+        <option value="e2">El VIH destruye los macrófagos, las únicas células capaces de eliminar células tumorales.</option>
+      </select>
+    </div>
+  </div>
+
+  <div class="btn-row">
+    <button class="btn-action btn-p4" onclick="checkP4()">▶ Sellar Sistema INMUNO-CORE</button>
+    <button class="btn-hint" onclick="useHint('h4')" id="hb4">💡 Pista (−60s)</button>
+  </div>
+  <div id="h4" class="hint-box">Hipersensibilidad = reacción exagerada (IgE + mastocito + histamina). Autoinmunidad = ataca células propias (pérdida de tolerancia inmunológica). Inmunodeficiencia = falta de defensas. VIH-cáncer: los T colaboradores (CD4+) activan a los T citotóxicos (CD8+); sin T colaboradores no hay vigilancia inmunológica antitumoral.</div>
+  <div id="m4" class="msg-box" role="alert"></div>
+</div>
+
+<!-- ══ VICTORIA ══ -->
+<div id="victory" class="room result-screen">
+  <p class="result-icon" aria-hidden="true">🏆</p>
+  <h2 class="result-title vt">SISTEMA INMUNO-CORE ASEGURADO</h2>
+  <p class="result-sub">Los cuatro módulos han sido restaurados · Inmunología PAU Dominada</p>
+  <div class="time-badge" id="vtbadge" aria-live="polite"></div>
+  <div class="rubric">
+    <h4>// LO QUE VALORA EL CORRECTOR (según los criterios de la PAU de Andalucía)</h4>
+    <div class="rub-item"><strong>CINÉTICA:</strong> Has diferenciado respuesta primaria (lenta, IgM) de secundaria (rápida, intensa, IgG) y has identificado las CÉLULAS DE MEMORIA como mecanismo clave de la secundaria. IgM = primera, pentamérica; IgG = segunda, monómero, atraviesa placenta.</div>
+    <div class="rub-item"><strong>HUMORAL vs CELULAR:</strong> Has establecido que los anticuerpos SOLO actúan sobre antígenos extracelulares (neutralización, aglutinación, precipitación). Para antígenos intracelulares se requieren LINFOCITOS T CITOTÓXICOS (CD8+) que lisan las células infectadas mediante perforinas/granzimas.</div>
+    <div class="rub-item"><strong>TRATAMIENTOS:</strong> Inmunosupresores → autoinmunidad o trasplante. Sueroterapia → infección/toxina. IgG atraviesa la placenta; IgA se transfiere en la leche materna. Vacuna (activa, preventiva, duradera) ≠ Suero (pasiva, curativa/urgencia, temporal sin memoria).</div>
+    <div class="rub-item"><strong>PATOLOGÍAS:</strong> Hipersensibilidad = IgE + mastocito + histamina (reacción exagerada). Autoinmunidad = ataca células propias. Inmunodeficiencia = falta de defensas. VIH-cáncer: destrucción de T colaboradores → sin vigilancia inmunológica antitumoral → más cáncer (no por acción directa del virus).</div>
+  </div>
+  <button class="btn-reset" onclick="resetGame()">↺ Reiniciar Protocolo INMUNO-CORE</button>
+</div>
+
+<!-- ══ GAMEOVER ══ -->
+<div id="gameover" class="room result-screen">
+  <p class="result-icon" aria-hidden="true">⏳</p>
+  <h2 class="result-title gt">TIEMPO AGOTADO</h2>
+  <p class="result-sub">Los módulos no han podido ser restaurados. El sistema ha colapsado.</p>
+  <p style="color:var(--muted);font-size:.92rem;margin-bottom:28px;line-height:1.7;">Repasa: IgM/IgG primaria/secundaria, células de memoria, respuesta humoral vs celular, T citotóxico, IgG placenta, IgA leche, vacuna vs suero, y las tres grandes patologías inmunológicas (hipersensibilidad, autoinmunidad, inmunodeficiencia).</p>
+  <button class="btn-reset" onclick="resetGame()">↺ Reiniciar Simulación</button>
+</div>
+
+</div><!-- /room-inner -->
+</div><!-- /container -->
+
+<script>
+/* ══ ESTADO ══ */
+let timerInterval = null;
+let timeLeft      = 900;
+let hintsLeft     = 3;
+let currentPhase  = 0;
+let errors        = { p1:0, p2:0, p3:0, p4:0 };
+
+const BG = {
+  intro:'bg-intro', phase1:'bg-1', phase2:'bg-2',
+  phase3:'bg-3',    phase4:'bg-4', victory:'bg-v', gameover:'bg-intro'
+};
+
+/* ══ NAVEGACIÓN ══ */
+function showRoom(id) {
+  document.querySelectorAll('.room').forEach(r => r.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  document.body.className = BG[id] || 'bg-intro';
+  window.scrollTo({ top:0, behavior:'smooth' });
+}
+
+function updateNav(phase) {
+  ['pn1','pn2','pn3','pn4'].forEach((id, i) => {
+    const btn = document.getElementById(id);
+    btn.classList.remove('done','current','locked');
+    if (i + 1 < phase)        btn.classList.add('done');
+    else if (i + 1 === phase) btn.classList.add('current');
+    else                      btn.classList.add('locked');
+  });
+  document.getElementById('progStrip').classList.add('on');
+  document.getElementById('progLabel').textContent  = `F${phase}/4`;
+  document.getElementById('progFill').style.width   = ((phase - 1) / 4 * 100) + '%';
+  document.getElementById('hintC').textContent       = `💡 ${hintsLeft}`;
+}
+
+/* ══ TIMER ══ */
+function startTimer() {
+  document.getElementById('timer').style.display = 'block';
+  timerInterval = setInterval(() => {
+    timeLeft--;
+    const m = Math.floor(timeLeft / 60), s = timeLeft % 60;
+    const el = document.getElementById('timer');
+    el.textContent = `${m}:${s < 10 ? '0' : ''}${s}`;
+    el.classList.toggle('urgent', timeLeft <= 120);
+    if (timeLeft <= 0) { clearInterval(timerInterval); showRoom('gameover'); }
+  }, 1000);
+}
+
+/* ══ PISTAS ══ */
+function useHint(id) {
+  if (hintsLeft <= 0) return;
+  hintsLeft--;
+  timeLeft = Math.max(0, timeLeft - 60);
+  document.getElementById('hintC').textContent = `💡 ${hintsLeft}`;
+  document.getElementById(id).style.display = 'block';
+  const btnMap = { h1:'hb1', h2:'hb2', h3:'hb3', h4:'hb4' };
+  const btn = document.getElementById(btnMap[id]);
+  if (btn) btn.disabled = true;
+}
+
+/* ══ MENSAJES ══ */
+const FB_OK = {
+  p1:'✓ Correcto. Respuesta primaria (A) = lenta, IgM. Secundaria (B) = rápida, intensa, IgG. Clave: células de memoria. Fase 2 desbloqueada...',
+  p2:'✓ Correcto. Anticuerpos = extracelular (neutralización, aglutinación, precipitación). Linfocito T citotóxico (CD8+) = intracelular (lisis de células infectadas). Fase 3 desbloqueada...',
+  p3:'✓ Correcto. Inmunosupresores = autoinmunidad/trasplante. Sueroterapia = infección/toxina. IgG = placenta. IgA = leche materna. Vacuna (activa, preventiva) ≠ Suero (pasiva, curativa). Fase 4 desbloqueada...',
+  p4:'✓ Correcto. Hipersensibilidad = IgE + mastocito + histamina. Autoinmunidad = ataca lo propio. Inmunodeficiencia. VIH-cáncer = sin T colaboradores no hay vigilancia antitumoral. Sellando sistema...'
+};
+const FB_ERR = {
+  p1:'❌ Error. Clave: primaria (A) = lenta, IgM; secundaria (B) = rápida, IgG, gracias a CÉLULAS DE MEMORIA. No confundas respuesta humoral/celular con primaria/secundaria.',
+  p2:'❌ Error. Los anticuerpos no atraviesan membranas → no eliminan antígenos intracelulares. El linfocito T CITOTÓXICO (CD8+) es quien destruye las células infectadas. El linfocito B NO fagocita células.',
+  p3:'❌ Error en alguna respuesta. Inmunosupresores → autoinmunidad/trasplante. Sueroterapia → infección. IgG atraviesa placenta; IgA se transfiere en leche. Vacuna ≠ Suero: activa/pasiva, preventiva/curativa.',
+  p4:'❌ Error en algún expediente. Hipersensibilidad (IgE+mastocito+histamina) ≠ Autoinmunidad (ataca lo propio) ≠ Inmunodeficiencia (falta defensas). VIH-cáncer: destrucción de T4 → sin vigilancia inmune antitumoral.'
+};
+
+function showMsg(id, type, text) {
+  const box = document.getElementById(id);
+  box.textContent = text;
+  box.className = `msg-box ${type === 'ok' ? 'msg-ok' : 'msg-err'}`;
+  box.style.display = 'block';
+}
+
+/* ══ CHECKS ══ */
+function startGame() { startTimer(); currentPhase = 1; updateNav(1); showRoom('phase1'); }
+
+function allSelected(...ids) {
+  for (const id of ids) {
+    if (!document.getElementById(id).value) return false;
+  }
+  return true;
+}
+function allOk(map) { return Object.values(map).every(v => v === 'ok'); }
+
+function checkP1() {
+  if (!allSelected('p1q1','p1q2')) return showMsg('m1','err','Responde ambas preguntas antes de continuar.');
+  const ok = { p1q1: document.getElementById('p1q1').value, p1q2: document.getElementById('p1q2').value };
+  if (allOk(ok)) { showMsg('m1','ok', FB_OK.p1); setTimeout(() => { currentPhase=2; updateNav(2); showRoom('phase2'); }, 4000); }
+  else { errors.p1++; showMsg('m1','err', FB_ERR.p1); }
+}
+
+function checkP2() {
+  if (!allSelected('p2q1','p2q2')) return showMsg('m2','err','Responde ambas preguntas antes de continuar.');
+  const ok = { a: document.getElementById('p2q1').value, b: document.getElementById('p2q2').value };
+  if (allOk(ok)) { showMsg('m2','ok', FB_OK.p2); setTimeout(() => { currentPhase=3; updateNav(3); showRoom('phase3'); }, 4000); }
+  else { errors.p2++; showMsg('m2','err', FB_ERR.p2); }
+}
+
+function checkP3() {
+  if (!allSelected('p3q1','p3q2','p3q3')) return showMsg('m3','err','Responde las tres preguntas antes de continuar.');
+  const vals = ['p3q1','p3q2','p3q3'].map(id => document.getElementById(id).value);
+  if (vals.every(v => v === 'ok')) { showMsg('m3','ok', FB_OK.p3); setTimeout(() => { currentPhase=4; updateNav(4); showRoom('phase4'); }, 4000); }
+  else { errors.p3++; showMsg('m3','err', FB_ERR.p3); }
+}
+
+function checkP4() {
+  if (!allSelected('p4q1','p4q2','p4q3')) return showMsg('m4','err','Responde los tres expedientes antes de sellar el sistema.');
+  const vals = ['p4q1','p4q2','p4q3'].map(id => document.getElementById(id).value);
+  if (vals.every(v => v === 'ok')) {
+    showMsg('m4','ok', FB_OK.p4);
+    setTimeout(() => {
+      clearInterval(timerInterval);
+      document.getElementById('timer').style.display = 'none';
+      const elapsed = 900 - timeLeft;
+      const m = Math.floor(elapsed / 60), s = elapsed % 60;
+      document.getElementById('vtbadge').textContent =
+        `⏱ ${m} min ${s} seg · Pistas: ${3 - hintsLeft} · Errores: ${Object.values(errors).reduce((a,b)=>a+b,0)}`;
+      showRoom('victory');
+    }, 3500);
+  } else { errors.p4++; showMsg('m4','err', FB_ERR.p4); }
+}
+
+/* ══ RESET ══ */
+function resetGame() {
+  clearInterval(timerInterval);
+  timeLeft = 900; hintsLeft = 3; currentPhase = 0;
+  errors = { p1:0, p2:0, p3:0, p4:0 };
+  document.getElementById('timer').style.display = 'none';
+  document.getElementById('timer').classList.remove('urgent');
+  document.getElementById('progStrip').classList.remove('on');
+  document.getElementById('progFill').style.width = '0%';
+  ['pn1','pn2','pn3','pn4'].forEach(id => {
+    const btn = document.getElementById(id);
+    btn.classList.remove('done','current'); btn.classList.add('locked');
+  });
+  document.querySelectorAll('select').forEach(el => el.value = '');
+  document.querySelectorAll('.msg-box').forEach(el => { el.textContent=''; el.style.display='none'; el.className='msg-box'; });
+  document.querySelectorAll('.hint-box').forEach(el => el.style.display='none');
+  document.querySelectorAll('.btn-hint').forEach(btn => btn.disabled=false);
+  showRoom('intro');
+}
+</script>
+<script>window.BC_DIF_CONF = {"base": 900, "inicio": ["startGame"], "errores": ["showMsg"], "reinicio": ["resetGame"], "contador": "hintC"};</script>
+<!-- ═══ BioCelia · módulo de niveles de dificultad (añadido 2026-10) ═══ -->
+<style>
+  #bcDif{position:fixed;inset:0;z-index:9999;display:flex;align-items:center;justify-content:center;
+    background:rgba(2,6,23,.88);padding:16px;font-family:'Segoe UI',system-ui,sans-serif}
+  #bcDif .bc-card{background:#0f172a;color:#f8fafc;border:1px solid #334155;border-radius:16px;
+    max-width:620px;width:100%;padding:26px 22px;box-shadow:0 20px 50px rgba(0,0,0,.5)}
+  #bcDif h2{margin:0 0 6px;font-size:1.35rem;color:#38bdf8;text-align:center}
+  #bcDif p.bc-sub{margin:0 0 18px;text-align:center;color:#94a3b8;font-size:.92rem}
+  #bcDif .bc-opts{display:grid;gap:12px}
+  #bcDif button{all:unset;cursor:pointer;display:block;border-radius:12px;padding:14px 16px;
+    border:2px solid #334155;background:#020617;transition:.2s}
+  #bcDif button:hover,#bcDif button:focus-visible{border-color:#38bdf8;transform:translateY(-2px)}
+  #bcDif .bc-t{font-weight:800;font-size:1.05rem;display:block;margin-bottom:4px}
+  #bcDif .bc-d{font-size:.86rem;color:#cbd5e1;line-height:1.45}
+  #bcDifBadge{position:fixed;left:12px;bottom:12px;z-index:9998;background:#0f172a;color:#e2e8f0;
+    border:1px solid #334155;border-radius:999px;padding:6px 12px;font:600 .8rem 'Segoe UI',sans-serif}
+</style>
+<div id="bcDif" role="dialog" aria-modal="true" aria-labelledby="bcDifT">
+  <div class="bc-card">
+    <h2 id="bcDifT">Elige tu nivel</h2>
+    <p class="bc-sub">El contenido es el mismo; cambian el tiempo, las ayudas y lo que cuesta equivocarse. Las opciones se barajan en cada partida.</p>
+    <div class="bc-opts">
+      <button data-n="basico"><span class="bc-t">🟢 Básico · aprendo el tema</span>
+        <span class="bc-d">Un 50 % más de tiempo, 5 pistas, los errores no penalizan y en cada pregunta de opciones se descarta una respuesta incorrecta.</span></button>
+      <button data-n="intermedio"><span class="bc-t">🟡 Intermedio · repaso</span>
+        <span class="bc-d">Tiempo normal, 3 pistas y cada error resta 20 segundos.</span></button>
+      <button data-n="pau"><span class="bc-t">🔴 PAU · modo examen</span>
+        <span class="bc-d">Un 25 % menos de tiempo, 1 sola pista y cada error resta 45 segundos. Para quien quiere la máxima nota.</span></button>
+    </div>
+  </div>
+</div>
+<script>
+(function () {
+  const C = window.BC_DIF_CONF || {};
+  const NIVELES = {
+    basico:     { t: 1.5,  pistas: 5, castigo: 0,  quitar: true,  txt: '🟢 Básico' },
+    intermedio: { t: 1,    pistas: 3, castigo: 20, quitar: false, txt: '🟡 Intermedio' },
+    pau:        { t: 0.75, pistas: 1, castigo: 45, quitar: false, txt: '🔴 PAU' }
+  };
+  let N = null;
+  const caja = document.getElementById('bcDif');
+  const g = (nombre) => { try { return eval(nombre); } catch (e) { return undefined; } };
+
+  function barajar(sel) {
+    const ops = Array.from(sel.options).filter(o => o.value !== '');
+    for (let i = ops.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [ops[i], ops[j]] = [ops[j], ops[i]];
+    }
+    ops.forEach(o => sel.appendChild(o));
+  }
+  function prepararOpciones() {
+    document.querySelectorAll('select').forEach(sel => {
+      if (!sel.dataset.bcOrig) sel.dataset.bcOrig = sel.innerHTML;
+      else sel.innerHTML = sel.dataset.bcOrig;
+      barajar(sel);
+      sel.value = '';
+      if (N && N.quitar) {
+        const malas = Array.from(sel.options).filter(o => o.value && !['ok', 'correct'].includes(o.value));
+        const buena = Array.from(sel.options).some(o => ['ok', 'correct'].includes(o.value));
+        if (buena && malas.length >= 2) malas[Math.floor(Math.random() * malas.length)].remove();
+      }
+    });
+  }
+  function aplicar() {
+    if (!N) return;
+    if (typeof g('timeLeft') === 'number' && C.base) timeLeft = Math.round(C.base * N.t);
+    if (typeof g('hintsLeft') === 'number') hintsLeft = N.pistas;
+    if (C.refrescar && typeof window[C.refrescar] === 'function') { try { window[C.refrescar](); } catch (e) {} }
+    if (C.contador) { const el = document.getElementById(C.contador); if (el) el.textContent = '💡 ' + N.pistas; }
+  }
+  function elegir(clave) {
+    N = NIVELES[clave];
+    caja.style.display = 'none';
+    let b = document.getElementById('bcDifBadge');
+    if (!b) { b = document.createElement('div'); b.id = 'bcDifBadge'; document.body.appendChild(b); }
+    b.textContent = 'Nivel: ' + N.txt;
+    prepararOpciones();
+    aplicar();
+  }
+  caja.querySelectorAll('button').forEach(bt => bt.addEventListener('click', () => elegir(bt.dataset.n)));
+
+  // El juego reinicia tiempo y pistas al empezar: se vuelven a aplicar los del nivel.
+  (C.inicio || []).forEach(nombre => {
+    const orig = window[nombre];
+    if (typeof orig !== 'function') return;
+    window[nombre] = function () { const r = orig.apply(this, arguments); aplicar(); return r; };
+  });
+  // Penalización por respuesta incorrecta (mensajes que empiezan por ❌).
+  (C.errores || []).forEach(nombre => {
+    const orig = window[nombre];
+    if (typeof orig !== 'function') return;
+    window[nombre] = function () {
+      const texto = Array.from(arguments).find(a => typeof a === 'string' && a.trim().startsWith('❌'));
+      if (texto && N && N.castigo && typeof g('timeLeft') === 'number') timeLeft = Math.max(1, timeLeft - N.castigo);
+      return orig.apply(this, arguments);
+    };
+  });
+  // Al reiniciar se puede cambiar de nivel.
+  (C.reinicio || []).forEach(nombre => {
+    const orig = window[nombre];
+    if (typeof orig !== 'function') return;
+    window[nombre] = function () { const r = orig.apply(this, arguments); caja.style.display = 'flex'; return r; };
+  });
+})();
+</script>
+</body>
+</html>

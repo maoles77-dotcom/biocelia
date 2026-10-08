@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Instalación BIO-CORE · BioCelia</title>
+<meta name="description" content="Escape room de biología celular y metabolismo para la PAU de Andalucía, con tres niveles y retos aleatorios. BioCelia.">
+<!-- Generado con el motor de escape rooms de BioCelia (2026-27). El contenido está en la constante JUEGO. -->
+<style>
+  :root{
+    --bg:#020617; --panel:#0f172a; --panel2:#111c33; --borde:#334155; --texto:#f1f5f9; --suave:#94a3b8;
+    --acento:#f59e0b; --acento2:#38bdf8; --ok:#22c55e; --mal:#ef4444; --aviso:#f59e0b;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:'Segoe UI',system-ui,sans-serif;color:var(--texto);
+    background:radial-gradient(circle at 20% 0%, color-mix(in srgb,var(--acento) 18%, #020617) 0%, #020617 60%);min-height:100vh;padding:16px}
+  .caja{max-width:860px;margin:0 auto;background:var(--panel);border:1px solid var(--borde);border-radius:16px;
+    box-shadow:0 0 40px color-mix(in srgb,var(--acento) 15%, transparent);overflow:hidden}
+  header{padding:22px 22px 14px;border-bottom:1px solid var(--borde);text-align:center}
+  header h1{margin:0;font-size:1.7rem;letter-spacing:1px;color:var(--acento)}
+  header p{margin:6px 0 0;color:var(--suave);font-size:.9rem}
+  .barra{display:none;gap:10px;align-items:center;justify-content:space-between;padding:10px 18px;background:var(--bg);
+    border-bottom:1px solid var(--borde);font:600 .9rem ui-monospace,Consolas,monospace;flex-wrap:wrap}
+  .barra.on{display:flex}
+  .pips{display:flex;gap:6px}
+  .pip{width:28px;height:8px;border-radius:4px;background:var(--borde)}
+  .pip.hecho{background:var(--ok)} .pip.ayuda{background:var(--aviso)} .pip.actual{background:var(--acento)}
+  #reloj.alerta{color:var(--mal)}
+  main{padding:22px}
+  .sala{display:none} .sala.on{display:block;animation:entra .4s ease}
+  @keyframes entra{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+  .historia{background:var(--bg);border-left:4px solid var(--acento2);border-radius:8px;padding:16px;line-height:1.6;margin-bottom:18px}
+  .etiqueta{font:700 .78rem ui-monospace,Consolas,monospace;color:var(--acento2);display:block;margin-bottom:8px;letter-spacing:.5px}
+  h2{margin:0 0 12px;font-size:1.25rem;color:var(--acento)}
+  .pregunta{font-weight:700;line-height:1.55;margin:0 0 14px}
+  .fuente{font:.76rem ui-monospace,Consolas,monospace;color:var(--suave);margin-top:-8px;margin-bottom:12px;display:block}
+  .opc{display:block;width:100%;text-align:left;background:var(--panel2);color:var(--texto);border:2px solid var(--borde);
+    border-radius:10px;padding:12px 14px;margin-bottom:10px;font-size:.98rem;line-height:1.45;cursor:pointer;transition:.15s}
+  .opc:hover:not(:disabled){border-color:var(--acento)}
+  .opc.sel{border-color:var(--acento);background:color-mix(in srgb,var(--acento) 14%, var(--panel2))}
+  .opc.bien{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 16%, var(--panel2))}
+  .opc.malsel{border-color:var(--mal);background:color-mix(in srgb,var(--mal) 14%, var(--panel2))}
+  .opc:disabled{cursor:default}
+  input[type=text],input[type=number],select{width:100%;padding:12px;border-radius:10px;border:2px solid var(--borde);background:var(--panel2);
+    color:var(--texto);font-size:1rem}
+  .fila-orden{display:flex;gap:10px;align-items:center;margin-bottom:8px}
+  .fila-orden span{flex:1;background:var(--panel2);border:1px solid var(--borde);border-radius:8px;padding:9px 12px;line-height:1.35}
+  .fila-orden select{width:90px;flex:none}
+  .botones{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+  .btn{border:none;border-radius:10px;padding:12px 18px;font-weight:800;font-size:1rem;cursor:pointer}
+  .btn-p{background:var(--acento);color:#020617} .btn-p:hover{filter:brightness(1.1)}
+  .btn-s{background:transparent;color:var(--texto);border:2px solid var(--borde)}
+  .btn-s:disabled{opacity:.4;cursor:not-allowed}
+  .msg{display:none;margin-top:14px;padding:12px 14px;border-radius:10px;line-height:1.5}
+  .msg.ok{display:block;background:color-mix(in srgb,var(--ok) 14%, transparent);border:1px solid var(--ok)}
+  .msg.mal{display:block;background:color-mix(in srgb,var(--mal) 12%, transparent);border:1px solid var(--mal)}
+  .msg.pista{display:block;background:color-mix(in srgb,var(--aviso) 12%, transparent);border:1px solid var(--aviso)}
+  .niveles{display:grid;gap:12px;margin-top:6px}
+  .nivel{all:unset;cursor:pointer;display:block;border:2px solid var(--borde);border-radius:12px;padding:14px 16px;background:var(--bg);transition:.2s}
+  .nivel:hover,.nivel:focus-visible{border-color:var(--acento);transform:translateY(-2px)}
+  .nivel b{display:block;font-size:1.05rem;margin-bottom:4px}
+  .nivel small{color:var(--suave);line-height:1.45;display:block}
+  .nivel em{display:block;margin-top:6px;color:var(--ok);font-style:normal;font-size:.8rem;font-weight:700}
+  .clave{font:800 2rem ui-monospace,Consolas,monospace;letter-spacing:10px;text-align:center;color:var(--acento);margin:10px 0}
+  .resumen li{margin-bottom:6px;line-height:1.45}
+  .centro{text-align:center}
+  @media (max-width:520px){ header h1{font-size:1.35rem} main{padding:16px} .fila-orden{flex-direction:column;align-items:stretch} .fila-orden select{width:100%} }
+</style>
+</head>
+<body>
+<div class="caja">
+  <header><h1>🧬 Instalación BIO-CORE</h1><p>Escape room de célula y metabolismo · PAU Biología Andalucía 2026-27</p></header>
+  <div class="barra" id="barra">
+    <span id="nivelTxt"></span>
+    <span class="pips" id="pips"></span>
+    <span>💡 <span id="pistasTxt"></span></span>
+    <span id="reloj">--:--</span>
+  </div>
+  <main>
+    <section class="sala on" id="s-inicio">
+      <div class="historia"><span class="etiqueta">// INFORME DE MISIÓN</span><span id="intro"></span></div>
+      <h2>Elige tu nivel</h2>
+      <div class="niveles" id="niveles"></div>
+      <p style="color:var(--suave);font-size:.85rem;margin-top:14px">Cada partida sortea <span id="nSalas"></span> retos de un banco más amplio: si lo repites, saldrán retos distintos. Cada reto resuelto te da una letra de la clave final.</p>
+    </section>
+    <section class="sala" id="s-reto"></section>
+    <section class="sala" id="s-fin"></section>
+  </main>
+</div>
+
+<script>
+const JUEGO = {
+ "id": "biocore",
+ "salas": 5,
+ "clave": "KREBS",
+ "intro": "Los reactores de la instalación <b>BIO-CORE</b> funcionan con células sintéticas, y han fallado cinco módulos a la vez. Para restablecerlos necesitas el rigor de la PAU: vocabulario preciso, justificaciones correctas y cálculos exactos. <b>Contenido: bloques C (célula, división celular) y D (metabolismo)</b>.",
+ "victoria": "🏆 BIO-CORE estabilizado",
+ "derrota": "Los reactores se han desestabilizado. Repasa y vuelve a intentarlo: los módulos cambian en cada partida.",
+ "retos": {
+  "basico": [
+   {
+    "tipo": "opciones",
+    "tema": "Respiración celular",
+    "titulo": "Módulo de Krebs",
+    "escena": "El reactor 1 necesita saber dónde ocurre cada ruta.",
+    "pregunta": "¿Dónde tiene lugar el ciclo de Krebs en una célula eucariota?",
+    "opciones": [
+     "En la matriz mitocondrial.",
+     "En la membrana mitocondrial interna.",
+     "En el citosol.",
+     "En el estroma del cloroplasto."
+    ],
+    "pista": "Es la misma localización que la β-oxidación.",
+    "explicacion": "Matriz mitocondrial. La cadena respiratoria está en la membrana interna (crestas)."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Glucólisis",
+    "titulo": "Primer paso",
+    "escena": "El reactor 2 degrada glucosa.",
+    "pregunta": "¿Dónde ocurre la glucólisis y cuántos ATP netos produce?",
+    "opciones": [
+     "En el citosol; 2 ATP.",
+     "En la matriz mitocondrial; 2 ATP.",
+     "En el citosol; 4 ATP.",
+     "En las crestas mitocondriales; 36 ATP."
+    ],
+    "pista": "Se gastan 2 ATP y se forman 4.",
+    "explicacion": "Citosol, 2 ATP netos por fosforilación a nivel de sustrato, con o sin O₂."
+   },
+   {
+    "tipo": "texto",
+    "tema": "Núcleo",
+    "titulo": "Fábrica de ribosomas",
+    "escena": "Una célula sintética tiene un defecto en la síntesis de ARN ribosómico.",
+    "pregunta": "¿Qué estructura del núcleo fabrica el ARNr y monta las subunidades de los ribosomas?",
+    "respuestas": [
+     "nucleolo"
+    ],
+    "solucion": "El nucléolo.",
+    "pista": "Está dentro del núcleo y se ve como una zona densa.",
+    "explicacion": "El nucléolo sintetiza el ARNr y ensambla las subunidades ribosómicas.",
+    "formato": "Una palabra"
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Lisosomas",
+    "titulo": "Origen de los lisosomas",
+    "escena": "El módulo de digestión intracelular ha dejado de formar lisosomas.",
+    "pregunta": "¿De qué orgánulo proceden los lisosomas?",
+    "opciones": [
+     "Del complejo de Golgi.",
+     "Del retículo endoplasmático liso.",
+     "De las mitocondrias.",
+     "De la envoltura nuclear."
+    ],
+    "pista": "Es el orgánulo que empaqueta y distribuye.",
+    "explicacion": "Los lisosomas se forman en la cara trans del complejo de Golgi, con enzimas sintetizadas en el RER."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Cadena respiratoria",
+    "titulo": "Último aceptor",
+    "escena": "El sensor de la cadena respiratoria pide el aceptor final de electrones.",
+    "pregunta": "¿Cuál es en la respiración aerobia?",
+    "opciones": [
+     "El O₂, que se reduce a agua.",
+     "El NAD⁺, que se reduce a NADH.",
+     "El CO₂, que se reduce a glucosa.",
+     "El piruvato, que se reduce a lactato."
+    ],
+    "pista": "Por eso respiramos.",
+    "explicacion": "El O₂ acepta los electrones al final de la cadena y forma H₂O."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Meiosis",
+    "titulo": "Gametos sintéticos",
+    "escena": "Una célula 2n = 40 en G2 completa la meiosis.",
+    "pregunta": "¿Cómo es cada gameto?",
+    "opciones": [
+     "20 cromosomas de una cromátida.",
+     "20 cromosomas de dos cromátidas.",
+     "40 cromosomas de una cromátida.",
+     "10 cromosomas de dos cromátidas."
+    ],
+    "pista": "La meiosis I separa homólogos; la II, cromátidas.",
+    "explicacion": "Gameto: n = 20 cromosomas, cada uno con una sola cromátida."
+   },
+   {
+    "tipo": "texto",
+    "tema": "Fermentación",
+    "titulo": "Burbujas en el tanque",
+    "escena": "En un tanque cerrado con levaduras y glucosa aparecen etanol y burbujas.",
+    "pregunta": "¿Qué gas forma las burbujas?",
+    "respuestas": [
+     "co2",
+     "dioxido de carbono",
+     "anhidrido carbonico"
+    ],
+    "solucion": "CO₂ (dióxido de carbono).",
+    "pista": "Es la fermentación del pan y del vino.",
+    "explicacion": "En la fermentación alcohólica el piruvato pierde CO₂ y se reduce a etanol.",
+    "formato": "Fórmula o nombre"
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Membrana",
+    "titulo": "Entrada de oxígeno",
+    "escena": "El reactor 3 mide cómo entra el O₂ en las células.",
+    "pregunta": "¿Por qué mecanismo atraviesa la membrana?",
+    "opciones": [
+     "Difusión simple a través de la bicapa.",
+     "Difusión facilitada por proteínas canal.",
+     "Transporte activo con gasto de ATP.",
+     "Endocitosis."
+    ],
+    "pista": "Es una molécula pequeña y apolar.",
+    "explicacion": "El O₂, pequeño y apolar, atraviesa la bicapa a favor de gradiente: difusión simple."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Fotosíntesis",
+    "titulo": "Dónde se capta la luz",
+    "escena": "El módulo verde usa cloroplastos sintéticos.",
+    "pregunta": "¿Dónde ocurre la fase luminosa?",
+    "opciones": [
+     "En la membrana de los tilacoides.",
+     "En el estroma.",
+     "En la membrana externa del cloroplasto.",
+     "En la matriz mitocondrial."
+    ],
+    "pista": "Allí están los fotosistemas.",
+    "explicacion": "En la membrana de los tilacoides; el ciclo de Calvin ocurre en el estroma."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Ribosomas",
+    "titulo": "Ribosomas pequeños",
+    "escena": "Una bacteria contamina el reactor.",
+    "pregunta": "¿Qué ribosomas tiene?",
+    "opciones": [
+     "70S.",
+     "80S.",
+     "60S.",
+     "No tiene ribosomas."
+    ],
+    "pista": "Son los que atacan algunos antibióticos.",
+    "explicacion": "Las bacterias tienen ribosomas 70S; el citosol eucariota, 80S."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Modelos celulares",
+    "titulo": "Sin centriolos",
+    "escena": "El reactor compara una célula animal y una vegetal.",
+    "pregunta": "¿Qué estructura tiene la célula animal y no la vegetal?",
+    "opciones": [
+     "Centrosoma con centriolos.",
+     "Pared celular de celulosa.",
+     "Cloroplastos.",
+     "Una gran vacuola central."
+    ],
+    "pista": "Las otras tres son propias de la vegetal.",
+    "explicacion": "Las células vegetales forman el huso sin centriolos; las animales tienen centrosoma."
+   },
+   {
+    "tipo": "texto",
+    "tema": "Endocitosis",
+    "titulo": "Comer células",
+    "escena": "Un macrófago del reactor rodea una bacteria con pseudópodos y la engloba.",
+    "pregunta": "¿Cómo se llama este proceso?",
+    "respuestas": [
+     "fagocitosis"
+    ],
+    "solucion": "Fagocitosis.",
+    "pista": "Significa «comer células».",
+    "explicacion": "La fagocitosis engloba partículas grandes en un fagosoma, que luego se une a lisosomas.",
+    "formato": "Una palabra"
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Mitosis",
+    "titulo": "Separación",
+    "escena": "El microscopio capta una célula en anafase mitótica.",
+    "pregunta": "¿Qué se separa hacia los polos?",
+    "opciones": [
+     "Las cromátidas hermanas.",
+     "Los cromosomas homólogos.",
+     "Los centrómeros sin cromátidas.",
+     "Los nucléolos."
+    ],
+    "pista": "En la anafase I se separan otras estructuras.",
+    "explicacion": "En la anafase mitótica (y en la II) se separan las cromátidas hermanas."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Ósmosis",
+    "titulo": "Agua destilada",
+    "escena": "Por error se ponen glóbulos rojos en agua destilada.",
+    "pregunta": "¿Qué les ocurre?",
+    "opciones": [
+     "Entra agua por ósmosis y estallan (hemólisis).",
+     "Pierden agua y se arrugan (crenación).",
+     "No les ocurre nada: el agua no atraviesa la membrana.",
+     "Sufren plasmólisis."
+    ],
+    "pista": "El agua destilada es un medio hipotónico.",
+    "explicacion": "En medio hipotónico entra agua; sin pared, el glóbulo rojo estalla."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Retículo endoplasmático",
+    "titulo": "Fábrica de proteínas",
+    "escena": "Las células secretoras del reactor tienen mucho retículo rugoso.",
+    "pregunta": "¿Cuál es su función principal?",
+    "opciones": [
+     "Sintetizar proteínas de secreción y de membrana.",
+     "Sintetizar lípidos de membrana y eliminar tóxicos.",
+     "Digerir los orgánulos viejos de la célula.",
+     "Fabricar el ARN que forma los ribosomas."
+    ],
+    "pista": "Sus ribosomas le dan el aspecto rugoso.",
+    "explicacion": "El RER sintetiza proteínas de secreción, de membrana y de los lisosomas; el REL, lípidos."
+   }
+  ],
+  "intermedio": [
+   {
+    "tipo": "opciones",
+    "tema": "Evolución del metabolismo",
+    "titulo": "Tierra primitiva",
+    "escena": "La célula sintética imitará a las primeras células, en una atmósfera sin O₂ libre.",
+    "pregunta": "¿Qué combustible y qué ruta usará?",
+    "opciones": [
+     "Glucosa por glucólisis anaerobia: sin O₂ no es posible la β-oxidación.",
+     "Ácidos grasos por β-oxidación: dan más energía y no necesitan O₂.",
+     "Ácidos grasos por fermentación láctica, como hacen hoy las bacterias."
+    ],
+    "pista": "Para oxidar ácidos grasos hacen falta la cadena respiratoria y el O₂.",
+    "explicacion": "Primero fueron los azúcares en anaerobiosis; aprovechar las grasas exige un ambiente aerobio.",
+    "fuente": "Inspirado en PAU Andalucía 2013"
+   },
+   {
+    "tipo": "numero",
+    "tema": "Meiosis y ADN",
+    "titulo": "Citómetro",
+    "escena": "Una célula testicular en G2 tiene 8 × 10⁻⁶ g de ADN.",
+    "pregunta": "¿Cuánto ADN tendrá cada espermatozoide? Escribe el número que multiplica a 10⁻⁶ g.",
+    "valor": 2,
+    "tolerancia": 0,
+    "solucion": "2 × 10⁻⁶ g.",
+    "pista": "G2 = 4C; tras la meiosis I, 2C; tras la meiosis II, 1C.",
+    "explicacion": "8 → 4 (meiosis I) → 2 × 10⁻⁶ g (meiosis II): la cuarta parte.",
+    "formato": "Número"
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Enzimas",
+    "titulo": "Velocidad máxima",
+    "escena": "Al añadir más lactosa al reactor de lactasa la velocidad deja de aumentar.",
+    "pregunta": "¿Por qué?",
+    "opciones": [
+     "Todos los centros activos están ocupados: la enzima está saturada.",
+     "La lactosa en exceso se comporta como un inhibidor competitivo.",
+     "Se ha agotado el O₂ que la enzima necesita para seguir funcionando."
+    ],
+    "pista": "Piensa en las cajas de un supermercado: si todas están ocupadas…",
+    "explicacion": "Con todos los centros activos ocupados se alcanza la Vmax: solo aumentaría con más enzima."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Enzimas",
+    "titulo": "Sacarosa ignorada",
+    "escena": "La lactasa del reactor no hidroliza la sacarosa que se añade por error.",
+    "pregunta": "¿Por qué?",
+    "opciones": [
+     "Su centro activo solo es complementario de la lactosa: especificidad.",
+     "La sacarosa actúa como inhibidor no competitivo de la lactasa.",
+     "La sacarosa no tiene ningún enlace O-glucosídico que se pueda romper."
+    ],
+    "pista": "Llave y cerradura.",
+    "explicacion": "Especificidad: la forma del centro activo encaja con la lactosa, no con la sacarosa (que sí tiene un enlace O-glucosídico, distinto)."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Transporte de membrana",
+    "titulo": "Sin cadena respiratoria",
+    "escena": "Un veneno bloquea la cadena respiratoria de las células del reactor.",
+    "pregunta": "¿Qué tipo de transporte se detiene?",
+    "opciones": [
+     "Solo el transporte activo.",
+     "La difusión simple y la facilitada.",
+     "Todos los tipos de transporte.",
+     "Ninguno, porque la glucólisis aporta todo el ATP."
+    ],
+    "pista": "¿Qué transporte gasta ATP?",
+    "explicacion": "Las difusiones son pasivas; el transporte activo necesita ATP y se para.",
+    "fuente": "Inspirado en PAU Andalucía 2012, A5"
+   },
+   {
+    "tipo": "orden",
+    "tema": "Sistema de endomembranas",
+    "titulo": "Ruta de secreción",
+    "escena": "Las células del reactor deben secretar una enzima digestiva.",
+    "pregunta": "Ordena el recorrido de la enzima:",
+    "elementos": [
+     "Ribosomas adosados al RER",
+     "Interior del retículo endoplasmático rugoso",
+     "Complejo de Golgi",
+     "Vesículas de secreción",
+     "Exocitosis"
+    ],
+    "solucion": "Ribosomas adosados al RER → Interior del retículo endoplasmático rugoso → Complejo de Golgi → Vesículas de secreción → Exocitosis",
+    "pista": "Del RER al Golgi y de allí a la membrana.",
+    "explicacion": "Ribosomas → RER → Golgi → vesículas → exocitosis.",
+    "fuente": "Inspirado en PAU Andalucía 2015, examen 4, B4"
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Citocinesis",
+    "titulo": "Golgi bloqueado",
+    "escena": "Se bloquea la formación de vesículas del Golgi en células animales y vegetales en división.",
+    "pregunta": "¿Qué ocurre?",
+    "opciones": [
+     "La vegetal no completa la citocinesis; la animal sí.",
+     "La animal no completa la citocinesis; la vegetal sí.",
+     "Ninguna puede formar el huso mitótico."
+    ],
+    "pista": "Fragmoplasto frente a anillo contráctil.",
+    "explicacion": "La vegetal forma la placa celular con vesículas del Golgi; la animal se divide por estrangulamiento con actina y miosina.",
+    "fuente": "Inspirado en PAU Andalucía 2024, reserva B"
+   },
+   {
+    "tipo": "numero",
+    "tema": "Fotosíntesis",
+    "titulo": "Coste de una glucosa",
+    "escena": "El módulo fotosintético fabrica glucosa en el ciclo de Calvin.",
+    "pregunta": "¿Cuántas moléculas de ATP hacen falta para formar una glucosa?",
+    "valor": 18,
+    "tolerancia": 0,
+    "solucion": "18 ATP (y 12 NADPH).",
+    "pista": "Son 6 vueltas del ciclo, con 3 ATP por vuelta.",
+    "explicacion": "Para una glucosa: 6 CO₂, 18 ATP y 12 NADPH.",
+    "formato": "Número"
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Ósmosis",
+    "titulo": "Cebolla en sal",
+    "escena": "Se pone epidermis de cebolla en una disolución concentrada de sal.",
+    "pregunta": "¿Qué se observa?",
+    "opciones": [
+     "Plasmólisis: la membrana se separa de la pared.",
+     "Turgencia: entra agua y la célula se hincha.",
+     "Hemólisis: entra agua y la célula estalla.",
+     "Ningún cambio, porque la pared lo impide."
+    ],
+    "pista": "Medio hipertónico: el agua sale.",
+    "explicacion": "Sale agua, la vacuola se reduce y la membrana se despega de la pared celular."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Meiosis",
+    "titulo": "Anafase I",
+    "escena": "En una espermatogonia en meiosis se ven cromosomas de dos cromátidas desplazándose a polos opuestos.",
+    "pregunta": "¿Qué fase es?",
+    "opciones": [
+     "Anafase I: se separan los cromosomas homólogos.",
+     "Anafase II: se separan las cromátidas hermanas.",
+     "Anafase mitótica: se separan las cromátidas."
+    ],
+    "pista": "Si cada cromosoma que se mueve tiene dos cromátidas…",
+    "explicacion": "En anafase I viajan homólogos completos, cada uno con sus dos cromátidas.",
+    "fuente": "Inspirado en PAU 2025, Asturias"
+   },
+   {
+    "tipo": "numero",
+    "tema": "Mitosis",
+    "titulo": "Cromátidas",
+    "escena": "Una célula humana (2n = 46) está en metafase mitótica.",
+    "pregunta": "¿Cuántas cromátidas tiene?",
+    "valor": 92,
+    "tolerancia": 0,
+    "solucion": "92.",
+    "pista": "El ADN se duplicó en la fase S.",
+    "explicacion": "46 cromosomas de dos cromátidas = 92 cromátidas.",
+    "formato": "Número"
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Síntesis de ATP",
+    "titulo": "El mayor aporte",
+    "escena": "El sensor mide qué mecanismo produce más ATP en la respiración aerobia.",
+    "pregunta": "¿Cuál es?",
+    "opciones": [
+     "La fosforilación oxidativa.",
+     "La fosforilación a nivel de sustrato.",
+     "La fotofosforilación.",
+     "La glucólisis."
+    ],
+    "pista": "Gradiente de protones + ATP sintasa.",
+    "explicacion": "La mayor parte del ATP de la respiración procede de la fosforilación oxidativa, en la membrana mitocondrial interna."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Fermentación",
+    "titulo": "Para qué fermentar",
+    "escena": "Las levaduras del reactor, sin oxígeno, transforman el piruvato en etanol.",
+    "pregunta": "¿Qué ganan con ese paso, si no produce ATP?",
+    "opciones": [
+     "Regeneran el NAD⁺ que necesita la glucólisis.",
+     "Fabrican el O₂ que les falta en el tanque cerrado.",
+     "Obtienen unos 36 ATP más por cada glucosa."
+    ],
+    "pista": "Sin NAD⁺ libre, la glucólisis se detiene.",
+    "explicacion": "La reducción del piruvato regenera el NAD⁺: así la glucólisis puede seguir dando 2 ATP."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Quimiosíntesis",
+    "titulo": "Bacterias del suelo",
+    "escena": "En el filtro del reactor viven bacterias nitrificantes.",
+    "pregunta": "¿De dónde obtienen la energía?",
+    "opciones": [
+     "De oxidar amoniaco y nitrito.",
+     "De la luz, con clorofila.",
+     "De fermentar glucosa.",
+     "De oxidar la materia orgánica del filtro."
+    ],
+    "pista": "Son quimioautótrofas.",
+    "explicacion": "Oxidan compuestos inorgánicos (NH₃ → NO₂⁻ → NO₃⁻) y fijan el CO₂: quimiosíntesis."
+   },
+   {
+    "tipo": "orden",
+    "tema": "Mitosis",
+    "titulo": "Fotogramas",
+    "escena": "Una cámara graba la mitosis de una célula animal del reactor.",
+    "pregunta": "Ordena las fases:",
+    "elementos": [
+     "Profase: condensación y formación del huso",
+     "Metafase: cromosomas en la placa ecuatorial",
+     "Anafase: las cromátidas van a los polos",
+     "Telofase: se reorganizan las envolturas nucleares",
+     "Citocinesis por estrangulamiento"
+    ],
+    "solucion": "Profase: condensación y formación del huso → Metafase: cromosomas en la placa ecuatorial → Anafase: las cromátidas van a los polos → Telofase: se reorganizan las envolturas nucleares → Citocinesis por estrangulamiento",
+    "pista": "Pro-, meta-, ana-, telo-.",
+    "explicacion": "Profase → metafase → anafase → telofase → citocinesis."
+   }
+  ],
+  "pau": [
+   {
+    "tipo": "opciones",
+    "tema": "Metabolismo de lípidos",
+    "titulo": "Combustible lipídico",
+    "escena": "Los sensores confirman que un ácido graso rinde mucho más ATP que una glucosa.",
+    "pregunta": "¿Cuál es la razón bioquímica?",
+    "opciones": [
+     "Está más reducido: cede más electrones (NADH, FADH₂) a la cadena respiratoria.",
+     "Sus enlaces fabrican ATP directamente en el citosol, sin cadena respiratoria.",
+     "Tiene más átomos de oxígeno, que aportan más energía al oxidarse."
+    ],
+    "pista": "Compara cuántos H tiene cada carbono en un ácido graso y en una hexosa.",
+    "explicacion": "Los carbonos de un ácido graso están más reducidos: dan más acetil-CoA, más NADH y FADH₂ y, por tanto, más ATP."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Modelos celulares",
+    "titulo": "Planta con mitocondrias",
+    "escena": "Una célula vegetal del reactor tiene cloroplastos y también mitocondrias.",
+    "pregunta": "¿Por qué necesita mitocondrias si hace la fotosíntesis?",
+    "opciones": [
+     "Para obtener ATP debe degradar en la respiración la materia orgánica que fabrica.",
+     "Las mitocondrias fabrican el CO₂ que necesita el cloroplasto para el ciclo de Calvin.",
+     "Las mitocondrias solo funcionan de noche, cuando el cloroplasto no recibe luz."
+    ],
+    "pista": "¿Para qué se usan el ATP y el NADPH de la fase luminosa?",
+    "explicacion": "Los cloroplastos fabrican materia orgánica; la respiración la degrada para obtener ATP, de día y de noche.",
+    "fuente": "Inspirado en el modelo de examen PAU 2026"
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Fosforilación oxidativa",
+    "titulo": "Mitocondria perforada",
+    "escena": "Un fallo perfora las membranas externa e interna de las mitocondrias del reactor.",
+    "pregunta": "¿Puede seguir la fosforilación oxidativa?",
+    "opciones": [
+     "No: se pierde el gradiente de protones que impulsa la ATP sintasa.",
+     "Sí: la ATP sintasa sigue funcionando aunque no haya gradiente de protones.",
+     "Sí: por el orificio entra más O₂ y la mitocondria fabrica más ATP."
+    ],
+    "pista": "Hipótesis quimiosmótica.",
+    "explicacion": "Los protones deben volver a la matriz a través de la ATP sintasa; con un orificio se escapan sin producir ATP.",
+    "fuente": "Inspirado en PAU Andalucía 2017, junio"
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Cadena respiratoria",
+    "titulo": "Monóxido de carbono",
+    "escena": "El CO inhibe la citocromo c oxidasa, el último complejo de la cadena.",
+    "pregunta": "¿Qué le pasa al consumo de O₂ en la mitocondria?",
+    "opciones": [
+     "Cesa: el O₂ deja de actuar como aceptor final de electrones.",
+     "Aumenta, para compensar el bloqueo de la cadena respiratoria.",
+     "No cambia, porque el O₂ se consume sobre todo en la glucólisis."
+    ],
+    "pista": "¿Dónde se usa el O₂ en la célula?",
+    "explicacion": "Sin transporte de electrones el O₂ no se reduce a agua, no hay gradiente de H⁺ ni ATP, y la célula muere.",
+    "fuente": "Inspirado en PAU Andalucía 2015, examen 6, B4"
+   },
+   {
+    "tipo": "numero",
+    "tema": "β-oxidación",
+    "titulo": "Palmítico",
+    "escena": "El reactor oxida ácido palmítico (16 C).",
+    "pregunta": "¿Cuántas vueltas de β-oxidación hacen falta para convertirlo por completo en acetil-CoA?",
+    "valor": 7,
+    "tolerancia": 0,
+    "solucion": "7 vueltas (8 acetil-CoA).",
+    "pista": "Cada vuelta separa 2 C, pero la última da dos acetil-CoA a la vez.",
+    "explicacion": "16 C → 8 acetil-CoA en 7 vueltas (n/2 − 1).",
+    "formato": "Número"
+   },
+   {
+    "tipo": "opciones",
+    "tema": "División celular",
+    "titulo": "Colchicina",
+    "escena": "La colchicina impide que se formen microtúbulos.",
+    "pregunta": "¿Por qué no sirve para frenar una infección bacteriana?",
+    "opciones": [
+     "Las bacterias se dividen por bipartición, sin huso de microtúbulos.",
+     "Las bacterias no tienen ADN que repartir entre las células hijas.",
+     "Las bacterias se dividen por meiosis."
+    ],
+    "pista": "¿Cómo se dividen los procariotas?",
+    "explicacion": "Sin huso mitótico la colchicina no afecta a las bacterias; en eucariotas detiene la mitosis.",
+    "fuente": "Inspirado en PAU Andalucía 2022, suplente de junio"
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Fotosíntesis",
+    "titulo": "Estomas cerrados",
+    "escena": "Por la sequía, las plantas del módulo verde cierran los estomas.",
+    "pregunta": "¿Pueden seguir fabricando azúcares?",
+    "opciones": [
+     "No: sin CO₂ no funciona el ciclo de Calvin.",
+     "Sí: la fase luminosa fabrica la glucosa.",
+     "Sí: el O₂ sustituye al CO₂ en el ciclo de Calvin."
+    ],
+    "pista": "¿Dónde se fijan el carbono y se forman los azúcares?",
+    "explicacion": "Sin CO₂ se detiene la fase no dependiente de la luz, que es la que fabrica los glúcidos.",
+    "fuente": "Inspirado en PAU Andalucía 2021, reserva de julio, B2"
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Fermentación",
+    "titulo": "Glóbulos rojos",
+    "escena": "Las células sanguíneas sintéticas, como los glóbulos rojos humanos, no tienen mitocondrias.",
+    "pregunta": "¿Cómo obtienen energía y qué rendimiento tienen?",
+    "opciones": [
+     "Por glucólisis y fermentación láctica: solo 2 ATP por glucosa.",
+     "Por respiración aerobia en el citosol: unos 36 ATP por glucosa.",
+     "Por fotosíntesis, gracias a la hemoglobina."
+    ],
+    "pista": "Sin mitocondrias no hay Krebs ni cadena respiratoria.",
+    "explicacion": "Solo pueden fermentar: rendimiento mucho menor que con respiración aerobia.",
+    "fuente": "Inspirado en PAU Andalucía 2017, suplente de septiembre, B4"
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Transporte de membrana",
+    "titulo": "Reactor a 60 ºC",
+    "escena": "Un fallo de refrigeración sube el reactor a 60 ºC.",
+    "pregunta": "¿Qué transporte sigue funcionando?",
+    "opciones": [
+     "Solo la difusión simple.",
+     "Solo el transporte activo.",
+     "La difusión facilitada y el transporte activo.",
+     "Ninguno."
+    ],
+    "pista": "El calor desnaturaliza las proteínas.",
+    "explicacion": "A 60 ºC se desnaturalizan los transportadores; la difusión simple a través de la bicapa no los necesita.",
+    "fuente": "Inspirado en PAU Andalucía 2012, A5"
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Núcleo y cáncer",
+    "titulo": "Toxina antinucléolo",
+    "escena": "Se ensaya contra un tumor una toxina que destruye los nucléolos.",
+    "pregunta": "¿Por qué mueren las células tumorales?",
+    "opciones": [
+     "Sin ARNr no se forman ribosomas ni proteínas.",
+     "Sin nucléolo no puede replicarse el ADN.",
+     "El nucléolo es donde se produce el ATP de la célula."
+    ],
+    "pista": "¿Qué fabrica el nucléolo?",
+    "explicacion": "Sin ribosomas no hay síntesis de proteínas: la célula no puede crecer ni completar el ciclo.",
+    "fuente": "Inspirado en PAU Andalucía 2024, titular A"
+   },
+   {
+    "tipo": "numero",
+    "tema": "Fermentación",
+    "titulo": "Rendimiento mínimo",
+    "escena": "Las levaduras del tanque cerrado fermentan glucosa.",
+    "pregunta": "¿Cuántos ATP netos obtienen por cada glucosa?",
+    "valor": 2,
+    "tolerancia": 0,
+    "solucion": "2 ATP.",
+    "pista": "Solo los de la glucólisis.",
+    "explicacion": "La fermentación no añade ATP: solo regenera NAD⁺.",
+    "formato": "Número"
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Respiración",
+    "titulo": "Krebs sin oxígeno",
+    "escena": "Se retira el O₂ del reactor de células animales.",
+    "pregunta": "¿Por qué se detiene el ciclo de Krebs, si no usa O₂ directamente?",
+    "opciones": [
+     "Sin cadena respiratoria no se regeneran el NAD⁺ ni el FAD.",
+     "El O₂ es un sustrato del propio ciclo de Krebs.",
+     "Sin O₂ se destruyen las enzimas de la matriz mitocondrial."
+    ],
+    "pista": "¿Quién reoxida el NADH y el FADH₂?",
+    "explicacion": "El NADH y el FADH₂ solo se reoxidan cediendo electrones al O₂: sin O₂ faltan NAD⁺ y FAD y el ciclo se para."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Fotosíntesis",
+    "titulo": "Solo fotofosforilación cíclica",
+    "escena": "Un microorganismo mutante del reactor solo puede hacer la fotofosforilación cíclica.",
+    "pregunta": "¿Qué le ocurre al ciclo de Calvin?",
+    "opciones": [
+     "Se detiene: falta el NADPH, que solo da la vía acíclica.",
+     "Funciona igual: la vía cíclica produce ATP y NADPH.",
+     "Funciona más deprisa, porque hay más ATP."
+    ],
+    "pista": "¿Qué produce la vía cíclica?",
+    "explicacion": "La vía cíclica solo da ATP; el ciclo de Calvin necesita ATP y NADPH.",
+    "fuente": "Inspirado en PAU Andalucía 2015"
+   },
+   {
+    "tipo": "numero",
+    "tema": "División celular",
+    "titulo": "Recuento",
+    "escena": "Una célula animal con cuatro pares de cromosomas hace una mitosis, y cada célula hija, una meiosis.",
+    "pregunta": "¿Cuántas células se obtienen al final?",
+    "valor": 8,
+    "tolerancia": 0,
+    "solucion": "8 células (n = 4).",
+    "pista": "La mitosis da 2; cada meiosis, 4.",
+    "explicacion": "2 células por mitosis × 4 por meiosis = 8 células haploides.",
+    "formato": "Número",
+    "fuente": "Inspirado en PAU Andalucía 2023, junio"
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Endosimbiosis",
+    "titulo": "Origen de las mitocondrias",
+    "escena": "El equipo debate si las mitocondrias fueron bacterias.",
+    "pregunta": "¿Qué prueba apoya la teoría endosimbiótica?",
+    "opciones": [
+     "Tienen ADN circular propio y ribosomas parecidos a los bacterianos.",
+     "Se forman a partir de vesículas del retículo endoplasmático rugoso.",
+     "Tienen una sola membrana, igual que los lisosomas y los peroxisomas."
+    ],
+    "pista": "Busca semejanzas con las bacterias.",
+    "explicacion": "ADN propio circular, ribosomas de tipo bacteriano, doble membrana y división independiente."
+   }
+  ]
+ }
+};
+
+const NIV = {
+  basico:     { nombre:'🟢 Básico',     tiempo: JUEGO.tiempos?.basico     ?? 900, pistas:3, castigo:0,  intentos:3, desc:'Conceptos y definiciones. 3 pistas, los errores no restan tiempo.' },
+  intermedio: { nombre:'🟡 Intermedio', tiempo: JUEGO.tiempos?.intermedio ?? 720, pistas:2, castigo:20, intentos:3, desc:'Aplicación a casos y problemas. 2 pistas; cada error resta 20 s.' },
+  pau:        { nombre:'🔴 PAU',        tiempo: JUEGO.tiempos?.pau        ?? 600, pistas:1, castigo:45, intentos:2, desc:'Preguntas competenciales y relaciones entre temas. 1 pista; cada error resta 45 s.' }
+};
+let P = null, reloj = null;
+const $ = id => document.getElementById(id);
+const barajar = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+const norm = s => String(s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9ñ ]/g, ' ').replace(/\s+/g, ' ').trim();
+const mmss = t => `${Math.floor(t / 60)}:${String(t % 60).padStart(2, '0')}`;
+const record = (k, v) => { try { const c = 'escape-' + JUEGO.id + '-' + k, p = +localStorage.getItem(c) || 0; if (v !== undefined && v > p) localStorage.setItem(c, v); return Math.max(p, v || 0); } catch (e) { return v || 0; } };
+
+function pintarInicio() {
+  $('intro').innerHTML = JUEGO.intro;
+  $('nSalas').textContent = JUEGO.salas;
+  $('niveles').innerHTML = Object.entries(NIV).map(([k, n]) => `
+    <button class="nivel" onclick="empezar('${k}')"><b>${n.nombre}</b>
+      <small>${n.desc} Tiempo: ${Math.round(n.tiempo / 60)} min. Banco: ${JUEGO.retos[k].length} retos.</small>
+      <em>Tu mejor puntuación: ${record(k)} %</em></button>`).join('');
+}
+
+function ver(id) { document.querySelectorAll('.sala').forEach(s => s.classList.remove('on')); $(id).classList.add('on'); window.scrollTo({ top: 0, behavior: 'smooth' }); }
+
+function empezar(nivel) {
+  const n = NIV[nivel];
+  const retos = barajar(JUEGO.retos[nivel]).slice(0, JUEGO.salas);
+  P = { nivel, n, retos, i: 0, t: n.tiempo, pistas: n.pistas, puntos: 0, estado: [], clave: '' };
+  $('barra').classList.add('on');
+  $('nivelTxt').textContent = n.nombre;
+  clearInterval(reloj);
+  reloj = setInterval(() => { P.t--; pintarBarra(); if (P.t <= 0) { clearInterval(reloj); fin(false); } }, 1000);
+  reto();
+}
+
+function pintarBarra() {
+  $('reloj').textContent = mmss(Math.max(0, P.t));
+  $('reloj').classList.toggle('alerta', P.t <= 60);
+  $('pistasTxt').textContent = P.pistas;
+  $('pips').innerHTML = P.retos.map((_, i) => `<span class="pip ${P.estado[i] || (i === P.i ? 'actual' : '')}"></span>`).join('');
+}
+
+function reto() {
+  if (P.i >= P.retos.length) return fin(true);
+  const r = P.retos[P.i];
+  P.intentos = 0; P.resuelto = false;
+  let cuerpo = '';
+  if (r.tipo === 'opciones') {
+    P.ops = barajar(r.opciones.map((t, k) => ({ t, ok: k === 0 })));
+    cuerpo = P.ops.map((o, k) => `<button class="opc" data-k="${k}" onclick="marcar(${k})">${o.t}</button>`).join('');
+  } else if (r.tipo === 'texto') {
+    cuerpo = `<input type="text" id="resp" placeholder="${r.formato || 'Escribe tu respuesta'}" autocomplete="off" onkeydown="if(event.key==='Enter')comprobar()">`;
+  } else if (r.tipo === 'numero') {
+    cuerpo = `<input type="number" step="any" id="resp" placeholder="${r.formato || 'Número'}" onkeydown="if(event.key==='Enter')comprobar()">`;
+  } else if (r.tipo === 'orden') {
+    P.orden = barajar(r.elementos.map((t, k) => ({ t, k })));
+    const nums = r.elementos.map((_, k) => `<option value="${k}">${k + 1}.º</option>`).join('');
+    cuerpo = P.orden.map((e, k) => `<div class="fila-orden"><span>${e.t}</span><select id="ord${k}"><option value="">—</option>${nums}</select></div>`).join('');
+  }
+  $('s-reto').innerHTML = `
+    <div class="historia"><span class="etiqueta">// RETO ${P.i + 1} DE ${P.retos.length} · ${r.tema}</span>${r.escena}</div>
+    <h2>${r.titulo}</h2>
+    ${r.fuente ? `<span class="fuente">${r.fuente}</span>` : ''}
+    <p class="pregunta">${r.pregunta}</p>
+    <div id="cuerpo">${cuerpo}</div>
+    <div class="botones">
+      <button class="btn btn-p" id="bComprobar" onclick="comprobar()">Comprobar</button>
+      <button class="btn btn-s" id="bPista" onclick="pista()" ${P.pistas > 0 && r.pista ? '' : 'disabled'}>💡 Pista</button>
+    </div>
+    <div class="msg" id="msg"></div>`;
+  pintarBarra();
+  ver('s-reto');
+}
+
+function marcar(k) {
+  if (P.resuelto) return;
+  P.sel = k;
+  document.querySelectorAll('.opc').forEach(b => b.classList.toggle('sel', +b.dataset.k === k));
+}
+
+function evaluar(r) {
+  if (r.tipo === 'opciones') { if (P.sel === undefined) return null; return P.ops[P.sel].ok; }
+  if (r.tipo === 'texto') { const v = norm($('resp').value); if (!v) return null; return r.respuestas.some(a => v.includes(norm(a))) && !(r.rechazar || []).some(a => v.includes(norm(a))); }
+  if (r.tipo === 'numero') { const v = $('resp').value; if (v === '') return null; return Math.abs(+v - r.valor) <= (r.tolerancia || 0); }
+  if (r.tipo === 'orden') {
+    const vals = P.orden.map((_, k) => $('ord' + k).value);
+    if (vals.some(v => v === '')) return null;
+    return P.orden.every((e, k) => +vals[k] === e.k);
+  }
+}
+
+function comprobar() {
+  if (P.resuelto) return;
+  const r = P.retos[P.i];
+  const res = evaluar(r);
+  const m = $('msg');
+  if (res === null) { m.className = 'msg mal'; m.textContent = 'Responde antes de comprobar.'; return; }
+  if (res) {
+    P.resuelto = true;
+    P.estado[P.i] = P.estado[P.i] || 'hecho';
+    if (P.estado[P.i] === 'hecho') P.puntos += P.intentos === 0 ? 2 : 1;
+    P.clave += JUEGO.clave[P.i] || '•';
+    if (r.tipo === 'opciones') document.querySelectorAll('.opc').forEach(b => { b.disabled = true; if (P.ops[+b.dataset.k].ok) b.classList.add('bien'); });
+    m.className = 'msg ok';
+    m.innerHTML = `✅ <b>Correcto.</b> ${r.explicacion}<br><br>🔑 Letra conseguida: <b>${JUEGO.clave[P.i] || '•'}</b>`;
+    siguienteBoton();
+  } else {
+    P.intentos++;
+    P.t = Math.max(1, P.t - P.n.castigo);
+    if (r.tipo === 'opciones' && P.sel !== undefined) document.querySelector(`.opc[data-k="${P.sel}"]`).classList.add('malsel');
+    if (P.intentos >= P.n.intentos) {
+      P.resuelto = true; P.estado[P.i] = 'ayuda';
+      P.clave += JUEGO.clave[P.i] || '•';
+      if (r.tipo === 'opciones') document.querySelectorAll('.opc').forEach(b => { b.disabled = true; if (P.ops[+b.dataset.k].ok) b.classList.add('bien'); });
+      m.className = 'msg mal';
+      m.innerHTML = `❌ Se acabaron los intentos. <b>Solución:</b> ${r.solucion || r.opciones?.[0] || ''}<br>${r.explicacion}<br><br>🔑 Te damos la letra igualmente (reto marcado en naranja): <b>${JUEGO.clave[P.i] || '•'}</b>`;
+      siguienteBoton();
+    } else {
+      m.className = 'msg mal';
+      m.innerHTML = `❌ No es correcto${P.n.castigo ? ` (−${P.n.castigo} s)` : ''}. Te ${P.n.intentos - P.intentos === 1 ? 'queda 1 intento' : 'quedan ' + (P.n.intentos - P.intentos) + ' intentos'}.${r.feedback ? ' ' + r.feedback : ''}`;
+    }
+  }
+  pintarBarra();
+}
+
+function siguienteBoton() {
+  $('bComprobar').textContent = P.i + 1 < P.retos.length ? 'Siguiente reto ▶' : 'Abrir la salida 🔓';
+  $('bComprobar').onclick = () => { P.i++; reto(); };
+  $('bPista').disabled = true;
+}
+
+function pista() {
+  const r = P.retos[P.i];
+  if (P.pistas <= 0 || !r.pista || P.resuelto) return;
+  P.pistas--; P.t = Math.max(1, P.t - 30);
+  const m = $('msg'); m.className = 'msg pista'; m.innerHTML = '💡 ' + r.pista + ' <i>(−30 s)</i>';
+  $('bPista').disabled = true;
+  pintarBarra();
+}
+
+function fin(ok) {
+  clearInterval(reloj);
+  const max = P.retos.length * 2;
+  const pct = ok ? Math.round(P.puntos / max * 100) : 0;
+  const mejor = record(P.nivel, pct);
+  const temas = [...new Set(P.retos.filter((_, i) => P.estado[i] === 'ayuda').map(r => r.tema))];
+  $('s-fin').innerHTML = ok ? `
+      <div class="centro"><h2 style="font-size:1.6rem">${JUEGO.victoria}</h2>
+      <p>Clave de salida:</p><div class="clave">${P.clave}</div>
+      <p>${P.n.nombre} · Puntuación: <b>${P.puntos} / ${max}</b> (${pct} %) · Tiempo sobrante: ${mmss(Math.max(0, P.t))}<br><small>Tu mejor resultado en este nivel: ${mejor} %</small></p></div>
+      <div class="historia"><span class="etiqueta">// QUÉ REPASAR</span>${temas.length ? '<ul class="resumen">' + temas.map(t => `<li>${t}</li>`).join('') + '</ul>' : 'Has resuelto todos los retos sin agotar los intentos. ¡Prueba el nivel siguiente!'}</div>`
+    : `<div class="centro"><h2 style="font-size:1.6rem;color:var(--mal)">⏳ Tiempo agotado</h2><p>${JUEGO.derrota}</p></div>`;
+  $('s-fin').innerHTML += `<div class="botones" style="justify-content:center"><button class="btn btn-p" onclick="volver()">🔄 Jugar otra vez (otros retos)</button></div>`;
+  ver('s-fin');
+}
+
+function volver() { clearInterval(reloj); $('barra').classList.remove('on'); pintarInicio(); ver('s-inicio'); }
+pintarInicio();
+</script>
+</body>
+</html>

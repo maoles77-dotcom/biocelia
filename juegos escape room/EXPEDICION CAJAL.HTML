@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Expedición Cajal · BioCelia</title>
+<meta name="description" content="Escape room para la PAU de Andalucía: teoría celular, microscopía, ciclo celular, cáncer y aplicaciones de los microorganismos. BioCelia.">
+<!-- Generado con el motor de escape rooms de BioCelia (2026-27). El contenido está en la constante JUEGO. -->
+<style>
+  :root{
+    --bg:#020617; --panel:#0f172a; --panel2:#111c33; --borde:#334155; --texto:#f1f5f9; --suave:#94a3b8;
+    --acento:#f472b6; --acento2:#38bdf8; --ok:#22c55e; --mal:#ef4444; --aviso:#f59e0b;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:'Segoe UI',system-ui,sans-serif;color:var(--texto);
+    background:radial-gradient(circle at 20% 0%, color-mix(in srgb,var(--acento) 18%, #020617) 0%, #020617 60%);min-height:100vh;padding:16px}
+  .caja{max-width:860px;margin:0 auto;background:var(--panel);border:1px solid var(--borde);border-radius:16px;
+    box-shadow:0 0 40px color-mix(in srgb,var(--acento) 15%, transparent);overflow:hidden}
+  header{padding:22px 22px 14px;border-bottom:1px solid var(--borde);text-align:center}
+  header h1{margin:0;font-size:1.7rem;letter-spacing:1px;color:var(--acento)}
+  header p{margin:6px 0 0;color:var(--suave);font-size:.9rem}
+  .barra{display:none;gap:10px;align-items:center;justify-content:space-between;padding:10px 18px;background:var(--bg);
+    border-bottom:1px solid var(--borde);font:600 .9rem ui-monospace,Consolas,monospace;flex-wrap:wrap}
+  .barra.on{display:flex}
+  .pips{display:flex;gap:6px}
+  .pip{width:28px;height:8px;border-radius:4px;background:var(--borde)}
+  .pip.hecho{background:var(--ok)} .pip.ayuda{background:var(--aviso)} .pip.actual{background:var(--acento)}
+  #reloj.alerta{color:var(--mal)}
+  main{padding:22px}
+  .sala{display:none} .sala.on{display:block;animation:entra .4s ease}
+  @keyframes entra{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+  .historia{background:var(--bg);border-left:4px solid var(--acento2);border-radius:8px;padding:16px;line-height:1.6;margin-bottom:18px}
+  .etiqueta{font:700 .78rem ui-monospace,Consolas,monospace;color:var(--acento2);display:block;margin-bottom:8px;letter-spacing:.5px}
+  h2{margin:0 0 12px;font-size:1.25rem;color:var(--acento)}
+  .pregunta{font-weight:700;line-height:1.55;margin:0 0 14px}
+  .fuente{font:.76rem ui-monospace,Consolas,monospace;color:var(--suave);margin-top:-8px;margin-bottom:12px;display:block}
+  .opc{display:block;width:100%;text-align:left;background:var(--panel2);color:var(--texto);border:2px solid var(--borde);
+    border-radius:10px;padding:12px 14px;margin-bottom:10px;font-size:.98rem;line-height:1.45;cursor:pointer;transition:.15s}
+  .opc:hover:not(:disabled){border-color:var(--acento)}
+  .opc.sel{border-color:var(--acento);background:color-mix(in srgb,var(--acento) 14%, var(--panel2))}
+  .opc.bien{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 16%, var(--panel2))}
+  .opc.malsel{border-color:var(--mal);background:color-mix(in srgb,var(--mal) 14%, var(--panel2))}
+  .opc:disabled{cursor:default}
+  input[type=text],input[type=number],select{width:100%;padding:12px;border-radius:10px;border:2px solid var(--borde);background:var(--panel2);
+    color:var(--texto);font-size:1rem}
+  .fila-orden{display:flex;gap:10px;align-items:center;margin-bottom:8px}
+  .fila-orden span{flex:1;background:var(--panel2);border:1px solid var(--borde);border-radius:8px;padding:9px 12px;line-height:1.35}
+  .fila-orden select{width:90px;flex:none}
+  .botones{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+  .btn{border:none;border-radius:10px;padding:12px 18px;font-weight:800;font-size:1rem;cursor:pointer}
+  .btn-p{background:var(--acento);color:#020617} .btn-p:hover{filter:brightness(1.1)}
+  .btn-s{background:transparent;color:var(--texto);border:2px solid var(--borde)}
+  .btn-s:disabled{opacity:.4;cursor:not-allowed}
+  .msg{display:none;margin-top:14px;padding:12px 14px;border-radius:10px;line-height:1.5}
+  .msg.ok{display:block;background:color-mix(in srgb,var(--ok) 14%, transparent);border:1px solid var(--ok)}
+  .msg.mal{display:block;background:color-mix(in srgb,var(--mal) 12%, transparent);border:1px solid var(--mal)}
+  .msg.pista{display:block;background:color-mix(in srgb,var(--aviso) 12%, transparent);border:1px solid var(--aviso)}
+  .niveles{display:grid;gap:12px;margin-top:6px}
+  .nivel{all:unset;cursor:pointer;display:block;border:2px solid var(--borde);border-radius:12px;padding:14px 16px;background:var(--bg);transition:.2s}
+  .nivel:hover,.nivel:focus-visible{border-color:var(--acento);transform:translateY(-2px)}
+  .nivel b{display:block;font-size:1.05rem;margin-bottom:4px}
+  .nivel small{color:var(--suave);line-height:1.45;display:block}
+  .nivel em{display:block;margin-top:6px;color:var(--ok);font-style:normal;font-size:.8rem;font-weight:700}
+  .clave{font:800 2rem ui-monospace,Consolas,monospace;letter-spacing:10px;text-align:center;color:var(--acento);margin:10px 0}
+  .resumen li{margin-bottom:6px;line-height:1.45}
+  .centro{text-align:center}
+  @media (max-width:520px){ header h1{font-size:1.35rem} main{padding:16px} .fila-orden{flex-direction:column;align-items:stretch} .fila-orden select{width:100%} }
+</style>
+</head>
+<body>
+<div class="caja">
+  <header><h1>🦠 Expedición Cajal</h1><p>Escape room de microscopía, ciclo celular, cáncer y microorganismos · PAU Biología Andalucía 2026-27</p></header>
+  <div class="barra" id="barra">
+    <span id="nivelTxt"></span>
+    <span class="pips" id="pips"></span>
+    <span>💡 <span id="pistasTxt"></span></span>
+    <span id="reloj">--:--</span>
+  </div>
+  <main>
+    <section class="sala on" id="s-inicio">
+      <div class="historia"><span class="etiqueta">// INFORME DE MISIÓN</span><span id="intro"></span></div>
+      <h2>Elige tu nivel</h2>
+      <div class="niveles" id="niveles"></div>
+      <p style="color:var(--suave);font-size:.85rem;margin-top:14px">Cada partida sortea <span id="nSalas"></span> retos de un banco más amplio: si lo repites, saldrán retos distintos. Cada reto resuelto te da una letra de la clave final.</p>
+    </section>
+    <section class="sala" id="s-reto"></section>
+    <section class="sala" id="s-fin"></section>
+  </main>
+</div>
+
+<script>
+const JUEGO = {
+ "id": "cajal",
+ "salas": 5,
+ "clave": "CAJAL",
+ "intro": "Un centro de investigación andaluz organiza una expedición con el nombre de <b>Santiago Ramón y Cajal</b>, que demostró que el sistema nervioso está formado por células independientes. Cada laboratorio guarda una letra: microscopía, ciclo celular, cáncer y microorganismos al servicio de las personas. <b>Contenido: bloque C (C.1, C.2, C.5 y C.7) y bloque E (E.2)</b>.",
+ "victoria": "🔬 Expedición Cajal completada",
+ "derrota": "Se ha cerrado el centro antes de terminar. Repasa y vuelve: los laboratorios cambian en cada partida.",
+ "retos": {
+  "basico": [
+   {
+    "tipo": "opciones",
+    "tema": "Teoría celular",
+    "titulo": "El primer principio",
+    "escena": "La expedición empieza en la sala dedicada a la teoría celular.",
+    "pregunta": "¿Qué afirma el principio de la célula como unidad estructural?",
+    "opciones": [
+     "Todos los seres vivos están formados por una o más células.",
+     "Toda célula procede de otra célula que ya existía antes.",
+     "La célula contiene la información hereditaria del organismo.",
+     "La célula realiza todas las funciones vitales del organismo."
+    ],
+    "pista": "Estructural = de qué estamos hechos.",
+    "explicacion": "Unidad estructural: todos los seres vivos están formados por células."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Microscopía",
+    "titulo": "Células vivas",
+    "escena": "Queréis ver moverse a un paramecio vivo.",
+    "pregunta": "¿Qué microscopio usaréis?",
+    "opciones": [
+     "El óptico.",
+     "El electrónico de transmisión.",
+     "El electrónico de barrido.",
+     "Cualquiera de los electrónicos."
+    ],
+    "pista": "En los electrónicos la muestra está en el vacío.",
+    "explicacion": "Solo el óptico permite observar células vivas; los electrónicos necesitan muestras fijadas."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Microscopía",
+    "titulo": "Imagen en 3D",
+    "escena": "Una fotografía muestra en relieve la superficie de un grano de polen.",
+    "pregunta": "¿Con qué microscopio se ha hecho?",
+    "opciones": [
+     "Electrónico de barrido.",
+     "Electrónico de transmisión.",
+     "Óptico de campo claro.",
+     "Lupa binocular."
+    ],
+    "pista": "Barre la superficie de la muestra metalizada.",
+    "explicacion": "El MEB da imágenes tridimensionales de la superficie; el MET, del interior en cortes ultrafinos."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Microscopía",
+    "titulo": "Límite del óptico",
+    "escena": "Algunas estructuras no se ven aunque aumentemos mucho la imagen del microscopio óptico.",
+    "pregunta": "¿Cuál es aproximadamente su límite de resolución?",
+    "opciones": [
+     "0,2 µm.",
+     "0,2 nm.",
+     "2 mm.",
+     "20 µm."
+    ],
+    "pista": "Depende de la longitud de onda de la luz.",
+    "explicacion": "El óptico distingue puntos separados unos 0,2 µm; el electrónico llega al orden del nanómetro."
+   },
+   {
+    "tipo": "texto",
+    "tema": "Teoría celular",
+    "titulo": "Un nombre propio",
+    "escena": "La expedición lleva el nombre de un científico español, Nobel en 1906.",
+    "pregunta": "¿Cuál es su segundo apellido o su apellido completo? (Ramón y …)",
+    "respuestas": [
+     "cajal"
+    ],
+    "solucion": "Cajal (Santiago Ramón y Cajal).",
+    "pista": "Es el nombre de la expedición.",
+    "explicacion": "Ramón y Cajal demostró que el tejido nervioso está formado por neuronas independientes.",
+    "formato": "Apellido"
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Ciclo celular",
+    "titulo": "Copiar el ADN",
+    "escena": "Una célula de la piel se prepara para dividirse.",
+    "pregunta": "¿En qué fase del ciclo replica su ADN?",
+    "opciones": [
+     "En la fase S.",
+     "En la fase G1.",
+     "En la fase G2.",
+     "En la mitosis."
+    ],
+    "pista": "S de síntesis.",
+    "explicacion": "En la fase S de la interfase se replica el ADN y cada cromosoma pasa a tener dos cromátidas."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Ciclo celular",
+    "titulo": "Células que no se dividen",
+    "escena": "La mayoría de las neuronas de un adulto no se dividen.",
+    "pregunta": "¿En qué estado del ciclo se encuentran?",
+    "opciones": [
+     "En G0.",
+     "En la fase S.",
+     "En la mitosis.",
+     "En G2."
+    ],
+    "pista": "Salen del ciclo desde G1.",
+    "explicacion": "Las células que dejan de dividirse quedan en G0 y siguen realizando su función."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Cáncer",
+    "titulo": "Definición",
+    "escena": "El laboratorio de oncología pide la definición de cáncer.",
+    "pregunta": "¿Cuál es la correcta?",
+    "opciones": [
+     "Proliferación celular descontrolada por mutaciones en genes del ciclo celular.",
+     "Infección de las células por virus que después se dividen sin ningún control.",
+     "Acumulación de células muertas que el organismo no consigue eliminar.",
+     "Crecimiento normal de un tejido durante el desarrollo del embrión."
+    ],
+    "pista": "Palabra clave: proliferación descontrolada.",
+    "explicacion": "El cáncer es una proliferación celular descontrolada causada, en la mayoría de los casos, por mutaciones."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Cáncer",
+    "titulo": "Benigno o maligno",
+    "escena": "Dos tumores tienen aspecto parecido en la ecografía.",
+    "pregunta": "¿Qué caracteriza al tumor maligno?",
+    "opciones": [
+     "Invade los tejidos vecinos y puede producir metástasis.",
+     "Crece siempre más despacio que cualquier tumor benigno.",
+     "Está rodeado por una cápsula que lo separa del resto.",
+     "Nunca se debe a mutaciones del ADN de sus células."
+    ],
+    "pista": "Piensa en lo que hace un cáncer.",
+    "explicacion": "El maligno invade y puede extenderse por la sangre o la linfa (metástasis)."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Agentes cancerígenos",
+    "titulo": "Verano en Andalucía",
+    "escena": "El índice ultravioleta en verano es «muy alto» en gran parte de Andalucía.",
+    "pregunta": "¿Qué tipo de agente cancerígeno es la radiación UV?",
+    "opciones": [
+     "Físico.",
+     "Químico.",
+     "Biológico.",
+     "No es cancerígena."
+    ],
+    "pista": "Las radiaciones son agentes…",
+    "explicacion": "La radiación UV es un agente físico: forma dímeros de timina en el ADN."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Prevención del cáncer",
+    "titulo": "Una vacuna contra el cáncer",
+    "escena": "El calendario vacunal incluye una vacuna que previene la mayoría de cánceres de cuello de útero.",
+    "pregunta": "¿Frente a qué agente es?",
+    "opciones": [
+     "El virus del papiloma humano (VPH).",
+     "La bacteria Helicobacter pylori.",
+     "El virus de la gripe.",
+     "El humo del tabaco."
+    ],
+    "pista": "Es un agente biológico de transmisión sexual.",
+    "explicacion": "El VPH es un agente biológico cancerígeno; la vacuna previene la infección."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Microorganismos",
+    "titulo": "Nódulos de las raíces",
+    "escena": "Las raíces de unas habas tienen pequeños nódulos llenos de bacterias.",
+    "pregunta": "¿Qué hacen esas bacterias?",
+    "opciones": [
+     "Fijan el N₂ del aire y lo convierten en amonio para la planta.",
+     "Fabrican almidón para la planta a partir de la luz del sol.",
+     "Descomponen poco a poco la raíz para alimentarse de ella.",
+     "Producen el oxígeno que necesita la raíz para respirar."
+    ],
+    "pista": "Son del género Rhizobium.",
+    "explicacion": "Rhizobium fija el nitrógeno atmosférico en simbiosis con las leguminosas: reduce el uso de abonos."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Microorganismos",
+    "titulo": "Pan y vino",
+    "escena": "En la panadería y en la bodega de la expedición se usa el mismo microorganismo.",
+    "pregunta": "¿Cuál es y qué proceso realiza?",
+    "opciones": [
+     "La levadura Saccharomyces: fermentación alcohólica.",
+     "La bacteria Lactobacillus: fermentación láctica.",
+     "El hongo Penicillium: respiración aerobia.",
+     "La bacteria Acetobacter: fermentación acética."
+    ],
+    "pista": "Produce etanol y CO₂.",
+    "explicacion": "Saccharomyces cerevisiae fermenta los azúcares: el CO₂ hace subir el pan y el etanol queda en el vino."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Microorganismos",
+    "titulo": "El primer antibiótico",
+    "escena": "En la sala de historia de la medicina se expone una placa con un moho que mató a unas bacterias.",
+    "pregunta": "¿Qué antibiótico produce y qué tipo de microorganismo es?",
+    "opciones": [
+     "Penicilina; es un hongo (Penicillium).",
+     "Penicilina; es una bacteria (Streptomyces).",
+     "Estreptomicina; es un hongo (Saccharomyces).",
+     "Insulina; es una bacteria (E. coli)."
+    ],
+    "pista": "Su nombre lo dice.",
+    "explicacion": "El hongo Penicillium produce penicilina; muchas bacterias Streptomyces producen otros antibióticos."
+   },
+   {
+    "tipo": "texto",
+    "tema": "Biorremediación",
+    "titulo": "Limpiar con microbios",
+    "escena": "Tras un vertido de petróleo se usan bacterias que degradan los hidrocarburos.",
+    "pregunta": "¿Cómo se llama el uso de seres vivos para recuperar un ecosistema contaminado?",
+    "respuestas": [
+     "biorremediacion"
+    ],
+    "solucion": "Biorremediación.",
+    "pista": "Empieza por «bio-» y significa «remediar».",
+    "explicacion": "La biorremediación usa seres vivos (sobre todo microorganismos) para eliminar contaminantes.",
+    "formato": "Una palabra"
+   }
+  ],
+  "intermedio": [
+   {
+    "tipo": "opciones",
+    "tema": "Teoría celular",
+    "titulo": "Herida que se cierra",
+    "escena": "Tras un corte, la piel se regenera por división de otras células.",
+    "pregunta": "¿Qué principio de la teoría celular ilustra?",
+    "opciones": [
+     "La célula como unidad reproductora (de origen).",
+     "La célula como unidad estructural (morfológica).",
+     "La célula como unidad funcional (fisiológica).",
+     "La célula como unidad genética (hereditaria)."
+    ],
+    "pista": "Toda célula procede de otra.",
+    "explicacion": "Unidad reproductora: las nuevas células proceden de la división de otras.",
+    "fuente": "Inspirado en el modelo de examen PAU 2026"
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Microscopía",
+    "titulo": "Preparar la muestra",
+    "escena": "Queréis ver las crestas de las mitocondrias de un hepatocito.",
+    "pregunta": "¿Qué microscopio y qué muestra necesitáis?",
+    "opciones": [
+     "MET con cortes ultrafinos de células fijadas.",
+     "Microscopio óptico con células vivas sin teñir.",
+     "MEB con la muestra entera recubierta de metal."
+    ],
+    "pista": "Interior de la célula y resolución de nanómetros.",
+    "explicacion": "El MET muestra la ultraestructura interior en cortes ultrafinos; las crestas están por debajo del límite del óptico."
+   },
+   {
+    "tipo": "numero",
+    "tema": "Ciclo celular",
+    "titulo": "ADN en G2",
+    "escena": "Una célula tiene 2C de ADN en G1.",
+    "pregunta": "¿Cuánto ADN tiene en G2? (escribe el número que multiplica a C)",
+    "valor": 4,
+    "tolerancia": 0,
+    "solucion": "4C.",
+    "pista": "En la fase S el ADN se duplica.",
+    "explicacion": "G1 = 2C → S → G2 = 4C; tras la división, cada hija vuelve a 2C.",
+    "formato": "Número"
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Ciclo celular",
+    "titulo": "Punto de control G1/S",
+    "escena": "Una célula no supera el punto de control G1/S.",
+    "pregunta": "¿Qué comprueba ese punto?",
+    "opciones": [
+     "El tamaño, los nutrientes, las señales y que el ADN no esté dañado.",
+     "Que todos los cromosomas estén unidos correctamente a las fibras del huso.",
+     "Que el ADN se haya replicado por completo y sin ningún error.",
+     "Que la citocinesis haya terminado y las dos células se hayan separado."
+    ],
+    "pista": "Es la entrada en la fase S.",
+    "explicacion": "Si no se supera, la célula espera o pasa a G0; el control del huso está en la mitosis y el de la replicación, en G2/M."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Ciclo celular",
+    "titulo": "El guardián del genoma",
+    "escena": "La proteína p53 detecta que el ADN de una célula está dañado.",
+    "pregunta": "¿Qué hace?",
+    "opciones": [
+     "Detiene el ciclo y, si el daño no se repara, provoca la apoptosis.",
+     "Acelera la división para sustituir cuanto antes a la célula dañada.",
+     "Repara siempre el ADN, sea cual sea el daño, sin detener el ciclo."
+    ],
+    "pista": "Es un gen supresor de tumores.",
+    "explicacion": "p53 frena el ciclo y, si no hay reparación posible, lleva a la célula a la muerte programada."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Cáncer",
+    "titulo": "Acelerador pisado",
+    "escena": "Una mutación convierte un protooncogén en oncogén.",
+    "pregunta": "¿Qué efecto tiene?",
+    "opciones": [
+     "Estimula la división de forma continua, aunque no haya señales.",
+     "Frena el ciclo celular de forma permanente y la célula no se divide.",
+     "Hace que la célula entre en apoptosis aunque su ADN esté intacto."
+    ],
+    "pista": "Protooncogén = acelerador del ciclo.",
+    "explicacion": "El oncogén estimula la división continuamente; basta con un alelo mutado."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Cáncer",
+    "titulo": "Genético, no siempre heredado",
+    "escena": "Una persona pregunta si sus hijos heredarán el cáncer de pulmón que le diagnosticaron.",
+    "pregunta": "¿Qué se le debería explicar?",
+    "opciones": [
+     "Casi todas las mutaciones del cáncer son somáticas y no pasan a los hijos.",
+     "Todos los cánceres son hereditarios, porque se deben a mutaciones del ADN.",
+     "El cáncer no tiene ninguna relación con los genes, solo con el ambiente."
+    ],
+    "pista": "Somáticas frente a germinales.",
+    "explicacion": "El cáncer es genético (mutaciones), pero casi siempre las mutaciones son somáticas; solo algunas germinales, como BRCA1, se heredan."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Tratamientos",
+    "titulo": "Efectos del taxol",
+    "escena": "Una paciente tratada con taxol, que bloquea los microtúbulos, pierde el pelo.",
+    "pregunta": "¿Por qué?",
+    "opciones": [
+     "Frena a todas las células que se dividen mucho, como las de la raíz del pelo.",
+     "El taxol disuelve la queratina del pelo y este se cae al poco tiempo.",
+     "El taxol destruye las bacterias de la piel que protegen el folículo piloso."
+    ],
+    "pista": "Sin huso no hay mitosis.",
+    "explicacion": "Sin microtúbulos no hay huso ni mitosis: se frenan el tumor y otras células de división rápida."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Microorganismos y medio ambiente",
+    "titulo": "Reactor biológico",
+    "escena": "En la depuradora, el agua residual pasa por un reactor con aireación.",
+    "pregunta": "¿Qué ocurre allí?",
+    "opciones": [
+     "Bacterias aerobias oxidan la materia orgánica disuelta.",
+     "Algas fotosintéticas fabrican materia orgánica con la luz.",
+     "Arqueas metanógenas producen metano a partir del agua."
+    ],
+    "pista": "La aireación aporta O₂.",
+    "explicacion": "En el tratamiento secundario las bacterias aerobias respiran la materia orgánica y el agua sale más limpia."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Microorganismos y energía",
+    "titulo": "Biogás",
+    "escena": "Los fangos de la depuradora se llevan a un digestor cerrado del que sale biogás.",
+    "pregunta": "¿Qué gas es y quién lo produce?",
+    "opciones": [
+     "Metano, producido por arqueas sin oxígeno.",
+     "Oxígeno, producido por algas fotosintéticas.",
+     "CO₂, producido por levaduras en presencia de O₂."
+    ],
+    "pista": "Digestión anaerobia.",
+    "explicacion": "Las arqueas metanógenas producen metano en ausencia de oxígeno; se usa como combustible."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Microorganismos y medio ambiente",
+    "titulo": "Compost",
+    "escena": "Los restos de poda del jardín se convierten en compost.",
+    "pregunta": "¿Qué hacen los microorganismos?",
+    "opciones": [
+     "Descomponen la materia orgánica en presencia de O₂.",
+     "Fabrican materia orgánica a partir de CO₂.",
+     "Fermentan los restos sin oxígeno hasta etanol."
+    ],
+    "pista": "Hay que voltear el montón para airearlo.",
+    "explicacion": "Bacterias y hongos descomponedores degradan los restos de forma aerobia y forman un abono."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Industria alimentaria",
+    "titulo": "Yogur",
+    "escena": "Se añaden bacterias lácticas a la leche templada.",
+    "pregunta": "¿Por qué espesa la leche?",
+    "opciones": [
+     "El ácido láctico baja el pH y la caseína de la leche coagula.",
+     "Las bacterias fabrican almidón a partir de la lactosa y espesan la leche.",
+     "Las bacterias consumen el agua de la leche y la concentran."
+    ],
+    "pista": "Fermentación láctica.",
+    "explicacion": "La lactosa se fermenta a ácido láctico; la acidez desnaturaliza la caseína, que coagula."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Antibióticos",
+    "titulo": "Resistencias",
+    "escena": "Un antibiótico que antes curaba una infección ya no funciona.",
+    "pregunta": "¿Cómo aparecen las bacterias resistentes?",
+    "opciones": [
+     "Surgen por mutación al azar y el antibiótico las selecciona.",
+     "Las bacterias aprenden a resistir el antibiótico con el uso.",
+     "El antibiótico caduca dentro del cuerpo y deja de hacer efecto."
+    ],
+    "pista": "Mutación + selección.",
+    "explicacion": "Las variantes resistentes ya existen por mutación (o llegan por plásmidos); el antibiótico mata a las sensibles."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Agricultura",
+    "titulo": "Invernaderos de Almería",
+    "escena": "En muchos invernaderos se combaten las orugas con Bacillus thuringiensis.",
+    "pregunta": "¿Por qué?",
+    "opciones": [
+     "Produce una toxina que mata larvas de insectos: es un bioinsecticida.",
+     "Fija el nitrógeno del aire y lo aporta como abono para el cultivo.",
+     "Hace la fotosíntesis y aporta más oxígeno al aire del invernadero."
+    ],
+    "pista": "Control biológico de plagas.",
+    "explicacion": "Su toxina actúa sobre larvas de insectos y reduce el uso de plaguicidas químicos."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Biominería",
+    "titulo": "Río Tinto",
+    "escena": "Las aguas rojizas y ácidas del río Tinto se relacionan con bacterias que oxidan el hierro y el azufre.",
+    "pregunta": "¿Qué aplicación tienen esas bacterias?",
+    "opciones": [
+     "La biolixiviación: liberar metales de minerales pobres.",
+     "La producción industrial de antibióticos como la penicilina.",
+     "La fabricación de yogur y otros productos lácteos.",
+     "La depuración de las aguas residuales de las ciudades."
+    ],
+    "pista": "Oxidan los sulfuros de los minerales.",
+    "explicacion": "En la biolixiviación, bacterias quimiosintéticas oxidan los sulfuros y dejan el cobre en disolución."
+   }
+  ],
+  "pau": [
+   {
+    "tipo": "opciones",
+    "tema": "Modelos celulares",
+    "titulo": "Nutrición desconocida",
+    "escena": "Una célula sin núcleo ni orgánulos membranosos, con ribosomas y pared, aparece en una muestra.",
+    "pregunta": "¿Qué se puede decir de su nutrición?",
+    "opciones": [
+     "Nada con esos datos: hay procariotas autótrofos y heterótrofos.",
+     "Es autótrofa, porque tiene pared celular como las células vegetales.",
+     "Es heterótrofa, porque no tiene cloroplastos donde hacer fotosíntesis."
+    ],
+    "pista": "Es una procariota.",
+    "explicacion": "Una procariota sin más datos puede ser autótrofa (fotosintética o quimiosintética) o heterótrofa.",
+    "fuente": "Inspirado en el modelo de examen PAU 2026"
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Microscopía",
+    "titulo": "Ver ribosomas",
+    "escena": "Un estudiante intenta ver ribosomas con el microscopio del instituto y no lo consigue.",
+    "pregunta": "¿Por qué?",
+    "opciones": [
+     "Miden unos 25 nm, por debajo del límite de resolución del óptico.",
+     "Los ribosomas solo se ven en las células vivas y la muestra estaba fijada.",
+     "Los ribosomas son transparentes y ningún colorante consigue teñirlos."
+    ],
+    "pista": "Compara su tamaño con 0,2 µm.",
+    "explicacion": "Hace falta el microscopio electrónico, cuya resolución llega al orden del nanómetro."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "División celular",
+    "titulo": "Vinblastina",
+    "escena": "La vinblastina impide que se formen los microtúbulos del huso.",
+    "pregunta": "¿Afectaría también a la formación de gametos?",
+    "opciones": [
+     "Sí: sin huso tampoco hay meiosis.",
+     "No: la meiosis no necesita huso.",
+     "No: solo actúa sobre las células tumorales."
+    ],
+    "pista": "La meiosis también reparte cromosomas.",
+    "explicacion": "Sin huso no hay mitosis ni meiosis: también se impediría la formación de gametos.",
+    "fuente": "Inspirado en PAU Andalucía 2011"
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Cáncer",
+    "titulo": "Edad y riesgo",
+    "escena": "El cáncer es mucho más frecuente en personas mayores.",
+    "pregunta": "¿Por qué?",
+    "opciones": [
+     "Hacen falta varias mutaciones en una misma célula y se acumulan con los años.",
+     "Las células de las personas mayores ya no tienen genes supresores de tumores.",
+     "Con la edad el sistema inmunitario desaparece por completo del organismo."
+    ],
+    "pista": "Un cáncer no suele deberse a una sola mutación.",
+    "explicacion": "La acumulación de mutaciones (y de exposición a mutágenos) a lo largo de la vida aumenta el riesgo."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Cáncer",
+    "titulo": "BRCA1",
+    "escena": "En una familia hay varios casos de cáncer de mama y se detecta una mutación en BRCA1 en la línea germinal.",
+    "pregunta": "¿Qué significa?",
+    "opciones": [
+     "Se hereda una predisposición al cáncer, no el cáncer en sí.",
+     "Todos los miembros de la familia tendrán cáncer con seguridad.",
+     "La mutación es somática y por tanto no se transmite a los hijos."
+    ],
+    "pista": "BRCA1 es un gen de reparación del ADN.",
+    "explicacion": "Heredar un alelo alterado aumenta el riesgo: hacen falta más mutaciones para que aparezca el cáncer."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Prevención",
+    "titulo": "Protección solar",
+    "escena": "En una campaña de prevención en Andalucía se pide evitar el sol de las horas centrales.",
+    "pregunta": "¿Qué relación hay entre la radiación UV y el cáncer de piel?",
+    "opciones": [
+     "La UV causa mutaciones que pueden afectar a genes que controlan el ciclo.",
+     "La UV calienta las células de la piel y desnaturaliza todas sus proteínas.",
+     "La UV destruye la melanina y las células se dividen sin parar para reponerla."
+    ],
+    "pista": "Agente mutagénico físico.",
+    "explicacion": "Si las mutaciones afectan a protooncogenes o genes supresores, la célula puede dividirse sin control."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Cáncer",
+    "titulo": "Divisiones sin límite",
+    "escena": "Las células normales se dividen un número limitado de veces; muchas células cancerosas, no.",
+    "pregunta": "¿Qué se lo permite?",
+    "opciones": [
+     "La telomerasa mantiene la longitud de sus telómeros.",
+     "No replican su ADN antes de cada una de sus divisiones.",
+     "Carecen de centrómeros y el huso no puede frenarlas."
+    ],
+    "pista": "Piensa en los extremos de los cromosomas.",
+    "explicacion": "La telomerasa reconstruye los telómeros y permite divisiones indefinidas."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Tratamientos",
+    "titulo": "Defensas bajas",
+    "escena": "Durante la quimioterapia, una paciente tiene pocos glóbulos blancos.",
+    "pregunta": "¿Por qué?",
+    "opciones": [
+     "La médula ósea, que fabrica las células de la sangre, se divide mucho y se afecta.",
+     "Los glóbulos blancos atacan al fármaco como si fuera un antígeno y acaban muriendo.",
+     "El tumor consume los glóbulos blancos de la sangre para obtener nutrientes."
+    ],
+    "pista": "Los fármacos atacan a las células que se dividen.",
+    "explicacion": "La médula ósea tiene mucha división celular: la quimioterapia la frena y bajan las defensas."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Biorremediación",
+    "titulo": "Abonar una playa",
+    "escena": "Tras el vertido del Exxon Valdez se abonaron las playas contaminadas con petróleo.",
+    "pregunta": "¿Para qué?",
+    "opciones": [
+     "Para que las bacterias del lugar que degradan hidrocarburos crecieran más.",
+     "Para que las plantas de la costa absorbieran el petróleo por sus raíces.",
+     "Para que el abono reaccionara con el petróleo y lo neutralizara químicamente."
+    ],
+    "pista": "Las bacterias necesitan nitrógeno y fósforo.",
+    "explicacion": "El abono aporta nutrientes a las bacterias autóctonas, que oxidan los hidrocarburos: biorremediación."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Depuración",
+    "titulo": "Sin aireación",
+    "escena": "Una avería detiene la aireación del reactor biológico de la depuradora.",
+    "pregunta": "¿Qué consecuencia tiene?",
+    "opciones": [
+     "Las bacterias aerobias no pueden oxidar la materia orgánica y el agua sale sucia.",
+     "Las bacterias producen más biogás en el reactor y el agua sale aún más limpia.",
+     "No cambia nada, porque las bacterias del reactor hacen la fotosíntesis con la luz."
+    ],
+    "pista": "El reactor depende de la respiración aerobia.",
+    "explicacion": "Sin O₂ falla la respiración de las bacterias del tratamiento secundario."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Biotecnología",
+    "titulo": "Fermentar, aunque rinda poco",
+    "escena": "La fermentación rinde mucha menos energía que la respiración, pero se usa muchísimo en la industria.",
+    "pregunta": "¿Por qué?",
+    "opciones": [
+     "Lo que interesa son sus productos, como el etanol o el ácido láctico.",
+     "Porque la industria aprovecha la energía que producen los microorganismos.",
+     "Porque los microorganismos fermentadores no necesitan nutrientes."
+    ],
+    "pista": "Fíjate en lo que fabrica el microorganismo.",
+    "explicacion": "Lo determinante son los productos de interés; además, crecen deprisa y son fáciles de cultivar y manipular.",
+    "fuente": "Inspirado en PAU Andalucía 2014"
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Antibióticos",
+    "titulo": "Selectividad",
+    "escena": "La penicilina impide fabricar la pared de peptidoglucano.",
+    "pregunta": "¿Por qué no daña nuestras células?",
+    "opciones": [
+     "Nuestras células no tienen pared de peptidoglucano.",
+     "Nuestras células expulsan la penicilina con bombas de membrana.",
+     "La penicilina solo actúa a temperaturas superiores a 40 ºC."
+    ],
+    "pista": "Busca la diana del antibiótico.",
+    "explicacion": "La pared de peptidoglucano es exclusiva de las bacterias: por eso la penicilina es selectiva.",
+    "fuente": "Inspirado en PAU Andalucía 2017, reserva A"
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Biotecnología",
+    "titulo": "Fábricas vivas",
+    "escena": "Para producir insulina humana se eligen bacterias y levaduras.",
+    "pregunta": "¿Por qué son buenas «fábricas»?",
+    "opciones": [
+     "Crecen muy deprisa, se cultivan con facilidad y se modifican genéticamente bien.",
+     "Fabrican insulina humana de forma natural y en grandes cantidades sin modificarlas.",
+     "No necesitan ningún nutriente para crecer dentro del fermentador industrial."
+    ],
+    "pista": "Piensa en las ventajas de los microorganismos en la industria.",
+    "explicacion": "Crecimiento rápido, pocos requerimientos y fácil manipulación genética."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Conservación de alimentos",
+    "titulo": "Almíbar",
+    "escena": "La sacarosa es un buen alimento para muchos microorganismos, pero el almíbar conserva la fruta.",
+    "pregunta": "¿Cómo es posible?",
+    "opciones": [
+     "El azúcar tan concentrado crea un medio hipertónico que impide su crecimiento.",
+     "El azúcar tan concentrado es tóxico y envenena a los microorganismos.",
+     "El almíbar es tan denso que impide que la luz y el aire lleguen a la fruta."
+    ],
+    "pista": "Pregunta de ósmosis.",
+    "explicacion": "En un medio hipertónico los microorganismos pierden agua por ósmosis y no pueden crecer.",
+    "fuente": "Inspirado en PAU Andalucía 2016, junio"
+   },
+   {
+    "tipo": "orden",
+    "tema": "Cáncer",
+    "titulo": "Historia de un tumor",
+    "escena": "El servicio de oncología reconstruye cómo se desarrolló un cáncer.",
+    "pregunta": "Ordena las etapas:",
+    "elementos": [
+     "Una célula acumula mutaciones en genes que controlan el ciclo",
+     "La célula prolifera sin control",
+     "Se forma un tumor",
+     "El tumor invade los tejidos vecinos",
+     "Las células viajan por la sangre o la linfa y forman metástasis"
+    ],
+    "solucion": "Una célula acumula mutaciones en genes que controlan el ciclo → La célula prolifera sin control → Se forma un tumor → El tumor invade los tejidos vecinos → Las células viajan por la sangre o la linfa y forman metástasis",
+    "pista": "De una célula a otros órganos.",
+    "explicacion": "Mutaciones → proliferación → tumor → invasión → metástasis."
+   }
+  ]
+ }
+};
+
+const NIV = {
+  basico:     { nombre:'🟢 Básico',     tiempo: JUEGO.tiempos?.basico     ?? 900, pistas:3, castigo:0,  intentos:3, desc:'Conceptos y definiciones. 3 pistas, los errores no restan tiempo.' },
+  intermedio: { nombre:'🟡 Intermedio', tiempo: JUEGO.tiempos?.intermedio ?? 720, pistas:2, castigo:20, intentos:3, desc:'Aplicación a casos y problemas. 2 pistas; cada error resta 20 s.' },
+  pau:        { nombre:'🔴 PAU',        tiempo: JUEGO.tiempos?.pau        ?? 600, pistas:1, castigo:45, intentos:2, desc:'Preguntas competenciales y relaciones entre temas. 1 pista; cada error resta 45 s.' }
+};
+let P = null, reloj = null;
+const $ = id => document.getElementById(id);
+const barajar = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+const norm = s => String(s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9ñ ]/g, ' ').replace(/\s+/g, ' ').trim();
+const mmss = t => `${Math.floor(t / 60)}:${String(t % 60).padStart(2, '0')}`;
+const record = (k, v) => { try { const c = 'escape-' + JUEGO.id + '-' + k, p = +localStorage.getItem(c) || 0; if (v !== undefined && v > p) localStorage.setItem(c, v); return Math.max(p, v || 0); } catch (e) { return v || 0; } };
+
+function pintarInicio() {
+  $('intro').innerHTML = JUEGO.intro;
+  $('nSalas').textContent = JUEGO.salas;
+  $('niveles').innerHTML = Object.entries(NIV).map(([k, n]) => `
+    <button class="nivel" onclick="empezar('${k}')"><b>${n.nombre}</b>
+      <small>${n.desc} Tiempo: ${Math.round(n.tiempo / 60)} min. Banco: ${JUEGO.retos[k].length} retos.</small>
+      <em>Tu mejor puntuación: ${record(k)} %</em></button>`).join('');
+}
+
+function ver(id) { document.querySelectorAll('.sala').forEach(s => s.classList.remove('on')); $(id).classList.add('on'); window.scrollTo({ top: 0, behavior: 'smooth' }); }
+
+function empezar(nivel) {
+  const n = NIV[nivel];
+  const retos = barajar(JUEGO.retos[nivel]).slice(0, JUEGO.salas);
+  P = { nivel, n, retos, i: 0, t: n.tiempo, pistas: n.pistas, puntos: 0, estado: [], clave: '' };
+  $('barra').classList.add('on');
+  $('nivelTxt').textContent = n.nombre;
+  clearInterval(reloj);
+  reloj = setInterval(() => { P.t--; pintarBarra(); if (P.t <= 0) { clearInterval(reloj); fin(false); } }, 1000);
+  reto();
+}
+
+function pintarBarra() {
+  $('reloj').textContent = mmss(Math.max(0, P.t));
+  $('reloj').classList.toggle('alerta', P.t <= 60);
+  $('pistasTxt').textContent = P.pistas;
+  $('pips').innerHTML = P.retos.map((_, i) => `<span class="pip ${P.estado[i] || (i === P.i ? 'actual' : '')}"></span>`).join('');
+}
+
+function reto() {
+  if (P.i >= P.retos.length) return fin(true);
+  const r = P.retos[P.i];
+  P.intentos = 0; P.resuelto = false;
+  let cuerpo = '';
+  if (r.tipo === 'opciones') {
+    P.ops = barajar(r.opciones.map((t, k) => ({ t, ok: k === 0 })));
+    cuerpo = P.ops.map((o, k) => `<button class="opc" data-k="${k}" onclick="marcar(${k})">${o.t}</button>`).join('');
+  } else if (r.tipo === 'texto') {
+    cuerpo = `<input type="text" id="resp" placeholder="${r.formato || 'Escribe tu respuesta'}" autocomplete="off" onkeydown="if(event.key==='Enter')comprobar()">`;
+  } else if (r.tipo === 'numero') {
+    cuerpo = `<input type="number" step="any" id="resp" placeholder="${r.formato || 'Número'}" onkeydown="if(event.key==='Enter')comprobar()">`;
+  } else if (r.tipo === 'orden') {
+    P.orden = barajar(r.elementos.map((t, k) => ({ t, k })));
+    const nums = r.elementos.map((_, k) => `<option value="${k}">${k + 1}.º</option>`).join('');
+    cuerpo = P.orden.map((e, k) => `<div class="fila-orden"><span>${e.t}</span><select id="ord${k}"><option value="">—</option>${nums}</select></div>`).join('');
+  }
+  $('s-reto').innerHTML = `
+    <div class="historia"><span class="etiqueta">// RETO ${P.i + 1} DE ${P.retos.length} · ${r.tema}</span>${r.escena}</div>
+    <h2>${r.titulo}</h2>
+    ${r.fuente ? `<span class="fuente">${r.fuente}</span>` : ''}
+    <p class="pregunta">${r.pregunta}</p>
+    <div id="cuerpo">${cuerpo}</div>
+    <div class="botones">
+      <button class="btn btn-p" id="bComprobar" onclick="comprobar()">Comprobar</button>
+      <button class="btn btn-s" id="bPista" onclick="pista()" ${P.pistas > 0 && r.pista ? '' : 'disabled'}>💡 Pista</button>
+    </div>
+    <div class="msg" id="msg"></div>`;
+  pintarBarra();
+  ver('s-reto');
+}
+
+function marcar(k) {
+  if (P.resuelto) return;
+  P.sel = k;
+  document.querySelectorAll('.opc').forEach(b => b.classList.toggle('sel', +b.dataset.k === k));
+}
+
+function evaluar(r) {
+  if (r.tipo === 'opciones') { if (P.sel === undefined) return null; return P.ops[P.sel].ok; }
+  if (r.tipo === 'texto') { const v = norm($('resp').value); if (!v) return null; return r.respuestas.some(a => v.includes(norm(a))) && !(r.rechazar || []).some(a => v.includes(norm(a))); }
+  if (r.tipo === 'numero') { const v = $('resp').value; if (v === '') return null; return Math.abs(+v - r.valor) <= (r.tolerancia || 0); }
+  if (r.tipo === 'orden') {
+    const vals = P.orden.map((_, k) => $('ord' + k).value);
+    if (vals.some(v => v === '')) return null;
+    return P.orden.every((e, k) => +vals[k] === e.k);
+  }
+}
+
+function comprobar() {
+  if (P.resuelto) return;
+  const r = P.retos[P.i];
+  const res = evaluar(r);
+  const m = $('msg');
+  if (res === null) { m.className = 'msg mal'; m.textContent = 'Responde antes de comprobar.'; return; }
+  if (res) {
+    P.resuelto = true;
+    P.estado[P.i] = P.estado[P.i] || 'hecho';
+    if (P.estado[P.i] === 'hecho') P.puntos += P.intentos === 0 ? 2 : 1;
+    P.clave += JUEGO.clave[P.i] || '•';
+    if (r.tipo === 'opciones') document.querySelectorAll('.opc').forEach(b => { b.disabled = true; if (P.ops[+b.dataset.k].ok) b.classList.add('bien'); });
+    m.className = 'msg ok';
+    m.innerHTML = `✅ <b>Correcto.</b> ${r.explicacion}<br><br>🔑 Letra conseguida: <b>${JUEGO.clave[P.i] || '•'}</b>`;
+    siguienteBoton();
+  } else {
+    P.intentos++;
+    P.t = Math.max(1, P.t - P.n.castigo);
+    if (r.tipo === 'opciones' && P.sel !== undefined) document.querySelector(`.opc[data-k="${P.sel}"]`).classList.add('malsel');
+    if (P.intentos >= P.n.intentos) {
+      P.resuelto = true; P.estado[P.i] = 'ayuda';
+      P.clave += JUEGO.clave[P.i] || '•';
+      if (r.tipo === 'opciones') document.querySelectorAll('.opc').forEach(b => { b.disabled = true; if (P.ops[+b.dataset.k].ok) b.classList.add('bien'); });
+      m.className = 'msg mal';
+      m.innerHTML = `❌ Se acabaron los intentos. <b>Solución:</b> ${r.solucion || r.opciones?.[0] || ''}<br>${r.explicacion}<br><br>🔑 Te damos la letra igualmente (reto marcado en naranja): <b>${JUEGO.clave[P.i] || '•'}</b>`;
+      siguienteBoton();
+    } else {
+      m.className = 'msg mal';
+      m.innerHTML = `❌ No es correcto${P.n.castigo ? ` (−${P.n.castigo} s)` : ''}. Te ${P.n.intentos - P.intentos === 1 ? 'queda 1 intento' : 'quedan ' + (P.n.intentos - P.intentos) + ' intentos'}.${r.feedback ? ' ' + r.feedback : ''}`;
+    }
+  }
+  pintarBarra();
+}
+
+function siguienteBoton() {
+  $('bComprobar').textContent = P.i + 1 < P.retos.length ? 'Siguiente reto ▶' : 'Abrir la salida 🔓';
+  $('bComprobar').onclick = () => { P.i++; reto(); };
+  $('bPista').disabled = true;
+}
+
+function pista() {
+  const r = P.retos[P.i];
+  if (P.pistas <= 0 || !r.pista || P.resuelto) return;
+  P.pistas--; P.t = Math.max(1, P.t - 30);
+  const m = $('msg'); m.className = 'msg pista'; m.innerHTML = '💡 ' + r.pista + ' <i>(−30 s)</i>';
+  $('bPista').disabled = true;
+  pintarBarra();
+}
+
+function fin(ok) {
+  clearInterval(reloj);
+  const max = P.retos.length * 2;
+  const pct = ok ? Math.round(P.puntos / max * 100) : 0;
+  const mejor = record(P.nivel, pct);
+  const temas = [...new Set(P.retos.filter((_, i) => P.estado[i] === 'ayuda').map(r => r.tema))];
+  $('s-fin').innerHTML = ok ? `
+      <div class="centro"><h2 style="font-size:1.6rem">${JUEGO.victoria}</h2>
+      <p>Clave de salida:</p><div class="clave">${P.clave}</div>
+      <p>${P.n.nombre} · Puntuación: <b>${P.puntos} / ${max}</b> (${pct} %) · Tiempo sobrante: ${mmss(Math.max(0, P.t))}<br><small>Tu mejor resultado en este nivel: ${mejor} %</small></p></div>
+      <div class="historia"><span class="etiqueta">// QUÉ REPASAR</span>${temas.length ? '<ul class="resumen">' + temas.map(t => `<li>${t}</li>`).join('') + '</ul>' : 'Has resuelto todos los retos sin agotar los intentos. ¡Prueba el nivel siguiente!'}</div>`
+    : `<div class="centro"><h2 style="font-size:1.6rem;color:var(--mal)">⏳ Tiempo agotado</h2><p>${JUEGO.derrota}</p></div>`;
+  $('s-fin').innerHTML += `<div class="botones" style="justify-content:center"><button class="btn btn-p" onclick="volver()">🔄 Jugar otra vez (otros retos)</button></div>`;
+  ver('s-fin');
+}
+
+function volver() { clearInterval(reloj); $('barra').classList.remove('on'); pintarInicio(); ver('s-inicio'); }
+pintarInicio();
+</script>
+</body>
+</html>

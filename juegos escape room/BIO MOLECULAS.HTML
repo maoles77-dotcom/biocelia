@@ -1,0 +1,1722 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Escape Room Biomoléculas PAU — El Laboratorio del Dr. Carbono. BioCelia 2026-27.">
+<title>El Laboratorio del Dr. Carbono · BioCelia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700&family=Nunito:wght@400;600;700;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --primary:#0284c7;--primary-hv:#0369a1;--red:#dc2626;--green:#16a34a;
+  --amber:#d97706;--purple:#7c3aed;--text-dark:#0f172a;--muted:#64748b;
+  --surface:rgba(255,255,255,0.96);--panel:#f8fafc;--border:#e2e8f0;
+  --via-a:#0284c7;--via-b:#d97706;--via-c:#16a34a;--via-d:#7c3aed;
+  --mono:'Courier Prime','Courier New',monospace;
+  --sans:'Nunito',system-ui,sans-serif;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:var(--sans);
+  background-image:url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1920&q=80');
+  background-size:cover;background-position:center;background-attachment:fixed;
+  color:var(--text-dark);display:flex;justify-content:center;align-items:flex-start;
+  min-height:100vh;padding:20px;
+}
+.container{
+  position:relative;max-width:860px;width:100%;background:var(--surface);
+  backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-radius:18px;
+  box-shadow:0 25px 60px rgba(0,0,0,.55),0 0 0 1px rgba(255,255,255,.6);
+  border:1px solid rgba(255,255,255,.7);overflow:hidden;
+}
+.top-bar{
+  background:var(--text-dark);padding:10px 20px;
+  display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;
+  border-radius:18px 18px 0 0;
+}
+.top-left{display:flex;align-items:center;gap:10px;}
+.sdot{width:8px;height:8px;border-radius:50%;background:#4ade80;box-shadow:0 0 6px #4ade80;animation:blink 2s infinite;}
+.top-label{font-family:var(--mono);font-size:.68rem;color:#94a3b8;letter-spacing:.1em;text-transform:uppercase;}
+.top-label strong{color:#7dd3fc;}
+#timer-display{
+  font-family:var(--mono);font-size:1.4rem;font-weight:bold;color:#f1f5f9;
+  letter-spacing:.08em;display:none;padding:6px 18px;
+  background:#1e293b;border:2px solid #334155;border-radius:30px;
+}
+#timer-display.urgent{color:#fca5a5;border-color:#ef4444;animation:timerPulse 1s infinite;}
+.progress-wrap{display:none;align-items:center;gap:8px;}
+.progress-wrap.visible{display:flex;}
+.prog-label{font-family:var(--mono);font-size:.62rem;color:#94a3b8;letter-spacing:.08em;white-space:nowrap;}
+.prog-track{width:72px;height:4px;background:#334155;border-radius:2px;overflow:hidden;}
+.prog-fill{height:100%;border-radius:2px;transition:width .5s ease;background:#38bdf8;}
+.hint-counter{font-family:var(--mono);font-size:.62rem;color:#fbbf24;}
+.room-inner{padding:32px 36px 36px;}
+.room{display:none;}
+.room.active{display:block;animation:fadeIn .4s ease;}
+@keyframes fadeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
+@keyframes timerPulse{0%,100%{opacity:1}50%{opacity:.5}}
+@keyframes glow{0%,100%{box-shadow:0 0 0 0 rgba(22,163,74,.2)}50%{box-shadow:0 0 0 8px rgba(22,163,74,0)}}
+@keyframes shake{0%,100%{transform:translateX(0)}25%{transform:translateX(-6px)}75%{transform:translateX(6px)}}
+.room-tag{font-family:var(--mono);font-size:.65rem;color:var(--muted);letter-spacing:.15em;text-transform:uppercase;margin-bottom:6px;}
+.room-title{font-family:var(--sans);font-size:clamp(1.3rem,3vw,1.8rem);font-weight:900;color:var(--text-dark);margin-bottom:18px;line-height:1.15;text-transform:uppercase;letter-spacing:.02em;}
+.room-title .acc-a{color:var(--via-a);}.room-title .acc-b{color:var(--via-b);}
+.room-title .acc-c{color:var(--via-c);}.room-title .acc-d{color:var(--via-d);}
+.terminal{background:#1e293b;border-left:5px solid #38bdf8;border-radius:8px;padding:16px 20px;margin-bottom:22px;}
+.terminal-header{font-family:var(--mono);font-size:.65rem;color:#38bdf8;letter-spacing:.1em;margin-bottom:8px;opacity:.85;}
+.terminal-body{font-family:var(--mono);font-size:.88rem;line-height:1.65;color:#cbd5e1;}
+.terminal-body .hl{color:#38bdf8;font-weight:bold;}.terminal-body .warn{color:#fbbf24;}
+.terminal-body .err{color:#f87171;}.terminal-body .ok{color:#4ade80;}
+.question-block{background:rgba(2,132,199,.05);border:1px solid var(--border);border-radius:10px;padding:20px 22px;margin-bottom:18px;}
+.question-label{font-size:1.02rem;font-weight:600;color:var(--text-dark);line-height:1.6;margin-bottom:14px;}
+.question-label .verb{color:var(--amber);font-style:italic;font-weight:700;}
+select,input[type="text"],input[type="number"]{
+  width:100%;padding:12px 14px;background:white;border:2px solid var(--border);
+  border-radius:8px;font-family:var(--sans);font-size:.97rem;color:var(--text-dark);transition:border-color .2s;
+}
+select:focus,input:focus{outline:none;border-color:var(--primary);box-shadow:0 0 0 3px rgba(2,132,199,.15);}
+select option{background:white;color:var(--text-dark);}
+.btn-row{display:flex;gap:10px;margin-top:20px;}
+.btn-action{
+  flex:3;padding:15px 24px;background:var(--primary);color:white;border:none;border-radius:8px;
+  font-family:var(--sans);font-weight:700;font-size:1rem;cursor:pointer;
+  transition:background .2s,transform .15s,box-shadow .2s;box-shadow:0 4px 12px rgba(2,132,199,.3);
+}
+.btn-action:hover{background:var(--primary-hv);transform:translateY(-1px);}
+.btn-action:focus-visible{outline:3px solid var(--primary);outline-offset:2px;}
+.btn-b{background:var(--via-b);box-shadow:0 4px 12px rgba(217,119,6,.3);}
+.btn-b:hover{background:#b45309;}
+.btn-c{background:var(--via-c);box-shadow:0 4px 12px rgba(22,163,74,.3);}
+.btn-c:hover{background:#15803d;}
+.btn-d{background:var(--via-d);box-shadow:0 4px 12px rgba(124,58,237,.3);}
+.btn-d:hover{background:#6d28d9;}
+.btn-hint{
+  flex:1;padding:15px;background:#f8fafc;color:var(--text-dark);border:2px solid var(--border);
+  border-radius:8px;font-family:var(--sans);font-weight:700;font-size:.88rem;cursor:pointer;transition:all .2s;
+}
+.btn-hint:hover{background:#e2e8f0;border-color:#94a3b8;}
+.btn-hint:focus-visible{outline:3px solid var(--amber);outline-offset:2px;}
+.btn-hint:disabled{opacity:.35;cursor:not-allowed;}
+.msg-box{font-size:.92rem;font-weight:600;padding:14px 18px;border-radius:8px;margin-top:14px;display:none;line-height:1.55;text-align:center;}
+.msg-error{background:#fee2e2;color:var(--red);border:1px solid #fca5a5;animation:shake .3s ease;}
+.msg-success{background:#dcfce7;color:var(--green);border:1px solid #86efac;animation:glow 1.5s infinite;}
+.hint-box{
+  background:#fef9c3;color:#854d0e;border-left:4px solid #eab308;border-radius:0 8px 8px 0;
+  padding:14px 16px;margin-top:14px;font-family:var(--mono);font-size:.85rem;font-style:italic;line-height:1.65;display:none;
+}
+.hint-box::before{content:'💡 PISTA — ';font-style:normal;font-weight:bold;opacity:.85;}
+.molecule-wrap{background:white;border:2px solid var(--border);border-radius:12px;padding:20px;margin-bottom:18px;text-align:center;}
+.molecule-wrap svg{max-width:100%;height:auto;display:block;margin:0 auto 16px;}
+.mol-gap-row{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:8px;}
+.mol-gap-item{display:flex;flex-direction:column;align-items:center;gap:4px;}
+.mol-gap-label{font-family:var(--mono);font-size:.7rem;color:var(--muted);letter-spacing:.06em;}
+.mol-gap-item select{width:auto;min-width:130px;font-size:.85rem;padding:8px 10px;}
+.hotspot-wrap{background:white;border:2px solid var(--border);border-radius:12px;padding:16px;margin-bottom:18px;}
+.hotspot-legend{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:8px;margin-top:10px;}
+.hs-legend-item{display:flex;align-items:center;gap:8px;background:var(--panel);border:1px solid var(--border);border-radius:6px;padding:7px 10px;font-size:.82rem;}
+.hs-num{width:22px;height:22px;border-radius:50%;background:var(--primary);color:white;font-family:var(--mono);font-size:.68rem;font-weight:bold;display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+.hs-select{flex:1;min-width:0;font-size:.82rem;padding:5px 8px;border:1px solid var(--border);border-radius:6px;background:white;}
+.chart-wrap{background:white;border:2px solid var(--border);border-radius:12px;padding:18px;margin-bottom:18px;}
+.chart-wrap svg{max-width:100%;height:auto;display:block;margin:0 auto 14px;}
+.chart-questions{display:flex;flex-direction:column;gap:12px;}
+.chart-q{background:var(--panel);border:1px solid var(--border);border-radius:8px;padding:12px 16px;}
+.chart-q-label{font-size:.9rem;font-weight:600;color:var(--text-dark);margin-bottom:8px;line-height:1.5;}
+.chart-q-label .verb{color:var(--amber);font-style:italic;}
+.data-table{width:100%;border-collapse:collapse;font-family:var(--mono);font-size:.8rem;margin-bottom:14px;border-radius:8px;overflow:hidden;border:1px solid var(--border);}
+.data-table th{background:#0f172a;color:#7dd3fc;padding:9px 14px;text-align:left;font-size:.72rem;letter-spacing:.06em;}
+.data-table td{padding:8px 14px;border-top:1px solid var(--border);color:var(--text-dark);background:white;}
+.data-table tr:nth-child(even) td{background:#f8fafc;}
+.data-table .hi{color:var(--green);font-weight:bold;}.data-table .lo{color:var(--red);font-weight:bold;}
+.data-table .em{color:var(--primary);font-weight:bold;}
+.mech-label{display:inline-flex;align-items:center;gap:6px;background:#f1f5f9;border:1px solid var(--border);border-radius:20px;padding:4px 12px;font-family:var(--mono);font-size:.65rem;color:var(--muted);letter-spacing:.06em;text-transform:uppercase;margin-bottom:14px;}
+.intro-logo{text-align:center;margin-bottom:28px;padding-bottom:24px;border-bottom:2px solid var(--border);}
+.intro-logo .ucg{font-family:var(--mono);font-size:.7rem;letter-spacing:.22em;color:var(--primary);opacity:.8;margin-bottom:8px;text-transform:uppercase;}
+.intro-logo h1{font-family:var(--sans);font-size:clamp(1.8rem,5vw,2.6rem);font-weight:900;color:var(--text-dark);letter-spacing:-.01em;line-height:1.05;text-transform:uppercase;}
+.intro-logo h1 em{font-style:normal;color:var(--primary);}
+.intro-logo p{margin-top:8px;color:var(--muted);font-size:.9rem;font-style:italic;}
+.briefing{background:#eff6ff;border:1px solid #bfdbfe;border-left:4px solid var(--primary);padding:16px 20px;border-radius:0 10px 10px 0;margin-bottom:28px;font-size:.95rem;line-height:1.7;color:var(--text-dark);}
+.briefing strong{color:var(--primary);}
+.mission-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;}
+.mission-card{background:white;border:2px solid var(--border);border-radius:12px;padding:22px 16px;text-align:center;cursor:pointer;transition:all .25s;position:relative;overflow:hidden;}
+.mission-card::after{content:'';position:absolute;bottom:0;left:0;right:0;height:4px;transition:opacity .25s;opacity:0;}
+.mc-a::after{background:var(--via-a);}.mc-b::after{background:var(--via-b);}
+.mc-c::after{background:var(--via-c);}.mc-d::after{background:var(--via-d);}
+.mission-card:hover{transform:translateY(-5px);box-shadow:0 8px 24px rgba(0,0,0,.1);}
+.mission-card:hover::after{opacity:1;}
+.mc-a:hover{border-color:var(--via-a);}.mc-b:hover{border-color:var(--via-b);}
+.mc-c:hover{border-color:var(--via-c);}.mc-d:hover{border-color:var(--via-d);}
+.card-icon{font-size:2.4rem;margin-bottom:10px;display:block;}
+.card-code{font-family:var(--mono);font-size:.6rem;letter-spacing:.16em;color:var(--muted);margin-bottom:4px;text-transform:uppercase;}
+.card-title{font-size:1.05rem;font-weight:900;margin-bottom:7px;text-transform:uppercase;letter-spacing:.02em;}
+.mc-a .card-title{color:var(--via-a);}.mc-b .card-title{color:var(--via-b);}
+.mc-c .card-title{color:var(--via-c);}.mc-d .card-title{color:var(--via-d);}
+.card-desc{font-size:.8rem;color:var(--muted);line-height:1.5;}
+.card-steps{margin-top:10px;font-family:var(--mono);font-size:.62rem;color:#94a3b8;letter-spacing:.08em;}
+.mech-badges{display:flex;gap:5px;justify-content:center;margin-top:10px;flex-wrap:wrap;}
+.mech-badge{font-size:.58rem;font-weight:700;padding:2px 7px;border-radius:10px;background:#f1f5f9;color:var(--muted);border:1px solid var(--border);font-family:var(--mono);}
+.result-screen{text-align:center;padding:20px 0;}
+.result-icon{font-size:4.5rem;margin-bottom:12px;}
+.result-title{font-family:var(--sans);font-size:clamp(1.6rem,4vw,2.4rem);font-weight:900;letter-spacing:-.01em;text-transform:uppercase;margin-bottom:8px;}
+.victory-title{color:var(--green);}.gameover-title{color:var(--red);}
+.result-subtitle{font-family:var(--mono);font-size:.85rem;color:var(--primary);margin-bottom:20px;letter-spacing:.05em;}
+.time-badge{display:inline-block;font-family:var(--mono);font-size:1.05rem;font-weight:bold;color:var(--text-dark);background:#e2e8f0;border:1px solid #cbd5e1;padding:10px 24px;border-radius:30px;margin-bottom:24px;letter-spacing:.04em;}
+.edu-feedback{background:#f8fafc;border:1px solid var(--border);border-radius:10px;border-left:4px solid var(--green);padding:18px 22px;text-align:left;margin-bottom:20px;}
+.edu-feedback h4{font-family:var(--mono);font-size:.68rem;color:var(--green);letter-spacing:.12em;text-transform:uppercase;margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid var(--border);}
+.edu-item{display:flex;gap:10px;align-items:flex-start;font-size:.9rem;color:var(--text-dark);line-height:1.6;margin-bottom:8px;}
+.edu-item::before{content:'→';color:var(--green);font-weight:bold;flex-shrink:0;margin-top:2px;}
+.btn-reset{width:100%;padding:15px;background:#475569;color:white;border:none;border-radius:8px;font-family:var(--sans);font-weight:700;font-size:1rem;cursor:pointer;transition:background .2s;}
+.btn-reset:hover{background:#334155;}
+.btn-reset:focus-visible{outline:3px solid var(--primary);outline-offset:2px;}
+@media(max-width:680px){.room-inner{padding:20px;}.mission-grid{grid-template-columns:1fr;}.btn-row{flex-direction:column;}.hotspot-legend{grid-template-columns:1fr;}}
+</style>
+</head>
+<body>
+<div class="container" role="main">
+<div class="top-bar">
+  <div class="top-left">
+    <div class="sdot" aria-hidden="true"></div>
+    <span class="top-label">LAB. DEL <strong>Dr. Carbono</strong> · Biomoléculas PAU</span>
+  </div>
+  <div class="progress-wrap" id="progressWrap">
+    <span class="prog-label" id="progLabel">FASE 0/4</span>
+    <div class="prog-track"><div class="prog-fill" id="progFill" style="width:0%"></div></div>
+    <span class="hint-counter" id="hintCounter">💡 3</span>
+  </div>
+  <div id="timer-display" role="timer" aria-live="off">12:00</div>
+</div>
+<div class="room-inner">
+
+<!-- ══ INTRO ══ -->
+<div id="intro" class="room active">
+  <div class="intro-logo">
+    <p class="ucg">// SISTEMA ACTIVO · LABORATORIO 4B</p>
+    <h1>El Laboratorio del <em>Dr. Carbono</em></h1>
+    <p>Escape Room de Biomoléculas · PAU Biología Andalucía 2026-27</p>
+  </div>
+  <div class="briefing">
+    El Dr. Carbono ha desaparecido dejando <strong>cuatro expedientes sin resolver</strong>. Tienes <strong>12 minutos</strong>. Cada pista cuesta <strong>30 segundos</strong>. Cada expediente combina tres mecánicas: <strong>📐 completar moléculas</strong>, <strong>🔍 identificar estructuras</strong> e <strong>📈 interpretar gráficas</strong>.
+  </div>
+  <div class="mission-grid" role="list">
+    <div class="mission-card mc-a" onclick="startPath('A')" tabindex="0" role="listitem">
+      <span class="card-icon">🔵</span>
+      <p class="card-code">EXP-ALFA · ★★★</p>
+      <h2 class="card-title">Proteínas y Enzimas</h2>
+      <p class="card-desc">Aminoácidos, niveles estructurales, cinética enzimática y desnaturalización.</p>
+      <div class="mech-badges">
+        <span class="mech-badge">📐 Molécula</span>
+        <span class="mech-badge">🔍 Imagen</span>
+        <span class="mech-badge">📈 Gráfica</span>
+        <span class="mech-badge">🧮 Razonamiento</span>
+      </div>
+    </div>
+    <div class="mission-card mc-b" onclick="startPath('B')" tabindex="0" role="listitem">
+      <span class="card-icon">🟡</span>
+      <p class="card-code">EXP-BETA · ★★☆</p>
+      <h2 class="card-title">Lípidos y Membranas</h2>
+      <p class="card-desc">Triglicéridos, fosfolípidos, membrana plasmática y osmosis.</p>
+      <div class="mech-badges">
+        <span class="mech-badge">📐 Molécula</span>
+        <span class="mech-badge">🔍 Imagen</span>
+        <span class="mech-badge">📈 Gráfica</span>
+        <span class="mech-badge">🧮 Razonamiento</span>
+      </div>
+    </div>
+    <div class="mission-card mc-c" onclick="startPath('C')" tabindex="0" role="listitem">
+      <span class="card-icon">🟢</span>
+      <p class="card-code">EXP-GAMMA · ★☆☆</p>
+      <h2 class="card-title">Glúcidos</h2>
+      <p class="card-desc">Glucosa en anillo, digestión del almidón, glucemia y cálculo de enlaces.</p>
+      <div class="mech-badges">
+        <span class="mech-badge">📐 Molécula</span>
+        <span class="mech-badge">🔍 Imagen</span>
+        <span class="mech-badge">📈 Gráfica</span>
+        <span class="mech-badge">🧮 Cálculo</span>
+      </div>
+    </div>
+    <div class="mission-card mc-d" onclick="startPath('D')" tabindex="0" role="listitem">
+      <span class="card-icon">🟣</span>
+      <p class="card-code">EXP-DELTA · ★★★</p>
+      <h2 class="card-title">Ácidos Nucleicos</h2>
+      <p class="card-desc">Nucleótidos, doble hélice, Tm/GC%, Chargaff y replicación semiconservativa.</p>
+      <div class="mech-badges">
+        <span class="mech-badge">📐 Molécula</span>
+        <span class="mech-badge">🔍 Imagen</span>
+        <span class="mech-badge">📈 Gráfica</span>
+        <span class="mech-badge">🧮 Cálculo</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ════════ VÍA A — PROTEÍNAS ════════ -->
+<!-- A1: Completar aminoácido SVG -->
+<div id="A1" class="room">
+  <p class="room-tag">EXP-ALFA · FASE 1/4</p>
+  <span class="mech-label">📐 Completa la molécula</span>
+  <h2 class="room-title"><span class="acc-a">ALFA-1</span> — El Aminoácido Incompleto</h2>
+  <div class="terminal">
+    <p class="terminal-header">> MUESTRA DAÑADA — GRUPOS FUNCIONALES BORRADOS</p>
+    <p class="terminal-body">El espectrómetro ha borrado los grupos funcionales del aminoácido. <span class="warn">Reconstruye los grupos que flanquean el carbono alfa para sintetizar la proteína estructural.</span></p>
+  </div>
+  <div class="molecule-wrap">
+    <svg viewBox="0 0 440 200" xmlns="http://www.w3.org/2000/svg">
+      <!-- Carbono alfa -->
+      <circle cx="220" cy="100" r="20" fill="#dbeafe" stroke="#0284c7" stroke-width="2.5"/>
+      <text x="220" y="106" text-anchor="middle" font-family="Courier Prime,monospace" font-size="13" font-weight="bold" fill="#0f172a">Cα</text>
+      <!-- H arriba -->
+      <line x1="220" y1="80" x2="220" y2="52" stroke="#475569" stroke-width="2"/>
+      <text x="220" y="46" text-anchor="middle" font-family="Courier Prime,monospace" font-size="14" fill="#475569">H</text>
+      <!-- Radical R abajo -->
+      <line x1="220" y1="120" x2="220" y2="155" stroke="#475569" stroke-width="2"/>
+      <rect x="200" y="155" width="40" height="22" rx="5" fill="#fef9c3" stroke="#eab308" stroke-width="2"/>
+      <text x="220" y="171" text-anchor="middle" font-family="Courier Prime,monospace" font-size="13" font-weight="bold" fill="#854d0e">R</text>
+      <!-- Hueco izquierda → grupo amino -->
+      <line x1="200" y1="100" x2="138" y2="100" stroke="#475569" stroke-width="2"/>
+      <rect x="96" y="83" width="44" height="34" rx="7" fill="#fee2e2" stroke="#dc2626" stroke-width="2.5" stroke-dasharray="5"/>
+      <text x="118" y="105" text-anchor="middle" font-family="Courier Prime,monospace" font-size="15" font-weight="bold" fill="#dc2626">①</text>
+      <!-- Hueco derecha → grupo carboxilo -->
+      <line x1="240" y1="100" x2="302" y2="100" stroke="#475569" stroke-width="2"/>
+      <rect x="302" y="83" width="44" height="34" rx="7" fill="#fee2e2" stroke="#dc2626" stroke-width="2.5" stroke-dasharray="5"/>
+      <text x="324" y="105" text-anchor="middle" font-family="Courier Prime,monospace" font-size="15" font-weight="bold" fill="#dc2626">②</text>
+    </svg>
+    <p style="font-size:.83rem;color:var(--muted);text-align:center;margin-bottom:14px;font-style:italic;">Selecciona el grupo químico que corresponde a ① (izquierda) y ② (derecha) del Cα.</p>
+    <div class="mol-gap-row">
+      <div class="mol-gap-item">
+        <span class="mol-gap-label">① POSICIÓN IZQUIERDA</span>
+        <select id="A1-g1">
+          <option value="">Selecciona...</option>
+          <option value="ok">—NH₂ (grupo amino)</option>
+          <option value="e1">—COOH (grupo carboxilo)</option>
+          <option value="e2">—OH (grupo hidroxilo)</option>
+          <option value="e3">—PO₄ (grupo fosfato)</option>
+        </select>
+      </div>
+      <div class="mol-gap-item">
+        <span class="mol-gap-label">② POSICIÓN DERECHA</span>
+        <select id="A1-g2">
+          <option value="">Selecciona...</option>
+          <option value="e1">—NH₂ (grupo amino)</option>
+          <option value="ok">—COOH (grupo carboxilo)</option>
+          <option value="e2">—CHO (grupo aldehído)</option>
+          <option value="e3">—SH (grupo tiol)</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div class="btn-row">
+    <button class="btn-action" onclick="checkA1()"><span>▶ Reconstruir aminoácido</span></button>
+    <button class="btn-hint" onclick="useHint('hA1')" id="hbA1">💡 Pista (−30s)</button>
+  </div>
+  <div id="hA1" class="hint-box">El aminoácido tiene cuatro grupos en el Cα: H, radical R variable, un grupo BÁSICO con nitrógeno (capta H⁺) y un grupo ÁCIDO con oxígeno (cede H⁺). Por convenio el básico queda a la izquierda. En el ribosoma, el enlace peptídico se forma entre el —COOH de un aminoácido y el —NH₂ del siguiente.</div>
+  <div id="mA1" class="msg-box" role="alert"></div>
+</div>
+
+<!-- A2: Hotspot niveles estructurales -->
+<div id="A2" class="room">
+  <p class="room-tag">EXP-ALFA · FASE 2/4</p>
+  <span class="mech-label">🔍 Identifica en la imagen</span>
+  <h2 class="room-title"><span class="acc-a">ALFA-2</span> — Los Cuatro Niveles</h2>
+  <div class="terminal">
+    <p class="terminal-header">> ESCÁNER PROTEÍNA — NIVELES ESTRUCTURALES SIN ETIQUETAR</p>
+    <p class="terminal-body">El software numeró las cuatro estructuras pero borró sus nombres. <span class="hl">Asigna el nivel correcto a cada número</span> para que el sistema pueda plegar la proteína.</p>
+  </div>
+  <div class="hotspot-wrap">
+    <div style="max-width:520px;margin:0 auto 14px;">
+      <svg viewBox="0 0 520 170" xmlns="http://www.w3.org/2000/svg">
+        <rect width="520" height="170" fill="#f8fafc" rx="8"/>
+        <!-- 1ª: cadena lineal -->
+        <text x="28" y="18" font-size="11" fill="#64748b" font-family="Courier Prime,monospace" font-weight="bold">①</text>
+        <circle cx="22" cy="50" r="7" fill="#0284c7"/><circle cx="38" cy="50" r="7" fill="#0369a1"/>
+        <circle cx="54" cy="50" r="7" fill="#0284c7"/><circle cx="70" cy="50" r="7" fill="#0369a1"/>
+        <circle cx="86" cy="50" r="7" fill="#0284c7"/>
+        <line x1="22" y1="50" x2="86" y2="50" stroke="#0284c7" stroke-width="2.5"/>
+        <text x="54" y="75" text-anchor="middle" font-size="9" fill="#475569" font-family="Nunito,sans-serif">aa–aa–aa–aa</text>
+        <!-- 2ª: hélice alfa -->
+        <text x="145" y="18" font-size="11" fill="#64748b" font-family="Courier Prime,monospace" font-weight="bold">②</text>
+        <path d="M138,35 Q148,25 158,35 Q168,45 178,35 Q188,25 198,35 Q208,45 218,35 Q228,25 238,35" fill="none" stroke="#7c3aed" stroke-width="2.5"/>
+        <path d="M138,55 Q148,45 158,55 Q168,65 178,55 Q188,45 198,55 Q208,65 218,55 Q228,45 238,55" fill="none" stroke="#7c3aed" stroke-width="2.5"/>
+        <text x="188" y="80" text-anchor="middle" font-size="9" fill="#475569" font-family="Nunito,sans-serif">Hélice / lámina β</text>
+        <!-- 3ª: ovillo plegado -->
+        <text x="280" y="18" font-size="11" fill="#64748b" font-family="Courier Prime,monospace" font-weight="bold">③</text>
+        <path d="M278,90 Q298,38 328,68 Q348,95 340,122 Q325,145 302,130 Q278,115 278,90Z" fill="none" stroke="#d97706" stroke-width="2.5"/>
+        <path d="M288,78 Q318,52 335,82 Q345,108 325,122" fill="none" stroke="#d97706" stroke-width="2" stroke-dasharray="3"/>
+        <text x="308" y="155" text-anchor="middle" font-size="9" fill="#475569" font-family="Nunito,sans-serif">Conf. 3D</text>
+        <!-- 4ª: varias subunidades -->
+        <text x="392" y="18" font-size="11" fill="#64748b" font-family="Courier Prime,monospace" font-weight="bold">④</text>
+        <ellipse cx="408" cy="78" rx="20" ry="30" fill="none" stroke="#16a34a" stroke-width="2.5"/>
+        <ellipse cx="438" cy="73" rx="18" ry="27" fill="none" stroke="#16a34a" stroke-width="2.5"/>
+        <ellipse cx="423" cy="108" rx="17" ry="21" fill="none" stroke="#16a34a" stroke-width="2" stroke-dasharray="3"/>
+        <text x="423" y="148" text-anchor="middle" font-size="9" fill="#475569" font-family="Nunito,sans-serif">Subunidades</text>
+      </svg>
+    </div>
+    <div class="hotspot-legend" id="lgA2">
+      <div class="hs-legend-item"><div class="hs-num">①</div>
+        <select class="hs-select" id="hA2-1">
+          <option value="">Seleccionar nivel...</option>
+          <option value="1">Estructura primaria</option><option value="2">Estructura secundaria</option>
+          <option value="3">Estructura terciaria</option><option value="4">Estructura cuaternaria</option>
+        </select>
+      </div>
+      <div class="hs-legend-item"><div class="hs-num">②</div>
+        <select class="hs-select" id="hA2-2">
+          <option value="">Seleccionar nivel...</option>
+          <option value="1">Estructura primaria</option><option value="2">Estructura secundaria</option>
+          <option value="3">Estructura terciaria</option><option value="4">Estructura cuaternaria</option>
+        </select>
+      </div>
+      <div class="hs-legend-item"><div class="hs-num">③</div>
+        <select class="hs-select" id="hA2-3">
+          <option value="">Seleccionar nivel...</option>
+          <option value="1">Estructura primaria</option><option value="2">Estructura secundaria</option>
+          <option value="3">Estructura terciaria</option><option value="4">Estructura cuaternaria</option>
+        </select>
+      </div>
+      <div class="hs-legend-item"><div class="hs-num">④</div>
+        <select class="hs-select" id="hA2-4">
+          <option value="">Seleccionar nivel...</option>
+          <option value="1">Estructura primaria</option><option value="2">Estructura secundaria</option>
+          <option value="3">Estructura terciaria</option><option value="4">Estructura cuaternaria</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div class="btn-row">
+    <button class="btn-action" onclick="checkA2()"><span>▶ Plegar proteína</span></button>
+    <button class="btn-hint" onclick="useHint('hA2')" id="hbA2">💡 Pista (−30s)</button>
+  </div>
+  <div id="hA2" class="hint-box">1ª = secuencia lineal de aa unidos por enlace peptídico. 2ª = hélices α o láminas β estabilizadas por puentes de H entre átomos del esqueleto. 3ª = plegamiento 3D completo de una sola cadena (interacciones entre radicales R). 4ª = unión de varias cadenas ya plegadas, como la hemoglobina (4 subunidades).</div>
+  <div id="mA2" class="msg-box" role="alert"></div>
+</div>
+
+<!-- A3: Gráfica Michaelis-Menten inhibición competitiva -->
+<div id="A3" class="room">
+  <p class="room-tag">EXP-ALFA · FASE 3/4</p>
+  <span class="mech-label">📈 Interpreta la gráfica</span>
+  <h2 class="room-title"><span class="acc-a">ALFA-3</span> — El Enzima Bloqueado</h2>
+  <div class="terminal">
+    <p class="terminal-header">> CINÉTICA ENZIMÁTICA · DOS CONDICIONES EXPERIMENTALES</p>
+    <p class="terminal-body">La enzima X se ha ensayado con (naranja ···) y sin (azul —) un compuesto sospechoso. <span class="warn">Analiza las curvas de Michaelis-Menten para identificar el tipo de inhibición.</span></p>
+  </div>
+  <div class="chart-wrap">
+    <svg viewBox="0 0 480 230" xmlns="http://www.w3.org/2000/svg">
+      <rect width="480" height="230" fill="white"/>
+      <line x1="55" y1="195" x2="445" y2="195" stroke="#475569" stroke-width="2"/>
+      <line x1="55" y1="195" x2="55" y2="18" stroke="#475569" stroke-width="2"/>
+      <text x="250" y="222" text-anchor="middle" font-size="11" fill="#475569" font-family="Nunito,sans-serif">[S] Concentración de sustrato →</text>
+      <text x="14" y="107" text-anchor="middle" font-size="11" fill="#475569" font-family="Nunito,sans-serif" transform="rotate(-90,14,107)">Velocidad (v) →</text>
+      <!-- Vmax -->
+      <line x1="55" y1="48" x2="445" y2="48" stroke="#0284c7" stroke-width="1" stroke-dasharray="5,4"/>
+      <text x="448" y="51" font-size="9" fill="#0284c7" font-family="Courier Prime,monospace">Vmax</text>
+      <!-- Vmax/2 -->
+      <line x1="55" y1="122" x2="445" y2="122" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3"/>
+      <text x="448" y="125" font-size="9" fill="#94a3b8" font-family="Courier Prime,monospace">Vmax/2</text>
+      <!-- Curva azul sin inhibidor -->
+      <path d="M55,195 Q120,100 195,65 Q295,50 445,49" fill="none" stroke="#0284c7" stroke-width="3"/>
+      <!-- Km azul -->
+      <line x1="148" y1="122" x2="148" y2="195" stroke="#0284c7" stroke-width="1.5" stroke-dasharray="4,3"/>
+      <text x="148" y="210" text-anchor="middle" font-size="9" fill="#0284c7" font-family="Courier Prime,monospace">Km</text>
+      <!-- Curva naranja con inhibidor competitivo (Vmax=igual, Km mayor) -->
+      <path d="M55,195 Q165,128 255,78 Q355,53 445,50" fill="none" stroke="#d97706" stroke-width="3" stroke-dasharray="8,4"/>
+      <!-- Km' naranja -->
+      <line x1="252" y1="122" x2="252" y2="195" stroke="#d97706" stroke-width="1.5" stroke-dasharray="4,3"/>
+      <text x="252" y="210" text-anchor="middle" font-size="9" fill="#d97706" font-family="Courier Prime,monospace">Km'</text>
+      <!-- Leyenda -->
+      <rect x="65" y="22" width="14" height="4" fill="#0284c7" rx="2"/>
+      <text x="83" y="28" font-size="9" fill="#475569" font-family="Nunito,sans-serif">Sin inhibidor</text>
+      <line x1="65" y1="40" x2="79" y2="40" stroke="#d97706" stroke-width="2.5" stroke-dasharray="6,3"/>
+      <text x="83" y="44" font-size="9" fill="#475569" font-family="Nunito,sans-serif">Con inhibidor</text>
+    </svg>
+    <div class="chart-questions">
+      <div class="chart-q">
+        <p class="chart-q-label">1. <span class="verb">Identifica</span> el tipo de inhibición (la Vmax es <strong>la misma</strong>, la Km aparente es <strong>mayor</strong>):</p>
+        <select id="A3-q1">
+          <option value="">Seleccionar tipo de inhibición...</option>
+          <option value="ok">Competitiva: el inhibidor compite con el sustrato por el centro activo; con mucho sustrato se recupera la Vmax.</option>
+          <option value="e1">Irreversible: el inhibidor se une covalentemente al centro activo y la enzima queda inutilizada para siempre.</option>
+          <option value="e2">No competitiva: el inhibidor se une fuera del centro activo, deforma la enzima y hace bajar la Vmax.</option>
+        </select>
+      </div>
+      <div class="chart-q">
+        <p class="chart-q-label">2. <span class="verb">Razona</span> qué ocurre con la velocidad si se añade mucho más sustrato [S] manteniendo el inhibidor:</p>
+        <select id="A3-q2">
+          <option value="">Seleccionar consecuencia...</option>
+          <option value="e1">Cae a cero: el inhibidor ha bloqueado de forma permanente todos los centros activos.</option>
+          <option value="ok">Se acerca a la Vmax original: el exceso de sustrato desplaza al inhibidor del centro activo.</option>
+          <option value="e2">Se queda fija en Vmax/2, porque el inhibidor limita la velocidad sea cual sea el sustrato.</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div class="btn-row">
+    <button class="btn-action" onclick="checkA3()"><span>▶ Desbloquear enzima</span></button>
+    <button class="btn-hint" onclick="useHint('hA3')" id="hbA3">💡 Pista (−30s)</button>
+  </div>
+  <div id="hA3" class="hint-box">Clave visual: si las dos curvas alcanzan la MISMA Vmax, el inhibidor no destruye el enzima → es reversible y competitivo. Si la curva naranja tuviera una Vmax menor, sería no competitivo. La Km sube porque necesitas más sustrato para llegar a Vmax/2 cuando hay competencia por el centro activo.</div>
+  <div id="mA3" class="msg-box" role="alert"></div>
+</div>
+
+<!-- A4: Razonamiento desnaturalización -->
+<div id="A4" class="room">
+  <p class="room-tag">EXP-ALFA · FASE 4/4 — MISIÓN FINAL</p>
+  <span class="mech-label">🧮 Razonamiento científico</span>
+  <h2 class="room-title"><span class="acc-a">ALFA-4</span> — La Proteína Desnaturalizada</h2>
+  <div class="terminal">
+    <p class="terminal-header">> ALERTA: INCUBADORA A 90°C — PROTEÍNA DAÑADA</p>
+    <p class="terminal-body">Una proteína estructural quedó a 90°C 20 minutos. <span class="err">Pérdida de actividad funcional detectada.</span> El Dr. Carbono dejó esta nota: <span class="warn">"¿Es realmente inútil para alimentar a los pacientes?"</span></p>
+  </div>
+  <div class="question-block">
+    <p class="question-label"><span class="verb">Razona</span> qué estructuras se destruyen a 90°C y por qué la proteína, aunque <strong>pierde función biológica</strong>, <strong>conserva valor nutritivo</strong>:</p>
+    <select id="A4-ans">
+      <option value="">Seleccionar razonamiento...</option>
+      <option value="ok">Se rompen los enlaces débiles de las estructuras 2.ª, 3.ª y 4.ª (pierde la función), pero no los peptídicos: sigue aportando aminoácidos.</option>
+      <option value="e1">Se rompen también los enlaces peptídicos: la proteína queda hidrolizada en aminoácidos libres, sin función ni valor nutritivo.</option>
+      <option value="e2">Solo se pierde la estructura cuaternaria; la terciaria se mantiene, así que la proteína conserva parte de su función.</option>
+    </select>
+  </div>
+  <div class="btn-row">
+    <button class="btn-action" onclick="checkSimple('A4','victoryA')"><span>▶ Sellar Expediente ALFA</span></button>
+    <button class="btn-hint" onclick="useHint('hA4')" id="hbA4">💡 Pista (−30s)</button>
+  </div>
+  <div id="hA4" class="hint-box">El enlace peptídico es un enlace COVALENTE fuerte: el calor no lo rompe. Solo ácidos/bases fuertes o proteasas lo hidrolizan. La desnaturalización rompe únicamente los enlaces débiles de la estructura 3D. Cocinar un huevo desnaturaliza la albúmina pero seguimos absorbiendo sus aminoácidos al comerlo.</div>
+  <div id="mA4" class="msg-box" role="alert"></div>
+</div>
+
+<!-- ════════ VÍA B — LÍPIDOS ════════ -->
+<!-- B1: Completar triglicérido SVG -->
+<div id="B1" class="room">
+  <p class="room-tag">EXP-BETA · FASE 1/4</p>
+  <span class="mech-label">📐 Completa la molécula</span>
+  <h2 class="room-title"><span class="acc-b">BETA-1</span> — El Triglicérido Roto</h2>
+  <div class="terminal">
+    <p class="terminal-header">> MUESTRA LIPÍDICA — ENLACE Y REACCIÓN DESCONOCIDOS</p>
+    <p class="terminal-body">El cromatógrafo ha borrado el tipo de enlace y la reacción de síntesis del triglicérido. <span class="warn">Identifícalos para poder sintetizar la molécula de reserva energética.</span></p>
+  </div>
+  <div class="molecule-wrap">
+    <svg viewBox="0 0 480 210" xmlns="http://www.w3.org/2000/svg">
+      <rect width="480" height="210" fill="#fffbeb" rx="8"/>
+      <!-- Glicerol -->
+      <text x="20" y="55" font-family="Courier Prime,monospace" font-size="12" fill="#475569">CH₂—OH</text>
+      <text x="20" y="105" font-family="Courier Prime,monospace" font-size="12" fill="#475569">CH  —OH</text>
+      <text x="20" y="155" font-family="Courier Prime,monospace" font-size="12" fill="#475569">CH₂—OH</text>
+      <text x="40" y="185" font-family="Courier Prime,monospace" font-size="9" fill="#d97706" font-style="italic">GLICEROL</text>
+      <!-- Ácidos grasos -->
+      <text x="295" y="55" font-family="Courier Prime,monospace" font-size="12" fill="#475569">HOOC—(CH₂)ₙ—CH₃</text>
+      <text x="295" y="105" font-family="Courier Prime,monospace" font-size="12" fill="#475569">HOOC—(CH₂)ₙ—CH₃</text>
+      <text x="295" y="155" font-family="Courier Prime,monospace" font-size="12" fill="#475569">HOOC—(CH₂)ₙ—CH₃</text>
+      <text x="310" y="185" font-family="Courier Prime,monospace" font-size="9" fill="#d97706" font-style="italic">ÁCIDOS GRASOS ×3</text>
+      <!-- Flecha central y huecos -->
+      <text x="185" y="42" text-anchor="middle" font-family="Courier Prime,monospace" font-size="10" fill="#94a3b8">+ → −H₂O →</text>
+      <rect x="160" y="47" width="50" height="26" rx="6" fill="#fee2e2" stroke="#dc2626" stroke-width="2.5" stroke-dasharray="5"/>
+      <text x="185" y="65" text-anchor="middle" font-family="Courier Prime,monospace" font-size="15" font-weight="bold" fill="#dc2626">①</text>
+      <rect x="160" y="92" width="50" height="26" rx="6" fill="#fee2e2" stroke="#dc2626" stroke-width="2.5" stroke-dasharray="5"/>
+      <text x="185" y="110" text-anchor="middle" font-family="Courier Prime,monospace" font-size="15" font-weight="bold" fill="#dc2626">②</text>
+      <rect x="160" y="140" width="50" height="26" rx="6" fill="#fee2e2" stroke="#dc2626" stroke-width="2.5" stroke-dasharray="5"/>
+      <text x="185" y="158" text-anchor="middle" font-family="Courier Prime,monospace" font-size="15" font-weight="bold" fill="#dc2626">③</text>
+    </svg>
+    <p style="font-size:.83rem;color:var(--muted);text-align:center;margin-bottom:14px;font-style:italic;">Las tres posiciones ①②③ son el mismo tipo de enlace. ¿Cuál es? ¿Y cómo se llama la reacción que lo forma?</p>
+    <div class="mol-gap-row">
+      <div class="mol-gap-item" style="min-width:210px">
+        <span class="mol-gap-label">TIPO DE ENLACE ①②③</span>
+        <select id="B1-enlace">
+          <option value="">Selecciona el enlace...</option>
+          <option value="ok">Éster: entre el –COOH del ácido graso y un –OH de la glicerina</option>
+          <option value="e1">Peptídico: entre el –COOH del ácido graso y un –NH₂ de la glicerina</option>
+          <option value="e2">O-glucosídico: entre un –OH del ácido graso y un –OH de la glicerina</option>
+          <option value="e3">Fosfodiéster: un fosfato hace de puente entre ácido graso y glicerina</option>
+        </select>
+      </div>
+      <div class="mol-gap-item" style="min-width:210px">
+        <span class="mol-gap-label">NOMBRE DE LA REACCIÓN</span>
+        <select id="B1-reac">
+          <option value="">Selecciona la reacción...</option>
+          <option value="ok">Esterificación (condensación): se libera una molécula de agua por enlace</option>
+          <option value="e1">Hidrólisis: se consume una molécula de agua por cada enlace formado</option>
+          <option value="e2">Saponificación: el ácido graso y la glicerina reaccionan con una base</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div class="btn-row">
+    <button class="btn-action btn-b" onclick="checkB1()"><span>▶ Sintetizar triglicérido</span></button>
+    <button class="btn-hint" onclick="useHint('hB1')" id="hbB1">💡 Pista (−30s)</button>
+  </div>
+  <div id="hB1" class="hint-box">Los triglicéridos son lípidos saponificables. El enlace entre el alcohol (glicerol) y el ácido (ácido graso) se llama éster —no es el mismo que une aminoácidos (peptídico) ni azúcares (glucosídico). La reacción que lo forma libera agua (condensación = esterificación) y la que lo rompe consume agua (hidrólisis = saponificación).</div>
+  <div id="mB1" class="msg-box" role="alert"></div>
+</div>
+
+<!-- B2: Hotspot membrana plasmática -->
+<div id="B2" class="room">
+  <p class="room-tag">EXP-BETA · FASE 2/4</p>
+  <span class="mech-label">🔍 Identifica en la imagen</span>
+  <h2 class="room-title"><span class="acc-b">BETA-2</span> — La Membrana Dañada</h2>
+  <div class="terminal">
+    <p class="terminal-header">> MICROSCOPÍA ELECTRÓNICA · MODELO MOSAICO FLUIDO — ETIQUETAS BORRADAS</p>
+    <p class="terminal-body">Cinco componentes de la membrana han perdido su nombre. <span class="hl">Asigna cada estructura numerada</span> para restaurar la permeabilidad selectiva.</p>
+  </div>
+  <div class="hotspot-wrap">
+    <div style="max-width:520px;margin:0 auto 14px;">
+      <svg viewBox="0 0 520 195" xmlns="http://www.w3.org/2000/svg">
+        <rect width="520" height="195" fill="#f0f9ff" rx="8"/>
+        <!-- Cabezas externas fosfolípidos -->
+        <circle cx="30" cy="48" r="11" fill="#bfdbfe" stroke="#0284c7" stroke-width="1.5"/>
+        <circle cx="68" cy="48" r="11" fill="#bfdbfe" stroke="#0284c7" stroke-width="1.5"/>
+        <circle cx="106" cy="48" r="11" fill="#bfdbfe" stroke="#0284c7" stroke-width="1.5"/>
+        <circle cx="144" cy="48" r="11" fill="#bfdbfe" stroke="#0284c7" stroke-width="1.5"/>
+        <circle cx="182" cy="48" r="11" fill="#bfdbfe" stroke="#0284c7" stroke-width="1.5"/>
+        <circle cx="308" cy="48" r="11" fill="#bfdbfe" stroke="#0284c7" stroke-width="1.5"/>
+        <circle cx="346" cy="48" r="11" fill="#bfdbfe" stroke="#0284c7" stroke-width="1.5"/>
+        <circle cx="384" cy="48" r="11" fill="#bfdbfe" stroke="#0284c7" stroke-width="1.5"/>
+        <circle cx="422" cy="48" r="11" fill="#bfdbfe" stroke="#0284c7" stroke-width="1.5"/>
+        <circle cx="460" cy="48" r="11" fill="#bfdbfe" stroke="#0284c7" stroke-width="1.5"/>
+        <!-- Colas ext -->
+        <line x1="26" y1="59" x2="26" y2="92" stroke="#64748b" stroke-width="2"/><line x1="34" y1="59" x2="34" y2="92" stroke="#64748b" stroke-width="2"/>
+        <line x1="64" y1="59" x2="64" y2="92" stroke="#64748b" stroke-width="2"/><line x1="72" y1="59" x2="72" y2="92" stroke="#64748b" stroke-width="2"/>
+        <line x1="102" y1="59" x2="102" y2="92" stroke="#64748b" stroke-width="2"/><line x1="110" y1="59" x2="110" y2="92" stroke="#64748b" stroke-width="2"/>
+        <line x1="140" y1="59" x2="140" y2="92" stroke="#64748b" stroke-width="2"/><line x1="148" y1="59" x2="148" y2="92" stroke="#64748b" stroke-width="2"/>
+        <line x1="178" y1="59" x2="178" y2="92" stroke="#64748b" stroke-width="2"/><line x1="186" y1="59" x2="186" y2="92" stroke="#64748b" stroke-width="2"/>
+        <line x1="304" y1="59" x2="304" y2="92" stroke="#64748b" stroke-width="2"/><line x1="312" y1="59" x2="312" y2="92" stroke="#64748b" stroke-width="2"/>
+        <line x1="342" y1="59" x2="342" y2="92" stroke="#64748b" stroke-width="2"/><line x1="350" y1="59" x2="350" y2="92" stroke="#64748b" stroke-width="2"/>
+        <line x1="380" y1="59" x2="380" y2="92" stroke="#64748b" stroke-width="2"/><line x1="388" y1="59" x2="388" y2="92" stroke="#64748b" stroke-width="2"/>
+        <line x1="418" y1="59" x2="418" y2="92" stroke="#64748b" stroke-width="2"/><line x1="426" y1="59" x2="426" y2="92" stroke="#64748b" stroke-width="2"/>
+        <line x1="456" y1="59" x2="456" y2="92" stroke="#64748b" stroke-width="2"/><line x1="464" y1="59" x2="464" y2="92" stroke="#64748b" stroke-width="2"/>
+        <!-- Proteína integral -->
+        <rect x="215" y="40" width="52" height="115" rx="10" fill="#fed7aa" stroke="#d97706" stroke-width="2"/>
+        <text x="241" y="97" text-anchor="middle" font-size="9" fill="#92400e" font-family="Nunito,sans-serif" font-weight="bold">Prot.</text>
+        <text x="241" y="109" text-anchor="middle" font-size="9" fill="#92400e" font-family="Nunito,sans-serif">integral</text>
+        <!-- Colesterol -->
+        <ellipse cx="272" cy="97" rx="10" ry="26" fill="#fde68a" stroke="#eab308" stroke-width="2"/>
+        <text x="272" y="101" text-anchor="middle" font-size="7" fill="#78350f" font-family="Nunito,sans-serif">Col.</text>
+        <!-- Colas int -->
+        <line x1="26" y1="138" x2="26" y2="105" stroke="#64748b" stroke-width="2"/><line x1="34" y1="138" x2="34" y2="105" stroke="#64748b" stroke-width="2"/>
+        <line x1="64" y1="138" x2="64" y2="105" stroke="#64748b" stroke-width="2"/><line x1="72" y1="138" x2="72" y2="105" stroke="#64748b" stroke-width="2"/>
+        <line x1="102" y1="138" x2="102" y2="105" stroke="#64748b" stroke-width="2"/><line x1="110" y1="138" x2="110" y2="105" stroke="#64748b" stroke-width="2"/>
+        <line x1="140" y1="138" x2="140" y2="105" stroke="#64748b" stroke-width="2"/><line x1="148" y1="138" x2="148" y2="105" stroke="#64748b" stroke-width="2"/>
+        <line x1="178" y1="138" x2="178" y2="105" stroke="#64748b" stroke-width="2"/><line x1="186" y1="138" x2="186" y2="105" stroke="#64748b" stroke-width="2"/>
+        <line x1="304" y1="138" x2="304" y2="105" stroke="#64748b" stroke-width="2"/><line x1="312" y1="138" x2="312" y2="105" stroke="#64748b" stroke-width="2"/>
+        <line x1="342" y1="138" x2="342" y2="105" stroke="#64748b" stroke-width="2"/><line x1="350" y1="138" x2="350" y2="105" stroke="#64748b" stroke-width="2"/>
+        <line x1="380" y1="138" x2="380" y2="105" stroke="#64748b" stroke-width="2"/><line x1="388" y1="138" x2="388" y2="105" stroke="#64748b" stroke-width="2"/>
+        <line x1="418" y1="138" x2="418" y2="105" stroke="#64748b" stroke-width="2"/><line x1="426" y1="138" x2="426" y2="105" stroke="#64748b" stroke-width="2"/>
+        <line x1="456" y1="138" x2="456" y2="105" stroke="#64748b" stroke-width="2"/><line x1="464" y1="138" x2="464" y2="105" stroke="#64748b" stroke-width="2"/>
+        <!-- Cabezas internas -->
+        <circle cx="30" cy="148" r="11" fill="#bfdbfe" stroke="#0284c7" stroke-width="1.5"/>
+        <circle cx="68" cy="148" r="11" fill="#bfdbfe" stroke="#0284c7" stroke-width="1.5"/>
+        <circle cx="106" cy="148" r="11" fill="#bfdbfe" stroke="#0284c7" stroke-width="1.5"/>
+        <circle cx="144" cy="148" r="11" fill="#bfdbfe" stroke="#0284c7" stroke-width="1.5"/>
+        <circle cx="182" cy="148" r="11" fill="#bfdbfe" stroke="#0284c7" stroke-width="1.5"/>
+        <circle cx="308" cy="148" r="11" fill="#bfdbfe" stroke="#0284c7" stroke-width="1.5"/>
+        <circle cx="346" cy="148" r="11" fill="#bfdbfe" stroke="#0284c7" stroke-width="1.5"/>
+        <circle cx="384" cy="148" r="11" fill="#bfdbfe" stroke="#0284c7" stroke-width="1.5"/>
+        <circle cx="422" cy="148" r="11" fill="#bfdbfe" stroke="#0284c7" stroke-width="1.5"/>
+        <circle cx="460" cy="148" r="11" fill="#bfdbfe" stroke="#0284c7" stroke-width="1.5"/>
+        <!-- Glucocálix exterior -->
+        <path d="M30,37 L18,16 M68,37 L72,12 M106,37 L96,10" stroke="#16a34a" stroke-width="2"/>
+        <circle cx="18" cy="14" r="4" fill="#86efac" stroke="#16a34a"/><circle cx="72" cy="10" r="4" fill="#86efac" stroke="#16a34a"/><circle cx="96" cy="8" r="4" fill="#86efac" stroke="#16a34a"/>
+        <!-- Proteína periférica interior -->
+        <ellipse cx="455" cy="162" rx="24" ry="12" fill="#e9d5ff" stroke="#7c3aed" stroke-width="2"/>
+        <text x="455" y="166" text-anchor="middle" font-size="7" fill="#5b21b6" font-family="Nunito,sans-serif">Prot.per.</text>
+        <!-- Números -->
+        <text x="58" y="11" font-family="Courier Prime,monospace" font-size="12" fill="#0f172a" font-weight="bold">①</text>
+        <text x="88" y="48" font-family="Courier Prime,monospace" font-size="12" fill="#0f172a" font-weight="bold">②</text>
+        <text x="218" y="30" font-family="Courier Prime,monospace" font-size="12" fill="#0f172a" font-weight="bold">③</text>
+        <text x="283" y="76" font-family="Courier Prime,monospace" font-size="12" fill="#0f172a" font-weight="bold">④</text>
+        <text x="480" y="158" font-family="Courier Prime,monospace" font-size="12" fill="#0f172a" font-weight="bold">⑤</text>
+      </svg>
+    </div>
+    <div class="hotspot-legend">
+      <div class="hs-legend-item"><div class="hs-num" style="background:var(--via-b)">①</div>
+        <select class="hs-select" id="hB2-1">
+          <option value="">Seleccionar...</option>
+          <option value="gluco">Glucocálix</option>
+          <option value="fosf">Cabeza hidrófila de un fosfolípido</option>
+          <option value="pint">Proteína integral</option>
+          <option value="col">Colesterol</option>
+          <option value="pper">Proteína periférica</option>
+        </select>
+      </div>
+      <div class="hs-legend-item"><div class="hs-num" style="background:var(--via-b)">②</div>
+        <select class="hs-select" id="hB2-2">
+          <option value="">Seleccionar...</option>
+          <option value="gluco">Glucocálix</option>
+          <option value="fosf">Cabeza hidrófila de un fosfolípido</option>
+          <option value="pint">Proteína integral</option>
+          <option value="col">Colesterol</option>
+          <option value="pper">Proteína periférica</option>
+        </select>
+      </div>
+      <div class="hs-legend-item"><div class="hs-num" style="background:var(--via-b)">③</div>
+        <select class="hs-select" id="hB2-3">
+          <option value="">Seleccionar...</option>
+          <option value="gluco">Glucocálix</option>
+          <option value="fosf">Cabeza hidrófila de un fosfolípido</option>
+          <option value="pint">Proteína integral</option>
+          <option value="col">Colesterol</option>
+          <option value="pper">Proteína periférica</option>
+        </select>
+      </div>
+      <div class="hs-legend-item"><div class="hs-num" style="background:var(--via-b)">④</div>
+        <select class="hs-select" id="hB2-4">
+          <option value="">Seleccionar...</option>
+          <option value="gluco">Glucocálix</option>
+          <option value="fosf">Cabeza hidrófila de un fosfolípido</option>
+          <option value="pint">Proteína integral</option>
+          <option value="col">Colesterol</option>
+          <option value="pper">Proteína periférica</option>
+        </select>
+      </div>
+      <div class="hs-legend-item"><div class="hs-num" style="background:var(--via-b)">⑤</div>
+        <select class="hs-select" id="hB2-5">
+          <option value="">Seleccionar...</option>
+          <option value="gluco">Glucocálix</option>
+          <option value="fosf">Cabeza hidrófila de un fosfolípido</option>
+          <option value="pint">Proteína integral</option>
+          <option value="col">Colesterol</option>
+          <option value="pper">Proteína periférica</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div class="btn-row">
+    <button class="btn-action btn-b" onclick="checkB2()"><span>▶ Reconstruir membrana</span></button>
+    <button class="btn-hint" onclick="useHint('hB2')" id="hbB2">💡 Pista (−30s)</button>
+  </div>
+  <div id="hB2" class="hint-box">Mosaico fluido (Singer y Nicolson, 1972): bicapa de fosfolípidos con cabezas hidrófilas al exterior y colas hidrófobas al interior. El glucocálix SOLO está en la cara extracelular (reconocimiento). El colesterol se intercala entre fosfolípidos regulando fluidez. Proteínas integrales atraviesan la bicapa; periféricas solo tocan una superficie.</div>
+  <div id="mB2" class="msg-box" role="alert"></div>
+</div>
+
+<!-- B3: Gráfica osmosis eritrocitos -->
+<div id="B3" class="room">
+  <p class="room-tag">EXP-BETA · FASE 3/4</p>
+  <span class="mech-label">📈 Interpreta la gráfica</span>
+  <h2 class="room-title"><span class="acc-b">BETA-3</span> — Crisis Osmótica</h2>
+  <div class="terminal">
+    <p class="terminal-header">> EXPERIMENTO: GLÓBULOS ROJOS EN DISTINTAS SOLUCIONES SALINAS</p>
+    <p class="terminal-body">La gráfica muestra la variación del volumen relativo de eritrocitos según la concentración salina del medio. <span class="warn">El análisis es crítico para calibrar el suero de los pacientes.</span></p>
+  </div>
+  <div class="chart-wrap">
+    <svg viewBox="0 0 480 225" xmlns="http://www.w3.org/2000/svg">
+      <rect width="480" height="225" fill="white"/>
+      <line x1="55" y1="185" x2="440" y2="185" stroke="#475569" stroke-width="2"/>
+      <line x1="55" y1="185" x2="55" y2="18" stroke="#475569" stroke-width="2"/>
+      <text x="248" y="213" text-anchor="middle" font-size="10" fill="#475569" font-family="Nunito,sans-serif">Concentración salina del medio →</text>
+      <text x="14" y="100" text-anchor="middle" font-size="10" fill="#475569" font-family="Nunito,sans-serif" transform="rotate(-90,14,100)">Volumen relativo (%) →</text>
+      <!-- Ticks X -->
+      <text x="78" y="200" font-size="8" fill="#475569" font-family="Courier Prime,monospace" text-anchor="middle">0%</text>
+      <text x="165" y="200" font-size="8" fill="#475569" font-family="Courier Prime,monospace" text-anchor="middle">0.5%</text>
+      <text x="248" y="200" font-size="8" fill="#0284c7" font-family="Courier Prime,monospace" text-anchor="middle" font-weight="bold">0.9%</text>
+      <text x="335" y="200" font-size="8" fill="#475569" font-family="Courier Prime,monospace" text-anchor="middle">2%</text>
+      <text x="415" y="200" font-size="8" fill="#475569" font-family="Courier Prime,monospace" text-anchor="middle">5%</text>
+      <!-- Líneas referencia -->
+      <line x1="55" y1="105" x2="440" y2="105" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3"/>
+      <text x="443" y="108" font-size="8" fill="#94a3b8" font-family="Courier Prime,monospace">100%</text>
+      <!-- Curva volumen -->
+      <path d="M78,30 Q115,35 165,62 Q210,88 248,105 Q290,122 335,144 Q380,162 415,172" fill="none" stroke="#0284c7" stroke-width="3"/>
+      <!-- Punto isotónico -->
+      <circle cx="248" cy="105" r="7" fill="#0284c7" stroke="white" stroke-width="2.5"/>
+      <line x1="248" y1="105" x2="248" y2="185" stroke="#0284c7" stroke-width="1.5" stroke-dasharray="4,3"/>
+      <!-- Zonas -->
+      <rect x="55" y="18" width="128" height="167" fill="rgba(220,38,38,0.06)" rx="4"/>
+      <text x="119" y="34" text-anchor="middle" font-size="8" fill="#dc2626" font-family="Nunito,sans-serif">HEMÓLISIS</text>
+      <rect x="338" y="18" width="102" height="167" fill="rgba(217,119,6,0.08)" rx="4"/>
+      <text x="389" y="34" text-anchor="middle" font-size="8" fill="#d97706" font-family="Nunito,sans-serif">CRENACIÓN</text>
+      <!-- Puntos A B C D -->
+      <circle cx="78" cy="30" r="5" fill="#dc2626"/><text x="78" y="22" text-anchor="middle" font-size="9" fill="#dc2626" font-family="Courier Prime,monospace" font-weight="bold">A</text>
+      <circle cx="165" cy="62" r="5" fill="#7c3aed"/><text x="165" y="54" text-anchor="middle" font-size="9" fill="#7c3aed" font-family="Courier Prime,monospace" font-weight="bold">B</text>
+      <circle cx="335" cy="144" r="5" fill="#d97706"/><text x="335" y="136" text-anchor="middle" font-size="9" fill="#d97706" font-family="Courier Prime,monospace" font-weight="bold">C</text>
+      <circle cx="415" cy="172" r="5" fill="#dc2626"/><text x="415" y="164" text-anchor="middle" font-size="9" fill="#dc2626" font-family="Courier Prime,monospace" font-weight="bold">D</text>
+    </svg>
+    <div class="chart-questions">
+      <div class="chart-q">
+        <p class="chart-q-label">1. <span class="verb">Identifica</span> en qué punto la solución es <strong>isotónica</strong> para el eritrocito y <span class="verb">explica</span> qué ocurre con el flujo neto de agua:</p>
+        <select id="B3-q1">
+          <option value="">Seleccionar...</option>
+          <option value="ok">El punto de 0,9 %: medio isotónico; entra y sale la misma cantidad de agua, el flujo neto es nulo.</option>
+          <option value="e1">El punto A (0 %): sin solutos fuera no hay gradiente osmótico, así que el flujo neto es nulo.</option>
+          <option value="e2">El punto B (0,5 %): la célula ya ha llegado al equilibrio y su volumen deja de cambiar.</option>
+        </select>
+      </div>
+      <div class="chart-q">
+        <p class="chart-q-label">2. <span class="verb">Razona</span> por qué en el punto A el eritrocito estalla (hemólisis) pero una célula vegetal NO lo hace en las mismas condiciones:</p>
+        <select id="B3-q2">
+          <option value="">Seleccionar...</option>
+          <option value="e1">La célula vegetal tiene una membrana plasmática más gruesa, que impide que entre el agua.</option>
+          <option value="ok">El eritrocito no tiene pared; la célula vegetal sí, y su pared de celulosa resiste la presión del agua.</option>
+          <option value="e2">La vacuola vegetal expulsa al exterior el agua que entra y la presión interna no aumenta.</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div class="btn-row">
+    <button class="btn-action btn-b" onclick="checkB3()"><span>▶ Calibrar suero</span></button>
+    <button class="btn-hint" onclick="useHint('hB3')" id="hbB3">💡 Pista (−30s)</button>
+  </div>
+  <div id="hB3" class="hint-box">El suero fisiológico es 0,9% NaCl porque es isotónico con el citoplasma de los eritrocitos: ningún flujo neto de agua. La pared celular de celulosa es exclusiva de células vegetales (y hongos/bacterias): es la clave que explica por qué las células vegetales toleran medios hipotónicos sin reventar.</div>
+  <div id="mB3" class="msg-box" role="alert"></div>
+</div>
+
+<!-- B4: Razonamiento saponificación -->
+<div id="B4" class="room">
+  <p class="room-tag">EXP-BETA · FASE 4/4 — MISIÓN FINAL</p>
+  <span class="mech-label">🧮 Razonamiento científico</span>
+  <h2 class="room-title"><span class="acc-b">BETA-4</span> — El Jabón Molecular</h2>
+  <div class="terminal">
+    <p class="terminal-header">> DESCONTAMINACIÓN DE EMERGENCIA — PROTOCOLO JABÓN</p>
+    <p class="terminal-body">El equipo dispone de triglicéridos puros y NaOH. <span class="warn">¿Por qué el jabón resultante elimina la grasa con agua? Responde antes de aplicar el protocolo.</span></p>
+  </div>
+  <div class="question-block">
+    <p class="question-label"><span class="verb">Explica</span> el proceso de saponificación y <span class="verb">razona</span> por qué el jabón puede eliminar grasa en agua usando el concepto de molécula <strong>anfipática</strong>:</p>
+    <select id="B4-ans">
+      <option value="">Seleccionar explicación...</option>
+      <option value="ok">Hidrólisis alcalina que da glicerina y jabones; el jabón es anfipático y forma micelas alrededor de la grasa.</option>
+      <option value="e1">Hidrólisis ácida que libera ácidos grasos; como son hidrófilos, se disuelven en el agua sin ayuda.</option>
+      <option value="e2">El NaOH esterifica el triglicérido y le añade grupos polares, de modo que la grasa se vuelve soluble.</option>
+    </select>
+  </div>
+  <div class="btn-row">
+    <button class="btn-action btn-b" onclick="checkSimple('B4','victoryB')"><span>▶ Sellar Expediente BETA</span></button>
+    <button class="btn-hint" onclick="useHint('hB4')" id="hbB4">💡 Pista (−30s)</button>
+  </div>
+  <div id="hB4" class="hint-box">Anfipático = una parte quiere agua (hidrófila) + una parte huye del agua (hidrófoba). El jabón: cola hidrófoba (ácido graso, 12-18 carbonos) + cabeza hidrófila (–COO⁻Na⁺). Las colas se meten en la grasa formando una micela esférica con la grasa dentro y las cabezas iónicas al exterior en contacto con el agua.</div>
+  <div id="mB4" class="msg-box" role="alert"></div>
+</div>
+
+<!-- ════════ VÍA C — GLÚCIDOS ════════ -->
+<!-- C1: Glucosa en anillo SVG -->
+<div id="C1" class="room">
+  <p class="room-tag">EXP-GAMMA · FASE 1/4</p>
+  <span class="mech-label">📐 Completa la molécula</span>
+  <h2 class="room-title"><span class="acc-c">GAMMA-1</span> — La Glucosa Dañada</h2>
+  <div class="terminal">
+    <p class="terminal-header">> MUESTRA GLUCÍDICA — GRUPOS DEL ANILLO BORRADOS</p>
+    <p class="terminal-body">El analizador ha borrado dos grupos clave de la glucosa en forma de anillo (piranosa). <span class="warn">Reconstruye la molécula.</span></p>
+  </div>
+  <div class="molecule-wrap">
+    <svg viewBox="0 0 440 210" xmlns="http://www.w3.org/2000/svg">
+      <rect width="440" height="210" fill="#f0fdf4" rx="8"/>
+      <!-- Anillo hexagonal piranosa -->
+      <polygon points="210,42 290,78 290,144 210,180 130,144 130,78" fill="none" stroke="#16a34a" stroke-width="2.5"/>
+      <!-- O del anillo -->
+      <text x="252" y="38" font-family="Courier Prime,monospace" font-size="13" fill="#16a34a" font-weight="bold">O</text>
+      <!-- Carbonos del anillo -->
+      <circle cx="210" cy="42" r="9" fill="#dcfce7" stroke="#16a34a" stroke-width="1.5"/>
+      <text x="210" y="47" text-anchor="middle" font-family="Courier Prime,monospace" font-size="9" fill="#166534">C1</text>
+      <circle cx="290" cy="78" r="9" fill="#dcfce7" stroke="#16a34a" stroke-width="1.5"/>
+      <text x="290" y="83" text-anchor="middle" font-family="Courier Prime,monospace" font-size="9" fill="#166534">C2</text>
+      <circle cx="290" cy="144" r="9" fill="#dcfce7" stroke="#16a34a" stroke-width="1.5"/>
+      <text x="290" y="149" text-anchor="middle" font-family="Courier Prime,monospace" font-size="9" fill="#166534">C3</text>
+      <circle cx="210" cy="180" r="9" fill="#dcfce7" stroke="#16a34a" stroke-width="1.5"/>
+      <text x="210" y="185" text-anchor="middle" font-family="Courier Prime,monospace" font-size="9" fill="#166534">C4</text>
+      <circle cx="130" cy="144" r="9" fill="#dcfce7" stroke="#16a34a" stroke-width="1.5"/>
+      <text x="130" y="149" text-anchor="middle" font-family="Courier Prime,monospace" font-size="9" fill="#166534">C5</text>
+      <circle cx="130" cy="78" r="9" fill="#dcfce7" stroke="#16a34a" stroke-width="1.5"/>
+      <text x="130" y="83" text-anchor="middle" font-family="Courier Prime,monospace" font-size="9" fill="#166534">C6</text>
+      <!-- Grupos conocidos -->
+      <text x="305" y="78" font-family="Courier Prime,monospace" font-size="11" fill="#475569">—OH</text>
+      <text x="305" y="144" font-family="Courier Prime,monospace" font-size="11" fill="#475569">—OH</text>
+      <text x="210" y="200" text-anchor="middle" font-family="Courier Prime,monospace" font-size="11" fill="#475569">—OH</text>
+      <text x="112" y="150" font-family="Courier Prime,monospace" font-size="11" fill="#475569" text-anchor="end">—OH</text>
+      <!-- Hueco ① C1 → OH anomérico -->
+      <line x1="210" y1="33" x2="210" y2="12" stroke="#475569" stroke-width="1.5"/>
+      <rect x="188" y="2" width="44" height="18" rx="4" fill="#fee2e2" stroke="#dc2626" stroke-width="2" stroke-dasharray="4"/>
+      <text x="210" y="15" text-anchor="middle" font-family="Courier Prime,monospace" font-size="12" font-weight="bold" fill="#dc2626">①</text>
+      <!-- Hueco ② C6 → CH₂OH -->
+      <line x1="121" y1="78" x2="88" y2="58" stroke="#475569" stroke-width="1.5"/>
+      <rect x="58" y="47" width="40" height="18" rx="4" fill="#fee2e2" stroke="#dc2626" stroke-width="2" stroke-dasharray="4"/>
+      <text x="78" y="60" text-anchor="middle" font-family="Courier Prime,monospace" font-size="12" font-weight="bold" fill="#dc2626">②</text>
+    </svg>
+    <p style="font-size:.83rem;color:var(--muted);text-align:center;margin-bottom:14px;font-style:italic;">C1 (①) es el carbono anomérico. ② es el grupo que sale del C5 fuera del anillo.</p>
+    <div class="mol-gap-row">
+      <div class="mol-gap-item">
+        <span class="mol-gap-label">① GRUPO EN C1</span>
+        <select id="C1-g1">
+          <option value="">Selecciona...</option>
+          <option value="ok">—OH del carbono anomérico</option>
+          <option value="e1">—COOH (grupo carboxilo)</option>
+          <option value="e2">—NH₂ (grupo amino)</option>
+        </select>
+      </div>
+      <div class="mol-gap-item">
+        <span class="mol-gap-label">② GRUPO UNIDO AL C5</span>
+        <select id="C1-g2">
+          <option value="">Selecciona...</option>
+          <option value="e1">—OH (grupo hidroxilo)</option>
+          <option value="ok">—CH₂OH (el C6)</option>
+          <option value="e2">—CHO (grupo aldehído)</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div class="btn-row">
+    <button class="btn-action btn-c" onclick="checkC1()"><span>▶ Reconstruir glucosa</span></button>
+    <button class="btn-hint" onclick="useHint('hC1')" id="hbC1">💡 Pista (−30s)</button>
+  </div>
+  <div id="hC1" class="hint-box">La glucosa en anillo piranosa tiene 6 carbonos. C1 lleva el –OH anomérico: es el que participó en la ciclación del aldehído y su –OH puede quedar hacia abajo (α-glucosa) o hacia arriba (β-glucosa) en la proyección de Haworth. Del C5 sale el C6 en forma de –CH₂OH: por eso la glucosa es una hexosa y la ribosa, que no lo tiene, una pentosa.</div>
+  <div id="mC1" class="msg-box" role="alert"></div>
+</div>
+
+<!-- C2: Hotspot digestión almidón -->
+<div id="C2" class="room">
+  <p class="room-tag">EXP-GAMMA · FASE 2/4</p>
+  <span class="mech-label">🔍 Identifica en la imagen</span>
+  <h2 class="room-title"><span class="acc-c">GAMMA-2</span> — La Ruta de la Digestión</h2>
+  <div class="terminal">
+    <p class="terminal-header">> ESQUEMA DIGESTIÓN DEL ALMIDÓN — ENZIMAS BORRADAS</p>
+    <p class="terminal-body">El esquema de digestión del almidón hasta glucosa ha perdido las enzimas. <span class="hl">Identifica qué enzima actúa en cada paso</span> para restablecer el sistema de nutrición celular.</p>
+  </div>
+  <div class="hotspot-wrap">
+    <div style="max-width:520px;margin:0 auto 14px;">
+      <svg viewBox="0 0 520 155" xmlns="http://www.w3.org/2000/svg">
+        <rect width="520" height="155" fill="#f0fdf4" rx="8"/>
+        <defs><marker id="arr2" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#475569"/></marker></defs>
+        <!-- Almidón -->
+        <rect x="8" y="52" width="80" height="52" rx="8" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+        <text x="48" y="74" text-anchor="middle" font-size="10" font-weight="bold" fill="#166534" font-family="Nunito,sans-serif">ALMIDÓN</text>
+        <text x="48" y="88" text-anchor="middle" font-size="8" fill="#166534" font-family="Courier Prime,monospace">(polisac.)</text>
+        <!-- Flecha + hueco ① -->
+        <line x1="88" y1="78" x2="133" y2="78" stroke="#475569" stroke-width="2" marker-end="url(#arr2)"/>
+        <rect x="90" y="57" width="42" height="20" rx="4" fill="#fee2e2" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="4"/>
+        <text x="111" y="71" text-anchor="middle" font-family="Courier Prime,monospace" font-size="12" font-weight="bold" fill="#dc2626">①</text>
+        <!-- Dextrinas -->
+        <rect x="133" y="52" width="80" height="52" rx="8" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+        <text x="173" y="74" text-anchor="middle" font-size="10" font-weight="bold" fill="#166534" font-family="Nunito,sans-serif">Dextrinas</text>
+        <text x="173" y="88" text-anchor="middle" font-size="8" fill="#166534" font-family="Courier Prime,monospace">(oligosac.)</text>
+        <!-- Flecha + hueco ② -->
+        <line x1="213" y1="78" x2="258" y2="78" stroke="#475569" stroke-width="2" marker-end="url(#arr2)"/>
+        <rect x="215" y="57" width="42" height="20" rx="4" fill="#fee2e2" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="4"/>
+        <text x="236" y="71" text-anchor="middle" font-family="Courier Prime,monospace" font-size="12" font-weight="bold" fill="#dc2626">②</text>
+        <!-- Maltosa -->
+        <rect x="258" y="52" width="80" height="52" rx="8" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+        <rect x="263" y="57" width="16" height="16" rx="3" fill="#86efac" stroke="#16a34a"/>
+        <rect x="316" y="57" width="16" height="16" rx="3" fill="#86efac" stroke="#16a34a"/>
+        <line x1="279" y1="65" x2="316" y2="65" stroke="#16a34a" stroke-width="1.5"/>
+        <text x="298" y="87" text-anchor="middle" font-size="9" font-weight="bold" fill="#166534" font-family="Nunito,sans-serif">MALTOSA</text>
+        <text x="298" y="99" text-anchor="middle" font-size="8" fill="#166534" font-family="Courier Prime,monospace">(disac.)</text>
+        <!-- Flecha + hueco ③ -->
+        <line x1="338" y1="78" x2="383" y2="78" stroke="#475569" stroke-width="2" marker-end="url(#arr2)"/>
+        <rect x="340" y="57" width="42" height="20" rx="4" fill="#fee2e2" stroke="#dc2626" stroke-width="1.5" stroke-dasharray="4"/>
+        <text x="361" y="71" text-anchor="middle" font-family="Courier Prime,monospace" font-size="12" font-weight="bold" fill="#dc2626">③</text>
+        <!-- Glucosa -->
+        <rect x="383" y="52" width="80" height="52" rx="8" fill="#bbf7d0" stroke="#16a34a" stroke-width="2.5"/>
+        <text x="423" y="74" text-anchor="middle" font-size="10" font-weight="bold" fill="#166534" font-family="Nunito,sans-serif">GLUCOSA</text>
+        <text x="423" y="88" text-anchor="middle" font-size="8" fill="#166534" font-family="Courier Prime,monospace">(monos.)</text>
+        <!-- Localización -->
+        <text x="111" y="138" text-anchor="middle" font-size="8" fill="#0284c7" font-family="Nunito,sans-serif">Boca/intestino</text>
+        <text x="236" y="138" text-anchor="middle" font-size="8" fill="#0284c7" font-family="Nunito,sans-serif">Intestino delgado</text>
+        <text x="361" y="138" text-anchor="middle" font-size="8" fill="#0284c7" font-family="Nunito,sans-serif">Intestino delgado</text>
+      </svg>
+    </div>
+    <div class="hotspot-legend">
+      <div class="hs-legend-item"><div class="hs-num" style="background:var(--via-c)">①</div>
+        <select class="hs-select" id="hC2-1">
+          <option value="">Seleccionar enzima...</option>
+          <option value="ami">Amilasa (salival o pancreática)</option>
+          <option value="mal">Maltasa</option>
+          <option value="lac">Lactasa</option>
+          <option value="lip">Lipasa pancreática</option>
+        </select>
+      </div>
+      <div class="hs-legend-item"><div class="hs-num" style="background:var(--via-c)">②</div>
+        <select class="hs-select" id="hC2-2">
+          <option value="">Seleccionar enzima...</option>
+          <option value="ami">Amilasa (salival o pancreática)</option>
+          <option value="mal">Maltasa</option>
+          <option value="lac">Lactasa</option>
+          <option value="lip">Lipasa pancreática</option>
+        </select>
+      </div>
+      <div class="hs-legend-item"><div class="hs-num" style="background:var(--via-c)">③</div>
+        <select class="hs-select" id="hC2-3">
+          <option value="">Seleccionar enzima...</option>
+          <option value="ami">Amilasa (salival o pancreática)</option>
+          <option value="mal">Maltasa</option>
+          <option value="lac">Lactasa</option>
+          <option value="lip">Lipasa pancreática</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div class="btn-row">
+    <button class="btn-action btn-c" onclick="checkC2()"><span>▶ Activar digestión</span></button>
+    <button class="btn-hint" onclick="useHint('hC2')" id="hbC2">💡 Pista (−30s)</button>
+  </div>
+  <div id="hC2" class="hint-box">Almidón → dextrinas: comienza la amilasa salival (ptialina) en la boca y continúa la amilasa pancreática en el intestino. Dextrinas → maltosa: la misma amilasa (pancreática) sigue rompiendo enlaces α(1→4) en el intestino delgado. Maltosa (disacárido) → 2 glucosas: la maltasa del ribete en cepillo intestinal la hidroliza por el enlace α(1→4).</div>
+  <div id="mC2" class="msg-box" role="alert"></div>
+</div>
+
+<!-- C3: Gráfica glucemia -->
+<div id="C3" class="room">
+  <p class="room-tag">EXP-GAMMA · FASE 3/4</p>
+  <span class="mech-label">📈 Interpreta la gráfica</span>
+  <h2 class="room-title"><span class="acc-c">GAMMA-3</span> — La Glucemia Disparada</h2>
+  <div class="terminal">
+    <p class="terminal-header">> MONITORIZACIÓN GLUCEMIA POST-INGESTA</p>
+    <p class="terminal-body">Curva azul: glucosa libre ingerida. Curva naranja (···): almidón de lentejas cocidas. <span class="warn">Análisis necesario para prescribir dieta a un paciente diabético.</span></p>
+  </div>
+  <div class="chart-wrap">
+    <svg viewBox="0 0 480 218" xmlns="http://www.w3.org/2000/svg">
+      <rect width="480" height="218" fill="white"/>
+      <line x1="55" y1="178" x2="440" y2="178" stroke="#475569" stroke-width="2"/>
+      <line x1="55" y1="178" x2="55" y2="18" stroke="#475569" stroke-width="2"/>
+      <text x="248" y="206" text-anchor="middle" font-size="10" fill="#475569" font-family="Nunito,sans-serif">Tiempo tras la ingesta (minutos) →</text>
+      <text x="14" y="98" text-anchor="middle" font-size="10" fill="#475569" font-family="Nunito,sans-serif" transform="rotate(-90,14,98)">Glucemia (mg/dL) →</text>
+      <!-- Ticks X -->
+      <text x="98" y="192" font-size="8" fill="#475569" font-family="Courier Prime,monospace" text-anchor="middle">15</text>
+      <text x="158" y="192" font-size="8" fill="#475569" font-family="Courier Prime,monospace" text-anchor="middle">30</text>
+      <text x="218" y="192" font-size="8" fill="#475569" font-family="Courier Prime,monospace" text-anchor="middle">45</text>
+      <text x="278" y="192" font-size="8" fill="#475569" font-family="Courier Prime,monospace" text-anchor="middle">60</text>
+      <text x="358" y="192" font-size="8" fill="#475569" font-family="Courier Prime,monospace" text-anchor="middle">90</text>
+      <text x="428" y="192" font-size="8" fill="#475569" font-family="Courier Prime,monospace" text-anchor="middle">120</text>
+      <!-- Líneas referencia -->
+      <line x1="55" y1="128" x2="440" y2="128" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3"/>
+      <text x="443" y="131" font-size="8" fill="#94a3b8" font-family="Courier Prime,monospace">Normal</text>
+      <line x1="55" y1="78" x2="440" y2="78" stroke="#dc2626" stroke-width="1" stroke-dasharray="3,3"/>
+      <text x="443" y="81" font-size="8" fill="#dc2626" font-family="Courier Prime,monospace">Umbral</text>
+      <!-- Curva azul glucosa libre: pico rápido alto -->
+      <path d="M55,128 Q82,52 118,38 Q148,48 178,88 Q218,128 278,130 Q358,131 428,129" fill="none" stroke="#0284c7" stroke-width="3"/>
+      <!-- Curva naranja almidón: subida lenta, sostenida -->
+      <path d="M55,128 Q98,118 138,105 Q178,93 218,87 Q268,84 308,88 Q358,98 428,118" fill="none" stroke="#d97706" stroke-width="3" stroke-dasharray="8,4"/>
+      <!-- Leyenda -->
+      <rect x="65" y="24" width="12" height="4" fill="#0284c7" rx="2"/>
+      <text x="81" y="29" font-size="9" fill="#475569" font-family="Nunito,sans-serif">Glucosa libre (IG alto)</text>
+      <line x1="65" y1="40" x2="77" y2="40" stroke="#d97706" stroke-width="2.5" stroke-dasharray="5,2"/>
+      <text x="81" y="44" font-size="9" fill="#475569" font-family="Nunito,sans-serif">Almidón de lentejas (IG bajo)</text>
+    </svg>
+    <div class="chart-questions">
+      <div class="chart-q">
+        <p class="chart-q-label">1. <span class="verb">Razona</span> por qué la glucosa libre sube mucho más rápido y alto que el almidón:</p>
+        <select id="C3-q1">
+          <option value="">Seleccionar razonamiento...</option>
+          <option value="ok">La glucosa se absorbe sin digestión; el almidón debe hidrolizarse antes y su glucosa llega poco a poco.</option>
+          <option value="e1">El almidón aporta más glucosa por gramo que la glucosa libre, y por eso su curva es la más alta.</option>
+          <option value="e2">La glucosa libre queda retenida en el hígado, mientras que el almidón pasa directamente a la sangre.</option>
+        </select>
+      </div>
+      <div class="chart-q">
+        <p class="chart-q-label">2. <span class="verb">Indica</span> cuál es más adecuado para un diabético tipo 2 y <span class="verb">justifica</span> con los datos de la gráfica:</p>
+        <select id="C3-q2">
+          <option value="">Seleccionar...</option>
+          <option value="e1">La glucosa libre: al ser una molécula sencilla, la insulina la controla con más facilidad.</option>
+          <option value="ok">Las lentejas (almidón): liberan la glucosa de forma gradual y evitan los picos bruscos.</option>
+          <option value="e2">Ninguno: una persona diabética debe suprimir todos los glúcidos de su dieta.</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div class="btn-row">
+    <button class="btn-action btn-c" onclick="checkC3()"><span>▶ Prescribir dieta</span></button>
+    <button class="btn-hint" onclick="useHint('hC3')" id="hbC3">💡 Pista (−30s)</button>
+  </div>
+  <div id="hC3" class="hint-box">Índice glucémico (IG): velocidad con que sube la glucemia tras ingerir un alimento. Glucosa libre = IG=100 (referencia). Almidón de legumbres/cereales integrales = IG bajo (30-55). Para diabéticos tipo 2 se recomiendan alimentos de IG bajo porque producen una subida gradual que el páncreas puede controlar mejor con menos insulina.</div>
+  <div id="mC3" class="msg-box" role="alert"></div>
+</div>
+
+<!-- C4: Cálculo enlaces glucosídicos -->
+<div id="C4" class="room">
+  <p class="room-tag">EXP-GAMMA · FASE 4/4 — MISIÓN FINAL</p>
+  <span class="mech-label">🧮 Cálculo razonado</span>
+  <h2 class="room-title"><span class="acc-c">GAMMA-4</span> — La Síntesis del Glucógeno</h2>
+  <div class="terminal">
+    <p class="terminal-header">> PROBLEMA PAU: DIGESTIÓN DE UNA CADENA DE AMILOSA</p>
+    <p class="terminal-body"><span class="warn">Resuelve el cálculo para completar el expediente.</span> En el intestino se hidroliza por completo una cadena lineal de amilosa formada por <span class="hl">500 moléculas de glucosa</span> unidas por enlaces α(1→4).</p>
+  </div>
+  <div class="question-block">
+    <p class="question-label"><span class="verb">Calcula</span> cuántos <strong>enlaces glucosídicos</strong> se rompen y cuántas moléculas de <strong>H₂O</strong> se consumen. <span class="verb">Justifica</span> matemáticamente:</p>
+    <table class="data-table" style="margin-bottom:14px;">
+      <thead><tr><th>Dato</th><th>Valor</th><th>Razonamiento</th></tr></thead>
+      <tbody>
+        <tr><td>Moléculas de glucosa</td><td class="em">500</td><td>Dato del problema</td></tr>
+        <tr><td>H₂O por enlace glucosídico</td><td class="em">1</td><td>Hidrólisis: –O– + H₂O → –OH + HO–</td></tr>
+        <tr><td>Nº de enlaces glucosídicos</td><td class="lo">?</td><td>Entre N monómeros lineales hay N − 1 enlaces</td></tr>
+        <tr><td>H₂O totales consumidas</td><td class="lo">?</td><td>Una por cada enlace roto</td></tr>
+      </tbody>
+    </table>
+    <select id="C4-ans">
+      <option value="">Seleccionar respuesta razonada...</option>
+      <option value="ok">Se rompen 499 enlaces y se consumen 499 moléculas de agua (N − 1).</option>
+      <option value="e1">Se rompen 500 enlaces y se consumen 500 moléculas de agua, una por glucosa.</option>
+      <option value="e2">Se rompen 499 enlaces, pero se liberan 499 moléculas de agua.</option>
+    </select>
+  </div>
+  <div class="btn-row">
+    <button class="btn-action btn-c" onclick="checkSimple('C4','victoryC')"><span>▶ Sellar Expediente GAMMA</span></button>
+    <button class="btn-hint" onclick="useHint('hC4')" id="hbC4">💡 Pista (−30s)</button>
+  </div>
+  <div id="hC4" class="hint-box">Regla universal de los biopolímeros: para unir N monómeros en una cadena lineal → N−1 enlaces + N−1 moléculas de H₂O. Es la misma regla para aminoácidos (enlace peptídico), nucleótidos (fosfodiéster) o glucosas (glucosídico). 500 glucosas → 499 enlaces α(1→4). Al formarlos se libera una H₂O por enlace; al hidrolizarlos se consume una por enlace: 499.</div>
+  <div id="mC4" class="msg-box" role="alert"></div>
+</div>
+
+<!-- ════════ VÍA D — ÁCIDOS NUCLEICOS ════════ -->
+<!-- D1: Completar nucleótido SVG -->
+<div id="D1" class="room">
+  <p class="room-tag">EXP-DELTA · FASE 1/4</p>
+  <span class="mech-label">📐 Completa la molécula</span>
+  <h2 class="room-title"><span class="acc-d">DELTA-1</span> — El Nucleótido Incompleto</h2>
+  <div class="terminal">
+    <p class="terminal-header">> MUESTRA: NUCLEÓTIDO dAMP — DOS COMPONENTES BORRADOS</p>
+    <p class="terminal-body">El secuenciador ha perdido el azúcar y la base nitrogenada del nucleótido de desoxiadenosina monofosfato. <span class="warn">Reconstruye el dAMP para iniciar la secuenciación.</span></p>
+  </div>
+  <div class="molecule-wrap">
+    <svg viewBox="0 0 450 190" xmlns="http://www.w3.org/2000/svg">
+      <rect width="450" height="190" fill="#faf5ff" rx="8"/>
+      <!-- FOSFATO (conocido) -->
+      <rect x="12" y="72" width="78" height="48" rx="8" fill="#ede9fe" stroke="#7c3aed" stroke-width="2"/>
+      <text x="51" y="92" text-anchor="middle" font-family="Courier Prime,monospace" font-size="11" fill="#5b21b6" font-weight="bold">FOSFATO</text>
+      <text x="51" y="108" text-anchor="middle" font-family="Courier Prime,monospace" font-size="9" fill="#5b21b6">—PO₄³⁻</text>
+      <text x="51" y="135" text-anchor="middle" font-family="Courier Prime,monospace" font-size="8" fill="#7c3aed">✓ Conocido</text>
+      <!-- Enlace fosfato–pentosa -->
+      <line x1="90" y1="96" x2="120" y2="96" stroke="#475569" stroke-width="2"/>
+      <!-- PENTOSA (hueco ①) -->
+      <rect x="120" y="72" width="80" height="48" rx="8" fill="#fee2e2" stroke="#dc2626" stroke-width="2.5" stroke-dasharray="5"/>
+      <text x="160" y="100" text-anchor="middle" font-family="Courier Prime,monospace" font-size="16" font-weight="bold" fill="#dc2626">①</text>
+      <text x="160" y="134" text-anchor="middle" font-family="Courier Prime,monospace" font-size="8" fill="#dc2626">AZÚCAR</text>
+      <!-- Enlace pentosa–base -->
+      <line x1="200" y1="96" x2="232" y2="96" stroke="#475569" stroke-width="2"/>
+      <!-- BASE NITROGENADA (hueco ②) -->
+      <rect x="232" y="72" width="110" height="48" rx="8" fill="#fee2e2" stroke="#dc2626" stroke-width="2.5" stroke-dasharray="5"/>
+      <text x="287" y="100" text-anchor="middle" font-family="Courier Prime,monospace" font-size="16" font-weight="bold" fill="#dc2626">②</text>
+      <text x="287" y="134" text-anchor="middle" font-family="Courier Prime,monospace" font-size="8" fill="#dc2626">BASE NITROGENADA</text>
+      <!-- Nombre -->
+      <text x="225" y="170" text-anchor="middle" font-family="Nunito,sans-serif" font-size="10" fill="#475569" font-style="italic">Nucleótido: desoxiADENOSINA monofosfato (dAMP)</text>
+    </svg>
+    <p style="font-size:.83rem;color:var(--muted);text-align:center;margin-bottom:14px;font-style:italic;">Identifica el azúcar (①) y la base nitrogenada (②) del dAMP.</p>
+    <div class="mol-gap-row">
+      <div class="mol-gap-item" style="min-width:200px">
+        <span class="mol-gap-label">① AZÚCAR PENTOSA</span>
+        <select id="D1-g1">
+          <option value="">Selecciona...</option>
+          <option value="ok">Desoxirribosa (C₅H₁₀O₄) — sin –OH en el C2' (propia del ADN)</option>
+          <option value="e1">Ribosa (C₅H₁₀O₅) — tiene –OH en el C2' (propia del ARN)</option>
+          <option value="e2">Glucosa (C₆H₁₂O₆) — hexosa, no forma parte de nucleótidos</option>
+        </select>
+      </div>
+      <div class="mol-gap-item" style="min-width:200px">
+        <span class="mol-gap-label">② BASE NITROGENADA</span>
+        <select id="D1-g2">
+          <option value="">Selecciona...</option>
+          <option value="ok">Adenina (A), base púrica</option>
+          <option value="e1">Uracilo (U), base pirimidínica</option>
+          <option value="e2">Timina (T), base pirimidínica</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div class="btn-row">
+    <button class="btn-action btn-d" onclick="checkD1()"><span>▶ Reconstruir nucleótido</span></button>
+    <button class="btn-hint" onclick="useHint('hD1')" id="hbD1">💡 Pista (−30s)</button>
+  </div>
+  <div id="hD1" class="hint-box">ADN vs ARN: (1) Azúcar: desoxirribosa (ADN, le falta un –OH en el C2') vs ribosa (ARN, tiene –OH en C2'). (2) Bases: ADN tiene Timina en lugar del Uracilo del ARN. El nucleótido se llama desoxiADENOSINA → la base debe ser Adenina. El prefijo "desoxi" indica el azúcar desoxirribosa.</div>
+  <div id="mD1" class="msg-box" role="alert"></div>
+</div>
+
+<!-- D2: Hotspot doble hélice -->
+<div id="D2" class="room">
+  <p class="room-tag">EXP-DELTA · FASE 2/4</p>
+  <span class="mech-label">🔍 Identifica en la imagen</span>
+  <h2 class="room-title"><span class="acc-d">DELTA-2</span> — La Doble Hélice</h2>
+  <div class="terminal">
+    <p class="terminal-header">> MODELO WATSON-CRICK — 5 ESTRUCTURAS SIN ETIQUETAR</p>
+    <p class="terminal-body">El esquema de la doble hélice del ADN tiene cinco componentes numerados sin identificar. <span class="hl">Asigna el nombre correcto a cada estructura.</span></p>
+  </div>
+  <div class="hotspot-wrap">
+    <div style="max-width:420px;margin:0 auto 14px;">
+      <svg viewBox="0 0 420 255" xmlns="http://www.w3.org/2000/svg">
+        <rect width="420" height="255" fill="#faf5ff" rx="8"/>
+        <!-- Hélices (esqueleto azúcar-fosfato) -->
+        <path d="M80,20 Q60,62 80,108 Q100,154 80,198 Q62,238 80,252" fill="none" stroke="#7c3aed" stroke-width="5"/>
+        <path d="M230,20 Q250,62 230,108 Q210,154 230,198 Q248,238 230,252" fill="none" stroke="#7c3aed" stroke-width="5"/>
+        <!-- Escalones (bases + puentes H) -->
+        <line x1="80" y1="58" x2="230" y2="58" stroke="#64748b" stroke-width="2"/>
+        <line x1="80" y1="98" x2="230" y2="98" stroke="#64748b" stroke-width="2"/>
+        <line x1="80" y1="140" x2="230" y2="140" stroke="#64748b" stroke-width="2"/>
+        <line x1="80" y1="180" x2="230" y2="180" stroke="#64748b" stroke-width="2"/>
+        <line x1="80" y1="218" x2="230" y2="218" stroke="#64748b" stroke-width="2"/>
+        <!-- Par A-T -->
+        <rect x="95" y="50" width="42" height="16" rx="4" fill="#bfdbfe" stroke="#0284c7" stroke-width="1.5"/>
+        <text x="116" y="62" text-anchor="middle" font-size="10" fill="#0284c7" font-family="Courier Prime,monospace" font-weight="bold">A</text>
+        <rect x="173" y="50" width="42" height="16" rx="4" fill="#fed7aa" stroke="#d97706" stroke-width="1.5"/>
+        <text x="194" y="62" text-anchor="middle" font-size="10" fill="#d97706" font-family="Courier Prime,monospace" font-weight="bold">T</text>
+        <!-- Puentes H A-T (2) -->
+        <line x1="137" y1="57" x2="173" y2="57" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="3,2"/>
+        <line x1="137" y1="62" x2="173" y2="62" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="3,2"/>
+        <!-- Par G-C -->
+        <rect x="95" y="90" width="42" height="16" rx="4" fill="#bbf7d0" stroke="#16a34a" stroke-width="1.5"/>
+        <text x="116" y="102" text-anchor="middle" font-size="10" fill="#16a34a" font-family="Courier Prime,monospace" font-weight="bold">G</text>
+        <rect x="173" y="90" width="42" height="16" rx="4" fill="#bbf7d0" stroke="#16a34a" stroke-width="1.5"/>
+        <text x="194" y="102" text-anchor="middle" font-size="10" fill="#16a34a" font-family="Courier Prime,monospace" font-weight="bold">C</text>
+        <!-- Puentes H G-C (3) -->
+        <line x1="137" y1="96" x2="173" y2="96" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="3,2"/>
+        <line x1="137" y1="100" x2="173" y2="100" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="3,2"/>
+        <line x1="137" y1="104" x2="173" y2="104" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="3,2"/>
+        <!-- Par T-A -->
+        <rect x="95" y="132" width="42" height="16" rx="4" fill="#fed7aa" stroke="#d97706" stroke-width="1.5"/>
+        <text x="116" y="144" text-anchor="middle" font-size="10" fill="#d97706" font-family="Courier Prime,monospace" font-weight="bold">T</text>
+        <rect x="173" y="132" width="42" height="16" rx="4" fill="#bfdbfe" stroke="#0284c7" stroke-width="1.5"/>
+        <text x="194" y="144" text-anchor="middle" font-size="10" fill="#0284c7" font-family="Courier Prime,monospace" font-weight="bold">A</text>
+        <!-- Flechas antiparalelas -->
+        <defs><marker id="arrd" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#475569"/></marker></defs>
+        <line x1="270" y1="28" x2="270" y2="88" stroke="#475569" stroke-width="1.5" marker-end="url(#arrd)"/>
+        <text x="282" y="42" font-family="Courier Prime,monospace" font-size="9" fill="#475569">5'→3'</text>
+        <line x1="288" y1="88" x2="288" y2="28" stroke="#475569" stroke-width="1.5" marker-end="url(#arrd)"/>
+        <text x="300" y="72" font-family="Courier Prime,monospace" font-size="9" fill="#475569">3'→5'</text>
+        <!-- Numeración -->
+        <text x="40" y="64" font-family="Courier Prime,monospace" font-size="13" fill="#0f172a" font-weight="bold">①</text>
+        <text x="116" y="38" text-anchor="middle" font-family="Courier Prime,monospace" font-size="13" fill="#0f172a" font-weight="bold">②</text>
+        <text x="155" y="90" text-anchor="middle" font-family="Courier Prime,monospace" font-size="11" fill="#0f172a" font-weight="bold">③</text>
+        <text x="155" y="132" text-anchor="middle" font-family="Courier Prime,monospace" font-size="11" fill="#0f172a" font-weight="bold">④</text>
+        <text x="365" y="62" font-family="Courier Prime,monospace" font-size="13" fill="#0f172a" font-weight="bold">⑤</text>
+      </svg>
+    </div>
+    <div class="hotspot-legend">
+      <div class="hs-legend-item"><div class="hs-num" style="background:var(--via-d)">①</div>
+        <select class="hs-select" id="hD2-1">
+          <option value="">Seleccionar...</option>
+          <option value="esq">Esqueleto de desoxirribosa y fosfato</option>
+          <option value="base">Base nitrogenada</option>
+          <option value="ph">Puentes de hidrógeno</option>
+          <option value="par">Par de bases complementarias</option>
+          <option value="ap">Cadenas antiparalelas (5′→3′ / 3′→5′)</option>
+        </select>
+      </div>
+      <div class="hs-legend-item"><div class="hs-num" style="background:var(--via-d)">②</div>
+        <select class="hs-select" id="hD2-2">
+          <option value="">Seleccionar...</option>
+          <option value="esq">Esqueleto de desoxirribosa y fosfato</option>
+          <option value="base">Base nitrogenada</option>
+          <option value="ph">Puentes de hidrógeno</option>
+          <option value="par">Par de bases complementarias</option>
+          <option value="ap">Cadenas antiparalelas (5′→3′ / 3′→5′)</option>
+        </select>
+      </div>
+      <div class="hs-legend-item"><div class="hs-num" style="background:var(--via-d)">③</div>
+        <select class="hs-select" id="hD2-3">
+          <option value="">Seleccionar...</option>
+          <option value="esq">Esqueleto de desoxirribosa y fosfato</option>
+          <option value="base">Base nitrogenada</option>
+          <option value="ph">Puentes de hidrógeno</option>
+          <option value="par">Par de bases complementarias</option>
+          <option value="ap">Cadenas antiparalelas (5′→3′ / 3′→5′)</option>
+        </select>
+      </div>
+      <div class="hs-legend-item"><div class="hs-num" style="background:var(--via-d)">④</div>
+        <select class="hs-select" id="hD2-4">
+          <option value="">Seleccionar...</option>
+          <option value="esq">Esqueleto de desoxirribosa y fosfato</option>
+          <option value="base">Base nitrogenada</option>
+          <option value="ph">Puentes de hidrógeno</option>
+          <option value="par">Par de bases complementarias</option>
+          <option value="ap">Cadenas antiparalelas (5′→3′ / 3′→5′)</option>
+        </select>
+      </div>
+      <div class="hs-legend-item"><div class="hs-num" style="background:var(--via-d)">⑤</div>
+        <select class="hs-select" id="hD2-5">
+          <option value="">Seleccionar...</option>
+          <option value="esq">Esqueleto de desoxirribosa y fosfato</option>
+          <option value="base">Base nitrogenada</option>
+          <option value="ph">Puentes de hidrógeno</option>
+          <option value="par">Par de bases complementarias</option>
+          <option value="ap">Cadenas antiparalelas (5′→3′ / 3′→5′)</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div class="btn-row">
+    <button class="btn-action btn-d" onclick="checkD2()"><span>▶ Reconstruir hélice</span></button>
+    <button class="btn-hint" onclick="useHint('hD2')" id="hbD2">💡 Pista (−30s)</button>
+  </div>
+  <div id="hD2" class="hint-box">Doble hélice (Watson & Crick, 1953): ① esqueletos azúcar-fosfato al EXTERIOR de la hélice; ② bases nitrogenadas al INTERIOR mirándose; ③ puentes de hidrógeno entre bases complementarias (A=T: 2 puentes; G≡C: 3 puentes, más estable térmicamente); ④ par de bases; ⑤ las dos cadenas son antiparalelas: 5'→3' una, 3'→5' la otra.</div>
+  <div id="mD2" class="msg-box" role="alert"></div>
+</div>
+
+<!-- D3: Gráfica desnaturalización térmica + Chargaff -->
+<div id="D3" class="room">
+  <p class="room-tag">EXP-DELTA · FASE 3/4</p>
+  <span class="mech-label">📈 Interpreta la gráfica</span>
+  <h2 class="room-title"><span class="acc-d">DELTA-3</span> — Curvas de Fusión del ADN</h2>
+  <div class="terminal">
+    <p class="terminal-header">> ESPECTROFOTOMETRÍA 260 nm — DESNATURALIZACIÓN TÉRMICA DE DOS MUESTRAS</p>
+    <p class="terminal-body">Al calentarse, el ADN bicatenario separa sus hebras y aumenta la absorbancia a 260 nm (efecto hipercrómico). <span class="hl">La temperatura de fusión (Tm) depende de la composición de bases.</span></p>
+  </div>
+  <div class="chart-wrap">
+    <svg viewBox="0 0 480 215" xmlns="http://www.w3.org/2000/svg">
+      <rect width="480" height="215" fill="white"/>
+      <line x1="55" y1="178" x2="440" y2="178" stroke="#475569" stroke-width="2"/>
+      <line x1="55" y1="178" x2="55" y2="18" stroke="#475569" stroke-width="2"/>
+      <text x="248" y="204" text-anchor="middle" font-size="10" fill="#475569" font-family="Nunito,sans-serif">Temperatura (°C) →</text>
+      <text x="14" y="98" text-anchor="middle" font-size="10" fill="#475569" font-family="Nunito,sans-serif" transform="rotate(-90,14,98)">Absorbancia (260 nm) →</text>
+      <!-- Ticks X -->
+      <text x="98" y="191" font-size="8" fill="#475569" font-family="Courier Prime,monospace" text-anchor="middle">50</text>
+      <text x="163" y="191" font-size="8" fill="#475569" font-family="Courier Prime,monospace" text-anchor="middle">60</text>
+      <text x="228" y="191" font-size="8" fill="#475569" font-family="Courier Prime,monospace" text-anchor="middle">70</text>
+      <text x="293" y="191" font-size="8" fill="#475569" font-family="Courier Prime,monospace" text-anchor="middle">80</text>
+      <text x="358" y="191" font-size="8" fill="#475569" font-family="Courier Prime,monospace" text-anchor="middle">90</text>
+      <text x="423" y="191" font-size="8" fill="#475569" font-family="Courier Prime,monospace" text-anchor="middle">100</text>
+      <!-- Línea Tm 50% -->
+      <line x1="55" y1="118" x2="440" y2="118" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3,3"/>
+      <text x="443" y="121" font-size="8" fill="#94a3b8" font-family="Courier Prime,monospace">50%</text>
+      <!-- Eje Y refs -->
+      <text x="50" y="181" font-size="8" fill="#475569" font-family="Courier Prime,monospace" text-anchor="end">1.0</text>
+      <text x="50" y="118" font-size="8" fill="#475569" font-family="Courier Prime,monospace" text-anchor="end">1.2</text>
+      <text x="50" y="52" font-size="8" fill="#475569" font-family="Courier Prime,monospace" text-anchor="end">1.4</text>
+      <!-- Curva azul X: Tm=72°C (%GC menor) -->
+      <path d="M55,178 Q85,175 115,170 Q155,162 200,148 Q230,128 243,118 Q265,95 290,58 Q312,42 340,36 Q380,33 440,32" fill="none" stroke="#0284c7" stroke-width="3"/>
+      <line x1="243" y1="118" x2="243" y2="178" stroke="#0284c7" stroke-width="1.5" stroke-dasharray="4,3"/>
+      <text x="243" y="174" text-anchor="middle" font-size="8" fill="#0284c7" font-family="Courier Prime,monospace">Tm=72°C</text>
+      <!-- Curva naranja Y: Tm=85°C (%GC mayor) -->
+      <path d="M55,178 Q90,176 130,173 Q180,167 222,156 Q270,138 298,118 Q320,92 342,58 Q365,40 398,34 Q425,32 440,32" fill="none" stroke="#d97706" stroke-width="3" stroke-dasharray="8,4"/>
+      <line x1="298" y1="118" x2="298" y2="178" stroke="#d97706" stroke-width="1.5" stroke-dasharray="4,3"/>
+      <text x="298" y="174" text-anchor="middle" font-size="8" fill="#d97706" font-family="Courier Prime,monospace">Tm=85°C</text>
+      <!-- Leyenda -->
+      <rect x="65" y="22" width="12" height="4" fill="#0284c7" rx="2"/>
+      <text x="81" y="27" font-size="9" fill="#475569" font-family="Nunito,sans-serif">Muestra X (Tm=72°C)</text>
+      <line x1="65" y1="40" x2="77" y2="40" stroke="#d97706" stroke-width="2.5" stroke-dasharray="5,2"/>
+      <text x="81" y="44" font-size="9" fill="#475569" font-family="Nunito,sans-serif">Muestra Y (Tm=85°C)</text>
+    </svg>
+    <div class="chart-questions">
+      <div class="chart-q">
+        <p class="chart-q-label">1. <span class="verb">Razona</span> por qué la muestra Y necesita más temperatura para desnaturalizarse que la X:</p>
+        <select id="D3-q1">
+          <option value="">Seleccionar razonamiento...</option>
+          <option value="ok">Y tiene más pares G-C, unidos por tres puentes de hidrógeno (los A-T, por dos): hay que romper más.</option>
+          <option value="e1">Y es una molécula más larga: la Tm depende del número total de pares, no de su composición.</option>
+          <option value="e2">Y tiene más pares A-T, porque la adenina y la timina se unen con enlaces más fuertes.</option>
+        </select>
+      </div>
+      <div class="chart-q">
+        <p class="chart-q-label">2. <span class="verb">Aplica</span> la regla de Chargaff: si la muestra X tiene <strong>20% de Adenina</strong>, <span class="verb">calcula</span> el porcentaje de Guanina:</p>
+        <select id="D3-q2">
+          <option value="">Seleccionar cálculo...</option>
+          <option value="ok">30 % de G: A = T = 20 %, así que G + C = 60 % y G = C = 30 %.</option>
+          <option value="e1">20 % de G: en un ADN bicatenario todas las bases están en igual proporción.</option>
+          <option value="e2">60 % de G: la guanina ocupa todo el porcentaje que no corresponde a A y T.</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div class="btn-row">
+    <button class="btn-action btn-d" onclick="checkD3()"><span>▶ Analizar muestras</span></button>
+    <button class="btn-hint" onclick="useHint('hD3')" id="hbD3">💡 Pista (−30s)</button>
+  </div>
+  <div id="hD3" class="hint-box">Regla de Chargaff: en cualquier ADN bicatenario, %A=%T y %G=%C (complementariedad). Si %A=20% → %T=20% → %A+%T=40% → %G+%C=100-40=60% → %G=%C=30%. Mayor %GC → Tm más alta (G≡C tiene 3 puentes H, A=T solo 2 → más energía necesaria para separar).</div>
+  <div id="mD3" class="msg-box" role="alert"></div>
+</div>
+
+<!-- D4: Cálculo replicación semiconservativa -->
+<div id="D4" class="room">
+  <p class="room-tag">EXP-DELTA · FASE 4/4 — MISIÓN FINAL</p>
+  <span class="mech-label">🧮 Cálculo razonado</span>
+  <h2 class="room-title"><span class="acc-d">DELTA-4</span> — Replicación Semiconservativa</h2>
+  <div class="terminal">
+    <p class="terminal-header">> PROBLEMA PAU: REPLICACIÓN CON BrdU — 2 RONDAS</p>
+    <p class="terminal-body">Una molécula de ADN bicatenario se replica en presencia de <span class="hl">BrdU</span> (análogo de la timina, detectable). Se realizan <span class="warn">2 rondas de replicación semiconservativa</span>.</p>
+  </div>
+  <div class="question-block">
+    <p class="question-label"><span class="verb">Calcula</span> cuántas moléculas hay tras las 2 rondas, cuántas contienen BrdU y <span class="verb">razona</span> cuántas conservan cadena parental original:</p>
+    <table class="data-table" style="margin-bottom:14px;">
+      <thead><tr><th>Magnitud</th><th>Ronda 1</th><th>Ronda 2</th></tr></thead>
+      <tbody>
+        <tr><td>Moléculas totales de ADN</td><td class="em">2</td><td class="lo">?</td></tr>
+        <tr><td>Con BrdU (cadena nueva)</td><td class="em">2 de 2</td><td class="lo">?</td></tr>
+        <tr><td>Con cadena parental original</td><td class="em">2 de 2</td><td class="lo">?</td></tr>
+      </tbody>
+    </table>
+    <select id="D4-ans">
+      <option value="">Seleccionar resultado razonado...</option>
+      <option value="ok">4 moléculas; las 4 tienen BrdU y solo 2 conservan una cadena original.</option>
+      <option value="e1">4 moléculas; solo 2 tienen BrdU, porque las cadenas originales no se separan.</option>
+      <option value="e2">4 moléculas; las 4 tienen BrdU y las 4 conservan una cadena original.</option>
+    </select>
+  </div>
+  <div class="btn-row">
+    <button class="btn-action btn-d" onclick="checkSimple('D4','victoryD')"><span>▶ Sellar Expediente DELTA</span></button>
+    <button class="btn-hint" onclick="useHint('hD4')" id="hbD4">💡 Pista (−30s)</button>
+  </div>
+  <div id="hD4" class="hint-box">Semiconservativa: cada molécula hija hereda 1 cadena parental + sintetiza 1 cadena nueva. Ronda 1: 2 moléculas (cada una: 1 parental + 1 BrdU). Ronda 2: 4 moléculas. De ellas, 2 tienen 1 cadena parental + 1 BrdU; las otras 2 tienen ambas cadenas de BrdU (sin cadena parental). TODAS tienen BrdU. Esto demostró el modelo semiconservativo (experimento de Meselson-Stahl, 1958).</div>
+  <div id="mD4" class="msg-box" role="alert"></div>
+</div>
+
+<!-- ══ VICTORIAS ══ -->
+<div id="victoryA" class="room result-screen">
+  <p class="result-icon">🏆</p>
+  <h2 class="result-title victory-title">¡EXPEDIENTE COMPLETADO!</h2>
+  <p class="result-subtitle">ALFA — Proteínas y Enzimas · Desbloqueado</p>
+  <div class="time-badge" id="vtA"></div>
+  <div class="edu-feedback">
+    <h4>// CONCEPTOS CLAVE DOMINADOS</h4>
+    <div class="edu-item">Aminoácido: Cα con —NH₂ (izda., básico), —COOH (dcha., ácido), H y radical R variable.</div>
+    <div class="edu-item">Estructuras: 1ª (seq. aa, enlace peptídico) → 2ª (hélice/lámina, puentes H esqueleto) → 3ª (plegamiento 3D, interacciones R) → 4ª (varias subunidades).</div>
+    <div class="edu-item">Inhibición competitiva: misma Vmax, Km aparente mayor. Con exceso de [S] se recupera la Vmax.</div>
+    <div class="edu-item">Desnaturalización: rompe enlaces débiles (2ª/3ª/4ª) pero NO el enlace peptídico (1ª) → valor nutritivo conservado.</div>
+  </div>
+  <button class="btn-reset" onclick="resetGame()">↺ Intentar otro expediente</button>
+</div>
+
+<div id="victoryB" class="room result-screen">
+  <p class="result-icon">🏆</p>
+  <h2 class="result-title victory-title">¡EXPEDIENTE COMPLETADO!</h2>
+  <p class="result-subtitle">BETA — Lípidos y Membranas · Desbloqueado</p>
+  <div class="time-badge" id="vtB"></div>
+  <div class="edu-feedback">
+    <h4>// CONCEPTOS CLAVE DOMINADOS</h4>
+    <div class="edu-item">Triglicérido: glicerol + 3 ácidos grasos con enlace éster (esterificación, −H₂O por enlace).</div>
+    <div class="edu-item">Membrana: bicapa fosfolipídica + proteínas integrales/periféricas + colesterol (fluidez) + glucocálix exterior (reconocimiento).</div>
+    <div class="edu-item">Ósmosis: 0,9% NaCl = isotónico eritrocito. Hipotónico → hemólisis (animal) / turgencia sin estallido (vegetal, pared celulosa). Hipertónico → crenación/plasmólisis.</div>
+    <div class="edu-item">Saponificación: triglicérido + NaOH → glicerol + jabón anfipático → micelas → elimina grasa en agua.</div>
+  </div>
+  <button class="btn-reset" onclick="resetGame()">↺ Intentar otro expediente</button>
+</div>
+
+<div id="victoryC" class="room result-screen">
+  <p class="result-icon">🏆</p>
+  <h2 class="result-title victory-title">¡EXPEDIENTE COMPLETADO!</h2>
+  <p class="result-subtitle">GAMMA — Glúcidos · Desbloqueado</p>
+  <div class="time-badge" id="vtC"></div>
+  <div class="edu-feedback">
+    <h4>// CONCEPTOS CLAVE DOMINADOS</h4>
+    <div class="edu-item">Glucosa piranosa: C1 lleva el —OH anomérico (poder reductor; α abajo, β arriba). Del C5 sale el C6 (—CH₂OH).</div>
+    <div class="edu-item">Digestión del almidón: amilasa (salival y pancreática) → dextrinas → maltosa; maltasa → glucosa.</div>
+    <div class="edu-item">Índice glucémico: glucosa libre sube rápido (IG alto). Almidón, subida gradual (IG bajo). Diabéticos → H. de carbono complejos.</div>
+    <div class="edu-item">N monómeros → N−1 enlaces glucosídicos + N−1 H₂O. Regla universal: aplica también a aa (péptídico) y nucleótidos (fosfodiéster).</div>
+  </div>
+  <button class="btn-reset" onclick="resetGame()">↺ Intentar otro expediente</button>
+</div>
+
+<div id="victoryD" class="room result-screen">
+  <p class="result-icon">🏆</p>
+  <h2 class="result-title victory-title">¡EXPEDIENTE COMPLETADO!</h2>
+  <p class="result-subtitle">DELTA — Ácidos Nucleicos · Desbloqueado</p>
+  <div class="time-badge" id="vtD"></div>
+  <div class="edu-feedback">
+    <h4>// CONCEPTOS CLAVE DOMINADOS</h4>
+    <div class="edu-item">Nucleótido de ADN: desoxirribosa + base (A/T/G/C) + fosfato. Diferencia con ARN: desoxirribosa (sin —OH en C2') y Timina en vez de Uracilo.</div>
+    <div class="edu-item">Doble hélice: esqueleto azúcar-fosfato exterior, bases en interior, puentes H (A=T:2; G≡C:3), cadenas antiparalelas (5'→3' / 3'→5').</div>
+    <div class="edu-item">Tm y %GC: mayor proporción G-C → más puentes H → mayor temperatura de desnaturalización.</div>
+    <div class="edu-item">Chargaff: %A=%T, %G=%C. Replicación semiconservativa: 2 rondas → 4 moléculas, todas con BrdU, solo 2 con cadena parental. (Meselson-Stahl, 1958).</div>
+  </div>
+  <button class="btn-reset" onclick="resetGame()">↺ Intentar otro expediente</button>
+</div>
+
+<div id="gameover" class="room result-screen">
+  <p class="result-icon">⏳</p>
+  <h2 class="result-title gameover-title">TIEMPO AGOTADO</h2>
+  <p class="result-subtitle">Las muestras se han degradado. Repasa los conceptos e inténtalo de nuevo.</p>
+  <button class="btn-reset" onclick="resetGame()" style="margin-top:24px;">↺ Volver al inicio</button>
+</div>
+
+</div><!-- /room-inner -->
+</div><!-- /container -->
+<script>
+/* ══ ESTADO ══ */
+let timerInterval=null,timeLeft=720,hintsLeft=3,currentStep=0,currentPath=null;
+
+/* ══ TIMER ══ */
+function startTimer(){
+  document.getElementById('timer-display').style.display='block';
+  timerInterval=setInterval(()=>{
+    timeLeft--;
+    const m=Math.floor(timeLeft/60),s=timeLeft%60;
+    const el=document.getElementById('timer-display');
+    el.textContent=`${m}:${s<10?'0':''}${s}`;
+    el.classList.toggle('urgent',timeLeft<=90);
+    if(timeLeft<=0){clearInterval(timerInterval);showRoom('gameover');}
+  },1000);
+}
+
+/* ══ NAVEGACIÓN ══ */
+function showRoom(id){
+  document.querySelectorAll('.room').forEach(r=>r.classList.remove('active'));
+  document.getElementById(id).classList.add('active');
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+function startPath(path){
+  currentPath=path;currentStep=1;hintsLeft=3;
+  document.getElementById('progressWrap').classList.add('visible');
+  updateProgress();startTimer();showRoom(path+'1');
+}
+function updateProgress(){
+  document.getElementById('progLabel').textContent=`FASE ${currentStep}/4`;
+  document.getElementById('progFill').style.width=(currentStep/4*100)+'%';
+  document.getElementById('hintCounter').textContent=`💡 ${hintsLeft}`;
+}
+
+/* ══ PISTAS ══ */
+function useHint(id){
+  if(hintsLeft<=0)return;hintsLeft--;timeLeft=Math.max(0,timeLeft-30);
+  updateProgress();document.getElementById(id).style.display='block';
+  const btn=document.getElementById('hb'+id.replace('h',''));
+  if(btn)btn.disabled=true;
+}
+
+/* ══ FEEDBACK ══ */
+const FB={
+  A1:"✓ —NH₂ a la izquierda (básico, capta H⁺) y —COOH a la derecha (ácido, cede H⁺). Esta doble naturaleza hace al aminoácido anfótero (puede actuar como ácido o base según el pH del medio).",
+  A2:"✓ 1ª=secuencia lineal (enlace peptídico covalente). 2ª=hélice α o lámina β (puentes de H del esqueleto). 3ª=plegamiento 3D global (interacciones entre radicales R). 4ª=varias subunidades plegadas juntas (ej: hemoglobina, 4 cadenas).",
+  A3:"✓ Inhibición competitiva reversible: misma Vmax porque con suficiente sustrato se desplaza al inhibidor del centro activo. Km mayor porque se necesita más sustrato para alcanzar Vmax/2 en presencia del inhibidor.",
+  A4:"✓ El calor rompe solo los enlaces débiles (puentes H, hidrofóbicas) que mantienen las estructuras 2ª/3ª/4ª. El enlace peptídico covalente (1ª estructura) permanece intacto. Las proteasas digestivas lo hidrolizan igual → los aminoácidos se absorben con normalidad.",
+  B1:"✓ Enlace éster (—COO—) entre —COOH del ácido graso y —OH del glicerol. Reacción de esterificación (condensación): se libera 1 H₂O por cada enlace. Por tanto en un triglicérido se forman 3 enlaces éster y se liberan 3 H₂O.",
+  B2:"✓ ①Glucocálix (cadenas glucídicas en cara exterior, reconocimiento celular). ②Cabeza hidrófila del fosfolípido. ③Proteína integral transmembrana (canal, receptor o transportador). ④Colesterol (se intercala entre fosfolípidos regulando fluidez). ⑤Proteína periférica (superficie, sin atravesar la bicapa).",
+  B3:"✓ Isotónico = 0,9% NaCl = volumen 100% = flujo neto de agua = 0. La pared celular de celulosa de las células vegetales resiste la presión de turgencia impidiendo la hemólisis, a diferencia de los eritrocitos que carecen de pared.",
+  B4:"✓ Saponificación (hidrólisis alcalina): triglicérido + 3NaOH → glicerol + 3 jabones. El jabón es anfipático: cola hidrófoba (ácido graso C12-C18) se introduce en la grasa; cabeza hidrófila (—COO⁻Na⁺) mira al agua. Forman micelas que suspenden la grasa → eliminable con agua.",
+  C1:"✓ C1 es el carbono anomérico (el del antiguo aldehído): su –OH abajo da α-glucosa y arriba β-glucosa, y es responsable del poder reductor. Del C5 sale el C6 como –CH₂OH: la glucosa es una hexosa.",
+  C2:"✓ ①Amilasa (salival/pancreática) hidroliza almidón → dextrinas. ②La amilasa pancreática sigue hidrolizando las dextrinas → maltosa. ③Maltasa intestinal hidroliza maltosa → 2 glucosas libres que se absorben por los enterocitos.",
+  C3:"✓ La glucosa libre se absorbe directamente (sin digestión) → pico glucémico rápido y alto (IG=100). El almidón requiere hidrólisis enzimática gradual → liberación lenta de glucosa → pico suave y sostenido (IG bajo). Los diabéticos tipo 2 se benefician del IG bajo para evitar picos de glucemia que su páncreas no puede compensar.",
+  C4:"✓ 500 glucosas → 499 enlaces glucosídicos α(1→4); su hidrólisis consume 499 H₂O. Regla: N monómeros → N−1 enlaces + N−1 H₂O. La misma lógica aplica a aminoácidos (péptídico), nucleótidos (fosfodiéster) y cualquier polímero biológico de condensación.",
+  D1:"✓ Desoxirribosa (sin —OH en C2') como pentosa del ADN. Adenina como base púrica bicíclica (anillos purina). En la doble hélice, A se empareja con T mediante 2 puentes de H. En ARN: ribosa (con —OH en C2') y Uracilo en lugar de Timina.",
+  D2:"✓ ①Esqueleto azúcar-fosfato exterior. ②Base nitrogenada (interior, cara a cara). ③Puentes de hidrógeno entre bases complementarias (A=T: 2 puentes; G≡C: 3 puentes). ④Par de bases complementario. ⑤Orientación antiparalela (5'→3' una cadena, 3'→5' la otra, esencial para la replicación).",
+  D3:"✓ Mayor %GC → más puentes H por par → Tm más alta → ADN más termoestable. Chargaff: %A=%T=20% → %G=%C=30%. La muestra X tiene 40%AT y 60%GC. Experimento de Meselson-Stahl (1958) con ¹⁵N/¹⁴N demostró la replicación semiconservativa.",
+  D4:"✓ Ronda 1: 2 moléculas (cada una: 1 cadena parental + 1 cadena nueva BrdU). Ronda 2: 4 moléculas. 2 de ellas: 1 parental + 1 BrdU. Las otras 2: 2 cadenas BrdU (sin parental). TODAS tienen BrdU; SOLO 2 conservan cadena parental."
+};
+
+function showSuccess(roomId,fbKey,nextId){
+  const box=document.getElementById('m'+roomId);
+  box.textContent=FB[fbKey]||'✓ Correcto.';
+  box.className='msg-box msg-success';box.style.display='block';
+  setTimeout(()=>{
+    box.style.display='none';
+    if(nextId.startsWith('victory')){winGame(nextId);}
+    else{currentStep++;updateProgress();showRoom(nextId);}
+  },3200);
+}
+function showError(roomId,text){
+  const box=document.getElementById('m'+roomId);
+  box.textContent=text;box.className='msg-box msg-error';box.style.display='block';
+  setTimeout(()=>box.style.display='none',3500);
+}
+
+/* ══ CHECKS VÍA A ══ */
+function checkA1(){
+  const g1=document.getElementById('A1-g1').value,g2=document.getElementById('A1-g2').value;
+  if(!g1||!g2)return showError('A1','Selecciona ambos grupos antes de continuar.');
+  if(g1==='ok'&&g2==='ok')showSuccess('A1','A1','A2');
+  else showError('A1','❌ Revisa. El grupo básico (con nitrógeno) siempre queda a la izquierda del Cα por convenio.');
+}
+function checkA2(){
+  const ans={'1':'1','2':'2','3':'3','4':'4'};let ok=true;
+  for(let i=1;i<=4;i++){
+    const v=document.getElementById(`hA2-${i}`).value;
+    if(!v){showError('A2','Asigna un nivel a cada elemento.');return;}
+    if(v!==ans[String(i)])ok=false;
+  }
+  if(ok)showSuccess('A2','A2','A3');
+  else showError('A2','❌ Hay errores. 1ª=cadena lineal, 2ª=hélice/lámina, 3ª=plegamiento 3D, 4ª=varias subunidades.');
+}
+function checkA3(){
+  const q1=document.getElementById('A3-q1').value,q2=document.getElementById('A3-q2').value;
+  if(!q1||!q2)return showError('A3','Responde ambas preguntas.');
+  if(q1==='ok'&&q2==='ok')showSuccess('A3','A3','A4');
+  else showError('A3','❌ Pista: si la Vmax no cambia el inhibidor es competitivo y reversible. Con más [S] se desplaza al inhibidor.');
+}
+function checkSimple(roomId,nextId){
+  const el=document.getElementById(roomId+'-ans');
+  if(!el||!el.value)return showError(roomId,'Selecciona una respuesta antes de continuar.');
+  if(el.value==='ok')showSuccess(roomId,roomId,nextId);
+  else showError(roomId,'❌ Respuesta incorrecta. Revisa los conceptos con la pista si lo necesitas.');
+}
+
+/* ══ CHECKS VÍA B ══ */
+function checkB1(){
+  const e=document.getElementById('B1-enlace').value,r=document.getElementById('B1-reac').value;
+  if(!e||!r)return showError('B1','Selecciona ambas opciones.');
+  if(e==='ok'&&r==='ok')showSuccess('B1','B1','B2');
+  else showError('B1','❌ El enlace entre glicerol y ácido graso es ÉSTER (no peptídico ni glucosídico). Se forma por esterificación (condensación, −H₂O).');
+}
+function checkB2(){
+  const corr={'1':'gluco','2':'fosf','3':'pint','4':'col','5':'pper'};let errors=0;
+  for(let i=1;i<=5;i++){
+    const v=document.getElementById(`hB2-${i}`).value;
+    if(!v){showError('B2','Asigna un nombre a todos los componentes.');return;}
+    if(v!==corr[String(i)])errors++;
+  }
+  if(errors===0)showSuccess('B2','B2','B3');
+  else showError('B2',`❌ ${errors} error(es). Recuerda: glucocálix solo en cara exterior; colesterol entre fosfolípidos; proteína integral atraviesa la bicapa.`);
+}
+function checkB3(){
+  const q1=document.getElementById('B3-q1').value,q2=document.getElementById('B3-q2').value;
+  if(!q1||!q2)return showError('B3','Responde ambas preguntas.');
+  if(q1==='ok'&&q2==='ok')showSuccess('B3','B3','B4');
+  else showError('B3','❌ Isotónico = 0,9% NaCl = volumen 100%. La pared celular de celulosa explica la diferencia vegetal/animal.');
+}
+
+/* ══ CHECKS VÍA C ══ */
+function checkC1(){
+  const g1=document.getElementById('C1-g1').value,g2=document.getElementById('C1-g2').value;
+  if(!g1||!g2)return showError('C1','Selecciona ambos grupos.');
+  if(g1==='ok'&&g2==='ok')showSuccess('C1','C1','C2');
+  else showError('C1','❌ C1 lleva —OH anomérico (poder reductor; α/β). C6 lleva —CH₂OH (convierte la pentosa en hexosa).');
+}
+function checkC2(){
+  const corr={'1':'ami','2':'ami','3':'mal'};let ok=true;
+  for(let i=1;i<=3;i++){
+    const v=document.getElementById(`hC2-${i}`).value;
+    if(!v){showError('C2','Selecciona las tres enzimas.');return;}
+    if(v!==corr[String(i)])ok=false;
+  }
+  if(ok)showSuccess('C2','C2','C3');
+  else showError('C2','❌ ①Amilasa: almidón→dextrinas. ②Amilasa: dextrinas→maltosa. ③Maltasa: maltosa→glucosa.');
+}
+function checkC3(){
+  const q1=document.getElementById('C3-q1').value,q2=document.getElementById('C3-q2').value;
+  if(!q1||!q2)return showError('C3','Responde ambas preguntas.');
+  if(q1==='ok'&&q2==='ok')showSuccess('C3','C3','C4');
+  else showError('C3','❌ La glucosa libre no necesita digestión (sube rápido). El almidón es mejor para diabéticos por su IG bajo y subida gradual.');
+}
+
+/* ══ CHECKS VÍA D ══ */
+function checkD1(){
+  const g1=document.getElementById('D1-g1').value,g2=document.getElementById('D1-g2').value;
+  if(!g1||!g2)return showError('D1','Selecciona ambas opciones.');
+  if(g1==='ok'&&g2==='ok')showSuccess('D1','D1','D2');
+  else showError('D1','❌ ADN = desoxirribosa (sin —OH en C2\'). dAMP = desoxiADENOSINA → base Adenina (no Uracilo, que es del ARN).');
+}
+function checkD2(){
+  const corr={'1':'esq','2':'base','3':'ph','4':'par','5':'ap'};let errors=0;
+  for(let i=1;i<=5;i++){
+    const v=document.getElementById(`hD2-${i}`).value;
+    if(!v){showError('D2','Asigna un nombre a todos los elementos.');return;}
+    if(v!==corr[String(i)])errors++;
+  }
+  if(errors===0)showSuccess('D2','D2','D3');
+  else showError('D2',`❌ ${errors} error(es). ①Esqueleto exterior; ②Bases interior; ③Puentes H entre bases; ④Par complementario; ⑤Antiparalelas.`);
+}
+function checkD3(){
+  const q1=document.getElementById('D3-q1').value,q2=document.getElementById('D3-q2').value;
+  if(!q1||!q2)return showError('D3','Responde ambas preguntas.');
+  if(q1==='ok'&&q2==='ok')showSuccess('D3','D3','D4');
+  else showError('D3','❌ G≡C tiene 3 puentes H → más termoestable. Chargaff: si %A=20% → %T=20% → %G=%C=30%.');
+}
+
+/* ══ VICTORIA Y RESET ══ */
+function winGame(victoryId){
+  clearInterval(timerInterval);
+  document.getElementById('timer-display').style.display='none';
+  const elapsed=720-timeLeft,m=Math.floor(elapsed/60),s=elapsed%60;
+  const badge=document.getElementById('vt'+currentPath);
+  if(badge)badge.textContent=`⏱ ${m} min ${s} seg · Pistas usadas: ${3-hintsLeft}`;
+  showRoom(victoryId);
+}
+function resetGame(){
+  clearInterval(timerInterval);
+  timeLeft=720;hintsLeft=3;currentStep=0;currentPath=null;
+  const td=document.getElementById('timer-display');
+  td.style.display='none';td.classList.remove('urgent');
+  document.getElementById('progressWrap').classList.remove('visible');
+  document.getElementById('progFill').style.width='0%';
+  document.querySelectorAll('select').forEach(el=>el.value='');
+  document.querySelectorAll('.msg-box').forEach(el=>{el.textContent='';el.style.display='none';el.className='msg-box';});
+  document.querySelectorAll('.hint-box').forEach(el=>el.style.display='none');
+  document.querySelectorAll('.btn-hint').forEach(btn=>btn.disabled=false);
+  showRoom('intro');
+}
+document.querySelectorAll('.mission-card').forEach(card=>{
+  card.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' ')card.click();});
+});
+</script>
+<script>window.BC_DIF_CONF = {"base": 720, "inicio": ["startPath"], "errores": ["showError"], "reinicio": ["resetGame"], "refrescar": "updateProgress"};</script>
+<!-- ═══ BioCelia · módulo de niveles de dificultad (añadido 2026-10) ═══ -->
+<style>
+  #bcDif{position:fixed;inset:0;z-index:9999;display:flex;align-items:center;justify-content:center;
+    background:rgba(2,6,23,.88);padding:16px;font-family:'Segoe UI',system-ui,sans-serif}
+  #bcDif .bc-card{background:#0f172a;color:#f8fafc;border:1px solid #334155;border-radius:16px;
+    max-width:620px;width:100%;padding:26px 22px;box-shadow:0 20px 50px rgba(0,0,0,.5)}
+  #bcDif h2{margin:0 0 6px;font-size:1.35rem;color:#38bdf8;text-align:center}
+  #bcDif p.bc-sub{margin:0 0 18px;text-align:center;color:#94a3b8;font-size:.92rem}
+  #bcDif .bc-opts{display:grid;gap:12px}
+  #bcDif button{all:unset;cursor:pointer;display:block;border-radius:12px;padding:14px 16px;
+    border:2px solid #334155;background:#020617;transition:.2s}
+  #bcDif button:hover,#bcDif button:focus-visible{border-color:#38bdf8;transform:translateY(-2px)}
+  #bcDif .bc-t{font-weight:800;font-size:1.05rem;display:block;margin-bottom:4px}
+  #bcDif .bc-d{font-size:.86rem;color:#cbd5e1;line-height:1.45}
+  #bcDifBadge{position:fixed;left:12px;bottom:12px;z-index:9998;background:#0f172a;color:#e2e8f0;
+    border:1px solid #334155;border-radius:999px;padding:6px 12px;font:600 .8rem 'Segoe UI',sans-serif}
+</style>
+<div id="bcDif" role="dialog" aria-modal="true" aria-labelledby="bcDifT">
+  <div class="bc-card">
+    <h2 id="bcDifT">Elige tu nivel</h2>
+    <p class="bc-sub">El contenido es el mismo; cambian el tiempo, las ayudas y lo que cuesta equivocarse. Las opciones se barajan en cada partida.</p>
+    <div class="bc-opts">
+      <button data-n="basico"><span class="bc-t">🟢 Básico · aprendo el tema</span>
+        <span class="bc-d">Un 50 % más de tiempo, 5 pistas, los errores no penalizan y en cada pregunta de opciones se descarta una respuesta incorrecta.</span></button>
+      <button data-n="intermedio"><span class="bc-t">🟡 Intermedio · repaso</span>
+        <span class="bc-d">Tiempo normal, 3 pistas y cada error resta 20 segundos.</span></button>
+      <button data-n="pau"><span class="bc-t">🔴 PAU · modo examen</span>
+        <span class="bc-d">Un 25 % menos de tiempo, 1 sola pista y cada error resta 45 segundos. Para quien quiere la máxima nota.</span></button>
+    </div>
+  </div>
+</div>
+<script>
+(function () {
+  const C = window.BC_DIF_CONF || {};
+  const NIVELES = {
+    basico:     { t: 1.5,  pistas: 5, castigo: 0,  quitar: true,  txt: '🟢 Básico' },
+    intermedio: { t: 1,    pistas: 3, castigo: 20, quitar: false, txt: '🟡 Intermedio' },
+    pau:        { t: 0.75, pistas: 1, castigo: 45, quitar: false, txt: '🔴 PAU' }
+  };
+  let N = null;
+  const caja = document.getElementById('bcDif');
+  const g = (nombre) => { try { return eval(nombre); } catch (e) { return undefined; } };
+
+  function barajar(sel) {
+    const ops = Array.from(sel.options).filter(o => o.value !== '');
+    for (let i = ops.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [ops[i], ops[j]] = [ops[j], ops[i]];
+    }
+    ops.forEach(o => sel.appendChild(o));
+  }
+  function prepararOpciones() {
+    document.querySelectorAll('select').forEach(sel => {
+      if (!sel.dataset.bcOrig) sel.dataset.bcOrig = sel.innerHTML;
+      else sel.innerHTML = sel.dataset.bcOrig;
+      barajar(sel);
+      sel.value = '';
+      if (N && N.quitar) {
+        const malas = Array.from(sel.options).filter(o => o.value && !['ok', 'correct'].includes(o.value));
+        const buena = Array.from(sel.options).some(o => ['ok', 'correct'].includes(o.value));
+        if (buena && malas.length >= 2) malas[Math.floor(Math.random() * malas.length)].remove();
+      }
+    });
+  }
+  function aplicar() {
+    if (!N) return;
+    if (typeof g('timeLeft') === 'number' && C.base) timeLeft = Math.round(C.base * N.t);
+    if (typeof g('hintsLeft') === 'number') hintsLeft = N.pistas;
+    if (C.refrescar && typeof window[C.refrescar] === 'function') { try { window[C.refrescar](); } catch (e) {} }
+    if (C.contador) { const el = document.getElementById(C.contador); if (el) el.textContent = '💡 ' + N.pistas; }
+  }
+  function elegir(clave) {
+    N = NIVELES[clave];
+    caja.style.display = 'none';
+    let b = document.getElementById('bcDifBadge');
+    if (!b) { b = document.createElement('div'); b.id = 'bcDifBadge'; document.body.appendChild(b); }
+    b.textContent = 'Nivel: ' + N.txt;
+    prepararOpciones();
+    aplicar();
+  }
+  caja.querySelectorAll('button').forEach(bt => bt.addEventListener('click', () => elegir(bt.dataset.n)));
+
+  // El juego reinicia tiempo y pistas al empezar: se vuelven a aplicar los del nivel.
+  (C.inicio || []).forEach(nombre => {
+    const orig = window[nombre];
+    if (typeof orig !== 'function') return;
+    window[nombre] = function () { const r = orig.apply(this, arguments); aplicar(); return r; };
+  });
+  // Penalización por respuesta incorrecta (mensajes que empiezan por ❌).
+  (C.errores || []).forEach(nombre => {
+    const orig = window[nombre];
+    if (typeof orig !== 'function') return;
+    window[nombre] = function () {
+      const texto = Array.from(arguments).find(a => typeof a === 'string' && a.trim().startsWith('❌'));
+      if (texto && N && N.castigo && typeof g('timeLeft') === 'number') timeLeft = Math.max(1, timeLeft - N.castigo);
+      return orig.apply(this, arguments);
+    };
+  });
+  // Al reiniciar se puede cambiar de nivel.
+  (C.reinicio || []).forEach(nombre => {
+    const orig = window[nombre];
+    if (typeof orig !== 'function') return;
+    window[nombre] = function () { const r = orig.apply(this, arguments); caja.style.display = 'flex'; return r; };
+  });
+})();
+</script>
+</body>
+</html>

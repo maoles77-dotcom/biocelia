@@ -1,0 +1,928 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Proyecto Quimera · BioCelia</title>
+<meta name="description" content="Escape room de inmunología para la PAU de Andalucía, con tres niveles y retos aleatorios. BioCelia.">
+<!-- Generado con el motor de escape rooms de BioCelia (2026-27). El contenido está en la constante JUEGO. -->
+<style>
+  :root{
+    --bg:#020617; --panel:#0f172a; --panel2:#111c33; --borde:#334155; --texto:#f1f5f9; --suave:#94a3b8;
+    --acento:#10b981; --acento2:#ef4444; --ok:#22c55e; --mal:#ef4444; --aviso:#f59e0b;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:'Segoe UI',system-ui,sans-serif;color:var(--texto);
+    background:radial-gradient(circle at 20% 0%, color-mix(in srgb,var(--acento) 18%, #020617) 0%, #020617 60%);min-height:100vh;padding:16px}
+  .caja{max-width:860px;margin:0 auto;background:var(--panel);border:1px solid var(--borde);border-radius:16px;
+    box-shadow:0 0 40px color-mix(in srgb,var(--acento) 15%, transparent);overflow:hidden}
+  header{padding:22px 22px 14px;border-bottom:1px solid var(--borde);text-align:center}
+  header h1{margin:0;font-size:1.7rem;letter-spacing:1px;color:var(--acento)}
+  header p{margin:6px 0 0;color:var(--suave);font-size:.9rem}
+  .barra{display:none;gap:10px;align-items:center;justify-content:space-between;padding:10px 18px;background:var(--bg);
+    border-bottom:1px solid var(--borde);font:600 .9rem ui-monospace,Consolas,monospace;flex-wrap:wrap}
+  .barra.on{display:flex}
+  .pips{display:flex;gap:6px}
+  .pip{width:28px;height:8px;border-radius:4px;background:var(--borde)}
+  .pip.hecho{background:var(--ok)} .pip.ayuda{background:var(--aviso)} .pip.actual{background:var(--acento)}
+  #reloj.alerta{color:var(--mal)}
+  main{padding:22px}
+  .sala{display:none} .sala.on{display:block;animation:entra .4s ease}
+  @keyframes entra{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+  .historia{background:var(--bg);border-left:4px solid var(--acento2);border-radius:8px;padding:16px;line-height:1.6;margin-bottom:18px}
+  .etiqueta{font:700 .78rem ui-monospace,Consolas,monospace;color:var(--acento2);display:block;margin-bottom:8px;letter-spacing:.5px}
+  h2{margin:0 0 12px;font-size:1.25rem;color:var(--acento)}
+  .pregunta{font-weight:700;line-height:1.55;margin:0 0 14px}
+  .fuente{font:.76rem ui-monospace,Consolas,monospace;color:var(--suave);margin-top:-8px;margin-bottom:12px;display:block}
+  .opc{display:block;width:100%;text-align:left;background:var(--panel2);color:var(--texto);border:2px solid var(--borde);
+    border-radius:10px;padding:12px 14px;margin-bottom:10px;font-size:.98rem;line-height:1.45;cursor:pointer;transition:.15s}
+  .opc:hover:not(:disabled){border-color:var(--acento)}
+  .opc.sel{border-color:var(--acento);background:color-mix(in srgb,var(--acento) 14%, var(--panel2))}
+  .opc.bien{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 16%, var(--panel2))}
+  .opc.malsel{border-color:var(--mal);background:color-mix(in srgb,var(--mal) 14%, var(--panel2))}
+  .opc:disabled{cursor:default}
+  input[type=text],input[type=number],select{width:100%;padding:12px;border-radius:10px;border:2px solid var(--borde);background:var(--panel2);
+    color:var(--texto);font-size:1rem}
+  .fila-orden{display:flex;gap:10px;align-items:center;margin-bottom:8px}
+  .fila-orden span{flex:1;background:var(--panel2);border:1px solid var(--borde);border-radius:8px;padding:9px 12px;line-height:1.35}
+  .fila-orden select{width:90px;flex:none}
+  .botones{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+  .btn{border:none;border-radius:10px;padding:12px 18px;font-weight:800;font-size:1rem;cursor:pointer}
+  .btn-p{background:var(--acento);color:#020617} .btn-p:hover{filter:brightness(1.1)}
+  .btn-s{background:transparent;color:var(--texto);border:2px solid var(--borde)}
+  .btn-s:disabled{opacity:.4;cursor:not-allowed}
+  .msg{display:none;margin-top:14px;padding:12px 14px;border-radius:10px;line-height:1.5}
+  .msg.ok{display:block;background:color-mix(in srgb,var(--ok) 14%, transparent);border:1px solid var(--ok)}
+  .msg.mal{display:block;background:color-mix(in srgb,var(--mal) 12%, transparent);border:1px solid var(--mal)}
+  .msg.pista{display:block;background:color-mix(in srgb,var(--aviso) 12%, transparent);border:1px solid var(--aviso)}
+  .niveles{display:grid;gap:12px;margin-top:6px}
+  .nivel{all:unset;cursor:pointer;display:block;border:2px solid var(--borde);border-radius:12px;padding:14px 16px;background:var(--bg);transition:.2s}
+  .nivel:hover,.nivel:focus-visible{border-color:var(--acento);transform:translateY(-2px)}
+  .nivel b{display:block;font-size:1.05rem;margin-bottom:4px}
+  .nivel small{color:var(--suave);line-height:1.45;display:block}
+  .nivel em{display:block;margin-top:6px;color:var(--ok);font-style:normal;font-size:.8rem;font-weight:700}
+  .clave{font:800 2rem ui-monospace,Consolas,monospace;letter-spacing:10px;text-align:center;color:var(--acento);margin:10px 0}
+  .resumen li{margin-bottom:6px;line-height:1.45}
+  .centro{text-align:center}
+  @media (max-width:520px){ header h1{font-size:1.35rem} main{padding:16px} .fila-orden{flex-direction:column;align-items:stretch} .fila-orden select{width:100%} }
+</style>
+</head>
+<body>
+<div class="caja">
+  <header><h1>☣️ Proyecto Quimera</h1><p>Escape room de inmunología · PAU Biología Andalucía 2026-27</p></header>
+  <div class="barra" id="barra">
+    <span id="nivelTxt"></span>
+    <span class="pips" id="pips"></span>
+    <span>💡 <span id="pistasTxt"></span></span>
+    <span id="reloj">--:--</span>
+  </div>
+  <main>
+    <section class="sala on" id="s-inicio">
+      <div class="historia"><span class="etiqueta">// INFORME DE MISIÓN</span><span id="intro"></span></div>
+      <h2>Elige tu nivel</h2>
+      <div class="niveles" id="niveles"></div>
+      <p style="color:var(--suave);font-size:.85rem;margin-top:14px">Cada partida sortea <span id="nSalas"></span> retos de un banco más amplio: si lo repites, saldrán retos distintos. Cada reto resuelto te da una letra de la clave final.</p>
+    </section>
+    <section class="sala" id="s-reto"></section>
+    <section class="sala" id="s-fin"></section>
+  </main>
+</div>
+
+<script>
+const JUEGO = {
+ "id": "quimera",
+ "salas": 5,
+ "clave": "LINFO",
+ "intro": "Un patógeno de diseño, la <b>cepa Quimera</b>, ha escapado de un laboratorio de alta seguridad. Los pacientes llegan con fallos del sistema inmunitario muy distintos. Resuelve cada caso clínico para ir completando la clave que sella el laboratorio. <b>Contenido: bloque F (inmunología)</b>, con casos que lo relacionan con genética y metabolismo en el nivel PAU.",
+ "victoria": "🌍 Pandemia evitada",
+ "derrota": "La cepa Quimera se ha extendido. Repasa los casos y vuelve a intentarlo: saldrán retos distintos.",
+ "retos": {
+  "basico": [
+   {
+    "tipo": "opciones",
+    "tema": "Órganos linfoides",
+    "titulo": "Paciente sin timo",
+    "escena": "Un niño nace sin timo y sufre infecciones víricas continuas.",
+    "pregunta": "¿Qué células no maduran y qué respuesta queda más afectada?",
+    "opciones": [
+     "Los linfocitos T: falla sobre todo la respuesta celular.",
+     "Los linfocitos B: falla sobre todo la respuesta humoral.",
+     "Los macrófagos: falla sobre todo la inflamación.",
+     "Los neutrófilos: falla sobre todo la fagocitosis."
+    ],
+    "pista": "Fíjate en la letra: T de timo. Los B maduran en la médula ósea (bone marrow).",
+    "explicacion": "En el timo maduran los linfocitos T, responsables de la respuesta celular frente a células infectadas por virus."
+   },
+   {
+    "tipo": "texto",
+    "tema": "Moléculas del sistema inmunitario",
+    "titulo": "La molécula llave",
+    "escena": "Las células plasmáticas del paciente 02 liberan unas glucoproteínas en forma de Y.",
+    "pregunta": "¿Cómo se llaman las moléculas que fabrican las células plasmáticas y que se unen específicamente al antígeno?",
+    "respuestas": [
+     "anticuerpo",
+     "inmunoglobulina"
+    ],
+    "solucion": "Anticuerpos (inmunoglobulinas).",
+    "pista": "Su nombre técnico empieza por «inmuno...».",
+    "explicacion": "Los anticuerpos o inmunoglobulinas son glucoproteínas que fabrican las células plasmáticas, derivadas de linfocitos B.",
+    "formato": "Una palabra"
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Barreras externas",
+    "titulo": "Entrada por la boca",
+    "escena": "La cepa Quimera llega en un alimento contaminado.",
+    "pregunta": "¿Qué barrera química encuentra al llegar al estómago?",
+    "opciones": [
+     "El pH ácido del jugo gástrico.",
+     "La lisozima de las lágrimas.",
+     "Los cilios y el moco de la tráquea.",
+     "La queratina de la piel."
+    ],
+    "pista": "Cada vía de entrada tiene su barrera: piensa en el aparato digestivo.",
+    "explicacion": "El pH ácido del estómago destruye muchos microorganismos. Es una barrera química de la primera línea de defensa."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Inflamación",
+    "titulo": "Herida enrojecida",
+    "escena": "Un técnico se corta con un vidrio contaminado. A las pocas horas la zona está roja y caliente.",
+    "pregunta": "¿Qué causa el enrojecimiento y el calor?",
+    "opciones": [
+     "La vasodilatación: llega más sangre a la zona.",
+     "La rotura de glóbulos rojos dentro de la herida.",
+     "Los anticuerpos IgE que salen de la sangre.",
+     "La fiebre producida por los linfocitos T."
+    ],
+    "pista": "Piensa en lo que hace la histamina sobre los vasos sanguíneos.",
+    "explicacion": "La histamina y otros mediadores dilatan los vasos: llega más sangre (rubor y calor) y aumenta la permeabilidad (edema)."
+   },
+   {
+    "tipo": "orden",
+    "tema": "Inmunidad innata",
+    "titulo": "Orden de fagocitosis",
+    "escena": "Un neutrófilo encuentra una bacteria de la cepa Quimera.",
+    "pregunta": "Ordena los pasos de la fagocitosis:",
+    "elementos": [
+     "El fagocito emite pseudópodos y engloba la bacteria",
+     "Se forma un fagosoma",
+     "El fagosoma se une a lisosomas",
+     "Las enzimas de los lisosomas digieren la bacteria"
+    ],
+    "solucion": "El fagocito emite pseudópodos y engloba la bacteria → Se forma un fagosoma → El fagosoma se une a lisosomas → Las enzimas de los lisosomas digieren la bacteria",
+    "pista": "Primero se engloba y al final se digiere.",
+    "explicacion": "Pseudópodos → fagosoma → unión con lisosomas → digestión."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Inmunidad pasiva natural",
+    "titulo": "Protección del feto",
+    "escena": "Una paciente embarazada tiene anticuerpos frente a la cepa.",
+    "pregunta": "¿Qué clase de anticuerpo pasa de la madre al feto a través de la placenta?",
+    "opciones": [
+     "IgG",
+     "IgA",
+     "IgM",
+     "IgE"
+    ],
+    "pista": "Es la clase más abundante en sangre y la que predomina en la respuesta secundaria.",
+    "explicacion": "La IgG es la única inmunoglobulina que atraviesa la placenta; la IgA pasa con la leche materna."
+   },
+   {
+    "tipo": "texto",
+    "tema": "Tipos de inmunidad",
+    "titulo": "El bebé lactante",
+    "escena": "Un recién nacido toma leche materna rica en IgA frente a la cepa.",
+    "pregunta": "¿Qué tipo de inmunidad adquiere el bebé? (dos palabras)",
+    "respuestas": [
+     "pasiva natural",
+     "natural pasiva"
+    ],
+    "solucion": "Pasiva natural.",
+    "pista": "No la fabrica el bebé y no interviene la medicina.",
+    "explicacion": "Es pasiva (recibe anticuerpos ya formados, sin memoria) y natural (sin intervención médica).",
+    "formato": "Dos palabras"
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Vacunas y sueros",
+    "titulo": "Viaje en dos meses",
+    "escena": "Un cooperante viajará dentro de dos meses a una zona donde circula la cepa.",
+    "pregunta": "¿Qué le conviene administrar ahora?",
+    "opciones": [
+     "Una vacuna: genera memoria y protege durante mucho tiempo.",
+     "Un suero: protege desde el primer día y durante años.",
+     "Un antibiótico: evita que el patógeno se multiplique.",
+     "Un antihistamínico: impide la inflamación."
+    ],
+    "pista": "¿Hay tiempo para que su propio sistema inmunitario responda?",
+    "explicacion": "Con tiempo por delante se vacuna: inmunidad activa artificial, preventiva y duradera. El suero se reserva para urgencias."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Órganos linfoides",
+    "titulo": "Médula ósea",
+    "escena": "El paciente 03 recibe un trasplante de médula ósea.",
+    "pregunta": "¿Qué linfocitos se forman y maduran en la médula ósea?",
+    "opciones": [
+     "Los linfocitos B.",
+     "Los linfocitos T.",
+     "Solo las células NK.",
+     "Ningún linfocito: solo glóbulos rojos."
+    ],
+    "pista": "B de bone marrow (médula ósea, en inglés).",
+    "explicacion": "En la médula ósea se originan todas las células sanguíneas y maduran los linfocitos B; los T maduran en el timo."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Inmunidad innata",
+    "titulo": "Aviso a los vecinos",
+    "escena": "Las células del pulmón infectadas por un virus de la cepa liberan unas proteínas que protegen a las células cercanas.",
+    "pregunta": "¿Cómo se llaman esas proteínas?",
+    "opciones": [
+     "Interferones.",
+     "Histaminas.",
+     "Inmunoglobulinas.",
+     "Perforinas."
+    ],
+    "pista": "Su nombre recuerda que «interfieren» con la multiplicación del virus.",
+    "explicacion": "Los interferones son proteínas que liberan las células infectadas por virus y que protegen a las vecinas: inmunidad innata."
+   },
+   {
+    "tipo": "texto",
+    "tema": "Respuesta humoral",
+    "titulo": "Fábrica de anticuerpos",
+    "escena": "Un linfocito B ha reconocido el antígeno de la cepa y se ha activado.",
+    "pregunta": "¿Cómo se llaman las células en que se transforma y que secretan los anticuerpos?",
+    "respuestas": [
+     "plasmatica"
+    ],
+    "solucion": "Células plasmáticas.",
+    "pista": "Tienen un retículo endoplasmático rugoso muy desarrollado.",
+    "explicacion": "El linfocito B activado se divide y forma células plasmáticas (secretan anticuerpos) y células de memoria.",
+    "formato": "Una o dos palabras"
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Barreras externas",
+    "titulo": "Lágrimas",
+    "escena": "Una gota con bacterias de la cepa cae en el ojo de un técnico.",
+    "pregunta": "¿Qué sustancia de las lágrimas rompe la pared de muchas bacterias?",
+    "opciones": [
+     "La lisozima.",
+     "La histamina.",
+     "La inmunoglobulina E.",
+     "El interferón."
+    ],
+    "pista": "También está en la saliva.",
+    "explicacion": "La lisozima hidroliza la pared bacteriana: es una barrera química de la primera línea de defensa."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Innata y adaptativa",
+    "titulo": "La gran diferencia",
+    "escena": "El equipo compara las dos líneas de defensa interna.",
+    "pregunta": "¿Qué característica tiene la inmunidad adaptativa y no la innata?",
+    "opciones": [
+     "Memoria: responde mejor la segunda vez.",
+     "Rapidez: actúa en minutos desde el primer contacto.",
+     "Actúa igual frente a cualquier agente extraño.",
+     "Está formada por barreras como la piel."
+    ],
+    "pista": "Piensa en por qué algunas enfermedades se pasan una sola vez.",
+    "explicacion": "La adaptativa es específica y tiene memoria; la innata es inmediata e inespecífica."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Inflamación",
+    "titulo": "La herida supura",
+    "escena": "La herida del técnico produce un líquido amarillento.",
+    "pregunta": "¿Qué es el pus?",
+    "opciones": [
+     "Restos de leucocitos y microorganismos muertos.",
+     "Anticuerpos acumulados en la zona de la herida.",
+     "Plasma coagulado por la acción de las plaquetas.",
+     "Histamina liberada por los mastocitos dañados."
+    ],
+    "pista": "Es el resultado de la «batalla» de la fagocitosis.",
+    "explicacion": "El pus son restos de leucocitos (sobre todo neutrófilos) y de microorganismos muertos."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Tipos de inmunidad",
+    "titulo": "Campaña de vacunación",
+    "escena": "Se vacuna a todo el personal del laboratorio frente a la cepa.",
+    "pregunta": "¿Qué tipo de inmunidad adquieren?",
+    "opciones": [
+     "Activa artificial.",
+     "Pasiva artificial.",
+     "Activa natural.",
+     "Pasiva natural."
+    ],
+    "pista": "¿Fabrican ellos los anticuerpos? ¿Interviene la medicina?",
+    "explicacion": "Activa (su organismo fabrica anticuerpos y memoria) y artificial (por intervención médica)."
+   }
+  ],
+  "intermedio": [
+   {
+    "tipo": "opciones",
+    "tema": "Vacunas y sueros",
+    "titulo": "Mordedura sospechosa",
+    "escena": "El paciente 02 ha sido mordido por un animal con rabia. Hoy recibe un tratamiento que eleva al instante sus anticuerpos, que desaparecen en pocas semanas.",
+    "pregunta": "¿Qué le hemos inyectado y qué tipo de inmunidad es?",
+    "opciones": [
+     "Suero (anticuerpos ya formados): inmunidad pasiva artificial, sin memoria.",
+     "Una dosis de recuerdo de la vacuna: inmunidad activa natural inmediata.",
+     "Antígenos atenuados: inmunidad activa artificial que actúa en horas."
+    ],
+    "pista": "Una vacuna tarda días en provocar anticuerpos; aquí el pico es inmediato.",
+    "explicacion": "Solo un suero eleva los anticuerpos al instante, porque los aporta ya hechos. En la práctica, frente a la rabia se combinan suero y vacuna."
+   },
+   {
+    "tipo": "numero",
+    "tema": "Estructura del anticuerpo",
+    "titulo": "Parátopos",
+    "escena": "Cada anticuerpo IgG tiene dos sitios idénticos de unión al antígeno.",
+    "pregunta": "¿Cuántos sitios de unión al antígeno tiene una molécula de IgM pentamérica?",
+    "valor": 10,
+    "tolerancia": 0,
+    "solucion": "10 (5 monómeros × 2).",
+    "pista": "La IgM es un pentámero: cinco unidades con forma de Y.",
+    "explicacion": "Cada monómero tiene dos parátopos; cinco monómeros, diez. Por eso la IgM aglutina tan bien."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Respuesta primaria y secundaria",
+    "titulo": "Los gemelos",
+    "escena": "A dos gemelos univitelinos se les inyecta el mismo antígeno: el pico de anticuerpos llega a los 20 días en A y a los 5 en B.",
+    "pregunta": "¿Cómo se explica la diferencia?",
+    "opciones": [
+     "B ya había estado en contacto con el antígeno: da una respuesta secundaria.",
+     "B tiene más linfocitos porque los gemelos no son genéticamente idénticos.",
+     "A tiene una inmunodeficiencia que le impide formar anticuerpos IgG."
+    ],
+    "pista": "Son genéticamente idénticos: la diferencia tiene que venir de su historia.",
+    "explicacion": "B tiene células de memoria de un contacto anterior: respuesta secundaria, rápida e intensa (IgG). A da una primaria (IgM).",
+    "fuente": "Adaptado de PAU Andalucía 2023, titular de julio, B5"
+   },
+   {
+    "tipo": "orden",
+    "tema": "Respuesta humoral",
+    "titulo": "Activación en cadena",
+    "escena": "Un macrófago ha fagocitado una bacteria de la cepa.",
+    "pregunta": "Ordena los pasos de la respuesta humoral:",
+    "elementos": [
+     "El macrófago fagocita y procesa el antígeno",
+     "Presenta fragmentos del antígeno unidos al CMH al linfocito T colaborador",
+     "El T colaborador libera citocinas que activan al linfocito B",
+     "El linfocito B se divide en células plasmáticas y de memoria",
+     "Las células plasmáticas secretan anticuerpos"
+    ],
+    "solucion": "El macrófago fagocita y procesa el antígeno → Presenta fragmentos del antígeno unidos al CMH al linfocito T colaborador → El T colaborador libera citocinas que activan al linfocito B → El linfocito B se divide en células plasmáticas y de memoria → Las células plasmáticas secretan anticuerpos",
+    "pista": "Empieza por la presentación del antígeno y termina con los anticuerpos.",
+    "explicacion": "Presentación (macrófago + CMH) → T colaborador → citocinas → linfocito B → plasmáticas (anticuerpos) y memoria."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Respuesta celular",
+    "titulo": "Virus escondido",
+    "escena": "Se añaden anticuerpos IgG específicos a un cultivo de células hepáticas infectadas por un virus, pero el virus sigue multiplicándose dentro.",
+    "pregunta": "¿Por qué no funciona y quién puede eliminar la infección?",
+    "opciones": [
+     "Los anticuerpos no entran en las células; las infectadas las destruye el linfocito T citotóxico.",
+     "La IgG necesita el complemento; sin él actúan los linfocitos B, que fagocitan las células.",
+     "El virus muta tan deprisa que la IgG no lo reconoce; solo los macrófagos lo eliminan."
+    ],
+    "pista": "Anticuerpos: fuera de las células. Células infectadas: respuesta celular.",
+    "explicacion": "Frente a células infectadas actúa la respuesta celular: el T citotóxico reconoce el antígeno unido al CMH y destruye la célula."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Trasplantes",
+    "titulo": "Dos riñones",
+    "escena": "Dos pacientes reciben un riñón: uno de su gemelo univitelino y otro de un donante fallecido compatible.",
+    "pregunta": "¿Cuál necesitará inmunosupresores de por vida?",
+    "opciones": [
+     "El del donante fallecido: sus proteínas del CMH no son idénticas.",
+     "El del gemelo: los órganos de gemelos univitelinos se rechazan más.",
+     "Ninguno: si el grupo sanguíneo coincide, nunca hay rechazo."
+    ],
+    "pista": "El rechazo depende de las proteínas del CMH (HLA).",
+    "explicacion": "El isotrasplante (gemelo) no se rechaza; el alotrasplante sí puede, aunque sea compatible: hacen falta inmunosupresores."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Alergia",
+    "titulo": "Polen en primavera",
+    "escena": "Una investigadora alérgica al polen vuelve a respirarlo.",
+    "pregunta": "¿Qué ocurre en este nuevo contacto?",
+    "opciones": [
+     "El polen se une a la IgE de los mastocitos, que liberan histamina.",
+     "El polen activa a los T citotóxicos, que destruyen la mucosa.",
+     "El polen provoca por primera vez la producción de IgM."
+    ],
+    "pista": "Piensa en la inmunoglobulina de las alergias y en la célula que la lleva en su membrana.",
+    "explicacion": "En la sensibilización se formó IgE, que quedó fijada a los mastocitos. Ahora el alérgeno se une a ella y se libera histamina."
+   },
+   {
+    "tipo": "texto",
+    "tema": "Antígeno y anticuerpo",
+    "titulo": "El punto de encaje",
+    "escena": "El análisis molecular muestra dónde se une el anticuerpo a la proteína de la cepa.",
+    "pregunta": "¿Cómo se llama la zona del antígeno que reconoce el anticuerpo?",
+    "respuestas": [
+     "epitopo",
+     "determinante antigenico"
+    ],
+    "solucion": "Epítopo (determinante antigénico).",
+    "pista": "Su pareja en el anticuerpo es el parátopo.",
+    "explicacion": "El epítopo del antígeno encaja con el parátopo del anticuerpo mediante enlaces débiles.",
+    "formato": "Una palabra"
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Alteraciones",
+    "titulo": "La mielina",
+    "escena": "En la esclerosis múltiple los linfocitos T del paciente destruyen la mielina de sus propias neuronas.",
+    "pregunta": "¿Qué tipo de alteración es?",
+    "opciones": [
+     "Autoinmunidad.",
+     "Hipersensibilidad.",
+     "Inmunodeficiencia adquirida.",
+     "Inmunodeficiencia congénita."
+    ],
+    "pista": "El sistema inmunitario ataca algo propio.",
+    "explicacion": "Es una enfermedad autoinmune: pérdida de tolerancia frente a moléculas propias."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Reacciones antígeno-anticuerpo",
+    "titulo": "Grupo sanguíneo",
+    "escena": "Antes de una transfusión se mezcla la sangre del paciente con anticuerpos anti-A y anti-B.",
+    "pregunta": "¿En qué reacción antígeno-anticuerpo se basa la prueba?",
+    "opciones": [
+     "Aglutinación.",
+     "Precipitación.",
+     "Neutralización.",
+     "Opsonización."
+    ],
+    "pista": "Los glóbulos rojos forman grumos visibles.",
+    "explicacion": "Los anticuerpos unen glóbulos rojos con el antígeno correspondiente y forman agregados: aglutinación."
+   },
+   {
+    "tipo": "numero",
+    "tema": "Estructura del anticuerpo",
+    "titulo": "Cadenas",
+    "escena": "El análisis de una IgG de la paciente separa sus cadenas polipeptídicas.",
+    "pregunta": "¿Cuántas cadenas polipeptídicas forman una molécula de IgG?",
+    "valor": 4,
+    "tolerancia": 0,
+    "solucion": "4 (dos pesadas y dos ligeras).",
+    "pista": "Iguales dos a dos.",
+    "explicacion": "Dos cadenas pesadas y dos ligeras, unidas por puentes disulfuro.",
+    "formato": "Número"
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Memoria inmunológica",
+    "titulo": "La gripe cada año",
+    "escena": "La vacuna de la gripe se pone cada otoño, mientras que la de la rubeola protege toda la vida.",
+    "pregunta": "¿Por qué?",
+    "opciones": [
+     "El virus de la gripe cambia sus antígenos y la memoria anterior no lo reconoce.",
+     "La vacuna de la gripe no genera células de memoria, solo anticuerpos IgM.",
+     "Los anticuerpos contra la gripe se destruyen cada invierno por el frío."
+    ],
+    "pista": "¿Qué le pasa al virus de un año para otro?",
+    "explicacion": "El virus de la gripe muta con frecuencia y sus antígenos cambian; los de la rubeola varían muy poco."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Sueroterapia",
+    "titulo": "Suero de convalecientes",
+    "escena": "Durante un brote de ébola se trató a algunos enfermos con suero de personas que habían superado la infección.",
+    "pregunta": "¿Por qué?",
+    "opciones": [
+     "Ese suero contiene anticuerpos contra el virus: protección inmediata.",
+     "Ese suero contiene virus atenuados que actúan como vacuna.",
+     "Ese suero contiene linfocitos de memoria que se instalan en el enfermo."
+    ],
+    "pista": "Sueroterapia = anticuerpos ya formados.",
+    "explicacion": "Es inmunidad pasiva artificial: los anticuerpos actúan de inmediato, mientras el enfermo desarrolla su respuesta primaria.",
+    "fuente": "Inspirado en PAU Andalucía 2015, examen 4, B5"
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Memoria inmunológica",
+    "titulo": "Varicela",
+    "escena": "La varicela suele padecerse una sola vez en la vida.",
+    "pregunta": "¿Por qué no se repite?",
+    "opciones": [
+     "La primera infección deja células de memoria que frenan las siguientes.",
+     "El virus desaparece del organismo y ya no puede volver a infectarlo.",
+     "Los anticuerpos IgM de la primera infección duran toda la vida."
+    ],
+    "pista": "Respuesta primaria frente a secundaria.",
+    "explicacion": "Las células de memoria provocan una respuesta secundaria tan rápida que la enfermedad no llega a desarrollarse.",
+    "fuente": "Inspirado en PAU Andalucía 2018, titular de junio, B5"
+   },
+   {
+    "tipo": "orden",
+    "tema": "Inflamación",
+    "titulo": "Cronología de una herida",
+    "escena": "Se registra minuto a minuto la respuesta a la herida del técnico.",
+    "pregunta": "Ordena los acontecimientos de la inflamación:",
+    "elementos": [
+     "Entran microorganismos por la herida",
+     "Los mastocitos liberan histamina",
+     "Vasodilatación y aumento de la permeabilidad de los capilares",
+     "Los leucocitos salen del capilar (diapédesis)",
+     "Los neutrófilos y macrófagos fagocitan a los microorganismos"
+    ],
+    "solucion": "Entran microorganismos por la herida → Los mastocitos liberan histamina → Vasodilatación y aumento de la permeabilidad de los capilares → Los leucocitos salen del capilar (diapédesis) → Los neutrófilos y macrófagos fagocitan a los microorganismos",
+    "pista": "Primero llega el aviso químico; después, las células.",
+    "explicacion": "Daño → histamina → vasodilatación y permeabilidad → diapédesis → fagocitosis."
+   }
+  ],
+  "pau": [
+   {
+    "tipo": "opciones",
+    "tema": "Inmunología y genética",
+    "titulo": "Excepción al dogma",
+    "escena": "El VIH es un retrovirus con ARN que consigue integrar su información en el ADN del núcleo de los linfocitos T4.",
+    "pregunta": "¿Por qué se considera una excepción al «dogma central» inicial?",
+    "opciones": [
+     "Su transcriptasa inversa sintetiza ADN a partir de ARN.",
+     "Traduce su ARN directamente a proteína dentro del núcleo.",
+     "Su ARN destruye los ribosomas 80S y detiene la transcripción."
+    ],
+    "pista": "Busca la enzima que da nombre a los retrovirus.",
+    "explicacion": "La transcriptasa inversa copia el ARN vírico en ADN, que se integra en el genoma: la información va de ARN a ADN."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Inmunología y metabolismo",
+    "titulo": "Páncreas atacado",
+    "escena": "En la diabetes tipo 1, el sistema inmunitario destruye las células β del páncreas.",
+    "pregunta": "¿Qué tipo de alteración es y qué consecuencia metabólica tiene?",
+    "opciones": [
+     "Autoinmunidad: sin insulina, la glucosa no entra en las células (hiperglucemia).",
+     "Inmunodeficiencia: falta glucagón y aparece una hipoglucemia grave.",
+     "Hipersensibilidad: los anticuerpos destruyen la glucosa de la dieta en el intestino."
+    ],
+    "pista": "El sistema inmunitario ataca algo propio.",
+    "explicacion": "Es una enfermedad autoinmune. Sin insulina la glucosa no entra en las células y se acumula en la sangre."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Inmunodeficiencias",
+    "titulo": "Más cánceres",
+    "escena": "Los pacientes con VIH sin tratar desarrollan más cánceres que la población general, aunque el virus no los cause directamente.",
+    "pregunta": "¿Por qué?",
+    "opciones": [
+     "Sin T colaboradores no se activan bien los T citotóxicos que eliminan células tumorales.",
+     "El VIH inserta su material genético en los protooncogenes y los convierte en oncogenes.",
+     "El VIH destruye los macrófagos, las únicas células que eliminan las células tumorales."
+    ],
+    "pista": "Piensa en quién coordina la respuesta inmunitaria.",
+    "explicacion": "La inmunidad celular vigila y elimina células tumorales; sin T colaboradores (T4) esa vigilancia falla."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Inmunidad y vacunas",
+    "titulo": "Vacunar sin timo",
+    "escena": "El niño sin timo del primer caso debe recibir una vacuna formada por una proteína del patógeno.",
+    "pregunta": "¿Responderá bien?",
+    "opciones": [
+     "Mal: los linfocitos B necesitan la ayuda de los T colaboradores.",
+     "Bien: los anticuerpos los fabrican los linfocitos B, que maduran en la médula.",
+     "Bien: la vacuna aporta anticuerpos ya formados."
+    ],
+    "pista": "Recuerda el papel de las citocinas del T colaborador en la respuesta humoral.",
+    "explicacion": "Para responder bien a un antígeno proteico, el linfocito B necesita las citocinas del T colaborador, que madura en el timo."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Vacunas de ARNm",
+    "titulo": "Anticuerpos S y N",
+    "escena": "Una persona vacunada con una vacuna de ARNm frente a la COVID-19 (que codifica la proteína S) tiene anticuerpos anti-S, pero no anti-N.",
+    "pregunta": "¿Qué se puede deducir?",
+    "opciones": [
+     "Que está vacunada pero no ha pasado la infección.",
+     "Que ha pasado la infección sin síntomas.",
+     "Que la vacuna ha modificado su ADN y ya no fabrica anti-N."
+    ],
+    "pista": "La vacuna solo «enseña» una proteína del virus.",
+    "explicacion": "La vacuna solo genera anticuerpos frente a S; los anti-N indicarían contacto con el virus completo. El ARNm no modifica el ADN."
+   },
+   {
+    "tipo": "orden",
+    "tema": "Hipersensibilidad",
+    "titulo": "Anatomía de una alergia",
+    "escena": "La paciente 09 sufre una reacción grave al comer cacahuete.",
+    "pregunta": "Ordena el mecanismo de la reacción alérgica:",
+    "elementos": [
+     "Primer contacto: el alérgeno induce la producción de IgE",
+     "La IgE se fija a la membrana de los mastocitos",
+     "Nuevo contacto: el alérgeno se une a la IgE de los mastocitos",
+     "Los mastocitos liberan histamina",
+     "Vasodilatación, edema y contracción de los bronquios"
+    ],
+    "solucion": "Primer contacto: el alérgeno induce la producción de IgE → La IgE se fija a la membrana de los mastocitos → Nuevo contacto: el alérgeno se une a la IgE de los mastocitos → Los mastocitos liberan histamina → Vasodilatación, edema y contracción de los bronquios",
+    "pista": "Hay dos contactos con el alérgeno: en el primero no hay síntomas.",
+    "explicacion": "Sensibilización (IgE en los mastocitos) → nuevo contacto → histamina → síntomas. Si se generaliza, anafilaxia."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Trasplantes",
+    "titulo": "Infecciones oportunistas",
+    "escena": "Un paciente trasplantado que toma inmunosupresores sufre infecciones por microorganismos que normalmente son inofensivos.",
+    "pregunta": "¿Por qué?",
+    "opciones": [
+     "Los inmunosupresores frenan toda la respuesta inmunitaria, no solo la del órgano.",
+     "Los inmunosupresores destruyen la microbiota y la sustituyen por microorganismos patógenos.",
+     "El órgano trasplantado consume los anticuerpos del paciente y lo deja sin defensas."
+    ],
+    "pista": "Los inmunosupresores no distinguen contra qué se dirige la respuesta.",
+    "explicacion": "Al disminuir la respuesta inmunitaria en general, el paciente queda inmunodeprimido frente a cualquier patógeno.",
+    "fuente": "Inspirado en PAU Andalucía 2024, suplente A, B5"
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Inmunidad pasiva",
+    "titulo": "El ternero",
+    "escena": "En las vacas, la placenta no deja pasar los anticuerpos maternos al feto.",
+    "pregunta": "¿Por qué es vital que el ternero tome calostro en sus primeras horas?",
+    "opciones": [
+     "Sus anticuerpos le dan inmunidad pasiva mientras madura su sistema inmunitario.",
+     "El calostro contiene vacunas naturales que generan células de memoria en el ternero.",
+     "El calostro aporta linfocitos T que colonizan el timo del ternero recién nacido."
+    ],
+    "pista": "Si no llegan por la placenta, ¿por qué otra vía pueden llegar?",
+    "explicacion": "El calostro aporta anticuerpos maternos: inmunidad pasiva natural, temporal y sin memoria.",
+    "fuente": "Inspirado en PAU Andalucía 2017, reserva A, A5"
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Inmunodeficiencias",
+    "titulo": "Seropositivo",
+    "escena": "Un análisis detecta anticuerpos frente al VIH en una persona sin síntomas.",
+    "pregunta": "¿Qué significa?",
+    "opciones": [
+     "Está infectada (es seropositiva), aunque aún no tenga sida.",
+     "Está curada: sus anticuerpos ya han eliminado al virus de su sangre.",
+     "Está vacunada contra el VIH y por eso tiene esos anticuerpos."
+    ],
+    "pista": "Tener anticuerpos indica que ha habido contacto con el virus.",
+    "explicacion": "Seropositivo = infectado; el sida aparece cuando los linfocitos T4 descienden mucho."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Tratamientos",
+    "titulo": "Antibiótico para la gripe",
+    "escena": "Un paciente con gripe pide un antibiótico.",
+    "pregunta": "¿Por qué no le servirá?",
+    "opciones": [
+     "Los virus no tienen pared ni ribosomas propios: no son diana de los antibióticos.",
+     "Los antibióticos solo actúan contra hongos y protozoos, nunca contra virus ni bacterias.",
+     "Los antibióticos destruyen los anticuerpos que el paciente fabrica contra la gripe."
+    ],
+    "pista": "¿Sobre qué estructuras actúan los antibióticos?",
+    "explicacion": "Los antibióticos atacan estructuras bacterianas (pared, ribosomas 70S). Frente a virus se usan antivirales."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Inmunidad pasiva",
+    "titulo": "Después del parto",
+    "escena": "Se vacunó a una embarazada frente a la tosferina para proteger a su bebé.",
+    "pregunta": "¿Sigue recibiendo anticuerpos el bebé después de nacer?",
+    "opciones": [
+     "Sí, si toma leche materna: recibe IgA.",
+     "No: solo los recibe por la placenta antes de nacer.",
+     "Sí: la madre le transmite sus células de memoria con la leche."
+    ],
+    "pista": "Placenta → IgG; leche → …",
+    "explicacion": "Por la placenta recibió IgG y con la leche recibe IgA: inmunidad pasiva natural y temporal.",
+    "fuente": "Inspirado en PAU Andalucía 2024, titular B, B5"
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Alteraciones",
+    "titulo": "Tratar la autoinmunidad",
+    "escena": "Una paciente con artritis reumatoide recibe inmunosupresores.",
+    "pregunta": "¿Por qué se usan en una enfermedad autoinmune?",
+    "opciones": [
+     "Frenan la respuesta inmunitaria que está atacando a los tejidos propios.",
+     "Estimulan la producción de anticuerpos frente al agente infeccioso.",
+     "Sustituyen a los linfocitos dañados por otros nuevos."
+    ],
+    "pista": "El problema es un exceso de respuesta, no una falta.",
+    "explicacion": "Los inmunosupresores disminuyen la respuesta inmune: alivian la autoinmunidad, pero aumentan el riesgo de infecciones."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Vacunas",
+    "titulo": "Vacuna inactivada",
+    "escena": "La vacuna inyectable de la gripe contiene virus inactivados.",
+    "pregunta": "¿Por qué no puede causar la enfermedad?",
+    "opciones": [
+     "Los virus inactivados conservan sus antígenos, pero no pueden multiplicarse.",
+     "Llevan anticuerpos que neutralizan al virus antes de que actúe.",
+     "Se inyecta en el músculo y el virus de la gripe solo infecta la sangre."
+    ],
+    "pista": "La vacuna necesita los antígenos, no la capacidad de infectar.",
+    "explicacion": "El sistema inmunitario reconoce los antígenos y genera memoria sin que haya infección."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Inmunoterapia",
+    "titulo": "Linfocitos rediseñados",
+    "escena": "En las terapias CAR-T se extraen linfocitos T del paciente y se modifican genéticamente para que reconozcan su tumor.",
+    "pregunta": "¿Qué rama de la respuesta específica se refuerza?",
+    "opciones": [
+     "La respuesta celular: los T citotóxicos destruyen las células tumorales.",
+     "La respuesta humoral: los linfocitos T fabrican anticuerpos.",
+     "La inmunidad innata: los linfocitos T se convierten en macrófagos."
+    ],
+    "pista": "Los linfocitos T no fabrican anticuerpos.",
+    "explicacion": "Se potencia la respuesta celular, que reconoce y destruye células tumorales. Une inmunología e ingeniería genética."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Hipersensibilidad",
+    "titulo": "El antihistamínico",
+    "escena": "Una persona alérgica al polen mejora con antihistamínicos, pero la alergia vuelve cada primavera.",
+    "pregunta": "¿Por qué el antihistamínico alivia pero no cura?",
+    "opciones": [
+     "Bloquea el efecto de la histamina, pero los mastocitos siguen con su IgE.",
+     "Destruye los mastocitos, que el organismo vuelve a fabricar cada primavera.",
+     "Elimina el polen de la sangre, pero el polen vuelve a entrar al respirar."
+    ],
+    "pista": "Recuerda el mecanismo: IgE fijada a mastocitos.",
+    "explicacion": "La sensibilización (IgE sobre los mastocitos) persiste; el fármaco solo bloquea a uno de los mediadores."
+   }
+  ]
+ }
+};
+
+const NIV = {
+  basico:     { nombre:'🟢 Básico',     tiempo: JUEGO.tiempos?.basico     ?? 900, pistas:3, castigo:0,  intentos:3, desc:'Conceptos y definiciones. 3 pistas, los errores no restan tiempo.' },
+  intermedio: { nombre:'🟡 Intermedio', tiempo: JUEGO.tiempos?.intermedio ?? 720, pistas:2, castigo:20, intentos:3, desc:'Aplicación a casos y problemas. 2 pistas; cada error resta 20 s.' },
+  pau:        { nombre:'🔴 PAU',        tiempo: JUEGO.tiempos?.pau        ?? 600, pistas:1, castigo:45, intentos:2, desc:'Preguntas competenciales y relaciones entre temas. 1 pista; cada error resta 45 s.' }
+};
+let P = null, reloj = null;
+const $ = id => document.getElementById(id);
+const barajar = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+const norm = s => String(s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9ñ ]/g, ' ').replace(/\s+/g, ' ').trim();
+const mmss = t => `${Math.floor(t / 60)}:${String(t % 60).padStart(2, '0')}`;
+const record = (k, v) => { try { const c = 'escape-' + JUEGO.id + '-' + k, p = +localStorage.getItem(c) || 0; if (v !== undefined && v > p) localStorage.setItem(c, v); return Math.max(p, v || 0); } catch (e) { return v || 0; } };
+
+function pintarInicio() {
+  $('intro').innerHTML = JUEGO.intro;
+  $('nSalas').textContent = JUEGO.salas;
+  $('niveles').innerHTML = Object.entries(NIV).map(([k, n]) => `
+    <button class="nivel" onclick="empezar('${k}')"><b>${n.nombre}</b>
+      <small>${n.desc} Tiempo: ${Math.round(n.tiempo / 60)} min. Banco: ${JUEGO.retos[k].length} retos.</small>
+      <em>Tu mejor puntuación: ${record(k)} %</em></button>`).join('');
+}
+
+function ver(id) { document.querySelectorAll('.sala').forEach(s => s.classList.remove('on')); $(id).classList.add('on'); window.scrollTo({ top: 0, behavior: 'smooth' }); }
+
+function empezar(nivel) {
+  const n = NIV[nivel];
+  const retos = barajar(JUEGO.retos[nivel]).slice(0, JUEGO.salas);
+  P = { nivel, n, retos, i: 0, t: n.tiempo, pistas: n.pistas, puntos: 0, estado: [], clave: '' };
+  $('barra').classList.add('on');
+  $('nivelTxt').textContent = n.nombre;
+  clearInterval(reloj);
+  reloj = setInterval(() => { P.t--; pintarBarra(); if (P.t <= 0) { clearInterval(reloj); fin(false); } }, 1000);
+  reto();
+}
+
+function pintarBarra() {
+  $('reloj').textContent = mmss(Math.max(0, P.t));
+  $('reloj').classList.toggle('alerta', P.t <= 60);
+  $('pistasTxt').textContent = P.pistas;
+  $('pips').innerHTML = P.retos.map((_, i) => `<span class="pip ${P.estado[i] || (i === P.i ? 'actual' : '')}"></span>`).join('');
+}
+
+function reto() {
+  if (P.i >= P.retos.length) return fin(true);
+  const r = P.retos[P.i];
+  P.intentos = 0; P.resuelto = false;
+  let cuerpo = '';
+  if (r.tipo === 'opciones') {
+    P.ops = barajar(r.opciones.map((t, k) => ({ t, ok: k === 0 })));
+    cuerpo = P.ops.map((o, k) => `<button class="opc" data-k="${k}" onclick="marcar(${k})">${o.t}</button>`).join('');
+  } else if (r.tipo === 'texto') {
+    cuerpo = `<input type="text" id="resp" placeholder="${r.formato || 'Escribe tu respuesta'}" autocomplete="off" onkeydown="if(event.key==='Enter')comprobar()">`;
+  } else if (r.tipo === 'numero') {
+    cuerpo = `<input type="number" step="any" id="resp" placeholder="${r.formato || 'Número'}" onkeydown="if(event.key==='Enter')comprobar()">`;
+  } else if (r.tipo === 'orden') {
+    P.orden = barajar(r.elementos.map((t, k) => ({ t, k })));
+    const nums = r.elementos.map((_, k) => `<option value="${k}">${k + 1}.º</option>`).join('');
+    cuerpo = P.orden.map((e, k) => `<div class="fila-orden"><span>${e.t}</span><select id="ord${k}"><option value="">—</option>${nums}</select></div>`).join('');
+  }
+  $('s-reto').innerHTML = `
+    <div class="historia"><span class="etiqueta">// RETO ${P.i + 1} DE ${P.retos.length} · ${r.tema}</span>${r.escena}</div>
+    <h2>${r.titulo}</h2>
+    ${r.fuente ? `<span class="fuente">${r.fuente}</span>` : ''}
+    <p class="pregunta">${r.pregunta}</p>
+    <div id="cuerpo">${cuerpo}</div>
+    <div class="botones">
+      <button class="btn btn-p" id="bComprobar" onclick="comprobar()">Comprobar</button>
+      <button class="btn btn-s" id="bPista" onclick="pista()" ${P.pistas > 0 && r.pista ? '' : 'disabled'}>💡 Pista</button>
+    </div>
+    <div class="msg" id="msg"></div>`;
+  pintarBarra();
+  ver('s-reto');
+}
+
+function marcar(k) {
+  if (P.resuelto) return;
+  P.sel = k;
+  document.querySelectorAll('.opc').forEach(b => b.classList.toggle('sel', +b.dataset.k === k));
+}
+
+function evaluar(r) {
+  if (r.tipo === 'opciones') { if (P.sel === undefined) return null; return P.ops[P.sel].ok; }
+  if (r.tipo === 'texto') { const v = norm($('resp').value); if (!v) return null; return r.respuestas.some(a => v.includes(norm(a))) && !(r.rechazar || []).some(a => v.includes(norm(a))); }
+  if (r.tipo === 'numero') { const v = $('resp').value; if (v === '') return null; return Math.abs(+v - r.valor) <= (r.tolerancia || 0); }
+  if (r.tipo === 'orden') {
+    const vals = P.orden.map((_, k) => $('ord' + k).value);
+    if (vals.some(v => v === '')) return null;
+    return P.orden.every((e, k) => +vals[k] === e.k);
+  }
+}
+
+function comprobar() {
+  if (P.resuelto) return;
+  const r = P.retos[P.i];
+  const res = evaluar(r);
+  const m = $('msg');
+  if (res === null) { m.className = 'msg mal'; m.textContent = 'Responde antes de comprobar.'; return; }
+  if (res) {
+    P.resuelto = true;
+    P.estado[P.i] = P.estado[P.i] || 'hecho';
+    if (P.estado[P.i] === 'hecho') P.puntos += P.intentos === 0 ? 2 : 1;
+    P.clave += JUEGO.clave[P.i] || '•';
+    if (r.tipo === 'opciones') document.querySelectorAll('.opc').forEach(b => { b.disabled = true; if (P.ops[+b.dataset.k].ok) b.classList.add('bien'); });
+    m.className = 'msg ok';
+    m.innerHTML = `✅ <b>Correcto.</b> ${r.explicacion}<br><br>🔑 Letra conseguida: <b>${JUEGO.clave[P.i] || '•'}</b>`;
+    siguienteBoton();
+  } else {
+    P.intentos++;
+    P.t = Math.max(1, P.t - P.n.castigo);
+    if (r.tipo === 'opciones' && P.sel !== undefined) document.querySelector(`.opc[data-k="${P.sel}"]`).classList.add('malsel');
+    if (P.intentos >= P.n.intentos) {
+      P.resuelto = true; P.estado[P.i] = 'ayuda';
+      P.clave += JUEGO.clave[P.i] || '•';
+      if (r.tipo === 'opciones') document.querySelectorAll('.opc').forEach(b => { b.disabled = true; if (P.ops[+b.dataset.k].ok) b.classList.add('bien'); });
+      m.className = 'msg mal';
+      m.innerHTML = `❌ Se acabaron los intentos. <b>Solución:</b> ${r.solucion || r.opciones?.[0] || ''}<br>${r.explicacion}<br><br>🔑 Te damos la letra igualmente (reto marcado en naranja): <b>${JUEGO.clave[P.i] || '•'}</b>`;
+      siguienteBoton();
+    } else {
+      m.className = 'msg mal';
+      m.innerHTML = `❌ No es correcto${P.n.castigo ? ` (−${P.n.castigo} s)` : ''}. Te ${P.n.intentos - P.intentos === 1 ? 'queda 1 intento' : 'quedan ' + (P.n.intentos - P.intentos) + ' intentos'}.${r.feedback ? ' ' + r.feedback : ''}`;
+    }
+  }
+  pintarBarra();
+}
+
+function siguienteBoton() {
+  $('bComprobar').textContent = P.i + 1 < P.retos.length ? 'Siguiente reto ▶' : 'Abrir la salida 🔓';
+  $('bComprobar').onclick = () => { P.i++; reto(); };
+  $('bPista').disabled = true;
+}
+
+function pista() {
+  const r = P.retos[P.i];
+  if (P.pistas <= 0 || !r.pista || P.resuelto) return;
+  P.pistas--; P.t = Math.max(1, P.t - 30);
+  const m = $('msg'); m.className = 'msg pista'; m.innerHTML = '💡 ' + r.pista + ' <i>(−30 s)</i>';
+  $('bPista').disabled = true;
+  pintarBarra();
+}
+
+function fin(ok) {
+  clearInterval(reloj);
+  const max = P.retos.length * 2;
+  const pct = ok ? Math.round(P.puntos / max * 100) : 0;
+  const mejor = record(P.nivel, pct);
+  const temas = [...new Set(P.retos.filter((_, i) => P.estado[i] === 'ayuda').map(r => r.tema))];
+  $('s-fin').innerHTML = ok ? `
+      <div class="centro"><h2 style="font-size:1.6rem">${JUEGO.victoria}</h2>
+      <p>Clave de salida:</p><div class="clave">${P.clave}</div>
+      <p>${P.n.nombre} · Puntuación: <b>${P.puntos} / ${max}</b> (${pct} %) · Tiempo sobrante: ${mmss(Math.max(0, P.t))}<br><small>Tu mejor resultado en este nivel: ${mejor} %</small></p></div>
+      <div class="historia"><span class="etiqueta">// QUÉ REPASAR</span>${temas.length ? '<ul class="resumen">' + temas.map(t => `<li>${t}</li>`).join('') + '</ul>' : 'Has resuelto todos los retos sin agotar los intentos. ¡Prueba el nivel siguiente!'}</div>`
+    : `<div class="centro"><h2 style="font-size:1.6rem;color:var(--mal)">⏳ Tiempo agotado</h2><p>${JUEGO.derrota}</p></div>`;
+  $('s-fin').innerHTML += `<div class="botones" style="justify-content:center"><button class="btn btn-p" onclick="volver()">🔄 Jugar otra vez (otros retos)</button></div>`;
+  ver('s-fin');
+}
+
+function volver() { clearInterval(reloj); $('barra').classList.remove('on'); pintarInicio(); ver('s-inicio'); }
+pintarInicio();
+</script>
+</body>
+</html>

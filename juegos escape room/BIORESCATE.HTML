@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Misión Bio-Rescate · BioCelia</title>
+<meta name="description" content="Escape room de genética molecular y variabilidad para la PAU de Andalucía, con tres niveles y retos aleatorios. BioCelia.">
+<!-- Generado con el motor de escape rooms de BioCelia (2026-27). El contenido está en la constante JUEGO. -->
+<style>
+  :root{
+    --bg:#020617; --panel:#0f172a; --panel2:#111c33; --borde:#334155; --texto:#f1f5f9; --suave:#94a3b8;
+    --acento:#22d3ee; --acento2:#a78bfa; --ok:#22c55e; --mal:#ef4444; --aviso:#f59e0b;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:'Segoe UI',system-ui,sans-serif;color:var(--texto);
+    background:radial-gradient(circle at 20% 0%, color-mix(in srgb,var(--acento) 18%, #020617) 0%, #020617 60%);min-height:100vh;padding:16px}
+  .caja{max-width:860px;margin:0 auto;background:var(--panel);border:1px solid var(--borde);border-radius:16px;
+    box-shadow:0 0 40px color-mix(in srgb,var(--acento) 15%, transparent);overflow:hidden}
+  header{padding:22px 22px 14px;border-bottom:1px solid var(--borde);text-align:center}
+  header h1{margin:0;font-size:1.7rem;letter-spacing:1px;color:var(--acento)}
+  header p{margin:6px 0 0;color:var(--suave);font-size:.9rem}
+  .barra{display:none;gap:10px;align-items:center;justify-content:space-between;padding:10px 18px;background:var(--bg);
+    border-bottom:1px solid var(--borde);font:600 .9rem ui-monospace,Consolas,monospace;flex-wrap:wrap}
+  .barra.on{display:flex}
+  .pips{display:flex;gap:6px}
+  .pip{width:28px;height:8px;border-radius:4px;background:var(--borde)}
+  .pip.hecho{background:var(--ok)} .pip.ayuda{background:var(--aviso)} .pip.actual{background:var(--acento)}
+  #reloj.alerta{color:var(--mal)}
+  main{padding:22px}
+  .sala{display:none} .sala.on{display:block;animation:entra .4s ease}
+  @keyframes entra{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+  .historia{background:var(--bg);border-left:4px solid var(--acento2);border-radius:8px;padding:16px;line-height:1.6;margin-bottom:18px}
+  .etiqueta{font:700 .78rem ui-monospace,Consolas,monospace;color:var(--acento2);display:block;margin-bottom:8px;letter-spacing:.5px}
+  h2{margin:0 0 12px;font-size:1.25rem;color:var(--acento)}
+  .pregunta{font-weight:700;line-height:1.55;margin:0 0 14px}
+  .fuente{font:.76rem ui-monospace,Consolas,monospace;color:var(--suave);margin-top:-8px;margin-bottom:12px;display:block}
+  .opc{display:block;width:100%;text-align:left;background:var(--panel2);color:var(--texto);border:2px solid var(--borde);
+    border-radius:10px;padding:12px 14px;margin-bottom:10px;font-size:.98rem;line-height:1.45;cursor:pointer;transition:.15s}
+  .opc:hover:not(:disabled){border-color:var(--acento)}
+  .opc.sel{border-color:var(--acento);background:color-mix(in srgb,var(--acento) 14%, var(--panel2))}
+  .opc.bien{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 16%, var(--panel2))}
+  .opc.malsel{border-color:var(--mal);background:color-mix(in srgb,var(--mal) 14%, var(--panel2))}
+  .opc:disabled{cursor:default}
+  input[type=text],input[type=number],select{width:100%;padding:12px;border-radius:10px;border:2px solid var(--borde);background:var(--panel2);
+    color:var(--texto);font-size:1rem}
+  .fila-orden{display:flex;gap:10px;align-items:center;margin-bottom:8px}
+  .fila-orden span{flex:1;background:var(--panel2);border:1px solid var(--borde);border-radius:8px;padding:9px 12px;line-height:1.35}
+  .fila-orden select{width:90px;flex:none}
+  .botones{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+  .btn{border:none;border-radius:10px;padding:12px 18px;font-weight:800;font-size:1rem;cursor:pointer}
+  .btn-p{background:var(--acento);color:#020617} .btn-p:hover{filter:brightness(1.1)}
+  .btn-s{background:transparent;color:var(--texto);border:2px solid var(--borde)}
+  .btn-s:disabled{opacity:.4;cursor:not-allowed}
+  .msg{display:none;margin-top:14px;padding:12px 14px;border-radius:10px;line-height:1.5}
+  .msg.ok{display:block;background:color-mix(in srgb,var(--ok) 14%, transparent);border:1px solid var(--ok)}
+  .msg.mal{display:block;background:color-mix(in srgb,var(--mal) 12%, transparent);border:1px solid var(--mal)}
+  .msg.pista{display:block;background:color-mix(in srgb,var(--aviso) 12%, transparent);border:1px solid var(--aviso)}
+  .niveles{display:grid;gap:12px;margin-top:6px}
+  .nivel{all:unset;cursor:pointer;display:block;border:2px solid var(--borde);border-radius:12px;padding:14px 16px;background:var(--bg);transition:.2s}
+  .nivel:hover,.nivel:focus-visible{border-color:var(--acento);transform:translateY(-2px)}
+  .nivel b{display:block;font-size:1.05rem;margin-bottom:4px}
+  .nivel small{color:var(--suave);line-height:1.45;display:block}
+  .nivel em{display:block;margin-top:6px;color:var(--ok);font-style:normal;font-size:.8rem;font-weight:700}
+  .clave{font:800 2rem ui-monospace,Consolas,monospace;letter-spacing:10px;text-align:center;color:var(--acento);margin:10px 0}
+  .resumen li{margin-bottom:6px;line-height:1.45}
+  .centro{text-align:center}
+  @media (max-width:520px){ header h1{font-size:1.35rem} main{padding:16px} .fila-orden{flex-direction:column;align-items:stretch} .fila-orden select{width:100%} }
+</style>
+</head>
+<body>
+<div class="caja">
+  <header><h1>🌊 Misión Bio-Rescate</h1><p>Escape room de genética molecular · PAU Biología Andalucía 2026-27</p></header>
+  <div class="barra" id="barra">
+    <span id="nivelTxt"></span>
+    <span class="pips" id="pips"></span>
+    <span>💡 <span id="pistasTxt"></span></span>
+    <span id="reloj">--:--</span>
+  </div>
+  <main>
+    <section class="sala on" id="s-inicio">
+      <div class="historia"><span class="etiqueta">// INFORME DE MISIÓN</span><span id="intro"></span></div>
+      <h2>Elige tu nivel</h2>
+      <div class="niveles" id="niveles"></div>
+      <p style="color:var(--suave);font-size:.85rem;margin-top:14px">Cada partida sortea <span id="nSalas"></span> retos de un banco más amplio: si lo repites, saldrán retos distintos. Cada reto resuelto te da una letra de la clave final.</p>
+    </section>
+    <section class="sala" id="s-reto"></section>
+    <section class="sala" id="s-fin"></section>
+  </main>
+</div>
+
+<script>
+const JUEGO = {
+ "id": "biorescate",
+ "salas": 5,
+ "clave": "GENES",
+ "intro": "El <b>Ocean Census</b> ha detectado una mutación que amenaza la biodiversidad de las chimeneas hidrotermales abisales. Para enviar la secuencia correctora hay que superar cinco nódulos de seguridad del servidor central. <b>Contenido: bloque B (genética molecular, mutaciones y variabilidad)</b>, con algún reto de metabolismo de los fondos marinos.",
+ "victoria": "🔓 Acceso concedido: secuencia correctora enviada",
+ "derrota": "El ecosistema abisal ha colapsado. Vuelve a intentarlo: los nódulos cambian en cada partida.",
+ "retos": {
+  "basico": [
+   {
+    "tipo": "texto",
+    "tema": "Código genético",
+    "titulo": "Secuencia de inicio",
+    "escena": "Para editar el gen dañado hay que localizar dónde empieza a traducirse su ARNm.",
+    "pregunta": "¿Cuál es el codón de inicio de la traducción? (tres letras)",
+    "respuestas": [
+     "aug"
+    ],
+    "solucion": "AUG",
+    "pista": "Codifica la metionina.",
+    "explicacion": "AUG señala el inicio de la traducción y codifica metionina.",
+    "formato": "Tres letras"
+   },
+   {
+    "tipo": "texto",
+    "tema": "Quimiosíntesis",
+    "titulo": "Energía sin luz",
+    "escena": "En las chimeneas viven bacterias que, sin luz, oxidan sulfuro de hidrógeno (H₂S) y fijan CO₂ para fabricar materia orgánica.",
+    "pregunta": "¿Cómo se llama este proceso? (una palabra)",
+    "respuestas": [
+     "quimiosintesis"
+    ],
+    "solucion": "Quimiosíntesis.",
+    "pista": "No es fotosíntesis: la energía es química.",
+    "explicacion": "Es quimiosíntesis: obtienen ATP y poder reductor oxidando compuestos inorgánicos y fijan el CO₂ con el ciclo de Calvin.",
+    "formato": "Una palabra"
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Complementariedad",
+    "titulo": "Hebra espejo",
+    "escena": "El fragmento dañado tiene la hebra 5′-ATGCCA-3′.",
+    "pregunta": "¿Cuál es su hebra complementaria?",
+    "opciones": [
+     "3′-TACGGT-5′",
+     "5′-TACGGT-3′",
+     "3′-UACGGU-5′",
+     "3′-ATGCCA-5′"
+    ],
+    "pista": "A con T, G con C, y las hebras son antiparalelas.",
+    "explicacion": "Complementaria (A-T, G-C) y antiparalela: 3′-TACGGT-5′. El ADN no lleva U."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Reglas de Chargaff",
+    "titulo": "Análisis de bases",
+    "escena": "El ADN bicatenario de un gusano tubícola tiene un 30 % de adenina.",
+    "pregunta": "¿Qué porcentaje de guanina tiene?",
+    "opciones": [
+     "20 %",
+     "30 %",
+     "40 %",
+     "70 %"
+    ],
+    "pista": "A = T; el resto se reparte a partes iguales entre G y C.",
+    "explicacion": "A = T = 30 % → G + C = 40 % → G = C = 20 %."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Expresión génica",
+    "titulo": "Dónde se copia",
+    "escena": "En una célula eucariota del gusano se activa el gen de una proteína de choque térmico.",
+    "pregunta": "¿Dónde ocurre la transcripción de ese gen?",
+    "opciones": [
+     "En el núcleo.",
+     "En los ribosomas.",
+     "En el retículo endoplasmático.",
+     "En el aparato de Golgi."
+    ],
+    "pista": "Se copia el ADN, y en las células eucariotas el ADN nuclear está…",
+    "explicacion": "En los eucariotas la transcripción ocurre en el núcleo (y en mitocondrias y cloroplastos); la traducción, en los ribosomas."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Mutaciones",
+    "titulo": "¿Se heredará?",
+    "escena": "Varios peces de la zona presentan mutaciones.",
+    "pregunta": "¿Qué mutación podrá pasar a su descendencia?",
+    "opciones": [
+     "Una mutación en las células que forman sus gametos.",
+     "Una mutación en las células de sus branquias.",
+     "Una mutación en su piel causada por la radiación UV.",
+     "Cualquiera de ellas, porque todas las células tienen el mismo ADN."
+    ],
+    "pista": "Somáticas frente a germinales.",
+    "explicacion": "Solo se heredan las mutaciones de la línea germinal; las somáticas afectan al individuo."
+   },
+   {
+    "tipo": "texto",
+    "tema": "Transcripción",
+    "titulo": "La enzima copista",
+    "escena": "El servidor pide el nombre de la enzima que fabrica ARN a partir de un molde de ADN.",
+    "pregunta": "¿Cómo se llama? (dos palabras)",
+    "respuestas": [
+     "arn polimerasa",
+     "rna polimerasa"
+    ],
+    "solucion": "ARN polimerasa.",
+    "pista": "Se une al promotor.",
+    "explicacion": "La ARN polimerasa se une al promotor y sintetiza ARN en sentido 5′→3′ sin necesidad de cebador.",
+    "formato": "Dos palabras",
+    "rechazar": [
+     "adn polimerasa"
+    ]
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Código genético",
+    "titulo": "Seis codones",
+    "escena": "El aminoácido leucina está codificado por seis codones distintos.",
+    "pregunta": "¿Qué característica del código genético lo explica?",
+    "opciones": [
+     "Es degenerado.",
+     "Es universal.",
+     "No tiene solapamiento.",
+     "Es continuo."
+    ],
+    "pista": "Varios codones para un mismo aminoácido.",
+    "explicacion": "Degenerado: varios codones codifican el mismo aminoácido. Por eso hay mutaciones silenciosas."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Ácidos nucleicos",
+    "titulo": "Base delatora",
+    "escena": "Una muestra del gusano contiene un ácido nucleico con uracilo.",
+    "pregunta": "¿Qué tipo de ácido nucleico es?",
+    "opciones": [
+     "ARN.",
+     "ADN.",
+     "Puede ser cualquiera de los dos.",
+     "Ninguno: el uracilo es un aminoácido."
+    ],
+    "pista": "Una de las bases es exclusiva de cada ácido nucleico.",
+    "explicacion": "El uracilo es exclusivo del ARN; la timina, del ADN."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Ácidos nucleicos",
+    "titulo": "Los eslabones",
+    "escena": "El servidor necesita saber qué enlace une los nucleótidos de una hebra.",
+    "pregunta": "¿Cuál es?",
+    "opciones": [
+     "Fosfodiéster.",
+     "Peptídico.",
+     "O-glucosídico.",
+     "Puente de hidrógeno."
+    ],
+    "pista": "Un fosfato hace de puente entre dos pentosas.",
+    "explicacion": "El enlace fosfodiéster une el C3′ de un nucleótido con el C5′ del siguiente."
+   },
+   {
+    "tipo": "texto",
+    "tema": "Replicación",
+    "titulo": "Hebra a trozos",
+    "escena": "En la hebra retrasada el ADN nuevo aparece en pequeños segmentos.",
+    "pregunta": "¿Cómo se llaman esos segmentos?",
+    "respuestas": [
+     "okazaki"
+    ],
+    "solucion": "Fragmentos de Okazaki.",
+    "pista": "Llevan el apellido de su descubridor japonés.",
+    "explicacion": "La hebra retrasada se sintetiza de forma discontinua en fragmentos de Okazaki, que luego une la ligasa.",
+    "formato": "Nombre"
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Traducción",
+    "titulo": "El adaptador",
+    "escena": "En el ribosoma, una molécula lleva el aminoácido y reconoce el codón.",
+    "pregunta": "¿Qué ARN tiene el anticodón?",
+    "opciones": [
+     "El ARN de transferencia.",
+     "El ARN mensajero maduro.",
+     "El ARN ribosómico.",
+     "El ARN heteronuclear."
+    ],
+    "pista": "Es el que transporta los aminoácidos.",
+    "explicacion": "El ARNt lleva el aminoácido en su extremo 3′ y el anticodón, complementario del codón."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Ácidos nucleicos",
+    "titulo": "Dos anillos",
+    "escena": "Para el análisis hay que separar las bases púricas.",
+    "pregunta": "¿Cuáles son las bases púricas?",
+    "opciones": [
+     "Adenina y guanina.",
+     "Citosina y timina.",
+     "Citosina y uracilo.",
+     "Adenina y timina."
+    ],
+    "pista": "Tienen dos anillos.",
+    "explicacion": "Púricas (dos anillos): adenina y guanina. Pirimidínicas (uno): citosina, timina y uracilo."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Replicación",
+    "titulo": "Copia fiel",
+    "escena": "Cada bacteria hija recibe una copia del cromosoma.",
+    "pregunta": "¿Qué significa que la replicación sea semiconservativa?",
+    "opciones": [
+     "Cada ADN hijo tiene una hebra antigua y otra nueva.",
+     "Uno de los ADN hijos tiene las dos hebras antiguas y el otro, las dos nuevas.",
+     "Las hebras antiguas se fragmentan y se reparten entre las nuevas.",
+     "Solo se copia la mitad del cromosoma."
+    ],
+    "pista": "Lo demostraron Meselson y Stahl.",
+    "explicacion": "Cada molécula hija conserva una hebra original, que sirve de molde para la nueva."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Código genético",
+    "titulo": "Señal de stop",
+    "escena": "El servidor necesita un codón que detenga la traducción.",
+    "pregunta": "¿Cuál de estos es un codón de terminación?",
+    "opciones": [
+     "UAA",
+     "AUG",
+     "UUU",
+     "GCA"
+    ],
+    "pista": "Hay tres: UAA, UAG y UGA.",
+    "explicacion": "UAA, UAG y UGA no codifican ningún aminoácido: terminan la síntesis de la proteína."
+   }
+  ],
+  "intermedio": [
+   {
+    "tipo": "opciones",
+    "tema": "Transcripción y traducción",
+    "titulo": "Lectura del gen",
+    "escena": "Cadena molde de ADN: 3′-TAC CGA AAG ATT-5′. Datos: AUG = Met, GCU = Ala, UUC = Phe, UAA = parada.",
+    "pregunta": "¿Qué péptido se obtiene?",
+    "opciones": [
+     "Met-Ala-Phe",
+     "Tyr-Arg-Lys",
+     "Met-Ala-Phe-Ile",
+     "Phe-Ala-Met"
+    ],
+    "pista": "Primero escribe el ARNm (complementario y antiparalelo al molde) y léelo de 5′ a 3′.",
+    "explicacion": "ARNm 5′-AUG GCU UUC UAA-3′ → Met-Ala-Phe; UAA es de parada."
+   },
+   {
+    "tipo": "numero",
+    "tema": "Código genético",
+    "titulo": "Longitud mínima",
+    "escena": "La proteína correctora tiene 40 aminoácidos.",
+    "pregunta": "¿Cuántos nucleótidos tiene, como mínimo, la parte codificante de su ARNm (incluido el codón de parada)?",
+    "valor": 123,
+    "tolerancia": 0,
+    "solucion": "123 (40 × 3 + 3).",
+    "pista": "Cada aminoácido, un codón de tres nucleótidos; no olvides el codón de parada.",
+    "explicacion": "40 codones × 3 = 120, más los 3 del codón de parada = 123."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Mutaciones",
+    "titulo": "Codón alterado",
+    "escena": "En el ARNm 5′-AUG GCA UUC CAA UGG-3′ el codón CAA se ha convertido en UAA.",
+    "pregunta": "¿Qué tipo de mutación es y qué efecto tiene?",
+    "opciones": [
+     "Sin sentido: aparece un codón de parada y la proteína queda incompleta.",
+     "Silenciosa: como el código es degenerado, la proteína no cambia nada.",
+     "De cambio de pauta: cambian todos los aminoácidos que van detrás."
+    ],
+    "pista": "UAA es uno de los tres codones de terminación.",
+    "explicacion": "Sustitución que crea un codón de parada: mutación sin sentido, proteína corta."
+   },
+   {
+    "tipo": "orden",
+    "tema": "Replicación",
+    "titulo": "Copia del cromosoma",
+    "escena": "Las bacterias abisales replican su cromosoma circular.",
+    "pregunta": "Ordena estos pasos de la replicación en la horquilla:",
+    "elementos": [
+     "La helicasa separa las dos hebras",
+     "La primasa sintetiza un cebador de ARN",
+     "La ADN polimerasa III alarga la nueva hebra en sentido 5′→3′",
+     "La ADN polimerasa I sustituye los cebadores por ADN",
+     "La ligasa une los fragmentos de Okazaki"
+    ],
+    "solucion": "La helicasa separa las dos hebras → La primasa sintetiza un cebador de ARN → La ADN polimerasa III alarga la nueva hebra en sentido 5′→3′ → La ADN polimerasa I sustituye los cebadores por ADN → La ligasa une los fragmentos de Okazaki",
+    "pista": "Abrir, cebar, alargar, quitar cebadores y sellar.",
+    "explicacion": "Helicasa → primasa → ADN pol III → ADN pol I → ligasa."
+   },
+   {
+    "tipo": "numero",
+    "tema": "Replicación semiconservativa",
+    "titulo": "Bacterias marcadas",
+    "escena": "Unas bacterias con todo su ADN marcado con ¹⁵N se pasan a un medio con ¹⁴N.",
+    "pregunta": "Tras dos generaciones, ¿qué porcentaje de las moléculas de ADN es híbrido (¹⁵N-¹⁴N)?",
+    "valor": 50,
+    "tolerancia": 0,
+    "solucion": "50 %.",
+    "pista": "Dibuja las hebras: tras dos replicaciones hay cuatro moléculas.",
+    "explicacion": "4 moléculas: 2 híbridas (cada una con una hebra original) y 2 ligeras. Es lo que observaron Meselson y Stahl.",
+    "formato": "Porcentaje"
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Desnaturalización del ADN",
+    "titulo": "Dos muestras",
+    "escena": "Dos muestras de ADN del mismo tamaño se separan a 72 ºC (X) y a 85 ºC (Y).",
+    "pregunta": "¿Por qué Y necesita más temperatura?",
+    "opciones": [
+     "Tiene más pares G-C, unidos por tres puentes de hidrógeno.",
+     "Tiene más pares A-T, unidos por enlaces más fuertes.",
+     "Tiene más enlaces fosfodiéster que hay que romper."
+    ],
+    "pista": "El calor separa las hebras rompiendo los puentes de hidrógeno entre bases.",
+    "explicacion": "G≡C forma tres puentes de hidrógeno y A=T dos: más G-C, mayor temperatura de fusión.",
+    "fuente": "Inspirado en PAU Andalucía 2016, reserva A, B5"
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Regulación génica",
+    "titulo": "Operón lactosa",
+    "escena": "Una bacteria del sedimento crece en un medio sin lactosa.",
+    "pregunta": "¿Qué ocurre con su operón lac?",
+    "opciones": [
+     "El represor se une al operador y no se transcriben los genes.",
+     "El represor se une al promotor y activa la transcripción.",
+     "La lactosa se une al operador y bloquea a la ARN polimerasa."
+    ],
+    "pista": "Sin inductor, el represor está activo.",
+    "explicacion": "Sin lactosa el represor ocupa el operador: la ARN polimerasa no transcribe. El operón está reprimido."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Biodiversidad en Andalucía",
+    "titulo": "El lince",
+    "escena": "A principios de los 2000 quedaban menos de cien linces ibéricos y los programas de cría cruzan ejemplares de Doñana con otros de Sierra Morena.",
+    "pregunta": "¿Por qué una población tan pequeña corre peligro aunque sus individuos estén sanos?",
+    "opciones": [
+     "Su escasa variabilidad genética reduce su capacidad de adaptarse.",
+     "Los linces de Doñana acumulan más mutaciones que los de Sierra Morena.",
+     "Cruzar poblaciones distintas crea mutaciones nuevas que los hacen resistentes."
+    ],
+    "pista": "La variabilidad es la materia prima de la adaptación.",
+    "explicacion": "Con poca variabilidad es menos probable que existan individuos capaces de resistir una enfermedad o un cambio. Cruzar poblaciones combina alelos distintos."
+   },
+   {
+    "tipo": "numero",
+    "tema": "Reglas de Chargaff",
+    "titulo": "Citosina",
+    "escena": "El ADN bicatenario de una bacteria abisal tiene un 22 % de citosina.",
+    "pregunta": "¿Qué porcentaje de adenina tiene?",
+    "valor": 28,
+    "tolerancia": 0,
+    "solucion": "28 %.",
+    "pista": "C = G; el resto se reparte entre A y T.",
+    "explicacion": "C = G = 22 % → A + T = 56 % → A = 28 %.",
+    "formato": "Porcentaje"
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Transcripción",
+    "titulo": "Cadena codificante",
+    "escena": "La cadena codificante de un fragmento es 5′-ATG GCC-3′.",
+    "pregunta": "¿Qué ARNm se transcribe?",
+    "opciones": [
+     "5′-AUG GCC-3′",
+     "3′-UAC CGG-5′",
+     "5′-ATG GCC-3′",
+     "5′-UAC CGG-3′"
+    ],
+    "pista": "El ARNm tiene la misma secuencia que la cadena codificante, con U en lugar de T.",
+    "explicacion": "ARNm = cadena codificante con U: 5′-AUG GCC-3′."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Expresión eucariota",
+    "titulo": "ARN más corto",
+    "escena": "El ARNm maduro de un gen del gusano es mucho más corto que el propio gen.",
+    "pregunta": "¿Por qué?",
+    "opciones": [
+     "Durante la maduración se eliminan los intrones.",
+     "La ARN polimerasa solo copia una de cada dos bases.",
+     "El ARNm pierde los codones repetidos por la degeneración del código."
+    ],
+    "pista": "Exones e intrones.",
+    "explicacion": "El transcrito primario se corta y empalma: se eliminan los intrones y se unen los exones."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Agentes mutagénicos",
+    "titulo": "Radiación ultravioleta",
+    "escena": "Las larvas que suben a la superficie reciben mucha radiación ultravioleta.",
+    "pregunta": "¿Qué tipo de agente mutagénico es y qué daño causa?",
+    "opciones": [
+     "Físico: une timinas contiguas (dímeros de timina).",
+     "Químico: sustituye la timina por uracilo.",
+     "Biológico: inserta su propio ADN en el genoma."
+    ],
+    "pista": "Radiaciones = agentes físicos.",
+    "explicacion": "La UV forma dímeros de timina que deforman el ADN y provocan errores al replicarlo."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Mutaciones genómicas",
+    "titulo": "Un cromosoma de más",
+    "escena": "El cariotipo de un pez muestra tres copias de uno de sus cromosomas.",
+    "pregunta": "¿Cómo pudo originarse?",
+    "opciones": [
+     "Por una no disyunción en la meiosis de uno de los progenitores.",
+     "Por una sustitución de bases en el ADN de ese mismo cromosoma.",
+     "Por una translocación entre dos cromosomas que no son homólogos."
+    ],
+    "pista": "Fallo en el reparto de los cromosomas.",
+    "explicacion": "Si los homólogos o las cromátidas no se separan, se forma un gameto n + 1; con uno normal da 2n + 1 (trisomía)."
+   },
+   {
+    "tipo": "numero",
+    "tema": "Código genético",
+    "titulo": "Máximo de aminoácidos",
+    "escena": "Un ARNm tiene 360 nucleótidos codificantes, sin contar ningún codón de parada.",
+    "pregunta": "¿Cuántos aminoácidos puede tener, como máximo, la proteína?",
+    "valor": 120,
+    "tolerancia": 0,
+    "solucion": "120.",
+    "pista": "Cada aminoácido, tres nucleótidos.",
+    "explicacion": "360 / 3 = 120 codones, uno por aminoácido.",
+    "formato": "Número",
+    "fuente": "Inspirado en PAU Andalucía 2021, suplente de junio"
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Mutaciones cromosómicas",
+    "titulo": "Orden alterado",
+    "escena": "Un cromosoma con los genes A-B-C-D-E-F aparece como A-B-E-D-C-F.",
+    "pregunta": "¿Qué mutación es?",
+    "opciones": [
+     "Una inversión.",
+     "Una deleción.",
+     "Una duplicación.",
+     "Una translocación."
+    ],
+    "pista": "Están todos los genes, pero un fragmento ha girado.",
+    "explicacion": "El fragmento C-D-E ha girado 180º: inversión (mutación cromosómica estructural)."
+   }
+  ],
+  "pau": [
+   {
+    "tipo": "opciones",
+    "tema": "Quimiosíntesis y ecosistemas",
+    "titulo": "Productores sin luz",
+    "escena": "En las chimeneas viven gusanos, cangrejos y mejillones, aunque no llega la luz.",
+    "pregunta": "¿Qué papel tienen las bacterias quimiosintéticas en este ecosistema?",
+    "opciones": [
+     "Fabrican materia orgánica a partir de CO₂ con la energía de oxidar H₂S: son los productores.",
+     "Descomponen la materia orgánica que cae desde la superficie: son los productores primarios.",
+     "Hacen la fotosíntesis con la débil luz que emiten las propias chimeneas hidrotermales."
+    ],
+    "pista": "Sin luz, ¿quién transforma la materia inorgánica en orgánica?",
+    "explicacion": "Son quimioautótrofas: productores primarios de los que dependen los demás organismos de la chimenea."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Mutaciones",
+    "titulo": "Una G de más",
+    "escena": "En el ARNm 5′-AUG GCA UUC CAA UGG-3′ se inserta una G justo después del codón AUG.",
+    "pregunta": "¿Qué efecto tiene sobre la proteína?",
+    "opciones": [
+     "Cambia la pauta de lectura: cambian todos los aminoácidos siguientes.",
+     "Solo cambia el aminoácido del codón en el que se ha insertado la G.",
+     "No tiene ningún efecto, porque el código genético es degenerado."
+    ],
+    "pista": "Los codones se leen de tres en tres, sin comas.",
+    "explicacion": "Una inserción de un nucleótido desplaza la pauta: AUG GGC AUU CCA AUG G… → todos los aminoácidos siguientes cambian."
+   },
+   {
+    "tipo": "numero",
+    "tema": "Replicación semiconservativa",
+    "titulo": "Fósforo radiactivo",
+    "escena": "Un ADN con todas sus hebras marcadas con ³²P se replica tres veces en un medio sin marca.",
+    "pregunta": "¿Qué porcentaje de todas las hebras de ADN es radiactivo?",
+    "valor": 12.5,
+    "tolerancia": 0.1,
+    "solucion": "12,5 % (2 de 16 hebras).",
+    "pista": "Tras tres replicaciones hay 8 moléculas, es decir, 16 hebras. ¿Cuántas son las originales?",
+    "explicacion": "Las dos hebras originales se conservan, cada una en una molécula: 2 de 16 = 12,5 %.",
+    "formato": "Porcentaje"
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Traducción",
+    "titulo": "El anticodón",
+    "escena": "Un ARNt debe reconocer el codón 5′-UUC-3′ del ARNm.",
+    "pregunta": "¿Cuál es su anticodón?",
+    "opciones": [
+     "3′-AAG-5′",
+     "3′-UUC-5′",
+     "3′-TTC-5′",
+     "5′-AAG-3′"
+    ],
+    "pista": "Complementario y antiparalelo; el ARNt es ARN.",
+    "explicacion": "Anticodón 3′-AAG-5′ (equivale a 5′-GAA-3′): complementario y antiparalelo, con bases de ARN."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Biotecnología y código",
+    "titulo": "Gen humano en bacterias",
+    "escena": "Para producir una proteína humana en bacterias se les introduce su ADNc.",
+    "pregunta": "¿Por qué la bacteria fabrica exactamente la proteína humana?",
+    "opciones": [
+     "El código genético es universal: cada codón significa lo mismo en bacterias y personas.",
+     "El código es degenerado: la bacteria elige, entre varios codones, los que mejor reconoce.",
+     "El plásmido traduce el gen humano a un código bacteriano antes de expresarlo."
+    ],
+    "pista": "¿Significa AUG lo mismo en una bacteria y en una persona?",
+    "explicacion": "Universalidad del código. Se usa ADNc (sin intrones) porque las bacterias no pueden eliminarlos."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Replicación en eucariotas",
+    "titulo": "Carrera de copias",
+    "escena": "Drosophila (180 millones de pares de bases) replica su genoma en unos 4 minutos y E. coli (4,6 millones), en unos 40.",
+    "pregunta": "¿Cómo es posible?",
+    "opciones": [
+     "La mosca replica desde muchos orígenes de replicación a la vez.",
+     "Las ADN polimerasas eucariotas son mucho más rápidas que las bacterianas.",
+     "La mosca no replica sus intrones, que son la mayor parte del ADN."
+    ],
+    "pista": "Compara cuántos orígenes de replicación tiene cada uno.",
+    "explicacion": "Los eucariotas tienen muchos orígenes simultáneos; la bacteria, uno solo. Cada horquilla eucariota es incluso más lenta."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Variabilidad y reproducción",
+    "titulo": "La posidonia",
+    "escena": "Posidonia oceanica se reproduce sexual y asexualmente. Donde el ambiente es más variable hay más plantas con frutos y semillas.",
+    "pregunta": "¿A qué se debe?",
+    "opciones": [
+     "La reproducción sexual genera más variabilidad, útil en ambientes cambiantes.",
+     "Los ambientes variables provocan mutaciones que obligan a la planta a florecer.",
+     "La reproducción asexual es imposible cuando las condiciones del ambiente cambian."
+    ],
+    "pista": "¿Qué aporta la reproducción sexual que no aporta la asexual?",
+    "explicacion": "Recombinación y segregación generan genotipos nuevos: más probabilidad de que alguno se adapte.",
+    "fuente": "Inspirado en PAU Andalucía 2021, reserva de junio"
+   },
+   {
+    "tipo": "orden",
+    "tema": "Expresión génica eucariota",
+    "titulo": "Del gen a la proteína",
+    "escena": "Un gen eucariota del gusano tubícola se expresa.",
+    "pregunta": "Ordena los pasos:",
+    "elementos": [
+     "Transcripción del gen en el núcleo (pre-ARNm)",
+     "Maduración: caperuza, cola poli-A y eliminación de intrones",
+     "Salida del ARNm por los poros nucleares",
+     "Traducción en los ribosomas del citoplasma"
+    ],
+    "solucion": "Transcripción del gen en el núcleo (pre-ARNm) → Maduración: caperuza, cola poli-A y eliminación de intrones → Salida del ARNm por los poros nucleares → Traducción en los ribosomas del citoplasma",
+    "pista": "En eucariotas transcripción y traducción están separadas en el espacio.",
+    "explicacion": "Transcripción → maduración → salida al citoplasma → traducción."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Mutaciones y proteínas",
+    "titulo": "Hemoglobina alterada",
+    "escena": "En el gen de la hemoglobina, el codón GAG (ácido glutámico) cambia a GUG (valina).",
+    "pregunta": "¿Cómo puede un solo cambio de base causar una enfermedad?",
+    "opciones": [
+     "Cambia un aminoácido, se altera la estructura de la proteína y su función.",
+     "Cambia la pauta de lectura y con ella todos los aminoácidos siguientes.",
+     "Aparece un codón de parada y la hemoglobina deja de fabricarse."
+    ],
+    "pista": "Es una sustitución con cambio de sentido.",
+    "explicacion": "Es la anemia falciforme: la valina cambia la estructura de la hemoglobina y deforma los glóbulos rojos.",
+    "fuente": "Inspirado en PAU Andalucía 2016, junio"
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Procariotas y eucariotas",
+    "titulo": "Traducir mientras se transcribe",
+    "escena": "En las bacterias abisales los ribosomas empiezan a traducir el ARNm antes de que termine de transcribirse.",
+    "pregunta": "¿Por qué no ocurre esto en las células del gusano?",
+    "opciones": [
+     "En eucariotas el ARNm se forma en el núcleo y debe madurar y salir al citoplasma.",
+     "Los ribosomas eucariotas solo pueden traducir ARNm que ya ha salido de la célula.",
+     "Las células eucariotas no tienen ARN polimerasa dentro del núcleo."
+    ],
+    "pista": "Hay una membrana de por medio.",
+    "explicacion": "Núcleo y citoplasma separan los dos procesos en el espacio y en el tiempo; además hay maduración."
+   },
+   {
+    "tipo": "numero",
+    "tema": "Meiosis y variabilidad",
+    "titulo": "Combinaciones",
+    "escena": "Una especie de cangrejo abisal tiene 2n = 6.",
+    "pregunta": "Sin contar la recombinación, ¿cuántas combinaciones distintas de cromosomas maternos y paternos pueden tener sus gametos?",
+    "valor": 8,
+    "tolerancia": 0,
+    "solucion": "8 (2³).",
+    "pista": "Cada par de homólogos se reparte al azar: 2 posibilidades por par.",
+    "explicacion": "Con n = 3 pares: 2³ = 8 combinaciones por segregación al azar.",
+    "formato": "Número"
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Polaridad de las cadenas",
+    "titulo": "Leer al revés",
+    "escena": "El servidor muestra el ARNm escrito al revés: 3′-UAUAUACAAUUU-5′.",
+    "pregunta": "¿Cuál es el primer codón que lee el ribosoma?",
+    "opciones": [
+     "UUU",
+     "UAU",
+     "AAA",
+     "AUA"
+    ],
+    "pista": "El ribosoma lee de 5′ a 3′: empieza por la derecha.",
+    "explicacion": "Leído de 5′ a 3′: UUU AAC AUA UAU. El primer codón es UUU.",
+    "fuente": "Inspirado en PAU Andalucía 2024, suplente A"
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Código genético",
+    "titulo": "Dos ARNm, una proteína",
+    "escena": "Dos ARNm con secuencias distintas producen exactamente la misma proteína.",
+    "pregunta": "¿Cómo es posible?",
+    "opciones": [
+     "El código es degenerado: varios codones codifican el mismo aminoácido.",
+     "El código es universal: todos los ARNm dan la misma proteína.",
+     "El código se solapa: cada nucleótido pertenece a varios codones."
+    ],
+    "pista": "Piensa en la leucina y sus seis codones.",
+    "explicacion": "Por la degeneración del código, secuencias distintas pueden codificar los mismos aminoácidos.",
+    "fuente": "Inspirado en PAU Andalucía 2024, titular A"
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Regulación génica",
+    "titulo": "Operador mutado",
+    "escena": "En una bacteria mutante el represor no puede unirse al operador del operón lac.",
+    "pregunta": "¿Qué ocurrirá?",
+    "opciones": [
+     "Los genes se expresan siempre, haya o no lactosa.",
+     "Los genes no se expresan nunca, aunque haya lactosa.",
+     "Los genes solo se expresan si no hay lactosa."
+    ],
+    "pista": "El represor es el «freno».",
+    "explicacion": "Sin el freno del represor, la ARN polimerasa transcribe siempre los genes estructurales."
+   },
+   {
+    "tipo": "opciones",
+    "tema": "Regulación eucariota",
+    "titulo": "Un gen, dos proteínas",
+    "escena": "El mismo gen produce una proteína en el músculo del gusano y otra distinta en su sistema nervioso.",
+    "pregunta": "¿Qué mecanismo lo explica?",
+    "opciones": [
+     "El empalme alternativo del pre-ARNm.",
+     "Una mutación distinta en cada tejido.",
+     "La degeneración del código genético."
+    ],
+    "pista": "El pre-ARNm puede procesarse de varias formas.",
+    "explicacion": "Cada tejido conserva una combinación distinta de exones: ARNm diferentes y proteínas diferentes."
+   }
+  ]
+ }
+};
+
+const NIV = {
+  basico:     { nombre:'🟢 Básico',     tiempo: JUEGO.tiempos?.basico     ?? 900, pistas:3, castigo:0,  intentos:3, desc:'Conceptos y definiciones. 3 pistas, los errores no restan tiempo.' },
+  intermedio: { nombre:'🟡 Intermedio', tiempo: JUEGO.tiempos?.intermedio ?? 720, pistas:2, castigo:20, intentos:3, desc:'Aplicación a casos y problemas. 2 pistas; cada error resta 20 s.' },
+  pau:        { nombre:'🔴 PAU',        tiempo: JUEGO.tiempos?.pau        ?? 600, pistas:1, castigo:45, intentos:2, desc:'Preguntas competenciales y relaciones entre temas. 1 pista; cada error resta 45 s.' }
+};
+let P = null, reloj = null;
+const $ = id => document.getElementById(id);
+const barajar = a => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+const norm = s => String(s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9ñ ]/g, ' ').replace(/\s+/g, ' ').trim();
+const mmss = t => `${Math.floor(t / 60)}:${String(t % 60).padStart(2, '0')}`;
+const record = (k, v) => { try { const c = 'escape-' + JUEGO.id + '-' + k, p = +localStorage.getItem(c) || 0; if (v !== undefined && v > p) localStorage.setItem(c, v); return Math.max(p, v || 0); } catch (e) { return v || 0; } };
+
+function pintarInicio() {
+  $('intro').innerHTML = JUEGO.intro;
+  $('nSalas').textContent = JUEGO.salas;
+  $('niveles').innerHTML = Object.entries(NIV).map(([k, n]) => `
+    <button class="nivel" onclick="empezar('${k}')"><b>${n.nombre}</b>
+      <small>${n.desc} Tiempo: ${Math.round(n.tiempo / 60)} min. Banco: ${JUEGO.retos[k].length} retos.</small>
+      <em>Tu mejor puntuación: ${record(k)} %</em></button>`).join('');
+}
+
+function ver(id) { document.querySelectorAll('.sala').forEach(s => s.classList.remove('on')); $(id).classList.add('on'); window.scrollTo({ top: 0, behavior: 'smooth' }); }
+
+function empezar(nivel) {
+  const n = NIV[nivel];
+  const retos = barajar(JUEGO.retos[nivel]).slice(0, JUEGO.salas);
+  P = { nivel, n, retos, i: 0, t: n.tiempo, pistas: n.pistas, puntos: 0, estado: [], clave: '' };
+  $('barra').classList.add('on');
+  $('nivelTxt').textContent = n.nombre;
+  clearInterval(reloj);
+  reloj = setInterval(() => { P.t--; pintarBarra(); if (P.t <= 0) { clearInterval(reloj); fin(false); } }, 1000);
+  reto();
+}
+
+function pintarBarra() {
+  $('reloj').textContent = mmss(Math.max(0, P.t));
+  $('reloj').classList.toggle('alerta', P.t <= 60);
+  $('pistasTxt').textContent = P.pistas;
+  $('pips').innerHTML = P.retos.map((_, i) => `<span class="pip ${P.estado[i] || (i === P.i ? 'actual' : '')}"></span>`).join('');
+}
+
+function reto() {
+  if (P.i >= P.retos.length) return fin(true);
+  const r = P.retos[P.i];
+  P.intentos = 0; P.resuelto = false;
+  let cuerpo = '';
+  if (r.tipo === 'opciones') {
+    P.ops = barajar(r.opciones.map((t, k) => ({ t, ok: k === 0 })));
+    cuerpo = P.ops.map((o, k) => `<button class="opc" data-k="${k}" onclick="marcar(${k})">${o.t}</button>`).join('');
+  } else if (r.tipo === 'texto') {
+    cuerpo = `<input type="text" id="resp" placeholder="${r.formato || 'Escribe tu respuesta'}" autocomplete="off" onkeydown="if(event.key==='Enter')comprobar()">`;
+  } else if (r.tipo === 'numero') {
+    cuerpo = `<input type="number" step="any" id="resp" placeholder="${r.formato || 'Número'}" onkeydown="if(event.key==='Enter')comprobar()">`;
+  } else if (r.tipo === 'orden') {
+    P.orden = barajar(r.elementos.map((t, k) => ({ t, k })));
+    const nums = r.elementos.map((_, k) => `<option value="${k}">${k + 1}.º</option>`).join('');
+    cuerpo = P.orden.map((e, k) => `<div class="fila-orden"><span>${e.t}</span><select id="ord${k}"><option value="">—</option>${nums}</select></div>`).join('');
+  }
+  $('s-reto').innerHTML = `
+    <div class="historia"><span class="etiqueta">// RETO ${P.i + 1} DE ${P.retos.length} · ${r.tema}</span>${r.escena}</div>
+    <h2>${r.titulo}</h2>
+    ${r.fuente ? `<span class="fuente">${r.fuente}</span>` : ''}
+    <p class="pregunta">${r.pregunta}</p>
+    <div id="cuerpo">${cuerpo}</div>
+    <div class="botones">
+      <button class="btn btn-p" id="bComprobar" onclick="comprobar()">Comprobar</button>
+      <button class="btn btn-s" id="bPista" onclick="pista()" ${P.pistas > 0 && r.pista ? '' : 'disabled'}>💡 Pista</button>
+    </div>
+    <div class="msg" id="msg"></div>`;
+  pintarBarra();
+  ver('s-reto');
+}
+
+function marcar(k) {
+  if (P.resuelto) return;
+  P.sel = k;
+  document.querySelectorAll('.opc').forEach(b => b.classList.toggle('sel', +b.dataset.k === k));
+}
+
+function evaluar(r) {
+  if (r.tipo === 'opciones') { if (P.sel === undefined) return null; return P.ops[P.sel].ok; }
+  if (r.tipo === 'texto') { const v = norm($('resp').value); if (!v) return null; return r.respuestas.some(a => v.includes(norm(a))) && !(r.rechazar || []).some(a => v.includes(norm(a))); }
+  if (r.tipo === 'numero') { const v = $('resp').value; if (v === '') return null; return Math.abs(+v - r.valor) <= (r.tolerancia || 0); }
+  if (r.tipo === 'orden') {
+    const vals = P.orden.map((_, k) => $('ord' + k).value);
+    if (vals.some(v => v === '')) return null;
+    return P.orden.every((e, k) => +vals[k] === e.k);
+  }
+}
+
+function comprobar() {
+  if (P.resuelto) return;
+  const r = P.retos[P.i];
+  const res = evaluar(r);
+  const m = $('msg');
+  if (res === null) { m.className = 'msg mal'; m.textContent = 'Responde antes de comprobar.'; return; }
+  if (res) {
+    P.resuelto = true;
+    P.estado[P.i] = P.estado[P.i] || 'hecho';
+    if (P.estado[P.i] === 'hecho') P.puntos += P.intentos === 0 ? 2 : 1;
+    P.clave += JUEGO.clave[P.i] || '•';
+    if (r.tipo === 'opciones') document.querySelectorAll('.opc').forEach(b => { b.disabled = true; if (P.ops[+b.dataset.k].ok) b.classList.add('bien'); });
+    m.className = 'msg ok';
+    m.innerHTML = `✅ <b>Correcto.</b> ${r.explicacion}<br><br>🔑 Letra conseguida: <b>${JUEGO.clave[P.i] || '•'}</b>`;
+    siguienteBoton();
+  } else {
+    P.intentos++;
+    P.t = Math.max(1, P.t - P.n.castigo);
+    if (r.tipo === 'opciones' && P.sel !== undefined) document.querySelector(`.opc[data-k="${P.sel}"]`).classList.add('malsel');
+    if (P.intentos >= P.n.intentos) {
+      P.resuelto = true; P.estado[P.i] = 'ayuda';
+      P.clave += JUEGO.clave[P.i] || '•';
+      if (r.tipo === 'opciones') document.querySelectorAll('.opc').forEach(b => { b.disabled = true; if (P.ops[+b.dataset.k].ok) b.classList.add('bien'); });
+      m.className = 'msg mal';
+      m.innerHTML = `❌ Se acabaron los intentos. <b>Solución:</b> ${r.solucion || r.opciones?.[0] || ''}<br>${r.explicacion}<br><br>🔑 Te damos la letra igualmente (reto marcado en naranja): <b>${JUEGO.clave[P.i] || '•'}</b>`;
+      siguienteBoton();
+    } else {
+      m.className = 'msg mal';
+      m.innerHTML = `❌ No es correcto${P.n.castigo ? ` (−${P.n.castigo} s)` : ''}. Te ${P.n.intentos - P.intentos === 1 ? 'queda 1 intento' : 'quedan ' + (P.n.intentos - P.intentos) + ' intentos'}.${r.feedback ? ' ' + r.feedback : ''}`;
+    }
+  }
+  pintarBarra();
+}
+
+function siguienteBoton() {
+  $('bComprobar').textContent = P.i + 1 < P.retos.length ? 'Siguiente reto ▶' : 'Abrir la salida 🔓';
+  $('bComprobar').onclick = () => { P.i++; reto(); };
+  $('bPista').disabled = true;
+}
+
+function pista() {
+  const r = P.retos[P.i];
+  if (P.pistas <= 0 || !r.pista || P.resuelto) return;
+  P.pistas--; P.t = Math.max(1, P.t - 30);
+  const m = $('msg'); m.className = 'msg pista'; m.innerHTML = '💡 ' + r.pista + ' <i>(−30 s)</i>';
+  $('bPista').disabled = true;
+  pintarBarra();
+}
+
+function fin(ok) {
+  clearInterval(reloj);
+  const max = P.retos.length * 2;
+  const pct = ok ? Math.round(P.puntos / max * 100) : 0;
+  const mejor = record(P.nivel, pct);
+  const temas = [...new Set(P.retos.filter((_, i) => P.estado[i] === 'ayuda').map(r => r.tema))];
+  $('s-fin').innerHTML = ok ? `
+      <div class="centro"><h2 style="font-size:1.6rem">${JUEGO.victoria}</h2>
+      <p>Clave de salida:</p><div class="clave">${P.clave}</div>
+      <p>${P.n.nombre} · Puntuación: <b>${P.puntos} / ${max}</b> (${pct} %) · Tiempo sobrante: ${mmss(Math.max(0, P.t))}<br><small>Tu mejor resultado en este nivel: ${mejor} %</small></p></div>
+      <div class="historia"><span class="etiqueta">// QUÉ REPASAR</span>${temas.length ? '<ul class="resumen">' + temas.map(t => `<li>${t}</li>`).join('') + '</ul>' : 'Has resuelto todos los retos sin agotar los intentos. ¡Prueba el nivel siguiente!'}</div>`
+    : `<div class="centro"><h2 style="font-size:1.6rem;color:var(--mal)">⏳ Tiempo agotado</h2><p>${JUEGO.derrota}</p></div>`;
+  $('s-fin').innerHTML += `<div class="botones" style="justify-content:center"><button class="btn btn-p" onclick="volver()">🔄 Jugar otra vez (otros retos)</button></div>`;
+  ver('s-fin');
+}
+
+function volver() { clearInterval(reloj); $('barra').classList.remove('on'); pintarInicio(); ver('s-inicio'); }
+pintarInicio();
+</script>
+</body>
+</html>

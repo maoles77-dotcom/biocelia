@@ -1,0 +1,1496 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Escape Room Biotecnológico PAU Biología — Unidad de Crisis Genómica. Aplica tus conocimientos de selectividad en tiempo real.">
+<title>U.C.G. — Unidad de Crisis Genómica · BioCelia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Nunito:wght@400;600;700;900&display=swap" rel="stylesheet">
+<style>
+
+/* ══════════════════════════════════════
+   VARIABLES — paleta clara de laboratorio
+══════════════════════════════════════ */
+:root {
+  /* Colores principales */
+  --primary:    #0284c7;
+  --primary-hv: #0369a1;
+  --red:        #dc2626;
+  --green:      #16a34a;
+  --amber:      #d97706;
+  --text-dark:  #0f172a;
+  --muted:      #64748b;
+
+  /* Superficies */
+  --surface:    rgba(255,255,255,0.96);
+  --panel:      #f8fafc;
+  --border:     #e2e8f0;
+
+  /* Colores por vía */
+  --via-a:      #dc2626;
+  --via-b:      #d97706;
+  --via-c:      #16a34a;
+
+  /* Aliases semánticos (para que el JS no cambie) */
+  --cyan:       #0284c7;
+  --cyan-dim:   rgba(2,132,199,.1);
+  --green-dim:  rgba(22,163,74,.1);
+  --amber-dim:  rgba(217,119,6,.1);
+  --red-dim:    rgba(220,38,38,.1);
+  --bg:         #ffffff;
+  --text:       #0f172a;
+
+  --mono: 'Courier Prime', 'Courier New', monospace;
+  --sans: 'Nunito', system-ui, sans-serif;
+}
+
+*,*::before,*::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+
+/* ── Fondo: foto de laboratorio igual que el original ── */
+body {
+  font-family: var(--sans);
+  background-image: url('https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1920&q=80');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: var(--text-dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* ── Contenedor blanco translúcido ── */
+.container {
+  position: relative;
+  max-width: 820px;
+  width: 100%;
+  background: var(--surface);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-radius: 18px;
+  box-shadow: 0 25px 60px rgba(0,0,0,.55), 0 0 0 1px rgba(255,255,255,.6);
+  border: 1px solid rgba(255,255,255,.7);
+  overflow: hidden;
+}
+
+/* ── Barra superior ── */
+.top-bar {
+  background: var(--text-dark);
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  border-radius: 18px 18px 0 0;
+}
+.top-bar-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.status-dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: #4ade80;
+  box-shadow: 0 0 6px #4ade80;
+  animation: blink 2s infinite;
+}
+.top-label {
+  font-family: var(--mono);
+  font-size: .68rem;
+  color: #94a3b8;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+.top-label strong { color: #7dd3fc; }
+
+/* ── Temporizador ── */
+#timer-display {
+  font-family: var(--mono);
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #f1f5f9;
+  letter-spacing: .08em;
+  display: none;
+  padding: 6px 18px;
+  background: #1e293b;
+  border: 2px solid #334155;
+  border-radius: 30px;
+  box-shadow: 0 4px 6px rgba(0,0,0,.3);
+}
+#timer-display.urgent {
+  color: #fca5a5;
+  border-color: #ef4444;
+  animation: timerPulse 1s infinite;
+}
+
+/* ── Barra de progreso ── */
+.progress-wrap {
+  display: none;
+  align-items: center;
+  gap: 8px;
+}
+.progress-wrap.visible { display: flex; }
+.prog-label {
+  font-family: var(--mono);
+  font-size: .62rem;
+  color: #94a3b8;
+  letter-spacing: .08em;
+  white-space: nowrap;
+}
+.prog-track {
+  width: 72px; height: 4px;
+  background: #334155;
+  border-radius: 2px;
+  overflow: hidden;
+}
+.prog-fill {
+  height: 100%;
+  border-radius: 2px;
+  transition: width .5s ease;
+  background: #38bdf8;
+}
+.hint-counter {
+  font-family: var(--mono);
+  font-size: .62rem;
+  color: #fbbf24;
+  letter-spacing: .04em;
+}
+
+/* ══════════════════════════════════════
+   CONTENIDO INTERNO
+══════════════════════════════════════ */
+.room-inner { padding: 32px 36px 36px; }
+.room { display: none; }
+.room.active { display: block; animation: fadeIn .4s ease; }
+
+@keyframes fadeIn { from { opacity:0; transform:translateY(6px); } to { opacity:1; transform:translateY(0); } }
+@keyframes blink  { 0%,100%{opacity:1} 50%{opacity:.3} }
+@keyframes timerPulse { 0%,100%{opacity:1} 50%{opacity:.5} }
+
+/* ── Títulos de sala ── */
+.room-tag {
+  font-family: var(--mono);
+  font-size: .65rem;
+  color: var(--muted);
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+.room-title {
+  font-family: var(--sans);
+  font-size: clamp(1.3rem, 3vw, 1.8rem);
+  font-weight: 900;
+  color: var(--text-dark);
+  margin-bottom: 20px;
+  line-height: 1.15;
+  text-transform: uppercase;
+  letter-spacing: .02em;
+}
+.room-title .accent-a { color: var(--via-a); }
+.room-title .accent-b { color: var(--via-b); }
+.room-title .accent-c { color: var(--via-c); }
+
+/* ── Terminal / escenario (borde izquierdo de color) ── */
+.terminal {
+  background: #1e293b;
+  border-left: 5px solid #38bdf8;
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin-bottom: 22px;
+  position: relative;
+}
+.terminal-header {
+  font-family: var(--mono);
+  font-size: .65rem;
+  color: #38bdf8;
+  letter-spacing: .1em;
+  margin-bottom: 10px;
+  opacity: .85;
+}
+.terminal-body {
+  font-family: var(--mono);
+  font-size: .88rem;
+  line-height: 1.65;
+  color: #cbd5e1;
+}
+.terminal-body .hl   { color: #38bdf8; font-weight: bold; }
+.terminal-body .warn { color: #fbbf24; }
+.terminal-body .err  { color: #f87171; }
+.terminal-body .ok   { color: #4ade80; }
+
+/* ── Bloque de pregunta ── */
+.question-block {
+  background: rgba(2,132,199,.05);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 20px 22px;
+  margin-bottom: 18px;
+}
+.question-label {
+  font-size: 1.02rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  line-height: 1.6;
+  margin-bottom: 14px;
+}
+.question-label .verb { color: var(--amber); font-style: italic; font-weight: 700; }
+
+select, input[type="text"] {
+  width: 100%;
+  padding: 12px 14px;
+  background: white;
+  border: 2px solid var(--border);
+  border-radius: 8px;
+  font-family: var(--sans);
+  font-size: .97rem;
+  color: var(--text-dark);
+  transition: border-color .2s, box-shadow .2s;
+}
+select:focus, input[type="text"]:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(2,132,199,.15);
+}
+select option { background: white; color: var(--text-dark); }
+
+/* ── Tabla de datos competencial ── */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--mono);
+  font-size: .8rem;
+  margin-bottom: 14px;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+}
+.data-table th {
+  background: #0f172a;
+  color: #7dd3fc;
+  padding: 9px 14px;
+  text-align: left;
+  font-size: .72rem;
+  letter-spacing: .06em;
+}
+.data-table td {
+  padding: 8px 14px;
+  border-top: 1px solid var(--border);
+  color: var(--text-dark);
+  background: white;
+}
+.data-table tr:nth-child(even) td { background: #f8fafc; }
+.data-table .hi { color: var(--green); font-weight: bold; }
+.data-table .lo { color: var(--red);   font-weight: bold; }
+
+/* ── Botones principales ── */
+.btn-row {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+.btn-action {
+  flex: 3;
+  padding: 15px 24px;
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-family: var(--sans);
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background .2s, transform .15s, box-shadow .2s;
+  box-shadow: 0 4px 12px rgba(2,132,199,.3);
+}
+.btn-action span { position: relative; }
+.btn-action:hover { background: var(--primary-hv); transform: translateY(-1px); box-shadow: 0 6px 18px rgba(2,132,199,.35); }
+.btn-action:focus-visible { outline: 3px solid var(--primary); outline-offset: 2px; }
+
+/* Variantes por vía */
+.btn-b { background: var(--via-b); box-shadow: 0 4px 12px rgba(217,119,6,.3); }
+.btn-b:hover { background: #b45309; box-shadow: 0 6px 18px rgba(217,119,6,.35); }
+.btn-c { background: var(--via-c); box-shadow: 0 4px 12px rgba(22,163,74,.3); }
+.btn-c:hover { background: #15803d; box-shadow: 0 6px 18px rgba(22,163,74,.35); }
+
+.btn-hint {
+  flex: 1;
+  padding: 15px;
+  background: #f8fafc;
+  color: var(--text-dark);
+  border: 2px solid var(--border);
+  border-radius: 8px;
+  font-family: var(--sans);
+  font-weight: 700;
+  font-size: .88rem;
+  cursor: pointer;
+  transition: all .2s;
+  white-space: nowrap;
+}
+.btn-hint:hover { background: #e2e8f0; border-color: #94a3b8; }
+.btn-hint:focus-visible { outline: 3px solid var(--amber); outline-offset: 2px; }
+.btn-hint:disabled { opacity: .35; cursor: not-allowed; }
+
+/* ── Mensajes ── */
+.msg-box {
+  font-size: .92rem;
+  font-weight: 600;
+  padding: 14px 18px;
+  border-radius: 8px;
+  margin-top: 14px;
+  display: none;
+  line-height: 1.55;
+  text-align: center;
+}
+.msg-error   { background: #fee2e2; color: var(--red);   border: 1px solid #fca5a5; }
+.msg-success { background: #dcfce7; color: var(--green); border: 1px solid #86efac; animation: glow 1.5s infinite; }
+
+@keyframes glow {
+  0%,100%{box-shadow: 0 0 0 0 rgba(22,163,74,.2)}
+  50%    {box-shadow: 0 0 0 8px rgba(22,163,74,0)}
+}
+
+/* ── Pista ── */
+.hint-box {
+  background: #fef9c3;
+  color: #854d0e;
+  border-left: 4px solid #eab308;
+  border-radius: 0 8px 8px 0;
+  padding: 14px 16px;
+  margin-top: 14px;
+  font-family: var(--mono);
+  font-size: .85rem;
+  font-style: italic;
+  line-height: 1.65;
+  display: none;
+}
+.hint-box::before {
+  content: '💡 PISTA — ';
+  font-style: normal;
+  font-weight: bold;
+  opacity: .85;
+}
+
+/* ══════════════════════════════════════
+   PANTALLA DE INTRO
+══════════════════════════════════════ */
+.intro-logo {
+  text-align: center;
+  margin-bottom: 28px;
+  padding-bottom: 24px;
+  border-bottom: 2px solid var(--border);
+}
+.intro-logo .ucg {
+  font-family: var(--mono);
+  font-size: .7rem;
+  letter-spacing: .22em;
+  color: var(--primary);
+  opacity: .8;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+.intro-logo h1 {
+  font-family: var(--sans);
+  font-size: clamp(1.8rem, 5vw, 2.6rem);
+  font-weight: 900;
+  color: var(--text-dark);
+  letter-spacing: -.01em;
+  line-height: 1.05;
+  text-transform: uppercase;
+}
+.intro-logo h1 em {
+  font-style: normal;
+  color: var(--primary);
+}
+.intro-logo p {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: .9rem;
+  font-style: italic;
+}
+
+.intro-logo p {
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: .9rem;
+  font-style: italic;
+}
+
+.briefing {
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-left: 4px solid var(--primary);
+  padding: 16px 20px;
+  border-radius: 0 10px 10px 0;
+  margin-bottom: 28px;
+  font-size: .95rem;
+  line-height: 1.7;
+  color: var(--text-dark);
+}
+.briefing strong { color: var(--primary); }
+
+/* ── Cards de expediente ── */
+.mission-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+}
+.mission-card {
+  background: white;
+  border: 2px solid var(--border);
+  border-radius: 12px;
+  padding: 22px 14px;
+  text-align: center;
+  cursor: pointer;
+  transition: all .25s;
+  position: relative;
+  overflow: hidden;
+}
+.mission-card::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 4px;
+  transition: opacity .25s;
+  opacity: 0;
+}
+.mc-a::after { background: var(--via-a); }
+.mc-b::after { background: var(--via-b); }
+.mc-c::after { background: var(--via-c); }
+
+.mission-card:hover { transform: translateY(-5px); box-shadow: 0 8px 24px rgba(0,0,0,.1); }
+.mission-card:hover::after { opacity: 1; }
+.mc-a:hover { border-color: var(--via-a); }
+.mc-b:hover { border-color: var(--via-b); }
+.mc-c:hover { border-color: var(--via-c); }
+
+.card-icon { font-size: 2.4rem; margin-bottom: 10px; display: block; }
+.card-code {
+  font-family: var(--mono);
+  font-size: .6rem;
+  letter-spacing: .16em;
+  color: var(--muted);
+  margin-bottom: 4px;
+  text-transform: uppercase;
+}
+.card-title {
+  font-size: 1rem;
+  font-weight: 900;
+  margin-bottom: 7px;
+  color: var(--text-dark);
+  text-transform: uppercase;
+  letter-spacing: .02em;
+}
+.mc-a .card-title { color: var(--via-a); }
+.mc-b .card-title { color: var(--via-b); }
+.mc-c .card-title { color: var(--via-c); }
+.card-desc {
+  font-size: .8rem;
+  color: var(--muted);
+  line-height: 1.5;
+}
+.card-steps {
+  margin-top: 10px;
+  font-family: var(--mono);
+  font-size: .62rem;
+  color: #94a3b8;
+  letter-spacing: .08em;
+}
+
+/* ══════════════════════════════════════
+   TECLADO PCR
+══════════════════════════════════════ */
+.pcr-display {
+  font-family: var(--mono);
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: .15em;
+  color: var(--primary);
+  background: #f1f5f9;
+  border: 2px solid var(--border);
+  border-radius: 10px;
+  padding: 12px;
+  text-align: center;
+  margin-bottom: 14px;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,.05);
+}
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  max-width: 220px;
+  margin: 0 auto 16px;
+}
+.keypad button {
+  padding: 14px;
+  font-family: var(--mono);
+  font-size: 1.3rem;
+  font-weight: bold;
+  background: white;
+  border: 1.5px solid var(--border);
+  border-radius: 8px;
+  color: var(--text-dark);
+  cursor: pointer;
+  transition: all .15s;
+  box-shadow: 0 2px 4px rgba(0,0,0,.05);
+}
+.keypad button:hover { border-color: var(--primary); color: var(--primary); background: #eff6ff; }
+.keypad button:focus-visible { outline: 3px solid var(--primary); outline-offset: 2px; }
+.key-clear { color: var(--red) !important; border-color: #fca5a5 !important; }
+.key-ok    { color: var(--green) !important; border-color: #86efac !important; }
+
+/* ══════════════════════════════════════
+   PANTALLAS DE VICTORIA / GAMEOVER
+══════════════════════════════════════ */
+.result-screen { text-align: center; padding: 20px 0; }
+.result-icon { font-size: 4.5rem; margin-bottom: 12px; }
+.result-title {
+  font-family: var(--sans);
+  font-size: clamp(1.6rem, 4vw, 2.4rem);
+  font-weight: 900;
+  letter-spacing: -.01em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+.victory-title { color: var(--green); }
+.gameover-title { color: var(--red); }
+.result-subtitle {
+  font-family: var(--mono);
+  font-size: .85rem;
+  color: var(--primary);
+  margin-bottom: 20px;
+  letter-spacing: .05em;
+}
+.time-badge {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 1.05rem;
+  font-weight: bold;
+  color: var(--text-dark);
+  background: #e2e8f0;
+  border: 1px solid #cbd5e1;
+  padding: 10px 24px;
+  border-radius: 30px;
+  margin-bottom: 24px;
+  letter-spacing: .04em;
+}
+
+/* Feedback educativo en victoria */
+.edu-feedback {
+  background: #f8fafc;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  border-left: 4px solid var(--green);
+  padding: 18px 22px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.edu-feedback h4 {
+  font-family: var(--mono);
+  font-size: .68rem;
+  color: var(--green);
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+.edu-item {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  font-size: .9rem;
+  color: var(--text-dark);
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+.edu-item::before { content: '→'; color: var(--green); font-weight: bold; flex-shrink: 0; margin-top: 2px; }
+
+.btn-reset {
+  width: 100%;
+  padding: 15px;
+  background: #475569;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-family: var(--sans);
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background .2s;
+  letter-spacing: .03em;
+}
+.btn-reset:hover { background: #334155; }
+.btn-reset:focus-visible { outline: 3px solid var(--primary); outline-offset: 2px; }
+
+/* ══════════════════════════════════════
+   RESPONSIVE
+══════════════════════════════════════ */
+@media (max-width: 680px) {
+  .room-inner { padding: 20px; }
+  .mission-grid { grid-template-columns: 1fr; }
+  .btn-row { flex-direction: column; }
+  .top-bar { gap: 8px; }
+}
+@media (max-width: 420px) {
+  .gel-wrap { flex-wrap: wrap; gap: 14px; }
+}
+</style>
+</head>
+<body>
+
+<div class="container" role="main">
+
+  <!-- ══ BARRA SUPERIOR ══ -->
+  <div class="top-bar">
+    <div class="top-bar-left">
+      <div class="status-dot" aria-hidden="true"></div>
+      <span class="top-label">U.C.G. — <strong>Unidad de Crisis Genómica</strong></span>
+    </div>
+    <div class="progress-wrap" id="progressWrap" aria-label="Progreso en el expediente">
+      <span class="prog-label" id="progLabel">PASO 0/4</span>
+      <div class="prog-track"><div class="prog-fill" id="progFill" style="width:0%"></div></div>
+      <span class="hint-counter" id="hintCounter" title="Pistas usadas">💡 3</span>
+    </div>
+    <div id="timer-display" role="timer" aria-live="off">10:00</div>
+  </div>
+
+  <!-- ══ CONTENIDO DE SALAS ══ -->
+  <div class="room-inner">
+
+    <!-- ═══ INTRO ═══ -->
+    <div id="intro" class="room active" aria-label="Pantalla de inicio">
+      <div class="intro-logo">
+        <p class="ucg">// U.C.G. — SISTEMA ACTIVO</p>
+        <h1>Unidad de <em>Crisis</em> Genómica</h1>
+        <p>Escape Room Biotecnológico · PAU Biología Andalucía 2026-27</p>
+      </div>
+
+      <div class="briefing">
+        Se ha producido un <strong>fallo simultáneo en tres laboratorios</strong> del Centro de Biotecnología de Andalucía. Tienes <strong>10 minutos</strong> para resolver tu expediente aplicando tus conocimientos de Biología. Cada error te costará tiempo. Cada pista que solicites restará <strong>30 segundos</strong>. Elige tu expediente:
+      </div>
+
+      <div class="mission-grid" role="list">
+        <div class="mission-card mc-a" onclick="startPath('A')" role="listitem" tabindex="0" aria-label="Expediente ALFA: Terapia Génica">
+          <span class="card-icon" aria-hidden="true">🔴</span>
+          <p class="card-code">EXP-ALFA · NIVEL ★★★</p>
+          <h2 class="card-title">Terapia Génica</h2>
+          <p class="card-desc">CRISPR-Cas9, ADN Recombinante y PCR. El laboratorio de edición génica está comprometido.</p>
+          <p class="card-steps">4 FASES · 10 MIN</p>
+        </div>
+        <div class="mission-card mc-b" onclick="startPath('B')" role="listitem" tabindex="0" aria-label="Expediente BETA: Análisis Forense">
+          <span class="card-icon" aria-hidden="true">🔎</span>
+          <p class="card-code">EXP-BETA · NIVEL ★★☆</p>
+          <h2 class="card-title">Análisis Forense</h2>
+          <p class="card-desc">Electroforesis, enzimas de restricción y PCR. Identificar al culpable.</p>
+          <p class="card-steps">4 FASES · 10 MIN</p>
+        </div>
+        <div class="mission-card mc-c" onclick="startPath('C')" role="listitem" tabindex="0" aria-label="Expediente GAMMA: Producción de Insulina">
+          <span class="card-icon" aria-hidden="true">🟢</span>
+          <p class="card-code">EXP-GAMMA · NIVEL ★☆☆</p>
+          <h2 class="card-title">Insulina Transgénica</h2>
+          <p class="card-desc">ADNc, código genético universal, transgénicos y riesgo biotecnológico. Producción de urgencia.</p>
+          <p class="card-steps">4 FASES · 10 MIN</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ════════════════════════════════
+         VÍA A — TERAPIA GÉNICA
+    ════════════════════════════════ -->
+
+    <!-- A1: Clonación direccional -->
+    <div id="A1" class="room" aria-label="Expediente ALFA, Fase 1">
+      <p class="room-tag">EXP-ALFA · FASE 1/4</p>
+      <h2 class="room-title"><span class="accent-a">ALFA-1</span> — Quimera Molecular</h2>
+      <div class="terminal">
+        <p class="terminal-header">> INFORME DE INCIDENCIA · LAB-A · 03:47h</p>
+        <p class="terminal-body">
+          Al insertar el gen terapéutico en el plásmido vector, el equipo usó una sola enzima de restricción que genera <span class="hl">extremos romos</span>. El gen se inserta indistintamente en ambas orientaciones: <span class="warn">el 50% de los plásmidos resultantes lleva el gen AL REVÉS</span> y la proteína terapéutica no se produce.
+        </p>
+      </div>
+      <div class="question-block">
+        <p class="question-label"><span class="verb">Deduce</span> el protocolo bioquímico que garantiza una inserción <strong>direccional</strong> mediante complementariedad de bases y sella el ADN permanentemente:</p>
+        <select id="A1-ans" aria-label="Selecciona el protocolo correcto">
+          <option value="">Selecciona protocolo de inserción...</option>
+          <option value="correct">Cortar gen y plásmido con dos enzimas distintas (extremos cohesivos diferentes) y sellar con ADN ligasa.</option>
+          <option value="e1">Abrir la doble hélice con helicasa y copiar el gen dentro del plásmido con ADN polimerasa.</option>
+          <option value="e2">Unir los extremos romos con transcriptasa inversa, que los empalma en sentido 3′→5′.</option>
+          <option value="e3">Calentar a 95 ºC para fundir los extremos romos y que se peguen al plásmido al enfriar.</option>
+        </select>
+      </div>
+      <div class="btn-row">
+        <button class="btn-action" onclick="check('A1','A2')" aria-label="Confirmar respuesta y pasar a la siguiente fase"><span>▶ Siguiente Fase</span></button>
+        <button class="btn-hint" onclick="useHint('hint-A1')" id="hbtn-A1" aria-label="Solicitar pista (cuesta 30 segundos)">💡 Pista (−30s)</button>
+      </div>
+      <div id="hint-A1" class="hint-box" role="note">Si usas dos enzimas de restricción distintas en cada extremo del gen y los mismos dos cortes en el plásmido, cada extremo solo encaja con su complementario. La ligasa forma los enlaces fosfodiéster finales.</div>
+      <div id="msg-A1" class="msg-box" role="alert" aria-live="polite"></div>
+    </div>
+
+    <!-- A2: Teclado PCR -->
+    <div id="A2" class="room" aria-label="Expediente ALFA, Fase 2">
+      <p class="room-tag">EXP-ALFA · FASE 2/4</p>
+      <h2 class="room-title"><span class="accent-a">ALFA-2</span> — Termociclador Bloqueado</h2>
+      <div class="terminal">
+        <p class="terminal-header">> FALLO DE SISTEMA: TERMOCICLADOR PCR · CÓDIGO DE ACCESO REQUERIDO</p>
+        <p class="terminal-body">
+          El termociclador está bloqueado por un PIN de seguridad de 6 dígitos. <span class="hl">Introdúcelo en orden</span>:<br>
+          <span class="warn">1) Temperatura de desnaturalización (2 dígitos, ºC)</span><br>
+          <span class="warn">2) Temperatura de hibridación de cebadores (2 dígitos, ºC)</span><br>
+          <span class="warn">3) Temperatura óptima de la Taq polimerasa (2 dígitos, ºC)</span>
+        </p>
+      </div>
+      <div class="pcr-display" id="display-code" aria-live="polite" aria-label="Código introducido">– – – – – –</div>
+      <div class="keypad" role="group" aria-label="Teclado numérico">
+        <button onclick="addNumber(1)" aria-label="1">1</button>
+        <button onclick="addNumber(2)" aria-label="2">2</button>
+        <button onclick="addNumber(3)" aria-label="3">3</button>
+        <button onclick="addNumber(4)" aria-label="4">4</button>
+        <button onclick="addNumber(5)" aria-label="5">5</button>
+        <button onclick="addNumber(6)" aria-label="6">6</button>
+        <button onclick="addNumber(7)" aria-label="7">7</button>
+        <button onclick="addNumber(8)" aria-label="8">8</button>
+        <button onclick="addNumber(9)" aria-label="9">9</button>
+        <button class="key-clear" onclick="clearCode()" aria-label="Borrar código">C</button>
+        <button onclick="addNumber(0)" aria-label="0">0</button>
+        <button class="key-ok" onclick="checkA2()" aria-label="Confirmar código">OK</button>
+      </div>
+      <div class="btn-row" style="justify-content:center">
+        <button class="btn-hint" onclick="useHint('hint-A2')" id="hbtn-A2" aria-label="Solicitar pista (cuesta 30 segundos)">💡 Pista Térmica (−30s)</button>
+      </div>
+      <div id="hint-A2" class="hint-box" role="note">Desnaturalización: casi al hervor del agua, ~95°C. Hibridación de cebadores: temperatura media de ~55°C. Elongación de la Taq: temperatura óptima de la bacteria termófila del géiser (~72°C). Por ejemplo: 95 · 55 · 72.</div>
+      <div id="msg-A2" class="msg-box" role="alert" aria-live="polite"></div>
+    </div>
+
+    <!-- A3: ARN guía CRISPR -->
+    <div id="A3" class="room" aria-label="Expediente ALFA, Fase 3">
+      <p class="room-tag">EXP-ALFA · FASE 3/4</p>
+      <h2 class="room-title"><span class="accent-a">ALFA-3</span> — Cas9 a Ciegas</h2>
+      <div class="terminal">
+        <p class="terminal-header">> ALERTA: NUCLEASA CAS9 SIN MOLÉCULA GUÍA</p>
+        <p class="terminal-body">
+          La nucleasa Cas9 está activa pero <span class="err">no tiene su molécula rastreadora</span>: cortará el ADN en sitios aleatorios produciendo <span class="warn">mutaciones fuera del objetivo (off-target)</span>. Sin esta molécula monocatenaria complementaria a la secuencia diana, el sistema CRISPR es inútil y destructivo.
+        </p>
+      </div>
+      <div class="question-block">
+        <p class="question-label">Sabiendo que esta molécula es <strong>monocatenaria</strong>, <strong>complementaria al ADN diana</strong> y formada por <strong>ácido ribonucleico</strong>, <span class="verb">indica</span> su nombre biológico (2 palabras):</p>
+        <input type="text" id="A3-ans" placeholder="Ej: ARN..." aria-label="Nombre de la molécula guía CRISPR">
+      </div>
+      <div class="btn-row">
+        <button class="btn-action" onclick="checkA3()" aria-label="Confirmar respuesta"><span>▶ Activar Guía</span></button>
+        <button class="btn-hint" onclick="useHint('hint-A3')" id="hbtn-A3">💡 Pista (−30s)</button>
+      </div>
+      <div id="hint-A3" class="hint-box" role="note">Es un ácido ribonucleico monocatenario diseñado en el laboratorio. Su función es "guiar" a la Cas9 hasta la secuencia exacta de ADN a editar. La G del nombre viene de "guía".</div>
+      <div id="msg-A3" class="msg-box" role="alert" aria-live="polite"></div>
+    </div>
+
+    <!-- A4: Riesgo Off-Target — razonamiento experimental -->
+    <div id="A4" class="room" aria-label="Expediente ALFA, Fase 4">
+      <p class="room-tag">EXP-ALFA · FASE 4/4 — MISIÓN FINAL</p>
+      <h2 class="room-title"><span class="accent-a">ALFA-4</span> — Evaluación de Riesgo</h2>
+      <div class="terminal">
+        <p class="terminal-header">> DATOS EXPERIMENTALES: EFICIENCIA CRISPR vs OFF-TARGET</p>
+        <p class="terminal-body">
+          Tras el ensayo con el ARN guía corregido, el análisis muestra los siguientes resultados para dos guías candidatas:
+        </p>
+      </div>
+      <table class="data-table" aria-label="Datos de eficiencia y efectos off-target de dos ARN guía">
+        <thead>
+          <tr><th>ARN guía</th><th>Eficiencia edición (%)</th><th>Cortes off-target</th><th>Toxicidad celular</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Guía X</td><td class="hi">94%</td><td class="lo">23 sitios</td><td>Alta</td></tr>
+          <tr><td>Guía Y</td><td>71%</td><td class="hi">2 sitios</td><td class="hi">Mínima</td></tr>
+        </tbody>
+      </table>
+      <div class="question-block">
+        <p class="question-label"><span class="verb">Razona</span> qué ARN guía elegiría para una terapia génica humana en un paciente real, <span class="verb">justificando</span> por qué la eficiencia de edición NO es el único criterio válido:</p>
+        <select id="A4-ans" aria-label="Selecciona el ARN guía más adecuado para terapia génica">
+          <option value="">Selecciona y justifica...</option>
+          <option value="correct">Guía Y: es menos eficaz, pero sus 2 cortes fuera de objetivo y su baja toxicidad la hacen más segura.</option>
+          <option value="e1">Guía X: su 94 % de eficacia es lo decisivo; los cortes fuera de objetivo dan igual si el gen se corrige.</option>
+          <option value="e2">Ninguna: cualquier corte fuera de objetivo obliga a abandonar la terapia génica en personas.</option>
+        </select>
+      </div>
+      <div class="btn-row">
+        <button class="btn-action" onclick="check('A4','victoryA')" aria-label="Confirmar y completar expediente ALFA"><span>▶ Sellar Expediente ALFA</span></button>
+        <button class="btn-hint" onclick="useHint('hint-A4')" id="hbtn-A4">💡 Pista (−30s)</button>
+      </div>
+      <div id="hint-A4" class="hint-box" role="note">En terapia génica, el principio de bioética es "primum non nocere" (primero, no hacer daño). Un corte no deseado en un proto-oncogén puede convertirlo en oncogén activo. 23 cortes off-target en un genoma humano es inaceptable clínicamente.</div>
+      <div id="msg-A4" class="msg-box" role="alert" aria-live="polite"></div>
+    </div>
+
+    <!-- ════════════════════════════════
+         VÍA B — ANÁLISIS FORENSE
+    ════════════════════════════════ -->
+
+    <!-- B1: Electroforesis -->
+    <div id="B1" class="room" aria-label="Expediente BETA, Fase 1">
+      <p class="room-tag">EXP-BETA · FASE 1/4</p>
+      <h2 class="room-title"><span class="accent-b">BETA-1</span> — Muestra Degradada</h2>
+      <div class="terminal">
+        <p class="terminal-header">> INFORME: ADN ESCENA DEL CRIMEN — ELECTROFORESIS FALLIDA</p>
+        <p class="terminal-body">
+          El técnico conectó los electrodos al revés. El ADN migró hacia el polo incorrecto y las bandas quedaron fuera del gel. <span class="warn">Debes recalibrar el sistema.</span>
+        </p>
+      </div>
+      <div class="question-block">
+        <p class="question-label"><span class="verb">Indica</span> hacia qué polo eléctrico migra el ADN en la electroforesis y <span class="verb">justifica</span> la razón molecular:</p>
+        <select id="B1-ans" aria-label="Selecciona el polo de migración del ADN">
+          <option value="">Selecciona la dirección correcta...</option>
+          <option value="correct">Hacia el polo positivo: los grupos fosfato del esqueleto dan al ADN carga negativa.</option>
+          <option value="e1">Hacia el polo negativo: las bases nitrogenadas tienen carga positiva y van al polo contrario.</option>
+          <option value="e2">No migra por su carga: el ADN es neutro y avanza empujado por el tampón del gel.</option>
+        </select>
+      </div>
+      <div class="btn-row">
+        <button class="btn-action btn-b" onclick="check('B1','B2')"><span>▶ Activar Voltaje</span></button>
+        <button class="btn-hint" onclick="useHint('hint-B1')" id="hbtn-B1">💡 Pista (−30s)</button>
+      </div>
+      <div id="hint-B1" class="hint-box" role="note">En el esqueleto del ADN, cada grupo fosfato que une dos nucleótidos conserva una carga negativa a pH 7. Las cargas negativas son atraídas por el polo positivo.</div>
+      <div id="msg-B1" class="msg-box" role="alert" aria-live="polite"></div>
+    </div>
+
+    <!-- B2: Enzimas de restricción -->
+    <div id="B2" class="room" aria-label="Expediente BETA, Fase 2">
+      <p class="room-tag">EXP-BETA · FASE 2/4</p>
+      <h2 class="room-title"><span class="accent-b">BETA-2</span> — Patrones de Corte</h2>
+      <div class="terminal">
+        <p class="terminal-header">> PREPARACIÓN DE MUESTRA: DIGESTIÓN ENZIMÁTICA DEL ADN SOSPECHOSO</p>
+        <p class="terminal-body">
+          Necesitamos trocear el ADN del sospechoso en fragmentos de tamaño específico reconociendo una <span class="hl">secuencia palindrómica</span> de 6 pares de bases. Estas enzimas fueron descubiertas en bacterias donde actúan como mecanismo de defensa frente a bacteriófagos.
+        </p>
+      </div>
+      <div class="question-block">
+        <p class="question-label"><span class="verb">Escribe</span> el nombre de este tipo de enzima (puede ser el nombre completo o la abreviatura reconocida en biología molecular):</p>
+        <input type="text" id="B2-ans" placeholder="Nombre de la enzima..." aria-label="Nombre de la enzima de restricción">
+      </div>
+      <div class="btn-row">
+        <button class="btn-action btn-b" onclick="checkB2()"><span>▶ Aplicar Corte</span></button>
+        <button class="btn-hint" onclick="useHint('hint-B2')" id="hbtn-B2">💡 Pista (−30s)</button>
+      </div>
+      <div id="hint-B2" class="hint-box" role="note">Son endonucleasas de origen bacteriano. Su nombre completo empieza por "enzima de..." — la R viene de "restricción". Algunas se llaman EcoRI, HindIII, BamHI (el nombre propio varía pero el tipo es siempre el mismo).</div>
+      <div id="msg-B2" class="msg-box" role="alert" aria-live="polite"></div>
+    </div>
+
+    <!-- B3: secuencia conocida y PCR -->
+    <div id="B3" class="room" aria-label="Expediente BETA, Fase 3">
+      <p class="room-tag">EXP-BETA · FASE 3/4</p>
+      <h2 class="room-title"><span class="accent-b">BETA-3</span> — Muestra escasa</h2>
+      <div class="terminal">
+        <p class="terminal-header">> MUESTRA FORENSE · CANTIDAD DE ADN INSUFICIENTE</p>
+        <p class="terminal-body">
+          En la escena solo queda una gota de sangre seca: hay tan poco ADN que no se ve en el gel. <span class="warn">Hay que obtener millones de copias de la región que se va a comparar.</span> La secuencia de esa región del genoma humano es conocida.
+        </p>
+      </div>
+      <div class="question-block">
+        <p class="question-label"><span class="verb">Indica</span> qué técnica permite conseguir las copias y <span class="verb">explica</span> para qué sirve conocer la secuencia de la región:</p>
+        <select id="B3-ans" aria-label="Selecciona la técnica y el papel de la secuencia">
+          <option value="">Selecciona técnica y justificación...</option>
+          <option value="correct">PCR: la secuencia permite diseñar cebadores complementarios de los extremos de la región.</option>
+          <option value="e1">Clonación en un plásmido: la secuencia sirve para elegir la bacteria que la copiará.</option>
+          <option value="e2">Electroforesis repetida: la secuencia indica cuántas veces hay que pasar la muestra por el gel.</option>
+        </select>
+      </div>
+      <div class="btn-row">
+        <button class="btn-action btn-b" onclick="check('B3','B4')"><span>▶ Amplificar Muestra</span></button>
+        <button class="btn-hint" onclick="useHint('hint-B3')" id="hbtn-B3">💡 Pista (−30s)</button>
+      </div>
+      <div id="hint-B3" class="hint-box" role="note">La reacción en cadena de la polimerasa copia solo el fragmento comprendido entre dos cebadores. Para fabricar esos cebadores hay que saber qué bases hay en los extremos del fragmento: para eso sirve la secuenciación.</div>
+      <div id="msg-B3" class="msg-box" role="alert" aria-live="polite"></div>
+    </div>
+
+    <!-- B4: Interpretación del gel — razonamiento experimental -->
+    <div id="B4" class="room" aria-label="Expediente BETA, Fase 4">
+      <p class="room-tag">EXP-BETA · FASE 4/4 — IDENTIFICACIÓN FINAL</p>
+      <h2 class="room-title"><span class="accent-b">BETA-4</span> — Perfil de ADN</h2>
+      <div class="terminal">
+        <p class="terminal-header">> RESULTADO: GEL DE ELECTROFORESIS — COMPARATIVA PERFILES DE ADN</p>
+        <p class="terminal-body">
+          Tres sospechosos. Una muestra de la escena. <span class="hl">El perfil del culpable coincide con la muestra forense.</span> Analiza el patrón de bandas (fragmentos más pequeños migran más lejos):
+        </p>
+      </div>
+      <!-- Gel visual simplificado con datos numéricos -->
+      <table class="data-table" aria-label="Fragmentos de ADN en pares de bases para cada perfil">
+        <thead>
+          <tr><th>Carril</th><th>Fragmento 1 (pb)</th><th>Fragmento 2 (pb)</th><th>Fragmento 3 (pb)</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Escena del crimen</td><td class="hi">3.200</td><td class="hi">1.500</td><td class="hi">900</td></tr>
+          <tr><td>Sospechoso 1</td><td>3.200</td><td>2.100</td><td>400</td></tr>
+          <tr><td>Sospechoso 2</td><td class="hi">3.200</td><td class="hi">1.500</td><td class="hi">900</td></tr>
+          <tr><td>Sospechoso 3</td><td>4.800</td><td>1.500</td><td>300</td></tr>
+        </tbody>
+      </table>
+      <div class="question-block">
+        <p class="question-label"><span class="verb">Identifica</span> al sospechoso cuyo perfil coincide con la muestra de la escena e <span class="verb">indica</span> cómo se generan perfiles de ADN distintos entre personas con las mismas enzimas de restricción:</p>
+        <select id="B4-ans" aria-label="Selecciona al sospechoso culpable y la justificación">
+          <option value="">Selecciona sospechoso y justificación...</option>
+          <option value="correct">Sospechoso 2: coinciden los tres fragmentos; cada persona tiene sus propios sitios de corte.</option>
+          <option value="e1">Sospechoso 1: coincide el fragmento mayor, y los otros difieren solo por error experimental.</option>
+          <option value="e2">Sospechoso 3: comparte el fragmento de 1.500 pb, que basta para identificar a una persona.</option>
+        </select>
+      </div>
+      <div class="btn-row">
+        <button class="btn-action btn-b" onclick="check('B4','victoryB')"><span>▶ Emitir Informe Forense</span></button>
+        <button class="btn-hint" onclick="useHint('hint-B4')" id="hbtn-B4">💡 Pista (−30s)</button>
+      </div>
+      <div id="hint-B4" class="hint-box" role="note">Para que haya coincidencia, los TRES fragmentos deben coincidir, no solo uno o dos. Las diferencias entre individuos se deben a que cada persona tiene sus propios sitios de corte (polimorfismos de ADN). Solo una coincidencia triple es evidencia forense.</div>
+      <div id="msg-B4" class="msg-box" role="alert" aria-live="polite"></div>
+    </div>
+
+    <!-- ════════════════════════════════
+         VÍA C — INSULINA TRANSGÉNICA
+    ════════════════════════════════ -->
+
+    <!-- C1: Intrones y ADNc -->
+    <div id="C1" class="room" aria-label="Expediente GAMMA, Fase 1">
+      <p class="room-tag">EXP-GAMMA · FASE 1/4</p>
+      <h2 class="room-title"><span class="accent-c">GAMMA-1</span> — El Problema Eucariota</h2>
+      <div class="terminal">
+        <p class="terminal-header">> SIMULACIÓN PAU: OBTENCIÓN DE INSULINA — PROBLEMA DE INTRONES</p>
+        <p class="terminal-body">
+          El gen humano de la insulina contiene <span class="warn">intrones</span> (secuencias no codificantes). Las bacterias (<i>E. coli</i>) <span class="err">no poseen el maquinaria de splicing</span> para eliminarlos. Si usamos el ADN genómico directamente, la bacteria fabricará una proteína inútil con los intrones incluidos.
+        </p>
+      </div>
+      <div class="question-block">
+        <p class="question-label"><span class="verb">Explica</span> cómo se obtiene en el laboratorio una copia del gen humano de la insulina <strong>sin intrones</strong> (ADNc) lista para ser expresada en bacterias:</p>
+        <select id="C1-ans" aria-label="Selecciona el método para obtener ADNc">
+          <option value="">Selecciona la técnica correcta...</option>
+          <option value="correct">Aislar el ARNm maduro de las células β del páncreas y copiarlo en ADNc con transcriptasa inversa.</option>
+          <option value="e1">Amplificar el gen con PCR y calentarlo después para que los intrones se desprendan solos.</option>
+          <option value="e2">Cortar el ADN genómico con enzimas de restricción que eliminan cada uno de los intrones.</option>
+        </select>
+      </div>
+      <div class="btn-row">
+        <button class="btn-action btn-c" onclick="check('C1','C2')"><span>▶ Obtener ADNc</span></button>
+        <button class="btn-hint" onclick="useHint('hint-C1')" id="hbtn-C1">💡 Pista (−30s)</button>
+      </div>
+      <div id="hint-C1" class="hint-box" role="note">El ARNm maduro ya no tiene intrones (el splicing los ha eliminado en el núcleo). Necesitamos una enzima de origen viral (como la del VIH) que lee ARN y fabrica ADN: la transcriptasa inversa. Proceso: ARNm → ADNc.</div>
+      <div id="msg-C1" class="msg-box" role="alert" aria-live="polite"></div>
+    </div>
+
+    <!-- C2: Código genético universal -->
+    <div id="C2" class="room" aria-label="Expediente GAMMA, Fase 2">
+      <p class="room-tag">EXP-GAMMA · FASE 2/4</p>
+      <h2 class="room-title"><span class="accent-c">GAMMA-2</span> — El Misterio del Traductor</h2>
+      <div class="terminal">
+        <p class="terminal-header">> VERIFICACIÓN EXITOSA: BACTERIA PRODUCE INSULINA HUMANA FUNCIONAL</p>
+        <p class="terminal-body">
+          Los ribosomas de <i>E. coli</i> (70S) están leyendo instrucciones del gen humano (originalmente para ribosomas 80S) y fabricando insulina humana perfecta. <span class="hl">¿Por qué esto es posible sin que la bacteria "traduzca" el idioma?</span>
+        </p>
+      </div>
+      <div class="question-block">
+        <p class="question-label"><span class="verb">Justifica</span> biológicamente por qué los ribosomas bacterianos pueden leer e interpretar correctamente la información del gen humano:</p>
+        <select id="C2-ans" aria-label="Selecciona la justificación biológica">
+          <option value="">Selecciona la propiedad del código genético...</option>
+          <option value="correct">El código genético es universal: cada codón significa el mismo aminoácido en bacterias y personas.</option>
+          <option value="e1">El código es degenerado: hay varios codones por aminoácido y la bacteria elige los que reconoce.</option>
+          <option value="e2">El plásmido traduce el gen humano a un «lenguaje bacteriano» antes de que se exprese.</option>
+        </select>
+      </div>
+      <div class="btn-row">
+        <button class="btn-action btn-c" onclick="check('C2','C3')"><span>▶ Traducir Proteína</span></button>
+        <button class="btn-hint" onclick="useHint('hint-C2')" id="hbtn-C2">💡 Pista (−30s)</button>
+      </div>
+      <div id="hint-C2" class="hint-box" role="note">Si el codón AUG significa "Metionina" tanto en una bacteria como en un elefante o en una planta, es porque el "diccionario genético" es el mismo. Ese diccionario común se llama universalidad del código genético.</div>
+      <div id="msg-C2" class="msg-box" role="alert" aria-live="polite"></div>
+    </div>
+
+    <!-- C3: OMG y transgénico -->
+    <div id="C3" class="room" aria-label="Expediente GAMMA, Fase 3">
+      <p class="room-tag">EXP-GAMMA · FASE 3/4</p>
+      <h2 class="room-title"><span class="accent-c">GAMMA-3</span> — Catalogación del Organismo</h2>
+      <div class="terminal">
+        <p class="terminal-header">> REGISTRO BIOÉTICO: CLASIFICACIÓN DEL ORGANISMO PRODUCTOR</p>
+        <p class="terminal-body">
+          Tenemos cultivos de <i>E. coli</i> fabricando insulina humana a partir de un gen foráneo insertado. Para registrar la cepa en el catálogo de seguridad biológica, debemos clasificarla correctamente según la normativa vigente.
+        </p>
+      </div>
+      <div class="question-block">
+        <p class="question-label"><span class="verb">Indica</span> el término técnico (nombre completo o siglas reconocidas) que <span class="verb">define</span> a los organismos cuyo material genético ha sido alterado mediante la incorporación de ADN de otra especie:</p>
+        <input type="text" id="C3-ans" placeholder="Una palabra (Trans...)" aria-label="Término para organismo con ADN foráneo">
+      </div>
+      <div class="btn-row">
+        <button class="btn-action btn-c" onclick="checkC3()"><span>▶ Registrar Organismo</span></button>
+        <button class="btn-hint" onclick="useHint('hint-C3')" id="hbtn-C3">💡 Pista (−30s)</button>
+      </div>
+      <div id="hint-C3" class="hint-box" role="note">Todos son OMG (organismos modificados genéticamente), pero cuando lo que se les añade es ADN de OTRA especie reciben un nombre más preciso que empieza por «Trans...».</div>
+      <div id="msg-C3" class="msg-box" role="alert" aria-live="polite"></div>
+    </div>
+
+    <!-- C4: Riesgo biotecnológico — razonamiento ético-científico -->
+    <div id="C4" class="room" aria-label="Expediente GAMMA, Fase 4">
+      <p class="room-tag">EXP-GAMMA · FASE 4/4 — EVALUACIÓN FINAL</p>
+      <h2 class="room-title"><span class="accent-c">GAMMA-4</span> — Riesgo Ecológico</h2>
+      <div class="terminal">
+        <p class="terminal-header">> INFORME DE RIESGO: LIBERACIÓN ACCIDENTAL DE BACTERIA TRANSGÉNICA</p>
+        <p class="terminal-body">
+          Una cepa de <i>E. coli</i> transgénica escapa del biorreactor. La bacteria produce insulina humana pero también contiene marcadores de resistencia a ampicilina en el plásmido. <span class="warn">Evalúa el riesgo real de la situación:</span>
+        </p>
+      </div>
+      <div class="question-block">
+        <p class="question-label"><span class="verb">Analiza</span> cuál de los siguientes es el <strong>riesgo ecológico principal</strong> de esta situación, <span class="verb">razonando</span> por qué ese riesgo supera al de los demás:</p>
+        <select id="C4-ans" aria-label="Selecciona el riesgo ecológico principal">
+          <option value="">Selecciona el riesgo más relevante...</option>
+          <option value="e1">La bacteria podría inyectar insulina al tocar la piel y provocar una hipoglucemia grave.</option>
+          <option value="correct">El gen de resistencia del plásmido podría pasar por conjugación a bacterias patógenas.</option>
+          <option value="e2">La bacteria desplazaría a toda la microbiota intestinal de quien la ingiriera por accidente.</option>
+        </select>
+      </div>
+      <div class="btn-row">
+        <button class="btn-action btn-c" onclick="check('C4','victoryC')"><span>▶ Emitir Informe de Bioseguridad</span></button>
+        <button class="btn-hint" onclick="useHint('hint-C4')" id="hbtn-C4">💡 Pista (−30s)</button>
+      </div>
+      <div id="hint-C4" class="hint-box" role="note">Las bacterias intercambian plásmidos por conjugación entre especies distintas. Un gen de resistencia antibiótica en un plásmido puede propagarse a bacterias patógenas en pocas horas. Este es el mecanismo principal de propagación de resistencias a antibióticos en el mundo.</div>
+      <div id="msg-C4" class="msg-box" role="alert" aria-live="polite"></div>
+    </div>
+
+    <!-- ══ VICTORIA ══ -->
+    <div id="victory" class="room result-screen" aria-label="Pantalla de victoria">
+      <p class="result-icon" aria-hidden="true">🏆</p>
+      <h2 class="result-title victory-title">OBJETIVO CUMPLIDO</h2>
+      <p class="result-subtitle" id="victory-subtitle"></p>
+      <div class="time-badge" id="victory-time" aria-live="polite"></div>
+      <div class="edu-feedback" id="edu-feedback" aria-label="Conceptos clave del expediente">
+        <h4>// CONCEPTOS CLAVE APLICADOS</h4>
+        <div id="edu-items"></div>
+      </div>
+      <button class="btn-reset" onclick="resetGame()">↺ Intentar Otra Vía</button>
+    </div>
+
+    <!-- ══ GAME OVER ══ -->
+    <div id="gameover" class="room result-screen" aria-label="Pantalla de tiempo agotado">
+      <p class="result-icon" aria-hidden="true">⏳</p>
+      <h2 class="result-title gameover-title">TIEMPO AGOTADO</h2>
+      <p class="result-subtitle">Las muestras biológicas se han degradado. Misión fallida.</p>
+      <p style="color:var(--muted);font-size:.9rem;margin-bottom:24px;line-height:1.6;">No te rindas: cada expediente contiene preguntas reales de PAU. Repasa los conceptos y vuelve a intentarlo.</p>
+      <button class="btn-reset" onclick="resetGame()">↺ Volver al Inicio</button>
+    </div>
+
+  </div><!-- fin room-inner -->
+</div><!-- fin container -->
+
+<script>
+// ══════════════════════════════════════════════════
+//  ESTADO GLOBAL
+// ══════════════════════════════════════════════════
+let timerInterval  = null;
+let timeLeft       = 600;
+let pcrCode        = "";
+let hintsLeft      = 3;
+let currentPath    = null;
+let currentStep    = 0;
+
+// Respuestas correctas por sala
+const CORRECT = {
+  A1:'correct', A4:'correct',
+  B1:'correct', B3:'correct', B4:'correct',
+  C1:'correct', C2:'correct', C4:'correct'
+};
+
+// Feedback educativo por sala corrrecta
+const FEEDBACK = {
+  A1:"Las dos enzimas de restricción distintas generan extremos cohesivos asimétricos que actúan como un candado-llave molecular. La ligasa solo sella cuando hay complementariedad exacta → inserción 100% direccional.",
+  A2:"Las 3 temperaturas de la PCR son inviolables: 95°C desnaturaliza (separa hebras), ~55°C permite la hibridación específica de los cebadores, 72°C es el óptimo catalítico de la Taq polimerasa (origen: Thermus aquaticus, géiseres de Yellowstone).",
+  A3:"El ARN guía (sgRNA) es la 'dirección GPS' de CRISPR-Cas9. Sin él, Cas9 corta ADN al azar. Su diseño específico para cada gen objetivo es lo que hace a CRISPR el sistema de edición génica más preciso descubierto hasta hoy.",
+  A4:"En bioética médica, la seguridad prima sobre la eficiencia. 23 cortes off-target en un genoma humano son clínicamente inaceptables: un corte en un proto-oncogén puede desencadenar un cáncer. La Guía Y, con solo 2 cortes off-target, es la elección responsable.",
+  B1:"El esqueleto azúcar-fosfato del ADN está cargado negativamente (un fosfato con carga negativa por cada nucleótido). Cargas negativas → migran hacia el ánodo (polo +). Los fragmentos más pequeños migran más lejos al encontrar menos resistencia en la malla del gel.",
+  B2:"Las enzimas de restricción (endonucleasas de tipo II) son las 'tijeras moleculares' de la biotecnología. De origen bacteriano, reconocen secuencias palindrómicas de 4-8 pb y cortan en sitios específicos generando extremos romos o cohesivos.",
+  B3:"La PCR copia millones de veces el fragmento comprendido entre dos cebadores. Los cebadores deben ser complementarios de los extremos de esa región: por eso hay que conocer su secuencia (para eso sirve secuenciar el ADN).",
+  B4:"Los RFLPs (Polimorfismos de Longitud de Fragmentos de Restricción) son la base del perfil de ADN forense. Solo la coincidencia de TODOS los fragmentos es evidencia de identidad. Es la misma lógica del DNI genético.",
+  C1:"La retrotranscriptasa (o transcriptasa inversa) del VIH es la enzima que hace posible la producción de proteínas humanas en bacterias: lee el ARNm maduro (sin intrones) y sintetiza ADNc. Sin intrones → la bacteria puede expresarlo directamente.",
+  C2:"La universalidad del código genético es una de las evidencias más potentes de la evolución: todos los seres vivos comparten el mismo 'diccionario' genético porque descendemos de un ancestro común. AUG siempre es Met, UAA siempre es Stop.",
+  C3:"Transgénico: OMG al que se ha incorporado ADN de otra especie (el gen humano de la insulina en E. coli). Todo transgénico es un OMG, pero no todo OMG es transgénico: un organismo con un gen propio inactivado por CRISPR es un OMG sin ADN ajeno.",
+  C4:"La transferencia horizontal de genes entre bacterias por conjugación es el mecanismo más peligroso de propagación de resistencias antibióticas. Un gen de resistencia en un plásmido puede pasar a decenas de especies distintas en horas."
+};
+
+// Conceptos finales por vía
+const VICTORY_DATA = {
+  A: {
+    subtitle: "Terapia CRISPR Completada con Éxito",
+    items: ["Inserción direccional con 2 enzimas de restricción y ADN Ligasa.",
+            "PCR: 95°C (desnaturalización) → 55°C (hibridación) → 72°C (elongación Taq).",
+            "ARN guía (sgRNA): molécula monocatenaria que dirige la Cas9 al sitio exacto.",
+            "Bioética CRISPR: off-target inaceptable aunque eficiencia sea alta."]
+  },
+  B: {
+    subtitle: "Identificación Forense Completada",
+    items: ["ADN migra al polo + (ánodo) por la carga negativa de los fosfatos.",
+            "Enzimas de restricción: endonucleasas bacterianas que cortan en secuencias palindrómicas.",
+            "PCR: cebadores complementarios de los extremos (secuencia conocida) → millones de copias de la región.",
+            "RFLPs: coincidencia de todos los fragmentos = perfil de ADN único."]
+  },
+  C: {
+    subtitle: "Producción de Insulina Asegurada",
+    items: ["ADNc: ARNm maduro (sin intrones) → Retrotranscriptasa → ADNc expresable en bacterias.",
+            "Universalidad del código genético: mismo codón, mismo aminoácido en toda la vida.",
+            "Transgénico: OMG que lleva ADN de otra especie (todo transgénico es OMG, no al revés).",
+            "Riesgo de plásmidos con resistencia: conjugación bacteriana → propagación de multirresistencias."]
+  }
+};
+
+// ══════════════════════════════════════════════════
+//  TIMER
+// ══════════════════════════════════════════════════
+function startTimer() {
+  document.getElementById('timer-display').style.display = 'block';
+  timerInterval = setInterval(() => {
+    timeLeft--;
+    const m   = Math.floor(timeLeft / 60);
+    const s   = timeLeft % 60;
+    const el  = document.getElementById('timer-display');
+    el.textContent = `${m}:${s < 10 ? '0' : ''}${s}`;
+    el.classList.toggle('urgent', timeLeft <= 60);
+    if (timeLeft <= 0) { clearInterval(timerInterval); showRoom('gameover'); }
+  }, 1000);
+}
+
+// ══════════════════════════════════════════════════
+//  NAVEGACIÓN
+// ══════════════════════════════════════════════════
+function showRoom(id) {
+  document.querySelectorAll('.room').forEach(r => {
+    r.classList.remove('active');
+    r.setAttribute('aria-hidden', 'true');
+  });
+  const room = document.getElementById(id);
+  room.classList.add('active');
+  room.removeAttribute('aria-hidden');
+  room.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+function startPath(path) {
+  currentPath = path;
+  currentStep = 1;
+  hintsLeft   = 3;
+  updateProgress();
+  document.getElementById('progressWrap').classList.add('visible');
+  startTimer();
+  showRoom(path + '1');
+}
+
+function updateProgress() {
+  const total = 4;
+  document.getElementById('progLabel').textContent = `PASO ${currentStep}/${total}`;
+  document.getElementById('progFill').style.width  = (currentStep / total * 100) + '%';
+  document.getElementById('hintCounter').textContent = `💡 ${hintsLeft}`;
+}
+
+// ══════════════════════════════════════════════════
+//  LÓGICA DE COMPROBACIÓN GENÉRICA
+// ══════════════════════════════════════════════════
+function check(roomId, nextId) {
+  const el  = document.getElementById(roomId + '-ans');
+  const val = el ? el.value : '';
+  const ok  = val === (CORRECT[roomId] || 'correct');
+
+  if (ok) {
+    const feedback = FEEDBACK[roomId] || '';
+    showSuccess('msg-' + roomId, feedback, nextId);
+  } else {
+    showError('msg-' + roomId, getErrorMsg(roomId));
+  }
+}
+
+function showSuccess(msgId, feedback, nextId) {
+  const box = document.getElementById(msgId);
+  box.innerHTML = `<span style="color:var(--green)">✓ CORRECTO</span> — ${feedback}`;
+  box.className = 'msg-box msg-success';
+  box.style.display = 'block';
+
+  if (nextId.startsWith('victory')) {
+    const path = nextId.replace('victory', '');
+    setTimeout(() => winGame(path), 3000);
+  } else {
+    setTimeout(() => {
+      box.style.display = 'none';
+      currentStep++;
+      updateProgress();
+      showRoom(nextId);
+    }, 3200);
+  }
+}
+
+function showError(msgId, text) {
+  const box = document.getElementById(msgId);
+  box.textContent = text;
+  box.className = 'msg-box msg-error';
+  box.style.display = 'block';
+  setTimeout(() => { box.style.display = 'none'; }, 3500);
+}
+
+function getErrorMsg(roomId) {
+  const msgs = {
+    A1:"❌ Protocolo incorrecto. Piensa: ¿cómo puedes garantizar que el gen encaje solo en una orientación?",
+    A4:"❌ Reconsidéra el criterio de seguridad en medicina. ¿Qué pasa con 23 cortes involuntarios en genes humanos?",
+    B1:"❌ Comprueba la carga eléctrica del esqueleto del ADN. Los fosfatos son clave.",
+    B3:"❌ Piensa en qué técnica copia un fragmento concreto de ADN y qué piezas necesita para saber dónde empezar.",
+    B4:"❌ Compara TODOS los fragmentos, no solo uno. La coincidencia debe ser completa.",
+    C1:"❌ Recuerda: las bacterias no saben hacer splicing. Necesitas partir del ARNm ya maduro.",
+    C2:"❌ La clave no es la degeneración. Piensa: ¿por qué el mismo codón funciona en una bacteria y en un humano?",
+    C4:"❌ Piensa en la transferencia horizontal de genes entre bacterias. ¿Qué elemento del plásmido es peligroso?"
+  };
+  return msgs[roomId] || "❌ Respuesta incorrecta. Revisa los conceptos y vuelve a intentarlo.";
+}
+
+// ══════════════════════════════════════════════════
+//  PISTAS
+// ══════════════════════════════════════════════════
+function useHint(hintId) {
+  if (hintsLeft <= 0) return;
+  hintsLeft--;
+  timeLeft = Math.max(0, timeLeft - 30);
+  updateProgress();
+  document.getElementById(hintId).style.display = 'block';
+
+  const btn = document.getElementById('hbtn-' + hintId.replace('hint-',''));
+  if (btn) btn.disabled = true;
+}
+
+// ══════════════════════════════════════════════════
+//  TECLADO PCR
+// ══════════════════════════════════════════════════
+function addNumber(n) {
+  if (pcrCode.length < 6) {
+    pcrCode += n;
+    updatePcrDisplay();
+  }
+}
+function clearCode() {
+  pcrCode = "";
+  updatePcrDisplay();
+}
+function updatePcrDisplay() {
+  const padded = pcrCode.padEnd(6, '–');
+  document.getElementById('display-code').textContent = padded.split('').join(' ');
+}
+function checkA2() {
+  const t1 = +pcrCode.slice(0, 2), t2 = +pcrCode.slice(2, 4), t3 = +pcrCode.slice(4, 6);
+  if (pcrCode.length === 6 && t1 >= 90 && t1 <= 98 && t2 >= 50 && t2 <= 65 && t3 >= 70 && t3 <= 75) {
+    showSuccess('msg-A2', FEEDBACK.A2, 'A3');
+  } else {
+    showError('msg-A2', '❌ Temperaturas incorrectas. Pulsa C y reintenta. Solicita pista si lo necesitas.');
+    clearCode();
+  }
+}
+
+// ══════════════════════════════════════════════════
+//  COMPROBACIONES CON TEXTO LIBRE
+// ══════════════════════════════════════════════════
+function normalize(str) {
+  return str.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').trim();
+}
+
+function checkA3() {
+  const q = normalize(document.getElementById('A3-ans').value);
+  if (q.includes('arn guia') || q.includes('rna guia') || q.includes('sgrna') || q.includes('guia') && q.includes('arn')) {
+    showSuccess('msg-A3', FEEDBACK.A3, 'A4');
+  } else {
+    showError('msg-A3', '❌ No es correcto. Recuerda: es una molécula de ARN monocatenaria que sirve de guía para la Cas9.');
+  }
+}
+
+function checkB2() {
+  const q = normalize(document.getElementById('B2-ans').value);
+  if (q.includes('restriccion') || q.includes('endonucleasa') || q.includes('restriccion')) {
+    showSuccess('msg-B2', FEEDBACK.B2, 'B3');
+  } else {
+    showError('msg-B2', '❌ Incorrecto. Son endonucleasas de origen bacteriano. ¿Qué tipo de enzima "restringe" el ADN foráneo?');
+  }
+}
+
+function checkC3() {
+  const q = normalize(document.getElementById('C3-ans').value);
+  if (q.includes('omg') || q.includes('organismo modificado')) {
+    showError('msg-C3', '⚠️ Casi: es un OMG, pero no todo OMG lleva ADN de otra especie. ¿Cuál es el término específico?');
+    return;
+  }
+  if (q.includes('transgenic')) {
+    showSuccess('msg-C3', FEEDBACK.C3, 'C4');
+  } else {
+    showError('msg-C3', '❌ Incorrecto. Es un tipo particular de OMG cuyo nombre empieza por «Trans...».');
+  }
+}
+
+// ══════════════════════════════════════════════════
+//  VICTORIA Y REINICIO
+// ══════════════════════════════════════════════════
+function winGame(path) {
+  clearInterval(timerInterval);
+  document.getElementById('timer-display').style.display = 'none';
+
+  const data     = VICTORY_DATA[path];
+  const elapsed  = 600 - timeLeft;
+  const m        = Math.floor(elapsed / 60);
+  const s        = elapsed % 60;
+
+  document.getElementById('victory-subtitle').textContent = data.subtitle;
+  document.getElementById('victory-time').textContent     = `⏱ Tiempo: ${m} min ${s} seg — Pistas usadas: ${3 - hintsLeft}`;
+
+  const itemsHtml = data.items.map(i =>
+    `<div class="edu-item">${i}</div>`
+  ).join('');
+  document.getElementById('edu-items').innerHTML = itemsHtml;
+
+  showRoom('victory');
+}
+
+function resetGame() {
+  clearInterval(timerInterval);
+  timeLeft     = 600;
+  pcrCode      = "";
+  hintsLeft    = 3;
+  currentPath  = null;
+  currentStep  = 0;
+
+  document.getElementById('display-code').textContent   = '– – – – – –';
+  document.getElementById('timer-display').style.display = 'none';
+  document.getElementById('timer-display').classList.remove('urgent');
+  document.getElementById('progressWrap').classList.remove('visible');
+  document.getElementById('progFill').style.width = '0%';
+
+  document.querySelectorAll('input, select').forEach(el => el.value = '');
+  document.querySelectorAll('.msg-box').forEach(el => {
+    el.textContent = '';
+    el.style.display = 'none';
+    el.className = 'msg-box';
+  });
+  document.querySelectorAll('.hint-box').forEach(el => el.style.display = 'none');
+  document.querySelectorAll('.btn-hint').forEach(btn => btn.disabled = false);
+
+  showRoom('intro');
+}
+
+// Teclado: activar con Enter en inputs
+document.querySelectorAll('.room input[type="text"]').forEach(inp => {
+  inp.addEventListener('keydown', e => {
+    if (e.key === 'Enter') {
+      const roomId = inp.id.replace('-ans','');
+      const checkFns = { A3: checkA3, B2: checkB2, C3: checkC3 };
+      if (checkFns[roomId]) checkFns[roomId]();
+    }
+  });
+});
+
+// Cards seleccionables con teclado
+document.querySelectorAll('.mission-card').forEach(card => {
+  card.addEventListener('keydown', e => {
+    if (e.key === 'Enter' || e.key === ' ') card.click();
+  });
+});
+</script>
+<script>window.BC_DIF_CONF = {"base": 600, "inicio": ["startPath"], "errores": ["showError"], "reinicio": ["resetGame"], "refrescar": "updateProgress"};</script>
+<!-- ═══ BioCelia · módulo de niveles de dificultad (añadido 2026-10) ═══ -->
+<style>
+  #bcDif{position:fixed;inset:0;z-index:9999;display:flex;align-items:center;justify-content:center;
+    background:rgba(2,6,23,.88);padding:16px;font-family:'Segoe UI',system-ui,sans-serif}
+  #bcDif .bc-card{background:#0f172a;color:#f8fafc;border:1px solid #334155;border-radius:16px;
+    max-width:620px;width:100%;padding:26px 22px;box-shadow:0 20px 50px rgba(0,0,0,.5)}
+  #bcDif h2{margin:0 0 6px;font-size:1.35rem;color:#38bdf8;text-align:center}
+  #bcDif p.bc-sub{margin:0 0 18px;text-align:center;color:#94a3b8;font-size:.92rem}
+  #bcDif .bc-opts{display:grid;gap:12px}
+  #bcDif button{all:unset;cursor:pointer;display:block;border-radius:12px;padding:14px 16px;
+    border:2px solid #334155;background:#020617;transition:.2s}
+  #bcDif button:hover,#bcDif button:focus-visible{border-color:#38bdf8;transform:translateY(-2px)}
+  #bcDif .bc-t{font-weight:800;font-size:1.05rem;display:block;margin-bottom:4px}
+  #bcDif .bc-d{font-size:.86rem;color:#cbd5e1;line-height:1.45}
+  #bcDifBadge{position:fixed;left:12px;bottom:12px;z-index:9998;background:#0f172a;color:#e2e8f0;
+    border:1px solid #334155;border-radius:999px;padding:6px 12px;font:600 .8rem 'Segoe UI',sans-serif}
+</style>
+<div id="bcDif" role="dialog" aria-modal="true" aria-labelledby="bcDifT">
+  <div class="bc-card">
+    <h2 id="bcDifT">Elige tu nivel</h2>
+    <p class="bc-sub">El contenido es el mismo; cambian el tiempo, las ayudas y lo que cuesta equivocarse. Las opciones se barajan en cada partida.</p>
+    <div class="bc-opts">
+      <button data-n="basico"><span class="bc-t">🟢 Básico · aprendo el tema</span>
+        <span class="bc-d">Un 50 % más de tiempo, 5 pistas, los errores no penalizan y en cada pregunta de opciones se descarta una respuesta incorrecta.</span></button>
+      <button data-n="intermedio"><span class="bc-t">🟡 Intermedio · repaso</span>
+        <span class="bc-d">Tiempo normal, 3 pistas y cada error resta 20 segundos.</span></button>
+      <button data-n="pau"><span class="bc-t">🔴 PAU · modo examen</span>
+        <span class="bc-d">Un 25 % menos de tiempo, 1 sola pista y cada error resta 45 segundos. Para quien quiere la máxima nota.</span></button>
+    </div>
+  </div>
+</div>
+<script>
+(function () {
+  const C = window.BC_DIF_CONF || {};
+  const NIVELES = {
+    basico:     { t: 1.5,  pistas: 5, castigo: 0,  quitar: true,  txt: '🟢 Básico' },
+    intermedio: { t: 1,    pistas: 3, castigo: 20, quitar: false, txt: '🟡 Intermedio' },
+    pau:        { t: 0.75, pistas: 1, castigo: 45, quitar: false, txt: '🔴 PAU' }
+  };
+  let N = null;
+  const caja = document.getElementById('bcDif');
+  const g = (nombre) => { try { return eval(nombre); } catch (e) { return undefined; } };
+
+  function barajar(sel) {
+    const ops = Array.from(sel.options).filter(o => o.value !== '');
+    for (let i = ops.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [ops[i], ops[j]] = [ops[j], ops[i]];
+    }
+    ops.forEach(o => sel.appendChild(o));
+  }
+  function prepararOpciones() {
+    document.querySelectorAll('select').forEach(sel => {
+      if (!sel.dataset.bcOrig) sel.dataset.bcOrig = sel.innerHTML;
+      else sel.innerHTML = sel.dataset.bcOrig;
+      barajar(sel);
+      sel.value = '';
+      if (N && N.quitar) {
+        const malas = Array.from(sel.options).filter(o => o.value && !['ok', 'correct'].includes(o.value));
+        const buena = Array.from(sel.options).some(o => ['ok', 'correct'].includes(o.value));
+        if (buena && malas.length >= 2) malas[Math.floor(Math.random() * malas.length)].remove();
+      }
+    });
+  }
+  function aplicar() {
+    if (!N) return;
+    if (typeof g('timeLeft') === 'number' && C.base) timeLeft = Math.round(C.base * N.t);
+    if (typeof g('hintsLeft') === 'number') hintsLeft = N.pistas;
+    if (C.refrescar && typeof window[C.refrescar] === 'function') { try { window[C.refrescar](); } catch (e) {} }
+    if (C.contador) { const el = document.getElementById(C.contador); if (el) el.textContent = '💡 ' + N.pistas; }
+  }
+  function elegir(clave) {
+    N = NIVELES[clave];
+    caja.style.display = 'none';
+    let b = document.getElementById('bcDifBadge');
+    if (!b) { b = document.createElement('div'); b.id = 'bcDifBadge'; document.body.appendChild(b); }
+    b.textContent = 'Nivel: ' + N.txt;
+    prepararOpciones();
+    aplicar();
+  }
+  caja.querySelectorAll('button').forEach(bt => bt.addEventListener('click', () => elegir(bt.dataset.n)));
+
+  // El juego reinicia tiempo y pistas al empezar: se vuelven a aplicar los del nivel.
+  (C.inicio || []).forEach(nombre => {
+    const orig = window[nombre];
+    if (typeof orig !== 'function') return;
+    window[nombre] = function () { const r = orig.apply(this, arguments); aplicar(); return r; };
+  });
+  // Penalización por respuesta incorrecta (mensajes que empiezan por ❌).
+  (C.errores || []).forEach(nombre => {
+    const orig = window[nombre];
+    if (typeof orig !== 'function') return;
+    window[nombre] = function () {
+      const texto = Array.from(arguments).find(a => typeof a === 'string' && a.trim().startsWith('❌'));
+      if (texto && N && N.castigo && typeof g('timeLeft') === 'number') timeLeft = Math.max(1, timeLeft - N.castigo);
+      return orig.apply(this, arguments);
+    };
+  });
+  // Al reiniciar se puede cambiar de nivel.
+  (C.reinicio || []).forEach(nombre => {
+    const orig = window[nombre];
+    if (typeof orig !== 'function') return;
+    window[nombre] = function () { const r = orig.apply(this, arguments); caja.style.display = 'flex'; return r; };
+  });
+})();
+</script>
+</body>
+</html>

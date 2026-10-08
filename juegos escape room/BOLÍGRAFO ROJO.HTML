@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="El Bolígrafo Rojo — Entrénate como corrector PAU. Biología Andalucía. BioCelia 2026-27.">
+<title>El Bolígrafo Rojo · Corrector PAU · BioCelia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=Nunito:wght@400;600;700;900&display=swap" rel="stylesheet">
+<style>
+:root {
+  --red:    #b91c1c;
+  --red-hv: #991b1b;
+  --blue:   #1d4ed8;
+  --green:  #15803d;
+  --amber:  #b45309;
+  --dark:   #1e293b;
+  --muted:  #64748b;
+  --border: #e2e8f0;
+  --paper:  #fdfbf5;
+  --surface:#f8fafc;
+  --sans:   'Nunito',system-ui,sans-serif;
+  --mono:   'Courier Prime','Courier New',monospace;
+  --hand:   'Caveat',cursive;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+
+/* ══ BODY — textura cuadrícula papel ══ */
+body{
+  font-family:var(--sans);color:var(--dark);
+  background-color:#cbd5e1;
+  background-image:radial-gradient(#94a3b8 1px,transparent 1px);
+  background-size:22px 22px;
+  min-height:100vh;
+  display:flex;justify-content:center;align-items:flex-start;
+  padding:24px 16px;
+}
+
+/* ══ CONTENEDOR ══ */
+.container{max-width:820px;width:100%;}
+
+/* ══ CABECERA ══ */
+.header{
+  background:var(--dark);color:white;
+  padding:22px 28px;border-radius:14px;
+  text-align:center;margin-bottom:20px;
+  box-shadow:0 10px 20px rgba(0,0,0,.25);
+  position:relative;overflow:hidden;
+}
+.header::before{
+  content:'';position:absolute;inset:0;
+  background:
+    linear-gradient(135deg,rgba(185,28,28,.15) 0%,transparent 50%),
+    url('https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?auto=format&fit=crop&w=1200&q=60');
+  background-size:cover;background-position:center;
+  opacity:.08;
+}
+.header-inner{position:relative;}
+.header h1{font-family:var(--sans);font-size:clamp(1.6rem,4vw,2.2rem);font-weight:900;letter-spacing:-.01em;text-transform:uppercase;display:flex;align-items:center;justify-content:center;gap:12px;margin-bottom:6px;}
+.header h1 em{font-style:normal;color:#fca5a5;}
+.header p{color:#94a3b8;font-size:1rem;font-family:var(--mono);}
+
+/* ══ CONTADOR ══ */
+.counter-bar{
+  display:flex;align-items:center;justify-content:space-between;
+  background:white;border:1px solid var(--border);border-radius:10px;
+  padding:10px 18px;margin-bottom:18px;
+  box-shadow:0 2px 8px rgba(0,0,0,.06);
+}
+.counter-label{font-family:var(--mono);font-size:.72rem;color:var(--muted);letter-spacing:.1em;text-transform:uppercase;}
+.counter-val{font-family:var(--mono);font-size:1rem;font-weight:bold;color:var(--red);}
+.topic-badge{font-family:var(--mono);font-size:.68rem;color:white;background:var(--dark);padding:4px 12px;border-radius:20px;letter-spacing:.06em;text-transform:uppercase;}
+.progress-bar{height:5px;background:var(--border);border-radius:3px;overflow:hidden;margin-top:6px;}
+.progress-fill{height:100%;background:var(--red);border-radius:3px;transition:width .5s ease;}
+
+/* ══ PAPEL DEL EXAMEN ══ */
+.exam-paper{
+  background:var(--paper);
+  border-radius:8px;
+  box-shadow:3px 3px 14px rgba(0,0,0,.12),inset 0 0 50px rgba(0,0,0,.015);
+  border-left:3px solid #fca5a5;
+  position:relative;margin-bottom:18px;
+  overflow:hidden;
+}
+/* Línea de margen izquierda */
+.exam-paper::before{
+  content:'';position:absolute;top:0;bottom:0;left:36px;
+  width:1px;background:#fca5a5;opacity:.6;
+}
+/* Líneas de papel */
+.exam-paper::after{
+  content:'';position:absolute;inset:0;pointer-events:none;
+  background:repeating-linear-gradient(transparent,transparent 31px,#e2e8f0 31px,#e2e8f0 32px);
+}
+.exam-paper-inner{padding:24px 24px 24px 52px;position:relative;z-index:1;}
+
+.case-label{
+  font-family:var(--mono);font-size:.65rem;color:var(--muted);
+  letter-spacing:.12em;text-transform:uppercase;margin-bottom:12px;display:block;
+}
+.official-q{
+  font-family:var(--sans);font-weight:700;font-size:1.05rem;color:#0f172a;
+  line-height:1.65;margin-bottom:18px;
+  padding:12px 14px;background:rgba(0,0,0,.03);border-radius:6px;
+  border-left:3px solid var(--dark);
+}
+.official-q .q-icon{color:var(--red);margin-right:6px;}
+.q-source{
+  font-family:var(--mono);font-size:.62rem;color:var(--muted);
+  letter-spacing:.06em;display:block;margin-bottom:4px;
+}
+
+.answer-label{
+  font-family:var(--mono);font-size:.65rem;color:var(--muted);
+  letter-spacing:.1em;margin-bottom:8px;display:block;
+  padding-bottom:6px;border-bottom:1px solid var(--border);
+}
+.student-answer{
+  font-family:var(--hand);
+  color:var(--blue);
+  font-size:1.55rem;
+  line-height:1.55;
+  padding:12px 8px;
+  min-height:80px;
+}
+
+/* ══ SECCIÓN DE EVALUACIÓN ══ */
+.eval-section{
+  background:white;padding:22px;border-radius:12px;
+  box-shadow:0 4px 12px rgba(0,0,0,.07);border:1px solid var(--border);
+  margin-bottom:16px;
+}
+.eval-title{
+  color:var(--red);font-weight:900;font-size:1.05rem;
+  margin-bottom:14px;display:flex;align-items:center;gap:8px;
+  padding-bottom:10px;border-bottom:2px solid #fee2e2;
+}
+.eval-title .eval-icon{font-size:1.3rem;}
+
+/* Opciones */
+.option-btn{
+  display:flex;align-items:flex-start;gap:12px;
+  width:100%;text-align:left;
+  background:var(--surface);border:2px solid var(--border);
+  padding:14px 16px;margin-bottom:10px;border-radius:8px;
+  font-family:var(--sans);font-size:.97rem;color:var(--dark);
+  cursor:pointer;transition:all .2s;line-height:1.5;
+}
+.option-btn .opt-letter{
+  flex-shrink:0;width:24px;height:24px;border-radius:50%;
+  background:var(--border);color:var(--muted);
+  font-family:var(--mono);font-size:.72rem;font-weight:bold;
+  display:flex;align-items:center;justify-content:center;
+  margin-top:1px;transition:all .2s;
+}
+.option-btn:hover{border-color:var(--red);background:#fff5f5;}
+.option-btn:hover .opt-letter{background:var(--red);color:white;}
+.option-btn.correct{background:#f0fdf4;border-color:#16a34a;color:#14532d;}
+.option-btn.correct .opt-letter{background:#16a34a;color:white;}
+.option-btn.incorrect{background:#fff1f2;border-color:#f43f5e;color:#881337;}
+.option-btn.incorrect .opt-letter{background:#f43f5e;color:white;}
+.option-btn.revealed-correct{background:#f0fdf4;border-color:#16a34a;color:#14532d;}
+.option-btn.revealed-correct .opt-letter{background:#16a34a;color:white;}
+.option-btn:disabled{cursor:not-allowed;}
+
+/* ══ RÚBRICA ══ */
+.rubric-box{
+  display:none;
+  background:white;border:2px solid #16a34a;border-radius:12px;
+  padding:22px;margin-top:16px;
+  box-shadow:0 4px 16px rgba(22,163,74,.1);
+}
+.rubric-header{
+  color:#15803d;font-weight:900;font-size:1.05rem;
+  display:flex;align-items:center;gap:8px;
+  margin-bottom:12px;padding-bottom:10px;border-bottom:1px solid #dcfce7;
+}
+.rubric-text{
+  color:#14532d;line-height:1.7;font-size:.97rem;margin-bottom:16px;
+  padding:12px 14px;background:#f0fdf4;border-radius:6px;border-left:3px solid #16a34a;
+}
+.rubric-text strong{color:#15803d;}
+
+/* Consejo del corrector */
+.corrector-tip{
+  background:#fef9c3;border-left:4px solid #eab308;border-radius:0 8px 8px 0;
+  padding:12px 16px;color:#713f12;
+  font-family:var(--mono);font-size:.85rem;line-height:1.6;
+  font-style:italic;
+}
+.corrector-tip::before{content:'✏️ CONSEJO PAU — ';font-style:normal;font-weight:bold;color:#92400e;}
+
+/* Error del alumno subrayado en rojo */
+.error-highlight{
+  background:#fee2e2;border-left:4px solid var(--red);border-radius:0 8px 8px 0;
+  padding:12px 16px;color:#7f1d1d;
+  font-family:var(--mono);font-size:.85rem;line-height:1.6;
+  margin-bottom:14px;
+}
+.error-highlight::before{content:'❌ ERROR DETECTADO — ';font-weight:bold;color:var(--red);}
+
+/* ══ BOTONES ══ */
+.next-btn{
+  display:none;
+  width:100%;padding:15px;background:var(--red);color:white;
+  border:none;border-radius:8px;font-family:var(--sans);font-weight:900;
+  font-size:1rem;cursor:pointer;transition:background .2s,transform .15s;
+  margin-top:16px;letter-spacing:.02em;
+}
+.next-btn:hover{background:var(--red-hv);transform:translateY(-1px);}
+.next-btn:focus-visible{outline:3px solid var(--red);outline-offset:2px;}
+
+/* ══ PANTALLA FINAL ══ */
+.final-screen{
+  background:var(--paper);border-radius:12px;
+  padding:40px 32px;text-align:center;
+  box-shadow:3px 3px 14px rgba(0,0,0,.12);
+  border-left:3px solid #fca5a5;
+}
+.final-icon{font-size:5rem;margin-bottom:14px;}
+.final-title{font-family:var(--sans);font-size:clamp(1.5rem,4vw,2.2rem);font-weight:900;color:var(--red);text-transform:uppercase;margin-bottom:10px;}
+.final-sub{color:var(--muted);font-size:1rem;margin-bottom:28px;line-height:1.6;}
+.score-box{
+  display:inline-block;font-family:var(--mono);font-size:1.2rem;font-weight:bold;
+  color:var(--dark);background:#e2e8f0;border:1px solid #cbd5e1;
+  padding:12px 28px;border-radius:30px;margin-bottom:28px;letter-spacing:.04em;
+}
+.summary-card{
+  background:white;border:1px solid var(--border);border-left:4px solid var(--green);
+  border-radius:0 10px 10px 0;padding:18px 22px;text-align:left;margin-bottom:20px;
+}
+.summary-card h4{font-family:var(--mono);font-size:.68rem;color:var(--green);letter-spacing:.12em;text-transform:uppercase;margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid var(--border);}
+.summary-item{font-size:.92rem;color:var(--dark);line-height:1.6;margin-bottom:8px;display:flex;gap:8px;}
+.summary-item::before{content:'→';color:var(--green);font-weight:bold;flex-shrink:0;}
+
+@media(max-width:600px){
+  .exam-paper::before{display:none;}
+  .exam-paper-inner{padding:18px;}
+  .student-answer{font-size:1.3rem;}
+}
+
+/* ══ Pantalla de inicio, niveles y nota (2026-27) ══ */
+.intro-txt{font-size:.95rem;line-height:1.6;color:var(--dark)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+.chip-bloque{display:inline-flex;align-items:center;gap:6px;background:#fff;border:1.5px solid var(--border);border-radius:999px;padding:6px 12px;font-size:.84rem;cursor:pointer}
+.chip-bloque input{accent-color:var(--red)}
+.niveles{display:grid;gap:12px;margin-top:18px}
+.nivel-btn{text-align:left;background:#fff;border:2px solid var(--border);border-radius:12px;padding:14px 16px;cursor:pointer;font-family:var(--sans);transition:.2s}
+.nivel-btn:hover,.nivel-btn:focus-visible{border-color:var(--red);transform:translateY(-2px)}
+.nivel-t{display:block;font-weight:900;font-size:1.05rem;color:var(--dark)}
+.nivel-d{display:block;font-size:.88rem;color:var(--muted);margin-top:3px}
+.nivel-r{display:block;font-size:.78rem;color:var(--green);margin-top:6px;font-weight:700}
+.nota-section{margin-top:14px}
+.notas{display:flex;flex-wrap:wrap;gap:10px}
+.nota-btn{min-width:64px;padding:10px 14px;border-radius:10px;border:2px solid var(--border);background:#fff;font:700 1rem var(--mono);cursor:pointer}
+.nota-btn:hover{border-color:var(--red)}
+.nota-btn.nota-ok{background:#f0fdf4;border-color:#16a34a;color:#14532d}
+.nota-btn.nota-mal{background:#fff1f2;border-color:#f43f5e;color:#881337}
+.nota-res{margin:12px 0;padding:10px 12px;border-radius:8px;background:#eff6ff;border:1px solid #bfdbfe;font-size:.9rem;line-height:1.5}
+ul.rubric-text{padding-left:20px}
+ul.rubric-text li{margin-bottom:6px}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- CABECERA -->
+  <div class="header">
+    <div class="header-inner">
+      <h1>🔴 El Bolígrafo <em>Rojo</em></h1>
+      <p>// Entrénate pensando como un Tribunal PAU de Andalucía · BioCelia 2026-27</p>
+    </div>
+  </div>
+
+  <!-- BARRA DE PROGRESO -->
+  <div class="counter-bar">
+    <div>
+      <span class="counter-label">Expediente de corrección</span>
+      <div style="display:flex;align-items:center;gap:10px;margin-top:2px;">
+        <span class="counter-val" id="counterVal">1 / 13</span>
+        <div class="progress-bar" style="width:140px;"><div class="progress-fill" id="progressFill" style="width:0%"></div></div>
+      </div>
+    </div>
+    <span class="topic-badge" id="topicBadge">Cargando...</span>
+  </div>
+
+  <!-- CONTENEDOR DEL JUEGO -->
+  <div id="gameContainer" role="main" aria-live="polite"></div>
+
+</div>
+
+<script>
+/* ═══════════════════════════════════════════════════════════════════
+   EL BOLÍGRAFO ROJO · BioCelia 2026-27
+   Banco de casos. «oficial: true» = pregunta real de la PAU de Andalucía
+   con su criterio oficial de corrección (comprobado en el banco
+   histórico de BioCelia). «oficial: false» = pregunta tipo PAU con
+   respuesta modelo de BioCelia.
+   Cada caso: respuesta inventada de un alumno, diagnóstico del error
+   y nota de referencia según el criterio.
+═══════════════════════════════════════════════════════════════════ */
+const BLOQUES = { A:'Biomoléculas', B:'Genética molecular', C:'Biología celular', D:'Metabolismo', E:'Microorganismos y biotecnología', F:'Inmunología' };
+
+const CASOS = [
+  // ── BLOQUE A ─────────────────────────────────────────────
+  { id:'A-hielo', bloque:'A', tema:'Propiedades del agua', oficial:false,
+    fuente:'Pregunta tipo PAU · respuesta modelo de BioCelia',
+    pregunta:'En los lagos de alta montaña el aire baja de −20 ºC en invierno. Explique qué propiedad del agua permite que los peces sigan vivos bajo el hielo. [1 punto]',
+    puntos:1,
+    alumno:'El hielo flota porque pesa menos que el agua normal. Así el hielo se queda arriba y los peces pueden nadar por abajo tranquilamente.',
+    criterio:[['El hielo es menos denso que el agua líquida (densidad máxima a 4 ºC) y flota.',0.5],['La capa de hielo aísla del frío: el agua de debajo sigue líquida.',0.5]],
+    ok:'Describe el hecho, pero no habla de densidad ni explica que el hielo actúa como aislante térmico.',
+    malas:['Es correcta: «pesa menos» y «es menos denso» significan lo mismo en un examen.','El error es que el hielo es más denso que el agua líquida y por eso debería hundirse.'],
+    error:'«Pesa menos» no es «es menos denso»: el corrector pide el concepto de densidad. Además, no explica por qué sobreviven los peces: la capa de hielo aísla el agua de debajo, que sigue líquida.',
+    nota:0.25, notas:[0,0.25,0.5,0.75,1],
+    porNota:'Solo el primer apartado, a medias (0,25): dice que flota, pero sin el concepto de densidad. Le falta el papel aislante.',
+    consejo:'Propiedad → causa → consecuencia biológica. Aquí: menor densidad del hielo (red de puentes de hidrógeno) → flota y aísla → vida acuática bajo el hielo.' },
+
+  { id:'A-temp', bloque:'A', tema:'Enzimas y temperatura', oficial:false,
+    fuente:'Pregunta tipo PAU (inspirada en PAU 2012, A6) · respuesta modelo de BioCelia',
+    pregunta:'Se sube poco a poco la temperatura de una reacción catalizada por una enzima humana desde 37 ºC hasta 65 ºC. Explique qué le ocurrirá a la velocidad de la reacción. [1 punto]',
+    puntos:1,
+    alumno:'Como hace más calor, las moléculas se mueven más deprisa. Por eso a 65 ºC la enzima trabaja muchísimo más rápido y la reacción alcanza su velocidad más alta.',
+    criterio:[['Por encima de la temperatura óptima (en torno a 37 ºC en las enzimas humanas) la actividad deja de aumentar.',0.5],['A 65 ºC la enzima, una proteína, se desnaturaliza: pierde la forma del centro activo y la velocidad cae drásticamente.',0.5]],
+    ok:'Aplica «más calor, más velocidad» sin tener en cuenta que la enzima es una proteína que se desnaturaliza.',
+    malas:['Es correcta: en cualquier reacción química, más temperatura significa siempre más velocidad.','El error es que las enzimas son glúcidos y el calor las disuelve, no las desnaturaliza.'],
+    error:'Olvida la biología: por encima de su temperatura óptima la enzima se desnaturaliza, pierde la forma del centro activo y la velocidad cae drásticamente.',
+    nota:0, notas:[0,0.25,0.5,0.75,1],
+    porNota:'0: la conclusión es la contraria a la correcta y no menciona la desnaturalización.',
+    consejo:'Con enzimas y temperatura usa siempre tres ideas: temperatura óptima, desnaturalización y centro activo.' },
+
+  { id:'A-celulosa', bloque:'A', tema:'Polisacáridos', oficial:true,
+    fuente:'Adaptada de PAU Andalucía 2022, titular de julio, B1',
+    pregunta:'¿Por qué en las dietas de adelgazamiento se recomiendan alimentos ricos en celulosa, a pesar de ser un polisacárido de glucosa? [0,5 puntos]',
+    puntos:0.5,
+    alumno:'Porque la celulosa es la fibra de las plantas, que está muerta y no tiene calorías ni azúcar dentro, al contrario que el almidón, que es dulce.',
+    criterio:[['No aporta energía porque el ser humano no tiene enzimas que rompan los enlaces β(1→4) de la celulosa y no se digiere.',0.5]],
+    ok:'No habla del enlace β(1→4) ni de que carecemos de enzimas para romperlo: usa ideas cotidianas («muerta», «dulce»).',
+    malas:['Es correcta: la celulosa no tiene glucosa, por eso no aporta calorías.','El fallo es que la celulosa sí aporta energía, pero solo si se cocina antes.'],
+    error:'La celulosa sí está formada por glucosa. No la aprovechamos porque no tenemos enzimas capaces de hidrolizar sus enlaces β(1→4).',
+    nota:0, notas:[0,0.25,0.5],
+    porNota:'0: no aparece ninguna de las claves del criterio (enlace β, falta de enzimas, no se digiere).',
+    consejo:'Celulosa frente a almidón: enlaces β(1→4) frente a α(1→4). Los rumiantes sí la aprovechan gracias a microorganismos simbióticos.' },
+
+  { id:'A-huevo', bloque:'A', tema:'Desnaturalización de proteínas', oficial:true,
+    fuente:'PAU Andalucía 2012, B4',
+    pregunta:'Cuando se fríe o se cuece un huevo, la clara cambia su aspecto y consistencia. Proponga una explicación [0,5]. Explique por qué se podrían desencadenar cambios semejantes con unas gotas de ácido clorhídrico [0,5].',
+    puntos:1,
+    alumno:'Al freír el huevo, el calor rompe los enlaces peptídicos de las proteínas de la clara y se separan los aminoácidos; por eso se pone blanca y dura. Con ácido clorhídrico pasa lo mismo porque el ácido quema las proteínas.',
+    criterio:[['Desnaturalización de las proteínas por efecto de la temperatura.',0.5],['Desnaturalización de las proteínas por variación del pH.',0.5]],
+    ok:'Confunde desnaturalización con hidrólisis: el calor no rompe los enlaces peptídicos, sino los débiles de la estructura tridimensional.',
+    malas:['Es correcta: freír un huevo es una hidrólisis de sus proteínas en aminoácidos.','El error es que la clara del huevo está formada por lípidos, no por proteínas.'],
+    error:'El calor y el pH rompen los enlaces débiles que mantienen la estructura tridimensional (desnaturalización); los enlaces peptídicos se conservan.',
+    nota:0, notas:[0,0.25,0.5,0.75,1],
+    porNota:'0: el criterio exige «desnaturalización» en los dos apartados y el alumno describe una hidrólisis.',
+    consejo:'Desnaturalizar = perder la forma (enlaces débiles). Hidrolizar = romper la cadena (enlaces peptídicos). El calor de la cocina desnaturaliza.' },
+
+  { id:'A-glucemia', bloque:'A', tema:'Glúcidos y glucemia', oficial:true,
+    fuente:'PAU Andalucía 2013, A4',
+    pregunta:'Tras el ayuno, tres personas ingieren: A, celulosa; B, glucosa; C, almidón. Compare la rapidez con la que cabe esperar que suba su glucemia. Razone la respuesta [1].',
+    puntos:1,
+    alumno:'La glucosa sube la primera porque es el azúcar más dulce. La celulosa sube más despacio porque es fibra. El almidón no sube nada porque las patatas no son dulces.',
+    criterio:[['Primero B: la glucosa se absorbe rápidamente sin transformarse.',0.3],['Después C: el almidón debe ser hidrolizado a glucosa por varias enzimas.',0.4],['A no sube: los humanos carecemos de enzimas para digerir la celulosa.',0.3]],
+    ok:'Solo acierta el orden de B, y por un motivo equivocado; C y A están al revés: el almidón sí sube la glucemia y la celulosa no.',
+    malas:['Es correcta: el dulzor de un glúcido determina lo rápido que sube la glucemia.','El único fallo es que la celulosa sube la glucemia más deprisa que la glucosa, por ser vegetal.'],
+    error:'El sabor no explica nada. La glucosa se absorbe sin digerirse; el almidón se hidroliza antes (sube más tarde); la celulosa no se digiere y no la sube.',
+    nota:0, notas:[0,0.1,0.3,0.5,1],
+    porNota:'0: pone B primero, pero el criterio da los 0,3 por la razón (se absorbe sin transformarse), que no aparece.',
+    consejo:'En glúcidos, borra «dulce» del examen: habla de monómeros, polímeros, enlaces y enzimas.' },
+
+  { id:'A-frio', bloque:'A', tema:'Enzimas y frío', oficial:false,
+    fuente:'Pregunta tipo PAU (inspirada en PAU 2012, A6) · respuesta modelo de BioCelia',
+    pregunta:'¿Qué le ocurre a una enzima humana si se enfría bruscamente de 37 ºC a 5 ºC? ¿Y si después se vuelve a llevar a 37 ºC? Razone las respuestas. [1 punto]',
+    puntos:1,
+    alumno:'A 5 ºC la enzima se congela y se desnaturaliza igual que con el calor, así que aunque luego vuelva a 37 ºC ya no funcionará nunca más.',
+    criterio:[['A 5 ºC la actividad disminuye mucho (menos choques entre enzima y sustrato), pero la enzima no se desnaturaliza.',0.5],['Al volver a 37 ºC recupera su actividad: el efecto del frío es reversible.',0.5]],
+    ok:'El frío no desnaturaliza: solo frena la reacción. Al volver a 37 ºC la enzima recupera su actividad.',
+    malas:['Es correcta: el frío y el calor extremos producen la misma desnaturalización irreversible.','El error es que a 5 ºC la enzima trabaja más deprisa para producir calor.'],
+    error:'A baja temperatura disminuyen los choques entre enzima y sustrato y la velocidad baja, pero la estructura se conserva: al recalentarla vuelve a funcionar.',
+    nota:0, notas:[0,0.25,0.5,0.75,1],
+    porNota:'0: los dos apartados son incorrectos.',
+    consejo:'Calor excesivo → desnaturalización. Frío → inactivación reversible. Por eso los alimentos se conservan en la nevera.' },
+
+  { id:'A-ph', bloque:'A', tema:'Enzimas y pH', oficial:false,
+    fuente:'Pregunta tipo PAU · respuesta modelo de BioCelia',
+    pregunta:'Explique cómo afecta un cambio drástico de pH a la actividad de una enzima. [1 punto]',
+    puntos:1,
+    alumno:'Si el pH baja mucho y se vuelve muy ácido, el ácido quema la enzima y la deshace en trozos pequeños, en aminoácidos sueltos, y ya no puede hacer su trabajo.',
+    criterio:[['Cada enzima tiene un pH óptimo; al alejarse de él cambian las cargas de los radicales de los aminoácidos.',0.5],['Con valores extremos la enzima se desnaturaliza: pierde la forma del centro activo y su actividad.',0.5]],
+    ok:'Describe una hidrólisis («trozos», «aminoácidos sueltos») en lugar de la desnaturalización por el cambio de cargas.',
+    malas:['Es correcta: los ácidos fuertes descomponen las enzimas en sus aminoácidos.','El error es que el pH no afecta a las enzimas: solo influye la temperatura.'],
+    error:'El pH extremo altera las cargas de los radicales, rompe enlaces débiles y desnaturaliza la enzima; la cadena de aminoácidos sigue entera.',
+    nota:0, notas:[0,0.25,0.5,0.75,1],
+    porNota:'0: no menciona pH óptimo, cargas ni desnaturalización.',
+    consejo:'pH extremo y temperatura alta tienen la misma palabra clave: desnaturalización. Añade siempre «centro activo».' },
+
+  // ── BLOQUE B ─────────────────────────────────────────────
+  { id:'B-transc', bloque:'B', tema:'Transcripción y traducción', oficial:true,
+    fuente:'Adaptada de PAU Andalucía 2016, titular de junio, A3',
+    pregunta:'Defina los términos transcripción y traducción [0,8]. Indique en qué parte de la célula eucariota tienen lugar [0,3].',
+    puntos:1.1,
+    alumno:'La transcripción es copiar el ADN en ARN mensajero y ocurre en el núcleo. La traducción es cuando el ARN mensajero fabrica las proteínas, y también ocurre en el núcleo para que las proteínas estén protegidas.',
+    criterio:[['Transcripción: ARN complementario de un ADN molde. Traducción: el ARNm dirige la síntesis de un polipéptido.',0.8],['Eucariotas: transcripción en el núcleo y traducción en el citoplasma.',0.3]],
+    ok:'Las definiciones son aceptables, pero sitúa la traducción en el núcleo: ocurre en los ribosomas del citoplasma.',
+    malas:['Es correcta: en los eucariotas todo lo relacionado con el material genético ocurre en el núcleo.','El error es decir que la transcripción produce ARN: en realidad produce ADN polimerasa.'],
+    error:'El ARNm sale por los poros nucleares precisamente para traducirse en los ribosomas del citoplasma (libres o del RER).',
+    nota:0.8, notas:[0.3,0.55,0.8,1.1],
+    porNota:'Las dos definiciones valen (0,8); el apartado de localización no, porque una de las dos está mal (0).',
+    consejo:'Eucariotas: transcripción en el núcleo, traducción en el citoplasma. Procariotas: las dos en el citoplasma, a la vez.' },
+
+  { id:'B-chargaff', bloque:'B', tema:'Composición de bases', oficial:true,
+    fuente:'PAU Andalucía 2013, A4',
+    pregunta:'El análisis del ácido nucleico de un virus da: A = 24 %, G = 31 %, T = 33 % y C = 12 %. ¿Qué dos conclusiones se pueden obtener acerca del tipo de ácido nucleico? Razone las respuestas [1].',
+    puntos:1,
+    alumno:'Es ADN bicatenario, porque tiene timina en lugar de uracilo y el ADN siempre forma una doble hélice, a diferencia del ARN, que tiene una sola cadena.',
+    criterio:[['Es ADN porque presenta timina.',0.5],['Es monocatenario porque las proporciones de púricas y pirimidínicas no son iguales.',0.5]],
+    ok:'Acierta que es ADN, pero no comprueba los datos: A ≠ T y G ≠ C, así que es monocatenario.',
+    malas:['Es correcta: si tiene timina, es ADN y, por tanto, de doble cadena.','El error es que tiene timina, así que en realidad es ARN monocatenario.'],
+    error:'En un ADN bicatenario A = T y G = C. Aquí no se cumple (24 ≠ 33; 31 ≠ 12): es ADN de una sola cadena, como el de algunos virus.',
+    nota:0.5, notas:[0,0.25,0.5,0.75,1],
+    porNota:'0,5: primera conclusión correcta y razonada; la segunda es errónea.',
+    consejo:'Con porcentajes de bases, haz siempre dos comprobaciones: ¿T o U? (ADN o ARN) y ¿A = T y G = C? (una o dos cadenas).' },
+
+  { id:'B-mutaciones', bloque:'B', tema:'Mutaciones', oficial:true,
+    fuente:'PAU Andalucía 2018, suplente de junio, B5',
+    pregunta:'a) ¿Tienen las mismas consecuencias las mutaciones de las células somáticas que las de las germinales? [0,7] b) ¿Tendrán la misma importancia evolutiva? [0,3] Razone las respuestas.',
+    puntos:1,
+    alumno:'a) Sí, porque una mutación es un cambio en el ADN y da igual en qué célula ocurra. b) Sí, porque todas las mutaciones acaban pasando a los hijos.',
+    criterio:[['a) No: las somáticas afectan al individuo (0,35) y las germinales, a la descendencia (0,35).',0.7],['b) No: solo se transmiten a la descendencia las mutaciones de los gametos (células germinales), que son las que tienen importancia evolutiva.',0.3]],
+    ok:'No distingue los tipos de células: solo las mutaciones de la línea germinal pasan a la descendencia.',
+    malas:['Es correcta: cualquier mutación del cuerpo se hereda, porque el ADN es el mismo en todas las células.','El error es que las mutaciones somáticas son las que se heredan y las germinales no.'],
+    error:'Una mutación en una célula de la piel afecta solo a esa persona; una en las células que forman gametos puede pasar a los hijos y tener importancia evolutiva.',
+    nota:0, notas:[0,0.3,0.35,0.7,1],
+    porNota:'0: los dos apartados son incorrectos.',
+    consejo:'Somáticas → individuo (por ejemplo, un cáncer). Germinales → descendencia y evolución.' },
+
+  { id:'B-tm', bloque:'B', tema:'Desnaturalización del ADN', oficial:true,
+    fuente:'PAU Andalucía 2016, reserva A, B5',
+    pregunta:'Dos muestras de ADN de igual tamaño se desnaturalizan: la A a 80 ºC y la B a 90 ºC. Explique a qué puede deberse esa diferencia [1].',
+    puntos:1,
+    alumno:'La muestra B se desnaturaliza a más temperatura porque tiene más guanina y citosina que la A.',
+    criterio:[['A tiene más pares A-T (dos puentes de hidrógeno) y B más pares C-G (tres puentes de hidrógeno); con más puentes de hidrógeno se necesita más temperatura.',1]],
+    ok:'La idea es buena, pero no la justifica: falta decir que los pares G-C tienen tres puentes de hidrógeno y los A-T, dos.',
+    malas:['Es completa: basta con decir qué muestra tiene más guanina y citosina.','El error es que la B se desnaturaliza antes porque las bases G y C son más pesadas.'],
+    error:'El criterio pide la causa: G≡C se une por tres puentes de hidrógeno y A=T por dos; más puentes que romper exigen más temperatura.',
+    nota:0.5, notas:[0,0.25,0.5,0.75,1],
+    porNota:'0,5: identifica la composición, pero falta la justificación con los puentes de hidrógeno, que es la mitad de la respuesta.',
+    consejo:'«Razone» significa dar el porqué: en el ADN, el porqué casi siempre son los puentes de hidrógeno o la complementariedad.' },
+
+  // ── BLOQUE C ─────────────────────────────────────────────
+  { id:'C-lipidos', bloque:'C', tema:'Transporte a través de la membrana', oficial:true,
+    fuente:'PAU Andalucía 2012, A4',
+    pregunta:'¿Por qué las moléculas lipídicas pueden atravesar sin dificultad las membranas celulares y, sin embargo, los iones, aun siendo mucho más pequeños, no? [1]',
+    puntos:1,
+    alumno:'Las moléculas lipídicas pasan por ósmosis porque son muy pequeñas. Los iones son más grandes, chocan contra la pared celular y necesitan canales para pasar.',
+    criterio:[['Los lípidos, por su carácter lipofílico, atraviesan las membranas por difusión simple, ya que estas están formadas fundamentalmente por lípidos; los iones, cargados y lipófobos, requieren proteínas canal o transportadoras.',1]],
+    ok:'Confunde ósmosis (solo agua) con difusión simple, y razona con el tamaño en lugar de la solubilidad en lípidos y la carga.',
+    malas:['Es correcta: el tamaño es lo que decide qué moléculas cruzan la membrana sin ayuda.','El único error es llamar «grandes» a los iones: en disolución son partículas cargadas.'],
+    error:'Los lípidos se disuelven en la bicapa (difusión simple); los iones tienen carga y la bicapa apolar los rechaza, por eso necesitan canales o transportadores. Además, las células animales no tienen pared.',
+    nota:0, notas:[0,0.25,0.5,0.75,1],
+    porNota:'0: no aparece la idea clave (lipofílico frente a cargado) y además hay errores graves (ósmosis, pared celular).',
+    consejo:'Ósmosis = paso de agua. Para el resto, difusión (simple o facilitada) o transporte activo.' },
+
+  { id:'C-transporte', bloque:'C', tema:'Tipos de transporte', oficial:true,
+    fuente:'PAU Andalucía 2012, A5',
+    pregunta:'Si se inhibe la cadena transportadora de electrones de la mitocondria, ¿cómo se verían afectadas la difusión simple, la facilitada y el transporte activo? [0,5] ¿Y si se sube la temperatura a 60 ºC? [0,5]',
+    puntos:1,
+    alumno:'Si se inhibe la cadena se paran la difusión simple, la facilitada y el transporte activo, porque todos necesitan ATP. A 60 ºC solo se afecta el transporte activo.',
+    criterio:[['Las difusiones no se afectan: no requieren energía (0,25). El transporte activo no se realiza porque requiere ATP (0,25).',0.5],['A 60 ºC se desnaturalizan los transportadores: se afectan el transporte activo y la difusión facilitada.',0.5]],
+    ok:'Cree que las difusiones gastan ATP y, a 60 ºC, olvida que la difusión facilitada también depende de proteínas.',
+    malas:['Es correcta: todo transporte a través de la membrana gasta ATP.','El error es que a 60 ºC se afecta la difusión simple, porque la bicapa se desnaturaliza.'],
+    error:'Las difusiones son pasivas (sin ATP). A 60 ºC se desnaturalizan todas las proteínas transportadoras: fallan el transporte activo y la difusión facilitada.',
+    nota:0.5, notas:[0,0.25,0.5,0.75,1],
+    porNota:'0,25 en el primer apartado (acierta el transporte activo) y 0,25 en el segundo (acierta solo el transporte activo).',
+    consejo:'Pregúntate dos cosas de cada transporte: ¿gasta ATP? ¿necesita una proteína?' },
+
+  { id:'C-lipasa', bloque:'C', tema:'Secreción de proteínas', oficial:true,
+    fuente:'PAU Andalucía 2015, examen 4, B4',
+    pregunta:'La lipasa pancreática es una glucoproteína secretada al intestino. Justifique el modo de transporte para salir de la célula [0,4] y el camino desde donde se sintetiza hasta su secreción [0,6].',
+    puntos:1,
+    alumno:'Se fabrica en los ribosomas del retículo endoplasmático rugoso y pasa al aparato de Golgi; desde allí sale al exterior por difusión simple, porque es una molécula pequeña.',
+    criterio:[['Es una macromolécula: sale por exocitosis en vesículas de secreción.',0.4],['Camino: ribosomas → RER → aparato de Golgi → vesículas de secreción (0,15 cada uno).',0.6]],
+    ok:'El recorrido es casi completo, pero una proteína es una macromolécula: sale por exocitosis, no por difusión simple.',
+    malas:['Es correcta: las enzimas son moléculas pequeñas que atraviesan la bicapa.','El error es el recorrido: las proteínas de secreción pasan primero por el Golgi y luego por el RER.'],
+    error:'Una glucoproteína no atraviesa la bicapa: el Golgi la empaqueta en vesículas de secreción que se fusionan con la membrana (exocitosis).',
+    nota:0.45, notas:[0,0.15,0.3,0.45,0.6,1],
+    porNota:'0 en el transporte; 0,45 en el camino (ribosomas, RER y Golgi; faltan las vesículas de secreción).',
+    consejo:'Macromolécula que entra: endocitosis. Macromolécula que sale: exocitosis.' },
+
+  // ── BLOQUE D ─────────────────────────────────────────────
+  { id:'D-co', bloque:'D', tema:'Cadena respiratoria', oficial:true,
+    fuente:'PAU Andalucía 2015, examen 6, B4',
+    pregunta:'El monóxido de carbono inhibe la citocromo c oxidasa de la cadena respiratoria. ¿Qué efecto tiene sobre el consumo de O₂ en la mitocondria? [0,5] ¿Y sobre la producción de ATP? [0,25] ¿Podrían seguir viviendo las células? [0,25]',
+    puntos:1,
+    alumno:'El consumo de oxígeno no cambia, porque lo usan los ribosomas. La producción de ATP se para, porque deja de funcionar la glucólisis. Las células morirían por falta de energía.',
+    criterio:[['El consumo de O₂ cesaría: al bloquearse la cadena desaparece su papel de aceptor final de electrones.',0.4],['La producción de ATP cesaría: sin transporte de electrones no hay gradiente de H⁺.',0.4],['No: sin ATP suficiente las células morirían.',0.2]],
+    ok:'No sabe que el O₂ es el aceptor final de la cadena, y atribuye la falta de ATP a la glucólisis, que no depende de la cadena.',
+    malas:['Es correcta: el oxígeno lo consumen sobre todo los ribosomas durante la síntesis de proteínas.','El único error es decir que las células morirían: pueden vivir solo con la glucólisis.'],
+    error:'Si la cadena se bloquea, el O₂ deja de aceptar electrones (no se consume) y no se forma el gradiente de H⁺ que usa la ATP sintasa.',
+    nota:0.4, notas:[0,0.2,0.4,0.6,1],
+    porNota:'0 en el O₂; 0,2 en el ATP (acierta que cesa, pero con una justificación errónea); 0,2 por la muerte celular.',
+    consejo:'En la cadena respiratoria todo encaja: electrones → bombeo de H⁺ → gradiente → ATP sintasa; y al final el O₂ acepta los electrones y forma agua.' },
+
+  { id:'D-eritrocitos', bloque:'D', tema:'Fermentación', oficial:true,
+    fuente:'PAU Andalucía 2017, suplente de septiembre, B4',
+    pregunta:'Los glóbulos rojos humanos carecen de mitocondrias. Argumente si el rendimiento energético por cada glucosa será mayor o menor que el de otra célula del cuerpo con mitocondrias [1].',
+    puntos:1,
+    alumno:'Será mayor, porque los glóbulos rojos no gastan energía en mantener mitocondrias y así les queda más ATP de cada glucosa.',
+    criterio:[['Será menor: sin mitocondrias solo hay metabolismo anaeróbico, mientras que el aeróbico, que depende de las mitocondrias, tiene mayor rendimiento.',1]],
+    ok:'Confunde el gasto de la célula con el rendimiento de la ruta: sin mitocondrias solo hay glucólisis y fermentación láctica.',
+    malas:['Es correcta: las mitocondrias consumen ATP y sin ellas la célula ahorra energía.','El error es que los glóbulos rojos sí tienen mitocondrias, aunque muy pequeñas.'],
+    error:'Sin mitocondrias no hay ciclo de Krebs ni cadena respiratoria: solo 2 ATP por glucosa, frente a unos 30-38 de la respiración aerobia.',
+    nota:0, notas:[0,0.25,0.5,0.75,1],
+    porNota:'0: la conclusión es la contraria.',
+    consejo:'Rendimiento por glucosa: fermentación 2 ATP; respiración aerobia, muchos más. La clave son las mitocondrias.' },
+
+  { id:'D-estomas', bloque:'D', tema:'Fotosíntesis', oficial:true,
+    fuente:'PAU Andalucía 2021, reserva de julio, B2',
+    pregunta:'En una situación de sequía los estomas están cerrados. a) ¿Podría la planta sintetizar azúcares? [0,5] b) ¿Se afectaría la fotosíntesis? [0,5] Razone las respuestas.',
+    puntos:1,
+    alumno:'a) Sí, porque la fase luminosa sigue funcionando con la luz y fabrica glucosa. b) Sí, se afecta el ciclo de Calvin, porque necesita el CO₂ que entra por los estomas.',
+    criterio:[['a) No: sin CO₂ no puede realizar el ciclo de Calvin ni sintetizar azúcares.',0.5],['b) Sí, se afecta la fase no dependiente de la luz, que es donde se usa el CO₂.',0.5]],
+    ok:'El apartado b) es correcto, pero en a) cree que la fase luminosa fabrica glucosa: solo produce ATP, NADPH y O₂.',
+    malas:['Es correcta: con luz, la planta fabrica azúcares aunque no tenga CO₂.','El error está en b): los estomas cerrados afectan a la fase luminosa, porque impiden que entre la luz.'],
+    error:'Los azúcares se forman en el ciclo de Calvin a partir del CO₂. Sin CO₂ no hay azúcares, aunque haya luz.',
+    nota:0.5, notas:[0,0.25,0.5,0.75,1],
+    porNota:'0 en a) y 0,5 en b).',
+    consejo:'Fase luminosa: ATP, NADPH y O₂. Ciclo de Calvin: fija el CO₂ y fabrica los glúcidos.' },
+
+  { id:'D-fototemp', bloque:'D', tema:'Factores de la fotosíntesis', oficial:true,
+    fuente:'PAU Andalucía 2017, suplente de septiembre, A5',
+    pregunta:'La actividad fotosintética se duplica al subir la temperatura de 25 ºC a 45 ºC, pero cae drásticamente por encima de 55 ºC. Explique estos hechos [1].',
+    puntos:1,
+    alumno:'Al subir la temperatura la planta hace más fotosíntesis porque tiene más energía. Por encima de 55 ºC la clorofila se evapora y la planta ya no puede captar la luz.',
+    criterio:[['Al subir la temperatura aumenta la actividad de las enzimas implicadas en la fotosíntesis.',0.5],['Las temperaturas altas desnaturalizan las proteínas (enzimas) y la actividad disminuye.',0.5]],
+    ok:'No relaciona la temperatura con las enzimas: primero aumenta su actividad y por encima de 55 ºC se desnaturalizan.',
+    malas:['Es correcta: el calor aporta energía a la planta y a 55 ºC la clorofila se evapora.','Solo falla en la primera parte: el calor aumenta la luz que llega a la hoja.'],
+    error:'La fotosíntesis depende de enzimas (como la RuBisCO): la temperatura acelera su actividad hasta un óptimo y luego las desnaturaliza.',
+    nota:0, notas:[0,0.25,0.5,0.75,1],
+    porNota:'0: no aparecen las enzimas ni la desnaturalización.',
+    consejo:'Si una gráfica sube con la temperatura y luego cae de golpe, piensa en enzimas que se desnaturalizan.' },
+
+  // ── BLOQUE E ─────────────────────────────────────────────
+  { id:'E-almibar', bloque:'E', tema:'Conservación de alimentos', oficial:true,
+    fuente:'PAU Andalucía 2016, titular de junio, A5',
+    pregunta:'Siendo la sacarosa un buen sustrato para muchos microorganismos, explique cómo es posible que el almíbar sea un sistema de conservación de algunos alimentos, como ciertas frutas [1].',
+    puntos:1,
+    alumno:'El azúcar en tanta cantidad es tóxico para las bacterias. Además, el almíbar es tan espeso que no deja pasar el oxígeno y los microorganismos mueren asfixiados.',
+    criterio:[['La elevada concentración de sacarosa crea un medio hipertónico (elevada presión osmótica) que impide el crecimiento de los microorganismos.',1]],
+    ok:'No es toxicidad ni falta de oxígeno: el exceso de azúcar crea un medio hipertónico y los microorganismos pierden agua por ósmosis.',
+    malas:['Es correcta: el azúcar concentrado es un veneno para las bacterias.','El error es que el azúcar absorbe el CO₂, que es lo que necesitan los microorganismos.'],
+    error:'Mecanismo osmótico: el medio es hipertónico, el agua sale de los microorganismos y no pueden crecer.',
+    nota:0, notas:[0,0.25,0.5,0.75,1],
+    porNota:'0: no aparece el medio hipertónico.',
+    consejo:'Salazón, almíbar o mermelada son preguntas de ósmosis disfrazadas.' },
+
+  { id:'E-antibioticos', bloque:'E', tema:'Antibióticos', oficial:true,
+    fuente:'PAU Andalucía 2017, reserva A, A4',
+    pregunta:'La penicilina inhibe la síntesis de la pared bacteriana y la estreptomicina actúa sobre los ribosomas. Explique por qué atacan a las bacterias y no a las células eucarióticas [1].',
+    puntos:1,
+    alumno:'La penicilina no ataca a nuestras células porque no tenemos pared de peptidoglucano. La estreptomicina tampoco nos afecta porque nuestras células no tienen ribosomas.',
+    criterio:[['Penicilina: las células eucarióticas no poseen pared celular bacteriana (peptidoglucano).',0.5],['Estreptomicina: afecta a los ribosomas 70S de las bacterias, pero no a los 80S de las células eucarióticas.',0.5]],
+    ok:'La parte de la penicilina es correcta, pero nuestras células sí tienen ribosomas: son 80S, distintos de los 70S bacterianos.',
+    malas:['Es correcta: las células eucarióticas no tienen ribosomas, solo retículo endoplasmático.','El error está en la penicilina: las células humanas sí tienen pared de peptidoglucano.'],
+    error:'Todas las células tienen ribosomas. La estreptomicina es selectiva porque actúa sobre los 70S (bacterias) y no sobre los 80S (eucariotas).',
+    nota:0.5, notas:[0,0.25,0.5,0.75,1],
+    porNota:'0,5 por la penicilina; 0 por la estreptomicina.',
+    consejo:'Selectividad de los antibióticos: pared de peptidoglucano y ribosomas 70S. Ojo: las mitocondrias tienen ribosomas parecidos a los bacterianos.' },
+
+  { id:'E-gonorrea', bloque:'E', tema:'Resistencia a antibióticos', oficial:true,
+    fuente:'PAU Andalucía 2021, reserva de julio, B4',
+    pregunta:'La gonorrea se trataba con penicilina o tetraciclina; hoy solo con antibióticos nuevos, que además son cada vez menos eficaces. ¿Qué explicación daría? [1]',
+    puntos:1,
+    alumno:'Las bacterias se han ido acostumbrando a los antibióticos de tanto tomarlos y han aprendido a resistirlos, así que ahora hacen falta antibióticos nuevos.',
+    criterio:[['La alta capacidad de mutación y adaptación de las bacterias hace que surjan variantes resistentes a los antibióticos, por lo que hay que usar nuevos compuestos.',1]],
+    ok:'Explica la resistencia como un aprendizaje: falta la mutación al azar y la selección de las bacterias resistentes.',
+    malas:['Es correcta: las bacterias aprenden a resistir los antibióticos, igual que el cuerpo se acostumbra a un medicamento.','El error es que las bacterias no se hacen resistentes: lo que cambia es el antibiótico, que caduca.'],
+    error:'Las bacterias no «aprenden». Por mutación surgen variantes resistentes; el antibiótico mata a las sensibles y las resistentes se multiplican (selección).',
+    nota:0, notas:[0,0.25,0.5,0.75,1],
+    porNota:'0: la idea clave (mutación y variantes resistentes) no aparece; es una explicación lamarckista.',
+    consejo:'Evita «se acostumbran», «aprenden» o «se adaptan para»: di mutación al azar + selección.' },
+
+  { id:'E-fermentacion', bloque:'E', tema:'Biotecnología', oficial:true,
+    fuente:'PAU Andalucía 2014, modelo 5, A5',
+    pregunta:'Aunque el rendimiento energético de la fermentación es menor que el de la respiración, los organismos fermentadores se usan mucho en biotecnología. Explíquelo [1].',
+    puntos:1,
+    alumno:'Porque las fermentaciones producen más energía para las fábricas que la respiración, y eso abarata los procesos industriales.',
+    criterio:[['Lo determinante no es el rendimiento energético sino que den productos de interés comercial (vinagre, bebidas alcohólicas, derivados lácteos…). También vale: fácil mantenimiento y reproducción, fáciles de manipular genéticamente, pocos requerimientos.',1]],
+    ok:'Contradice el enunciado (la fermentación rinde menos) y no menciona que interesa por los productos que forma.',
+    malas:['Es correcta: la fermentación rinde más energía que la respiración aerobia.','Solo le falta decir que la energía de la fermentación se vende a las fábricas.'],
+    error:'A la industria no le importa la energía que obtiene el microorganismo, sino lo que fabrica: etanol, ácido láctico, ácido acético…',
+    nota:0, notas:[0,0.25,0.5,0.75,1],
+    porNota:'0: ninguna de las razones válidas del criterio.',
+    consejo:'Lee bien el enunciado: si dice que el rendimiento es menor, tu respuesta no puede decir lo contrario.' },
+
+  // ── BLOQUE F ─────────────────────────────────────────────
+  { id:'F-activa', bloque:'F', tema:'Tipos de inmunidad', oficial:false,
+    fuente:'Pregunta tipo PAU · respuesta modelo de BioCelia (definiciones de PAU 2010, A3)',
+    pregunta:'Diferencie inmunidad activa e inmunidad pasiva y ponga un ejemplo de un método artificial para conseguir cada una. [1 punto]',
+    puntos:1,
+    alumno:'La inmunidad activa es cuando te ponen una vacuna porque ya estás enfermo y necesitas anticuerpos urgentes. La pasiva es cuando te inyectan un suero para no coger una enfermedad en el futuro.',
+    criterio:[['Activa: el propio individuo produce la respuesta frente al antígeno (artificial: vacunación, preventiva).',0.5],['Pasiva: recibe anticuerpos ya formados (artificial: sueroterapia, curativa).',0.5]],
+    ok:'Ha invertido las ideas: la vacuna es preventiva (activa) y el suero se usa con la enfermedad ya presente (pasiva).',
+    malas:['Es correcta: las vacunas se ponen a los enfermos y los sueros a los sanos.','Solo le falta decir que los sueros contienen antígenos muertos del patógeno.'],
+    error:'Vacuna = antígenos → el organismo fabrica anticuerpos y memoria (activa, preventiva). Suero = anticuerpos ya hechos (pasiva, inmediata, curativa).',
+    nota:0, notas:[0,0.25,0.5,0.75,1],
+    porNota:'0: los ejemplos están en el tipo de inmunidad equivocado y las definiciones no son correctas.',
+    consejo:'Activa: lo fabrica uno mismo. Pasiva: lo recibe hecho. Natural o artificial depende de si interviene la medicina.' },
+
+  { id:'F-lactancia', bloque:'F', tema:'Inmunidad pasiva natural', oficial:true,
+    fuente:'PAU Andalucía 2022, reserva de julio, C5',
+    pregunta:'Lactancia materna: a) ¿qué sustancias de la leche materna, en relación con el sistema inmunitario, no tienen las leches de fórmula? ¿A qué grupo de biomoléculas pertenecen? [0,4] b) ¿Qué tipo de inmunidad adquiere el bebé? [0,2] c) ¿Por qué otra vía la adquiere? [0,2] d) ¿Qué inmunoglobulina recibe por cada vía? [0,2]',
+    puntos:1,
+    alumno:'a) Vitaminas y minerales, que refuerzan las defensas. b) Es activa, porque el bebé fabrica sus propias defensas. c) También por la placenta. d) Por la placenta pasa IgM y por la leche, IgG.',
+    criterio:[['a) Anticuerpos (inmunoglobulinas) (0,2), que son proteínas (0,2).',0.4],['b) Pasiva.',0.2],['c) A través de la placenta.',0.2],['d) Por la placenta, IgG; con la leche, IgA.',0.2]],
+    ok:'Solo acierta la placenta: la sustancia clave son los anticuerpos (proteínas), la inmunidad es pasiva y las Ig son IgG (placenta) e IgA (leche).',
+    malas:['Es correcta: las vitaminas de la leche son las que activan las defensas del bebé.','Solo falla el apartado d): por la placenta pasa IgE y por la leche, IgM.'],
+    error:'El bebé recibe anticuerpos ya fabricados por la madre (inmunidad pasiva natural, sin memoria): IgG por la placenta e IgA con la leche.',
+    nota:0.2, notas:[0,0.2,0.4,0.6,1],
+    porNota:'Solo puntúa c) (0,2).',
+    consejo:'Placenta → IgG. Leche → IgA. Ambas → inmunidad pasiva natural, temporal.' },
+
+  { id:'F-gemelos', bloque:'F', tema:'Respuesta primaria y secundaria', oficial:true,
+    fuente:'PAU Andalucía 2023, titular de julio, B5',
+    pregunta:'Al inocular un antígeno a dos gemelos univitelinos, el pico de anticuerpos llega a los 20 días en A y a los 5 días en B. a) Explique la diferencia [0,5]. b) ¿Habría diferencias en el tipo de anticuerpos en el pico? [0,5]',
+    puntos:1,
+    alumno:'a) El gemelo B tiene un sistema inmunitario más fuerte porque es más sano y hace más deporte. b) Sí: en el A predominará la IgM y en el B, la IgG.',
+    criterio:[['a) B ya había estado expuesto al antígeno: respuesta secundaria, más rápida; A, respuesta primaria, más lenta.',0.5],['b) Sí: en A predominaría la IgM (primaria) y en B la IgG (secundaria).',0.5]],
+    ok:'b) es correcto, pero en a) no habla de contacto previo ni de memoria: B da una respuesta secundaria.',
+    malas:['Es correcta: un sistema inmunitario más fuerte responde siempre antes.','El error está en b): los dos gemelos tendrán los mismos anticuerpos porque son genéticamente idénticos.'],
+    error:'Son genéticamente idénticos: la diferencia solo puede deberse a un contacto previo de B con el antígeno (células de memoria, respuesta secundaria).',
+    nota:0.5, notas:[0,0.25,0.5,0.75,1],
+    porNota:'0 en a) y 0,5 en b).',
+    consejo:'Respuesta rápida e intensa con IgG = secundaria = memoria inmunológica.' }
+];
+
+/* ═══ CONFIGURACIÓN DE NIVELES ═══ */
+const NIVELES = {
+  basico:     { nombre:'🟢 Básico',     casos:8,  nota:false, desc:'8 casos. Detecta el error principal de cada respuesta.' },
+  intermedio: { nombre:'🟡 Intermedio', casos:12, nota:false, desc:'12 casos de todos los bloques. Detecta el error principal.' },
+  pau:        { nombre:'🔴 Corrector PAU', casos:12, nota:true, desc:'12 casos. Detecta el error y, además, ponle nota aplicando el criterio.' }
+};
+
+let partida = null;   // { nivel, casos[], i, puntos, max, fallosPorBloque }
+let fase = 'diag';    // 'diag' | 'nota' | 'fin'
+
+function $(id){ return document.getElementById(id); }
+function barajar(a){ a = a.slice(); for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
+function fmt(n){ return String(Math.round(n*100)/100).replace('.', ','); }
+function guardarRecord(clave, pct){
+  try { const k='bolirojo-'+clave; const prev=+localStorage.getItem(k)||0; if(pct>prev) localStorage.setItem(k,pct); return Math.max(prev,pct); } catch(e){ return pct; }
+}
+function leerRecord(clave){ try { return +localStorage.getItem('bolirojo-'+clave)||0; } catch(e){ return 0; } }
+
+/* ═══ PANTALLA DE INICIO ═══ */
+function inicio(){
+  partida = null;
+  $('counterVal').textContent = '—';
+  $('progressFill').style.width = '0%';
+  $('topicBadge').textContent = 'Elige nivel';
+  const reales = CASOS.filter(c=>c.oficial).length;
+  const chips = Object.entries(BLOQUES).map(([k,v])=>`<label class="chip-bloque"><input type="checkbox" value="${k}" checked> ${k} · ${v}</label>`).join('');
+  const niveles = Object.entries(NIVELES).map(([k,n])=>`
+      <button class="nivel-btn" onclick="empezar('${k}')">
+        <span class="nivel-t">${n.nombre}</span><span class="nivel-d">${n.desc}</span>
+        <span class="nivel-r">Tu mejor resultado: ${leerRecord(k)} %</span>
+      </button>`).join('');
+  $('gameContainer').innerHTML = `
+    <div class="exam-paper"><div class="exam-paper-inner">
+      <span class="case-label">Cómo se juega</span>
+      <p class="intro-txt">Vas a corregir respuestas de alumnos a preguntas de la PAU. Cada respuesta tiene al menos un fallo: encuéntralo antes de ver el criterio. Hay <strong>${CASOS.length} casos</strong> (${reales} son preguntas reales de la PAU de Andalucía con su criterio oficial) y en cada partida salen en otro orden.</p>
+      <span class="case-label" style="margin-top:14px">Bloques que quieres practicar</span>
+      <div class="chips">${chips}</div>
+    </div></div>
+    <div class="niveles">${niveles}</div>`;
+}
+
+function empezar(nivel){
+  const elegidos = Array.from(document.querySelectorAll('.chip-bloque input:checked')).map(i=>i.value);
+  let pool = CASOS.filter(c=>elegidos.includes(c.bloque));
+  if (!pool.length) { alert('Elige al menos un bloque.'); return; }
+  const N = NIVELES[nivel];
+  const casos = barajar(pool).slice(0, Math.min(N.casos, pool.length));
+  partida = { nivel, casos, i:0, puntos:0, max: casos.length*(N.nota?2:1), fallos:{} };
+  render();
+}
+
+/* ═══ CASO ═══ */
+function render(){
+  if (partida.i >= partida.casos.length) { final(); return; }
+  fase = 'diag';
+  const c = partida.casos[partida.i], N = NIVELES[partida.nivel];
+  $('counterVal').textContent = `${partida.i+1} / ${partida.casos.length}`;
+  $('topicBadge').textContent = `${c.bloque} · ${BLOQUES[c.bloque]}`;
+  $('progressFill').style.width = (partida.i/partida.casos.length*100)+'%';
+  const ops = barajar([{t:c.ok, ok:true}, ...c.malas.map(t=>({t, ok:false}))]);
+  partida.ops = ops;
+  const letras = ['A','B','C'];
+  $('gameContainer').innerHTML = `
+    <div class="exam-paper" role="article"><div class="exam-paper-inner">
+      <span class="case-label">Expediente #${partida.i+1} · ${c.tema}</span>
+      <span class="q-source">// ${c.oficial ? '✔ Pregunta real · ' : ''}${c.fuente}</span>
+      <div class="official-question"><span class="q-icon">📝</span>${c.pregunta}</div>
+      <span class="answer-label">✍️ Respuesta de un alumno</span>
+      <div class="student-answer">${c.alumno}</div>
+    </div></div>
+    <div class="eval-section">
+      <div class="eval-title"><span class="eval-icon">🕵️</span> ¿Cuál es el error principal de esta respuesta?</div>
+      <div id="optionsContainer">${ops.map((o,i)=>`
+        <button class="option-btn" onclick="diagnosticar(${i})"><span class="opt-letter">${letras[i]}</span><span>${o.t}</span></button>`).join('')}</div>
+    </div>
+    <div id="notaBox"></div>
+    <div class="rubric-box" id="rubricBox"></div>`;
+}
+
+function diagnosticar(idx){
+  if (fase !== 'diag') return;
+  const c = partida.casos[partida.i], N = NIVELES[partida.nivel];
+  const acierto = partida.ops[idx].ok;
+  if (acierto) partida.puntos += 1; else partida.fallos[c.bloque] = (partida.fallos[c.bloque]||0)+1;
+  document.querySelectorAll('.option-btn').forEach((b,i)=>{
+    b.disabled = true;
+    if (partida.ops[i].ok) b.classList.add(i===idx ? 'correct' : 'revealed-correct');
+    else if (i===idx) b.classList.add('incorrect');
+  });
+  if (N.nota) {
+    fase = 'nota';
+    $('notaBox').innerHTML = `
+      <div class="eval-section nota-section">
+        <div class="eval-title"><span class="eval-icon">🖊️</span> Ahora ponle nota (sobre ${fmt(c.puntos)} ${c.puntos===1?'punto':'puntos'}), como haría el tribunal:</div>
+        <div class="notas">${c.notas.map(n=>`<button class="nota-btn" onclick="puntuar(${n})">${fmt(n)}</button>`).join('')}</div>
+      </div>`;
+    $('notaBox').scrollIntoView({behavior:'smooth', block:'nearest'});
+  } else mostrarCriterio(null);
+}
+
+function puntuar(n){
+  if (fase !== 'nota') return;
+  const c = partida.casos[partida.i];
+  const dif = Math.abs(n - c.nota);
+  let pts = 0;
+  if (dif < 0.001) pts = 1; else if (dif <= 0.25 * c.puntos + 0.001) pts = 0.5;
+  partida.puntos += pts;
+  document.querySelectorAll('.nota-btn').forEach(b=>{
+    b.disabled = true;
+    const v = parseFloat(b.textContent.replace(',', '.'));
+    if (Math.abs(v - c.nota) < 0.001) b.classList.add('nota-ok');
+    else if (Math.abs(v - n) < 0.001) b.classList.add('nota-mal');
+  });
+  mostrarCriterio({ n, pts });
+}
+
+function mostrarCriterio(res){
+  fase = 'fin';
+  const c = partida.casos[partida.i];
+  const filas = c.criterio.map(([t,p])=>`<li>${t} <strong>(${fmt(p)} p)</strong></li>`).join('');
+  const notaTxt = res ? `<div class="nota-res">${res.pts===1?'✅ Nota exacta':res.pts?'🟡 Cerca':'❌ Lejos'}: pusiste ${fmt(res.n)}; la nota según el criterio es <strong>${fmt(c.nota)}</strong>. ${c.porNota}</div>`
+                      : `<div class="nota-res">Nota según el criterio: <strong>${fmt(c.nota)} / ${fmt(c.puntos)}</strong>. ${c.porNota}</div>`;
+  const ultimo = partida.i+1 >= partida.casos.length;
+  $('rubricBox').innerHTML = `
+    <div class="rubric-header">📑 ${c.oficial ? 'Criterio oficial de corrección (PAU Andalucía)' : 'Respuesta modelo de BioCelia (pregunta tipo PAU)'}</div>
+    <div class="error-highlight">${c.error}</div>
+    <ul class="rubric-text">${filas}</ul>
+    ${notaTxt}
+    <div class="corrector-tip">${c.consejo}</div>
+    <button class="next-btn" onclick="siguiente()">${ultimo ? 'Ver resultados 🎓' : 'Siguiente expediente 📝'}</button>`;
+  $('rubricBox').style.display = 'block';
+  $('rubricBox').querySelector('.next-btn').style.display = 'block';
+  setTimeout(()=>$('rubricBox').scrollIntoView({behavior:'smooth', block:'nearest'}), 120);
+}
+
+function siguiente(){ partida.i++; window.scrollTo({top:0, behavior:'smooth'}); setTimeout(render, 250); }
+
+/* ═══ FINAL ═══ */
+function final(){
+  const N = NIVELES[partida.nivel];
+  const pct = Math.round(partida.puntos / partida.max * 100);
+  const record = guardarRecord(partida.nivel, pct);
+  $('counterVal').textContent = `${partida.casos.length} / ${partida.casos.length}`;
+  $('progressFill').style.width = '100%';
+  $('topicBadge').textContent = 'Resultados';
+  let rango = pct >= 85 ? '⭐ Corrector experto' : pct >= 60 ? '🟡 Corrector en progreso' : '🔴 Repasa los criterios';
+  const fallos = Object.entries(partida.fallos).sort((a,b)=>b[1]-a[1]);
+  const repaso = fallos.length ? fallos.map(([b,n])=>`<div class="summary-item">Bloque ${b} · ${BLOQUES[b]}: ${n} diagnóstico${n>1?'s':''} fallido${n>1?'s':''}.</div>`).join('')
+                               : '<div class="summary-item">Ningún diagnóstico fallido. ¡Prueba el nivel siguiente!</div>';
+  $('gameContainer').innerHTML = `
+    <div class="final-screen">
+      <div class="final-icon">🎓</div>
+      <h2 class="final-title">¡Jornada de corrección terminada!</h2>
+      <p class="final-sub">${N.nombre} · ${partida.casos.length} casos${N.nota ? ' · diagnóstico + nota' : ''}</p>
+      <div class="score-box">Puntuación: ${fmt(partida.puntos)} / ${partida.max} · ${pct} % · ${rango}<br><small>Tu mejor resultado en este nivel: ${record} %</small></div>
+      <div class="summary-card"><h4>// Qué repasar</h4>${repaso}
+        <div class="summary-item">Las palabras clave valen puntos: desnaturalización, medio hipertónico, enlace β(1→4), complementariedad, memoria inmunológica…</div>
+        <div class="summary-item">«Razone» exige el porqué: una conclusión correcta sin justificación suele valer la mitad.</div>
+      </div>
+      <button class="next-btn" style="display:block;margin-top:0" onclick="inicio()">🔄 Otra partida (los casos salen en otro orden)</button>
+    </div>`;
+}
+
+inicio();
+</script>
+</body>
+</html>
