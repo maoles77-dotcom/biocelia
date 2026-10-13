@@ -380,6 +380,8 @@ def traduccion():
         x0 = cx - (pos + 0.5) * W  # inicio del codón 0
         b += linea(ox + 30, y, x0 + 5 * W + 40, y, ARN, 5) + text(ox + 12, y - 8, "5'", 13, "start", 900, fill=ARN)
         for i, c in enumerate(COD):
+            if x0 + i * W + W / 2 + 22 > ox + 372:  # no dibujar codones cortados por el borde del panel
+                continue
             b += text(x0 + i * W + W / 2, y + 22, c, 15, weight=900, fill=ARN, style='font-family="Consolas, monospace"')
         if pos == 0:
             b += arnt(cx, y, "AUG", ["AUG"])

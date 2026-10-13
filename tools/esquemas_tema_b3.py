@@ -194,7 +194,7 @@ def no_disyuncion():
         b += text(530, cy + 5, "n + 1" if cr else "n − 1", 16, "start", 900, fill=ROJO)
     b += text(480, 346, "gametos", 14, weight=900, fill=GRIS)
     b += flecha(600, 60, 690, 120) + flecha(600, 300, 690, 260)
-    b += text(745, 108, "+ gameto normal (n)", 13, weight=800, fill=GRIS) + text(745, 274, "+ gameto normal (n)", 13, weight=800, fill=GRIS)
+    b += text(700, 110, "+ gameto normal (n)", 13, "start", 800, fill=GRIS) + text(700, 280, "+ gameto normal (n)", 13, "start", 800, fill=GRIS)
     b += celula(800, 160, 40, [R, A, R]) + text(860, 165, "2n + 1: trisomía", 16, "start", 900, fill=ACC)
     b += celula(800, 230, 30, [A]) + text(860, 235, "2n − 1: monosomía", 16, "start", 900, fill=ACC)
     b += "</g>"

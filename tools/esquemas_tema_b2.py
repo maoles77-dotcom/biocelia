@@ -71,8 +71,8 @@ def operon():
     # represor inactivado con inductor, separado
     b += represor(330, oy + 80, False)
     b += f'<circle cx="344" cy="{oy + 92}" r="11" fill="#f4a261" stroke="#b5651d" stroke-width="2"/>'
-    b += text(400, oy + 84, "inductor (alolactosa):", 13, "start", 900, fill="#b5651d") + text(400, oy + 102, "el represor cambia de forma", 13, "start", 800, fill="#b5651d")
-    b += text(400, oy + 120, "y se suelta del operador", 13, "start", 800, fill="#b5651d")
+    b += text(650, oy + 84, "inductor (alolactosa):", 13, "start", 900, fill="#b5651d") + text(650, oy + 102, "el represor cambia de forma", 13, "start", 800, fill="#b5651d")
+    b += text(650, oy + 120, "y se suelta del operador", 13, "start", 800, fill="#b5651d")
     b += f'<ellipse cx="560" cy="{y - 40}" rx="48" ry="32" fill="#d7ecd9" stroke="{VERDE}" stroke-width="2.5"/>' + text(560, y - 36, "ARN pol", 13, weight=900, fill=VERDE)
     b += flecha(612, y - 40, 680, y - 40, VERDE, 3)
     # ARNm policistrónico y proteínas
