@@ -254,11 +254,16 @@ def reacciones():
                 b += ab(cx + 58 * math.sin(math.radians(a)), cy - 58 * math.cos(math.radians(a)), 0.85, c, a + 180)
             b += et(cx, cy + 6, "virus", ROJO, 12, w=900)
         elif i == 1:
-            for dx, dy in ((-50, -30), (40, -40), (-40, 45), (50, 40), (0, 0)):
-                b += bacteria(cx + dx, cy + dy, 1.0, VERDE, (dx + dy) % 60)
-            for (x1, y1), (x2, y2) in (((-50, -30), (0, 0)), ((40, -40), (0, 0)), ((-40, 45), (0, 0)), ((50, 40), (0, 0)), ((-50, -30), (40, -40))):
-                mx, my = cx + (x1 + x2) / 2, cy + (y1 + y2) / 2
-                b += ab(mx, my, 0.7, c, math.degrees(math.atan2(y2 - y1, x2 - x1)) + 90)
+            # cadena de células unidas: cada anticuerpo toca con un brazo cada célula vecina
+            cel_x = [cx - 72, cx - 24, cx + 24, cx + 72]
+            for k in range(3):
+                mx = (cel_x[k] + cel_x[k + 1]) / 2
+                if k % 2 == 0:
+                    b += ab(mx, cy - 27, 1.2, c, 180)   # por encima, brazos hacia abajo
+                else:
+                    b += ab(mx, cy + 27, 1.2, c, 0)     # por debajo, brazos hacia arriba
+            for xc in cel_x:
+                b += f'<circle cx="{xc}" cy="{cy}" r="13" fill="#e5f4ec" stroke="{VERDE}" stroke-width="2"/>'
         elif i == 2:
             for k in range(14):
                 xx = cx - 70 + (k % 5) * 35 + (k // 5) % 2 * 17
@@ -286,7 +291,7 @@ def especifica():
     b += et(130, 258, "1 · Macrófago (CPA)", ACC, 13.5, w=900) + et(130, 276, "fagocita y procesa", GRIS, 12) + et(130, 292, "el antígeno", GRIS, 12)
     # CMH
     b += f'<path d="M208,150 h14 v-14 h10 v28 h-24z" fill="{LILA}"/>' + f'<circle cx="236" cy="150" r="6" fill="{VERDE}"/>'
-    b += et(230, 110, "CMH + antígeno", LILA, 12.5, w=900)
+    b += et(250, 96, "CMH + antígeno", LILA, 12.5, w=900)
     # Th
     b += celula(330, 150, 32, "#efe7fb", LILA, "redondo")
     b += et(318, 204, "2 · Linfocito T", LILA, 13.5, w=900) + et(318, 222, "cooperador (Th)", LILA, 13.5, w=900)

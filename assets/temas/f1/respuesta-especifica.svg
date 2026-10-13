@@ -4,7 +4,7 @@
 <path d="M60,170 q-10,-70 60,-80 q70,-10 90,40 q30,60 -20,90 q-60,30 -100,0 q-40,-20 -30,-50z" fill="#fff4df" stroke="#c77d00" stroke-width="3"/><rect x="94.7" y="132.8" width="30.6" height="14.4" rx="7.2" fill="#e5f4ec" stroke="#3f8a3a" stroke-width="2" transform="rotate(0 110 140)"/><text x="130.0" y="258.0" font-size="13.5" text-anchor="middle" font-weight="900" fill="#c77d00" >1 · Macrófago (CPA)</text>
 <text x="130.0" y="276.0" font-size="12" text-anchor="middle" font-weight="800" fill="#4c5b67" >fagocita y procesa</text>
 <text x="130.0" y="292.0" font-size="12" text-anchor="middle" font-weight="800" fill="#4c5b67" >el antígeno</text>
-<path d="M208,150 h14 v-14 h10 v28 h-24z" fill="#6d3fc0"/><circle cx="236" cy="150" r="6" fill="#3f8a3a"/><text x="230.0" y="110.0" font-size="12.5" text-anchor="middle" font-weight="900" fill="#6d3fc0" >CMH + antígeno</text>
+<path d="M208,150 h14 v-14 h10 v28 h-24z" fill="#6d3fc0"/><circle cx="236" cy="150" r="6" fill="#3f8a3a"/><text x="250.0" y="96.0" font-size="12.5" text-anchor="middle" font-weight="900" fill="#6d3fc0" >CMH + antígeno</text>
 <circle cx="330" cy="150" r="32" fill="#efe7fb" stroke="#6d3fc0" stroke-width="2.5"/><circle cx="330" cy="150" r="19.84" fill="#6d3fc0" opacity="0.35"/><text x="318.0" y="204.0" font-size="13.5" text-anchor="middle" font-weight="900" fill="#6d3fc0" >2 · Linfocito T</text>
 <text x="318.0" y="222.0" font-size="13.5" text-anchor="middle" font-weight="900" fill="#6d3fc0" >cooperador (Th)</text>
 <text x="318.0" y="240.0" font-size="12" text-anchor="middle" font-weight="800" fill="#4c5b67" >reconoce el antígeno</text>

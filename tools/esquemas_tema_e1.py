@@ -182,10 +182,10 @@ def antibioticos():
     b += linea(cx + 120, cy + 64, cx + 170, cy + 150, GRIS, 1.5) + et(cx + 200, cy + 168, "plásmido: puede llevar", INK, 13) + et(cx + 200, cy + 186, "genes de resistencia", ROJO, 13, w=900)
     # columna derecha
     x = 700
-    b += f'<rect x="{x}" y="60" width="360" height="370" rx="16" fill="#fff" stroke="{PRI}" stroke-width="2.5"/>'
+    b += f'<rect x="{x}" y="60" width="360" height="385" rx="16" fill="#fff" stroke="{PRI}" stroke-width="2.5"/>'
     b += et(x + 180, 90, "¿Por qué no dañan a nuestras células?", PRI, 15, w=900)
     lineas = [("• Las células eucariotas no tienen", INK), ("  pared de peptidoglucano.", INK), ("• Sus ribosomas son 80S, no 70S.", INK),
-              ("  (Ojo: las mitocondrias tienen 70S)", LILA), ("", INK),
+              ("  (Ojo: las mitocondrias tienen", LILA), ("  ribosomas parecidos, de ≈55S)", LILA), ("", INK),
               ("¿Y contra los virus?", ROJO), ("• No sirven: los virus no tienen", INK), ("  pared, ni ribosomas, ni metabolismo", INK), ("  propio. Se usan antivirales.", INK),
               ("", INK), ("Origen: hongos (Penicillium) y", ACC), ("bacterias (Streptomyces).", ACC)]
     for k, (l, c) in enumerate(lineas):
