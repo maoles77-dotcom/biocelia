@@ -77,7 +77,7 @@ def grafica():
     ox = lambda t: max(0.0, 0.85 * (1 - t / tc)) if t < tc else 0.0
     glu = lambda t: 0.9 - 0.25 * t / tc if t < tc else 0.65 - 0.65 * (t - tc) / (1 - tc) * 0.95
     eta = lambda t: 0.0 if t < tc else 0.7 * (1 - math.exp(-(t - tc) * 6))
-    b += curva(ox, PRI, "O₂", x0 + 60, y0 + 180) + curva(glu, ACC, "glucosa", x0 + w - 120, y0 + h - 30) + curva(eta, VERDE, "etanol", x0 + w - 100, y0 + 70)
+    b += curva(ox, PRI, "O₂", x0 + 60, y0 + 180) + curva(glu, ACC, "glucosa", x0 + w - 150, y0 + h * 0.68) + curva(eta, VERDE, "etanol", x0 + w - 100, y0 + 70)
     b += linea(x0 + tc * w, y0 - 10, x0 + tc * w, y0 + h, GRIS, 1.5, 'stroke-dasharray="6 5"')
     b += text(x0 + tc * w / 2, y0 - 18, "t1: respiración celular", 15, weight=900, fill=PRI)
     b += text(x0 + tc * w + (1 - tc) * w / 2, y0 - 18, "t2: fermentación alcohólica", 15, weight=900, fill=VERDE)

@@ -74,7 +74,7 @@ def destinos():
     b += caja(150, 175, 160, 50, "Glucosa", PRI, "#e3eef8", 17)
     b += flecha(232, 175, 312, 175, ROJO, 3.5) + text(272, 162, "glucólisis", 12, weight=900, fill=ROJO)
     b += caja(400, 175, 160, 50, "2 Piruvato", INK, "#fff", 17)
-    b += flecha(480, 160, 640, 110, VERDE, 3.5) + text(545, 152, "con O₂", 13, weight=900, fill=VERDE)
+    b += flecha(480, 160, 640, 110, VERDE, 3.5) + text(520, 130, "con O₂", 13, weight=900, fill=VERDE)
     b += caja(760, 110, 240, 56, "2 Acetil-CoA", INK, "#fff", 17, "+ 2 CO₂ + 2 NADH")
     b += text(760, 160, "descarboxilación oxidativa", 13, weight=900, fill=VERDE)
     b += flecha(760, 180, 760, 230, INK, 3) + caja(760, 268, 270, 52, "Ciclo de Krebs →", ROJO, "#fff", 16, "cadena respiratoria → CO₂, H₂O, mucho ATP")

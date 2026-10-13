@@ -116,7 +116,7 @@ def luminosa():
 def fotosistema():
     b = f'<ellipse cx="300" cy="190" rx="250" ry="150" fill="#e5f4ec" stroke="{TIL}" stroke-width="3"/>'
     for k in range(14):
-        a = k * 2 * math.pi / 14
+        a = (k + 0.5) * 2 * math.pi / 14  # ningún pigmento en la trayectoria del electrón
         x, y = 300 + 180 * math.cos(a), 190 + 100 * math.sin(a)
         col = "#3f9142" if k % 3 else "#f4a261"
         b += f'<circle cx="{x:.1f}" cy="{y:.1f}" r="14" fill="{col}" stroke="#256b28" stroke-width="1.5"/>'
@@ -124,7 +124,7 @@ def fotosistema():
         b += linea(x, y, nx, ny, LUZ, 1.6, 'stroke-dasharray="3 3"')
     b += f'<circle cx="300" cy="190" r="40" fill="#256b28" stroke="#123d14" stroke-width="3"/>' + text(300, 186, "centro de", 11, weight=900, fill="#fff") + text(300, 200, "reacción", 11, weight=900, fill="#fff")
     b += rayo(110, 70, 80, 50) + text(40, 30, "fotón", 14, weight=900, fill=LUZ)
-    b += flecha(340, 190, 600, 190, LILA, 3.5) + text(470, 176, "e⁻ de alta energía", 13, weight=900, fill=LILA) + text(470, 212, "→ cadena de transporte", 12, weight=800, fill=GRIS)
+    b += flecha(340, 190, 600, 190, LILA, 3.5) + text(596, 150, "e⁻ de alta", 13, weight=900, fill=LILA) + text(596, 166, "energía", 13, weight=900, fill=LILA) + text(596, 220, "→ cadena de", 12, weight=800, fill=GRIS) + text(596, 236, "transporte", 12, weight=800, fill=GRIS)
     b += text(320, 368, "Los pigmentos antena (clorofilas, carotenoides) captan la luz", 13, weight=800, fill=GRIS)
     b += text(320, 388, "y pasan la energía al centro de reacción, cuya clorofila se excita", 13, weight=800, fill=GRIS)
     b += text(320, 408, "y cede un electrón. PS II: P680 · PS I: P700", 13, weight=800, fill=GRIS)
@@ -143,7 +143,7 @@ def calvin():
         b += f'<rect x="{x - 105}" y="{y - 32}" width="210" height="64" rx="14" fill="#fff" stroke="{ACC}" stroke-width="2.5"/>'
         b += text(x, y - 10, t1, 14, weight=900, fill=ACC) + text(x, y + 8, t2, 12, weight=800) + text(x, y + 24, t3, 12, weight=800, fill=GRIS)
     b += text(cx, cy - 4, "CICLO DE", 18, weight=900, fill=ACC) + text(cx, cy + 22, "CALVIN", 24, weight=900, fill=ACC)
-    b += pastilla(cx + 300, 90, "CO₂ (atmósfera)", GRIS, "#eef1f4") + flecha(cx + 250, 104, cx + 140, 140, GRIS, 2.5)
+    b += pastilla(cx - 300, 90, "CO₂ (atmósfera)", GRIS, "#eef1f4") + flecha(cx - 270, 104, cx - 205, 148, GRIS, 2.5)
     b += pastilla(cx + 330, 300, "ATP + NADPH", LILA, "#efe7fb") + text(cx + 330, 330, "(de la fase luminosa)", 12, weight=800, fill=GRIS) + flecha(cx + 260, 300, cx + 200, 330, LILA, 2.5)
     b += pastilla(cx + 300, 420, "triosas fosfato → glucosa,", VERDE, "#e5f4ec", 12) + text(cx + 300, 450, "almidón, sacarosa, otras moléculas", 12, weight=800, fill=VERDE)
     b += flecha(cx + 150, 370, cx + 210, 410, VERDE, 2.5)
@@ -182,7 +182,7 @@ def factores():
         v = math.exp(-((t - 0.62) / 0.2) ** 2) if t < 0.62 else math.exp(-((t - 0.62) / 0.09) ** 2)
         pts.append((x0 + t * w, y0 + h - h * 0.85 * v))
     b += f'<polyline points="{" ".join(f"{a:.1f},{c:.1f}" for a, c in pts)}" fill="none" stroke="{ROJO}" stroke-width="4"/>'
-    b += text(x0 + 0.62 * w, y0 + 18, "óptima", 12, weight=900, fill=GRIS) + text(x0 + w - 6, y0 + h - 70, "enzimas", 11, "end", 900, fill=ROJO) + text(x0 + w - 6, y0 + h - 56, "desnaturalizadas", 11, "end", 900, fill=ROJO)
+    b += text(x0 + 0.62 * w, y0 + 18, "óptima", 12, weight=900, fill=GRIS) + text(x0 + 0.77 * w, y0 + h - 62, "enzimas", 11, "start", 900, fill=ROJO) + text(x0 + 0.77 * w, y0 + h - 48, "desnaturalizadas", 11, "start", 900, fill=ROJO)
     b += text(530, 310, "También influyen el agua (sin agua se cierran los estomas y falta CO₂) y la concentración de O₂ (fotorrespiración).", 13, weight=800, fill=PRI)
     save("factores-fotosintesis.svg", svg(1060, 330, b, "Influencia de la luz, el CO2 y la temperatura en la fotosíntesis"))
 

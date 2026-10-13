@@ -131,9 +131,9 @@ def mapa():
     b += caja(80, 500, 130, 46, "Lactato", LILA, "#efe7fb", 15) + caja(270, 500, 170, 46, "Etanol + CO₂", LILA, "#efe7fb", 15)
     b += text(175, 560, "FERMENTACIONES (sin O₂)", 14, weight=900, fill=LILA) + text(175, 578, "regeneran el NAD⁺", 12, weight=800, fill=GRIS)
     # entrada a mitocondria
-    b += flecha(246, 360, 640, 400, ROJO, 3) + text(330, 368, "con O₂", 13, weight=900, fill=ROJO)
+    b += flecha(246, 360, 640, 400, ROJO, 3) + text(330, 345, "con O₂", 13, weight=900, fill=ROJO)
     b += caja(720, 410, 150, 46, "Acetil-CoA", INK, "#fff", 16)
-    b += text(440, 352, "descarboxilación oxidativa (CO₂, NADH)", 11.5, weight=800, fill=GRIS)
+    b += text(362, 345, "descarboxilación oxidativa (CO₂, NADH)", 11.5, "start", 800, fill=GRIS)
     b += flecha(600, 214, 700, 384, ACC, 3) + text(660, 290, "β-OXIDACIÓN", 14, "start", 900, fill=ACC)
     # la glicerina no va a la β-oxidación: se incorpora a la glucólisis
     b += f'<path d="M485,206 L172,258" fill="none" stroke="{ACC}" stroke-width="2.2" stroke-dasharray="6 4" marker-end="url(#fk)"/>'
