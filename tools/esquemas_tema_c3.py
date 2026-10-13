@@ -125,16 +125,17 @@ def cel(x, y, r, tipo):
 
 def cancer():
     b = ""
-    paneles = [("1 · Tejido normal", "las células se dividen solo cuando hace falta"),
-               ("2 · Primeras mutaciones", "una célula escapa del control y prolifera"),
-               ("3 · Tumor", "masa de células que se dividen sin control"),
-               ("4 · Tumor maligno", "invade los tejidos vecinos"),
-               ("5 · Metástasis", "células que viajan por la sangre o la linfa")]
+    paneles = [("1 · Tejido normal", "las células se dividen|solo cuando hace falta"),
+               ("2 · Primeras mutaciones", "una célula escapa|del control y prolifera"),
+               ("3 · Tumor", "masa de células que|se dividen sin control"),
+               ("4 · Tumor maligno", "invade los|tejidos vecinos"),
+               ("5 · Metástasis", "células que viajan por|la sangre o la linfa")]
     for i, (t, s) in enumerate(paneles):
         x0 = 10 + i * 232
         b += f'<rect x="{x0}" y="10" width="222" height="300" rx="14" fill="{"#f6f9fb" if i % 2 == 0 else "#fff"}" stroke="#d5dde3"/>'
         b += text(x0 + 111, 36, t, 15, weight=900, fill=ROJO if i else PRI)
-        b += text(x0 + 111, 292, s, 11, weight=800, fill=GRIS)
+        for j, lin in enumerate(s.split("|")):
+            b += text(x0 + 111, 284 + j * 15, lin, 12, weight=800, fill=GRIS)
         # membrana basal
         b += linea(x0 + 10, 230, x0 + 212, 230, "#8b6a2c", 4)
         # epitelio
@@ -151,10 +152,12 @@ def cancer():
         if i >= 3:
             for px, py in ((x0 + 90, 248), (x0 + 120, 260), (x0 + 140, 245)):
                 b += cel(px, py, 11, "c")
-            b += text(x0 + 180, 262, "invasión", 11, weight=900, fill=ROJO)
+            if i == 3:
+                b += text(x0 + 180, 262, "invasión", 11, weight=900, fill=ROJO)
         if i == 4:
             b += f'<path d="M{x0 + 160},230 C{x0 + 175},260 {x0 + 195},250 {x0 + 212},270" fill="none" stroke="{ROJO}" stroke-width="10" opacity="0.25"/>'
             b += cel(x0 + 196, 258, 8, "c") + text(x0 + 111, 66, "→ otros órganos", 13, weight=900, fill=ROJO)
+            b += text(x0 + 205, 250, "vaso", 10, "end", 900, fill=ROJO)
             b += text(x0 + 111, 82, "(tumores secundarios)", 11, weight=800, fill=GRIS)
     b += text(590, 340, "El cáncer se origina por la acumulación de varias mutaciones en una misma célula a lo largo del tiempo.", 14, weight=900, fill=PRI)
     save("desarrollo-cancer.svg", svg(1180, 355, b, "Desarrollo de un cáncer: de las primeras mutaciones a la metástasis"))

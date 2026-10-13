@@ -365,14 +365,14 @@ def endocitosis():
 def endomembranas():
     b = f'<path d="M20,60 L20,40 Q20,20 40,20 L1060,20 Q1080,20 1080,40 L1080,60" fill="none" stroke="{MEMB}" stroke-width="5"/>'
     b += text(550, 14, "membrana plasmática", 13, weight=900, fill=MEMB)
-    b += f'<path d="M20,420 A150,150 0 0 1 20,120" fill="#dfe8f5" stroke="#3b5f8f" stroke-width="5"/>' + text(60, 270, "núcleo", 16, "start", 900, fill="#3b5f8f")
+    b += f'<path d="M20,420 A150,150 0 0 0 20,120" fill="#dfe8f5" stroke="#3b5f8f" stroke-width="5"/>' + text(40, 280, "núcleo", 16, "start", 900, fill="#3b5f8f")
     b += rer(200, 180, 180, 5, 1.1)
     b += text(290, 290, "RER", 18, weight=900, fill="#7b5ea7") + text(290, 310, "síntesis de proteínas", 13, weight=800, fill=GRIS) + text(290, 326, "de membrana y de secreción", 13, weight=800, fill=GRIS)
     b += rel(200, 400, 1.1) + text(290, 450, "REL: lípidos, detoxificación", 13, weight=800, fill="#9b7fc9")
-    b += flecha(400, 200, 480, 200) + text(440, 190, "vesícula", 12, weight=800, fill=GRIS)
-    b += f'<circle cx="460" cy="200" r="8" fill="#e8dff5" stroke="#7b5ea7" stroke-width="2"/>'
+    b += flecha(395, 196, 515, 168) + text(445, 166, "vesícula", 12, weight=800, fill=GRIS)
+    b += f'<circle cx="455" cy="182" r="8" fill="#e8dff5" stroke="#7b5ea7" stroke-width="2"/>'
     b += golgi(580, 210, 1.5)
-    b += text(580, 140, "cara cis", 13, weight=900, fill=ACC) + text(580, 290, "cara trans", 13, weight=900, fill=ACC)
+    b += text(600, 140, "cara cis (recibe del RER)", 13, weight=900, fill=ACC) + text(580, 290, "cara trans (salida)", 13, weight=900, fill=ACC)
     b += text(580, 320, "Golgi: maduración, glucosilación,", 13, weight=800, fill=GRIS) + text(580, 336, "clasificación y empaquetado", 13, weight=800, fill=GRIS)
     # salidas
     b += flecha(650, 240, 760, 110) + f'<circle cx="790" cy="90" r="16" fill="#e5f4ec" stroke="{VERDE}" stroke-width="2.5"/>'

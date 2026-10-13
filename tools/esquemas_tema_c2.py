@@ -205,7 +205,7 @@ def citocinesis():
     for k in range(9):
         b += f'<circle cx="{cx + (k % 2) * 4 - 2}" cy="{cy - 56 + k * 14}" r="6" fill="#ffd58a" stroke="{ACC}" stroke-width="1.5"/>'
     b += linea(cx, cy - 34, cx, cy + 34, "#7aa33a", 5)
-    b += linea(cx + 8, cy - 60, cx + 60, cy - 84, GRIS, 1.3) + text(cx + 64, cy - 80, "vesículas del Golgi", 13, "start", 900, fill=ACC)
+    b += linea(cx - 8, cy - 62, cx - 30, cy - 76, GRIS, 1.3) + text(cx - 34, cy - 78, "vesículas del Golgi", 13, "end", 900, fill=ACC)
     b += linea(cx + 4, cy + 20, cx - 30, cy + 114, GRIS, 1.3) + text(cx - 34, cy + 120, "placa celular", 13, "end", 900, fill=VERDE)
     b += text(460, 340, "En las células vegetales tampoco hay centriolos: el huso se forma sin ellos y sin áster (huso anastral).", 13, weight=800, fill=GRIS)
     save("citocinesis.svg", svg(920, 355, b, "Citocinesis por estrangulamiento en la célula animal y por fragmoplasto en la vegetal"))
