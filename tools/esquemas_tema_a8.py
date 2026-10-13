@@ -54,7 +54,8 @@ def arbol():
     def flecha(a, c, et=""):
         s = f'<line x1="{a[0]}" y1="{a[1]}" x2="{c[0]}" y2="{c[1]}" stroke="{INK}" stroke-width="2.5" marker-end="url(#fk)"/>'
         if et:
-            s += text((a[0] + c[0]) / 2 + 6, (a[1] + c[1]) / 2 - 4, et, 13, "start", 900, fill=ACC)
+            izq = c[0] < a[0]  # la etiqueta va por fuera de la línea
+            s += text((a[0] + c[0]) / 2 + (-8 if izq else 8), (a[1] + c[1]) / 2 - 6, et, 13, "end" if izq else "start", 900, fill=ACC)
         return s
     b = caja(450, 34, 260, "Muestra desconocida")
     b += caja(450, 120, 220, "¿Lugol azul-negro?", ACC, "#fff4df") + flecha((450, 56), (450, 96))

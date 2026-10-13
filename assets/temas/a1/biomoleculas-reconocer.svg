@@ -8,8 +8,8 @@
 <line x1="85" y1="105" x2="85" y2="72" stroke="#22313f" stroke-width="2.4"/><text x="85.0" y="64.0" font-size="16" text-anchor="middle" font-weight="800" fill="#22313f" >CH₂OH</text>
 <text x="125.0" y="262.0" font-size="20" text-anchor="middle" font-weight="900" fill="#0f4c81" >Glúcido</text>
 <text x="125.0" y="284.0" font-size="14" text-anchor="middle" font-weight="600" fill="#4c5b67" >muchos –OH · anillo con O</text>
-<polyline points="270,170 289,150 308,170 327,150 346,170 365,150 384,170 403,150 422,170 441,150" fill="none" stroke="#22313f" stroke-width="3.5" stroke-linejoin="round"/><text x="449.0" y="157.0" font-size="20" text-anchor="start" font-weight="900" fill="#c0392b" >–COOH</text>
-<rect x="265" y="190" width="175" height="8" rx="4" fill="#f2c94c" opacity="0.55"/><text x="352.0" y="222.0" font-size="13" text-anchor="middle" font-weight="700" fill="#8a6d00" >cola hidrocarbonada</text>
+<polyline points="268,170 286,150 304,170 322,150 340,170 358,150 376,170 394,150" fill="none" stroke="#22313f" stroke-width="3.5" stroke-linejoin="round"/><text x="402.0" y="157.0" font-size="20" text-anchor="start" font-weight="900" fill="#c0392b" >–COOH</text>
+<rect x="263" y="190" width="135" height="8" rx="4" fill="#f2c94c" opacity="0.55"/><text x="330.0" y="222.0" font-size="13" text-anchor="middle" font-weight="700" fill="#8a6d00" >cola hidrocarbonada</text>
 <text x="375.0" y="262.0" font-size="20" text-anchor="middle" font-weight="900" fill="#2a9d8f" >Lípido</text>
 <text x="375.0" y="284.0" font-size="14" text-anchor="middle" font-weight="600" fill="#4c5b67" >larga cola –CH₂– · –COOH</text>
 <line x1="625.0" y1="136.4" x2="625.0" y2="105.6" stroke="#22313f" stroke-width="2.4" stroke-linecap="round"/><line x1="625.0" y1="163.6" x2="625.0" y2="194.4" stroke="#22313f" stroke-width="2.4" stroke-linecap="round"/><line x1="611.4" y1="150.0" x2="564.7" y2="150.0" stroke="#22313f" stroke-width="2.4" stroke-linecap="round"/><line x1="638.6" y1="150.0" x2="674.6" y2="150.0" stroke="#22313f" stroke-width="2.4" stroke-linecap="round"/><text x="625.0" y="157.9" font-size="22" text-anchor="middle" font-weight="800" fill="#22313f" >C</text>

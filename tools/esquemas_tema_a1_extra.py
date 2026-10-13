@@ -166,12 +166,12 @@ def reconocer():
     b += text(125, 262, "Glúcido", 20, weight=900, fill=PRI)
     b += text(125, 284, "muchos –OH · anillo con O", 14, weight=600, fill=GRIS)
     # Ácido graso
-    xs = [270 + i * 19 for i in range(10)]
+    xs = [268 + i * 18 for i in range(8)]
     pts = " ".join(f"{x},{150 if i % 2 else 170}" for i, x in enumerate(xs))
     b += f'<polyline points="{pts}" fill="none" stroke="{INK}" stroke-width="3.5" stroke-linejoin="round"/>'
     b += text(xs[-1] + 8, 157, "–COOH", 20, "start", 900, fill=COL_AT["O"])
-    b += f'<rect x="265" y="190" width="175" height="8" rx="4" fill="#f2c94c" opacity="0.55"/>'
-    b += text(352, 222, "cola hidrocarbonada", 13, weight=700, fill="#8a6d00")
+    b += f'<rect x="263" y="190" width="135" height="8" rx="4" fill="#f2c94c" opacity="0.55"/>'
+    b += text(330, 222, "cola hidrocarbonada", 13, weight=700, fill="#8a6d00")
     b += text(375, 262, "Lípido", 20, weight=900, fill=TEAL)
     b += text(375, 284, "larga cola –CH₂– · –COOH", 14, weight=600, fill=GRIS)
     # Aminoácido
@@ -267,10 +267,10 @@ def grupos():
 def micela():
     b = '<rect x="250" y="20" width="510" height="260" rx="16" fill="#d6ecfa"/>'
     # molécula aislada
-    b += lipido(110, 70, 90, L=120, cab=24)
-    b += text(150, 76, "Cabeza polar", 16, "start", 800, fill=BLUE) + text(150, 94, "(hidrófila)", 14, "start", 600, fill=GRIS)
-    b += text(130, 160, "Cola apolar", 16, "start", 800, fill="#8a6d00") + text(130, 178, "(hidrófoba)", 14, "start", 600, fill=GRIS)
-    b += text(110, 260, "Molécula anfipática", 17, weight=900)
+    b += lipido(70, 70, 90, L=120, cab=24)
+    b += text(108, 76, "Cabeza polar", 16, "start", 800, fill=BLUE) + text(108, 94, "(hidrófila)", 14, "start", 600, fill=GRIS)
+    b += text(88, 160, "Cola apolar", 16, "start", 800, fill="#8a6d00") + text(88, 178, "(hidrófoba)", 14, "start", 600, fill=GRIS)
+    b += text(125, 260, "Molécula anfipática", 17, weight=900)
     # micela
     for k in range(16):
         ang = k * 22.5
@@ -395,7 +395,7 @@ def escala_ph():
         x = x0 + (x1 - x0) * v / 14
         b += f'<line x1="{x:.1f}" y1="{y + 36}" x2="{x:.1f}" y2="{y + 46}" stroke="{INK}" stroke-width="2"/>' + text(x, y + 66, str(v), 16, weight=800)
     marcas = [(2, "Jugo gástrico", 62, "middle"), (3, "Vinagre", 30, "middle"), (5, "Café", 62, "middle"),
-              (7, "Agua pura", 30, "end"), (7.4, "Sangre", 62, "start"), (8.2, "Agua de mar", 30, "start"), (13, "Lejía", 62, "middle")]
+              (7, "Agua pura", 30, "end"), (7.4, "Sangre", 30, "start"), (8.2, "Agua de mar", 62, "start"), (13, "Lejía", 62, "middle")]
     for v, et, yt, anc in marcas:
         x = x0 + (x1 - x0) * v / 14
         b += f'<line x1="{x:.1f}" y1="{yt + 8}" x2="{x:.1f}" y2="{y - 2}" stroke="{INK}" stroke-width="1.5"/>'
@@ -486,9 +486,11 @@ def cocina():
     b += '<path d="M240,140 L290,105 L290,175z" fill="#c9d6de" stroke="#6f8796" stroke-width="2.5"/><circle cx="95" cy="132" r="5" fill="#2c3e50"/>'
     for x, y in ((70, 80), (120, 60), (180, 66), (230, 92), (90, 205), (150, 222), (215, 200), (40, 170)):
         b += f'<rect x="{x}" y="{y}" width="14" height="14" fill="#fff" stroke="#9aa8b4" stroke-width="1.5" transform="rotate(20 {x + 7} {y + 7})"/>'
-    for x, y in ((150, 120), (190, 150)):
-        b += f'<path d="M{x},{y} l-16,-20" stroke="{BLUE}" stroke-width="3" marker-end="url(#fl)"/>'
-        b += f'<path d="M{x - 22},{y - 34} q-5,8 0,12 q5,-4 0,-12z" fill="{BLUE}"/>'
+    # el agua sale del pescado hacia la sal (flechas que cruzan el contorno hacia fuera)
+    for x1, y1, x2, y2 in ((140, 130, 124, 86), (176, 150, 192, 194)):
+        b += f'<path d="M{x1},{y1} L{x2},{y2}" stroke="{BLUE}" stroke-width="3" marker-end="url(#fl)"/>'
+        dx, dy = (x2 - x1) * 0.25, (y2 - y1) * 0.25
+        b += f'<path d="M{x2 + dx},{y2 + dy - 6} q-5,8 0,12 q5,-4 0,-12z" fill="{BLUE}"/>'
     b += text(166, 262, "Salazón", 20, weight=900, fill=PRI) + text(166, 284, "medio hipertónico: sale agua", 14, weight=700, fill=GRIS)
     # almíbar
     b += '<rect x="420" y="70" width="160" height="170" rx="20" fill="#f6d28a" stroke="#b07d1f" stroke-width="3"/><rect x="430" y="50" width="140" height="26" rx="6" fill="#c0392b"/>'

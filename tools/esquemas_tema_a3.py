@@ -60,7 +60,7 @@ def acidos_grasos():
     s2, p2 = zigzag(ini[0], ini[1], 8, 21, 12, ang=30)
     b += s1 + s2 + doble(p1[-1], p2[1], 1, ROJO, 2.4) + linea(p1[-1], p2[1], 2.6, ROJO)
     b += text(p2[-1][0] + 8, p2[-1][1] + 6, "COOH", 18, "start", 900, fill=ROJO)
-    b += text(ini[0] - 20, ini[1] + 44, "doble enlace (cis) → «codo»", 14, "middle", 800, fill=ROJO)
+    b += text(60, ini[1] + 44, "doble enlace (cis) → «codo»", 14, "start", 800, fill=ROJO)
     b += text(30, 180, "Insaturado · ácido oleico (18 C)", 17, "start", 900, fill=PRI)
     b += text(30, 330, "un doble enlace → cadena doblada · punto de fusión 13,4 °C (líquido)", 14, "start", 700, fill=GRIS)
     save("acidos-grasos.svg", svg(620, 345, b, "Ácido esteárico saturado y recto y ácido oleico insaturado con un codo"))
@@ -75,11 +75,11 @@ def empaquetamiento():
         b += s
     b += text(495, 26, "Insaturados: los codos los separan", 16, weight=900, fill=PRI) + text(495, 46, "menos interacciones → líquidos", 13, weight=700, fill=GRIS)
     for i in range(5):
-        x = 390 + i * 52
+        x = 375 + i * 58
         b += f'<circle cx="{x}" cy="80" r="11" fill="{BLUE}"/>'
         s1, p = zigzag(x, 92, 4, 17, 8, ang=90, col=COLA, w=3)
-        s2, _ = zigzag(p[-1][0], p[-1][1], 3, 17, 8, ang=90 + (30 if i % 2 else -30), col=COLA, w=3)
-        b += s1 + s2
+        s2, p2 = zigzag(p[-1][0], p[-1][1], 3, 17, 8, ang=90 - 35, col=COLA, w=3)
+        b += s1 + linea(p[-1], p2[0], 3, COLA) + s2
     b += f'<line x1="330" y1="30" x2="330" y2="230" stroke="#dde5ec" stroke-width="2"/>'
     b += text(330, 250, "Más larga la cadena → más interacciones → punto de fusión más alto. Más dobles enlaces → más bajo.", 13, weight=800)
     save("acidos-grasos-empaquetamiento.svg", svg(660, 262, b, "Los ácidos grasos saturados se empaquetan y son sólidos; los insaturados, con codos, son líquidos"))
@@ -110,7 +110,7 @@ def esterificacion():
     b += f'<line x1="380" y1="118" x2="460" y2="118" stroke="{INK}" stroke-width="3" marker-end="url(#fk)"/>'
     b += f'<line x1="460" y1="146" x2="380" y2="146" stroke="{INK}" stroke-width="3" marker-end="url(#fk)"/>'
     b += text(420, 106, "esterificación", 13, weight=900, fill=PRI) + text(420, 168, "hidrólisis", 13, weight=900, fill=TEAL)
-    b += text(420, 186, "(saponificación con NaOH/KOH)", 11, weight=800, fill=TEAL)
+    b += text(420, 184, "(saponificación:", 11, weight=800, fill=TEAL) + text(420, 198, "con NaOH o KOH)", 11, weight=800, fill=TEAL)
     # triacilglicérido
     for i, yy in enumerate((70, 130, 190)):
         b += text(540, yy + 6, "CH₂" if i != 1 else "CH", 17, "end", 900)
@@ -127,7 +127,7 @@ def esterificacion():
 
 
 def jabon():
-    b = '<rect x="0" y="0" width="660" height="260" fill="#eaf4fb"/>'
+    b = '<rect x="0" y="0" width="660" height="290" fill="#eaf4fb"/>'
     # gota de grasa con jabones alrededor
     cx, cy = 200, 135
     b += f'<circle cx="{cx}" cy="{cy}" r="62" fill="#f3d27a" stroke="#c9a227" stroke-width="2"/>'
@@ -138,7 +138,7 @@ def jabon():
         fin = P((cx, cy), d(ang), 50)
         b += linea(cab, fin, 3, COLA)
         b += f'<circle cx="{cab[0]:.1f}" cy="{cab[1]:.1f}" r="9" fill="{BLUE}"/>'
-    b += text(200, 252, "Micela de jabón: las colas atrapan la grasa", 14, weight=800)
+    b += text(200, 278, "Micela de jabón: las colas atrapan la grasa", 14, weight=800)
     # una molécula de jabón ampliada
     b += f'<circle cx="430" cy="70" r="16" fill="{BLUE}"/>' + text(430, 76, "–COO⁻ Na⁺", 13, "start", 900, fill="#fff") if False else ""
     s, pts = zigzag(380, 80, 8, 18, 10, col=COLA)
@@ -148,7 +148,7 @@ def jabon():
     b += text(470, 118, "cola apolar: se une a la grasa", 13, weight=800, fill="#8a6d00")
     b += text(560, 150, "cabeza iónica: se une al agua", 13, weight=800, fill=BLUE)
     b += text(480, 200, "Al aclarar, el agua arrastra", 14, weight=800) + text(480, 220, "las micelas con la grasa.", 14, weight=800)
-    save("jabon-micela.svg", svg(660, 262, b, "Las moléculas de jabón rodean una gota de grasa formando una micela que el agua arrastra"))
+    save("jabon-micela.svg", svg(660, 290, b, "Las moléculas de jabón rodean una gota de grasa formando una micela que el agua arrastra"))
 
 
 # ─── 3 · Lípidos saponificables en bloques ─────────────────────────────────
@@ -189,7 +189,7 @@ def saponificables():
     b += bloque(830, 50, 70, 170, "Esfingosina", PRI, GL[0], size=11)
     b += bloque(900, 80, 50, 30, "amida", ACC, "#fff4df", size=11) + cola(952, 95, 6)
     b += bloque(900, 160, 150, 30, "grupo polar", LILA, AL[0], size=12)
-    b += text(975, 210, "fosfocolina → esfingomielina", 11, weight=800, fill=LILA) + text(975, 226, "glúcido → glucoesfingolípido", 11, weight=800, fill=LILA)
+    b += text(990, 210, "fosfocolina → esfingomielina", 10.5, weight=800, fill=LILA) + text(990, 226, "glúcido → glucoesfingolípido", 10.5, weight=800, fill=LILA)
     b += text(882, 46, "ceramida = esfingosina + ácido graso", 11, "start", 800, fill=GRIS) if False else ""
     save("lipidos-saponificables.svg", svg(1080, 275, b, "Composición de los lípidos saponificables: triacilglicérido, cera, fosfoglicérido y esfingolípido"))
 
@@ -443,7 +443,7 @@ def esfingolipidos():
         # amida + ácido graso
         b += bloque(x + 122, 160, 50, 28, "amida", ACC, "#fff4df", size=11)
         s2, _ = zigzag(x + 174, 174, 9, 18, 9, col=COLA, w=3)
-        b += s2 + text(x + 290, 205, "ácido graso", 12, weight=800, fill=COLA)
+        b += s2 + text(x + 250, 199, "ácido graso", 12, "start", 800, fill=COLA)
         b += text(x + 215, 148, "cadena de la esfingosina", 11, "start", 800, fill=GRIS)
         b += f'<rect x="{x + 18}" y="104" width="380" height="104" rx="10" fill="none" stroke="{ACC}" stroke-width="1.5" stroke-dasharray="3 4"/>'
         b += text(x + 330, 224, "ceramida", 12, weight=900, fill=ACC)

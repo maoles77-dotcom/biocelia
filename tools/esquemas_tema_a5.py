@@ -66,8 +66,8 @@ def energia_activacion():
     for ytop, col, et, dx in ((y0 + 10, ROJO, "Ea sin enzima", -8), (y0 + 85, VERDE, "Ea con enzima", 18)):
         xa = x0 + 280 + dx
         b += f'<line x1="{xa}" y1="{yS}" x2="{xa}" y2="{ytop + 4}" stroke="{col}" stroke-width="2.5" marker-start="url(#fk)" marker-end="url(#fk)"/>'
-    b += text(x0 + 262, y0 + 60, "Ea sin enzima", 14, "end", 900, fill=ROJO, style='style="paint-order:stroke;stroke:#fff;stroke-width:6px;stroke-linejoin:round"')
-    b += text(x0 + 306, y0 + 118, "Ea con enzima", 14, "start", 900, fill=VERDE, style='style="paint-order:stroke;stroke:#fff;stroke-width:6px;stroke-linejoin:round"')
+    b += text(x0 + 210, y0 + 25, "Ea sin enzima", 14, "end", 900, fill=ROJO, style='style="paint-order:stroke;stroke:#fff;stroke-width:6px;stroke-linejoin:round"')
+    b += text(x0 + 290, y0 + 150, "Ea con enzima", 14, "middle", 900, fill=VERDE, style='style="paint-order:stroke;stroke:#fff;stroke-width:6px;stroke-linejoin:round"')
     b += f'<line x1="{xS - 50}" y1="{yS}" x2="{xP + 40}" y2="{yS}" stroke="{GRIS}" stroke-width="1.5" stroke-dasharray="4 4"/>'
     b += f'<line x1="{xP + 30}" y1="{yS}" x2="{xP + 30}" y2="{yP}" stroke="{PRI}" stroke-width="2.5" marker-start="url(#fk)" marker-end="url(#fk)"/>'
     b += text(xP + 38, (yS + yP) / 2 + 5, "energía liberada", 13, "start", 900, fill=PRI) + text(xP + 38, (yS + yP) / 2 + 22, "(igual en los dos casos)", 12, "start", 800, fill=GRIS)
@@ -162,9 +162,9 @@ def curvas_t_ph():
     b += ejes(ox, y0, W, H, "pH", "actividad")
     for c, col, et in ((2 / 12, "#c0392b", "pepsina (≈2)"), (6.8 / 12, BLUE, "amilasa salival (≈7)"), (8 / 12, VERDE, "tripsina (≈8)")):
         b += campana(ox, y0, W, H, c, 0.08, col, 3.5)
-    b += text(ox + 2 / 12 * W, y0 + 18, "pepsina", 12, weight=900, fill="#c0392b") + text(ox + 2 / 12 * W, y0 + 32, "(estómago)", 11, weight=800, fill=GRIS)
+    b += text(ox + 2 / 12 * W + 30, y0 + 40, "pepsina", 12, "start", 900, fill="#c0392b") + text(ox + 2 / 12 * W + 30, y0 + 54, "(estómago)", 11, "start", 800, fill=GRIS)
     b += text(ox + 6.8 / 12 * W - 12, y0 + 6, "amilasa", 12, weight=900, fill=BLUE)
-    b += text(ox + 8 / 12 * W + 34, y0 + 32, "tripsina", 12, weight=900, fill=VERDE) + text(ox + 8 / 12 * W + 34, y0 + 46, "(intestino)", 11, weight=800, fill=GRIS)
+    b += text(ox + 8 / 12 * W + 30, y0 + 40, "tripsina", 12, "start", 900, fill=VERDE) + text(ox + 8 / 12 * W + 30, y0 + 54, "(intestino)", 11, "start", 800, fill=GRIS)
     for v in (2, 4, 6, 8, 10):
         b += text(ox + v / 12 * W, y0 + H + 18, str(v), 12, weight=800)
     b += text(450, 330, "Curvas cualitativas. Cada enzima tiene su temperatura y su pH óptimos.", 13, weight=700, fill=GRIS)
@@ -225,7 +225,7 @@ def inhibicion_curvas():
 def alosterismo():
     b = text(200, 28, "Enzima alostérica", 17, weight=900, fill=PRI)
     b += enzima(120, 80) + text(120, 190, "forma activa", 13, weight=900, fill=VERDE)
-    b += f'<rect x="{120 + 25}" y="{80 + 52}" width="30" height="20" rx="4" fill="#fff" stroke="{ENZ_S}" stroke-width="2"/>' + text(160, 230, "centro regulador", 12, weight=800, fill=GRIS)
+    b += f'<rect x="{120 + 25}" y="{80 + 52}" width="30" height="20" rx="4" fill="#fff" stroke="{ENZ_S}" stroke-width="2"/>' + f'<line x1="168" y1="153" x2="182" y2="200" stroke="{GRIS}" stroke-width="1.5"/>' + text(186, 214, "centro regulador", 12, "middle", 800, fill=GRIS)
     b += f'<line x1="200" y1="120" x2="250" y2="120" stroke="{INK}" stroke-width="3" marker-end="url(#fk)"/>' + text(225, 108, "+ inhibidor", 12, weight=900, fill=ROJO)
     b += enzima(330, 80, "deformado", "#c9d6c4", "#7b8a97")
     b += f'<rect x="{330 + 25}" y="{80 + 52}" width="30" height="20" rx="4" fill="#e76f51" stroke="#9c3b1f" stroke-width="2"/>'

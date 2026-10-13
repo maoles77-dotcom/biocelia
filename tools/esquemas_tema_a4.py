@@ -28,10 +28,10 @@ def linea(a, b, w=2.6, col=INK, extra=""):
 
 # ─── 1 · Aminoácido ────────────────────────────────────────────────────────
 def aminoacido():
-    b = estructura({"c": (230, 140, "C"), "h": (230, 70, "H"), "r": (230, 212, "R"), "n": (130, 140, "H₂N"), "co": (335, 140, "COOH")},
+    b = estructura({"c": (230, 140, "C"), "h": (230, 70, "H"), "r": (230, 212, "R"), "n": (112, 140, "H₂N"), "co": (345, 140, "COOH")},
                    [("c", "h", 1), ("c", "r", 1), ("c", "n", 1), ("c", "co", 1)], 28)
     b += text(250, 125, "α", 18, "start", 900, fill=ACC)
-    b += text(130, 185, "grupo amino", 15, weight=900, fill="#1f5fa8") + text(130, 203, "(básico)", 13, weight=700, fill=GRIS)
+    b += text(115, 185, "grupo amino", 15, weight=900, fill="#1f5fa8") + text(115, 203, "(básico)", 13, weight=700, fill=GRIS)
     b += text(335, 185, "grupo carboxilo", 15, weight=900, fill=ROJO) + text(335, 203, "(ácido)", 13, weight=700, fill=GRIS)
     b += text(230, 250, "radical o cadena lateral: distinto en cada aminoácido", 14, weight=800, fill=LILA)
     b += text(230, 30, "Carbono α unido a –NH₂, –COOH, H y R", 16, weight=900, fill=PRI)

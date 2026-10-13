@@ -71,7 +71,7 @@ def nucleotido():
     # base en C1'
     bpos = (480, v[1][1])
     b += linea(v[1], (bpos[0] - 40, bpos[1]), 3) + base_n(bpos[0], bpos[1], "A", 40)
-    b += text(400, bpos[1] - 34, "enlace", 13, weight=900, fill=ACC) + text(400, bpos[1] - 18, "N-glucosídico", 13, weight=900, fill=ACC)
+    b += text(392, bpos[1] - 34, "enlace", 13, weight=900, fill=ACC) + text(392, bpos[1] - 18, "N-glucosídico", 13, weight=900, fill=ACC)
     # OH en 2' y 3'
     p2, p3 = v[2], v[3]
     b += linea(p2, (p2[0], p2[1] + 30), 2.4) + text(p2[0], p2[1] + 46, "OH / H", 14, weight=900, fill=ROJO)
@@ -118,7 +118,7 @@ def cadena():
     b += text(340, 140, "enlace fosfodiéster:", 14, "start", 900, fill=ACC)
     b += text(340, 160, "fosfato entre el C3′ de un", 13, "start", 800, fill=GRIS) + text(340, 178, "nucleótido y el C5′ del siguiente", 13, "start", 800, fill=GRIS)
     b += text(340, 260, "La secuencia de bases", 14, "start", 900, fill=PRI) + text(340, 280, "(5′ → 3′) es la estructura", 13, "start", 800, fill=GRIS) + text(340, 298, "primaria y contiene", 13, "start", 800, fill=GRIS) + text(340, 316, "la información genética", 13, "start", 800, fill=GRIS)
-    save("cadena-polinucleotido.svg", svg(560, 520, b, "Cadena de nucleótidos unidos por enlaces fosfodiéster, con un extremo 5 con fosfato y un extremo 3 con OH"))
+    save("cadena-polinucleotido.svg", svg(560, 548, b, "Cadena de nucleótidos unidos por enlaces fosfodiéster, con un extremo 5 con fosfato y un extremo 3 con OH"))
 
 
 # ─── 4 · Doble hélice ──────────────────────────────────────────────────────
@@ -197,7 +197,7 @@ def empaquetamiento():
     for k in range(5):
         y = 70 + k * 20
         b += f'<path d="M580,{y} q40,-14 0,-4" fill="none" stroke="#b5600f" stroke-width="5"/>' if False else ""
-    b += '<path d="M570,110 C590,40 640,60 620,110 C600,160 650,170 660,110 C670,50 720,70 700,110" fill="none" stroke="#b5600f" stroke-width="6"/>'
+    b += '<path d="M570,108 C590,48 640,62 620,108 C600,138 650,146 660,108 C670,56 720,70 700,108" fill="none" stroke="#b5600f" stroke-width="6"/>'
     b += text(635, 160, "Bucles y más", 14, weight=900) + text(635, 178, "plegamientos", 12, weight=800, fill=GRIS)
     b += f'<line x1="715" y1="110" x2="745" y2="110" stroke="{INK}" stroke-width="2.5" marker-end="url(#fk)"/>'
     # 5 cromosoma metafásico

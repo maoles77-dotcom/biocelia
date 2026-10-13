@@ -149,9 +149,9 @@ def isomeria():
 def ciclacion():
     b = fischer(110, 60, "CHO", [("H", "OH"), ("HO", "H"), ("H", "OH"), ("H", "OH")], "CH₂OH", paso=46, nombre="D-glucosa", sub="forma lineal")
     b += text(150, 66, "C1", 13, "start", 800, fill=LILA) + text(18, 250, "C5", 13, "start", 800, fill=LILA)
-    b += f'<line x1="230" y1="180" x2="300" y2="140" stroke="{INK}" stroke-width="3" marker-end="url(#fk)"/>'
-    b += f'<line x1="230" y1="200" x2="300" y2="250" stroke="{INK}" stroke-width="3" marker-end="url(#fk)"/>'
-    b += text(265, 205, "ciclación", 14, weight=800, fill=GRIS)
+    b += f'<line x1="235" y1="168" x2="300" y2="135" stroke="{INK}" stroke-width="3" marker-end="url(#fk)"/>'
+    b += f'<line x1="235" y1="214" x2="300" y2="252" stroke="{INK}" stroke-width="3" marker-end="url(#fk)"/>'
+    b += text(262, 197, "ciclación", 14, weight=800, fill=GRIS)
     s1, _ = anillo(430, 120, PIRANOSA, GLC_A, 1.0, True, resalta=1)
     s2, _ = anillo(430, 300, PIRANOSA, GLC_B, 1.0, True, resalta=1)
     b += s1 + s2
