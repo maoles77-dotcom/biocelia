@@ -1,0 +1,221 @@
+{
+ "anio": 2003,
+ "curso": "2002-2003",
+ "carpeta": "PAU 2025/ACTIVIDADES POR TEMAS",
+ "etiqueta": "PAU 2003",
+ "documento": "PAU Andalucía 2003 (recopilación por temas)",
+ "origen_texto": "Pregunta de la PAU de Andalucía de 2003, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025",
+ "nota": "Preguntas de la PAU de Andalucía anteriores a 2010 que no estaban en el banco, tomadas de las recopilaciones por temas de PAU 2025/ACTIVIDADES POR TEMAS (que copian el enunciado y los criterios oficiales de cada año). No se conoce el examen concreto de cada pregunta: la referencia da su número en el examen. Palabras clave de los criterios entre ** y lo redactado por BioCelia entre (( )). Figuras recortadas de la recopilación a 200 ppp.",
+ "examenes": [
+  {
+   "id": "gm",
+   "nombre": "Genética molecular",
+   "enunciado": "GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+   "criterios": "GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+   "preguntas": [
+    {
+     "ref": "pregunta 7",
+     "bloque": "Genética",
+     "tema": "Transcripción y traducción con el código genético",
+     "puntos": 2,
+     "q": "Se presenta un fragmento de ADN; la flecha indica el sentido de lectura. Además se muestra el código genético. Conteste las siguientes cuestiones:<br>a) Indique la secuencia de bases del ARN mensajero transcrito [0,5] y la secuencia de aminoácidos de la proteína sintetizada [0,5].<br>b) ¿Cómo se llaman los procesos implicados en el apartado anterior? [0,5]. Si se conociese la secuencia de aminoácidos de una proteína, ¿se podría averiguar la secuencia de bases del ADN que la codifica? [0,5]. Razone la respuesta.",
+     "c": [
+      "a) ARNm: **AUGCCCUCUAGUGGAGUAAUCCACUGGUAA** (0,5 p).",
+      "Proteína: **Met-Pro-Ser-Ser-Gly-Val-Ile-His-Trp** (stop) (0,5 p).",
+      "b) **Transcripción** y **traducción** (0,5 p).",
+      "**No** se podría conocer la secuencia exacta (por ejemplo: **código degenerado**, **eliminación de intrones**; una sola razón basta para la máxima nota) (0,5 p)."
+     ],
+     "figura": "assets/figuras/historico/recopilaciones/gm2003-fragmento.webp",
+     "figuraDesc": "Fragmento de ADN TACGGGAGATCACCTCATTAGGTGACCATT con una flecha que indica el sentido de lectura, y tabla del código genético.",
+     "n": 1
+    },
+    {
+     "ref": "pregunta 6",
+     "bloque": "Genética",
+     "tema": "Replicación y reproducción sexual explican el parecido familiar",
+     "puntos": 1,
+     "q": "La semejanza que existe entre los hijos y sus padres es explicable por dos de los siguientes procesos: replicación, transcripción, traducción, reproducción sexual. Indique cuáles [0,2]. Razone la respuesta [0,8].",
+     "c": [
+      "Procesos: **replicación** y **reproducción sexual**. 0,1 p cada uno (0,2 p).",
+      "Justificación: la **replicación** es necesaria para la **duplicación del material genético** en los padres, y la **reproducción sexual** permite que el **ADN replicado pase de una generación a otra** (0,8 p)."
+     ],
+     "n": 2
+    },
+    {
+     "ref": "pregunta 7",
+     "bloque": "Genética",
+     "tema": "Experimento de Meselson y Stahl",
+     "puntos": 2,
+     "q": "La figura siguiente representa los resultados del experimento que Meselson y Stahl realizaron en relación con la replicación del ADN. Responda razonadamente las siguientes cuestiones:<br>a) Interprete esta experiencia a partir de sus conocimientos sobre la estructura del ADN y su mecanismo de replicación [1].<br>b) ¿Cuál sería el aspecto de un quinto tubo de centrifugación obtenido a partir del cultivo sobre medio con N¹⁵ tres generaciones después de su transferencia al medio con N¹⁴? ¿Qué aspecto tendría un sexto tubo de centrifugación obtenido a partir del cultivo sobre medio con N¹⁵ tras 100 generaciones después de su transferencia al medio con N¹⁴? [1].",
+     "c": [
+      "a) Conceptos clave: **doble hélice** de ADN e **hipótesis semiconservativa** de la replicación (1 p). ((Tras una generación en N¹⁴ todo el ADN es híbrido, con una cadena pesada y otra ligera; tras dos generaciones, la mitad es híbrido y la mitad ligero. Así se descartan los modelos conservativo y dispersivo.))",
+      "b) Tres generaciones: aparece una **banda estrecha de ADN híbrido** (con N¹⁵) y otra **más ancha de ADN ligero** (con N¹⁴) (0,5 p). ((Un 25 % híbrido y un 75 % ligero.))",
+      "Tras 100 generaciones: aparece **una sola banda ancha de ADN ligero** (con N¹⁴) (0,5 p). ((Las dos cadenas pesadas originales siguen existiendo, pero en una proporción despreciable.))"
+     ],
+     "figura": "assets/figuras/historico/recopilaciones/gm2003-meselson.webp",
+     "figuraDesc": "Cuatro tubos de centrifugación con bandas de ADN según su densidad (1,65 a 1,80 g/cm³): ADN de bacterias cultivadas en N¹⁴ (ligero), en N¹⁵ (pesado), una generación después de pasar de N¹⁵ a N¹⁴ y dos generaciones después.",
+     "n": 3
+    },
+    {
+     "ref": "pregunta 6",
+     "bloque": "Genética",
+     "tema": "Toxina diftérica y síntesis de proteínas",
+     "puntos": 1,
+     "q": "La difteria está producida por la acción de la toxina de Corynebacterium diphtheriae. La toxina impide la acción de la translocasa, enzima que favorece el movimiento del ARN mensajero en el ribosoma. El efecto de esta toxina puede matar a la célula. Explique razonadamente este hecho [1].",
+     "c": [
+      "Explicación razonada de que la toxina ocasiona la **detención de la síntesis proteica** (1 p). ((Sin translocación, el ribosoma no avanza al siguiente codón, la elongación se para y la célula se queda sin las proteínas que necesita.))"
+     ],
+     "n": 4
+    },
+    {
+     "ref": "pregunta 3",
+     "bloque": "Genética",
+     "tema": "Replicación: definición, proceso y carácter semiconservativo",
+     "puntos": 1.5,
+     "q": "Indique qué es la replicación [0,25]. Describa este proceso [1]. ¿Qué significa que la replicación es semiconservativa? [0,25].",
+     "c": [
+      "Replicación: **proceso de síntesis del ADN** (0,25 p).",
+      "Descripción del proceso (deberá incluir: **horquillas de replicación**, replicación **bidireccional**, replicación **continua de una hebra y discontinua de la otra**, papel fundamental de las **enzimas**) (1 p).",
+      "Semiconservativa: la molécula de ADN resultante posee **una cadena vieja y otra de nueva síntesis** (0,25 p)."
+     ],
+     "n": 5
+    },
+    {
+     "ref": "pregunta 7",
+     "bloque": "Genética",
+     "tema": "Traducción: estructuras, moléculas y papel de cada ARN",
+     "puntos": 2,
+     "q": "A la vista de la imagen, conteste las siguientes cuestiones:<br>a) ¿Qué proceso representa este esquema? [0,2]. Identifique las estructuras y las moléculas que aparecen en el dibujo [0,8].<br>b) Explique cómo se lleva a cabo el proceso representado [1].",
+     "c": [
+      "a) **Traducción** o síntesis proteica (0,2 p).",
+      "**Ribosoma**, **ARN mensajero**, **ARN transferente** y **aminoácidos** (0,8 p).",
+      "b) Se mencionarán todas las moléculas de ácido nucleico que intervienen (**ARN mensajero**, **ARN ribosómico** y **ARN transferente**) y la **función** que desempeña cada una (1 p). ((El ARNm aporta la secuencia de codones; el ARNr forma el ribosoma y cataliza el enlace peptídico; cada ARNt lleva un aminoácido y lo sitúa según el emparejamiento anticodón-codón.))"
+     ],
+     "figura": "assets/figuras/historico/recopilaciones/gm2003-traduccion.webp",
+     "figuraDesc": "Ribosoma desplazándose sobre un ARN mensajero; un ARN transferente se empareja por su anticodón con un codón y otro sale tras ceder su aminoácido; la cadena polipeptídica empieza por Met-Leu.",
+     "n": 6
+    },
+    {
+     "ref": "pregunta 3",
+     "bloque": "Genética",
+     "tema": "Traducción: definición, localización y etapas",
+     "puntos": 1.5,
+     "q": "Defina el proceso de traducción [0,4], indique dónde tiene lugar [0,1] y describa cómo se realiza [1].",
+     "c": [
+      "Definición (0,4 p). ((Síntesis de una cadena polipeptídica según la secuencia de codones de un ARN mensajero.))",
+      "Localización: **ribosomas** (0,1 p).",
+      "Descripción de las etapas: **iniciación**, **elongación** y **terminación** (1 p). ((Iniciación: la subunidad menor se une al ARNm y el ARNt iniciador con metionina se empareja con el codón AUG; luego se une la subunidad mayor. Elongación: entran ARNt según los codones, se forman enlaces peptídicos y el ribosoma se trasloca. Terminación: un codón de parada provoca la liberación del polipéptido.))"
+     ],
+     "n": 7
+    },
+    {
+     "ref": "pregunta 6",
+     "bloque": "Genética",
+     "tema": "Estreptomicina y síntesis de proteínas bacteriana",
+     "puntos": 1,
+     "q": "La estreptomicina impide que el primer ARN transferente se una al ribosoma bacteriano. Explique razonadamente su efecto antibiótico [1].",
+     "c": [
+      "Explicación razonada de que la estreptomicina ocasiona la **detención de la síntesis proteica bacteriana** (1 p). ((Bloquea la iniciación de la traducción en los ribosomas 70S; sin proteínas nuevas, la bacteria no puede crecer ni dividirse.))"
+     ],
+     "n": 8
+    }
+   ]
+  },
+  {
+   "id": "prot",
+   "nombre": "Proteínas",
+   "enunciado": "BIOMOLÉCULAS/04 PAU Proteinas.odt",
+   "criterios": "BIOMOLÉCULAS/04 PAU Proteinas.odt",
+   "preguntas": [
+    {
+     "ref": "pregunta 1",
+     "bloque": "Biomoléculas",
+     "tema": "Hidrólisis frente a desnaturalización de proteínas",
+     "puntos": 1.5,
+     "q": "Indique cuáles son las diferencias entre hidrólisis y desnaturalización de proteínas [0,5], enumerando los enlaces que se rompen en cada caso y los productos de ambos procesos [0,8]. Cite un agente que pueda hidrolizar y otro que pueda desnaturalizar las proteínas [0,2].",
+     "c": [
+      "**Nivel estructural afectado** (**primario** en la hidrólisis y **niveles superiores** en la desnaturalización) y el **grado de reversibilidad** de ambos procesos (0,5 p).",
+      "Hidrólisis: se rompe el **enlace peptídico**; productos: **péptidos y aminoácidos**. Desnaturalización: se rompen **enlaces débiles** (Van der Waals, puentes de hidrógeno, interacciones hidrofóbicas, etc.); producto: **proteínas desconfiguradas** (0,8 p).",
+      "Agentes hidrolíticos: **enzimas**, ácidos o bases; agentes desnaturalizantes: **calor**, **pH**, agentes químicos, etc. (0,2 p)."
+     ],
+     "n": 1
+    },
+    {
+     "ref": "pregunta 1",
+     "bloque": "Biomoléculas",
+     "tema": "Proteína: estructura primaria y secundaria",
+     "puntos": 1.5,
+     "q": "Defina el término proteína [0,25] y describa su estructura primaria [0,5] y secundaria [0,75] haciendo especial hincapié en los enlaces y las fuerzas que las estabilizan.",
+     "c": [
+      "Definición de proteína (0,25 p). ((Macromolécula formada por una o más cadenas de aminoácidos unidos por enlaces peptídicos.))",
+      "Estructura **primaria** y **enlace peptídico** (0,5 p). ((Secuencia de aminoácidos.))",
+      "Estructura **secundaria** y **puentes de hidrógeno**: **intercatenarios** (hoja plegada) e **intracatenarios** (α-hélice) (0,75 p)."
+     ],
+     "n": 2
+    },
+    {
+     "ref": "pregunta 7",
+     "bloque": "Biomoléculas",
+     "tema": "Hélice α: enlaces y comparación con la hoja plegada",
+     "puntos": 2,
+     "q": "A la vista de la imagen, conteste las siguientes cuestiones:<br>a) ¿Qué tipo de molécula o macromolécula le sugiere la figura adjunta? [0,25]. ¿Qué estructura representa? [0,25]. ¿Qué tipos de enlaces estabilizan el entramado molecular que se observa en la figura? [0,5].<br>b) ¿Qué otro tipo de estructura del mismo nivel de complejidad conoce? [0,2]. Analice las principales características de cada una de ellas [0,8].",
+     "c": [
+      "a) La figura representa la estructura de una **proteína** (0,25 p). Representa la estructura en **α-hélice** (0,25 p).",
+      "Enlaces **peptídicos** y **puentes de hidrógeno** entre zonas próximas de la cadena polipeptídica (0,5 p).",
+      "b) **Hoja plegada** (lámina β) (0,2 p).",
+      "Características y tipos de enlaces que participan (0,8 p). ((α-hélice: espiral dextrógira, unos 3,6 aminoácidos por vuelta, radicales hacia fuera y puentes de hidrógeno dentro de la misma cadena. Hoja β: segmentos de cadena extendidos en zigzag, dispuestos en paralelo o antiparalelo y unidos por puentes de hidrógeno entre segmentos, con los radicales alternativamente arriba y abajo.))"
+     ],
+     "figura": "assets/figuras/historico/recopilaciones/prot2003-helice.webp",
+     "figuraDesc": "Dibujo de una hélice α: el esqueleto de la cadena (–N–C–C(=O)–) se enrolla en espiral; los radicales, como esferas, apuntan hacia fuera y los puentes de hidrógeno entre vueltas se marcan como barras verdes.",
+     "n": 3
+    },
+    {
+     "ref": "pregunta 1",
+     "bloque": "Biomoléculas",
+     "tema": "Cinco funciones de las proteínas con ejemplos",
+     "puntos": 1.5,
+     "q": "Enumere [0,5] y describa cinco funciones de las proteínas ilustrando cada una con un ejemplo [1].",
+     "c": [
+      "Funciones: **estructural**, **transporte**, **enzimática**, **hormonal**, **defensa**, **contráctil**, **reserva**, etc. (0,5 p).",
+      "Estructural: citoesqueleto, **colágeno**, etc.; transporte: **hemoglobina**, seroalbúmina, etc.; enzimática: cualquier **enzima**; hormonal: **insulina**, tiroxina, etc.; defensa: **inmunoglobulinas**, trombina, etc.; contráctil: **miosina**, **actina**, etc.; reserva: caseína, **ovoalbúmina**, etc. Cada descripción con su ejemplo, 0,2 p (1 p). ((La tiroxina es una hormona derivada de un aminoácido, la tirosina, no una proteína en sentido estricto.))"
+     ],
+     "n": 4
+    }
+   ]
+  },
+  {
+   "id": "enz",
+   "nombre": "Enzimas",
+   "enunciado": "BIOMOLÉCULAS/05 PAU Enzimas.odt",
+   "criterios": "BIOMOLÉCULAS/05 PAU Enzimas.odt",
+   "preguntas": [
+    {
+     "ref": "pregunta 5",
+     "bloque": "Biomoléculas",
+     "tema": "Temperatura y rendimiento de la fotosíntesis",
+     "puntos": 1,
+     "q": "Durante la fotosíntesis se producen muchas reacciones enzimáticas. Al aumentar la temperatura se incrementa la intensidad fotosintética; sin embargo, las temperaturas altas pueden disminuir el rendimiento de la fotosíntesis. Dé una explicación razonada a estos hechos [1].",
+     "c": [
+      "Como proceso metabólico, la **intensidad fotosintética aumenta con la temperatura hasta un máximo**, y con las temperaturas altas **se desnaturalizan las enzimas** (1 p)."
+     ],
+     "n": 1
+    },
+    {
+     "ref": "pregunta 7",
+     "bloque": "Biomoléculas",
+     "tema": "Actividad de cuatro enzimas según el pH",
+     "puntos": 2,
+     "q": "La gráfica adjunta representa la evolución de la actividad de cuatro enzimas cuando se las somete a valores diferentes de pH. En relación con ella, conteste las siguientes cuestiones:<br>a) Compare e interprete de forma razonada el trazado de las distintas curvas de actividad [1].<br>b) Explique la diferencia existente entre los óptimos de actividad de la tripsina y de la pepsina teniendo en cuenta que una actúa en el estómago y otra en el intestino [0,5]. ¿Cómo influye el pH en la actividad enzimática de la papaína? Razone la respuesta [0,5].",
+     "c": [
+      "a) Debe explicarse el **trazado de las gráficas** y establecer **comparaciones** señalando diferencias entre ellas (1 p). ((La pepsina tiene su óptimo a pH muy ácido, en torno a 2, y se inactiva hacia pH 5-6. La tripsina tiene su óptimo hacia pH 8. La colinesterasa aumenta su actividad desde pH 5 y la mantiene alta en medio básico. La papaína tiene actividad constante en todo el intervalo.))",
+      "b) Los óptimos se explican por los **diferentes tramos digestivos** donde actúan, con **pH diferente** (0,5 p). ((La pepsina actúa en el estómago, de pH ácido, y la tripsina en el intestino delgado, de pH ligeramente básico.))",
+      "Debe indicarse la **independencia de la actividad de la papaína frente a las variaciones de pH** (0,5 p)."
+     ],
+     "figura": "assets/figuras/historico/recopilaciones/enz2003-ph.webp",
+     "figuraDesc": "Actividad relativa frente al pH (de 1 a 11) de cuatro enzimas: pepsina (máximo hacia pH 2), papaína (línea horizontal), colinesterasa (curva discontinua que sube desde pH 5 y se estabiliza) y tripsina (máximo hacia pH 8).",
+     "n": 2
+    }
+   ]
+  }
+ ]
+}

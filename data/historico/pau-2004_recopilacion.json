@@ -1,0 +1,144 @@
+{
+ "anio": 2004,
+ "curso": "2003-2004",
+ "carpeta": "PAU 2025/ACTIVIDADES POR TEMAS",
+ "etiqueta": "PAU 2004",
+ "documento": "PAU Andalucía 2004 (recopilación por temas)",
+ "origen_texto": "Pregunta de la PAU de Andalucía de 2004, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025",
+ "nota": "Preguntas de la PAU de Andalucía anteriores a 2010 que no estaban en el banco, tomadas de las recopilaciones por temas de PAU 2025/ACTIVIDADES POR TEMAS (que copian el enunciado y los criterios oficiales de cada año). No se conoce el examen concreto de cada pregunta: la referencia da su número en el examen. Palabras clave de los criterios entre ** y lo redactado por BioCelia entre (( )). Figuras recortadas de la recopilación a 200 ppp.",
+ "examenes": [
+  {
+   "id": "gm",
+   "nombre": "Genética molecular",
+   "enunciado": "GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+   "criterios": "GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+   "preguntas": [
+    {
+     "ref": "pregunta 3 (también en 2002, con otra puntuación)",
+     "bloque": "Genética",
+     "tema": "Componentes y estructura del ADN; esquema de la expresión génica",
+     "puntos": 2,
+     "q": "Enumere los componentes del ADN [0,3] y explique su estructura [1]. Indique de forma esquemática cómo se realiza la expresión de la información genética desde ADN a proteína [0,7].",
+     "c": [
+      "Composición: **desoxirribosa**, **bases nitrogenadas** y **ácido fosfórico** (0,3 p).",
+      "Estructura: explicación del **modelo de doble hélice** (1 p). ((Dos cadenas de nucleótidos antiparalelas enrolladas en hélice dextrógira, con las bases hacia dentro y emparejadas por puentes de hidrógeno, A con T y G con C, y los esqueletos de azúcar y fosfato hacia fuera.))",
+      "Esquema donde quede recogida la **transcripción** del ADN y la **traducción** del ARN (0,7 p). ((ADN → [transcripción] → ARNm → [traducción en los ribosomas] → proteína.))"
+     ],
+     "n": 1
+    },
+    {
+     "ref": "pregunta 2",
+     "bloque": "Genética",
+     "tema": "Mutación: tipos, efectos e importancia evolutiva",
+     "puntos": 2,
+     "q": "Exponga el concepto de mutación [0,6] y diferencie entre mutación espontánea e inducida [0,4]. ¿Qué efectos puede tener una mutación? [0,3]. ¿Por qué las mutaciones son importantes desde el punto de vista evolutivo? [0,7].",
+     "c": [
+      "Mutación: **cambios en el material genético** (0,6 p).",
+      "**Espontánea**: **sin causa aparente**; **inducida**: causada por **agentes mutagénicos** (0,4 p).",
+      "Efectos: **inocuos**, **beneficiosos** y **perjudiciales** (0,3 p).",
+      "Importancia evolutiva: **origen de nuevas variantes genéticas** (**variabilidad genética**) (0,7 p)."
+     ],
+     "n": 2
+    },
+    {
+     "ref": "pregunta 6",
+     "bloque": "Genética",
+     "tema": "ADN, ARN y proteína: diferencias entre ADN y ARN",
+     "puntos": 2,
+     "q": "En relación con la figura adjunta, conteste las siguientes cuestiones:<br>a) Identifique las moléculas 1, 2 y 3 [0,3] y los procesos A y B [0,2]. Identifique los elementos 4 y 5 [0,2]. ¿Qué significado tienen los números 5′ y 3′ y los grupos H₂N y COOH? [0,3].<br>b) ¿Qué diferencias relativas a la composición química [0,3], a la estructura [0,2] y a la función [0,5] existen entre las moléculas 1 y 2?",
+     "c": [
+      "a) 1: **ADN**; 2: **ARN mensajero**; 3: **proteína**. 0,1 p cada una (0,3 p).",
+      "A: **transcripción**; B: **traducción**. 0,1 p cada uno (0,2 p).",
+      "4: **bases nitrogenadas** (o nucleótidos); 5: **aminoácidos**. 0,1 p cada uno (0,2 p).",
+      "**Extremos 5′ y 3′** de las moléculas de ADN y ARN (0,1 p); extremos **amino terminal** y **carboxilo terminal** de un polipéptido (0,2 p).",
+      "b) Composición química: **distinto azúcar**, **timina en el ADN** y **uracilo en el ARN** (0,3 p).",
+      "Estructura: **ADN bicatenario**, **ARN monocatenario** (0,2 p).",
+      "Función: el ADN es **portador de la información genética** (almacenamiento y transmisión); el ARN interviene en la **transcripción y la traducción** (0,5 p)."
+     ],
+     "figura": "assets/figuras/historico/recopilaciones/gm2004-procesos.webp",
+     "figuraDesc": "Esquema: (1) ADN de doble cadena con extremos 5′ y 3′; flecha A hacia (2) una cadena de ARN 5′→3′ con sus bases (4); flecha B hacia (3) una proteína con extremos H₂N y COOH, formada por aminoácidos (5).",
+     "n": 3
+    },
+    {
+     "ref": "pregunta 5",
+     "bloque": "Genética",
+     "tema": "Fragmento génico: número de aminoácidos y deleciones",
+     "puntos": 1,
+     "q": "Un fragmento génico tiene la siguiente secuencia: 5′…AGGGCCAGATGAAAACGG…3′. ¿Cuántos aminoácidos tendrá el polipéptido que codifica? [0,2]. ¿Qué pasaría con la secuencia polipeptídica si una mutación provocase la pérdida del primer nucleótido (A)? [0,4]. ¿Y si la mutación suprimiese los tres primeros nucleótidos (AGG)? [0,4]. Razone las respuestas.",
+     "c": [
+      "**Seis aminoácidos** (0,2 p). ((18 nucleótidos / 3 = 6 codones.))",
+      "Perder la A produce un **cambio de la fase de lectura**, que daría lugar a una **proteína nueva**, probablemente **no funcional** (0,4 p).",
+      "Suprimir AGG hace que **se pierda el primer aminoácido**; la secuencia polipeptídica **puede mantener o no la función** (0,4 p)."
+     ],
+     "n": 4
+    },
+    {
+     "ref": "pregunta 5",
+     "bloque": "Genética",
+     "tema": "Mutaciones: perjudiciales para el individuo, clave para la evolución",
+     "puntos": 1,
+     "q": "Las mutaciones generalmente son perniciosas para el individuo que las sufre; sin embargo, desde el punto de vista evolutivo son muy importantes. Explique razonadamente esta aparente contradicción [1].",
+     "c": [
+      "Explicación razonada del **efecto pernicioso** (0,5 p). ((La mayoría altera proteínas que ya funcionaban bien.))",
+      "**Importancia evolutiva** (0,5 p). ((Son la fuente última de variabilidad genética: las pocas mutaciones favorables son seleccionadas y permiten la adaptación y la evolución.))"
+     ],
+     "n": 5
+    }
+   ]
+  },
+  {
+   "id": "prot",
+   "nombre": "Proteínas",
+   "enunciado": "BIOMOLÉCULAS/04 PAU Proteinas.odt",
+   "criterios": "BIOMOLÉCULAS/04 PAU Proteinas.odt",
+   "preguntas": [
+    {
+     "ref": "pregunta 6",
+     "bloque": "Biomoléculas",
+     "tema": "Hélice α: componentes, enlace peptídico y estructura terciaria",
+     "puntos": 2,
+     "q": "En relación con la figura adjunta, conteste las siguientes cuestiones:<br>a) Identifique la macromolécula que representa [0,2], indique cuáles son sus componentes esenciales [0,2] y describa el enlace que se establece entre ellos [0,3] citando dos características del mismo [0,3].<br>b) Nombre y describa la estructura espacial de la macromolécula representada [0,5]. Cite alguna otra estructura espacial de mayor complejidad que pueda adoptar la misma macromolécula [0,1] y descríbala [0,4].",
+     "c": [
+      "((a) Una **proteína** o cadena polipeptídica (0,2 p). Sus componentes son los **aminoácidos** (0,2 p).))",
+      "((Enlace **peptídico**: enlace covalente entre el grupo carboxilo de un aminoácido y el grupo amino del siguiente, con pérdida de una molécula de agua (0,3 p). Características: carácter parcial de doble enlace, por lo que no permite el giro, y átomos del enlace en un mismo plano (0,3 p).))",
+      "((b) **Hélice α**: la cadena se enrolla en espiral dextrógira, con unos 3,6 aminoácidos por vuelta y los radicales hacia fuera; se estabiliza por puentes de hidrógeno entre el C=O de un aminoácido y el N–H del que está cuatro posiciones más allá (0,5 p).))",
+      "((Una estructura de mayor complejidad: la **terciaria** (o la cuaternaria) (0,1 p). La terciaria es el plegamiento tridimensional de la cadena completa, mantenido por interacciones entre radicales: puentes disulfuro, puentes de hidrógeno, interacciones iónicas e hidrofóbicas (0,4 p).))"
+     ],
+     "figura": "assets/figuras/historico/recopilaciones/prot2004-helice.webp",
+     "figuraDesc": "Modelo tridimensional de una hélice α: el esqueleto de la cadena se enrolla en espiral con los radicales (R) hacia fuera y los puentes de hidrógeno entre vueltas marcados con líneas de puntos.",
+     "n": 1
+    }
+   ]
+  },
+  {
+   "id": "enz",
+   "nombre": "Enzimas",
+   "enunciado": "BIOMOLÉCULAS/05 PAU Enzimas.odt",
+   "criterios": "BIOMOLÉCULAS/05 PAU Enzimas.odt",
+   "preguntas": [
+    {
+     "ref": "pregunta 4",
+     "bloque": "Biomoléculas",
+     "tema": "Desnaturalización reversible por temperatura",
+     "puntos": 1,
+     "q": "En un ensayo enzimático se produjo, accidentalmente, una elevación brusca de la temperatura y se detuvo la actividad enzimática. Al bajar la temperatura se recuperó la actividad enzimática. Explique razonadamente este hecho [1].",
+     "c": [
+      "La elevación de la temperatura **desnaturaliza la enzima**. La bajada de la temperatura permite la **renaturalización** y se **recupera la actividad** enzimática (1 p). ((La desnaturalización fue reversible: no se rompieron enlaces covalentes y la enzima recuperó su forma nativa.))"
+     ],
+     "n": 1
+    },
+    {
+     "ref": "pregunta 4",
+     "bloque": "Biomoléculas",
+     "tema": "Catalasa y ácido clorhídrico",
+     "puntos": 1,
+     "q": "La catalasa es una enzima que transforma el peróxido de hidrógeno en oxígeno y agua. Si en un tubo de ensayo introducimos catalasa y le añadimos agua oxigenada se produce la emisión de burbujas de oxígeno. Si al mismo tubo de ensayo se le añaden unas gotas de ácido clorhídrico se interrumpe la emisión. Proponga una explicación a este hecho [1].",
+     "c": [
+      "((El ácido clorhídrico baja bruscamente el pH, que se aleja mucho del óptimo de la catalasa. La enzima se desnaturaliza o, al menos, su centro activo se altera, pierde su actividad y deja de descomponer el peróxido de hidrógeno, así que cesa el desprendimiento de O₂ (1 p).))"
+     ],
+     "n": 2
+    }
+   ]
+  }
+ ]
+}

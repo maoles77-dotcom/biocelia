@@ -1,0 +1,249 @@
+{
+ "anio": 2006,
+ "curso": "2005-2006",
+ "carpeta": "PAU 2025/ACTIVIDADES POR TEMAS",
+ "etiqueta": "PAU 2006",
+ "documento": "PAU Andalucía 2006 (recopilación por temas)",
+ "origen_texto": "Pregunta de la PAU de Andalucía de 2006, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025",
+ "nota": "Preguntas de la PAU de Andalucía anteriores a 2010 que no estaban en el banco, tomadas de las recopilaciones por temas de PAU 2025/ACTIVIDADES POR TEMAS (que copian el enunciado y los criterios oficiales de cada año). No se conoce el examen concreto de cada pregunta: la referencia da su número en el examen. Palabras clave de los criterios entre ** y lo redactado por BioCelia entre (( )). Figuras recortadas de la recopilación a 200 ppp.",
+ "examenes": [
+  {
+   "id": "gm",
+   "nombre": "Genética molecular",
+   "enunciado": "GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+   "criterios": "GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+   "preguntas": [
+    {
+     "ref": "pregunta 6",
+     "bloque": "Genética",
+     "tema": "Flujo de la información genética: procesos y enzimas",
+     "puntos": 2,
+     "q": "En relación con la figura adjunta que representa el flujo de la información genética, responda las siguientes cuestiones:<br>a) Nombre cada uno de los procesos biológicos que se indican con las letras a, b, c y d [0,4]. Relacione cada uno de estos procesos con: ARN polimerasa dependiente de ADN, ribosomas, ADN polimerasa, anticodón, transcriptasa inversa, aminoácidos, ARN transferente y cebadores de ARN [0,6].<br>b) Exponga la función de cada uno de estos procesos [1].",
+     "c": [
+      "a) a: **replicación** del ADN; b: **transcripción**; c: **transcripción inversa**; d: **traducción** (0,4 p).",
+      "Replicación: **ADN polimerasa** y **cebadores de ARN** (0,2 p). Transcripción: **ARN polimerasa dependiente de ADN** (0,1 p). Transcripción inversa: **transcriptasa inversa** (0,1 p). Traducción: **aminoácidos**, **ARNt**, **ribosomas** y **anticodón** (0,2 p).",
+      "b) Replicación: **duplicación del material genético**, imprescindible para su perpetuación y reparto en la división celular (0,25 p).",
+      "Transcripción: **copia del ADN en los diferentes tipos de ARN** necesarios para la expresión de la información genética (0,25 p).",
+      "Transcripción inversa: **copia del ARN en ADN**, utilizada por los **virus con genoma de ARN** en su ciclo vital (0,25 p).",
+      "Traducción: el mensaje del **ARNm** es leído mediante un código que asigna a cada **triplete** un **aminoácido**; es el proceso por el que se produce la **síntesis de proteínas** (0,25 p)."
+     ],
+     "figura": "assets/figuras/historico/recopilaciones/gm2006-flujo.webp",
+     "figuraDesc": "Esquema del flujo de información: una flecha circular (a) sobre el ADN, una flecha b de ADN a ARN, una flecha c de ARN a ADN y una flecha d de ARN a polipéptido.",
+     "n": 1
+    },
+    {
+     "ref": "pregunta 5",
+     "bloque": "Genética",
+     "tema": "Tamaño del ARNm, anticodones y ADN molde",
+     "puntos": 1,
+     "q": "a) Si un polipéptido tiene 450 aminoácidos, indique cuántos ribonucleótidos tendrá el fragmento del ARN mensajero que codifica esos aminoácidos [0,2]. b) Indique cuáles serán los anticodones de los ARN transferentes correspondientes a la molécula de ARNm 5′-GUU-UUC-GCA-UGG-3′ [0,4]. c) Indique la secuencia de ADN que sirvió de molde para este mismo ARN mensajero [0,4].",
+     "c": [
+      "a) 450 × 3 = **1350 ribonucleótidos** (0,2 p).",
+      "b) **CAA, AAG, CGU, ACC** (0,4 p). ((Cada anticodón es complementario y antiparalelo a su codón: por eso se escriben aquí en sentido 3′→5′.))",
+      "c) **3′-CAAAAGCGTACC-5′** (0,4 p)."
+     ],
+     "n": 2
+    },
+    {
+     "ref": "pregunta 6",
+     "bloque": "Genética",
+     "tema": "ADN: nucleótidos, antiparalelismo y replicación",
+     "puntos": 2,
+     "q": "En relación con la figura adjunta, responda las siguientes cuestiones:<br>a) Nombre el tipo de molécula de que se trata [0,25]. ¿Cómo se denominan sus monómeros [0,2] y cuál es su composición? [0,3]. Considerando la molécula en sentido longitudinal, las notaciones 3′ y 5′ se sitúan en posiciones opuestas. Explique el significado de este hecho [0,25].<br>b) ¿Cómo se denomina el proceso por el cual esta molécula se duplica? [0,2]. Explíquelo brevemente [0,8].",
+     "c": [
+      "a) **ADN** (0,25 p). Monómeros: **nucleótidos** (0,2 p). Composición: **ácido fosfórico**, **pentosa** (desoxirribosa) y **base nitrogenada** (0,3 p).",
+      "Las notaciones opuestas se deben a que **las cadenas son antiparalelas** (0,25 p).",
+      "b) **Replicación** (0,2 p).",
+      "Para la máxima puntuación deben mencionarse: **ADN**, **origen de replicación**, cadenas **adelantada y retrasada**, **cebador**, **fragmento de Okazaki**, **ADN polimerasa** y **ligasa** (0,8 p)."
+     ],
+     "figura": "assets/figuras/historico/recopilaciones/gm2006-adn.webp",
+     "figuraDesc": "Dos representaciones del ADN: a la izquierda, un esquema de las dos cadenas con sus extremos 5′ y 3′ opuestos y las bases unidas; a la derecha, la doble hélice con sus medidas (34 Å por vuelta, 3,4 Å entre pares de bases y 20 Å de diámetro).",
+     "n": 3
+    },
+    {
+     "ref": "pregunta 4",
+     "bloque": "Genética",
+     "tema": "Universalidad del código y expresión de genes en otro organismo",
+     "puntos": 1,
+     "q": "¿Qué característica tiene el código genético que permite que un gen de un organismo se pueda expresar en otro? [1]. Razone la respuesta.",
+     "c": [
+      "La respuesta debe aludir fundamentalmente al **carácter universal del código** (1 p): ((un mismo codón se traduce por el mismo aminoácido en casi todos los organismos, así que la proteína obtenida es la misma.))"
+     ],
+     "n": 4
+    },
+    {
+     "ref": "pregunta 5",
+     "bloque": "Biotecnología",
+     "tema": "Transferencia nuclear: a quién se parece el clon",
+     "puntos": 1,
+     "q": "A un óvulo de una hembra A se le elimina su núcleo y se le introduce el núcleo de una célula somática de un individuo B, y posteriormente se implanta en el útero de una hembra C. Si los individuos A, B y C son de la misma especie, ¿a quién se parecerán las características genéticas del individuo resultante? [1]. Razone la respuesta.",
+     "c": [
+      "Se parecerá al **individuo B**, por proceder de él el **material genético** (del núcleo) (1 p). ((El óvulo de A solo aporta el citoplasma, con su ADN mitocondrial, y C solo aporta el útero.))"
+     ],
+     "n": 5
+    },
+    {
+     "ref": "pregunta 4",
+     "bloque": "Genética",
+     "tema": "Verdadero o falso: mutación, maduración, replicación y código",
+     "puntos": 1,
+     "q": "Indique si las afirmaciones siguientes son ciertas o falsas, razonando la respuesta:<br>a) Si en un ARNm se introduce un uracilo en la posición donde debería colocarse una citosina se produce una mutación [0,25].<br>b) En eucariotas el ARNm puede ser traducido nada más sintetizarse [0,25].<br>c) En una horquilla de replicación las dos hebras del ADN se replican en sentido 5′→3′ [0,25].<br>d) Si dos genes tienen secuencias de tripletes diferentes codificarán siempre cadenas peptídicas diferentes [0,25].",
+     "c": [
+      "a) **Falsa**: un cambio en el ARNm no es una mutación; las mutaciones son **cambios en el ADN** (0,25 p).",
+      "b) **Falsa**: en eucariotas la síntesis del ARNm y su **maduración** se producen **dentro del núcleo**, y debe salir de él para ser traducido en el citoplasma (0,25 p).",
+      "c) **Verdadera**: las ADN polimerasas sintetizan en **sentido 5′→3′**. Por ello una hebra se sintetiza de forma **continua** (adelantada) y la otra de forma **fragmentada** (retrasada, **fragmentos de Okazaki**) (0,25 p).",
+      "d) **Falsa**: el código genético es **degenerado**, es decir, varios tripletes diferentes pueden codificar el **mismo aminoácido** (0,25 p)."
+     ],
+     "n": 6
+    },
+    {
+     "ref": "pregunta 4 (también en 2003; en 2002, con menos términos)",
+     "bloque": "Genética",
+     "tema": "Texto con los términos del flujo de información genética",
+     "puntos": 1,
+     "q": "Redacte un texto en el que se relacionen de forma coherente los siguientes términos: aminoácidos, poros nucleares, ARN mensajero, ARN transferente, ribosomas, código genético, ADN y proteínas [1].",
+     "c": [
+      "Cualquier redacción coherente que relacione los términos con el **flujo de información genética** (1 p).",
+      "((Ejemplo: en el núcleo, el ADN se transcribe a ARN mensajero, que sale al citoplasma por los poros nucleares. En los ribosomas, el ARN mensajero se traduce según el código genético: cada ARN transferente lleva un aminoácido y lo coloca según su anticodón, y los aminoácidos se unen formando las proteínas.))"
+     ],
+     "n": 7
+    }
+   ]
+  },
+  {
+   "id": "prot",
+   "nombre": "Proteínas",
+   "enunciado": "BIOMOLÉCULAS/04 PAU Proteinas.odt",
+   "criterios": "BIOMOLÉCULAS/04 PAU Proteinas.odt",
+   "preguntas": [
+    {
+     "ref": "pregunta 6",
+     "bloque": "Biomoléculas",
+     "tema": "Formación de un dipéptido",
+     "puntos": 2,
+     "q": "A la vista de la imagen adjunta, responda las siguientes cuestiones:<br>a) ¿Qué tipo de biomoléculas están representadas en la primera parte de la ecuación? [0,1]. ¿Cuáles son sus principales características? [0,4]. ¿Qué representan R₁ y R₂? [0,1]. ¿Qué nombre recibe el enlace que se produce? [0,2]. Indique la procedencia de los átomos de hidrógeno y de oxígeno de la molécula de agua que se libera en la reacción [0,2].<br>b) ¿Qué nombre recibe la molécula resultante en el esquema? [0,1]. ¿Qué orgánulo está implicado en la formación de este enlace? [0,2]. ¿Qué nombre reciben las moléculas formadas por gran cantidad de monómeros unidos por enlaces de este tipo? [0,1]. Enumere tres de sus funciones [0,6].",
+     "c": [
+      "a) **Aminoácidos** (0,1 p).",
+      "Tienen un **grupo amino** y uno **carboxilo**; se diferencian por sus **radicales**, que pueden ser polares, apolares, alifáticos, aromáticos, etc.; los aminoácidos proteicos **no sobrepasan la veintena** (0,4 p).",
+      "R₁ y R₂: las **cadenas laterales o radicales** que diferencian a unos aminoácidos de otros (0,1 p).",
+      "**Enlace peptídico** (0,2 p). El agua procede de **un hidrógeno del grupo amino** y **un hidroxilo del grupo carboxilo** (0,2 p).",
+      "b) **Dipéptido** (0,1 p). Orgánulo: **ribosomas** (0,2 p). **Polipéptidos o proteínas** (0,1 p).",
+      "Funciones: **transportadora**, **catalítica**, **estructural**, **reguladora**, reconocimiento celular, etc. 0,2 p cada función (0,6 p)."
+     ],
+     "figura": "assets/figuras/historico/recopilaciones/prot2006-dipeptido.webp",
+     "figuraDesc": "Reacción: dos aminoácidos (con sus radicales R₁ y R₂) se unen liberando una molécula de agua y forman un dipéptido con el enlace –CO–NH–.",
+     "n": 1
+    }
+   ]
+  },
+  {
+   "id": "met",
+   "nombre": "Metabolismo",
+   "enunciado": "METABOLISMO/08 PAU Metabolismo.odt",
+   "criterios": "METABOLISMO/08 PAU Metabolismo.odt",
+   "preguntas": [
+    {
+     "ref": "pregunta 6",
+     "bloque": "Metabolismo",
+     "tema": "Fase luminosa en la membrana del tilacoide",
+     "puntos": 2,
+     "q": "En relación con la imagen adjunta, responda las siguientes cuestiones:<br>a) ¿Qué proceso biológico se representa en la figura? [0,2]. ¿Cuál es su finalidad? [0,5]. ¿Qué tipo de células lo llevan a cabo? [0,3].<br>b) Indique qué corresponde a cada número [1].",
+     "c": [
+      "a) **Fotosíntesis** (0,2 p). ((Concretamente, su fase luminosa.))",
+      "Finalidad: **conversión de energía luminosa en energía química** (0,5 p).",
+      "**Células vegetales** y **algunas bacterias**. 0,15 p cada una (0,3 p).",
+      "b) 1 y 2: **fotones de luz** (0,1 p); 3: **NADP⁺** (0,15 p); 4: **NADPH** (0,15 p); 5: **H₂O** (0,15 p); 6: **O₂** (0,15 p); 7: **ADP** (0,15 p); 8: **ATP** (0,15 p) (1 p)."
+     ],
+     "figura": "assets/figuras/historico/recopilaciones/met2006-fotofosforilacion.webp",
+     "figuraDesc": "Esquema de la membrana de un tilacoide: la luz (1 y 2) excita dos fotosistemas; los electrones pasan por una cadena de transportadores hasta reducir 3 a 4; el agua (5) se rompe liberando 6 y H⁺; los protones acumulados en el interior del tilacoide salen por la ATP sintasa, que transforma 7 en 8.",
+     "n": 1
+    },
+    {
+     "ref": "pregunta 4",
+     "bloque": "Metabolismo",
+     "tema": "Sacarosa, bacterias bucales y caries",
+     "puntos": 1,
+     "q": "En alimentación se utiliza habitualmente azúcar blanco, que está constituido por sacarosa. Su utilización exige una cuidada higiene de la cavidad bucal para evitar corrosiones ácidas del esmalte dental que son conocidas como caries. Explique razonadamente el proceso que provoca la aparición de ácidos corrosivos a partir de residuos de sacarosa [1].",
+     "c": [
+      "La corrosión del esmalte la provoca la **metabolización de los residuos de sacarosa** por la **microbiota bucal** en condiciones **anaerobias y/o fermentativas** (1 p). ((La fermentación láctica produce ácido láctico, que baja el pH y disuelve el esmalte.))"
+     ],
+     "n": 2
+    }
+   ]
+  },
+  {
+   "id": "mic",
+   "nombre": "Microbiología",
+   "enunciado": "INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
+   "criterios": "INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
+   "preguntas": [
+    {
+     "ref": "pregunta 3",
+     "bloque": "Microbiología",
+     "tema": "Semmelweis y la fiebre puerperal",
+     "puntos": 1,
+     "q": "En el siglo XIX el doctor Ignaz Semmelweis, haciendo estudios comparativos en dos hospitales sobre las fiebres que padecían las mujeres después del parto, encontró que en un hospital el 10 % de las mujeres que habían sido atendidas por cirujanos morían, mientras que en el otro hospital, donde las mujeres eran atendidas solo por comadronas (mujeres que atendían los partos), la mortalidad era del 4 %. También observó que algunos cirujanos del primer hospital solían atender a las parturientas después de realizar autopsias (examinar cadáveres). ¿Qué explicación científica le daría a la diferencia en el porcentaje de mortalidad entre los dos hospitales? [0,5]. ¿Qué recomendación hubiera dado usted, sin modificar la actividad de los cirujanos, para disminuir el porcentaje de muertes en el primer hospital? [0,5]. Razone las respuestas.",
+     "c": [
+      "Relación entre las **autopsias** y la atención a las parturientas **sin la debida asepsia**: los propios **cirujanos eran los transmisores de las infecciones** que causaban la elevada mortalidad (0,5 p).",
+      "Cualquier recomendación que implique la **desinfección del material y de las manos** de los cirujanos que atendían partos después de las autopsias (0,5 p)."
+     ],
+     "n": 1
+    },
+    {
+     "ref": "pregunta 4",
+     "bloque": "Microbiología",
+     "tema": "Clasificación de los microorganismos",
+     "puntos": 2,
+     "q": "Realice una clasificación de los cinco tipos principales de microorganismos indicando el criterio utilizado [0,5]. Cite tres características de cada tipo que permitan distinguirlos entre sí [1,5].",
+     "c": [
+      "Criterio: **organización celular**. Formas **acelulares**: virus, viroides y priones. Formas **celulares** **procariotas**: bacterias; **eucariotas**: algas, hongos y protozoos (0,5 p).",
+      "Características (1,5 p): virus, **un solo tipo de ácido nucleico**; bacterias, **unicelulares** y división por **bipartición**; algas, uni o pluricelulares y **fotosintéticas**; hongos, uni o pluricelulares, **heterótrofos** con nutrición **por absorción**; protozoos, **unicelulares** y heterótrofos. ((Hacen falta tres por grupo; por ejemplo, para los virus: acelulares, parásitos obligados y sin metabolismo propio.))"
+     ],
+     "n": 2
+    },
+    {
+     "ref": "pregunta 5",
+     "bloque": "Microbiología",
+     "tema": "Un antibiótico contra los ribosomas 70S",
+     "puntos": 1,
+     "q": "Suponga que existe un antibiótico, llamado «ribosomicina», que inhibe la síntesis de proteínas porque impide la actividad de los ribosomas 70S. Dado que las bacterias tienen este tipo de ribosomas, ¿se podría utilizar la ribosomicina para combatir infecciones bacterianas en los seres humanos? [0,5]. ¿Sería recomendable este antibiótico en el caso de una infección vírica? [0,5]. Razone las respuestas.",
+     "c": [
+      "**No es aconsejable**, ya que los **ribosomas 70S** también están en las **mitocondrias** y se paralizarían las funciones mitocondriales (0,5 p).",
+      "**No**, porque los **virus carecen de ribosomas** y no tendría ninguna utilidad frente a ellos (0,5 p)."
+     ],
+     "n": 3
+    },
+    {
+     "ref": "pregunta 6",
+     "bloque": "Microbiología",
+     "tema": "Estructura de un bacteriófago y de la bacteria que infecta",
+     "puntos": 2,
+     "q": "Describa la organización estructural de un bacteriófago [1] y la de la célula a la que infecta [1].",
+     "c": [
+      "Bacteriófago: un **ácido nucleico** (ADN o ARN, nunca los dos), una **cápsida proteica** formada por **capsómeros** que lo rodea (1 p). ((El criterio de la recopilación añade una envoltura membranosa, pero la mayoría de los bacteriófagos, como el T4, no la tienen; el T4 tiene cabeza y una cola con vaina contráctil, placa basal y fibras.))",
+      "La célula infectada es una **bacteria**: **cápsula**, **pared**, **membrana plasmática**, citoplasma con **ribosomas 70S** e inclusiones, **cromosoma**, **plásmidos**, pili y **flagelos** (1 p)."
+     ],
+     "n": 4
+    },
+    {
+     "ref": "pregunta 7",
+     "bloque": "Microbiología",
+     "tema": "Bacteria llena de fagos T4: ciclo lítico",
+     "puntos": 2,
+     "q": "La imagen representa una bacteria en cuyo interior se aprecian muchos fagos T4. Responda razonadamente las siguientes cuestiones:<br>a) Dibuje la estructura del bacteriófago T4 e indique qué tipo de ácido nucleico tiene [0,5]. ¿Por qué este virus parasita a un solo tipo de bacterias y no a otros? [0,2]. Indique una causa por la que un virus debe ser parásito [0,3].<br>b) Indique qué tipo de ciclo vital está realizando el virus [0,2]. ¿Qué fase de ese ciclo se corresponde con la imagen? Razone la respuesta [0,3]. Describa dicha fase [0,5].",
+     "c": [
+      "a) Dibujo de un virus de estructura compleja: **cabeza** (cápsida y **ADN**) (0,2 p) y **cola** (vaina y placa basal con fibras) (0,3 p) (0,5 p).",
+      "Porque necesita **receptores específicos** a los que se unan las **fibras de la cola** (0,2 p).",
+      "**Incapacidad de replicar su material genético** por sí mismo, **ausencia de orgánulos**, etc. (0,3 p).",
+      "b) **Ciclo lítico** (0,2 p).",
+      "Fase de **ensamblaje** (maduración), porque es la única en la que se ven **partículas víricas ya formadas** y preparadas para salir (0,3 p).",
+      "**Unión de los componentes sintetizados**: cada molécula de ADN vírico se rodea de su **cápsida** y después se ensambla con la **cola** (vaina contráctil y placa basal con fibras) (0,5 p)."
+     ],
+     "figura": "assets/figuras/historico/recopilaciones/mic2006-t4.webp",
+     "figuraDesc": "Dibujo de una bacteria con forma de bastón llena de pequeños fagos T4 en su interior.",
+     "n": 5
+    }
+   ]
+  }
+ ]
+}

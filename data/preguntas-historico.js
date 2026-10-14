@@ -1,11 +1,2469 @@
 /* ══════════════════════════════════════════════════════════════
    Generado por tools/generar_banco_historico.py el 2026-10-14.
    NO editar a mano: se regenera desde data/historico/pau-*.json.
-   1367 preguntas para Entrenamiento y 1047 para Simulacro,
+   1459 preguntas para Entrenamiento y 1114 para Simulacro,
    de exámenes PAU oficiales con sus criterios de corrección.
    ══════════════════════════════════════════════════════════════ */
 window.BIOCELIA_HISTORICO = {
  "entrenamiento": [
+  {
+   "id": "pau2002-gm-1",
+   "block": "Biotecnología",
+   "topic": "Proyecto Genoma Humano: ventajas e inconvenientes",
+   "anio": 2002,
+   "etiqueta": "PAU 2002",
+   "hasImg": false,
+   "puntos": 1.5,
+   "competencial": false,
+   "q": "Explique en qué consiste el proyecto Genoma Humano [0,7]. Describa dos ventajas y dos inconvenientes de su utilización [0,8].",
+   "c": [
+    "<mark class=\"clave-criterio\">Localización y secuenciación de genes humanos</mark> (0,7 p).",
+    "Ventajas: <mark class=\"clave-criterio\">curaciones</mark>, <mark class=\"clave-criterio\">farmacología moderna</mark>, etc. 0,2 p cada una (0,4 p).",
+    "Inconvenientes: clonaciones incontroladas, <mark class=\"clave-criterio\">utilización lucrativa</mark> de estos conocimientos, efectos secundarios desconocidos, <mark class=\"clave-criterio\">discriminación social</mark>, etc. 0,2 p cada uno (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2002 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 3",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2002,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2002, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 3, 1,5 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2002-gm-2",
+   "block": "Genética",
+   "topic": "Mutación: consecuencias, tipos y agentes mutagénicos",
+   "anio": 2002,
+   "etiqueta": "PAU 2002",
+   "hasImg": false,
+   "puntos": 1.5,
+   "competencial": false,
+   "q": "Exponga el concepto de mutación [0,4] y explique sus consecuencias [0,4]. Indique la diferencia entre las mutaciones espontáneas e inducidas [0,3] y cite dos ejemplos de agentes mutagénicos [0,4].",
+   "c": [
+    "Concepto (0,4 p). <span class=\"redactado\">Alteración en el material genético.</span>",
+    "Consecuencias (<mark class=\"clave-criterio\">evolutivas</mark> y <mark class=\"clave-criterio\">perjudiciales</mark>) (0,4 p).",
+    "Diferencia (0,3 p). <span class=\"redactado\">Las espontáneas surgen sin causa externa aparente, por ejemplo por errores de replicación; las inducidas las provocan agentes mutagénicos.</span>",
+    "Ejemplos: cualquier agente <mark class=\"clave-criterio\">físico</mark>, <mark class=\"clave-criterio\">químico</mark> o <mark class=\"clave-criterio\">biológico</mark>. 0,2 p cada uno (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2002 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 3",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2002,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2002, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 3, 1,5 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2002-gm-3",
+   "block": "Biotecnología",
+   "topic": "Mejora genética clásica frente a ingeniería genética",
+   "anio": 2002,
+   "etiqueta": "PAU 2002",
+   "hasImg": false,
+   "puntos": 1.5,
+   "competencial": false,
+   "q": "Explique el fundamento de la mejora genética clásica mediante selección artificial [0,75] y exponga tres diferencias con la mejora mediante ingeniería genética [0,75].",
+   "c": [
+    "Selección artificial: <mark class=\"clave-criterio\">seleccionar los mejores fenotipos como reproductores</mark> en <mark class=\"clave-criterio\">generaciones sucesivas</mark> (0,75 p).",
+    "Diferencias, por ejemplo: se utilizan las <mark class=\"clave-criterio\">técnicas de ADN recombinante</mark>, <mark class=\"clave-criterio\">no se requieren muchas generaciones</mark>, se pueden utilizar <mark class=\"clave-criterio\">genes de otra especie</mark>, etc. (0,75 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2002 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 3",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2002,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2002, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 3, 1,5 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2002-gm-4",
+   "block": "Genética",
+   "topic": "Mutación en una célula que se divide y efecto en la proteína",
+   "anio": 2002,
+   "etiqueta": "PAU 2002",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "Por la acción de un mutágeno se produce la sustitución de una base por otra en una de las cadenas de un gen que codifica una proteína. Sin que se produzca reparación tienen lugar sucesivas divisiones celulares. ¿Presentan todas las células descendientes la mutación? ¿Por qué? [0,5]. Explique en qué medida puede verse afectada la funcionalidad de la proteína sintetizada en una de las células mutantes [0,5].",
+   "c": [
+    "Respuesta razonada: <mark class=\"clave-criterio\">no</mark>, al presentarse el ADN mutado <mark class=\"clave-criterio\">solo en una de las dos células hijas</mark> (0,5 p). <span class=\"redactado\">Cada cadena sirve de molde en la replicación: la que lleva la base cambiada origina un ADN mutante y la otra, un ADN normal.</span>",
+    "Respuesta razonada: desde que <mark class=\"clave-criterio\">no haya afección</mark>, porque el nuevo codón codifique el <mark class=\"clave-criterio\">mismo aminoácido</mark>, hasta que la proteína quede <mark class=\"clave-criterio\">inactivada</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2002 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 6",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2002,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2002, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 6, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2002-gm-5",
+   "block": "Biotecnología",
+   "topic": "Hormona del crecimiento humana obtenida con microorganismos",
+   "anio": 2002,
+   "etiqueta": "PAU 2002",
+   "hasImg": false,
+   "puntos": 1.5,
+   "competencial": false,
+   "q": "Explique el proceso general que permite la obtención de hormona del crecimiento humano a partir de microorganismos modificados genéticamente [0,9]. Indique tres ventajas que ofrezca el empleo de hormona obtenida por este método frente a la obtenida a partir de hipófisis de animales [0,6].",
+   "c": [
+    "Debe describirse la <mark class=\"clave-criterio\">clonación</mark> y <mark class=\"clave-criterio\">expresión de un gen humano en un microorganismo</mark> (0,9 p). <span class=\"redactado\">Se aísla el gen o su ADNc, se inserta en un vector como un plásmido con enzimas de restricción y ligasa, se introduce en la bacteria, se seleccionan los clones transformados y se cultivan para purificar la hormona.</span>",
+    "Ventajas: <mark class=\"clave-criterio\">abaratamiento</mark>, se trata de la <mark class=\"clave-criterio\">misma hormona humana</mark>, <mark class=\"clave-criterio\">no produce reacciones alérgicas</mark>, se puede obtener <mark class=\"clave-criterio\">sin contaminantes</mark>, mayor <mark class=\"clave-criterio\">accesibilidad</mark> para los usuarios (0,6 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2002 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 4",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2002,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2002, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 4, 1,5 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2002-gm-6",
+   "block": "Genética",
+   "topic": "Regulación de la expresión génica: genes estructurales y reguladores",
+   "anio": 2002,
+   "etiqueta": "PAU 2002",
+   "hasImg": false,
+   "puntos": 1.5,
+   "competencial": false,
+   "q": "Explique qué es la regulación de la expresión génica y por qué es necesaria [0,8]. ¿Qué son genes estructurales y genes reguladores? [0,7].",
+   "c": [
+    "Explicación y necesidad de la regulación (0,8 p). <span class=\"redactado\">Es el control de qué genes se expresan, cuándo y en qué cantidad. Es necesaria para no gastar energía en proteínas innecesarias, responder a cambios del medio y, en pluricelulares, permitir la diferenciación celular.</span>",
+    "Genes estructurales y reguladores, 0,35 p cada uno (0,7 p). <span class=\"redactado\">Estructurales: codifican proteínas o ARN con función en la célula. Reguladores: codifican productos, como los represores, que controlan la expresión de otros genes.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2002 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 3",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2002,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2002, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 3, 1,5 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2002-gm-7",
+   "block": "Genética",
+   "topic": "Transcripción y efecto de una temperatura de 80 °C",
+   "anio": 2002,
+   "etiqueta": "PAU 2002",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "A la vista de la imagen, conteste a las siguientes cuestiones:<br>a) Indique razonadamente de qué proceso se trata [0,3]. ¿En qué lugar de la célula se produce? [0,1]. ¿Cómo afectaría a este proceso una elevación brusca de la temperatura por encima de los 80 ºC? [0,6].<br>b) Explique la composición y estructura de la molécula resultante [0,4]. ¿Cuáles son las posibles funciones de la molécula formada? [0,6].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Transcripción</mark> (presencia de <mark class=\"clave-criterio\">ADN de doble cadena</mark> y <mark class=\"clave-criterio\">una hebra de ARN</mark>) (0,3 p).",
+    "Localización: <mark class=\"clave-criterio\">núcleo</mark> eucariótico o <mark class=\"clave-criterio\">citoplasma</mark> procariótico o <mark class=\"clave-criterio\">mitocondria</mark> o <mark class=\"clave-criterio\">cloroplasto</mark> (0,1 p).",
+    "<mark class=\"clave-criterio\">Desnaturalización del ADN y de las enzimas</mark> (0,6 p). <span class=\"redactado\">Se separarían las cadenas del ADN y la ARN polimerasa perdería su estructura, así que la transcripción se detendría.</span>",
+    "b) Composición y estructura del ARN (0,4 p). <span class=\"redactado\">Ribonucleótidos con ribosa, fosfato y las bases A, G, C y U, unidos por enlaces fosfodiéster en una sola cadena.</span>",
+    "Funciones de los diferentes tipos de ARN, 0,2 p cada uno (0,6 p). <span class=\"redactado\">ARNm: lleva la información al ribosoma; ARNt: transporta los aminoácidos; ARNr: forma los ribosomas.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2002 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 7",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2002,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/gm2002-transcripcion.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/gm2002-transcripcion.thumb.webp",
+   "imageDesc": "Burbuja de transcripción: un ADN de doble cadena, con sus extremos 3′ y 5′, separado localmente; sobre una de sus cadenas se sintetiza una hebra de ARN que se va separando por su extremo 5′.",
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2002, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 7, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2002-gm-8",
+   "block": "Genética",
+   "topic": "Transcripción: definición, localización y proceso",
+   "anio": 2002,
+   "etiqueta": "PAU 2002",
+   "hasImg": false,
+   "puntos": 1.5,
+   "competencial": false,
+   "q": "Defina el proceso de transcripción [0,4], indique dónde tiene lugar [0,1] y explique cómo se realiza [1].",
+   "c": [
+    "Definición (0,4 p). <span class=\"redactado\">Síntesis de ARN a partir de un molde de ADN.</span>",
+    "Localización (0,1 p). <span class=\"redactado\">Núcleo en eucariotas, y también mitocondrias y cloroplastos; citoplasma en procariotas.</span>",
+    "En la explicación del proceso debe incluirse: <mark class=\"clave-criterio\">copia de una sola cadena del ADN</mark>, acción de la <mark class=\"clave-criterio\">ARN polimerasa</mark>, papel de las <mark class=\"clave-criterio\">señales de inicio y de terminación</mark> (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2002 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 3",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2002,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2002, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 3, 1,5 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2002-gm-9",
+   "block": "Genética",
+   "topic": "Sustitución de un aminoácido: efectos en la proteína",
+   "anio": 2002,
+   "etiqueta": "PAU 2002",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "Si una mutación puntual en el ADN provoca la sustitución de un aminoácido por otro en una determinada proteína, ¿qué efectos podrían producirse en la estructura y función de dicha proteína? Razone la respuesta [1].",
+   "c": [
+    "Cualquier respuesta razonada que relacione la mutación con los posibles <mark class=\"clave-criterio\">cambios estructurales y funcionales</mark> (1 p). <span class=\"redactado\">Si el aminoácido nuevo es parecido o está fuera de zonas clave, el efecto puede ser nulo. Si afecta al centro activo o al plegamiento, la proteína puede perder o alterar su función, como en la anemia falciforme.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2002 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 5",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2002,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2002, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2002-gm-10",
+   "block": "Biotecnología",
+   "topic": "Clonación con un núcleo de hígado: ¿todos los genes?",
+   "anio": 2002,
+   "etiqueta": "PAU 2002",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "Suponga que se ha clonado un individuo transfiriendo el núcleo de una célula de hígado totalmente diferenciada a un óvulo sin núcleo. ¿Tendrá el nuevo individuo todos los genes o tendrá únicamente aquellos que se expresaban en la célula del hígado? ¿Por qué? [1].",
+   "c": [
+    "El núcleo de una célula hepática diferenciada <mark class=\"clave-criterio\">tiene todos los genes</mark> y, por tanto, <mark class=\"clave-criterio\">el nuevo individuo también</mark> (1 p). <span class=\"redactado\">La diferenciación se debe a qué genes se expresan, no a que se pierdan genes.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2002 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 6",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2002,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2002, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 6, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2002-gm-11",
+   "block": "Genética",
+   "topic": "ADN: componentes, puentes de hidrógeno y procesos",
+   "anio": 2002,
+   "etiqueta": "PAU 2002",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "El siguiente esquema representa la estructura de una molécula biológica:<br>a) Indique de qué molécula se trata [0,1] e identifique los elementos señalados con las letras A, B y C [0,6]. ¿Qué representan las líneas de puntos? [0,1]. ¿Qué indican los números 5′ y 3′? [0,2].<br>b) Cite dos procesos fundamentales para la vida relacionados con esta molécula [0,2] y explique el significado biológico de cada uno [0,8].",
+   "c": [
+    "a) Molécula de <mark class=\"clave-criterio\">ADN</mark> (0,1 p).",
+    "A: <mark class=\"clave-criterio\">grupo fosfato</mark>; B: <mark class=\"clave-criterio\">desoxirribosa</mark>; C: <mark class=\"clave-criterio\">base nitrogenada</mark>. 0,2 p cada uno (0,6 p).",
+    "Líneas de puntos: <mark class=\"clave-criterio\">puentes de hidrógeno</mark> (0,1 p).",
+    "5′ y 3′: los <mark class=\"clave-criterio\">extremos</mark> o la <mark class=\"clave-criterio\">dirección</mark> de una cadena sencilla de ADN (0,2 p).",
+    "b) <mark class=\"clave-criterio\">Replicación</mark> y <mark class=\"clave-criterio\">transcripción</mark> (0,2 p).",
+    "Replicación: garantizar la <mark class=\"clave-criterio\">conservación y transmisión del material genético</mark> (0,4 p). Transcripción: permitir la <mark class=\"clave-criterio\">expresión de la información genética</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2002 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 7",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2002,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/gm2002-adn.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/gm2002-adn.thumb.webp",
+   "imageDesc": "Esquema de un fragmento de ADN de doble cadena con extremos 3′ y 5′ opuestos; se señalan un grupo fosfato (A), una desoxirribosa (B) y una base nitrogenada (C), con las bases emparejadas mediante líneas de puntos.",
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2002, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 7, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2002-gm-12",
+   "block": "Genética",
+   "topic": "Recombinación y segregación: importancia evolutiva",
+   "anio": 2002,
+   "etiqueta": "PAU 2002",
+   "hasImg": false,
+   "puntos": 1.5,
+   "competencial": false,
+   "q": "Explique en qué consisten los procesos de recombinación genética [0,5] y segregación cromosómica [0,5]. ¿Cuál es la importancia de ambos procesos para la evolución? [0,5].",
+   "c": [
+    "Recombinación genética: <mark class=\"clave-criterio\">intercambio de segmentos cromosómicos</mark> (0,5 p).",
+    "Segregación cromosómica: <mark class=\"clave-criterio\">combinación al azar de cromosomas</mark> (0,5 p).",
+    "Importancia evolutiva (ideas que debe contener la respuesta correcta: 1) <mark class=\"clave-criterio\">fuente de variabilidad</mark> junto con la mutación y 2) <mark class=\"clave-criterio\">necesidad de la variabilidad</mark> para el proceso de <mark class=\"clave-criterio\">selección natural</mark>). 0,25 p cada una (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2002 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 4",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2002,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2002, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 4, 1,5 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2002-prot-1",
+   "block": "Biomoléculas",
+   "topic": "Estructuras secundaria y terciaria: fuerzas que las mantienen",
+   "anio": 2002,
+   "etiqueta": "PAU 2002",
+   "hasImg": false,
+   "puntos": 1.5,
+   "competencial": false,
+   "q": "Analice la estructura secundaria [0,75] y terciaria [0,75] de las proteínas haciendo especial hincapié en las fuerzas que las mantienen.",
+   "c": [
+    "Estructura <mark class=\"clave-criterio\">secundaria</mark>: <mark class=\"clave-criterio\">hélice α</mark> y <mark class=\"clave-criterio\">hoja plegada</mark>, mantenidas por enlaces peptídicos y <mark class=\"clave-criterio\">enlaces de hidrógeno</mark> (0,75 p).",
+    "Estructura <mark class=\"clave-criterio\">terciaria</mark>: <mark class=\"clave-criterio\">proteínas fibrosas y globulares</mark>, mantenidas por enlaces peptídicos, <mark class=\"clave-criterio\">puentes de hidrógeno</mark>, <mark class=\"clave-criterio\">fuerzas de Van der Waals</mark>, <mark class=\"clave-criterio\">fuerzas electrostáticas</mark> y <mark class=\"clave-criterio\">puentes disulfuro</mark> (0,75 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2002 (recopilación por temas) · Proteínas",
+    "referencia": "pregunta 1",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "examen_anio": 2002,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2002, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 1, 1,5 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2002-prot-2",
+   "block": "Biomoléculas",
+   "topic": "Cinco funciones de las proteínas",
+   "anio": 2002,
+   "etiqueta": "PAU 2002",
+   "hasImg": false,
+   "puntos": 1.5,
+   "competencial": false,
+   "q": "Describa cinco funciones desempeñadas por las proteínas en los seres vivos [1,5].",
+   "c": [
+    "Descripción de cinco funciones (<mark class=\"clave-criterio\">estructural</mark>, <mark class=\"clave-criterio\">transporte</mark>, <mark class=\"clave-criterio\">enzimática</mark>, <mark class=\"clave-criterio\">movimiento</mark>, <mark class=\"clave-criterio\">contracción</mark>, <mark class=\"clave-criterio\">reserva</mark>, <mark class=\"clave-criterio\">inmunológica</mark>, etc.). Cada función, 0,3 p (1,5 p). <span class=\"redactado\">Por ejemplo: estructural, el colágeno; transporte, la hemoglobina; enzimática, la amilasa; contráctil, la miosina; defensa, los anticuerpos.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2002 (recopilación por temas) · Proteínas",
+    "referencia": "pregunta 1",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "examen_anio": 2002,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2002, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 1, 1,5 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2002-enz-1",
+   "block": "Biomoléculas",
+   "topic": "Actividad de pepsina, fosfatasa alcalina y papaína según el pH",
+   "anio": 2002,
+   "etiqueta": "PAU 2002",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "A la vista de la gráfica, conteste a las siguientes cuestiones:<br>a) Explique qué representa esta gráfica [0,3]. Indique los valores aproximados de pH para los cuales dos enzimas tienen la misma velocidad de reacción [0,4]. Para valores de máxima acidez, ¿cuál es el enzima con mayor actividad catalítica? [0,3].<br>b) Si el pH de la sangre fuera 7,5, indique qué enzimas podrían presentar actividad catalítica en el plasma sanguíneo [0,4]. Explique el comportamiento de cada enzima en función del pH [0,6].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Efecto del pH sobre la actividad enzimática</mark> (0,3 p).",
+    "Valores de pH: pepsina/papaína (<mark class=\"clave-criterio\">entre 5 y 5,5</mark>); pepsina/fosfatasa (<mark class=\"clave-criterio\">entre 5,5 y 6</mark>); fosfatasa/papaína (<mark class=\"clave-criterio\">entre 6 y 6,5</mark> y <mark class=\"clave-criterio\">alrededor de 10,5</mark>). 0,1 p cada valor (0,4 p).",
+    "Máxima acidez: <mark class=\"clave-criterio\">pepsina</mark> (0,3 p).",
+    "b) <mark class=\"clave-criterio\">Fosfatasa y papaína</mark> (0,4 p).",
+    "Comportamiento de cada enzima, 0,2 p cada una (0,6 p). <span class=\"redactado\">Pepsina: máxima actividad a pH muy ácido, que disminuye hasta anularse hacia pH 7. Fosfatasa alcalina: actúa desde pH 5, con óptimo hacia pH 9, y cae bruscamente hacia pH 11. Papaína: actividad constante, independiente del pH.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2002 (recopilación por temas) · Enzimas",
+    "referencia": "pregunta 7",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/05 PAU Enzimas.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/05 PAU Enzimas.odt",
+    "examen_anio": 2002,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/enz2002-ph.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/enz2002-ph.thumb.webp",
+   "imageDesc": "Gráfica de actividad catalítica frente al pH (3 a 11): pepsina (P), máxima a pH ácido y decreciente; fosfatasa alcalina (F), con máximo hacia pH 9; papaína (PP), línea horizontal.",
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2002, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 7, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2002-enz-2",
+   "block": "Biomoléculas",
+   "topic": "Velocidad de reacción y concentración de sustrato",
+   "anio": 2002,
+   "etiqueta": "PAU 2002",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "A la vista de la gráfica, conteste a las siguientes cuestiones:<br>a) Explique qué representa esta gráfica [0,5]. ¿Por qué la velocidad de la reacción aumenta al principio de la curva, al aumentar la concentración de sustrato? [0,5].<br>b) ¿Por qué la velocidad de la reacción permanece prácticamente constante a partir de una determinada concentración de sustrato? [0,5]. ¿Qué ocurrirá si se aumenta la concentración de enzima? [0,5].",
+   "c": [
+    "a) La <mark class=\"clave-criterio\">curva de actividad típica de los enzimas</mark> al relacionar la <mark class=\"clave-criterio\">velocidad</mark> con la <mark class=\"clave-criterio\">concentración de sustrato</mark> (0,5 p).",
+    "Porque la velocidad es <mark class=\"clave-criterio\">proporcional a la formación del complejo enzima-sustrato</mark> (0,5 p).",
+    "b) En la <mark class=\"clave-criterio\">zona de saturación</mark> la velocidad depende de la <mark class=\"clave-criterio\">cantidad de enzima</mark> (0,5 p). <span class=\"redactado\">Todos los centros activos están ocupados.</span>",
+    "La velocidad <mark class=\"clave-criterio\">aumenta proporcionalmente a lo largo de toda la curva</mark> (0,5 p). <span class=\"redactado\">Se alcanza una Vmax mayor.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2002 (recopilación por temas) · Enzimas",
+    "referencia": "pregunta 7",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/05 PAU Enzimas.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/05 PAU Enzimas.odt",
+    "examen_anio": 2002,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/enz2002-sustrato.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/enz2002-sustrato.thumb.webp",
+   "imageDesc": "Curva hiperbólica de velocidad de reacción frente a concentración de sustrato (10-60), con Vmax y Vmax/2 marcadas.",
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2002, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 7, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2003-gm-1",
+   "block": "Genética",
+   "topic": "Transcripción y traducción con el código genético",
+   "anio": 2003,
+   "etiqueta": "PAU 2003",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "Se presenta un fragmento de ADN; la flecha indica el sentido de lectura. Además se muestra el código genético. Conteste las siguientes cuestiones:<br>a) Indique la secuencia de bases del ARN mensajero transcrito [0,5] y la secuencia de aminoácidos de la proteína sintetizada [0,5].<br>b) ¿Cómo se llaman los procesos implicados en el apartado anterior? [0,5]. Si se conociese la secuencia de aminoácidos de una proteína, ¿se podría averiguar la secuencia de bases del ADN que la codifica? [0,5]. Razone la respuesta.",
+   "c": [
+    "a) ARNm: <mark class=\"clave-criterio\">AUGCCCUCUAGUGGAGUAAUCCACUGGUAA</mark> (0,5 p).",
+    "Proteína: <mark class=\"clave-criterio\">Met-Pro-Ser-Ser-Gly-Val-Ile-His-Trp</mark> (stop) (0,5 p).",
+    "b) <mark class=\"clave-criterio\">Transcripción</mark> y <mark class=\"clave-criterio\">traducción</mark> (0,5 p).",
+    "<mark class=\"clave-criterio\">No</mark> se podría conocer la secuencia exacta (por ejemplo: <mark class=\"clave-criterio\">código degenerado</mark>, <mark class=\"clave-criterio\">eliminación de intrones</mark>; una sola razón basta para la máxima nota) (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2003 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 7",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2003,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/gm2003-fragmento.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/gm2003-fragmento.thumb.webp",
+   "imageDesc": "Fragmento de ADN TACGGGAGATCACCTCATTAGGTGACCATT con una flecha que indica el sentido de lectura, y tabla del código genético.",
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2003, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 7, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2003-gm-2",
+   "block": "Genética",
+   "topic": "Replicación y reproducción sexual explican el parecido familiar",
+   "anio": 2003,
+   "etiqueta": "PAU 2003",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "La semejanza que existe entre los hijos y sus padres es explicable por dos de los siguientes procesos: replicación, transcripción, traducción, reproducción sexual. Indique cuáles [0,2]. Razone la respuesta [0,8].",
+   "c": [
+    "Procesos: <mark class=\"clave-criterio\">replicación</mark> y <mark class=\"clave-criterio\">reproducción sexual</mark>. 0,1 p cada uno (0,2 p).",
+    "Justificación: la <mark class=\"clave-criterio\">replicación</mark> es necesaria para la <mark class=\"clave-criterio\">duplicación del material genético</mark> en los padres, y la <mark class=\"clave-criterio\">reproducción sexual</mark> permite que el <mark class=\"clave-criterio\">ADN replicado pase de una generación a otra</mark> (0,8 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2003 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 6",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2003,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2003, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 6, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2003-gm-3",
+   "block": "Genética",
+   "topic": "Experimento de Meselson y Stahl",
+   "anio": 2003,
+   "etiqueta": "PAU 2003",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "La figura siguiente representa los resultados del experimento que Meselson y Stahl realizaron en relación con la replicación del ADN. Responda razonadamente las siguientes cuestiones:<br>a) Interprete esta experiencia a partir de sus conocimientos sobre la estructura del ADN y su mecanismo de replicación [1].<br>b) ¿Cuál sería el aspecto de un quinto tubo de centrifugación obtenido a partir del cultivo sobre medio con N¹⁵ tres generaciones después de su transferencia al medio con N¹⁴? ¿Qué aspecto tendría un sexto tubo de centrifugación obtenido a partir del cultivo sobre medio con N¹⁵ tras 100 generaciones después de su transferencia al medio con N¹⁴? [1].",
+   "c": [
+    "a) Conceptos clave: <mark class=\"clave-criterio\">doble hélice</mark> de ADN e <mark class=\"clave-criterio\">hipótesis semiconservativa</mark> de la replicación (1 p). <span class=\"redactado\">Tras una generación en N¹⁴ todo el ADN es híbrido, con una cadena pesada y otra ligera; tras dos generaciones, la mitad es híbrido y la mitad ligero. Así se descartan los modelos conservativo y dispersivo.</span>",
+    "b) Tres generaciones: aparece una <mark class=\"clave-criterio\">banda estrecha de ADN híbrido</mark> (con N¹⁵) y otra <mark class=\"clave-criterio\">más ancha de ADN ligero</mark> (con N¹⁴) (0,5 p). <span class=\"redactado\">Un 25 % híbrido y un 75 % ligero.</span>",
+    "Tras 100 generaciones: aparece <mark class=\"clave-criterio\">una sola banda ancha de ADN ligero</mark> (con N¹⁴) (0,5 p). <span class=\"redactado\">Las dos cadenas pesadas originales siguen existiendo, pero en una proporción despreciable.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2003 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 7",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2003,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/gm2003-meselson.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/gm2003-meselson.thumb.webp",
+   "imageDesc": "Cuatro tubos de centrifugación con bandas de ADN según su densidad (1,65 a 1,80 g/cm³): ADN de bacterias cultivadas en N¹⁴ (ligero), en N¹⁵ (pesado), una generación después de pasar de N¹⁵ a N¹⁴ y dos generaciones después.",
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2003, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 7, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2003-gm-4",
+   "block": "Genética",
+   "topic": "Toxina diftérica y síntesis de proteínas",
+   "anio": 2003,
+   "etiqueta": "PAU 2003",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "La difteria está producida por la acción de la toxina de Corynebacterium diphtheriae. La toxina impide la acción de la translocasa, enzima que favorece el movimiento del ARN mensajero en el ribosoma. El efecto de esta toxina puede matar a la célula. Explique razonadamente este hecho [1].",
+   "c": [
+    "Explicación razonada de que la toxina ocasiona la <mark class=\"clave-criterio\">detención de la síntesis proteica</mark> (1 p). <span class=\"redactado\">Sin translocación, el ribosoma no avanza al siguiente codón, la elongación se para y la célula se queda sin las proteínas que necesita.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2003 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 6",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2003,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2003, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 6, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2003-gm-5",
+   "block": "Genética",
+   "topic": "Replicación: definición, proceso y carácter semiconservativo",
+   "anio": 2003,
+   "etiqueta": "PAU 2003",
+   "hasImg": false,
+   "puntos": 1.5,
+   "competencial": false,
+   "q": "Indique qué es la replicación [0,25]. Describa este proceso [1]. ¿Qué significa que la replicación es semiconservativa? [0,25].",
+   "c": [
+    "Replicación: <mark class=\"clave-criterio\">proceso de síntesis del ADN</mark> (0,25 p).",
+    "Descripción del proceso (deberá incluir: <mark class=\"clave-criterio\">horquillas de replicación</mark>, replicación <mark class=\"clave-criterio\">bidireccional</mark>, replicación <mark class=\"clave-criterio\">continua de una hebra y discontinua de la otra</mark>, papel fundamental de las <mark class=\"clave-criterio\">enzimas</mark>) (1 p).",
+    "Semiconservativa: la molécula de ADN resultante posee <mark class=\"clave-criterio\">una cadena vieja y otra de nueva síntesis</mark> (0,25 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2003 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 3",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2003,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2003, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 3, 1,5 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2003-gm-6",
+   "block": "Genética",
+   "topic": "Traducción: estructuras, moléculas y papel de cada ARN",
+   "anio": 2003,
+   "etiqueta": "PAU 2003",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "A la vista de la imagen, conteste las siguientes cuestiones:<br>a) ¿Qué proceso representa este esquema? [0,2]. Identifique las estructuras y las moléculas que aparecen en el dibujo [0,8].<br>b) Explique cómo se lleva a cabo el proceso representado [1].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Traducción</mark> o síntesis proteica (0,2 p).",
+    "<mark class=\"clave-criterio\">Ribosoma</mark>, <mark class=\"clave-criterio\">ARN mensajero</mark>, <mark class=\"clave-criterio\">ARN transferente</mark> y <mark class=\"clave-criterio\">aminoácidos</mark> (0,8 p).",
+    "b) Se mencionarán todas las moléculas de ácido nucleico que intervienen (<mark class=\"clave-criterio\">ARN mensajero</mark>, <mark class=\"clave-criterio\">ARN ribosómico</mark> y <mark class=\"clave-criterio\">ARN transferente</mark>) y la <mark class=\"clave-criterio\">función</mark> que desempeña cada una (1 p). <span class=\"redactado\">El ARNm aporta la secuencia de codones; el ARNr forma el ribosoma y cataliza el enlace peptídico; cada ARNt lleva un aminoácido y lo sitúa según el emparejamiento anticodón-codón.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2003 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 7",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2003,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/gm2003-traduccion.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/gm2003-traduccion.thumb.webp",
+   "imageDesc": "Ribosoma desplazándose sobre un ARN mensajero; un ARN transferente se empareja por su anticodón con un codón y otro sale tras ceder su aminoácido; la cadena polipeptídica empieza por Met-Leu.",
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2003, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 7, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2003-gm-7",
+   "block": "Genética",
+   "topic": "Traducción: definición, localización y etapas",
+   "anio": 2003,
+   "etiqueta": "PAU 2003",
+   "hasImg": false,
+   "puntos": 1.5,
+   "competencial": false,
+   "q": "Defina el proceso de traducción [0,4], indique dónde tiene lugar [0,1] y describa cómo se realiza [1].",
+   "c": [
+    "Definición (0,4 p). <span class=\"redactado\">Síntesis de una cadena polipeptídica según la secuencia de codones de un ARN mensajero.</span>",
+    "Localización: <mark class=\"clave-criterio\">ribosomas</mark> (0,1 p).",
+    "Descripción de las etapas: <mark class=\"clave-criterio\">iniciación</mark>, <mark class=\"clave-criterio\">elongación</mark> y <mark class=\"clave-criterio\">terminación</mark> (1 p). <span class=\"redactado\">Iniciación: la subunidad menor se une al ARNm y el ARNt iniciador con metionina se empareja con el codón AUG; luego se une la subunidad mayor. Elongación: entran ARNt según los codones, se forman enlaces peptídicos y el ribosoma se trasloca. Terminación: un codón de parada provoca la liberación del polipéptido.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2003 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 3",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2003,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2003, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 3, 1,5 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2003-gm-8",
+   "block": "Genética",
+   "topic": "Estreptomicina y síntesis de proteínas bacteriana",
+   "anio": 2003,
+   "etiqueta": "PAU 2003",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "La estreptomicina impide que el primer ARN transferente se una al ribosoma bacteriano. Explique razonadamente su efecto antibiótico [1].",
+   "c": [
+    "Explicación razonada de que la estreptomicina ocasiona la <mark class=\"clave-criterio\">detención de la síntesis proteica bacteriana</mark> (1 p). <span class=\"redactado\">Bloquea la iniciación de la traducción en los ribosomas 70S; sin proteínas nuevas, la bacteria no puede crecer ni dividirse.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2003 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 6",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2003,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2003, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 6, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2003-prot-1",
+   "block": "Biomoléculas",
+   "topic": "Hidrólisis frente a desnaturalización de proteínas",
+   "anio": 2003,
+   "etiqueta": "PAU 2003",
+   "hasImg": false,
+   "puntos": 1.5,
+   "competencial": false,
+   "q": "Indique cuáles son las diferencias entre hidrólisis y desnaturalización de proteínas [0,5], enumerando los enlaces que se rompen en cada caso y los productos de ambos procesos [0,8]. Cite un agente que pueda hidrolizar y otro que pueda desnaturalizar las proteínas [0,2].",
+   "c": [
+    "<mark class=\"clave-criterio\">Nivel estructural afectado</mark> (<mark class=\"clave-criterio\">primario</mark> en la hidrólisis y <mark class=\"clave-criterio\">niveles superiores</mark> en la desnaturalización) y el <mark class=\"clave-criterio\">grado de reversibilidad</mark> de ambos procesos (0,5 p).",
+    "Hidrólisis: se rompe el <mark class=\"clave-criterio\">enlace peptídico</mark>; productos: <mark class=\"clave-criterio\">péptidos y aminoácidos</mark>. Desnaturalización: se rompen <mark class=\"clave-criterio\">enlaces débiles</mark> (Van der Waals, puentes de hidrógeno, interacciones hidrofóbicas, etc.); producto: <mark class=\"clave-criterio\">proteínas desconfiguradas</mark> (0,8 p).",
+    "Agentes hidrolíticos: <mark class=\"clave-criterio\">enzimas</mark>, ácidos o bases; agentes desnaturalizantes: <mark class=\"clave-criterio\">calor</mark>, <mark class=\"clave-criterio\">pH</mark>, agentes químicos, etc. (0,2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2003 (recopilación por temas) · Proteínas",
+    "referencia": "pregunta 1",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "examen_anio": 2003,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2003, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 1, 1,5 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2003-prot-2",
+   "block": "Biomoléculas",
+   "topic": "Proteína: estructura primaria y secundaria",
+   "anio": 2003,
+   "etiqueta": "PAU 2003",
+   "hasImg": false,
+   "puntos": 1.5,
+   "competencial": false,
+   "q": "Defina el término proteína [0,25] y describa su estructura primaria [0,5] y secundaria [0,75] haciendo especial hincapié en los enlaces y las fuerzas que las estabilizan.",
+   "c": [
+    "Definición de proteína (0,25 p). <span class=\"redactado\">Macromolécula formada por una o más cadenas de aminoácidos unidos por enlaces peptídicos.</span>",
+    "Estructura <mark class=\"clave-criterio\">primaria</mark> y <mark class=\"clave-criterio\">enlace peptídico</mark> (0,5 p). <span class=\"redactado\">Secuencia de aminoácidos.</span>",
+    "Estructura <mark class=\"clave-criterio\">secundaria</mark> y <mark class=\"clave-criterio\">puentes de hidrógeno</mark>: <mark class=\"clave-criterio\">intercatenarios</mark> (hoja plegada) e <mark class=\"clave-criterio\">intracatenarios</mark> (α-hélice) (0,75 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2003 (recopilación por temas) · Proteínas",
+    "referencia": "pregunta 1",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "examen_anio": 2003,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2003, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 1, 1,5 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2003-prot-3",
+   "block": "Biomoléculas",
+   "topic": "Hélice α: enlaces y comparación con la hoja plegada",
+   "anio": 2003,
+   "etiqueta": "PAU 2003",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "A la vista de la imagen, conteste las siguientes cuestiones:<br>a) ¿Qué tipo de molécula o macromolécula le sugiere la figura adjunta? [0,25]. ¿Qué estructura representa? [0,25]. ¿Qué tipos de enlaces estabilizan el entramado molecular que se observa en la figura? [0,5].<br>b) ¿Qué otro tipo de estructura del mismo nivel de complejidad conoce? [0,2]. Analice las principales características de cada una de ellas [0,8].",
+   "c": [
+    "a) La figura representa la estructura de una <mark class=\"clave-criterio\">proteína</mark> (0,25 p). Representa la estructura en <mark class=\"clave-criterio\">α-hélice</mark> (0,25 p).",
+    "Enlaces <mark class=\"clave-criterio\">peptídicos</mark> y <mark class=\"clave-criterio\">puentes de hidrógeno</mark> entre zonas próximas de la cadena polipeptídica (0,5 p).",
+    "b) <mark class=\"clave-criterio\">Hoja plegada</mark> (lámina β) (0,2 p).",
+    "Características y tipos de enlaces que participan (0,8 p). <span class=\"redactado\">α-hélice: espiral dextrógira, unos 3,6 aminoácidos por vuelta, radicales hacia fuera y puentes de hidrógeno dentro de la misma cadena. Hoja β: segmentos de cadena extendidos en zigzag, dispuestos en paralelo o antiparalelo y unidos por puentes de hidrógeno entre segmentos, con los radicales alternativamente arriba y abajo.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2003 (recopilación por temas) · Proteínas",
+    "referencia": "pregunta 7",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "examen_anio": 2003,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/prot2003-helice.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/prot2003-helice.thumb.webp",
+   "imageDesc": "Dibujo de una hélice α: el esqueleto de la cadena (–N–C–C(=O)–) se enrolla en espiral; los radicales, como esferas, apuntan hacia fuera y los puentes de hidrógeno entre vueltas se marcan como barras verdes.",
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2003, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 7, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2003-prot-4",
+   "block": "Biomoléculas",
+   "topic": "Cinco funciones de las proteínas con ejemplos",
+   "anio": 2003,
+   "etiqueta": "PAU 2003",
+   "hasImg": false,
+   "puntos": 1.5,
+   "competencial": false,
+   "q": "Enumere [0,5] y describa cinco funciones de las proteínas ilustrando cada una con un ejemplo [1].",
+   "c": [
+    "Funciones: <mark class=\"clave-criterio\">estructural</mark>, <mark class=\"clave-criterio\">transporte</mark>, <mark class=\"clave-criterio\">enzimática</mark>, <mark class=\"clave-criterio\">hormonal</mark>, <mark class=\"clave-criterio\">defensa</mark>, <mark class=\"clave-criterio\">contráctil</mark>, <mark class=\"clave-criterio\">reserva</mark>, etc. (0,5 p).",
+    "Estructural: citoesqueleto, <mark class=\"clave-criterio\">colágeno</mark>, etc.; transporte: <mark class=\"clave-criterio\">hemoglobina</mark>, seroalbúmina, etc.; enzimática: cualquier <mark class=\"clave-criterio\">enzima</mark>; hormonal: <mark class=\"clave-criterio\">insulina</mark>, tiroxina, etc.; defensa: <mark class=\"clave-criterio\">inmunoglobulinas</mark>, trombina, etc.; contráctil: <mark class=\"clave-criterio\">miosina</mark>, <mark class=\"clave-criterio\">actina</mark>, etc.; reserva: caseína, <mark class=\"clave-criterio\">ovoalbúmina</mark>, etc. Cada descripción con su ejemplo, 0,2 p (1 p). <span class=\"redactado\">La tiroxina es una hormona derivada de un aminoácido, la tirosina, no una proteína en sentido estricto.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2003 (recopilación por temas) · Proteínas",
+    "referencia": "pregunta 1",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "examen_anio": 2003,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2003, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 1, 1,5 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2003-enz-1",
+   "block": "Biomoléculas",
+   "topic": "Temperatura y rendimiento de la fotosíntesis",
+   "anio": 2003,
+   "etiqueta": "PAU 2003",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "Durante la fotosíntesis se producen muchas reacciones enzimáticas. Al aumentar la temperatura se incrementa la intensidad fotosintética; sin embargo, las temperaturas altas pueden disminuir el rendimiento de la fotosíntesis. Dé una explicación razonada a estos hechos [1].",
+   "c": [
+    "Como proceso metabólico, la <mark class=\"clave-criterio\">intensidad fotosintética aumenta con la temperatura hasta un máximo</mark>, y con las temperaturas altas <mark class=\"clave-criterio\">se desnaturalizan las enzimas</mark> (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2003 (recopilación por temas) · Enzimas",
+    "referencia": "pregunta 5",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/05 PAU Enzimas.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/05 PAU Enzimas.odt",
+    "examen_anio": 2003,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2003, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2003-enz-2",
+   "block": "Biomoléculas",
+   "topic": "Actividad de cuatro enzimas según el pH",
+   "anio": 2003,
+   "etiqueta": "PAU 2003",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "La gráfica adjunta representa la evolución de la actividad de cuatro enzimas cuando se las somete a valores diferentes de pH. En relación con ella, conteste las siguientes cuestiones:<br>a) Compare e interprete de forma razonada el trazado de las distintas curvas de actividad [1].<br>b) Explique la diferencia existente entre los óptimos de actividad de la tripsina y de la pepsina teniendo en cuenta que una actúa en el estómago y otra en el intestino [0,5]. ¿Cómo influye el pH en la actividad enzimática de la papaína? Razone la respuesta [0,5].",
+   "c": [
+    "a) Debe explicarse el <mark class=\"clave-criterio\">trazado de las gráficas</mark> y establecer <mark class=\"clave-criterio\">comparaciones</mark> señalando diferencias entre ellas (1 p). <span class=\"redactado\">La pepsina tiene su óptimo a pH muy ácido, en torno a 2, y se inactiva hacia pH 5-6. La tripsina tiene su óptimo hacia pH 8. La colinesterasa aumenta su actividad desde pH 5 y la mantiene alta en medio básico. La papaína tiene actividad constante en todo el intervalo.</span>",
+    "b) Los óptimos se explican por los <mark class=\"clave-criterio\">diferentes tramos digestivos</mark> donde actúan, con <mark class=\"clave-criterio\">pH diferente</mark> (0,5 p). <span class=\"redactado\">La pepsina actúa en el estómago, de pH ácido, y la tripsina en el intestino delgado, de pH ligeramente básico.</span>",
+    "Debe indicarse la <mark class=\"clave-criterio\">independencia de la actividad de la papaína frente a las variaciones de pH</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2003 (recopilación por temas) · Enzimas",
+    "referencia": "pregunta 7",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/05 PAU Enzimas.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/05 PAU Enzimas.odt",
+    "examen_anio": 2003,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/enz2003-ph.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/enz2003-ph.thumb.webp",
+   "imageDesc": "Actividad relativa frente al pH (de 1 a 11) de cuatro enzimas: pepsina (máximo hacia pH 2), papaína (línea horizontal), colinesterasa (curva discontinua que sube desde pH 5 y se estabiliza) y tripsina (máximo hacia pH 8).",
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2003, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 7, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2004-gm-1",
+   "block": "Genética",
+   "topic": "Componentes y estructura del ADN; esquema de la expresión génica",
+   "anio": 2004,
+   "etiqueta": "PAU 2004",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "Enumere los componentes del ADN [0,3] y explique su estructura [1]. Indique de forma esquemática cómo se realiza la expresión de la información genética desde ADN a proteína [0,7].",
+   "c": [
+    "Composición: <mark class=\"clave-criterio\">desoxirribosa</mark>, <mark class=\"clave-criterio\">bases nitrogenadas</mark> y <mark class=\"clave-criterio\">ácido fosfórico</mark> (0,3 p).",
+    "Estructura: explicación del <mark class=\"clave-criterio\">modelo de doble hélice</mark> (1 p). <span class=\"redactado\">Dos cadenas de nucleótidos antiparalelas enrolladas en hélice dextrógira, con las bases hacia dentro y emparejadas por puentes de hidrógeno, A con T y G con C, y los esqueletos de azúcar y fosfato hacia fuera.</span>",
+    "Esquema donde quede recogida la <mark class=\"clave-criterio\">transcripción</mark> del ADN y la <mark class=\"clave-criterio\">traducción</mark> del ARN (0,7 p). <span class=\"redactado\">ADN → [transcripción] → ARNm → [traducción en los ribosomas] → proteína.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2004 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 3 (también en 2002, con otra puntuación)",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2004,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2004, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 3 (también en 2002, con otra puntuación), 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2004-gm-2",
+   "block": "Genética",
+   "topic": "Mutación: tipos, efectos e importancia evolutiva",
+   "anio": 2004,
+   "etiqueta": "PAU 2004",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "Exponga el concepto de mutación [0,6] y diferencie entre mutación espontánea e inducida [0,4]. ¿Qué efectos puede tener una mutación? [0,3]. ¿Por qué las mutaciones son importantes desde el punto de vista evolutivo? [0,7].",
+   "c": [
+    "Mutación: <mark class=\"clave-criterio\">cambios en el material genético</mark> (0,6 p).",
+    "<mark class=\"clave-criterio\">Espontánea</mark>: <mark class=\"clave-criterio\">sin causa aparente</mark>; <mark class=\"clave-criterio\">inducida</mark>: causada por <mark class=\"clave-criterio\">agentes mutagénicos</mark> (0,4 p).",
+    "Efectos: <mark class=\"clave-criterio\">inocuos</mark>, <mark class=\"clave-criterio\">beneficiosos</mark> y <mark class=\"clave-criterio\">perjudiciales</mark> (0,3 p).",
+    "Importancia evolutiva: <mark class=\"clave-criterio\">origen de nuevas variantes genéticas</mark> (<mark class=\"clave-criterio\">variabilidad genética</mark>) (0,7 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2004 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 2",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2004,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2004, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 2, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2004-gm-3",
+   "block": "Genética",
+   "topic": "ADN, ARN y proteína: diferencias entre ADN y ARN",
+   "anio": 2004,
+   "etiqueta": "PAU 2004",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "En relación con la figura adjunta, conteste las siguientes cuestiones:<br>a) Identifique las moléculas 1, 2 y 3 [0,3] y los procesos A y B [0,2]. Identifique los elementos 4 y 5 [0,2]. ¿Qué significado tienen los números 5′ y 3′ y los grupos H₂N y COOH? [0,3].<br>b) ¿Qué diferencias relativas a la composición química [0,3], a la estructura [0,2] y a la función [0,5] existen entre las moléculas 1 y 2?",
+   "c": [
+    "a) 1: <mark class=\"clave-criterio\">ADN</mark>; 2: <mark class=\"clave-criterio\">ARN mensajero</mark>; 3: <mark class=\"clave-criterio\">proteína</mark>. 0,1 p cada una (0,3 p).",
+    "A: <mark class=\"clave-criterio\">transcripción</mark>; B: <mark class=\"clave-criterio\">traducción</mark>. 0,1 p cada uno (0,2 p).",
+    "4: <mark class=\"clave-criterio\">bases nitrogenadas</mark> (o nucleótidos); 5: <mark class=\"clave-criterio\">aminoácidos</mark>. 0,1 p cada uno (0,2 p).",
+    "<mark class=\"clave-criterio\">Extremos 5′ y 3′</mark> de las moléculas de ADN y ARN (0,1 p); extremos <mark class=\"clave-criterio\">amino terminal</mark> y <mark class=\"clave-criterio\">carboxilo terminal</mark> de un polipéptido (0,2 p).",
+    "b) Composición química: <mark class=\"clave-criterio\">distinto azúcar</mark>, <mark class=\"clave-criterio\">timina en el ADN</mark> y <mark class=\"clave-criterio\">uracilo en el ARN</mark> (0,3 p).",
+    "Estructura: <mark class=\"clave-criterio\">ADN bicatenario</mark>, <mark class=\"clave-criterio\">ARN monocatenario</mark> (0,2 p).",
+    "Función: el ADN es <mark class=\"clave-criterio\">portador de la información genética</mark> (almacenamiento y transmisión); el ARN interviene en la <mark class=\"clave-criterio\">transcripción y la traducción</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2004 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 6",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2004,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/gm2004-procesos.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/gm2004-procesos.thumb.webp",
+   "imageDesc": "Esquema: (1) ADN de doble cadena con extremos 5′ y 3′; flecha A hacia (2) una cadena de ARN 5′→3′ con sus bases (4); flecha B hacia (3) una proteína con extremos H₂N y COOH, formada por aminoácidos (5).",
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2004, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 6, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2004-gm-4",
+   "block": "Genética",
+   "topic": "Fragmento génico: número de aminoácidos y deleciones",
+   "anio": 2004,
+   "etiqueta": "PAU 2004",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "Un fragmento génico tiene la siguiente secuencia: 5′…AGGGCCAGATGAAAACGG…3′. ¿Cuántos aminoácidos tendrá el polipéptido que codifica? [0,2]. ¿Qué pasaría con la secuencia polipeptídica si una mutación provocase la pérdida del primer nucleótido (A)? [0,4]. ¿Y si la mutación suprimiese los tres primeros nucleótidos (AGG)? [0,4]. Razone las respuestas.",
+   "c": [
+    "<mark class=\"clave-criterio\">Seis aminoácidos</mark> (0,2 p). <span class=\"redactado\">18 nucleótidos / 3 = 6 codones.</span>",
+    "Perder la A produce un <mark class=\"clave-criterio\">cambio de la fase de lectura</mark>, que daría lugar a una <mark class=\"clave-criterio\">proteína nueva</mark>, probablemente <mark class=\"clave-criterio\">no funcional</mark> (0,4 p).",
+    "Suprimir AGG hace que <mark class=\"clave-criterio\">se pierda el primer aminoácido</mark>; la secuencia polipeptídica <mark class=\"clave-criterio\">puede mantener o no la función</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2004 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 5",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2004,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2004, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2004-gm-5",
+   "block": "Genética",
+   "topic": "Mutaciones: perjudiciales para el individuo, clave para la evolución",
+   "anio": 2004,
+   "etiqueta": "PAU 2004",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "Las mutaciones generalmente son perniciosas para el individuo que las sufre; sin embargo, desde el punto de vista evolutivo son muy importantes. Explique razonadamente esta aparente contradicción [1].",
+   "c": [
+    "Explicación razonada del <mark class=\"clave-criterio\">efecto pernicioso</mark> (0,5 p). <span class=\"redactado\">La mayoría altera proteínas que ya funcionaban bien.</span>",
+    "<mark class=\"clave-criterio\">Importancia evolutiva</mark> (0,5 p). <span class=\"redactado\">Son la fuente última de variabilidad genética: las pocas mutaciones favorables son seleccionadas y permiten la adaptación y la evolución.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2004 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 5",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2004,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2004, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2004-prot-1",
+   "block": "Biomoléculas",
+   "topic": "Hélice α: componentes, enlace peptídico y estructura terciaria",
+   "anio": 2004,
+   "etiqueta": "PAU 2004",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "En relación con la figura adjunta, conteste las siguientes cuestiones:<br>a) Identifique la macromolécula que representa [0,2], indique cuáles son sus componentes esenciales [0,2] y describa el enlace que se establece entre ellos [0,3] citando dos características del mismo [0,3].<br>b) Nombre y describa la estructura espacial de la macromolécula representada [0,5]. Cite alguna otra estructura espacial de mayor complejidad que pueda adoptar la misma macromolécula [0,1] y descríbala [0,4].",
+   "c": [
+    "<span class=\"redactado\">a) Una <mark class=\"clave-criterio\">proteína</mark> o cadena polipeptídica (0,2 p). Sus componentes son los <mark class=\"clave-criterio\">aminoácidos</mark> (0,2 p).</span>",
+    "<span class=\"redactado\">Enlace <mark class=\"clave-criterio\">peptídico</mark>: enlace covalente entre el grupo carboxilo de un aminoácido y el grupo amino del siguiente, con pérdida de una molécula de agua (0,3 p). Características: carácter parcial de doble enlace, por lo que no permite el giro, y átomos del enlace en un mismo plano (0,3 p).</span>",
+    "<span class=\"redactado\">b) <mark class=\"clave-criterio\">Hélice α</mark>: la cadena se enrolla en espiral dextrógira, con unos 3,6 aminoácidos por vuelta y los radicales hacia fuera; se estabiliza por puentes de hidrógeno entre el C=O de un aminoácido y el N–H del que está cuatro posiciones más allá (0,5 p).</span>",
+    "<span class=\"redactado\">Una estructura de mayor complejidad: la <mark class=\"clave-criterio\">terciaria</mark> (o la cuaternaria) (0,1 p). La terciaria es el plegamiento tridimensional de la cadena completa, mantenido por interacciones entre radicales: puentes disulfuro, puentes de hidrógeno, interacciones iónicas e hidrofóbicas (0,4 p).</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2004 (recopilación por temas) · Proteínas",
+    "referencia": "pregunta 6",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "examen_anio": 2004,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/prot2004-helice.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/prot2004-helice.thumb.webp",
+   "imageDesc": "Modelo tridimensional de una hélice α: el esqueleto de la cadena se enrolla en espiral con los radicales (R) hacia fuera y los puentes de hidrógeno entre vueltas marcados con líneas de puntos.",
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2004, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 6, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2004-enz-1",
+   "block": "Biomoléculas",
+   "topic": "Desnaturalización reversible por temperatura",
+   "anio": 2004,
+   "etiqueta": "PAU 2004",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "En un ensayo enzimático se produjo, accidentalmente, una elevación brusca de la temperatura y se detuvo la actividad enzimática. Al bajar la temperatura se recuperó la actividad enzimática. Explique razonadamente este hecho [1].",
+   "c": [
+    "La elevación de la temperatura <mark class=\"clave-criterio\">desnaturaliza la enzima</mark>. La bajada de la temperatura permite la <mark class=\"clave-criterio\">renaturalización</mark> y se <mark class=\"clave-criterio\">recupera la actividad</mark> enzimática (1 p). <span class=\"redactado\">La desnaturalización fue reversible: no se rompieron enlaces covalentes y la enzima recuperó su forma nativa.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2004 (recopilación por temas) · Enzimas",
+    "referencia": "pregunta 4",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/05 PAU Enzimas.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/05 PAU Enzimas.odt",
+    "examen_anio": 2004,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2004, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2004-enz-2",
+   "block": "Biomoléculas",
+   "topic": "Catalasa y ácido clorhídrico",
+   "anio": 2004,
+   "etiqueta": "PAU 2004",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "La catalasa es una enzima que transforma el peróxido de hidrógeno en oxígeno y agua. Si en un tubo de ensayo introducimos catalasa y le añadimos agua oxigenada se produce la emisión de burbujas de oxígeno. Si al mismo tubo de ensayo se le añaden unas gotas de ácido clorhídrico se interrumpe la emisión. Proponga una explicación a este hecho [1].",
+   "c": [
+    "<span class=\"redactado\">El ácido clorhídrico baja bruscamente el pH, que se aleja mucho del óptimo de la catalasa. La enzima se desnaturaliza o, al menos, su centro activo se altera, pierde su actividad y deja de descomponer el peróxido de hidrógeno, así que cesa el desprendimiento de O₂ (1 p).</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2004 (recopilación por temas) · Enzimas",
+    "referencia": "pregunta 4",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/05 PAU Enzimas.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/05 PAU Enzimas.odt",
+    "examen_anio": 2004,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2004, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2005-gm-1",
+   "block": "Genética",
+   "topic": "Código no universal e insulina de ratón en una bacteria",
+   "anio": 2005,
+   "etiqueta": "PAU 2005",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "Si el código genético no fuese universal, ¿qué ocurriría al introducir el gen que codifica la insulina de ratón en una bacteria? [1]. Razone la respuesta.",
+   "c": [
+    "Se debe razonar que <mark class=\"clave-criterio\">no se produciría proteína</mark> (insulina) alguna o que, en caso de producirse, <mark class=\"clave-criterio\">no sería funcional</mark> (1 p). <span class=\"redactado\">La bacteria asignaría a los codones aminoácidos distintos de los del ratón.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2005 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 5",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2005,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2005, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2005-gm-2",
+   "block": "Genética",
+   "topic": "Transcripción, traducción, codones y mutación puntual",
+   "anio": 2005,
+   "etiqueta": "PAU 2005",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "En relación con el esquema adjunto, conteste las siguientes cuestiones:<br>a) ¿Cómo se denominan cada uno de los pasos indicados con flechas en el esquema [0,2] y dónde se llevan a cabo en una célula eucariótica? [0,2]. Escriba qué codones corresponden a cada uno de los 5 aminoácidos [0,3]. Si una mutación puntual provoca que la primera base de la molécula 2 pase a ser una C en vez de una A, ¿qué cambio se origina en la secuencia de la molécula 3? [0,3].<br>b) Describa brevemente el proceso de síntesis de la molécula 3 e indique las fases de las que consta [1].",
+   "c": [
+    "a) Paso de 1 a 2: <mark class=\"clave-criterio\">transcripción</mark>; paso de 2 a 3: <mark class=\"clave-criterio\">traducción</mark>. 0,1 p cada uno (0,2 p).",
+    "Transcripción: en el <mark class=\"clave-criterio\">núcleo</mark> celular; traducción: en el <mark class=\"clave-criterio\">citoplasma</mark> (ribosomas). 0,1 p cada uno (0,2 p).",
+    "<mark class=\"clave-criterio\">AUU</mark> → Ile, <mark class=\"clave-criterio\">CGA</mark> → Arg, <mark class=\"clave-criterio\">UGC</mark> → Cys, <mark class=\"clave-criterio\">GUC</mark> → Val y <mark class=\"clave-criterio\">CUU</mark> → Leu (0,3 p).",
+    "La <mark class=\"clave-criterio\">isoleucina</mark> (Ile) pasaría a ser <mark class=\"clave-criterio\">leucina</mark> (Leu) (0,3 p). <span class=\"redactado\">AUU pasa a CUU, que codifica Leu.</span>",
+    "b) Se explicará cómo se <mark class=\"clave-criterio\">inicia</mark>, cómo se <mark class=\"clave-criterio\">elonga</mark> y cómo <mark class=\"clave-criterio\">termina</mark> la síntesis de la proteína (deberá mencionarse la unión al <mark class=\"clave-criterio\">ribosoma</mark>, el <mark class=\"clave-criterio\">ARN mensajero</mark>, el <mark class=\"clave-criterio\">ARN de transferencia</mark> y el <mark class=\"clave-criterio\">polipéptido</mark>) (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2005 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 6",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2005,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/gm2005-codones.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/gm2005-codones.thumb.webp",
+   "imageDesc": "Esquema: (1) ADN de doble cadena 5′-ATTCGATGCGTCCTT-3′ / 3′-TAAGCTACGCAGGAA-5′; (2) ARN 5′-AUUCGAUGCGUCCUU-3′; (3) péptido Ile-Arg-Cys-Val-Leu.",
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2005, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 6, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2005-gm-3",
+   "block": "Genética",
+   "topic": "Mutación silenciosa y desplazamiento de la fase de lectura",
+   "anio": 2005,
+   "etiqueta": "PAU 2005",
+   "hasImg": true,
+   "puntos": 1,
+   "competencial": true,
+   "q": "Escriba la secuencia de aminoácidos que se puede originar a partir del ARN mensajero siguiente [0,25]. Si en la secuencia de ADN se produjera una alteración que cambiase en este ARN la U señalada con una flecha por una C, ¿cómo se llamaría este fenómeno? [0,25]. ¿Tendría consecuencias para la célula? [0,25]. ¿Qué ocurriría si desaparece la base señalada? [0,25]. Razone las respuestas.",
+   "c": [
+    "Secuencia: <mark class=\"clave-criterio\">NH₂-Glu-Arg-Gly-Thr-Ser-Phe-Tyr-Val-COOH</mark> (0,25 p).",
+    "<mark class=\"clave-criterio\">Mutación</mark> (<mark class=\"clave-criterio\">silenciosa</mark>) (0,25 p). <mark class=\"clave-criterio\">Ninguna</mark> consecuencia, porque <mark class=\"clave-criterio\">no cambia el aminoácido</mark> (0,25 p). <span class=\"redactado\">UUU y UUC codifican ambos fenilalanina: el código es degenerado.</span>",
+    "Si desaparece la base: <mark class=\"clave-criterio\">desplazamiento de la fase de lectura</mark>, que daría lugar a una <mark class=\"clave-criterio\">proteína diferente</mark> (0,25 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2005 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 4",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2005,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/gm2005-arnm-codigo.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/gm2005-arnm-codigo.thumb.webp",
+   "imageDesc": "ARN mensajero 5′…GAGCGUGGGACUAGCUUUUAUGUC…3′ con una flecha bajo la última U de UUU, y tabla del código genético.",
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2005, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2005-gm-4",
+   "block": "Genética",
+   "topic": "Replicación, transcripción y traducción: dónde y cómo",
+   "anio": 2005,
+   "etiqueta": "PAU 2005",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "Defina los siguientes conceptos: replicación [0,3], transcripción [0,3] y traducción [0,3]. ¿En qué parte de las células procariótica y eucariótica tienen lugar estos procesos? [0,4]. Describa cómo se lleva a cabo la transcripción [0,7].",
+   "c": [
+    "Cada concepto, 0,3 p (0,9 p). <span class=\"redactado\">Replicación: síntesis de una copia del ADN; transcripción: síntesis de ARN a partir de un molde de ADN; traducción: síntesis de una proteína según la secuencia del ARNm.</span>",
+    "Localización en procariotas (0,1 p) y en eucariotas (0,3 p) (0,4 p). <span class=\"redactado\">En procariotas, los tres en el citoplasma. En eucariotas, replicación y transcripción en el núcleo, y también en mitocondrias y cloroplastos; traducción en los ribosomas del citoplasma.</span>",
+    "En la explicación de la transcripción debe incluirse: <mark class=\"clave-criterio\">copia de una sola cadena del ADN</mark>, acción de la <mark class=\"clave-criterio\">ARN polimerasa</mark>, <mark class=\"clave-criterio\">señales de inicio y de terminación</mark> (0,7 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2005 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 2",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2005,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2005, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 2, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2005-gm-5",
+   "block": "Genética",
+   "topic": "Sustitución de bases y sus cuatro posibles efectos",
+   "anio": 2005,
+   "etiqueta": "PAU 2005",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "Suponga que en un fragmento de ADN que codifica un polipéptido se produce una mutación que cambia un par de bases por otro. Debido a ello, cuando la célula sintetice de nuevo el polipéptido pueden ocurrir cualquiera de los cuatro hechos siguientes:<br>1. Que se codifique el mismo aminoácido.<br>2. Que se sustituya un aminoácido por otro distinto.<br>3. Que el nuevo polipéptido sintetizado sea más corto.<br>4. Que el nuevo polipéptido sintetizado sea más largo.<br>Basándose en sus conocimientos del código genético, explique cómo se produciría cada uno de estos resultados [1].",
+   "c": [
+    "1. La mutación da lugar a un <mark class=\"clave-criterio\">codón diferente que codifica el mismo aminoácido</mark>, posible gracias a que el código genético es <mark class=\"clave-criterio\">degenerado</mark> (0,25 p).",
+    "2. La mutación da lugar a un <mark class=\"clave-criterio\">codón diferente que codifica otro aminoácido</mark> (0,25 p).",
+    "3. La mutación produce un <mark class=\"clave-criterio\">codón de parada</mark> que impide que se sintetice el polipéptido en su totalidad (0,25 p).",
+    "4. La mutación ha <mark class=\"clave-criterio\">afectado al codón de parada</mark>, haciendo que codifique un aminoácido y permitiendo la síntesis de un polipéptido más largo (0,25 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2005 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 4",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2005,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2005, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2005-gm-6",
+   "block": "Célula",
+   "topic": "Ciclo celular: fases, procesos y contenido de ADN",
+   "anio": 2005,
+   "etiqueta": "PAU 2005",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "Defina el ciclo celular [0,5] e indique las fases en que se divide realizando un esquema [0,5]. Indique en qué fase o fases ocurren los procesos de replicación, transcripción, traducción y reparto del material hereditario [0,5]. Represente gráficamente cómo varía el contenido de ADN durante las fases [0,5].",
+   "c": [
+    "Ciclo celular: <mark class=\"clave-criterio\">fases por las que discurre una célula</mark> desde que se origina por división de una preexistente <mark class=\"clave-criterio\">hasta que se divide</mark> y da origen a dos células hijas (0,5 p).",
+    "Fases: <mark class=\"clave-criterio\">interfase</mark> (<mark class=\"clave-criterio\">G1, S, G2</mark>) y <mark class=\"clave-criterio\">mitosis</mark> (M), con su esquema (0,5 p).",
+    "Replicación: interfase (<mark class=\"clave-criterio\">fase S</mark>); transcripción y traducción: interfase (fases <mark class=\"clave-criterio\">G1, S y G2</mark>); reparto del material hereditario: <mark class=\"clave-criterio\">mitosis</mark> (M) (0,5 p).",
+    "Gráfico de variación del contenido de ADN (0,5 p). <span class=\"redactado\">La cantidad de ADN se duplica durante la fase S (de 2C a 4C), se mantiene en G2 y vuelve a 2C al separarse las cromátidas en la mitosis.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2005 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 2",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2005,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2005, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 2, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2005-gm-7",
+   "block": "Genética",
+   "topic": "Dibujo de una cadena de ADN y de su ARN complementario",
+   "anio": 2005,
+   "etiqueta": "PAU 2005",
+   "hasImg": true,
+   "puntos": 1,
+   "competencial": true,
+   "q": "Usando los símbolos adjuntos, dibuje una cadena de ADN que tenga la secuencia 5′-ATCG-3′ [0,5]. Dibuje también una molécula de ARN con la secuencia complementaria a la molécula de ADN anterior [0,5].",
+   "c": [
+    "<mark class=\"clave-criterio\">Molécula de ADN correcta</mark> (0,5 p). <span class=\"redactado\">Cuatro nucleótidos con desoxirribosa, que tiene H en el carbono 2′, unidos por fosfatos entre el 3′ de uno y el 5′ del siguiente, con las bases A, T, C y G.</span>",
+    "<mark class=\"clave-criterio\">Molécula de ARN correcta</mark> (0,5 p). <span class=\"redactado\">Con ribosa, que tiene OH en el carbono 2′, y la secuencia complementaria y antiparalela: 3′-UAGC-5′, o lo que es lo mismo, 5′-CGAU-3′.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2005 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 4",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2005,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/gm2005-simbolos.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/gm2005-simbolos.thumb.webp",
+   "imageDesc": "Símbolos para dibujar: una ribosa (con OH en el carbono 2′), una desoxirribosa (con H en el carbono 2′), un grupo fosfato (P) y las bases A, T, G, C y U.",
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2005, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2005-gm-8",
+   "block": "Genética",
+   "topic": "Transcripción y traducción simultáneas: extremos y ribosomas",
+   "anio": 2005,
+   "etiqueta": "PAU 2005",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "En relación con la figura adjunta, responda las siguientes cuestiones:<br>a) ¿Cómo se denominan los dos procesos biológicos representados? [0,5]. Identifique los distintos elementos de la figura señalados con números [0,5].<br>b) Identifique los extremos del elemento 2 (a y b) y los extremos del elemento 5 (c y d) [0,5]. ¿Cuál es la composición química de los elementos señalados con los números 3 y 4? [0,5].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Transcripción</mark> y <mark class=\"clave-criterio\">traducción</mark> (0,5 p).",
+    "1: <mark class=\"clave-criterio\">ADN</mark>; 2: <mark class=\"clave-criterio\">ARNm</mark>; 3: <mark class=\"clave-criterio\">subunidad pequeña del ribosoma</mark>; 4: <mark class=\"clave-criterio\">subunidad grande del ribosoma</mark>; 5: <mark class=\"clave-criterio\">proteína</mark> (0,5 p).",
+    "b) Extremo <mark class=\"clave-criterio\">5′ del ARNm</mark> (a); extremo <mark class=\"clave-criterio\">3′ del ARNm</mark> (b); extremo <mark class=\"clave-criterio\">N-terminal</mark> (d) y <mark class=\"clave-criterio\">C-terminal</mark> (c) de la proteína (0,5 p).",
+    "Composición de 3 y 4: <mark class=\"clave-criterio\">ARNr y proteínas</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2005 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 6",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2005,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/gm2005-procesos.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/gm2005-procesos.thumb.webp",
+   "imageDesc": "Una ARN polimerasa recorre el ADN (1) y libera un ARNm (2), sobre el que varios ribosomas, con su subunidad pequeña (3) y grande (4), sintetizan proteínas (5); se señalan los extremos a y b del ARNm y c y d de la proteína.",
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2005, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 6, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2005-prot-1",
+   "block": "Biomoléculas",
+   "topic": "α-queratina y moldeado del cabello",
+   "anio": 2005,
+   "etiqueta": "PAU 2005",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "La α-queratina es una proteína presente en la piel de mamíferos y en sus derivados como uñas y pelos, siendo responsable en gran medida de los rizos naturales del cabello. Los «moldeados» son tratamientos capilares que modifican el aspecto natural del cabello haciendo desaparecer rizos naturales y provocando la aparición de otros supuestamente más estéticos. Explique razonadamente la probable actuación de los «moldeadores» sobre las α-queratinas capilares [1].",
+   "c": [
+    "Los moldeadores contienen sustancias que <mark class=\"clave-criterio\">destruyen algunos de los enlaces</mark> establecidos naturalmente en la α-queratina y <mark class=\"clave-criterio\">provocan la aparición de otros</mark> que modifican el aspecto del cabello. Se aceptan explicaciones basadas en <mark class=\"clave-criterio\">desnaturalización y renaturalización</mark> (1 p). <span class=\"redactado\">Sobre todo se rompen y se vuelven a formar, en otras posiciones, los puentes disulfuro entre cisteínas.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2005 (recopilación por temas) · Proteínas",
+    "referencia": "pregunta 4",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "examen_anio": 2005,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2005, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2005-prot-2",
+   "block": "Biomoléculas",
+   "topic": "Funciones de las proteínas con ejemplos",
+   "anio": 2005,
+   "etiqueta": "PAU 2005",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "Cite cuatro de las funciones más relevantes de las proteínas [0,4] y explique dos de ellas [1,2], ilustrando cada explicación con un ejemplo [0,4].",
+   "c": [
+    "Funciones: <mark class=\"clave-criterio\">catálisis</mark>, <mark class=\"clave-criterio\">transporte</mark>, <mark class=\"clave-criterio\">movimiento</mark>, <mark class=\"clave-criterio\">contracción</mark>, <mark class=\"clave-criterio\">reconocimiento celular</mark>, <mark class=\"clave-criterio\">estructural</mark>, <mark class=\"clave-criterio\">nutritiva</mark>, etc. 0,1 p cada una (0,4 p).",
+    "Explicación correcta de cada función, 0,6 p (1,2 p). Cada ejemplo, 0,2 p (0,4 p). <span class=\"redactado\">Por ejemplo: catalítica, las enzimas aceleran reacciones, como la amilasa que hidroliza el almidón; transporte, la hemoglobina lleva O₂ por la sangre.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2005 (recopilación por temas) · Proteínas",
+    "referencia": "pregunta 1",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "examen_anio": 2005,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2005, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 1, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2005-prot-3",
+   "block": "Biomoléculas",
+   "topic": "Desnaturalización: enlaces afectados y factores",
+   "anio": 2005,
+   "etiqueta": "PAU 2005",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "Explique en qué consiste la desnaturalización proteica [0,6]. Indique qué tipos de enlaces se conservan y cuáles se ven afectados [0,7]. ¿Qué factores provocan la desnaturalización? [0,7].",
+   "c": [
+    "Explicación (0,6 p). <span class=\"redactado\">Pérdida de la estructura nativa, es decir, de las estructuras secundaria, terciaria y cuaternaria, con pérdida de la función biológica, sin romperse la primaria.</span>",
+    "<mark class=\"clave-criterio\">Enlaces peptídicos</mark> (<mark class=\"clave-criterio\">no se alteran</mark>); <mark class=\"clave-criterio\">disulfuro</mark>, <mark class=\"clave-criterio\">hidrógeno</mark> e <mark class=\"clave-criterio\">interacciones débiles</mark> (<mark class=\"clave-criterio\">sí se alteran</mark>) (0,7 p).",
+    "<mark class=\"clave-criterio\">Físicos</mark> (temperatura, etc.); <mark class=\"clave-criterio\">químicos</mark> (pH, sustancias, etc.) (0,7 p). <span class=\"redactado\">En 2002 cayó esta misma pregunta valorada en 1,5 puntos.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2005 (recopilación por temas) · Proteínas",
+    "referencia": "pregunta 1",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "examen_anio": 2005,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2005, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 1, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2005-enz-1",
+   "block": "Biomoléculas",
+   "topic": "Efecto de la temperatura en dos enzimas",
+   "anio": 2005,
+   "etiqueta": "PAU 2005",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "En relación con la figura adjunta, conteste las siguientes cuestiones:<br>a) ¿Qué representa la gráfica? [0,2]. Describa el comportamiento de ambos enzimas [0,8].<br>b) El enzima A cataliza la transformación del sustrato X en el producto Y. El enzima B cataliza la transformación de X en el producto Z. ¿Cuál de los dos productos se formará en mayor cantidad a 40 ºC? [0,5]. ¿Y a 70 ºC? [0,5]. Razone las respuestas.",
+   "c": [
+    "a) El <mark class=\"clave-criterio\">efecto de la temperatura sobre la actividad</mark> de dos enzimas (0,2 p).",
+    "Ambos enzimas tienen prácticamente la <mark class=\"clave-criterio\">misma actividad a temperaturas bajas</mark> (20 ºC). El enzima <mark class=\"clave-criterio\">A</mark> tiene un <mark class=\"clave-criterio\">máximo de actividad a los 40 ºC</mark> y va disminuyendo a partir de esa temperatura, mientras que el <mark class=\"clave-criterio\">B</mark> aumenta su actividad con la temperatura y alcanza la <mark class=\"clave-criterio\">máxima por encima de los 70 ºC</mark>; a esa temperatura el A <mark class=\"clave-criterio\">prácticamente no tiene actividad</mark> (0,8 p).",
+    "b) A 40 ºC se formará en mayor cantidad <mark class=\"clave-criterio\">Y</mark>, porque a esa temperatura la mayor actividad la presenta el <mark class=\"clave-criterio\">enzima A</mark> (0,5 p).",
+    "A 70 ºC se formará en mayor cantidad <mark class=\"clave-criterio\">Z</mark>, porque a esa temperatura la mayor actividad la presenta el <mark class=\"clave-criterio\">enzima B</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2005 (recopilación por temas) · Enzimas",
+    "referencia": "pregunta 6",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/05 PAU Enzimas.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/05 PAU Enzimas.odt",
+    "examen_anio": 2005,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/enz2005-temperatura.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/enz2005-temperatura.thumb.webp",
+   "imageDesc": "Gráfica de actividad enzimática (0-120) frente a temperatura (0-80 ºC): el enzima A (círculos blancos) sube hasta un máximo hacia 40-45 ºC y cae bruscamente; el enzima B (círculos negros) aumenta de forma continua hasta 70 ºC.",
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2005, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 6, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2006-gm-1",
+   "block": "Genética",
+   "topic": "Flujo de la información genética: procesos y enzimas",
+   "anio": 2006,
+   "etiqueta": "PAU 2006",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "En relación con la figura adjunta que representa el flujo de la información genética, responda las siguientes cuestiones:<br>a) Nombre cada uno de los procesos biológicos que se indican con las letras a, b, c y d [0,4]. Relacione cada uno de estos procesos con: ARN polimerasa dependiente de ADN, ribosomas, ADN polimerasa, anticodón, transcriptasa inversa, aminoácidos, ARN transferente y cebadores de ARN [0,6].<br>b) Exponga la función de cada uno de estos procesos [1].",
+   "c": [
+    "a) a: <mark class=\"clave-criterio\">replicación</mark> del ADN; b: <mark class=\"clave-criterio\">transcripción</mark>; c: <mark class=\"clave-criterio\">transcripción inversa</mark>; d: <mark class=\"clave-criterio\">traducción</mark> (0,4 p).",
+    "Replicación: <mark class=\"clave-criterio\">ADN polimerasa</mark> y <mark class=\"clave-criterio\">cebadores de ARN</mark> (0,2 p). Transcripción: <mark class=\"clave-criterio\">ARN polimerasa dependiente de ADN</mark> (0,1 p). Transcripción inversa: <mark class=\"clave-criterio\">transcriptasa inversa</mark> (0,1 p). Traducción: <mark class=\"clave-criterio\">aminoácidos</mark>, <mark class=\"clave-criterio\">ARNt</mark>, <mark class=\"clave-criterio\">ribosomas</mark> y <mark class=\"clave-criterio\">anticodón</mark> (0,2 p).",
+    "b) Replicación: <mark class=\"clave-criterio\">duplicación del material genético</mark>, imprescindible para su perpetuación y reparto en la división celular (0,25 p).",
+    "Transcripción: <mark class=\"clave-criterio\">copia del ADN en los diferentes tipos de ARN</mark> necesarios para la expresión de la información genética (0,25 p).",
+    "Transcripción inversa: <mark class=\"clave-criterio\">copia del ARN en ADN</mark>, utilizada por los <mark class=\"clave-criterio\">virus con genoma de ARN</mark> en su ciclo vital (0,25 p).",
+    "Traducción: el mensaje del <mark class=\"clave-criterio\">ARNm</mark> es leído mediante un código que asigna a cada <mark class=\"clave-criterio\">triplete</mark> un <mark class=\"clave-criterio\">aminoácido</mark>; es el proceso por el que se produce la <mark class=\"clave-criterio\">síntesis de proteínas</mark> (0,25 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2006 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 6",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2006,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/gm2006-flujo.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/gm2006-flujo.thumb.webp",
+   "imageDesc": "Esquema del flujo de información: una flecha circular (a) sobre el ADN, una flecha b de ADN a ARN, una flecha c de ARN a ADN y una flecha d de ARN a polipéptido.",
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2006, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 6, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2006-gm-2",
+   "block": "Genética",
+   "topic": "Tamaño del ARNm, anticodones y ADN molde",
+   "anio": 2006,
+   "etiqueta": "PAU 2006",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "a) Si un polipéptido tiene 450 aminoácidos, indique cuántos ribonucleótidos tendrá el fragmento del ARN mensajero que codifica esos aminoácidos [0,2]. b) Indique cuáles serán los anticodones de los ARN transferentes correspondientes a la molécula de ARNm 5′-GUU-UUC-GCA-UGG-3′ [0,4]. c) Indique la secuencia de ADN que sirvió de molde para este mismo ARN mensajero [0,4].",
+   "c": [
+    "a) 450 × 3 = <mark class=\"clave-criterio\">1350 ribonucleótidos</mark> (0,2 p).",
+    "b) <mark class=\"clave-criterio\">CAA, AAG, CGU, ACC</mark> (0,4 p). <span class=\"redactado\">Cada anticodón es complementario y antiparalelo a su codón: por eso se escriben aquí en sentido 3′→5′.</span>",
+    "c) <mark class=\"clave-criterio\">3′-CAAAAGCGTACC-5′</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2006 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 5",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2006,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2006, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2006-gm-3",
+   "block": "Genética",
+   "topic": "ADN: nucleótidos, antiparalelismo y replicación",
+   "anio": 2006,
+   "etiqueta": "PAU 2006",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "En relación con la figura adjunta, responda las siguientes cuestiones:<br>a) Nombre el tipo de molécula de que se trata [0,25]. ¿Cómo se denominan sus monómeros [0,2] y cuál es su composición? [0,3]. Considerando la molécula en sentido longitudinal, las notaciones 3′ y 5′ se sitúan en posiciones opuestas. Explique el significado de este hecho [0,25].<br>b) ¿Cómo se denomina el proceso por el cual esta molécula se duplica? [0,2]. Explíquelo brevemente [0,8].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">ADN</mark> (0,25 p). Monómeros: <mark class=\"clave-criterio\">nucleótidos</mark> (0,2 p). Composición: <mark class=\"clave-criterio\">ácido fosfórico</mark>, <mark class=\"clave-criterio\">pentosa</mark> (desoxirribosa) y <mark class=\"clave-criterio\">base nitrogenada</mark> (0,3 p).",
+    "Las notaciones opuestas se deben a que <mark class=\"clave-criterio\">las cadenas son antiparalelas</mark> (0,25 p).",
+    "b) <mark class=\"clave-criterio\">Replicación</mark> (0,2 p).",
+    "Para la máxima puntuación deben mencionarse: <mark class=\"clave-criterio\">ADN</mark>, <mark class=\"clave-criterio\">origen de replicación</mark>, cadenas <mark class=\"clave-criterio\">adelantada y retrasada</mark>, <mark class=\"clave-criterio\">cebador</mark>, <mark class=\"clave-criterio\">fragmento de Okazaki</mark>, <mark class=\"clave-criterio\">ADN polimerasa</mark> y <mark class=\"clave-criterio\">ligasa</mark> (0,8 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2006 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 6",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2006,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/gm2006-adn.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/gm2006-adn.thumb.webp",
+   "imageDesc": "Dos representaciones del ADN: a la izquierda, un esquema de las dos cadenas con sus extremos 5′ y 3′ opuestos y las bases unidas; a la derecha, la doble hélice con sus medidas (34 Å por vuelta, 3,4 Å entre pares de bases y 20 Å de diámetro).",
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2006, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 6, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2006-gm-4",
+   "block": "Genética",
+   "topic": "Universalidad del código y expresión de genes en otro organismo",
+   "anio": 2006,
+   "etiqueta": "PAU 2006",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "¿Qué característica tiene el código genético que permite que un gen de un organismo se pueda expresar en otro? [1]. Razone la respuesta.",
+   "c": [
+    "La respuesta debe aludir fundamentalmente al <mark class=\"clave-criterio\">carácter universal del código</mark> (1 p): <span class=\"redactado\">un mismo codón se traduce por el mismo aminoácido en casi todos los organismos, así que la proteína obtenida es la misma.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2006 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 4",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2006,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2006, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2006-gm-5",
+   "block": "Biotecnología",
+   "topic": "Transferencia nuclear: a quién se parece el clon",
+   "anio": 2006,
+   "etiqueta": "PAU 2006",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "A un óvulo de una hembra A se le elimina su núcleo y se le introduce el núcleo de una célula somática de un individuo B, y posteriormente se implanta en el útero de una hembra C. Si los individuos A, B y C son de la misma especie, ¿a quién se parecerán las características genéticas del individuo resultante? [1]. Razone la respuesta.",
+   "c": [
+    "Se parecerá al <mark class=\"clave-criterio\">individuo B</mark>, por proceder de él el <mark class=\"clave-criterio\">material genético</mark> (del núcleo) (1 p). <span class=\"redactado\">El óvulo de A solo aporta el citoplasma, con su ADN mitocondrial, y C solo aporta el útero.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2006 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 5",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2006,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2006, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2006-gm-6",
+   "block": "Genética",
+   "topic": "Verdadero o falso: mutación, maduración, replicación y código",
+   "anio": 2006,
+   "etiqueta": "PAU 2006",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "Indique si las afirmaciones siguientes son ciertas o falsas, razonando la respuesta:<br>a) Si en un ARNm se introduce un uracilo en la posición donde debería colocarse una citosina se produce una mutación [0,25].<br>b) En eucariotas el ARNm puede ser traducido nada más sintetizarse [0,25].<br>c) En una horquilla de replicación las dos hebras del ADN se replican en sentido 5′→3′ [0,25].<br>d) Si dos genes tienen secuencias de tripletes diferentes codificarán siempre cadenas peptídicas diferentes [0,25].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Falsa</mark>: un cambio en el ARNm no es una mutación; las mutaciones son <mark class=\"clave-criterio\">cambios en el ADN</mark> (0,25 p).",
+    "b) <mark class=\"clave-criterio\">Falsa</mark>: en eucariotas la síntesis del ARNm y su <mark class=\"clave-criterio\">maduración</mark> se producen <mark class=\"clave-criterio\">dentro del núcleo</mark>, y debe salir de él para ser traducido en el citoplasma (0,25 p).",
+    "c) <mark class=\"clave-criterio\">Verdadera</mark>: las ADN polimerasas sintetizan en <mark class=\"clave-criterio\">sentido 5′→3′</mark>. Por ello una hebra se sintetiza de forma <mark class=\"clave-criterio\">continua</mark> (adelantada) y la otra de forma <mark class=\"clave-criterio\">fragmentada</mark> (retrasada, <mark class=\"clave-criterio\">fragmentos de Okazaki</mark>) (0,25 p).",
+    "d) <mark class=\"clave-criterio\">Falsa</mark>: el código genético es <mark class=\"clave-criterio\">degenerado</mark>, es decir, varios tripletes diferentes pueden codificar el <mark class=\"clave-criterio\">mismo aminoácido</mark> (0,25 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2006 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 4",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2006,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2006, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2006-gm-7",
+   "block": "Genética",
+   "topic": "Texto con los términos del flujo de información genética",
+   "anio": 2006,
+   "etiqueta": "PAU 2006",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "Redacte un texto en el que se relacionen de forma coherente los siguientes términos: aminoácidos, poros nucleares, ARN mensajero, ARN transferente, ribosomas, código genético, ADN y proteínas [1].",
+   "c": [
+    "Cualquier redacción coherente que relacione los términos con el <mark class=\"clave-criterio\">flujo de información genética</mark> (1 p).",
+    "<span class=\"redactado\">Ejemplo: en el núcleo, el ADN se transcribe a ARN mensajero, que sale al citoplasma por los poros nucleares. En los ribosomas, el ARN mensajero se traduce según el código genético: cada ARN transferente lleva un aminoácido y lo coloca según su anticodón, y los aminoácidos se unen formando las proteínas.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2006 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 4 (también en 2003; en 2002, con menos términos)",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2006,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2006, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 4 (también en 2003; en 2002, con menos términos), 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2006-prot-1",
+   "block": "Biomoléculas",
+   "topic": "Formación de un dipéptido",
+   "anio": 2006,
+   "etiqueta": "PAU 2006",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "A la vista de la imagen adjunta, responda las siguientes cuestiones:<br>a) ¿Qué tipo de biomoléculas están representadas en la primera parte de la ecuación? [0,1]. ¿Cuáles son sus principales características? [0,4]. ¿Qué representan R₁ y R₂? [0,1]. ¿Qué nombre recibe el enlace que se produce? [0,2]. Indique la procedencia de los átomos de hidrógeno y de oxígeno de la molécula de agua que se libera en la reacción [0,2].<br>b) ¿Qué nombre recibe la molécula resultante en el esquema? [0,1]. ¿Qué orgánulo está implicado en la formación de este enlace? [0,2]. ¿Qué nombre reciben las moléculas formadas por gran cantidad de monómeros unidos por enlaces de este tipo? [0,1]. Enumere tres de sus funciones [0,6].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Aminoácidos</mark> (0,1 p).",
+    "Tienen un <mark class=\"clave-criterio\">grupo amino</mark> y uno <mark class=\"clave-criterio\">carboxilo</mark>; se diferencian por sus <mark class=\"clave-criterio\">radicales</mark>, que pueden ser polares, apolares, alifáticos, aromáticos, etc.; los aminoácidos proteicos <mark class=\"clave-criterio\">no sobrepasan la veintena</mark> (0,4 p).",
+    "R₁ y R₂: las <mark class=\"clave-criterio\">cadenas laterales o radicales</mark> que diferencian a unos aminoácidos de otros (0,1 p).",
+    "<mark class=\"clave-criterio\">Enlace peptídico</mark> (0,2 p). El agua procede de <mark class=\"clave-criterio\">un hidrógeno del grupo amino</mark> y <mark class=\"clave-criterio\">un hidroxilo del grupo carboxilo</mark> (0,2 p).",
+    "b) <mark class=\"clave-criterio\">Dipéptido</mark> (0,1 p). Orgánulo: <mark class=\"clave-criterio\">ribosomas</mark> (0,2 p). <mark class=\"clave-criterio\">Polipéptidos o proteínas</mark> (0,1 p).",
+    "Funciones: <mark class=\"clave-criterio\">transportadora</mark>, <mark class=\"clave-criterio\">catalítica</mark>, <mark class=\"clave-criterio\">estructural</mark>, <mark class=\"clave-criterio\">reguladora</mark>, reconocimiento celular, etc. 0,2 p cada función (0,6 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2006 (recopilación por temas) · Proteínas",
+    "referencia": "pregunta 6",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "examen_anio": 2006,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/prot2006-dipeptido.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/prot2006-dipeptido.thumb.webp",
+   "imageDesc": "Reacción: dos aminoácidos (con sus radicales R₁ y R₂) se unen liberando una molécula de agua y forman un dipéptido con el enlace –CO–NH–.",
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2006, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 6, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2006-met-1",
+   "block": "Metabolismo",
+   "topic": "Fase luminosa en la membrana del tilacoide",
+   "anio": 2006,
+   "etiqueta": "PAU 2006",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "En relación con la imagen adjunta, responda las siguientes cuestiones:<br>a) ¿Qué proceso biológico se representa en la figura? [0,2]. ¿Cuál es su finalidad? [0,5]. ¿Qué tipo de células lo llevan a cabo? [0,3].<br>b) Indique qué corresponde a cada número [1].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Fotosíntesis</mark> (0,2 p). <span class=\"redactado\">Concretamente, su fase luminosa.</span>",
+    "Finalidad: <mark class=\"clave-criterio\">conversión de energía luminosa en energía química</mark> (0,5 p).",
+    "<mark class=\"clave-criterio\">Células vegetales</mark> y <mark class=\"clave-criterio\">algunas bacterias</mark>. 0,15 p cada una (0,3 p).",
+    "b) 1 y 2: <mark class=\"clave-criterio\">fotones de luz</mark> (0,1 p); 3: <mark class=\"clave-criterio\">NADP⁺</mark> (0,15 p); 4: <mark class=\"clave-criterio\">NADPH</mark> (0,15 p); 5: <mark class=\"clave-criterio\">H₂O</mark> (0,15 p); 6: <mark class=\"clave-criterio\">O₂</mark> (0,15 p); 7: <mark class=\"clave-criterio\">ADP</mark> (0,15 p); 8: <mark class=\"clave-criterio\">ATP</mark> (0,15 p) (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2006 (recopilación por temas) · Metabolismo",
+    "referencia": "pregunta 6",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/METABOLISMO/08 PAU Metabolismo.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/METABOLISMO/08 PAU Metabolismo.odt",
+    "examen_anio": 2006,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/met2006-fotofosforilacion.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/met2006-fotofosforilacion.thumb.webp",
+   "imageDesc": "Esquema de la membrana de un tilacoide: la luz (1 y 2) excita dos fotosistemas; los electrones pasan por una cadena de transportadores hasta reducir 3 a 4; el agua (5) se rompe liberando 6 y H⁺; los protones acumulados en el interior del tilacoide salen por la ATP sintasa, que transforma 7 en 8.",
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2006, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 6, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2006-met-2",
+   "block": "Metabolismo",
+   "topic": "Sacarosa, bacterias bucales y caries",
+   "anio": 2006,
+   "etiqueta": "PAU 2006",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "En alimentación se utiliza habitualmente azúcar blanco, que está constituido por sacarosa. Su utilización exige una cuidada higiene de la cavidad bucal para evitar corrosiones ácidas del esmalte dental que son conocidas como caries. Explique razonadamente el proceso que provoca la aparición de ácidos corrosivos a partir de residuos de sacarosa [1].",
+   "c": [
+    "La corrosión del esmalte la provoca la <mark class=\"clave-criterio\">metabolización de los residuos de sacarosa</mark> por la <mark class=\"clave-criterio\">microbiota bucal</mark> en condiciones <mark class=\"clave-criterio\">anaerobias y/o fermentativas</mark> (1 p). <span class=\"redactado\">La fermentación láctica produce ácido láctico, que baja el pH y disuelve el esmalte.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2006 (recopilación por temas) · Metabolismo",
+    "referencia": "pregunta 4",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/METABOLISMO/08 PAU Metabolismo.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/METABOLISMO/08 PAU Metabolismo.odt",
+    "examen_anio": 2006,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2006, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2006-mic-1",
+   "block": "Microbiología",
+   "topic": "Semmelweis y la fiebre puerperal",
+   "anio": 2006,
+   "etiqueta": "PAU 2006",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "En el siglo XIX el doctor Ignaz Semmelweis, haciendo estudios comparativos en dos hospitales sobre las fiebres que padecían las mujeres después del parto, encontró que en un hospital el 10 % de las mujeres que habían sido atendidas por cirujanos morían, mientras que en el otro hospital, donde las mujeres eran atendidas solo por comadronas (mujeres que atendían los partos), la mortalidad era del 4 %. También observó que algunos cirujanos del primer hospital solían atender a las parturientas después de realizar autopsias (examinar cadáveres). ¿Qué explicación científica le daría a la diferencia en el porcentaje de mortalidad entre los dos hospitales? [0,5]. ¿Qué recomendación hubiera dado usted, sin modificar la actividad de los cirujanos, para disminuir el porcentaje de muertes en el primer hospital? [0,5]. Razone las respuestas.",
+   "c": [
+    "Relación entre las <mark class=\"clave-criterio\">autopsias</mark> y la atención a las parturientas <mark class=\"clave-criterio\">sin la debida asepsia</mark>: los propios <mark class=\"clave-criterio\">cirujanos eran los transmisores de las infecciones</mark> que causaban la elevada mortalidad (0,5 p).",
+    "Cualquier recomendación que implique la <mark class=\"clave-criterio\">desinfección del material y de las manos</mark> de los cirujanos que atendían partos después de las autopsias (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2006 (recopilación por temas) · Microbiología",
+    "referencia": "pregunta 3",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
+    "examen_anio": 2006,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2006, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 3, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2006-mic-2",
+   "block": "Microbiología",
+   "topic": "Clasificación de los microorganismos",
+   "anio": 2006,
+   "etiqueta": "PAU 2006",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "Realice una clasificación de los cinco tipos principales de microorganismos indicando el criterio utilizado [0,5]. Cite tres características de cada tipo que permitan distinguirlos entre sí [1,5].",
+   "c": [
+    "Criterio: <mark class=\"clave-criterio\">organización celular</mark>. Formas <mark class=\"clave-criterio\">acelulares</mark>: virus, viroides y priones. Formas <mark class=\"clave-criterio\">celulares</mark> <mark class=\"clave-criterio\">procariotas</mark>: bacterias; <mark class=\"clave-criterio\">eucariotas</mark>: algas, hongos y protozoos (0,5 p).",
+    "Características (1,5 p): virus, <mark class=\"clave-criterio\">un solo tipo de ácido nucleico</mark>; bacterias, <mark class=\"clave-criterio\">unicelulares</mark> y división por <mark class=\"clave-criterio\">bipartición</mark>; algas, uni o pluricelulares y <mark class=\"clave-criterio\">fotosintéticas</mark>; hongos, uni o pluricelulares, <mark class=\"clave-criterio\">heterótrofos</mark> con nutrición <mark class=\"clave-criterio\">por absorción</mark>; protozoos, <mark class=\"clave-criterio\">unicelulares</mark> y heterótrofos. <span class=\"redactado\">Hacen falta tres por grupo; por ejemplo, para los virus: acelulares, parásitos obligados y sin metabolismo propio.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2006 (recopilación por temas) · Microbiología",
+    "referencia": "pregunta 4",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
+    "examen_anio": 2006,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2006, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 4, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2006-mic-3",
+   "block": "Microbiología",
+   "topic": "Un antibiótico contra los ribosomas 70S",
+   "anio": 2006,
+   "etiqueta": "PAU 2006",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "Suponga que existe un antibiótico, llamado «ribosomicina», que inhibe la síntesis de proteínas porque impide la actividad de los ribosomas 70S. Dado que las bacterias tienen este tipo de ribosomas, ¿se podría utilizar la ribosomicina para combatir infecciones bacterianas en los seres humanos? [0,5]. ¿Sería recomendable este antibiótico en el caso de una infección vírica? [0,5]. Razone las respuestas.",
+   "c": [
+    "<mark class=\"clave-criterio\">No es aconsejable</mark>, ya que los <mark class=\"clave-criterio\">ribosomas 70S</mark> también están en las <mark class=\"clave-criterio\">mitocondrias</mark> y se paralizarían las funciones mitocondriales (0,5 p).",
+    "<mark class=\"clave-criterio\">No</mark>, porque los <mark class=\"clave-criterio\">virus carecen de ribosomas</mark> y no tendría ninguna utilidad frente a ellos (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2006 (recopilación por temas) · Microbiología",
+    "referencia": "pregunta 5",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
+    "examen_anio": 2006,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2006, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2006-mic-4",
+   "block": "Microbiología",
+   "topic": "Estructura de un bacteriófago y de la bacteria que infecta",
+   "anio": 2006,
+   "etiqueta": "PAU 2006",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "Describa la organización estructural de un bacteriófago [1] y la de la célula a la que infecta [1].",
+   "c": [
+    "Bacteriófago: un <mark class=\"clave-criterio\">ácido nucleico</mark> (ADN o ARN, nunca los dos), una <mark class=\"clave-criterio\">cápsida proteica</mark> formada por <mark class=\"clave-criterio\">capsómeros</mark> que lo rodea (1 p). <span class=\"redactado\">El criterio de la recopilación añade una envoltura membranosa, pero la mayoría de los bacteriófagos, como el T4, no la tienen; el T4 tiene cabeza y una cola con vaina contráctil, placa basal y fibras.</span>",
+    "La célula infectada es una <mark class=\"clave-criterio\">bacteria</mark>: <mark class=\"clave-criterio\">cápsula</mark>, <mark class=\"clave-criterio\">pared</mark>, <mark class=\"clave-criterio\">membrana plasmática</mark>, citoplasma con <mark class=\"clave-criterio\">ribosomas 70S</mark> e inclusiones, <mark class=\"clave-criterio\">cromosoma</mark>, <mark class=\"clave-criterio\">plásmidos</mark>, pili y <mark class=\"clave-criterio\">flagelos</mark> (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2006 (recopilación por temas) · Microbiología",
+    "referencia": "pregunta 6",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
+    "examen_anio": 2006,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2006, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 6, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2006-mic-5",
+   "block": "Microbiología",
+   "topic": "Bacteria llena de fagos T4: ciclo lítico",
+   "anio": 2006,
+   "etiqueta": "PAU 2006",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "La imagen representa una bacteria en cuyo interior se aprecian muchos fagos T4. Responda razonadamente las siguientes cuestiones:<br>a) Dibuje la estructura del bacteriófago T4 e indique qué tipo de ácido nucleico tiene [0,5]. ¿Por qué este virus parasita a un solo tipo de bacterias y no a otros? [0,2]. Indique una causa por la que un virus debe ser parásito [0,3].<br>b) Indique qué tipo de ciclo vital está realizando el virus [0,2]. ¿Qué fase de ese ciclo se corresponde con la imagen? Razone la respuesta [0,3]. Describa dicha fase [0,5].",
+   "c": [
+    "a) Dibujo de un virus de estructura compleja: <mark class=\"clave-criterio\">cabeza</mark> (cápsida y <mark class=\"clave-criterio\">ADN</mark>) (0,2 p) y <mark class=\"clave-criterio\">cola</mark> (vaina y placa basal con fibras) (0,3 p) (0,5 p).",
+    "Porque necesita <mark class=\"clave-criterio\">receptores específicos</mark> a los que se unan las <mark class=\"clave-criterio\">fibras de la cola</mark> (0,2 p).",
+    "<mark class=\"clave-criterio\">Incapacidad de replicar su material genético</mark> por sí mismo, <mark class=\"clave-criterio\">ausencia de orgánulos</mark>, etc. (0,3 p).",
+    "b) <mark class=\"clave-criterio\">Ciclo lítico</mark> (0,2 p).",
+    "Fase de <mark class=\"clave-criterio\">ensamblaje</mark> (maduración), porque es la única en la que se ven <mark class=\"clave-criterio\">partículas víricas ya formadas</mark> y preparadas para salir (0,3 p).",
+    "<mark class=\"clave-criterio\">Unión de los componentes sintetizados</mark>: cada molécula de ADN vírico se rodea de su <mark class=\"clave-criterio\">cápsida</mark> y después se ensambla con la <mark class=\"clave-criterio\">cola</mark> (vaina contráctil y placa basal con fibras) (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2006 (recopilación por temas) · Microbiología",
+    "referencia": "pregunta 7",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
+    "examen_anio": 2006,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/mic2006-t4.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/mic2006-t4.thumb.webp",
+   "imageDesc": "Dibujo de una bacteria con forma de bastón llena de pequeños fagos T4 en su interior.",
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2006, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 7, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2007-gm-1",
+   "block": "Genética",
+   "topic": "Replicación, transcripción y traducción; dibujo del inicio",
+   "anio": 2007,
+   "etiqueta": "PAU 2007",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "Explique cuál es la finalidad de la replicación y de la transcripción [0,5]. Explique la traducción [1]. Dibuje el inicio de la traducción [0,5].",
+   "c": [
+    "Replicación: <mark class=\"clave-criterio\">duplicación del material genético</mark>; transcripción: <mark class=\"clave-criterio\">síntesis de los diferentes ARN</mark>. 0,25 p cada una (0,5 p).",
+    "Traducción: se indicará cómo se <mark class=\"clave-criterio\">inicia</mark>, cómo se <mark class=\"clave-criterio\">elonga</mark> y cómo <mark class=\"clave-criterio\">termina</mark> la síntesis de la proteína. Para la máxima puntuación deberá mencionarse: <mark class=\"clave-criterio\">unión del ARNm al ribosoma</mark>, <mark class=\"clave-criterio\">ARNt</mark>, <mark class=\"clave-criterio\">enlace peptídico</mark> y <mark class=\"clave-criterio\">polipéptido</mark> (1 p).",
+    "Dibujo: deberán quedar representadas las <mark class=\"clave-criterio\">subunidades ribosómicas</mark> sobre una <mark class=\"clave-criterio\">señal de inicio</mark> en el ARNm y con la <mark class=\"clave-criterio\">metionina</mark> en su correspondiente <mark class=\"clave-criterio\">ARNt en el lugar P</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2007 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 3",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2007,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2007, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 3, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2007-gm-2",
+   "block": "Genética",
+   "topic": "Código de dipletes frente a tripletes",
+   "anio": 2007,
+   "etiqueta": "PAU 2007",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "¿Podrían los 20 aminoácidos estar codificados por un código genético constituido por dipletes de las cuatro bases nitrogenadas? Razone la respuesta [1].",
+   "c": [
+    "<mark class=\"clave-criterio\">No</mark>, porque solo se podrían formar <mark class=\"clave-criterio\">16 dipletes</mark> diferentes (4² = 16) y hacen falta <mark class=\"clave-criterio\">al menos 20</mark> para codificar los 20 aminoácidos de las proteínas (1 p). <span class=\"redactado\">Con tripletes hay 4³ = 64 combinaciones, más que suficientes.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2007 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 5",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2007,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2007, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2007-gm-3",
+   "block": "Genética",
+   "topic": "Secuencia del ADN y fenotipo",
+   "anio": 2007,
+   "etiqueta": "PAU 2007",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "Explique razonadamente por qué el orden de los nucleótidos en el ADN determina los caracteres del fenotipo de los organismos [1].",
+   "c": [
+    "La <mark class=\"clave-criterio\">secuencia de nucleótidos</mark> del ADN determina la <mark class=\"clave-criterio\">secuencia de aminoácidos</mark> de las <mark class=\"clave-criterio\">proteínas</mark> y, por tanto, el <mark class=\"clave-criterio\">fenotipo</mark> del organismo (1 p). <span class=\"redactado\">Pregunta muy parecida en 2003: «…como son el tipo de pelo, color de los ojos, etc.», con el mismo criterio.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2007 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 4",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2007,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2007, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2007-gm-4",
+   "block": "Genética",
+   "topic": "Replicación, herencia y meiosis",
+   "anio": 2007,
+   "etiqueta": "PAU 2007",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "¿Qué relación existe entre la replicación del ADN, la herencia biológica y la meiosis? Razone la respuesta [1].",
+   "c": [
+    "La <mark class=\"clave-criterio\">herencia biológica</mark> es la <mark class=\"clave-criterio\">transmisión de caracteres</mark> de una generación a otra. Para ello es necesario obtener una <mark class=\"clave-criterio\">copia del ADN</mark> mediante la <mark class=\"clave-criterio\">replicación</mark>, y la <mark class=\"clave-criterio\">meiosis</mark> es la división celular que permite la <mark class=\"clave-criterio\">transmisión del ADN a la descendencia</mark> en los organismos con <mark class=\"clave-criterio\">reproducción sexual</mark> (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2007 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 5",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2007,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2007, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2007-prot-1",
+   "block": "Biomoléculas",
+   "topic": "Estructura primaria, desnaturalización y orgánulos de síntesis",
+   "anio": 2007,
+   "etiqueta": "PAU 2007",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "Defina la estructura primaria de las proteínas, indique qué tipo de enlace la caracteriza y nombre los grupos químicos que participan en el mismo [0,9]. Explique qué se entiende por desnaturalización de una proteína [0,5] y nombre los orgánulos que están implicados en su síntesis y empaquetamiento [0,6].",
+   "c": [
+    "Definición: <mark class=\"clave-criterio\">secuencia lineal</mark> de aminoácidos unidos en un determinado orden. Enlace: <mark class=\"clave-criterio\">peptídico</mark>. Grupos: <mark class=\"clave-criterio\">carboxilo</mark> de un aminoácido y <mark class=\"clave-criterio\">amino</mark> del otro (0,9 p).",
+    "Desnaturalización: <mark class=\"clave-criterio\">pérdida de las estructuras secundaria, terciaria y cuaternaria</mark>, que <mark class=\"clave-criterio\">puede o no ser reversible</mark> (0,5 p).",
+    "Síntesis: <mark class=\"clave-criterio\">ribosomas</mark> y <mark class=\"clave-criterio\">retículo endoplasmático</mark>; empaquetamiento: <mark class=\"clave-criterio\">complejo de Golgi</mark>. 0,2 p cada orgánulo (0,6 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2007 (recopilación por temas) · Proteínas",
+    "referencia": "pregunta 1",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "examen_anio": 2007,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2007, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 1, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2007-prot-2",
+   "block": "Biomoléculas",
+   "topic": "Poder nutritivo de una proteína desnaturalizada",
+   "anio": 2007,
+   "etiqueta": "PAU 2007",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "¿Conserva su poder nutritivo una proteína desnaturalizada? Razone la respuesta [1].",
+   "c": [
+    "<mark class=\"clave-criterio\">Sí.</mark> El poder nutritivo de las proteínas radica en que son <mark class=\"clave-criterio\">fuente de aminoácidos</mark>; la desnaturalización <mark class=\"clave-criterio\">no afecta a la estructura primaria</mark> ni a los aminoácidos y por tanto <mark class=\"clave-criterio\">no afecta al poder nutritivo</mark> (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2007 (recopilación por temas) · Proteínas",
+    "referencia": "pregunta 4",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "examen_anio": 2007,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2007, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2007-mic-1",
+   "block": "Microbiología",
+   "topic": "Virus con envoltura: estructuras y enfermedades",
+   "anio": 2007,
+   "etiqueta": "PAU 2007",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "A la vista de la siguiente figura, que representa un tipo de microorganismo que provoca diversas enfermedades, conteste las siguientes preguntas:<br>a) ¿De qué tipo de microorganismo se trata? [0,2]. Nombre las estructuras señaladas con las letras [0,4]. Indique dos características que sean específicas de este tipo de microorganismo [0,4].<br>b) Indique la función de la estructura señalada con la letra A [0,2], y la composición química y la función de las estructuras señaladas con las letras C y D [0,6]. Cite dos ejemplos de enfermedades producidas por este tipo de microorganismo [0,2].",
+   "c": [
+    "a) Un <mark class=\"clave-criterio\">virus</mark> (0,2 p).",
+    "A: <mark class=\"clave-criterio\">glucoproteína</mark>; B: <mark class=\"clave-criterio\">envoltura</mark>; C: <mark class=\"clave-criterio\">cápsida</mark>; D: <mark class=\"clave-criterio\">ácido nucleico</mark>. 0,1 p cada una (0,4 p).",
+    "<mark class=\"clave-criterio\">Carecen de organización celular</mark>, <mark class=\"clave-criterio\">no tienen metabolismo propio</mark>, deben <mark class=\"clave-criterio\">aprovechar los recursos de la célula hospedadora</mark> para replicarse, etc. Solo dos, 0,2 p cada una (0,4 p).",
+    "b) A: participa en la <mark class=\"clave-criterio\">fijación del virus a la célula</mark> (0,2 p).",
+    "C: <mark class=\"clave-criterio\">proteica</mark>, <mark class=\"clave-criterio\">protege al ácido nucleico</mark> (0,3 p). D: <mark class=\"clave-criterio\">ARN o ADN</mark>, <mark class=\"clave-criterio\">lleva la información genética</mark> (0,3 p).",
+    "<mark class=\"clave-criterio\">Gripe</mark>, <mark class=\"clave-criterio\">sarampión</mark>, <mark class=\"clave-criterio\">sida</mark>, etc. (0,2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2007 (recopilación por temas) · Microbiología",
+    "referencia": "pregunta 1",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
+    "examen_anio": 2007,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/mic2007-virus.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/mic2007-virus.thumb.webp",
+   "imageDesc": "Virus con envoltura: una cápsida icosaédrica (C) con el ácido nucleico (D) en su interior, rodeada por una envoltura (B) de la que sobresalen espículas (A).",
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2007, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 1, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2007-mic-2",
+   "block": "Microbiología",
+   "topic": "Cuándo se recetan antibióticos y resistencias",
+   "anio": 2007,
+   "etiqueta": "PAU 2007",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "¿Por qué en el tratamiento de enfermedades producidas por microorganismos los médicos recetan en unos casos antibióticos y en otros no? [0,5]. ¿Qué problemas causa el uso indiscriminado de los antibióticos en la lucha contra los microorganismos? [0,5]. Razone las respuestas.",
+   "c": [
+    "Porque los antibióticos <mark class=\"clave-criterio\">eliminan bacterias y no virus</mark>: se recetan cuando la enfermedad es <mark class=\"clave-criterio\">bacteriana</mark> (0,5 p).",
+    "Pueden <mark class=\"clave-criterio\">seleccionar bacterias resistentes</mark> a su acción, y los antibióticos dejan de ser eficaces (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2007 (recopilación por temas) · Microbiología",
+    "referencia": "pregunta 4",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
+    "examen_anio": 2007,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2007, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2008-gm-1",
+   "block": "Genética",
+   "topic": "Transcripción, maduración y traducción",
+   "anio": 2008,
+   "etiqueta": "PAU 2008",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "En relación con la figura adjunta, responda las siguientes preguntas:<br>a) Nombre las moléculas representadas con los números 1, 2, 3 y 5 [0,4]. ¿Qué procesos se desarrollan en el núcleo? [0,3]. Comente los cambios que ocurren entre las moléculas indicadas con los números 3 y 5 [0,3].<br>b) ¿Qué representan los números 6 y 7? [0,2]. ¿Qué proceso se desarrolla en el citoplasma? [0,2]. Explique brevemente dicho proceso [0,6].",
+   "c": [
+    "a) 1: <mark class=\"clave-criterio\">ADN</mark>; 2: <mark class=\"clave-criterio\">ARN polimerasa</mark>; 3: <mark class=\"clave-criterio\">ARN transcrito primario</mark>; 5: <mark class=\"clave-criterio\">ARN mensajero maduro</mark> (0,4 p).",
+    "En el núcleo se desarrollan los procesos de <mark class=\"clave-criterio\">transcripción</mark> y <mark class=\"clave-criterio\">maduración</mark> (0,3 p).",
+    "Cambios: <mark class=\"clave-criterio\">adición de la caperuza</mark> y de la <mark class=\"clave-criterio\">cola</mark> y la <mark class=\"clave-criterio\">eliminación de intrones</mark> (0,3 p). <span class=\"redactado\">La caperuza es de 7-metilguanosina en el extremo 5′ y la cola, de poli-A en el extremo 3′.</span>",
+    "b) El número 6 es el <mark class=\"clave-criterio\">polipéptido en formación</mark> y el 7 es el <mark class=\"clave-criterio\">ribosoma</mark> (0,2 p). El proceso del citoplasma es la <mark class=\"clave-criterio\">traducción</mark> (0,2 p).",
+    "Se mencionará al menos: etapa de <mark class=\"clave-criterio\">iniciación</mark> (ARN mensajero, ARN transferente, <mark class=\"clave-criterio\">codón de inicio</mark>, <mark class=\"clave-criterio\">anticodón</mark> y <mark class=\"clave-criterio\">subunidades ribosómicas</mark>); etapa de <mark class=\"clave-criterio\">elongación</mark> (formación del <mark class=\"clave-criterio\">enlace peptídico</mark> y desplazamiento del ribosoma o <mark class=\"clave-criterio\">translocación</mark>); etapa de <mark class=\"clave-criterio\">terminación</mark> (<mark class=\"clave-criterio\">codón de terminación</mark>) (0,6 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2008 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 6",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2008,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/gm2008-expresion.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/gm2008-expresion.thumb.webp",
+   "imageDesc": "Esquema de la expresión de un gen eucariótico: en el núcleo, el ADN (1) se transcribe por la ARN polimerasa (2) a un transcrito primario (3), que madura (4) a ARNm (5); en el citoplasma, varios ribosomas (7) traducen el ARNm y liberan polipéptidos (6).",
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2008, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 6, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2008-gm-2",
+   "block": "Genética",
+   "topic": "Replicación continua y discontinua",
+   "anio": 2008,
+   "etiqueta": "PAU 2008",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "La replicación del ADN se realiza de forma continua en una cadena y discontinua en la otra. ¿Cuál es la razón? [1].",
+   "c": [
+    "La replicación ocurre <mark class=\"clave-criterio\">solo en el sentido 5′→3′</mark> porque las <mark class=\"clave-criterio\">ADN polimerasas</mark> incorporan los nucleótidos en el <mark class=\"clave-criterio\">carbono 3′ libre</mark> de las pentosas; al ser las dos cadenas de ADN <mark class=\"clave-criterio\">antiparalelas</mark>, necesariamente una se replica de forma <mark class=\"clave-criterio\">continua</mark> y la otra <mark class=\"clave-criterio\">discontinua</mark>, formando los <mark class=\"clave-criterio\">fragmentos de Okazaki</mark> (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2008 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 5",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2008,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2008, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2008-gm-3",
+   "block": "Genética",
+   "topic": "Retrovirus: transcriptasa inversa e integración",
+   "anio": 2008,
+   "etiqueta": "PAU 2008",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "La información genética de los retrovirus, que está en forma de ARN, puede insertarse en el ADN de la célula huésped. Dé una explicación razonada a este hecho [1].",
+   "c": [
+    "Mediante la <mark class=\"clave-criterio\">transcriptasa inversa</mark> se hace una <mark class=\"clave-criterio\">copia de la cadena de ARN en ADN</mark> y esta última se puede <mark class=\"clave-criterio\">integrar en el genoma</mark> de la célula hospedadora (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2008 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 5",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2008,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2008, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2008-gm-4",
+   "block": "Genética",
+   "topic": "Transcripción y traducción: estructuras y procesos",
+   "anio": 2008,
+   "etiqueta": "PAU 2008",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "En relación con la figura adjunta, responda las siguientes preguntas:<br>a) Indique cuáles son las estructuras y/o moléculas señaladas con los números 1 al 7 [0,7], e indique los procesos señalados con las letras A y B [0,3].<br>b) ¿Cuál es la función del proceso A? [0,3]. Describa el proceso B [0,7].",
+   "c": [
+    "a) 1: <mark class=\"clave-criterio\">ADN</mark>; 2: <mark class=\"clave-criterio\">ARNm</mark>; 3: <mark class=\"clave-criterio\">ribosoma</mark>; 4: <mark class=\"clave-criterio\">anticodón</mark>; 5: <mark class=\"clave-criterio\">proteína</mark>; 6: <mark class=\"clave-criterio\">ARNt</mark>; 7: <mark class=\"clave-criterio\">codón</mark>. 0,1 p cada uno (0,7 p).",
+    "Proceso A: <mark class=\"clave-criterio\">transcripción</mark>; proceso B: <mark class=\"clave-criterio\">traducción</mark>. 0,15 p cada uno (0,3 p).",
+    "b) Función de A: <mark class=\"clave-criterio\">síntesis de los diferentes tipos de ARN a partir del ADN</mark> para la <mark class=\"clave-criterio\">expresión de la información genética</mark> (0,3 p).",
+    "Descripción de B. Se mencionará al menos: <mark class=\"clave-criterio\">iniciación</mark> (ARN mensajero, ARN transferente, <mark class=\"clave-criterio\">codón de inicio</mark>, <mark class=\"clave-criterio\">anticodón</mark> y <mark class=\"clave-criterio\">subunidades ribosómicas</mark>); <mark class=\"clave-criterio\">elongación</mark> (formación del <mark class=\"clave-criterio\">enlace peptídico</mark> y <mark class=\"clave-criterio\">translocación</mark> del ribosoma); <mark class=\"clave-criterio\">terminación</mark> (<mark class=\"clave-criterio\">codón de terminación</mark>) (0,7 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2008 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 6",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2008,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/gm2008-transcripcion-traduccion.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/gm2008-transcripcion-traduccion.thumb.webp",
+   "imageDesc": "Célula eucariótica en la que, dentro del núcleo, el ADN (1) se transcribe (A) a ARNm (2), y en el citoplasma un ribosoma (3) traduce (B) el ARNm con ARNt (6) que aportan aminoácidos según la unión anticodón (4)-codón (7), formando una proteína (5).",
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2008, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 6, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2008-prot-1",
+   "block": "Biomoléculas",
+   "topic": "Niveles estructurales en una figura; efecto del pH y la temperatura",
+   "anio": 2008,
+   "etiqueta": "PAU 2008",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "En relación con la figura adjunta, responda las siguientes preguntas:<br>a) ¿Qué representa la figura en su conjunto? [0,2]. Indique el tipo de estructura señalado con el número 1, el tipo de monómeros que la forman y el enlace que la caracteriza [0,4]. Nombre las estructuras señaladas con los números 2, 3, 4 y 5 [0,4].<br>b) Describa los cambios fundamentales que ocurren desde 1 hasta 5 [0,7]. ¿Cómo afectan los cambios de pH y de temperatura a estas estructuras? [0,3].",
+   "c": [
+    "a) Las distintas <mark class=\"clave-criterio\">conformaciones o estructuras de las proteínas</mark> (0,2 p).",
+    "1: <mark class=\"clave-criterio\">estructura primaria</mark>, formada por <mark class=\"clave-criterio\">aminoácidos</mark> unidos por <mark class=\"clave-criterio\">enlaces peptídicos</mark> (0,4 p).",
+    "Estructuras <mark class=\"clave-criterio\">secundarias</mark>: <mark class=\"clave-criterio\">hélice α</mark> (2) y <mark class=\"clave-criterio\">lámina β</mark> (3); estructura <mark class=\"clave-criterio\">terciaria</mark> (4) y <mark class=\"clave-criterio\">cuaternaria</mark> (5) (0,4 p).",
+    "b) La estructura primaria se pliega por <mark class=\"clave-criterio\">puentes de hidrógeno</mark> entre los átomos del esqueleto originando las estructuras secundarias (hélice α y lámina β). La disposición tridimensional se mantiene mediante enlaces entre los <mark class=\"clave-criterio\">radicales</mark> (puentes de H, Van der Waals, interacciones electrostáticas e hidrofóbicas y <mark class=\"clave-criterio\">puentes disulfuro</mark>): estructura terciaria. La asociación mediante enlaces débiles de <mark class=\"clave-criterio\">dos o más cadenas</mark> con estructura terciaria da la cuaternaria (0,7 p).",
+    "Las estructuras secundaria, terciaria y cuaternaria, mantenidas por <mark class=\"clave-criterio\">enlaces débiles</mark>, <mark class=\"clave-criterio\">se desnaturalizan</mark>, mientras que la primaria, mantenida por <mark class=\"clave-criterio\">enlaces covalentes</mark>, <mark class=\"clave-criterio\">no se altera</mark> (0,3 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2008 (recopilación por temas) · Proteínas",
+    "referencia": "pregunta 6",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "examen_anio": 2008,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/prot2008-niveles.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/prot2008-niveles.thumb.webp",
+   "imageDesc": "Niveles de organización de una proteína: (1) cadena de aminoácidos como un collar de cuentas; (2) hélice; (3) lámina plegada; (4) cadena plegada en el espacio; (5) asociación de varias cadenas plegadas.",
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2008, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 6, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2008-prot-2",
+   "block": "Biomoléculas",
+   "topic": "Colágeno hervido: gelatina",
+   "anio": 2008,
+   "etiqueta": "PAU 2008",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "El colágeno es una proteína de aspecto blanquecino que forma parte de estructuras resistentes como los tendones. Al hervir el colágeno se obtiene gelatina, que es una sustancia muy blanda. Explique razonadamente la causa de este cambio [1].",
+   "c": [
+    "El cambio lo produce la <mark class=\"clave-criterio\">desnaturalización</mark> de la proteína colágeno (por el <mark class=\"clave-criterio\">aumento de la temperatura</mark>), es decir, la <mark class=\"clave-criterio\">pérdida de su estructura nativa</mark> (1 p). <span class=\"redactado\">Se rompen los enlaces débiles que mantienen la triple hélice; los enlaces peptídicos no se rompen.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2008 (recopilación por temas) · Proteínas",
+    "referencia": "pregunta 4",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "examen_anio": 2008,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2008, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2008-prot-3",
+   "block": "Biomoléculas",
+   "topic": "Miles de proteínas con solo 20 aminoácidos",
+   "anio": 2008,
+   "etiqueta": "PAU 2008",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "¿Cómo se puede explicar que una célula típica de nuestro cuerpo posea unas 10.000 clases diferentes de proteínas si el número de aminoácidos distintos es solamente de 20? Razone la respuesta [1].",
+   "c": [
+    "El tipo de proteína depende de la <mark class=\"clave-criterio\">secuencia lineal de aminoácidos</mark>, y la <mark class=\"clave-criterio\">combinación de 20 aminoácidos</mark> diferentes puede dar lugar a <mark class=\"clave-criterio\">muchas secuencias primarias distintas</mark> (1 p). <span class=\"redactado\">Para un péptido de solo 10 aminoácidos ya hay 20¹⁰ secuencias posibles.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2008 (recopilación por temas) · Proteínas",
+    "referencia": "pregunta 5",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "examen_anio": 2008,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2008, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2008-enz-1",
+   "block": "Biomoléculas",
+   "topic": "Cinética enzimática: más enzima o un inhibidor irreversible",
+   "anio": 2008,
+   "etiqueta": "PAU 2008",
+   "hasImg": true,
+   "puntos": 1,
+   "competencial": true,
+   "q": "En la siguiente curva se representa una cinética enzimática mostrando la velocidad de reacción respecto a la cantidad de sustrato, con una concentración de enzima constante. ¿De qué manera se vería afectada la curva si se introdujese más cantidad de enzima en el punto indicado por la flecha? [0,5]. ¿Y si introdujéramos un inhibidor irreversible en el punto marcado con una X? [0,5]. Razone las respuestas.",
+   "c": [
+    "Al introducir <mark class=\"clave-criterio\">más enzima</mark> en el punto de la flecha, la velocidad <mark class=\"clave-criterio\">aumentará de nuevo</mark> hasta alcanzar un <mark class=\"clave-criterio\">nuevo estado de saturación</mark> (0,5 p).",
+    "Un <mark class=\"clave-criterio\">inhibidor irreversible</mark> en X hará que la velocidad <mark class=\"clave-criterio\">disminuya rápidamente</mark> hasta que <mark class=\"clave-criterio\">todas las moléculas de enzima hayan sido bloqueadas</mark>; entonces la reacción <mark class=\"clave-criterio\">se detendrá</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2008 (recopilación por temas) · Enzimas",
+    "referencia": "pregunta 4",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/05 PAU Enzimas.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/05 PAU Enzimas.odt",
+    "examen_anio": 2008,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/enz2008-cinetica.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/enz2008-cinetica.thumb.webp",
+   "imageDesc": "Curva de velocidad de reacción frente a concentración de sustrato que tiende a 1,0; una flecha marca la zona de saturación y una X un punto de la zona de subida.",
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2008, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2008-enz-2",
+   "block": "Biomoléculas",
+   "topic": "Lactasa: hidrólisis de la lactosa",
+   "anio": 2008,
+   "etiqueta": "PAU 2008",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "Explique qué reacción desarrolla la enzima que cataliza la siguiente reacción:<br>Lactosa + agua → glucosa + galactosa",
+   "c": [
+    "La acción que desarrolla es la <mark class=\"clave-criterio\">hidrólisis de la lactosa</mark>, por <mark class=\"clave-criterio\">rotura del enlace O-glucosídico</mark> mediante la introducción de una <mark class=\"clave-criterio\">molécula de agua</mark> (1 p). <span class=\"redactado\">La enzima es la lactasa, una hidrolasa.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2008 (recopilación por temas) · Enzimas",
+    "referencia": "pregunta 4",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/05 PAU Enzimas.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/05 PAU Enzimas.odt",
+    "examen_anio": 2008,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2008, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2008-met0709-1",
+   "block": "Metabolismo",
+   "topic": "Daño en la membrana mitocondrial interna y síntesis de ATP",
+   "anio": 2008,
+   "etiqueta": "PAU 2007-2009",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "Se ha podido comprobar que la intoxicación experimental con alcohol etílico puede causar la degradación de la mitocondria comenzando por su membrana interna. Exponga razonadamente por qué en esta situación no se produce síntesis de ATP [1].",
+   "c": [
+    "Se debe relacionar la <mark class=\"clave-criterio\">pérdida de la capacidad de síntesis de ATP</mark> con la <mark class=\"clave-criterio\">localización en la membrana interna</mark> de la mitocondria de la <mark class=\"clave-criterio\">cadena de transporte electrónico</mark> y la <mark class=\"clave-criterio\">fosforilación oxidativa</mark> (1 p). <span class=\"redactado\">Sin membrana interna no hay gradiente de protones ni ATP sintasa.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2008 (recopilación por temas) · Metabolismo (2007-2009)",
+    "referencia": "pregunta 4 de un examen de 2007, 2008 o 2009",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/METABOLISMO/08 PAU Metabolismo.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/METABOLISMO/08 PAU Metabolismo.odt",
+    "examen_anio": 2008,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2007, 2008 o 2009 (la recopilación no distingue el año), con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 4 de un examen de 2007, 2008 o 2009, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2008-met0709-2",
+   "block": "Metabolismo",
+   "topic": "Glucolisis, fermentación, fosforilación oxidativa, β-oxidación y fotosíntesis",
+   "anio": 2008,
+   "etiqueta": "PAU 2007-2009",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "Defina los siguientes procesos: glucolisis, fermentación, fosforilación oxidativa, β-oxidación y fotosíntesis [1]. Indique en qué tipos de células eucarióticas y en qué lugar de las mismas se realizan [1].",
+   "c": [
+    "<mark class=\"clave-criterio\">Glucolisis</mark>: reacciones por las que <mark class=\"clave-criterio\">una glucosa</mark> se transforma en <mark class=\"clave-criterio\">dos moléculas de ácido pirúvico</mark>. <mark class=\"clave-criterio\">Fermentación</mark>: <mark class=\"clave-criterio\">degradación anaeróbica</mark> de la glucosa; proceso catabólico en el que el <mark class=\"clave-criterio\">aceptor final de electrones es una molécula orgánica</mark>. <mark class=\"clave-criterio\">Fosforilación oxidativa</mark>: la energía liberada en el <mark class=\"clave-criterio\">transporte electrónico</mark> desde los coenzimas reducidos <mark class=\"clave-criterio\">hasta el oxígeno</mark> se aprovecha para <mark class=\"clave-criterio\">sintetizar ATP</mark>. <mark class=\"clave-criterio\">β-oxidación</mark>: degradación de los <mark class=\"clave-criterio\">ácidos grasos</mark> eliminando <mark class=\"clave-criterio\">dos carbonos en forma de acetil-CoA</mark> en cada vuelta. <mark class=\"clave-criterio\">Fotosíntesis</mark>: la <mark class=\"clave-criterio\">energía solar</mark> se utiliza para obtener moléculas ricas en energía y reductoras con las que se <mark class=\"clave-criterio\">sintetizan moléculas orgánicas</mark>. Cada definición, 0,2 p (1 p).",
+    "Glucolisis: <mark class=\"clave-criterio\">todas las células</mark>, en el <mark class=\"clave-criterio\">citoplasma</mark>. Fermentación: células animales y algunos microorganismos, en el <mark class=\"clave-criterio\">citoplasma</mark>. Fosforilación oxidativa: células de organismos <mark class=\"clave-criterio\">aeróbicos</mark>, en las <mark class=\"clave-criterio\">mitocondrias</mark>. β-oxidación: células de organismos aeróbicos, en las <mark class=\"clave-criterio\">mitocondrias</mark> (matriz). Fotosíntesis: células fotosintetizadoras de <mark class=\"clave-criterio\">plantas y algas</mark>, en los <mark class=\"clave-criterio\">cloroplastos</mark>. Cada tipo de célula y lugar, 0,2 p (1 p). <span class=\"redactado\">Ejemplos de fermentación: la láctica en las células musculares y la alcohólica en las levaduras.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2008 (recopilación por temas) · Metabolismo (2007-2009)",
+    "referencia": "pregunta 2 de un examen de 2007, 2008 o 2009",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/METABOLISMO/08 PAU Metabolismo.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/METABOLISMO/08 PAU Metabolismo.odt",
+    "examen_anio": 2008,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2007, 2008 o 2009 (la recopilación no distingue el año), con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 2 de un examen de 2007, 2008 o 2009, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2008-met0709-3",
+   "block": "Metabolismo",
+   "topic": "La fotosíntesis es un proceso anabólico",
+   "anio": 2008,
+   "etiqueta": "PAU 2007-2009",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "Exponga razonadamente si la fotosíntesis es un proceso anabólico o catabólico [1].",
+   "c": [
+    "La fotosíntesis es un proceso <mark class=\"clave-criterio\">anabólico</mark>, en el que el <mark class=\"clave-criterio\">ATP y el NADPH</mark> formados en la etapa dependiente de la luz se utilizan para <mark class=\"clave-criterio\">transformar el CO₂ en glucosa</mark> (1 p). <span class=\"redactado\">Se sintetizan moléculas complejas a partir de otras sencillas con aporte de energía.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2008 (recopilación por temas) · Metabolismo (2007-2009)",
+    "referencia": "pregunta 4 de un examen de 2007, 2008 o 2009",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/METABOLISMO/08 PAU Metabolismo.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/METABOLISMO/08 PAU Metabolismo.odt",
+    "examen_anio": 2008,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2007, 2008 o 2009 (la recopilación no distingue el año), con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 4 de un examen de 2007, 2008 o 2009, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2009-gm-1",
+   "block": "Genética",
+   "topic": "Traducción: elementos y enlace peptídico",
+   "anio": 2009,
+   "etiqueta": "PAU 2009",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "En relación con la figura adjunta, responda a las siguientes cuestiones:<br>a) ¿Qué proceso biológico representa? [0,2]. Identifique los elementos señalados con las letras A, B, C y D [0,8].<br>b) Indique el tipo de enlace que caracteriza a la molécula C y escriba la reacción de formación de este enlace, señalando los grupos químicos que intervienen [0,5]. Indique la composición y la función que desempeña el elemento A en este proceso [0,5].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Traducción</mark> o síntesis de proteínas (0,2 p).",
+    "A: <mark class=\"clave-criterio\">ARN transferente</mark> o aminoacil-ARN transferente; B: <mark class=\"clave-criterio\">ARN mensajero</mark>; C: <mark class=\"clave-criterio\">polipéptido</mark>; D: <mark class=\"clave-criterio\">ribosoma</mark> o subunidad grande del ribosoma. 0,2 p cada uno (0,8 p).",
+    "b) <mark class=\"clave-criterio\">Enlace peptídico</mark> y reacción de formación (0,5 p). <span class=\"redactado\">Se forma entre el grupo carboxilo de un aminoácido y el grupo amino del siguiente, con liberación de una molécula de agua: R₁–COOH + H₂N–R₂ → R₁–CO–NH–R₂ + H₂O.</span>",
+    "Composición del elemento A: <mark class=\"clave-criterio\">ribonucleótidos</mark> (bases nitrogenadas, ribosa y fosfato) (0,25 p).",
+    "Función: <mark class=\"clave-criterio\">transporta de forma específica los aminoácidos</mark> en la síntesis de proteínas en función de su <mark class=\"clave-criterio\">anticodón</mark> (0,25 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2009 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 6",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2009,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/gm2009-traduccion.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/gm2009-traduccion.thumb.webp",
+   "imageDesc": "Esquema de un ribosoma traduciendo un ARN mensajero, con ARN transferentes cargados (A), el ARN mensajero (B), la cadena polipeptídica en formación (C) y la subunidad grande del ribosoma (D).",
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2009, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 6, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2009-gm-2",
+   "block": "Genética",
+   "topic": "Gen, heterocigoto, transcripción, codón y código genético",
+   "anio": 2009,
+   "etiqueta": "PAU 2009",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "Defina: gen, heterocigoto, transcripción, codón y código genético [2].",
+   "c": [
+    "Gen: <mark class=\"clave-criterio\">secuencia de ADN</mark> que determina una característica y que puede tener diferentes formas o <mark class=\"clave-criterio\">alelos</mark> (0,4 p).",
+    "Heterocigoto: individuo en el que los <mark class=\"clave-criterio\">dos alelos</mark> de un gen son <mark class=\"clave-criterio\">diferentes</mark> (0,4 p).",
+    "Transcripción: <mark class=\"clave-criterio\">síntesis de una cadena de ARN</mark> de cualquier tipo que tiene la secuencia <mark class=\"clave-criterio\">complementaria</mark> de una cadena de <mark class=\"clave-criterio\">ADN que actúa como molde</mark> (0,4 p).",
+    "Codón: grupo de <mark class=\"clave-criterio\">tres nucleótidos consecutivos</mark> (triplete) del <mark class=\"clave-criterio\">ARN mensajero</mark> que codifica un aminoácido (0,4 p).",
+    "Código genético: sistema que establece una <mark class=\"clave-criterio\">relación de correspondencia</mark> entre los <mark class=\"clave-criterio\">tripletes del ARN mensajero</mark> y los <mark class=\"clave-criterio\">aminoácidos</mark> que codifica (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2009 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 3",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2009,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2009, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 3, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2009-gm-3",
+   "block": "Genética",
+   "topic": "Flujo de la información genética y retrotranscripción",
+   "anio": 2009,
+   "etiqueta": "PAU 2009",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "En relación con el esquema, conteste las siguientes cuestiones:<br>a) Nombre los procesos señalados con las letras A, B, C y D [0,4]. Indique la composición de las moléculas incluidas en los recuadros [0,6].<br>b) Indique una función de cada una de las moléculas incluidas en los recuadros [0,6]. Explique en qué consiste el proceso A [0,2]. ¿En qué formas biológicas se ha descrito el proceso A? [0,2].",
+   "c": [
+    "a) A: <mark class=\"clave-criterio\">retrotranscripción</mark>; B: <mark class=\"clave-criterio\">traducción</mark>; C: <mark class=\"clave-criterio\">replicación</mark>; D: <mark class=\"clave-criterio\">transcripción</mark>. 0,1 p cada uno (0,4 p).",
+    "ADN: <mark class=\"clave-criterio\">desoxirribosa</mark>, grupo <mark class=\"clave-criterio\">fosfato</mark> y las bases nitrogenadas A, G, C y <mark class=\"clave-criterio\">T</mark> (0,2 p). ARN: <mark class=\"clave-criterio\">ribosa</mark>, grupo fosfato y las bases A, G, C y <mark class=\"clave-criterio\">U</mark> (0,2 p). Proteínas: <mark class=\"clave-criterio\">aminoácidos</mark> (0,2 p).",
+    "b) ADN: <mark class=\"clave-criterio\">portador del mensaje genético</mark>, lo transmite a las células hijas, responsable de los caracteres celulares (basta una función) (0,2 p).",
+    "ARN: constituye los ribosomas, <mark class=\"clave-criterio\">transfiere aminoácidos</mark>, <mark class=\"clave-criterio\">traduce el mensaje genético</mark> a proteínas, portador del mensaje genético en virus (basta una función) (0,2 p).",
+    "Proteínas: enzimática, transporte, movimiento y contracción, soporte estructural, reserva, inmunidad, hormonal, etc. (basta una función) (0,2 p).",
+    "Retrotranscripción: <mark class=\"clave-criterio\">paso de ARN a ADN</mark> por acción de la <mark class=\"clave-criterio\">transcriptasa inversa</mark> o retrotranscriptasa (0,2 p). Se ha descrito en los <mark class=\"clave-criterio\">virus con ARN</mark> (<mark class=\"clave-criterio\">retrovirus</mark>) (0,2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2009 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 6",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2009,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/gm2009-flujo.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/gm2009-flujo.thumb.webp",
+   "imageDesc": "Esquema ADN ⇄ ARN → PROTEÍNA: la flecha A va de ARN a ADN, B de ARN a proteína, C es una flecha circular sobre el ADN y D va de ADN a ARN.",
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2009, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 6, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2009-gm-4",
+   "block": "Genética",
+   "topic": "Universalidad del código genético",
+   "anio": 2009,
+   "etiqueta": "PAU 2009",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "Una bacteria sintetiza proteínas codificadas por genes humanos introducidos en ella mediante ingeniería genética. ¿Qué característica del código genético hace que sea posible esta síntesis? Razone la respuesta [1].",
+   "c": [
+    "Esto es posible porque el código genético es <mark class=\"clave-criterio\">común para todos los organismos</mark> (<mark class=\"clave-criterio\">universal</mark>): <span class=\"redactado\">la bacteria lee los codones del gen humano y les asigna los mismos aminoácidos que una célula humana.</span> (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2009 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 4",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2009,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2009, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2009-mic-1",
+   "block": "Microbiología",
+   "topic": "Virus VIH: componentes y ciclo de vida",
+   "anio": 2009,
+   "etiqueta": "PAU 2009",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "A la vista de la figura que representa al virus VIH, conteste las siguientes preguntas:<br>a) Identifique la naturaleza molecular de los elementos indicados con los números [0,3]. Indique qué tipo de ácido nucleico contiene este virus [0,3], qué tipo de células pueden ser infectadas por este virus y las consecuencias de ello [0,4].<br>b) Explique el ciclo de vida del virus VIH [1].",
+   "c": [
+    "a) 1: <mark class=\"clave-criterio\">bicapa lipídica</mark>; 2: <mark class=\"clave-criterio\">proteínas de cubierta</mark>; 3: <mark class=\"clave-criterio\">proteínas de la cápsida</mark> (0,3 p).",
+    "Ácido nucleico: <mark class=\"clave-criterio\">ARN</mark> (0,3 p).",
+    "Células infectadas: <mark class=\"clave-criterio\">linfocitos T4</mark> (0,2 p), provocando su <mark class=\"clave-criterio\">destrucción</mark> y desactivando la respuesta inmune tanto <mark class=\"clave-criterio\">celular</mark> como <mark class=\"clave-criterio\">humoral</mark> (0,2 p).",
+    "b) El retrovirus se une a una <mark class=\"clave-criterio\">glucoproteína de membrana</mark> de la célula hospedadora; se <mark class=\"clave-criterio\">fusionan las membranas</mark> y entra; pierde la cubierta proteica y comienza la <mark class=\"clave-criterio\">retrotranscripción</mark> del ARN gracias a la <mark class=\"clave-criterio\">retrotranscriptasa</mark>, que sintetiza un <mark class=\"clave-criterio\">ADN bicatenario</mark> que <mark class=\"clave-criterio\">se integra en el cromosoma</mark> de la célula. Después, la <mark class=\"clave-criterio\">expresión del ADN viral</mark> origina ARN víricos que se traducen en las <mark class=\"clave-criterio\">proteínas estructurales y enzimáticas</mark> del virus. Tras el <mark class=\"clave-criterio\">ensamblaje</mark>, los viriones se liberan para infectar <mark class=\"clave-criterio\">nuevas células diana</mark> (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2009 (recopilación por temas) · Microbiología",
+    "referencia": "pregunta 2",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
+    "examen_anio": 2009,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/mic2009-vih.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/mic2009-vih.thumb.webp",
+   "imageDesc": "Esquema del VIH: una partícula esférica con envoltura (1) y proteínas de cubierta (2) que rodea una cápsida (3) con dos moléculas de ácido nucleico y la transcriptasa inversa.",
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2009, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 2, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2009-mic-2",
+   "block": "Microbiología",
+   "topic": "Descomponedores y reciclaje de la materia",
+   "anio": 2009,
+   "etiqueta": "PAU 2009",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "Los seres vivos aparecieron sobre la Tierra hace, aproximadamente, 3.500 millones de años. ¿Por qué los cadáveres de casi todos los seres vivos han desaparecido? Dé una explicación a este hecho y justifique la necesidad de que ocurra [1].",
+   "c": [
+    "Debe aludir a la <mark class=\"clave-criterio\">acción descomponedora de los microorganismos</mark> y al <mark class=\"clave-criterio\">reciclaje de la materia</mark> para que pueda ser <mark class=\"clave-criterio\">reutilizada por los organismos autótrofos</mark> (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2009 (recopilación por temas) · Microbiología",
+    "referencia": "pregunta 3",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
+    "examen_anio": 2009,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2009, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 3, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2009-mic-3",
+   "block": "Microbiología",
+   "topic": "Por qué los virus son parásitos obligados",
+   "anio": 2009,
+   "etiqueta": "PAU 2009",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "Indique dos razones que expliquen el hecho de que los virus sean parásitos obligados.",
+   "c": [
+    "Porque <mark class=\"clave-criterio\">carecen de las enzimas</mark> necesarias para fabricar sus componentes (ácido nucleico, cápsida) y <mark class=\"clave-criterio\">no tienen ribosomas</mark>, por lo que deben utilizar los de las células parasitadas, etc. Solo dos, 0,5 p cada una (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2009 (recopilación por temas) · Microbiología",
+    "referencia": "pregunta 4",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
+    "examen_anio": 2009,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2009, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 4, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
   {
    "id": "pau2010-e1-a1",
    "block": "Biomoléculas",
@@ -37081,6 +39539,1943 @@ window.BIOCELIA_HISTORICO = {
   }
  ],
  "simulacro": [
+  {
+   "id": "pau2002-gm-7",
+   "block": "Genética",
+   "topic": "Transcripción y efecto de una temperatura de 80 °C",
+   "anio": 2002,
+   "etiqueta": "PAU 2002",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "A la vista de la imagen, conteste a las siguientes cuestiones:<br>a) Indique razonadamente de qué proceso se trata [0,3]. ¿En qué lugar de la célula se produce? [0,1]. ¿Cómo afectaría a este proceso una elevación brusca de la temperatura por encima de los 80 ºC? [0,6].<br>b) Explique la composición y estructura de la molécula resultante [0,4]. ¿Cuáles son las posibles funciones de la molécula formada? [0,6].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Transcripción</mark> (presencia de <mark class=\"clave-criterio\">ADN de doble cadena</mark> y <mark class=\"clave-criterio\">una hebra de ARN</mark>) (0,3 p).",
+    "Localización: <mark class=\"clave-criterio\">núcleo</mark> eucariótico o <mark class=\"clave-criterio\">citoplasma</mark> procariótico o <mark class=\"clave-criterio\">mitocondria</mark> o <mark class=\"clave-criterio\">cloroplasto</mark> (0,1 p).",
+    "<mark class=\"clave-criterio\">Desnaturalización del ADN y de las enzimas</mark> (0,6 p). <span class=\"redactado\">Se separarían las cadenas del ADN y la ARN polimerasa perdería su estructura, así que la transcripción se detendría.</span>",
+    "b) Composición y estructura del ARN (0,4 p). <span class=\"redactado\">Ribonucleótidos con ribosa, fosfato y las bases A, G, C y U, unidos por enlaces fosfodiéster en una sola cadena.</span>",
+    "Funciones de los diferentes tipos de ARN, 0,2 p cada uno (0,6 p). <span class=\"redactado\">ARNm: lleva la información al ribosoma; ARNt: transporta los aminoácidos; ARNr: forma los ribosomas.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2002 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 7",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2002,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/gm2002-transcripcion.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/gm2002-transcripcion.thumb.webp",
+   "imageDesc": "Burbuja de transcripción: un ADN de doble cadena, con sus extremos 3′ y 5′, separado localmente; sobre una de sus cadenas se sintetiza una hebra de ARN que se va separando por su extremo 5′.",
+   "isNew": true
+  },
+  {
+   "id": "pau2002-gm-11",
+   "block": "Genética",
+   "topic": "ADN: componentes, puentes de hidrógeno y procesos",
+   "anio": 2002,
+   "etiqueta": "PAU 2002",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "El siguiente esquema representa la estructura de una molécula biológica:<br>a) Indique de qué molécula se trata [0,1] e identifique los elementos señalados con las letras A, B y C [0,6]. ¿Qué representan las líneas de puntos? [0,1]. ¿Qué indican los números 5′ y 3′? [0,2].<br>b) Cite dos procesos fundamentales para la vida relacionados con esta molécula [0,2] y explique el significado biológico de cada uno [0,8].",
+   "c": [
+    "a) Molécula de <mark class=\"clave-criterio\">ADN</mark> (0,1 p).",
+    "A: <mark class=\"clave-criterio\">grupo fosfato</mark>; B: <mark class=\"clave-criterio\">desoxirribosa</mark>; C: <mark class=\"clave-criterio\">base nitrogenada</mark>. 0,2 p cada uno (0,6 p).",
+    "Líneas de puntos: <mark class=\"clave-criterio\">puentes de hidrógeno</mark> (0,1 p).",
+    "5′ y 3′: los <mark class=\"clave-criterio\">extremos</mark> o la <mark class=\"clave-criterio\">dirección</mark> de una cadena sencilla de ADN (0,2 p).",
+    "b) <mark class=\"clave-criterio\">Replicación</mark> y <mark class=\"clave-criterio\">transcripción</mark> (0,2 p).",
+    "Replicación: garantizar la <mark class=\"clave-criterio\">conservación y transmisión del material genético</mark> (0,4 p). Transcripción: permitir la <mark class=\"clave-criterio\">expresión de la información genética</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2002 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 7",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2002,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/gm2002-adn.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/gm2002-adn.thumb.webp",
+   "imageDesc": "Esquema de un fragmento de ADN de doble cadena con extremos 3′ y 5′ opuestos; se señalan un grupo fosfato (A), una desoxirribosa (B) y una base nitrogenada (C), con las bases emparejadas mediante líneas de puntos.",
+   "isNew": true
+  },
+  {
+   "id": "pau2002-gm-1+2",
+   "block": "Biotecnología",
+   "topic": "Proyecto Genoma Humano: ventajas e inconvenientes · Mutación: consecuencias, tipos y agentes mutagénicos",
+   "anio": 2002,
+   "etiqueta": "PAU 2002",
+   "hasImg": false,
+   "q": "<b>I.</b> Explique en qué consiste el proyecto Genoma Humano [0,7]. Describa dos ventajas y dos inconvenientes de su utilización [0,8]. <i>(1,5 puntos)</i><br><br><b>II.</b> Exponga el concepto de mutación [0,4] y explique sus consecuencias [0,4]. Indique la diferencia entre las mutaciones espontáneas e inducidas [0,3] y cite dos ejemplos de agentes mutagénicos [0,4]. <i>(1,5 puntos)</i>",
+   "puntos": 3.0,
+   "c": [
+    "<b>I.</b> <mark class=\"clave-criterio\">Localización y secuenciación de genes humanos</mark> (0,7 p).",
+    "<b>I.</b> Ventajas: <mark class=\"clave-criterio\">curaciones</mark>, <mark class=\"clave-criterio\">farmacología moderna</mark>, etc. 0,2 p cada una (0,4 p).",
+    "<b>I.</b> Inconvenientes: clonaciones incontroladas, <mark class=\"clave-criterio\">utilización lucrativa</mark> de estos conocimientos, efectos secundarios desconocidos, <mark class=\"clave-criterio\">discriminación social</mark>, etc. 0,2 p cada uno (0,4 p).",
+    "<b>II.</b> Concepto (0,4 p). <span class=\"redactado\">Alteración en el material genético.</span>",
+    "<b>II.</b> Consecuencias (<mark class=\"clave-criterio\">evolutivas</mark> y <mark class=\"clave-criterio\">perjudiciales</mark>) (0,4 p).",
+    "<b>II.</b> Diferencia (0,3 p). <span class=\"redactado\">Las espontáneas surgen sin causa externa aparente, por ejemplo por errores de replicación; las inducidas las provocan agentes mutagénicos.</span>",
+    "<b>II.</b> Ejemplos: cualquier agente <mark class=\"clave-criterio\">físico</mark>, <mark class=\"clave-criterio\">químico</mark> o <mark class=\"clave-criterio\">biológico</mark>. 0,2 p cada uno (0,4 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2002-gm-1",
+    "pau2002-gm-2"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2002 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 3 + pregunta 3",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2002,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2002-gm-3+4",
+   "block": "Biotecnología",
+   "topic": "Mejora genética clásica frente a ingeniería genética · Mutación en una célula que se divide y efecto en la proteína",
+   "anio": 2002,
+   "etiqueta": "PAU 2002",
+   "hasImg": false,
+   "q": "<b>I.</b> Explique el fundamento de la mejora genética clásica mediante selección artificial [0,75] y exponga tres diferencias con la mejora mediante ingeniería genética [0,75]. <i>(1,5 puntos)</i><br><br><b>II.</b> Por la acción de un mutágeno se produce la sustitución de una base por otra en una de las cadenas de un gen que codifica una proteína. Sin que se produzca reparación tienen lugar sucesivas divisiones celulares. ¿Presentan todas las células descendientes la mutación? ¿Por qué? [0,5]. Explique en qué medida puede verse afectada la funcionalidad de la proteína sintetizada en una de las células mutantes [0,5]. <i>(1 punto)</i>",
+   "puntos": 2.5,
+   "c": [
+    "<b>I.</b> Selección artificial: <mark class=\"clave-criterio\">seleccionar los mejores fenotipos como reproductores</mark> en <mark class=\"clave-criterio\">generaciones sucesivas</mark> (0,75 p).",
+    "<b>I.</b> Diferencias, por ejemplo: se utilizan las <mark class=\"clave-criterio\">técnicas de ADN recombinante</mark>, <mark class=\"clave-criterio\">no se requieren muchas generaciones</mark>, se pueden utilizar <mark class=\"clave-criterio\">genes de otra especie</mark>, etc. (0,75 p).",
+    "<b>II.</b> Respuesta razonada: <mark class=\"clave-criterio\">no</mark>, al presentarse el ADN mutado <mark class=\"clave-criterio\">solo en una de las dos células hijas</mark> (0,5 p). <span class=\"redactado\">Cada cadena sirve de molde en la replicación: la que lleva la base cambiada origina un ADN mutante y la otra, un ADN normal.</span>",
+    "<b>II.</b> Respuesta razonada: desde que <mark class=\"clave-criterio\">no haya afección</mark>, porque el nuevo codón codifique el <mark class=\"clave-criterio\">mismo aminoácido</mark>, hasta que la proteína quede <mark class=\"clave-criterio\">inactivada</mark> (0,5 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2002-gm-3",
+    "pau2002-gm-4"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2002 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 3 + pregunta 6",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2002,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2002-gm-5+6",
+   "block": "Biotecnología",
+   "topic": "Hormona del crecimiento humana obtenida con microorganismos · Regulación de la expresión génica: genes estructurales y reguladores",
+   "anio": 2002,
+   "etiqueta": "PAU 2002",
+   "hasImg": false,
+   "q": "<b>I.</b> Explique el proceso general que permite la obtención de hormona del crecimiento humano a partir de microorganismos modificados genéticamente [0,9]. Indique tres ventajas que ofrezca el empleo de hormona obtenida por este método frente a la obtenida a partir de hipófisis de animales [0,6]. <i>(1,5 puntos)</i><br><br><b>II.</b> Explique qué es la regulación de la expresión génica y por qué es necesaria [0,8]. ¿Qué son genes estructurales y genes reguladores? [0,7]. <i>(1,5 puntos)</i>",
+   "puntos": 3.0,
+   "c": [
+    "<b>I.</b> Debe describirse la <mark class=\"clave-criterio\">clonación</mark> y <mark class=\"clave-criterio\">expresión de un gen humano en un microorganismo</mark> (0,9 p). <span class=\"redactado\">Se aísla el gen o su ADNc, se inserta en un vector como un plásmido con enzimas de restricción y ligasa, se introduce en la bacteria, se seleccionan los clones transformados y se cultivan para purificar la hormona.</span>",
+    "<b>I.</b> Ventajas: <mark class=\"clave-criterio\">abaratamiento</mark>, se trata de la <mark class=\"clave-criterio\">misma hormona humana</mark>, <mark class=\"clave-criterio\">no produce reacciones alérgicas</mark>, se puede obtener <mark class=\"clave-criterio\">sin contaminantes</mark>, mayor <mark class=\"clave-criterio\">accesibilidad</mark> para los usuarios (0,6 p).",
+    "<b>II.</b> Explicación y necesidad de la regulación (0,8 p). <span class=\"redactado\">Es el control de qué genes se expresan, cuándo y en qué cantidad. Es necesaria para no gastar energía en proteínas innecesarias, responder a cambios del medio y, en pluricelulares, permitir la diferenciación celular.</span>",
+    "<b>II.</b> Genes estructurales y reguladores, 0,35 p cada uno (0,7 p). <span class=\"redactado\">Estructurales: codifican proteínas o ARN con función en la célula. Reguladores: codifican productos, como los represores, que controlan la expresión de otros genes.</span>"
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2002-gm-5",
+    "pau2002-gm-6"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2002 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 4 + pregunta 3",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2002,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2002-gm-8+9",
+   "block": "Genética",
+   "topic": "Transcripción: definición, localización y proceso · Sustitución de un aminoácido: efectos en la proteína",
+   "anio": 2002,
+   "etiqueta": "PAU 2002",
+   "hasImg": false,
+   "q": "<b>I.</b> Defina el proceso de transcripción [0,4], indique dónde tiene lugar [0,1] y explique cómo se realiza [1]. <i>(1,5 puntos)</i><br><br><b>II.</b> Si una mutación puntual en el ADN provoca la sustitución de un aminoácido por otro en una determinada proteína, ¿qué efectos podrían producirse en la estructura y función de dicha proteína? Razone la respuesta [1]. <i>(1 punto)</i>",
+   "puntos": 2.5,
+   "c": [
+    "<b>I.</b> Definición (0,4 p). <span class=\"redactado\">Síntesis de ARN a partir de un molde de ADN.</span>",
+    "<b>I.</b> Localización (0,1 p). <span class=\"redactado\">Núcleo en eucariotas, y también mitocondrias y cloroplastos; citoplasma en procariotas.</span>",
+    "<b>I.</b> En la explicación del proceso debe incluirse: <mark class=\"clave-criterio\">copia de una sola cadena del ADN</mark>, acción de la <mark class=\"clave-criterio\">ARN polimerasa</mark>, papel de las <mark class=\"clave-criterio\">señales de inicio y de terminación</mark> (1 p).",
+    "<b>II.</b> Cualquier respuesta razonada que relacione la mutación con los posibles <mark class=\"clave-criterio\">cambios estructurales y funcionales</mark> (1 p). <span class=\"redactado\">Si el aminoácido nuevo es parecido o está fuera de zonas clave, el efecto puede ser nulo. Si afecta al centro activo o al plegamiento, la proteína puede perder o alterar su función, como en la anemia falciforme.</span>"
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2002-gm-8",
+    "pau2002-gm-9"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2002 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 3 + pregunta 5",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2002,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2002-gm-10+12",
+   "block": "Biotecnología",
+   "topic": "Clonación con un núcleo de hígado: ¿todos los genes? · Recombinación y segregación: importancia evolutiva",
+   "anio": 2002,
+   "etiqueta": "PAU 2002",
+   "hasImg": false,
+   "q": "<b>I.</b> Suponga que se ha clonado un individuo transfiriendo el núcleo de una célula de hígado totalmente diferenciada a un óvulo sin núcleo. ¿Tendrá el nuevo individuo todos los genes o tendrá únicamente aquellos que se expresaban en la célula del hígado? ¿Por qué? [1]. <i>(1 punto)</i><br><br><b>II.</b> Explique en qué consisten los procesos de recombinación genética [0,5] y segregación cromosómica [0,5]. ¿Cuál es la importancia de ambos procesos para la evolución? [0,5]. <i>(1,5 puntos)</i>",
+   "puntos": 2.5,
+   "c": [
+    "<b>I.</b> El núcleo de una célula hepática diferenciada <mark class=\"clave-criterio\">tiene todos los genes</mark> y, por tanto, <mark class=\"clave-criterio\">el nuevo individuo también</mark> (1 p). <span class=\"redactado\">La diferenciación se debe a qué genes se expresan, no a que se pierdan genes.</span>",
+    "<b>II.</b> Recombinación genética: <mark class=\"clave-criterio\">intercambio de segmentos cromosómicos</mark> (0,5 p).",
+    "<b>II.</b> Segregación cromosómica: <mark class=\"clave-criterio\">combinación al azar de cromosomas</mark> (0,5 p).",
+    "<b>II.</b> Importancia evolutiva (ideas que debe contener la respuesta correcta: 1) <mark class=\"clave-criterio\">fuente de variabilidad</mark> junto con la mutación y 2) <mark class=\"clave-criterio\">necesidad de la variabilidad</mark> para el proceso de <mark class=\"clave-criterio\">selección natural</mark>). 0,25 p cada una (0,5 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2002-gm-10",
+    "pau2002-gm-12"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2002 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 6 + pregunta 4",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2002,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2002-prot-1+2",
+   "block": "Biomoléculas",
+   "topic": "Estructuras secundaria y terciaria: fuerzas que las mantienen · Cinco funciones de las proteínas",
+   "anio": 2002,
+   "etiqueta": "PAU 2002",
+   "hasImg": false,
+   "q": "<b>I.</b> Analice la estructura secundaria [0,75] y terciaria [0,75] de las proteínas haciendo especial hincapié en las fuerzas que las mantienen. <i>(1,5 puntos)</i><br><br><b>II.</b> Describa cinco funciones desempeñadas por las proteínas en los seres vivos [1,5]. <i>(1,5 puntos)</i>",
+   "puntos": 3.0,
+   "c": [
+    "<b>I.</b> Estructura <mark class=\"clave-criterio\">secundaria</mark>: <mark class=\"clave-criterio\">hélice α</mark> y <mark class=\"clave-criterio\">hoja plegada</mark>, mantenidas por enlaces peptídicos y <mark class=\"clave-criterio\">enlaces de hidrógeno</mark> (0,75 p).",
+    "<b>I.</b> Estructura <mark class=\"clave-criterio\">terciaria</mark>: <mark class=\"clave-criterio\">proteínas fibrosas y globulares</mark>, mantenidas por enlaces peptídicos, <mark class=\"clave-criterio\">puentes de hidrógeno</mark>, <mark class=\"clave-criterio\">fuerzas de Van der Waals</mark>, <mark class=\"clave-criterio\">fuerzas electrostáticas</mark> y <mark class=\"clave-criterio\">puentes disulfuro</mark> (0,75 p).",
+    "<b>II.</b> Descripción de cinco funciones (<mark class=\"clave-criterio\">estructural</mark>, <mark class=\"clave-criterio\">transporte</mark>, <mark class=\"clave-criterio\">enzimática</mark>, <mark class=\"clave-criterio\">movimiento</mark>, <mark class=\"clave-criterio\">contracción</mark>, <mark class=\"clave-criterio\">reserva</mark>, <mark class=\"clave-criterio\">inmunológica</mark>, etc.). Cada función, 0,3 p (1,5 p). <span class=\"redactado\">Por ejemplo: estructural, el colágeno; transporte, la hemoglobina; enzimática, la amilasa; contráctil, la miosina; defensa, los anticuerpos.</span>"
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2002-prot-1",
+    "pau2002-prot-2"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2002 (recopilación por temas) · Proteínas",
+    "referencia": "pregunta 1 + pregunta 1",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "examen_anio": 2002,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2002-enz-1",
+   "block": "Biomoléculas",
+   "topic": "Actividad de pepsina, fosfatasa alcalina y papaína según el pH",
+   "anio": 2002,
+   "etiqueta": "PAU 2002",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "A la vista de la gráfica, conteste a las siguientes cuestiones:<br>a) Explique qué representa esta gráfica [0,3]. Indique los valores aproximados de pH para los cuales dos enzimas tienen la misma velocidad de reacción [0,4]. Para valores de máxima acidez, ¿cuál es el enzima con mayor actividad catalítica? [0,3].<br>b) Si el pH de la sangre fuera 7,5, indique qué enzimas podrían presentar actividad catalítica en el plasma sanguíneo [0,4]. Explique el comportamiento de cada enzima en función del pH [0,6].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Efecto del pH sobre la actividad enzimática</mark> (0,3 p).",
+    "Valores de pH: pepsina/papaína (<mark class=\"clave-criterio\">entre 5 y 5,5</mark>); pepsina/fosfatasa (<mark class=\"clave-criterio\">entre 5,5 y 6</mark>); fosfatasa/papaína (<mark class=\"clave-criterio\">entre 6 y 6,5</mark> y <mark class=\"clave-criterio\">alrededor de 10,5</mark>). 0,1 p cada valor (0,4 p).",
+    "Máxima acidez: <mark class=\"clave-criterio\">pepsina</mark> (0,3 p).",
+    "b) <mark class=\"clave-criterio\">Fosfatasa y papaína</mark> (0,4 p).",
+    "Comportamiento de cada enzima, 0,2 p cada una (0,6 p). <span class=\"redactado\">Pepsina: máxima actividad a pH muy ácido, que disminuye hasta anularse hacia pH 7. Fosfatasa alcalina: actúa desde pH 5, con óptimo hacia pH 9, y cae bruscamente hacia pH 11. Papaína: actividad constante, independiente del pH.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2002 (recopilación por temas) · Enzimas",
+    "referencia": "pregunta 7",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/05 PAU Enzimas.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/05 PAU Enzimas.odt",
+    "examen_anio": 2002,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/enz2002-ph.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/enz2002-ph.thumb.webp",
+   "imageDesc": "Gráfica de actividad catalítica frente al pH (3 a 11): pepsina (P), máxima a pH ácido y decreciente; fosfatasa alcalina (F), con máximo hacia pH 9; papaína (PP), línea horizontal.",
+   "isNew": true
+  },
+  {
+   "id": "pau2002-enz-2",
+   "block": "Biomoléculas",
+   "topic": "Velocidad de reacción y concentración de sustrato",
+   "anio": 2002,
+   "etiqueta": "PAU 2002",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "A la vista de la gráfica, conteste a las siguientes cuestiones:<br>a) Explique qué representa esta gráfica [0,5]. ¿Por qué la velocidad de la reacción aumenta al principio de la curva, al aumentar la concentración de sustrato? [0,5].<br>b) ¿Por qué la velocidad de la reacción permanece prácticamente constante a partir de una determinada concentración de sustrato? [0,5]. ¿Qué ocurrirá si se aumenta la concentración de enzima? [0,5].",
+   "c": [
+    "a) La <mark class=\"clave-criterio\">curva de actividad típica de los enzimas</mark> al relacionar la <mark class=\"clave-criterio\">velocidad</mark> con la <mark class=\"clave-criterio\">concentración de sustrato</mark> (0,5 p).",
+    "Porque la velocidad es <mark class=\"clave-criterio\">proporcional a la formación del complejo enzima-sustrato</mark> (0,5 p).",
+    "b) En la <mark class=\"clave-criterio\">zona de saturación</mark> la velocidad depende de la <mark class=\"clave-criterio\">cantidad de enzima</mark> (0,5 p). <span class=\"redactado\">Todos los centros activos están ocupados.</span>",
+    "La velocidad <mark class=\"clave-criterio\">aumenta proporcionalmente a lo largo de toda la curva</mark> (0,5 p). <span class=\"redactado\">Se alcanza una Vmax mayor.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2002 (recopilación por temas) · Enzimas",
+    "referencia": "pregunta 7",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/05 PAU Enzimas.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/05 PAU Enzimas.odt",
+    "examen_anio": 2002,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/enz2002-sustrato.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/enz2002-sustrato.thumb.webp",
+   "imageDesc": "Curva hiperbólica de velocidad de reacción frente a concentración de sustrato (10-60), con Vmax y Vmax/2 marcadas.",
+   "isNew": true
+  },
+  {
+   "id": "pau2003-gm-1",
+   "block": "Genética",
+   "topic": "Transcripción y traducción con el código genético",
+   "anio": 2003,
+   "etiqueta": "PAU 2003",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "Se presenta un fragmento de ADN; la flecha indica el sentido de lectura. Además se muestra el código genético. Conteste las siguientes cuestiones:<br>a) Indique la secuencia de bases del ARN mensajero transcrito [0,5] y la secuencia de aminoácidos de la proteína sintetizada [0,5].<br>b) ¿Cómo se llaman los procesos implicados en el apartado anterior? [0,5]. Si se conociese la secuencia de aminoácidos de una proteína, ¿se podría averiguar la secuencia de bases del ADN que la codifica? [0,5]. Razone la respuesta.",
+   "c": [
+    "a) ARNm: <mark class=\"clave-criterio\">AUGCCCUCUAGUGGAGUAAUCCACUGGUAA</mark> (0,5 p).",
+    "Proteína: <mark class=\"clave-criterio\">Met-Pro-Ser-Ser-Gly-Val-Ile-His-Trp</mark> (stop) (0,5 p).",
+    "b) <mark class=\"clave-criterio\">Transcripción</mark> y <mark class=\"clave-criterio\">traducción</mark> (0,5 p).",
+    "<mark class=\"clave-criterio\">No</mark> se podría conocer la secuencia exacta (por ejemplo: <mark class=\"clave-criterio\">código degenerado</mark>, <mark class=\"clave-criterio\">eliminación de intrones</mark>; una sola razón basta para la máxima nota) (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2003 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 7",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2003,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/gm2003-fragmento.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/gm2003-fragmento.thumb.webp",
+   "imageDesc": "Fragmento de ADN TACGGGAGATCACCTCATTAGGTGACCATT con una flecha que indica el sentido de lectura, y tabla del código genético.",
+   "isNew": true
+  },
+  {
+   "id": "pau2003-gm-3",
+   "block": "Genética",
+   "topic": "Experimento de Meselson y Stahl",
+   "anio": 2003,
+   "etiqueta": "PAU 2003",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "La figura siguiente representa los resultados del experimento que Meselson y Stahl realizaron en relación con la replicación del ADN. Responda razonadamente las siguientes cuestiones:<br>a) Interprete esta experiencia a partir de sus conocimientos sobre la estructura del ADN y su mecanismo de replicación [1].<br>b) ¿Cuál sería el aspecto de un quinto tubo de centrifugación obtenido a partir del cultivo sobre medio con N¹⁵ tres generaciones después de su transferencia al medio con N¹⁴? ¿Qué aspecto tendría un sexto tubo de centrifugación obtenido a partir del cultivo sobre medio con N¹⁵ tras 100 generaciones después de su transferencia al medio con N¹⁴? [1].",
+   "c": [
+    "a) Conceptos clave: <mark class=\"clave-criterio\">doble hélice</mark> de ADN e <mark class=\"clave-criterio\">hipótesis semiconservativa</mark> de la replicación (1 p). <span class=\"redactado\">Tras una generación en N¹⁴ todo el ADN es híbrido, con una cadena pesada y otra ligera; tras dos generaciones, la mitad es híbrido y la mitad ligero. Así se descartan los modelos conservativo y dispersivo.</span>",
+    "b) Tres generaciones: aparece una <mark class=\"clave-criterio\">banda estrecha de ADN híbrido</mark> (con N¹⁵) y otra <mark class=\"clave-criterio\">más ancha de ADN ligero</mark> (con N¹⁴) (0,5 p). <span class=\"redactado\">Un 25 % híbrido y un 75 % ligero.</span>",
+    "Tras 100 generaciones: aparece <mark class=\"clave-criterio\">una sola banda ancha de ADN ligero</mark> (con N¹⁴) (0,5 p). <span class=\"redactado\">Las dos cadenas pesadas originales siguen existiendo, pero en una proporción despreciable.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2003 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 7",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2003,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/gm2003-meselson.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/gm2003-meselson.thumb.webp",
+   "imageDesc": "Cuatro tubos de centrifugación con bandas de ADN según su densidad (1,65 a 1,80 g/cm³): ADN de bacterias cultivadas en N¹⁴ (ligero), en N¹⁵ (pesado), una generación después de pasar de N¹⁵ a N¹⁴ y dos generaciones después.",
+   "isNew": true
+  },
+  {
+   "id": "pau2003-gm-6",
+   "block": "Genética",
+   "topic": "Traducción: estructuras, moléculas y papel de cada ARN",
+   "anio": 2003,
+   "etiqueta": "PAU 2003",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "A la vista de la imagen, conteste las siguientes cuestiones:<br>a) ¿Qué proceso representa este esquema? [0,2]. Identifique las estructuras y las moléculas que aparecen en el dibujo [0,8].<br>b) Explique cómo se lleva a cabo el proceso representado [1].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Traducción</mark> o síntesis proteica (0,2 p).",
+    "<mark class=\"clave-criterio\">Ribosoma</mark>, <mark class=\"clave-criterio\">ARN mensajero</mark>, <mark class=\"clave-criterio\">ARN transferente</mark> y <mark class=\"clave-criterio\">aminoácidos</mark> (0,8 p).",
+    "b) Se mencionarán todas las moléculas de ácido nucleico que intervienen (<mark class=\"clave-criterio\">ARN mensajero</mark>, <mark class=\"clave-criterio\">ARN ribosómico</mark> y <mark class=\"clave-criterio\">ARN transferente</mark>) y la <mark class=\"clave-criterio\">función</mark> que desempeña cada una (1 p). <span class=\"redactado\">El ARNm aporta la secuencia de codones; el ARNr forma el ribosoma y cataliza el enlace peptídico; cada ARNt lleva un aminoácido y lo sitúa según el emparejamiento anticodón-codón.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2003 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 7",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2003,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/gm2003-traduccion.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/gm2003-traduccion.thumb.webp",
+   "imageDesc": "Ribosoma desplazándose sobre un ARN mensajero; un ARN transferente se empareja por su anticodón con un codón y otro sale tras ceder su aminoácido; la cadena polipeptídica empieza por Met-Leu.",
+   "isNew": true
+  },
+  {
+   "id": "pau2003-gm-2+4",
+   "block": "Genética",
+   "topic": "Replicación y reproducción sexual explican el parecido familiar · Toxina diftérica y síntesis de proteínas",
+   "anio": 2003,
+   "etiqueta": "PAU 2003",
+   "hasImg": false,
+   "q": "<b>I.</b> La semejanza que existe entre los hijos y sus padres es explicable por dos de los siguientes procesos: replicación, transcripción, traducción, reproducción sexual. Indique cuáles [0,2]. Razone la respuesta [0,8]. <i>(1 punto)</i><br><br><b>II.</b> La difteria está producida por la acción de la toxina de Corynebacterium diphtheriae. La toxina impide la acción de la translocasa, enzima que favorece el movimiento del ARN mensajero en el ribosoma. El efecto de esta toxina puede matar a la célula. Explique razonadamente este hecho [1]. <i>(1 punto)</i>",
+   "puntos": 2,
+   "c": [
+    "<b>I.</b> Procesos: <mark class=\"clave-criterio\">replicación</mark> y <mark class=\"clave-criterio\">reproducción sexual</mark>. 0,1 p cada uno (0,2 p).",
+    "<b>I.</b> Justificación: la <mark class=\"clave-criterio\">replicación</mark> es necesaria para la <mark class=\"clave-criterio\">duplicación del material genético</mark> en los padres, y la <mark class=\"clave-criterio\">reproducción sexual</mark> permite que el <mark class=\"clave-criterio\">ADN replicado pase de una generación a otra</mark> (0,8 p).",
+    "<b>II.</b> Explicación razonada de que la toxina ocasiona la <mark class=\"clave-criterio\">detención de la síntesis proteica</mark> (1 p). <span class=\"redactado\">Sin translocación, el ribosoma no avanza al siguiente codón, la elongación se para y la célula se queda sin las proteínas que necesita.</span>"
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2003-gm-2",
+    "pau2003-gm-4"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2003 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 6 + pregunta 6",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2003,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2003-gm-5+7",
+   "block": "Genética",
+   "topic": "Replicación: definición, proceso y carácter semiconservativo · Traducción: definición, localización y etapas",
+   "anio": 2003,
+   "etiqueta": "PAU 2003",
+   "hasImg": false,
+   "q": "<b>I.</b> Indique qué es la replicación [0,25]. Describa este proceso [1]. ¿Qué significa que la replicación es semiconservativa? [0,25]. <i>(1,5 puntos)</i><br><br><b>II.</b> Defina el proceso de traducción [0,4], indique dónde tiene lugar [0,1] y describa cómo se realiza [1]. <i>(1,5 puntos)</i>",
+   "puntos": 3.0,
+   "c": [
+    "<b>I.</b> Replicación: <mark class=\"clave-criterio\">proceso de síntesis del ADN</mark> (0,25 p).",
+    "<b>I.</b> Descripción del proceso (deberá incluir: <mark class=\"clave-criterio\">horquillas de replicación</mark>, replicación <mark class=\"clave-criterio\">bidireccional</mark>, replicación <mark class=\"clave-criterio\">continua de una hebra y discontinua de la otra</mark>, papel fundamental de las <mark class=\"clave-criterio\">enzimas</mark>) (1 p).",
+    "<b>I.</b> Semiconservativa: la molécula de ADN resultante posee <mark class=\"clave-criterio\">una cadena vieja y otra de nueva síntesis</mark> (0,25 p).",
+    "<b>II.</b> Definición (0,4 p). <span class=\"redactado\">Síntesis de una cadena polipeptídica según la secuencia de codones de un ARN mensajero.</span>",
+    "<b>II.</b> Localización: <mark class=\"clave-criterio\">ribosomas</mark> (0,1 p).",
+    "<b>II.</b> Descripción de las etapas: <mark class=\"clave-criterio\">iniciación</mark>, <mark class=\"clave-criterio\">elongación</mark> y <mark class=\"clave-criterio\">terminación</mark> (1 p). <span class=\"redactado\">Iniciación: la subunidad menor se une al ARNm y el ARNt iniciador con metionina se empareja con el codón AUG; luego se une la subunidad mayor. Elongación: entran ARNt según los codones, se forman enlaces peptídicos y el ribosoma se trasloca. Terminación: un codón de parada provoca la liberación del polipéptido.</span>"
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2003-gm-5",
+    "pau2003-gm-7"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2003 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 3 + pregunta 3",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2003,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2003-prot-3",
+   "block": "Biomoléculas",
+   "topic": "Hélice α: enlaces y comparación con la hoja plegada",
+   "anio": 2003,
+   "etiqueta": "PAU 2003",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "A la vista de la imagen, conteste las siguientes cuestiones:<br>a) ¿Qué tipo de molécula o macromolécula le sugiere la figura adjunta? [0,25]. ¿Qué estructura representa? [0,25]. ¿Qué tipos de enlaces estabilizan el entramado molecular que se observa en la figura? [0,5].<br>b) ¿Qué otro tipo de estructura del mismo nivel de complejidad conoce? [0,2]. Analice las principales características de cada una de ellas [0,8].",
+   "c": [
+    "a) La figura representa la estructura de una <mark class=\"clave-criterio\">proteína</mark> (0,25 p). Representa la estructura en <mark class=\"clave-criterio\">α-hélice</mark> (0,25 p).",
+    "Enlaces <mark class=\"clave-criterio\">peptídicos</mark> y <mark class=\"clave-criterio\">puentes de hidrógeno</mark> entre zonas próximas de la cadena polipeptídica (0,5 p).",
+    "b) <mark class=\"clave-criterio\">Hoja plegada</mark> (lámina β) (0,2 p).",
+    "Características y tipos de enlaces que participan (0,8 p). <span class=\"redactado\">α-hélice: espiral dextrógira, unos 3,6 aminoácidos por vuelta, radicales hacia fuera y puentes de hidrógeno dentro de la misma cadena. Hoja β: segmentos de cadena extendidos en zigzag, dispuestos en paralelo o antiparalelo y unidos por puentes de hidrógeno entre segmentos, con los radicales alternativamente arriba y abajo.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2003 (recopilación por temas) · Proteínas",
+    "referencia": "pregunta 7",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "examen_anio": 2003,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/prot2003-helice.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/prot2003-helice.thumb.webp",
+   "imageDesc": "Dibujo de una hélice α: el esqueleto de la cadena (–N–C–C(=O)–) se enrolla en espiral; los radicales, como esferas, apuntan hacia fuera y los puentes de hidrógeno entre vueltas se marcan como barras verdes.",
+   "isNew": true
+  },
+  {
+   "id": "pau2003-prot-1+2",
+   "block": "Biomoléculas",
+   "topic": "Hidrólisis frente a desnaturalización de proteínas · Proteína: estructura primaria y secundaria",
+   "anio": 2003,
+   "etiqueta": "PAU 2003",
+   "hasImg": false,
+   "q": "<b>I.</b> Indique cuáles son las diferencias entre hidrólisis y desnaturalización de proteínas [0,5], enumerando los enlaces que se rompen en cada caso y los productos de ambos procesos [0,8]. Cite un agente que pueda hidrolizar y otro que pueda desnaturalizar las proteínas [0,2]. <i>(1,5 puntos)</i><br><br><b>II.</b> Defina el término proteína [0,25] y describa su estructura primaria [0,5] y secundaria [0,75] haciendo especial hincapié en los enlaces y las fuerzas que las estabilizan. <i>(1,5 puntos)</i>",
+   "puntos": 3.0,
+   "c": [
+    "<b>I.</b> <mark class=\"clave-criterio\">Nivel estructural afectado</mark> (<mark class=\"clave-criterio\">primario</mark> en la hidrólisis y <mark class=\"clave-criterio\">niveles superiores</mark> en la desnaturalización) y el <mark class=\"clave-criterio\">grado de reversibilidad</mark> de ambos procesos (0,5 p).",
+    "<b>I.</b> Hidrólisis: se rompe el <mark class=\"clave-criterio\">enlace peptídico</mark>; productos: <mark class=\"clave-criterio\">péptidos y aminoácidos</mark>. Desnaturalización: se rompen <mark class=\"clave-criterio\">enlaces débiles</mark> (Van der Waals, puentes de hidrógeno, interacciones hidrofóbicas, etc.); producto: <mark class=\"clave-criterio\">proteínas desconfiguradas</mark> (0,8 p).",
+    "<b>I.</b> Agentes hidrolíticos: <mark class=\"clave-criterio\">enzimas</mark>, ácidos o bases; agentes desnaturalizantes: <mark class=\"clave-criterio\">calor</mark>, <mark class=\"clave-criterio\">pH</mark>, agentes químicos, etc. (0,2 p).",
+    "<b>II.</b> Definición de proteína (0,25 p). <span class=\"redactado\">Macromolécula formada por una o más cadenas de aminoácidos unidos por enlaces peptídicos.</span>",
+    "<b>II.</b> Estructura <mark class=\"clave-criterio\">primaria</mark> y <mark class=\"clave-criterio\">enlace peptídico</mark> (0,5 p). <span class=\"redactado\">Secuencia de aminoácidos.</span>",
+    "<b>II.</b> Estructura <mark class=\"clave-criterio\">secundaria</mark> y <mark class=\"clave-criterio\">puentes de hidrógeno</mark>: <mark class=\"clave-criterio\">intercatenarios</mark> (hoja plegada) e <mark class=\"clave-criterio\">intracatenarios</mark> (α-hélice) (0,75 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2003-prot-1",
+    "pau2003-prot-2"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2003 (recopilación por temas) · Proteínas",
+    "referencia": "pregunta 1 + pregunta 1",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "examen_anio": 2003,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2003-enz-2",
+   "block": "Biomoléculas",
+   "topic": "Actividad de cuatro enzimas según el pH",
+   "anio": 2003,
+   "etiqueta": "PAU 2003",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "La gráfica adjunta representa la evolución de la actividad de cuatro enzimas cuando se las somete a valores diferentes de pH. En relación con ella, conteste las siguientes cuestiones:<br>a) Compare e interprete de forma razonada el trazado de las distintas curvas de actividad [1].<br>b) Explique la diferencia existente entre los óptimos de actividad de la tripsina y de la pepsina teniendo en cuenta que una actúa en el estómago y otra en el intestino [0,5]. ¿Cómo influye el pH en la actividad enzimática de la papaína? Razone la respuesta [0,5].",
+   "c": [
+    "a) Debe explicarse el <mark class=\"clave-criterio\">trazado de las gráficas</mark> y establecer <mark class=\"clave-criterio\">comparaciones</mark> señalando diferencias entre ellas (1 p). <span class=\"redactado\">La pepsina tiene su óptimo a pH muy ácido, en torno a 2, y se inactiva hacia pH 5-6. La tripsina tiene su óptimo hacia pH 8. La colinesterasa aumenta su actividad desde pH 5 y la mantiene alta en medio básico. La papaína tiene actividad constante en todo el intervalo.</span>",
+    "b) Los óptimos se explican por los <mark class=\"clave-criterio\">diferentes tramos digestivos</mark> donde actúan, con <mark class=\"clave-criterio\">pH diferente</mark> (0,5 p). <span class=\"redactado\">La pepsina actúa en el estómago, de pH ácido, y la tripsina en el intestino delgado, de pH ligeramente básico.</span>",
+    "Debe indicarse la <mark class=\"clave-criterio\">independencia de la actividad de la papaína frente a las variaciones de pH</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2003 (recopilación por temas) · Enzimas",
+    "referencia": "pregunta 7",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/05 PAU Enzimas.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/05 PAU Enzimas.odt",
+    "examen_anio": 2003,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/enz2003-ph.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/enz2003-ph.thumb.webp",
+   "imageDesc": "Actividad relativa frente al pH (de 1 a 11) de cuatro enzimas: pepsina (máximo hacia pH 2), papaína (línea horizontal), colinesterasa (curva discontinua que sube desde pH 5 y se estabiliza) y tripsina (máximo hacia pH 8).",
+   "isNew": true
+  },
+  {
+   "id": "pau2003-gm-8+4",
+   "block": "Genética",
+   "topic": "Estreptomicina y síntesis de proteínas bacteriana · Cinco funciones de las proteínas con ejemplos",
+   "anio": 2003,
+   "etiqueta": "PAU 2003",
+   "hasImg": false,
+   "q": "<b>I.</b> La estreptomicina impide que el primer ARN transferente se una al ribosoma bacteriano. Explique razonadamente su efecto antibiótico [1]. <i>(1 punto)</i><br><br><b>II.</b> Enumere [0,5] y describa cinco funciones de las proteínas ilustrando cada una con un ejemplo [1]. <i>(1,5 puntos)</i>",
+   "puntos": 2.5,
+   "c": [
+    "<b>I.</b> Explicación razonada de que la estreptomicina ocasiona la <mark class=\"clave-criterio\">detención de la síntesis proteica bacteriana</mark> (1 p). <span class=\"redactado\">Bloquea la iniciación de la traducción en los ribosomas 70S; sin proteínas nuevas, la bacteria no puede crecer ni dividirse.</span>",
+    "<b>II.</b> Funciones: <mark class=\"clave-criterio\">estructural</mark>, <mark class=\"clave-criterio\">transporte</mark>, <mark class=\"clave-criterio\">enzimática</mark>, <mark class=\"clave-criterio\">hormonal</mark>, <mark class=\"clave-criterio\">defensa</mark>, <mark class=\"clave-criterio\">contráctil</mark>, <mark class=\"clave-criterio\">reserva</mark>, etc. (0,5 p).",
+    "<b>II.</b> Estructural: citoesqueleto, <mark class=\"clave-criterio\">colágeno</mark>, etc.; transporte: <mark class=\"clave-criterio\">hemoglobina</mark>, seroalbúmina, etc.; enzimática: cualquier <mark class=\"clave-criterio\">enzima</mark>; hormonal: <mark class=\"clave-criterio\">insulina</mark>, tiroxina, etc.; defensa: <mark class=\"clave-criterio\">inmunoglobulinas</mark>, trombina, etc.; contráctil: <mark class=\"clave-criterio\">miosina</mark>, <mark class=\"clave-criterio\">actina</mark>, etc.; reserva: caseína, <mark class=\"clave-criterio\">ovoalbúmina</mark>, etc. Cada descripción con su ejemplo, 0,2 p (1 p). <span class=\"redactado\">La tiroxina es una hormona derivada de un aminoácido, la tirosina, no una proteína en sentido estricto.</span>"
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2003-gm-8",
+    "pau2003-prot-4"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2003 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 6 + pregunta 1",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2003,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2003-enz-1+2",
+   "block": "Biomoléculas",
+   "topic": "Temperatura y rendimiento de la fotosíntesis · Replicación y reproducción sexual explican el parecido familiar",
+   "anio": 2003,
+   "etiqueta": "PAU 2003",
+   "hasImg": false,
+   "q": "<b>I.</b> Durante la fotosíntesis se producen muchas reacciones enzimáticas. Al aumentar la temperatura se incrementa la intensidad fotosintética; sin embargo, las temperaturas altas pueden disminuir el rendimiento de la fotosíntesis. Dé una explicación razonada a estos hechos [1]. <i>(1 punto)</i><br><br><b>II.</b> La semejanza que existe entre los hijos y sus padres es explicable por dos de los siguientes procesos: replicación, transcripción, traducción, reproducción sexual. Indique cuáles [0,2]. Razone la respuesta [0,8]. <i>(1 punto)</i>",
+   "puntos": 2,
+   "c": [
+    "<b>I.</b> Como proceso metabólico, la <mark class=\"clave-criterio\">intensidad fotosintética aumenta con la temperatura hasta un máximo</mark>, y con las temperaturas altas <mark class=\"clave-criterio\">se desnaturalizan las enzimas</mark> (1 p).",
+    "<b>II.</b> Procesos: <mark class=\"clave-criterio\">replicación</mark> y <mark class=\"clave-criterio\">reproducción sexual</mark>. 0,1 p cada uno (0,2 p).",
+    "<b>II.</b> Justificación: la <mark class=\"clave-criterio\">replicación</mark> es necesaria para la <mark class=\"clave-criterio\">duplicación del material genético</mark> en los padres, y la <mark class=\"clave-criterio\">reproducción sexual</mark> permite que el <mark class=\"clave-criterio\">ADN replicado pase de una generación a otra</mark> (0,8 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2003-enz-1",
+    "pau2003-gm-2"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2003 (recopilación por temas) · Enzimas",
+    "referencia": "pregunta 5 + pregunta 6",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/05 PAU Enzimas.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/05 PAU Enzimas.odt",
+    "examen_anio": 2003,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2004-gm-1",
+   "block": "Genética",
+   "topic": "Componentes y estructura del ADN; esquema de la expresión génica",
+   "anio": 2004,
+   "etiqueta": "PAU 2004",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "Enumere los componentes del ADN [0,3] y explique su estructura [1]. Indique de forma esquemática cómo se realiza la expresión de la información genética desde ADN a proteína [0,7].",
+   "c": [
+    "Composición: <mark class=\"clave-criterio\">desoxirribosa</mark>, <mark class=\"clave-criterio\">bases nitrogenadas</mark> y <mark class=\"clave-criterio\">ácido fosfórico</mark> (0,3 p).",
+    "Estructura: explicación del <mark class=\"clave-criterio\">modelo de doble hélice</mark> (1 p). <span class=\"redactado\">Dos cadenas de nucleótidos antiparalelas enrolladas en hélice dextrógira, con las bases hacia dentro y emparejadas por puentes de hidrógeno, A con T y G con C, y los esqueletos de azúcar y fosfato hacia fuera.</span>",
+    "Esquema donde quede recogida la <mark class=\"clave-criterio\">transcripción</mark> del ADN y la <mark class=\"clave-criterio\">traducción</mark> del ARN (0,7 p). <span class=\"redactado\">ADN → [transcripción] → ARNm → [traducción en los ribosomas] → proteína.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2004 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 3 (también en 2002, con otra puntuación)",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2004,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2004-gm-2",
+   "block": "Genética",
+   "topic": "Mutación: tipos, efectos e importancia evolutiva",
+   "anio": 2004,
+   "etiqueta": "PAU 2004",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "Exponga el concepto de mutación [0,6] y diferencie entre mutación espontánea e inducida [0,4]. ¿Qué efectos puede tener una mutación? [0,3]. ¿Por qué las mutaciones son importantes desde el punto de vista evolutivo? [0,7].",
+   "c": [
+    "Mutación: <mark class=\"clave-criterio\">cambios en el material genético</mark> (0,6 p).",
+    "<mark class=\"clave-criterio\">Espontánea</mark>: <mark class=\"clave-criterio\">sin causa aparente</mark>; <mark class=\"clave-criterio\">inducida</mark>: causada por <mark class=\"clave-criterio\">agentes mutagénicos</mark> (0,4 p).",
+    "Efectos: <mark class=\"clave-criterio\">inocuos</mark>, <mark class=\"clave-criterio\">beneficiosos</mark> y <mark class=\"clave-criterio\">perjudiciales</mark> (0,3 p).",
+    "Importancia evolutiva: <mark class=\"clave-criterio\">origen de nuevas variantes genéticas</mark> (<mark class=\"clave-criterio\">variabilidad genética</mark>) (0,7 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2004 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 2",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2004,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2004-gm-3",
+   "block": "Genética",
+   "topic": "ADN, ARN y proteína: diferencias entre ADN y ARN",
+   "anio": 2004,
+   "etiqueta": "PAU 2004",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "En relación con la figura adjunta, conteste las siguientes cuestiones:<br>a) Identifique las moléculas 1, 2 y 3 [0,3] y los procesos A y B [0,2]. Identifique los elementos 4 y 5 [0,2]. ¿Qué significado tienen los números 5′ y 3′ y los grupos H₂N y COOH? [0,3].<br>b) ¿Qué diferencias relativas a la composición química [0,3], a la estructura [0,2] y a la función [0,5] existen entre las moléculas 1 y 2?",
+   "c": [
+    "a) 1: <mark class=\"clave-criterio\">ADN</mark>; 2: <mark class=\"clave-criterio\">ARN mensajero</mark>; 3: <mark class=\"clave-criterio\">proteína</mark>. 0,1 p cada una (0,3 p).",
+    "A: <mark class=\"clave-criterio\">transcripción</mark>; B: <mark class=\"clave-criterio\">traducción</mark>. 0,1 p cada uno (0,2 p).",
+    "4: <mark class=\"clave-criterio\">bases nitrogenadas</mark> (o nucleótidos); 5: <mark class=\"clave-criterio\">aminoácidos</mark>. 0,1 p cada uno (0,2 p).",
+    "<mark class=\"clave-criterio\">Extremos 5′ y 3′</mark> de las moléculas de ADN y ARN (0,1 p); extremos <mark class=\"clave-criterio\">amino terminal</mark> y <mark class=\"clave-criterio\">carboxilo terminal</mark> de un polipéptido (0,2 p).",
+    "b) Composición química: <mark class=\"clave-criterio\">distinto azúcar</mark>, <mark class=\"clave-criterio\">timina en el ADN</mark> y <mark class=\"clave-criterio\">uracilo en el ARN</mark> (0,3 p).",
+    "Estructura: <mark class=\"clave-criterio\">ADN bicatenario</mark>, <mark class=\"clave-criterio\">ARN monocatenario</mark> (0,2 p).",
+    "Función: el ADN es <mark class=\"clave-criterio\">portador de la información genética</mark> (almacenamiento y transmisión); el ARN interviene en la <mark class=\"clave-criterio\">transcripción y la traducción</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2004 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 6",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2004,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/gm2004-procesos.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/gm2004-procesos.thumb.webp",
+   "imageDesc": "Esquema: (1) ADN de doble cadena con extremos 5′ y 3′; flecha A hacia (2) una cadena de ARN 5′→3′ con sus bases (4); flecha B hacia (3) una proteína con extremos H₂N y COOH, formada por aminoácidos (5).",
+   "isNew": true
+  },
+  {
+   "id": "pau2004-gm-4+5",
+   "block": "Genética",
+   "topic": "Fragmento génico: número de aminoácidos y deleciones · Mutaciones: perjudiciales para el individuo, clave para la evolución",
+   "anio": 2004,
+   "etiqueta": "PAU 2004",
+   "hasImg": false,
+   "q": "<b>I.</b> Un fragmento génico tiene la siguiente secuencia: 5′…AGGGCCAGATGAAAACGG…3′. ¿Cuántos aminoácidos tendrá el polipéptido que codifica? [0,2]. ¿Qué pasaría con la secuencia polipeptídica si una mutación provocase la pérdida del primer nucleótido (A)? [0,4]. ¿Y si la mutación suprimiese los tres primeros nucleótidos (AGG)? [0,4]. Razone las respuestas. <i>(1 punto)</i><br><br><b>II.</b> Las mutaciones generalmente son perniciosas para el individuo que las sufre; sin embargo, desde el punto de vista evolutivo son muy importantes. Explique razonadamente esta aparente contradicción [1]. <i>(1 punto)</i>",
+   "puntos": 2,
+   "c": [
+    "<b>I.</b> <mark class=\"clave-criterio\">Seis aminoácidos</mark> (0,2 p). <span class=\"redactado\">18 nucleótidos / 3 = 6 codones.</span>",
+    "<b>I.</b> Perder la A produce un <mark class=\"clave-criterio\">cambio de la fase de lectura</mark>, que daría lugar a una <mark class=\"clave-criterio\">proteína nueva</mark>, probablemente <mark class=\"clave-criterio\">no funcional</mark> (0,4 p).",
+    "<b>I.</b> Suprimir AGG hace que <mark class=\"clave-criterio\">se pierda el primer aminoácido</mark>; la secuencia polipeptídica <mark class=\"clave-criterio\">puede mantener o no la función</mark> (0,4 p).",
+    "<b>II.</b> Explicación razonada del <mark class=\"clave-criterio\">efecto pernicioso</mark> (0,5 p). <span class=\"redactado\">La mayoría altera proteínas que ya funcionaban bien.</span>",
+    "<b>II.</b> <mark class=\"clave-criterio\">Importancia evolutiva</mark> (0,5 p). <span class=\"redactado\">Son la fuente última de variabilidad genética: las pocas mutaciones favorables son seleccionadas y permiten la adaptación y la evolución.</span>"
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2004-gm-4",
+    "pau2004-gm-5"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2004 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 5 + pregunta 5",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2004,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2004-prot-1",
+   "block": "Biomoléculas",
+   "topic": "Hélice α: componentes, enlace peptídico y estructura terciaria",
+   "anio": 2004,
+   "etiqueta": "PAU 2004",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "En relación con la figura adjunta, conteste las siguientes cuestiones:<br>a) Identifique la macromolécula que representa [0,2], indique cuáles son sus componentes esenciales [0,2] y describa el enlace que se establece entre ellos [0,3] citando dos características del mismo [0,3].<br>b) Nombre y describa la estructura espacial de la macromolécula representada [0,5]. Cite alguna otra estructura espacial de mayor complejidad que pueda adoptar la misma macromolécula [0,1] y descríbala [0,4].",
+   "c": [
+    "<span class=\"redactado\">a) Una <mark class=\"clave-criterio\">proteína</mark> o cadena polipeptídica (0,2 p). Sus componentes son los <mark class=\"clave-criterio\">aminoácidos</mark> (0,2 p).</span>",
+    "<span class=\"redactado\">Enlace <mark class=\"clave-criterio\">peptídico</mark>: enlace covalente entre el grupo carboxilo de un aminoácido y el grupo amino del siguiente, con pérdida de una molécula de agua (0,3 p). Características: carácter parcial de doble enlace, por lo que no permite el giro, y átomos del enlace en un mismo plano (0,3 p).</span>",
+    "<span class=\"redactado\">b) <mark class=\"clave-criterio\">Hélice α</mark>: la cadena se enrolla en espiral dextrógira, con unos 3,6 aminoácidos por vuelta y los radicales hacia fuera; se estabiliza por puentes de hidrógeno entre el C=O de un aminoácido y el N–H del que está cuatro posiciones más allá (0,5 p).</span>",
+    "<span class=\"redactado\">Una estructura de mayor complejidad: la <mark class=\"clave-criterio\">terciaria</mark> (o la cuaternaria) (0,1 p). La terciaria es el plegamiento tridimensional de la cadena completa, mantenido por interacciones entre radicales: puentes disulfuro, puentes de hidrógeno, interacciones iónicas e hidrofóbicas (0,4 p).</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2004 (recopilación por temas) · Proteínas",
+    "referencia": "pregunta 6",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "examen_anio": 2004,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/prot2004-helice.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/prot2004-helice.thumb.webp",
+   "imageDesc": "Modelo tridimensional de una hélice α: el esqueleto de la cadena se enrolla en espiral con los radicales (R) hacia fuera y los puentes de hidrógeno entre vueltas marcados con líneas de puntos.",
+   "isNew": true
+  },
+  {
+   "id": "pau2004-enz-1+2",
+   "block": "Biomoléculas",
+   "topic": "Desnaturalización reversible por temperatura · Catalasa y ácido clorhídrico",
+   "anio": 2004,
+   "etiqueta": "PAU 2004",
+   "hasImg": false,
+   "q": "<b>I.</b> En un ensayo enzimático se produjo, accidentalmente, una elevación brusca de la temperatura y se detuvo la actividad enzimática. Al bajar la temperatura se recuperó la actividad enzimática. Explique razonadamente este hecho [1]. <i>(1 punto)</i><br><br><b>II.</b> La catalasa es una enzima que transforma el peróxido de hidrógeno en oxígeno y agua. Si en un tubo de ensayo introducimos catalasa y le añadimos agua oxigenada se produce la emisión de burbujas de oxígeno. Si al mismo tubo de ensayo se le añaden unas gotas de ácido clorhídrico se interrumpe la emisión. Proponga una explicación a este hecho [1]. <i>(1 punto)</i>",
+   "puntos": 2,
+   "c": [
+    "<b>I.</b> La elevación de la temperatura <mark class=\"clave-criterio\">desnaturaliza la enzima</mark>. La bajada de la temperatura permite la <mark class=\"clave-criterio\">renaturalización</mark> y se <mark class=\"clave-criterio\">recupera la actividad</mark> enzimática (1 p). <span class=\"redactado\">La desnaturalización fue reversible: no se rompieron enlaces covalentes y la enzima recuperó su forma nativa.</span>",
+    "<b>II.</b> <span class=\"redactado\">El ácido clorhídrico baja bruscamente el pH, que se aleja mucho del óptimo de la catalasa. La enzima se desnaturaliza o, al menos, su centro activo se altera, pierde su actividad y deja de descomponer el peróxido de hidrógeno, así que cesa el desprendimiento de O₂ (1 p).</span>"
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2004-enz-1",
+    "pau2004-enz-2"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2004 (recopilación por temas) · Enzimas",
+    "referencia": "pregunta 4 + pregunta 4",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/05 PAU Enzimas.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/05 PAU Enzimas.odt",
+    "examen_anio": 2004,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2005-gm-2",
+   "block": "Genética",
+   "topic": "Transcripción, traducción, codones y mutación puntual",
+   "anio": 2005,
+   "etiqueta": "PAU 2005",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "En relación con el esquema adjunto, conteste las siguientes cuestiones:<br>a) ¿Cómo se denominan cada uno de los pasos indicados con flechas en el esquema [0,2] y dónde se llevan a cabo en una célula eucariótica? [0,2]. Escriba qué codones corresponden a cada uno de los 5 aminoácidos [0,3]. Si una mutación puntual provoca que la primera base de la molécula 2 pase a ser una C en vez de una A, ¿qué cambio se origina en la secuencia de la molécula 3? [0,3].<br>b) Describa brevemente el proceso de síntesis de la molécula 3 e indique las fases de las que consta [1].",
+   "c": [
+    "a) Paso de 1 a 2: <mark class=\"clave-criterio\">transcripción</mark>; paso de 2 a 3: <mark class=\"clave-criterio\">traducción</mark>. 0,1 p cada uno (0,2 p).",
+    "Transcripción: en el <mark class=\"clave-criterio\">núcleo</mark> celular; traducción: en el <mark class=\"clave-criterio\">citoplasma</mark> (ribosomas). 0,1 p cada uno (0,2 p).",
+    "<mark class=\"clave-criterio\">AUU</mark> → Ile, <mark class=\"clave-criterio\">CGA</mark> → Arg, <mark class=\"clave-criterio\">UGC</mark> → Cys, <mark class=\"clave-criterio\">GUC</mark> → Val y <mark class=\"clave-criterio\">CUU</mark> → Leu (0,3 p).",
+    "La <mark class=\"clave-criterio\">isoleucina</mark> (Ile) pasaría a ser <mark class=\"clave-criterio\">leucina</mark> (Leu) (0,3 p). <span class=\"redactado\">AUU pasa a CUU, que codifica Leu.</span>",
+    "b) Se explicará cómo se <mark class=\"clave-criterio\">inicia</mark>, cómo se <mark class=\"clave-criterio\">elonga</mark> y cómo <mark class=\"clave-criterio\">termina</mark> la síntesis de la proteína (deberá mencionarse la unión al <mark class=\"clave-criterio\">ribosoma</mark>, el <mark class=\"clave-criterio\">ARN mensajero</mark>, el <mark class=\"clave-criterio\">ARN de transferencia</mark> y el <mark class=\"clave-criterio\">polipéptido</mark>) (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2005 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 6",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2005,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/gm2005-codones.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/gm2005-codones.thumb.webp",
+   "imageDesc": "Esquema: (1) ADN de doble cadena 5′-ATTCGATGCGTCCTT-3′ / 3′-TAAGCTACGCAGGAA-5′; (2) ARN 5′-AUUCGAUGCGUCCUU-3′; (3) péptido Ile-Arg-Cys-Val-Leu.",
+   "isNew": true
+  },
+  {
+   "id": "pau2005-gm-4",
+   "block": "Genética",
+   "topic": "Replicación, transcripción y traducción: dónde y cómo",
+   "anio": 2005,
+   "etiqueta": "PAU 2005",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "Defina los siguientes conceptos: replicación [0,3], transcripción [0,3] y traducción [0,3]. ¿En qué parte de las células procariótica y eucariótica tienen lugar estos procesos? [0,4]. Describa cómo se lleva a cabo la transcripción [0,7].",
+   "c": [
+    "Cada concepto, 0,3 p (0,9 p). <span class=\"redactado\">Replicación: síntesis de una copia del ADN; transcripción: síntesis de ARN a partir de un molde de ADN; traducción: síntesis de una proteína según la secuencia del ARNm.</span>",
+    "Localización en procariotas (0,1 p) y en eucariotas (0,3 p) (0,4 p). <span class=\"redactado\">En procariotas, los tres en el citoplasma. En eucariotas, replicación y transcripción en el núcleo, y también en mitocondrias y cloroplastos; traducción en los ribosomas del citoplasma.</span>",
+    "En la explicación de la transcripción debe incluirse: <mark class=\"clave-criterio\">copia de una sola cadena del ADN</mark>, acción de la <mark class=\"clave-criterio\">ARN polimerasa</mark>, <mark class=\"clave-criterio\">señales de inicio y de terminación</mark> (0,7 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2005 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 2",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2005,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2005-gm-6",
+   "block": "Célula",
+   "topic": "Ciclo celular: fases, procesos y contenido de ADN",
+   "anio": 2005,
+   "etiqueta": "PAU 2005",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "Defina el ciclo celular [0,5] e indique las fases en que se divide realizando un esquema [0,5]. Indique en qué fase o fases ocurren los procesos de replicación, transcripción, traducción y reparto del material hereditario [0,5]. Represente gráficamente cómo varía el contenido de ADN durante las fases [0,5].",
+   "c": [
+    "Ciclo celular: <mark class=\"clave-criterio\">fases por las que discurre una célula</mark> desde que se origina por división de una preexistente <mark class=\"clave-criterio\">hasta que se divide</mark> y da origen a dos células hijas (0,5 p).",
+    "Fases: <mark class=\"clave-criterio\">interfase</mark> (<mark class=\"clave-criterio\">G1, S, G2</mark>) y <mark class=\"clave-criterio\">mitosis</mark> (M), con su esquema (0,5 p).",
+    "Replicación: interfase (<mark class=\"clave-criterio\">fase S</mark>); transcripción y traducción: interfase (fases <mark class=\"clave-criterio\">G1, S y G2</mark>); reparto del material hereditario: <mark class=\"clave-criterio\">mitosis</mark> (M) (0,5 p).",
+    "Gráfico de variación del contenido de ADN (0,5 p). <span class=\"redactado\">La cantidad de ADN se duplica durante la fase S (de 2C a 4C), se mantiene en G2 y vuelve a 2C al separarse las cromátidas en la mitosis.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2005 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 2",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2005,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2005-gm-8",
+   "block": "Genética",
+   "topic": "Transcripción y traducción simultáneas: extremos y ribosomas",
+   "anio": 2005,
+   "etiqueta": "PAU 2005",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "En relación con la figura adjunta, responda las siguientes cuestiones:<br>a) ¿Cómo se denominan los dos procesos biológicos representados? [0,5]. Identifique los distintos elementos de la figura señalados con números [0,5].<br>b) Identifique los extremos del elemento 2 (a y b) y los extremos del elemento 5 (c y d) [0,5]. ¿Cuál es la composición química de los elementos señalados con los números 3 y 4? [0,5].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Transcripción</mark> y <mark class=\"clave-criterio\">traducción</mark> (0,5 p).",
+    "1: <mark class=\"clave-criterio\">ADN</mark>; 2: <mark class=\"clave-criterio\">ARNm</mark>; 3: <mark class=\"clave-criterio\">subunidad pequeña del ribosoma</mark>; 4: <mark class=\"clave-criterio\">subunidad grande del ribosoma</mark>; 5: <mark class=\"clave-criterio\">proteína</mark> (0,5 p).",
+    "b) Extremo <mark class=\"clave-criterio\">5′ del ARNm</mark> (a); extremo <mark class=\"clave-criterio\">3′ del ARNm</mark> (b); extremo <mark class=\"clave-criterio\">N-terminal</mark> (d) y <mark class=\"clave-criterio\">C-terminal</mark> (c) de la proteína (0,5 p).",
+    "Composición de 3 y 4: <mark class=\"clave-criterio\">ARNr y proteínas</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2005 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 6",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2005,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/gm2005-procesos.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/gm2005-procesos.thumb.webp",
+   "imageDesc": "Una ARN polimerasa recorre el ADN (1) y libera un ARNm (2), sobre el que varios ribosomas, con su subunidad pequeña (3) y grande (4), sintetizan proteínas (5); se señalan los extremos a y b del ARNm y c y d de la proteína.",
+   "isNew": true
+  },
+  {
+   "id": "pau2005-gm-1+3",
+   "block": "Genética",
+   "topic": "Código no universal e insulina de ratón en una bacteria · Mutación silenciosa y desplazamiento de la fase de lectura",
+   "anio": 2005,
+   "etiqueta": "PAU 2005",
+   "hasImg": true,
+   "q": "<b>I.</b> Si el código genético no fuese universal, ¿qué ocurriría al introducir el gen que codifica la insulina de ratón en una bacteria? [1]. Razone la respuesta. <i>(1 punto)</i><br><br><b>II.</b> Escriba la secuencia de aminoácidos que se puede originar a partir del ARN mensajero siguiente [0,25]. Si en la secuencia de ADN se produjera una alteración que cambiase en este ARN la U señalada con una flecha por una C, ¿cómo se llamaría este fenómeno? [0,25]. ¿Tendría consecuencias para la célula? [0,25]. ¿Qué ocurriría si desaparece la base señalada? [0,25]. Razone las respuestas. <i>(1 punto)</i>",
+   "puntos": 2,
+   "c": [
+    "<b>I.</b> Se debe razonar que <mark class=\"clave-criterio\">no se produciría proteína</mark> (insulina) alguna o que, en caso de producirse, <mark class=\"clave-criterio\">no sería funcional</mark> (1 p). <span class=\"redactado\">La bacteria asignaría a los codones aminoácidos distintos de los del ratón.</span>",
+    "<b>II.</b> Secuencia: <mark class=\"clave-criterio\">NH₂-Glu-Arg-Gly-Thr-Ser-Phe-Tyr-Val-COOH</mark> (0,25 p).",
+    "<b>II.</b> <mark class=\"clave-criterio\">Mutación</mark> (<mark class=\"clave-criterio\">silenciosa</mark>) (0,25 p). <mark class=\"clave-criterio\">Ninguna</mark> consecuencia, porque <mark class=\"clave-criterio\">no cambia el aminoácido</mark> (0,25 p). <span class=\"redactado\">UUU y UUC codifican ambos fenilalanina: el código es degenerado.</span>",
+    "<b>II.</b> Si desaparece la base: <mark class=\"clave-criterio\">desplazamiento de la fase de lectura</mark>, que daría lugar a una <mark class=\"clave-criterio\">proteína diferente</mark> (0,25 p)."
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2005-gm-1",
+    "pau2005-gm-3"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2005 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 5 + pregunta 4",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2005,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/gm2005-arnm-codigo.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/gm2005-arnm-codigo.thumb.webp",
+   "imageDesc": "ARN mensajero 5′…GAGCGUGGGACUAGCUUUUAUGUC…3′ con una flecha bajo la última U de UUU, y tabla del código genético."
+  },
+  {
+   "id": "pau2005-gm-5+7",
+   "block": "Genética",
+   "topic": "Sustitución de bases y sus cuatro posibles efectos · Dibujo de una cadena de ADN y de su ARN complementario",
+   "anio": 2005,
+   "etiqueta": "PAU 2005",
+   "hasImg": true,
+   "q": "<b>I.</b> Suponga que en un fragmento de ADN que codifica un polipéptido se produce una mutación que cambia un par de bases por otro. Debido a ello, cuando la célula sintetice de nuevo el polipéptido pueden ocurrir cualquiera de los cuatro hechos siguientes:<br>1. Que se codifique el mismo aminoácido.<br>2. Que se sustituya un aminoácido por otro distinto.<br>3. Que el nuevo polipéptido sintetizado sea más corto.<br>4. Que el nuevo polipéptido sintetizado sea más largo.<br>Basándose en sus conocimientos del código genético, explique cómo se produciría cada uno de estos resultados [1]. <i>(1 punto)</i><br><br><b>II.</b> Usando los símbolos adjuntos, dibuje una cadena de ADN que tenga la secuencia 5′-ATCG-3′ [0,5]. Dibuje también una molécula de ARN con la secuencia complementaria a la molécula de ADN anterior [0,5]. <i>(1 punto)</i>",
+   "puntos": 2,
+   "c": [
+    "<b>I.</b> 1. La mutación da lugar a un <mark class=\"clave-criterio\">codón diferente que codifica el mismo aminoácido</mark>, posible gracias a que el código genético es <mark class=\"clave-criterio\">degenerado</mark> (0,25 p).",
+    "<b>I.</b> 2. La mutación da lugar a un <mark class=\"clave-criterio\">codón diferente que codifica otro aminoácido</mark> (0,25 p).",
+    "<b>I.</b> 3. La mutación produce un <mark class=\"clave-criterio\">codón de parada</mark> que impide que se sintetice el polipéptido en su totalidad (0,25 p).",
+    "<b>I.</b> 4. La mutación ha <mark class=\"clave-criterio\">afectado al codón de parada</mark>, haciendo que codifique un aminoácido y permitiendo la síntesis de un polipéptido más largo (0,25 p).",
+    "<b>II.</b> <mark class=\"clave-criterio\">Molécula de ADN correcta</mark> (0,5 p). <span class=\"redactado\">Cuatro nucleótidos con desoxirribosa, que tiene H en el carbono 2′, unidos por fosfatos entre el 3′ de uno y el 5′ del siguiente, con las bases A, T, C y G.</span>",
+    "<b>II.</b> <mark class=\"clave-criterio\">Molécula de ARN correcta</mark> (0,5 p). <span class=\"redactado\">Con ribosa, que tiene OH en el carbono 2′, y la secuencia complementaria y antiparalela: 3′-UAGC-5′, o lo que es lo mismo, 5′-CGAU-3′.</span>"
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2005-gm-5",
+    "pau2005-gm-7"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2005 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 4 + pregunta 4",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2005,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/gm2005-simbolos.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/gm2005-simbolos.thumb.webp",
+   "imageDesc": "Símbolos para dibujar: una ribosa (con OH en el carbono 2′), una desoxirribosa (con H en el carbono 2′), un grupo fosfato (P) y las bases A, T, G, C y U."
+  },
+  {
+   "id": "pau2005-prot-2",
+   "block": "Biomoléculas",
+   "topic": "Funciones de las proteínas con ejemplos",
+   "anio": 2005,
+   "etiqueta": "PAU 2005",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "Cite cuatro de las funciones más relevantes de las proteínas [0,4] y explique dos de ellas [1,2], ilustrando cada explicación con un ejemplo [0,4].",
+   "c": [
+    "Funciones: <mark class=\"clave-criterio\">catálisis</mark>, <mark class=\"clave-criterio\">transporte</mark>, <mark class=\"clave-criterio\">movimiento</mark>, <mark class=\"clave-criterio\">contracción</mark>, <mark class=\"clave-criterio\">reconocimiento celular</mark>, <mark class=\"clave-criterio\">estructural</mark>, <mark class=\"clave-criterio\">nutritiva</mark>, etc. 0,1 p cada una (0,4 p).",
+    "Explicación correcta de cada función, 0,6 p (1,2 p). Cada ejemplo, 0,2 p (0,4 p). <span class=\"redactado\">Por ejemplo: catalítica, las enzimas aceleran reacciones, como la amilasa que hidroliza el almidón; transporte, la hemoglobina lleva O₂ por la sangre.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2005 (recopilación por temas) · Proteínas",
+    "referencia": "pregunta 1",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "examen_anio": 2005,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2005-prot-3",
+   "block": "Biomoléculas",
+   "topic": "Desnaturalización: enlaces afectados y factores",
+   "anio": 2005,
+   "etiqueta": "PAU 2005",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "Explique en qué consiste la desnaturalización proteica [0,6]. Indique qué tipos de enlaces se conservan y cuáles se ven afectados [0,7]. ¿Qué factores provocan la desnaturalización? [0,7].",
+   "c": [
+    "Explicación (0,6 p). <span class=\"redactado\">Pérdida de la estructura nativa, es decir, de las estructuras secundaria, terciaria y cuaternaria, con pérdida de la función biológica, sin romperse la primaria.</span>",
+    "<mark class=\"clave-criterio\">Enlaces peptídicos</mark> (<mark class=\"clave-criterio\">no se alteran</mark>); <mark class=\"clave-criterio\">disulfuro</mark>, <mark class=\"clave-criterio\">hidrógeno</mark> e <mark class=\"clave-criterio\">interacciones débiles</mark> (<mark class=\"clave-criterio\">sí se alteran</mark>) (0,7 p).",
+    "<mark class=\"clave-criterio\">Físicos</mark> (temperatura, etc.); <mark class=\"clave-criterio\">químicos</mark> (pH, sustancias, etc.) (0,7 p). <span class=\"redactado\">En 2002 cayó esta misma pregunta valorada en 1,5 puntos.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2005 (recopilación por temas) · Proteínas",
+    "referencia": "pregunta 1",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "examen_anio": 2005,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2005-enz-1",
+   "block": "Biomoléculas",
+   "topic": "Efecto de la temperatura en dos enzimas",
+   "anio": 2005,
+   "etiqueta": "PAU 2005",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "En relación con la figura adjunta, conteste las siguientes cuestiones:<br>a) ¿Qué representa la gráfica? [0,2]. Describa el comportamiento de ambos enzimas [0,8].<br>b) El enzima A cataliza la transformación del sustrato X en el producto Y. El enzima B cataliza la transformación de X en el producto Z. ¿Cuál de los dos productos se formará en mayor cantidad a 40 ºC? [0,5]. ¿Y a 70 ºC? [0,5]. Razone las respuestas.",
+   "c": [
+    "a) El <mark class=\"clave-criterio\">efecto de la temperatura sobre la actividad</mark> de dos enzimas (0,2 p).",
+    "Ambos enzimas tienen prácticamente la <mark class=\"clave-criterio\">misma actividad a temperaturas bajas</mark> (20 ºC). El enzima <mark class=\"clave-criterio\">A</mark> tiene un <mark class=\"clave-criterio\">máximo de actividad a los 40 ºC</mark> y va disminuyendo a partir de esa temperatura, mientras que el <mark class=\"clave-criterio\">B</mark> aumenta su actividad con la temperatura y alcanza la <mark class=\"clave-criterio\">máxima por encima de los 70 ºC</mark>; a esa temperatura el A <mark class=\"clave-criterio\">prácticamente no tiene actividad</mark> (0,8 p).",
+    "b) A 40 ºC se formará en mayor cantidad <mark class=\"clave-criterio\">Y</mark>, porque a esa temperatura la mayor actividad la presenta el <mark class=\"clave-criterio\">enzima A</mark> (0,5 p).",
+    "A 70 ºC se formará en mayor cantidad <mark class=\"clave-criterio\">Z</mark>, porque a esa temperatura la mayor actividad la presenta el <mark class=\"clave-criterio\">enzima B</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2005 (recopilación por temas) · Enzimas",
+    "referencia": "pregunta 6",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/05 PAU Enzimas.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/05 PAU Enzimas.odt",
+    "examen_anio": 2005,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/enz2005-temperatura.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/enz2005-temperatura.thumb.webp",
+   "imageDesc": "Gráfica de actividad enzimática (0-120) frente a temperatura (0-80 ºC): el enzima A (círculos blancos) sube hasta un máximo hacia 40-45 ºC y cae bruscamente; el enzima B (círculos negros) aumenta de forma continua hasta 70 ºC.",
+   "isNew": true
+  },
+  {
+   "id": "pau2005-prot-1+1",
+   "block": "Biomoléculas",
+   "topic": "α-queratina y moldeado del cabello · Código no universal e insulina de ratón en una bacteria",
+   "anio": 2005,
+   "etiqueta": "PAU 2005",
+   "hasImg": false,
+   "q": "<b>I.</b> La α-queratina es una proteína presente en la piel de mamíferos y en sus derivados como uñas y pelos, siendo responsable en gran medida de los rizos naturales del cabello. Los «moldeados» son tratamientos capilares que modifican el aspecto natural del cabello haciendo desaparecer rizos naturales y provocando la aparición de otros supuestamente más estéticos. Explique razonadamente la probable actuación de los «moldeadores» sobre las α-queratinas capilares [1]. <i>(1 punto)</i><br><br><b>II.</b> Si el código genético no fuese universal, ¿qué ocurriría al introducir el gen que codifica la insulina de ratón en una bacteria? [1]. Razone la respuesta. <i>(1 punto)</i>",
+   "puntos": 2,
+   "c": [
+    "<b>I.</b> Los moldeadores contienen sustancias que <mark class=\"clave-criterio\">destruyen algunos de los enlaces</mark> establecidos naturalmente en la α-queratina y <mark class=\"clave-criterio\">provocan la aparición de otros</mark> que modifican el aspecto del cabello. Se aceptan explicaciones basadas en <mark class=\"clave-criterio\">desnaturalización y renaturalización</mark> (1 p). <span class=\"redactado\">Sobre todo se rompen y se vuelven a formar, en otras posiciones, los puentes disulfuro entre cisteínas.</span>",
+    "<b>II.</b> Se debe razonar que <mark class=\"clave-criterio\">no se produciría proteína</mark> (insulina) alguna o que, en caso de producirse, <mark class=\"clave-criterio\">no sería funcional</mark> (1 p). <span class=\"redactado\">La bacteria asignaría a los codones aminoácidos distintos de los del ratón.</span>"
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2005-prot-1",
+    "pau2005-gm-1"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2005 (recopilación por temas) · Proteínas",
+    "referencia": "pregunta 4 + pregunta 5",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "examen_anio": 2005,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2006-gm-1",
+   "block": "Genética",
+   "topic": "Flujo de la información genética: procesos y enzimas",
+   "anio": 2006,
+   "etiqueta": "PAU 2006",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "En relación con la figura adjunta que representa el flujo de la información genética, responda las siguientes cuestiones:<br>a) Nombre cada uno de los procesos biológicos que se indican con las letras a, b, c y d [0,4]. Relacione cada uno de estos procesos con: ARN polimerasa dependiente de ADN, ribosomas, ADN polimerasa, anticodón, transcriptasa inversa, aminoácidos, ARN transferente y cebadores de ARN [0,6].<br>b) Exponga la función de cada uno de estos procesos [1].",
+   "c": [
+    "a) a: <mark class=\"clave-criterio\">replicación</mark> del ADN; b: <mark class=\"clave-criterio\">transcripción</mark>; c: <mark class=\"clave-criterio\">transcripción inversa</mark>; d: <mark class=\"clave-criterio\">traducción</mark> (0,4 p).",
+    "Replicación: <mark class=\"clave-criterio\">ADN polimerasa</mark> y <mark class=\"clave-criterio\">cebadores de ARN</mark> (0,2 p). Transcripción: <mark class=\"clave-criterio\">ARN polimerasa dependiente de ADN</mark> (0,1 p). Transcripción inversa: <mark class=\"clave-criterio\">transcriptasa inversa</mark> (0,1 p). Traducción: <mark class=\"clave-criterio\">aminoácidos</mark>, <mark class=\"clave-criterio\">ARNt</mark>, <mark class=\"clave-criterio\">ribosomas</mark> y <mark class=\"clave-criterio\">anticodón</mark> (0,2 p).",
+    "b) Replicación: <mark class=\"clave-criterio\">duplicación del material genético</mark>, imprescindible para su perpetuación y reparto en la división celular (0,25 p).",
+    "Transcripción: <mark class=\"clave-criterio\">copia del ADN en los diferentes tipos de ARN</mark> necesarios para la expresión de la información genética (0,25 p).",
+    "Transcripción inversa: <mark class=\"clave-criterio\">copia del ARN en ADN</mark>, utilizada por los <mark class=\"clave-criterio\">virus con genoma de ARN</mark> en su ciclo vital (0,25 p).",
+    "Traducción: el mensaje del <mark class=\"clave-criterio\">ARNm</mark> es leído mediante un código que asigna a cada <mark class=\"clave-criterio\">triplete</mark> un <mark class=\"clave-criterio\">aminoácido</mark>; es el proceso por el que se produce la <mark class=\"clave-criterio\">síntesis de proteínas</mark> (0,25 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2006 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 6",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2006,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/gm2006-flujo.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/gm2006-flujo.thumb.webp",
+   "imageDesc": "Esquema del flujo de información: una flecha circular (a) sobre el ADN, una flecha b de ADN a ARN, una flecha c de ARN a ADN y una flecha d de ARN a polipéptido.",
+   "isNew": true
+  },
+  {
+   "id": "pau2006-gm-3",
+   "block": "Genética",
+   "topic": "ADN: nucleótidos, antiparalelismo y replicación",
+   "anio": 2006,
+   "etiqueta": "PAU 2006",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "En relación con la figura adjunta, responda las siguientes cuestiones:<br>a) Nombre el tipo de molécula de que se trata [0,25]. ¿Cómo se denominan sus monómeros [0,2] y cuál es su composición? [0,3]. Considerando la molécula en sentido longitudinal, las notaciones 3′ y 5′ se sitúan en posiciones opuestas. Explique el significado de este hecho [0,25].<br>b) ¿Cómo se denomina el proceso por el cual esta molécula se duplica? [0,2]. Explíquelo brevemente [0,8].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">ADN</mark> (0,25 p). Monómeros: <mark class=\"clave-criterio\">nucleótidos</mark> (0,2 p). Composición: <mark class=\"clave-criterio\">ácido fosfórico</mark>, <mark class=\"clave-criterio\">pentosa</mark> (desoxirribosa) y <mark class=\"clave-criterio\">base nitrogenada</mark> (0,3 p).",
+    "Las notaciones opuestas se deben a que <mark class=\"clave-criterio\">las cadenas son antiparalelas</mark> (0,25 p).",
+    "b) <mark class=\"clave-criterio\">Replicación</mark> (0,2 p).",
+    "Para la máxima puntuación deben mencionarse: <mark class=\"clave-criterio\">ADN</mark>, <mark class=\"clave-criterio\">origen de replicación</mark>, cadenas <mark class=\"clave-criterio\">adelantada y retrasada</mark>, <mark class=\"clave-criterio\">cebador</mark>, <mark class=\"clave-criterio\">fragmento de Okazaki</mark>, <mark class=\"clave-criterio\">ADN polimerasa</mark> y <mark class=\"clave-criterio\">ligasa</mark> (0,8 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2006 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 6",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2006,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/gm2006-adn.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/gm2006-adn.thumb.webp",
+   "imageDesc": "Dos representaciones del ADN: a la izquierda, un esquema de las dos cadenas con sus extremos 5′ y 3′ opuestos y las bases unidas; a la derecha, la doble hélice con sus medidas (34 Å por vuelta, 3,4 Å entre pares de bases y 20 Å de diámetro).",
+   "isNew": true
+  },
+  {
+   "id": "pau2006-gm-2+4",
+   "block": "Genética",
+   "topic": "Tamaño del ARNm, anticodones y ADN molde · Universalidad del código y expresión de genes en otro organismo",
+   "anio": 2006,
+   "etiqueta": "PAU 2006",
+   "hasImg": false,
+   "q": "<b>I.</b> a) Si un polipéptido tiene 450 aminoácidos, indique cuántos ribonucleótidos tendrá el fragmento del ARN mensajero que codifica esos aminoácidos [0,2]. b) Indique cuáles serán los anticodones de los ARN transferentes correspondientes a la molécula de ARNm 5′-GUU-UUC-GCA-UGG-3′ [0,4]. c) Indique la secuencia de ADN que sirvió de molde para este mismo ARN mensajero [0,4]. <i>(1 punto)</i><br><br><b>II.</b> ¿Qué característica tiene el código genético que permite que un gen de un organismo se pueda expresar en otro? [1]. Razone la respuesta. <i>(1 punto)</i>",
+   "puntos": 2,
+   "c": [
+    "<b>I.</b> a) 450 × 3 = <mark class=\"clave-criterio\">1350 ribonucleótidos</mark> (0,2 p).",
+    "<b>I.</b> b) <mark class=\"clave-criterio\">CAA, AAG, CGU, ACC</mark> (0,4 p). <span class=\"redactado\">Cada anticodón es complementario y antiparalelo a su codón: por eso se escriben aquí en sentido 3′→5′.</span>",
+    "<b>I.</b> c) <mark class=\"clave-criterio\">3′-CAAAAGCGTACC-5′</mark> (0,4 p).",
+    "<b>II.</b> La respuesta debe aludir fundamentalmente al <mark class=\"clave-criterio\">carácter universal del código</mark> (1 p): <span class=\"redactado\">un mismo codón se traduce por el mismo aminoácido en casi todos los organismos, así que la proteína obtenida es la misma.</span>"
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2006-gm-2",
+    "pau2006-gm-4"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2006 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 5 + pregunta 4",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2006,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2006-gm-5+6",
+   "block": "Biotecnología",
+   "topic": "Transferencia nuclear: a quién se parece el clon · Verdadero o falso: mutación, maduración, replicación y código",
+   "anio": 2006,
+   "etiqueta": "PAU 2006",
+   "hasImg": false,
+   "q": "<b>I.</b> A un óvulo de una hembra A se le elimina su núcleo y se le introduce el núcleo de una célula somática de un individuo B, y posteriormente se implanta en el útero de una hembra C. Si los individuos A, B y C son de la misma especie, ¿a quién se parecerán las características genéticas del individuo resultante? [1]. Razone la respuesta. <i>(1 punto)</i><br><br><b>II.</b> Indique si las afirmaciones siguientes son ciertas o falsas, razonando la respuesta:<br>a) Si en un ARNm se introduce un uracilo en la posición donde debería colocarse una citosina se produce una mutación [0,25].<br>b) En eucariotas el ARNm puede ser traducido nada más sintetizarse [0,25].<br>c) En una horquilla de replicación las dos hebras del ADN se replican en sentido 5′→3′ [0,25].<br>d) Si dos genes tienen secuencias de tripletes diferentes codificarán siempre cadenas peptídicas diferentes [0,25]. <i>(1 punto)</i>",
+   "puntos": 2,
+   "c": [
+    "<b>I.</b> Se parecerá al <mark class=\"clave-criterio\">individuo B</mark>, por proceder de él el <mark class=\"clave-criterio\">material genético</mark> (del núcleo) (1 p). <span class=\"redactado\">El óvulo de A solo aporta el citoplasma, con su ADN mitocondrial, y C solo aporta el útero.</span>",
+    "<b>II.</b> a) <mark class=\"clave-criterio\">Falsa</mark>: un cambio en el ARNm no es una mutación; las mutaciones son <mark class=\"clave-criterio\">cambios en el ADN</mark> (0,25 p).",
+    "<b>II.</b> b) <mark class=\"clave-criterio\">Falsa</mark>: en eucariotas la síntesis del ARNm y su <mark class=\"clave-criterio\">maduración</mark> se producen <mark class=\"clave-criterio\">dentro del núcleo</mark>, y debe salir de él para ser traducido en el citoplasma (0,25 p).",
+    "<b>II.</b> c) <mark class=\"clave-criterio\">Verdadera</mark>: las ADN polimerasas sintetizan en <mark class=\"clave-criterio\">sentido 5′→3′</mark>. Por ello una hebra se sintetiza de forma <mark class=\"clave-criterio\">continua</mark> (adelantada) y la otra de forma <mark class=\"clave-criterio\">fragmentada</mark> (retrasada, <mark class=\"clave-criterio\">fragmentos de Okazaki</mark>) (0,25 p).",
+    "<b>II.</b> d) <mark class=\"clave-criterio\">Falsa</mark>: el código genético es <mark class=\"clave-criterio\">degenerado</mark>, es decir, varios tripletes diferentes pueden codificar el <mark class=\"clave-criterio\">mismo aminoácido</mark> (0,25 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2006-gm-5",
+    "pau2006-gm-6"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2006 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 5 + pregunta 4",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2006,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2006-prot-1",
+   "block": "Biomoléculas",
+   "topic": "Formación de un dipéptido",
+   "anio": 2006,
+   "etiqueta": "PAU 2006",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "A la vista de la imagen adjunta, responda las siguientes cuestiones:<br>a) ¿Qué tipo de biomoléculas están representadas en la primera parte de la ecuación? [0,1]. ¿Cuáles son sus principales características? [0,4]. ¿Qué representan R₁ y R₂? [0,1]. ¿Qué nombre recibe el enlace que se produce? [0,2]. Indique la procedencia de los átomos de hidrógeno y de oxígeno de la molécula de agua que se libera en la reacción [0,2].<br>b) ¿Qué nombre recibe la molécula resultante en el esquema? [0,1]. ¿Qué orgánulo está implicado en la formación de este enlace? [0,2]. ¿Qué nombre reciben las moléculas formadas por gran cantidad de monómeros unidos por enlaces de este tipo? [0,1]. Enumere tres de sus funciones [0,6].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Aminoácidos</mark> (0,1 p).",
+    "Tienen un <mark class=\"clave-criterio\">grupo amino</mark> y uno <mark class=\"clave-criterio\">carboxilo</mark>; se diferencian por sus <mark class=\"clave-criterio\">radicales</mark>, que pueden ser polares, apolares, alifáticos, aromáticos, etc.; los aminoácidos proteicos <mark class=\"clave-criterio\">no sobrepasan la veintena</mark> (0,4 p).",
+    "R₁ y R₂: las <mark class=\"clave-criterio\">cadenas laterales o radicales</mark> que diferencian a unos aminoácidos de otros (0,1 p).",
+    "<mark class=\"clave-criterio\">Enlace peptídico</mark> (0,2 p). El agua procede de <mark class=\"clave-criterio\">un hidrógeno del grupo amino</mark> y <mark class=\"clave-criterio\">un hidroxilo del grupo carboxilo</mark> (0,2 p).",
+    "b) <mark class=\"clave-criterio\">Dipéptido</mark> (0,1 p). Orgánulo: <mark class=\"clave-criterio\">ribosomas</mark> (0,2 p). <mark class=\"clave-criterio\">Polipéptidos o proteínas</mark> (0,1 p).",
+    "Funciones: <mark class=\"clave-criterio\">transportadora</mark>, <mark class=\"clave-criterio\">catalítica</mark>, <mark class=\"clave-criterio\">estructural</mark>, <mark class=\"clave-criterio\">reguladora</mark>, reconocimiento celular, etc. 0,2 p cada función (0,6 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2006 (recopilación por temas) · Proteínas",
+    "referencia": "pregunta 6",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "examen_anio": 2006,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/prot2006-dipeptido.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/prot2006-dipeptido.thumb.webp",
+   "imageDesc": "Reacción: dos aminoácidos (con sus radicales R₁ y R₂) se unen liberando una molécula de agua y forman un dipéptido con el enlace –CO–NH–.",
+   "isNew": true
+  },
+  {
+   "id": "pau2006-met-1",
+   "block": "Metabolismo",
+   "topic": "Fase luminosa en la membrana del tilacoide",
+   "anio": 2006,
+   "etiqueta": "PAU 2006",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "En relación con la imagen adjunta, responda las siguientes cuestiones:<br>a) ¿Qué proceso biológico se representa en la figura? [0,2]. ¿Cuál es su finalidad? [0,5]. ¿Qué tipo de células lo llevan a cabo? [0,3].<br>b) Indique qué corresponde a cada número [1].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Fotosíntesis</mark> (0,2 p). <span class=\"redactado\">Concretamente, su fase luminosa.</span>",
+    "Finalidad: <mark class=\"clave-criterio\">conversión de energía luminosa en energía química</mark> (0,5 p).",
+    "<mark class=\"clave-criterio\">Células vegetales</mark> y <mark class=\"clave-criterio\">algunas bacterias</mark>. 0,15 p cada una (0,3 p).",
+    "b) 1 y 2: <mark class=\"clave-criterio\">fotones de luz</mark> (0,1 p); 3: <mark class=\"clave-criterio\">NADP⁺</mark> (0,15 p); 4: <mark class=\"clave-criterio\">NADPH</mark> (0,15 p); 5: <mark class=\"clave-criterio\">H₂O</mark> (0,15 p); 6: <mark class=\"clave-criterio\">O₂</mark> (0,15 p); 7: <mark class=\"clave-criterio\">ADP</mark> (0,15 p); 8: <mark class=\"clave-criterio\">ATP</mark> (0,15 p) (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2006 (recopilación por temas) · Metabolismo",
+    "referencia": "pregunta 6",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/METABOLISMO/08 PAU Metabolismo.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/METABOLISMO/08 PAU Metabolismo.odt",
+    "examen_anio": 2006,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/met2006-fotofosforilacion.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/met2006-fotofosforilacion.thumb.webp",
+   "imageDesc": "Esquema de la membrana de un tilacoide: la luz (1 y 2) excita dos fotosistemas; los electrones pasan por una cadena de transportadores hasta reducir 3 a 4; el agua (5) se rompe liberando 6 y H⁺; los protones acumulados en el interior del tilacoide salen por la ATP sintasa, que transforma 7 en 8.",
+   "isNew": true
+  },
+  {
+   "id": "pau2006-mic-2",
+   "block": "Microbiología",
+   "topic": "Clasificación de los microorganismos",
+   "anio": 2006,
+   "etiqueta": "PAU 2006",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "Realice una clasificación de los cinco tipos principales de microorganismos indicando el criterio utilizado [0,5]. Cite tres características de cada tipo que permitan distinguirlos entre sí [1,5].",
+   "c": [
+    "Criterio: <mark class=\"clave-criterio\">organización celular</mark>. Formas <mark class=\"clave-criterio\">acelulares</mark>: virus, viroides y priones. Formas <mark class=\"clave-criterio\">celulares</mark> <mark class=\"clave-criterio\">procariotas</mark>: bacterias; <mark class=\"clave-criterio\">eucariotas</mark>: algas, hongos y protozoos (0,5 p).",
+    "Características (1,5 p): virus, <mark class=\"clave-criterio\">un solo tipo de ácido nucleico</mark>; bacterias, <mark class=\"clave-criterio\">unicelulares</mark> y división por <mark class=\"clave-criterio\">bipartición</mark>; algas, uni o pluricelulares y <mark class=\"clave-criterio\">fotosintéticas</mark>; hongos, uni o pluricelulares, <mark class=\"clave-criterio\">heterótrofos</mark> con nutrición <mark class=\"clave-criterio\">por absorción</mark>; protozoos, <mark class=\"clave-criterio\">unicelulares</mark> y heterótrofos. <span class=\"redactado\">Hacen falta tres por grupo; por ejemplo, para los virus: acelulares, parásitos obligados y sin metabolismo propio.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2006 (recopilación por temas) · Microbiología",
+    "referencia": "pregunta 4",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
+    "examen_anio": 2006,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2006-mic-4",
+   "block": "Microbiología",
+   "topic": "Estructura de un bacteriófago y de la bacteria que infecta",
+   "anio": 2006,
+   "etiqueta": "PAU 2006",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "Describa la organización estructural de un bacteriófago [1] y la de la célula a la que infecta [1].",
+   "c": [
+    "Bacteriófago: un <mark class=\"clave-criterio\">ácido nucleico</mark> (ADN o ARN, nunca los dos), una <mark class=\"clave-criterio\">cápsida proteica</mark> formada por <mark class=\"clave-criterio\">capsómeros</mark> que lo rodea (1 p). <span class=\"redactado\">El criterio de la recopilación añade una envoltura membranosa, pero la mayoría de los bacteriófagos, como el T4, no la tienen; el T4 tiene cabeza y una cola con vaina contráctil, placa basal y fibras.</span>",
+    "La célula infectada es una <mark class=\"clave-criterio\">bacteria</mark>: <mark class=\"clave-criterio\">cápsula</mark>, <mark class=\"clave-criterio\">pared</mark>, <mark class=\"clave-criterio\">membrana plasmática</mark>, citoplasma con <mark class=\"clave-criterio\">ribosomas 70S</mark> e inclusiones, <mark class=\"clave-criterio\">cromosoma</mark>, <mark class=\"clave-criterio\">plásmidos</mark>, pili y <mark class=\"clave-criterio\">flagelos</mark> (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2006 (recopilación por temas) · Microbiología",
+    "referencia": "pregunta 6",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
+    "examen_anio": 2006,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2006-mic-5",
+   "block": "Microbiología",
+   "topic": "Bacteria llena de fagos T4: ciclo lítico",
+   "anio": 2006,
+   "etiqueta": "PAU 2006",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "La imagen representa una bacteria en cuyo interior se aprecian muchos fagos T4. Responda razonadamente las siguientes cuestiones:<br>a) Dibuje la estructura del bacteriófago T4 e indique qué tipo de ácido nucleico tiene [0,5]. ¿Por qué este virus parasita a un solo tipo de bacterias y no a otros? [0,2]. Indique una causa por la que un virus debe ser parásito [0,3].<br>b) Indique qué tipo de ciclo vital está realizando el virus [0,2]. ¿Qué fase de ese ciclo se corresponde con la imagen? Razone la respuesta [0,3]. Describa dicha fase [0,5].",
+   "c": [
+    "a) Dibujo de un virus de estructura compleja: <mark class=\"clave-criterio\">cabeza</mark> (cápsida y <mark class=\"clave-criterio\">ADN</mark>) (0,2 p) y <mark class=\"clave-criterio\">cola</mark> (vaina y placa basal con fibras) (0,3 p) (0,5 p).",
+    "Porque necesita <mark class=\"clave-criterio\">receptores específicos</mark> a los que se unan las <mark class=\"clave-criterio\">fibras de la cola</mark> (0,2 p).",
+    "<mark class=\"clave-criterio\">Incapacidad de replicar su material genético</mark> por sí mismo, <mark class=\"clave-criterio\">ausencia de orgánulos</mark>, etc. (0,3 p).",
+    "b) <mark class=\"clave-criterio\">Ciclo lítico</mark> (0,2 p).",
+    "Fase de <mark class=\"clave-criterio\">ensamblaje</mark> (maduración), porque es la única en la que se ven <mark class=\"clave-criterio\">partículas víricas ya formadas</mark> y preparadas para salir (0,3 p).",
+    "<mark class=\"clave-criterio\">Unión de los componentes sintetizados</mark>: cada molécula de ADN vírico se rodea de su <mark class=\"clave-criterio\">cápsida</mark> y después se ensambla con la <mark class=\"clave-criterio\">cola</mark> (vaina contráctil y placa basal con fibras) (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2006 (recopilación por temas) · Microbiología",
+    "referencia": "pregunta 7",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
+    "examen_anio": 2006,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/mic2006-t4.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/mic2006-t4.thumb.webp",
+   "imageDesc": "Dibujo de una bacteria con forma de bastón llena de pequeños fagos T4 en su interior.",
+   "isNew": true
+  },
+  {
+   "id": "pau2006-mic-1+3",
+   "block": "Microbiología",
+   "topic": "Semmelweis y la fiebre puerperal · Un antibiótico contra los ribosomas 70S",
+   "anio": 2006,
+   "etiqueta": "PAU 2006",
+   "hasImg": false,
+   "q": "<b>I.</b> En el siglo XIX el doctor Ignaz Semmelweis, haciendo estudios comparativos en dos hospitales sobre las fiebres que padecían las mujeres después del parto, encontró que en un hospital el 10 % de las mujeres que habían sido atendidas por cirujanos morían, mientras que en el otro hospital, donde las mujeres eran atendidas solo por comadronas (mujeres que atendían los partos), la mortalidad era del 4 %. También observó que algunos cirujanos del primer hospital solían atender a las parturientas después de realizar autopsias (examinar cadáveres). ¿Qué explicación científica le daría a la diferencia en el porcentaje de mortalidad entre los dos hospitales? [0,5]. ¿Qué recomendación hubiera dado usted, sin modificar la actividad de los cirujanos, para disminuir el porcentaje de muertes en el primer hospital? [0,5]. Razone las respuestas. <i>(1 punto)</i><br><br><b>II.</b> Suponga que existe un antibiótico, llamado «ribosomicina», que inhibe la síntesis de proteínas porque impide la actividad de los ribosomas 70S. Dado que las bacterias tienen este tipo de ribosomas, ¿se podría utilizar la ribosomicina para combatir infecciones bacterianas en los seres humanos? [0,5]. ¿Sería recomendable este antibiótico en el caso de una infección vírica? [0,5]. Razone las respuestas. <i>(1 punto)</i>",
+   "puntos": 2,
+   "c": [
+    "<b>I.</b> Relación entre las <mark class=\"clave-criterio\">autopsias</mark> y la atención a las parturientas <mark class=\"clave-criterio\">sin la debida asepsia</mark>: los propios <mark class=\"clave-criterio\">cirujanos eran los transmisores de las infecciones</mark> que causaban la elevada mortalidad (0,5 p).",
+    "<b>I.</b> Cualquier recomendación que implique la <mark class=\"clave-criterio\">desinfección del material y de las manos</mark> de los cirujanos que atendían partos después de las autopsias (0,5 p).",
+    "<b>II.</b> <mark class=\"clave-criterio\">No es aconsejable</mark>, ya que los <mark class=\"clave-criterio\">ribosomas 70S</mark> también están en las <mark class=\"clave-criterio\">mitocondrias</mark> y se paralizarían las funciones mitocondriales (0,5 p).",
+    "<b>II.</b> <mark class=\"clave-criterio\">No</mark>, porque los <mark class=\"clave-criterio\">virus carecen de ribosomas</mark> y no tendría ninguna utilidad frente a ellos (0,5 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2006-mic-1",
+    "pau2006-mic-3"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2006 (recopilación por temas) · Microbiología",
+    "referencia": "pregunta 3 + pregunta 5",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
+    "examen_anio": 2006,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2006-gm-7+2",
+   "block": "Genética",
+   "topic": "Texto con los términos del flujo de información genética · Sacarosa, bacterias bucales y caries",
+   "anio": 2006,
+   "etiqueta": "PAU 2006",
+   "hasImg": false,
+   "q": "<b>I.</b> Redacte un texto en el que se relacionen de forma coherente los siguientes términos: aminoácidos, poros nucleares, ARN mensajero, ARN transferente, ribosomas, código genético, ADN y proteínas [1]. <i>(1 punto)</i><br><br><b>II.</b> En alimentación se utiliza habitualmente azúcar blanco, que está constituido por sacarosa. Su utilización exige una cuidada higiene de la cavidad bucal para evitar corrosiones ácidas del esmalte dental que son conocidas como caries. Explique razonadamente el proceso que provoca la aparición de ácidos corrosivos a partir de residuos de sacarosa [1]. <i>(1 punto)</i>",
+   "puntos": 2,
+   "c": [
+    "<b>I.</b> Cualquier redacción coherente que relacione los términos con el <mark class=\"clave-criterio\">flujo de información genética</mark> (1 p).",
+    "<b>I.</b> <span class=\"redactado\">Ejemplo: en el núcleo, el ADN se transcribe a ARN mensajero, que sale al citoplasma por los poros nucleares. En los ribosomas, el ARN mensajero se traduce según el código genético: cada ARN transferente lleva un aminoácido y lo coloca según su anticodón, y los aminoácidos se unen formando las proteínas.</span>",
+    "<b>II.</b> La corrosión del esmalte la provoca la <mark class=\"clave-criterio\">metabolización de los residuos de sacarosa</mark> por la <mark class=\"clave-criterio\">microbiota bucal</mark> en condiciones <mark class=\"clave-criterio\">anaerobias y/o fermentativas</mark> (1 p). <span class=\"redactado\">La fermentación láctica produce ácido láctico, que baja el pH y disuelve el esmalte.</span>"
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2006-gm-7",
+    "pau2006-met-2"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2006 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 4 (también en 2003; en 2002, con menos términos) + pregunta 4",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2006,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2007-gm-1",
+   "block": "Genética",
+   "topic": "Replicación, transcripción y traducción; dibujo del inicio",
+   "anio": 2007,
+   "etiqueta": "PAU 2007",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "Explique cuál es la finalidad de la replicación y de la transcripción [0,5]. Explique la traducción [1]. Dibuje el inicio de la traducción [0,5].",
+   "c": [
+    "Replicación: <mark class=\"clave-criterio\">duplicación del material genético</mark>; transcripción: <mark class=\"clave-criterio\">síntesis de los diferentes ARN</mark>. 0,25 p cada una (0,5 p).",
+    "Traducción: se indicará cómo se <mark class=\"clave-criterio\">inicia</mark>, cómo se <mark class=\"clave-criterio\">elonga</mark> y cómo <mark class=\"clave-criterio\">termina</mark> la síntesis de la proteína. Para la máxima puntuación deberá mencionarse: <mark class=\"clave-criterio\">unión del ARNm al ribosoma</mark>, <mark class=\"clave-criterio\">ARNt</mark>, <mark class=\"clave-criterio\">enlace peptídico</mark> y <mark class=\"clave-criterio\">polipéptido</mark> (1 p).",
+    "Dibujo: deberán quedar representadas las <mark class=\"clave-criterio\">subunidades ribosómicas</mark> sobre una <mark class=\"clave-criterio\">señal de inicio</mark> en el ARNm y con la <mark class=\"clave-criterio\">metionina</mark> en su correspondiente <mark class=\"clave-criterio\">ARNt en el lugar P</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2007 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 3",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2007,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2007-gm-2+3",
+   "block": "Genética",
+   "topic": "Código de dipletes frente a tripletes · Secuencia del ADN y fenotipo",
+   "anio": 2007,
+   "etiqueta": "PAU 2007",
+   "hasImg": false,
+   "q": "<b>I.</b> ¿Podrían los 20 aminoácidos estar codificados por un código genético constituido por dipletes de las cuatro bases nitrogenadas? Razone la respuesta [1]. <i>(1 punto)</i><br><br><b>II.</b> Explique razonadamente por qué el orden de los nucleótidos en el ADN determina los caracteres del fenotipo de los organismos [1]. <i>(1 punto)</i>",
+   "puntos": 2,
+   "c": [
+    "<b>I.</b> <mark class=\"clave-criterio\">No</mark>, porque solo se podrían formar <mark class=\"clave-criterio\">16 dipletes</mark> diferentes (4² = 16) y hacen falta <mark class=\"clave-criterio\">al menos 20</mark> para codificar los 20 aminoácidos de las proteínas (1 p). <span class=\"redactado\">Con tripletes hay 4³ = 64 combinaciones, más que suficientes.</span>",
+    "<b>II.</b> La <mark class=\"clave-criterio\">secuencia de nucleótidos</mark> del ADN determina la <mark class=\"clave-criterio\">secuencia de aminoácidos</mark> de las <mark class=\"clave-criterio\">proteínas</mark> y, por tanto, el <mark class=\"clave-criterio\">fenotipo</mark> del organismo (1 p). <span class=\"redactado\">Pregunta muy parecida en 2003: «…como son el tipo de pelo, color de los ojos, etc.», con el mismo criterio.</span>"
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2007-gm-2",
+    "pau2007-gm-3"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2007 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 5 + pregunta 4",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2007,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2007-prot-1",
+   "block": "Biomoléculas",
+   "topic": "Estructura primaria, desnaturalización y orgánulos de síntesis",
+   "anio": 2007,
+   "etiqueta": "PAU 2007",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "Defina la estructura primaria de las proteínas, indique qué tipo de enlace la caracteriza y nombre los grupos químicos que participan en el mismo [0,9]. Explique qué se entiende por desnaturalización de una proteína [0,5] y nombre los orgánulos que están implicados en su síntesis y empaquetamiento [0,6].",
+   "c": [
+    "Definición: <mark class=\"clave-criterio\">secuencia lineal</mark> de aminoácidos unidos en un determinado orden. Enlace: <mark class=\"clave-criterio\">peptídico</mark>. Grupos: <mark class=\"clave-criterio\">carboxilo</mark> de un aminoácido y <mark class=\"clave-criterio\">amino</mark> del otro (0,9 p).",
+    "Desnaturalización: <mark class=\"clave-criterio\">pérdida de las estructuras secundaria, terciaria y cuaternaria</mark>, que <mark class=\"clave-criterio\">puede o no ser reversible</mark> (0,5 p).",
+    "Síntesis: <mark class=\"clave-criterio\">ribosomas</mark> y <mark class=\"clave-criterio\">retículo endoplasmático</mark>; empaquetamiento: <mark class=\"clave-criterio\">complejo de Golgi</mark>. 0,2 p cada orgánulo (0,6 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2007 (recopilación por temas) · Proteínas",
+    "referencia": "pregunta 1",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "examen_anio": 2007,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2007-mic-1",
+   "block": "Microbiología",
+   "topic": "Virus con envoltura: estructuras y enfermedades",
+   "anio": 2007,
+   "etiqueta": "PAU 2007",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "A la vista de la siguiente figura, que representa un tipo de microorganismo que provoca diversas enfermedades, conteste las siguientes preguntas:<br>a) ¿De qué tipo de microorganismo se trata? [0,2]. Nombre las estructuras señaladas con las letras [0,4]. Indique dos características que sean específicas de este tipo de microorganismo [0,4].<br>b) Indique la función de la estructura señalada con la letra A [0,2], y la composición química y la función de las estructuras señaladas con las letras C y D [0,6]. Cite dos ejemplos de enfermedades producidas por este tipo de microorganismo [0,2].",
+   "c": [
+    "a) Un <mark class=\"clave-criterio\">virus</mark> (0,2 p).",
+    "A: <mark class=\"clave-criterio\">glucoproteína</mark>; B: <mark class=\"clave-criterio\">envoltura</mark>; C: <mark class=\"clave-criterio\">cápsida</mark>; D: <mark class=\"clave-criterio\">ácido nucleico</mark>. 0,1 p cada una (0,4 p).",
+    "<mark class=\"clave-criterio\">Carecen de organización celular</mark>, <mark class=\"clave-criterio\">no tienen metabolismo propio</mark>, deben <mark class=\"clave-criterio\">aprovechar los recursos de la célula hospedadora</mark> para replicarse, etc. Solo dos, 0,2 p cada una (0,4 p).",
+    "b) A: participa en la <mark class=\"clave-criterio\">fijación del virus a la célula</mark> (0,2 p).",
+    "C: <mark class=\"clave-criterio\">proteica</mark>, <mark class=\"clave-criterio\">protege al ácido nucleico</mark> (0,3 p). D: <mark class=\"clave-criterio\">ARN o ADN</mark>, <mark class=\"clave-criterio\">lleva la información genética</mark> (0,3 p).",
+    "<mark class=\"clave-criterio\">Gripe</mark>, <mark class=\"clave-criterio\">sarampión</mark>, <mark class=\"clave-criterio\">sida</mark>, etc. (0,2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2007 (recopilación por temas) · Microbiología",
+    "referencia": "pregunta 1",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
+    "examen_anio": 2007,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/mic2007-virus.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/mic2007-virus.thumb.webp",
+   "imageDesc": "Virus con envoltura: una cápsida icosaédrica (C) con el ácido nucleico (D) en su interior, rodeada por una envoltura (B) de la que sobresalen espículas (A).",
+   "isNew": true
+  },
+  {
+   "id": "pau2007-gm-4+2",
+   "block": "Genética",
+   "topic": "Replicación, herencia y meiosis · Poder nutritivo de una proteína desnaturalizada",
+   "anio": 2007,
+   "etiqueta": "PAU 2007",
+   "hasImg": false,
+   "q": "<b>I.</b> ¿Qué relación existe entre la replicación del ADN, la herencia biológica y la meiosis? Razone la respuesta [1]. <i>(1 punto)</i><br><br><b>II.</b> ¿Conserva su poder nutritivo una proteína desnaturalizada? Razone la respuesta [1]. <i>(1 punto)</i>",
+   "puntos": 2,
+   "c": [
+    "<b>I.</b> La <mark class=\"clave-criterio\">herencia biológica</mark> es la <mark class=\"clave-criterio\">transmisión de caracteres</mark> de una generación a otra. Para ello es necesario obtener una <mark class=\"clave-criterio\">copia del ADN</mark> mediante la <mark class=\"clave-criterio\">replicación</mark>, y la <mark class=\"clave-criterio\">meiosis</mark> es la división celular que permite la <mark class=\"clave-criterio\">transmisión del ADN a la descendencia</mark> en los organismos con <mark class=\"clave-criterio\">reproducción sexual</mark> (1 p).",
+    "<b>II.</b> <mark class=\"clave-criterio\">Sí.</mark> El poder nutritivo de las proteínas radica en que son <mark class=\"clave-criterio\">fuente de aminoácidos</mark>; la desnaturalización <mark class=\"clave-criterio\">no afecta a la estructura primaria</mark> ni a los aminoácidos y por tanto <mark class=\"clave-criterio\">no afecta al poder nutritivo</mark> (1 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2007-gm-4",
+    "pau2007-prot-2"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2007 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 5 + pregunta 4",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2007,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2007-mic-2+2",
+   "block": "Microbiología",
+   "topic": "Cuándo se recetan antibióticos y resistencias · Código de dipletes frente a tripletes",
+   "anio": 2007,
+   "etiqueta": "PAU 2007",
+   "hasImg": false,
+   "q": "<b>I.</b> ¿Por qué en el tratamiento de enfermedades producidas por microorganismos los médicos recetan en unos casos antibióticos y en otros no? [0,5]. ¿Qué problemas causa el uso indiscriminado de los antibióticos en la lucha contra los microorganismos? [0,5]. Razone las respuestas. <i>(1 punto)</i><br><br><b>II.</b> ¿Podrían los 20 aminoácidos estar codificados por un código genético constituido por dipletes de las cuatro bases nitrogenadas? Razone la respuesta [1]. <i>(1 punto)</i>",
+   "puntos": 2,
+   "c": [
+    "<b>I.</b> Porque los antibióticos <mark class=\"clave-criterio\">eliminan bacterias y no virus</mark>: se recetan cuando la enfermedad es <mark class=\"clave-criterio\">bacteriana</mark> (0,5 p).",
+    "<b>I.</b> Pueden <mark class=\"clave-criterio\">seleccionar bacterias resistentes</mark> a su acción, y los antibióticos dejan de ser eficaces (0,5 p).",
+    "<b>II.</b> <mark class=\"clave-criterio\">No</mark>, porque solo se podrían formar <mark class=\"clave-criterio\">16 dipletes</mark> diferentes (4² = 16) y hacen falta <mark class=\"clave-criterio\">al menos 20</mark> para codificar los 20 aminoácidos de las proteínas (1 p). <span class=\"redactado\">Con tripletes hay 4³ = 64 combinaciones, más que suficientes.</span>"
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2007-mic-2",
+    "pau2007-gm-2"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2007 (recopilación por temas) · Microbiología",
+    "referencia": "pregunta 4 + pregunta 5",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
+    "examen_anio": 2007,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2008-gm-1",
+   "block": "Genética",
+   "topic": "Transcripción, maduración y traducción",
+   "anio": 2008,
+   "etiqueta": "PAU 2008",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "En relación con la figura adjunta, responda las siguientes preguntas:<br>a) Nombre las moléculas representadas con los números 1, 2, 3 y 5 [0,4]. ¿Qué procesos se desarrollan en el núcleo? [0,3]. Comente los cambios que ocurren entre las moléculas indicadas con los números 3 y 5 [0,3].<br>b) ¿Qué representan los números 6 y 7? [0,2]. ¿Qué proceso se desarrolla en el citoplasma? [0,2]. Explique brevemente dicho proceso [0,6].",
+   "c": [
+    "a) 1: <mark class=\"clave-criterio\">ADN</mark>; 2: <mark class=\"clave-criterio\">ARN polimerasa</mark>; 3: <mark class=\"clave-criterio\">ARN transcrito primario</mark>; 5: <mark class=\"clave-criterio\">ARN mensajero maduro</mark> (0,4 p).",
+    "En el núcleo se desarrollan los procesos de <mark class=\"clave-criterio\">transcripción</mark> y <mark class=\"clave-criterio\">maduración</mark> (0,3 p).",
+    "Cambios: <mark class=\"clave-criterio\">adición de la caperuza</mark> y de la <mark class=\"clave-criterio\">cola</mark> y la <mark class=\"clave-criterio\">eliminación de intrones</mark> (0,3 p). <span class=\"redactado\">La caperuza es de 7-metilguanosina en el extremo 5′ y la cola, de poli-A en el extremo 3′.</span>",
+    "b) El número 6 es el <mark class=\"clave-criterio\">polipéptido en formación</mark> y el 7 es el <mark class=\"clave-criterio\">ribosoma</mark> (0,2 p). El proceso del citoplasma es la <mark class=\"clave-criterio\">traducción</mark> (0,2 p).",
+    "Se mencionará al menos: etapa de <mark class=\"clave-criterio\">iniciación</mark> (ARN mensajero, ARN transferente, <mark class=\"clave-criterio\">codón de inicio</mark>, <mark class=\"clave-criterio\">anticodón</mark> y <mark class=\"clave-criterio\">subunidades ribosómicas</mark>); etapa de <mark class=\"clave-criterio\">elongación</mark> (formación del <mark class=\"clave-criterio\">enlace peptídico</mark> y desplazamiento del ribosoma o <mark class=\"clave-criterio\">translocación</mark>); etapa de <mark class=\"clave-criterio\">terminación</mark> (<mark class=\"clave-criterio\">codón de terminación</mark>) (0,6 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2008 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 6",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2008,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/gm2008-expresion.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/gm2008-expresion.thumb.webp",
+   "imageDesc": "Esquema de la expresión de un gen eucariótico: en el núcleo, el ADN (1) se transcribe por la ARN polimerasa (2) a un transcrito primario (3), que madura (4) a ARNm (5); en el citoplasma, varios ribosomas (7) traducen el ARNm y liberan polipéptidos (6).",
+   "isNew": true
+  },
+  {
+   "id": "pau2008-gm-4",
+   "block": "Genética",
+   "topic": "Transcripción y traducción: estructuras y procesos",
+   "anio": 2008,
+   "etiqueta": "PAU 2008",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "En relación con la figura adjunta, responda las siguientes preguntas:<br>a) Indique cuáles son las estructuras y/o moléculas señaladas con los números 1 al 7 [0,7], e indique los procesos señalados con las letras A y B [0,3].<br>b) ¿Cuál es la función del proceso A? [0,3]. Describa el proceso B [0,7].",
+   "c": [
+    "a) 1: <mark class=\"clave-criterio\">ADN</mark>; 2: <mark class=\"clave-criterio\">ARNm</mark>; 3: <mark class=\"clave-criterio\">ribosoma</mark>; 4: <mark class=\"clave-criterio\">anticodón</mark>; 5: <mark class=\"clave-criterio\">proteína</mark>; 6: <mark class=\"clave-criterio\">ARNt</mark>; 7: <mark class=\"clave-criterio\">codón</mark>. 0,1 p cada uno (0,7 p).",
+    "Proceso A: <mark class=\"clave-criterio\">transcripción</mark>; proceso B: <mark class=\"clave-criterio\">traducción</mark>. 0,15 p cada uno (0,3 p).",
+    "b) Función de A: <mark class=\"clave-criterio\">síntesis de los diferentes tipos de ARN a partir del ADN</mark> para la <mark class=\"clave-criterio\">expresión de la información genética</mark> (0,3 p).",
+    "Descripción de B. Se mencionará al menos: <mark class=\"clave-criterio\">iniciación</mark> (ARN mensajero, ARN transferente, <mark class=\"clave-criterio\">codón de inicio</mark>, <mark class=\"clave-criterio\">anticodón</mark> y <mark class=\"clave-criterio\">subunidades ribosómicas</mark>); <mark class=\"clave-criterio\">elongación</mark> (formación del <mark class=\"clave-criterio\">enlace peptídico</mark> y <mark class=\"clave-criterio\">translocación</mark> del ribosoma); <mark class=\"clave-criterio\">terminación</mark> (<mark class=\"clave-criterio\">codón de terminación</mark>) (0,7 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2008 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 6",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2008,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/gm2008-transcripcion-traduccion.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/gm2008-transcripcion-traduccion.thumb.webp",
+   "imageDesc": "Célula eucariótica en la que, dentro del núcleo, el ADN (1) se transcribe (A) a ARNm (2), y en el citoplasma un ribosoma (3) traduce (B) el ARNm con ARNt (6) que aportan aminoácidos según la unión anticodón (4)-codón (7), formando una proteína (5).",
+   "isNew": true
+  },
+  {
+   "id": "pau2008-gm-2+3",
+   "block": "Genética",
+   "topic": "Replicación continua y discontinua · Retrovirus: transcriptasa inversa e integración",
+   "anio": 2008,
+   "etiqueta": "PAU 2008",
+   "hasImg": false,
+   "q": "<b>I.</b> La replicación del ADN se realiza de forma continua en una cadena y discontinua en la otra. ¿Cuál es la razón? [1]. <i>(1 punto)</i><br><br><b>II.</b> La información genética de los retrovirus, que está en forma de ARN, puede insertarse en el ADN de la célula huésped. Dé una explicación razonada a este hecho [1]. <i>(1 punto)</i>",
+   "puntos": 2,
+   "c": [
+    "<b>I.</b> La replicación ocurre <mark class=\"clave-criterio\">solo en el sentido 5′→3′</mark> porque las <mark class=\"clave-criterio\">ADN polimerasas</mark> incorporan los nucleótidos en el <mark class=\"clave-criterio\">carbono 3′ libre</mark> de las pentosas; al ser las dos cadenas de ADN <mark class=\"clave-criterio\">antiparalelas</mark>, necesariamente una se replica de forma <mark class=\"clave-criterio\">continua</mark> y la otra <mark class=\"clave-criterio\">discontinua</mark>, formando los <mark class=\"clave-criterio\">fragmentos de Okazaki</mark> (1 p).",
+    "<b>II.</b> Mediante la <mark class=\"clave-criterio\">transcriptasa inversa</mark> se hace una <mark class=\"clave-criterio\">copia de la cadena de ARN en ADN</mark> y esta última se puede <mark class=\"clave-criterio\">integrar en el genoma</mark> de la célula hospedadora (1 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2008-gm-2",
+    "pau2008-gm-3"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2008 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 5 + pregunta 5",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2008,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2008-prot-1",
+   "block": "Biomoléculas",
+   "topic": "Niveles estructurales en una figura; efecto del pH y la temperatura",
+   "anio": 2008,
+   "etiqueta": "PAU 2008",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "En relación con la figura adjunta, responda las siguientes preguntas:<br>a) ¿Qué representa la figura en su conjunto? [0,2]. Indique el tipo de estructura señalado con el número 1, el tipo de monómeros que la forman y el enlace que la caracteriza [0,4]. Nombre las estructuras señaladas con los números 2, 3, 4 y 5 [0,4].<br>b) Describa los cambios fundamentales que ocurren desde 1 hasta 5 [0,7]. ¿Cómo afectan los cambios de pH y de temperatura a estas estructuras? [0,3].",
+   "c": [
+    "a) Las distintas <mark class=\"clave-criterio\">conformaciones o estructuras de las proteínas</mark> (0,2 p).",
+    "1: <mark class=\"clave-criterio\">estructura primaria</mark>, formada por <mark class=\"clave-criterio\">aminoácidos</mark> unidos por <mark class=\"clave-criterio\">enlaces peptídicos</mark> (0,4 p).",
+    "Estructuras <mark class=\"clave-criterio\">secundarias</mark>: <mark class=\"clave-criterio\">hélice α</mark> (2) y <mark class=\"clave-criterio\">lámina β</mark> (3); estructura <mark class=\"clave-criterio\">terciaria</mark> (4) y <mark class=\"clave-criterio\">cuaternaria</mark> (5) (0,4 p).",
+    "b) La estructura primaria se pliega por <mark class=\"clave-criterio\">puentes de hidrógeno</mark> entre los átomos del esqueleto originando las estructuras secundarias (hélice α y lámina β). La disposición tridimensional se mantiene mediante enlaces entre los <mark class=\"clave-criterio\">radicales</mark> (puentes de H, Van der Waals, interacciones electrostáticas e hidrofóbicas y <mark class=\"clave-criterio\">puentes disulfuro</mark>): estructura terciaria. La asociación mediante enlaces débiles de <mark class=\"clave-criterio\">dos o más cadenas</mark> con estructura terciaria da la cuaternaria (0,7 p).",
+    "Las estructuras secundaria, terciaria y cuaternaria, mantenidas por <mark class=\"clave-criterio\">enlaces débiles</mark>, <mark class=\"clave-criterio\">se desnaturalizan</mark>, mientras que la primaria, mantenida por <mark class=\"clave-criterio\">enlaces covalentes</mark>, <mark class=\"clave-criterio\">no se altera</mark> (0,3 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2008 (recopilación por temas) · Proteínas",
+    "referencia": "pregunta 6",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "examen_anio": 2008,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/prot2008-niveles.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/prot2008-niveles.thumb.webp",
+   "imageDesc": "Niveles de organización de una proteína: (1) cadena de aminoácidos como un collar de cuentas; (2) hélice; (3) lámina plegada; (4) cadena plegada en el espacio; (5) asociación de varias cadenas plegadas.",
+   "isNew": true
+  },
+  {
+   "id": "pau2008-prot-2+3",
+   "block": "Biomoléculas",
+   "topic": "Colágeno hervido: gelatina · Miles de proteínas con solo 20 aminoácidos",
+   "anio": 2008,
+   "etiqueta": "PAU 2008",
+   "hasImg": false,
+   "q": "<b>I.</b> El colágeno es una proteína de aspecto blanquecino que forma parte de estructuras resistentes como los tendones. Al hervir el colágeno se obtiene gelatina, que es una sustancia muy blanda. Explique razonadamente la causa de este cambio [1]. <i>(1 punto)</i><br><br><b>II.</b> ¿Cómo se puede explicar que una célula típica de nuestro cuerpo posea unas 10.000 clases diferentes de proteínas si el número de aminoácidos distintos es solamente de 20? Razone la respuesta [1]. <i>(1 punto)</i>",
+   "puntos": 2,
+   "c": [
+    "<b>I.</b> El cambio lo produce la <mark class=\"clave-criterio\">desnaturalización</mark> de la proteína colágeno (por el <mark class=\"clave-criterio\">aumento de la temperatura</mark>), es decir, la <mark class=\"clave-criterio\">pérdida de su estructura nativa</mark> (1 p). <span class=\"redactado\">Se rompen los enlaces débiles que mantienen la triple hélice; los enlaces peptídicos no se rompen.</span>",
+    "<b>II.</b> El tipo de proteína depende de la <mark class=\"clave-criterio\">secuencia lineal de aminoácidos</mark>, y la <mark class=\"clave-criterio\">combinación de 20 aminoácidos</mark> diferentes puede dar lugar a <mark class=\"clave-criterio\">muchas secuencias primarias distintas</mark> (1 p). <span class=\"redactado\">Para un péptido de solo 10 aminoácidos ya hay 20¹⁰ secuencias posibles.</span>"
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2008-prot-2",
+    "pau2008-prot-3"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2008 (recopilación por temas) · Proteínas",
+    "referencia": "pregunta 4 + pregunta 5",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/04 PAU Proteinas.odt",
+    "examen_anio": 2008,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2008-enz-1+2",
+   "block": "Biomoléculas",
+   "topic": "Cinética enzimática: más enzima o un inhibidor irreversible · Lactasa: hidrólisis de la lactosa",
+   "anio": 2008,
+   "etiqueta": "PAU 2008",
+   "hasImg": true,
+   "q": "<b>I.</b> En la siguiente curva se representa una cinética enzimática mostrando la velocidad de reacción respecto a la cantidad de sustrato, con una concentración de enzima constante. ¿De qué manera se vería afectada la curva si se introdujese más cantidad de enzima en el punto indicado por la flecha? [0,5]. ¿Y si introdujéramos un inhibidor irreversible en el punto marcado con una X? [0,5]. Razone las respuestas. <i>(1 punto)</i><br><br><b>II.</b> Explique qué reacción desarrolla la enzima que cataliza la siguiente reacción:<br>Lactosa + agua → glucosa + galactosa <i>(1 punto)</i>",
+   "puntos": 2,
+   "c": [
+    "<b>I.</b> Al introducir <mark class=\"clave-criterio\">más enzima</mark> en el punto de la flecha, la velocidad <mark class=\"clave-criterio\">aumentará de nuevo</mark> hasta alcanzar un <mark class=\"clave-criterio\">nuevo estado de saturación</mark> (0,5 p).",
+    "<b>I.</b> Un <mark class=\"clave-criterio\">inhibidor irreversible</mark> en X hará que la velocidad <mark class=\"clave-criterio\">disminuya rápidamente</mark> hasta que <mark class=\"clave-criterio\">todas las moléculas de enzima hayan sido bloqueadas</mark>; entonces la reacción <mark class=\"clave-criterio\">se detendrá</mark> (0,5 p).",
+    "<b>II.</b> La acción que desarrolla es la <mark class=\"clave-criterio\">hidrólisis de la lactosa</mark>, por <mark class=\"clave-criterio\">rotura del enlace O-glucosídico</mark> mediante la introducción de una <mark class=\"clave-criterio\">molécula de agua</mark> (1 p). <span class=\"redactado\">La enzima es la lactasa, una hidrolasa.</span>"
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2008-enz-1",
+    "pau2008-enz-2"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2008 (recopilación por temas) · Enzimas",
+    "referencia": "pregunta 4 + pregunta 4",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/05 PAU Enzimas.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/BIOMOLÉCULAS/05 PAU Enzimas.odt",
+    "examen_anio": 2008,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/enz2008-cinetica.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/enz2008-cinetica.thumb.webp",
+   "imageDesc": "Curva de velocidad de reacción frente a concentración de sustrato que tiende a 1,0; una flecha marca la zona de saturación y una X un punto de la zona de subida."
+  },
+  {
+   "id": "pau2008-met0709-2",
+   "block": "Metabolismo",
+   "topic": "Glucolisis, fermentación, fosforilación oxidativa, β-oxidación y fotosíntesis",
+   "anio": 2008,
+   "etiqueta": "PAU 2007-2009",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "Defina los siguientes procesos: glucolisis, fermentación, fosforilación oxidativa, β-oxidación y fotosíntesis [1]. Indique en qué tipos de células eucarióticas y en qué lugar de las mismas se realizan [1].",
+   "c": [
+    "<mark class=\"clave-criterio\">Glucolisis</mark>: reacciones por las que <mark class=\"clave-criterio\">una glucosa</mark> se transforma en <mark class=\"clave-criterio\">dos moléculas de ácido pirúvico</mark>. <mark class=\"clave-criterio\">Fermentación</mark>: <mark class=\"clave-criterio\">degradación anaeróbica</mark> de la glucosa; proceso catabólico en el que el <mark class=\"clave-criterio\">aceptor final de electrones es una molécula orgánica</mark>. <mark class=\"clave-criterio\">Fosforilación oxidativa</mark>: la energía liberada en el <mark class=\"clave-criterio\">transporte electrónico</mark> desde los coenzimas reducidos <mark class=\"clave-criterio\">hasta el oxígeno</mark> se aprovecha para <mark class=\"clave-criterio\">sintetizar ATP</mark>. <mark class=\"clave-criterio\">β-oxidación</mark>: degradación de los <mark class=\"clave-criterio\">ácidos grasos</mark> eliminando <mark class=\"clave-criterio\">dos carbonos en forma de acetil-CoA</mark> en cada vuelta. <mark class=\"clave-criterio\">Fotosíntesis</mark>: la <mark class=\"clave-criterio\">energía solar</mark> se utiliza para obtener moléculas ricas en energía y reductoras con las que se <mark class=\"clave-criterio\">sintetizan moléculas orgánicas</mark>. Cada definición, 0,2 p (1 p).",
+    "Glucolisis: <mark class=\"clave-criterio\">todas las células</mark>, en el <mark class=\"clave-criterio\">citoplasma</mark>. Fermentación: células animales y algunos microorganismos, en el <mark class=\"clave-criterio\">citoplasma</mark>. Fosforilación oxidativa: células de organismos <mark class=\"clave-criterio\">aeróbicos</mark>, en las <mark class=\"clave-criterio\">mitocondrias</mark>. β-oxidación: células de organismos aeróbicos, en las <mark class=\"clave-criterio\">mitocondrias</mark> (matriz). Fotosíntesis: células fotosintetizadoras de <mark class=\"clave-criterio\">plantas y algas</mark>, en los <mark class=\"clave-criterio\">cloroplastos</mark>. Cada tipo de célula y lugar, 0,2 p (1 p). <span class=\"redactado\">Ejemplos de fermentación: la láctica en las células musculares y la alcohólica en las levaduras.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2008 (recopilación por temas) · Metabolismo (2007-2009)",
+    "referencia": "pregunta 2 de un examen de 2007, 2008 o 2009",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/METABOLISMO/08 PAU Metabolismo.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/METABOLISMO/08 PAU Metabolismo.odt",
+    "examen_anio": 2008,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2008-met0709-1+3",
+   "block": "Metabolismo",
+   "topic": "Daño en la membrana mitocondrial interna y síntesis de ATP · La fotosíntesis es un proceso anabólico",
+   "anio": 2008,
+   "etiqueta": "PAU 2007-2009",
+   "hasImg": false,
+   "q": "<b>I.</b> Se ha podido comprobar que la intoxicación experimental con alcohol etílico puede causar la degradación de la mitocondria comenzando por su membrana interna. Exponga razonadamente por qué en esta situación no se produce síntesis de ATP [1]. <i>(1 punto)</i><br><br><b>II.</b> Exponga razonadamente si la fotosíntesis es un proceso anabólico o catabólico [1]. <i>(1 punto)</i>",
+   "puntos": 2,
+   "c": [
+    "<b>I.</b> Se debe relacionar la <mark class=\"clave-criterio\">pérdida de la capacidad de síntesis de ATP</mark> con la <mark class=\"clave-criterio\">localización en la membrana interna</mark> de la mitocondria de la <mark class=\"clave-criterio\">cadena de transporte electrónico</mark> y la <mark class=\"clave-criterio\">fosforilación oxidativa</mark> (1 p). <span class=\"redactado\">Sin membrana interna no hay gradiente de protones ni ATP sintasa.</span>",
+    "<b>II.</b> La fotosíntesis es un proceso <mark class=\"clave-criterio\">anabólico</mark>, en el que el <mark class=\"clave-criterio\">ATP y el NADPH</mark> formados en la etapa dependiente de la luz se utilizan para <mark class=\"clave-criterio\">transformar el CO₂ en glucosa</mark> (1 p). <span class=\"redactado\">Se sintetizan moléculas complejas a partir de otras sencillas con aporte de energía.</span>"
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2008-met0709-1",
+    "pau2008-met0709-3"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2008 (recopilación por temas) · Metabolismo (2007-2009)",
+    "referencia": "pregunta 4 de un examen de 2007, 2008 o 2009 + pregunta 4 de un examen de 2007, 2008 o 2009",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/METABOLISMO/08 PAU Metabolismo.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/METABOLISMO/08 PAU Metabolismo.odt",
+    "examen_anio": 2008,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2009-gm-1",
+   "block": "Genética",
+   "topic": "Traducción: elementos y enlace peptídico",
+   "anio": 2009,
+   "etiqueta": "PAU 2009",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "En relación con la figura adjunta, responda a las siguientes cuestiones:<br>a) ¿Qué proceso biológico representa? [0,2]. Identifique los elementos señalados con las letras A, B, C y D [0,8].<br>b) Indique el tipo de enlace que caracteriza a la molécula C y escriba la reacción de formación de este enlace, señalando los grupos químicos que intervienen [0,5]. Indique la composición y la función que desempeña el elemento A en este proceso [0,5].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Traducción</mark> o síntesis de proteínas (0,2 p).",
+    "A: <mark class=\"clave-criterio\">ARN transferente</mark> o aminoacil-ARN transferente; B: <mark class=\"clave-criterio\">ARN mensajero</mark>; C: <mark class=\"clave-criterio\">polipéptido</mark>; D: <mark class=\"clave-criterio\">ribosoma</mark> o subunidad grande del ribosoma. 0,2 p cada uno (0,8 p).",
+    "b) <mark class=\"clave-criterio\">Enlace peptídico</mark> y reacción de formación (0,5 p). <span class=\"redactado\">Se forma entre el grupo carboxilo de un aminoácido y el grupo amino del siguiente, con liberación de una molécula de agua: R₁–COOH + H₂N–R₂ → R₁–CO–NH–R₂ + H₂O.</span>",
+    "Composición del elemento A: <mark class=\"clave-criterio\">ribonucleótidos</mark> (bases nitrogenadas, ribosa y fosfato) (0,25 p).",
+    "Función: <mark class=\"clave-criterio\">transporta de forma específica los aminoácidos</mark> en la síntesis de proteínas en función de su <mark class=\"clave-criterio\">anticodón</mark> (0,25 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2009 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 6",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2009,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/gm2009-traduccion.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/gm2009-traduccion.thumb.webp",
+   "imageDesc": "Esquema de un ribosoma traduciendo un ARN mensajero, con ARN transferentes cargados (A), el ARN mensajero (B), la cadena polipeptídica en formación (C) y la subunidad grande del ribosoma (D).",
+   "isNew": true
+  },
+  {
+   "id": "pau2009-gm-2",
+   "block": "Genética",
+   "topic": "Gen, heterocigoto, transcripción, codón y código genético",
+   "anio": 2009,
+   "etiqueta": "PAU 2009",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "Defina: gen, heterocigoto, transcripción, codón y código genético [2].",
+   "c": [
+    "Gen: <mark class=\"clave-criterio\">secuencia de ADN</mark> que determina una característica y que puede tener diferentes formas o <mark class=\"clave-criterio\">alelos</mark> (0,4 p).",
+    "Heterocigoto: individuo en el que los <mark class=\"clave-criterio\">dos alelos</mark> de un gen son <mark class=\"clave-criterio\">diferentes</mark> (0,4 p).",
+    "Transcripción: <mark class=\"clave-criterio\">síntesis de una cadena de ARN</mark> de cualquier tipo que tiene la secuencia <mark class=\"clave-criterio\">complementaria</mark> de una cadena de <mark class=\"clave-criterio\">ADN que actúa como molde</mark> (0,4 p).",
+    "Codón: grupo de <mark class=\"clave-criterio\">tres nucleótidos consecutivos</mark> (triplete) del <mark class=\"clave-criterio\">ARN mensajero</mark> que codifica un aminoácido (0,4 p).",
+    "Código genético: sistema que establece una <mark class=\"clave-criterio\">relación de correspondencia</mark> entre los <mark class=\"clave-criterio\">tripletes del ARN mensajero</mark> y los <mark class=\"clave-criterio\">aminoácidos</mark> que codifica (0,4 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2009 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 3",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2009,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2009-gm-3",
+   "block": "Genética",
+   "topic": "Flujo de la información genética y retrotranscripción",
+   "anio": 2009,
+   "etiqueta": "PAU 2009",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "En relación con el esquema, conteste las siguientes cuestiones:<br>a) Nombre los procesos señalados con las letras A, B, C y D [0,4]. Indique la composición de las moléculas incluidas en los recuadros [0,6].<br>b) Indique una función de cada una de las moléculas incluidas en los recuadros [0,6]. Explique en qué consiste el proceso A [0,2]. ¿En qué formas biológicas se ha descrito el proceso A? [0,2].",
+   "c": [
+    "a) A: <mark class=\"clave-criterio\">retrotranscripción</mark>; B: <mark class=\"clave-criterio\">traducción</mark>; C: <mark class=\"clave-criterio\">replicación</mark>; D: <mark class=\"clave-criterio\">transcripción</mark>. 0,1 p cada uno (0,4 p).",
+    "ADN: <mark class=\"clave-criterio\">desoxirribosa</mark>, grupo <mark class=\"clave-criterio\">fosfato</mark> y las bases nitrogenadas A, G, C y <mark class=\"clave-criterio\">T</mark> (0,2 p). ARN: <mark class=\"clave-criterio\">ribosa</mark>, grupo fosfato y las bases A, G, C y <mark class=\"clave-criterio\">U</mark> (0,2 p). Proteínas: <mark class=\"clave-criterio\">aminoácidos</mark> (0,2 p).",
+    "b) ADN: <mark class=\"clave-criterio\">portador del mensaje genético</mark>, lo transmite a las células hijas, responsable de los caracteres celulares (basta una función) (0,2 p).",
+    "ARN: constituye los ribosomas, <mark class=\"clave-criterio\">transfiere aminoácidos</mark>, <mark class=\"clave-criterio\">traduce el mensaje genético</mark> a proteínas, portador del mensaje genético en virus (basta una función) (0,2 p).",
+    "Proteínas: enzimática, transporte, movimiento y contracción, soporte estructural, reserva, inmunidad, hormonal, etc. (basta una función) (0,2 p).",
+    "Retrotranscripción: <mark class=\"clave-criterio\">paso de ARN a ADN</mark> por acción de la <mark class=\"clave-criterio\">transcriptasa inversa</mark> o retrotranscriptasa (0,2 p). Se ha descrito en los <mark class=\"clave-criterio\">virus con ARN</mark> (<mark class=\"clave-criterio\">retrovirus</mark>) (0,2 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2009 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 6",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2009,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/gm2009-flujo.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/gm2009-flujo.thumb.webp",
+   "imageDesc": "Esquema ADN ⇄ ARN → PROTEÍNA: la flecha A va de ARN a ADN, B de ARN a proteína, C es una flecha circular sobre el ADN y D va de ADN a ARN.",
+   "isNew": true
+  },
+  {
+   "id": "pau2009-mic-1",
+   "block": "Microbiología",
+   "topic": "Virus VIH: componentes y ciclo de vida",
+   "anio": 2009,
+   "etiqueta": "PAU 2009",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "A la vista de la figura que representa al virus VIH, conteste las siguientes preguntas:<br>a) Identifique la naturaleza molecular de los elementos indicados con los números [0,3]. Indique qué tipo de ácido nucleico contiene este virus [0,3], qué tipo de células pueden ser infectadas por este virus y las consecuencias de ello [0,4].<br>b) Explique el ciclo de vida del virus VIH [1].",
+   "c": [
+    "a) 1: <mark class=\"clave-criterio\">bicapa lipídica</mark>; 2: <mark class=\"clave-criterio\">proteínas de cubierta</mark>; 3: <mark class=\"clave-criterio\">proteínas de la cápsida</mark> (0,3 p).",
+    "Ácido nucleico: <mark class=\"clave-criterio\">ARN</mark> (0,3 p).",
+    "Células infectadas: <mark class=\"clave-criterio\">linfocitos T4</mark> (0,2 p), provocando su <mark class=\"clave-criterio\">destrucción</mark> y desactivando la respuesta inmune tanto <mark class=\"clave-criterio\">celular</mark> como <mark class=\"clave-criterio\">humoral</mark> (0,2 p).",
+    "b) El retrovirus se une a una <mark class=\"clave-criterio\">glucoproteína de membrana</mark> de la célula hospedadora; se <mark class=\"clave-criterio\">fusionan las membranas</mark> y entra; pierde la cubierta proteica y comienza la <mark class=\"clave-criterio\">retrotranscripción</mark> del ARN gracias a la <mark class=\"clave-criterio\">retrotranscriptasa</mark>, que sintetiza un <mark class=\"clave-criterio\">ADN bicatenario</mark> que <mark class=\"clave-criterio\">se integra en el cromosoma</mark> de la célula. Después, la <mark class=\"clave-criterio\">expresión del ADN viral</mark> origina ARN víricos que se traducen en las <mark class=\"clave-criterio\">proteínas estructurales y enzimáticas</mark> del virus. Tras el <mark class=\"clave-criterio\">ensamblaje</mark>, los viriones se liberan para infectar <mark class=\"clave-criterio\">nuevas células diana</mark> (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2009 (recopilación por temas) · Microbiología",
+    "referencia": "pregunta 2",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
+    "examen_anio": 2009,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/recopilaciones/mic2009-vih.webp",
+   "imgThumb": "assets/figuras/historico/recopilaciones/mic2009-vih.thumb.webp",
+   "imageDesc": "Esquema del VIH: una partícula esférica con envoltura (1) y proteínas de cubierta (2) que rodea una cápsida (3) con dos moléculas de ácido nucleico y la transcriptasa inversa.",
+   "isNew": true
+  },
+  {
+   "id": "pau2009-mic-2+3",
+   "block": "Microbiología",
+   "topic": "Descomponedores y reciclaje de la materia · Por qué los virus son parásitos obligados",
+   "anio": 2009,
+   "etiqueta": "PAU 2009",
+   "hasImg": false,
+   "q": "<b>I.</b> Los seres vivos aparecieron sobre la Tierra hace, aproximadamente, 3.500 millones de años. ¿Por qué los cadáveres de casi todos los seres vivos han desaparecido? Dé una explicación a este hecho y justifique la necesidad de que ocurra [1]. <i>(1 punto)</i><br><br><b>II.</b> Indique dos razones que expliquen el hecho de que los virus sean parásitos obligados. <i>(1 punto)</i>",
+   "puntos": 2,
+   "c": [
+    "<b>I.</b> Debe aludir a la <mark class=\"clave-criterio\">acción descomponedora de los microorganismos</mark> y al <mark class=\"clave-criterio\">reciclaje de la materia</mark> para que pueda ser <mark class=\"clave-criterio\">reutilizada por los organismos autótrofos</mark> (1 p).",
+    "<b>II.</b> Porque <mark class=\"clave-criterio\">carecen de las enzimas</mark> necesarias para fabricar sus componentes (ácido nucleico, cápsida) y <mark class=\"clave-criterio\">no tienen ribosomas</mark>, por lo que deben utilizar los de las células parasitadas, etc. Solo dos, 0,5 p cada una (1 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2009-mic-2",
+    "pau2009-mic-3"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2009 (recopilación por temas) · Microbiología",
+    "referencia": "pregunta 3 + pregunta 4",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
+    "examen_anio": 2009,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2009-gm-4+2",
+   "block": "Genética",
+   "topic": "Universalidad del código genético · Descomponedores y reciclaje de la materia",
+   "anio": 2009,
+   "etiqueta": "PAU 2009",
+   "hasImg": false,
+   "q": "<b>I.</b> Una bacteria sintetiza proteínas codificadas por genes humanos introducidos en ella mediante ingeniería genética. ¿Qué característica del código genético hace que sea posible esta síntesis? Razone la respuesta [1]. <i>(1 punto)</i><br><br><b>II.</b> Los seres vivos aparecieron sobre la Tierra hace, aproximadamente, 3.500 millones de años. ¿Por qué los cadáveres de casi todos los seres vivos han desaparecido? Dé una explicación a este hecho y justifique la necesidad de que ocurra [1]. <i>(1 punto)</i>",
+   "puntos": 2,
+   "c": [
+    "<b>I.</b> Esto es posible porque el código genético es <mark class=\"clave-criterio\">común para todos los organismos</mark> (<mark class=\"clave-criterio\">universal</mark>): <span class=\"redactado\">la bacteria lee los codones del gen humano y les asigna los mismos aminoácidos que una célula humana.</span> (1 p).",
+    "<b>II.</b> Debe aludir a la <mark class=\"clave-criterio\">acción descomponedora de los microorganismos</mark> y al <mark class=\"clave-criterio\">reciclaje de la materia</mark> para que pueda ser <mark class=\"clave-criterio\">reutilizada por los organismos autótrofos</mark> (1 p)."
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2009-gm-4",
+    "pau2009-mic-2"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2009 (recopilación por temas) · Genética molecular",
+    "referencia": "pregunta 4 + pregunta 3",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+    "examen_anio": 2009,
+    "verificado": true
+   }
+  },
   {
    "id": "pau2010-e1-a1",
    "block": "Biomoléculas",

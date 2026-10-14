@@ -1,0 +1,198 @@
+{
+ "anio": 2008,
+ "curso": "2007-2008",
+ "carpeta": "PAU 2025/ACTIVIDADES POR TEMAS",
+ "etiqueta": "PAU 2008",
+ "documento": "PAU Andalucía 2008 (recopilación por temas)",
+ "origen_texto": "Pregunta de la PAU de Andalucía de 2008, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025",
+ "nota": "Preguntas de la PAU de Andalucía anteriores a 2010 que no estaban en el banco, tomadas de las recopilaciones por temas de PAU 2025/ACTIVIDADES POR TEMAS (que copian el enunciado y los criterios oficiales de cada año). No se conoce el examen concreto de cada pregunta: la referencia da su número en el examen. Palabras clave de los criterios entre ** y lo redactado por BioCelia entre (( )). Figuras recortadas de la recopilación a 200 ppp.",
+ "examenes": [
+  {
+   "id": "gm",
+   "nombre": "Genética molecular",
+   "enunciado": "GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+   "criterios": "GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+   "preguntas": [
+    {
+     "ref": "pregunta 6",
+     "bloque": "Genética",
+     "tema": "Transcripción, maduración y traducción",
+     "puntos": 2,
+     "q": "En relación con la figura adjunta, responda las siguientes preguntas:<br>a) Nombre las moléculas representadas con los números 1, 2, 3 y 5 [0,4]. ¿Qué procesos se desarrollan en el núcleo? [0,3]. Comente los cambios que ocurren entre las moléculas indicadas con los números 3 y 5 [0,3].<br>b) ¿Qué representan los números 6 y 7? [0,2]. ¿Qué proceso se desarrolla en el citoplasma? [0,2]. Explique brevemente dicho proceso [0,6].",
+     "c": [
+      "a) 1: **ADN**; 2: **ARN polimerasa**; 3: **ARN transcrito primario**; 5: **ARN mensajero maduro** (0,4 p).",
+      "En el núcleo se desarrollan los procesos de **transcripción** y **maduración** (0,3 p).",
+      "Cambios: **adición de la caperuza** y de la **cola** y la **eliminación de intrones** (0,3 p). ((La caperuza es de 7-metilguanosina en el extremo 5′ y la cola, de poli-A en el extremo 3′.))",
+      "b) El número 6 es el **polipéptido en formación** y el 7 es el **ribosoma** (0,2 p). El proceso del citoplasma es la **traducción** (0,2 p).",
+      "Se mencionará al menos: etapa de **iniciación** (ARN mensajero, ARN transferente, **codón de inicio**, **anticodón** y **subunidades ribosómicas**); etapa de **elongación** (formación del **enlace peptídico** y desplazamiento del ribosoma o **translocación**); etapa de **terminación** (**codón de terminación**) (0,6 p)."
+     ],
+     "figura": "assets/figuras/historico/recopilaciones/gm2008-expresion.webp",
+     "figuraDesc": "Esquema de la expresión de un gen eucariótico: en el núcleo, el ADN (1) se transcribe por la ARN polimerasa (2) a un transcrito primario (3), que madura (4) a ARNm (5); en el citoplasma, varios ribosomas (7) traducen el ARNm y liberan polipéptidos (6).",
+     "n": 1
+    },
+    {
+     "ref": "pregunta 5",
+     "bloque": "Genética",
+     "tema": "Replicación continua y discontinua",
+     "puntos": 1,
+     "q": "La replicación del ADN se realiza de forma continua en una cadena y discontinua en la otra. ¿Cuál es la razón? [1].",
+     "c": [
+      "La replicación ocurre **solo en el sentido 5′→3′** porque las **ADN polimerasas** incorporan los nucleótidos en el **carbono 3′ libre** de las pentosas; al ser las dos cadenas de ADN **antiparalelas**, necesariamente una se replica de forma **continua** y la otra **discontinua**, formando los **fragmentos de Okazaki** (1 p)."
+     ],
+     "n": 2
+    },
+    {
+     "ref": "pregunta 5",
+     "bloque": "Genética",
+     "tema": "Retrovirus: transcriptasa inversa e integración",
+     "puntos": 1,
+     "q": "La información genética de los retrovirus, que está en forma de ARN, puede insertarse en el ADN de la célula huésped. Dé una explicación razonada a este hecho [1].",
+     "c": [
+      "Mediante la **transcriptasa inversa** se hace una **copia de la cadena de ARN en ADN** y esta última se puede **integrar en el genoma** de la célula hospedadora (1 p)."
+     ],
+     "n": 3
+    },
+    {
+     "ref": "pregunta 6",
+     "bloque": "Genética",
+     "tema": "Transcripción y traducción: estructuras y procesos",
+     "puntos": 2,
+     "q": "En relación con la figura adjunta, responda las siguientes preguntas:<br>a) Indique cuáles son las estructuras y/o moléculas señaladas con los números 1 al 7 [0,7], e indique los procesos señalados con las letras A y B [0,3].<br>b) ¿Cuál es la función del proceso A? [0,3]. Describa el proceso B [0,7].",
+     "c": [
+      "a) 1: **ADN**; 2: **ARNm**; 3: **ribosoma**; 4: **anticodón**; 5: **proteína**; 6: **ARNt**; 7: **codón**. 0,1 p cada uno (0,7 p).",
+      "Proceso A: **transcripción**; proceso B: **traducción**. 0,15 p cada uno (0,3 p).",
+      "b) Función de A: **síntesis de los diferentes tipos de ARN a partir del ADN** para la **expresión de la información genética** (0,3 p).",
+      "Descripción de B. Se mencionará al menos: **iniciación** (ARN mensajero, ARN transferente, **codón de inicio**, **anticodón** y **subunidades ribosómicas**); **elongación** (formación del **enlace peptídico** y **translocación** del ribosoma); **terminación** (**codón de terminación**) (0,7 p)."
+     ],
+     "figura": "assets/figuras/historico/recopilaciones/gm2008-transcripcion-traduccion.webp",
+     "figuraDesc": "Célula eucariótica en la que, dentro del núcleo, el ADN (1) se transcribe (A) a ARNm (2), y en el citoplasma un ribosoma (3) traduce (B) el ARNm con ARNt (6) que aportan aminoácidos según la unión anticodón (4)-codón (7), formando una proteína (5).",
+     "n": 4
+    }
+   ]
+  },
+  {
+   "id": "prot",
+   "nombre": "Proteínas",
+   "enunciado": "BIOMOLÉCULAS/04 PAU Proteinas.odt",
+   "criterios": "BIOMOLÉCULAS/04 PAU Proteinas.odt",
+   "preguntas": [
+    {
+     "ref": "pregunta 6",
+     "bloque": "Biomoléculas",
+     "tema": "Niveles estructurales en una figura; efecto del pH y la temperatura",
+     "puntos": 2,
+     "q": "En relación con la figura adjunta, responda las siguientes preguntas:<br>a) ¿Qué representa la figura en su conjunto? [0,2]. Indique el tipo de estructura señalado con el número 1, el tipo de monómeros que la forman y el enlace que la caracteriza [0,4]. Nombre las estructuras señaladas con los números 2, 3, 4 y 5 [0,4].<br>b) Describa los cambios fundamentales que ocurren desde 1 hasta 5 [0,7]. ¿Cómo afectan los cambios de pH y de temperatura a estas estructuras? [0,3].",
+     "c": [
+      "a) Las distintas **conformaciones o estructuras de las proteínas** (0,2 p).",
+      "1: **estructura primaria**, formada por **aminoácidos** unidos por **enlaces peptídicos** (0,4 p).",
+      "Estructuras **secundarias**: **hélice α** (2) y **lámina β** (3); estructura **terciaria** (4) y **cuaternaria** (5) (0,4 p).",
+      "b) La estructura primaria se pliega por **puentes de hidrógeno** entre los átomos del esqueleto originando las estructuras secundarias (hélice α y lámina β). La disposición tridimensional se mantiene mediante enlaces entre los **radicales** (puentes de H, Van der Waals, interacciones electrostáticas e hidrofóbicas y **puentes disulfuro**): estructura terciaria. La asociación mediante enlaces débiles de **dos o más cadenas** con estructura terciaria da la cuaternaria (0,7 p).",
+      "Las estructuras secundaria, terciaria y cuaternaria, mantenidas por **enlaces débiles**, **se desnaturalizan**, mientras que la primaria, mantenida por **enlaces covalentes**, **no se altera** (0,3 p)."
+     ],
+     "figura": "assets/figuras/historico/recopilaciones/prot2008-niveles.webp",
+     "figuraDesc": "Niveles de organización de una proteína: (1) cadena de aminoácidos como un collar de cuentas; (2) hélice; (3) lámina plegada; (4) cadena plegada en el espacio; (5) asociación de varias cadenas plegadas.",
+     "n": 1
+    },
+    {
+     "ref": "pregunta 4",
+     "bloque": "Biomoléculas",
+     "tema": "Colágeno hervido: gelatina",
+     "puntos": 1,
+     "q": "El colágeno es una proteína de aspecto blanquecino que forma parte de estructuras resistentes como los tendones. Al hervir el colágeno se obtiene gelatina, que es una sustancia muy blanda. Explique razonadamente la causa de este cambio [1].",
+     "c": [
+      "El cambio lo produce la **desnaturalización** de la proteína colágeno (por el **aumento de la temperatura**), es decir, la **pérdida de su estructura nativa** (1 p). ((Se rompen los enlaces débiles que mantienen la triple hélice; los enlaces peptídicos no se rompen.))"
+     ],
+     "n": 2
+    },
+    {
+     "ref": "pregunta 5",
+     "bloque": "Biomoléculas",
+     "tema": "Miles de proteínas con solo 20 aminoácidos",
+     "puntos": 1,
+     "q": "¿Cómo se puede explicar que una célula típica de nuestro cuerpo posea unas 10.000 clases diferentes de proteínas si el número de aminoácidos distintos es solamente de 20? Razone la respuesta [1].",
+     "c": [
+      "El tipo de proteína depende de la **secuencia lineal de aminoácidos**, y la **combinación de 20 aminoácidos** diferentes puede dar lugar a **muchas secuencias primarias distintas** (1 p). ((Para un péptido de solo 10 aminoácidos ya hay 20¹⁰ secuencias posibles.))"
+     ],
+     "n": 3
+    }
+   ]
+  },
+  {
+   "id": "enz",
+   "nombre": "Enzimas",
+   "enunciado": "BIOMOLÉCULAS/05 PAU Enzimas.odt",
+   "criterios": "BIOMOLÉCULAS/05 PAU Enzimas.odt",
+   "preguntas": [
+    {
+     "ref": "pregunta 4",
+     "bloque": "Biomoléculas",
+     "tema": "Cinética enzimática: más enzima o un inhibidor irreversible",
+     "puntos": 1,
+     "q": "En la siguiente curva se representa una cinética enzimática mostrando la velocidad de reacción respecto a la cantidad de sustrato, con una concentración de enzima constante. ¿De qué manera se vería afectada la curva si se introdujese más cantidad de enzima en el punto indicado por la flecha? [0,5]. ¿Y si introdujéramos un inhibidor irreversible en el punto marcado con una X? [0,5]. Razone las respuestas.",
+     "c": [
+      "Al introducir **más enzima** en el punto de la flecha, la velocidad **aumentará de nuevo** hasta alcanzar un **nuevo estado de saturación** (0,5 p).",
+      "Un **inhibidor irreversible** en X hará que la velocidad **disminuya rápidamente** hasta que **todas las moléculas de enzima hayan sido bloqueadas**; entonces la reacción **se detendrá** (0,5 p)."
+     ],
+     "figura": "assets/figuras/historico/recopilaciones/enz2008-cinetica.webp",
+     "figuraDesc": "Curva de velocidad de reacción frente a concentración de sustrato que tiende a 1,0; una flecha marca la zona de saturación y una X un punto de la zona de subida.",
+     "n": 1
+    },
+    {
+     "ref": "pregunta 4",
+     "bloque": "Biomoléculas",
+     "tema": "Lactasa: hidrólisis de la lactosa",
+     "puntos": 1,
+     "q": "Explique qué reacción desarrolla la enzima que cataliza la siguiente reacción:<br>Lactosa + agua → glucosa + galactosa",
+     "c": [
+      "La acción que desarrolla es la **hidrólisis de la lactosa**, por **rotura del enlace O-glucosídico** mediante la introducción de una **molécula de agua** (1 p). ((La enzima es la lactasa, una hidrolasa.))"
+     ],
+     "n": 2
+    }
+   ]
+  },
+  {
+   "id": "met0709",
+   "nombre": "Metabolismo (2007-2009)",
+   "enunciado": "METABOLISMO/08 PAU Metabolismo.odt",
+   "criterios": "METABOLISMO/08 PAU Metabolismo.odt",
+   "preguntas": [
+    {
+     "ref": "pregunta 4 de un examen de 2007, 2008 o 2009",
+     "bloque": "Metabolismo",
+     "tema": "Daño en la membrana mitocondrial interna y síntesis de ATP",
+     "puntos": 1,
+     "q": "Se ha podido comprobar que la intoxicación experimental con alcohol etílico puede causar la degradación de la mitocondria comenzando por su membrana interna. Exponga razonadamente por qué en esta situación no se produce síntesis de ATP [1].",
+     "c": [
+      "Se debe relacionar la **pérdida de la capacidad de síntesis de ATP** con la **localización en la membrana interna** de la mitocondria de la **cadena de transporte electrónico** y la **fosforilación oxidativa** (1 p). ((Sin membrana interna no hay gradiente de protones ni ATP sintasa.))"
+     ],
+     "n": 1
+    },
+    {
+     "ref": "pregunta 2 de un examen de 2007, 2008 o 2009",
+     "bloque": "Metabolismo",
+     "tema": "Glucolisis, fermentación, fosforilación oxidativa, β-oxidación y fotosíntesis",
+     "puntos": 2,
+     "q": "Defina los siguientes procesos: glucolisis, fermentación, fosforilación oxidativa, β-oxidación y fotosíntesis [1]. Indique en qué tipos de células eucarióticas y en qué lugar de las mismas se realizan [1].",
+     "c": [
+      "**Glucolisis**: reacciones por las que **una glucosa** se transforma en **dos moléculas de ácido pirúvico**. **Fermentación**: **degradación anaeróbica** de la glucosa; proceso catabólico en el que el **aceptor final de electrones es una molécula orgánica**. **Fosforilación oxidativa**: la energía liberada en el **transporte electrónico** desde los coenzimas reducidos **hasta el oxígeno** se aprovecha para **sintetizar ATP**. **β-oxidación**: degradación de los **ácidos grasos** eliminando **dos carbonos en forma de acetil-CoA** en cada vuelta. **Fotosíntesis**: la **energía solar** se utiliza para obtener moléculas ricas en energía y reductoras con las que se **sintetizan moléculas orgánicas**. Cada definición, 0,2 p (1 p).",
+      "Glucolisis: **todas las células**, en el **citoplasma**. Fermentación: células animales y algunos microorganismos, en el **citoplasma**. Fosforilación oxidativa: células de organismos **aeróbicos**, en las **mitocondrias**. β-oxidación: células de organismos aeróbicos, en las **mitocondrias** (matriz). Fotosíntesis: células fotosintetizadoras de **plantas y algas**, en los **cloroplastos**. Cada tipo de célula y lugar, 0,2 p (1 p). ((Ejemplos de fermentación: la láctica en las células musculares y la alcohólica en las levaduras.))"
+     ],
+     "n": 2
+    },
+    {
+     "ref": "pregunta 4 de un examen de 2007, 2008 o 2009",
+     "bloque": "Metabolismo",
+     "tema": "La fotosíntesis es un proceso anabólico",
+     "puntos": 1,
+     "q": "Exponga razonadamente si la fotosíntesis es un proceso anabólico o catabólico [1].",
+     "c": [
+      "La fotosíntesis es un proceso **anabólico**, en el que el **ATP y el NADPH** formados en la etapa dependiente de la luz se utilizan para **transformar el CO₂ en glucosa** (1 p). ((Se sintetizan moléculas complejas a partir de otras sencillas con aporte de energía.))"
+     ],
+     "n": 3
+    }
+   ],
+   "etiqueta": "PAU 2007-2009",
+   "origen_texto": "Pregunta de la PAU de Andalucía de 2007, 2008 o 2009 (la recopilación no distingue el año), con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025"
+  }
+ ]
+}

@@ -1,0 +1,249 @@
+{
+ "anio": 2002,
+ "curso": "2001-2002",
+ "carpeta": "PAU 2025/ACTIVIDADES POR TEMAS",
+ "etiqueta": "PAU 2002",
+ "documento": "PAU Andalucía 2002 (recopilación por temas)",
+ "origen_texto": "Pregunta de la PAU de Andalucía de 2002, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025",
+ "nota": "Preguntas de la PAU de Andalucía anteriores a 2010 que no estaban en el banco, tomadas de las recopilaciones por temas de PAU 2025/ACTIVIDADES POR TEMAS (que copian el enunciado y los criterios oficiales de cada año). No se conoce el examen concreto de cada pregunta: la referencia da su número en el examen. Palabras clave de los criterios entre ** y lo redactado por BioCelia entre (( )). Figuras recortadas de la recopilación a 200 ppp.",
+ "examenes": [
+  {
+   "id": "gm",
+   "nombre": "Genética molecular",
+   "enunciado": "GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+   "criterios": "GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+   "preguntas": [
+    {
+     "ref": "pregunta 3",
+     "bloque": "Biotecnología",
+     "tema": "Proyecto Genoma Humano: ventajas e inconvenientes",
+     "puntos": 1.5,
+     "q": "Explique en qué consiste el proyecto Genoma Humano [0,7]. Describa dos ventajas y dos inconvenientes de su utilización [0,8].",
+     "c": [
+      "**Localización y secuenciación de genes humanos** (0,7 p).",
+      "Ventajas: **curaciones**, **farmacología moderna**, etc. 0,2 p cada una (0,4 p).",
+      "Inconvenientes: clonaciones incontroladas, **utilización lucrativa** de estos conocimientos, efectos secundarios desconocidos, **discriminación social**, etc. 0,2 p cada uno (0,4 p)."
+     ],
+     "n": 1
+    },
+    {
+     "ref": "pregunta 3",
+     "bloque": "Genética",
+     "tema": "Mutación: consecuencias, tipos y agentes mutagénicos",
+     "puntos": 1.5,
+     "q": "Exponga el concepto de mutación [0,4] y explique sus consecuencias [0,4]. Indique la diferencia entre las mutaciones espontáneas e inducidas [0,3] y cite dos ejemplos de agentes mutagénicos [0,4].",
+     "c": [
+      "Concepto (0,4 p). ((Alteración en el material genético.))",
+      "Consecuencias (**evolutivas** y **perjudiciales**) (0,4 p).",
+      "Diferencia (0,3 p). ((Las espontáneas surgen sin causa externa aparente, por ejemplo por errores de replicación; las inducidas las provocan agentes mutagénicos.))",
+      "Ejemplos: cualquier agente **físico**, **químico** o **biológico**. 0,2 p cada uno (0,4 p)."
+     ],
+     "n": 2
+    },
+    {
+     "ref": "pregunta 3",
+     "bloque": "Biotecnología",
+     "tema": "Mejora genética clásica frente a ingeniería genética",
+     "puntos": 1.5,
+     "q": "Explique el fundamento de la mejora genética clásica mediante selección artificial [0,75] y exponga tres diferencias con la mejora mediante ingeniería genética [0,75].",
+     "c": [
+      "Selección artificial: **seleccionar los mejores fenotipos como reproductores** en **generaciones sucesivas** (0,75 p).",
+      "Diferencias, por ejemplo: se utilizan las **técnicas de ADN recombinante**, **no se requieren muchas generaciones**, se pueden utilizar **genes de otra especie**, etc. (0,75 p)."
+     ],
+     "n": 3
+    },
+    {
+     "ref": "pregunta 6",
+     "bloque": "Genética",
+     "tema": "Mutación en una célula que se divide y efecto en la proteína",
+     "puntos": 1,
+     "q": "Por la acción de un mutágeno se produce la sustitución de una base por otra en una de las cadenas de un gen que codifica una proteína. Sin que se produzca reparación tienen lugar sucesivas divisiones celulares. ¿Presentan todas las células descendientes la mutación? ¿Por qué? [0,5]. Explique en qué medida puede verse afectada la funcionalidad de la proteína sintetizada en una de las células mutantes [0,5].",
+     "c": [
+      "Respuesta razonada: **no**, al presentarse el ADN mutado **solo en una de las dos células hijas** (0,5 p). ((Cada cadena sirve de molde en la replicación: la que lleva la base cambiada origina un ADN mutante y la otra, un ADN normal.))",
+      "Respuesta razonada: desde que **no haya afección**, porque el nuevo codón codifique el **mismo aminoácido**, hasta que la proteína quede **inactivada** (0,5 p)."
+     ],
+     "n": 4
+    },
+    {
+     "ref": "pregunta 4",
+     "bloque": "Biotecnología",
+     "tema": "Hormona del crecimiento humana obtenida con microorganismos",
+     "puntos": 1.5,
+     "q": "Explique el proceso general que permite la obtención de hormona del crecimiento humano a partir de microorganismos modificados genéticamente [0,9]. Indique tres ventajas que ofrezca el empleo de hormona obtenida por este método frente a la obtenida a partir de hipófisis de animales [0,6].",
+     "c": [
+      "Debe describirse la **clonación** y **expresión de un gen humano en un microorganismo** (0,9 p). ((Se aísla el gen o su ADNc, se inserta en un vector como un plásmido con enzimas de restricción y ligasa, se introduce en la bacteria, se seleccionan los clones transformados y se cultivan para purificar la hormona.))",
+      "Ventajas: **abaratamiento**, se trata de la **misma hormona humana**, **no produce reacciones alérgicas**, se puede obtener **sin contaminantes**, mayor **accesibilidad** para los usuarios (0,6 p)."
+     ],
+     "n": 5
+    },
+    {
+     "ref": "pregunta 3",
+     "bloque": "Genética",
+     "tema": "Regulación de la expresión génica: genes estructurales y reguladores",
+     "puntos": 1.5,
+     "q": "Explique qué es la regulación de la expresión génica y por qué es necesaria [0,8]. ¿Qué son genes estructurales y genes reguladores? [0,7].",
+     "c": [
+      "Explicación y necesidad de la regulación (0,8 p). ((Es el control de qué genes se expresan, cuándo y en qué cantidad. Es necesaria para no gastar energía en proteínas innecesarias, responder a cambios del medio y, en pluricelulares, permitir la diferenciación celular.))",
+      "Genes estructurales y reguladores, 0,35 p cada uno (0,7 p). ((Estructurales: codifican proteínas o ARN con función en la célula. Reguladores: codifican productos, como los represores, que controlan la expresión de otros genes.))"
+     ],
+     "n": 6
+    },
+    {
+     "ref": "pregunta 7",
+     "bloque": "Genética",
+     "tema": "Transcripción y efecto de una temperatura de 80 °C",
+     "puntos": 2,
+     "q": "A la vista de la imagen, conteste a las siguientes cuestiones:<br>a) Indique razonadamente de qué proceso se trata [0,3]. ¿En qué lugar de la célula se produce? [0,1]. ¿Cómo afectaría a este proceso una elevación brusca de la temperatura por encima de los 80 ºC? [0,6].<br>b) Explique la composición y estructura de la molécula resultante [0,4]. ¿Cuáles son las posibles funciones de la molécula formada? [0,6].",
+     "c": [
+      "a) **Transcripción** (presencia de **ADN de doble cadena** y **una hebra de ARN**) (0,3 p).",
+      "Localización: **núcleo** eucariótico o **citoplasma** procariótico o **mitocondria** o **cloroplasto** (0,1 p).",
+      "**Desnaturalización del ADN y de las enzimas** (0,6 p). ((Se separarían las cadenas del ADN y la ARN polimerasa perdería su estructura, así que la transcripción se detendría.))",
+      "b) Composición y estructura del ARN (0,4 p). ((Ribonucleótidos con ribosa, fosfato y las bases A, G, C y U, unidos por enlaces fosfodiéster en una sola cadena.))",
+      "Funciones de los diferentes tipos de ARN, 0,2 p cada uno (0,6 p). ((ARNm: lleva la información al ribosoma; ARNt: transporta los aminoácidos; ARNr: forma los ribosomas.))"
+     ],
+     "figura": "assets/figuras/historico/recopilaciones/gm2002-transcripcion.webp",
+     "figuraDesc": "Burbuja de transcripción: un ADN de doble cadena, con sus extremos 3′ y 5′, separado localmente; sobre una de sus cadenas se sintetiza una hebra de ARN que se va separando por su extremo 5′.",
+     "n": 7
+    },
+    {
+     "ref": "pregunta 3",
+     "bloque": "Genética",
+     "tema": "Transcripción: definición, localización y proceso",
+     "puntos": 1.5,
+     "q": "Defina el proceso de transcripción [0,4], indique dónde tiene lugar [0,1] y explique cómo se realiza [1].",
+     "c": [
+      "Definición (0,4 p). ((Síntesis de ARN a partir de un molde de ADN.))",
+      "Localización (0,1 p). ((Núcleo en eucariotas, y también mitocondrias y cloroplastos; citoplasma en procariotas.))",
+      "En la explicación del proceso debe incluirse: **copia de una sola cadena del ADN**, acción de la **ARN polimerasa**, papel de las **señales de inicio y de terminación** (1 p)."
+     ],
+     "n": 8
+    },
+    {
+     "ref": "pregunta 5",
+     "bloque": "Genética",
+     "tema": "Sustitución de un aminoácido: efectos en la proteína",
+     "puntos": 1,
+     "q": "Si una mutación puntual en el ADN provoca la sustitución de un aminoácido por otro en una determinada proteína, ¿qué efectos podrían producirse en la estructura y función de dicha proteína? Razone la respuesta [1].",
+     "c": [
+      "Cualquier respuesta razonada que relacione la mutación con los posibles **cambios estructurales y funcionales** (1 p). ((Si el aminoácido nuevo es parecido o está fuera de zonas clave, el efecto puede ser nulo. Si afecta al centro activo o al plegamiento, la proteína puede perder o alterar su función, como en la anemia falciforme.))"
+     ],
+     "n": 9
+    },
+    {
+     "ref": "pregunta 6",
+     "bloque": "Biotecnología",
+     "tema": "Clonación con un núcleo de hígado: ¿todos los genes?",
+     "puntos": 1,
+     "q": "Suponga que se ha clonado un individuo transfiriendo el núcleo de una célula de hígado totalmente diferenciada a un óvulo sin núcleo. ¿Tendrá el nuevo individuo todos los genes o tendrá únicamente aquellos que se expresaban en la célula del hígado? ¿Por qué? [1].",
+     "c": [
+      "El núcleo de una célula hepática diferenciada **tiene todos los genes** y, por tanto, **el nuevo individuo también** (1 p). ((La diferenciación se debe a qué genes se expresan, no a que se pierdan genes.))"
+     ],
+     "n": 10
+    },
+    {
+     "ref": "pregunta 7",
+     "bloque": "Genética",
+     "tema": "ADN: componentes, puentes de hidrógeno y procesos",
+     "puntos": 2,
+     "q": "El siguiente esquema representa la estructura de una molécula biológica:<br>a) Indique de qué molécula se trata [0,1] e identifique los elementos señalados con las letras A, B y C [0,6]. ¿Qué representan las líneas de puntos? [0,1]. ¿Qué indican los números 5′ y 3′? [0,2].<br>b) Cite dos procesos fundamentales para la vida relacionados con esta molécula [0,2] y explique el significado biológico de cada uno [0,8].",
+     "c": [
+      "a) Molécula de **ADN** (0,1 p).",
+      "A: **grupo fosfato**; B: **desoxirribosa**; C: **base nitrogenada**. 0,2 p cada uno (0,6 p).",
+      "Líneas de puntos: **puentes de hidrógeno** (0,1 p).",
+      "5′ y 3′: los **extremos** o la **dirección** de una cadena sencilla de ADN (0,2 p).",
+      "b) **Replicación** y **transcripción** (0,2 p).",
+      "Replicación: garantizar la **conservación y transmisión del material genético** (0,4 p). Transcripción: permitir la **expresión de la información genética** (0,4 p)."
+     ],
+     "figura": "assets/figuras/historico/recopilaciones/gm2002-adn.webp",
+     "figuraDesc": "Esquema de un fragmento de ADN de doble cadena con extremos 3′ y 5′ opuestos; se señalan un grupo fosfato (A), una desoxirribosa (B) y una base nitrogenada (C), con las bases emparejadas mediante líneas de puntos.",
+     "n": 11
+    },
+    {
+     "ref": "pregunta 4",
+     "bloque": "Genética",
+     "tema": "Recombinación y segregación: importancia evolutiva",
+     "puntos": 1.5,
+     "q": "Explique en qué consisten los procesos de recombinación genética [0,5] y segregación cromosómica [0,5]. ¿Cuál es la importancia de ambos procesos para la evolución? [0,5].",
+     "c": [
+      "Recombinación genética: **intercambio de segmentos cromosómicos** (0,5 p).",
+      "Segregación cromosómica: **combinación al azar de cromosomas** (0,5 p).",
+      "Importancia evolutiva (ideas que debe contener la respuesta correcta: 1) **fuente de variabilidad** junto con la mutación y 2) **necesidad de la variabilidad** para el proceso de **selección natural**). 0,25 p cada una (0,5 p)."
+     ],
+     "n": 12
+    }
+   ]
+  },
+  {
+   "id": "prot",
+   "nombre": "Proteínas",
+   "enunciado": "BIOMOLÉCULAS/04 PAU Proteinas.odt",
+   "criterios": "BIOMOLÉCULAS/04 PAU Proteinas.odt",
+   "preguntas": [
+    {
+     "ref": "pregunta 1",
+     "bloque": "Biomoléculas",
+     "tema": "Estructuras secundaria y terciaria: fuerzas que las mantienen",
+     "puntos": 1.5,
+     "q": "Analice la estructura secundaria [0,75] y terciaria [0,75] de las proteínas haciendo especial hincapié en las fuerzas que las mantienen.",
+     "c": [
+      "Estructura **secundaria**: **hélice α** y **hoja plegada**, mantenidas por enlaces peptídicos y **enlaces de hidrógeno** (0,75 p).",
+      "Estructura **terciaria**: **proteínas fibrosas y globulares**, mantenidas por enlaces peptídicos, **puentes de hidrógeno**, **fuerzas de Van der Waals**, **fuerzas electrostáticas** y **puentes disulfuro** (0,75 p)."
+     ],
+     "n": 1
+    },
+    {
+     "ref": "pregunta 1",
+     "bloque": "Biomoléculas",
+     "tema": "Cinco funciones de las proteínas",
+     "puntos": 1.5,
+     "q": "Describa cinco funciones desempeñadas por las proteínas en los seres vivos [1,5].",
+     "c": [
+      "Descripción de cinco funciones (**estructural**, **transporte**, **enzimática**, **movimiento**, **contracción**, **reserva**, **inmunológica**, etc.). Cada función, 0,3 p (1,5 p). ((Por ejemplo: estructural, el colágeno; transporte, la hemoglobina; enzimática, la amilasa; contráctil, la miosina; defensa, los anticuerpos.))"
+     ],
+     "n": 2
+    }
+   ]
+  },
+  {
+   "id": "enz",
+   "nombre": "Enzimas",
+   "enunciado": "BIOMOLÉCULAS/05 PAU Enzimas.odt",
+   "criterios": "BIOMOLÉCULAS/05 PAU Enzimas.odt",
+   "preguntas": [
+    {
+     "ref": "pregunta 7",
+     "bloque": "Biomoléculas",
+     "tema": "Actividad de pepsina, fosfatasa alcalina y papaína según el pH",
+     "puntos": 2,
+     "q": "A la vista de la gráfica, conteste a las siguientes cuestiones:<br>a) Explique qué representa esta gráfica [0,3]. Indique los valores aproximados de pH para los cuales dos enzimas tienen la misma velocidad de reacción [0,4]. Para valores de máxima acidez, ¿cuál es el enzima con mayor actividad catalítica? [0,3].<br>b) Si el pH de la sangre fuera 7,5, indique qué enzimas podrían presentar actividad catalítica en el plasma sanguíneo [0,4]. Explique el comportamiento de cada enzima en función del pH [0,6].",
+     "c": [
+      "a) **Efecto del pH sobre la actividad enzimática** (0,3 p).",
+      "Valores de pH: pepsina/papaína (**entre 5 y 5,5**); pepsina/fosfatasa (**entre 5,5 y 6**); fosfatasa/papaína (**entre 6 y 6,5** y **alrededor de 10,5**). 0,1 p cada valor (0,4 p).",
+      "Máxima acidez: **pepsina** (0,3 p).",
+      "b) **Fosfatasa y papaína** (0,4 p).",
+      "Comportamiento de cada enzima, 0,2 p cada una (0,6 p). ((Pepsina: máxima actividad a pH muy ácido, que disminuye hasta anularse hacia pH 7. Fosfatasa alcalina: actúa desde pH 5, con óptimo hacia pH 9, y cae bruscamente hacia pH 11. Papaína: actividad constante, independiente del pH.))"
+     ],
+     "figura": "assets/figuras/historico/recopilaciones/enz2002-ph.webp",
+     "figuraDesc": "Gráfica de actividad catalítica frente al pH (3 a 11): pepsina (P), máxima a pH ácido y decreciente; fosfatasa alcalina (F), con máximo hacia pH 9; papaína (PP), línea horizontal.",
+     "n": 1
+    },
+    {
+     "ref": "pregunta 7",
+     "bloque": "Biomoléculas",
+     "tema": "Velocidad de reacción y concentración de sustrato",
+     "puntos": 2,
+     "q": "A la vista de la gráfica, conteste a las siguientes cuestiones:<br>a) Explique qué representa esta gráfica [0,5]. ¿Por qué la velocidad de la reacción aumenta al principio de la curva, al aumentar la concentración de sustrato? [0,5].<br>b) ¿Por qué la velocidad de la reacción permanece prácticamente constante a partir de una determinada concentración de sustrato? [0,5]. ¿Qué ocurrirá si se aumenta la concentración de enzima? [0,5].",
+     "c": [
+      "a) La **curva de actividad típica de los enzimas** al relacionar la **velocidad** con la **concentración de sustrato** (0,5 p).",
+      "Porque la velocidad es **proporcional a la formación del complejo enzima-sustrato** (0,5 p).",
+      "b) En la **zona de saturación** la velocidad depende de la **cantidad de enzima** (0,5 p). ((Todos los centros activos están ocupados.))",
+      "La velocidad **aumenta proporcionalmente a lo largo de toda la curva** (0,5 p). ((Se alcanza una Vmax mayor.))"
+     ],
+     "figura": "assets/figuras/historico/recopilaciones/enz2002-sustrato.webp",
+     "figuraDesc": "Curva hiperbólica de velocidad de reacción frente a concentración de sustrato (10-60), con Vmax y Vmax/2 marcadas.",
+     "n": 2
+    }
+   ]
+  }
+ ]
+}

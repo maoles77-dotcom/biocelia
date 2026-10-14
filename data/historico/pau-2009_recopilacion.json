@@ -1,0 +1,126 @@
+{
+ "anio": 2009,
+ "curso": "2008-2009",
+ "carpeta": "PAU 2025/ACTIVIDADES POR TEMAS",
+ "etiqueta": "PAU 2009",
+ "documento": "PAU Andalucía 2009 (recopilación por temas)",
+ "origen_texto": "Pregunta de la PAU de Andalucía de 2009, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025",
+ "nota": "Preguntas de la PAU de Andalucía anteriores a 2010 que no estaban en el banco, tomadas de las recopilaciones por temas de PAU 2025/ACTIVIDADES POR TEMAS (que copian el enunciado y los criterios oficiales de cada año). No se conoce el examen concreto de cada pregunta: la referencia da su número en el examen. Palabras clave de los criterios entre ** y lo redactado por BioCelia entre (( )). Figuras recortadas de la recopilación a 200 ppp.",
+ "examenes": [
+  {
+   "id": "gm",
+   "nombre": "Genética molecular",
+   "enunciado": "GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+   "criterios": "GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+   "preguntas": [
+    {
+     "ref": "pregunta 6",
+     "bloque": "Genética",
+     "tema": "Traducción: elementos y enlace peptídico",
+     "puntos": 2,
+     "q": "En relación con la figura adjunta, responda a las siguientes cuestiones:<br>a) ¿Qué proceso biológico representa? [0,2]. Identifique los elementos señalados con las letras A, B, C y D [0,8].<br>b) Indique el tipo de enlace que caracteriza a la molécula C y escriba la reacción de formación de este enlace, señalando los grupos químicos que intervienen [0,5]. Indique la composición y la función que desempeña el elemento A en este proceso [0,5].",
+     "c": [
+      "a) **Traducción** o síntesis de proteínas (0,2 p).",
+      "A: **ARN transferente** o aminoacil-ARN transferente; B: **ARN mensajero**; C: **polipéptido**; D: **ribosoma** o subunidad grande del ribosoma. 0,2 p cada uno (0,8 p).",
+      "b) **Enlace peptídico** y reacción de formación (0,5 p). ((Se forma entre el grupo carboxilo de un aminoácido y el grupo amino del siguiente, con liberación de una molécula de agua: R₁–COOH + H₂N–R₂ → R₁–CO–NH–R₂ + H₂O.))",
+      "Composición del elemento A: **ribonucleótidos** (bases nitrogenadas, ribosa y fosfato) (0,25 p).",
+      "Función: **transporta de forma específica los aminoácidos** en la síntesis de proteínas en función de su **anticodón** (0,25 p)."
+     ],
+     "figura": "assets/figuras/historico/recopilaciones/gm2009-traduccion.webp",
+     "figuraDesc": "Esquema de un ribosoma traduciendo un ARN mensajero, con ARN transferentes cargados (A), el ARN mensajero (B), la cadena polipeptídica en formación (C) y la subunidad grande del ribosoma (D).",
+     "n": 1
+    },
+    {
+     "ref": "pregunta 3",
+     "bloque": "Genética",
+     "tema": "Gen, heterocigoto, transcripción, codón y código genético",
+     "puntos": 2,
+     "q": "Defina: gen, heterocigoto, transcripción, codón y código genético [2].",
+     "c": [
+      "Gen: **secuencia de ADN** que determina una característica y que puede tener diferentes formas o **alelos** (0,4 p).",
+      "Heterocigoto: individuo en el que los **dos alelos** de un gen son **diferentes** (0,4 p).",
+      "Transcripción: **síntesis de una cadena de ARN** de cualquier tipo que tiene la secuencia **complementaria** de una cadena de **ADN que actúa como molde** (0,4 p).",
+      "Codón: grupo de **tres nucleótidos consecutivos** (triplete) del **ARN mensajero** que codifica un aminoácido (0,4 p).",
+      "Código genético: sistema que establece una **relación de correspondencia** entre los **tripletes del ARN mensajero** y los **aminoácidos** que codifica (0,4 p)."
+     ],
+     "n": 2
+    },
+    {
+     "ref": "pregunta 6",
+     "bloque": "Genética",
+     "tema": "Flujo de la información genética y retrotranscripción",
+     "puntos": 2,
+     "q": "En relación con el esquema, conteste las siguientes cuestiones:<br>a) Nombre los procesos señalados con las letras A, B, C y D [0,4]. Indique la composición de las moléculas incluidas en los recuadros [0,6].<br>b) Indique una función de cada una de las moléculas incluidas en los recuadros [0,6]. Explique en qué consiste el proceso A [0,2]. ¿En qué formas biológicas se ha descrito el proceso A? [0,2].",
+     "c": [
+      "a) A: **retrotranscripción**; B: **traducción**; C: **replicación**; D: **transcripción**. 0,1 p cada uno (0,4 p).",
+      "ADN: **desoxirribosa**, grupo **fosfato** y las bases nitrogenadas A, G, C y **T** (0,2 p). ARN: **ribosa**, grupo fosfato y las bases A, G, C y **U** (0,2 p). Proteínas: **aminoácidos** (0,2 p).",
+      "b) ADN: **portador del mensaje genético**, lo transmite a las células hijas, responsable de los caracteres celulares (basta una función) (0,2 p).",
+      "ARN: constituye los ribosomas, **transfiere aminoácidos**, **traduce el mensaje genético** a proteínas, portador del mensaje genético en virus (basta una función) (0,2 p).",
+      "Proteínas: enzimática, transporte, movimiento y contracción, soporte estructural, reserva, inmunidad, hormonal, etc. (basta una función) (0,2 p).",
+      "Retrotranscripción: **paso de ARN a ADN** por acción de la **transcriptasa inversa** o retrotranscriptasa (0,2 p). Se ha descrito en los **virus con ARN** (**retrovirus**) (0,2 p)."
+     ],
+     "figura": "assets/figuras/historico/recopilaciones/gm2009-flujo.webp",
+     "figuraDesc": "Esquema ADN ⇄ ARN → PROTEÍNA: la flecha A va de ARN a ADN, B de ARN a proteína, C es una flecha circular sobre el ADN y D va de ADN a ARN.",
+     "n": 3
+    },
+    {
+     "ref": "pregunta 4",
+     "bloque": "Genética",
+     "tema": "Universalidad del código genético",
+     "puntos": 1,
+     "q": "Una bacteria sintetiza proteínas codificadas por genes humanos introducidos en ella mediante ingeniería genética. ¿Qué característica del código genético hace que sea posible esta síntesis? Razone la respuesta [1].",
+     "c": [
+      "Esto es posible porque el código genético es **común para todos los organismos** (**universal**): ((la bacteria lee los codones del gen humano y les asigna los mismos aminoácidos que una célula humana.)) (1 p)."
+     ],
+     "n": 4
+    }
+   ]
+  },
+  {
+   "id": "mic",
+   "nombre": "Microbiología",
+   "enunciado": "INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
+   "criterios": "INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
+   "preguntas": [
+    {
+     "ref": "pregunta 2",
+     "bloque": "Microbiología",
+     "tema": "Virus VIH: componentes y ciclo de vida",
+     "puntos": 2,
+     "q": "A la vista de la figura que representa al virus VIH, conteste las siguientes preguntas:<br>a) Identifique la naturaleza molecular de los elementos indicados con los números [0,3]. Indique qué tipo de ácido nucleico contiene este virus [0,3], qué tipo de células pueden ser infectadas por este virus y las consecuencias de ello [0,4].<br>b) Explique el ciclo de vida del virus VIH [1].",
+     "c": [
+      "a) 1: **bicapa lipídica**; 2: **proteínas de cubierta**; 3: **proteínas de la cápsida** (0,3 p).",
+      "Ácido nucleico: **ARN** (0,3 p).",
+      "Células infectadas: **linfocitos T4** (0,2 p), provocando su **destrucción** y desactivando la respuesta inmune tanto **celular** como **humoral** (0,2 p).",
+      "b) El retrovirus se une a una **glucoproteína de membrana** de la célula hospedadora; se **fusionan las membranas** y entra; pierde la cubierta proteica y comienza la **retrotranscripción** del ARN gracias a la **retrotranscriptasa**, que sintetiza un **ADN bicatenario** que **se integra en el cromosoma** de la célula. Después, la **expresión del ADN viral** origina ARN víricos que se traducen en las **proteínas estructurales y enzimáticas** del virus. Tras el **ensamblaje**, los viriones se liberan para infectar **nuevas células diana** (1 p)."
+     ],
+     "figura": "assets/figuras/historico/recopilaciones/mic2009-vih.webp",
+     "figuraDesc": "Esquema del VIH: una partícula esférica con envoltura (1) y proteínas de cubierta (2) que rodea una cápsida (3) con dos moléculas de ácido nucleico y la transcriptasa inversa.",
+     "n": 1
+    },
+    {
+     "ref": "pregunta 3",
+     "bloque": "Microbiología",
+     "tema": "Descomponedores y reciclaje de la materia",
+     "puntos": 1,
+     "q": "Los seres vivos aparecieron sobre la Tierra hace, aproximadamente, 3.500 millones de años. ¿Por qué los cadáveres de casi todos los seres vivos han desaparecido? Dé una explicación a este hecho y justifique la necesidad de que ocurra [1].",
+     "c": [
+      "Debe aludir a la **acción descomponedora de los microorganismos** y al **reciclaje de la materia** para que pueda ser **reutilizada por los organismos autótrofos** (1 p)."
+     ],
+     "n": 2
+    },
+    {
+     "ref": "pregunta 4",
+     "bloque": "Microbiología",
+     "tema": "Por qué los virus son parásitos obligados",
+     "puntos": 1,
+     "q": "Indique dos razones que expliquen el hecho de que los virus sean parásitos obligados.",
+     "c": [
+      "Porque **carecen de las enzimas** necesarias para fabricar sus componentes (ácido nucleico, cápsida) y **no tienen ribosomas**, por lo que deben utilizar los de las células parasitadas, etc. Solo dos, 0,5 p cada una (1 p)."
+     ],
+     "n": 3
+    }
+   ]
+  }
+ ]
+}

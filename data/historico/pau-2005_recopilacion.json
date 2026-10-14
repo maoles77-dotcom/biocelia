@@ -1,0 +1,201 @@
+{
+ "anio": 2005,
+ "curso": "2004-2005",
+ "carpeta": "PAU 2025/ACTIVIDADES POR TEMAS",
+ "etiqueta": "PAU 2005",
+ "documento": "PAU Andalucía 2005 (recopilación por temas)",
+ "origen_texto": "Pregunta de la PAU de Andalucía de 2005, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025",
+ "nota": "Preguntas de la PAU de Andalucía anteriores a 2010 que no estaban en el banco, tomadas de las recopilaciones por temas de PAU 2025/ACTIVIDADES POR TEMAS (que copian el enunciado y los criterios oficiales de cada año). No se conoce el examen concreto de cada pregunta: la referencia da su número en el examen. Palabras clave de los criterios entre ** y lo redactado por BioCelia entre (( )). Figuras recortadas de la recopilación a 200 ppp.",
+ "examenes": [
+  {
+   "id": "gm",
+   "nombre": "Genética molecular",
+   "enunciado": "GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+   "criterios": "GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+   "preguntas": [
+    {
+     "ref": "pregunta 5",
+     "bloque": "Genética",
+     "tema": "Código no universal e insulina de ratón en una bacteria",
+     "puntos": 1,
+     "q": "Si el código genético no fuese universal, ¿qué ocurriría al introducir el gen que codifica la insulina de ratón en una bacteria? [1]. Razone la respuesta.",
+     "c": [
+      "Se debe razonar que **no se produciría proteína** (insulina) alguna o que, en caso de producirse, **no sería funcional** (1 p). ((La bacteria asignaría a los codones aminoácidos distintos de los del ratón.))"
+     ],
+     "n": 1
+    },
+    {
+     "ref": "pregunta 6",
+     "bloque": "Genética",
+     "tema": "Transcripción, traducción, codones y mutación puntual",
+     "puntos": 2,
+     "q": "En relación con el esquema adjunto, conteste las siguientes cuestiones:<br>a) ¿Cómo se denominan cada uno de los pasos indicados con flechas en el esquema [0,2] y dónde se llevan a cabo en una célula eucariótica? [0,2]. Escriba qué codones corresponden a cada uno de los 5 aminoácidos [0,3]. Si una mutación puntual provoca que la primera base de la molécula 2 pase a ser una C en vez de una A, ¿qué cambio se origina en la secuencia de la molécula 3? [0,3].<br>b) Describa brevemente el proceso de síntesis de la molécula 3 e indique las fases de las que consta [1].",
+     "c": [
+      "a) Paso de 1 a 2: **transcripción**; paso de 2 a 3: **traducción**. 0,1 p cada uno (0,2 p).",
+      "Transcripción: en el **núcleo** celular; traducción: en el **citoplasma** (ribosomas). 0,1 p cada uno (0,2 p).",
+      "**AUU** → Ile, **CGA** → Arg, **UGC** → Cys, **GUC** → Val y **CUU** → Leu (0,3 p).",
+      "La **isoleucina** (Ile) pasaría a ser **leucina** (Leu) (0,3 p). ((AUU pasa a CUU, que codifica Leu.))",
+      "b) Se explicará cómo se **inicia**, cómo se **elonga** y cómo **termina** la síntesis de la proteína (deberá mencionarse la unión al **ribosoma**, el **ARN mensajero**, el **ARN de transferencia** y el **polipéptido**) (1 p)."
+     ],
+     "figura": "assets/figuras/historico/recopilaciones/gm2005-codones.webp",
+     "figuraDesc": "Esquema: (1) ADN de doble cadena 5′-ATTCGATGCGTCCTT-3′ / 3′-TAAGCTACGCAGGAA-5′; (2) ARN 5′-AUUCGAUGCGUCCUU-3′; (3) péptido Ile-Arg-Cys-Val-Leu.",
+     "n": 2
+    },
+    {
+     "ref": "pregunta 4",
+     "bloque": "Genética",
+     "tema": "Mutación silenciosa y desplazamiento de la fase de lectura",
+     "puntos": 1,
+     "q": "Escriba la secuencia de aminoácidos que se puede originar a partir del ARN mensajero siguiente [0,25]. Si en la secuencia de ADN se produjera una alteración que cambiase en este ARN la U señalada con una flecha por una C, ¿cómo se llamaría este fenómeno? [0,25]. ¿Tendría consecuencias para la célula? [0,25]. ¿Qué ocurriría si desaparece la base señalada? [0,25]. Razone las respuestas.",
+     "c": [
+      "Secuencia: **NH₂-Glu-Arg-Gly-Thr-Ser-Phe-Tyr-Val-COOH** (0,25 p).",
+      "**Mutación** (**silenciosa**) (0,25 p). **Ninguna** consecuencia, porque **no cambia el aminoácido** (0,25 p). ((UUU y UUC codifican ambos fenilalanina: el código es degenerado.))",
+      "Si desaparece la base: **desplazamiento de la fase de lectura**, que daría lugar a una **proteína diferente** (0,25 p)."
+     ],
+     "figura": "assets/figuras/historico/recopilaciones/gm2005-arnm-codigo.webp",
+     "figuraDesc": "ARN mensajero 5′…GAGCGUGGGACUAGCUUUUAUGUC…3′ con una flecha bajo la última U de UUU, y tabla del código genético.",
+     "n": 3
+    },
+    {
+     "ref": "pregunta 2",
+     "bloque": "Genética",
+     "tema": "Replicación, transcripción y traducción: dónde y cómo",
+     "puntos": 2,
+     "q": "Defina los siguientes conceptos: replicación [0,3], transcripción [0,3] y traducción [0,3]. ¿En qué parte de las células procariótica y eucariótica tienen lugar estos procesos? [0,4]. Describa cómo se lleva a cabo la transcripción [0,7].",
+     "c": [
+      "Cada concepto, 0,3 p (0,9 p). ((Replicación: síntesis de una copia del ADN; transcripción: síntesis de ARN a partir de un molde de ADN; traducción: síntesis de una proteína según la secuencia del ARNm.))",
+      "Localización en procariotas (0,1 p) y en eucariotas (0,3 p) (0,4 p). ((En procariotas, los tres en el citoplasma. En eucariotas, replicación y transcripción en el núcleo, y también en mitocondrias y cloroplastos; traducción en los ribosomas del citoplasma.))",
+      "En la explicación de la transcripción debe incluirse: **copia de una sola cadena del ADN**, acción de la **ARN polimerasa**, **señales de inicio y de terminación** (0,7 p)."
+     ],
+     "n": 4
+    },
+    {
+     "ref": "pregunta 4",
+     "bloque": "Genética",
+     "tema": "Sustitución de bases y sus cuatro posibles efectos",
+     "puntos": 1,
+     "q": "Suponga que en un fragmento de ADN que codifica un polipéptido se produce una mutación que cambia un par de bases por otro. Debido a ello, cuando la célula sintetice de nuevo el polipéptido pueden ocurrir cualquiera de los cuatro hechos siguientes:<br>1. Que se codifique el mismo aminoácido.<br>2. Que se sustituya un aminoácido por otro distinto.<br>3. Que el nuevo polipéptido sintetizado sea más corto.<br>4. Que el nuevo polipéptido sintetizado sea más largo.<br>Basándose en sus conocimientos del código genético, explique cómo se produciría cada uno de estos resultados [1].",
+     "c": [
+      "1. La mutación da lugar a un **codón diferente que codifica el mismo aminoácido**, posible gracias a que el código genético es **degenerado** (0,25 p).",
+      "2. La mutación da lugar a un **codón diferente que codifica otro aminoácido** (0,25 p).",
+      "3. La mutación produce un **codón de parada** que impide que se sintetice el polipéptido en su totalidad (0,25 p).",
+      "4. La mutación ha **afectado al codón de parada**, haciendo que codifique un aminoácido y permitiendo la síntesis de un polipéptido más largo (0,25 p)."
+     ],
+     "n": 5
+    },
+    {
+     "ref": "pregunta 2",
+     "bloque": "Célula",
+     "tema": "Ciclo celular: fases, procesos y contenido de ADN",
+     "puntos": 2,
+     "q": "Defina el ciclo celular [0,5] e indique las fases en que se divide realizando un esquema [0,5]. Indique en qué fase o fases ocurren los procesos de replicación, transcripción, traducción y reparto del material hereditario [0,5]. Represente gráficamente cómo varía el contenido de ADN durante las fases [0,5].",
+     "c": [
+      "Ciclo celular: **fases por las que discurre una célula** desde que se origina por división de una preexistente **hasta que se divide** y da origen a dos células hijas (0,5 p).",
+      "Fases: **interfase** (**G1, S, G2**) y **mitosis** (M), con su esquema (0,5 p).",
+      "Replicación: interfase (**fase S**); transcripción y traducción: interfase (fases **G1, S y G2**); reparto del material hereditario: **mitosis** (M) (0,5 p).",
+      "Gráfico de variación del contenido de ADN (0,5 p). ((La cantidad de ADN se duplica durante la fase S (de 2C a 4C), se mantiene en G2 y vuelve a 2C al separarse las cromátidas en la mitosis.))"
+     ],
+     "n": 6
+    },
+    {
+     "ref": "pregunta 4",
+     "bloque": "Genética",
+     "tema": "Dibujo de una cadena de ADN y de su ARN complementario",
+     "puntos": 1,
+     "q": "Usando los símbolos adjuntos, dibuje una cadena de ADN que tenga la secuencia 5′-ATCG-3′ [0,5]. Dibuje también una molécula de ARN con la secuencia complementaria a la molécula de ADN anterior [0,5].",
+     "c": [
+      "**Molécula de ADN correcta** (0,5 p). ((Cuatro nucleótidos con desoxirribosa, que tiene H en el carbono 2′, unidos por fosfatos entre el 3′ de uno y el 5′ del siguiente, con las bases A, T, C y G.))",
+      "**Molécula de ARN correcta** (0,5 p). ((Con ribosa, que tiene OH en el carbono 2′, y la secuencia complementaria y antiparalela: 3′-UAGC-5′, o lo que es lo mismo, 5′-CGAU-3′.))"
+     ],
+     "figura": "assets/figuras/historico/recopilaciones/gm2005-simbolos.webp",
+     "figuraDesc": "Símbolos para dibujar: una ribosa (con OH en el carbono 2′), una desoxirribosa (con H en el carbono 2′), un grupo fosfato (P) y las bases A, T, G, C y U.",
+     "n": 7
+    },
+    {
+     "ref": "pregunta 6",
+     "bloque": "Genética",
+     "tema": "Transcripción y traducción simultáneas: extremos y ribosomas",
+     "puntos": 2,
+     "q": "En relación con la figura adjunta, responda las siguientes cuestiones:<br>a) ¿Cómo se denominan los dos procesos biológicos representados? [0,5]. Identifique los distintos elementos de la figura señalados con números [0,5].<br>b) Identifique los extremos del elemento 2 (a y b) y los extremos del elemento 5 (c y d) [0,5]. ¿Cuál es la composición química de los elementos señalados con los números 3 y 4? [0,5].",
+     "c": [
+      "a) **Transcripción** y **traducción** (0,5 p).",
+      "1: **ADN**; 2: **ARNm**; 3: **subunidad pequeña del ribosoma**; 4: **subunidad grande del ribosoma**; 5: **proteína** (0,5 p).",
+      "b) Extremo **5′ del ARNm** (a); extremo **3′ del ARNm** (b); extremo **N-terminal** (d) y **C-terminal** (c) de la proteína (0,5 p).",
+      "Composición de 3 y 4: **ARNr y proteínas** (0,5 p)."
+     ],
+     "figura": "assets/figuras/historico/recopilaciones/gm2005-procesos.webp",
+     "figuraDesc": "Una ARN polimerasa recorre el ADN (1) y libera un ARNm (2), sobre el que varios ribosomas, con su subunidad pequeña (3) y grande (4), sintetizan proteínas (5); se señalan los extremos a y b del ARNm y c y d de la proteína.",
+     "n": 8
+    }
+   ]
+  },
+  {
+   "id": "prot",
+   "nombre": "Proteínas",
+   "enunciado": "BIOMOLÉCULAS/04 PAU Proteinas.odt",
+   "criterios": "BIOMOLÉCULAS/04 PAU Proteinas.odt",
+   "preguntas": [
+    {
+     "ref": "pregunta 4",
+     "bloque": "Biomoléculas",
+     "tema": "α-queratina y moldeado del cabello",
+     "puntos": 1,
+     "q": "La α-queratina es una proteína presente en la piel de mamíferos y en sus derivados como uñas y pelos, siendo responsable en gran medida de los rizos naturales del cabello. Los «moldeados» son tratamientos capilares que modifican el aspecto natural del cabello haciendo desaparecer rizos naturales y provocando la aparición de otros supuestamente más estéticos. Explique razonadamente la probable actuación de los «moldeadores» sobre las α-queratinas capilares [1].",
+     "c": [
+      "Los moldeadores contienen sustancias que **destruyen algunos de los enlaces** establecidos naturalmente en la α-queratina y **provocan la aparición de otros** que modifican el aspecto del cabello. Se aceptan explicaciones basadas en **desnaturalización y renaturalización** (1 p). ((Sobre todo se rompen y se vuelven a formar, en otras posiciones, los puentes disulfuro entre cisteínas.))"
+     ],
+     "n": 1
+    },
+    {
+     "ref": "pregunta 1",
+     "bloque": "Biomoléculas",
+     "tema": "Funciones de las proteínas con ejemplos",
+     "puntos": 2,
+     "q": "Cite cuatro de las funciones más relevantes de las proteínas [0,4] y explique dos de ellas [1,2], ilustrando cada explicación con un ejemplo [0,4].",
+     "c": [
+      "Funciones: **catálisis**, **transporte**, **movimiento**, **contracción**, **reconocimiento celular**, **estructural**, **nutritiva**, etc. 0,1 p cada una (0,4 p).",
+      "Explicación correcta de cada función, 0,6 p (1,2 p). Cada ejemplo, 0,2 p (0,4 p). ((Por ejemplo: catalítica, las enzimas aceleran reacciones, como la amilasa que hidroliza el almidón; transporte, la hemoglobina lleva O₂ por la sangre.))"
+     ],
+     "n": 2
+    },
+    {
+     "ref": "pregunta 1",
+     "bloque": "Biomoléculas",
+     "tema": "Desnaturalización: enlaces afectados y factores",
+     "puntos": 2,
+     "q": "Explique en qué consiste la desnaturalización proteica [0,6]. Indique qué tipos de enlaces se conservan y cuáles se ven afectados [0,7]. ¿Qué factores provocan la desnaturalización? [0,7].",
+     "c": [
+      "Explicación (0,6 p). ((Pérdida de la estructura nativa, es decir, de las estructuras secundaria, terciaria y cuaternaria, con pérdida de la función biológica, sin romperse la primaria.))",
+      "**Enlaces peptídicos** (**no se alteran**); **disulfuro**, **hidrógeno** e **interacciones débiles** (**sí se alteran**) (0,7 p).",
+      "**Físicos** (temperatura, etc.); **químicos** (pH, sustancias, etc.) (0,7 p). ((En 2002 cayó esta misma pregunta valorada en 1,5 puntos.))"
+     ],
+     "n": 3
+    }
+   ]
+  },
+  {
+   "id": "enz",
+   "nombre": "Enzimas",
+   "enunciado": "BIOMOLÉCULAS/05 PAU Enzimas.odt",
+   "criterios": "BIOMOLÉCULAS/05 PAU Enzimas.odt",
+   "preguntas": [
+    {
+     "ref": "pregunta 6",
+     "bloque": "Biomoléculas",
+     "tema": "Efecto de la temperatura en dos enzimas",
+     "puntos": 2,
+     "q": "En relación con la figura adjunta, conteste las siguientes cuestiones:<br>a) ¿Qué representa la gráfica? [0,2]. Describa el comportamiento de ambos enzimas [0,8].<br>b) El enzima A cataliza la transformación del sustrato X en el producto Y. El enzima B cataliza la transformación de X en el producto Z. ¿Cuál de los dos productos se formará en mayor cantidad a 40 ºC? [0,5]. ¿Y a 70 ºC? [0,5]. Razone las respuestas.",
+     "c": [
+      "a) El **efecto de la temperatura sobre la actividad** de dos enzimas (0,2 p).",
+      "Ambos enzimas tienen prácticamente la **misma actividad a temperaturas bajas** (20 ºC). El enzima **A** tiene un **máximo de actividad a los 40 ºC** y va disminuyendo a partir de esa temperatura, mientras que el **B** aumenta su actividad con la temperatura y alcanza la **máxima por encima de los 70 ºC**; a esa temperatura el A **prácticamente no tiene actividad** (0,8 p).",
+      "b) A 40 ºC se formará en mayor cantidad **Y**, porque a esa temperatura la mayor actividad la presenta el **enzima A** (0,5 p).",
+      "A 70 ºC se formará en mayor cantidad **Z**, porque a esa temperatura la mayor actividad la presenta el **enzima B** (0,5 p)."
+     ],
+     "figura": "assets/figuras/historico/recopilaciones/enz2005-temperatura.webp",
+     "figuraDesc": "Gráfica de actividad enzimática (0-120) frente a temperatura (0-80 ºC): el enzima A (círculos blancos) sube hasta un máximo hacia 40-45 ºC y cae bruscamente; el enzima B (círculos negros) aumenta de forma continua hasta 70 ºC.",
+     "n": 1
+    }
+   ]
+  }
+ ]
+}

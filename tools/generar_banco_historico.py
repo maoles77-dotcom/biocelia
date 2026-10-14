@@ -110,7 +110,9 @@ def construir(anios):
             de_un_punto = {}
             for p in examen['preguntas']:
                 opcion = p.get('opcion', '')
-                ref_txt = ', '.join(x for x in (
+                # Las preguntas sacadas de recopilaciones no tienen examen ni
+                # número propios: su referencia se escribe aparte en «ref».
+                ref_txt = p.get('ref') or ', '.join(x for x in (
                     ex_nombre, (f'bloque {opcion}' if bloques else f'opción {opcion}') if opcion else '',
                     f"pregunta {p['n']}") if x)
                 validar(f'{a} {ref_txt}', p)
@@ -164,9 +166,12 @@ def construir(anios):
         if sueltas_anio:
             # Una sola suelta en todo el año: se une a la primera de 1 punto
             # de ese año para que no se pierda.
-            otra = next(q for q in entrenamiento
-                        if q['anio'] == a and q['puntos'] < 2
-                        and q['id'] != sueltas_anio[0]['id'])
+            # Si ese año no tiene otra, se busca en cualquier año, mejor
+            # del mismo bloque.
+            candidatas = [q for q in entrenamiento
+                          if q['puntos'] < 2 and q['id'] != sueltas_anio[0]['id']]
+            otra = next((q for q in candidatas if q['anio'] == a), None) or next(
+                (q for q in candidatas if q['block'] == sueltas_anio[0]['block']), candidatas[0])
             simulacro.append(unir(sueltas_anio[0], otra))
     return entrenamiento, simulacro
 

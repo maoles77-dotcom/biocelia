@@ -1,0 +1,135 @@
+{
+ "anio": 2007,
+ "curso": "2006-2007",
+ "carpeta": "PAU 2025/ACTIVIDADES POR TEMAS",
+ "etiqueta": "PAU 2007",
+ "documento": "PAU Andalucía 2007 (recopilación por temas)",
+ "origen_texto": "Pregunta de la PAU de Andalucía de 2007, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025",
+ "nota": "Preguntas de la PAU de Andalucía anteriores a 2010 que no estaban en el banco, tomadas de las recopilaciones por temas de PAU 2025/ACTIVIDADES POR TEMAS (que copian el enunciado y los criterios oficiales de cada año). No se conoce el examen concreto de cada pregunta: la referencia da su número en el examen. Palabras clave de los criterios entre ** y lo redactado por BioCelia entre (( )). Figuras recortadas de la recopilación a 200 ppp.",
+ "examenes": [
+  {
+   "id": "gm",
+   "nombre": "Genética molecular",
+   "enunciado": "GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+   "criterios": "GENÉTICA MOLECULAR/10 PAU Genética molecular.pdf",
+   "preguntas": [
+    {
+     "ref": "pregunta 3",
+     "bloque": "Genética",
+     "tema": "Replicación, transcripción y traducción; dibujo del inicio",
+     "puntos": 2,
+     "q": "Explique cuál es la finalidad de la replicación y de la transcripción [0,5]. Explique la traducción [1]. Dibuje el inicio de la traducción [0,5].",
+     "c": [
+      "Replicación: **duplicación del material genético**; transcripción: **síntesis de los diferentes ARN**. 0,25 p cada una (0,5 p).",
+      "Traducción: se indicará cómo se **inicia**, cómo se **elonga** y cómo **termina** la síntesis de la proteína. Para la máxima puntuación deberá mencionarse: **unión del ARNm al ribosoma**, **ARNt**, **enlace peptídico** y **polipéptido** (1 p).",
+      "Dibujo: deberán quedar representadas las **subunidades ribosómicas** sobre una **señal de inicio** en el ARNm y con la **metionina** en su correspondiente **ARNt en el lugar P** (0,5 p)."
+     ],
+     "n": 1
+    },
+    {
+     "ref": "pregunta 5",
+     "bloque": "Genética",
+     "tema": "Código de dipletes frente a tripletes",
+     "puntos": 1,
+     "q": "¿Podrían los 20 aminoácidos estar codificados por un código genético constituido por dipletes de las cuatro bases nitrogenadas? Razone la respuesta [1].",
+     "c": [
+      "**No**, porque solo se podrían formar **16 dipletes** diferentes (4² = 16) y hacen falta **al menos 20** para codificar los 20 aminoácidos de las proteínas (1 p). ((Con tripletes hay 4³ = 64 combinaciones, más que suficientes.))"
+     ],
+     "n": 2
+    },
+    {
+     "ref": "pregunta 4",
+     "bloque": "Genética",
+     "tema": "Secuencia del ADN y fenotipo",
+     "puntos": 1,
+     "q": "Explique razonadamente por qué el orden de los nucleótidos en el ADN determina los caracteres del fenotipo de los organismos [1].",
+     "c": [
+      "La **secuencia de nucleótidos** del ADN determina la **secuencia de aminoácidos** de las **proteínas** y, por tanto, el **fenotipo** del organismo (1 p). ((Pregunta muy parecida en 2003: «…como son el tipo de pelo, color de los ojos, etc.», con el mismo criterio.))"
+     ],
+     "n": 3
+    },
+    {
+     "ref": "pregunta 5",
+     "bloque": "Genética",
+     "tema": "Replicación, herencia y meiosis",
+     "puntos": 1,
+     "q": "¿Qué relación existe entre la replicación del ADN, la herencia biológica y la meiosis? Razone la respuesta [1].",
+     "c": [
+      "La **herencia biológica** es la **transmisión de caracteres** de una generación a otra. Para ello es necesario obtener una **copia del ADN** mediante la **replicación**, y la **meiosis** es la división celular que permite la **transmisión del ADN a la descendencia** en los organismos con **reproducción sexual** (1 p)."
+     ],
+     "n": 4
+    }
+   ]
+  },
+  {
+   "id": "prot",
+   "nombre": "Proteínas",
+   "enunciado": "BIOMOLÉCULAS/04 PAU Proteinas.odt",
+   "criterios": "BIOMOLÉCULAS/04 PAU Proteinas.odt",
+   "preguntas": [
+    {
+     "ref": "pregunta 1",
+     "bloque": "Biomoléculas",
+     "tema": "Estructura primaria, desnaturalización y orgánulos de síntesis",
+     "puntos": 2,
+     "q": "Defina la estructura primaria de las proteínas, indique qué tipo de enlace la caracteriza y nombre los grupos químicos que participan en el mismo [0,9]. Explique qué se entiende por desnaturalización de una proteína [0,5] y nombre los orgánulos que están implicados en su síntesis y empaquetamiento [0,6].",
+     "c": [
+      "Definición: **secuencia lineal** de aminoácidos unidos en un determinado orden. Enlace: **peptídico**. Grupos: **carboxilo** de un aminoácido y **amino** del otro (0,9 p).",
+      "Desnaturalización: **pérdida de las estructuras secundaria, terciaria y cuaternaria**, que **puede o no ser reversible** (0,5 p).",
+      "Síntesis: **ribosomas** y **retículo endoplasmático**; empaquetamiento: **complejo de Golgi**. 0,2 p cada orgánulo (0,6 p)."
+     ],
+     "n": 1
+    },
+    {
+     "ref": "pregunta 4",
+     "bloque": "Biomoléculas",
+     "tema": "Poder nutritivo de una proteína desnaturalizada",
+     "puntos": 1,
+     "q": "¿Conserva su poder nutritivo una proteína desnaturalizada? Razone la respuesta [1].",
+     "c": [
+      "**Sí.** El poder nutritivo de las proteínas radica en que son **fuente de aminoácidos**; la desnaturalización **no afecta a la estructura primaria** ni a los aminoácidos y por tanto **no afecta al poder nutritivo** (1 p)."
+     ],
+     "n": 2
+    }
+   ]
+  },
+  {
+   "id": "mic",
+   "nombre": "Microbiología",
+   "enunciado": "INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
+   "criterios": "INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
+   "preguntas": [
+    {
+     "ref": "pregunta 1",
+     "bloque": "Microbiología",
+     "tema": "Virus con envoltura: estructuras y enfermedades",
+     "puntos": 2,
+     "q": "A la vista de la siguiente figura, que representa un tipo de microorganismo que provoca diversas enfermedades, conteste las siguientes preguntas:<br>a) ¿De qué tipo de microorganismo se trata? [0,2]. Nombre las estructuras señaladas con las letras [0,4]. Indique dos características que sean específicas de este tipo de microorganismo [0,4].<br>b) Indique la función de la estructura señalada con la letra A [0,2], y la composición química y la función de las estructuras señaladas con las letras C y D [0,6]. Cite dos ejemplos de enfermedades producidas por este tipo de microorganismo [0,2].",
+     "c": [
+      "a) Un **virus** (0,2 p).",
+      "A: **glucoproteína**; B: **envoltura**; C: **cápsida**; D: **ácido nucleico**. 0,1 p cada una (0,4 p).",
+      "**Carecen de organización celular**, **no tienen metabolismo propio**, deben **aprovechar los recursos de la célula hospedadora** para replicarse, etc. Solo dos, 0,2 p cada una (0,4 p).",
+      "b) A: participa en la **fijación del virus a la célula** (0,2 p).",
+      "C: **proteica**, **protege al ácido nucleico** (0,3 p). D: **ARN o ADN**, **lleva la información genética** (0,3 p).",
+      "**Gripe**, **sarampión**, **sida**, etc. (0,2 p)."
+     ],
+     "figura": "assets/figuras/historico/recopilaciones/mic2007-virus.webp",
+     "figuraDesc": "Virus con envoltura: una cápsida icosaédrica (C) con el ácido nucleico (D) en su interior, rodeada por una envoltura (B) de la que sobresalen espículas (A).",
+     "n": 1
+    },
+    {
+     "ref": "pregunta 4",
+     "bloque": "Microbiología",
+     "tema": "Cuándo se recetan antibióticos y resistencias",
+     "puntos": 1,
+     "q": "¿Por qué en el tratamiento de enfermedades producidas por microorganismos los médicos recetan en unos casos antibióticos y en otros no? [0,5]. ¿Qué problemas causa el uso indiscriminado de los antibióticos en la lucha contra los microorganismos? [0,5]. Razone las respuestas.",
+     "c": [
+      "Porque los antibióticos **eliminan bacterias y no virus**: se recetan cuando la enfermedad es **bacteriana** (0,5 p).",
+      "Pueden **seleccionar bacterias resistentes** a su acción, y los antibióticos dejan de ser eficaces (0,5 p)."
+     ],
+     "n": 2
+    }
+   ]
+  }
+ ]
+}
