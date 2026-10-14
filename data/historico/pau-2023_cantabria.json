@@ -1,0 +1,178 @@
+{
+ "anio": 2023,
+ "curso": "2022-2023",
+ "carpeta": "EXÁMENES DE OTRAS COMUNIDADES 2025",
+ "nota": "Examen de la EBAU de Cantabria (extraordinaria, julio de 2023), incluido en la carpeta de exámenes de otras comunidades. Enunciados literales; la solución, redactada por BioCelia, va entre (( )). Figuras recortadas del PDF a 200 ppp.",
+ "examenes": [
+  {
+   "id": "cantabria-ext",
+   "nombre": "Cantabria, convocatoria extraordinaria (julio)",
+   "etiqueta": "EBAU 2023 Cantabria (julio)",
+   "documento": "EBAU 2023 Cantabria, convocatoria extraordinaria (Universidad de Cantabria)",
+   "origen_texto": "Pregunta oficial de la EBAU de julio de 2023 de Cantabria (14 preguntas de 1,25 puntos, de las que se eligen 8)",
+   "tip": "Solución redactada por BioCelia (en morado): el examen de la carpeta no trae criterios de corrección.",
+   "puntos": 1.25,
+   "enunciado": "Examen Biología de Cantabria (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+   "preguntas": [
+    {
+     "n": 1,
+     "bloque": "Biomoléculas",
+     "tema": "Inhibición competitiva y no competitiva; Vmax y Km",
+     "q": "Defina inhibición competitiva y no competitiva. Dibuje una enzima llevando a cabo su reacción, y la misma reacción en presencia de un inhibidor competitivo, y de un inhibidor no competitivo (3 imágenes). Señale en la figura 1 cuál de estas tres reacciones corresponde con cada una de las opciones, y razónelo en función de la Vmax y la Km.",
+     "c": [
+      "((Inhibición competitiva: el inhibidor, parecido al sustrato, compite con él por el centro activo; se supera aumentando la concentración de sustrato. Inhibición no competitiva: el inhibidor se une a la enzima en otro lugar distinto del centro activo y cambia su forma, de modo que la enzima no puede actuar aunque haya mucho sustrato.))",
+      "((Dibujos: 1) enzima con el sustrato encajado en el centro activo, que se transforma en productos; 2) el inhibidor competitivo ocupa el centro activo e impide la entrada del sustrato; 3) el inhibidor no competitivo se une a otra zona y deforma el centro activo.))",
+      "((Figura 1: A, reacción sin inhibidor (Vmax y Km normales). B, con inhibidor competitivo: alcanza la misma Vmax, pero a concentraciones de sustrato más altas, porque la Km aumenta (disminuye la afinidad aparente). C, con inhibidor no competitivo: la Vmax disminuye, porque parte de la enzima queda inutilizada, y la Km no cambia. En el eje X de la figura debería poner concentración de sustrato, no de producto.))"
+     ],
+     "figura": "assets/figuras/historico/2023-cantabria/cantabria-2023-1.webp",
+     "figuraDesc": "Figura 1: velocidad de la reacción frente a la concentración (el eje dice «de producto»), con Vmax y Km marcadas. La curva A sube rápido hasta Vmax; B sube más despacio pero llega a la misma Vmax; C se estabiliza en una velocidad máxima mucho menor."
+    },
+    {
+     "n": 2,
+     "bloque": "Biomoléculas",
+     "tema": "Lípidos: propiedades, funciones, saponificación y esterificación",
+     "q": "Los lípidos: cite las propiedades físicas que permiten agruparlos en un mismo grupo, así como tres funciones que desarrollan en los seres vivos. Defina el concepto de saponificación, y dibuje en un mismo esquema tanto la reacción de saponificación como su inversa (que deberá nombrar), señalando y nombrando los grupos que participan en ella.",
+     "c": [
+      "((Son un grupo heterogéneo que se agrupa por sus propiedades físicas: son insolubles (o poco solubles) en agua y solubles en disolventes orgánicos apolares (éter, cloroformo, benceno); tienen brillo graso y son untuosos al tacto. Funciones: energética de reserva (triacilglicéridos), estructural (fosfolípidos y colesterol de las membranas), reguladora u hormonal (hormonas esteroideas), vitamínica (A, D, E, K), aislante térmico y protectora.))",
+      "((Saponificación: hidrólisis alcalina de un éster (de los ácidos grasos con la glicerina en un triacilglicérido) con una base fuerte (NaOH o KOH), en la que se forman sales de ácidos grasos (jabones) y glicerina.))",
+      "((Esquema: ácido graso (grupo carboxilo, R–COOH) + alcohol (grupo hidroxilo, HO–R') ⇄ éster (R–CO–O–R') + H₂O. Hacia la derecha es la esterificación, la reacción inversa (condensación); hacia la izquierda, la hidrólisis del éster; con una base (R–CO–O–R' + NaOH → R–COO⁻Na⁺ + HO–R') es la saponificación.))"
+     ]
+    },
+    {
+     "n": 3,
+     "bloque": "Biomoléculas",
+     "tema": "Nucleótidos: componentes, bases, enlaces N-glucosídico y fosfoéster",
+     "q": "¿A qué grupo de biomoléculas pertenecen las dos representadas en la figura 2? ¿Qué macromolécula resulta de la polimerización de cada una de estas moléculas? Indique el nombre de los componentes señalados con las letras A, B, C y D, y cite los cuatro compuestos posibles que pueden ocupar la posición B. Especifique el tipo de enlace bioquímico que aparece entre los componentes B y C y entre A y C, y dibuje las reacciones de formación de: a) el enlace entre B y C; b) el enlace entre A y C.",
+     "c": [
+      "((Son nucleótidos (de adenina): 1, un ribonucleótido (adenosín monofosfato, AMP), y 2, un desoxirribonucleótido (desoxiadenosín monofosfato, dAMP). Al polimerizarse, los ribonucleótidos forman ARN y los desoxirribonucleótidos, ADN.))",
+      "((A, ácido fosfórico (grupo fosfato); B, base nitrogenada (adenina); C, pentosa ribosa; D, pentosa desoxirribosa (sin –OH en el carbono 2'). En la posición B de un ribonucleótido pueden estar adenina, guanina, citosina y uracilo.))",
+      "((Entre B y C, enlace N-glucosídico; entre A y C, enlace éster (fosfoéster).))",
+      "((a) El –OH del carbono 1' de la pentosa reacciona con un –NH de la base (N9 en las púricas, N1 en las pirimidínicas): pentosa–OH + H–N–base → pentosa–N–base + H₂O (se forma un nucleósido). b) El –OH del carbono 5' de la pentosa reacciona con el ácido fosfórico: nucleósido–CH₂–OH + HO–PO₃H₂ → nucleósido–CH₂–O–PO₃H₂ + H₂O (se forma el nucleótido).))"
+     ],
+     "figura": "assets/figuras/historico/2023-cantabria/cantabria-2023-2.webp",
+     "figuraDesc": "Figura 2: dos moléculas con una base de dos anillos con NH₂, una pentosa y un fosfato. En la 1, A rodea el fosfato, B la base, y C señala la pentosa, que tiene –OH en los carbonos 2' y 3'; la 2 es igual pero su pentosa (D) solo tiene –OH en el carbono 3'."
+    },
+    {
+     "n": 4,
+     "bloque": "Microbiología",
+     "tema": "Ciclos lítico y lisogénico de un virus",
+     "q": "Haga un dibujo y explique brevemente los ciclos lítico y lisogénico de un virus, detallando qué proceso tiene lugar en cada paso.",
+     "c": [
+      "((Ciclo lítico (por ejemplo, de un bacteriófago): 1) fijación o adsorción: el virus se une a receptores de la superficie de la célula; 2) penetración: inyecta su ácido nucleico (la cápsida queda fuera); 3) eclipse, replicación y síntesis: el ácido nucleico vírico toma el control de la célula, que replica el genoma vírico y sintetiza las proteínas de la cápsida; 4) ensamblaje: se forman nuevos viriones; 5) liberación: la célula se rompe (lisis) y salen los virus, que infectan otras células.))",
+      "((Ciclo lisogénico: tras la penetración, el ADN vírico se integra en el cromosoma bacteriano (profago) y se replica con él en cada división, sin dañar a la célula (bacteria lisogénica). Ante ciertos estímulos (radiación UV, sustancias químicas) el profago se separa (inducción) y empieza un ciclo lítico.))"
+     ]
+    },
+    {
+     "n": 5,
+     "bloque": "Biotecnología",
+     "tema": "Insulina humana producida por bacterias: universalidad del código genético",
+     "q": "La insulina es una hormona producida en el páncreas que controla el metabolismo de la glucosa. Su déficit o ausencia provoca la diabetes. Actualmente la industria farmacéutica produce insulina humana a partir de un cultivo bacteriano. Razone cómo es esto posible siendo dos organismos (el ser humano y la bacteria) tan diferentes.",
+     "c": [
+      "((Mediante ingeniería genética (ADN recombinante): el gen humano de la insulina (su ADNc, sin intrones, obtenido del ARNm con la transcriptasa inversa, ya que las bacterias no pueden eliminar intrones) se corta con enzimas de restricción y se une con la ADN ligasa a un plásmido, que se introduce en bacterias como E. coli. Las bacterias transformadas se multiplican y fabrican insulina humana.))",
+      "((Es posible porque el código genético es universal: el mismo codón codifica el mismo aminoácido en el ser humano y en la bacteria, y ambos usan los mismos mecanismos básicos de transcripción y traducción. Por eso la bacteria lee el gen humano y sintetiza la misma proteína.))"
+     ],
+     "competencial": true
+    },
+    {
+     "n": 6,
+     "bloque": "Microbiología",
+     "tema": "Elaboración del pan: hidrólisis del almidón y fermentación alcohólica",
+     "q": "Explique la transformación de los diversos carbohidratos durante la elaboración del pan, los microorganismos responsables, y el tipo de fermentación que tiene lugar, indicando los productos finales del proceso.",
+     "c": [
+      "((El almidón de la harina se hidroliza por las amilasas (de la propia harina) a maltosa, y la maltosa, por la maltasa de las levaduras, a glucosa. Las levaduras (Saccharomyces cerevisiae) fermentan la glucosa por fermentación alcohólica: C₆H₁₂O₆ → 2 CH₃–CH₂OH + 2 CO₂. El CO₂ queda atrapado en la masa (en la red de gluten) y la hace subir (esponjosa); el etanol se evapora durante la cocción.))"
+     ]
+    },
+    {
+     "n": 7,
+     "bloque": "Inmunología",
+     "tema": "Vacunas y sueros; inmunización activa y pasiva",
+     "q": "¿Qué es una vacuna? Mencione y describa dos formas de inmunización diferentes. ¿Qué es un suero inmune? Compare una vacuna con un suero inmune, mencionando al menos una ventaja de cada uno frente al otro.",
+     "c": [
+      "((Una vacuna es un preparado de antígenos (microorganismos muertos o atenuados, toxoides, fragmentos o ARNm que codifica un antígeno) que provoca una respuesta inmunitaria primaria, sin causar la enfermedad, y genera memoria.))",
+      "((Formas de inmunización: activa, cuando el propio organismo produce anticuerpos y células de memoria (natural, al pasar la infección; artificial, con vacunas); pasiva, cuando recibe anticuerpos ya formados (natural, de la madre por la placenta o la leche; artificial, con sueros).))",
+      "((Un suero inmune contiene anticuerpos específicos ya elaborados, obtenidos de otra persona o de un animal inmunizado.))",
+      "((Comparación: la vacuna es preventiva, da inmunidad activa, tarda en actuar (días o semanas) y es duradera (memoria): esa es su ventaja. El suero es curativo o de urgencia, da inmunidad pasiva inmediata (su ventaja), pero dura poco y no deja memoria.))"
+     ]
+    },
+    {
+     "n": 8,
+     "bloque": "Inmunología",
+     "tema": "Respuesta primaria y secundaria; células de memoria",
+     "q": "Explique en qué consiste la respuesta inmune primaria y secundaria frente a un antígeno. ¿Qué células son las responsables de la respuesta secundaria? Dibuje una gráfica que ilustre este fenómeno, en la que se represente la concentración de anticuerpos específicos frente al tiempo, señalando los momentos de exposición al antígeno.",
+     "c": [
+      "((Respuesta primaria: tras el primer contacto con el antígeno, hay un periodo de latencia de varios días en el que se seleccionan y proliferan los linfocitos específicos; se producen pocos anticuerpos (sobre todo IgM) y durante poco tiempo, y se forman células de memoria. Respuesta secundaria: en un segundo contacto con el mismo antígeno, la respuesta es más rápida, más intensa (muchos más anticuerpos, sobre todo IgG) y más duradera.))",
+      "((Responsables: los linfocitos B y T de memoria generados en la respuesta primaria.))",
+      "((Gráfica: concentración de anticuerpos (eje Y) frente al tiempo (eje X), con una flecha en la primera exposición, seguida de una curva baja y tardía, y otra flecha en la segunda exposición, seguida de una curva que sube enseguida y mucho más alto.))"
+     ]
+    },
+    {
+     "n": 9,
+     "bloque": "Célula",
+     "tema": "Localización de procesos en la célula eucariota",
+     "q": "Indique dónde se localizan las siguientes funciones o procesos en una célula eucariótica:<br>a) síntesis de proteínas; b) glucólisis; c) ciclo de Krebs; d) ciclo de Calvin; e) transformación de energía luminosa en energía química; f) cadena respiratoria; g) oxidación de los ácidos grasos.",
+     "c": [
+      "((a) En los ribosomas (libres en el citosol o unidos al retículo endoplasmático rugoso; también en mitocondrias y cloroplastos). b) En el citosol. c) En la matriz mitocondrial. d) En el estroma del cloroplasto. e) En la membrana de los tilacoides de los cloroplastos (fase luminosa). f) En la membrana mitocondrial interna (crestas). g) En la matriz mitocondrial (β-oxidación), y también en los peroxisomas.))"
+     ]
+    },
+    {
+     "n": 10,
+     "bloque": "Célula",
+     "tema": "Célula animal: identificación de orgánulos y funciones",
+     "q": "¿Qué tipo de célula se representa en la figura 3? Razone su respuesta, y nombre los componentes señalados en la misma, así como una función de cada uno de ellos.",
+     "c": [
+      "((Es una célula eucariota animal: tiene núcleo y orgánulos membranosos, centrosoma con centriolos y lisosomas, y no tiene pared celular ni cloroplastos.))",
+      "((Componentes (de arriba abajo; los rótulos no llevan número): núcleo, que contiene el ADN y dirige la actividad celular; nucléolo, síntesis del ARNr y montaje de las subunidades de los ribosomas; retículo endoplasmático rugoso, síntesis de proteínas de membrana y de secreción; retículo endoplasmático liso, síntesis de lípidos y detoxificación; aparato de Golgi, modificación, empaquetado y secreción de sustancias; mitocondria, respiración celular y obtención de ATP; vacuola, almacén de sustancias; centrosoma (centriolos), organiza los microtúbulos y el huso acromático; citoesqueleto, forma, movimiento y transporte intracelular; membrana plasmática, límite celular y transporte selectivo.))"
+     ],
+     "figura": "assets/figuras/historico/2023-cantabria/cantabria-2023-3.webp",
+     "figuraDesc": "Figura 3: célula redonda con un núcleo grande, con nucléolo, rodeado de cisternas con gránulos; a su lado, sacos aplanados apilados, mitocondrias, vesículas con gránulos, una vacuola, un centrosoma con fibras radiales y filamentos finos. Diez líneas de rótulo sin texto señalan los componentes."
+    },
+    {
+     "n": 11,
+     "bloque": "Célula",
+     "tema": "Mitosis y meiosis: diferencias, importancia y anafases",
+     "q": "Señale tres diferencias entre mitosis y meiosis. Respecto a esta última, explique por qué es importante para la reproducción sexual y la variabilidad de las especies. Por último, describa la diferencia fundamental entre anafase I y anafase II de la meiosis.",
+     "c": [
+      "((Diferencias: la mitosis tiene una división y la meiosis dos; la mitosis da dos células hijas y la meiosis cuatro; en la mitosis las hijas son diploides (2n) y genéticamente iguales a la madre, y en la meiosis son haploides (n) y distintas; en la meiosis hay apareamiento de homólogos y sobrecruzamiento, que no se dan en la mitosis; la mitosis ocurre en células somáticas y la meiosis en las germinales.))",
+      "((Importancia: la meiosis reduce a la mitad el número de cromosomas de los gametos, así que en la fecundación se recupera la dotación diploide de la especie y se mantiene constante de generación en generación. Además, genera variabilidad por el sobrecruzamiento (recombinación) en la profase I y por la segregación al azar de los cromosomas homólogos en la anafase I.))",
+      "((En la anafase I se separan los cromosomas homólogos (cada uno con sus dos cromátidas) hacia polos opuestos; en la anafase II se separan las cromátidas hermanas.))"
+     ]
+    },
+    {
+     "n": 12,
+     "bloque": "Genética",
+     "tema": "Transcripción, traducción y mutaciones silenciosas",
+     "q": "Escriba la secuencia de la molécula de ARNm que resulta de la transcripción del siguiente fragmento de ADN, 5'-ATGAACAGGCCATGA-3', y la secuencia de aminoácidos resultante de la traducción de dicho ARNm. Use la información de la figura 4.<br>¿Cuántas mutaciones silenciosas podrían producirse en ese fragmento de ADN?",
+     "c": [
+      "((El fragmento empieza por ATG y termina por TGA, así que corresponde a la hebra codificante: el ARNm tiene la misma secuencia con U: 5'-AUG AAC AGG CCA UGA-3', que se traduce como Met-Asn-Arg-Pro (UGA es codón de parada). Si se tomara el fragmento como hebra molde, el ARNm sería el complementario y antiparalelo: 5'-UCAUGGCCUGUUCAU-3'.))",
+      "((Una mutación silenciosa cambia una base sin cambiar el aminoácido. Con sustituciones de una sola base, según la tabla: AUG (Met), ninguna; AAC (Asn), 1 (AAU); AGG (Arg), 2 (AGA y CGG); CCA (Pro), 3 (CCU, CCC y CCG). En total, 6; habría una más si se cuenta UGA → UAA, que sigue siendo de parada.))"
+     ],
+     "figura": "assets/figuras/historico/2023-cantabria/cantabria-2023-4.webp",
+     "figuraDesc": "Figura 4: tabla del código genético con los 64 codones del ARNm ordenados por primera, segunda y tercera base y el aminoácido de cada uno."
+    },
+    {
+     "n": 13,
+     "bloque": "Genética",
+     "tema": "Árbol genealógico: herencia autosómica dominante",
+     "q": "En la figura 5 aparece el árbol genealógico de una familia, muchos de cuyos miembros presentan un lunar característico. La presencia de este carácter se indica en color negro, y está determinado por un solo gen. Indique si el alelo que determina la presencia del lunar es dominante o recesivo. Razone la respuesta detallando posibles genotipos de todos los individuos. ¿Podría tratarse de un gen ligado al sexo? Razone la respuesta.",
+     "c": [
+      "((Es dominante: I-3 e I-4 tienen el lunar y tienen hijos sin él (II-6 y II-7); lo mismo ocurre con II-3 y II-4 (III-3 y III-4). Si fuera recesivo, dos padres con el lunar solo podrían tener hijos con lunar.))",
+      "((Con L (lunar) y l (sin lunar): I-1 ll; I-2 Ll (tiene una hija sin lunar, II-2); I-3 Ll e I-4 Ll; II-1 Ll; II-2 ll; II-3 Ll; II-4 Ll (tiene hijos sin lunar); II-5 LL o Ll; II-6 ll; II-7 ll; III-1 y III-2 LL o Ll; III-3 y III-4 ll.))",
+      "((No está ligado al sexo. Si fuera dominante ligado al X, un padre con el lunar lo transmitiría a todas sus hijas, pero I-2 tiene una hija sin lunar (II-2) e I-4 también (II-7). Tampoco puede estar ligado al Y, porque lo tienen mujeres. Es autosómico.))"
+     ],
+     "figura": "assets/figuras/historico/2023-cantabria/cantabria-2023-5.webp",
+     "figuraDesc": "Figura 5: árbol de tres generaciones (cuadrados, hombres; círculos, mujeres; negro, con lunar). I: mujer 1 sin lunar con hombre 2 con lunar; mujer 3 con lunar con hombre 4 con lunar. II: hijos de I-1 y I-2: 1 mujer con lunar, 2 mujer sin lunar, 3 hombre con lunar; hijos de I-3 y I-4: 4 mujer con lunar, 5 hombre con lunar, 6 hombre sin lunar, 7 mujer sin lunar. II-3 y II-4 tienen a III-1 (mujer con lunar), III-2 (hombre con lunar), III-3 (hombre sin lunar) y III-4 (mujer sin lunar)."
+    },
+    {
+     "n": 14,
+     "bloque": "Genética",
+     "tema": "Replicación del ADN: proteínas y funciones",
+     "q": "Haga un esquema de la replicación del ADN, señalando las diversas proteínas que intervienen en la misma y especificando su función.",
+     "c": [
+      "((El esquema debe mostrar una horquilla de replicación con la hebra conductora (continua) y la retardada (fragmentos de Okazaki), cada hebra nueva antiparalela a su molde y creciendo en sentido 5'→3'.))",
+      "((Proteínas: helicasa, rompe los puentes de hidrógeno y separa las hebras; topoisomerasas (girasa), eliminan las tensiones del superenrollamiento; proteínas SSB, mantienen separadas las hebras sencillas; primasa, sintetiza los cebadores de ARN; ADN polimerasa III (en procariotas), alarga las cadenas añadiendo nucleótidos complementarios en sentido 5'→3' a partir del cebador y corrige errores; ADN polimerasa I, retira los cebadores y rellena los huecos con ADN; ADN ligasa, une los fragmentos de Okazaki.))"
+     ]
+    }
+   ]
+  }
+ ]
+}

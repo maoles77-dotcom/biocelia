@@ -1,7 +1,7 @@
 /* ══════════════════════════════════════════════════════════════
-   Generado por tools/generar_banco_historico.py el 2026-10-08.
+   Generado por tools/generar_banco_historico.py el 2026-10-14.
    NO editar a mano: se regenera desde data/historico/pau-*.json.
-   1276 preguntas para Entrenamiento y 983 para Simulacro,
+   1367 preguntas para Entrenamiento y 1047 para Simulacro,
    de exámenes PAU oficiales con sus criterios de corrección.
    ══════════════════════════════════════════════════════════════ */
 window.BIOCELIA_HISTORICO = {
@@ -27018,6 +27018,378 @@ window.BIOCELIA_HISTORICO = {
    "f": "Pregunta oficial de la PAU de Andalucía 2022-2023 (Titular de julio, bloque C, pregunta 5, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
   },
   {
+   "id": "pau2023-cantabria-ext-1",
+   "block": "Biomoléculas",
+   "topic": "Inhibición competitiva y no competitiva; Vmax y Km",
+   "anio": 2023,
+   "etiqueta": "EBAU 2023 Cantabria (julio)",
+   "hasImg": true,
+   "puntos": 1.25,
+   "competencial": true,
+   "q": "Defina inhibición competitiva y no competitiva. Dibuje una enzima llevando a cabo su reacción, y la misma reacción en presencia de un inhibidor competitivo, y de un inhibidor no competitivo (3 imágenes). Señale en la figura 1 cuál de estas tres reacciones corresponde con cada una de las opciones, y razónelo en función de la Vmax y la Km.",
+   "c": [
+    "<span class=\"redactado\">Inhibición competitiva: el inhibidor, parecido al sustrato, compite con él por el centro activo; se supera aumentando la concentración de sustrato. Inhibición no competitiva: el inhibidor se une a la enzima en otro lugar distinto del centro activo y cambia su forma, de modo que la enzima no puede actuar aunque haya mucho sustrato.</span>",
+    "<span class=\"redactado\">Dibujos: 1) enzima con el sustrato encajado en el centro activo, que se transforma en productos; 2) el inhibidor competitivo ocupa el centro activo e impide la entrada del sustrato; 3) el inhibidor no competitivo se une a otra zona y deforma el centro activo.</span>",
+    "<span class=\"redactado\">Figura 1: A, reacción sin inhibidor (Vmax y Km normales). B, con inhibidor competitivo: alcanza la misma Vmax, pero a concentraciones de sustrato más altas, porque la Km aumenta (disminuye la afinidad aparente). C, con inhibidor no competitivo: la Vmax disminuye, porque parte de la enzima queda inutilizada, y la Km no cambia. En el eje X de la figura debería poner concentración de sustrato, no de producto.</span>"
+   ],
+   "origen": {
+    "documento": "EBAU 2023 Cantabria, convocatoria extraordinaria (Universidad de Cantabria) · Cantabria, convocatoria extraordinaria (julio)",
+    "referencia": "Cantabria, convocatoria extraordinaria (julio), pregunta 1",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Cantabria (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2023-cantabria/cantabria-2023-1.webp",
+   "imgThumb": "assets/figuras/historico/2023-cantabria/cantabria-2023-1.thumb.webp",
+   "imageDesc": "Figura 1: velocidad de la reacción frente a la concentración (el eje dice «de producto»), con Vmax y Km marcadas. La curva A sube rápido hasta Vmax; B sube más despacio pero llega a la misma Vmax; C se estabiliza en una velocidad máxima mucho menor.",
+   "isNew": false,
+   "f": "Pregunta oficial de la EBAU de julio de 2023 de Cantabria (14 preguntas de 1,25 puntos, de las que se eligen 8) (Cantabria, convocatoria extraordinaria (julio), pregunta 1, 1,25 puntos). Solución redactada por BioCelia (en morado): el examen de la carpeta no trae criterios de corrección."
+  },
+  {
+   "id": "pau2023-cantabria-ext-2",
+   "block": "Biomoléculas",
+   "topic": "Lípidos: propiedades, funciones, saponificación y esterificación",
+   "anio": 2023,
+   "etiqueta": "EBAU 2023 Cantabria (julio)",
+   "hasImg": false,
+   "puntos": 1.25,
+   "competencial": false,
+   "q": "Los lípidos: cite las propiedades físicas que permiten agruparlos en un mismo grupo, así como tres funciones que desarrollan en los seres vivos. Defina el concepto de saponificación, y dibuje en un mismo esquema tanto la reacción de saponificación como su inversa (que deberá nombrar), señalando y nombrando los grupos que participan en ella.",
+   "c": [
+    "<span class=\"redactado\">Son un grupo heterogéneo que se agrupa por sus propiedades físicas: son insolubles (o poco solubles) en agua y solubles en disolventes orgánicos apolares (éter, cloroformo, benceno); tienen brillo graso y son untuosos al tacto. Funciones: energética de reserva (triacilglicéridos), estructural (fosfolípidos y colesterol de las membranas), reguladora u hormonal (hormonas esteroideas), vitamínica (A, D, E, K), aislante térmico y protectora.</span>",
+    "<span class=\"redactado\">Saponificación: hidrólisis alcalina de un éster (de los ácidos grasos con la glicerina en un triacilglicérido) con una base fuerte (NaOH o KOH), en la que se forman sales de ácidos grasos (jabones) y glicerina.</span>",
+    "<span class=\"redactado\">Esquema: ácido graso (grupo carboxilo, R–COOH) + alcohol (grupo hidroxilo, HO–R') ⇄ éster (R–CO–O–R') + H₂O. Hacia la derecha es la esterificación, la reacción inversa (condensación); hacia la izquierda, la hidrólisis del éster; con una base (R–CO–O–R' + NaOH → R–COO⁻Na⁺ + HO–R') es la saponificación.</span>"
+   ],
+   "origen": {
+    "documento": "EBAU 2023 Cantabria, convocatoria extraordinaria (Universidad de Cantabria) · Cantabria, convocatoria extraordinaria (julio)",
+    "referencia": "Cantabria, convocatoria extraordinaria (julio), pregunta 2",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Cantabria (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta oficial de la EBAU de julio de 2023 de Cantabria (14 preguntas de 1,25 puntos, de las que se eligen 8) (Cantabria, convocatoria extraordinaria (julio), pregunta 2, 1,25 puntos). Solución redactada por BioCelia (en morado): el examen de la carpeta no trae criterios de corrección."
+  },
+  {
+   "id": "pau2023-cantabria-ext-3",
+   "block": "Biomoléculas",
+   "topic": "Nucleótidos: componentes, bases, enlaces N-glucosídico y fosfoéster",
+   "anio": 2023,
+   "etiqueta": "EBAU 2023 Cantabria (julio)",
+   "hasImg": true,
+   "puntos": 1.25,
+   "competencial": true,
+   "q": "¿A qué grupo de biomoléculas pertenecen las dos representadas en la figura 2? ¿Qué macromolécula resulta de la polimerización de cada una de estas moléculas? Indique el nombre de los componentes señalados con las letras A, B, C y D, y cite los cuatro compuestos posibles que pueden ocupar la posición B. Especifique el tipo de enlace bioquímico que aparece entre los componentes B y C y entre A y C, y dibuje las reacciones de formación de: a) el enlace entre B y C; b) el enlace entre A y C.",
+   "c": [
+    "<span class=\"redactado\">Son nucleótidos (de adenina): 1, un ribonucleótido (adenosín monofosfato, AMP), y 2, un desoxirribonucleótido (desoxiadenosín monofosfato, dAMP). Al polimerizarse, los ribonucleótidos forman ARN y los desoxirribonucleótidos, ADN.</span>",
+    "<span class=\"redactado\">A, ácido fosfórico (grupo fosfato); B, base nitrogenada (adenina); C, pentosa ribosa; D, pentosa desoxirribosa (sin –OH en el carbono 2'). En la posición B de un ribonucleótido pueden estar adenina, guanina, citosina y uracilo.</span>",
+    "<span class=\"redactado\">Entre B y C, enlace N-glucosídico; entre A y C, enlace éster (fosfoéster).</span>",
+    "<span class=\"redactado\">a) El –OH del carbono 1' de la pentosa reacciona con un –NH de la base (N9 en las púricas, N1 en las pirimidínicas): pentosa–OH + H–N–base → pentosa–N–base + H₂O (se forma un nucleósido). b) El –OH del carbono 5' de la pentosa reacciona con el ácido fosfórico: nucleósido–CH₂–OH + HO–PO₃H₂ → nucleósido–CH₂–O–PO₃H₂ + H₂O (se forma el nucleótido).</span>"
+   ],
+   "origen": {
+    "documento": "EBAU 2023 Cantabria, convocatoria extraordinaria (Universidad de Cantabria) · Cantabria, convocatoria extraordinaria (julio)",
+    "referencia": "Cantabria, convocatoria extraordinaria (julio), pregunta 3",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Cantabria (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2023-cantabria/cantabria-2023-2.webp",
+   "imgThumb": "assets/figuras/historico/2023-cantabria/cantabria-2023-2.thumb.webp",
+   "imageDesc": "Figura 2: dos moléculas con una base de dos anillos con NH₂, una pentosa y un fosfato. En la 1, A rodea el fosfato, B la base, y C señala la pentosa, que tiene –OH en los carbonos 2' y 3'; la 2 es igual pero su pentosa (D) solo tiene –OH en el carbono 3'.",
+   "isNew": false,
+   "f": "Pregunta oficial de la EBAU de julio de 2023 de Cantabria (14 preguntas de 1,25 puntos, de las que se eligen 8) (Cantabria, convocatoria extraordinaria (julio), pregunta 3, 1,25 puntos). Solución redactada por BioCelia (en morado): el examen de la carpeta no trae criterios de corrección."
+  },
+  {
+   "id": "pau2023-cantabria-ext-4",
+   "block": "Microbiología",
+   "topic": "Ciclos lítico y lisogénico de un virus",
+   "anio": 2023,
+   "etiqueta": "EBAU 2023 Cantabria (julio)",
+   "hasImg": false,
+   "puntos": 1.25,
+   "competencial": false,
+   "q": "Haga un dibujo y explique brevemente los ciclos lítico y lisogénico de un virus, detallando qué proceso tiene lugar en cada paso.",
+   "c": [
+    "<span class=\"redactado\">Ciclo lítico (por ejemplo, de un bacteriófago): 1) fijación o adsorción: el virus se une a receptores de la superficie de la célula; 2) penetración: inyecta su ácido nucleico (la cápsida queda fuera); 3) eclipse, replicación y síntesis: el ácido nucleico vírico toma el control de la célula, que replica el genoma vírico y sintetiza las proteínas de la cápsida; 4) ensamblaje: se forman nuevos viriones; 5) liberación: la célula se rompe (lisis) y salen los virus, que infectan otras células.</span>",
+    "<span class=\"redactado\">Ciclo lisogénico: tras la penetración, el ADN vírico se integra en el cromosoma bacteriano (profago) y se replica con él en cada división, sin dañar a la célula (bacteria lisogénica). Ante ciertos estímulos (radiación UV, sustancias químicas) el profago se separa (inducción) y empieza un ciclo lítico.</span>"
+   ],
+   "origen": {
+    "documento": "EBAU 2023 Cantabria, convocatoria extraordinaria (Universidad de Cantabria) · Cantabria, convocatoria extraordinaria (julio)",
+    "referencia": "Cantabria, convocatoria extraordinaria (julio), pregunta 4",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Cantabria (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta oficial de la EBAU de julio de 2023 de Cantabria (14 preguntas de 1,25 puntos, de las que se eligen 8) (Cantabria, convocatoria extraordinaria (julio), pregunta 4, 1,25 puntos). Solución redactada por BioCelia (en morado): el examen de la carpeta no trae criterios de corrección."
+  },
+  {
+   "id": "pau2023-cantabria-ext-5",
+   "block": "Biotecnología",
+   "topic": "Insulina humana producida por bacterias: universalidad del código genético",
+   "anio": 2023,
+   "etiqueta": "EBAU 2023 Cantabria (julio)",
+   "hasImg": false,
+   "puntos": 1.25,
+   "competencial": true,
+   "q": "La insulina es una hormona producida en el páncreas que controla el metabolismo de la glucosa. Su déficit o ausencia provoca la diabetes. Actualmente la industria farmacéutica produce insulina humana a partir de un cultivo bacteriano. Razone cómo es esto posible siendo dos organismos (el ser humano y la bacteria) tan diferentes.",
+   "c": [
+    "<span class=\"redactado\">Mediante ingeniería genética (ADN recombinante): el gen humano de la insulina (su ADNc, sin intrones, obtenido del ARNm con la transcriptasa inversa, ya que las bacterias no pueden eliminar intrones) se corta con enzimas de restricción y se une con la ADN ligasa a un plásmido, que se introduce en bacterias como E. coli. Las bacterias transformadas se multiplican y fabrican insulina humana.</span>",
+    "<span class=\"redactado\">Es posible porque el código genético es universal: el mismo codón codifica el mismo aminoácido en el ser humano y en la bacteria, y ambos usan los mismos mecanismos básicos de transcripción y traducción. Por eso la bacteria lee el gen humano y sintetiza la misma proteína.</span>"
+   ],
+   "origen": {
+    "documento": "EBAU 2023 Cantabria, convocatoria extraordinaria (Universidad de Cantabria) · Cantabria, convocatoria extraordinaria (julio)",
+    "referencia": "Cantabria, convocatoria extraordinaria (julio), pregunta 5",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Cantabria (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta oficial de la EBAU de julio de 2023 de Cantabria (14 preguntas de 1,25 puntos, de las que se eligen 8) (Cantabria, convocatoria extraordinaria (julio), pregunta 5, 1,25 puntos). Solución redactada por BioCelia (en morado): el examen de la carpeta no trae criterios de corrección."
+  },
+  {
+   "id": "pau2023-cantabria-ext-6",
+   "block": "Microbiología",
+   "topic": "Elaboración del pan: hidrólisis del almidón y fermentación alcohólica",
+   "anio": 2023,
+   "etiqueta": "EBAU 2023 Cantabria (julio)",
+   "hasImg": false,
+   "puntos": 1.25,
+   "competencial": false,
+   "q": "Explique la transformación de los diversos carbohidratos durante la elaboración del pan, los microorganismos responsables, y el tipo de fermentación que tiene lugar, indicando los productos finales del proceso.",
+   "c": [
+    "<span class=\"redactado\">El almidón de la harina se hidroliza por las amilasas (de la propia harina) a maltosa, y la maltosa, por la maltasa de las levaduras, a glucosa. Las levaduras (Saccharomyces cerevisiae) fermentan la glucosa por fermentación alcohólica: C₆H₁₂O₆ → 2 CH₃–CH₂OH + 2 CO₂. El CO₂ queda atrapado en la masa (en la red de gluten) y la hace subir (esponjosa); el etanol se evapora durante la cocción.</span>"
+   ],
+   "origen": {
+    "documento": "EBAU 2023 Cantabria, convocatoria extraordinaria (Universidad de Cantabria) · Cantabria, convocatoria extraordinaria (julio)",
+    "referencia": "Cantabria, convocatoria extraordinaria (julio), pregunta 6",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Cantabria (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta oficial de la EBAU de julio de 2023 de Cantabria (14 preguntas de 1,25 puntos, de las que se eligen 8) (Cantabria, convocatoria extraordinaria (julio), pregunta 6, 1,25 puntos). Solución redactada por BioCelia (en morado): el examen de la carpeta no trae criterios de corrección."
+  },
+  {
+   "id": "pau2023-cantabria-ext-7",
+   "block": "Inmunología",
+   "topic": "Vacunas y sueros; inmunización activa y pasiva",
+   "anio": 2023,
+   "etiqueta": "EBAU 2023 Cantabria (julio)",
+   "hasImg": false,
+   "puntos": 1.25,
+   "competencial": false,
+   "q": "¿Qué es una vacuna? Mencione y describa dos formas de inmunización diferentes. ¿Qué es un suero inmune? Compare una vacuna con un suero inmune, mencionando al menos una ventaja de cada uno frente al otro.",
+   "c": [
+    "<span class=\"redactado\">Una vacuna es un preparado de antígenos (microorganismos muertos o atenuados, toxoides, fragmentos o ARNm que codifica un antígeno) que provoca una respuesta inmunitaria primaria, sin causar la enfermedad, y genera memoria.</span>",
+    "<span class=\"redactado\">Formas de inmunización: activa, cuando el propio organismo produce anticuerpos y células de memoria (natural, al pasar la infección; artificial, con vacunas); pasiva, cuando recibe anticuerpos ya formados (natural, de la madre por la placenta o la leche; artificial, con sueros).</span>",
+    "<span class=\"redactado\">Un suero inmune contiene anticuerpos específicos ya elaborados, obtenidos de otra persona o de un animal inmunizado.</span>",
+    "<span class=\"redactado\">Comparación: la vacuna es preventiva, da inmunidad activa, tarda en actuar (días o semanas) y es duradera (memoria): esa es su ventaja. El suero es curativo o de urgencia, da inmunidad pasiva inmediata (su ventaja), pero dura poco y no deja memoria.</span>"
+   ],
+   "origen": {
+    "documento": "EBAU 2023 Cantabria, convocatoria extraordinaria (Universidad de Cantabria) · Cantabria, convocatoria extraordinaria (julio)",
+    "referencia": "Cantabria, convocatoria extraordinaria (julio), pregunta 7",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Cantabria (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta oficial de la EBAU de julio de 2023 de Cantabria (14 preguntas de 1,25 puntos, de las que se eligen 8) (Cantabria, convocatoria extraordinaria (julio), pregunta 7, 1,25 puntos). Solución redactada por BioCelia (en morado): el examen de la carpeta no trae criterios de corrección."
+  },
+  {
+   "id": "pau2023-cantabria-ext-8",
+   "block": "Inmunología",
+   "topic": "Respuesta primaria y secundaria; células de memoria",
+   "anio": 2023,
+   "etiqueta": "EBAU 2023 Cantabria (julio)",
+   "hasImg": false,
+   "puntos": 1.25,
+   "competencial": false,
+   "q": "Explique en qué consiste la respuesta inmune primaria y secundaria frente a un antígeno. ¿Qué células son las responsables de la respuesta secundaria? Dibuje una gráfica que ilustre este fenómeno, en la que se represente la concentración de anticuerpos específicos frente al tiempo, señalando los momentos de exposición al antígeno.",
+   "c": [
+    "<span class=\"redactado\">Respuesta primaria: tras el primer contacto con el antígeno, hay un periodo de latencia de varios días en el que se seleccionan y proliferan los linfocitos específicos; se producen pocos anticuerpos (sobre todo IgM) y durante poco tiempo, y se forman células de memoria. Respuesta secundaria: en un segundo contacto con el mismo antígeno, la respuesta es más rápida, más intensa (muchos más anticuerpos, sobre todo IgG) y más duradera.</span>",
+    "<span class=\"redactado\">Responsables: los linfocitos B y T de memoria generados en la respuesta primaria.</span>",
+    "<span class=\"redactado\">Gráfica: concentración de anticuerpos (eje Y) frente al tiempo (eje X), con una flecha en la primera exposición, seguida de una curva baja y tardía, y otra flecha en la segunda exposición, seguida de una curva que sube enseguida y mucho más alto.</span>"
+   ],
+   "origen": {
+    "documento": "EBAU 2023 Cantabria, convocatoria extraordinaria (Universidad de Cantabria) · Cantabria, convocatoria extraordinaria (julio)",
+    "referencia": "Cantabria, convocatoria extraordinaria (julio), pregunta 8",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Cantabria (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta oficial de la EBAU de julio de 2023 de Cantabria (14 preguntas de 1,25 puntos, de las que se eligen 8) (Cantabria, convocatoria extraordinaria (julio), pregunta 8, 1,25 puntos). Solución redactada por BioCelia (en morado): el examen de la carpeta no trae criterios de corrección."
+  },
+  {
+   "id": "pau2023-cantabria-ext-9",
+   "block": "Célula",
+   "topic": "Localización de procesos en la célula eucariota",
+   "anio": 2023,
+   "etiqueta": "EBAU 2023 Cantabria (julio)",
+   "hasImg": false,
+   "puntos": 1.25,
+   "competencial": false,
+   "q": "Indique dónde se localizan las siguientes funciones o procesos en una célula eucariótica:<br>a) síntesis de proteínas; b) glucólisis; c) ciclo de Krebs; d) ciclo de Calvin; e) transformación de energía luminosa en energía química; f) cadena respiratoria; g) oxidación de los ácidos grasos.",
+   "c": [
+    "<span class=\"redactado\">a) En los ribosomas (libres en el citosol o unidos al retículo endoplasmático rugoso; también en mitocondrias y cloroplastos). b) En el citosol. c) En la matriz mitocondrial. d) En el estroma del cloroplasto. e) En la membrana de los tilacoides de los cloroplastos (fase luminosa). f) En la membrana mitocondrial interna (crestas). g) En la matriz mitocondrial (β-oxidación), y también en los peroxisomas.</span>"
+   ],
+   "origen": {
+    "documento": "EBAU 2023 Cantabria, convocatoria extraordinaria (Universidad de Cantabria) · Cantabria, convocatoria extraordinaria (julio)",
+    "referencia": "Cantabria, convocatoria extraordinaria (julio), pregunta 9",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Cantabria (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta oficial de la EBAU de julio de 2023 de Cantabria (14 preguntas de 1,25 puntos, de las que se eligen 8) (Cantabria, convocatoria extraordinaria (julio), pregunta 9, 1,25 puntos). Solución redactada por BioCelia (en morado): el examen de la carpeta no trae criterios de corrección."
+  },
+  {
+   "id": "pau2023-cantabria-ext-10",
+   "block": "Célula",
+   "topic": "Célula animal: identificación de orgánulos y funciones",
+   "anio": 2023,
+   "etiqueta": "EBAU 2023 Cantabria (julio)",
+   "hasImg": true,
+   "puntos": 1.25,
+   "competencial": true,
+   "q": "¿Qué tipo de célula se representa en la figura 3? Razone su respuesta, y nombre los componentes señalados en la misma, así como una función de cada uno de ellos.",
+   "c": [
+    "<span class=\"redactado\">Es una célula eucariota animal: tiene núcleo y orgánulos membranosos, centrosoma con centriolos y lisosomas, y no tiene pared celular ni cloroplastos.</span>",
+    "<span class=\"redactado\">Componentes (de arriba abajo; los rótulos no llevan número): núcleo, que contiene el ADN y dirige la actividad celular; nucléolo, síntesis del ARNr y montaje de las subunidades de los ribosomas; retículo endoplasmático rugoso, síntesis de proteínas de membrana y de secreción; retículo endoplasmático liso, síntesis de lípidos y detoxificación; aparato de Golgi, modificación, empaquetado y secreción de sustancias; mitocondria, respiración celular y obtención de ATP; vacuola, almacén de sustancias; centrosoma (centriolos), organiza los microtúbulos y el huso acromático; citoesqueleto, forma, movimiento y transporte intracelular; membrana plasmática, límite celular y transporte selectivo.</span>"
+   ],
+   "origen": {
+    "documento": "EBAU 2023 Cantabria, convocatoria extraordinaria (Universidad de Cantabria) · Cantabria, convocatoria extraordinaria (julio)",
+    "referencia": "Cantabria, convocatoria extraordinaria (julio), pregunta 10",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Cantabria (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2023-cantabria/cantabria-2023-3.webp",
+   "imgThumb": "assets/figuras/historico/2023-cantabria/cantabria-2023-3.thumb.webp",
+   "imageDesc": "Figura 3: célula redonda con un núcleo grande, con nucléolo, rodeado de cisternas con gránulos; a su lado, sacos aplanados apilados, mitocondrias, vesículas con gránulos, una vacuola, un centrosoma con fibras radiales y filamentos finos. Diez líneas de rótulo sin texto señalan los componentes.",
+   "isNew": false,
+   "f": "Pregunta oficial de la EBAU de julio de 2023 de Cantabria (14 preguntas de 1,25 puntos, de las que se eligen 8) (Cantabria, convocatoria extraordinaria (julio), pregunta 10, 1,25 puntos). Solución redactada por BioCelia (en morado): el examen de la carpeta no trae criterios de corrección."
+  },
+  {
+   "id": "pau2023-cantabria-ext-11",
+   "block": "Célula",
+   "topic": "Mitosis y meiosis: diferencias, importancia y anafases",
+   "anio": 2023,
+   "etiqueta": "EBAU 2023 Cantabria (julio)",
+   "hasImg": false,
+   "puntos": 1.25,
+   "competencial": false,
+   "q": "Señale tres diferencias entre mitosis y meiosis. Respecto a esta última, explique por qué es importante para la reproducción sexual y la variabilidad de las especies. Por último, describa la diferencia fundamental entre anafase I y anafase II de la meiosis.",
+   "c": [
+    "<span class=\"redactado\">Diferencias: la mitosis tiene una división y la meiosis dos; la mitosis da dos células hijas y la meiosis cuatro; en la mitosis las hijas son diploides (2n) y genéticamente iguales a la madre, y en la meiosis son haploides (n) y distintas; en la meiosis hay apareamiento de homólogos y sobrecruzamiento, que no se dan en la mitosis; la mitosis ocurre en células somáticas y la meiosis en las germinales.</span>",
+    "<span class=\"redactado\">Importancia: la meiosis reduce a la mitad el número de cromosomas de los gametos, así que en la fecundación se recupera la dotación diploide de la especie y se mantiene constante de generación en generación. Además, genera variabilidad por el sobrecruzamiento (recombinación) en la profase I y por la segregación al azar de los cromosomas homólogos en la anafase I.</span>",
+    "<span class=\"redactado\">En la anafase I se separan los cromosomas homólogos (cada uno con sus dos cromátidas) hacia polos opuestos; en la anafase II se separan las cromátidas hermanas.</span>"
+   ],
+   "origen": {
+    "documento": "EBAU 2023 Cantabria, convocatoria extraordinaria (Universidad de Cantabria) · Cantabria, convocatoria extraordinaria (julio)",
+    "referencia": "Cantabria, convocatoria extraordinaria (julio), pregunta 11",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Cantabria (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta oficial de la EBAU de julio de 2023 de Cantabria (14 preguntas de 1,25 puntos, de las que se eligen 8) (Cantabria, convocatoria extraordinaria (julio), pregunta 11, 1,25 puntos). Solución redactada por BioCelia (en morado): el examen de la carpeta no trae criterios de corrección."
+  },
+  {
+   "id": "pau2023-cantabria-ext-12",
+   "block": "Genética",
+   "topic": "Transcripción, traducción y mutaciones silenciosas",
+   "anio": 2023,
+   "etiqueta": "EBAU 2023 Cantabria (julio)",
+   "hasImg": true,
+   "puntos": 1.25,
+   "competencial": true,
+   "q": "Escriba la secuencia de la molécula de ARNm que resulta de la transcripción del siguiente fragmento de ADN, 5'-ATGAACAGGCCATGA-3', y la secuencia de aminoácidos resultante de la traducción de dicho ARNm. Use la información de la figura 4.<br>¿Cuántas mutaciones silenciosas podrían producirse en ese fragmento de ADN?",
+   "c": [
+    "<span class=\"redactado\">El fragmento empieza por ATG y termina por TGA, así que corresponde a la hebra codificante: el ARNm tiene la misma secuencia con U: 5'-AUG AAC AGG CCA UGA-3', que se traduce como Met-Asn-Arg-Pro (UGA es codón de parada). Si se tomara el fragmento como hebra molde, el ARNm sería el complementario y antiparalelo: 5'-UCAUGGCCUGUUCAU-3'.</span>",
+    "<span class=\"redactado\">Una mutación silenciosa cambia una base sin cambiar el aminoácido. Con sustituciones de una sola base, según la tabla: AUG (Met), ninguna; AAC (Asn), 1 (AAU); AGG (Arg), 2 (AGA y CGG); CCA (Pro), 3 (CCU, CCC y CCG). En total, 6; habría una más si se cuenta UGA → UAA, que sigue siendo de parada.</span>"
+   ],
+   "origen": {
+    "documento": "EBAU 2023 Cantabria, convocatoria extraordinaria (Universidad de Cantabria) · Cantabria, convocatoria extraordinaria (julio)",
+    "referencia": "Cantabria, convocatoria extraordinaria (julio), pregunta 12",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Cantabria (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2023-cantabria/cantabria-2023-4.webp",
+   "imgThumb": "assets/figuras/historico/2023-cantabria/cantabria-2023-4.thumb.webp",
+   "imageDesc": "Figura 4: tabla del código genético con los 64 codones del ARNm ordenados por primera, segunda y tercera base y el aminoácido de cada uno.",
+   "isNew": false,
+   "f": "Pregunta oficial de la EBAU de julio de 2023 de Cantabria (14 preguntas de 1,25 puntos, de las que se eligen 8) (Cantabria, convocatoria extraordinaria (julio), pregunta 12, 1,25 puntos). Solución redactada por BioCelia (en morado): el examen de la carpeta no trae criterios de corrección."
+  },
+  {
+   "id": "pau2023-cantabria-ext-13",
+   "block": "Genética",
+   "topic": "Árbol genealógico: herencia autosómica dominante",
+   "anio": 2023,
+   "etiqueta": "EBAU 2023 Cantabria (julio)",
+   "hasImg": true,
+   "puntos": 1.25,
+   "competencial": true,
+   "q": "En la figura 5 aparece el árbol genealógico de una familia, muchos de cuyos miembros presentan un lunar característico. La presencia de este carácter se indica en color negro, y está determinado por un solo gen. Indique si el alelo que determina la presencia del lunar es dominante o recesivo. Razone la respuesta detallando posibles genotipos de todos los individuos. ¿Podría tratarse de un gen ligado al sexo? Razone la respuesta.",
+   "c": [
+    "<span class=\"redactado\">Es dominante: I-3 e I-4 tienen el lunar y tienen hijos sin él (II-6 y II-7); lo mismo ocurre con II-3 y II-4 (III-3 y III-4). Si fuera recesivo, dos padres con el lunar solo podrían tener hijos con lunar.</span>",
+    "<span class=\"redactado\">Con L (lunar) y l (sin lunar): I-1 ll; I-2 Ll (tiene una hija sin lunar, II-2); I-3 Ll e I-4 Ll; II-1 Ll; II-2 ll; II-3 Ll; II-4 Ll (tiene hijos sin lunar); II-5 LL o Ll; II-6 ll; II-7 ll; III-1 y III-2 LL o Ll; III-3 y III-4 ll.</span>",
+    "<span class=\"redactado\">No está ligado al sexo. Si fuera dominante ligado al X, un padre con el lunar lo transmitiría a todas sus hijas, pero I-2 tiene una hija sin lunar (II-2) e I-4 también (II-7). Tampoco puede estar ligado al Y, porque lo tienen mujeres. Es autosómico.</span>"
+   ],
+   "origen": {
+    "documento": "EBAU 2023 Cantabria, convocatoria extraordinaria (Universidad de Cantabria) · Cantabria, convocatoria extraordinaria (julio)",
+    "referencia": "Cantabria, convocatoria extraordinaria (julio), pregunta 13",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Cantabria (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2023-cantabria/cantabria-2023-5.webp",
+   "imgThumb": "assets/figuras/historico/2023-cantabria/cantabria-2023-5.thumb.webp",
+   "imageDesc": "Figura 5: árbol de tres generaciones (cuadrados, hombres; círculos, mujeres; negro, con lunar). I: mujer 1 sin lunar con hombre 2 con lunar; mujer 3 con lunar con hombre 4 con lunar. II: hijos de I-1 y I-2: 1 mujer con lunar, 2 mujer sin lunar, 3 hombre con lunar; hijos de I-3 y I-4: 4 mujer con lunar, 5 hombre con lunar, 6 hombre sin lunar, 7 mujer sin lunar. II-3 y II-4 tienen a III-1 (mujer con lunar), III-2 (hombre con lunar), III-3 (hombre sin lunar) y III-4 (mujer sin lunar).",
+   "isNew": false,
+   "f": "Pregunta oficial de la EBAU de julio de 2023 de Cantabria (14 preguntas de 1,25 puntos, de las que se eligen 8) (Cantabria, convocatoria extraordinaria (julio), pregunta 13, 1,25 puntos). Solución redactada por BioCelia (en morado): el examen de la carpeta no trae criterios de corrección."
+  },
+  {
+   "id": "pau2023-cantabria-ext-14",
+   "block": "Genética",
+   "topic": "Replicación del ADN: proteínas y funciones",
+   "anio": 2023,
+   "etiqueta": "EBAU 2023 Cantabria (julio)",
+   "hasImg": false,
+   "puntos": 1.25,
+   "competencial": false,
+   "q": "Haga un esquema de la replicación del ADN, señalando las diversas proteínas que intervienen en la misma y especificando su función.",
+   "c": [
+    "<span class=\"redactado\">El esquema debe mostrar una horquilla de replicación con la hebra conductora (continua) y la retardada (fragmentos de Okazaki), cada hebra nueva antiparalela a su molde y creciendo en sentido 5'→3'.</span>",
+    "<span class=\"redactado\">Proteínas: helicasa, rompe los puentes de hidrógeno y separa las hebras; topoisomerasas (girasa), eliminan las tensiones del superenrollamiento; proteínas SSB, mantienen separadas las hebras sencillas; primasa, sintetiza los cebadores de ARN; ADN polimerasa III (en procariotas), alarga las cadenas añadiendo nucleótidos complementarios en sentido 5'→3' a partir del cebador y corrige errores; ADN polimerasa I, retira los cebadores y rellena los huecos con ADN; ADN ligasa, une los fragmentos de Okazaki.</span>"
+   ],
+   "origen": {
+    "documento": "EBAU 2023 Cantabria, convocatoria extraordinaria (Universidad de Cantabria) · Cantabria, convocatoria extraordinaria (julio)",
+    "referencia": "Cantabria, convocatoria extraordinaria (julio), pregunta 14",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Cantabria (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta oficial de la EBAU de julio de 2023 de Cantabria (14 preguntas de 1,25 puntos, de las que se eligen 8) (Cantabria, convocatoria extraordinaria (julio), pregunta 14, 1,25 puntos). Solución redactada por BioCelia (en morado): el examen de la carpeta no trae criterios de corrección."
+  },
+  {
    "id": "pau2024-titular-a-a1",
    "block": "Biomoléculas",
    "topic": "Lípidos saponificables e insaponificables",
@@ -33182,6 +33554,2126 @@ window.BIOCELIA_HISTORICO = {
    },
    "isNew": false,
    "f": "Pregunta oficial de la PAU 2025 de Andalucía (primer año del modelo competencial) (Suplente 2, modelo B, opción 2, pregunta 5, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2025-andalucia-modelo-1",
+   "block": "Biomoléculas",
+   "topic": "Identificar glucosa, maltosa, sacarosa y almidón por sus propiedades",
+   "anio": 2025,
+   "etiqueta": "Modelo Andalucía 24-25",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "<b>En un laboratorio hay 4 tubos que contienen los siguientes compuestos por separado: glucosa, maltosa, sacarosa y almidón. Para identificar el tipo de carbohidrato que contiene cada tubo se realizan varias pruebas: A) análisis de la solubilidad; B) determinación del poder reductor; C) capacidad de hidrólisis en medio ácido; D) sabor dulce. Tras el análisis se obtienen los siguientes resultados:</b><br>a) Indique qué compuesto de los indicados se encuentra en cada tubo. Razone sus respuestas [1,2].<br>b) Explique una función del/de los monosacárido/s y del/de los polisacárido/s estudiados en este experimento [0,4].<br>c) Indique dos características exclusivas del tipo celular que contiene el almidón [0,4].",
+   "c": [
+    "a) Tubo 1: <mark class=\"clave-criterio\">almidón</mark>; 2: <mark class=\"clave-criterio\">glucosa</mark>; 3: <mark class=\"clave-criterio\">sacarosa</mark>; 4: <mark class=\"clave-criterio\">maltosa</mark>, argumentándolo con los <mark class=\"clave-criterio\">datos de la tabla</mark> (1,2 p). <span class=\"redactado\">El almidón es el único insoluble, no reductor y no dulce, y se hidroliza porque es un polímero; la glucosa no se hidroliza porque es un monosacárido; la sacarosa se hidroliza pero no es reductora, porque sus dos carbonos anoméricos forman el enlace; la maltosa es reductora y se hidroliza en dos glucosas.</span>",
+    "b) Glucosa: <mark class=\"clave-criterio\">azúcar más utilizado como fuente de energía</mark> por las células; almidón: <mark class=\"clave-criterio\">principal polisacárido de reserva de las células vegetales</mark> (0,4 p).",
+    "c) Presencia de <mark class=\"clave-criterio\">pared celular</mark> y de <mark class=\"clave-criterio\">cloroplastos (plastos)</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "Directrices y Orientaciones de Biología 2024-25 (Andalucía) · Modelo de prueba 2024-25",
+    "referencia": "Modelo de prueba 2024-25, pregunta 1",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-ANDALUCIA-PAU-2025.pdf",
+    "criterios": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-ANDALUCIA-PAU-2025.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/andalucia-modelo-1.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/andalucia-modelo-1.thumb.webp",
+   "imageDesc": "Tabla con cuatro tubos. Tubo 1: insoluble, sin poder reductor, se hidroliza, no dulce. Tubo 2: soluble, reductor, no se hidroliza, dulce. Tubo 3: soluble, no reductor, se hidroliza, dulce. Tubo 4: soluble, reductor, se hidroliza, dulce.",
+   "isNew": false,
+   "f": "Pregunta del modelo oficial de prueba de Andalucía para la PAU 2025 (Directrices 2024-25), con sus criterios de corrección (Modelo de prueba 2024-25, pregunta 1, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2025-andalucia-modelo-12",
+   "block": "Célula",
+   "topic": "Un fármaco aumenta los dobles enlaces de los ácidos grasos de la membrana",
+   "anio": 2025,
+   "etiqueta": "Modelo Andalucía 24-25",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": true,
+   "q": "<b>Se está llevando a cabo un estudio en células animales para determinar el efecto de un medicamento sobre las membranas celulares. Al aplicar dicho medicamento se observa que el número de dobles enlaces presentes en los ácidos grasos aumenta considerablemente respecto al contenido de las células control.</b><br>a) Indique la estructura básica de una molécula de ácido graso [0,25].<br>b) Explique razonadamente qué efecto puede tener sobre la membrana celular este incremento de dobles enlaces [0,75].<br>c) Defina membrana plasmática e indique una función de esta estructura [0,5].<br>d) Nombre dos orgánulos celulares delimitados por una membrana simple e indique una función que desempeñen [0,5].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Cadena hidrocarbonada</mark> con un <mark class=\"clave-criterio\">grupo carboxílico en un extremo</mark> (0,25 p).",
+    "b) Más dobles enlaces implica un <mark class=\"clave-criterio\">aumento de ácidos grasos insaturados</mark> (0,25 p), que <mark class=\"clave-criterio\">aumenta la fluidez de las membranas</mark> (0,5 p). <span class=\"redactado\">Los dobles enlaces cis forman codos que separan las colas e impiden que se empaqueten.</span>",
+    "c) <mark class=\"clave-criterio\">Bicapa lipídica con proteínas</mark> (periféricas y transmembranales) y <mark class=\"clave-criterio\">glúcidos en la capa externa</mark> (0,3 p). Función: <mark class=\"clave-criterio\">separar el medio intracelular del extracelular</mark>, <mark class=\"clave-criterio\">permeabilidad selectiva</mark> o <mark class=\"clave-criterio\">transferencia de información</mark> (solo una, 0,2 p).",
+    "d) <mark class=\"clave-criterio\">Complejo de Golgi</mark>, <mark class=\"clave-criterio\">retículo endoplasmático</mark>, <mark class=\"clave-criterio\">lisosomas</mark>, <mark class=\"clave-criterio\">peroxisomas</mark>, <mark class=\"clave-criterio\">vacuolas</mark> (dos, a 0,1 p). Funciones: Golgi, <mark class=\"clave-criterio\">maduración, secreción y acumulación de sustancias</mark>; retículo, <mark class=\"clave-criterio\">síntesis, transporte y almacenamiento</mark>; lisosomas, <mark class=\"clave-criterio\">digestión intracelular</mark>; peroxisomas, <mark class=\"clave-criterio\">metabolismo oxidativo</mark>; vacuolas, <mark class=\"clave-criterio\">almacenamiento</mark> (una de cada orgánulo, a 0,15 p)."
+   ],
+   "origen": {
+    "documento": "Directrices y Orientaciones de Biología 2024-25 (Andalucía) · Modelo de prueba 2024-25",
+    "referencia": "Modelo de prueba 2024-25, opción 1, pregunta 2",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-ANDALUCIA-PAU-2025.pdf",
+    "criterios": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-ANDALUCIA-PAU-2025.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta del modelo oficial de prueba de Andalucía para la PAU 2025 (Directrices 2024-25), con sus criterios de corrección (Modelo de prueba 2024-25, opción 1, pregunta 2, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2025-andalucia-modelo-22",
+   "block": "Célula",
+   "topic": "Toxinas que atacan el nucléolo y significado de la mitosis",
+   "anio": 2025,
+   "etiqueta": "Modelo Andalucía 24-25",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": true,
+   "q": "<b>Dentro del núcleo eucariota, el nucléolo destaca como la estructura más prominente. Debido a sus funciones cruciales para la célula, el nucléolo es una diana valiosa para inducir selectivamente la muerte celular en células indeseables. Entre otros ejemplos, existen tratamientos contra el cáncer basados en toxinas naturales que atacan a los nucléolos, produciendo la muerte de las células tumorales.</b><br>a) Explique la causa de dicha muerte [0,5].<br>b) ¿Tendrían estas toxinas naturales el mismo efecto sobre células en mitosis? ¿por qué? [0,5].<br>c) Explique el significado biológico de la mitosis [0,5].<br>d) Nombre, de forma ordenada las fases de la mitosis [0,3].<br>e) Indique otras dos estructuras que forman parte del núcleo eucariota [0,2].",
+   "c": [
+    "a) En el nucléolo se producen los <mark class=\"clave-criterio\">distintos tipos de ARNr</mark> que forman las <mark class=\"clave-criterio\">subunidades de los ribosomas</mark>, necesarios para la <mark class=\"clave-criterio\">síntesis de las proteínas</mark>. Al atacar los nucléolos, la toxina <mark class=\"clave-criterio\">impide que las células cancerígenas sinteticen proteínas, crezcan y completen su ciclo celular</mark>, y mueren (0,5 p).",
+    "b) <mark class=\"clave-criterio\">No</mark>: durante la mitosis <mark class=\"clave-criterio\">el núcleo y sus componentes, como el nucléolo, no están presentes</mark> (0,5 p). <span class=\"redactado\">El nucléolo desaparece en la profase y reaparece en la telofase.</span>",
+    "c) Obtener <mark class=\"clave-criterio\">células hijas con idéntica información genética</mark> que la célula progenitora y permitir en los pluricelulares el <mark class=\"clave-criterio\">crecimiento</mark> y el <mark class=\"clave-criterio\">recambio celular</mark> (0,5 p).",
+    "d) <mark class=\"clave-criterio\">Profase, metafase, anafase y telofase</mark>; si no se nombran en orden, 0 puntos (0,3 p).",
+    "e) <mark class=\"clave-criterio\">Poros nucleares</mark>, <mark class=\"clave-criterio\">cromatina</mark>, <mark class=\"clave-criterio\">envoltura nuclear</mark>, etc. (dos, 0,2 p)."
+   ],
+   "origen": {
+    "documento": "Directrices y Orientaciones de Biología 2024-25 (Andalucía) · Modelo de prueba 2024-25",
+    "referencia": "Modelo de prueba 2024-25, opción 2, pregunta 2",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-ANDALUCIA-PAU-2025.pdf",
+    "criterios": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-ANDALUCIA-PAU-2025.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta del modelo oficial de prueba de Andalucía para la PAU 2025 (Directrices 2024-25), con sus criterios de corrección (Modelo de prueba 2024-25, opción 2, pregunta 2, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2025-andalucia-modelo-13",
+   "block": "Metabolismo",
+   "topic": "β-oxidación en mitocondrias y peroxisomas",
+   "anio": 2025,
+   "etiqueta": "Modelo Andalucía 24-25",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "<b>En las células de los mamíferos, dos orgánulos celulares comparten la capacidad de degradar las cadenas de ácidos grasos, aunque cada uno de ellos utiliza su propia vía de β-oxidación de ácidos grasos.</b><br>a) Indique de qué orgánulos se trata y la región de estos en los que pueden tener lugar [0,4].<br>b) Describa, de forma general, en qué consiste la β-oxidación [0,3]<br>c) Indique cuáles son los sustratos y los productos finales de este proceso [0,4].<br>d) ¿A qué procesos metabólicos se incorporan las moléculas resultantes de este proceso para obtener los productos finales CO₂, H₂O y ATP? [0,4]<br>e) ¿Qué productos se generan en cada uno de estos procesos metabólicos? [0,5]",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Mitocondria</mark>, en la <mark class=\"clave-criterio\">matriz</mark>; <mark class=\"clave-criterio\">peroxisoma</mark>, en su <mark class=\"clave-criterio\">interior</mark> (0,1 p por orgánulo y 0,1 p por región) (0,4 p).",
+    "b) <mark class=\"clave-criterio\">Proceso catabólico cíclico</mark> en el que los ácidos grasos <mark class=\"clave-criterio\">liberan dos átomos de carbono en forma de acetil-CoA</mark> en cada vuelta (0,3 p).",
+    "c) Sustrato: <mark class=\"clave-criterio\">acil-CoA</mark> (ácidos grasos) (0,1 p); productos: <mark class=\"clave-criterio\">acetil-CoA, FADH₂ y NADH</mark> (0,3 p).",
+    "d) El acetil-CoA, al <mark class=\"clave-criterio\">ciclo de Krebs</mark> (0,2 p); el FADH₂ y el NADH, a la <mark class=\"clave-criterio\">cadena de transporte de electrones</mark> mitocondrial (0,2 p).",
+    "e) Ciclo de Krebs: <mark class=\"clave-criterio\">CO₂, GTP, FADH₂ y NADH</mark> (0,4 p). Cadena de transporte: <mark class=\"clave-criterio\">ATP y H₂O</mark> (0,1 p). <span class=\"redactado\">En sentido estricto, el ATP lo fabrica la ATP sintasa en la fosforilación oxidativa, acoplada a la cadena.</span>"
+   ],
+   "origen": {
+    "documento": "Directrices y Orientaciones de Biología 2024-25 (Andalucía) · Modelo de prueba 2024-25",
+    "referencia": "Modelo de prueba 2024-25, opción 1, pregunta 3",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-ANDALUCIA-PAU-2025.pdf",
+    "criterios": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-ANDALUCIA-PAU-2025.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta del modelo oficial de prueba de Andalucía para la PAU 2025 (Directrices 2024-25), con sus criterios de corrección (Modelo de prueba 2024-25, opción 1, pregunta 3, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2025-andalucia-modelo-23",
+   "block": "Metabolismo",
+   "topic": "Destinos del piruvato y estructura de la mitocondria",
+   "anio": 2025,
+   "etiqueta": "Modelo Andalucía 24-25",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "<b>En relación con la figura adjunta:</b><br>a) Escriba el nombre de la ruta metabólica representada con el número 3 [0,3] y del intermediario metabólico señalado con el número 2 [0,2].<br>b) Nombre la molécula representada con el número 1 [0,2].<br>c) Indique de dónde proceden las moléculas de CO₂ que se obtienen en el proceso 3 [0,2].<br>d) Nombre los destinos (A, B y C) que puede seguir el piruvato [0,3].<br>e) Describa la estructura del orgánulo representado y cite dos de sus componentes [0,6]. Indique en qué tipo de células se encuentra [0,2].",
+   "c": [
+    "a) 3: <mark class=\"clave-criterio\">ciclo de Krebs</mark> (0,3 p); 2: <mark class=\"clave-criterio\">acetil-CoA</mark> (0,2 p).",
+    "b) 1: <mark class=\"clave-criterio\">ATP</mark> (0,2 p).",
+    "c) De la <mark class=\"clave-criterio\">oxidación (descarboxilación)</mark> <span class=\"redactado\">de los grupos acetilo en el ciclo</span> (0,2 p).",
+    "d) A: <mark class=\"clave-criterio\">respiración celular</mark>; B: <mark class=\"clave-criterio\">fermentación láctica</mark>; C: <mark class=\"clave-criterio\">fermentación alcohólica</mark> (0,3 p).",
+    "e) Estructura: <mark class=\"clave-criterio\">membrana externa e interna (crestas mitocondriales)</mark>, <mark class=\"clave-criterio\">espacio intermembranoso</mark> y <mark class=\"clave-criterio\">matriz</mark> (0,3 p). Componentes: <mark class=\"clave-criterio\">ADN mitocondrial</mark>, <mark class=\"clave-criterio\">ribosomas mitocondriales</mark>, <mark class=\"clave-criterio\">proteínas de la cadena transportadora de electrones</mark>, etc. (dos, a 0,25 p). Células: <mark class=\"clave-criterio\">eucariotas animales y vegetales</mark> (0,2 p)."
+   ],
+   "origen": {
+    "documento": "Directrices y Orientaciones de Biología 2024-25 (Andalucía) · Modelo de prueba 2024-25",
+    "referencia": "Modelo de prueba 2024-25, opción 2, pregunta 3",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-ANDALUCIA-PAU-2025.pdf",
+    "criterios": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-ANDALUCIA-PAU-2025.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/andalucia-modelo-3-2.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/andalucia-modelo-3-2.thumb.webp",
+   "imageDesc": "Glucosa → piruvato con formación de la molécula 1. Del piruvato salen tres caminos: A entra en una mitocondria y da 2, que alimenta el ciclo 3, del que sale CO₂ y que se conecta con la cadena de transporte electrónico (que recibe O₂ y da H₂O y la molécula 1); B lleva a ácido láctico y C a etanol.",
+   "isNew": false,
+   "f": "Pregunta del modelo oficial de prueba de Andalucía para la PAU 2025 (Directrices 2024-25), con sus criterios de corrección (Modelo de prueba 2024-25, opción 2, pregunta 3, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2025-andalucia-modelo-14",
+   "block": "Genética",
+   "topic": "Completar codones, anticodones y ADN molde; código genético",
+   "anio": 2025,
+   "etiqueta": "Modelo Andalucía 24-25",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "<b>Parte de la secuencia de aminoácidos de una proteína está indicada en la fila superior de esta tabla:</b><br>a) Copie y complete los espacios en blanco con los tripletes correspondientes [1].<br>b) Indique qué se entiende por código genético [0,5].<br>c) Explique dos características del código genético [0,5].",
+   "c": [
+    "a) Diez casillas, a <mark class=\"clave-criterio\">0,1 p cada respuesta</mark> (1 p). <span class=\"redactado\">Con el código genético y la complementariedad, escribiendo el anticodón y la cadena molde alineados con el codón: Ala: ARNm GCG, ADN molde CGC. Ser: ARNt AGA, ARNm UCU. Gly: ARNt CCU, ADN molde CCT. Leu: ARNt AAC, ADN molde AAC. Glu: ARNt CUU, ARNm GAA.</span>",
+    "b) <mark class=\"clave-criterio\">Sistema que establece una relación de correspondencia entre los tripletes de ARN mensajero y los aminoácidos que codifican</mark> (0,5 p).",
+    "c) Dos características explicadas: <mark class=\"clave-criterio\">universal</mark>, <mark class=\"clave-criterio\">degenerado</mark>, etc. (0,5 p). <span class=\"redactado\">Universal: es el mismo en casi todos los seres vivos. Degenerado: varios codones codifican el mismo aminoácido. También: sin solapamiento y sin comas.</span>"
+   ],
+   "origen": {
+    "documento": "Directrices y Orientaciones de Biología 2024-25 (Andalucía) · Modelo de prueba 2024-25",
+    "referencia": "Modelo de prueba 2024-25, opción 1, pregunta 4",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-ANDALUCIA-PAU-2025.pdf",
+    "criterios": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-ANDALUCIA-PAU-2025.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/andalucia-modelo-4-1.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/andalucia-modelo-4-1.thumb.webp",
+   "imageDesc": "Tabla con los aminoácidos Ala, Ser, Gly, Leu y Glu y tres filas: ARNt (solo se da CGC bajo Ala), ARNm (se dan GGA bajo Gly y UUG bajo Leu) y ADN molde (se dan AGA bajo Ser y CTT bajo Glu).",
+   "isNew": false,
+   "f": "Pregunta del modelo oficial de prueba de Andalucía para la PAU 2025 (Directrices 2024-25), con sus criterios de corrección (Modelo de prueba 2024-25, opción 1, pregunta 4, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2025-andalucia-modelo-24",
+   "block": "Biotecnología",
+   "topic": "Aznalcóllar: biorremediación y OMG",
+   "anio": 2025,
+   "etiqueta": "Modelo Andalucía 24-25",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": true,
+   "q": "<b>La madrugada del 25 de abril de 1998 se produjo la rotura la presa de la balsa con vertidos tóxicos de la sevillana mina de Aznalcóllar, liberando sobre los ríos Agrio y Guadiamar aguas ácidas y lodos tóxicos que contenían arsénico, cadmio, mercurio y otros metales pesados que provocaron el desbordamiento de sus cauces y la anegación de las tierras colindantes a lo largo de una extensión de 62 kilómetros.</b><br>a) Nombre qué proceso biotecnológico se emplea para ayudar a subsanar este tipo de desastres y explique, de forma general, en qué consiste dicho proceso [0,5].<br>b) Indique qué tipos de microorganismos se utilizan en este proceso y su organización celular [0,2].<br>c) Cite dos ejemplos de aplicaciones biotecnológicas en la industria farmacéutica [0,3].<br>d) Explique qué es un OMG e indique dos ejemplos de su aplicación en la agricultura [1].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Biorremediación</mark> (0,1 p): proceso biotecnológico que <mark class=\"clave-criterio\">utiliza seres vivos o productos derivados de ellos</mark> para <mark class=\"clave-criterio\">recuperar un ecosistema alterado por contaminantes</mark> (0,4 p).",
+    "b) <mark class=\"clave-criterio\">Bacterias</mark>; organización <mark class=\"clave-criterio\">procariota</mark> (0,2 p).",
+    "c) Síntesis de <mark class=\"clave-criterio\">antibióticos</mark>, <mark class=\"clave-criterio\">hormonas</mark>, <mark class=\"clave-criterio\">interferón</mark>, <mark class=\"clave-criterio\">vacunas</mark>, etc. (dos, 0,3 p).",
+    "d) OMG: <mark class=\"clave-criterio\">organismo cuyo genoma ha sido modificado usando técnicas de ingeniería genética</mark> (0,5 p). Ejemplos: <mark class=\"clave-criterio\">bioinsecticidas</mark>, <mark class=\"clave-criterio\">plantas transgénicas resistentes a insectos, a enfermedades microbianas o a herbicidas</mark>, y <mark class=\"clave-criterio\">con características mejoradas</mark> (dos, a 0,25 p)."
+   ],
+   "origen": {
+    "documento": "Directrices y Orientaciones de Biología 2024-25 (Andalucía) · Modelo de prueba 2024-25",
+    "referencia": "Modelo de prueba 2024-25, opción 2, pregunta 4",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-ANDALUCIA-PAU-2025.pdf",
+    "criterios": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-ANDALUCIA-PAU-2025.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta del modelo oficial de prueba de Andalucía para la PAU 2025 (Directrices 2024-25), con sus criterios de corrección (Modelo de prueba 2024-25, opción 2, pregunta 4, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2025-andalucia-modelo-15",
+   "block": "Inmunología",
+   "topic": "Vacunas de la COVID-19: enzimas de restricción y anticuerpos anti-N y anti-S",
+   "anio": 2025,
+   "etiqueta": "Modelo Andalucía 24-25",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": true,
+   "q": "<b>El virus SARS-CoV-2, responsable de la COVID-19, expresa varios antígenos, entre los que se encuentra la nucleoproteína N (antígeno N) y la proteína Spike (antígeno S). Las vacunas utilizadas hasta el momento son vacunas recombinantes que se basan en el antígeno S.</b><br>a) Para la fabricación en el laboratorio de estas vacunas se necesitan enzimas de restricción ¿cuál es la función de estas enzimas? [0,5]<br>b) Explique frente a cuál de los dos antígenos del virus (N o S) habría que buscar anticuerpos para distinguir si una persona ha adquirido la inmunidad contra el virus de forma natural o mediante vacunación [0,5].<br>c) Si una persona que no ha sufrido la infección ha sido vacunada por primera vez una hora antes de hacerse el test ¿qué anticuerpos se encontrarán en su sangre? Razone la respuesta [0,5].<br>d) Indique la naturaleza química de las enzimas [0,25] y de los anticuerpos [0,25].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Reconocer secuencias específicas de la molécula de ADN y cortarlas en ese punto concreto</mark> (0,5 p).",
+    "b) Frente al <mark class=\"clave-criterio\">antígeno N</mark>, porque es el que <mark class=\"clave-criterio\">no está presente en las vacunas</mark> (0,5 p).",
+    "c) <mark class=\"clave-criterio\">Ninguno</mark>: los anticuerpos <mark class=\"clave-criterio\">tardan un tiempo en ser sintetizados</mark> (0,5 p).",
+    "d) Enzimas: <mark class=\"clave-criterio\">proteínas</mark>; anticuerpos: <mark class=\"clave-criterio\">glicoproteínas (proteínas)</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "Directrices y Orientaciones de Biología 2024-25 (Andalucía) · Modelo de prueba 2024-25",
+    "referencia": "Modelo de prueba 2024-25, opción 1, pregunta 5",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-ANDALUCIA-PAU-2025.pdf",
+    "criterios": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-ANDALUCIA-PAU-2025.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta del modelo oficial de prueba de Andalucía para la PAU 2025 (Directrices 2024-25), con sus criterios de corrección (Modelo de prueba 2024-25, opción 1, pregunta 5, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2025-andalucia-modelo-25",
+   "block": "Inmunología",
+   "topic": "Alergia y rechazo de un trasplante",
+   "anio": 2025,
+   "etiqueta": "Modelo Andalucía 24-25",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "<b>Observe la siguiente imagen en relación con el funcionamiento del sistema inmunitario y responda a las siguientes cuestiones:</b><br>a) ¿Qué procesos representan las figuras A y B? [0,4]<br>b) ¿Qué tipo de inmunoglobulina se produce en respuesta a la presencia de las partículas señaladas con 1? [0,1]<br>c) ¿Cuál es el nombre de la principal célula implicada en el proceso A? ¿Qué sustancia libera? [0,2]<br>d) Indique la causa por la que se produce el proceso B, qué tipo de medicamento se puede administrar al paciente para que no ocurra este proceso y explique cómo actúa [1]<br>e) Indique un tipo de técnica biotecnológica que permitiría evitar el proceso B en un futuro cercano [0,3].",
+   "c": [
+    "a) A: <mark class=\"clave-criterio\">reacción alérgica</mark>; B: <mark class=\"clave-criterio\">rechazo de órgano trasplantado</mark> (0,4 p).",
+    "b) <mark class=\"clave-criterio\">IgE</mark> (0,1 p).",
+    "c) <mark class=\"clave-criterio\">Mastocito</mark> (célula cebada); libera <mark class=\"clave-criterio\">histamina</mark> (0,2 p).",
+    "d) Causa: <mark class=\"clave-criterio\">incompatibilidad entre las proteínas MHC del donante y del receptor</mark> (0,5 p). Medicamento: <mark class=\"clave-criterio\">inmunosupresores</mark> (0,2 p), que <mark class=\"clave-criterio\">disminuyen temporalmente la respuesta inmune</mark> (0,3 p).",
+    "e) <mark class=\"clave-criterio\">Clonación de órganos</mark>; se admite también <mark class=\"clave-criterio\">terapia génica</mark> u <mark class=\"clave-criterio\">obtención de órganos artificiales</mark> (0,3 p). <span class=\"redactado\">Se refiere a obtener órganos a partir de células del propio paciente, por ejemplo células madre, o de animales modificados genéticamente para que no provoquen rechazo; todo ello aún en investigación.</span>"
+   ],
+   "origen": {
+    "documento": "Directrices y Orientaciones de Biología 2024-25 (Andalucía) · Modelo de prueba 2024-25",
+    "referencia": "Modelo de prueba 2024-25, opción 2, pregunta 5",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-ANDALUCIA-PAU-2025.pdf",
+    "criterios": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-ANDALUCIA-PAU-2025.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/andalucia-modelo-5-2.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/andalucia-modelo-5-2.thumb.webp",
+   "imageDesc": "A: unas partículas (1), como granos de polen, entran por la nariz; después la persona tiene la cara enrojecida e hinchada y picor en la piel. B: el riñón de un donante se trasplanta a un paciente; a los 3 días el riñón trasplantado aparece dañado y rodeado de anticuerpos.",
+   "isNew": false,
+   "f": "Pregunta del modelo oficial de prueba de Andalucía para la PAU 2025 (Directrices 2024-25), con sus criterios de corrección (Modelo de prueba 2024-25, opción 2, pregunta 5, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2025-madrid-modelo-1",
+   "block": "Metabolismo",
+   "topic": "Metabolismo aeróbico y anaeróbico en el ejercicio; diabetes e insulina",
+   "anio": 2025,
+   "etiqueta": "Modelo Madrid 24-25",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "<b>Respecto a los procesos metabólicos y la Biotecnología: El metabolismo es el conjunto de procesos químicos y biológicos que ocurren en las células de los seres vivos para mantener sus funciones vitales, favoreciendo la supervivencia, la reparación celular y el crecimiento. Dentro de este, se pueden distinguir dos tipos principales: el metabolismo aeróbico y el anaeróbico. El metabolismo aeróbico permite las actividades cotidianas y prolongadas del organismo y es típico en ejercicios de baja intensidad y larga duración, como caminar o correr a un ritmo moderado. Sin embargo, el metabolismo anaeróbico proporciona energía rápida a las células en situaciones de demanda extrema y es dominante en ejercicios de alta intensidad y corta duración, como el levantamiento de pesas o los esprints.</b><br>a) Nombre los metabolitos señalados con los números del “1” al “4” del esquema y razone brevemente si los procesos representados hacen referencia a procesos catabólicos o anabólicos (0,5 puntos).<br>b) Nombre las vías metabólicas señaladas con las letras “A”, “B” y “C” del esquema y explique cuál/cuáles de ellas podrían darse en un ejercicio de baja intensidad y cuál/cuáles de ellas en uno de alta intensidad (0,5 puntos).<br>c) Indique qué vías metabólicas puede seguir el piruvato en ausencia de oxígeno y mencione un proceso industrial en el que esté implicada cada una de ellas (0,5 puntos).<br>d) Indique cómo se denomina la enfermedad por la que las células no pueden utilizar la molécula “1” y cómo puede ayudar la biotecnología a las personas que la padecen para que puedan utilizar dicha molécula (0,5 puntos).",
+   "c": [
+    "a) 1 = <mark class=\"clave-criterio\">glucosa</mark>, 2 = <mark class=\"clave-criterio\">ácido graso</mark>, 3 = <mark class=\"clave-criterio\">acetil-CoA</mark>, 4 = <mark class=\"clave-criterio\">NADH</mark>. Son procesos <mark class=\"clave-criterio\">catabólicos</mark>: <mark class=\"clave-criterio\">degradación de moléculas complejas hasta moléculas más sencillas</mark> (con <mark class=\"clave-criterio\">producción de energía en forma de ATP y poder reductor</mark>) (0,5 p).",
+    "b) A = <mark class=\"clave-criterio\">glucólisis</mark>, B = <mark class=\"clave-criterio\">β-oxidación</mark>, C = <mark class=\"clave-criterio\">ciclo de Krebs</mark>. La β-oxidación y el ciclo de Krebs, solo en el ejercicio de <mark class=\"clave-criterio\">baja intensidad, aeróbico</mark>, porque <mark class=\"clave-criterio\">necesitan el oxígeno como aceptor final de electrones</mark> (para la cadena de transporte y la fosforilación oxidativa); la glucólisis, <mark class=\"clave-criterio\">en los dos</mark>, porque <mark class=\"clave-criterio\">no lo necesita</mark> (0,5 p).",
+    "c) <mark class=\"clave-criterio\">Fermentación láctica</mark>, en los <mark class=\"clave-criterio\">derivados lácteos</mark> (yogur, queso, cuajada…), y <mark class=\"clave-criterio\">fermentación alcohólica</mark>, en el <mark class=\"clave-criterio\">pan, la cerveza o el vino</mark> (0,5 p).",
+    "d) <mark class=\"clave-criterio\">Diabetes</mark>; la biotecnología obtiene <mark class=\"clave-criterio\">insulina</mark> (hormona responsable de la <mark class=\"clave-criterio\">captación de glucosa por las células</mark>) a partir de <mark class=\"clave-criterio\">microorganismos modificados genéticamente</mark> mediante <mark class=\"clave-criterio\">ingeniería genética / ADN recombinante</mark> (0,5 p). <span class=\"redactado\">Se refiere a la diabetes tipo 1, en la que falta insulina.</span>"
+   ],
+   "origen": {
+    "documento": "Modelo orientativo PAU 2025 (universidades públicas de la Comunidad de Madrid) · Modelo orientativo 2024-25",
+    "referencia": "Modelo orientativo 2024-25, pregunta 1",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MADRID-PAU-2025.pdf",
+    "criterios": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MADRID-PAU-2025.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/madrid-modelo-1.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/madrid-modelo-1.thumb.webp",
+   "imageDesc": "Una molécula 1 (glucosa en forma cíclica) pasa por la vía A a piruvato; una molécula 2 (cadena CH₃-CH₂-CH₂-(CH₂)ₙ-CH₂-COOH) pasa por la vía B; ambas dan la molécula 3, que entra en el ciclo C (citrato, oxalacetato), del que salen GTP, la molécula 4, FADH₂ y CO₂.",
+   "isNew": false,
+   "f": "Pregunta del modelo orientativo de la PAU 2025 de la Comunidad de Madrid, con sus soluciones (documento de trabajo orientativo) (Modelo orientativo 2024-25, pregunta 1, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2025-madrid-modelo-a2",
+   "block": "Biomoléculas",
+   "topic": "Biomoléculas características de alimentos; glúcidos no energéticos",
+   "anio": 2025,
+   "etiqueta": "Modelo Madrid 24-25",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "<b>En relación con la composición de la materia viva:</b><br>a) Cada uno de los compuestos de la columna de la izquierda es un componente característico de sólo uno de los alimentos de la columna de la derecha. Asocie cada número con la letra correspondiente (1 punto):<table class=\"tabla-pau\"><tr><td>1. Monosacáridos</td><td>A. Aceite de oliva</td></tr><tr><td>2. Ácidos grasos insaturados</td><td>B. Patata</td></tr><tr><td>3. Glucógeno</td><td>C. Tomate</td></tr><tr><td>4. Ácidos grasos saturados</td><td>D. Clara de huevo</td></tr><tr><td>5. Carotenos</td><td>E. Hígado de cerdo</td></tr><tr><td>6. Glucofosfolípidos</td><td>F. Miel</td></tr><tr><td>7. Proteínas</td><td>G. Sesos de cordero</td></tr><tr><td>8. Almidón</td><td>H. Manteca de cerdo</td></tr></table>b) Los glúcidos son conocidos por ser las moléculas utilizadas como combustible metabólico por las células, pero esto no siempre es así. Cite dos ejemplos de glúcidos con funciones no energéticas, indicando estas (0,5 puntos).<br>c) El análisis elemental de una muestra biológica indica que está compuesta por carbono, hidrógeno y oxígeno, siendo este último elemento muy minoritario en su composición. Razone a qué grupo de biomoléculas pertenece la muestra analizada (0,5 puntos).",
+   "c": [
+    "a) <mark class=\"clave-criterio\">1-F; 2-A; 3-E; 4-H; 5-C; 6-G; 7-D; 8-B</mark> (0,25 p por cada dos relaciones) (1 p).",
+    "b) Dos glúcidos con su función: <mark class=\"clave-criterio\">ribosa</mark>, componente del <mark class=\"clave-criterio\">ARN</mark>; <mark class=\"clave-criterio\">desoxirribosa</mark>, del <mark class=\"clave-criterio\">ADN</mark>; <mark class=\"clave-criterio\">celulosa</mark>, de la <mark class=\"clave-criterio\">pared celular vegetal</mark>; <mark class=\"clave-criterio\">quitina</mark>, de la <mark class=\"clave-criterio\">pared de los hongos</mark>; <mark class=\"clave-criterio\">peptidoglicano</mark>, de la <mark class=\"clave-criterio\">pared bacteriana</mark>; glúcidos unidos a lípidos y proteínas de la <mark class=\"clave-criterio\">cara externa de la membrana</mark>; glúcidos de <mark class=\"clave-criterio\">proteínas complejas</mark> (inmunoglobulinas)… (0,25 p cada uno) (0,5 p).",
+    "c) El <mark class=\"clave-criterio\">bajo porcentaje de oxígeno</mark> indica un compuesto <mark class=\"clave-criterio\">poco polar</mark>: es un <mark class=\"clave-criterio\">lípido</mark> (un glúcido también tiene C, H y O, pero su <mark class=\"clave-criterio\">oxígeno sería equivalente al carbono</mark>, no minoritario) (0,5 p)."
+   ],
+   "origen": {
+    "documento": "Modelo orientativo PAU 2025 (universidades públicas de la Comunidad de Madrid) · Modelo orientativo 2024-25",
+    "referencia": "Modelo orientativo 2024-25, opción A, pregunta 2",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MADRID-PAU-2025.pdf",
+    "criterios": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MADRID-PAU-2025.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta del modelo orientativo de la PAU 2025 de la Comunidad de Madrid, con sus soluciones (documento de trabajo orientativo) (Modelo orientativo 2024-25, opción A, pregunta 2, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2025-madrid-modelo-b2",
+   "block": "Biomoléculas",
+   "topic": "Nucleótidos del ADN, Chargaff y temperatura de desnaturalización",
+   "anio": 2025,
+   "etiqueta": "Modelo Madrid 24-25",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "<b>En relación con los ácidos nucleicos.</b><br>a) Indique qué tipo de monómero constituye el ADN. Nombre las moléculas que componen este monómero (1 punto).<br>b) Si una molécula de ADN bicatenario presenta en su composición un 31% de guanina, indique el porcentaje de las restantes bases (0,5 puntos).<br>c) Razone cómo influye el porcentaje de guanina en la temperatura de desnaturalización del ADN (0,5 puntos).",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Nucleótido (desoxirribonucleótido)</mark> (0,25 p), formado por <mark class=\"clave-criterio\">desoxirribosa</mark> (0,25 p), <mark class=\"clave-criterio\">base nitrogenada</mark> (adenina, timina, guanina o citosina) (0,25 p) y <mark class=\"clave-criterio\">ácido fosfórico o grupo fosfato</mark> (0,25 p).",
+    "b) <mark class=\"clave-criterio\">31 % de citosina, 19 % de adenina y 19 % de timina</mark> (0,5 p). <span class=\"redactado\">G = C = 31 %; A = T = (100 − 62) / 2 = 19 %.</span>",
+    "c) La temperatura de desnaturalización <mark class=\"clave-criterio\">aumenta con el porcentaje de guanina y citosina</mark>: entre G y C hay <mark class=\"clave-criterio\">tres enlaces de hidrógeno</mark> y entre A y T <mark class=\"clave-criterio\">solo dos</mark>; a <mark class=\"clave-criterio\">más enlaces de hidrógeno</mark>, <mark class=\"clave-criterio\">más energía y temperatura</mark> hacen falta para separar las cadenas (0,5 p)."
+   ],
+   "origen": {
+    "documento": "Modelo orientativo PAU 2025 (universidades públicas de la Comunidad de Madrid) · Modelo orientativo 2024-25",
+    "referencia": "Modelo orientativo 2024-25, opción B, pregunta 2",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MADRID-PAU-2025.pdf",
+    "criterios": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MADRID-PAU-2025.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta del modelo orientativo de la PAU 2025 de la Comunidad de Madrid, con sus soluciones (documento de trabajo orientativo) (Modelo orientativo 2024-25, opción B, pregunta 2, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2025-madrid-modelo-a3",
+   "block": "Genética",
+   "topic": "Transcripción, anticodones y terminación de la traducción",
+   "anio": 2025,
+   "etiqueta": "Modelo Madrid 24-25",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "<b>En relación con el material hereditario:</b><br>a) Siendo la secuencia de la cadena molde de un fragmento de ADN 3´-GTACGAATCGTGGCTGGAGATTGCA-5´, indique la secuencia y polaridad de la hebra que sintetizará la ARN polimerasa (0,5 puntos).<br>b) Indique cuántos aminoácidos componen la proteína codificada por el ARNm obtenido, siendo el codón STOP “UAA”. Escriba las secuencias de los anticodones de los ARNt correspondientes a cada aminoácido y sus polaridades (1 punto).<br>c) Describa brevemente la finalización de la traducción en procariotas (0,5 puntos).",
+   "c": [
+    "a) <mark class=\"clave-criterio\">5´-CAUGCUUAGCACCGACCUCUAACGU-3´</mark> (0,25 p la secuencia y 0,25 p la polaridad).",
+    "b) <mark class=\"clave-criterio\">6 aminoácidos</mark>: hay <mark class=\"clave-criterio\">6 codones incluido el de iniciación</mark> (0,25 p). Anticodones: <mark class=\"clave-criterio\">3’-UAC-5’; 3’-GAA-5’; 3’-UCG-5’; 3’-UGG-5’; 3’-CUG-5’; 3’-GAG-5’</mark> (0,25 p por cada dos) (1 p). <span class=\"redactado\">La lectura empieza en el AUG: AUG CUU AGC ACC GAC CUC UAA = Met-Leu-Ser-Thr-Asp-Leu y parada.</span>",
+    "c) Cuando el ribosoma alcanza el <mark class=\"clave-criterio\">codón de terminación</mark>, lo reconocen <mark class=\"clave-criterio\">factores proteicos</mark> (de liberación) que provocan la <mark class=\"clave-criterio\">separación de las subunidades</mark> y la <mark class=\"clave-criterio\">liberación del ARNm y de la proteína</mark> recién sintetizada (0,5 p)."
+   ],
+   "origen": {
+    "documento": "Modelo orientativo PAU 2025 (universidades públicas de la Comunidad de Madrid) · Modelo orientativo 2024-25",
+    "referencia": "Modelo orientativo 2024-25, opción A, pregunta 3",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MADRID-PAU-2025.pdf",
+    "criterios": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MADRID-PAU-2025.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta del modelo orientativo de la PAU 2025 de la Comunidad de Madrid, con sus soluciones (documento de trabajo orientativo) (Modelo orientativo 2024-25, opción A, pregunta 3, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2025-madrid-modelo-b3",
+   "block": "Genética",
+   "topic": "Relacionar conceptos de replicación, transcripción, traducción y mutación",
+   "anio": 2025,
+   "etiqueta": "Modelo Madrid 24-25",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "<b>En relación con la información genética de los seres vivos:</b><br>a) Relacione cada uno de los conceptos indicados con números con solo uno de los indicados con letras (1 punto). 1) Transversión, 2) Sitio A, 3) Promotor, 4) Fragmento de Okazaki, 5) Cola de poliadeninas, 6) Subunidad ribosomal, 7) ADN polimerasa III, 8) Inserción. A) Replicación, B) Transcripción, C) Traducción, D) Mutación.<br>b) Describa brevemente el proceso de transcripción del ARNm y explique su significado biológico (1 punto).",
+   "c": [
+    "a) <mark class=\"clave-criterio\">1-D; 2-C; 3-B; 4-A; 5-B; 6-C; 7-A; 8-D</mark> (0,25 p por cada dos) (1 p). <span class=\"redactado\">La cola de poli-A se añade en la maduración del ARNm, que sigue a la transcripción.</span>",
+    "b) Es la <mark class=\"clave-criterio\">síntesis de un ARN mensajero</mark> cuya secuencia es <mark class=\"clave-criterio\">complementaria a la hebra molde</mark> (e <mark class=\"clave-criterio\">idéntica a la codificante, con U en lugar de T</mark>) del ADN de un gen (0,5 p). Significado: <mark class=\"clave-criterio\">transmitir la información genética del ADN al ARN</mark> para que pueda <mark class=\"clave-criterio\">traducirse a una secuencia proteica por los ribosomas</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "Modelo orientativo PAU 2025 (universidades públicas de la Comunidad de Madrid) · Modelo orientativo 2024-25",
+    "referencia": "Modelo orientativo 2024-25, opción B, pregunta 3",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MADRID-PAU-2025.pdf",
+    "criterios": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MADRID-PAU-2025.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta del modelo orientativo de la PAU 2025 de la Comunidad de Madrid, con sus soluciones (documento de trabajo orientativo) (Modelo orientativo 2024-25, opción B, pregunta 3, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2025-madrid-modelo-a4",
+   "block": "Célula",
+   "topic": "Huso acromático, cromoplastos, peroxisomas y envoltura nuclear",
+   "anio": 2025,
+   "etiqueta": "Modelo Madrid 24-25",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "<b>En relación con la biología celular:</b><br>a) Explique qué es el huso acromático y cuál es su composición. Indique la función del huso acromático (0,75 puntos).<br>b) ¿En qué orgánulo se encuentran los pigmentos carotenoides de las raíces de las zanahorias? ¿En qué orgánulo se encuentran las enzimas peroxidasas? (0,5 puntos).<br>c) Describa brevemente la envoltura nuclear (0,75 puntos).",
+   "c": [
+    "a) Estructura de <mark class=\"clave-criterio\">fibras de microtúbulos de tubulina</mark> que se extiende <mark class=\"clave-criterio\">entre los dos centrosomas</mark> (con centriolos en las células animales y sin ellos en las vegetales) y se forma <mark class=\"clave-criterio\">durante la división celular</mark> (0,5 p). Función: <mark class=\"clave-criterio\">dirigir los cromosomas o cromátidas hacia los polos</mark> en la mitosis y la meiosis (0,25 p).",
+    "b) En los <mark class=\"clave-criterio\">cromoplastos (plastos)</mark> (0,25 p) y en los <mark class=\"clave-criterio\">peroxisomas</mark> (0,25 p).",
+    "c) Formada por una <mark class=\"clave-criterio\">membrana externa</mark> y otra <mark class=\"clave-criterio\">interna</mark>, interrumpidas por <mark class=\"clave-criterio\">poros nucleares</mark>; la externa se relaciona con los <mark class=\"clave-criterio\">ribosomas y el retículo endoplasmático</mark>, y la interna con la <mark class=\"clave-criterio\">lámina nuclear</mark> (0,75 p)."
+   ],
+   "origen": {
+    "documento": "Modelo orientativo PAU 2025 (universidades públicas de la Comunidad de Madrid) · Modelo orientativo 2024-25",
+    "referencia": "Modelo orientativo 2024-25, opción A, pregunta 4",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MADRID-PAU-2025.pdf",
+    "criterios": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MADRID-PAU-2025.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta del modelo orientativo de la PAU 2025 de la Comunidad de Madrid, con sus soluciones (documento de trabajo orientativo) (Modelo orientativo 2024-25, opción A, pregunta 4, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2025-madrid-modelo-b4",
+   "block": "Célula",
+   "topic": "Identificar orgánulos por su composición; variabilidad en la meiosis",
+   "anio": 2025,
+   "etiqueta": "Modelo Madrid 24-25",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "<b>En relación con la biología celular:</b><br>a) La observación y análisis químico de cuatro orgánulos o estructuras celulares eucariotas presenta los resultados que se muestran en la tabla inferior. Indique un posible orgánulo o estructura celular que puede tener estas características para cada una de las observaciones. No es necesario copiar la tabla en la hoja de respuestas (1 punto).<table class=\"tabla-pau\"><tr><th></th><th>Muestra nº 1</th><th>Muestra nº 2</th><th>Muestra nº 3</th><th>Muestra nº 4</th></tr><tr><td>Estructura observada</td><td>no membranosa</td><td>membranosa</td><td>membranosa</td><td>no membranosa</td></tr><tr><td>Sustancia presente</td><td>tubulina</td><td>citocromo</td><td>ARNr</td><td>triglicérido</td></tr><tr><td>Orgánulo o estructura celular</td><td></td><td></td><td></td><td></td></tr></table>b) Explique en qué fases de la división celular se genera variabilidad genética y cómo se produce esta (1 punto).",
+   "c": [
+    "a) 1: <mark class=\"clave-criterio\">microtúbulos, centriolo, centrosoma, citoesqueleto</mark>; 2: <mark class=\"clave-criterio\">mitocondria, cloroplasto</mark>; 3: <mark class=\"clave-criterio\">mitocondria, cloroplasto, RER, envoltura nuclear</mark>; 4: <mark class=\"clave-criterio\">inclusión (gota lipídica)</mark> (uno por muestra, 0,25 p cada uno) (1 p).",
+    "b) En la <mark class=\"clave-criterio\">profase I</mark> de la meiosis, por la <mark class=\"clave-criterio\">recombinación génica (sobrecruzamiento)</mark> (0,5 p), y en las <mark class=\"clave-criterio\">anafases meióticas I y II</mark>, por la <mark class=\"clave-criterio\">segregación cromosómica</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "Modelo orientativo PAU 2025 (universidades públicas de la Comunidad de Madrid) · Modelo orientativo 2024-25",
+    "referencia": "Modelo orientativo 2024-25, opción B, pregunta 4",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MADRID-PAU-2025.pdf",
+    "criterios": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MADRID-PAU-2025.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta del modelo orientativo de la PAU 2025 de la Comunidad de Madrid, con sus soluciones (documento de trabajo orientativo) (Modelo orientativo 2024-25, opción B, pregunta 4, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2025-madrid-modelo-a5",
+   "block": "Inmunología",
+   "topic": "Curso de la COVID-19: incubación, contagio sin síntomas, IgM e IgG",
+   "anio": 2025,
+   "etiqueta": "Modelo Madrid 24-25",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "<b>Con respecto a las enfermedades infecciosas y el sistema inmune: La siguiente gráfica representa la evolución de la cantidad de virus SARS-CoV-2 en el organismo de un joven desde el día en que tuvo contacto con un enfermo por COVID-19 (día -5). El día 0 el joven empieza a sentir síntomas que desaparecen el día 14. El joven dio positivo en las pruebas de detección de virus en sus secreciones entre el día -2 y el día 7.</b><br>a) Defina “periodo de incubación”. Indique, en el ejemplo de la gráfica, el día de inicio y el día en que termina este periodo (0,5 puntos).<br>b) Indique el periodo de tiempo en el que este joven podría transmitir la infección a otras personas. Para contagiar a otros, ¿es necesario tener síntomas? Razone ambas repuestas (1 punto).<br>c) Tras los primeros días de contacto con el virus, se detectó en la sangre del joven un tipo de anticuerpo que fue sustituido por otro en las semanas posteriores. Indique qué tipo de inmunoglobulina aparece en el primer contacto con un antígeno y cuál la sustituye después (0,5 puntos).",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Tiempo comprendido entre la exposición a un agente biológico y la aparición de síntomas</mark> (0,25 p); del <mark class=\"clave-criterio\">día -5</mark> (inicio) al <mark class=\"clave-criterio\">día 0</mark> (final) (0,25 p).",
+    "b) Entre el <mark class=\"clave-criterio\">día -2 y el día 7</mark>, porque es el <mark class=\"clave-criterio\">periodo de eliminación de virus en sus secreciones</mark> (0,5 p). <mark class=\"clave-criterio\">No es necesario tener síntomas</mark>: puede haber <mark class=\"clave-criterio\">virus en las secreciones al inicio de la enfermedad</mark> (del día -2 al 0) o en personas cuyas <mark class=\"clave-criterio\">defensas evitan el desarrollo de la enfermedad</mark> (0,5 p).",
+    "c) Primero <mark class=\"clave-criterio\">IgM</mark> (0,25 p), sustituida después por <mark class=\"clave-criterio\">IgG</mark> (0,25 p)."
+   ],
+   "origen": {
+    "documento": "Modelo orientativo PAU 2025 (universidades públicas de la Comunidad de Madrid) · Modelo orientativo 2024-25",
+    "referencia": "Modelo orientativo 2024-25, opción A, pregunta 5",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MADRID-PAU-2025.pdf",
+    "criterios": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MADRID-PAU-2025.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/madrid-modelo-5a.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/madrid-modelo-5a.thumb.webp",
+   "imageDesc": "Gráfica de carga viral frente al día (de -5 a 14): sube desde el día -3, alcanza el máximo el día 0 (inicio de los síntomas) y baja después. Se señala «Virus en secreciones» entre los días -2 y 7.",
+   "isNew": false,
+   "f": "Pregunta del modelo orientativo de la PAU 2025 de la Comunidad de Madrid, con sus soluciones (documento de trabajo orientativo) (Modelo orientativo 2024-25, opción A, pregunta 5, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2025-madrid-modelo-b5",
+   "block": "Inmunología",
+   "topic": "Vacunas atenuadas e inactivadas; dosis de recuerdo; inmunidad pasiva",
+   "anio": 2025,
+   "etiqueta": "Modelo Madrid 24-25",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "<b>Con respecto al sistema inmune:</b><br>a) ¿Qué es una vacuna? ¿Cómo se denomina la inmunidad proporcionada por las vacunas? ¿Cuál es la finalidad de repetir la administración de una vacuna? (0,75 puntos).<br>b) Razone si es lo mismo una vacuna viva atenuada que una vacuna inactivada. ¿Alguna de estas vacunas podría causar síntomas de la enfermedad frente a la que protege? (0,75 puntos).<br>c) ¿Qué se entiende por inmunidad pasiva? ¿Qué tipos conoce? (0,5 puntos).",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Preparado que se introduce en un sujeto sano para estimular la producción de anticuerpos (inmunidad) frente a un agente patógeno</mark> (0,25 p); <mark class=\"clave-criterio\">inmunidad activa artificial</mark> (0,25 p); repetirla sirve para <mark class=\"clave-criterio\">reforzar la memoria inmunitaria</mark> (mantener los niveles de anticuerpos) (0,25 p).",
+    "b) <mark class=\"clave-criterio\">No</mark>: la atenuada se fabrica con <mark class=\"clave-criterio\">microorganismos vivos que han dejado de ser virulentos</mark> (debilitados) y la inactivada con <mark class=\"clave-criterio\">microorganismos muertos o parte de ellos</mark> (0,5 p). La <mark class=\"clave-criterio\">atenuada puede causar algún síntoma</mark> de la enfermedad (0,25 p).",
+    "c) La que proporciona la <mark class=\"clave-criterio\">administración de anticuerpos</mark> (0,25 p). Tipos: <mark class=\"clave-criterio\">natural</mark> (de la madre al feto o al recién nacido <mark class=\"clave-criterio\">por la placenta o la leche</mark>) y <mark class=\"clave-criterio\">artificial</mark> (<mark class=\"clave-criterio\">sueroterapia</mark>) (0,25 p)."
+   ],
+   "origen": {
+    "documento": "Modelo orientativo PAU 2025 (universidades públicas de la Comunidad de Madrid) · Modelo orientativo 2024-25",
+    "referencia": "Modelo orientativo 2024-25, opción B, pregunta 5",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MADRID-PAU-2025.pdf",
+    "criterios": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MADRID-PAU-2025.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta del modelo orientativo de la PAU 2025 de la Comunidad de Madrid, con sus soluciones (documento de trabajo orientativo) (Modelo orientativo 2024-25, opción B, pregunta 5, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2025-aragon-modelo-1",
+   "block": "Célula",
+   "topic": "Tipos de células según su metabolismo; fermentación; fotólisis del agua; sistema de endomembranas",
+   "anio": 2025,
+   "etiqueta": "Modelo Aragón 24-25",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "<b>PREGUNTA DE CARÁCTER OBLIGATORIO. Suponga que trabaja en un laboratorio en el que se hacen cultivos de células de diferente naturaleza. Tras analizar diferentes parámetros de los cultivos se obtienen los resultados de la tabla. Responda razonadamente a las siguientes cuestiones:</b><table class=\"tabla-pau\"><tr><th>Cultivo</th><th>Crecimiento en oscuridad</th><th>Crecimiento en ausencia de O<sub>2</sub></th><th>Desprendimiento de O<sub>2</sub> con luz</th><th>Contiene mitocondrias</th><th>Tiene pared celular</th></tr><tr><td>A</td><td>Sí</td><td>Sí</td><td>No</td><td>No</td><td>Sí</td></tr><tr><td>B</td><td>No</td><td>No</td><td>Sí</td><td>Sí</td><td>Sí</td></tr><tr><td>C</td><td>Sí</td><td>No</td><td>No</td><td>Sí</td><td>No</td></tr></table>a) ¿A qué grupo de células pertenecen los cultivos A y B? Razónelo (0,4 puntos).<br>b) Las células del cultivo A son las únicas capaces de crecer en ausencia de O<sub>2</sub> si disponen de glucosa. Además, en un análisis adicional se ha comprobado que el pH de este cultivo en estas condiciones es muy bajo. ¿Qué productos podríamos encontrar en el medio de cultivo como consecuencia de su actividad? Razónelo (0,3 puntos).<br>c) Explique brevemente el proceso por el que se origina el oxígeno en el caso del cultivo B. ¿En qué orgánulo se producirá? Sea lo más concreto posible (0,3 puntos).<br><b>Ha sido capaz de aislar una célula del cultivo C, y mediante microscopía e inteligencia artificial ha obtenido el esquema adjunto, correspondiente a dicha célula. Responda las siguientes preguntas:</b><br>d) Identifique las estructuras numeradas de 1 al 7 (0,3 puntos).<br>e) Indique una función de cada una de las estructuras numeradas (0,3 puntos).<br>f) Teniendo en cuenta que el dibujo representa un fragmento de una célula y que pertenece al cultivo C, ¿podría decir de qué tipo de célula se trata? Razone su respuesta (0,4 puntos).",
+   "c": [
+    "<span class=\"redactado\">a) A: célula procariota (bacteria): tiene pared celular pero no mitocondrias, y es anaerobia (crece sin O₂) y heterótrofa (crece en oscuridad y no desprende O₂). B: célula eucariota vegetal (o alga) fotosintética: tiene pared y mitocondrias y desprende O₂ con luz; no crece en oscuridad porque es fotoautótrofa y depende de la luz.</span>",
+    "<span class=\"redactado\">b) Las células de A obtienen energía de la glucosa por fermentación. El pH muy bajo indica que se acumula un ácido: lo más probable es una fermentación láctica, con ácido láctico (lactato) en el medio; otras bacterias producen ácidos distintos, como el acético en otras fermentaciones. No sería la alcohólica, cuyos productos (etanol y CO₂) no acidifican tanto el medio.</span>",
+    "<span class=\"redactado\">c) Por fotólisis del agua en la fase luminosa de la fotosíntesis: el fotosistema II, excitado por la luz, pierde electrones que repone rompiendo moléculas de agua (2 H₂O → 4 H⁺ + 4 e⁻ + O₂); el O₂ se desprende. Ocurre en el cloroplasto, en la membrana de los tilacoides (complejo que oxida el agua del fotosistema II, en la cara que da al lumen tilacoidal).</span>",
+    "<span class=\"redactado\">d) 1, aparato de Golgi; 2, retículo endoplasmático liso; 3, retículo endoplasmático rugoso; 4, núcleo; 5, poro nuclear; 6, membrana plasmática; 7, ribosoma.</span>",
+    "<span class=\"redactado\">e) 1, Golgi: modifica (glucosilación), empaqueta y distribuye proteínas y lípidos en vesículas (secreción, lisosomas, membrana). 2, REL: síntesis de lípidos de membrana y esteroides, detoxificación, almacén de Ca²⁺. 3, RER: síntesis y modificación de proteínas de membrana y de secreción. 4, núcleo: contiene y protege el ADN y dirige la actividad celular (replicación y transcripción). 5, poro nuclear: intercambio controlado de moléculas entre núcleo y citoplasma (ARNm y subunidades ribosómicas salen, proteínas entran). 6, membrana plasmática: límite de la célula y transporte selectivo, reconocimiento y comunicación. 7, ribosoma: síntesis de proteínas (traducción).</span>",
+    "<span class=\"redactado\">f) Una célula eucariota animal: tiene núcleo y sistema de endomembranas (eucariota) y mitocondrias, pero no pared celular (la membrana plasmática 6 es el límite externo) ni cloroplastos (no desprende O₂ con luz); es aerobia y heterótrofa (crece en oscuridad pero no sin O₂). El gran desarrollo del RER y del Golgi sugiere una célula secretora.</span>"
+   ],
+   "origen": {
+    "documento": "Modelo orientativo PAU 2025 de Aragón (Universidad de Zaragoza) · Modelo orientativo 2024-25",
+    "referencia": "Modelo orientativo 2024-25, pregunta 1",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/ARAGÓN.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/aragon-modelo-1.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/aragon-modelo-1.thumb.webp",
+   "imageDesc": "Fragmento de una célula del cultivo C con siete estructuras numeradas: 1, pilas de cisternas aplanadas con vesículas; 2, red de túbulos sin ribosomas; 3, sacos aplanados con gránulos adosados; 4, el gran orgánulo esférico con su envoltura; 5, un poro de esa envoltura; 6, la membrana que limita la célula; 7, uno de los gránulos adosados a los sacos de 3.",
+   "isNew": false,
+   "f": "Pregunta del modelo orientativo de la PAU 2025 de Aragón (Universidad de Zaragoza) (Modelo orientativo 2024-25, pregunta 1, 2 puntos). Solución redactada por BioCelia (en morado): el modelo de Aragón se publicó sin soluciones."
+  },
+  {
+   "id": "pau2025-aragon-modelo-a2",
+   "block": "Genética",
+   "topic": "Código genético; mutaciones génicas y sus consecuencias; evolución",
+   "anio": 2025,
+   "etiqueta": "Modelo Aragón 24-25",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "<b>Responda las siguientes cuestiones relacionadas con el código genético:</b><br>a) Explique tres características importantes del código genético, sirviéndose de ejemplos a partir de la tabla adjunta, cuando sea posible (0,6 puntos).<br>b) Explique detalladamente los tipos de mutaciones génicas (o puntuales) que existen (0,4 puntos).<br>c) Explique las consecuencias más probables de cada una de ellas. Sírvase de la tabla adjunta para poner algún ejemplo, cuando sea posible (0,8 puntos).<br>d) ¿Qué papel tienen las mutaciones en el proceso evolutivo? Razónelo (0,2 puntos).",
+   "c": [
+    "<span class=\"redactado\">a) Por ejemplo: 1) Es un código de tripletes: cada codón de tres nucleótidos codifica un aminoácido (AUG = Met). 2) Es degenerado: casi todos los aminoácidos tienen varios codones (Leu tiene seis: UUA, UUG, CUU, CUC, CUA, CUG), aunque no es ambiguo: cada codón corresponde a un solo aminoácido. 3) Tiene señales de inicio y de terminación: AUG (Met) inicia la traducción y UAA, UAG y UGA son codones de parada. Además es casi universal (el mismo en casi todos los seres vivos) y se lee sin solapamiento y sin comas, de forma continua.</span>",
+    "<span class=\"redactado\">b) Las mutaciones génicas o puntuales afectan a uno o pocos nucleótidos de un gen. Sustituciones: se cambia una base por otra, ya sea una transición (purina por purina o pirimidina por pirimidina) o una transversión (purina por pirimidina o al revés). Inserciones (adiciones) y deleciones: se añaden o se pierden uno o varios nucleótidos.</span>",
+    "<span class=\"redactado\">c) Sustitución silenciosa o sinónima: el nuevo codón codifica el mismo aminoácido por la degeneración del código, sin efecto (GCU → GCC, los dos Ala). Sustitución de cambio de sentido: cambia un aminoácido, con un efecto variable según el cambio y su posición (GAA Glu → GUA Val, como en la anemia falciforme). Sustitución sin sentido: aparece un codón de parada y la proteína queda truncada, normalmente no funcional (UAU Tyr → UAA STOP). Inserciones y deleciones de un número de bases no múltiplo de tres: desplazan el marco de lectura, por lo que cambian todos los aminoácidos siguientes y suele aparecer un STOP prematuro; la proteína casi siempre es no funcional. Si son de tres bases, se añade o se pierde un aminoácido.</span>",
+    "<span class=\"redactado\">d) Las mutaciones son la fuente primaria de la variabilidad genética: originan nuevos alelos. Sobre esa variabilidad actúa la selección natural, que favorece las mutaciones ventajosas en un ambiente dado y elimina las perjudiciales; así, a lo largo de las generaciones, se produce la evolución.</span>"
+   ],
+   "origen": {
+    "documento": "Modelo orientativo PAU 2025 de Aragón (Universidad de Zaragoza) · Modelo orientativo 2024-25",
+    "referencia": "Modelo orientativo 2024-25, opción A, pregunta 2",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/ARAGÓN.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/aragon-modelo-2a.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/aragon-modelo-2a.thumb.webp",
+   "imageDesc": "Tabla del código genético: los 64 codones del ARNm ordenados por primera, segunda y tercera letra, con el aminoácido de cada uno; AUG (Met) y los codones STOP UAA, UAG y UGA.",
+   "isNew": false,
+   "f": "Pregunta del modelo orientativo de la PAU 2025 de Aragón (Universidad de Zaragoza) (Modelo orientativo 2024-25, opción A, pregunta 2, 2 puntos). Solución redactada por BioCelia (en morado): el modelo de Aragón se publicó sin soluciones."
+  },
+  {
+   "id": "pau2025-aragon-modelo-b2",
+   "block": "Genética",
+   "topic": "Transcripción, maduración del ARNm y traducción en eucariotas",
+   "anio": 2025,
+   "etiqueta": "Modelo Aragón 24-25",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "<b>El esquema adjunto representa varios procesos celulares:</b><br>a) Cite el nombre de las estructuras señaladas con letras (A-F) (0,6 puntos).<br>b) Nombre el proceso que forma la molécula B, explicando brevemente las etapas principales del mismo (0,7 puntos).<br>c) Explique brevemente el papel del componente C (0,2 puntos).<br>d) Explique brevemente el proceso señalado por el número 1. Indique en qué orgánulo se lleva a cabo (0,4 puntos).<br>e) ¿Cómo se llama el proceso número 2? Indique en qué orgánulo se lleva a cabo (0,1 puntos).",
+   "c": [
+    "<span class=\"redactado\">a) A, ADN (doble hélice abierta; la hebra que se copia es la molde); B, ARN (transcrito primario o pre-ARNm); C, ARN polimerasa (II en eucariotas); D, exón; E, intrón; F, proteína (cadena polipeptídica, con sus extremos amino y carboxilo).</span>",
+    "<span class=\"redactado\">b) La transcripción. Iniciación: la ARN polimerasa, con los factores de transcripción, se une al promotor y abre la doble hélice. Elongación: la polimerasa lee la hebra molde en sentido 3'→5' y sintetiza el ARN en sentido 5'→3' con ribonucleótidos complementarios (U frente a A); poco después se añade la caperuza en el extremo 5'. Terminación: al llegar a la señal de terminación se libera el ARN; en eucariotas se corta y se añade la cola de poli-A en el extremo 3'.</span>",
+    "<span class=\"redactado\">c) La ARN polimerasa es la enzima que cataliza la transcripción: reconoce el promotor, desenrolla el ADN y une los ribonucleótidos complementarios a la hebra molde (5'→3') mediante enlaces fosfodiéster, sin necesitar cebador.</span>",
+    "<span class=\"redactado\">d) Es la maduración (procesamiento) del ARNm, en concreto el corte y empalme (splicing): el espliceosoma (ribonucleoproteínas pequeñas nucleares) elimina los intrones (E) y une los exones (D), dando el ARNm maduro, que conserva la caperuza 5' y la cola de poli-A. Se realiza en el núcleo.</span>",
+    "<span class=\"redactado\">e) La traducción (síntesis de proteínas), que se lleva a cabo en los ribosomas del citoplasma (libres o unidos al retículo endoplasmático rugoso).</span>"
+   ],
+   "origen": {
+    "documento": "Modelo orientativo PAU 2025 de Aragón (Universidad de Zaragoza) · Modelo orientativo 2024-25",
+    "referencia": "Modelo orientativo 2024-25, opción B, pregunta 2",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/ARAGÓN.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/aragon-modelo-2b.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/aragon-modelo-2b.thumb.webp",
+   "imageDesc": "Arriba, una doble hebra (A) abierta en una burbuja donde una enzima (C) sintetiza una hebra nueva (B). Debajo, una molécula lineal con Gppppp en un extremo y AAAAAA en el otro, formada por tramos verdes (D) y naranjas (E); la flecha 1 lleva a la misma molécula sin los tramos naranjas, y la flecha 2, a una cadena de esferas (F) con NH₂ y COOH en los extremos.",
+   "isNew": false,
+   "f": "Pregunta del modelo orientativo de la PAU 2025 de Aragón (Universidad de Zaragoza) (Modelo orientativo 2024-25, opción B, pregunta 2, 2 puntos). Solución redactada por BioCelia (en morado): el modelo de Aragón se publicó sin soluciones."
+  },
+  {
+   "id": "pau2025-aragon-modelo-a3",
+   "block": "Biomoléculas",
+   "topic": "Bases nitrogenadas; complementariedad; tipos de ARN",
+   "anio": 2025,
+   "etiqueta": "Modelo Aragón 24-25",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "<b>En diciembre de 2014, Japón lanzó la sonda Hayabusa 2 con el objetivo de recolectar muestras del asteroide Ryugu. Según una noticia publicada en diversos medios en 2023, investigaciones recientes han revelado que estas muestras recogidas contienen uracilo, uno de los pilares de la vida tal y como la conocemos.</b><br>a) ¿Qué tipo de molécula es el uracilo? Concrete lo máximo posible (0,2 puntos).<br>b) Cite otras cuatro moléculas equivalentes, así como la relación que se establece entre ellas y el tipo de enlaces que las unen entre sí (0,9 puntos).<br>c) Cite los principales tipos de ARN y explique la función de cada uno de ellos (0,9 puntos).",
+   "c": [
+    "<span class=\"redactado\">a) Una base nitrogenada pirimidínica (derivada de la pirimidina, de un solo anillo), propia del ARN.</span>",
+    "<span class=\"redactado\">b) Adenina y guanina (púricas) y citosina y timina (pirimidínicas). Se relacionan por complementariedad: una púrica frente a una pirimidínica, A con T (o con U en el ARN) y G con C. Se unen mediante puentes de hidrógeno: dos entre A y T (o U) y tres entre G y C.</span>",
+    "<span class=\"redactado\">c) ARN mensajero (ARNm): copia la información de un gen y la lleva a los ribosomas, donde se traduce. ARN de transferencia (ARNt): transporta los aminoácidos al ribosoma y reconoce el codón con su anticodón. ARN ribosómico (ARNr): forma, con proteínas, los ribosomas y cataliza la formación del enlace peptídico. También hay ARN pequeños nucleares (maduración) y ARN reguladores, como los microARN.</span>"
+   ],
+   "origen": {
+    "documento": "Modelo orientativo PAU 2025 de Aragón (Universidad de Zaragoza) · Modelo orientativo 2024-25",
+    "referencia": "Modelo orientativo 2024-25, opción A, pregunta 3",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/ARAGÓN.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta del modelo orientativo de la PAU 2025 de Aragón (Universidad de Zaragoza) (Modelo orientativo 2024-25, opción A, pregunta 3, 2 puntos). Solución redactada por BioCelia (en morado): el modelo de Aragón se publicó sin soluciones."
+  },
+  {
+   "id": "pau2025-aragon-modelo-b3",
+   "block": "Biomoléculas",
+   "topic": "Enzimas: temperatura óptima, desnaturalización e inhibición",
+   "anio": 2025,
+   "etiqueta": "Modelo Aragón 24-25",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "<b>Suponga que está estudiando en un laboratorio una enzima que convierte el sustrato A en un producto B. Responda las siguientes preguntas:</b><br>a) Explique qué se entiende por temperatura óptima (0,2 puntos).<br>b) Si realiza un experimento en el que parte de la temperatura óptima y la aumenta gradualmente hasta los 100 ºC, ¿cómo cree que cambiará la actividad enzimática? Razone el motivo (0,8 puntos).<br>c) Si ahora parte de la temperatura óptima y la reduce gradualmente hasta los 0 ºC, ¿cómo cree que cambiará la actividad enzimática? Razone el motivo (0,8 puntos).<br>d) Al añadir una sustancia X junto al sustrato A, observa que la velocidad de reacción disminuye de manera significativa. ¿Cómo podría explicarlo? (0,2 puntos).",
+   "c": [
+    "<span class=\"redactado\">a) Es la temperatura a la que la enzima alcanza su máxima actividad (velocidad de reacción máxima).</span>",
+    "<span class=\"redactado\">b) La actividad disminuye rápidamente hasta anularse. Al aumentar la temperatura, la agitación térmica rompe los enlaces débiles (puentes de hidrógeno, interacciones hidrofóbicas…) que mantienen la estructura terciaria de la enzima, que es una proteína; se desnaturaliza, el centro activo pierde su forma y ya no se une al sustrato. A 100 ºC la desnaturalización suele ser irreversible (salvo en enzimas de organismos termófilos).</span>",
+    "<span class=\"redactado\">c) La actividad disminuye progresivamente y se hace casi nula a 0 ºC. Con el frío, las moléculas tienen menos energía cinética y se mueven menos, así que hay menos choques eficaces entre la enzima y el sustrato. La enzima no se desnaturaliza: si se vuelve a calentar hasta la temperatura óptima, recupera su actividad (inactivación reversible).</span>",
+    "<span class=\"redactado\">d) La sustancia X es un inhibidor de la enzima: puede competir con el sustrato A por el centro activo, si se parece a él (inhibición competitiva), o unirse a otro lugar de la enzima y cambiar su forma (inhibición no competitiva). En ambos casos se forma menos producto B por unidad de tiempo.</span>"
+   ],
+   "origen": {
+    "documento": "Modelo orientativo PAU 2025 de Aragón (Universidad de Zaragoza) · Modelo orientativo 2024-25",
+    "referencia": "Modelo orientativo 2024-25, opción B, pregunta 3",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/ARAGÓN.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta del modelo orientativo de la PAU 2025 de Aragón (Universidad de Zaragoza) (Modelo orientativo 2024-25, opción B, pregunta 3, 2 puntos). Solución redactada por BioCelia (en morado): el modelo de Aragón se publicó sin soluciones."
+  },
+  {
+   "id": "pau2025-aragon-modelo-a4",
+   "block": "Biotecnología",
+   "topic": "PCR: fases, Taq polimerasa y marcador de peso molecular",
+   "anio": 2025,
+   "etiqueta": "Modelo Aragón 24-25",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "<b>Responda las siguientes preguntas relacionadas con la PCR:</b><br>a) ¿Qué es la fase de desnaturalización en la PCR y a qué temperatura se realiza típicamente? (0,5 puntos).<br>b) ¿En qué consiste la fase de hibridación (alineamiento o annealing) y por qué es importante la temperatura en esta fase? (0,5 puntos).<br>c) ¿Qué es la ADN polimerasa (Taq polimerasa)? Cite su función y alguna de sus características que la hacen importante en la PCR (0,5 puntos).<br>d) ¿Qué es el marcador de peso molecular? (0,5 puntos).",
+   "c": [
+    "<span class=\"redactado\">a) Es la primera fase de cada ciclo: se calienta la muestra para romper los puentes de hidrógeno entre las dos hebras del ADN, que se separan y quedan como moldes. Se realiza a unos 94-95 ºC.</span>",
+    "<span class=\"redactado\">b) Se baja la temperatura (unos 50-65 ºC, según los cebadores) para que los cebadores (oligonucleótidos de ADN) se unan por complementariedad a los extremos de la secuencia que se quiere amplificar en cada hebra molde. La temperatura es clave: si es demasiado alta, los cebadores no se unen; si es demasiado baja, se unen a sitios no del todo complementarios y se amplifican secuencias inespecíficas.</span>",
+    "<span class=\"redactado\">c) Es una ADN polimerasa de la bacteria termófila Thermus aquaticus. Su función es sintetizar las nuevas hebras de ADN (fase de extensión, a unos 72 ºC) añadiendo desoxinucleótidos complementarios en sentido 5'→3' a partir del extremo 3' de los cebadores. Es termoestable: resiste los 95 ºC de la desnaturalización sin perder actividad, por lo que no hay que añadirla en cada ciclo y la PCR puede automatizarse.</span>",
+    "<span class=\"redactado\">d) Es una mezcla de fragmentos de ADN de tamaño conocido que se corre en la electroforesis junto a las muestras; al comparar con sus bandas se estima el tamaño (en pares de bases) de los fragmentos amplificados.</span>"
+   ],
+   "origen": {
+    "documento": "Modelo orientativo PAU 2025 de Aragón (Universidad de Zaragoza) · Modelo orientativo 2024-25",
+    "referencia": "Modelo orientativo 2024-25, opción A, pregunta 4",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/ARAGÓN.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta del modelo orientativo de la PAU 2025 de Aragón (Universidad de Zaragoza) (Modelo orientativo 2024-25, opción A, pregunta 4, 2 puntos). Solución redactada por BioCelia (en morado): el modelo de Aragón se publicó sin soluciones."
+  },
+  {
+   "id": "pau2025-aragon-modelo-b4",
+   "block": "Microbiología",
+   "topic": "Fermentación láctica y alcohólica: yogur y pan; esterilización",
+   "anio": 2025,
+   "etiqueta": "Modelo Aragón 24-25",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "<b>Tanto el pan como el yogurt se obtienen por un proceso de fermentación, llevado a cabo por diferentes levaduras y bacterias.</b><br>a) ¿Por qué el yogurt tiene un marcado sabor ácido y no ocurre lo mismo con el pan? Razónelo ayudándose de las reacciones que se llevan a cabo en cada caso (1 punto).<br>b) Para hacer yogurt casero, basta con repartir leche en varios vasitos y añadir un poco de yogurt comercial a cada uno. Después se dejan durante toda la noche a unos 35-40 ºC. ¿Qué ocurriría si antes de hacer la mezcla esterilizamos el yogurt comercial? ¿Y si esterilizamos la leche? Razone las respuestas (1 punto).",
+   "c": [
+    "<span class=\"redactado\">a) El yogur se obtiene por fermentación láctica de bacterias (Lactobacillus bulgaricus y Streptococcus thermophilus): la lactosa se hidroliza a glucosa y galactosa y estas se transforman en ácido láctico (glucosa → 2 piruvato → 2 lactato); el ácido láctico baja el pH, da el sabor ácido y coagula la caseína. El pan se hace con fermentación alcohólica de la levadura Saccharomyces cerevisiae: glucosa → 2 etanol + 2 CO₂; el CO₂ hace subir la masa y el etanol se evapora en el horno, así que no queda un producto ácido.</span>",
+    "<span class=\"redactado\">b) Si se esteriliza el yogur comercial, se matan las bacterias lácticas que actúan como «fermento»: la leche no fermentaría y no se formaría yogur (como mucho, crecerían otros microorganismos y la leche se estropearía). Si se esteriliza la leche (y se deja enfriar antes de mezclar), sí se forma yogur, e incluso mejor: se eliminan los microorganismos que podrían competir o contaminarla y solo actúan las bacterias lácticas del yogur añadido.</span>"
+   ],
+   "origen": {
+    "documento": "Modelo orientativo PAU 2025 de Aragón (Universidad de Zaragoza) · Modelo orientativo 2024-25",
+    "referencia": "Modelo orientativo 2024-25, opción B, pregunta 4",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/ARAGÓN.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta del modelo orientativo de la PAU 2025 de Aragón (Universidad de Zaragoza) (Modelo orientativo 2024-25, opción B, pregunta 4, 2 puntos). Solución redactada por BioCelia (en morado): el modelo de Aragón se publicó sin soluciones."
+  },
+  {
+   "id": "pau2025-aragon-modelo-a5",
+   "block": "Inmunología",
+   "topic": "Gripe: vacunación, respuesta primaria y secundaria, tipos de inmunidad",
+   "anio": 2025,
+   "etiqueta": "Modelo Aragón 24-25",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": true,
+   "q": "<b>En enero de 2024, el número de personas afectadas por la gripe era muy superior al de hace unos años. Según algunos expertos, este alto número de casos se debería a dos motivos: 1) el número de personas que se habían vacunado en ese momento era relativamente bajo, y 2) el uso de mascarillas durante los últimos años habría hecho que buena parte de la población no estuviera expuesta al virus de la gripe desde hace tiempo. Responda las siguientes cuestiones:</b><br>a) ¿Qué tipo de inmunidad desarrollaría un individuo vacunado? (0,2 puntos).<br>b) ¿Cómo relacionaría la segunda razón dada por los expertos con el hecho de que este invierno haya habido más casos de gripe? (0,4 puntos).<br>c) Compare la respuesta inmunitaria que se produciría ante un contacto con el virus de la gripe en un individuo que se vacunó contra este virus dos meses antes, y en un individuo que no ha sido vacunado y que nunca ha contactado previamente con el virus (1,2 puntos).<br>d) ¿Qué tipo de inmunidad desarrollaría un individuo no vacunado y que contacta este año por primera vez con el virus? (0,2 puntos).",
+   "c": [
+    "<span class=\"redactado\">a) Inmunidad adquirida (específica) activa artificial.</span>",
+    "<span class=\"redactado\">b) Sin contacto con el virus durante años, no se han estimulado ni renovado las células de memoria y los anticuerpos frente a las cepas que circulan (el virus de la gripe además cambia sus antígenos cada temporada). Más personas eran susceptibles y respondieron con una respuesta primaria, lenta, así que se infectaron, enfermaron y contagiaron a otros: más casos.</span>",
+    "<span class=\"redactado\">c) Vacunado: tiene linfocitos B y T de memoria y anticuerpos (IgG) frente al virus, así que da una respuesta secundaria: rápida (horas o pocos días), intensa (muchos más anticuerpos, sobre todo IgG de alta afinidad) y duradera; elimina el virus antes de que cause la enfermedad o la deja muy leve. No vacunado: da una respuesta primaria, con un periodo de latencia de varios días mientras se seleccionan y proliferan los linfocitos específicos (selección clonal); se producen menos anticuerpos, primero IgM y luego IgG; mientras tanto el virus se multiplica y aparece la enfermedad. Al final quedan células de memoria.</span>",
+    "<span class=\"redactado\">d) Inmunidad adquirida (específica) activa natural.</span>"
+   ],
+   "origen": {
+    "documento": "Modelo orientativo PAU 2025 de Aragón (Universidad de Zaragoza) · Modelo orientativo 2024-25",
+    "referencia": "Modelo orientativo 2024-25, opción A, pregunta 5",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/ARAGÓN.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta del modelo orientativo de la PAU 2025 de Aragón (Universidad de Zaragoza) (Modelo orientativo 2024-25, opción A, pregunta 5, 2 puntos). Solución redactada por BioCelia (en morado): el modelo de Aragón se publicó sin soluciones."
+  },
+  {
+   "id": "pau2025-aragon-modelo-b5",
+   "block": "Inmunología",
+   "topic": "Anticuerpos monoclonales: estructura, puentes disulfuro, clases de inmunoglobulinas, fagocitosis",
+   "anio": 2025,
+   "etiqueta": "Modelo Aragón 24-25",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "<b>El trastuzumab deruxtecan es un nuevo tratamiento de inmunoterapia que se utiliza para tratar algunos tipos de cáncer. Consiste en un anticuerpo monoclonal (trastuzumab) que reconoce las células cancerosas que presentan una determinada proteína de membrana (HER2). A su vez, el anticuerpo está unido a un fármaco (deruxtecan) que tiene efecto tóxico para las células:</b><br>a) Nombre las partes numeradas en la imagen e indique cuál de ellas reconocería a la proteína de membrana HER2 (antígeno) (0,8 puntos).<br>b) Para unir el fármaco al anticuerpo, se utiliza el mismo enlace químico que mantiene unidas las diferentes cadenas en el anticuerpo, ¿de qué tipo de enlace se trata? (0,2 puntos).<br>c) El trastuzumab es una inmunoglobulina. Cite los tipos de inmunoglobulinas que existen y mencione la función de tres de ellas (0,8 puntos).<br>d) Una vez que las células cancerosas son destruidas por el efecto del trastuzumab deruxtecan, sus restos son fagocitados por otro tipo de células inmunológicas, ¿qué células serían las responsables de este proceso? (0,2 puntos).",
+   "c": [
+    "<span class=\"redactado\">a) 1, una mitad de la molécula, formada por una cadena pesada y una cadena ligera unidas; 2, regiones variables de un brazo: el sitio de unión al antígeno (paratopo); 3, cadena pesada; 4, cadena ligera. La que reconoce a HER2 es la 2, el sitio de unión al antígeno, formado por las regiones variables de una cadena pesada y una ligera. El recuadro 1 engloba la cadena pesada y la ligera de un lado; si se entiende que señala solo la cadena gris azulada, sería la otra cadena pesada.</span>",
+    "<span class=\"redactado\">b) Puentes disulfuro (enlaces covalentes –S–S– entre grupos tiol de cisteínas).</span>",
+    "<span class=\"redactado\">c) Hay cinco clases: IgG, IgM, IgA, IgD e IgE. IgG: la más abundante en el plasma y la principal de la respuesta secundaria; atraviesa la placenta y protege al feto. IgM: pentámero, la primera que aparece en la respuesta primaria; aglutina y activa el complemento con gran eficacia. IgA: en las secreciones (saliva, lágrimas, mucosas, leche materna), protege las mucosas y al lactante. IgE: participa en las alergias (se une a mastocitos y basófilos, que liberan histamina) y frente a parásitos. IgD: receptor de antígeno en la membrana de los linfocitos B.</span>",
+    "<span class=\"redactado\">d) Los macrófagos (derivados de los monocitos), y también los neutrófilos; son fagocitos de la respuesta innata.</span>"
+   ],
+   "origen": {
+    "documento": "Modelo orientativo PAU 2025 de Aragón (Universidad de Zaragoza) · Modelo orientativo 2024-25",
+    "referencia": "Modelo orientativo 2024-25, opción B, pregunta 5",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/ARAGÓN.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/aragon-modelo-5b.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/aragon-modelo-5b.thumb.webp",
+   "imageDesc": "Anticuerpo en forma de Y unido a un «fármaco citotóxico». 1 rodea una de las mitades de la molécula (la cadena larga y la corta de un brazo); 2, los extremos rojos de un brazo; 3, la cadena larga del otro lado; 4, la cadena corta de ese otro brazo.",
+   "isNew": false,
+   "f": "Pregunta del modelo orientativo de la PAU 2025 de Aragón (Universidad de Zaragoza) (Modelo orientativo 2024-25, opción B, pregunta 5, 2 puntos). Solución redactada por BioCelia (en morado): el modelo de Aragón se publicó sin soluciones."
+  },
+  {
+   "id": "pau2025-canarias-1",
+   "block": "Biomoléculas",
+   "topic": "Funciones del agua; sustancias hidrófobas e hidrófilas; disoluciones tampón",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Canarias",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": true,
+   "q": "<b>La huella hídrica es un indicador de la sostenibilidad que estima el uso de agua dulce, tanto directo como indirecto, por parte de un consumidor o productor. El objetivo es la concienciación y óptima gestión de este recurso limitado. (Fuente: FAO.org)</b><br>a) Nombra 3 funciones del agua que sean de importancia biológica.<br>b) ¿Qué se entiende por sustancias hidrófobas?<br>c) Cita un ejemplo de una sustancia hidrófoba y otro de una sustancia hidrófila.<br>d) ¿Qué es una solución tampón o buffer?",
+   "c": [
+    "<span class=\"redactado\">a) Por ejemplo: disolvente de la mayoría de las sustancias (medio donde ocurren las reacciones y transporte de nutrientes y desechos), termorreguladora (por su elevado calor específico y calor de vaporización) y estructural (mantiene la turgencia de las células). También participa como reactivo (hidrólisis, fotosíntesis) y amortigua golpes (líquido sinovial, cefalorraquídeo).</span>",
+    "<span class=\"redactado\">b) Son sustancias apolares, que no forman puentes de hidrógeno ni interacciones con el agua, por lo que no se disuelven en ella: se agrupan entre sí y se separan del agua.</span>",
+    "<span class=\"redactado\">c) Hidrófoba: un aceite (triacilglicéridos) o el colesterol. Hidrófila: la glucosa o el cloruro sódico.</span>",
+    "<span class=\"redactado\">d) Es una disolución formada por un ácido débil y su base conjugada (su sal) que mantiene el pH casi constante aunque se añadan pequeñas cantidades de ácido o de base, porque capta o cede protones. Ejemplos: el tampón bicarbonato de la sangre y el tampón fosfato del medio intracelular.</span>"
+   ],
+   "origen": {
+    "documento": "PAU 2025 Canarias (Distrito Universitario de Canarias) · Canarias, convocatoria ordinaria",
+    "referencia": "Canarias, convocatoria ordinaria, pregunta 1",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Canarias (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta oficial de la PAU 2025 de Canarias (20 preguntas de 1 punto, de las que se eligen 10) (Canarias, convocatoria ordinaria, pregunta 1, 1 punto). Solución redactada por BioCelia (en morado): el examen de Canarias de la carpeta no trae criterios de corrección."
+  },
+  {
+   "id": "pau2025-canarias-2",
+   "block": "Biomoléculas",
+   "topic": "Lactosa y lactasa: monómeros, enlaces, aminoácidos y heterósidos",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Canarias",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": true,
+   "q": "<b>En el folleto divulgativo se informa «La alergia a la leche (más concretamente, a sus componentes como la caseína, la β-lactoglobulina…) no es lo mismo que la intolerancia a la <u>lactosa</u>, debida a que las persona tienen una ausencia o bajo nivel de la <u>lactasa</u>». (Fuente: Agencia Española de Seguridad Alimentaria y Nutrición, AESAN). (En el original, lactosa y lactasa aparecen en negrita.)</b><br>a) Indica las unidades estructurales de cada una de las biomoléculas del texto (negrita).<br>b) Indica el nombre del enlace de unión de las citadas unidades básicas.<br>c) Dibuja la estructura básica y común de las unidades que constituyen la lactasa.<br>d) Indica cuál es la composición de un heterósido.",
+   "c": [
+    "<span class=\"redactado\">a) La lactosa es un disacárido formado por dos monosacáridos: β-D-galactosa y D-glucosa. La lactasa es una enzima, es decir, una proteína: sus unidades son los aminoácidos.</span>",
+    "<span class=\"redactado\">b) En la lactosa, un enlace O-glucosídico β(1→4). En la lactasa, el enlace peptídico (entre el grupo carboxilo de un aminoácido y el amino del siguiente).</span>",
+    "<span class=\"redactado\">c) Un α-aminoácido: un carbono central (carbono α) unido a un grupo amino (–NH₂), un grupo carboxilo (–COOH), un hidrógeno (–H) y una cadena lateral o radical (–R) que es distinta en cada aminoácido: H₂N–CαH(R)–COOH.</span>",
+    "<span class=\"redactado\">d) Un heterósido es un glúcido unido a una molécula no glucídica (aglucón), como lípidos (glucolípidos) o proteínas (glucoproteínas).</span>"
+   ],
+   "origen": {
+    "documento": "PAU 2025 Canarias (Distrito Universitario de Canarias) · Canarias, convocatoria ordinaria",
+    "referencia": "Canarias, convocatoria ordinaria, pregunta 2",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Canarias (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta oficial de la PAU 2025 de Canarias (20 preguntas de 1 punto, de las que se eligen 10) (Canarias, convocatoria ordinaria, pregunta 2, 1 punto). Solución redactada por BioCelia (en morado): el examen de Canarias de la carpeta no trae criterios de corrección."
+  },
+  {
+   "id": "pau2025-canarias-3",
+   "block": "Biomoléculas",
+   "topic": "Identificación de lípidos y glúcidos; almidón y glucógeno; heteropolisacáridos; pentosas de los ácidos nucleicos",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Canarias",
+   "hasImg": true,
+   "puntos": 1,
+   "competencial": true,
+   "q": "<b>La OMS considera una dieta equilibrada en nutrientes la que contiene aproximadamente la siguiente proporción en kcal: las proteínas no deben sobrepasar el 15%; los <u>lípidos</u> no deben sobrepasar el 30% y los <u>glúcidos</u> es el resto hasta el 100%. (En el original, lípidos y glúcidos aparecen en negrita.)</b><br>a) La imagen adjunta corresponde a distintos componentes moleculares. Identifica y especifica aquellos que pueden ser componentes del grupo de biomoléculas resaltadas en negrita en el texto.<br>b) Polímeros con glucosa son el almidón y el glucógeno, indica la función de cada uno.<br>c) Indica cuál es la composición de un heteropolisacárido.<br>d) Indica qué molécula glucosídica es constituyente de cada tipo de ácido nucleico.",
+   "c": [
+    "<span class=\"redactado\">a) Lípidos: la molécula 1, un fosfolípido (ácido fosfatídico: glicerol esterificado con dos ácidos grasos, palmítico, y con ácido fosfórico). Glúcidos: la 3, D-glucosa (aldohexosa, monosacárido, en forma lineal), y la 4, sacarosa (disacárido de glucosa y fructosa). La 2 es un nucleótido (citidina monofosfato), propio de los ácidos nucleicos, aunque contiene una pentosa, la ribosa.</span>",
+    "<span class=\"redactado\">b) Los dos son polisacáridos de reserva energética: el almidón en los vegetales (en amiloplastos de semillas y tubérculos) y el glucógeno en los animales (sobre todo en el hígado y los músculos) y en los hongos.</span>",
+    "<span class=\"redactado\">c) Es un polisacárido formado por más de un tipo de monosacárido o de sus derivados; por ejemplo, la pectina, la hemicelulosa, el agar o el ácido hialurónico.</span>",
+    "<span class=\"redactado\">d) La pentosa ribosa forma parte del ARN y la desoxirribosa, del ADN.</span>"
+   ],
+   "origen": {
+    "documento": "PAU 2025 Canarias (Distrito Universitario de Canarias) · Canarias, convocatoria ordinaria",
+    "referencia": "Canarias, convocatoria ordinaria, pregunta 3",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Canarias (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/canarias-3.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/canarias-3.thumb.webp",
+   "imageDesc": "Recuadro con cuatro fórmulas: 1, glicerol unido a dos cadenas de ácido graso (CH₂)₁₄–CH₃ y a un fosfato; 2, base nitrogenada unida a una pentosa con fosfato; 3, cadena de seis carbonos con un grupo aldehído y grupos –OH; 4, dos anillos (uno de seis y otro de cinco vértices) unidos por un oxígeno.",
+   "isNew": false,
+   "f": "Pregunta oficial de la PAU 2025 de Canarias (20 preguntas de 1 punto, de las que se eligen 10) (Canarias, convocatoria ordinaria, pregunta 3, 1 punto). Solución redactada por BioCelia (en morado): el examen de Canarias de la carpeta no trae criterios de corrección."
+  },
+  {
+   "id": "pau2025-canarias-4",
+   "block": "Biomoléculas",
+   "topic": "Lípidos saponificables; anfipáticos; ácidos grasos insaturados; funciones de los lípidos",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Canarias",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "<b>El aceite de oliva, considerado como el oro líquido, es un ingrediente clave de la dieta mediterránea. Presenta un alto contenido de ácido oleico.</b><br>a) En respuesta a la reacción de saponificación, ¿a qué tipo de lípido correspondería el que contenga el ácido oleico?<br>b) ¿Qué significa que son moléculas anfipáticas?<br>c) ¿Qué significa que un ácido graso es insaturado?<br>d) El ácido oleico es abundante en la membrana plasmática (papel estructural). Indica otra función de los lípidos diferente a las mencionadas.",
+   "c": [
+    "<span class=\"redactado\">a) A un lípido saponificable, ya que contiene ácidos grasos (como los triacilglicéridos del aceite): con una base fuerte (NaOH o KOH) forma jabón y glicerina.</span>",
+    "<span class=\"redactado\">b) Que tienen una parte polar o hidrófila, que interacciona con el agua, y otra apolar o hidrófoba, que la rechaza.</span>",
+    "<span class=\"redactado\">c) Que tiene uno o más dobles enlaces C=C en su cadena hidrocarbonada; el oleico (18 C) tiene uno, en posición cis, lo que dobla la cadena y lo hace líquido a temperatura ambiente.</span>",
+    "<span class=\"redactado\">d) Por ejemplo, reserva energética (triacilglicéridos), aislante térmico, protección mecánica, hormonal (hormonas esteroideas) o vitamínica (vitaminas A, D, E y K).</span>"
+   ],
+   "origen": {
+    "documento": "PAU 2025 Canarias (Distrito Universitario de Canarias) · Canarias, convocatoria ordinaria",
+    "referencia": "Canarias, convocatoria ordinaria, pregunta 4",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Canarias (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta oficial de la PAU 2025 de Canarias (20 preguntas de 1 punto, de las que se eligen 10) (Canarias, convocatoria ordinaria, pregunta 4, 1 punto). Solución redactada por BioCelia (en morado): el examen de Canarias de la carpeta no trae criterios de corrección."
+  },
+  {
+   "id": "pau2025-canarias-5",
+   "block": "Biomoléculas",
+   "topic": "Niveles de estructura de las proteínas; holoproteínas, heteroproteínas y grupo prostético",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Canarias",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": true,
+   "q": "<b>El Premio Nobel de Química 2024 reconoce la gran aportación al campo de biología molecular. La mitad del premio ha sido para David Baker, por el diseño computacional que permite construir tipos completamente nuevos de proteínas. La otra mitad para Demis Hassabis y John Jumper que desarrollaron 'AlphaFold', un modelo de IA capaz de predecir la forma exacta de las proteínas a partir de su secuencia genética. (Fuente: Nobelprize.org).</b><br>a) Indica los niveles de estructuración en las proteínas.<br>b) Cita los tipos de estructura terciaria de las proteínas.<br>c) Define los conceptos de: holoproteínas y heteroproteínas.<br>d) Define grupo prostético.",
+   "c": [
+    "<span class=\"redactado\">a) Estructura primaria (secuencia de aminoácidos), secundaria (α-hélice, lámina β), terciaria (plegamiento tridimensional de la cadena) y cuaternaria (asociación de varias cadenas polipeptídicas).</span>",
+    "<span class=\"redactado\">b) Fibrosa o filamentosa (alargada, insoluble, estructural; colágeno, queratina) y globular (esférica, soluble; enzimas, hemoglobina).</span>",
+    "<span class=\"redactado\">c) Holoproteínas: formadas solo por aminoácidos. Heteroproteínas: formadas por una parte proteica y otra no proteica, el grupo prostético.</span>",
+    "<span class=\"redactado\">d) Es la parte no proteica de una heteroproteína; por ejemplo, el grupo hemo de la hemoglobina o el glúcido de una glucoproteína.</span>"
+   ],
+   "origen": {
+    "documento": "PAU 2025 Canarias (Distrito Universitario de Canarias) · Canarias, convocatoria ordinaria",
+    "referencia": "Canarias, convocatoria ordinaria, pregunta 5",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Canarias (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta oficial de la PAU 2025 de Canarias (20 preguntas de 1 punto, de las que se eligen 10) (Canarias, convocatoria ordinaria, pregunta 5, 1 punto). Solución redactada por BioCelia (en morado): el examen de Canarias de la carpeta no trae criterios de corrección."
+  },
+  {
+   "id": "pau2025-canarias-6",
+   "block": "Biomoléculas",
+   "topic": "Colesterol y esteroides; vitaminas; desnaturalización de proteínas",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Canarias",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": true,
+   "q": "<b>Falso mito: «El huevo es malo para el colesterol». El huevo es un alimento muy completo y saludable. Es cierto que su yema es rica en colesterol, pero no hay que olvidar que el huevo posee también proteínas, vitaminas y minerales. (Fuente: https://estilosdevidasaludable.sanidad.gob.es)</b><br>a) Indica la función biológica que desempeña el colesterol en la célula.<br>b) Cita una hormona derivada de algún compuesto perteneciente al mismo grupo de biomoléculas que el colesterol.<br>c) Cita una vitamina hidrosoluble y otra liposoluble.<br>d) ¿Qué sucedería a las proteínas si se sometiesen a altas temperaturas?",
+   "c": [
+    "<span class=\"redactado\">a) Es un componente estructural de las membranas plasmáticas de las células animales, donde regula la fluidez y da estabilidad; además es precursor de las hormonas esteroideas, de la vitamina D y de los ácidos biliares.</span>",
+    "<span class=\"redactado\">b) Una hormona esteroidea, como la testosterona, el estradiol, la progesterona, el cortisol o la aldosterona.</span>",
+    "<span class=\"redactado\">c) Hidrosoluble: la vitamina C (o las del grupo B). Liposoluble: la vitamina A (o D, E, K).</span>",
+    "<span class=\"redactado\">d) Se desnaturalizarían: se rompen los enlaces débiles que mantienen las estructuras secundaria, terciaria y cuaternaria, la proteína pierde su forma y, con ella, su función biológica; la estructura primaria se conserva (no se rompen los enlaces peptídicos).</span>"
+   ],
+   "origen": {
+    "documento": "PAU 2025 Canarias (Distrito Universitario de Canarias) · Canarias, convocatoria ordinaria",
+    "referencia": "Canarias, convocatoria ordinaria, pregunta 6",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Canarias (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta oficial de la PAU 2025 de Canarias (20 preguntas de 1 punto, de las que se eligen 10) (Canarias, convocatoria ordinaria, pregunta 6, 1 punto). Solución redactada por BioCelia (en morado): el examen de Canarias de la carpeta no trae criterios de corrección."
+  },
+  {
+   "id": "pau2025-canarias-7",
+   "block": "Biomoléculas",
+   "topic": "ATP, NADP y FAD; enlaces ricos en energía; ARN de transferencia",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Canarias",
+   "hasImg": true,
+   "puntos": 1,
+   "competencial": true,
+   "q": "<b>Las siglas ATP, NADP, FAD corresponden a moléculas con gran importancia para el funcionamiento celular.</b><br>a) Indica la composición (unidad) básica de dichas moléculas.<br>b) Indica la principal función de cada una de las moléculas.<br>c) ¿Qué tipo de enlace en el ATP contiene alta energía?<br>d) La figura adjunta esquematiza una macromolécula que contiene similares unidades, identifica a la misma e indica cuál es su principal función.",
+   "c": [
+    "<span class=\"redactado\">a) Son nucleótidos: el ATP es un nucleótido (adenina + ribosa + tres fosfatos) y el NADP y el FAD son dinucleótidos (dos nucleótidos unidos por sus fosfatos).</span>",
+    "<span class=\"redactado\">b) ATP: almacena y transfiere energía química en las reacciones celulares (moneda energética). NADP: coenzima que transporta electrones e hidrógeno (poder reductor), sobre todo en el anabolismo, como en la fotosíntesis (NADPH). FAD: coenzima que transporta electrones e hidrógeno en reacciones de oxidación-reducción del catabolismo (ciclo de Krebs, β-oxidación) como FADH₂.</span>",
+    "<span class=\"redactado\">c) Los enlaces anhídrido de ácido (fosfoanhídrido) entre los grupos fosfato.</span>",
+    "<span class=\"redactado\">d) Es un ARN de transferencia (ARNt), con forma de hoja de trébol: transporta los aminoácidos (unidos a su extremo 3') hasta el ribosoma y, mediante su anticodón, los coloca según los codones del ARNm durante la traducción.</span>"
+   ],
+   "origen": {
+    "documento": "PAU 2025 Canarias (Distrito Universitario de Canarias) · Canarias, convocatoria ordinaria",
+    "referencia": "Canarias, convocatoria ordinaria, pregunta 7",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Canarias (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/canarias-7.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/canarias-7.thumb.webp",
+   "imageDesc": "Molécula de una sola cadena plegada en forma de hoja de trébol, con tramos apareados y tres bucles; un extremo marcado 5' con P y otro 3' con OH.",
+   "isNew": false,
+   "f": "Pregunta oficial de la PAU 2025 de Canarias (20 preguntas de 1 punto, de las que se eligen 10) (Canarias, convocatoria ordinaria, pregunta 7, 1 punto). Solución redactada por BioCelia (en morado): el examen de Canarias de la carpeta no trae criterios de corrección."
+  },
+  {
+   "id": "pau2025-canarias-8",
+   "block": "Genética",
+   "topic": "Replicación, transcripción y traducción; localización en células animales y vegetales",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Canarias",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": true,
+   "q": "<b>Los ratones comparten aproximadamente el 85% de su ADN con los seres humanos, ello explica por qué estos animales son tan utilizados en investigaciones biomédicas. Se ha descubierto que compartimos aproximadamente el 60% de nuestro ADN con los plátanos. Puede parecer desconcertante, pero la clave radica en los mecanismos celulares básicos que compartimos. Los procesos incluyen, entre otros: la respiración celular, la transcripción y traducción y replicación del material genético.</b><br>a) Definición de los procesos: transcripción, traducción y replicación.<br>b) Indica dónde se producen los procesos de transcripción y traducción en una célula animal.<br>c) Indica dónde se producen los procesos de transcripción y traducción en una célula vegetal.",
+   "c": [
+    "<span class=\"redactado\">a) Transcripción: síntesis de ARN a partir de una hebra molde de ADN. Traducción: síntesis de una proteína en los ribosomas según la secuencia de codones del ARNm. Replicación: duplicación del ADN, semiconservativa, en la que cada hebra sirve de molde para una nueva.</span>",
+    "<span class=\"redactado\">b) Transcripción en el núcleo y en las mitocondrias; traducción en los ribosomas del citoplasma (libres o en el RER) y en los de las mitocondrias.</span>",
+    "<span class=\"redactado\">c) Transcripción en el núcleo, las mitocondrias y los cloroplastos; traducción en los ribosomas del citoplasma (libres o en el RER), de las mitocondrias y de los cloroplastos.</span>"
+   ],
+   "origen": {
+    "documento": "PAU 2025 Canarias (Distrito Universitario de Canarias) · Canarias, convocatoria ordinaria",
+    "referencia": "Canarias, convocatoria ordinaria, pregunta 8",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Canarias (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta oficial de la PAU 2025 de Canarias (20 preguntas de 1 punto, de las que se eligen 10) (Canarias, convocatoria ordinaria, pregunta 8, 1 punto). Solución redactada por BioCelia (en morado): el examen de Canarias de la carpeta no trae criterios de corrección."
+  },
+  {
+   "id": "pau2025-canarias-9",
+   "block": "Genética",
+   "topic": "Genoma; cariotipo humano; mutaciones génicas y genómicas",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Canarias",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": true,
+   "q": "<b>Investigadores en EEUU y Reino Unido componen el mayor árbol genealógico de la historia, pues representa a todos los humanos vivos del planeta Tierra. El genoma de cada persona contiene 3.000 millones de letras que compilan todas las instrucciones necesarias para que su organismo funcione correctamente. (Fuente: Elpais.com, 2022)</b><br>a) Define genoma.<br>b) Indica cuál es la dotación genética de la especie humana, especificando cuántos son autosomas.<br>c) Indica la naturaleza química de los millones de letras que conforman el genoma.<br>d) Diferencia entre mutación génica y genómica.",
+   "c": [
+    "<span class=\"redactado\">a) El conjunto de toda la información genética (todo el ADN, con sus genes) de una célula o de un organismo o especie.</span>",
+    "<span class=\"redactado\">b) 2n = 46 cromosomas en las células somáticas: 44 autosomas (22 pares) y 2 cromosomas sexuales (XX en la mujer, XY en el hombre). Los gametos tienen n = 23.</span>",
+    "<span class=\"redactado\">c) Son nucleótidos (desoxirribonucleótidos) del ADN, que se distinguen por su base nitrogenada: adenina, timina, guanina y citosina.</span>",
+    "<span class=\"redactado\">d) La génica altera la secuencia de nucleótidos de un gen (sustitución, inserción o deleción). La genómica altera el número de cromosomas: aneuploidías (un cromosoma de más o de menos, como la trisomía 21) o euploidías (juegos completos de más o de menos).</span>"
+   ],
+   "origen": {
+    "documento": "PAU 2025 Canarias (Distrito Universitario de Canarias) · Canarias, convocatoria ordinaria",
+    "referencia": "Canarias, convocatoria ordinaria, pregunta 9",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Canarias (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta oficial de la PAU 2025 de Canarias (20 preguntas de 1 punto, de las que se eligen 10) (Canarias, convocatoria ordinaria, pregunta 9, 1 punto). Solución redactada por BioCelia (en morado): el examen de Canarias de la carpeta no trae criterios de corrección."
+  },
+  {
+   "id": "pau2025-canarias-10",
+   "block": "Genética",
+   "topic": "Traducción con la tabla del código genético; características del código",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Canarias",
+   "hasImg": true,
+   "puntos": 1,
+   "competencial": true,
+   "q": "<b>Dada la siguiente secuencia de unidades constituyentes de un tipo de ácido nucleico 3' TACCCCGCGATACGTATT 5' y teniendo en cuenta la tabla adjunta correspondiente al código genético:</b><br>a) Indica la secuencia de subunidades que constituirán parte del polipéptido.<br>b) Indica qué orgánulo participa en este proceso de síntesis.<br>c) Indica dos características del código genético.",
+   "c": [
+    "<span class=\"redactado\">a) La secuencia es de ADN (tiene T) y actúa de molde: se transcribe a ARNm 5' AUG GGG CGC UAU GCA UAA 3', que se traduce como Met-Gly-Arg-Tyr-Ala; UAA es un codón de parada.</span>",
+    "<span class=\"redactado\">b) El ribosoma.</span>",
+    "<span class=\"redactado\">c) Por ejemplo, es degenerado (varios codones para un mismo aminoácido: Arg tiene seis) y casi universal; también es no ambiguo, sin solapamiento y sin comas.</span>"
+   ],
+   "origen": {
+    "documento": "PAU 2025 Canarias (Distrito Universitario de Canarias) · Canarias, convocatoria ordinaria",
+    "referencia": "Canarias, convocatoria ordinaria, pregunta 10",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Canarias (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/canarias-10.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/canarias-10.thumb.webp",
+   "imageDesc": "Tabla del código genético con los 64 codones del ARNm agrupados por aminoácido; AUG (Met) y los codones Stop UAA, UAG y UGA.",
+   "isNew": false,
+   "f": "Pregunta oficial de la PAU 2025 de Canarias (20 preguntas de 1 punto, de las que se eligen 10) (Canarias, convocatoria ordinaria, pregunta 10, 1 punto). Solución redactada por BioCelia (en morado): el examen de Canarias de la carpeta no trae criterios de corrección."
+  },
+  {
+   "id": "pau2025-canarias-11",
+   "block": "Célula",
+   "topic": "Membrana plasmática: componentes, funciones, mosaico fluido; pared celular",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Canarias",
+   "hasImg": true,
+   "puntos": 1,
+   "competencial": true,
+   "q": "<b>La apitoxina es el veneno secretado por las abejas. Cuando el aguijón de una abeja obrera es introducido en la piel, unos 0,1 a 0,3 mg de esta sustancia es inyectada con un efecto citotóxico, provoca la destrucción de las membranas celulares.</b><br>a) La figura corresponde a la estructura vital que es la membrana plasmática, identifica los componentes enumerados en el esquema.<br>b) Con algún componente de la figura relaciona las funciones siguientes: el reconocimiento celular, la fluidez y el transporte de moléculas.<br>c) ¿Qué significa el término de mosaico fluido?<br>d) Ciertas células eucariotas presentan otra estructura externa, además de la representada en el esquema. ¿A qué estructura nos referimos?",
+   "c": [
+    "<span class=\"redactado\">a) 1, una monocapa de fosfolípidos; 2, bicapa lipídica; 3, proteína integral (transmembrana); 4, glucolípido (oligosacárido unido a un lípido); 5, glucoproteína (oligosacárido unido a una proteína); 6, proteína periférica (en la cara interna).</span>",
+    "<span class=\"redactado\">b) Reconocimiento celular: los glúcidos de glucolípidos y glucoproteínas (4 y 5), que forman el glucocáliz. Fluidez: los lípidos de la bicapa (fosfolípidos, 1 y 2), que se desplazan lateralmente. Transporte de moléculas: las proteínas integrales (3), como canales y transportadores.</span>",
+    "<span class=\"redactado\">c) Es el modelo de Singer y Nicolson (1972): la membrana es una bicapa lipídica fluida, en la que lípidos y proteínas pueden desplazarse lateralmente (fluido), y las proteínas se intercalan en ella como las piezas de un mosaico.</span>",
+    "<span class=\"redactado\">d) La pared celular, propia de las células vegetales (de celulosa) y de los hongos (de quitina).</span>"
+   ],
+   "origen": {
+    "documento": "PAU 2025 Canarias (Distrito Universitario de Canarias) · Canarias, convocatoria ordinaria",
+    "referencia": "Canarias, convocatoria ordinaria, pregunta 11",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Canarias (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/canarias-11.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/canarias-11.thumb.webp",
+   "imageDesc": "Fragmento de membrana en tres dimensiones: 1 y 2 son corchetes sobre la capa de lípidos (1, la mitad superior; 2, toda la capa doble); 3, una proteína que atraviesa la membrana; 4, una cadena ramificada unida a un lípido; 5, una cadena ramificada unida a una proteína; 6, una proteína en la cara inferior.",
+   "isNew": false,
+   "f": "Pregunta oficial de la PAU 2025 de Canarias (20 preguntas de 1 punto, de las que se eligen 10) (Canarias, convocatoria ordinaria, pregunta 11, 1 punto). Solución redactada por BioCelia (en morado): el examen de Canarias de la carpeta no trae criterios de corrección."
+  },
+  {
+   "id": "pau2025-canarias-12",
+   "block": "Célula",
+   "topic": "Mitosis y meiosis: fases, dotación cromosómica y tipos de células",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Canarias",
+   "hasImg": true,
+   "puntos": 1,
+   "competencial": true,
+   "q": "<b>Los camélidos del Viejo y Nuevo Mundo presentan un cariotipo muy conservado, 2n = 74. Las células iniciales (A1 y B1) han sido tomadas de un dromedario (Camelus dromedarius). Cada célula sigue una vía de división diferente.</b><br>a) Identifica los procesos de división A y B.<br>b) Indica el nombre de las fases numeradas como 1, 2, 3 y 4.<br>c) Indica la dotación cromosómica de las células resultantes de cada proceso de división.<br>d) ¿Qué tipo de células sufren cada proceso de división celular?",
+   "c": [
+    "<span class=\"redactado\">a) A es una mitosis (una división, dos células hijas). B es una meiosis (dos divisiones sucesivas, cuatro células hijas).</span>",
+    "<span class=\"redactado\">b) 1, profase (mitótica); 2, metafase I (bivalentes en la placa ecuatorial); 3, anafase I (hacia la telofase I: los cromosomas homólogos van a los polos); 4, profase II (o metafase II), ya en las dos células de la primera división.</span>",
+    "<span class=\"redactado\">c) Mitosis (A): dos células diploides, 2n = 74, iguales a la madre. Meiosis (B): cuatro células haploides, n = 37, genéticamente distintas.</span>",
+    "<span class=\"redactado\">d) La mitosis la hacen las células somáticas (crecimiento, renovación y reparación de tejidos). La meiosis, las células germinales de las gónadas (espermatocitos y ovocitos), que originan los gametos.</span>"
+   ],
+   "origen": {
+    "documento": "PAU 2025 Canarias (Distrito Universitario de Canarias) · Canarias, convocatoria ordinaria",
+    "referencia": "Canarias, convocatoria ordinaria, pregunta 12",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Canarias (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/canarias-12.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/canarias-12.thumb.webp",
+   "imageDesc": "Dos columnas de dibujos: A parte de la célula A1 y pasa por cinco etapas hasta dos células hijas (la segunda etapa se numera 1); B parte de B1 y pasa por varias etapas (numeradas 2, 3 y 4 la cuarta, la quinta y la sexta) hasta cuatro células.",
+   "isNew": false,
+   "f": "Pregunta oficial de la PAU 2025 de Canarias (20 preguntas de 1 punto, de las que se eligen 10) (Canarias, convocatoria ordinaria, pregunta 12, 1 punto). Solución redactada por BioCelia (en morado): el examen de Canarias de la carpeta no trae criterios de corrección."
+  },
+  {
+   "id": "pau2025-canarias-13",
+   "block": "Célula",
+   "topic": "Sistema de endomembranas: aparato de Golgi y lisosomas",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Canarias",
+   "hasImg": true,
+   "puntos": 1,
+   "competencial": true,
+   "q": "<b>Característica de ciertas células es su compartimentación interna formando un complejo sistema de endomembranas interrelacionado con un intenso tráfico de vesículas celulares.</b><br>a) Identifica el orgánulo indicado con una X en el esquema.<br>b) Además del transporte, cita otra misión fundamental del orgánulo X.<br>c) ¿Qué orgánulo (Y) se forma a partir de una vesícula que se desprende del orgánulo X cargada de enzimas?<br>d) ¿Cuál es la función del orgánulo Y?",
+   "c": [
+    "<span class=\"redactado\">a) El aparato de Golgi (dictiosoma).</span>",
+    "<span class=\"redactado\">b) La modificación y maduración de proteínas y lípidos (por ejemplo, la glucosilación), su clasificación y empaquetado en vesículas; en las células vegetales sintetiza polisacáridos de la pared.</span>",
+    "<span class=\"redactado\">c) Un lisosoma (primario).</span>",
+    "<span class=\"redactado\">d) La digestión intracelular: sus enzimas hidrolíticas (hidrolasas ácidas) degradan sustancias captadas del exterior (heterofagia) y orgánulos y componentes propios (autofagia).</span>"
+   ],
+   "origen": {
+    "documento": "PAU 2025 Canarias (Distrito Universitario de Canarias) · Canarias, convocatoria ordinaria",
+    "referencia": "Canarias, convocatoria ordinaria, pregunta 13",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Canarias (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/canarias-13.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/canarias-13.thumb.webp",
+   "imageDesc": "Esquema de una célula: túbulos y vesículas a la izquierda llegan a una pila de sacos aplanados (X); de ella salen vesículas hacia la membrana (secreción) y otra vesícula (Y) que se queda en el citoplasma.",
+   "isNew": false,
+   "f": "Pregunta oficial de la PAU 2025 de Canarias (20 preguntas de 1 punto, de las que se eligen 10) (Canarias, convocatoria ordinaria, pregunta 13, 1 punto). Solución redactada por BioCelia (en morado): el examen de Canarias de la carpeta no trae criterios de corrección."
+  },
+  {
+   "id": "pau2025-canarias-14",
+   "block": "Metabolismo",
+   "topic": "Mitocondrias; fermentación láctica en células humanas",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Canarias",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": true,
+   "q": "<b>Las enfermedades mitocondriales son un grupo de trastornos metabólicos, los síntomas dependen de la cantidad de mitocondrias defectuosas y dónde están en el organismo. A veces, sólo un órgano, tejido o tipo de célula se ve afectado.</b><br>a) Indica qué tipo de organismo tiene este orgánulo: algas, bacterias, hongos y/o protozoos aerobios.<br>b) Cita la principal función de las mitocondrias.<br>c) La fermentación es otro proceso metabólico. Indica dónde se produce en el interior celular.<br>d) Indica cuál es el objetivo y el resultado final del proceso fermentativo en una célula humana.",
+   "c": [
+    "<span class=\"redactado\">a) Las algas, los hongos y los protozoos aerobios, que son eucariotas. Las bacterias no tienen mitocondrias (son procariotas).</span>",
+    "<span class=\"redactado\">b) La respiración celular aerobia: obtienen la mayor parte del ATP de la célula (ciclo de Krebs, cadena respiratoria y fosforilación oxidativa).</span>",
+    "<span class=\"redactado\">c) En el citosol (hialoplasma).</span>",
+    "<span class=\"redactado\">d) Objetivo: obtener energía (ATP) en ausencia o escasez de O₂, regenerando el NAD⁺ que necesita la glucólisis para continuar. Resultado: en las células humanas (por ejemplo, las musculares) es una fermentación láctica: cada glucosa da 2 lactato (ácido láctico) y solo 2 ATP.</span>"
+   ],
+   "origen": {
+    "documento": "PAU 2025 Canarias (Distrito Universitario de Canarias) · Canarias, convocatoria ordinaria",
+    "referencia": "Canarias, convocatoria ordinaria, pregunta 14",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Canarias (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta oficial de la PAU 2025 de Canarias (20 preguntas de 1 punto, de las que se eligen 10) (Canarias, convocatoria ordinaria, pregunta 14, 1 punto). Solución redactada por BioCelia (en morado): el examen de Canarias de la carpeta no trae criterios de corrección."
+  },
+  {
+   "id": "pau2025-canarias-15",
+   "block": "Metabolismo",
+   "topic": "Fase luminosa de la fotosíntesis: cloroplasto, transporte electrónico y NADPH",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Canarias",
+   "hasImg": true,
+   "puntos": 1,
+   "competencial": true,
+   "q": "<b>Un tubérculo comestible es Solanum tuberosum, conocido comúnmente como papa o patata. La imagen adjunta esquematiza una parte esencial de un proceso metabólico que se realiza en esta especie.</b><br>a) Indica en qué orgánulo tiene lugar.<br>b) Indica el nombre que recibe este conjunto de reacciones.<br>c) Identifica los elementos (del 1 al 9) que participan en el proceso. (Algunos de los elementos se corresponden con más de un nº).<br>d) Indica qué aporta la molécula correspondiente al nº 8 del esquema a la vía anabólica característica de este orgánulo.",
+   "c": [
+    "<span class=\"redactado\">a) En el cloroplasto, en la membrana de los tilacoides.</span>",
+    "<span class=\"redactado\">b) Fase luminosa de la fotosíntesis (transporte electrónico no cíclico o acíclico y fotofosforilación).</span>",
+    "<span class=\"redactado\">c) 1, H₂O; 2, O₂ (½ O₂); 3 y 4, H⁺ (protones bombeados al interior del tilacoide y acumulados en él); 5, ADP + Pi; 6, ATP; 7, NADP⁺; 8, NADPH; 9, H⁺ que sale por la ATP sintasa hacia el estroma.</span>",
+    "<span class=\"redactado\">d) El NADPH aporta el poder reductor (electrones e hidrógenos) al ciclo de Calvin, donde se usa, junto con el ATP, para reducir el 1,3-bisfosfoglicerato a gliceraldehído-3-fosfato y sintetizar glúcidos.</span>"
+   ],
+   "origen": {
+    "documento": "PAU 2025 Canarias (Distrito Universitario de Canarias) · Canarias, convocatoria ordinaria",
+    "referencia": "Canarias, convocatoria ordinaria, pregunta 15",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Canarias (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/canarias-15.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/canarias-15.thumb.webp",
+   "imageDesc": "Óvalo de membrana con tres complejos: la luz llega al primero, que recibe 1 y desprende ½ 2 + H⁺; los electrones pasan al segundo, que mete 3 hacia el interior (4); la luz llega al tercero, que transforma 7 en 8. Abajo, un canal por el que sale 9 transforma 5 en 6.",
+   "isNew": false,
+   "f": "Pregunta oficial de la PAU 2025 de Canarias (20 preguntas de 1 punto, de las que se eligen 10) (Canarias, convocatoria ordinaria, pregunta 15, 1 punto). Solución redactada por BioCelia (en morado): el examen de Canarias de la carpeta no trae criterios de corrección."
+  },
+  {
+   "id": "pau2025-canarias-16",
+   "block": "Metabolismo",
+   "topic": "Ciclo de Krebs, cadena respiratoria y fosforilación oxidativa",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Canarias",
+   "hasImg": true,
+   "puntos": 1,
+   "competencial": true,
+   "q": "<b>El picudo (Diocalandra frumenti) es un insecto que amenaza, entre otras especies, a la palmera canaria (Phoenix canariensis), la cual tiene un enorme interés botánico, científico, ecológico, cultural, económico y paisajístico, y por ello está considerada como símbolo vegetal de la Comunidad Autónoma de Canarias.</b><br>a) En el esquema se representan una serie de procesos indicados con los nº 1, 2 y 3. Identifica cada uno de ellos.<br>b) Indica en qué condiciones, aerobia o anaerobia, se requiere para el conjunto de los procesos.<br>c) Indica en el interior de qué orgánulo se están produciendo los procesos.<br>d) Especifica si en su conjunto es una vía anabólica o catabólica.",
+   "c": [
+    "<span class=\"redactado\">a) 1, ciclo de Krebs (ciclo de los ácidos tricarboxílicos); 2, cadena de transporte electrónico (cadena respiratoria); 3, fosforilación oxidativa (síntesis de ATP por la ATP sintasa, por quimiosmosis).</span>",
+    "<span class=\"redactado\">b) Aerobias: el O₂ es el aceptor final de los electrones de la cadena respiratoria, y sin él se detienen la cadena y, al no regenerarse el NAD⁺ y el FAD, el ciclo de Krebs.</span>",
+    "<span class=\"redactado\">c) En la mitocondria: el ciclo de Krebs en la matriz y la cadena respiratoria y la ATP sintasa en la membrana mitocondrial interna (crestas).</span>",
+    "<span class=\"redactado\">d) Catabólica: se oxida (degrada) el acetil-CoA hasta CO₂ y se obtiene energía en forma de ATP.</span>"
+   ],
+   "origen": {
+    "documento": "PAU 2025 Canarias (Distrito Universitario de Canarias) · Canarias, convocatoria ordinaria",
+    "referencia": "Canarias, convocatoria ordinaria, pregunta 16",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Canarias (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/canarias-16.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/canarias-16.thumb.webp",
+   "imageDesc": "Esquema del interior de un orgánulo: a la derecha, un ciclo (1) al que entra acetil-coenzima A y del que salen CO₂, NADH y FADH₂; en el centro, una serie de complejos de membrana (2) que reciben NADH y FADH₂, bombean H⁺ y reducen ½ O₂ a H₂O; a la izquierda, un complejo (3) por el que vuelven los H⁺ y que forma ATP a partir de ADP.",
+   "isNew": false,
+   "f": "Pregunta oficial de la PAU 2025 de Canarias (20 preguntas de 1 punto, de las que se eligen 10) (Canarias, convocatoria ordinaria, pregunta 16, 1 punto). Solución redactada por BioCelia (en morado): el examen de Canarias de la carpeta no trae criterios de corrección."
+  },
+  {
+   "id": "pau2025-canarias-17",
+   "block": "Biotecnología",
+   "topic": "PCR: pasos, aplicaciones y Taq polimerasa",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Canarias",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": true,
+   "q": "<b>En la escena de un crimen, la policía científica ha encontrado una pequeña muestra de sangre, lo cual implica mínima cantidad de ADN. Los investigadores del equipo de criminalista necesitan obtener suficiente material genético para poder compararlo con el de los sospechosos y así identificar al posible culpable. Para ello, deben seleccionar una técnica:</b><br>a) Indica y describe en qué consiste la técnica utilizada por los investigadores, mencionando los pasos básicos del proceso.<br>b) Además de su utilidad en investigaciones criminales, indica 2 aplicaciones en otros ámbitos.<br>c) Nombra la enzima que es requerida para llevar a cabo este procedimiento y el tipo de organismo del que se obtiene.",
+   "c": [
+    "<span class=\"redactado\">a) La PCR (reacción en cadena de la polimerasa), que amplifica millones de veces un fragmento de ADN in vitro. Cada ciclo tiene tres pasos: desnaturalización (unos 95 ºC, se separan las hebras), hibridación (unos 50-65 ºC, los cebadores se unen a los extremos de la secuencia) y extensión (72 ºC, la ADN polimerasa sintetiza las hebras nuevas). Se repite unos 30 ciclos y el número de copias se duplica en cada uno.</span>",
+    "<span class=\"redactado\">b) Por ejemplo, el diagnóstico de enfermedades infecciosas (detección de virus, como en las pruebas de COVID-19) o genéticas, las pruebas de paternidad, o el estudio de ADN antiguo en evolución y paleontología.</span>",
+    "<span class=\"redactado\">c) Una ADN polimerasa termoestable, la Taq polimerasa, que se obtiene de la bacteria termófila Thermus aquaticus (que vive en aguas termales).</span>"
+   ],
+   "origen": {
+    "documento": "PAU 2025 Canarias (Distrito Universitario de Canarias) · Canarias, convocatoria ordinaria",
+    "referencia": "Canarias, convocatoria ordinaria, pregunta 17",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Canarias (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta oficial de la PAU 2025 de Canarias (20 preguntas de 1 punto, de las que se eligen 10) (Canarias, convocatoria ordinaria, pregunta 17, 1 punto). Solución redactada por BioCelia (en morado): el examen de Canarias de la carpeta no trae criterios de corrección."
+  },
+  {
+   "id": "pau2025-canarias-18",
+   "block": "Biotecnología",
+   "topic": "Secuenciación; electroforesis; biotecnología ambiental",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Canarias",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": true,
+   "q": "<b>Un equipo de investigación ha descubierto una nueva especie de organismo marino con potencial para la producción de fármacos. Para conocer mejor sus características y poder aprovechar sus compuestos bioactivos, los científicos necesitan conocer su genoma.</b><br>a) Explica una técnica de biología molecular que se pueda emplear para conocer el genoma de este nuevo organismo.<br>b) Durante la investigación, la muestra de ADN se ha contaminado con material genético de otros organismos marinos. ¿Qué técnica se puede utilizar para separar fragmentos de ADN según su tamaño y así facilitar la identificación de la secuencia del organismo estudiado? Explica su funcionamiento.<br>c) Si se lograra utilizar principios activos de este organismo como sustancias eliminadoras de petróleo, ¿con qué tipo de biotecnología lo relacionarías?",
+   "c": [
+    "<span class=\"redactado\">a) La secuenciación del ADN, que determina el orden de sus nucleótidos. En el método de Sanger, una ADN polimerasa copia el fragmento en presencia de didesoxinucleótidos marcados, que detienen la síntesis; se obtienen fragmentos de todos los tamaños que se separan por electroforesis, y la base final de cada uno revela la secuencia. Hoy se usan técnicas de secuenciación masiva, que leen millones de fragmentos a la vez y los ensamblan informáticamente.</span>",
+    "<span class=\"redactado\">b) La electroforesis en gel (de agarosa): el ADN, con carga negativa por sus fosfatos, se coloca en pocillos y se aplica un campo eléctrico; los fragmentos migran hacia el polo positivo a través del gel, y los pequeños avanzan más que los grandes, así que quedan separados en bandas según su tamaño, que se comparan con un marcador de tamaños conocidos.</span>",
+    "<span class=\"redactado\">c) Con la biotecnología ambiental (biotecnología gris), en concreto con la biorremediación (eliminación de contaminantes como el petróleo con seres vivos o sus productos); por su origen marino, también con la biotecnología azul.</span>"
+   ],
+   "origen": {
+    "documento": "PAU 2025 Canarias (Distrito Universitario de Canarias) · Canarias, convocatoria ordinaria",
+    "referencia": "Canarias, convocatoria ordinaria, pregunta 18",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Canarias (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta oficial de la PAU 2025 de Canarias (20 preguntas de 1 punto, de las que se eligen 10) (Canarias, convocatoria ordinaria, pregunta 18, 1 punto). Solución redactada por BioCelia (en morado): el examen de Canarias de la carpeta no trae criterios de corrección."
+  },
+  {
+   "id": "pau2025-canarias-19",
+   "block": "Inmunología",
+   "topic": "Alergia e hipersensibilidad; choque anafiláctico",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Canarias",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": true,
+   "q": "<b>Un mismo grupo de turistas, con igual origen, transporte…, a las pocas horas de llegar al destino en condiciones de calima (fenómeno meteorológico responsable de emisión de partículas, no antropogénica o tóxica por sí mismas, a la atmósfera), algunos de los turistas (G-2) presentan síntomas de problemas respiratorios, irritación ocular, entre otras. El Centro médico informa que corresponde a una enfermedad NO transmisible. Transcurrido un tiempo, y dado las condiciones de algunos pasajeros denominados como G-2_B, se realizan pruebas clínicas y se diagnostican que están expuestos a un choque anafiláctico. En base a la información expuesta, razona la respuesta a las siguientes cuestiones:</b><br>a) Motivo por el cual no se menciona al G-1 de turistas (sin síntomas) en el enunciado.<br>b) Motivo de la reacción del G-2.<br>c) Qué prueba clínica puede facilitar el diagnóstico al G-2_B.<br>d) La consecuencia de un choque anafiláctico.",
+   "c": [
+    "<span class=\"redactado\">a) Porque no presentan reacción: no están sensibilizados frente a las partículas de la calima, que no son tóxicas ni infecciosas por sí mismas; su sistema inmunitario las tolera y no responde de forma exagerada.</span>",
+    "<span class=\"redactado\">b) Es una reacción de hipersensibilidad inmediata (alergia): las partículas actúan como alérgenos en personas sensibilizadas, que tienen IgE específicas unidas a los mastocitos y basófilos; al unirse el alérgeno, estas células liberan histamina y otros mediadores que causan inflamación, broncoconstricción, moco e irritación ocular.</span>",
+    "<span class=\"redactado\">c) Pruebas de alergia: pruebas cutáneas (prick test, con el alérgeno sobre la piel) o un análisis de sangre que mida la IgE total y la IgE específica frente al alérgeno.</span>",
+    "<span class=\"redactado\">d) Es una reacción alérgica generalizada y grave: la liberación masiva de histamina provoca vasodilatación general con caída brusca de la presión arterial, broncoconstricción y edema que dificultan la respiración; puede causar la muerte si no se trata de inmediato (con adrenalina).</span>"
+   ],
+   "origen": {
+    "documento": "PAU 2025 Canarias (Distrito Universitario de Canarias) · Canarias, convocatoria ordinaria",
+    "referencia": "Canarias, convocatoria ordinaria, pregunta 19",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Canarias (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta oficial de la PAU 2025 de Canarias (20 preguntas de 1 punto, de las que se eligen 10) (Canarias, convocatoria ordinaria, pregunta 19, 1 punto). Solución redactada por BioCelia (en morado): el examen de Canarias de la carpeta no trae criterios de corrección."
+  },
+  {
+   "id": "pau2025-canarias-20",
+   "block": "Inmunología",
+   "topic": "Suero o vacuna: inmunidad pasiva y activa artificial",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Canarias",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": true,
+   "q": "<b>La fiebre amarilla es una enfermedad viral que es endémica en ciertos países tropicales. La recomendación es tomar medidas de prevención si se tiene intención de visitarlos. La información de los prospectos de los siguientes compuestos es:<br>- Compuesto A con inmunoglobulinas humanas para un amplio espectro de antígenos.<br>- Compuesto B con antígenos inactivados del virus de la fiebre amarilla.<br>Conteste de forma razonada, qué compuesto tomaría ante sus posibilidades de decisión:</b><br>a) Si su intención es viajar mañana a una de estas regiones tropicales.<br>b) Si tiene planeado realizar el viaje dentro de unos meses y su estancia es prolongada.",
+   "c": [
+    "<span class=\"redactado\">a) El compuesto A, un suero (inmunoglobulinas ya formadas): da inmunidad pasiva artificial, inmediata, porque los anticuerpos actúan desde el primer momento; pero dura poco (semanas), ya que los anticuerpos se degradan y no se forman células de memoria. La vacuna B no protegería a tiempo, porque la respuesta primaria tarda días o semanas en desarrollarse.</span>",
+    "<span class=\"redactado\">b) El compuesto B, la vacuna: da inmunidad activa artificial; el organismo fabrica sus propios anticuerpos y células de memoria frente al virus. Tarda en establecerse, pero hay tiempo hasta el viaje, y es duradera, adecuada para una estancia larga.</span>"
+   ],
+   "origen": {
+    "documento": "PAU 2025 Canarias (Distrito Universitario de Canarias) · Canarias, convocatoria ordinaria",
+    "referencia": "Canarias, convocatoria ordinaria, pregunta 20",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Canarias (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta oficial de la PAU 2025 de Canarias (20 preguntas de 1 punto, de las que se eligen 10) (Canarias, convocatoria ordinaria, pregunta 20, 1 punto). Solución redactada por BioCelia (en morado): el examen de Canarias de la carpeta no trae criterios de corrección."
+  },
+  {
+   "id": "pau2025-cantabria-modelo-1",
+   "block": "Biomoléculas",
+   "topic": "Enlaces O-glucosídico, éster y peptídico",
+   "anio": 2025,
+   "etiqueta": "Modelo Cantabria 24-25",
+   "hasImg": false,
+   "puntos": 1.25,
+   "competencial": false,
+   "q": "Dibuje las reacciones de formación de los enlaces O-glucosídico, éster y peptídico, nombrando los grupos que participan y los productos que se forman. Mencione un ejemplo de biomolécula que contenga cada uno de dichos enlaces.",
+   "c": [
+    "<span class=\"redactado\">Los tres se forman por condensación, con liberación de una molécula de agua; se rompen por hidrólisis.</span>",
+    "<span class=\"redactado\">O-glucosídico: el –OH del carbono anomérico (hemiacetálico o hemicetálico) de un monosacárido reacciona con un –OH de otro: monosacárido–OH + HO–monosacárido → monosacárido–O–monosacárido + H₂O. Ejemplo: maltosa, sacarosa, almidón, celulosa.</span>",
+    "<span class=\"redactado\">Éster: el grupo carboxilo (–COOH) de un ácido reacciona con el hidroxilo (–OH) de un alcohol: R–COOH + HO–R' → R–CO–O–R' + H₂O. Ejemplo: triacilglicéridos (ácidos grasos + glicerina), fosfolípidos, ceras.</span>",
+    "<span class=\"redactado\">Peptídico: el grupo carboxilo (–COOH) de un aminoácido reacciona con el grupo amino (–NH₂) de otro: H₂N–CHR₁–COOH + H₂N–CHR₂–COOH → H₂N–CHR₁–CO–NH–CHR₂–COOH (dipéptido) + H₂O. Es un enlace amida. Ejemplo: cualquier proteína (insulina, hemoglobina).</span>"
+   ],
+   "origen": {
+    "documento": "Ejemplo de examen PAU 2025 de Cantabria (Universidad de Cantabria) · Modelo (ejemplo) 2024-25",
+    "referencia": "Modelo (ejemplo) 2024-25, pregunta 1",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/CANTABRIA.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta del examen de ejemplo de la PAU 2025 de Cantabria (13 preguntas de 1,25 puntos, de las que se contestan 8) (Modelo (ejemplo) 2024-25, pregunta 1, 1,25 puntos). Solución redactada por BioCelia (en morado): el ejemplo de Cantabria se publicó sin soluciones."
+  },
+  {
+   "id": "pau2025-cantabria-modelo-2",
+   "block": "Biomoléculas",
+   "topic": "Texto con conceptos: enzima, centro activo, velocidad máxima, desnaturalización",
+   "anio": 2025,
+   "etiqueta": "Modelo Cantabria 24-25",
+   "hasImg": false,
+   "puntos": 1.25,
+   "competencial": true,
+   "q": "Escriba un texto de no más de 10 líneas en el que se relacionen de manera coherente, dentro de un fenómeno biológico, los siguientes conceptos: enzima, centro activo, velocidad máxima, desnaturalización.",
+   "c": [
+    "<span class=\"redactado\">Ejemplo: En la digestión, la amilasa de la saliva es una enzima, un biocatalizador de naturaleza proteica que acelera la hidrólisis del almidón al disminuir su energía de activación. El almidón (sustrato) se une a una región concreta de la enzima, el centro activo, cuya forma y aminoácidos son complementarios a él, y allí se rompen los enlaces. Si aumenta la concentración de almidón, la velocidad de la reacción crece hasta alcanzar la velocidad máxima, cuando todos los centros activos están ocupados (la enzima está saturada). Al llegar al estómago, el pH muy ácido provoca la desnaturalización de la amilasa: pierde su estructura terciaria, se deforma el centro activo y deja de funcionar.</span>"
+   ],
+   "origen": {
+    "documento": "Ejemplo de examen PAU 2025 de Cantabria (Universidad de Cantabria) · Modelo (ejemplo) 2024-25",
+    "referencia": "Modelo (ejemplo) 2024-25, pregunta 2",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/CANTABRIA.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta del examen de ejemplo de la PAU 2025 de Cantabria (13 preguntas de 1,25 puntos, de las que se contestan 8) (Modelo (ejemplo) 2024-25, pregunta 2, 1,25 puntos). Solución redactada por BioCelia (en morado): el ejemplo de Cantabria se publicó sin soluciones."
+  },
+  {
+   "id": "pau2025-cantabria-modelo-3",
+   "block": "Genética",
+   "topic": "Traducción con la tabla del código genético; mutación de sustitución",
+   "anio": 2025,
+   "etiqueta": "Modelo Cantabria 24-25",
+   "hasImg": true,
+   "puntos": 1.25,
+   "competencial": true,
+   "q": "A partir de la siguiente secuencia codificante de nucleótidos (5'-CGACCCCTCATAGGCAAACACCGCTATATC-3')<br>a) Razone si se trata de ADN o ARN.<br>b) Determine la secuencia de aminoácidos a la que dará lugar, usando la Figura 2 adjunta.<br>c) Escriba una secuencia alternativa con una mutación que resulte en el cambio del aminoácido Pro por Thr.",
+   "c": [
+    "<span class=\"redactado\">a) Es ADN, porque contiene timina (T) y no uracilo (U).</span>",
+    "<span class=\"redactado\">b) Al ser la hebra codificante, el ARNm tiene la misma secuencia con U: 5'-CGA CCC CUC AUA GGC AAA CAC CGC UAU AUC-3'. Aminoácidos: Arg-Pro-Leu-Met-Gly-Lys-His-Arg-Tyr-Ile. Ojo: la Figura 2 agrupa AUA con Met, pero en el código genético estándar AUA codifica Ile (Arg-Pro-Leu-Ile-…); AUA es Met solo en el código mitocondrial de vertebrados.</span>",
+    "<span class=\"redactado\">c) Pro está codificada por CCC (2.º codón); basta cambiar la primera C por A (ACC = Thr): 5'-CGAACCCTCATAGGCAAACACCGCTATATC-3'.</span>"
+   ],
+   "origen": {
+    "documento": "Ejemplo de examen PAU 2025 de Cantabria (Universidad de Cantabria) · Modelo (ejemplo) 2024-25",
+    "referencia": "Modelo (ejemplo) 2024-25, pregunta 3",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/CANTABRIA.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/cantabria-modelo-3.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/cantabria-modelo-3.thumb.webp",
+   "imageDesc": "Figura 2: tabla del código genético con los 64 codones del ARNm ordenados por primera, segunda y tercera base y el aminoácido de cada uno.",
+   "isNew": false,
+   "f": "Pregunta del examen de ejemplo de la PAU 2025 de Cantabria (13 preguntas de 1,25 puntos, de las que se contestan 8) (Modelo (ejemplo) 2024-25, pregunta 3, 1,25 puntos). Solución redactada por BioCelia (en morado): el ejemplo de Cantabria se publicó sin soluciones."
+  },
+  {
+   "id": "pau2025-cantabria-modelo-4",
+   "block": "Genética",
+   "topic": "Mutaciones: verdadero o falso",
+   "anio": 2025,
+   "etiqueta": "Modelo Cantabria 24-25",
+   "hasImg": false,
+   "puntos": 1.25,
+   "competencial": false,
+   "q": "Indique cuáles de las siguientes afirmaciones son correctas y cuáles no. Razone brevemente en cada caso su respuesta.<br>a) Todas las mutaciones son fenotípicamente perjudiciales para los individuos que las padecen.<br>b) Las mutaciones suponen una fuente importante de variación alélica.<br>c) Las mutaciones génicas pueden ocurrir cuando un agente mutagénico incide sobre una proteína alterando irreversiblemente su funcionalidad.<br>d) Un gen mutado puede codificar para una proteína con la función alterada.<br>e) Una mutación en un gameto humano siempre tiene un efecto perjudicial.",
+   "c": [
+    "<span class=\"redactado\">a) Falsa: muchas son neutras (silenciosas, por la degeneración del código, o en ADN no codificante) y algunas son beneficiosas; solo una parte es perjudicial.</span>",
+    "<span class=\"redactado\">b) Correcta: las mutaciones son la fuente primaria de nuevos alelos, sobre los que actúa la selección natural.</span>",
+    "<span class=\"redactado\">c) Falsa: una mutación es un cambio en el material genético (ADN); si un agente altera una proteína, se modifica esa molécula pero no se hereda ni es una mutación.</span>",
+    "<span class=\"redactado\">d) Correcta: si la mutación cambia la secuencia de aminoácidos (cambio de sentido, sin sentido, cambio de pauta de lectura), la proteína puede perder o modificar su función.</span>",
+    "<span class=\"redactado\">e) Falsa: puede ser neutra o beneficiosa; además, solo tendrá efecto si ese gameto participa en la fecundación, y entonces se transmitirá a la descendencia.</span>"
+   ],
+   "origen": {
+    "documento": "Ejemplo de examen PAU 2025 de Cantabria (Universidad de Cantabria) · Modelo (ejemplo) 2024-25",
+    "referencia": "Modelo (ejemplo) 2024-25, pregunta 4",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/CANTABRIA.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta del examen de ejemplo de la PAU 2025 de Cantabria (13 preguntas de 1,25 puntos, de las que se contestan 8) (Modelo (ejemplo) 2024-25, pregunta 4, 1,25 puntos). Solución redactada por BioCelia (en morado): el ejemplo de Cantabria se publicó sin soluciones."
+  },
+  {
+   "id": "pau2025-cantabria-modelo-5",
+   "block": "Célula",
+   "topic": "Meiosis de una célula 2n = 4; diferencias entre espermatogénesis y ovogénesis",
+   "anio": 2025,
+   "etiqueta": "Modelo Cantabria 24-25",
+   "hasImg": false,
+   "puntos": 1.25,
+   "competencial": false,
+   "q": "Dibuje una meiosis completa de una célula 2n=4, nombrando cada una de las fases de las que se compone. Señale una diferencia entre la I división meiótica entre machos y hembras de humanos.",
+   "c": [
+    "<span class=\"redactado\">El dibujo debe mostrar dos pares de cromosomas homólogos (cuatro cromosomas de dos cromátidas). Primera división (reduccional): profase I (los homólogos se aparean formando 2 bivalentes y hay sobrecruzamiento), metafase I (los bivalentes en la placa ecuatorial), anafase I (cada homólogo va a un polo) y telofase I: dos células n = 2, con cromosomas de dos cromátidas. Segunda división (ecuacional): profase II, metafase II (2 cromosomas en la placa), anafase II (se separan las cromátidas hermanas) y telofase II: cuatro células n = 2, con cromosomas de una cromátida.</span>",
+    "<span class=\"redactado\">Diferencia en la primera división: en el hombre la citocinesis es igual y da dos espermatocitos secundarios iguales, y la meiosis empieza en la pubertad y es continua; en la mujer la citocinesis es desigual y da un ovocito secundario grande y un corpúsculo polar pequeño, y la profase I empieza antes del nacimiento y queda detenida hasta la pubertad, cuando se completa la primera división en cada ciclo antes de la ovulación.</span>"
+   ],
+   "origen": {
+    "documento": "Ejemplo de examen PAU 2025 de Cantabria (Universidad de Cantabria) · Modelo (ejemplo) 2024-25",
+    "referencia": "Modelo (ejemplo) 2024-25, pregunta 5",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/CANTABRIA.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta del examen de ejemplo de la PAU 2025 de Cantabria (13 preguntas de 1,25 puntos, de las que se contestan 8) (Modelo (ejemplo) 2024-25, pregunta 5, 1,25 puntos). Solución redactada por BioCelia (en morado): el ejemplo de Cantabria se publicó sin soluciones."
+  },
+  {
+   "id": "pau2025-cantabria-modelo-6",
+   "block": "Célula",
+   "topic": "El núcleo en microfotografía: estructuras y funciones",
+   "anio": 2025,
+   "etiqueta": "Modelo Cantabria 24-25",
+   "hasImg": true,
+   "puntos": 1.25,
+   "competencial": true,
+   "q": "a) Identifique el orgánulo celular representado en la microfotografía, y b) nombre las estructuras numeradas.<br>c) Nombre dos procesos fundamentales para la célula que tienen lugar en este orgánulo, y d) explique su importancia.",
+   "c": [
+    "<span class=\"redactado\">a) El núcleo (en interfase).</span>",
+    "<span class=\"redactado\">b) 1, envoltura nuclear (doble membrana); 2, eucromatina (cromatina laxa, más clara); 3, poro nuclear; 4, heterocromatina (cromatina condensada, oscura, junto a la envoltura); 5, nucléolo.</span>",
+    "<span class=\"redactado\">c) La replicación del ADN y la transcripción (síntesis de ARN); además, en el nucléolo se sintetiza el ARNr y se ensamblan las subunidades de los ribosomas.</span>",
+    "<span class=\"redactado\">d) La replicación duplica el material genético antes de la división, para que cada célula hija reciba una copia completa de la información. La transcripción permite expresar los genes: los ARN que se forman dirigen la síntesis de proteínas, que controlan la estructura y el funcionamiento celular.</span>"
+   ],
+   "origen": {
+    "documento": "Ejemplo de examen PAU 2025 de Cantabria (Universidad de Cantabria) · Modelo (ejemplo) 2024-25",
+    "referencia": "Modelo (ejemplo) 2024-25, pregunta 6",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/CANTABRIA.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/cantabria-modelo-6.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/cantabria-modelo-6.thumb.webp",
+   "imageDesc": "Microfotografía electrónica de un orgánulo esférico grande: 1 recuadra su borde formado por dos membranas; 3 señala una interrupción del borde; 2 y 4 recuadran zonas internas, clara (2) y oscuras (4); 5 rodea una masa oscura y densa del interior.",
+   "isNew": false,
+   "f": "Pregunta del examen de ejemplo de la PAU 2025 de Cantabria (13 preguntas de 1,25 puntos, de las que se contestan 8) (Modelo (ejemplo) 2024-25, pregunta 6, 1,25 puntos). Solución redactada por BioCelia (en morado): el ejemplo de Cantabria se publicó sin soluciones."
+  },
+  {
+   "id": "pau2025-cantabria-modelo-7",
+   "block": "Célula",
+   "topic": "Modelo del mosaico fluido; funciones de la membrana",
+   "anio": 2025,
+   "etiqueta": "Modelo Cantabria 24-25",
+   "hasImg": false,
+   "puntos": 1.25,
+   "competencial": false,
+   "q": "Describa el modelo de mosaico fluido de membrana, y cite al menos 3 de sus funciones. Represéntelo con un dibujo en el que aparezcan claramente señalados los distintos tipos de lípidos, proteínas y glúcidos que la conforman.",
+   "c": [
+    "<span class=\"redactado\">Modelo de Singer y Nicolson (1972): la membrana es una bicapa de lípidos anfipáticos (fosfolípidos, glucolípidos y colesterol en las animales) con las colas hidrófobas hacia dentro y las cabezas polares hacia el agua. En ella se insertan proteínas integrales (algunas transmembrana) y, en las superficies, proteínas periféricas, como piezas de un mosaico. Es fluida: lípidos y proteínas se desplazan lateralmente. Es asimétrica: los glúcidos (oligosacáridos de glucolípidos y glucoproteínas) solo están en la cara externa, donde forman el glucocáliz.</span>",
+    "<span class=\"redactado\">Funciones: límite de la célula que separa el medio interno del externo; transporte selectivo de sustancias (permeabilidad selectiva); reconocimiento celular y recepción de señales (receptores); endocitosis y exocitosis; uniones entre células.</span>",
+    "<span class=\"redactado\">En el dibujo deben señalarse: fosfolípidos de la bicapa, colesterol, glucolípidos, proteínas integrales (transmembrana), proteínas periféricas, glucoproteínas y el glucocáliz en la cara externa.</span>"
+   ],
+   "origen": {
+    "documento": "Ejemplo de examen PAU 2025 de Cantabria (Universidad de Cantabria) · Modelo (ejemplo) 2024-25",
+    "referencia": "Modelo (ejemplo) 2024-25, pregunta 7",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/CANTABRIA.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta del examen de ejemplo de la PAU 2025 de Cantabria (13 preguntas de 1,25 puntos, de las que se contestan 8) (Modelo (ejemplo) 2024-25, pregunta 7, 1,25 puntos). Solución redactada por BioCelia (en morado): el ejemplo de Cantabria se publicó sin soluciones."
+  },
+  {
+   "id": "pau2025-cantabria-modelo-8",
+   "block": "Metabolismo",
+   "topic": "β-oxidación de los ácidos grasos: fases y localización",
+   "anio": 2025,
+   "etiqueta": "Modelo Cantabria 24-25",
+   "hasImg": false,
+   "puntos": 1.25,
+   "competencial": false,
+   "q": "Los ácidos grasos son una importante fuente de carbono y energía para la célula. ¿Cómo se denomina el proceso por el que se incorporan al ciclo de Krebs? Nombre y explique brevemente las diferentes fases en que se divide, y su localización intracelular.",
+   "c": [
+    "<span class=\"redactado\">Es la β-oxidación (hélice de Lynen).</span>",
+    "<span class=\"redactado\">1) Activación, en el citosol (en la membrana mitocondrial externa): el ácido graso se une a la coenzima A con gasto de ATP (que pasa a AMP + PPi) y forma acil-CoA. 2) Entrada en la mitocondria: el grupo acilo atraviesa la membrana interna unido a la carnitina y en la matriz vuelve a formar acil-CoA. 3) β-oxidación, en la matriz mitocondrial: en cada vuelta hay cuatro reacciones (oxidación con FAD, hidratación, oxidación con NAD⁺ y tiólisis con CoA) que separan un acetil-CoA (2 C) y producen 1 FADH₂ y 1 NADH; se repite hasta que toda la cadena se convierte en acetil-CoA, que entra en el ciclo de Krebs. También hay β-oxidación en los peroxisomas.</span>"
+   ],
+   "origen": {
+    "documento": "Ejemplo de examen PAU 2025 de Cantabria (Universidad de Cantabria) · Modelo (ejemplo) 2024-25",
+    "referencia": "Modelo (ejemplo) 2024-25, pregunta 8",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/CANTABRIA.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta del examen de ejemplo de la PAU 2025 de Cantabria (13 preguntas de 1,25 puntos, de las que se contestan 8) (Modelo (ejemplo) 2024-25, pregunta 8, 1,25 puntos). Solución redactada por BioCelia (en morado): el ejemplo de Cantabria se publicó sin soluciones."
+  },
+  {
+   "id": "pau2025-cantabria-modelo-9",
+   "block": "Metabolismo",
+   "topic": "Glucólisis; respiración y fermentación",
+   "anio": 2025,
+   "etiqueta": "Modelo Cantabria 24-25",
+   "hasImg": false,
+   "puntos": 1.25,
+   "competencial": false,
+   "q": "¿En qué consiste la glucólisis? Dibuje la reacción global de la glucólisis, indicando el nombre de todos los elementos que forman parte de la reacción. ¿Cuáles son los dos tipos de degradación que puede seguir el producto final de la glucólisis? Compárelos a nivel de productos finales y cantidad de energía generada.",
+   "c": [
+    "<span class=\"redactado\">La glucólisis es la ruta catabólica del citosol, anaerobia, en la que una molécula de glucosa (6 C) se oxida y se rompe en dos de piruvato (3 C), con una ganancia neta de 2 ATP (por fosforilación a nivel de sustrato) y 2 NADH.</span>",
+    "<span class=\"redactado\">Reacción global: glucosa + 2 NAD⁺ + 2 ADP + 2 Pi → 2 piruvato (ácido pirúvico) + 2 NADH + 2 H⁺ + 2 ATP + 2 H₂O.</span>",
+    "<span class=\"redactado\">El piruvato puede seguir la respiración aerobia (con O₂): en la mitocondria se oxida a acetil-CoA, que entra en el ciclo de Krebs; los productos finales son CO₂ y H₂O y se obtienen unos 36-38 ATP por glucosa (30-32 según los cálculos actuales). O la fermentación (sin O₂), en el citosol: los productos finales son orgánicos y aún tienen energía (lactato en la láctica; etanol y CO₂ en la alcohólica) y solo se obtienen los 2 ATP de la glucólisis.</span>"
+   ],
+   "origen": {
+    "documento": "Ejemplo de examen PAU 2025 de Cantabria (Universidad de Cantabria) · Modelo (ejemplo) 2024-25",
+    "referencia": "Modelo (ejemplo) 2024-25, pregunta 9",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/CANTABRIA.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta del examen de ejemplo de la PAU 2025 de Cantabria (13 preguntas de 1,25 puntos, de las que se contestan 8) (Modelo (ejemplo) 2024-25, pregunta 9, 1,25 puntos). Solución redactada por BioCelia (en morado): el ejemplo de Cantabria se publicó sin soluciones."
+  },
+  {
+   "id": "pau2025-cantabria-modelo-10",
+   "block": "Metabolismo",
+   "topic": "Fase luminosa: espacios del cloroplasto, transporte electrónico y fotofosforilación",
+   "anio": 2025,
+   "etiqueta": "Modelo Cantabria 24-25",
+   "hasImg": true,
+   "puntos": 1.25,
+   "competencial": true,
+   "q": "¿Qué proceso se encuentra representado en la Figura 1? Nombre los espacios intracelulares A y B, y los compuestos B, C, D, E, F, G y H. ¿Cuál es la fuente de energía que permite la síntesis del compuesto H?",
+   "c": [
+    "<span class=\"redactado\">Es la fase luminosa de la fotosíntesis (transporte electrónico no cíclico y fotofosforilación) en la membrana del tilacoide.</span>",
+    "<span class=\"redactado\">A, estroma del cloroplasto; B, lumen o espacio intratilacoidal. C, H₂O; D, H⁺ (protones); E, NADP⁺; F, NADPH; G, ADP + Pi; H, ATP.</span>",
+    "<span class=\"redactado\">La síntesis de ATP (H) la impulsa el gradiente de protones (fuerza protonmotriz) entre el lumen y el estroma: los H⁺ vuelven al estroma a través de la ATP sintasa y esa energía se usa para fosforilar el ADP (quimiosmosis). El gradiente se crea gracias a la energía de la luz captada por los fotosistemas, que mueve los electrones desde el agua.</span>"
+   ],
+   "origen": {
+    "documento": "Ejemplo de examen PAU 2025 de Cantabria (Universidad de Cantabria) · Modelo (ejemplo) 2024-25",
+    "referencia": "Modelo (ejemplo) 2024-25, pregunta 10",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/CANTABRIA.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/cantabria-modelo-10.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/cantabria-modelo-10.thumb.webp",
+   "imageDesc": "Figura 1: membrana con varios complejos (PS II, PQ, Cyt b₆f, PC, PS I, Fd y un complejo con canal). Arriba el espacio A y abajo el B. La luz llega a PS II, que toma C y libera ½ O₂ + 2 D; los electrones pasan hasta Fd, donde E se transforma en F; D pasa de arriba abajo por Cyt b₆f y de abajo arriba por el último complejo, que transforma G en H.",
+   "isNew": false,
+   "f": "Pregunta del examen de ejemplo de la PAU 2025 de Cantabria (13 preguntas de 1,25 puntos, de las que se contestan 8) (Modelo (ejemplo) 2024-25, pregunta 10, 1,25 puntos). Solución redactada por BioCelia (en morado): el ejemplo de Cantabria se publicó sin soluciones."
+  },
+  {
+   "id": "pau2025-cantabria-modelo-11",
+   "block": "Microbiología",
+   "topic": "Fermentación alcohólica y láctica en la industria alimentaria",
+   "anio": 2025,
+   "etiqueta": "Modelo Cantabria 24-25",
+   "hasImg": false,
+   "puntos": 1.25,
+   "competencial": false,
+   "q": "Los microorganismos están implicados en diversos procesos industriales para obtener productos alimenticios como vino, cerveza, etc. a) ¿Cuál es el proceso metabólico que tiene lugar en estos productos? b) ¿Qué tipo de microorganismo (y su nombre) lo lleva a cabo? c) Escriba el balance global de esta reacción. Cite otro proceso similar en el que el producto de la reacción sea diferente, indique el alimento producido, el microorganismo involucrado, y el balance global de la reacción.",
+   "c": [
+    "<span class=\"redactado\">a) La fermentación alcohólica.</span>",
+    "<span class=\"redactado\">b) Levaduras (hongos unicelulares), sobre todo Saccharomyces cerevisiae.</span>",
+    "<span class=\"redactado\">c) C₆H₁₂O₆ (glucosa) → 2 CH₃–CH₂OH (etanol) + 2 CO₂ + 2 ATP.</span>",
+    "<span class=\"redactado\">Otro proceso: la fermentación láctica, con la que se obtiene el yogur (y quesos, kéfir…), llevada a cabo por bacterias lácticas como Lactobacillus bulgaricus y Streptococcus thermophilus. Balance: C₆H₁₂O₆ → 2 CH₃–CHOH–COOH (ácido láctico) + 2 ATP.</span>"
+   ],
+   "origen": {
+    "documento": "Ejemplo de examen PAU 2025 de Cantabria (Universidad de Cantabria) · Modelo (ejemplo) 2024-25",
+    "referencia": "Modelo (ejemplo) 2024-25, pregunta 11",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/CANTABRIA.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta del examen de ejemplo de la PAU 2025 de Cantabria (13 preguntas de 1,25 puntos, de las que se contestan 8) (Modelo (ejemplo) 2024-25, pregunta 11, 1,25 puntos). Solución redactada por BioCelia (en morado): el ejemplo de Cantabria se publicó sin soluciones."
+  },
+  {
+   "id": "pau2025-cantabria-modelo-12",
+   "block": "Biotecnología",
+   "topic": "Ingeniería genética y biotecnología",
+   "anio": 2025,
+   "etiqueta": "Modelo Cantabria 24-25",
+   "hasImg": false,
+   "puntos": 1.25,
+   "competencial": false,
+   "q": "Comente brevemente los conceptos: ingeniería genética y biotecnología, indicando el papel de la primera en el desarrollo de la segunda. Cite algún producto biotecnológico que se obtenga por intervención de la ingeniería genética y otro en el que esta no intervenga.",
+   "c": [
+    "<span class=\"redactado\">Biotecnología: uso de seres vivos, sus células o sus componentes para obtener productos o servicios útiles (alimentos, fármacos, depuración…). Ingeniería genética: conjunto de técnicas que permiten manipular el ADN, aislar genes, modificarlos y transferirlos de un organismo a otro (ADN recombinante).</span>",
+    "<span class=\"redactado\">La ingeniería genética ha impulsado la biotecnología moderna: permite crear organismos modificados genéticamente que fabrican productos nuevos o en mayor cantidad. Producto con ingeniería genética: la insulina humana producida por bacterias (E. coli) transgénicas, o el maíz Bt. Producto sin ella: el pan, el vino, la cerveza o el yogur (biotecnología tradicional).</span>"
+   ],
+   "origen": {
+    "documento": "Ejemplo de examen PAU 2025 de Cantabria (Universidad de Cantabria) · Modelo (ejemplo) 2024-25",
+    "referencia": "Modelo (ejemplo) 2024-25, pregunta 12",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/CANTABRIA.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta del examen de ejemplo de la PAU 2025 de Cantabria (13 preguntas de 1,25 puntos, de las que se contestan 8) (Modelo (ejemplo) 2024-25, pregunta 12, 1,25 puntos). Solución redactada por BioCelia (en morado): el ejemplo de Cantabria se publicó sin soluciones."
+  },
+  {
+   "id": "pau2025-cantabria-modelo-13",
+   "block": "Inmunología",
+   "topic": "Respuesta primaria y secundaria: escenarios en gemelos univitelinos",
+   "anio": 2025,
+   "etiqueta": "Modelo Cantabria 24-25",
+   "hasImg": false,
+   "puntos": 1.25,
+   "competencial": true,
+   "q": "Los gemelos univitelinos presentan un genoma idéntico. En una pareja de gemelos univitelinos que se infectaron simultáneamente con SARS-CoV2, sin embargo, uno de ellos produjo una gran cantidad de anticuerpos en una semana, que el otro gemelo tardó tres semanas en producir. Razone del modo más completo posible los posibles escenarios que justificarían este comportamiento, dibujando en una gráfica uno de ellos.",
+   "c": [
+    "<span class=\"redactado\">Escenario principal: el gemelo rápido ya había estado en contacto con el antígeno, por una infección anterior o por la vacuna, y tenía linfocitos B y T de memoria; dio una respuesta secundaria, rápida, intensa y con más IgG. El otro tuvo su primer contacto y dio una respuesta primaria, con un periodo de latencia más largo, menos anticuerpos y sobre todo IgM al principio.</span>",
+    "<span class=\"redactado\">Otros escenarios: el gemelo lento tenía el sistema inmunitario debilitado (inmunodeficiencia adquirida, tratamiento inmunosupresor, otra enfermedad, malnutrición o estrés), o recibió una dosis de virus distinta; a igual genoma, la experiencia inmunitaria y el ambiente pueden ser diferentes.</span>",
+    "<span class=\"redactado\">Gráfica: concentración de anticuerpos en sangre (eje Y) frente al tiempo (eje X). La curva primaria sube tarde y poco; la secundaria, tras un segundo contacto, sube antes, mucho más alto y se mantiene más tiempo.</span>"
+   ],
+   "origen": {
+    "documento": "Ejemplo de examen PAU 2025 de Cantabria (Universidad de Cantabria) · Modelo (ejemplo) 2024-25",
+    "referencia": "Modelo (ejemplo) 2024-25, pregunta 13",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/CANTABRIA.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta del examen de ejemplo de la PAU 2025 de Cantabria (13 preguntas de 1,25 puntos, de las que se contestan 8) (Modelo (ejemplo) 2024-25, pregunta 13, 1,25 puntos). Solución redactada por BioCelia (en morado): el ejemplo de Cantabria se publicó sin soluciones."
+  },
+  {
+   "id": "pau2025-murcia-modelo-a1",
+   "block": "Metabolismo",
+   "topic": "Intercambio de gases en una planta: fotosíntesis y respiración",
+   "anio": 2025,
+   "etiqueta": "Modelo Murcia 24-25",
+   "hasImg": true,
+   "puntos": 1.5,
+   "competencial": true,
+   "q": "<b>En una visita a un laboratorio de investigación de la región le muestran cómo se registra el intercambio de gases en las plantas. Utilizan una planta aislada del ambiente en el interior de una campana de vidrio, en la que introducen sensores para medir la concentración de dióxido de carbono y oxígeno. Dejan el montaje a la luz del día, entre las 7 h y las 13 h, y registran los resultados en el siguiente gráfico.</b><br>A) Explique qué ocurre con los niveles de oxígeno entre las 8 y las 10 h de la mañana, cuál es el origen de ese oxígeno y qué relación tiene con la presencia de luz (0,6 puntos).<br>B) Explique qué ocurre con los niveles de CO<sub>2</sub> en ese mismo periodo de tiempo y a qué se debe (0,6 puntos).<br>C) Localice en las células de la planta los procesos responsables de estas variaciones de forma precisa (0,3 puntos).",
+   "c": [
+    "<span class=\"redactado\">A) El oxígeno aumenta, porque con la luz la fotosíntesis supera a la respiración y la planta libera más O₂ del que consume. Ese O₂ procede de la fotólisis del agua en la fase luminosa: el fotosistema II, excitado por la luz, repone los electrones que pierde rompiendo moléculas de agua (2 H₂O → 4 H⁺ + 4 e⁻ + O₂). Sin luz no hay fotólisis ni desprendimiento de O₂.</span>",
+    "<span class=\"redactado\">B) El CO₂ disminuye, porque la planta lo fija en el ciclo de Calvin (la RuBisCO lo une a la ribulosa-1,5-bisfosfato) más deprisa de lo que lo libera la respiración. Como la campana está cerrada, a partir de las 10 h aproximadamente los niveles se estabilizan.</span>",
+    "<span class=\"redactado\">C) En los cloroplastos de las células del mesófilo de las hojas: la fotólisis del agua y la liberación de O₂, en la membrana de los tilacoides (fotosistema II, en la cara del lumen); la fijación del CO₂ (ciclo de Calvin), en el estroma. La respiración, que consume O₂ y libera CO₂, tiene lugar en las mitocondrias (ciclo de Krebs en la matriz, cadena respiratoria en la membrana interna).</span>"
+   ],
+   "origen": {
+    "documento": "Modelo de examen PAU 2025 de la Región de Murcia · Modelo de examen 2024-25",
+    "referencia": "Modelo de examen 2024-25, opción A, pregunta 1",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MURCIA-PAU-2025.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/murcia-modelo-1-1.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/murcia-modelo-1-1.thumb.webp",
+   "imageDesc": "Gráfica de la cantidad de gases frente a la hora del día (de 7 a 13 h): la curva del oxígeno parte de cero, sube rápido hasta las 10 h y luego se mantiene; la del dióxido de carbono parte alta, baja hasta las 10 h y luego se mantiene.",
+   "isNew": false,
+   "f": "Pregunta del modelo de examen de la PAU 2025 de la Región de Murcia (parte obligatoria de 3 puntos y parte opcional de 7) (Modelo de examen 2024-25, opción A, pregunta 1, 1,5 puntos). Solución redactada por BioCelia (en morado): el modelo de Murcia se publicó sin soluciones."
+  },
+  {
+   "id": "pau2025-murcia-modelo-b1",
+   "block": "Biomoléculas",
+   "topic": "Grasas saturadas e insaturadas; fibra alimentaria",
+   "anio": 2025,
+   "etiqueta": "Modelo Murcia 24-25",
+   "hasImg": true,
+   "puntos": 1.5,
+   "competencial": true,
+   "q": "<b>En un paquete de galletas aparece la información nutricional que se muestra en la tabla:</b><br>A) ¿A qué tipo de biomoléculas hacen referencia las grasas saturadas, monoinsaturadas o poliinsaturadas? Explique a qué se refieren esos términos y cómo afectan estas biomoléculas a nuestra salud. Explique un posible destino o un uso de algún constituyente de esas biomoléculas en nuestras células (0,75 puntos).<br>B) ¿A qué tipo de biomoléculas hace referencia el término fibra alimentaria? Explique dos de los beneficios que proporcionan a nuestro organismo e indique su procedencia (de qué componentes celulares forman parte) (0,75 puntos).",
+   "c": [
+    "<span class=\"redactado\">A) A lípidos saponificables, sobre todo triacilglicéridos (grasas), formados por glicerina y ácidos grasos. Los términos se refieren a los ácidos grasos: saturados, sin dobles enlaces en la cadena; monoinsaturados, con un doble enlace (oleico); poliinsaturados, con varios (linoleico, omega-3). Un exceso de grasas saturadas (y trans) eleva el colesterol LDL y favorece la aterosclerosis y las enfermedades cardiovasculares; las insaturadas, con moderación, ayudan a reducirlo. Destino: los ácidos grasos pueden degradarse por β-oxidación a acetil-CoA, que entra en el ciclo de Krebs y produce ATP, o usarse para formar fosfolípidos de membrana; la glicerina puede entrar en la glucólisis.</span>",
+    "<span class=\"redactado\">B) A glúcidos: polisacáridos que no podemos digerir, como la celulosa, la hemicelulosa o las pectinas. Beneficios: aumentan el volumen de las heces y facilitan el tránsito intestinal (evitan el estreñimiento), dan sensación de saciedad, reducen la absorción de colesterol y de glucosa y alimentan a la microbiota intestinal. Proceden de la pared celular de las células vegetales.</span>"
+   ],
+   "origen": {
+    "documento": "Modelo de examen PAU 2025 de la Región de Murcia · Modelo de examen 2024-25",
+    "referencia": "Modelo de examen 2024-25, opción B, pregunta 1",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MURCIA-PAU-2025.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/murcia-modelo-1-2.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/murcia-modelo-1-2.thumb.webp",
+   "imageDesc": "Tabla de valores nutricionales de unas galletas (por 100 g / por ración de 5 galletas): valor energético 1812/429 kJ/kcal; grasas 9,0 g, de las cuales saturadas 4,3 g, monoinsaturadas 3,3 g y poliinsaturadas 1,4 g; hidratos de carbono 79 g, de los cuales azúcares 23 g; fibra alimentaria 2,5 g; proteínas 7,3 g; sal 1,0 g.",
+   "isNew": false,
+   "f": "Pregunta del modelo de examen de la PAU 2025 de la Región de Murcia (parte obligatoria de 3 puntos y parte opcional de 7) (Modelo de examen 2024-25, opción B, pregunta 1, 1,5 puntos). Solución redactada por BioCelia (en morado): el modelo de Murcia se publicó sin soluciones."
+  },
+  {
+   "id": "pau2025-murcia-modelo-a2",
+   "block": "Genética",
+   "topic": "Herencia ligada al cromosoma X: portadora y afectado",
+   "anio": 2025,
+   "etiqueta": "Modelo Murcia 24-25",
+   "hasImg": false,
+   "puntos": 1.5,
+   "competencial": true,
+   "q": "<b>María es una mujer sana, pero su padre, Ernesto, murió a causa de una enfermedad de la sangre determinada por un alelo recesivo localizado en el cromosoma X, cuya herencia está, por tanto, ligada al sexo. María quiere tener hijos con Daniel, que sufre la misma enfermedad que Ernesto, y se pregunta si podrían tener descendencia que no desarrolle esta enfermedad. Compruébelo contestando las siguientes preguntas:</b><br>A) Indique los genotipos de María y de Daniel, razonando la respuesta (0,5 puntos).<br>B) Represente el cruce entre ambos e indique las proporciones fenotípicas esperadas en su descendencia (1 punto).",
+   "c": [
+    "<span class=\"redactado\">A) Sea X<sup>A</sup> el alelo normal (dominante) y X<sup>a</sup> el de la enfermedad. María es X<sup>A</sup>X<sup>a</sup>, portadora: está sana, así que tiene un X<sup>A</sup>, pero de su padre enfermo (X<sup>a</sup>Y) recibió necesariamente su X<sup>a</sup>. Daniel, enfermo, es X<sup>a</sup>Y.</span>",
+    "<span class=\"redactado\">B) X<sup>A</sup>X<sup>a</sup> × X<sup>a</sup>Y. Gametos de María: X<sup>A</sup> y X<sup>a</sup>; de Daniel: X<sup>a</sup> e Y. Descendencia: 1/4 X<sup>A</sup>X<sup>a</sup> (hijas sanas portadoras), 1/4 X<sup>a</sup>X<sup>a</sup> (hijas enfermas), 1/4 X<sup>A</sup>Y (hijos sanos) y 1/4 X<sup>a</sup>Y (hijos enfermos). En conjunto, 1/2 sanos y 1/2 enfermos (en cada sexo, la mitad); por tanto, sí pueden tener descendencia sana.</span>"
+   ],
+   "origen": {
+    "documento": "Modelo de examen PAU 2025 de la Región de Murcia · Modelo de examen 2024-25",
+    "referencia": "Modelo de examen 2024-25, opción A, pregunta 2",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MURCIA-PAU-2025.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta del modelo de examen de la PAU 2025 de la Región de Murcia (parte obligatoria de 3 puntos y parte opcional de 7) (Modelo de examen 2024-25, opción A, pregunta 2, 1,5 puntos). Solución redactada por BioCelia (en morado): el modelo de Murcia se publicó sin soluciones."
+  },
+  {
+   "id": "pau2025-murcia-modelo-b2",
+   "block": "Genética",
+   "topic": "Herencia autosómica con dominancia: rabo corto y largo en perros",
+   "anio": 2025,
+   "etiqueta": "Modelo Murcia 24-25",
+   "hasImg": false,
+   "puntos": 1.5,
+   "competencial": true,
+   "q": "<b>En una raza de perros la presencia de un rabo corto o un rabo largo es un carácter determinado por un gen autosómico con dos alelos que presentan una relación de dominancia. Un perro con rabo corto se cruzó con tres perras: con la perra I, de rabo corto, tuvo un cachorro con rabo largo; con la perra II, que tenía rabo largo, tuvo un cachorro con rabo corto; con la perra III, también de rabo largo, tuvo un cachorro con rabo largo.</b><br>A) Razone si el carácter dominante es la presencia de un rabo corto o de un rabo largo (0,4 puntos).<br>B) Indique el genotipo de los perros mencionados y represente los cruces descritos (1,1 puntos).",
+   "c": [
+    "<span class=\"redactado\">A) Domina el rabo corto: del cruce del perro y la perra I, los dos de rabo corto, nace un cachorro de rabo largo; ese carácter estaba oculto en ambos padres, que son heterocigotos, así que el rabo largo es recesivo.</span>",
+    "<span class=\"redactado\">B) C = rabo corto, c = rabo largo. Perro: Cc (rabo corto y tiene un cachorro cc con la perra I y con la III). Perra I: Cc. Perra II: cc. Perra III: cc. Cruces: perro Cc × perra I Cc → 1/4 CC, 1/2 Cc, 1/4 cc (3/4 corto, 1/4 largo); el cachorro de rabo largo es cc. Perro Cc × perra II cc → 1/2 Cc (corto), 1/2 cc (largo); el cachorro de rabo corto es Cc. Perro Cc × perra III cc → igual, 1/2 Cc y 1/2 cc; el cachorro de rabo largo es cc.</span>"
+   ],
+   "origen": {
+    "documento": "Modelo de examen PAU 2025 de la Región de Murcia · Modelo de examen 2024-25",
+    "referencia": "Modelo de examen 2024-25, opción B, pregunta 2",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MURCIA-PAU-2025.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta del modelo de examen de la PAU 2025 de la Región de Murcia (parte obligatoria de 3 puntos y parte opcional de 7) (Modelo de examen 2024-25, opción B, pregunta 2, 1,5 puntos). Solución redactada por BioCelia (en morado): el modelo de Murcia se publicó sin soluciones."
+  },
+  {
+   "id": "pau2025-murcia-modelo-3",
+   "block": "Biomoléculas",
+   "topic": "ARN: nucleótidos, enlaces y diferencias con el ADN",
+   "anio": 2025,
+   "etiqueta": "Modelo Murcia 24-25",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "<b>En relación con el ARN:</b><br>A) Nombre las unidades estructurales que lo forman y el enlace que las une; nombre los componentes de estas unidades estructurales y los enlaces que los unen (1,4 puntos).<br>B) Explique las diferencias con respecto al ADN en cuanto a su composición química (0,6 puntos).",
+   "c": [
+    "<span class=\"redactado\">A) Está formado por ribonucleótidos, unidos por enlaces fosfodiéster (entre el fosfato del carbono 5' de un nucleótido y el –OH del carbono 3' del siguiente). Cada nucleótido tiene una pentosa (ribosa), una base nitrogenada (adenina, guanina, citosina o uracilo) y ácido fosfórico. La base se une al carbono 1' de la ribosa por un enlace N-glucosídico (forma un nucleósido) y el fosfato se une al carbono 5' por un enlace éster (fosfoéster).</span>",
+    "<span class=\"redactado\">B) El ARN tiene ribosa y el ADN desoxirribosa (sin –OH en el carbono 2'); el ARN tiene uracilo en lugar de timina. Además, el ARN suele ser monocatenario y el ADN bicatenario.</span>"
+   ],
+   "origen": {
+    "documento": "Modelo de examen PAU 2025 de la Región de Murcia · Modelo de examen 2024-25",
+    "referencia": "Modelo de examen 2024-25, pregunta 3",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MURCIA-PAU-2025.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta del modelo de examen de la PAU 2025 de la Región de Murcia (parte obligatoria de 3 puntos y parte opcional de 7) (Modelo de examen 2024-25, pregunta 3, 2 puntos). Solución redactada por BioCelia (en morado): el modelo de Murcia se publicó sin soluciones."
+  },
+  {
+   "id": "pau2025-murcia-modelo-4",
+   "block": "Célula",
+   "topic": "Meiosis: metafase I, huso acromático, sobrecruzamiento y resultado",
+   "anio": 2025,
+   "etiqueta": "Modelo Murcia 24-25",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "<b>La figura muestra una célula 2n=6.</b><br>A) ¿Qué tipo de división celular representa? ¿En qué fase concreta se encuentra la célula? (0,4 puntos).<br>B) Identifique la estructura señalada con la flecha y explique qué componentes la forman y cómo se unen a los cromosomas (0,6 puntos).<br>C) Nombre el proceso que se ha dado en los cromosomas previamente y que contribuye al aumento de la variabilidad genética (0,2 puntos).<br>D) Indique, razonando las respuestas, el resultado final de la división en cuanto al número de células resultantes y a su material genético (0,8 puntos).",
+   "c": [
+    "<span class=\"redactado\">A) Una meiosis, en metafase I: los cromosomas homólogos están apareados formando tres bivalentes (2n = 6) colocados en la placa ecuatorial.</span>",
+    "<span class=\"redactado\">B) El huso acromático (mitótico o meiótico). Está formado por microtúbulos (polímeros de tubulina α y β) que parten de los centrosomas, con sus centriolos, situados en los polos. Los microtúbulos cinetocóricos se unen a los cromosomas por los cinetocoros, estructuras proteicas situadas en el centrómero; en la metafase I, los cinetocoros de cada homólogo quedan orientados hacia un mismo polo.</span>",
+    "<span class=\"redactado\">C) El sobrecruzamiento (entrecruzamiento o crossing-over), en la profase I: intercambio de fragmentos entre cromátidas de cromosomas homólogos (recombinación genética).</span>",
+    "<span class=\"redactado\">D) Cuatro células haploides (n = 3), cada una con un cromosoma de cada par formado por una sola cromátida. La primera división separa los homólogos (reduce el número de cromosomas a la mitad) y la segunda, las cromátidas hermanas. Las cuatro son genéticamente distintas entre sí y de la célula madre, por el sobrecruzamiento y la segregación al azar de los homólogos.</span>"
+   ],
+   "origen": {
+    "documento": "Modelo de examen PAU 2025 de la Región de Murcia · Modelo de examen 2024-25",
+    "referencia": "Modelo de examen 2024-25, pregunta 4",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MURCIA-PAU-2025.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/murcia-modelo-4.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/murcia-modelo-4.thumb.webp",
+   "imageDesc": "Célula con dos polos con centriolos de los que salen fibras; en el centro, tres parejas de cromosomas homólogos (cada pareja con un cromosoma claro y otro oscuro que se cruzan) alineadas en el ecuador; una flecha señala las fibras que van de los polos a los cromosomas.",
+   "isNew": false,
+   "f": "Pregunta del modelo de examen de la PAU 2025 de la Región de Murcia (parte obligatoria de 3 puntos y parte opcional de 7) (Modelo de examen 2024-25, pregunta 4, 2 puntos). Solución redactada por BioCelia (en morado): el modelo de Murcia se publicó sin soluciones."
+  },
+  {
+   "id": "pau2025-murcia-modelo-5",
+   "block": "Metabolismo",
+   "topic": "Destinos del piruvato: respiración aerobia y fermentación",
+   "anio": 2025,
+   "etiqueta": "Modelo Murcia 24-25",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "Explique las dos vías alternativas que pueden seguir las moléculas obtenidas en la glucólisis dependiendo de la disponibilidad de O<sub>2</sub>; indique sus productos finales y cuál de ellas ofrece un mayor rendimiento energético (no es necesario explicar el balance energético de cada una); mencione, en ambos casos, las rutas metabólicas que tienen lugar y su localización precisa en la célula (2 puntos).",
+   "c": [
+    "<span class=\"redactado\">Con O₂, respiración aerobia: el piruvato entra en la mitocondria y se transforma en acetil-CoA por descarboxilación oxidativa (matriz mitocondrial); el acetil-CoA se oxida en el ciclo de Krebs (matriz); el NADH y el FADH₂ ceden sus electrones a la cadena respiratoria, cuyo aceptor final es el O₂, y se sintetiza ATP por fosforilación oxidativa en la ATP sintasa (membrana mitocondrial interna, crestas). Productos finales: CO₂ y H₂O.</span>",
+    "<span class=\"redactado\">Sin O₂, fermentación, en el citosol: el NADH de la glucólisis reduce el piruvato para regenerar el NAD⁺. Fermentación láctica: el piruvato pasa a lactato (músculo, bacterias lácticas). Fermentación alcohólica: el piruvato se descarboxila a acetaldehído, que se reduce a etanol, con liberación de CO₂ (levaduras). Los productos finales son orgánicos.</span>",
+    "<span class=\"redactado\">La respiración aerobia rinde mucho más energía, porque oxida la glucosa por completo hasta CO₂; la fermentación solo aprovecha el ATP de la glucólisis.</span>"
+   ],
+   "origen": {
+    "documento": "Modelo de examen PAU 2025 de la Región de Murcia · Modelo de examen 2024-25",
+    "referencia": "Modelo de examen 2024-25, pregunta 5",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MURCIA-PAU-2025.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta del modelo de examen de la PAU 2025 de la Región de Murcia (parte obligatoria de 3 puntos y parte opcional de 7) (Modelo de examen 2024-25, pregunta 5, 2 puntos). Solución redactada por BioCelia (en morado): el modelo de Murcia se publicó sin soluciones."
+  },
+  {
+   "id": "pau2025-murcia-modelo-6",
+   "block": "Genética",
+   "topic": "Gen, intrón, exón y factor epigenético",
+   "anio": 2025,
+   "etiqueta": "Modelo Murcia 24-25",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "Explique los siguientes conceptos: a) gen; b) intrón; c) exón; d) factor epigenético (1 punto).",
+   "c": [
+    "<span class=\"redactado\">a) Gen: fragmento de ADN que contiene la información para sintetizar un ARN o una cadena polipeptídica; es la unidad de información hereditaria.</span>",
+    "<span class=\"redactado\">b) Intrón: secuencia de un gen eucariota que se transcribe pero no forma parte del ARNm maduro, porque se elimina en la maduración (corte y empalme).</span>",
+    "<span class=\"redactado\">c) Exón: secuencia de un gen que se conserva en el ARN maduro y, en los genes de proteínas, se traduce.</span>",
+    "<span class=\"redactado\">d) Factor epigenético: modificación heredable que altera la expresión de los genes sin cambiar la secuencia del ADN, como la metilación del ADN o la acetilación y metilación de las histonas; puede depender del ambiente (dieta, tóxicos, estrés).</span>"
+   ],
+   "origen": {
+    "documento": "Modelo de examen PAU 2025 de la Región de Murcia · Modelo de examen 2024-25",
+    "referencia": "Modelo de examen 2024-25, pregunta 6",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MURCIA-PAU-2025.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta del modelo de examen de la PAU 2025 de la Región de Murcia (parte obligatoria de 3 puntos y parte opcional de 7) (Modelo de examen 2024-25, pregunta 6, 1 punto). Solución redactada por BioCelia (en morado): el modelo de Murcia se publicó sin soluciones."
+  },
+  {
+   "id": "pau2025-murcia-modelo-7",
+   "block": "Biotecnología",
+   "topic": "Técnicas de ingeniería genética y aplicaciones",
+   "anio": 2025,
+   "etiqueta": "Modelo Murcia 24-25",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "Nombre dos técnicas de ingeniería genética y explique, de forma concisa, en qué consisten y para qué se utilizan; mencione una aplicación de cada una (1 punto).",
+   "c": [
+    "<span class=\"redactado\">Por ejemplo: PCR (reacción en cadena de la polimerasa): amplifica millones de veces un fragmento de ADN mediante ciclos de desnaturalización, hibridación de cebadores y extensión por una ADN polimerasa termoestable (Taq); sirve para obtener mucho ADN a partir de muy poco. Aplicación: diagnóstico de infecciones o identificación forense.</span>",
+    "<span class=\"redactado\">Tecnología del ADN recombinante (clonación de genes): se corta el ADN con enzimas de restricción, se inserta el gen en un vector (plásmido) con la ADN ligasa y se introduce en una célula hospedadora, que lo multiplica y lo expresa. Aplicación: producción de insulina humana por bacterias. También valen CRISPR-Cas9 (edición de genes: terapia génica), la secuenciación o la electroforesis.</span>"
+   ],
+   "origen": {
+    "documento": "Modelo de examen PAU 2025 de la Región de Murcia · Modelo de examen 2024-25",
+    "referencia": "Modelo de examen 2024-25, pregunta 7",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MURCIA-PAU-2025.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta del modelo de examen de la PAU 2025 de la Región de Murcia (parte obligatoria de 3 puntos y parte opcional de 7) (Modelo de examen 2024-25, pregunta 7, 1 punto). Solución redactada por BioCelia (en morado): el modelo de Murcia se publicó sin soluciones."
+  },
+  {
+   "id": "pau2025-murcia-modelo-8",
+   "block": "Inmunología",
+   "topic": "Respuesta inmunitaria primaria y secundaria",
+   "anio": 2025,
+   "etiqueta": "Modelo Murcia 24-25",
+   "hasImg": true,
+   "puntos": 1,
+   "competencial": true,
+   "q": "<b>En la gráfica se representa la concentración de anticuerpos en sangre, a lo largo del tiempo, en un individuo que se expone dos veces a un mismo antígeno (antígeno X).</b><br>A) ¿Qué representan las curvas A y B? (0,3 puntos).<br>B) Comente las diferencias en el tiempo necesario para la elevación de la concentración de anticuerpos en sangre y en la concentración de anticuerpos alcanzada tras la primera y la segunda exposición. ¿A qué se deben estas diferencias? (0,7 puntos).",
+   "c": [
+    "<span class=\"redactado\">A) A, la respuesta inmunitaria primaria (primer contacto con el antígeno X); B, la respuesta secundaria (segundo contacto).</span>",
+    "<span class=\"redactado\">B) En la primaria hay un periodo de latencia largo (días) antes de que suban los anticuerpos, y la concentración alcanzada es baja (sobre todo IgM) y desciende pronto. En la secundaria la subida es mucho más rápida, la concentración es mucho mayor (sobre todo IgG, de más afinidad) y dura más. Se debe a la memoria inmunológica: en la primera exposición se formaron linfocitos B y T de memoria específicos frente al antígeno X, que en el segundo contacto se activan y proliferan enseguida, y se diferencian en muchas células plasmáticas.</span>"
+   ],
+   "origen": {
+    "documento": "Modelo de examen PAU 2025 de la Región de Murcia · Modelo de examen 2024-25",
+    "referencia": "Modelo de examen 2024-25, pregunta 8",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MURCIA-PAU-2025.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/murcia-modelo-8.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/murcia-modelo-8.thumb.webp",
+   "imageDesc": "Gráfica de la concentración de anticuerpos en sangre frente al tiempo: tras el primer contacto con el antígeno X, una curva A baja y tardía; tras el segundo contacto, una curva B que sube enseguida, mucho más alta, y se mantiene.",
+   "isNew": false,
+   "f": "Pregunta del modelo de examen de la PAU 2025 de la Región de Murcia (parte obligatoria de 3 puntos y parte opcional de 7) (Modelo de examen 2024-25, pregunta 8, 1 punto). Solución redactada por BioCelia (en morado): el modelo de Murcia se publicó sin soluciones."
+  },
+  {
+   "id": "pau2025-galicia-modelo-1",
+   "block": "Biotecnología",
+   "topic": "Diabetes: avances biotecnológicos, insulina recombinante, sacarosa y sacarasa",
+   "anio": 2025,
+   "etiqueta": "Modelo Galicia 24-25",
+   "hasImg": true,
+   "puntos": 2.5,
+   "competencial": true,
+   "q": "<b>TEXTO: Los 250.000 gallegos con diabetes de tipo 2 tendrán una asistencia integral. Los recursos tecnológicos a disposición de los facultativos para el tratamiento de la diabetes han experimentado una revolución en los últimos años a cuenta de los sensores digitales —que permiten una lectura automática de los niveles de glucosa al minuto— y de las bombas de insulina —que la administran de forma continuada, sin necesidad de estar pendiente de los pinchazos—. De la combinación de ambos sistemas, y con inteligencia artificial de por medio, se espera el próximo gran salto adelante, que es lo que se conoce como «páncreas artificial». Frente al tipo 2, la «diabetes del adulto», que, «cuanto mayor te haces, más posibilidades tienes de desarrollarla», lo fundamental es la «prevención», porque, aunque no se puede evitar ni curar como enfermedad crónica que es, sí se puede, cuanto menos, «retrasar su evolución». (Adaptado de: La Voz de Galicia, 1 de diciembre de 2023)</b><br>1.1. Identifique en el texto dos avances biotecnológicos e indique sus aportaciones al tratamiento de la diabetes.<br>1.2. Explique, brevemente, cómo la biotecnología se puede utilizar para producir insulina. En la explicación deben aparecer las siguientes palabras clave: bacteria(s), enzima(s) de restricción, insulina, plásmido(s), recombinante(s).<br>1.3. Uno de los alimentos que se debe limitar en la dieta en personas con diabetes tipo 2 y, en general, en toda la población es el azúcar. Identifique la molécula de azúcar entre las moléculas (A, B, C) de la figura, e indique su nombre científico. ¿A qué tipo y subtipo de moléculas orgánicas pertenece?<br>1.4. Cuando la molécula de azúcar es metabolizada, da lugar a la liberación de dos monómeros. Indique el nombre de la enzima responsable y el de los monómeros liberados.<br>1.5. Pese a los avances tecnológicos, ¿qué medida sigue siendo fundamental en la diabetes tipo 2? Cite dos ejemplos concretos.",
+   "c": [
+    "<span class=\"redactado\">1.1) Los sensores digitales de glucosa, que miden de forma continua y automática la glucemia, y las bombas de insulina, que la administran de forma continua sin pinchazos. Su combinación con inteligencia artificial daría lugar al «páncreas artificial», que ajustaría automáticamente la dosis de insulina a la glucosa medida.</span>",
+    "<span class=\"redactado\">1.2) Se aísla el gen humano de la insulina y se corta, junto con un plásmido bacteriano, con la misma enzima de restricción, de modo que quedan extremos complementarios; la ADN ligasa une el gen al plásmido y se obtiene un plásmido recombinante. Este se introduce en bacterias (por ejemplo, E. coli), que se seleccionan y se cultivan a gran escala; al multiplicarse expresan el gen y producen insulina humana recombinante, que se extrae y se purifica.</span>",
+    "<span class=\"redactado\">1.3) El azúcar es la molécula A, la sacarosa: α-D-glucopiranosil-1,2-β-D-fructofuranósido: glucosa y fructosa unidas por un enlace O-glucosídico entre sus carbonos anoméricos, α1→β2. Es un glúcido (tipo), del subtipo de los disacáridos (oligosacáridos). Por su forma, B es la lactosa y C la maltosa.</span>",
+    "<span class=\"redactado\">1.4) La sacarasa (invertasa o β-fructofuranosidasa), que la hidroliza en glucosa y fructosa.</span>",
+    "<span class=\"redactado\">1.5) La prevención mediante hábitos de vida saludables: por ejemplo, una dieta equilibrada (con pocos azúcares y grasas saturadas y rica en fibra) y la práctica regular de ejercicio físico, que ayudan a controlar el peso.</span>"
+   ],
+   "origen": {
+    "documento": "Modelo de examen PAU 2025 de Galicia (CiUG, código 21) · Modelo 2024-25",
+    "referencia": "Modelo 2024-25, pregunta 1",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/modelo-galicia-PAU-2025.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/galicia-modelo-1.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/galicia-modelo-1.thumb.webp",
+   "imageDesc": "Tres disacáridos en proyección de Haworth: A, un anillo de seis vértices unido por un oxígeno a uno de cinco; B y C, dos anillos de seis vértices unidos por un oxígeno, con distinta orientación de sus grupos –OH.",
+   "isNew": false,
+   "f": "Pregunta del modelo de examen de la PAU 2025 de Galicia (CiUG): 4 preguntas de 2,5 puntos; en la 2, la 3 y la 4 la primera parte es común y la segunda se elige (Modelo 2024-25, pregunta 1, 2,5 puntos). Solución redactada por BioCelia (en morado): el modelo de Galicia se publicó sin soluciones. En las preguntas 2, 3 y 4, las dos opciones comparten el primer apartado."
+  },
+  {
+   "id": "pau2025-galicia-modelo-a2",
+   "block": "Genética",
+   "topic": "Complementariedad de bases; transcripción y α-amanitina",
+   "anio": 2025,
+   "etiqueta": "Modelo Galicia 24-25",
+   "hasImg": false,
+   "puntos": 2.5,
+   "competencial": true,
+   "q": "<b>2.1.</b> Una hebra de ADN posee la siguiente composición de bases nitrogenadas: A=21%, G=30%, C=26% y T=23%. Esta hebra es replicada por la ADN-polimerasa, y la cadena resultante es utilizada como modelo para sintetizar ARNm. Indique y razone cuál será la composición de bases que tendrá el ARN producido (1 punto).<br><b>2.2.</b> (1,5 puntos) <b>2.2.1.</b> El emperador romano Claudio murió, probablemente, envenenado tras la ingesta de setas de la especie <i>Amanita phalloides</i>, una de las más peligrosas que se conocen. Su toxicidad es debida a unas proteínas, denominadas amanitinas, que inhiben la acción de la enzima ARN polimerasa II. A) ¿Qué nombre recibe el proceso biológico bloqueado por la β-amanitina y en qué lugar de la célula se produce? B) ¿Qué moléculas se forman como consecuencia de este proceso? C) Si tratamos un cultivo de bacterias con amanitinas, ¿se produciría el mismo efecto? Indique el motivo. D) Las amanitinas se caracterizan por ser resistentes a la cocción. Teniendo en cuenta esta característica, ¿se podría evitar su toxicidad al cocinar las setas?",
+   "c": [
+    "<span class=\"redactado\">2.1) La hebra que se forma en la replicación es complementaria de la original: T=21%, C=30%, G=26% y A=23%. El ARNm, complementario de esta, tiene la misma composición que la hebra original, con U en lugar de T: A=21%, G=30%, C=26% y U=23%.</span>",
+    "<span class=\"redactado\">2.2.1) A) La transcripción (síntesis de ARN a partir de ADN), que en las células eucariotas se produce en el núcleo. B) La ARN polimerasa II sintetiza los precursores de los ARN mensajeros (pre-ARNm), que tras madurar dan los ARNm (y algunos ARN pequeños). C) No: las bacterias tienen una sola ARN polimerasa, distinta de la ARN polimerasa II eucariota, que no es sensible a las amanitinas. D) No: si resisten la cocción, el calor no las desnaturaliza ni las inactiva, así que las setas cocinadas siguen siendo tóxicas.</span>"
+   ],
+   "origen": {
+    "documento": "Modelo de examen PAU 2025 de Galicia (CiUG, código 21) · Modelo 2024-25",
+    "referencia": "Modelo 2024-25, opción A, pregunta 2",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/modelo-galicia-PAU-2025.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta del modelo de examen de la PAU 2025 de Galicia (CiUG): 4 preguntas de 2,5 puntos; en la 2, la 3 y la 4 la primera parte es común y la segunda se elige (Modelo 2024-25, opción A, pregunta 2, 2,5 puntos). Solución redactada por BioCelia (en morado): el modelo de Galicia se publicó sin soluciones. En las preguntas 2, 3 y 4, las dos opciones comparten el primer apartado."
+  },
+  {
+   "id": "pau2025-galicia-modelo-b2",
+   "block": "Genética",
+   "topic": "Complementariedad de bases; la traducción en el ribosoma",
+   "anio": 2025,
+   "etiqueta": "Modelo Galicia 24-25",
+   "hasImg": true,
+   "puntos": 2.5,
+   "competencial": true,
+   "q": "<b>2.1.</b> Una hebra de ADN posee la siguiente composición de bases nitrogenadas: A=21%, G=30%, C=26% y T=23%. Esta hebra es replicada por la ADN-polimerasa, y la cadena resultante es utilizada como modelo para sintetizar ARNm. Indique y razone cuál será la composición de bases que tendrá el ARN producido (1 punto).<br><b>2.2.</b> (1,5 puntos) <b>2.2.2.</b> A) Relacione los números de la figura con los siguientes elementos: aminoácido, ARNt, cadena polipeptídica, centro A, centro E, centro P, codón, extremo 3', extremo 5', subunidad grande, subunidad pequeña. B) Enumere las fases del proceso biológico representado en la figura.",
+   "c": [
+    "<span class=\"redactado\">2.1) La hebra que se forma en la replicación es complementaria de la original: T=21%, C=30%, G=26% y A=23%. El ARNm, complementario de esta, tiene la misma composición que la hebra original, con U en lugar de T: A=21%, G=30%, C=26% y U=23%.</span>",
+    "<span class=\"redactado\">2.2.2) A) 1, subunidad grande; 2, centro E; 3, centro P (con el ARNt que lleva la cadena); 4, cadena polipeptídica (Met-Trp); 5, centro A; 6, aminoácido (Phe); 7, ARNt; 8, extremo 3' del ARNm; 9, subunidad pequeña; 10, codón (UGG); 11, extremo 5' del ARNm. El 12 señala el anticodón (ACC), que no está en la lista. B) Es la traducción: iniciación, elongación y terminación (precedidas por la activación de los aminoácidos, que se unen a su ARNt).</span>"
+   ],
+   "origen": {
+    "documento": "Modelo de examen PAU 2025 de Galicia (CiUG, código 21) · Modelo 2024-25",
+    "referencia": "Modelo 2024-25, opción B, pregunta 2",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/modelo-galicia-PAU-2025.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/galicia-modelo-2b.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/galicia-modelo-2b.thumb.webp",
+   "imageDesc": "Ribosoma sobre un ARNm (…AUGUGGUUC…) con doce números: 1, la parte superior grande; 2, 3 y 5, tres huecos de izquierda a derecha (en el 3 hay un ARNt con anticodón ACC que lleva Met-Trp, señalado con 4); 6, un aminoácido Phe unido a un ARNt (7) con anticodón AAG que se acerca al hueco 5; 8 y 11, los extremos derecho e izquierdo del ARNm; 9, la parte inferior pequeña; 10, el triplete UGG; 12, el triplete ACC.",
+   "isNew": false,
+   "f": "Pregunta del modelo de examen de la PAU 2025 de Galicia (CiUG): 4 preguntas de 2,5 puntos; en la 2, la 3 y la 4 la primera parte es común y la segunda se elige (Modelo 2024-25, opción B, pregunta 2, 2,5 puntos). Solución redactada por BioCelia (en morado): el modelo de Galicia se publicó sin soluciones. En las preguntas 2, 3 y 4, las dos opciones comparten el primer apartado."
+  },
+  {
+   "id": "pau2025-galicia-modelo-a3",
+   "block": "Célula",
+   "topic": "Célula vegetal; fermentación alcohólica en el pan",
+   "anio": 2025,
+   "etiqueta": "Modelo Galicia 24-25",
+   "hasImg": true,
+   "puntos": 2.5,
+   "competencial": true,
+   "q": "<b>3.1.</b> Indique el nombre de los elementos señalados con los números 1-6 en la figura. ¿Qué tipo de célula está representada? Justifique la respuesta (1 punto).<br><b>3.2.</b> (1,5 puntos) <b>3.2.1.</b> Si dejamos reposar la masa del pan durante un par de horas, se puede observar un importante aumento de su volumen. A) ¿Cómo se denomina la reacción química responsable de este efecto? B) Indique el compuesto inicial y los productos finales de esa reacción. ¿Cuál de ellos es responsable del aumento de volumen? C) Indique dos alimentos en cuya elaboración interviene esa reacción química. D) Cuando se elabora pan tradicional, se suele utilizar masa madre ya que contiene microorganismos que aceleran dicho proceso, ¿de qué microorganismos se trata?",
+   "c": [
+    "<span class=\"redactado\">3.1) 1, núcleo; 2, vacuola; 3, cloroplasto; 4, mitocondria; 5, pared celular; 6, membrana plasmática. Es una célula eucariota vegetal: tiene núcleo y orgánulos membranosos (eucariota) y, además, pared celular, cloroplastos y una gran vacuola central, propios de las células vegetales.</span>",
+    "<span class=\"redactado\">3.2.1) A) La fermentación alcohólica. B) Compuesto inicial: glucosa (procedente del almidón de la harina). Productos finales: etanol y CO₂ (C₆H₁₂O₆ → 2 CH₃–CH₂OH + 2 CO₂). El CO₂, que forma burbujas en la masa, es el responsable del aumento de volumen; el etanol se evapora al hornear. C) Por ejemplo, el vino y la cerveza (también la sidra). D) De levaduras, como Saccharomyces cerevisiae (hongos unicelulares); la masa madre contiene además bacterias lácticas.</span>"
+   ],
+   "origen": {
+    "documento": "Modelo de examen PAU 2025 de Galicia (CiUG, código 21) · Modelo 2024-25",
+    "referencia": "Modelo 2024-25, opción A, pregunta 3",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/modelo-galicia-PAU-2025.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/galicia-modelo-3.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/galicia-modelo-3.thumb.webp",
+   "imageDesc": "Dibujo tridimensional de una célula con forma de prisma: 1, una estructura esférica grande; 2, un gran saco central; 3, orgánulos verdes ovalados con pilas de membranas; 4, orgánulos pequeños ovalados con crestas; 5, la cubierta gruesa exterior; 6, la membrana fina situada justo por dentro de esa cubierta.",
+   "isNew": false,
+   "f": "Pregunta del modelo de examen de la PAU 2025 de Galicia (CiUG): 4 preguntas de 2,5 puntos; en la 2, la 3 y la 4 la primera parte es común y la segunda se elige (Modelo 2024-25, opción A, pregunta 3, 2,5 puntos). Solución redactada por BioCelia (en morado): el modelo de Galicia se publicó sin soluciones. En las preguntas 2, 3 y 4, las dos opciones comparten el primer apartado."
+  },
+  {
+   "id": "pau2025-galicia-modelo-b3",
+   "block": "Célula",
+   "topic": "Célula vegetal; mecanismo de acción enzimática",
+   "anio": 2025,
+   "etiqueta": "Modelo Galicia 24-25",
+   "hasImg": true,
+   "puntos": 2.5,
+   "competencial": true,
+   "q": "<b>3.1.</b> Indique el nombre de los elementos señalados con los números 1-6 en la figura. ¿Qué tipo de célula está representada? Justifique la respuesta (1 punto).<br><b>3.2.</b> (1,5 puntos) <b>3.2.2.</b> En la figura se muestra el modo de acción de una enzima. A) ¿A qué tipo de biomoléculas pertenecen la mayoría de las enzimas? B) ¿Qué nombre reciben las moléculas señaladas con las letras A, B, C y D? C) ¿Cómo se denomina el lugar de A al que se une B? D) ¿Qué sucede en el paso de 2 a 3? Explíquelo brevemente.",
+   "c": [
+    "<span class=\"redactado\">3.1) 1, núcleo; 2, vacuola; 3, cloroplasto; 4, mitocondria; 5, pared celular; 6, membrana plasmática. Es una célula eucariota vegetal: tiene núcleo y orgánulos membranosos (eucariota) y, además, pared celular, cloroplastos y una gran vacuola central, propios de las células vegetales.</span>",
+    "<span class=\"redactado\">3.2.2) A) A las proteínas (algunas son ARN: ribozimas). B) A, enzima; B, sustrato; C y D, productos. C) Centro activo. D) En el complejo enzima-sustrato (2) se produce la reacción: el sustrato se transforma en los productos C y D, que se liberan; la enzima queda intacta y libre para unirse a una nueva molécula de sustrato.</span>"
+   ],
+   "origen": {
+    "documento": "Modelo de examen PAU 2025 de Galicia (CiUG, código 21) · Modelo 2024-25",
+    "referencia": "Modelo 2024-25, opción B, pregunta 3",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/modelo-galicia-PAU-2025.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/galicia-modelo-3-3b.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/galicia-modelo-3-3b.thumb.webp",
+   "imageDesc": "Arriba, la célula de 3.1 (prisma con núcleo, gran vacuola, cloroplastos, mitocondrias y pared, números 1 a 6). Abajo, la figura de 3.2.2: en 1 una molécula B se acerca a una hendidura de A; en 2 está encajada; en 3 salen de la hendidura dos piezas, C y D.",
+   "isNew": false,
+   "f": "Pregunta del modelo de examen de la PAU 2025 de Galicia (CiUG): 4 preguntas de 2,5 puntos; en la 2, la 3 y la 4 la primera parte es común y la segunda se elige (Modelo 2024-25, opción B, pregunta 3, 2,5 puntos). Solución redactada por BioCelia (en morado): el modelo de Galicia se publicó sin soluciones. En las preguntas 2, 3 y 4, las dos opciones comparten el primer apartado."
+  },
+  {
+   "id": "pau2025-galicia-modelo-a4",
+   "block": "Inmunología",
+   "topic": "Respuesta inmunitaria frente a un virus; células del sistema inmunitario",
+   "anio": 2025,
+   "etiqueta": "Modelo Galicia 24-25",
+   "hasImg": true,
+   "puntos": 2.5,
+   "competencial": true,
+   "q": "<b>4.1.</b> En la figura se muestra la respuesta inmunitaria frente a una infección vírica. A) Relacione las letras (A-F) de la figura con los siguientes términos: anticuerpos, célula presentadora de antígenos, célula plasmática, linfocito B, linfocito T citotóxico, linfocito T colaborador. B) Indique el nombre de una célula del sistema inmunitario que tenga capacidad de presentar antígenos (1 punto).<br><b>4.2.</b> (1,5 puntos) <b>4.2.1.</b> Indique cuáles de las siguientes características son propias de los leucocitos, de los macrófagos, de los linfocitos T o de los linfocitos B (algunas características son propias de más de un tipo celular): A) tienen su origen en la médula ósea; B) maduran en el timo; C) pertenecen a la línea linfoide; D) pertenecen a la línea mieloide; E) son responsables de la respuesta humoral; F) son responsables de la respuesta celular; G) tienen capacidad fagocítica; H) participan, principalmente, en la respuesta inmunitaria inespecífica; I) en tanto no completan su maduración, reciben el nombre de monocitos; J) pueden ser de tres tipos: neutrófilos, eosinófilos y basófilos.",
+   "c": [
+    "<span class=\"redactado\">4.1) A) A, célula presentadora de antígenos; B, linfocito T colaborador; C, linfocito T citotóxico; D, linfocito B; E, célula plasmática; F, anticuerpos. B) Por ejemplo, las células dendríticas, los macrófagos o los linfocitos B.</span>",
+    "<span class=\"redactado\">4.2.1) A) Todos: leucocitos, macrófagos, linfocitos T y linfocitos B. B) Linfocitos T. C) Linfocitos T y B. D) Macrófagos y leucocitos granulocitos. E) Linfocitos B. F) Linfocitos T. G) Macrófagos y leucocitos (neutrófilos). H) Macrófagos y leucocitos granulocitos. I) Macrófagos. J) Leucocitos (los granulocitos o polimorfonucleares).</span>"
+   ],
+   "origen": {
+    "documento": "Modelo de examen PAU 2025 de Galicia (CiUG, código 21) · Modelo 2024-25",
+    "referencia": "Modelo 2024-25, opción A, pregunta 4",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/modelo-galicia-PAU-2025.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/galicia-modelo-4.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/galicia-modelo-4.thumb.webp",
+   "imageDesc": "Esquema de la respuesta frente al SARS-CoV-2: una célula infectada; una célula con prolongaciones (A) que muestra fragmentos del virus a otra célula (B); B activa a C, que libera sustancias sobre una célula infectada y la destruye, y a D, que se transforma en E, que libera moléculas en forma de Y (F) que se unen a los virus.",
+   "isNew": false,
+   "f": "Pregunta del modelo de examen de la PAU 2025 de Galicia (CiUG): 4 preguntas de 2,5 puntos; en la 2, la 3 y la 4 la primera parte es común y la segunda se elige (Modelo 2024-25, opción A, pregunta 4, 2,5 puntos). Solución redactada por BioCelia (en morado): el modelo de Galicia se publicó sin soluciones. En las preguntas 2, 3 y 4, las dos opciones comparten el primer apartado."
+  },
+  {
+   "id": "pau2025-galicia-modelo-b4",
+   "block": "Inmunología",
+   "topic": "Respuesta inmunitaria frente a un virus; respuesta primaria y secundaria y vacunas",
+   "anio": 2025,
+   "etiqueta": "Modelo Galicia 24-25",
+   "hasImg": true,
+   "puntos": 2.5,
+   "competencial": true,
+   "q": "<b>4.1.</b> En la figura se muestra la respuesta inmunitaria frente a una infección vírica. A) Relacione las letras (A-F) de la figura con los siguientes términos: anticuerpos, célula presentadora de antígenos, célula plasmática, linfocito B, linfocito T citotóxico, linfocito T colaborador. B) Indique el nombre de una célula del sistema inmunitario que tenga capacidad de presentar antígenos (1 punto).<br><b>4.2.</b> (1,5 puntos) <b>4.2.2.</b> En la figura aparecen dos tipos de respuestas a la inyección de antígenos. A) ¿Cuál es la causa de la mayor respuesta a la segunda inyección del antígeno A? B) ¿Por qué cuando se dan conjuntamente los antígenos A y B, la respuesta al antígeno B es mucho más baja? C) ¿Hay alguna relación entre las respuestas observadas y las vacunas? Razone la respuesta.",
+   "c": [
+    "<span class=\"redactado\">4.1) A) A, célula presentadora de antígenos; B, linfocito T colaborador; C, linfocito T citotóxico; D, linfocito B; E, célula plasmática; F, anticuerpos. B) Por ejemplo, las células dendríticas, los macrófagos o los linfocitos B.</span>",
+    "<span class=\"redactado\">4.2.2) A) La memoria inmunológica: la primera inyección produjo una respuesta primaria que dejó linfocitos B y T de memoria específicos frente a A; con la segunda se activan enseguida y dan una respuesta secundaria, más rápida, intensa (unas 100 veces más anticuerpos) y duradera. B) Porque es el primer contacto con el antígeno B: no hay células de memoria frente a él (la respuesta es específica) y se produce una respuesta primaria, más lenta y débil. C) Sí: las vacunas provocan una respuesta primaria frente a un antígeno del patógeno, sin causar la enfermedad, y generan células de memoria; si después llega el patógeno, se produce una respuesta secundaria que lo elimina antes de que cause la enfermedad. Por eso algunas vacunas se refuerzan con varias dosis.</span>"
+   ],
+   "origen": {
+    "documento": "Modelo de examen PAU 2025 de Galicia (CiUG, código 21) · Modelo 2024-25",
+    "referencia": "Modelo 2024-25, opción B, pregunta 4",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/modelo-galicia-PAU-2025.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/galicia-modelo-4-4b.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/galicia-modelo-4-4b.thumb.webp",
+   "imageDesc": "Arriba, el esquema de 4.1 (letras A-F en la respuesta frente al SARS-CoV-2). Abajo, gráfica de la cantidad de anticuerpos en sangre (escala logarítmica, 1 a 100) frente al tiempo (días): tras inyectar el antígeno A el día 0 hay un pequeño pico hacia el día 15; tras inyectar A y B hacia el día 42, la respuesta al antígeno A sube hasta cerca de 100 y la del B solo hasta cerca de 1.",
+   "isNew": false,
+   "f": "Pregunta del modelo de examen de la PAU 2025 de Galicia (CiUG): 4 preguntas de 2,5 puntos; en la 2, la 3 y la 4 la primera parte es común y la segunda se elige (Modelo 2024-25, opción B, pregunta 4, 2,5 puntos). Solución redactada por BioCelia (en morado): el modelo de Galicia se publicó sin soluciones. En las preguntas 2, 3 y 4, las dos opciones comparten el primer apartado."
   },
   {
    "id": "pau2026-modelo-1",
@@ -55989,6 +58481,238 @@ window.BIOCELIA_HISTORICO = {
    "imageDesc": "1: un frasco de vacuna y una jeringa. 2: una bolsa de suero con moléculas en forma de Y ampliadas."
   },
   {
+   "id": "pau2023-cantabria-ext-1+2",
+   "block": "Biomoléculas",
+   "topic": "Inhibición competitiva y no competitiva; Vmax y Km · Lípidos: propiedades, funciones, saponificación y esterificación",
+   "anio": 2023,
+   "etiqueta": "EBAU 2023 Cantabria (julio)",
+   "hasImg": true,
+   "q": "<b>I.</b> Defina inhibición competitiva y no competitiva. Dibuje una enzima llevando a cabo su reacción, y la misma reacción en presencia de un inhibidor competitivo, y de un inhibidor no competitivo (3 imágenes). Señale en la figura 1 cuál de estas tres reacciones corresponde con cada una de las opciones, y razónelo en función de la Vmax y la Km. <i>(1,25 puntos)</i><br><br><b>II.</b> Los lípidos: cite las propiedades físicas que permiten agruparlos en un mismo grupo, así como tres funciones que desarrollan en los seres vivos. Defina el concepto de saponificación, y dibuje en un mismo esquema tanto la reacción de saponificación como su inversa (que deberá nombrar), señalando y nombrando los grupos que participan en ella. <i>(1,25 puntos)</i>",
+   "puntos": 2.5,
+   "c": [
+    "<b>I.</b> <span class=\"redactado\">Inhibición competitiva: el inhibidor, parecido al sustrato, compite con él por el centro activo; se supera aumentando la concentración de sustrato. Inhibición no competitiva: el inhibidor se une a la enzima en otro lugar distinto del centro activo y cambia su forma, de modo que la enzima no puede actuar aunque haya mucho sustrato.</span>",
+    "<b>I.</b> <span class=\"redactado\">Dibujos: 1) enzima con el sustrato encajado en el centro activo, que se transforma en productos; 2) el inhibidor competitivo ocupa el centro activo e impide la entrada del sustrato; 3) el inhibidor no competitivo se une a otra zona y deforma el centro activo.</span>",
+    "<b>I.</b> <span class=\"redactado\">Figura 1: A, reacción sin inhibidor (Vmax y Km normales). B, con inhibidor competitivo: alcanza la misma Vmax, pero a concentraciones de sustrato más altas, porque la Km aumenta (disminuye la afinidad aparente). C, con inhibidor no competitivo: la Vmax disminuye, porque parte de la enzima queda inutilizada, y la Km no cambia. En el eje X de la figura debería poner concentración de sustrato, no de producto.</span>",
+    "<b>II.</b> <span class=\"redactado\">Son un grupo heterogéneo que se agrupa por sus propiedades físicas: son insolubles (o poco solubles) en agua y solubles en disolventes orgánicos apolares (éter, cloroformo, benceno); tienen brillo graso y son untuosos al tacto. Funciones: energética de reserva (triacilglicéridos), estructural (fosfolípidos y colesterol de las membranas), reguladora u hormonal (hormonas esteroideas), vitamínica (A, D, E, K), aislante térmico y protectora.</span>",
+    "<b>II.</b> <span class=\"redactado\">Saponificación: hidrólisis alcalina de un éster (de los ácidos grasos con la glicerina en un triacilglicérido) con una base fuerte (NaOH o KOH), en la que se forman sales de ácidos grasos (jabones) y glicerina.</span>",
+    "<b>II.</b> <span class=\"redactado\">Esquema: ácido graso (grupo carboxilo, R–COOH) + alcohol (grupo hidroxilo, HO–R') ⇄ éster (R–CO–O–R') + H₂O. Hacia la derecha es la esterificación, la reacción inversa (condensación); hacia la izquierda, la hidrólisis del éster; con una base (R–CO–O–R' + NaOH → R–COO⁻Na⁺ + HO–R') es la saponificación.</span>"
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2023-cantabria-ext-1",
+    "pau2023-cantabria-ext-2"
+   ],
+   "origen": {
+    "documento": "EBAU 2023 Cantabria, convocatoria extraordinaria (Universidad de Cantabria) · Cantabria, convocatoria extraordinaria (julio)",
+    "referencia": "Cantabria, convocatoria extraordinaria (julio), pregunta 1 + Cantabria, convocatoria extraordinaria (julio), pregunta 2",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Cantabria (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2023-cantabria/cantabria-2023-1.webp",
+   "imgThumb": "assets/figuras/historico/2023-cantabria/cantabria-2023-1.thumb.webp",
+   "imageDesc": "Figura 1: velocidad de la reacción frente a la concentración (el eje dice «de producto»), con Vmax y Km marcadas. La curva A sube rápido hasta Vmax; B sube más despacio pero llega a la misma Vmax; C se estabiliza en una velocidad máxima mucho menor."
+  },
+  {
+   "id": "pau2023-cantabria-ext-3+4",
+   "block": "Biomoléculas",
+   "topic": "Nucleótidos: componentes, bases, enlaces N-glucosídico y fosfoéster · Ciclos lítico y lisogénico de un virus",
+   "anio": 2023,
+   "etiqueta": "EBAU 2023 Cantabria (julio)",
+   "hasImg": true,
+   "q": "<b>I.</b> ¿A qué grupo de biomoléculas pertenecen las dos representadas en la figura 2? ¿Qué macromolécula resulta de la polimerización de cada una de estas moléculas? Indique el nombre de los componentes señalados con las letras A, B, C y D, y cite los cuatro compuestos posibles que pueden ocupar la posición B. Especifique el tipo de enlace bioquímico que aparece entre los componentes B y C y entre A y C, y dibuje las reacciones de formación de: a) el enlace entre B y C; b) el enlace entre A y C. <i>(1,25 puntos)</i><br><br><b>II.</b> Haga un dibujo y explique brevemente los ciclos lítico y lisogénico de un virus, detallando qué proceso tiene lugar en cada paso. <i>(1,25 puntos)</i>",
+   "puntos": 2.5,
+   "c": [
+    "<b>I.</b> <span class=\"redactado\">Son nucleótidos (de adenina): 1, un ribonucleótido (adenosín monofosfato, AMP), y 2, un desoxirribonucleótido (desoxiadenosín monofosfato, dAMP). Al polimerizarse, los ribonucleótidos forman ARN y los desoxirribonucleótidos, ADN.</span>",
+    "<b>I.</b> <span class=\"redactado\">A, ácido fosfórico (grupo fosfato); B, base nitrogenada (adenina); C, pentosa ribosa; D, pentosa desoxirribosa (sin –OH en el carbono 2'). En la posición B de un ribonucleótido pueden estar adenina, guanina, citosina y uracilo.</span>",
+    "<b>I.</b> <span class=\"redactado\">Entre B y C, enlace N-glucosídico; entre A y C, enlace éster (fosfoéster).</span>",
+    "<b>I.</b> <span class=\"redactado\">a) El –OH del carbono 1' de la pentosa reacciona con un –NH de la base (N9 en las púricas, N1 en las pirimidínicas): pentosa–OH + H–N–base → pentosa–N–base + H₂O (se forma un nucleósido). b) El –OH del carbono 5' de la pentosa reacciona con el ácido fosfórico: nucleósido–CH₂–OH + HO–PO₃H₂ → nucleósido–CH₂–O–PO₃H₂ + H₂O (se forma el nucleótido).</span>",
+    "<b>II.</b> <span class=\"redactado\">Ciclo lítico (por ejemplo, de un bacteriófago): 1) fijación o adsorción: el virus se une a receptores de la superficie de la célula; 2) penetración: inyecta su ácido nucleico (la cápsida queda fuera); 3) eclipse, replicación y síntesis: el ácido nucleico vírico toma el control de la célula, que replica el genoma vírico y sintetiza las proteínas de la cápsida; 4) ensamblaje: se forman nuevos viriones; 5) liberación: la célula se rompe (lisis) y salen los virus, que infectan otras células.</span>",
+    "<b>II.</b> <span class=\"redactado\">Ciclo lisogénico: tras la penetración, el ADN vírico se integra en el cromosoma bacteriano (profago) y se replica con él en cada división, sin dañar a la célula (bacteria lisogénica). Ante ciertos estímulos (radiación UV, sustancias químicas) el profago se separa (inducción) y empieza un ciclo lítico.</span>"
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2023-cantabria-ext-3",
+    "pau2023-cantabria-ext-4"
+   ],
+   "origen": {
+    "documento": "EBAU 2023 Cantabria, convocatoria extraordinaria (Universidad de Cantabria) · Cantabria, convocatoria extraordinaria (julio)",
+    "referencia": "Cantabria, convocatoria extraordinaria (julio), pregunta 3 + Cantabria, convocatoria extraordinaria (julio), pregunta 4",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Cantabria (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2023-cantabria/cantabria-2023-2.webp",
+   "imgThumb": "assets/figuras/historico/2023-cantabria/cantabria-2023-2.thumb.webp",
+   "imageDesc": "Figura 2: dos moléculas con una base de dos anillos con NH₂, una pentosa y un fosfato. En la 1, A rodea el fosfato, B la base, y C señala la pentosa, que tiene –OH en los carbonos 2' y 3'; la 2 es igual pero su pentosa (D) solo tiene –OH en el carbono 3'."
+  },
+  {
+   "id": "pau2023-cantabria-ext-5+6",
+   "block": "Biotecnología",
+   "topic": "Insulina humana producida por bacterias: universalidad del código genético · Elaboración del pan: hidrólisis del almidón y fermentación alcohólica",
+   "anio": 2023,
+   "etiqueta": "EBAU 2023 Cantabria (julio)",
+   "hasImg": false,
+   "q": "<b>I.</b> La insulina es una hormona producida en el páncreas que controla el metabolismo de la glucosa. Su déficit o ausencia provoca la diabetes. Actualmente la industria farmacéutica produce insulina humana a partir de un cultivo bacteriano. Razone cómo es esto posible siendo dos organismos (el ser humano y la bacteria) tan diferentes. <i>(1,25 puntos)</i><br><br><b>II.</b> Explique la transformación de los diversos carbohidratos durante la elaboración del pan, los microorganismos responsables, y el tipo de fermentación que tiene lugar, indicando los productos finales del proceso. <i>(1,25 puntos)</i>",
+   "puntos": 2.5,
+   "c": [
+    "<b>I.</b> <span class=\"redactado\">Mediante ingeniería genética (ADN recombinante): el gen humano de la insulina (su ADNc, sin intrones, obtenido del ARNm con la transcriptasa inversa, ya que las bacterias no pueden eliminar intrones) se corta con enzimas de restricción y se une con la ADN ligasa a un plásmido, que se introduce en bacterias como E. coli. Las bacterias transformadas se multiplican y fabrican insulina humana.</span>",
+    "<b>I.</b> <span class=\"redactado\">Es posible porque el código genético es universal: el mismo codón codifica el mismo aminoácido en el ser humano y en la bacteria, y ambos usan los mismos mecanismos básicos de transcripción y traducción. Por eso la bacteria lee el gen humano y sintetiza la misma proteína.</span>",
+    "<b>II.</b> <span class=\"redactado\">El almidón de la harina se hidroliza por las amilasas (de la propia harina) a maltosa, y la maltosa, por la maltasa de las levaduras, a glucosa. Las levaduras (Saccharomyces cerevisiae) fermentan la glucosa por fermentación alcohólica: C₆H₁₂O₆ → 2 CH₃–CH₂OH + 2 CO₂. El CO₂ queda atrapado en la masa (en la red de gluten) y la hace subir (esponjosa); el etanol se evapora durante la cocción.</span>"
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2023-cantabria-ext-5",
+    "pau2023-cantabria-ext-6"
+   ],
+   "origen": {
+    "documento": "EBAU 2023 Cantabria, convocatoria extraordinaria (Universidad de Cantabria) · Cantabria, convocatoria extraordinaria (julio)",
+    "referencia": "Cantabria, convocatoria extraordinaria (julio), pregunta 5 + Cantabria, convocatoria extraordinaria (julio), pregunta 6",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Cantabria (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2023,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2023-cantabria-ext-7+8",
+   "block": "Inmunología",
+   "topic": "Vacunas y sueros; inmunización activa y pasiva · Respuesta primaria y secundaria; células de memoria",
+   "anio": 2023,
+   "etiqueta": "EBAU 2023 Cantabria (julio)",
+   "hasImg": false,
+   "q": "<b>I.</b> ¿Qué es una vacuna? Mencione y describa dos formas de inmunización diferentes. ¿Qué es un suero inmune? Compare una vacuna con un suero inmune, mencionando al menos una ventaja de cada uno frente al otro. <i>(1,25 puntos)</i><br><br><b>II.</b> Explique en qué consiste la respuesta inmune primaria y secundaria frente a un antígeno. ¿Qué células son las responsables de la respuesta secundaria? Dibuje una gráfica que ilustre este fenómeno, en la que se represente la concentración de anticuerpos específicos frente al tiempo, señalando los momentos de exposición al antígeno. <i>(1,25 puntos)</i>",
+   "puntos": 2.5,
+   "c": [
+    "<b>I.</b> <span class=\"redactado\">Una vacuna es un preparado de antígenos (microorganismos muertos o atenuados, toxoides, fragmentos o ARNm que codifica un antígeno) que provoca una respuesta inmunitaria primaria, sin causar la enfermedad, y genera memoria.</span>",
+    "<b>I.</b> <span class=\"redactado\">Formas de inmunización: activa, cuando el propio organismo produce anticuerpos y células de memoria (natural, al pasar la infección; artificial, con vacunas); pasiva, cuando recibe anticuerpos ya formados (natural, de la madre por la placenta o la leche; artificial, con sueros).</span>",
+    "<b>I.</b> <span class=\"redactado\">Un suero inmune contiene anticuerpos específicos ya elaborados, obtenidos de otra persona o de un animal inmunizado.</span>",
+    "<b>I.</b> <span class=\"redactado\">Comparación: la vacuna es preventiva, da inmunidad activa, tarda en actuar (días o semanas) y es duradera (memoria): esa es su ventaja. El suero es curativo o de urgencia, da inmunidad pasiva inmediata (su ventaja), pero dura poco y no deja memoria.</span>",
+    "<b>II.</b> <span class=\"redactado\">Respuesta primaria: tras el primer contacto con el antígeno, hay un periodo de latencia de varios días en el que se seleccionan y proliferan los linfocitos específicos; se producen pocos anticuerpos (sobre todo IgM) y durante poco tiempo, y se forman células de memoria. Respuesta secundaria: en un segundo contacto con el mismo antígeno, la respuesta es más rápida, más intensa (muchos más anticuerpos, sobre todo IgG) y más duradera.</span>",
+    "<b>II.</b> <span class=\"redactado\">Responsables: los linfocitos B y T de memoria generados en la respuesta primaria.</span>",
+    "<b>II.</b> <span class=\"redactado\">Gráfica: concentración de anticuerpos (eje Y) frente al tiempo (eje X), con una flecha en la primera exposición, seguida de una curva baja y tardía, y otra flecha en la segunda exposición, seguida de una curva que sube enseguida y mucho más alto.</span>"
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2023-cantabria-ext-7",
+    "pau2023-cantabria-ext-8"
+   ],
+   "origen": {
+    "documento": "EBAU 2023 Cantabria, convocatoria extraordinaria (Universidad de Cantabria) · Cantabria, convocatoria extraordinaria (julio)",
+    "referencia": "Cantabria, convocatoria extraordinaria (julio), pregunta 7 + Cantabria, convocatoria extraordinaria (julio), pregunta 8",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Cantabria (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2023,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2023-cantabria-ext-9+10",
+   "block": "Célula",
+   "topic": "Localización de procesos en la célula eucariota · Célula animal: identificación de orgánulos y funciones",
+   "anio": 2023,
+   "etiqueta": "EBAU 2023 Cantabria (julio)",
+   "hasImg": true,
+   "q": "<b>I.</b> Indique dónde se localizan las siguientes funciones o procesos en una célula eucariótica:<br>a) síntesis de proteínas; b) glucólisis; c) ciclo de Krebs; d) ciclo de Calvin; e) transformación de energía luminosa en energía química; f) cadena respiratoria; g) oxidación de los ácidos grasos. <i>(1,25 puntos)</i><br><br><b>II.</b> ¿Qué tipo de célula se representa en la figura 3? Razone su respuesta, y nombre los componentes señalados en la misma, así como una función de cada uno de ellos. <i>(1,25 puntos)</i>",
+   "puntos": 2.5,
+   "c": [
+    "<b>I.</b> <span class=\"redactado\">a) En los ribosomas (libres en el citosol o unidos al retículo endoplasmático rugoso; también en mitocondrias y cloroplastos). b) En el citosol. c) En la matriz mitocondrial. d) En el estroma del cloroplasto. e) En la membrana de los tilacoides de los cloroplastos (fase luminosa). f) En la membrana mitocondrial interna (crestas). g) En la matriz mitocondrial (β-oxidación), y también en los peroxisomas.</span>",
+    "<b>II.</b> <span class=\"redactado\">Es una célula eucariota animal: tiene núcleo y orgánulos membranosos, centrosoma con centriolos y lisosomas, y no tiene pared celular ni cloroplastos.</span>",
+    "<b>II.</b> <span class=\"redactado\">Componentes (de arriba abajo; los rótulos no llevan número): núcleo, que contiene el ADN y dirige la actividad celular; nucléolo, síntesis del ARNr y montaje de las subunidades de los ribosomas; retículo endoplasmático rugoso, síntesis de proteínas de membrana y de secreción; retículo endoplasmático liso, síntesis de lípidos y detoxificación; aparato de Golgi, modificación, empaquetado y secreción de sustancias; mitocondria, respiración celular y obtención de ATP; vacuola, almacén de sustancias; centrosoma (centriolos), organiza los microtúbulos y el huso acromático; citoesqueleto, forma, movimiento y transporte intracelular; membrana plasmática, límite celular y transporte selectivo.</span>"
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2023-cantabria-ext-9",
+    "pau2023-cantabria-ext-10"
+   ],
+   "origen": {
+    "documento": "EBAU 2023 Cantabria, convocatoria extraordinaria (Universidad de Cantabria) · Cantabria, convocatoria extraordinaria (julio)",
+    "referencia": "Cantabria, convocatoria extraordinaria (julio), pregunta 9 + Cantabria, convocatoria extraordinaria (julio), pregunta 10",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Cantabria (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2023-cantabria/cantabria-2023-3.webp",
+   "imgThumb": "assets/figuras/historico/2023-cantabria/cantabria-2023-3.thumb.webp",
+   "imageDesc": "Figura 3: célula redonda con un núcleo grande, con nucléolo, rodeado de cisternas con gránulos; a su lado, sacos aplanados apilados, mitocondrias, vesículas con gránulos, una vacuola, un centrosoma con fibras radiales y filamentos finos. Diez líneas de rótulo sin texto señalan los componentes."
+  },
+  {
+   "id": "pau2023-cantabria-ext-11+12",
+   "block": "Célula",
+   "topic": "Mitosis y meiosis: diferencias, importancia y anafases · Transcripción, traducción y mutaciones silenciosas",
+   "anio": 2023,
+   "etiqueta": "EBAU 2023 Cantabria (julio)",
+   "hasImg": true,
+   "q": "<b>I.</b> Señale tres diferencias entre mitosis y meiosis. Respecto a esta última, explique por qué es importante para la reproducción sexual y la variabilidad de las especies. Por último, describa la diferencia fundamental entre anafase I y anafase II de la meiosis. <i>(1,25 puntos)</i><br><br><b>II.</b> Escriba la secuencia de la molécula de ARNm que resulta de la transcripción del siguiente fragmento de ADN, 5'-ATGAACAGGCCATGA-3', y la secuencia de aminoácidos resultante de la traducción de dicho ARNm. Use la información de la figura 4.<br>¿Cuántas mutaciones silenciosas podrían producirse en ese fragmento de ADN? <i>(1,25 puntos)</i>",
+   "puntos": 2.5,
+   "c": [
+    "<b>I.</b> <span class=\"redactado\">Diferencias: la mitosis tiene una división y la meiosis dos; la mitosis da dos células hijas y la meiosis cuatro; en la mitosis las hijas son diploides (2n) y genéticamente iguales a la madre, y en la meiosis son haploides (n) y distintas; en la meiosis hay apareamiento de homólogos y sobrecruzamiento, que no se dan en la mitosis; la mitosis ocurre en células somáticas y la meiosis en las germinales.</span>",
+    "<b>I.</b> <span class=\"redactado\">Importancia: la meiosis reduce a la mitad el número de cromosomas de los gametos, así que en la fecundación se recupera la dotación diploide de la especie y se mantiene constante de generación en generación. Además, genera variabilidad por el sobrecruzamiento (recombinación) en la profase I y por la segregación al azar de los cromosomas homólogos en la anafase I.</span>",
+    "<b>I.</b> <span class=\"redactado\">En la anafase I se separan los cromosomas homólogos (cada uno con sus dos cromátidas) hacia polos opuestos; en la anafase II se separan las cromátidas hermanas.</span>",
+    "<b>II.</b> <span class=\"redactado\">El fragmento empieza por ATG y termina por TGA, así que corresponde a la hebra codificante: el ARNm tiene la misma secuencia con U: 5'-AUG AAC AGG CCA UGA-3', que se traduce como Met-Asn-Arg-Pro (UGA es codón de parada). Si se tomara el fragmento como hebra molde, el ARNm sería el complementario y antiparalelo: 5'-UCAUGGCCUGUUCAU-3'.</span>",
+    "<b>II.</b> <span class=\"redactado\">Una mutación silenciosa cambia una base sin cambiar el aminoácido. Con sustituciones de una sola base, según la tabla: AUG (Met), ninguna; AAC (Asn), 1 (AAU); AGG (Arg), 2 (AGA y CGG); CCA (Pro), 3 (CCU, CCC y CCG). En total, 6; habría una más si se cuenta UGA → UAA, que sigue siendo de parada.</span>"
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2023-cantabria-ext-11",
+    "pau2023-cantabria-ext-12"
+   ],
+   "origen": {
+    "documento": "EBAU 2023 Cantabria, convocatoria extraordinaria (Universidad de Cantabria) · Cantabria, convocatoria extraordinaria (julio)",
+    "referencia": "Cantabria, convocatoria extraordinaria (julio), pregunta 11 + Cantabria, convocatoria extraordinaria (julio), pregunta 12",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Cantabria (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2023-cantabria/cantabria-2023-4.webp",
+   "imgThumb": "assets/figuras/historico/2023-cantabria/cantabria-2023-4.thumb.webp",
+   "imageDesc": "Figura 4: tabla del código genético con los 64 codones del ARNm ordenados por primera, segunda y tercera base y el aminoácido de cada uno."
+  },
+  {
+   "id": "pau2023-cantabria-ext-13+14",
+   "block": "Genética",
+   "topic": "Árbol genealógico: herencia autosómica dominante · Replicación del ADN: proteínas y funciones",
+   "anio": 2023,
+   "etiqueta": "EBAU 2023 Cantabria (julio)",
+   "hasImg": true,
+   "q": "<b>I.</b> En la figura 5 aparece el árbol genealógico de una familia, muchos de cuyos miembros presentan un lunar característico. La presencia de este carácter se indica en color negro, y está determinado por un solo gen. Indique si el alelo que determina la presencia del lunar es dominante o recesivo. Razone la respuesta detallando posibles genotipos de todos los individuos. ¿Podría tratarse de un gen ligado al sexo? Razone la respuesta. <i>(1,25 puntos)</i><br><br><b>II.</b> Haga un esquema de la replicación del ADN, señalando las diversas proteínas que intervienen en la misma y especificando su función. <i>(1,25 puntos)</i>",
+   "puntos": 2.5,
+   "c": [
+    "<b>I.</b> <span class=\"redactado\">Es dominante: I-3 e I-4 tienen el lunar y tienen hijos sin él (II-6 y II-7); lo mismo ocurre con II-3 y II-4 (III-3 y III-4). Si fuera recesivo, dos padres con el lunar solo podrían tener hijos con lunar.</span>",
+    "<b>I.</b> <span class=\"redactado\">Con L (lunar) y l (sin lunar): I-1 ll; I-2 Ll (tiene una hija sin lunar, II-2); I-3 Ll e I-4 Ll; II-1 Ll; II-2 ll; II-3 Ll; II-4 Ll (tiene hijos sin lunar); II-5 LL o Ll; II-6 ll; II-7 ll; III-1 y III-2 LL o Ll; III-3 y III-4 ll.</span>",
+    "<b>I.</b> <span class=\"redactado\">No está ligado al sexo. Si fuera dominante ligado al X, un padre con el lunar lo transmitiría a todas sus hijas, pero I-2 tiene una hija sin lunar (II-2) e I-4 también (II-7). Tampoco puede estar ligado al Y, porque lo tienen mujeres. Es autosómico.</span>",
+    "<b>II.</b> <span class=\"redactado\">El esquema debe mostrar una horquilla de replicación con la hebra conductora (continua) y la retardada (fragmentos de Okazaki), cada hebra nueva antiparalela a su molde y creciendo en sentido 5'→3'.</span>",
+    "<b>II.</b> <span class=\"redactado\">Proteínas: helicasa, rompe los puentes de hidrógeno y separa las hebras; topoisomerasas (girasa), eliminan las tensiones del superenrollamiento; proteínas SSB, mantienen separadas las hebras sencillas; primasa, sintetiza los cebadores de ARN; ADN polimerasa III (en procariotas), alarga las cadenas añadiendo nucleótidos complementarios en sentido 5'→3' a partir del cebador y corrige errores; ADN polimerasa I, retira los cebadores y rellena los huecos con ADN; ADN ligasa, une los fragmentos de Okazaki.</span>"
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2023-cantabria-ext-13",
+    "pau2023-cantabria-ext-14"
+   ],
+   "origen": {
+    "documento": "EBAU 2023 Cantabria, convocatoria extraordinaria (Universidad de Cantabria) · Cantabria, convocatoria extraordinaria (julio)",
+    "referencia": "Cantabria, convocatoria extraordinaria (julio), pregunta 13 + Cantabria, convocatoria extraordinaria (julio), pregunta 14",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Cantabria (Extraordinaria de 2023) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2023,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2023-cantabria/cantabria-2023-5.webp",
+   "imgThumb": "assets/figuras/historico/2023-cantabria/cantabria-2023-5.thumb.webp",
+   "imageDesc": "Figura 5: árbol de tres generaciones (cuadrados, hombres; círculos, mujeres; negro, con lunar). I: mujer 1 sin lunar con hombre 2 con lunar; mujer 3 con lunar con hombre 4 con lunar. II: hijos de I-1 y I-2: 1 mujer con lunar, 2 mujer sin lunar, 3 hombre con lunar; hijos de I-3 y I-4: 4 mujer con lunar, 5 hombre con lunar, 6 hombre sin lunar, 7 mujer sin lunar. II-3 y II-4 tienen a III-1 (mujer con lunar), III-2 (hombre con lunar), III-3 (hombre sin lunar) y III-4 (mujer sin lunar)."
+  },
+  {
    "id": "pau2024-titular-a-a1",
    "block": "Biomoléculas",
    "topic": "Lípidos saponificables e insaponificables",
@@ -61008,6 +63732,1683 @@ window.BIOCELIA_HISTORICO = {
     "verificado": true
    },
    "isNew": true
+  },
+  {
+   "id": "pau2025-andalucia-modelo-1",
+   "block": "Biomoléculas",
+   "topic": "Identificar glucosa, maltosa, sacarosa y almidón por sus propiedades",
+   "anio": 2025,
+   "etiqueta": "Modelo Andalucía 24-25",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "<b>En un laboratorio hay 4 tubos que contienen los siguientes compuestos por separado: glucosa, maltosa, sacarosa y almidón. Para identificar el tipo de carbohidrato que contiene cada tubo se realizan varias pruebas: A) análisis de la solubilidad; B) determinación del poder reductor; C) capacidad de hidrólisis en medio ácido; D) sabor dulce. Tras el análisis se obtienen los siguientes resultados:</b><br>a) Indique qué compuesto de los indicados se encuentra en cada tubo. Razone sus respuestas [1,2].<br>b) Explique una función del/de los monosacárido/s y del/de los polisacárido/s estudiados en este experimento [0,4].<br>c) Indique dos características exclusivas del tipo celular que contiene el almidón [0,4].",
+   "c": [
+    "a) Tubo 1: <mark class=\"clave-criterio\">almidón</mark>; 2: <mark class=\"clave-criterio\">glucosa</mark>; 3: <mark class=\"clave-criterio\">sacarosa</mark>; 4: <mark class=\"clave-criterio\">maltosa</mark>, argumentándolo con los <mark class=\"clave-criterio\">datos de la tabla</mark> (1,2 p). <span class=\"redactado\">El almidón es el único insoluble, no reductor y no dulce, y se hidroliza porque es un polímero; la glucosa no se hidroliza porque es un monosacárido; la sacarosa se hidroliza pero no es reductora, porque sus dos carbonos anoméricos forman el enlace; la maltosa es reductora y se hidroliza en dos glucosas.</span>",
+    "b) Glucosa: <mark class=\"clave-criterio\">azúcar más utilizado como fuente de energía</mark> por las células; almidón: <mark class=\"clave-criterio\">principal polisacárido de reserva de las células vegetales</mark> (0,4 p).",
+    "c) Presencia de <mark class=\"clave-criterio\">pared celular</mark> y de <mark class=\"clave-criterio\">cloroplastos (plastos)</mark> (0,4 p)."
+   ],
+   "origen": {
+    "documento": "Directrices y Orientaciones de Biología 2024-25 (Andalucía) · Modelo de prueba 2024-25",
+    "referencia": "Modelo de prueba 2024-25, pregunta 1",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-ANDALUCIA-PAU-2025.pdf",
+    "criterios": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-ANDALUCIA-PAU-2025.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/andalucia-modelo-1.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/andalucia-modelo-1.thumb.webp",
+   "imageDesc": "Tabla con cuatro tubos. Tubo 1: insoluble, sin poder reductor, se hidroliza, no dulce. Tubo 2: soluble, reductor, no se hidroliza, dulce. Tubo 3: soluble, no reductor, se hidroliza, dulce. Tubo 4: soluble, reductor, se hidroliza, dulce.",
+   "isNew": true
+  },
+  {
+   "id": "pau2025-andalucia-modelo-12",
+   "block": "Célula",
+   "topic": "Un fármaco aumenta los dobles enlaces de los ácidos grasos de la membrana",
+   "anio": 2025,
+   "etiqueta": "Modelo Andalucía 24-25",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": true,
+   "q": "<b>Se está llevando a cabo un estudio en células animales para determinar el efecto de un medicamento sobre las membranas celulares. Al aplicar dicho medicamento se observa que el número de dobles enlaces presentes en los ácidos grasos aumenta considerablemente respecto al contenido de las células control.</b><br>a) Indique la estructura básica de una molécula de ácido graso [0,25].<br>b) Explique razonadamente qué efecto puede tener sobre la membrana celular este incremento de dobles enlaces [0,75].<br>c) Defina membrana plasmática e indique una función de esta estructura [0,5].<br>d) Nombre dos orgánulos celulares delimitados por una membrana simple e indique una función que desempeñen [0,5].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Cadena hidrocarbonada</mark> con un <mark class=\"clave-criterio\">grupo carboxílico en un extremo</mark> (0,25 p).",
+    "b) Más dobles enlaces implica un <mark class=\"clave-criterio\">aumento de ácidos grasos insaturados</mark> (0,25 p), que <mark class=\"clave-criterio\">aumenta la fluidez de las membranas</mark> (0,5 p). <span class=\"redactado\">Los dobles enlaces cis forman codos que separan las colas e impiden que se empaqueten.</span>",
+    "c) <mark class=\"clave-criterio\">Bicapa lipídica con proteínas</mark> (periféricas y transmembranales) y <mark class=\"clave-criterio\">glúcidos en la capa externa</mark> (0,3 p). Función: <mark class=\"clave-criterio\">separar el medio intracelular del extracelular</mark>, <mark class=\"clave-criterio\">permeabilidad selectiva</mark> o <mark class=\"clave-criterio\">transferencia de información</mark> (solo una, 0,2 p).",
+    "d) <mark class=\"clave-criterio\">Complejo de Golgi</mark>, <mark class=\"clave-criterio\">retículo endoplasmático</mark>, <mark class=\"clave-criterio\">lisosomas</mark>, <mark class=\"clave-criterio\">peroxisomas</mark>, <mark class=\"clave-criterio\">vacuolas</mark> (dos, a 0,1 p). Funciones: Golgi, <mark class=\"clave-criterio\">maduración, secreción y acumulación de sustancias</mark>; retículo, <mark class=\"clave-criterio\">síntesis, transporte y almacenamiento</mark>; lisosomas, <mark class=\"clave-criterio\">digestión intracelular</mark>; peroxisomas, <mark class=\"clave-criterio\">metabolismo oxidativo</mark>; vacuolas, <mark class=\"clave-criterio\">almacenamiento</mark> (una de cada orgánulo, a 0,15 p)."
+   ],
+   "origen": {
+    "documento": "Directrices y Orientaciones de Biología 2024-25 (Andalucía) · Modelo de prueba 2024-25",
+    "referencia": "Modelo de prueba 2024-25, opción 1, pregunta 2",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-ANDALUCIA-PAU-2025.pdf",
+    "criterios": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-ANDALUCIA-PAU-2025.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": true
+  },
+  {
+   "id": "pau2025-andalucia-modelo-22",
+   "block": "Célula",
+   "topic": "Toxinas que atacan el nucléolo y significado de la mitosis",
+   "anio": 2025,
+   "etiqueta": "Modelo Andalucía 24-25",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": true,
+   "q": "<b>Dentro del núcleo eucariota, el nucléolo destaca como la estructura más prominente. Debido a sus funciones cruciales para la célula, el nucléolo es una diana valiosa para inducir selectivamente la muerte celular en células indeseables. Entre otros ejemplos, existen tratamientos contra el cáncer basados en toxinas naturales que atacan a los nucléolos, produciendo la muerte de las células tumorales.</b><br>a) Explique la causa de dicha muerte [0,5].<br>b) ¿Tendrían estas toxinas naturales el mismo efecto sobre células en mitosis? ¿por qué? [0,5].<br>c) Explique el significado biológico de la mitosis [0,5].<br>d) Nombre, de forma ordenada las fases de la mitosis [0,3].<br>e) Indique otras dos estructuras que forman parte del núcleo eucariota [0,2].",
+   "c": [
+    "a) En el nucléolo se producen los <mark class=\"clave-criterio\">distintos tipos de ARNr</mark> que forman las <mark class=\"clave-criterio\">subunidades de los ribosomas</mark>, necesarios para la <mark class=\"clave-criterio\">síntesis de las proteínas</mark>. Al atacar los nucléolos, la toxina <mark class=\"clave-criterio\">impide que las células cancerígenas sinteticen proteínas, crezcan y completen su ciclo celular</mark>, y mueren (0,5 p).",
+    "b) <mark class=\"clave-criterio\">No</mark>: durante la mitosis <mark class=\"clave-criterio\">el núcleo y sus componentes, como el nucléolo, no están presentes</mark> (0,5 p). <span class=\"redactado\">El nucléolo desaparece en la profase y reaparece en la telofase.</span>",
+    "c) Obtener <mark class=\"clave-criterio\">células hijas con idéntica información genética</mark> que la célula progenitora y permitir en los pluricelulares el <mark class=\"clave-criterio\">crecimiento</mark> y el <mark class=\"clave-criterio\">recambio celular</mark> (0,5 p).",
+    "d) <mark class=\"clave-criterio\">Profase, metafase, anafase y telofase</mark>; si no se nombran en orden, 0 puntos (0,3 p).",
+    "e) <mark class=\"clave-criterio\">Poros nucleares</mark>, <mark class=\"clave-criterio\">cromatina</mark>, <mark class=\"clave-criterio\">envoltura nuclear</mark>, etc. (dos, 0,2 p)."
+   ],
+   "origen": {
+    "documento": "Directrices y Orientaciones de Biología 2024-25 (Andalucía) · Modelo de prueba 2024-25",
+    "referencia": "Modelo de prueba 2024-25, opción 2, pregunta 2",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-ANDALUCIA-PAU-2025.pdf",
+    "criterios": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-ANDALUCIA-PAU-2025.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": true
+  },
+  {
+   "id": "pau2025-andalucia-modelo-13",
+   "block": "Metabolismo",
+   "topic": "β-oxidación en mitocondrias y peroxisomas",
+   "anio": 2025,
+   "etiqueta": "Modelo Andalucía 24-25",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "<b>En las células de los mamíferos, dos orgánulos celulares comparten la capacidad de degradar las cadenas de ácidos grasos, aunque cada uno de ellos utiliza su propia vía de β-oxidación de ácidos grasos.</b><br>a) Indique de qué orgánulos se trata y la región de estos en los que pueden tener lugar [0,4].<br>b) Describa, de forma general, en qué consiste la β-oxidación [0,3]<br>c) Indique cuáles son los sustratos y los productos finales de este proceso [0,4].<br>d) ¿A qué procesos metabólicos se incorporan las moléculas resultantes de este proceso para obtener los productos finales CO₂, H₂O y ATP? [0,4]<br>e) ¿Qué productos se generan en cada uno de estos procesos metabólicos? [0,5]",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Mitocondria</mark>, en la <mark class=\"clave-criterio\">matriz</mark>; <mark class=\"clave-criterio\">peroxisoma</mark>, en su <mark class=\"clave-criterio\">interior</mark> (0,1 p por orgánulo y 0,1 p por región) (0,4 p).",
+    "b) <mark class=\"clave-criterio\">Proceso catabólico cíclico</mark> en el que los ácidos grasos <mark class=\"clave-criterio\">liberan dos átomos de carbono en forma de acetil-CoA</mark> en cada vuelta (0,3 p).",
+    "c) Sustrato: <mark class=\"clave-criterio\">acil-CoA</mark> (ácidos grasos) (0,1 p); productos: <mark class=\"clave-criterio\">acetil-CoA, FADH₂ y NADH</mark> (0,3 p).",
+    "d) El acetil-CoA, al <mark class=\"clave-criterio\">ciclo de Krebs</mark> (0,2 p); el FADH₂ y el NADH, a la <mark class=\"clave-criterio\">cadena de transporte de electrones</mark> mitocondrial (0,2 p).",
+    "e) Ciclo de Krebs: <mark class=\"clave-criterio\">CO₂, GTP, FADH₂ y NADH</mark> (0,4 p). Cadena de transporte: <mark class=\"clave-criterio\">ATP y H₂O</mark> (0,1 p). <span class=\"redactado\">En sentido estricto, el ATP lo fabrica la ATP sintasa en la fosforilación oxidativa, acoplada a la cadena.</span>"
+   ],
+   "origen": {
+    "documento": "Directrices y Orientaciones de Biología 2024-25 (Andalucía) · Modelo de prueba 2024-25",
+    "referencia": "Modelo de prueba 2024-25, opción 1, pregunta 3",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-ANDALUCIA-PAU-2025.pdf",
+    "criterios": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-ANDALUCIA-PAU-2025.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2025-andalucia-modelo-23",
+   "block": "Metabolismo",
+   "topic": "Destinos del piruvato y estructura de la mitocondria",
+   "anio": 2025,
+   "etiqueta": "Modelo Andalucía 24-25",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "<b>En relación con la figura adjunta:</b><br>a) Escriba el nombre de la ruta metabólica representada con el número 3 [0,3] y del intermediario metabólico señalado con el número 2 [0,2].<br>b) Nombre la molécula representada con el número 1 [0,2].<br>c) Indique de dónde proceden las moléculas de CO₂ que se obtienen en el proceso 3 [0,2].<br>d) Nombre los destinos (A, B y C) que puede seguir el piruvato [0,3].<br>e) Describa la estructura del orgánulo representado y cite dos de sus componentes [0,6]. Indique en qué tipo de células se encuentra [0,2].",
+   "c": [
+    "a) 3: <mark class=\"clave-criterio\">ciclo de Krebs</mark> (0,3 p); 2: <mark class=\"clave-criterio\">acetil-CoA</mark> (0,2 p).",
+    "b) 1: <mark class=\"clave-criterio\">ATP</mark> (0,2 p).",
+    "c) De la <mark class=\"clave-criterio\">oxidación (descarboxilación)</mark> <span class=\"redactado\">de los grupos acetilo en el ciclo</span> (0,2 p).",
+    "d) A: <mark class=\"clave-criterio\">respiración celular</mark>; B: <mark class=\"clave-criterio\">fermentación láctica</mark>; C: <mark class=\"clave-criterio\">fermentación alcohólica</mark> (0,3 p).",
+    "e) Estructura: <mark class=\"clave-criterio\">membrana externa e interna (crestas mitocondriales)</mark>, <mark class=\"clave-criterio\">espacio intermembranoso</mark> y <mark class=\"clave-criterio\">matriz</mark> (0,3 p). Componentes: <mark class=\"clave-criterio\">ADN mitocondrial</mark>, <mark class=\"clave-criterio\">ribosomas mitocondriales</mark>, <mark class=\"clave-criterio\">proteínas de la cadena transportadora de electrones</mark>, etc. (dos, a 0,25 p). Células: <mark class=\"clave-criterio\">eucariotas animales y vegetales</mark> (0,2 p)."
+   ],
+   "origen": {
+    "documento": "Directrices y Orientaciones de Biología 2024-25 (Andalucía) · Modelo de prueba 2024-25",
+    "referencia": "Modelo de prueba 2024-25, opción 2, pregunta 3",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-ANDALUCIA-PAU-2025.pdf",
+    "criterios": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-ANDALUCIA-PAU-2025.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/andalucia-modelo-3-2.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/andalucia-modelo-3-2.thumb.webp",
+   "imageDesc": "Glucosa → piruvato con formación de la molécula 1. Del piruvato salen tres caminos: A entra en una mitocondria y da 2, que alimenta el ciclo 3, del que sale CO₂ y que se conecta con la cadena de transporte electrónico (que recibe O₂ y da H₂O y la molécula 1); B lleva a ácido láctico y C a etanol.",
+   "isNew": true
+  },
+  {
+   "id": "pau2025-andalucia-modelo-14",
+   "block": "Genética",
+   "topic": "Completar codones, anticodones y ADN molde; código genético",
+   "anio": 2025,
+   "etiqueta": "Modelo Andalucía 24-25",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "<b>Parte de la secuencia de aminoácidos de una proteína está indicada en la fila superior de esta tabla:</b><br>a) Copie y complete los espacios en blanco con los tripletes correspondientes [1].<br>b) Indique qué se entiende por código genético [0,5].<br>c) Explique dos características del código genético [0,5].",
+   "c": [
+    "a) Diez casillas, a <mark class=\"clave-criterio\">0,1 p cada respuesta</mark> (1 p). <span class=\"redactado\">Con el código genético y la complementariedad, escribiendo el anticodón y la cadena molde alineados con el codón: Ala: ARNm GCG, ADN molde CGC. Ser: ARNt AGA, ARNm UCU. Gly: ARNt CCU, ADN molde CCT. Leu: ARNt AAC, ADN molde AAC. Glu: ARNt CUU, ARNm GAA.</span>",
+    "b) <mark class=\"clave-criterio\">Sistema que establece una relación de correspondencia entre los tripletes de ARN mensajero y los aminoácidos que codifican</mark> (0,5 p).",
+    "c) Dos características explicadas: <mark class=\"clave-criterio\">universal</mark>, <mark class=\"clave-criterio\">degenerado</mark>, etc. (0,5 p). <span class=\"redactado\">Universal: es el mismo en casi todos los seres vivos. Degenerado: varios codones codifican el mismo aminoácido. También: sin solapamiento y sin comas.</span>"
+   ],
+   "origen": {
+    "documento": "Directrices y Orientaciones de Biología 2024-25 (Andalucía) · Modelo de prueba 2024-25",
+    "referencia": "Modelo de prueba 2024-25, opción 1, pregunta 4",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-ANDALUCIA-PAU-2025.pdf",
+    "criterios": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-ANDALUCIA-PAU-2025.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/andalucia-modelo-4-1.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/andalucia-modelo-4-1.thumb.webp",
+   "imageDesc": "Tabla con los aminoácidos Ala, Ser, Gly, Leu y Glu y tres filas: ARNt (solo se da CGC bajo Ala), ARNm (se dan GGA bajo Gly y UUG bajo Leu) y ADN molde (se dan AGA bajo Ser y CTT bajo Glu).",
+   "isNew": true
+  },
+  {
+   "id": "pau2025-andalucia-modelo-24",
+   "block": "Biotecnología",
+   "topic": "Aznalcóllar: biorremediación y OMG",
+   "anio": 2025,
+   "etiqueta": "Modelo Andalucía 24-25",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": true,
+   "q": "<b>La madrugada del 25 de abril de 1998 se produjo la rotura la presa de la balsa con vertidos tóxicos de la sevillana mina de Aznalcóllar, liberando sobre los ríos Agrio y Guadiamar aguas ácidas y lodos tóxicos que contenían arsénico, cadmio, mercurio y otros metales pesados que provocaron el desbordamiento de sus cauces y la anegación de las tierras colindantes a lo largo de una extensión de 62 kilómetros.</b><br>a) Nombre qué proceso biotecnológico se emplea para ayudar a subsanar este tipo de desastres y explique, de forma general, en qué consiste dicho proceso [0,5].<br>b) Indique qué tipos de microorganismos se utilizan en este proceso y su organización celular [0,2].<br>c) Cite dos ejemplos de aplicaciones biotecnológicas en la industria farmacéutica [0,3].<br>d) Explique qué es un OMG e indique dos ejemplos de su aplicación en la agricultura [1].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Biorremediación</mark> (0,1 p): proceso biotecnológico que <mark class=\"clave-criterio\">utiliza seres vivos o productos derivados de ellos</mark> para <mark class=\"clave-criterio\">recuperar un ecosistema alterado por contaminantes</mark> (0,4 p).",
+    "b) <mark class=\"clave-criterio\">Bacterias</mark>; organización <mark class=\"clave-criterio\">procariota</mark> (0,2 p).",
+    "c) Síntesis de <mark class=\"clave-criterio\">antibióticos</mark>, <mark class=\"clave-criterio\">hormonas</mark>, <mark class=\"clave-criterio\">interferón</mark>, <mark class=\"clave-criterio\">vacunas</mark>, etc. (dos, 0,3 p).",
+    "d) OMG: <mark class=\"clave-criterio\">organismo cuyo genoma ha sido modificado usando técnicas de ingeniería genética</mark> (0,5 p). Ejemplos: <mark class=\"clave-criterio\">bioinsecticidas</mark>, <mark class=\"clave-criterio\">plantas transgénicas resistentes a insectos, a enfermedades microbianas o a herbicidas</mark>, y <mark class=\"clave-criterio\">con características mejoradas</mark> (dos, a 0,25 p)."
+   ],
+   "origen": {
+    "documento": "Directrices y Orientaciones de Biología 2024-25 (Andalucía) · Modelo de prueba 2024-25",
+    "referencia": "Modelo de prueba 2024-25, opción 2, pregunta 4",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-ANDALUCIA-PAU-2025.pdf",
+    "criterios": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-ANDALUCIA-PAU-2025.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": true
+  },
+  {
+   "id": "pau2025-andalucia-modelo-15",
+   "block": "Inmunología",
+   "topic": "Vacunas de la COVID-19: enzimas de restricción y anticuerpos anti-N y anti-S",
+   "anio": 2025,
+   "etiqueta": "Modelo Andalucía 24-25",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": true,
+   "q": "<b>El virus SARS-CoV-2, responsable de la COVID-19, expresa varios antígenos, entre los que se encuentra la nucleoproteína N (antígeno N) y la proteína Spike (antígeno S). Las vacunas utilizadas hasta el momento son vacunas recombinantes que se basan en el antígeno S.</b><br>a) Para la fabricación en el laboratorio de estas vacunas se necesitan enzimas de restricción ¿cuál es la función de estas enzimas? [0,5]<br>b) Explique frente a cuál de los dos antígenos del virus (N o S) habría que buscar anticuerpos para distinguir si una persona ha adquirido la inmunidad contra el virus de forma natural o mediante vacunación [0,5].<br>c) Si una persona que no ha sufrido la infección ha sido vacunada por primera vez una hora antes de hacerse el test ¿qué anticuerpos se encontrarán en su sangre? Razone la respuesta [0,5].<br>d) Indique la naturaleza química de las enzimas [0,25] y de los anticuerpos [0,25].",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Reconocer secuencias específicas de la molécula de ADN y cortarlas en ese punto concreto</mark> (0,5 p).",
+    "b) Frente al <mark class=\"clave-criterio\">antígeno N</mark>, porque es el que <mark class=\"clave-criterio\">no está presente en las vacunas</mark> (0,5 p).",
+    "c) <mark class=\"clave-criterio\">Ninguno</mark>: los anticuerpos <mark class=\"clave-criterio\">tardan un tiempo en ser sintetizados</mark> (0,5 p).",
+    "d) Enzimas: <mark class=\"clave-criterio\">proteínas</mark>; anticuerpos: <mark class=\"clave-criterio\">glicoproteínas (proteínas)</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "Directrices y Orientaciones de Biología 2024-25 (Andalucía) · Modelo de prueba 2024-25",
+    "referencia": "Modelo de prueba 2024-25, opción 1, pregunta 5",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-ANDALUCIA-PAU-2025.pdf",
+    "criterios": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-ANDALUCIA-PAU-2025.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": true
+  },
+  {
+   "id": "pau2025-andalucia-modelo-25",
+   "block": "Inmunología",
+   "topic": "Alergia y rechazo de un trasplante",
+   "anio": 2025,
+   "etiqueta": "Modelo Andalucía 24-25",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "<b>Observe la siguiente imagen en relación con el funcionamiento del sistema inmunitario y responda a las siguientes cuestiones:</b><br>a) ¿Qué procesos representan las figuras A y B? [0,4]<br>b) ¿Qué tipo de inmunoglobulina se produce en respuesta a la presencia de las partículas señaladas con 1? [0,1]<br>c) ¿Cuál es el nombre de la principal célula implicada en el proceso A? ¿Qué sustancia libera? [0,2]<br>d) Indique la causa por la que se produce el proceso B, qué tipo de medicamento se puede administrar al paciente para que no ocurra este proceso y explique cómo actúa [1]<br>e) Indique un tipo de técnica biotecnológica que permitiría evitar el proceso B en un futuro cercano [0,3].",
+   "c": [
+    "a) A: <mark class=\"clave-criterio\">reacción alérgica</mark>; B: <mark class=\"clave-criterio\">rechazo de órgano trasplantado</mark> (0,4 p).",
+    "b) <mark class=\"clave-criterio\">IgE</mark> (0,1 p).",
+    "c) <mark class=\"clave-criterio\">Mastocito</mark> (célula cebada); libera <mark class=\"clave-criterio\">histamina</mark> (0,2 p).",
+    "d) Causa: <mark class=\"clave-criterio\">incompatibilidad entre las proteínas MHC del donante y del receptor</mark> (0,5 p). Medicamento: <mark class=\"clave-criterio\">inmunosupresores</mark> (0,2 p), que <mark class=\"clave-criterio\">disminuyen temporalmente la respuesta inmune</mark> (0,3 p).",
+    "e) <mark class=\"clave-criterio\">Clonación de órganos</mark>; se admite también <mark class=\"clave-criterio\">terapia génica</mark> u <mark class=\"clave-criterio\">obtención de órganos artificiales</mark> (0,3 p). <span class=\"redactado\">Se refiere a obtener órganos a partir de células del propio paciente, por ejemplo células madre, o de animales modificados genéticamente para que no provoquen rechazo; todo ello aún en investigación.</span>"
+   ],
+   "origen": {
+    "documento": "Directrices y Orientaciones de Biología 2024-25 (Andalucía) · Modelo de prueba 2024-25",
+    "referencia": "Modelo de prueba 2024-25, opción 2, pregunta 5",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-ANDALUCIA-PAU-2025.pdf",
+    "criterios": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-ANDALUCIA-PAU-2025.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/andalucia-modelo-5-2.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/andalucia-modelo-5-2.thumb.webp",
+   "imageDesc": "A: unas partículas (1), como granos de polen, entran por la nariz; después la persona tiene la cara enrojecida e hinchada y picor en la piel. B: el riñón de un donante se trasplanta a un paciente; a los 3 días el riñón trasplantado aparece dañado y rodeado de anticuerpos.",
+   "isNew": true
+  },
+  {
+   "id": "pau2025-madrid-modelo-1",
+   "block": "Metabolismo",
+   "topic": "Metabolismo aeróbico y anaeróbico en el ejercicio; diabetes e insulina",
+   "anio": 2025,
+   "etiqueta": "Modelo Madrid 24-25",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "<b>Respecto a los procesos metabólicos y la Biotecnología: El metabolismo es el conjunto de procesos químicos y biológicos que ocurren en las células de los seres vivos para mantener sus funciones vitales, favoreciendo la supervivencia, la reparación celular y el crecimiento. Dentro de este, se pueden distinguir dos tipos principales: el metabolismo aeróbico y el anaeróbico. El metabolismo aeróbico permite las actividades cotidianas y prolongadas del organismo y es típico en ejercicios de baja intensidad y larga duración, como caminar o correr a un ritmo moderado. Sin embargo, el metabolismo anaeróbico proporciona energía rápida a las células en situaciones de demanda extrema y es dominante en ejercicios de alta intensidad y corta duración, como el levantamiento de pesas o los esprints.</b><br>a) Nombre los metabolitos señalados con los números del “1” al “4” del esquema y razone brevemente si los procesos representados hacen referencia a procesos catabólicos o anabólicos (0,5 puntos).<br>b) Nombre las vías metabólicas señaladas con las letras “A”, “B” y “C” del esquema y explique cuál/cuáles de ellas podrían darse en un ejercicio de baja intensidad y cuál/cuáles de ellas en uno de alta intensidad (0,5 puntos).<br>c) Indique qué vías metabólicas puede seguir el piruvato en ausencia de oxígeno y mencione un proceso industrial en el que esté implicada cada una de ellas (0,5 puntos).<br>d) Indique cómo se denomina la enfermedad por la que las células no pueden utilizar la molécula “1” y cómo puede ayudar la biotecnología a las personas que la padecen para que puedan utilizar dicha molécula (0,5 puntos).",
+   "c": [
+    "a) 1 = <mark class=\"clave-criterio\">glucosa</mark>, 2 = <mark class=\"clave-criterio\">ácido graso</mark>, 3 = <mark class=\"clave-criterio\">acetil-CoA</mark>, 4 = <mark class=\"clave-criterio\">NADH</mark>. Son procesos <mark class=\"clave-criterio\">catabólicos</mark>: <mark class=\"clave-criterio\">degradación de moléculas complejas hasta moléculas más sencillas</mark> (con <mark class=\"clave-criterio\">producción de energía en forma de ATP y poder reductor</mark>) (0,5 p).",
+    "b) A = <mark class=\"clave-criterio\">glucólisis</mark>, B = <mark class=\"clave-criterio\">β-oxidación</mark>, C = <mark class=\"clave-criterio\">ciclo de Krebs</mark>. La β-oxidación y el ciclo de Krebs, solo en el ejercicio de <mark class=\"clave-criterio\">baja intensidad, aeróbico</mark>, porque <mark class=\"clave-criterio\">necesitan el oxígeno como aceptor final de electrones</mark> (para la cadena de transporte y la fosforilación oxidativa); la glucólisis, <mark class=\"clave-criterio\">en los dos</mark>, porque <mark class=\"clave-criterio\">no lo necesita</mark> (0,5 p).",
+    "c) <mark class=\"clave-criterio\">Fermentación láctica</mark>, en los <mark class=\"clave-criterio\">derivados lácteos</mark> (yogur, queso, cuajada…), y <mark class=\"clave-criterio\">fermentación alcohólica</mark>, en el <mark class=\"clave-criterio\">pan, la cerveza o el vino</mark> (0,5 p).",
+    "d) <mark class=\"clave-criterio\">Diabetes</mark>; la biotecnología obtiene <mark class=\"clave-criterio\">insulina</mark> (hormona responsable de la <mark class=\"clave-criterio\">captación de glucosa por las células</mark>) a partir de <mark class=\"clave-criterio\">microorganismos modificados genéticamente</mark> mediante <mark class=\"clave-criterio\">ingeniería genética / ADN recombinante</mark> (0,5 p). <span class=\"redactado\">Se refiere a la diabetes tipo 1, en la que falta insulina.</span>"
+   ],
+   "origen": {
+    "documento": "Modelo orientativo PAU 2025 (universidades públicas de la Comunidad de Madrid) · Modelo orientativo 2024-25",
+    "referencia": "Modelo orientativo 2024-25, pregunta 1",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MADRID-PAU-2025.pdf",
+    "criterios": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MADRID-PAU-2025.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/madrid-modelo-1.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/madrid-modelo-1.thumb.webp",
+   "imageDesc": "Una molécula 1 (glucosa en forma cíclica) pasa por la vía A a piruvato; una molécula 2 (cadena CH₃-CH₂-CH₂-(CH₂)ₙ-CH₂-COOH) pasa por la vía B; ambas dan la molécula 3, que entra en el ciclo C (citrato, oxalacetato), del que salen GTP, la molécula 4, FADH₂ y CO₂.",
+   "isNew": true
+  },
+  {
+   "id": "pau2025-madrid-modelo-a2",
+   "block": "Biomoléculas",
+   "topic": "Biomoléculas características de alimentos; glúcidos no energéticos",
+   "anio": 2025,
+   "etiqueta": "Modelo Madrid 24-25",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "<b>En relación con la composición de la materia viva:</b><br>a) Cada uno de los compuestos de la columna de la izquierda es un componente característico de sólo uno de los alimentos de la columna de la derecha. Asocie cada número con la letra correspondiente (1 punto):<table class=\"tabla-pau\"><tr><td>1. Monosacáridos</td><td>A. Aceite de oliva</td></tr><tr><td>2. Ácidos grasos insaturados</td><td>B. Patata</td></tr><tr><td>3. Glucógeno</td><td>C. Tomate</td></tr><tr><td>4. Ácidos grasos saturados</td><td>D. Clara de huevo</td></tr><tr><td>5. Carotenos</td><td>E. Hígado de cerdo</td></tr><tr><td>6. Glucofosfolípidos</td><td>F. Miel</td></tr><tr><td>7. Proteínas</td><td>G. Sesos de cordero</td></tr><tr><td>8. Almidón</td><td>H. Manteca de cerdo</td></tr></table>b) Los glúcidos son conocidos por ser las moléculas utilizadas como combustible metabólico por las células, pero esto no siempre es así. Cite dos ejemplos de glúcidos con funciones no energéticas, indicando estas (0,5 puntos).<br>c) El análisis elemental de una muestra biológica indica que está compuesta por carbono, hidrógeno y oxígeno, siendo este último elemento muy minoritario en su composición. Razone a qué grupo de biomoléculas pertenece la muestra analizada (0,5 puntos).",
+   "c": [
+    "a) <mark class=\"clave-criterio\">1-F; 2-A; 3-E; 4-H; 5-C; 6-G; 7-D; 8-B</mark> (0,25 p por cada dos relaciones) (1 p).",
+    "b) Dos glúcidos con su función: <mark class=\"clave-criterio\">ribosa</mark>, componente del <mark class=\"clave-criterio\">ARN</mark>; <mark class=\"clave-criterio\">desoxirribosa</mark>, del <mark class=\"clave-criterio\">ADN</mark>; <mark class=\"clave-criterio\">celulosa</mark>, de la <mark class=\"clave-criterio\">pared celular vegetal</mark>; <mark class=\"clave-criterio\">quitina</mark>, de la <mark class=\"clave-criterio\">pared de los hongos</mark>; <mark class=\"clave-criterio\">peptidoglicano</mark>, de la <mark class=\"clave-criterio\">pared bacteriana</mark>; glúcidos unidos a lípidos y proteínas de la <mark class=\"clave-criterio\">cara externa de la membrana</mark>; glúcidos de <mark class=\"clave-criterio\">proteínas complejas</mark> (inmunoglobulinas)… (0,25 p cada uno) (0,5 p).",
+    "c) El <mark class=\"clave-criterio\">bajo porcentaje de oxígeno</mark> indica un compuesto <mark class=\"clave-criterio\">poco polar</mark>: es un <mark class=\"clave-criterio\">lípido</mark> (un glúcido también tiene C, H y O, pero su <mark class=\"clave-criterio\">oxígeno sería equivalente al carbono</mark>, no minoritario) (0,5 p)."
+   ],
+   "origen": {
+    "documento": "Modelo orientativo PAU 2025 (universidades públicas de la Comunidad de Madrid) · Modelo orientativo 2024-25",
+    "referencia": "Modelo orientativo 2024-25, opción A, pregunta 2",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MADRID-PAU-2025.pdf",
+    "criterios": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MADRID-PAU-2025.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2025-madrid-modelo-b2",
+   "block": "Biomoléculas",
+   "topic": "Nucleótidos del ADN, Chargaff y temperatura de desnaturalización",
+   "anio": 2025,
+   "etiqueta": "Modelo Madrid 24-25",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "<b>En relación con los ácidos nucleicos.</b><br>a) Indique qué tipo de monómero constituye el ADN. Nombre las moléculas que componen este monómero (1 punto).<br>b) Si una molécula de ADN bicatenario presenta en su composición un 31% de guanina, indique el porcentaje de las restantes bases (0,5 puntos).<br>c) Razone cómo influye el porcentaje de guanina en la temperatura de desnaturalización del ADN (0,5 puntos).",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Nucleótido (desoxirribonucleótido)</mark> (0,25 p), formado por <mark class=\"clave-criterio\">desoxirribosa</mark> (0,25 p), <mark class=\"clave-criterio\">base nitrogenada</mark> (adenina, timina, guanina o citosina) (0,25 p) y <mark class=\"clave-criterio\">ácido fosfórico o grupo fosfato</mark> (0,25 p).",
+    "b) <mark class=\"clave-criterio\">31 % de citosina, 19 % de adenina y 19 % de timina</mark> (0,5 p). <span class=\"redactado\">G = C = 31 %; A = T = (100 − 62) / 2 = 19 %.</span>",
+    "c) La temperatura de desnaturalización <mark class=\"clave-criterio\">aumenta con el porcentaje de guanina y citosina</mark>: entre G y C hay <mark class=\"clave-criterio\">tres enlaces de hidrógeno</mark> y entre A y T <mark class=\"clave-criterio\">solo dos</mark>; a <mark class=\"clave-criterio\">más enlaces de hidrógeno</mark>, <mark class=\"clave-criterio\">más energía y temperatura</mark> hacen falta para separar las cadenas (0,5 p)."
+   ],
+   "origen": {
+    "documento": "Modelo orientativo PAU 2025 (universidades públicas de la Comunidad de Madrid) · Modelo orientativo 2024-25",
+    "referencia": "Modelo orientativo 2024-25, opción B, pregunta 2",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MADRID-PAU-2025.pdf",
+    "criterios": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MADRID-PAU-2025.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2025-madrid-modelo-a3",
+   "block": "Genética",
+   "topic": "Transcripción, anticodones y terminación de la traducción",
+   "anio": 2025,
+   "etiqueta": "Modelo Madrid 24-25",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "<b>En relación con el material hereditario:</b><br>a) Siendo la secuencia de la cadena molde de un fragmento de ADN 3´-GTACGAATCGTGGCTGGAGATTGCA-5´, indique la secuencia y polaridad de la hebra que sintetizará la ARN polimerasa (0,5 puntos).<br>b) Indique cuántos aminoácidos componen la proteína codificada por el ARNm obtenido, siendo el codón STOP “UAA”. Escriba las secuencias de los anticodones de los ARNt correspondientes a cada aminoácido y sus polaridades (1 punto).<br>c) Describa brevemente la finalización de la traducción en procariotas (0,5 puntos).",
+   "c": [
+    "a) <mark class=\"clave-criterio\">5´-CAUGCUUAGCACCGACCUCUAACGU-3´</mark> (0,25 p la secuencia y 0,25 p la polaridad).",
+    "b) <mark class=\"clave-criterio\">6 aminoácidos</mark>: hay <mark class=\"clave-criterio\">6 codones incluido el de iniciación</mark> (0,25 p). Anticodones: <mark class=\"clave-criterio\">3’-UAC-5’; 3’-GAA-5’; 3’-UCG-5’; 3’-UGG-5’; 3’-CUG-5’; 3’-GAG-5’</mark> (0,25 p por cada dos) (1 p). <span class=\"redactado\">La lectura empieza en el AUG: AUG CUU AGC ACC GAC CUC UAA = Met-Leu-Ser-Thr-Asp-Leu y parada.</span>",
+    "c) Cuando el ribosoma alcanza el <mark class=\"clave-criterio\">codón de terminación</mark>, lo reconocen <mark class=\"clave-criterio\">factores proteicos</mark> (de liberación) que provocan la <mark class=\"clave-criterio\">separación de las subunidades</mark> y la <mark class=\"clave-criterio\">liberación del ARNm y de la proteína</mark> recién sintetizada (0,5 p)."
+   ],
+   "origen": {
+    "documento": "Modelo orientativo PAU 2025 (universidades públicas de la Comunidad de Madrid) · Modelo orientativo 2024-25",
+    "referencia": "Modelo orientativo 2024-25, opción A, pregunta 3",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MADRID-PAU-2025.pdf",
+    "criterios": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MADRID-PAU-2025.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2025-madrid-modelo-b3",
+   "block": "Genética",
+   "topic": "Relacionar conceptos de replicación, transcripción, traducción y mutación",
+   "anio": 2025,
+   "etiqueta": "Modelo Madrid 24-25",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "<b>En relación con la información genética de los seres vivos:</b><br>a) Relacione cada uno de los conceptos indicados con números con solo uno de los indicados con letras (1 punto). 1) Transversión, 2) Sitio A, 3) Promotor, 4) Fragmento de Okazaki, 5) Cola de poliadeninas, 6) Subunidad ribosomal, 7) ADN polimerasa III, 8) Inserción. A) Replicación, B) Transcripción, C) Traducción, D) Mutación.<br>b) Describa brevemente el proceso de transcripción del ARNm y explique su significado biológico (1 punto).",
+   "c": [
+    "a) <mark class=\"clave-criterio\">1-D; 2-C; 3-B; 4-A; 5-B; 6-C; 7-A; 8-D</mark> (0,25 p por cada dos) (1 p). <span class=\"redactado\">La cola de poli-A se añade en la maduración del ARNm, que sigue a la transcripción.</span>",
+    "b) Es la <mark class=\"clave-criterio\">síntesis de un ARN mensajero</mark> cuya secuencia es <mark class=\"clave-criterio\">complementaria a la hebra molde</mark> (e <mark class=\"clave-criterio\">idéntica a la codificante, con U en lugar de T</mark>) del ADN de un gen (0,5 p). Significado: <mark class=\"clave-criterio\">transmitir la información genética del ADN al ARN</mark> para que pueda <mark class=\"clave-criterio\">traducirse a una secuencia proteica por los ribosomas</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "Modelo orientativo PAU 2025 (universidades públicas de la Comunidad de Madrid) · Modelo orientativo 2024-25",
+    "referencia": "Modelo orientativo 2024-25, opción B, pregunta 3",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MADRID-PAU-2025.pdf",
+    "criterios": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MADRID-PAU-2025.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2025-madrid-modelo-a4",
+   "block": "Célula",
+   "topic": "Huso acromático, cromoplastos, peroxisomas y envoltura nuclear",
+   "anio": 2025,
+   "etiqueta": "Modelo Madrid 24-25",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "<b>En relación con la biología celular:</b><br>a) Explique qué es el huso acromático y cuál es su composición. Indique la función del huso acromático (0,75 puntos).<br>b) ¿En qué orgánulo se encuentran los pigmentos carotenoides de las raíces de las zanahorias? ¿En qué orgánulo se encuentran las enzimas peroxidasas? (0,5 puntos).<br>c) Describa brevemente la envoltura nuclear (0,75 puntos).",
+   "c": [
+    "a) Estructura de <mark class=\"clave-criterio\">fibras de microtúbulos de tubulina</mark> que se extiende <mark class=\"clave-criterio\">entre los dos centrosomas</mark> (con centriolos en las células animales y sin ellos en las vegetales) y se forma <mark class=\"clave-criterio\">durante la división celular</mark> (0,5 p). Función: <mark class=\"clave-criterio\">dirigir los cromosomas o cromátidas hacia los polos</mark> en la mitosis y la meiosis (0,25 p).",
+    "b) En los <mark class=\"clave-criterio\">cromoplastos (plastos)</mark> (0,25 p) y en los <mark class=\"clave-criterio\">peroxisomas</mark> (0,25 p).",
+    "c) Formada por una <mark class=\"clave-criterio\">membrana externa</mark> y otra <mark class=\"clave-criterio\">interna</mark>, interrumpidas por <mark class=\"clave-criterio\">poros nucleares</mark>; la externa se relaciona con los <mark class=\"clave-criterio\">ribosomas y el retículo endoplasmático</mark>, y la interna con la <mark class=\"clave-criterio\">lámina nuclear</mark> (0,75 p)."
+   ],
+   "origen": {
+    "documento": "Modelo orientativo PAU 2025 (universidades públicas de la Comunidad de Madrid) · Modelo orientativo 2024-25",
+    "referencia": "Modelo orientativo 2024-25, opción A, pregunta 4",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MADRID-PAU-2025.pdf",
+    "criterios": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MADRID-PAU-2025.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2025-madrid-modelo-b4",
+   "block": "Célula",
+   "topic": "Identificar orgánulos por su composición; variabilidad en la meiosis",
+   "anio": 2025,
+   "etiqueta": "Modelo Madrid 24-25",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "<b>En relación con la biología celular:</b><br>a) La observación y análisis químico de cuatro orgánulos o estructuras celulares eucariotas presenta los resultados que se muestran en la tabla inferior. Indique un posible orgánulo o estructura celular que puede tener estas características para cada una de las observaciones. No es necesario copiar la tabla en la hoja de respuestas (1 punto).<table class=\"tabla-pau\"><tr><th></th><th>Muestra nº 1</th><th>Muestra nº 2</th><th>Muestra nº 3</th><th>Muestra nº 4</th></tr><tr><td>Estructura observada</td><td>no membranosa</td><td>membranosa</td><td>membranosa</td><td>no membranosa</td></tr><tr><td>Sustancia presente</td><td>tubulina</td><td>citocromo</td><td>ARNr</td><td>triglicérido</td></tr><tr><td>Orgánulo o estructura celular</td><td></td><td></td><td></td><td></td></tr></table>b) Explique en qué fases de la división celular se genera variabilidad genética y cómo se produce esta (1 punto).",
+   "c": [
+    "a) 1: <mark class=\"clave-criterio\">microtúbulos, centriolo, centrosoma, citoesqueleto</mark>; 2: <mark class=\"clave-criterio\">mitocondria, cloroplasto</mark>; 3: <mark class=\"clave-criterio\">mitocondria, cloroplasto, RER, envoltura nuclear</mark>; 4: <mark class=\"clave-criterio\">inclusión (gota lipídica)</mark> (uno por muestra, 0,25 p cada uno) (1 p).",
+    "b) En la <mark class=\"clave-criterio\">profase I</mark> de la meiosis, por la <mark class=\"clave-criterio\">recombinación génica (sobrecruzamiento)</mark> (0,5 p), y en las <mark class=\"clave-criterio\">anafases meióticas I y II</mark>, por la <mark class=\"clave-criterio\">segregación cromosómica</mark> (0,5 p)."
+   ],
+   "origen": {
+    "documento": "Modelo orientativo PAU 2025 (universidades públicas de la Comunidad de Madrid) · Modelo orientativo 2024-25",
+    "referencia": "Modelo orientativo 2024-25, opción B, pregunta 4",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MADRID-PAU-2025.pdf",
+    "criterios": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MADRID-PAU-2025.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2025-madrid-modelo-a5",
+   "block": "Inmunología",
+   "topic": "Curso de la COVID-19: incubación, contagio sin síntomas, IgM e IgG",
+   "anio": 2025,
+   "etiqueta": "Modelo Madrid 24-25",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "<b>Con respecto a las enfermedades infecciosas y el sistema inmune: La siguiente gráfica representa la evolución de la cantidad de virus SARS-CoV-2 en el organismo de un joven desde el día en que tuvo contacto con un enfermo por COVID-19 (día -5). El día 0 el joven empieza a sentir síntomas que desaparecen el día 14. El joven dio positivo en las pruebas de detección de virus en sus secreciones entre el día -2 y el día 7.</b><br>a) Defina “periodo de incubación”. Indique, en el ejemplo de la gráfica, el día de inicio y el día en que termina este periodo (0,5 puntos).<br>b) Indique el periodo de tiempo en el que este joven podría transmitir la infección a otras personas. Para contagiar a otros, ¿es necesario tener síntomas? Razone ambas repuestas (1 punto).<br>c) Tras los primeros días de contacto con el virus, se detectó en la sangre del joven un tipo de anticuerpo que fue sustituido por otro en las semanas posteriores. Indique qué tipo de inmunoglobulina aparece en el primer contacto con un antígeno y cuál la sustituye después (0,5 puntos).",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Tiempo comprendido entre la exposición a un agente biológico y la aparición de síntomas</mark> (0,25 p); del <mark class=\"clave-criterio\">día -5</mark> (inicio) al <mark class=\"clave-criterio\">día 0</mark> (final) (0,25 p).",
+    "b) Entre el <mark class=\"clave-criterio\">día -2 y el día 7</mark>, porque es el <mark class=\"clave-criterio\">periodo de eliminación de virus en sus secreciones</mark> (0,5 p). <mark class=\"clave-criterio\">No es necesario tener síntomas</mark>: puede haber <mark class=\"clave-criterio\">virus en las secreciones al inicio de la enfermedad</mark> (del día -2 al 0) o en personas cuyas <mark class=\"clave-criterio\">defensas evitan el desarrollo de la enfermedad</mark> (0,5 p).",
+    "c) Primero <mark class=\"clave-criterio\">IgM</mark> (0,25 p), sustituida después por <mark class=\"clave-criterio\">IgG</mark> (0,25 p)."
+   ],
+   "origen": {
+    "documento": "Modelo orientativo PAU 2025 (universidades públicas de la Comunidad de Madrid) · Modelo orientativo 2024-25",
+    "referencia": "Modelo orientativo 2024-25, opción A, pregunta 5",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MADRID-PAU-2025.pdf",
+    "criterios": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MADRID-PAU-2025.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/madrid-modelo-5a.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/madrid-modelo-5a.thumb.webp",
+   "imageDesc": "Gráfica de carga viral frente al día (de -5 a 14): sube desde el día -3, alcanza el máximo el día 0 (inicio de los síntomas) y baja después. Se señala «Virus en secreciones» entre los días -2 y 7.",
+   "isNew": true
+  },
+  {
+   "id": "pau2025-madrid-modelo-b5",
+   "block": "Inmunología",
+   "topic": "Vacunas atenuadas e inactivadas; dosis de recuerdo; inmunidad pasiva",
+   "anio": 2025,
+   "etiqueta": "Modelo Madrid 24-25",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "<b>Con respecto al sistema inmune:</b><br>a) ¿Qué es una vacuna? ¿Cómo se denomina la inmunidad proporcionada por las vacunas? ¿Cuál es la finalidad de repetir la administración de una vacuna? (0,75 puntos).<br>b) Razone si es lo mismo una vacuna viva atenuada que una vacuna inactivada. ¿Alguna de estas vacunas podría causar síntomas de la enfermedad frente a la que protege? (0,75 puntos).<br>c) ¿Qué se entiende por inmunidad pasiva? ¿Qué tipos conoce? (0,5 puntos).",
+   "c": [
+    "a) <mark class=\"clave-criterio\">Preparado que se introduce en un sujeto sano para estimular la producción de anticuerpos (inmunidad) frente a un agente patógeno</mark> (0,25 p); <mark class=\"clave-criterio\">inmunidad activa artificial</mark> (0,25 p); repetirla sirve para <mark class=\"clave-criterio\">reforzar la memoria inmunitaria</mark> (mantener los niveles de anticuerpos) (0,25 p).",
+    "b) <mark class=\"clave-criterio\">No</mark>: la atenuada se fabrica con <mark class=\"clave-criterio\">microorganismos vivos que han dejado de ser virulentos</mark> (debilitados) y la inactivada con <mark class=\"clave-criterio\">microorganismos muertos o parte de ellos</mark> (0,5 p). La <mark class=\"clave-criterio\">atenuada puede causar algún síntoma</mark> de la enfermedad (0,25 p).",
+    "c) La que proporciona la <mark class=\"clave-criterio\">administración de anticuerpos</mark> (0,25 p). Tipos: <mark class=\"clave-criterio\">natural</mark> (de la madre al feto o al recién nacido <mark class=\"clave-criterio\">por la placenta o la leche</mark>) y <mark class=\"clave-criterio\">artificial</mark> (<mark class=\"clave-criterio\">sueroterapia</mark>) (0,25 p)."
+   ],
+   "origen": {
+    "documento": "Modelo orientativo PAU 2025 (universidades públicas de la Comunidad de Madrid) · Modelo orientativo 2024-25",
+    "referencia": "Modelo orientativo 2024-25, opción B, pregunta 5",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MADRID-PAU-2025.pdf",
+    "criterios": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MADRID-PAU-2025.pdf",
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2025-aragon-modelo-1",
+   "block": "Célula",
+   "topic": "Tipos de células según su metabolismo; fermentación; fotólisis del agua; sistema de endomembranas",
+   "anio": 2025,
+   "etiqueta": "Modelo Aragón 24-25",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "<b>PREGUNTA DE CARÁCTER OBLIGATORIO. Suponga que trabaja en un laboratorio en el que se hacen cultivos de células de diferente naturaleza. Tras analizar diferentes parámetros de los cultivos se obtienen los resultados de la tabla. Responda razonadamente a las siguientes cuestiones:</b><table class=\"tabla-pau\"><tr><th>Cultivo</th><th>Crecimiento en oscuridad</th><th>Crecimiento en ausencia de O<sub>2</sub></th><th>Desprendimiento de O<sub>2</sub> con luz</th><th>Contiene mitocondrias</th><th>Tiene pared celular</th></tr><tr><td>A</td><td>Sí</td><td>Sí</td><td>No</td><td>No</td><td>Sí</td></tr><tr><td>B</td><td>No</td><td>No</td><td>Sí</td><td>Sí</td><td>Sí</td></tr><tr><td>C</td><td>Sí</td><td>No</td><td>No</td><td>Sí</td><td>No</td></tr></table>a) ¿A qué grupo de células pertenecen los cultivos A y B? Razónelo (0,4 puntos).<br>b) Las células del cultivo A son las únicas capaces de crecer en ausencia de O<sub>2</sub> si disponen de glucosa. Además, en un análisis adicional se ha comprobado que el pH de este cultivo en estas condiciones es muy bajo. ¿Qué productos podríamos encontrar en el medio de cultivo como consecuencia de su actividad? Razónelo (0,3 puntos).<br>c) Explique brevemente el proceso por el que se origina el oxígeno en el caso del cultivo B. ¿En qué orgánulo se producirá? Sea lo más concreto posible (0,3 puntos).<br><b>Ha sido capaz de aislar una célula del cultivo C, y mediante microscopía e inteligencia artificial ha obtenido el esquema adjunto, correspondiente a dicha célula. Responda las siguientes preguntas:</b><br>d) Identifique las estructuras numeradas de 1 al 7 (0,3 puntos).<br>e) Indique una función de cada una de las estructuras numeradas (0,3 puntos).<br>f) Teniendo en cuenta que el dibujo representa un fragmento de una célula y que pertenece al cultivo C, ¿podría decir de qué tipo de célula se trata? Razone su respuesta (0,4 puntos).",
+   "c": [
+    "<span class=\"redactado\">a) A: célula procariota (bacteria): tiene pared celular pero no mitocondrias, y es anaerobia (crece sin O₂) y heterótrofa (crece en oscuridad y no desprende O₂). B: célula eucariota vegetal (o alga) fotosintética: tiene pared y mitocondrias y desprende O₂ con luz; no crece en oscuridad porque es fotoautótrofa y depende de la luz.</span>",
+    "<span class=\"redactado\">b) Las células de A obtienen energía de la glucosa por fermentación. El pH muy bajo indica que se acumula un ácido: lo más probable es una fermentación láctica, con ácido láctico (lactato) en el medio; otras bacterias producen ácidos distintos, como el acético en otras fermentaciones. No sería la alcohólica, cuyos productos (etanol y CO₂) no acidifican tanto el medio.</span>",
+    "<span class=\"redactado\">c) Por fotólisis del agua en la fase luminosa de la fotosíntesis: el fotosistema II, excitado por la luz, pierde electrones que repone rompiendo moléculas de agua (2 H₂O → 4 H⁺ + 4 e⁻ + O₂); el O₂ se desprende. Ocurre en el cloroplasto, en la membrana de los tilacoides (complejo que oxida el agua del fotosistema II, en la cara que da al lumen tilacoidal).</span>",
+    "<span class=\"redactado\">d) 1, aparato de Golgi; 2, retículo endoplasmático liso; 3, retículo endoplasmático rugoso; 4, núcleo; 5, poro nuclear; 6, membrana plasmática; 7, ribosoma.</span>",
+    "<span class=\"redactado\">e) 1, Golgi: modifica (glucosilación), empaqueta y distribuye proteínas y lípidos en vesículas (secreción, lisosomas, membrana). 2, REL: síntesis de lípidos de membrana y esteroides, detoxificación, almacén de Ca²⁺. 3, RER: síntesis y modificación de proteínas de membrana y de secreción. 4, núcleo: contiene y protege el ADN y dirige la actividad celular (replicación y transcripción). 5, poro nuclear: intercambio controlado de moléculas entre núcleo y citoplasma (ARNm y subunidades ribosómicas salen, proteínas entran). 6, membrana plasmática: límite de la célula y transporte selectivo, reconocimiento y comunicación. 7, ribosoma: síntesis de proteínas (traducción).</span>",
+    "<span class=\"redactado\">f) Una célula eucariota animal: tiene núcleo y sistema de endomembranas (eucariota) y mitocondrias, pero no pared celular (la membrana plasmática 6 es el límite externo) ni cloroplastos (no desprende O₂ con luz); es aerobia y heterótrofa (crece en oscuridad pero no sin O₂). El gran desarrollo del RER y del Golgi sugiere una célula secretora.</span>"
+   ],
+   "origen": {
+    "documento": "Modelo orientativo PAU 2025 de Aragón (Universidad de Zaragoza) · Modelo orientativo 2024-25",
+    "referencia": "Modelo orientativo 2024-25, pregunta 1",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/ARAGÓN.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/aragon-modelo-1.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/aragon-modelo-1.thumb.webp",
+   "imageDesc": "Fragmento de una célula del cultivo C con siete estructuras numeradas: 1, pilas de cisternas aplanadas con vesículas; 2, red de túbulos sin ribosomas; 3, sacos aplanados con gránulos adosados; 4, el gran orgánulo esférico con su envoltura; 5, un poro de esa envoltura; 6, la membrana que limita la célula; 7, uno de los gránulos adosados a los sacos de 3.",
+   "isNew": true
+  },
+  {
+   "id": "pau2025-aragon-modelo-a2",
+   "block": "Genética",
+   "topic": "Código genético; mutaciones génicas y sus consecuencias; evolución",
+   "anio": 2025,
+   "etiqueta": "Modelo Aragón 24-25",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "<b>Responda las siguientes cuestiones relacionadas con el código genético:</b><br>a) Explique tres características importantes del código genético, sirviéndose de ejemplos a partir de la tabla adjunta, cuando sea posible (0,6 puntos).<br>b) Explique detalladamente los tipos de mutaciones génicas (o puntuales) que existen (0,4 puntos).<br>c) Explique las consecuencias más probables de cada una de ellas. Sírvase de la tabla adjunta para poner algún ejemplo, cuando sea posible (0,8 puntos).<br>d) ¿Qué papel tienen las mutaciones en el proceso evolutivo? Razónelo (0,2 puntos).",
+   "c": [
+    "<span class=\"redactado\">a) Por ejemplo: 1) Es un código de tripletes: cada codón de tres nucleótidos codifica un aminoácido (AUG = Met). 2) Es degenerado: casi todos los aminoácidos tienen varios codones (Leu tiene seis: UUA, UUG, CUU, CUC, CUA, CUG), aunque no es ambiguo: cada codón corresponde a un solo aminoácido. 3) Tiene señales de inicio y de terminación: AUG (Met) inicia la traducción y UAA, UAG y UGA son codones de parada. Además es casi universal (el mismo en casi todos los seres vivos) y se lee sin solapamiento y sin comas, de forma continua.</span>",
+    "<span class=\"redactado\">b) Las mutaciones génicas o puntuales afectan a uno o pocos nucleótidos de un gen. Sustituciones: se cambia una base por otra, ya sea una transición (purina por purina o pirimidina por pirimidina) o una transversión (purina por pirimidina o al revés). Inserciones (adiciones) y deleciones: se añaden o se pierden uno o varios nucleótidos.</span>",
+    "<span class=\"redactado\">c) Sustitución silenciosa o sinónima: el nuevo codón codifica el mismo aminoácido por la degeneración del código, sin efecto (GCU → GCC, los dos Ala). Sustitución de cambio de sentido: cambia un aminoácido, con un efecto variable según el cambio y su posición (GAA Glu → GUA Val, como en la anemia falciforme). Sustitución sin sentido: aparece un codón de parada y la proteína queda truncada, normalmente no funcional (UAU Tyr → UAA STOP). Inserciones y deleciones de un número de bases no múltiplo de tres: desplazan el marco de lectura, por lo que cambian todos los aminoácidos siguientes y suele aparecer un STOP prematuro; la proteína casi siempre es no funcional. Si son de tres bases, se añade o se pierde un aminoácido.</span>",
+    "<span class=\"redactado\">d) Las mutaciones son la fuente primaria de la variabilidad genética: originan nuevos alelos. Sobre esa variabilidad actúa la selección natural, que favorece las mutaciones ventajosas en un ambiente dado y elimina las perjudiciales; así, a lo largo de las generaciones, se produce la evolución.</span>"
+   ],
+   "origen": {
+    "documento": "Modelo orientativo PAU 2025 de Aragón (Universidad de Zaragoza) · Modelo orientativo 2024-25",
+    "referencia": "Modelo orientativo 2024-25, opción A, pregunta 2",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/ARAGÓN.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/aragon-modelo-2a.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/aragon-modelo-2a.thumb.webp",
+   "imageDesc": "Tabla del código genético: los 64 codones del ARNm ordenados por primera, segunda y tercera letra, con el aminoácido de cada uno; AUG (Met) y los codones STOP UAA, UAG y UGA.",
+   "isNew": true
+  },
+  {
+   "id": "pau2025-aragon-modelo-b2",
+   "block": "Genética",
+   "topic": "Transcripción, maduración del ARNm y traducción en eucariotas",
+   "anio": 2025,
+   "etiqueta": "Modelo Aragón 24-25",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "<b>El esquema adjunto representa varios procesos celulares:</b><br>a) Cite el nombre de las estructuras señaladas con letras (A-F) (0,6 puntos).<br>b) Nombre el proceso que forma la molécula B, explicando brevemente las etapas principales del mismo (0,7 puntos).<br>c) Explique brevemente el papel del componente C (0,2 puntos).<br>d) Explique brevemente el proceso señalado por el número 1. Indique en qué orgánulo se lleva a cabo (0,4 puntos).<br>e) ¿Cómo se llama el proceso número 2? Indique en qué orgánulo se lleva a cabo (0,1 puntos).",
+   "c": [
+    "<span class=\"redactado\">a) A, ADN (doble hélice abierta; la hebra que se copia es la molde); B, ARN (transcrito primario o pre-ARNm); C, ARN polimerasa (II en eucariotas); D, exón; E, intrón; F, proteína (cadena polipeptídica, con sus extremos amino y carboxilo).</span>",
+    "<span class=\"redactado\">b) La transcripción. Iniciación: la ARN polimerasa, con los factores de transcripción, se une al promotor y abre la doble hélice. Elongación: la polimerasa lee la hebra molde en sentido 3'→5' y sintetiza el ARN en sentido 5'→3' con ribonucleótidos complementarios (U frente a A); poco después se añade la caperuza en el extremo 5'. Terminación: al llegar a la señal de terminación se libera el ARN; en eucariotas se corta y se añade la cola de poli-A en el extremo 3'.</span>",
+    "<span class=\"redactado\">c) La ARN polimerasa es la enzima que cataliza la transcripción: reconoce el promotor, desenrolla el ADN y une los ribonucleótidos complementarios a la hebra molde (5'→3') mediante enlaces fosfodiéster, sin necesitar cebador.</span>",
+    "<span class=\"redactado\">d) Es la maduración (procesamiento) del ARNm, en concreto el corte y empalme (splicing): el espliceosoma (ribonucleoproteínas pequeñas nucleares) elimina los intrones (E) y une los exones (D), dando el ARNm maduro, que conserva la caperuza 5' y la cola de poli-A. Se realiza en el núcleo.</span>",
+    "<span class=\"redactado\">e) La traducción (síntesis de proteínas), que se lleva a cabo en los ribosomas del citoplasma (libres o unidos al retículo endoplasmático rugoso).</span>"
+   ],
+   "origen": {
+    "documento": "Modelo orientativo PAU 2025 de Aragón (Universidad de Zaragoza) · Modelo orientativo 2024-25",
+    "referencia": "Modelo orientativo 2024-25, opción B, pregunta 2",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/ARAGÓN.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/aragon-modelo-2b.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/aragon-modelo-2b.thumb.webp",
+   "imageDesc": "Arriba, una doble hebra (A) abierta en una burbuja donde una enzima (C) sintetiza una hebra nueva (B). Debajo, una molécula lineal con Gppppp en un extremo y AAAAAA en el otro, formada por tramos verdes (D) y naranjas (E); la flecha 1 lleva a la misma molécula sin los tramos naranjas, y la flecha 2, a una cadena de esferas (F) con NH₂ y COOH en los extremos.",
+   "isNew": true
+  },
+  {
+   "id": "pau2025-aragon-modelo-a3",
+   "block": "Biomoléculas",
+   "topic": "Bases nitrogenadas; complementariedad; tipos de ARN",
+   "anio": 2025,
+   "etiqueta": "Modelo Aragón 24-25",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "<b>En diciembre de 2014, Japón lanzó la sonda Hayabusa 2 con el objetivo de recolectar muestras del asteroide Ryugu. Según una noticia publicada en diversos medios en 2023, investigaciones recientes han revelado que estas muestras recogidas contienen uracilo, uno de los pilares de la vida tal y como la conocemos.</b><br>a) ¿Qué tipo de molécula es el uracilo? Concrete lo máximo posible (0,2 puntos).<br>b) Cite otras cuatro moléculas equivalentes, así como la relación que se establece entre ellas y el tipo de enlaces que las unen entre sí (0,9 puntos).<br>c) Cite los principales tipos de ARN y explique la función de cada uno de ellos (0,9 puntos).",
+   "c": [
+    "<span class=\"redactado\">a) Una base nitrogenada pirimidínica (derivada de la pirimidina, de un solo anillo), propia del ARN.</span>",
+    "<span class=\"redactado\">b) Adenina y guanina (púricas) y citosina y timina (pirimidínicas). Se relacionan por complementariedad: una púrica frente a una pirimidínica, A con T (o con U en el ARN) y G con C. Se unen mediante puentes de hidrógeno: dos entre A y T (o U) y tres entre G y C.</span>",
+    "<span class=\"redactado\">c) ARN mensajero (ARNm): copia la información de un gen y la lleva a los ribosomas, donde se traduce. ARN de transferencia (ARNt): transporta los aminoácidos al ribosoma y reconoce el codón con su anticodón. ARN ribosómico (ARNr): forma, con proteínas, los ribosomas y cataliza la formación del enlace peptídico. También hay ARN pequeños nucleares (maduración) y ARN reguladores, como los microARN.</span>"
+   ],
+   "origen": {
+    "documento": "Modelo orientativo PAU 2025 de Aragón (Universidad de Zaragoza) · Modelo orientativo 2024-25",
+    "referencia": "Modelo orientativo 2024-25, opción A, pregunta 3",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/ARAGÓN.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2025-aragon-modelo-b3",
+   "block": "Biomoléculas",
+   "topic": "Enzimas: temperatura óptima, desnaturalización e inhibición",
+   "anio": 2025,
+   "etiqueta": "Modelo Aragón 24-25",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "<b>Suponga que está estudiando en un laboratorio una enzima que convierte el sustrato A en un producto B. Responda las siguientes preguntas:</b><br>a) Explique qué se entiende por temperatura óptima (0,2 puntos).<br>b) Si realiza un experimento en el que parte de la temperatura óptima y la aumenta gradualmente hasta los 100 ºC, ¿cómo cree que cambiará la actividad enzimática? Razone el motivo (0,8 puntos).<br>c) Si ahora parte de la temperatura óptima y la reduce gradualmente hasta los 0 ºC, ¿cómo cree que cambiará la actividad enzimática? Razone el motivo (0,8 puntos).<br>d) Al añadir una sustancia X junto al sustrato A, observa que la velocidad de reacción disminuye de manera significativa. ¿Cómo podría explicarlo? (0,2 puntos).",
+   "c": [
+    "<span class=\"redactado\">a) Es la temperatura a la que la enzima alcanza su máxima actividad (velocidad de reacción máxima).</span>",
+    "<span class=\"redactado\">b) La actividad disminuye rápidamente hasta anularse. Al aumentar la temperatura, la agitación térmica rompe los enlaces débiles (puentes de hidrógeno, interacciones hidrofóbicas…) que mantienen la estructura terciaria de la enzima, que es una proteína; se desnaturaliza, el centro activo pierde su forma y ya no se une al sustrato. A 100 ºC la desnaturalización suele ser irreversible (salvo en enzimas de organismos termófilos).</span>",
+    "<span class=\"redactado\">c) La actividad disminuye progresivamente y se hace casi nula a 0 ºC. Con el frío, las moléculas tienen menos energía cinética y se mueven menos, así que hay menos choques eficaces entre la enzima y el sustrato. La enzima no se desnaturaliza: si se vuelve a calentar hasta la temperatura óptima, recupera su actividad (inactivación reversible).</span>",
+    "<span class=\"redactado\">d) La sustancia X es un inhibidor de la enzima: puede competir con el sustrato A por el centro activo, si se parece a él (inhibición competitiva), o unirse a otro lugar de la enzima y cambiar su forma (inhibición no competitiva). En ambos casos se forma menos producto B por unidad de tiempo.</span>"
+   ],
+   "origen": {
+    "documento": "Modelo orientativo PAU 2025 de Aragón (Universidad de Zaragoza) · Modelo orientativo 2024-25",
+    "referencia": "Modelo orientativo 2024-25, opción B, pregunta 3",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/ARAGÓN.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2025-aragon-modelo-a4",
+   "block": "Biotecnología",
+   "topic": "PCR: fases, Taq polimerasa y marcador de peso molecular",
+   "anio": 2025,
+   "etiqueta": "Modelo Aragón 24-25",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "<b>Responda las siguientes preguntas relacionadas con la PCR:</b><br>a) ¿Qué es la fase de desnaturalización en la PCR y a qué temperatura se realiza típicamente? (0,5 puntos).<br>b) ¿En qué consiste la fase de hibridación (alineamiento o annealing) y por qué es importante la temperatura en esta fase? (0,5 puntos).<br>c) ¿Qué es la ADN polimerasa (Taq polimerasa)? Cite su función y alguna de sus características que la hacen importante en la PCR (0,5 puntos).<br>d) ¿Qué es el marcador de peso molecular? (0,5 puntos).",
+   "c": [
+    "<span class=\"redactado\">a) Es la primera fase de cada ciclo: se calienta la muestra para romper los puentes de hidrógeno entre las dos hebras del ADN, que se separan y quedan como moldes. Se realiza a unos 94-95 ºC.</span>",
+    "<span class=\"redactado\">b) Se baja la temperatura (unos 50-65 ºC, según los cebadores) para que los cebadores (oligonucleótidos de ADN) se unan por complementariedad a los extremos de la secuencia que se quiere amplificar en cada hebra molde. La temperatura es clave: si es demasiado alta, los cebadores no se unen; si es demasiado baja, se unen a sitios no del todo complementarios y se amplifican secuencias inespecíficas.</span>",
+    "<span class=\"redactado\">c) Es una ADN polimerasa de la bacteria termófila Thermus aquaticus. Su función es sintetizar las nuevas hebras de ADN (fase de extensión, a unos 72 ºC) añadiendo desoxinucleótidos complementarios en sentido 5'→3' a partir del extremo 3' de los cebadores. Es termoestable: resiste los 95 ºC de la desnaturalización sin perder actividad, por lo que no hay que añadirla en cada ciclo y la PCR puede automatizarse.</span>",
+    "<span class=\"redactado\">d) Es una mezcla de fragmentos de ADN de tamaño conocido que se corre en la electroforesis junto a las muestras; al comparar con sus bandas se estima el tamaño (en pares de bases) de los fragmentos amplificados.</span>"
+   ],
+   "origen": {
+    "documento": "Modelo orientativo PAU 2025 de Aragón (Universidad de Zaragoza) · Modelo orientativo 2024-25",
+    "referencia": "Modelo orientativo 2024-25, opción A, pregunta 4",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/ARAGÓN.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2025-aragon-modelo-b4",
+   "block": "Microbiología",
+   "topic": "Fermentación láctica y alcohólica: yogur y pan; esterilización",
+   "anio": 2025,
+   "etiqueta": "Modelo Aragón 24-25",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "<b>Tanto el pan como el yogurt se obtienen por un proceso de fermentación, llevado a cabo por diferentes levaduras y bacterias.</b><br>a) ¿Por qué el yogurt tiene un marcado sabor ácido y no ocurre lo mismo con el pan? Razónelo ayudándose de las reacciones que se llevan a cabo en cada caso (1 punto).<br>b) Para hacer yogurt casero, basta con repartir leche en varios vasitos y añadir un poco de yogurt comercial a cada uno. Después se dejan durante toda la noche a unos 35-40 ºC. ¿Qué ocurriría si antes de hacer la mezcla esterilizamos el yogurt comercial? ¿Y si esterilizamos la leche? Razone las respuestas (1 punto).",
+   "c": [
+    "<span class=\"redactado\">a) El yogur se obtiene por fermentación láctica de bacterias (Lactobacillus bulgaricus y Streptococcus thermophilus): la lactosa se hidroliza a glucosa y galactosa y estas se transforman en ácido láctico (glucosa → 2 piruvato → 2 lactato); el ácido láctico baja el pH, da el sabor ácido y coagula la caseína. El pan se hace con fermentación alcohólica de la levadura Saccharomyces cerevisiae: glucosa → 2 etanol + 2 CO₂; el CO₂ hace subir la masa y el etanol se evapora en el horno, así que no queda un producto ácido.</span>",
+    "<span class=\"redactado\">b) Si se esteriliza el yogur comercial, se matan las bacterias lácticas que actúan como «fermento»: la leche no fermentaría y no se formaría yogur (como mucho, crecerían otros microorganismos y la leche se estropearía). Si se esteriliza la leche (y se deja enfriar antes de mezclar), sí se forma yogur, e incluso mejor: se eliminan los microorganismos que podrían competir o contaminarla y solo actúan las bacterias lácticas del yogur añadido.</span>"
+   ],
+   "origen": {
+    "documento": "Modelo orientativo PAU 2025 de Aragón (Universidad de Zaragoza) · Modelo orientativo 2024-25",
+    "referencia": "Modelo orientativo 2024-25, opción B, pregunta 4",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/ARAGÓN.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2025-aragon-modelo-a5",
+   "block": "Inmunología",
+   "topic": "Gripe: vacunación, respuesta primaria y secundaria, tipos de inmunidad",
+   "anio": 2025,
+   "etiqueta": "Modelo Aragón 24-25",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": true,
+   "q": "<b>En enero de 2024, el número de personas afectadas por la gripe era muy superior al de hace unos años. Según algunos expertos, este alto número de casos se debería a dos motivos: 1) el número de personas que se habían vacunado en ese momento era relativamente bajo, y 2) el uso de mascarillas durante los últimos años habría hecho que buena parte de la población no estuviera expuesta al virus de la gripe desde hace tiempo. Responda las siguientes cuestiones:</b><br>a) ¿Qué tipo de inmunidad desarrollaría un individuo vacunado? (0,2 puntos).<br>b) ¿Cómo relacionaría la segunda razón dada por los expertos con el hecho de que este invierno haya habido más casos de gripe? (0,4 puntos).<br>c) Compare la respuesta inmunitaria que se produciría ante un contacto con el virus de la gripe en un individuo que se vacunó contra este virus dos meses antes, y en un individuo que no ha sido vacunado y que nunca ha contactado previamente con el virus (1,2 puntos).<br>d) ¿Qué tipo de inmunidad desarrollaría un individuo no vacunado y que contacta este año por primera vez con el virus? (0,2 puntos).",
+   "c": [
+    "<span class=\"redactado\">a) Inmunidad adquirida (específica) activa artificial.</span>",
+    "<span class=\"redactado\">b) Sin contacto con el virus durante años, no se han estimulado ni renovado las células de memoria y los anticuerpos frente a las cepas que circulan (el virus de la gripe además cambia sus antígenos cada temporada). Más personas eran susceptibles y respondieron con una respuesta primaria, lenta, así que se infectaron, enfermaron y contagiaron a otros: más casos.</span>",
+    "<span class=\"redactado\">c) Vacunado: tiene linfocitos B y T de memoria y anticuerpos (IgG) frente al virus, así que da una respuesta secundaria: rápida (horas o pocos días), intensa (muchos más anticuerpos, sobre todo IgG de alta afinidad) y duradera; elimina el virus antes de que cause la enfermedad o la deja muy leve. No vacunado: da una respuesta primaria, con un periodo de latencia de varios días mientras se seleccionan y proliferan los linfocitos específicos (selección clonal); se producen menos anticuerpos, primero IgM y luego IgG; mientras tanto el virus se multiplica y aparece la enfermedad. Al final quedan células de memoria.</span>",
+    "<span class=\"redactado\">d) Inmunidad adquirida (específica) activa natural.</span>"
+   ],
+   "origen": {
+    "documento": "Modelo orientativo PAU 2025 de Aragón (Universidad de Zaragoza) · Modelo orientativo 2024-25",
+    "referencia": "Modelo orientativo 2024-25, opción A, pregunta 5",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/ARAGÓN.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": true
+  },
+  {
+   "id": "pau2025-aragon-modelo-b5",
+   "block": "Inmunología",
+   "topic": "Anticuerpos monoclonales: estructura, puentes disulfuro, clases de inmunoglobulinas, fagocitosis",
+   "anio": 2025,
+   "etiqueta": "Modelo Aragón 24-25",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "<b>El trastuzumab deruxtecan es un nuevo tratamiento de inmunoterapia que se utiliza para tratar algunos tipos de cáncer. Consiste en un anticuerpo monoclonal (trastuzumab) que reconoce las células cancerosas que presentan una determinada proteína de membrana (HER2). A su vez, el anticuerpo está unido a un fármaco (deruxtecan) que tiene efecto tóxico para las células:</b><br>a) Nombre las partes numeradas en la imagen e indique cuál de ellas reconocería a la proteína de membrana HER2 (antígeno) (0,8 puntos).<br>b) Para unir el fármaco al anticuerpo, se utiliza el mismo enlace químico que mantiene unidas las diferentes cadenas en el anticuerpo, ¿de qué tipo de enlace se trata? (0,2 puntos).<br>c) El trastuzumab es una inmunoglobulina. Cite los tipos de inmunoglobulinas que existen y mencione la función de tres de ellas (0,8 puntos).<br>d) Una vez que las células cancerosas son destruidas por el efecto del trastuzumab deruxtecan, sus restos son fagocitados por otro tipo de células inmunológicas, ¿qué células serían las responsables de este proceso? (0,2 puntos).",
+   "c": [
+    "<span class=\"redactado\">a) 1, una mitad de la molécula, formada por una cadena pesada y una cadena ligera unidas; 2, regiones variables de un brazo: el sitio de unión al antígeno (paratopo); 3, cadena pesada; 4, cadena ligera. La que reconoce a HER2 es la 2, el sitio de unión al antígeno, formado por las regiones variables de una cadena pesada y una ligera. El recuadro 1 engloba la cadena pesada y la ligera de un lado; si se entiende que señala solo la cadena gris azulada, sería la otra cadena pesada.</span>",
+    "<span class=\"redactado\">b) Puentes disulfuro (enlaces covalentes –S–S– entre grupos tiol de cisteínas).</span>",
+    "<span class=\"redactado\">c) Hay cinco clases: IgG, IgM, IgA, IgD e IgE. IgG: la más abundante en el plasma y la principal de la respuesta secundaria; atraviesa la placenta y protege al feto. IgM: pentámero, la primera que aparece en la respuesta primaria; aglutina y activa el complemento con gran eficacia. IgA: en las secreciones (saliva, lágrimas, mucosas, leche materna), protege las mucosas y al lactante. IgE: participa en las alergias (se une a mastocitos y basófilos, que liberan histamina) y frente a parásitos. IgD: receptor de antígeno en la membrana de los linfocitos B.</span>",
+    "<span class=\"redactado\">d) Los macrófagos (derivados de los monocitos), y también los neutrófilos; son fagocitos de la respuesta innata.</span>"
+   ],
+   "origen": {
+    "documento": "Modelo orientativo PAU 2025 de Aragón (Universidad de Zaragoza) · Modelo orientativo 2024-25",
+    "referencia": "Modelo orientativo 2024-25, opción B, pregunta 5",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/ARAGÓN.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/aragon-modelo-5b.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/aragon-modelo-5b.thumb.webp",
+   "imageDesc": "Anticuerpo en forma de Y unido a un «fármaco citotóxico». 1 rodea una de las mitades de la molécula (la cadena larga y la corta de un brazo); 2, los extremos rojos de un brazo; 3, la cadena larga del otro lado; 4, la cadena corta de ese otro brazo.",
+   "isNew": true
+  },
+  {
+   "id": "pau2025-canarias-1+2",
+   "block": "Biomoléculas",
+   "topic": "Funciones del agua; sustancias hidrófobas e hidrófilas; disoluciones tampón · Lactosa y lactasa: monómeros, enlaces, aminoácidos y heterósidos",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Canarias",
+   "hasImg": false,
+   "q": "<b>I.</b> <b>La huella hídrica es un indicador de la sostenibilidad que estima el uso de agua dulce, tanto directo como indirecto, por parte de un consumidor o productor. El objetivo es la concienciación y óptima gestión de este recurso limitado. (Fuente: FAO.org)</b><br>a) Nombra 3 funciones del agua que sean de importancia biológica.<br>b) ¿Qué se entiende por sustancias hidrófobas?<br>c) Cita un ejemplo de una sustancia hidrófoba y otro de una sustancia hidrófila.<br>d) ¿Qué es una solución tampón o buffer? <i>(1 punto)</i><br><br><b>II.</b> <b>En el folleto divulgativo se informa «La alergia a la leche (más concretamente, a sus componentes como la caseína, la β-lactoglobulina…) no es lo mismo que la intolerancia a la <u>lactosa</u>, debida a que las persona tienen una ausencia o bajo nivel de la <u>lactasa</u>». (Fuente: Agencia Española de Seguridad Alimentaria y Nutrición, AESAN). (En el original, lactosa y lactasa aparecen en negrita.)</b><br>a) Indica las unidades estructurales de cada una de las biomoléculas del texto (negrita).<br>b) Indica el nombre del enlace de unión de las citadas unidades básicas.<br>c) Dibuja la estructura básica y común de las unidades que constituyen la lactasa.<br>d) Indica cuál es la composición de un heterósido. <i>(1 punto)</i>",
+   "puntos": 2,
+   "c": [
+    "<b>I.</b> <span class=\"redactado\">a) Por ejemplo: disolvente de la mayoría de las sustancias (medio donde ocurren las reacciones y transporte de nutrientes y desechos), termorreguladora (por su elevado calor específico y calor de vaporización) y estructural (mantiene la turgencia de las células). También participa como reactivo (hidrólisis, fotosíntesis) y amortigua golpes (líquido sinovial, cefalorraquídeo).</span>",
+    "<b>I.</b> <span class=\"redactado\">b) Son sustancias apolares, que no forman puentes de hidrógeno ni interacciones con el agua, por lo que no se disuelven en ella: se agrupan entre sí y se separan del agua.</span>",
+    "<b>I.</b> <span class=\"redactado\">c) Hidrófoba: un aceite (triacilglicéridos) o el colesterol. Hidrófila: la glucosa o el cloruro sódico.</span>",
+    "<b>I.</b> <span class=\"redactado\">d) Es una disolución formada por un ácido débil y su base conjugada (su sal) que mantiene el pH casi constante aunque se añadan pequeñas cantidades de ácido o de base, porque capta o cede protones. Ejemplos: el tampón bicarbonato de la sangre y el tampón fosfato del medio intracelular.</span>",
+    "<b>II.</b> <span class=\"redactado\">a) La lactosa es un disacárido formado por dos monosacáridos: β-D-galactosa y D-glucosa. La lactasa es una enzima, es decir, una proteína: sus unidades son los aminoácidos.</span>",
+    "<b>II.</b> <span class=\"redactado\">b) En la lactosa, un enlace O-glucosídico β(1→4). En la lactasa, el enlace peptídico (entre el grupo carboxilo de un aminoácido y el amino del siguiente).</span>",
+    "<b>II.</b> <span class=\"redactado\">c) Un α-aminoácido: un carbono central (carbono α) unido a un grupo amino (–NH₂), un grupo carboxilo (–COOH), un hidrógeno (–H) y una cadena lateral o radical (–R) que es distinta en cada aminoácido: H₂N–CαH(R)–COOH.</span>",
+    "<b>II.</b> <span class=\"redactado\">d) Un heterósido es un glúcido unido a una molécula no glucídica (aglucón), como lípidos (glucolípidos) o proteínas (glucoproteínas).</span>"
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2025-canarias-1",
+    "pau2025-canarias-2"
+   ],
+   "origen": {
+    "documento": "PAU 2025 Canarias (Distrito Universitario de Canarias) · Canarias, convocatoria ordinaria",
+    "referencia": "Canarias, convocatoria ordinaria, pregunta 1 + Canarias, convocatoria ordinaria, pregunta 2",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Canarias (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2025-canarias-3+4",
+   "block": "Biomoléculas",
+   "topic": "Identificación de lípidos y glúcidos; almidón y glucógeno; heteropolisacáridos; pentosas de los ácidos nucleicos · Lípidos saponificables; anfipáticos; ácidos grasos insaturados; funciones de los lípidos",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Canarias",
+   "hasImg": true,
+   "q": "<b>I.</b> <b>La OMS considera una dieta equilibrada en nutrientes la que contiene aproximadamente la siguiente proporción en kcal: las proteínas no deben sobrepasar el 15%; los <u>lípidos</u> no deben sobrepasar el 30% y los <u>glúcidos</u> es el resto hasta el 100%. (En el original, lípidos y glúcidos aparecen en negrita.)</b><br>a) La imagen adjunta corresponde a distintos componentes moleculares. Identifica y especifica aquellos que pueden ser componentes del grupo de biomoléculas resaltadas en negrita en el texto.<br>b) Polímeros con glucosa son el almidón y el glucógeno, indica la función de cada uno.<br>c) Indica cuál es la composición de un heteropolisacárido.<br>d) Indica qué molécula glucosídica es constituyente de cada tipo de ácido nucleico. <i>(1 punto)</i><br><br><b>II.</b> <b>El aceite de oliva, considerado como el oro líquido, es un ingrediente clave de la dieta mediterránea. Presenta un alto contenido de ácido oleico.</b><br>a) En respuesta a la reacción de saponificación, ¿a qué tipo de lípido correspondería el que contenga el ácido oleico?<br>b) ¿Qué significa que son moléculas anfipáticas?<br>c) ¿Qué significa que un ácido graso es insaturado?<br>d) El ácido oleico es abundante en la membrana plasmática (papel estructural). Indica otra función de los lípidos diferente a las mencionadas. <i>(1 punto)</i>",
+   "puntos": 2,
+   "c": [
+    "<b>I.</b> <span class=\"redactado\">a) Lípidos: la molécula 1, un fosfolípido (ácido fosfatídico: glicerol esterificado con dos ácidos grasos, palmítico, y con ácido fosfórico). Glúcidos: la 3, D-glucosa (aldohexosa, monosacárido, en forma lineal), y la 4, sacarosa (disacárido de glucosa y fructosa). La 2 es un nucleótido (citidina monofosfato), propio de los ácidos nucleicos, aunque contiene una pentosa, la ribosa.</span>",
+    "<b>I.</b> <span class=\"redactado\">b) Los dos son polisacáridos de reserva energética: el almidón en los vegetales (en amiloplastos de semillas y tubérculos) y el glucógeno en los animales (sobre todo en el hígado y los músculos) y en los hongos.</span>",
+    "<b>I.</b> <span class=\"redactado\">c) Es un polisacárido formado por más de un tipo de monosacárido o de sus derivados; por ejemplo, la pectina, la hemicelulosa, el agar o el ácido hialurónico.</span>",
+    "<b>I.</b> <span class=\"redactado\">d) La pentosa ribosa forma parte del ARN y la desoxirribosa, del ADN.</span>",
+    "<b>II.</b> <span class=\"redactado\">a) A un lípido saponificable, ya que contiene ácidos grasos (como los triacilglicéridos del aceite): con una base fuerte (NaOH o KOH) forma jabón y glicerina.</span>",
+    "<b>II.</b> <span class=\"redactado\">b) Que tienen una parte polar o hidrófila, que interacciona con el agua, y otra apolar o hidrófoba, que la rechaza.</span>",
+    "<b>II.</b> <span class=\"redactado\">c) Que tiene uno o más dobles enlaces C=C en su cadena hidrocarbonada; el oleico (18 C) tiene uno, en posición cis, lo que dobla la cadena y lo hace líquido a temperatura ambiente.</span>",
+    "<b>II.</b> <span class=\"redactado\">d) Por ejemplo, reserva energética (triacilglicéridos), aislante térmico, protección mecánica, hormonal (hormonas esteroideas) o vitamínica (vitaminas A, D, E y K).</span>"
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2025-canarias-3",
+    "pau2025-canarias-4"
+   ],
+   "origen": {
+    "documento": "PAU 2025 Canarias (Distrito Universitario de Canarias) · Canarias, convocatoria ordinaria",
+    "referencia": "Canarias, convocatoria ordinaria, pregunta 3 + Canarias, convocatoria ordinaria, pregunta 4",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Canarias (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/canarias-3.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/canarias-3.thumb.webp",
+   "imageDesc": "Recuadro con cuatro fórmulas: 1, glicerol unido a dos cadenas de ácido graso (CH₂)₁₄–CH₃ y a un fosfato; 2, base nitrogenada unida a una pentosa con fosfato; 3, cadena de seis carbonos con un grupo aldehído y grupos –OH; 4, dos anillos (uno de seis y otro de cinco vértices) unidos por un oxígeno."
+  },
+  {
+   "id": "pau2025-canarias-5+6",
+   "block": "Biomoléculas",
+   "topic": "Niveles de estructura de las proteínas; holoproteínas, heteroproteínas y grupo prostético · Colesterol y esteroides; vitaminas; desnaturalización de proteínas",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Canarias",
+   "hasImg": false,
+   "q": "<b>I.</b> <b>El Premio Nobel de Química 2024 reconoce la gran aportación al campo de biología molecular. La mitad del premio ha sido para David Baker, por el diseño computacional que permite construir tipos completamente nuevos de proteínas. La otra mitad para Demis Hassabis y John Jumper que desarrollaron 'AlphaFold', un modelo de IA capaz de predecir la forma exacta de las proteínas a partir de su secuencia genética. (Fuente: Nobelprize.org).</b><br>a) Indica los niveles de estructuración en las proteínas.<br>b) Cita los tipos de estructura terciaria de las proteínas.<br>c) Define los conceptos de: holoproteínas y heteroproteínas.<br>d) Define grupo prostético. <i>(1 punto)</i><br><br><b>II.</b> <b>Falso mito: «El huevo es malo para el colesterol». El huevo es un alimento muy completo y saludable. Es cierto que su yema es rica en colesterol, pero no hay que olvidar que el huevo posee también proteínas, vitaminas y minerales. (Fuente: https://estilosdevidasaludable.sanidad.gob.es)</b><br>a) Indica la función biológica que desempeña el colesterol en la célula.<br>b) Cita una hormona derivada de algún compuesto perteneciente al mismo grupo de biomoléculas que el colesterol.<br>c) Cita una vitamina hidrosoluble y otra liposoluble.<br>d) ¿Qué sucedería a las proteínas si se sometiesen a altas temperaturas? <i>(1 punto)</i>",
+   "puntos": 2,
+   "c": [
+    "<b>I.</b> <span class=\"redactado\">a) Estructura primaria (secuencia de aminoácidos), secundaria (α-hélice, lámina β), terciaria (plegamiento tridimensional de la cadena) y cuaternaria (asociación de varias cadenas polipeptídicas).</span>",
+    "<b>I.</b> <span class=\"redactado\">b) Fibrosa o filamentosa (alargada, insoluble, estructural; colágeno, queratina) y globular (esférica, soluble; enzimas, hemoglobina).</span>",
+    "<b>I.</b> <span class=\"redactado\">c) Holoproteínas: formadas solo por aminoácidos. Heteroproteínas: formadas por una parte proteica y otra no proteica, el grupo prostético.</span>",
+    "<b>I.</b> <span class=\"redactado\">d) Es la parte no proteica de una heteroproteína; por ejemplo, el grupo hemo de la hemoglobina o el glúcido de una glucoproteína.</span>",
+    "<b>II.</b> <span class=\"redactado\">a) Es un componente estructural de las membranas plasmáticas de las células animales, donde regula la fluidez y da estabilidad; además es precursor de las hormonas esteroideas, de la vitamina D y de los ácidos biliares.</span>",
+    "<b>II.</b> <span class=\"redactado\">b) Una hormona esteroidea, como la testosterona, el estradiol, la progesterona, el cortisol o la aldosterona.</span>",
+    "<b>II.</b> <span class=\"redactado\">c) Hidrosoluble: la vitamina C (o las del grupo B). Liposoluble: la vitamina A (o D, E, K).</span>",
+    "<b>II.</b> <span class=\"redactado\">d) Se desnaturalizarían: se rompen los enlaces débiles que mantienen las estructuras secundaria, terciaria y cuaternaria, la proteína pierde su forma y, con ella, su función biológica; la estructura primaria se conserva (no se rompen los enlaces peptídicos).</span>"
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2025-canarias-5",
+    "pau2025-canarias-6"
+   ],
+   "origen": {
+    "documento": "PAU 2025 Canarias (Distrito Universitario de Canarias) · Canarias, convocatoria ordinaria",
+    "referencia": "Canarias, convocatoria ordinaria, pregunta 5 + Canarias, convocatoria ordinaria, pregunta 6",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Canarias (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2025-canarias-7+8",
+   "block": "Biomoléculas",
+   "topic": "ATP, NADP y FAD; enlaces ricos en energía; ARN de transferencia · Replicación, transcripción y traducción; localización en células animales y vegetales",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Canarias",
+   "hasImg": true,
+   "q": "<b>I.</b> <b>Las siglas ATP, NADP, FAD corresponden a moléculas con gran importancia para el funcionamiento celular.</b><br>a) Indica la composición (unidad) básica de dichas moléculas.<br>b) Indica la principal función de cada una de las moléculas.<br>c) ¿Qué tipo de enlace en el ATP contiene alta energía?<br>d) La figura adjunta esquematiza una macromolécula que contiene similares unidades, identifica a la misma e indica cuál es su principal función. <i>(1 punto)</i><br><br><b>II.</b> <b>Los ratones comparten aproximadamente el 85% de su ADN con los seres humanos, ello explica por qué estos animales son tan utilizados en investigaciones biomédicas. Se ha descubierto que compartimos aproximadamente el 60% de nuestro ADN con los plátanos. Puede parecer desconcertante, pero la clave radica en los mecanismos celulares básicos que compartimos. Los procesos incluyen, entre otros: la respiración celular, la transcripción y traducción y replicación del material genético.</b><br>a) Definición de los procesos: transcripción, traducción y replicación.<br>b) Indica dónde se producen los procesos de transcripción y traducción en una célula animal.<br>c) Indica dónde se producen los procesos de transcripción y traducción en una célula vegetal. <i>(1 punto)</i>",
+   "puntos": 2,
+   "c": [
+    "<b>I.</b> <span class=\"redactado\">a) Son nucleótidos: el ATP es un nucleótido (adenina + ribosa + tres fosfatos) y el NADP y el FAD son dinucleótidos (dos nucleótidos unidos por sus fosfatos).</span>",
+    "<b>I.</b> <span class=\"redactado\">b) ATP: almacena y transfiere energía química en las reacciones celulares (moneda energética). NADP: coenzima que transporta electrones e hidrógeno (poder reductor), sobre todo en el anabolismo, como en la fotosíntesis (NADPH). FAD: coenzima que transporta electrones e hidrógeno en reacciones de oxidación-reducción del catabolismo (ciclo de Krebs, β-oxidación) como FADH₂.</span>",
+    "<b>I.</b> <span class=\"redactado\">c) Los enlaces anhídrido de ácido (fosfoanhídrido) entre los grupos fosfato.</span>",
+    "<b>I.</b> <span class=\"redactado\">d) Es un ARN de transferencia (ARNt), con forma de hoja de trébol: transporta los aminoácidos (unidos a su extremo 3') hasta el ribosoma y, mediante su anticodón, los coloca según los codones del ARNm durante la traducción.</span>",
+    "<b>II.</b> <span class=\"redactado\">a) Transcripción: síntesis de ARN a partir de una hebra molde de ADN. Traducción: síntesis de una proteína en los ribosomas según la secuencia de codones del ARNm. Replicación: duplicación del ADN, semiconservativa, en la que cada hebra sirve de molde para una nueva.</span>",
+    "<b>II.</b> <span class=\"redactado\">b) Transcripción en el núcleo y en las mitocondrias; traducción en los ribosomas del citoplasma (libres o en el RER) y en los de las mitocondrias.</span>",
+    "<b>II.</b> <span class=\"redactado\">c) Transcripción en el núcleo, las mitocondrias y los cloroplastos; traducción en los ribosomas del citoplasma (libres o en el RER), de las mitocondrias y de los cloroplastos.</span>"
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2025-canarias-7",
+    "pau2025-canarias-8"
+   ],
+   "origen": {
+    "documento": "PAU 2025 Canarias (Distrito Universitario de Canarias) · Canarias, convocatoria ordinaria",
+    "referencia": "Canarias, convocatoria ordinaria, pregunta 7 + Canarias, convocatoria ordinaria, pregunta 8",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Canarias (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/canarias-7.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/canarias-7.thumb.webp",
+   "imageDesc": "Molécula de una sola cadena plegada en forma de hoja de trébol, con tramos apareados y tres bucles; un extremo marcado 5' con P y otro 3' con OH."
+  },
+  {
+   "id": "pau2025-canarias-9+10",
+   "block": "Genética",
+   "topic": "Genoma; cariotipo humano; mutaciones génicas y genómicas · Traducción con la tabla del código genético; características del código",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Canarias",
+   "hasImg": true,
+   "q": "<b>I.</b> <b>Investigadores en EEUU y Reino Unido componen el mayor árbol genealógico de la historia, pues representa a todos los humanos vivos del planeta Tierra. El genoma de cada persona contiene 3.000 millones de letras que compilan todas las instrucciones necesarias para que su organismo funcione correctamente. (Fuente: Elpais.com, 2022)</b><br>a) Define genoma.<br>b) Indica cuál es la dotación genética de la especie humana, especificando cuántos son autosomas.<br>c) Indica la naturaleza química de los millones de letras que conforman el genoma.<br>d) Diferencia entre mutación génica y genómica. <i>(1 punto)</i><br><br><b>II.</b> <b>Dada la siguiente secuencia de unidades constituyentes de un tipo de ácido nucleico 3' TACCCCGCGATACGTATT 5' y teniendo en cuenta la tabla adjunta correspondiente al código genético:</b><br>a) Indica la secuencia de subunidades que constituirán parte del polipéptido.<br>b) Indica qué orgánulo participa en este proceso de síntesis.<br>c) Indica dos características del código genético. <i>(1 punto)</i>",
+   "puntos": 2,
+   "c": [
+    "<b>I.</b> <span class=\"redactado\">a) El conjunto de toda la información genética (todo el ADN, con sus genes) de una célula o de un organismo o especie.</span>",
+    "<b>I.</b> <span class=\"redactado\">b) 2n = 46 cromosomas en las células somáticas: 44 autosomas (22 pares) y 2 cromosomas sexuales (XX en la mujer, XY en el hombre). Los gametos tienen n = 23.</span>",
+    "<b>I.</b> <span class=\"redactado\">c) Son nucleótidos (desoxirribonucleótidos) del ADN, que se distinguen por su base nitrogenada: adenina, timina, guanina y citosina.</span>",
+    "<b>I.</b> <span class=\"redactado\">d) La génica altera la secuencia de nucleótidos de un gen (sustitución, inserción o deleción). La genómica altera el número de cromosomas: aneuploidías (un cromosoma de más o de menos, como la trisomía 21) o euploidías (juegos completos de más o de menos).</span>",
+    "<b>II.</b> <span class=\"redactado\">a) La secuencia es de ADN (tiene T) y actúa de molde: se transcribe a ARNm 5' AUG GGG CGC UAU GCA UAA 3', que se traduce como Met-Gly-Arg-Tyr-Ala; UAA es un codón de parada.</span>",
+    "<b>II.</b> <span class=\"redactado\">b) El ribosoma.</span>",
+    "<b>II.</b> <span class=\"redactado\">c) Por ejemplo, es degenerado (varios codones para un mismo aminoácido: Arg tiene seis) y casi universal; también es no ambiguo, sin solapamiento y sin comas.</span>"
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2025-canarias-9",
+    "pau2025-canarias-10"
+   ],
+   "origen": {
+    "documento": "PAU 2025 Canarias (Distrito Universitario de Canarias) · Canarias, convocatoria ordinaria",
+    "referencia": "Canarias, convocatoria ordinaria, pregunta 9 + Canarias, convocatoria ordinaria, pregunta 10",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Canarias (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/canarias-10.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/canarias-10.thumb.webp",
+   "imageDesc": "Tabla del código genético con los 64 codones del ARNm agrupados por aminoácido; AUG (Met) y los codones Stop UAA, UAG y UGA."
+  },
+  {
+   "id": "pau2025-canarias-11+12",
+   "block": "Célula",
+   "topic": "Membrana plasmática: componentes, funciones, mosaico fluido; pared celular · Mitosis y meiosis: fases, dotación cromosómica y tipos de células",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Canarias",
+   "hasImg": true,
+   "q": "<b>I.</b> <b>La apitoxina es el veneno secretado por las abejas. Cuando el aguijón de una abeja obrera es introducido en la piel, unos 0,1 a 0,3 mg de esta sustancia es inyectada con un efecto citotóxico, provoca la destrucción de las membranas celulares.</b><br>a) La figura corresponde a la estructura vital que es la membrana plasmática, identifica los componentes enumerados en el esquema.<br>b) Con algún componente de la figura relaciona las funciones siguientes: el reconocimiento celular, la fluidez y el transporte de moléculas.<br>c) ¿Qué significa el término de mosaico fluido?<br>d) Ciertas células eucariotas presentan otra estructura externa, además de la representada en el esquema. ¿A qué estructura nos referimos? <i>(1 punto)</i><br><br><b>II.</b> <b>Los camélidos del Viejo y Nuevo Mundo presentan un cariotipo muy conservado, 2n = 74. Las células iniciales (A1 y B1) han sido tomadas de un dromedario (Camelus dromedarius). Cada célula sigue una vía de división diferente.</b><br>a) Identifica los procesos de división A y B.<br>b) Indica el nombre de las fases numeradas como 1, 2, 3 y 4.<br>c) Indica la dotación cromosómica de las células resultantes de cada proceso de división.<br>d) ¿Qué tipo de células sufren cada proceso de división celular? <i>(1 punto)</i>",
+   "puntos": 2,
+   "c": [
+    "<b>I.</b> <span class=\"redactado\">a) 1, una monocapa de fosfolípidos; 2, bicapa lipídica; 3, proteína integral (transmembrana); 4, glucolípido (oligosacárido unido a un lípido); 5, glucoproteína (oligosacárido unido a una proteína); 6, proteína periférica (en la cara interna).</span>",
+    "<b>I.</b> <span class=\"redactado\">b) Reconocimiento celular: los glúcidos de glucolípidos y glucoproteínas (4 y 5), que forman el glucocáliz. Fluidez: los lípidos de la bicapa (fosfolípidos, 1 y 2), que se desplazan lateralmente. Transporte de moléculas: las proteínas integrales (3), como canales y transportadores.</span>",
+    "<b>I.</b> <span class=\"redactado\">c) Es el modelo de Singer y Nicolson (1972): la membrana es una bicapa lipídica fluida, en la que lípidos y proteínas pueden desplazarse lateralmente (fluido), y las proteínas se intercalan en ella como las piezas de un mosaico.</span>",
+    "<b>I.</b> <span class=\"redactado\">d) La pared celular, propia de las células vegetales (de celulosa) y de los hongos (de quitina).</span>",
+    "<b>II.</b> <span class=\"redactado\">a) A es una mitosis (una división, dos células hijas). B es una meiosis (dos divisiones sucesivas, cuatro células hijas).</span>",
+    "<b>II.</b> <span class=\"redactado\">b) 1, profase (mitótica); 2, metafase I (bivalentes en la placa ecuatorial); 3, anafase I (hacia la telofase I: los cromosomas homólogos van a los polos); 4, profase II (o metafase II), ya en las dos células de la primera división.</span>",
+    "<b>II.</b> <span class=\"redactado\">c) Mitosis (A): dos células diploides, 2n = 74, iguales a la madre. Meiosis (B): cuatro células haploides, n = 37, genéticamente distintas.</span>",
+    "<b>II.</b> <span class=\"redactado\">d) La mitosis la hacen las células somáticas (crecimiento, renovación y reparación de tejidos). La meiosis, las células germinales de las gónadas (espermatocitos y ovocitos), que originan los gametos.</span>"
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2025-canarias-11",
+    "pau2025-canarias-12"
+   ],
+   "origen": {
+    "documento": "PAU 2025 Canarias (Distrito Universitario de Canarias) · Canarias, convocatoria ordinaria",
+    "referencia": "Canarias, convocatoria ordinaria, pregunta 11 + Canarias, convocatoria ordinaria, pregunta 12",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Canarias (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/canarias-11.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/canarias-11.thumb.webp",
+   "imageDesc": "Fragmento de membrana en tres dimensiones: 1 y 2 son corchetes sobre la capa de lípidos (1, la mitad superior; 2, toda la capa doble); 3, una proteína que atraviesa la membrana; 4, una cadena ramificada unida a un lípido; 5, una cadena ramificada unida a una proteína; 6, una proteína en la cara inferior."
+  },
+  {
+   "id": "pau2025-canarias-13+14",
+   "block": "Célula",
+   "topic": "Sistema de endomembranas: aparato de Golgi y lisosomas · Mitocondrias; fermentación láctica en células humanas",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Canarias",
+   "hasImg": true,
+   "q": "<b>I.</b> <b>Característica de ciertas células es su compartimentación interna formando un complejo sistema de endomembranas interrelacionado con un intenso tráfico de vesículas celulares.</b><br>a) Identifica el orgánulo indicado con una X en el esquema.<br>b) Además del transporte, cita otra misión fundamental del orgánulo X.<br>c) ¿Qué orgánulo (Y) se forma a partir de una vesícula que se desprende del orgánulo X cargada de enzimas?<br>d) ¿Cuál es la función del orgánulo Y? <i>(1 punto)</i><br><br><b>II.</b> <b>Las enfermedades mitocondriales son un grupo de trastornos metabólicos, los síntomas dependen de la cantidad de mitocondrias defectuosas y dónde están en el organismo. A veces, sólo un órgano, tejido o tipo de célula se ve afectado.</b><br>a) Indica qué tipo de organismo tiene este orgánulo: algas, bacterias, hongos y/o protozoos aerobios.<br>b) Cita la principal función de las mitocondrias.<br>c) La fermentación es otro proceso metabólico. Indica dónde se produce en el interior celular.<br>d) Indica cuál es el objetivo y el resultado final del proceso fermentativo en una célula humana. <i>(1 punto)</i>",
+   "puntos": 2,
+   "c": [
+    "<b>I.</b> <span class=\"redactado\">a) El aparato de Golgi (dictiosoma).</span>",
+    "<b>I.</b> <span class=\"redactado\">b) La modificación y maduración de proteínas y lípidos (por ejemplo, la glucosilación), su clasificación y empaquetado en vesículas; en las células vegetales sintetiza polisacáridos de la pared.</span>",
+    "<b>I.</b> <span class=\"redactado\">c) Un lisosoma (primario).</span>",
+    "<b>I.</b> <span class=\"redactado\">d) La digestión intracelular: sus enzimas hidrolíticas (hidrolasas ácidas) degradan sustancias captadas del exterior (heterofagia) y orgánulos y componentes propios (autofagia).</span>",
+    "<b>II.</b> <span class=\"redactado\">a) Las algas, los hongos y los protozoos aerobios, que son eucariotas. Las bacterias no tienen mitocondrias (son procariotas).</span>",
+    "<b>II.</b> <span class=\"redactado\">b) La respiración celular aerobia: obtienen la mayor parte del ATP de la célula (ciclo de Krebs, cadena respiratoria y fosforilación oxidativa).</span>",
+    "<b>II.</b> <span class=\"redactado\">c) En el citosol (hialoplasma).</span>",
+    "<b>II.</b> <span class=\"redactado\">d) Objetivo: obtener energía (ATP) en ausencia o escasez de O₂, regenerando el NAD⁺ que necesita la glucólisis para continuar. Resultado: en las células humanas (por ejemplo, las musculares) es una fermentación láctica: cada glucosa da 2 lactato (ácido láctico) y solo 2 ATP.</span>"
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2025-canarias-13",
+    "pau2025-canarias-14"
+   ],
+   "origen": {
+    "documento": "PAU 2025 Canarias (Distrito Universitario de Canarias) · Canarias, convocatoria ordinaria",
+    "referencia": "Canarias, convocatoria ordinaria, pregunta 13 + Canarias, convocatoria ordinaria, pregunta 14",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Canarias (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/canarias-13.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/canarias-13.thumb.webp",
+   "imageDesc": "Esquema de una célula: túbulos y vesículas a la izquierda llegan a una pila de sacos aplanados (X); de ella salen vesículas hacia la membrana (secreción) y otra vesícula (Y) que se queda en el citoplasma."
+  },
+  {
+   "id": "pau2025-canarias-15+16",
+   "block": "Metabolismo",
+   "topic": "Fase luminosa de la fotosíntesis: cloroplasto, transporte electrónico y NADPH · Ciclo de Krebs, cadena respiratoria y fosforilación oxidativa",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Canarias",
+   "hasImg": true,
+   "q": "<b>I.</b> <b>Un tubérculo comestible es Solanum tuberosum, conocido comúnmente como papa o patata. La imagen adjunta esquematiza una parte esencial de un proceso metabólico que se realiza en esta especie.</b><br>a) Indica en qué orgánulo tiene lugar.<br>b) Indica el nombre que recibe este conjunto de reacciones.<br>c) Identifica los elementos (del 1 al 9) que participan en el proceso. (Algunos de los elementos se corresponden con más de un nº).<br>d) Indica qué aporta la molécula correspondiente al nº 8 del esquema a la vía anabólica característica de este orgánulo. <i>(1 punto)</i><br><br><b>II.</b> <b>El picudo (Diocalandra frumenti) es un insecto que amenaza, entre otras especies, a la palmera canaria (Phoenix canariensis), la cual tiene un enorme interés botánico, científico, ecológico, cultural, económico y paisajístico, y por ello está considerada como símbolo vegetal de la Comunidad Autónoma de Canarias.</b><br>a) En el esquema se representan una serie de procesos indicados con los nº 1, 2 y 3. Identifica cada uno de ellos.<br>b) Indica en qué condiciones, aerobia o anaerobia, se requiere para el conjunto de los procesos.<br>c) Indica en el interior de qué orgánulo se están produciendo los procesos.<br>d) Especifica si en su conjunto es una vía anabólica o catabólica. <i>(1 punto)</i>",
+   "puntos": 2,
+   "c": [
+    "<b>I.</b> <span class=\"redactado\">a) En el cloroplasto, en la membrana de los tilacoides.</span>",
+    "<b>I.</b> <span class=\"redactado\">b) Fase luminosa de la fotosíntesis (transporte electrónico no cíclico o acíclico y fotofosforilación).</span>",
+    "<b>I.</b> <span class=\"redactado\">c) 1, H₂O; 2, O₂ (½ O₂); 3 y 4, H⁺ (protones bombeados al interior del tilacoide y acumulados en él); 5, ADP + Pi; 6, ATP; 7, NADP⁺; 8, NADPH; 9, H⁺ que sale por la ATP sintasa hacia el estroma.</span>",
+    "<b>I.</b> <span class=\"redactado\">d) El NADPH aporta el poder reductor (electrones e hidrógenos) al ciclo de Calvin, donde se usa, junto con el ATP, para reducir el 1,3-bisfosfoglicerato a gliceraldehído-3-fosfato y sintetizar glúcidos.</span>",
+    "<b>II.</b> <span class=\"redactado\">a) 1, ciclo de Krebs (ciclo de los ácidos tricarboxílicos); 2, cadena de transporte electrónico (cadena respiratoria); 3, fosforilación oxidativa (síntesis de ATP por la ATP sintasa, por quimiosmosis).</span>",
+    "<b>II.</b> <span class=\"redactado\">b) Aerobias: el O₂ es el aceptor final de los electrones de la cadena respiratoria, y sin él se detienen la cadena y, al no regenerarse el NAD⁺ y el FAD, el ciclo de Krebs.</span>",
+    "<b>II.</b> <span class=\"redactado\">c) En la mitocondria: el ciclo de Krebs en la matriz y la cadena respiratoria y la ATP sintasa en la membrana mitocondrial interna (crestas).</span>",
+    "<b>II.</b> <span class=\"redactado\">d) Catabólica: se oxida (degrada) el acetil-CoA hasta CO₂ y se obtiene energía en forma de ATP.</span>"
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2025-canarias-15",
+    "pau2025-canarias-16"
+   ],
+   "origen": {
+    "documento": "PAU 2025 Canarias (Distrito Universitario de Canarias) · Canarias, convocatoria ordinaria",
+    "referencia": "Canarias, convocatoria ordinaria, pregunta 15 + Canarias, convocatoria ordinaria, pregunta 16",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Canarias (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/canarias-15.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/canarias-15.thumb.webp",
+   "imageDesc": "Óvalo de membrana con tres complejos: la luz llega al primero, que recibe 1 y desprende ½ 2 + H⁺; los electrones pasan al segundo, que mete 3 hacia el interior (4); la luz llega al tercero, que transforma 7 en 8. Abajo, un canal por el que sale 9 transforma 5 en 6."
+  },
+  {
+   "id": "pau2025-canarias-17+18",
+   "block": "Biotecnología",
+   "topic": "PCR: pasos, aplicaciones y Taq polimerasa · Secuenciación; electroforesis; biotecnología ambiental",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Canarias",
+   "hasImg": false,
+   "q": "<b>I.</b> <b>En la escena de un crimen, la policía científica ha encontrado una pequeña muestra de sangre, lo cual implica mínima cantidad de ADN. Los investigadores del equipo de criminalista necesitan obtener suficiente material genético para poder compararlo con el de los sospechosos y así identificar al posible culpable. Para ello, deben seleccionar una técnica:</b><br>a) Indica y describe en qué consiste la técnica utilizada por los investigadores, mencionando los pasos básicos del proceso.<br>b) Además de su utilidad en investigaciones criminales, indica 2 aplicaciones en otros ámbitos.<br>c) Nombra la enzima que es requerida para llevar a cabo este procedimiento y el tipo de organismo del que se obtiene. <i>(1 punto)</i><br><br><b>II.</b> <b>Un equipo de investigación ha descubierto una nueva especie de organismo marino con potencial para la producción de fármacos. Para conocer mejor sus características y poder aprovechar sus compuestos bioactivos, los científicos necesitan conocer su genoma.</b><br>a) Explica una técnica de biología molecular que se pueda emplear para conocer el genoma de este nuevo organismo.<br>b) Durante la investigación, la muestra de ADN se ha contaminado con material genético de otros organismos marinos. ¿Qué técnica se puede utilizar para separar fragmentos de ADN según su tamaño y así facilitar la identificación de la secuencia del organismo estudiado? Explica su funcionamiento.<br>c) Si se lograra utilizar principios activos de este organismo como sustancias eliminadoras de petróleo, ¿con qué tipo de biotecnología lo relacionarías? <i>(1 punto)</i>",
+   "puntos": 2,
+   "c": [
+    "<b>I.</b> <span class=\"redactado\">a) La PCR (reacción en cadena de la polimerasa), que amplifica millones de veces un fragmento de ADN in vitro. Cada ciclo tiene tres pasos: desnaturalización (unos 95 ºC, se separan las hebras), hibridación (unos 50-65 ºC, los cebadores se unen a los extremos de la secuencia) y extensión (72 ºC, la ADN polimerasa sintetiza las hebras nuevas). Se repite unos 30 ciclos y el número de copias se duplica en cada uno.</span>",
+    "<b>I.</b> <span class=\"redactado\">b) Por ejemplo, el diagnóstico de enfermedades infecciosas (detección de virus, como en las pruebas de COVID-19) o genéticas, las pruebas de paternidad, o el estudio de ADN antiguo en evolución y paleontología.</span>",
+    "<b>I.</b> <span class=\"redactado\">c) Una ADN polimerasa termoestable, la Taq polimerasa, que se obtiene de la bacteria termófila Thermus aquaticus (que vive en aguas termales).</span>",
+    "<b>II.</b> <span class=\"redactado\">a) La secuenciación del ADN, que determina el orden de sus nucleótidos. En el método de Sanger, una ADN polimerasa copia el fragmento en presencia de didesoxinucleótidos marcados, que detienen la síntesis; se obtienen fragmentos de todos los tamaños que se separan por electroforesis, y la base final de cada uno revela la secuencia. Hoy se usan técnicas de secuenciación masiva, que leen millones de fragmentos a la vez y los ensamblan informáticamente.</span>",
+    "<b>II.</b> <span class=\"redactado\">b) La electroforesis en gel (de agarosa): el ADN, con carga negativa por sus fosfatos, se coloca en pocillos y se aplica un campo eléctrico; los fragmentos migran hacia el polo positivo a través del gel, y los pequeños avanzan más que los grandes, así que quedan separados en bandas según su tamaño, que se comparan con un marcador de tamaños conocidos.</span>",
+    "<b>II.</b> <span class=\"redactado\">c) Con la biotecnología ambiental (biotecnología gris), en concreto con la biorremediación (eliminación de contaminantes como el petróleo con seres vivos o sus productos); por su origen marino, también con la biotecnología azul.</span>"
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2025-canarias-17",
+    "pau2025-canarias-18"
+   ],
+   "origen": {
+    "documento": "PAU 2025 Canarias (Distrito Universitario de Canarias) · Canarias, convocatoria ordinaria",
+    "referencia": "Canarias, convocatoria ordinaria, pregunta 17 + Canarias, convocatoria ordinaria, pregunta 18",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Canarias (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2025-canarias-19+20",
+   "block": "Inmunología",
+   "topic": "Alergia e hipersensibilidad; choque anafiláctico · Suero o vacuna: inmunidad pasiva y activa artificial",
+   "anio": 2025,
+   "etiqueta": "PAU 2025 Canarias",
+   "hasImg": false,
+   "q": "<b>I.</b> <b>Un mismo grupo de turistas, con igual origen, transporte…, a las pocas horas de llegar al destino en condiciones de calima (fenómeno meteorológico responsable de emisión de partículas, no antropogénica o tóxica por sí mismas, a la atmósfera), algunos de los turistas (G-2) presentan síntomas de problemas respiratorios, irritación ocular, entre otras. El Centro médico informa que corresponde a una enfermedad NO transmisible. Transcurrido un tiempo, y dado las condiciones de algunos pasajeros denominados como G-2_B, se realizan pruebas clínicas y se diagnostican que están expuestos a un choque anafiláctico. En base a la información expuesta, razona la respuesta a las siguientes cuestiones:</b><br>a) Motivo por el cual no se menciona al G-1 de turistas (sin síntomas) en el enunciado.<br>b) Motivo de la reacción del G-2.<br>c) Qué prueba clínica puede facilitar el diagnóstico al G-2_B.<br>d) La consecuencia de un choque anafiláctico. <i>(1 punto)</i><br><br><b>II.</b> <b>La fiebre amarilla es una enfermedad viral que es endémica en ciertos países tropicales. La recomendación es tomar medidas de prevención si se tiene intención de visitarlos. La información de los prospectos de los siguientes compuestos es:<br>- Compuesto A con inmunoglobulinas humanas para un amplio espectro de antígenos.<br>- Compuesto B con antígenos inactivados del virus de la fiebre amarilla.<br>Conteste de forma razonada, qué compuesto tomaría ante sus posibilidades de decisión:</b><br>a) Si su intención es viajar mañana a una de estas regiones tropicales.<br>b) Si tiene planeado realizar el viaje dentro de unos meses y su estancia es prolongada. <i>(1 punto)</i>",
+   "puntos": 2,
+   "c": [
+    "<b>I.</b> <span class=\"redactado\">a) Porque no presentan reacción: no están sensibilizados frente a las partículas de la calima, que no son tóxicas ni infecciosas por sí mismas; su sistema inmunitario las tolera y no responde de forma exagerada.</span>",
+    "<b>I.</b> <span class=\"redactado\">b) Es una reacción de hipersensibilidad inmediata (alergia): las partículas actúan como alérgenos en personas sensibilizadas, que tienen IgE específicas unidas a los mastocitos y basófilos; al unirse el alérgeno, estas células liberan histamina y otros mediadores que causan inflamación, broncoconstricción, moco e irritación ocular.</span>",
+    "<b>I.</b> <span class=\"redactado\">c) Pruebas de alergia: pruebas cutáneas (prick test, con el alérgeno sobre la piel) o un análisis de sangre que mida la IgE total y la IgE específica frente al alérgeno.</span>",
+    "<b>I.</b> <span class=\"redactado\">d) Es una reacción alérgica generalizada y grave: la liberación masiva de histamina provoca vasodilatación general con caída brusca de la presión arterial, broncoconstricción y edema que dificultan la respiración; puede causar la muerte si no se trata de inmediato (con adrenalina).</span>",
+    "<b>II.</b> <span class=\"redactado\">a) El compuesto A, un suero (inmunoglobulinas ya formadas): da inmunidad pasiva artificial, inmediata, porque los anticuerpos actúan desde el primer momento; pero dura poco (semanas), ya que los anticuerpos se degradan y no se forman células de memoria. La vacuna B no protegería a tiempo, porque la respuesta primaria tarda días o semanas en desarrollarse.</span>",
+    "<b>II.</b> <span class=\"redactado\">b) El compuesto B, la vacuna: da inmunidad activa artificial; el organismo fabrica sus propios anticuerpos y células de memoria frente al virus. Tarda en establecerse, pero hay tiempo hasta el viaje, y es duradera, adecuada para una estancia larga.</span>"
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2025-canarias-19",
+    "pau2025-canarias-20"
+   ],
+   "origen": {
+    "documento": "PAU 2025 Canarias (Distrito Universitario de Canarias) · Canarias, convocatoria ordinaria",
+    "referencia": "Canarias, convocatoria ordinaria, pregunta 19 + Canarias, convocatoria ordinaria, pregunta 20",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/Examen Biología de Canarias (Ordinaria de 2025) [www.examenesdepau.com].pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2025-cantabria-modelo-1+2",
+   "block": "Biomoléculas",
+   "topic": "Enlaces O-glucosídico, éster y peptídico · Texto con conceptos: enzima, centro activo, velocidad máxima, desnaturalización",
+   "anio": 2025,
+   "etiqueta": "Modelo Cantabria 24-25",
+   "hasImg": false,
+   "q": "<b>I.</b> Dibuje las reacciones de formación de los enlaces O-glucosídico, éster y peptídico, nombrando los grupos que participan y los productos que se forman. Mencione un ejemplo de biomolécula que contenga cada uno de dichos enlaces. <i>(1,25 puntos)</i><br><br><b>II.</b> Escriba un texto de no más de 10 líneas en el que se relacionen de manera coherente, dentro de un fenómeno biológico, los siguientes conceptos: enzima, centro activo, velocidad máxima, desnaturalización. <i>(1,25 puntos)</i>",
+   "puntos": 2.5,
+   "c": [
+    "<b>I.</b> <span class=\"redactado\">Los tres se forman por condensación, con liberación de una molécula de agua; se rompen por hidrólisis.</span>",
+    "<b>I.</b> <span class=\"redactado\">O-glucosídico: el –OH del carbono anomérico (hemiacetálico o hemicetálico) de un monosacárido reacciona con un –OH de otro: monosacárido–OH + HO–monosacárido → monosacárido–O–monosacárido + H₂O. Ejemplo: maltosa, sacarosa, almidón, celulosa.</span>",
+    "<b>I.</b> <span class=\"redactado\">Éster: el grupo carboxilo (–COOH) de un ácido reacciona con el hidroxilo (–OH) de un alcohol: R–COOH + HO–R' → R–CO–O–R' + H₂O. Ejemplo: triacilglicéridos (ácidos grasos + glicerina), fosfolípidos, ceras.</span>",
+    "<b>I.</b> <span class=\"redactado\">Peptídico: el grupo carboxilo (–COOH) de un aminoácido reacciona con el grupo amino (–NH₂) de otro: H₂N–CHR₁–COOH + H₂N–CHR₂–COOH → H₂N–CHR₁–CO–NH–CHR₂–COOH (dipéptido) + H₂O. Es un enlace amida. Ejemplo: cualquier proteína (insulina, hemoglobina).</span>",
+    "<b>II.</b> <span class=\"redactado\">Ejemplo: En la digestión, la amilasa de la saliva es una enzima, un biocatalizador de naturaleza proteica que acelera la hidrólisis del almidón al disminuir su energía de activación. El almidón (sustrato) se une a una región concreta de la enzima, el centro activo, cuya forma y aminoácidos son complementarios a él, y allí se rompen los enlaces. Si aumenta la concentración de almidón, la velocidad de la reacción crece hasta alcanzar la velocidad máxima, cuando todos los centros activos están ocupados (la enzima está saturada). Al llegar al estómago, el pH muy ácido provoca la desnaturalización de la amilasa: pierde su estructura terciaria, se deforma el centro activo y deja de funcionar.</span>"
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2025-cantabria-modelo-1",
+    "pau2025-cantabria-modelo-2"
+   ],
+   "origen": {
+    "documento": "Ejemplo de examen PAU 2025 de Cantabria (Universidad de Cantabria) · Modelo (ejemplo) 2024-25",
+    "referencia": "Modelo (ejemplo) 2024-25, pregunta 1 + Modelo (ejemplo) 2024-25, pregunta 2",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/CANTABRIA.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2025-cantabria-modelo-3+4",
+   "block": "Genética",
+   "topic": "Traducción con la tabla del código genético; mutación de sustitución · Mutaciones: verdadero o falso",
+   "anio": 2025,
+   "etiqueta": "Modelo Cantabria 24-25",
+   "hasImg": true,
+   "q": "<b>I.</b> A partir de la siguiente secuencia codificante de nucleótidos (5'-CGACCCCTCATAGGCAAACACCGCTATATC-3')<br>a) Razone si se trata de ADN o ARN.<br>b) Determine la secuencia de aminoácidos a la que dará lugar, usando la Figura 2 adjunta.<br>c) Escriba una secuencia alternativa con una mutación que resulte en el cambio del aminoácido Pro por Thr. <i>(1,25 puntos)</i><br><br><b>II.</b> Indique cuáles de las siguientes afirmaciones son correctas y cuáles no. Razone brevemente en cada caso su respuesta.<br>a) Todas las mutaciones son fenotípicamente perjudiciales para los individuos que las padecen.<br>b) Las mutaciones suponen una fuente importante de variación alélica.<br>c) Las mutaciones génicas pueden ocurrir cuando un agente mutagénico incide sobre una proteína alterando irreversiblemente su funcionalidad.<br>d) Un gen mutado puede codificar para una proteína con la función alterada.<br>e) Una mutación en un gameto humano siempre tiene un efecto perjudicial. <i>(1,25 puntos)</i>",
+   "puntos": 2.5,
+   "c": [
+    "<b>I.</b> <span class=\"redactado\">a) Es ADN, porque contiene timina (T) y no uracilo (U).</span>",
+    "<b>I.</b> <span class=\"redactado\">b) Al ser la hebra codificante, el ARNm tiene la misma secuencia con U: 5'-CGA CCC CUC AUA GGC AAA CAC CGC UAU AUC-3'. Aminoácidos: Arg-Pro-Leu-Met-Gly-Lys-His-Arg-Tyr-Ile. Ojo: la Figura 2 agrupa AUA con Met, pero en el código genético estándar AUA codifica Ile (Arg-Pro-Leu-Ile-…); AUA es Met solo en el código mitocondrial de vertebrados.</span>",
+    "<b>I.</b> <span class=\"redactado\">c) Pro está codificada por CCC (2.º codón); basta cambiar la primera C por A (ACC = Thr): 5'-CGAACCCTCATAGGCAAACACCGCTATATC-3'.</span>",
+    "<b>II.</b> <span class=\"redactado\">a) Falsa: muchas son neutras (silenciosas, por la degeneración del código, o en ADN no codificante) y algunas son beneficiosas; solo una parte es perjudicial.</span>",
+    "<b>II.</b> <span class=\"redactado\">b) Correcta: las mutaciones son la fuente primaria de nuevos alelos, sobre los que actúa la selección natural.</span>",
+    "<b>II.</b> <span class=\"redactado\">c) Falsa: una mutación es un cambio en el material genético (ADN); si un agente altera una proteína, se modifica esa molécula pero no se hereda ni es una mutación.</span>",
+    "<b>II.</b> <span class=\"redactado\">d) Correcta: si la mutación cambia la secuencia de aminoácidos (cambio de sentido, sin sentido, cambio de pauta de lectura), la proteína puede perder o modificar su función.</span>",
+    "<b>II.</b> <span class=\"redactado\">e) Falsa: puede ser neutra o beneficiosa; además, solo tendrá efecto si ese gameto participa en la fecundación, y entonces se transmitirá a la descendencia.</span>"
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2025-cantabria-modelo-3",
+    "pau2025-cantabria-modelo-4"
+   ],
+   "origen": {
+    "documento": "Ejemplo de examen PAU 2025 de Cantabria (Universidad de Cantabria) · Modelo (ejemplo) 2024-25",
+    "referencia": "Modelo (ejemplo) 2024-25, pregunta 3 + Modelo (ejemplo) 2024-25, pregunta 4",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/CANTABRIA.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/cantabria-modelo-3.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/cantabria-modelo-3.thumb.webp",
+   "imageDesc": "Figura 2: tabla del código genético con los 64 codones del ARNm ordenados por primera, segunda y tercera base y el aminoácido de cada uno."
+  },
+  {
+   "id": "pau2025-cantabria-modelo-5+6",
+   "block": "Célula",
+   "topic": "Meiosis de una célula 2n = 4; diferencias entre espermatogénesis y ovogénesis · El núcleo en microfotografía: estructuras y funciones",
+   "anio": 2025,
+   "etiqueta": "Modelo Cantabria 24-25",
+   "hasImg": true,
+   "q": "<b>I.</b> Dibuje una meiosis completa de una célula 2n=4, nombrando cada una de las fases de las que se compone. Señale una diferencia entre la I división meiótica entre machos y hembras de humanos. <i>(1,25 puntos)</i><br><br><b>II.</b> a) Identifique el orgánulo celular representado en la microfotografía, y b) nombre las estructuras numeradas.<br>c) Nombre dos procesos fundamentales para la célula que tienen lugar en este orgánulo, y d) explique su importancia. <i>(1,25 puntos)</i>",
+   "puntos": 2.5,
+   "c": [
+    "<b>I.</b> <span class=\"redactado\">El dibujo debe mostrar dos pares de cromosomas homólogos (cuatro cromosomas de dos cromátidas). Primera división (reduccional): profase I (los homólogos se aparean formando 2 bivalentes y hay sobrecruzamiento), metafase I (los bivalentes en la placa ecuatorial), anafase I (cada homólogo va a un polo) y telofase I: dos células n = 2, con cromosomas de dos cromátidas. Segunda división (ecuacional): profase II, metafase II (2 cromosomas en la placa), anafase II (se separan las cromátidas hermanas) y telofase II: cuatro células n = 2, con cromosomas de una cromátida.</span>",
+    "<b>I.</b> <span class=\"redactado\">Diferencia en la primera división: en el hombre la citocinesis es igual y da dos espermatocitos secundarios iguales, y la meiosis empieza en la pubertad y es continua; en la mujer la citocinesis es desigual y da un ovocito secundario grande y un corpúsculo polar pequeño, y la profase I empieza antes del nacimiento y queda detenida hasta la pubertad, cuando se completa la primera división en cada ciclo antes de la ovulación.</span>",
+    "<b>II.</b> <span class=\"redactado\">a) El núcleo (en interfase).</span>",
+    "<b>II.</b> <span class=\"redactado\">b) 1, envoltura nuclear (doble membrana); 2, eucromatina (cromatina laxa, más clara); 3, poro nuclear; 4, heterocromatina (cromatina condensada, oscura, junto a la envoltura); 5, nucléolo.</span>",
+    "<b>II.</b> <span class=\"redactado\">c) La replicación del ADN y la transcripción (síntesis de ARN); además, en el nucléolo se sintetiza el ARNr y se ensamblan las subunidades de los ribosomas.</span>",
+    "<b>II.</b> <span class=\"redactado\">d) La replicación duplica el material genético antes de la división, para que cada célula hija reciba una copia completa de la información. La transcripción permite expresar los genes: los ARN que se forman dirigen la síntesis de proteínas, que controlan la estructura y el funcionamiento celular.</span>"
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2025-cantabria-modelo-5",
+    "pau2025-cantabria-modelo-6"
+   ],
+   "origen": {
+    "documento": "Ejemplo de examen PAU 2025 de Cantabria (Universidad de Cantabria) · Modelo (ejemplo) 2024-25",
+    "referencia": "Modelo (ejemplo) 2024-25, pregunta 5 + Modelo (ejemplo) 2024-25, pregunta 6",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/CANTABRIA.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/cantabria-modelo-6.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/cantabria-modelo-6.thumb.webp",
+   "imageDesc": "Microfotografía electrónica de un orgánulo esférico grande: 1 recuadra su borde formado por dos membranas; 3 señala una interrupción del borde; 2 y 4 recuadran zonas internas, clara (2) y oscuras (4); 5 rodea una masa oscura y densa del interior."
+  },
+  {
+   "id": "pau2025-cantabria-modelo-7+8",
+   "block": "Célula",
+   "topic": "Modelo del mosaico fluido; funciones de la membrana · β-oxidación de los ácidos grasos: fases y localización",
+   "anio": 2025,
+   "etiqueta": "Modelo Cantabria 24-25",
+   "hasImg": false,
+   "q": "<b>I.</b> Describa el modelo de mosaico fluido de membrana, y cite al menos 3 de sus funciones. Represéntelo con un dibujo en el que aparezcan claramente señalados los distintos tipos de lípidos, proteínas y glúcidos que la conforman. <i>(1,25 puntos)</i><br><br><b>II.</b> Los ácidos grasos son una importante fuente de carbono y energía para la célula. ¿Cómo se denomina el proceso por el que se incorporan al ciclo de Krebs? Nombre y explique brevemente las diferentes fases en que se divide, y su localización intracelular. <i>(1,25 puntos)</i>",
+   "puntos": 2.5,
+   "c": [
+    "<b>I.</b> <span class=\"redactado\">Modelo de Singer y Nicolson (1972): la membrana es una bicapa de lípidos anfipáticos (fosfolípidos, glucolípidos y colesterol en las animales) con las colas hidrófobas hacia dentro y las cabezas polares hacia el agua. En ella se insertan proteínas integrales (algunas transmembrana) y, en las superficies, proteínas periféricas, como piezas de un mosaico. Es fluida: lípidos y proteínas se desplazan lateralmente. Es asimétrica: los glúcidos (oligosacáridos de glucolípidos y glucoproteínas) solo están en la cara externa, donde forman el glucocáliz.</span>",
+    "<b>I.</b> <span class=\"redactado\">Funciones: límite de la célula que separa el medio interno del externo; transporte selectivo de sustancias (permeabilidad selectiva); reconocimiento celular y recepción de señales (receptores); endocitosis y exocitosis; uniones entre células.</span>",
+    "<b>I.</b> <span class=\"redactado\">En el dibujo deben señalarse: fosfolípidos de la bicapa, colesterol, glucolípidos, proteínas integrales (transmembrana), proteínas periféricas, glucoproteínas y el glucocáliz en la cara externa.</span>",
+    "<b>II.</b> <span class=\"redactado\">Es la β-oxidación (hélice de Lynen).</span>",
+    "<b>II.</b> <span class=\"redactado\">1) Activación, en el citosol (en la membrana mitocondrial externa): el ácido graso se une a la coenzima A con gasto de ATP (que pasa a AMP + PPi) y forma acil-CoA. 2) Entrada en la mitocondria: el grupo acilo atraviesa la membrana interna unido a la carnitina y en la matriz vuelve a formar acil-CoA. 3) β-oxidación, en la matriz mitocondrial: en cada vuelta hay cuatro reacciones (oxidación con FAD, hidratación, oxidación con NAD⁺ y tiólisis con CoA) que separan un acetil-CoA (2 C) y producen 1 FADH₂ y 1 NADH; se repite hasta que toda la cadena se convierte en acetil-CoA, que entra en el ciclo de Krebs. También hay β-oxidación en los peroxisomas.</span>"
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2025-cantabria-modelo-7",
+    "pau2025-cantabria-modelo-8"
+   ],
+   "origen": {
+    "documento": "Ejemplo de examen PAU 2025 de Cantabria (Universidad de Cantabria) · Modelo (ejemplo) 2024-25",
+    "referencia": "Modelo (ejemplo) 2024-25, pregunta 7 + Modelo (ejemplo) 2024-25, pregunta 8",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/CANTABRIA.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2025-cantabria-modelo-9+10",
+   "block": "Metabolismo",
+   "topic": "Glucólisis; respiración y fermentación · Fase luminosa: espacios del cloroplasto, transporte electrónico y fotofosforilación",
+   "anio": 2025,
+   "etiqueta": "Modelo Cantabria 24-25",
+   "hasImg": true,
+   "q": "<b>I.</b> ¿En qué consiste la glucólisis? Dibuje la reacción global de la glucólisis, indicando el nombre de todos los elementos que forman parte de la reacción. ¿Cuáles son los dos tipos de degradación que puede seguir el producto final de la glucólisis? Compárelos a nivel de productos finales y cantidad de energía generada. <i>(1,25 puntos)</i><br><br><b>II.</b> ¿Qué proceso se encuentra representado en la Figura 1? Nombre los espacios intracelulares A y B, y los compuestos B, C, D, E, F, G y H. ¿Cuál es la fuente de energía que permite la síntesis del compuesto H? <i>(1,25 puntos)</i>",
+   "puntos": 2.5,
+   "c": [
+    "<b>I.</b> <span class=\"redactado\">La glucólisis es la ruta catabólica del citosol, anaerobia, en la que una molécula de glucosa (6 C) se oxida y se rompe en dos de piruvato (3 C), con una ganancia neta de 2 ATP (por fosforilación a nivel de sustrato) y 2 NADH.</span>",
+    "<b>I.</b> <span class=\"redactado\">Reacción global: glucosa + 2 NAD⁺ + 2 ADP + 2 Pi → 2 piruvato (ácido pirúvico) + 2 NADH + 2 H⁺ + 2 ATP + 2 H₂O.</span>",
+    "<b>I.</b> <span class=\"redactado\">El piruvato puede seguir la respiración aerobia (con O₂): en la mitocondria se oxida a acetil-CoA, que entra en el ciclo de Krebs; los productos finales son CO₂ y H₂O y se obtienen unos 36-38 ATP por glucosa (30-32 según los cálculos actuales). O la fermentación (sin O₂), en el citosol: los productos finales son orgánicos y aún tienen energía (lactato en la láctica; etanol y CO₂ en la alcohólica) y solo se obtienen los 2 ATP de la glucólisis.</span>",
+    "<b>II.</b> <span class=\"redactado\">Es la fase luminosa de la fotosíntesis (transporte electrónico no cíclico y fotofosforilación) en la membrana del tilacoide.</span>",
+    "<b>II.</b> <span class=\"redactado\">A, estroma del cloroplasto; B, lumen o espacio intratilacoidal. C, H₂O; D, H⁺ (protones); E, NADP⁺; F, NADPH; G, ADP + Pi; H, ATP.</span>",
+    "<b>II.</b> <span class=\"redactado\">La síntesis de ATP (H) la impulsa el gradiente de protones (fuerza protonmotriz) entre el lumen y el estroma: los H⁺ vuelven al estroma a través de la ATP sintasa y esa energía se usa para fosforilar el ADP (quimiosmosis). El gradiente se crea gracias a la energía de la luz captada por los fotosistemas, que mueve los electrones desde el agua.</span>"
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2025-cantabria-modelo-9",
+    "pau2025-cantabria-modelo-10"
+   ],
+   "origen": {
+    "documento": "Ejemplo de examen PAU 2025 de Cantabria (Universidad de Cantabria) · Modelo (ejemplo) 2024-25",
+    "referencia": "Modelo (ejemplo) 2024-25, pregunta 9 + Modelo (ejemplo) 2024-25, pregunta 10",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/CANTABRIA.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/cantabria-modelo-10.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/cantabria-modelo-10.thumb.webp",
+   "imageDesc": "Figura 1: membrana con varios complejos (PS II, PQ, Cyt b₆f, PC, PS I, Fd y un complejo con canal). Arriba el espacio A y abajo el B. La luz llega a PS II, que toma C y libera ½ O₂ + 2 D; los electrones pasan hasta Fd, donde E se transforma en F; D pasa de arriba abajo por Cyt b₆f y de abajo arriba por el último complejo, que transforma G en H."
+  },
+  {
+   "id": "pau2025-cantabria-modelo-11+12",
+   "block": "Microbiología",
+   "topic": "Fermentación alcohólica y láctica en la industria alimentaria · Ingeniería genética y biotecnología",
+   "anio": 2025,
+   "etiqueta": "Modelo Cantabria 24-25",
+   "hasImg": false,
+   "q": "<b>I.</b> Los microorganismos están implicados en diversos procesos industriales para obtener productos alimenticios como vino, cerveza, etc. a) ¿Cuál es el proceso metabólico que tiene lugar en estos productos? b) ¿Qué tipo de microorganismo (y su nombre) lo lleva a cabo? c) Escriba el balance global de esta reacción. Cite otro proceso similar en el que el producto de la reacción sea diferente, indique el alimento producido, el microorganismo involucrado, y el balance global de la reacción. <i>(1,25 puntos)</i><br><br><b>II.</b> Comente brevemente los conceptos: ingeniería genética y biotecnología, indicando el papel de la primera en el desarrollo de la segunda. Cite algún producto biotecnológico que se obtenga por intervención de la ingeniería genética y otro en el que esta no intervenga. <i>(1,25 puntos)</i>",
+   "puntos": 2.5,
+   "c": [
+    "<b>I.</b> <span class=\"redactado\">a) La fermentación alcohólica.</span>",
+    "<b>I.</b> <span class=\"redactado\">b) Levaduras (hongos unicelulares), sobre todo Saccharomyces cerevisiae.</span>",
+    "<b>I.</b> <span class=\"redactado\">c) C₆H₁₂O₆ (glucosa) → 2 CH₃–CH₂OH (etanol) + 2 CO₂ + 2 ATP.</span>",
+    "<b>I.</b> <span class=\"redactado\">Otro proceso: la fermentación láctica, con la que se obtiene el yogur (y quesos, kéfir…), llevada a cabo por bacterias lácticas como Lactobacillus bulgaricus y Streptococcus thermophilus. Balance: C₆H₁₂O₆ → 2 CH₃–CHOH–COOH (ácido láctico) + 2 ATP.</span>",
+    "<b>II.</b> <span class=\"redactado\">Biotecnología: uso de seres vivos, sus células o sus componentes para obtener productos o servicios útiles (alimentos, fármacos, depuración…). Ingeniería genética: conjunto de técnicas que permiten manipular el ADN, aislar genes, modificarlos y transferirlos de un organismo a otro (ADN recombinante).</span>",
+    "<b>II.</b> <span class=\"redactado\">La ingeniería genética ha impulsado la biotecnología moderna: permite crear organismos modificados genéticamente que fabrican productos nuevos o en mayor cantidad. Producto con ingeniería genética: la insulina humana producida por bacterias (E. coli) transgénicas, o el maíz Bt. Producto sin ella: el pan, el vino, la cerveza o el yogur (biotecnología tradicional).</span>"
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2025-cantabria-modelo-11",
+    "pau2025-cantabria-modelo-12"
+   ],
+   "origen": {
+    "documento": "Ejemplo de examen PAU 2025 de Cantabria (Universidad de Cantabria) · Modelo (ejemplo) 2024-25",
+    "referencia": "Modelo (ejemplo) 2024-25, pregunta 11 + Modelo (ejemplo) 2024-25, pregunta 12",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/CANTABRIA.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2025-murcia-modelo-3",
+   "block": "Biomoléculas",
+   "topic": "ARN: nucleótidos, enlaces y diferencias con el ADN",
+   "anio": 2025,
+   "etiqueta": "Modelo Murcia 24-25",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "<b>En relación con el ARN:</b><br>A) Nombre las unidades estructurales que lo forman y el enlace que las une; nombre los componentes de estas unidades estructurales y los enlaces que los unen (1,4 puntos).<br>B) Explique las diferencias con respecto al ADN en cuanto a su composición química (0,6 puntos).",
+   "c": [
+    "<span class=\"redactado\">A) Está formado por ribonucleótidos, unidos por enlaces fosfodiéster (entre el fosfato del carbono 5' de un nucleótido y el –OH del carbono 3' del siguiente). Cada nucleótido tiene una pentosa (ribosa), una base nitrogenada (adenina, guanina, citosina o uracilo) y ácido fosfórico. La base se une al carbono 1' de la ribosa por un enlace N-glucosídico (forma un nucleósido) y el fosfato se une al carbono 5' por un enlace éster (fosfoéster).</span>",
+    "<span class=\"redactado\">B) El ARN tiene ribosa y el ADN desoxirribosa (sin –OH en el carbono 2'); el ARN tiene uracilo en lugar de timina. Además, el ARN suele ser monocatenario y el ADN bicatenario.</span>"
+   ],
+   "origen": {
+    "documento": "Modelo de examen PAU 2025 de la Región de Murcia · Modelo de examen 2024-25",
+    "referencia": "Modelo de examen 2024-25, pregunta 3",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MURCIA-PAU-2025.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2025-murcia-modelo-4",
+   "block": "Célula",
+   "topic": "Meiosis: metafase I, huso acromático, sobrecruzamiento y resultado",
+   "anio": 2025,
+   "etiqueta": "Modelo Murcia 24-25",
+   "hasImg": true,
+   "puntos": 2,
+   "competencial": true,
+   "q": "<b>La figura muestra una célula 2n=6.</b><br>A) ¿Qué tipo de división celular representa? ¿En qué fase concreta se encuentra la célula? (0,4 puntos).<br>B) Identifique la estructura señalada con la flecha y explique qué componentes la forman y cómo se unen a los cromosomas (0,6 puntos).<br>C) Nombre el proceso que se ha dado en los cromosomas previamente y que contribuye al aumento de la variabilidad genética (0,2 puntos).<br>D) Indique, razonando las respuestas, el resultado final de la división en cuanto al número de células resultantes y a su material genético (0,8 puntos).",
+   "c": [
+    "<span class=\"redactado\">A) Una meiosis, en metafase I: los cromosomas homólogos están apareados formando tres bivalentes (2n = 6) colocados en la placa ecuatorial.</span>",
+    "<span class=\"redactado\">B) El huso acromático (mitótico o meiótico). Está formado por microtúbulos (polímeros de tubulina α y β) que parten de los centrosomas, con sus centriolos, situados en los polos. Los microtúbulos cinetocóricos se unen a los cromosomas por los cinetocoros, estructuras proteicas situadas en el centrómero; en la metafase I, los cinetocoros de cada homólogo quedan orientados hacia un mismo polo.</span>",
+    "<span class=\"redactado\">C) El sobrecruzamiento (entrecruzamiento o crossing-over), en la profase I: intercambio de fragmentos entre cromátidas de cromosomas homólogos (recombinación genética).</span>",
+    "<span class=\"redactado\">D) Cuatro células haploides (n = 3), cada una con un cromosoma de cada par formado por una sola cromátida. La primera división separa los homólogos (reduce el número de cromosomas a la mitad) y la segunda, las cromátidas hermanas. Las cuatro son genéticamente distintas entre sí y de la célula madre, por el sobrecruzamiento y la segregación al azar de los homólogos.</span>"
+   ],
+   "origen": {
+    "documento": "Modelo de examen PAU 2025 de la Región de Murcia · Modelo de examen 2024-25",
+    "referencia": "Modelo de examen 2024-25, pregunta 4",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MURCIA-PAU-2025.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/murcia-modelo-4.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/murcia-modelo-4.thumb.webp",
+   "imageDesc": "Célula con dos polos con centriolos de los que salen fibras; en el centro, tres parejas de cromosomas homólogos (cada pareja con un cromosoma claro y otro oscuro que se cruzan) alineadas en el ecuador; una flecha señala las fibras que van de los polos a los cromosomas.",
+   "isNew": true
+  },
+  {
+   "id": "pau2025-murcia-modelo-5",
+   "block": "Metabolismo",
+   "topic": "Destinos del piruvato: respiración aerobia y fermentación",
+   "anio": 2025,
+   "etiqueta": "Modelo Murcia 24-25",
+   "hasImg": false,
+   "puntos": 2,
+   "competencial": false,
+   "q": "Explique las dos vías alternativas que pueden seguir las moléculas obtenidas en la glucólisis dependiendo de la disponibilidad de O<sub>2</sub>; indique sus productos finales y cuál de ellas ofrece un mayor rendimiento energético (no es necesario explicar el balance energético de cada una); mencione, en ambos casos, las rutas metabólicas que tienen lugar y su localización precisa en la célula (2 puntos).",
+   "c": [
+    "<span class=\"redactado\">Con O₂, respiración aerobia: el piruvato entra en la mitocondria y se transforma en acetil-CoA por descarboxilación oxidativa (matriz mitocondrial); el acetil-CoA se oxida en el ciclo de Krebs (matriz); el NADH y el FADH₂ ceden sus electrones a la cadena respiratoria, cuyo aceptor final es el O₂, y se sintetiza ATP por fosforilación oxidativa en la ATP sintasa (membrana mitocondrial interna, crestas). Productos finales: CO₂ y H₂O.</span>",
+    "<span class=\"redactado\">Sin O₂, fermentación, en el citosol: el NADH de la glucólisis reduce el piruvato para regenerar el NAD⁺. Fermentación láctica: el piruvato pasa a lactato (músculo, bacterias lácticas). Fermentación alcohólica: el piruvato se descarboxila a acetaldehído, que se reduce a etanol, con liberación de CO₂ (levaduras). Los productos finales son orgánicos.</span>",
+    "<span class=\"redactado\">La respiración aerobia rinde mucho más energía, porque oxida la glucosa por completo hasta CO₂; la fermentación solo aprovecha el ATP de la glucólisis.</span>"
+   ],
+   "origen": {
+    "documento": "Modelo de examen PAU 2025 de la Región de Murcia · Modelo de examen 2024-25",
+    "referencia": "Modelo de examen 2024-25, pregunta 5",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MURCIA-PAU-2025.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": false
+  },
+  {
+   "id": "pau2025-murcia-modelo-a1+a2",
+   "block": "Metabolismo",
+   "topic": "Intercambio de gases en una planta: fotosíntesis y respiración · Herencia ligada al cromosoma X: portadora y afectado",
+   "anio": 2025,
+   "etiqueta": "Modelo Murcia 24-25",
+   "hasImg": true,
+   "q": "<b>I.</b> <b>En una visita a un laboratorio de investigación de la región le muestran cómo se registra el intercambio de gases en las plantas. Utilizan una planta aislada del ambiente en el interior de una campana de vidrio, en la que introducen sensores para medir la concentración de dióxido de carbono y oxígeno. Dejan el montaje a la luz del día, entre las 7 h y las 13 h, y registran los resultados en el siguiente gráfico.</b><br>A) Explique qué ocurre con los niveles de oxígeno entre las 8 y las 10 h de la mañana, cuál es el origen de ese oxígeno y qué relación tiene con la presencia de luz (0,6 puntos).<br>B) Explique qué ocurre con los niveles de CO<sub>2</sub> en ese mismo periodo de tiempo y a qué se debe (0,6 puntos).<br>C) Localice en las células de la planta los procesos responsables de estas variaciones de forma precisa (0,3 puntos). <i>(1,5 puntos)</i><br><br><b>II.</b> <b>María es una mujer sana, pero su padre, Ernesto, murió a causa de una enfermedad de la sangre determinada por un alelo recesivo localizado en el cromosoma X, cuya herencia está, por tanto, ligada al sexo. María quiere tener hijos con Daniel, que sufre la misma enfermedad que Ernesto, y se pregunta si podrían tener descendencia que no desarrolle esta enfermedad. Compruébelo contestando las siguientes preguntas:</b><br>A) Indique los genotipos de María y de Daniel, razonando la respuesta (0,5 puntos).<br>B) Represente el cruce entre ambos e indique las proporciones fenotípicas esperadas en su descendencia (1 punto). <i>(1,5 puntos)</i>",
+   "puntos": 3.0,
+   "c": [
+    "<b>I.</b> <span class=\"redactado\">A) El oxígeno aumenta, porque con la luz la fotosíntesis supera a la respiración y la planta libera más O₂ del que consume. Ese O₂ procede de la fotólisis del agua en la fase luminosa: el fotosistema II, excitado por la luz, repone los electrones que pierde rompiendo moléculas de agua (2 H₂O → 4 H⁺ + 4 e⁻ + O₂). Sin luz no hay fotólisis ni desprendimiento de O₂.</span>",
+    "<b>I.</b> <span class=\"redactado\">B) El CO₂ disminuye, porque la planta lo fija en el ciclo de Calvin (la RuBisCO lo une a la ribulosa-1,5-bisfosfato) más deprisa de lo que lo libera la respiración. Como la campana está cerrada, a partir de las 10 h aproximadamente los niveles se estabilizan.</span>",
+    "<b>I.</b> <span class=\"redactado\">C) En los cloroplastos de las células del mesófilo de las hojas: la fotólisis del agua y la liberación de O₂, en la membrana de los tilacoides (fotosistema II, en la cara del lumen); la fijación del CO₂ (ciclo de Calvin), en el estroma. La respiración, que consume O₂ y libera CO₂, tiene lugar en las mitocondrias (ciclo de Krebs en la matriz, cadena respiratoria en la membrana interna).</span>",
+    "<b>II.</b> <span class=\"redactado\">A) Sea X<sup>A</sup> el alelo normal (dominante) y X<sup>a</sup> el de la enfermedad. María es X<sup>A</sup>X<sup>a</sup>, portadora: está sana, así que tiene un X<sup>A</sup>, pero de su padre enfermo (X<sup>a</sup>Y) recibió necesariamente su X<sup>a</sup>. Daniel, enfermo, es X<sup>a</sup>Y.</span>",
+    "<b>II.</b> <span class=\"redactado\">B) X<sup>A</sup>X<sup>a</sup> × X<sup>a</sup>Y. Gametos de María: X<sup>A</sup> y X<sup>a</sup>; de Daniel: X<sup>a</sup> e Y. Descendencia: 1/4 X<sup>A</sup>X<sup>a</sup> (hijas sanas portadoras), 1/4 X<sup>a</sup>X<sup>a</sup> (hijas enfermas), 1/4 X<sup>A</sup>Y (hijos sanos) y 1/4 X<sup>a</sup>Y (hijos enfermos). En conjunto, 1/2 sanos y 1/2 enfermos (en cada sexo, la mitad); por tanto, sí pueden tener descendencia sana.</span>"
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2025-murcia-modelo-a1",
+    "pau2025-murcia-modelo-a2"
+   ],
+   "origen": {
+    "documento": "Modelo de examen PAU 2025 de la Región de Murcia · Modelo de examen 2024-25",
+    "referencia": "Modelo de examen 2024-25, opción A, pregunta 1 + Modelo de examen 2024-25, opción A, pregunta 2",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MURCIA-PAU-2025.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/murcia-modelo-1-1.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/murcia-modelo-1-1.thumb.webp",
+   "imageDesc": "Gráfica de la cantidad de gases frente a la hora del día (de 7 a 13 h): la curva del oxígeno parte de cero, sube rápido hasta las 10 h y luego se mantiene; la del dióxido de carbono parte alta, baja hasta las 10 h y luego se mantiene."
+  },
+  {
+   "id": "pau2025-murcia-modelo-b1+b2",
+   "block": "Biomoléculas",
+   "topic": "Grasas saturadas e insaturadas; fibra alimentaria · Herencia autosómica con dominancia: rabo corto y largo en perros",
+   "anio": 2025,
+   "etiqueta": "Modelo Murcia 24-25",
+   "hasImg": true,
+   "q": "<b>I.</b> <b>En un paquete de galletas aparece la información nutricional que se muestra en la tabla:</b><br>A) ¿A qué tipo de biomoléculas hacen referencia las grasas saturadas, monoinsaturadas o poliinsaturadas? Explique a qué se refieren esos términos y cómo afectan estas biomoléculas a nuestra salud. Explique un posible destino o un uso de algún constituyente de esas biomoléculas en nuestras células (0,75 puntos).<br>B) ¿A qué tipo de biomoléculas hace referencia el término fibra alimentaria? Explique dos de los beneficios que proporcionan a nuestro organismo e indique su procedencia (de qué componentes celulares forman parte) (0,75 puntos). <i>(1,5 puntos)</i><br><br><b>II.</b> <b>En una raza de perros la presencia de un rabo corto o un rabo largo es un carácter determinado por un gen autosómico con dos alelos que presentan una relación de dominancia. Un perro con rabo corto se cruzó con tres perras: con la perra I, de rabo corto, tuvo un cachorro con rabo largo; con la perra II, que tenía rabo largo, tuvo un cachorro con rabo corto; con la perra III, también de rabo largo, tuvo un cachorro con rabo largo.</b><br>A) Razone si el carácter dominante es la presencia de un rabo corto o de un rabo largo (0,4 puntos).<br>B) Indique el genotipo de los perros mencionados y represente los cruces descritos (1,1 puntos). <i>(1,5 puntos)</i>",
+   "puntos": 3.0,
+   "c": [
+    "<b>I.</b> <span class=\"redactado\">A) A lípidos saponificables, sobre todo triacilglicéridos (grasas), formados por glicerina y ácidos grasos. Los términos se refieren a los ácidos grasos: saturados, sin dobles enlaces en la cadena; monoinsaturados, con un doble enlace (oleico); poliinsaturados, con varios (linoleico, omega-3). Un exceso de grasas saturadas (y trans) eleva el colesterol LDL y favorece la aterosclerosis y las enfermedades cardiovasculares; las insaturadas, con moderación, ayudan a reducirlo. Destino: los ácidos grasos pueden degradarse por β-oxidación a acetil-CoA, que entra en el ciclo de Krebs y produce ATP, o usarse para formar fosfolípidos de membrana; la glicerina puede entrar en la glucólisis.</span>",
+    "<b>I.</b> <span class=\"redactado\">B) A glúcidos: polisacáridos que no podemos digerir, como la celulosa, la hemicelulosa o las pectinas. Beneficios: aumentan el volumen de las heces y facilitan el tránsito intestinal (evitan el estreñimiento), dan sensación de saciedad, reducen la absorción de colesterol y de glucosa y alimentan a la microbiota intestinal. Proceden de la pared celular de las células vegetales.</span>",
+    "<b>II.</b> <span class=\"redactado\">A) Domina el rabo corto: del cruce del perro y la perra I, los dos de rabo corto, nace un cachorro de rabo largo; ese carácter estaba oculto en ambos padres, que son heterocigotos, así que el rabo largo es recesivo.</span>",
+    "<b>II.</b> <span class=\"redactado\">B) C = rabo corto, c = rabo largo. Perro: Cc (rabo corto y tiene un cachorro cc con la perra I y con la III). Perra I: Cc. Perra II: cc. Perra III: cc. Cruces: perro Cc × perra I Cc → 1/4 CC, 1/2 Cc, 1/4 cc (3/4 corto, 1/4 largo); el cachorro de rabo largo es cc. Perro Cc × perra II cc → 1/2 Cc (corto), 1/2 cc (largo); el cachorro de rabo corto es Cc. Perro Cc × perra III cc → igual, 1/2 Cc y 1/2 cc; el cachorro de rabo largo es cc.</span>"
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2025-murcia-modelo-b1",
+    "pau2025-murcia-modelo-b2"
+   ],
+   "origen": {
+    "documento": "Modelo de examen PAU 2025 de la Región de Murcia · Modelo de examen 2024-25",
+    "referencia": "Modelo de examen 2024-25, opción B, pregunta 1 + Modelo de examen 2024-25, opción B, pregunta 2",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MURCIA-PAU-2025.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/murcia-modelo-1-2.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/murcia-modelo-1-2.thumb.webp",
+   "imageDesc": "Tabla de valores nutricionales de unas galletas (por 100 g / por ración de 5 galletas): valor energético 1812/429 kJ/kcal; grasas 9,0 g, de las cuales saturadas 4,3 g, monoinsaturadas 3,3 g y poliinsaturadas 1,4 g; hidratos de carbono 79 g, de los cuales azúcares 23 g; fibra alimentaria 2,5 g; proteínas 7,3 g; sal 1,0 g."
+  },
+  {
+   "id": "pau2025-murcia-modelo-6+7",
+   "block": "Genética",
+   "topic": "Gen, intrón, exón y factor epigenético · Técnicas de ingeniería genética y aplicaciones",
+   "anio": 2025,
+   "etiqueta": "Modelo Murcia 24-25",
+   "hasImg": false,
+   "q": "<b>I.</b> Explique los siguientes conceptos: a) gen; b) intrón; c) exón; d) factor epigenético (1 punto). <i>(1 punto)</i><br><br><b>II.</b> Nombre dos técnicas de ingeniería genética y explique, de forma concisa, en qué consisten y para qué se utilizan; mencione una aplicación de cada una (1 punto). <i>(1 punto)</i>",
+   "puntos": 2,
+   "c": [
+    "<b>I.</b> <span class=\"redactado\">a) Gen: fragmento de ADN que contiene la información para sintetizar un ARN o una cadena polipeptídica; es la unidad de información hereditaria.</span>",
+    "<b>I.</b> <span class=\"redactado\">b) Intrón: secuencia de un gen eucariota que se transcribe pero no forma parte del ARNm maduro, porque se elimina en la maduración (corte y empalme).</span>",
+    "<b>I.</b> <span class=\"redactado\">c) Exón: secuencia de un gen que se conserva en el ARN maduro y, en los genes de proteínas, se traduce.</span>",
+    "<b>I.</b> <span class=\"redactado\">d) Factor epigenético: modificación heredable que altera la expresión de los genes sin cambiar la secuencia del ADN, como la metilación del ADN o la acetilación y metilación de las histonas; puede depender del ambiente (dieta, tóxicos, estrés).</span>",
+    "<b>II.</b> <span class=\"redactado\">Por ejemplo: PCR (reacción en cadena de la polimerasa): amplifica millones de veces un fragmento de ADN mediante ciclos de desnaturalización, hibridación de cebadores y extensión por una ADN polimerasa termoestable (Taq); sirve para obtener mucho ADN a partir de muy poco. Aplicación: diagnóstico de infecciones o identificación forense.</span>",
+    "<b>II.</b> <span class=\"redactado\">Tecnología del ADN recombinante (clonación de genes): se corta el ADN con enzimas de restricción, se inserta el gen en un vector (plásmido) con la ADN ligasa y se introduce en una célula hospedadora, que lo multiplica y lo expresa. Aplicación: producción de insulina humana por bacterias. También valen CRISPR-Cas9 (edición de genes: terapia génica), la secuenciación o la electroforesis.</span>"
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2025-murcia-modelo-6",
+    "pau2025-murcia-modelo-7"
+   ],
+   "origen": {
+    "documento": "Modelo de examen PAU 2025 de la Región de Murcia · Modelo de examen 2024-25",
+    "referencia": "Modelo de examen 2024-25, pregunta 6 + Modelo de examen 2024-25, pregunta 7",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/MODELO-MURCIA-PAU-2025.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2025-galicia-modelo-1",
+   "block": "Biotecnología",
+   "topic": "Diabetes: avances biotecnológicos, insulina recombinante, sacarosa y sacarasa",
+   "anio": 2025,
+   "etiqueta": "Modelo Galicia 24-25",
+   "hasImg": true,
+   "puntos": 2.5,
+   "competencial": true,
+   "q": "<b>TEXTO: Los 250.000 gallegos con diabetes de tipo 2 tendrán una asistencia integral. Los recursos tecnológicos a disposición de los facultativos para el tratamiento de la diabetes han experimentado una revolución en los últimos años a cuenta de los sensores digitales —que permiten una lectura automática de los niveles de glucosa al minuto— y de las bombas de insulina —que la administran de forma continuada, sin necesidad de estar pendiente de los pinchazos—. De la combinación de ambos sistemas, y con inteligencia artificial de por medio, se espera el próximo gran salto adelante, que es lo que se conoce como «páncreas artificial». Frente al tipo 2, la «diabetes del adulto», que, «cuanto mayor te haces, más posibilidades tienes de desarrollarla», lo fundamental es la «prevención», porque, aunque no se puede evitar ni curar como enfermedad crónica que es, sí se puede, cuanto menos, «retrasar su evolución». (Adaptado de: La Voz de Galicia, 1 de diciembre de 2023)</b><br>1.1. Identifique en el texto dos avances biotecnológicos e indique sus aportaciones al tratamiento de la diabetes.<br>1.2. Explique, brevemente, cómo la biotecnología se puede utilizar para producir insulina. En la explicación deben aparecer las siguientes palabras clave: bacteria(s), enzima(s) de restricción, insulina, plásmido(s), recombinante(s).<br>1.3. Uno de los alimentos que se debe limitar en la dieta en personas con diabetes tipo 2 y, en general, en toda la población es el azúcar. Identifique la molécula de azúcar entre las moléculas (A, B, C) de la figura, e indique su nombre científico. ¿A qué tipo y subtipo de moléculas orgánicas pertenece?<br>1.4. Cuando la molécula de azúcar es metabolizada, da lugar a la liberación de dos monómeros. Indique el nombre de la enzima responsable y el de los monómeros liberados.<br>1.5. Pese a los avances tecnológicos, ¿qué medida sigue siendo fundamental en la diabetes tipo 2? Cite dos ejemplos concretos.",
+   "c": [
+    "<span class=\"redactado\">1.1) Los sensores digitales de glucosa, que miden de forma continua y automática la glucemia, y las bombas de insulina, que la administran de forma continua sin pinchazos. Su combinación con inteligencia artificial daría lugar al «páncreas artificial», que ajustaría automáticamente la dosis de insulina a la glucosa medida.</span>",
+    "<span class=\"redactado\">1.2) Se aísla el gen humano de la insulina y se corta, junto con un plásmido bacteriano, con la misma enzima de restricción, de modo que quedan extremos complementarios; la ADN ligasa une el gen al plásmido y se obtiene un plásmido recombinante. Este se introduce en bacterias (por ejemplo, E. coli), que se seleccionan y se cultivan a gran escala; al multiplicarse expresan el gen y producen insulina humana recombinante, que se extrae y se purifica.</span>",
+    "<span class=\"redactado\">1.3) El azúcar es la molécula A, la sacarosa: α-D-glucopiranosil-1,2-β-D-fructofuranósido: glucosa y fructosa unidas por un enlace O-glucosídico entre sus carbonos anoméricos, α1→β2. Es un glúcido (tipo), del subtipo de los disacáridos (oligosacáridos). Por su forma, B es la lactosa y C la maltosa.</span>",
+    "<span class=\"redactado\">1.4) La sacarasa (invertasa o β-fructofuranosidasa), que la hidroliza en glucosa y fructosa.</span>",
+    "<span class=\"redactado\">1.5) La prevención mediante hábitos de vida saludables: por ejemplo, una dieta equilibrada (con pocos azúcares y grasas saturadas y rica en fibra) y la práctica regular de ejercicio físico, que ayudan a controlar el peso.</span>"
+   ],
+   "origen": {
+    "documento": "Modelo de examen PAU 2025 de Galicia (CiUG, código 21) · Modelo 2024-25",
+    "referencia": "Modelo 2024-25, pregunta 1",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/modelo-galicia-PAU-2025.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/galicia-modelo-1.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/galicia-modelo-1.thumb.webp",
+   "imageDesc": "Tres disacáridos en proyección de Haworth: A, un anillo de seis vértices unido por un oxígeno a uno de cinco; B y C, dos anillos de seis vértices unidos por un oxígeno, con distinta orientación de sus grupos –OH.",
+   "isNew": true
+  },
+  {
+   "id": "pau2025-galicia-modelo-a2",
+   "block": "Genética",
+   "topic": "Complementariedad de bases; transcripción y α-amanitina",
+   "anio": 2025,
+   "etiqueta": "Modelo Galicia 24-25",
+   "hasImg": false,
+   "puntos": 2.5,
+   "competencial": true,
+   "q": "<b>2.1.</b> Una hebra de ADN posee la siguiente composición de bases nitrogenadas: A=21%, G=30%, C=26% y T=23%. Esta hebra es replicada por la ADN-polimerasa, y la cadena resultante es utilizada como modelo para sintetizar ARNm. Indique y razone cuál será la composición de bases que tendrá el ARN producido (1 punto).<br><b>2.2.</b> (1,5 puntos) <b>2.2.1.</b> El emperador romano Claudio murió, probablemente, envenenado tras la ingesta de setas de la especie <i>Amanita phalloides</i>, una de las más peligrosas que se conocen. Su toxicidad es debida a unas proteínas, denominadas amanitinas, que inhiben la acción de la enzima ARN polimerasa II. A) ¿Qué nombre recibe el proceso biológico bloqueado por la β-amanitina y en qué lugar de la célula se produce? B) ¿Qué moléculas se forman como consecuencia de este proceso? C) Si tratamos un cultivo de bacterias con amanitinas, ¿se produciría el mismo efecto? Indique el motivo. D) Las amanitinas se caracterizan por ser resistentes a la cocción. Teniendo en cuenta esta característica, ¿se podría evitar su toxicidad al cocinar las setas?",
+   "c": [
+    "<span class=\"redactado\">2.1) La hebra que se forma en la replicación es complementaria de la original: T=21%, C=30%, G=26% y A=23%. El ARNm, complementario de esta, tiene la misma composición que la hebra original, con U en lugar de T: A=21%, G=30%, C=26% y U=23%.</span>",
+    "<span class=\"redactado\">2.2.1) A) La transcripción (síntesis de ARN a partir de ADN), que en las células eucariotas se produce en el núcleo. B) La ARN polimerasa II sintetiza los precursores de los ARN mensajeros (pre-ARNm), que tras madurar dan los ARNm (y algunos ARN pequeños). C) No: las bacterias tienen una sola ARN polimerasa, distinta de la ARN polimerasa II eucariota, que no es sensible a las amanitinas. D) No: si resisten la cocción, el calor no las desnaturaliza ni las inactiva, así que las setas cocinadas siguen siendo tóxicas.</span>"
+   ],
+   "origen": {
+    "documento": "Modelo de examen PAU 2025 de Galicia (CiUG, código 21) · Modelo 2024-25",
+    "referencia": "Modelo 2024-25, opción A, pregunta 2",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/modelo-galicia-PAU-2025.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "isNew": true
+  },
+  {
+   "id": "pau2025-galicia-modelo-b2",
+   "block": "Genética",
+   "topic": "Complementariedad de bases; la traducción en el ribosoma",
+   "anio": 2025,
+   "etiqueta": "Modelo Galicia 24-25",
+   "hasImg": true,
+   "puntos": 2.5,
+   "competencial": true,
+   "q": "<b>2.1.</b> Una hebra de ADN posee la siguiente composición de bases nitrogenadas: A=21%, G=30%, C=26% y T=23%. Esta hebra es replicada por la ADN-polimerasa, y la cadena resultante es utilizada como modelo para sintetizar ARNm. Indique y razone cuál será la composición de bases que tendrá el ARN producido (1 punto).<br><b>2.2.</b> (1,5 puntos) <b>2.2.2.</b> A) Relacione los números de la figura con los siguientes elementos: aminoácido, ARNt, cadena polipeptídica, centro A, centro E, centro P, codón, extremo 3', extremo 5', subunidad grande, subunidad pequeña. B) Enumere las fases del proceso biológico representado en la figura.",
+   "c": [
+    "<span class=\"redactado\">2.1) La hebra que se forma en la replicación es complementaria de la original: T=21%, C=30%, G=26% y A=23%. El ARNm, complementario de esta, tiene la misma composición que la hebra original, con U en lugar de T: A=21%, G=30%, C=26% y U=23%.</span>",
+    "<span class=\"redactado\">2.2.2) A) 1, subunidad grande; 2, centro E; 3, centro P (con el ARNt que lleva la cadena); 4, cadena polipeptídica (Met-Trp); 5, centro A; 6, aminoácido (Phe); 7, ARNt; 8, extremo 3' del ARNm; 9, subunidad pequeña; 10, codón (UGG); 11, extremo 5' del ARNm. El 12 señala el anticodón (ACC), que no está en la lista. B) Es la traducción: iniciación, elongación y terminación (precedidas por la activación de los aminoácidos, que se unen a su ARNt).</span>"
+   ],
+   "origen": {
+    "documento": "Modelo de examen PAU 2025 de Galicia (CiUG, código 21) · Modelo 2024-25",
+    "referencia": "Modelo 2024-25, opción B, pregunta 2",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/modelo-galicia-PAU-2025.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/galicia-modelo-2b.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/galicia-modelo-2b.thumb.webp",
+   "imageDesc": "Ribosoma sobre un ARNm (…AUGUGGUUC…) con doce números: 1, la parte superior grande; 2, 3 y 5, tres huecos de izquierda a derecha (en el 3 hay un ARNt con anticodón ACC que lleva Met-Trp, señalado con 4); 6, un aminoácido Phe unido a un ARNt (7) con anticodón AAG que se acerca al hueco 5; 8 y 11, los extremos derecho e izquierdo del ARNm; 9, la parte inferior pequeña; 10, el triplete UGG; 12, el triplete ACC.",
+   "isNew": true
+  },
+  {
+   "id": "pau2025-galicia-modelo-a3",
+   "block": "Célula",
+   "topic": "Célula vegetal; fermentación alcohólica en el pan",
+   "anio": 2025,
+   "etiqueta": "Modelo Galicia 24-25",
+   "hasImg": true,
+   "puntos": 2.5,
+   "competencial": true,
+   "q": "<b>3.1.</b> Indique el nombre de los elementos señalados con los números 1-6 en la figura. ¿Qué tipo de célula está representada? Justifique la respuesta (1 punto).<br><b>3.2.</b> (1,5 puntos) <b>3.2.1.</b> Si dejamos reposar la masa del pan durante un par de horas, se puede observar un importante aumento de su volumen. A) ¿Cómo se denomina la reacción química responsable de este efecto? B) Indique el compuesto inicial y los productos finales de esa reacción. ¿Cuál de ellos es responsable del aumento de volumen? C) Indique dos alimentos en cuya elaboración interviene esa reacción química. D) Cuando se elabora pan tradicional, se suele utilizar masa madre ya que contiene microorganismos que aceleran dicho proceso, ¿de qué microorganismos se trata?",
+   "c": [
+    "<span class=\"redactado\">3.1) 1, núcleo; 2, vacuola; 3, cloroplasto; 4, mitocondria; 5, pared celular; 6, membrana plasmática. Es una célula eucariota vegetal: tiene núcleo y orgánulos membranosos (eucariota) y, además, pared celular, cloroplastos y una gran vacuola central, propios de las células vegetales.</span>",
+    "<span class=\"redactado\">3.2.1) A) La fermentación alcohólica. B) Compuesto inicial: glucosa (procedente del almidón de la harina). Productos finales: etanol y CO₂ (C₆H₁₂O₆ → 2 CH₃–CH₂OH + 2 CO₂). El CO₂, que forma burbujas en la masa, es el responsable del aumento de volumen; el etanol se evapora al hornear. C) Por ejemplo, el vino y la cerveza (también la sidra). D) De levaduras, como Saccharomyces cerevisiae (hongos unicelulares); la masa madre contiene además bacterias lácticas.</span>"
+   ],
+   "origen": {
+    "documento": "Modelo de examen PAU 2025 de Galicia (CiUG, código 21) · Modelo 2024-25",
+    "referencia": "Modelo 2024-25, opción A, pregunta 3",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/modelo-galicia-PAU-2025.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/galicia-modelo-3.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/galicia-modelo-3.thumb.webp",
+   "imageDesc": "Dibujo tridimensional de una célula con forma de prisma: 1, una estructura esférica grande; 2, un gran saco central; 3, orgánulos verdes ovalados con pilas de membranas; 4, orgánulos pequeños ovalados con crestas; 5, la cubierta gruesa exterior; 6, la membrana fina situada justo por dentro de esa cubierta.",
+   "isNew": true
+  },
+  {
+   "id": "pau2025-galicia-modelo-b3",
+   "block": "Célula",
+   "topic": "Célula vegetal; mecanismo de acción enzimática",
+   "anio": 2025,
+   "etiqueta": "Modelo Galicia 24-25",
+   "hasImg": true,
+   "puntos": 2.5,
+   "competencial": true,
+   "q": "<b>3.1.</b> Indique el nombre de los elementos señalados con los números 1-6 en la figura. ¿Qué tipo de célula está representada? Justifique la respuesta (1 punto).<br><b>3.2.</b> (1,5 puntos) <b>3.2.2.</b> En la figura se muestra el modo de acción de una enzima. A) ¿A qué tipo de biomoléculas pertenecen la mayoría de las enzimas? B) ¿Qué nombre reciben las moléculas señaladas con las letras A, B, C y D? C) ¿Cómo se denomina el lugar de A al que se une B? D) ¿Qué sucede en el paso de 2 a 3? Explíquelo brevemente.",
+   "c": [
+    "<span class=\"redactado\">3.1) 1, núcleo; 2, vacuola; 3, cloroplasto; 4, mitocondria; 5, pared celular; 6, membrana plasmática. Es una célula eucariota vegetal: tiene núcleo y orgánulos membranosos (eucariota) y, además, pared celular, cloroplastos y una gran vacuola central, propios de las células vegetales.</span>",
+    "<span class=\"redactado\">3.2.2) A) A las proteínas (algunas son ARN: ribozimas). B) A, enzima; B, sustrato; C y D, productos. C) Centro activo. D) En el complejo enzima-sustrato (2) se produce la reacción: el sustrato se transforma en los productos C y D, que se liberan; la enzima queda intacta y libre para unirse a una nueva molécula de sustrato.</span>"
+   ],
+   "origen": {
+    "documento": "Modelo de examen PAU 2025 de Galicia (CiUG, código 21) · Modelo 2024-25",
+    "referencia": "Modelo 2024-25, opción B, pregunta 3",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/modelo-galicia-PAU-2025.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/galicia-modelo-3-3b.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/galicia-modelo-3-3b.thumb.webp",
+   "imageDesc": "Arriba, la célula de 3.1 (prisma con núcleo, gran vacuola, cloroplastos, mitocondrias y pared, números 1 a 6). Abajo, la figura de 3.2.2: en 1 una molécula B se acerca a una hendidura de A; en 2 está encajada; en 3 salen de la hendidura dos piezas, C y D.",
+   "isNew": true
+  },
+  {
+   "id": "pau2025-galicia-modelo-a4",
+   "block": "Inmunología",
+   "topic": "Respuesta inmunitaria frente a un virus; células del sistema inmunitario",
+   "anio": 2025,
+   "etiqueta": "Modelo Galicia 24-25",
+   "hasImg": true,
+   "puntos": 2.5,
+   "competencial": true,
+   "q": "<b>4.1.</b> En la figura se muestra la respuesta inmunitaria frente a una infección vírica. A) Relacione las letras (A-F) de la figura con los siguientes términos: anticuerpos, célula presentadora de antígenos, célula plasmática, linfocito B, linfocito T citotóxico, linfocito T colaborador. B) Indique el nombre de una célula del sistema inmunitario que tenga capacidad de presentar antígenos (1 punto).<br><b>4.2.</b> (1,5 puntos) <b>4.2.1.</b> Indique cuáles de las siguientes características son propias de los leucocitos, de los macrófagos, de los linfocitos T o de los linfocitos B (algunas características son propias de más de un tipo celular): A) tienen su origen en la médula ósea; B) maduran en el timo; C) pertenecen a la línea linfoide; D) pertenecen a la línea mieloide; E) son responsables de la respuesta humoral; F) son responsables de la respuesta celular; G) tienen capacidad fagocítica; H) participan, principalmente, en la respuesta inmunitaria inespecífica; I) en tanto no completan su maduración, reciben el nombre de monocitos; J) pueden ser de tres tipos: neutrófilos, eosinófilos y basófilos.",
+   "c": [
+    "<span class=\"redactado\">4.1) A) A, célula presentadora de antígenos; B, linfocito T colaborador; C, linfocito T citotóxico; D, linfocito B; E, célula plasmática; F, anticuerpos. B) Por ejemplo, las células dendríticas, los macrófagos o los linfocitos B.</span>",
+    "<span class=\"redactado\">4.2.1) A) Todos: leucocitos, macrófagos, linfocitos T y linfocitos B. B) Linfocitos T. C) Linfocitos T y B. D) Macrófagos y leucocitos granulocitos. E) Linfocitos B. F) Linfocitos T. G) Macrófagos y leucocitos (neutrófilos). H) Macrófagos y leucocitos granulocitos. I) Macrófagos. J) Leucocitos (los granulocitos o polimorfonucleares).</span>"
+   ],
+   "origen": {
+    "documento": "Modelo de examen PAU 2025 de Galicia (CiUG, código 21) · Modelo 2024-25",
+    "referencia": "Modelo 2024-25, opción A, pregunta 4",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/modelo-galicia-PAU-2025.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/galicia-modelo-4.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/galicia-modelo-4.thumb.webp",
+   "imageDesc": "Esquema de la respuesta frente al SARS-CoV-2: una célula infectada; una célula con prolongaciones (A) que muestra fragmentos del virus a otra célula (B); B activa a C, que libera sustancias sobre una célula infectada y la destruye, y a D, que se transforma en E, que libera moléculas en forma de Y (F) que se unen a los virus.",
+   "isNew": true
+  },
+  {
+   "id": "pau2025-galicia-modelo-b4",
+   "block": "Inmunología",
+   "topic": "Respuesta inmunitaria frente a un virus; respuesta primaria y secundaria y vacunas",
+   "anio": 2025,
+   "etiqueta": "Modelo Galicia 24-25",
+   "hasImg": true,
+   "puntos": 2.5,
+   "competencial": true,
+   "q": "<b>4.1.</b> En la figura se muestra la respuesta inmunitaria frente a una infección vírica. A) Relacione las letras (A-F) de la figura con los siguientes términos: anticuerpos, célula presentadora de antígenos, célula plasmática, linfocito B, linfocito T citotóxico, linfocito T colaborador. B) Indique el nombre de una célula del sistema inmunitario que tenga capacidad de presentar antígenos (1 punto).<br><b>4.2.</b> (1,5 puntos) <b>4.2.2.</b> En la figura aparecen dos tipos de respuestas a la inyección de antígenos. A) ¿Cuál es la causa de la mayor respuesta a la segunda inyección del antígeno A? B) ¿Por qué cuando se dan conjuntamente los antígenos A y B, la respuesta al antígeno B es mucho más baja? C) ¿Hay alguna relación entre las respuestas observadas y las vacunas? Razone la respuesta.",
+   "c": [
+    "<span class=\"redactado\">4.1) A) A, célula presentadora de antígenos; B, linfocito T colaborador; C, linfocito T citotóxico; D, linfocito B; E, célula plasmática; F, anticuerpos. B) Por ejemplo, las células dendríticas, los macrófagos o los linfocitos B.</span>",
+    "<span class=\"redactado\">4.2.2) A) La memoria inmunológica: la primera inyección produjo una respuesta primaria que dejó linfocitos B y T de memoria específicos frente a A; con la segunda se activan enseguida y dan una respuesta secundaria, más rápida, intensa (unas 100 veces más anticuerpos) y duradera. B) Porque es el primer contacto con el antígeno B: no hay células de memoria frente a él (la respuesta es específica) y se produce una respuesta primaria, más lenta y débil. C) Sí: las vacunas provocan una respuesta primaria frente a un antígeno del patógeno, sin causar la enfermedad, y generan células de memoria; si después llega el patógeno, se produce una respuesta secundaria que lo elimina antes de que cause la enfermedad. Por eso algunas vacunas se refuerzan con varias dosis.</span>"
+   ],
+   "origen": {
+    "documento": "Modelo de examen PAU 2025 de Galicia (CiUG, código 21) · Modelo 2024-25",
+    "referencia": "Modelo 2024-25, opción B, pregunta 4",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/modelo-galicia-PAU-2025.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/galicia-modelo-4-4b.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/galicia-modelo-4-4b.thumb.webp",
+   "imageDesc": "Arriba, el esquema de 4.1 (letras A-F en la respuesta frente al SARS-CoV-2). Abajo, gráfica de la cantidad de anticuerpos en sangre (escala logarítmica, 1 a 100) frente al tiempo (días): tras inyectar el antígeno A el día 0 hay un pequeño pico hacia el día 15; tras inyectar A y B hacia el día 42, la respuesta al antígeno A sube hasta cerca de 100 y la del B solo hasta cerca de 1.",
+   "isNew": true
+  },
+  {
+   "id": "pau2025-cantabria-modelo-13+8",
+   "block": "Inmunología",
+   "topic": "Respuesta primaria y secundaria: escenarios en gemelos univitelinos · Respuesta inmunitaria primaria y secundaria",
+   "anio": 2025,
+   "etiqueta": "Modelo Cantabria 24-25",
+   "hasImg": true,
+   "q": "<b>I.</b> Los gemelos univitelinos presentan un genoma idéntico. En una pareja de gemelos univitelinos que se infectaron simultáneamente con SARS-CoV2, sin embargo, uno de ellos produjo una gran cantidad de anticuerpos en una semana, que el otro gemelo tardó tres semanas en producir. Razone del modo más completo posible los posibles escenarios que justificarían este comportamiento, dibujando en una gráfica uno de ellos. <i>(1,25 puntos)</i><br><br><b>II.</b> <b>En la gráfica se representa la concentración de anticuerpos en sangre, a lo largo del tiempo, en un individuo que se expone dos veces a un mismo antígeno (antígeno X).</b><br>A) ¿Qué representan las curvas A y B? (0,3 puntos).<br>B) Comente las diferencias en el tiempo necesario para la elevación de la concentración de anticuerpos en sangre y en la concentración de anticuerpos alcanzada tras la primera y la segunda exposición. ¿A qué se deben estas diferencias? (0,7 puntos). <i>(1 punto)</i>",
+   "puntos": 2.25,
+   "c": [
+    "<b>I.</b> <span class=\"redactado\">Escenario principal: el gemelo rápido ya había estado en contacto con el antígeno, por una infección anterior o por la vacuna, y tenía linfocitos B y T de memoria; dio una respuesta secundaria, rápida, intensa y con más IgG. El otro tuvo su primer contacto y dio una respuesta primaria, con un periodo de latencia más largo, menos anticuerpos y sobre todo IgM al principio.</span>",
+    "<b>I.</b> <span class=\"redactado\">Otros escenarios: el gemelo lento tenía el sistema inmunitario debilitado (inmunodeficiencia adquirida, tratamiento inmunosupresor, otra enfermedad, malnutrición o estrés), o recibió una dosis de virus distinta; a igual genoma, la experiencia inmunitaria y el ambiente pueden ser diferentes.</span>",
+    "<b>I.</b> <span class=\"redactado\">Gráfica: concentración de anticuerpos en sangre (eje Y) frente al tiempo (eje X). La curva primaria sube tarde y poco; la secundaria, tras un segundo contacto, sube antes, mucho más alto y se mantiene más tiempo.</span>",
+    "<b>II.</b> <span class=\"redactado\">A) A, la respuesta inmunitaria primaria (primer contacto con el antígeno X); B, la respuesta secundaria (segundo contacto).</span>",
+    "<b>II.</b> <span class=\"redactado\">B) En la primaria hay un periodo de latencia largo (días) antes de que suban los anticuerpos, y la concentración alcanzada es baja (sobre todo IgM) y desciende pronto. En la secundaria la subida es mucho más rápida, la concentración es mucho mayor (sobre todo IgG, de más afinidad) y dura más. Se debe a la memoria inmunológica: en la primera exposición se formaron linfocitos B y T de memoria específicos frente al antígeno X, que en el segundo contacto se activan y proliferan enseguida, y se diferencian en muchas células plasmáticas.</span>"
+   ],
+   "isNew": true,
+   "competencial": true,
+   "unida": [
+    "pau2025-cantabria-modelo-13",
+    "pau2025-murcia-modelo-8"
+   ],
+   "origen": {
+    "documento": "Modelo de examen PAU 2025 de la Región de Murcia · Modelo de examen 2024-25",
+    "referencia": "Modelo (ejemplo) 2024-25, pregunta 13 + Modelo de examen 2024-25, pregunta 8",
+    "fuente": "EXÁMENES DE OTRAS COMUNIDADES 2025/CANTABRIA.pdf",
+    "criterios": null,
+    "examen_anio": 2025,
+    "verificado": true
+   },
+   "imgSrc": "assets/figuras/historico/2025-otras/murcia-modelo-8.webp",
+   "imgThumb": "assets/figuras/historico/2025-otras/murcia-modelo-8.thumb.webp",
+   "imageDesc": "Gráfica de la concentración de anticuerpos en sangre frente al tiempo: tras el primer contacto con el antígeno X, una curva A baja y tardía; tras el segundo contacto, una curva B que sube enseguida, mucho más alta, y se mantiene."
   },
   {
    "id": "pau2026-modelo-1",
