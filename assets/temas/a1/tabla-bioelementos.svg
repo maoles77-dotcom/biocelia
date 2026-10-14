@@ -55,7 +55,7 @@
 <rect x="854" y="228" width="48" height="48" rx="7" fill="#c77d00"/><text x="878.0" y="259.0" font-size="19" text-anchor="middle" font-weight="800" fill="#fff" >I</text>
 <rect x="906" y="228" width="48" height="48" rx="7" fill="#eef2f5"/><text x="930.0" y="259.0" font-size="19" text-anchor="middle" font-weight="800" fill="#a3b1bd" >Xe</text>
 <rect x="22" y="289" width="20" height="20" rx="5" fill="#0f4c81" stroke="#cbd5de"/><text x="50.0" y="304.0" font-size="16" text-anchor="start" font-weight="700" fill="#22313f" >Primarios ≈ 96 %</text>
-<rect x="252" y="289" width="20" height="20" rx="5" fill="#2a9d8f" stroke="#cbd5de"/><text x="280.0" y="304.0" font-size="16" text-anchor="start" font-weight="700" fill="#22313f" >Secundarios ≈ 3,9 %</text>
+<rect x="252" y="289" width="20" height="20" rx="5" fill="#2a9d8f" stroke="#cbd5de"/><text x="280.0" y="304.0" font-size="16" text-anchor="start" font-weight="700" fill="#22313f" >Secundarios ≈ 3 %</text>
 <rect x="492" y="289" width="20" height="20" rx="5" fill="#c77d00" stroke="#cbd5de"/><text x="520.0" y="304.0" font-size="16" text-anchor="start" font-weight="700" fill="#22313f" >Oligoelementos &lt; 0,1 %</text>
 <rect x="752" y="289" width="20" height="20" rx="5" fill="#eef2f5" stroke="#cbd5de"/><text x="780.0" y="304.0" font-size="16" text-anchor="start" font-weight="700" fill="#22313f" >No esenciales</text>
 </svg>

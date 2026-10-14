@@ -69,7 +69,7 @@ def tabla_bioelementos():
             b += f'<rect x="{x}" y="{y}" width="{c}" height="{c}" rx="7" fill="{fill}"/>'
             b += text(x + c / 2, y + c / 2 + 7, sim, 19, weight=800, fill=tc)
     ly = y0 + 5 * (c + g) + 24
-    for i, (col, et) in enumerate(((PRI, "Primarios ≈ 96 %"), (TEAL, "Secundarios ≈ 3,9 %"),
+    for i, (col, et) in enumerate(((PRI, "Primarios ≈ 96 %"), (TEAL, "Secundarios ≈ 3 %"),
                                    (ACC, "Oligoelementos < 0,1 %"), ("#eef2f5", "No esenciales"))):
         x = x0 + (0, 230, 470, 730)[i]
         b += f'<rect x="{x}" y="{ly - 15}" width="20" height="20" rx="5" fill="{col}" stroke="#cbd5de"/>'
@@ -307,8 +307,10 @@ def anfotero():
 
 # 9 · Abundancia de agua ---------------------------------------------------------------
 def abundancia():
-    cols = [("Medusa", 98, "98 %"), ("Embrión", 90, "> 90 %"), ("Cerebro", 85, "≈ 85 %"), ("Adulto", 63, "≈ 63 %"),
-            ("Hueso", 22, "≈ 22 %"), ("Semilla", 15, "10-20 %"), ("Esmalte", 3, "< 5 %")]
+    # Datos: Solomon (hueso 20 %, células cerebrales 85 %, medusa 95 %), apuntes BIO2BAC (medusas hasta el 99 %),
+    # Alberts y Fisiología vegetal (semilla seca 5-10 %). Primer elemento: índice del icono.
+    cols = [(0, "Medusa", 97, "95-99 %"), (2, "Cerebro", 85, "≈ 85 %"), (3, "Adulto", 65, "60-70 %"),
+            (4, "Hueso", 20, "≈ 20 %"), (5, "Semilla", 8, "5-10 %")]
     b = ""
 
     def icono(i, cx):
@@ -342,9 +344,9 @@ def abundancia():
                 f'L{cx + 22},104 Q{cx + 16},116 {cx + 10},100 L{cx + 4},74 L{cx - 4},74 L{cx - 10},100 Q{cx - 16},116 {cx - 22},104 Z" '
                 'fill="#ffffff" stroke="#8a99a6" stroke-width="2.5"/>')
 
-    for i, (nom, pct, et) in enumerate(cols):
-        cx = 75 + i * 140
-        b += icono(i, cx)
+    for i, (ic, nom, pct, et) in enumerate(cols):
+        cx = 110 + i * 190
+        b += icono(ic, cx)
         b += text(cx, 142, nom, 17, weight=900)
         top, alto = 160, 120
         h = alto * pct / 100
@@ -352,7 +354,7 @@ def abundancia():
         b += f'<path d="M{cx - 36},{top} V{top + alto} H{cx + 36} V{top}" fill="none" stroke="#7b8a97" stroke-width="3"/>'
         ty = min(top + alto - h - 8, top + alto - 8) if pct > 25 else top + alto - h - 8
         b += text(cx, ty if pct <= 25 else top + alto - h + 24, et, 16, weight=900, fill=INK if pct <= 25 else "#fff")
-    save("agua-abundancia.svg", svg(980, 290, b, "Porcentaje de agua en distintos organismos, tejidos y edades"))
+    save("agua-abundancia.svg", svg(980, 290, b, "Porcentaje de agua en distintos organismos y tejidos"))
 
 
 # 10 · Hoja frente a roca --------------------------------------------------------------
