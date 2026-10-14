@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Nueve escape rooms y simuladores de BioCelia para practicar la Biología de la PAU de Andalucía 2026-27.">
+<title>Juegos — BioCelia</title>
+<link rel="stylesheet" href="pau-theme.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Manrope:wght@400;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+
+    .jl { --tinta:#14212e; --suave:#4f5f6f; --linea:#d9e2ea; --fondo:#f2f6f8; --marca:#0e8f74;
+        font-family:'Manrope','Segoe UI',system-ui,sans-serif; color:var(--tinta); max-width:1040px; margin:0 auto; padding:20px; line-height:1.55; font-size:16px }
+    .jl * { box-sizing:border-box }
+    .jl h1, .jl h2, .jl h3 { font-family:'Bricolage Grotesque','Segoe UI',system-ui,sans-serif; margin:0; text-wrap:balance }
+    .jl-hero { position:relative; overflow:hidden; border-radius:20px; padding:42px 36px; background:
+        linear-gradient(var(--linea) 1px,transparent 1px) 0 0/26px 26px, linear-gradient(90deg,var(--linea) 1px,transparent 1px) 0 0/26px 26px, var(--fondo);
+        border:1px solid var(--linea); display:grid; grid-template-columns:minmax(0,1.3fr) minmax(0,1fr); gap:28px; align-items:center }
+    .jl-eti { font:600 .78rem 'IBM Plex Mono',ui-monospace,monospace; letter-spacing:.14em; text-transform:uppercase; color:var(--marca); display:flex; gap:8px; align-items:center }
+    .jl-eti i { width:9px; height:9px; border-radius:50%; background:#c8423b; box-shadow:0 0 0 4px rgba(200,66,59,.18) }
+    .jl-hero h1 { font-size:clamp(2.1rem,5vw,3.3rem); line-height:1; font-weight:800; margin:12px 0 14px; letter-spacing:-.02em }
+    .jl-hero h1 span { color:var(--marca) }
+    .jl-hero p { margin:0; color:var(--suave); font-size:1.06rem; max-width:52ch }
+    .jl-datos { display:flex; flex-wrap:wrap; gap:8px; margin-top:18px }
+    .jl-datos span { background:#fff; border:1px solid var(--linea); border-radius:999px; padding:6px 12px; font-size:.88rem; font-weight:600 }
+    .jl-gradilla { display:flex; gap:14px; justify-content:center; align-items:flex-end; min-height:150px }
+    .jl-tubo { width:30px; height:130px; border:3px solid #8fb3ba; border-top:0; border-radius:0 0 16px 16px; background:#fff; position:relative; overflow:hidden }
+    .jl-tubo b { position:absolute; left:0; right:0; bottom:0; opacity:.75 }
+    .jl-sec { display:flex; flex-wrap:wrap; align-items:baseline; justify-content:space-between; gap:8px; margin:34px 0 14px }
+    .jl-sec h2 { font-size:1.55rem; font-weight:800 }
+    .jl-sec p { margin:0; color:var(--suave); font-size:.95rem }
+    .jl-niveles { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px }
+    .jl-nivel { background:#fff; border:1px solid var(--linea); border-radius:14px; padding:16px; display:grid; grid-template-columns:auto 1fr; gap:14px; align-items:center }
+    .jl-nivel h3 { font-size:1.08rem }
+    .jl-nivel p { margin:2px 0 0; color:var(--suave); font-size:.92rem }
+    .jl-vial { width:26px; height:48px; border:2px solid #8fb3ba; border-top:0; border-radius:0 0 13px 13px; position:relative; overflow:hidden; background:#fff }
+    .jl-vial i { position:absolute; left:0; right:0; bottom:0 }
+    .jl-cat { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px }
+    .jl-juego { border-radius:16px; overflow:hidden; background:#fff; border:1px solid var(--linea); display:grid; grid-template-rows:auto 1fr; box-shadow:0 14px 30px -24px rgba(20,40,60,.45) }
+    .jl-cab { padding:16px 18px 14px; min-height:96px; position:relative }
+    .jl-cab small { font:600 .7rem 'IBM Plex Mono',ui-monospace,monospace; letter-spacing:.1em; text-transform:uppercase; opacity:.85; display:block }
+    .jl-cab h3 { font-size:1.22rem; margin-top:6px; line-height:1.15 }
+    .jl-cuerpo { padding:14px 18px 18px; display:grid; gap:10px; align-content:start }
+    .jl-cuerpo p { margin:0; color:var(--suave); font-size:.93rem }
+    .jl-bl { display:inline-block; justify-self:start; font:600 .74rem 'IBM Plex Mono',ui-monospace,monospace; border-radius:999px; padding:3px 10px }
+    .jl-mundo { font-size:.8rem; color:var(--suave) }
+    /* mundos */
+    .m-lab .jl-cab { background:linear-gradient(#cfe0e3 1px,transparent 1px) 0 0/18px 18px,linear-gradient(90deg,#cfe0e3 1px,transparent 1px) 0 0/18px 18px,#eef4f5; color:#12313a }
+    .m-lab .jl-bl { background:#e3f1ee; color:#0b6b57 }
+    .m-est .jl-cab { background:radial-gradient(120% 110% at 85% 10%,#f4f8fc,#d6e4f4); color:#10223a }
+    .m-est .jl-bl { background:#e2f3f8; color:#07748c }
+    .m-mar .jl-cab { background:radial-gradient(120% 110% at 85% 10%,#f1fbfb,#c9ecef); color:#0b2a36 }
+    .m-mar .jl-bl { background:#dff3f5; color:#0c6f83 }
+    .m-mic .jl-cab { background:radial-gradient(120% 110% at 85% 10%,#fdfbff,#e8def8); color:#22183a }
+    .m-mic .jl-bl { background:#efe8fb; color:#5a2bb0 }
+    .m-bio .jl-cab { background:radial-gradient(120% 110% at 85% 10%,#fbfffd,#d9f1e8); color:#11302a }
+    .m-bio .jl-bl { background:#dcf3ea; color:#0b6e55 }
+    .m-bsl .jl-cab { background:repeating-linear-gradient(-45deg,#f2c230 0 12px,#141a1f 12px 24px) top/100% 8px no-repeat,#f5f6f4; color:#141a1f; padding-top:22px }
+    .m-bsl .jl-bl { background:#fde8e6; color:#b4231b }
+    .m-tri .jl-cab { background:#fff; border-left:6px solid #c8312b; color:#1d2733 }
+    .m-tri .jl-bl { background:#fdecea; color:#b4231b }
+    .jl-ruta { margin-top:34px; border-radius:18px; background:#fff; border:1px solid var(--linea); padding:24px 26px; display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:16px }
+    .jl-ruta h2 { grid-column:1/-1; font-size:1.45rem }
+    .jl-paso { display:grid; gap:4px }
+    .jl-paso b { font:700 .78rem 'IBM Plex Mono',ui-monospace,monospace; color:var(--marca); letter-spacing:.08em }
+    .jl-paso span { font-size:.95rem; color:var(--suave) }
+    .jl-paso strong { color:var(--tinta) }
+    .jl-aviso { margin-top:18px; display:flex; align-items:center; justify-content:center; gap:10px; background:var(--tinta); color:#fff; border-radius:14px; padding:14px 18px; font-weight:700 }
+    @media (max-width:860px) { .jl-hero { grid-template-columns:1fr; padding:28px 22px } .jl-gradilla { min-height:0; justify-content:flex-start } .jl-tubo { height:80px }
+        .jl-niveles, .jl-cat { grid-template-columns:1fr 1fr } .jl-ruta { grid-template-columns:1fr 1fr } }
+    @media (max-width:560px) { .jl-niveles, .jl-cat, .jl-ruta { grid-template-columns:1fr } }
+    body { margin:0; background:#fff }
+    a.jl-juego { text-decoration:none; color:inherit; transition:transform .18s, box-shadow .18s, border-color .18s }
+    a.jl-juego:hover { transform:translateY(-4px); border-color:#9fb6c8; box-shadow:0 22px 40px -26px rgba(20,40,60,.6) }
+    a.jl-juego:focus-visible { outline:3px solid #1a73e8; outline-offset:3px }
+    .jl-jugar { justify-self:start; margin-top:2px; font-weight:700; font-size:.92rem; color:var(--marca) }
+    @media (prefers-reduced-motion:reduce) { a.jl-juego { transition:none } }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Saltar al contenido principal</a>
+<nav class="site-nav" aria-label="Navegación principal">
+  <a href="index.html">Inicio</a>
+  <a href="orientacionespau.html">Orientaciones</a>
+  <a href="resumenespau.html">Resúmenes</a>
+  <a href="Entrenamientopau.html">Entrenamiento</a>
+  <a href="simulacropau.html">Simulacro</a>
+  <a href="laboratoriocompetencial.html">Laboratorio</a>
+  <a href="laboratorioinvestigacion.html">Investigación</a>
+  <a class="active" href="juegos.html">Juegos</a>
+</nav>
+
+<main class="jl" id="main-content">
+    <section class="jl-hero">
+        <div>
+            <div class="jl-eti"><i></i>BioCelia · laboratorio de retos</div>
+            <h1>Aprende jugando a <span>escapar</span></h1>
+            <p>Nueve escape rooms y simuladores para aplicar la Biología de la PAU de Andalucía 2026-27: razonar casos, interpretar gráficas, hacer cálculos y corregir respuestas como lo haría el tribunal.</p>
+            <div class="jl-datos"><span>9 juegos</span><span>Los 6 bloques de la PAU</span><span>3 niveles en cada uno</span><span>Retos distintos en cada partida</span></div>
+        </div>
+        <div class="jl-gradilla" aria-hidden="true">
+            <div class="jl-tubo"><b style="height:58%;background:#3d7be0"></b></div>
+            <div class="jl-tubo"><b style="height:70%;background:#d98a1c"></b></div>
+            <div class="jl-tubo"><b style="height:46%;background:#8a4fd0"></b></div>
+            <div class="jl-tubo"><b style="height:64%;background:#d84d43"></b></div>
+            <div class="jl-tubo"><b style="height:52%;background:#2fa58a"></b></div>
+        </div>
+    </section>
+
+    <div class="jl-sec"><h2>Tres niveles en cada juego</h2><p>Cada juego los representa a su manera: viales, objetivos del microscopio, credenciales o niveles de bioseguridad.</p></div>
+    <div class="jl-niveles">
+        <div class="jl-nivel"><span class="jl-vial"><i style="height:35%;background:#5fc4a8"></i></span><div><h3>Básico · aprendo</h3><p>Más tiempo, más pistas y los errores no penalizan.</p></div></div>
+        <div class="jl-nivel"><span class="jl-vial"><i style="height:62%;background:#e3a33a"></i></span><div><h3>Intermedio · repaso</h3><p>Casos y problemas con el tiempo justo; cada error cuesta segundos.</p></div></div>
+        <div class="jl-nivel"><span class="jl-vial"><i style="height:88%;background:#c8423b"></i></span><div><h3>PAU · examen</h3><p>Preguntas competenciales, una sola pista y penalización alta.</p></div></div>
+    </div>
+
+    <div class="jl-sec"><h2>Catálogo</h2><p>Ordenado por bloques de la PAU.</p></div>
+    <div class="jl-cat">
+        <a href="juegos%20escape%20room/BIO%20MOLECULAS.HTML" target="_blank" rel="noopener" class="jl-juego m-lab"><div class="jl-cab"><small>Laboratorio 4B</small><h3>El Laboratorio del Dr. Carbono</h3></div>
+            <div class="jl-cuerpo"><span class="jl-bl">Bloque A · Biomoléculas</span><p>Cuatro expedientes (proteínas y enzimas, lípidos y membranas, glúcidos, ácidos nucleicos) con moléculas, imágenes, gráficas y cálculos.</p><span class="jl-jugar">Jugar →</span></div></a>
+        <a href="juegos%20escape%20room/LABORATORIO%20CERRADO.HTML" target="_blank" rel="noopener" class="jl-juego m-lab"><div class="jl-cab"><small>Puerta bloqueada</small><h3>El Laboratorio Cerrado</h3></div>
+            <div class="jl-cuerpo"><span class="jl-bl">Bloque A · Prácticas, agua y nutrición</span><p>Ensayos de Benedict, Lugol, Biuret y Sudán, diseño experimental, agua, tampones, grupos funcionales y vitaminas.</p><span class="jl-jugar">Jugar →</span></div></a>
+        <a href="juegos%20escape%20room/BIORESCATE.HTML" target="_blank" rel="noopener" class="jl-juego m-mar"><div class="jl-cab"><small>Laboratorio submarino</small><h3>Misión Bio-Rescate</h3></div>
+            <div class="jl-cuerpo"><span class="jl-bl">Bloque B · Genética molecular</span><p>Replicación, transcripción, traducción, código genético, mutaciones y variabilidad. Niveles por profundidad de inmersión.</p><span class="jl-jugar">Jugar →</span></div></a>
+        <a href="juegos%20escape%20room/BIOCORE.HTML" target="_blank" rel="noopener" class="jl-juego m-est"><div class="jl-cab"><small>Reactores celulares</small><h3>Instalación Bio-Core</h3></div>
+            <div class="jl-cuerpo"><span class="jl-bl">Bloques C y D · Célula y metabolismo</span><p>Orgánulos, transporte, división celular, respiración, fotosíntesis y fermentaciones.</p><span class="jl-jugar">Jugar →</span></div></a>
+        <a href="juegos%20escape%20room/EXPEDICION%20CAJAL.HTML" target="_blank" rel="noopener" class="jl-juego m-mic"><div class="jl-cab"><small>Bajo el microscopio</small><h3>Expedición Cajal</h3></div>
+            <div class="jl-cuerpo"><span class="jl-bl">Bloques C y E · Célula, cáncer y microbiología</span><p>Teoría celular, microscopía, ciclo celular, cáncer y su prevención, y microorganismos útiles. Niveles 10×, 40× y 100×.</p><span class="jl-jugar">Jugar →</span></div></a>
+        <a href="juegos%20escape%20room/ESCAPE%20ROOM%20BIOTECNOLOGIA.HTML" target="_blank" rel="noopener" class="jl-juego m-bio"><div class="jl-cab"><small>Centro de Biotecnología</small><h3>Unidad de Crisis Genómica</h3></div>
+            <div class="jl-cuerpo"><span class="jl-bl">Bloque E · Biotecnología</span><p>Terapia génica (CRISPR, PCR), análisis forense (restricción, electroforesis) e insulina transgénica.</p><span class="jl-jugar">Jugar →</span></div></a>
+        <a href="juegos%20escape%20room/IMUNO%20CORE.HTML" target="_blank" rel="noopener" class="jl-juego m-est"><div class="jl-cab"><small>Acceso restringido</small><h3>Terminal Inmuno-Core</h3></div>
+            <div class="jl-cuerpo"><span class="jl-bl">Bloque F · Inmunología</span><p>Respuesta primaria y secundaria, humoral y celular, vacunas y sueros, y alteraciones del sistema inmunitario.</p><span class="jl-jugar">Jugar →</span></div></a>
+        <a href="juegos%20escape%20room/INMUNOLOGICA.HTML" target="_blank" rel="noopener" class="jl-juego m-bsl"><div class="jl-cab"><small>Alta seguridad · BSL-3</small><h3>Proyecto Quimera</h3></div>
+            <div class="jl-cuerpo"><span class="jl-bl">Bloque F · Inmunología y transversal</span><p>Casos clínicos que relacionan la inmunología con la genética y el metabolismo. Niveles de bioseguridad BSL-1 a BSL-3.</p><span class="jl-jugar">Jugar →</span></div></a>
+        <a href="juegos%20escape%20room/BOL%C3%8DGRAFO%20ROJO.HTML" target="_blank" rel="noopener" class="jl-juego m-tri"><div class="jl-cab"><small>Tribunal PAU</small><h3>El Bolígrafo Rojo</h3></div>
+            <div class="jl-cuerpo"><span class="jl-bl">Todos los bloques · Corrección</span><p>Corrige respuestas de alumnos a preguntas reales de la PAU: encuentra el error y, en el modo PAU, ponle nota con el criterio oficial.</p><span class="jl-jugar">Jugar →</span></div></a>
+    </div>
+
+    <section class="jl-ruta">
+        <h2>Cómo sacarles partido</h2>
+        <div class="jl-paso"><b>PASO 1</b><span>Juega <strong>después de estudiar el tema</strong> y empieza en Básico.</span></div>
+        <div class="jl-paso"><b>PASO 2</b><span>Lee siempre la <strong>explicación</strong> al acertar: es lo que puntúa en la PAU.</span></div>
+        <div class="jl-paso"><b>PASO 3</b><span>Sube de nivel cuando superes el <strong>80 %</strong>. Los retos cambian en cada partida.</span></div>
+        <div class="jl-paso"><b>PASO 4</b><span>Termina con <strong>El Bolígrafo Rojo</strong>: corregir a otros evita cometer sus errores.</span></div>
+    </section>
+    <div class="jl-aviso">Pulsa en un juego para empezar · se abre en una pestaña nueva</div>
+</main>
+<footer style="max-width:1040px;margin:10px auto 0;padding:20px;text-align:center;color:#4f5f6f;font-size:.9rem;font-family:Manrope,system-ui,sans-serif">&copy; 2026 María Dolores Gámez Ortiz · <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></footer>
+</body>
+</html>

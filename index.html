@@ -3,384 +3,419 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="BioCelia — Plataforma de preparación PAU Biología. Recursos orientados a la selectividad de Andalucía con rigor científico y enfoque competencial.">
+<meta name="description" content="BioCelia: preparación de la PAU de Biología de Andalucía 2026-27. Apuntes, resúmenes y presentaciones de los 22 temas, preguntas reales con su criterio, simulacros y laboratorios competenciales.">
 <title>BioCelia — PAU Biología</title>
 <link rel="stylesheet" href="pau-theme.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Manrope:wght@400;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
 <style>
-  :root {
-    --cyan:    #00e5ff;
-    --green:   #39ff14;
-    --amber:   #ffaa00;
-    --purple:  #bf5fff;
-    --red:     #ff3355;
-    --void:    #020510;
-    --text:    #ddeeff;
-    --dim:     #a8c0d8;
-    --glass:   rgba(255, 255, 255, 0.05);
-    --glass-border: rgba(255, 255, 255, 0.1);
+  /* Portada inmersiva: la cámara entra en una célula (canvas a pantalla completa, fondo perla)
+     y debajo cada pestaña de la web se presenta como un orgánulo con su función. */
+  :root{
+    --perla:#f5f9fc; --hielo:#dde9f4; --tinta:#10223a; --suave:#4c6382; --linea:#c9d8ea;
+    --cian:#0aa3c2; --violeta:#6a5be2; --rosa:#e0457b; --ambar:#d98a1c; --verde:#139a74; --azul:#2f62d6;
+    --f-tit:'Chakra Petch','Segoe UI',system-ui,sans-serif; --f-txt:'Manrope','Segoe UI',system-ui,sans-serif; --f-mono:'IBM Plex Mono',ui-monospace,Consolas,monospace;
   }
+  *,*::before,*::after{box-sizing:border-box}
+  html{background:var(--perla)}
+  body{margin:0;background:radial-gradient(120% 80% at 70% 0%,#ffffff,var(--perla) 45%,var(--hielo));color:var(--tinta);font-family:var(--f-txt);font-size:16px;line-height:1.55;min-height:100vh;overflow-x:hidden}
+  .site-nav{position:relative;z-index:3}
+  .site-nav a{backdrop-filter:blur(8px);background:rgba(255,255,255,.75)}
 
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-  
-  body {
-    background-color: var(--void);
-    color: var(--text);
-    font-family: 'Segoe UI', system-ui, sans-serif;
-    overflow-x: hidden;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+  /* —— portal —— */
+  .portal{position:relative;min-height:min(640px,calc(100vh - 70px));display:grid;grid-template-columns:minmax(0,1fr);align-items:center;overflow:hidden;margin-top:-4px}
+  #celula{position:absolute;inset:0;width:100%;height:100%;display:block}
+  .hud{position:absolute;inset:18px;pointer-events:none;
+    background:linear-gradient(var(--cian),var(--cian)) top left/44px 2px no-repeat,linear-gradient(var(--cian),var(--cian)) top left/2px 44px no-repeat,
+    linear-gradient(var(--cian),var(--cian)) top right/44px 2px no-repeat,linear-gradient(var(--cian),var(--cian)) top right/2px 44px no-repeat,
+    linear-gradient(var(--cian),var(--cian)) bottom left/44px 2px no-repeat,linear-gradient(var(--cian),var(--cian)) bottom left/2px 44px no-repeat,
+    linear-gradient(var(--cian),var(--cian)) bottom right/44px 2px no-repeat,linear-gradient(var(--cian),var(--cian)) bottom right/2px 44px no-repeat}
+  .lectura{position:absolute;right:34px;bottom:30px;font:600 12px var(--f-mono);color:var(--suave);text-align:right;display:grid;gap:4px;pointer-events:none}
+  .lectura .barra{justify-self:end;height:3px;background:var(--tinta);border-radius:2px;width:100px}
+  .lectura b{color:var(--tinta);font-size:13px}
+  .portal-in{position:relative;max-width:1120px;width:100%;margin:0 auto;padding:40px 20px 70px}
+  .tarjeta-intro{max-width:560px;background:rgba(255,255,255,.7);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.95);
+    box-shadow:0 24px 50px -30px rgba(16,34,58,.45);border-radius:20px;padding:28px 30px}
+  .eti{font:600 12px var(--f-mono);letter-spacing:.16em;text-transform:uppercase;color:var(--cian);display:flex;gap:10px;align-items:center}
+  .eti i{width:8px;height:8px;border-radius:50%;background:var(--verde);box-shadow:0 0 0 4px rgba(19,154,116,.2)}
+  h1{font-family:var(--f-tit);font-weight:700;font-size:clamp(2.4rem,6vw,4.1rem);line-height:.98;margin:14px 0 14px;letter-spacing:.005em;text-wrap:balance}
+  h1 span{background:linear-gradient(90deg,var(--cian),var(--violeta));-webkit-background-clip:text;background-clip:text;color:transparent}
+  .tarjeta-intro p{margin:0;color:var(--suave);font-size:1.05rem;max-width:56ch}
+  .tarjeta-intro p b{color:var(--tinta)}
+  .cifras{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:20px}
+  .cifras div{border:1px solid var(--linea);background:rgba(255,255,255,.8);border-radius:12px;padding:10px 12px}
+  .cifras b{display:block;font:700 1.45rem var(--f-tit);color:var(--tinta);line-height:1.1}
+  .cifras span{font-size:.82rem;color:var(--suave);line-height:1.3;display:block}
+  .entrar{display:inline-flex;align-items:center;gap:10px;margin-top:22px;padding:14px 24px;border-radius:14px;text-decoration:none;font:700 1.05rem var(--f-tit);letter-spacing:.06em;text-transform:uppercase;
+    color:#fff;background:linear-gradient(90deg,var(--cian),var(--violeta));box-shadow:0 14px 28px -14px rgba(106,91,226,.8);transition:transform .15s}
+  .entrar:hover{transform:translateY(-2px)}
+  .entrar:focus-visible,.org:focus-visible{outline:3px solid #1a73e8;outline-offset:3px}
 
-  /* ─── FONDO ANIMADO LIGERO (PURO CSS) ─── */
-  .bg-blobs {
-    position: fixed;
-    top: 0; left: 0; width: 100%; height: 100%;
-    z-index: -1;
-    overflow: hidden;
-    background: radial-gradient(circle at center, #0a1128 0%, var(--void) 100%);
-  }
+  /* —— orgánulos (pestañas) —— */
+  .mapa{max-width:1120px;margin:0 auto;padding:10px 20px 40px}
+  .mapa-cab{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:10px;margin-bottom:18px}
+  .mapa-cab h2{font-family:var(--f-tit);font-size:clamp(1.6rem,3.4vw,2.2rem);margin:6px 0 0}
+  .mapa-cab p{margin:0;color:var(--suave);max-width:56ch}
+  .orgs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+  .org{position:relative;display:grid;grid-template-columns:86px 1fr;gap:16px;align-items:start;text-decoration:none;color:var(--tinta);
+    background:rgba(255,255,255,.78);backdrop-filter:blur(10px);border:1px solid var(--linea);border-radius:18px;padding:18px;transition:transform .18s,box-shadow .18s,border-color .18s}
+  .org:hover{transform:translateY(-4px);border-color:var(--c);box-shadow:0 22px 40px -26px var(--c)}
+  .org svg{width:86px;height:86px}
+  .org small{display:block;font:600 11.5px var(--f-mono);letter-spacing:.12em;text-transform:uppercase;color:var(--c)}
+  .org h3{font-family:var(--f-tit);font-size:1.3rem;margin:4px 0 6px;line-height:1.15}
+  .org p{margin:0;color:var(--suave);font-size:.93rem;line-height:1.45}
+  .org .ir{display:inline-block;margin-top:10px;font:700 .9rem var(--f-txt);color:var(--c)}
+  .org-ancha{grid-column:1/-1}
+  .metafora{margin-top:18px;font-size:.9rem;color:var(--suave);text-align:center}
 
-  .blob {
-    position: absolute;
-    border-radius: 50%;
-    filter: blur(80px);
-    opacity: 0.4;
-    animation: floatBlob 15s infinite alternate ease-in-out;
-  }
-
-  .blob-1 { width: 300px; height: 300px; background: var(--cyan); top: -10%; left: -10%; }
-  .blob-2 { width: 400px; height: 400px; background: var(--purple); bottom: -20%; right: -10%; animation-delay: -5s; }
-  .blob-3 { width: 250px; height: 250px; background: var(--green); top: 40%; left: 50%; animation-delay: -10s; opacity: 0.2; }
-
-  @keyframes floatBlob {
-    0% { transform: translate(0, 0) scale(1); }
-    100% { transform: translate(50px, 50px) scale(1.1); }
-  }
-
-  /* ─── CONTENIDO CENTRAL ─── */
-  .container {
-    width: 100%;
-    max-width: 1100px;
-    padding: 0 20px 60px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  /* ─── NAVEGACIÓN ─── */
-  nav {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 0;
-    border-bottom: 1px solid rgba(0,229,255,0.1);
-    margin-bottom: 40px;
-  }
-
-  .logo {
-    font-size: 1.5rem;
-    font-weight: 900;
-    text-decoration: none;
-    color: var(--text);
-  }
-  
-  .logo em {
-    font-style: normal;
-    color: var(--cyan);
-    text-shadow: 0 0 10px rgba(0,229,255,0.5);
-  }
-
-  .badge {
-    font-size: 0.75rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: var(--cyan);
-    background: rgba(0,229,255,0.1);
-    border: 1px solid rgba(0,229,255,0.3);
-    padding: 6px 12px;
-    border-radius: 20px;
-  }
-
-  /* ─── HERO (BIENVENIDA) ─── */
-  .hero {
-    text-align: center;
-    max-width: 800px;
-    margin-bottom: 60px;
-    animation: fadeIn 1s ease-out;
-  }
-
-  .hero-tag {
-    font-size: 0.8rem;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    color: var(--cyan);
-    margin-bottom: 15px;
-    display: block;
-  }
-
-  .hero-title {
-    font-size: clamp(2.5rem, 8vw, 5rem);
-    font-weight: 900;
-    line-height: 1.1;
-    margin-bottom: 25px;
-  }
-
-  .hero-title .gradient-text {
-    background: linear-gradient(100deg, var(--cyan), var(--purple), var(--green));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    display: block;
-  }
-
-  .hero-desc {
-    font-size: clamp(1rem, 2vw, 1.15rem);
-    color: var(--dim);
-    line-height: 1.6;
-  }
-
-  .hero-desc strong {
-    color: var(--text);
-  }
-
-  /* ─── GRID DE TARJETAS (RESPONSIVE AUTOMÁTICO) ─── */
-  .grid-title {
-    font-size: 0.85rem;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    color: var(--dim);
-    margin-bottom: 25px;
-    text-align: center;
-  }
-
-  .cards-container {
-    width: 100%;
-    display: grid;
-    /* Esto hace que se adapte al móvil mágicamente sin media queries complejas */
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 20px;
-    animation: fadeIn 1.2s ease-out;
-  }
-
-  .card {
-    background: var(--glass);
-    border: 1px solid var(--glass-border);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 16px;
-    padding: 30px 25px;
-    text-decoration: none;
-    display: flex;
-    flex-direction: column;
-    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
-  }
-
-  .card:hover {
-    transform: translateY(-5px);
-  }
-
-  .card-n {
-    font-size: 0.8rem;
-    letter-spacing: 0.15em;
-    color: rgba(255,255,255,0.4);
-    margin-bottom: 15px;
-  }
-
-  .card-ico {
-    font-size: 2.5rem;
-    margin-bottom: 15px;
-    transition: transform 0.3s ease;
-  }
-
-  .card:hover .card-ico {
-    transform: scale(1.1);
-  }
-
-  .card-title {
-    font-size: 1.3rem;
-    font-weight: 800;
-    color: var(--text);
-    margin-bottom: 10px;
-    transition: color 0.3s ease;
-  }
-
-  .card-desc {
-    font-size: 0.95rem;
-    color: var(--dim);
-    line-height: 1.5;
-    flex-grow: 1;
-  }
-
-  /* Colores específicos por tarjeta en hover */
-  .c1:hover { border-color: var(--cyan); box-shadow: 0 10px 30px rgba(0,229,255,0.15); }
-  .c1:hover .card-title { color: var(--cyan); }
-
-  .c2:hover { border-color: var(--green); box-shadow: 0 10px 30px rgba(57,255,20,0.15); }
-  .c2:hover .card-title { color: var(--green); }
-
-  .c3:hover { border-color: var(--red); box-shadow: 0 10px 30px rgba(255,51,85,0.15); }
-  .c3:hover .card-title { color: var(--red); }
-
-  .c4:hover { border-color: var(--amber); box-shadow: 0 10px 30px rgba(255,170,0,0.15); }
-  .c4:hover .card-title { color: var(--amber); }
-
-  .c5:hover { border-color: var(--purple); box-shadow: 0 10px 30px rgba(191,95,255,0.15); }
-  .c5:hover .card-title { color: var(--purple); }
-  .c6:hover { border-color: #2fd6b5; box-shadow: 0 10px 30px rgba(47,214,181,0.15); }
-  .c6:hover .card-title { color: #2fd6b5; }
-
-  /* ─── FOOTER ─── */
-  footer {
-    margin-top: 60px;
-    padding-top: 20px;
-    border-top: 1px solid rgba(255,255,255,0.1);
-    width: 100%;
-    text-align: center;
-    font-size: 0.85rem;
-    color: var(--dim);
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    align-items: center;
-  }
-
-  .status {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    color: var(--cyan);
-  }
-
-  .dot {
-    width: 8px; height: 8px;
-    background: var(--cyan);
-    border-radius: 50%;
-    animation: blink 2s infinite;
-  }
-
-  /* ─── ANIMACIONES BÁSICAS ─── */
-  @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-
-  @keyframes blink {
-    0%, 100% { opacity: 1; box-shadow: 0 0 10px var(--cyan); }
-    50% { opacity: 0.3; box-shadow: none; }
-  }
-
-  /* ─── AJUSTES MÓVILES EXTRAS ─── */
-  @media (max-width: 600px) {
-    nav { flex-direction: column; gap: 15px; }
-    .hero { margin-bottom: 40px; }
-    .card { padding: 25px 20px; }
-  }
+  footer{max-width:1120px;margin:0 auto;padding:24px 20px 40px;border-top:1px solid var(--linea);text-align:center;color:var(--suave);font-size:.9rem;display:grid;gap:8px;justify-items:center}
+  footer a{color:var(--azul)}
+  footer p{margin:0}
+  @media (max-width:900px){ .orgs{grid-template-columns:1fr 1fr} }
+  @media (max-width:640px){ .orgs{grid-template-columns:1fr} .tarjeta-intro{padding:22px 20px} .cifras{grid-template-columns:1fr 1fr 1fr} .lectura{right:24px;bottom:16px} .portal-in{padding-bottom:80px} }
+  @media (prefers-reduced-motion:reduce){ *{transition:none!important} }
 </style>
 </head>
 <body>
-  <a class="skip-link" href="#main-content">Saltar al contenido principal</a>
-  <nav class="site-nav" aria-label="Navegación principal">
-    <a class="active" href="index.html">Inicio</a>
-    <a href="orientacionespau.html">Orientaciones</a>
-    <a href="resumenespau.html">Resúmenes</a>
-    <a href="Entrenamientopau.html">Entrenamiento</a>
-    <a href="simulacropau.html">Simulacro</a>
-    <a href="laboratoriocompetencial.html">Laboratorio</a>
-    <a href="laboratorioinvestigacion.html">Investigación</a>
-  </nav>
+<a class="skip-link" href="#main-content">Saltar al contenido principal</a>
+<nav class="site-nav" aria-label="Navegación principal">
+  <a class="active" href="index.html">Inicio</a>
+  <a href="orientacionespau.html">Orientaciones</a>
+  <a href="resumenespau.html">Resúmenes</a>
+  <a href="Entrenamientopau.html">Entrenamiento</a>
+  <a href="simulacropau.html">Simulacro</a>
+  <a href="laboratoriocompetencial.html">Laboratorio</a>
+  <a href="laboratorioinvestigacion.html">Investigación</a>
+  <a href="juegos.html">Juegos</a>
+</nav>
 
-  <div class="bg-blobs" aria-hidden="true">
-    <div class="blob blob-1"></div>
-    <div class="blob blob-2"></div>
-    <div class="blob blob-3"></div>
-  </div>
-
-  <div class="container">
-    
-    <nav>
-      <a href="#" class="logo">Bio<em>Celia</em></a>
-      <span class="badge">PAU · Biología · Andalucía 25/26</span>
-    </nav>
-
-    <header class="hero">
-      <span class="hero-tag">⬡ Plataforma de Inmersión ⬡</span>
-      <h1 class="hero-title">
-        Adéntrate en <span class="gradient-text">la Célula</span>
-      </h1>
-      <p class="hero-desc">
-        Esta plataforma reúne recursos de apoyo para preparar la selectividad de Biología en Andalucía. Los materiales se organizan según los bloques y competencias propios de la PAU 2025, con un enfoque en la comprensión conceptual, la aplicación y la argumentación científica.
-      </p>
-    </header>
-
-    <p class="grid-title">— Menú de Navegación —</p>
-
-    <main class="cards-container" id="main-content">
-      
-      <a href="orientacionespau.html" class="card c1">
-        <span class="card-n">01</span>
-        <span class="card-ico">🧭</span>
-        <h2 class="card-title">Orientaciones PAU</h2>
-        <p class="card-desc">Guía de saberes básicos, resultados de aprendizaje y criterios de evaluación para preparar la prueba con rigor.</p>
-      </a>
-
-      <a href="resumenespau.html" class="card c2">
-        <span class="card-n">02</span>
-        <span class="card-ico">🧠</span>
-        <h2 class="card-title">Resúmenes</h2>
-        <p class="card-desc">Resumenes y apuntes organizados por bloques temáticos para facilitar la revisión conceptual y la memorización activa.</p>
-      </a>
-
-      <a href="Entrenamientopau.html" class="card c3">
-        <span class="card-n">03</span>
-        <span class="card-ico">⚡</span>
-        <h2 class="card-title">Entrenamiento</h2>
-        <p class="card-desc">Banco de preguntas y soluciones razonadas que ayuda a practicar la respuesta breve y la argumentación científica.</p>
-      </a>
-
-      <a href="simulacropau.html" class="card c4">
-        <span class="card-n">04</span>
-        <span class="card-ico">⏱️</span>
-        <h2 class="card-title">Simulacro</h2>
-        <p class="card-desc">Simulacros con estructura de examen para practicar la gestión del tiempo y la respuesta bajo presión.</p>
-      </a>
-
-      <a href="laboratoriocompetencial.html" class="card c5">
-        <span class="card-n">05</span>
-        <span class="card-ico">🎮</span>
-        <h2 class="card-title">Laboratorio competencial</h2>
-        <p class="card-desc">Retos de razonamiento científico que conectan la teoría con la aplicación y el análisis de casos.</p>
-      </a>
-
-      <a href="laboratorioinvestigacion.html" class="card c6">
-        <span class="card-n">06</span>
-        <span class="card-ico">🔬</span>
-        <h2 class="card-title">Laboratorio de investigación</h2>
-        <p class="card-desc">Tu primer año como becario/a: expedientes de laboratorio para aplicar las novedades de la PAU 2026-27 decidiendo con ciencia.</p>
-      </a>
-
-    </main>
-
-    <footer>
-      <div class="status">
-        <span class="dot"></span> Sistema Activo
+<header class="portal">
+  <canvas id="celula" aria-hidden="true"></canvas>
+  <div class="hud" aria-hidden="true"></div>
+  <div class="lectura" aria-hidden="true"><span id="fase">Aproximación a la célula</span><span class="barra"></span><b id="escala">10 µm</b></div>
+  <div class="portal-in">
+    <div class="tarjeta-intro">
+      <div class="eti"><i></i>PAU Biología · Andalucía 2026-27</div>
+      <h1>Adéntrate en <span>la célula</span></h1>
+      <p>BioCelia reúne recursos para preparar la <b>selectividad de Biología en Andalucía</b>. Los materiales siguen los bloques y las <b>directrices de la PAU 2026-27</b> y buscan la comprensión de los conceptos, su aplicación y la argumentación científica.</p>
+      <div class="cifras">
+        <div><b>22</b><span>temas con apuntes, resumen y presentación</span></div>
+        <div><b>+1300</b><span>preguntas reales de la PAU con su criterio</span></div>
+        <div><b>6</b><span>bloques de la PAU 2026-27</span></div>
       </div>
-      <p>Hecho con 🧬 para el alumnado de Biología</p>
-    <div class="footer-content">
-        <p>&copy; 2026 María Dolores Gámez Ortiz. Todos los derechos reservados.</p>
-        
-        <div class="cc-license">
-            <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
-                <img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
-            </a>
-            <p>Este contenido está bajo una <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Licencia Creative Commons Atribución 4.0 Internacional</a>.</p>
-        </div>
+      <a class="entrar" href="#main-content">Entrar en la célula ↓</a>
     </div>
-    </footer>
-
   </div>
+</header>
 
+<main class="mapa" id="main-content">
+  <div class="mapa-cab">
+    <div><div class="eti">Mapa del interior</div><h2>Cada orgánulo, una herramienta</h2></div>
+    <p>Elige por dónde empezar. Cada parte de la web hace en tu preparación un trabajo parecido al de un orgánulo en la célula.</p>
+  </div>
+  <div class="orgs">
+    <a class="org" href="orientacionespau.html" style="--c:#6a5be2">
+      <svg viewBox="0 0 86 86" aria-hidden="true"><circle cx="43" cy="43" r="34" fill="#efeafd" stroke="#6a5be2" stroke-width="3"/><circle cx="43" cy="43" r="27" fill="none" stroke="#6a5be2" stroke-width="1.5" stroke-dasharray="6 4"/><circle cx="50" cy="38" r="9" fill="#6a5be2" opacity=".55"/><path d="M24 50 q6 -8 12 0 t12 0 t12 0" fill="none" stroke="#6a5be2" stroke-width="2"/></svg>
+      <div><small>Núcleo · las instrucciones</small><h3>Orientaciones PAU</h3><p>Las directrices oficiales de 2026-27: qué entra en el examen, cómo es la prueba y cómo se corrige.</p><span class="ir">Abrir →</span></div>
+    </a>
+    <a class="org" href="resumenespau.html" style="--c:#d98a1c">
+      <svg viewBox="0 0 86 86" aria-hidden="true"><g fill="none" stroke="#d98a1c" stroke-width="5" stroke-linecap="round"><path d="M20 28 q23 -12 46 0"/><path d="M17 40 q26 -12 52 0"/><path d="M19 52 q24 -12 48 0"/><path d="M23 64 q20 -10 40 0"/></g><circle cx="70" cy="22" r="5" fill="#d98a1c" opacity=".6"/><circle cx="74" cy="66" r="4" fill="#d98a1c" opacity=".6"/></svg>
+      <div><small>Aparato de Golgi · empaqueta</small><h3>Resúmenes y temas</h3><p>Los 22 temas con apuntes completos, resumen de dos páginas y presentación, ordenados por bloques.</p><span class="ir">Abrir →</span></div>
+    </a>
+    <a class="org" href="Entrenamientopau.html" style="--c:#e0457b">
+      <svg viewBox="0 0 86 86" aria-hidden="true"><ellipse cx="43" cy="43" rx="36" ry="20" fill="#fde7ef" stroke="#e0457b" stroke-width="3"/><path d="M14 43 q6 -12 10 0 t10 0 t10 0 t10 0 t10 0 t8 0" fill="none" stroke="#e0457b" stroke-width="2.5"/></svg>
+      <div><small>Mitocondria · la energía</small><h3>Entrenamiento</h3><p>Banco de preguntas reales de la PAU con la solución del criterio oficial, por bloques y años.</p><span class="ir">Abrir →</span></div>
+    </a>
+    <a class="org" href="simulacropau.html" style="--c:#0aa3c2">
+      <svg viewBox="0 0 86 86" aria-hidden="true"><path d="M8 30 h70 M8 56 h70" stroke="#0aa3c2" stroke-width="2"/><g fill="#0aa3c2"><circle cx="14" cy="34" r="4"/><circle cx="26" cy="34" r="4"/><circle cx="38" cy="34" r="4"/><circle cx="50" cy="34" r="4"/><circle cx="62" cy="34" r="4"/><circle cx="74" cy="34" r="4"/><circle cx="14" cy="52" r="4"/><circle cx="26" cy="52" r="4"/><circle cx="38" cy="52" r="4"/><circle cx="50" cy="52" r="4"/><circle cx="62" cy="52" r="4"/><circle cx="74" cy="52" r="4"/></g><rect x="40" y="26" width="8" height="34" rx="4" fill="#d7f2f8" stroke="#0aa3c2" stroke-width="2"/></svg>
+      <div><small>Membrana · la frontera</small><h3>Simulacro</h3><p>Exámenes completos con la estructura de 2026-27 y cronómetro, para llegar a la prueba sin sorpresas.</p><span class="ir">Abrir →</span></div>
+    </a>
+    <a class="org" href="laboratoriocompetencial.html" style="--c:#139a74">
+      <svg viewBox="0 0 86 86" aria-hidden="true"><path d="M10 60 h66" stroke="#139a74" stroke-width="3"/><g fill="#d6f2e9" stroke="#139a74" stroke-width="2.5"><ellipse cx="28" cy="50" rx="13" ry="8"/><ellipse cx="28" cy="38" rx="9" ry="6"/><ellipse cx="58" cy="50" rx="13" ry="8"/><ellipse cx="58" cy="38" rx="9" ry="6"/></g><path d="M37 30 q6 -14 14 -6 q6 6 14 -4" fill="none" stroke="#139a74" stroke-width="2" stroke-dasharray="3 3"/></svg>
+      <div><small>Ribosomas · construyen</small><h3>Laboratorio competencial</h3><p>Retos y casos que piden aplicar lo estudiado: razonar, interpretar datos y argumentar.</p><span class="ir">Abrir →</span></div>
+    </a>
+    <a class="org" href="laboratorioinvestigacion.html" style="--c:#2f62d6">
+      <svg viewBox="0 0 86 86" aria-hidden="true"><g fill="none" stroke="#2f62d6" stroke-width="3"><path d="M12 24 h52 q10 0 10 8 q0 8 -10 8 h-42 q-10 0 -10 8 q0 8 10 8 h52"/></g><g fill="#2f62d6"><circle cx="20" cy="20" r="3"/><circle cx="32" cy="20" r="3"/><circle cx="44" cy="20" r="3"/><circle cx="56" cy="20" r="3"/><circle cx="30" cy="44" r="3"/><circle cx="42" cy="44" r="3"/><circle cx="54" cy="44" r="3"/><circle cx="24" cy="60" r="3"/><circle cx="36" cy="60" r="3"/><circle cx="48" cy="60" r="3"/><circle cx="60" cy="60" r="3"/></g></svg>
+      <div><small>Retículo endoplasmático · la red de trabajo</small><h3>Laboratorio de investigación</h3><p>Tu primer año como becario o becaria: expedientes de laboratorio con las novedades de la PAU 2026-27.</p><span class="ir">Abrir →</span></div>
+    </a>
+    <a class="org org-ancha" href="juegos.html" style="--c:#e0457b">
+      <svg viewBox="0 0 86 86" aria-hidden="true"><path d="M6 24 h74" stroke="#7fb3e6" stroke-width="9" stroke-linecap="round"/><g fill="#d98a1c"><circle cx="38" cy="33" r="5"/><circle cx="50" cy="33" r="5"/></g><path d="M44 38 q-4 12 -8 18" stroke="#d98a1c" stroke-width="3" fill="none"/><circle cx="32" cy="66" r="14" fill="#e3f4f8" stroke="#0aa3c2" stroke-width="3"/></svg>
+      <div><small>Proteínas motoras · ponen todo en movimiento</small><h3>Juegos y escape rooms</h3><p>Nueve escape rooms y simuladores con tres niveles (Básico, Intermedio y PAU) para aplicar lo aprendido en los seis bloques: casos, gráficas, cálculos y corrección de respuestas como el tribunal.</p><span class="ir">Jugar →</span></div>
+    </a>
+  </div>
+  <p class="metafora">Las comparaciones con los orgánulos son solo una forma de orientarse por la web. La escena de cabecera es una recreación propia con tamaños aproximados: membrana 7,5-10 nm, filamento de actina 7 nm, microtúbulo 25 nm y ribosoma 25-30 nm.</p>
+</main>
+
+<footer>
+  <p>Hecho con 🧬 para el alumnado de Biología</p>
+  <p>&copy; 2026 María Dolores Gámez Ortiz. Todos los derechos reservados.</p>
+  <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licencia Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"></a>
+  <p>Este contenido está bajo una <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Licencia Creative Commons Atribución 4.0 Internacional</a>.</p>
+</footer>
+
+<script>
+/* Viaje al interior de una célula. Primero se ve la célula entera (unos 20 µm) y la cámara se acerca a la
+   membrana; después se pasa a escala molecular justo debajo de ella. Tamaños de referencia (temario PAU,
+   Paniagua, Lodish, Cooper): membrana 7,5-10 nm; microfilamento de actina 7 nm; microtúbulo 25 nm con 13
+   protofilamentos de dímeros de tubulina α-β; ribosoma 25-30 nm; ribosomas de un polisoma a unos 34 nm. */
+(function(){
+  var c = document.getElementById('celula'), x = c.getContext('2d');
+  var tarjeta = document.querySelector('.tarjeta-intro');
+  var faseTxt = document.getElementById('fase'), escTxt = document.getElementById('escala');
+  var reducir = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var W, H, d, caja = {l:0,t:0,r:0,b:0}, inicio = null;
+  var bufA = document.createElement('canvas'), xa = bufA.getContext('2d');
+  function ajustar(){
+    var r = c.getBoundingClientRect(); d = Math.min(window.devicePixelRatio || 1, 2);
+    W = c.width = bufA.width = Math.max(1, Math.round(r.width*d)); H = c.height = bufA.height = Math.max(1, Math.round(r.height*d));
+    var t = tarjeta.getBoundingClientRect();
+    caja = {l:(t.left-r.left-12)*d, t:(t.top-r.top-12)*d, r:(t.right-r.left+12)*d, b:(t.bottom-r.top+12)*d};
+    if (reducir) requestAnimationFrame(dibujar);
+  }
+  var sem = 11; function rnd(a,b){ sem = (sem*16807) % 2147483647; return a + (sem/2147483647)*(b-a); }
+  function h(i){ var s = Math.sin(i*127.1 + 311.7)*43758.5453; return s - Math.floor(s); }
+  function mez(col,k){ var t = k<0 ? [16,34,58] : [255,255,255], a = Math.abs(k); return col.map(function(v,i){ return Math.round(v + (t[i]-v)*a); }); }
+  function rgba(col,a){ return 'rgba('+col[0]+','+col[1]+','+col[2]+','+a+')'; }
+  function suave(t){ t = Math.max(0, Math.min(1, t)); return t<.5 ? 4*t*t*t : 1 - Math.pow(-2*t+2,3)/2; }
+
+  // —— esferas sombreadas (enfocadas) y desenfocadas (profundidad de campo), dibujadas una vez ——
+  var cache = {};
+  function esfera(col, blando){
+    var key = col.join() + (blando ? 'b' : ''); if (cache[key]) return cache[key];
+    var s = document.createElement('canvas'); s.width = s.height = 64; var g = s.getContext('2d'), gr;
+    if (blando){ gr = g.createRadialGradient(32,32,0,32,32,32); gr.addColorStop(0, rgba(mez(col,.35),.8)); gr.addColorStop(.55, rgba(col,.4)); gr.addColorStop(1, rgba(col,0)); }
+    else { gr = g.createRadialGradient(23,21,1,32,32,31); gr.addColorStop(0, rgba(mez(col,.82),1)); gr.addColorStop(.35, rgba(col,1)); gr.addColorStop(.88, rgba(mez(col,-.3),1)); gr.addColorStop(1, rgba(mez(col,-.3),0)); }
+    g.fillStyle = gr; g.fillRect(0,0,64,64); return (cache[key] = s);
+  }
+  function bola(col, sx, sy, r, blando){ if (sx < -r || sx > W+r || sy < -r || sy > H+r) return; x.drawImage(esfera(col, blando), sx-r, sy-r, 2*r, 2*r); }
+
+  var C = { cabeza:[38,166,204], cola:[222,184,112], colest:[238,196,70], prot:[122,104,228], prot2:[212,84,138], gluc:[64,184,124],
+            actina:[234,116,84], tubA:[156,204,244], tubB:[58,128,212], cines:[230,158,44], ribG:[146,104,212], ribP:[210,180,242],
+            arnm:[224,69,123], pept:[52,166,104] };
+  var PASTEL = [[120,178,230],[168,148,234],[238,168,118],[116,202,178],[234,138,168],[196,206,116]];
+
+  // ================= ESCENA A: la célula completa (unidad = 10 µm, radio de la célula = 1) =================
+  var A = { mito:[], ves:[], rib:[], fib:[] }, i, a, r;
+  for (i=0;i<9;i++){ a = rnd(0,6.28); r = rnd(.45,.8); A.mito.push({x:Math.cos(a)*r, y:Math.sin(a)*r, ang:rnd(0,3.14), l:rnd(.13,.19), f:rnd(0,6)}); }
+  for (i=0;i<26;i++){ a = rnd(0,6.28); r = rnd(.35,.9); A.ves.push({x:Math.cos(a)*r, y:Math.sin(a)*r, r:rnd(.012,.03), f:rnd(0,6)}); }
+  for (i=0;i<240;i++){ a = rnd(0,6.28); r = rnd(.33,.96); A.rib.push({x:Math.cos(a)*r, y:Math.sin(a)*r}); }
+  for (i=0;i<14;i++){ a = rnd(0,6.28); A.fib.push({a:a, b:a+rnd(-.6,.6)}); }
+  var NUC = {x:-.06, y:.1, r:.3};
+
+  function escenaA(g, e, t, ox){
+    var m = Math.min(W,H), s0 = m*.36, s = s0*Math.pow(40, e);
+    var cy = -1 + s0*(1-e)/s;                        // el punto superior de la membrana llega al centro de la pantalla
+    function X(wx){ return ox + wx*s; } function Y(wy){ return H*.5 + (wy-cy)*s; }
+    g.clearRect(0,0,W,H);
+    var gr = g.createRadialGradient(X(-.3),Y(-.35),0,X(0),Y(0),s*1.02);
+    gr.addColorStop(0,'rgba(246,251,255,.96)'); gr.addColorStop(.75,'rgba(222,237,249,.94)'); gr.addColorStop(1,'rgba(196,222,242,.94)');
+    g.fillStyle = gr; g.beginPath(); g.arc(X(0),Y(0),s,0,6.283); g.fill();
+    g.strokeStyle = 'rgba(106,91,226,.15)'; g.lineWidth = 1.2*d;
+    A.fib.forEach(function(f){ g.beginPath(); g.moveTo(X(Math.cos(f.a)*.95),Y(Math.sin(f.a)*.95)); g.quadraticCurveTo(X(0),Y(0),X(Math.cos(f.b+3.14)*.95),Y(Math.sin(f.b+3.14)*.95)); g.stroke(); });
+    g.strokeStyle = 'rgba(47,98,214,.32)'; g.lineWidth = Math.max(1.5*d, s*.006);
+    for (var k=0;k<4;k++){ g.beginPath(); g.arc(X(NUC.x),Y(NUC.y),s*(NUC.r+.05+k*.035),-.6+k*.1,1.9-k*.1); g.stroke(); }
+    g.fillStyle = 'rgba(19,154,116,.55)'; var rr = Math.max(1.2*d, s*.004);
+    A.rib.forEach(function(b,i){ var bx = X(b.x+Math.sin(t*.6+i)*.003), by = Y(b.y+Math.cos(t*.5+i)*.003); if (bx>-9&&bx<W+9&&by>-9&&by<H+9){ g.beginPath(); g.arc(bx,by,rr,0,6.283); g.fill(); } });
+    var gn = g.createRadialGradient(X(NUC.x-.1),Y(NUC.y-.12),0,X(NUC.x),Y(NUC.y),s*NUC.r);
+    gn.addColorStop(0,'rgba(236,230,255,.95)'); gn.addColorStop(1,'rgba(176,160,240,.55)');
+    g.fillStyle = gn; g.strokeStyle = 'rgba(106,91,226,.6)'; g.lineWidth = Math.max(2*d, s*.008);
+    g.beginPath(); g.arc(X(NUC.x),Y(NUC.y),s*NUC.r,0,6.283); g.fill(); g.stroke();
+    g.fillStyle = 'rgba(106,91,226,.45)'; g.beginPath(); g.arc(X(NUC.x+.07),Y(NUC.y-.05),s*.08,0,6.283); g.fill();
+    g.strokeStyle = 'rgba(217,138,28,.65)'; g.lineCap = 'round';
+    for (k=0;k<5;k++){ g.lineWidth = Math.max(2*d, s*.012); g.beginPath(); g.arc(X(.4),Y(.42),s*(.12+k*.028),-1,.2); g.stroke(); }
+    A.mito.forEach(function(o){
+      g.save(); g.translate(X(o.x+Math.sin(t*.3+o.f)*.006), Y(o.y+Math.cos(t*.25+o.f)*.006)); g.rotate(o.ang);
+      g.fillStyle = 'rgba(224,69,123,.18)'; g.strokeStyle = 'rgba(224,69,123,.65)'; g.lineWidth = Math.max(1.5*d, s*.006);
+      g.beginPath(); g.ellipse(0,0,s*o.l,s*o.l*.45,0,0,6.283); g.fill(); g.stroke();
+      g.lineWidth = Math.max(1*d, s*.003); g.beginPath();
+      for (var j=-3;j<=3;j++){ g.moveTo(j*s*o.l*.25, -s*o.l*.42); g.lineTo(j*s*o.l*.25 + s*o.l*.08, s*o.l*.15); }
+      g.stroke(); g.restore();
+    });
+    A.ves.forEach(function(v,i){ g.fillStyle = i%3 ? 'rgba(10,163,194,.18)' : 'rgba(217,138,28,.2)'; g.strokeStyle = i%3 ? 'rgba(10,163,194,.5)' : 'rgba(217,138,28,.55)'; g.lineWidth = Math.max(1*d, s*.003);
+      g.beginPath(); g.arc(X(v.x+Math.sin(t*.4+v.f)*.01), Y(v.y+Math.cos(t*.35+v.f)*.01), s*v.r, 0, 6.283); g.fill(); g.stroke(); });
+    // membrana: solo se dibujan las cabezas que caen en pantalla
+    g.strokeStyle = 'rgba(10,163,194,.5)'; g.lineWidth = Math.max(1.5*d, s*.004);
+    g.beginPath(); g.arc(X(0),Y(0),s,0,6.283); g.stroke(); g.beginPath(); g.arc(X(0),Y(0),s*.985,0,6.283); g.stroke();
+    g.fillStyle = 'rgba(10,163,194,.75)'; var rh = Math.max(1.4*d, s*.0035), paso = Math.max(.005, 5*d/s);
+    for (var an=0; an<6.283; an+=paso){ [1,.985].forEach(function(R){ var hx = X(Math.cos(an)*R), hy = Y(Math.sin(an)*R); if (hx>-9&&hx<W+9&&hy>-9&&hy<H+9){ g.beginPath(); g.arc(hx,hy,rh,0,6.283); g.fill(); } }); }
+    return 100*d/s*10*1000;                          // nm que mide la barra de 100 px
+  }
+
+  // ================= ESCENA B: escala molecular (unidad = 1 nm; y < 0 exterior, y > 0 citoplasma) =================
+  var TM = [];
+  function cadena(n){ var ch = [], ang = -Math.PI/2 + rnd(-.4,.4), px = 0, py = 0;
+    for (var k=0;k<n;k++){ ang += rnd(-.5,.5); px += Math.cos(ang)*1.15; py += Math.sin(ang)*1.15; ch.push({x:px, y:py, rama:k>1 && rnd(0,1)<.3, f:rnd(0,6)}); } return ch; }
+  [-235,-160,-80,15,70,140,215].forEach(function(px,i){
+    var an = rnd(3,4.3), al = rnd(6,7.4), bs = [], col = i%3==1 ? C.prot2 : C.prot;
+    for (var k=0;k<18;k++){ var aa = rnd(0,6.283), rr = Math.sqrt(rnd(0,1)), bx = Math.cos(aa)*an*rr; if (i==3) bx += bx<0 ? -.9 : .9; bs.push({x:bx, y:Math.sin(aa)*al*rr, r:rnd(1.3,2.1)}); }
+    bs.sort(function(p,q){ return p.r-q.r; });
+    var gl = [cadena(Math.round(rnd(5,9)))]; if (i!=3 && rnd(0,1)<.7) gl.push(cadena(Math.round(rnd(4,7))));
+    TM.push({x:px, hw:an+1.2, top:-al, bs:bs, col:col, gl:gl});
+  });
+  var LIP = [];
+  for (i=-360;i<=360;i++){
+    var lx = i + (h(i)-.5)*.3, libre = TM.every(function(p){ return Math.abs(lx-p.x) > p.hw; });
+    if (libre) LIP.push({x:lx, i:i, kinkE:h(i*2.3)>.6, kinkI:h(i*4.1)>.6, col:h(i*3.1)<.08, gl: h(i*1.7)<.05 ? cadena(Math.round(rnd(3,6))) : null});
+  }
+  var ACT = [{x0:-380,y0:13,ang:.03,len:780},{x0:-380,y0:21,ang:-.025,len:780},{x0:-70,y0:24,ang:.42,len:150},{x0:250,y0:20,ang:2.45,len:150}];
+  var MT = {y:46, R:12.5};
+  var RIBO = [70,104,138,172].map(function(rx,i){
+    function grupo(n,rx2,ry2,rmin,rmax){ var g = []; for (var k=0;k<n;k++){ var aa = rnd(0,6.283), rr = Math.sqrt(rnd(0,1)); g.push({x:Math.cos(aa)*rx2*rr, y:Math.sin(aa)*ry2*rr, r:rnd(rmin,rmax)}); } return g.sort(function(p,q){ return p.r-q.r; }); }
+    var pep = [], ang = -2.2, px = -4, py = -20;
+    for (var k=0;k<4+i*8;k++){ ang += rnd(-.7,.7); px += Math.cos(ang)*1.4; py += Math.sin(ang)*1.4 - .2; pep.push({x:px, y:py}); }
+    return {x:rx, peq:grupo(12,9,5,2.2,3.4), gra:grupo(16,11,8,2.6,4), pep:pep};
+  });
+  function yARN(wx){ return 128 + Math.sin(wx/40)*5; }
+  var CAPAS = [{p:.55,n:120,blando:true,ymin:10,ymax:300,rmin:2.2,rmax:5},{p:1,n:70,blando:false,ymin:10,ymax:175,rmin:1.2,rmax:3.2},{p:1.9,n:7,blando:true,ymin:22,ymax:150,rmin:6,rmax:12}];
+  CAPAS.forEach(function(L){ L.o = []; for (var k=0;k<L.n;k++) L.o.push({x:rnd(-470,470), y:rnd(L.ymin,L.ymax), r:rnd(L.rmin,L.rmax), col:PASTEL[k%PASTEL.length], f:rnd(0,6), multi:rnd(0,1)<.3}); });
+  var CARGA = []; for (i=0;i<7;i++) CARGA.push({x:rnd(-8,8), y:rnd(-8,8), r:rnd(1.5,2.6), col:PASTEL[i%PASTEL.length]});
+
+  var cam;                                           // {k, cx, cy, ox}
+  function SX(wx,p){ return cam.ox + (wx-cam.cx)*cam.k*(p||1); }
+  function SY(wy,p){ return H*.5 + (wy-cam.cy)*cam.k*(p||1); }
+
+  function capa(L,t){ var k = cam.k*L.p;
+    L.o.forEach(function(o){ var ox = o.x + Math.sin(t*.7+o.f)*.8, oy = o.y + Math.cos(t*.6+o.f*1.3)*.8;
+      bola(o.col, SX(ox,L.p), SY(oy,L.p), o.r*k, L.blando);
+      if (o.multi){ bola(mez(o.col,-.1), SX(ox+o.r*.9,L.p), SY(oy+o.r*.6,L.p), o.r*.8*k, L.blando); bola(mez(o.col,.15), SX(ox-o.r*.2,L.p), SY(oy+o.r*1.1,L.p), o.r*.75*k, L.blando); }
+    });
+  }
+  function glucano(ch, bx, by, t){ var k = cam.k;
+    ch.forEach(function(q,n){ var sw = Math.sin(t*.9+q.f)*.12*n; var gx = bx+q.x+sw, gy = by+q.y;
+      bola(C.gluc, SX(gx), SY(gy), .62*k); if (q.rama) bola(mez(C.gluc,.25), SX(gx+.9), SY(gy-.3), .5*k); });
+  }
+  function membrana(t){ var k = cam.k, x0 = cam.cx - cam.ox/k - 3, x1 = cam.cx + (W-cam.ox)/k + 3;
+    x.lineCap = 'round'; x.strokeStyle = rgba(C.cola,.85); x.lineWidth = Math.max(.6*d, .22*k); x.beginPath();
+    LIP.forEach(function(l){ if (l.x<x0 || l.x>x1) return; var w = Math.sin(t*2+l.i)*.15;
+      [-1,1].forEach(function(lado){ var kink = lado<0 ? l.kinkE : l.kinkI;
+        [-.22,.22].forEach(function(dx,n){ x.moveTo(SX(l.x+dx), SY(lado*2.9));
+          if (n==1 && kink){ x.lineTo(SX(l.x+dx+w), SY(lado*1.7)); x.lineTo(SX(l.x+dx+.45+w), SY(lado*.35)); }
+          else x.lineTo(SX(l.x+dx+w), SY(lado*.3)); });
+      });
+    });
+    x.stroke();
+    LIP.forEach(function(l){ if (l.x<x0 || l.x>x1) return;
+      if (l.col){ for (var q=0;q<3;q++) bola(C.colest, SX(l.x+.5), SY(-2.5+q*.6), .36*k); }
+      bola(C.cabeza, SX(l.x), SY(-3.35), .58*k); bola(mez(C.cabeza,.12), SX(l.x+.1), SY(3.35), .58*k);
+      if (l.gl) glucano(l.gl, l.x, -3.9, t);
+    });
+    TM.forEach(function(p){ if (p.x+12<x0 || p.x-12>x1) return;
+      p.bs.forEach(function(b){ bola(p.col, SX(p.x+b.x), SY(b.y), b.r*k); });
+      p.gl.forEach(function(ch,n){ glucano(ch, p.x+(n?1.6:-1.2), p.top+.6, t); });
+    });
+  }
+  function actina(f,t){ var k = cam.k, ca = Math.cos(f.ang), sa = Math.sin(f.ang);
+    for (var pase=0; pase<2; pase++) for (var s=0; s<f.len; s+=2.75){
+      var hebra = Math.round(s/2.75)%2, fase = s/37*Math.PI + hebra*Math.PI, z = Math.cos(fase);
+      if ((pase==0) != (z<0)) continue;
+      var off = Math.sin(fase)*1.3 + Math.sin(t*.8+s*.02)*.4, wx = f.x0+ca*s-sa*off, wy = f.y0+sa*s+ca*off;
+      bola(z<0 ? mez(C.actina,-.22) : C.actina, SX(wx), SY(wy), 2.5*k);
+    }
+  }
+  function microtubulo(t){ var k = cam.k, x0 = cam.cx - cam.ox/k - 6, x1 = cam.cx + (W-cam.ox)/k + 6, filas = [];
+    for (var j=0;j<13;j++){ var th = j/13*6.283 + .12; filas.push({j:j, th:th, z:Math.cos(th)}); }
+    filas.sort(function(p,q){ return p.z-q.z; });
+    filas.forEach(function(f){ if (f.z < -.4) return;
+      var yy = MT.y + Math.sin(f.th)*MT.R*.9, sh = f.j*.92, osc = -(1-f.z)*.22;   // red B: 0,92 nm entre protofilamentos
+      for (var n=Math.floor((x0-sh)/4); n*4+sh<x1; n++){ var esA = ((n%2)+2)%2==0;
+        bola(mez(esA ? C.tubA : C.tubB, osc), SX(n*4+sh), SY(yy + Math.sin(t+n*.3)*.08), 2.35*k); }
+    });
+  }
+  function vesicula(V,t){ var k = cam.k;
+    x.fillStyle = 'rgba(206,236,246,.6)'; x.beginPath(); x.arc(SX(V.x),SY(V.y),(V.r-3.6)*k,0,6.283); x.fill();
+    CARGA.forEach(function(q){ bola(q.col, SX(V.x+q.x), SY(V.y+q.y), q.r*k); });
+    x.strokeStyle = rgba(C.cola,.8); x.lineWidth = Math.max(.6*d,.22*k); x.beginPath();
+    var n = Math.round(V.r*6.283/1.05), a2;
+    for (var q=0;q<n;q++){ a2 = q/n*6.283; var cs = Math.cos(a2), sn = Math.sin(a2);
+      x.moveTo(SX(V.x+cs*(V.r-.8)),SY(V.y+sn*(V.r-.8))); x.lineTo(SX(V.x+cs*(V.r-3.4)),SY(V.y+sn*(V.r-3.4)));
+      x.moveTo(SX(V.x+cs*(V.r-4)),SY(V.y+sn*(V.r-4))); x.lineTo(SX(V.x+cs*(V.r-6.4)),SY(V.y+sn*(V.r-6.4))); }
+    x.stroke();
+    for (q=0;q<n;q++){ a2 = q/n*6.283; bola(C.cabeza, SX(V.x+Math.cos(a2)*V.r), SY(V.y+Math.sin(a2)*V.r), .58*k);
+      if (q%5<4) bola(mez(C.cabeza,.12), SX(V.x+Math.cos(a2+.01)*(V.r-7.2)), SY(V.y+Math.sin(a2+.01)*(V.r-7.2)), .58*k); }
+  }
+  function cinesina(t){ var k = cam.k, xk = ((t*12+260)%520+520)%520-260, yH = MT.y+MT.R+2.4;
+    var n = Math.floor(xk/8), f = xk/8-n, fe = f<.5 ? 2*f*f : 1-Math.pow(-2*f+2,2)/2;   // pasos de 8 nm, una cabeza adelanta a la otra
+    var fijo = {x:n*8, y:yH}, movil = {x:(n-1)*8+16*fe, y:yH+Math.sin(Math.PI*f)*5};
+    var cuello = {x:(fijo.x+movil.x)/2+1, y:yH+6.5}, V = {x:xk-28, y:116, r:19}, fin = {x:V.x+6, y:V.y-V.r-1.5};
+    vesicula(V,t);
+    for (var s=0; s<=1; s+=.022){ var px = cuello.x+(fin.x-cuello.x)*s, py = cuello.y+(fin.y-cuello.y)*s, w = Math.sin(s*40)*.8;
+      bola(C.cines, SX(px+w), SY(py), .95*k); bola(mez(C.cines,-.15), SX(px-w), SY(py+.3), .95*k); }
+    bola(mez(C.cines,.3), SX(fin.x-2), SY(fin.y-.5), 1.7*k); bola(mez(C.cines,.3), SX(fin.x+1.8), SY(fin.y), 1.5*k);
+    [movil, fijo].forEach(function(cb){ bola(mez(C.cines,-.08), SX(cb.x-1.2), SY(cb.y+1.6), 2.1*k); bola(C.cines, SX(cb.x+.6), SY(cb.y), 2.6*k); });
+    return {cuello:cuello, V:V};
+  }
+  function polisoma(t){ var p = .85, k = cam.k*p;
+    for (var wx=-30; wx<235; wx+=1.1) bola(C.arnm, SX(wx,p), SY(yARN(wx)+Math.sin(t+wx*.2)*.15,p), .75*k);
+    RIBO.forEach(function(rb){ var ym = yARN(rb.x), bx = rb.x + Math.sin(t*.5+rb.x)*.4;
+      rb.peq.forEach(function(b){ bola(C.ribP, SX(bx+b.x,p), SY(ym+5+b.y,p), b.r*k); });
+      rb.gra.forEach(function(b){ bola(C.ribG, SX(bx+b.x,p), SY(ym-9+b.y,p), b.r*k); });
+      rb.pep.forEach(function(q,n){ bola(C.pept, SX(bx+q.x+Math.sin(t*.8+n*.5)*.3,p), SY(ym+q.y,p), .9*k); });
+    });
+  }
+
+  function escenaB(q, t){
+    var e = suave(q), alto = 45*Math.pow(4, e), deriva = suave((q-1)*2);   // la vista pasa de 45 a 180 nm de alto
+    cam = {k:H/alto, cx:20*e + Math.sin(t*.05)*6*deriva, cy:62*e + Math.sin(t*.07)*2*deriva, ox:W < 760*d ? W*.5 : W*.64};
+    var gy = SY(0), g = x.createLinearGradient(0, gy-60*d, 0, gy+80*d);
+    g.addColorStop(0,'rgba(250,253,255,.9)'); g.addColorStop(1,'rgba(214,232,246,.85)');
+    x.fillStyle = g; x.fillRect(0,0,W,H);
+    capa(CAPAS[0], t); polisoma(t);
+    actina(ACT[2], t); actina(ACT[3], t);
+    capa(CAPAS[1], t);
+    membrana(t); actina(ACT[0], t); actina(ACT[1], t);
+    microtubulo(t); var kin = cinesina(t);
+    capa(CAPAS[2], t);
+    return {kin:kin, nm:100*d/cam.k};
+  }
+
+  // —— etiquetas: aparecen al llegar y nunca tapan el texto de la tarjeta ——
+  function etiquetas(kin, alfa){
+    if (alfa <= 0) return;
+    var A2 = ACT[1], s2 = 560, L = [
+      {t:'Glucocáliz', a:[TM[6].x+TM[6].gl[0][TM[6].gl[0].length-1].x - 1.2, TM[6].top+.6+TM[6].gl[0][TM[6].gl[0].length-1].y], dx:-150, dy:-6},
+      {t:'Bicapa de fosfolípidos', a:[100,-3.35], dx:22, dy:-34},
+      {t:'Proteína transmembrana', a:[TM[5].x+2,4], dx:26, dy:20},
+      {t:'Filamentos de actina', a:[A2.x0+Math.cos(A2.ang)*s2, A2.y0+Math.sin(A2.ang)*s2+2.5], dx:24, dy:24},
+      {t:'Microtúbulo: dímeros de tubulina α-β', a:[cam.cx+(W*.93-cam.ox)/cam.k, MT.y+MT.R], dx:-230, dy:30},
+      {t:'Cinesina transportando una vesícula', a:[kin.cuello.x, kin.cuello.y+4], dx:26, dy:34},
+      {t:'Polirribosoma: ribosomas traduciendo un ARNm', a:[RIBO[2].x, yARN(RIBO[2].x)+10, .85], dx:-380, dy:40}
+    ];
+    x.save(); x.globalAlpha = alfa; x.font = '600 '+(12*d)+'px "IBM Plex Mono", ui-monospace, monospace'; x.textBaseline = 'middle';
+    L.forEach(function(l){
+      var ax = SX(l.a[0], l.a[2]), ay = SY(l.a[1], l.a[2]);
+      var tw = x.measureText(l.t).width + 14*d, th = 22*d, bx = ax + l.dx*d, by = ay + l.dy*d - th/2;
+      bx = Math.min(bx, W - tw - 8*d); by = Math.max(6*d, Math.min(by, H - th - 6*d));
+      function dentro(px,py){ return px > caja.l && px < caja.r && py > caja.t && py < caja.b; }
+      if (ax < 0 || ax > W || ay < 0 || ay > H || dentro(ax,ay) || dentro(bx,by) || dentro(bx+tw,by+th) || bx < 4*d) return;
+      x.strokeStyle = 'rgba(16,34,58,.55)'; x.lineWidth = 1.2*d;
+      x.beginPath(); x.moveTo(ax,ay); x.lineTo(bx + (l.dx<0 ? tw : 0), by+th/2); x.stroke();
+      x.fillStyle = '#10223a'; x.beginPath(); x.arc(ax,ay,3*d,0,6.283); x.fill();
+      x.fillStyle = 'rgba(255,255,255,.9)'; x.strokeStyle = 'rgba(10,163,194,.7)';
+      x.beginPath(); if (x.roundRect) x.roundRect(bx,by,tw,th,6*d); else x.rect(bx,by,tw,th); x.fill(); x.stroke();
+      x.fillStyle = '#10223a'; x.fillText(l.t, bx+7*d, by+th/2);
+    });
+    x.restore();
+  }
+  function formato(nm){ var v = nm >= 1000 ? nm/1000 : nm, u = nm >= 1000 ? ' µm' : ' nm';
+    return (v >= 10 ? v.toFixed(0) : v.toFixed(1)).replace('.', ',') + u; }
+
+  var TA = 3200, TX = 800, TB = 4200;
+  function dibujar(ts){
+    if (inicio === null) inicio = ts;
+    var el = reducir ? 1e9 : ts - inicio, t = reducir ? 10 : ts/1000;
+    var ox = W < 760*d ? W*.5 : W*.64, wA = suave((el - (TA-TX))/TX), nmA = 0, res;
+    x.clearRect(0,0,W,H);
+    if (wA > 0){ res = escenaB(Math.max(0, (el-(TA-TX))/TB), t); etiquetas(res.kin, suave(((el-(TA-TX))/TB - .85)/.3)); }
+    if (wA < 1){ nmA = escenaA(xa, suave(Math.min(1, el/TA)), t, ox); x.globalAlpha = 1-wA; x.drawImage(bufA,0,0); x.globalAlpha = 1; }
+    var nm = wA <= 0 ? nmA : (wA >= 1 ? res.nm : Math.exp(Math.log(nmA)*(1-wA) + Math.log(res.nm)*wA));
+    escTxt.textContent = formato(nm);
+    faseTxt.textContent = el < TA*.55 ? 'Aproximación a la célula' : el < TA ? 'Llegando a la membrana plasmática'
+      : el < TA-TX+TB*.6 ? 'Atravesando la membrana plasmática' : 'Citoplasma · escala molecular';
+    if (!reducir) requestAnimationFrame(dibujar);
+  }
+  ajustar(); window.addEventListener('resize', ajustar);
+  requestAnimationFrame(dibujar);
+})();
+</script>
 </body>
 </html>

@@ -572,7 +572,7 @@ body {
 @media print {
   @page { size: A4; margin: 1.8cm 2cm; }
   body { background: white; padding: 0; font-family: "Times New Roman", Times, serif; }
-  .site-header, .control-panel, .timer-bar, .btn-print,
+  .site-nav, .skip-link, .site-header, .control-panel, .timer-bar, .btn-print,
   .session-stats, .exam-wrapper > *:not(.exam-sheet) { display: none !important; }
   .exam-wrapper { display: block !important; margin: 0; padding: 0; max-width: none; }
   .exam-sheet { border-radius: 0; box-shadow: none; animation: none; }
@@ -604,11 +604,22 @@ body {
 </style>
 </head>
 <body>
+<a class="skip-link" href="#main-content">Saltar al contenido principal</a>
+<nav class="site-nav" aria-label="Navegación principal">
+  <a href="index.html">Inicio</a>
+  <a href="orientacionespau.html">Orientaciones</a>
+  <a href="resumenespau.html">Resúmenes</a>
+  <a href="Entrenamientopau.html">Entrenamiento</a>
+  <a class="active" href="simulacropau.html">Simulacro</a>
+  <a href="laboratoriocompetencial.html">Laboratorio</a>
+  <a href="laboratorioinvestigacion.html">Investigación</a>
+  <a href="juegos.html">Juegos</a>
+</nav>
 
 <!-- ══ CABECERA ══ -->
 <header class="site-header">
   <h1>Simulacro <span>PAU</span> Biología</h1>
-  <p>Generador de exámenes con estructura oficial · Andalucía 2025</p>
+  <p>Generador de exámenes con estructura oficial · Andalucía 2026-27</p>
   <div class="badges">
     <span class="badge-pill">📋 Estructura real PAU</span>
     <span class="badge-pill">⏱ 90 minutos</span>
@@ -618,7 +629,7 @@ body {
 </header>
 
 <!-- ══ PANEL DE CONTROL ══ -->
-<div class="control-panel">
+<div class="control-panel" id="main-content">
   <div class="control-card">
     <h2>Generar examen aleatorio</h2>
     <p class="subtitle">Cada examen es único. Las preguntas se eligen aleatoriamente del banco oficial actualizado.</p>
