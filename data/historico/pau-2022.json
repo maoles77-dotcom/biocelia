@@ -79,7 +79,7 @@
           "opcion": "B", "n": 3, "bloque": "Microbiología", "tema": "Tetraciclina: cólera frente a malaria",
           "q": "Tras un viaje a África Central dos amigos tienen que acudir a urgencias por encontrarse enfermos. A uno de ellos se le diagnostica cólera, provocado por la bacteria <i>Vibrio cholerae</i>, mientras que al otro sujeto se le diagnostica malaria, provocada por el protozoo <i>Plasmodium vivax</i>. a) Explique razonadamente a cuál de ellos se le debería administrar tetraciclina, un compuesto que se une a los ribosomas 70S y evita la unión del ARNt [0,6]. b) ¿A qué proceso celular afecta la tetraciclina? [0,4].",
           "c": [
-            "a) Al **enfermo de cólera**: la tetraciclina actúa sobre los **ribosomas 70S** de las bacterias; el protozoo es **eucariota** y tiene **ribosomas 80S** (se admite razonar que afectaría a los 70S de sus mitocondrias) (0,6 p).",
+            "a) Al **enfermo de cólera**: la tetraciclina actúa sobre los **ribosomas 70S** de las bacterias; el protozoo es **eucariota** y tiene **ribosomas 80S** (se admite razonar que afectaría a los 70S de sus mitocondrias) (0,6 p). ((Las directrices 26-27 precisan que los ribosomas mitocondriales humanos son de ≈55S; son de tipo bacteriano y sensibles a los mismos antibióticos, así que el razonamiento sigue valiendo.))",
             "b) A la **traducción** o **síntesis de proteínas** (0,4 p)."
           ]
         },
@@ -875,7 +875,7 @@
             "a) **Cloroplasto** (0,1 p).",
             "b) 1: **membrana externa**; 2: **membrana interna**; 3: **estroma**; 4: **grana**; 5: **tilacoide** (0,5 p).",
             "c) A: **ADN cloroplástico**, en el **estroma**; B: **ribosoma**, en el **estroma** (0,3 p).",
-            "d) En la **mitocondria** ((ribosomas 70S)) (0,1 p)."
+            "d) En la **mitocondria** ((ribosomas de tipo bacteriano, de ≈55S)) (0,1 p)."
           ]
         },
         {

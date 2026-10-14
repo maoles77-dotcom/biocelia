@@ -8149,7 +8149,7 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Exponga la hipótesis admitida sobre el origen evolutivo de la célula eucariótica [0,75]. Describa los componentes estructurales del núcleo interfásico [1,25].",
    "c": [
-    "La hipótesis (endosimbiótica) se apoya en que mitocondrias y cloroplastos tienen <mark class=\"clave-criterio\">ADN propio</mark>, <mark class=\"clave-criterio\">ribosomas 70S</mark> y <mark class=\"clave-criterio\">división independiente</mark>. 0,25 p cada uno (0,75 p).",
+    "La hipótesis (endosimbiótica) se apoya en que mitocondrias y cloroplastos tienen <mark class=\"clave-criterio\">ADN propio</mark>, <mark class=\"clave-criterio\">ribosomas 70S</mark> y <mark class=\"clave-criterio\">división independiente</mark>. 0,25 p cada uno (0,75 p). <span class=\"redactado\">Las directrices 26-27 precisan que los ribosomas mitocondriales humanos son de ≈55S; son de tipo bacteriano y sensibles a los mismos antibióticos, así que el razonamiento sigue valiendo.</span>",
     "<mark class=\"clave-criterio\">Envoltura</mark>: <mark class=\"clave-criterio\">doble membrana con poros</mark> (0,25 p); <mark class=\"clave-criterio\">nucleoplasma</mark>: líquido con biomoléculas (0,25 p); <mark class=\"clave-criterio\">nucléolo</mark>: donde se forman las <mark class=\"clave-criterio\">subunidades ribosómicas</mark> (0,25 p); <mark class=\"clave-criterio\">cromatina</mark>: <mark class=\"clave-criterio\">fibra nucleoproteica</mark> (0,5 p)."
    ],
    "origen": {
@@ -8362,7 +8362,7 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Suponga que se ha descubierto un nuevo antibiótico llamado “Bactericida 70S” que bloquea a los ribosomas 70S. ¿Se podría usar este antibiótico para combatir las infecciones bacterianas en humanos? [0,5]. ¿Sería recomendable este antibiótico para tratar una infección vírica? [0,5]. Razone las respuestas.",
    "c": [
-    "<mark class=\"clave-criterio\">No</mark>: los <mark class=\"clave-criterio\">ribosomas 70S también están en las mitocondrias</mark> humanas y se <mark class=\"clave-criterio\">paralizarían las funciones mitocondriales</mark> (0,5 p).",
+    "<mark class=\"clave-criterio\">No</mark>: los <mark class=\"clave-criterio\">ribosomas 70S también están en las mitocondrias</mark> humanas y se <mark class=\"clave-criterio\">paralizarían las funciones mitocondriales</mark> (0,5 p). <span class=\"redactado\">Las directrices 26-27 precisan que los ribosomas mitocondriales humanos son de ≈55S; son de tipo bacteriano y sensibles a los mismos antibióticos, así que el razonamiento sigue valiendo.</span>",
     "<mark class=\"clave-criterio\">No</mark>: los <mark class=\"clave-criterio\">virus carecen de ribosomas</mark> (0,5 p)."
    ],
    "origen": {
@@ -10668,7 +10668,7 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>En relación con la figura adjunta, conteste las siguientes cuestiones:</b><br>a) ¿Qué teoría representa la figura en su totalidad? [0,2]. Explíquela brevemente [0,4]. Indique dos pruebas que avalen la teoría [0,2]. ¿Qué tipo de organización tendrían las células señaladas con el número 1? [0,1], ¿y las del recuadro B? [0,1].<br>b) ¿Qué tipo de nutrición tendría la célula marcada con el número 1? [0,2]. ¿Y las marcadas con el 2 y el 3? [0,2]. ¿Qué tipo de célula es la marcada con el número 4? [0,2], ¿y con el 5? [0,2]. ¿Qué orgánulos celulares están señalados con los números 6 y 7? [0,2].",
    "c": [
     "a) <mark class=\"clave-criterio\">Teoría endosimbiótica</mark> (0,2 p): las células eucariotas surgen por <mark class=\"clave-criterio\">endosimbiosis de bacterias aerobias y fotosintéticas</mark> con células ancestrales (0,4 p).",
-    "a) Pruebas: cloroplastos y mitocondrias tienen <mark class=\"clave-criterio\">ADN circular</mark> y <mark class=\"clave-criterio\">ribosomas 70S</mark> (0,2 p).",
+    "a) Pruebas: cloroplastos y mitocondrias tienen <mark class=\"clave-criterio\">ADN circular</mark> y <mark class=\"clave-criterio\">ribosomas 70S</mark> (0,2 p). <span class=\"redactado\">Las directrices 26-27 precisan que los ribosomas mitocondriales humanos son de ≈55S; son de tipo bacteriano y sensibles a los mismos antibióticos, así que el razonamiento sigue valiendo.</span>",
     "a) 1: <mark class=\"clave-criterio\">procariota</mark> (0,1 p); recuadro B: <mark class=\"clave-criterio\">eucariota</mark> (0,1 p).",
     "b) 1: <mark class=\"clave-criterio\">heterótrofa anaerobia</mark> (0,2 p). 2: <mark class=\"clave-criterio\">heterótrofa aerobia</mark>; 3: <mark class=\"clave-criterio\">autótrofa</mark> (0,2 p).",
     "b) 4: <mark class=\"clave-criterio\">eucariota animal</mark> (0,2 p); 5: <mark class=\"clave-criterio\">eucariota vegetal</mark> (0,2 p).",
@@ -15654,7 +15654,7 @@ window.BIOCELIA_HISTORICO = {
    "c": [
     "a) <mark class=\"clave-criterio\">Sí</mark>: sus <mark class=\"clave-criterio\">ribosomas citoplasmáticos son 80S</mark> y no se ven afectados (también se admite «no» si se razona que, al fallar la mitocondria, falta ATP) (0,2 p).",
     "b) <mark class=\"clave-criterio\">Sí</mark>, por la misma razón: <mark class=\"clave-criterio\">ribosomas 80S</mark> (0,2 p).",
-    "c) y d) <mark class=\"clave-criterio\">No</mark>: los <mark class=\"clave-criterio\">ribosomas mitocondriales son 70S</mark> y el inhibidor impide la respiración en animales y vegetales (0,4 p).",
+    "c) y d) <mark class=\"clave-criterio\">No</mark>: los <mark class=\"clave-criterio\">ribosomas mitocondriales son 70S</mark> y el inhibidor impide la respiración en animales y vegetales (0,4 p). <span class=\"redactado\">Las directrices 26-27 precisan que los ribosomas mitocondriales humanos son de ≈55S; son de tipo bacteriano y sensibles a los mismos antibióticos, así que el razonamiento sigue valiendo.</span>",
     "e) <mark class=\"clave-criterio\">No</mark>: los <mark class=\"clave-criterio\">ribosomas de los cloroplastos también son 70S</mark> (0,2 p)."
    ],
    "origen": {
@@ -21110,7 +21110,7 @@ window.BIOCELIA_HISTORICO = {
    "q": "En el planeta B612 se han descubierto dos formas de vida unicelulares (A y B) muy similares a ciertos microorganismos del planeta Tierra. Después de realizar unos análisis preliminares, los científicos han elaborado la siguiente tabla, donde se resumen ciertas características de estos organismos extraterrestres:<br><table class=\"tabla-pau\"><tr><th>Organismo</th><th>Pared celular</th><th>Tamaño celular</th><th>Cromosomas</th><th>Envoltura nuclear</th><th>Fotosíntesis</th></tr><tr><td>A</td><td>Sí</td><td>1 µm</td><td>1 circular</td><td>No</td><td>Sí</td></tr><tr><td>B</td><td>Sí</td><td>100 µm</td><td>24 pares lineales</td><td>Sí</td><td>Sí</td></tr></table><br>a) Teniendo en cuenta esta información, indique qué organización celular poseen estos organismos y en qué grupo se podrían clasificar cada uno de ellos [0,4]. b) Si se añade un inhibidor de ribosomas 70s, explique de forma razonada qué procesos se verían afectados en cada uno de estos microorganismos [0,6].",
    "c": [
     "a) A: <mark class=\"clave-criterio\">procariota, bacteria (cianobacteria)</mark>; B: <mark class=\"clave-criterio\">eucariota, alga unicelular</mark> (0,4 p).",
-    "b) En A se afecta <mark class=\"clave-criterio\">toda la síntesis de proteínas (traducción)</mark>, por tener <mark class=\"clave-criterio\">ribosomas 70S</mark>. En B <mark class=\"clave-criterio\">no se afecta la síntesis en el citosol y el RER (ribosomas 80S)</mark> (0,3 p), pero <mark class=\"clave-criterio\">sí la de mitocondrias y plastos</mark>, cuyos <mark class=\"clave-criterio\">ribosomas son 70S</mark> (0,3 p)."
+    "b) En A se afecta <mark class=\"clave-criterio\">toda la síntesis de proteínas (traducción)</mark>, por tener <mark class=\"clave-criterio\">ribosomas 70S</mark>. En B <mark class=\"clave-criterio\">no se afecta la síntesis en el citosol y el RER (ribosomas 80S)</mark> (0,3 p), pero <mark class=\"clave-criterio\">sí la de mitocondrias y plastos</mark>, cuyos <mark class=\"clave-criterio\">ribosomas son 70S</mark> (0,3 p). <span class=\"redactado\">Las directrices 26-27 precisan que los ribosomas mitocondriales humanos son de ≈55S; son de tipo bacteriano y sensibles a los mismos antibióticos, así que el razonamiento sigue valiendo.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2020 · Examen 6",
@@ -23731,7 +23731,7 @@ window.BIOCELIA_HISTORICO = {
     "a) <mark class=\"clave-criterio\">Bipartición</mark> (fisión binaria) (0,2 p).",
     "b) <mark class=\"clave-criterio\">Bacterias</mark> (procariotas) (0,2 p).",
     "c) <mark class=\"clave-criterio\">Sin núcleo</mark>, <mark class=\"clave-criterio\">sin orgánulos membranosos</mark>, <mark class=\"clave-criterio\">ADN circular</mark>, <mark class=\"clave-criterio\">plásmidos</mark>. Dos (0,4 p).",
-    "d) <mark class=\"clave-criterio\">Ribosomas 70S</mark> (como los de mitocondrias y cloroplastos), <mark class=\"clave-criterio\">flagelos</mark>, <mark class=\"clave-criterio\">pared celular</mark> (como las vegetales), <mark class=\"clave-criterio\">membrana plasmática</mark>. Uno (0,2 p)."
+    "d) <mark class=\"clave-criterio\">Ribosomas 70S</mark> (como los de mitocondrias y cloroplastos), <mark class=\"clave-criterio\">flagelos</mark>, <mark class=\"clave-criterio\">pared celular</mark> (como las vegetales), <mark class=\"clave-criterio\">membrana plasmática</mark>. Uno (0,2 p). <span class=\"redactado\">Las directrices 26-27 precisan que los ribosomas mitocondriales humanos son de ≈55S; son de tipo bacteriano y sensibles a los mismos antibióticos, así que el razonamiento sigue valiendo.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2021 · Reserva de julio",
@@ -23972,7 +23972,7 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Tras un viaje a África Central dos amigos tienen que acudir a urgencias por encontrarse enfermos. A uno de ellos se le diagnostica cólera, provocado por la bacteria <i>Vibrio cholerae</i>, mientras que al otro sujeto se le diagnostica malaria, provocada por el protozoo <i>Plasmodium vivax</i>. a) Explique razonadamente a cuál de ellos se le debería administrar tetraciclina, un compuesto que se une a los ribosomas 70S y evita la unión del ARNt [0,6]. b) ¿A qué proceso celular afecta la tetraciclina? [0,4].",
    "c": [
-    "a) Al <mark class=\"clave-criterio\">enfermo de cólera</mark>: la tetraciclina actúa sobre los <mark class=\"clave-criterio\">ribosomas 70S</mark> de las bacterias; el protozoo es <mark class=\"clave-criterio\">eucariota</mark> y tiene <mark class=\"clave-criterio\">ribosomas 80S</mark> (se admite razonar que afectaría a los 70S de sus mitocondrias) (0,6 p).",
+    "a) Al <mark class=\"clave-criterio\">enfermo de cólera</mark>: la tetraciclina actúa sobre los <mark class=\"clave-criterio\">ribosomas 70S</mark> de las bacterias; el protozoo es <mark class=\"clave-criterio\">eucariota</mark> y tiene <mark class=\"clave-criterio\">ribosomas 80S</mark> (se admite razonar que afectaría a los 70S de sus mitocondrias) (0,6 p). <span class=\"redactado\">Las directrices 26-27 precisan que los ribosomas mitocondriales humanos son de ≈55S; son de tipo bacteriano y sensibles a los mismos antibióticos, así que el razonamiento sigue valiendo.</span>",
     "b) A la <mark class=\"clave-criterio\">traducción</mark> o <mark class=\"clave-criterio\">síntesis de proteínas</mark> (0,4 p)."
    ],
    "origen": {
@@ -26100,7 +26100,7 @@ window.BIOCELIA_HISTORICO = {
     "a) <mark class=\"clave-criterio\">Cloroplasto</mark> (0,1 p).",
     "b) 1: <mark class=\"clave-criterio\">membrana externa</mark>; 2: <mark class=\"clave-criterio\">membrana interna</mark>; 3: <mark class=\"clave-criterio\">estroma</mark>; 4: <mark class=\"clave-criterio\">grana</mark>; 5: <mark class=\"clave-criterio\">tilacoide</mark> (0,5 p).",
     "c) A: <mark class=\"clave-criterio\">ADN cloroplástico</mark>, en el <mark class=\"clave-criterio\">estroma</mark>; B: <mark class=\"clave-criterio\">ribosoma</mark>, en el <mark class=\"clave-criterio\">estroma</mark> (0,3 p).",
-    "d) En la <mark class=\"clave-criterio\">mitocondria</mark> <span class=\"redactado\">ribosomas 70S</span> (0,1 p)."
+    "d) En la <mark class=\"clave-criterio\">mitocondria</mark> <span class=\"redactado\">ribosomas de tipo bacteriano, de ≈55S</span> (0,1 p)."
    ],
    "origen": {
     "documento": "PAU Andalucía 2022 · Reserva de julio",
@@ -27968,7 +27968,7 @@ window.BIOCELIA_HISTORICO = {
    "q": "Si en un cultivo de células eucarióticas animales se introduce un inhibidor de la actividad de los ribosomas 70S: a) ¿podrán las células cultivadas sintetizar proteínas? [0,5]; b) ¿podrán esas células realizar la respiración celular? [0,5] Razone las respuestas.",
    "c": [
     "a) <mark class=\"clave-criterio\">Sí</mark>: sus ribosomas citoplasmáticos son <mark class=\"clave-criterio\">80S</mark> (se admite «no» si se razona que falta ATP por fallar la mitocondria) (0,5 p).",
-    "b) <mark class=\"clave-criterio\">No</mark>: los <mark class=\"clave-criterio\">ribosomas mitocondriales son 70S</mark> y se afecta la función mitocondrial (0,5 p)."
+    "b) <mark class=\"clave-criterio\">No</mark>: los <mark class=\"clave-criterio\">ribosomas mitocondriales son 70S</mark> y se afecta la función mitocondrial (0,5 p). <span class=\"redactado\">Las directrices 26-27 precisan que los ribosomas mitocondriales humanos son de ≈55S; son de tipo bacteriano y sensibles a los mismos antibióticos, así que el razonamiento sigue valiendo.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Titular, modelo B",
@@ -31773,7 +31773,7 @@ window.BIOCELIA_HISTORICO = {
    "c": [
     "<span class=\"redactado\">a) Partículas sin membrana formadas por ARNr y proteínas, con dos subunidades: una grande (60S) y una pequeña (40S), que se unen para formar el ribosoma 80S al traducir.</span>",
     "<span class=\"redactado\">b) Síntesis de proteínas (traducción). Se encuentran libres en el citosol, adosados al RER y a la membrana nuclear externa, y en mitocondrias y cloroplastos.</span>",
-    "<span class=\"redactado\">c) Por la teoría endosimbiótica: mitocondrias y cloroplastos proceden de bacterias que fueron englobadas por una célula ancestral; por eso tienen su propio ADN y ribosomas 70S, como los procariotas.</span>"
+    "<span class=\"redactado\">c) Por la teoría endosimbiótica: mitocondrias y cloroplastos proceden de bacterias que fueron englobadas por una célula ancestral; por eso tienen su propio ADN y ribosomas de tipo bacteriano: 70S en los cloroplastos y ≈55S en las mitocondrias.</span>"
    ],
    "origen": {
     "documento": "PAU 2025 Navarra (Universidad Pública de Navarra) · Navarra, convocatoria ordinaria",
@@ -33541,7 +33541,7 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>En el laboratorio se han mezclado por error un conjunto de placas de Petri con células que presentan distinto tipo de organización celular. Para ayudar a los científicos a clasificar las células como procariotas o eucariotas vegetales, responda a las siguientes preguntas:</b><br>a) Compare ambos tipos en términos de organización del material genético, tipos de ribosomas y pared celular [0,6].<br>b) Una determinada toxina afecta a las subunidades 50S de los ribosomas. Razone qué tipos celulares se verán afectados y qué proceso celular se alterará [0,6].<br>c) Distinga los tipos de metabolismo según la fuente de carbono, la fuente de energía y la presencia o ausencia de oxígeno [0,6]. De acuerdo con esta clasificación, indique qué tipo de metabolismo podrían tener los procariotas [0,2].",
    "c": [
     "a) Procariotas: <mark class=\"clave-criterio\">cromosoma circular</mark>, pueden tener <mark class=\"clave-criterio\">plásmidos</mark>, <mark class=\"clave-criterio\">ribosomas 70S</mark>, <mark class=\"clave-criterio\">pared de peptidoglucano (mureína)</mark>. Eucariotas vegetales: <mark class=\"clave-criterio\">ADN lineal organizado en cromosomas</mark>, <mark class=\"clave-criterio\">ribosomas 80S</mark> (y 70S en orgánulos), <mark class=\"clave-criterio\">pared principalmente de celulosa</mark> (0,6 p).",
-    "b) <mark class=\"clave-criterio\">Ambos tipos celulares</mark>: se altera la <mark class=\"clave-criterio\">traducción</mark>, porque la subunidad 50S forma parte de los <mark class=\"clave-criterio\">ribosomas 70S</mark>, presentes en <mark class=\"clave-criterio\">procariotas, cloroplastos y mitocondrias</mark> (0,6 p).",
+    "b) <mark class=\"clave-criterio\">Ambos tipos celulares</mark>: se altera la <mark class=\"clave-criterio\">traducción</mark>, porque la subunidad 50S forma parte de los <mark class=\"clave-criterio\">ribosomas 70S</mark>, presentes en <mark class=\"clave-criterio\">procariotas, cloroplastos y mitocondrias</mark> (0,6 p). <span class=\"redactado\">Las directrices 26-27 precisan que los ribosomas mitocondriales humanos son de ≈55S; son de tipo bacteriano y sensibles a los mismos antibióticos, así que el razonamiento sigue valiendo.</span>",
     "c) Fuente de carbono: <mark class=\"clave-criterio\">autótrofos y heterótrofos</mark>; fuente de energía: <mark class=\"clave-criterio\">fotótrofos y quimiótrofos</mark>; oxígeno: <mark class=\"clave-criterio\">aerobios y anaerobios</mark> (0,2 p cada una). Procariotas: <mark class=\"clave-criterio\">todos</mark> (0,2 p)."
    ],
    "origen": {
@@ -44023,7 +44023,7 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Exponga la hipótesis admitida sobre el origen evolutivo de la célula eucariótica [0,75]. Describa los componentes estructurales del núcleo interfásico [1,25].",
    "c": [
-    "La hipótesis (endosimbiótica) se apoya en que mitocondrias y cloroplastos tienen <mark class=\"clave-criterio\">ADN propio</mark>, <mark class=\"clave-criterio\">ribosomas 70S</mark> y <mark class=\"clave-criterio\">división independiente</mark>. 0,25 p cada uno (0,75 p).",
+    "La hipótesis (endosimbiótica) se apoya en que mitocondrias y cloroplastos tienen <mark class=\"clave-criterio\">ADN propio</mark>, <mark class=\"clave-criterio\">ribosomas 70S</mark> y <mark class=\"clave-criterio\">división independiente</mark>. 0,25 p cada uno (0,75 p). <span class=\"redactado\">Las directrices 26-27 precisan que los ribosomas mitocondriales humanos son de ≈55S; son de tipo bacteriano y sensibles a los mismos antibióticos, así que el razonamiento sigue valiendo.</span>",
     "<mark class=\"clave-criterio\">Envoltura</mark>: <mark class=\"clave-criterio\">doble membrana con poros</mark> (0,25 p); <mark class=\"clave-criterio\">nucleoplasma</mark>: líquido con biomoléculas (0,25 p); <mark class=\"clave-criterio\">nucléolo</mark>: donde se forman las <mark class=\"clave-criterio\">subunidades ribosómicas</mark> (0,25 p); <mark class=\"clave-criterio\">cromatina</mark>: <mark class=\"clave-criterio\">fibra nucleoproteica</mark> (0,5 p)."
    ],
    "origen": {
@@ -44240,7 +44240,7 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>I.</b> Suponga que se ha descubierto un nuevo antibiótico llamado “Bactericida 70S” que bloquea a los ribosomas 70S. ¿Se podría usar este antibiótico para combatir las infecciones bacterianas en humanos? [0,5]. ¿Sería recomendable este antibiótico para tratar una infección vírica? [0,5]. Razone las respuestas. <i>(1 punto)</i><br><br><b>II.</b> Un ganadero compró una pareja de borregos con lana blanca que suponía de raza pura. Todos los cruces entre estos dos borregos dieron lugar a borregos blancos. Sin embargo, en algunos cruces entre estos descendientes aparecieron borregos negros. Explique cómo es posible que haya habido descendencia de borregos negros [0,5]. ¿Qué haría usted para demostrar si los borregos que compró el ganadero eran de raza pura? [0,5]. Razone las respuestas representando los esquemas de los posibles cruces. <i>(1 punto)</i>",
    "puntos": 2,
    "c": [
-    "<b>I.</b> <mark class=\"clave-criterio\">No</mark>: los <mark class=\"clave-criterio\">ribosomas 70S también están en las mitocondrias</mark> humanas y se <mark class=\"clave-criterio\">paralizarían las funciones mitocondriales</mark> (0,5 p).",
+    "<b>I.</b> <mark class=\"clave-criterio\">No</mark>: los <mark class=\"clave-criterio\">ribosomas 70S también están en las mitocondrias</mark> humanas y se <mark class=\"clave-criterio\">paralizarían las funciones mitocondriales</mark> (0,5 p). <span class=\"redactado\">Las directrices 26-27 precisan que los ribosomas mitocondriales humanos son de ≈55S; son de tipo bacteriano y sensibles a los mismos antibióticos, así que el razonamiento sigue valiendo.</span>",
     "<b>I.</b> <mark class=\"clave-criterio\">No</mark>: los <mark class=\"clave-criterio\">virus carecen de ribosomas</mark> (0,5 p).",
     "<b>II.</b> Uno de los parentales era <mark class=\"clave-criterio\">heterocigótico (Bb)</mark>: la mitad de su descendencia fue Bb y, al cruzarse entre sí, dio <mark class=\"clave-criterio\">homocigóticos recesivos (bb) negros</mark> (0,5 p).",
     "<b>II.</b> Un <mark class=\"clave-criterio\">cruzamiento prueba</mark> de cada parental con un <mark class=\"clave-criterio\">borrego negro (bb)</mark>: el que dé descendencia negra será el <mark class=\"clave-criterio\">heterocigótico</mark> (0,5 p)."
@@ -46100,7 +46100,7 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>En relación con la figura adjunta, conteste las siguientes cuestiones:</b><br>a) ¿Qué teoría representa la figura en su totalidad? [0,2]. Explíquela brevemente [0,4]. Indique dos pruebas que avalen la teoría [0,2]. ¿Qué tipo de organización tendrían las células señaladas con el número 1? [0,1], ¿y las del recuadro B? [0,1].<br>b) ¿Qué tipo de nutrición tendría la célula marcada con el número 1? [0,2]. ¿Y las marcadas con el 2 y el 3? [0,2]. ¿Qué tipo de célula es la marcada con el número 4? [0,2], ¿y con el 5? [0,2]. ¿Qué orgánulos celulares están señalados con los números 6 y 7? [0,2].",
    "c": [
     "a) <mark class=\"clave-criterio\">Teoría endosimbiótica</mark> (0,2 p): las células eucariotas surgen por <mark class=\"clave-criterio\">endosimbiosis de bacterias aerobias y fotosintéticas</mark> con células ancestrales (0,4 p).",
-    "a) Pruebas: cloroplastos y mitocondrias tienen <mark class=\"clave-criterio\">ADN circular</mark> y <mark class=\"clave-criterio\">ribosomas 70S</mark> (0,2 p).",
+    "a) Pruebas: cloroplastos y mitocondrias tienen <mark class=\"clave-criterio\">ADN circular</mark> y <mark class=\"clave-criterio\">ribosomas 70S</mark> (0,2 p). <span class=\"redactado\">Las directrices 26-27 precisan que los ribosomas mitocondriales humanos son de ≈55S; son de tipo bacteriano y sensibles a los mismos antibióticos, así que el razonamiento sigue valiendo.</span>",
     "a) 1: <mark class=\"clave-criterio\">procariota</mark> (0,1 p); recuadro B: <mark class=\"clave-criterio\">eucariota</mark> (0,1 p).",
     "b) 1: <mark class=\"clave-criterio\">heterótrofa anaerobia</mark> (0,2 p). 2: <mark class=\"clave-criterio\">heterótrofa aerobia</mark>; 3: <mark class=\"clave-criterio\">autótrofa</mark> (0,2 p).",
     "b) 4: <mark class=\"clave-criterio\">eucariota animal</mark> (0,2 p); 5: <mark class=\"clave-criterio\">eucariota vegetal</mark> (0,2 p).",
@@ -50236,7 +50236,7 @@ window.BIOCELIA_HISTORICO = {
    "c": [
     "<b>I.</b> a) <mark class=\"clave-criterio\">Sí</mark>: sus <mark class=\"clave-criterio\">ribosomas citoplasmáticos son 80S</mark> y no se ven afectados (también se admite «no» si se razona que, al fallar la mitocondria, falta ATP) (0,2 p).",
     "<b>I.</b> b) <mark class=\"clave-criterio\">Sí</mark>, por la misma razón: <mark class=\"clave-criterio\">ribosomas 80S</mark> (0,2 p).",
-    "<b>I.</b> c) y d) <mark class=\"clave-criterio\">No</mark>: los <mark class=\"clave-criterio\">ribosomas mitocondriales son 70S</mark> y el inhibidor impide la respiración en animales y vegetales (0,4 p).",
+    "<b>I.</b> c) y d) <mark class=\"clave-criterio\">No</mark>: los <mark class=\"clave-criterio\">ribosomas mitocondriales son 70S</mark> y el inhibidor impide la respiración en animales y vegetales (0,4 p). <span class=\"redactado\">Las directrices 26-27 precisan que los ribosomas mitocondriales humanos son de ≈55S; son de tipo bacteriano y sensibles a los mismos antibióticos, así que el razonamiento sigue valiendo.</span>",
     "<b>I.</b> e) <mark class=\"clave-criterio\">No</mark>: los <mark class=\"clave-criterio\">ribosomas de los cloroplastos también son 70S</mark> (0,2 p).",
     "<b>II.</b> a) Los <mark class=\"clave-criterio\">antígenos</mark> de muchos agentes infecciosos <mark class=\"clave-criterio\">no varían o varían muy poco</mark>, así que la <mark class=\"clave-criterio\">memoria inmunológica</mark> protege toda la vida (0,5 p).",
     "<b>II.</b> b) En los virus gripales las <mark class=\"clave-criterio\">mutaciones son muy frecuentes</mark> y la <mark class=\"clave-criterio\">variación de sus antígenos</mark> impide una protección permanente (0,5 p)."
@@ -54038,7 +54038,7 @@ window.BIOCELIA_HISTORICO = {
    "c": [
     "<b>I.</b> Al <mark class=\"clave-criterio\">aumentar la temperatura aumenta la velocidad</mark>, porque <mark class=\"clave-criterio\">se favorece la formación de complejos enzima-sustrato</mark> <span class=\"redactado\">más choques eficaces</span> (0,5 p). A partir de cierta temperatura <span class=\"redactado\">óptima, unos 40 ºC</span> la velocidad <mark class=\"clave-criterio\">disminuye por la desnaturalización de la enzima</mark>, que es una proteína <span class=\"redactado\">a 60 ºC la actividad es nula</span> (0,5 p).",
     "<b>II.</b> a) A: <mark class=\"clave-criterio\">procariota, bacteria (cianobacteria)</mark>; B: <mark class=\"clave-criterio\">eucariota, alga unicelular</mark> (0,4 p).",
-    "<b>II.</b> b) En A se afecta <mark class=\"clave-criterio\">toda la síntesis de proteínas (traducción)</mark>, por tener <mark class=\"clave-criterio\">ribosomas 70S</mark>. En B <mark class=\"clave-criterio\">no se afecta la síntesis en el citosol y el RER (ribosomas 80S)</mark> (0,3 p), pero <mark class=\"clave-criterio\">sí la de mitocondrias y plastos</mark>, cuyos <mark class=\"clave-criterio\">ribosomas son 70S</mark> (0,3 p)."
+    "<b>II.</b> b) En A se afecta <mark class=\"clave-criterio\">toda la síntesis de proteínas (traducción)</mark>, por tener <mark class=\"clave-criterio\">ribosomas 70S</mark>. En B <mark class=\"clave-criterio\">no se afecta la síntesis en el citosol y el RER (ribosomas 80S)</mark> (0,3 p), pero <mark class=\"clave-criterio\">sí la de mitocondrias y plastos</mark>, cuyos <mark class=\"clave-criterio\">ribosomas son 70S</mark> (0,3 p). <span class=\"redactado\">Las directrices 26-27 precisan que los ribosomas mitocondriales humanos son de ≈55S; son de tipo bacteriano y sensibles a los mismos antibióticos, así que el razonamiento sigue valiendo.</span>"
    ],
    "isNew": true,
    "competencial": true,
@@ -55899,7 +55899,7 @@ window.BIOCELIA_HISTORICO = {
     "<b>II.</b> a) <mark class=\"clave-criterio\">Bipartición</mark> (fisión binaria) (0,2 p).",
     "<b>II.</b> b) <mark class=\"clave-criterio\">Bacterias</mark> (procariotas) (0,2 p).",
     "<b>II.</b> c) <mark class=\"clave-criterio\">Sin núcleo</mark>, <mark class=\"clave-criterio\">sin orgánulos membranosos</mark>, <mark class=\"clave-criterio\">ADN circular</mark>, <mark class=\"clave-criterio\">plásmidos</mark>. Dos (0,4 p).",
-    "<b>II.</b> d) <mark class=\"clave-criterio\">Ribosomas 70S</mark> (como los de mitocondrias y cloroplastos), <mark class=\"clave-criterio\">flagelos</mark>, <mark class=\"clave-criterio\">pared celular</mark> (como las vegetales), <mark class=\"clave-criterio\">membrana plasmática</mark>. Uno (0,2 p)."
+    "<b>II.</b> d) <mark class=\"clave-criterio\">Ribosomas 70S</mark> (como los de mitocondrias y cloroplastos), <mark class=\"clave-criterio\">flagelos</mark>, <mark class=\"clave-criterio\">pared celular</mark> (como las vegetales), <mark class=\"clave-criterio\">membrana plasmática</mark>. Uno (0,2 p). <span class=\"redactado\">Las directrices 26-27 precisan que los ribosomas mitocondriales humanos son de ≈55S; son de tipo bacteriano y sensibles a los mismos antibióticos, así que el razonamiento sigue valiendo.</span>"
    ],
    "isNew": true,
    "competencial": true,
@@ -56297,7 +56297,7 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>I.</b> Tras un viaje a África Central dos amigos tienen que acudir a urgencias por encontrarse enfermos. A uno de ellos se le diagnostica cólera, provocado por la bacteria <i>Vibrio cholerae</i>, mientras que al otro sujeto se le diagnostica malaria, provocada por el protozoo <i>Plasmodium vivax</i>. a) Explique razonadamente a cuál de ellos se le debería administrar tetraciclina, un compuesto que se une a los ribosomas 70S y evita la unión del ARNt [0,6]. b) ¿A qué proceso celular afecta la tetraciclina? [0,4]. <i>(1 punto)</i><br><br><b>II.</b> En una plantación de aguacates de la costa tropical andaluza se ha observado que el fruto de algunas plantas aparece dañado, y que el número de plantas afectadas va aumentando paulatinamente. Puesto que todas las plantas se encuentran en las mismas condiciones de luz, temperatura, riego y abonado, el agricultor intuye que el daño puede deberse a un agente infeccioso. Un análisis determina que se trata de una enfermedad causada por un agente que no incluye en su composición ninguna molécula proteica. Indique qué tipo de agente puede ser el causante de la enfermedad y justifique la respuesta [1]. <i>(1 punto)</i>",
    "puntos": 2,
    "c": [
-    "<b>I.</b> a) Al <mark class=\"clave-criterio\">enfermo de cólera</mark>: la tetraciclina actúa sobre los <mark class=\"clave-criterio\">ribosomas 70S</mark> de las bacterias; el protozoo es <mark class=\"clave-criterio\">eucariota</mark> y tiene <mark class=\"clave-criterio\">ribosomas 80S</mark> (se admite razonar que afectaría a los 70S de sus mitocondrias) (0,6 p).",
+    "<b>I.</b> a) Al <mark class=\"clave-criterio\">enfermo de cólera</mark>: la tetraciclina actúa sobre los <mark class=\"clave-criterio\">ribosomas 70S</mark> de las bacterias; el protozoo es <mark class=\"clave-criterio\">eucariota</mark> y tiene <mark class=\"clave-criterio\">ribosomas 80S</mark> (se admite razonar que afectaría a los 70S de sus mitocondrias) (0,6 p). <span class=\"redactado\">Las directrices 26-27 precisan que los ribosomas mitocondriales humanos son de ≈55S; son de tipo bacteriano y sensibles a los mismos antibióticos, así que el razonamiento sigue valiendo.</span>",
     "<b>I.</b> b) A la <mark class=\"clave-criterio\">traducción</mark> o <mark class=\"clave-criterio\">síntesis de proteínas</mark> (0,4 p).",
     "<b>II.</b> Un <mark class=\"clave-criterio\">viroide</mark>: es una <mark class=\"clave-criterio\">partícula subviral sin proteínas</mark>, formada por <mark class=\"clave-criterio\">ARN circular y monocatenario</mark>, que <mark class=\"clave-criterio\">infecta a plantas</mark> (1 p)."
    ],
@@ -57633,7 +57633,7 @@ window.BIOCELIA_HISTORICO = {
     "<b>II.</b> a) <mark class=\"clave-criterio\">Cloroplasto</mark> (0,1 p).",
     "<b>II.</b> b) 1: <mark class=\"clave-criterio\">membrana externa</mark>; 2: <mark class=\"clave-criterio\">membrana interna</mark>; 3: <mark class=\"clave-criterio\">estroma</mark>; 4: <mark class=\"clave-criterio\">grana</mark>; 5: <mark class=\"clave-criterio\">tilacoide</mark> (0,5 p).",
     "<b>II.</b> c) A: <mark class=\"clave-criterio\">ADN cloroplástico</mark>, en el <mark class=\"clave-criterio\">estroma</mark>; B: <mark class=\"clave-criterio\">ribosoma</mark>, en el <mark class=\"clave-criterio\">estroma</mark> (0,3 p).",
-    "<b>II.</b> d) En la <mark class=\"clave-criterio\">mitocondria</mark> <span class=\"redactado\">ribosomas 70S</span> (0,1 p)."
+    "<b>II.</b> d) En la <mark class=\"clave-criterio\">mitocondria</mark> <span class=\"redactado\">ribosomas de tipo bacteriano, de ≈55S</span> (0,1 p)."
    ],
    "isNew": true,
    "competencial": true,
@@ -59114,7 +59114,7 @@ window.BIOCELIA_HISTORICO = {
     "<b>I.</b> b) La caseína se desnaturaliza por el <mark class=\"clave-criterio\">ácido láctico</mark> de la <mark class=\"clave-criterio\">fermentación láctica</mark> de <i>Lactobacillus</i> (0,4 p).",
     "<b>I.</b> c) El calor <mark class=\"clave-criterio\">ha destruido las bacterias</mark> y <mark class=\"clave-criterio\">no hay fermentación</mark> (0,2 p).",
     "<b>II.</b> a) <mark class=\"clave-criterio\">Sí</mark>: sus ribosomas citoplasmáticos son <mark class=\"clave-criterio\">80S</mark> (se admite «no» si se razona que falta ATP por fallar la mitocondria) (0,5 p).",
-    "<b>II.</b> b) <mark class=\"clave-criterio\">No</mark>: los <mark class=\"clave-criterio\">ribosomas mitocondriales son 70S</mark> y se afecta la función mitocondrial (0,5 p)."
+    "<b>II.</b> b) <mark class=\"clave-criterio\">No</mark>: los <mark class=\"clave-criterio\">ribosomas mitocondriales son 70S</mark> y se afecta la función mitocondrial (0,5 p). <span class=\"redactado\">Las directrices 26-27 precisan que los ribosomas mitocondriales humanos son de ≈55S; son de tipo bacteriano y sensibles a los mismos antibióticos, así que el razonamiento sigue valiendo.</span>"
    ],
    "isNew": false,
    "competencial": false,
@@ -61884,7 +61884,7 @@ window.BIOCELIA_HISTORICO = {
     "<b>I.</b> <span class=\"redactado\">d) Verdadera: genera nuevas combinaciones de alelos, es decir, variabilidad genética sobre la que actúa la selección natural.</span>",
     "<b>II.</b> <span class=\"redactado\">a) Partículas sin membrana formadas por ARNr y proteínas, con dos subunidades: una grande (60S) y una pequeña (40S), que se unen para formar el ribosoma 80S al traducir.</span>",
     "<b>II.</b> <span class=\"redactado\">b) Síntesis de proteínas (traducción). Se encuentran libres en el citosol, adosados al RER y a la membrana nuclear externa, y en mitocondrias y cloroplastos.</span>",
-    "<b>II.</b> <span class=\"redactado\">c) Por la teoría endosimbiótica: mitocondrias y cloroplastos proceden de bacterias que fueron englobadas por una célula ancestral; por eso tienen su propio ADN y ribosomas 70S, como los procariotas.</span>"
+    "<b>II.</b> <span class=\"redactado\">c) Por la teoría endosimbiótica: mitocondrias y cloroplastos proceden de bacterias que fueron englobadas por una célula ancestral; por eso tienen su propio ADN y ribosomas de tipo bacteriano: 70S en los cloroplastos y ≈55S en las mitocondrias.</span>"
    ],
    "isNew": false,
    "competencial": false,
@@ -63720,7 +63720,7 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>En el laboratorio se han mezclado por error un conjunto de placas de Petri con células que presentan distinto tipo de organización celular. Para ayudar a los científicos a clasificar las células como procariotas o eucariotas vegetales, responda a las siguientes preguntas:</b><br>a) Compare ambos tipos en términos de organización del material genético, tipos de ribosomas y pared celular [0,6].<br>b) Una determinada toxina afecta a las subunidades 50S de los ribosomas. Razone qué tipos celulares se verán afectados y qué proceso celular se alterará [0,6].<br>c) Distinga los tipos de metabolismo según la fuente de carbono, la fuente de energía y la presencia o ausencia de oxígeno [0,6]. De acuerdo con esta clasificación, indique qué tipo de metabolismo podrían tener los procariotas [0,2].",
    "c": [
     "a) Procariotas: <mark class=\"clave-criterio\">cromosoma circular</mark>, pueden tener <mark class=\"clave-criterio\">plásmidos</mark>, <mark class=\"clave-criterio\">ribosomas 70S</mark>, <mark class=\"clave-criterio\">pared de peptidoglucano (mureína)</mark>. Eucariotas vegetales: <mark class=\"clave-criterio\">ADN lineal organizado en cromosomas</mark>, <mark class=\"clave-criterio\">ribosomas 80S</mark> (y 70S en orgánulos), <mark class=\"clave-criterio\">pared principalmente de celulosa</mark> (0,6 p).",
-    "b) <mark class=\"clave-criterio\">Ambos tipos celulares</mark>: se altera la <mark class=\"clave-criterio\">traducción</mark>, porque la subunidad 50S forma parte de los <mark class=\"clave-criterio\">ribosomas 70S</mark>, presentes en <mark class=\"clave-criterio\">procariotas, cloroplastos y mitocondrias</mark> (0,6 p).",
+    "b) <mark class=\"clave-criterio\">Ambos tipos celulares</mark>: se altera la <mark class=\"clave-criterio\">traducción</mark>, porque la subunidad 50S forma parte de los <mark class=\"clave-criterio\">ribosomas 70S</mark>, presentes en <mark class=\"clave-criterio\">procariotas, cloroplastos y mitocondrias</mark> (0,6 p). <span class=\"redactado\">Las directrices 26-27 precisan que los ribosomas mitocondriales humanos son de ≈55S; son de tipo bacteriano y sensibles a los mismos antibióticos, así que el razonamiento sigue valiendo.</span>",
     "c) Fuente de carbono: <mark class=\"clave-criterio\">autótrofos y heterótrofos</mark>; fuente de energía: <mark class=\"clave-criterio\">fotótrofos y quimiótrofos</mark>; oxígeno: <mark class=\"clave-criterio\">aerobios y anaerobios</mark> (0,2 p cada una). Procariotas: <mark class=\"clave-criterio\">todos</mark> (0,2 p)."
    ],
    "origen": {

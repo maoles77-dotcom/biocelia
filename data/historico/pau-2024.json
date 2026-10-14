@@ -227,7 +227,7 @@
           "q": "Si en un cultivo de células eucarióticas animales se introduce un inhibidor de la actividad de los ribosomas 70S: a) ¿podrán las células cultivadas sintetizar proteínas? [0,5]; b) ¿podrán esas células realizar la respiración celular? [0,5] Razone las respuestas.",
           "c": [
             "a) **Sí**: sus ribosomas citoplasmáticos son **80S** (se admite «no» si se razona que falta ATP por fallar la mitocondria) (0,5 p).",
-            "b) **No**: los **ribosomas mitocondriales son 70S** y se afecta la función mitocondrial (0,5 p)."
+            "b) **No**: los **ribosomas mitocondriales son 70S** y se afecta la función mitocondrial (0,5 p). ((Las directrices 26-27 precisan que los ribosomas mitocondriales humanos son de ≈55S; son de tipo bacteriano y sensibles a los mismos antibióticos, así que el razonamiento sigue valiendo.))"
           ]
         },
         {

@@ -267,7 +267,7 @@
           "opcion": "A", "n": 2, "bloque": "Célula", "tema": "Endosimbiosis y núcleo interfásico",
           "q": "Exponga la hipótesis admitida sobre el origen evolutivo de la célula eucariótica [0,75]. Describa los componentes estructurales del núcleo interfásico [1,25].",
           "c": [
-            "La hipótesis (endosimbiótica) se apoya en que mitocondrias y cloroplastos tienen **ADN propio**, **ribosomas 70S** y **división independiente**. 0,25 p cada uno (0,75 p).",
+            "La hipótesis (endosimbiótica) se apoya en que mitocondrias y cloroplastos tienen **ADN propio**, **ribosomas 70S** y **división independiente**. 0,25 p cada uno (0,75 p). ((Las directrices 26-27 precisan que los ribosomas mitocondriales humanos son de ≈55S; son de tipo bacteriano y sensibles a los mismos antibióticos, así que el razonamiento sigue valiendo.))",
             "**Envoltura**: **doble membrana con poros** (0,25 p); **nucleoplasma**: líquido con biomoléculas (0,25 p); **nucléolo**: donde se forman las **subunidades ribosómicas** (0,25 p); **cromatina**: **fibra nucleoproteica** (0,5 p)."
           ]
         },
@@ -343,7 +343,7 @@
           "opcion": "B", "n": 4, "bloque": "Microbiología", "tema": "Antibiótico contra ribosomas 70S",
           "q": "Suponga que se ha descubierto un nuevo antibiótico llamado “Bactericida 70S” que bloquea a los ribosomas 70S. ¿Se podría usar este antibiótico para combatir las infecciones bacterianas en humanos? [0,5]. ¿Sería recomendable este antibiótico para tratar una infección vírica? [0,5]. Razone las respuestas.",
           "c": [
-            "**No**: los **ribosomas 70S también están en las mitocondrias** humanas y se **paralizarían las funciones mitocondriales** (0,5 p).",
+            "**No**: los **ribosomas 70S también están en las mitocondrias** humanas y se **paralizarían las funciones mitocondriales** (0,5 p). ((Las directrices 26-27 precisan que los ribosomas mitocondriales humanos son de ≈55S; son de tipo bacteriano y sensibles a los mismos antibióticos, así que el razonamiento sigue valiendo.))",
             "**No**: los **virus carecen de ribosomas** (0,5 p)."
           ]
         },
