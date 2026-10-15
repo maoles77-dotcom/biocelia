@@ -279,6 +279,8 @@ sub, sup { line-height: 0; }
 .visor3d-btn:focus-visible { outline: 3px solid #1a73e8; outline-offset: 2px; }
 .visor3d-btn[aria-pressed="true"] { background: var(--pri); color: #fff; }
 .visor3d-ayuda { margin: 6px 0 0; font-size: 0.8rem; color: var(--muted); }
+.visor3d-leyenda { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 16px; margin: 8px 0 0; font-size: 0.85rem; font-weight: 700; }
+.visor3d-leyenda i { display: inline-block; width: 14px; height: 14px; border-radius: 4px; margin-right: 6px; vertical-align: -2px; }
 .visor3d-error { padding: 120px 16px 0; color: var(--ko); font-weight: 700; }
 .visor3d-impreso { display: none; }
 .visor3d figcaption { font-size: 0.88rem; color: var(--muted); margin-top: 8px; }
@@ -455,7 +457,7 @@ details.solucion .cuerpo { border-left: 3px solid var(--ok); padding: 2px 0 2px 
   .clave { background: var(--marca); border-radius: 2px; }
   .tabla th { background: var(--pri) !important; }
   .figura img { max-height: 300px; border: none; }
-  .visor3d-lienzo, .visor3d-barra, .visor3d-ayuda { display: none !important; }
+  .visor3d-lienzo, .visor3d-barra, .visor3d-ayuda, .visor3d-leyenda { display: none !important; }
   .visor3d { break-inside: avoid; padding: 8px 12px; }
   .visor3d-impreso { display: block; margin: 4px 0; font-size: 9pt; color: var(--muted); }
   .saber-mas { break-inside: avoid; }

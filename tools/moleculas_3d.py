@@ -47,8 +47,8 @@ def quiral_rs(atomos, enlaces, c):
     """Configuración R/S de un carbono con prioridades CIP sencillas (válido para el gliceraldehído)."""
     def prioridad(i, desde):
         el = atomos[i][0]
-        z = {"O": 8, "C": 6, "H": 1}[el]
-        sus = sorted((({"O": 8, "C": 6, "H": 1}[atomos[j][0]]) for j in vecinos(enlaces, i) if j != desde), reverse=True)
+        z = {"O": 8, "N": 7, "C": 6, "H": 1}[el]
+        sus = sorted((({"O": 8, "N": 7, "C": 6, "H": 1}[atomos[j][0]]) for j in vecinos(enlaces, i) if j != desde), reverse=True)
         dobles = [o for a, b, o in enlaces if i in (a, b) and o == 2]
         if dobles:  # el C=O del aldehído cuenta el O dos veces
             sus = sorted(sus + [8], reverse=True)
@@ -173,7 +173,53 @@ def lipido(codigo, nombre, nota):
     print(f"{nombre}: {len(atomos)} átomos, {alto:.1f} Å de largo")
 
 
+def alanina():
+    """L-alanina de PubChem en posición de Fischer (–COOH arriba, –CH3 abajo, N y H hacia el observador)
+    y la D como su reflejo. Se comprueba que la L sea (S) y la D (R)."""
+    ruta = DIR / "l-alanina-pubchem.sdf"
+    if not ruta.exists():
+        import urllib.request
+        ruta.write_bytes(urllib.request.urlopen(
+            "https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/cid/5950/SDF?record_type=3d", timeout=60).read())
+    atomos, enlaces = leer_sdf(ruta)
+    els = [el for el, _ in atomos]
+    pes = lambda i: [j for j in vecinos(enlaces, i) if els[j] != "H"]
+    ca = next(i for i, el in enumerate(els) if el == "C" and len(pes(i)) == 3)
+    cooh = next(j for j in pes(ca) if els[j] == "C" and sum(els[k] == "O" for k in vecinos(enlaces, j)) == 2)
+    ch3 = next(j for j in pes(ca) if els[j] == "C" and j != cooh)
+    n = next(j for j in pes(ca) if els[j] == "N")
+    h = next(j for j in vecinos(enlaces, ca) if els[j] == "H")
+    pos = np.array([p for _, p in atomos]) - atomos[ca][1]
+    y = pos[cooh] - pos[ch3]; y /= np.linalg.norm(y)
+    z = pos[n] / np.linalg.norm(pos[n]) + pos[h] / np.linalg.norm(pos[h]); z -= np.dot(z, y) * y; z /= np.linalg.norm(z)
+    x = np.cross(y, z)
+    pos = pos @ np.vstack([x, y, z]).T
+    l_at = [(el, p) for el, p in zip(els, pos)]
+    d_at = [(el, p * np.array([-1, 1, 1])) for el, p in l_at]
+    assert quiral_rs(l_at, enlaces, ca) == "S" and quiral_rs(d_at, enlaces, ca) == "R"
+    assert pos[n][0] < 0, "en la L-alanina el –NH2 debe quedar a la izquierda (Fischer)"
+    escribir_sdf(DIR / "l-alanina.sdf", "L-alanina", l_at, enlaces, "PubChem CID 5950, (2S)")
+    escribir_sdf(DIR / "d-alanina.sdf", "D-alanina", d_at, enlaces, "Reflejo especular de la L-alanina (PubChem CID 5950): (2R)")
+    print("alanina: L = S (–NH2 a la izquierda) · D = R")
+
+
+def proteina(codigo, nombre, hetero=()):
+    """Estructura del PDB sin aguas ni ligandos (salvo los indicados), con sus registros HELIX/SHEET."""
+    import urllib.request
+    txt = urllib.request.urlopen(f"https://files.rcsb.org/download/{codigo}.pdb", timeout=120).read().decode()
+    # De las hélices solo se conservan las α (clase 1 del formato PDB); las 3₁₀ y otras se ven como bucles.
+    quedan = [l for l in txt.splitlines() if l.startswith(("SHEET", "ATOM", "TER"))
+              or (l.startswith("HELIX") and l[38:40].strip() == "1")
+              or (l.startswith("HETATM") and l[17:20].strip() in hetero)]
+    cab = [f"REMARK   BioCelia: PDB {codigo} (RCSB Protein Data Bank), sin aguas"]
+    (DIR / f"{nombre}.pdb").write_text("\n".join(cab + quedan + ["END", ""]), encoding="utf-8")
+    print(f"{nombre}: PDB {codigo}, {sum(l.startswith('ATOM') for l in quedan)} átomos")
+
+
 if __name__ == "__main__":
+    alanina()
+    proteina("1UBQ", "ubiquitina")
+    proteina("4HHB", "hemoglobina", hetero=("HEM",))
     gliceraldehido()
     glucosas()
     lipido("STE", "acido-estearico", "PDB, diccionario de ligandos: STE (coordenadas ideales)")

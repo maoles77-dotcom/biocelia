@@ -52,6 +52,10 @@
     var marcar = fig.dataset.marcar || '';
     var SEP = parseFloat(fig.dataset.sep) || SEP0;
     var sinH = fig.dataset.hidrogenos === 'no';      // en moléculas grandes se ocultan los H para verlas mejor
+    var esPDB = /\.pdb$/.test(mols[0]);
+    var estiloProt = fig.dataset.estilo || '';       // "ss" (por estructura secundaria) o "cadenas"
+    var colores = {};                                // data-colores="A:#c00|B:#00c" o "h:#..|s:#..|c:#.."
+    (fig.dataset.colores || '').split('|').forEach(function (p) { var k = p.split(':'); if (k[1]) colores[k[0]] = k[1]; });
 
     var lienzo = document.createElement('div');
     lienzo.className = 'visor3d-lienzo';
@@ -59,7 +63,8 @@
     var barra = document.createElement('div');
     barra.className = 'visor3d-barra';
     var bGirar = boton('⟳ Girar', 'Activa o detiene el giro automático');
-    var bEstilo = boton('Esferas', 'Cambia entre bolas y varillas y modelo de esferas');
+    var bEstilo = esPDB ? boton('Ver átomos', 'Cambia entre la cinta del esqueleto y los átomos')
+                        : boton('Esferas', 'Cambia entre bolas y varillas y modelo de esferas');
     var bSuper = modo === 'espejo' ? boton('Intentar superponer', 'Lleva una molécula sobre la otra') : null;
     var bCentro = boton('Centrar');
     [bGirar, bEstilo, bSuper, bCentro].forEach(function (b) { if (b) barra.appendChild(b); });
@@ -67,16 +72,36 @@
     ayuda.className = 'visor3d-ayuda';
     ayuda.textContent = 'Arrastra para girar · rueda o pellizco para acercar';
     var cap = fig.querySelector('figcaption');
-    fig.insertBefore(lienzo, cap); fig.insertBefore(barra, cap); fig.insertBefore(ayuda, cap);
+    fig.insertBefore(lienzo, cap);
+    if (fig.dataset.leyenda) {                       // data-leyenda="α-hélice:#d63384|lámina β:#e5a00d"
+      var ley = document.createElement('p'); ley.className = 'visor3d-leyenda';
+      fig.dataset.leyenda.split('|').forEach(function (p) {
+        var k = p.split(':'); var e = document.createElement('span');
+        e.innerHTML = '<i style="background:' + k[1] + '"></i>' + k[0]; ley.appendChild(e);
+      });
+      fig.insertBefore(ley, cap);
+    }
+    fig.insertBefore(barra, cap); fig.insertBefore(ayuda, cap);
 
     Promise.all([cargarLib()].concat(mols.map(function (m) {
-      return fetch(RUTA + m + '.sdf').then(function (r) { if (!r.ok) throw new Error(m); return r.text(); });
+      var f = /\.pdb$/.test(m) ? m : m + '.sdf';
+      return fetch(RUTA + f).then(function (r) { if (!r.ok) throw new Error(m); return r.text(); });
     }))).then(function (res) {
       var datos = res.slice(1);
       var v = $3Dmol.createViewer(lienzo, { backgroundColor: '#f7fafc', antialias: true });
       var esferas = false, superpuesto = false, girando = false;
 
       function estilo(m) {
+        if (esPDB) {
+          var color = estiloProt === 'cadenas'
+            ? function (a) { return colores[a.chain] || '#9aa7b3'; }
+            : function (a) { return a.ss === 'h' ? (colores.h || '#d63384') : a.ss === 's' ? (colores.s || '#e5a00d') : (colores.c || '#9aa7b3'); };
+          m.setStyle({ hetflag: false }, esferas ? { stick: { radius: 0.18, colorfunc: color } } : { cartoon: { colorfunc: color, thickness: 0.6 } });
+          // grupos hemo u otros ligandos: varillas gruesas con el carbono naranja y los metales como esferas
+          m.setStyle({ hetflag: true }, { stick: { radius: 0.32, colorscheme: 'orangeCarbon' } });
+          m.setStyle({ hetflag: true, elem: 'Fe' }, { sphere: { scale: 0.9, color: '#b03a2e' } });
+          return;
+        }
         m.setStyle({}, esferas ? { sphere: { scale: 0.85 } } : { stick: { radius: 0.14 }, sphere: { scale: 0.26 } });
         if (sinH) m.setStyle({ elem: 'H' }, {});
       }
@@ -133,7 +158,7 @@
         datos.forEach(function (sdf, i) {
           var dx = datos.length === 1 ? 0 : (i === 0 ? -SEP : SEP);
           if (superpuesto && i === 1) dx = -SEP;               // el reflejo se lleva sobre el original
-          var m = v.addModel(desplazar(sdf, dx), 'sdf');
+          var m = esPDB ? v.addModel(sdf, 'pdb') : v.addModel(desplazar(sdf, dx), 'sdf');
           estilo(m); marcas(m, dx);
           m.selectedAtoms({}).forEach(function (a) { yMin = Math.min(yMin, a.y); });
           xs.push(dx);
@@ -161,7 +186,9 @@
         bGirar.setAttribute('aria-pressed', girando);
       });
       bEstilo.addEventListener('click', function () {
-        esferas = !esferas; bEstilo.textContent = esferas ? 'Bolas y varillas' : 'Esferas'; dibujar(false);
+        esferas = !esferas;
+        bEstilo.textContent = esPDB ? (esferas ? 'Ver cinta' : 'Ver átomos') : (esferas ? 'Bolas y varillas' : 'Esferas');
+        dibujar(false);
       });
       if (bSuper) bSuper.addEventListener('click', function () {
         superpuesto = !superpuesto;
