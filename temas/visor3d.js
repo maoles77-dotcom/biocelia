@@ -64,6 +64,7 @@
     barra.className = 'visor3d-barra';
     var bGirar = boton('⟳ Girar', 'Activa o detiene el giro automático');
     var bEstilo = estiloProt === 'enzima' ? boton('Quitar superficie', 'Muestra u oculta la superficie de la enzima')
+                : estiloProt === 'adn' ? boton('Varillas gruesas', 'Cambia el grosor de las varillas')
                 : esPDB ? boton('Ver átomos', 'Cambia entre la cinta del esqueleto y los átomos')
                         : boton('Esferas', 'Cambia entre bolas y varillas y modelo de esferas');
     var bSuper = modo === 'espejo' ? boton('Intentar superponer', 'Lleva una molécula sobre la otra') : null;
@@ -93,6 +94,24 @@
       var esferas = false, superpuesto = false, girando = false;
 
       function estilo(m) {
+        if (estiloProt === 'adn') {             // esqueleto de cada cadena en gris y bases por colores
+          var esq = /'|^P$|^OP[12]$|^O[12]P$/;
+          m.setStyle({}, { stick: { radius: esferas ? 0.35 : 0.2, colorfunc: function (a) {
+            if (esq.test(a.atom)) return a.chain === 'B' ? '#b3bec9' : '#7d8a97';   // cada cadena, un gris
+            return colores[a.resn.replace(/^D/, '')] || '#9aa7b3';
+          } } });
+          return;
+        }
+        if (estiloProt === 'arnt') {            // cinta de la cadena; anticodón y extremo CCA destacados
+          var tramos = (fig.dataset.tramos || '').split('|').map(function (t) { var k = t.split(':'); return { r: k[0].split('-').map(Number), c: k[1] }; });
+          m.setStyle({}, esferas ? { stick: { radius: 0.2 } } : { cartoon: { color: colores.cadena || '#7fb3e6' } });
+          tramos.forEach(function (t) {
+            if (!t.c) return;
+            var sel = { resi: t.r[0] + '-' + (t.r[1] || t.r[0]) };
+            m.setStyle(sel, esferas ? { stick: { radius: 0.25, color: t.c } } : { cartoon: { color: t.c }, stick: { radius: 0.22, color: t.c } });
+          });
+          return;
+        }
         if (estiloProt === 'enzima') {          // cinta clara, sustrato en verde y superficie aparte (en dibujar)
           m.setStyle({ hetflag: false }, { cartoon: { color: '#b9c6d3', thickness: 0.5 } });
           m.setStyle({ hetflag: true }, { stick: { radius: 0.3, colorscheme: 'greenCarbon' } });
@@ -178,6 +197,25 @@
           v.addLabel(n, { position: { x: xs[i], y: yMin - 1.6, z: 0 }, fontSize: 14, fontColor: '#0f4c81',
             backgroundColor: '#ffffff', backgroundOpacity: 0.9, borderColor: '#0f4c81', borderThickness: 1, alignment: 'center' });
         });
+        if (estiloProt === 'adn' || estiloProt === 'arnt') {          // marcas de los extremos y de los tramos
+          var md = v.getModel(0), at0 = md.selectedAtoms({});
+          var cadenas = {};
+          at0.forEach(function (a) { (cadenas[a.chain] = cadenas[a.chain] || []).push(a); });
+          Object.keys(cadenas).forEach(function (ch) {
+            var as = cadenas[ch], r0 = Math.min.apply(null, as.map(function (a) { return a.resi; })), r1 = Math.max.apply(null, as.map(function (a) { return a.resi; }));
+            var a5 = as.filter(function (a) { return a.resi === r0 && /^(P|O5')$/.test(a.atom); })[0];
+            var a3 = as.filter(function (a) { return a.resi === r1 && a.atom === "O3'"; })[0];
+            if (a5) etiqueta("5′", { x: a5.x, y: a5.y, z: a5.z }, '#0f4c81');
+            if (a3) etiqueta(estiloProt === 'arnt' ? "3′ (aquí se une el aminoácido)" : "3′", { x: a3.x, y: a3.y, z: a3.z }, '#0f4c81');
+          });
+          (fig.dataset.tramos || '').split('|').forEach(function (t) {
+            var k = t.split(':'); if (!k[2]) return;           // "34-36:#color:anticodón"
+            var r = k[0].split('-').map(Number), sel = at0.filter(function (a) { return a.resi >= r[0] && a.resi <= (r[1] || r[0]); });
+            if (!sel.length) return;
+            var c = sel.reduce(function (s, a) { s.x += a.x / sel.length; s.y += a.y / sel.length; s.z += a.z / sel.length; return s; }, { x: 0, y: 0, z: 0 });
+            etiqueta(k[2], { x: c.x + 2, y: c.y - 2, z: c.z }, k[1]);
+          });
+        }
         if (estiloProt === 'enzima') {
           var mod = v.getModel(0);
           if (typeof $3Dmol.setSyncSurface === 'function') $3Dmol.setSyncSurface(true);   // proteína pequeña: al momento
@@ -213,6 +251,7 @@
       bEstilo.addEventListener('click', function () {
         esferas = !esferas;
         bEstilo.textContent = estiloProt === 'enzima' ? (esferas ? 'Ver superficie' : 'Quitar superficie')
+          : estiloProt === 'adn' ? (esferas ? 'Varillas finas' : 'Varillas gruesas')
           : esPDB ? (esferas ? 'Ver cinta' : 'Ver átomos') : (esferas ? 'Bolas y varillas' : 'Esferas');
         dibujar(false);
       });

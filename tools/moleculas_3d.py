@@ -203,15 +203,24 @@ def alanina():
     print("alanina: L = S (–NH2 a la izquierda) · D = R")
 
 
-def proteina(codigo, nombre, hetero=()):
+def proteina(codigo, nombre, hetero=(), orientar=False):
     """Estructura del PDB sin aguas ni ligandos (salvo los indicados), con sus registros HELIX/SHEET."""
     import urllib.request
     txt = urllib.request.urlopen(f"https://files.rcsb.org/download/{codigo}.pdb", timeout=120).read().decode()
     # De las hélices solo se conservan las α (clase 1 del formato PDB); las 3₁₀ y otras se ven como bucles.
     quedan = [l for l in txt.splitlines() if l.startswith(("SHEET", "ATOM", "TER"))
               or (l.startswith("HELIX") and l[38:40].strip() == "1")
-              or (l.startswith("HETATM") and l[17:20].strip() in hetero)]
-    cab = [f"REMARK   BioCelia: PDB {codigo} (RCSB Protein Data Bank), sin aguas"]
+              or (l.startswith("HETATM") and (l[17:20].strip() in hetero
+                                              or (hetero == "*" and l[17:20].strip() not in ("HOH", "MG", "MN", "NA", "K", "CL"))))]
+    if orientar:   # eje mayor en vertical y segundo eje en horizontal (solo se giran las coordenadas)
+        idx = [i for i, l in enumerate(quedan) if l.startswith(("ATOM", "HETATM"))]
+        P = np.array([[float(quedan[i][30:38]), float(quedan[i][38:46]), float(quedan[i][46:54])] for i in idx])
+        c = P.mean(0); _, _, vt = np.linalg.svd(P - c)
+        R = np.vstack([vt[1], vt[0], np.cross(vt[1], vt[0])])
+        Q = (P - c) @ R.T
+        for i, q in zip(idx, Q):
+            l = quedan[i]; quedan[i] = l[:30] + f"{q[0]:8.3f}{q[1]:8.3f}{q[2]:8.3f}" + l[54:]
+    cab = [f"REMARK   BioCelia: PDB {codigo} (RCSB Protein Data Bank), sin aguas" + (", solo girada" if orientar else "")]
     (DIR / f"{nombre}.pdb").write_text("\n".join(cab + quedan + ["END", ""]), encoding="utf-8")
     print(f"{nombre}: PDB {codigo}, {sum(l.startswith('ATOM') for l in quedan)} átomos")
 
@@ -221,6 +230,8 @@ if __name__ == "__main__":
     proteina("1UBQ", "ubiquitina")
     proteina("4HHB", "hemoglobina", hetero=("HEM",))
     proteina("9LYZ", "lisozima", hetero=("AMU", "NAG"))
+    proteina("1BNA", "adn", orientar=True)
+    proteina("1EHZ", "arnt", hetero="*", orientar=True)   # con sus nucleótidos modificados
     gliceraldehido()
     glucosas()
     lipido("STE", "acido-estearico", "PDB, diccionario de ligandos: STE (coordenadas ideales)")
