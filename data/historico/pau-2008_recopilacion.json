@@ -189,6 +189,39 @@
       "La fotosíntesis es un proceso **anabólico**, en el que el **ATP y el NADPH** formados en la etapa dependiente de la luz se utilizan para **transformar el CO₂ en glucosa** (1 p). ((Se sintetizan moléculas complejas a partir de otras sencillas con aporte de energía.))"
      ],
      "n": 3
+    },
+    {
+     "ref": "pregunta 6 de un examen de 2007, 2008 o 2009",
+     "bloque": "Metabolismo",
+     "tema": "Destinos del ácido pirúvico: fermentaciones y ciclo de Krebs",
+     "puntos": 2,
+     "q": "En relación con la imagen adjunta, conteste las siguientes cuestiones:<br>a) ¿Qué vía metabólica comprende el conjunto de reacciones que transforman la glucosa en ácido pirúvico? [0,2]. ¿Y las que transforman el ácido pirúvico en ácido láctico? [0,2]. ¿Y las que transforman el ácido pirúvico en etanol? [0,2]. Indique el nombre de la molécula señalada con el número 1 [0,2] y el de la vía metabólica señalada con el número 2 [0,2].<br>b) Explique razonadamente cuál de los tres destinos del ácido pirúvico será más rentable para la célula desde el punto de vista de la obtención de energía [0,4]. Indique el destino del CO₂, FADH₂ y NADH [0,2]. Defina los términos anabolismo y catabolismo [0,4].",
+     "c": [
+      "a) Glucosa → ácido pirúvico: **glucólisis** (0,2 p). Ácido pirúvico → ácido láctico: **fermentación láctica** (0,2 p). Ácido pirúvico → etanol: **fermentación alcohólica** (0,2 p).",
+      "Molécula 1: **acetil-CoA** (0,2 p). Vía 2: **ciclo de Krebs** (0,2 p).",
+      "b) La **entrada del pirúvico en la mitocondria** genera **más energía** porque permite la **oxidación total** de la molécula de glucosa (0,4 p). ((Las fermentaciones solo rinden los 2 ATP de la glucólisis.))",
+      "Destino del **CO₂**: **salir de la célula**; destino del **FADH₂ y NADH**: la **cadena de transporte electrónico** (0,2 p).",
+      "**Anabolismo**: procesos por los que las células **sintetizan, con gasto de energía**, las sustancias que las constituyen (0,2 p). **Catabolismo**: reacciones cuya finalidad es proporcionar a la célula **precursores metabólicos**, **energía (ATP)** y **poder reductor** (0,2 p)."
+     ],
+     "figura": "assets/figuras/historico/recopilaciones/met0709-glucolisis.webp",
+     "figuraDesc": "Esquema: la glucosa se transforma (flechas de puntos) en ácido pirúvico, que puede dar ácido láctico o etanol, o bien la molécula 1, que entra en un ciclo (2) del que salen FADH₂, NADH y CO₂.",
+     "n": 4
+    },
+    {
+     "ref": "pregunta 6 de un examen de 2007, 2008 o 2009",
+     "bloque": "Metabolismo",
+     "tema": "Fotosíntesis en el cloroplasto: papel del agua y fases",
+     "puntos": 2,
+     "q": "A la vista de la imagen, conteste las siguientes cuestiones:<br>a) ¿Qué proceso biológico se representa en la figura? [0,2]. ¿En qué orgánulo se realiza? [0,2]. ¿Qué tipo de células lo llevan a cabo? [0,2]. ¿Cuál es la función del agua en este proceso y en qué se transforma? [0,4].<br>b) Describa brevemente qué ocurre en las fases señaladas con los números 1 y 2 [1].",
+     "c": [
+      "a) **Fotosíntesis** (0,2 p). **Cloroplasto** (0,2 p). **Células vegetales** (0,2 p). ((También las algas.))",
+      "Papel del agua como **donador de electrones** y su transformación en **oxígeno molecular** (0,4 p). ((La fotólisis del agua repone los electrones que pierde el fotosistema II.))",
+      "b) Fase 1, **dependiente de la luz**: **captación de luz por los fotosistemas** y **fotólisis**, **transporte electrónico**, **síntesis de ATP** y **síntesis de NADPH**. 0,2 p cada proceso (0,8 p).",
+      "Fase 2, **ciclo de Calvin** o fase no dependiente de la luz: **fijación del carbono** a partir del **CO₂** con **gasto de ATP y NADPH** (0,2 p)."
+     ],
+     "figura": "assets/figuras/historico/recopilaciones/met0709-fotosintesis.webp",
+     "figuraDesc": "Cloroplasto con tilacoides en grana: la luz incide en la fase 1, en los tilacoides, que produce NADPH y ATP; estos pasan a la fase 2, un ciclo en el estroma que fija CO₂ y libera gliceraldehído-3-fosfato.",
+     "n": 5
     }
    ],
    "etiqueta": "PAU 2007-2009",
