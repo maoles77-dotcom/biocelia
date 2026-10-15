@@ -63,7 +63,8 @@
     var barra = document.createElement('div');
     barra.className = 'visor3d-barra';
     var bGirar = boton('⟳ Girar', 'Activa o detiene el giro automático');
-    var bEstilo = esPDB ? boton('Ver átomos', 'Cambia entre la cinta del esqueleto y los átomos')
+    var bEstilo = estiloProt === 'enzima' ? boton('Quitar superficie', 'Muestra u oculta la superficie de la enzima')
+                : esPDB ? boton('Ver átomos', 'Cambia entre la cinta del esqueleto y los átomos')
                         : boton('Esferas', 'Cambia entre bolas y varillas y modelo de esferas');
     var bSuper = modo === 'espejo' ? boton('Intentar superponer', 'Lleva una molécula sobre la otra') : null;
     var bCentro = boton('Centrar');
@@ -92,6 +93,15 @@
       var esferas = false, superpuesto = false, girando = false;
 
       function estilo(m) {
+        if (estiloProt === 'enzima') {          // cinta clara, sustrato en verde y superficie aparte (en dibujar)
+          m.setStyle({ hetflag: false }, { cartoon: { color: '#b9c6d3', thickness: 0.5 } });
+          m.setStyle({ hetflag: true }, { stick: { radius: 0.3, colorscheme: 'greenCarbon' } });
+          (fig.dataset.residuos || '').split('|').forEach(function (r) {
+            var k = r.split(':'); if (!k[1]) return;
+            m.setStyle({ resi: +k[0], hetflag: false }, { cartoon: { color: '#b9c6d3', thickness: 0.5 }, stick: { radius: 0.25, colorscheme: 'orangeCarbon' } });
+          });
+          return;
+        }
         if (esPDB) {
           var color = estiloProt === 'cadenas'
             ? function (a) { return colores[a.chain] || '#9aa7b3'; }
@@ -153,7 +163,7 @@
       }
 
       function dibujar(rehacerVista) {
-        v.removeAllModels(); v.removeAllLabels(); v.removeAllShapes();
+        v.removeAllModels(); v.removeAllLabels(); v.removeAllShapes(); v.removeAllSurfaces();
         var yMin = 99, xs = [];
         datos.forEach(function (sdf, i) {
           var dx = datos.length === 1 ? 0 : (i === 0 ? -SEP : SEP);
@@ -168,6 +178,21 @@
           v.addLabel(n, { position: { x: xs[i], y: yMin - 1.6, z: 0 }, fontSize: 14, fontColor: '#0f4c81',
             backgroundColor: '#ffffff', backgroundOpacity: 0.9, borderColor: '#0f4c81', borderThickness: 1, alignment: 'center' });
         });
+        if (estiloProt === 'enzima') {
+          var mod = v.getModel(0);
+          if (typeof $3Dmol.setSyncSurface === 'function') $3Dmol.setSyncSurface(true);   // proteína pequeña: al momento
+          if (!esferas) v.addSurface($3Dmol.SurfaceType.VDW, { opacity: 0.6, color: '#dbe7f3' }, { model: mod, hetflag: false });
+          (fig.dataset.residuos || '').split('|').forEach(function (r) {   // data-residuos="35:Glu35|52:Asp52"
+            var k = r.split(':'); if (!k[1]) return;
+            var a = mod.selectedAtoms({ resi: +k[0], atom: 'CA' })[0];
+            if (a) etiqueta(k[1], { x: a.x, y: a.y + 1.5, z: a.z }, '#c77d00');
+          });
+          var lig = mod.selectedAtoms({ hetflag: true });
+          if (lig.length) {
+            var c = lig.reduce(function (s, a) { s.x += a.x / lig.length; s.y += a.y / lig.length; s.z += a.z / lig.length; return s; }, { x: 0, y: 0, z: 0 });
+            etiqueta(fig.dataset.ligando || 'sustrato', { x: c.x, y: c.y + 3, z: c.z + 3 }, '#1e7a4c');
+          }
+        }
         if (modo === 'espejo' && !superpuesto) {
           v.addBox({ center: { x: 0, y: 0, z: 0 }, dimensions: { w: 0.04, h: 6.5, d: 5.5 }, color: '#7fb3e6', opacity: 0.32 });
           v.addLabel('espejo', { position: { x: 0, y: 3.6, z: 0 }, fontSize: 12, fontColor: '#5c6b78', showBackground: false, alignment: 'center' });
@@ -187,7 +212,8 @@
       });
       bEstilo.addEventListener('click', function () {
         esferas = !esferas;
-        bEstilo.textContent = esPDB ? (esferas ? 'Ver cinta' : 'Ver átomos') : (esferas ? 'Bolas y varillas' : 'Esferas');
+        bEstilo.textContent = estiloProt === 'enzima' ? (esferas ? 'Ver superficie' : 'Quitar superficie')
+          : esPDB ? (esferas ? 'Ver cinta' : 'Ver átomos') : (esferas ? 'Bolas y varillas' : 'Esferas');
         dibujar(false);
       });
       if (bSuper) bSuper.addEventListener('click', function () {

@@ -220,6 +220,7 @@ if __name__ == "__main__":
     alanina()
     proteina("1UBQ", "ubiquitina")
     proteina("4HHB", "hemoglobina", hetero=("HEM",))
+    proteina("9LYZ", "lisozima", hetero=("AMU", "NAG"))
     gliceraldehido()
     glucosas()
     lipido("STE", "acido-estearico", "PDB, diccionario de ligandos: STE (coordenadas ideales)")
