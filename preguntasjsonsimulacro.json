@@ -1430,83 +1430,6 @@
   },
   {
     "id": 160,
-    "clave": "pau2006-inm0616-1+2",
-    "bloque": "Inmunología",
-    "tema": "Viruela en América: población sin contacto previo · Brotes anuales de gripe en personas ya inmunizadas",
-    "tipo": "simulacro",
-    "pregunta": "I. Tras la llegada de los europeos a América se produjo el contagio masivo de la población indígena por viruela, llegándose a producir una gran mortandad. ¿Por qué se produjo esta gran mortandad en la población nativa? Razone la respuesta [1]. (1 punto)  II. Cada año hay un brote de gripe que afecta a numerosas personas, incluso a aquellas que sufrieron la enfermedad o que fueron vacunadas el año anterior. Proponga una explicación razonada a este hecho [1]. (1 punto)",
-    "respuesta": [
-      "I. La mortandad se produce porque los nativos americanos no habían tenido contacto previo con el virus y, por tanto, su respuesta inmune a este no era suficientemente rápida ni potente (1 p). No tenían memoria inmunológica: solo podían dar una respuesta primaria, lenta, frente a una enfermedad grave.",
-      "II. La argumentación puede aludir a la aparición de cepas nuevas (por mutación o recombinación) (1 p). Las nuevas cepas tienen antígenos distintos, para los que no hay células de memoria; por eso la vacuna se renueva cada año."
-    ],
-    "palabras_clave": [
-      "aparición de cepas nuevas",
-      "mutación",
-      "no era suficientemente rápida ni potente",
-      "no habían tenido contacto previo con el virus",
-      "recombinación",
-      "respuesta inmune"
-    ],
-    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
-    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
-    "dificultad": "media"
-  },
-  {
-    "id": 161,
-    "clave": "pau2006-inm0616-3+4",
-    "bloque": "Inmunología",
-    "tema": "Cambio en la composición de los antígenos y reinfección · Alergia al polen: hipersensibilidad, no inmunodeficiencia",
-    "tipo": "simulacro",
-    "pregunta": "I. Suponga que un hospedador ha padecido una enfermedad provocada por un microorganismo. ¿Por qué una variación en la composición (no en la cantidad) de los antígenos de ese microorganismo permite que el hospedador pueda desarrollar de nuevo la misma enfermedad? [1]. Razone la respuesta. (1 punto)  II. El polen es un cuerpo extraño para el organismo que provoca reacciones molestas (tos, estornudo, picor, congestión nasal) a ciertas personas. ¿Significa esto que los alérgicos al polen padecen inmunodeficiencia? [1]. Razone la respuesta. (1 punto)",
-    "respuesta": [
-      "I. Al cambiar los antígenos, el sistema inmunitario no tiene preparada una respuesta adecuada y se produce una infección como si fuera la primera vez que el microorganismo contacta con el hospedador (1 p). Los anticuerpos y las células de memoria son específicos de los antígenos antiguos.",
-      "II. No: la reacción del sistema inmunitario frente al polen es un problema de hipersensibilidad, mientras que la inmunodeficiencia es la inexistencia de respuesta inmunitaria o la carencia de un elemento del sistema inmunitario (1 p). La alergia es una respuesta exagerada a un antígeno inocuo, el alérgeno."
-    ],
-    "palabras_clave": [
-      "No",
-      "cambiar los antígenos",
-      "carencia de un elemento",
-      "como si fuera la primera vez",
-      "hipersensibilidad",
-      "inexistencia de respuesta",
-      "inmunodeficiencia",
-      "no tiene preparada una respuesta"
-    ],
-    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
-    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
-    "dificultad": "media"
-  },
-  {
-    "id": 162,
-    "clave": "pau2006-inm0616-5+6",
-    "bloque": "Inmunología",
-    "tema": "Pasteur: cultivos envejecidos del cólera de los pollos · Grupos AB0: receptor y donante universales",
-    "tipo": "simulacro",
-    "pregunta": "I. Louis Pasteur descubrió que cuando inoculaba pollos con cultivos envejecidos de la bacteria del cólera (bacterias atenuadas) solo presentaban un ataque leve. También encontró que los cultivos frescos (bacterias no atenuadas) no producían cólera cuando se inoculaban en pollos que habían sido previamente inoculados con cultivos viejos. Exponga una explicación razonada a estos hechos [1]. (1 punto)  II. Según el sistema AB0 de los grupos sanguíneos humanos, los individuos con sangre del grupo AB presentan en la superficie de sus eritrocitos antígenos de tipo A y antígenos de tipo B, mientras que los individuos con sangre del grupo 0 no presentan estos antígenos. ¿Por qué en el caso de transfusiones sanguíneas a los individuos con sangre del grupo AB se les considera receptores universales [0,5] y a los del tipo 0 donantes universales [0,5]? Razone las respuestas. (1 punto)",
-    "respuesta": [
-      "I. El inóculo envejecido induce una respuesta primaria, mientras que el cultivo fresco, en pollos previamente inoculados con los viejos, induce una respuesta secundaria, más intensa y rápida. También es válido indicar que el cultivo envejecido actúa como vacuna, confiriendo una inmunización activa artificial (1 p).",
-      "II. Un individuo del grupo AB, que tiene antígenos A y B, no produce anticuerpos contra estos antígenos y, por tanto, puede recibir sangre de cualquier grupo (0,5 p).",
-      "II. Los individuos del grupo 0 no tienen los antígenos A ni B y pueden donar sangre a cualquier receptor porque no le introducen antígenos extraños (0,5 p). Se considera solo el sistema AB0; en la práctica también hay que tener en cuenta el factor Rh."
-    ],
-    "palabras_clave": [
-      "0",
-      "AB",
-      "inmunización activa artificial",
-      "más intensa y rápida",
-      "no le introducen antígenos extraños",
-      "no produce anticuerpos",
-      "no tienen los antígenos A ni B",
-      "puede recibir sangre de cualquier grupo",
-      "respuesta primaria",
-      "respuesta secundaria",
-      "vacuna"
-    ],
-    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
-    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
-    "dificultad": "media"
-  },
-  {
-    "id": 163,
     "clave": "pau2006-met-1",
     "bloque": "Metabolismo",
     "tema": "Fase luminosa en la membrana del tilacoide",
@@ -1537,7 +1460,7 @@
     "imagen": "assets/figuras/historico/recopilaciones/met2006-fotofosforilacion.webp"
   },
   {
-    "id": 164,
+    "id": 161,
     "clave": "pau2006-mic-2",
     "bloque": "Microbiología",
     "tema": "Clasificación de los microorganismos",
@@ -1565,7 +1488,7 @@
     "dificultad": "media"
   },
   {
-    "id": 165,
+    "id": 162,
     "clave": "pau2006-mic-4",
     "bloque": "Microbiología",
     "tema": "Estructura de un bacteriófago y de la bacteria que infecta",
@@ -1593,7 +1516,7 @@
     "dificultad": "media"
   },
   {
-    "id": 166,
+    "id": 163,
     "clave": "pau2006-mic-5",
     "bloque": "Microbiología",
     "tema": "Bacteria llena de fagos T4: ciclo lítico",
@@ -1627,7 +1550,7 @@
     "imagen": "assets/figuras/historico/recopilaciones/mic2006-t4.webp"
   },
   {
-    "id": 167,
+    "id": 164,
     "clave": "pau2006-mic-1+3",
     "bloque": "Microbiología",
     "tema": "Semmelweis y la fiebre puerperal · Un antibiótico contra los ribosomas 70S",
@@ -1652,6 +1575,83 @@
     ],
     "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
     "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
+    "dificultad": "media"
+  },
+  {
+    "id": 165,
+    "clave": "pau2006-inm0616-1+2",
+    "bloque": "Inmunología",
+    "tema": "Viruela en América: población sin contacto previo · Brotes anuales de gripe en personas ya inmunizadas",
+    "tipo": "simulacro",
+    "pregunta": "I. Tras la llegada de los europeos a América se produjo el contagio masivo de la población indígena por viruela, llegándose a producir una gran mortandad. ¿Por qué se produjo esta gran mortandad en la población nativa? Razone la respuesta [1]. (1 punto)  II. Cada año hay un brote de gripe que afecta a numerosas personas, incluso a aquellas que sufrieron la enfermedad o que fueron vacunadas el año anterior. Proponga una explicación razonada a este hecho [1]. (1 punto)",
+    "respuesta": [
+      "I. La mortandad se produce porque los nativos americanos no habían tenido contacto previo con el virus y, por tanto, su respuesta inmune a este no era suficientemente rápida ni potente (1 p). No tenían memoria inmunológica: solo podían dar una respuesta primaria, lenta, frente a una enfermedad grave.",
+      "II. La argumentación puede aludir a la aparición de cepas nuevas (por mutación o recombinación) (1 p). Las nuevas cepas tienen antígenos distintos, para los que no hay células de memoria; por eso la vacuna se renueva cada año."
+    ],
+    "palabras_clave": [
+      "aparición de cepas nuevas",
+      "mutación",
+      "no era suficientemente rápida ni potente",
+      "no habían tenido contacto previo con el virus",
+      "recombinación",
+      "respuesta inmune"
+    ],
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
+    "dificultad": "media"
+  },
+  {
+    "id": 166,
+    "clave": "pau2006-inm0616-3+4",
+    "bloque": "Inmunología",
+    "tema": "Cambio en la composición de los antígenos y reinfección · Alergia al polen: hipersensibilidad, no inmunodeficiencia",
+    "tipo": "simulacro",
+    "pregunta": "I. Suponga que un hospedador ha padecido una enfermedad provocada por un microorganismo. ¿Por qué una variación en la composición (no en la cantidad) de los antígenos de ese microorganismo permite que el hospedador pueda desarrollar de nuevo la misma enfermedad? [1]. Razone la respuesta. (1 punto)  II. El polen es un cuerpo extraño para el organismo que provoca reacciones molestas (tos, estornudo, picor, congestión nasal) a ciertas personas. ¿Significa esto que los alérgicos al polen padecen inmunodeficiencia? [1]. Razone la respuesta. (1 punto)",
+    "respuesta": [
+      "I. Al cambiar los antígenos, el sistema inmunitario no tiene preparada una respuesta adecuada y se produce una infección como si fuera la primera vez que el microorganismo contacta con el hospedador (1 p). Los anticuerpos y las células de memoria son específicos de los antígenos antiguos.",
+      "II. No: la reacción del sistema inmunitario frente al polen es un problema de hipersensibilidad, mientras que la inmunodeficiencia es la inexistencia de respuesta inmunitaria o la carencia de un elemento del sistema inmunitario (1 p). La alergia es una respuesta exagerada a un antígeno inocuo, el alérgeno."
+    ],
+    "palabras_clave": [
+      "No",
+      "cambiar los antígenos",
+      "carencia de un elemento",
+      "como si fuera la primera vez",
+      "hipersensibilidad",
+      "inexistencia de respuesta",
+      "inmunodeficiencia",
+      "no tiene preparada una respuesta"
+    ],
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
+    "dificultad": "media"
+  },
+  {
+    "id": 167,
+    "clave": "pau2006-inm0616-5+6",
+    "bloque": "Inmunología",
+    "tema": "Pasteur: cultivos envejecidos del cólera de los pollos · Grupos AB0: receptor y donante universales",
+    "tipo": "simulacro",
+    "pregunta": "I. Louis Pasteur descubrió que cuando inoculaba pollos con cultivos envejecidos de la bacteria del cólera (bacterias atenuadas) solo presentaban un ataque leve. También encontró que los cultivos frescos (bacterias no atenuadas) no producían cólera cuando se inoculaban en pollos que habían sido previamente inoculados con cultivos viejos. Exponga una explicación razonada a estos hechos [1]. (1 punto)  II. Según el sistema AB0 de los grupos sanguíneos humanos, los individuos con sangre del grupo AB presentan en la superficie de sus eritrocitos antígenos de tipo A y antígenos de tipo B, mientras que los individuos con sangre del grupo 0 no presentan estos antígenos. ¿Por qué en el caso de transfusiones sanguíneas a los individuos con sangre del grupo AB se les considera receptores universales [0,5] y a los del tipo 0 donantes universales [0,5]? Razone las respuestas. (1 punto)",
+    "respuesta": [
+      "I. El inóculo envejecido induce una respuesta primaria, mientras que el cultivo fresco, en pollos previamente inoculados con los viejos, induce una respuesta secundaria, más intensa y rápida. También es válido indicar que el cultivo envejecido actúa como vacuna, confiriendo una inmunización activa artificial (1 p).",
+      "II. Un individuo del grupo AB, que tiene antígenos A y B, no produce anticuerpos contra estos antígenos y, por tanto, puede recibir sangre de cualquier grupo (0,5 p).",
+      "II. Los individuos del grupo 0 no tienen los antígenos A ni B y pueden donar sangre a cualquier receptor porque no le introducen antígenos extraños (0,5 p). Se considera solo el sistema AB0; en la práctica también hay que tener en cuenta el factor Rh."
+    ],
+    "palabras_clave": [
+      "0",
+      "AB",
+      "inmunización activa artificial",
+      "más intensa y rápida",
+      "no le introducen antígenos extraños",
+      "no produce anticuerpos",
+      "no tienen los antígenos A ni B",
+      "puede recibir sangre de cualquier grupo",
+      "respuesta primaria",
+      "respuesta secundaria",
+      "vacuna"
+    ],
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
     "dificultad": "media"
   },
   {

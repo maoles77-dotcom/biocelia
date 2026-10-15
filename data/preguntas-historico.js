@@ -1568,151 +1568,6 @@ window.BIOCELIA_HISTORICO = {
    "f": "Pregunta de la PAU de Andalucía de 2006, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 6, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
   },
   {
-   "id": "pau2006-inm0616-1",
-   "block": "Inmunología",
-   "topic": "Viruela en América: población sin contacto previo",
-   "anio": 2006,
-   "etiqueta": "PAU 2006-2016",
-   "hasImg": false,
-   "puntos": 1,
-   "competencial": false,
-   "q": "Tras la llegada de los europeos a América se produjo el contagio masivo de la población indígena por viruela, llegándose a producir una gran mortandad. ¿Por qué se produjo esta gran mortandad en la población nativa? Razone la respuesta [1].",
-   "c": [
-    "La mortandad se produce porque los nativos americanos <mark class=\"clave-criterio\">no habían tenido contacto previo con el virus</mark> y, por tanto, su <mark class=\"clave-criterio\">respuesta inmune</mark> a este <mark class=\"clave-criterio\">no era suficientemente rápida ni potente</mark> (1 p). <span class=\"redactado\">No tenían memoria inmunológica: solo podían dar una respuesta primaria, lenta, frente a una enfermedad grave.</span>"
-   ],
-   "origen": {
-    "documento": "PAU Andalucía 2006 (recopilación por temas) · Inmunología (2006-2016)",
-    "referencia": "pregunta de un examen de 2006-2016",
-    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
-    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
-    "examen_anio": 2006,
-    "verificado": true
-   },
-   "isNew": false,
-   "f": "Pregunta de la PAU de Andalucía de 2006-2016 (la recopilación no indica el año), con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta de un examen de 2006-2016, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
-  },
-  {
-   "id": "pau2006-inm0616-2",
-   "block": "Inmunología",
-   "topic": "Brotes anuales de gripe en personas ya inmunizadas",
-   "anio": 2006,
-   "etiqueta": "PAU 2006-2016",
-   "hasImg": false,
-   "puntos": 1,
-   "competencial": false,
-   "q": "Cada año hay un brote de gripe que afecta a numerosas personas, incluso a aquellas que sufrieron la enfermedad o que fueron vacunadas el año anterior. Proponga una explicación razonada a este hecho [1].",
-   "c": [
-    "La argumentación puede aludir a la <mark class=\"clave-criterio\">aparición de cepas nuevas</mark> (por <mark class=\"clave-criterio\">mutación</mark> o <mark class=\"clave-criterio\">recombinación</mark>) (1 p). <span class=\"redactado\">Las nuevas cepas tienen antígenos distintos, para los que no hay células de memoria; por eso la vacuna se renueva cada año.</span>"
-   ],
-   "origen": {
-    "documento": "PAU Andalucía 2006 (recopilación por temas) · Inmunología (2006-2016)",
-    "referencia": "pregunta de un examen de 2006-2016",
-    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
-    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
-    "examen_anio": 2006,
-    "verificado": true
-   },
-   "isNew": false,
-   "f": "Pregunta de la PAU de Andalucía de 2006-2016 (la recopilación no indica el año), con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta de un examen de 2006-2016, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
-  },
-  {
-   "id": "pau2006-inm0616-3",
-   "block": "Inmunología",
-   "topic": "Cambio en la composición de los antígenos y reinfección",
-   "anio": 2006,
-   "etiqueta": "PAU 2006-2016",
-   "hasImg": false,
-   "puntos": 1,
-   "competencial": false,
-   "q": "Suponga que un hospedador ha padecido una enfermedad provocada por un microorganismo. ¿Por qué una variación en la composición (no en la cantidad) de los antígenos de ese microorganismo permite que el hospedador pueda desarrollar de nuevo la misma enfermedad? [1]. Razone la respuesta.",
-   "c": [
-    "Al <mark class=\"clave-criterio\">cambiar los antígenos</mark>, el sistema inmunitario <mark class=\"clave-criterio\">no tiene preparada una respuesta</mark> adecuada y se produce una infección <mark class=\"clave-criterio\">como si fuera la primera vez</mark> que el microorganismo contacta con el hospedador (1 p). <span class=\"redactado\">Los anticuerpos y las células de memoria son específicos de los antígenos antiguos.</span>"
-   ],
-   "origen": {
-    "documento": "PAU Andalucía 2006 (recopilación por temas) · Inmunología (2006-2016)",
-    "referencia": "pregunta de un examen de 2006-2016",
-    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
-    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
-    "examen_anio": 2006,
-    "verificado": true
-   },
-   "isNew": false,
-   "f": "Pregunta de la PAU de Andalucía de 2006-2016 (la recopilación no indica el año), con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta de un examen de 2006-2016, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
-  },
-  {
-   "id": "pau2006-inm0616-4",
-   "block": "Inmunología",
-   "topic": "Alergia al polen: hipersensibilidad, no inmunodeficiencia",
-   "anio": 2006,
-   "etiqueta": "PAU 2006-2016",
-   "hasImg": false,
-   "puntos": 1,
-   "competencial": false,
-   "q": "El polen es un cuerpo extraño para el organismo que provoca reacciones molestas (tos, estornudo, picor, congestión nasal) a ciertas personas. ¿Significa esto que los alérgicos al polen padecen inmunodeficiencia? [1]. Razone la respuesta.",
-   "c": [
-    "<mark class=\"clave-criterio\">No</mark>: la reacción del sistema inmunitario frente al polen es un problema de <mark class=\"clave-criterio\">hipersensibilidad</mark>, mientras que la <mark class=\"clave-criterio\">inmunodeficiencia</mark> es la <mark class=\"clave-criterio\">inexistencia de respuesta</mark> inmunitaria o la <mark class=\"clave-criterio\">carencia de un elemento</mark> del sistema inmunitario (1 p). <span class=\"redactado\">La alergia es una respuesta exagerada a un antígeno inocuo, el alérgeno.</span>"
-   ],
-   "origen": {
-    "documento": "PAU Andalucía 2006 (recopilación por temas) · Inmunología (2006-2016)",
-    "referencia": "pregunta de un examen de 2006-2016",
-    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
-    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
-    "examen_anio": 2006,
-    "verificado": true
-   },
-   "isNew": false,
-   "f": "Pregunta de la PAU de Andalucía de 2006-2016 (la recopilación no indica el año), con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta de un examen de 2006-2016, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
-  },
-  {
-   "id": "pau2006-inm0616-5",
-   "block": "Inmunología",
-   "topic": "Pasteur: cultivos envejecidos del cólera de los pollos",
-   "anio": 2006,
-   "etiqueta": "PAU 2006-2016",
-   "hasImg": false,
-   "puntos": 1,
-   "competencial": false,
-   "q": "Louis Pasteur descubrió que cuando inoculaba pollos con cultivos envejecidos de la bacteria del cólera (bacterias atenuadas) solo presentaban un ataque leve. También encontró que los cultivos frescos (bacterias no atenuadas) no producían cólera cuando se inoculaban en pollos que habían sido previamente inoculados con cultivos viejos. Exponga una explicación razonada a estos hechos [1].",
-   "c": [
-    "El inóculo envejecido induce una <mark class=\"clave-criterio\">respuesta primaria</mark>, mientras que el cultivo fresco, en pollos previamente inoculados con los viejos, induce una <mark class=\"clave-criterio\">respuesta secundaria</mark>, <mark class=\"clave-criterio\">más intensa y rápida</mark>. También es válido indicar que el cultivo envejecido actúa como <mark class=\"clave-criterio\">vacuna</mark>, confiriendo una <mark class=\"clave-criterio\">inmunización activa artificial</mark> (1 p)."
-   ],
-   "origen": {
-    "documento": "PAU Andalucía 2006 (recopilación por temas) · Inmunología (2006-2016)",
-    "referencia": "pregunta de un examen de 2006-2016",
-    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
-    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
-    "examen_anio": 2006,
-    "verificado": true
-   },
-   "isNew": false,
-   "f": "Pregunta de la PAU de Andalucía de 2006-2016 (la recopilación no indica el año), con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta de un examen de 2006-2016, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
-  },
-  {
-   "id": "pau2006-inm0616-6",
-   "block": "Inmunología",
-   "topic": "Grupos AB0: receptor y donante universales",
-   "anio": 2006,
-   "etiqueta": "PAU 2006-2016",
-   "hasImg": false,
-   "puntos": 1,
-   "competencial": false,
-   "q": "Según el sistema AB0 de los grupos sanguíneos humanos, los individuos con sangre del grupo AB presentan en la superficie de sus eritrocitos antígenos de tipo A y antígenos de tipo B, mientras que los individuos con sangre del grupo 0 no presentan estos antígenos. ¿Por qué en el caso de transfusiones sanguíneas a los individuos con sangre del grupo AB se les considera receptores universales [0,5] y a los del tipo 0 donantes universales [0,5]? Razone las respuestas.",
-   "c": [
-    "Un individuo del grupo <mark class=\"clave-criterio\">AB</mark>, que tiene antígenos A y B, <mark class=\"clave-criterio\">no produce anticuerpos</mark> contra estos antígenos y, por tanto, <mark class=\"clave-criterio\">puede recibir sangre de cualquier grupo</mark> (0,5 p).",
-    "Los individuos del grupo <mark class=\"clave-criterio\">0</mark> <mark class=\"clave-criterio\">no tienen los antígenos A ni B</mark> y pueden donar sangre a cualquier receptor porque <mark class=\"clave-criterio\">no le introducen antígenos extraños</mark> (0,5 p). <span class=\"redactado\">Se considera solo el sistema AB0; en la práctica también hay que tener en cuenta el factor Rh.</span>"
-   ],
-   "origen": {
-    "documento": "PAU Andalucía 2006 (recopilación por temas) · Inmunología (2006-2016)",
-    "referencia": "pregunta de un examen de 2006-2016",
-    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
-    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
-    "examen_anio": 2006,
-    "verificado": true
-   },
-   "isNew": false,
-   "f": "Pregunta de la PAU de Andalucía de 2006-2016 (la recopilación no indica el año), con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta de un examen de 2006-2016, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
-  },
-  {
    "id": "pau2006-met-1",
    "block": "Metabolismo",
    "topic": "Fase luminosa en la membrana del tilacoide",
@@ -1897,6 +1752,151 @@ window.BIOCELIA_HISTORICO = {
    "imageDesc": "Dibujo de una bacteria con forma de bastón llena de pequeños fagos T4 en su interior.",
    "isNew": false,
    "f": "Pregunta de la PAU de Andalucía de 2006, con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta 7, 2 puntos). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2006-inm0616-1",
+   "block": "Inmunología",
+   "topic": "Viruela en América: población sin contacto previo",
+   "anio": 2006,
+   "etiqueta": "PAU 2006-2016",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "Tras la llegada de los europeos a América se produjo el contagio masivo de la población indígena por viruela, llegándose a producir una gran mortandad. ¿Por qué se produjo esta gran mortandad en la población nativa? Razone la respuesta [1].",
+   "c": [
+    "La mortandad se produce porque los nativos americanos <mark class=\"clave-criterio\">no habían tenido contacto previo con el virus</mark> y, por tanto, su <mark class=\"clave-criterio\">respuesta inmune</mark> a este <mark class=\"clave-criterio\">no era suficientemente rápida ni potente</mark> (1 p). <span class=\"redactado\">No tenían memoria inmunológica: solo podían dar una respuesta primaria, lenta, frente a una enfermedad grave.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2006-2016 (recopilación por temas) · Inmunología (2006-2016)",
+    "referencia": "pregunta de un examen de 2006-2016",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
+    "examen_anio": 2006,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2006-2016 (la recopilación no indica el año), con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta de un examen de 2006-2016, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2006-inm0616-2",
+   "block": "Inmunología",
+   "topic": "Brotes anuales de gripe en personas ya inmunizadas",
+   "anio": 2006,
+   "etiqueta": "PAU 2006-2016",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "Cada año hay un brote de gripe que afecta a numerosas personas, incluso a aquellas que sufrieron la enfermedad o que fueron vacunadas el año anterior. Proponga una explicación razonada a este hecho [1].",
+   "c": [
+    "La argumentación puede aludir a la <mark class=\"clave-criterio\">aparición de cepas nuevas</mark> (por <mark class=\"clave-criterio\">mutación</mark> o <mark class=\"clave-criterio\">recombinación</mark>) (1 p). <span class=\"redactado\">Las nuevas cepas tienen antígenos distintos, para los que no hay células de memoria; por eso la vacuna se renueva cada año.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2006-2016 (recopilación por temas) · Inmunología (2006-2016)",
+    "referencia": "pregunta de un examen de 2006-2016",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
+    "examen_anio": 2006,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2006-2016 (la recopilación no indica el año), con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta de un examen de 2006-2016, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2006-inm0616-3",
+   "block": "Inmunología",
+   "topic": "Cambio en la composición de los antígenos y reinfección",
+   "anio": 2006,
+   "etiqueta": "PAU 2006-2016",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "Suponga que un hospedador ha padecido una enfermedad provocada por un microorganismo. ¿Por qué una variación en la composición (no en la cantidad) de los antígenos de ese microorganismo permite que el hospedador pueda desarrollar de nuevo la misma enfermedad? [1]. Razone la respuesta.",
+   "c": [
+    "Al <mark class=\"clave-criterio\">cambiar los antígenos</mark>, el sistema inmunitario <mark class=\"clave-criterio\">no tiene preparada una respuesta</mark> adecuada y se produce una infección <mark class=\"clave-criterio\">como si fuera la primera vez</mark> que el microorganismo contacta con el hospedador (1 p). <span class=\"redactado\">Los anticuerpos y las células de memoria son específicos de los antígenos antiguos.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2006-2016 (recopilación por temas) · Inmunología (2006-2016)",
+    "referencia": "pregunta de un examen de 2006-2016",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
+    "examen_anio": 2006,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2006-2016 (la recopilación no indica el año), con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta de un examen de 2006-2016, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2006-inm0616-4",
+   "block": "Inmunología",
+   "topic": "Alergia al polen: hipersensibilidad, no inmunodeficiencia",
+   "anio": 2006,
+   "etiqueta": "PAU 2006-2016",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "El polen es un cuerpo extraño para el organismo que provoca reacciones molestas (tos, estornudo, picor, congestión nasal) a ciertas personas. ¿Significa esto que los alérgicos al polen padecen inmunodeficiencia? [1]. Razone la respuesta.",
+   "c": [
+    "<mark class=\"clave-criterio\">No</mark>: la reacción del sistema inmunitario frente al polen es un problema de <mark class=\"clave-criterio\">hipersensibilidad</mark>, mientras que la <mark class=\"clave-criterio\">inmunodeficiencia</mark> es la <mark class=\"clave-criterio\">inexistencia de respuesta</mark> inmunitaria o la <mark class=\"clave-criterio\">carencia de un elemento</mark> del sistema inmunitario (1 p). <span class=\"redactado\">La alergia es una respuesta exagerada a un antígeno inocuo, el alérgeno.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2006-2016 (recopilación por temas) · Inmunología (2006-2016)",
+    "referencia": "pregunta de un examen de 2006-2016",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
+    "examen_anio": 2006,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2006-2016 (la recopilación no indica el año), con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta de un examen de 2006-2016, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2006-inm0616-5",
+   "block": "Inmunología",
+   "topic": "Pasteur: cultivos envejecidos del cólera de los pollos",
+   "anio": 2006,
+   "etiqueta": "PAU 2006-2016",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "Louis Pasteur descubrió que cuando inoculaba pollos con cultivos envejecidos de la bacteria del cólera (bacterias atenuadas) solo presentaban un ataque leve. También encontró que los cultivos frescos (bacterias no atenuadas) no producían cólera cuando se inoculaban en pollos que habían sido previamente inoculados con cultivos viejos. Exponga una explicación razonada a estos hechos [1].",
+   "c": [
+    "El inóculo envejecido induce una <mark class=\"clave-criterio\">respuesta primaria</mark>, mientras que el cultivo fresco, en pollos previamente inoculados con los viejos, induce una <mark class=\"clave-criterio\">respuesta secundaria</mark>, <mark class=\"clave-criterio\">más intensa y rápida</mark>. También es válido indicar que el cultivo envejecido actúa como <mark class=\"clave-criterio\">vacuna</mark>, confiriendo una <mark class=\"clave-criterio\">inmunización activa artificial</mark> (1 p)."
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2006-2016 (recopilación por temas) · Inmunología (2006-2016)",
+    "referencia": "pregunta de un examen de 2006-2016",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
+    "examen_anio": 2006,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2006-2016 (la recopilación no indica el año), con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta de un examen de 2006-2016, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
+  },
+  {
+   "id": "pau2006-inm0616-6",
+   "block": "Inmunología",
+   "topic": "Grupos AB0: receptor y donante universales",
+   "anio": 2006,
+   "etiqueta": "PAU 2006-2016",
+   "hasImg": false,
+   "puntos": 1,
+   "competencial": false,
+   "q": "Según el sistema AB0 de los grupos sanguíneos humanos, los individuos con sangre del grupo AB presentan en la superficie de sus eritrocitos antígenos de tipo A y antígenos de tipo B, mientras que los individuos con sangre del grupo 0 no presentan estos antígenos. ¿Por qué en el caso de transfusiones sanguíneas a los individuos con sangre del grupo AB se les considera receptores universales [0,5] y a los del tipo 0 donantes universales [0,5]? Razone las respuestas.",
+   "c": [
+    "Un individuo del grupo <mark class=\"clave-criterio\">AB</mark>, que tiene antígenos A y B, <mark class=\"clave-criterio\">no produce anticuerpos</mark> contra estos antígenos y, por tanto, <mark class=\"clave-criterio\">puede recibir sangre de cualquier grupo</mark> (0,5 p).",
+    "Los individuos del grupo <mark class=\"clave-criterio\">0</mark> <mark class=\"clave-criterio\">no tienen los antígenos A ni B</mark> y pueden donar sangre a cualquier receptor porque <mark class=\"clave-criterio\">no le introducen antígenos extraños</mark> (0,5 p). <span class=\"redactado\">Se considera solo el sistema AB0; en la práctica también hay que tener en cuenta el factor Rh.</span>"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2006-2016 (recopilación por temas) · Inmunología (2006-2016)",
+    "referencia": "pregunta de un examen de 2006-2016",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
+    "examen_anio": 2006,
+    "verificado": true
+   },
+   "isNew": false,
+   "f": "Pregunta de la PAU de Andalucía de 2006-2016 (la recopilación no indica el año), con sus criterios de corrección tal como los recoge la recopilación por temas de la carpeta PAU 2025 (pregunta de un examen de 2006-2016, 1 punto). Resaltadas, las palabras clave de los criterios oficiales de corrección: son las que puntúan."
   },
   {
    "id": "pau2007-gm-1",
@@ -2357,7 +2357,7 @@ window.BIOCELIA_HISTORICO = {
     "Se debe relacionar la <mark class=\"clave-criterio\">pérdida de la capacidad de síntesis de ATP</mark> con la <mark class=\"clave-criterio\">localización en la membrana interna</mark> de la mitocondria de la <mark class=\"clave-criterio\">cadena de transporte electrónico</mark> y la <mark class=\"clave-criterio\">fosforilación oxidativa</mark> (1 p). <span class=\"redactado\">Sin membrana interna no hay gradiente de protones ni ATP sintasa.</span>"
    ],
    "origen": {
-    "documento": "PAU Andalucía 2008 (recopilación por temas) · Metabolismo (2007-2009)",
+    "documento": "PAU Andalucía 2007-2009 (recopilación por temas) · Metabolismo (2007-2009)",
     "referencia": "pregunta 4 de un examen de 2007, 2008 o 2009",
     "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/METABOLISMO/08 PAU Metabolismo.odt",
     "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/METABOLISMO/08 PAU Metabolismo.odt",
@@ -2382,7 +2382,7 @@ window.BIOCELIA_HISTORICO = {
     "Glucolisis: <mark class=\"clave-criterio\">todas las células</mark>, en el <mark class=\"clave-criterio\">citoplasma</mark>. Fermentación: células animales y algunos microorganismos, en el <mark class=\"clave-criterio\">citoplasma</mark>. Fosforilación oxidativa: células de organismos <mark class=\"clave-criterio\">aeróbicos</mark>, en las <mark class=\"clave-criterio\">mitocondrias</mark>. β-oxidación: células de organismos aeróbicos, en las <mark class=\"clave-criterio\">mitocondrias</mark> (matriz). Fotosíntesis: células fotosintetizadoras de <mark class=\"clave-criterio\">plantas y algas</mark>, en los <mark class=\"clave-criterio\">cloroplastos</mark>. Cada tipo de célula y lugar, 0,2 p (1 p). <span class=\"redactado\">Ejemplos de fermentación: la láctica en las células musculares y la alcohólica en las levaduras.</span>"
    ],
    "origen": {
-    "documento": "PAU Andalucía 2008 (recopilación por temas) · Metabolismo (2007-2009)",
+    "documento": "PAU Andalucía 2007-2009 (recopilación por temas) · Metabolismo (2007-2009)",
     "referencia": "pregunta 2 de un examen de 2007, 2008 o 2009",
     "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/METABOLISMO/08 PAU Metabolismo.odt",
     "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/METABOLISMO/08 PAU Metabolismo.odt",
@@ -2406,7 +2406,7 @@ window.BIOCELIA_HISTORICO = {
     "La fotosíntesis es un proceso <mark class=\"clave-criterio\">anabólico</mark>, en el que el <mark class=\"clave-criterio\">ATP y el NADPH</mark> formados en la etapa dependiente de la luz se utilizan para <mark class=\"clave-criterio\">transformar el CO₂ en glucosa</mark> (1 p). <span class=\"redactado\">Se sintetizan moléculas complejas a partir de otras sencillas con aporte de energía.</span>"
    ],
    "origen": {
-    "documento": "PAU Andalucía 2008 (recopilación por temas) · Metabolismo (2007-2009)",
+    "documento": "PAU Andalucía 2007-2009 (recopilación por temas) · Metabolismo (2007-2009)",
     "referencia": "pregunta 4 de un examen de 2007, 2008 o 2009",
     "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/METABOLISMO/08 PAU Metabolismo.odt",
     "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/METABOLISMO/08 PAU Metabolismo.odt",
@@ -2434,7 +2434,7 @@ window.BIOCELIA_HISTORICO = {
     "<mark class=\"clave-criterio\">Anabolismo</mark>: procesos por los que las células <mark class=\"clave-criterio\">sintetizan, con gasto de energía</mark>, las sustancias que las constituyen (0,2 p). <mark class=\"clave-criterio\">Catabolismo</mark>: reacciones cuya finalidad es proporcionar a la célula <mark class=\"clave-criterio\">precursores metabólicos</mark>, <mark class=\"clave-criterio\">energía (ATP)</mark> y <mark class=\"clave-criterio\">poder reductor</mark> (0,2 p)."
    ],
    "origen": {
-    "documento": "PAU Andalucía 2008 (recopilación por temas) · Metabolismo (2007-2009)",
+    "documento": "PAU Andalucía 2007-2009 (recopilación por temas) · Metabolismo (2007-2009)",
     "referencia": "pregunta 6 de un examen de 2007, 2008 o 2009",
     "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/METABOLISMO/08 PAU Metabolismo.odt",
     "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/METABOLISMO/08 PAU Metabolismo.odt",
@@ -2464,7 +2464,7 @@ window.BIOCELIA_HISTORICO = {
     "Fase 2, <mark class=\"clave-criterio\">ciclo de Calvin</mark> o fase no dependiente de la luz: <mark class=\"clave-criterio\">fijación del carbono</mark> a partir del <mark class=\"clave-criterio\">CO₂</mark> con <mark class=\"clave-criterio\">gasto de ATP y NADPH</mark> (0,2 p)."
    ],
    "origen": {
-    "documento": "PAU Andalucía 2008 (recopilación por temas) · Metabolismo (2007-2009)",
+    "documento": "PAU Andalucía 2007-2009 (recopilación por temas) · Metabolismo (2007-2009)",
     "referencia": "pregunta 6 de un examen de 2007, 2008 o 2009",
     "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/METABOLISMO/08 PAU Metabolismo.odt",
     "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/METABOLISMO/08 PAU Metabolismo.odt",
@@ -40948,91 +40948,6 @@ window.BIOCELIA_HISTORICO = {
    "isNew": true
   },
   {
-   "id": "pau2006-inm0616-1+2",
-   "block": "Inmunología",
-   "topic": "Viruela en América: población sin contacto previo · Brotes anuales de gripe en personas ya inmunizadas",
-   "anio": 2006,
-   "etiqueta": "PAU 2006-2016",
-   "hasImg": false,
-   "q": "<b>I.</b> Tras la llegada de los europeos a América se produjo el contagio masivo de la población indígena por viruela, llegándose a producir una gran mortandad. ¿Por qué se produjo esta gran mortandad en la población nativa? Razone la respuesta [1]. <i>(1 punto)</i><br><br><b>II.</b> Cada año hay un brote de gripe que afecta a numerosas personas, incluso a aquellas que sufrieron la enfermedad o que fueron vacunadas el año anterior. Proponga una explicación razonada a este hecho [1]. <i>(1 punto)</i>",
-   "puntos": 2,
-   "c": [
-    "<b>I.</b> La mortandad se produce porque los nativos americanos <mark class=\"clave-criterio\">no habían tenido contacto previo con el virus</mark> y, por tanto, su <mark class=\"clave-criterio\">respuesta inmune</mark> a este <mark class=\"clave-criterio\">no era suficientemente rápida ni potente</mark> (1 p). <span class=\"redactado\">No tenían memoria inmunológica: solo podían dar una respuesta primaria, lenta, frente a una enfermedad grave.</span>",
-    "<b>II.</b> La argumentación puede aludir a la <mark class=\"clave-criterio\">aparición de cepas nuevas</mark> (por <mark class=\"clave-criterio\">mutación</mark> o <mark class=\"clave-criterio\">recombinación</mark>) (1 p). <span class=\"redactado\">Las nuevas cepas tienen antígenos distintos, para los que no hay células de memoria; por eso la vacuna se renueva cada año.</span>"
-   ],
-   "isNew": false,
-   "competencial": false,
-   "unida": [
-    "pau2006-inm0616-1",
-    "pau2006-inm0616-2"
-   ],
-   "origen": {
-    "documento": "PAU Andalucía 2006 (recopilación por temas) · Inmunología (2006-2016)",
-    "referencia": "pregunta de un examen de 2006-2016 + pregunta de un examen de 2006-2016",
-    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
-    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
-    "examen_anio": 2006,
-    "verificado": true
-   }
-  },
-  {
-   "id": "pau2006-inm0616-3+4",
-   "block": "Inmunología",
-   "topic": "Cambio en la composición de los antígenos y reinfección · Alergia al polen: hipersensibilidad, no inmunodeficiencia",
-   "anio": 2006,
-   "etiqueta": "PAU 2006-2016",
-   "hasImg": false,
-   "q": "<b>I.</b> Suponga que un hospedador ha padecido una enfermedad provocada por un microorganismo. ¿Por qué una variación en la composición (no en la cantidad) de los antígenos de ese microorganismo permite que el hospedador pueda desarrollar de nuevo la misma enfermedad? [1]. Razone la respuesta. <i>(1 punto)</i><br><br><b>II.</b> El polen es un cuerpo extraño para el organismo que provoca reacciones molestas (tos, estornudo, picor, congestión nasal) a ciertas personas. ¿Significa esto que los alérgicos al polen padecen inmunodeficiencia? [1]. Razone la respuesta. <i>(1 punto)</i>",
-   "puntos": 2,
-   "c": [
-    "<b>I.</b> Al <mark class=\"clave-criterio\">cambiar los antígenos</mark>, el sistema inmunitario <mark class=\"clave-criterio\">no tiene preparada una respuesta</mark> adecuada y se produce una infección <mark class=\"clave-criterio\">como si fuera la primera vez</mark> que el microorganismo contacta con el hospedador (1 p). <span class=\"redactado\">Los anticuerpos y las células de memoria son específicos de los antígenos antiguos.</span>",
-    "<b>II.</b> <mark class=\"clave-criterio\">No</mark>: la reacción del sistema inmunitario frente al polen es un problema de <mark class=\"clave-criterio\">hipersensibilidad</mark>, mientras que la <mark class=\"clave-criterio\">inmunodeficiencia</mark> es la <mark class=\"clave-criterio\">inexistencia de respuesta</mark> inmunitaria o la <mark class=\"clave-criterio\">carencia de un elemento</mark> del sistema inmunitario (1 p). <span class=\"redactado\">La alergia es una respuesta exagerada a un antígeno inocuo, el alérgeno.</span>"
-   ],
-   "isNew": false,
-   "competencial": false,
-   "unida": [
-    "pau2006-inm0616-3",
-    "pau2006-inm0616-4"
-   ],
-   "origen": {
-    "documento": "PAU Andalucía 2006 (recopilación por temas) · Inmunología (2006-2016)",
-    "referencia": "pregunta de un examen de 2006-2016 + pregunta de un examen de 2006-2016",
-    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
-    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
-    "examen_anio": 2006,
-    "verificado": true
-   }
-  },
-  {
-   "id": "pau2006-inm0616-5+6",
-   "block": "Inmunología",
-   "topic": "Pasteur: cultivos envejecidos del cólera de los pollos · Grupos AB0: receptor y donante universales",
-   "anio": 2006,
-   "etiqueta": "PAU 2006-2016",
-   "hasImg": false,
-   "q": "<b>I.</b> Louis Pasteur descubrió que cuando inoculaba pollos con cultivos envejecidos de la bacteria del cólera (bacterias atenuadas) solo presentaban un ataque leve. También encontró que los cultivos frescos (bacterias no atenuadas) no producían cólera cuando se inoculaban en pollos que habían sido previamente inoculados con cultivos viejos. Exponga una explicación razonada a estos hechos [1]. <i>(1 punto)</i><br><br><b>II.</b> Según el sistema AB0 de los grupos sanguíneos humanos, los individuos con sangre del grupo AB presentan en la superficie de sus eritrocitos antígenos de tipo A y antígenos de tipo B, mientras que los individuos con sangre del grupo 0 no presentan estos antígenos. ¿Por qué en el caso de transfusiones sanguíneas a los individuos con sangre del grupo AB se les considera receptores universales [0,5] y a los del tipo 0 donantes universales [0,5]? Razone las respuestas. <i>(1 punto)</i>",
-   "puntos": 2,
-   "c": [
-    "<b>I.</b> El inóculo envejecido induce una <mark class=\"clave-criterio\">respuesta primaria</mark>, mientras que el cultivo fresco, en pollos previamente inoculados con los viejos, induce una <mark class=\"clave-criterio\">respuesta secundaria</mark>, <mark class=\"clave-criterio\">más intensa y rápida</mark>. También es válido indicar que el cultivo envejecido actúa como <mark class=\"clave-criterio\">vacuna</mark>, confiriendo una <mark class=\"clave-criterio\">inmunización activa artificial</mark> (1 p).",
-    "<b>II.</b> Un individuo del grupo <mark class=\"clave-criterio\">AB</mark>, que tiene antígenos A y B, <mark class=\"clave-criterio\">no produce anticuerpos</mark> contra estos antígenos y, por tanto, <mark class=\"clave-criterio\">puede recibir sangre de cualquier grupo</mark> (0,5 p).",
-    "<b>II.</b> Los individuos del grupo <mark class=\"clave-criterio\">0</mark> <mark class=\"clave-criterio\">no tienen los antígenos A ni B</mark> y pueden donar sangre a cualquier receptor porque <mark class=\"clave-criterio\">no le introducen antígenos extraños</mark> (0,5 p). <span class=\"redactado\">Se considera solo el sistema AB0; en la práctica también hay que tener en cuenta el factor Rh.</span>"
-   ],
-   "isNew": false,
-   "competencial": false,
-   "unida": [
-    "pau2006-inm0616-5",
-    "pau2006-inm0616-6"
-   ],
-   "origen": {
-    "documento": "PAU Andalucía 2006 (recopilación por temas) · Inmunología (2006-2016)",
-    "referencia": "pregunta de un examen de 2006-2016 + pregunta de un examen de 2006-2016",
-    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
-    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
-    "examen_anio": 2006,
-    "verificado": true
-   }
-  },
-  {
    "id": "pau2006-met-1",
    "block": "Metabolismo",
    "topic": "Fase luminosa en la membrana del tilacoide",
@@ -41166,6 +41081,91 @@ window.BIOCELIA_HISTORICO = {
     "referencia": "pregunta 3 + pregunta 5",
     "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
     "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/12 PAU MICROBIOLOGÍA.odt",
+    "examen_anio": 2006,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2006-inm0616-1+2",
+   "block": "Inmunología",
+   "topic": "Viruela en América: población sin contacto previo · Brotes anuales de gripe en personas ya inmunizadas",
+   "anio": 2006,
+   "etiqueta": "PAU 2006-2016",
+   "hasImg": false,
+   "q": "<b>I.</b> Tras la llegada de los europeos a América se produjo el contagio masivo de la población indígena por viruela, llegándose a producir una gran mortandad. ¿Por qué se produjo esta gran mortandad en la población nativa? Razone la respuesta [1]. <i>(1 punto)</i><br><br><b>II.</b> Cada año hay un brote de gripe que afecta a numerosas personas, incluso a aquellas que sufrieron la enfermedad o que fueron vacunadas el año anterior. Proponga una explicación razonada a este hecho [1]. <i>(1 punto)</i>",
+   "puntos": 2,
+   "c": [
+    "<b>I.</b> La mortandad se produce porque los nativos americanos <mark class=\"clave-criterio\">no habían tenido contacto previo con el virus</mark> y, por tanto, su <mark class=\"clave-criterio\">respuesta inmune</mark> a este <mark class=\"clave-criterio\">no era suficientemente rápida ni potente</mark> (1 p). <span class=\"redactado\">No tenían memoria inmunológica: solo podían dar una respuesta primaria, lenta, frente a una enfermedad grave.</span>",
+    "<b>II.</b> La argumentación puede aludir a la <mark class=\"clave-criterio\">aparición de cepas nuevas</mark> (por <mark class=\"clave-criterio\">mutación</mark> o <mark class=\"clave-criterio\">recombinación</mark>) (1 p). <span class=\"redactado\">Las nuevas cepas tienen antígenos distintos, para los que no hay células de memoria; por eso la vacuna se renueva cada año.</span>"
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2006-inm0616-1",
+    "pau2006-inm0616-2"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2006-2016 (recopilación por temas) · Inmunología (2006-2016)",
+    "referencia": "pregunta de un examen de 2006-2016 + pregunta de un examen de 2006-2016",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
+    "examen_anio": 2006,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2006-inm0616-3+4",
+   "block": "Inmunología",
+   "topic": "Cambio en la composición de los antígenos y reinfección · Alergia al polen: hipersensibilidad, no inmunodeficiencia",
+   "anio": 2006,
+   "etiqueta": "PAU 2006-2016",
+   "hasImg": false,
+   "q": "<b>I.</b> Suponga que un hospedador ha padecido una enfermedad provocada por un microorganismo. ¿Por qué una variación en la composición (no en la cantidad) de los antígenos de ese microorganismo permite que el hospedador pueda desarrollar de nuevo la misma enfermedad? [1]. Razone la respuesta. <i>(1 punto)</i><br><br><b>II.</b> El polen es un cuerpo extraño para el organismo que provoca reacciones molestas (tos, estornudo, picor, congestión nasal) a ciertas personas. ¿Significa esto que los alérgicos al polen padecen inmunodeficiencia? [1]. Razone la respuesta. <i>(1 punto)</i>",
+   "puntos": 2,
+   "c": [
+    "<b>I.</b> Al <mark class=\"clave-criterio\">cambiar los antígenos</mark>, el sistema inmunitario <mark class=\"clave-criterio\">no tiene preparada una respuesta</mark> adecuada y se produce una infección <mark class=\"clave-criterio\">como si fuera la primera vez</mark> que el microorganismo contacta con el hospedador (1 p). <span class=\"redactado\">Los anticuerpos y las células de memoria son específicos de los antígenos antiguos.</span>",
+    "<b>II.</b> <mark class=\"clave-criterio\">No</mark>: la reacción del sistema inmunitario frente al polen es un problema de <mark class=\"clave-criterio\">hipersensibilidad</mark>, mientras que la <mark class=\"clave-criterio\">inmunodeficiencia</mark> es la <mark class=\"clave-criterio\">inexistencia de respuesta</mark> inmunitaria o la <mark class=\"clave-criterio\">carencia de un elemento</mark> del sistema inmunitario (1 p). <span class=\"redactado\">La alergia es una respuesta exagerada a un antígeno inocuo, el alérgeno.</span>"
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2006-inm0616-3",
+    "pau2006-inm0616-4"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2006-2016 (recopilación por temas) · Inmunología (2006-2016)",
+    "referencia": "pregunta de un examen de 2006-2016 + pregunta de un examen de 2006-2016",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
+    "examen_anio": 2006,
+    "verificado": true
+   }
+  },
+  {
+   "id": "pau2006-inm0616-5+6",
+   "block": "Inmunología",
+   "topic": "Pasteur: cultivos envejecidos del cólera de los pollos · Grupos AB0: receptor y donante universales",
+   "anio": 2006,
+   "etiqueta": "PAU 2006-2016",
+   "hasImg": false,
+   "q": "<b>I.</b> Louis Pasteur descubrió que cuando inoculaba pollos con cultivos envejecidos de la bacteria del cólera (bacterias atenuadas) solo presentaban un ataque leve. También encontró que los cultivos frescos (bacterias no atenuadas) no producían cólera cuando se inoculaban en pollos que habían sido previamente inoculados con cultivos viejos. Exponga una explicación razonada a estos hechos [1]. <i>(1 punto)</i><br><br><b>II.</b> Según el sistema AB0 de los grupos sanguíneos humanos, los individuos con sangre del grupo AB presentan en la superficie de sus eritrocitos antígenos de tipo A y antígenos de tipo B, mientras que los individuos con sangre del grupo 0 no presentan estos antígenos. ¿Por qué en el caso de transfusiones sanguíneas a los individuos con sangre del grupo AB se les considera receptores universales [0,5] y a los del tipo 0 donantes universales [0,5]? Razone las respuestas. <i>(1 punto)</i>",
+   "puntos": 2,
+   "c": [
+    "<b>I.</b> El inóculo envejecido induce una <mark class=\"clave-criterio\">respuesta primaria</mark>, mientras que el cultivo fresco, en pollos previamente inoculados con los viejos, induce una <mark class=\"clave-criterio\">respuesta secundaria</mark>, <mark class=\"clave-criterio\">más intensa y rápida</mark>. También es válido indicar que el cultivo envejecido actúa como <mark class=\"clave-criterio\">vacuna</mark>, confiriendo una <mark class=\"clave-criterio\">inmunización activa artificial</mark> (1 p).",
+    "<b>II.</b> Un individuo del grupo <mark class=\"clave-criterio\">AB</mark>, que tiene antígenos A y B, <mark class=\"clave-criterio\">no produce anticuerpos</mark> contra estos antígenos y, por tanto, <mark class=\"clave-criterio\">puede recibir sangre de cualquier grupo</mark> (0,5 p).",
+    "<b>II.</b> Los individuos del grupo <mark class=\"clave-criterio\">0</mark> <mark class=\"clave-criterio\">no tienen los antígenos A ni B</mark> y pueden donar sangre a cualquier receptor porque <mark class=\"clave-criterio\">no le introducen antígenos extraños</mark> (0,5 p). <span class=\"redactado\">Se considera solo el sistema AB0; en la práctica también hay que tener en cuenta el factor Rh.</span>"
+   ],
+   "isNew": false,
+   "competencial": false,
+   "unida": [
+    "pau2006-inm0616-5",
+    "pau2006-inm0616-6"
+   ],
+   "origen": {
+    "documento": "PAU Andalucía 2006-2016 (recopilación por temas) · Inmunología (2006-2016)",
+    "referencia": "pregunta de un examen de 2006-2016 + pregunta de un examen de 2006-2016",
+    "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
+    "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/INMUNOLOGÍA Y MICROBIOLOGÍA/11 PAU Inmunología.odt",
     "examen_anio": 2006,
     "verificado": true
    }
@@ -41557,7 +41557,7 @@ window.BIOCELIA_HISTORICO = {
     "Glucolisis: <mark class=\"clave-criterio\">todas las células</mark>, en el <mark class=\"clave-criterio\">citoplasma</mark>. Fermentación: células animales y algunos microorganismos, en el <mark class=\"clave-criterio\">citoplasma</mark>. Fosforilación oxidativa: células de organismos <mark class=\"clave-criterio\">aeróbicos</mark>, en las <mark class=\"clave-criterio\">mitocondrias</mark>. β-oxidación: células de organismos aeróbicos, en las <mark class=\"clave-criterio\">mitocondrias</mark> (matriz). Fotosíntesis: células fotosintetizadoras de <mark class=\"clave-criterio\">plantas y algas</mark>, en los <mark class=\"clave-criterio\">cloroplastos</mark>. Cada tipo de célula y lugar, 0,2 p (1 p). <span class=\"redactado\">Ejemplos de fermentación: la láctica en las células musculares y la alcohólica en las levaduras.</span>"
    ],
    "origen": {
-    "documento": "PAU Andalucía 2008 (recopilación por temas) · Metabolismo (2007-2009)",
+    "documento": "PAU Andalucía 2007-2009 (recopilación por temas) · Metabolismo (2007-2009)",
     "referencia": "pregunta 2 de un examen de 2007, 2008 o 2009",
     "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/METABOLISMO/08 PAU Metabolismo.odt",
     "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/METABOLISMO/08 PAU Metabolismo.odt",
@@ -41584,7 +41584,7 @@ window.BIOCELIA_HISTORICO = {
     "<mark class=\"clave-criterio\">Anabolismo</mark>: procesos por los que las células <mark class=\"clave-criterio\">sintetizan, con gasto de energía</mark>, las sustancias que las constituyen (0,2 p). <mark class=\"clave-criterio\">Catabolismo</mark>: reacciones cuya finalidad es proporcionar a la célula <mark class=\"clave-criterio\">precursores metabólicos</mark>, <mark class=\"clave-criterio\">energía (ATP)</mark> y <mark class=\"clave-criterio\">poder reductor</mark> (0,2 p)."
    ],
    "origen": {
-    "documento": "PAU Andalucía 2008 (recopilación por temas) · Metabolismo (2007-2009)",
+    "documento": "PAU Andalucía 2007-2009 (recopilación por temas) · Metabolismo (2007-2009)",
     "referencia": "pregunta 6 de un examen de 2007, 2008 o 2009",
     "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/METABOLISMO/08 PAU Metabolismo.odt",
     "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/METABOLISMO/08 PAU Metabolismo.odt",
@@ -41613,7 +41613,7 @@ window.BIOCELIA_HISTORICO = {
     "Fase 2, <mark class=\"clave-criterio\">ciclo de Calvin</mark> o fase no dependiente de la luz: <mark class=\"clave-criterio\">fijación del carbono</mark> a partir del <mark class=\"clave-criterio\">CO₂</mark> con <mark class=\"clave-criterio\">gasto de ATP y NADPH</mark> (0,2 p)."
    ],
    "origen": {
-    "documento": "PAU Andalucía 2008 (recopilación por temas) · Metabolismo (2007-2009)",
+    "documento": "PAU Andalucía 2007-2009 (recopilación por temas) · Metabolismo (2007-2009)",
     "referencia": "pregunta 6 de un examen de 2007, 2008 o 2009",
     "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/METABOLISMO/08 PAU Metabolismo.odt",
     "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/METABOLISMO/08 PAU Metabolismo.odt",
@@ -41645,7 +41645,7 @@ window.BIOCELIA_HISTORICO = {
     "pau2008-met0709-3"
    ],
    "origen": {
-    "documento": "PAU Andalucía 2008 (recopilación por temas) · Metabolismo (2007-2009)",
+    "documento": "PAU Andalucía 2007-2009 (recopilación por temas) · Metabolismo (2007-2009)",
     "referencia": "pregunta 4 de un examen de 2007, 2008 o 2009 + pregunta 4 de un examen de 2007, 2008 o 2009",
     "fuente": "PAU 2025/ACTIVIDADES POR TEMAS/METABOLISMO/08 PAU Metabolismo.odt",
     "criterios": "PAU 2025/ACTIVIDADES POR TEMAS/METABOLISMO/08 PAU Metabolismo.odt",
