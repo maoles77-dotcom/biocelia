@@ -312,6 +312,63 @@ sub, sup { line-height: 0; }
 @keyframes anim-sale { from { opacity: 1; transform: none; } to { opacity: 0.15; transform: translate(-30px, -40px); } }
 @media (prefers-reduced-motion: reduce) { .animacion .aparece, .animacion .sale { animation: none; } }
 
+/* ─── Esquemas para rotular (rotular.js) ─── */
+.rotular { margin: 18px 0; padding: 14px; background: var(--card); border: 1px solid var(--line); border-radius: var(--radio); }
+.rot-instr { margin: 0 0 8px; font-size: 0.9rem; color: var(--muted); text-align: center; }
+.rot-lienzo svg { display: block; width: 100%; height: auto; }
+.rot-lienzo .zona { cursor: pointer; }
+.rot-lienzo .zona rect { fill: #ffffff; stroke: #7fb3e6; stroke-width: 1.5; stroke-dasharray: 5 4; }
+.rot-lienzo .zona:hover rect, .rot-lienzo .zona:focus rect { stroke: var(--pri); stroke-width: 2.5; }
+.rot-lienzo .zona:focus { outline: none; }
+.rot-lienzo .zona.llena rect { stroke-dasharray: none; fill: #f3f8fd; }
+.rot-lienzo .zona.ok rect { fill: var(--ok-soft); stroke: var(--ok); stroke-width: 2.5; }
+.rot-lienzo .zona.ko rect { fill: var(--ko-soft); stroke: var(--ko); stroke-width: 2.5; }
+.rot-lienzo .zona.sol rect { fill: var(--pri-soft); stroke: var(--pri); }
+.rot-lienzo .zona-num { fill: var(--pri); }
+.rot-lienzo .zona-numtxt { fill: #fff; font-size: 13px; font-weight: 800; }
+.rot-lienzo .zona-txt { font-size: 15px; font-weight: 800; fill: #22313f; }
+.rot-banco { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-top: 12px; }
+.rot-chip { font: 700 0.9rem 'Nunito', system-ui, sans-serif; color: var(--ink); background: #fff; border: 2px solid #c8d9ea; border-radius: 999px; padding: 5px 12px; cursor: grab; touch-action: none; }
+.rot-chip.sel { border-color: var(--pri); background: var(--pri-soft); }
+.rot-chip:disabled { opacity: .35; cursor: default; text-decoration: line-through; }
+.rot-chip:focus-visible { outline: 3px solid #1a73e8; outline-offset: 2px; }
+.rot-fantasma { position: fixed; z-index: 1000; pointer-events: none; transform: translate(-50%, -50%); box-shadow: 0 6px 18px rgba(0,0,0,.2); }
+.rot-barra { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-top: 12px; }
+.rot-btn { font: 700 0.9rem 'Nunito', system-ui, sans-serif; color: var(--pri-strong); background: var(--pri-soft); border: 1px solid #c8d9ea; border-radius: 999px; padding: 6px 14px; cursor: pointer; }
+.rot-btn:focus-visible { outline: 3px solid #1a73e8; outline-offset: 2px; }
+.rot-resultado { text-align: center; font-weight: 800; color: var(--pri-strong); min-height: 1.4em; margin: 8px 0 0; }
+.rot-error { color: var(--ko); font-weight: 700; text-align: center; }
+.rotular figcaption { font-size: 0.88rem; color: var(--muted); margin-top: 8px; text-align: center; }
+
+/* ─── Explorador de la célula (explorador.js) ─── */
+.explorador { margin: 18px 0; padding: 14px; background: var(--card); border: 1px solid var(--line); border-radius: var(--radio); }
+.exp-pestanas { display: flex; gap: 8px; justify-content: center; margin-bottom: 10px; }
+.exp-pestana { font: 800 0.95rem 'Nunito', system-ui, sans-serif; color: var(--pri-strong); background: #fff; border: 2px solid #c8d9ea; border-radius: 999px; padding: 6px 16px; cursor: pointer; }
+.exp-pestana[aria-selected="true"] { background: var(--pri); border-color: var(--pri); color: #fff; }
+.exp-cuerpo { display: grid; gap: 14px; grid-template-columns: minmax(0, 1fr); }
+@media (min-width: 860px) { .exp-cuerpo { grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr); align-items: start; } }
+.exp-lienzo svg { display: block; width: 100%; height: auto; }
+.exp-lienzo .exp-punto { cursor: pointer; }
+.exp-lienzo .exp-halo { fill: #1a73e8; fill-opacity: 0.18; stroke: #1a73e8; stroke-width: 1.5; transform-box: fill-box; transform-origin: center; animation: exp-latido 2.2s ease-in-out infinite; }
+.exp-lienzo .exp-punto:hover .exp-halo, .exp-lienzo .exp-punto:focus .exp-halo { fill-opacity: 0.35; }
+.exp-lienzo .exp-punto.activo .exp-halo { fill: #c77d00; stroke: #c77d00; fill-opacity: 0.45; animation: none; }
+.exp-lienzo .exp-punto.activo text { fill: #c77d00; }
+.exp-lienzo .exp-punto:focus { outline: none; }
+.exp-lienzo .exp-punto:focus-visible .exp-halo { stroke-width: 3; }
+.exp-lienzo svg.sin-nombres .exp-punto text { opacity: 0; }
+@keyframes exp-latido { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.35); } }
+@media (prefers-reduced-motion: reduce) { .exp-lienzo .exp-halo { animation: none; } }
+.exp-ficha { background: #f7fafc; border: 1px solid var(--line); border-radius: 12px; padding: 12px 16px; min-height: 120px; }
+.exp-ficha h4 { margin: 0 0 6px; color: var(--pri-strong); font-size: 1.15rem; }
+.exp-ficha p { margin: 0 0 8px; font-size: 0.95rem; }
+.exp-pista { color: var(--muted); }
+.exp-barra { display: flex; justify-content: center; margin-top: 10px; }
+.exp-btn { font: 700 0.9rem 'Nunito', system-ui, sans-serif; color: var(--pri-strong); background: var(--pri-soft); border: 1px solid #c8d9ea; border-radius: 999px; padding: 6px 14px; cursor: pointer; }
+.exp-btn:focus-visible, .exp-pestana:focus-visible { outline: 3px solid #1a73e8; outline-offset: 2px; }
+.exp-zoom-cab { display: flex; align-items: center; gap: 12px; margin-bottom: 6px; color: var(--pri-strong); }
+.exp-error { color: var(--ko); font-weight: 700; }
+.explorador figcaption { font-size: 0.88rem; color: var(--muted); margin-top: 8px; text-align: center; }
+
 /* ─── Para saber más: enlaces a recursos externos de calidad ─── */
 .saber-mas {
   margin: 18px 0; padding: 14px 18px; border-radius: var(--radio);
@@ -486,6 +543,11 @@ details.solucion .cuerpo { border-left: 3px solid var(--ok); padding: 2px 0 2px 
   .visor3d { break-inside: avoid; padding: 8px 12px; }
   .visor3d-impreso { display: block; margin: 4px 0; font-size: 9pt; color: var(--muted); }
   .saber-mas { break-inside: avoid; }
+  .explorador { display: none !important; }
+  .rotular { break-inside: avoid; }
+  .rot-barra, .rot-resultado, .rot-instr { display: none !important; }
+  .rot-chip { border: 1px solid #999; padding: 1px 8px; font-size: 8.5pt; text-decoration: none !important; opacity: 1 !important; }
+  .rot-banco { gap: 4px; }
   .anim-cab, .anim-lienzo, .anim-texto, .anim-puntos, .anim-barra { display: none !important; }
   .anim-lista { display: block; margin: 4px 0; padding-left: 1.3em; font-size: 9pt; }
   .anim-lista li { margin: 2px 0; }

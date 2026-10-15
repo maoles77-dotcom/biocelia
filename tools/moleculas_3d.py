@@ -203,10 +203,30 @@ def alanina():
     print("alanina: L = S (–NH2 a la izquierda) · D = R")
 
 
-def proteina(codigo, nombre, hetero=(), orientar=False):
+def proteina(codigo, nombre, hetero=(), orientar=False, ensamblaje=False):
     """Estructura del PDB sin aguas ni ligandos (salvo los indicados), con sus registros HELIX/SHEET."""
     import urllib.request
     txt = urllib.request.urlopen(f"https://files.rcsb.org/download/{codigo}.pdb", timeout=120).read().decode()
+    if ensamblaje:   # unidad biológica: se aplican las matrices BIOMT del propio fichero (REMARK 350)
+        mats = {}
+        for l in txt.splitlines():
+            if l.startswith("REMARK 350 BIOMOLECULE:") and not l.split(":")[1].strip() == "1":
+                break                                   # solo la unidad biológica 1 (la de los autores)
+            if l.startswith("REMARK 350   BIOMT"):
+                k, n = int(l[18]), int(l[19:23]); v = [float(x) for x in l[23:].split()]
+                mats.setdefault(n, [None] * 3)[k - 1] = v
+        cadenas = "ABCDEFGH"; nuevas = []
+        atomos = [l for l in txt.splitlines() if l.startswith("ATOM")]
+        for i, (n, m) in enumerate(sorted(mats.items())):
+            M = np.array([r[:3] for r in m]); t = np.array([r[3] for r in m])
+            for l in atomos:
+                p = np.array([float(l[30:38]), float(l[38:46]), float(l[46:54])]) @ M.T + t
+                nuevas.append(l[:21] + cadenas[i] + l[22:30] + f"{p[0]:8.3f}{p[1]:8.3f}{p[2]:8.3f}" + l[54:])
+            nuevas.append("TER")
+        hel = [l for l in txt.splitlines() if l.startswith(("HELIX", "SHEET"))]
+        # cada copia lleva sus hélices (la cadena va en las columnas 20 y 32 del registro HELIX)
+        hel = [h[:19] + c + h[20:31] + c + h[32:] for c in cadenas[:len(mats)] for h in hel if h.startswith("HELIX")]
+        txt = "\n".join(hel + nuevas)
     # De las hélices solo se conservan las α (clase 1 del formato PDB); las 3₁₀ y otras se ven como bucles.
     quedan = [l for l in txt.splitlines() if l.startswith(("SHEET", "ATOM", "TER"))
               or (l.startswith("HELIX") and l[38:40].strip() == "1")
@@ -232,6 +252,8 @@ if __name__ == "__main__":
     proteina("9LYZ", "lisozima", hetero=("AMU", "NAG"))
     proteina("1BNA", "adn", orientar=True)
     proteina("1EHZ", "arnt", hetero="*", orientar=True)   # con sus nucleótidos modificados
+    proteina("1KX5", "nucleosoma")
+    proteina("1J4N", "acuaporina", ensamblaje=True)        # tetrámero (unidad biológica)
     gliceraldehido()
     glucosas()
     lipido("STE", "acido-estearico", "PDB, diccionario de ligandos: STE (coordenadas ideales)")
