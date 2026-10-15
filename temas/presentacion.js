@@ -92,12 +92,14 @@
 
   // Clic en la diapositiva: mitad derecha avanza, mitad izquierda retrocede.
   document.querySelector('.escenario').addEventListener('click', function (e) {
-    if (e.target.closest('a, button, summary, details')) return;
+    if (e.target.closest('a, button, summary, details, .visor3d')) return;   // en el visor 3D se gira, no se pasa
     if (e.clientX > window.innerWidth / 2) siguiente(); else anterior();
   });
 
   var x0 = null;
-  document.addEventListener('touchstart', function (e) { x0 = e.touches[0].clientX; }, { passive: true });
+  document.addEventListener('touchstart', function (e) {
+    x0 = e.target.closest && e.target.closest('.visor3d') ? null : e.touches[0].clientX;   // gestos del visor 3D
+  }, { passive: true });
   document.addEventListener('touchend', function (e) {
     if (x0 === null) return;
     var dx = e.changedTouches[0].clientX - x0;

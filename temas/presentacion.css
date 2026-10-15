@@ -246,6 +246,22 @@ table.t { width: 100%; border-collapse: collapse; font-size: 21px; }
 
 /* ─── Impresión: una diapositiva por página ─── */
 @page { size: 297mm 167.06mm; margin: 0; }
+/* ─── Visor 3D de moléculas (visor3d.js) en una diapositiva ─── */
+.visor3d { flex: 1; display: flex; flex-direction: column; min-height: 0; margin: 0; text-align: center; }
+.visor3d-etiqueta { align-self: center; padding: 2px 12px; border-radius: 999px; background: var(--pri-soft, #e7f0f8); color: var(--pri-strong, #093252); font-size: 15px; font-weight: 800; letter-spacing: .04em; }
+.visor3d-lienzo { position: relative; flex: 1; min-height: 300px; margin-top: 8px; border-radius: 12px; background: #f7fafc; overflow: hidden; touch-action: none; }
+.visor3d-barra { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-top: 10px; }
+.visor3d-btn { font: 700 18px 'Nunito', system-ui, sans-serif; color: var(--pri-strong, #093252); background: var(--pri-soft, #e7f0f8); border: 1px solid #c8d9ea; border-radius: 999px; padding: 6px 16px; cursor: pointer; }
+.visor3d-btn[aria-pressed="true"] { background: var(--pri, #0f4c81); color: #fff; }
+.visor3d-btn:focus-visible { outline: 3px solid #1a73e8; outline-offset: 2px; }
+.visor3d-ayuda { display: none; }
+.visor3d-leyenda { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 18px; margin: 8px 0 0; font-size: 17px; font-weight: 700; }
+.visor3d-leyenda i { display: inline-block; width: 16px; height: 16px; border-radius: 4px; margin-right: 6px; vertical-align: -2px; }
+.visor3d figcaption { font-size: 18px; color: #5c6b78; margin-top: 8px; }
+.visor3d .extra { color: #6d3fc0; }
+.visor3d-error { padding-top: 120px; color: #b03a2e; font-weight: 700; }
+.visor3d-impreso { display: none; }
+
 @media print {
   html, body { height: auto; overflow: visible; background: #fff; }
   .controles, .progreso { display: none !important; }
@@ -262,6 +278,8 @@ table.t { width: 100%; border-collapse: collapse; font-size: 21px; }
     animation: none !important;
   }
   .paso.oculto { opacity: 1; }
+  .visor3d-lienzo, .visor3d-barra, .visor3d-leyenda { display: none !important; }
+  .visor3d-impreso { display: block; margin: auto; font-size: 24px; color: #5c6b78; }
   .clave { background: var(--marca); border-radius: 3px; }
   * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 }
