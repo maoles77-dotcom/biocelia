@@ -135,6 +135,47 @@ def glucosas():
     print(f"glucosas: anillos superpuestos con RMSD {rms:.3f} Å")
 
 
+def descargar_ccd(codigo, nombre):
+    """Coordenadas ideales del diccionario de ligandos del PDB (RCSB), si no están ya guardadas."""
+    ruta = DIR / f"{nombre}-pdb.sdf"
+    if not ruta.exists():
+        import urllib.request
+        url = f"https://files.rcsb.org/ligands/view/{codigo}_ideal.sdf"
+        ruta.write_bytes(urllib.request.urlopen(url, timeout=60).read())
+    return ruta
+
+
+def cabeza_polar(atomos, enlaces):
+    """Átomo que marca el extremo polar: P (fosfolípidos), C del –COOH (ácidos grasos) u O del –OH (colesterol)."""
+    els = [el for el, _ in atomos]
+    if "P" in els:
+        return els.index("P")
+    for i, el in enumerate(els):
+        if el == "C" and sum(els[j] == "O" for j in vecinos(enlaces, i)) == 2 and \
+                sum(els[j] == "C" for j in vecinos(enlaces, i)) == 1:
+            return i
+    return next(i for i, el in enumerate(els) if el == "O")
+
+
+def lipido(codigo, nombre, nota):
+    """Orienta una molécula alargada con su eje mayor en vertical y el extremo polar arriba."""
+    atomos, enlaces = leer_sdf(descargar_ccd(codigo, nombre))
+    pos = np.array([p for _, p in atomos]); pesados = np.array([el != "H" for el, _ in atomos])
+    c = pos[pesados].mean(0); pos = pos - c
+    _, _, vt = np.linalg.svd(pos[pesados])
+    eje, eje2 = vt[0], vt[1]
+    if np.dot(pos[cabeza_polar(atomos, enlaces)], eje) < 0:
+        eje = -eje
+    R = np.vstack([eje2, eje, np.cross(eje2, eje)])
+    pos = pos @ R.T
+    escribir_sdf(DIR / f"{nombre}.sdf", nombre, [(el, p) for (el, _), p in zip(atomos, pos)], enlaces, nota)
+    alto = pos[pesados][:, 1].max() - pos[pesados][:, 1].min()
+    print(f"{nombre}: {len(atomos)} átomos, {alto:.1f} Å de largo")
+
+
 if __name__ == "__main__":
     gliceraldehido()
     glucosas()
+    lipido("STE", "acido-estearico", "PDB, diccionario de ligandos: STE (coordenadas ideales)")
+    lipido("OLA", "acido-oleico", "PDB, diccionario de ligandos: OLA (coordenadas ideales)")
+    lipido("CLR", "colesterol", "PDB, diccionario de ligandos: CLR (coordenadas ideales)")

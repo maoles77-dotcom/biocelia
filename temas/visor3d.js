@@ -51,6 +51,7 @@
     var modo = fig.dataset.modo || 'pareja';
     var marcar = fig.dataset.marcar || '';
     var SEP = parseFloat(fig.dataset.sep) || SEP0;
+    var sinH = fig.dataset.hidrogenos === 'no';      // en moléculas grandes se ocultan los H para verlas mejor
 
     var lienzo = document.createElement('div');
     lienzo.className = 'visor3d-lienzo';
@@ -77,10 +78,35 @@
 
       function estilo(m) {
         m.setStyle({}, esferas ? { sphere: { scale: 0.85 } } : { stick: { radius: 0.14 }, sphere: { scale: 0.26 } });
+        if (sinH) m.setStyle({ elem: 'H' }, {});
+      }
+
+      function etiqueta(txt, p, color) {
+        v.addLabel(txt, { position: p, fontSize: 12, fontColor: '#ffffff', backgroundColor: color || '#c77d00',
+          backgroundOpacity: 0.95, inFront: true, alignment: 'center' });
       }
 
       function marcas(m, dx) {
         var at = m.selectedAtoms({});
+        var tipos = marcar.split(',');
+        if (tipos.indexOf('dobles') >= 0) {              // dobles enlaces C=C de la cadena
+          at.forEach(function (a) {
+            if (a.elem !== 'C') return;
+            a.bonds.forEach(function (j, k) {
+              var b = at[j];
+              if (b.elem === 'C' && a.bondOrder[k] === 2 && a.index < b.index)
+                etiqueta('C=C', { x: (a.x + b.x) / 2 + 1.4, y: (a.y + b.y) / 2, z: (a.z + b.z) / 2 + 0.6 }, '#b03a2e');
+            });
+          });
+        }
+        if (tipos.indexOf('anfipatico') >= 0) {          // extremo polar arriba y colas apolares abajo
+          var pesados = at.filter(function (a) { return a.elem !== 'H'; });
+          var cab = at.filter(function (a) { return a.elem === 'P'; })[0] ||
+            at.filter(function (a) { return a.elem === 'O' && a.bonds.some(function (j) { return at[j].elem === 'H'; }); })[0];
+          var bajo = pesados.reduce(function (s, a) { return a.y < s.y ? a : s; });
+          if (cab) etiqueta('parte polar (hidrófila)', { x: cab.x + 3.2, y: cab.y + 0.8, z: cab.z }, '#0f4c81');
+          etiqueta('parte apolar (hidrófoba)', { x: bajo.x + 3.6, y: bajo.y + 2.5, z: bajo.z }, '#5c6b78');
+        }
         at.forEach(function (a) {
           var vec = a.bonds.map(function (i) { return at[i]; });
           var pes = vec.filter(function (b) { return b.elem !== 'H'; });
@@ -103,16 +129,19 @@
 
       function dibujar(rehacerVista) {
         v.removeAllModels(); v.removeAllLabels(); v.removeAllShapes();
+        var yMin = 99, xs = [];
         datos.forEach(function (sdf, i) {
-          var dx = (i === 0 ? -SEP : SEP);
+          var dx = datos.length === 1 ? 0 : (i === 0 ? -SEP : SEP);
           if (superpuesto && i === 1) dx = -SEP;               // el reflejo se lleva sobre el original
           var m = v.addModel(desplazar(sdf, dx), 'sdf');
           estilo(m); marcas(m, dx);
-          var c = m.selectedAtoms({}).reduce(function (s, a) { s.y = Math.min(s.y, a.y); return s; }, { y: 99 });
-          if (nombres[i] && !(superpuesto && i === 1)) {
-            v.addLabel(nombres[i], { position: { x: dx, y: c.y - 1.6, z: 0 }, fontSize: 14, fontColor: '#0f4c81',
-              backgroundColor: '#ffffff', backgroundOpacity: 0.9, borderColor: '#0f4c81', borderThickness: 1, alignment: 'center' });
-          }
+          m.selectedAtoms({}).forEach(function (a) { yMin = Math.min(yMin, a.y); });
+          xs.push(dx);
+        });
+        nombres.forEach(function (n, i) {                     // los nombres, todos a la misma altura
+          if (!n || i >= datos.length || (superpuesto && i === 1)) return;
+          v.addLabel(n, { position: { x: xs[i], y: yMin - 1.6, z: 0 }, fontSize: 14, fontColor: '#0f4c81',
+            backgroundColor: '#ffffff', backgroundOpacity: 0.9, borderColor: '#0f4c81', borderThickness: 1, alignment: 'center' });
         });
         if (modo === 'espejo' && !superpuesto) {
           v.addBox({ center: { x: 0, y: 0, z: 0 }, dimensions: { w: 0.04, h: 6.5, d: 5.5 }, color: '#7fb3e6', opacity: 0.32 });
@@ -124,7 +153,7 @@
 
       dibujar(true);
       if (modo === 'espejo') v.rotate(-28, 'y');            // el espejo se ve como plano, no de canto
-      v.zoom(modo === 'espejo' ? 0.92 : 1.25); v.render();
+      v.zoom(parseFloat(fig.dataset.zoom) || 0.92); v.render();
       fig.classList.add('visor3d-listo');
 
       bGirar.addEventListener('click', function () {
@@ -139,7 +168,7 @@
         bSuper.textContent = superpuesto ? 'Separar' : 'Intentar superponer';
         dibujar(false);
       });
-      bCentro.addEventListener('click', function () { v.zoomTo(); v.zoom(0.92); v.render(); });
+      bCentro.addEventListener('click', function () { v.zoomTo(); v.zoom(parseFloat(fig.dataset.zoom) || 0.92); v.render(); });
       window.addEventListener('resize', function () { v.resize(); v.render(); });
     }).catch(function (e) {
       if (window.console) console.error("visor3d", e);
