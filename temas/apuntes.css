@@ -369,6 +369,40 @@ sub, sup { line-height: 0; }
 .exp-error { color: var(--ko); font-weight: 700; }
 .explorador figcaption { font-size: 0.88rem; color: var(--muted); margin-top: 8px; text-align: center; }
 
+/* ─── Simuladores didácticos (simuladores.js) ─── */
+.simulador { margin: 18px 0; padding: 14px; background: var(--card); border: 1px solid var(--line); border-radius: var(--radio); }
+.sim-cont { display: grid; gap: 14px; grid-template-columns: minmax(0, 1fr); }
+@media (min-width: 860px) { .sim-cont { grid-template-columns: minmax(0, 260px) minmax(0, 1fr); align-items: start; } }
+.sim-mandos { display: flex; flex-direction: column; gap: 10px; background: #f7fafc; border: 1px solid var(--line); border-radius: 12px; padding: 12px; }
+.sim-control { display: grid; grid-template-columns: 1fr auto; gap: 2px 8px; align-items: center; font-size: 0.9rem; }
+.sim-etq { grid-column: 1 / -1; font-weight: 800; color: var(--pri-strong); }
+.sim-control select { grid-column: 1 / -1; font: inherit; padding: 5px 8px; border: 1px solid #c8d9ea; border-radius: 8px; background: #fff; max-width: 100%; }
+.sim-control input[type=range] { width: 100%; accent-color: var(--pri); }
+.sim-valor { font-weight: 700; min-width: 4.5em; text-align: right; font-variant-numeric: tabular-nums; }
+.sim-off { opacity: 0.45; }
+.sim-botones { display: flex; flex-wrap: wrap; gap: 6px; }
+.sim-btn { font: 700 0.88rem 'Nunito', system-ui, sans-serif; color: var(--pri-strong); background: var(--pri-soft); border: 1px solid #c8d9ea; border-radius: 999px; padding: 6px 12px; cursor: pointer; }
+.sim-btn:focus-visible, .sim-control :focus-visible { outline: 3px solid #1a73e8; outline-offset: 2px; }
+.sim-lectura { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; margin-bottom: 8px; }
+.sim-lectura b { font-size: 1.6rem; color: var(--pri-strong); }
+.sim-uds { color: var(--muted); font-size: 0.85rem; }
+.sim-grafs { display: grid; gap: 8px; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); }
+.sim-graf svg { display: block; width: 100%; height: auto; background: #fff; border: 1px solid var(--line); border-radius: 10px; }
+.sim-graf .g-tit { font: 800 13px 'Nunito', system-ui, sans-serif; fill: var(--pri-strong); }
+.sim-graf .g-etq { font: 600 11px system-ui, sans-serif; fill: #555; }
+.sim-graf .g-num { font: 10px system-ui, sans-serif; fill: #777; }
+.sim-graf .g-eje { stroke: #888; stroke-width: 1.2; }
+.sim-graf .g-act { stroke: #1a73e8; stroke-width: 2.6; stroke-linejoin: round; }
+.sim-graf .g-ref { stroke: #999; stroke-width: 1.6; stroke-dasharray: 5 4; }
+.sim-graf .g-punto { fill: #c77d00; stroke: #fff; stroke-width: 2; }
+.sim-escena svg { display: block; width: 100%; height: auto; max-height: 340px; }
+.sim-escena .o-etq { font: 700 13px 'Nunito', system-ui, sans-serif; fill: #1e5631; }
+.sim-escena .o-gris { fill: #555; font-weight: 600; font-size: 12px; }
+.sim-expl { margin-top: 10px; background: #f7fafc; border: 1px solid var(--line); border-radius: 12px; padding: 10px 14px; font-size: 0.95rem; }
+.sim-expl p { margin: 0 0 6px; }
+.sim-nota { color: var(--muted); font-size: 0.85rem; }
+.simulador figcaption { font-size: 0.88rem; color: var(--muted); margin-top: 8px; text-align: center; }
+
 /* ─── Para saber más: enlaces a recursos externos de calidad ─── */
 .saber-mas {
   margin: 18px 0; padding: 14px 18px; border-radius: var(--radio);
@@ -544,6 +578,7 @@ details.solucion .cuerpo { border-left: 3px solid var(--ok); padding: 2px 0 2px 
   .visor3d-impreso { display: block; margin: 4px 0; font-size: 9pt; color: var(--muted); }
   .saber-mas { break-inside: avoid; }
   .explorador { display: none !important; }
+  .simulador { display: none !important; }
   .rotular { break-inside: avoid; }
   .rot-barra, .rot-resultado, .rot-instr { display: none !important; }
   .rot-chip { border: 1px solid #999; padding: 1px 8px; font-size: 8.5pt; text-decoration: none !important; opacity: 1 !important; }
