@@ -48,10 +48,12 @@
     var cuerpo = document.createElement('div'); cuerpo.className = 'exp-cuerpo';
     var lienzo = document.createElement('div'); lienzo.className = 'exp-lienzo';
     var ficha = document.createElement('div'); ficha.className = 'exp-ficha'; ficha.setAttribute('aria-live', 'polite');
+    var lista = document.createElement('div'); lista.className = 'exp-lista'; lista.setAttribute('aria-label', 'Orgánulos');
     var barra = document.createElement('div'); barra.className = 'exp-barra';
     var bNombres = document.createElement('button'); bNombres.type = 'button'; bNombres.className = 'exp-btn'; bNombres.textContent = 'Ocultar nombres (repaso)';
     barra.appendChild(bNombres);
-    cuerpo.appendChild(lienzo); cuerpo.appendChild(ficha);
+    var izq = document.createElement('div'); izq.appendChild(lienzo); izq.appendChild(lista);
+    cuerpo.appendChild(izq); cuerpo.appendChild(ficha);
     var cap = fig.querySelector('figcaption');
     [pest, cuerpo, barra].forEach(function (x) { fig.insertBefore(x, cap); });
     var ocultos = false, actual = null, cache = {};
@@ -70,6 +72,7 @@
         lienzo.innerHTML = txt.replace(/<\?xml[^>]*>/, '');
         var svg = lienzo.querySelector('svg'); svg.removeAttribute('width'); svg.removeAttribute('height');
         svg.classList.toggle('sin-nombres', ocultos);
+        lista.innerHTML = ''; lista.hidden = false;
         Array.prototype.forEach.call(svg.querySelectorAll('text'), function (t) {
           var c = t.previousElementSibling, l = c && c.previousElementSibling;
           if (!(c && l && c.tagName === 'circle' && l.tagName === 'line')) return;
@@ -84,6 +87,11 @@
             g.classList.add('activo'); mostrar(nombre, datos);
           }
           g.addEventListener('click', elegir);
+          // botón con el nombre: más fácil de tocar en el móvil que el punto del dibujo
+          var bl = document.createElement('button'); bl.type = 'button'; bl.className = 'exp-chip'; bl.textContent = nombre;
+          bl.addEventListener('click', function () { elegir(); Array.prototype.forEach.call(lista.children, function (x) { x.classList.toggle('activo', x === bl); }); });
+          g.addEventListener('click', function () { Array.prototype.forEach.call(lista.children, function (x) { x.classList.toggle('activo', x === bl); }); });
+          lista.appendChild(bl);
           g.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); elegir(); } });
         });
         actual = tipo; fichaInicial();
@@ -101,6 +109,7 @@
 
     function verDentro(nombre, archivo) {
       cargar(archivo).then(function (txt) {
+        lista.hidden = true;
         lienzo.innerHTML = '<div class="exp-zoom-cab"><button type="button" class="exp-btn exp-volver">← Volver a la célula</button><b>' +
           nombre.charAt(0).toUpperCase() + nombre.slice(1) + ' por dentro</b></div>' + txt.replace(/<\?xml[^>]*>/, '');
         var svg = lienzo.querySelector('svg'); svg.removeAttribute('width'); svg.removeAttribute('height');
@@ -119,6 +128,7 @@
       ocultos = !ocultos;
       bNombres.textContent = ocultos ? 'Mostrar nombres' : 'Ocultar nombres (repaso)';
       var svg = lienzo.querySelector('svg'); if (svg) svg.classList.toggle('sin-nombres', ocultos);
+      fig.classList.toggle('sin-nombres', ocultos);
     });
     verCelula(tipos[0]);
   }

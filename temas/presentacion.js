@@ -32,11 +32,13 @@
     '<button type="button" data-acc="full" aria-label="Pantalla completa" title="Pantalla completa (F)">⛶</button>' +
     '<button type="button" data-acc="print" aria-label="Imprimir o guardar en PDF" title="Imprimir / PDF">🖨</button>';
   document.body.appendChild(controles);
+  var girar = document.createElement('div'); girar.className = 'girar-movil'; girar.textContent = '📱↻ Gira el móvil para ver las diapositivas más grandes';
+  document.body.appendChild(girar);
   var contador = controles.querySelector('.contador');
 
   function escalar() {
     var k = Math.min(window.innerWidth / 1280, window.innerHeight / 720) * 0.98;
-    lienzo.style.transform = 'scale(' + k + ')';
+    lienzo.style.transform = 'translate(-50%, -50%) scale(' + k + ')';
   }
 
   function pasos(s) { return Array.prototype.slice.call(s.querySelectorAll('.paso')); }

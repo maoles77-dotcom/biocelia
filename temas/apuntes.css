@@ -253,6 +253,21 @@ sub, sup { line-height: 0; }
 }
 .figura figcaption { font-size: 0.88rem; color: var(--muted); margin-top: 6px; }
 .figura figcaption b { color: var(--ink); }
+/* Ampliar figuras (apuntes.js) */
+.figura { position: relative; }
+.figura img[role="button"] { cursor: zoom-in; }
+.figura img[role="button"]:focus-visible { outline: 3px solid #1a73e8; outline-offset: 2px; }
+.fig-ampliar { position: absolute; top: 6px; right: 6px; z-index: 1; font: 700 0.8rem 'Nunito', system-ui, sans-serif; color: var(--pri-strong); background: rgba(255,255,255,0.92); border: 1px solid #c8d9ea; border-radius: 999px; padding: 6px 10px; cursor: pointer; }
+@media (min-width: 900px) { .fig-ampliar { opacity: 0; transition: opacity .2s; } .figura:hover .fig-ampliar { opacity: 1; } }
+.visor-fig { display: none; position: fixed; inset: 0; z-index: 1000; background: #0f1928; flex-direction: column; }
+.visor-fig.abierto { display: flex; }
+.vf-barra { display: flex; align-items: center; gap: 8px; padding: 8px 10px; color: #fff; }
+.vf-tit { flex: 1; font-size: 0.85rem; line-height: 1.3; max-height: 3.9em; overflow: hidden; }
+.vf-btn { flex: none; width: 44px; height: 44px; font: 800 1.3rem system-ui, sans-serif; color: #fff; background: rgba(255,255,255,0.14); border: 1px solid rgba(255,255,255,0.35); border-radius: 50%; cursor: pointer; }
+.vf-btn:focus-visible { outline: 3px solid #8ab4f8; outline-offset: 2px; }
+.vf-caja { flex: 1; overflow: auto; -webkit-overflow-scrolling: touch; display: flex; padding: 8px; }
+.vf-caja img { display: block; flex: none; margin: auto; max-width: none; height: auto; background: #fff; border-radius: 8px; padding: 6px; }
+html.vf-bloqueo, html.vf-bloqueo body { overflow: hidden; }
 /* ─── Visor 3D de moléculas (visor3d.js) ─── */
 .visor3d {
   margin: 18px 0;
@@ -297,7 +312,8 @@ sub, sup { line-height: 0; }
 .anim-texto { margin: 10px 4px 0; min-height: 4.8em; }
 .anim-texto .clave { background: var(--marca); border-radius: 2px; font-weight: 700; }
 .anim-puntos { display: flex; justify-content: center; gap: 7px; margin: 10px 0 4px; }
-.anim-punto { width: 12px; height: 12px; padding: 0; border-radius: 50%; border: 2px solid var(--pri); background: #fff; cursor: pointer; }
+.anim-punto { width: 12px; height: 12px; padding: 0; border-radius: 50%; border: 2px solid var(--pri); background: #fff; cursor: pointer; position: relative; }
+.anim-punto::after { content: ''; position: absolute; inset: -9px -4px; }   /* zona de toque más grande en pantallas táctiles */
 .anim-punto.activo { background: var(--pri); }
 .anim-barra { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-top: 8px; }
 .anim-btn { font: 700 0.9rem 'Nunito', system-ui, sans-serif; color: var(--pri-strong); background: var(--pri-soft); border: 1px solid #c8d9ea; border-radius: 999px; padding: 6px 14px; cursor: pointer; }
@@ -324,6 +340,13 @@ sub, sup { line-height: 0; }
 .rot-lienzo .zona.ok rect { fill: var(--ok-soft); stroke: var(--ok); stroke-width: 2.5; }
 .rot-lienzo .zona.ko rect { fill: var(--ko-soft); stroke: var(--ko); stroke-width: 2.5; }
 .rot-lienzo .zona.sol rect { fill: var(--pri-soft); stroke: var(--pri); }
+.rot-lienzo .zona rect.zona-toque { fill: transparent !important; stroke: none !important; }
+.rot-desliza { display: none; text-align: center; font-size: 0.85rem; color: var(--muted); margin: 0 0 4px; }
+@media screen and (max-width: 700px) {
+  .rot-lienzo { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .rot-lienzo svg { min-width: 720px; }
+  .rot-desliza { display: block; }
+}
 .rot-lienzo .zona-num { fill: var(--pri); }
 .rot-lienzo .zona-numtxt { fill: #fff; font-size: 13px; font-weight: 800; }
 .rot-lienzo .zona-txt { font-size: 15px; font-weight: 800; fill: #22313f; }
@@ -367,6 +390,11 @@ sub, sup { line-height: 0; }
 .exp-btn:focus-visible, .exp-pestana:focus-visible { outline: 3px solid #1a73e8; outline-offset: 2px; }
 .exp-zoom-cab { display: flex; align-items: center; gap: 12px; margin-bottom: 6px; color: var(--pri-strong); }
 .exp-error { color: var(--ko); font-weight: 700; }
+.exp-lista { display: flex; flex-wrap: wrap; gap: 6px; justify-content: center; margin-top: 8px; }
+.exp-chip { font: 700 0.85rem 'Nunito', system-ui, sans-serif; color: var(--pri-strong); background: #fff; border: 1px solid #c8d9ea; border-radius: 999px; padding: 7px 12px; min-height: 36px; cursor: pointer; }
+.exp-chip.activo { background: #c77d00; border-color: #c77d00; color: #fff; }
+.exp-chip:focus-visible { outline: 3px solid #1a73e8; outline-offset: 2px; }
+.explorador.sin-nombres .exp-lista { display: none; }
 .explorador figcaption { font-size: 0.88rem; color: var(--muted); margin-top: 8px; text-align: center; }
 
 /* ─── Simuladores didácticos (simuladores.js) ─── */
@@ -377,7 +405,7 @@ sub, sup { line-height: 0; }
 .sim-control { display: grid; grid-template-columns: 1fr auto; gap: 2px 8px; align-items: center; font-size: 0.9rem; }
 .sim-etq { grid-column: 1 / -1; font-weight: 800; color: var(--pri-strong); }
 .sim-control select { grid-column: 1 / -1; font: inherit; padding: 5px 8px; border: 1px solid #c8d9ea; border-radius: 8px; background: #fff; max-width: 100%; }
-.sim-control input[type=range] { width: 100%; accent-color: var(--pri); }
+.sim-control input[type=range] { width: 100%; height: 28px; accent-color: var(--pri); }
 .sim-valor { font-weight: 700; min-width: 4.5em; text-align: right; font-variant-numeric: tabular-nums; }
 .sim-off { opacity: 0.45; }
 .sim-botones { display: flex; flex-wrap: wrap; gap: 6px; }
@@ -573,6 +601,7 @@ details.solucion .cuerpo { border-left: 3px solid var(--ok); padding: 2px 0 2px 
   .clave { background: var(--marca); border-radius: 2px; }
   .tabla th { background: var(--pri) !important; }
   .figura img { max-height: 300px; border: none; }
+  .fig-ampliar, .visor-fig { display: none !important; }
   .visor3d-lienzo, .visor3d-barra, .visor3d-ayuda, .visor3d-leyenda { display: none !important; }
   .visor3d { break-inside: avoid; padding: 8px 12px; }
   .visor3d-impreso { display: block; margin: 4px 0; font-size: 9pt; color: var(--muted); }
@@ -580,7 +609,7 @@ details.solucion .cuerpo { border-left: 3px solid var(--ok); padding: 2px 0 2px 
   .explorador { display: none !important; }
   .simulador { display: none !important; }
   .rotular { break-inside: avoid; }
-  .rot-barra, .rot-resultado, .rot-instr { display: none !important; }
+  .rot-barra, .rot-resultado, .rot-instr, .rot-desliza { display: none !important; }
   .rot-chip { border: 1px solid #999; padding: 1px 8px; font-size: 8.5pt; text-decoration: none !important; opacity: 1 !important; }
   .rot-banco { gap: 4px; }
   .anim-cab, .anim-lienzo, .anim-texto, .anim-puntos, .anim-barra { display: none !important; }

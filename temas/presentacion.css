@@ -40,7 +40,10 @@ body {
 .lienzo {
   width: 1280px;
   height: 720px;
-  position: relative;
+  position: absolute;   /* centrado en cualquier pantalla, también si es más estrecha que 1280 px */
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   transform-origin: center center;
 }
 
@@ -262,11 +265,16 @@ table.t { width: 100%; border-collapse: collapse; font-size: 21px; }
 .visor3d-error { padding-top: 120px; color: #b03a2e; font-weight: 700; }
 .visor3d-impreso { display: none; }
 
+/* Aviso para girar el móvil (solo en vertical y pantallas estrechas) */
+.girar-movil { display: none; }
+@media screen and (orientation: portrait) and (max-width: 600px) {
+  .girar-movil { display: block; position: fixed; top: 14px; left: 12px; right: 12px; z-index: 5; text-align: center; font: 700 14px 'Nunito', system-ui, sans-serif; color: #fff; background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.3); border-radius: 12px; padding: 10px; }
+}
 @media print {
   html, body { height: auto; overflow: visible; background: #fff; }
   .controles, .progreso { display: none !important; }
   .escenario { position: static; display: block; }
-  .lienzo { transform: none !important; width: auto; height: auto; }
+  .lienzo { transform: none !important; position: static; width: auto; height: auto; }
   .slide {
     position: relative;
     display: flex !important;

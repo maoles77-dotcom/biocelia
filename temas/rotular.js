@@ -24,11 +24,12 @@
     var lienzo = document.createElement('div'); lienzo.className = 'rot-lienzo';
     var instr = document.createElement('p'); instr.className = 'rot-instr';
     instr.textContent = 'Arrastra cada nombre a su casilla, o tócalo y después toca la casilla. Pulsa una casilla llena para vaciarla.';
+    var desliza = document.createElement('p'); desliza.className = 'rot-desliza'; desliza.textContent = '← Desliza el esquema para verlo entero →';
     var banco = document.createElement('div'); banco.className = 'rot-banco'; banco.setAttribute('aria-label', 'Nombres para colocar');
     var barra = document.createElement('div'); barra.className = 'rot-barra';
     var res = document.createElement('p'); res.className = 'rot-resultado'; res.setAttribute('aria-live', 'polite');
     var cap = fig.querySelector('figcaption');
-    [instr, lienzo, banco, barra, res].forEach(function (x) { fig.insertBefore(x, cap); });
+    [instr, desliza, lienzo, banco, barra, res].forEach(function (x) { fig.insertBefore(x, cap); });
 
     fetch(fig.dataset.svg).then(function (r) { if (!r.ok) throw new Error(); return r.text(); }).then(function (txt) {
       lienzo.innerHTML = txt.replace(/<\?xml[^>]*>/, '');
@@ -54,6 +55,7 @@
         var hueco = d.ancla === 'end' ? off + d.x + 6 - (vb.x + 2) : vb.x + vb.width - 2 - (off + d.x - 6);
         var Wi = Math.max(Math.min(W, hueco), d.bb.width + 12);
         var x0 = d.ancla === 'end' ? d.x + 6 - Wi : d.x - 6;
+        el('rect', { x: x0 - 30, y: d.bb.y - 14, width: Wi + 36, height: d.bb.height + 28, class: 'zona-toque' }, g);   // zona de toque más grande que la casilla
         el('rect', { x: x0, y: d.bb.y - 4, width: Wi, height: d.bb.height + 8, rx: 6 }, g);
         var nx = d.ancla === 'end' ? x0 + Wi + 14 : x0 - 14;
         el('circle', { cx: nx, cy: d.bb.y + d.bb.height / 2, r: 11, class: 'zona-num' }, g);
