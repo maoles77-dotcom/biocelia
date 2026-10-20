@@ -29893,10 +29893,10 @@
     "tipo": "respuesta breve",
     "pregunta": "a) Defina lípido [0,6]. b) ¿Qué tipo de molécula tienen en común los lípidos saponificables? [0,2] c) Cite dos tipos de lípidos saponificables y dos insaponificables [0,4]. d) Indique una función de cada uno de los cuatro lípidos citados en el apartado anterior [0,8].",
     "respuesta": [
-      "a) Sustancias orgánicas químicamente heterogéneas, insolubles en agua y solubles en disolventes no polares (0,6 p).",
-      "b) Ácidos grasos (0,2 p).",
+      "a) Sustancias orgánicas químicamente heterogéneas, insolubles en agua y solubles en disolventes no polares (0,6 p). Están formados sobre todo por C, H y O (algunos también P y N). Se agrupan por su comportamiento físico, no por tener una estructura química común.",
+      "b) Ácidos grasos (0,2 p). En los acilglicéridos y los fosfoglicéridos están unidos al glicerol por enlace éster; con una base fuerte (NaOH, KOH) ese enlace se hidroliza y se forman jabones: es la saponificación.",
       "c) Saponificables: triacilglicéridos, fosfolípidos; insaponificables: terpenos (carotenoides), esteroides (0,4 p).",
-      "d) Triacilglicéridos: reserva energética; fosfolípidos: estructural (bicapa lipídica); carotenoides: pigmentos, precursores de vitaminas; esteroides: estructural en membranas, hormonal. 0,2 p cada uno (0,8 p)."
+      "d) Triacilglicéridos: reserva energética; fosfolípidos: estructural (bicapa lipídica); carotenoides: pigmentos, precursores de vitaminas; esteroides: estructural en membranas, hormonal. 0,2 p cada uno (0,8 p). Los carotenoides, como el β-caroteno, son precursores de la vitamina A; el colesterol regula la fluidez de las membranas animales y de él derivan las hormonas sexuales y los corticoides."
     ],
     "palabras_clave": [
       "Sustancias orgánicas químicamente heterogéneas, insolubles en agua y solubles en disolventes no polares",
@@ -29923,10 +29923,10 @@
     "tipo": "respuesta breve",
     "pregunta": "a) Describa la estructura de los diferentes tipos de ribosomas presentes en las células eucarióticas [0,8]. b) Indique su composición química [0,3], c) su función [0,2] y d) todas sus posibles localizaciones en una célula [0,5]. e) ¿Qué tipo de ribosomas presentan los procariotas? [0,2]",
     "respuesta": [
-      "a) Citoplasmáticos: dos subunidades, 80S (60S y 40S). Mitocondriales y plastidiales: dos subunidades, 70S (50S y 30S) (0,8 p).",
+      "a) Citoplasmáticos: dos subunidades, 80S (60S y 40S). Mitocondriales y plastidiales: dos subunidades, 70S (50S y 30S) (0,8 p). Las dos subunidades solo se unen al traducir un ARNm. La S (unidad Svedberg) mide la velocidad de sedimentación y no se suma: 60S + 40S = 80S.",
       "b) ARN ribosómico y proteínas (0,3 p). c) Síntesis de proteínas (0,2 p).",
-      "d) Libres en el citoplasma, adosados al RER, en la cara externa de la envoltura nuclear, matriz mitocondrial y estroma del cloroplasto (0,5 p).",
-      "e) Ribosomas 70S (0,2 p)."
+      "d) Libres en el citoplasma, adosados al RER, en la cara externa de la envoltura nuclear, matriz mitocondrial y estroma del cloroplasto (0,5 p). Los del RER sintetizan proteínas de membrana, de secreción y de los lisosomas; los libres, las que se quedan en el citosol.",
+      "e) Ribosomas 70S (0,2 p). Son de tipo procariota, como los de mitocondrias y cloroplastos: es una de las pruebas de la teoría endosimbiótica."
     ],
     "palabras_clave": [
       "50S y 30S",
@@ -29955,9 +29955,9 @@
     "tipo": "respuesta breve",
     "pregunta": "a) Defina fermentación [0,5] e indique el lugar de la célula donde se realiza [0,1]. b) Cite dos tipos de fermentación [0,4], indicando en cada caso un tipo de célula u organismo que la realiza [0,4]. c) Explique la diferencia entre la rentabilidad energética de la fermentación y de la respiración celular [0,6].",
     "respuesta": [
-      "a) Degradación anaeróbica de la glucosa con una molécula orgánica como aceptor final de electrones (0,5 p); en el citosol (0,1 p).",
+      "a) Degradación anaeróbica de la glucosa con una molécula orgánica como aceptor final de electrones (0,5 p); en el citosol (0,1 p). Es una oxidación incompleta: solo se obtiene ATP en la glucólisis, por fosforilación a nivel de sustrato, y el NADH se reoxida a NAD⁺ al reducir el pirúvico o un derivado, lo que permite que la glucólisis continúe.",
       "b) Láctica (bacterias, células musculares), alcohólica (levaduras, células vegetales), acética (bacterias). Dos tipos (0,4 p) con su organismo (0,4 p).",
-      "c) La fermentación oxida parcialmente la glucosa y da 2 ATP; la respiración la oxida completamente hasta CO₂ y agua y da 36-38 ATP (0,6 p)."
+      "c) La fermentación oxida parcialmente la glucosa y da 2 ATP; la respiración la oxida completamente hasta CO₂ y agua y da 36-38 ATP (0,6 p). En la fermentación el producto final (lactato o etanol) aún guarda mucha energía. En la respiración el NADH y el FADH₂ ceden sus electrones a la cadena respiratoria, el O₂ es el aceptor final y la fosforilación oxidativa produce la mayor parte del ATP."
     ],
     "palabras_clave": [
       "2 ATP",
@@ -29985,9 +29985,9 @@
     "tipo": "respuesta breve",
     "pregunta": "Defina: a) ingeniería genética [0,5]; b) biorremediación [0,5]; c) ADN recombinante [0,5]. d) Cite dos ejemplos de aplicaciones biotecnológicas que no impliquen procesos fermentativos [0,5].",
     "respuesta": [
-      "a) Técnicas que permiten manipular y modificar el material genético en el laboratorio (0,5 p).",
-      "b) Proceso que usa seres vivos o sus productos para recuperar un ecosistema alterado por contaminantes (0,5 p).",
-      "c) ADN sintetizado en el laboratorio uniendo secuencias de organismos diferentes (0,5 p).",
+      "a) Técnicas que permiten manipular y modificar el material genético en el laboratorio (0,5 p). Por ejemplo: aislar un gen, cortarlo con enzimas de restricción, unirlo a un vector con la ADN ligasa e introducirlo en otra célula para que lo exprese.",
+      "b) Proceso que usa seres vivos o sus productos para recuperar un ecosistema alterado por contaminantes (0,5 p). Por ejemplo, bacterias que degradan los hidrocarburos de un vertido de petróleo.",
+      "c) ADN sintetizado en el laboratorio uniendo secuencias de organismos diferentes (0,5 p). Se obtiene cortando con la misma enzima de restricción el ADN de interés y el del vector (un plásmido, por ejemplo) y uniendo los fragmentos con la ADN ligasa.",
       "d) Productos industriales, medicamentos insulina recombinante, biorremediación, agricultura plantas transgénicas. Dos (0,5 p)."
     ],
     "palabras_clave": [
@@ -30013,7 +30013,7 @@
     "pregunta": "a) Enumere cinco componentes (células o moléculas) del sistema inmunitario [0,5]; b) e indique una función de cada uno de ellos [1,5].",
     "respuesta": [
       "a) Macrófagos, linfocitos B, linfocitos T, anticuerpos, citocinas, interferón, complemento. Cinco (0,5 p).",
-      "b) Macrófagos: fagocitosis; linfocitos B: producen anticuerpos; linfocitos T: se unen a antígenos y activan a los B; anticuerpos: se unen a antígenos específicos; citocinas: regulan la respuesta; interferón: respuesta frente a virus; complemento: destrucción celular e inflamación. 0,3 p cada una (1,5 p)."
+      "b) Macrófagos: fagocitosis; linfocitos B: producen anticuerpos; linfocitos T: se unen a antígenos y activan a los B; anticuerpos: se unen a antígenos específicos; citocinas: regulan la respuesta; interferón: respuesta frente a virus; complemento: destrucción celular e inflamación. 0,3 p cada una (1,5 p). Matices útiles: los T colaboradores activan a linfocitos B y macrófagos mediante citocinas, y los T citotóxicos destruyen células infectadas o tumorales; los anticuerpos neutralizan, aglutinan o precipitan el antígeno y facilitan la fagocitosis; el interferón lo liberan las células infectadas por virus e impide la replicación del virus en las células vecinas."
     ],
     "palabras_clave": [
       "Macrófagos",
@@ -30043,10 +30043,10 @@
     "tipo": "respuesta breve",
     "pregunta": "En el laboratorio se analiza la secuencia de nucleótidos del genoma de varios agentes patógenos, y la única información disponible es el porcentaje de adenina presente en las mismas, y el tipo de ácido nucleico de dichos patógenos. Las muestras son: a) viroide aislado de planta de aguacate, 29% adenina, ARN monocatenario; b) coronavirus aislado de secreción nasal humana, 31% adenina, ARN monocatenario; c) bacteria Salmonella enteritidis aislada de muestras de heces humanas, 22% adenina, ADN bicatenario; d) Parvovirus aislado de epitelio intestinal de perro, 27% adenina, ADN monocatenario; e) Birnavirus aislado de piel de gallina, 32% adenina, ARN bicatenario. Teniendo en cuenta esta información, deduzca de manera razonada, cuando sea posible, el porcentaje de las restantes bases nitrogenadas en cada una de las muestras biológicas [1].",
     "respuesta": [
-      "a) y b) ARN monocatenario: no se puede usar la complementariedad (0,4 p).",
-      "c) ADN bicatenario: 22 % T, 28 % C, 28 % G (0,2 p).",
-      "d) ADN monocatenario: no se puede calcular (0,2 p).",
-      "e) ARN bicatenario: 32 % U, 18 % C, 18 % G (0,2 p)."
+      "a) y b) ARN monocatenario: no se puede usar la complementariedad (0,4 p). En una sola hebra las bases no se aparean, así que no tiene por qué haber tanta A como U: solo se sabe que las otras tres bases suman el resto.",
+      "c) ADN bicatenario: 22 % T, 28 % C, 28 % G (0,2 p). Regla de Chargaff: en el ADN bicatenario A = T y G = C. A + T = 44 %, y el 56 % restante se reparte a partes iguales entre G y C.",
+      "d) ADN monocatenario: no se puede calcular (0,2 p). Igual que en a) y b): sin hebra complementaria no hay relación entre las bases.",
+      "e) ARN bicatenario: 32 % U, 18 % C, 18 % G (0,2 p). En el ARN bicatenario A se aparea con U, así que A = U = 32 %; el 36 % restante se reparte entre G y C."
     ],
     "palabras_clave": [
       "22 % T, 28 % C, 28 % G",
@@ -30068,8 +30068,8 @@
     "tipo": "respuesta breve",
     "pregunta": "a) Explique por qué los tratamientos contra el cáncer basados en toxinas naturales que atacan a los nucleolos producen la muerte de estas células [0,6]. b) ¿Tendrían estas toxinas naturales el mismo efecto sobre células en mitosis? [0,4]",
     "respuesta": [
-      "a) En el nucléolo se forman los ARNr de las subunidades de los ribosomas; sin ellos las células no sintetizan proteínas, no crecen ni completan el ciclo, y mueren (0,6 p).",
-      "b) No: durante la mitosis el núcleo y el nucléolo no están presentes (0,4 p)."
+      "a) En el nucléolo se forman los ARNr de las subunidades de los ribosomas; sin ellos las células no sintetizan proteínas, no crecen ni completan el ciclo, y mueren (0,6 p). Las células cancerosas se dividen sin control y necesitan sintetizar muchas proteínas para crecer y dividirse; sin nucléolo no pueden fabricar ribosomas nuevos.",
+      "b) No: durante la mitosis el núcleo y el nucléolo no están presentes (0,4 p). El nucléolo desaparece en la profase y no se vuelve a formar hasta la telofase, así que durante la mitosis la toxina no encuentra su diana."
     ],
     "palabras_clave": [
       "ARNr de las subunidades de los ribosomas",
@@ -30090,10 +30090,10 @@
     "tipo": "respuesta breve",
     "pregunta": "Indique si las siguientes afirmaciones sobre el metabolismo son verdaderas o falsas, razonando las respuestas: a) En el catabolismo se produce la síntesis de moléculas orgánicas a partir de inorgánicas, son reacciones de oxidación y generan energía [0,25]. b) La fosforilación a nivel de sustrato es el mecanismo mediante el cual se genera la mayor cantidad de ATP durante el proceso de respiración celular [0,25]. c) Todos los organismos autótrofos utilizan como fuente de energía la energía luminosa [0,25]. d) Las coenzimas de óxido-reducción que intervienen en los procesos de respiración celular y fotosíntesis son distintas [0,25].",
     "respuesta": [
-      "a) Falsa: el catabolismo degrada moléculas orgánicas en otras más sencillas (0,25 p).",
-      "b) Falsa: la mayor parte del ATP la genera la fosforilación oxidativa (0,25 p).",
-      "c) Falsa: los quimioautótrofos obtienen energía oxidando compuestos inorgánicos (0,25 p).",
-      "d) Verdadera: en la respiración, NAD⁺/NADH y FAD/FADH₂; en la fotosíntesis, NADP⁺/NADPH (0,25 p)."
+      "a) Falsa: el catabolismo degrada moléculas orgánicas en otras más sencillas (0,25 p). Lo que describe el enunciado, la síntesis de moléculas orgánicas, es el anabolismo, que es reductor y consume energía. El catabolismo sí es oxidativo y libera energía.",
+      "b) Falsa: la mayor parte del ATP la genera la fosforilación oxidativa (0,25 p). Por fosforilación a nivel de sustrato solo se obtienen 4 ATP netos por glucosa: 2 en la glucólisis y 2 en el ciclo de Krebs (como GTP); el resto, la gran mayoría, sale de la fosforilación oxidativa.",
+      "c) Falsa: los quimioautótrofos obtienen energía oxidando compuestos inorgánicos (0,25 p). Solo los fotoautótrofos (plantas, algas, cianobacterias) usan la luz; los quimioautótrofos (bacterias nitrificantes, del azufre, del hierro) realizan la quimiosíntesis.",
+      "d) Verdadera: en la respiración, NAD⁺/NADH y FAD/FADH₂; en la fotosíntesis, NADP⁺/NADPH (0,25 p). En la respiración el NADH y el FADH₂ llevan electrones a la cadena respiratoria; en la fotosíntesis el NADPH aporta el poder reductor del ciclo de Calvin."
     ],
     "palabras_clave": [
       "Falsa",
@@ -30117,8 +30117,8 @@
     "tipo": "respuesta breve",
     "pregunta": "Explique razonadamente por qué a) la secuencia de aminoácidos de una cadena polipeptídica puede corresponder a más de una secuencia de nucleótidos de ARNm [0,5], b) mientras que una secuencia de ARNm sólo puede originar una secuencia de aminoácidos [0,5].",
     "respuesta": [
-      "a) Un aminoácido puede estar codificado por más de un codón: el código es degenerado (0,5 p).",
-      "b) Cada codón corresponde a un único aminoácido (los criterios lo relacionan con el código universal; propiamente, es que el código no es ambiguo (0,5 p)."
+      "a) Un aminoácido puede estar codificado por más de un codón: el código es degenerado (0,5 p). Hay 61 codones con sentido para 20 aminoácidos; la leucina, por ejemplo, tiene seis. Por eso un mismo péptido puede proceder de varios ARNm distintos.",
+      "b) Cada codón corresponde a un único aminoácido (los criterios lo relacionan con el código universal; propiamente, es que el código no es ambiguo (0,5 p). Cada codón se lee de una sola manera y el ARNm se lee sin solapamiento, triplete a triplete, desde el codón de inicio: el resultado solo puede ser una secuencia de aminoácidos."
     ],
     "palabras_clave": [
       "Cada codón corresponde a un único aminoácido",
@@ -30138,10 +30138,10 @@
     "tipo": "respuesta breve",
     "pregunta": "El virus SARS-CoV-2, responsable de la COVID-19, expresa varios antígenos, entre los que se encuentra la nucleoproteína N (antígeno N) y la proteína Spike (antígeno S). Las vacunas utilizadas hasta el momento se basan en el antígeno S. a) ¿Frente a qué tipo de antígeno se encontrarán anticuerpos en una persona vacunada y que ha pasado la infección? [0,25] b) ¿Y en una persona vacunada y que no ha sufrido la infección del virus? [0,25] c) ¿Frente a cuál de los dos antígenos habría que buscar anticuerpos para distinguir si una persona ha adquirido la inmunidad contra el virus de forma natural o mediante vacunación? [0,25] d) Si una persona que no ha sufrido la infección ha sido vacunada por primera vez una hora antes de hacerse el test ¿qué anticuerpos se encontrarán en su sangre? [0,25] Responda razonadamente a todas las cuestiones.",
     "respuesta": [
-      "a) Frente a N (presente en el virus) y frente a S (en el virus y en la vacuna) (0,25 p).",
+      "a) Frente a N (presente en el virus) y frente a S (en el virus y en la vacuna) (0,25 p). La infección pone en contacto al sistema inmunitario con todos los antígenos del virus; la vacuna, solo con S.",
       "b) Solo frente a S, el único presente en las vacunas (0,25 p).",
       "c) Frente a N, porque no está en las vacunas (0,25 p).",
-      "d) Ninguno: los anticuerpos tardan un tiempo en sintetizarse (0,25 p)."
+      "d) Ninguno: los anticuerpos tardan un tiempo en sintetizarse (0,25 p). En el primer contacto con un antígeno la respuesta primaria tarda días: los linfocitos B tienen que activarse, multiplicarse y diferenciarse en células plasmáticas."
     ],
     "palabras_clave": [
       "N",
@@ -30189,7 +30189,7 @@
     "respuesta": [
       "a) Fagocitosis (0,2 p). b) Células animales (0,1 p).",
       "c) A: lisosoma; B: fagosoma (0,3 p).",
-      "d) Digestión celular (0,3 p). e) Complejo de Golgi (0,1 p)."
+      "d) Digestión celular (0,3 p). e) Complejo de Golgi (0,1 p). El lisosoma contiene enzimas hidrolíticas y se fusiona con el fagosoma, formando un fagolisosoma en el que se digiere lo fagocitado."
     ],
     "palabras_clave": [
       "Complejo de Golgi",
@@ -30243,7 +30243,7 @@
     "respuesta": [
       "a) Replicación del ADN (0,1 p).",
       "b) A: origen de replicación; B: cebador; C: hebra adelantada; D: fragmentos de Okazaki; E: hebra retrasada (0,5 p).",
-      "c) A: ADN; B: ARN; C: ADN; D: ADN (0,4 p)."
+      "c) A: ADN; B: ARN; C: ADN; D: ADN (0,4 p). B es ARN porque lo sintetiza la primasa: la ADN polimerasa no puede empezar una cadena nueva, solo alargar un extremo 3′ ya existente."
     ],
     "palabras_clave": [
       "ADN",
@@ -30271,7 +30271,7 @@
       "a) A: reacción alérgica; B: rechazo de un órgano trasplantado (0,4 p).",
       "b) IgE (0,2 p).",
       "c) Mastocito; libera histamina (0,2 p).",
-      "d) Inmunosupresores (0,2 p)."
+      "d) Inmunosupresores (0,2 p). Disminuyen la respuesta inmunitaria, sobre todo la de los linfocitos T, que reconocen como extrañas las moléculas del MHC del órgano donado."
     ],
     "palabras_clave": [
       "IgE",
