@@ -51,7 +51,7 @@
      "puntos": 2,
      "q": "En relación con la figura adjunta, responda las siguientes cuestiones:<br>a) Nombre el tipo de molécula de que se trata [0,25]. ¿Cómo se denominan sus monómeros [0,2] y cuál es su composición? [0,3]. Considerando la molécula en sentido longitudinal, las notaciones 3′ y 5′ se sitúan en posiciones opuestas. Explique el significado de este hecho [0,25].<br>b) ¿Cómo se denomina el proceso por el cual esta molécula se duplica? [0,2]. Explíquelo brevemente [0,8].",
      "c": [
-      "a) **ADN** (0,25 p). Monómeros: **nucleótidos** (0,2 p). Composición: **ácido fosfórico**, **pentosa** (desoxirribosa) y **base nitrogenada** (0,3 p).",
+      "a) **ADN** (0,25 p). Monómeros: **nucleótidos** (0,2 p). Composición: **ácido fosfórico**, **pentosa** (desoxirribosa) y **base nitrogenada** (0,3 p). ((Es lo que hace el VIH: el ADN integrado (provirus) se transcribe con la maquinaria de la célula y se fabrican nuevos virus.))",
       "Las notaciones opuestas se deben a que **las cadenas son antiparalelas** (0,25 p).",
       "b) **Replicación** (0,2 p).",
       "Para la máxima puntuación deben mencionarse: **ADN**, **origen de replicación**, cadenas **adelantada y retrasada**, **cebador**, **fragmento de Okazaki**, **ADN polimerasa** y **ligasa** (0,8 p)."
@@ -208,8 +208,8 @@
      "puntos": 1,
      "q": "Suponga que existe un antibiótico, llamado «ribosomicina», que inhibe la síntesis de proteínas porque impide la actividad de los ribosomas 70S. Dado que las bacterias tienen este tipo de ribosomas, ¿se podría utilizar la ribosomicina para combatir infecciones bacterianas en los seres humanos? [0,5]. ¿Sería recomendable este antibiótico en el caso de una infección vírica? [0,5]. Razone las respuestas.",
      "c": [
-      "**No es aconsejable**, ya que los **ribosomas 70S** también están en las **mitocondrias** y se paralizarían las funciones mitocondriales (0,5 p).",
-      "**No**, porque los **virus carecen de ribosomas** y no tendría ninguna utilidad frente a ellos (0,5 p)."
+      "**No es aconsejable**, ya que los **ribosomas 70S** también están en las **mitocondrias** y se paralizarían las funciones mitocondriales (0,5 p). ((Según la teoría endosimbiótica, las mitocondrias proceden de bacterias, por eso sus ribosomas también son 70S; los ribosomas del citoplasma humano son 80S.))",
+      "**No**, porque los **virus carecen de ribosomas** y no tendría ninguna utilidad frente a ellos (0,5 p). ((Los virus usan los ribosomas de la célula que infectan, y los antibióticos solo actúan sobre estructuras propias de las bacterias.))"
      ],
      "n": 3
     },

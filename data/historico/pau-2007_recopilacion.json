@@ -20,8 +20,8 @@
      "puntos": 2,
      "q": "Explique cuál es la finalidad de la replicación y de la transcripción [0,5]. Explique la traducción [1]. Dibuje el inicio de la traducción [0,5].",
      "c": [
-      "Replicación: **duplicación del material genético**; transcripción: **síntesis de los diferentes ARN**. 0,25 p cada una (0,5 p).",
-      "Traducción: se indicará cómo se **inicia**, cómo se **elonga** y cómo **termina** la síntesis de la proteína. Para la máxima puntuación deberá mencionarse: **unión del ARNm al ribosoma**, **ARNt**, **enlace peptídico** y **polipéptido** (1 p).",
+      "Replicación: **duplicación del material genético**; transcripción: **síntesis de los diferentes ARN**. 0,25 p cada una (0,5 p). ((La replicación ocurre en la fase S, antes de cada división, para que cada célula hija reciba una copia del ADN; en la transcripción se copia un gen a ARN.))",
+      "Traducción: se indicará cómo se **inicia**, cómo se **elonga** y cómo **termina** la síntesis de la proteína. Para la máxima puntuación deberá mencionarse: **unión del ARNm al ribosoma**, **ARNt**, **enlace peptídico** y **polipéptido** (1 p). ((Iniciación: la subunidad menor del ribosoma se une al ARNm y, en el codón de inicio AUG, el ARNt de la metionina; después se une la subunidad mayor. Elongación: entra en el sitio A el ARNt cuyo anticodón es complementario del codón, se forma el enlace peptídico y el ribosoma avanza un codón. Terminación: al llegar a un codón de terminación, un factor de liberación libera la proteína y el ribosoma se separa.))",
       "Dibujo: deberán quedar representadas las **subunidades ribosómicas** sobre una **señal de inicio** en el ARNm y con la **metionina** en su correspondiente **ARNt en el lugar P** (0,5 p)."
      ],
      "n": 1
@@ -74,9 +74,9 @@
      "puntos": 2,
      "q": "Defina la estructura primaria de las proteínas, indique qué tipo de enlace la caracteriza y nombre los grupos químicos que participan en el mismo [0,9]. Explique qué se entiende por desnaturalización de una proteína [0,5] y nombre los orgánulos que están implicados en su síntesis y empaquetamiento [0,6].",
      "c": [
-      "Definición: **secuencia lineal** de aminoácidos unidos en un determinado orden. Enlace: **peptídico**. Grupos: **carboxilo** de un aminoácido y **amino** del otro (0,9 p).",
-      "Desnaturalización: **pérdida de las estructuras secundaria, terciaria y cuaternaria**, que **puede o no ser reversible** (0,5 p).",
-      "Síntesis: **ribosomas** y **retículo endoplasmático**; empaquetamiento: **complejo de Golgi**. 0,2 p cada orgánulo (0,6 p)."
+      "Definición: **secuencia lineal** de aminoácidos unidos en un determinado orden. Enlace: **peptídico**. Grupos: **carboxilo** de un aminoácido y **amino** del otro (0,9 p). ((La secuencia se escribe desde el extremo amino (N-terminal) hasta el carboxilo (C-terminal); el enlace se forma por condensación, con pérdida de agua. La secuencia determina todas las demás estructuras.))",
+      "Desnaturalización: **pérdida de las estructuras secundaria, terciaria y cuaternaria**, que **puede o no ser reversible** (0,5 p). ((La causan el calor, los pH extremos o algunas sustancias, que rompen los enlaces débiles; la proteína pierde su función, pero no se rompen los enlaces peptídicos.))",
+      "Síntesis: **ribosomas** y **retículo endoplasmático**; empaquetamiento: **complejo de Golgi**. 0,2 p cada orgánulo (0,6 p). ((Las proteínas de membrana y de secreción entran en el RER, donde se pliegan y comienzan a glucosilarse, y en el Golgi maduran y se empaquetan en vesículas.))"
      ],
      "n": 1
     },
@@ -87,7 +87,7 @@
      "puntos": 1,
      "q": "¿Conserva su poder nutritivo una proteína desnaturalizada? Razone la respuesta [1].",
      "c": [
-      "**Sí.** El poder nutritivo de las proteínas radica en que son **fuente de aminoácidos**; la desnaturalización **no afecta a la estructura primaria** ni a los aminoácidos y por tanto **no afecta al poder nutritivo** (1 p)."
+      "**Sí.** El poder nutritivo de las proteínas radica en que son **fuente de aminoácidos**; la desnaturalización **no afecta a la estructura primaria** ni a los aminoácidos y por tanto **no afecta al poder nutritivo** (1 p). ((En la digestión, las proteasas hidrolizan los enlaces peptídicos y los aminoácidos se absorben igual; las proteínas desnaturalizadas incluso se digieren con más facilidad.))"
      ],
      "n": 2
     }
@@ -108,9 +108,9 @@
      "c": [
       "a) Un **virus** (0,2 p).",
       "A: **glucoproteína**; B: **envoltura**; C: **cápsida**; D: **ácido nucleico**. 0,1 p cada una (0,4 p).",
-      "**Carecen de organización celular**, **no tienen metabolismo propio**, deben **aprovechar los recursos de la célula hospedadora** para replicarse, etc. Solo dos, 0,2 p cada una (0,4 p).",
-      "b) A: participa en la **fijación del virus a la célula** (0,2 p).",
-      "C: **proteica**, **protege al ácido nucleico** (0,3 p). D: **ARN o ADN**, **lleva la información genética** (0,3 p).",
+      "**Carecen de organización celular**, **no tienen metabolismo propio**, deben **aprovechar los recursos de la célula hospedadora** para replicarse, etc. Solo dos, 0,2 p cada una (0,4 p). ((Además, solo tienen un tipo de ácido nucleico, ADN o ARN.))",
+      "b) A: participa en la **fijación del virus a la célula** (0,2 p). ((Se une a receptores específicos de la membrana de la célula, por eso cada virus infecta ciertos tipos de células.))",
+      "C: **proteica**, **protege al ácido nucleico** (0,3 p). D: **ARN o ADN**, **lleva la información genética** (0,3 p). ((La envoltura es una bicapa lipídica que el virus toma de la membrana de la célula al salir de ella por gemación.))",
       "**Gripe**, **sarampión**, **sida**, etc. (0,2 p)."
      ],
      "figura": "assets/figuras/historico/recopilaciones/mic2007-virus.webp",
@@ -124,8 +124,8 @@
      "puntos": 1,
      "q": "¿Por qué en el tratamiento de enfermedades producidas por microorganismos los médicos recetan en unos casos antibióticos y en otros no? [0,5]. ¿Qué problemas causa el uso indiscriminado de los antibióticos en la lucha contra los microorganismos? [0,5]. Razone las respuestas.",
      "c": [
-      "Porque los antibióticos **eliminan bacterias y no virus**: se recetan cuando la enfermedad es **bacteriana** (0,5 p).",
-      "Pueden **seleccionar bacterias resistentes** a su acción, y los antibióticos dejan de ser eficaces (0,5 p)."
+      "Porque los antibióticos **eliminan bacterias y no virus**: se recetan cuando la enfermedad es **bacteriana** (0,5 p). ((Los antibióticos actúan sobre estructuras propias de las bacterias, como la pared o los ribosomas 70S; los virus no tienen esas estructuras.))",
+      "Pueden **seleccionar bacterias resistentes** a su acción, y los antibióticos dejan de ser eficaces (0,5 p). ((Por mutación o por plásmidos que pasan de unas bacterias a otras, algunas son resistentes; el antibiótico elimina las sensibles y las resistentes se multiplican (selección natural).))"
      ],
      "n": 2
     }

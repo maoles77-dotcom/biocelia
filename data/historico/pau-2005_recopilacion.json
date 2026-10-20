@@ -118,10 +118,10 @@
      "puntos": 2,
      "q": "En relación con la figura adjunta, responda las siguientes cuestiones:<br>a) ¿Cómo se denominan los dos procesos biológicos representados? [0,5]. Identifique los distintos elementos de la figura señalados con números [0,5].<br>b) Identifique los extremos del elemento 2 (a y b) y los extremos del elemento 5 (c y d) [0,5]. ¿Cuál es la composición química de los elementos señalados con los números 3 y 4? [0,5].",
      "c": [
-      "a) **Transcripción** y **traducción** (0,5 p).",
+      "a) **Transcripción** y **traducción** (0,5 p). ((Ocurren a la vez porque es una célula procariota, sin núcleo: el ARNm se traduce mientras se transcribe.))",
       "1: **ADN**; 2: **ARNm**; 3: **subunidad pequeña del ribosoma**; 4: **subunidad grande del ribosoma**; 5: **proteína** (0,5 p).",
-      "b) Extremo **5′ del ARNm** (a); extremo **3′ del ARNm** (b); extremo **N-terminal** (d) y **C-terminal** (c) de la proteína (0,5 p).",
-      "Composición de 3 y 4: **ARNr y proteínas** (0,5 p)."
+      "b) Extremo **5′ del ARNm** (a); extremo **3′ del ARNm** (b); extremo **N-terminal** (d) y **C-terminal** (c) de la proteína (0,5 p). ((El ARNm se sintetiza en sentido 5′→3′ y el ribosoma lo lee en el mismo sentido; la proteína crece desde el extremo amino (N-terminal) hasta el carboxilo (C-terminal).))",
+      "Composición de 3 y 4: **ARNr y proteínas** (0,5 p). ((Los ribosomas bacterianos son 70S, con subunidades de 50S y 30S.))"
      ],
      "figura": "assets/figuras/historico/recopilaciones/gm2005-procesos.webp",
      "figuraDesc": "Una ARN polimerasa recorre el ADN (1) y libera un ARNm (2), sobre el que varios ribosomas, con su subunidad pequeña (3) y grande (4), sintetizan proteínas (5); se señalan los extremos a y b del ARNm y c y d de la proteína.",

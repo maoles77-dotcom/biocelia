@@ -33,10 +33,10 @@
      "puntos": 2,
      "q": "Exponga el concepto de mutación [0,6] y diferencie entre mutación espontánea e inducida [0,4]. ¿Qué efectos puede tener una mutación? [0,3]. ¿Por qué las mutaciones son importantes desde el punto de vista evolutivo? [0,7].",
      "c": [
-      "Mutación: **cambios en el material genético** (0,6 p).",
-      "**Espontánea**: **sin causa aparente**; **inducida**: causada por **agentes mutagénicos** (0,4 p).",
-      "Efectos: **inocuos**, **beneficiosos** y **perjudiciales** (0,3 p).",
-      "Importancia evolutiva: **origen de nuevas variantes genéticas** (**variabilidad genética**) (0,7 p)."
+      "Mutación: **cambios en el material genético** (0,6 p). ((Puede afectar a un gen, a la estructura de un cromosoma o al número de cromosomas; solo se hereda si afecta a las células germinales.))",
+      "**Espontánea**: **sin causa aparente**; **inducida**: causada por **agentes mutagénicos** (0,4 p). ((Las espontáneas se deben, por ejemplo, a errores de replicación y ocurren con muy baja frecuencia; los mutágenos, como los rayos UV, los rayos X o algunas sustancias químicas, aumentan esa frecuencia.))",
+      "Efectos: **inocuos**, **beneficiosos** y **perjudiciales** (0,3 p). ((La mayoría son neutras o perjudiciales, y causan enfermedades como la anemia falciforme o el cáncer.))",
+      "Importancia evolutiva: **origen de nuevas variantes genéticas** (**variabilidad genética**) (0,7 p). ((Son la única fuente de alelos nuevos; la recombinación solo combina los que ya existen. La selección natural aumenta la frecuencia de las variantes más favorables.))"
      ],
      "n": 2
     },

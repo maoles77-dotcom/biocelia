@@ -105,7 +105,7 @@
      "puntos": 1,
      "q": "Los seres vivos aparecieron sobre la Tierra hace, aproximadamente, 3.500 millones de años. ¿Por qué los cadáveres de casi todos los seres vivos han desaparecido? Dé una explicación a este hecho y justifique la necesidad de que ocurra [1].",
      "c": [
-      "Debe aludir a la **acción descomponedora de los microorganismos** y al **reciclaje de la materia** para que pueda ser **reutilizada por los organismos autótrofos** (1 p)."
+      "Debe aludir a la **acción descomponedora de los microorganismos** y al **reciclaje de la materia** para que pueda ser **reutilizada por los organismos autótrofos** (1 p). ((Bacterias y hongos descomponen la materia orgánica de los restos y la transforman en materia inorgánica (CO₂, agua, sales minerales como nitratos y fosfatos), que las plantas vuelven a usar. Sin descomponedores, los elementos quedarían atrapados en los cadáveres y se agotarían.))"
      ],
      "n": 2
     },
@@ -116,7 +116,7 @@
      "puntos": 1,
      "q": "Indique dos razones que expliquen el hecho de que los virus sean parásitos obligados.",
      "c": [
-      "Porque **carecen de las enzimas** necesarias para fabricar sus componentes (ácido nucleico, cápsida) y **no tienen ribosomas**, por lo que deben utilizar los de las células parasitadas, etc. Solo dos, 0,5 p cada una (1 p)."
+      "Porque **carecen de las enzimas** necesarias para fabricar sus componentes (ácido nucleico, cápsida) y **no tienen ribosomas**, por lo que deben utilizar los de las células parasitadas, etc. Solo dos, 0,5 p cada una (1 p). ((Tampoco producen ATP: sin metabolismo propio, fuera de la célula son partículas inertes.))"
      ],
      "n": 3
     }

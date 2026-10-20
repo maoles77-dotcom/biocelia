@@ -20,9 +20,9 @@
      "puntos": 1.5,
      "q": "Explique en qué consiste el proyecto Genoma Humano [0,7]. Describa dos ventajas y dos inconvenientes de su utilización [0,8].",
      "c": [
-      "**Localización y secuenciación de genes humanos** (0,7 p).",
-      "Ventajas: **curaciones**, **farmacología moderna**, etc. 0,2 p cada una (0,4 p).",
-      "Inconvenientes: clonaciones incontroladas, **utilización lucrativa** de estos conocimientos, efectos secundarios desconocidos, **discriminación social**, etc. 0,2 p cada uno (0,4 p)."
+      "**Localización y secuenciación de genes humanos** (0,7 p). ((Se completó a comienzos de este siglo: permitió conocer la secuencia de bases del ADN humano y localizar los genes en los cromosomas.))",
+      "Ventajas: **curaciones**, **farmacología moderna**, etc. 0,2 p cada una (0,4 p). ((Por ejemplo, el diagnóstico precoz de enfermedades genéticas, la terapia génica o fármacos adaptados a cada persona.))",
+      "Inconvenientes: clonaciones incontroladas, **utilización lucrativa** de estos conocimientos, efectos secundarios desconocidos, **discriminación social**, etc. 0,2 p cada uno (0,4 p). ((Por ejemplo, que una aseguradora o una empresa discrimine a alguien por sus genes; por eso la información genética está protegida.))"
      ],
      "n": 1
     },
@@ -47,8 +47,8 @@
      "puntos": 1.5,
      "q": "Explique el fundamento de la mejora genética clásica mediante selección artificial [0,75] y exponga tres diferencias con la mejora mediante ingeniería genética [0,75].",
      "c": [
-      "Selección artificial: **seleccionar los mejores fenotipos como reproductores** en **generaciones sucesivas** (0,75 p).",
-      "Diferencias, por ejemplo: se utilizan las **técnicas de ADN recombinante**, **no se requieren muchas generaciones**, se pueden utilizar **genes de otra especie**, etc. (0,75 p)."
+      "Selección artificial: **seleccionar los mejores fenotipos como reproductores** en **generaciones sucesivas** (0,75 p). ((Se escogen como reproductores los individuos con los caracteres deseados (más leche, más grano) y se repite durante muchas generaciones; solo se puede trabajar con la variabilidad que ya existe en la especie.))",
+      "Diferencias, por ejemplo: se utilizan las **técnicas de ADN recombinante**, **no se requieren muchas generaciones**, se pueden utilizar **genes de otra especie**, etc. (0,75 p). ((La ingeniería genética introduce directamente un gen concreto, que puede proceder de otra especie (organismos transgénicos), y el resultado se obtiene en una generación.))"
      ],
      "n": 3
     },
@@ -148,11 +148,11 @@
      "q": "El siguiente esquema representa la estructura de una molécula biológica:<br>a) Indique de qué molécula se trata [0,1] e identifique los elementos señalados con las letras A, B y C [0,6]. ¿Qué representan las líneas de puntos? [0,1]. ¿Qué indican los números 5′ y 3′? [0,2].<br>b) Cite dos procesos fundamentales para la vida relacionados con esta molécula [0,2] y explique el significado biológico de cada uno [0,8].",
      "c": [
       "a) Molécula de **ADN** (0,1 p).",
-      "A: **grupo fosfato**; B: **desoxirribosa**; C: **base nitrogenada**. 0,2 p cada uno (0,6 p).",
-      "Líneas de puntos: **puentes de hidrógeno** (0,1 p).",
-      "5′ y 3′: los **extremos** o la **dirección** de una cadena sencilla de ADN (0,2 p).",
+      "A: **grupo fosfato**; B: **desoxirribosa**; C: **base nitrogenada**. 0,2 p cada uno (0,6 p). ((Cada nucleótido está formado por un fosfato, una desoxirribosa y una base nitrogenada.))",
+      "Líneas de puntos: **puentes de hidrógeno** (0,1 p). ((Unen las bases complementarias: A-T por dos puentes de hidrógeno y G-C por tres.))",
+      "5′ y 3′: los **extremos** o la **dirección** de una cadena sencilla de ADN (0,2 p). ((El extremo 5′ tiene el fosfato libre y el 3′, el –OH libre; las dos cadenas son antiparalelas.))",
       "b) **Replicación** y **transcripción** (0,2 p).",
-      "Replicación: garantizar la **conservación y transmisión del material genético** (0,4 p). Transcripción: permitir la **expresión de la información genética** (0,4 p)."
+      "Replicación: garantizar la **conservación y transmisión del material genético** (0,4 p). Transcripción: permitir la **expresión de la información genética** (0,4 p). ((La replicación ocurre en la fase S, antes de cada división, y es semiconservativa; en la transcripción se copia un gen a ARN, que después se traduce a proteína.))"
      ],
      "figura": "assets/figuras/historico/recopilaciones/gm2002-adn.webp",
      "figuraDesc": "Esquema de un fragmento de ADN de doble cadena con extremos 3′ y 5′ opuestos; se señalan un grupo fosfato (A), una desoxirribosa (B) y una base nitrogenada (C), con las bases emparejadas mediante líneas de puntos.",
@@ -165,9 +165,9 @@
      "puntos": 1.5,
      "q": "Explique en qué consisten los procesos de recombinación genética [0,5] y segregación cromosómica [0,5]. ¿Cuál es la importancia de ambos procesos para la evolución? [0,5].",
      "c": [
-      "Recombinación genética: **intercambio de segmentos cromosómicos** (0,5 p).",
-      "Segregación cromosómica: **combinación al azar de cromosomas** (0,5 p).",
-      "Importancia evolutiva (ideas que debe contener la respuesta correcta: 1) **fuente de variabilidad** junto con la mutación y 2) **necesidad de la variabilidad** para el proceso de **selección natural**). 0,25 p cada una (0,5 p)."
+      "Recombinación genética: **intercambio de segmentos cromosómicos** (0,5 p). ((Ocurre por sobrecruzamiento en la profase I de la meiosis, entre cromátidas no hermanas de los homólogos.))",
+      "Segregación cromosómica: **combinación al azar de cromosomas** (0,5 p). ((En la anafase I, cada par de homólogos se reparte al azar entre los dos polos, de forma independiente de los demás pares.))",
+      "Importancia evolutiva (ideas que debe contener la respuesta correcta: 1) **fuente de variabilidad** junto con la mutación y 2) **necesidad de la variabilidad** para el proceso de **selección natural**). 0,25 p cada una (0,5 p). ((Las dos hacen que cada gameto sea genéticamente distinto; los individuos con las combinaciones más favorables dejan más descendencia.))"
      ],
      "n": 12
     }
@@ -186,8 +186,8 @@
      "puntos": 1.5,
      "q": "Analice la estructura secundaria [0,75] y terciaria [0,75] de las proteínas haciendo especial hincapié en las fuerzas que las mantienen.",
      "c": [
-      "Estructura **secundaria**: **hélice α** y **hoja plegada**, mantenidas por enlaces peptídicos y **enlaces de hidrógeno** (0,75 p).",
-      "Estructura **terciaria**: **proteínas fibrosas y globulares**, mantenidas por enlaces peptídicos, **puentes de hidrógeno**, **fuerzas de Van der Waals**, **fuerzas electrostáticas** y **puentes disulfuro** (0,75 p)."
+      "Estructura **secundaria**: **hélice α** y **hoja plegada**, mantenidas por enlaces peptídicos y **enlaces de hidrógeno** (0,75 p). ((Los puentes de hidrógeno se forman entre los grupos C=O y N–H de los enlaces peptídicos: en la α-hélice, dentro de la misma cadena; en la lámina β, entre tramos vecinos.))",
+      "Estructura **terciaria**: **proteínas fibrosas y globulares**, mantenidas por enlaces peptídicos, **puentes de hidrógeno**, **fuerzas de Van der Waals**, **fuerzas electrostáticas** y **puentes disulfuro** (0,75 p). ((La terciaria es el plegamiento de toda la cadena en el espacio; los enlaces se establecen entre los radicales de los aminoácidos, y los puentes disulfuro, entre cisteínas, son covalentes. De ella depende la función, por ejemplo el centro activo de las enzimas.))"
      ],
      "n": 1
     },

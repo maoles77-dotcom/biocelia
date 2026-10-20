@@ -457,9 +457,9 @@
     "tipo": "respuesta breve",
     "pregunta": "Explique en qué consiste el proyecto Genoma Humano [0,7]. Describa dos ventajas y dos inconvenientes de su utilización [0,8].",
     "respuesta": [
-      "Localización y secuenciación de genes humanos (0,7 p).",
-      "Ventajas: curaciones, farmacología moderna, etc. 0,2 p cada una (0,4 p).",
-      "Inconvenientes: clonaciones incontroladas, utilización lucrativa de estos conocimientos, efectos secundarios desconocidos, discriminación social, etc. 0,2 p cada uno (0,4 p)."
+      "Localización y secuenciación de genes humanos (0,7 p). Se completó a comienzos de este siglo: permitió conocer la secuencia de bases del ADN humano y localizar los genes en los cromosomas.",
+      "Ventajas: curaciones, farmacología moderna, etc. 0,2 p cada una (0,4 p). Por ejemplo, el diagnóstico precoz de enfermedades genéticas, la terapia génica o fármacos adaptados a cada persona.",
+      "Inconvenientes: clonaciones incontroladas, utilización lucrativa de estos conocimientos, efectos secundarios desconocidos, discriminación social, etc. 0,2 p cada uno (0,4 p). Por ejemplo, que una aseguradora o una empresa discrimine a alguien por sus genes; por eso la información genética está protegida."
     ],
     "palabras_clave": [
       "Localización y secuenciación de genes humanos",
@@ -504,8 +504,8 @@
     "tipo": "respuesta breve",
     "pregunta": "Explique el fundamento de la mejora genética clásica mediante selección artificial [0,75] y exponga tres diferencias con la mejora mediante ingeniería genética [0,75].",
     "respuesta": [
-      "Selección artificial: seleccionar los mejores fenotipos como reproductores en generaciones sucesivas (0,75 p).",
-      "Diferencias, por ejemplo: se utilizan las técnicas de ADN recombinante, no se requieren muchas generaciones, se pueden utilizar genes de otra especie, etc. (0,75 p)."
+      "Selección artificial: seleccionar los mejores fenotipos como reproductores en generaciones sucesivas (0,75 p). Se escogen como reproductores los individuos con los caracteres deseados (más leche, más grano) y se repite durante muchas generaciones; solo se puede trabajar con la variabilidad que ya existe en la especie.",
+      "Diferencias, por ejemplo: se utilizan las técnicas de ADN recombinante, no se requieren muchas generaciones, se pueden utilizar genes de otra especie, etc. (0,75 p). La ingeniería genética introduce directamente un gen concreto, que puede proceder de otra especie (organismos transgénicos), y el resultado se obtiene en una generación."
     ],
     "palabras_clave": [
       "generaciones sucesivas",
@@ -674,11 +674,11 @@
     "pregunta": "El siguiente esquema representa la estructura de una molécula biológica: a) Indique de qué molécula se trata [0,1] e identifique los elementos señalados con las letras A, B y C [0,6]. ¿Qué representan las líneas de puntos? [0,1]. ¿Qué indican los números 5′ y 3′? [0,2]. b) Cite dos procesos fundamentales para la vida relacionados con esta molécula [0,2] y explique el significado biológico de cada uno [0,8].",
     "respuesta": [
       "a) Molécula de ADN (0,1 p).",
-      "A: grupo fosfato; B: desoxirribosa; C: base nitrogenada. 0,2 p cada uno (0,6 p).",
-      "Líneas de puntos: puentes de hidrógeno (0,1 p).",
-      "5′ y 3′: los extremos o la dirección de una cadena sencilla de ADN (0,2 p).",
+      "A: grupo fosfato; B: desoxirribosa; C: base nitrogenada. 0,2 p cada uno (0,6 p). Cada nucleótido está formado por un fosfato, una desoxirribosa y una base nitrogenada.",
+      "Líneas de puntos: puentes de hidrógeno (0,1 p). Unen las bases complementarias: A-T por dos puentes de hidrógeno y G-C por tres.",
+      "5′ y 3′: los extremos o la dirección de una cadena sencilla de ADN (0,2 p). El extremo 5′ tiene el fosfato libre y el 3′, el –OH libre; las dos cadenas son antiparalelas.",
       "b) Replicación y transcripción (0,2 p).",
-      "Replicación: garantizar la conservación y transmisión del material genético (0,4 p). Transcripción: permitir la expresión de la información genética (0,4 p)."
+      "Replicación: garantizar la conservación y transmisión del material genético (0,4 p). Transcripción: permitir la expresión de la información genética (0,4 p). La replicación ocurre en la fase S, antes de cada división, y es semiconservativa; en la transcripción se copia un gen a ARN, que después se traduce a proteína."
     ],
     "palabras_clave": [
       "ADN",
@@ -706,9 +706,9 @@
     "tipo": "respuesta breve",
     "pregunta": "Explique en qué consisten los procesos de recombinación genética [0,5] y segregación cromosómica [0,5]. ¿Cuál es la importancia de ambos procesos para la evolución? [0,5].",
     "respuesta": [
-      "Recombinación genética: intercambio de segmentos cromosómicos (0,5 p).",
-      "Segregación cromosómica: combinación al azar de cromosomas (0,5 p).",
-      "Importancia evolutiva (ideas que debe contener la respuesta correcta: 1) fuente de variabilidad junto con la mutación y 2) necesidad de la variabilidad para el proceso de selección natural). 0,25 p cada una (0,5 p)."
+      "Recombinación genética: intercambio de segmentos cromosómicos (0,5 p). Ocurre por sobrecruzamiento en la profase I de la meiosis, entre cromátidas no hermanas de los homólogos.",
+      "Segregación cromosómica: combinación al azar de cromosomas (0,5 p). En la anafase I, cada par de homólogos se reparte al azar entre los dos polos, de forma independiente de los demás pares.",
+      "Importancia evolutiva (ideas que debe contener la respuesta correcta: 1) fuente de variabilidad junto con la mutación y 2) necesidad de la variabilidad para el proceso de selección natural). 0,25 p cada una (0,5 p). Las dos hacen que cada gameto sea genéticamente distinto; los individuos con las combinaciones más favorables dejan más descendencia."
     ],
     "palabras_clave": [
       "combinación al azar de cromosomas",
@@ -729,8 +729,8 @@
     "tipo": "respuesta breve",
     "pregunta": "Analice la estructura secundaria [0,75] y terciaria [0,75] de las proteínas haciendo especial hincapié en las fuerzas que las mantienen.",
     "respuesta": [
-      "Estructura secundaria: hélice α y hoja plegada, mantenidas por enlaces peptídicos y enlaces de hidrógeno (0,75 p).",
-      "Estructura terciaria: proteínas fibrosas y globulares, mantenidas por enlaces peptídicos, puentes de hidrógeno, fuerzas de Van der Waals, fuerzas electrostáticas y puentes disulfuro (0,75 p)."
+      "Estructura secundaria: hélice α y hoja plegada, mantenidas por enlaces peptídicos y enlaces de hidrógeno (0,75 p). Los puentes de hidrógeno se forman entre los grupos C=O y N–H de los enlaces peptídicos: en la α-hélice, dentro de la misma cadena; en la lámina β, entre tramos vecinos.",
+      "Estructura terciaria: proteínas fibrosas y globulares, mantenidas por enlaces peptídicos, puentes de hidrógeno, fuerzas de Van der Waals, fuerzas electrostáticas y puentes disulfuro (0,75 p). La terciaria es el plegamiento de toda la cadena en el espacio; los enlaces se establecen entre los radicales de los aminoácidos, y los puentes disulfuro, entre cisteínas, son covalentes. De ella depende la función, por ejemplo el centro activo de las enzimas."
     ],
     "palabras_clave": [
       "enlaces de hidrógeno",
@@ -834,10 +834,10 @@
     "tipo": "respuesta breve",
     "pregunta": "Se presenta un fragmento de ADN; la flecha indica el sentido de lectura. Además se muestra el código genético. Conteste las siguientes cuestiones: a) Indique la secuencia de bases del ARN mensajero transcrito [0,5] y la secuencia de aminoácidos de la proteína sintetizada [0,5]. b) ¿Cómo se llaman los procesos implicados en el apartado anterior? [0,5]. Si se conociese la secuencia de aminoácidos de una proteína, ¿se podría averiguar la secuencia de bases del ADN que la codifica? [0,5]. Razone la respuesta.",
     "respuesta": [
-      "a) ARNm: AUGCCCUCUAGUGGAGUAAUCCACUGGUAA (0,5 p).",
-      "Proteína: Met-Pro-Ser-Ser-Gly-Val-Ile-His-Trp (stop) (0,5 p).",
-      "b) Transcripción y traducción (0,5 p).",
-      "No se podría conocer la secuencia exacta (por ejemplo: código degenerado, eliminación de intrones; una sola razón basta para la máxima nota) (0,5 p)."
+      "a) ARNm: AUGCCCUCUAGUGGAGUAAUCCACUGGUAA (0,5 p). El ARNm es complementario de la cadena molde del ADN, con U en lugar de T.",
+      "Proteína: Met-Pro-Ser-Ser-Gly-Val-Ile-His-Trp (stop) (0,5 p). Se lee de tres en tres desde el codón de inicio AUG (metionina) hasta un codón de terminación (UAA), que no codifica ningún aminoácido.",
+      "b) Transcripción y traducción (0,5 p). La transcripción ocurre en el núcleo y la traducción en los ribosomas.",
+      "No se podría conocer la secuencia exacta (por ejemplo: código degenerado, eliminación de intrones; una sola razón basta para la máxima nota) (0,5 p). Un aminoácido puede tener varios codones, así que no se sabe cuál de ellos tenía el gen; además, en eucariotas los genes tienen intrones, que no se traducen."
     ],
     "palabras_clave": [
       "AUGCCCUCUAGUGGAGUAAUCCACUGGUAA",
@@ -923,9 +923,9 @@
     "tipo": "respuesta breve",
     "pregunta": "Indique qué es la replicación [0,25]. Describa este proceso [1]. ¿Qué significa que la replicación es semiconservativa? [0,25].",
     "respuesta": [
-      "Replicación: proceso de síntesis del ADN (0,25 p).",
-      "Descripción del proceso (deberá incluir: horquillas de replicación, replicación bidireccional, replicación continua de una hebra y discontinua de la otra, papel fundamental de las enzimas) (1 p).",
-      "Semiconservativa: la molécula de ADN resultante posee una cadena vieja y otra de nueva síntesis (0,25 p)."
+      "Replicación: proceso de síntesis del ADN (0,25 p). Se produce en la fase S de la interfase, antes de la división celular.",
+      "Descripción del proceso (deberá incluir: horquillas de replicación, replicación bidireccional, replicación continua de una hebra y discontinua de la otra, papel fundamental de las enzimas) (1 p). La helicasa separa las cadenas en el origen y se forman dos horquillas que avanzan en sentidos opuestos. La primasa sintetiza un cebador de ARN; la ADN polimerasa añade nucleótidos solo en sentido 5′→3′, así que una hebra se sintetiza de forma continua y la otra en fragmentos de Okazaki, que une la ligasa.",
+      "Semiconservativa: la molécula de ADN resultante posee una cadena vieja y otra de nueva síntesis (0,25 p). Lo demostraron Meselson y Stahl con nitrógeno pesado (¹⁵N)."
     ],
     "palabras_clave": [
       "bidireccional",
@@ -1122,7 +1122,7 @@
     "tipo": "respuesta breve",
     "pregunta": "Durante la fotosíntesis se producen muchas reacciones enzimáticas. Al aumentar la temperatura se incrementa la intensidad fotosintética; sin embargo, las temperaturas altas pueden disminuir el rendimiento de la fotosíntesis. Dé una explicación razonada a estos hechos [1].",
     "respuesta": [
-      "Como proceso metabólico, la intensidad fotosintética aumenta con la temperatura hasta un máximo, y con las temperaturas altas se desnaturalizan las enzimas (1 p)."
+      "Como proceso metabólico, la intensidad fotosintética aumenta con la temperatura hasta un máximo, y con las temperaturas altas se desnaturalizan las enzimas (1 p). Al subir la temperatura, las moléculas se mueven más deprisa y chocan más, hasta la temperatura óptima; por encima, el calor rompe los enlaces débiles que mantienen la forma de enzimas como la RuBisCO y la actividad cae."
     ],
     "palabras_clave": [
       "intensidad fotosintética aumenta con la temperatura hasta un máximo",
@@ -1188,10 +1188,10 @@
     "tipo": "respuesta breve",
     "pregunta": "Exponga el concepto de mutación [0,6] y diferencie entre mutación espontánea e inducida [0,4]. ¿Qué efectos puede tener una mutación? [0,3]. ¿Por qué las mutaciones son importantes desde el punto de vista evolutivo? [0,7].",
     "respuesta": [
-      "Mutación: cambios en el material genético (0,6 p).",
-      "Espontánea: sin causa aparente; inducida: causada por agentes mutagénicos (0,4 p).",
-      "Efectos: inocuos, beneficiosos y perjudiciales (0,3 p).",
-      "Importancia evolutiva: origen de nuevas variantes genéticas (variabilidad genética) (0,7 p)."
+      "Mutación: cambios en el material genético (0,6 p). Puede afectar a un gen, a la estructura de un cromosoma o al número de cromosomas; solo se hereda si afecta a las células germinales.",
+      "Espontánea: sin causa aparente; inducida: causada por agentes mutagénicos (0,4 p). Las espontáneas se deben, por ejemplo, a errores de replicación y ocurren con muy baja frecuencia; los mutágenos, como los rayos UV, los rayos X o algunas sustancias químicas, aumentan esa frecuencia.",
+      "Efectos: inocuos, beneficiosos y perjudiciales (0,3 p). La mayoría son neutras o perjudiciales, y causan enfermedades como la anemia falciforme o el cáncer.",
+      "Importancia evolutiva: origen de nuevas variantes genéticas (variabilidad genética) (0,7 p). Son la única fuente de alelos nuevos; la recombinación solo combina los que ya existen. La selección natural aumenta la frecuencia de las variantes más favorables."
     ],
     "palabras_clave": [
       "Espontánea",
@@ -1533,10 +1533,10 @@
     "tipo": "respuesta breve",
     "pregunta": "En relación con la figura adjunta, responda las siguientes cuestiones: a) ¿Cómo se denominan los dos procesos biológicos representados? [0,5]. Identifique los distintos elementos de la figura señalados con números [0,5]. b) Identifique los extremos del elemento 2 (a y b) y los extremos del elemento 5 (c y d) [0,5]. ¿Cuál es la composición química de los elementos señalados con los números 3 y 4? [0,5].",
     "respuesta": [
-      "a) Transcripción y traducción (0,5 p).",
+      "a) Transcripción y traducción (0,5 p). Ocurren a la vez porque es una célula procariota, sin núcleo: el ARNm se traduce mientras se transcribe.",
       "1: ADN; 2: ARNm; 3: subunidad pequeña del ribosoma; 4: subunidad grande del ribosoma; 5: proteína (0,5 p).",
-      "b) Extremo 5′ del ARNm (a); extremo 3′ del ARNm (b); extremo N-terminal (d) y C-terminal (c) de la proteína (0,5 p).",
-      "Composición de 3 y 4: ARNr y proteínas (0,5 p)."
+      "b) Extremo 5′ del ARNm (a); extremo 3′ del ARNm (b); extremo N-terminal (d) y C-terminal (c) de la proteína (0,5 p). El ARNm se sintetiza en sentido 5′→3′ y el ribosoma lo lee en el mismo sentido; la proteína crece desde el extremo amino (N-terminal) hasta el carboxilo (C-terminal).",
+      "Composición de 3 y 4: ARNr y proteínas (0,5 p). Los ribosomas bacterianos son 70S, con subunidades de 50S y 30S."
     ],
     "palabras_clave": [
       "3′ del ARNm",
@@ -1728,7 +1728,7 @@
     "tipo": "respuesta breve",
     "pregunta": "En relación con la figura adjunta, responda las siguientes cuestiones: a) Nombre el tipo de molécula de que se trata [0,25]. ¿Cómo se denominan sus monómeros [0,2] y cuál es su composición? [0,3]. Considerando la molécula en sentido longitudinal, las notaciones 3′ y 5′ se sitúan en posiciones opuestas. Explique el significado de este hecho [0,25]. b) ¿Cómo se denomina el proceso por el cual esta molécula se duplica? [0,2]. Explíquelo brevemente [0,8].",
     "respuesta": [
-      "a) ADN (0,25 p). Monómeros: nucleótidos (0,2 p). Composición: ácido fosfórico, pentosa (desoxirribosa) y base nitrogenada (0,3 p).",
+      "a) ADN (0,25 p). Monómeros: nucleótidos (0,2 p). Composición: ácido fosfórico, pentosa (desoxirribosa) y base nitrogenada (0,3 p). Es lo que hace el VIH: el ADN integrado (provirus) se transcribe con la maquinaria de la célula y se fabrican nuevos virus.",
       "Las notaciones opuestas se deben a que las cadenas son antiparalelas (0,25 p).",
       "b) Replicación (0,2 p).",
       "Para la máxima puntuación deben mencionarse: ADN, origen de replicación, cadenas adelantada y retrasada, cebador, fragmento de Okazaki, ADN polimerasa y ligasa (0,8 p)."
@@ -1981,8 +1981,8 @@
     "tipo": "respuesta breve",
     "pregunta": "Suponga que existe un antibiótico, llamado «ribosomicina», que inhibe la síntesis de proteínas porque impide la actividad de los ribosomas 70S. Dado que las bacterias tienen este tipo de ribosomas, ¿se podría utilizar la ribosomicina para combatir infecciones bacterianas en los seres humanos? [0,5]. ¿Sería recomendable este antibiótico en el caso de una infección vírica? [0,5]. Razone las respuestas.",
     "respuesta": [
-      "No es aconsejable, ya que los ribosomas 70S también están en las mitocondrias y se paralizarían las funciones mitocondriales (0,5 p).",
-      "No, porque los virus carecen de ribosomas y no tendría ninguna utilidad frente a ellos (0,5 p)."
+      "No es aconsejable, ya que los ribosomas 70S también están en las mitocondrias y se paralizarían las funciones mitocondriales (0,5 p). Según la teoría endosimbiótica, las mitocondrias proceden de bacterias, por eso sus ribosomas también son 70S; los ribosomas del citoplasma humano son 80S.",
+      "No, porque los virus carecen de ribosomas y no tendría ninguna utilidad frente a ellos (0,5 p). Los virus usan los ribosomas de la célula que infectan, y los antibióticos solo actúan sobre estructuras propias de las bacterias."
     ],
     "palabras_clave": [
       "No",
@@ -2187,8 +2187,8 @@
     "tipo": "respuesta breve",
     "pregunta": "Explique cuál es la finalidad de la replicación y de la transcripción [0,5]. Explique la traducción [1]. Dibuje el inicio de la traducción [0,5].",
     "respuesta": [
-      "Replicación: duplicación del material genético; transcripción: síntesis de los diferentes ARN. 0,25 p cada una (0,5 p).",
-      "Traducción: se indicará cómo se inicia, cómo se elonga y cómo termina la síntesis de la proteína. Para la máxima puntuación deberá mencionarse: unión del ARNm al ribosoma, ARNt, enlace peptídico y polipéptido (1 p).",
+      "Replicación: duplicación del material genético; transcripción: síntesis de los diferentes ARN. 0,25 p cada una (0,5 p). La replicación ocurre en la fase S, antes de cada división, para que cada célula hija reciba una copia del ADN; en la transcripción se copia un gen a ARN.",
+      "Traducción: se indicará cómo se inicia, cómo se elonga y cómo termina la síntesis de la proteína. Para la máxima puntuación deberá mencionarse: unión del ARNm al ribosoma, ARNt, enlace peptídico y polipéptido (1 p). Iniciación: la subunidad menor del ribosoma se une al ARNm y, en el codón de inicio AUG, el ARNt de la metionina; después se une la subunidad mayor. Elongación: entra en el sitio A el ARNt cuyo anticodón es complementario del codón, se forma el enlace peptídico y el ribosoma avanza un codón. Terminación: al llegar a un codón de terminación, un factor de liberación libera la proteína y el ribosoma se separa.",
       "Dibujo: deberán quedar representadas las subunidades ribosómicas sobre una señal de inicio en el ARNm y con la metionina en su correspondiente ARNt en el lugar P (0,5 p)."
     ],
     "palabras_clave": [
@@ -2280,9 +2280,9 @@
     "tipo": "respuesta breve",
     "pregunta": "Defina la estructura primaria de las proteínas, indique qué tipo de enlace la caracteriza y nombre los grupos químicos que participan en el mismo [0,9]. Explique qué se entiende por desnaturalización de una proteína [0,5] y nombre los orgánulos que están implicados en su síntesis y empaquetamiento [0,6].",
     "respuesta": [
-      "Definición: secuencia lineal de aminoácidos unidos en un determinado orden. Enlace: peptídico. Grupos: carboxilo de un aminoácido y amino del otro (0,9 p).",
-      "Desnaturalización: pérdida de las estructuras secundaria, terciaria y cuaternaria, que puede o no ser reversible (0,5 p).",
-      "Síntesis: ribosomas y retículo endoplasmático; empaquetamiento: complejo de Golgi. 0,2 p cada orgánulo (0,6 p)."
+      "Definición: secuencia lineal de aminoácidos unidos en un determinado orden. Enlace: peptídico. Grupos: carboxilo de un aminoácido y amino del otro (0,9 p). La secuencia se escribe desde el extremo amino (N-terminal) hasta el carboxilo (C-terminal); el enlace se forma por condensación, con pérdida de agua. La secuencia determina todas las demás estructuras.",
+      "Desnaturalización: pérdida de las estructuras secundaria, terciaria y cuaternaria, que puede o no ser reversible (0,5 p). La causan el calor, los pH extremos o algunas sustancias, que rompen los enlaces débiles; la proteína pierde su función, pero no se rompen los enlaces peptídicos.",
+      "Síntesis: ribosomas y retículo endoplasmático; empaquetamiento: complejo de Golgi. 0,2 p cada orgánulo (0,6 p). Las proteínas de membrana y de secreción entran en el RER, donde se pliegan y comienzan a glucosilarse, y en el Golgi maduran y se empaquetan en vesículas."
     ],
     "palabras_clave": [
       "amino",
@@ -2307,7 +2307,7 @@
     "tipo": "respuesta breve",
     "pregunta": "¿Conserva su poder nutritivo una proteína desnaturalizada? Razone la respuesta [1].",
     "respuesta": [
-      "Sí. El poder nutritivo de las proteínas radica en que son fuente de aminoácidos; la desnaturalización no afecta a la estructura primaria ni a los aminoácidos y por tanto no afecta al poder nutritivo (1 p)."
+      "Sí. El poder nutritivo de las proteínas radica en que son fuente de aminoácidos; la desnaturalización no afecta a la estructura primaria ni a los aminoácidos y por tanto no afecta al poder nutritivo (1 p). En la digestión, las proteasas hidrolizan los enlaces peptídicos y los aminoácidos se absorben igual; las proteínas desnaturalizadas incluso se digieren con más facilidad."
     ],
     "palabras_clave": [
       "Sí.",
@@ -2329,9 +2329,9 @@
     "respuesta": [
       "a) Un virus (0,2 p).",
       "A: glucoproteína; B: envoltura; C: cápsida; D: ácido nucleico. 0,1 p cada una (0,4 p).",
-      "Carecen de organización celular, no tienen metabolismo propio, deben aprovechar los recursos de la célula hospedadora para replicarse, etc. Solo dos, 0,2 p cada una (0,4 p).",
-      "b) A: participa en la fijación del virus a la célula (0,2 p).",
-      "C: proteica, protege al ácido nucleico (0,3 p). D: ARN o ADN, lleva la información genética (0,3 p).",
+      "Carecen de organización celular, no tienen metabolismo propio, deben aprovechar los recursos de la célula hospedadora para replicarse, etc. Solo dos, 0,2 p cada una (0,4 p). Además, solo tienen un tipo de ácido nucleico, ADN o ARN.",
+      "b) A: participa en la fijación del virus a la célula (0,2 p). Se une a receptores específicos de la membrana de la célula, por eso cada virus infecta ciertos tipos de células.",
+      "C: proteica, protege al ácido nucleico (0,3 p). D: ARN o ADN, lleva la información genética (0,3 p). La envoltura es una bicapa lipídica que el virus toma de la membrana de la célula al salir de ella por gemación.",
       "Gripe, sarampión, sida, etc. (0,2 p)."
     ],
     "palabras_clave": [
@@ -2365,8 +2365,8 @@
     "tipo": "respuesta breve",
     "pregunta": "¿Por qué en el tratamiento de enfermedades producidas por microorganismos los médicos recetan en unos casos antibióticos y en otros no? [0,5]. ¿Qué problemas causa el uso indiscriminado de los antibióticos en la lucha contra los microorganismos? [0,5]. Razone las respuestas.",
     "respuesta": [
-      "Porque los antibióticos eliminan bacterias y no virus: se recetan cuando la enfermedad es bacteriana (0,5 p).",
-      "Pueden seleccionar bacterias resistentes a su acción, y los antibióticos dejan de ser eficaces (0,5 p)."
+      "Porque los antibióticos eliminan bacterias y no virus: se recetan cuando la enfermedad es bacteriana (0,5 p). Los antibióticos actúan sobre estructuras propias de las bacterias, como la pared o los ribosomas 70S; los virus no tienen esas estructuras.",
+      "Pueden seleccionar bacterias resistentes a su acción, y los antibióticos dejan de ser eficaces (0,5 p). Por mutación o por plásmidos que pasan de unas bacterias a otras, algunas son resistentes; el antibiótico elimina las sensibles y las resistentes se multiplican (selección natural)."
     ],
     "palabras_clave": [
       "bacteriana",
@@ -2450,7 +2450,7 @@
     "tipo": "respuesta breve",
     "pregunta": "La información genética de los retrovirus, que está en forma de ARN, puede insertarse en el ADN de la célula huésped. Dé una explicación razonada a este hecho [1].",
     "respuesta": [
-      "Mediante la transcriptasa inversa se hace una copia de la cadena de ARN en ADN y esta última se puede integrar en el genoma de la célula hospedadora (1 p)."
+      "Mediante la transcriptasa inversa se hace una copia de la cadena de ARN en ADN y esta última se puede integrar en el genoma de la célula hospedadora (1 p). Se llaman retrovirus porque invierten el sentido habitual de la información genética, de ARN a ADN; el ADN integrado (provirus) se transcribe con la maquinaria de la célula y se fabrican nuevos virus. Es el caso del VIH."
     ],
     "palabras_clave": [
       "copia de la cadena de ARN en ADN",
@@ -2937,7 +2937,7 @@
     "tipo": "respuesta breve",
     "pregunta": "Los seres vivos aparecieron sobre la Tierra hace, aproximadamente, 3.500 millones de años. ¿Por qué los cadáveres de casi todos los seres vivos han desaparecido? Dé una explicación a este hecho y justifique la necesidad de que ocurra [1].",
     "respuesta": [
-      "Debe aludir a la acción descomponedora de los microorganismos y al reciclaje de la materia para que pueda ser reutilizada por los organismos autótrofos (1 p)."
+      "Debe aludir a la acción descomponedora de los microorganismos y al reciclaje de la materia para que pueda ser reutilizada por los organismos autótrofos (1 p). Bacterias y hongos descomponen la materia orgánica de los restos y la transforman en materia inorgánica (CO₂, agua, sales minerales como nitratos y fosfatos), que las plantas vuelven a usar. Sin descomponedores, los elementos quedarían atrapados en los cadáveres y se agotarían."
     ],
     "palabras_clave": [
       "acción descomponedora de los microorganismos",
@@ -2956,7 +2956,7 @@
     "tipo": "respuesta breve",
     "pregunta": "Indique dos razones que expliquen el hecho de que los virus sean parásitos obligados.",
     "respuesta": [
-      "Porque carecen de las enzimas necesarias para fabricar sus componentes (ácido nucleico, cápsida) y no tienen ribosomas, por lo que deben utilizar los de las células parasitadas, etc. Solo dos, 0,5 p cada una (1 p)."
+      "Porque carecen de las enzimas necesarias para fabricar sus componentes (ácido nucleico, cápsida) y no tienen ribosomas, por lo que deben utilizar los de las células parasitadas, etc. Solo dos, 0,5 p cada una (1 p). Tampoco producen ATP: sin metabolismo propio, fuera de la célula son partículas inertes."
     ],
     "palabras_clave": [
       "carecen de las enzimas",

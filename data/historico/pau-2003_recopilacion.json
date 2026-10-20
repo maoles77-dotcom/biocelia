@@ -20,10 +20,10 @@
      "puntos": 2,
      "q": "Se presenta un fragmento de ADN; la flecha indica el sentido de lectura. Además se muestra el código genético. Conteste las siguientes cuestiones:<br>a) Indique la secuencia de bases del ARN mensajero transcrito [0,5] y la secuencia de aminoácidos de la proteína sintetizada [0,5].<br>b) ¿Cómo se llaman los procesos implicados en el apartado anterior? [0,5]. Si se conociese la secuencia de aminoácidos de una proteína, ¿se podría averiguar la secuencia de bases del ADN que la codifica? [0,5]. Razone la respuesta.",
      "c": [
-      "a) ARNm: **AUGCCCUCUAGUGGAGUAAUCCACUGGUAA** (0,5 p).",
-      "Proteína: **Met-Pro-Ser-Ser-Gly-Val-Ile-His-Trp** (stop) (0,5 p).",
-      "b) **Transcripción** y **traducción** (0,5 p).",
-      "**No** se podría conocer la secuencia exacta (por ejemplo: **código degenerado**, **eliminación de intrones**; una sola razón basta para la máxima nota) (0,5 p)."
+      "a) ARNm: **AUGCCCUCUAGUGGAGUAAUCCACUGGUAA** (0,5 p). ((El ARNm es complementario de la cadena molde del ADN, con U en lugar de T.))",
+      "Proteína: **Met-Pro-Ser-Ser-Gly-Val-Ile-His-Trp** (stop) (0,5 p). ((Se lee de tres en tres desde el codón de inicio AUG (metionina) hasta un codón de terminación (UAA), que no codifica ningún aminoácido.))",
+      "b) **Transcripción** y **traducción** (0,5 p). ((La transcripción ocurre en el núcleo y la traducción en los ribosomas.))",
+      "**No** se podría conocer la secuencia exacta (por ejemplo: **código degenerado**, **eliminación de intrones**; una sola razón basta para la máxima nota) (0,5 p). ((Un aminoácido puede tener varios codones, así que no se sabe cuál de ellos tenía el gen; además, en eucariotas los genes tienen intrones, que no se traducen.))"
      ],
      "figura": "assets/figuras/historico/recopilaciones/gm2003-fragmento.webp",
      "figuraDesc": "Fragmento de ADN TACGGGAGATCACCTCATTAGGTGACCATT con una flecha que indica el sentido de lectura, y tabla del código genético.",
@@ -74,9 +74,9 @@
      "puntos": 1.5,
      "q": "Indique qué es la replicación [0,25]. Describa este proceso [1]. ¿Qué significa que la replicación es semiconservativa? [0,25].",
      "c": [
-      "Replicación: **proceso de síntesis del ADN** (0,25 p).",
-      "Descripción del proceso (deberá incluir: **horquillas de replicación**, replicación **bidireccional**, replicación **continua de una hebra y discontinua de la otra**, papel fundamental de las **enzimas**) (1 p).",
-      "Semiconservativa: la molécula de ADN resultante posee **una cadena vieja y otra de nueva síntesis** (0,25 p)."
+      "Replicación: **proceso de síntesis del ADN** (0,25 p). ((Se produce en la fase S de la interfase, antes de la división celular.))",
+      "Descripción del proceso (deberá incluir: **horquillas de replicación**, replicación **bidireccional**, replicación **continua de una hebra y discontinua de la otra**, papel fundamental de las **enzimas**) (1 p). ((La helicasa separa las cadenas en el origen y se forman dos horquillas que avanzan en sentidos opuestos. La primasa sintetiza un cebador de ARN; la ADN polimerasa añade nucleótidos solo en sentido 5′→3′, así que una hebra se sintetiza de forma continua y la otra en fragmentos de Okazaki, que une la ligasa.))",
+      "Semiconservativa: la molécula de ADN resultante posee **una cadena vieja y otra de nueva síntesis** (0,25 p). ((Lo demostraron Meselson y Stahl con nitrógeno pesado (¹⁵N).))"
      ],
      "n": 5
     },
@@ -196,7 +196,7 @@
      "puntos": 1,
      "q": "Durante la fotosíntesis se producen muchas reacciones enzimáticas. Al aumentar la temperatura se incrementa la intensidad fotosintética; sin embargo, las temperaturas altas pueden disminuir el rendimiento de la fotosíntesis. Dé una explicación razonada a estos hechos [1].",
      "c": [
-      "Como proceso metabólico, la **intensidad fotosintética aumenta con la temperatura hasta un máximo**, y con las temperaturas altas **se desnaturalizan las enzimas** (1 p)."
+      "Como proceso metabólico, la **intensidad fotosintética aumenta con la temperatura hasta un máximo**, y con las temperaturas altas **se desnaturalizan las enzimas** (1 p). ((Al subir la temperatura, las moléculas se mueven más deprisa y chocan más, hasta la temperatura óptima; por encima, el calor rompe los enlaces débiles que mantienen la forma de enzimas como la RuBisCO y la actividad cae.))"
      ],
      "n": 1
     },

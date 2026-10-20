@@ -17,9 +17,9 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Explique en qué consiste el proyecto Genoma Humano [0,7]. Describa dos ventajas y dos inconvenientes de su utilización [0,8].",
    "c": [
-    "<mark class=\"clave-criterio\">Localización y secuenciación de genes humanos</mark> (0,7 p).",
-    "Ventajas: <mark class=\"clave-criterio\">curaciones</mark>, <mark class=\"clave-criterio\">farmacología moderna</mark>, etc. 0,2 p cada una (0,4 p).",
-    "Inconvenientes: clonaciones incontroladas, <mark class=\"clave-criterio\">utilización lucrativa</mark> de estos conocimientos, efectos secundarios desconocidos, <mark class=\"clave-criterio\">discriminación social</mark>, etc. 0,2 p cada uno (0,4 p)."
+    "<mark class=\"clave-criterio\">Localización y secuenciación de genes humanos</mark> (0,7 p). <span class=\"redactado\">Se completó a comienzos de este siglo: permitió conocer la secuencia de bases del ADN humano y localizar los genes en los cromosomas.</span>",
+    "Ventajas: <mark class=\"clave-criterio\">curaciones</mark>, <mark class=\"clave-criterio\">farmacología moderna</mark>, etc. 0,2 p cada una (0,4 p). <span class=\"redactado\">Por ejemplo, el diagnóstico precoz de enfermedades genéticas, la terapia génica o fármacos adaptados a cada persona.</span>",
+    "Inconvenientes: clonaciones incontroladas, <mark class=\"clave-criterio\">utilización lucrativa</mark> de estos conocimientos, efectos secundarios desconocidos, <mark class=\"clave-criterio\">discriminación social</mark>, etc. 0,2 p cada uno (0,4 p). <span class=\"redactado\">Por ejemplo, que una aseguradora o una empresa discrimine a alguien por sus genes; por eso la información genética está protegida.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2002 (recopilación por temas) · Genética molecular",
@@ -70,8 +70,8 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Explique el fundamento de la mejora genética clásica mediante selección artificial [0,75] y exponga tres diferencias con la mejora mediante ingeniería genética [0,75].",
    "c": [
-    "Selección artificial: <mark class=\"clave-criterio\">seleccionar los mejores fenotipos como reproductores</mark> en <mark class=\"clave-criterio\">generaciones sucesivas</mark> (0,75 p).",
-    "Diferencias, por ejemplo: se utilizan las <mark class=\"clave-criterio\">técnicas de ADN recombinante</mark>, <mark class=\"clave-criterio\">no se requieren muchas generaciones</mark>, se pueden utilizar <mark class=\"clave-criterio\">genes de otra especie</mark>, etc. (0,75 p)."
+    "Selección artificial: <mark class=\"clave-criterio\">seleccionar los mejores fenotipos como reproductores</mark> en <mark class=\"clave-criterio\">generaciones sucesivas</mark> (0,75 p). <span class=\"redactado\">Se escogen como reproductores los individuos con los caracteres deseados (más leche, más grano) y se repite durante muchas generaciones; solo se puede trabajar con la variabilidad que ya existe en la especie.</span>",
+    "Diferencias, por ejemplo: se utilizan las <mark class=\"clave-criterio\">técnicas de ADN recombinante</mark>, <mark class=\"clave-criterio\">no se requieren muchas generaciones</mark>, se pueden utilizar <mark class=\"clave-criterio\">genes de otra especie</mark>, etc. (0,75 p). <span class=\"redactado\">La ingeniería genética introduce directamente un gen concreto, que puede proceder de otra especie (organismos transgénicos), y el resultado se obtiene en una generación.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2002 (recopilación por temas) · Genética molecular",
@@ -276,11 +276,11 @@ window.BIOCELIA_HISTORICO = {
    "q": "El siguiente esquema representa la estructura de una molécula biológica:<br>a) Indique de qué molécula se trata [0,1] e identifique los elementos señalados con las letras A, B y C [0,6]. ¿Qué representan las líneas de puntos? [0,1]. ¿Qué indican los números 5′ y 3′? [0,2].<br>b) Cite dos procesos fundamentales para la vida relacionados con esta molécula [0,2] y explique el significado biológico de cada uno [0,8].",
    "c": [
     "a) Molécula de <mark class=\"clave-criterio\">ADN</mark> (0,1 p).",
-    "A: <mark class=\"clave-criterio\">grupo fosfato</mark>; B: <mark class=\"clave-criterio\">desoxirribosa</mark>; C: <mark class=\"clave-criterio\">base nitrogenada</mark>. 0,2 p cada uno (0,6 p).",
-    "Líneas de puntos: <mark class=\"clave-criterio\">puentes de hidrógeno</mark> (0,1 p).",
-    "5′ y 3′: los <mark class=\"clave-criterio\">extremos</mark> o la <mark class=\"clave-criterio\">dirección</mark> de una cadena sencilla de ADN (0,2 p).",
+    "A: <mark class=\"clave-criterio\">grupo fosfato</mark>; B: <mark class=\"clave-criterio\">desoxirribosa</mark>; C: <mark class=\"clave-criterio\">base nitrogenada</mark>. 0,2 p cada uno (0,6 p). <span class=\"redactado\">Cada nucleótido está formado por un fosfato, una desoxirribosa y una base nitrogenada.</span>",
+    "Líneas de puntos: <mark class=\"clave-criterio\">puentes de hidrógeno</mark> (0,1 p). <span class=\"redactado\">Unen las bases complementarias: A-T por dos puentes de hidrógeno y G-C por tres.</span>",
+    "5′ y 3′: los <mark class=\"clave-criterio\">extremos</mark> o la <mark class=\"clave-criterio\">dirección</mark> de una cadena sencilla de ADN (0,2 p). <span class=\"redactado\">El extremo 5′ tiene el fosfato libre y el 3′, el –OH libre; las dos cadenas son antiparalelas.</span>",
     "b) <mark class=\"clave-criterio\">Replicación</mark> y <mark class=\"clave-criterio\">transcripción</mark> (0,2 p).",
-    "Replicación: garantizar la <mark class=\"clave-criterio\">conservación y transmisión del material genético</mark> (0,4 p). Transcripción: permitir la <mark class=\"clave-criterio\">expresión de la información genética</mark> (0,4 p)."
+    "Replicación: garantizar la <mark class=\"clave-criterio\">conservación y transmisión del material genético</mark> (0,4 p). Transcripción: permitir la <mark class=\"clave-criterio\">expresión de la información genética</mark> (0,4 p). <span class=\"redactado\">La replicación ocurre en la fase S, antes de cada división, y es semiconservativa; en la transcripción se copia un gen a ARN, que después se traduce a proteína.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2002 (recopilación por temas) · Genética molecular",
@@ -307,9 +307,9 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Explique en qué consisten los procesos de recombinación genética [0,5] y segregación cromosómica [0,5]. ¿Cuál es la importancia de ambos procesos para la evolución? [0,5].",
    "c": [
-    "Recombinación genética: <mark class=\"clave-criterio\">intercambio de segmentos cromosómicos</mark> (0,5 p).",
-    "Segregación cromosómica: <mark class=\"clave-criterio\">combinación al azar de cromosomas</mark> (0,5 p).",
-    "Importancia evolutiva (ideas que debe contener la respuesta correcta: 1) <mark class=\"clave-criterio\">fuente de variabilidad</mark> junto con la mutación y 2) <mark class=\"clave-criterio\">necesidad de la variabilidad</mark> para el proceso de <mark class=\"clave-criterio\">selección natural</mark>). 0,25 p cada una (0,5 p)."
+    "Recombinación genética: <mark class=\"clave-criterio\">intercambio de segmentos cromosómicos</mark> (0,5 p). <span class=\"redactado\">Ocurre por sobrecruzamiento en la profase I de la meiosis, entre cromátidas no hermanas de los homólogos.</span>",
+    "Segregación cromosómica: <mark class=\"clave-criterio\">combinación al azar de cromosomas</mark> (0,5 p). <span class=\"redactado\">En la anafase I, cada par de homólogos se reparte al azar entre los dos polos, de forma independiente de los demás pares.</span>",
+    "Importancia evolutiva (ideas que debe contener la respuesta correcta: 1) <mark class=\"clave-criterio\">fuente de variabilidad</mark> junto con la mutación y 2) <mark class=\"clave-criterio\">necesidad de la variabilidad</mark> para el proceso de <mark class=\"clave-criterio\">selección natural</mark>). 0,25 p cada una (0,5 p). <span class=\"redactado\">Las dos hacen que cada gameto sea genéticamente distinto; los individuos con las combinaciones más favorables dejan más descendencia.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2002 (recopilación por temas) · Genética molecular",
@@ -333,8 +333,8 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Analice la estructura secundaria [0,75] y terciaria [0,75] de las proteínas haciendo especial hincapié en las fuerzas que las mantienen.",
    "c": [
-    "Estructura <mark class=\"clave-criterio\">secundaria</mark>: <mark class=\"clave-criterio\">hélice α</mark> y <mark class=\"clave-criterio\">hoja plegada</mark>, mantenidas por enlaces peptídicos y <mark class=\"clave-criterio\">enlaces de hidrógeno</mark> (0,75 p).",
-    "Estructura <mark class=\"clave-criterio\">terciaria</mark>: <mark class=\"clave-criterio\">proteínas fibrosas y globulares</mark>, mantenidas por enlaces peptídicos, <mark class=\"clave-criterio\">puentes de hidrógeno</mark>, <mark class=\"clave-criterio\">fuerzas de Van der Waals</mark>, <mark class=\"clave-criterio\">fuerzas electrostáticas</mark> y <mark class=\"clave-criterio\">puentes disulfuro</mark> (0,75 p)."
+    "Estructura <mark class=\"clave-criterio\">secundaria</mark>: <mark class=\"clave-criterio\">hélice α</mark> y <mark class=\"clave-criterio\">hoja plegada</mark>, mantenidas por enlaces peptídicos y <mark class=\"clave-criterio\">enlaces de hidrógeno</mark> (0,75 p). <span class=\"redactado\">Los puentes de hidrógeno se forman entre los grupos C=O y N–H de los enlaces peptídicos: en la α-hélice, dentro de la misma cadena; en la lámina β, entre tramos vecinos.</span>",
+    "Estructura <mark class=\"clave-criterio\">terciaria</mark>: <mark class=\"clave-criterio\">proteínas fibrosas y globulares</mark>, mantenidas por enlaces peptídicos, <mark class=\"clave-criterio\">puentes de hidrógeno</mark>, <mark class=\"clave-criterio\">fuerzas de Van der Waals</mark>, <mark class=\"clave-criterio\">fuerzas electrostáticas</mark> y <mark class=\"clave-criterio\">puentes disulfuro</mark> (0,75 p). <span class=\"redactado\">La terciaria es el plegamiento de toda la cadena en el espacio; los enlaces se establecen entre los radicales de los aminoácidos, y los puentes disulfuro, entre cisteínas, son covalentes. De ella depende la función, por ejemplo el centro activo de las enzimas.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2002 (recopilación por temas) · Proteínas",
@@ -443,10 +443,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": true,
    "q": "Se presenta un fragmento de ADN; la flecha indica el sentido de lectura. Además se muestra el código genético. Conteste las siguientes cuestiones:<br>a) Indique la secuencia de bases del ARN mensajero transcrito [0,5] y la secuencia de aminoácidos de la proteína sintetizada [0,5].<br>b) ¿Cómo se llaman los procesos implicados en el apartado anterior? [0,5]. Si se conociese la secuencia de aminoácidos de una proteína, ¿se podría averiguar la secuencia de bases del ADN que la codifica? [0,5]. Razone la respuesta.",
    "c": [
-    "a) ARNm: <mark class=\"clave-criterio\">AUGCCCUCUAGUGGAGUAAUCCACUGGUAA</mark> (0,5 p).",
-    "Proteína: <mark class=\"clave-criterio\">Met-Pro-Ser-Ser-Gly-Val-Ile-His-Trp</mark> (stop) (0,5 p).",
-    "b) <mark class=\"clave-criterio\">Transcripción</mark> y <mark class=\"clave-criterio\">traducción</mark> (0,5 p).",
-    "<mark class=\"clave-criterio\">No</mark> se podría conocer la secuencia exacta (por ejemplo: <mark class=\"clave-criterio\">código degenerado</mark>, <mark class=\"clave-criterio\">eliminación de intrones</mark>; una sola razón basta para la máxima nota) (0,5 p)."
+    "a) ARNm: <mark class=\"clave-criterio\">AUGCCCUCUAGUGGAGUAAUCCACUGGUAA</mark> (0,5 p). <span class=\"redactado\">El ARNm es complementario de la cadena molde del ADN, con U en lugar de T.</span>",
+    "Proteína: <mark class=\"clave-criterio\">Met-Pro-Ser-Ser-Gly-Val-Ile-His-Trp</mark> (stop) (0,5 p). <span class=\"redactado\">Se lee de tres en tres desde el codón de inicio AUG (metionina) hasta un codón de terminación (UAA), que no codifica ningún aminoácido.</span>",
+    "b) <mark class=\"clave-criterio\">Transcripción</mark> y <mark class=\"clave-criterio\">traducción</mark> (0,5 p). <span class=\"redactado\">La transcripción ocurre en el núcleo y la traducción en los ribosomas.</span>",
+    "<mark class=\"clave-criterio\">No</mark> se podría conocer la secuencia exacta (por ejemplo: <mark class=\"clave-criterio\">código degenerado</mark>, <mark class=\"clave-criterio\">eliminación de intrones</mark>; una sola razón basta para la máxima nota) (0,5 p). <span class=\"redactado\">Un aminoácido puede tener varios codones, así que no se sabe cuál de ellos tenía el gen; además, en eucariotas los genes tienen intrones, que no se traducen.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2003 (recopilación por temas) · Genética molecular",
@@ -551,9 +551,9 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Indique qué es la replicación [0,25]. Describa este proceso [1]. ¿Qué significa que la replicación es semiconservativa? [0,25].",
    "c": [
-    "Replicación: <mark class=\"clave-criterio\">proceso de síntesis del ADN</mark> (0,25 p).",
-    "Descripción del proceso (deberá incluir: <mark class=\"clave-criterio\">horquillas de replicación</mark>, replicación <mark class=\"clave-criterio\">bidireccional</mark>, replicación <mark class=\"clave-criterio\">continua de una hebra y discontinua de la otra</mark>, papel fundamental de las <mark class=\"clave-criterio\">enzimas</mark>) (1 p).",
-    "Semiconservativa: la molécula de ADN resultante posee <mark class=\"clave-criterio\">una cadena vieja y otra de nueva síntesis</mark> (0,25 p)."
+    "Replicación: <mark class=\"clave-criterio\">proceso de síntesis del ADN</mark> (0,25 p). <span class=\"redactado\">Se produce en la fase S de la interfase, antes de la división celular.</span>",
+    "Descripción del proceso (deberá incluir: <mark class=\"clave-criterio\">horquillas de replicación</mark>, replicación <mark class=\"clave-criterio\">bidireccional</mark>, replicación <mark class=\"clave-criterio\">continua de una hebra y discontinua de la otra</mark>, papel fundamental de las <mark class=\"clave-criterio\">enzimas</mark>) (1 p). <span class=\"redactado\">La helicasa separa las cadenas en el origen y se forman dos horquillas que avanzan en sentidos opuestos. La primasa sintetiza un cebador de ARN; la ADN polimerasa añade nucleótidos solo en sentido 5′→3′, así que una hebra se sintetiza de forma continua y la otra en fragmentos de Okazaki, que une la ligasa.</span>",
+    "Semiconservativa: la molécula de ADN resultante posee <mark class=\"clave-criterio\">una cadena vieja y otra de nueva síntesis</mark> (0,25 p). <span class=\"redactado\">Lo demostraron Meselson y Stahl con nitrógeno pesado (¹⁵N).</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2003 (recopilación por temas) · Genética molecular",
@@ -763,7 +763,7 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Durante la fotosíntesis se producen muchas reacciones enzimáticas. Al aumentar la temperatura se incrementa la intensidad fotosintética; sin embargo, las temperaturas altas pueden disminuir el rendimiento de la fotosíntesis. Dé una explicación razonada a estos hechos [1].",
    "c": [
-    "Como proceso metabólico, la <mark class=\"clave-criterio\">intensidad fotosintética aumenta con la temperatura hasta un máximo</mark>, y con las temperaturas altas <mark class=\"clave-criterio\">se desnaturalizan las enzimas</mark> (1 p)."
+    "Como proceso metabólico, la <mark class=\"clave-criterio\">intensidad fotosintética aumenta con la temperatura hasta un máximo</mark>, y con las temperaturas altas <mark class=\"clave-criterio\">se desnaturalizan las enzimas</mark> (1 p). <span class=\"redactado\">Al subir la temperatura, las moléculas se mueven más deprisa y chocan más, hasta la temperatura óptima; por encima, el calor rompe los enlaces débiles que mantienen la forma de enzimas como la RuBisCO y la actividad cae.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2003 (recopilación por temas) · Enzimas",
@@ -842,10 +842,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Exponga el concepto de mutación [0,6] y diferencie entre mutación espontánea e inducida [0,4]. ¿Qué efectos puede tener una mutación? [0,3]. ¿Por qué las mutaciones son importantes desde el punto de vista evolutivo? [0,7].",
    "c": [
-    "Mutación: <mark class=\"clave-criterio\">cambios en el material genético</mark> (0,6 p).",
-    "<mark class=\"clave-criterio\">Espontánea</mark>: <mark class=\"clave-criterio\">sin causa aparente</mark>; <mark class=\"clave-criterio\">inducida</mark>: causada por <mark class=\"clave-criterio\">agentes mutagénicos</mark> (0,4 p).",
-    "Efectos: <mark class=\"clave-criterio\">inocuos</mark>, <mark class=\"clave-criterio\">beneficiosos</mark> y <mark class=\"clave-criterio\">perjudiciales</mark> (0,3 p).",
-    "Importancia evolutiva: <mark class=\"clave-criterio\">origen de nuevas variantes genéticas</mark> (<mark class=\"clave-criterio\">variabilidad genética</mark>) (0,7 p)."
+    "Mutación: <mark class=\"clave-criterio\">cambios en el material genético</mark> (0,6 p). <span class=\"redactado\">Puede afectar a un gen, a la estructura de un cromosoma o al número de cromosomas; solo se hereda si afecta a las células germinales.</span>",
+    "<mark class=\"clave-criterio\">Espontánea</mark>: <mark class=\"clave-criterio\">sin causa aparente</mark>; <mark class=\"clave-criterio\">inducida</mark>: causada por <mark class=\"clave-criterio\">agentes mutagénicos</mark> (0,4 p). <span class=\"redactado\">Las espontáneas se deben, por ejemplo, a errores de replicación y ocurren con muy baja frecuencia; los mutágenos, como los rayos UV, los rayos X o algunas sustancias químicas, aumentan esa frecuencia.</span>",
+    "Efectos: <mark class=\"clave-criterio\">inocuos</mark>, <mark class=\"clave-criterio\">beneficiosos</mark> y <mark class=\"clave-criterio\">perjudiciales</mark> (0,3 p). <span class=\"redactado\">La mayoría son neutras o perjudiciales, y causan enfermedades como la anemia falciforme o el cáncer.</span>",
+    "Importancia evolutiva: <mark class=\"clave-criterio\">origen de nuevas variantes genéticas</mark> (<mark class=\"clave-criterio\">variabilidad genética</mark>) (0,7 p). <span class=\"redactado\">Son la única fuente de alelos nuevos; la recombinación solo combina los que ya existen. La selección natural aumenta la frecuencia de las variantes más favorables.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2004 (recopilación por temas) · Genética molecular",
@@ -1223,10 +1223,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": true,
    "q": "En relación con la figura adjunta, responda las siguientes cuestiones:<br>a) ¿Cómo se denominan los dos procesos biológicos representados? [0,5]. Identifique los distintos elementos de la figura señalados con números [0,5].<br>b) Identifique los extremos del elemento 2 (a y b) y los extremos del elemento 5 (c y d) [0,5]. ¿Cuál es la composición química de los elementos señalados con los números 3 y 4? [0,5].",
    "c": [
-    "a) <mark class=\"clave-criterio\">Transcripción</mark> y <mark class=\"clave-criterio\">traducción</mark> (0,5 p).",
+    "a) <mark class=\"clave-criterio\">Transcripción</mark> y <mark class=\"clave-criterio\">traducción</mark> (0,5 p). <span class=\"redactado\">Ocurren a la vez porque es una célula procariota, sin núcleo: el ARNm se traduce mientras se transcribe.</span>",
     "1: <mark class=\"clave-criterio\">ADN</mark>; 2: <mark class=\"clave-criterio\">ARNm</mark>; 3: <mark class=\"clave-criterio\">subunidad pequeña del ribosoma</mark>; 4: <mark class=\"clave-criterio\">subunidad grande del ribosoma</mark>; 5: <mark class=\"clave-criterio\">proteína</mark> (0,5 p).",
-    "b) Extremo <mark class=\"clave-criterio\">5′ del ARNm</mark> (a); extremo <mark class=\"clave-criterio\">3′ del ARNm</mark> (b); extremo <mark class=\"clave-criterio\">N-terminal</mark> (d) y <mark class=\"clave-criterio\">C-terminal</mark> (c) de la proteína (0,5 p).",
-    "Composición de 3 y 4: <mark class=\"clave-criterio\">ARNr y proteínas</mark> (0,5 p)."
+    "b) Extremo <mark class=\"clave-criterio\">5′ del ARNm</mark> (a); extremo <mark class=\"clave-criterio\">3′ del ARNm</mark> (b); extremo <mark class=\"clave-criterio\">N-terminal</mark> (d) y <mark class=\"clave-criterio\">C-terminal</mark> (c) de la proteína (0,5 p). <span class=\"redactado\">El ARNm se sintetiza en sentido 5′→3′ y el ribosoma lo lee en el mismo sentido; la proteína crece desde el extremo amino (N-terminal) hasta el carboxilo (C-terminal).</span>",
+    "Composición de 3 y 4: <mark class=\"clave-criterio\">ARNr y proteínas</mark> (0,5 p). <span class=\"redactado\">Los ribosomas bacterianos son 70S, con subunidades de 50S y 30S.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2005 (recopilación por temas) · Genética molecular",
@@ -1416,7 +1416,7 @@ window.BIOCELIA_HISTORICO = {
    "competencial": true,
    "q": "En relación con la figura adjunta, responda las siguientes cuestiones:<br>a) Nombre el tipo de molécula de que se trata [0,25]. ¿Cómo se denominan sus monómeros [0,2] y cuál es su composición? [0,3]. Considerando la molécula en sentido longitudinal, las notaciones 3′ y 5′ se sitúan en posiciones opuestas. Explique el significado de este hecho [0,25].<br>b) ¿Cómo se denomina el proceso por el cual esta molécula se duplica? [0,2]. Explíquelo brevemente [0,8].",
    "c": [
-    "a) <mark class=\"clave-criterio\">ADN</mark> (0,25 p). Monómeros: <mark class=\"clave-criterio\">nucleótidos</mark> (0,2 p). Composición: <mark class=\"clave-criterio\">ácido fosfórico</mark>, <mark class=\"clave-criterio\">pentosa</mark> (desoxirribosa) y <mark class=\"clave-criterio\">base nitrogenada</mark> (0,3 p).",
+    "a) <mark class=\"clave-criterio\">ADN</mark> (0,25 p). Monómeros: <mark class=\"clave-criterio\">nucleótidos</mark> (0,2 p). Composición: <mark class=\"clave-criterio\">ácido fosfórico</mark>, <mark class=\"clave-criterio\">pentosa</mark> (desoxirribosa) y <mark class=\"clave-criterio\">base nitrogenada</mark> (0,3 p). <span class=\"redactado\">Es lo que hace el VIH: el ADN integrado (provirus) se transcribe con la maquinaria de la célula y se fabrican nuevos virus.</span>",
     "Las notaciones opuestas se deben a que <mark class=\"clave-criterio\">las cadenas son antiparalelas</mark> (0,25 p).",
     "b) <mark class=\"clave-criterio\">Replicación</mark> (0,2 p).",
     "Para la máxima puntuación deben mencionarse: <mark class=\"clave-criterio\">ADN</mark>, <mark class=\"clave-criterio\">origen de replicación</mark>, cadenas <mark class=\"clave-criterio\">adelantada y retrasada</mark>, <mark class=\"clave-criterio\">cebador</mark>, <mark class=\"clave-criterio\">fragmento de Okazaki</mark>, <mark class=\"clave-criterio\">ADN polimerasa</mark> y <mark class=\"clave-criterio\">ligasa</mark> (0,8 p)."
@@ -1682,8 +1682,8 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Suponga que existe un antibiótico, llamado «ribosomicina», que inhibe la síntesis de proteínas porque impide la actividad de los ribosomas 70S. Dado que las bacterias tienen este tipo de ribosomas, ¿se podría utilizar la ribosomicina para combatir infecciones bacterianas en los seres humanos? [0,5]. ¿Sería recomendable este antibiótico en el caso de una infección vírica? [0,5]. Razone las respuestas.",
    "c": [
-    "<mark class=\"clave-criterio\">No es aconsejable</mark>, ya que los <mark class=\"clave-criterio\">ribosomas 70S</mark> también están en las <mark class=\"clave-criterio\">mitocondrias</mark> y se paralizarían las funciones mitocondriales (0,5 p).",
-    "<mark class=\"clave-criterio\">No</mark>, porque los <mark class=\"clave-criterio\">virus carecen de ribosomas</mark> y no tendría ninguna utilidad frente a ellos (0,5 p)."
+    "<mark class=\"clave-criterio\">No es aconsejable</mark>, ya que los <mark class=\"clave-criterio\">ribosomas 70S</mark> también están en las <mark class=\"clave-criterio\">mitocondrias</mark> y se paralizarían las funciones mitocondriales (0,5 p). <span class=\"redactado\">Según la teoría endosimbiótica, las mitocondrias proceden de bacterias, por eso sus ribosomas también son 70S; los ribosomas del citoplasma humano son 80S.</span>",
+    "<mark class=\"clave-criterio\">No</mark>, porque los <mark class=\"clave-criterio\">virus carecen de ribosomas</mark> y no tendría ninguna utilidad frente a ellos (0,5 p). <span class=\"redactado\">Los virus usan los ribosomas de la célula que infectan, y los antibióticos solo actúan sobre estructuras propias de las bacterias.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2006 (recopilación por temas) · Microbiología",
@@ -1909,8 +1909,8 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Explique cuál es la finalidad de la replicación y de la transcripción [0,5]. Explique la traducción [1]. Dibuje el inicio de la traducción [0,5].",
    "c": [
-    "Replicación: <mark class=\"clave-criterio\">duplicación del material genético</mark>; transcripción: <mark class=\"clave-criterio\">síntesis de los diferentes ARN</mark>. 0,25 p cada una (0,5 p).",
-    "Traducción: se indicará cómo se <mark class=\"clave-criterio\">inicia</mark>, cómo se <mark class=\"clave-criterio\">elonga</mark> y cómo <mark class=\"clave-criterio\">termina</mark> la síntesis de la proteína. Para la máxima puntuación deberá mencionarse: <mark class=\"clave-criterio\">unión del ARNm al ribosoma</mark>, <mark class=\"clave-criterio\">ARNt</mark>, <mark class=\"clave-criterio\">enlace peptídico</mark> y <mark class=\"clave-criterio\">polipéptido</mark> (1 p).",
+    "Replicación: <mark class=\"clave-criterio\">duplicación del material genético</mark>; transcripción: <mark class=\"clave-criterio\">síntesis de los diferentes ARN</mark>. 0,25 p cada una (0,5 p). <span class=\"redactado\">La replicación ocurre en la fase S, antes de cada división, para que cada célula hija reciba una copia del ADN; en la transcripción se copia un gen a ARN.</span>",
+    "Traducción: se indicará cómo se <mark class=\"clave-criterio\">inicia</mark>, cómo se <mark class=\"clave-criterio\">elonga</mark> y cómo <mark class=\"clave-criterio\">termina</mark> la síntesis de la proteína. Para la máxima puntuación deberá mencionarse: <mark class=\"clave-criterio\">unión del ARNm al ribosoma</mark>, <mark class=\"clave-criterio\">ARNt</mark>, <mark class=\"clave-criterio\">enlace peptídico</mark> y <mark class=\"clave-criterio\">polipéptido</mark> (1 p). <span class=\"redactado\">Iniciación: la subunidad menor del ribosoma se une al ARNm y, en el codón de inicio AUG, el ARNt de la metionina; después se une la subunidad mayor. Elongación: entra en el sitio A el ARNt cuyo anticodón es complementario del codón, se forma el enlace peptídico y el ribosoma avanza un codón. Terminación: al llegar a un codón de terminación, un factor de liberación libera la proteína y el ribosoma se separa.</span>",
     "Dibujo: deberán quedar representadas las <mark class=\"clave-criterio\">subunidades ribosómicas</mark> sobre una <mark class=\"clave-criterio\">señal de inicio</mark> en el ARNm y con la <mark class=\"clave-criterio\">metionina</mark> en su correspondiente <mark class=\"clave-criterio\">ARNt en el lugar P</mark> (0,5 p)."
    ],
    "origen": {
@@ -2007,9 +2007,9 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Defina la estructura primaria de las proteínas, indique qué tipo de enlace la caracteriza y nombre los grupos químicos que participan en el mismo [0,9]. Explique qué se entiende por desnaturalización de una proteína [0,5] y nombre los orgánulos que están implicados en su síntesis y empaquetamiento [0,6].",
    "c": [
-    "Definición: <mark class=\"clave-criterio\">secuencia lineal</mark> de aminoácidos unidos en un determinado orden. Enlace: <mark class=\"clave-criterio\">peptídico</mark>. Grupos: <mark class=\"clave-criterio\">carboxilo</mark> de un aminoácido y <mark class=\"clave-criterio\">amino</mark> del otro (0,9 p).",
-    "Desnaturalización: <mark class=\"clave-criterio\">pérdida de las estructuras secundaria, terciaria y cuaternaria</mark>, que <mark class=\"clave-criterio\">puede o no ser reversible</mark> (0,5 p).",
-    "Síntesis: <mark class=\"clave-criterio\">ribosomas</mark> y <mark class=\"clave-criterio\">retículo endoplasmático</mark>; empaquetamiento: <mark class=\"clave-criterio\">complejo de Golgi</mark>. 0,2 p cada orgánulo (0,6 p)."
+    "Definición: <mark class=\"clave-criterio\">secuencia lineal</mark> de aminoácidos unidos en un determinado orden. Enlace: <mark class=\"clave-criterio\">peptídico</mark>. Grupos: <mark class=\"clave-criterio\">carboxilo</mark> de un aminoácido y <mark class=\"clave-criterio\">amino</mark> del otro (0,9 p). <span class=\"redactado\">La secuencia se escribe desde el extremo amino (N-terminal) hasta el carboxilo (C-terminal); el enlace se forma por condensación, con pérdida de agua. La secuencia determina todas las demás estructuras.</span>",
+    "Desnaturalización: <mark class=\"clave-criterio\">pérdida de las estructuras secundaria, terciaria y cuaternaria</mark>, que <mark class=\"clave-criterio\">puede o no ser reversible</mark> (0,5 p). <span class=\"redactado\">La causan el calor, los pH extremos o algunas sustancias, que rompen los enlaces débiles; la proteína pierde su función, pero no se rompen los enlaces peptídicos.</span>",
+    "Síntesis: <mark class=\"clave-criterio\">ribosomas</mark> y <mark class=\"clave-criterio\">retículo endoplasmático</mark>; empaquetamiento: <mark class=\"clave-criterio\">complejo de Golgi</mark>. 0,2 p cada orgánulo (0,6 p). <span class=\"redactado\">Las proteínas de membrana y de secreción entran en el RER, donde se pliegan y comienzan a glucosilarse, y en el Golgi maduran y se empaquetan en vesículas.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2007 (recopilación por temas) · Proteínas",
@@ -2033,7 +2033,7 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "¿Conserva su poder nutritivo una proteína desnaturalizada? Razone la respuesta [1].",
    "c": [
-    "<mark class=\"clave-criterio\">Sí.</mark> El poder nutritivo de las proteínas radica en que son <mark class=\"clave-criterio\">fuente de aminoácidos</mark>; la desnaturalización <mark class=\"clave-criterio\">no afecta a la estructura primaria</mark> ni a los aminoácidos y por tanto <mark class=\"clave-criterio\">no afecta al poder nutritivo</mark> (1 p)."
+    "<mark class=\"clave-criterio\">Sí.</mark> El poder nutritivo de las proteínas radica en que son <mark class=\"clave-criterio\">fuente de aminoácidos</mark>; la desnaturalización <mark class=\"clave-criterio\">no afecta a la estructura primaria</mark> ni a los aminoácidos y por tanto <mark class=\"clave-criterio\">no afecta al poder nutritivo</mark> (1 p). <span class=\"redactado\">En la digestión, las proteasas hidrolizan los enlaces peptídicos y los aminoácidos se absorben igual; las proteínas desnaturalizadas incluso se digieren con más facilidad.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2007 (recopilación por temas) · Proteínas",
@@ -2059,9 +2059,9 @@ window.BIOCELIA_HISTORICO = {
    "c": [
     "a) Un <mark class=\"clave-criterio\">virus</mark> (0,2 p).",
     "A: <mark class=\"clave-criterio\">glucoproteína</mark>; B: <mark class=\"clave-criterio\">envoltura</mark>; C: <mark class=\"clave-criterio\">cápsida</mark>; D: <mark class=\"clave-criterio\">ácido nucleico</mark>. 0,1 p cada una (0,4 p).",
-    "<mark class=\"clave-criterio\">Carecen de organización celular</mark>, <mark class=\"clave-criterio\">no tienen metabolismo propio</mark>, deben <mark class=\"clave-criterio\">aprovechar los recursos de la célula hospedadora</mark> para replicarse, etc. Solo dos, 0,2 p cada una (0,4 p).",
-    "b) A: participa en la <mark class=\"clave-criterio\">fijación del virus a la célula</mark> (0,2 p).",
-    "C: <mark class=\"clave-criterio\">proteica</mark>, <mark class=\"clave-criterio\">protege al ácido nucleico</mark> (0,3 p). D: <mark class=\"clave-criterio\">ARN o ADN</mark>, <mark class=\"clave-criterio\">lleva la información genética</mark> (0,3 p).",
+    "<mark class=\"clave-criterio\">Carecen de organización celular</mark>, <mark class=\"clave-criterio\">no tienen metabolismo propio</mark>, deben <mark class=\"clave-criterio\">aprovechar los recursos de la célula hospedadora</mark> para replicarse, etc. Solo dos, 0,2 p cada una (0,4 p). <span class=\"redactado\">Además, solo tienen un tipo de ácido nucleico, ADN o ARN.</span>",
+    "b) A: participa en la <mark class=\"clave-criterio\">fijación del virus a la célula</mark> (0,2 p). <span class=\"redactado\">Se une a receptores específicos de la membrana de la célula, por eso cada virus infecta ciertos tipos de células.</span>",
+    "C: <mark class=\"clave-criterio\">proteica</mark>, <mark class=\"clave-criterio\">protege al ácido nucleico</mark> (0,3 p). D: <mark class=\"clave-criterio\">ARN o ADN</mark>, <mark class=\"clave-criterio\">lleva la información genética</mark> (0,3 p). <span class=\"redactado\">La envoltura es una bicapa lipídica que el virus toma de la membrana de la célula al salir de ella por gemación.</span>",
     "<mark class=\"clave-criterio\">Gripe</mark>, <mark class=\"clave-criterio\">sarampión</mark>, <mark class=\"clave-criterio\">sida</mark>, etc. (0,2 p)."
    ],
    "origen": {
@@ -2089,8 +2089,8 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "¿Por qué en el tratamiento de enfermedades producidas por microorganismos los médicos recetan en unos casos antibióticos y en otros no? [0,5]. ¿Qué problemas causa el uso indiscriminado de los antibióticos en la lucha contra los microorganismos? [0,5]. Razone las respuestas.",
    "c": [
-    "Porque los antibióticos <mark class=\"clave-criterio\">eliminan bacterias y no virus</mark>: se recetan cuando la enfermedad es <mark class=\"clave-criterio\">bacteriana</mark> (0,5 p).",
-    "Pueden <mark class=\"clave-criterio\">seleccionar bacterias resistentes</mark> a su acción, y los antibióticos dejan de ser eficaces (0,5 p)."
+    "Porque los antibióticos <mark class=\"clave-criterio\">eliminan bacterias y no virus</mark>: se recetan cuando la enfermedad es <mark class=\"clave-criterio\">bacteriana</mark> (0,5 p). <span class=\"redactado\">Los antibióticos actúan sobre estructuras propias de las bacterias, como la pared o los ribosomas 70S; los virus no tienen esas estructuras.</span>",
+    "Pueden <mark class=\"clave-criterio\">seleccionar bacterias resistentes</mark> a su acción, y los antibióticos dejan de ser eficaces (0,5 p). <span class=\"redactado\">Por mutación o por plásmidos que pasan de unas bacterias a otras, algunas son resistentes; el antibiótico elimina las sensibles y las resistentes se multiplican (selección natural).</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2007 (recopilación por temas) · Microbiología",
@@ -2169,7 +2169,7 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "La información genética de los retrovirus, que está en forma de ARN, puede insertarse en el ADN de la célula huésped. Dé una explicación razonada a este hecho [1].",
    "c": [
-    "Mediante la <mark class=\"clave-criterio\">transcriptasa inversa</mark> se hace una <mark class=\"clave-criterio\">copia de la cadena de ARN en ADN</mark> y esta última se puede <mark class=\"clave-criterio\">integrar en el genoma</mark> de la célula hospedadora (1 p)."
+    "Mediante la <mark class=\"clave-criterio\">transcriptasa inversa</mark> se hace una <mark class=\"clave-criterio\">copia de la cadena de ARN en ADN</mark> y esta última se puede <mark class=\"clave-criterio\">integrar en el genoma</mark> de la célula hospedadora (1 p). <span class=\"redactado\">Se llaman retrovirus porque invierten el sentido habitual de la información genética, de ARN a ADN; el ADN integrado (provirus) se transcribe con la maquinaria de la célula y se fabrican nuevos virus. Es el caso del VIH.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2008 (recopilación por temas) · Genética molecular",
@@ -2633,7 +2633,7 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Los seres vivos aparecieron sobre la Tierra hace, aproximadamente, 3.500 millones de años. ¿Por qué los cadáveres de casi todos los seres vivos han desaparecido? Dé una explicación a este hecho y justifique la necesidad de que ocurra [1].",
    "c": [
-    "Debe aludir a la <mark class=\"clave-criterio\">acción descomponedora de los microorganismos</mark> y al <mark class=\"clave-criterio\">reciclaje de la materia</mark> para que pueda ser <mark class=\"clave-criterio\">reutilizada por los organismos autótrofos</mark> (1 p)."
+    "Debe aludir a la <mark class=\"clave-criterio\">acción descomponedora de los microorganismos</mark> y al <mark class=\"clave-criterio\">reciclaje de la materia</mark> para que pueda ser <mark class=\"clave-criterio\">reutilizada por los organismos autótrofos</mark> (1 p). <span class=\"redactado\">Bacterias y hongos descomponen la materia orgánica de los restos y la transforman en materia inorgánica (CO₂, agua, sales minerales como nitratos y fosfatos), que las plantas vuelven a usar. Sin descomponedores, los elementos quedarían atrapados en los cadáveres y se agotarían.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2009 (recopilación por temas) · Microbiología",
@@ -2657,7 +2657,7 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Indique dos razones que expliquen el hecho de que los virus sean parásitos obligados.",
    "c": [
-    "Porque <mark class=\"clave-criterio\">carecen de las enzimas</mark> necesarias para fabricar sus componentes (ácido nucleico, cápsida) y <mark class=\"clave-criterio\">no tienen ribosomas</mark>, por lo que deben utilizar los de las células parasitadas, etc. Solo dos, 0,5 p cada una (1 p)."
+    "Porque <mark class=\"clave-criterio\">carecen de las enzimas</mark> necesarias para fabricar sus componentes (ácido nucleico, cápsida) y <mark class=\"clave-criterio\">no tienen ribosomas</mark>, por lo que deben utilizar los de las células parasitadas, etc. Solo dos, 0,5 p cada una (1 p). <span class=\"redactado\">Tampoco producen ATP: sin metabolismo propio, fuera de la célula son partículas inertes.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2009 (recopilación por temas) · Microbiología",
@@ -39787,11 +39787,11 @@ window.BIOCELIA_HISTORICO = {
    "q": "El siguiente esquema representa la estructura de una molécula biológica:<br>a) Indique de qué molécula se trata [0,1] e identifique los elementos señalados con las letras A, B y C [0,6]. ¿Qué representan las líneas de puntos? [0,1]. ¿Qué indican los números 5′ y 3′? [0,2].<br>b) Cite dos procesos fundamentales para la vida relacionados con esta molécula [0,2] y explique el significado biológico de cada uno [0,8].",
    "c": [
     "a) Molécula de <mark class=\"clave-criterio\">ADN</mark> (0,1 p).",
-    "A: <mark class=\"clave-criterio\">grupo fosfato</mark>; B: <mark class=\"clave-criterio\">desoxirribosa</mark>; C: <mark class=\"clave-criterio\">base nitrogenada</mark>. 0,2 p cada uno (0,6 p).",
-    "Líneas de puntos: <mark class=\"clave-criterio\">puentes de hidrógeno</mark> (0,1 p).",
-    "5′ y 3′: los <mark class=\"clave-criterio\">extremos</mark> o la <mark class=\"clave-criterio\">dirección</mark> de una cadena sencilla de ADN (0,2 p).",
+    "A: <mark class=\"clave-criterio\">grupo fosfato</mark>; B: <mark class=\"clave-criterio\">desoxirribosa</mark>; C: <mark class=\"clave-criterio\">base nitrogenada</mark>. 0,2 p cada uno (0,6 p). <span class=\"redactado\">Cada nucleótido está formado por un fosfato, una desoxirribosa y una base nitrogenada.</span>",
+    "Líneas de puntos: <mark class=\"clave-criterio\">puentes de hidrógeno</mark> (0,1 p). <span class=\"redactado\">Unen las bases complementarias: A-T por dos puentes de hidrógeno y G-C por tres.</span>",
+    "5′ y 3′: los <mark class=\"clave-criterio\">extremos</mark> o la <mark class=\"clave-criterio\">dirección</mark> de una cadena sencilla de ADN (0,2 p). <span class=\"redactado\">El extremo 5′ tiene el fosfato libre y el 3′, el –OH libre; las dos cadenas son antiparalelas.</span>",
     "b) <mark class=\"clave-criterio\">Replicación</mark> y <mark class=\"clave-criterio\">transcripción</mark> (0,2 p).",
-    "Replicación: garantizar la <mark class=\"clave-criterio\">conservación y transmisión del material genético</mark> (0,4 p). Transcripción: permitir la <mark class=\"clave-criterio\">expresión de la información genética</mark> (0,4 p)."
+    "Replicación: garantizar la <mark class=\"clave-criterio\">conservación y transmisión del material genético</mark> (0,4 p). Transcripción: permitir la <mark class=\"clave-criterio\">expresión de la información genética</mark> (0,4 p). <span class=\"redactado\">La replicación ocurre en la fase S, antes de cada división, y es semiconservativa; en la transcripción se copia un gen a ARN, que después se traduce a proteína.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2002 (recopilación por temas) · Genética molecular",
@@ -39816,9 +39816,9 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>I.</b> Explique en qué consiste el proyecto Genoma Humano [0,7]. Describa dos ventajas y dos inconvenientes de su utilización [0,8]. <i>(1,5 puntos)</i><br><br><b>II.</b> Exponga el concepto de mutación [0,4] y explique sus consecuencias [0,4]. Indique la diferencia entre las mutaciones espontáneas e inducidas [0,3] y cite dos ejemplos de agentes mutagénicos [0,4]. <i>(1,5 puntos)</i>",
    "puntos": 3.0,
    "c": [
-    "<b>I.</b> <mark class=\"clave-criterio\">Localización y secuenciación de genes humanos</mark> (0,7 p).",
-    "<b>I.</b> Ventajas: <mark class=\"clave-criterio\">curaciones</mark>, <mark class=\"clave-criterio\">farmacología moderna</mark>, etc. 0,2 p cada una (0,4 p).",
-    "<b>I.</b> Inconvenientes: clonaciones incontroladas, <mark class=\"clave-criterio\">utilización lucrativa</mark> de estos conocimientos, efectos secundarios desconocidos, <mark class=\"clave-criterio\">discriminación social</mark>, etc. 0,2 p cada uno (0,4 p).",
+    "<b>I.</b> <mark class=\"clave-criterio\">Localización y secuenciación de genes humanos</mark> (0,7 p). <span class=\"redactado\">Se completó a comienzos de este siglo: permitió conocer la secuencia de bases del ADN humano y localizar los genes en los cromosomas.</span>",
+    "<b>I.</b> Ventajas: <mark class=\"clave-criterio\">curaciones</mark>, <mark class=\"clave-criterio\">farmacología moderna</mark>, etc. 0,2 p cada una (0,4 p). <span class=\"redactado\">Por ejemplo, el diagnóstico precoz de enfermedades genéticas, la terapia génica o fármacos adaptados a cada persona.</span>",
+    "<b>I.</b> Inconvenientes: clonaciones incontroladas, <mark class=\"clave-criterio\">utilización lucrativa</mark> de estos conocimientos, efectos secundarios desconocidos, <mark class=\"clave-criterio\">discriminación social</mark>, etc. 0,2 p cada uno (0,4 p). <span class=\"redactado\">Por ejemplo, que una aseguradora o una empresa discrimine a alguien por sus genes; por eso la información genética está protegida.</span>",
     "<b>II.</b> Concepto (0,4 p). <span class=\"redactado\">Alteración en el material genético.</span>",
     "<b>II.</b> Consecuencias (<mark class=\"clave-criterio\">evolutivas</mark> y <mark class=\"clave-criterio\">perjudiciales</mark>) (0,4 p).",
     "<b>II.</b> Diferencia (0,3 p). <span class=\"redactado\">Las espontáneas surgen sin causa externa aparente, por ejemplo por errores de replicación; las inducidas las provocan agentes mutagénicos.</span>",
@@ -39849,8 +39849,8 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>I.</b> Explique el fundamento de la mejora genética clásica mediante selección artificial [0,75] y exponga tres diferencias con la mejora mediante ingeniería genética [0,75]. <i>(1,5 puntos)</i><br><br><b>II.</b> Por la acción de un mutágeno se produce la sustitución de una base por otra en una de las cadenas de un gen que codifica una proteína. Sin que se produzca reparación tienen lugar sucesivas divisiones celulares. ¿Presentan todas las células descendientes la mutación? ¿Por qué? [0,5]. Explique en qué medida puede verse afectada la funcionalidad de la proteína sintetizada en una de las células mutantes [0,5]. <i>(1 punto)</i>",
    "puntos": 2.5,
    "c": [
-    "<b>I.</b> Selección artificial: <mark class=\"clave-criterio\">seleccionar los mejores fenotipos como reproductores</mark> en <mark class=\"clave-criterio\">generaciones sucesivas</mark> (0,75 p).",
-    "<b>I.</b> Diferencias, por ejemplo: se utilizan las <mark class=\"clave-criterio\">técnicas de ADN recombinante</mark>, <mark class=\"clave-criterio\">no se requieren muchas generaciones</mark>, se pueden utilizar <mark class=\"clave-criterio\">genes de otra especie</mark>, etc. (0,75 p).",
+    "<b>I.</b> Selección artificial: <mark class=\"clave-criterio\">seleccionar los mejores fenotipos como reproductores</mark> en <mark class=\"clave-criterio\">generaciones sucesivas</mark> (0,75 p). <span class=\"redactado\">Se escogen como reproductores los individuos con los caracteres deseados (más leche, más grano) y se repite durante muchas generaciones; solo se puede trabajar con la variabilidad que ya existe en la especie.</span>",
+    "<b>I.</b> Diferencias, por ejemplo: se utilizan las <mark class=\"clave-criterio\">técnicas de ADN recombinante</mark>, <mark class=\"clave-criterio\">no se requieren muchas generaciones</mark>, se pueden utilizar <mark class=\"clave-criterio\">genes de otra especie</mark>, etc. (0,75 p). <span class=\"redactado\">La ingeniería genética introduce directamente un gen concreto, que puede proceder de otra especie (organismos transgénicos), y el resultado se obtiene en una generación.</span>",
     "<b>II.</b> Respuesta razonada: <mark class=\"clave-criterio\">no</mark>, al presentarse el ADN mutado <mark class=\"clave-criterio\">solo en una de las dos células hijas</mark> (0,5 p). <span class=\"redactado\">Cada cadena sirve de molde en la replicación: la que lleva la base cambiada origina un ADN mutante y la otra, un ADN normal.</span>",
     "<b>II.</b> Respuesta razonada: desde que <mark class=\"clave-criterio\">no haya afección</mark>, porque el nuevo codón codifique el <mark class=\"clave-criterio\">mismo aminoácido</mark>, hasta que la proteína quede <mark class=\"clave-criterio\">inactivada</mark> (0,5 p)."
    ],
@@ -39940,9 +39940,9 @@ window.BIOCELIA_HISTORICO = {
    "puntos": 2.5,
    "c": [
     "<b>I.</b> El núcleo de una célula hepática diferenciada <mark class=\"clave-criterio\">tiene todos los genes</mark> y, por tanto, <mark class=\"clave-criterio\">el nuevo individuo también</mark> (1 p). <span class=\"redactado\">La diferenciación se debe a qué genes se expresan, no a que se pierdan genes.</span>",
-    "<b>II.</b> Recombinación genética: <mark class=\"clave-criterio\">intercambio de segmentos cromosómicos</mark> (0,5 p).",
-    "<b>II.</b> Segregación cromosómica: <mark class=\"clave-criterio\">combinación al azar de cromosomas</mark> (0,5 p).",
-    "<b>II.</b> Importancia evolutiva (ideas que debe contener la respuesta correcta: 1) <mark class=\"clave-criterio\">fuente de variabilidad</mark> junto con la mutación y 2) <mark class=\"clave-criterio\">necesidad de la variabilidad</mark> para el proceso de <mark class=\"clave-criterio\">selección natural</mark>). 0,25 p cada una (0,5 p)."
+    "<b>II.</b> Recombinación genética: <mark class=\"clave-criterio\">intercambio de segmentos cromosómicos</mark> (0,5 p). <span class=\"redactado\">Ocurre por sobrecruzamiento en la profase I de la meiosis, entre cromátidas no hermanas de los homólogos.</span>",
+    "<b>II.</b> Segregación cromosómica: <mark class=\"clave-criterio\">combinación al azar de cromosomas</mark> (0,5 p). <span class=\"redactado\">En la anafase I, cada par de homólogos se reparte al azar entre los dos polos, de forma independiente de los demás pares.</span>",
+    "<b>II.</b> Importancia evolutiva (ideas que debe contener la respuesta correcta: 1) <mark class=\"clave-criterio\">fuente de variabilidad</mark> junto con la mutación y 2) <mark class=\"clave-criterio\">necesidad de la variabilidad</mark> para el proceso de <mark class=\"clave-criterio\">selección natural</mark>). 0,25 p cada una (0,5 p). <span class=\"redactado\">Las dos hacen que cada gameto sea genéticamente distinto; los individuos con las combinaciones más favorables dejan más descendencia.</span>"
    ],
    "isNew": false,
    "competencial": false,
@@ -39969,8 +39969,8 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>I.</b> Analice la estructura secundaria [0,75] y terciaria [0,75] de las proteínas haciendo especial hincapié en las fuerzas que las mantienen. <i>(1,5 puntos)</i><br><br><b>II.</b> Describa cinco funciones desempeñadas por las proteínas en los seres vivos [1,5]. <i>(1,5 puntos)</i>",
    "puntos": 3.0,
    "c": [
-    "<b>I.</b> Estructura <mark class=\"clave-criterio\">secundaria</mark>: <mark class=\"clave-criterio\">hélice α</mark> y <mark class=\"clave-criterio\">hoja plegada</mark>, mantenidas por enlaces peptídicos y <mark class=\"clave-criterio\">enlaces de hidrógeno</mark> (0,75 p).",
-    "<b>I.</b> Estructura <mark class=\"clave-criterio\">terciaria</mark>: <mark class=\"clave-criterio\">proteínas fibrosas y globulares</mark>, mantenidas por enlaces peptídicos, <mark class=\"clave-criterio\">puentes de hidrógeno</mark>, <mark class=\"clave-criterio\">fuerzas de Van der Waals</mark>, <mark class=\"clave-criterio\">fuerzas electrostáticas</mark> y <mark class=\"clave-criterio\">puentes disulfuro</mark> (0,75 p).",
+    "<b>I.</b> Estructura <mark class=\"clave-criterio\">secundaria</mark>: <mark class=\"clave-criterio\">hélice α</mark> y <mark class=\"clave-criterio\">hoja plegada</mark>, mantenidas por enlaces peptídicos y <mark class=\"clave-criterio\">enlaces de hidrógeno</mark> (0,75 p). <span class=\"redactado\">Los puentes de hidrógeno se forman entre los grupos C=O y N–H de los enlaces peptídicos: en la α-hélice, dentro de la misma cadena; en la lámina β, entre tramos vecinos.</span>",
+    "<b>I.</b> Estructura <mark class=\"clave-criterio\">terciaria</mark>: <mark class=\"clave-criterio\">proteínas fibrosas y globulares</mark>, mantenidas por enlaces peptídicos, <mark class=\"clave-criterio\">puentes de hidrógeno</mark>, <mark class=\"clave-criterio\">fuerzas de Van der Waals</mark>, <mark class=\"clave-criterio\">fuerzas electrostáticas</mark> y <mark class=\"clave-criterio\">puentes disulfuro</mark> (0,75 p). <span class=\"redactado\">La terciaria es el plegamiento de toda la cadena en el espacio; los enlaces se establecen entre los radicales de los aminoácidos, y los puentes disulfuro, entre cisteínas, son covalentes. De ella depende la función, por ejemplo el centro activo de las enzimas.</span>",
     "<b>II.</b> Descripción de cinco funciones (<mark class=\"clave-criterio\">estructural</mark>, <mark class=\"clave-criterio\">transporte</mark>, <mark class=\"clave-criterio\">enzimática</mark>, <mark class=\"clave-criterio\">movimiento</mark>, <mark class=\"clave-criterio\">contracción</mark>, <mark class=\"clave-criterio\">reserva</mark>, <mark class=\"clave-criterio\">inmunológica</mark>, etc.). Cada función, 0,3 p (1,5 p). <span class=\"redactado\">Por ejemplo: estructural, el colágeno; transporte, la hemoglobina; enzimática, la amilasa; contráctil, la miosina; defensa, los anticuerpos.</span>"
    ],
    "isNew": false,
@@ -40058,10 +40058,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": true,
    "q": "Se presenta un fragmento de ADN; la flecha indica el sentido de lectura. Además se muestra el código genético. Conteste las siguientes cuestiones:<br>a) Indique la secuencia de bases del ARN mensajero transcrito [0,5] y la secuencia de aminoácidos de la proteína sintetizada [0,5].<br>b) ¿Cómo se llaman los procesos implicados en el apartado anterior? [0,5]. Si se conociese la secuencia de aminoácidos de una proteína, ¿se podría averiguar la secuencia de bases del ADN que la codifica? [0,5]. Razone la respuesta.",
    "c": [
-    "a) ARNm: <mark class=\"clave-criterio\">AUGCCCUCUAGUGGAGUAAUCCACUGGUAA</mark> (0,5 p).",
-    "Proteína: <mark class=\"clave-criterio\">Met-Pro-Ser-Ser-Gly-Val-Ile-His-Trp</mark> (stop) (0,5 p).",
-    "b) <mark class=\"clave-criterio\">Transcripción</mark> y <mark class=\"clave-criterio\">traducción</mark> (0,5 p).",
-    "<mark class=\"clave-criterio\">No</mark> se podría conocer la secuencia exacta (por ejemplo: <mark class=\"clave-criterio\">código degenerado</mark>, <mark class=\"clave-criterio\">eliminación de intrones</mark>; una sola razón basta para la máxima nota) (0,5 p)."
+    "a) ARNm: <mark class=\"clave-criterio\">AUGCCCUCUAGUGGAGUAAUCCACUGGUAA</mark> (0,5 p). <span class=\"redactado\">El ARNm es complementario de la cadena molde del ADN, con U en lugar de T.</span>",
+    "Proteína: <mark class=\"clave-criterio\">Met-Pro-Ser-Ser-Gly-Val-Ile-His-Trp</mark> (stop) (0,5 p). <span class=\"redactado\">Se lee de tres en tres desde el codón de inicio AUG (metionina) hasta un codón de terminación (UAA), que no codifica ningún aminoácido.</span>",
+    "b) <mark class=\"clave-criterio\">Transcripción</mark> y <mark class=\"clave-criterio\">traducción</mark> (0,5 p). <span class=\"redactado\">La transcripción ocurre en el núcleo y la traducción en los ribosomas.</span>",
+    "<mark class=\"clave-criterio\">No</mark> se podría conocer la secuencia exacta (por ejemplo: <mark class=\"clave-criterio\">código degenerado</mark>, <mark class=\"clave-criterio\">eliminación de intrones</mark>; una sola razón basta para la máxima nota) (0,5 p). <span class=\"redactado\">Un aminoácido puede tener varios codones, así que no se sabe cuál de ellos tenía el gen; además, en eucariotas los genes tienen intrones, que no se traducen.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2003 (recopilación por temas) · Genética molecular",
@@ -40171,9 +40171,9 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>I.</b> Indique qué es la replicación [0,25]. Describa este proceso [1]. ¿Qué significa que la replicación es semiconservativa? [0,25]. <i>(1,5 puntos)</i><br><br><b>II.</b> Defina el proceso de traducción [0,4], indique dónde tiene lugar [0,1] y describa cómo se realiza [1]. <i>(1,5 puntos)</i>",
    "puntos": 3.0,
    "c": [
-    "<b>I.</b> Replicación: <mark class=\"clave-criterio\">proceso de síntesis del ADN</mark> (0,25 p).",
-    "<b>I.</b> Descripción del proceso (deberá incluir: <mark class=\"clave-criterio\">horquillas de replicación</mark>, replicación <mark class=\"clave-criterio\">bidireccional</mark>, replicación <mark class=\"clave-criterio\">continua de una hebra y discontinua de la otra</mark>, papel fundamental de las <mark class=\"clave-criterio\">enzimas</mark>) (1 p).",
-    "<b>I.</b> Semiconservativa: la molécula de ADN resultante posee <mark class=\"clave-criterio\">una cadena vieja y otra de nueva síntesis</mark> (0,25 p).",
+    "<b>I.</b> Replicación: <mark class=\"clave-criterio\">proceso de síntesis del ADN</mark> (0,25 p). <span class=\"redactado\">Se produce en la fase S de la interfase, antes de la división celular.</span>",
+    "<b>I.</b> Descripción del proceso (deberá incluir: <mark class=\"clave-criterio\">horquillas de replicación</mark>, replicación <mark class=\"clave-criterio\">bidireccional</mark>, replicación <mark class=\"clave-criterio\">continua de una hebra y discontinua de la otra</mark>, papel fundamental de las <mark class=\"clave-criterio\">enzimas</mark>) (1 p). <span class=\"redactado\">La helicasa separa las cadenas en el origen y se forman dos horquillas que avanzan en sentidos opuestos. La primasa sintetiza un cebador de ARN; la ADN polimerasa añade nucleótidos solo en sentido 5′→3′, así que una hebra se sintetiza de forma continua y la otra en fragmentos de Okazaki, que une la ligasa.</span>",
+    "<b>I.</b> Semiconservativa: la molécula de ADN resultante posee <mark class=\"clave-criterio\">una cadena vieja y otra de nueva síntesis</mark> (0,25 p). <span class=\"redactado\">Lo demostraron Meselson y Stahl con nitrógeno pesado (¹⁵N).</span>",
     "<b>II.</b> Definición (0,4 p). <span class=\"redactado\">Síntesis de una cadena polipeptídica según la secuencia de codones de un ARN mensajero.</span>",
     "<b>II.</b> Localización: <mark class=\"clave-criterio\">ribosomas</mark> (0,1 p).",
     "<b>II.</b> Descripción de las etapas: <mark class=\"clave-criterio\">iniciación</mark>, <mark class=\"clave-criterio\">elongación</mark> y <mark class=\"clave-criterio\">terminación</mark> (1 p). <span class=\"redactado\">Iniciación: la subunidad menor se une al ARNm y el ARNt iniciador con metionina se empareja con el codón AUG; luego se une la subunidad mayor. Elongación: entran ARNt según los codones, se forman enlaces peptídicos y el ribosoma se trasloca. Terminación: un codón de parada provoca la liberación del polipéptido.</span>"
@@ -40321,7 +40321,7 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>I.</b> Durante la fotosíntesis se producen muchas reacciones enzimáticas. Al aumentar la temperatura se incrementa la intensidad fotosintética; sin embargo, las temperaturas altas pueden disminuir el rendimiento de la fotosíntesis. Dé una explicación razonada a estos hechos [1]. <i>(1 punto)</i><br><br><b>II.</b> La semejanza que existe entre los hijos y sus padres es explicable por dos de los siguientes procesos: replicación, transcripción, traducción, reproducción sexual. Indique cuáles [0,2]. Razone la respuesta [0,8]. <i>(1 punto)</i>",
    "puntos": 2,
    "c": [
-    "<b>I.</b> Como proceso metabólico, la <mark class=\"clave-criterio\">intensidad fotosintética aumenta con la temperatura hasta un máximo</mark>, y con las temperaturas altas <mark class=\"clave-criterio\">se desnaturalizan las enzimas</mark> (1 p).",
+    "<b>I.</b> Como proceso metabólico, la <mark class=\"clave-criterio\">intensidad fotosintética aumenta con la temperatura hasta un máximo</mark>, y con las temperaturas altas <mark class=\"clave-criterio\">se desnaturalizan las enzimas</mark> (1 p). <span class=\"redactado\">Al subir la temperatura, las moléculas se mueven más deprisa y chocan más, hasta la temperatura óptima; por encima, el calor rompe los enlaces débiles que mantienen la forma de enzimas como la RuBisCO y la actividad cae.</span>",
     "<b>II.</b> Procesos: <mark class=\"clave-criterio\">replicación</mark> y <mark class=\"clave-criterio\">reproducción sexual</mark>. 0,1 p cada uno (0,2 p).",
     "<b>II.</b> Justificación: la <mark class=\"clave-criterio\">replicación</mark> es necesaria para la <mark class=\"clave-criterio\">duplicación del material genético</mark> en los padres, y la <mark class=\"clave-criterio\">reproducción sexual</mark> permite que el <mark class=\"clave-criterio\">ADN replicado pase de una generación a otra</mark> (0,8 p)."
    ],
@@ -40376,10 +40376,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Exponga el concepto de mutación [0,6] y diferencie entre mutación espontánea e inducida [0,4]. ¿Qué efectos puede tener una mutación? [0,3]. ¿Por qué las mutaciones son importantes desde el punto de vista evolutivo? [0,7].",
    "c": [
-    "Mutación: <mark class=\"clave-criterio\">cambios en el material genético</mark> (0,6 p).",
-    "<mark class=\"clave-criterio\">Espontánea</mark>: <mark class=\"clave-criterio\">sin causa aparente</mark>; <mark class=\"clave-criterio\">inducida</mark>: causada por <mark class=\"clave-criterio\">agentes mutagénicos</mark> (0,4 p).",
-    "Efectos: <mark class=\"clave-criterio\">inocuos</mark>, <mark class=\"clave-criterio\">beneficiosos</mark> y <mark class=\"clave-criterio\">perjudiciales</mark> (0,3 p).",
-    "Importancia evolutiva: <mark class=\"clave-criterio\">origen de nuevas variantes genéticas</mark> (<mark class=\"clave-criterio\">variabilidad genética</mark>) (0,7 p)."
+    "Mutación: <mark class=\"clave-criterio\">cambios en el material genético</mark> (0,6 p). <span class=\"redactado\">Puede afectar a un gen, a la estructura de un cromosoma o al número de cromosomas; solo se hereda si afecta a las células germinales.</span>",
+    "<mark class=\"clave-criterio\">Espontánea</mark>: <mark class=\"clave-criterio\">sin causa aparente</mark>; <mark class=\"clave-criterio\">inducida</mark>: causada por <mark class=\"clave-criterio\">agentes mutagénicos</mark> (0,4 p). <span class=\"redactado\">Las espontáneas se deben, por ejemplo, a errores de replicación y ocurren con muy baja frecuencia; los mutágenos, como los rayos UV, los rayos X o algunas sustancias químicas, aumentan esa frecuencia.</span>",
+    "Efectos: <mark class=\"clave-criterio\">inocuos</mark>, <mark class=\"clave-criterio\">beneficiosos</mark> y <mark class=\"clave-criterio\">perjudiciales</mark> (0,3 p). <span class=\"redactado\">La mayoría son neutras o perjudiciales, y causan enfermedades como la anemia falciforme o el cáncer.</span>",
+    "Importancia evolutiva: <mark class=\"clave-criterio\">origen de nuevas variantes genéticas</mark> (<mark class=\"clave-criterio\">variabilidad genética</mark>) (0,7 p). <span class=\"redactado\">Son la única fuente de alelos nuevos; la recombinación solo combina los que ya existen. La selección natural aumenta la frecuencia de las variantes más favorables.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2004 (recopilación por temas) · Genética molecular",
@@ -40603,10 +40603,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": true,
    "q": "En relación con la figura adjunta, responda las siguientes cuestiones:<br>a) ¿Cómo se denominan los dos procesos biológicos representados? [0,5]. Identifique los distintos elementos de la figura señalados con números [0,5].<br>b) Identifique los extremos del elemento 2 (a y b) y los extremos del elemento 5 (c y d) [0,5]. ¿Cuál es la composición química de los elementos señalados con los números 3 y 4? [0,5].",
    "c": [
-    "a) <mark class=\"clave-criterio\">Transcripción</mark> y <mark class=\"clave-criterio\">traducción</mark> (0,5 p).",
+    "a) <mark class=\"clave-criterio\">Transcripción</mark> y <mark class=\"clave-criterio\">traducción</mark> (0,5 p). <span class=\"redactado\">Ocurren a la vez porque es una célula procariota, sin núcleo: el ARNm se traduce mientras se transcribe.</span>",
     "1: <mark class=\"clave-criterio\">ADN</mark>; 2: <mark class=\"clave-criterio\">ARNm</mark>; 3: <mark class=\"clave-criterio\">subunidad pequeña del ribosoma</mark>; 4: <mark class=\"clave-criterio\">subunidad grande del ribosoma</mark>; 5: <mark class=\"clave-criterio\">proteína</mark> (0,5 p).",
-    "b) Extremo <mark class=\"clave-criterio\">5′ del ARNm</mark> (a); extremo <mark class=\"clave-criterio\">3′ del ARNm</mark> (b); extremo <mark class=\"clave-criterio\">N-terminal</mark> (d) y <mark class=\"clave-criterio\">C-terminal</mark> (c) de la proteína (0,5 p).",
-    "Composición de 3 y 4: <mark class=\"clave-criterio\">ARNr y proteínas</mark> (0,5 p)."
+    "b) Extremo <mark class=\"clave-criterio\">5′ del ARNm</mark> (a); extremo <mark class=\"clave-criterio\">3′ del ARNm</mark> (b); extremo <mark class=\"clave-criterio\">N-terminal</mark> (d) y <mark class=\"clave-criterio\">C-terminal</mark> (c) de la proteína (0,5 p). <span class=\"redactado\">El ARNm se sintetiza en sentido 5′→3′ y el ribosoma lo lee en el mismo sentido; la proteína crece desde el extremo amino (N-terminal) hasta el carboxilo (C-terminal).</span>",
+    "Composición de 3 y 4: <mark class=\"clave-criterio\">ARNr y proteínas</mark> (0,5 p). <span class=\"redactado\">Los ribosomas bacterianos son 70S, con subunidades de 50S y 30S.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2005 (recopilación por temas) · Genética molecular",
@@ -40837,7 +40837,7 @@ window.BIOCELIA_HISTORICO = {
    "competencial": true,
    "q": "En relación con la figura adjunta, responda las siguientes cuestiones:<br>a) Nombre el tipo de molécula de que se trata [0,25]. ¿Cómo se denominan sus monómeros [0,2] y cuál es su composición? [0,3]. Considerando la molécula en sentido longitudinal, las notaciones 3′ y 5′ se sitúan en posiciones opuestas. Explique el significado de este hecho [0,25].<br>b) ¿Cómo se denomina el proceso por el cual esta molécula se duplica? [0,2]. Explíquelo brevemente [0,8].",
    "c": [
-    "a) <mark class=\"clave-criterio\">ADN</mark> (0,25 p). Monómeros: <mark class=\"clave-criterio\">nucleótidos</mark> (0,2 p). Composición: <mark class=\"clave-criterio\">ácido fosfórico</mark>, <mark class=\"clave-criterio\">pentosa</mark> (desoxirribosa) y <mark class=\"clave-criterio\">base nitrogenada</mark> (0,3 p).",
+    "a) <mark class=\"clave-criterio\">ADN</mark> (0,25 p). Monómeros: <mark class=\"clave-criterio\">nucleótidos</mark> (0,2 p). Composición: <mark class=\"clave-criterio\">ácido fosfórico</mark>, <mark class=\"clave-criterio\">pentosa</mark> (desoxirribosa) y <mark class=\"clave-criterio\">base nitrogenada</mark> (0,3 p). <span class=\"redactado\">Es lo que hace el VIH: el ADN integrado (provirus) se transcribe con la maquinaria de la célula y se fabrican nuevos virus.</span>",
     "Las notaciones opuestas se deben a que <mark class=\"clave-criterio\">las cadenas son antiparalelas</mark> (0,25 p).",
     "b) <mark class=\"clave-criterio\">Replicación</mark> (0,2 p).",
     "Para la máxima puntuación deben mencionarse: <mark class=\"clave-criterio\">ADN</mark>, <mark class=\"clave-criterio\">origen de replicación</mark>, cadenas <mark class=\"clave-criterio\">adelantada y retrasada</mark>, <mark class=\"clave-criterio\">cebador</mark>, <mark class=\"clave-criterio\">fragmento de Okazaki</mark>, <mark class=\"clave-criterio\">ADN polimerasa</mark> y <mark class=\"clave-criterio\">ligasa</mark> (0,8 p)."
@@ -41067,8 +41067,8 @@ window.BIOCELIA_HISTORICO = {
    "c": [
     "<b>I.</b> Relación entre las <mark class=\"clave-criterio\">autopsias</mark> y la atención a las parturientas <mark class=\"clave-criterio\">sin la debida asepsia</mark>: los propios <mark class=\"clave-criterio\">cirujanos eran los transmisores de las infecciones</mark> que causaban la elevada mortalidad (0,5 p).",
     "<b>I.</b> Cualquier recomendación que implique la <mark class=\"clave-criterio\">desinfección del material y de las manos</mark> de los cirujanos que atendían partos después de las autopsias (0,5 p).",
-    "<b>II.</b> <mark class=\"clave-criterio\">No es aconsejable</mark>, ya que los <mark class=\"clave-criterio\">ribosomas 70S</mark> también están en las <mark class=\"clave-criterio\">mitocondrias</mark> y se paralizarían las funciones mitocondriales (0,5 p).",
-    "<b>II.</b> <mark class=\"clave-criterio\">No</mark>, porque los <mark class=\"clave-criterio\">virus carecen de ribosomas</mark> y no tendría ninguna utilidad frente a ellos (0,5 p)."
+    "<b>II.</b> <mark class=\"clave-criterio\">No es aconsejable</mark>, ya que los <mark class=\"clave-criterio\">ribosomas 70S</mark> también están en las <mark class=\"clave-criterio\">mitocondrias</mark> y se paralizarían las funciones mitocondriales (0,5 p). <span class=\"redactado\">Según la teoría endosimbiótica, las mitocondrias proceden de bacterias, por eso sus ribosomas también son 70S; los ribosomas del citoplasma humano son 80S.</span>",
+    "<b>II.</b> <mark class=\"clave-criterio\">No</mark>, porque los <mark class=\"clave-criterio\">virus carecen de ribosomas</mark> y no tendría ninguna utilidad frente a ellos (0,5 p). <span class=\"redactado\">Los virus usan los ribosomas de la célula que infectan, y los antibióticos solo actúan sobre estructuras propias de las bacterias.</span>"
    ],
    "isNew": false,
    "competencial": false,
@@ -41210,8 +41210,8 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Explique cuál es la finalidad de la replicación y de la transcripción [0,5]. Explique la traducción [1]. Dibuje el inicio de la traducción [0,5].",
    "c": [
-    "Replicación: <mark class=\"clave-criterio\">duplicación del material genético</mark>; transcripción: <mark class=\"clave-criterio\">síntesis de los diferentes ARN</mark>. 0,25 p cada una (0,5 p).",
-    "Traducción: se indicará cómo se <mark class=\"clave-criterio\">inicia</mark>, cómo se <mark class=\"clave-criterio\">elonga</mark> y cómo <mark class=\"clave-criterio\">termina</mark> la síntesis de la proteína. Para la máxima puntuación deberá mencionarse: <mark class=\"clave-criterio\">unión del ARNm al ribosoma</mark>, <mark class=\"clave-criterio\">ARNt</mark>, <mark class=\"clave-criterio\">enlace peptídico</mark> y <mark class=\"clave-criterio\">polipéptido</mark> (1 p).",
+    "Replicación: <mark class=\"clave-criterio\">duplicación del material genético</mark>; transcripción: <mark class=\"clave-criterio\">síntesis de los diferentes ARN</mark>. 0,25 p cada una (0,5 p). <span class=\"redactado\">La replicación ocurre en la fase S, antes de cada división, para que cada célula hija reciba una copia del ADN; en la transcripción se copia un gen a ARN.</span>",
+    "Traducción: se indicará cómo se <mark class=\"clave-criterio\">inicia</mark>, cómo se <mark class=\"clave-criterio\">elonga</mark> y cómo <mark class=\"clave-criterio\">termina</mark> la síntesis de la proteína. Para la máxima puntuación deberá mencionarse: <mark class=\"clave-criterio\">unión del ARNm al ribosoma</mark>, <mark class=\"clave-criterio\">ARNt</mark>, <mark class=\"clave-criterio\">enlace peptídico</mark> y <mark class=\"clave-criterio\">polipéptido</mark> (1 p). <span class=\"redactado\">Iniciación: la subunidad menor del ribosoma se une al ARNm y, en el codón de inicio AUG, el ARNt de la metionina; después se une la subunidad mayor. Elongación: entra en el sitio A el ARNt cuyo anticodón es complementario del codón, se forma el enlace peptídico y el ribosoma avanza un codón. Terminación: al llegar a un codón de terminación, un factor de liberación libera la proteína y el ribosoma se separa.</span>",
     "Dibujo: deberán quedar representadas las <mark class=\"clave-criterio\">subunidades ribosómicas</mark> sobre una <mark class=\"clave-criterio\">señal de inicio</mark> en el ARNm y con la <mark class=\"clave-criterio\">metionina</mark> en su correspondiente <mark class=\"clave-criterio\">ARNt en el lugar P</mark> (0,5 p)."
    ],
    "origen": {
@@ -41263,9 +41263,9 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Defina la estructura primaria de las proteínas, indique qué tipo de enlace la caracteriza y nombre los grupos químicos que participan en el mismo [0,9]. Explique qué se entiende por desnaturalización de una proteína [0,5] y nombre los orgánulos que están implicados en su síntesis y empaquetamiento [0,6].",
    "c": [
-    "Definición: <mark class=\"clave-criterio\">secuencia lineal</mark> de aminoácidos unidos en un determinado orden. Enlace: <mark class=\"clave-criterio\">peptídico</mark>. Grupos: <mark class=\"clave-criterio\">carboxilo</mark> de un aminoácido y <mark class=\"clave-criterio\">amino</mark> del otro (0,9 p).",
-    "Desnaturalización: <mark class=\"clave-criterio\">pérdida de las estructuras secundaria, terciaria y cuaternaria</mark>, que <mark class=\"clave-criterio\">puede o no ser reversible</mark> (0,5 p).",
-    "Síntesis: <mark class=\"clave-criterio\">ribosomas</mark> y <mark class=\"clave-criterio\">retículo endoplasmático</mark>; empaquetamiento: <mark class=\"clave-criterio\">complejo de Golgi</mark>. 0,2 p cada orgánulo (0,6 p)."
+    "Definición: <mark class=\"clave-criterio\">secuencia lineal</mark> de aminoácidos unidos en un determinado orden. Enlace: <mark class=\"clave-criterio\">peptídico</mark>. Grupos: <mark class=\"clave-criterio\">carboxilo</mark> de un aminoácido y <mark class=\"clave-criterio\">amino</mark> del otro (0,9 p). <span class=\"redactado\">La secuencia se escribe desde el extremo amino (N-terminal) hasta el carboxilo (C-terminal); el enlace se forma por condensación, con pérdida de agua. La secuencia determina todas las demás estructuras.</span>",
+    "Desnaturalización: <mark class=\"clave-criterio\">pérdida de las estructuras secundaria, terciaria y cuaternaria</mark>, que <mark class=\"clave-criterio\">puede o no ser reversible</mark> (0,5 p). <span class=\"redactado\">La causan el calor, los pH extremos o algunas sustancias, que rompen los enlaces débiles; la proteína pierde su función, pero no se rompen los enlaces peptídicos.</span>",
+    "Síntesis: <mark class=\"clave-criterio\">ribosomas</mark> y <mark class=\"clave-criterio\">retículo endoplasmático</mark>; empaquetamiento: <mark class=\"clave-criterio\">complejo de Golgi</mark>. 0,2 p cada orgánulo (0,6 p). <span class=\"redactado\">Las proteínas de membrana y de secreción entran en el RER, donde se pliegan y comienzan a glucosilarse, y en el Golgi maduran y se empaquetan en vesículas.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2007 (recopilación por temas) · Proteínas",
@@ -41290,9 +41290,9 @@ window.BIOCELIA_HISTORICO = {
    "c": [
     "a) Un <mark class=\"clave-criterio\">virus</mark> (0,2 p).",
     "A: <mark class=\"clave-criterio\">glucoproteína</mark>; B: <mark class=\"clave-criterio\">envoltura</mark>; C: <mark class=\"clave-criterio\">cápsida</mark>; D: <mark class=\"clave-criterio\">ácido nucleico</mark>. 0,1 p cada una (0,4 p).",
-    "<mark class=\"clave-criterio\">Carecen de organización celular</mark>, <mark class=\"clave-criterio\">no tienen metabolismo propio</mark>, deben <mark class=\"clave-criterio\">aprovechar los recursos de la célula hospedadora</mark> para replicarse, etc. Solo dos, 0,2 p cada una (0,4 p).",
-    "b) A: participa en la <mark class=\"clave-criterio\">fijación del virus a la célula</mark> (0,2 p).",
-    "C: <mark class=\"clave-criterio\">proteica</mark>, <mark class=\"clave-criterio\">protege al ácido nucleico</mark> (0,3 p). D: <mark class=\"clave-criterio\">ARN o ADN</mark>, <mark class=\"clave-criterio\">lleva la información genética</mark> (0,3 p).",
+    "<mark class=\"clave-criterio\">Carecen de organización celular</mark>, <mark class=\"clave-criterio\">no tienen metabolismo propio</mark>, deben <mark class=\"clave-criterio\">aprovechar los recursos de la célula hospedadora</mark> para replicarse, etc. Solo dos, 0,2 p cada una (0,4 p). <span class=\"redactado\">Además, solo tienen un tipo de ácido nucleico, ADN o ARN.</span>",
+    "b) A: participa en la <mark class=\"clave-criterio\">fijación del virus a la célula</mark> (0,2 p). <span class=\"redactado\">Se une a receptores específicos de la membrana de la célula, por eso cada virus infecta ciertos tipos de células.</span>",
+    "C: <mark class=\"clave-criterio\">proteica</mark>, <mark class=\"clave-criterio\">protege al ácido nucleico</mark> (0,3 p). D: <mark class=\"clave-criterio\">ARN o ADN</mark>, <mark class=\"clave-criterio\">lleva la información genética</mark> (0,3 p). <span class=\"redactado\">La envoltura es una bicapa lipídica que el virus toma de la membrana de la célula al salir de ella por gemación.</span>",
     "<mark class=\"clave-criterio\">Gripe</mark>, <mark class=\"clave-criterio\">sarampión</mark>, <mark class=\"clave-criterio\">sida</mark>, etc. (0,2 p)."
    ],
    "origen": {
@@ -41319,7 +41319,7 @@ window.BIOCELIA_HISTORICO = {
    "puntos": 2,
    "c": [
     "<b>I.</b> La <mark class=\"clave-criterio\">herencia biológica</mark> es la <mark class=\"clave-criterio\">transmisión de caracteres</mark> de una generación a otra. Para ello es necesario obtener una <mark class=\"clave-criterio\">copia del ADN</mark> mediante la <mark class=\"clave-criterio\">replicación</mark>, y la <mark class=\"clave-criterio\">meiosis</mark> es la división celular que permite la <mark class=\"clave-criterio\">transmisión del ADN a la descendencia</mark> en los organismos con <mark class=\"clave-criterio\">reproducción sexual</mark> (1 p).",
-    "<b>II.</b> <mark class=\"clave-criterio\">Sí.</mark> El poder nutritivo de las proteínas radica en que son <mark class=\"clave-criterio\">fuente de aminoácidos</mark>; la desnaturalización <mark class=\"clave-criterio\">no afecta a la estructura primaria</mark> ni a los aminoácidos y por tanto <mark class=\"clave-criterio\">no afecta al poder nutritivo</mark> (1 p)."
+    "<b>II.</b> <mark class=\"clave-criterio\">Sí.</mark> El poder nutritivo de las proteínas radica en que son <mark class=\"clave-criterio\">fuente de aminoácidos</mark>; la desnaturalización <mark class=\"clave-criterio\">no afecta a la estructura primaria</mark> ni a los aminoácidos y por tanto <mark class=\"clave-criterio\">no afecta al poder nutritivo</mark> (1 p). <span class=\"redactado\">En la digestión, las proteasas hidrolizan los enlaces peptídicos y los aminoácidos se absorben igual; las proteínas desnaturalizadas incluso se digieren con más facilidad.</span>"
    ],
    "isNew": false,
    "competencial": false,
@@ -41346,8 +41346,8 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>I.</b> ¿Por qué en el tratamiento de enfermedades producidas por microorganismos los médicos recetan en unos casos antibióticos y en otros no? [0,5]. ¿Qué problemas causa el uso indiscriminado de los antibióticos en la lucha contra los microorganismos? [0,5]. Razone las respuestas. <i>(1 punto)</i><br><br><b>II.</b> ¿Podrían los 20 aminoácidos estar codificados por un código genético constituido por dipletes de las cuatro bases nitrogenadas? Razone la respuesta [1]. <i>(1 punto)</i>",
    "puntos": 2,
    "c": [
-    "<b>I.</b> Porque los antibióticos <mark class=\"clave-criterio\">eliminan bacterias y no virus</mark>: se recetan cuando la enfermedad es <mark class=\"clave-criterio\">bacteriana</mark> (0,5 p).",
-    "<b>I.</b> Pueden <mark class=\"clave-criterio\">seleccionar bacterias resistentes</mark> a su acción, y los antibióticos dejan de ser eficaces (0,5 p).",
+    "<b>I.</b> Porque los antibióticos <mark class=\"clave-criterio\">eliminan bacterias y no virus</mark>: se recetan cuando la enfermedad es <mark class=\"clave-criterio\">bacteriana</mark> (0,5 p). <span class=\"redactado\">Los antibióticos actúan sobre estructuras propias de las bacterias, como la pared o los ribosomas 70S; los virus no tienen esas estructuras.</span>",
+    "<b>I.</b> Pueden <mark class=\"clave-criterio\">seleccionar bacterias resistentes</mark> a su acción, y los antibióticos dejan de ser eficaces (0,5 p). <span class=\"redactado\">Por mutación o por plásmidos que pasan de unas bacterias a otras, algunas son resistentes; el antibiótico elimina las sensibles y las resistentes se multiplican (selección natural).</span>",
     "<b>II.</b> <mark class=\"clave-criterio\">No</mark>, porque solo se podrían formar <mark class=\"clave-criterio\">16 dipletes</mark> diferentes (4² = 16) y hacen falta <mark class=\"clave-criterio\">al menos 20</mark> para codificar los 20 aminoácidos de las proteínas (1 p). <span class=\"redactado\">Con tripletes hay 4³ = 64 combinaciones, más que suficientes.</span>"
    ],
    "isNew": false,
@@ -41435,7 +41435,7 @@ window.BIOCELIA_HISTORICO = {
    "puntos": 2,
    "c": [
     "<b>I.</b> La replicación ocurre <mark class=\"clave-criterio\">solo en el sentido 5′→3′</mark> porque las <mark class=\"clave-criterio\">ADN polimerasas</mark> incorporan los nucleótidos en el <mark class=\"clave-criterio\">carbono 3′ libre</mark> de las pentosas; al ser las dos cadenas de ADN <mark class=\"clave-criterio\">antiparalelas</mark>, necesariamente una se replica de forma <mark class=\"clave-criterio\">continua</mark> y la otra <mark class=\"clave-criterio\">discontinua</mark>, formando los <mark class=\"clave-criterio\">fragmentos de Okazaki</mark> (1 p).",
-    "<b>II.</b> Mediante la <mark class=\"clave-criterio\">transcriptasa inversa</mark> se hace una <mark class=\"clave-criterio\">copia de la cadena de ARN en ADN</mark> y esta última se puede <mark class=\"clave-criterio\">integrar en el genoma</mark> de la célula hospedadora (1 p)."
+    "<b>II.</b> Mediante la <mark class=\"clave-criterio\">transcriptasa inversa</mark> se hace una <mark class=\"clave-criterio\">copia de la cadena de ARN en ADN</mark> y esta última se puede <mark class=\"clave-criterio\">integrar en el genoma</mark> de la célula hospedadora (1 p). <span class=\"redactado\">Se llaman retrovirus porque invierten el sentido habitual de la información genética, de ARN a ADN; el ADN integrado (provirus) se transcribe con la maquinaria de la célula y se fabrican nuevos virus. Es el caso del VIH.</span>"
    ],
    "isNew": false,
    "competencial": false,
@@ -41780,8 +41780,8 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>I.</b> Los seres vivos aparecieron sobre la Tierra hace, aproximadamente, 3.500 millones de años. ¿Por qué los cadáveres de casi todos los seres vivos han desaparecido? Dé una explicación a este hecho y justifique la necesidad de que ocurra [1]. <i>(1 punto)</i><br><br><b>II.</b> Indique dos razones que expliquen el hecho de que los virus sean parásitos obligados. <i>(1 punto)</i>",
    "puntos": 2,
    "c": [
-    "<b>I.</b> Debe aludir a la <mark class=\"clave-criterio\">acción descomponedora de los microorganismos</mark> y al <mark class=\"clave-criterio\">reciclaje de la materia</mark> para que pueda ser <mark class=\"clave-criterio\">reutilizada por los organismos autótrofos</mark> (1 p).",
-    "<b>II.</b> Porque <mark class=\"clave-criterio\">carecen de las enzimas</mark> necesarias para fabricar sus componentes (ácido nucleico, cápsida) y <mark class=\"clave-criterio\">no tienen ribosomas</mark>, por lo que deben utilizar los de las células parasitadas, etc. Solo dos, 0,5 p cada una (1 p)."
+    "<b>I.</b> Debe aludir a la <mark class=\"clave-criterio\">acción descomponedora de los microorganismos</mark> y al <mark class=\"clave-criterio\">reciclaje de la materia</mark> para que pueda ser <mark class=\"clave-criterio\">reutilizada por los organismos autótrofos</mark> (1 p). <span class=\"redactado\">Bacterias y hongos descomponen la materia orgánica de los restos y la transforman en materia inorgánica (CO₂, agua, sales minerales como nitratos y fosfatos), que las plantas vuelven a usar. Sin descomponedores, los elementos quedarían atrapados en los cadáveres y se agotarían.</span>",
+    "<b>II.</b> Porque <mark class=\"clave-criterio\">carecen de las enzimas</mark> necesarias para fabricar sus componentes (ácido nucleico, cápsida) y <mark class=\"clave-criterio\">no tienen ribosomas</mark>, por lo que deben utilizar los de las células parasitadas, etc. Solo dos, 0,5 p cada una (1 p). <span class=\"redactado\">Tampoco producen ATP: sin metabolismo propio, fuera de la célula son partículas inertes.</span>"
    ],
    "isNew": false,
    "competencial": false,
@@ -41809,7 +41809,7 @@ window.BIOCELIA_HISTORICO = {
    "puntos": 2,
    "c": [
     "<b>I.</b> Esto es posible porque el código genético es <mark class=\"clave-criterio\">común para todos los organismos</mark> (<mark class=\"clave-criterio\">universal</mark>): <span class=\"redactado\">la bacteria lee los codones del gen humano y les asigna los mismos aminoácidos que una célula humana.</span> (1 p).",
-    "<b>II.</b> Debe aludir a la <mark class=\"clave-criterio\">acción descomponedora de los microorganismos</mark> y al <mark class=\"clave-criterio\">reciclaje de la materia</mark> para que pueda ser <mark class=\"clave-criterio\">reutilizada por los organismos autótrofos</mark> (1 p)."
+    "<b>II.</b> Debe aludir a la <mark class=\"clave-criterio\">acción descomponedora de los microorganismos</mark> y al <mark class=\"clave-criterio\">reciclaje de la materia</mark> para que pueda ser <mark class=\"clave-criterio\">reutilizada por los organismos autótrofos</mark> (1 p). <span class=\"redactado\">Bacterias y hongos descomponen la materia orgánica de los restos y la transforman en materia inorgánica (CO₂, agua, sales minerales como nitratos y fosfatos), que las plantas vuelven a usar. Sin descomponedores, los elementos quedarían atrapados en los cadáveres y se agotarían.</span>"
    ],
    "isNew": false,
    "competencial": false,
