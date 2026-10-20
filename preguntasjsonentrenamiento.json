@@ -16112,11 +16112,11 @@
     "tipo": "respuesta breve",
     "pregunta": "Defina: a) gen; b) genotipo; c) fenotipo; d) alelo; e) locus [2].",
     "respuesta": [
-      "a) Gen: fragmento de ADN que determina una característica y que puede tener diferentes formas o alelos (0,4 p).",
-      "b) Genotipo: conjunto de genes de un individuo (0,4 p).",
-      "c) Fenotipo: manifestación del genotipo en un determinado ambiente (0,4 p).",
-      "d) Alelo: cada una de las formas alternativas que puede presentar un gen (0,4 p).",
-      "e) Locus: posición fija de un gen sobre un cromosoma (0,4 p)."
+      "a) Gen: fragmento de ADN que determina una característica y que puede tener diferentes formas o alelos (0,4 p). Su secuencia de nucleótidos codifica un polipéptido o un ARN.",
+      "b) Genotipo: conjunto de genes de un individuo (0,4 p). Por ejemplo, AA, Aa o aa para un gen.",
+      "c) Fenotipo: manifestación del genotipo en un determinado ambiente (0,4 p). Por ejemplo, el color de una flor o el grupo sanguíneo; el ambiente puede modificarlo.",
+      "d) Alelo: cada una de las formas alternativas que puede presentar un gen (0,4 p). Surgen por mutación y ocupan el mismo locus en los cromosomas homólogos.",
+      "e) Locus: posición fija de un gen sobre un cromosoma (0,4 p). Los alelos de un gen ocupan el mismo locus en los dos cromosomas homólogos."
     ],
     "palabras_clave": [
       "conjunto de genes de un individuo",
@@ -16137,8 +16137,8 @@
     "tipo": "respuesta breve",
     "pregunta": "La penicilina y la estreptomicina son dos antibióticos utilizados en el tratamiento de enfermedades producidas por bacterias. La penicilina inhibe la síntesis de la pared celular bacteriana y la estreptomicina inhibe la síntesis de proteínas actuando sobre los ribosomas e impidiendo su normal funcionamiento. Explique de forma razonada por qué estos antibióticos atacan a las bacterias y, sin embargo, no atacan a las células eucarióticas [1].",
     "respuesta": [
-      "Penicilina: las células eucarióticas no poseen pared celular bacteriana (peptidoglucano) (0,5 p).",
-      "Estreptomicina: afecta a los ribosomas 70S de las bacterias, pero no a los ribosomas 80S de las células eucarióticas (0,5 p)."
+      "Penicilina: las células eucarióticas no poseen pared celular bacteriana (peptidoglucano) (0,5 p). Las células eucariotas no tienen pared o, en las vegetales y los hongos, tienen pared de celulosa o de quitina; sin pared, la bacteria estalla por la presión osmótica.",
+      "Estreptomicina: afecta a los ribosomas 70S de las bacterias, pero no a los ribosomas 80S de las células eucarióticas (0,5 p). Por eso estos antibióticos son selectivos: actúan sobre estructuras que solo tienen las bacterias. Pueden afectar algo a las mitocondrias, cuyos ribosomas también son 70S."
     ],
     "palabras_clave": [
       "no a los ribosomas 80S",
@@ -16234,10 +16234,10 @@
     "tipo": "respuesta breve",
     "pregunta": "a) Defina la estructura primaria de las proteínas [0,25], b) indique qué tipo de enlace la caracteriza [0,25] y c) nombre los grupos funcionales que participan en el mismo [0,25]. d) Explique qué se entiende por desnaturalización de una proteína [0,25]. e) Nombre los orgánulos que están implicados en su síntesis y maduración [0,6] y f) cite dos funciones de las proteínas [0,4].",
     "respuesta": [
-      "a) Secuencia de aminoácidos (0,25 p). b) Enlace peptídico (0,25 p). c) Grupos carboxilo y amino (0,25 p).",
-      "d) Pérdida, reversible o no, de las estructuras secundaria, terciaria y cuaternaria (0,25 p).",
-      "e) Ribosomas, retículo endoplasmático rugoso y complejo de Golgi. 0,2 p cada uno (0,6 p).",
-      "f) Catálisis, transporte, movimiento, contracción, reconocimiento celular, estructural, nutritiva. Dos, a 0,2 p (0,4 p)."
+      "a) Secuencia de aminoácidos (0,25 p). b) Enlace peptídico (0,25 p). c) Grupos carboxilo y amino (0,25 p). Se escribe desde el extremo amino (N-terminal) hasta el carboxilo (C-terminal); el enlace peptídico se forma por condensación, con pérdida de agua. La secuencia determina todas las demás estructuras y, por tanto, la función.",
+      "d) Pérdida, reversible o no, de las estructuras secundaria, terciaria y cuaternaria (0,25 p). Se produce con el calor, los pH extremos o algunas sustancias, que rompen los enlaces débiles; la proteína pierde su función, pero no se rompen los enlaces peptídicos.",
+      "e) Ribosomas, retículo endoplasmático rugoso y complejo de Golgi. 0,2 p cada uno (0,6 p). Los ribosomas sintetizan la cadena; las proteínas de membrana y de secreción entran en el RER, donde se pliegan y comienzan a glucosilarse, y en el Golgi maduran y se empaquetan.",
+      "f) Catálisis, transporte, movimiento, contracción, reconocimiento celular, estructural, nutritiva. Dos, a 0,2 p (0,4 p). Por ejemplo, las enzimas catalizan reacciones; la hemoglobina transporta O₂; la actina y la miosina permiten la contracción muscular; el colágeno es estructural."
     ],
     "palabras_clave": [
       "Catálisis",
@@ -16298,9 +16298,9 @@
     "tipo": "respuesta breve",
     "pregunta": "a) Explique en qué consiste la memoria inmunológica [0,8]. b) ¿Cuáles son las células implicadas en ella? [0,6]. c) ¿Qué ventajas y desventajas supone para los organismos que la poseen? [0,6].",
     "respuesta": [
-      "a) Tras el contacto con un antígeno se producen células defensivas y anticuerpos (respuesta primaria), y algunas células permanecen; ante un nuevo contacto con el mismo antígeno la respuesta es más rápida (respuesta secundaria) (0,8 p).",
-      "b) Linfocitos T y linfocitos B (0,6 p).",
-      "c) Ventaja: respuesta más rápida ante una nueva infección. Inconveniente: pueden producirse reacciones de hipersensibilidad (alergias) (0,6 p)."
+      "a) Tras el contacto con un antígeno se producen células defensivas y anticuerpos (respuesta primaria), y algunas células permanecen; ante un nuevo contacto con el mismo antígeno la respuesta es más rápida (respuesta secundaria) (0,8 p). La respuesta secundaria es más rápida, más intensa (sobre todo IgG) y más duradera; es la base de la vacunación.",
+      "b) Linfocitos T y linfocitos B (0,6 p). Son linfocitos de vida larga que ya reconocen el antígeno y responden mucho antes que los linfocitos vírgenes de la primera vez.",
+      "c) Ventaja: respuesta más rápida ante una nueva infección. Inconveniente: pueden producirse reacciones de hipersensibilidad (alergias) (0,6 p). En las alergias, la sensibilización del primer contacto hace que, en los siguientes, la IgE unida a los mastocitos provoque la liberación de histamina."
     ],
     "palabras_clave": [
       "Linfocitos T",
@@ -16418,10 +16418,10 @@
     "tipo": "respuesta breve",
     "pregunta": "a) Describa la estructura de la molécula del agua [0,5]. b) Indique cinco propiedades físico-químicas [0,5] y cinco funciones biológicas del agua [0,5]. c) Explique de qué depende el fenómeno de la capilaridad [0,5].",
     "respuesta": [
-      "a) Dos átomos de hidrógeno unidos a un átomo de oxígeno mediante enlaces covalentes (0,5 p).",
-      "b) Propiedades: elevado punto de ebullición, elevado calor específico, molécula bipolar, elevada fuerza de cohesión-adhesión, baja densidad en estado sólido. 0,1 p cada una (0,5 p).",
-      "b) Funciones: termorreguladora, disolvente, estructural, mecánica, química. 0,1 p cada una (0,5 p).",
-      "c) Depende de la elevada fuerza de cohesión-adhesión entre las moléculas de agua (0,5 p)."
+      "a) Dos átomos de hidrógeno unidos a un átomo de oxígeno mediante enlaces covalentes (0,5 p). El oxígeno, más electronegativo, atrae los electrones: queda con carga parcial negativa y los hidrógenos, con carga parcial positiva. Como los enlaces forman un ángulo de unos 104,5°, la molécula es un dipolo y forma puentes de hidrógeno con otras moléculas.",
+      "b) Propiedades: elevado punto de ebullición, elevado calor específico, molécula bipolar, elevada fuerza de cohesión-adhesión, baja densidad en estado sólido. 0,1 p cada una (0,5 p). Todas estas propiedades se deben a los puentes de hidrógeno entre sus moléculas.",
+      "b) Funciones: termorreguladora, disolvente, estructural, mecánica, química. 0,1 p cada una (0,5 p). Por ejemplo, disuelve sales y moléculas polares, transporta sustancias por la sangre y la savia, amortigua los cambios de temperatura, da turgencia a las células vegetales y participa en las reacciones de hidrólisis.",
+      "c) Depende de la elevada fuerza de cohesión-adhesión entre las moléculas de agua (0,5 p). Las moléculas de agua se adhieren a las paredes de los tubos muy finos y, por cohesión, arrastran a las demás; así sube la savia bruta por los vasos del xilema."
     ],
     "palabras_clave": [
       "Dos átomos de hidrógeno unidos a un átomo de oxígeno mediante enlaces covalentes",
@@ -16502,8 +16502,8 @@
     "tipo": "respuesta breve",
     "pregunta": "Si comparamos una célula hepática con una célula renal del mismo individuo: a) ¿contendrá su ADN la misma información genética? [0,5]; b) y las proteínas de ambas células, ¿serán las mismas? [0,5]. Razone las respuestas.",
     "respuesta": [
-      "a) Sí: todas las células somáticas de un individuo contienen el mismo genoma (0,5 p).",
-      "b) No: las células se especializan expresando proteínas diferentes por una expresión diferencial del genoma (0,5 p)."
+      "a) Sí: todas las células somáticas de un individuo contienen el mismo genoma (0,5 p). Todas proceden del cigoto por mitosis, que reparte copias idénticas del ADN.",
+      "b) No: las células se especializan expresando proteínas diferentes por una expresión diferencial del genoma (0,5 p). Cada tipo celular expresa solo una parte de sus genes; los que se expresan en todas las células, como los de la glucólisis, se llaman genes constitutivos. Por ejemplo, las células del hígado fabrican enzimas de detoxificación que no fabrican las del riñón."
     ],
     "palabras_clave": [
       "expresión diferencial del genoma",
@@ -16540,10 +16540,10 @@
     "tipo": "respuesta breve",
     "pregunta": "En relación a las imágenes adjuntas, conteste las siguientes cuestiones: a) Identifique las células o moléculas indicadas como A, B y C en la figura 1 [0,3]. b) ¿Qué células producen la molécula señalada como B? [0,2]. c) Nombre el proceso que transcurre en la figura 2 [0,25]. d) Cite otro proceso en el que interviene la célula A [0,25].",
     "respuesta": [
-      "a) A: macrófago y/o neutrófilo; B: anticuerpo o IgG; C: receptor de anticuerpo (receptor de IgG) (0,3 p).",
+      "a) A: macrófago y/o neutrófilo; B: anticuerpo o IgG; C: receptor de anticuerpo (receptor de IgG) (0,3 p). Los anticuerpos recubren el microorganismo (opsonización) y el fagocito lo reconoce con sus receptores para la región constante (Fc) del anticuerpo.",
       "b) Linfocitos B o células plasmáticas (0,2 p).",
-      "c) Fagocitosis (0,25 p).",
-      "d) Presentación de antígenos (0,25 p)."
+      "c) Fagocitosis (0,25 p). El microorganismo queda dentro de un fagosoma, que se fusiona con lisosomas, y sus enzimas lo digieren.",
+      "d) Presentación de antígenos (0,25 p). Al presentar el antígeno unido a moléculas del MHC, activa a los linfocitos T colaboradores."
     ],
     "palabras_clave": [
       "Fagocitosis",
@@ -16690,8 +16690,8 @@
     "tipo": "respuesta breve",
     "pregunta": "En un experimento de laboratorio realizado con células animales en medios hipotónicos se observa lisis celular. Al repetir el experimento con células vegetales se observa que en este caso las células no se lisan. Exponga una explicación razonada para cada caso [1].",
     "respuesta": [
-      "Células animales: se lisan porque entra agua por ósmosis y no alcanzan el equilibrio osmótico (0,5 p).",
-      "Células vegetales: la pared celular evita que la célula se lise (0,5 p)."
+      "Células animales: se lisan porque entra agua por ósmosis y no alcanzan el equilibrio osmótico (0,5 p). En un medio hipotónico el agua entra en la célula por ósmosis; la membrana no resiste la presión y la célula estalla (en los glóbulos rojos, hemólisis).",
+      "Células vegetales: la pared celular evita que la célula se lise (0,5 p). La pared, de celulosa y rígida, resiste la presión del agua que entra: la célula queda turgente."
     ],
     "palabras_clave": [
       "entra agua por ósmosis",
@@ -16710,8 +16710,8 @@
     "tipo": "respuesta breve",
     "pregunta": "a) ¿Cómo se puede explicar que una célula típica de nuestro cuerpo posea alrededor de 10.000 tipos diferentes de proteínas, si el número de aminoácidos distintos es solamente 20? [0,5]. b) ¿Cómo es posible que insertando el gen que codifica la insulina del ratón en un cromosoma bacteriano, la bacteria sintetice la insulina de ratón? [0,5]. Razone las respuestas.",
     "respuesta": [
-      "a) Con los 20 aminoácidos se pueden formar múltiples combinaciones (secuencias distintas en orden y longitud) (0,5 p).",
-      "b) Por la universalidad del código genético: el gen se transcribe y se traduce en los ribosomas bacterianos (0,5 p)."
+      "a) Con los 20 aminoácidos se pueden formar múltiples combinaciones (secuencias distintas en orden y longitud) (0,5 p). Para una cadena de 100 aminoácidos hay 20¹⁰⁰ secuencias posibles; cada secuencia se pliega de una forma y tiene una función distinta.",
+      "b) Por la universalidad del código genético: el gen se transcribe y se traduce en los ribosomas bacterianos (0,5 p). Un mismo codón codifica el mismo aminoácido en casi todos los seres vivos. Para la insulina humana se usa además un gen sin intrones, porque las bacterias no pueden eliminarlos."
     ],
     "palabras_clave": [
       "múltiples combinaciones",
@@ -16780,9 +16780,9 @@
     "tipo": "respuesta breve",
     "pregunta": "a) Indique qué son los lípidos [0,4]. b) Nombre dos ejemplos de lípidos y cite una función que desempeñen en los seres vivos cada uno de ellos [1]. c) Explique el carácter anfipático de los ácidos grasos [0,6].",
     "respuesta": [
-      "a) Biomoléculas heterogéneas insolubles en agua y solubles en disolventes orgánicos (no polares) (0,4 p).",
-      "b) Acilglicéridos: reserva energética; fosfolípidos: estructural; ceras: protectora; esteroides: hormonal. Dos, a 0,5 p (1 p).",
-      "c) Tienen una zona hidrófila polar (el grupo carboxilo, –COOH) y una zona hidrófoba apolar (la cadena hidrocarbonada) (0,6 p)."
+      "a) Biomoléculas heterogéneas insolubles en agua y solubles en disolventes orgánicos (no polares) (0,4 p). No forman un grupo químico definido: se agrupan por su comportamiento físico.",
+      "b) Acilglicéridos: reserva energética; fosfolípidos: estructural; ceras: protectora; esteroides: hormonal. Dos, a 0,5 p (1 p). Los acilglicéridos aportan mucha energía por gramo (unas 9 kcal); los fosfolípidos forman la bicapa de las membranas; las ceras impermeabilizan hojas y plumas; y de los esteroides derivan hormonas como la testosterona o el cortisol.",
+      "c) Tienen una zona hidrófila polar (el grupo carboxilo, –COOH) y una zona hidrófoba apolar (la cadena hidrocarbonada) (0,6 p). En el agua, los ácidos grasos forman micelas: las colas apolares se agrupan hacia dentro y los grupos carboxilo, ionizados, quedan en contacto con el agua."
     ],
     "palabras_clave": [
       "Acilglicéridos",
@@ -16836,9 +16836,9 @@
     "tipo": "respuesta breve",
     "pregunta": "Defina los conceptos de transcripción [0,5] y de traducción [0,5]. Describa el proceso de transcripción [1].",
     "respuesta": [
-      "Transcripción: síntesis de ARN con la secuencia complementaria de una cadena de ADN que actúa como molde (0,5 p).",
-      "Traducción: síntesis de un polipéptido con la información de la secuencia de bases del ARNm (0,5 p).",
-      "Proceso: la ARN polimerasa reconoce el promotor (señal de inicio), copia una sola cadena del ADN (la cadena molde, distinta de la codificante) en sentido 5'→3' y se detiene en la señal de terminación (1 p)."
+      "Transcripción: síntesis de ARN con la secuencia complementaria de una cadena de ADN que actúa como molde (0,5 p). La realiza la ARN polimerasa en el núcleo; también ocurre en mitocondrias y cloroplastos.",
+      "Traducción: síntesis de un polipéptido con la información de la secuencia de bases del ARNm (0,5 p). Ocurre en los ribosomas: el ARNm se lee codón a codón y los ARNt aportan los aminoácidos.",
+      "Proceso: la ARN polimerasa reconoce el promotor (señal de inicio), copia una sola cadena del ADN (la cadena molde, distinta de la codificante) en sentido 5'→3' y se detiene en la señal de terminación (1 p). La ARN polimerasa lee la cadena molde en sentido 3'→5' y une ribonucleótidos complementarios; el ARN tiene la misma secuencia que la cadena codificante, con U en lugar de T. En eucariotas, después madura: se eliminan los intrones y se añaden la caperuza y la cola de poli-A."
     ],
     "palabras_clave": [
       "5'→3'",
@@ -17022,9 +17022,9 @@
     "tipo": "respuesta breve",
     "pregunta": "a) Indique dos diferencias entre vacunación y sueroterapia [0,6] y b) explique en qué consiste cada procedimiento citando las moléculas y células implicadas [1]. c) ¿Con qué tipos de inmunidad están relacionados estos procesos? [0,4].",
     "respuesta": [
-      "a) Carácter preventivo (vacuna) o curativo (suero); formación o no de células de memoria. Dos, a 0,3 p (0,6 p).",
-      "b) Vacunación: inoculación de antígenos atenuados que activan los linfocitos B y generan células de memoria. Sueroterapia: transferencia de anticuerpos de origen externo. 0,5 p cada una (1 p).",
-      "c) Vacunación: inmunidad activa; sueroterapia: inmunidad pasiva (ambas artificiales) (0,4 p)."
+      "a) Carácter preventivo (vacuna) o curativo (suero); formación o no de células de memoria. Dos, a 0,3 p (0,6 p). Además, la vacuna tarda en hacer efecto, pero protege durante años; el suero actúa de inmediato, pero solo protege unas semanas.",
+      "b) Vacunación: inoculación de antígenos atenuados que activan los linfocitos B y generan células de memoria. Sueroterapia: transferencia de anticuerpos de origen externo. 0,5 p cada una (1 p). La vacuna produce una respuesta primaria sin causar la enfermedad; el suero se obtiene de un animal o de una persona inmunizados.",
+      "c) Vacunación: inmunidad activa; sueroterapia: inmunidad pasiva (ambas artificiales) (0,4 p). La inmunidad natural activa se adquiere al pasar la enfermedad, y la natural pasiva, por la placenta y la leche materna."
     ],
     "palabras_clave": [
       "artificiales",
@@ -17073,7 +17073,7 @@
     "tipo": "respuesta breve",
     "pregunta": "La BrdU es una molécula similar a la timina y una célula la puede incorporar para la replicación del ADN en vez de este nucleótido. La BrdU se puede detectar fácilmente, por lo que se utiliza para estudiar las células que están en división. Si se añade BrdU a unas células en división, se observa que tras la mitosis todas las células hijas resultantes tienen BrdU. Justifique este resultado [1].",
     "respuesta": [
-      "Cada célula hija tiene ADN con una hebra sin BrdU (la original) y una hebra marcada con BrdU (la nueva), porque la replicación del ADN es semiconservativa (1 p)."
+      "Cada célula hija tiene ADN con una hebra sin BrdU (la original) y una hebra marcada con BrdU (la nueva), porque la replicación del ADN es semiconservativa (1 p). En la replicación, las dos cadenas se separan y cada una sirve de molde para una nueva, que incorpora BrdU en lugar de timina; por eso todas las moléculas hijas, y todas las células hijas, quedan marcadas."
     ],
     "palabras_clave": [
       "replicación del ADN es semiconservativa",
@@ -17092,9 +17092,9 @@
     "tipo": "respuesta breve",
     "pregunta": "En relación con el esquema adjunto conteste a las siguientes cuestiones: a) Identifique las rutas metabólicas señaladas con los números I y II [0,4]. b) ¿En qué lugar de la célula eucariótica ocurre cada una de ellas? [0,4]. c) A partir de la ruta II, ¿con qué procesos se completa la obtención de energía contenida en la glucosa? [0,2].",
     "respuesta": [
-      "a) I: glucólisis; II: ciclo de Krebs. 0,2 p cada una (0,4 p).",
+      "a) I: glucólisis; II: ciclo de Krebs. 0,2 p cada una (0,4 p). Entre las dos, el pirúvico se transforma en acetil-CoA (descarboxilación oxidativa), en la matriz mitocondrial.",
       "b) Glucólisis en el citosol; ciclo de Krebs en la matriz mitocondrial. 0,2 p cada una (0,4 p).",
-      "c) Con la cadena respiratoria y la fosforilación oxidativa (0,2 p)."
+      "c) Con la cadena respiratoria y la fosforilación oxidativa (0,2 p). El NADH y el FADH₂ ceden sus electrones a la cadena respiratoria, cuyo aceptor final es el O₂; la energía liberada crea un gradiente de protones que la ATP sintasa usa para sintetizar ATP. Así se obtienen unos 36-38 ATP por glucosa."
     ],
     "palabras_clave": [
       "cadena respiratoria",
@@ -17141,8 +17141,8 @@
     "tipo": "respuesta breve",
     "pregunta": "a) Describa tres características de los procesos fermentativos [1,5]. b) Exponga un ejemplo de fermentación [0,25] y de su posible uso industrial [0,25].",
     "respuesta": [
-      "a) Tres de estas, 0,5 p cada una (1,5 p): es un proceso anaerobio; la degradación no es completa; los productos finales son compuestos orgánicos que aún almacenan energía; se obtiene poca energía (solo la de la glucólisis); no se obtienen coenzimas reducidos (balance neto nulo).",
-      "b) Fermentación láctica o alcohólica (0,25 p). Uso: láctica, yogur; alcohólica, pan o bebidas alcohólicas (0,25 p)."
+      "a) Tres de estas, 0,5 p cada una (1,5 p): es un proceso anaerobio; la degradación no es completa; los productos finales son compuestos orgánicos que aún almacenan energía; se obtiene poca energía (solo la de la glucólisis); no se obtienen coenzimas reducidos (balance neto nulo). Se producen en el citosol; el aceptor final de electrones es una molécula orgánica (el pirúvico o un derivado), y su función es reoxidar el NADH a NAD⁺ para que la glucólisis continúe.",
+      "b) Fermentación láctica o alcohólica (0,25 p). Uso: láctica, yogur; alcohólica, pan o bebidas alcohólicas (0,25 p). Las bacterias lácticas como Lactobacillus transforman la lactosa en ácido láctico; las levaduras como Saccharomyces producen etanol y CO₂."
     ],
     "palabras_clave": [
       "Fermentación láctica",
@@ -17168,10 +17168,10 @@
     "tipo": "respuesta breve",
     "pregunta": "a) Defina el concepto de replicación del ADN [0,4]. b) Indique tres orgánulos de la célula eucariótica en los que tiene lugar [0,3]. c) Explique la relación que existe entre el proceso de replicación y la división celular por mitosis [0,5]. d) ¿Qué significa que la replicación es semiconservativa y bidireccional? [0,8].",
     "respuesta": [
-      "a) Duplicación del ADN por la que se obtienen dos copias idénticas (0,4 p).",
-      "b) Núcleo, mitocondria y cloroplasto (0,3 p).",
-      "c) Es un paso previo a la división celular: se duplica el material genético y así puede repartirse equitativamente entre las dos células hijas (0,5 p).",
-      "d) Semiconservativa: cada ADN hijo tiene una cadena vieja y otra de nueva síntesis (0,4 p). Bidireccional: en el origen de replicación se forman dos horquillas que avanzan en direcciones opuestas (0,4 p)."
+      "a) Duplicación del ADN por la que se obtienen dos copias idénticas (0,4 p). Cada cadena sirve de molde para sintetizar su complementaria.",
+      "b) Núcleo, mitocondria y cloroplasto (0,3 p). Mitocondrias y cloroplastos tienen su propio ADN y lo replican.",
+      "c) Es un paso previo a la división celular: se duplica el material genético y así puede repartirse equitativamente entre las dos células hijas (0,5 p). El ADN se replica en la fase S, y cada cromosoma pasa a tener dos cromátidas hermanas idénticas, que la mitosis separa en la anafase: cada célula hija recibe una copia completa del genoma.",
+      "d) Semiconservativa: cada ADN hijo tiene una cadena vieja y otra de nueva síntesis (0,4 p). Bidireccional: en el origen de replicación se forman dos horquillas que avanzan en direcciones opuestas (0,4 p). Lo demostraron Meselson y Stahl. Como la ADN polimerasa solo sintetiza en sentido 5'→3', en cada horquilla una hebra se forma de forma continua y la otra en fragmentos de Okazaki."
     ],
     "palabras_clave": [
       "Duplicación del ADN",
@@ -17252,8 +17252,8 @@
     "tipo": "respuesta breve",
     "pregunta": "Un investigador observa que la actividad fotosintética es dos veces mayor cuando a las plantas cultivadas se les aumenta la temperatura de 25 ºC a 45 ºC. Sin embargo, encuentra que temperaturas por encima de 55 ºC disminuyen drásticamente dicha actividad. Dé una explicación razonada a estos hechos [1].",
     "respuesta": [
-      "Al subir la temperatura aumenta la actividad de las enzimas implicadas en la fotosíntesis (0,5 p).",
-      "Las temperaturas altas desnaturalizan las proteínas (enzimas) y por eso disminuye la actividad fotosintética (0,5 p)."
+      "Al subir la temperatura aumenta la actividad de las enzimas implicadas en la fotosíntesis (0,5 p). Las moléculas se mueven más deprisa y chocan con más frecuencia, hasta la temperatura óptima.",
+      "Las temperaturas altas desnaturalizan las proteínas (enzimas) y por eso disminuye la actividad fotosintética (0,5 p). El calor rompe los enlaces débiles que mantienen la forma de enzimas como la RuBisCO y de las proteínas de los fotosistemas, y las membranas de los tilacoides se dañan."
     ],
     "palabras_clave": [
       "aumenta la actividad de las enzimas",
@@ -17356,8 +17356,8 @@
     "tipo": "respuesta breve",
     "pregunta": "Indique dónde se localizan las siguientes funciones o procesos en una célula eucariótica: a) síntesis de proteínas; b) glucólisis; c) ciclo de Krebs; d) ciclo de Calvin; e) transcripción; f) transformación de energía luminosa en energía química; g) cadena respiratoria; h) digestión de materiales captados por endocitosis; i) β-oxidación de los ácidos grasos; j) síntesis de lípidos [2].",
     "respuesta": [
-      "a) Ribosomas; b) citoplasma; c) matriz mitocondrial; d) estroma del cloroplasto; e) núcleo, mitocondrias o cloroplastos.",
-      "f) Membrana de los tilacoides; g) membrana mitocondrial interna; h) lisosomas; i) matriz mitocondrial; j) retículo endoplasmático liso. 0,2 p cada una (2 p)."
+      "a) Ribosomas; b) citoplasma; c) matriz mitocondrial; d) estroma del cloroplasto; e) núcleo, mitocondrias o cloroplastos. Otras respuestas válidas: la síntesis de proteínas ocurre en ribosomas libres, del RER, de mitocondrias y de cloroplastos.",
+      "f) Membrana de los tilacoides; g) membrana mitocondrial interna; h) lisosomas; i) matriz mitocondrial; j) retículo endoplasmático liso. 0,2 p cada una (2 p). La β-oxidación de los ácidos grasos de cadena muy larga empieza en los peroxisomas; la cadena respiratoria está en las crestas mitocondriales."
     ],
     "palabras_clave": [
       "Membrana de los tilacoides",
@@ -17432,8 +17432,8 @@
     "tipo": "respuesta breve",
     "pregunta": "Se inocula por primera vez a un caballo con la toxina que produce el tétanos en humanos. En el transcurso de varias semanas, el caballo vuelve a ser inoculado varias veces con esa misma toxina. Una semana después de la primera inoculación se le extrae sangre para analizarla. a) Justifique el tipo de respuesta inmune que se habrá producido en esta primera semana y cómo variará la cantidad de anticuerpos [0,5]. b) Razone cómo cambiará la concentración de anticuerpos en la sangre del caballo tras las sucesivas inoculaciones varias semanas después [0,5].",
     "respuesta": [
-      "a) Respuesta primaria, por ser el primer contacto: los anticuerpos aumentan de forma moderada tras un periodo de latencia (0,5 p).",
-      "b) Los anticuerpos aumentan considerablemente y de forma rápida por las sucesivas respuestas secundarias (0,5 p)."
+      "a) Respuesta primaria, por ser el primer contacto: los anticuerpos aumentan de forma moderada tras un periodo de latencia (0,5 p). Los linfocitos B y T que reconocen la toxina tienen que activarse, multiplicarse y diferenciarse; en esta primera respuesta predominan las IgM.",
+      "b) Los anticuerpos aumentan considerablemente y de forma rápida por las sucesivas respuestas secundarias (0,5 p). Cada nueva inoculación activa las células de memoria, y la concentración de anticuerpos (sobre todo IgG) sube cada vez más. Así se obtienen los sueros antitetánicos que se usan en humanos."
     ],
     "palabras_clave": [
       "Respuesta primaria",
@@ -17479,8 +17479,8 @@
     "tipo": "respuesta breve",
     "pregunta": "A la vista del esquema de la pregunta anterior, conteste a las siguientes cuestiones: a) Indique todos los posibles genotipos que aparecerán en la F2 [0,45]. b) Indique los fenotipos y sus proporciones de la F2 [0,55].",
     "respuesta": [
-      "a) BBLL, BBLl, BBll, BbLL, BbLl, Bbll, bbLL, bbLl, bbll. 0,05 p cada uno (0,45 p).",
-      "b) Fenotipos: negros de rabo largo, negros de rabo corto, grises de rabo largo y grises de rabo corto (0,4 p), en proporción 9:3:3:1 (0,15 p)."
+      "a) BBLL, BBLl, BBll, BbLL, BbLl, Bbll, bbLL, bbLl, bbll. 0,05 p cada uno (0,45 p). Al cruzar dos dihíbridos (BbLl × BbLl), los dos genes se transmiten de forma independiente (tercera ley de Mendel): cada uno forma cuatro tipos de gametos (BL, Bl, bL, bl) en igual proporción, y en la F2 aparecen 9 genotipos distintos.",
+      "b) Fenotipos: negros de rabo largo, negros de rabo corto, grises de rabo largo y grises de rabo corto (0,4 p), en proporción 9:3:3:1 (0,15 p). La proporción 9:3:3:1 resulta de combinar las proporciones 3:1 de cada carácter."
     ],
     "palabras_clave": [
       "9:3:3:1",
@@ -17524,10 +17524,10 @@
     "tipo": "respuesta breve",
     "pregunta": "Explique la diferencia entre los siguientes pares de conceptos: a) gen-alelo [0,5]; b) homocigótico-heterocigótico [0,5]; c) herencia dominante-herencia intermedia [0,5]; d) gen autosómico-gen ligado al sexo [0,5].",
     "respuesta": [
-      "a) Gen: fragmento de ADN que determina una característica; alelo: cada una de las formas alternativas de un gen (0,5 p).",
-      "b) Homocigótico: dos alelos iguales para un carácter; heterocigótico: dos alelos diferentes (0,5 p).",
-      "c) Dominante: el fenotipo lo determina un solo alelo; intermedia: el fenotipo presenta características intermedias (0,5 p).",
-      "d) Autosómico: situado en los cromosomas autosómicos; ligado al sexo: situado en el cromosoma X (0,5 p)."
+      "a) Gen: fragmento de ADN que determina una característica; alelo: cada una de las formas alternativas de un gen (0,5 p). Los alelos de un gen ocupan el mismo lugar (locus) en los cromosomas homólogos y surgen por mutación.",
+      "b) Homocigótico: dos alelos iguales para un carácter; heterocigótico: dos alelos diferentes (0,5 p). Por ejemplo, AA o aa son homocigóticos y Aa es heterocigótico.",
+      "c) Dominante: el fenotipo lo determina un solo alelo; intermedia: el fenotipo presenta características intermedias (0,5 p). Por ejemplo, en el dondiego de noche, al cruzar plantas de flores rojas con plantas de flores blancas se obtienen plantas de flores rosas.",
+      "d) Autosómico: situado en los cromosomas autosómicos; ligado al sexo: situado en el cromosoma X (0,5 p). En sentido estricto, en los cromosomas sexuales (X o Y); los más estudiados son los del X que no tienen equivalente en el Y, como los del daltonismo o la hemofilia."
     ],
     "palabras_clave": [
       "cada una de las formas alternativas de un gen",
@@ -17711,9 +17711,9 @@
     "pregunta": "a) Indique la localización intracelular de la glucólisis [0,1]. b) ¿De qué moléculas se parte y qué moléculas se obtienen al final? [0,4]. c) ¿Qué rutas metabólicas puede seguir el producto final de la glucólisis? [0,5]. d) Indique cuáles son los compuestos iniciales y los productos finales de cada una de estas rutas [1].",
     "respuesta": [
       "a) Citosol (0,1 p).",
-      "b) Inicio: glucosa, NAD⁺, ADP y Pi; final: piruvato, NADH+H⁺ y ATP (0,4 p).",
-      "c) Fermentaciones (anaeróbica) y ciclo de Krebs (aeróbica) (0,5 p).",
-      "d) Fermentaciones: de piruvato a lactato o etanol y NAD⁺ (0,5 p). Ciclo de Krebs: de acetil-CoA y oxalacético a CO₂, NADH+H⁺, FADH₂ y GTP (ATP) (0,5 p)."
+      "b) Inicio: glucosa, NAD⁺, ADP y Pi; final: piruvato, NADH+H⁺ y ATP (0,4 p). El balance neto por glucosa es de 2 piruvatos, 2 NADH y 2 ATP.",
+      "c) Fermentaciones (anaeróbica) y ciclo de Krebs (aeróbica) (0,5 p). En presencia de O₂, el piruvato entra en la mitocondria, donde se transforma en acetil-CoA (descarboxilación oxidativa) y se oxida en el ciclo de Krebs; sin O₂ sigue la fermentación en el citosol.",
+      "d) Fermentaciones: de piruvato a lactato o etanol y NAD⁺ (0,5 p). Ciclo de Krebs: de acetil-CoA y oxalacético a CO₂, NADH+H⁺, FADH₂ y GTP (ATP) (0,5 p). La fermentación sirve para reoxidar el NADH a NAD⁺ y que la glucólisis continúe; el NADH y el FADH₂ del ciclo de Krebs ceden sus electrones a la cadena respiratoria."
     ],
     "palabras_clave": [
       "CO₂, NADH+H⁺, FADH₂ y GTP (ATP)",
@@ -17789,8 +17789,8 @@
     "tipo": "respuesta breve",
     "pregunta": "Una mariposa negra se cruza con una mariposa gris y se obtienen 36 mariposas negras y 36 grises. Posteriormente, se cruza una mariposa gris con una blanca y se obtienen 36 mariposas blancas y 36 grises. a) Explique si se trata de un caso de herencia intermedia o dominante [0,5]. b) Realice los dos cruzamientos anteriormente señalados, indicando cuáles son los genotipos de las mariposas que se cruzan y los de la descendencia obtenida [0,5]. Utilice los símbolos N (alelo color negro) y n (alelo color blanco).",
     "respuesta": [
-      "a) Herencia intermedia, porque hay tres fenotipos para un solo carácter (negro, gris y blanco) (0,5 p).",
-      "b) Primer cruce: NN (negra) × Nn (gris) → ½ NN negras y ½ Nn grises (0,25 p).",
+      "a) Herencia intermedia, porque hay tres fenotipos para un solo carácter (negro, gris y blanco) (0,5 p). En la herencia intermedia el heterocigoto muestra un fenotipo intermedio entre los de los dos homocigotos: las mariposas grises son heterocigóticas (Nn).",
+      "b) Primer cruce: NN (negra) × Nn (gris) → ½ NN negras y ½ Nn grises (0,25 p). Al cruzar un homocigoto con un heterocigoto, la mitad de los descendientes son como cada progenitor.",
       "b) Segundo cruce: Nn (gris) × nn (blanca) → ½ Nn grises y ½ nn blancas (0,25 p)."
     ],
     "palabras_clave": [
@@ -17900,8 +17900,8 @@
     "tipo": "respuesta breve",
     "pregunta": "Para cada uno de los siguientes procesos celulares, indique una estructura, compartimento u orgánulo de las células eucarióticas en donde pueden producirse: a) síntesis de ARN ribosómico; b) fosforilación oxidativa; c) digestión de sustancias; d) síntesis de almidón; e) ciclo de Krebs; f) transporte activo; g) transcripción; h) traducción; i) fase luminosa de la fotosíntesis; j) glucólisis [2].",
     "respuesta": [
-      "a) Nucleolo (núcleo), mitocondrias o cloroplastos; b) membrana mitocondrial interna; c) lisosomas; d) cloroplastos; e) matriz mitocondrial.",
-      "f) Membranas; g) núcleo, mitocondrias o cloroplastos; h) ribosomas; i) membrana tilacoidal; j) citosol. 0,2 p cada uno (2 p)."
+      "a) Nucleolo (núcleo), mitocondrias o cloroplastos; b) membrana mitocondrial interna; c) lisosomas; d) cloroplastos; e) matriz mitocondrial. Otras opciones válidas: la fosforilación oxidativa en las crestas mitocondriales; la digestión en vacuolas digestivas; el almidón se almacena en el estroma o en amiloplastos.",
+      "f) Membranas; g) núcleo, mitocondrias o cloroplastos; h) ribosomas; i) membrana tilacoidal; j) citosol. 0,2 p cada uno (2 p). La traducción ocurre en ribosomas libres, del RER, de mitocondrias y de cloroplastos."
     ],
     "palabras_clave": [
       "Membranas",
@@ -17927,9 +17927,9 @@
     "tipo": "respuesta breve",
     "pregunta": "a) Indique qué es una mutación [0,5]. b) Cite tres agentes que provoquen mutaciones [0,6]. c) Explique dos posibles consecuencias de las mutaciones [0,9].",
     "respuesta": [
-      "a) Alteración en el material genético (0,5 p).",
-      "b) Físicos (rayos UV, rayos X, radiaciones ionizantes), químicos (modificadores de bases, análogos de bases, agentes intercalantes o alquilantes) y biológicos (virus, transposones). Tres, a 0,2 p (0,6 p).",
-      "c) Normalmente perjudiciales (enfermedades, letalidad), pero también pueden ser beneficiosas (evolución, variabilidad genética). Dos, a 0,45 p (0,9 p)."
+      "a) Alteración en el material genético (0,5 p). Puede afectar a un gen, a la estructura de un cromosoma o al número de cromosomas; solo se hereda si afecta a las células germinales.",
+      "b) Físicos (rayos UV, rayos X, radiaciones ionizantes), químicos (modificadores de bases, análogos de bases, agentes intercalantes o alquilantes) y biológicos (virus, transposones). Tres, a 0,2 p (0,6 p). Por ejemplo, los rayos UV forman dímeros de timina y los rayos X rompen el ADN; los análogos de bases, como el 5-bromouracilo, provocan errores de apareamiento.",
+      "c) Normalmente perjudiciales (enfermedades, letalidad), pero también pueden ser beneficiosas (evolución, variabilidad genética). Dos, a 0,45 p (0,9 p). Por ejemplo, causan enfermedades como la anemia falciforme o el cáncer; otras son neutras, y algunas resultan favorables y la selección natural aumenta su frecuencia."
     ],
     "palabras_clave": [
       "Alteración en el material genético",
@@ -18089,9 +18089,9 @@
     "tipo": "respuesta breve",
     "pregunta": "a) Cite dos fuentes energéticas para el metabolismo de los seres vivos [0,5]. b) Describa en qué consiste la fosforilación oxidativa y la fotofosforilación y en qué orgánulos de la célula se realizan [1,5].",
     "respuesta": [
-      "a) La luz y los compuestos químicos (0,5 p).",
-      "b) Fosforilación oxidativa: flujo de electrones por la cadena de transporte electrónico hasta el oxígeno, con un gradiente de protones que se usa para sintetizar ATP; en las mitocondrias (0,75 p).",
-      "b) Fotofosforilación: flujo de electrones desde los fotosistemas excitados por la luz hasta el NADPH, con un gradiente de protones que se usa para sintetizar ATP; en los cloroplastos (0,75 p)."
+      "a) La luz y los compuestos químicos (0,5 p). Los fotótrofos usan la energía de la luz y los quimiótrofos, la que se libera al oxidar compuestos químicos.",
+      "b) Fosforilación oxidativa: flujo de electrones por la cadena de transporte electrónico hasta el oxígeno, con un gradiente de protones que se usa para sintetizar ATP; en las mitocondrias (0,75 p). Ocurre en la membrana mitocondrial interna: los protones bombeados al espacio intermembrana vuelven a la matriz por la ATP sintasa (hipótesis quimiosmótica de Mitchell).",
+      "b) Fotofosforilación: flujo de electrones desde los fotosistemas excitados por la luz hasta el NADPH, con un gradiente de protones que se usa para sintetizar ATP; en los cloroplastos (0,75 p). Ocurre en la membrana de los tilacoides: el agua repone por fotólisis los electrones de la clorofila y se libera O₂; los protones se acumulan en el interior del tilacoide y salen por la ATP sintasa."
     ],
     "palabras_clave": [
       "NADPH",
@@ -18116,11 +18116,11 @@
     "tipo": "respuesta breve",
     "pregunta": "Describa las etapas del ciclo lítico de un bacteriófago [2].",
     "respuesta": [
-      "1) Adsorción (fijación) del fago a la bacteria (0,4 p).",
-      "2) Inyección del ácido nucleico vírico por la vaina contráctil (0,4 p).",
-      "3) Uso de la maquinaria biosintética de la bacteria para producir copias del ácido nucleico y de la cápsida (0,4 p).",
+      "1) Adsorción (fijación) del fago a la bacteria (0,4 p). Las fibras de la cola reconocen receptores específicos de la pared bacteriana.",
+      "2) Inyección del ácido nucleico vírico por la vaina contráctil (0,4 p). La cápsida queda fuera.",
+      "3) Uso de la maquinaria biosintética de la bacteria para producir copias del ácido nucleico y de la cápsida (0,4 p). El virus destruye el ADN bacteriano y usa los ribosomas, las enzimas y el ATP de la bacteria.",
       "4) Ensamblaje: cada ácido nucleico se rodea de su cápsida y se une a la cola y la placa basal (0,4 p).",
-      "5) Lisis de la célula por enzimas líticas y salida de los nuevos fagos (0,4 p)."
+      "5) Lisis de la célula por enzimas líticas y salida de los nuevos fagos (0,4 p). La lisozima del virus rompe la pared bacteriana y la bacteria estalla, liberando cientos de virus."
     ],
     "palabras_clave": [
       "Adsorción",
@@ -18173,9 +18173,9 @@
     "tipo": "respuesta breve",
     "pregunta": "Un agricultor cruzó plantas de rábanos largos con plantas de rábanos redondos y observó que toda la descendencia estaba formada por plantas de rábanos ovales. a) Explique razonadamente qué tipo de herencia controla la forma de los rábanos [0,3]. b) Indique los genotipos que poseen los tres tipos de plantas [0,3]. c) Si el agricultor cruzara plantas de rábanos ovales con plantas de rábanos largos ¿qué porcentaje de la descendencia cabría esperar que fuera de rábanos redondos? Razone la respuesta representando el esquema del posible cruce [0,4].",
     "respuesta": [
-      "a) Herencia intermedia, porque aparece un fenotipo intermedio (oval) (0,3 p).",
+      "a) Herencia intermedia, porque aparece un fenotipo intermedio (oval) (0,3 p). Ninguno de los dos alelos domina sobre el otro: el heterocigoto tiene un fenotipo intermedio.",
       "b) RR (largos), rr (redondos) y Rr (ovales), o cualquier otra nomenclatura (0,3 p).",
-      "c) Rr × RR: 0 % redondos (0,1 p); 50 % largos RR y 50 % ovales Rr (0,3 p)."
+      "c) Rr × RR: 0 % redondos (0,1 p); 50 % largos RR y 50 % ovales Rr (0,3 p). Para que aparezca un rábano redondo (rr), los dos progenitores tienen que aportar un alelo r, y los largos (RR) solo forman gametos R."
     ],
     "palabras_clave": [
       "0 % redondos",
@@ -18199,7 +18199,7 @@
     "pregunta": "En relación con la figura adjunta, responda a las siguientes cuestiones: a) ¿Qué proceso biológico representa? [0,2]. b) Identifique los elementos señalados con las letras A, B, C, y D [0,8].",
     "respuesta": [
       "a) Traducción o síntesis de proteínas (0,2 p).",
-      "b) A: ARN transferente (aminoacil-ARNt); B: ARN mensajero; C: polipéptido; D: ribosoma (subunidad grande). 0,2 p cada uno (0,8 p)."
+      "b) A: ARN transferente (aminoacil-ARNt); B: ARN mensajero; C: polipéptido; D: ribosoma (subunidad grande). 0,2 p cada uno (0,8 p). El ARNt lleva el aminoácido y reconoce el codón con su anticodón; el ribosoma lee el ARNm y une los aminoácidos por enlaces peptídicos, y la cadena crece desde el extremo amino."
     ],
     "palabras_clave": [
       "ARN mensajero",
