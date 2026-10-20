@@ -24184,10 +24184,10 @@
     "tipo": "respuesta breve",
     "pregunta": "a) Explique la relación entre el punto de fusión de los ácidos grasos, el tamaño y el grado de saturación de sus cadenas [0,5]. b) Indique dos diferencias entre los lípidos saponificables e insaponificables [0,4]. c) Ponga un ejemplo de cada uno de ellos [0,5]. d) Cite dos ejemplos de lípidos con función estructural [0,6].",
     "respuesta": [
-      "a) El punto de fusión aumenta con la longitud de la cadena y disminuye con el grado de insaturación (0,5 p).",
-      "b) Los saponificables contienen ácidos grasos y son ésteres; los insaponificables no tienen ácidos grasos ni son ésteres; unos forman jabones con álcalis y otros no. Dos (0,4 p).",
+      "a) El punto de fusión aumenta con la longitud de la cadena y disminuye con el grado de insaturación (0,5 p). Las cadenas largas y saturadas son rectas y se empaquetan muy juntas, unidas por fuerzas de Van der Waals; los dobles enlaces cis forman codos que impiden ese empaquetamiento. Por eso las grasas animales, ricas en saturados, son sólidas, y los aceites, líquidos.",
+      "b) Los saponificables contienen ácidos grasos y son ésteres; los insaponificables no tienen ácidos grasos ni son ésteres; unos forman jabones con álcalis y otros no. Dos (0,4 p). La saponificación es la hidrólisis de los enlaces éster en medio básico (NaOH o KOH), que da glicerina y jabones.",
       "c) Saponificables: acilglicéridos, céridos, fosfolípidos; insaponificables: carotenoides y esteroides. Uno de cada (0,5 p).",
-      "d) Fosfolípidos (fosfoglicéridos) y esteroides (colesterol) (0,6 p)."
+      "d) Fosfolípidos (fosfoglicéridos) y esteroides (colesterol) (0,6 p). Los fosfolípidos forman la bicapa de todas las membranas; el colesterol se intercala entre ellos en las membranas animales y regula su fluidez. Las ceras también protegen e impermeabilizan hojas, plumas y piel."
     ],
     "palabras_clave": [
       "Fosfolípidos",
@@ -24246,7 +24246,7 @@
     "tipo": "respuesta breve",
     "pregunta": "Explique dos pruebas bioquímicas que avalen la teoría de la evolución [2].",
     "respuesta": [
-      "Dos de estas, 1 p cada una (2 p): gran uniformidad en los componentes moleculares de todos los organismos; el código genético es el mismo para todos los seres vivos; los procesos metabólicos son prácticamente los mismos; la comparación de secuencias de aminoácidos o de nucleótidos indica el grado de parentesco evolutivo."
+      "Dos de estas, 1 p cada una (2 p): gran uniformidad en los componentes moleculares de todos los organismos; el código genético es el mismo para todos los seres vivos; los procesos metabólicos son prácticamente los mismos; la comparación de secuencias de aminoácidos o de nucleótidos indica el grado de parentesco evolutivo. Por ejemplo, todos los seres vivos usan ADN como material genético, las mismas 20 clases de aminoácidos y el ATP; y cuanto más se parecen las secuencias del ADN o de una proteína entre dos especies, más próximo es su parentesco."
     ],
     "palabras_clave": [
       "comparación de secuencias de aminoácidos o de nucleótidos",
@@ -24267,10 +24267,10 @@
     "tipo": "respuesta breve",
     "pregunta": "a) Cite dos estructuras que se encuentren en el citoplasma de una célula procariótica [0,2]. b) Nombre dos apéndices bacterianos y describa su función [0,6]. c) Indique dos funciones de la pared celular bacteriana y su composición [0,6]. d) Respecto al metabolismo bacteriano, explique el significado de los términos quimiótrofo y anaerobio facultativo [0,6].",
     "respuesta": [
-      "a) Cromosoma bacteriano (ADN), plásmidos, ribosomas. Dos (0,2 p).",
-      "b) Fimbrias: adherencia a sustratos; pili: transferencia de material genético; flagelo: movimiento. Dos (0,6 p).",
-      "c) Funciones: protección, dar forma, rigidez, soportar presiones osmóticas. Dos, a 0,2 p. Composición: peptidoglucano (mureína) (0,2 p).",
-      "d) Quimiótrofo: sintetiza ATP con la energía química de las moléculas que oxida. Anaerobio facultativo: crece tanto en presencia como en ausencia de oxígeno (0,6 p)."
+      "a) Cromosoma bacteriano (ADN), plásmidos, ribosomas. Dos (0,2 p). Los plásmidos son pequeñas moléculas de ADN circular, aparte del cromosoma, que pueden llevar genes de resistencia a antibióticos; los ribosomas bacterianos son 70S.",
+      "b) Fimbrias: adherencia a sustratos; pili: transferencia de material genético; flagelo: movimiento. Dos (0,6 p). Por el pili sexual pasa una copia de un plásmido de una bacteria a otra (conjugación), lo que extiende, por ejemplo, la resistencia a antibióticos.",
+      "c) Funciones: protección, dar forma, rigidez, soportar presiones osmóticas. Dos, a 0,2 p. Composición: peptidoglucano (mureína) (0,2 p). Las bacterias grampositivas tienen una capa gruesa de peptidoglucano; las gramnegativas, una capa fina y una membrana externa.",
+      "d) Quimiótrofo: sintetiza ATP con la energía química de las moléculas que oxida. Anaerobio facultativo: crece tanto en presencia como en ausencia de oxígeno (0,6 p). El quimiótrofo puede oxidar compuestos orgánicos (quimioorganótrofo) o inorgánicos (quimiolitótrofo). El anaerobio facultativo respira si hay O₂ y fermenta si no lo hay, como Escherichia coli o las levaduras."
     ],
     "palabras_clave": [
       "Cromosoma bacteriano",
@@ -24336,8 +24336,8 @@
     "tipo": "respuesta breve",
     "pregunta": "Si el pH óptimo de una enzima es igual a 7,3, a) ¿qué ocurrirá con la actividad enzimática a pH 3,0 y a pH 9,9? [0,5] b) Si la temperatura óptima es de 36 ºC, ¿qué ocurrirá a 80 ºC? [0,5] Razone las respuestas.",
     "respuesta": [
-      "a) Por encima o por debajo del pH óptimo la actividad disminuye, y la enzima puede desnaturalizarse (0,5 p).",
-      "b) Por encima de la temperatura óptima la enzima, de naturaleza proteica, se desnaturaliza y pierde su actividad catalítica (0,5 p)."
+      "a) Por encima o por debajo del pH óptimo la actividad disminuye, y la enzima puede desnaturalizarse (0,5 p). Al alejarse del pH óptimo cambian las cargas de los aminoácidos, sobre todo los del centro activo, y el sustrato se une peor; pH tan alejados como 3 o casi 10 pueden desnaturalizar la enzima.",
+      "b) Por encima de la temperatura óptima la enzima, de naturaleza proteica, se desnaturaliza y pierde su actividad catalítica (0,5 p). El calor rompe los enlaces débiles que mantienen la estructura tridimensional y el centro activo pierde su forma; a temperaturas tan altas, la desnaturalización suele ser irreversible."
     ],
     "palabras_clave": [
       "actividad disminuye",
@@ -24378,8 +24378,8 @@
     "tipo": "respuesta breve",
     "pregunta": "a) Indique si el ADN de una célula de la piel de un individuo contendrá la misma información genética que una célula del hígado [0,5]. b) ¿Sintetizan las dos células las mismas proteínas? [0,5] Razone las respuestas.",
     "respuesta": [
-      "a) Sí: todas las células de un organismo pluricelular contienen la misma información genética (0,5 p).",
-      "b) No: la diferenciación celular implica una regulación distinta de la expresión génica en cada tejido (0,5 p)."
+      "a) Sí: todas las células de un organismo pluricelular contienen la misma información genética (0,5 p). Todas proceden del cigoto por mitosis, que reparte copias idénticas del ADN.",
+      "b) No: la diferenciación celular implica una regulación distinta de la expresión génica en cada tejido (0,5 p). Cada tipo celular expresa solo una parte de sus genes; por ejemplo, las células de la piel fabrican queratina y las del hígado, enzimas de detoxificación. Algunos genes, como los de la glucólisis, se expresan en todas."
     ],
     "palabras_clave": [
       "No",
@@ -24400,8 +24400,8 @@
     "tipo": "respuesta breve",
     "pregunta": "El kuru es una enfermedad mortal que afectaba a individuos de ciertas tribus de Nueva Guinea que practicaban el canibalismo ritual en los funerales. Tras analizar restos de tejidos infectados, el agente causante no podía observarse al microscopio óptico, no incorporaba ni timina ni uracilo durante su replicación y su composición química fundamental era carbono, nitrógeno, hidrógeno, oxígeno y azufre. Según estos resultados, a) ¿qué agente infeccioso sería el responsable de esta enfermedad? [0,6] Este agente infeccioso pudo eliminarse de los instrumentos utilizados en los análisis utilizando calor húmedo (a alta temperatura y presión). b) ¿Qué efecto produce el calor elevado en este agente infeccioso? [0,4] Razone adecuadamente las respuestas.",
     "respuesta": [
-      "a) Un prion: no es visible al microscopio óptico, no tiene ADN ni ARN (no usa timina ni uracilo) y su composición es la de una proteína (C, H, O, N y S) (0,6 p).",
-      "b) Al ser una proteína, el calor la desnaturaliza y pierde su actividad biológica (0,4 p)."
+      "a) Un prion: no es visible al microscopio óptico, no tiene ADN ni ARN (no usa timina ni uracilo) y su composición es la de una proteína (C, H, O, N y S) (0,6 p). El prion es una proteína con un plegamiento anómalo que hace que las proteínas normales del cerebro se plieguen igual; se transmitió al comer tejido nervioso infectado. Que no use timina ni uracilo indica que no tiene ADN ni ARN.",
+      "b) Al ser una proteína, el calor la desnaturaliza y pierde su actividad biológica (0,4 p). El calor húmedo a alta presión, como el del autoclave, rompe los enlaces que mantienen su forma anómala; como no se reproduce, ya no puede transformar más proteínas."
     ],
     "palabras_clave": [
       "de una proteína",
@@ -24422,8 +24422,8 @@
     "tipo": "respuesta breve",
     "pregunta": "En el organismo pueden penetrar diferentes tipos de microorganismos por la picadura de insectos. En ocasiones la picadura produce una infección que no tiene consecuencias graves (por ejemplo, una erupción) y en pocos días se elimina. Otras veces la infección puede producir una enfermedad grave (por ejemplo, la enfermedad causada por el virus del Zika). Explique razonadamente qué tipo de mecanismo de defensa actúa en cada caso [1].",
     "respuesta": [
-      "Primer caso: respuesta inespecífica (inflamación local y fagocitosis), suficiente para aislar y eliminar al agente (0,5 p).",
-      "Segundo caso: la defensa inespecífica no basta, la infección se extiende y se desencadena una respuesta inmunitaria específica (0,5 p)."
+      "Primer caso: respuesta inespecífica (inflamación local y fagocitosis), suficiente para aislar y eliminar al agente (0,5 p). La respuesta inespecífica es la primera que actúa, de forma inmediata, y es igual frente a cualquier agresor: barreras como la piel, inflamación, fagocitos y complemento.",
+      "Segundo caso: la defensa inespecífica no basta, la infección se extiende y se desencadena una respuesta inmunitaria específica (0,5 p). En la respuesta específica intervienen los linfocitos B (anticuerpos) y T (respuesta celular, muy importante frente a virus, que viven dentro de las células); tarda días, pero deja memoria."
     ],
     "palabras_clave": [
       "fagocitosis",
@@ -24443,9 +24443,9 @@
     "tipo": "respuesta breve",
     "pregunta": "A la vista de la imagen, conteste las siguientes cuestiones: a) ¿De qué moléculas formarán parte las cadenas A y B? [0,4] b) ¿Cómo se denominan los monómeros que forman las cadenas A y B? [0,1] c) Cite los tres componentes que forman cada uno de esos monómeros [0,3]. d) Indique qué dos diferencias fundamentales hay en la composición química de los monómeros de la cadena A y de la B [0,2].",
     "respuesta": [
-      "a) Cadena A: ADN; cadena B: ARN (0,4 p).",
+      "a) Cadena A: ADN; cadena B: ARN (0,4 p). La cadena A tiene timina; la B, uracilo.",
       "b) Nucleótidos (0,1 p).",
-      "c) Pentosa, base nitrogenada y fosfato (0,3 p).",
+      "c) Pentosa, base nitrogenada y fosfato (0,3 p). La base se une al carbono 1′ de la pentosa por enlace N-glucosídico y el fosfato al carbono 5′; los nucleótidos se unen por enlaces fosfodiéster.",
       "d) Azúcar: desoxirribosa (ADN) o ribosa (ARN); base: timina (ADN) o uracilo (ARN) (0,2 p)."
     ],
     "palabras_clave": [
@@ -24474,8 +24474,8 @@
     "pregunta": "En relación con la imagen adjunta, conteste a las siguientes cuestiones: a) ¿Qué estructura representa? [0,1] b) Indique el nombre de los compuestos A, B, C, D, E y F y de las localizaciones intracelulares G y H [0,8]. c) ¿Qué proceso da lugar a la formación del compuesto F? [0,1]",
     "respuesta": [
       "a) Membrana tilacoidal (0,1 p).",
-      "b) A: H₂O; B: H⁺; C: NADP⁺; D: NADPH; E: ADP; F: ATP; G: espacio tilacoidal; H: estroma. 0,1 p cada uno (0,8 p).",
-      "c) Fotofosforilación (0,1 p)."
+      "b) A: H₂O; B: H⁺; C: NADP⁺; D: NADPH; E: ADP; F: ATP; G: espacio tilacoidal; H: estroma. 0,1 p cada uno (0,8 p). La luz excita la clorofila de los fotosistemas; el agua cede electrones por fotólisis y libera O₂ y H⁺. Los electrones pasan por la cadena de transporte hasta el NADP⁺, y los protones se acumulan en el espacio tilacoidal.",
+      "c) Fotofosforilación (0,1 p). Los protones vuelven al estroma a través de la ATP sintasa, que aprovecha esa energía para unir ADP y fosfato."
     ],
     "palabras_clave": [
       "ADP",
@@ -24530,8 +24530,8 @@
     "pregunta": "A la vista de la imagen, conteste las siguientes cuestiones: a) ¿Qué tipo de microorganismos representa la imagen? [0,1] b) ¿A qué tipos celulares infectan A y B? [0,2] c) Nombre las estructuras señaladas con los números del 1 al 7 [0,7].",
     "respuesta": [
       "a) Virus (0,1 p).",
-      "b) A: bacterias (células procarióticas); B: células eucarióticas (0,2 p).",
-      "c) 1: cápsida; 2: vaina (cola); 3: fibras de la cola; 4: placa basal; 5: envoltura; 6: genoma (material genético); 7: cápsida (0,7 p)."
+      "b) A: bacterias (células procarióticas); B: células eucarióticas (0,2 p). A es un bacteriófago; B, un virus con envoltura, como el VIH.",
+      "c) 1: cápsida; 2: vaina (cola); 3: fibras de la cola; 4: placa basal; 5: envoltura; 6: genoma (material genético); 7: cápsida (0,7 p). La envoltura es una bicapa lipídica que el virus toma de la membrana de la célula al salir de ella por gemación."
     ],
     "palabras_clave": [
       "Virus",
@@ -24557,9 +24557,9 @@
     "tipo": "respuesta breve",
     "pregunta": "En relación con la figura adjunta, conteste a las siguientes preguntas: a) ¿Qué tipo de molécula representa la imagen? [0,2] b) ¿En qué tipo de respuesta inmunitaria humoral es predominante? [0,2] c) Indique qué cadenas polipeptídicas forman el monómero señalado con el recuadro [0,4]. d) Indique, en un organismo, dónde se localiza la molécula representada [0,2].",
     "respuesta": [
-      "a) IgM (0,2 p). b) Respuesta primaria (0,2 p).",
-      "c) Dos cadenas pesadas y dos cadenas ligeras (0,4 p).",
-      "d) En la sangre (0,2 p)."
+      "a) IgM (0,2 p). b) Respuesta primaria (0,2 p). Es un pentámero: cinco unidades en forma de Y unidas entre sí; es la primera inmunoglobulina que se produce en la respuesta primaria. En la secundaria predominan las IgG.",
+      "c) Dos cadenas pesadas y dos cadenas ligeras (0,4 p). Las cadenas están unidas por puentes disulfuro; las regiones variables de los extremos forman los sitios de unión al antígeno.",
+      "d) En la sangre (0,2 p). Por su gran tamaño no atraviesa la placenta; como tiene diez sitios de unión, aglutina muy bien los antígenos."
     ],
     "palabras_clave": [
       "Dos cadenas pesadas y dos cadenas ligeras",
@@ -24580,9 +24580,9 @@
     "tipo": "respuesta breve",
     "pregunta": "a) Defina qué es un inhibidor enzimático [0,5]. b) Indique dos diferencias entre inhibidores reversibles e inhibidores irreversibles [0,5]. c) Describa la inhibición enzimática competitiva y no competitiva [1].",
     "respuesta": [
-      "a) Sustancia que disminuye o anula la actividad enzimática (0,5 p).",
-      "b) Reversibles: unión temporal, las regiones funcionales no cambian y el efecto se puede eliminar. Irreversibles: cambios permanentes, unión irreversible al centro activo, anulan la capacidad catalítica. Dos (0,5 p).",
-      "c) Competitiva: el inhibidor tiene una configuración parecida a la del sustrato y compite por el centro activo. No competitiva: se une a un lugar distinto del centro activo y no compite con el sustrato (1 p)."
+      "a) Sustancia que disminuye o anula la actividad enzimática (0,5 p). Pueden ser sustancias tóxicas, fármacos o los propios productos de una ruta metabólica, que regulan así su actividad.",
+      "b) Reversibles: unión temporal, las regiones funcionales no cambian y el efecto se puede eliminar. Irreversibles: cambios permanentes, unión irreversible al centro activo, anulan la capacidad catalítica. Dos (0,5 p). Los irreversibles suelen unirse por enlaces covalentes; los reversibles, por enlaces débiles.",
+      "c) Competitiva: el inhibidor tiene una configuración parecida a la del sustrato y compite por el centro activo. No competitiva: se une a un lugar distinto del centro activo y no compite con el sustrato (1 p). El efecto del inhibidor competitivo disminuye si se añade mucho sustrato, que lo desplaza del centro activo; el del no competitivo, no, porque al unirse a otro lugar cambia la forma del centro activo."
     ],
     "palabras_clave": [
       "Competitiva",
@@ -24610,9 +24610,9 @@
     "tipo": "respuesta breve",
     "pregunta": "a) Establezca cuatro diferencias entre las células vegetales y las células animales [1]. b) Nombre una función de dos componentes que sean exclusivos de células vegetales [0,5]. c) Cite un orgánulo de doble membrana que comparten estos dos tipos de células [0,25]. d) ¿Qué función presenta el mismo? [0,25]",
     "respuesta": [
-      "a) La vegetal tiene pared celular, cloroplastos y vacuolas grandes, no tiene centriolos y forma fragmoplasto al dividirse; la animal forma un surco de segmentación. Cuatro, a 0,25 p (1 p).",
-      "b) Cloroplastos: fotosíntesis; pared celular: rigidez, unión entre células, barrera frente a patógenos. 0,25 p cada uno (0,5 p).",
-      "c) Mitocondria o núcleo (0,25 p). d) Mitocondria: respiración celular; núcleo: contiene la información genética (0,25 p)."
+      "a) La vegetal tiene pared celular, cloroplastos y vacuolas grandes, no tiene centriolos y forma fragmoplasto al dividirse; la animal forma un surco de segmentación. Cuatro, a 0,25 p (1 p). Además, las vegetales almacenan almidón y las animales, glucógeno; las animales pueden hacer fagocitosis y las vegetales no, por la pared.",
+      "b) Cloroplastos: fotosíntesis; pared celular: rigidez, unión entre células, barrera frente a patógenos. 0,25 p cada uno (0,5 p). La pared, de celulosa, resiste la presión del agua que entra por ósmosis e impide que la célula estalle; los cloroplastos convierten la energía luminosa en química.",
+      "c) Mitocondria o núcleo (0,25 p). d) Mitocondria: respiración celular; núcleo: contiene la información genética (0,25 p). Las dos membranas de la mitocondria tienen funciones distintas: en la interna, plegada en crestas, están la cadena respiratoria y la ATP sintasa. El cloroplasto también tiene doble membrana, pero solo está en las vegetales."
     ],
     "palabras_clave": [
       "Mitocondria",
@@ -24640,9 +24640,9 @@
     "tipo": "respuesta breve",
     "pregunta": "a) Defina el término mutación [0,5] y b) distinga entre mutaciones espontáneas e inducidas [1]. c) Cite dos ejemplos en los que se pongan de manifiesto los efectos perjudiciales de las mutaciones [0,5].",
     "respuesta": [
-      "a) Alteración del material genético (0,5 p).",
-      "b) Espontáneas: se producen de forma natural. Inducidas: por exposición a agentes mutagénicos químicos o físicos (1 p).",
-      "c) Cáncer, enfermedades genéticas. 0,25 p cada uno (0,5 p)."
+      "a) Alteración del material genético (0,5 p). Son cambios en la secuencia o en la cantidad del ADN; pueden ser génicas, cromosómicas o genómicas. Solo se heredan si afectan a las células germinales.",
+      "b) Espontáneas: se producen de forma natural. Inducidas: por exposición a agentes mutagénicos químicos o físicos (1 p). Las espontáneas se deben, por ejemplo, a errores de la ADN polimerasa que escapan a los sistemas de reparación, y ocurren con muy baja frecuencia. Los mutágenos aumentan esa frecuencia: los rayos UV forman dímeros de timina; los rayos X y gamma rompen el ADN; sustancias como el benzopireno del tabaco alteran las bases.",
+      "c) Cáncer, enfermedades genéticas. 0,25 p cada uno (0,5 p). Por ejemplo, la anemia falciforme o la fibrosis quística. Las mutaciones también pueden ser neutras o beneficiosas, y son la fuente de variabilidad sobre la que actúa la evolución."
     ],
     "palabras_clave": [
       "Alteración del material genético",
@@ -24663,9 +24663,9 @@
     "tipo": "respuesta breve",
     "pregunta": "a) Defina partícula subviral [0,5]. b) Nombre dos partículas subvirales [0,4] e indique su composición [0,6]. c) Indique, en cada caso, a qué tipo de organismos infectan [0,5].",
     "respuesta": [
-      "a) Agente infeccioso más simple y de menor tamaño que los virus (0,5 p).",
-      "b) Viroides: ARN monocatenario circular. Priones: proteínas. 0,2 p cada partícula y 0,3 p por su composición (1 p).",
-      "c) Viroides: plantas; priones: animales (0,5 p)."
+      "a) Agente infeccioso más simple y de menor tamaño que los virus (0,5 p). No son células ni virus completos.",
+      "b) Viroides: ARN monocatenario circular. Priones: proteínas. 0,2 p cada partícula y 0,3 p por su composición (1 p). El viroide no tiene cápsida; el prion no tiene ácido nucleico: es una proteína con un plegamiento anómalo que hace que las proteínas normales se plieguen igual.",
+      "c) Viroides: plantas; priones: animales (0,5 p). Los priones causan encefalopatías espongiformes, como el mal de las vacas locas o la enfermedad de Creutzfeldt-Jakob."
     ],
     "palabras_clave": [
       "ARN monocatenario circular",
@@ -24688,9 +24688,9 @@
     "tipo": "respuesta breve",
     "pregunta": "a) Explique en qué consiste la respuesta inmunitaria celular [0,6]. b) Indique dos tipos de células implicadas en este tipo de respuesta [0,4]. c) Describa dos funciones de cada uno de estos tipos de células [1].",
     "respuesta": [
-      "a) Inmunidad basada en la actividad directa de células del sistema inmunitario sobre microorganismos, células infectadas o tumorales (0,6 p).",
+      "a) Inmunidad basada en la actividad directa de células del sistema inmunitario sobre microorganismos, células infectadas o tumorales (0,6 p). No intervienen los anticuerpos; los linfocitos T reconocen el antígeno cuando se lo presentan unido a moléculas del MHC. Es muy importante frente a virus, que viven dentro de las células.",
       "b) Linfocitos T y macrófagos (0,4 p).",
-      "c) Linfocitos T: activan los linfocitos B, destruyen células infectadas o tumorales. Macrófagos: fagocitosis y presentación de antígenos. 0,25 p cada una (1 p)."
+      "c) Linfocitos T: activan los linfocitos B, destruyen células infectadas o tumorales. Macrófagos: fagocitosis y presentación de antígenos. 0,25 p cada una (1 p). Los T colaboradores liberan citocinas que activan a linfocitos B y macrófagos; los T citotóxicos destruyen las células que presentan el antígeno."
     ],
     "palabras_clave": [
       "Linfocitos T",
@@ -24810,7 +24810,7 @@
     "tipo": "respuesta breve",
     "pregunta": "En condiciones normales, en nuestro cuerpo habitan más de 400 especies diferentes de microorganismos, inicialmente inocuos. Sin embargo, en algunas personas, ciertos microorganismos proliferan y producen infecciones. ¿Qué personas tienen mayor predisposición para ser infectadas? [1] Razone la respuesta.",
     "respuesta": [
-      "Las personas con inmunodeficiencia (sistema inmunitario incapaz de realizar su función): los patógenos oportunistas aprovechan esa debilidad para proliferar (1 p)."
+      "Las personas con inmunodeficiencia (sistema inmunitario incapaz de realizar su función): los patógenos oportunistas aprovechan esa debilidad para proliferar (1 p). Por ejemplo, los enfermos de sida, en los que el VIH destruye los linfocitos T colaboradores; los pacientes con tratamientos inmunosupresores, como los trasplantados, o con quimioterapia; y las personas con inmunodeficiencias congénitas. También los recién nacidos y los ancianos tienen defensas más débiles."
     ],
     "palabras_clave": [
       "inmunodeficiencia",
@@ -24829,9 +24829,9 @@
     "pregunta": "Teniendo en cuenta la figura adjunta indique: a) ¿A qué grupo de biomoléculas pertenecen las tres moléculas representadas (A, B y C)? [0,2] b) ¿Cuáles podrían reaccionar con una base fuerte y dar lugar a jabón? [0,3]. c) Escriba la fórmula general (o semidesarrollada) de la molécula A [0,3]. d) ¿Cuál es la función biológica principal de la molécula B? [0,2]",
     "respuesta": [
       "a) Lípidos (0,2 p).",
-      "b) A y B (0,3 p).",
-      "c) CH₃–(CH₂)₁₀–COOH (0,3 p).",
-      "d) Reserva energética (0,2 p)."
+      "b) A y B (0,3 p). Las dos tienen ácidos grasos unidos por enlace éster (B) o un grupo carboxilo libre (A); el isopreno (C) es la unidad de los terpenos, que no tienen ácidos grasos y no forman jabones.",
+      "c) CH₃–(CH₂)₁₀–COOH (0,3 p). Es el ácido láurico, de 12 carbonos y saturado; tiene una cadena apolar y un grupo carboxilo polar.",
+      "d) Reserva energética (0,2 p). Es un triacilglicérido: almacena mucha energía (unas 9 kcal por gramo) y sin agua; también aísla del frío."
     ],
     "palabras_clave": [
       "A y B",
@@ -24885,8 +24885,8 @@
     "pregunta": "La imagen muestra el cruce entre dos gatos, ambos con pelo de color negro, que da lugar a tres gatitos de color negro y un gatito de color gris. Conteste a las siguientes cuestiones: a) Deduzca qué gametos se corresponden con los números 2, 3 y 4 [0,3]. b) Indique los genotipos para el color del pelo de los gatos 1, 5, 6 y 7 [0,4]. c) ¿En qué proporción se presentan los genotipos de la descendencia? [0,3]",
     "respuesta": [
       "a) 2: A; 3: a; 4: a (0,3 p).",
-      "b) 1: Aa; 5: AA; 6: Aa; 7: aa (0,4 p).",
-      "c) AA 25 %, Aa 50 %, aa 25 % (0,3 p)."
+      "b) 1: Aa; 5: AA; 6: Aa; 7: aa (0,4 p). Que de dos gatos negros nazca uno gris indica que el gris es recesivo y que los padres son heterocigotos (Aa).",
+      "c) AA 25 %, Aa 50 %, aa 25 % (0,3 p). Es la proporción 1:2:1 del cruce de dos heterocigotos; la de fenotipos es 3:1 (tres negros por cada gris)."
     ],
     "palabras_clave": [
       "A",
@@ -24910,8 +24910,8 @@
     "pregunta": "En relación con la figura adjunta, conteste a las siguientes cuestiones: a) ¿Qué proceso metabólico tiene en común la fabricación de estos cuatro productos? [0,2] b) ¿Qué tipo de microorganismo es responsable de la producción de cada uno de ellos? [0,4] c) Para cada uno de los productos, indique cuál es la molécula de partida y la molécula orgánica resultante [0,4].",
     "respuesta": [
       "a) Fermentación (0,2 p).",
-      "b) 1 y 2: bacterias (Lactobacillus); 3 y 4: levaduras (Saccharomyces) (0,4 p).",
-      "c) 1 y 2: de glucosa a ácido láctico; 3 y 4: de glucosa a etanol (0,4 p)."
+      "b) 1 y 2: bacterias (Lactobacillus); 3 y 4: levaduras (Saccharomyces) (0,4 p). Se usan bacterias lácticas como Lactobacillus para el queso y el yogur, y levaduras como Saccharomyces para el vino y el pan.",
+      "c) 1 y 2: de glucosa a ácido láctico; 3 y 4: de glucosa a etanol (0,4 p). En la leche el azúcar de partida es la lactosa, que se hidroliza en glucosa y galactosa; en el vino, los azúcares de la uva. En la fermentación alcohólica se forma también CO₂, que en el pan hace subir la masa."
     ],
     "palabras_clave": [
       "Fermentación",
@@ -24960,10 +24960,10 @@
     "tipo": "respuesta breve",
     "pregunta": "a) Defina proteína [0,6] y b) cite dos tipos de estructura secundaria que pueden presentar [0,4]. c) Explique en qué consiste la desnaturalización y la renaturalización de las proteínas [0,6]. d) Entre los diferentes tipos de enlaces que pueden existir en una proteína, indique cuál permanece tras el proceso de desnaturalización [0,4].",
     "respuesta": [
-      "a) Macromolécula de una o varias cadenas polipeptídicas formadas por aminoácidos unidos por enlaces peptídicos (0,6 p).",
-      "b) Alfa-hélice y conformación beta (hoja plegada) (0,4 p).",
-      "c) Desnaturalización: pérdida de la estructura nativa y, con ella, de la función. Renaturalización: recuperación de la estructura nativa y de la función (0,6 p).",
-      "d) Enlace peptídico (0,4 p)."
+      "a) Macromolécula de una o varias cadenas polipeptídicas formadas por aminoácidos unidos por enlaces peptídicos (0,6 p). Su secuencia de aminoácidos (estructura primaria) determina cómo se pliega la cadena, y de esa forma depende su función.",
+      "b) Alfa-hélice y conformación beta (hoja plegada) (0,4 p). Las dos se forman por puentes de hidrógeno entre los grupos C=O y N–H de los enlaces peptídicos: la α-hélice se enrolla en espiral, y en la lámina β la cadena se extiende en zigzag.",
+      "c) Desnaturalización: pérdida de la estructura nativa y, con ella, de la función. Renaturalización: recuperación de la estructura nativa y de la función (0,6 p). La causan el calor, los pH extremos o algunas sustancias, que rompen los enlaces débiles. Si se elimina el agente, a veces la proteína recupera su forma, porque la información está en su secuencia de aminoácidos.",
+      "d) Enlace peptídico (0,4 p). Es un enlace covalente, mucho más fuerte que los enlaces débiles que mantienen las estructuras secundaria, terciaria y cuaternaria."
     ],
     "palabras_clave": [
       "Alfa-hélice",
@@ -24987,10 +24987,10 @@
     "tipo": "respuesta breve",
     "pregunta": "En relación con el anabolismo celular, defina los conceptos: a) divergencia metabólica [0,5]; b) quimiosíntesis [0,5]; c) anabolismo heterótrofo [0,5]; d) fotosíntesis [0,5].",
     "respuesta": [
-      "a) Divergencia metabólica: a partir de unos pocos sustratos se forman muchos productos diferentes (0,5 p).",
-      "b) Quimiosíntesis: obtención de materia orgánica a partir de inorgánica con la energía de reacciones químicas de oxidación (0,5 p).",
-      "c) Anabolismo heterótrofo: a partir de precursores orgánicos sencillos se obtienen moléculas orgánicas más complejas (0,5 p).",
-      "d) Fotosíntesis: captación de la energía de la luz para transformar materia inorgánica en orgánica (0,5 p)."
+      "a) Divergencia metabólica: a partir de unos pocos sustratos se forman muchos productos diferentes (0,5 p). Por ejemplo, a partir del acetil-CoA se sintetizan ácidos grasos, colesterol y hormonas esteroideas.",
+      "b) Quimiosíntesis: obtención de materia orgánica a partir de inorgánica con la energía de reacciones químicas de oxidación (0,5 p). La realizan algunas bacterias, como las nitrificantes o las del azufre: oxidan compuestos inorgánicos (amoniaco, nitritos, sulfuro de hidrógeno) y usan esa energía para fijar CO₂ en el ciclo de Calvin.",
+      "c) Anabolismo heterótrofo: a partir de precursores orgánicos sencillos se obtienen moléculas orgánicas más complejas (0,5 p). Lo realizan todas las células, autótrofas y heterótrofas; por ejemplo, la síntesis de glucógeno a partir de glucosa o de proteínas a partir de aminoácidos.",
+      "d) Fotosíntesis: captación de la energía de la luz para transformar materia inorgánica en orgánica (0,5 p). En la fase luminosa la energía de la luz se transforma en ATP y NADPH, y se libera O₂ procedente del agua; en el ciclo de Calvin se usan para reducir el CO₂ a glúcidos."
     ],
     "palabras_clave": [
       "a partir de precursores orgánicos sencillos",
@@ -25013,8 +25013,8 @@
     "tipo": "respuesta breve",
     "pregunta": "a) Explique dos formas en las que se puede determinar el sexo de un organismo pluricelular [1,4]. b) Diferencie entre un carácter ligado al sexo y otro influido por el sexo [0,6].",
     "respuesta": [
-      "a) Por cromosomas sexuales (heterocromosomas), que contienen los factores que determinan el sexo; o por el número de cromosomas (haplodiploidía): los individuos de óvulos fecundados (diploides) y los de óvulos sin fecundar (haploides) son de sexo diferente (1,4 p).",
-      "b) Ligado al sexo: gen situado en uno de los cromosomas sexuales. Influido por el sexo: gen autosómico que se manifiesta según el sexo del individuo (0,6 p)."
+      "a) Por cromosomas sexuales (heterocromosomas), que contienen los factores que determinan el sexo; o por el número de cromosomas (haplodiploidía): los individuos de óvulos fecundados (diploides) y los de óvulos sin fecundar (haploides) son de sexo diferente (1,4 p). En la especie humana, las mujeres son XX y los hombres XY; el cromosoma Y determina el sexo masculino. En las abejas, los machos (zánganos) proceden de óvulos sin fecundar y las hembras, de óvulos fecundados.",
+      "b) Ligado al sexo: gen situado en uno de los cromosomas sexuales. Influido por el sexo: gen autosómico que se manifiesta según el sexo del individuo (0,6 p). Por ejemplo, el daltonismo y la hemofilia son ligados al X; la calvicie es un carácter influido por el sexo: se manifiesta con más frecuencia en los hombres."
     ],
     "palabras_clave": [
       "autosómico",
@@ -25038,8 +25038,8 @@
     "tipo": "respuesta breve",
     "pregunta": "a) ¿Qué es un virus? [0,5] b) Describa el ciclo lítico de un bacteriófago [1,5].",
     "respuesta": [
-      "a) Forma acelular de proteínas y un solo tipo de ácido nucleico que necesita células vivas para multiplicarse (parásito obligado) (0,5 p).",
-      "b) Unión a receptores específicos de la bacteria; inyección del ácido nucleico por la vaina contráctil; uso de la maquinaria biosintética de la bacteria para copiar el ácido nucleico y las proteínas de la cápsida; ensamblaje; lisis por enzimas líticas y salida de los nuevos fagos (1,5 p)."
+      "a) Forma acelular de proteínas y un solo tipo de ácido nucleico que necesita células vivas para multiplicarse (parásito obligado) (0,5 p). Fuera de la célula es una partícula inerte, el virión: no tiene metabolismo propio.",
+      "b) Unión a receptores específicos de la bacteria; inyección del ácido nucleico por la vaina contráctil; uso de la maquinaria biosintética de la bacteria para copiar el ácido nucleico y las proteínas de la cápsida; ensamblaje; lisis por enzimas líticas y salida de los nuevos fagos (1,5 p). En la fase de síntesis, el virus destruye el ADN bacteriano y dirige la fabricación de sus propias moléculas; al final, su lisozima rompe la pared bacteriana y salen cientos de virus."
     ],
     "palabras_clave": [
       "Forma acelular",
@@ -25064,10 +25064,10 @@
     "tipo": "respuesta breve",
     "pregunta": "a) Defina antígeno [0,4] y b) anticuerpo [0,4]. c) Describa la estructura de un anticuerpo [0,6]. d) Explique dos diferencias entre vacuna y suero [0,6].",
     "respuesta": [
-      "a) Antígeno: molécula no reconocida como propia que desencadena una respuesta inmunitaria (0,4 p).",
-      "b) Anticuerpo: proteína producida por los linfocitos B (células plasmáticas) en respuesta a un antígeno (0,4 p).",
-      "c) Dos cadenas ligeras y dos pesadas (0,3 p), con región constante (0,15 p) y región variable (0,15 p).",
-      "d) Preventivo o curativo; forma o no células de memoria; inmunidad activa o pasiva; administra antígenos o anticuerpos. Dos (0,6 p)."
+      "a) Antígeno: molécula no reconocida como propia que desencadena una respuesta inmunitaria (0,4 p). Puede ser una proteína, un polisacárido o un ácido nucleico, normalmente de gran tamaño; la parte que reconoce el anticuerpo es el epítopo.",
+      "b) Anticuerpo: proteína producida por los linfocitos B (células plasmáticas) en respuesta a un antígeno (0,4 p). Son inmunoglobulinas, glucoproteínas que secretan las células plasmáticas y se unen de forma específica al antígeno.",
+      "c) Dos cadenas ligeras y dos pesadas (0,3 p), con región constante (0,15 p) y región variable (0,15 p). Tienen forma de Y, con las cadenas unidas por puentes disulfuro; la región variable, en los extremos de los brazos, forma los dos sitios de unión al antígeno, y la constante determina la clase de anticuerpo.",
+      "d) Preventivo o curativo; forma o no células de memoria; inmunidad activa o pasiva; administra antígenos o anticuerpos. Dos (0,6 p). La vacuna estimula la producción de anticuerpos propios y células de memoria y tarda en hacer efecto; el suero aporta anticuerpos ya formados y actúa de inmediato, pero no deja memoria."
     ],
     "palabras_clave": [
       "Dos cadenas ligeras y dos pesadas",
@@ -25093,8 +25093,8 @@
     "tipo": "respuesta breve",
     "pregunta": "Dos plantas de tomate se cultivan en medio acuoso en condiciones similares de iluminación y temperatura, pero el medio líquido que se les aporta es diferente: en un caso es hipotónico y en otro hipertónico. a) Si la planta es capaz de controlar la evaporación, explique de forma razonada con cuál de los dos medios la tasa de evaporación será menor [0,5]. b) ¿Qué consecuencias tendrá en las células de estas plantas crecer en un medio hipertónico? [0,5]",
     "respuesta": [
-      "a) Será menor en la planta del medio hipertónico, para evitar pérdidas de agua (0,5 p).",
-      "b) Las células pueden sufrir plasmólisis, con separación de la membrana y la pared, y posible muerte celular (0,5 p)."
+      "a) Será menor en la planta del medio hipertónico, para evitar pérdidas de agua (0,5 p). Las plantas pierden agua por transpiración a través de los estomas; en un medio hipertónico les cuesta absorber agua por las raíces, así que cierran los estomas para ahorrarla.",
+      "b) Las células pueden sufrir plasmólisis, con separación de la membrana y la pared, y posible muerte celular (0,5 p). El agua sale de las vacuolas por ósmosis y la célula pierde la turgencia; la planta se marchita."
     ],
     "palabras_clave": [
       "evitar pérdidas de agua",
@@ -25115,8 +25115,8 @@
     "tipo": "respuesta breve",
     "pregunta": "Las células del páncreas tienen un gran número de ribosomas mientras que las del corazón contienen numerosas mitocondrias. ¿A qué se deben estas diferencias? [1] Razone la respuesta.",
     "respuesta": [
-      "Páncreas: muchos ribosomas porque produce enzimas y hormonas de naturaleza proteica (0,5 p).",
-      "Corazón: muchas mitocondrias porque necesita mucho ATP para la contracción muscular (0,5 p)."
+      "Páncreas: muchos ribosomas porque produce enzimas y hormonas de naturaleza proteica (0,5 p). Las células del páncreas exocrino secretan enzimas digestivas y las de los islotes, insulina y glucagón; por eso tienen también muy desarrollados el RER y el Golgi.",
+      "Corazón: muchas mitocondrias porque necesita mucho ATP para la contracción muscular (0,5 p). El músculo cardiaco se contrae sin descanso y obtiene el ATP casi solo por respiración aerobia; la fosforilación oxidativa ocurre en las mitocondrias."
     ],
     "palabras_clave": [
       "enzimas y hormonas de naturaleza proteica",
@@ -25215,10 +25215,10 @@
     "tipo": "respuesta breve",
     "pregunta": "En relación con la figura adjunta, conteste a las siguientes cuestiones: a) Indique el nombre de la molécula representada [0,2]. b) Cite una función de la misma [0,2]. c) Nombre el monómero del recuadro [0,2] y cite su función principal [0,2]. d) ¿Qué tipo de enlace señala la flecha? [0,2]",
     "respuesta": [
-      "a) Almidón (amilosa) (0,2 p).",
-      "b) Reserva energética en vegetales (0,2 p).",
+      "a) Almidón (amilosa) (0,2 p). La amilosa es lineal, con enlaces α(1→4), y forma una hélice; la amilopectina, el otro componente del almidón, tiene además ramificaciones α(1→6).",
+      "b) Reserva energética en vegetales (0,2 p). Se almacena en los amiloplastos; por ejemplo, en la patata o en los cereales.",
       "c) Glucosa (0,2 p), el azúcar más utilizado como fuente de energía (0,2 p).",
-      "d) Enlace O-glucosídico (0,2 p)."
+      "d) Enlace O-glucosídico (0,2 p). Se forma entre el –OH del carbono 1 de una glucosa y el del carbono 4 de la siguiente, con pérdida de una molécula de agua."
     ],
     "palabras_clave": [
       "Almidón",
@@ -25241,8 +25241,8 @@
     "pregunta": "En relación con la figura adjunta, conteste las siguientes cuestiones: a) ¿Cómo se denominan los orgánulos celulares representados en la figura con los números 1, 2, 3 y 4? [0,4] b) ¿Cuál es el origen del orgánulo señalado con el número 1? [0,2] c) Nombre los procesos que tendrán lugar tras la fusión de 1 con 2 y de 1 con 3 [0,4].",
     "respuesta": [
       "a) 1: lisosoma; 2: fagosoma; 3: autofagosoma; 4: retículo endoplasmático (0,4 p).",
-      "b) El complejo de Golgi (0,2 p).",
-      "c) 1 con 2: heterofagia; 1 con 3: autofagia (0,4 p)."
+      "b) El complejo de Golgi (0,2 p). Las enzimas hidrolíticas se sintetizan en el RER y el Golgi las empaqueta en vesículas.",
+      "c) 1 con 2: heterofagia; 1 con 3: autofagia (0,4 p). En la heterofagia se digiere material captado del exterior por endocitosis; en la autofagia, orgánulos o componentes de la propia célula, que así se renuevan."
     ],
     "palabras_clave": [
       "autofagia",
@@ -25298,9 +25298,9 @@
     "tipo": "respuesta breve",
     "pregunta": "En relación con las figuras adjuntas, responda las siguientes cuestiones: a) Identifique los microorganismos representados con las letras A y B [0,2] e indique, en cada caso, a qué Reino pertenecen [0,2] y el tipo de organización celular que poseen [0,2]. b) Indique qué está representado con la letra C [0,1] y a qué tipo de células puede parasitar [0,1]. c) ¿Cuál de estos microorganismos puede emplearse en la fabricación de cerveza? ¿Y en la de yogur? [0,2]",
     "respuesta": [
-      "a) A: levaduras (Saccharomyces), reino Fungi, eucariota; B: bacterias, reino Monera, procariota (0,6 p).",
-      "b) C: bacteriófago, que parasita bacterias (procariotas) (0,2 p).",
-      "c) Cerveza: A; yogur: B (0,2 p)."
+      "a) A: levaduras (Saccharomyces), reino Fungi, eucariota; B: bacterias, reino Monera, procariota (0,6 p). Las levaduras son hongos unicelulares; las bacterias no tienen núcleo ni orgánulos membranosos.",
+      "b) C: bacteriófago, que parasita bacterias (procariotas) (0,2 p). Inyecta su ADN en la bacteria, y la cápsida queda fuera.",
+      "c) Cerveza: A; yogur: B (0,2 p). Las levaduras realizan la fermentación alcohólica y las bacterias lácticas, la fermentación láctica."
     ],
     "palabras_clave": [
       "A",
@@ -25326,9 +25326,9 @@
     "tipo": "respuesta breve",
     "pregunta": "En relación con la figura adjunta, conteste las siguientes cuestiones: a) Identifique las células o moléculas indicadas como A, B y C en la imagen 1 [0,3]. b) ¿Qué células producen la molécula señalada como B? [0,2] c) Nombre el proceso que transcurre en la imagen 2 [0,25]. d) Cite otro proceso en el que interviene la célula A [0,25].",
     "respuesta": [
-      "a) A: macrófago y/o neutrófilo; B: anticuerpo o IgG; C: receptor de anticuerpo (0,3 p).",
+      "a) A: macrófago y/o neutrófilo; B: anticuerpo o IgG; C: receptor de anticuerpo (0,3 p). Los anticuerpos recubren el microorganismo (opsonización) y el fagocito lo reconoce con sus receptores para la región constante (Fc) del anticuerpo.",
       "b) Linfocitos B o células plasmáticas (0,2 p).",
-      "c) Fagocitosis (0,25 p). d) Presentación de antígenos (0,25 p)."
+      "c) Fagocitosis (0,25 p). d) Presentación de antígenos (0,25 p). El microorganismo queda dentro de un fagosoma, que se fusiona con lisosomas, y sus enzimas lo digieren. Al presentar el antígeno unido a moléculas del MHC activa a los linfocitos T colaboradores; los macrófagos también liberan sustancias que producen la inflamación."
     ],
     "palabras_clave": [
       "Fagocitosis",
@@ -25379,8 +25379,8 @@
     "pregunta": "a) Cite cuatro componentes principales del núcleo interfásico [0,4]. b) Indique la composición [0,8] y c) una función de cada uno de ellos [0,8].",
     "respuesta": [
       "a) Envoltura nuclear, nucleoplasma, cromatina, nucléolo, poros nucleares. Cuatro (0,4 p).",
-      "b) Envoltura: fosfolípidos, colesterol y proteínas; nucleoplasma: agua, sales, nucleótidos y enzimas; cromatina: ADN y proteínas; nucléolo: ADN, ARN y proteínas (0,8 p).",
-      "c) Envoltura: protección y transporte; nucleoplasma: medio de las reacciones nucleares; cromatina: contiene la información genética; nucléolo: síntesis de ARN ribosómico. 0,2 p cada una (0,8 p)."
+      "b) Envoltura: fosfolípidos, colesterol y proteínas; nucleoplasma: agua, sales, nucleótidos y enzimas; cromatina: ADN y proteínas; nucléolo: ADN, ARN y proteínas (0,8 p). La envoltura tiene dos membranas, continuas con el RER, y poros formados por proteínas; la cromatina es ADN asociado a histonas; el nucléolo no tiene membrana.",
+      "c) Envoltura: protección y transporte; nucleoplasma: medio de las reacciones nucleares; cromatina: contiene la información genética; nucléolo: síntesis de ARN ribosómico. 0,2 p cada una (0,8 p). Los poros controlan el paso de ARNm y de subunidades de ribosomas al citoplasma, y de proteínas como las histonas o las polimerasas al núcleo; en la cromatina se replica y se transcribe el ADN; en el nucléolo se ensamblan además las subunidades de los ribosomas."
     ],
     "palabras_clave": [
       "ADN y proteínas",
@@ -25408,9 +25408,9 @@
     "tipo": "respuesta breve",
     "pregunta": "a) Defina qué son órganos homólogos y órganos análogos [1]. b) Ponga un ejemplo de cada tipo [0,6]. c) Indique qué tipo de estos órganos aporta información para entender la evolución a partir de un antepasado común y por qué [0,4].",
     "respuesta": [
-      "a) Homólogos: origen evolutivo común y misma estructura básica, aunque realicen distinta función (0,5 p). Análogos: misma función pero origen y estructura distintos (0,5 p).",
-      "b) Homólogos: extremidades anteriores de los vertebrados; análogos: ala de insecto y ala de ave. 0,3 p cada uno (0,6 p).",
-      "c) Los homólogos, porque surgen de una evolución divergente (radiación adaptativa) (0,4 p)."
+      "a) Homólogos: origen evolutivo común y misma estructura básica, aunque realicen distinta función (0,5 p). Análogos: misma función pero origen y estructura distintos (0,5 p). Los homólogos se han adaptado a modos de vida distintos; los análogos se parecen porque han tenido que resolver el mismo problema, por ejemplo volar.",
+      "b) Homólogos: extremidades anteriores de los vertebrados; análogos: ala de insecto y ala de ave. 0,3 p cada uno (0,6 p). Por ejemplo, el brazo humano, el ala del murciélago y la aleta de la ballena tienen los mismos huesos; el ala del insecto, en cambio, no tiene huesos.",
+      "c) Los homólogos, porque surgen de una evolución divergente (radiación adaptativa) (0,4 p). A partir de un antepasado común, las poblaciones se adaptaron a ambientes distintos y sus órganos se modificaron de forma diferente. Los análogos son fruto de una evolución convergente y no indican parentesco."
     ],
     "palabras_clave": [
       "ala de insecto y ala de ave",
@@ -25469,10 +25469,10 @@
     "tipo": "respuesta breve",
     "pregunta": "Defina: a) respuesta inmunitaria congénita o innata [0,5]; b) respuesta inmunitaria adquirida o adaptativa [0,5]; c) respuesta humoral [0,5]; d) respuesta celular [0,5].",
     "respuesta": [
-      "a) Innata: propia de la especie y no precisa activación (0,5 p).",
-      "b) Adquirida: propia del individuo, se desarrolla a lo largo de la vida por contacto con antígenos (0,5 p).",
-      "c) Humoral: basada en la producción de sustancias, esencialmente anticuerpos (0,5 p).",
-      "d) Celular: basada en la acción directa de células como linfocitos T y macrófagos (0,5 p)."
+      "a) Innata: propia de la especie y no precisa activación (0,5 p). Actúa de inmediato y frente a cualquier agresor: barreras como la piel y las mucosas, fagocitos, inflamación y complemento.",
+      "b) Adquirida: propia del individuo, se desarrolla a lo largo de la vida por contacto con antígenos (0,5 p). Es específica frente a cada antígeno y deja memoria; la realizan los linfocitos.",
+      "c) Humoral: basada en la producción de sustancias, esencialmente anticuerpos (0,5 p). Los anticuerpos los secretan las células plasmáticas, derivadas de los linfocitos B; actúa contra patógenos y toxinas que están fuera de las células.",
+      "d) Celular: basada en la acción directa de células como linfocitos T y macrófagos (0,5 p). Los linfocitos T citotóxicos destruyen las células infectadas por virus o tumorales; los T colaboradores activan a macrófagos y linfocitos B mediante citocinas."
     ],
     "palabras_clave": [
       "acción directa de células",
@@ -25496,8 +25496,8 @@
     "tipo": "respuesta breve",
     "pregunta": "La tripsina es una enzima proteolítica que cataliza la hidrólisis de los enlaces peptídicos en los que el grupo carboxilo es aportado por la Lys o Arg. a) Escriba la secuencia de los fragmentos resultantes de la acción de la tripsina en el péptido que se indica a continuación [0,5]. La quimotripsina tiene la misma función, pero corta por el extremo carboxilo del aminoácido Met. b) En este caso, ¿cuáles son los fragmentos resultantes? [0,5] H₂N-Lys – Met – Cys – Met – Lys – Ala – Cys – Arg – Ala-COOH",
     "respuesta": [
-      "a) Tripsina: H₂N-Lys-COOH + H₂N-Met-Cys-Met-Lys-COOH + H₂N-Ala-Cys-Arg-COOH + H₂N-Ala-COOH (0,5 p).",
-      "b) Quimotripsina: H₂N-Lys-Met-COOH + H₂N-Cys-Met-COOH + H₂N-Lys-Ala-Cys-Arg-Ala-COOH (0,5 p)."
+      "a) Tripsina: H₂N-Lys-COOH + H₂N-Met-Cys-Met-Lys-COOH + H₂N-Ala-Cys-Arg-COOH + H₂N-Ala-COOH (0,5 p). La tripsina rompe el enlace peptídico que hay justo después de cada Lys o Arg; los fragmentos se escriben desde el extremo amino.",
+      "b) Quimotripsina: H₂N-Lys-Met-COOH + H₂N-Cys-Met-COOH + H₂N-Lys-Ala-Cys-Arg-Ala-COOH (0,5 p). Ahora el corte se produce después de cada Met; la hidrólisis rompe el enlace peptídico con una molécula de agua, y cada fragmento queda con sus extremos amino y carboxilo libres."
     ],
     "palabras_clave": [
       "H₂N-Lys-COOH + H₂N-Met-Cys-Met-Lys-COOH + H₂N-Ala-Cys-Arg-COOH + H₂N-Ala-COOH",
@@ -25515,8 +25515,8 @@
     "tipo": "respuesta breve",
     "pregunta": "Un individuo ingiere una sustancia que causa daños en los transportadores de glucosa de las membranas celulares. a) ¿Se afectará por este motivo la respiración celular? [0,6] b) ¿Podrá sobrevivir este individuo? [0,4] Razone las respuestas.",
     "respuesta": [
-      "a) Sí: si la glucosa no entra en la célula, no puede usarse para obtener energía y sus metabolitos no participan en la respiración celular (0,6 p).",
-      "b) Sí: podrá obtener energía a partir de proteínas y ácidos grasos (0,4 p)."
+      "a) Sí: si la glucosa no entra en la célula, no puede usarse para obtener energía y sus metabolitos no participan en la respiración celular (0,6 p). La glucosa es una molécula polar que no atraviesa la bicapa: entra por difusión facilitada, con permeasas específicas. Sin glucosa no hay glucólisis, y por tanto falta el pirúvico que alimenta el ciclo de Krebs.",
+      "b) Sí: podrá obtener energía a partir de proteínas y ácidos grasos (0,4 p). Los ácidos grasos se degradan por β-oxidación y dan acetil-CoA, que entra en el ciclo de Krebs; algunos aminoácidos también pueden usarse tras perder su grupo amino."
     ],
     "palabras_clave": [
       "Sí",
@@ -25562,7 +25562,7 @@
     "tipo": "respuesta breve",
     "pregunta": "En algunos tratamientos para enfermedades de origen vírico se utilizan macromoléculas que se unen a ciertas proteínas de la superficie del virus (de la envoltura de la cápsida). Indique razonadamente el fundamento de este tratamiento [1].",
     "respuesta": [
-      "Se bloquea la interacción entre las proteínas de la superficie del virus y las proteínas de la superficie de las células que va a infectar; así se impide la entrada del virus y el progreso de la enfermedad (1 p)."
+      "Se bloquea la interacción entre las proteínas de la superficie del virus y las proteínas de la superficie de las células que va a infectar; así se impide la entrada del virus y el progreso de la enfermedad (1 p). Para infectar, el virus tiene que unirse a receptores específicos de la membrana de la célula; si esas proteínas del virus están bloqueadas, no puede fijarse ni entrar. Es el mismo mecanismo con el que los anticuerpos neutralizan los virus."
     ],
     "palabras_clave": [
       "bloquea la interacción entre las proteínas de la superficie del virus",
@@ -25666,10 +25666,10 @@
     "tipo": "respuesta breve",
     "pregunta": "En relación con la figura adjunta, conteste las siguientes cuestiones: a) Indique el nombre de las moléculas 1, 2 y 3 [0,3]. b) ¿Qué representan las letras A y B? [0,2] c) Cite los procesos realizados por A y por B [0,2]. d) Indique en qué lugar de la célula eucariótica se produce cada uno de los dos procesos [0,2]. e) Nombre una molécula similar a 2 y que forme parte de B [0,1].",
     "respuesta": [
-      "a) 1: ADN; 2: ARN mensajero; 3: proteína (cadena polipeptídica) (0,3 p).",
-      "b) A: ARN polimerasa; B: ribosoma (0,2 p).",
+      "a) 1: ADN; 2: ARN mensajero; 3: proteína (cadena polipeptídica) (0,3 p). La proteína se forma con la secuencia de aminoácidos que indican los codones del ARNm.",
+      "b) A: ARN polimerasa; B: ribosoma (0,2 p). La ARN polimerasa copia una cadena del ADN; el ribosoma lee el ARNm codón a codón.",
       "c) A: transcripción; B: traducción (0,2 p).",
-      "d) Transcripción: núcleo; traducción: citosol (0,2 p).",
+      "d) Transcripción: núcleo; traducción: citosol (0,2 p). En las células eucariotas, el ARNm madura en el núcleo y sale al citoplasma por los poros nucleares; también hay transcripción y traducción en mitocondrias y cloroplastos.",
       "e) ARN ribosómico (0,1 p)."
     ],
     "palabras_clave": [
@@ -25697,11 +25697,11 @@
     "tipo": "respuesta breve",
     "pregunta": "En relación con la figura adjunta, que representa al VIH, indique: a) Si se trata de un virus desnudo o envuelto [0,1] y a qué tipo de células puede infectar [0,1]. b) Tipo de ácido nucleico representado con el número 1 [0,2]. c) Número que se corresponde con la cápsida [0,1] y composición química de dicha estructura [0,1]. d) Número que representa la estructura a través de la cual el virus reconoce a sus células dianas [0,1]. ¿Cuál es su composición química? [0,1] e) ¿Qué número representa una enzima esencial en el ciclo de vida de este virus? [0,1] ¿Qué nombre recibe esta enzima? [0,1]",
     "respuesta": [
-      "a) Envuelto; infecta linfocitos T (0,2 p).",
-      "b) ARN (0,2 p).",
+      "a) Envuelto; infecta linfocitos T (0,2 p). Infecta sobre todo los linfocitos T colaboradores (CD4).",
+      "b) ARN (0,2 p). Tiene dos copias de ARN de una cadena; es un retrovirus.",
       "c) 3; proteínas (0,2 p).",
-      "d) 4; glucoproteínas (0,2 p).",
-      "e) 2; retrotranscriptasa o transcriptasa inversa (0,2 p)."
+      "d) 4; glucoproteínas (0,2 p). Las glucoproteínas de la envoltura se unen al receptor CD4 de los linfocitos T.",
+      "e) 2; retrotranscriptasa o transcriptasa inversa (0,2 p). Fabrica ADN a partir del ARN del virus; ese ADN se integra en el genoma del linfocito (provirus)."
     ],
     "palabras_clave": [
       "2",
@@ -25756,10 +25756,10 @@
     "tipo": "respuesta breve",
     "pregunta": "En relación con el ADN: a) explique su estructura primaria [0,5] y b) su estructura secundaria [1]. c) Indique en qué consiste la desnaturalización de la estructura secundaria del ADN [0,3] y d) dos factores que la ocasionen [0,2].",
     "respuesta": [
-      "a) Secuencia de desoxirribonucleótidos unidos por enlaces fosfodiéster (0,5 p).",
-      "b) Dos cadenas antiparalelas enrolladas formando una doble hélice, con las bases en el interior, complementarias y unidas por puentes de hidrógeno (A=T, C≡G) (1 p).",
-      "c) Pérdida de la doble hélice por rotura de los puentes de hidrógeno: las hebras se separan (0,3 p).",
-      "d) Cambios de temperatura, de pH o de las condiciones iónicas. Dos (0,2 p)."
+      "a) Secuencia de desoxirribonucleótidos unidos por enlaces fosfodiéster (0,5 p). Se escribe en sentido 5'→3'; cada enlace fosfodiéster une el carbono 3′ de un nucleótido con el 5′ del siguiente.",
+      "b) Dos cadenas antiparalelas enrolladas formando una doble hélice, con las bases en el interior, complementarias y unidas por puentes de hidrógeno (A=T, C≡G) (1 p). Es el modelo de Watson y Crick (1953): el esqueleto de desoxirribosa y fosfato queda por fuera; la hélice es dextrógira y da una vuelta cada 10 pares de bases, unos 3,4 nm. A-T se unen por dos puentes de hidrógeno y G-C, por tres.",
+      "c) Pérdida de la doble hélice por rotura de los puentes de hidrógeno: las hebras se separan (0,3 p). Si las condiciones vuelven a ser las normales, las cadenas pueden aparearse de nuevo (renaturalización o hibridación); en esto se basa la PCR.",
+      "d) Cambios de temperatura, de pH o de las condiciones iónicas. Dos (0,2 p). Cuantos más pares G-C tenga, mayor es la temperatura necesaria para desnaturalizarlo."
     ],
     "palabras_clave": [
       "Dos cadenas antiparalelas",
@@ -25787,11 +25787,11 @@
     "tipo": "respuesta breve",
     "pregunta": "a) Defina ciclo de Krebs [0,4]. b) Indique en qué parte de la célula vegetal se realiza [0,2]. c) Cite los dos compuestos imprescindibles para comenzar cada vuelta del ciclo [0,2] y d) de dónde procede cada uno de ellos [0,4]. e) Nombre los productos del ciclo de Krebs que al oxidarse ceden sus electrones a la cadena de transporte electrónico [0,4]. f) ¿En qué se diferencian el ciclo de Krebs y el ciclo de Calvin con respecto al ATP? [0,4]",
     "respuesta": [
-      "a) Vía metabólica central de los aerobios que oxida los grupos acetilo hasta CO₂ y produce ATP y NADH (0,4 p).",
+      "a) Vía metabólica central de los aerobios que oxida los grupos acetilo hasta CO₂ y produce ATP y NADH (0,4 p). Es la vía central del metabolismo, en la que confluye la degradación de glúcidos, lípidos y proteínas; también aporta precursores para el anabolismo. Por cada acetilo se forman 2 CO₂, 3 NADH, 1 FADH₂ y 1 GTP.",
       "b) Matriz mitocondrial (0,2 p). c) Oxalacético y acetil-CoA (0,2 p).",
-      "d) El oxalacético se regenera en cada vuelta; el acetil-CoA procede de la descarboxilación oxidativa del pirúvico o de la β-oxidación (0,4 p).",
-      "e) NADH y FADH₂ (0,4 p).",
-      "f) El ciclo de Krebs es catabólico y produce ATP; el de Calvin es anabólico y consume ATP (0,4 p)."
+      "d) El oxalacético se regenera en cada vuelta; el acetil-CoA procede de la descarboxilación oxidativa del pirúvico o de la β-oxidación (0,4 p). El acetil-CoA (2 C) se une al oxalacético (4 C) y forma el ácido cítrico (6 C); al final de la vuelta se regenera el oxalacético, por eso es un ciclo.",
+      "e) NADH y FADH₂ (0,4 p). Los electrones pasan por la cadena respiratoria hasta el O₂, y la energía liberada se usa para sintetizar ATP por fosforilación oxidativa.",
+      "f) El ciclo de Krebs es catabólico y produce ATP; el de Calvin es anabólico y consume ATP (0,4 p). El de Calvin usa el ATP y el NADPH de la fase luminosa para reducir el CO₂."
     ],
     "palabras_clave": [
       "ATP y NADH",
@@ -25822,9 +25822,9 @@
     "tipo": "respuesta breve",
     "pregunta": "a) Enuncie [0,5] y b) realice un esquema de la segunda ley de Mendel [0,5]. c) Explique en qué consiste el cruzamiento prueba [0,5] y d) realice un esquema del mismo [0,5].",
     "respuesta": [
-      "a) Ley de la segregación: al cruzar los híbridos de la F1 aparece en la F2 una proporción 3:1, reapareciendo el carácter que había desaparecido, porque los alelos se separan sin modificarse (0,5 p).",
-      "b) Esquema: Aa × Aa → 25 % AA, 50 % Aa, 25 % aa (0,5 p).",
-      "c) Cruce de un individuo de fenotipo dominante y genotipo desconocido con un homocigótico recesivo para averiguar su genotipo (0,5 p).",
+      "a) Ley de la segregación: al cruzar los híbridos de la F1 aparece en la F2 una proporción 3:1, reapareciendo el carácter que había desaparecido, porque los alelos se separan sin modificarse (0,5 p). Mendel la llamó ley de la separación de los caracteres antagónicos: cada gameto lleva solo uno de los dos alelos.",
+      "b) Esquema: Aa × Aa → 25 % AA, 50 % Aa, 25 % aa (0,5 p). Los genotipos están en proporción 1:2:1 y los fenotipos, 3:1.",
+      "c) Cruce de un individuo de fenotipo dominante y genotipo desconocido con un homocigótico recesivo para averiguar su genotipo (0,5 p). Si aparece algún descendiente con el fenotipo recesivo, el individuo problema es heterocigoto; si todos muestran el dominante, es homocigoto.",
       "d) Esquema: aa × AA → 100 % dominante; aa × Aa → 50 % dominante y 50 % recesivo (0,5 p)."
     ],
     "palabras_clave": [
@@ -25889,9 +25889,9 @@
     "tipo": "respuesta breve",
     "pregunta": "a) Defina hipersensibilidad, autoinmunidad e inmunodeficiencia [1,2]. b) Cite un ejemplo de una inmunodeficiencia de origen infeccioso y de otra que no lo sea [0,2]. c) Describa el mecanismo por el que se produce la inmunodeficiencia de origen infeccioso que ha citado en el apartado anterior [0,6].",
     "respuesta": [
-      "a) Hipersensibilidad: respuesta inadecuada o exagerada. Autoinmunidad: respuesta contra moléculas, células o tejidos propios. Inmunodeficiencia: incapacidad para defender al organismo frente a las infecciones (1,2 p).",
-      "b) Infecciosa: SIDA; no infecciosa: inmunodeficiencia combinada severa (niño burbuja) (0,2 p).",
-      "c) El VIH infecta los linfocitos T4 (colaboradores) y causa su muerte, así que el enfermo no puede dar una respuesta adecuada frente a otras infecciones (0,6 p)."
+      "a) Hipersensibilidad: respuesta inadecuada o exagerada. Autoinmunidad: respuesta contra moléculas, células o tejidos propios. Inmunodeficiencia: incapacidad para defender al organismo frente a las infecciones (1,2 p). Por ejemplo, las alergias (al polen, a los ácaros) son hipersensibilidades; la diabetes de tipo 1 o la artritis reumatoide, enfermedades autoinmunes.",
+      "b) Infecciosa: SIDA; no infecciosa: inmunodeficiencia combinada severa (niño burbuja) (0,2 p). En la inmunodeficiencia combinada grave faltan linfocitos B y T funcionales; es congénita, de origen genético.",
+      "c) El VIH infecta los linfocitos T4 (colaboradores) y causa su muerte, así que el enfermo no puede dar una respuesta adecuada frente a otras infecciones (0,6 p). Los linfocitos T colaboradores coordinan tanto la respuesta humoral como la celular; al disminuir su número, aparecen infecciones oportunistas y algunos tipos de cáncer."
     ],
     "palabras_clave": [
       "SIDA",
@@ -25914,7 +25914,7 @@
     "tipo": "respuesta breve",
     "pregunta": "Una de las estrategias para introducir ADN extraño en una célula eucariótica es rodearlo de una bicapa lipídica. Explique de manera razonada por qué así se facilita la entrada de ADN en la célula eucariótica [1].",
     "respuesta": [
-      "Los lípidos, por su carácter anfipático, se fusionan con la bicapa de la membrana, formada por los mismos componentes, e introducen el ADN en el citoplasma (1 p)."
+      "Los lípidos, por su carácter anfipático, se fusionan con la bicapa de la membrana, formada por los mismos componentes, e introducen el ADN en el citoplasma (1 p). Estas vesículas de lípidos se llaman liposomas. El ADN, con carga negativa, es muy polar y no atraviesa por sí solo la bicapa hidrófoba."
     ],
     "palabras_clave": [
       "carácter anfipático",
@@ -25934,7 +25934,7 @@
     "tipo": "respuesta breve",
     "pregunta": "Durante el ciclo celular se observa que una célula pasa por una primera etapa, interfase, donde se duplica el ADN, y por una segunda etapa, división celular, donde los cromosomas son visibles. ¿Aumenta el número de cromosomas como consecuencia de la duplicación del ADN en esa célula? Razone la respuesta [1].",
     "respuesta": [
-      "No: al duplicarse el ADN los cromosomas aparecen con dos cromátidas, pero el número de cromosomas sigue siendo el mismo (1 p)."
+      "No: al duplicarse el ADN los cromosomas aparecen con dos cromátidas, pero el número de cromosomas sigue siendo el mismo (1 p). El número de cromosomas se cuenta por centrómeros: en la fase S cada cromosoma pasa a tener dos cromátidas hermanas unidas por el centrómero; se duplica la cantidad de ADN (de 2C a 4C), no el número de cromosomas (2n). En la anafase, al separarse las cromátidas, cada célula hija recibe el mismo número de cromosomas que la madre."
     ],
     "palabras_clave": [
       "No",
@@ -25998,7 +25998,7 @@
     "tipo": "respuesta breve",
     "pregunta": "Explique razonadamente qué genes que controlan el funcionamiento del sistema inmunológico de la madre deberían verse afectados por una mutación para que el feto no pudiera adquirir inmunidad adaptativa natural y pasiva [1].",
     "respuesta": [
-      "Los genes que codifican la inmunoglobulina G, porque las IgG son los únicos anticuerpos que atraviesan la placenta y dan al feto inmunidad natural pasiva (1 p)."
+      "Los genes que codifican la inmunoglobulina G, porque las IgG son los únicos anticuerpos que atraviesan la placenta y dan al feto inmunidad natural pasiva (1 p). Las IgG atraviesan la placenta gracias a un receptor específico; protegen al bebé durante sus primeros meses, pero es una inmunidad temporal, que no deja memoria."
     ],
     "palabras_clave": [
       "IgG",
@@ -26019,8 +26019,8 @@
     "pregunta": "En relación con la imagen adjunta, conteste las siguientes cuestiones: a) ¿Cuáles son los valores óptimos de pH de las enzimas A, B y C? [0,3] b) Indique un lugar del tracto digestivo donde podría funcionar la enzima A y otro donde podría funcionar la enzima C [0,3]. c) Cite otros dos factores que influyen sobre la actividad enzimática [0,4].",
     "respuesta": [
       "a) Alrededor de 3, 7 y 8, respectivamente (0,3 p).",
-      "b) A: estómago; C: intestino delgado (duodeno) (0,3 p).",
-      "c) Temperatura, concentración de sustrato, concentración de enzima, inhibidores y activadores. Dos (0,4 p)."
+      "b) A: estómago; C: intestino delgado (duodeno) (0,3 p). En el estómago, con el ácido clorhídrico del jugo gástrico, actúa la pepsina; en el duodeno, cuyo pH es ligeramente básico, la tripsina.",
+      "c) Temperatura, concentración de sustrato, concentración de enzima, inhibidores y activadores. Dos (0,4 p). Al aumentar la concentración de sustrato, la velocidad aumenta hasta la saturación de la enzima; los inhibidores disminuyen la actividad."
     ],
     "palabras_clave": [
       "3, 7 y 8",
@@ -26071,9 +26071,9 @@
     "tipo": "respuesta breve",
     "pregunta": "En la planta del guisante los caracteres que determinan el color de la vaina (oscuro o moteado) y la rugosidad de la misma (lisa o rugosa) se sabe que son rasgos independientes heredables por la descendencia. Atendiendo al cruzamiento mostrado en la imagen, en el que el parental 1 es oscuro y liso, el parental 2 moteado y rugoso, y todos los descendientes 3 oscuros y lisos, responda a las siguientes cuestiones: a) ¿Cuál es el genotipo de los parentales 1 y 2? [0,5] b) ¿Y el de la descendencia 3? [0,25] c) Indique el porcentaje de homocigóticos en la descendencia [0,25]. Justifique las respuestas con los cruces correspondientes, utilizando la siguiente notación: A para color y B para la rugosidad.",
     "respuesta": [
-      "a) Parental 1: AABB; parental 2: aabb (0,5 p).",
-      "b) Descendencia 3: AaBb (0,25 p).",
-      "c) 0 % homocigóticos: el 100 % son AaBb (0,25 p)."
+      "a) Parental 1: AABB; parental 2: aabb (0,5 p). Como toda la descendencia muestra los caracteres dominantes, el parental 1 debe ser homocigoto para los dos genes; el 2, con los dos caracteres recesivos, es aabb.",
+      "b) Descendencia 3: AaBb (0,25 p). Los gametos del parental 1 son todos AB, y los del 2, ab.",
+      "c) 0 % homocigóticos: el 100 % son AaBb (0,25 p). Si se cruzaran los AaBb entre sí, en la F2 se obtendrían las proporciones 9:3:3:1, porque los genes se transmiten de forma independiente (tercera ley de Mendel)."
     ],
     "palabras_clave": [
       "0 % homocigóticos",
@@ -26123,11 +26123,11 @@
     "tipo": "respuesta breve",
     "pregunta": "La gráfica muestra los cambios en la concentración de la molécula C en la sangre tras una primera exposición (inyección) con un virus atenuado (fase A), seguida de una segunda exposición (infección) con el mismo virus pero natural (fase B). a) Indique el nombre de la molécula C [0,2]. b) Cite la célula que la produce [0,2]. c) Indique qué tipo de respuesta inmunológica representa la gráfica en global en función de los elementos que intervienen en la misma [0,2]. d) ¿Cómo se denominan las fases A y B señaladas en la gráfica? [0,2] e) Indique el nombre del proceso que da lugar a la fase A [0,2].",
     "respuesta": [
-      "a) Anticuerpos o inmunoglobulinas (0,2 p).",
+      "a) Anticuerpos o inmunoglobulinas (0,2 p). Son glucoproteínas en forma de Y.",
       "b) Linfocito B o célula plasmática (0,2 p).",
-      "c) Respuesta humoral (0,2 p).",
-      "d) A: respuesta primaria; B: respuesta secundaria (0,2 p).",
-      "e) Vacunación (0,2 p)."
+      "c) Respuesta humoral (0,2 p). Se basa en anticuerpos; los linfocitos T colaboradores también intervienen, activando a los B.",
+      "d) A: respuesta primaria; B: respuesta secundaria (0,2 p). La secundaria empieza antes, alcanza más anticuerpos (sobre todo IgG) y dura más, gracias a las células de memoria.",
+      "e) Vacunación (0,2 p). La vacuna, con el virus atenuado, provoca la respuesta primaria sin causar la enfermedad; por eso, cuando llega la infección natural, la respuesta es secundaria."
     ],
     "palabras_clave": [
       "Anticuerpos",
@@ -26151,11 +26151,11 @@
     "tipo": "respuesta breve",
     "pregunta": "a) Defina vitamina [0,5]. b) Indique los criterios por los que se clasifican [0,2]. c) Nombre dos vitaminas de cada grupo [0,6]. d) ¿Cómo se denominan las enfermedades causadas por su déficit? [0,2] e) Indique dos ejemplos de dichas enfermedades y las vitaminas implicadas en cada caso [0,5].",
     "respuesta": [
-      "a) Molécula orgánica necesaria para las funciones vitales que se toma en pequeñas cantidades con los alimentos (0,5 p).",
-      "b) Hidrosolubles y liposolubles (0,2 p).",
-      "c) Hidrosolubles: B12 (cobalamina), B9 (ácido fólico), C (ácido ascórbico). Liposolubles: A (retinol), D (calciferol). Dos de cada (0,6 p).",
+      "a) Molécula orgánica necesaria para las funciones vitales que se toma en pequeñas cantidades con los alimentos (0,5 p). No aportan energía ni forman estructuras: actúan como reguladores; muchas son precursoras de coenzimas, como las del grupo B.",
+      "b) Hidrosolubles y liposolubles (0,2 p). Las liposolubles se almacenan en el hígado y el tejido adiposo, y su exceso puede ser tóxico (hipervitaminosis); las hidrosolubles se eliminan por la orina y hay que tomarlas con frecuencia.",
+      "c) Hidrosolubles: B12 (cobalamina), B9 (ácido fólico), C (ácido ascórbico). Liposolubles: A (retinol), D (calciferol). Dos de cada (0,6 p). Por ejemplo, la vitamina C interviene en la síntesis del colágeno; la D, en la absorción del calcio; la A, en la visión.",
       "d) Enfermedades carenciales (avitaminosis) (0,2 p).",
-      "e) Escorbuto: C; raquitismo: D; espina bífida: B9; ceguera nocturna: A; anemia perniciosa: B12. Dos (0,5 p)."
+      "e) Escorbuto: C; raquitismo: D; espina bífida: B9; ceguera nocturna: A; anemia perniciosa: B12. Dos (0,5 p). Por ejemplo, sin vitamina C el colágeno se forma mal y sangran las encías (escorbuto); sin vitamina D, los huesos no se calcifican bien (raquitismo)."
     ],
     "palabras_clave": [
       "A",
@@ -26186,9 +26186,9 @@
     "tipo": "respuesta breve",
     "pregunta": "a) Cite dos orgánulos celulares delimitados por una doble membrana [0,4] y b) tres orgánulos rodeados por una membrana [0,6]. c) Indique una función para cada uno de ellos [1].",
     "respuesta": [
-      "a) Núcleo, mitocondrias, cloroplastos. Dos (0,4 p).",
+      "a) Núcleo, mitocondrias, cloroplastos. Dos (0,4 p). Mitocondrias y cloroplastos tienen ADN propio y ribosomas 70S, una prueba de su origen endosimbiótico.",
       "b) Complejo de Golgi, REL, RER, lisosomas, peroxisomas, vacuolas. Tres (0,6 p).",
-      "c) Núcleo: material genético; mitocondria: ciclo de Krebs, fosforilación oxidativa; cloroplasto: fotosíntesis; Golgi: glucosilación y secreción; REL: síntesis de lípidos, detoxificación; RER: glucosilación de proteínas; lisosomas: digestión celular; peroxisomas: eliminación del peróxido de hidrógeno; vacuolas: almacenamiento, control osmótico. 0,2 p cada una (1 p)."
+      "c) Núcleo: material genético; mitocondria: ciclo de Krebs, fosforilación oxidativa; cloroplasto: fotosíntesis; Golgi: glucosilación y secreción; REL: síntesis de lípidos, detoxificación; RER: glucosilación de proteínas; lisosomas: digestión celular; peroxisomas: eliminación del peróxido de hidrógeno; vacuolas: almacenamiento, control osmótico. 0,2 p cada una (1 p). Además, el RER sintetiza proteínas de membrana y de secreción y el Golgi forma los lisosomas; en las células vegetales, la vacuola mantiene la turgencia."
     ],
     "palabras_clave": [
       "Complejo de Golgi",
@@ -26222,9 +26222,9 @@
     "tipo": "respuesta breve",
     "pregunta": "a) Explique tres mecanismos responsables de la variabilidad genética de las poblaciones [1,2]. b) Defina selección natural [0,4]. c) Explique la importancia de la variabilidad genética de una población en su evolución [0,4].",
     "respuesta": [
-      "a) Mutación: cambio en el material genético; segregación cromosómica: separación al azar de cromosomas en la meiosis; recombinación: intercambio entre cromátidas en la meiosis; combinación al azar de los gametos en la fecundación. Tres, 0,4 p cada explicación (1,2 p).",
-      "b) Mecanismo por el que los individuos con características favorables en un ambiente tienen más probabilidad de sobrevivir y reproducirse (0,4 p).",
-      "c) Aumenta la probabilidad de que, ante un cambio ambiental, haya individuos capaces de sobrevivir (0,4 p)."
+      "a) Mutación: cambio en el material genético; segregación cromosómica: separación al azar de cromosomas en la meiosis; recombinación: intercambio entre cromátidas en la meiosis; combinación al azar de los gametos en la fecundación. Tres, 0,4 p cada explicación (1,2 p). La mutación crea alelos nuevos; la recombinación y la segregación, nuevas combinaciones de alelos en cada gameto.",
+      "b) Mecanismo por el que los individuos con características favorables en un ambiente tienen más probabilidad de sobrevivir y reproducirse (0,4 p). Los individuos con más éxito reproductivo transmiten sus alelos a más descendientes, y la frecuencia de esos alelos aumenta en la población.",
+      "c) Aumenta la probabilidad de que, ante un cambio ambiental, haya individuos capaces de sobrevivir (0,4 p). Sin variabilidad, la selección natural no tendría sobre qué actuar: una población con poca variabilidad, como las de las especies en peligro de extinción, se adapta mal a los cambios."
     ],
     "palabras_clave": [
       "Mutación",
@@ -26248,11 +26248,11 @@
     "tipo": "respuesta breve",
     "pregunta": "a) Defina microorganismo [0,5]. b) Defina microorganismo patógeno [0,25] y c) microorganismo oportunista [0,25]. d) Cite dos ejemplos de relación beneficiosa entre la especie humana y los microorganismos [0,5] y e) otros dos ejemplos de relación perjudicial [0,5].",
     "respuesta": [
-      "a) Ser vivo que, por su reducido tamaño, solo es visible al microscopio (0,5 p).",
-      "b) Patógeno: produce daños y causa una enfermedad (0,25 p).",
-      "c) Oportunista: normalmente no causa enfermedad, pero se vuelve patógeno en ciertas circunstancias (defensas debilitadas, invasión de otros tejidos) (0,25 p).",
-      "d) Beneficiosas: producción de alimentos, medicamentos, vacunas, ciclos biogeoquímicos, microbiota. Dos (0,5 p).",
-      "e) Perjudiciales: infecciones por bacterias, virus u hongos, deterioro de alimentos. Dos (0,5 p)."
+      "a) Ser vivo que, por su reducido tamaño, solo es visible al microscopio (0,5 p). Incluye bacterias, protozoos, algas microscópicas y hongos como las levaduras; los virus se estudian con ellos, aunque no son células.",
+      "b) Patógeno: produce daños y causa una enfermedad (0,25 p). Por ejemplo, la bacteria de la tuberculosis o el virus de la gripe.",
+      "c) Oportunista: normalmente no causa enfermedad, pero se vuelve patógeno en ciertas circunstancias (defensas debilitadas, invasión de otros tejidos) (0,25 p). Por ejemplo, el hongo Candida, que vive normalmente en las mucosas, causa infecciones en personas con sida o en tratamiento con antibióticos.",
+      "d) Beneficiosas: producción de alimentos, medicamentos, vacunas, ciclos biogeoquímicos, microbiota. Dos (0,5 p). Por ejemplo, las levaduras en el pan y el vino, las bacterias lácticas en el yogur o la microbiota intestinal, que produce vitaminas y protege frente a patógenos.",
+      "e) Perjudiciales: infecciones por bacterias, virus u hongos, deterioro de alimentos. Dos (0,5 p). Por ejemplo, la gripe, la tuberculosis o los hongos y bacterias que estropean los alimentos."
     ],
     "palabras_clave": [
       "Ser vivo que, por su reducido tamaño, solo es visible al microscopio",
@@ -26280,9 +26280,9 @@
     "tipo": "respuesta breve",
     "pregunta": "a) Defina respuesta inmunitaria humoral y respuesta inmunitaria celular [0,6]. b) Cite una función de cada uno de los tres tipos principales de células implicadas en estas respuestas inmunitarias [0,9]. c) Indique qué es la memoria inmunológica [0,5].",
     "respuesta": [
-      "a) Humoral: basada en la producción de sustancias, sobre todo anticuerpos. Celular: basada en la acción directa de células como linfocitos T y macrófagos (0,6 p).",
-      "b) Linfocitos B: producción de anticuerpos; linfocitos T: activan a los B o destruyen células infectadas o tumorales; macrófagos: fagocitosis, presentación de antígenos (0,9 p).",
-      "c) Capacidad de reconocer un antígeno ya conocido y responder de forma más rápida y eficaz (0,5 p)."
+      "a) Humoral: basada en la producción de sustancias, sobre todo anticuerpos. Celular: basada en la acción directa de células como linfocitos T y macrófagos (0,6 p). La humoral actúa contra patógenos y toxinas que están fuera de las células; la celular, contra células infectadas por virus, células tumorales y órganos trasplantados.",
+      "b) Linfocitos B: producción de anticuerpos; linfocitos T: activan a los B o destruyen células infectadas o tumorales; macrófagos: fagocitosis, presentación de antígenos (0,9 p). Los T colaboradores liberan citocinas que activan a linfocitos B y macrófagos; los T citotóxicos destruyen las células que presentan el antígeno unido al MHC.",
+      "c) Capacidad de reconocer un antígeno ya conocido y responder de forma más rápida y eficaz (0,5 p). Se debe a los linfocitos B y T de memoria, de vida larga, que se forman en la respuesta primaria; es la base de la vacunación."
     ],
     "palabras_clave": [
       "acción directa de células",
@@ -26330,8 +26330,8 @@
     "tipo": "respuesta breve",
     "pregunta": "Los estomas son estructuras a través de los cuales las plantas realizan el intercambio de gases. En una situación de sequía los estomas están cerrados. a) ¿Podría la planta sintetizar azúcares en estas condiciones? [0,5] b) ¿Se afectaría el proceso de fotosíntesis? [0,5] Razone las respuestas.",
     "respuesta": [
-      "a) No: sin CO₂ no puede realizar el ciclo de Calvin ni sintetizar azúcares (0,5 p).",
-      "b) Sí, se afecta la fase no dependiente de la luz, que es donde se usa el CO₂ (0,5 p)."
+      "a) No: sin CO₂ no puede realizar el ciclo de Calvin ni sintetizar azúcares (0,5 p). El CO₂ entra en las hojas por los estomas, y la RuBisCO lo fija en el ciclo de Calvin.",
+      "b) Sí, se afecta la fase no dependiente de la luz, que es donde se usa el CO₂ (0,5 p). La fase luminosa también se frena, porque se acumulan ATP y NADPH que no se gastan; además, la planta cierra los estomas para no perder agua por transpiración."
     ],
     "palabras_clave": [
       "CO₂",
@@ -26395,9 +26395,9 @@
     "tipo": "respuesta breve",
     "pregunta": "Partiendo de los siguientes tipos de trasplante: autotrasplante (donante y receptor son el mismo individuo), alotrasplante (donante y receptor son diferentes individuos pero de la misma especie) y xenotrasplante (donante y receptor son de diferente especie) indique, para cada caso y de forma razonada, si es probable que ocurra rechazo inmunológico [1].",
     "respuesta": [
-      "Autotrasplante: no hay rechazo, el tejido es del mismo individuo (0,3 p).",
-      "Alotrasplante: depende de la compatibilidad inmunológica entre donante y receptor (0,4 p).",
-      "Xenotrasplante: probablemente sí, porque entre especies distintas no suele haber compatibilidad (0,3 p)."
+      "Autotrasplante: no hay rechazo, el tejido es del mismo individuo (0,3 p). Sus moléculas del MHC (en humanos, HLA) son idénticas y el sistema inmunitario las reconoce como propias.",
+      "Alotrasplante: depende de la compatibilidad inmunológica entre donante y receptor (0,4 p). Cuanto más se parecen las moléculas HLA del donante y del receptor, menor es el riesgo de rechazo; por eso los donantes más compatibles suelen ser familiares, y siempre hay que tratar con inmunosupresores, salvo entre gemelos idénticos.",
+      "Xenotrasplante: probablemente sí, porque entre especies distintas no suele haber compatibilidad (0,3 p). Las diferencias entre las moléculas de dos especies son mucho mayores, y el rechazo es más intenso y rápido."
     ],
     "palabras_clave": [
       "compatibilidad inmunológica entre donante y receptor",
@@ -26473,9 +26473,9 @@
     "tipo": "respuesta breve",
     "pregunta": "En relación con la figura adjunta, responda las siguientes preguntas: a) Nombre las moléculas representadas con los números 1, 2 y 3 [0,3]. b) Cite el nombre del proceso A que permite la síntesis de la molécula número 2 [0,2]. c) ¿Qué se representa con el número 5? [0,2] d) Cite el nombre del proceso B que permite la síntesis de la molécula número 4 [0,2]. e) Cite el nombre de la macromolécula representada con el número 4 [0,1].",
     "respuesta": [
-      "a) 1: ADN; 2: ARNm inmaduro (transcrito primario); 3: ARNm maduro (0,3 p).",
+      "a) 1: ADN; 2: ARNm inmaduro (transcrito primario); 3: ARNm maduro (0,3 p). El transcrito primario contiene exones e intrones; en la maduración, en el núcleo, se eliminan los intrones y se unen los exones (corte y empalme), y se añaden la caperuza en 5′ y la cola de poli-A en 3′.",
       "b) A: transcripción (0,2 p). c) 5: ribosoma (0,2 p).",
-      "d) B: traducción o síntesis de proteínas (0,2 p).",
+      "d) B: traducción o síntesis de proteínas (0,2 p). El ribosoma lee el ARNm codón a codón y los ARNt aportan los aminoácidos.",
       "e) 4: polipéptido en formación (0,1 p)."
     ],
     "palabras_clave": [
@@ -26530,10 +26530,10 @@
     "tipo": "respuesta breve",
     "pregunta": "En relación con la figura adjunta que representa distintos procedimientos experimentales cuya finalidad es evitar la muerte causada por un patógeno, responda a las siguientes cuestiones: a) ¿Qué tipo de tratamiento se está utilizando en el caso 2 al inyectar la sustancia A? [0,2] b) En el caso 2, ¿qué células son las que actúan para protegerlo de la acción del patógeno? [0,2] c) ¿De qué otra manera, por vía natural, podría el ratón del caso 2 evitar la muerte? [0,2] d) ¿Qué tipo de tratamiento se utiliza en el caso 3 al inyectar la sustancia B (extraída del ratón vivo del caso 2)? [0,2] e) ¿Qué ocurrirá con los componentes de la sustancia B pasados unos meses? [0,2]",
     "respuesta": [
-      "a) Vacuna (0,2 p). b) Linfocitos de memoria (0,2 p).",
-      "c) Pasando la enfermedad y sobreviviendo a ella (0,2 p).",
-      "d) Sueroterapia (0,2 p).",
-      "e) Los anticuerpos inyectados desaparecen con el tiempo (0,2 p)."
+      "a) Vacuna (0,2 p). b) Linfocitos de memoria (0,2 p). La vacuna contiene el patógeno muerto o atenuado, o sus antígenos; el ratón produce una respuesta primaria y forma células de memoria, de modo que, cuando llega el patógeno, la respuesta secundaria es rápida e intensa.",
+      "c) Pasando la enfermedad y sobreviviendo a ella (0,2 p). Así adquiere una inmunidad activa natural.",
+      "d) Sueroterapia (0,2 p). La sustancia B contiene los anticuerpos que el ratón del caso 2 fabricó: actúan de inmediato frente al patógeno.",
+      "e) Los anticuerpos inyectados desaparecen con el tiempo (0,2 p). Se degradan, y como no se formaron células de memoria, el ratón queda desprotegido."
     ],
     "palabras_clave": [
       "Linfocitos de memoria",
