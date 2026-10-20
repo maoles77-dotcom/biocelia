@@ -923,7 +923,7 @@
           "figura": "assets/figuras/historico/2024/reserva-b-c5.webp",
           "figuraDesc": "A: un linfocito T contacta con un linfocito B; este da una célula con mucho retículo (1) que libera moléculas en forma de Y (2) y otra célula (3) con esas moléculas en su superficie.",
           "c": [
-            "a) **Presentación de antígenos del linfocito T al B** (activación del linfocito B) (0,2 p). ((En rigor, es el linfocito B el que presenta el antígeno, unido al MHC de clase II, al linfocito T colaborador; este lo activa mediante citocinas y el B prolifera y se diferencia en células plasmáticas y de memoria.))",
+            "a) **Presentación de antígenos del linfocito T al B** (activación del linfocito B) (0,2 p). ((En rigor, es el linfocito B el que presenta el antígeno, unido al MHC de clase II, al linfocito T colaborador. Ese T colaborador ha sido activado antes por una célula presentadora de antígenos, como un macrófago o una célula dendrítica, que le presentó el mismo antígeno; ahora reconoce el antígeno en la superficie del B y lo activa mediante citocinas, y el B prolifera y se diferencia en células plasmáticas y de memoria.))",
             "b) **Célula plasmática** (0,2 p). c) **Anticuerpos** (0,2 p).",
             "d) **Linfocito B de memoria** (0,2 p). e) **Memoria inmunológica** (0,2 p). ((Ante un nuevo contacto con el mismo antígeno, las células de memoria producen una respuesta secundaria más rápida, más intensa y más duradera: es la base de la vacunación.))"
           ]
