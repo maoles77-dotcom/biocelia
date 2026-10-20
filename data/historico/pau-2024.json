@@ -688,7 +688,7 @@
           "opcion": "B", "n": 2, "bloque": "Célula", "tema": "Acetabularia: papel del núcleo",
           "q": "La acetabularia es un alga unicelular de forma filamentosa de gran tamaño que presenta el núcleo en uno de sus extremos. En un laboratorio se fragmenta esta alga en dos partes, quedando el núcleo en una de ellas. Explique de forma razonada si cada uno de estos fragmentos tiene la capacidad de regenerar la célula completa [1].",
           "c": [
-            "Solo el **fragmento con el núcleo**, **portador de la información genética**, puede regenerar la célula, si además tiene **orgánulos citosólicos** (**ribosomas** para sintetizar proteínas, **mitocondrias** para la energía) (1 p). ((El fragmento sin núcleo no puede fabricar ARNm nuevo: en los experimentos clásicos de Hämmerling podía llegar a regenerar parte de la célula durante un tiempo gracias al ARNm que ya tenía en su citoplasma, pero acababa muriendo.))"
+            "Solo el **fragmento con el núcleo**, **portador de la información genética**, puede regenerar la célula, si además tiene **orgánulos citosólicos** (**ribosomas** para sintetizar proteínas, **mitocondrias** para la energía) (1 p). ((El fragmento sin núcleo no puede fabricar ARNm nuevo, así que no puede sintetizar las proteínas necesarias para regenerar la célula y acaba muriendo. Con esta alga realizó Hämmerling sus experimentos clásicos sobre el papel del núcleo.))"
           ]
         },
         {
