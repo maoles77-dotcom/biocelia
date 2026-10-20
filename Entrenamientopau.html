@@ -190,6 +190,13 @@
   }
   .btn-main:hover  { background: #34495e; transform: translateY(-1px); }
   .btn-main:focus-visible { outline: 3px solid var(--warning); outline-offset: 2px; }
+  /* Navegación: Anterior + Siguiente */
+  .nav-preg { display: flex; gap: 10px; margin-bottom: 12px; }
+  .nav-preg .btn-main { margin-bottom: 0; flex: 2; }
+  .nav-preg .btn-ant { flex: 1; background: #fff; color: var(--primary); border: 2px solid var(--primary); }
+  .nav-preg .btn-ant:hover { background: #eef2f6; }
+  .nav-preg .btn-ant:disabled { opacity: .4; cursor: not-allowed; transform: none; background: #fff; }
+  .nav-pos { text-align: center; font-size: .85rem; color: #666; margin: -4px 0 10px; }
 
   .btn-sol {
     display: block;
@@ -441,10 +448,16 @@
     Preguntas vistas esta sesión: <strong id="contador">0</strong>
   </div>
 
-  <!-- ══ BOTÓN SIGUIENTE ══ -->
-  <button class="btn-main" onclick="loadQ()">
-    <span aria-hidden="true">➡</span> Siguiente Pregunta
-  </button>
+  <!-- ══ BOTONES ANTERIOR / SIGUIENTE ══ -->
+  <div class="nav-preg">
+    <button class="btn-main btn-ant" id="btnAnt" onclick="preguntaAnterior()" disabled>
+      <span aria-hidden="true">⬅</span> Anterior
+    </button>
+    <button class="btn-main" id="btnSig" onclick="loadQ()">
+      <span aria-hidden="true">➡</span> Siguiente Pregunta
+    </button>
+  </div>
+  <p class="nav-pos" id="navPos" hidden></p>
 
   <!-- ══ TARJETA ══ -->
   <div id="card">
@@ -3543,6 +3556,10 @@ let contadorPreguntas = 0;
 // Anti-repetición: guarda los índices de preguntas ya mostradas por pool-key
 let seenMap = {};   // { poolKey: Set<index> }
 
+// Historial de la sesión para poder volver a las preguntas anteriores
+let historial = [];   // preguntas mostradas, en orden
+let posHist = -1;     // posición de la pregunta que se está viendo
+
 // ══════════════════════════════════════════════════════════════
 //  UTILIDADES
 // ══════════════════════════════════════════════════════════════
@@ -3598,7 +3615,13 @@ function updateProgress(pool, key, blockLabel) {
 //  FUNCIONES PRINCIPALES
 // ══════════════════════════════════════════════════════════════
 
+/** Siguiente: si se había vuelto atrás, avanza por el historial; si no, saca una pregunta nueva */
 function loadQ() {
+  if (posHist < historial.length - 1) {
+    posHist++;
+    mostrarPregunta(historial[posHist]);
+    return;
+  }
   const { pool, key } = getPool();
 
   if (pool.length === 0) {
@@ -3607,7 +3630,39 @@ function loadQ() {
   }
 
   const idx = pickIndex(pool, key);
-  const q   = pool[idx];
+  historial.push(pool[idx]);
+  posHist = historial.length - 1;
+
+  // Contador de sesión (solo cuenta las preguntas nuevas)
+  contadorPreguntas++;
+  document.getElementById('contador').textContent = contadorPreguntas;
+
+  mostrarPregunta(pool[idx]);
+}
+
+// Al cambiar de bloque, «Siguiente» saca una pregunta nueva del bloque elegido (se conserva lo anterior)
+document.getElementById('filter').addEventListener('change', function () {
+  historial = historial.slice(0, posHist + 1);
+  if (historial.length) actualizarNavegacion();
+});
+
+/** Anterior: vuelve a la pregunta vista justo antes */
+function preguntaAnterior() {
+  if (posHist <= 0) return;
+  posHist--;
+  mostrarPregunta(historial[posHist]);
+}
+
+function actualizarNavegacion() {
+  document.getElementById('btnAnt').disabled = posHist <= 0;
+  const pos = document.getElementById('navPos');
+  pos.hidden = historial.length < 2;
+  pos.textContent = 'Pregunta ' + (posHist + 1) + ' de ' + historial.length + ' vistas en esta sesión' +
+    (posHist < historial.length - 1 ? ' · «Siguiente» te devuelve a las que ya habías visto' : '');
+}
+
+function mostrarPregunta(q) {
+  actualizarNavegacion();
 
   // ── BUG FIX: resetear COMPLETAMENTE el botón de solución ──
   const sol    = document.getElementById('sol');
@@ -3622,10 +3677,6 @@ function loadQ() {
 
   // Mostrar tarjeta
   document.getElementById('card').style.display = 'block';
-
-  // Contador de sesión
-  contadorPreguntas++;
-  document.getElementById('contador').textContent = contadorPreguntas;
 
   // Badge de bloque con color dinámico
   const badge = document.getElementById('badge');
@@ -3689,6 +3740,7 @@ function loadQ() {
     '<strong>💡 Tip PAU:</strong> ' + feedText;
 
   // Barra de progreso
+  const { pool, key } = getPool();
   const filterEl = document.getElementById('filter');
   const blockLabel = filterEl.options[filterEl.selectedIndex].text;
   updateProgress(pool, key, blockLabel);
