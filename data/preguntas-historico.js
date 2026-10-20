@@ -30499,8 +30499,8 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "a) Indique el significado biológico de la meiosis [0,8]. b) Explique cómo los procesos de recombinación genética [0,6] y segregación cromosómica [0,6] influyen en la variabilidad genética.",
    "c": [
-    "a) <mark class=\"clave-criterio\">Reducción cromosómica</mark> ligada a la <mark class=\"clave-criterio\">reproducción sexual</mark> y <mark class=\"clave-criterio\">fuente de variabilidad</mark> para la <mark class=\"clave-criterio\">evolución</mark>. 0,4 p cada una (0,8 p).",
-    "b) Recombinación: <mark class=\"clave-criterio\">intercambio de segmentos entre cromosomas homólogos</mark> (0,6 p). Segregación: <mark class=\"clave-criterio\">reparto al azar de los cromosomas maternos y paternos</mark> (0,6 p)."
+    "a) <mark class=\"clave-criterio\">Reducción cromosómica</mark> ligada a la <mark class=\"clave-criterio\">reproducción sexual</mark> y <mark class=\"clave-criterio\">fuente de variabilidad</mark> para la <mark class=\"clave-criterio\">evolución</mark>. 0,4 p cada una (0,8 p). <span class=\"redactado\">Al reducir a la mitad el número de cromosomas (de 2n a n), forma gametos o esporas haploides, y la fecundación restablece la diploidía. Además, cada gameto lleva una combinación distinta de alelos, materia prima de la selección natural.</span>",
+    "b) Recombinación: <mark class=\"clave-criterio\">intercambio de segmentos entre cromosomas homólogos</mark> (0,6 p). Segregación: <mark class=\"clave-criterio\">reparto al azar de los cromosomas maternos y paternos</mark> (0,6 p). <span class=\"redactado\">La recombinación (sobrecruzamiento) ocurre en la profase I, en los quiasmas, y produce cromátidas con combinaciones nuevas de alelos. La segregación al azar ocurre en la anafase I: cada par de homólogos se reparte de forma independiente, lo que en la especie humana permite 2²³ combinaciones distintas de cromosomas.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Titular, modelo B",
@@ -30524,10 +30524,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Defina los siguientes términos: a) metabolismo [0,4]; b) anabolismo [0,4]; c) catabolismo [0,4]. d) Explique una diferencia entre las células fotoautótrofas y las quimioautótrofas [0,8].",
    "c": [
-    "a) <mark class=\"clave-criterio\">Conjunto de reacciones bioquímicas de la célula</mark> (0,4 p).",
-    "b) Anabolismo: <mark class=\"clave-criterio\">síntesis de moléculas complejas a partir de sencillas con gasto de energía (ATP)</mark> (0,4 p).",
-    "c) Catabolismo: <mark class=\"clave-criterio\">degradación de moléculas orgánicas para obtener energía (ATP)</mark> (0,4 p).",
-    "d) Fotoautótrofas: usan la <mark class=\"clave-criterio\">energía luminosa</mark> para sintetizar ATP; quimioautótrofas: la <mark class=\"clave-criterio\">energía química de las moléculas que oxidan</mark> (0,8 p)."
+    "a) <mark class=\"clave-criterio\">Conjunto de reacciones bioquímicas de la célula</mark> (0,4 p). <span class=\"redactado\">Incluye el catabolismo y el anabolismo; sus reacciones están catalizadas por enzimas y organizadas en rutas metabólicas.</span>",
+    "b) Anabolismo: <mark class=\"clave-criterio\">síntesis de moléculas complejas a partir de sencillas con gasto de energía (ATP)</mark> (0,4 p). <span class=\"redactado\">Es un proceso reductor, que suele consumir poder reductor (NADH, NADPH).</span>",
+    "c) Catabolismo: <mark class=\"clave-criterio\">degradación de moléculas orgánicas para obtener energía (ATP)</mark> (0,4 p). <span class=\"redactado\">Es un proceso oxidativo: libera energía, que se almacena en forma de ATP, y electrones, que recogen coenzimas como NAD⁺ y FAD.</span>",
+    "d) Fotoautótrofas: usan la <mark class=\"clave-criterio\">energía luminosa</mark> para sintetizar ATP; quimioautótrofas: la <mark class=\"clave-criterio\">energía química de las moléculas que oxidan</mark> (0,8 p). <span class=\"redactado\">Ambas son autótrofas, porque fabrican su materia orgánica a partir de CO₂. Las fotoautótrofas (plantas, algas, cianobacterias) hacen la fotosíntesis; las quimioautótrofas (bacterias nitrificantes, del azufre, del hierro) hacen la quimiosíntesis, oxidando compuestos inorgánicos.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Titular, modelo B",
@@ -30578,10 +30578,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "a) Indique la causa por la que se produce el rechazo de un órgano trasplantado [0,5]. b) Explique dos casos de trasplantes de órganos que no generen problemas de rechazo [0,5]. c) ¿Qué células del sistema inmunitario intervienen en el rechazo? [0,4] d) ¿Qué tipo de tratamiento se emplea para evitar el rechazo y cómo actúa? [0,6]",
    "c": [
-    "a) <mark class=\"clave-criterio\">Incompatibilidad entre las proteínas del CMH (MHC)</mark> del donante y del receptor (0,5 p).",
-    "b) <mark class=\"clave-criterio\">Autotrasplante</mark> e <mark class=\"clave-criterio\">isotrasplante (gemelos)</mark>: procedencia <mark class=\"clave-criterio\">genéticamente idéntica</mark> (0,5 p).",
-    "c) <mark class=\"clave-criterio\">Linfocitos T</mark> (0,4 p).",
-    "d) <mark class=\"clave-criterio\">Inmunosupresores</mark> (0,3 p), que <mark class=\"clave-criterio\">disminuyen temporalmente la respuesta inmune</mark> (0,3 p)."
+    "a) <mark class=\"clave-criterio\">Incompatibilidad entre las proteínas del CMH (MHC)</mark> del donante y del receptor (0,5 p). <span class=\"redactado\">El sistema inmunitario del receptor reconoce como extrañas las moléculas del MHC (en humanos, HLA) de las células del órgano donado y las ataca.</span>",
+    "b) <mark class=\"clave-criterio\">Autotrasplante</mark> e <mark class=\"clave-criterio\">isotrasplante (gemelos)</mark>: procedencia <mark class=\"clave-criterio\">genéticamente idéntica</mark> (0,5 p). <span class=\"redactado\">En el autotrasplante (por ejemplo, piel del propio paciente) y entre gemelos univitelinos, las moléculas del MHC son idénticas y no se reconocen como extrañas.</span>",
+    "c) <mark class=\"clave-criterio\">Linfocitos T</mark> (0,4 p). <span class=\"redactado\">Sobre todo los linfocitos T citotóxicos, que destruyen las células del órgano; los T colaboradores dirigen la respuesta, y también intervienen anticuerpos.</span>",
+    "d) <mark class=\"clave-criterio\">Inmunosupresores</mark> (0,3 p), que <mark class=\"clave-criterio\">disminuyen temporalmente la respuesta inmune</mark> (0,3 p). <span class=\"redactado\">Hay que mantenerlos mientras viva el órgano trasplantado, y como debilitan las defensas el paciente queda más expuesto a las infecciones.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Titular, modelo B",
@@ -30656,9 +30656,9 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Los eritrocitos o glóbulos rojos son células eucarióticas que, en humanos, carecen de núcleo y de la mayoría de los orgánulos celulares, como las mitocondrias. a) ¿Cómo obtienen la energía dichas células? [0,4] b) ¿Cómo afectarán los niveles de oxígeno a dicho metabolismo? [0,3] c) El rendimiento energético obtenido de la glucosa ¿será mayor o menor que en el resto de las células del organismo? [0,3] Razone las respuestas.",
    "c": [
-    "a) Por <mark class=\"clave-criterio\">fermentación (láctica)</mark>, porque <mark class=\"clave-criterio\">sin mitocondrias no hay respiración celular</mark> (0,4 p).",
-    "b) <mark class=\"clave-criterio\">No afectan</mark>: la fermentación <mark class=\"clave-criterio\">no requiere oxígeno</mark> (0,3 p).",
-    "c) <mark class=\"clave-criterio\">Menor</mark>: solo <mark class=\"clave-criterio\">2 ATP</mark> de la glucólisis (0,3 p)."
+    "a) Por <mark class=\"clave-criterio\">fermentación (láctica)</mark>, porque <mark class=\"clave-criterio\">sin mitocondrias no hay respiración celular</mark> (0,4 p). <span class=\"redactado\">Degradan la glucosa en el citosol mediante la glucólisis, y el NADH se reoxida al reducir el pirúvico a lactato, lo que permite que la glucólisis continúe.</span>",
+    "b) <mark class=\"clave-criterio\">No afectan</mark>: la fermentación <mark class=\"clave-criterio\">no requiere oxígeno</mark> (0,3 p). <span class=\"redactado\">Sin mitocondrias no pueden usar el O₂ como aceptor final de electrones, así que su metabolismo energético es el mismo con oxígeno que sin él.</span>",
+    "c) <mark class=\"clave-criterio\">Menor</mark>: solo <mark class=\"clave-criterio\">2 ATP</mark> de la glucólisis (0,3 p). <span class=\"redactado\">La respiración aerobia, en las células con mitocondrias, oxida la glucosa por completo hasta CO₂ y H₂O y obtiene unos 36-38 ATP; la fermentación es una oxidación incompleta.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Titular, modelo B",
@@ -30682,7 +30682,7 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "En la década de los 70 del siglo XX se consiguió expresar el gen humano de la insulina en la bacteria <i>Escherichia coli</i>. A continuación, se muestran de forma desordenada los pasos a seguir para obtener insulina recombinante. Indique cuál es el orden correcto [1]:<br>A. Cultivo de las bacterias recombinantes y extracción de la insulina humana sintetizada.<br>B. Inserción del ADN recombinante en la bacteria.<br>C. Corte del gen de la insulina y el plásmido usando enzimas de restricción.<br>D. Selección y aislamiento del gen que codifica la insulina humana.<br>E. Introducción del gen de la insulina en el plásmido formando un ADN recombinante.",
    "c": [
-    "Orden: <mark class=\"clave-criterio\">D, C, E, B, A</mark>. 0,2 p por cada posición correcta (1 p)."
+    "Orden: <mark class=\"clave-criterio\">D, C, E, B, A</mark>. 0,2 p por cada posición correcta (1 p). <span class=\"redactado\">Primero se aísla el gen (D); después el gen y el plásmido se cortan con la misma enzima de restricción, para que tengan extremos complementarios (C); la ADN ligasa los une y forma el ADN recombinante (E), que se introduce en la bacteria (B); al cultivarla, la bacteria se multiplica y fabrica la insulina, que se extrae y purifica (A).</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Titular, modelo B",
@@ -30706,8 +30706,8 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "En ciertas regiones del mundo se hacen importantes campañas para fomentar que las mujeres reciban la vacuna antitetánica (compuesta por la toxina tetánica atenuada) durante el embarazo. a) ¿Qué ventaja tendrá para los recién nacidos la vacunación de sus madres durante la gestación? [0,5] b) ¿La vacunación de las madres mantendrá esta ventaja durante la lactancia materna? [0,5] Razone las respuestas.",
    "c": [
-    "a) El recién nacido estará protegido porque recibe <mark class=\"clave-criterio\">anticuerpos antitetánicos (IgG)</mark> de la madre <mark class=\"clave-criterio\">a través de la placenta</mark> (0,5 p).",
-    "b) <mark class=\"clave-criterio\">Sí</mark>: recibirá también <mark class=\"clave-criterio\">anticuerpos (IgA) a través de la leche materna</mark> (0,5 p)."
+    "a) El recién nacido estará protegido porque recibe <mark class=\"clave-criterio\">anticuerpos antitetánicos (IgG)</mark> de la madre <mark class=\"clave-criterio\">a través de la placenta</mark> (0,5 p). <span class=\"redactado\">La madre vacunada produce anticuerpos frente a la toxina tetánica, y las IgG son las únicas inmunoglobulinas que atraviesan la placenta. Es una inmunidad pasiva natural: protege desde el nacimiento, pero es temporal y no deja memoria en el bebé.</span>",
+    "b) <mark class=\"clave-criterio\">Sí</mark>: recibirá también <mark class=\"clave-criterio\">anticuerpos (IgA) a través de la leche materna</mark> (0,5 p). <span class=\"redactado\">La leche materna, sobre todo el calostro, contiene IgA que protege las mucosas del bebé. También es inmunidad pasiva natural, que dura mientras dura la lactancia.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Titular, modelo B",
@@ -30732,8 +30732,8 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>Atendiendo a la imagen adjunta:</b><br>a) Indique los números cuyas fórmulas se corresponden con las siguientes moléculas: fructosa, glucosa, triosa, desoxirribosa [0,4].<br>b) Cite dos moléculas, entre las representadas, que podrían formar parte de un disacárido y una de un desoxirribonucleótido [0,3].<br>c) Identifique qué molécula, entre las representadas, podría formar parte de un polisacárido de reserva en células animales e indique el nombre de este polisacárido [0,3].",
    "c": [
     "a) Fructosa: <mark class=\"clave-criterio\">6</mark>; glucosa: <mark class=\"clave-criterio\">2</mark>; triosa: <mark class=\"clave-criterio\">1</mark>; desoxirribosa: <mark class=\"clave-criterio\">4</mark> (0,4 p).",
-    "b) Disacárido: <mark class=\"clave-criterio\">2 y 6</mark>; desoxirribonucleótido: <mark class=\"clave-criterio\">4</mark> (0,3 p).",
-    "c) <mark class=\"clave-criterio\">2 (glucosa)</mark> (0,1 p); <mark class=\"clave-criterio\">glucógeno</mark> (0,2 p)."
+    "b) Disacárido: <mark class=\"clave-criterio\">2 y 6</mark>; desoxirribonucleótido: <mark class=\"clave-criterio\">4</mark> (0,3 p). <span class=\"redactado\">La glucosa y la fructosa forman la sacarosa por enlace O-glucosídico. La desoxirribosa es la pentosa de los desoxirribonucleótidos, los nucleótidos del ADN.</span>",
+    "c) <mark class=\"clave-criterio\">2 (glucosa)</mark> (0,1 p); <mark class=\"clave-criterio\">glucógeno</mark> (0,2 p). <span class=\"redactado\">El glucógeno es un polímero de α-glucosa ramificado que se almacena sobre todo en el hígado y en los músculos.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Titular, modelo B",
@@ -30791,7 +30791,7 @@ window.BIOCELIA_HISTORICO = {
    "c": [
     "a) <mark class=\"clave-criterio\">Fase luminosa</mark> (fotoquímica, dependiente de la luz) (0,2 p).",
     "b) 1: <mark class=\"clave-criterio\">energía luminosa (fotón)</mark>; 2: <mark class=\"clave-criterio\">fotosistemas</mark>; 3: <mark class=\"clave-criterio\">cadena transportadora de electrones</mark>; 4: <mark class=\"clave-criterio\">NADPH</mark> (0,4 p).",
-    "c) <mark class=\"clave-criterio\">Oxígeno</mark> (0,2 p). d) En <mark class=\"clave-criterio\">energía química</mark> (0,2 p)."
+    "c) <mark class=\"clave-criterio\">Oxígeno</mark> (0,2 p). d) En <mark class=\"clave-criterio\">energía química</mark> (0,2 p). <span class=\"redactado\">El O₂ procede de la fotólisis del agua, que repone los electrones que cede la clorofila del fotosistema II; la energía luminosa se transforma en energía química, en forma de ATP y NADPH, que se usará en el ciclo de Calvin.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Titular, modelo B",
@@ -30849,8 +30849,8 @@ window.BIOCELIA_HISTORICO = {
    "c": [
     "a) <mark class=\"clave-criterio\">Presentación de antígenos</mark> (0,2 p).",
     "b) A: <mark class=\"clave-criterio\">macrófago</mark>; B: <mark class=\"clave-criterio\">linfocito T</mark> (0,4 p).",
-    "c) En la <mark class=\"clave-criterio\">médula ósea</mark> (0,2 p).",
-    "d) <mark class=\"clave-criterio\">Complejo mayor de histocompatibilidad</mark> (0,2 p)."
+    "c) En la <mark class=\"clave-criterio\">médula ósea</mark> (0,2 p). <span class=\"redactado\">Se origina en la médula ósea, como todas las células sanguíneas, pero madura en el timo, de donde le viene la «T».</span>",
+    "d) <mark class=\"clave-criterio\">Complejo mayor de histocompatibilidad</mark> (0,2 p). <span class=\"redactado\">El macrófago degrada el antígeno y presenta sus fragmentos unidos a moléculas del MHC; el linfocito T solo reconoce el antígeno cuando se lo presentan así.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Titular, modelo B",
@@ -30877,10 +30877,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "a) Defina enzima [0,4]. b) ¿Qué es el centro activo y qué relación existe entre el mismo y la especificidad enzimática? [0,5] c) ¿Qué son los inhibidores enzimáticos? [0,3] d) ¿En qué se diferencian la inhibición irreversible de la reversible y cuál es la causa de la diferencia? [0,8]",
    "c": [
-    "a) <mark class=\"clave-criterio\">Proteína con función catalítica</mark> que <mark class=\"clave-criterio\">acelera las reacciones metabólicas</mark> (0,4 p).",
-    "b) Centro activo: <mark class=\"clave-criterio\">región formada por los aminoácidos que se unen al sustrato</mark>; determina la <mark class=\"clave-criterio\">especificidad</mark> porque tiene una <mark class=\"clave-criterio\">configuración complementaria a la del sustrato</mark> (0,5 p).",
-    "c) <mark class=\"clave-criterio\">Moléculas que disminuyen o anulan la actividad enzimática</mark> (0,3 p).",
-    "d) Irreversible: el inhibidor se une por <mark class=\"clave-criterio\">enlace covalente</mark> y <mark class=\"clave-criterio\">la inutiliza para siempre</mark>. Reversible: se une por <mark class=\"clave-criterio\">enlaces débiles</mark> y la enzima <mark class=\"clave-criterio\">recupera la actividad</mark> al separarse (0,8 p)."
+    "a) <mark class=\"clave-criterio\">Proteína con función catalítica</mark> que <mark class=\"clave-criterio\">acelera las reacciones metabólicas</mark> (0,4 p). <span class=\"redactado\">Son biocatalizadores: disminuyen la energía de activación, no se consumen en la reacción y son muy específicos.</span>",
+    "b) Centro activo: <mark class=\"clave-criterio\">región formada por los aminoácidos que se unen al sustrato</mark>; determina la <mark class=\"clave-criterio\">especificidad</mark> porque tiene una <mark class=\"clave-criterio\">configuración complementaria a la del sustrato</mark> (0,5 p). <span class=\"redactado\">Al unirse el sustrato se forma el complejo enzima-sustrato; según el modelo del ajuste inducido, el centro activo cambia ligeramente de forma para encajar con él.</span>",
+    "c) <mark class=\"clave-criterio\">Moléculas que disminuyen o anulan la actividad enzimática</mark> (0,3 p). <span class=\"redactado\">Pueden ser sustancias tóxicas, fármacos o los propios productos de una ruta metabólica, que regulan así su actividad.</span>",
+    "d) Irreversible: el inhibidor se une por <mark class=\"clave-criterio\">enlace covalente</mark> y <mark class=\"clave-criterio\">la inutiliza para siempre</mark>. Reversible: se une por <mark class=\"clave-criterio\">enlaces débiles</mark> y la enzima <mark class=\"clave-criterio\">recupera la actividad</mark> al separarse (0,8 p). <span class=\"redactado\">Dentro de la inhibición reversible, el inhibidor competitivo se parece al sustrato y compite por el centro activo, y su efecto se contrarresta añadiendo más sustrato; el no competitivo se une a otra zona de la enzima y cambia su forma.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Suplente, modelo A",
@@ -30904,10 +30904,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Defina los términos: a) endocitosis [0,5]; b) exocitosis [0,5]; c) pinocitosis [0,5]; d) fagocitosis [0,5].",
    "c": [
-    "a) Endocitosis: <mark class=\"clave-criterio\">entrada de fluidos y partículas en vesículas endocíticas</mark> (0,5 p).",
-    "b) Exocitosis: <mark class=\"clave-criterio\">salida de moléculas en vesículas que se unen a la membrana plasmática</mark> (0,5 p).",
-    "c) Pinocitosis: <mark class=\"clave-criterio\">entrada de fluidos y moléculas en vesículas pinocíticas</mark> (0,5 p).",
-    "d) Fagocitosis: <mark class=\"clave-criterio\">entrada de grandes partículas formando fagosomas</mark> (0,5 p)."
+    "a) Endocitosis: <mark class=\"clave-criterio\">entrada de fluidos y partículas en vesículas endocíticas</mark> (0,5 p). <span class=\"redactado\">La membrana plasmática se invagina y rodea el material, y la vesícula se separa hacia el interior de la célula.</span>",
+    "b) Exocitosis: <mark class=\"clave-criterio\">salida de moléculas en vesículas que se unen a la membrana plasmática</mark> (0,5 p). <span class=\"redactado\">La membrana de la vesícula se fusiona con la membrana plasmática y su contenido se vierte al exterior; así se secretan, por ejemplo, hormonas y enzimas digestivas, y además se renueva la membrana.</span>",
+    "c) Pinocitosis: <mark class=\"clave-criterio\">entrada de fluidos y moléculas en vesículas pinocíticas</mark> (0,5 p). <span class=\"redactado\">Es un tipo de endocitosis con vesículas pequeñas («la célula bebe»).</span>",
+    "d) Fagocitosis: <mark class=\"clave-criterio\">entrada de grandes partículas formando fagosomas</mark> (0,5 p). <span class=\"redactado\">Es otro tipo de endocitosis, propio de células como los macrófagos y los neutrófilos o de los protozoos; el fagosoma se fusiona después con lisosomas, que digieren su contenido.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Suplente, modelo A",
@@ -30931,9 +30931,9 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "a) Defina β-oxidación [0,3] e b) indique cuáles son los sustratos y los productos finales de este proceso [0,4]. c) ¿A qué procesos metabólicos se incorporan las moléculas resultantes de este proceso para obtener los productos finales CO₂, H₂O y ATP? [0,4] y d) ¿qué productos se generan en cada uno de estos procesos metabólicos? [0,5] e) Cite dos orgánulos y la región de estos en los que pueden tener lugar [0,4].",
    "c": [
-    "a) <mark class=\"clave-criterio\">Proceso catabólico cíclico</mark> en el que los ácidos grasos <mark class=\"clave-criterio\">liberan dos carbonos en forma de acetil-CoA por vuelta</mark> (0,3 p).",
+    "a) <mark class=\"clave-criterio\">Proceso catabólico cíclico</mark> en el que los ácidos grasos <mark class=\"clave-criterio\">liberan dos carbonos en forma de acetil-CoA por vuelta</mark> (0,3 p). <span class=\"redactado\">Antes de entrar en la mitocondria el ácido graso se activa uniéndose a la coenzima A (acil-CoA). En cada vuelta se acorta en dos carbonos, hasta que toda la cadena queda convertida en moléculas de acetil-CoA.</span>",
     "b) Sustrato: <mark class=\"clave-criterio\">acil-CoA</mark> (ácidos grasos) (0,1 p); productos: <mark class=\"clave-criterio\">acetil-CoA, FADH₂ y NADH</mark> (0,3 p).",
-    "c) Acetil-CoA: <mark class=\"clave-criterio\">ciclo de Krebs</mark>; FADH₂ y NADH: <mark class=\"clave-criterio\">cadena de transporte de electrones</mark> (0,4 p).",
+    "c) Acetil-CoA: <mark class=\"clave-criterio\">ciclo de Krebs</mark>; FADH₂ y NADH: <mark class=\"clave-criterio\">cadena de transporte de electrones</mark> (0,4 p). <span class=\"redactado\">En la cadena respiratoria los electrones del NADH y el FADH₂ pasan hasta el O₂, que se reduce a H₂O, y la energía liberada se usa para bombear protones; la ATP sintasa aprovecha ese gradiente para sintetizar ATP (fosforilación oxidativa).</span>",
     "d) Krebs: <mark class=\"clave-criterio\">CO₂, GTP, FADH₂ y NADH</mark> (0,4 p); cadena: <mark class=\"clave-criterio\">ATP y H₂O</mark> (0,1 p).",
     "e) <mark class=\"clave-criterio\">Mitocondria, matriz</mark>; <mark class=\"clave-criterio\">peroxisoma, interior</mark> (0,4 p)."
    ],
@@ -30959,11 +30959,11 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Defina: a) gen [0,4]; b) nucleosoma [0,4]; c) cromátida [0,4]; d) cromosoma metacéntrico [0,4]; e) organismo diploide [0,4].",
    "c": [
-    "a) Gen: <mark class=\"clave-criterio\">secuencia de ADN que determina una característica</mark> y puede tener <mark class=\"clave-criterio\">alelos</mark> (0,4 p).",
-    "b) Nucleosoma: <mark class=\"clave-criterio\">complejo de ADN e histonas</mark>, <mark class=\"clave-criterio\">primer grado de empaquetamiento</mark> del ADN (0,4 p).",
-    "c) Cromátida: <mark class=\"clave-criterio\">cada una de las dos partes idénticas unidas por el centrómero</mark> de un cromosoma metafásico (0,4 p).",
-    "d) Metacéntrico: el <mark class=\"clave-criterio\">centrómero divide las cromátidas en dos brazos iguales</mark> (0,4 p).",
-    "e) Diploide: individuo con <mark class=\"clave-criterio\">dos juegos de cada cromosoma</mark> (0,4 p)."
+    "a) Gen: <mark class=\"clave-criterio\">secuencia de ADN que determina una característica</mark> y puede tener <mark class=\"clave-criterio\">alelos</mark> (0,4 p). <span class=\"redactado\">Codifica la secuencia de aminoácidos de un polipéptido o la de un ARN (ARNt, ARNr). Los alelos son las distintas formas de un mismo gen.</span>",
+    "b) Nucleosoma: <mark class=\"clave-criterio\">complejo de ADN e histonas</mark>, <mark class=\"clave-criterio\">primer grado de empaquetamiento</mark> del ADN (0,4 p). <span class=\"redactado\">Está formado por un núcleo de ocho histonas (octámero) rodeado por unas dos vueltas de ADN; los nucleosomas, unidos por ADN espaciador, forman la fibra de 10 nm, el «collar de perlas».</span>",
+    "c) Cromátida: <mark class=\"clave-criterio\">cada una de las dos partes idénticas unidas por el centrómero</mark> de un cromosoma metafásico (0,4 p). <span class=\"redactado\">Las dos cromátidas hermanas se forman al replicarse el ADN en la fase S, por eso tienen la misma información; se separan en la anafase.</span>",
+    "d) Metacéntrico: el <mark class=\"clave-criterio\">centrómero divide las cromátidas en dos brazos iguales</mark> (0,4 p). <span class=\"redactado\">Los cromosomas se clasifican según la posición del centrómero: metacéntrico, submetacéntrico, acrocéntrico y telocéntrico.</span>",
+    "e) Diploide: individuo con <mark class=\"clave-criterio\">dos juegos de cada cromosoma</mark> (0,4 p). <span class=\"redactado\">Es decir, sus células somáticas tienen 2n cromosomas, uno de cada par procedente de cada progenitor; sus gametos son haploides (n).</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Suplente, modelo A",
@@ -30988,7 +30988,7 @@ window.BIOCELIA_HISTORICO = {
    "q": "a) Relacione una célula de la columna de la izquierda con una característica de la columna de la derecha [1]. b) Indique si intervienen en mecanismos de respuesta específica, inespecífica o en ambas [1].<table class=\"tabla-pau\"><tr><td>1. Células plasmáticas</td><td>A. Fagocitosis</td></tr><tr><td>2. Monocitos</td><td>B. Liberación de histamina</td></tr><tr><td>3. Basófilos</td><td>C. Precursores sanguíneos de los macrófagos</td></tr><tr><td>4. Neutrófilos</td><td>D. Inmunidad celular</td></tr><tr><td>5. Linfocitos T</td><td>E. Producción de anticuerpos</td></tr></table>",
    "c": [
     "a) <mark class=\"clave-criterio\">1-E</mark>, <mark class=\"clave-criterio\">2-C</mark>, <mark class=\"clave-criterio\">3-B</mark>, <mark class=\"clave-criterio\">4-A</mark>, <mark class=\"clave-criterio\">5-D</mark> (1 p).",
-    "b) Específica: <mark class=\"clave-criterio\">1, 3 y 5</mark>; inespecífica: <mark class=\"clave-criterio\">4</mark>; ambas: <mark class=\"clave-criterio\">2</mark> (1 p)."
+    "b) Específica: <mark class=\"clave-criterio\">1, 3 y 5</mark>; inespecífica: <mark class=\"clave-criterio\">4</mark>; ambas: <mark class=\"clave-criterio\">2</mark> (1 p). <span class=\"redactado\">Los neutrófilos y los basófilos son células de la inmunidad innata, pero los basófilos liberan histamina cuando se une a ellos la IgE en las alergias, y por eso los criterios los relacionan con la respuesta específica. Los monocitos se diferencian en macrófagos, que fagocitan (respuesta inespecífica) y además presentan antígenos a los linfocitos T (respuesta específica).</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Suplente, modelo A",
@@ -31086,8 +31086,8 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "A partir de la siguiente secuencia de ARNm 3'-UAUAUACAAUUU-5': a) determine la secuencia de la cadena de ADN a partir de la cual se transcribió, escriba su cadena complementaria, e indique la orientación o sentido de ambas [0,7]. b) Cuando esta molécula de ARNm se transcribe, se obtienen cuatro tripletes o codones distintos. Escriba para cada codón su anticodón correspondiente en el ARNt [0,3].",
    "c": [
-    "a) Cadena molde: <mark class=\"clave-criterio\">5'-ATATATGTTAAA-3'</mark>; complementaria: <mark class=\"clave-criterio\">3'-TATATACAATTT-5'</mark> (0,7 p).",
-    "b) Anticodones: <mark class=\"clave-criterio\">AAA, UUG, UAU, AUA</mark> (0,3 p)."
+    "a) Cadena molde: <mark class=\"clave-criterio\">5'-ATATATGTTAAA-3'</mark>; complementaria: <mark class=\"clave-criterio\">3'-TATATACAATTT-5'</mark> (0,7 p). <span class=\"redactado\">La cadena molde es complementaria y antiparalela al ARNm (A con U, T con A, G con C, C con G), y la cadena complementaria de la molde tiene la misma secuencia que el ARNm con T en lugar de U.</span>",
+    "b) Anticodones: <mark class=\"clave-criterio\">AAA, UUG, UAU, AUA</mark> (0,3 p). <span class=\"redactado\">Leído en sentido 5'→3', el ARNm es 5'-UUU AAC AUA UAU-3'; cada anticodón es complementario y antiparalelo de su codón.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Suplente, modelo A",
@@ -31111,8 +31111,8 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Dos personas acuden al médico con problemas de salud. A una de ellas el médico le prescribe inmunosupresores, mientras que a la segunda le prescribe un tratamiento de sueroterapia. Explique razonadamente, para cada caso y según el tipo de tratamiento que recibirán, qué tipo de enfermedad podría padecer cada una de estas dos personas [1].",
    "c": [
-    "Inmunosupresores: puede padecer una <mark class=\"clave-criterio\">enfermedad autoinmune</mark> (o haber recibido un <mark class=\"clave-criterio\">trasplante</mark>) (0,5 p).",
-    "Sueroterapia: puede padecer una <mark class=\"clave-criterio\">infección</mark> (o haber estado expuesta a una <mark class=\"clave-criterio\">toxina</mark>) (0,5 p)."
+    "Inmunosupresores: puede padecer una <mark class=\"clave-criterio\">enfermedad autoinmune</mark> (o haber recibido un <mark class=\"clave-criterio\">trasplante</mark>) (0,5 p). <span class=\"redactado\">Los inmunosupresores disminuyen la respuesta inmunitaria: impiden que el sistema inmunitario ataque las células propias o el órgano trasplantado.</span>",
+    "Sueroterapia: puede padecer una <mark class=\"clave-criterio\">infección</mark> (o haber estado expuesta a una <mark class=\"clave-criterio\">toxina</mark>) (0,5 p). <span class=\"redactado\">La sueroterapia aporta anticuerpos ya formados (inmunidad pasiva artificial): actúa de inmediato y sirve para curar, aunque su efecto es temporal y no deja memoria.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Suplente, modelo A",
@@ -31139,7 +31139,7 @@ window.BIOCELIA_HISTORICO = {
     "a) <mark class=\"clave-criterio\">Nucleótido</mark> (ATP) (0,2 p).",
     "b) 1: <mark class=\"clave-criterio\">adenina</mark>; 2: <mark class=\"clave-criterio\">ribosa</mark>; 3: <mark class=\"clave-criterio\">tres ácidos fosfóricos</mark> (0,3 p).",
     "c) <mark class=\"clave-criterio\">Enlace éster (fosfoéster)</mark> (0,1 p).",
-    "d) <mark class=\"clave-criterio\">Energética</mark>, <mark class=\"clave-criterio\">precursor de coenzimas</mark>, <mark class=\"clave-criterio\">segundo mensajero</mark>, estructural. Dos (0,4 p)."
+    "d) <mark class=\"clave-criterio\">Energética</mark>, <mark class=\"clave-criterio\">precursor de coenzimas</mark>, <mark class=\"clave-criterio\">segundo mensajero</mark>, estructural. Dos (0,4 p). <span class=\"redactado\">El ATP almacena energía en los enlaces entre sus fosfatos y la libera al hidrolizarse a ADP + Pi; el AMP cíclico actúa como segundo mensajero, y nucleótidos como el NAD⁺, el FAD o la coenzima A forman parte de coenzimas.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Suplente, modelo A",
@@ -31227,8 +31227,8 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>A la vista de la imagen, conteste a las siguientes cuestiones:</b><br>a) ¿Qué nombre reciben las moléculas señaladas con los números 1, 2 y 3? [0,3]<br>b) ¿Cómo se denominan los procesos indicados con las letras A, B y C? [0,3]<br>c) ¿Qué orgánulos están implicados en el proceso representado con la letra C? [0,4]",
    "c": [
     "a) 1: <mark class=\"clave-criterio\">ADN</mark>; 2: <mark class=\"clave-criterio\">ARNm</mark>; 3: <mark class=\"clave-criterio\">proteína</mark> (0,3 p).",
-    "b) A: <mark class=\"clave-criterio\">transcripción</mark>; B: <mark class=\"clave-criterio\">salida del ARNm del núcleo</mark>; C: <mark class=\"clave-criterio\">traducción</mark> (0,3 p).",
-    "c) <mark class=\"clave-criterio\">Ribosomas</mark> y <mark class=\"clave-criterio\">retículo endoplasmático rugoso</mark> (0,4 p)."
+    "b) A: <mark class=\"clave-criterio\">transcripción</mark>; B: <mark class=\"clave-criterio\">salida del ARNm del núcleo</mark>; C: <mark class=\"clave-criterio\">traducción</mark> (0,3 p). <span class=\"redactado\">El ARNm sale del núcleo a través de los poros nucleares.</span>",
+    "c) <mark class=\"clave-criterio\">Ribosomas</mark> y <mark class=\"clave-criterio\">retículo endoplasmático rugoso</mark> (0,4 p). <span class=\"redactado\">Los ribosomas unidos al RER sintetizan las proteínas de membrana y las de secreción, que pasan al interior del retículo.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Suplente, modelo A",
@@ -31255,9 +31255,9 @@ window.BIOCELIA_HISTORICO = {
    "competencial": true,
    "q": "<b>La siguiente gráfica representa la respuesta del sistema inmune después de dos exposiciones al mismo antígeno. Cada una de estas exposiciones produce un tipo de reacción diferente (A y B). Responda a las siguientes cuestiones:</b><br>a) ¿Con qué tipo de respuesta inmunitaria se relacionan A y B? [0,2].<br>b) ¿Qué nombre reciben las células señaladas con los números 1, 2, 3 y 4? [0,4]<br>c) ¿Cómo se denominan, en general, las moléculas representadas con los números 5 y 6? [0,1] ¿Qué tipo particular de moléculas son la 5 y la 6? [0,3]",
    "c": [
-    "a) A: <mark class=\"clave-criterio\">respuesta primaria</mark>; B: <mark class=\"clave-criterio\">respuesta secundaria</mark> (0,2 p).",
+    "a) A: <mark class=\"clave-criterio\">respuesta primaria</mark>; B: <mark class=\"clave-criterio\">respuesta secundaria</mark> (0,2 p). <span class=\"redactado\">La respuesta secundaria es más rápida, más intensa y más duradera gracias a los linfocitos de memoria que dejó la primaria.</span>",
     "b) 1: <mark class=\"clave-criterio\">linfocito B</mark>; 2: <mark class=\"clave-criterio\">célula plasmática</mark>; 3: <mark class=\"clave-criterio\">linfocito B de memoria</mark>; 4: <mark class=\"clave-criterio\">célula plasmática</mark> (0,4 p).",
-    "c) <mark class=\"clave-criterio\">Anticuerpos</mark> (0,1 p); 5: <mark class=\"clave-criterio\">IgM</mark>; 6: <mark class=\"clave-criterio\">IgG</mark> (0,3 p)."
+    "c) <mark class=\"clave-criterio\">Anticuerpos</mark> (0,1 p); 5: <mark class=\"clave-criterio\">IgM</mark>; 6: <mark class=\"clave-criterio\">IgG</mark> (0,3 p). <span class=\"redactado\">En la respuesta primaria predominan las IgM, las primeras que se producen; en la secundaria, las IgG.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Suplente, modelo A",
@@ -31284,10 +31284,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "a) Indique tres propiedades de los monosacáridos [0,75]. Explique la importancia biológica de los siguientes glúcidos: b) glucosa [0,25]; c) ribosa [0,25]; d) almidón [0,25]; e) celulosa [0,25]. f) Cite un glúcido con función de reserva en las células animales [0,25].",
    "c": [
-    "a) <mark class=\"clave-criterio\">No hidrolizables</mark>, <mark class=\"clave-criterio\">sólidos cristalinos blancos</mark>, <mark class=\"clave-criterio\">poder reductor</mark>, <mark class=\"clave-criterio\">sabor dulce</mark>, <mark class=\"clave-criterio\">solubles en agua</mark>, <mark class=\"clave-criterio\">actividad óptica</mark>. Tres (0,75 p).",
-    "b) Glucosa: <mark class=\"clave-criterio\">principal fuente de energía</mark> de las células (0,25 p). c) Ribosa: <mark class=\"clave-criterio\">forma parte de los nucleótidos y ácidos nucleicos</mark> (0,25 p).",
-    "d) Almidón: <mark class=\"clave-criterio\">polisacárido de reserva de las células vegetales</mark> (0,25 p). e) Celulosa: <mark class=\"clave-criterio\">componente principal de la pared celular vegetal</mark> (0,25 p).",
-    "f) <mark class=\"clave-criterio\">Glucógeno</mark> (0,25 p)."
+    "a) <mark class=\"clave-criterio\">No hidrolizables</mark>, <mark class=\"clave-criterio\">sólidos cristalinos blancos</mark>, <mark class=\"clave-criterio\">poder reductor</mark>, <mark class=\"clave-criterio\">sabor dulce</mark>, <mark class=\"clave-criterio\">solubles en agua</mark>, <mark class=\"clave-criterio\">actividad óptica</mark>. Tres (0,75 p). <span class=\"redactado\">El poder reductor se debe a su grupo carbonilo (aldehído o cetona) libre; la actividad óptica, a sus carbonos asimétricos.</span>",
+    "b) Glucosa: <mark class=\"clave-criterio\">principal fuente de energía</mark> de las células (0,25 p). c) Ribosa: <mark class=\"clave-criterio\">forma parte de los nucleótidos y ácidos nucleicos</mark> (0,25 p). <span class=\"redactado\">La glucosa se degrada en la glucólisis y la respiración celular para obtener ATP. La ribosa también forma parte del ATP y de coenzimas como el NAD⁺.</span>",
+    "d) Almidón: <mark class=\"clave-criterio\">polisacárido de reserva de las células vegetales</mark> (0,25 p). e) Celulosa: <mark class=\"clave-criterio\">componente principal de la pared celular vegetal</mark> (0,25 p). <span class=\"redactado\">El almidón se forma con α-glucosas (amilosa y amilopectina); la celulosa, con β-glucosas unidas por enlaces β(1→4) que forman cadenas lineales unidas entre sí por puentes de hidrógeno: eso le da su gran resistencia.</span>",
+    "f) <mark class=\"clave-criterio\">Glucógeno</mark> (0,25 p). <span class=\"redactado\">Se almacena sobre todo en el hígado y en los músculos.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Suplente, modelo B",
@@ -31311,11 +31311,11 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "a) Defina el ciclo celular [0,3]. b) Indique las fases que componen la interfase [0,3]. c) Describa lo que ocurre en cada una de las fases de la interfase [0,6]. d) Nombre y describa la primera fase de la mitosis [0,5]. e) Nombre de forma ordenada el resto de las fases de la mitosis [0,3].",
    "c": [
-    "a) Proceso desde que una célula <mark class=\"clave-criterio\">se origina por división</mark> hasta que <mark class=\"clave-criterio\">se divide dando dos células hijas</mark> (0,3 p).",
+    "a) Proceso desde que una célula <mark class=\"clave-criterio\">se origina por división</mark> hasta que <mark class=\"clave-criterio\">se divide dando dos células hijas</mark> (0,3 p). <span class=\"redactado\">Comprende la interfase y la división celular: la mitosis (cariocinesis) y la citocinesis.</span>",
     "b) <mark class=\"clave-criterio\">G1, S y G2</mark> (0,3 p).",
-    "c) G1: <mark class=\"clave-criterio\">aumento de tamaño y de orgánulos</mark>; S: <mark class=\"clave-criterio\">replicación del ADN</mark> y síntesis de histonas; G2: <mark class=\"clave-criterio\">preparación para la mitosis</mark> (0,6 p).",
-    "d) <mark class=\"clave-criterio\">Profase</mark> (0,1 p): <mark class=\"clave-criterio\">condensación de los cromosomas</mark>, <mark class=\"clave-criterio\">formación del huso</mark>, <mark class=\"clave-criterio\">desaparición del nucléolo y la envoltura nuclear</mark> (0,4 p).",
-    "e) <mark class=\"clave-criterio\">Metafase, anafase y telofase</mark> (0,3 p)."
+    "c) G1: <mark class=\"clave-criterio\">aumento de tamaño y de orgánulos</mark>; S: <mark class=\"clave-criterio\">replicación del ADN</mark> y síntesis de histonas; G2: <mark class=\"clave-criterio\">preparación para la mitosis</mark> (0,6 p). <span class=\"redactado\">En S cada cromosoma pasa a tener dos cromátidas hermanas; en G2 se sintetizan las proteínas necesarias para la división, como las del huso. Además, las células que no se dividen salen del ciclo y quedan en G0.</span>",
+    "d) <mark class=\"clave-criterio\">Profase</mark> (0,1 p): <mark class=\"clave-criterio\">condensación de los cromosomas</mark>, <mark class=\"clave-criterio\">formación del huso</mark>, <mark class=\"clave-criterio\">desaparición del nucléolo y la envoltura nuclear</mark> (0,4 p). <span class=\"redactado\">En las células animales los centrosomas, ya duplicados, se separan hacia los polos y entre ellos se forma el huso mitótico.</span>",
+    "e) <mark class=\"clave-criterio\">Metafase, anafase y telofase</mark> (0,3 p). <span class=\"redactado\">Metafase: los cromosomas se colocan en la placa ecuatorial. Anafase: se separan las cromátidas hermanas hacia los polos. Telofase: se forman las envolturas nucleares y se descondensan los cromosomas.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Suplente, modelo B",
@@ -31339,10 +31339,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Defina: a) anabolismo [0,5]; b) anabolismo autótrofo [0,5]; c) anabolismo heterótrofo [0,5]; d) quimiosíntesis [0,5].",
    "c": [
-    "a) <mark class=\"clave-criterio\">Síntesis de moléculas complejas a partir de sencillas con gasto de energía (ATP)</mark> (0,5 p).",
-    "b) Autótrofo: <mark class=\"clave-criterio\">síntesis de moléculas orgánicas a partir de materia inorgánica</mark> (CO₂, H₂O) (0,5 p).",
-    "c) Heterótrofo: <mark class=\"clave-criterio\">síntesis de moléculas orgánicas más complejas a partir de orgánicas sencillas</mark> (glucosa, aminoácidos) (0,5 p).",
-    "d) Quimiosíntesis: <mark class=\"clave-criterio\">síntesis de materia orgánica a partir de inorgánica</mark> con la <mark class=\"clave-criterio\">energía de reacciones químicas de compuestos inorgánicos</mark> (0,5 p)."
+    "a) <mark class=\"clave-criterio\">Síntesis de moléculas complejas a partir de sencillas con gasto de energía (ATP)</mark> (0,5 p). <span class=\"redactado\">Es la fase constructiva del metabolismo: sus reacciones son de reducción y forman las moléculas que la célula necesita para crecer y renovarse.</span>",
+    "b) Autótrofo: <mark class=\"clave-criterio\">síntesis de moléculas orgánicas a partir de materia inorgánica</mark> (CO₂, H₂O) (0,5 p). <span class=\"redactado\">Lo realizan los organismos autótrofos; por ejemplo, la fotosíntesis.</span>",
+    "c) Heterótrofo: <mark class=\"clave-criterio\">síntesis de moléculas orgánicas más complejas a partir de orgánicas sencillas</mark> (glucosa, aminoácidos) (0,5 p). <span class=\"redactado\">Lo realizan todas las células, tanto autótrofas como heterótrofas; por ejemplo, la síntesis de glucógeno a partir de glucosa o de proteínas a partir de aminoácidos.</span>",
+    "d) Quimiosíntesis: <mark class=\"clave-criterio\">síntesis de materia orgánica a partir de inorgánica</mark> con la <mark class=\"clave-criterio\">energía de reacciones químicas de compuestos inorgánicos</mark> (0,5 p). <span class=\"redactado\">La realizan algunas bacterias, como las nitrificantes o las del azufre, que oxidan compuestos inorgánicos como el amoniaco, los nitritos o el sulfuro de hidrógeno; la energía obtenida (ATP y NADH) se usa para fijar CO₂ en el ciclo de Calvin.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Suplente, modelo B",
@@ -31367,9 +31367,9 @@ window.BIOCELIA_HISTORICO = {
    "q": "a) En relación con el proceso de expresión génica en células eucarióticas explique el concepto de cadena molde y cadena codificante [0,4]. b) Indique qué enzima interviene en dicho proceso y explique su función [0,6]. c) Explique la función de la región promotora de los genes [0,4]. d) Indique y defina los dos procesos implicados en la expresión de genes [0,6].",
    "c": [
     "a) Molde: <mark class=\"clave-criterio\">cadena de ADN que se transcribe</mark>; codificante: la <mark class=\"clave-criterio\">complementaria</mark>, con <mark class=\"clave-criterio\">la misma secuencia que el ARNm</mark> pero <mark class=\"clave-criterio\">con T en lugar de U</mark> (0,4 p).",
-    "b) <mark class=\"clave-criterio\">ARN polimerasa</mark> (0,2 p): <mark class=\"clave-criterio\">incorpora ribonucleótidos para sintetizar ARN</mark> usando el ADN como molde (0,4 p).",
-    "c) <mark class=\"clave-criterio\">Sitio de unión de la ARN polimerasa</mark> para <mark class=\"clave-criterio\">iniciar la transcripción</mark> (0,4 p).",
-    "d) <mark class=\"clave-criterio\">Transcripción</mark>: síntesis de <mark class=\"clave-criterio\">ARNm a partir de ADN</mark>; <mark class=\"clave-criterio\">traducción</mark>: el ARNm <mark class=\"clave-criterio\">dirige la unión de aminoácidos</mark> en la síntesis de proteínas (0,6 p)."
+    "b) <mark class=\"clave-criterio\">ARN polimerasa</mark> (0,2 p): <mark class=\"clave-criterio\">incorpora ribonucleótidos para sintetizar ARN</mark> usando el ADN como molde (0,4 p). <span class=\"redactado\">Lee la cadena molde en sentido 3'→5' y sintetiza el ARN en sentido 5'→3'; a diferencia de la ADN polimerasa, no necesita cebador.</span>",
+    "c) <mark class=\"clave-criterio\">Sitio de unión de la ARN polimerasa</mark> para <mark class=\"clave-criterio\">iniciar la transcripción</mark> (0,4 p). <span class=\"redactado\">Es una secuencia situada antes del gen que señala dónde empieza a transcribirse y qué cadena actúa como molde.</span>",
+    "d) <mark class=\"clave-criterio\">Transcripción</mark>: síntesis de <mark class=\"clave-criterio\">ARNm a partir de ADN</mark>; <mark class=\"clave-criterio\">traducción</mark>: el ARNm <mark class=\"clave-criterio\">dirige la unión de aminoácidos</mark> en la síntesis de proteínas (0,6 p). <span class=\"redactado\">La transcripción ocurre en el núcleo y el ARNm se madura (se eliminan los intrones, se añaden la caperuza y la cola de poli-A) antes de salir al citoplasma; la traducción tiene lugar en los ribosomas.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Suplente, modelo B",
@@ -31393,10 +31393,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Defina los siguientes conceptos: a) enfermedad autoinmune [0,5]; b) inmunodeficiencia [0,5]. c) Cite el nombre de una enfermedad autoinmune y el de una inmunodeficiencia [0,5]. d) Indique qué se entiende por reacción alérgica o de hipersensibilidad [0,5].",
    "c": [
-    "a) <mark class=\"clave-criterio\">Respuesta inmunitaria que ataca moléculas o células propias</mark> (0,5 p).",
-    "b) <mark class=\"clave-criterio\">Incapacidad del sistema inmunitario para defender al organismo</mark> (0,5 p).",
+    "a) <mark class=\"clave-criterio\">Respuesta inmunitaria que ataca moléculas o células propias</mark> (0,5 p). <span class=\"redactado\">El sistema inmunitario pierde la tolerancia frente a lo propio y produce autoanticuerpos o linfocitos T autorreactivos.</span>",
+    "b) <mark class=\"clave-criterio\">Incapacidad del sistema inmunitario para defender al organismo</mark> (0,5 p). <span class=\"redactado\">Puede ser congénita (por ejemplo, la inmunodeficiencia combinada grave de los «niños burbuja») o adquirida, como el sida, en el que el VIH destruye los linfocitos T colaboradores. Las infecciones oportunistas se vuelven graves.</span>",
     "c) Autoinmune: <mark class=\"clave-criterio\">artritis reumatoide</mark>, <mark class=\"clave-criterio\">lupus</mark>; inmunodeficiencia: <mark class=\"clave-criterio\">SIDA</mark>, <mark class=\"clave-criterio\">niños burbuja</mark> (0,5 p).",
-    "d) <mark class=\"clave-criterio\">Respuesta inadecuada o exagerada</mark> del sistema inmunitario (0,5 p)."
+    "d) <mark class=\"clave-criterio\">Respuesta inadecuada o exagerada</mark> del sistema inmunitario (0,5 p). <span class=\"redactado\">Se produce frente a antígenos que normalmente son inofensivos (polen, ácaros, alimentos), llamados alérgenos: en un segundo contacto, la IgE unida a los mastocitos hace que liberen histamina, que provoca los síntomas.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Suplente, modelo B",
@@ -31420,8 +31420,8 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "El consumo de huevo crudo está desaconsejado por razones tanto de tipo microbiológico como nutricional. Sin embargo, cuando el huevo se cocina se evitan estos problemas. a) ¿Qué ocurrirá con las estructuras de las proteínas del huevo al cocinarlo? [0,5] b) ¿El cocinado del huevo hace que éste pierda su valor nutritivo como fuente de proteínas? [0,5] Razone las respuestas.",
    "c": [
-    "a) El calor las <mark class=\"clave-criterio\">desnaturaliza</mark>: <mark class=\"clave-criterio\">pierden todas sus estructuras salvo la primaria</mark> (0,5 p).",
-    "b) <mark class=\"clave-criterio\">No</mark>: el <mark class=\"clave-criterio\">contenido en aminoácidos permanece intacto</mark> (0,5 p)."
+    "a) El calor las <mark class=\"clave-criterio\">desnaturaliza</mark>: <mark class=\"clave-criterio\">pierden todas sus estructuras salvo la primaria</mark> (0,5 p). <span class=\"redactado\">El calor rompe los enlaces débiles que mantienen la estructura tridimensional, pero no los enlaces peptídicos.</span>",
+    "b) <mark class=\"clave-criterio\">No</mark>: el <mark class=\"clave-criterio\">contenido en aminoácidos permanece intacto</mark> (0,5 p). <span class=\"redactado\">Al contrario, las proteínas desnaturalizadas se digieren con más facilidad, porque las proteasas digestivas acceden mejor a sus enlaces peptídicos y los aminoácidos se absorben igual. Además, el calor destruye microorganismos, como Salmonella.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Suplente, modelo B",
@@ -31445,8 +31445,8 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Las gramicidinas son un grupo de antibióticos cuyo mecanismo de acción es la apertura de poros en las membranas celulares. a) ¿Por qué es esto negativo para las bacterias? [0,5] b) ¿Tendría el mismo efecto sobre las células eucarióticas? [0,5] Razone las respuestas.",
    "c": [
-    "a) Los poros permiten el <mark class=\"clave-criterio\">flujo libre de sustancias</mark>, y la membrana es la que <mark class=\"clave-criterio\">regula el transporte</mark> (0,5 p).",
-    "b) <mark class=\"clave-criterio\">Sí</mark>: las <mark class=\"clave-criterio\">membranas son similares en procariotas y eucariotas</mark> (0,5 p)."
+    "a) Los poros permiten el <mark class=\"clave-criterio\">flujo libre de sustancias</mark>, y la membrana es la que <mark class=\"clave-criterio\">regula el transporte</mark> (0,5 p). <span class=\"redactado\">Al perder la permeabilidad selectiva, la bacteria no puede mantener la diferencia de concentración de iones entre el interior y el exterior: entran y salen sustancias sin control y muere.</span>",
+    "b) <mark class=\"clave-criterio\">Sí</mark>: las <mark class=\"clave-criterio\">membranas son similares en procariotas y eucariotas</mark> (0,5 p). <span class=\"redactado\">Todas las membranas tienen la misma estructura de bicapa lipídica con proteínas (mosaico fluido), así que el antibiótico también abriría poros en las células eucariotas. Por eso estos antibióticos son tóxicos y solo se usan de forma tópica, sobre la piel o las mucosas.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Suplente, modelo B",
@@ -31470,9 +31470,9 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Debido a la actividad humana, los valores de CO₂ atmosférico están aumentando de forma considerable. Teniendo en cuenta este aumento de CO₂, conteste a las siguientes cuestiones: a) ¿qué proceso metabólico se verá afectado en las plantas? [0,5]; b) ¿cuál será la consecuencia más inmediata en la planta? [0,25]; c) ¿qué consecuencias a largo plazo tendrá la alteración de este proceso metabólico sobre los niveles de CO₂ atmosférico? [0,25] Razone todas las respuestas.",
    "c": [
-    "a) La <mark class=\"clave-criterio\">fotosíntesis (ciclo de Calvin)</mark> (0,3 p): <mark class=\"clave-criterio\">aumenta la fijación de CO₂</mark> en la fase no dependiente de la luz (0,2 p).",
-    "b) <mark class=\"clave-criterio\">Aumento de la biomasa</mark>, si hay agua y nutrientes suficientes (0,25 p).",
-    "c) Más fijación de CO₂ <mark class=\"clave-criterio\">ayudará a reducir el CO₂ atmosférico</mark> (0,25 p)."
+    "a) La <mark class=\"clave-criterio\">fotosíntesis (ciclo de Calvin)</mark> (0,3 p): <mark class=\"clave-criterio\">aumenta la fijación de CO₂</mark> en la fase no dependiente de la luz (0,2 p). <span class=\"redactado\">El CO₂ es el sustrato que fija la RuBisCO en el ciclo de Calvin; si su concentración aumenta, la velocidad de la fijación aumenta hasta que otro factor resulta limitante.</span>",
+    "b) <mark class=\"clave-criterio\">Aumento de la biomasa</mark>, si hay agua y nutrientes suficientes (0,25 p). <span class=\"redactado\">Se fabrica más materia orgánica y la planta puede crecer más.</span>",
+    "c) Más fijación de CO₂ <mark class=\"clave-criterio\">ayudará a reducir el CO₂ atmosférico</mark> (0,25 p). <span class=\"redactado\">Las plantas actúan como sumideros de carbono: retiran CO₂ de la atmósfera y lo incorporan a su biomasa.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Suplente, modelo B",
@@ -31521,8 +31521,8 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "a) Explique de forma razonada qué genes del sistema inmunitario de una madre deberían verse afectados por una mutación para que el feto no pudiera adquirir inmunidad natural y pasiva durante la gestación [0,6]. b) En caso de no existir la mutación y que el feto adquiriese la inmunidad natural y pasiva, ¿ésta sería temporal o permanente? Razone la respuesta [0,4].",
    "c": [
-    "a) Los <mark class=\"clave-criterio\">genes de la inmunoglobulina G</mark>: la <mark class=\"clave-criterio\">IgG</mark> es el <mark class=\"clave-criterio\">único anticuerpo que atraviesa la placenta</mark> (0,6 p).",
-    "b) <mark class=\"clave-criterio\">Temporal</mark>: los <mark class=\"clave-criterio\">anticuerpos de la madre duran poco</mark> (0,4 p)."
+    "a) Los <mark class=\"clave-criterio\">genes de la inmunoglobulina G</mark>: la <mark class=\"clave-criterio\">IgG</mark> es el <mark class=\"clave-criterio\">único anticuerpo que atraviesa la placenta</mark> (0,6 p). <span class=\"redactado\">Las IgG atraviesan la placenta mediante un receptor específico; si fallaran los genes que codifican las IgG, el feto no recibiría anticuerpos maternos.</span>",
+    "b) <mark class=\"clave-criterio\">Temporal</mark>: los <mark class=\"clave-criterio\">anticuerpos de la madre duran poco</mark> (0,4 p). <span class=\"redactado\">Los anticuerpos recibidos se van degradando a lo largo de los primeros meses de vida, y como el sistema inmunitario del bebé no ha intervenido, no se forman células de memoria.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Suplente, modelo B",
@@ -31547,8 +31547,8 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>La imagen adjunta representa la velocidad de una reacción enzimática en función de la concentración de sustrato. Teniendo en cuenta que en el medio de reacción se mantiene constante la cantidad de enzima y las condiciones de temperatura y pH, conteste a las siguientes cuestiones:</b><br>a) ¿Qué parámetros cinéticos de la curva A están indicados con las líneas horizontales 1 y 2? [0,4]<br>b) ¿A qué parámetro cinético hacen referencia los números 3 y 4? [0,2]<br>c) La velocidad en la reacción B es menor que en A, pero acaba alcanzando el valor 1 conforme se incrementa la cantidad de sustrato, ¿cómo se denomina la sustancia que ha disminuido la velocidad de reacción de A a B? [0,2]<br>d) ¿Y qué tipo de sustancia ha cambiado la velocidad de reacción de A a C? [0,2]",
    "c": [
     "a) 1: <mark class=\"clave-criterio\">velocidad máxima (Vmax)</mark>; 2: <mark class=\"clave-criterio\">mitad de la velocidad máxima (½ Vmax)</mark> (0,4 p).",
-    "b) 3: <mark class=\"clave-criterio\">Km de A</mark>; 4: <mark class=\"clave-criterio\">Km de B</mark> (0,2 p).",
-    "c) <mark class=\"clave-criterio\">Inhibidor competitivo</mark> (0,2 p). d) <mark class=\"clave-criterio\">Inhibidor no competitivo</mark> (0,2 p)."
+    "b) 3: <mark class=\"clave-criterio\">Km de A</mark>; 4: <mark class=\"clave-criterio\">Km de B</mark> (0,2 p). <span class=\"redactado\">La Km es la concentración de sustrato a la que se alcanza la mitad de la velocidad máxima e indica la afinidad de la enzima por el sustrato: cuanto mayor es la Km, menor es la afinidad.</span>",
+    "c) <mark class=\"clave-criterio\">Inhibidor competitivo</mark> (0,2 p). d) <mark class=\"clave-criterio\">Inhibidor no competitivo</mark> (0,2 p). <span class=\"redactado\">El inhibidor competitivo compite con el sustrato por el centro activo: aumenta la Km pero no cambia la Vmax, porque con mucho sustrato se desplaza al inhibidor. El no competitivo se une a otro lugar de la enzima: disminuye la Vmax y no se contrarresta añadiendo sustrato.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Suplente, modelo B",
@@ -31575,9 +31575,9 @@ window.BIOCELIA_HISTORICO = {
    "competencial": true,
    "q": "<b>Con relación a las figuras adjuntas:</b><br>a) ¿Qué muestra la zona del recuadro en la microfotografía de la izquierda? [0,2]<br>b) ¿En qué tipo de células se puede observar? [0,2]<br>c) Indique una función de esta estructura [0,2].<br>d) ¿Qué representa, en su conjunto, el esquema de la derecha? [0,2]<br>e) Identifique la estructura formada por el conjunto de letras A, B, C [0,2].",
    "c": [
-    "a) <mark class=\"clave-criterio\">Centrosoma</mark> (0,2 p). b) <mark class=\"clave-criterio\">Células animales</mark> (0,2 p).",
-    "c) <mark class=\"clave-criterio\">Centro organizador de microtúbulos</mark>, <mark class=\"clave-criterio\">formación del huso</mark> (0,2 p).",
-    "d) <mark class=\"clave-criterio\">Centriolo</mark> (0,2 p). e) <mark class=\"clave-criterio\">Triplete de microtúbulos</mark> (0,2 p)."
+    "a) <mark class=\"clave-criterio\">Centrosoma</mark> (0,2 p). b) <mark class=\"clave-criterio\">Células animales</mark> (0,2 p). <span class=\"redactado\">Las células vegetales superiores no tienen centriolos, aunque sí forman huso.</span>",
+    "c) <mark class=\"clave-criterio\">Centro organizador de microtúbulos</mark>, <mark class=\"clave-criterio\">formación del huso</mark> (0,2 p). <span class=\"redactado\">También origina los cuerpos basales de cilios y flagelos.</span>",
+    "d) <mark class=\"clave-criterio\">Centriolo</mark> (0,2 p). e) <mark class=\"clave-criterio\">Triplete de microtúbulos</mark> (0,2 p). <span class=\"redactado\">Cada centriolo tiene nueve tripletes de microtúbulos dispuestos en círculo (estructura 9 + 0).</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Suplente, modelo B",
@@ -31605,8 +31605,8 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>En relación con la figura adjunta, conteste a las siguientes cuestiones:</b><br>a) ¿Cómo se denominan los procesos metabólicos o reacciones numerados del 1 al 4? [0,4]<br>b) ¿En qué estructuras u orgánulos de las células eucarióticas se desarrollan los procesos 1, 3 y 4? [0,3]<br>c) ¿Qué nombre general reciben las reacciones señaladas con el número 5 y qué productos finales se muestran con las letras A y B? [0,3]",
    "c": [
     "a) 1: <mark class=\"clave-criterio\">glucólisis</mark>; 2: <mark class=\"clave-criterio\">descarboxilación oxidativa</mark>; 3: <mark class=\"clave-criterio\">β-oxidación</mark>; 4: <mark class=\"clave-criterio\">ciclo de Krebs</mark> (0,4 p).",
-    "b) 1: <mark class=\"clave-criterio\">citosol</mark>; 3 y 4: <mark class=\"clave-criterio\">mitocondrias</mark> (0,3 p).",
-    "c) 5: <mark class=\"clave-criterio\">fermentaciones</mark>; A: <mark class=\"clave-criterio\">etanol</mark>; B: <mark class=\"clave-criterio\">ácido láctico</mark> (0,3 p)."
+    "b) 1: <mark class=\"clave-criterio\">citosol</mark>; 3 y 4: <mark class=\"clave-criterio\">mitocondrias</mark> (0,3 p). <span class=\"redactado\">La descarboxilación oxidativa del pirúvico (2) también ocurre en la matriz mitocondrial; la β-oxidación y el ciclo de Krebs, en la matriz.</span>",
+    "c) 5: <mark class=\"clave-criterio\">fermentaciones</mark>; A: <mark class=\"clave-criterio\">etanol</mark>; B: <mark class=\"clave-criterio\">ácido láctico</mark> (0,3 p). <span class=\"redactado\">La fermentación ocurre en el citosol, en ausencia de oxígeno, y su función es reoxidar el NADH a NAD⁺ para que la glucólisis continúe.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Suplente, modelo B",
@@ -31635,8 +31635,8 @@ window.BIOCELIA_HISTORICO = {
    "c": [
     "a) 1: <mark class=\"clave-criterio\">ARNm</mark>; 2: <mark class=\"clave-criterio\">polipéptido</mark> (proteína) (0,2 p).",
     "b) <mark class=\"clave-criterio\">Traducción</mark> (0,2 p).",
-    "c) El código es <mark class=\"clave-criterio\">universal</mark> (0,3 p).",
-    "d) El código es <mark class=\"clave-criterio\">degenerado</mark> (0,3 p)."
+    "c) El código es <mark class=\"clave-criterio\">universal</mark> (0,3 p). <span class=\"redactado\">El mismo codón codifica el mismo aminoácido en casi todos los seres vivos; por eso una bacteria puede fabricar una proteína humana a partir de su ARNm.</span>",
+    "d) El código es <mark class=\"clave-criterio\">degenerado</mark> (0,3 p). <span class=\"redactado\">Un mismo aminoácido puede estar codificado por varios codones distintos (61 codones con sentido para 20 aminoácidos), así que no se sabe cuál de ellos tenía el ARNm.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Suplente, modelo B",
@@ -31665,7 +31665,7 @@ window.BIOCELIA_HISTORICO = {
    "c": [
     "a) 1: <mark class=\"clave-criterio\">antígeno</mark>; 2: <mark class=\"clave-criterio\">linfocito B</mark>; 3: <mark class=\"clave-criterio\">célula de memoria</mark>; 4: <mark class=\"clave-criterio\">célula plasmática</mark>; 5: <mark class=\"clave-criterio\">anticuerpo</mark> (0,5 p).",
     "b) <mark class=\"clave-criterio\">Sueroterapia</mark> (0,2 p).",
-    "c) Sueroterapia: <mark class=\"clave-criterio\">curativa</mark>, <mark class=\"clave-criterio\">dura poco</mark>, <mark class=\"clave-criterio\">inmunidad pasiva</mark>; vacunación: <mark class=\"clave-criterio\">preventiva</mark>, <mark class=\"clave-criterio\">duradera</mark>, <mark class=\"clave-criterio\">inmunidad activa</mark>. Dos (0,3 p)."
+    "c) Sueroterapia: <mark class=\"clave-criterio\">curativa</mark>, <mark class=\"clave-criterio\">dura poco</mark>, <mark class=\"clave-criterio\">inmunidad pasiva</mark>; vacunación: <mark class=\"clave-criterio\">preventiva</mark>, <mark class=\"clave-criterio\">duradera</mark>, <mark class=\"clave-criterio\">inmunidad activa</mark>. Dos (0,3 p). <span class=\"redactado\">La vacuna estimula los linfocitos propios y genera células de memoria, pero tarda en hacer efecto; el suero aporta anticuerpos ya formados, actúa de inmediato pero no deja memoria.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Suplente, modelo B",
@@ -31692,10 +31692,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "a) Defina base nitrogenada [0,5]. b) Enumere y clasifique las bases nitrogenadas que forman parte de los ácidos nucleicos [0,7] c) ¿En qué consiste la complementariedad de las bases nitrogenadas? [0,5] d) Nombre los dos tipos de monosacáridos que forman parte de los ácidos nucleicos [0,3].",
    "c": [
-    "a) <mark class=\"clave-criterio\">Compuesto heterocíclico con nitrógeno</mark> que forma parte de los <mark class=\"clave-criterio\">nucleótidos</mark> (0,5 p).",
-    "b) <mark class=\"clave-criterio\">Púricas: adenina y guanina</mark>; <mark class=\"clave-criterio\">pirimidínicas: citosina, timina y uracilo</mark> (0,7 p).",
-    "c) Unión <mark class=\"clave-criterio\">A-T (o A-U) por dos puentes de hidrógeno</mark> y <mark class=\"clave-criterio\">G-C por tres</mark> (0,5 p).",
-    "d) <mark class=\"clave-criterio\">Desoxirribosa</mark> y <mark class=\"clave-criterio\">ribosa</mark> (0,3 p)."
+    "a) <mark class=\"clave-criterio\">Compuesto heterocíclico con nitrógeno</mark> que forma parte de los <mark class=\"clave-criterio\">nucleótidos</mark> (0,5 p). <span class=\"redactado\">Tienen carácter básico; en el nucleótido se unen al carbono 1′ de la pentosa mediante un enlace N-glucosídico.</span>",
+    "b) <mark class=\"clave-criterio\">Púricas: adenina y guanina</mark>; <mark class=\"clave-criterio\">pirimidínicas: citosina, timina y uracilo</mark> (0,7 p). <span class=\"redactado\">Las púricas derivan de la purina (dos anillos) y las pirimidínicas de la pirimidina (un anillo). La timina es exclusiva del ADN y el uracilo, del ARN.</span>",
+    "c) Unión <mark class=\"clave-criterio\">A-T (o A-U) por dos puentes de hidrógeno</mark> y <mark class=\"clave-criterio\">G-C por tres</mark> (0,5 p). <span class=\"redactado\">Una base púrica siempre se aparea con una pirimidínica, lo que mantiene constante la anchura de la doble hélice; así, la secuencia de una cadena determina la de la otra, y eso es la base de la replicación y la transcripción.</span>",
+    "d) <mark class=\"clave-criterio\">Desoxirribosa</mark> y <mark class=\"clave-criterio\">ribosa</mark> (0,3 p). <span class=\"redactado\">La desoxirribosa forma parte del ADN y la ribosa del ARN; las dos son pentosas (aldopentosas).</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Reserva, modelo A",
@@ -31719,10 +31719,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "El microscopio es un instrumento imprescindible en el estudio de la biología. a) Defina poder de resolución [0,5]. b) Indique la fuente de radiación de los microscopios ópticos y la que emplean los microscopios electrónicos [0,5]. c) ¿Qué nombre recibe la lente del microscopio óptico situada cerca del ojo del observador? [0,2] d) ¿Y la que se sitúa más próxima a la muestra? [0,2] Indique qué tipo de microscopio emplearía para: e) realizar un recuento de glóbulos rojos en sangre [0,2]; f) observar una tinción de bacterias [0,2]; g) observar ribosomas [0,2].",
    "c": [
-    "a) <mark class=\"clave-criterio\">Distancia más corta entre dos puntos a la que se distinguen como separados</mark> (0,5 p).",
-    "b) Óptico: <mark class=\"clave-criterio\">luz</mark>; electrónico: <mark class=\"clave-criterio\">haz de electrones</mark> (0,5 p).",
+    "a) <mark class=\"clave-criterio\">Distancia más corta entre dos puntos a la que se distinguen como separados</mark> (0,5 p). <span class=\"redactado\">Cuanto menor es esa distancia, mayor es el poder de resolución. Depende de la longitud de onda de la radiación: unos 0,2 µm en el microscopio óptico y del orden de nanómetros, o menos, en el electrónico.</span>",
+    "b) Óptico: <mark class=\"clave-criterio\">luz</mark>; electrónico: <mark class=\"clave-criterio\">haz de electrones</mark> (0,5 p). <span class=\"redactado\">Los electrones tienen una longitud de onda mucho menor que la luz visible, y por eso el microscopio electrónico resuelve estructuras mucho más pequeñas; sus lentes son electromagnéticas.</span>",
     "c) <mark class=\"clave-criterio\">Ocular</mark> (0,2 p). d) <mark class=\"clave-criterio\">Objetivo</mark> (0,2 p).",
-    "e) <mark class=\"clave-criterio\">Óptico</mark> (0,2 p). f) <mark class=\"clave-criterio\">Óptico</mark> (0,2 p). g) <mark class=\"clave-criterio\">Electrónico</mark> (0,2 p)."
+    "e) <mark class=\"clave-criterio\">Óptico</mark> (0,2 p). f) <mark class=\"clave-criterio\">Óptico</mark> (0,2 p). g) <mark class=\"clave-criterio\">Electrónico</mark> (0,2 p). <span class=\"redactado\">Las células sanguíneas y las bacterias teñidas miden varios micrómetros y se ven con el óptico; los ribosomas, de unos 20-30 nm, están por debajo de su poder de resolución.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Reserva, modelo A",
@@ -31747,9 +31747,9 @@ window.BIOCELIA_HISTORICO = {
    "q": "Respecto a la fotosíntesis: a) indique si el ciclo de Calvin es un proceso anabólico o catabólico [0,1] y b) en qué orgánulo tiene lugar, especificando en qué parte del mismo [0,2]. c) Indique las moléculas obtenidas en la fase dependiente de la luz (fase fotoquímica) [0,2] y d) la cantidad de cada una de ellas necesarias para sintetizar una molécula de glucosa [0,6]. e) ¿Qué molécula de la atmósfera se necesita para poder iniciar el ciclo y qué enzima es necesaria para incorporarla al mismo? [0,4] f) Explique la finalidad de este ciclo [0,5].",
    "c": [
     "a) <mark class=\"clave-criterio\">Anabólico</mark> (0,1 p). b) <mark class=\"clave-criterio\">Cloroplasto</mark>, <mark class=\"clave-criterio\">estroma</mark> (0,2 p).",
-    "c) <mark class=\"clave-criterio\">ATP y NADPH</mark> (0,2 p). d) <mark class=\"clave-criterio\">18 ATP y 12 NADPH</mark> (0,6 p).",
-    "e) <mark class=\"clave-criterio\">CO₂</mark>; <mark class=\"clave-criterio\">RuBisCO</mark> (0,4 p).",
-    "f) <mark class=\"clave-criterio\">Síntesis de materia orgánica a partir de materia inorgánica</mark> (0,5 p)."
+    "c) <mark class=\"clave-criterio\">ATP y NADPH</mark> (0,2 p). d) <mark class=\"clave-criterio\">18 ATP y 12 NADPH</mark> (0,6 p). <span class=\"redactado\">Por cada CO₂ fijado se gastan 3 ATP y 2 NADPH; una glucosa tiene 6 carbonos, así que hacen falta 6 vueltas del ciclo: 6 × 3 = 18 ATP y 6 × 2 = 12 NADPH.</span>",
+    "e) <mark class=\"clave-criterio\">CO₂</mark>; <mark class=\"clave-criterio\">RuBisCO</mark> (0,4 p). <span class=\"redactado\">La RuBisCO une el CO₂ a la ribulosa-1,5-bisfosfato, y se forman dos moléculas de 3-fosfoglicerato.</span>",
+    "f) <mark class=\"clave-criterio\">Síntesis de materia orgánica a partir de materia inorgánica</mark> (0,5 p). <span class=\"redactado\">Se reduce el CO₂ con el ATP y el NADPH de la fase luminosa para formar glúcidos (gliceraldehído-3-fosfato, a partir del cual se sintetizan la glucosa, el almidón y otras moléculas), y se regenera la ribulosa-1,5-bisfosfato para que el ciclo continúe.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Reserva, modelo A",
@@ -31774,8 +31774,8 @@ window.BIOCELIA_HISTORICO = {
    "q": "a) Cite [0,2] y b) defina [0,5] los dos procesos que tienen lugar en la expresión de la información genética. c) Indique dos localizaciones de la célula eucariótica en las que ocurren cada uno de dichos procesos [0,4] d) Explique una función de tres tipos de ARN distintos que intervienen en la expresión génica [0,9].",
    "c": [
     "a) <mark class=\"clave-criterio\">Transcripción y traducción</mark> (0,2 p).",
-    "b) Transcripción: <mark class=\"clave-criterio\">síntesis de ARN (ARNm) a partir de ADN</mark>; traducción: el <mark class=\"clave-criterio\">ARNm dirige la unión de aminoácidos</mark> en la síntesis de proteínas (0,5 p).",
-    "c) Transcripción: <mark class=\"clave-criterio\">núcleo</mark>, mitocondria, cloroplasto; traducción: <mark class=\"clave-criterio\">ribosomas del citosol</mark>, <mark class=\"clave-criterio\">del RER</mark>, mitocondrias y cloroplastos. Dos de cada (0,4 p).",
+    "b) Transcripción: <mark class=\"clave-criterio\">síntesis de ARN (ARNm) a partir de ADN</mark>; traducción: el <mark class=\"clave-criterio\">ARNm dirige la unión de aminoácidos</mark> en la síntesis de proteínas (0,5 p). <span class=\"redactado\">En la transcripción la ARN polimerasa copia la cadena molde del ADN; en la traducción, los ribosomas leen los codones del ARNm y los ARNt aportan los aminoácidos correspondientes.</span>",
+    "c) Transcripción: <mark class=\"clave-criterio\">núcleo</mark>, mitocondria, cloroplasto; traducción: <mark class=\"clave-criterio\">ribosomas del citosol</mark>, <mark class=\"clave-criterio\">del RER</mark>, mitocondrias y cloroplastos. Dos de cada (0,4 p). <span class=\"redactado\">Mitocondrias y cloroplastos tienen su propio ADN y sus propios ribosomas, por eso en ellos ocurren los dos procesos.</span>",
     "d) ARNm: <mark class=\"clave-criterio\">lleva la información a los ribosomas</mark>; ARNt: <mark class=\"clave-criterio\">transporta aminoácidos</mark> y reconoce codones; ARNr: <mark class=\"clave-criterio\">forma los ribosomas</mark> (0,9 p)."
    ],
    "origen": {
@@ -31800,10 +31800,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "a) Defina infección [0,8]. b) Indique tres tipos de agentes que pueden causar infecciones [0,3]. c) Nombre tres vías de transmisión de las infecciones [0,3]. d) De las vías mencionadas en el apartado anterior, indique un mecanismo presente en nuestro organismo que pudiese impedirla [0,6].",
    "c": [
-    "a) <mark class=\"clave-criterio\">Entrada y multiplicación de un agente patógeno</mark> en un organismo vivo (0,8 p).",
+    "a) <mark class=\"clave-criterio\">Entrada y multiplicación de un agente patógeno</mark> en un organismo vivo (0,8 p). <span class=\"redactado\">El patógeno puede causar daños al destruir células o liberar toxinas; cuando aparecen síntomas se habla de enfermedad infecciosa.</span>",
     "b) <mark class=\"clave-criterio\">Bacterias</mark>, <mark class=\"clave-criterio\">hongos</mark>, <mark class=\"clave-criterio\">protozoos</mark>, <mark class=\"clave-criterio\">virus</mark>. Tres (0,3 p).",
     "c) <mark class=\"clave-criterio\">Digestiva</mark>, <mark class=\"clave-criterio\">respiratoria</mark>, <mark class=\"clave-criterio\">genital</mark>, <mark class=\"clave-criterio\">cutánea</mark>, parenteral, vectores. Tres (0,3 p).",
-    "d) Digestiva: <mark class=\"clave-criterio\">pH ácido del estómago</mark>; respiratoria: <mark class=\"clave-criterio\">cilios y mucosidad</mark>; genital: <mark class=\"clave-criterio\">pH ácido de la vagina</mark>; cutánea: <mark class=\"clave-criterio\">queratina y descamación</mark>. Uno por vía, 0,2 p (0,6 p)."
+    "d) Digestiva: <mark class=\"clave-criterio\">pH ácido del estómago</mark>; respiratoria: <mark class=\"clave-criterio\">cilios y mucosidad</mark>; genital: <mark class=\"clave-criterio\">pH ácido de la vagina</mark>; cutánea: <mark class=\"clave-criterio\">queratina y descamación</mark>. Uno por vía, 0,2 p (0,6 p). <span class=\"redactado\">Son barreras de la inmunidad innata, que actúan frente a cualquier patógeno. Otros ejemplos: la lisozima de las lágrimas y la saliva y la microbiota normal, que compite con los patógenos.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Reserva, modelo A",
@@ -31827,8 +31827,8 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Los zapateros son insectos capaces de sostenerse y desplazarse sobre la superficie de los estanques y charcas que habitan. a) ¿Qué propiedad del agua hace posible que estos animales no se hundan? [0,5] b) ¿Qué importancia tiene para las plantas el hecho de que el agua tenga gran capacidad para adherirse a las paredes de conductos muy estrechos? [0,5] Razone ambas respuestas.",
    "c": [
-    "a) La <mark class=\"clave-criterio\">elevada tensión superficial</mark> (0,1 p): las moléculas de la superficie sufren una <mark class=\"clave-criterio\">atracción neta hacia el interior</mark> y la superficie <mark class=\"clave-criterio\">resiste ser traspasada</mark> (0,4 p).",
-    "b) La <mark class=\"clave-criterio\">capilaridad</mark> contribuye al <mark class=\"clave-criterio\">ascenso del agua por los vasos conductores</mark> (0,5 p)."
+    "a) La <mark class=\"clave-criterio\">elevada tensión superficial</mark> (0,1 p): las moléculas de la superficie sufren una <mark class=\"clave-criterio\">atracción neta hacia el interior</mark> y la superficie <mark class=\"clave-criterio\">resiste ser traspasada</mark> (0,4 p). <span class=\"redactado\">Las moléculas de agua están muy cohesionadas por puentes de hidrógeno; en la superficie no tienen moléculas por encima, y la capa superficial se comporta como una película elástica.</span>",
+    "b) La <mark class=\"clave-criterio\">capilaridad</mark> contribuye al <mark class=\"clave-criterio\">ascenso del agua por los vasos conductores</mark> (0,5 p). <span class=\"redactado\">Las moléculas de agua se adhieren a las paredes de los vasos del xilema y, por cohesión, arrastran a las demás; junto con la transpiración en las hojas, esto permite que la savia bruta suba desde las raíces.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Reserva, modelo A",
@@ -31852,7 +31852,7 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "La acetabularia es un alga unicelular de forma filamentosa de gran tamaño que presenta el núcleo en uno de sus extremos. En un laboratorio se fragmenta esta alga en dos partes, quedando el núcleo en una de ellas. Explique de forma razonada si cada uno de estos fragmentos tiene la capacidad de regenerar la célula completa [1].",
    "c": [
-    "Solo el <mark class=\"clave-criterio\">fragmento con el núcleo</mark>, <mark class=\"clave-criterio\">portador de la información genética</mark>, puede regenerar la célula, si además tiene <mark class=\"clave-criterio\">orgánulos citosólicos</mark> (<mark class=\"clave-criterio\">ribosomas</mark> para sintetizar proteínas, <mark class=\"clave-criterio\">mitocondrias</mark> para la energía) (1 p)."
+    "Solo el <mark class=\"clave-criterio\">fragmento con el núcleo</mark>, <mark class=\"clave-criterio\">portador de la información genética</mark>, puede regenerar la célula, si además tiene <mark class=\"clave-criterio\">orgánulos citosólicos</mark> (<mark class=\"clave-criterio\">ribosomas</mark> para sintetizar proteínas, <mark class=\"clave-criterio\">mitocondrias</mark> para la energía) (1 p). <span class=\"redactado\">El fragmento sin núcleo no puede fabricar ARNm nuevo: en los experimentos clásicos de Hämmerling podía llegar a regenerar parte de la célula durante un tiempo gracias al ARNm que ya tenía en su citoplasma, pero acababa muriendo.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Reserva, modelo A",
@@ -31876,8 +31876,8 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "A una célula muscular esquelética se le bloquea la entrada de oxígeno. a) ¿Cómo es posible que la célula siga produciendo ATP? [0,5] b) ¿Cómo será el rendimiento en la producción de ATP si la comparamos con una célula de igual naturaleza a la cual no se le ha bloqueado la entrada de oxígeno? [0,5] Explique razonadamente ambas cuestiones.",
    "c": [
-    "a) Mediante la <mark class=\"clave-criterio\">fermentación láctica</mark>: el <mark class=\"clave-criterio\">piruvato de la glucólisis pasa a ácido láctico</mark> y se genera ATP (0,5 p).",
-    "b) <mark class=\"clave-criterio\">Mucho menor</mark>: <mark class=\"clave-criterio\">2 ATP</mark> por glucosa frente a <mark class=\"clave-criterio\">36-38 ATP</mark> con oxígeno, porque la glucosa <mark class=\"clave-criterio\">no se degrada totalmente</mark> (0,5 p)."
+    "a) Mediante la <mark class=\"clave-criterio\">fermentación láctica</mark>: el <mark class=\"clave-criterio\">piruvato de la glucólisis pasa a ácido láctico</mark> y se genera ATP (0,5 p). <span class=\"redactado\">Sin O₂ la cadena respiratoria se detiene y el NADH no se reoxida; al reducir el piruvato a lactato, el NADH vuelve a NAD⁺, y la glucólisis puede seguir produciendo 2 ATP por glucosa.</span>",
+    "b) <mark class=\"clave-criterio\">Mucho menor</mark>: <mark class=\"clave-criterio\">2 ATP</mark> por glucosa frente a <mark class=\"clave-criterio\">36-38 ATP</mark> con oxígeno, porque la glucosa <mark class=\"clave-criterio\">no se degrada totalmente</mark> (0,5 p). <span class=\"redactado\">Con oxígeno, el piruvato entra en la mitocondria, se oxida en el ciclo de Krebs y la fosforilación oxidativa produce la mayor parte del ATP; el lactato, en cambio, aún contiene mucha energía.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Reserva, modelo A",
@@ -31901,8 +31901,8 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "a) ¿Cómo afectaría a la formación de los cromosomas la introducción de un agente desnaturalizante de las histonas en una célula eucariótica? [0,5] b) ¿Y si lo introducimos en una célula procariótica? [0,5] Explique razonadamente ambas cuestiones.",
    "c": [
-    "a) Los cromosomas <mark class=\"clave-criterio\">no se condensarían</mark>: sin histonas el ADN <mark class=\"clave-criterio\">no tiene soporte para empaquetarse</mark> (0,5 p).",
-    "b) <mark class=\"clave-criterio\">No afectaría</mark>: su ADN <mark class=\"clave-criterio\">no se asocia a histonas</mark> (0,5 p)."
+    "a) Los cromosomas <mark class=\"clave-criterio\">no se condensarían</mark>: sin histonas el ADN <mark class=\"clave-criterio\">no tiene soporte para empaquetarse</mark> (0,5 p). <span class=\"redactado\">El ADN se enrolla alrededor de octámeros de histonas formando nucleosomas, y a partir de ellos se pliega en niveles cada vez más compactos hasta el cromosoma metafásico.</span>",
+    "b) <mark class=\"clave-criterio\">No afectaría</mark>: su ADN <mark class=\"clave-criterio\">no se asocia a histonas</mark> (0,5 p). <span class=\"redactado\">El ADN de las bacterias es circular y está en el nucleoide, unido a otras proteínas que lo pliegan; no forma cromosomas como los eucarióticos.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Reserva, modelo A",
@@ -31954,7 +31954,7 @@ window.BIOCELIA_HISTORICO = {
     "a) <mark class=\"clave-criterio\">Inhibición enzimática (no competitiva)</mark> (0,1 p).",
     "b) 1: <mark class=\"clave-criterio\">enzima</mark>; 2: <mark class=\"clave-criterio\">inhibidor</mark>; 3: <mark class=\"clave-criterio\">sustrato</mark> (0,3 p).",
     "c) La curva <mark class=\"clave-criterio\">4</mark> (0,2 p).",
-    "d) La molécula 3 (sustrato) <mark class=\"clave-criterio\">disminuirá</mark>; la 1 (enzima) <mark class=\"clave-criterio\">no se modifica</mark> (0,4 p)."
+    "d) La molécula 3 (sustrato) <mark class=\"clave-criterio\">disminuirá</mark>; la 1 (enzima) <mark class=\"clave-criterio\">no se modifica</mark> (0,4 p). <span class=\"redactado\">La enzima actúa como catalizador: transforma el sustrato en producto pero no se consume en la reacción, y puede actuar una y otra vez.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Reserva, modelo A",
@@ -32043,7 +32043,7 @@ window.BIOCELIA_HISTORICO = {
     "a) 1: <mark class=\"clave-criterio\">plásmido</mark> (vector); 2: <mark class=\"clave-criterio\">inserto</mark> (gen de interés); 3: <mark class=\"clave-criterio\">ADN recombinante</mark> (0,3 p).",
     "b) 4: <mark class=\"clave-criterio\">enzima de restricción</mark>; 5: <mark class=\"clave-criterio\">ADN ligasa</mark> (0,2 p).",
     "c) <mark class=\"clave-criterio\">Sitio de restricción</mark> (0,1 p).",
-    "d) A: <mark class=\"clave-criterio\">corte con enzimas de restricción</mark>; B: <mark class=\"clave-criterio\">ligación</mark> (unión por la ligasa) (0,4 p)."
+    "d) A: <mark class=\"clave-criterio\">corte con enzimas de restricción</mark>; B: <mark class=\"clave-criterio\">ligación</mark> (unión por la ligasa) (0,4 p). <span class=\"redactado\">La enzima de restricción corta el plásmido y el ADN de interés por la misma secuencia, dejando extremos cohesivos complementarios; la ADN ligasa une con enlaces fosfodiéster los fragmentos que se han apareado.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Reserva, modelo A",
@@ -32071,8 +32071,8 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>Con relación a la imagen adjunta, conteste a las siguientes cuestiones:</b><br>a) ¿Qué nombre reciben en conjunto las moléculas representadas? [0,1]<br>b) ¿Qué tipo particular de moléculas aparecen representadas con los números 1, 2 y 3? [0,3]<br>c) ¿Cuál de ellas atraviesa la placenta y cuál está presente en la leche materna? [0,3]<br>d) ¿Cuál de ellas es la primera que aparece en la respuesta inmunitaria primaria y cuál es la más abundante en la respuesta inmunitaria secundaria? [0,3]",
    "c": [
     "a) <mark class=\"clave-criterio\">Anticuerpos</mark> (inmunoglobulinas) (0,1 p).",
-    "b) 1: <mark class=\"clave-criterio\">IgG</mark> (o IgD, IgE); 2: <mark class=\"clave-criterio\">IgA</mark>; 3: <mark class=\"clave-criterio\">IgM</mark> (0,3 p).",
-    "c) Placenta: <mark class=\"clave-criterio\">1 (IgG)</mark>; leche materna: <mark class=\"clave-criterio\">2 (IgA)</mark> (0,3 p).",
+    "b) 1: <mark class=\"clave-criterio\">IgG</mark> (o IgD, IgE); 2: <mark class=\"clave-criterio\">IgA</mark>; 3: <mark class=\"clave-criterio\">IgM</mark> (0,3 p). <span class=\"redactado\">La IgM es un pentámero y la IgA, un dímero; las IgG, IgD e IgE son monómeros.</span>",
+    "c) Placenta: <mark class=\"clave-criterio\">1 (IgG)</mark>; leche materna: <mark class=\"clave-criterio\">2 (IgA)</mark> (0,3 p). <span class=\"redactado\">La IgG da al feto inmunidad pasiva natural, y la IgA de la leche protege las mucosas digestivas del bebé.</span>",
     "d) Primaria: <mark class=\"clave-criterio\">3 (IgM)</mark>; secundaria: <mark class=\"clave-criterio\">1 (IgG)</mark> (0,3 p)."
    ],
    "origen": {
@@ -32100,9 +32100,9 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "a) Describa la estructura de la molécula del agua [0,6]. b) Indique el tipo de enlace que se establece entre dos moléculas de agua [0,2]. c) Enumere cuatro propiedades físico-químicas del agua y relaciónelas con sus funciones biológicas [1,2].",
    "c": [
-    "a) <mark class=\"clave-criterio\">Dos hidrógenos unidos a un oxígeno por enlace covalente</mark>, formando un <mark class=\"clave-criterio\">dipolo eléctrico</mark> (0,6 p).",
-    "b) <mark class=\"clave-criterio\">Puente de hidrógeno</mark> (0,2 p).",
-    "c) <mark class=\"clave-criterio\">Cohesión y alta constante dieléctrica</mark>: transporte y <mark class=\"clave-criterio\">disolvente</mark>; <mark class=\"clave-criterio\">elevado calor específico</mark>: <mark class=\"clave-criterio\">termorregulación</mark>; <mark class=\"clave-criterio\">alto calor de vaporización</mark>: <mark class=\"clave-criterio\">refrigerante</mark>; <mark class=\"clave-criterio\">adhesión</mark>: <mark class=\"clave-criterio\">capilaridad</mark>; <mark class=\"clave-criterio\">menor densidad del hielo</mark>: <mark class=\"clave-criterio\">vida acuática en zonas frías</mark>. Cuatro (1,2 p)."
+    "a) <mark class=\"clave-criterio\">Dos hidrógenos unidos a un oxígeno por enlace covalente</mark>, formando un <mark class=\"clave-criterio\">dipolo eléctrico</mark> (0,6 p). <span class=\"redactado\">El oxígeno es más electronegativo y atrae los electrones de los enlaces: queda con carga parcial negativa y los hidrógenos, con carga parcial positiva. Los enlaces forman un ángulo de unos 104,5°, por lo que la molécula es polar aunque su carga total sea neutra.</span>",
+    "b) <mark class=\"clave-criterio\">Puente de hidrógeno</mark> (0,2 p). <span class=\"redactado\">Se forma entre el hidrógeno de una molécula y el oxígeno de otra; cada molécula de agua puede formar hasta cuatro.</span>",
+    "c) <mark class=\"clave-criterio\">Cohesión y alta constante dieléctrica</mark>: transporte y <mark class=\"clave-criterio\">disolvente</mark>; <mark class=\"clave-criterio\">elevado calor específico</mark>: <mark class=\"clave-criterio\">termorregulación</mark>; <mark class=\"clave-criterio\">alto calor de vaporización</mark>: <mark class=\"clave-criterio\">refrigerante</mark>; <mark class=\"clave-criterio\">adhesión</mark>: <mark class=\"clave-criterio\">capilaridad</mark>; <mark class=\"clave-criterio\">menor densidad del hielo</mark>: <mark class=\"clave-criterio\">vida acuática en zonas frías</mark>. Cuatro (1,2 p). <span class=\"redactado\">Todas estas propiedades se deben a los puentes de hidrógeno entre las moléculas. Por ejemplo, el calor específico elevado hace que el agua amortigüe los cambios de temperatura, y el hielo flota y aísla el agua líquida de debajo.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Reserva, modelo B",
@@ -32126,10 +32126,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "a) Cite los tipos de retículo endoplasmático que existen en la célula [0,2] e indique una función de cada uno de ellos [0,5]. b) Indique dos características morfológicas que permitan distinguir un tipo de retículo del otro en una observación microscópica [0,6]. c) Indique si estos tipos de retículo son exclusivos de células animales o de células vegetales o si se presentan en ambos tipos de células [0,2]. d) ¿Qué relación tiene el retículo endoplasmático con el complejo de Golgi? [0,5]",
    "c": [
-    "a) <mark class=\"clave-criterio\">REL</mark> y <mark class=\"clave-criterio\">RER</mark> (0,2 p). REL: <mark class=\"clave-criterio\">síntesis de lípidos</mark>, almacén de calcio, detoxificación; RER: <mark class=\"clave-criterio\">síntesis y glucosilación de proteínas</mark> (0,5 p).",
+    "a) <mark class=\"clave-criterio\">REL</mark> y <mark class=\"clave-criterio\">RER</mark> (0,2 p). REL: <mark class=\"clave-criterio\">síntesis de lípidos</mark>, almacén de calcio, detoxificación; RER: <mark class=\"clave-criterio\">síntesis y glucosilación de proteínas</mark> (0,5 p). <span class=\"redactado\">Los ribosomas del RER sintetizan las proteínas de membrana, las de secreción y las de los lisosomas, que entran en el retículo, donde se pliegan y comienza su glucosilación.</span>",
     "b) REL: <mark class=\"clave-criterio\">túbulos sin ribosomas</mark>; RER: <mark class=\"clave-criterio\">cisternas con ribosomas adosados</mark> (0,6 p).",
     "c) <mark class=\"clave-criterio\">En ambos tipos de células</mark> (0,2 p).",
-    "d) <mark class=\"clave-criterio\">Continuidad funcional</mark>: lo sintetizado en el retículo se <mark class=\"clave-criterio\">modifica, madura y empaqueta en el Golgi</mark> (0,5 p)."
+    "d) <mark class=\"clave-criterio\">Continuidad funcional</mark>: lo sintetizado en el retículo se <mark class=\"clave-criterio\">modifica, madura y empaqueta en el Golgi</mark> (0,5 p). <span class=\"redactado\">Del retículo salen vesículas de transición que llegan a la cara cis del Golgi; los productos maduran mientras pasan por sus cisternas y salen por la cara trans hacia la membrana, el exterior o los lisosomas. Ambos forman parte del sistema de endomembranas.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Reserva, modelo B",
@@ -32153,11 +32153,11 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "a) Defina glucólisis [0,4]. b) ¿Cómo se denomina el proceso que permite almacenar la energía liberada durante esta ruta? Mencione la molécula en la que se almacena esta energía [0,4]. c) ¿Dónde se lleva a cabo dicha ruta en las células procarióticas y en las eucarióticas? [0,4] d) Indique si los organismos que realizan esta ruta son aerobios o anaerobios [0,4]. e) Especifique, mencionando una característica, si se trata de una ruta anabólica o catabólica [0,4].",
    "c": [
-    "a) Vía en la que la <mark class=\"clave-criterio\">glucosa se degrada de forma incompleta</mark> con <mark class=\"clave-criterio\">producción de ATP</mark> (0,4 p).",
-    "b) <mark class=\"clave-criterio\">Fosforilación a nivel de sustrato</mark> (0,3 p); <mark class=\"clave-criterio\">ATP</mark> (0,1 p).",
-    "c) <mark class=\"clave-criterio\">Citoplasma</mark>, en ambos (0,4 p).",
-    "d) <mark class=\"clave-criterio\">Aerobios y anaerobios</mark> (0,4 p).",
-    "e) <mark class=\"clave-criterio\">Catabólica</mark> (0,1 p): <mark class=\"clave-criterio\">libera energía (ATP)</mark>, <mark class=\"clave-criterio\">genera poder reductor</mark> (0,3 p)."
+    "a) Vía en la que la <mark class=\"clave-criterio\">glucosa se degrada de forma incompleta</mark> con <mark class=\"clave-criterio\">producción de ATP</mark> (0,4 p). <span class=\"redactado\">En diez reacciones una glucosa (6 C) se transforma en dos moléculas de ácido pirúvico (3 C); el balance es 2 ATP y 2 NADH netos.</span>",
+    "b) <mark class=\"clave-criterio\">Fosforilación a nivel de sustrato</mark> (0,3 p); <mark class=\"clave-criterio\">ATP</mark> (0,1 p). <span class=\"redactado\">Una enzima transfiere directamente al ADP un grupo fosfato de un compuesto con un enlace rico en energía.</span>",
+    "c) <mark class=\"clave-criterio\">Citoplasma</mark>, en ambos (0,4 p). <span class=\"redactado\">En eucariotas, en el citosol.</span>",
+    "d) <mark class=\"clave-criterio\">Aerobios y anaerobios</mark> (0,4 p). <span class=\"redactado\">No necesita oxígeno. Después, el pirúvico sigue la respiración (con O₂) o la fermentación (sin O₂); por eso la realizan casi todas las células, y se considera una ruta muy antigua en la evolución.</span>",
+    "e) <mark class=\"clave-criterio\">Catabólica</mark> (0,1 p): <mark class=\"clave-criterio\">libera energía (ATP)</mark>, <mark class=\"clave-criterio\">genera poder reductor</mark> (0,3 p). <span class=\"redactado\">Es oxidativa: degrada una molécula compleja en otras más sencillas y reduce NAD⁺ a NADH.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Reserva, modelo B",
@@ -32181,10 +32181,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "a) Defina replicación [0,4]. b) Cite cuatro enzimas implicadas en este proceso [0,4]. c) ¿Dónde ocurre en células procarióticas? [0,2] d) ¿Qué significa que la replicación sea semiconservativa y bidireccional? [1]",
    "c": [
-    "a) <mark class=\"clave-criterio\">Copia del ADN</mark> con intervención de la <mark class=\"clave-criterio\">ADN polimerasa</mark> (0,4 p).",
-    "b) <mark class=\"clave-criterio\">Helicasa</mark>, <mark class=\"clave-criterio\">topoisomerasa</mark>, <mark class=\"clave-criterio\">ligasa</mark>, <mark class=\"clave-criterio\">ADN polimerasa</mark>, proteínas SSB, <mark class=\"clave-criterio\">primasa (ARN polimerasa)</mark>. Cuatro (0,4 p).",
-    "c) En el <mark class=\"clave-criterio\">citoplasma</mark> (0,2 p).",
-    "d) Semiconservativa: cada ADN tiene <mark class=\"clave-criterio\">una cadena antigua y otra nueva</mark> (0,5 p). Bidireccional: desde el <mark class=\"clave-criterio\">origen de replicación</mark> avanzan <mark class=\"clave-criterio\">dos horquillas en sentidos opuestos</mark> (0,5 p)."
+    "a) <mark class=\"clave-criterio\">Copia del ADN</mark> con intervención de la <mark class=\"clave-criterio\">ADN polimerasa</mark> (0,4 p). <span class=\"redactado\">Se produce en la fase S de la interfase: a partir de una molécula de ADN se obtienen dos idénticas, que se reparten a las células hijas en la división.</span>",
+    "b) <mark class=\"clave-criterio\">Helicasa</mark>, <mark class=\"clave-criterio\">topoisomerasa</mark>, <mark class=\"clave-criterio\">ligasa</mark>, <mark class=\"clave-criterio\">ADN polimerasa</mark>, proteínas SSB, <mark class=\"clave-criterio\">primasa (ARN polimerasa)</mark>. Cuatro (0,4 p). <span class=\"redactado\">La helicasa separa las dos cadenas; la topoisomerasa elimina las tensiones del superenrollamiento; las proteínas SSB mantienen separadas las cadenas; la primasa sintetiza el cebador de ARN; la ADN polimerasa añade nucleótidos en sentido 5'→3' y elimina los cebadores; y la ligasa une los fragmentos de Okazaki.</span>",
+    "c) En el <mark class=\"clave-criterio\">citoplasma</mark> (0,2 p). <span class=\"redactado\">Porque no tienen núcleo: su ADN está en el nucleoide.</span>",
+    "d) Semiconservativa: cada ADN tiene <mark class=\"clave-criterio\">una cadena antigua y otra nueva</mark> (0,5 p). Bidireccional: desde el <mark class=\"clave-criterio\">origen de replicación</mark> avanzan <mark class=\"clave-criterio\">dos horquillas en sentidos opuestos</mark> (0,5 p). <span class=\"redactado\">El carácter semiconservativo lo demostraron Meselson y Stahl. En eucariotas, cada cromosoma tiene muchos orígenes de replicación, lo que acelera la copia.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Reserva, modelo B",
@@ -32208,10 +32208,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Defina los siguientes términos: a) epítopo [0,5]; b) región variable [0,5]; c) opsonización [0,5]; d) aglutinación [0,5].",
    "c": [
-    "a) Epítopo: <mark class=\"clave-criterio\">zona del antígeno a la que se une el anticuerpo</mark> (0,5 p).",
-    "b) Región variable: <mark class=\"clave-criterio\">zona del anticuerpo a la que se une el antígeno</mark> (0,5 p).",
-    "c) Opsonización: el anticuerpo <mark class=\"clave-criterio\">se une al antígeno y facilita su eliminación</mark> por <mark class=\"clave-criterio\">fagocitosis</mark> o <mark class=\"clave-criterio\">complemento</mark> (0,5 p).",
-    "d) Aglutinación: la unión antígeno-anticuerpo <mark class=\"clave-criterio\">forma agregados</mark> que se eliminan por <mark class=\"clave-criterio\">fagocitosis</mark> (0,5 p)."
+    "a) Epítopo: <mark class=\"clave-criterio\">zona del antígeno a la que se une el anticuerpo</mark> (0,5 p). <span class=\"redactado\">Se llama también determinante antigénico; un mismo antígeno puede tener varios epítopos distintos.</span>",
+    "b) Región variable: <mark class=\"clave-criterio\">zona del anticuerpo a la que se une el antígeno</mark> (0,5 p). <span class=\"redactado\">Está en los extremos de las cadenas pesadas y ligeras y forma el sitio de unión al antígeno; cambia de un anticuerpo a otro, y eso explica su especificidad.</span>",
+    "c) Opsonización: el anticuerpo <mark class=\"clave-criterio\">se une al antígeno y facilita su eliminación</mark> por <mark class=\"clave-criterio\">fagocitosis</mark> o <mark class=\"clave-criterio\">complemento</mark> (0,5 p). <span class=\"redactado\">Las opsoninas (anticuerpos o proteínas del complemento) recubren el patógeno, y los fagocitos, que tienen receptores para ellas, lo reconocen y fagocitan con más facilidad.</span>",
+    "d) Aglutinación: la unión antígeno-anticuerpo <mark class=\"clave-criterio\">forma agregados</mark> que se eliminan por <mark class=\"clave-criterio\">fagocitosis</mark> (0,5 p). <span class=\"redactado\">Como cada anticuerpo tiene al menos dos sitios de unión, une varias células o partículas con el antígeno en su superficie (bacterias, glóbulos rojos) y forma grumos. Si el antígeno es soluble, se habla de precipitación.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Reserva, modelo B",
@@ -32235,7 +32235,7 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "El proceso industrial para la producción de leche desnatada implica la eliminación de la mayor parte de los lípidos de la leche entera antes de su envasado. Explique por qué es frecuente enriquecer la leche desnatada con las vitaminas A y D [1].",
    "c": [
-    "Ambas vitaminas son <mark class=\"clave-criterio\">liposolubles</mark> y <mark class=\"clave-criterio\">se eliminan al retirar los lípidos</mark>, por eso se añaden después (1 p)."
+    "Ambas vitaminas son <mark class=\"clave-criterio\">liposolubles</mark> y <mark class=\"clave-criterio\">se eliminan al retirar los lípidos</mark>, por eso se añaden después (1 p). <span class=\"redactado\">Las vitaminas liposolubles son lípidos insaponificables (la A es un terpeno y la D, un esteroide) y se disuelven en la grasa de la leche; al desnatarla, se pierden con ella. La vitamina A interviene en la visión y la D, en la absorción del calcio, por eso se añaden para que la leche mantenga su valor nutritivo.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Reserva, modelo B",
@@ -32284,8 +32284,8 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "En un laboratorio se estudian dos cultivos celulares en recipientes cerrados. En el cultivo número 1 hay algas unicelulares y en el número 2 células eucarióticas animales. Se observa que en la muestra 1 la concentración de oxígeno en el medio sufre oscilaciones cuando se somete a un ciclo diario de luz-oscuridad. a) ¿A qué se debe esta variación en la concentración de oxígeno en la muestra número 1? [0,5] b) ¿Ocurrirá la misma oscilación en la concentración de oxígeno en la muestra número 2? [0,5] Razone las respuestas.",
    "c": [
-    "a) Con luz las algas realizan la <mark class=\"clave-criterio\">fase luminosa</mark> y <mark class=\"clave-criterio\">producen oxígeno</mark>; en oscuridad solo hacen <mark class=\"clave-criterio\">respiración</mark> y lo <mark class=\"clave-criterio\">consumen</mark> (0,5 p).",
-    "b) <mark class=\"clave-criterio\">No</mark>: las células animales <mark class=\"clave-criterio\">no tienen cloroplastos</mark>; solo respiran y el <mark class=\"clave-criterio\">oxígeno disminuye con el tiempo</mark> (0,5 p)."
+    "a) Con luz las algas realizan la <mark class=\"clave-criterio\">fase luminosa</mark> y <mark class=\"clave-criterio\">producen oxígeno</mark>; en oscuridad solo hacen <mark class=\"clave-criterio\">respiración</mark> y lo <mark class=\"clave-criterio\">consumen</mark> (0,5 p). <span class=\"redactado\">Con luz, la fotólisis del agua libera más O₂ del que consume la respiración, y la concentración sube; en la oscuridad la fotosíntesis se detiene, la respiración continúa y la concentración baja. Las algas respiran siempre, con luz y sin ella.</span>",
+    "b) <mark class=\"clave-criterio\">No</mark>: las células animales <mark class=\"clave-criterio\">no tienen cloroplastos</mark>; solo respiran y el <mark class=\"clave-criterio\">oxígeno disminuye con el tiempo</mark> (0,5 p). <span class=\"redactado\">En un recipiente cerrado, el O₂ disminuye sin cesar, sea de día o de noche.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Reserva, modelo B",
@@ -32309,8 +32309,8 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Para que una cadena polipeptídica quede formada por 40 aminoácidos y liberada en el citoplasma, a) ¿cuántos nucleótidos se necesitan como mínimo en la cadena de ARNm para codificarla? [0,5] b) ¿y cuántos ARNt? [0,5] Razone las respuestas.",
    "c": [
-    "a) <mark class=\"clave-criterio\">123 nucleótidos</mark>: 40 × 3 = 120 <mark class=\"clave-criterio\">+ 3 del codón de terminación</mark> (0,5 p).",
-    "b) <mark class=\"clave-criterio\">40 ARNt</mark>, uno por cada aminoácido (0,5 p)."
+    "a) <mark class=\"clave-criterio\">123 nucleótidos</mark>: 40 × 3 = 120 <mark class=\"clave-criterio\">+ 3 del codón de terminación</mark> (0,5 p). <span class=\"redactado\">Cada aminoácido está codificado por un codón de tres nucleótidos; el primero, el codón de inicio AUG, codifica la metionina, y el codón de terminación no codifica ningún aminoácido pero es necesario para que la cadena se libere.</span>",
+    "b) <mark class=\"clave-criterio\">40 ARNt</mark>, uno por cada aminoácido (0,5 p). <span class=\"redactado\">Cada ARNt transporta un aminoácido y reconoce el codón con su anticodón; ninguno reconoce el codón de terminación, que lo reconocen factores de liberación. Un mismo ARNt podría usarse varias veces, pero cada aminoácido incorporado requiere un ARNt cargado.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Reserva, modelo B",
@@ -32334,8 +32334,8 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "En un estudio médico se detectó un grupo de pacientes en los que un tipo de células del sistema inmunitario no era capaz de llevar a cabo sus funciones. Además, se observó que en estos pacientes la tasa de desarrollo de diferentes cánceres era mucho más alta que en el resto de la población. a) Indique de qué tipo de células puede tratarse y razone a qué puede deberse este aumento en la frecuencia de padecer cáncer [0,6]. b) ¿Cree que estos pacientes serán también más propensos a desarrollar enfermedades causadas por virus? [0,4] Razone la respuesta.",
    "c": [
-    "a) <mark class=\"clave-criterio\">Linfocitos T</mark>, encargados de <mark class=\"clave-criterio\">eliminar células cancerosas</mark> (<mark class=\"clave-criterio\">respuesta celular</mark>); también se aceptan los <mark class=\"clave-criterio\">macrófagos</mark>, necesarios para activarlos (0,6 p).",
-    "b) <mark class=\"clave-criterio\">Sí</mark>: la respuesta celular también <mark class=\"clave-criterio\">elimina las células infectadas por virus</mark> (0,4 p)."
+    "a) <mark class=\"clave-criterio\">Linfocitos T</mark>, encargados de <mark class=\"clave-criterio\">eliminar células cancerosas</mark> (<mark class=\"clave-criterio\">respuesta celular</mark>); también se aceptan los <mark class=\"clave-criterio\">macrófagos</mark>, necesarios para activarlos (0,6 p). <span class=\"redactado\">Los linfocitos T citotóxicos reconocen las células tumorales por los antígenos anómalos que presentan y las destruyen; si fallan, las células cancerosas escapan a esta vigilancia inmunitaria.</span>",
+    "b) <mark class=\"clave-criterio\">Sí</mark>: la respuesta celular también <mark class=\"clave-criterio\">elimina las células infectadas por virus</mark> (0,4 p). <span class=\"redactado\">Los virus se multiplican dentro de las células, donde los anticuerpos no llegan; los linfocitos T citotóxicos destruyen las células infectadas, que presentan antígenos víricos unidos al MHC de clase I.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Reserva, modelo B",
@@ -32363,7 +32363,7 @@ window.BIOCELIA_HISTORICO = {
     "b) 1: <mark class=\"clave-criterio\">proteína</mark>; 2: <mark class=\"clave-criterio\">glúcido (oligosacárido)</mark> (0,2 p).",
     "c) A: <mark class=\"clave-criterio\">aminoácidos</mark>; B: <mark class=\"clave-criterio\">monosacáridos</mark> (0,2 p).",
     "d) <mark class=\"clave-criterio\">Enlace O-glucosídico</mark> (0,2 p).",
-    "e) <mark class=\"clave-criterio\">Terciaria (globular)</mark> (0,2 p)."
+    "e) <mark class=\"clave-criterio\">Terciaria (globular)</mark> (0,2 p). <span class=\"redactado\">La glucoproteína forma parte, por ejemplo, del glucocáliz de la membrana, que interviene en el reconocimiento celular.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Reserva, modelo B",
@@ -32392,7 +32392,7 @@ window.BIOCELIA_HISTORICO = {
    "c": [
     "a) <mark class=\"clave-criterio\">Célula vegetal</mark> (0,1 p).",
     "b) 1: <mark class=\"clave-criterio\">núcleo</mark>; 2: <mark class=\"clave-criterio\">mitocondria</mark>; 3: <mark class=\"clave-criterio\">vacuola</mark>; 4: <mark class=\"clave-criterio\">complejo de Golgi</mark>; 5: <mark class=\"clave-criterio\">pared celular</mark>; 6: <mark class=\"clave-criterio\">cloroplasto</mark>; 7: <mark class=\"clave-criterio\">retículo endoplasmático rugoso</mark> (0,7 p).",
-    "c) <mark class=\"clave-criterio\">Cloroplasto</mark>, <mark class=\"clave-criterio\">pared celular</mark>, <mark class=\"clave-criterio\">vacuola grande</mark>. Dos (0,2 p)."
+    "c) <mark class=\"clave-criterio\">Cloroplasto</mark>, <mark class=\"clave-criterio\">pared celular</mark>, <mark class=\"clave-criterio\">vacuola grande</mark>. Dos (0,2 p). <span class=\"redactado\">La célula vegetal tiene además plastos y plasmodesmos y no tiene centriolos.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Reserva, modelo B",
@@ -32420,9 +32420,9 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>En relación con la figura adjunta, conteste a las siguientes cuestiones:</b><br>a) ¿Qué ruta metabólica aparece representada? [0,3]<br>b) ¿En qué parte de la célula tiene lugar? [0,2]<br>c) ¿Se trata de un proceso anabólico o catabólico? [0,1]<br>d) ¿Cómo se denomina el compuesto representado con el número 1? [0,2]<br>e) ¿Qué nombre recibe el conjunto de reacciones metabólicas a las que se incorpora el compuesto 1? [0,2]",
    "c": [
     "a) <mark class=\"clave-criterio\">β-oxidación de los ácidos grasos</mark> (0,3 p).",
-    "b) <mark class=\"clave-criterio\">Mitocondrias</mark> (también peroxisomas) (0,2 p).",
+    "b) <mark class=\"clave-criterio\">Mitocondrias</mark> (también peroxisomas) (0,2 p). <span class=\"redactado\">En la matriz mitocondrial; los ácidos grasos de cadena muy larga empiezan a degradarse en los peroxisomas.</span>",
     "c) <mark class=\"clave-criterio\">Catabólico</mark> (0,1 p).",
-    "d) <mark class=\"clave-criterio\">Acetil-CoA</mark> (0,2 p). e) <mark class=\"clave-criterio\">Ciclo de Krebs</mark> (0,2 p)."
+    "d) <mark class=\"clave-criterio\">Acetil-CoA</mark> (0,2 p). e) <mark class=\"clave-criterio\">Ciclo de Krebs</mark> (0,2 p). <span class=\"redactado\">En cada vuelta se separan dos carbonos en forma de acetil-CoA y se forman un FADH₂ y un NADH, que van a la cadena respiratoria.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Reserva, modelo B",
@@ -32450,8 +32450,8 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>En relación con la figura adjunta, que representa el primer ciclo de una PCR, conteste a las siguientes cuestiones:</b><br>a) ¿Qué representan los números 1, 2 y 3? [0,3]<br>b) ¿Qué procesos ocurren en A, B y C? [0,6]<br>c) ¿Cómo se denomina la enzima que realiza el proceso C? [0,1]",
    "c": [
     "a) 1: <mark class=\"clave-criterio\">ADN</mark>; 2: <mark class=\"clave-criterio\">cebador</mark>; 3: <mark class=\"clave-criterio\">nucleótidos</mark> (0,3 p).",
-    "b) A: <mark class=\"clave-criterio\">desnaturalización</mark>; B: <mark class=\"clave-criterio\">hibridación de los cebadores</mark>; C: <mark class=\"clave-criterio\">elongación</mark> (extensión) (0,6 p).",
-    "c) <mark class=\"clave-criterio\">ADN polimerasa</mark> (<mark class=\"clave-criterio\">Taq polimerasa</mark>) (0,1 p)."
+    "b) A: <mark class=\"clave-criterio\">desnaturalización</mark>; B: <mark class=\"clave-criterio\">hibridación de los cebadores</mark>; C: <mark class=\"clave-criterio\">elongación</mark> (extensión) (0,6 p). <span class=\"redactado\">En la desnaturalización, a unos 95 °C, se separan las dos cadenas; al bajar la temperatura, los cebadores se unen por complementariedad a los extremos del fragmento; después, la polimerasa alarga los cebadores. Cada ciclo duplica el número de copias.</span>",
+    "c) <mark class=\"clave-criterio\">ADN polimerasa</mark> (<mark class=\"clave-criterio\">Taq polimerasa</mark>) (0,1 p). <span class=\"redactado\">Procede de la bacteria termófila Thermus aquaticus y resiste las altas temperaturas de la desnaturalización.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Reserva, modelo B",
@@ -32478,9 +32478,9 @@ window.BIOCELIA_HISTORICO = {
    "competencial": true,
    "q": "<b>Observe la siguiente imagen en relación con el funcionamiento del sistema inmunitario y responda a las siguientes cuestiones:</b><br>a) ¿Cómo se llama el proceso señalado con la letra A? [0,2]<br>b) ¿Y la célula señalada con el número 1? [0,2]<br>c) ¿Qué moléculas están señaladas con el número 2? [0,2]<br>d) ¿Qué nombre recibe la célula indicada con el número 3? [0,2]<br>e) ¿Qué capacidad del sistema inmunitario se adquiere con las células del tipo 3? [0,2]",
    "c": [
-    "a) <mark class=\"clave-criterio\">Presentación de antígenos del linfocito T al B</mark> (activación del linfocito B) (0,2 p).",
+    "a) <mark class=\"clave-criterio\">Presentación de antígenos del linfocito T al B</mark> (activación del linfocito B) (0,2 p). <span class=\"redactado\">En rigor, es el linfocito B el que presenta el antígeno, unido al MHC de clase II, al linfocito T colaborador; este lo activa mediante citocinas y el B prolifera y se diferencia en células plasmáticas y de memoria.</span>",
     "b) <mark class=\"clave-criterio\">Célula plasmática</mark> (0,2 p). c) <mark class=\"clave-criterio\">Anticuerpos</mark> (0,2 p).",
-    "d) <mark class=\"clave-criterio\">Linfocito B de memoria</mark> (0,2 p). e) <mark class=\"clave-criterio\">Memoria inmunológica</mark> (0,2 p)."
+    "d) <mark class=\"clave-criterio\">Linfocito B de memoria</mark> (0,2 p). e) <mark class=\"clave-criterio\">Memoria inmunológica</mark> (0,2 p). <span class=\"redactado\">Ante un nuevo contacto con el mismo antígeno, las células de memoria producen una respuesta secundaria más rápida, más intensa y más duradera: es la base de la vacunación.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Reserva, modelo B",
@@ -63754,8 +63754,8 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "a) Indique el significado biológico de la meiosis [0,8]. b) Explique cómo los procesos de recombinación genética [0,6] y segregación cromosómica [0,6] influyen en la variabilidad genética.",
    "c": [
-    "a) <mark class=\"clave-criterio\">Reducción cromosómica</mark> ligada a la <mark class=\"clave-criterio\">reproducción sexual</mark> y <mark class=\"clave-criterio\">fuente de variabilidad</mark> para la <mark class=\"clave-criterio\">evolución</mark>. 0,4 p cada una (0,8 p).",
-    "b) Recombinación: <mark class=\"clave-criterio\">intercambio de segmentos entre cromosomas homólogos</mark> (0,6 p). Segregación: <mark class=\"clave-criterio\">reparto al azar de los cromosomas maternos y paternos</mark> (0,6 p)."
+    "a) <mark class=\"clave-criterio\">Reducción cromosómica</mark> ligada a la <mark class=\"clave-criterio\">reproducción sexual</mark> y <mark class=\"clave-criterio\">fuente de variabilidad</mark> para la <mark class=\"clave-criterio\">evolución</mark>. 0,4 p cada una (0,8 p). <span class=\"redactado\">Al reducir a la mitad el número de cromosomas (de 2n a n), forma gametos o esporas haploides, y la fecundación restablece la diploidía. Además, cada gameto lleva una combinación distinta de alelos, materia prima de la selección natural.</span>",
+    "b) Recombinación: <mark class=\"clave-criterio\">intercambio de segmentos entre cromosomas homólogos</mark> (0,6 p). Segregación: <mark class=\"clave-criterio\">reparto al azar de los cromosomas maternos y paternos</mark> (0,6 p). <span class=\"redactado\">La recombinación (sobrecruzamiento) ocurre en la profase I, en los quiasmas, y produce cromátidas con combinaciones nuevas de alelos. La segregación al azar ocurre en la anafase I: cada par de homólogos se reparte de forma independiente, lo que en la especie humana permite 2²³ combinaciones distintas de cromosomas.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Titular, modelo B",
@@ -63778,10 +63778,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Defina los siguientes términos: a) metabolismo [0,4]; b) anabolismo [0,4]; c) catabolismo [0,4]. d) Explique una diferencia entre las células fotoautótrofas y las quimioautótrofas [0,8].",
    "c": [
-    "a) <mark class=\"clave-criterio\">Conjunto de reacciones bioquímicas de la célula</mark> (0,4 p).",
-    "b) Anabolismo: <mark class=\"clave-criterio\">síntesis de moléculas complejas a partir de sencillas con gasto de energía (ATP)</mark> (0,4 p).",
-    "c) Catabolismo: <mark class=\"clave-criterio\">degradación de moléculas orgánicas para obtener energía (ATP)</mark> (0,4 p).",
-    "d) Fotoautótrofas: usan la <mark class=\"clave-criterio\">energía luminosa</mark> para sintetizar ATP; quimioautótrofas: la <mark class=\"clave-criterio\">energía química de las moléculas que oxidan</mark> (0,8 p)."
+    "a) <mark class=\"clave-criterio\">Conjunto de reacciones bioquímicas de la célula</mark> (0,4 p). <span class=\"redactado\">Incluye el catabolismo y el anabolismo; sus reacciones están catalizadas por enzimas y organizadas en rutas metabólicas.</span>",
+    "b) Anabolismo: <mark class=\"clave-criterio\">síntesis de moléculas complejas a partir de sencillas con gasto de energía (ATP)</mark> (0,4 p). <span class=\"redactado\">Es un proceso reductor, que suele consumir poder reductor (NADH, NADPH).</span>",
+    "c) Catabolismo: <mark class=\"clave-criterio\">degradación de moléculas orgánicas para obtener energía (ATP)</mark> (0,4 p). <span class=\"redactado\">Es un proceso oxidativo: libera energía, que se almacena en forma de ATP, y electrones, que recogen coenzimas como NAD⁺ y FAD.</span>",
+    "d) Fotoautótrofas: usan la <mark class=\"clave-criterio\">energía luminosa</mark> para sintetizar ATP; quimioautótrofas: la <mark class=\"clave-criterio\">energía química de las moléculas que oxidan</mark> (0,8 p). <span class=\"redactado\">Ambas son autótrofas, porque fabrican su materia orgánica a partir de CO₂. Las fotoautótrofas (plantas, algas, cianobacterias) hacen la fotosíntesis; las quimioautótrofas (bacterias nitrificantes, del azufre, del hierro) hacen la quimiosíntesis, oxidando compuestos inorgánicos.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Titular, modelo B",
@@ -63830,10 +63830,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "a) Indique la causa por la que se produce el rechazo de un órgano trasplantado [0,5]. b) Explique dos casos de trasplantes de órganos que no generen problemas de rechazo [0,5]. c) ¿Qué células del sistema inmunitario intervienen en el rechazo? [0,4] d) ¿Qué tipo de tratamiento se emplea para evitar el rechazo y cómo actúa? [0,6]",
    "c": [
-    "a) <mark class=\"clave-criterio\">Incompatibilidad entre las proteínas del CMH (MHC)</mark> del donante y del receptor (0,5 p).",
-    "b) <mark class=\"clave-criterio\">Autotrasplante</mark> e <mark class=\"clave-criterio\">isotrasplante (gemelos)</mark>: procedencia <mark class=\"clave-criterio\">genéticamente idéntica</mark> (0,5 p).",
-    "c) <mark class=\"clave-criterio\">Linfocitos T</mark> (0,4 p).",
-    "d) <mark class=\"clave-criterio\">Inmunosupresores</mark> (0,3 p), que <mark class=\"clave-criterio\">disminuyen temporalmente la respuesta inmune</mark> (0,3 p)."
+    "a) <mark class=\"clave-criterio\">Incompatibilidad entre las proteínas del CMH (MHC)</mark> del donante y del receptor (0,5 p). <span class=\"redactado\">El sistema inmunitario del receptor reconoce como extrañas las moléculas del MHC (en humanos, HLA) de las células del órgano donado y las ataca.</span>",
+    "b) <mark class=\"clave-criterio\">Autotrasplante</mark> e <mark class=\"clave-criterio\">isotrasplante (gemelos)</mark>: procedencia <mark class=\"clave-criterio\">genéticamente idéntica</mark> (0,5 p). <span class=\"redactado\">En el autotrasplante (por ejemplo, piel del propio paciente) y entre gemelos univitelinos, las moléculas del MHC son idénticas y no se reconocen como extrañas.</span>",
+    "c) <mark class=\"clave-criterio\">Linfocitos T</mark> (0,4 p). <span class=\"redactado\">Sobre todo los linfocitos T citotóxicos, que destruyen las células del órgano; los T colaboradores dirigen la respuesta, y también intervienen anticuerpos.</span>",
+    "d) <mark class=\"clave-criterio\">Inmunosupresores</mark> (0,3 p), que <mark class=\"clave-criterio\">disminuyen temporalmente la respuesta inmune</mark> (0,3 p). <span class=\"redactado\">Hay que mantenerlos mientras viva el órgano trasplantado, y como debilitan las defensas el paciente queda más expuesto a las infecciones.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Titular, modelo B",
@@ -63886,10 +63886,10 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>I.</b> Los eritrocitos o glóbulos rojos son células eucarióticas que, en humanos, carecen de núcleo y de la mayoría de los orgánulos celulares, como las mitocondrias. a) ¿Cómo obtienen la energía dichas células? [0,4] b) ¿Cómo afectarán los niveles de oxígeno a dicho metabolismo? [0,3] c) El rendimiento energético obtenido de la glucosa ¿será mayor o menor que en el resto de las células del organismo? [0,3] Razone las respuestas. <i>(1 punto)</i><br><br><b>II.</b> En la década de los 70 del siglo XX se consiguió expresar el gen humano de la insulina en la bacteria <i>Escherichia coli</i>. A continuación, se muestran de forma desordenada los pasos a seguir para obtener insulina recombinante. Indique cuál es el orden correcto [1]:<br>A. Cultivo de las bacterias recombinantes y extracción de la insulina humana sintetizada.<br>B. Inserción del ADN recombinante en la bacteria.<br>C. Corte del gen de la insulina y el plásmido usando enzimas de restricción.<br>D. Selección y aislamiento del gen que codifica la insulina humana.<br>E. Introducción del gen de la insulina en el plásmido formando un ADN recombinante. <i>(1 punto)</i>",
    "puntos": 2,
    "c": [
-    "<b>I.</b> a) Por <mark class=\"clave-criterio\">fermentación (láctica)</mark>, porque <mark class=\"clave-criterio\">sin mitocondrias no hay respiración celular</mark> (0,4 p).",
-    "<b>I.</b> b) <mark class=\"clave-criterio\">No afectan</mark>: la fermentación <mark class=\"clave-criterio\">no requiere oxígeno</mark> (0,3 p).",
-    "<b>I.</b> c) <mark class=\"clave-criterio\">Menor</mark>: solo <mark class=\"clave-criterio\">2 ATP</mark> de la glucólisis (0,3 p).",
-    "<b>II.</b> Orden: <mark class=\"clave-criterio\">D, C, E, B, A</mark>. 0,2 p por cada posición correcta (1 p)."
+    "<b>I.</b> a) Por <mark class=\"clave-criterio\">fermentación (láctica)</mark>, porque <mark class=\"clave-criterio\">sin mitocondrias no hay respiración celular</mark> (0,4 p). <span class=\"redactado\">Degradan la glucosa en el citosol mediante la glucólisis, y el NADH se reoxida al reducir el pirúvico a lactato, lo que permite que la glucólisis continúe.</span>",
+    "<b>I.</b> b) <mark class=\"clave-criterio\">No afectan</mark>: la fermentación <mark class=\"clave-criterio\">no requiere oxígeno</mark> (0,3 p). <span class=\"redactado\">Sin mitocondrias no pueden usar el O₂ como aceptor final de electrones, así que su metabolismo energético es el mismo con oxígeno que sin él.</span>",
+    "<b>I.</b> c) <mark class=\"clave-criterio\">Menor</mark>: solo <mark class=\"clave-criterio\">2 ATP</mark> de la glucólisis (0,3 p). <span class=\"redactado\">La respiración aerobia, en las células con mitocondrias, oxida la glucosa por completo hasta CO₂ y H₂O y obtiene unos 36-38 ATP; la fermentación es una oxidación incompleta.</span>",
+    "<b>II.</b> Orden: <mark class=\"clave-criterio\">D, C, E, B, A</mark>. 0,2 p por cada posición correcta (1 p). <span class=\"redactado\">Primero se aísla el gen (D); después el gen y el plásmido se cortan con la misma enzima de restricción, para que tengan extremos complementarios (C); la ADN ligasa los une y forma el ADN recombinante (E), que se introduce en la bacteria (B); al cultivarla, la bacteria se multiplica y fabrica la insulina, que se extrae y purifica (A).</span>"
    ],
    "isNew": false,
    "competencial": false,
@@ -63917,8 +63917,8 @@ window.BIOCELIA_HISTORICO = {
    "puntos": 2,
    "c": [
     "<b>I.</b> a) Fructosa: <mark class=\"clave-criterio\">6</mark>; glucosa: <mark class=\"clave-criterio\">2</mark>; triosa: <mark class=\"clave-criterio\">1</mark>; desoxirribosa: <mark class=\"clave-criterio\">4</mark> (0,4 p).",
-    "<b>I.</b> b) Disacárido: <mark class=\"clave-criterio\">2 y 6</mark>; desoxirribonucleótido: <mark class=\"clave-criterio\">4</mark> (0,3 p).",
-    "<b>I.</b> c) <mark class=\"clave-criterio\">2 (glucosa)</mark> (0,1 p); <mark class=\"clave-criterio\">glucógeno</mark> (0,2 p).",
+    "<b>I.</b> b) Disacárido: <mark class=\"clave-criterio\">2 y 6</mark>; desoxirribonucleótido: <mark class=\"clave-criterio\">4</mark> (0,3 p). <span class=\"redactado\">La glucosa y la fructosa forman la sacarosa por enlace O-glucosídico. La desoxirribosa es la pentosa de los desoxirribonucleótidos, los nucleótidos del ADN.</span>",
+    "<b>I.</b> c) <mark class=\"clave-criterio\">2 (glucosa)</mark> (0,1 p); <mark class=\"clave-criterio\">glucógeno</mark> (0,2 p). <span class=\"redactado\">El glucógeno es un polímero de α-glucosa ramificado que se almacena sobre todo en el hígado y en los músculos.</span>",
     "<b>II.</b> a) <mark class=\"clave-criterio\">Bacteria</mark>; <mark class=\"clave-criterio\">procariota</mark> (0,2 p).",
     "<b>II.</b> b) 1: <mark class=\"clave-criterio\">membrana plasmática</mark>; 2: <mark class=\"clave-criterio\">cápsula</mark>; 3: <mark class=\"clave-criterio\">ribosomas</mark>; 4: <mark class=\"clave-criterio\">plásmido</mark>; 5: <mark class=\"clave-criterio\">nucleoide</mark> (cromosoma bacteriano) (0,5 p).",
     "<b>II.</b> c) 2: <mark class=\"clave-criterio\">protección frente a la fagocitosis y la desecación</mark>, fijación; 3: <mark class=\"clave-criterio\">síntesis de proteínas</mark>; 4: <mark class=\"clave-criterio\">características ventajosas</mark> (0,3 p)."
@@ -63953,7 +63953,7 @@ window.BIOCELIA_HISTORICO = {
    "c": [
     "<b>I.</b> a) <mark class=\"clave-criterio\">Fase luminosa</mark> (fotoquímica, dependiente de la luz) (0,2 p).",
     "<b>I.</b> b) 1: <mark class=\"clave-criterio\">energía luminosa (fotón)</mark>; 2: <mark class=\"clave-criterio\">fotosistemas</mark>; 3: <mark class=\"clave-criterio\">cadena transportadora de electrones</mark>; 4: <mark class=\"clave-criterio\">NADPH</mark> (0,4 p).",
-    "<b>I.</b> c) <mark class=\"clave-criterio\">Oxígeno</mark> (0,2 p). d) En <mark class=\"clave-criterio\">energía química</mark> (0,2 p).",
+    "<b>I.</b> c) <mark class=\"clave-criterio\">Oxígeno</mark> (0,2 p). d) En <mark class=\"clave-criterio\">energía química</mark> (0,2 p). <span class=\"redactado\">El O₂ procede de la fotólisis del agua, que repone los electrones que cede la clorofila del fotosistema II; la energía luminosa se transforma en energía química, en forma de ATP y NADPH, que se usará en el ciclo de Calvin.</span>",
     "<b>II.</b> a) 1: <mark class=\"clave-criterio\">ARNm</mark>; 2: <mark class=\"clave-criterio\">ARNt</mark>; 3: <mark class=\"clave-criterio\">ARNr</mark> (0,3 p).",
     "<b>II.</b> b) ARNm: <mark class=\"clave-criterio\">lleva la información genética del núcleo a los ribosomas</mark>; ARNt: <mark class=\"clave-criterio\">transporta los aminoácidos</mark> y reconoce los codones; ARNr: <mark class=\"clave-criterio\">forma los ribosomas</mark> (0,6 p).",
     "<b>II.</b> c) <mark class=\"clave-criterio\">ARN nucleolar</mark>, <mark class=\"clave-criterio\">ARN interferente</mark>. Uno (0,1 p)."
@@ -63987,10 +63987,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "a) Defina enzima [0,4]. b) ¿Qué es el centro activo y qué relación existe entre el mismo y la especificidad enzimática? [0,5] c) ¿Qué son los inhibidores enzimáticos? [0,3] d) ¿En qué se diferencian la inhibición irreversible de la reversible y cuál es la causa de la diferencia? [0,8]",
    "c": [
-    "a) <mark class=\"clave-criterio\">Proteína con función catalítica</mark> que <mark class=\"clave-criterio\">acelera las reacciones metabólicas</mark> (0,4 p).",
-    "b) Centro activo: <mark class=\"clave-criterio\">región formada por los aminoácidos que se unen al sustrato</mark>; determina la <mark class=\"clave-criterio\">especificidad</mark> porque tiene una <mark class=\"clave-criterio\">configuración complementaria a la del sustrato</mark> (0,5 p).",
-    "c) <mark class=\"clave-criterio\">Moléculas que disminuyen o anulan la actividad enzimática</mark> (0,3 p).",
-    "d) Irreversible: el inhibidor se une por <mark class=\"clave-criterio\">enlace covalente</mark> y <mark class=\"clave-criterio\">la inutiliza para siempre</mark>. Reversible: se une por <mark class=\"clave-criterio\">enlaces débiles</mark> y la enzima <mark class=\"clave-criterio\">recupera la actividad</mark> al separarse (0,8 p)."
+    "a) <mark class=\"clave-criterio\">Proteína con función catalítica</mark> que <mark class=\"clave-criterio\">acelera las reacciones metabólicas</mark> (0,4 p). <span class=\"redactado\">Son biocatalizadores: disminuyen la energía de activación, no se consumen en la reacción y son muy específicos.</span>",
+    "b) Centro activo: <mark class=\"clave-criterio\">región formada por los aminoácidos que se unen al sustrato</mark>; determina la <mark class=\"clave-criterio\">especificidad</mark> porque tiene una <mark class=\"clave-criterio\">configuración complementaria a la del sustrato</mark> (0,5 p). <span class=\"redactado\">Al unirse el sustrato se forma el complejo enzima-sustrato; según el modelo del ajuste inducido, el centro activo cambia ligeramente de forma para encajar con él.</span>",
+    "c) <mark class=\"clave-criterio\">Moléculas que disminuyen o anulan la actividad enzimática</mark> (0,3 p). <span class=\"redactado\">Pueden ser sustancias tóxicas, fármacos o los propios productos de una ruta metabólica, que regulan así su actividad.</span>",
+    "d) Irreversible: el inhibidor se une por <mark class=\"clave-criterio\">enlace covalente</mark> y <mark class=\"clave-criterio\">la inutiliza para siempre</mark>. Reversible: se une por <mark class=\"clave-criterio\">enlaces débiles</mark> y la enzima <mark class=\"clave-criterio\">recupera la actividad</mark> al separarse (0,8 p). <span class=\"redactado\">Dentro de la inhibición reversible, el inhibidor competitivo se parece al sustrato y compite por el centro activo, y su efecto se contrarresta añadiendo más sustrato; el no competitivo se une a otra zona de la enzima y cambia su forma.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Suplente, modelo A",
@@ -64013,10 +64013,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Defina los términos: a) endocitosis [0,5]; b) exocitosis [0,5]; c) pinocitosis [0,5]; d) fagocitosis [0,5].",
    "c": [
-    "a) Endocitosis: <mark class=\"clave-criterio\">entrada de fluidos y partículas en vesículas endocíticas</mark> (0,5 p).",
-    "b) Exocitosis: <mark class=\"clave-criterio\">salida de moléculas en vesículas que se unen a la membrana plasmática</mark> (0,5 p).",
-    "c) Pinocitosis: <mark class=\"clave-criterio\">entrada de fluidos y moléculas en vesículas pinocíticas</mark> (0,5 p).",
-    "d) Fagocitosis: <mark class=\"clave-criterio\">entrada de grandes partículas formando fagosomas</mark> (0,5 p)."
+    "a) Endocitosis: <mark class=\"clave-criterio\">entrada de fluidos y partículas en vesículas endocíticas</mark> (0,5 p). <span class=\"redactado\">La membrana plasmática se invagina y rodea el material, y la vesícula se separa hacia el interior de la célula.</span>",
+    "b) Exocitosis: <mark class=\"clave-criterio\">salida de moléculas en vesículas que se unen a la membrana plasmática</mark> (0,5 p). <span class=\"redactado\">La membrana de la vesícula se fusiona con la membrana plasmática y su contenido se vierte al exterior; así se secretan, por ejemplo, hormonas y enzimas digestivas, y además se renueva la membrana.</span>",
+    "c) Pinocitosis: <mark class=\"clave-criterio\">entrada de fluidos y moléculas en vesículas pinocíticas</mark> (0,5 p). <span class=\"redactado\">Es un tipo de endocitosis con vesículas pequeñas («la célula bebe»).</span>",
+    "d) Fagocitosis: <mark class=\"clave-criterio\">entrada de grandes partículas formando fagosomas</mark> (0,5 p). <span class=\"redactado\">Es otro tipo de endocitosis, propio de células como los macrófagos y los neutrófilos o de los protozoos; el fagosoma se fusiona después con lisosomas, que digieren su contenido.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Suplente, modelo A",
@@ -64039,9 +64039,9 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "a) Defina β-oxidación [0,3] e b) indique cuáles son los sustratos y los productos finales de este proceso [0,4]. c) ¿A qué procesos metabólicos se incorporan las moléculas resultantes de este proceso para obtener los productos finales CO₂, H₂O y ATP? [0,4] y d) ¿qué productos se generan en cada uno de estos procesos metabólicos? [0,5] e) Cite dos orgánulos y la región de estos en los que pueden tener lugar [0,4].",
    "c": [
-    "a) <mark class=\"clave-criterio\">Proceso catabólico cíclico</mark> en el que los ácidos grasos <mark class=\"clave-criterio\">liberan dos carbonos en forma de acetil-CoA por vuelta</mark> (0,3 p).",
+    "a) <mark class=\"clave-criterio\">Proceso catabólico cíclico</mark> en el que los ácidos grasos <mark class=\"clave-criterio\">liberan dos carbonos en forma de acetil-CoA por vuelta</mark> (0,3 p). <span class=\"redactado\">Antes de entrar en la mitocondria el ácido graso se activa uniéndose a la coenzima A (acil-CoA). En cada vuelta se acorta en dos carbonos, hasta que toda la cadena queda convertida en moléculas de acetil-CoA.</span>",
     "b) Sustrato: <mark class=\"clave-criterio\">acil-CoA</mark> (ácidos grasos) (0,1 p); productos: <mark class=\"clave-criterio\">acetil-CoA, FADH₂ y NADH</mark> (0,3 p).",
-    "c) Acetil-CoA: <mark class=\"clave-criterio\">ciclo de Krebs</mark>; FADH₂ y NADH: <mark class=\"clave-criterio\">cadena de transporte de electrones</mark> (0,4 p).",
+    "c) Acetil-CoA: <mark class=\"clave-criterio\">ciclo de Krebs</mark>; FADH₂ y NADH: <mark class=\"clave-criterio\">cadena de transporte de electrones</mark> (0,4 p). <span class=\"redactado\">En la cadena respiratoria los electrones del NADH y el FADH₂ pasan hasta el O₂, que se reduce a H₂O, y la energía liberada se usa para bombear protones; la ATP sintasa aprovecha ese gradiente para sintetizar ATP (fosforilación oxidativa).</span>",
     "d) Krebs: <mark class=\"clave-criterio\">CO₂, GTP, FADH₂ y NADH</mark> (0,4 p); cadena: <mark class=\"clave-criterio\">ATP y H₂O</mark> (0,1 p).",
     "e) <mark class=\"clave-criterio\">Mitocondria, matriz</mark>; <mark class=\"clave-criterio\">peroxisoma, interior</mark> (0,4 p)."
    ],
@@ -64066,11 +64066,11 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Defina: a) gen [0,4]; b) nucleosoma [0,4]; c) cromátida [0,4]; d) cromosoma metacéntrico [0,4]; e) organismo diploide [0,4].",
    "c": [
-    "a) Gen: <mark class=\"clave-criterio\">secuencia de ADN que determina una característica</mark> y puede tener <mark class=\"clave-criterio\">alelos</mark> (0,4 p).",
-    "b) Nucleosoma: <mark class=\"clave-criterio\">complejo de ADN e histonas</mark>, <mark class=\"clave-criterio\">primer grado de empaquetamiento</mark> del ADN (0,4 p).",
-    "c) Cromátida: <mark class=\"clave-criterio\">cada una de las dos partes idénticas unidas por el centrómero</mark> de un cromosoma metafásico (0,4 p).",
-    "d) Metacéntrico: el <mark class=\"clave-criterio\">centrómero divide las cromátidas en dos brazos iguales</mark> (0,4 p).",
-    "e) Diploide: individuo con <mark class=\"clave-criterio\">dos juegos de cada cromosoma</mark> (0,4 p)."
+    "a) Gen: <mark class=\"clave-criterio\">secuencia de ADN que determina una característica</mark> y puede tener <mark class=\"clave-criterio\">alelos</mark> (0,4 p). <span class=\"redactado\">Codifica la secuencia de aminoácidos de un polipéptido o la de un ARN (ARNt, ARNr). Los alelos son las distintas formas de un mismo gen.</span>",
+    "b) Nucleosoma: <mark class=\"clave-criterio\">complejo de ADN e histonas</mark>, <mark class=\"clave-criterio\">primer grado de empaquetamiento</mark> del ADN (0,4 p). <span class=\"redactado\">Está formado por un núcleo de ocho histonas (octámero) rodeado por unas dos vueltas de ADN; los nucleosomas, unidos por ADN espaciador, forman la fibra de 10 nm, el «collar de perlas».</span>",
+    "c) Cromátida: <mark class=\"clave-criterio\">cada una de las dos partes idénticas unidas por el centrómero</mark> de un cromosoma metafásico (0,4 p). <span class=\"redactado\">Las dos cromátidas hermanas se forman al replicarse el ADN en la fase S, por eso tienen la misma información; se separan en la anafase.</span>",
+    "d) Metacéntrico: el <mark class=\"clave-criterio\">centrómero divide las cromátidas en dos brazos iguales</mark> (0,4 p). <span class=\"redactado\">Los cromosomas se clasifican según la posición del centrómero: metacéntrico, submetacéntrico, acrocéntrico y telocéntrico.</span>",
+    "e) Diploide: individuo con <mark class=\"clave-criterio\">dos juegos de cada cromosoma</mark> (0,4 p). <span class=\"redactado\">Es decir, sus células somáticas tienen 2n cromosomas, uno de cada par procedente de cada progenitor; sus gametos son haploides (n).</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Suplente, modelo A",
@@ -64094,7 +64094,7 @@ window.BIOCELIA_HISTORICO = {
    "q": "a) Relacione una célula de la columna de la izquierda con una característica de la columna de la derecha [1]. b) Indique si intervienen en mecanismos de respuesta específica, inespecífica o en ambas [1].<table class=\"tabla-pau\"><tr><td>1. Células plasmáticas</td><td>A. Fagocitosis</td></tr><tr><td>2. Monocitos</td><td>B. Liberación de histamina</td></tr><tr><td>3. Basófilos</td><td>C. Precursores sanguíneos de los macrófagos</td></tr><tr><td>4. Neutrófilos</td><td>D. Inmunidad celular</td></tr><tr><td>5. Linfocitos T</td><td>E. Producción de anticuerpos</td></tr></table>",
    "c": [
     "a) <mark class=\"clave-criterio\">1-E</mark>, <mark class=\"clave-criterio\">2-C</mark>, <mark class=\"clave-criterio\">3-B</mark>, <mark class=\"clave-criterio\">4-A</mark>, <mark class=\"clave-criterio\">5-D</mark> (1 p).",
-    "b) Específica: <mark class=\"clave-criterio\">1, 3 y 5</mark>; inespecífica: <mark class=\"clave-criterio\">4</mark>; ambas: <mark class=\"clave-criterio\">2</mark> (1 p)."
+    "b) Específica: <mark class=\"clave-criterio\">1, 3 y 5</mark>; inespecífica: <mark class=\"clave-criterio\">4</mark>; ambas: <mark class=\"clave-criterio\">2</mark> (1 p). <span class=\"redactado\">Los neutrófilos y los basófilos son células de la inmunidad innata, pero los basófilos liberan histamina cuando se une a ellos la IgE en las alergias, y por eso los criterios los relacionan con la respuesta específica. Los monocitos se diferencian en macrófagos, que fagocitan (respuesta inespecífica) y además presentan antígenos a los linfocitos T (respuesta específica).</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Suplente, modelo A",
@@ -64147,8 +64147,8 @@ window.BIOCELIA_HISTORICO = {
    "c": [
     "<b>I.</b> a) Carbono de <mark class=\"clave-criterio\">compuestos inorgánicos</mark> <span class=\"redactado\">CO₂ o metano</span> y energía de la <mark class=\"clave-criterio\">oxidación de moléculas inorgánicas</mark> <span class=\"redactado\">quimioautótrofa</span> (0,5 p).",
     "<b>I.</b> b) Carbono de la <mark class=\"clave-criterio\">degradación de la materia orgánica</mark>, y energía <mark class=\"clave-criterio\">oxidándola con el oxígeno</mark> <span class=\"redactado\">quimioheterótrofa aerobia</span> (0,5 p).",
-    "<b>II.</b> a) Cadena molde: <mark class=\"clave-criterio\">5'-ATATATGTTAAA-3'</mark>; complementaria: <mark class=\"clave-criterio\">3'-TATATACAATTT-5'</mark> (0,7 p).",
-    "<b>II.</b> b) Anticodones: <mark class=\"clave-criterio\">AAA, UUG, UAU, AUA</mark> (0,3 p)."
+    "<b>II.</b> a) Cadena molde: <mark class=\"clave-criterio\">5'-ATATATGTTAAA-3'</mark>; complementaria: <mark class=\"clave-criterio\">3'-TATATACAATTT-5'</mark> (0,7 p). <span class=\"redactado\">La cadena molde es complementaria y antiparalela al ARNm (A con U, T con A, G con C, C con G), y la cadena complementaria de la molde tiene la misma secuencia que el ARNm con T en lugar de U.</span>",
+    "<b>II.</b> b) Anticodones: <mark class=\"clave-criterio\">AAA, UUG, UAU, AUA</mark> (0,3 p). <span class=\"redactado\">Leído en sentido 5'→3', el ARNm es 5'-UUU AAC AUA UAU-3'; cada anticodón es complementario y antiparalelo de su codón.</span>"
    ],
    "isNew": false,
    "competencial": false,
@@ -64178,7 +64178,7 @@ window.BIOCELIA_HISTORICO = {
     "<b>I.</b> a) <mark class=\"clave-criterio\">Nucleótido</mark> (ATP) (0,2 p).",
     "<b>I.</b> b) 1: <mark class=\"clave-criterio\">adenina</mark>; 2: <mark class=\"clave-criterio\">ribosa</mark>; 3: <mark class=\"clave-criterio\">tres ácidos fosfóricos</mark> (0,3 p).",
     "<b>I.</b> c) <mark class=\"clave-criterio\">Enlace éster (fosfoéster)</mark> (0,1 p).",
-    "<b>I.</b> d) <mark class=\"clave-criterio\">Energética</mark>, <mark class=\"clave-criterio\">precursor de coenzimas</mark>, <mark class=\"clave-criterio\">segundo mensajero</mark>, estructural. Dos (0,4 p).",
+    "<b>I.</b> d) <mark class=\"clave-criterio\">Energética</mark>, <mark class=\"clave-criterio\">precursor de coenzimas</mark>, <mark class=\"clave-criterio\">segundo mensajero</mark>, estructural. Dos (0,4 p). <span class=\"redactado\">El ATP almacena energía en los enlaces entre sus fosfatos y la libera al hidrolizarse a ADP + Pi; el AMP cíclico actúa como segundo mensajero, y nucleótidos como el NAD⁺, el FAD o la coenzima A forman parte de coenzimas.</span>",
     "<b>II.</b> a) A: <mark class=\"clave-criterio\">1ª división meiótica</mark>; B: <mark class=\"clave-criterio\">2ª división meiótica</mark>; C: <mark class=\"clave-criterio\">interfase</mark>; D: <mark class=\"clave-criterio\">profase I</mark>; E: <mark class=\"clave-criterio\">telofase I</mark> (0,5 p).",
     "<b>II.</b> b) 1: <mark class=\"clave-criterio\">cromosomas homólogos</mark>; 2: <mark class=\"clave-criterio\">bivalentes (tétradas)</mark>; 3: <mark class=\"clave-criterio\">huso acromático</mark>; 4: <mark class=\"clave-criterio\">centrosoma</mark> (0,4 p).",
     "<b>II.</b> c) <mark class=\"clave-criterio\">Células haploides</mark> (gametos) (0,1 p)."
@@ -64217,8 +64217,8 @@ window.BIOCELIA_HISTORICO = {
     "<b>I.</b> d) A: <mark class=\"clave-criterio\">respiración celular</mark>; B: <mark class=\"clave-criterio\">fermentación láctica</mark>; C: <mark class=\"clave-criterio\">fermentación alcohólica</mark> (0,3 p).",
     "<b>I.</b> e) <mark class=\"clave-criterio\">A</mark> (0,1 p).",
     "<b>II.</b> a) 1: <mark class=\"clave-criterio\">ADN</mark>; 2: <mark class=\"clave-criterio\">ARNm</mark>; 3: <mark class=\"clave-criterio\">proteína</mark> (0,3 p).",
-    "<b>II.</b> b) A: <mark class=\"clave-criterio\">transcripción</mark>; B: <mark class=\"clave-criterio\">salida del ARNm del núcleo</mark>; C: <mark class=\"clave-criterio\">traducción</mark> (0,3 p).",
-    "<b>II.</b> c) <mark class=\"clave-criterio\">Ribosomas</mark> y <mark class=\"clave-criterio\">retículo endoplasmático rugoso</mark> (0,4 p)."
+    "<b>II.</b> b) A: <mark class=\"clave-criterio\">transcripción</mark>; B: <mark class=\"clave-criterio\">salida del ARNm del núcleo</mark>; C: <mark class=\"clave-criterio\">traducción</mark> (0,3 p). <span class=\"redactado\">El ARNm sale del núcleo a través de los poros nucleares.</span>",
+    "<b>II.</b> c) <mark class=\"clave-criterio\">Ribosomas</mark> y <mark class=\"clave-criterio\">retículo endoplasmático rugoso</mark> (0,4 p). <span class=\"redactado\">Los ribosomas unidos al RER sintetizan las proteínas de membrana y las de secreción, que pasan al interior del retículo.</span>"
    ],
    "isNew": true,
    "competencial": true,
@@ -64249,10 +64249,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "a) Indique tres propiedades de los monosacáridos [0,75]. Explique la importancia biológica de los siguientes glúcidos: b) glucosa [0,25]; c) ribosa [0,25]; d) almidón [0,25]; e) celulosa [0,25]. f) Cite un glúcido con función de reserva en las células animales [0,25].",
    "c": [
-    "a) <mark class=\"clave-criterio\">No hidrolizables</mark>, <mark class=\"clave-criterio\">sólidos cristalinos blancos</mark>, <mark class=\"clave-criterio\">poder reductor</mark>, <mark class=\"clave-criterio\">sabor dulce</mark>, <mark class=\"clave-criterio\">solubles en agua</mark>, <mark class=\"clave-criterio\">actividad óptica</mark>. Tres (0,75 p).",
-    "b) Glucosa: <mark class=\"clave-criterio\">principal fuente de energía</mark> de las células (0,25 p). c) Ribosa: <mark class=\"clave-criterio\">forma parte de los nucleótidos y ácidos nucleicos</mark> (0,25 p).",
-    "d) Almidón: <mark class=\"clave-criterio\">polisacárido de reserva de las células vegetales</mark> (0,25 p). e) Celulosa: <mark class=\"clave-criterio\">componente principal de la pared celular vegetal</mark> (0,25 p).",
-    "f) <mark class=\"clave-criterio\">Glucógeno</mark> (0,25 p)."
+    "a) <mark class=\"clave-criterio\">No hidrolizables</mark>, <mark class=\"clave-criterio\">sólidos cristalinos blancos</mark>, <mark class=\"clave-criterio\">poder reductor</mark>, <mark class=\"clave-criterio\">sabor dulce</mark>, <mark class=\"clave-criterio\">solubles en agua</mark>, <mark class=\"clave-criterio\">actividad óptica</mark>. Tres (0,75 p). <span class=\"redactado\">El poder reductor se debe a su grupo carbonilo (aldehído o cetona) libre; la actividad óptica, a sus carbonos asimétricos.</span>",
+    "b) Glucosa: <mark class=\"clave-criterio\">principal fuente de energía</mark> de las células (0,25 p). c) Ribosa: <mark class=\"clave-criterio\">forma parte de los nucleótidos y ácidos nucleicos</mark> (0,25 p). <span class=\"redactado\">La glucosa se degrada en la glucólisis y la respiración celular para obtener ATP. La ribosa también forma parte del ATP y de coenzimas como el NAD⁺.</span>",
+    "d) Almidón: <mark class=\"clave-criterio\">polisacárido de reserva de las células vegetales</mark> (0,25 p). e) Celulosa: <mark class=\"clave-criterio\">componente principal de la pared celular vegetal</mark> (0,25 p). <span class=\"redactado\">El almidón se forma con α-glucosas (amilosa y amilopectina); la celulosa, con β-glucosas unidas por enlaces β(1→4) que forman cadenas lineales unidas entre sí por puentes de hidrógeno: eso le da su gran resistencia.</span>",
+    "f) <mark class=\"clave-criterio\">Glucógeno</mark> (0,25 p). <span class=\"redactado\">Se almacena sobre todo en el hígado y en los músculos.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Suplente, modelo B",
@@ -64275,11 +64275,11 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "a) Defina el ciclo celular [0,3]. b) Indique las fases que componen la interfase [0,3]. c) Describa lo que ocurre en cada una de las fases de la interfase [0,6]. d) Nombre y describa la primera fase de la mitosis [0,5]. e) Nombre de forma ordenada el resto de las fases de la mitosis [0,3].",
    "c": [
-    "a) Proceso desde que una célula <mark class=\"clave-criterio\">se origina por división</mark> hasta que <mark class=\"clave-criterio\">se divide dando dos células hijas</mark> (0,3 p).",
+    "a) Proceso desde que una célula <mark class=\"clave-criterio\">se origina por división</mark> hasta que <mark class=\"clave-criterio\">se divide dando dos células hijas</mark> (0,3 p). <span class=\"redactado\">Comprende la interfase y la división celular: la mitosis (cariocinesis) y la citocinesis.</span>",
     "b) <mark class=\"clave-criterio\">G1, S y G2</mark> (0,3 p).",
-    "c) G1: <mark class=\"clave-criterio\">aumento de tamaño y de orgánulos</mark>; S: <mark class=\"clave-criterio\">replicación del ADN</mark> y síntesis de histonas; G2: <mark class=\"clave-criterio\">preparación para la mitosis</mark> (0,6 p).",
-    "d) <mark class=\"clave-criterio\">Profase</mark> (0,1 p): <mark class=\"clave-criterio\">condensación de los cromosomas</mark>, <mark class=\"clave-criterio\">formación del huso</mark>, <mark class=\"clave-criterio\">desaparición del nucléolo y la envoltura nuclear</mark> (0,4 p).",
-    "e) <mark class=\"clave-criterio\">Metafase, anafase y telofase</mark> (0,3 p)."
+    "c) G1: <mark class=\"clave-criterio\">aumento de tamaño y de orgánulos</mark>; S: <mark class=\"clave-criterio\">replicación del ADN</mark> y síntesis de histonas; G2: <mark class=\"clave-criterio\">preparación para la mitosis</mark> (0,6 p). <span class=\"redactado\">En S cada cromosoma pasa a tener dos cromátidas hermanas; en G2 se sintetizan las proteínas necesarias para la división, como las del huso. Además, las células que no se dividen salen del ciclo y quedan en G0.</span>",
+    "d) <mark class=\"clave-criterio\">Profase</mark> (0,1 p): <mark class=\"clave-criterio\">condensación de los cromosomas</mark>, <mark class=\"clave-criterio\">formación del huso</mark>, <mark class=\"clave-criterio\">desaparición del nucléolo y la envoltura nuclear</mark> (0,4 p). <span class=\"redactado\">En las células animales los centrosomas, ya duplicados, se separan hacia los polos y entre ellos se forma el huso mitótico.</span>",
+    "e) <mark class=\"clave-criterio\">Metafase, anafase y telofase</mark> (0,3 p). <span class=\"redactado\">Metafase: los cromosomas se colocan en la placa ecuatorial. Anafase: se separan las cromátidas hermanas hacia los polos. Telofase: se forman las envolturas nucleares y se descondensan los cromosomas.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Suplente, modelo B",
@@ -64302,10 +64302,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Defina: a) anabolismo [0,5]; b) anabolismo autótrofo [0,5]; c) anabolismo heterótrofo [0,5]; d) quimiosíntesis [0,5].",
    "c": [
-    "a) <mark class=\"clave-criterio\">Síntesis de moléculas complejas a partir de sencillas con gasto de energía (ATP)</mark> (0,5 p).",
-    "b) Autótrofo: <mark class=\"clave-criterio\">síntesis de moléculas orgánicas a partir de materia inorgánica</mark> (CO₂, H₂O) (0,5 p).",
-    "c) Heterótrofo: <mark class=\"clave-criterio\">síntesis de moléculas orgánicas más complejas a partir de orgánicas sencillas</mark> (glucosa, aminoácidos) (0,5 p).",
-    "d) Quimiosíntesis: <mark class=\"clave-criterio\">síntesis de materia orgánica a partir de inorgánica</mark> con la <mark class=\"clave-criterio\">energía de reacciones químicas de compuestos inorgánicos</mark> (0,5 p)."
+    "a) <mark class=\"clave-criterio\">Síntesis de moléculas complejas a partir de sencillas con gasto de energía (ATP)</mark> (0,5 p). <span class=\"redactado\">Es la fase constructiva del metabolismo: sus reacciones son de reducción y forman las moléculas que la célula necesita para crecer y renovarse.</span>",
+    "b) Autótrofo: <mark class=\"clave-criterio\">síntesis de moléculas orgánicas a partir de materia inorgánica</mark> (CO₂, H₂O) (0,5 p). <span class=\"redactado\">Lo realizan los organismos autótrofos; por ejemplo, la fotosíntesis.</span>",
+    "c) Heterótrofo: <mark class=\"clave-criterio\">síntesis de moléculas orgánicas más complejas a partir de orgánicas sencillas</mark> (glucosa, aminoácidos) (0,5 p). <span class=\"redactado\">Lo realizan todas las células, tanto autótrofas como heterótrofas; por ejemplo, la síntesis de glucógeno a partir de glucosa o de proteínas a partir de aminoácidos.</span>",
+    "d) Quimiosíntesis: <mark class=\"clave-criterio\">síntesis de materia orgánica a partir de inorgánica</mark> con la <mark class=\"clave-criterio\">energía de reacciones químicas de compuestos inorgánicos</mark> (0,5 p). <span class=\"redactado\">La realizan algunas bacterias, como las nitrificantes o las del azufre, que oxidan compuestos inorgánicos como el amoniaco, los nitritos o el sulfuro de hidrógeno; la energía obtenida (ATP y NADH) se usa para fijar CO₂ en el ciclo de Calvin.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Suplente, modelo B",
@@ -64329,9 +64329,9 @@ window.BIOCELIA_HISTORICO = {
    "q": "a) En relación con el proceso de expresión génica en células eucarióticas explique el concepto de cadena molde y cadena codificante [0,4]. b) Indique qué enzima interviene en dicho proceso y explique su función [0,6]. c) Explique la función de la región promotora de los genes [0,4]. d) Indique y defina los dos procesos implicados en la expresión de genes [0,6].",
    "c": [
     "a) Molde: <mark class=\"clave-criterio\">cadena de ADN que se transcribe</mark>; codificante: la <mark class=\"clave-criterio\">complementaria</mark>, con <mark class=\"clave-criterio\">la misma secuencia que el ARNm</mark> pero <mark class=\"clave-criterio\">con T en lugar de U</mark> (0,4 p).",
-    "b) <mark class=\"clave-criterio\">ARN polimerasa</mark> (0,2 p): <mark class=\"clave-criterio\">incorpora ribonucleótidos para sintetizar ARN</mark> usando el ADN como molde (0,4 p).",
-    "c) <mark class=\"clave-criterio\">Sitio de unión de la ARN polimerasa</mark> para <mark class=\"clave-criterio\">iniciar la transcripción</mark> (0,4 p).",
-    "d) <mark class=\"clave-criterio\">Transcripción</mark>: síntesis de <mark class=\"clave-criterio\">ARNm a partir de ADN</mark>; <mark class=\"clave-criterio\">traducción</mark>: el ARNm <mark class=\"clave-criterio\">dirige la unión de aminoácidos</mark> en la síntesis de proteínas (0,6 p)."
+    "b) <mark class=\"clave-criterio\">ARN polimerasa</mark> (0,2 p): <mark class=\"clave-criterio\">incorpora ribonucleótidos para sintetizar ARN</mark> usando el ADN como molde (0,4 p). <span class=\"redactado\">Lee la cadena molde en sentido 3'→5' y sintetiza el ARN en sentido 5'→3'; a diferencia de la ADN polimerasa, no necesita cebador.</span>",
+    "c) <mark class=\"clave-criterio\">Sitio de unión de la ARN polimerasa</mark> para <mark class=\"clave-criterio\">iniciar la transcripción</mark> (0,4 p). <span class=\"redactado\">Es una secuencia situada antes del gen que señala dónde empieza a transcribirse y qué cadena actúa como molde.</span>",
+    "d) <mark class=\"clave-criterio\">Transcripción</mark>: síntesis de <mark class=\"clave-criterio\">ARNm a partir de ADN</mark>; <mark class=\"clave-criterio\">traducción</mark>: el ARNm <mark class=\"clave-criterio\">dirige la unión de aminoácidos</mark> en la síntesis de proteínas (0,6 p). <span class=\"redactado\">La transcripción ocurre en el núcleo y el ARNm se madura (se eliminan los intrones, se añaden la caperuza y la cola de poli-A) antes de salir al citoplasma; la traducción tiene lugar en los ribosomas.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Suplente, modelo B",
@@ -64354,10 +64354,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Defina los siguientes conceptos: a) enfermedad autoinmune [0,5]; b) inmunodeficiencia [0,5]. c) Cite el nombre de una enfermedad autoinmune y el de una inmunodeficiencia [0,5]. d) Indique qué se entiende por reacción alérgica o de hipersensibilidad [0,5].",
    "c": [
-    "a) <mark class=\"clave-criterio\">Respuesta inmunitaria que ataca moléculas o células propias</mark> (0,5 p).",
-    "b) <mark class=\"clave-criterio\">Incapacidad del sistema inmunitario para defender al organismo</mark> (0,5 p).",
+    "a) <mark class=\"clave-criterio\">Respuesta inmunitaria que ataca moléculas o células propias</mark> (0,5 p). <span class=\"redactado\">El sistema inmunitario pierde la tolerancia frente a lo propio y produce autoanticuerpos o linfocitos T autorreactivos.</span>",
+    "b) <mark class=\"clave-criterio\">Incapacidad del sistema inmunitario para defender al organismo</mark> (0,5 p). <span class=\"redactado\">Puede ser congénita (por ejemplo, la inmunodeficiencia combinada grave de los «niños burbuja») o adquirida, como el sida, en el que el VIH destruye los linfocitos T colaboradores. Las infecciones oportunistas se vuelven graves.</span>",
     "c) Autoinmune: <mark class=\"clave-criterio\">artritis reumatoide</mark>, <mark class=\"clave-criterio\">lupus</mark>; inmunodeficiencia: <mark class=\"clave-criterio\">SIDA</mark>, <mark class=\"clave-criterio\">niños burbuja</mark> (0,5 p).",
-    "d) <mark class=\"clave-criterio\">Respuesta inadecuada o exagerada</mark> del sistema inmunitario (0,5 p)."
+    "d) <mark class=\"clave-criterio\">Respuesta inadecuada o exagerada</mark> del sistema inmunitario (0,5 p). <span class=\"redactado\">Se produce frente a antígenos que normalmente son inofensivos (polen, ácaros, alimentos), llamados alérgenos: en un segundo contacto, la IgE unida a los mastocitos hace que liberen histamina, que provoca los síntomas.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Suplente, modelo B",
@@ -64379,10 +64379,10 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>I.</b> El consumo de huevo crudo está desaconsejado por razones tanto de tipo microbiológico como nutricional. Sin embargo, cuando el huevo se cocina se evitan estos problemas. a) ¿Qué ocurrirá con las estructuras de las proteínas del huevo al cocinarlo? [0,5] b) ¿El cocinado del huevo hace que éste pierda su valor nutritivo como fuente de proteínas? [0,5] Razone las respuestas. <i>(1 punto)</i><br><br><b>II.</b> Las gramicidinas son un grupo de antibióticos cuyo mecanismo de acción es la apertura de poros en las membranas celulares. a) ¿Por qué es esto negativo para las bacterias? [0,5] b) ¿Tendría el mismo efecto sobre las células eucarióticas? [0,5] Razone las respuestas. <i>(1 punto)</i>",
    "puntos": 2,
    "c": [
-    "<b>I.</b> a) El calor las <mark class=\"clave-criterio\">desnaturaliza</mark>: <mark class=\"clave-criterio\">pierden todas sus estructuras salvo la primaria</mark> (0,5 p).",
-    "<b>I.</b> b) <mark class=\"clave-criterio\">No</mark>: el <mark class=\"clave-criterio\">contenido en aminoácidos permanece intacto</mark> (0,5 p).",
-    "<b>II.</b> a) Los poros permiten el <mark class=\"clave-criterio\">flujo libre de sustancias</mark>, y la membrana es la que <mark class=\"clave-criterio\">regula el transporte</mark> (0,5 p).",
-    "<b>II.</b> b) <mark class=\"clave-criterio\">Sí</mark>: las <mark class=\"clave-criterio\">membranas son similares en procariotas y eucariotas</mark> (0,5 p)."
+    "<b>I.</b> a) El calor las <mark class=\"clave-criterio\">desnaturaliza</mark>: <mark class=\"clave-criterio\">pierden todas sus estructuras salvo la primaria</mark> (0,5 p). <span class=\"redactado\">El calor rompe los enlaces débiles que mantienen la estructura tridimensional, pero no los enlaces peptídicos.</span>",
+    "<b>I.</b> b) <mark class=\"clave-criterio\">No</mark>: el <mark class=\"clave-criterio\">contenido en aminoácidos permanece intacto</mark> (0,5 p). <span class=\"redactado\">Al contrario, las proteínas desnaturalizadas se digieren con más facilidad, porque las proteasas digestivas acceden mejor a sus enlaces peptídicos y los aminoácidos se absorben igual. Además, el calor destruye microorganismos, como Salmonella.</span>",
+    "<b>II.</b> a) Los poros permiten el <mark class=\"clave-criterio\">flujo libre de sustancias</mark>, y la membrana es la que <mark class=\"clave-criterio\">regula el transporte</mark> (0,5 p). <span class=\"redactado\">Al perder la permeabilidad selectiva, la bacteria no puede mantener la diferencia de concentración de iones entre el interior y el exterior: entran y salen sustancias sin control y muere.</span>",
+    "<b>II.</b> b) <mark class=\"clave-criterio\">Sí</mark>: las <mark class=\"clave-criterio\">membranas son similares en procariotas y eucariotas</mark> (0,5 p). <span class=\"redactado\">Todas las membranas tienen la misma estructura de bicapa lipídica con proteínas (mosaico fluido), así que el antibiótico también abriría poros en las células eucariotas. Por eso estos antibióticos son tóxicos y solo se usan de forma tópica, sobre la piel o las mucosas.</span>"
    ],
    "isNew": false,
    "competencial": false,
@@ -64409,9 +64409,9 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>I.</b> Debido a la actividad humana, los valores de CO₂ atmosférico están aumentando de forma considerable. Teniendo en cuenta este aumento de CO₂, conteste a las siguientes cuestiones: a) ¿qué proceso metabólico se verá afectado en las plantas? [0,5]; b) ¿cuál será la consecuencia más inmediata en la planta? [0,25]; c) ¿qué consecuencias a largo plazo tendrá la alteración de este proceso metabólico sobre los niveles de CO₂ atmosférico? [0,25] Razone todas las respuestas. <i>(1 punto)</i><br><br><b>II.</b> Los esquemas adjuntos muestran los puntos de corte en un mismo gen para las enzimas de restricción <i>Eco</i>RI y <i>Hin</i>dIII y el tamaño en kilobases (kb) de los fragmentos que se generan:<br><i>Eco</i>RI: 3 kb ↓ 4 kb ↓ 1 kb<br><i>Hin</i>dIII: 2 kb ↓ 4,5 kb ↓ 1,5 kb<br>Conteste de forma razonada: a) ¿cuál es el tamaño del gen sin digerir por las enzimas de restricción? [0,2]; b) indique el número y tamaño de los fragmentos del gen tras la digestión simultánea con ambas enzimas [0,8]. <i>(1 punto)</i>",
    "puntos": 2,
    "c": [
-    "<b>I.</b> a) La <mark class=\"clave-criterio\">fotosíntesis (ciclo de Calvin)</mark> (0,3 p): <mark class=\"clave-criterio\">aumenta la fijación de CO₂</mark> en la fase no dependiente de la luz (0,2 p).",
-    "<b>I.</b> b) <mark class=\"clave-criterio\">Aumento de la biomasa</mark>, si hay agua y nutrientes suficientes (0,25 p).",
-    "<b>I.</b> c) Más fijación de CO₂ <mark class=\"clave-criterio\">ayudará a reducir el CO₂ atmosférico</mark> (0,25 p).",
+    "<b>I.</b> a) La <mark class=\"clave-criterio\">fotosíntesis (ciclo de Calvin)</mark> (0,3 p): <mark class=\"clave-criterio\">aumenta la fijación de CO₂</mark> en la fase no dependiente de la luz (0,2 p). <span class=\"redactado\">El CO₂ es el sustrato que fija la RuBisCO en el ciclo de Calvin; si su concentración aumenta, la velocidad de la fijación aumenta hasta que otro factor resulta limitante.</span>",
+    "<b>I.</b> b) <mark class=\"clave-criterio\">Aumento de la biomasa</mark>, si hay agua y nutrientes suficientes (0,25 p). <span class=\"redactado\">Se fabrica más materia orgánica y la planta puede crecer más.</span>",
+    "<b>I.</b> c) Más fijación de CO₂ <mark class=\"clave-criterio\">ayudará a reducir el CO₂ atmosférico</mark> (0,25 p). <span class=\"redactado\">Las plantas actúan como sumideros de carbono: retiran CO₂ de la atmósfera y lo incorporan a su biomasa.</span>",
     "<b>II.</b> a) <mark class=\"clave-criterio\">8 kb</mark>, <mark class=\"clave-criterio\">suma de los fragmentos</mark> (0,2 p).",
     "<b>II.</b> b) <mark class=\"clave-criterio\">Cinco fragmentos</mark> (0,3 p): <mark class=\"clave-criterio\">2 kb, 1 kb, 3,5 kb, 0,5 kb y 1 kb</mark> (0,5 p). <span class=\"redactado\">Cortes de EcoRI en 3 y 7 kb y de HindIII en 2 y 6,5 kb.</span>"
    ],
@@ -64441,11 +64441,11 @@ window.BIOCELIA_HISTORICO = {
    "puntos": 2,
    "c": [
     "<b>I.</b> a) 1: <mark class=\"clave-criterio\">velocidad máxima (Vmax)</mark>; 2: <mark class=\"clave-criterio\">mitad de la velocidad máxima (½ Vmax)</mark> (0,4 p).",
-    "<b>I.</b> b) 3: <mark class=\"clave-criterio\">Km de A</mark>; 4: <mark class=\"clave-criterio\">Km de B</mark> (0,2 p).",
-    "<b>I.</b> c) <mark class=\"clave-criterio\">Inhibidor competitivo</mark> (0,2 p). d) <mark class=\"clave-criterio\">Inhibidor no competitivo</mark> (0,2 p).",
-    "<b>II.</b> a) <mark class=\"clave-criterio\">Centrosoma</mark> (0,2 p). b) <mark class=\"clave-criterio\">Células animales</mark> (0,2 p).",
-    "<b>II.</b> c) <mark class=\"clave-criterio\">Centro organizador de microtúbulos</mark>, <mark class=\"clave-criterio\">formación del huso</mark> (0,2 p).",
-    "<b>II.</b> d) <mark class=\"clave-criterio\">Centriolo</mark> (0,2 p). e) <mark class=\"clave-criterio\">Triplete de microtúbulos</mark> (0,2 p)."
+    "<b>I.</b> b) 3: <mark class=\"clave-criterio\">Km de A</mark>; 4: <mark class=\"clave-criterio\">Km de B</mark> (0,2 p). <span class=\"redactado\">La Km es la concentración de sustrato a la que se alcanza la mitad de la velocidad máxima e indica la afinidad de la enzima por el sustrato: cuanto mayor es la Km, menor es la afinidad.</span>",
+    "<b>I.</b> c) <mark class=\"clave-criterio\">Inhibidor competitivo</mark> (0,2 p). d) <mark class=\"clave-criterio\">Inhibidor no competitivo</mark> (0,2 p). <span class=\"redactado\">El inhibidor competitivo compite con el sustrato por el centro activo: aumenta la Km pero no cambia la Vmax, porque con mucho sustrato se desplaza al inhibidor. El no competitivo se une a otro lugar de la enzima: disminuye la Vmax y no se contrarresta añadiendo sustrato.</span>",
+    "<b>II.</b> a) <mark class=\"clave-criterio\">Centrosoma</mark> (0,2 p). b) <mark class=\"clave-criterio\">Células animales</mark> (0,2 p). <span class=\"redactado\">Las células vegetales superiores no tienen centriolos, aunque sí forman huso.</span>",
+    "<b>II.</b> c) <mark class=\"clave-criterio\">Centro organizador de microtúbulos</mark>, <mark class=\"clave-criterio\">formación del huso</mark> (0,2 p). <span class=\"redactado\">También origina los cuerpos basales de cilios y flagelos.</span>",
+    "<b>II.</b> d) <mark class=\"clave-criterio\">Centriolo</mark> (0,2 p). e) <mark class=\"clave-criterio\">Triplete de microtúbulos</mark> (0,2 p). <span class=\"redactado\">Cada centriolo tiene nueve tripletes de microtúbulos dispuestos en círculo (estructura 9 + 0).</span>"
    ],
    "isNew": true,
    "competencial": true,
@@ -64476,12 +64476,12 @@ window.BIOCELIA_HISTORICO = {
    "puntos": 2,
    "c": [
     "<b>I.</b> a) 1: <mark class=\"clave-criterio\">glucólisis</mark>; 2: <mark class=\"clave-criterio\">descarboxilación oxidativa</mark>; 3: <mark class=\"clave-criterio\">β-oxidación</mark>; 4: <mark class=\"clave-criterio\">ciclo de Krebs</mark> (0,4 p).",
-    "<b>I.</b> b) 1: <mark class=\"clave-criterio\">citosol</mark>; 3 y 4: <mark class=\"clave-criterio\">mitocondrias</mark> (0,3 p).",
-    "<b>I.</b> c) 5: <mark class=\"clave-criterio\">fermentaciones</mark>; A: <mark class=\"clave-criterio\">etanol</mark>; B: <mark class=\"clave-criterio\">ácido láctico</mark> (0,3 p).",
+    "<b>I.</b> b) 1: <mark class=\"clave-criterio\">citosol</mark>; 3 y 4: <mark class=\"clave-criterio\">mitocondrias</mark> (0,3 p). <span class=\"redactado\">La descarboxilación oxidativa del pirúvico (2) también ocurre en la matriz mitocondrial; la β-oxidación y el ciclo de Krebs, en la matriz.</span>",
+    "<b>I.</b> c) 5: <mark class=\"clave-criterio\">fermentaciones</mark>; A: <mark class=\"clave-criterio\">etanol</mark>; B: <mark class=\"clave-criterio\">ácido láctico</mark> (0,3 p). <span class=\"redactado\">La fermentación ocurre en el citosol, en ausencia de oxígeno, y su función es reoxidar el NADH a NAD⁺ para que la glucólisis continúe.</span>",
     "<b>II.</b> a) 1: <mark class=\"clave-criterio\">ARNm</mark>; 2: <mark class=\"clave-criterio\">polipéptido</mark> (proteína) (0,2 p).",
     "<b>II.</b> b) <mark class=\"clave-criterio\">Traducción</mark> (0,2 p).",
-    "<b>II.</b> c) El código es <mark class=\"clave-criterio\">universal</mark> (0,3 p).",
-    "<b>II.</b> d) El código es <mark class=\"clave-criterio\">degenerado</mark> (0,3 p)."
+    "<b>II.</b> c) El código es <mark class=\"clave-criterio\">universal</mark> (0,3 p). <span class=\"redactado\">El mismo codón codifica el mismo aminoácido en casi todos los seres vivos; por eso una bacteria puede fabricar una proteína humana a partir de su ARNm.</span>",
+    "<b>II.</b> d) El código es <mark class=\"clave-criterio\">degenerado</mark> (0,3 p). <span class=\"redactado\">Un mismo aminoácido puede estar codificado por varios codones distintos (61 codones con sentido para 20 aminoácidos), así que no se sabe cuál de ellos tenía el ARNm.</span>"
    ],
    "isNew": true,
    "competencial": true,
@@ -64512,10 +64512,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "a) Defina base nitrogenada [0,5]. b) Enumere y clasifique las bases nitrogenadas que forman parte de los ácidos nucleicos [0,7] c) ¿En qué consiste la complementariedad de las bases nitrogenadas? [0,5] d) Nombre los dos tipos de monosacáridos que forman parte de los ácidos nucleicos [0,3].",
    "c": [
-    "a) <mark class=\"clave-criterio\">Compuesto heterocíclico con nitrógeno</mark> que forma parte de los <mark class=\"clave-criterio\">nucleótidos</mark> (0,5 p).",
-    "b) <mark class=\"clave-criterio\">Púricas: adenina y guanina</mark>; <mark class=\"clave-criterio\">pirimidínicas: citosina, timina y uracilo</mark> (0,7 p).",
-    "c) Unión <mark class=\"clave-criterio\">A-T (o A-U) por dos puentes de hidrógeno</mark> y <mark class=\"clave-criterio\">G-C por tres</mark> (0,5 p).",
-    "d) <mark class=\"clave-criterio\">Desoxirribosa</mark> y <mark class=\"clave-criterio\">ribosa</mark> (0,3 p)."
+    "a) <mark class=\"clave-criterio\">Compuesto heterocíclico con nitrógeno</mark> que forma parte de los <mark class=\"clave-criterio\">nucleótidos</mark> (0,5 p). <span class=\"redactado\">Tienen carácter básico; en el nucleótido se unen al carbono 1′ de la pentosa mediante un enlace N-glucosídico.</span>",
+    "b) <mark class=\"clave-criterio\">Púricas: adenina y guanina</mark>; <mark class=\"clave-criterio\">pirimidínicas: citosina, timina y uracilo</mark> (0,7 p). <span class=\"redactado\">Las púricas derivan de la purina (dos anillos) y las pirimidínicas de la pirimidina (un anillo). La timina es exclusiva del ADN y el uracilo, del ARN.</span>",
+    "c) Unión <mark class=\"clave-criterio\">A-T (o A-U) por dos puentes de hidrógeno</mark> y <mark class=\"clave-criterio\">G-C por tres</mark> (0,5 p). <span class=\"redactado\">Una base púrica siempre se aparea con una pirimidínica, lo que mantiene constante la anchura de la doble hélice; así, la secuencia de una cadena determina la de la otra, y eso es la base de la replicación y la transcripción.</span>",
+    "d) <mark class=\"clave-criterio\">Desoxirribosa</mark> y <mark class=\"clave-criterio\">ribosa</mark> (0,3 p). <span class=\"redactado\">La desoxirribosa forma parte del ADN y la ribosa del ARN; las dos son pentosas (aldopentosas).</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Reserva, modelo A",
@@ -64538,10 +64538,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "El microscopio es un instrumento imprescindible en el estudio de la biología. a) Defina poder de resolución [0,5]. b) Indique la fuente de radiación de los microscopios ópticos y la que emplean los microscopios electrónicos [0,5]. c) ¿Qué nombre recibe la lente del microscopio óptico situada cerca del ojo del observador? [0,2] d) ¿Y la que se sitúa más próxima a la muestra? [0,2] Indique qué tipo de microscopio emplearía para: e) realizar un recuento de glóbulos rojos en sangre [0,2]; f) observar una tinción de bacterias [0,2]; g) observar ribosomas [0,2].",
    "c": [
-    "a) <mark class=\"clave-criterio\">Distancia más corta entre dos puntos a la que se distinguen como separados</mark> (0,5 p).",
-    "b) Óptico: <mark class=\"clave-criterio\">luz</mark>; electrónico: <mark class=\"clave-criterio\">haz de electrones</mark> (0,5 p).",
+    "a) <mark class=\"clave-criterio\">Distancia más corta entre dos puntos a la que se distinguen como separados</mark> (0,5 p). <span class=\"redactado\">Cuanto menor es esa distancia, mayor es el poder de resolución. Depende de la longitud de onda de la radiación: unos 0,2 µm en el microscopio óptico y del orden de nanómetros, o menos, en el electrónico.</span>",
+    "b) Óptico: <mark class=\"clave-criterio\">luz</mark>; electrónico: <mark class=\"clave-criterio\">haz de electrones</mark> (0,5 p). <span class=\"redactado\">Los electrones tienen una longitud de onda mucho menor que la luz visible, y por eso el microscopio electrónico resuelve estructuras mucho más pequeñas; sus lentes son electromagnéticas.</span>",
     "c) <mark class=\"clave-criterio\">Ocular</mark> (0,2 p). d) <mark class=\"clave-criterio\">Objetivo</mark> (0,2 p).",
-    "e) <mark class=\"clave-criterio\">Óptico</mark> (0,2 p). f) <mark class=\"clave-criterio\">Óptico</mark> (0,2 p). g) <mark class=\"clave-criterio\">Electrónico</mark> (0,2 p)."
+    "e) <mark class=\"clave-criterio\">Óptico</mark> (0,2 p). f) <mark class=\"clave-criterio\">Óptico</mark> (0,2 p). g) <mark class=\"clave-criterio\">Electrónico</mark> (0,2 p). <span class=\"redactado\">Las células sanguíneas y las bacterias teñidas miden varios micrómetros y se ven con el óptico; los ribosomas, de unos 20-30 nm, están por debajo de su poder de resolución.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Reserva, modelo A",
@@ -64565,9 +64565,9 @@ window.BIOCELIA_HISTORICO = {
    "q": "Respecto a la fotosíntesis: a) indique si el ciclo de Calvin es un proceso anabólico o catabólico [0,1] y b) en qué orgánulo tiene lugar, especificando en qué parte del mismo [0,2]. c) Indique las moléculas obtenidas en la fase dependiente de la luz (fase fotoquímica) [0,2] y d) la cantidad de cada una de ellas necesarias para sintetizar una molécula de glucosa [0,6]. e) ¿Qué molécula de la atmósfera se necesita para poder iniciar el ciclo y qué enzima es necesaria para incorporarla al mismo? [0,4] f) Explique la finalidad de este ciclo [0,5].",
    "c": [
     "a) <mark class=\"clave-criterio\">Anabólico</mark> (0,1 p). b) <mark class=\"clave-criterio\">Cloroplasto</mark>, <mark class=\"clave-criterio\">estroma</mark> (0,2 p).",
-    "c) <mark class=\"clave-criterio\">ATP y NADPH</mark> (0,2 p). d) <mark class=\"clave-criterio\">18 ATP y 12 NADPH</mark> (0,6 p).",
-    "e) <mark class=\"clave-criterio\">CO₂</mark>; <mark class=\"clave-criterio\">RuBisCO</mark> (0,4 p).",
-    "f) <mark class=\"clave-criterio\">Síntesis de materia orgánica a partir de materia inorgánica</mark> (0,5 p)."
+    "c) <mark class=\"clave-criterio\">ATP y NADPH</mark> (0,2 p). d) <mark class=\"clave-criterio\">18 ATP y 12 NADPH</mark> (0,6 p). <span class=\"redactado\">Por cada CO₂ fijado se gastan 3 ATP y 2 NADPH; una glucosa tiene 6 carbonos, así que hacen falta 6 vueltas del ciclo: 6 × 3 = 18 ATP y 6 × 2 = 12 NADPH.</span>",
+    "e) <mark class=\"clave-criterio\">CO₂</mark>; <mark class=\"clave-criterio\">RuBisCO</mark> (0,4 p). <span class=\"redactado\">La RuBisCO une el CO₂ a la ribulosa-1,5-bisfosfato, y se forman dos moléculas de 3-fosfoglicerato.</span>",
+    "f) <mark class=\"clave-criterio\">Síntesis de materia orgánica a partir de materia inorgánica</mark> (0,5 p). <span class=\"redactado\">Se reduce el CO₂ con el ATP y el NADPH de la fase luminosa para formar glúcidos (gliceraldehído-3-fosfato, a partir del cual se sintetizan la glucosa, el almidón y otras moléculas), y se regenera la ribulosa-1,5-bisfosfato para que el ciclo continúe.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Reserva, modelo A",
@@ -64591,8 +64591,8 @@ window.BIOCELIA_HISTORICO = {
    "q": "a) Cite [0,2] y b) defina [0,5] los dos procesos que tienen lugar en la expresión de la información genética. c) Indique dos localizaciones de la célula eucariótica en las que ocurren cada uno de dichos procesos [0,4] d) Explique una función de tres tipos de ARN distintos que intervienen en la expresión génica [0,9].",
    "c": [
     "a) <mark class=\"clave-criterio\">Transcripción y traducción</mark> (0,2 p).",
-    "b) Transcripción: <mark class=\"clave-criterio\">síntesis de ARN (ARNm) a partir de ADN</mark>; traducción: el <mark class=\"clave-criterio\">ARNm dirige la unión de aminoácidos</mark> en la síntesis de proteínas (0,5 p).",
-    "c) Transcripción: <mark class=\"clave-criterio\">núcleo</mark>, mitocondria, cloroplasto; traducción: <mark class=\"clave-criterio\">ribosomas del citosol</mark>, <mark class=\"clave-criterio\">del RER</mark>, mitocondrias y cloroplastos. Dos de cada (0,4 p).",
+    "b) Transcripción: <mark class=\"clave-criterio\">síntesis de ARN (ARNm) a partir de ADN</mark>; traducción: el <mark class=\"clave-criterio\">ARNm dirige la unión de aminoácidos</mark> en la síntesis de proteínas (0,5 p). <span class=\"redactado\">En la transcripción la ARN polimerasa copia la cadena molde del ADN; en la traducción, los ribosomas leen los codones del ARNm y los ARNt aportan los aminoácidos correspondientes.</span>",
+    "c) Transcripción: <mark class=\"clave-criterio\">núcleo</mark>, mitocondria, cloroplasto; traducción: <mark class=\"clave-criterio\">ribosomas del citosol</mark>, <mark class=\"clave-criterio\">del RER</mark>, mitocondrias y cloroplastos. Dos de cada (0,4 p). <span class=\"redactado\">Mitocondrias y cloroplastos tienen su propio ADN y sus propios ribosomas, por eso en ellos ocurren los dos procesos.</span>",
     "d) ARNm: <mark class=\"clave-criterio\">lleva la información a los ribosomas</mark>; ARNt: <mark class=\"clave-criterio\">transporta aminoácidos</mark> y reconoce codones; ARNr: <mark class=\"clave-criterio\">forma los ribosomas</mark> (0,9 p)."
    ],
    "origen": {
@@ -64616,10 +64616,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "a) Defina infección [0,8]. b) Indique tres tipos de agentes que pueden causar infecciones [0,3]. c) Nombre tres vías de transmisión de las infecciones [0,3]. d) De las vías mencionadas en el apartado anterior, indique un mecanismo presente en nuestro organismo que pudiese impedirla [0,6].",
    "c": [
-    "a) <mark class=\"clave-criterio\">Entrada y multiplicación de un agente patógeno</mark> en un organismo vivo (0,8 p).",
+    "a) <mark class=\"clave-criterio\">Entrada y multiplicación de un agente patógeno</mark> en un organismo vivo (0,8 p). <span class=\"redactado\">El patógeno puede causar daños al destruir células o liberar toxinas; cuando aparecen síntomas se habla de enfermedad infecciosa.</span>",
     "b) <mark class=\"clave-criterio\">Bacterias</mark>, <mark class=\"clave-criterio\">hongos</mark>, <mark class=\"clave-criterio\">protozoos</mark>, <mark class=\"clave-criterio\">virus</mark>. Tres (0,3 p).",
     "c) <mark class=\"clave-criterio\">Digestiva</mark>, <mark class=\"clave-criterio\">respiratoria</mark>, <mark class=\"clave-criterio\">genital</mark>, <mark class=\"clave-criterio\">cutánea</mark>, parenteral, vectores. Tres (0,3 p).",
-    "d) Digestiva: <mark class=\"clave-criterio\">pH ácido del estómago</mark>; respiratoria: <mark class=\"clave-criterio\">cilios y mucosidad</mark>; genital: <mark class=\"clave-criterio\">pH ácido de la vagina</mark>; cutánea: <mark class=\"clave-criterio\">queratina y descamación</mark>. Uno por vía, 0,2 p (0,6 p)."
+    "d) Digestiva: <mark class=\"clave-criterio\">pH ácido del estómago</mark>; respiratoria: <mark class=\"clave-criterio\">cilios y mucosidad</mark>; genital: <mark class=\"clave-criterio\">pH ácido de la vagina</mark>; cutánea: <mark class=\"clave-criterio\">queratina y descamación</mark>. Uno por vía, 0,2 p (0,6 p). <span class=\"redactado\">Son barreras de la inmunidad innata, que actúan frente a cualquier patógeno. Otros ejemplos: la lisozima de las lágrimas y la saliva y la microbiota normal, que compite con los patógenos.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Reserva, modelo A",
@@ -64641,9 +64641,9 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>I.</b> Los zapateros son insectos capaces de sostenerse y desplazarse sobre la superficie de los estanques y charcas que habitan. a) ¿Qué propiedad del agua hace posible que estos animales no se hundan? [0,5] b) ¿Qué importancia tiene para las plantas el hecho de que el agua tenga gran capacidad para adherirse a las paredes de conductos muy estrechos? [0,5] Razone ambas respuestas. <i>(1 punto)</i><br><br><b>II.</b> La acetabularia es un alga unicelular de forma filamentosa de gran tamaño que presenta el núcleo en uno de sus extremos. En un laboratorio se fragmenta esta alga en dos partes, quedando el núcleo en una de ellas. Explique de forma razonada si cada uno de estos fragmentos tiene la capacidad de regenerar la célula completa [1]. <i>(1 punto)</i>",
    "puntos": 2,
    "c": [
-    "<b>I.</b> a) La <mark class=\"clave-criterio\">elevada tensión superficial</mark> (0,1 p): las moléculas de la superficie sufren una <mark class=\"clave-criterio\">atracción neta hacia el interior</mark> y la superficie <mark class=\"clave-criterio\">resiste ser traspasada</mark> (0,4 p).",
-    "<b>I.</b> b) La <mark class=\"clave-criterio\">capilaridad</mark> contribuye al <mark class=\"clave-criterio\">ascenso del agua por los vasos conductores</mark> (0,5 p).",
-    "<b>II.</b> Solo el <mark class=\"clave-criterio\">fragmento con el núcleo</mark>, <mark class=\"clave-criterio\">portador de la información genética</mark>, puede regenerar la célula, si además tiene <mark class=\"clave-criterio\">orgánulos citosólicos</mark> (<mark class=\"clave-criterio\">ribosomas</mark> para sintetizar proteínas, <mark class=\"clave-criterio\">mitocondrias</mark> para la energía) (1 p)."
+    "<b>I.</b> a) La <mark class=\"clave-criterio\">elevada tensión superficial</mark> (0,1 p): las moléculas de la superficie sufren una <mark class=\"clave-criterio\">atracción neta hacia el interior</mark> y la superficie <mark class=\"clave-criterio\">resiste ser traspasada</mark> (0,4 p). <span class=\"redactado\">Las moléculas de agua están muy cohesionadas por puentes de hidrógeno; en la superficie no tienen moléculas por encima, y la capa superficial se comporta como una película elástica.</span>",
+    "<b>I.</b> b) La <mark class=\"clave-criterio\">capilaridad</mark> contribuye al <mark class=\"clave-criterio\">ascenso del agua por los vasos conductores</mark> (0,5 p). <span class=\"redactado\">Las moléculas de agua se adhieren a las paredes de los vasos del xilema y, por cohesión, arrastran a las demás; junto con la transpiración en las hojas, esto permite que la savia bruta suba desde las raíces.</span>",
+    "<b>II.</b> Solo el <mark class=\"clave-criterio\">fragmento con el núcleo</mark>, <mark class=\"clave-criterio\">portador de la información genética</mark>, puede regenerar la célula, si además tiene <mark class=\"clave-criterio\">orgánulos citosólicos</mark> (<mark class=\"clave-criterio\">ribosomas</mark> para sintetizar proteínas, <mark class=\"clave-criterio\">mitocondrias</mark> para la energía) (1 p). <span class=\"redactado\">El fragmento sin núcleo no puede fabricar ARNm nuevo: en los experimentos clásicos de Hämmerling podía llegar a regenerar parte de la célula durante un tiempo gracias al ARNm que ya tenía en su citoplasma, pero acababa muriendo.</span>"
    ],
    "isNew": false,
    "competencial": false,
@@ -64670,10 +64670,10 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>I.</b> A una célula muscular esquelética se le bloquea la entrada de oxígeno. a) ¿Cómo es posible que la célula siga produciendo ATP? [0,5] b) ¿Cómo será el rendimiento en la producción de ATP si la comparamos con una célula de igual naturaleza a la cual no se le ha bloqueado la entrada de oxígeno? [0,5] Explique razonadamente ambas cuestiones. <i>(1 punto)</i><br><br><b>II.</b> a) ¿Cómo afectaría a la formación de los cromosomas la introducción de un agente desnaturalizante de las histonas en una célula eucariótica? [0,5] b) ¿Y si lo introducimos en una célula procariótica? [0,5] Explique razonadamente ambas cuestiones. <i>(1 punto)</i>",
    "puntos": 2,
    "c": [
-    "<b>I.</b> a) Mediante la <mark class=\"clave-criterio\">fermentación láctica</mark>: el <mark class=\"clave-criterio\">piruvato de la glucólisis pasa a ácido láctico</mark> y se genera ATP (0,5 p).",
-    "<b>I.</b> b) <mark class=\"clave-criterio\">Mucho menor</mark>: <mark class=\"clave-criterio\">2 ATP</mark> por glucosa frente a <mark class=\"clave-criterio\">36-38 ATP</mark> con oxígeno, porque la glucosa <mark class=\"clave-criterio\">no se degrada totalmente</mark> (0,5 p).",
-    "<b>II.</b> a) Los cromosomas <mark class=\"clave-criterio\">no se condensarían</mark>: sin histonas el ADN <mark class=\"clave-criterio\">no tiene soporte para empaquetarse</mark> (0,5 p).",
-    "<b>II.</b> b) <mark class=\"clave-criterio\">No afectaría</mark>: su ADN <mark class=\"clave-criterio\">no se asocia a histonas</mark> (0,5 p)."
+    "<b>I.</b> a) Mediante la <mark class=\"clave-criterio\">fermentación láctica</mark>: el <mark class=\"clave-criterio\">piruvato de la glucólisis pasa a ácido láctico</mark> y se genera ATP (0,5 p). <span class=\"redactado\">Sin O₂ la cadena respiratoria se detiene y el NADH no se reoxida; al reducir el piruvato a lactato, el NADH vuelve a NAD⁺, y la glucólisis puede seguir produciendo 2 ATP por glucosa.</span>",
+    "<b>I.</b> b) <mark class=\"clave-criterio\">Mucho menor</mark>: <mark class=\"clave-criterio\">2 ATP</mark> por glucosa frente a <mark class=\"clave-criterio\">36-38 ATP</mark> con oxígeno, porque la glucosa <mark class=\"clave-criterio\">no se degrada totalmente</mark> (0,5 p). <span class=\"redactado\">Con oxígeno, el piruvato entra en la mitocondria, se oxida en el ciclo de Krebs y la fosforilación oxidativa produce la mayor parte del ATP; el lactato, en cambio, aún contiene mucha energía.</span>",
+    "<b>II.</b> a) Los cromosomas <mark class=\"clave-criterio\">no se condensarían</mark>: sin histonas el ADN <mark class=\"clave-criterio\">no tiene soporte para empaquetarse</mark> (0,5 p). <span class=\"redactado\">El ADN se enrolla alrededor de octámeros de histonas formando nucleosomas, y a partir de ellos se pliega en niveles cada vez más compactos hasta el cromosoma metafásico.</span>",
+    "<b>II.</b> b) <mark class=\"clave-criterio\">No afectaría</mark>: su ADN <mark class=\"clave-criterio\">no se asocia a histonas</mark> (0,5 p). <span class=\"redactado\">El ADN de las bacterias es circular y está en el nucleoide, unido a otras proteínas que lo pliegan; no forma cromosomas como los eucarióticos.</span>"
    ],
    "isNew": false,
    "competencial": false,
@@ -64703,7 +64703,7 @@ window.BIOCELIA_HISTORICO = {
     "<b>I.</b> a) <mark class=\"clave-criterio\">Inhibición enzimática (no competitiva)</mark> (0,1 p).",
     "<b>I.</b> b) 1: <mark class=\"clave-criterio\">enzima</mark>; 2: <mark class=\"clave-criterio\">inhibidor</mark>; 3: <mark class=\"clave-criterio\">sustrato</mark> (0,3 p).",
     "<b>I.</b> c) La curva <mark class=\"clave-criterio\">4</mark> (0,2 p).",
-    "<b>I.</b> d) La molécula 3 (sustrato) <mark class=\"clave-criterio\">disminuirá</mark>; la 1 (enzima) <mark class=\"clave-criterio\">no se modifica</mark> (0,4 p).",
+    "<b>I.</b> d) La molécula 3 (sustrato) <mark class=\"clave-criterio\">disminuirá</mark>; la 1 (enzima) <mark class=\"clave-criterio\">no se modifica</mark> (0,4 p). <span class=\"redactado\">La enzima actúa como catalizador: transforma el sustrato en producto pero no se consume en la reacción, y puede actuar una y otra vez.</span>",
     "<b>II.</b> a) <mark class=\"clave-criterio\">Mitocondria</mark> (0,1 p). b) <mark class=\"clave-criterio\">Citoplasma</mark> (0,1 p).",
     "<b>II.</b> c) 1: <mark class=\"clave-criterio\">membrana externa</mark>; 2: <mark class=\"clave-criterio\">membrana interna</mark>; 3: <mark class=\"clave-criterio\">cresta</mark>; 4: <mark class=\"clave-criterio\">matriz</mark>; 5: <mark class=\"clave-criterio\">espacio intermembrana</mark> (0,5 p).",
     "<b>II.</b> d) En 4: <mark class=\"clave-criterio\">β-oxidación</mark>, <mark class=\"clave-criterio\">ciclo de Krebs</mark>, síntesis de proteínas (0,2 p). En 3: <mark class=\"clave-criterio\">fosforilación oxidativa</mark>, <mark class=\"clave-criterio\">transporte de electrones</mark> (0,1 p)."
@@ -64743,7 +64743,7 @@ window.BIOCELIA_HISTORICO = {
     "<b>II.</b> a) 1: <mark class=\"clave-criterio\">plásmido</mark> (vector); 2: <mark class=\"clave-criterio\">inserto</mark> (gen de interés); 3: <mark class=\"clave-criterio\">ADN recombinante</mark> (0,3 p).",
     "<b>II.</b> b) 4: <mark class=\"clave-criterio\">enzima de restricción</mark>; 5: <mark class=\"clave-criterio\">ADN ligasa</mark> (0,2 p).",
     "<b>II.</b> c) <mark class=\"clave-criterio\">Sitio de restricción</mark> (0,1 p).",
-    "<b>II.</b> d) A: <mark class=\"clave-criterio\">corte con enzimas de restricción</mark>; B: <mark class=\"clave-criterio\">ligación</mark> (unión por la ligasa) (0,4 p)."
+    "<b>II.</b> d) A: <mark class=\"clave-criterio\">corte con enzimas de restricción</mark>; B: <mark class=\"clave-criterio\">ligación</mark> (unión por la ligasa) (0,4 p). <span class=\"redactado\">La enzima de restricción corta el plásmido y el ADN de interés por la misma secuencia, dejando extremos cohesivos complementarios; la ADN ligasa une con enlaces fosfodiéster los fragmentos que se han apareado.</span>"
    ],
    "isNew": true,
    "competencial": true,
@@ -64774,9 +64774,9 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "a) Describa la estructura de la molécula del agua [0,6]. b) Indique el tipo de enlace que se establece entre dos moléculas de agua [0,2]. c) Enumere cuatro propiedades físico-químicas del agua y relaciónelas con sus funciones biológicas [1,2].",
    "c": [
-    "a) <mark class=\"clave-criterio\">Dos hidrógenos unidos a un oxígeno por enlace covalente</mark>, formando un <mark class=\"clave-criterio\">dipolo eléctrico</mark> (0,6 p).",
-    "b) <mark class=\"clave-criterio\">Puente de hidrógeno</mark> (0,2 p).",
-    "c) <mark class=\"clave-criterio\">Cohesión y alta constante dieléctrica</mark>: transporte y <mark class=\"clave-criterio\">disolvente</mark>; <mark class=\"clave-criterio\">elevado calor específico</mark>: <mark class=\"clave-criterio\">termorregulación</mark>; <mark class=\"clave-criterio\">alto calor de vaporización</mark>: <mark class=\"clave-criterio\">refrigerante</mark>; <mark class=\"clave-criterio\">adhesión</mark>: <mark class=\"clave-criterio\">capilaridad</mark>; <mark class=\"clave-criterio\">menor densidad del hielo</mark>: <mark class=\"clave-criterio\">vida acuática en zonas frías</mark>. Cuatro (1,2 p)."
+    "a) <mark class=\"clave-criterio\">Dos hidrógenos unidos a un oxígeno por enlace covalente</mark>, formando un <mark class=\"clave-criterio\">dipolo eléctrico</mark> (0,6 p). <span class=\"redactado\">El oxígeno es más electronegativo y atrae los electrones de los enlaces: queda con carga parcial negativa y los hidrógenos, con carga parcial positiva. Los enlaces forman un ángulo de unos 104,5°, por lo que la molécula es polar aunque su carga total sea neutra.</span>",
+    "b) <mark class=\"clave-criterio\">Puente de hidrógeno</mark> (0,2 p). <span class=\"redactado\">Se forma entre el hidrógeno de una molécula y el oxígeno de otra; cada molécula de agua puede formar hasta cuatro.</span>",
+    "c) <mark class=\"clave-criterio\">Cohesión y alta constante dieléctrica</mark>: transporte y <mark class=\"clave-criterio\">disolvente</mark>; <mark class=\"clave-criterio\">elevado calor específico</mark>: <mark class=\"clave-criterio\">termorregulación</mark>; <mark class=\"clave-criterio\">alto calor de vaporización</mark>: <mark class=\"clave-criterio\">refrigerante</mark>; <mark class=\"clave-criterio\">adhesión</mark>: <mark class=\"clave-criterio\">capilaridad</mark>; <mark class=\"clave-criterio\">menor densidad del hielo</mark>: <mark class=\"clave-criterio\">vida acuática en zonas frías</mark>. Cuatro (1,2 p). <span class=\"redactado\">Todas estas propiedades se deben a los puentes de hidrógeno entre las moléculas. Por ejemplo, el calor específico elevado hace que el agua amortigüe los cambios de temperatura, y el hielo flota y aísla el agua líquida de debajo.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Reserva, modelo B",
@@ -64799,10 +64799,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "a) Cite los tipos de retículo endoplasmático que existen en la célula [0,2] e indique una función de cada uno de ellos [0,5]. b) Indique dos características morfológicas que permitan distinguir un tipo de retículo del otro en una observación microscópica [0,6]. c) Indique si estos tipos de retículo son exclusivos de células animales o de células vegetales o si se presentan en ambos tipos de células [0,2]. d) ¿Qué relación tiene el retículo endoplasmático con el complejo de Golgi? [0,5]",
    "c": [
-    "a) <mark class=\"clave-criterio\">REL</mark> y <mark class=\"clave-criterio\">RER</mark> (0,2 p). REL: <mark class=\"clave-criterio\">síntesis de lípidos</mark>, almacén de calcio, detoxificación; RER: <mark class=\"clave-criterio\">síntesis y glucosilación de proteínas</mark> (0,5 p).",
+    "a) <mark class=\"clave-criterio\">REL</mark> y <mark class=\"clave-criterio\">RER</mark> (0,2 p). REL: <mark class=\"clave-criterio\">síntesis de lípidos</mark>, almacén de calcio, detoxificación; RER: <mark class=\"clave-criterio\">síntesis y glucosilación de proteínas</mark> (0,5 p). <span class=\"redactado\">Los ribosomas del RER sintetizan las proteínas de membrana, las de secreción y las de los lisosomas, que entran en el retículo, donde se pliegan y comienza su glucosilación.</span>",
     "b) REL: <mark class=\"clave-criterio\">túbulos sin ribosomas</mark>; RER: <mark class=\"clave-criterio\">cisternas con ribosomas adosados</mark> (0,6 p).",
     "c) <mark class=\"clave-criterio\">En ambos tipos de células</mark> (0,2 p).",
-    "d) <mark class=\"clave-criterio\">Continuidad funcional</mark>: lo sintetizado en el retículo se <mark class=\"clave-criterio\">modifica, madura y empaqueta en el Golgi</mark> (0,5 p)."
+    "d) <mark class=\"clave-criterio\">Continuidad funcional</mark>: lo sintetizado en el retículo se <mark class=\"clave-criterio\">modifica, madura y empaqueta en el Golgi</mark> (0,5 p). <span class=\"redactado\">Del retículo salen vesículas de transición que llegan a la cara cis del Golgi; los productos maduran mientras pasan por sus cisternas y salen por la cara trans hacia la membrana, el exterior o los lisosomas. Ambos forman parte del sistema de endomembranas.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Reserva, modelo B",
@@ -64825,11 +64825,11 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "a) Defina glucólisis [0,4]. b) ¿Cómo se denomina el proceso que permite almacenar la energía liberada durante esta ruta? Mencione la molécula en la que se almacena esta energía [0,4]. c) ¿Dónde se lleva a cabo dicha ruta en las células procarióticas y en las eucarióticas? [0,4] d) Indique si los organismos que realizan esta ruta son aerobios o anaerobios [0,4]. e) Especifique, mencionando una característica, si se trata de una ruta anabólica o catabólica [0,4].",
    "c": [
-    "a) Vía en la que la <mark class=\"clave-criterio\">glucosa se degrada de forma incompleta</mark> con <mark class=\"clave-criterio\">producción de ATP</mark> (0,4 p).",
-    "b) <mark class=\"clave-criterio\">Fosforilación a nivel de sustrato</mark> (0,3 p); <mark class=\"clave-criterio\">ATP</mark> (0,1 p).",
-    "c) <mark class=\"clave-criterio\">Citoplasma</mark>, en ambos (0,4 p).",
-    "d) <mark class=\"clave-criterio\">Aerobios y anaerobios</mark> (0,4 p).",
-    "e) <mark class=\"clave-criterio\">Catabólica</mark> (0,1 p): <mark class=\"clave-criterio\">libera energía (ATP)</mark>, <mark class=\"clave-criterio\">genera poder reductor</mark> (0,3 p)."
+    "a) Vía en la que la <mark class=\"clave-criterio\">glucosa se degrada de forma incompleta</mark> con <mark class=\"clave-criterio\">producción de ATP</mark> (0,4 p). <span class=\"redactado\">En diez reacciones una glucosa (6 C) se transforma en dos moléculas de ácido pirúvico (3 C); el balance es 2 ATP y 2 NADH netos.</span>",
+    "b) <mark class=\"clave-criterio\">Fosforilación a nivel de sustrato</mark> (0,3 p); <mark class=\"clave-criterio\">ATP</mark> (0,1 p). <span class=\"redactado\">Una enzima transfiere directamente al ADP un grupo fosfato de un compuesto con un enlace rico en energía.</span>",
+    "c) <mark class=\"clave-criterio\">Citoplasma</mark>, en ambos (0,4 p). <span class=\"redactado\">En eucariotas, en el citosol.</span>",
+    "d) <mark class=\"clave-criterio\">Aerobios y anaerobios</mark> (0,4 p). <span class=\"redactado\">No necesita oxígeno. Después, el pirúvico sigue la respiración (con O₂) o la fermentación (sin O₂); por eso la realizan casi todas las células, y se considera una ruta muy antigua en la evolución.</span>",
+    "e) <mark class=\"clave-criterio\">Catabólica</mark> (0,1 p): <mark class=\"clave-criterio\">libera energía (ATP)</mark>, <mark class=\"clave-criterio\">genera poder reductor</mark> (0,3 p). <span class=\"redactado\">Es oxidativa: degrada una molécula compleja en otras más sencillas y reduce NAD⁺ a NADH.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Reserva, modelo B",
@@ -64852,10 +64852,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "a) Defina replicación [0,4]. b) Cite cuatro enzimas implicadas en este proceso [0,4]. c) ¿Dónde ocurre en células procarióticas? [0,2] d) ¿Qué significa que la replicación sea semiconservativa y bidireccional? [1]",
    "c": [
-    "a) <mark class=\"clave-criterio\">Copia del ADN</mark> con intervención de la <mark class=\"clave-criterio\">ADN polimerasa</mark> (0,4 p).",
-    "b) <mark class=\"clave-criterio\">Helicasa</mark>, <mark class=\"clave-criterio\">topoisomerasa</mark>, <mark class=\"clave-criterio\">ligasa</mark>, <mark class=\"clave-criterio\">ADN polimerasa</mark>, proteínas SSB, <mark class=\"clave-criterio\">primasa (ARN polimerasa)</mark>. Cuatro (0,4 p).",
-    "c) En el <mark class=\"clave-criterio\">citoplasma</mark> (0,2 p).",
-    "d) Semiconservativa: cada ADN tiene <mark class=\"clave-criterio\">una cadena antigua y otra nueva</mark> (0,5 p). Bidireccional: desde el <mark class=\"clave-criterio\">origen de replicación</mark> avanzan <mark class=\"clave-criterio\">dos horquillas en sentidos opuestos</mark> (0,5 p)."
+    "a) <mark class=\"clave-criterio\">Copia del ADN</mark> con intervención de la <mark class=\"clave-criterio\">ADN polimerasa</mark> (0,4 p). <span class=\"redactado\">Se produce en la fase S de la interfase: a partir de una molécula de ADN se obtienen dos idénticas, que se reparten a las células hijas en la división.</span>",
+    "b) <mark class=\"clave-criterio\">Helicasa</mark>, <mark class=\"clave-criterio\">topoisomerasa</mark>, <mark class=\"clave-criterio\">ligasa</mark>, <mark class=\"clave-criterio\">ADN polimerasa</mark>, proteínas SSB, <mark class=\"clave-criterio\">primasa (ARN polimerasa)</mark>. Cuatro (0,4 p). <span class=\"redactado\">La helicasa separa las dos cadenas; la topoisomerasa elimina las tensiones del superenrollamiento; las proteínas SSB mantienen separadas las cadenas; la primasa sintetiza el cebador de ARN; la ADN polimerasa añade nucleótidos en sentido 5'→3' y elimina los cebadores; y la ligasa une los fragmentos de Okazaki.</span>",
+    "c) En el <mark class=\"clave-criterio\">citoplasma</mark> (0,2 p). <span class=\"redactado\">Porque no tienen núcleo: su ADN está en el nucleoide.</span>",
+    "d) Semiconservativa: cada ADN tiene <mark class=\"clave-criterio\">una cadena antigua y otra nueva</mark> (0,5 p). Bidireccional: desde el <mark class=\"clave-criterio\">origen de replicación</mark> avanzan <mark class=\"clave-criterio\">dos horquillas en sentidos opuestos</mark> (0,5 p). <span class=\"redactado\">El carácter semiconservativo lo demostraron Meselson y Stahl. En eucariotas, cada cromosoma tiene muchos orígenes de replicación, lo que acelera la copia.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Reserva, modelo B",
@@ -64878,10 +64878,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Defina los siguientes términos: a) epítopo [0,5]; b) región variable [0,5]; c) opsonización [0,5]; d) aglutinación [0,5].",
    "c": [
-    "a) Epítopo: <mark class=\"clave-criterio\">zona del antígeno a la que se une el anticuerpo</mark> (0,5 p).",
-    "b) Región variable: <mark class=\"clave-criterio\">zona del anticuerpo a la que se une el antígeno</mark> (0,5 p).",
-    "c) Opsonización: el anticuerpo <mark class=\"clave-criterio\">se une al antígeno y facilita su eliminación</mark> por <mark class=\"clave-criterio\">fagocitosis</mark> o <mark class=\"clave-criterio\">complemento</mark> (0,5 p).",
-    "d) Aglutinación: la unión antígeno-anticuerpo <mark class=\"clave-criterio\">forma agregados</mark> que se eliminan por <mark class=\"clave-criterio\">fagocitosis</mark> (0,5 p)."
+    "a) Epítopo: <mark class=\"clave-criterio\">zona del antígeno a la que se une el anticuerpo</mark> (0,5 p). <span class=\"redactado\">Se llama también determinante antigénico; un mismo antígeno puede tener varios epítopos distintos.</span>",
+    "b) Región variable: <mark class=\"clave-criterio\">zona del anticuerpo a la que se une el antígeno</mark> (0,5 p). <span class=\"redactado\">Está en los extremos de las cadenas pesadas y ligeras y forma el sitio de unión al antígeno; cambia de un anticuerpo a otro, y eso explica su especificidad.</span>",
+    "c) Opsonización: el anticuerpo <mark class=\"clave-criterio\">se une al antígeno y facilita su eliminación</mark> por <mark class=\"clave-criterio\">fagocitosis</mark> o <mark class=\"clave-criterio\">complemento</mark> (0,5 p). <span class=\"redactado\">Las opsoninas (anticuerpos o proteínas del complemento) recubren el patógeno, y los fagocitos, que tienen receptores para ellas, lo reconocen y fagocitan con más facilidad.</span>",
+    "d) Aglutinación: la unión antígeno-anticuerpo <mark class=\"clave-criterio\">forma agregados</mark> que se eliminan por <mark class=\"clave-criterio\">fagocitosis</mark> (0,5 p). <span class=\"redactado\">Como cada anticuerpo tiene al menos dos sitios de unión, une varias células o partículas con el antígeno en su superficie (bacterias, glóbulos rojos) y forma grumos. Si el antígeno es soluble, se habla de precipitación.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Reserva, modelo B",
@@ -64903,7 +64903,7 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>I.</b> El proceso industrial para la producción de leche desnatada implica la eliminación de la mayor parte de los lípidos de la leche entera antes de su envasado. Explique por qué es frecuente enriquecer la leche desnatada con las vitaminas A y D [1]. <i>(1 punto)</i><br><br><b>II.</b> A un grupo de células vegetales y animales que están realizando la división celular se les añade un compuesto que inhibe la formación de vesículas procedentes del complejo de Golgi. a) ¿Causará este compuesto el mismo efecto en la división celular de las células vegetales y de las células animales? [0,5] Si la división celular dura 20 minutos y el ciclo celular completo 60 minutos, b) ¿en qué fase de la división celular o del ciclo celular se encontrarán ambos tipos de células 30 minutos después de añadir dicho compuesto? [0,5] Razone ambas respuestas. <i>(1 punto)</i>",
    "puntos": 2,
    "c": [
-    "<b>I.</b> Ambas vitaminas son <mark class=\"clave-criterio\">liposolubles</mark> y <mark class=\"clave-criterio\">se eliminan al retirar los lípidos</mark>, por eso se añaden después (1 p).",
+    "<b>I.</b> Ambas vitaminas son <mark class=\"clave-criterio\">liposolubles</mark> y <mark class=\"clave-criterio\">se eliminan al retirar los lípidos</mark>, por eso se añaden después (1 p). <span class=\"redactado\">Las vitaminas liposolubles son lípidos insaponificables (la A es un terpeno y la D, un esteroide) y se disuelven en la grasa de la leche; al desnatarla, se pierden con ella. La vitamina A interviene en la visión y la D, en la absorción del calcio, por eso se añaden para que la leche mantenga su valor nutritivo.</span>",
     "<b>II.</b> a) <mark class=\"clave-criterio\">No</mark>: en las vegetales se <mark class=\"clave-criterio\">bloquea la citocinesis</mark> porque faltan las <mark class=\"clave-criterio\">vesículas del Golgi que forman el fragmoplasto</mark>; en las animales <mark class=\"clave-criterio\">no afecta</mark>, porque la citocinesis es por <mark class=\"clave-criterio\">estrangulamiento (surco)</mark> (0,5 p).",
     "<b>II.</b> b) Vegetales: en <mark class=\"clave-criterio\">telofase</mark>, sin poder terminar la división; animales: en <mark class=\"clave-criterio\">interfase</mark>, porque ya la han completado (0,5 p)."
    ],
@@ -64932,10 +64932,10 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>I.</b> En un laboratorio se estudian dos cultivos celulares en recipientes cerrados. En el cultivo número 1 hay algas unicelulares y en el número 2 células eucarióticas animales. Se observa que en la muestra 1 la concentración de oxígeno en el medio sufre oscilaciones cuando se somete a un ciclo diario de luz-oscuridad. a) ¿A qué se debe esta variación en la concentración de oxígeno en la muestra número 1? [0,5] b) ¿Ocurrirá la misma oscilación en la concentración de oxígeno en la muestra número 2? [0,5] Razone las respuestas. <i>(1 punto)</i><br><br><b>II.</b> Para que una cadena polipeptídica quede formada por 40 aminoácidos y liberada en el citoplasma, a) ¿cuántos nucleótidos se necesitan como mínimo en la cadena de ARNm para codificarla? [0,5] b) ¿y cuántos ARNt? [0,5] Razone las respuestas. <i>(1 punto)</i>",
    "puntos": 2,
    "c": [
-    "<b>I.</b> a) Con luz las algas realizan la <mark class=\"clave-criterio\">fase luminosa</mark> y <mark class=\"clave-criterio\">producen oxígeno</mark>; en oscuridad solo hacen <mark class=\"clave-criterio\">respiración</mark> y lo <mark class=\"clave-criterio\">consumen</mark> (0,5 p).",
-    "<b>I.</b> b) <mark class=\"clave-criterio\">No</mark>: las células animales <mark class=\"clave-criterio\">no tienen cloroplastos</mark>; solo respiran y el <mark class=\"clave-criterio\">oxígeno disminuye con el tiempo</mark> (0,5 p).",
-    "<b>II.</b> a) <mark class=\"clave-criterio\">123 nucleótidos</mark>: 40 × 3 = 120 <mark class=\"clave-criterio\">+ 3 del codón de terminación</mark> (0,5 p).",
-    "<b>II.</b> b) <mark class=\"clave-criterio\">40 ARNt</mark>, uno por cada aminoácido (0,5 p)."
+    "<b>I.</b> a) Con luz las algas realizan la <mark class=\"clave-criterio\">fase luminosa</mark> y <mark class=\"clave-criterio\">producen oxígeno</mark>; en oscuridad solo hacen <mark class=\"clave-criterio\">respiración</mark> y lo <mark class=\"clave-criterio\">consumen</mark> (0,5 p). <span class=\"redactado\">Con luz, la fotólisis del agua libera más O₂ del que consume la respiración, y la concentración sube; en la oscuridad la fotosíntesis se detiene, la respiración continúa y la concentración baja. Las algas respiran siempre, con luz y sin ella.</span>",
+    "<b>I.</b> b) <mark class=\"clave-criterio\">No</mark>: las células animales <mark class=\"clave-criterio\">no tienen cloroplastos</mark>; solo respiran y el <mark class=\"clave-criterio\">oxígeno disminuye con el tiempo</mark> (0,5 p). <span class=\"redactado\">En un recipiente cerrado, el O₂ disminuye sin cesar, sea de día o de noche.</span>",
+    "<b>II.</b> a) <mark class=\"clave-criterio\">123 nucleótidos</mark>: 40 × 3 = 120 <mark class=\"clave-criterio\">+ 3 del codón de terminación</mark> (0,5 p). <span class=\"redactado\">Cada aminoácido está codificado por un codón de tres nucleótidos; el primero, el codón de inicio AUG, codifica la metionina, y el codón de terminación no codifica ningún aminoácido pero es necesario para que la cadena se libere.</span>",
+    "<b>II.</b> b) <mark class=\"clave-criterio\">40 ARNt</mark>, uno por cada aminoácido (0,5 p). <span class=\"redactado\">Cada ARNt transporta un aminoácido y reconoce el codón con su anticodón; ninguno reconoce el codón de terminación, que lo reconocen factores de liberación. Un mismo ARNt podría usarse varias veces, pero cada aminoácido incorporado requiere un ARNt cargado.</span>"
    ],
    "isNew": false,
    "competencial": false,
@@ -64966,10 +64966,10 @@ window.BIOCELIA_HISTORICO = {
     "<b>I.</b> b) 1: <mark class=\"clave-criterio\">proteína</mark>; 2: <mark class=\"clave-criterio\">glúcido (oligosacárido)</mark> (0,2 p).",
     "<b>I.</b> c) A: <mark class=\"clave-criterio\">aminoácidos</mark>; B: <mark class=\"clave-criterio\">monosacáridos</mark> (0,2 p).",
     "<b>I.</b> d) <mark class=\"clave-criterio\">Enlace O-glucosídico</mark> (0,2 p).",
-    "<b>I.</b> e) <mark class=\"clave-criterio\">Terciaria (globular)</mark> (0,2 p).",
+    "<b>I.</b> e) <mark class=\"clave-criterio\">Terciaria (globular)</mark> (0,2 p). <span class=\"redactado\">La glucoproteína forma parte, por ejemplo, del glucocáliz de la membrana, que interviene en el reconocimiento celular.</span>",
     "<b>II.</b> a) <mark class=\"clave-criterio\">Célula vegetal</mark> (0,1 p).",
     "<b>II.</b> b) 1: <mark class=\"clave-criterio\">núcleo</mark>; 2: <mark class=\"clave-criterio\">mitocondria</mark>; 3: <mark class=\"clave-criterio\">vacuola</mark>; 4: <mark class=\"clave-criterio\">complejo de Golgi</mark>; 5: <mark class=\"clave-criterio\">pared celular</mark>; 6: <mark class=\"clave-criterio\">cloroplasto</mark>; 7: <mark class=\"clave-criterio\">retículo endoplasmático rugoso</mark> (0,7 p).",
-    "<b>II.</b> c) <mark class=\"clave-criterio\">Cloroplasto</mark>, <mark class=\"clave-criterio\">pared celular</mark>, <mark class=\"clave-criterio\">vacuola grande</mark>. Dos (0,2 p)."
+    "<b>II.</b> c) <mark class=\"clave-criterio\">Cloroplasto</mark>, <mark class=\"clave-criterio\">pared celular</mark>, <mark class=\"clave-criterio\">vacuola grande</mark>. Dos (0,2 p). <span class=\"redactado\">La célula vegetal tiene además plastos y plasmodesmos y no tiene centriolos.</span>"
    ],
    "isNew": true,
    "competencial": true,
@@ -65000,12 +65000,12 @@ window.BIOCELIA_HISTORICO = {
    "puntos": 2,
    "c": [
     "<b>I.</b> a) <mark class=\"clave-criterio\">β-oxidación de los ácidos grasos</mark> (0,3 p).",
-    "<b>I.</b> b) <mark class=\"clave-criterio\">Mitocondrias</mark> (también peroxisomas) (0,2 p).",
+    "<b>I.</b> b) <mark class=\"clave-criterio\">Mitocondrias</mark> (también peroxisomas) (0,2 p). <span class=\"redactado\">En la matriz mitocondrial; los ácidos grasos de cadena muy larga empiezan a degradarse en los peroxisomas.</span>",
     "<b>I.</b> c) <mark class=\"clave-criterio\">Catabólico</mark> (0,1 p).",
-    "<b>I.</b> d) <mark class=\"clave-criterio\">Acetil-CoA</mark> (0,2 p). e) <mark class=\"clave-criterio\">Ciclo de Krebs</mark> (0,2 p).",
+    "<b>I.</b> d) <mark class=\"clave-criterio\">Acetil-CoA</mark> (0,2 p). e) <mark class=\"clave-criterio\">Ciclo de Krebs</mark> (0,2 p). <span class=\"redactado\">En cada vuelta se separan dos carbonos en forma de acetil-CoA y se forman un FADH₂ y un NADH, que van a la cadena respiratoria.</span>",
     "<b>II.</b> a) 1: <mark class=\"clave-criterio\">ADN</mark>; 2: <mark class=\"clave-criterio\">cebador</mark>; 3: <mark class=\"clave-criterio\">nucleótidos</mark> (0,3 p).",
-    "<b>II.</b> b) A: <mark class=\"clave-criterio\">desnaturalización</mark>; B: <mark class=\"clave-criterio\">hibridación de los cebadores</mark>; C: <mark class=\"clave-criterio\">elongación</mark> (extensión) (0,6 p).",
-    "<b>II.</b> c) <mark class=\"clave-criterio\">ADN polimerasa</mark> (<mark class=\"clave-criterio\">Taq polimerasa</mark>) (0,1 p)."
+    "<b>II.</b> b) A: <mark class=\"clave-criterio\">desnaturalización</mark>; B: <mark class=\"clave-criterio\">hibridación de los cebadores</mark>; C: <mark class=\"clave-criterio\">elongación</mark> (extensión) (0,6 p). <span class=\"redactado\">En la desnaturalización, a unos 95 °C, se separan las dos cadenas; al bajar la temperatura, los cebadores se unen por complementariedad a los extremos del fragmento; después, la polimerasa alarga los cebadores. Cada ciclo duplica el número de copias.</span>",
+    "<b>II.</b> c) <mark class=\"clave-criterio\">ADN polimerasa</mark> (<mark class=\"clave-criterio\">Taq polimerasa</mark>) (0,1 p). <span class=\"redactado\">Procede de la bacteria termófila Thermus aquaticus y resiste las altas temperaturas de la desnaturalización.</span>"
    ],
    "isNew": true,
    "competencial": true,
@@ -65072,12 +65072,12 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>I.</b> En ciertas regiones del mundo se hacen importantes campañas para fomentar que las mujeres reciban la vacuna antitetánica (compuesta por la toxina tetánica atenuada) durante el embarazo. a) ¿Qué ventaja tendrá para los recién nacidos la vacunación de sus madres durante la gestación? [0,5] b) ¿La vacunación de las madres mantendrá esta ventaja durante la lactancia materna? [0,5] Razone las respuestas. <i>(1 punto)</i><br><br><b>II.</b> <b>Respecto a la imagen:</b><br>a) Indique el proceso que representa C [0,2].<br>b) Nombre las células A y B [0,4].<br>c) ¿Dónde se forma la célula B? [0,2]<br>d) ¿Qué representa la molécula señalada con 1? [0,2] <i>(1 punto)</i>",
    "puntos": 2,
    "c": [
-    "<b>I.</b> a) El recién nacido estará protegido porque recibe <mark class=\"clave-criterio\">anticuerpos antitetánicos (IgG)</mark> de la madre <mark class=\"clave-criterio\">a través de la placenta</mark> (0,5 p).",
-    "<b>I.</b> b) <mark class=\"clave-criterio\">Sí</mark>: recibirá también <mark class=\"clave-criterio\">anticuerpos (IgA) a través de la leche materna</mark> (0,5 p).",
+    "<b>I.</b> a) El recién nacido estará protegido porque recibe <mark class=\"clave-criterio\">anticuerpos antitetánicos (IgG)</mark> de la madre <mark class=\"clave-criterio\">a través de la placenta</mark> (0,5 p). <span class=\"redactado\">La madre vacunada produce anticuerpos frente a la toxina tetánica, y las IgG son las únicas inmunoglobulinas que atraviesan la placenta. Es una inmunidad pasiva natural: protege desde el nacimiento, pero es temporal y no deja memoria en el bebé.</span>",
+    "<b>I.</b> b) <mark class=\"clave-criterio\">Sí</mark>: recibirá también <mark class=\"clave-criterio\">anticuerpos (IgA) a través de la leche materna</mark> (0,5 p). <span class=\"redactado\">La leche materna, sobre todo el calostro, contiene IgA que protege las mucosas del bebé. También es inmunidad pasiva natural, que dura mientras dura la lactancia.</span>",
     "<b>II.</b> a) <mark class=\"clave-criterio\">Presentación de antígenos</mark> (0,2 p).",
     "<b>II.</b> b) A: <mark class=\"clave-criterio\">macrófago</mark>; B: <mark class=\"clave-criterio\">linfocito T</mark> (0,4 p).",
-    "<b>II.</b> c) En la <mark class=\"clave-criterio\">médula ósea</mark> (0,2 p).",
-    "<b>II.</b> d) <mark class=\"clave-criterio\">Complejo mayor de histocompatibilidad</mark> (0,2 p)."
+    "<b>II.</b> c) En la <mark class=\"clave-criterio\">médula ósea</mark> (0,2 p). <span class=\"redactado\">Se origina en la médula ósea, como todas las células sanguíneas, pero madura en el timo, de donde le viene la «T».</span>",
+    "<b>II.</b> d) <mark class=\"clave-criterio\">Complejo mayor de histocompatibilidad</mark> (0,2 p). <span class=\"redactado\">El macrófago degrada el antígeno y presenta sus fragmentos unidos a moléculas del MHC; el linfocito T solo reconoce el antígeno cuando se lo presentan así.</span>"
    ],
    "isNew": true,
    "competencial": true,
@@ -65107,11 +65107,11 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>I.</b> Dos personas acuden al médico con problemas de salud. A una de ellas el médico le prescribe inmunosupresores, mientras que a la segunda le prescribe un tratamiento de sueroterapia. Explique razonadamente, para cada caso y según el tipo de tratamiento que recibirán, qué tipo de enfermedad podría padecer cada una de estas dos personas [1]. <i>(1 punto)</i><br><br><b>II.</b> <b>La siguiente gráfica representa la respuesta del sistema inmune después de dos exposiciones al mismo antígeno. Cada una de estas exposiciones produce un tipo de reacción diferente (A y B). Responda a las siguientes cuestiones:</b><br>a) ¿Con qué tipo de respuesta inmunitaria se relacionan A y B? [0,2].<br>b) ¿Qué nombre reciben las células señaladas con los números 1, 2, 3 y 4? [0,4]<br>c) ¿Cómo se denominan, en general, las moléculas representadas con los números 5 y 6? [0,1] ¿Qué tipo particular de moléculas son la 5 y la 6? [0,3] <i>(1 punto)</i>",
    "puntos": 2,
    "c": [
-    "<b>I.</b> Inmunosupresores: puede padecer una <mark class=\"clave-criterio\">enfermedad autoinmune</mark> (o haber recibido un <mark class=\"clave-criterio\">trasplante</mark>) (0,5 p).",
-    "<b>I.</b> Sueroterapia: puede padecer una <mark class=\"clave-criterio\">infección</mark> (o haber estado expuesta a una <mark class=\"clave-criterio\">toxina</mark>) (0,5 p).",
-    "<b>II.</b> a) A: <mark class=\"clave-criterio\">respuesta primaria</mark>; B: <mark class=\"clave-criterio\">respuesta secundaria</mark> (0,2 p).",
+    "<b>I.</b> Inmunosupresores: puede padecer una <mark class=\"clave-criterio\">enfermedad autoinmune</mark> (o haber recibido un <mark class=\"clave-criterio\">trasplante</mark>) (0,5 p). <span class=\"redactado\">Los inmunosupresores disminuyen la respuesta inmunitaria: impiden que el sistema inmunitario ataque las células propias o el órgano trasplantado.</span>",
+    "<b>I.</b> Sueroterapia: puede padecer una <mark class=\"clave-criterio\">infección</mark> (o haber estado expuesta a una <mark class=\"clave-criterio\">toxina</mark>) (0,5 p). <span class=\"redactado\">La sueroterapia aporta anticuerpos ya formados (inmunidad pasiva artificial): actúa de inmediato y sirve para curar, aunque su efecto es temporal y no deja memoria.</span>",
+    "<b>II.</b> a) A: <mark class=\"clave-criterio\">respuesta primaria</mark>; B: <mark class=\"clave-criterio\">respuesta secundaria</mark> (0,2 p). <span class=\"redactado\">La respuesta secundaria es más rápida, más intensa y más duradera gracias a los linfocitos de memoria que dejó la primaria.</span>",
     "<b>II.</b> b) 1: <mark class=\"clave-criterio\">linfocito B</mark>; 2: <mark class=\"clave-criterio\">célula plasmática</mark>; 3: <mark class=\"clave-criterio\">linfocito B de memoria</mark>; 4: <mark class=\"clave-criterio\">célula plasmática</mark> (0,4 p).",
-    "<b>II.</b> c) <mark class=\"clave-criterio\">Anticuerpos</mark> (0,1 p); 5: <mark class=\"clave-criterio\">IgM</mark>; 6: <mark class=\"clave-criterio\">IgG</mark> (0,3 p)."
+    "<b>II.</b> c) <mark class=\"clave-criterio\">Anticuerpos</mark> (0,1 p); 5: <mark class=\"clave-criterio\">IgM</mark>; 6: <mark class=\"clave-criterio\">IgG</mark> (0,3 p). <span class=\"redactado\">En la respuesta primaria predominan las IgM, las primeras que se producen; en la secundaria, las IgG.</span>"
    ],
    "isNew": true,
    "competencial": true,
@@ -65141,11 +65141,11 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>I.</b> a) Explique de forma razonada qué genes del sistema inmunitario de una madre deberían verse afectados por una mutación para que el feto no pudiera adquirir inmunidad natural y pasiva durante la gestación [0,6]. b) En caso de no existir la mutación y que el feto adquiriese la inmunidad natural y pasiva, ¿ésta sería temporal o permanente? Razone la respuesta [0,4]. <i>(1 punto)</i><br><br><b>II.</b> <b>La imagen adjunta representa el proceso que ocurre tras la vacunación.</b><br>a) Identifique los elementos de la imagen numerados del 1 al 5 [0,5].<br>b) Cite el nombre de un tratamiento en el que sólo se administren las sustancias representadas con el número 5 [0,2].<br>c) Indique dos diferencias entre este tratamiento y la vacunación [0,3]. <i>(1 punto)</i>",
    "puntos": 2,
    "c": [
-    "<b>I.</b> a) Los <mark class=\"clave-criterio\">genes de la inmunoglobulina G</mark>: la <mark class=\"clave-criterio\">IgG</mark> es el <mark class=\"clave-criterio\">único anticuerpo que atraviesa la placenta</mark> (0,6 p).",
-    "<b>I.</b> b) <mark class=\"clave-criterio\">Temporal</mark>: los <mark class=\"clave-criterio\">anticuerpos de la madre duran poco</mark> (0,4 p).",
+    "<b>I.</b> a) Los <mark class=\"clave-criterio\">genes de la inmunoglobulina G</mark>: la <mark class=\"clave-criterio\">IgG</mark> es el <mark class=\"clave-criterio\">único anticuerpo que atraviesa la placenta</mark> (0,6 p). <span class=\"redactado\">Las IgG atraviesan la placenta mediante un receptor específico; si fallaran los genes que codifican las IgG, el feto no recibiría anticuerpos maternos.</span>",
+    "<b>I.</b> b) <mark class=\"clave-criterio\">Temporal</mark>: los <mark class=\"clave-criterio\">anticuerpos de la madre duran poco</mark> (0,4 p). <span class=\"redactado\">Los anticuerpos recibidos se van degradando a lo largo de los primeros meses de vida, y como el sistema inmunitario del bebé no ha intervenido, no se forman células de memoria.</span>",
     "<b>II.</b> a) 1: <mark class=\"clave-criterio\">antígeno</mark>; 2: <mark class=\"clave-criterio\">linfocito B</mark>; 3: <mark class=\"clave-criterio\">célula de memoria</mark>; 4: <mark class=\"clave-criterio\">célula plasmática</mark>; 5: <mark class=\"clave-criterio\">anticuerpo</mark> (0,5 p).",
     "<b>II.</b> b) <mark class=\"clave-criterio\">Sueroterapia</mark> (0,2 p).",
-    "<b>II.</b> c) Sueroterapia: <mark class=\"clave-criterio\">curativa</mark>, <mark class=\"clave-criterio\">dura poco</mark>, <mark class=\"clave-criterio\">inmunidad pasiva</mark>; vacunación: <mark class=\"clave-criterio\">preventiva</mark>, <mark class=\"clave-criterio\">duradera</mark>, <mark class=\"clave-criterio\">inmunidad activa</mark>. Dos (0,3 p)."
+    "<b>II.</b> c) Sueroterapia: <mark class=\"clave-criterio\">curativa</mark>, <mark class=\"clave-criterio\">dura poco</mark>, <mark class=\"clave-criterio\">inmunidad pasiva</mark>; vacunación: <mark class=\"clave-criterio\">preventiva</mark>, <mark class=\"clave-criterio\">duradera</mark>, <mark class=\"clave-criterio\">inmunidad activa</mark>. Dos (0,3 p). <span class=\"redactado\">La vacuna estimula los linfocitos propios y genera células de memoria, pero tarda en hacer efecto; el suero aporta anticuerpos ya formados, actúa de inmediato pero no deja memoria.</span>"
    ],
    "isNew": true,
    "competencial": true,
@@ -65178,8 +65178,8 @@ window.BIOCELIA_HISTORICO = {
     "<b>I.</b> a) Para <mark class=\"clave-criterio\">evitar el rechazo del órgano trasplantado</mark> <span class=\"redactado\">toma inmunosupresores</span> (0,5 p).",
     "<b>I.</b> b) Está <mark class=\"clave-criterio\">inmunodeprimida</mark> y debe <mark class=\"clave-criterio\">evitar la exposición a agentes infecciosos</mark> (0,5 p).",
     "<b>II.</b> a) <mark class=\"clave-criterio\">Anticuerpos</mark> (inmunoglobulinas) (0,1 p).",
-    "<b>II.</b> b) 1: <mark class=\"clave-criterio\">IgG</mark> (o IgD, IgE); 2: <mark class=\"clave-criterio\">IgA</mark>; 3: <mark class=\"clave-criterio\">IgM</mark> (0,3 p).",
-    "<b>II.</b> c) Placenta: <mark class=\"clave-criterio\">1 (IgG)</mark>; leche materna: <mark class=\"clave-criterio\">2 (IgA)</mark> (0,3 p).",
+    "<b>II.</b> b) 1: <mark class=\"clave-criterio\">IgG</mark> (o IgD, IgE); 2: <mark class=\"clave-criterio\">IgA</mark>; 3: <mark class=\"clave-criterio\">IgM</mark> (0,3 p). <span class=\"redactado\">La IgM es un pentámero y la IgA, un dímero; las IgG, IgD e IgE son monómeros.</span>",
+    "<b>II.</b> c) Placenta: <mark class=\"clave-criterio\">1 (IgG)</mark>; leche materna: <mark class=\"clave-criterio\">2 (IgA)</mark> (0,3 p). <span class=\"redactado\">La IgG da al feto inmunidad pasiva natural, y la IgA de la leche protege las mucosas digestivas del bebé.</span>",
     "<b>II.</b> d) Primaria: <mark class=\"clave-criterio\">3 (IgM)</mark>; secundaria: <mark class=\"clave-criterio\">1 (IgG)</mark> (0,3 p)."
    ],
    "isNew": true,
@@ -65210,11 +65210,11 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>I.</b> En un estudio médico se detectó un grupo de pacientes en los que un tipo de células del sistema inmunitario no era capaz de llevar a cabo sus funciones. Además, se observó que en estos pacientes la tasa de desarrollo de diferentes cánceres era mucho más alta que en el resto de la población. a) Indique de qué tipo de células puede tratarse y razone a qué puede deberse este aumento en la frecuencia de padecer cáncer [0,6]. b) ¿Cree que estos pacientes serán también más propensos a desarrollar enfermedades causadas por virus? [0,4] Razone la respuesta. <i>(1 punto)</i><br><br><b>II.</b> <b>Observe la siguiente imagen en relación con el funcionamiento del sistema inmunitario y responda a las siguientes cuestiones:</b><br>a) ¿Cómo se llama el proceso señalado con la letra A? [0,2]<br>b) ¿Y la célula señalada con el número 1? [0,2]<br>c) ¿Qué moléculas están señaladas con el número 2? [0,2]<br>d) ¿Qué nombre recibe la célula indicada con el número 3? [0,2]<br>e) ¿Qué capacidad del sistema inmunitario se adquiere con las células del tipo 3? [0,2] <i>(1 punto)</i>",
    "puntos": 2,
    "c": [
-    "<b>I.</b> a) <mark class=\"clave-criterio\">Linfocitos T</mark>, encargados de <mark class=\"clave-criterio\">eliminar células cancerosas</mark> (<mark class=\"clave-criterio\">respuesta celular</mark>); también se aceptan los <mark class=\"clave-criterio\">macrófagos</mark>, necesarios para activarlos (0,6 p).",
-    "<b>I.</b> b) <mark class=\"clave-criterio\">Sí</mark>: la respuesta celular también <mark class=\"clave-criterio\">elimina las células infectadas por virus</mark> (0,4 p).",
-    "<b>II.</b> a) <mark class=\"clave-criterio\">Presentación de antígenos del linfocito T al B</mark> (activación del linfocito B) (0,2 p).",
+    "<b>I.</b> a) <mark class=\"clave-criterio\">Linfocitos T</mark>, encargados de <mark class=\"clave-criterio\">eliminar células cancerosas</mark> (<mark class=\"clave-criterio\">respuesta celular</mark>); también se aceptan los <mark class=\"clave-criterio\">macrófagos</mark>, necesarios para activarlos (0,6 p). <span class=\"redactado\">Los linfocitos T citotóxicos reconocen las células tumorales por los antígenos anómalos que presentan y las destruyen; si fallan, las células cancerosas escapan a esta vigilancia inmunitaria.</span>",
+    "<b>I.</b> b) <mark class=\"clave-criterio\">Sí</mark>: la respuesta celular también <mark class=\"clave-criterio\">elimina las células infectadas por virus</mark> (0,4 p). <span class=\"redactado\">Los virus se multiplican dentro de las células, donde los anticuerpos no llegan; los linfocitos T citotóxicos destruyen las células infectadas, que presentan antígenos víricos unidos al MHC de clase I.</span>",
+    "<b>II.</b> a) <mark class=\"clave-criterio\">Presentación de antígenos del linfocito T al B</mark> (activación del linfocito B) (0,2 p). <span class=\"redactado\">En rigor, es el linfocito B el que presenta el antígeno, unido al MHC de clase II, al linfocito T colaborador; este lo activa mediante citocinas y el B prolifera y se diferencia en células plasmáticas y de memoria.</span>",
     "<b>II.</b> b) <mark class=\"clave-criterio\">Célula plasmática</mark> (0,2 p). c) <mark class=\"clave-criterio\">Anticuerpos</mark> (0,2 p).",
-    "<b>II.</b> d) <mark class=\"clave-criterio\">Linfocito B de memoria</mark> (0,2 p). e) <mark class=\"clave-criterio\">Memoria inmunológica</mark> (0,2 p)."
+    "<b>II.</b> d) <mark class=\"clave-criterio\">Linfocito B de memoria</mark> (0,2 p). e) <mark class=\"clave-criterio\">Memoria inmunológica</mark> (0,2 p). <span class=\"redactado\">Ante un nuevo contacto con el mismo antígeno, las células de memoria producen una respuesta secundaria más rápida, más intensa y más duradera: es la base de la vacunación.</span>"
    ],
    "isNew": true,
    "competencial": true,
