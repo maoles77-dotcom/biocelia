@@ -400,8 +400,8 @@
           "figura": "assets/figuras/historico/2016/ra-a4.webp",
           "figuraDesc": "Fórmulas del ácido aspártico y de la fenilalanina.",
           "c": [
-            "Representación de **cada uno de los dos dipéptidos posibles** ((Asp-Phe y Phe-Asp)), 0,4 p cada uno (0,8 p).",
-            "**Enlace peptídico** (0,2 p)."
+            "Representación de **cada uno de los dos dipéptidos posibles** ((Asp-Phe y Phe-Asp)), 0,4 p cada uno (0,8 p). ((El enlace se forma entre el grupo carboxilo de un aminoácido y el grupo amino del otro, con pérdida de una molécula de agua; según cuál aporte el carboxilo, se obtienen dos dipéptidos distintos.))",
+            "**Enlace peptídico** (0,2 p). ((Es un enlace covalente de tipo amida, rígido y plano.))"
           ]
         },
         {

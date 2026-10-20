@@ -215,7 +215,7 @@
           "opcion": "B", "n": 2, "bloque": "Genética", "tema": "Autofecundación y variabilidad en las tenias",
           "q": "Las tenias son organismos hermafroditas que pueden autofecundarse, es decir, en estos organismos se puede producir la fusión de un gameto femenino y masculino procedentes del mismo individuo. Todos los cromosomas de la descendencia de una tenia proceden, por tanto, del mismo individuo. Explique de forma razonada si los descendientes de una tenia tendrán el mismo genotipo [1].",
           "c": [
-            "**No**: los gametos se forman por **meiosis**, que implica **variabilidad genética** ((recombinación y segregación al azar)) (1 p)."
+            "**No**: los gametos se forman por **meiosis**, que implica **variabilidad genética** ((recombinación y segregación al azar)) (1 p). ((En la meiosis de la tenia, el sobrecruzamiento y el reparto al azar de los homólogos hacen que cada gameto lleve una combinación distinta de los alelos del individuo; al unirse dos gametos distintos, cada descendiente recibe una combinación diferente, salvo si el individuo es homocigoto para todos sus genes.))"
           ]
         },
         {

@@ -373,10 +373,10 @@
           "opcion": "B", "n": 2, "bloque": "Metabolismo", "tema": "Fase luminosa de la fotosíntesis",
           "q": "Describa la fase luminosa de la fotosíntesis [2].",
           "c": [
-            "**Captación de luz por los fotosistemas** y **fotólisis del agua** ((que libera O₂)) (0,5 p).",
+            "**Captación de luz por los fotosistemas** y **fotólisis del agua** ((que libera O₂)) (0,5 p). ((La luz excita la clorofila de los fotosistemas II y I; el agua repone los electrones del fotosistema II.))",
             "**Transporte electrónico** ((por la cadena de la membrana tilacoidal)) (0,5 p).",
-            "**Síntesis de ATP** ((fotofosforilación por la ATP sintasa)) (0,5 p).",
-            "**Síntesis de NADPH** (0,5 p)."
+            "**Síntesis de ATP** ((fotofosforilación por la ATP sintasa)) (0,5 p). ((Los protones se acumulan en el interior del tilacoide y salen al estroma a través de la ATP sintasa.))",
+            "**Síntesis de NADPH** (0,5 p). ((Los electrones acaban en el NADP⁺, que se reduce a NADPH; el ATP y el NADPH se usan en el ciclo de Calvin.))"
           ]
         },
         {
@@ -573,7 +573,7 @@
           "q": "a) Defina digestión celular [0,5]. b) Describa el proceso que va desde la ingestión de una bacteria por un macrófago hasta su digestión [1,5].",
           "c": [
             "a) **Degradación de biomoléculas por enzimas digestivas** ((dentro de la célula, en los lisosomas)) (0,5 p).",
-            "b) **Formación del fagosoma**, **fusión con vesículas con enzimas lisosómicas** y **degradación de las macromoléculas**. 0,5 p cada una (1,5 p)."
+            "b) **Formación del fagosoma**, **fusión con vesículas con enzimas lisosómicas** y **degradación de las macromoléculas**. 0,5 p cada una (1,5 p). ((El macrófago emite pseudópodos que engloban la bacteria en un fagosoma; los lisosomas, formados en el Golgi, se fusionan con él y forman un fagolisosoma, donde las enzimas hidrolíticas, a pH ácido, la digieren; los restos no digeridos se expulsan por exocitosis. Además, el macrófago puede presentar fragmentos del antígeno a los linfocitos T.))"
           ]
         },
         {

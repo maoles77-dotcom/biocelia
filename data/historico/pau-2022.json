@@ -362,9 +362,9 @@
           "opcion": "B", "n": 1, "bloque": "Genética", "tema": "ARNm complementario y regla de Chargaff",
           "q": "A partir de la siguiente secuencia de bases nitrogenadas de un fragmento de un gen:<br>5'-TATATACAATTT-3'<br>3'-ATATATGTTAAA-5'<br>a) Indique la secuencia del ARN mensajero correspondiente a la cadena inferior del fragmento y su polaridad [0,5].<br>b) ¿A cuántos aminoácidos podría dar lugar la traducción de este fragmento (suponer que todos los codones tienen traducción a aminoácidos)? [0,25]<br>c) Si la molécula completa de ADN contiene un 30% de adenina, ¿cuáles son los porcentajes de timina, guanina y citosina? [0,25]",
           "c": [
-            "a) **5'-UAUAUACAAUUU-3'** (0,5 p).",
+            "a) **5'-UAUAUACAAUUU-3'** (0,5 p). ((El ARNm es complementario y antiparalelo de la cadena molde (la inferior), así que tiene la misma secuencia que la cadena superior, con U en lugar de T.))",
             "b) **Cuatro aminoácidos** ((12 nucleótidos / 3)) (0,25 p).",
-            "c) **T = 30 %, G = 20 %, C = 20 %** (0,25 p)."
+            "c) **T = 30 %, G = 20 %, C = 20 %** (0,25 p). ((En el ADN bicatenario A = T y G = C (reglas de Chargaff): A + T = 60 %, y el 40 % restante se reparte a partes iguales entre G y C.))"
           ]
         },
         {

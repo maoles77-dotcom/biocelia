@@ -168,8 +168,8 @@
           "opcion": "A", "n": 4, "bloque": "Biomoléculas", "tema": "Inhibición competitiva",
           "q": "En una reacción enzimática se adiciona un compuesto similar al sustrato en estructura y composición. ¿Cuál sería el efecto producido [0,5] y la causa que lo determina [0,5]? Razone las respuestas.",
           "c": [
-            "Efecto: **disminución de la velocidad** de la reacción (0,5 p).",
-            "Causa: **inhibición competitiva** (0,5 p) ((el compuesto compite con el sustrato por el centro activo))."
+            "Efecto: **disminución de la velocidad** de la reacción (0,5 p). ((El inhibidor competitivo se une al centro activo, pero no se transforma; mientras está unido, la enzima no puede unirse al sustrato.))",
+            "Causa: **inhibición competitiva** (0,5 p) ((el compuesto compite con el sustrato por el centro activo)). ((Si se añade mucho más sustrato, este desplaza al inhibidor y la velocidad se recupera.))"
           ]
         },
         {
@@ -677,7 +677,7 @@
           "opcion": "A", "n": 5, "bloque": "Microbiología", "tema": "Levadura y reposo de la masa de pan",
           "q": "¿Por qué cuando se emplea levadura natural para la fabricación del pan es necesario dejar reposar la masa durante un cierto tiempo? Razone la respuesta [1].",
           "c": [
-            "Durante el reposo se produce la **fermentación alcohólica** y la **liberación de CO₂** ((que hace subir la masa)) (1 p)."
+            "Durante el reposo se produce la **fermentación alcohólica** y la **liberación de CO₂** ((que hace subir la masa)) (1 p). ((Las levaduras (Saccharomyces cerevisiae) necesitan tiempo para transformar los azúcares de la harina en etanol y CO₂; el CO₂ queda atrapado en burbujas en la masa, y el etanol se evapora después en el horno.))"
           ]
         },
         {

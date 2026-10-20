@@ -8604,8 +8604,8 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "En una reacción enzimática se adiciona un compuesto similar al sustrato en estructura y composición. ¿Cuál sería el efecto producido [0,5] y la causa que lo determina [0,5]? Razone las respuestas.",
    "c": [
-    "Efecto: <mark class=\"clave-criterio\">disminución de la velocidad</mark> de la reacción (0,5 p).",
-    "Causa: <mark class=\"clave-criterio\">inhibición competitiva</mark> (0,5 p) <span class=\"redactado\">el compuesto compite con el sustrato por el centro activo</span>."
+    "Efecto: <mark class=\"clave-criterio\">disminución de la velocidad</mark> de la reacción (0,5 p). <span class=\"redactado\">El inhibidor competitivo se une al centro activo, pero no se transforma; mientras está unido, la enzima no puede unirse al sustrato.</span>",
+    "Causa: <mark class=\"clave-criterio\">inhibición competitiva</mark> (0,5 p) <span class=\"redactado\">el compuesto compite con el sustrato por el centro activo</span>. <span class=\"redactado\">Si se añade mucho más sustrato, este desplaza al inhibidor y la velocidad se recupera.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2013 · Examen 2",
@@ -9926,7 +9926,7 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "¿Por qué cuando se emplea levadura natural para la fabricación del pan es necesario dejar reposar la masa durante un cierto tiempo? Razone la respuesta [1].",
    "c": [
-    "Durante el reposo se produce la <mark class=\"clave-criterio\">fermentación alcohólica</mark> y la <mark class=\"clave-criterio\">liberación de CO₂</mark> <span class=\"redactado\">que hace subir la masa</span> (1 p)."
+    "Durante el reposo se produce la <mark class=\"clave-criterio\">fermentación alcohólica</mark> y la <mark class=\"clave-criterio\">liberación de CO₂</mark> <span class=\"redactado\">que hace subir la masa</span> (1 p). <span class=\"redactado\">Las levaduras (Saccharomyces cerevisiae) necesitan tiempo para transformar los azúcares de la harina en etanol y CO₂; el CO₂ queda atrapado en burbujas en la masa, y el etanol se evapora después en el horno.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2013 · Examen 6",
@@ -15041,8 +15041,8 @@ window.BIOCELIA_HISTORICO = {
    "competencial": true,
    "q": "El aspartamo es un edulcorante sintético que se utiliza como sustituto de la sacarosa. No es un glúcido sino que está formado por ácido aspártico y fenilalanina. Teniendo en cuenta la figura adjunta, represente las dos posibles fórmulas estructurales del aspartamo [0,8]. ¿Cómo se llama el enlace que une ambas moléculas? [0,2].",
    "c": [
-    "Representación de <mark class=\"clave-criterio\">cada uno de los dos dipéptidos posibles</mark> <span class=\"redactado\">Asp-Phe y Phe-Asp</span>, 0,4 p cada uno (0,8 p).",
-    "<mark class=\"clave-criterio\">Enlace peptídico</mark> (0,2 p)."
+    "Representación de <mark class=\"clave-criterio\">cada uno de los dos dipéptidos posibles</mark> <span class=\"redactado\">Asp-Phe y Phe-Asp</span>, 0,4 p cada uno (0,8 p). <span class=\"redactado\">El enlace se forma entre el grupo carboxilo de un aminoácido y el grupo amino del otro, con pérdida de una molécula de agua; según cuál aporte el carboxilo, se obtienen dos dipéptidos distintos.</span>",
+    "<mark class=\"clave-criterio\">Enlace peptídico</mark> (0,2 p). <span class=\"redactado\">Es un enlace covalente de tipo amida, rígido y plano.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2016 · Reserva A",
@@ -16582,10 +16582,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Describa la fase luminosa de la fotosíntesis [2].",
    "c": [
-    "<mark class=\"clave-criterio\">Captación de luz por los fotosistemas</mark> y <mark class=\"clave-criterio\">fotólisis del agua</mark> <span class=\"redactado\">que libera O₂</span> (0,5 p).",
+    "<mark class=\"clave-criterio\">Captación de luz por los fotosistemas</mark> y <mark class=\"clave-criterio\">fotólisis del agua</mark> <span class=\"redactado\">que libera O₂</span> (0,5 p). <span class=\"redactado\">La luz excita la clorofila de los fotosistemas II y I; el agua repone los electrones del fotosistema II.</span>",
     "<mark class=\"clave-criterio\">Transporte electrónico</mark> <span class=\"redactado\">por la cadena de la membrana tilacoidal</span> (0,5 p).",
-    "<mark class=\"clave-criterio\">Síntesis de ATP</mark> <span class=\"redactado\">fotofosforilación por la ATP sintasa</span> (0,5 p).",
-    "<mark class=\"clave-criterio\">Síntesis de NADPH</mark> (0,5 p)."
+    "<mark class=\"clave-criterio\">Síntesis de ATP</mark> <span class=\"redactado\">fotofosforilación por la ATP sintasa</span> (0,5 p). <span class=\"redactado\">Los protones se acumulan en el interior del tilacoide y salen al estroma a través de la ATP sintasa.</span>",
+    "<mark class=\"clave-criterio\">Síntesis de NADPH</mark> (0,5 p). <span class=\"redactado\">Los electrones acaban en el NADP⁺, que se reduce a NADPH; el ATP y el NADPH se usan en el ciclo de Calvin.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2017 · Suplente de junio",
@@ -17114,7 +17114,7 @@ window.BIOCELIA_HISTORICO = {
    "q": "a) Defina digestión celular [0,5]. b) Describa el proceso que va desde la ingestión de una bacteria por un macrófago hasta su digestión [1,5].",
    "c": [
     "a) <mark class=\"clave-criterio\">Degradación de biomoléculas por enzimas digestivas</mark> <span class=\"redactado\">dentro de la célula, en los lisosomas</span> (0,5 p).",
-    "b) <mark class=\"clave-criterio\">Formación del fagosoma</mark>, <mark class=\"clave-criterio\">fusión con vesículas con enzimas lisosómicas</mark> y <mark class=\"clave-criterio\">degradación de las macromoléculas</mark>. 0,5 p cada una (1,5 p)."
+    "b) <mark class=\"clave-criterio\">Formación del fagosoma</mark>, <mark class=\"clave-criterio\">fusión con vesículas con enzimas lisosómicas</mark> y <mark class=\"clave-criterio\">degradación de las macromoléculas</mark>. 0,5 p cada una (1,5 p). <span class=\"redactado\">El macrófago emite pseudópodos que engloban la bacteria en un fagosoma; los lisosomas, formados en el Golgi, se fusionan con él y forman un fagolisosoma, donde las enzimas hidrolíticas, a pH ácido, la digieren; los restos no digeridos se expulsan por exocitosis. Además, el macrófago puede presentar fragmentos del antígeno a los linfocitos T.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2017 · Titular de junio",
@@ -21833,7 +21833,7 @@ window.BIOCELIA_HISTORICO = {
    "competencial": true,
    "q": "El mal rojo es una enfermedad de los cerdos que causa rigidez en las articulaciones, problemas en las válvulas cardíacas y erupciones cutáneas. La vacuna suele ser bastante efectiva en cerdos adultos, pero en lechones no es necesaria hasta el destete. ¿Por qué cree que los lechones se mantienen protegidos? [1]",
    "c": [
-    "Reciben de la madre <mark class=\"clave-criterio\">anticuerpos contra el mal rojo a través de la leche (lactancia)</mark> <span class=\"redactado\">inmunidad natural pasiva, que dura mientras maman</span> (1 p)."
+    "Reciben de la madre <mark class=\"clave-criterio\">anticuerpos contra el mal rojo a través de la leche (lactancia)</mark> <span class=\"redactado\">inmunidad natural pasiva, que dura mientras maman</span> (1 p). <span class=\"redactado\">Las IgA de la leche protegen las mucosas del lechón; tras el destete esos anticuerpos desaparecen, y como el lechón no ha formado células de memoria, hay que vacunarlo.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2020 · Examen 1",
@@ -22860,9 +22860,9 @@ window.BIOCELIA_HISTORICO = {
    "q": "Defina los siguientes conceptos: a) locus [0,4]; b) centrómero [0,4]; c) cromosoma submetacéntrico [0,4]; d) alelo recesivo [0,4]. e) Indique cuál es la composición molecular de los cromosomas en organismos eucarióticos [0,4].",
    "c": [
     "a) <mark class=\"clave-criterio\">Posición que ocupa un gen en un cromosoma</mark> (0,4 p).",
-    "b) <mark class=\"clave-criterio\">Zona de unión de las dos cromátidas</mark> de un cromosoma (0,4 p).",
+    "b) <mark class=\"clave-criterio\">Zona de unión de las dos cromátidas</mark> de un cromosoma (0,4 p). <span class=\"redactado\">En él se forma el cinetocoro, donde se fijan los microtúbulos del huso.</span>",
     "c) Cromosoma cuyo centrómero deja <mark class=\"clave-criterio\">brazos de longitud desigual</mark> (0,4 p).",
-    "d) <mark class=\"clave-criterio\">Alelo que solo se expresa en homocigosis</mark> (0,4 p).",
+    "d) <mark class=\"clave-criterio\">Alelo que solo se expresa en homocigosis</mark> (0,4 p). <span class=\"redactado\">En el heterocigoto (Aa) no se manifiesta, porque el dominante lo enmascara.</span>",
     "e) <mark class=\"clave-criterio\">ADN y proteínas</mark> <span class=\"redactado\">histonas</span> (0,4 p)."
    ],
    "origen": {
@@ -24578,7 +24578,7 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Las tenias son organismos hermafroditas que pueden autofecundarse, es decir, en estos organismos se puede producir la fusión de un gameto femenino y masculino procedentes del mismo individuo. Todos los cromosomas de la descendencia de una tenia proceden, por tanto, del mismo individuo. Explique de forma razonada si los descendientes de una tenia tendrán el mismo genotipo [1].",
    "c": [
-    "<mark class=\"clave-criterio\">No</mark>: los gametos se forman por <mark class=\"clave-criterio\">meiosis</mark>, que implica <mark class=\"clave-criterio\">variabilidad genética</mark> <span class=\"redactado\">recombinación y segregación al azar</span> (1 p)."
+    "<mark class=\"clave-criterio\">No</mark>: los gametos se forman por <mark class=\"clave-criterio\">meiosis</mark>, que implica <mark class=\"clave-criterio\">variabilidad genética</mark> <span class=\"redactado\">recombinación y segregación al azar</span> (1 p). <span class=\"redactado\">En la meiosis de la tenia, el sobrecruzamiento y el reparto al azar de los homólogos hacen que cada gameto lleve una combinación distinta de los alelos del individuo; al unirse dos gametos distintos, cada descendiente recibe una combinación diferente, salvo si el individuo es homocigoto para todos sus genes.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2021 · Suplente de junio",
@@ -27391,9 +27391,9 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "A partir de la siguiente secuencia de bases nitrogenadas de un fragmento de un gen:<br>5'-TATATACAATTT-3'<br>3'-ATATATGTTAAA-5'<br>a) Indique la secuencia del ARN mensajero correspondiente a la cadena inferior del fragmento y su polaridad [0,5].<br>b) ¿A cuántos aminoácidos podría dar lugar la traducción de este fragmento (suponer que todos los codones tienen traducción a aminoácidos)? [0,25]<br>c) Si la molécula completa de ADN contiene un 30% de adenina, ¿cuáles son los porcentajes de timina, guanina y citosina? [0,25]",
    "c": [
-    "a) <mark class=\"clave-criterio\">5'-UAUAUACAAUUU-3'</mark> (0,5 p).",
+    "a) <mark class=\"clave-criterio\">5'-UAUAUACAAUUU-3'</mark> (0,5 p). <span class=\"redactado\">El ARNm es complementario y antiparalelo de la cadena molde (la inferior), así que tiene la misma secuencia que la cadena superior, con U en lugar de T.</span>",
     "b) <mark class=\"clave-criterio\">Cuatro aminoácidos</mark> <span class=\"redactado\">12 nucleótidos / 3</span> (0,25 p).",
-    "c) <mark class=\"clave-criterio\">T = 30 %, G = 20 %, C = 20 %</mark> (0,25 p)."
+    "c) <mark class=\"clave-criterio\">T = 30 %, G = 20 %, C = 20 %</mark> (0,25 p). <span class=\"redactado\">En el ADN bicatenario A = T y G = C (reglas de Chargaff): A + T = 60 %, y el 40 % restante se reparte a partes iguales entre G y C.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2022 · Reserva de junio",
@@ -30327,9 +30327,9 @@ window.BIOCELIA_HISTORICO = {
    "competencial": true,
    "q": "<b>Atendiendo a la imagen adjunta indique:</b><br>a) ¿Qué molécula o moléculas de las representadas son glúcidos? [0,3] ¿y cuál es su nombre? [0,3]<br>b) De los glúcidos representados, ¿cuál podría formar parte de los ácidos nucleicos? ¿de cuál? [0,3]<br>c) ¿Cuál de ellas tiene función energética? [0,1]",
    "c": [
-    "a) <mark class=\"clave-criterio\">A: glucosa</mark>; <mark class=\"clave-criterio\">C: ribosa</mark>. 0,15 p por molécula y 0,15 p por nombre (0,6 p).",
-    "b) <mark class=\"clave-criterio\">C</mark>, del <mark class=\"clave-criterio\">ARN</mark> (0,3 p).",
-    "c) <mark class=\"clave-criterio\">A</mark> (0,1 p)."
+    "a) <mark class=\"clave-criterio\">A: glucosa</mark>; <mark class=\"clave-criterio\">C: ribosa</mark>. 0,15 p por molécula y 0,15 p por nombre (0,6 p). <span class=\"redactado\">La glucosa es una aldohexosa y la ribosa, una aldopentosa: los dos son monosacáridos.</span>",
+    "b) <mark class=\"clave-criterio\">C</mark>, del <mark class=\"clave-criterio\">ARN</mark> (0,3 p). <span class=\"redactado\">La desoxirribosa, en cambio, forma parte del ADN.</span>",
+    "c) <mark class=\"clave-criterio\">A</mark> (0,1 p). <span class=\"redactado\">La glucosa se oxida en la glucólisis y la respiración celular para obtener ATP.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2024 · Titular, modelo A",
@@ -47032,8 +47032,8 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>I.</b> En una reacción enzimática se adiciona un compuesto similar al sustrato en estructura y composición. ¿Cuál sería el efecto producido [0,5] y la causa que lo determina [0,5]? Razone las respuestas. <i>(1 punto)</i><br><br><b>II.</b> ¿Por qué se utiliza la sueroterapia y no la vacunación una vez que se ha contraído una enfermedad? [0,5]. ¿Por qué el suero se administra mediante una inyección (vía intramuscular) y no mediante una toma oral (vía digestiva)? [0,5]. Razone las respuestas. <i>(1 punto)</i>",
    "puntos": 2,
    "c": [
-    "<b>I.</b> Efecto: <mark class=\"clave-criterio\">disminución de la velocidad</mark> de la reacción (0,5 p).",
-    "<b>I.</b> Causa: <mark class=\"clave-criterio\">inhibición competitiva</mark> (0,5 p) <span class=\"redactado\">el compuesto compite con el sustrato por el centro activo</span>.",
+    "<b>I.</b> Efecto: <mark class=\"clave-criterio\">disminución de la velocidad</mark> de la reacción (0,5 p). <span class=\"redactado\">El inhibidor competitivo se une al centro activo, pero no se transforma; mientras está unido, la enzima no puede unirse al sustrato.</span>",
+    "<b>I.</b> Causa: <mark class=\"clave-criterio\">inhibición competitiva</mark> (0,5 p) <span class=\"redactado\">el compuesto compite con el sustrato por el centro activo</span>. <span class=\"redactado\">Si se añade mucho más sustrato, este desplaza al inhibidor y la velocidad se recupera.</span>",
     "<b>II.</b> El suero aporta <mark class=\"clave-criterio\">anticuerpos ya formados</mark> que reconocen al patógeno; la vacuna introduce el patógeno inactivo para <mark class=\"clave-criterio\">desencadenar una respuesta</mark>, que llega tarde cuando ya hay enfermedad (0,5 p). <span class=\"redactado\">La sueroterapia proporciona una inmunidad pasiva, inmediata pero temporal; la vacuna, una inmunidad activa, que tarda días o semanas en desarrollarse pero deja memoria. Por eso la vacuna es preventiva y el suero, curativo.</span>",
     "<b>II.</b> Por vía oral <mark class=\"clave-criterio\">los anticuerpos se destruirían en el aparato digestivo</mark> (0,5 p). <span class=\"redactado\">Los anticuerpos son proteínas: las proteasas digestivas los hidrolizarían en aminoácidos y no llegarían intactos a la sangre.</span>"
    ],
@@ -48139,7 +48139,7 @@ window.BIOCELIA_HISTORICO = {
    "c": [
     "<b>I.</b> Al aumentar el sustrato se forman más <mark class=\"clave-criterio\">complejos enzima-sustrato</mark> hasta que <mark class=\"clave-criterio\">todas las moléculas de enzima están ocupadas</mark>: <mark class=\"clave-criterio\">velocidad máxima</mark> (0,5 p). <span class=\"redactado\">Es la saturación de la enzima: el sustrato tiene que unirse al centro activo, y cuando todos los centros activos están ocupados, añadir más sustrato no aumenta la velocidad. Solo aumentando la cantidad de enzima aumentaría la velocidad máxima.</span>",
     "<b>I.</b> La velocidad <mark class=\"clave-criterio\">se reducirá</mark> a medida que <mark class=\"clave-criterio\">disminuye el sustrato</mark> y se <mark class=\"clave-criterio\">detendrá cuando se agote</mark> (0,5 p). <span class=\"redactado\">Cuando hay poco sustrato, cada vez menos enzimas encuentran sustrato con el que unirse.</span>",
-    "<b>II.</b> Durante el reposo se produce la <mark class=\"clave-criterio\">fermentación alcohólica</mark> y la <mark class=\"clave-criterio\">liberación de CO₂</mark> <span class=\"redactado\">que hace subir la masa</span> (1 p)."
+    "<b>II.</b> Durante el reposo se produce la <mark class=\"clave-criterio\">fermentación alcohólica</mark> y la <mark class=\"clave-criterio\">liberación de CO₂</mark> <span class=\"redactado\">que hace subir la masa</span> (1 p). <span class=\"redactado\">Las levaduras (Saccharomyces cerevisiae) necesitan tiempo para transformar los azúcares de la harina en etanol y CO₂; el CO₂ queda atrapado en burbujas en la masa, y el etanol se evapora después en el horno.</span>"
    ],
    "isNew": false,
    "competencial": false,
@@ -52510,8 +52510,8 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>I.</b> El aspartamo es un edulcorante sintético que se utiliza como sustituto de la sacarosa. No es un glúcido sino que está formado por ácido aspártico y fenilalanina. Teniendo en cuenta la figura adjunta, represente las dos posibles fórmulas estructurales del aspartamo [0,8]. ¿Cómo se llama el enlace que une ambas moléculas? [0,2]. <i>(1 punto)</i><br><br><b>II.</b> Para obtener el yogur casero se mezcla un poco de yogur con leche y se mantiene a 35-40 ºC durante 8 horas para que se realice la fermentación bacteriana de la leche. ¿Qué ocurriría si la mezcla de yogur y leche se mantuviera en el frigorífico a 4 ºC durante 8 horas? [0,3]. ¿Qué pasaría si la leche utilizada estuviera esterilizada? [0,4]. ¿Qué pasaría si se esteriliza el yogur antes de añadirlo a la leche? [0,3]. <i>(1 punto)</i>",
    "puntos": 2,
    "c": [
-    "<b>I.</b> Representación de <mark class=\"clave-criterio\">cada uno de los dos dipéptidos posibles</mark> <span class=\"redactado\">Asp-Phe y Phe-Asp</span>, 0,4 p cada uno (0,8 p).",
-    "<b>I.</b> <mark class=\"clave-criterio\">Enlace peptídico</mark> (0,2 p).",
+    "<b>I.</b> Representación de <mark class=\"clave-criterio\">cada uno de los dos dipéptidos posibles</mark> <span class=\"redactado\">Asp-Phe y Phe-Asp</span>, 0,4 p cada uno (0,8 p). <span class=\"redactado\">El enlace se forma entre el grupo carboxilo de un aminoácido y el grupo amino del otro, con pérdida de una molécula de agua; según cuál aporte el carboxilo, se obtienen dos dipéptidos distintos.</span>",
+    "<b>I.</b> <mark class=\"clave-criterio\">Enlace peptídico</mark> (0,2 p). <span class=\"redactado\">Es un enlace covalente de tipo amida, rígido y plano.</span>",
     "<b>II.</b> A 4 ºC la temperatura <mark class=\"clave-criterio\">no es adecuada para el crecimiento</mark> de las bacterias: <mark class=\"clave-criterio\">no hay fermentación</mark> (0,3 p). <span class=\"redactado\">A 4 °C las bacterias apenas crecen y sus enzimas son muy poco activas, aunque no mueren; por eso el frigorífico conserva el yogur.</span>",
     "<b>II.</b> Con leche esterilizada <mark class=\"clave-criterio\">sí fermenta</mark>: las <mark class=\"clave-criterio\">bacterias proceden del yogur</mark> (0,4 p). <span class=\"redactado\">Las bacterias lácticas del yogur transforman la lactosa en ácido láctico; la esterilización elimina los microorganismos de la leche, lo que incluso evita que otros compitan con ellas.</span>",
     "<b>II.</b> Esterilizar el yogur <mark class=\"clave-criterio\">mata a las bacterias</mark>: <mark class=\"clave-criterio\">no hay fermentación láctica</mark> (0,3 p). <span class=\"redactado\">Sin bacterias vivas no hay quien transforme la lactosa en ácido láctico, que es lo que hace bajar el pH, coagula las proteínas de la leche (caseína) y espesa el yogur.</span>"
@@ -53519,10 +53519,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Describa la fase luminosa de la fotosíntesis [2].",
    "c": [
-    "<mark class=\"clave-criterio\">Captación de luz por los fotosistemas</mark> y <mark class=\"clave-criterio\">fotólisis del agua</mark> <span class=\"redactado\">que libera O₂</span> (0,5 p).",
+    "<mark class=\"clave-criterio\">Captación de luz por los fotosistemas</mark> y <mark class=\"clave-criterio\">fotólisis del agua</mark> <span class=\"redactado\">que libera O₂</span> (0,5 p). <span class=\"redactado\">La luz excita la clorofila de los fotosistemas II y I; el agua repone los electrones del fotosistema II.</span>",
     "<mark class=\"clave-criterio\">Transporte electrónico</mark> <span class=\"redactado\">por la cadena de la membrana tilacoidal</span> (0,5 p).",
-    "<mark class=\"clave-criterio\">Síntesis de ATP</mark> <span class=\"redactado\">fotofosforilación por la ATP sintasa</span> (0,5 p).",
-    "<mark class=\"clave-criterio\">Síntesis de NADPH</mark> (0,5 p)."
+    "<mark class=\"clave-criterio\">Síntesis de ATP</mark> <span class=\"redactado\">fotofosforilación por la ATP sintasa</span> (0,5 p). <span class=\"redactado\">Los protones se acumulan en el interior del tilacoide y salen al estroma a través de la ATP sintasa.</span>",
+    "<mark class=\"clave-criterio\">Síntesis de NADPH</mark> (0,5 p). <span class=\"redactado\">Los electrones acaban en el NADP⁺, que se reduce a NADPH; el ATP y el NADPH se usan en el ciclo de Calvin.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2017 · Suplente de junio",
@@ -53982,7 +53982,7 @@ window.BIOCELIA_HISTORICO = {
    "q": "a) Defina digestión celular [0,5]. b) Describa el proceso que va desde la ingestión de una bacteria por un macrófago hasta su digestión [1,5].",
    "c": [
     "a) <mark class=\"clave-criterio\">Degradación de biomoléculas por enzimas digestivas</mark> <span class=\"redactado\">dentro de la célula, en los lisosomas</span> (0,5 p).",
-    "b) <mark class=\"clave-criterio\">Formación del fagosoma</mark>, <mark class=\"clave-criterio\">fusión con vesículas con enzimas lisosómicas</mark> y <mark class=\"clave-criterio\">degradación de las macromoléculas</mark>. 0,5 p cada una (1,5 p)."
+    "b) <mark class=\"clave-criterio\">Formación del fagosoma</mark>, <mark class=\"clave-criterio\">fusión con vesículas con enzimas lisosómicas</mark> y <mark class=\"clave-criterio\">degradación de las macromoléculas</mark>. 0,5 p cada una (1,5 p). <span class=\"redactado\">El macrófago emite pseudópodos que engloban la bacteria en un fagosoma; los lisosomas, formados en el Golgi, se fusionan con él y forman un fagolisosoma, donde las enzimas hidrolíticas, a pH ácido, la digieren; los restos no digeridos se expulsan por exocitosis. Además, el macrófago puede presentar fragmentos del antígeno a los linfocitos T.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2017 · Titular de junio",
@@ -58186,9 +58186,9 @@ window.BIOCELIA_HISTORICO = {
    "q": "Defina los siguientes conceptos: a) locus [0,4]; b) centrómero [0,4]; c) cromosoma submetacéntrico [0,4]; d) alelo recesivo [0,4]. e) Indique cuál es la composición molecular de los cromosomas en organismos eucarióticos [0,4].",
    "c": [
     "a) <mark class=\"clave-criterio\">Posición que ocupa un gen en un cromosoma</mark> (0,4 p).",
-    "b) <mark class=\"clave-criterio\">Zona de unión de las dos cromátidas</mark> de un cromosoma (0,4 p).",
+    "b) <mark class=\"clave-criterio\">Zona de unión de las dos cromátidas</mark> de un cromosoma (0,4 p). <span class=\"redactado\">En él se forma el cinetocoro, donde se fijan los microtúbulos del huso.</span>",
     "c) Cromosoma cuyo centrómero deja <mark class=\"clave-criterio\">brazos de longitud desigual</mark> (0,4 p).",
-    "d) <mark class=\"clave-criterio\">Alelo que solo se expresa en homocigosis</mark> (0,4 p).",
+    "d) <mark class=\"clave-criterio\">Alelo que solo se expresa en homocigosis</mark> (0,4 p). <span class=\"redactado\">En el heterocigoto (Aa) no se manifiesta, porque el dominante lo enmascara.</span>",
     "e) <mark class=\"clave-criterio\">ADN y proteínas</mark> <span class=\"redactado\">histonas</span> (0,4 p)."
    ],
    "origen": {
@@ -58912,7 +58912,7 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>I.</b> El mal rojo es una enfermedad de los cerdos que causa rigidez en las articulaciones, problemas en las válvulas cardíacas y erupciones cutáneas. La vacuna suele ser bastante efectiva en cerdos adultos, pero en lechones no es necesaria hasta el destete. ¿Por qué cree que los lechones se mantienen protegidos? [1] <i>(1 punto)</i><br><br><b>II.</b> En relación con las figuras adjuntas, en el contexto del sistema inmunitario, conteste las siguientes cuestiones: a) ¿Qué proceso representa la imagen 1? [0,1] b) ¿Qué células pueden realizar este proceso? [0,2] c) ¿Cuál de ellas actúa como célula presentadora de antígenos? [0,2] d) ¿Cómo se denominan las moléculas señaladas con la flecha en la imagen 2? [0,2] e) Cite dos funciones de estas moléculas [0,3]. <i>(1 punto)</i>",
    "puntos": 2,
    "c": [
-    "<b>I.</b> Reciben de la madre <mark class=\"clave-criterio\">anticuerpos contra el mal rojo a través de la leche (lactancia)</mark> <span class=\"redactado\">inmunidad natural pasiva, que dura mientras maman</span> (1 p).",
+    "<b>I.</b> Reciben de la madre <mark class=\"clave-criterio\">anticuerpos contra el mal rojo a través de la leche (lactancia)</mark> <span class=\"redactado\">inmunidad natural pasiva, que dura mientras maman</span> (1 p). <span class=\"redactado\">Las IgA de la leche protegen las mucosas del lechón; tras el destete esos anticuerpos desaparecen, y como el lechón no ha formado células de memoria, hay que vacunarlo.</span>",
     "<b>II.</b> a) <mark class=\"clave-criterio\">Fagocitosis</mark> (0,1 p).",
     "<b>II.</b> b) <mark class=\"clave-criterio\">Macrófagos o neutrófilos</mark> (0,2 p). <span class=\"redactado\">Son células de la inmunidad innata.</span>",
     "<b>II.</b> c) <mark class=\"clave-criterio\">Macrófagos</mark> (0,2 p). <span class=\"redactado\">El macrófago degrada lo fagocitado y presenta sus fragmentos unidos a moléculas del MHC a los linfocitos T colaboradores, que así se activan.</span>",
@@ -59502,7 +59502,7 @@ window.BIOCELIA_HISTORICO = {
     "<b>I.</b> a) <mark class=\"clave-criterio\">Sí</mark>: el ADN bacteriano es <mark class=\"clave-criterio\">bicatenario</mark> (C = G, A = T): <mark class=\"clave-criterio\">G 28 %, A 22 %, T 22 %</mark> (0,3 p).",
     "<b>I.</b> b) <mark class=\"clave-criterio\">No</mark>: el ARN es <mark class=\"clave-criterio\">monocatenario</mark> y <mark class=\"clave-criterio\">no hay complementariedad</mark> entre sus bases (0,3 p).",
     "<b>I.</b> c) Como máximo <mark class=\"clave-criterio\">120 aminoácidos</mark> (360 / 3), porque cada aminoácido lo codifica <mark class=\"clave-criterio\">un triplete</mark>; o <mark class=\"clave-criterio\">119</mark> si se descuenta el <mark class=\"clave-criterio\">codón de terminación</mark> (0,4 p).",
-    "<b>II.</b> <mark class=\"clave-criterio\">No</mark>: los gametos se forman por <mark class=\"clave-criterio\">meiosis</mark>, que implica <mark class=\"clave-criterio\">variabilidad genética</mark> <span class=\"redactado\">recombinación y segregación al azar</span> (1 p)."
+    "<b>II.</b> <mark class=\"clave-criterio\">No</mark>: los gametos se forman por <mark class=\"clave-criterio\">meiosis</mark>, que implica <mark class=\"clave-criterio\">variabilidad genética</mark> <span class=\"redactado\">recombinación y segregación al azar</span> (1 p). <span class=\"redactado\">En la meiosis de la tenia, el sobrecruzamiento y el reparto al azar de los homólogos hacen que cada gameto lleve una combinación distinta de los alelos del individuo; al unirse dos gametos distintos, cada descendiente recibe una combinación diferente, salvo si el individuo es homocigoto para todos sus genes.</span>"
    ],
    "isNew": false,
    "competencial": false,
@@ -61529,9 +61529,9 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>I.</b> A partir de la siguiente secuencia de bases nitrogenadas de un fragmento de un gen:<br>5'-TATATACAATTT-3'<br>3'-ATATATGTTAAA-5'<br>a) Indique la secuencia del ARN mensajero correspondiente a la cadena inferior del fragmento y su polaridad [0,5].<br>b) ¿A cuántos aminoácidos podría dar lugar la traducción de este fragmento (suponer que todos los codones tienen traducción a aminoácidos)? [0,25]<br>c) Si la molécula completa de ADN contiene un 30% de adenina, ¿cuáles son los porcentajes de timina, guanina y citosina? [0,25] <i>(1 punto)</i><br><br><b>II.</b> En un laboratorio se quieren estudiar los mecanismos de control de la meiosis y para ello se seleccionan células que provienen de los siguientes órganos: piel, riñón, intestino delgado y testículo. a) Explique cuáles serán las células más adecuadas para realizar este estudio [0,5]. b) Si por el contrario se quisiera estudiar la mitosis, ¿qué células serían las idóneas? [0,5] Razone todas las respuestas. <i>(1 punto)</i>",
    "puntos": 2,
    "c": [
-    "<b>I.</b> a) <mark class=\"clave-criterio\">5'-UAUAUACAAUUU-3'</mark> (0,5 p).",
+    "<b>I.</b> a) <mark class=\"clave-criterio\">5'-UAUAUACAAUUU-3'</mark> (0,5 p). <span class=\"redactado\">El ARNm es complementario y antiparalelo de la cadena molde (la inferior), así que tiene la misma secuencia que la cadena superior, con U en lugar de T.</span>",
     "<b>I.</b> b) <mark class=\"clave-criterio\">Cuatro aminoácidos</mark> <span class=\"redactado\">12 nucleótidos / 3</span> (0,25 p).",
-    "<b>I.</b> c) <mark class=\"clave-criterio\">T = 30 %, G = 20 %, C = 20 %</mark> (0,25 p).",
+    "<b>I.</b> c) <mark class=\"clave-criterio\">T = 30 %, G = 20 %, C = 20 %</mark> (0,25 p). <span class=\"redactado\">En el ADN bicatenario A = T y G = C (reglas de Chargaff): A + T = 60 %, y el 40 % restante se reparte a partes iguales entre G y C.</span>",
     "<b>II.</b> a) Las del <mark class=\"clave-criterio\">testículo</mark>: son <mark class=\"clave-criterio\">células germinales</mark> que forman gametos por <mark class=\"clave-criterio\">meiosis</mark>; los demás órganos solo tienen <mark class=\"clave-criterio\">células somáticas</mark> (0,5 p).",
     "<b>II.</b> b) Las de <mark class=\"clave-criterio\">piel, riñón e intestino delgado</mark>, <mark class=\"clave-criterio\">células somáticas</mark> que se dividen por <mark class=\"clave-criterio\">mitosis</mark> (vale el testículo si se precisa que son sus células somáticas) (0,5 p)."
    ],
@@ -63658,9 +63658,9 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>I.</b> <b>Atendiendo a la imagen adjunta indique:</b><br>a) ¿Qué molécula o moléculas de las representadas son glúcidos? [0,3] ¿y cuál es su nombre? [0,3]<br>b) De los glúcidos representados, ¿cuál podría formar parte de los ácidos nucleicos? ¿de cuál? [0,3]<br>c) ¿Cuál de ellas tiene función energética? [0,1] <i>(1 punto)</i><br><br><b>II.</b> <b>A la vista de la imagen adjunta:</b><br>a) ¿Qué nombre recibe el proceso celular representado? [0,2]<br>b) Indique si este proceso se realiza en células animales, vegetales o en ambas [0,1].<br>c) Nombre los elementos señalados con las letras A y B [0,3].<br>d) Indique la función del elemento señalado con la letra A [0,3].<br>e) Nombre el orgánulo donde se origina A [0,1]. <i>(1 punto)</i>",
    "puntos": 2,
    "c": [
-    "<b>I.</b> a) <mark class=\"clave-criterio\">A: glucosa</mark>; <mark class=\"clave-criterio\">C: ribosa</mark>. 0,15 p por molécula y 0,15 p por nombre (0,6 p).",
-    "<b>I.</b> b) <mark class=\"clave-criterio\">C</mark>, del <mark class=\"clave-criterio\">ARN</mark> (0,3 p).",
-    "<b>I.</b> c) <mark class=\"clave-criterio\">A</mark> (0,1 p).",
+    "<b>I.</b> a) <mark class=\"clave-criterio\">A: glucosa</mark>; <mark class=\"clave-criterio\">C: ribosa</mark>. 0,15 p por molécula y 0,15 p por nombre (0,6 p). <span class=\"redactado\">La glucosa es una aldohexosa y la ribosa, una aldopentosa: los dos son monosacáridos.</span>",
+    "<b>I.</b> b) <mark class=\"clave-criterio\">C</mark>, del <mark class=\"clave-criterio\">ARN</mark> (0,3 p). <span class=\"redactado\">La desoxirribosa, en cambio, forma parte del ADN.</span>",
+    "<b>I.</b> c) <mark class=\"clave-criterio\">A</mark> (0,1 p). <span class=\"redactado\">La glucosa se oxida en la glucólisis y la respiración celular para obtener ATP.</span>",
     "<b>II.</b> a) <mark class=\"clave-criterio\">Fagocitosis</mark> (0,2 p). b) <mark class=\"clave-criterio\">Células animales</mark> (0,1 p).",
     "<b>II.</b> c) A: <mark class=\"clave-criterio\">lisosoma</mark>; B: <mark class=\"clave-criterio\">fagosoma</mark> (0,3 p).",
     "<b>II.</b> d) <mark class=\"clave-criterio\">Digestión celular</mark> (0,3 p). e) <mark class=\"clave-criterio\">Complejo de Golgi</mark> (0,1 p). <span class=\"redactado\">El lisosoma contiene enzimas hidrolíticas y se fusiona con el fagosoma, formando un fagolisosoma en el que se digiere lo fagocitado.</span>"

@@ -8939,8 +8939,8 @@
     "tipo": "respuesta breve",
     "pregunta": "En una reacción enzimática se adiciona un compuesto similar al sustrato en estructura y composición. ¿Cuál sería el efecto producido [0,5] y la causa que lo determina [0,5]? Razone las respuestas.",
     "respuesta": [
-      "Efecto: disminución de la velocidad de la reacción (0,5 p).",
-      "Causa: inhibición competitiva (0,5 p) el compuesto compite con el sustrato por el centro activo."
+      "Efecto: disminución de la velocidad de la reacción (0,5 p). El inhibidor competitivo se une al centro activo, pero no se transforma; mientras está unido, la enzima no puede unirse al sustrato.",
+      "Causa: inhibición competitiva (0,5 p) el compuesto compite con el sustrato por el centro activo. Si se añade mucho más sustrato, este desplaza al inhibidor y la velocidad se recupera."
     ],
     "palabras_clave": [
       "disminución de la velocidad",
@@ -10267,7 +10267,7 @@
     "tipo": "respuesta breve",
     "pregunta": "¿Por qué cuando se emplea levadura natural para la fabricación del pan es necesario dejar reposar la masa durante un cierto tiempo? Razone la respuesta [1].",
     "respuesta": [
-      "Durante el reposo se produce la fermentación alcohólica y la liberación de CO₂ que hace subir la masa (1 p)."
+      "Durante el reposo se produce la fermentación alcohólica y la liberación de CO₂ que hace subir la masa (1 p). Las levaduras (Saccharomyces cerevisiae) necesitan tiempo para transformar los azúcares de la harina en etanol y CO₂; el CO₂ queda atrapado en burbujas en la masa, y el etanol se evapora después en el horno."
     ],
     "palabras_clave": [
       "fermentación alcohólica",
@@ -15491,8 +15491,8 @@
     "tipo": "respuesta breve",
     "pregunta": "El aspartamo es un edulcorante sintético que se utiliza como sustituto de la sacarosa. No es un glúcido sino que está formado por ácido aspártico y fenilalanina. Teniendo en cuenta la figura adjunta, represente las dos posibles fórmulas estructurales del aspartamo [0,8]. ¿Cómo se llama el enlace que une ambas moléculas? [0,2].",
     "respuesta": [
-      "Representación de cada uno de los dos dipéptidos posibles Asp-Phe y Phe-Asp, 0,4 p cada uno (0,8 p).",
-      "Enlace peptídico (0,2 p)."
+      "Representación de cada uno de los dos dipéptidos posibles Asp-Phe y Phe-Asp, 0,4 p cada uno (0,8 p). El enlace se forma entre el grupo carboxilo de un aminoácido y el grupo amino del otro, con pérdida de una molécula de agua; según cuál aporte el carboxilo, se obtienen dos dipéptidos distintos.",
+      "Enlace peptídico (0,2 p). Es un enlace covalente de tipo amida, rígido y plano."
     ],
     "palabras_clave": [
       "Enlace peptídico",
@@ -16998,10 +16998,10 @@
     "tipo": "respuesta breve",
     "pregunta": "Describa la fase luminosa de la fotosíntesis [2].",
     "respuesta": [
-      "Captación de luz por los fotosistemas y fotólisis del agua que libera O₂ (0,5 p).",
+      "Captación de luz por los fotosistemas y fotólisis del agua que libera O₂ (0,5 p). La luz excita la clorofila de los fotosistemas II y I; el agua repone los electrones del fotosistema II.",
       "Transporte electrónico por la cadena de la membrana tilacoidal (0,5 p).",
-      "Síntesis de ATP fotofosforilación por la ATP sintasa (0,5 p).",
-      "Síntesis de NADPH (0,5 p)."
+      "Síntesis de ATP fotofosforilación por la ATP sintasa (0,5 p). Los protones se acumulan en el interior del tilacoide y salen al estroma a través de la ATP sintasa.",
+      "Síntesis de NADPH (0,5 p). Los electrones acaban en el NADP⁺, que se reduce a NADPH; el ATP y el NADPH se usan en el ciclo de Calvin."
     ],
     "palabras_clave": [
       "Captación de luz por los fotosistemas",
@@ -17504,7 +17504,7 @@
     "pregunta": "a) Defina digestión celular [0,5]. b) Describa el proceso que va desde la ingestión de una bacteria por un macrófago hasta su digestión [1,5].",
     "respuesta": [
       "a) Degradación de biomoléculas por enzimas digestivas dentro de la célula, en los lisosomas (0,5 p).",
-      "b) Formación del fagosoma, fusión con vesículas con enzimas lisosómicas y degradación de las macromoléculas. 0,5 p cada una (1,5 p)."
+      "b) Formación del fagosoma, fusión con vesículas con enzimas lisosómicas y degradación de las macromoléculas. 0,5 p cada una (1,5 p). El macrófago emite pseudópodos que engloban la bacteria en un fagosoma; los lisosomas, formados en el Golgi, se fusionan con él y forman un fagolisosoma, donde las enzimas hidrolíticas, a pH ácido, la digieren; los restos no digeridos se expulsan por exocitosis. Además, el macrófago puede presentar fragmentos del antígeno a los linfocitos T."
     ],
     "palabras_clave": [
       "Degradación de biomoléculas por enzimas digestivas",
@@ -22119,7 +22119,7 @@
     "tipo": "respuesta breve",
     "pregunta": "El mal rojo es una enfermedad de los cerdos que causa rigidez en las articulaciones, problemas en las válvulas cardíacas y erupciones cutáneas. La vacuna suele ser bastante efectiva en cerdos adultos, pero en lechones no es necesaria hasta el destete. ¿Por qué cree que los lechones se mantienen protegidos? [1]",
     "respuesta": [
-      "Reciben de la madre anticuerpos contra el mal rojo a través de la leche (lactancia) inmunidad natural pasiva, que dura mientras maman (1 p)."
+      "Reciben de la madre anticuerpos contra el mal rojo a través de la leche (lactancia) inmunidad natural pasiva, que dura mientras maman (1 p). Las IgA de la leche protegen las mucosas del lechón; tras el destete esos anticuerpos desaparecen, y como el lechón no ha formado células de memoria, hay que vacunarlo."
     ],
     "palabras_clave": [
       "anticuerpos contra el mal rojo a través de la leche (lactancia)"
@@ -23082,9 +23082,9 @@
     "pregunta": "Defina los siguientes conceptos: a) locus [0,4]; b) centrómero [0,4]; c) cromosoma submetacéntrico [0,4]; d) alelo recesivo [0,4]. e) Indique cuál es la composición molecular de los cromosomas en organismos eucarióticos [0,4].",
     "respuesta": [
       "a) Posición que ocupa un gen en un cromosoma (0,4 p).",
-      "b) Zona de unión de las dos cromátidas de un cromosoma (0,4 p).",
+      "b) Zona de unión de las dos cromátidas de un cromosoma (0,4 p). En él se forma el cinetocoro, donde se fijan los microtúbulos del huso.",
       "c) Cromosoma cuyo centrómero deja brazos de longitud desigual (0,4 p).",
-      "d) Alelo que solo se expresa en homocigosis (0,4 p).",
+      "d) Alelo que solo se expresa en homocigosis (0,4 p). En el heterocigoto (Aa) no se manifiesta, porque el dominante lo enmascara.",
       "e) ADN y proteínas histonas (0,4 p)."
     ],
     "palabras_clave": [
@@ -24742,7 +24742,7 @@
     "tipo": "respuesta breve",
     "pregunta": "Las tenias son organismos hermafroditas que pueden autofecundarse, es decir, en estos organismos se puede producir la fusión de un gameto femenino y masculino procedentes del mismo individuo. Todos los cromosomas de la descendencia de una tenia proceden, por tanto, del mismo individuo. Explique de forma razonada si los descendientes de una tenia tendrán el mismo genotipo [1].",
     "respuesta": [
-      "No: los gametos se forman por meiosis, que implica variabilidad genética recombinación y segregación al azar (1 p)."
+      "No: los gametos se forman por meiosis, que implica variabilidad genética recombinación y segregación al azar (1 p). En la meiosis de la tenia, el sobrecruzamiento y el reparto al azar de los homólogos hacen que cada gameto lleve una combinación distinta de los alelos del individuo; al unirse dos gametos distintos, cada descendiente recibe una combinación diferente, salvo si el individuo es homocigoto para todos sus genes."
     ],
     "palabras_clave": [
       "No",
@@ -27460,9 +27460,9 @@
     "tipo": "respuesta breve",
     "pregunta": "A partir de la siguiente secuencia de bases nitrogenadas de un fragmento de un gen: 5'-TATATACAATTT-3' 3'-ATATATGTTAAA-5' a) Indique la secuencia del ARN mensajero correspondiente a la cadena inferior del fragmento y su polaridad [0,5]. b) ¿A cuántos aminoácidos podría dar lugar la traducción de este fragmento (suponer que todos los codones tienen traducción a aminoácidos)? [0,25] c) Si la molécula completa de ADN contiene un 30% de adenina, ¿cuáles son los porcentajes de timina, guanina y citosina? [0,25]",
     "respuesta": [
-      "a) 5'-UAUAUACAAUUU-3' (0,5 p).",
+      "a) 5'-UAUAUACAAUUU-3' (0,5 p). El ARNm es complementario y antiparalelo de la cadena molde (la inferior), así que tiene la misma secuencia que la cadena superior, con U en lugar de T.",
       "b) Cuatro aminoácidos 12 nucleótidos / 3 (0,25 p).",
-      "c) T = 30 %, G = 20 %, C = 20 % (0,25 p)."
+      "c) T = 30 %, G = 20 %, C = 20 % (0,25 p). En el ADN bicatenario A = T y G = C (reglas de Chargaff): A + T = 60 %, y el 40 % restante se reparte a partes iguales entre G y C."
     ],
     "palabras_clave": [
       "5'-UAUAUACAAUUU-3'",
@@ -30163,9 +30163,9 @@
     "tipo": "respuesta breve",
     "pregunta": "Atendiendo a la imagen adjunta indique: a) ¿Qué molécula o moléculas de las representadas son glúcidos? [0,3] ¿y cuál es su nombre? [0,3] b) De los glúcidos representados, ¿cuál podría formar parte de los ácidos nucleicos? ¿de cuál? [0,3] c) ¿Cuál de ellas tiene función energética? [0,1]",
     "respuesta": [
-      "a) A: glucosa; C: ribosa. 0,15 p por molécula y 0,15 p por nombre (0,6 p).",
-      "b) C, del ARN (0,3 p).",
-      "c) A (0,1 p)."
+      "a) A: glucosa; C: ribosa. 0,15 p por molécula y 0,15 p por nombre (0,6 p). La glucosa es una aldohexosa y la ribosa, una aldopentosa: los dos son monosacáridos.",
+      "b) C, del ARN (0,3 p). La desoxirribosa, en cambio, forma parte del ADN.",
+      "c) A (0,1 p). La glucosa se oxida en la glucólisis y la respiración celular para obtener ATP."
     ],
     "palabras_clave": [
       "A",

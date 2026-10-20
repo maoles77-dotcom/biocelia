@@ -127,7 +127,7 @@
           "competencial": true,
           "q": "El mal rojo es una enfermedad de los cerdos que causa rigidez en las articulaciones, problemas en las válvulas cardíacas y erupciones cutáneas. La vacuna suele ser bastante efectiva en cerdos adultos, pero en lechones no es necesaria hasta el destete. ¿Por qué cree que los lechones se mantienen protegidos? [1]",
           "c": [
-            "Reciben de la madre **anticuerpos contra el mal rojo a través de la leche (lactancia)** ((inmunidad natural pasiva, que dura mientras maman)) (1 p)."
+            "Reciben de la madre **anticuerpos contra el mal rojo a través de la leche (lactancia)** ((inmunidad natural pasiva, que dura mientras maman)) (1 p). ((Las IgA de la leche protegen las mucosas del lechón; tras el destete esos anticuerpos desaparecen, y como el lechón no ha formado células de memoria, hay que vacunarlo.))"
           ]
         },
         {
@@ -641,9 +641,9 @@
           "q": "Defina los siguientes conceptos: a) locus [0,4]; b) centrómero [0,4]; c) cromosoma submetacéntrico [0,4]; d) alelo recesivo [0,4]. e) Indique cuál es la composición molecular de los cromosomas en organismos eucarióticos [0,4].",
           "c": [
             "a) **Posición que ocupa un gen en un cromosoma** (0,4 p).",
-            "b) **Zona de unión de las dos cromátidas** de un cromosoma (0,4 p).",
+            "b) **Zona de unión de las dos cromátidas** de un cromosoma (0,4 p). ((En él se forma el cinetocoro, donde se fijan los microtúbulos del huso.))",
             "c) Cromosoma cuyo centrómero deja **brazos de longitud desigual** (0,4 p).",
-            "d) **Alelo que solo se expresa en homocigosis** (0,4 p).",
+            "d) **Alelo que solo se expresa en homocigosis** (0,4 p). ((En el heterocigoto (Aa) no se manifiesta, porque el dominante lo enmascara.))",
             "e) **ADN y proteínas** ((histonas)) (0,4 p)."
           ]
         },
