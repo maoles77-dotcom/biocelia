@@ -2681,9 +2681,9 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Describa [0,5] y dibuje [0,3] la estructura de la molécula de agua. Enumere cuatro propiedades físico-químicas del agua y relaciónelas con sus funciones biológicas [1,2].",
    "c": [
-    "Estructura: molécula formada por dos átomos de hidrógeno y uno de oxígeno que forman un <mark class=\"clave-criterio\">dipolo eléctrico</mark> (0,5 p).",
-    "<mark class=\"clave-criterio\">Dibujo</mark> (0,3 p).",
-    "Propiedades y funciones biológicas: <mark class=\"clave-criterio\">cohesión</mark> y alta <mark class=\"clave-criterio\">constante dieléctrica</mark> (transporte y <mark class=\"clave-criterio\">disolvente</mark>); elevado <mark class=\"clave-criterio\">calor específico</mark> (<mark class=\"clave-criterio\">termorregulación</mark>); elevado <mark class=\"clave-criterio\">calor de vaporización</mark> (<mark class=\"clave-criterio\">refrigerante</mark>); <mark class=\"clave-criterio\">adhesión</mark> (<mark class=\"clave-criterio\">capilaridad</mark>); <mark class=\"clave-criterio\">densidad en estado sólido</mark> (vida acuática en zonas frías). Solo cuatro propiedades con su función, a 0,3 p cada una (1,2 p)."
+    "Estructura: molécula formada por dos átomos de hidrógeno y uno de oxígeno que forman un <mark class=\"clave-criterio\">dipolo eléctrico</mark> (0,5 p). <span class=\"redactado\">El oxígeno, más electronegativo, atrae los electrones de los enlaces covalentes: queda con carga parcial negativa y los hidrógenos, con carga parcial positiva. Como los enlaces forman un ángulo de unos 104,5°, la molécula es polar aunque su carga total sea neutra, y forma puentes de hidrógeno con otras moléculas.</span>",
+    "<mark class=\"clave-criterio\">Dibujo</mark> (0,3 p). <span class=\"redactado\">En el dibujo deben verse el ángulo entre los enlaces y las cargas parciales.</span>",
+    "Propiedades y funciones biológicas: <mark class=\"clave-criterio\">cohesión</mark> y alta <mark class=\"clave-criterio\">constante dieléctrica</mark> (transporte y <mark class=\"clave-criterio\">disolvente</mark>); elevado <mark class=\"clave-criterio\">calor específico</mark> (<mark class=\"clave-criterio\">termorregulación</mark>); elevado <mark class=\"clave-criterio\">calor de vaporización</mark> (<mark class=\"clave-criterio\">refrigerante</mark>); <mark class=\"clave-criterio\">adhesión</mark> (<mark class=\"clave-criterio\">capilaridad</mark>); <mark class=\"clave-criterio\">densidad en estado sólido</mark> (vida acuática en zonas frías). Solo cuatro propiedades con su función, a 0,3 p cada una (1,2 p). <span class=\"redactado\">Todas estas propiedades se deben a los puentes de hidrógeno entre las moléculas. Por ejemplo, el calor específico elevado hace que el agua amortigüe los cambios de temperatura, y el hielo flota y aísla el agua líquida de debajo.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2010 · Examen 1",
@@ -2707,9 +2707,9 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Dibuje una célula procariótica y una eucariótica [0,8]. Cite tres diferencias entre las células procarióticas y las eucarióticas [0,6], y tres entre las células animales y vegetales [0,6].",
    "c": [
-    "<mark class=\"clave-criterio\">Cada dibujo</mark>, 0,4 p (0,8 p).",
-    "Diferencias. Procariota: no posee <mark class=\"clave-criterio\">núcleo</mark> ni <mark class=\"clave-criterio\">orgánulos membranosos</mark> y se reproduce por <mark class=\"clave-criterio\">bipartición</mark>. Eucariota: presenta núcleo, orgánulos membranosos, reproducción asexual (<mark class=\"clave-criterio\">mitosis</mark>) y/o sexual (<mark class=\"clave-criterio\">meiosis</mark>), <mark class=\"clave-criterio\">mayor tamaño</mark>, etc. Solo tres, a 0,2 p cada una (0,6 p).",
-    "Diferencias entre células animales y vegetales: <mark class=\"clave-criterio\">pared celular</mark>, <mark class=\"clave-criterio\">forma</mark>, <mark class=\"clave-criterio\">cloroplastos</mark>, <mark class=\"clave-criterio\">centriolos</mark>, <mark class=\"clave-criterio\">vacuolas</mark>, etc. Solo tres, a 0,2 p cada una (0,6 p)."
+    "<mark class=\"clave-criterio\">Cada dibujo</mark>, 0,4 p (0,8 p). <span class=\"redactado\">En el dibujo de la procariota deben verse la pared, la membrana, el nucleoide, los ribosomas y, si se quiere, flagelos y cápsula; en el de la eucariota, el núcleo y orgánulos como mitocondrias, retículo y Golgi.</span>",
+    "Diferencias. Procariota: no posee <mark class=\"clave-criterio\">núcleo</mark> ni <mark class=\"clave-criterio\">orgánulos membranosos</mark> y se reproduce por <mark class=\"clave-criterio\">bipartición</mark>. Eucariota: presenta núcleo, orgánulos membranosos, reproducción asexual (<mark class=\"clave-criterio\">mitosis</mark>) y/o sexual (<mark class=\"clave-criterio\">meiosis</mark>), <mark class=\"clave-criterio\">mayor tamaño</mark>, etc. Solo tres, a 0,2 p cada una (0,6 p). <span class=\"redactado\">Además, los ribosomas de las procariotas son 70S y los del citoplasma eucariota, 80S; el ADN de las procariotas es circular y está en el nucleoide.</span>",
+    "Diferencias entre células animales y vegetales: <mark class=\"clave-criterio\">pared celular</mark>, <mark class=\"clave-criterio\">forma</mark>, <mark class=\"clave-criterio\">cloroplastos</mark>, <mark class=\"clave-criterio\">centriolos</mark>, <mark class=\"clave-criterio\">vacuolas</mark>, etc. Solo tres, a 0,2 p cada una (0,6 p). <span class=\"redactado\">Las vegetales tienen pared de celulosa, cloroplastos y una gran vacuola, y almacenan almidón; las animales tienen centriolos, almacenan glucógeno y pueden hacer fagocitosis.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2010 · Examen 1",
@@ -2760,7 +2760,7 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Indique a qué etapa del ciclo celular de una célula eucariótica afecta una droga que inhiba la polimerización de los microtúbulos. Razone la respuesta [1].",
    "c": [
-    "Para alcanzar la máxima puntuación se deberá relacionar la <mark class=\"clave-criterio\">polimerización de los microtúbulos</mark> con la formación del <mark class=\"clave-criterio\">huso mitótico</mark>. Si solo se responde «la división celular» sin razonamiento, se valora con 0,5 p (1 p)."
+    "Para alcanzar la máxima puntuación se deberá relacionar la <mark class=\"clave-criterio\">polimerización de los microtúbulos</mark> con la formación del <mark class=\"clave-criterio\">huso mitótico</mark>. Si solo se responde «la división celular» sin razonamiento, se valora con 0,5 p (1 p). <span class=\"redactado\">Sin microtúbulos no se forma el huso, los cromosomas no se pueden separar y la célula se detiene en la metafase de la mitosis (fase M). Por ejemplo, la colchicina actúa así, y por eso se usa para ver los cromosomas en los cariotipos.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2010 · Examen 1",
@@ -2784,8 +2784,8 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Entre 1950 y 1960 en España hubo una epidemia de gripe. Ante la aparición reciente de brotes de gripe A y de sus consecuencias entre la población, las autoridades sanitarias consideran como personas de bajo riesgo a los mayores de 50 años, por lo que no es necesario que se vacunen. Explique por qué son de bajo riesgo [0,5] y por qué no es necesario vacunarlas [0,5]. Razone las respuestas.",
    "c": [
-    "La justificación debe basarse en que los mayores de 50 años <mark class=\"clave-criterio\">estuvieron en contacto con los virus</mark> (0,5 p).",
-    "Dada la <mark class=\"clave-criterio\">similitud de ambos virus</mark>, gozan de <mark class=\"clave-criterio\">inmunidad</mark> (0,5 p)."
+    "La justificación debe basarse en que los mayores de 50 años <mark class=\"clave-criterio\">estuvieron en contacto con los virus</mark> (0,5 p). <span class=\"redactado\">Los que pasaron aquella gripe conservan linfocitos B y T de memoria frente a los antígenos de ese virus.</span>",
+    "Dada la <mark class=\"clave-criterio\">similitud de ambos virus</mark>, gozan de <mark class=\"clave-criterio\">inmunidad</mark> (0,5 p). <span class=\"redactado\">Si el virus nuevo tiene antígenos parecidos, las células de memoria lo reconocen y producen una respuesta secundaria, rápida e intensa, que lo elimina antes de que cause la enfermedad. Es una inmunidad activa natural.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2010 · Examen 1",
@@ -2810,9 +2810,9 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>A la vista de la imagen, en la que se representan ejemplares pertenecientes a microorganismos eucarióticos, conteste las siguientes cuestiones:</b><br>a) Identifique los grupos [0,3]. Indique de cada grupo una característica estructural y el tipo de nutrición [0,7].<br>b) ¿A cuál de estos grupos pertenecen los microorganismos utilizados en la producción de vino? [0,3]. Describa el proceso [0,7].",
    "c": [
     "a) Grupo 1: <mark class=\"clave-criterio\">algas microscópicas</mark>; grupo 2: <mark class=\"clave-criterio\">hongos microscópicos</mark> o mucosos; grupo 3: <mark class=\"clave-criterio\">protozoos</mark> (0,3 p).",
-    "a) Algas: con pared celular de <mark class=\"clave-criterio\">celulosa</mark> y <mark class=\"clave-criterio\">autótrofas</mark>. Hongos: con pared de <mark class=\"clave-criterio\">quitina</mark> y <mark class=\"clave-criterio\">heterótrofos</mark>. Protozoos: <mark class=\"clave-criterio\">sin pared</mark> y heterótrofos (0,7 p).",
-    "b) <mark class=\"clave-criterio\">Grupo 2</mark> (0,3 p).",
-    "b) Los hongos transforman los <mark class=\"clave-criterio\">azúcares de la uva</mark> en <mark class=\"clave-criterio\">alcohol</mark> mediante el proceso de la <mark class=\"clave-criterio\">fermentación</mark> (0,7 p)."
+    "a) Algas: con pared celular de <mark class=\"clave-criterio\">celulosa</mark> y <mark class=\"clave-criterio\">autótrofas</mark>. Hongos: con pared de <mark class=\"clave-criterio\">quitina</mark> y <mark class=\"clave-criterio\">heterótrofos</mark>. Protozoos: <mark class=\"clave-criterio\">sin pared</mark> y heterótrofos (0,7 p). <span class=\"redactado\">Las algas tienen cloroplastos; los hongos se alimentan por absorción; muchos protozoos se desplazan con cilios, flagelos o pseudópodos y se alimentan por fagocitosis.</span>",
+    "b) <mark class=\"clave-criterio\">Grupo 2</mark> (0,3 p). <span class=\"redactado\">Son levaduras, como Saccharomyces cerevisiae, hongos unicelulares.</span>",
+    "b) Los hongos transforman los <mark class=\"clave-criterio\">azúcares de la uva</mark> en <mark class=\"clave-criterio\">alcohol</mark> mediante el proceso de la <mark class=\"clave-criterio\">fermentación</mark> (0,7 p). <span class=\"redactado\">Es la fermentación alcohólica: sin oxígeno, el pirúvico de la glucólisis se descarboxila (se libera CO₂) y se reduce a etanol, lo que regenera el NAD⁺ para que la glucólisis continúe.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2010 · Examen 1",
@@ -2926,7 +2926,7 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Los lípidos, independientemente de su tamaño, atraviesan sin dificultad las membranas celulares, mientras que los glúcidos no. Dé una explicación razonada a este hecho [1].",
    "c": [
-    "Los lípidos, por su carácter <mark class=\"clave-criterio\">lipofílico</mark>, atraviesan las membranas celulares por <mark class=\"clave-criterio\">difusión simple</mark>, mientras que los glúcidos, al ser <mark class=\"clave-criterio\">hidrofílicos o lipófobos</mark>, requieren <mark class=\"clave-criterio\">transportadores</mark> (1 p)."
+    "Los lípidos, por su carácter <mark class=\"clave-criterio\">lipofílico</mark>, atraviesan las membranas celulares por <mark class=\"clave-criterio\">difusión simple</mark>, mientras que los glúcidos, al ser <mark class=\"clave-criterio\">hidrofílicos o lipófobos</mark>, requieren <mark class=\"clave-criterio\">transportadores</mark> (1 p). <span class=\"redactado\">El interior de la bicapa es apolar; los glúcidos, con muchos grupos –OH, son polares y la bicapa los repele, así que entran por difusión facilitada, con permeasas específicas, como el transportador de glucosa.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2010 · Examen 1",
@@ -3005,10 +3005,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Explique la importancia biológica de los siguientes glúcidos: glucosa, ribosa, almidón y celulosa [2].",
    "c": [
-    "Glucosa: azúcar más utilizado como <mark class=\"clave-criterio\">fuente de energía</mark> por las células (0,5 p).",
-    "Ribosa: forma parte de la estructura de <mark class=\"clave-criterio\">nucleótidos y ácidos nucleicos</mark> (0,5 p).",
-    "Almidón: principal <mark class=\"clave-criterio\">polisacárido de reserva</mark> de las células vegetales (0,5 p).",
-    "Celulosa: componente principal de las <mark class=\"clave-criterio\">paredes de las células vegetales</mark> (0,5 p)."
+    "Glucosa: azúcar más utilizado como <mark class=\"clave-criterio\">fuente de energía</mark> por las células (0,5 p). <span class=\"redactado\">Se degrada en la glucólisis y en la respiración celular para obtener ATP; la sangre la transporta a todas las células.</span>",
+    "Ribosa: forma parte de la estructura de <mark class=\"clave-criterio\">nucleótidos y ácidos nucleicos</mark> (0,5 p). <span class=\"redactado\">Su derivado, la desoxirribosa, forma parte del ADN; la ribosa también forma parte del ATP y de coenzimas como el NAD⁺.</span>",
+    "Almidón: principal <mark class=\"clave-criterio\">polisacárido de reserva</mark> de las células vegetales (0,5 p). <span class=\"redactado\">Es un polímero de α-glucosa (amilosa y amilopectina) que se almacena en los amiloplastos; es la principal fuente de glúcidos de la alimentación humana (cereales, patata).</span>",
+    "Celulosa: componente principal de las <mark class=\"clave-criterio\">paredes de las células vegetales</mark> (0,5 p). <span class=\"redactado\">Es un polímero lineal de β-glucosa; sus cadenas se unen entre sí por puentes de hidrógeno y forman fibras muy resistentes.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2010 · Examen 2",
@@ -3059,11 +3059,11 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Defina: gen, genotipo, fenotipo, alelo y locus [2].",
    "c": [
-    "Gen: <mark class=\"clave-criterio\">fragmento de ADN</mark> que determina una característica que puede tener diferentes formas o alelos (0,4 p).",
-    "Genotipo: <mark class=\"clave-criterio\">conjunto de los genes</mark> de un individuo (0,4 p).",
-    "Fenotipo: <mark class=\"clave-criterio\">manifestación del genotipo</mark> en un determinado <mark class=\"clave-criterio\">ambiente</mark> (0,4 p).",
-    "Alelo: cada una de las <mark class=\"clave-criterio\">formas alternativas</mark> que puede presentar un gen (0,4 p).",
-    "Locus: <mark class=\"clave-criterio\">posición fija de un gen</mark> sobre un cromosoma (0,4 p)."
+    "Gen: <mark class=\"clave-criterio\">fragmento de ADN</mark> que determina una característica que puede tener diferentes formas o alelos (0,4 p). <span class=\"redactado\">Su secuencia de nucleótidos codifica un polipéptido o un ARN.</span>",
+    "Genotipo: <mark class=\"clave-criterio\">conjunto de los genes</mark> de un individuo (0,4 p). <span class=\"redactado\">Por ejemplo, AA, Aa o aa para un gen.</span>",
+    "Fenotipo: <mark class=\"clave-criterio\">manifestación del genotipo</mark> en un determinado <mark class=\"clave-criterio\">ambiente</mark> (0,4 p). <span class=\"redactado\">Por ejemplo, el color de una flor o el grupo sanguíneo; el ambiente puede modificarlo.</span>",
+    "Alelo: cada una de las <mark class=\"clave-criterio\">formas alternativas</mark> que puede presentar un gen (0,4 p). <span class=\"redactado\">Surgen por mutación y ocupan el mismo locus en los cromosomas homólogos.</span>",
+    "Locus: <mark class=\"clave-criterio\">posición fija de un gen</mark> sobre un cromosoma (0,4 p). <span class=\"redactado\">Los alelos de un gen ocupan el mismo locus en los dos cromosomas homólogos.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2010 · Examen 2",
@@ -3274,7 +3274,7 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Las neuronas y las células epiteliales son funcional y estructuralmente diferentes. ¿Existen los mismos genes en el núcleo de una neurona y en el de una célula epitelial de un mismo individuo? Razone la respuesta [1].",
    "c": [
-    "Sí, porque en los organismos pluricelulares todas las células provienen de una <mark class=\"clave-criterio\">misma célula inicial por mitosis</mark> y, por tanto, tienen la <mark class=\"clave-criterio\">misma información genética</mark> (1 p)."
+    "Sí, porque en los organismos pluricelulares todas las células provienen de una <mark class=\"clave-criterio\">misma célula inicial por mitosis</mark> y, por tanto, tienen la <mark class=\"clave-criterio\">misma información genética</mark> (1 p). <span class=\"redactado\">La mitosis reparte copias idénticas del ADN. Las células son distintas porque cada tipo celular expresa solo una parte de sus genes (diferenciación celular): la neurona fabrica, por ejemplo, neurotransmisores, y la epitelial, queratina.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2010 · Examen 2",
@@ -3299,9 +3299,9 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>La imagen representa un experimento basado en las Leyes de Mendel. En ella se muestra el cruce entre gatos, ambos con pelo de color negro, que da lugar a tres gatitos de color negro y un gatito de color gris.</b><br>Datos de la figura: F0: gato <i>Aa</i> × gato 1. Gametos: 2 y 3 (del primer gato), <i>A</i> y 4 (del gato 1). F1: gatos 5, 6 y <i>Aa</i> (negros) y gato 7 (gris).<br>a) Deduzca qué gametos corresponderán con los números 2, 3 y 4 [0,3]. Indique los genotipos para el color del pelo de los gatos 1, 5, 6 y 7 [0,4]. ¿En qué proporción se presentan los genotipos de la descendencia? [0,3].<br>b) ¿Cuáles serían las proporciones de los genotipos y los fenotipos de la F1 si el cruce se hubiera producido entre los gatos 1 y 7? [0,5]. ¿Y si el cruce se hubiera producido entre los gatos 5 y 7? [0,5].",
    "c": [
     "a) <mark class=\"clave-criterio\">2: A; 3: a; 4: a</mark>. 0,1 p cada uno (0,3 p).",
-    "a) <mark class=\"clave-criterio\">1: Aa; 5: AA; 6: Aa; 7: aa</mark>. 0,1 p cada uno (0,4 p).",
-    "a) <mark class=\"clave-criterio\">AA: 25 %; Aa: 50 %; aa: 25 %</mark>. 0,1 p cada uno (0,3 p).",
-    "b) Cruce 1 × 7. Genotipos: <mark class=\"clave-criterio\">Aa 50 %, aa 50 %</mark>; fenotipos: <mark class=\"clave-criterio\">50 % negros, 50 % grises</mark>. 0,25 p cada uno (0,5 p).",
+    "a) <mark class=\"clave-criterio\">1: Aa; 5: AA; 6: Aa; 7: aa</mark>. 0,1 p cada uno (0,4 p). <span class=\"redactado\">Que de dos gatos negros nazca uno gris indica que el gris es recesivo y que los padres son heterocigotos (Aa).</span>",
+    "a) <mark class=\"clave-criterio\">AA: 25 %; Aa: 50 %; aa: 25 %</mark>. 0,1 p cada uno (0,3 p). <span class=\"redactado\">Es la proporción 1:2:1 del cruce de dos heterocigotos; la de fenotipos es 3:1 (tres negros por cada gris).</span>",
+    "b) Cruce 1 × 7. Genotipos: <mark class=\"clave-criterio\">Aa 50 %, aa 50 %</mark>; fenotipos: <mark class=\"clave-criterio\">50 % negros, 50 % grises</mark>. 0,25 p cada uno (0,5 p). <span class=\"redactado\">Es un cruzamiento prueba: al cruzar un heterocigoto con un homocigoto recesivo aparecen los dos fenotipos al 50 %.</span>",
     "b) Cruce 5 × 7. Genotipos: <mark class=\"clave-criterio\">100 % Aa</mark>; fenotipos: <mark class=\"clave-criterio\">100 % negros</mark>. 0,25 p cada uno (0,5 p)."
    ],
    "origen": {
@@ -3413,7 +3413,7 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Al añadir una enzima proteolítica a un tubo de ensayo donde se está produciendo una reacción enzimática, la reacción se detiene inmediatamente. Dé una explicación razonada de la causa por la que se detiene la reacción [1].",
    "c": [
-    "La enzima proteolítica <mark class=\"clave-criterio\">degrada la enzima</mark> que cataliza la reacción y, por tanto, esta enzima <mark class=\"clave-criterio\">pierde su función</mark> y la reacción se detiene (1 p)."
+    "La enzima proteolítica <mark class=\"clave-criterio\">degrada la enzima</mark> que cataliza la reacción y, por tanto, esta enzima <mark class=\"clave-criterio\">pierde su función</mark> y la reacción se detiene (1 p). <span class=\"redactado\">Las enzimas son proteínas: la proteasa hidroliza sus enlaces peptídicos, y al destruirse la estructura del centro activo, la enzima no puede unirse al sustrato.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2010 · Examen 3",
@@ -3464,10 +3464,10 @@ window.BIOCELIA_HISTORICO = {
    "c": [
     "a) <mark class=\"clave-criterio\">Fosfolípido</mark> (0,25 p).",
     "a) 1: <mark class=\"clave-criterio\">ácidos grasos</mark>; 2: <mark class=\"clave-criterio\">glicerina o propanotriol</mark> (0,25 p).",
-    "a) <mark class=\"clave-criterio\">Enlace éster</mark> (0,25 p).",
+    "a) <mark class=\"clave-criterio\">Enlace éster</mark> (0,25 p). <span class=\"redactado\">Los ácidos grasos se unen a los carbonos 1 y 2 de la glicerina; el fosfato, al carbono 3, y a él un aminoalcohol, como la colina.</span>",
     "a) <mark class=\"clave-criterio\">Se pierde una molécula de agua</mark> al reaccionar el <mark class=\"clave-criterio\">grupo alcohólico</mark> de la glicerina con el <mark class=\"clave-criterio\">grupo carboxílico</mark> de un ácido graso (0,25 p).",
-    "b) Formación de <mark class=\"clave-criterio\">micelas, monocapas o bicapas</mark> por la <mark class=\"clave-criterio\">anfipatía</mark> de la molécula. 0,25 p cada una (0,75 p).",
-    "b) <mark class=\"clave-criterio\">Membranas celulares</mark> (0,25 p)."
+    "b) Formación de <mark class=\"clave-criterio\">micelas, monocapas o bicapas</mark> por la <mark class=\"clave-criterio\">anfipatía</mark> de la molécula. 0,25 p cada una (0,75 p). <span class=\"redactado\">Son anfipáticos: la cabeza, con el fosfato, es polar y se orienta hacia el agua, y las colas de ácidos grasos, apolares, se alejan de ella.</span>",
+    "b) <mark class=\"clave-criterio\">Membranas celulares</mark> (0,25 p). <span class=\"redactado\">Forman la bicapa de la membrana plasmática y de las membranas de los orgánulos.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2010 · Examen 3",
@@ -3689,9 +3689,9 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Describa la estructura y la composición química de la membrana plasmática [1]. ¿A qué tipos celulares y a qué membranas celulares es aplicable el modelo de Mosaico Fluido? [0,4]. Nombre tres funciones de la membrana plasmática [0,6].",
    "c": [
-    "Membrana plasmática: <mark class=\"clave-criterio\">bicapa lipídica</mark> (fosfolípidos, colesterol, etc.), con <mark class=\"clave-criterio\">proteínas periféricas y transmembranales</mark> y <mark class=\"clave-criterio\">glúcidos en la capa externa</mark>, que delimita la célula (1 p).",
-    "Es un <mark class=\"clave-criterio\">modelo universal</mark> de membrana: aparece en <mark class=\"clave-criterio\">todos los tipos celulares</mark> y es aplicable a <mark class=\"clave-criterio\">todos los tipos de membrana</mark> (0,4 p).",
-    "<mark class=\"clave-criterio\">Permeabilidad selectiva</mark>, mantenimiento del <mark class=\"clave-criterio\">medio interno</mark> celular, <mark class=\"clave-criterio\">intercambio de sustancias</mark>, <mark class=\"clave-criterio\">reconocimiento molecular y celular</mark>, etc. Solo tres, a 0,2 p cada una (0,6 p)."
+    "Membrana plasmática: <mark class=\"clave-criterio\">bicapa lipídica</mark> (fosfolípidos, colesterol, etc.), con <mark class=\"clave-criterio\">proteínas periféricas y transmembranales</mark> y <mark class=\"clave-criterio\">glúcidos en la capa externa</mark>, que delimita la célula (1 p). <span class=\"redactado\">Lo propusieron Singer y Nicolson (1972). Es fluido porque los lípidos y muchas proteínas se desplazan lateralmente, y es un mosaico porque las proteínas se reparten entre los lípidos. Los glúcidos de la cara externa forman el glucocáliz; las dos caras son distintas (asimetría), y el colesterol regula la fluidez en las células animales.</span>",
+    "Es un <mark class=\"clave-criterio\">modelo universal</mark> de membrana: aparece en <mark class=\"clave-criterio\">todos los tipos celulares</mark> y es aplicable a <mark class=\"clave-criterio\">todos los tipos de membrana</mark> (0,4 p). <span class=\"redactado\">Sirve para la membrana plasmática y para las de los orgánulos, en procariotas y eucariotas.</span>",
+    "<mark class=\"clave-criterio\">Permeabilidad selectiva</mark>, mantenimiento del <mark class=\"clave-criterio\">medio interno</mark> celular, <mark class=\"clave-criterio\">intercambio de sustancias</mark>, <mark class=\"clave-criterio\">reconocimiento molecular y celular</mark>, etc. Solo tres, a 0,2 p cada una (0,6 p). <span class=\"redactado\">Además, tiene receptores para señales como hormonas y neurotransmisores.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2010 · Examen 4",
@@ -3905,8 +3905,8 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "En un recipiente cerrado herméticamente se están cultivando levaduras utilizando glucosa como fuente de energía. Se observa que cuando se agota el oxígeno aumenta el consumo de glucosa y comienza a producirse etanol. ¿Por qué aumenta el consumo de glucosa al agotarse el oxígeno? [0,5]. ¿Qué vías metabólicas estaban funcionando antes y después del consumo total de oxígeno? [0,5]. Razone las respuestas.",
    "c": [
-    "El mayor consumo de glucosa se debe a que la fermentación es <mark class=\"clave-criterio\">menos rentable energéticamente</mark> (0,5 p).",
-    "Antes de agotarse el oxígeno actuaba la <mark class=\"clave-criterio\">respiración celular</mark>; cuando se agota se produce la <mark class=\"clave-criterio\">fermentación alcohólica</mark>, que transcurre en su ausencia (0,5 p)."
+    "El mayor consumo de glucosa se debe a que la fermentación es <mark class=\"clave-criterio\">menos rentable energéticamente</mark> (0,5 p). <span class=\"redactado\">La fermentación da 2 ATP por glucosa y la respiración, unos 36-38: para obtener la misma energía, la levadura tiene que degradar mucha más glucosa.</span>",
+    "Antes de agotarse el oxígeno actuaba la <mark class=\"clave-criterio\">respiración celular</mark>; cuando se agota se produce la <mark class=\"clave-criterio\">fermentación alcohólica</mark>, que transcurre en su ausencia (0,5 p). <span class=\"redactado\">Las levaduras son anaerobias facultativas. En la fermentación, el pirúvico se transforma en etanol y CO₂ para regenerar el NAD⁺ que necesita la glucólisis.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2010 · Examen 4",
@@ -3930,7 +3930,7 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "En las vacas, el color negro del pelo está determinado por un alelo recesivo (n) mientras que el blanco lo está por el alelo dominante (N). La producción de leche de las vacas blancas es mucho mayor que la de las vacas negras. Para evitar tener más vacas negras el ganadero necesita conocer cuáles de las vacas blancas son portadoras del alelo recesivo. Proponga y explique un cruzamiento que permita al ganadero saber qué vacas blancas son portadoras del alelo recesivo. Razone la respuesta [1].",
    "c": [
-    "Cruzar individuos blancos (N_) con individuos negros homocigóticos recesivos (<mark class=\"clave-criterio\">nn</mark>) (<mark class=\"clave-criterio\">cruzamiento prueba</mark>). Según la descendencia se sabe si las vacas blancas son homocigóticas dominantes o heterocigóticas: <mark class=\"clave-criterio\">NN × nn → 100 % Nn</mark>; <mark class=\"clave-criterio\">Nn × nn → 50 % Nn y 50 % nn</mark> (1 p)."
+    "Cruzar individuos blancos (N_) con individuos negros homocigóticos recesivos (<mark class=\"clave-criterio\">nn</mark>) (<mark class=\"clave-criterio\">cruzamiento prueba</mark>). Según la descendencia se sabe si las vacas blancas son homocigóticas dominantes o heterocigóticas: <mark class=\"clave-criterio\">NN × nn → 100 % Nn</mark>; <mark class=\"clave-criterio\">Nn × nn → 50 % Nn y 50 % nn</mark> (1 p). <span class=\"redactado\">Si aparece algún ternero negro, la vaca blanca es portadora (Nn); si todos son blancos, probablemente es homocigota (NN), y cuantos más terneros, más fiable es la conclusión.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2010 · Examen 4",
@@ -4014,8 +4014,8 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Exponga la hipótesis admitida sobre el origen evolutivo de las células eucarióticas [1]. Describa los componentes estructurales del núcleo interfásico [1].",
    "c": [
-    "<mark class=\"clave-criterio\">Teoría endosimbiótica</mark>: <mark class=\"clave-criterio\">bacterias heterótrofas aeróbicas</mark> y <mark class=\"clave-criterio\">bacterias fotosintéticas</mark> establecieron una relación endosimbiótica con células eucarióticas primitivas; las primeras se transformaron en <mark class=\"clave-criterio\">mitocondrias</mark> y las segundas en <mark class=\"clave-criterio\">cloroplastos</mark> (1 p).",
-    "Componentes: <mark class=\"clave-criterio\">envoltura</mark>, doble membrana con <mark class=\"clave-criterio\">poros nucleares</mark> (0,25 p); <mark class=\"clave-criterio\">nucleoplasma</mark>, líquido intranuclear con numerosas moléculas (0,25 p); <mark class=\"clave-criterio\">nucleolo</mark>, visible durante la interfase (0,25 p); <mark class=\"clave-criterio\">cromatina</mark>, ADN más proteínas en distintos estados de condensación (0,25 p)."
+    "<mark class=\"clave-criterio\">Teoría endosimbiótica</mark>: <mark class=\"clave-criterio\">bacterias heterótrofas aeróbicas</mark> y <mark class=\"clave-criterio\">bacterias fotosintéticas</mark> establecieron una relación endosimbiótica con células eucarióticas primitivas; las primeras se transformaron en <mark class=\"clave-criterio\">mitocondrias</mark> y las segundas en <mark class=\"clave-criterio\">cloroplastos</mark> (1 p). <span class=\"redactado\">La célula ancestral fagocitó esas bacterias sin digerirlas, y ambas salieron beneficiadas. Lo apoyan la doble membrana de estos orgánulos, su ADN circular, sus ribosomas 70S y su división por bipartición, rasgos propios de bacterias. La propuso Lynn Margulis.</span>",
+    "Componentes: <mark class=\"clave-criterio\">envoltura</mark>, doble membrana con <mark class=\"clave-criterio\">poros nucleares</mark> (0,25 p); <mark class=\"clave-criterio\">nucleoplasma</mark>, líquido intranuclear con numerosas moléculas (0,25 p); <mark class=\"clave-criterio\">nucleolo</mark>, visible durante la interfase (0,25 p); <mark class=\"clave-criterio\">cromatina</mark>, ADN más proteínas en distintos estados de condensación (0,25 p). <span class=\"redactado\">La envoltura es continua con el RER y sus poros regulan el paso de ARNm, ribosomas y proteínas; el nucléolo, sin membrana, forma las subunidades de los ribosomas; la cromatina contiene el ADN asociado a histonas.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2010 · Examen 5",
@@ -4091,8 +4091,8 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "¿Por qué en el tratamiento de enfermedades infecciosas los médicos recetan en unos casos antibióticos y en otros no? [0,5]. ¿Qué problemas puede causar el uso indiscriminado de antibióticos en la lucha contra los microorganismos? [0,5]. Razone las respuestas.",
    "c": [
-    "Los antibióticos son exclusivos para el tratamiento de enfermedades producidas por <mark class=\"clave-criterio\">bacterias</mark> (0,5 p).",
-    "Los antibióticos pueden seleccionar <mark class=\"clave-criterio\">bacterias resistentes</mark> a su acción y dejan de tener efecto (0,5 p)."
+    "Los antibióticos son exclusivos para el tratamiento de enfermedades producidas por <mark class=\"clave-criterio\">bacterias</mark> (0,5 p). <span class=\"redactado\">Los antibióticos actúan sobre estructuras propias de las bacterias, como la pared o los ribosomas 70S; los virus no tienen esas estructuras, así que los antibióticos no sirven contra la gripe o el resfriado.</span>",
+    "Los antibióticos pueden seleccionar <mark class=\"clave-criterio\">bacterias resistentes</mark> a su acción y dejan de tener efecto (0,5 p). <span class=\"redactado\">Por mutación o por plásmidos que pasan de unas bacterias a otras, algunas son resistentes; el antibiótico elimina las sensibles y las resistentes se multiplican (selección natural). Por eso hay que tomarlos solo cuando los receta el médico y durante todo el tratamiento.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2010 · Examen 5",
@@ -4117,10 +4117,10 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>En relación con la figura adjunta, que representa una molécula de ADN, conteste las siguientes cuestiones:</b><br>a) ¿Qué representan las líneas de puntos que unen las moléculas marcadas con los números 1 y 4 y las indicadas con los números 2 y 3? [0,3]. Nombre las moléculas que están unidas por tres líneas de puntos y las que están unidas por dos [0,4]. ¿Qué señala el recuadro número 5? [0,3].<br>b) Explique qué es la complementariedad de bases en el ADN y razone su importancia en la replicación [0,5]. ¿Qué quiere decir que la replicación del ADN es semiconservativa? [0,5].",
    "c": [
     "a) <mark class=\"clave-criterio\">Puentes de hidrógeno</mark> (0,3 p).",
-    "a) 1: <mark class=\"clave-criterio\">citosina</mark>; 2: <mark class=\"clave-criterio\">adenina</mark>; 3: <mark class=\"clave-criterio\">timina</mark>; 4: <mark class=\"clave-criterio\">guanina</mark> (tres puentes entre 1 y 4; dos entre 2 y 3). 0,1 p cada una (0,4 p).",
-    "a) Recuadro: <mark class=\"clave-criterio\">nucleótido</mark> (0,3 p).",
-    "b) <mark class=\"clave-criterio\">Apareamiento específico de bases</mark> en el interior de la doble hélice, unidas por puentes de hidrógeno; gracias a él la duplicación de la cadena es <mark class=\"clave-criterio\">exacta</mark> (0,5 p).",
-    "b) Es semiconservativa porque cada molécula de ADN resultante posee una <mark class=\"clave-criterio\">cadena vieja y otra de nueva síntesis</mark> (0,5 p)."
+    "a) 1: <mark class=\"clave-criterio\">citosina</mark>; 2: <mark class=\"clave-criterio\">adenina</mark>; 3: <mark class=\"clave-criterio\">timina</mark>; 4: <mark class=\"clave-criterio\">guanina</mark> (tres puentes entre 1 y 4; dos entre 2 y 3). 0,1 p cada una (0,4 p). <span class=\"redactado\">Los pares G-C están unidos por tres puentes de hidrógeno y los A-T, por dos.</span>",
+    "a) Recuadro: <mark class=\"clave-criterio\">nucleótido</mark> (0,3 p). <span class=\"redactado\">Cada nucleótido tiene un fosfato, una desoxirribosa y una base nitrogenada.</span>",
+    "b) <mark class=\"clave-criterio\">Apareamiento específico de bases</mark> en el interior de la doble hélice, unidas por puentes de hidrógeno; gracias a él la duplicación de la cadena es <mark class=\"clave-criterio\">exacta</mark> (0,5 p). <span class=\"redactado\">Una base púrica se aparea siempre con una pirimidínica; así la secuencia de una cadena determina la de la otra, y cada cadena sirve de molde para fabricar su complementaria.</span>",
+    "b) Es semiconservativa porque cada molécula de ADN resultante posee una <mark class=\"clave-criterio\">cadena vieja y otra de nueva síntesis</mark> (0,5 p). <span class=\"redactado\">Lo demostraron Meselson y Stahl con nitrógeno pesado (¹⁵N).</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2010 · Examen 5",
@@ -4200,10 +4200,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Defina: respuesta inmunitaria, hipersensibilidad (alergia), autoinmunidad e inmunodeficiencia [2].",
    "c": [
-    "Respuesta inmunitaria: respuesta del organismo frente a la entrada de algún <mark class=\"clave-criterio\">patógeno o sustancia extraña</mark> no reconocida como propia (0,5 p).",
-    "Hipersensibilidad: reacción inmunitaria <mark class=\"clave-criterio\">inadecuada o exagerada</mark> frente a una sustancia concreta (0,5 p).",
-    "Autoinmunidad: respuesta inmunitaria contra moléculas, células o tejidos <mark class=\"clave-criterio\">propios del organismo</mark> (0,5 p).",
-    "Inmunodeficiencia: <mark class=\"clave-criterio\">incapacidad del sistema inmunitario</mark> para defender al organismo frente a las infecciones (0,5 p)."
+    "Respuesta inmunitaria: respuesta del organismo frente a la entrada de algún <mark class=\"clave-criterio\">patógeno o sustancia extraña</mark> no reconocida como propia (0,5 p). <span class=\"redactado\">Puede ser innata, inespecífica e inmediata, o adquirida, específica y con memoria.</span>",
+    "Hipersensibilidad: reacción inmunitaria <mark class=\"clave-criterio\">inadecuada o exagerada</mark> frente a una sustancia concreta (0,5 p). <span class=\"redactado\">Se produce frente a antígenos normalmente inofensivos, los alérgenos (polen, ácaros, alimentos); en un segundo contacto, la IgE unida a los mastocitos hace que liberen histamina, que provoca los síntomas.</span>",
+    "Autoinmunidad: respuesta inmunitaria contra moléculas, células o tejidos <mark class=\"clave-criterio\">propios del organismo</mark> (0,5 p). <span class=\"redactado\">El sistema inmunitario pierde la tolerancia frente a lo propio; por ejemplo, la diabetes de tipo 1, la artritis reumatoide o la esclerosis múltiple.</span>",
+    "Inmunodeficiencia: <mark class=\"clave-criterio\">incapacidad del sistema inmunitario</mark> para defender al organismo frente a las infecciones (0,5 p). <span class=\"redactado\">Puede ser congénita, como la de los «niños burbuja», o adquirida, como el sida, en el que el VIH destruye los linfocitos T colaboradores.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2010 · Examen 5",
@@ -4227,10 +4227,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Razone las causas de los siguientes hechos relacionados con el agua: a) el agua es líquida a temperatura ambiente; b) el agua es termorreguladora; c) el agua es soporte de reacciones; d) el agua permite la existencia de ecosistemas acuáticos en zonas polares [1].",
    "c": [
-    "a) Por los <mark class=\"clave-criterio\">puentes de hidrógeno</mark> (0,25 p).",
-    "b) Por su elevado <mark class=\"clave-criterio\">calor específico</mark> (0,25 p).",
-    "c) Es buen disolvente por su <mark class=\"clave-criterio\">carácter dipolar</mark> (0,25 p).",
-    "d) El hielo tiene <mark class=\"clave-criterio\">menor densidad</mark> y la capa de hielo actúa como <mark class=\"clave-criterio\">aislante</mark> (0,25 p)."
+    "a) Por los <mark class=\"clave-criterio\">puentes de hidrógeno</mark> (0,25 p). <span class=\"redactado\">Para pasar a gas hay que romper muchos puentes de hidrógeno; sin ellos, una molécula tan pequeña sería un gas a temperatura ambiente.</span>",
+    "b) Por su elevado <mark class=\"clave-criterio\">calor específico</mark> (0,25 p). <span class=\"redactado\">Absorbe mucho calor con poco cambio de temperatura y amortigua los cambios de temperatura del medio y del organismo.</span>",
+    "c) Es buen disolvente por su <mark class=\"clave-criterio\">carácter dipolar</mark> (0,25 p). <span class=\"redactado\">Disuelve muchas sustancias polares e iónicas, y las reacciones del metabolismo ocurren en disolución; además, participa en algunas, como la hidrólisis.</span>",
+    "d) El hielo tiene <mark class=\"clave-criterio\">menor densidad</mark> y la capa de hielo actúa como <mark class=\"clave-criterio\">aislante</mark> (0,25 p). <span class=\"redactado\">El hielo flota y aísla el agua líquida de debajo, donde viven los organismos.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2010 · Examen 5",
@@ -4254,8 +4254,8 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Un incendio ha producido grandes cambios en el fenotipo, aunque no en el genotipo, de los individuos de una población de ratones. ¿Serán esos cambios heredados por los descendientes? [0,4]. Un agente químico ha producido cambios en el genotipo, aunque no en el fenotipo, de los individuos de una población. ¿Serán esos cambios heredados por los descendientes? [0,6]. Razone las respuestas.",
    "c": [
-    "Los cambios que se producen en el <mark class=\"clave-criterio\">fenotipo no se heredan</mark> (0,4 p).",
-    "Los cambios en el genotipo se heredan si han afectado a las <mark class=\"clave-criterio\">células germinales</mark> (0,3 p) y no se heredan si han afectado a las <mark class=\"clave-criterio\">células somáticas</mark> (0,3 p)."
+    "Los cambios que se producen en el <mark class=\"clave-criterio\">fenotipo no se heredan</mark> (0,4 p). <span class=\"redactado\">Las quemaduras afectan a las células somáticas, y lo que se hereda son los genes, no los caracteres adquiridos durante la vida.</span>",
+    "Los cambios en el genotipo se heredan si han afectado a las <mark class=\"clave-criterio\">células germinales</mark> (0,3 p) y no se heredan si han afectado a las <mark class=\"clave-criterio\">células somáticas</mark> (0,3 p). <span class=\"redactado\">Solo los cambios en las células que forman los gametos pasan a la descendencia.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2010 · Examen 5",
@@ -4474,8 +4474,8 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Enumere tres factores que influyan en la actividad enzimática [0,6]. Explique el efecto de dos de ellos [1,4].",
    "c": [
-    "Factores: <mark class=\"clave-criterio\">temperatura</mark>, <mark class=\"clave-criterio\">pH</mark>, <mark class=\"clave-criterio\">concentración de sustrato</mark>, <mark class=\"clave-criterio\">cofactores</mark>, <mark class=\"clave-criterio\">concentración de enzima</mark>, etc. Solo tres, a 0,2 p (0,6 p).",
-    "Temperatura (<mark class=\"clave-criterio\">variación de la actividad</mark> y <mark class=\"clave-criterio\">desnaturalización</mark>), pH (variación de la actividad y desnaturalización), etc. Solo dos, a 0,7 p cada uno (1,4 p)."
+    "Factores: <mark class=\"clave-criterio\">temperatura</mark>, <mark class=\"clave-criterio\">pH</mark>, <mark class=\"clave-criterio\">concentración de sustrato</mark>, <mark class=\"clave-criterio\">cofactores</mark>, <mark class=\"clave-criterio\">concentración de enzima</mark>, etc. Solo tres, a 0,2 p (0,6 p). <span class=\"redactado\">La velocidad aumenta con la concentración de sustrato hasta la saturación, en la que todas las enzimas están ocupadas; también influyen los inhibidores.</span>",
+    "Temperatura (<mark class=\"clave-criterio\">variación de la actividad</mark> y <mark class=\"clave-criterio\">desnaturalización</mark>), pH (variación de la actividad y desnaturalización), etc. Solo dos, a 0,7 p cada uno (1,4 p). <span class=\"redactado\">Temperatura: la actividad aumenta hasta la temperatura óptima y después cae bruscamente al desnaturalizarse la enzima, que es una proteína; el frío la reduce pero no la desnaturaliza. pH: cada enzima tiene un pH óptimo; fuera de él cambian las cargas de los aminoácidos del centro activo y se dificulta la unión del sustrato, y con pH extremos se desnaturaliza.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2010 · Examen 6",
@@ -4576,7 +4576,7 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "¿Podría evolucionar una población de organismos genotípicamente idénticos que se reproducen asexualmente si no se produjeran mutaciones? Razone la respuesta [1].",
    "c": [
-    "Sin <mark class=\"clave-criterio\">mutación</mark> y sin la <mark class=\"clave-criterio\">recombinación génica</mark> de la meiosis no se produce <mark class=\"clave-criterio\">variabilidad genética</mark>, y sin ella la población <mark class=\"clave-criterio\">no puede evolucionar</mark> (1 p)."
+    "Sin <mark class=\"clave-criterio\">mutación</mark> y sin la <mark class=\"clave-criterio\">recombinación génica</mark> de la meiosis no se produce <mark class=\"clave-criterio\">variabilidad genética</mark>, y sin ella la población <mark class=\"clave-criterio\">no puede evolucionar</mark> (1 p). <span class=\"redactado\">En la reproducción asexual los descendientes son copias del progenitor; la evolución necesita variabilidad sobre la que actúe la selección natural, y en estos organismos la única fuente de variabilidad es la mutación.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2010 · Examen 6",
@@ -41837,9 +41837,9 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Describa [0,5] y dibuje [0,3] la estructura de la molécula de agua. Enumere cuatro propiedades físico-químicas del agua y relaciónelas con sus funciones biológicas [1,2].",
    "c": [
-    "Estructura: molécula formada por dos átomos de hidrógeno y uno de oxígeno que forman un <mark class=\"clave-criterio\">dipolo eléctrico</mark> (0,5 p).",
-    "<mark class=\"clave-criterio\">Dibujo</mark> (0,3 p).",
-    "Propiedades y funciones biológicas: <mark class=\"clave-criterio\">cohesión</mark> y alta <mark class=\"clave-criterio\">constante dieléctrica</mark> (transporte y <mark class=\"clave-criterio\">disolvente</mark>); elevado <mark class=\"clave-criterio\">calor específico</mark> (<mark class=\"clave-criterio\">termorregulación</mark>); elevado <mark class=\"clave-criterio\">calor de vaporización</mark> (<mark class=\"clave-criterio\">refrigerante</mark>); <mark class=\"clave-criterio\">adhesión</mark> (<mark class=\"clave-criterio\">capilaridad</mark>); <mark class=\"clave-criterio\">densidad en estado sólido</mark> (vida acuática en zonas frías). Solo cuatro propiedades con su función, a 0,3 p cada una (1,2 p)."
+    "Estructura: molécula formada por dos átomos de hidrógeno y uno de oxígeno que forman un <mark class=\"clave-criterio\">dipolo eléctrico</mark> (0,5 p). <span class=\"redactado\">El oxígeno, más electronegativo, atrae los electrones de los enlaces covalentes: queda con carga parcial negativa y los hidrógenos, con carga parcial positiva. Como los enlaces forman un ángulo de unos 104,5°, la molécula es polar aunque su carga total sea neutra, y forma puentes de hidrógeno con otras moléculas.</span>",
+    "<mark class=\"clave-criterio\">Dibujo</mark> (0,3 p). <span class=\"redactado\">En el dibujo deben verse el ángulo entre los enlaces y las cargas parciales.</span>",
+    "Propiedades y funciones biológicas: <mark class=\"clave-criterio\">cohesión</mark> y alta <mark class=\"clave-criterio\">constante dieléctrica</mark> (transporte y <mark class=\"clave-criterio\">disolvente</mark>); elevado <mark class=\"clave-criterio\">calor específico</mark> (<mark class=\"clave-criterio\">termorregulación</mark>); elevado <mark class=\"clave-criterio\">calor de vaporización</mark> (<mark class=\"clave-criterio\">refrigerante</mark>); <mark class=\"clave-criterio\">adhesión</mark> (<mark class=\"clave-criterio\">capilaridad</mark>); <mark class=\"clave-criterio\">densidad en estado sólido</mark> (vida acuática en zonas frías). Solo cuatro propiedades con su función, a 0,3 p cada una (1,2 p). <span class=\"redactado\">Todas estas propiedades se deben a los puentes de hidrógeno entre las moléculas. Por ejemplo, el calor específico elevado hace que el agua amortigüe los cambios de temperatura, y el hielo flota y aísla el agua líquida de debajo.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2010 · Examen 1",
@@ -41862,9 +41862,9 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Dibuje una célula procariótica y una eucariótica [0,8]. Cite tres diferencias entre las células procarióticas y las eucarióticas [0,6], y tres entre las células animales y vegetales [0,6].",
    "c": [
-    "<mark class=\"clave-criterio\">Cada dibujo</mark>, 0,4 p (0,8 p).",
-    "Diferencias. Procariota: no posee <mark class=\"clave-criterio\">núcleo</mark> ni <mark class=\"clave-criterio\">orgánulos membranosos</mark> y se reproduce por <mark class=\"clave-criterio\">bipartición</mark>. Eucariota: presenta núcleo, orgánulos membranosos, reproducción asexual (<mark class=\"clave-criterio\">mitosis</mark>) y/o sexual (<mark class=\"clave-criterio\">meiosis</mark>), <mark class=\"clave-criterio\">mayor tamaño</mark>, etc. Solo tres, a 0,2 p cada una (0,6 p).",
-    "Diferencias entre células animales y vegetales: <mark class=\"clave-criterio\">pared celular</mark>, <mark class=\"clave-criterio\">forma</mark>, <mark class=\"clave-criterio\">cloroplastos</mark>, <mark class=\"clave-criterio\">centriolos</mark>, <mark class=\"clave-criterio\">vacuolas</mark>, etc. Solo tres, a 0,2 p cada una (0,6 p)."
+    "<mark class=\"clave-criterio\">Cada dibujo</mark>, 0,4 p (0,8 p). <span class=\"redactado\">En el dibujo de la procariota deben verse la pared, la membrana, el nucleoide, los ribosomas y, si se quiere, flagelos y cápsula; en el de la eucariota, el núcleo y orgánulos como mitocondrias, retículo y Golgi.</span>",
+    "Diferencias. Procariota: no posee <mark class=\"clave-criterio\">núcleo</mark> ni <mark class=\"clave-criterio\">orgánulos membranosos</mark> y se reproduce por <mark class=\"clave-criterio\">bipartición</mark>. Eucariota: presenta núcleo, orgánulos membranosos, reproducción asexual (<mark class=\"clave-criterio\">mitosis</mark>) y/o sexual (<mark class=\"clave-criterio\">meiosis</mark>), <mark class=\"clave-criterio\">mayor tamaño</mark>, etc. Solo tres, a 0,2 p cada una (0,6 p). <span class=\"redactado\">Además, los ribosomas de las procariotas son 70S y los del citoplasma eucariota, 80S; el ADN de las procariotas es circular y está en el nucleoide.</span>",
+    "Diferencias entre células animales y vegetales: <mark class=\"clave-criterio\">pared celular</mark>, <mark class=\"clave-criterio\">forma</mark>, <mark class=\"clave-criterio\">cloroplastos</mark>, <mark class=\"clave-criterio\">centriolos</mark>, <mark class=\"clave-criterio\">vacuolas</mark>, etc. Solo tres, a 0,2 p cada una (0,6 p). <span class=\"redactado\">Las vegetales tienen pared de celulosa, cloroplastos y una gran vacuola, y almacenan almidón; las animales tienen centriolos, almacenan glucógeno y pueden hacer fagocitosis.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2010 · Examen 1",
@@ -41914,9 +41914,9 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>A la vista de la imagen, en la que se representan ejemplares pertenecientes a microorganismos eucarióticos, conteste las siguientes cuestiones:</b><br>a) Identifique los grupos [0,3]. Indique de cada grupo una característica estructural y el tipo de nutrición [0,7].<br>b) ¿A cuál de estos grupos pertenecen los microorganismos utilizados en la producción de vino? [0,3]. Describa el proceso [0,7].",
    "c": [
     "a) Grupo 1: <mark class=\"clave-criterio\">algas microscópicas</mark>; grupo 2: <mark class=\"clave-criterio\">hongos microscópicos</mark> o mucosos; grupo 3: <mark class=\"clave-criterio\">protozoos</mark> (0,3 p).",
-    "a) Algas: con pared celular de <mark class=\"clave-criterio\">celulosa</mark> y <mark class=\"clave-criterio\">autótrofas</mark>. Hongos: con pared de <mark class=\"clave-criterio\">quitina</mark> y <mark class=\"clave-criterio\">heterótrofos</mark>. Protozoos: <mark class=\"clave-criterio\">sin pared</mark> y heterótrofos (0,7 p).",
-    "b) <mark class=\"clave-criterio\">Grupo 2</mark> (0,3 p).",
-    "b) Los hongos transforman los <mark class=\"clave-criterio\">azúcares de la uva</mark> en <mark class=\"clave-criterio\">alcohol</mark> mediante el proceso de la <mark class=\"clave-criterio\">fermentación</mark> (0,7 p)."
+    "a) Algas: con pared celular de <mark class=\"clave-criterio\">celulosa</mark> y <mark class=\"clave-criterio\">autótrofas</mark>. Hongos: con pared de <mark class=\"clave-criterio\">quitina</mark> y <mark class=\"clave-criterio\">heterótrofos</mark>. Protozoos: <mark class=\"clave-criterio\">sin pared</mark> y heterótrofos (0,7 p). <span class=\"redactado\">Las algas tienen cloroplastos; los hongos se alimentan por absorción; muchos protozoos se desplazan con cilios, flagelos o pseudópodos y se alimentan por fagocitosis.</span>",
+    "b) <mark class=\"clave-criterio\">Grupo 2</mark> (0,3 p). <span class=\"redactado\">Son levaduras, como Saccharomyces cerevisiae, hongos unicelulares.</span>",
+    "b) Los hongos transforman los <mark class=\"clave-criterio\">azúcares de la uva</mark> en <mark class=\"clave-criterio\">alcohol</mark> mediante el proceso de la <mark class=\"clave-criterio\">fermentación</mark> (0,7 p). <span class=\"redactado\">Es la fermentación alcohólica: sin oxígeno, el pirúvico de la glucólisis se descarboxila (se libera CO₂) y se reduce a etanol, lo que regenera el NAD⁺ para que la glucólisis continúe.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2010 · Examen 1",
@@ -42053,9 +42053,9 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>I.</b> Indique a qué etapa del ciclo celular de una célula eucariótica afecta una droga que inhiba la polimerización de los microtúbulos. Razone la respuesta [1]. <i>(1 punto)</i><br><br><b>II.</b> Entre 1950 y 1960 en España hubo una epidemia de gripe. Ante la aparición reciente de brotes de gripe A y de sus consecuencias entre la población, las autoridades sanitarias consideran como personas de bajo riesgo a los mayores de 50 años, por lo que no es necesario que se vacunen. Explique por qué son de bajo riesgo [0,5] y por qué no es necesario vacunarlas [0,5]. Razone las respuestas. <i>(1 punto)</i>",
    "puntos": 2,
    "c": [
-    "<b>I.</b> Para alcanzar la máxima puntuación se deberá relacionar la <mark class=\"clave-criterio\">polimerización de los microtúbulos</mark> con la formación del <mark class=\"clave-criterio\">huso mitótico</mark>. Si solo se responde «la división celular» sin razonamiento, se valora con 0,5 p (1 p).",
-    "<b>II.</b> La justificación debe basarse en que los mayores de 50 años <mark class=\"clave-criterio\">estuvieron en contacto con los virus</mark> (0,5 p).",
-    "<b>II.</b> Dada la <mark class=\"clave-criterio\">similitud de ambos virus</mark>, gozan de <mark class=\"clave-criterio\">inmunidad</mark> (0,5 p)."
+    "<b>I.</b> Para alcanzar la máxima puntuación se deberá relacionar la <mark class=\"clave-criterio\">polimerización de los microtúbulos</mark> con la formación del <mark class=\"clave-criterio\">huso mitótico</mark>. Si solo se responde «la división celular» sin razonamiento, se valora con 0,5 p (1 p). <span class=\"redactado\">Sin microtúbulos no se forma el huso, los cromosomas no se pueden separar y la célula se detiene en la metafase de la mitosis (fase M). Por ejemplo, la colchicina actúa así, y por eso se usa para ver los cromosomas en los cariotipos.</span>",
+    "<b>II.</b> La justificación debe basarse en que los mayores de 50 años <mark class=\"clave-criterio\">estuvieron en contacto con los virus</mark> (0,5 p). <span class=\"redactado\">Los que pasaron aquella gripe conservan linfocitos B y T de memoria frente a los antígenos de ese virus.</span>",
+    "<b>II.</b> Dada la <mark class=\"clave-criterio\">similitud de ambos virus</mark>, gozan de <mark class=\"clave-criterio\">inmunidad</mark> (0,5 p). <span class=\"redactado\">Si el virus nuevo tiene antígenos parecidos, las células de memoria lo reconocen y producen una respuesta secundaria, rápida e intensa, que lo elimina antes de que cause la enfermedad. Es una inmunidad activa natural.</span>"
    ],
    "isNew": false,
    "competencial": false,
@@ -42082,7 +42082,7 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>I.</b> Los lípidos, independientemente de su tamaño, atraviesan sin dificultad las membranas celulares, mientras que los glúcidos no. Dé una explicación razonada a este hecho [1]. <i>(1 punto)</i><br><br><b>II.</b> Una planta que tiene hojas compuestas y aserradas se cruza con otra planta que tiene hojas simples y lobuladas. Cada progenitor es homocigótico para una de las características dominantes y para una de las características recesivas. ¿Cuál es el genotipo de la generación F1? [0,2]. ¿Cuál es su fenotipo? [0,2]. Si se cruzan individuos de la F1, ¿qué fenotipos tendrá la generación F2 y en qué proporción? [0,6]. (Utilice los símbolos C: compuestas, c: simple, A: lobuladas; a: aserrada). Razone las respuestas. <i>(1 punto)</i>",
    "puntos": 2,
    "c": [
-    "<b>I.</b> Los lípidos, por su carácter <mark class=\"clave-criterio\">lipofílico</mark>, atraviesan las membranas celulares por <mark class=\"clave-criterio\">difusión simple</mark>, mientras que los glúcidos, al ser <mark class=\"clave-criterio\">hidrofílicos o lipófobos</mark>, requieren <mark class=\"clave-criterio\">transportadores</mark> (1 p).",
+    "<b>I.</b> Los lípidos, por su carácter <mark class=\"clave-criterio\">lipofílico</mark>, atraviesan las membranas celulares por <mark class=\"clave-criterio\">difusión simple</mark>, mientras que los glúcidos, al ser <mark class=\"clave-criterio\">hidrofílicos o lipófobos</mark>, requieren <mark class=\"clave-criterio\">transportadores</mark> (1 p). <span class=\"redactado\">El interior de la bicapa es apolar; los glúcidos, con muchos grupos –OH, son polares y la bicapa los repele, así que entran por difusión facilitada, con permeasas específicas, como el transportador de glucosa.</span>",
     "<b>II.</b> Al ser los parentales <mark class=\"clave-criterio\">CCaa y ccAA</mark>, el genotipo de la F1 es <mark class=\"clave-criterio\">CcAa</mark> (0,2 p).",
     "<b>II.</b> Fenotipo F1: plantas de hoja <mark class=\"clave-criterio\">compuesta y lobulada</mark> (0,2 p).",
     "<b>II.</b> Fenotipo F2: <mark class=\"clave-criterio\">9/16</mark> hoja compuesta y lobulada; <mark class=\"clave-criterio\">3/16</mark> hoja compuesta y aserrada; 3/16 hoja simple y lobulada; <mark class=\"clave-criterio\">1/16</mark> hoja simple y aserrada. 0,15 p cada uno (0,6 p)."
@@ -42113,10 +42113,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Explique la importancia biológica de los siguientes glúcidos: glucosa, ribosa, almidón y celulosa [2].",
    "c": [
-    "Glucosa: azúcar más utilizado como <mark class=\"clave-criterio\">fuente de energía</mark> por las células (0,5 p).",
-    "Ribosa: forma parte de la estructura de <mark class=\"clave-criterio\">nucleótidos y ácidos nucleicos</mark> (0,5 p).",
-    "Almidón: principal <mark class=\"clave-criterio\">polisacárido de reserva</mark> de las células vegetales (0,5 p).",
-    "Celulosa: componente principal de las <mark class=\"clave-criterio\">paredes de las células vegetales</mark> (0,5 p)."
+    "Glucosa: azúcar más utilizado como <mark class=\"clave-criterio\">fuente de energía</mark> por las células (0,5 p). <span class=\"redactado\">Se degrada en la glucólisis y en la respiración celular para obtener ATP; la sangre la transporta a todas las células.</span>",
+    "Ribosa: forma parte de la estructura de <mark class=\"clave-criterio\">nucleótidos y ácidos nucleicos</mark> (0,5 p). <span class=\"redactado\">Su derivado, la desoxirribosa, forma parte del ADN; la ribosa también forma parte del ATP y de coenzimas como el NAD⁺.</span>",
+    "Almidón: principal <mark class=\"clave-criterio\">polisacárido de reserva</mark> de las células vegetales (0,5 p). <span class=\"redactado\">Es un polímero de α-glucosa (amilosa y amilopectina) que se almacena en los amiloplastos; es la principal fuente de glúcidos de la alimentación humana (cereales, patata).</span>",
+    "Celulosa: componente principal de las <mark class=\"clave-criterio\">paredes de las células vegetales</mark> (0,5 p). <span class=\"redactado\">Es un polímero lineal de β-glucosa; sus cadenas se unen entre sí por puentes de hidrógeno y forman fibras muy resistentes.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2010 · Examen 2",
@@ -42165,11 +42165,11 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Defina: gen, genotipo, fenotipo, alelo y locus [2].",
    "c": [
-    "Gen: <mark class=\"clave-criterio\">fragmento de ADN</mark> que determina una característica que puede tener diferentes formas o alelos (0,4 p).",
-    "Genotipo: <mark class=\"clave-criterio\">conjunto de los genes</mark> de un individuo (0,4 p).",
-    "Fenotipo: <mark class=\"clave-criterio\">manifestación del genotipo</mark> en un determinado <mark class=\"clave-criterio\">ambiente</mark> (0,4 p).",
-    "Alelo: cada una de las <mark class=\"clave-criterio\">formas alternativas</mark> que puede presentar un gen (0,4 p).",
-    "Locus: <mark class=\"clave-criterio\">posición fija de un gen</mark> sobre un cromosoma (0,4 p)."
+    "Gen: <mark class=\"clave-criterio\">fragmento de ADN</mark> que determina una característica que puede tener diferentes formas o alelos (0,4 p). <span class=\"redactado\">Su secuencia de nucleótidos codifica un polipéptido o un ARN.</span>",
+    "Genotipo: <mark class=\"clave-criterio\">conjunto de los genes</mark> de un individuo (0,4 p). <span class=\"redactado\">Por ejemplo, AA, Aa o aa para un gen.</span>",
+    "Fenotipo: <mark class=\"clave-criterio\">manifestación del genotipo</mark> en un determinado <mark class=\"clave-criterio\">ambiente</mark> (0,4 p). <span class=\"redactado\">Por ejemplo, el color de una flor o el grupo sanguíneo; el ambiente puede modificarlo.</span>",
+    "Alelo: cada una de las <mark class=\"clave-criterio\">formas alternativas</mark> que puede presentar un gen (0,4 p). <span class=\"redactado\">Surgen por mutación y ocupan el mismo locus en los cromosomas homólogos.</span>",
+    "Locus: <mark class=\"clave-criterio\">posición fija de un gen</mark> sobre un cromosoma (0,4 p). <span class=\"redactado\">Los alelos de un gen ocupan el mismo locus en los dos cromosomas homólogos.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2010 · Examen 2",
@@ -42303,9 +42303,9 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>La imagen representa un experimento basado en las Leyes de Mendel. En ella se muestra el cruce entre gatos, ambos con pelo de color negro, que da lugar a tres gatitos de color negro y un gatito de color gris.</b><br>Datos de la figura: F0: gato <i>Aa</i> × gato 1. Gametos: 2 y 3 (del primer gato), <i>A</i> y 4 (del gato 1). F1: gatos 5, 6 y <i>Aa</i> (negros) y gato 7 (gris).<br>a) Deduzca qué gametos corresponderán con los números 2, 3 y 4 [0,3]. Indique los genotipos para el color del pelo de los gatos 1, 5, 6 y 7 [0,4]. ¿En qué proporción se presentan los genotipos de la descendencia? [0,3].<br>b) ¿Cuáles serían las proporciones de los genotipos y los fenotipos de la F1 si el cruce se hubiera producido entre los gatos 1 y 7? [0,5]. ¿Y si el cruce se hubiera producido entre los gatos 5 y 7? [0,5].",
    "c": [
     "a) <mark class=\"clave-criterio\">2: A; 3: a; 4: a</mark>. 0,1 p cada uno (0,3 p).",
-    "a) <mark class=\"clave-criterio\">1: Aa; 5: AA; 6: Aa; 7: aa</mark>. 0,1 p cada uno (0,4 p).",
-    "a) <mark class=\"clave-criterio\">AA: 25 %; Aa: 50 %; aa: 25 %</mark>. 0,1 p cada uno (0,3 p).",
-    "b) Cruce 1 × 7. Genotipos: <mark class=\"clave-criterio\">Aa 50 %, aa 50 %</mark>; fenotipos: <mark class=\"clave-criterio\">50 % negros, 50 % grises</mark>. 0,25 p cada uno (0,5 p).",
+    "a) <mark class=\"clave-criterio\">1: Aa; 5: AA; 6: Aa; 7: aa</mark>. 0,1 p cada uno (0,4 p). <span class=\"redactado\">Que de dos gatos negros nazca uno gris indica que el gris es recesivo y que los padres son heterocigotos (Aa).</span>",
+    "a) <mark class=\"clave-criterio\">AA: 25 %; Aa: 50 %; aa: 25 %</mark>. 0,1 p cada uno (0,3 p). <span class=\"redactado\">Es la proporción 1:2:1 del cruce de dos heterocigotos; la de fenotipos es 3:1 (tres negros por cada gris).</span>",
+    "b) Cruce 1 × 7. Genotipos: <mark class=\"clave-criterio\">Aa 50 %, aa 50 %</mark>; fenotipos: <mark class=\"clave-criterio\">50 % negros, 50 % grises</mark>. 0,25 p cada uno (0,5 p). <span class=\"redactado\">Es un cruzamiento prueba: al cruzar un heterocigoto con un homocigoto recesivo aparecen los dos fenotipos al 50 %.</span>",
     "b) Cruce 5 × 7. Genotipos: <mark class=\"clave-criterio\">100 % Aa</mark>; fenotipos: <mark class=\"clave-criterio\">100 % negros</mark>. 0,25 p cada uno (0,5 p)."
    ],
    "origen": {
@@ -42361,7 +42361,7 @@ window.BIOCELIA_HISTORICO = {
    "puntos": 2,
    "c": [
     "<b>I.</b> Se considera válido cualquier razonamiento que relacione la <mark class=\"clave-criterio\">producción de ATP en la mitocondria</mark> con su <mark class=\"clave-criterio\">consumo</mark>, o no, en el transporte a través de la membrana<span class=\"redactado\">: sin ATP se detiene el transporte activo, mientras que el pasivo, que no gasta energía, no se ve afectado</span> (1 p).",
-    "<b>II.</b> Sí, porque en los organismos pluricelulares todas las células provienen de una <mark class=\"clave-criterio\">misma célula inicial por mitosis</mark> y, por tanto, tienen la <mark class=\"clave-criterio\">misma información genética</mark> (1 p)."
+    "<b>II.</b> Sí, porque en los organismos pluricelulares todas las células provienen de una <mark class=\"clave-criterio\">misma célula inicial por mitosis</mark> y, por tanto, tienen la <mark class=\"clave-criterio\">misma información genética</mark> (1 p). <span class=\"redactado\">La mitosis reparte copias idénticas del ADN. Las células son distintas porque cada tipo celular expresa solo una parte de sus genes (diferenciación celular): la neurona fabrica, por ejemplo, neurotransmisores, y la epitelial, queratina.</span>"
    ],
    "isNew": false,
    "competencial": false,
@@ -42472,10 +42472,10 @@ window.BIOCELIA_HISTORICO = {
    "c": [
     "a) <mark class=\"clave-criterio\">Fosfolípido</mark> (0,25 p).",
     "a) 1: <mark class=\"clave-criterio\">ácidos grasos</mark>; 2: <mark class=\"clave-criterio\">glicerina o propanotriol</mark> (0,25 p).",
-    "a) <mark class=\"clave-criterio\">Enlace éster</mark> (0,25 p).",
+    "a) <mark class=\"clave-criterio\">Enlace éster</mark> (0,25 p). <span class=\"redactado\">Los ácidos grasos se unen a los carbonos 1 y 2 de la glicerina; el fosfato, al carbono 3, y a él un aminoalcohol, como la colina.</span>",
     "a) <mark class=\"clave-criterio\">Se pierde una molécula de agua</mark> al reaccionar el <mark class=\"clave-criterio\">grupo alcohólico</mark> de la glicerina con el <mark class=\"clave-criterio\">grupo carboxílico</mark> de un ácido graso (0,25 p).",
-    "b) Formación de <mark class=\"clave-criterio\">micelas, monocapas o bicapas</mark> por la <mark class=\"clave-criterio\">anfipatía</mark> de la molécula. 0,25 p cada una (0,75 p).",
-    "b) <mark class=\"clave-criterio\">Membranas celulares</mark> (0,25 p)."
+    "b) Formación de <mark class=\"clave-criterio\">micelas, monocapas o bicapas</mark> por la <mark class=\"clave-criterio\">anfipatía</mark> de la molécula. 0,25 p cada una (0,75 p). <span class=\"redactado\">Son anfipáticos: la cabeza, con el fosfato, es polar y se orienta hacia el agua, y las colas de ácidos grasos, apolares, se alejan de ella.</span>",
+    "b) <mark class=\"clave-criterio\">Membranas celulares</mark> (0,25 p). <span class=\"redactado\">Forman la bicapa de la membrana plasmática y de las membranas de los orgánulos.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2010 · Examen 3",
@@ -42611,7 +42611,7 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>I.</b> Al añadir una enzima proteolítica a un tubo de ensayo donde se está produciendo una reacción enzimática, la reacción se detiene inmediatamente. Dé una explicación razonada de la causa por la que se detiene la reacción [1]. <i>(1 punto)</i><br><br><b>II.</b> ¿Qué fuentes de carbono y de energía tendrá una bacteria que vive en un medio sin luz, sin oxígeno y sin materia orgánica? [0,5]. ¿Y si dispone de materia orgánica y de oxígeno pero no de luz? [0,5]. Razone las respuestas. <i>(1 punto)</i>",
    "puntos": 2,
    "c": [
-    "<b>I.</b> La enzima proteolítica <mark class=\"clave-criterio\">degrada la enzima</mark> que cataliza la reacción y, por tanto, esta enzima <mark class=\"clave-criterio\">pierde su función</mark> y la reacción se detiene (1 p).",
+    "<b>I.</b> La enzima proteolítica <mark class=\"clave-criterio\">degrada la enzima</mark> que cataliza la reacción y, por tanto, esta enzima <mark class=\"clave-criterio\">pierde su función</mark> y la reacción se detiene (1 p). <span class=\"redactado\">Las enzimas son proteínas: la proteasa hidroliza sus enlaces peptídicos, y al destruirse la estructura del centro activo, la enzima no puede unirse al sustrato.</span>",
     "<b>II.</b> Sin luz, sin oxígeno y sin materia orgánica, el metabolismo será <mark class=\"clave-criterio\">autótrofo quimiolitotrófico</mark>: <mark class=\"clave-criterio\">CO₂</mark> como fuente de carbono y <mark class=\"clave-criterio\">oxidación de compuestos inorgánicos</mark> como fuente de energía. 0,25 p cada uno (0,5 p).",
     "<b>II.</b> Con materia orgánica, la bacteria se comportará como <mark class=\"clave-criterio\">heterótrofa quimioorganotrófica</mark>: su fuente de carbono son los <mark class=\"clave-criterio\">compuestos orgánicos</mark> y su fuente de energía la <mark class=\"clave-criterio\">oxidación de compuestos orgánicos</mark>. 0,25 p cada uno (0,5 p)."
    ],
@@ -42700,9 +42700,9 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Describa la estructura y la composición química de la membrana plasmática [1]. ¿A qué tipos celulares y a qué membranas celulares es aplicable el modelo de Mosaico Fluido? [0,4]. Nombre tres funciones de la membrana plasmática [0,6].",
    "c": [
-    "Membrana plasmática: <mark class=\"clave-criterio\">bicapa lipídica</mark> (fosfolípidos, colesterol, etc.), con <mark class=\"clave-criterio\">proteínas periféricas y transmembranales</mark> y <mark class=\"clave-criterio\">glúcidos en la capa externa</mark>, que delimita la célula (1 p).",
-    "Es un <mark class=\"clave-criterio\">modelo universal</mark> de membrana: aparece en <mark class=\"clave-criterio\">todos los tipos celulares</mark> y es aplicable a <mark class=\"clave-criterio\">todos los tipos de membrana</mark> (0,4 p).",
-    "<mark class=\"clave-criterio\">Permeabilidad selectiva</mark>, mantenimiento del <mark class=\"clave-criterio\">medio interno</mark> celular, <mark class=\"clave-criterio\">intercambio de sustancias</mark>, <mark class=\"clave-criterio\">reconocimiento molecular y celular</mark>, etc. Solo tres, a 0,2 p cada una (0,6 p)."
+    "Membrana plasmática: <mark class=\"clave-criterio\">bicapa lipídica</mark> (fosfolípidos, colesterol, etc.), con <mark class=\"clave-criterio\">proteínas periféricas y transmembranales</mark> y <mark class=\"clave-criterio\">glúcidos en la capa externa</mark>, que delimita la célula (1 p). <span class=\"redactado\">Lo propusieron Singer y Nicolson (1972). Es fluido porque los lípidos y muchas proteínas se desplazan lateralmente, y es un mosaico porque las proteínas se reparten entre los lípidos. Los glúcidos de la cara externa forman el glucocáliz; las dos caras son distintas (asimetría), y el colesterol regula la fluidez en las células animales.</span>",
+    "Es un <mark class=\"clave-criterio\">modelo universal</mark> de membrana: aparece en <mark class=\"clave-criterio\">todos los tipos celulares</mark> y es aplicable a <mark class=\"clave-criterio\">todos los tipos de membrana</mark> (0,4 p). <span class=\"redactado\">Sirve para la membrana plasmática y para las de los orgánulos, en procariotas y eucariotas.</span>",
+    "<mark class=\"clave-criterio\">Permeabilidad selectiva</mark>, mantenimiento del <mark class=\"clave-criterio\">medio interno</mark> celular, <mark class=\"clave-criterio\">intercambio de sustancias</mark>, <mark class=\"clave-criterio\">reconocimiento molecular y celular</mark>, etc. Solo tres, a 0,2 p cada una (0,6 p). <span class=\"redactado\">Además, tiene receptores para señales como hormonas y neurotransmisores.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2010 · Examen 4",
@@ -42920,9 +42920,9 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>I.</b> En un recipiente cerrado herméticamente se están cultivando levaduras utilizando glucosa como fuente de energía. Se observa que cuando se agota el oxígeno aumenta el consumo de glucosa y comienza a producirse etanol. ¿Por qué aumenta el consumo de glucosa al agotarse el oxígeno? [0,5]. ¿Qué vías metabólicas estaban funcionando antes y después del consumo total de oxígeno? [0,5]. Razone las respuestas. <i>(1 punto)</i><br><br><b>II.</b> En las vacas, el color negro del pelo está determinado por un alelo recesivo (n) mientras que el blanco lo está por el alelo dominante (N). La producción de leche de las vacas blancas es mucho mayor que la de las vacas negras. Para evitar tener más vacas negras el ganadero necesita conocer cuáles de las vacas blancas son portadoras del alelo recesivo. Proponga y explique un cruzamiento que permita al ganadero saber qué vacas blancas son portadoras del alelo recesivo. Razone la respuesta [1]. <i>(1 punto)</i>",
    "puntos": 2,
    "c": [
-    "<b>I.</b> El mayor consumo de glucosa se debe a que la fermentación es <mark class=\"clave-criterio\">menos rentable energéticamente</mark> (0,5 p).",
-    "<b>I.</b> Antes de agotarse el oxígeno actuaba la <mark class=\"clave-criterio\">respiración celular</mark>; cuando se agota se produce la <mark class=\"clave-criterio\">fermentación alcohólica</mark>, que transcurre en su ausencia (0,5 p).",
-    "<b>II.</b> Cruzar individuos blancos (N_) con individuos negros homocigóticos recesivos (<mark class=\"clave-criterio\">nn</mark>) (<mark class=\"clave-criterio\">cruzamiento prueba</mark>). Según la descendencia se sabe si las vacas blancas son homocigóticas dominantes o heterocigóticas: <mark class=\"clave-criterio\">NN × nn → 100 % Nn</mark>; <mark class=\"clave-criterio\">Nn × nn → 50 % Nn y 50 % nn</mark> (1 p)."
+    "<b>I.</b> El mayor consumo de glucosa se debe a que la fermentación es <mark class=\"clave-criterio\">menos rentable energéticamente</mark> (0,5 p). <span class=\"redactado\">La fermentación da 2 ATP por glucosa y la respiración, unos 36-38: para obtener la misma energía, la levadura tiene que degradar mucha más glucosa.</span>",
+    "<b>I.</b> Antes de agotarse el oxígeno actuaba la <mark class=\"clave-criterio\">respiración celular</mark>; cuando se agota se produce la <mark class=\"clave-criterio\">fermentación alcohólica</mark>, que transcurre en su ausencia (0,5 p). <span class=\"redactado\">Las levaduras son anaerobias facultativas. En la fermentación, el pirúvico se transforma en etanol y CO₂ para regenerar el NAD⁺ que necesita la glucólisis.</span>",
+    "<b>II.</b> Cruzar individuos blancos (N_) con individuos negros homocigóticos recesivos (<mark class=\"clave-criterio\">nn</mark>) (<mark class=\"clave-criterio\">cruzamiento prueba</mark>). Según la descendencia se sabe si las vacas blancas son homocigóticas dominantes o heterocigóticas: <mark class=\"clave-criterio\">NN × nn → 100 % Nn</mark>; <mark class=\"clave-criterio\">Nn × nn → 50 % Nn y 50 % nn</mark> (1 p). <span class=\"redactado\">Si aparece algún ternero negro, la vaca blanca es portadora (Nn); si todos son blancos, probablemente es homocigota (NN), y cuantos más terneros, más fiable es la conclusión.</span>"
    ],
    "isNew": false,
    "competencial": false,
@@ -42977,8 +42977,8 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Exponga la hipótesis admitida sobre el origen evolutivo de las células eucarióticas [1]. Describa los componentes estructurales del núcleo interfásico [1].",
    "c": [
-    "<mark class=\"clave-criterio\">Teoría endosimbiótica</mark>: <mark class=\"clave-criterio\">bacterias heterótrofas aeróbicas</mark> y <mark class=\"clave-criterio\">bacterias fotosintéticas</mark> establecieron una relación endosimbiótica con células eucarióticas primitivas; las primeras se transformaron en <mark class=\"clave-criterio\">mitocondrias</mark> y las segundas en <mark class=\"clave-criterio\">cloroplastos</mark> (1 p).",
-    "Componentes: <mark class=\"clave-criterio\">envoltura</mark>, doble membrana con <mark class=\"clave-criterio\">poros nucleares</mark> (0,25 p); <mark class=\"clave-criterio\">nucleoplasma</mark>, líquido intranuclear con numerosas moléculas (0,25 p); <mark class=\"clave-criterio\">nucleolo</mark>, visible durante la interfase (0,25 p); <mark class=\"clave-criterio\">cromatina</mark>, ADN más proteínas en distintos estados de condensación (0,25 p)."
+    "<mark class=\"clave-criterio\">Teoría endosimbiótica</mark>: <mark class=\"clave-criterio\">bacterias heterótrofas aeróbicas</mark> y <mark class=\"clave-criterio\">bacterias fotosintéticas</mark> establecieron una relación endosimbiótica con células eucarióticas primitivas; las primeras se transformaron en <mark class=\"clave-criterio\">mitocondrias</mark> y las segundas en <mark class=\"clave-criterio\">cloroplastos</mark> (1 p). <span class=\"redactado\">La célula ancestral fagocitó esas bacterias sin digerirlas, y ambas salieron beneficiadas. Lo apoyan la doble membrana de estos orgánulos, su ADN circular, sus ribosomas 70S y su división por bipartición, rasgos propios de bacterias. La propuso Lynn Margulis.</span>",
+    "Componentes: <mark class=\"clave-criterio\">envoltura</mark>, doble membrana con <mark class=\"clave-criterio\">poros nucleares</mark> (0,25 p); <mark class=\"clave-criterio\">nucleoplasma</mark>, líquido intranuclear con numerosas moléculas (0,25 p); <mark class=\"clave-criterio\">nucleolo</mark>, visible durante la interfase (0,25 p); <mark class=\"clave-criterio\">cromatina</mark>, ADN más proteínas en distintos estados de condensación (0,25 p). <span class=\"redactado\">La envoltura es continua con el RER y sus poros regulan el paso de ARNm, ribosomas y proteínas; el nucléolo, sin membrana, forma las subunidades de los ribosomas; la cromatina contiene el ADN asociado a histonas.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2010 · Examen 5",
@@ -43028,10 +43028,10 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>En relación con la figura adjunta, que representa una molécula de ADN, conteste las siguientes cuestiones:</b><br>a) ¿Qué representan las líneas de puntos que unen las moléculas marcadas con los números 1 y 4 y las indicadas con los números 2 y 3? [0,3]. Nombre las moléculas que están unidas por tres líneas de puntos y las que están unidas por dos [0,4]. ¿Qué señala el recuadro número 5? [0,3].<br>b) Explique qué es la complementariedad de bases en el ADN y razone su importancia en la replicación [0,5]. ¿Qué quiere decir que la replicación del ADN es semiconservativa? [0,5].",
    "c": [
     "a) <mark class=\"clave-criterio\">Puentes de hidrógeno</mark> (0,3 p).",
-    "a) 1: <mark class=\"clave-criterio\">citosina</mark>; 2: <mark class=\"clave-criterio\">adenina</mark>; 3: <mark class=\"clave-criterio\">timina</mark>; 4: <mark class=\"clave-criterio\">guanina</mark> (tres puentes entre 1 y 4; dos entre 2 y 3). 0,1 p cada una (0,4 p).",
-    "a) Recuadro: <mark class=\"clave-criterio\">nucleótido</mark> (0,3 p).",
-    "b) <mark class=\"clave-criterio\">Apareamiento específico de bases</mark> en el interior de la doble hélice, unidas por puentes de hidrógeno; gracias a él la duplicación de la cadena es <mark class=\"clave-criterio\">exacta</mark> (0,5 p).",
-    "b) Es semiconservativa porque cada molécula de ADN resultante posee una <mark class=\"clave-criterio\">cadena vieja y otra de nueva síntesis</mark> (0,5 p)."
+    "a) 1: <mark class=\"clave-criterio\">citosina</mark>; 2: <mark class=\"clave-criterio\">adenina</mark>; 3: <mark class=\"clave-criterio\">timina</mark>; 4: <mark class=\"clave-criterio\">guanina</mark> (tres puentes entre 1 y 4; dos entre 2 y 3). 0,1 p cada una (0,4 p). <span class=\"redactado\">Los pares G-C están unidos por tres puentes de hidrógeno y los A-T, por dos.</span>",
+    "a) Recuadro: <mark class=\"clave-criterio\">nucleótido</mark> (0,3 p). <span class=\"redactado\">Cada nucleótido tiene un fosfato, una desoxirribosa y una base nitrogenada.</span>",
+    "b) <mark class=\"clave-criterio\">Apareamiento específico de bases</mark> en el interior de la doble hélice, unidas por puentes de hidrógeno; gracias a él la duplicación de la cadena es <mark class=\"clave-criterio\">exacta</mark> (0,5 p). <span class=\"redactado\">Una base púrica se aparea siempre con una pirimidínica; así la secuencia de una cadena determina la de la otra, y cada cadena sirve de molde para fabricar su complementaria.</span>",
+    "b) Es semiconservativa porque cada molécula de ADN resultante posee una <mark class=\"clave-criterio\">cadena vieja y otra de nueva síntesis</mark> (0,5 p). <span class=\"redactado\">Lo demostraron Meselson y Stahl con nitrógeno pesado (¹⁵N).</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2010 · Examen 5",
@@ -43108,10 +43108,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Defina: respuesta inmunitaria, hipersensibilidad (alergia), autoinmunidad e inmunodeficiencia [2].",
    "c": [
-    "Respuesta inmunitaria: respuesta del organismo frente a la entrada de algún <mark class=\"clave-criterio\">patógeno o sustancia extraña</mark> no reconocida como propia (0,5 p).",
-    "Hipersensibilidad: reacción inmunitaria <mark class=\"clave-criterio\">inadecuada o exagerada</mark> frente a una sustancia concreta (0,5 p).",
-    "Autoinmunidad: respuesta inmunitaria contra moléculas, células o tejidos <mark class=\"clave-criterio\">propios del organismo</mark> (0,5 p).",
-    "Inmunodeficiencia: <mark class=\"clave-criterio\">incapacidad del sistema inmunitario</mark> para defender al organismo frente a las infecciones (0,5 p)."
+    "Respuesta inmunitaria: respuesta del organismo frente a la entrada de algún <mark class=\"clave-criterio\">patógeno o sustancia extraña</mark> no reconocida como propia (0,5 p). <span class=\"redactado\">Puede ser innata, inespecífica e inmediata, o adquirida, específica y con memoria.</span>",
+    "Hipersensibilidad: reacción inmunitaria <mark class=\"clave-criterio\">inadecuada o exagerada</mark> frente a una sustancia concreta (0,5 p). <span class=\"redactado\">Se produce frente a antígenos normalmente inofensivos, los alérgenos (polen, ácaros, alimentos); en un segundo contacto, la IgE unida a los mastocitos hace que liberen histamina, que provoca los síntomas.</span>",
+    "Autoinmunidad: respuesta inmunitaria contra moléculas, células o tejidos <mark class=\"clave-criterio\">propios del organismo</mark> (0,5 p). <span class=\"redactado\">El sistema inmunitario pierde la tolerancia frente a lo propio; por ejemplo, la diabetes de tipo 1, la artritis reumatoide o la esclerosis múltiple.</span>",
+    "Inmunodeficiencia: <mark class=\"clave-criterio\">incapacidad del sistema inmunitario</mark> para defender al organismo frente a las infecciones (0,5 p). <span class=\"redactado\">Puede ser congénita, como la de los «niños burbuja», o adquirida, como el sida, en el que el VIH destruye los linfocitos T colaboradores.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2010 · Examen 5",
@@ -43166,8 +43166,8 @@ window.BIOCELIA_HISTORICO = {
    "c": [
     "<b>I.</b> Los gases como el oxígeno atraviesan la membrana por <mark class=\"clave-criterio\">difusión</mark>, siempre desde donde están <mark class=\"clave-criterio\">más concentrados hacia donde lo están menos</mark>; al estar más concentrado dentro, el oxígeno <mark class=\"clave-criterio\">no entraría</mark> (0,5 p).",
     "<b>I.</b> Los aminoácidos no entrarían por transporte pasivo <mark class=\"clave-criterio\">en contra de gradiente</mark>, aunque podrían entrar por <mark class=\"clave-criterio\">transporte activo</mark> (0,5 p).",
-    "<b>II.</b> Los antibióticos son exclusivos para el tratamiento de enfermedades producidas por <mark class=\"clave-criterio\">bacterias</mark> (0,5 p).",
-    "<b>II.</b> Los antibióticos pueden seleccionar <mark class=\"clave-criterio\">bacterias resistentes</mark> a su acción y dejan de tener efecto (0,5 p)."
+    "<b>II.</b> Los antibióticos son exclusivos para el tratamiento de enfermedades producidas por <mark class=\"clave-criterio\">bacterias</mark> (0,5 p). <span class=\"redactado\">Los antibióticos actúan sobre estructuras propias de las bacterias, como la pared o los ribosomas 70S; los virus no tienen esas estructuras, así que los antibióticos no sirven contra la gripe o el resfriado.</span>",
+    "<b>II.</b> Los antibióticos pueden seleccionar <mark class=\"clave-criterio\">bacterias resistentes</mark> a su acción y dejan de tener efecto (0,5 p). <span class=\"redactado\">Por mutación o por plásmidos que pasan de unas bacterias a otras, algunas son resistentes; el antibiótico elimina las sensibles y las resistentes se multiplican (selección natural). Por eso hay que tomarlos solo cuando los receta el médico y durante todo el tratamiento.</span>"
    ],
    "isNew": false,
    "competencial": false,
@@ -43194,12 +43194,12 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>I.</b> Razone las causas de los siguientes hechos relacionados con el agua: a) el agua es líquida a temperatura ambiente; b) el agua es termorreguladora; c) el agua es soporte de reacciones; d) el agua permite la existencia de ecosistemas acuáticos en zonas polares [1]. <i>(1 punto)</i><br><br><b>II.</b> Un incendio ha producido grandes cambios en el fenotipo, aunque no en el genotipo, de los individuos de una población de ratones. ¿Serán esos cambios heredados por los descendientes? [0,4]. Un agente químico ha producido cambios en el genotipo, aunque no en el fenotipo, de los individuos de una población. ¿Serán esos cambios heredados por los descendientes? [0,6]. Razone las respuestas. <i>(1 punto)</i>",
    "puntos": 2,
    "c": [
-    "<b>I.</b> a) Por los <mark class=\"clave-criterio\">puentes de hidrógeno</mark> (0,25 p).",
-    "<b>I.</b> b) Por su elevado <mark class=\"clave-criterio\">calor específico</mark> (0,25 p).",
-    "<b>I.</b> c) Es buen disolvente por su <mark class=\"clave-criterio\">carácter dipolar</mark> (0,25 p).",
-    "<b>I.</b> d) El hielo tiene <mark class=\"clave-criterio\">menor densidad</mark> y la capa de hielo actúa como <mark class=\"clave-criterio\">aislante</mark> (0,25 p).",
-    "<b>II.</b> Los cambios que se producen en el <mark class=\"clave-criterio\">fenotipo no se heredan</mark> (0,4 p).",
-    "<b>II.</b> Los cambios en el genotipo se heredan si han afectado a las <mark class=\"clave-criterio\">células germinales</mark> (0,3 p) y no se heredan si han afectado a las <mark class=\"clave-criterio\">células somáticas</mark> (0,3 p)."
+    "<b>I.</b> a) Por los <mark class=\"clave-criterio\">puentes de hidrógeno</mark> (0,25 p). <span class=\"redactado\">Para pasar a gas hay que romper muchos puentes de hidrógeno; sin ellos, una molécula tan pequeña sería un gas a temperatura ambiente.</span>",
+    "<b>I.</b> b) Por su elevado <mark class=\"clave-criterio\">calor específico</mark> (0,25 p). <span class=\"redactado\">Absorbe mucho calor con poco cambio de temperatura y amortigua los cambios de temperatura del medio y del organismo.</span>",
+    "<b>I.</b> c) Es buen disolvente por su <mark class=\"clave-criterio\">carácter dipolar</mark> (0,25 p). <span class=\"redactado\">Disuelve muchas sustancias polares e iónicas, y las reacciones del metabolismo ocurren en disolución; además, participa en algunas, como la hidrólisis.</span>",
+    "<b>I.</b> d) El hielo tiene <mark class=\"clave-criterio\">menor densidad</mark> y la capa de hielo actúa como <mark class=\"clave-criterio\">aislante</mark> (0,25 p). <span class=\"redactado\">El hielo flota y aísla el agua líquida de debajo, donde viven los organismos.</span>",
+    "<b>II.</b> Los cambios que se producen en el <mark class=\"clave-criterio\">fenotipo no se heredan</mark> (0,4 p). <span class=\"redactado\">Las quemaduras afectan a las células somáticas, y lo que se hereda son los genes, no los caracteres adquiridos durante la vida.</span>",
+    "<b>II.</b> Los cambios en el genotipo se heredan si han afectado a las <mark class=\"clave-criterio\">células germinales</mark> (0,3 p) y no se heredan si han afectado a las <mark class=\"clave-criterio\">células somáticas</mark> (0,3 p). <span class=\"redactado\">Solo los cambios en las células que forman los gametos pasan a la descendencia.</span>"
    ],
    "isNew": false,
    "competencial": false,
@@ -43337,8 +43337,8 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Enumere tres factores que influyan en la actividad enzimática [0,6]. Explique el efecto de dos de ellos [1,4].",
    "c": [
-    "Factores: <mark class=\"clave-criterio\">temperatura</mark>, <mark class=\"clave-criterio\">pH</mark>, <mark class=\"clave-criterio\">concentración de sustrato</mark>, <mark class=\"clave-criterio\">cofactores</mark>, <mark class=\"clave-criterio\">concentración de enzima</mark>, etc. Solo tres, a 0,2 p (0,6 p).",
-    "Temperatura (<mark class=\"clave-criterio\">variación de la actividad</mark> y <mark class=\"clave-criterio\">desnaturalización</mark>), pH (variación de la actividad y desnaturalización), etc. Solo dos, a 0,7 p cada uno (1,4 p)."
+    "Factores: <mark class=\"clave-criterio\">temperatura</mark>, <mark class=\"clave-criterio\">pH</mark>, <mark class=\"clave-criterio\">concentración de sustrato</mark>, <mark class=\"clave-criterio\">cofactores</mark>, <mark class=\"clave-criterio\">concentración de enzima</mark>, etc. Solo tres, a 0,2 p (0,6 p). <span class=\"redactado\">La velocidad aumenta con la concentración de sustrato hasta la saturación, en la que todas las enzimas están ocupadas; también influyen los inhibidores.</span>",
+    "Temperatura (<mark class=\"clave-criterio\">variación de la actividad</mark> y <mark class=\"clave-criterio\">desnaturalización</mark>), pH (variación de la actividad y desnaturalización), etc. Solo dos, a 0,7 p cada uno (1,4 p). <span class=\"redactado\">Temperatura: la actividad aumenta hasta la temperatura óptima y después cae bruscamente al desnaturalizarse la enzima, que es una proteína; el frío la reduce pero no la desnaturaliza. pH: cada enzima tiene un pH óptimo; fuera de él cambian las cargas de los aminoácidos del centro activo y se dificulta la unión del sustrato, y con pH extremos se desnaturaliza.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2010 · Examen 6",
@@ -43471,7 +43471,7 @@ window.BIOCELIA_HISTORICO = {
    "puntos": 2,
    "c": [
     "<b>I.</b> Es válido cualquier razonamiento que relacione la <mark class=\"clave-criterio\">composición del almidón y la celulosa</mark> <span class=\"redactado\">enlaces α en el almidón, β en la celulosa</span> con la presencia o ausencia de las <mark class=\"clave-criterio\">enzimas necesarias</mark> para su degradación en el tubo digestivo (1 p).",
-    "<b>II.</b> Sin <mark class=\"clave-criterio\">mutación</mark> y sin la <mark class=\"clave-criterio\">recombinación génica</mark> de la meiosis no se produce <mark class=\"clave-criterio\">variabilidad genética</mark>, y sin ella la población <mark class=\"clave-criterio\">no puede evolucionar</mark> (1 p)."
+    "<b>II.</b> Sin <mark class=\"clave-criterio\">mutación</mark> y sin la <mark class=\"clave-criterio\">recombinación génica</mark> de la meiosis no se produce <mark class=\"clave-criterio\">variabilidad genética</mark>, y sin ella la población <mark class=\"clave-criterio\">no puede evolucionar</mark> (1 p). <span class=\"redactado\">En la reproducción asexual los descendientes son copias del progenitor; la evolución necesita variabilidad sobre la que actúe la selección natural, y en estos organismos la única fuente de variabilidad es la mutación.</span>"
    ],
    "isNew": false,
    "competencial": false,
