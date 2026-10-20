@@ -98,10 +98,10 @@
           "figuraDesc": "Una sustancia (2) se une a anticuerpos (1) fijados en la superficie de una célula llena de gránulos, que los libera.",
           "q": "<b>Ulani se mudó a España desde una isla remota sin saber que era alérgica a las abejas. No pasó mucho tiempo antes de que le picase una abeja, lo que le produjo una reacción inflamatoria local que desconcertó bastante a la isleña. Sus amigos intentaron explicarle en qué consistía la respuesta alérgica utilizando la siguiente imagen.</b><br>a) ¿Qué tipo de inmunoglobulinas, señaladas con el número 1, son específicas de la respuesta alérgica? [0,2] y ¿cuál es la naturaleza química de las inmunoglobulinas? [0,2]. Describa su estructura molecular [0,2].<br>b) ¿Cómo se denominan las diferentes sustancias, como la señalada con el número 2, que desencadenan una respuesta alérgica? [0,2].<br>c) Indique el nombre de la célula de la imagen y el nombre de una sustancia liberada por dicha célula como consecuencia de la respuesta alérgica [0,4].<br>d) ¿Qué tipo de células producen las inmunoglobulinas? [0,2]. Nombre dos orgánulos o estructuras de dichas células implicados en la síntesis y secreción de inmunoglobulinas, e indique cómo se denomina, en general, el proceso por el que la célula libera dichas sustancias al exterior [0,6].",
           "c": [
-            "a) **IgE**; **glucoproteica**. **Dos cadenas pesadas y dos ligeras unidas por enlaces disulfuro** (0,6 p).",
+            "a) **IgE**; **glucoproteica**. **Dos cadenas pesadas y dos ligeras unidas por enlaces disulfuro** (0,6 p). ((Las cadenas tienen regiones variables, en los extremos de los brazos de la Y, que forman los sitios de unión al antígeno, y regiones constantes; la IgE se une a los mastocitos por su región constante.))",
             "b) **Alérgenos** (0,2 p).",
-            "c) **Mastocito (célula cebada)** o **basófilo** (solo uno); **histamina** o **heparina** (solo una) (0,4 p).",
-            "d) **Células plasmáticas (linfocitos B)** (0,2 p). (Solo dos, 0,2 p cada uno) **ribosomas**, **retículo endoplasmático rugoso**, **aparato de Golgi**, **vesículas de secreción**. **Exocitosis (secreción)** (0,2 p)."
+            "c) **Mastocito (célula cebada)** o **basófilo** (solo uno); **histamina** o **heparina** (solo una) (0,4 p). ((En el primer contacto se producen IgE, que se unen a los mastocitos; en los siguientes, el alérgeno se une a esas IgE y los mastocitos liberan histamina, que dilata los vasos y causa la inflamación.))",
+            "d) **Células plasmáticas (linfocitos B)** (0,2 p). (Solo dos, 0,2 p cada uno) **ribosomas**, **retículo endoplasmático rugoso**, **aparato de Golgi**, **vesículas de secreción**. **Exocitosis (secreción)** (0,2 p). ((Los ribosomas del RER sintetizan las cadenas, que se pliegan en el retículo; en el Golgi se completa la glucosilación y se empaquetan en vesículas.))"
           ]
         },
         {
@@ -142,8 +142,8 @@
           "q": "<b>Con relación a la beta-oxidación de los ácidos grasos:</b><br>a) Indique la localización intracelular de dicho proceso en una célula eucariota [0,2].<br>b) En dicho proceso, ¿de qué tipo de molécula orgánica se parte y qué moléculas se obtienen como productos finales? [0,8].<br>c) Indique el nombre de una ruta en la que se puedan incorporar cada uno de los productos finales con objeto de obtener energía [0,6].<br>d) Nombre cuatro componentes, diferentes de los relacionados con la beta-oxidación de los ácidos grasos, que se encuentren en la misma localización intracelular [0,4].",
           "c": [
             "a) **Matriz mitocondrial** (y peroxisomas) (0,2 p).",
-            "b) Se parte de **acil-CoA (ácidos grasos)**; se obtienen **acetil-CoA, NADH y FADH₂** (0,2 p cada una) (0,8 p).",
-            "c) **Acetil-CoA: ciclo de Krebs**; **NADH y FADH₂: cadena transportadora de electrones** (0,6 p).",
+            "b) Se parte de **acil-CoA (ácidos grasos)**; se obtienen **acetil-CoA, NADH y FADH₂** (0,2 p cada una) (0,8 p). ((Antes de entrar en la mitocondria, el ácido graso se activa uniéndose a la coenzima A; en cada vuelta se acorta en dos carbonos.))",
+            "c) **Acetil-CoA: ciclo de Krebs**; **NADH y FADH₂: cadena transportadora de electrones** (0,6 p). ((En la cadena respiratoria, los electrones del NADH y el FADH₂ pasan hasta el O₂, y la energía liberada permite sintetizar ATP por fosforilación oxidativa.))",
             "d) (Solo cuatro) **ADN circular**, **ribosomas**, **iones**, **ARN (ARNm, ARNt)**, **enzimas del ciclo de Krebs**, **sustratos del ciclo de Krebs** (0,4 p)."
           ]
         }
@@ -165,10 +165,10 @@
           "q": "<b>Conteste a las siguientes cuestiones relacionadas con la figura adjunta:</b><br>a) En un cultivo celular se ha puesto de manifiesto que hay una ruta catabólica, la número 1, que se desarrolla en el interior de un orgánulo. ¿De qué ruta se trata? [0,1].<br>b) Indique qué tipo de organización tienen las células de dicho cultivo [0,2]. Cuál es el nombre del orgánulo y del compartimento de dicho orgánulo donde se desarrolla la ruta 1 [0,4].<br>c) Indique la naturaleza química del GTP y su composición [0,4].<br>d) En un proceso biotecnológico tradicional, que tiene lugar en las células representadas con 2, se lleva a cabo una ruta alternativa a la 1. Indique el nombre de la ruta y sus productos finales [0,4].<br>e) Una ruta del mismo tipo que la anterior ocurre en el órgano representado con el número 3. Indique el nombre de la ruta y en qué condiciones se lleva a cabo dicha reacción [0,5].",
           "c": [
             "a) **Ciclo de Krebs** (0,1 p).",
-            "b) **Eucariota**. Orgánulo: **mitocondria**; compartimento: **matriz mitocondrial** (0,6 p).",
-            "c) **Nucleotídica** (0,1 p); **fosfato (trifosfato)**, **ribosa**, **guanina** (0,1 p cada uno).",
-            "d) **Fermentación alcohólica** (0,2 p); **etanol y CO₂** (0,2 p).",
-            "e) **Fermentación láctica** (0,2 p); cuando se hace **ejercicio físico intenso sin aporte suficiente de oxígeno** (0,3 p)."
+            "b) **Eucariota**. Orgánulo: **mitocondria**; compartimento: **matriz mitocondrial** (0,6 p). ((La matriz contiene las enzimas del ciclo de Krebs y de la β-oxidación; las bacterias no tienen mitocondrias.))",
+            "c) **Nucleotídica** (0,1 p); **fosfato (trifosfato)**, **ribosa**, **guanina** (0,1 p cada uno). ((El GTP formado en el ciclo de Krebs equivale a un ATP.))",
+            "d) **Fermentación alcohólica** (0,2 p); **etanol y CO₂** (0,2 p). ((La realizan las levaduras, por ejemplo para el pan, el vino o la cerveza.))",
+            "e) **Fermentación láctica** (0,2 p); cuando se hace **ejercicio físico intenso sin aporte suficiente de oxígeno** (0,3 p). ((Sin O₂ suficiente, el músculo reduce el piruvato a lactato para regenerar el NAD⁺ y seguir obteniendo ATP en la glucólisis.))"
           ]
         },
         {
@@ -620,10 +620,10 @@
           "figuraDesc": "Esquema circular del ciclo celular con G1, S, G2 y M (profase, metafase, anafase y telofase) y una salida a G0.",
           "q": "<b>En relación con la figura adjunta:</b><br>a) Indique el nombre del proceso representado e indique las dos etapas en las que se divide [0,6].<br>b) Ciertas células permanecen indefinidamente en una de las fases de este proceso. Indique cuál es y cite un ejemplo de célula que permanezca en esta fase [0,4].<br>c) La vincristina se utiliza como fármaco para inhibir la polimerización de la tubulina. Razone qué consecuencias tendrá la utilización de dicho fármaco y qué utilidad puede tener desde el punto de vista médico [0,4].<br>d) ¿En qué momento de la fase M se produce la desorganización de la envoltura nuclear? [0,2]. Indique qué componentes del citoesqueleto intervienen en la citocinesis de la célula animal y qué estructura forman [0,4].",
           "c": [
-            "a) **Ciclo celular** (0,2 p); **interfase** y **división celular** (0,2 p cada una).",
-            "b) **G0**; ejemplo: **neuronas**, **células musculares** (solo una) (0,4 p).",
-            "c) Sin polimerizar la tubulina **no se forma el huso mitótico** y **se inhibe la división celular**. Utilidad: **frenar el crecimiento de células que se dividen descontroladamente, como las cancerosas** (0,4 p).",
-            "d) **Profase**. **Microfilamentos de actina**; **anillo contráctil** (0,2 p cada respuesta)."
+            "a) **Ciclo celular** (0,2 p); **interfase** y **división celular** (0,2 p cada una). ((La interfase comprende G1, S y G2; la división, la mitosis y la citocinesis.))",
+            "b) **G0**; ejemplo: **neuronas**, **células musculares** (solo una) (0,4 p). ((Las células en G0 han salido del ciclo y no se dividen, aunque siguen activas.))",
+            "c) Sin polimerizar la tubulina **no se forma el huso mitótico** y **se inhibe la división celular**. Utilidad: **frenar el crecimiento de células que se dividen descontroladamente, como las cancerosas** (0,4 p). ((Las células se detienen en la metafase y no pueden repartir los cromosomas; afecta sobre todo a las células que se dividen mucho, como las tumorales.))",
+            "d) **Profase**. **Microfilamentos de actina**; **anillo contráctil** (0,2 p cada respuesta). ((El anillo contráctil de actina y miosina se estrecha y forma el surco de segmentación, que divide el citoplasma en dos.))"
           ]
         },
         {

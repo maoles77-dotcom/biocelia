@@ -316,10 +316,10 @@
           "figuraDesc": "Fórmula del ATP: tres fosfatos, ribosa y adenina; la flecha 1 señala la unión ribosa-adenina y la 2 la unión ribosa-fosfato.",
           "q": "<b>En relación con la imagen adjunta, responda a las siguientes preguntas:</b><br>a) Indique el nombre de la biomolécula representada y el grupo de biomoléculas al que pertenece [0,2]. Identifique los enlaces señalados con 1 y 2 [0,2] y cite el nombre de los componentes que forman esta biomolécula [0,3].<br>b) Nombre tres funciones que realizan este grupo de biomoléculas en las células [0,6].<br>c) Indique dos orgánulos, y la localización dentro de ellos, en los que se sintetiza dicha molécula [0,4].<br>d) Cite tres mecanismos por los que se sintetizan estas moléculas [0,3].",
           "c": [
-            "a) **ATP**; **nucleótidos** (0,2 p). 1: **N-glucosídico**; 2: **fosfoéster** (0,2 p). **Una base nitrogenada (adenina), una ribosa y tres grupos fosfato** (0,3 p).",
-            "b) **Estructural**, **coenzimática**, **energética**, **mensajero intracelular** (solo tres, 0,2 p cada una).",
-            "c) **Mitocondria / membrana interna (crestas)**; **cloroplasto / membrana de los tilacoides** (0,4 p).",
-            "d) **Fosforilación a nivel de sustrato**, **fosforilación oxidativa** y **fotofosforilación** (0,3 p)."
+            "a) **ATP**; **nucleótidos** (0,2 p). 1: **N-glucosídico**; 2: **fosfoéster** (0,2 p). **Una base nitrogenada (adenina), una ribosa y tres grupos fosfato** (0,3 p). ((La adenina se une a la ribosa por enlace N-glucosídico y la ribosa al primer fosfato por enlace éster; entre los fosfatos hay enlaces ricos en energía.))",
+            "b) **Estructural**, **coenzimática**, **energética**, **mensajero intracelular** (solo tres, 0,2 p cada una). ((Los nucleótidos forman parte de los ácidos nucleicos, el NAD⁺ y el FAD son coenzimas, el ATP transfiere energía y el AMP cíclico es un segundo mensajero.))",
+            "c) **Mitocondria / membrana interna (crestas)**; **cloroplasto / membrana de los tilacoides** (0,4 p). ((En los dos casos, la ATP sintasa aprovecha un gradiente de protones.))",
+            "d) **Fosforilación a nivel de sustrato**, **fosforilación oxidativa** y **fotofosforilación** (0,3 p). ((La fosforilación a nivel de sustrato ocurre en la glucólisis y en el ciclo de Krebs.))"
           ]
         },
         {

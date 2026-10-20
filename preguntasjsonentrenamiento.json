@@ -32481,10 +32481,10 @@
     "tipo": "respuesta breve",
     "pregunta": "Una mujer, que de niña contrajo el virus de la rubeola, presenta en sangre una baja concentración de anticuerpos frente al virus. Se le recomienda vacunarse para evitar problemas. La analítica tras la vacunación muestra una concentración de anticuerpos frente al virus mayor. a) ¿Qué tipo de respuesta inmune se generó tras el contacto con el virus? ¿Y tras la vacunación? Razónelo. (0,6 puntos) b) Tras la vacuna la respuesta inmune es más rápida e intensa, ¿por qué? (0,6 puntos) c) ¿Qué anticuerpo predominó tras el contacto con el virus? ¿Y tras la vacunación? (0,6 puntos) d) Dada la naturaleza molecular de los anticuerpos, ¿en qué orgánulo se sintetizan? (0,2 puntos)",
     "respuesta": [
-      "a) Tras el virus: respuesta primaria (primer contacto con el antígeno). Tras la vacuna: respuesta secundaria, porque ya había células de memoria (0,6 p).",
+      "a) Tras el virus: respuesta primaria (primer contacto con el antígeno). Tras la vacuna: respuesta secundaria, porque ya había células de memoria (0,6 p). En la infancia, el virus provocó una respuesta primaria y dejó linfocitos de memoria, aunque con los años bajó la concentración de anticuerpos; la vacuna, al aportar el mismo antígeno, activa esas células de memoria.",
       "b) La primera exposición generó linfocitos B de memoria, que responden rápidamente y producen anticuerpos en más cantidad (0,6 p).",
-      "c) Tras el virus: IgM; tras la vacuna: IgG (0,6 p).",
-      "d) Son glucoproteínas: se sintetizan en el retículo endoplasmático rugoso (ribosomas asociados al RER) (0,2 p)."
+      "c) Tras el virus: IgM; tras la vacuna: IgG (0,6 p). En la respuesta primaria predominan las IgM, las primeras que se producen; en la secundaria, las IgG, en mucha mayor cantidad.",
+      "d) Son glucoproteínas: se sintetizan en el retículo endoplasmático rugoso (ribosomas asociados al RER) (0,2 p). Los secretan las células plasmáticas, que tienen el RER muy desarrollado; después pasan por el Golgi y salen por exocitosis."
     ],
     "palabras_clave": [
       "IgG",
@@ -32611,9 +32611,9 @@
     "tipo": "respuesta breve",
     "pregunta": "El esquema adjunto representa procesos biosintéticos que dan lugar a grandes moléculas poliméricas fundamentales para las células. El recuadro corresponde a un detalle ampliado. 1. Indica el nombre de las biomoléculas poliméricas que se están sintetizando en el esquema y señala cómo se denominan esos procesos de síntesis. (Calificación 1 punto) 2. Explica qué es el promotor o región promotora e indica cuántas de estas regiones hay en el ejemplo que se representa en el esquema. Justifica tu respuesta. (Calificación 1 punto) 3. Con la información que se muestra en el recuadro ampliado, indica qué cadena, azul-5´ o rosa-3´, es la cadena molde. Justifica tu respuesta. (Calificación 0.5 puntos)",
     "respuesta": [
-      "1. ARN mensajero y proteínas (0,5 p); procesos: transcripción y traducción (0,5 p).",
+      "1. ARN mensajero y proteínas (0,5 p); procesos: transcripción y traducción (0,5 p). En el esquema, varias ARN polimerasas transcriben el mismo gen y, a la vez, los ribosomas se unen a los ARNm que se están formando (polirribosomas).",
       "2. El promotor es una secuencia corta de ADN que reconoce la ARN polimerasa y que marca el inicio de la transcripción (0,5 p). Hay una sola región promotora, porque se transcribe un único tipo de ARNm (aunque haya 5 copias) (0,5 p).",
-      "3. La rosa: el ADN se lee en sentido 3'→5' y la ARN polimerasa avanza de izquierda a derecha (0,5 p)."
+      "3. La rosa: el ADN se lee en sentido 3'→5' y la ARN polimerasa avanza de izquierda a derecha (0,5 p). La ARN polimerasa sintetiza el ARN en sentido 5'→3', leyendo la cadena molde en sentido 3'→5'; el ARN tiene la misma secuencia que la cadena codificante, con U en lugar de T."
     ],
     "palabras_clave": [
       "3'→5'",
@@ -32643,8 +32643,8 @@
     "pregunta": "El esquema adjunto representa procesos biosintéticos que dan lugar a grandes moléculas poliméricas fundamentales para las células. El recuadro corresponde a un detalle ampliado. 1. Explica si el proceso, tal como se representa, tiene lugar en células procariotas, o en eucariotas o en ambos tipos. Justifica tu respuesta. (Calificación 1 punto) 2. Indica el nombre y localización celular del enzima responsable de activación de los aminoácidos y del enzima responsable de la formación del enlace peptídico. (Calificación 1 punto) 3. Todas las cadenas que se representan en el esquema como una sucesión de pequeñas esferas de varios colores tienen en el extremo una esfera de color negro. ¿Se puede saber a qué molécula corresponde dicha esfera negra del extremo? Justifica tu respuesta. (Calificación 0.5 puntos)",
     "respuesta": [
       "1. En procariotas: solo en ellas la transcripción y la traducción ocurren en el mismo compartimento (citoplasma), y un ARNm se traduce mientras se transcribe (1 p).",
-      "2. Activación: aminoacil-ARNt sintetasa, en el citoplasma (0,5 p). Enlace peptídico: peptidil transferasa, en los ribosomas (0,5 p).",
-      "3. Sí: es la N-formil-metionina (o metionina), porque la traducción empieza siempre por el codón AUG (0,5 p)."
+      "2. Activación: aminoacil-ARNt sintetasa, en el citoplasma (0,5 p). Enlace peptídico: peptidil transferasa, en los ribosomas (0,5 p). La aminoacil-ARNt sintetasa une a cada ARNt el aminoácido que corresponde a su anticodón, con gasto de ATP; la peptidil transferasa forma parte del ARNr de la subunidad mayor del ribosoma.",
+      "3. Sí: es la N-formil-metionina (o metionina), porque la traducción empieza siempre por el codón AUG (0,5 p). En las bacterias la primera metionina está formilada; la cadena crece desde el extremo amino (N-terminal), por eso ese primer aminoácido queda en el extremo."
     ],
     "palabras_clave": [
       "N-formil-metionina",
@@ -32671,9 +32671,9 @@
     "tipo": "respuesta breve",
     "pregunta": "El esquema adjunto es una representación esquemática de una célula y el recuadro de la derecha corresponde a un detalle a mayor aumento de una estructura presente en el citoplasma. 1. Señala el nombre de la estructura que se representa en color verde y naranja y se presenta en el recuadro a mayor aumento. Indica los componentes que constituyen esta estructura. (Calificación 1 punto) 2. Explica brevemente qué es el fragmoplasto de una célula, cómo se origina y para qué sirve, e indica si esa estructura está presente en la célula que se representa. Justifica tu respuesta. (Calificación 1 punto) 3. Explica si es posible que la estructura que se representa con los colores verde y naranja y se presenta en el recuadro a mayor aumento, aparezca duplicada en una célula. Justifica tu respuesta. (Calificación 0.5 puntos)",
     "respuesta": [
-      "1. Centrosoma (0,25 p), formado por dos centriolos (diplosoma), material pericentriolar y microtúbulos radiales (áster) (0,75 p).",
-      "2. Fragmoplasto: tabique formado a partir del aparato de Golgi que divide el citoplasma (citocinesis) en las células vegetales (0,5 p). No está en la célula representada: es animal, porque tiene centrosoma con centriolos (0,5 p).",
-      "3. Sí: se duplica en la fase S para formar el huso mitótico que reparte los cromosomas (0,5 p)."
+      "1. Centrosoma (0,25 p), formado por dos centriolos (diplosoma), material pericentriolar y microtúbulos radiales (áster) (0,75 p). Cada centriolo está formado por nueve tripletes de microtúbulos; el centrosoma organiza los microtúbulos de la célula.",
+      "2. Fragmoplasto: tabique formado a partir del aparato de Golgi que divide el citoplasma (citocinesis) en las células vegetales (0,5 p). No está en la célula representada: es animal, porque tiene centrosoma con centriolos (0,5 p). Las vesículas del Golgi, cargadas de polisacáridos de la pared, se acumulan en el ecuador y se fusionan, formando la placa celular que dará la nueva pared entre las dos células hijas.",
+      "3. Sí: se duplica en la fase S para formar el huso mitótico que reparte los cromosomas (0,5 p). Al principio de la mitosis, los dos centrosomas se separan hacia los polos y entre ellos se forma el huso."
     ],
     "palabras_clave": [
       "Centrosoma",
@@ -32703,9 +32703,9 @@
     "tipo": "respuesta breve",
     "pregunta": "El esquema adjunto es una representación esquemática de una célula y el recuadro de la derecha corresponde a un detalle a mayor aumento de una estructura presente en el citoplasma. 1. Explica cuál es la diferencia entre nucleoide y nucléolo e indica si alguna de estas dos estructuras o las dos están presentes en la célula que se representa. (Calificación 1 punto) 2. Indica si la célula que se representa está en interfase o en fase M. Justifica tu respuesta en base a dos características de la célula representada. (Calificación 1 punto) 3. Señala en qué proceso y fase se encontrará una célula en la que los cromosomas homólogos están formados por dos cromátidas y se están desplazando hacia polos opuestos. Justifica tu respuesta. (Calificación 0.5 puntos)",
     "respuesta": [
-      "1. Nucleoide: zona de las células procariotas donde está el ADN sin membrana. Nucléolo: estructura del núcleo eucariota donde se sintetiza el ARNr y se forman los ribosomas (0,75 p). La célula tiene nucléolo pero no nucleoide (0,25 p).",
-      "2. Interfase, por dos de estas: envoltura nuclear, nucléolo, cromatina sin condensar, no se ven cromosomas, centrosoma sin dividir (1 p).",
-      "3. Anafase I de la meiosis: se separan los homólogos completos, cada uno con sus dos cromátidas (en la mitosis se separan cromátidas) (0,5 p)."
+      "1. Nucleoide: zona de las células procariotas donde está el ADN sin membrana. Nucléolo: estructura del núcleo eucariota donde se sintetiza el ARNr y se forman los ribosomas (0,75 p). La célula tiene nucléolo pero no nucleoide (0,25 p). El nucleoide no tiene membrana y contiene el ADN circular de la bacteria; el nucléolo tampoco tiene membrana, pero está dentro del núcleo.",
+      "2. Interfase, por dos de estas: envoltura nuclear, nucléolo, cromatina sin condensar, no se ven cromosomas, centrosoma sin dividir (1 p). En la división celular, la envoltura nuclear y el nucléolo desaparecen y la cromatina se condensa en cromosomas.",
+      "3. Anafase I de la meiosis: se separan los homólogos completos, cada uno con sus dos cromátidas (en la mitosis se separan cromátidas) (0,5 p). En la mitosis y en la anafase II lo que se separa son las cromátidas hermanas."
     ],
     "palabras_clave": [
       "ADN sin membrana",
@@ -33091,9 +33091,9 @@
     "tipo": "respuesta breve",
     "pregunta": "En relación con las biomoléculas: En 1962 Watson, Crick y Wilkins compartieron el Premio Nobel de Fisiología y Medicina por su contribución al conocimiento del ADN. a) Cite los monómeros que forman esta biomolécula y explique la composición de los mismos. Nombre el modelo que explica la estructura del ADN bicatenario (0,75 puntos). b) ¿Mediante qué tipo de enlace se unen estos monómeros para formar la biomolécula en cuestión? Explique cómo se forma este enlace (0,75 puntos). c) Si una molécula de ADN presenta en su composición un 17% de Adenina, indique el porcentaje de las restantes bases nitrogenadas que posee. Razone la respuesta (0,5 puntos).",
     "respuesta": [
-      "a) Desoxirribonucleótidos (0,25 p), formados por una base nitrogenada (A, T, C o G), una desoxirribosa y ácido fosfórico (0,25 p). Modelo de la doble hélice (0,25 p).",
-      "b) Enlace fosfodiéster (0,25 p): reacción entre el –OH en 3' de un nucleótido y el –OH del fosfato en 5' del siguiente, liberando agua (0,5 p).",
-      "c) 17 % de timina, 33 % de guanina y 33 % de citosina (0,25 p), porque A es complementaria de T y G de C (0,25 p)."
+      "a) Desoxirribonucleótidos (0,25 p), formados por una base nitrogenada (A, T, C o G), una desoxirribosa y ácido fosfórico (0,25 p). Modelo de la doble hélice (0,25 p). Es el modelo de Watson y Crick (1953): dos cadenas antiparalelas enrolladas en una hélice dextrógira, con las bases complementarias hacia dentro, unidas por puentes de hidrógeno.",
+      "b) Enlace fosfodiéster (0,25 p): reacción entre el –OH en 3' de un nucleótido y el –OH del fosfato en 5' del siguiente, liberando agua (0,5 p). El ácido fosfórico forma dos enlaces éster, uno con el carbono 5′ de un nucleótido y otro con el 3′ del anterior; así se forma el esqueleto de pentosas y fosfatos de cada cadena.",
+      "c) 17 % de timina, 33 % de guanina y 33 % de citosina (0,25 p), porque A es complementaria de T y G de C (0,25 p). A + T = 34 %, y el 66 % restante se reparte a partes iguales entre G y C (reglas de Chargaff)."
     ],
     "palabras_clave": [
       "17 % de timina, 33 % de guanina y 33 % de citosina",
@@ -33156,10 +33156,10 @@
     "tipo": "respuesta breve",
     "pregunta": "En relación con la genética molecular: Razone por qué son falsas las siguientes afirmaciones: a) El proceso de corte y empalme o splicing del ARN consiste en cortar los exones y empalmar los intrones para generar ARNm y se produce en el citosol de células eucariotas (0,5 puntos). b) El inicio de la transcripción en procariotas está regulado por la unión de factores de iniciación a los ribosomas (0,5 puntos). c) Los telómeros de procariotas se acortan tras cada replicación del ADN (0,5 puntos). d) El código genético es degenerado porque a cada aminoácido sólo le corresponde un codón (0,5 puntos).",
     "respuesta": [
-      "a) En el splicing se cortan los intrones y se empalman los exones (0,25 p), y ocurre en el núcleo (0,25 p).",
-      "b) La transcripción no ocurre en los ribosomas; la unión de factores de iniciación a los ribosomas regula el inicio de la traducción (0,5 p).",
-      "c) Los procariotas no tienen telómeros: su cromosoma es circular y no tiene extremos (0,5 p).",
-      "d) Es degenerado porque cada aminoácido puede estar codificado por más de un codón (0,5 p)."
+      "a) En el splicing se cortan los intrones y se empalman los exones (0,25 p), y ocurre en el núcleo (0,25 p). Los intrones son las secuencias que no se traducen; el ARNm maduro, ya sin ellos, sale después al citoplasma.",
+      "b) La transcripción no ocurre en los ribosomas; la unión de factores de iniciación a los ribosomas regula el inicio de la traducción (0,5 p). En las procariotas, la transcripción la inicia la ARN polimerasa al unirse al promotor del ADN.",
+      "c) Los procariotas no tienen telómeros: su cromosoma es circular y no tiene extremos (0,5 p). Los telómeros son los extremos de los cromosomas lineales de los eucariotas, que se acortan en cada replicación porque la ADN polimerasa no puede copiar el extremo de la cadena retrasada.",
+      "d) Es degenerado porque cada aminoácido puede estar codificado por más de un codón (0,5 p). Por ejemplo, la leucina tiene seis codones; en cambio, cada codón codifica un solo aminoácido."
     ],
     "palabras_clave": [
       "cada aminoácido puede estar codificado por más de un codón",
@@ -33218,9 +33218,9 @@
     "tipo": "respuesta breve",
     "pregunta": "En relación con la biología celular: a) Cite las fases principales del ciclo celular y explique brevemente qué ocurre en cada una de ellas (1 punto). b) Cite dos procesos que contribuyan a producir variabilidad genética durante la meiosis e indique las fases de la meiosis en las que se producen. Justifique brevemente su respuesta (0,5 puntos). c) Nombre cada una de las fases de la reproducción celular de un organismo 2n=4 representadas a continuación (0,5 puntos).",
     "respuesta": [
-      "a) G1: la célula crece y se prepara para la replicación; S: replicación del ADN; G2: sigue creciendo y se prepara para la mitosis; M: división celular (mitosis y citocinesis). 0,25 p cada una (1 p).",
-      "b) Sobrecruzamiento en la profase I (los homólogos intercambian segmentos) (0,25 p) y segregación al azar de homólogos y cromátidas en las anafases I y II (0,25 p).",
-      "c) A: telofase I; B: metafase II; C: metafase I; D: anafase II (0,5 p)."
+      "a) G1: la célula crece y se prepara para la replicación; S: replicación del ADN; G2: sigue creciendo y se prepara para la mitosis; M: división celular (mitosis y citocinesis). 0,25 p cada una (1 p). En G1 se decide si la célula sigue dividiéndose; las que no lo hacen quedan en G0.",
+      "b) Sobrecruzamiento en la profase I (los homólogos intercambian segmentos) (0,25 p) y segregación al azar de homólogos y cromátidas en las anafases I y II (0,25 p). En la anafase I cada par de homólogos se reparte al azar, de forma independiente de los demás; en la especie humana permite 2²³ combinaciones distintas.",
+      "c) A: telofase I; B: metafase II; C: metafase I; D: anafase II (0,5 p). En la meiosis I se separan los homólogos y en la II, las cromátidas; en la metafase I los cromosomas se colocan por parejas (bivalentes) en la placa ecuatorial."
     ],
     "palabras_clave": [
       "G1",
@@ -33291,8 +33291,8 @@
     "tipo": "respuesta breve",
     "pregunta": "En relación con el metabolismo celular: a) Respecto a la respiración celular y la fermentación láctica, indique: 1) qué metabolito tienen en común estos dos procesos, 2) qué las diferencia respecto al requerimiento de oxígeno para que se produzcan, 3) cuáles son los productos finales de estos procesos y 4) a qué se debe la diferencia en la producción de ATP entre ambas (1 punto). b) Indique en qué orgánulo y, dentro del mismo, en qué compartimento ocurre la beta-oxidación de los ácidos grasos y cuáles son los tres productos finales de esta vía metabólica (1 punto).",
     "respuesta": [
-      "a) 1) Parten de la glucosa o del piruvato; 2) la respiración necesita O₂, la fermentación láctica ocurre en su ausencia; 3) respiración: ATP, CO₂ y H₂O; fermentación: ácido láctico (y NAD⁺); 4) la respiración oxida completamente la glucosa (glucólisis, Krebs y fosforilación oxidativa) y la fermentación solo produce ATP en la glucólisis (1 p).",
-      "b) En la matriz mitocondrial (0,25 p); productos: acetil-CoA, NADH y FADH₂ (0,75 p)."
+      "a) 1) Parten de la glucosa o del piruvato; 2) la respiración necesita O₂, la fermentación láctica ocurre en su ausencia; 3) respiración: ATP, CO₂ y H₂O; fermentación: ácido láctico (y NAD⁺); 4) la respiración oxida completamente la glucosa (glucólisis, Krebs y fosforilación oxidativa) y la fermentación solo produce ATP en la glucólisis (1 p). En la fermentación el NADH se reoxida al reducir el piruvato a lactato, lo que permite que la glucólisis continúe; la respiración obtiene unos 36-38 ATP por glucosa y la fermentación, solo 2.",
+      "b) En la matriz mitocondrial (0,25 p); productos: acetil-CoA, NADH y FADH₂ (0,75 p). En cada vuelta se separan dos carbonos en forma de acetil-CoA; el acetil-CoA va al ciclo de Krebs y el NADH y el FADH₂, a la cadena respiratoria."
     ],
     "palabras_clave": [
       "ATP, CO₂ y H₂O",
@@ -33418,9 +33418,9 @@
     "tipo": "respuesta breve",
     "pregunta": "Apartado 2.2. a) ¿Qué tipo de división celular se representa en las imágenes? Relacione las siguientes imágenes con su correspondiente fase del ciclo celular e indique el orden cronológico correcto (1,5 puntos). b) ¿Dónde se produce el ciclo de Calvin? ¿Cuál es el producto final y cómo se produce? (0,5 puntos). c) ¿Cuál es la importancia biológica de la fotosíntesis? (0,5 puntos).",
     "respuesta": [
-      "a) Mitosis: interfase (4), profase (1), metafase (3), anafase (5) y telofase (2). Orden: 4-1-3-5-2 (1,5 p).",
-      "b) En el estroma del cloroplasto: con el ATP y el NADPH se asimila el CO₂ y se obtiene gliceraldehído 3-fosfato (triosas fosfato) y finalmente glucosa (0,5 p).",
-      "c) Libera oxígeno y fija CO₂; los fotosintéticos son productores primarios, que transforman la materia inorgánica en orgánica, primer eslabón de la cadena trófica (0,5 p)."
+      "a) Mitosis: interfase (4), profase (1), metafase (3), anafase (5) y telofase (2). Orden: 4-1-3-5-2 (1,5 p). En la profase se condensan los cromosomas y se forma el huso; en la metafase se alinean en la placa ecuatorial; en la anafase se separan las cromátidas hermanas; en la telofase se forman las nuevas envolturas nucleares.",
+      "b) En el estroma del cloroplasto: con el ATP y el NADPH se asimila el CO₂ y se obtiene gliceraldehído 3-fosfato (triosas fosfato) y finalmente glucosa (0,5 p). La RuBisCO fija el CO₂ a la ribulosa-1,5-bisfosfato; por cada CO₂ se gastan 3 ATP y 2 NADPH, y la ribulosa se regenera para que el ciclo continúe.",
+      "c) Libera oxígeno y fija CO₂; los fotosintéticos son productores primarios, que transforman la materia inorgánica en orgánica, primer eslabón de la cadena trófica (0,5 p). Además, el O₂ liberado permite la respiración aerobia de casi todos los seres vivos."
     ],
     "palabras_clave": [
       "ATP",
@@ -33454,7 +33454,7 @@
     "tipo": "respuesta breve",
     "pregunta": "Apartado 3.1. a) Relacione cada estructura/orgánulo con su función (1,5 puntos).Estructura/orgánuloFunción1. Ribosomaa. Movimiento de células libres en medio líquido2. Microtúbulosb. Síntesis de lípidos y derivados lipídicos3. Lisosomac. Síntesis de proteínas4. Aparato de Golgid. Transporte de orgánulos y estructuras intracelulares5. Retículo endoplasmático lisoe. Digestión intracelular de diferentes tipos de biomoléculas6. Flagelof. Glucosilación de proteínas y lípidosb) ¿Dónde se produce la traducción del ARN mensajero en la célula eucariota? Explique brevemente sus fases (1 punto).",
     "respuesta": [
-      "a) 1-c; 2-d; 3-e; 4-f; 5-b; 6-a (1,5 p).",
+      "a) 1-c; 2-d; 3-e; 4-f; 5-b; 6-a (1,5 p). Los microtúbulos sirven de raíles para el transporte de vesículas y orgánulos y forman el huso, los cilios y los flagelos; el Golgi también empaqueta los productos de secreción y forma los lisosomas.",
       "b) En los ribosomas, libres en el citosol o asociados al RER. Iniciación: la subunidad pequeña localiza el codón AUG, se une el ARNt con metionina en el sitio P y después la subunidad grande. Elongación: entra el aminoacil-ARNt en el sitio A, la peptidil transferasa forma el enlace peptídico y el ribosoma se transloca 5'→3'. Terminación: un codón de parada (UAA, UGA, UAG) en el sitio A, factores de terminación y disociación del ribosoma (1 p)."
     ],
     "palabras_clave": [
@@ -33534,8 +33534,8 @@
     "tipo": "respuesta breve",
     "pregunta": "Apartado 4.1. a) Durante el confinamiento por la pandemia de COVID-19, en los supermercados españoles se acabó la levadura, tanto la fresca como la química. La levadura fresca contiene fermentos vivos y la levadura química o gasificante contiene bicarbonato sódico y un compuesto ácido que al reaccionar libera dióxido de carbono. Indique qué microorganismo está presente en la levadura fresca y explique el proceso que lleva a cabo una vez se añade a la masa de pan. Indique qué similitudes y diferencias hay entre el proceso llevado a cabo por la levadura fresca y por la levadura química (1,5 puntos). b) Defina autoinmunidad e inmunodeficiencia. ¿Es la alergia un tipo de proceso autoinmune? Razone su respuesta (1 punto).",
     "respuesta": [
-      "a) La levadura Saccharomyces cerevisiae, que realiza la fermentación alcohólica: transforma azúcares en etanol y CO₂. Similitud: ambas producen CO₂ (que esponja la masa). Diferencia: las reacciones son distintas; en la levadura fresca las realiza un microorganismo y están catalizadas por enzimas (1,5 p).",
-      "b) Autoinmunidad: pérdida de tolerancia a los antígenos propios, que desencadenan la respuesta. Inmunodeficiencia: respuestas inmunitarias no efectivas. La alergia no es autoinmune: es una hipersensibilidad frente a un antígeno externo (1 p)."
+      "a) La levadura Saccharomyces cerevisiae, que realiza la fermentación alcohólica: transforma azúcares en etanol y CO₂. Similitud: ambas producen CO₂ (que esponja la masa). Diferencia: las reacciones son distintas; en la levadura fresca las realiza un microorganismo y están catalizadas por enzimas (1,5 p). En la masa, sin oxígeno, las levaduras degradan los azúcares de la harina; el CO₂ queda atrapado en burbujas que hacen subir la masa, y el etanol se evapora en el horno. La levadura química solo produce CO₂, mediante una reacción química que no necesita tiempo de reposo.",
+      "b) Autoinmunidad: pérdida de tolerancia a los antígenos propios, que desencadenan la respuesta. Inmunodeficiencia: respuestas inmunitarias no efectivas. La alergia no es autoinmune: es una hipersensibilidad frente a un antígeno externo (1 p). Por ejemplo, la diabetes de tipo 1 o la artritis reumatoide son autoinmunes, y el sida, una inmunodeficiencia. En la alergia intervienen la IgE y los mastocitos, que liberan histamina."
     ],
     "palabras_clave": [
       "Autoinmunidad",
@@ -34417,10 +34417,10 @@
     "tipo": "respuesta breve",
     "pregunta": "Ulani se mudó a España desde una isla remota sin saber que era alérgica a las abejas. No pasó mucho tiempo antes de que le picase una abeja, lo que le produjo una reacción inflamatoria local que desconcertó bastante a la isleña. Sus amigos intentaron explicarle en qué consistía la respuesta alérgica utilizando la siguiente imagen. a) ¿Qué tipo de inmunoglobulinas, señaladas con el número 1, son específicas de la respuesta alérgica? [0,2] y ¿cuál es la naturaleza química de las inmunoglobulinas? [0,2]. Describa su estructura molecular [0,2]. b) ¿Cómo se denominan las diferentes sustancias, como la señalada con el número 2, que desencadenan una respuesta alérgica? [0,2]. c) Indique el nombre de la célula de la imagen y el nombre de una sustancia liberada por dicha célula como consecuencia de la respuesta alérgica [0,4]. d) ¿Qué tipo de células producen las inmunoglobulinas? [0,2]. Nombre dos orgánulos o estructuras de dichas células implicados en la síntesis y secreción de inmunoglobulinas, e indique cómo se denomina, en general, el proceso por el que la célula libera dichas sustancias al exterior [0,6].",
     "respuesta": [
-      "a) IgE; glucoproteica. Dos cadenas pesadas y dos ligeras unidas por enlaces disulfuro (0,6 p).",
+      "a) IgE; glucoproteica. Dos cadenas pesadas y dos ligeras unidas por enlaces disulfuro (0,6 p). Las cadenas tienen regiones variables, en los extremos de los brazos de la Y, que forman los sitios de unión al antígeno, y regiones constantes; la IgE se une a los mastocitos por su región constante.",
       "b) Alérgenos (0,2 p).",
-      "c) Mastocito (célula cebada) o basófilo (solo uno); histamina o heparina (solo una) (0,4 p).",
-      "d) Células plasmáticas (linfocitos B) (0,2 p). (Solo dos, 0,2 p cada uno) ribosomas, retículo endoplasmático rugoso, aparato de Golgi, vesículas de secreción. Exocitosis (secreción) (0,2 p)."
+      "c) Mastocito (célula cebada) o basófilo (solo uno); histamina o heparina (solo una) (0,4 p). En el primer contacto se producen IgE, que se unen a los mastocitos; en los siguientes, el alérgeno se une a esas IgE y los mastocitos liberan histamina, que dilata los vasos y causa la inflamación.",
+      "d) Células plasmáticas (linfocitos B) (0,2 p). (Solo dos, 0,2 p cada uno) ribosomas, retículo endoplasmático rugoso, aparato de Golgi, vesículas de secreción. Exocitosis (secreción) (0,2 p). Los ribosomas del RER sintetizan las cadenas, que se pliegan en el retículo; en el Golgi se completa la glucosilación y se empaquetan en vesículas."
     ],
     "palabras_clave": [
       "Alérgenos",
@@ -34529,8 +34529,8 @@
     "pregunta": "Con relación a la beta-oxidación de los ácidos grasos: a) Indique la localización intracelular de dicho proceso en una célula eucariota [0,2]. b) En dicho proceso, ¿de qué tipo de molécula orgánica se parte y qué moléculas se obtienen como productos finales? [0,8]. c) Indique el nombre de una ruta en la que se puedan incorporar cada uno de los productos finales con objeto de obtener energía [0,6]. d) Nombre cuatro componentes, diferentes de los relacionados con la beta-oxidación de los ácidos grasos, que se encuentren en la misma localización intracelular [0,4].",
     "respuesta": [
       "a) Matriz mitocondrial (y peroxisomas) (0,2 p).",
-      "b) Se parte de acil-CoA (ácidos grasos); se obtienen acetil-CoA, NADH y FADH₂ (0,2 p cada una) (0,8 p).",
-      "c) Acetil-CoA: ciclo de Krebs; NADH y FADH₂: cadena transportadora de electrones (0,6 p).",
+      "b) Se parte de acil-CoA (ácidos grasos); se obtienen acetil-CoA, NADH y FADH₂ (0,2 p cada una) (0,8 p). Antes de entrar en la mitocondria, el ácido graso se activa uniéndose a la coenzima A; en cada vuelta se acorta en dos carbonos.",
+      "c) Acetil-CoA: ciclo de Krebs; NADH y FADH₂: cadena transportadora de electrones (0,6 p). En la cadena respiratoria, los electrones del NADH y el FADH₂ pasan hasta el O₂, y la energía liberada permite sintetizar ATP por fosforilación oxidativa.",
       "d) (Solo cuatro) ADN circular, ribosomas, iones, ARN (ARNm, ARNt), enzimas del ciclo de Krebs, sustratos del ciclo de Krebs (0,4 p)."
     ],
     "palabras_clave": [
@@ -34559,10 +34559,10 @@
     "pregunta": "Conteste a las siguientes cuestiones relacionadas con la figura adjunta: a) En un cultivo celular se ha puesto de manifiesto que hay una ruta catabólica, la número 1, que se desarrolla en el interior de un orgánulo. ¿De qué ruta se trata? [0,1]. b) Indique qué tipo de organización tienen las células de dicho cultivo [0,2]. Cuál es el nombre del orgánulo y del compartimento de dicho orgánulo donde se desarrolla la ruta 1 [0,4]. c) Indique la naturaleza química del GTP y su composición [0,4]. d) En un proceso biotecnológico tradicional, que tiene lugar en las células representadas con 2, se lleva a cabo una ruta alternativa a la 1. Indique el nombre de la ruta y sus productos finales [0,4]. e) Una ruta del mismo tipo que la anterior ocurre en el órgano representado con el número 3. Indique el nombre de la ruta y en qué condiciones se lleva a cabo dicha reacción [0,5].",
     "respuesta": [
       "a) Ciclo de Krebs (0,1 p).",
-      "b) Eucariota. Orgánulo: mitocondria; compartimento: matriz mitocondrial (0,6 p).",
-      "c) Nucleotídica (0,1 p); fosfato (trifosfato), ribosa, guanina (0,1 p cada uno).",
-      "d) Fermentación alcohólica (0,2 p); etanol y CO₂ (0,2 p).",
-      "e) Fermentación láctica (0,2 p); cuando se hace ejercicio físico intenso sin aporte suficiente de oxígeno (0,3 p)."
+      "b) Eucariota. Orgánulo: mitocondria; compartimento: matriz mitocondrial (0,6 p). La matriz contiene las enzimas del ciclo de Krebs y de la β-oxidación; las bacterias no tienen mitocondrias.",
+      "c) Nucleotídica (0,1 p); fosfato (trifosfato), ribosa, guanina (0,1 p cada uno). El GTP formado en el ciclo de Krebs equivale a un ATP.",
+      "d) Fermentación alcohólica (0,2 p); etanol y CO₂ (0,2 p). La realizan las levaduras, por ejemplo para el pan, el vino o la cerveza.",
+      "e) Fermentación láctica (0,2 p); cuando se hace ejercicio físico intenso sin aporte suficiente de oxígeno (0,3 p). Sin O₂ suficiente, el músculo reduce el piruvato a lactato para regenerar el NAD⁺ y seguir obteniendo ATP en la glucólisis."
     ],
     "palabras_clave": [
       "Ciclo de Krebs",
@@ -35583,10 +35583,10 @@
     "tipo": "respuesta breve",
     "pregunta": "En relación con la figura adjunta: a) Indique el nombre del proceso representado e indique las dos etapas en las que se divide [0,6]. b) Ciertas células permanecen indefinidamente en una de las fases de este proceso. Indique cuál es y cite un ejemplo de célula que permanezca en esta fase [0,4]. c) La vincristina se utiliza como fármaco para inhibir la polimerización de la tubulina. Razone qué consecuencias tendrá la utilización de dicho fármaco y qué utilidad puede tener desde el punto de vista médico [0,4]. d) ¿En qué momento de la fase M se produce la desorganización de la envoltura nuclear? [0,2]. Indique qué componentes del citoesqueleto intervienen en la citocinesis de la célula animal y qué estructura forman [0,4].",
     "respuesta": [
-      "a) Ciclo celular (0,2 p); interfase y división celular (0,2 p cada una).",
-      "b) G0; ejemplo: neuronas, células musculares (solo una) (0,4 p).",
-      "c) Sin polimerizar la tubulina no se forma el huso mitótico y se inhibe la división celular. Utilidad: frenar el crecimiento de células que se dividen descontroladamente, como las cancerosas (0,4 p).",
-      "d) Profase. Microfilamentos de actina; anillo contráctil (0,2 p cada respuesta)."
+      "a) Ciclo celular (0,2 p); interfase y división celular (0,2 p cada una). La interfase comprende G1, S y G2; la división, la mitosis y la citocinesis.",
+      "b) G0; ejemplo: neuronas, células musculares (solo una) (0,4 p). Las células en G0 han salido del ciclo y no se dividen, aunque siguen activas.",
+      "c) Sin polimerizar la tubulina no se forma el huso mitótico y se inhibe la división celular. Utilidad: frenar el crecimiento de células que se dividen descontroladamente, como las cancerosas (0,4 p). Las células se detienen en la metafase y no pueden repartir los cromosomas; afecta sobre todo a las células que se dividen mucho, como las tumorales.",
+      "d) Profase. Microfilamentos de actina; anillo contráctil (0,2 p cada respuesta). El anillo contráctil de actina y miosina se estrecha y forma el surco de segmentación, que divide el citoplasma en dos."
     ],
     "palabras_clave": [
       "Ciclo celular",
@@ -36317,9 +36317,9 @@
     "tipo": "respuesta breve",
     "pregunta": "El virus SARS-CoV-2, responsable de la COVID-19, expresa varios antígenos, entre los que se encuentra la nucleoproteína N (antígeno N) y la proteína Spike (antígeno S). Las vacunas utilizadas hasta el momento son vacunas recombinantes que se basan en el antígeno S. a) Para la fabricación en el laboratorio de estas vacunas se necesitan enzimas de restricción ¿cuál es la función de estas enzimas? [0,5] b) Explique frente a cuál de los dos antígenos del virus (N o S) habría que buscar anticuerpos para distinguir si una persona ha adquirido la inmunidad contra el virus de forma natural o mediante vacunación [0,5]. c) Si una persona que no ha sufrido la infección ha sido vacunada por primera vez una hora antes de hacerse el test ¿qué anticuerpos se encontrarán en su sangre? Razone la respuesta [0,5]. d) Indique la naturaleza química de las enzimas [0,25] y de los anticuerpos [0,25].",
     "respuesta": [
-      "a) Reconocer secuencias específicas de la molécula de ADN y cortarlas en ese punto concreto (0,5 p).",
-      "b) Frente al antígeno N, porque es el que no está presente en las vacunas (0,5 p).",
-      "c) Ninguno: los anticuerpos tardan un tiempo en ser sintetizados (0,5 p).",
+      "a) Reconocer secuencias específicas de la molécula de ADN y cortarlas en ese punto concreto (0,5 p). Cortan el ADN del gen y el del vector por la misma secuencia, dejando extremos complementarios que la ADN ligasa une, formando el ADN recombinante.",
+      "b) Frente al antígeno N, porque es el que no está presente en las vacunas (0,5 p). La infección pone en contacto al sistema inmunitario con todos los antígenos del virus; la vacuna, solo con S.",
+      "c) Ninguno: los anticuerpos tardan un tiempo en ser sintetizados (0,5 p). En el primer contacto con un antígeno la respuesta primaria tarda días: los linfocitos B tienen que activarse, multiplicarse y diferenciarse en células plasmáticas.",
       "d) Enzimas: proteínas; anticuerpos: glicoproteínas (proteínas) (0,5 p)."
     ],
     "palabras_clave": [
@@ -36559,8 +36559,8 @@
     "tipo": "respuesta breve",
     "pregunta": "En relación con la biología celular: a) La observación y análisis químico de cuatro orgánulos o estructuras celulares eucariotas presenta los resultados que se muestran en la tabla inferior. Indique un posible orgánulo o estructura celular que puede tener estas características para cada una de las observaciones. No es necesario copiar la tabla en la hoja de respuestas (1 punto).Muestra nº 1Muestra nº 2Muestra nº 3Muestra nº 4Estructura observadano membranosamembranosamembranosano membranosaSustancia presentetubulinacitocromoARNrtriglicéridoOrgánulo o estructura celularb) Explique en qué fases de la división celular se genera variabilidad genética y cómo se produce esta (1 punto).",
     "respuesta": [
-      "a) 1: microtúbulos, centriolo, centrosoma, citoesqueleto; 2: mitocondria, cloroplasto; 3: mitocondria, cloroplasto, RER, envoltura nuclear; 4: inclusión (gota lipídica) (uno por muestra, 0,25 p cada uno) (1 p).",
-      "b) En la profase I de la meiosis, por la recombinación génica (sobrecruzamiento) (0,5 p), y en las anafases meióticas I y II, por la segregación cromosómica (0,5 p)."
+      "a) 1: microtúbulos, centriolo, centrosoma, citoesqueleto; 2: mitocondria, cloroplasto; 3: mitocondria, cloroplasto, RER, envoltura nuclear; 4: inclusión (gota lipídica) (uno por muestra, 0,25 p cada uno) (1 p). La tubulina forma los microtúbulos; los citocromos son proteínas de las cadenas de transporte de electrones; el ARNr está en los ribosomas de mitocondrias y cloroplastos y en los del RER; los triglicéridos se almacenan en gotas sin membrana.",
+      "b) En la profase I de la meiosis, por la recombinación génica (sobrecruzamiento) (0,5 p), y en las anafases meióticas I y II, por la segregación cromosómica (0,5 p). Las mutaciones también aportan variabilidad, y la fecundación une al azar un gameto de cada progenitor."
     ],
     "palabras_clave": [
       "anafases meióticas I y II",
@@ -38623,10 +38623,10 @@
     "tipo": "respuesta breve",
     "pregunta": "En relación con la imagen adjunta, responda a las siguientes preguntas: a) Indique el nombre de la biomolécula representada y el grupo de biomoléculas al que pertenece [0,2]. Identifique los enlaces señalados con 1 y 2 [0,2] y cite el nombre de los componentes que forman esta biomolécula [0,3]. b) Nombre tres funciones que realizan este grupo de biomoléculas en las células [0,6]. c) Indique dos orgánulos, y la localización dentro de ellos, en los que se sintetiza dicha molécula [0,4]. d) Cite tres mecanismos por los que se sintetizan estas moléculas [0,3].",
     "respuesta": [
-      "a) ATP; nucleótidos (0,2 p). 1: N-glucosídico; 2: fosfoéster (0,2 p). Una base nitrogenada (adenina), una ribosa y tres grupos fosfato (0,3 p).",
-      "b) Estructural, coenzimática, energética, mensajero intracelular (solo tres, 0,2 p cada una).",
-      "c) Mitocondria / membrana interna (crestas); cloroplasto / membrana de los tilacoides (0,4 p).",
-      "d) Fosforilación a nivel de sustrato, fosforilación oxidativa y fotofosforilación (0,3 p)."
+      "a) ATP; nucleótidos (0,2 p). 1: N-glucosídico; 2: fosfoéster (0,2 p). Una base nitrogenada (adenina), una ribosa y tres grupos fosfato (0,3 p). La adenina se une a la ribosa por enlace N-glucosídico y la ribosa al primer fosfato por enlace éster; entre los fosfatos hay enlaces ricos en energía.",
+      "b) Estructural, coenzimática, energética, mensajero intracelular (solo tres, 0,2 p cada una). Los nucleótidos forman parte de los ácidos nucleicos, el NAD⁺ y el FAD son coenzimas, el ATP transfiere energía y el AMP cíclico es un segundo mensajero.",
+      "c) Mitocondria / membrana interna (crestas); cloroplasto / membrana de los tilacoides (0,4 p). En los dos casos, la ATP sintasa aprovecha un gradiente de protones.",
+      "d) Fosforilación a nivel de sustrato, fosforilación oxidativa y fotofosforilación (0,3 p). La fosforilación a nivel de sustrato ocurre en la glucólisis y en el ciclo de Krebs."
     ],
     "palabras_clave": [
       "ATP",

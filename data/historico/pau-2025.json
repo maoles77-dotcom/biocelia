@@ -129,10 +129,10 @@
           "q": "Una mujer, que de niña contrajo el virus de la rubeola, presenta en sangre una baja concentración de anticuerpos frente al virus. Se le recomienda vacunarse para evitar problemas. La analítica tras la vacunación muestra una concentración de anticuerpos frente al virus mayor.<br>a) ¿Qué tipo de respuesta inmune se generó tras el contacto con el virus? ¿Y tras la vacunación? Razónelo. (0,6 puntos)<br>b) Tras la vacuna la respuesta inmune es más rápida e intensa, ¿por qué? (0,6 puntos)<br>c) ¿Qué anticuerpo predominó tras el contacto con el virus? ¿Y tras la vacunación? (0,6 puntos)<br>d) Dada la naturaleza molecular de los anticuerpos, ¿en qué orgánulo se sintetizan? (0,2 puntos)",
           "competencial": true,
           "c": [
-            "a) Tras el virus: **respuesta primaria** (primer contacto con el antígeno). Tras la vacuna: **respuesta secundaria**, porque ya había **células de memoria** (0,6 p).",
+            "a) Tras el virus: **respuesta primaria** (primer contacto con el antígeno). Tras la vacuna: **respuesta secundaria**, porque ya había **células de memoria** (0,6 p). ((En la infancia, el virus provocó una respuesta primaria y dejó linfocitos de memoria, aunque con los años bajó la concentración de anticuerpos; la vacuna, al aportar el mismo antígeno, activa esas células de memoria.))",
             "b) La primera exposición generó **linfocitos B de memoria**, que **responden rápidamente** y producen anticuerpos **en más cantidad** (0,6 p).",
-            "c) Tras el virus: **IgM**; tras la vacuna: **IgG** (0,6 p).",
-            "d) Son **glucoproteínas**: se sintetizan en el **retículo endoplasmático rugoso** (ribosomas asociados al RER) (0,2 p)."
+            "c) Tras el virus: **IgM**; tras la vacuna: **IgG** (0,6 p). ((En la respuesta primaria predominan las IgM, las primeras que se producen; en la secundaria, las IgG, en mucha mayor cantidad.))",
+            "d) Son **glucoproteínas**: se sintetizan en el **retículo endoplasmático rugoso** (ribosomas asociados al RER) (0,2 p). ((Los secretan las células plasmáticas, que tienen el RER muy desarrollado; después pasan por el Golgi y salen por exocitosis.))"
           ]
         },
         {
@@ -198,9 +198,9 @@
           "figura": "assets/figuras/historico/2025/asturias-2.webp",
           "figuraDesc": "Una doble hélice horizontal sobre la que avanzan de izquierda a derecha varias enzimas verdes; de cada una cuelga una hebra roja cada vez más larga con varias estructuras de las que salen cadenas de esferas de colores terminadas en una esfera negra. Recuadro ampliado: hebras azul (5') y rosa (3').",
           "c": [
-            "1. **ARN mensajero** y **proteínas** (0,5 p); procesos: **transcripción** y **traducción** (0,5 p).",
+            "1. **ARN mensajero** y **proteínas** (0,5 p); procesos: **transcripción** y **traducción** (0,5 p). ((En el esquema, varias ARN polimerasas transcriben el mismo gen y, a la vez, los ribosomas se unen a los ARNm que se están formando (polirribosomas).))",
             "2. El promotor es una **secuencia corta de ADN** que **reconoce la ARN polimerasa** y que **marca el inicio de la transcripción** (0,5 p). Hay **una sola región promotora**, porque se transcribe **un único tipo de ARNm** (aunque haya 5 copias) (0,5 p).",
-            "3. La **rosa**: el ADN se lee en sentido **3'→5'** y la ARN polimerasa **avanza de izquierda a derecha** (0,5 p)."
+            "3. La **rosa**: el ADN se lee en sentido **3'→5'** y la ARN polimerasa **avanza de izquierda a derecha** (0,5 p). ((La ARN polimerasa sintetiza el ARN en sentido 5'→3', leyendo la cadena molde en sentido 3'→5'; el ARN tiene la misma secuencia que la cadena codificante, con U en lugar de T.))"
           ]
         },
         {
@@ -213,8 +213,8 @@
           "figuraDesc": "Una doble hélice horizontal sobre la que avanzan varias enzimas verdes; de cada una cuelga una hebra roja cada vez más larga con varias estructuras de las que salen cadenas de esferas de colores terminadas en una esfera negra.",
           "c": [
             "1. En **procariotas**: solo en ellas la **transcripción y la traducción ocurren en el mismo compartimento (citoplasma)**, y un ARNm **se traduce mientras se transcribe** (1 p).",
-            "2. Activación: **aminoacil-ARNt sintetasa**, en el **citoplasma** (0,5 p). Enlace peptídico: **peptidil transferasa**, en los **ribosomas** (0,5 p).",
-            "3. **Sí**: es la **N-formil-metionina** (o metionina), porque la traducción empieza siempre por el **codón AUG** (0,5 p)."
+            "2. Activación: **aminoacil-ARNt sintetasa**, en el **citoplasma** (0,5 p). Enlace peptídico: **peptidil transferasa**, en los **ribosomas** (0,5 p). ((La aminoacil-ARNt sintetasa une a cada ARNt el aminoácido que corresponde a su anticodón, con gasto de ATP; la peptidil transferasa forma parte del ARNr de la subunidad mayor del ribosoma.))",
+            "3. **Sí**: es la **N-formil-metionina** (o metionina), porque la traducción empieza siempre por el **codón AUG** (0,5 p). ((En las bacterias la primera metionina está formilada; la cadena crece desde el extremo amino (N-terminal), por eso ese primer aminoácido queda en el extremo.))"
           ]
         },
         {
@@ -226,9 +226,9 @@
           "figura": "assets/figuras/historico/2025/asturias-3.webp",
           "figuraDesc": "Célula con núcleo con nucléolo, mitocondrias, retículo, aparato de Golgi, vesículas y, cerca del núcleo, una masa verde con dos cilindros de la que salen radialmente líneas naranjas; el recuadro amplía esa estructura.",
           "c": [
-            "1. **Centrosoma** (0,25 p), formado por **dos centriolos (diplosoma)**, **material pericentriolar** y **microtúbulos radiales (áster)** (0,75 p).",
-            "2. Fragmoplasto: **tabique formado a partir del aparato de Golgi** que **divide el citoplasma (citocinesis)** en las **células vegetales** (0,5 p). **No está** en la célula representada: es **animal**, porque tiene **centrosoma con centriolos** (0,5 p).",
-            "3. **Sí**: se **duplica en la fase S** para formar el **huso mitótico** que reparte los cromosomas (0,5 p)."
+            "1. **Centrosoma** (0,25 p), formado por **dos centriolos (diplosoma)**, **material pericentriolar** y **microtúbulos radiales (áster)** (0,75 p). ((Cada centriolo está formado por nueve tripletes de microtúbulos; el centrosoma organiza los microtúbulos de la célula.))",
+            "2. Fragmoplasto: **tabique formado a partir del aparato de Golgi** que **divide el citoplasma (citocinesis)** en las **células vegetales** (0,5 p). **No está** en la célula representada: es **animal**, porque tiene **centrosoma con centriolos** (0,5 p). ((Las vesículas del Golgi, cargadas de polisacáridos de la pared, se acumulan en el ecuador y se fusionan, formando la placa celular que dará la nueva pared entre las dos células hijas.))",
+            "3. **Sí**: se **duplica en la fase S** para formar el **huso mitótico** que reparte los cromosomas (0,5 p). ((Al principio de la mitosis, los dos centrosomas se separan hacia los polos y entre ellos se forma el huso.))"
           ]
         },
         {
@@ -240,9 +240,9 @@
           "figura": "assets/figuras/historico/2025/asturias-3.webp",
           "figuraDesc": "Célula con núcleo con envoltura y nucléolo, mitocondrias, retículo, aparato de Golgi, vesículas y, cerca del núcleo, un centrosoma del que salen radialmente fibras naranjas.",
           "c": [
-            "1. **Nucleoide**: zona de las **células procariotas** donde está el **ADN sin membrana**. **Nucléolo**: estructura del **núcleo eucariota** donde se **sintetiza el ARNr** y se forman los **ribosomas** (0,75 p). La célula tiene **nucléolo** pero **no nucleoide** (0,25 p).",
-            "2. **Interfase**, por dos de estas: **envoltura nuclear**, **nucléolo**, **cromatina sin condensar**, **no se ven cromosomas**, **centrosoma sin dividir** (1 p).",
-            "3. **Anafase I de la meiosis**: se separan los **homólogos completos, cada uno con sus dos cromátidas** (en la mitosis se separan cromátidas) (0,5 p)."
+            "1. **Nucleoide**: zona de las **células procariotas** donde está el **ADN sin membrana**. **Nucléolo**: estructura del **núcleo eucariota** donde se **sintetiza el ARNr** y se forman los **ribosomas** (0,75 p). La célula tiene **nucléolo** pero **no nucleoide** (0,25 p). ((El nucleoide no tiene membrana y contiene el ADN circular de la bacteria; el nucléolo tampoco tiene membrana, pero está dentro del núcleo.))",
+            "2. **Interfase**, por dos de estas: **envoltura nuclear**, **nucléolo**, **cromatina sin condensar**, **no se ven cromosomas**, **centrosoma sin dividir** (1 p). ((En la división celular, la envoltura nuclear y el nucléolo desaparecen y la cromatina se condensa en cromosomas.))",
+            "3. **Anafase I de la meiosis**: se separan los **homólogos completos, cada uno con sus dos cromátidas** (en la mitosis se separan cromátidas) (0,5 p). ((En la mitosis y en la anafase II lo que se separa son las cromátidas hermanas.))"
           ]
         },
         {
@@ -482,9 +482,9 @@
           "tema": "ADN: nucleótidos, enlace fosfodiéster y Chargaff",
           "q": "<b>En relación con las biomoléculas: En 1962 Watson, Crick y Wilkins compartieron el Premio Nobel de Fisiología y Medicina por su contribución al conocimiento del ADN.</b><br>a) Cite los monómeros que forman esta biomolécula y explique la composición de los mismos. Nombre el modelo que explica la estructura del ADN bicatenario (0,75 puntos).<br>b) ¿Mediante qué tipo de enlace se unen estos monómeros para formar la biomolécula en cuestión? Explique cómo se forma este enlace (0,75 puntos).<br>c) Si una molécula de ADN presenta en su composición un 17% de Adenina, indique el porcentaje de las restantes bases nitrogenadas que posee. Razone la respuesta (0,5 puntos).",
           "c": [
-            "a) **Desoxirribonucleótidos** (0,25 p), formados por una **base nitrogenada** (A, T, C o G), una **desoxirribosa** y **ácido fosfórico** (0,25 p). Modelo de la **doble hélice** (0,25 p).",
-            "b) **Enlace fosfodiéster** (0,25 p): reacción entre el **–OH en 3'** de un nucleótido y el **–OH del fosfato en 5'** del siguiente, **liberando agua** (0,5 p).",
-            "c) **17 % de timina, 33 % de guanina y 33 % de citosina** (0,25 p), porque **A es complementaria de T y G de C** (0,25 p)."
+            "a) **Desoxirribonucleótidos** (0,25 p), formados por una **base nitrogenada** (A, T, C o G), una **desoxirribosa** y **ácido fosfórico** (0,25 p). Modelo de la **doble hélice** (0,25 p). ((Es el modelo de Watson y Crick (1953): dos cadenas antiparalelas enrolladas en una hélice dextrógira, con las bases complementarias hacia dentro, unidas por puentes de hidrógeno.))",
+            "b) **Enlace fosfodiéster** (0,25 p): reacción entre el **–OH en 3'** de un nucleótido y el **–OH del fosfato en 5'** del siguiente, **liberando agua** (0,5 p). ((El ácido fosfórico forma dos enlaces éster, uno con el carbono 5′ de un nucleótido y otro con el 3′ del anterior; así se forma el esqueleto de pentosas y fosfatos de cada cadena.))",
+            "c) **17 % de timina, 33 % de guanina y 33 % de citosina** (0,25 p), porque **A es complementaria de T y G de C** (0,25 p). ((A + T = 34 %, y el 66 % restante se reparte a partes iguales entre G y C (reglas de Chargaff).))"
           ]
         },
         {
@@ -509,10 +509,10 @@
           "tema": "Afirmaciones falsas sobre la expresión génica",
           "q": "<b>En relación con la genética molecular: Razone por qué son falsas las siguientes afirmaciones:</b><br>a) El proceso de corte y empalme o splicing del ARN consiste en cortar los exones y empalmar los intrones para generar ARNm y se produce en el citosol de células eucariotas (0,5 puntos).<br>b) El inicio de la transcripción en procariotas está regulado por la unión de factores de iniciación a los ribosomas (0,5 puntos).<br>c) Los telómeros de procariotas se acortan tras cada replicación del ADN (0,5 puntos).<br>d) El código genético es degenerado porque a cada aminoácido sólo le corresponde un codón (0,5 puntos).",
           "c": [
-            "a) En el splicing se **cortan los intrones y se empalman los exones** (0,25 p), y ocurre en el **núcleo** (0,25 p).",
-            "b) La transcripción **no ocurre en los ribosomas**; la unión de **factores de iniciación a los ribosomas** regula el inicio de la **traducción** (0,5 p).",
-            "c) Los procariotas **no tienen telómeros**: su cromosoma es **circular** y **no tiene extremos** (0,5 p).",
-            "d) Es degenerado porque **cada aminoácido puede estar codificado por más de un codón** (0,5 p)."
+            "a) En el splicing se **cortan los intrones y se empalman los exones** (0,25 p), y ocurre en el **núcleo** (0,25 p). ((Los intrones son las secuencias que no se traducen; el ARNm maduro, ya sin ellos, sale después al citoplasma.))",
+            "b) La transcripción **no ocurre en los ribosomas**; la unión de **factores de iniciación a los ribosomas** regula el inicio de la **traducción** (0,5 p). ((En las procariotas, la transcripción la inicia la ARN polimerasa al unirse al promotor del ADN.))",
+            "c) Los procariotas **no tienen telómeros**: su cromosoma es **circular** y **no tiene extremos** (0,5 p). ((Los telómeros son los extremos de los cromosomas lineales de los eucariotas, que se acortan en cada replicación porque la ADN polimerasa no puede copiar el extremo de la cadena retrasada.))",
+            "d) Es degenerado porque **cada aminoácido puede estar codificado por más de un codón** (0,5 p). ((Por ejemplo, la leucina tiene seis codones; en cambio, cada codón codifica un solo aminoácido.))"
           ]
         },
         {
@@ -537,9 +537,9 @@
           "figura": "assets/figuras/historico/2025/madrid-4a.webp",
           "figuraDesc": "Cuatro células: A, célula estrangulándose con dos cromosomas en cada mitad; B, dos cromosomas alineados en el ecuador; C, dos parejas de cromosomas alineadas en el ecuador; D, célula alargada con cromátidas separándose hacia los polos.",
           "c": [
-            "a) **G1**: la célula **crece** y se prepara para la replicación; **S**: **replicación del ADN**; **G2**: sigue creciendo y **se prepara para la mitosis**; **M**: **división celular** (mitosis y citocinesis). 0,25 p cada una (1 p).",
-            "b) **Sobrecruzamiento** en la **profase I** (los homólogos intercambian segmentos) (0,25 p) y **segregación al azar** de homólogos y cromátidas en las **anafases I y II** (0,25 p).",
-            "c) A: **telofase I**; B: **metafase II**; C: **metafase I**; D: **anafase II** (0,5 p)."
+            "a) **G1**: la célula **crece** y se prepara para la replicación; **S**: **replicación del ADN**; **G2**: sigue creciendo y **se prepara para la mitosis**; **M**: **división celular** (mitosis y citocinesis). 0,25 p cada una (1 p). ((En G1 se decide si la célula sigue dividiéndose; las que no lo hacen quedan en G0.))",
+            "b) **Sobrecruzamiento** en la **profase I** (los homólogos intercambian segmentos) (0,25 p) y **segregación al azar** de homólogos y cromátidas en las **anafases I y II** (0,25 p). ((En la anafase I cada par de homólogos se reparte al azar, de forma independiente de los demás; en la especie humana permite 2²³ combinaciones distintas.))",
+            "c) A: **telofase I**; B: **metafase II**; C: **metafase I**; D: **anafase II** (0,5 p). ((En la meiosis I se separan los homólogos y en la II, las cromátidas; en la metafase I los cromosomas se colocan por parejas (bivalentes) en la placa ecuatorial.))"
           ]
         },
         {
@@ -561,8 +561,8 @@
           "tema": "Respiración frente a fermentación láctica; β-oxidación",
           "q": "<b>En relación con el metabolismo celular:</b><br>a) Respecto a la respiración celular y la fermentación láctica, indique: 1) qué metabolito tienen en común estos dos procesos, 2) qué las diferencia respecto al requerimiento de oxígeno para que se produzcan, 3) cuáles son los productos finales de estos procesos y 4) a qué se debe la diferencia en la producción de ATP entre ambas (1 punto).<br>b) Indique en qué orgánulo y, dentro del mismo, en qué compartimento ocurre la beta-oxidación de los ácidos grasos y cuáles son los tres productos finales de esta vía metabólica (1 punto).",
           "c": [
-            "a) 1) Parten de la **glucosa** o del **piruvato**; 2) la respiración necesita **O₂**, la fermentación láctica ocurre **en su ausencia**; 3) respiración: **ATP, CO₂ y H₂O**; fermentación: **ácido láctico** (y NAD⁺); 4) la respiración **oxida completamente la glucosa** (glucólisis, Krebs y fosforilación oxidativa) y la fermentación solo produce ATP **en la glucólisis** (1 p).",
-            "b) En la **matriz mitocondrial** (0,25 p); productos: **acetil-CoA**, **NADH** y **FADH₂** (0,75 p)."
+            "a) 1) Parten de la **glucosa** o del **piruvato**; 2) la respiración necesita **O₂**, la fermentación láctica ocurre **en su ausencia**; 3) respiración: **ATP, CO₂ y H₂O**; fermentación: **ácido láctico** (y NAD⁺); 4) la respiración **oxida completamente la glucosa** (glucólisis, Krebs y fosforilación oxidativa) y la fermentación solo produce ATP **en la glucólisis** (1 p). ((En la fermentación el NADH se reoxida al reducir el piruvato a lactato, lo que permite que la glucólisis continúe; la respiración obtiene unos 36-38 ATP por glucosa y la fermentación, solo 2.))",
+            "b) En la **matriz mitocondrial** (0,25 p); productos: **acetil-CoA**, **NADH** y **FADH₂** (0,75 p). ((En cada vuelta se separan dos carbonos en forma de acetil-CoA; el acetil-CoA va al ciclo de Krebs y el NADH y el FADH₂, a la cadena respiratoria.))"
           ]
         },
         {
@@ -623,9 +623,9 @@
           "figura": "assets/figuras/historico/2025/valencia-22a.webp",
           "figuraDesc": "Cinco células: 1, núcleo con cromosomas condensándose y husos incipientes; 2, célula estrangulada con dos núcleos; 3, cromosomas en el ecuador; 4, núcleo con cromatina; 5, célula alargada con cromosomas hacia los polos.",
           "c": [
-            "a) **Mitosis**: **interfase (4)**, **profase (1)**, **metafase (3)**, **anafase (5)** y **telofase (2)**. Orden: 4-1-3-5-2 (1,5 p).",
-            "b) En el **estroma del cloroplasto**: con el **ATP** y el **NADPH** se asimila el **CO₂** y se obtiene **gliceraldehído 3-fosfato** (triosas fosfato) y finalmente **glucosa** (0,5 p).",
-            "c) **Libera oxígeno** y **fija CO₂**; los fotosintéticos son **productores primarios**, que **transforman la materia inorgánica en orgánica**, **primer eslabón de la cadena trófica** (0,5 p)."
+            "a) **Mitosis**: **interfase (4)**, **profase (1)**, **metafase (3)**, **anafase (5)** y **telofase (2)**. Orden: 4-1-3-5-2 (1,5 p). ((En la profase se condensan los cromosomas y se forma el huso; en la metafase se alinean en la placa ecuatorial; en la anafase se separan las cromátidas hermanas; en la telofase se forman las nuevas envolturas nucleares.))",
+            "b) En el **estroma del cloroplasto**: con el **ATP** y el **NADPH** se asimila el **CO₂** y se obtiene **gliceraldehído 3-fosfato** (triosas fosfato) y finalmente **glucosa** (0,5 p). ((La RuBisCO fija el CO₂ a la ribulosa-1,5-bisfosfato; por cada CO₂ se gastan 3 ATP y 2 NADPH, y la ribulosa se regenera para que el ciclo continúe.))",
+            "c) **Libera oxígeno** y **fija CO₂**; los fotosintéticos son **productores primarios**, que **transforman la materia inorgánica en orgánica**, **primer eslabón de la cadena trófica** (0,5 p). ((Además, el O₂ liberado permite la respiración aerobia de casi todos los seres vivos.))"
           ]
         },
         {
@@ -635,7 +635,7 @@
           "tema": "Orgánulos y funciones; traducción",
           "q": "<b>Apartado 3.1.</b><br>a) Relacione cada estructura/orgánulo con su función (1,5 puntos).<table class=\"tabla-pau\"><tr><th>Estructura/orgánulo</th><th>Función</th></tr><tr><td>1. Ribosoma</td><td>a. Movimiento de células libres en medio líquido</td></tr><tr><td>2. Microtúbulos</td><td>b. Síntesis de lípidos y derivados lipídicos</td></tr><tr><td>3. Lisosoma</td><td>c. Síntesis de proteínas</td></tr><tr><td>4. Aparato de Golgi</td><td>d. Transporte de orgánulos y estructuras intracelulares</td></tr><tr><td>5. Retículo endoplasmático liso</td><td>e. Digestión intracelular de diferentes tipos de biomoléculas</td></tr><tr><td>6. Flagelo</td><td>f. Glucosilación de proteínas y lípidos</td></tr></table>b) ¿Dónde se produce la traducción del ARN mensajero en la célula eucariota? Explique brevemente sus fases (1 punto).",
           "c": [
-            "a) **1-c**; **2-d**; **3-e**; **4-f**; **5-b**; **6-a** (1,5 p).",
+            "a) **1-c**; **2-d**; **3-e**; **4-f**; **5-b**; **6-a** (1,5 p). ((Los microtúbulos sirven de raíles para el transporte de vesículas y orgánulos y forman el huso, los cilios y los flagelos; el Golgi también empaqueta los productos de secreción y forma los lisosomas.))",
             "b) En los **ribosomas**, libres en el **citosol** o asociados al **RER**. **Iniciación**: la **subunidad pequeña** localiza el **codón AUG**, se une el **ARNt con metionina en el sitio P** y después la **subunidad grande**. **Elongación**: entra el **aminoacil-ARNt en el sitio A**, la **peptidil transferasa** forma el **enlace peptídico** y el ribosoma **se transloca 5'→3'**. **Terminación**: un **codón de parada** (UAA, UGA, UAG) en el sitio A, **factores de terminación** y **disociación** del ribosoma (1 p)."
           ]
         },
@@ -665,8 +665,8 @@
           "q": "<b>Apartado 4.1.</b><br>a) Durante el confinamiento por la pandemia de COVID-19, en los supermercados españoles se acabó la levadura, tanto la fresca como la química. La levadura fresca contiene fermentos vivos y la levadura química o gasificante contiene bicarbonato sódico y un compuesto ácido que al reaccionar libera dióxido de carbono. Indique qué microorganismo está presente en la levadura fresca y explique el proceso que lleva a cabo una vez se añade a la masa de pan. Indique qué similitudes y diferencias hay entre el proceso llevado a cabo por la levadura fresca y por la levadura química (1,5 puntos).<br>b) Defina autoinmunidad e inmunodeficiencia. ¿Es la alergia un tipo de proceso autoinmune? Razone su respuesta (1 punto).",
           "competencial": true,
           "c": [
-            "a) La levadura <i>**Saccharomyces cerevisiae**</i>, que realiza la **fermentación alcohólica**: **transforma azúcares en etanol y CO₂**. Similitud: ambas producen **CO₂** (que esponja la masa). Diferencia: las reacciones son distintas; en la levadura fresca las realiza un **microorganismo** y están **catalizadas por enzimas** (1,5 p).",
-            "b) **Autoinmunidad**: **pérdida de tolerancia a los antígenos propios**, que desencadenan la respuesta. **Inmunodeficiencia**: respuestas inmunitarias **no efectivas**. La alergia **no es autoinmune**: es una **hipersensibilidad** frente a un **antígeno externo** (1 p)."
+            "a) La levadura <i>**Saccharomyces cerevisiae**</i>, que realiza la **fermentación alcohólica**: **transforma azúcares en etanol y CO₂**. Similitud: ambas producen **CO₂** (que esponja la masa). Diferencia: las reacciones son distintas; en la levadura fresca las realiza un **microorganismo** y están **catalizadas por enzimas** (1,5 p). ((En la masa, sin oxígeno, las levaduras degradan los azúcares de la harina; el CO₂ queda atrapado en burbujas que hacen subir la masa, y el etanol se evapora en el horno. La levadura química solo produce CO₂, mediante una reacción química que no necesita tiempo de reposo.))",
+            "b) **Autoinmunidad**: **pérdida de tolerancia a los antígenos propios**, que desencadenan la respuesta. **Inmunodeficiencia**: respuestas inmunitarias **no efectivas**. La alergia **no es autoinmune**: es una **hipersensibilidad** frente a un **antígeno externo** (1 p). ((Por ejemplo, la diabetes de tipo 1 o la artritis reumatoide son autoinmunes, y el sida, una inmunodeficiencia. En la alergia intervienen la IgE y los mastocitos, que liberan histamina.))"
           ]
         },
         {

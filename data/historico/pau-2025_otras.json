@@ -124,9 +124,9 @@
      "tema": "Vacunas de la COVID-19: enzimas de restricción y anticuerpos anti-N y anti-S",
      "q": "<b>El virus SARS-CoV-2, responsable de la COVID-19, expresa varios antígenos, entre los que se encuentra la nucleoproteína N (antígeno N) y la proteína Spike (antígeno S). Las vacunas utilizadas hasta el momento son vacunas recombinantes que se basan en el antígeno S.</b><br>a) Para la fabricación en el laboratorio de estas vacunas se necesitan enzimas de restricción ¿cuál es la función de estas enzimas? [0,5]<br>b) Explique frente a cuál de los dos antígenos del virus (N o S) habría que buscar anticuerpos para distinguir si una persona ha adquirido la inmunidad contra el virus de forma natural o mediante vacunación [0,5].<br>c) Si una persona que no ha sufrido la infección ha sido vacunada por primera vez una hora antes de hacerse el test ¿qué anticuerpos se encontrarán en su sangre? Razone la respuesta [0,5].<br>d) Indique la naturaleza química de las enzimas [0,25] y de los anticuerpos [0,25].",
      "c": [
-      "a) **Reconocer secuencias específicas de la molécula de ADN y cortarlas en ese punto concreto** (0,5 p).",
-      "b) Frente al **antígeno N**, porque es el que **no está presente en las vacunas** (0,5 p).",
-      "c) **Ninguno**: los anticuerpos **tardan un tiempo en ser sintetizados** (0,5 p).",
+      "a) **Reconocer secuencias específicas de la molécula de ADN y cortarlas en ese punto concreto** (0,5 p). ((Cortan el ADN del gen y el del vector por la misma secuencia, dejando extremos complementarios que la ADN ligasa une, formando el ADN recombinante.))",
+      "b) Frente al **antígeno N**, porque es el que **no está presente en las vacunas** (0,5 p). ((La infección pone en contacto al sistema inmunitario con todos los antígenos del virus; la vacuna, solo con S.))",
+      "c) **Ninguno**: los anticuerpos **tardan un tiempo en ser sintetizados** (0,5 p). ((En el primer contacto con un antígeno la respuesta primaria tarda días: los linfocitos B tienen que activarse, multiplicarse y diferenciarse en células plasmáticas.))",
       "d) Enzimas: **proteínas**; anticuerpos: **glicoproteínas (proteínas)** (0,5 p)."
      ]
     },
@@ -239,8 +239,8 @@
      "tema": "Identificar orgánulos por su composición; variabilidad en la meiosis",
      "q": "<b>En relación con la biología celular:</b><br>a) La observación y análisis químico de cuatro orgánulos o estructuras celulares eucariotas presenta los resultados que se muestran en la tabla inferior. Indique un posible orgánulo o estructura celular que puede tener estas características para cada una de las observaciones. No es necesario copiar la tabla en la hoja de respuestas (1 punto).<table class=\"tabla-pau\"><tr><th></th><th>Muestra nº 1</th><th>Muestra nº 2</th><th>Muestra nº 3</th><th>Muestra nº 4</th></tr><tr><td>Estructura observada</td><td>no membranosa</td><td>membranosa</td><td>membranosa</td><td>no membranosa</td></tr><tr><td>Sustancia presente</td><td>tubulina</td><td>citocromo</td><td>ARNr</td><td>triglicérido</td></tr><tr><td>Orgánulo o estructura celular</td><td></td><td></td><td></td><td></td></tr></table>b) Explique en qué fases de la división celular se genera variabilidad genética y cómo se produce esta (1 punto).",
      "c": [
-      "a) 1: **microtúbulos, centriolo, centrosoma, citoesqueleto**; 2: **mitocondria, cloroplasto**; 3: **mitocondria, cloroplasto, RER, envoltura nuclear**; 4: **inclusión (gota lipídica)** (uno por muestra, 0,25 p cada uno) (1 p).",
-      "b) En la **profase I** de la meiosis, por la **recombinación génica (sobrecruzamiento)** (0,5 p), y en las **anafases meióticas I y II**, por la **segregación cromosómica** (0,5 p)."
+      "a) 1: **microtúbulos, centriolo, centrosoma, citoesqueleto**; 2: **mitocondria, cloroplasto**; 3: **mitocondria, cloroplasto, RER, envoltura nuclear**; 4: **inclusión (gota lipídica)** (uno por muestra, 0,25 p cada uno) (1 p). ((La tubulina forma los microtúbulos; los citocromos son proteínas de las cadenas de transporte de electrones; el ARNr está en los ribosomas de mitocondrias y cloroplastos y en los del RER; los triglicéridos se almacenan en gotas sin membrana.))",
+      "b) En la **profase I** de la meiosis, por la **recombinación génica (sobrecruzamiento)** (0,5 p), y en las **anafases meióticas I y II**, por la **segregación cromosómica** (0,5 p). ((Las mutaciones también aportan variabilidad, y la fecundación une al azar un gameto de cada progenitor.))"
      ]
     },
     {
