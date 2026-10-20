@@ -6618,11 +6618,11 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Indique las características del transporte pasivo y del transporte activo [0,8]. Defina pinocitosis, fagocitosis y exocitosis [1,2].",
    "c": [
-    "Pasivo: <mark class=\"clave-criterio\">difusión simple</mark> (sin gasto de energía y <mark class=\"clave-criterio\">a favor de gradiente</mark>) y <mark class=\"clave-criterio\">difusión facilitada</mark> (sin gasto, a favor de gradiente y <mark class=\"clave-criterio\">mediada por proteínas</mark>). 0,2 p cada una (0,4 p).",
-    "Activo: <mark class=\"clave-criterio\">en contra de gradiente</mark>, intervienen <mark class=\"clave-criterio\">proteínas</mark> y hay <mark class=\"clave-criterio\">gasto de energía</mark> (0,4 p).",
-    "Pinocitosis: entrada de <mark class=\"clave-criterio\">fluidos y moléculas disueltas</mark> mediante <mark class=\"clave-criterio\">vesículas pinocíticas</mark> (0,4 p).",
-    "Fagocitosis: incorporación de <mark class=\"clave-criterio\">partículas sólidas</mark> formando <mark class=\"clave-criterio\">fagosomas</mark> (0,4 p).",
-    "Exocitosis: <mark class=\"clave-criterio\">expulsión de moléculas</mark> mediante <mark class=\"clave-criterio\">vesículas de secreción</mark> (0,4 p)."
+    "Pasivo: <mark class=\"clave-criterio\">difusión simple</mark> (sin gasto de energía y <mark class=\"clave-criterio\">a favor de gradiente</mark>) y <mark class=\"clave-criterio\">difusión facilitada</mark> (sin gasto, a favor de gradiente y <mark class=\"clave-criterio\">mediada por proteínas</mark>). 0,2 p cada una (0,4 p). <span class=\"redactado\">Por difusión simple pasan, entre los fosfolípidos, moléculas pequeñas sin carga (O₂, CO₂); la facilitada usa proteínas de canal o permeasas, como el transportador de glucosa.</span>",
+    "Activo: <mark class=\"clave-criterio\">en contra de gradiente</mark>, intervienen <mark class=\"clave-criterio\">proteínas</mark> y hay <mark class=\"clave-criterio\">gasto de energía</mark> (0,4 p). <span class=\"redactado\">Un ejemplo es la bomba de Na⁺/K⁺, que hidroliza ATP para sacar 3 Na⁺ y meter 2 K⁺; mantiene el potencial de membrana.</span>",
+    "Pinocitosis: entrada de <mark class=\"clave-criterio\">fluidos y moléculas disueltas</mark> mediante <mark class=\"clave-criterio\">vesículas pinocíticas</mark> (0,4 p). <span class=\"redactado\">Es un tipo de endocitosis con vesículas pequeñas («la célula bebe»).</span>",
+    "Fagocitosis: incorporación de <mark class=\"clave-criterio\">partículas sólidas</mark> formando <mark class=\"clave-criterio\">fagosomas</mark> (0,4 p). <span class=\"redactado\">La realizan, por ejemplo, los macrófagos, los neutrófilos y muchos protozoos; el fagosoma se fusiona con lisosomas y su contenido se digiere.</span>",
+    "Exocitosis: <mark class=\"clave-criterio\">expulsión de moléculas</mark> mediante <mark class=\"clave-criterio\">vesículas de secreción</mark> (0,4 p). <span class=\"redactado\">Las vesículas, procedentes del Golgi, se fusionan con la membrana plasmática y vierten su contenido al exterior; así se secretan hormonas, enzimas o neurotransmisores, y se renueva la membrana.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 1",
@@ -6646,9 +6646,9 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Enuncie [0,5] y realice un esquema de la segunda ley de Mendel [0,5]. Explique en qué consiste el cruzamiento prueba [0,5] y realice un esquema del mismo [0,5].",
    "c": [
-    "Ley de la <mark class=\"clave-criterio\">separación o disyunción de los alelos</mark>: al cruzar los <mark class=\"clave-criterio\">híbridos de la F1</mark> se obtiene en la F2 una proporción fenotípica <mark class=\"clave-criterio\">3:1</mark>, reapareciendo el carácter oculto, porque los alelos <mark class=\"clave-criterio\">se separan sin sufrir modificaciones</mark> (0,5 p).",
-    "Esquema: <mark class=\"clave-criterio\">Aa × Aa</mark> → <mark class=\"clave-criterio\">25 % AA, 50 % Aa y 25 % aa</mark> (0,5 p).",
-    "Cruzamiento prueba: cruce de un individuo de <mark class=\"clave-criterio\">fenotipo dominante</mark> con otro de <mark class=\"clave-criterio\">fenotipo recesivo</mark> para <mark class=\"clave-criterio\">averiguar el genotipo</mark> del primero (0,5 p).",
+    "Ley de la <mark class=\"clave-criterio\">separación o disyunción de los alelos</mark>: al cruzar los <mark class=\"clave-criterio\">híbridos de la F1</mark> se obtiene en la F2 una proporción fenotípica <mark class=\"clave-criterio\">3:1</mark>, reapareciendo el carácter oculto, porque los alelos <mark class=\"clave-criterio\">se separan sin sufrir modificaciones</mark> (0,5 p). <span class=\"redactado\">Cada gameto lleva solo uno de los dos alelos de cada gen.</span>",
+    "Esquema: <mark class=\"clave-criterio\">Aa × Aa</mark> → <mark class=\"clave-criterio\">25 % AA, 50 % Aa y 25 % aa</mark> (0,5 p). <span class=\"redactado\">Los genotipos están en proporción 1:2:1 y los fenotipos, 3:1 (tres dominantes por cada recesivo).</span>",
+    "Cruzamiento prueba: cruce de un individuo de <mark class=\"clave-criterio\">fenotipo dominante</mark> con otro de <mark class=\"clave-criterio\">fenotipo recesivo</mark> para <mark class=\"clave-criterio\">averiguar el genotipo</mark> del primero (0,5 p). <span class=\"redactado\">Si aparece algún descendiente con el fenotipo recesivo, el individuo problema es heterocigoto; si todos muestran el dominante, es homocigoto (cuanto más numerosa sea la descendencia, más fiable es la conclusión).</span>",
     "Esquemas: <mark class=\"clave-criterio\">AA × aa → 100 % Aa</mark>; <mark class=\"clave-criterio\">Aa × aa → 50 % Aa y 50 % aa</mark> (0,5 p)."
    ],
    "origen": {
@@ -6699,8 +6699,8 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "¿Qué quiere decir que un individuo está inmunizado contra el sarampión? [0,4]. ¿De qué formas pudo haber adquirido dicha inmunidad? [0,6]. Razone las respuestas.",
    "c": [
-    "Que tiene <mark class=\"clave-criterio\">suficientes defensas específicas</mark> frente a esa enfermedad (0,4 p).",
-    "De forma <mark class=\"clave-criterio\">natural</mark> (<mark class=\"clave-criterio\">superando la infección</mark>) o <mark class=\"clave-criterio\">artificial</mark> (<mark class=\"clave-criterio\">vacunándose</mark>). 0,3 p cada una (0,6 p)."
+    "Que tiene <mark class=\"clave-criterio\">suficientes defensas específicas</mark> frente a esa enfermedad (0,4 p). <span class=\"redactado\">Tiene anticuerpos y, sobre todo, linfocitos B y T de memoria frente al virus del sarampión; si vuelve a entrar en contacto con él, la respuesta secundaria lo elimina antes de que cause la enfermedad.</span>",
+    "De forma <mark class=\"clave-criterio\">natural</mark> (<mark class=\"clave-criterio\">superando la infección</mark>) o <mark class=\"clave-criterio\">artificial</mark> (<mark class=\"clave-criterio\">vacunándose</mark>). 0,3 p cada una (0,6 p). <span class=\"redactado\">En los dos casos es una inmunidad activa, porque el propio sistema inmunitario ha fabricado los anticuerpos y las células de memoria; por eso dura muchos años.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 1",
@@ -6781,11 +6781,11 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Describa las fases de la primera división meiótica [1,5] y realice un dibujo de una célula con 2n=4 en anafase I [0,5].",
    "c": [
-    "Profase I: condensación, <mark class=\"clave-criterio\">apareamiento de cromosomas homólogos</mark> formando <mark class=\"clave-criterio\">bivalentes</mark> y <mark class=\"clave-criterio\">recombinación (quiasmas)</mark>, desaparición de la envoltura nuclear (0,5 p).",
-    "Metafase I: <mark class=\"clave-criterio\">cromosomas homólogos en el plano medio</mark> de la célula (0,25 p).",
-    "Anafase I: los microtúbulos <mark class=\"clave-criterio\">separan los cromosomas homólogos</mark> y los arrastran <mark class=\"clave-criterio\">a cada polo</mark> (0,5 p).",
-    "Telofase I: descondensación y <mark class=\"clave-criterio\">reaparición de la envoltura nuclear</mark> (0,25 p).",
-    "Dibujo: célula con <mark class=\"clave-criterio\">cuatro cromosomas, homólogos dos a dos, separándose</mark> (0,5 p)."
+    "Profase I: condensación, <mark class=\"clave-criterio\">apareamiento de cromosomas homólogos</mark> formando <mark class=\"clave-criterio\">bivalentes</mark> y <mark class=\"clave-criterio\">recombinación (quiasmas)</mark>, desaparición de la envoltura nuclear (0,5 p). <span class=\"redactado\">Es la fase más larga de la meiosis. En los quiasmas se produce el sobrecruzamiento entre cromátidas no hermanas de los homólogos, que intercambian fragmentos.</span>",
+    "Metafase I: <mark class=\"clave-criterio\">cromosomas homólogos en el plano medio</mark> de la célula (0,25 p). <span class=\"redactado\">Se colocan por parejas (bivalentes), y no cromosomas sueltos como en la mitosis.</span>",
+    "Anafase I: los microtúbulos <mark class=\"clave-criterio\">separan los cromosomas homólogos</mark> y los arrastran <mark class=\"clave-criterio\">a cada polo</mark> (0,5 p). <span class=\"redactado\">Cada cromosoma conserva sus dos cromátidas; el reparto de los homólogos de cada par es al azar e independiente de los demás pares.</span>",
+    "Telofase I: descondensación y <mark class=\"clave-criterio\">reaparición de la envoltura nuclear</mark> (0,25 p). <span class=\"redactado\">Se forman dos células haploides (n), cada una con cromosomas de dos cromátidas, que pasan a la segunda división meiótica.</span>",
+    "Dibujo: célula con <mark class=\"clave-criterio\">cuatro cromosomas, homólogos dos a dos, separándose</mark> (0,5 p). <span class=\"redactado\">En cada polo debe haber dos cromosomas, uno de cada par, y cada uno con sus dos cromátidas.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 1",
@@ -6809,10 +6809,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Explique en qué consiste la respuesta inmunitaria celular [0,6]. Nombre las células que están implicadas en esa respuesta [0,4]. Indique dos funciones de cada uno de esos tipos de células [1].",
    "c": [
-    "Se basa en la actividad de los <mark class=\"clave-criterio\">linfocitos T y los macrófagos</mark>; útil contra microorganismos <mark class=\"clave-criterio\">que se establecen dentro de las células</mark>; los linfocitos T <mark class=\"clave-criterio\">destruyen células infectadas o tumorales</mark> (0,6 p).",
+    "Se basa en la actividad de los <mark class=\"clave-criterio\">linfocitos T y los macrófagos</mark>; útil contra microorganismos <mark class=\"clave-criterio\">que se establecen dentro de las células</mark>; los linfocitos T <mark class=\"clave-criterio\">destruyen células infectadas o tumorales</mark> (0,6 p). <span class=\"redactado\">No intervienen los anticuerpos; los linfocitos T reconocen el antígeno cuando se lo presentan unido a moléculas del MHC.</span>",
     "Células: <mark class=\"clave-criterio\">linfocitos T y macrófagos</mark> (0,4 p).",
-    "Linfocitos T: <mark class=\"clave-criterio\">activar la producción de anticuerpos</mark> por los linfocitos B, <mark class=\"clave-criterio\">destruir células infectadas o tumorales</mark>. 0,25 p cada una (0,5 p).",
-    "Macrófagos: <mark class=\"clave-criterio\">presentar antígenos</mark> y <mark class=\"clave-criterio\">fagocitosis</mark>. 0,25 p cada una (0,5 p)."
+    "Linfocitos T: <mark class=\"clave-criterio\">activar la producción de anticuerpos</mark> por los linfocitos B, <mark class=\"clave-criterio\">destruir células infectadas o tumorales</mark>. 0,25 p cada una (0,5 p). <span class=\"redactado\">Los T colaboradores liberan citocinas que activan a linfocitos B y macrófagos; los T citotóxicos destruyen las células que presentan el antígeno.</span>",
+    "Macrófagos: <mark class=\"clave-criterio\">presentar antígenos</mark> y <mark class=\"clave-criterio\">fagocitosis</mark>. 0,25 p cada una (0,5 p). <span class=\"redactado\">El macrófago degrada el antígeno y presenta sus fragmentos unidos a moléculas del MHC a los linfocitos T colaboradores.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 1",
@@ -6836,9 +6836,9 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "¿Qué tipo de bases nitrogenadas son más abundantes en una molécula de ADN bicatenario? [0,5]. ¿Cuántas moléculas de ADN hay en el núcleo de una célula somática humana en fase G1? [0,25]. ¿Y en un gameto? [0,25]. Razone las respuestas.",
    "c": [
-    "Hay un <mark class=\"clave-criterio\">50 % de cada tipo</mark> (púricas y pirimidínicas) por la <mark class=\"clave-criterio\">complementariedad de bases</mark> (0,5 p).",
-    "<mark class=\"clave-criterio\">46</mark>, porque ese es el <mark class=\"clave-criterio\">número de cromosomas</mark> (0,25 p).",
-    "<mark class=\"clave-criterio\">23</mark>, porque tiene <mark class=\"clave-criterio\">la mitad de cromosomas</mark> que una célula somática (0,25 p)."
+    "Hay un <mark class=\"clave-criterio\">50 % de cada tipo</mark> (púricas y pirimidínicas) por la <mark class=\"clave-criterio\">complementariedad de bases</mark> (0,5 p). <span class=\"redactado\">Cada base púrica (A, G) se aparea con una pirimidínica (T, C): A = T y G = C, así que A + G = T + C (reglas de Chargaff).</span>",
+    "<mark class=\"clave-criterio\">46</mark>, porque ese es el <mark class=\"clave-criterio\">número de cromosomas</mark> (0,25 p). <span class=\"redactado\">Cada cromosoma es una sola molécula de ADN; en G1 todavía no se ha replicado, así que cada cromosoma tiene una sola cromátida.</span>",
+    "<mark class=\"clave-criterio\">23</mark>, porque tiene <mark class=\"clave-criterio\">la mitad de cromosomas</mark> que una célula somática (0,25 p). <span class=\"redactado\">Los gametos son haploides (n = 23): tienen un cromosoma de cada par.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 1",
@@ -6862,7 +6862,7 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Razone de qué manera la ganancia o pérdida de un nucleótido como consecuencia de una mutación en la secuencia codificante de un gen altera la proteína codificada [1].",
    "c": [
-    "Produce un <mark class=\"clave-criterio\">cambio en la pauta de lectura de tripletes</mark> a partir de ese punto, que afecta a <mark class=\"clave-criterio\">todos los aminoácidos a continuación</mark> (1 p)."
+    "Produce un <mark class=\"clave-criterio\">cambio en la pauta de lectura de tripletes</mark> a partir de ese punto, que afecta a <mark class=\"clave-criterio\">todos los aminoácidos a continuación</mark> (1 p). <span class=\"redactado\">El ARNm se lee de tres en tres nucleótidos sin comas, desde el codón de inicio; si se añade o se pierde uno, cambian todos los codones siguientes (mutación por corrimiento de la pauta de lectura). La proteína suele ser no funcional, y a menudo aparece pronto un codón de terminación que la acorta.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 1",
@@ -6886,11 +6886,11 @@ window.BIOCELIA_HISTORICO = {
    "competencial": true,
    "q": "<b>A la vista de las imágenes, conteste las siguientes cuestiones:</b><br>a) Identifique los tipos celulares que se representan con las letras A, B y C, indicando un criterio en cada caso [0,75]. ¿Qué tipo celular carece de orgánulos membranosos? [0,25].<br>b) Indique los tipos de células que presentan: pared celular [0,25], mitocondrias [0,25], genoma de ADN circular [0,25] y ribosomas [0,25].",
    "c": [
-    "a) A: <mark class=\"clave-criterio\">célula eucariótica vegetal</mark> (0,1 p); criterio: <mark class=\"clave-criterio\">pared celular</mark>, <mark class=\"clave-criterio\">gran vacuola</mark> (0,15 p).",
-    "a) B: <mark class=\"clave-criterio\">célula procariótica</mark> (0,1 p); criterio: <mark class=\"clave-criterio\">sin orgánulos</mark> (0,15 p).",
-    "a) C: <mark class=\"clave-criterio\">célula eucariótica animal</mark> (0,1 p); criterio: <mark class=\"clave-criterio\">carencia de pared celular</mark> (0,15 p).",
+    "a) A: <mark class=\"clave-criterio\">célula eucariótica vegetal</mark> (0,1 p); criterio: <mark class=\"clave-criterio\">pared celular</mark>, <mark class=\"clave-criterio\">gran vacuola</mark> (0,15 p). <span class=\"redactado\">También los cloroplastos.</span>",
+    "a) B: <mark class=\"clave-criterio\">célula procariótica</mark> (0,1 p); criterio: <mark class=\"clave-criterio\">sin orgánulos</mark> (0,15 p). <span class=\"redactado\">Tampoco tiene núcleo: su ADN, circular, está en el nucleoide.</span>",
+    "a) C: <mark class=\"clave-criterio\">célula eucariótica animal</mark> (0,1 p); criterio: <mark class=\"clave-criterio\">carencia de pared celular</mark> (0,15 p). <span class=\"redactado\">Además, la célula animal tiene centriolos.</span>",
     "a) Carece de orgánulos membranosos: <mark class=\"clave-criterio\">la procariótica</mark> (0,25 p).",
-    "b) Pared: <mark class=\"clave-criterio\">procariótica y vegetal</mark>; mitocondrias: <mark class=\"clave-criterio\">vegetal y animal</mark>; ADN circular: <mark class=\"clave-criterio\">procariótica</mark>; ribosomas: <mark class=\"clave-criterio\">las tres</mark>. 0,25 p cada uno (1 p)."
+    "b) Pared: <mark class=\"clave-criterio\">procariótica y vegetal</mark>; mitocondrias: <mark class=\"clave-criterio\">vegetal y animal</mark>; ADN circular: <mark class=\"clave-criterio\">procariótica</mark>; ribosomas: <mark class=\"clave-criterio\">las tres</mark>. 0,25 p cada uno (1 p). <span class=\"redactado\">La pared de las bacterias es de peptidoglucano y la de las células vegetales, de celulosa. Los ribosomas de las procariotas son 70S y los del citoplasma eucariota, 80S.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 1",
@@ -6943,9 +6943,9 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Explique el concepto de recombinación genética [1]. ¿En qué tipo de células se produce y en qué etapa de la división tiene lugar? [0,5]. ¿Cuál es su importancia biológica? [0,5].",
    "c": [
-    "<mark class=\"clave-criterio\">Intercambio de fragmentos cromosómicos</mark> entre <mark class=\"clave-criterio\">cromosomas homólogos</mark> durante la <mark class=\"clave-criterio\">profase meiótica</mark> (1 p).",
-    "En <mark class=\"clave-criterio\">células germinales</mark> (0,25 p), en la <mark class=\"clave-criterio\">profase I de la meiosis</mark> (0,25 p).",
-    "Produce <mark class=\"clave-criterio\">nuevas combinaciones alélicas</mark> y <mark class=\"clave-criterio\">aumenta la variabilidad genética</mark> (0,5 p)."
+    "<mark class=\"clave-criterio\">Intercambio de fragmentos cromosómicos</mark> entre <mark class=\"clave-criterio\">cromosomas homólogos</mark> durante la <mark class=\"clave-criterio\">profase meiótica</mark> (1 p). <span class=\"redactado\">Ocurre por sobrecruzamiento en los quiasmas: las cromátidas no hermanas se rompen y se unen intercambiando fragmentos, y en una misma cromátida quedan alelos de origen materno y paterno.</span>",
+    "En <mark class=\"clave-criterio\">células germinales</mark> (0,25 p), en la <mark class=\"clave-criterio\">profase I de la meiosis</mark> (0,25 p). <span class=\"redactado\">Ocurre en el paquiteno, cuando los homólogos están apareados formando bivalentes.</span>",
+    "Produce <mark class=\"clave-criterio\">nuevas combinaciones alélicas</mark> y <mark class=\"clave-criterio\">aumenta la variabilidad genética</mark> (0,5 p). <span class=\"redactado\">Junto con el reparto al azar de los cromosomas en la anafase I, hace que cada gameto sea genéticamente distinto; esa variabilidad es la materia prima sobre la que actúa la selección natural.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 3",
@@ -6969,9 +6969,9 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Explique en qué consiste la vacunación [0,5] y la sueroterapia [0,5] e indique dos diferencias entre estos procesos [0,6]. ¿Con qué tipos de inmunidad están relacionados? [0,4].",
    "c": [
-    "Vacunación: introducción de <mark class=\"clave-criterio\">antígenos</mark> en un <mark class=\"clave-criterio\">organismo sano</mark> para crear <mark class=\"clave-criterio\">memoria inmunológica</mark>. Sueroterapia: introducción de <mark class=\"clave-criterio\">anticuerpos</mark> en un <mark class=\"clave-criterio\">organismo enfermo</mark> para ayudarle a combatir la enfermedad. 0,5 p cada una (1 p).",
-    "Diferencias: carácter <mark class=\"clave-criterio\">preventivo o curativo</mark>; <mark class=\"clave-criterio\">formación o no de células de memoria</mark>, etc. Solo dos, a 0,3 p (0,6 p).",
-    "Ambas pertenecen a la <mark class=\"clave-criterio\">inmunidad adquirida</mark> y <mark class=\"clave-criterio\">artificial</mark> (0,2 p); la vacunación es <mark class=\"clave-criterio\">inmunidad activa</mark> y la sueroterapia <mark class=\"clave-criterio\">pasiva</mark> (0,2 p)."
+    "Vacunación: introducción de <mark class=\"clave-criterio\">antígenos</mark> en un <mark class=\"clave-criterio\">organismo sano</mark> para crear <mark class=\"clave-criterio\">memoria inmunológica</mark>. Sueroterapia: introducción de <mark class=\"clave-criterio\">anticuerpos</mark> en un <mark class=\"clave-criterio\">organismo enfermo</mark> para ayudarle a combatir la enfermedad. 0,5 p cada una (1 p). <span class=\"redactado\">La vacuna contiene microorganismos muertos o atenuados, sus toxinas inactivadas o fragmentos de ellos, y produce una respuesta primaria sin causar la enfermedad. El suero contiene anticuerpos ya formados, obtenidos de un animal o de una persona inmunizados.</span>",
+    "Diferencias: carácter <mark class=\"clave-criterio\">preventivo o curativo</mark>; <mark class=\"clave-criterio\">formación o no de células de memoria</mark>, etc. Solo dos, a 0,3 p (0,6 p). <span class=\"redactado\">Además, la vacuna tarda en hacer efecto pero protege durante años; el suero actúa de inmediato, pero solo protege unas semanas.</span>",
+    "Ambas pertenecen a la <mark class=\"clave-criterio\">inmunidad adquirida</mark> y <mark class=\"clave-criterio\">artificial</mark> (0,2 p); la vacunación es <mark class=\"clave-criterio\">inmunidad activa</mark> y la sueroterapia <mark class=\"clave-criterio\">pasiva</mark> (0,2 p). <span class=\"redactado\">La inmunidad natural activa se adquiere al pasar la enfermedad, y la natural pasiva, por la placenta y la leche materna.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 3",
@@ -6995,7 +6995,7 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "En una reacción química en la que la sustancia A se transforma en la sustancia B, se liberan 10 kcal por mol de sustrato. ¿Cuánta energía se liberaría si la reacción estuviese catalizada por una enzima? [1]. Razone la respuesta.",
    "c": [
-    "<mark class=\"clave-criterio\">La misma</mark>: la <mark class=\"clave-criterio\">variación de energía</mark> de una reacción <mark class=\"clave-criterio\">es independiente de la presencia de un catalizador</mark> (1 p)."
+    "<mark class=\"clave-criterio\">La misma</mark>: la <mark class=\"clave-criterio\">variación de energía</mark> de una reacción <mark class=\"clave-criterio\">es independiente de la presencia de un catalizador</mark> (1 p). <span class=\"redactado\">La enzima solo disminuye la energía de activación, y así la reacción va mucho más deprisa; pero no cambia la energía de los reactivos ni la de los productos, ni el equilibrio de la reacción.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 3",
@@ -7045,10 +7045,10 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>El dibujo muestra la forma común de representar esquemáticamente a un tipo de biomolécula.</b><br>a) Indique de qué biomolécula se trata [0,2]. ¿Qué representa y cuál es la naturaleza química de los componentes señalados con los números 1 y 2? [0,8].<br>b) Las biomoléculas en cuestión son uno de los principales componentes de una importante estructura celular. Cite cuál es esta estructura [0,2], indique cómo se organizan en ella estas biomoléculas [0,4] y justifique por qué lo hacen de esa manera [0,4].",
    "c": [
     "a) <mark class=\"clave-criterio\">Fosfolípido</mark> (0,2 p).",
-    "a) 1: <mark class=\"clave-criterio\">cabeza polar hidrofílica</mark> (<mark class=\"clave-criterio\">grupo fosfato y aminoalcohol</mark>); 2: <mark class=\"clave-criterio\">colas apolares hidrofóbicas</mark> (<mark class=\"clave-criterio\">ácidos grasos</mark>). 0,4 p cada uno (0,8 p).",
+    "a) 1: <mark class=\"clave-criterio\">cabeza polar hidrofílica</mark> (<mark class=\"clave-criterio\">grupo fosfato y aminoalcohol</mark>); 2: <mark class=\"clave-criterio\">colas apolares hidrofóbicas</mark> (<mark class=\"clave-criterio\">ácidos grasos</mark>). 0,4 p cada uno (0,8 p). <span class=\"redactado\">Los ácidos grasos se unen a la glicerina por enlaces éster; el fosfato se une al carbono 3 de la glicerina y a un aminoalcohol, como la colina.</span>",
     "b) <mark class=\"clave-criterio\">Membranas celulares</mark> (0,2 p).",
-    "b) Forman una <mark class=\"clave-criterio\">bicapa</mark> con las <mark class=\"clave-criterio\">cabezas polares hacia el exterior</mark>, en contacto con el agua, y las <mark class=\"clave-criterio\">colas hidrofóbicas hacia el interior</mark> (0,4 p).",
-    "b) Se debe a su <mark class=\"clave-criterio\">naturaleza anfipática</mark> (0,4 p)."
+    "b) Forman una <mark class=\"clave-criterio\">bicapa</mark> con las <mark class=\"clave-criterio\">cabezas polares hacia el exterior</mark>, en contacto con el agua, y las <mark class=\"clave-criterio\">colas hidrofóbicas hacia el interior</mark> (0,4 p). <span class=\"redactado\">Las cabezas quedan hacia el medio acuoso del interior y del exterior de la célula, y las colas, en el centro, aisladas del agua; las uniones entre ellas son débiles, por eso la bicapa es fluida.</span>",
+    "b) Se debe a su <mark class=\"clave-criterio\">naturaleza anfipática</mark> (0,4 p). <span class=\"redactado\">Las cabezas polares son afines al agua y las colas apolares la repelen; en un medio acuoso se colocan de forma espontánea en la disposición más estable, la bicapa.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 3",
@@ -7101,10 +7101,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Describa cuatro diferencias entre las células animales y vegetales [1]. Indique el principal componente de la pared celular [0,1]. Indique la estructura de la pared celular [0,3] y cite dos funciones de la misma [0,6].",
    "c": [
-    "Diferencias: <mark class=\"clave-criterio\">pared celular</mark>, <mark class=\"clave-criterio\">forma estable</mark>, <mark class=\"clave-criterio\">cloroplastos</mark>, <mark class=\"clave-criterio\">vacuolas</mark>, etc. (1 p).",
-    "Componente: <mark class=\"clave-criterio\">celulosa</mark> (0,1 p).",
-    "Estructura: <mark class=\"clave-criterio\">pared primaria, pared secundaria y lámina media</mark> (0,3 p).",
-    "Funciones: <mark class=\"clave-criterio\">estructural</mark>, mantenimiento de la <mark class=\"clave-criterio\">turgencia</mark>, capacidad osmótica. Solo dos, a 0,3 p (0,6 p)."
+    "Diferencias: <mark class=\"clave-criterio\">pared celular</mark>, <mark class=\"clave-criterio\">forma estable</mark>, <mark class=\"clave-criterio\">cloroplastos</mark>, <mark class=\"clave-criterio\">vacuolas</mark>, etc. (1 p). <span class=\"redactado\">Además, las células animales tienen centriolos y almacenan glucógeno; las vegetales, almidón.</span>",
+    "Componente: <mark class=\"clave-criterio\">celulosa</mark> (0,1 p). <span class=\"redactado\">La celulosa forma microfibrillas muy resistentes, en una matriz de hemicelulosa y pectinas.</span>",
+    "Estructura: <mark class=\"clave-criterio\">pared primaria, pared secundaria y lámina media</mark> (0,3 p). <span class=\"redactado\">La lámina media, rica en pectinas, se forma primero en la citocinesis y une las células vecinas; la pared primaria, delgada y flexible, permite el crecimiento; la secundaria, más gruesa, se forma por dentro cuando la célula deja de crecer.</span>",
+    "Funciones: <mark class=\"clave-criterio\">estructural</mark>, mantenimiento de la <mark class=\"clave-criterio\">turgencia</mark>, capacidad osmótica. Solo dos, a 0,3 p (0,6 p). <span class=\"redactado\">La pared resiste la presión del agua que entra por ósmosis e impide que la célula estalle en un medio hipotónico.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 3",
@@ -7128,11 +7128,11 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Defina los siguientes términos: microorganismo, bacteriófago, hongo, biotecnología y ciclo lítico [2].",
    "c": [
-    "Microorganismo: ser vivo que <mark class=\"clave-criterio\">no puede percibirse sin microscopio</mark> (0,4 p).",
-    "Bacteriófago: <mark class=\"clave-criterio\">virus que infecta bacterias</mark> (0,4 p).",
-    "Hongo: organismo <mark class=\"clave-criterio\">eucariota, no fotosintético, heterótrofo</mark>, uni o pluricelular <mark class=\"clave-criterio\">sin diferenciación de tejidos</mark> (0,4 p).",
-    "Biotecnología: procesos industriales que usan <mark class=\"clave-criterio\">microorganismos o células</mark> para <mark class=\"clave-criterio\">obtener productos</mark> (0,4 p).",
-    "Ciclo lítico: multiplicación de los fagos en la que el <mark class=\"clave-criterio\">genoma del virus no se incorpora al de la bacteria</mark> (0,4 p)."
+    "Microorganismo: ser vivo que <mark class=\"clave-criterio\">no puede percibirse sin microscopio</mark> (0,4 p). <span class=\"redactado\">Incluye bacterias, protozoos, algas microscópicas y hongos como las levaduras; los virus se estudian con ellos, aunque no son células.</span>",
+    "Bacteriófago: <mark class=\"clave-criterio\">virus que infecta bacterias</mark> (0,4 p). <span class=\"redactado\">Se une a la bacteria con las fibras de la cola e inyecta su ADN; la cápsida queda fuera.</span>",
+    "Hongo: organismo <mark class=\"clave-criterio\">eucariota, no fotosintético, heterótrofo</mark>, uni o pluricelular <mark class=\"clave-criterio\">sin diferenciación de tejidos</mark> (0,4 p). <span class=\"redactado\">Tienen pared de quitina, se alimentan por absorción y se reproducen por esporas; las levaduras son unicelulares y los mohos, pluricelulares.</span>",
+    "Biotecnología: procesos industriales que usan <mark class=\"clave-criterio\">microorganismos o células</mark> para <mark class=\"clave-criterio\">obtener productos</mark> (0,4 p). <span class=\"redactado\">Por ejemplo, la producción de pan, vino o yogur con microorganismos, o la de insulina humana con bacterias modificadas genéticamente.</span>",
+    "Ciclo lítico: multiplicación de los fagos en la que el <mark class=\"clave-criterio\">genoma del virus no se incorpora al de la bacteria</mark> (0,4 p). <span class=\"redactado\">El virus se multiplica dentro de la bacteria y la rompe al salir; en el ciclo lisogénico, en cambio, su ADN se integra en el cromosoma bacteriano.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 3",
@@ -7156,7 +7156,7 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "El taxol es un fármaco anticancerígeno que actúa fijándose a la tubulina de modo que impide la formación de microtúbulos o los rompe. Justifique la acción anticancerígena del taxol [1].",
    "c": [
-    "Cualquier razonamiento basado en el papel de los <mark class=\"clave-criterio\">microtúbulos en la formación del huso mitótico</mark> y en que este es necesario para la <mark class=\"clave-criterio\">división celular</mark>, imprescindible para el <mark class=\"clave-criterio\">desarrollo de los tumores</mark> (1 p)."
+    "Cualquier razonamiento basado en el papel de los <mark class=\"clave-criterio\">microtúbulos en la formación del huso mitótico</mark> y en que este es necesario para la <mark class=\"clave-criterio\">división celular</mark>, imprescindible para el <mark class=\"clave-criterio\">desarrollo de los tumores</mark> (1 p). <span class=\"redactado\">Sin huso, los cromosomas no pueden separarse y la célula se detiene en la mitosis; las células tumorales, que se dividen sin control, son las más afectadas, pero también lo son otras que se dividen mucho, como las de la médula ósea o el pelo.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 3",
@@ -7180,7 +7180,7 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Relacione cada término del grupo A con el más adecuado del grupo B, sin repetir ninguno, indicando número y letra de cada pareja (por ejemplo, 1J, 2H, etc.) [1].<br><table class=\"tabla-pau\"><tr><th colspan=\"2\">Grupo A</th><th colspan=\"2\">Grupo B</th></tr><tr><td>1. Médula ósea</td><td>6. Alergia</td><td>A. Inmunidad pasiva</td><td>F. Vacuna</td></tr><tr><td>2. Linfocito T</td><td>7. Activación</td><td>B. Polen</td><td>G. Timo</td></tr><tr><td>3. Antígeno</td><td>8. Sida</td><td>C. Linfocito B</td><td>H. Macrófago</td></tr><tr><td>4. Piel</td><td>9. Inmunidad activa</td><td>D. Interleucinas</td><td>I. Anticuerpo</td></tr><tr><td>5. Fagocitosis</td><td>10. Suero</td><td>E. Inmunodeficiencia</td><td>J. 1ª línea de defensa</td></tr></table>",
    "c": [
-    "<mark class=\"clave-criterio\">1C; 2G; 3I; 4J; 5H; 6B; 7D; 8E; 9F; 10A</mark>. 0,1 p cada una (1 p)."
+    "<mark class=\"clave-criterio\">1C; 2G; 3I; 4J; 5H; 6B; 7D; 8E; 9F; 10A</mark>. 0,1 p cada una (1 p). <span class=\"redactado\">Los linfocitos B maduran en la médula ósea y los T, en el timo; las interleucinas son citocinas que activan a otros linfocitos; la piel es una barrera de la inmunidad innata; el sida es una inmunodeficiencia causada por el VIH.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 3",
@@ -7204,12 +7204,12 @@ window.BIOCELIA_HISTORICO = {
    "competencial": true,
    "q": "<b>En relación con la figura adjunta, responda las siguientes cuestiones:</b><br>a) Nombre las moléculas A, B y C [0,3]. Indique cómo se denominan los monómeros de las moléculas B y C [0,2] y la composición de la molécula C [0,3]. Explique el hecho de que las anotaciones 3' y 5' de la molécula A se sitúen en posiciones opuestas [0,2].<br>b) Cite el nombre de los procesos que permiten la síntesis de las moléculas A y C [0,2]. Describa el proceso por el que se sintetiza la molécula A [0,8].",
    "c": [
-    "a) A: <mark class=\"clave-criterio\">ADN</mark>; B: <mark class=\"clave-criterio\">ARN polimerasa</mark>; C: <mark class=\"clave-criterio\">ARN</mark>. 0,1 p cada una (0,3 p).",
+    "a) A: <mark class=\"clave-criterio\">ADN</mark>; B: <mark class=\"clave-criterio\">ARN polimerasa</mark>; C: <mark class=\"clave-criterio\">ARN</mark>. 0,1 p cada una (0,3 p). <span class=\"redactado\">B es una enzima, de naturaleza proteica.</span>",
     "a) Monómeros: B, <mark class=\"clave-criterio\">aminoácidos</mark>; C, <mark class=\"clave-criterio\">ribonucleótidos</mark>. 0,1 p cada uno (0,2 p).",
     "a) Composición de C: <mark class=\"clave-criterio\">ácido fosfórico, ribosa y base nitrogenada</mark> (0,3 p).",
-    "a) Indica que el ADN tiene <mark class=\"clave-criterio\">dos cadenas antiparalelas</mark> (0,2 p).",
+    "a) Indica que el ADN tiene <mark class=\"clave-criterio\">dos cadenas antiparalelas</mark> (0,2 p). <span class=\"redactado\">Cada cadena tiene un extremo 5′, con el fosfato libre, y otro 3′, con el –OH libre; las dos cadenas van en sentidos opuestos.</span>",
     "b) A: <mark class=\"clave-criterio\">replicación</mark>; C: <mark class=\"clave-criterio\">transcripción</mark> (0,2 p).",
-    "b) Replicación: deben mencionarse <mark class=\"clave-criterio\">ADN</mark>, <mark class=\"clave-criterio\">origen de replicación</mark>, <mark class=\"clave-criterio\">cadenas adelantada y retrasada</mark>, <mark class=\"clave-criterio\">cebador</mark>, <mark class=\"clave-criterio\">fragmentos de Okazaki</mark>, <mark class=\"clave-criterio\">ADN polimerasa</mark> y <mark class=\"clave-criterio\">ligasa</mark>. 0,1 p cada uno (0,8 p)."
+    "b) Replicación: deben mencionarse <mark class=\"clave-criterio\">ADN</mark>, <mark class=\"clave-criterio\">origen de replicación</mark>, <mark class=\"clave-criterio\">cadenas adelantada y retrasada</mark>, <mark class=\"clave-criterio\">cebador</mark>, <mark class=\"clave-criterio\">fragmentos de Okazaki</mark>, <mark class=\"clave-criterio\">ADN polimerasa</mark> y <mark class=\"clave-criterio\">ligasa</mark>. 0,1 p cada uno (0,8 p). <span class=\"redactado\">La helicasa separa las cadenas en el origen y se forman dos horquillas. La primasa sintetiza un cebador de ARN; la ADN polimerasa añade nucleótidos solo en sentido 5'→3', así que una cadena se sintetiza de forma continua (adelantada) y la otra en fragmentos de Okazaki (retrasada). Después se eliminan los cebadores y la ligasa une los fragmentos.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 3",
@@ -7236,10 +7236,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Describa la estructura de la molécula de agua [0,5]. Indique cinco funciones biológicas [0,5] y cinco propiedades físico-químicas del agua [0,5]. Explique de qué depende el fenómeno de la capilaridad [0,5].",
    "c": [
-    "<mark class=\"clave-criterio\">Dos átomos de hidrógeno</mark> unidos a <mark class=\"clave-criterio\">un átomo de oxígeno</mark> mediante <mark class=\"clave-criterio\">enlaces covalentes</mark> (0,5 p).",
-    "Funciones: <mark class=\"clave-criterio\">termorreguladora</mark>, <mark class=\"clave-criterio\">disolvente</mark>, estructural, mecánica, química. Solo cinco, a 0,1 p (0,5 p).",
-    "Propiedades: elevado <mark class=\"clave-criterio\">calor de vaporización</mark>, elevado <mark class=\"clave-criterio\">calor específico</mark>, elevado <mark class=\"clave-criterio\">momento dipolar</mark>, elevada <mark class=\"clave-criterio\">cohesión-adhesión</mark>, <mark class=\"clave-criterio\">baja densidad en estado sólido</mark>. Solo cinco, a 0,1 p (0,5 p).",
-    "La capilaridad depende de la <mark class=\"clave-criterio\">elevada fuerza de cohesión-adhesión</mark> entre las moléculas de agua (0,5 p)."
+    "<mark class=\"clave-criterio\">Dos átomos de hidrógeno</mark> unidos a <mark class=\"clave-criterio\">un átomo de oxígeno</mark> mediante <mark class=\"clave-criterio\">enlaces covalentes</mark> (0,5 p). <span class=\"redactado\">El oxígeno, más electronegativo, atrae los electrones: queda con carga parcial negativa y los hidrógenos, con carga parcial positiva. Como los enlaces forman un ángulo de unos 104,5°, la molécula es un dipolo y forma puentes de hidrógeno con otras moléculas.</span>",
+    "Funciones: <mark class=\"clave-criterio\">termorreguladora</mark>, <mark class=\"clave-criterio\">disolvente</mark>, estructural, mecánica, química. Solo cinco, a 0,1 p (0,5 p). <span class=\"redactado\">Por ejemplo, disuelve sales y moléculas polares, transporta sustancias por la sangre y la savia, amortigua los cambios de temperatura, da turgencia a las células vegetales y participa en las reacciones de hidrólisis.</span>",
+    "Propiedades: elevado <mark class=\"clave-criterio\">calor de vaporización</mark>, elevado <mark class=\"clave-criterio\">calor específico</mark>, elevado <mark class=\"clave-criterio\">momento dipolar</mark>, elevada <mark class=\"clave-criterio\">cohesión-adhesión</mark>, <mark class=\"clave-criterio\">baja densidad en estado sólido</mark>. Solo cinco, a 0,1 p (0,5 p). <span class=\"redactado\">Todas estas propiedades se deben a los puentes de hidrógeno entre sus moléculas.</span>",
+    "La capilaridad depende de la <mark class=\"clave-criterio\">elevada fuerza de cohesión-adhesión</mark> entre las moléculas de agua (0,5 p). <span class=\"redactado\">Las moléculas de agua se adhieren a las paredes de los tubos muy finos y, por cohesión, arrastran a las demás; así sube la savia bruta por los vasos del xilema.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 4",
@@ -7263,9 +7263,9 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Explique la estructura y composición química de los microtúbulos [0,8] e indique tres componentes celulares en los que participan [0,6]. Cite los otros dos componentes del citoesqueleto [0,6].",
    "c": [
-    "<mark class=\"clave-criterio\">Cilindros largos y no ramificados</mark> compuestos por <mark class=\"clave-criterio\">tubulina</mark> (0,8 p).",
-    "Forman el <mark class=\"clave-criterio\">huso mitótico</mark>, los <mark class=\"clave-criterio\">centriolos</mark>, los <mark class=\"clave-criterio\">cilios</mark> y los <mark class=\"clave-criterio\">flagelos</mark>. Solo tres, a 0,2 p (0,6 p).",
-    "<mark class=\"clave-criterio\">Microfilamentos (filamentos de actina)</mark> y <mark class=\"clave-criterio\">filamentos intermedios</mark>. 0,3 p cada uno (0,6 p)."
+    "<mark class=\"clave-criterio\">Cilindros largos y no ramificados</mark> compuestos por <mark class=\"clave-criterio\">tubulina</mark> (0,8 p). <span class=\"redactado\">Las paredes del cilindro están formadas por 13 protofilamentos de dímeros de α- y β-tubulina; se alargan y se acortan añadiendo o quitando tubulina, y se organizan a partir del centrosoma.</span>",
+    "Forman el <mark class=\"clave-criterio\">huso mitótico</mark>, los <mark class=\"clave-criterio\">centriolos</mark>, los <mark class=\"clave-criterio\">cilios</mark> y los <mark class=\"clave-criterio\">flagelos</mark>. Solo tres, a 0,2 p (0,6 p). <span class=\"redactado\">Además, sirven de raíles por los que se desplazan las vesículas y los orgánulos.</span>",
+    "<mark class=\"clave-criterio\">Microfilamentos (filamentos de actina)</mark> y <mark class=\"clave-criterio\">filamentos intermedios</mark>. 0,3 p cada uno (0,6 p). <span class=\"redactado\">Los microfilamentos de actina intervienen en la contracción muscular y la citocinesis; los filamentos intermedios dan resistencia mecánica, como la queratina.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 4",
@@ -7289,8 +7289,8 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Defina traducción [0,5]. Describa la iniciación, elongación o alargamiento y terminación de la traducción [1,5].",
    "c": [
-    "Traducción: síntesis de una <mark class=\"clave-criterio\">secuencia de aminoácidos</mark> con la información de la <mark class=\"clave-criterio\">secuencia de bases del ARNm</mark> (0,5 p).",
-    "Se indicará cómo <mark class=\"clave-criterio\">se inicia, se elonga y termina</mark>; deben mencionarse la <mark class=\"clave-criterio\">unión del ARNm al ribosoma</mark>, el <mark class=\"clave-criterio\">ARNt</mark>, el <mark class=\"clave-criterio\">enlace peptídico</mark> y el <mark class=\"clave-criterio\">polipéptido</mark> (1,5 p)."
+    "Traducción: síntesis de una <mark class=\"clave-criterio\">secuencia de aminoácidos</mark> con la información de la <mark class=\"clave-criterio\">secuencia de bases del ARNm</mark> (0,5 p). <span class=\"redactado\">Ocurre en los ribosomas, libres o unidos al RER.</span>",
+    "Se indicará cómo <mark class=\"clave-criterio\">se inicia, se elonga y termina</mark>; deben mencionarse la <mark class=\"clave-criterio\">unión del ARNm al ribosoma</mark>, el <mark class=\"clave-criterio\">ARNt</mark>, el <mark class=\"clave-criterio\">enlace peptídico</mark> y el <mark class=\"clave-criterio\">polipéptido</mark> (1,5 p). <span class=\"redactado\">Iniciación: la subunidad menor del ribosoma se une al ARNm y, en el codón de inicio AUG, el ARNt de la metionina; después se une la subunidad mayor. Elongación: entra en el sitio A el ARNt cuyo anticodón es complementario del codón, se forma el enlace peptídico y el ribosoma avanza un codón. Terminación: al llegar a un codón de terminación, un factor de liberación libera la proteína y el ribosoma se separa.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 4",
@@ -7314,7 +7314,7 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Exponga dos de las ventajas que supone para los animales el hecho de tener abundantes reservas de grasas y escasas reservas de polisacáridos. Razone la respuesta [1].",
    "c": [
-    "Las grasas tienen <mark class=\"clave-criterio\">menor densidad</mark>, lo que <mark class=\"clave-criterio\">favorece la movilidad</mark>; tienen <mark class=\"clave-criterio\">mayor rendimiento energético</mark> a igualdad de volumen; son mejor <mark class=\"clave-criterio\">aislante térmico</mark>. Solo dos, a 0,5 p (1 p)."
+    "Las grasas tienen <mark class=\"clave-criterio\">menor densidad</mark>, lo que <mark class=\"clave-criterio\">favorece la movilidad</mark>; tienen <mark class=\"clave-criterio\">mayor rendimiento energético</mark> a igualdad de volumen; son mejor <mark class=\"clave-criterio\">aislante térmico</mark>. Solo dos, a 0,5 p (1 p). <span class=\"redactado\">Un gramo de grasa aporta unas 9 kcal, más del doble que un gramo de glúcido; además, la grasa se almacena sin agua, mientras que el glucógeno retiene mucha, así que para la misma energía las reservas de grasa pesan mucho menos. Los animales, que se desplazan, se benefician de ello.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 4",
@@ -7448,10 +7448,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Cite una función de los linfocitos B [0,3], dos de los linfocitos T [0,6] y dos de los macrófagos [0,6] en la respuesta inmunitaria. Defina memoria inmunológica [0,5].",
    "c": [
-    "Linfocitos B: <mark class=\"clave-criterio\">producción de anticuerpos</mark> (0,3 p).",
-    "Linfocitos T: <mark class=\"clave-criterio\">activan los macrófagos</mark>, <mark class=\"clave-criterio\">ayudan a los linfocitos B</mark>, <mark class=\"clave-criterio\">destruyen células cancerosas o infectadas</mark>. Solo dos, a 0,3 p (0,6 p).",
-    "Macrófagos: <mark class=\"clave-criterio\">reconocimiento de antígenos</mark>, <mark class=\"clave-criterio\">activan la diferenciación de linfocitos</mark>, <mark class=\"clave-criterio\">eliminan antígenos</mark>. Solo dos, a 0,3 p (0,6 p).",
-    "Memoria inmunológica: capacidad de <mark class=\"clave-criterio\">reconocer un antígeno al que ya se ha estado expuesto</mark> y responder de forma <mark class=\"clave-criterio\">más rápida y efectiva</mark> (0,5 p)."
+    "Linfocitos B: <mark class=\"clave-criterio\">producción de anticuerpos</mark> (0,3 p). <span class=\"redactado\">Al activarse, los linfocitos B se diferencian en células plasmáticas, que secretan los anticuerpos, y en células de memoria.</span>",
+    "Linfocitos T: <mark class=\"clave-criterio\">activan los macrófagos</mark>, <mark class=\"clave-criterio\">ayudan a los linfocitos B</mark>, <mark class=\"clave-criterio\">destruyen células cancerosas o infectadas</mark>. Solo dos, a 0,3 p (0,6 p). <span class=\"redactado\">Los T colaboradores lo hacen liberando citocinas; los T citotóxicos destruyen las células que presentan el antígeno unido al MHC.</span>",
+    "Macrófagos: <mark class=\"clave-criterio\">reconocimiento de antígenos</mark>, <mark class=\"clave-criterio\">activan la diferenciación de linfocitos</mark>, <mark class=\"clave-criterio\">eliminan antígenos</mark>. Solo dos, a 0,3 p (0,6 p). <span class=\"redactado\">El macrófago fagocita el patógeno, lo degrada y presenta sus fragmentos unidos a moléculas del MHC a los linfocitos T colaboradores.</span>",
+    "Memoria inmunológica: capacidad de <mark class=\"clave-criterio\">reconocer un antígeno al que ya se ha estado expuesto</mark> y responder de forma <mark class=\"clave-criterio\">más rápida y efectiva</mark> (0,5 p). <span class=\"redactado\">Se debe a los linfocitos B y T de memoria, de vida larga, que se forman en la respuesta primaria; es la base de la vacunación.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 4",
@@ -7475,7 +7475,7 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Ordene cronológicamente los siguientes procesos: a) migración de cromátidas hermanas a los polos; b) ordenación de los cromosomas en el plano ecuatorial; c) desintegración de la envoltura nuclear; d) condensación de la cromatina para formar los cromosomas y e) descondensación de los cromosomas [1].",
    "c": [
-    "Orden: <mark class=\"clave-criterio\">d – c – b – a – e</mark>. 0,2 p cada uno (1 p)."
+    "Orden: <mark class=\"clave-criterio\">d – c – b – a – e</mark>. 0,2 p cada uno (1 p). <span class=\"redactado\">Profase: se condensa la cromatina y, al final, desaparece la envoltura nuclear; metafase: los cromosomas se alinean en la placa ecuatorial; anafase: se separan las cromátidas hermanas; telofase: los cromosomas se descondensan y se forman las nuevas envolturas.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 4",
@@ -7499,7 +7499,7 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Explique razonadamente por qué la secuencia de los nucleótidos de una molécula de ADN determina que tengamos el pelo liso o rizado o que el color de los guisantes sea amarillo o verde [1].",
    "c": [
-    "Cualquier respuesta que relacione <mark class=\"clave-criterio\">secuencia de nucleótidos</mark>, <mark class=\"clave-criterio\">código genético</mark>, <mark class=\"clave-criterio\">secuencia de aminoácidos</mark> y <mark class=\"clave-criterio\">caracteres hereditarios</mark> (no es necesario explicar la síntesis de proteínas) (1 p)."
+    "Cualquier respuesta que relacione <mark class=\"clave-criterio\">secuencia de nucleótidos</mark>, <mark class=\"clave-criterio\">código genético</mark>, <mark class=\"clave-criterio\">secuencia de aminoácidos</mark> y <mark class=\"clave-criterio\">caracteres hereditarios</mark> (no es necesario explicar la síntesis de proteínas) (1 p). <span class=\"redactado\">La secuencia de nucleótidos de un gen se transcribe a ARNm, y este se traduce, según el código genético, en una secuencia de aminoácidos; la proteína resultante (una enzima o una proteína estructural, como la queratina del pelo) determina el carácter. Distintos alelos dan proteínas distintas y, por tanto, caracteres distintos.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 4",
@@ -7556,11 +7556,11 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Indique los componentes de un nucleótido [0,3]. Nombre las bases nitrogenadas derivadas de la purina y de la pirimidina [0,5]. ¿Qué base nitrogenada es específica del ADN y cuál del ARN? [0,2]. Cite los tipos de enlaces que soportan la estructura de los ácidos nucleicos [0,4]. Indique la función de los distintos tipos de ARN en la expresión génica [0,6].",
    "c": [
-    "<mark class=\"clave-criterio\">Base nitrogenada, ribosa o desoxirribosa y ácido fosfórico</mark>. 0,1 p cada uno (0,3 p).",
-    "Púricas: <mark class=\"clave-criterio\">adenina y guanina</mark> (0,2 p). Pirimidínicas: <mark class=\"clave-criterio\">timina, citosina y uracilo</mark> (0,3 p).",
+    "<mark class=\"clave-criterio\">Base nitrogenada, ribosa o desoxirribosa y ácido fosfórico</mark>. 0,1 p cada uno (0,3 p). <span class=\"redactado\">La base se une al carbono 1′ de la pentosa y el fosfato, al carbono 5′.</span>",
+    "Púricas: <mark class=\"clave-criterio\">adenina y guanina</mark> (0,2 p). Pirimidínicas: <mark class=\"clave-criterio\">timina, citosina y uracilo</mark> (0,3 p). <span class=\"redactado\">Las púricas tienen dos anillos y las pirimidínicas, uno.</span>",
     "ADN: <mark class=\"clave-criterio\">timina</mark>. ARN: <mark class=\"clave-criterio\">uracilo</mark> (0,2 p).",
-    "Enlaces: <mark class=\"clave-criterio\">fosfodiéster 3′-5′</mark> y <mark class=\"clave-criterio\">puentes de hidrógeno</mark>. 0,2 p cada uno (0,4 p).",
-    "ARNm: <mark class=\"clave-criterio\">contiene y transporta el mensaje genético</mark>; ARNr: <mark class=\"clave-criterio\">construcción de los ribosomas</mark>; ARNt: <mark class=\"clave-criterio\">transporta los aminoácidos</mark> de forma específica (0,6 p)."
+    "Enlaces: <mark class=\"clave-criterio\">fosfodiéster 3′-5′</mark> y <mark class=\"clave-criterio\">puentes de hidrógeno</mark>. 0,2 p cada uno (0,4 p). <span class=\"redactado\">Los enlaces fosfodiéster unen los nucleótidos de una misma cadena; los puentes de hidrógeno unen las bases complementarias (A-T por dos, G-C por tres).</span>",
+    "ARNm: <mark class=\"clave-criterio\">contiene y transporta el mensaje genético</mark>; ARNr: <mark class=\"clave-criterio\">construcción de los ribosomas</mark>; ARNt: <mark class=\"clave-criterio\">transporta los aminoácidos</mark> de forma específica (0,6 p). <span class=\"redactado\">El ARNt tiene forma de hoja de trébol, con el anticodón en un extremo y el aminoácido en el otro; el ARNr también cataliza la formación del enlace peptídico.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 5",
@@ -7611,9 +7611,9 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Realice un esquema general de cómo se expresa la información genética desde ADN a proteína [0,5]. Describa los dos procesos implicados en esta expresión [1,5].",
    "c": [
-    "Esquema: la <mark class=\"clave-criterio\">transcripción del ADN da lugar al ARNm</mark> y la <mark class=\"clave-criterio\">traducción del ARNm da lugar a un polipéptido</mark> (0,5 p).",
-    "Transcripción: copia de <mark class=\"clave-criterio\">una sola cadena</mark> del ADN, acción de la <mark class=\"clave-criterio\">ARN polimerasa</mark>, <mark class=\"clave-criterio\">señales de inicio y de terminación</mark> (0,75 p).",
-    "Traducción: <mark class=\"clave-criterio\">iniciación, elongación y terminación</mark>, mencionando <mark class=\"clave-criterio\">unión del ARNm al ribosoma</mark>, <mark class=\"clave-criterio\">ARNt</mark>, <mark class=\"clave-criterio\">enlace peptídico</mark> y <mark class=\"clave-criterio\">polipéptido</mark> (0,75 p)."
+    "Esquema: la <mark class=\"clave-criterio\">transcripción del ADN da lugar al ARNm</mark> y la <mark class=\"clave-criterio\">traducción del ARNm da lugar a un polipéptido</mark> (0,5 p). <span class=\"redactado\">Es el dogma central de la biología molecular: ADN → ARN → proteína.</span>",
+    "Transcripción: copia de <mark class=\"clave-criterio\">una sola cadena</mark> del ADN, acción de la <mark class=\"clave-criterio\">ARN polimerasa</mark>, <mark class=\"clave-criterio\">señales de inicio y de terminación</mark> (0,75 p). <span class=\"redactado\">La ARN polimerasa se une al promotor, separa las dos cadenas y lee la cadena molde en sentido 3'→5', sintetizando el ARN en sentido 5'→3'; en eucariotas, el ARNm madura en el núcleo (se eliminan los intrones) antes de salir al citoplasma.</span>",
+    "Traducción: <mark class=\"clave-criterio\">iniciación, elongación y terminación</mark>, mencionando <mark class=\"clave-criterio\">unión del ARNm al ribosoma</mark>, <mark class=\"clave-criterio\">ARNt</mark>, <mark class=\"clave-criterio\">enlace peptídico</mark> y <mark class=\"clave-criterio\">polipéptido</mark> (0,75 p). <span class=\"redactado\">El ribosoma lee el ARNm codón a codón, desde el AUG hasta un codón de terminación; los ARNt aportan los aminoácidos, que se unen por enlaces peptídicos.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 5",
@@ -7637,7 +7637,7 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "¿Por qué las moléculas lipídicas pueden, en general, entrar o salir de las células atravesando sin dificultad las membranas celulares y, sin embargo, los iones aún siendo mucho más pequeños no? Dé una explicación razonada a este hecho [1].",
    "c": [
-    "Los lípidos, por su <mark class=\"clave-criterio\">carácter lipofílico</mark>, atraviesan las membranas por <mark class=\"clave-criterio\">difusión simple</mark>, ya que estas están formadas <mark class=\"clave-criterio\">fundamentalmente por lípidos</mark>; los iones, <mark class=\"clave-criterio\">cargados y lipófobos</mark>, requieren <mark class=\"clave-criterio\">proteínas canal o transportadoras</mark> (1 p)."
+    "Los lípidos, por su <mark class=\"clave-criterio\">carácter lipofílico</mark>, atraviesan las membranas por <mark class=\"clave-criterio\">difusión simple</mark>, ya que estas están formadas <mark class=\"clave-criterio\">fundamentalmente por lípidos</mark>; los iones, <mark class=\"clave-criterio\">cargados y lipófobos</mark>, requieren <mark class=\"clave-criterio\">proteínas canal o transportadoras</mark> (1 p). <span class=\"redactado\">El interior de la bicapa es apolar y repele las partículas con carga, rodeadas además de moléculas de agua; los iones pasan por canales iónicos o mediante bombas, como la de Na⁺/K⁺.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 5",
@@ -7688,10 +7688,10 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>La imagen representa el mecanismo de acción de una enzima en una célula de mamífero. En relación con ella responda las siguientes preguntas:</b><br>a) ¿Qué representan las figuras señaladas con las letras A, B y C? [0,3]. Explique qué sucede en la figura señalada con el número 2 [0,4]. Indique lo que ocurre en el área señalada con el número 3 [0,3].<br>b) Explique cómo se realiza la reacción a las siguientes temperaturas: 25 ºC, 37 ºC y 60 ºC [0,6]. Defina pH óptimo para una enzima [0,4].",
    "c": [
     "a) A: <mark class=\"clave-criterio\">sustrato</mark>; B: <mark class=\"clave-criterio\">enzima</mark>; C: <mark class=\"clave-criterio\">producto</mark>. 0,1 p cada una (0,3 p).",
-    "a) En 2 se forma el <mark class=\"clave-criterio\">complejo activado</mark> con la <mark class=\"clave-criterio\">unión del sustrato a la enzima</mark> (0,4 p).",
-    "a) En 3 se <mark class=\"clave-criterio\">liberan los productos</mark> y la <mark class=\"clave-criterio\">enzima queda libre</mark> (0,3 p).",
-    "b) A 25 ºC la reacción <mark class=\"clave-criterio\">se ralentiza</mark> y se libera poco producto (0,2 p); a 37 ºC la mayoría de las enzimas están a <mark class=\"clave-criterio\">pleno rendimiento</mark> (0,2 p); a 60 ºC la enzima está <mark class=\"clave-criterio\">desnaturalizada</mark> y no actúa (0,2 p).",
-    "b) pH óptimo: aquel en el que la <mark class=\"clave-criterio\">actividad enzimática es máxima</mark> (0,4 p)."
+    "a) En 2 se forma el <mark class=\"clave-criterio\">complejo activado</mark> con la <mark class=\"clave-criterio\">unión del sustrato a la enzima</mark> (0,4 p). <span class=\"redactado\">Al unirse, la enzima y el sustrato forman el complejo enzima-sustrato, que disminuye la energía de activación.</span>",
+    "a) En 3 se <mark class=\"clave-criterio\">liberan los productos</mark> y la <mark class=\"clave-criterio\">enzima queda libre</mark> (0,3 p). <span class=\"redactado\">La enzima queda inalterada y puede volver a actuar; por eso basta con poca cantidad.</span>",
+    "b) A 25 ºC la reacción <mark class=\"clave-criterio\">se ralentiza</mark> y se libera poco producto (0,2 p); a 37 ºC la mayoría de las enzimas están a <mark class=\"clave-criterio\">pleno rendimiento</mark> (0,2 p); a 60 ºC la enzima está <mark class=\"clave-criterio\">desnaturalizada</mark> y no actúa (0,2 p). <span class=\"redactado\">37 °C es la temperatura del cuerpo humano, y por eso es la óptima de muchas de sus enzimas. A 25 °C las moléculas se mueven más despacio y chocan menos; a 60 °C el calor rompe los enlaces débiles que mantienen la forma de la enzima.</span>",
+    "b) pH óptimo: aquel en el que la <mark class=\"clave-criterio\">actividad enzimática es máxima</mark> (0,4 p). <span class=\"redactado\">Cada enzima tiene el suyo; por ejemplo, la pepsina del estómago actúa hacia pH 2 y la tripsina del intestino, hacia 8.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 5",
@@ -7718,9 +7718,9 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Defina los esteroides [0,4] y cite tres ejemplos [0,6]. Indique dos de las funciones biológicas fundamentales de los esteroides [1].",
    "c": [
-    "Esteroide: <mark class=\"clave-criterio\">lípido insaponificable</mark>, <mark class=\"clave-criterio\">sin ácidos grasos</mark> y con <mark class=\"clave-criterio\">estructura cíclica</mark> (0,4 p).",
-    "Ejemplos: <mark class=\"clave-criterio\">colesterol</mark>, <mark class=\"clave-criterio\">vitamina D</mark>, <mark class=\"clave-criterio\">hormonas sexuales</mark>, etc. Solo tres, a 0,2 p (0,6 p).",
-    "Funciones: <mark class=\"clave-criterio\">componentes de membranas</mark>, <mark class=\"clave-criterio\">precursores de vitaminas y hormonas</mark>. Solo dos, a 0,5 p (1 p)."
+    "Esteroide: <mark class=\"clave-criterio\">lípido insaponificable</mark>, <mark class=\"clave-criterio\">sin ácidos grasos</mark> y con <mark class=\"clave-criterio\">estructura cíclica</mark> (0,4 p). <span class=\"redactado\">Derivan del ciclopentanoperhidrofenantreno, una estructura de cuatro anillos; como no tienen ácidos grasos, no forman jabones.</span>",
+    "Ejemplos: <mark class=\"clave-criterio\">colesterol</mark>, <mark class=\"clave-criterio\">vitamina D</mark>, <mark class=\"clave-criterio\">hormonas sexuales</mark>, etc. Solo tres, a 0,2 p (0,6 p). <span class=\"redactado\">Otros ejemplos son los ácidos biliares, que emulsionan las grasas en el intestino, y los corticoides, como el cortisol.</span>",
+    "Funciones: <mark class=\"clave-criterio\">componentes de membranas</mark>, <mark class=\"clave-criterio\">precursores de vitaminas y hormonas</mark>. Solo dos, a 0,5 p (1 p). <span class=\"redactado\">El colesterol regula la fluidez de las membranas animales, y de él derivan las hormonas sexuales (testosterona, estrógenos), los corticoides y la vitamina D.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 5",
@@ -7797,8 +7797,8 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Cuando se fríe o se cuece un huevo la clara cambia su aspecto y consistencia. Proponga una explicación razonada para dichos cambios [0,5]. Explique por qué se podrían desencadenar cambios semejantes con unas gotas de ácido clorhídrico [0,5].",
    "c": [
-    "<mark class=\"clave-criterio\">Desnaturalización de las proteínas</mark> por efecto de la <mark class=\"clave-criterio\">temperatura</mark> (0,5 p).",
-    "Desnaturalización de las proteínas por <mark class=\"clave-criterio\">variación del pH</mark> (0,5 p)."
+    "<mark class=\"clave-criterio\">Desnaturalización de las proteínas</mark> por efecto de la <mark class=\"clave-criterio\">temperatura</mark> (0,5 p). <span class=\"redactado\">La albúmina y otras proteínas de la clara se despliegan al romperse sus enlaces débiles, y quedan enredadas unas con otras: pierden su solubilidad y la clara se vuelve blanca y sólida.</span>",
+    "Desnaturalización de las proteínas por <mark class=\"clave-criterio\">variación del pH</mark> (0,5 p). <span class=\"redactado\">El exceso de H⁺ cambia las cargas de los aminoácidos y rompe las interacciones iónicas y los puentes de hidrógeno que mantienen la forma de las proteínas. En los dos casos no se rompen los enlaces peptídicos.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 5",
@@ -7823,8 +7823,8 @@ window.BIOCELIA_HISTORICO = {
    "q": "Una mujer daltónica se hace la siguiente pregunta: ¿cómo es posible que yo sea daltónica si mi madre y mi abuela no lo son? Proponga una explicación a este caso [0,5]. El marido de esta mujer tiene visión normal, ¿puede la pareja tener hijas daltónicas? [0,5]. Realice el/los cruzamiento(s) correspondiente(s) y razone las respuestas.",
    "c": [
     "Se basa en que el daltonismo es <mark class=\"clave-criterio\">recesivo ligado al cromosoma X</mark>.",
-    "Es posible si <mark class=\"clave-criterio\">la madre es portadora y el padre es daltónico</mark> (0,3 p), con el cruzamiento (0,2 p).",
-    "Las hijas <mark class=\"clave-criterio\">no serán daltónicas pero sí portadoras</mark> (0,3 p), con el cruzamiento (0,2 p)."
+    "Es posible si <mark class=\"clave-criterio\">la madre es portadora y el padre es daltónico</mark> (0,3 p), con el cruzamiento (0,2 p). <span class=\"redactado\">La mujer es XᵈXᵈ: ha recibido un Xᵈ de cada progenitor. Su padre, con un solo X, es daltónico; su madre (XᴰXᵈ) es portadora, igual que pudo serlo su abuela.</span>",
+    "Las hijas <mark class=\"clave-criterio\">no serán daltónicas pero sí portadoras</mark> (0,3 p), con el cruzamiento (0,2 p). <span class=\"redactado\">Las hijas reciben siempre el Xᴰ del padre y un Xᵈ de la madre (XᴰXᵈ); en cambio, todos los hijos varones serán daltónicos (XᵈY), porque reciben su único X de la madre.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 5",
@@ -7848,9 +7848,9 @@ window.BIOCELIA_HISTORICO = {
    "competencial": true,
    "q": "<b>En relación con el esquema adjunto, conteste las siguientes cuestiones:</b><br>a) ¿Cómo se denominan los procesos bioquímicos numerados del 1 al 4 [0,6] y en qué estructuras u orgánulos de las células eucarióticas se desarrollan? [0,4].<br>b) En ciertas condiciones, determinadas células humanas llevan a cabo el proceso número 3. Indique el nombre de las células y explique dicho proceso [1].",
    "c": [
-    "a) 1: <mark class=\"clave-criterio\">glucólisis</mark> (<mark class=\"clave-criterio\">citosol</mark>); 2: <mark class=\"clave-criterio\">ciclo de Krebs o respiración celular</mark> (<mark class=\"clave-criterio\">mitocondria</mark>); 3: <mark class=\"clave-criterio\">fermentación láctica</mark> (citosol); 4: <mark class=\"clave-criterio\">fermentación alcohólica</mark> (citosol). 0,15 p cada proceso y 0,1 p cada localización (1 p).",
+    "a) 1: <mark class=\"clave-criterio\">glucólisis</mark> (<mark class=\"clave-criterio\">citosol</mark>); 2: <mark class=\"clave-criterio\">ciclo de Krebs o respiración celular</mark> (<mark class=\"clave-criterio\">mitocondria</mark>); 3: <mark class=\"clave-criterio\">fermentación láctica</mark> (citosol); 4: <mark class=\"clave-criterio\">fermentación alcohólica</mark> (citosol). 0,15 p cada proceso y 0,1 p cada localización (1 p). <span class=\"redactado\">En el ciclo de Krebs, el pirúvico se transforma primero en acetil-CoA en la matriz mitocondrial; la fermentación alcohólica es propia, por ejemplo, de las levaduras.</span>",
     "b) Células: <mark class=\"clave-criterio\">fibras musculares</mark> (músculo estriado) (0,2 p).",
-    "b) La fermentación láctica es un proceso <mark class=\"clave-criterio\">oxidativo incompleto</mark> por <mark class=\"clave-criterio\">falta de oxígeno</mark>: el <mark class=\"clave-criterio\">piruvato se reduce a lactato</mark> y se <mark class=\"clave-criterio\">regenera NAD⁺</mark> (0,8 p)."
+    "b) La fermentación láctica es un proceso <mark class=\"clave-criterio\">oxidativo incompleto</mark> por <mark class=\"clave-criterio\">falta de oxígeno</mark>: el <mark class=\"clave-criterio\">piruvato se reduce a lactato</mark> y se <mark class=\"clave-criterio\">regenera NAD⁺</mark> (0,8 p). <span class=\"redactado\">Cuando el ejercicio es intenso y no llega suficiente O₂, la cadena respiratoria no reoxida el NADH; al reducir el pirúvico a lactato, el NADH vuelve a NAD⁺ y la glucólisis puede seguir produciendo 2 ATP por glucosa.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 5",
@@ -7877,8 +7877,8 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Explique la Teoría Endosimbiótica sobre la presencia de mitocondrias y cloroplastos en las células eucarióticas [1]. ¿Qué función realiza cada uno de estos orgánulos y qué reacciones principales se producen en ellos? [1].",
    "c": [
-    "Las <mark class=\"clave-criterio\">mitocondrias proceden de bacterias aerobias</mark> y los <mark class=\"clave-criterio\">cloroplastos de bacterias fotosintéticas</mark>, que establecieron una <mark class=\"clave-criterio\">relación simbiótica</mark> con células eucarióticas ancestrales (1 p).",
-    "Mitocondria: <mark class=\"clave-criterio\">respiración celular</mark> (ciclo de Krebs, β-oxidación, transporte de electrones, <mark class=\"clave-criterio\">fosforilación oxidativa</mark>). Cloroplasto: <mark class=\"clave-criterio\">fotosíntesis</mark> (fotólisis del agua, transporte de electrones, síntesis de ATP y <mark class=\"clave-criterio\">fijación del CO₂</mark>). 0,5 p cada orgánulo (1 p)."
+    "Las <mark class=\"clave-criterio\">mitocondrias proceden de bacterias aerobias</mark> y los <mark class=\"clave-criterio\">cloroplastos de bacterias fotosintéticas</mark>, que establecieron una <mark class=\"clave-criterio\">relación simbiótica</mark> con células eucarióticas ancestrales (1 p). <span class=\"redactado\">Una célula ancestral fagocitó esas bacterias sin digerirlas, y ambas salieron beneficiadas. Lo apoyan la doble membrana de estos orgánulos, su ADN circular, sus ribosomas 70S y su división por bipartición, rasgos propios de bacterias. La propuso Lynn Margulis.</span>",
+    "Mitocondria: <mark class=\"clave-criterio\">respiración celular</mark> (ciclo de Krebs, β-oxidación, transporte de electrones, <mark class=\"clave-criterio\">fosforilación oxidativa</mark>). Cloroplasto: <mark class=\"clave-criterio\">fotosíntesis</mark> (fotólisis del agua, transporte de electrones, síntesis de ATP y <mark class=\"clave-criterio\">fijación del CO₂</mark>). 0,5 p cada orgánulo (1 p). <span class=\"redactado\">En la matriz mitocondrial ocurren el ciclo de Krebs y la β-oxidación; en la membrana interna, la cadena respiratoria y la ATP sintasa. En el cloroplasto, la fase luminosa ocurre en los tilacoides y el ciclo de Calvin, en el estroma.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 6",
@@ -7902,10 +7902,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Defina los términos gen [0,5] y mutación [0,5]. Cite dos agentes mutagénicos [0,5]. Describa la importancia de las mutaciones en la evolución [0,5].",
    "c": [
-    "Gen: <mark class=\"clave-criterio\">fragmento de ADN que codifica una determinada proteína</mark> (0,5 p).",
-    "Mutación: <mark class=\"clave-criterio\">cambio en el material genético</mark> no debido a recombinación ni segregación (0,5 p).",
-    "Agentes: <mark class=\"clave-criterio\">rayos UV</mark>, <mark class=\"clave-criterio\">radiaciones ionizantes</mark>, <mark class=\"clave-criterio\">agentes químicos</mark>, agentes biológicos. Solo dos, a 0,25 p (0,5 p).",
-    "Permiten <mark class=\"clave-criterio\">aumentar la variabilidad genética</mark> (0,5 p)."
+    "Gen: <mark class=\"clave-criterio\">fragmento de ADN que codifica una determinada proteína</mark> (0,5 p). <span class=\"redactado\">También puede codificar un ARN (ARNt, ARNr); sus formas alternativas son los alelos.</span>",
+    "Mutación: <mark class=\"clave-criterio\">cambio en el material genético</mark> no debido a recombinación ni segregación (0,5 p). <span class=\"redactado\">Puede afectar a un gen, a la estructura de un cromosoma o al número de cromosomas; solo se hereda si afecta a las células germinales.</span>",
+    "Agentes: <mark class=\"clave-criterio\">rayos UV</mark>, <mark class=\"clave-criterio\">radiaciones ionizantes</mark>, <mark class=\"clave-criterio\">agentes químicos</mark>, agentes biológicos. Solo dos, a 0,25 p (0,5 p). <span class=\"redactado\">Por ejemplo, los rayos UV forman dímeros de timina; los rayos X y gamma rompen el ADN; sustancias como el benzopireno del tabaco alteran las bases.</span>",
+    "Permiten <mark class=\"clave-criterio\">aumentar la variabilidad genética</mark> (0,5 p). <span class=\"redactado\">Crean alelos nuevos; los más favorables en un ambiente aumentan su frecuencia por selección natural, y así cambian las poblaciones con el tiempo.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 6",
@@ -7929,11 +7929,11 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Describa el ciclo lítico de un bacteriófago [2].",
    "c": [
-    "<mark class=\"clave-criterio\">Receptores específicos</mark> en la superficie de la bacteria a los que se une el fago (0,4 p).",
-    "<mark class=\"clave-criterio\">Inyección del ácido nucleico</mark> vírico por la vaina contráctil (0,4 p).",
-    "Uso de la <mark class=\"clave-criterio\">maquinaria biosintética de la bacteria</mark> para copiar el ácido nucleico y la cápsida (0,4 p).",
+    "<mark class=\"clave-criterio\">Receptores específicos</mark> en la superficie de la bacteria a los que se une el fago (0,4 p). <span class=\"redactado\">Las fibras de la cola reconocen receptores de la pared bacteriana; cada fago solo infecta a ciertas bacterias.</span>",
+    "<mark class=\"clave-criterio\">Inyección del ácido nucleico</mark> vírico por la vaina contráctil (0,4 p). <span class=\"redactado\">La vaina se contrae y el ADN entra en la bacteria; la cápsida queda fuera.</span>",
+    "Uso de la <mark class=\"clave-criterio\">maquinaria biosintética de la bacteria</mark> para copiar el ácido nucleico y la cápsida (0,4 p). <span class=\"redactado\">El virus destruye el ADN bacteriano y dirige la fabricación de sus propias moléculas con los ribosomas, las enzimas y el ATP de la bacteria.</span>",
     "<mark class=\"clave-criterio\">Ensamblaje</mark> de los componentes (0,4 p).",
-    "<mark class=\"clave-criterio\">Rotura de la célula por enzimas líticas</mark> y salida de los nuevos fagos (0,4 p)."
+    "<mark class=\"clave-criterio\">Rotura de la célula por enzimas líticas</mark> y salida de los nuevos fagos (0,4 p). <span class=\"redactado\">La lisozima del virus rompe la pared bacteriana y la bacteria estalla (lisis), liberando cientos de virus.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 6",
@@ -7982,7 +7982,7 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "La rotenona es el principio activo presente en sustancias que tribus indígenas del Amazonas vierten sobre los ríos para matar los peces que luego recogen. La rotenona afecta a uno de los componentes de la cadena transportadora de electrones de la mitocondria. ¿De qué manera puede este compuesto afectar a los peces hasta provocarles la muerte? Razone la respuesta [1].",
    "c": [
-    "Inhibe la <mark class=\"clave-criterio\">cadena de transporte de electrones</mark>, imprescindible para la <mark class=\"clave-criterio\">producción de ATP</mark> en la mitocondria: los peces mueren al <mark class=\"clave-criterio\">no poder fabricar ATP</mark> (1 p)."
+    "Inhibe la <mark class=\"clave-criterio\">cadena de transporte de electrones</mark>, imprescindible para la <mark class=\"clave-criterio\">producción de ATP</mark> en la mitocondria: los peces mueren al <mark class=\"clave-criterio\">no poder fabricar ATP</mark> (1 p). <span class=\"redactado\">Sin transporte de electrones no se bombean protones y la ATP sintasa no forma ATP; el pez solo dispone del poco ATP de la glucólisis, y mueren primero los órganos que más energía gastan, como el cerebro y el corazón.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 6",
@@ -8144,9 +8144,9 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Parte de la secuencia de aminoácidos de una proteína está indicada en la fila superior de este cuadro. Copie la siguiente tabla y complete los espacios en blanco con los tripletes correspondientes [1].<br><table class=\"tabla-pau\"><tr><th>Aminoácidos</th><td>Leu</td><td>Ser</td><td>Ala</td><td>Gly</td><td>Glu</td></tr><tr><th>ARNt</th><td></td><td></td><td></td><td>C C U</td><td></td></tr><tr><th>ARNm</th><td></td><td>U C U</td><td></td><td></td><td>G A A</td></tr><tr><th>ADN (molde)</th><td>A A C</td><td></td><td>C G C</td><td></td><td></td></tr></table>",
    "c": [
-    "0,1 p cada casilla (1 p):",
+    "0,1 p cada casilla (1 p): <span class=\"redactado\">El ARNm es complementario de la cadena molde del ADN (con U en lugar de T), y el anticodón del ARNt es complementario del codón del ARNm; por eso el anticodón tiene la misma secuencia que la cadena molde, con U en lugar de T.</span>",
     "ARNt: <mark class=\"clave-criterio\">AAC</mark>, <mark class=\"clave-criterio\">AGA</mark>, <mark class=\"clave-criterio\">CGC</mark>, CCU, <mark class=\"clave-criterio\">CUU</mark>.",
-    "ARNm: <mark class=\"clave-criterio\">UUG</mark>, UCU, <mark class=\"clave-criterio\">GCG</mark>, <mark class=\"clave-criterio\">GGA</mark>, GAA.",
+    "ARNm: <mark class=\"clave-criterio\">UUG</mark>, UCU, <mark class=\"clave-criterio\">GCG</mark>, <mark class=\"clave-criterio\">GGA</mark>, GAA. <span class=\"redactado\">Para escoger el codón se usa la tabla del código genético; por la degeneración del código, un mismo aminoácido puede tener varios codones.</span>",
     "ADN molde: AAC, <mark class=\"clave-criterio\">AGA</mark>, CGC, <mark class=\"clave-criterio\">CCT</mark>, <mark class=\"clave-criterio\">CTT</mark>."
    ],
    "origen": {
@@ -45197,11 +45197,11 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Indique las características del transporte pasivo y del transporte activo [0,8]. Defina pinocitosis, fagocitosis y exocitosis [1,2].",
    "c": [
-    "Pasivo: <mark class=\"clave-criterio\">difusión simple</mark> (sin gasto de energía y <mark class=\"clave-criterio\">a favor de gradiente</mark>) y <mark class=\"clave-criterio\">difusión facilitada</mark> (sin gasto, a favor de gradiente y <mark class=\"clave-criterio\">mediada por proteínas</mark>). 0,2 p cada una (0,4 p).",
-    "Activo: <mark class=\"clave-criterio\">en contra de gradiente</mark>, intervienen <mark class=\"clave-criterio\">proteínas</mark> y hay <mark class=\"clave-criterio\">gasto de energía</mark> (0,4 p).",
-    "Pinocitosis: entrada de <mark class=\"clave-criterio\">fluidos y moléculas disueltas</mark> mediante <mark class=\"clave-criterio\">vesículas pinocíticas</mark> (0,4 p).",
-    "Fagocitosis: incorporación de <mark class=\"clave-criterio\">partículas sólidas</mark> formando <mark class=\"clave-criterio\">fagosomas</mark> (0,4 p).",
-    "Exocitosis: <mark class=\"clave-criterio\">expulsión de moléculas</mark> mediante <mark class=\"clave-criterio\">vesículas de secreción</mark> (0,4 p)."
+    "Pasivo: <mark class=\"clave-criterio\">difusión simple</mark> (sin gasto de energía y <mark class=\"clave-criterio\">a favor de gradiente</mark>) y <mark class=\"clave-criterio\">difusión facilitada</mark> (sin gasto, a favor de gradiente y <mark class=\"clave-criterio\">mediada por proteínas</mark>). 0,2 p cada una (0,4 p). <span class=\"redactado\">Por difusión simple pasan, entre los fosfolípidos, moléculas pequeñas sin carga (O₂, CO₂); la facilitada usa proteínas de canal o permeasas, como el transportador de glucosa.</span>",
+    "Activo: <mark class=\"clave-criterio\">en contra de gradiente</mark>, intervienen <mark class=\"clave-criterio\">proteínas</mark> y hay <mark class=\"clave-criterio\">gasto de energía</mark> (0,4 p). <span class=\"redactado\">Un ejemplo es la bomba de Na⁺/K⁺, que hidroliza ATP para sacar 3 Na⁺ y meter 2 K⁺; mantiene el potencial de membrana.</span>",
+    "Pinocitosis: entrada de <mark class=\"clave-criterio\">fluidos y moléculas disueltas</mark> mediante <mark class=\"clave-criterio\">vesículas pinocíticas</mark> (0,4 p). <span class=\"redactado\">Es un tipo de endocitosis con vesículas pequeñas («la célula bebe»).</span>",
+    "Fagocitosis: incorporación de <mark class=\"clave-criterio\">partículas sólidas</mark> formando <mark class=\"clave-criterio\">fagosomas</mark> (0,4 p). <span class=\"redactado\">La realizan, por ejemplo, los macrófagos, los neutrófilos y muchos protozoos; el fagosoma se fusiona con lisosomas y su contenido se digiere.</span>",
+    "Exocitosis: <mark class=\"clave-criterio\">expulsión de moléculas</mark> mediante <mark class=\"clave-criterio\">vesículas de secreción</mark> (0,4 p). <span class=\"redactado\">Las vesículas, procedentes del Golgi, se fusionan con la membrana plasmática y vierten su contenido al exterior; así se secretan hormonas, enzimas o neurotransmisores, y se renueva la membrana.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 1",
@@ -45224,9 +45224,9 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Enuncie [0,5] y realice un esquema de la segunda ley de Mendel [0,5]. Explique en qué consiste el cruzamiento prueba [0,5] y realice un esquema del mismo [0,5].",
    "c": [
-    "Ley de la <mark class=\"clave-criterio\">separación o disyunción de los alelos</mark>: al cruzar los <mark class=\"clave-criterio\">híbridos de la F1</mark> se obtiene en la F2 una proporción fenotípica <mark class=\"clave-criterio\">3:1</mark>, reapareciendo el carácter oculto, porque los alelos <mark class=\"clave-criterio\">se separan sin sufrir modificaciones</mark> (0,5 p).",
-    "Esquema: <mark class=\"clave-criterio\">Aa × Aa</mark> → <mark class=\"clave-criterio\">25 % AA, 50 % Aa y 25 % aa</mark> (0,5 p).",
-    "Cruzamiento prueba: cruce de un individuo de <mark class=\"clave-criterio\">fenotipo dominante</mark> con otro de <mark class=\"clave-criterio\">fenotipo recesivo</mark> para <mark class=\"clave-criterio\">averiguar el genotipo</mark> del primero (0,5 p).",
+    "Ley de la <mark class=\"clave-criterio\">separación o disyunción de los alelos</mark>: al cruzar los <mark class=\"clave-criterio\">híbridos de la F1</mark> se obtiene en la F2 una proporción fenotípica <mark class=\"clave-criterio\">3:1</mark>, reapareciendo el carácter oculto, porque los alelos <mark class=\"clave-criterio\">se separan sin sufrir modificaciones</mark> (0,5 p). <span class=\"redactado\">Cada gameto lleva solo uno de los dos alelos de cada gen.</span>",
+    "Esquema: <mark class=\"clave-criterio\">Aa × Aa</mark> → <mark class=\"clave-criterio\">25 % AA, 50 % Aa y 25 % aa</mark> (0,5 p). <span class=\"redactado\">Los genotipos están en proporción 1:2:1 y los fenotipos, 3:1 (tres dominantes por cada recesivo).</span>",
+    "Cruzamiento prueba: cruce de un individuo de <mark class=\"clave-criterio\">fenotipo dominante</mark> con otro de <mark class=\"clave-criterio\">fenotipo recesivo</mark> para <mark class=\"clave-criterio\">averiguar el genotipo</mark> del primero (0,5 p). <span class=\"redactado\">Si aparece algún descendiente con el fenotipo recesivo, el individuo problema es heterocigoto; si todos muestran el dominante, es homocigoto (cuanto más numerosa sea la descendencia, más fiable es la conclusión).</span>",
     "Esquemas: <mark class=\"clave-criterio\">AA × aa → 100 % Aa</mark>; <mark class=\"clave-criterio\">Aa × aa → 50 % Aa y 50 % aa</mark> (0,5 p)."
    ],
    "origen": {
@@ -45305,11 +45305,11 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Describa las fases de la primera división meiótica [1,5] y realice un dibujo de una célula con 2n=4 en anafase I [0,5].",
    "c": [
-    "Profase I: condensación, <mark class=\"clave-criterio\">apareamiento de cromosomas homólogos</mark> formando <mark class=\"clave-criterio\">bivalentes</mark> y <mark class=\"clave-criterio\">recombinación (quiasmas)</mark>, desaparición de la envoltura nuclear (0,5 p).",
-    "Metafase I: <mark class=\"clave-criterio\">cromosomas homólogos en el plano medio</mark> de la célula (0,25 p).",
-    "Anafase I: los microtúbulos <mark class=\"clave-criterio\">separan los cromosomas homólogos</mark> y los arrastran <mark class=\"clave-criterio\">a cada polo</mark> (0,5 p).",
-    "Telofase I: descondensación y <mark class=\"clave-criterio\">reaparición de la envoltura nuclear</mark> (0,25 p).",
-    "Dibujo: célula con <mark class=\"clave-criterio\">cuatro cromosomas, homólogos dos a dos, separándose</mark> (0,5 p)."
+    "Profase I: condensación, <mark class=\"clave-criterio\">apareamiento de cromosomas homólogos</mark> formando <mark class=\"clave-criterio\">bivalentes</mark> y <mark class=\"clave-criterio\">recombinación (quiasmas)</mark>, desaparición de la envoltura nuclear (0,5 p). <span class=\"redactado\">Es la fase más larga de la meiosis. En los quiasmas se produce el sobrecruzamiento entre cromátidas no hermanas de los homólogos, que intercambian fragmentos.</span>",
+    "Metafase I: <mark class=\"clave-criterio\">cromosomas homólogos en el plano medio</mark> de la célula (0,25 p). <span class=\"redactado\">Se colocan por parejas (bivalentes), y no cromosomas sueltos como en la mitosis.</span>",
+    "Anafase I: los microtúbulos <mark class=\"clave-criterio\">separan los cromosomas homólogos</mark> y los arrastran <mark class=\"clave-criterio\">a cada polo</mark> (0,5 p). <span class=\"redactado\">Cada cromosoma conserva sus dos cromátidas; el reparto de los homólogos de cada par es al azar e independiente de los demás pares.</span>",
+    "Telofase I: descondensación y <mark class=\"clave-criterio\">reaparición de la envoltura nuclear</mark> (0,25 p). <span class=\"redactado\">Se forman dos células haploides (n), cada una con cromosomas de dos cromátidas, que pasan a la segunda división meiótica.</span>",
+    "Dibujo: célula con <mark class=\"clave-criterio\">cuatro cromosomas, homólogos dos a dos, separándose</mark> (0,5 p). <span class=\"redactado\">En cada polo debe haber dos cromosomas, uno de cada par, y cada uno con sus dos cromátidas.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 1",
@@ -45332,10 +45332,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Explique en qué consiste la respuesta inmunitaria celular [0,6]. Nombre las células que están implicadas en esa respuesta [0,4]. Indique dos funciones de cada uno de esos tipos de células [1].",
    "c": [
-    "Se basa en la actividad de los <mark class=\"clave-criterio\">linfocitos T y los macrófagos</mark>; útil contra microorganismos <mark class=\"clave-criterio\">que se establecen dentro de las células</mark>; los linfocitos T <mark class=\"clave-criterio\">destruyen células infectadas o tumorales</mark> (0,6 p).",
+    "Se basa en la actividad de los <mark class=\"clave-criterio\">linfocitos T y los macrófagos</mark>; útil contra microorganismos <mark class=\"clave-criterio\">que se establecen dentro de las células</mark>; los linfocitos T <mark class=\"clave-criterio\">destruyen células infectadas o tumorales</mark> (0,6 p). <span class=\"redactado\">No intervienen los anticuerpos; los linfocitos T reconocen el antígeno cuando se lo presentan unido a moléculas del MHC.</span>",
     "Células: <mark class=\"clave-criterio\">linfocitos T y macrófagos</mark> (0,4 p).",
-    "Linfocitos T: <mark class=\"clave-criterio\">activar la producción de anticuerpos</mark> por los linfocitos B, <mark class=\"clave-criterio\">destruir células infectadas o tumorales</mark>. 0,25 p cada una (0,5 p).",
-    "Macrófagos: <mark class=\"clave-criterio\">presentar antígenos</mark> y <mark class=\"clave-criterio\">fagocitosis</mark>. 0,25 p cada una (0,5 p)."
+    "Linfocitos T: <mark class=\"clave-criterio\">activar la producción de anticuerpos</mark> por los linfocitos B, <mark class=\"clave-criterio\">destruir células infectadas o tumorales</mark>. 0,25 p cada una (0,5 p). <span class=\"redactado\">Los T colaboradores liberan citocinas que activan a linfocitos B y macrófagos; los T citotóxicos destruyen las células que presentan el antígeno.</span>",
+    "Macrófagos: <mark class=\"clave-criterio\">presentar antígenos</mark> y <mark class=\"clave-criterio\">fagocitosis</mark>. 0,25 p cada una (0,5 p). <span class=\"redactado\">El macrófago degrada el antígeno y presenta sus fragmentos unidos a moléculas del MHC a los linfocitos T colaboradores.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 1",
@@ -45358,11 +45358,11 @@ window.BIOCELIA_HISTORICO = {
    "competencial": true,
    "q": "<b>A la vista de las imágenes, conteste las siguientes cuestiones:</b><br>a) Identifique los tipos celulares que se representan con las letras A, B y C, indicando un criterio en cada caso [0,75]. ¿Qué tipo celular carece de orgánulos membranosos? [0,25].<br>b) Indique los tipos de células que presentan: pared celular [0,25], mitocondrias [0,25], genoma de ADN circular [0,25] y ribosomas [0,25].",
    "c": [
-    "a) A: <mark class=\"clave-criterio\">célula eucariótica vegetal</mark> (0,1 p); criterio: <mark class=\"clave-criterio\">pared celular</mark>, <mark class=\"clave-criterio\">gran vacuola</mark> (0,15 p).",
-    "a) B: <mark class=\"clave-criterio\">célula procariótica</mark> (0,1 p); criterio: <mark class=\"clave-criterio\">sin orgánulos</mark> (0,15 p).",
-    "a) C: <mark class=\"clave-criterio\">célula eucariótica animal</mark> (0,1 p); criterio: <mark class=\"clave-criterio\">carencia de pared celular</mark> (0,15 p).",
+    "a) A: <mark class=\"clave-criterio\">célula eucariótica vegetal</mark> (0,1 p); criterio: <mark class=\"clave-criterio\">pared celular</mark>, <mark class=\"clave-criterio\">gran vacuola</mark> (0,15 p). <span class=\"redactado\">También los cloroplastos.</span>",
+    "a) B: <mark class=\"clave-criterio\">célula procariótica</mark> (0,1 p); criterio: <mark class=\"clave-criterio\">sin orgánulos</mark> (0,15 p). <span class=\"redactado\">Tampoco tiene núcleo: su ADN, circular, está en el nucleoide.</span>",
+    "a) C: <mark class=\"clave-criterio\">célula eucariótica animal</mark> (0,1 p); criterio: <mark class=\"clave-criterio\">carencia de pared celular</mark> (0,15 p). <span class=\"redactado\">Además, la célula animal tiene centriolos.</span>",
     "a) Carece de orgánulos membranosos: <mark class=\"clave-criterio\">la procariótica</mark> (0,25 p).",
-    "b) Pared: <mark class=\"clave-criterio\">procariótica y vegetal</mark>; mitocondrias: <mark class=\"clave-criterio\">vegetal y animal</mark>; ADN circular: <mark class=\"clave-criterio\">procariótica</mark>; ribosomas: <mark class=\"clave-criterio\">las tres</mark>. 0,25 p cada uno (1 p)."
+    "b) Pared: <mark class=\"clave-criterio\">procariótica y vegetal</mark>; mitocondrias: <mark class=\"clave-criterio\">vegetal y animal</mark>; ADN circular: <mark class=\"clave-criterio\">procariótica</mark>; ribosomas: <mark class=\"clave-criterio\">las tres</mark>. 0,25 p cada uno (1 p). <span class=\"redactado\">La pared de las bacterias es de peptidoglucano y la de las células vegetales, de celulosa. Los ribosomas de las procariotas son 70S y los del citoplasma eucariota, 80S.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 1",
@@ -45390,8 +45390,8 @@ window.BIOCELIA_HISTORICO = {
     "<b>I.</b> <mark class=\"clave-criterio\">Todas las células vegetales tienen mitocondrias</mark>, que <mark class=\"clave-criterio\">aportan la energía</mark> para los requerimientos celulares (0,5 p).",
     "<b>I.</b> Sin cloroplastos la célula <mark class=\"clave-criterio\">sobreviviría</mark> gracias a las mitocondrias, pero <mark class=\"clave-criterio\">sin poder realizar la fotosíntesis</mark> (0,25 p).",
     "<b>I.</b> Sin mitocondrias la célula <mark class=\"clave-criterio\">moriría por falta de energía</mark> (0,25 p).",
-    "<b>II.</b> Que tiene <mark class=\"clave-criterio\">suficientes defensas específicas</mark> frente a esa enfermedad (0,4 p).",
-    "<b>II.</b> De forma <mark class=\"clave-criterio\">natural</mark> (<mark class=\"clave-criterio\">superando la infección</mark>) o <mark class=\"clave-criterio\">artificial</mark> (<mark class=\"clave-criterio\">vacunándose</mark>). 0,3 p cada una (0,6 p)."
+    "<b>II.</b> Que tiene <mark class=\"clave-criterio\">suficientes defensas específicas</mark> frente a esa enfermedad (0,4 p). <span class=\"redactado\">Tiene anticuerpos y, sobre todo, linfocitos B y T de memoria frente al virus del sarampión; si vuelve a entrar en contacto con él, la respuesta secundaria lo elimina antes de que cause la enfermedad.</span>",
+    "<b>II.</b> De forma <mark class=\"clave-criterio\">natural</mark> (<mark class=\"clave-criterio\">superando la infección</mark>) o <mark class=\"clave-criterio\">artificial</mark> (<mark class=\"clave-criterio\">vacunándose</mark>). 0,3 p cada una (0,6 p). <span class=\"redactado\">En los dos casos es una inmunidad activa, porque el propio sistema inmunitario ha fabricado los anticuerpos y las células de memoria; por eso dura muchos años.</span>"
    ],
    "isNew": false,
    "competencial": false,
@@ -45418,10 +45418,10 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>I.</b> ¿Qué tipo de bases nitrogenadas son más abundantes en una molécula de ADN bicatenario? [0,5]. ¿Cuántas moléculas de ADN hay en el núcleo de una célula somática humana en fase G1? [0,25]. ¿Y en un gameto? [0,25]. Razone las respuestas. <i>(1 punto)</i><br><br><b>II.</b> Razone de qué manera la ganancia o pérdida de un nucleótido como consecuencia de una mutación en la secuencia codificante de un gen altera la proteína codificada [1]. <i>(1 punto)</i>",
    "puntos": 2,
    "c": [
-    "<b>I.</b> Hay un <mark class=\"clave-criterio\">50 % de cada tipo</mark> (púricas y pirimidínicas) por la <mark class=\"clave-criterio\">complementariedad de bases</mark> (0,5 p).",
-    "<b>I.</b> <mark class=\"clave-criterio\">46</mark>, porque ese es el <mark class=\"clave-criterio\">número de cromosomas</mark> (0,25 p).",
-    "<b>I.</b> <mark class=\"clave-criterio\">23</mark>, porque tiene <mark class=\"clave-criterio\">la mitad de cromosomas</mark> que una célula somática (0,25 p).",
-    "<b>II.</b> Produce un <mark class=\"clave-criterio\">cambio en la pauta de lectura de tripletes</mark> a partir de ese punto, que afecta a <mark class=\"clave-criterio\">todos los aminoácidos a continuación</mark> (1 p)."
+    "<b>I.</b> Hay un <mark class=\"clave-criterio\">50 % de cada tipo</mark> (púricas y pirimidínicas) por la <mark class=\"clave-criterio\">complementariedad de bases</mark> (0,5 p). <span class=\"redactado\">Cada base púrica (A, G) se aparea con una pirimidínica (T, C): A = T y G = C, así que A + G = T + C (reglas de Chargaff).</span>",
+    "<b>I.</b> <mark class=\"clave-criterio\">46</mark>, porque ese es el <mark class=\"clave-criterio\">número de cromosomas</mark> (0,25 p). <span class=\"redactado\">Cada cromosoma es una sola molécula de ADN; en G1 todavía no se ha replicado, así que cada cromosoma tiene una sola cromátida.</span>",
+    "<b>I.</b> <mark class=\"clave-criterio\">23</mark>, porque tiene <mark class=\"clave-criterio\">la mitad de cromosomas</mark> que una célula somática (0,25 p). <span class=\"redactado\">Los gametos son haploides (n = 23): tienen un cromosoma de cada par.</span>",
+    "<b>II.</b> Produce un <mark class=\"clave-criterio\">cambio en la pauta de lectura de tripletes</mark> a partir de ese punto, que afecta a <mark class=\"clave-criterio\">todos los aminoácidos a continuación</mark> (1 p). <span class=\"redactado\">El ARNm se lee de tres en tres nucleótidos sin comas, desde el codón de inicio; si se añade o se pierde uno, cambian todos los codones siguientes (mutación por corrimiento de la pauta de lectura). La proteína suele ser no funcional, y a menudo aparece pronto un codón de terminación que la acorta.</span>"
    ],
    "isNew": false,
    "competencial": false,
@@ -45474,9 +45474,9 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Explique el concepto de recombinación genética [1]. ¿En qué tipo de células se produce y en qué etapa de la división tiene lugar? [0,5]. ¿Cuál es su importancia biológica? [0,5].",
    "c": [
-    "<mark class=\"clave-criterio\">Intercambio de fragmentos cromosómicos</mark> entre <mark class=\"clave-criterio\">cromosomas homólogos</mark> durante la <mark class=\"clave-criterio\">profase meiótica</mark> (1 p).",
-    "En <mark class=\"clave-criterio\">células germinales</mark> (0,25 p), en la <mark class=\"clave-criterio\">profase I de la meiosis</mark> (0,25 p).",
-    "Produce <mark class=\"clave-criterio\">nuevas combinaciones alélicas</mark> y <mark class=\"clave-criterio\">aumenta la variabilidad genética</mark> (0,5 p)."
+    "<mark class=\"clave-criterio\">Intercambio de fragmentos cromosómicos</mark> entre <mark class=\"clave-criterio\">cromosomas homólogos</mark> durante la <mark class=\"clave-criterio\">profase meiótica</mark> (1 p). <span class=\"redactado\">Ocurre por sobrecruzamiento en los quiasmas: las cromátidas no hermanas se rompen y se unen intercambiando fragmentos, y en una misma cromátida quedan alelos de origen materno y paterno.</span>",
+    "En <mark class=\"clave-criterio\">células germinales</mark> (0,25 p), en la <mark class=\"clave-criterio\">profase I de la meiosis</mark> (0,25 p). <span class=\"redactado\">Ocurre en el paquiteno, cuando los homólogos están apareados formando bivalentes.</span>",
+    "Produce <mark class=\"clave-criterio\">nuevas combinaciones alélicas</mark> y <mark class=\"clave-criterio\">aumenta la variabilidad genética</mark> (0,5 p). <span class=\"redactado\">Junto con el reparto al azar de los cromosomas en la anafase I, hace que cada gameto sea genéticamente distinto; esa variabilidad es la materia prima sobre la que actúa la selección natural.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 3",
@@ -45499,9 +45499,9 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Explique en qué consiste la vacunación [0,5] y la sueroterapia [0,5] e indique dos diferencias entre estos procesos [0,6]. ¿Con qué tipos de inmunidad están relacionados? [0,4].",
    "c": [
-    "Vacunación: introducción de <mark class=\"clave-criterio\">antígenos</mark> en un <mark class=\"clave-criterio\">organismo sano</mark> para crear <mark class=\"clave-criterio\">memoria inmunológica</mark>. Sueroterapia: introducción de <mark class=\"clave-criterio\">anticuerpos</mark> en un <mark class=\"clave-criterio\">organismo enfermo</mark> para ayudarle a combatir la enfermedad. 0,5 p cada una (1 p).",
-    "Diferencias: carácter <mark class=\"clave-criterio\">preventivo o curativo</mark>; <mark class=\"clave-criterio\">formación o no de células de memoria</mark>, etc. Solo dos, a 0,3 p (0,6 p).",
-    "Ambas pertenecen a la <mark class=\"clave-criterio\">inmunidad adquirida</mark> y <mark class=\"clave-criterio\">artificial</mark> (0,2 p); la vacunación es <mark class=\"clave-criterio\">inmunidad activa</mark> y la sueroterapia <mark class=\"clave-criterio\">pasiva</mark> (0,2 p)."
+    "Vacunación: introducción de <mark class=\"clave-criterio\">antígenos</mark> en un <mark class=\"clave-criterio\">organismo sano</mark> para crear <mark class=\"clave-criterio\">memoria inmunológica</mark>. Sueroterapia: introducción de <mark class=\"clave-criterio\">anticuerpos</mark> en un <mark class=\"clave-criterio\">organismo enfermo</mark> para ayudarle a combatir la enfermedad. 0,5 p cada una (1 p). <span class=\"redactado\">La vacuna contiene microorganismos muertos o atenuados, sus toxinas inactivadas o fragmentos de ellos, y produce una respuesta primaria sin causar la enfermedad. El suero contiene anticuerpos ya formados, obtenidos de un animal o de una persona inmunizados.</span>",
+    "Diferencias: carácter <mark class=\"clave-criterio\">preventivo o curativo</mark>; <mark class=\"clave-criterio\">formación o no de células de memoria</mark>, etc. Solo dos, a 0,3 p (0,6 p). <span class=\"redactado\">Además, la vacuna tarda en hacer efecto pero protege durante años; el suero actúa de inmediato, pero solo protege unas semanas.</span>",
+    "Ambas pertenecen a la <mark class=\"clave-criterio\">inmunidad adquirida</mark> y <mark class=\"clave-criterio\">artificial</mark> (0,2 p); la vacunación es <mark class=\"clave-criterio\">inmunidad activa</mark> y la sueroterapia <mark class=\"clave-criterio\">pasiva</mark> (0,2 p). <span class=\"redactado\">La inmunidad natural activa se adquiere al pasar la enfermedad, y la natural pasiva, por la placenta y la leche materna.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 3",
@@ -45525,10 +45525,10 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>El dibujo muestra la forma común de representar esquemáticamente a un tipo de biomolécula.</b><br>a) Indique de qué biomolécula se trata [0,2]. ¿Qué representa y cuál es la naturaleza química de los componentes señalados con los números 1 y 2? [0,8].<br>b) Las biomoléculas en cuestión son uno de los principales componentes de una importante estructura celular. Cite cuál es esta estructura [0,2], indique cómo se organizan en ella estas biomoléculas [0,4] y justifique por qué lo hacen de esa manera [0,4].",
    "c": [
     "a) <mark class=\"clave-criterio\">Fosfolípido</mark> (0,2 p).",
-    "a) 1: <mark class=\"clave-criterio\">cabeza polar hidrofílica</mark> (<mark class=\"clave-criterio\">grupo fosfato y aminoalcohol</mark>); 2: <mark class=\"clave-criterio\">colas apolares hidrofóbicas</mark> (<mark class=\"clave-criterio\">ácidos grasos</mark>). 0,4 p cada uno (0,8 p).",
+    "a) 1: <mark class=\"clave-criterio\">cabeza polar hidrofílica</mark> (<mark class=\"clave-criterio\">grupo fosfato y aminoalcohol</mark>); 2: <mark class=\"clave-criterio\">colas apolares hidrofóbicas</mark> (<mark class=\"clave-criterio\">ácidos grasos</mark>). 0,4 p cada uno (0,8 p). <span class=\"redactado\">Los ácidos grasos se unen a la glicerina por enlaces éster; el fosfato se une al carbono 3 de la glicerina y a un aminoalcohol, como la colina.</span>",
     "b) <mark class=\"clave-criterio\">Membranas celulares</mark> (0,2 p).",
-    "b) Forman una <mark class=\"clave-criterio\">bicapa</mark> con las <mark class=\"clave-criterio\">cabezas polares hacia el exterior</mark>, en contacto con el agua, y las <mark class=\"clave-criterio\">colas hidrofóbicas hacia el interior</mark> (0,4 p).",
-    "b) Se debe a su <mark class=\"clave-criterio\">naturaleza anfipática</mark> (0,4 p)."
+    "b) Forman una <mark class=\"clave-criterio\">bicapa</mark> con las <mark class=\"clave-criterio\">cabezas polares hacia el exterior</mark>, en contacto con el agua, y las <mark class=\"clave-criterio\">colas hidrofóbicas hacia el interior</mark> (0,4 p). <span class=\"redactado\">Las cabezas quedan hacia el medio acuoso del interior y del exterior de la célula, y las colas, en el centro, aisladas del agua; las uniones entre ellas son débiles, por eso la bicapa es fluida.</span>",
+    "b) Se debe a su <mark class=\"clave-criterio\">naturaleza anfipática</mark> (0,4 p). <span class=\"redactado\">Las cabezas polares son afines al agua y las colas apolares la repelen; en un medio acuoso se colocan de forma espontánea en la disposición más estable, la bicapa.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 3",
@@ -45579,10 +45579,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Describa cuatro diferencias entre las células animales y vegetales [1]. Indique el principal componente de la pared celular [0,1]. Indique la estructura de la pared celular [0,3] y cite dos funciones de la misma [0,6].",
    "c": [
-    "Diferencias: <mark class=\"clave-criterio\">pared celular</mark>, <mark class=\"clave-criterio\">forma estable</mark>, <mark class=\"clave-criterio\">cloroplastos</mark>, <mark class=\"clave-criterio\">vacuolas</mark>, etc. (1 p).",
-    "Componente: <mark class=\"clave-criterio\">celulosa</mark> (0,1 p).",
-    "Estructura: <mark class=\"clave-criterio\">pared primaria, pared secundaria y lámina media</mark> (0,3 p).",
-    "Funciones: <mark class=\"clave-criterio\">estructural</mark>, mantenimiento de la <mark class=\"clave-criterio\">turgencia</mark>, capacidad osmótica. Solo dos, a 0,3 p (0,6 p)."
+    "Diferencias: <mark class=\"clave-criterio\">pared celular</mark>, <mark class=\"clave-criterio\">forma estable</mark>, <mark class=\"clave-criterio\">cloroplastos</mark>, <mark class=\"clave-criterio\">vacuolas</mark>, etc. (1 p). <span class=\"redactado\">Además, las células animales tienen centriolos y almacenan glucógeno; las vegetales, almidón.</span>",
+    "Componente: <mark class=\"clave-criterio\">celulosa</mark> (0,1 p). <span class=\"redactado\">La celulosa forma microfibrillas muy resistentes, en una matriz de hemicelulosa y pectinas.</span>",
+    "Estructura: <mark class=\"clave-criterio\">pared primaria, pared secundaria y lámina media</mark> (0,3 p). <span class=\"redactado\">La lámina media, rica en pectinas, se forma primero en la citocinesis y une las células vecinas; la pared primaria, delgada y flexible, permite el crecimiento; la secundaria, más gruesa, se forma por dentro cuando la célula deja de crecer.</span>",
+    "Funciones: <mark class=\"clave-criterio\">estructural</mark>, mantenimiento de la <mark class=\"clave-criterio\">turgencia</mark>, capacidad osmótica. Solo dos, a 0,3 p (0,6 p). <span class=\"redactado\">La pared resiste la presión del agua que entra por ósmosis e impide que la célula estalle en un medio hipotónico.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 3",
@@ -45605,11 +45605,11 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Defina los siguientes términos: microorganismo, bacteriófago, hongo, biotecnología y ciclo lítico [2].",
    "c": [
-    "Microorganismo: ser vivo que <mark class=\"clave-criterio\">no puede percibirse sin microscopio</mark> (0,4 p).",
-    "Bacteriófago: <mark class=\"clave-criterio\">virus que infecta bacterias</mark> (0,4 p).",
-    "Hongo: organismo <mark class=\"clave-criterio\">eucariota, no fotosintético, heterótrofo</mark>, uni o pluricelular <mark class=\"clave-criterio\">sin diferenciación de tejidos</mark> (0,4 p).",
-    "Biotecnología: procesos industriales que usan <mark class=\"clave-criterio\">microorganismos o células</mark> para <mark class=\"clave-criterio\">obtener productos</mark> (0,4 p).",
-    "Ciclo lítico: multiplicación de los fagos en la que el <mark class=\"clave-criterio\">genoma del virus no se incorpora al de la bacteria</mark> (0,4 p)."
+    "Microorganismo: ser vivo que <mark class=\"clave-criterio\">no puede percibirse sin microscopio</mark> (0,4 p). <span class=\"redactado\">Incluye bacterias, protozoos, algas microscópicas y hongos como las levaduras; los virus se estudian con ellos, aunque no son células.</span>",
+    "Bacteriófago: <mark class=\"clave-criterio\">virus que infecta bacterias</mark> (0,4 p). <span class=\"redactado\">Se une a la bacteria con las fibras de la cola e inyecta su ADN; la cápsida queda fuera.</span>",
+    "Hongo: organismo <mark class=\"clave-criterio\">eucariota, no fotosintético, heterótrofo</mark>, uni o pluricelular <mark class=\"clave-criterio\">sin diferenciación de tejidos</mark> (0,4 p). <span class=\"redactado\">Tienen pared de quitina, se alimentan por absorción y se reproducen por esporas; las levaduras son unicelulares y los mohos, pluricelulares.</span>",
+    "Biotecnología: procesos industriales que usan <mark class=\"clave-criterio\">microorganismos o células</mark> para <mark class=\"clave-criterio\">obtener productos</mark> (0,4 p). <span class=\"redactado\">Por ejemplo, la producción de pan, vino o yogur con microorganismos, o la de insulina humana con bacterias modificadas genéticamente.</span>",
+    "Ciclo lítico: multiplicación de los fagos en la que el <mark class=\"clave-criterio\">genoma del virus no se incorpora al de la bacteria</mark> (0,4 p). <span class=\"redactado\">El virus se multiplica dentro de la bacteria y la rompe al salir; en el ciclo lisogénico, en cambio, su ADN se integra en el cromosoma bacteriano.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 3",
@@ -45632,12 +45632,12 @@ window.BIOCELIA_HISTORICO = {
    "competencial": true,
    "q": "<b>En relación con la figura adjunta, responda las siguientes cuestiones:</b><br>a) Nombre las moléculas A, B y C [0,3]. Indique cómo se denominan los monómeros de las moléculas B y C [0,2] y la composición de la molécula C [0,3]. Explique el hecho de que las anotaciones 3' y 5' de la molécula A se sitúen en posiciones opuestas [0,2].<br>b) Cite el nombre de los procesos que permiten la síntesis de las moléculas A y C [0,2]. Describa el proceso por el que se sintetiza la molécula A [0,8].",
    "c": [
-    "a) A: <mark class=\"clave-criterio\">ADN</mark>; B: <mark class=\"clave-criterio\">ARN polimerasa</mark>; C: <mark class=\"clave-criterio\">ARN</mark>. 0,1 p cada una (0,3 p).",
+    "a) A: <mark class=\"clave-criterio\">ADN</mark>; B: <mark class=\"clave-criterio\">ARN polimerasa</mark>; C: <mark class=\"clave-criterio\">ARN</mark>. 0,1 p cada una (0,3 p). <span class=\"redactado\">B es una enzima, de naturaleza proteica.</span>",
     "a) Monómeros: B, <mark class=\"clave-criterio\">aminoácidos</mark>; C, <mark class=\"clave-criterio\">ribonucleótidos</mark>. 0,1 p cada uno (0,2 p).",
     "a) Composición de C: <mark class=\"clave-criterio\">ácido fosfórico, ribosa y base nitrogenada</mark> (0,3 p).",
-    "a) Indica que el ADN tiene <mark class=\"clave-criterio\">dos cadenas antiparalelas</mark> (0,2 p).",
+    "a) Indica que el ADN tiene <mark class=\"clave-criterio\">dos cadenas antiparalelas</mark> (0,2 p). <span class=\"redactado\">Cada cadena tiene un extremo 5′, con el fosfato libre, y otro 3′, con el –OH libre; las dos cadenas van en sentidos opuestos.</span>",
     "b) A: <mark class=\"clave-criterio\">replicación</mark>; C: <mark class=\"clave-criterio\">transcripción</mark> (0,2 p).",
-    "b) Replicación: deben mencionarse <mark class=\"clave-criterio\">ADN</mark>, <mark class=\"clave-criterio\">origen de replicación</mark>, <mark class=\"clave-criterio\">cadenas adelantada y retrasada</mark>, <mark class=\"clave-criterio\">cebador</mark>, <mark class=\"clave-criterio\">fragmentos de Okazaki</mark>, <mark class=\"clave-criterio\">ADN polimerasa</mark> y <mark class=\"clave-criterio\">ligasa</mark>. 0,1 p cada uno (0,8 p)."
+    "b) Replicación: deben mencionarse <mark class=\"clave-criterio\">ADN</mark>, <mark class=\"clave-criterio\">origen de replicación</mark>, <mark class=\"clave-criterio\">cadenas adelantada y retrasada</mark>, <mark class=\"clave-criterio\">cebador</mark>, <mark class=\"clave-criterio\">fragmentos de Okazaki</mark>, <mark class=\"clave-criterio\">ADN polimerasa</mark> y <mark class=\"clave-criterio\">ligasa</mark>. 0,1 p cada uno (0,8 p). <span class=\"redactado\">La helicasa separa las cadenas en el origen y se forman dos horquillas. La primasa sintetiza un cebador de ARN; la ADN polimerasa añade nucleótidos solo en sentido 5'→3', así que una cadena se sintetiza de forma continua (adelantada) y la otra en fragmentos de Okazaki (retrasada). Después se eliminan los cebadores y la ligasa une los fragmentos.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 3",
@@ -45662,7 +45662,7 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>I.</b> En una reacción química en la que la sustancia A se transforma en la sustancia B, se liberan 10 kcal por mol de sustrato. ¿Cuánta energía se liberaría si la reacción estuviese catalizada por una enzima? [1]. Razone la respuesta. <i>(1 punto)</i><br><br><b>II.</b> Si se inhibe la cadena transportadora de electrones en la mitocondria, ¿cómo se verían afectadas la difusión simple, la difusión facilitada y el transporte activo? [0,5]. Si se aumenta la temperatura hasta 60ºC, ¿cómo se verían afectados los procesos anteriores? [0,5]. Razone las respuestas. <i>(1 punto)</i>",
    "puntos": 2,
    "c": [
-    "<b>I.</b> <mark class=\"clave-criterio\">La misma</mark>: la <mark class=\"clave-criterio\">variación de energía</mark> de una reacción <mark class=\"clave-criterio\">es independiente de la presencia de un catalizador</mark> (1 p).",
+    "<b>I.</b> <mark class=\"clave-criterio\">La misma</mark>: la <mark class=\"clave-criterio\">variación de energía</mark> de una reacción <mark class=\"clave-criterio\">es independiente de la presencia de un catalizador</mark> (1 p). <span class=\"redactado\">La enzima solo disminuye la energía de activación, y así la reacción va mucho más deprisa; pero no cambia la energía de los reactivos ni la de los productos, ni el equilibrio de la reacción.</span>",
     "<b>II.</b> La difusión simple y la facilitada <mark class=\"clave-criterio\">no se afectarían</mark>: <mark class=\"clave-criterio\">no requieren energía</mark> (0,25 p). El transporte activo <mark class=\"clave-criterio\">no se llevaría a cabo</mark> porque <mark class=\"clave-criterio\">requiere ATP</mark> (0,25 p).",
     "<b>II.</b> A 60 ºC se <mark class=\"clave-criterio\">desnaturalizan los transportadores</mark>: se afectarían el <mark class=\"clave-criterio\">transporte activo y la difusión facilitada</mark> (0,5 p)."
    ],
@@ -45691,8 +45691,8 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>I.</b> El taxol es un fármaco anticancerígeno que actúa fijándose a la tubulina de modo que impide la formación de microtúbulos o los rompe. Justifique la acción anticancerígena del taxol [1]. <i>(1 punto)</i><br><br><b>II.</b> Relacione cada término del grupo A con el más adecuado del grupo B, sin repetir ninguno, indicando número y letra de cada pareja (por ejemplo, 1J, 2H, etc.) [1].<br><table class=\"tabla-pau\"><tr><th colspan=\"2\">Grupo A</th><th colspan=\"2\">Grupo B</th></tr><tr><td>1. Médula ósea</td><td>6. Alergia</td><td>A. Inmunidad pasiva</td><td>F. Vacuna</td></tr><tr><td>2. Linfocito T</td><td>7. Activación</td><td>B. Polen</td><td>G. Timo</td></tr><tr><td>3. Antígeno</td><td>8. Sida</td><td>C. Linfocito B</td><td>H. Macrófago</td></tr><tr><td>4. Piel</td><td>9. Inmunidad activa</td><td>D. Interleucinas</td><td>I. Anticuerpo</td></tr><tr><td>5. Fagocitosis</td><td>10. Suero</td><td>E. Inmunodeficiencia</td><td>J. 1ª línea de defensa</td></tr></table> <i>(1 punto)</i>",
    "puntos": 2,
    "c": [
-    "<b>I.</b> Cualquier razonamiento basado en el papel de los <mark class=\"clave-criterio\">microtúbulos en la formación del huso mitótico</mark> y en que este es necesario para la <mark class=\"clave-criterio\">división celular</mark>, imprescindible para el <mark class=\"clave-criterio\">desarrollo de los tumores</mark> (1 p).",
-    "<b>II.</b> <mark class=\"clave-criterio\">1C; 2G; 3I; 4J; 5H; 6B; 7D; 8E; 9F; 10A</mark>. 0,1 p cada una (1 p)."
+    "<b>I.</b> Cualquier razonamiento basado en el papel de los <mark class=\"clave-criterio\">microtúbulos en la formación del huso mitótico</mark> y en que este es necesario para la <mark class=\"clave-criterio\">división celular</mark>, imprescindible para el <mark class=\"clave-criterio\">desarrollo de los tumores</mark> (1 p). <span class=\"redactado\">Sin huso, los cromosomas no pueden separarse y la célula se detiene en la mitosis; las células tumorales, que se dividen sin control, son las más afectadas, pero también lo son otras que se dividen mucho, como las de la médula ósea o el pelo.</span>",
+    "<b>II.</b> <mark class=\"clave-criterio\">1C; 2G; 3I; 4J; 5H; 6B; 7D; 8E; 9F; 10A</mark>. 0,1 p cada una (1 p). <span class=\"redactado\">Los linfocitos B maduran en la médula ósea y los T, en el timo; las interleucinas son citocinas que activan a otros linfocitos; la piel es una barrera de la inmunidad innata; el sida es una inmunodeficiencia causada por el VIH.</span>"
    ],
    "isNew": false,
    "competencial": false,
@@ -45720,10 +45720,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Describa la estructura de la molécula de agua [0,5]. Indique cinco funciones biológicas [0,5] y cinco propiedades físico-químicas del agua [0,5]. Explique de qué depende el fenómeno de la capilaridad [0,5].",
    "c": [
-    "<mark class=\"clave-criterio\">Dos átomos de hidrógeno</mark> unidos a <mark class=\"clave-criterio\">un átomo de oxígeno</mark> mediante <mark class=\"clave-criterio\">enlaces covalentes</mark> (0,5 p).",
-    "Funciones: <mark class=\"clave-criterio\">termorreguladora</mark>, <mark class=\"clave-criterio\">disolvente</mark>, estructural, mecánica, química. Solo cinco, a 0,1 p (0,5 p).",
-    "Propiedades: elevado <mark class=\"clave-criterio\">calor de vaporización</mark>, elevado <mark class=\"clave-criterio\">calor específico</mark>, elevado <mark class=\"clave-criterio\">momento dipolar</mark>, elevada <mark class=\"clave-criterio\">cohesión-adhesión</mark>, <mark class=\"clave-criterio\">baja densidad en estado sólido</mark>. Solo cinco, a 0,1 p (0,5 p).",
-    "La capilaridad depende de la <mark class=\"clave-criterio\">elevada fuerza de cohesión-adhesión</mark> entre las moléculas de agua (0,5 p)."
+    "<mark class=\"clave-criterio\">Dos átomos de hidrógeno</mark> unidos a <mark class=\"clave-criterio\">un átomo de oxígeno</mark> mediante <mark class=\"clave-criterio\">enlaces covalentes</mark> (0,5 p). <span class=\"redactado\">El oxígeno, más electronegativo, atrae los electrones: queda con carga parcial negativa y los hidrógenos, con carga parcial positiva. Como los enlaces forman un ángulo de unos 104,5°, la molécula es un dipolo y forma puentes de hidrógeno con otras moléculas.</span>",
+    "Funciones: <mark class=\"clave-criterio\">termorreguladora</mark>, <mark class=\"clave-criterio\">disolvente</mark>, estructural, mecánica, química. Solo cinco, a 0,1 p (0,5 p). <span class=\"redactado\">Por ejemplo, disuelve sales y moléculas polares, transporta sustancias por la sangre y la savia, amortigua los cambios de temperatura, da turgencia a las células vegetales y participa en las reacciones de hidrólisis.</span>",
+    "Propiedades: elevado <mark class=\"clave-criterio\">calor de vaporización</mark>, elevado <mark class=\"clave-criterio\">calor específico</mark>, elevado <mark class=\"clave-criterio\">momento dipolar</mark>, elevada <mark class=\"clave-criterio\">cohesión-adhesión</mark>, <mark class=\"clave-criterio\">baja densidad en estado sólido</mark>. Solo cinco, a 0,1 p (0,5 p). <span class=\"redactado\">Todas estas propiedades se deben a los puentes de hidrógeno entre sus moléculas.</span>",
+    "La capilaridad depende de la <mark class=\"clave-criterio\">elevada fuerza de cohesión-adhesión</mark> entre las moléculas de agua (0,5 p). <span class=\"redactado\">Las moléculas de agua se adhieren a las paredes de los tubos muy finos y, por cohesión, arrastran a las demás; así sube la savia bruta por los vasos del xilema.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 4",
@@ -45746,9 +45746,9 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Explique la estructura y composición química de los microtúbulos [0,8] e indique tres componentes celulares en los que participan [0,6]. Cite los otros dos componentes del citoesqueleto [0,6].",
    "c": [
-    "<mark class=\"clave-criterio\">Cilindros largos y no ramificados</mark> compuestos por <mark class=\"clave-criterio\">tubulina</mark> (0,8 p).",
-    "Forman el <mark class=\"clave-criterio\">huso mitótico</mark>, los <mark class=\"clave-criterio\">centriolos</mark>, los <mark class=\"clave-criterio\">cilios</mark> y los <mark class=\"clave-criterio\">flagelos</mark>. Solo tres, a 0,2 p (0,6 p).",
-    "<mark class=\"clave-criterio\">Microfilamentos (filamentos de actina)</mark> y <mark class=\"clave-criterio\">filamentos intermedios</mark>. 0,3 p cada uno (0,6 p)."
+    "<mark class=\"clave-criterio\">Cilindros largos y no ramificados</mark> compuestos por <mark class=\"clave-criterio\">tubulina</mark> (0,8 p). <span class=\"redactado\">Las paredes del cilindro están formadas por 13 protofilamentos de dímeros de α- y β-tubulina; se alargan y se acortan añadiendo o quitando tubulina, y se organizan a partir del centrosoma.</span>",
+    "Forman el <mark class=\"clave-criterio\">huso mitótico</mark>, los <mark class=\"clave-criterio\">centriolos</mark>, los <mark class=\"clave-criterio\">cilios</mark> y los <mark class=\"clave-criterio\">flagelos</mark>. Solo tres, a 0,2 p (0,6 p). <span class=\"redactado\">Además, sirven de raíles por los que se desplazan las vesículas y los orgánulos.</span>",
+    "<mark class=\"clave-criterio\">Microfilamentos (filamentos de actina)</mark> y <mark class=\"clave-criterio\">filamentos intermedios</mark>. 0,3 p cada uno (0,6 p). <span class=\"redactado\">Los microfilamentos de actina intervienen en la contracción muscular y la citocinesis; los filamentos intermedios dan resistencia mecánica, como la queratina.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 4",
@@ -45771,8 +45771,8 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Defina traducción [0,5]. Describa la iniciación, elongación o alargamiento y terminación de la traducción [1,5].",
    "c": [
-    "Traducción: síntesis de una <mark class=\"clave-criterio\">secuencia de aminoácidos</mark> con la información de la <mark class=\"clave-criterio\">secuencia de bases del ARNm</mark> (0,5 p).",
-    "Se indicará cómo <mark class=\"clave-criterio\">se inicia, se elonga y termina</mark>; deben mencionarse la <mark class=\"clave-criterio\">unión del ARNm al ribosoma</mark>, el <mark class=\"clave-criterio\">ARNt</mark>, el <mark class=\"clave-criterio\">enlace peptídico</mark> y el <mark class=\"clave-criterio\">polipéptido</mark> (1,5 p)."
+    "Traducción: síntesis de una <mark class=\"clave-criterio\">secuencia de aminoácidos</mark> con la información de la <mark class=\"clave-criterio\">secuencia de bases del ARNm</mark> (0,5 p). <span class=\"redactado\">Ocurre en los ribosomas, libres o unidos al RER.</span>",
+    "Se indicará cómo <mark class=\"clave-criterio\">se inicia, se elonga y termina</mark>; deben mencionarse la <mark class=\"clave-criterio\">unión del ARNm al ribosoma</mark>, el <mark class=\"clave-criterio\">ARNt</mark>, el <mark class=\"clave-criterio\">enlace peptídico</mark> y el <mark class=\"clave-criterio\">polipéptido</mark> (1,5 p). <span class=\"redactado\">Iniciación: la subunidad menor del ribosoma se une al ARNm y, en el codón de inicio AUG, el ARNt de la metionina; después se une la subunidad mayor. Elongación: entra en el sitio A el ARNt cuyo anticodón es complementario del codón, se forma el enlace peptídico y el ribosoma avanza un codón. Terminación: al llegar a un codón de terminación, un factor de liberación libera la proteína y el ribosoma se separa.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 4",
@@ -45877,10 +45877,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Cite una función de los linfocitos B [0,3], dos de los linfocitos T [0,6] y dos de los macrófagos [0,6] en la respuesta inmunitaria. Defina memoria inmunológica [0,5].",
    "c": [
-    "Linfocitos B: <mark class=\"clave-criterio\">producción de anticuerpos</mark> (0,3 p).",
-    "Linfocitos T: <mark class=\"clave-criterio\">activan los macrófagos</mark>, <mark class=\"clave-criterio\">ayudan a los linfocitos B</mark>, <mark class=\"clave-criterio\">destruyen células cancerosas o infectadas</mark>. Solo dos, a 0,3 p (0,6 p).",
-    "Macrófagos: <mark class=\"clave-criterio\">reconocimiento de antígenos</mark>, <mark class=\"clave-criterio\">activan la diferenciación de linfocitos</mark>, <mark class=\"clave-criterio\">eliminan antígenos</mark>. Solo dos, a 0,3 p (0,6 p).",
-    "Memoria inmunológica: capacidad de <mark class=\"clave-criterio\">reconocer un antígeno al que ya se ha estado expuesto</mark> y responder de forma <mark class=\"clave-criterio\">más rápida y efectiva</mark> (0,5 p)."
+    "Linfocitos B: <mark class=\"clave-criterio\">producción de anticuerpos</mark> (0,3 p). <span class=\"redactado\">Al activarse, los linfocitos B se diferencian en células plasmáticas, que secretan los anticuerpos, y en células de memoria.</span>",
+    "Linfocitos T: <mark class=\"clave-criterio\">activan los macrófagos</mark>, <mark class=\"clave-criterio\">ayudan a los linfocitos B</mark>, <mark class=\"clave-criterio\">destruyen células cancerosas o infectadas</mark>. Solo dos, a 0,3 p (0,6 p). <span class=\"redactado\">Los T colaboradores lo hacen liberando citocinas; los T citotóxicos destruyen las células que presentan el antígeno unido al MHC.</span>",
+    "Macrófagos: <mark class=\"clave-criterio\">reconocimiento de antígenos</mark>, <mark class=\"clave-criterio\">activan la diferenciación de linfocitos</mark>, <mark class=\"clave-criterio\">eliminan antígenos</mark>. Solo dos, a 0,3 p (0,6 p). <span class=\"redactado\">El macrófago fagocita el patógeno, lo degrada y presenta sus fragmentos unidos a moléculas del MHC a los linfocitos T colaboradores.</span>",
+    "Memoria inmunológica: capacidad de <mark class=\"clave-criterio\">reconocer un antígeno al que ya se ha estado expuesto</mark> y responder de forma <mark class=\"clave-criterio\">más rápida y efectiva</mark> (0,5 p). <span class=\"redactado\">Se debe a los linfocitos B y T de memoria, de vida larga, que se forman en la respuesta primaria; es la base de la vacunación.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 4",
@@ -45934,7 +45934,7 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>I.</b> Exponga dos de las ventajas que supone para los animales el hecho de tener abundantes reservas de grasas y escasas reservas de polisacáridos. Razone la respuesta [1]. <i>(1 punto)</i><br><br><b>II.</b> El análisis del ácido nucleico de un virus ha dado los siguientes resultados para la composición de nucleótidos: A, 26%; G, 33%; T, 14% y C, 38%. ¿Qué tipo de ácido nucleico tiene este virus? [0,5]. ¿Se podría combatir una infección causada por ese virus con un antibiótico que impidiese la actividad de los ribosomas? [0,5]. Razone las respuestas. <i>(1 punto)</i>",
    "puntos": 2,
    "c": [
-    "<b>I.</b> Las grasas tienen <mark class=\"clave-criterio\">menor densidad</mark>, lo que <mark class=\"clave-criterio\">favorece la movilidad</mark>; tienen <mark class=\"clave-criterio\">mayor rendimiento energético</mark> a igualdad de volumen; son mejor <mark class=\"clave-criterio\">aislante térmico</mark>. Solo dos, a 0,5 p (1 p).",
+    "<b>I.</b> Las grasas tienen <mark class=\"clave-criterio\">menor densidad</mark>, lo que <mark class=\"clave-criterio\">favorece la movilidad</mark>; tienen <mark class=\"clave-criterio\">mayor rendimiento energético</mark> a igualdad de volumen; son mejor <mark class=\"clave-criterio\">aislante térmico</mark>. Solo dos, a 0,5 p (1 p). <span class=\"redactado\">Un gramo de grasa aporta unas 9 kcal, más del doble que un gramo de glúcido; además, la grasa se almacena sin agua, mientras que el glucógeno retiene mucha, así que para la misma energía las reservas de grasa pesan mucho menos. Los animales, que se desplazan, se benefician de ello.</span>",
     "<b>II.</b> <mark class=\"clave-criterio\">ADN</mark>, porque <mark class=\"clave-criterio\">contiene timina</mark> (0,25 p); <mark class=\"clave-criterio\">monocatenario</mark>, por las <mark class=\"clave-criterio\">proporciones de bases</mark> <span class=\"redactado\">A ≠ T y G ≠ C</span> (0,25 p).",
     "<b>II.</b> No: los antibióticos <mark class=\"clave-criterio\">no sirven contra los virus</mark>, porque estos <mark class=\"clave-criterio\">no tienen ribosomas</mark> (0,5 p)."
    ],
@@ -45963,8 +45963,8 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>I.</b> Ordene cronológicamente los siguientes procesos: a) migración de cromátidas hermanas a los polos; b) ordenación de los cromosomas en el plano ecuatorial; c) desintegración de la envoltura nuclear; d) condensación de la cromatina para formar los cromosomas y e) descondensación de los cromosomas [1]. <i>(1 punto)</i><br><br><b>II.</b> Explique razonadamente por qué la secuencia de los nucleótidos de una molécula de ADN determina que tengamos el pelo liso o rizado o que el color de los guisantes sea amarillo o verde [1]. <i>(1 punto)</i>",
    "puntos": 2,
    "c": [
-    "<b>I.</b> Orden: <mark class=\"clave-criterio\">d – c – b – a – e</mark>. 0,2 p cada uno (1 p).",
-    "<b>II.</b> Cualquier respuesta que relacione <mark class=\"clave-criterio\">secuencia de nucleótidos</mark>, <mark class=\"clave-criterio\">código genético</mark>, <mark class=\"clave-criterio\">secuencia de aminoácidos</mark> y <mark class=\"clave-criterio\">caracteres hereditarios</mark> (no es necesario explicar la síntesis de proteínas) (1 p)."
+    "<b>I.</b> Orden: <mark class=\"clave-criterio\">d – c – b – a – e</mark>. 0,2 p cada uno (1 p). <span class=\"redactado\">Profase: se condensa la cromatina y, al final, desaparece la envoltura nuclear; metafase: los cromosomas se alinean en la placa ecuatorial; anafase: se separan las cromátidas hermanas; telofase: los cromosomas se descondensan y se forman las nuevas envolturas.</span>",
+    "<b>II.</b> Cualquier respuesta que relacione <mark class=\"clave-criterio\">secuencia de nucleótidos</mark>, <mark class=\"clave-criterio\">código genético</mark>, <mark class=\"clave-criterio\">secuencia de aminoácidos</mark> y <mark class=\"clave-criterio\">caracteres hereditarios</mark> (no es necesario explicar la síntesis de proteínas) (1 p). <span class=\"redactado\">La secuencia de nucleótidos de un gen se transcribe a ARNm, y este se traduce, según el código genético, en una secuencia de aminoácidos; la proteína resultante (una enzima o una proteína estructural, como la queratina del pelo) determina el carácter. Distintos alelos dan proteínas distintas y, por tanto, caracteres distintos.</span>"
    ],
    "isNew": false,
    "competencial": false,
@@ -45992,11 +45992,11 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Indique los componentes de un nucleótido [0,3]. Nombre las bases nitrogenadas derivadas de la purina y de la pirimidina [0,5]. ¿Qué base nitrogenada es específica del ADN y cuál del ARN? [0,2]. Cite los tipos de enlaces que soportan la estructura de los ácidos nucleicos [0,4]. Indique la función de los distintos tipos de ARN en la expresión génica [0,6].",
    "c": [
-    "<mark class=\"clave-criterio\">Base nitrogenada, ribosa o desoxirribosa y ácido fosfórico</mark>. 0,1 p cada uno (0,3 p).",
-    "Púricas: <mark class=\"clave-criterio\">adenina y guanina</mark> (0,2 p). Pirimidínicas: <mark class=\"clave-criterio\">timina, citosina y uracilo</mark> (0,3 p).",
+    "<mark class=\"clave-criterio\">Base nitrogenada, ribosa o desoxirribosa y ácido fosfórico</mark>. 0,1 p cada uno (0,3 p). <span class=\"redactado\">La base se une al carbono 1′ de la pentosa y el fosfato, al carbono 5′.</span>",
+    "Púricas: <mark class=\"clave-criterio\">adenina y guanina</mark> (0,2 p). Pirimidínicas: <mark class=\"clave-criterio\">timina, citosina y uracilo</mark> (0,3 p). <span class=\"redactado\">Las púricas tienen dos anillos y las pirimidínicas, uno.</span>",
     "ADN: <mark class=\"clave-criterio\">timina</mark>. ARN: <mark class=\"clave-criterio\">uracilo</mark> (0,2 p).",
-    "Enlaces: <mark class=\"clave-criterio\">fosfodiéster 3′-5′</mark> y <mark class=\"clave-criterio\">puentes de hidrógeno</mark>. 0,2 p cada uno (0,4 p).",
-    "ARNm: <mark class=\"clave-criterio\">contiene y transporta el mensaje genético</mark>; ARNr: <mark class=\"clave-criterio\">construcción de los ribosomas</mark>; ARNt: <mark class=\"clave-criterio\">transporta los aminoácidos</mark> de forma específica (0,6 p)."
+    "Enlaces: <mark class=\"clave-criterio\">fosfodiéster 3′-5′</mark> y <mark class=\"clave-criterio\">puentes de hidrógeno</mark>. 0,2 p cada uno (0,4 p). <span class=\"redactado\">Los enlaces fosfodiéster unen los nucleótidos de una misma cadena; los puentes de hidrógeno unen las bases complementarias (A-T por dos, G-C por tres).</span>",
+    "ARNm: <mark class=\"clave-criterio\">contiene y transporta el mensaje genético</mark>; ARNr: <mark class=\"clave-criterio\">construcción de los ribosomas</mark>; ARNt: <mark class=\"clave-criterio\">transporta los aminoácidos</mark> de forma específica (0,6 p). <span class=\"redactado\">El ARNt tiene forma de hoja de trébol, con el anticodón en un extremo y el aminoácido en el otro; el ARNr también cataliza la formación del enlace peptídico.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 5",
@@ -46045,9 +46045,9 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Realice un esquema general de cómo se expresa la información genética desde ADN a proteína [0,5]. Describa los dos procesos implicados en esta expresión [1,5].",
    "c": [
-    "Esquema: la <mark class=\"clave-criterio\">transcripción del ADN da lugar al ARNm</mark> y la <mark class=\"clave-criterio\">traducción del ARNm da lugar a un polipéptido</mark> (0,5 p).",
-    "Transcripción: copia de <mark class=\"clave-criterio\">una sola cadena</mark> del ADN, acción de la <mark class=\"clave-criterio\">ARN polimerasa</mark>, <mark class=\"clave-criterio\">señales de inicio y de terminación</mark> (0,75 p).",
-    "Traducción: <mark class=\"clave-criterio\">iniciación, elongación y terminación</mark>, mencionando <mark class=\"clave-criterio\">unión del ARNm al ribosoma</mark>, <mark class=\"clave-criterio\">ARNt</mark>, <mark class=\"clave-criterio\">enlace peptídico</mark> y <mark class=\"clave-criterio\">polipéptido</mark> (0,75 p)."
+    "Esquema: la <mark class=\"clave-criterio\">transcripción del ADN da lugar al ARNm</mark> y la <mark class=\"clave-criterio\">traducción del ARNm da lugar a un polipéptido</mark> (0,5 p). <span class=\"redactado\">Es el dogma central de la biología molecular: ADN → ARN → proteína.</span>",
+    "Transcripción: copia de <mark class=\"clave-criterio\">una sola cadena</mark> del ADN, acción de la <mark class=\"clave-criterio\">ARN polimerasa</mark>, <mark class=\"clave-criterio\">señales de inicio y de terminación</mark> (0,75 p). <span class=\"redactado\">La ARN polimerasa se une al promotor, separa las dos cadenas y lee la cadena molde en sentido 3'→5', sintetizando el ARN en sentido 5'→3'; en eucariotas, el ARNm madura en el núcleo (se eliminan los intrones) antes de salir al citoplasma.</span>",
+    "Traducción: <mark class=\"clave-criterio\">iniciación, elongación y terminación</mark>, mencionando <mark class=\"clave-criterio\">unión del ARNm al ribosoma</mark>, <mark class=\"clave-criterio\">ARNt</mark>, <mark class=\"clave-criterio\">enlace peptídico</mark> y <mark class=\"clave-criterio\">polipéptido</mark> (0,75 p). <span class=\"redactado\">El ribosoma lee el ARNm codón a codón, desde el AUG hasta un codón de terminación; los ARNt aportan los aminoácidos, que se unen por enlaces peptídicos.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 5",
@@ -46071,10 +46071,10 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>La imagen representa el mecanismo de acción de una enzima en una célula de mamífero. En relación con ella responda las siguientes preguntas:</b><br>a) ¿Qué representan las figuras señaladas con las letras A, B y C? [0,3]. Explique qué sucede en la figura señalada con el número 2 [0,4]. Indique lo que ocurre en el área señalada con el número 3 [0,3].<br>b) Explique cómo se realiza la reacción a las siguientes temperaturas: 25 ºC, 37 ºC y 60 ºC [0,6]. Defina pH óptimo para una enzima [0,4].",
    "c": [
     "a) A: <mark class=\"clave-criterio\">sustrato</mark>; B: <mark class=\"clave-criterio\">enzima</mark>; C: <mark class=\"clave-criterio\">producto</mark>. 0,1 p cada una (0,3 p).",
-    "a) En 2 se forma el <mark class=\"clave-criterio\">complejo activado</mark> con la <mark class=\"clave-criterio\">unión del sustrato a la enzima</mark> (0,4 p).",
-    "a) En 3 se <mark class=\"clave-criterio\">liberan los productos</mark> y la <mark class=\"clave-criterio\">enzima queda libre</mark> (0,3 p).",
-    "b) A 25 ºC la reacción <mark class=\"clave-criterio\">se ralentiza</mark> y se libera poco producto (0,2 p); a 37 ºC la mayoría de las enzimas están a <mark class=\"clave-criterio\">pleno rendimiento</mark> (0,2 p); a 60 ºC la enzima está <mark class=\"clave-criterio\">desnaturalizada</mark> y no actúa (0,2 p).",
-    "b) pH óptimo: aquel en el que la <mark class=\"clave-criterio\">actividad enzimática es máxima</mark> (0,4 p)."
+    "a) En 2 se forma el <mark class=\"clave-criterio\">complejo activado</mark> con la <mark class=\"clave-criterio\">unión del sustrato a la enzima</mark> (0,4 p). <span class=\"redactado\">Al unirse, la enzima y el sustrato forman el complejo enzima-sustrato, que disminuye la energía de activación.</span>",
+    "a) En 3 se <mark class=\"clave-criterio\">liberan los productos</mark> y la <mark class=\"clave-criterio\">enzima queda libre</mark> (0,3 p). <span class=\"redactado\">La enzima queda inalterada y puede volver a actuar; por eso basta con poca cantidad.</span>",
+    "b) A 25 ºC la reacción <mark class=\"clave-criterio\">se ralentiza</mark> y se libera poco producto (0,2 p); a 37 ºC la mayoría de las enzimas están a <mark class=\"clave-criterio\">pleno rendimiento</mark> (0,2 p); a 60 ºC la enzima está <mark class=\"clave-criterio\">desnaturalizada</mark> y no actúa (0,2 p). <span class=\"redactado\">37 °C es la temperatura del cuerpo humano, y por eso es la óptima de muchas de sus enzimas. A 25 °C las moléculas se mueven más despacio y chocan menos; a 60 °C el calor rompe los enlaces débiles que mantienen la forma de la enzima.</span>",
+    "b) pH óptimo: aquel en el que la <mark class=\"clave-criterio\">actividad enzimática es máxima</mark> (0,4 p). <span class=\"redactado\">Cada enzima tiene el suyo; por ejemplo, la pepsina del estómago actúa hacia pH 2 y la tripsina del intestino, hacia 8.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 5",
@@ -46100,9 +46100,9 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Defina los esteroides [0,4] y cite tres ejemplos [0,6]. Indique dos de las funciones biológicas fundamentales de los esteroides [1].",
    "c": [
-    "Esteroide: <mark class=\"clave-criterio\">lípido insaponificable</mark>, <mark class=\"clave-criterio\">sin ácidos grasos</mark> y con <mark class=\"clave-criterio\">estructura cíclica</mark> (0,4 p).",
-    "Ejemplos: <mark class=\"clave-criterio\">colesterol</mark>, <mark class=\"clave-criterio\">vitamina D</mark>, <mark class=\"clave-criterio\">hormonas sexuales</mark>, etc. Solo tres, a 0,2 p (0,6 p).",
-    "Funciones: <mark class=\"clave-criterio\">componentes de membranas</mark>, <mark class=\"clave-criterio\">precursores de vitaminas y hormonas</mark>. Solo dos, a 0,5 p (1 p)."
+    "Esteroide: <mark class=\"clave-criterio\">lípido insaponificable</mark>, <mark class=\"clave-criterio\">sin ácidos grasos</mark> y con <mark class=\"clave-criterio\">estructura cíclica</mark> (0,4 p). <span class=\"redactado\">Derivan del ciclopentanoperhidrofenantreno, una estructura de cuatro anillos; como no tienen ácidos grasos, no forman jabones.</span>",
+    "Ejemplos: <mark class=\"clave-criterio\">colesterol</mark>, <mark class=\"clave-criterio\">vitamina D</mark>, <mark class=\"clave-criterio\">hormonas sexuales</mark>, etc. Solo tres, a 0,2 p (0,6 p). <span class=\"redactado\">Otros ejemplos son los ácidos biliares, que emulsionan las grasas en el intestino, y los corticoides, como el cortisol.</span>",
+    "Funciones: <mark class=\"clave-criterio\">componentes de membranas</mark>, <mark class=\"clave-criterio\">precursores de vitaminas y hormonas</mark>. Solo dos, a 0,5 p (1 p). <span class=\"redactado\">El colesterol regula la fluidez de las membranas animales, y de él derivan las hormonas sexuales (testosterona, estrógenos), los corticoides y la vitamina D.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 5",
@@ -46176,9 +46176,9 @@ window.BIOCELIA_HISTORICO = {
    "competencial": true,
    "q": "<b>En relación con el esquema adjunto, conteste las siguientes cuestiones:</b><br>a) ¿Cómo se denominan los procesos bioquímicos numerados del 1 al 4 [0,6] y en qué estructuras u orgánulos de las células eucarióticas se desarrollan? [0,4].<br>b) En ciertas condiciones, determinadas células humanas llevan a cabo el proceso número 3. Indique el nombre de las células y explique dicho proceso [1].",
    "c": [
-    "a) 1: <mark class=\"clave-criterio\">glucólisis</mark> (<mark class=\"clave-criterio\">citosol</mark>); 2: <mark class=\"clave-criterio\">ciclo de Krebs o respiración celular</mark> (<mark class=\"clave-criterio\">mitocondria</mark>); 3: <mark class=\"clave-criterio\">fermentación láctica</mark> (citosol); 4: <mark class=\"clave-criterio\">fermentación alcohólica</mark> (citosol). 0,15 p cada proceso y 0,1 p cada localización (1 p).",
+    "a) 1: <mark class=\"clave-criterio\">glucólisis</mark> (<mark class=\"clave-criterio\">citosol</mark>); 2: <mark class=\"clave-criterio\">ciclo de Krebs o respiración celular</mark> (<mark class=\"clave-criterio\">mitocondria</mark>); 3: <mark class=\"clave-criterio\">fermentación láctica</mark> (citosol); 4: <mark class=\"clave-criterio\">fermentación alcohólica</mark> (citosol). 0,15 p cada proceso y 0,1 p cada localización (1 p). <span class=\"redactado\">En el ciclo de Krebs, el pirúvico se transforma primero en acetil-CoA en la matriz mitocondrial; la fermentación alcohólica es propia, por ejemplo, de las levaduras.</span>",
     "b) Células: <mark class=\"clave-criterio\">fibras musculares</mark> (músculo estriado) (0,2 p).",
-    "b) La fermentación láctica es un proceso <mark class=\"clave-criterio\">oxidativo incompleto</mark> por <mark class=\"clave-criterio\">falta de oxígeno</mark>: el <mark class=\"clave-criterio\">piruvato se reduce a lactato</mark> y se <mark class=\"clave-criterio\">regenera NAD⁺</mark> (0,8 p)."
+    "b) La fermentación láctica es un proceso <mark class=\"clave-criterio\">oxidativo incompleto</mark> por <mark class=\"clave-criterio\">falta de oxígeno</mark>: el <mark class=\"clave-criterio\">piruvato se reduce a lactato</mark> y se <mark class=\"clave-criterio\">regenera NAD⁺</mark> (0,8 p). <span class=\"redactado\">Cuando el ejercicio es intenso y no llega suficiente O₂, la cadena respiratoria no reoxida el NADH; al reducir el pirúvico a lactato, el NADH vuelve a NAD⁺ y la glucólisis puede seguir produciendo 2 ATP por glucosa.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 5",
@@ -46203,7 +46203,7 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>I.</b> ¿Por qué las moléculas lipídicas pueden, en general, entrar o salir de las células atravesando sin dificultad las membranas celulares y, sin embargo, los iones aún siendo mucho más pequeños no? Dé una explicación razonada a este hecho [1]. <i>(1 punto)</i><br><br><b>II.</b> ¿Por qué un virus permanece inerte si no está en contacto con una célula hospedadora [0,2]. Proporcione dos argumentos a favor y dos en contra de que los virus sean considerados organismos vivos [0,8]. <i>(1 punto)</i>",
    "puntos": 2,
    "c": [
-    "<b>I.</b> Los lípidos, por su <mark class=\"clave-criterio\">carácter lipofílico</mark>, atraviesan las membranas por <mark class=\"clave-criterio\">difusión simple</mark>, ya que estas están formadas <mark class=\"clave-criterio\">fundamentalmente por lípidos</mark>; los iones, <mark class=\"clave-criterio\">cargados y lipófobos</mark>, requieren <mark class=\"clave-criterio\">proteínas canal o transportadoras</mark> (1 p).",
+    "<b>I.</b> Los lípidos, por su <mark class=\"clave-criterio\">carácter lipofílico</mark>, atraviesan las membranas por <mark class=\"clave-criterio\">difusión simple</mark>, ya que estas están formadas <mark class=\"clave-criterio\">fundamentalmente por lípidos</mark>; los iones, <mark class=\"clave-criterio\">cargados y lipófobos</mark>, requieren <mark class=\"clave-criterio\">proteínas canal o transportadoras</mark> (1 p). <span class=\"redactado\">El interior de la bicapa es apolar y repele las partículas con carga, rodeadas además de moléculas de agua; los iones pasan por canales iónicos o mediante bombas, como la de Na⁺/K⁺.</span>",
     "<b>II.</b> Por la <mark class=\"clave-criterio\">ausencia de maquinaria biosintética</mark> (0,2 p).",
     "<b>II.</b> A favor: <mark class=\"clave-criterio\">dirigen su propia reproducción</mark>, <mark class=\"clave-criterio\">pueden evolucionar</mark>, <mark class=\"clave-criterio\">composición química como la de los seres vivos</mark>. Solo dos, a 0,2 p (0,4 p).",
     "<b>II.</b> En contra: son <mark class=\"clave-criterio\">acelulares</mark>, <mark class=\"clave-criterio\">no tienen metabolismo propio</mark>, <mark class=\"clave-criterio\">necesitan células vivas para reproducirse</mark>, no se nutren. Solo dos, a 0,2 p (0,4 p)."
@@ -46233,11 +46233,11 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>I.</b> Cuando se fríe o se cuece un huevo la clara cambia su aspecto y consistencia. Proponga una explicación razonada para dichos cambios [0,5]. Explique por qué se podrían desencadenar cambios semejantes con unas gotas de ácido clorhídrico [0,5]. <i>(1 punto)</i><br><br><b>II.</b> Una mujer daltónica se hace la siguiente pregunta: ¿cómo es posible que yo sea daltónica si mi madre y mi abuela no lo son? Proponga una explicación a este caso [0,5]. El marido de esta mujer tiene visión normal, ¿puede la pareja tener hijas daltónicas? [0,5]. Realice el/los cruzamiento(s) correspondiente(s) y razone las respuestas. <i>(1 punto)</i>",
    "puntos": 2,
    "c": [
-    "<b>I.</b> <mark class=\"clave-criterio\">Desnaturalización de las proteínas</mark> por efecto de la <mark class=\"clave-criterio\">temperatura</mark> (0,5 p).",
-    "<b>I.</b> Desnaturalización de las proteínas por <mark class=\"clave-criterio\">variación del pH</mark> (0,5 p).",
+    "<b>I.</b> <mark class=\"clave-criterio\">Desnaturalización de las proteínas</mark> por efecto de la <mark class=\"clave-criterio\">temperatura</mark> (0,5 p). <span class=\"redactado\">La albúmina y otras proteínas de la clara se despliegan al romperse sus enlaces débiles, y quedan enredadas unas con otras: pierden su solubilidad y la clara se vuelve blanca y sólida.</span>",
+    "<b>I.</b> Desnaturalización de las proteínas por <mark class=\"clave-criterio\">variación del pH</mark> (0,5 p). <span class=\"redactado\">El exceso de H⁺ cambia las cargas de los aminoácidos y rompe las interacciones iónicas y los puentes de hidrógeno que mantienen la forma de las proteínas. En los dos casos no se rompen los enlaces peptídicos.</span>",
     "<b>II.</b> Se basa en que el daltonismo es <mark class=\"clave-criterio\">recesivo ligado al cromosoma X</mark>.",
-    "<b>II.</b> Es posible si <mark class=\"clave-criterio\">la madre es portadora y el padre es daltónico</mark> (0,3 p), con el cruzamiento (0,2 p).",
-    "<b>II.</b> Las hijas <mark class=\"clave-criterio\">no serán daltónicas pero sí portadoras</mark> (0,3 p), con el cruzamiento (0,2 p)."
+    "<b>II.</b> Es posible si <mark class=\"clave-criterio\">la madre es portadora y el padre es daltónico</mark> (0,3 p), con el cruzamiento (0,2 p). <span class=\"redactado\">La mujer es XᵈXᵈ: ha recibido un Xᵈ de cada progenitor. Su padre, con un solo X, es daltónico; su madre (XᴰXᵈ) es portadora, igual que pudo serlo su abuela.</span>",
+    "<b>II.</b> Las hijas <mark class=\"clave-criterio\">no serán daltónicas pero sí portadoras</mark> (0,3 p), con el cruzamiento (0,2 p). <span class=\"redactado\">Las hijas reciben siempre el Xᴰ del padre y un Xᵈ de la madre (XᴰXᵈ); en cambio, todos los hijos varones serán daltónicos (XᵈY), porque reciben su único X de la madre.</span>"
    ],
    "isNew": false,
    "competencial": false,
@@ -46265,8 +46265,8 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Explique la Teoría Endosimbiótica sobre la presencia de mitocondrias y cloroplastos en las células eucarióticas [1]. ¿Qué función realiza cada uno de estos orgánulos y qué reacciones principales se producen en ellos? [1].",
    "c": [
-    "Las <mark class=\"clave-criterio\">mitocondrias proceden de bacterias aerobias</mark> y los <mark class=\"clave-criterio\">cloroplastos de bacterias fotosintéticas</mark>, que establecieron una <mark class=\"clave-criterio\">relación simbiótica</mark> con células eucarióticas ancestrales (1 p).",
-    "Mitocondria: <mark class=\"clave-criterio\">respiración celular</mark> (ciclo de Krebs, β-oxidación, transporte de electrones, <mark class=\"clave-criterio\">fosforilación oxidativa</mark>). Cloroplasto: <mark class=\"clave-criterio\">fotosíntesis</mark> (fotólisis del agua, transporte de electrones, síntesis de ATP y <mark class=\"clave-criterio\">fijación del CO₂</mark>). 0,5 p cada orgánulo (1 p)."
+    "Las <mark class=\"clave-criterio\">mitocondrias proceden de bacterias aerobias</mark> y los <mark class=\"clave-criterio\">cloroplastos de bacterias fotosintéticas</mark>, que establecieron una <mark class=\"clave-criterio\">relación simbiótica</mark> con células eucarióticas ancestrales (1 p). <span class=\"redactado\">Una célula ancestral fagocitó esas bacterias sin digerirlas, y ambas salieron beneficiadas. Lo apoyan la doble membrana de estos orgánulos, su ADN circular, sus ribosomas 70S y su división por bipartición, rasgos propios de bacterias. La propuso Lynn Margulis.</span>",
+    "Mitocondria: <mark class=\"clave-criterio\">respiración celular</mark> (ciclo de Krebs, β-oxidación, transporte de electrones, <mark class=\"clave-criterio\">fosforilación oxidativa</mark>). Cloroplasto: <mark class=\"clave-criterio\">fotosíntesis</mark> (fotólisis del agua, transporte de electrones, síntesis de ATP y <mark class=\"clave-criterio\">fijación del CO₂</mark>). 0,5 p cada orgánulo (1 p). <span class=\"redactado\">En la matriz mitocondrial ocurren el ciclo de Krebs y la β-oxidación; en la membrana interna, la cadena respiratoria y la ATP sintasa. En el cloroplasto, la fase luminosa ocurre en los tilacoides y el ciclo de Calvin, en el estroma.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 6",
@@ -46289,10 +46289,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Defina los términos gen [0,5] y mutación [0,5]. Cite dos agentes mutagénicos [0,5]. Describa la importancia de las mutaciones en la evolución [0,5].",
    "c": [
-    "Gen: <mark class=\"clave-criterio\">fragmento de ADN que codifica una determinada proteína</mark> (0,5 p).",
-    "Mutación: <mark class=\"clave-criterio\">cambio en el material genético</mark> no debido a recombinación ni segregación (0,5 p).",
-    "Agentes: <mark class=\"clave-criterio\">rayos UV</mark>, <mark class=\"clave-criterio\">radiaciones ionizantes</mark>, <mark class=\"clave-criterio\">agentes químicos</mark>, agentes biológicos. Solo dos, a 0,25 p (0,5 p).",
-    "Permiten <mark class=\"clave-criterio\">aumentar la variabilidad genética</mark> (0,5 p)."
+    "Gen: <mark class=\"clave-criterio\">fragmento de ADN que codifica una determinada proteína</mark> (0,5 p). <span class=\"redactado\">También puede codificar un ARN (ARNt, ARNr); sus formas alternativas son los alelos.</span>",
+    "Mutación: <mark class=\"clave-criterio\">cambio en el material genético</mark> no debido a recombinación ni segregación (0,5 p). <span class=\"redactado\">Puede afectar a un gen, a la estructura de un cromosoma o al número de cromosomas; solo se hereda si afecta a las células germinales.</span>",
+    "Agentes: <mark class=\"clave-criterio\">rayos UV</mark>, <mark class=\"clave-criterio\">radiaciones ionizantes</mark>, <mark class=\"clave-criterio\">agentes químicos</mark>, agentes biológicos. Solo dos, a 0,25 p (0,5 p). <span class=\"redactado\">Por ejemplo, los rayos UV forman dímeros de timina; los rayos X y gamma rompen el ADN; sustancias como el benzopireno del tabaco alteran las bases.</span>",
+    "Permiten <mark class=\"clave-criterio\">aumentar la variabilidad genética</mark> (0,5 p). <span class=\"redactado\">Crean alelos nuevos; los más favorables en un ambiente aumentan su frecuencia por selección natural, y así cambian las poblaciones con el tiempo.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 6",
@@ -46315,11 +46315,11 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Describa el ciclo lítico de un bacteriófago [2].",
    "c": [
-    "<mark class=\"clave-criterio\">Receptores específicos</mark> en la superficie de la bacteria a los que se une el fago (0,4 p).",
-    "<mark class=\"clave-criterio\">Inyección del ácido nucleico</mark> vírico por la vaina contráctil (0,4 p).",
-    "Uso de la <mark class=\"clave-criterio\">maquinaria biosintética de la bacteria</mark> para copiar el ácido nucleico y la cápsida (0,4 p).",
+    "<mark class=\"clave-criterio\">Receptores específicos</mark> en la superficie de la bacteria a los que se une el fago (0,4 p). <span class=\"redactado\">Las fibras de la cola reconocen receptores de la pared bacteriana; cada fago solo infecta a ciertas bacterias.</span>",
+    "<mark class=\"clave-criterio\">Inyección del ácido nucleico</mark> vírico por la vaina contráctil (0,4 p). <span class=\"redactado\">La vaina se contrae y el ADN entra en la bacteria; la cápsida queda fuera.</span>",
+    "Uso de la <mark class=\"clave-criterio\">maquinaria biosintética de la bacteria</mark> para copiar el ácido nucleico y la cápsida (0,4 p). <span class=\"redactado\">El virus destruye el ADN bacteriano y dirige la fabricación de sus propias moléculas con los ribosomas, las enzimas y el ATP de la bacteria.</span>",
     "<mark class=\"clave-criterio\">Ensamblaje</mark> de los componentes (0,4 p).",
-    "<mark class=\"clave-criterio\">Rotura de la célula por enzimas líticas</mark> y salida de los nuevos fagos (0,4 p)."
+    "<mark class=\"clave-criterio\">Rotura de la célula por enzimas líticas</mark> y salida de los nuevos fagos (0,4 p). <span class=\"redactado\">La lisozima del virus rompe la pared bacteriana y la bacteria estalla (lisis), liberando cientos de virus.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2012 · Examen 6",
@@ -46478,7 +46478,7 @@ window.BIOCELIA_HISTORICO = {
    "c": [
     "<b>I.</b> <mark class=\"clave-criterio\">Representación gráfica</mark> (0,5 p).",
     "<b>I.</b> El aumento de temperatura <mark class=\"clave-criterio\">aumenta la velocidad</mark> porque mejora la formación de <mark class=\"clave-criterio\">complejos enzima-sustrato</mark>; a partir de una temperatura <span class=\"redactado\">la óptima, unos 40 ºC</span> la velocidad <mark class=\"clave-criterio\">disminuye por desnaturalización</mark> de la enzima (0,5 p).",
-    "<b>II.</b> Inhibe la <mark class=\"clave-criterio\">cadena de transporte de electrones</mark>, imprescindible para la <mark class=\"clave-criterio\">producción de ATP</mark> en la mitocondria: los peces mueren al <mark class=\"clave-criterio\">no poder fabricar ATP</mark> (1 p)."
+    "<b>II.</b> Inhibe la <mark class=\"clave-criterio\">cadena de transporte de electrones</mark>, imprescindible para la <mark class=\"clave-criterio\">producción de ATP</mark> en la mitocondria: los peces mueren al <mark class=\"clave-criterio\">no poder fabricar ATP</mark> (1 p). <span class=\"redactado\">Sin transporte de electrones no se bombean protones y la ATP sintasa no forma ATP; el pez solo dispone del poco ATP de la glucólisis, y mueren primero los órganos que más energía gastan, como el cerebro y el corazón.</span>"
    ],
    "isNew": false,
    "competencial": false,
@@ -46508,9 +46508,9 @@ window.BIOCELIA_HISTORICO = {
     "<b>I.</b> <mark class=\"clave-criterio\">16 células</mark>: tras dos mitosis hay <mark class=\"clave-criterio\">4 células</mark>, y cada una origina <mark class=\"clave-criterio\">4 por meiosis</mark> (0,5 p).",
     "<b>I.</b> <mark class=\"clave-criterio\">No son iguales a la progenitora</mark>: la meiosis es una <mark class=\"clave-criterio\">división reduccional</mark> (0,25 p).",
     "<b>I.</b> <mark class=\"clave-criterio\">No son iguales entre sí</mark>: por la <mark class=\"clave-criterio\">recombinación génica</mark> y la <mark class=\"clave-criterio\">segregación cromosómica</mark> (0,25 p).",
-    "<b>II.</b> 0,1 p cada casilla (1 p):",
+    "<b>II.</b> 0,1 p cada casilla (1 p): <span class=\"redactado\">El ARNm es complementario de la cadena molde del ADN (con U en lugar de T), y el anticodón del ARNt es complementario del codón del ARNm; por eso el anticodón tiene la misma secuencia que la cadena molde, con U en lugar de T.</span>",
     "<b>II.</b> ARNt: <mark class=\"clave-criterio\">AAC</mark>, <mark class=\"clave-criterio\">AGA</mark>, <mark class=\"clave-criterio\">CGC</mark>, CCU, <mark class=\"clave-criterio\">CUU</mark>.",
-    "<b>II.</b> ARNm: <mark class=\"clave-criterio\">UUG</mark>, UCU, <mark class=\"clave-criterio\">GCG</mark>, <mark class=\"clave-criterio\">GGA</mark>, GAA.",
+    "<b>II.</b> ARNm: <mark class=\"clave-criterio\">UUG</mark>, UCU, <mark class=\"clave-criterio\">GCG</mark>, <mark class=\"clave-criterio\">GGA</mark>, GAA. <span class=\"redactado\">Para escoger el codón se usa la tabla del código genético; por la degeneración del código, un mismo aminoácido puede tener varios codones.</span>",
     "<b>II.</b> ADN molde: AAC, <mark class=\"clave-criterio\">AGA</mark>, CGC, <mark class=\"clave-criterio\">CCT</mark>, <mark class=\"clave-criterio\">CTT</mark>."
    ],
    "isNew": false,
