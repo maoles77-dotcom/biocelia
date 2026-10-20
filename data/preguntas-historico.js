@@ -28878,10 +28878,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "a) Indique los tipos de moléculas que se pueden obtener por hidrólisis de un nucleósido y de un nucleótido [0,5]. b) Cite el nombre de tres nucleótidos que participen en procesos metabólicos [0,3]. c) ¿Qué tipos de enlaces soportan la estructura bicatenaria de los ácidos nucleicos? [0,4] d) Describa una función estructural y otra energética de los nucleótidos [0,8].",
    "c": [
-    "a) Nucleósido: <mark class=\"clave-criterio\">base nitrogenada y pentosa</mark>; nucleótido: <mark class=\"clave-criterio\">base nitrogenada, pentosa y ácido fosfórico</mark> (0,5 p).",
-    "b) <mark class=\"clave-criterio\">NAD⁺</mark>, <mark class=\"clave-criterio\">NADP⁺</mark>, <mark class=\"clave-criterio\">ATP</mark>, GTP, <mark class=\"clave-criterio\">AMPc</mark>, <mark class=\"clave-criterio\">coenzima A</mark>, <mark class=\"clave-criterio\">FAD</mark>. Tres (0,3 p).",
-    "c) <mark class=\"clave-criterio\">Fosfodiéster</mark> y <mark class=\"clave-criterio\">enlaces de hidrógeno</mark> (0,4 p).",
-    "d) Estructural: <mark class=\"clave-criterio\">forman parte de los ácidos nucleicos</mark>, cromosomas y ribosomas. Energética: <mark class=\"clave-criterio\">transfieren la energía acumulada en los enlaces fosfato</mark> (ATP) (0,8 p)."
+    "a) Nucleósido: <mark class=\"clave-criterio\">base nitrogenada y pentosa</mark>; nucleótido: <mark class=\"clave-criterio\">base nitrogenada, pentosa y ácido fosfórico</mark> (0,5 p). <span class=\"redactado\">La base se une al carbono 1′ de la pentosa por enlace N-glucosídico, y el fosfato, al carbono 5′, por enlace éster.</span>",
+    "b) <mark class=\"clave-criterio\">NAD⁺</mark>, <mark class=\"clave-criterio\">NADP⁺</mark>, <mark class=\"clave-criterio\">ATP</mark>, GTP, <mark class=\"clave-criterio\">AMPc</mark>, <mark class=\"clave-criterio\">coenzima A</mark>, <mark class=\"clave-criterio\">FAD</mark>. Tres (0,3 p). <span class=\"redactado\">El NAD⁺ y el FAD transportan electrones en la respiración, el NADP⁺ en la fotosíntesis, la coenzima A transporta grupos acetilo y el AMP cíclico actúa como segundo mensajero de hormonas.</span>",
+    "c) <mark class=\"clave-criterio\">Fosfodiéster</mark> y <mark class=\"clave-criterio\">enlaces de hidrógeno</mark> (0,4 p). <span class=\"redactado\">Los enlaces fosfodiéster unen los nucleótidos de cada cadena; los puentes de hidrógeno unen las bases complementarias de las dos cadenas (A-T por dos, G-C por tres).</span>",
+    "d) Estructural: <mark class=\"clave-criterio\">forman parte de los ácidos nucleicos</mark>, cromosomas y ribosomas. Energética: <mark class=\"clave-criterio\">transfieren la energía acumulada en los enlaces fosfato</mark> (ATP) (0,8 p). <span class=\"redactado\">El ATP se hidroliza a ADP + Pi y libera energía para las reacciones que la necesitan; se regenera en la respiración y la fotosíntesis.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2023 · Titular de junio",
@@ -28931,10 +28931,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Defina los siguientes términos: a) evolución biológica [0,5]; b) estructura homóloga u órgano homólogo [0,5]; c) selección natural [0,5]; d) mutación [0,5].",
    "c": [
-    "a) Evolución: proceso de <mark class=\"clave-criterio\">aparición de nuevas especies</mark> por <mark class=\"clave-criterio\">variaciones fenotípicas y genéticas</mark> que se suceden generación tras generación y llevan a la <mark class=\"clave-criterio\">adaptación al ambiente</mark> (0,5 p).",
-    "b) Homólogas: <mark class=\"clave-criterio\">origen evolutivo común</mark> y <mark class=\"clave-criterio\">estructura interna similar</mark>, aunque puedan tener <mark class=\"clave-criterio\">funciones distintas</mark> (0,5 p).",
-    "c) Selección natural: explica la <mark class=\"clave-criterio\">supervivencia de los individuos mejor adaptados</mark>, <mark class=\"clave-criterio\">favoreciendo los fenotipos</mark> con más posibilidades de sobrevivir (0,5 p).",
-    "d) Mutación: <mark class=\"clave-criterio\">alteración en el material genético</mark> (0,5 p)."
+    "a) Evolución: proceso de <mark class=\"clave-criterio\">aparición de nuevas especies</mark> por <mark class=\"clave-criterio\">variaciones fenotípicas y genéticas</mark> que se suceden generación tras generación y llevan a la <mark class=\"clave-criterio\">adaptación al ambiente</mark> (0,5 p). <span class=\"redactado\">Según la teoría sintética, cambian las frecuencias de los alelos en las poblaciones a lo largo de las generaciones.</span>",
+    "b) Homólogas: <mark class=\"clave-criterio\">origen evolutivo común</mark> y <mark class=\"clave-criterio\">estructura interna similar</mark>, aunque puedan tener <mark class=\"clave-criterio\">funciones distintas</mark> (0,5 p). <span class=\"redactado\">Por ejemplo, el brazo humano, el ala del murciélago y la aleta de la ballena tienen los mismos huesos; indican un antepasado común (evolución divergente).</span>",
+    "c) Selección natural: explica la <mark class=\"clave-criterio\">supervivencia de los individuos mejor adaptados</mark>, <mark class=\"clave-criterio\">favoreciendo los fenotipos</mark> con más posibilidades de sobrevivir (0,5 p). <span class=\"redactado\">Los individuos con caracteres más favorables en un ambiente dejan más descendencia, y sus alelos aumentan de frecuencia en la población; la propusieron Darwin y Wallace.</span>",
+    "d) Mutación: <mark class=\"clave-criterio\">alteración en el material genético</mark> (0,5 p). <span class=\"redactado\">Si afecta a las células germinales se hereda; es la fuente original de alelos nuevos, la materia prima de la evolución.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2023 · Titular de junio",
@@ -28985,11 +28985,11 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Defina los siguientes términos: a) inmunidad adquirida o adaptativa [0,4]; b) inmunidad natural [0,4]; c) inmunidad pasiva [0,4]; d) enfermedad autoinmune [0,4]; e) inmunodeficiencia [0,4].",
    "c": [
-    "a) Adquirida: la que <mark class=\"clave-criterio\">se contrae tras un contacto con un antígeno</mark> (0,4 p).",
-    "b) Natural: la producida por <mark class=\"clave-criterio\">mecanismos biológicos naturales</mark> (por ejemplo, una <mark class=\"clave-criterio\">infección</mark>) (0,4 p).",
-    "c) Pasiva: el individuo <mark class=\"clave-criterio\">no elabora la respuesta</mark> (<mark class=\"clave-criterio\">sueroterapia</mark> o <mark class=\"clave-criterio\">a través de la madre</mark>) (0,4 p).",
-    "d) Autoinmune: la respuesta <mark class=\"clave-criterio\">destruye moléculas o células propias</mark> (0,4 p).",
-    "e) Inmunodeficiencia: <mark class=\"clave-criterio\">incapacidad del sistema inmunitario para defender al organismo</mark> (0,4 p)."
+    "a) Adquirida: la que <mark class=\"clave-criterio\">se contrae tras un contacto con un antígeno</mark> (0,4 p). <span class=\"redactado\">Es específica y tiene memoria; la realizan los linfocitos B y T.</span>",
+    "b) Natural: la producida por <mark class=\"clave-criterio\">mecanismos biológicos naturales</mark> (por ejemplo, una <mark class=\"clave-criterio\">infección</mark>) (0,4 p). <span class=\"redactado\">Puede ser activa, al pasar una enfermedad, o pasiva, por los anticuerpos que pasan de la madre al hijo por la placenta o la leche.</span>",
+    "c) Pasiva: el individuo <mark class=\"clave-criterio\">no elabora la respuesta</mark> (<mark class=\"clave-criterio\">sueroterapia</mark> o <mark class=\"clave-criterio\">a través de la madre</mark>) (0,4 p). <span class=\"redactado\">Se reciben anticuerpos ya formados: actúa de inmediato, pero es temporal y no deja memoria.</span>",
+    "d) Autoinmune: la respuesta <mark class=\"clave-criterio\">destruye moléculas o células propias</mark> (0,4 p). <span class=\"redactado\">El sistema inmunitario pierde la tolerancia frente a lo propio; por ejemplo, la diabetes de tipo 1 o la artritis reumatoide.</span>",
+    "e) Inmunodeficiencia: <mark class=\"clave-criterio\">incapacidad del sistema inmunitario para defender al organismo</mark> (0,4 p). <span class=\"redactado\">Puede ser congénita, como la de los «niños burbuja», o adquirida, como el sida, en el que el VIH destruye los linfocitos T colaboradores.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2023 · Titular de junio",
@@ -29013,9 +29013,9 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Las alcachofas y otras verduras sufren un pardeamiento (oscurecimiento) al poco tiempo de ser cortadas. Esto se debe a la acción de enzimas que oxidan determinados compuestos de estos alimentos. Existen tres formas de evitar este pardeamiento: a) reducir la exposición de estos alimentos al oxígeno [0,4]; b) añadir compuestos ácidos [0,3]; c) calentar las verduras en agua hirviendo [0,3]. Explique razonadamente por qué no se produce el pardeamiento en estos tres casos.",
    "c": [
-    "a) Sin oxígeno las enzimas <mark class=\"clave-criterio\">no pueden catalizar la reacción</mark> y no se forman los compuestos pardos (0,4 p).",
-    "b) Con ácidos las enzimas <mark class=\"clave-criterio\">se desnaturalizan por la bajada del pH</mark> (0,3 p).",
-    "c) El calor <mark class=\"clave-criterio\">desnaturaliza las enzimas</mark> y <mark class=\"clave-criterio\">pierden su actividad</mark> (0,3 p)."
+    "a) Sin oxígeno las enzimas <mark class=\"clave-criterio\">no pueden catalizar la reacción</mark> y no se forman los compuestos pardos (0,4 p). <span class=\"redactado\">El O₂ es uno de los sustratos de la reacción; por eso, si se sumergen en agua, apenas se oscurecen.</span>",
+    "b) Con ácidos las enzimas <mark class=\"clave-criterio\">se desnaturalizan por la bajada del pH</mark> (0,3 p). <span class=\"redactado\">Cada enzima tiene un pH óptimo; un ácido, como el zumo de limón, cambia las cargas de los aminoácidos del centro activo y la enzima deja de actuar.</span>",
+    "c) El calor <mark class=\"clave-criterio\">desnaturaliza las enzimas</mark> y <mark class=\"clave-criterio\">pierden su actividad</mark> (0,3 p). <span class=\"redactado\">El calor rompe los enlaces débiles que mantienen la forma de la enzima y el centro activo deja de reconocer al sustrato.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2023 · Titular de junio",
@@ -29039,8 +29039,8 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Suponga una célula animal con cuatro pares de cromosomas que sufre una mitosis. Cada una de las células resultantes sufre posteriormente una meiosis. a) ¿Cuántas células se han producido al final del proceso? [0,5] b) ¿Cuál sería la dotación cromosómica que tiene cada una de las células tras cada división? [0,5] Razone todas las respuestas.",
    "c": [
-    "a) <mark class=\"clave-criterio\">8 células</mark>: la mitosis da <mark class=\"clave-criterio\">2</mark>, y la meiosis de cada una da <mark class=\"clave-criterio\">4</mark> (0,5 p).",
-    "b) Tras la mitosis: <mark class=\"clave-criterio\">2n = 8</mark> (se mantiene la dotación). Tras la meiosis: <mark class=\"clave-criterio\">n = 4</mark>, por la <mark class=\"clave-criterio\">separación de los cromosomas homólogos</mark> (0,5 p)."
+    "a) <mark class=\"clave-criterio\">8 células</mark>: la mitosis da <mark class=\"clave-criterio\">2</mark>, y la meiosis de cada una da <mark class=\"clave-criterio\">4</mark> (0,5 p). <span class=\"redactado\">La mitosis forma 2 células, y cada meiosis, 4: 2 × 4 = 8.</span>",
+    "b) Tras la mitosis: <mark class=\"clave-criterio\">2n = 8</mark> (se mantiene la dotación). Tras la meiosis: <mark class=\"clave-criterio\">n = 4</mark>, por la <mark class=\"clave-criterio\">separación de los cromosomas homólogos</mark> (0,5 p). <span class=\"redactado\">La mitosis produce células idénticas a la madre, con 8 cromosomas; en la meiosis I se separan los cromosomas homólogos, lo que reduce el número a la mitad, y en la meiosis II se separan las cromátidas.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2023 · Titular de junio",
@@ -29200,8 +29200,8 @@ window.BIOCELIA_HISTORICO = {
    "competencial": true,
    "q": "<b>La siguiente imagen representa un tipo de herencia de grupos sanguíneos. Indique:</b><br>a) El fenotipo (grupo sanguíneo) de cada progenitor [0,2].<br>b) El fenotipo (grupo sanguíneo) y el genotipo de cada descendiente (D1, D2, D3, D4) [0,8].",
    "c": [
-    "a) Progenitor 1: <mark class=\"clave-criterio\">grupo A</mark>; progenitor 2: <mark class=\"clave-criterio\">grupo B</mark> (no vale A0 ni B0 como fenotipo) (0,2 p).",
-    "b) D1: <mark class=\"clave-criterio\">grupo A, A0</mark>; D2: <mark class=\"clave-criterio\">grupo AB, AB</mark>; D3: <mark class=\"clave-criterio\">grupo B, B0</mark>; D4: <mark class=\"clave-criterio\">grupo 0, 00</mark> (0,8 p)."
+    "a) Progenitor 1: <mark class=\"clave-criterio\">grupo A</mark>; progenitor 2: <mark class=\"clave-criterio\">grupo B</mark> (no vale A0 ni B0 como fenotipo) (0,2 p). <span class=\"redactado\">Los alelos A y B son codominantes y los dos dominan sobre el 0.</span>",
+    "b) D1: <mark class=\"clave-criterio\">grupo A, A0</mark>; D2: <mark class=\"clave-criterio\">grupo AB, AB</mark>; D3: <mark class=\"clave-criterio\">grupo B, B0</mark>; D4: <mark class=\"clave-criterio\">grupo 0, 00</mark> (0,8 p). <span class=\"redactado\">Para que nazca un hijo del grupo 0 (00), los dos progenitores tienen que llevar el alelo 0: son A0 y B0, y cada uno de los cuatro grupos aparece con una probabilidad de 1/4.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2023 · Titular de junio",
@@ -29229,8 +29229,8 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>En relación con la imagen adjunta, conteste a las siguientes cuestiones:</b><br>a) ¿Qué agente infeccioso está representado? [0,2]<br>b) ¿Qué indican los números del 1 al 5? [0,5]<br>c) ¿Cómo se denominan estos tipos de agentes infecciosos cuando poseen la estructura señalada con el número 2? ¿Y aquellos que carecen de dicha estructura? [0,3]",
    "c": [
     "a) <mark class=\"clave-criterio\">VIH</mark> (virus del SIDA) (0,2 p).",
-    "b) 1: <mark class=\"clave-criterio\">glucoproteína</mark> (espículas); 2: <mark class=\"clave-criterio\">bicapa lipídica</mark> (envoltura); 3: <mark class=\"clave-criterio\">cápsida</mark>; 4: <mark class=\"clave-criterio\">ARN</mark>; 5: <mark class=\"clave-criterio\">transcriptasa inversa</mark> (0,5 p).",
-    "c) Con envoltura: <mark class=\"clave-criterio\">virus envueltos</mark>; sin ella: <mark class=\"clave-criterio\">virus desnudos</mark> (0,3 p)."
+    "b) 1: <mark class=\"clave-criterio\">glucoproteína</mark> (espículas); 2: <mark class=\"clave-criterio\">bicapa lipídica</mark> (envoltura); 3: <mark class=\"clave-criterio\">cápsida</mark>; 4: <mark class=\"clave-criterio\">ARN</mark>; 5: <mark class=\"clave-criterio\">transcriptasa inversa</mark> (0,5 p). <span class=\"redactado\">Es un retrovirus: tiene dos copias de ARN de una cadena; la transcriptasa inversa fabrica ADN a partir de ese ARN. Las glucoproteínas se unen al receptor CD4 de los linfocitos T colaboradores.</span>",
+    "c) Con envoltura: <mark class=\"clave-criterio\">virus envueltos</mark>; sin ella: <mark class=\"clave-criterio\">virus desnudos</mark> (0,3 p). <span class=\"redactado\">La envoltura es una bicapa lipídica que el virus toma de la membrana de la célula al salir de ella.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2023 · Titular de junio",
@@ -29257,9 +29257,9 @@ window.BIOCELIA_HISTORICO = {
    "competencial": true,
    "q": "<b>En relación con los procesos alérgicos que se muestran en la figura:</b><br>a) Identifique la molécula 1 [0,2].<br>b) Señale el tipo de célula indicada con el número 2 [0,1].<br>c) Indique el nombre de la molécula 3 [0,2].<br>d) Indique el nombre de la sustancia señalada con el número 4 [0,2].<br>e) Señale un efecto en el organismo de la molécula 4 [0,3].",
    "c": [
-    "a) <mark class=\"clave-criterio\">IgE</mark> (0,2 p). b) <mark class=\"clave-criterio\">Mastocito</mark> (también basófilo) (0,1 p).",
-    "c) <mark class=\"clave-criterio\">Alérgeno</mark> (0,2 p). d) <mark class=\"clave-criterio\">Histamina</mark> (0,2 p).",
-    "e) <mark class=\"clave-criterio\">Aumento de la permeabilidad vascular</mark>, <mark class=\"clave-criterio\">atracción de macrófagos</mark>, <mark class=\"clave-criterio\">aumento de la secreción exocrina</mark>. Uno (0,3 p)."
+    "a) <mark class=\"clave-criterio\">IgE</mark> (0,2 p). b) <mark class=\"clave-criterio\">Mastocito</mark> (también basófilo) (0,1 p). <span class=\"redactado\">En el primer contacto con el alérgeno se producen IgE, que se unen a los mastocitos (sensibilización).</span>",
+    "c) <mark class=\"clave-criterio\">Alérgeno</mark> (0,2 p). d) <mark class=\"clave-criterio\">Histamina</mark> (0,2 p). <span class=\"redactado\">En los contactos siguientes, el alérgeno se une a la IgE de los mastocitos, que liberan histamina.</span>",
+    "e) <mark class=\"clave-criterio\">Aumento de la permeabilidad vascular</mark>, <mark class=\"clave-criterio\">atracción de macrófagos</mark>, <mark class=\"clave-criterio\">aumento de la secreción exocrina</mark>. Uno (0,3 p). <span class=\"redactado\">Por ejemplo, la vasodilatación causa enrojecimiento e hinchazón, y la contracción de los bronquios, dificultad para respirar; en casos graves se produce un choque anafiláctico.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2023 · Titular de junio",
@@ -29365,9 +29365,9 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "En relación con la tabla adjunta:<table class=\"tabla-pau\"><tr><th>Microorganismo</th><th>Grupo</th><th>Productos industriales</th></tr><tr><td><i>Saccharomyces</i></td><td>levadura</td><td>1</td></tr><tr><td><i>Streptococcus</i>, <i>Lactobacillus</i></td><td>2</td><td>yogur</td></tr><tr><td><i>Penicillium</i></td><td>3</td><td>4</td></tr></table>a) Copie y complete los números del 1 al 4 [1].<br>b) ¿Qué proceso bioquímico realiza <i>Saccharomyces</i> para la obtención del producto 1? [0,2] ¿cuál es el sustrato inicial y los productos finales de dicho proceso? [0,3]<br>c) Cite dos grupos de microorganismos diferentes a los representados en la tabla e indique su organización celular [0,5].",
    "c": [
-    "a) 1: <mark class=\"clave-criterio\">pan, cerveza o vino</mark>; 2: <mark class=\"clave-criterio\">bacteria</mark>; 3: <mark class=\"clave-criterio\">moho</mark> (hongo microscópico); 4: <mark class=\"clave-criterio\">penicilina</mark> (antibióticos) (1 p).",
-    "b) <mark class=\"clave-criterio\">Fermentación alcohólica</mark> (0,2 p); sustrato: <mark class=\"clave-criterio\">azúcares</mark>; productos: <mark class=\"clave-criterio\">etanol y CO₂</mark> (0,3 p).",
-    "c) <mark class=\"clave-criterio\">Algas (eucariotas)</mark> y <mark class=\"clave-criterio\">protozoos (eucariotas)</mark> (0,5 p)."
+    "a) 1: <mark class=\"clave-criterio\">pan, cerveza o vino</mark>; 2: <mark class=\"clave-criterio\">bacteria</mark>; 3: <mark class=\"clave-criterio\">moho</mark> (hongo microscópico); 4: <mark class=\"clave-criterio\">penicilina</mark> (antibióticos) (1 p). <span class=\"redactado\">Las bacterias lácticas transforman la lactosa de la leche en ácido láctico, que coagula las proteínas; Penicillium es un hongo filamentoso que produce penicilina, el primer antibiótico, descubierto por Fleming.</span>",
+    "b) <mark class=\"clave-criterio\">Fermentación alcohólica</mark> (0,2 p); sustrato: <mark class=\"clave-criterio\">azúcares</mark>; productos: <mark class=\"clave-criterio\">etanol y CO₂</mark> (0,3 p). <span class=\"redactado\">Sin oxígeno, las levaduras degradan la glucosa en la glucólisis y el pirúvico se transforma en etanol y CO₂, para regenerar el NAD⁺. En el pan, el CO₂ hace subir la masa.</span>",
+    "c) <mark class=\"clave-criterio\">Algas (eucariotas)</mark> y <mark class=\"clave-criterio\">protozoos (eucariotas)</mark> (0,5 p). <span class=\"redactado\">Las algas tienen cloroplastos y pared de celulosa; los protozoos son heterótrofos y no tienen pared.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2023 · Titular de julio",
@@ -29391,9 +29391,9 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "a) Defina los términos antígeno y anticuerpo [0,8]. b) Indique la naturaleza química de ambos [0,4]. c) Justifique el hecho de que un anticuerpo pueda comportarse como un antígeno [0,8].",
    "c": [
-    "a) Antígeno: <mark class=\"clave-criterio\">molécula que induce la respuesta del sistema inmunitario</mark>. Anticuerpo: molécula producida por las <mark class=\"clave-criterio\">células plasmáticas (linfocitos B)</mark> ante un antígeno, al que <mark class=\"clave-criterio\">se une específicamente</mark> (0,8 p).",
-    "b) Antígenos: <mark class=\"clave-criterio\">proteicos o polisacarídicos</mark> (también algunos lípidos); anticuerpos: <mark class=\"clave-criterio\">glucoproteínas</mark> (0,4 p).",
-    "c) El anticuerpo es una <mark class=\"clave-criterio\">proteína</mark>: en <mark class=\"clave-criterio\">otro organismo</mark> puede <mark class=\"clave-criterio\">no reconocerse como propia</mark> y <mark class=\"clave-criterio\">provocar una respuesta inmune</mark> (0,8 p)."
+    "a) Antígeno: <mark class=\"clave-criterio\">molécula que induce la respuesta del sistema inmunitario</mark>. Anticuerpo: molécula producida por las <mark class=\"clave-criterio\">células plasmáticas (linfocitos B)</mark> ante un antígeno, al que <mark class=\"clave-criterio\">se une específicamente</mark> (0,8 p). <span class=\"redactado\">La parte del antígeno que reconoce el anticuerpo es el epítopo; los anticuerpos tienen forma de Y, con dos sitios de unión al antígeno.</span>",
+    "b) Antígenos: <mark class=\"clave-criterio\">proteicos o polisacarídicos</mark> (también algunos lípidos); anticuerpos: <mark class=\"clave-criterio\">glucoproteínas</mark> (0,4 p). <span class=\"redactado\">Los antígenos suelen ser moléculas grandes.</span>",
+    "c) El anticuerpo es una <mark class=\"clave-criterio\">proteína</mark>: en <mark class=\"clave-criterio\">otro organismo</mark> puede <mark class=\"clave-criterio\">no reconocerse como propia</mark> y <mark class=\"clave-criterio\">provocar una respuesta inmune</mark> (0,8 p). <span class=\"redactado\">Por eso los sueros de caballo pueden provocar una reacción del sistema inmunitario del paciente cuando se repiten las dosis.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2023 · Titular de julio",
@@ -29466,8 +29466,8 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "La talasemia es una enfermedad hereditaria de la sangre del ser humano que produce anemia. La anemia severa (talasemia mayor) aparece en individuos homocigóticos (TᴹTᴹ) y un tipo más benigno de anemia (talasemia menor) en los heterocigóticos (TᴹTᴺ). Los individuos sanos son homocigóticos (TᴺTᴺ). Si todos los individuos con talasemia mayor mueren antes de la madurez sexual, conteste de forma razonada a las siguientes preguntas realizando los cruzamientos correspondientes: a) ¿qué porcentaje de adultos de la F1 puede esperarse que sea sano en apareamientos de talasémicos menores con sanos? [0,5]; b) ¿qué fracción de individuos adultos de la F1 serán anémicos en cruzamientos entre talasémicos menores? [0,5]",
    "c": [
-    "a) <mark class=\"clave-criterio\">TᴹTᴺ × TᴺTᴺ</mark>: los talasémicos menores dan gametos Tᴹ y Tᴺ y los sanos solo Tᴺ, así que el <mark class=\"clave-criterio\">50 %</mark> de la F1 serán <mark class=\"clave-criterio\">TᴺTᴺ (sanos)</mark> (0,5 p).",
-    "b) <mark class=\"clave-criterio\">TᴹTᴺ × TᴹTᴺ</mark>: el <mark class=\"clave-criterio\">¼ TᴹTᴹ muere</mark>; de los adultos, <mark class=\"clave-criterio\">⅔ serán talasémicos menores (anémicos)</mark> y <mark class=\"clave-criterio\">⅓ sanos</mark> (0,5 p)."
+    "a) <mark class=\"clave-criterio\">TᴹTᴺ × TᴺTᴺ</mark>: los talasémicos menores dan gametos Tᴹ y Tᴺ y los sanos solo Tᴺ, así que el <mark class=\"clave-criterio\">50 %</mark> de la F1 serán <mark class=\"clave-criterio\">TᴺTᴺ (sanos)</mark> (0,5 p). <span class=\"redactado\">Ninguno de los dos alelos domina por completo: el heterocigoto tiene un fenotipo intermedio. En este cruce no nacen TᴹTᴹ.</span>",
+    "b) <mark class=\"clave-criterio\">TᴹTᴺ × TᴹTᴺ</mark>: el <mark class=\"clave-criterio\">¼ TᴹTᴹ muere</mark>; de los adultos, <mark class=\"clave-criterio\">⅔ serán talasémicos menores (anémicos)</mark> y <mark class=\"clave-criterio\">⅓ sanos</mark> (0,5 p). <span class=\"redactado\">Es un alelo letal en homocigosis: de cada cuatro descendientes, uno muere antes de la madurez; de los tres que llegan a adultos, dos tienen talasemia menor.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2023 · Titular de julio",
@@ -29491,10 +29491,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "En un laboratorio se cultivan cuatro microorganismos (A, B, C y D) en un medio con todos los nutrientes y las condiciones necesarias para su crecimiento. A continuación, se varía una condición en cada uno de los cultivos. La siguiente tabla muestra los resultados obtenidos en las diferentes condiciones; el signo + indica crecimiento y el signo – que no hubo crecimiento.<table class=\"tabla-pau\"><tr><th>Microorganismo</th><th>Medio con penicilina</th><th>Medio con inhibidor de fotosíntesis</th><th>Medio con inhibidor de síntesis de quitina</th></tr><tr><td>A</td><td>+</td><td>+</td><td>+</td></tr><tr><td>B</td><td>–</td><td>+</td><td>+</td></tr><tr><td>C</td><td>+</td><td>–</td><td>+</td></tr><tr><td>D</td><td>+</td><td>+</td><td>–</td></tr></table>Identifique el tipo de microorganismo presente en cada cultivo. Razone las respuestas [1].",
    "c": [
-    "A: <mark class=\"clave-criterio\">protozoo</mark>: <mark class=\"clave-criterio\">sin pared</mark> y <mark class=\"clave-criterio\">no fotosintético</mark> (0,25 p).",
-    "B: <mark class=\"clave-criterio\">bacteria</mark>: la <mark class=\"clave-criterio\">penicilina inhibe la síntesis de la pared bacteriana</mark> (0,25 p).",
-    "C: <mark class=\"clave-criterio\">alga</mark>: <mark class=\"clave-criterio\">no crece sin fotosíntesis</mark> (0,25 p).",
-    "D: <mark class=\"clave-criterio\">levadura</mark>: su <mark class=\"clave-criterio\">pared es de quitina</mark> (0,25 p)."
+    "A: <mark class=\"clave-criterio\">protozoo</mark>: <mark class=\"clave-criterio\">sin pared</mark> y <mark class=\"clave-criterio\">no fotosintético</mark> (0,25 p). <span class=\"redactado\">Los protozoos tampoco tienen quitina.</span>",
+    "B: <mark class=\"clave-criterio\">bacteria</mark>: la <mark class=\"clave-criterio\">penicilina inhibe la síntesis de la pared bacteriana</mark> (0,25 p). <span class=\"redactado\">La pared bacteriana es de peptidoglucano (mureína); sin ella la bacteria estalla por la presión osmótica.</span>",
+    "C: <mark class=\"clave-criterio\">alga</mark>: <mark class=\"clave-criterio\">no crece sin fotosíntesis</mark> (0,25 p). <span class=\"redactado\">Las algas son autótrofas: necesitan la fotosíntesis para fabricar su materia orgánica.</span>",
+    "D: <mark class=\"clave-criterio\">levadura</mark>: su <mark class=\"clave-criterio\">pared es de quitina</mark> (0,25 p). <span class=\"redactado\">Los hongos, como las levaduras, tienen pared de quitina; las algas la tienen de celulosa.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2023 · Titular de julio",
@@ -29518,8 +29518,8 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Al inocular un determinado antígeno a dos gemelos univitelinos (genéticamente idénticos), se observa que el pico máximo de producción de anticuerpos ocurre a los 20 días en el gemelo A y a los 5 días en el gemelo B. a) Proponga una explicación que justifique la diferencia en la respuesta inmune de ambos [0,5]. b) Si se analiza la sangre de cada gemelo en ese pico máximo de producción, ¿existiría alguna diferencia en los tipos de anticuerpos de ambos? Razone la respuesta [0,5].",
    "c": [
-    "a) El gemelo B <mark class=\"clave-criterio\">ya había estado expuesto al antígeno</mark>: tiene una <mark class=\"clave-criterio\">respuesta secundaria</mark>, más rápida; el A, una <mark class=\"clave-criterio\">respuesta primaria</mark>, más lenta (0,5 p).",
-    "b) <mark class=\"clave-criterio\">Sí</mark>: en A predominaría la <mark class=\"clave-criterio\">IgM</mark> (respuesta primaria) y en B la <mark class=\"clave-criterio\">IgG</mark> (respuesta secundaria) (0,5 p)."
+    "a) El gemelo B <mark class=\"clave-criterio\">ya había estado expuesto al antígeno</mark>: tiene una <mark class=\"clave-criterio\">respuesta secundaria</mark>, más rápida; el A, una <mark class=\"clave-criterio\">respuesta primaria</mark>, más lenta (0,5 p). <span class=\"redactado\">El gemelo B tiene linfocitos B y T de memoria frente a ese antígeno, por una infección o vacunación anterior; aunque los dos son genéticamente idénticos, la memoria inmunológica se adquiere con la experiencia de cada uno.</span>",
+    "b) <mark class=\"clave-criterio\">Sí</mark>: en A predominaría la <mark class=\"clave-criterio\">IgM</mark> (respuesta primaria) y en B la <mark class=\"clave-criterio\">IgG</mark> (respuesta secundaria) (0,5 p). <span class=\"redactado\">En la respuesta secundaria también aumenta mucho la cantidad de anticuerpos.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2023 · Titular de julio",
@@ -29543,10 +29543,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": true,
    "q": "<b>En relación con la figura adjunta, conteste a las siguientes preguntas:</b><br>a) ¿Qué molécula está representada en la imagen y qué tipo de estructura presenta? [0,3]<br>b) ¿Cómo se denominan los monómeros que la forman? [0,2]<br>c) ¿Qué parte de estos monómeros se encuentra proyectada hacia fuera? [0,2]<br>d) Indique qué enlaces mantienen esta estructura [0,3].",
    "c": [
-    "a) <mark class=\"clave-criterio\">Proteína</mark> con estructura en <mark class=\"clave-criterio\">α-hélice</mark> (0,3 p).",
+    "a) <mark class=\"clave-criterio\">Proteína</mark> con estructura en <mark class=\"clave-criterio\">α-hélice</mark> (0,3 p). <span class=\"redactado\">Es una estructura secundaria: la cadena se enrolla en espiral dextrógira, con unos 3,6 aminoácidos por vuelta.</span>",
     "b) <mark class=\"clave-criterio\">Aminoácidos</mark> (0,2 p).",
-    "c) Las <mark class=\"clave-criterio\">cadenas laterales (radicales R)</mark> (0,2 p).",
-    "d) <mark class=\"clave-criterio\">Enlaces de hidrógeno</mark> y <mark class=\"clave-criterio\">enlaces peptídicos</mark> (0,3 p)."
+    "c) Las <mark class=\"clave-criterio\">cadenas laterales (radicales R)</mark> (0,2 p). <span class=\"redactado\">Los grupos C=O y N–H de los enlaces peptídicos quedan en el eje de la hélice.</span>",
+    "d) <mark class=\"clave-criterio\">Enlaces de hidrógeno</mark> y <mark class=\"clave-criterio\">enlaces peptídicos</mark> (0,3 p). <span class=\"redactado\">Cada puente de hidrógeno une el C=O de un aminoácido con el N–H del cuarto siguiente; los enlaces peptídicos forman la cadena.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2023 · Titular de julio",
@@ -29574,8 +29574,8 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>En relación con la imagen adjunta, conteste a las siguientes cuestiones:</b><br>a) ¿Qué tipo de transporte de membrana representa la imagen en su conjunto? [0,2]<br>b) ¿Qué procesos específicos se representan con las letras A, B y C? [0,3]<br>c) ¿Cómo se denominan los orgánulos, estructuras o moléculas representadas con los números del 1 al 5? [0,5]",
    "c": [
     "a) <mark class=\"clave-criterio\">Endocitosis</mark> (0,2 p).",
-    "b) A: <mark class=\"clave-criterio\">fagocitosis</mark>; B: <mark class=\"clave-criterio\">pinocitosis</mark>; C: <mark class=\"clave-criterio\">endocitosis mediada por receptor</mark> (0,3 p).",
-    "c) 1: <mark class=\"clave-criterio\">pseudópodos</mark>; 2: <mark class=\"clave-criterio\">fagosoma</mark>; 3: <mark class=\"clave-criterio\">vesícula pinocítica</mark>; 4: <mark class=\"clave-criterio\">vesícula endocítica</mark>; 5: <mark class=\"clave-criterio\">receptor de membrana</mark> (0,5 p)."
+    "b) A: <mark class=\"clave-criterio\">fagocitosis</mark>; B: <mark class=\"clave-criterio\">pinocitosis</mark>; C: <mark class=\"clave-criterio\">endocitosis mediada por receptor</mark> (0,3 p). <span class=\"redactado\">En la fagocitosis se engloban partículas grandes, como bacterias; en la pinocitosis, líquido con moléculas disueltas; en la mediada por receptor, solo las moléculas que se unen a receptores específicos de la membrana, como el colesterol unido a las LDL.</span>",
+    "c) 1: <mark class=\"clave-criterio\">pseudópodos</mark>; 2: <mark class=\"clave-criterio\">fagosoma</mark>; 3: <mark class=\"clave-criterio\">vesícula pinocítica</mark>; 4: <mark class=\"clave-criterio\">vesícula endocítica</mark>; 5: <mark class=\"clave-criterio\">receptor de membrana</mark> (0,5 p). <span class=\"redactado\">El fagosoma se fusiona después con lisosomas, que digieren su contenido.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2023 · Titular de julio",
@@ -29603,8 +29603,8 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>En relación con la figura adjunta:</b><br>a) Identifique las moléculas o estructuras señaladas con los números del 1 al 4 [0,4].<br>b) Señale los procesos indicados con las letras A, B, C y D [0,4].<br>c) Indique en qué compartimentos de la célula eucariótica se producen los procesos A y D [0,2].",
    "c": [
     "a) 1: <mark class=\"clave-criterio\">ADN</mark>; 2: <mark class=\"clave-criterio\">ARNm</mark>; 3: <mark class=\"clave-criterio\">proteína</mark>; 4: <mark class=\"clave-criterio\">ribosoma</mark> (0,4 p).",
-    "b) A: <mark class=\"clave-criterio\">replicación</mark>; B: <mark class=\"clave-criterio\">transcripción</mark>; C: <mark class=\"clave-criterio\">transcripción inversa</mark>; D: <mark class=\"clave-criterio\">traducción</mark> (0,4 p).",
-    "c) A: <mark class=\"clave-criterio\">núcleo</mark>; D: <mark class=\"clave-criterio\">citoplasma</mark> (también mitocondria y cloroplasto) (0,2 p)."
+    "b) A: <mark class=\"clave-criterio\">replicación</mark>; B: <mark class=\"clave-criterio\">transcripción</mark>; C: <mark class=\"clave-criterio\">transcripción inversa</mark>; D: <mark class=\"clave-criterio\">traducción</mark> (0,4 p). <span class=\"redactado\">Es el dogma central de la biología molecular: el ADN se replica, se transcribe a ARN y este se traduce a proteínas; la transcripción inversa la realizan los retrovirus, como el VIH.</span>",
+    "c) A: <mark class=\"clave-criterio\">núcleo</mark>; D: <mark class=\"clave-criterio\">citoplasma</mark> (también mitocondria y cloroplasto) (0,2 p). <span class=\"redactado\">La replicación también ocurre en mitocondrias y cloroplastos, que tienen ADN propio.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2023 · Titular de julio",
@@ -29632,9 +29632,9 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>En la siguiente figura se ilustra la producción de insulina humana por un microorganismo:</b><br>a) Identifique qué tipo de microorganismo está señalado con 1 y cuál es su organización celular [0,2].<br>b) Indique qué representan las estructuras señaladas con 2 y 3 [0,3].<br>c) ¿Qué debe contener la estructura 2 para que se pueda obtener el producto final insulina? [0,2]<br>d) Indique qué proceso se representa en 4 [0,3].",
    "c": [
     "a) <mark class=\"clave-criterio\">Bacteria</mark>, <mark class=\"clave-criterio\">procariota</mark> (0,2 p).",
-    "b) 2: <mark class=\"clave-criterio\">plásmido</mark>; 3: <mark class=\"clave-criterio\">ADN</mark> (cromosoma bacteriano) (0,3 p).",
-    "c) El <mark class=\"clave-criterio\">gen de la insulina</mark> (0,2 p).",
-    "d) <mark class=\"clave-criterio\">Crecimiento bacteriano</mark> (se admite selección de bacterias con el gen integrado) (0,3 p)."
+    "b) 2: <mark class=\"clave-criterio\">plásmido</mark>; 3: <mark class=\"clave-criterio\">ADN</mark> (cromosoma bacteriano) (0,3 p). <span class=\"redactado\">El plásmido es una pequeña molécula de ADN circular que se usa como vector.</span>",
+    "c) El <mark class=\"clave-criterio\">gen de la insulina</mark> (0,2 p). <span class=\"redactado\">Se usa un gen sin intrones, porque las bacterias no pueden eliminarlos; se inserta en el plásmido cortando los dos ADN con la misma enzima de restricción y uniéndolos con la ADN ligasa. Las bacterias lo expresan porque el código genético es universal.</span>",
+    "d) <mark class=\"clave-criterio\">Crecimiento bacteriano</mark> (se admite selección de bacterias con el gen integrado) (0,3 p). <span class=\"redactado\">Las bacterias se multiplican muy deprisa; cada una conserva el plásmido y produce insulina, que después se extrae y se purifica.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2023 · Titular de julio",
@@ -62644,10 +62644,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "a) Indique los tipos de moléculas que se pueden obtener por hidrólisis de un nucleósido y de un nucleótido [0,5]. b) Cite el nombre de tres nucleótidos que participen en procesos metabólicos [0,3]. c) ¿Qué tipos de enlaces soportan la estructura bicatenaria de los ácidos nucleicos? [0,4] d) Describa una función estructural y otra energética de los nucleótidos [0,8].",
    "c": [
-    "a) Nucleósido: <mark class=\"clave-criterio\">base nitrogenada y pentosa</mark>; nucleótido: <mark class=\"clave-criterio\">base nitrogenada, pentosa y ácido fosfórico</mark> (0,5 p).",
-    "b) <mark class=\"clave-criterio\">NAD⁺</mark>, <mark class=\"clave-criterio\">NADP⁺</mark>, <mark class=\"clave-criterio\">ATP</mark>, GTP, <mark class=\"clave-criterio\">AMPc</mark>, <mark class=\"clave-criterio\">coenzima A</mark>, <mark class=\"clave-criterio\">FAD</mark>. Tres (0,3 p).",
-    "c) <mark class=\"clave-criterio\">Fosfodiéster</mark> y <mark class=\"clave-criterio\">enlaces de hidrógeno</mark> (0,4 p).",
-    "d) Estructural: <mark class=\"clave-criterio\">forman parte de los ácidos nucleicos</mark>, cromosomas y ribosomas. Energética: <mark class=\"clave-criterio\">transfieren la energía acumulada en los enlaces fosfato</mark> (ATP) (0,8 p)."
+    "a) Nucleósido: <mark class=\"clave-criterio\">base nitrogenada y pentosa</mark>; nucleótido: <mark class=\"clave-criterio\">base nitrogenada, pentosa y ácido fosfórico</mark> (0,5 p). <span class=\"redactado\">La base se une al carbono 1′ de la pentosa por enlace N-glucosídico, y el fosfato, al carbono 5′, por enlace éster.</span>",
+    "b) <mark class=\"clave-criterio\">NAD⁺</mark>, <mark class=\"clave-criterio\">NADP⁺</mark>, <mark class=\"clave-criterio\">ATP</mark>, GTP, <mark class=\"clave-criterio\">AMPc</mark>, <mark class=\"clave-criterio\">coenzima A</mark>, <mark class=\"clave-criterio\">FAD</mark>. Tres (0,3 p). <span class=\"redactado\">El NAD⁺ y el FAD transportan electrones en la respiración, el NADP⁺ en la fotosíntesis, la coenzima A transporta grupos acetilo y el AMP cíclico actúa como segundo mensajero de hormonas.</span>",
+    "c) <mark class=\"clave-criterio\">Fosfodiéster</mark> y <mark class=\"clave-criterio\">enlaces de hidrógeno</mark> (0,4 p). <span class=\"redactado\">Los enlaces fosfodiéster unen los nucleótidos de cada cadena; los puentes de hidrógeno unen las bases complementarias de las dos cadenas (A-T por dos, G-C por tres).</span>",
+    "d) Estructural: <mark class=\"clave-criterio\">forman parte de los ácidos nucleicos</mark>, cromosomas y ribosomas. Energética: <mark class=\"clave-criterio\">transfieren la energía acumulada en los enlaces fosfato</mark> (ATP) (0,8 p). <span class=\"redactado\">El ATP se hidroliza a ADP + Pi y libera energía para las reacciones que la necesitan; se regenera en la respiración y la fotosíntesis.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2023 · Titular de junio",
@@ -62695,10 +62695,10 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Defina los siguientes términos: a) evolución biológica [0,5]; b) estructura homóloga u órgano homólogo [0,5]; c) selección natural [0,5]; d) mutación [0,5].",
    "c": [
-    "a) Evolución: proceso de <mark class=\"clave-criterio\">aparición de nuevas especies</mark> por <mark class=\"clave-criterio\">variaciones fenotípicas y genéticas</mark> que se suceden generación tras generación y llevan a la <mark class=\"clave-criterio\">adaptación al ambiente</mark> (0,5 p).",
-    "b) Homólogas: <mark class=\"clave-criterio\">origen evolutivo común</mark> y <mark class=\"clave-criterio\">estructura interna similar</mark>, aunque puedan tener <mark class=\"clave-criterio\">funciones distintas</mark> (0,5 p).",
-    "c) Selección natural: explica la <mark class=\"clave-criterio\">supervivencia de los individuos mejor adaptados</mark>, <mark class=\"clave-criterio\">favoreciendo los fenotipos</mark> con más posibilidades de sobrevivir (0,5 p).",
-    "d) Mutación: <mark class=\"clave-criterio\">alteración en el material genético</mark> (0,5 p)."
+    "a) Evolución: proceso de <mark class=\"clave-criterio\">aparición de nuevas especies</mark> por <mark class=\"clave-criterio\">variaciones fenotípicas y genéticas</mark> que se suceden generación tras generación y llevan a la <mark class=\"clave-criterio\">adaptación al ambiente</mark> (0,5 p). <span class=\"redactado\">Según la teoría sintética, cambian las frecuencias de los alelos en las poblaciones a lo largo de las generaciones.</span>",
+    "b) Homólogas: <mark class=\"clave-criterio\">origen evolutivo común</mark> y <mark class=\"clave-criterio\">estructura interna similar</mark>, aunque puedan tener <mark class=\"clave-criterio\">funciones distintas</mark> (0,5 p). <span class=\"redactado\">Por ejemplo, el brazo humano, el ala del murciélago y la aleta de la ballena tienen los mismos huesos; indican un antepasado común (evolución divergente).</span>",
+    "c) Selección natural: explica la <mark class=\"clave-criterio\">supervivencia de los individuos mejor adaptados</mark>, <mark class=\"clave-criterio\">favoreciendo los fenotipos</mark> con más posibilidades de sobrevivir (0,5 p). <span class=\"redactado\">Los individuos con caracteres más favorables en un ambiente dejan más descendencia, y sus alelos aumentan de frecuencia en la población; la propusieron Darwin y Wallace.</span>",
+    "d) Mutación: <mark class=\"clave-criterio\">alteración en el material genético</mark> (0,5 p). <span class=\"redactado\">Si afecta a las células germinales se hereda; es la fuente original de alelos nuevos, la materia prima de la evolución.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2023 · Titular de junio",
@@ -62747,11 +62747,11 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "Defina los siguientes términos: a) inmunidad adquirida o adaptativa [0,4]; b) inmunidad natural [0,4]; c) inmunidad pasiva [0,4]; d) enfermedad autoinmune [0,4]; e) inmunodeficiencia [0,4].",
    "c": [
-    "a) Adquirida: la que <mark class=\"clave-criterio\">se contrae tras un contacto con un antígeno</mark> (0,4 p).",
-    "b) Natural: la producida por <mark class=\"clave-criterio\">mecanismos biológicos naturales</mark> (por ejemplo, una <mark class=\"clave-criterio\">infección</mark>) (0,4 p).",
-    "c) Pasiva: el individuo <mark class=\"clave-criterio\">no elabora la respuesta</mark> (<mark class=\"clave-criterio\">sueroterapia</mark> o <mark class=\"clave-criterio\">a través de la madre</mark>) (0,4 p).",
-    "d) Autoinmune: la respuesta <mark class=\"clave-criterio\">destruye moléculas o células propias</mark> (0,4 p).",
-    "e) Inmunodeficiencia: <mark class=\"clave-criterio\">incapacidad del sistema inmunitario para defender al organismo</mark> (0,4 p)."
+    "a) Adquirida: la que <mark class=\"clave-criterio\">se contrae tras un contacto con un antígeno</mark> (0,4 p). <span class=\"redactado\">Es específica y tiene memoria; la realizan los linfocitos B y T.</span>",
+    "b) Natural: la producida por <mark class=\"clave-criterio\">mecanismos biológicos naturales</mark> (por ejemplo, una <mark class=\"clave-criterio\">infección</mark>) (0,4 p). <span class=\"redactado\">Puede ser activa, al pasar una enfermedad, o pasiva, por los anticuerpos que pasan de la madre al hijo por la placenta o la leche.</span>",
+    "c) Pasiva: el individuo <mark class=\"clave-criterio\">no elabora la respuesta</mark> (<mark class=\"clave-criterio\">sueroterapia</mark> o <mark class=\"clave-criterio\">a través de la madre</mark>) (0,4 p). <span class=\"redactado\">Se reciben anticuerpos ya formados: actúa de inmediato, pero es temporal y no deja memoria.</span>",
+    "d) Autoinmune: la respuesta <mark class=\"clave-criterio\">destruye moléculas o células propias</mark> (0,4 p). <span class=\"redactado\">El sistema inmunitario pierde la tolerancia frente a lo propio; por ejemplo, la diabetes de tipo 1 o la artritis reumatoide.</span>",
+    "e) Inmunodeficiencia: <mark class=\"clave-criterio\">incapacidad del sistema inmunitario para defender al organismo</mark> (0,4 p). <span class=\"redactado\">Puede ser congénita, como la de los «niños burbuja», o adquirida, como el sida, en el que el VIH destruye los linfocitos T colaboradores.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2023 · Titular de junio",
@@ -62773,11 +62773,11 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>I.</b> Las alcachofas y otras verduras sufren un pardeamiento (oscurecimiento) al poco tiempo de ser cortadas. Esto se debe a la acción de enzimas que oxidan determinados compuestos de estos alimentos. Existen tres formas de evitar este pardeamiento: a) reducir la exposición de estos alimentos al oxígeno [0,4]; b) añadir compuestos ácidos [0,3]; c) calentar las verduras en agua hirviendo [0,3]. Explique razonadamente por qué no se produce el pardeamiento en estos tres casos. <i>(1 punto)</i><br><br><b>II.</b> Suponga una célula animal con cuatro pares de cromosomas que sufre una mitosis. Cada una de las células resultantes sufre posteriormente una meiosis. a) ¿Cuántas células se han producido al final del proceso? [0,5] b) ¿Cuál sería la dotación cromosómica que tiene cada una de las células tras cada división? [0,5] Razone todas las respuestas. <i>(1 punto)</i>",
    "puntos": 2,
    "c": [
-    "<b>I.</b> a) Sin oxígeno las enzimas <mark class=\"clave-criterio\">no pueden catalizar la reacción</mark> y no se forman los compuestos pardos (0,4 p).",
-    "<b>I.</b> b) Con ácidos las enzimas <mark class=\"clave-criterio\">se desnaturalizan por la bajada del pH</mark> (0,3 p).",
-    "<b>I.</b> c) El calor <mark class=\"clave-criterio\">desnaturaliza las enzimas</mark> y <mark class=\"clave-criterio\">pierden su actividad</mark> (0,3 p).",
-    "<b>II.</b> a) <mark class=\"clave-criterio\">8 células</mark>: la mitosis da <mark class=\"clave-criterio\">2</mark>, y la meiosis de cada una da <mark class=\"clave-criterio\">4</mark> (0,5 p).",
-    "<b>II.</b> b) Tras la mitosis: <mark class=\"clave-criterio\">2n = 8</mark> (se mantiene la dotación). Tras la meiosis: <mark class=\"clave-criterio\">n = 4</mark>, por la <mark class=\"clave-criterio\">separación de los cromosomas homólogos</mark> (0,5 p)."
+    "<b>I.</b> a) Sin oxígeno las enzimas <mark class=\"clave-criterio\">no pueden catalizar la reacción</mark> y no se forman los compuestos pardos (0,4 p). <span class=\"redactado\">El O₂ es uno de los sustratos de la reacción; por eso, si se sumergen en agua, apenas se oscurecen.</span>",
+    "<b>I.</b> b) Con ácidos las enzimas <mark class=\"clave-criterio\">se desnaturalizan por la bajada del pH</mark> (0,3 p). <span class=\"redactado\">Cada enzima tiene un pH óptimo; un ácido, como el zumo de limón, cambia las cargas de los aminoácidos del centro activo y la enzima deja de actuar.</span>",
+    "<b>I.</b> c) El calor <mark class=\"clave-criterio\">desnaturaliza las enzimas</mark> y <mark class=\"clave-criterio\">pierden su actividad</mark> (0,3 p). <span class=\"redactado\">El calor rompe los enlaces débiles que mantienen la forma de la enzima y el centro activo deja de reconocer al sustrato.</span>",
+    "<b>II.</b> a) <mark class=\"clave-criterio\">8 células</mark>: la mitosis da <mark class=\"clave-criterio\">2</mark>, y la meiosis de cada una da <mark class=\"clave-criterio\">4</mark> (0,5 p). <span class=\"redactado\">La mitosis forma 2 células, y cada meiosis, 4: 2 × 4 = 8.</span>",
+    "<b>II.</b> b) Tras la mitosis: <mark class=\"clave-criterio\">2n = 8</mark> (se mantiene la dotación). Tras la meiosis: <mark class=\"clave-criterio\">n = 4</mark>, por la <mark class=\"clave-criterio\">separación de los cromosomas homólogos</mark> (0,5 p). <span class=\"redactado\">La mitosis produce células idénticas a la madre, con 8 cromosomas; en la meiosis I se separan los cromosomas homólogos, lo que reduce el número a la mitad, y en la meiosis II se separan las cromátidas.</span>"
    ],
    "isNew": false,
    "competencial": false,
@@ -62872,11 +62872,11 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>I.</b> <b>La siguiente imagen representa un tipo de herencia de grupos sanguíneos. Indique:</b><br>a) El fenotipo (grupo sanguíneo) de cada progenitor [0,2].<br>b) El fenotipo (grupo sanguíneo) y el genotipo de cada descendiente (D1, D2, D3, D4) [0,8]. <i>(1 punto)</i><br><br><b>II.</b> <b>En relación con la imagen adjunta, conteste a las siguientes cuestiones:</b><br>a) ¿Qué agente infeccioso está representado? [0,2]<br>b) ¿Qué indican los números del 1 al 5? [0,5]<br>c) ¿Cómo se denominan estos tipos de agentes infecciosos cuando poseen la estructura señalada con el número 2? ¿Y aquellos que carecen de dicha estructura? [0,3] <i>(1 punto)</i>",
    "puntos": 2,
    "c": [
-    "<b>I.</b> a) Progenitor 1: <mark class=\"clave-criterio\">grupo A</mark>; progenitor 2: <mark class=\"clave-criterio\">grupo B</mark> (no vale A0 ni B0 como fenotipo) (0,2 p).",
-    "<b>I.</b> b) D1: <mark class=\"clave-criterio\">grupo A, A0</mark>; D2: <mark class=\"clave-criterio\">grupo AB, AB</mark>; D3: <mark class=\"clave-criterio\">grupo B, B0</mark>; D4: <mark class=\"clave-criterio\">grupo 0, 00</mark> (0,8 p).",
+    "<b>I.</b> a) Progenitor 1: <mark class=\"clave-criterio\">grupo A</mark>; progenitor 2: <mark class=\"clave-criterio\">grupo B</mark> (no vale A0 ni B0 como fenotipo) (0,2 p). <span class=\"redactado\">Los alelos A y B son codominantes y los dos dominan sobre el 0.</span>",
+    "<b>I.</b> b) D1: <mark class=\"clave-criterio\">grupo A, A0</mark>; D2: <mark class=\"clave-criterio\">grupo AB, AB</mark>; D3: <mark class=\"clave-criterio\">grupo B, B0</mark>; D4: <mark class=\"clave-criterio\">grupo 0, 00</mark> (0,8 p). <span class=\"redactado\">Para que nazca un hijo del grupo 0 (00), los dos progenitores tienen que llevar el alelo 0: son A0 y B0, y cada uno de los cuatro grupos aparece con una probabilidad de 1/4.</span>",
     "<b>II.</b> a) <mark class=\"clave-criterio\">VIH</mark> (virus del SIDA) (0,2 p).",
-    "<b>II.</b> b) 1: <mark class=\"clave-criterio\">glucoproteína</mark> (espículas); 2: <mark class=\"clave-criterio\">bicapa lipídica</mark> (envoltura); 3: <mark class=\"clave-criterio\">cápsida</mark>; 4: <mark class=\"clave-criterio\">ARN</mark>; 5: <mark class=\"clave-criterio\">transcriptasa inversa</mark> (0,5 p).",
-    "<b>II.</b> c) Con envoltura: <mark class=\"clave-criterio\">virus envueltos</mark>; sin ella: <mark class=\"clave-criterio\">virus desnudos</mark> (0,3 p)."
+    "<b>II.</b> b) 1: <mark class=\"clave-criterio\">glucoproteína</mark> (espículas); 2: <mark class=\"clave-criterio\">bicapa lipídica</mark> (envoltura); 3: <mark class=\"clave-criterio\">cápsida</mark>; 4: <mark class=\"clave-criterio\">ARN</mark>; 5: <mark class=\"clave-criterio\">transcriptasa inversa</mark> (0,5 p). <span class=\"redactado\">Es un retrovirus: tiene dos copias de ARN de una cadena; la transcriptasa inversa fabrica ADN a partir de ese ARN. Las glucoproteínas se unen al receptor CD4 de los linfocitos T colaboradores.</span>",
+    "<b>II.</b> c) Con envoltura: <mark class=\"clave-criterio\">virus envueltos</mark>; sin ella: <mark class=\"clave-criterio\">virus desnudos</mark> (0,3 p). <span class=\"redactado\">La envoltura es una bicapa lipídica que el virus toma de la membrana de la célula al salir de ella.</span>"
    ],
    "isNew": true,
    "competencial": true,
@@ -62983,9 +62983,9 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "En relación con la tabla adjunta:<table class=\"tabla-pau\"><tr><th>Microorganismo</th><th>Grupo</th><th>Productos industriales</th></tr><tr><td><i>Saccharomyces</i></td><td>levadura</td><td>1</td></tr><tr><td><i>Streptococcus</i>, <i>Lactobacillus</i></td><td>2</td><td>yogur</td></tr><tr><td><i>Penicillium</i></td><td>3</td><td>4</td></tr></table>a) Copie y complete los números del 1 al 4 [1].<br>b) ¿Qué proceso bioquímico realiza <i>Saccharomyces</i> para la obtención del producto 1? [0,2] ¿cuál es el sustrato inicial y los productos finales de dicho proceso? [0,3]<br>c) Cite dos grupos de microorganismos diferentes a los representados en la tabla e indique su organización celular [0,5].",
    "c": [
-    "a) 1: <mark class=\"clave-criterio\">pan, cerveza o vino</mark>; 2: <mark class=\"clave-criterio\">bacteria</mark>; 3: <mark class=\"clave-criterio\">moho</mark> (hongo microscópico); 4: <mark class=\"clave-criterio\">penicilina</mark> (antibióticos) (1 p).",
-    "b) <mark class=\"clave-criterio\">Fermentación alcohólica</mark> (0,2 p); sustrato: <mark class=\"clave-criterio\">azúcares</mark>; productos: <mark class=\"clave-criterio\">etanol y CO₂</mark> (0,3 p).",
-    "c) <mark class=\"clave-criterio\">Algas (eucariotas)</mark> y <mark class=\"clave-criterio\">protozoos (eucariotas)</mark> (0,5 p)."
+    "a) 1: <mark class=\"clave-criterio\">pan, cerveza o vino</mark>; 2: <mark class=\"clave-criterio\">bacteria</mark>; 3: <mark class=\"clave-criterio\">moho</mark> (hongo microscópico); 4: <mark class=\"clave-criterio\">penicilina</mark> (antibióticos) (1 p). <span class=\"redactado\">Las bacterias lácticas transforman la lactosa de la leche en ácido láctico, que coagula las proteínas; Penicillium es un hongo filamentoso que produce penicilina, el primer antibiótico, descubierto por Fleming.</span>",
+    "b) <mark class=\"clave-criterio\">Fermentación alcohólica</mark> (0,2 p); sustrato: <mark class=\"clave-criterio\">azúcares</mark>; productos: <mark class=\"clave-criterio\">etanol y CO₂</mark> (0,3 p). <span class=\"redactado\">Sin oxígeno, las levaduras degradan la glucosa en la glucólisis y el pirúvico se transforma en etanol y CO₂, para regenerar el NAD⁺. En el pan, el CO₂ hace subir la masa.</span>",
+    "c) <mark class=\"clave-criterio\">Algas (eucariotas)</mark> y <mark class=\"clave-criterio\">protozoos (eucariotas)</mark> (0,5 p). <span class=\"redactado\">Las algas tienen cloroplastos y pared de celulosa; los protozoos son heterótrofos y no tienen pared.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2023 · Titular de julio",
@@ -63008,9 +63008,9 @@ window.BIOCELIA_HISTORICO = {
    "competencial": false,
    "q": "a) Defina los términos antígeno y anticuerpo [0,8]. b) Indique la naturaleza química de ambos [0,4]. c) Justifique el hecho de que un anticuerpo pueda comportarse como un antígeno [0,8].",
    "c": [
-    "a) Antígeno: <mark class=\"clave-criterio\">molécula que induce la respuesta del sistema inmunitario</mark>. Anticuerpo: molécula producida por las <mark class=\"clave-criterio\">células plasmáticas (linfocitos B)</mark> ante un antígeno, al que <mark class=\"clave-criterio\">se une específicamente</mark> (0,8 p).",
-    "b) Antígenos: <mark class=\"clave-criterio\">proteicos o polisacarídicos</mark> (también algunos lípidos); anticuerpos: <mark class=\"clave-criterio\">glucoproteínas</mark> (0,4 p).",
-    "c) El anticuerpo es una <mark class=\"clave-criterio\">proteína</mark>: en <mark class=\"clave-criterio\">otro organismo</mark> puede <mark class=\"clave-criterio\">no reconocerse como propia</mark> y <mark class=\"clave-criterio\">provocar una respuesta inmune</mark> (0,8 p)."
+    "a) Antígeno: <mark class=\"clave-criterio\">molécula que induce la respuesta del sistema inmunitario</mark>. Anticuerpo: molécula producida por las <mark class=\"clave-criterio\">células plasmáticas (linfocitos B)</mark> ante un antígeno, al que <mark class=\"clave-criterio\">se une específicamente</mark> (0,8 p). <span class=\"redactado\">La parte del antígeno que reconoce el anticuerpo es el epítopo; los anticuerpos tienen forma de Y, con dos sitios de unión al antígeno.</span>",
+    "b) Antígenos: <mark class=\"clave-criterio\">proteicos o polisacarídicos</mark> (también algunos lípidos); anticuerpos: <mark class=\"clave-criterio\">glucoproteínas</mark> (0,4 p). <span class=\"redactado\">Los antígenos suelen ser moléculas grandes.</span>",
+    "c) El anticuerpo es una <mark class=\"clave-criterio\">proteína</mark>: en <mark class=\"clave-criterio\">otro organismo</mark> puede <mark class=\"clave-criterio\">no reconocerse como propia</mark> y <mark class=\"clave-criterio\">provocar una respuesta inmune</mark> (0,8 p). <span class=\"redactado\">Por eso los sueros de caballo pueden provocar una reacción del sistema inmunitario del paciente cuando se repiten las dosis.</span>"
    ],
    "origen": {
     "documento": "PAU Andalucía 2023 · Titular de julio",
@@ -63061,12 +63061,12 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>I.</b> La talasemia es una enfermedad hereditaria de la sangre del ser humano que produce anemia. La anemia severa (talasemia mayor) aparece en individuos homocigóticos (TᴹTᴹ) y un tipo más benigno de anemia (talasemia menor) en los heterocigóticos (TᴹTᴺ). Los individuos sanos son homocigóticos (TᴺTᴺ). Si todos los individuos con talasemia mayor mueren antes de la madurez sexual, conteste de forma razonada a las siguientes preguntas realizando los cruzamientos correspondientes: a) ¿qué porcentaje de adultos de la F1 puede esperarse que sea sano en apareamientos de talasémicos menores con sanos? [0,5]; b) ¿qué fracción de individuos adultos de la F1 serán anémicos en cruzamientos entre talasémicos menores? [0,5] <i>(1 punto)</i><br><br><b>II.</b> En un laboratorio se cultivan cuatro microorganismos (A, B, C y D) en un medio con todos los nutrientes y las condiciones necesarias para su crecimiento. A continuación, se varía una condición en cada uno de los cultivos. La siguiente tabla muestra los resultados obtenidos en las diferentes condiciones; el signo + indica crecimiento y el signo – que no hubo crecimiento.<table class=\"tabla-pau\"><tr><th>Microorganismo</th><th>Medio con penicilina</th><th>Medio con inhibidor de fotosíntesis</th><th>Medio con inhibidor de síntesis de quitina</th></tr><tr><td>A</td><td>+</td><td>+</td><td>+</td></tr><tr><td>B</td><td>–</td><td>+</td><td>+</td></tr><tr><td>C</td><td>+</td><td>–</td><td>+</td></tr><tr><td>D</td><td>+</td><td>+</td><td>–</td></tr></table>Identifique el tipo de microorganismo presente en cada cultivo. Razone las respuestas [1]. <i>(1 punto)</i>",
    "puntos": 2,
    "c": [
-    "<b>I.</b> a) <mark class=\"clave-criterio\">TᴹTᴺ × TᴺTᴺ</mark>: los talasémicos menores dan gametos Tᴹ y Tᴺ y los sanos solo Tᴺ, así que el <mark class=\"clave-criterio\">50 %</mark> de la F1 serán <mark class=\"clave-criterio\">TᴺTᴺ (sanos)</mark> (0,5 p).",
-    "<b>I.</b> b) <mark class=\"clave-criterio\">TᴹTᴺ × TᴹTᴺ</mark>: el <mark class=\"clave-criterio\">¼ TᴹTᴹ muere</mark>; de los adultos, <mark class=\"clave-criterio\">⅔ serán talasémicos menores (anémicos)</mark> y <mark class=\"clave-criterio\">⅓ sanos</mark> (0,5 p).",
-    "<b>II.</b> A: <mark class=\"clave-criterio\">protozoo</mark>: <mark class=\"clave-criterio\">sin pared</mark> y <mark class=\"clave-criterio\">no fotosintético</mark> (0,25 p).",
-    "<b>II.</b> B: <mark class=\"clave-criterio\">bacteria</mark>: la <mark class=\"clave-criterio\">penicilina inhibe la síntesis de la pared bacteriana</mark> (0,25 p).",
-    "<b>II.</b> C: <mark class=\"clave-criterio\">alga</mark>: <mark class=\"clave-criterio\">no crece sin fotosíntesis</mark> (0,25 p).",
-    "<b>II.</b> D: <mark class=\"clave-criterio\">levadura</mark>: su <mark class=\"clave-criterio\">pared es de quitina</mark> (0,25 p)."
+    "<b>I.</b> a) <mark class=\"clave-criterio\">TᴹTᴺ × TᴺTᴺ</mark>: los talasémicos menores dan gametos Tᴹ y Tᴺ y los sanos solo Tᴺ, así que el <mark class=\"clave-criterio\">50 %</mark> de la F1 serán <mark class=\"clave-criterio\">TᴺTᴺ (sanos)</mark> (0,5 p). <span class=\"redactado\">Ninguno de los dos alelos domina por completo: el heterocigoto tiene un fenotipo intermedio. En este cruce no nacen TᴹTᴹ.</span>",
+    "<b>I.</b> b) <mark class=\"clave-criterio\">TᴹTᴺ × TᴹTᴺ</mark>: el <mark class=\"clave-criterio\">¼ TᴹTᴹ muere</mark>; de los adultos, <mark class=\"clave-criterio\">⅔ serán talasémicos menores (anémicos)</mark> y <mark class=\"clave-criterio\">⅓ sanos</mark> (0,5 p). <span class=\"redactado\">Es un alelo letal en homocigosis: de cada cuatro descendientes, uno muere antes de la madurez; de los tres que llegan a adultos, dos tienen talasemia menor.</span>",
+    "<b>II.</b> A: <mark class=\"clave-criterio\">protozoo</mark>: <mark class=\"clave-criterio\">sin pared</mark> y <mark class=\"clave-criterio\">no fotosintético</mark> (0,25 p). <span class=\"redactado\">Los protozoos tampoco tienen quitina.</span>",
+    "<b>II.</b> B: <mark class=\"clave-criterio\">bacteria</mark>: la <mark class=\"clave-criterio\">penicilina inhibe la síntesis de la pared bacteriana</mark> (0,25 p). <span class=\"redactado\">La pared bacteriana es de peptidoglucano (mureína); sin ella la bacteria estalla por la presión osmótica.</span>",
+    "<b>II.</b> C: <mark class=\"clave-criterio\">alga</mark>: <mark class=\"clave-criterio\">no crece sin fotosíntesis</mark> (0,25 p). <span class=\"redactado\">Las algas son autótrofas: necesitan la fotosíntesis para fabricar su materia orgánica.</span>",
+    "<b>II.</b> D: <mark class=\"clave-criterio\">levadura</mark>: su <mark class=\"clave-criterio\">pared es de quitina</mark> (0,25 p). <span class=\"redactado\">Los hongos, como las levaduras, tienen pared de quitina; las algas la tienen de celulosa.</span>"
    ],
    "isNew": false,
    "competencial": false,
@@ -63093,13 +63093,13 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>I.</b> <b>En relación con la figura adjunta, conteste a las siguientes preguntas:</b><br>a) ¿Qué molécula está representada en la imagen y qué tipo de estructura presenta? [0,3]<br>b) ¿Cómo se denominan los monómeros que la forman? [0,2]<br>c) ¿Qué parte de estos monómeros se encuentra proyectada hacia fuera? [0,2]<br>d) Indique qué enlaces mantienen esta estructura [0,3]. <i>(1 punto)</i><br><br><b>II.</b> <b>En relación con la imagen adjunta, conteste a las siguientes cuestiones:</b><br>a) ¿Qué tipo de transporte de membrana representa la imagen en su conjunto? [0,2]<br>b) ¿Qué procesos específicos se representan con las letras A, B y C? [0,3]<br>c) ¿Cómo se denominan los orgánulos, estructuras o moléculas representadas con los números del 1 al 5? [0,5] <i>(1 punto)</i>",
    "puntos": 2,
    "c": [
-    "<b>I.</b> a) <mark class=\"clave-criterio\">Proteína</mark> con estructura en <mark class=\"clave-criterio\">α-hélice</mark> (0,3 p).",
+    "<b>I.</b> a) <mark class=\"clave-criterio\">Proteína</mark> con estructura en <mark class=\"clave-criterio\">α-hélice</mark> (0,3 p). <span class=\"redactado\">Es una estructura secundaria: la cadena se enrolla en espiral dextrógira, con unos 3,6 aminoácidos por vuelta.</span>",
     "<b>I.</b> b) <mark class=\"clave-criterio\">Aminoácidos</mark> (0,2 p).",
-    "<b>I.</b> c) Las <mark class=\"clave-criterio\">cadenas laterales (radicales R)</mark> (0,2 p).",
-    "<b>I.</b> d) <mark class=\"clave-criterio\">Enlaces de hidrógeno</mark> y <mark class=\"clave-criterio\">enlaces peptídicos</mark> (0,3 p).",
+    "<b>I.</b> c) Las <mark class=\"clave-criterio\">cadenas laterales (radicales R)</mark> (0,2 p). <span class=\"redactado\">Los grupos C=O y N–H de los enlaces peptídicos quedan en el eje de la hélice.</span>",
+    "<b>I.</b> d) <mark class=\"clave-criterio\">Enlaces de hidrógeno</mark> y <mark class=\"clave-criterio\">enlaces peptídicos</mark> (0,3 p). <span class=\"redactado\">Cada puente de hidrógeno une el C=O de un aminoácido con el N–H del cuarto siguiente; los enlaces peptídicos forman la cadena.</span>",
     "<b>II.</b> a) <mark class=\"clave-criterio\">Endocitosis</mark> (0,2 p).",
-    "<b>II.</b> b) A: <mark class=\"clave-criterio\">fagocitosis</mark>; B: <mark class=\"clave-criterio\">pinocitosis</mark>; C: <mark class=\"clave-criterio\">endocitosis mediada por receptor</mark> (0,3 p).",
-    "<b>II.</b> c) 1: <mark class=\"clave-criterio\">pseudópodos</mark>; 2: <mark class=\"clave-criterio\">fagosoma</mark>; 3: <mark class=\"clave-criterio\">vesícula pinocítica</mark>; 4: <mark class=\"clave-criterio\">vesícula endocítica</mark>; 5: <mark class=\"clave-criterio\">receptor de membrana</mark> (0,5 p)."
+    "<b>II.</b> b) A: <mark class=\"clave-criterio\">fagocitosis</mark>; B: <mark class=\"clave-criterio\">pinocitosis</mark>; C: <mark class=\"clave-criterio\">endocitosis mediada por receptor</mark> (0,3 p). <span class=\"redactado\">En la fagocitosis se engloban partículas grandes, como bacterias; en la pinocitosis, líquido con moléculas disueltas; en la mediada por receptor, solo las moléculas que se unen a receptores específicos de la membrana, como el colesterol unido a las LDL.</span>",
+    "<b>II.</b> c) 1: <mark class=\"clave-criterio\">pseudópodos</mark>; 2: <mark class=\"clave-criterio\">fagosoma</mark>; 3: <mark class=\"clave-criterio\">vesícula pinocítica</mark>; 4: <mark class=\"clave-criterio\">vesícula endocítica</mark>; 5: <mark class=\"clave-criterio\">receptor de membrana</mark> (0,5 p). <span class=\"redactado\">El fagosoma se fusiona después con lisosomas, que digieren su contenido.</span>"
    ],
    "isNew": true,
    "competencial": true,
@@ -63130,12 +63130,12 @@ window.BIOCELIA_HISTORICO = {
    "puntos": 2,
    "c": [
     "<b>I.</b> a) 1: <mark class=\"clave-criterio\">ADN</mark>; 2: <mark class=\"clave-criterio\">ARNm</mark>; 3: <mark class=\"clave-criterio\">proteína</mark>; 4: <mark class=\"clave-criterio\">ribosoma</mark> (0,4 p).",
-    "<b>I.</b> b) A: <mark class=\"clave-criterio\">replicación</mark>; B: <mark class=\"clave-criterio\">transcripción</mark>; C: <mark class=\"clave-criterio\">transcripción inversa</mark>; D: <mark class=\"clave-criterio\">traducción</mark> (0,4 p).",
-    "<b>I.</b> c) A: <mark class=\"clave-criterio\">núcleo</mark>; D: <mark class=\"clave-criterio\">citoplasma</mark> (también mitocondria y cloroplasto) (0,2 p).",
+    "<b>I.</b> b) A: <mark class=\"clave-criterio\">replicación</mark>; B: <mark class=\"clave-criterio\">transcripción</mark>; C: <mark class=\"clave-criterio\">transcripción inversa</mark>; D: <mark class=\"clave-criterio\">traducción</mark> (0,4 p). <span class=\"redactado\">Es el dogma central de la biología molecular: el ADN se replica, se transcribe a ARN y este se traduce a proteínas; la transcripción inversa la realizan los retrovirus, como el VIH.</span>",
+    "<b>I.</b> c) A: <mark class=\"clave-criterio\">núcleo</mark>; D: <mark class=\"clave-criterio\">citoplasma</mark> (también mitocondria y cloroplasto) (0,2 p). <span class=\"redactado\">La replicación también ocurre en mitocondrias y cloroplastos, que tienen ADN propio.</span>",
     "<b>II.</b> a) <mark class=\"clave-criterio\">Bacteria</mark>, <mark class=\"clave-criterio\">procariota</mark> (0,2 p).",
-    "<b>II.</b> b) 2: <mark class=\"clave-criterio\">plásmido</mark>; 3: <mark class=\"clave-criterio\">ADN</mark> (cromosoma bacteriano) (0,3 p).",
-    "<b>II.</b> c) El <mark class=\"clave-criterio\">gen de la insulina</mark> (0,2 p).",
-    "<b>II.</b> d) <mark class=\"clave-criterio\">Crecimiento bacteriano</mark> (se admite selección de bacterias con el gen integrado) (0,3 p)."
+    "<b>II.</b> b) 2: <mark class=\"clave-criterio\">plásmido</mark>; 3: <mark class=\"clave-criterio\">ADN</mark> (cromosoma bacteriano) (0,3 p). <span class=\"redactado\">El plásmido es una pequeña molécula de ADN circular que se usa como vector.</span>",
+    "<b>II.</b> c) El <mark class=\"clave-criterio\">gen de la insulina</mark> (0,2 p). <span class=\"redactado\">Se usa un gen sin intrones, porque las bacterias no pueden eliminarlos; se inserta en el plásmido cortando los dos ADN con la misma enzima de restricción y uniéndolos con la ADN ligasa. Las bacterias lo expresan porque el código genético es universal.</span>",
+    "<b>II.</b> d) <mark class=\"clave-criterio\">Crecimiento bacteriano</mark> (se admite selección de bacterias con el gen integrado) (0,3 p). <span class=\"redactado\">Las bacterias se multiplican muy deprisa; cada una conserva el plásmido y produce insulina, que después se extrae y se purifica.</span>"
    ],
    "isNew": true,
    "competencial": true,
@@ -63167,9 +63167,9 @@ window.BIOCELIA_HISTORICO = {
    "c": [
     "<b>I.</b> a) A los 7 días: grupos 1 y 2 con <mark class=\"clave-criterio\">niveles elevados</mark> (<mark class=\"clave-criterio\">respuesta secundaria</mark> gracias a las <mark class=\"clave-criterio\">células de memoria</mark>); grupo 3 con <mark class=\"clave-criterio\">niveles bajos</mark> (<mark class=\"clave-criterio\">respuesta primaria</mark>) (0,5 p).",
     "<b>I.</b> b) A los 30 días: <mark class=\"clave-criterio\">niveles elevados en todos</mark>, porque al grupo 3 le ha dado tiempo a sintetizarlos (aunque <mark class=\"clave-criterio\">más altos en 1 y 2</mark>) (0,5 p).",
-    "<b>II.</b> a) <mark class=\"clave-criterio\">IgE</mark> (0,2 p). b) <mark class=\"clave-criterio\">Mastocito</mark> (también basófilo) (0,1 p).",
-    "<b>II.</b> c) <mark class=\"clave-criterio\">Alérgeno</mark> (0,2 p). d) <mark class=\"clave-criterio\">Histamina</mark> (0,2 p).",
-    "<b>II.</b> e) <mark class=\"clave-criterio\">Aumento de la permeabilidad vascular</mark>, <mark class=\"clave-criterio\">atracción de macrófagos</mark>, <mark class=\"clave-criterio\">aumento de la secreción exocrina</mark>. Uno (0,3 p)."
+    "<b>II.</b> a) <mark class=\"clave-criterio\">IgE</mark> (0,2 p). b) <mark class=\"clave-criterio\">Mastocito</mark> (también basófilo) (0,1 p). <span class=\"redactado\">En el primer contacto con el alérgeno se producen IgE, que se unen a los mastocitos (sensibilización).</span>",
+    "<b>II.</b> c) <mark class=\"clave-criterio\">Alérgeno</mark> (0,2 p). d) <mark class=\"clave-criterio\">Histamina</mark> (0,2 p). <span class=\"redactado\">En los contactos siguientes, el alérgeno se une a la IgE de los mastocitos, que liberan histamina.</span>",
+    "<b>II.</b> e) <mark class=\"clave-criterio\">Aumento de la permeabilidad vascular</mark>, <mark class=\"clave-criterio\">atracción de macrófagos</mark>, <mark class=\"clave-criterio\">aumento de la secreción exocrina</mark>. Uno (0,3 p). <span class=\"redactado\">Por ejemplo, la vasodilatación causa enrojecimiento e hinchazón, y la contracción de los bronquios, dificultad para respirar; en casos graves se produce un choque anafiláctico.</span>"
    ],
    "isNew": true,
    "competencial": true,
@@ -63199,8 +63199,8 @@ window.BIOCELIA_HISTORICO = {
    "q": "<b>I.</b> Al inocular un determinado antígeno a dos gemelos univitelinos (genéticamente idénticos), se observa que el pico máximo de producción de anticuerpos ocurre a los 20 días en el gemelo A y a los 5 días en el gemelo B. a) Proponga una explicación que justifique la diferencia en la respuesta inmune de ambos [0,5]. b) Si se analiza la sangre de cada gemelo en ese pico máximo de producción, ¿existiría alguna diferencia en los tipos de anticuerpos de ambos? Razone la respuesta [0,5]. <i>(1 punto)</i><br><br><b>II.</b> <b>La imagen adjunta representa dos tipos de tratamientos (1 y 2) empleados para conseguir una inmunización artificial:</b><br>a) ¿Qué contiene la vacuna que se administra en el tratamiento 1? [0,1]<br>b) ¿Qué se administra en el tratamiento 2? ¿Qué nombre recibe este tratamiento 2? [0,2]<br>c) Indique, en cada caso, si tras administrar el tratamiento se consigue una inmunidad de tipo humoral o celular [0,3].<br>d) ¿Cuál de ellos es un tratamiento preventivo y cuál curativo? [0,2]<br>e) Cite un proceso natural por el que un organismo pueda desarrollar una respuesta semejante a la que se consigue con el tratamiento 1 y otro que genere una respuesta semejante a la que se consigue cuando se emplea el tratamiento 2 [0,2]. <i>(1 punto)</i>",
    "puntos": 2,
    "c": [
-    "<b>I.</b> a) El gemelo B <mark class=\"clave-criterio\">ya había estado expuesto al antígeno</mark>: tiene una <mark class=\"clave-criterio\">respuesta secundaria</mark>, más rápida; el A, una <mark class=\"clave-criterio\">respuesta primaria</mark>, más lenta (0,5 p).",
-    "<b>I.</b> b) <mark class=\"clave-criterio\">Sí</mark>: en A predominaría la <mark class=\"clave-criterio\">IgM</mark> (respuesta primaria) y en B la <mark class=\"clave-criterio\">IgG</mark> (respuesta secundaria) (0,5 p).",
+    "<b>I.</b> a) El gemelo B <mark class=\"clave-criterio\">ya había estado expuesto al antígeno</mark>: tiene una <mark class=\"clave-criterio\">respuesta secundaria</mark>, más rápida; el A, una <mark class=\"clave-criterio\">respuesta primaria</mark>, más lenta (0,5 p). <span class=\"redactado\">El gemelo B tiene linfocitos B y T de memoria frente a ese antígeno, por una infección o vacunación anterior; aunque los dos son genéticamente idénticos, la memoria inmunológica se adquiere con la experiencia de cada uno.</span>",
+    "<b>I.</b> b) <mark class=\"clave-criterio\">Sí</mark>: en A predominaría la <mark class=\"clave-criterio\">IgM</mark> (respuesta primaria) y en B la <mark class=\"clave-criterio\">IgG</mark> (respuesta secundaria) (0,5 p). <span class=\"redactado\">En la respuesta secundaria también aumenta mucho la cantidad de anticuerpos.</span>",
     "<b>II.</b> a) <mark class=\"clave-criterio\">Antígenos</mark> (agente infeccioso debilitado) (0,1 p).",
     "<b>II.</b> b) <mark class=\"clave-criterio\">Anticuerpos</mark>; <mark class=\"clave-criterio\">sueroterapia</mark> (0,2 p).",
     "<b>II.</b> c) 1: <mark class=\"clave-criterio\">humoral y celular</mark> (0,2 p); 2: <mark class=\"clave-criterio\">humoral</mark> (0,1 p).",

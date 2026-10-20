@@ -28869,10 +28869,10 @@
     "tipo": "respuesta breve",
     "pregunta": "a) Indique los tipos de moléculas que se pueden obtener por hidrólisis de un nucleósido y de un nucleótido [0,5]. b) Cite el nombre de tres nucleótidos que participen en procesos metabólicos [0,3]. c) ¿Qué tipos de enlaces soportan la estructura bicatenaria de los ácidos nucleicos? [0,4] d) Describa una función estructural y otra energética de los nucleótidos [0,8].",
     "respuesta": [
-      "a) Nucleósido: base nitrogenada y pentosa; nucleótido: base nitrogenada, pentosa y ácido fosfórico (0,5 p).",
-      "b) NAD⁺, NADP⁺, ATP, GTP, AMPc, coenzima A, FAD. Tres (0,3 p).",
-      "c) Fosfodiéster y enlaces de hidrógeno (0,4 p).",
-      "d) Estructural: forman parte de los ácidos nucleicos, cromosomas y ribosomas. Energética: transfieren la energía acumulada en los enlaces fosfato (ATP) (0,8 p)."
+      "a) Nucleósido: base nitrogenada y pentosa; nucleótido: base nitrogenada, pentosa y ácido fosfórico (0,5 p). La base se une al carbono 1′ de la pentosa por enlace N-glucosídico, y el fosfato, al carbono 5′, por enlace éster.",
+      "b) NAD⁺, NADP⁺, ATP, GTP, AMPc, coenzima A, FAD. Tres (0,3 p). El NAD⁺ y el FAD transportan electrones en la respiración, el NADP⁺ en la fotosíntesis, la coenzima A transporta grupos acetilo y el AMP cíclico actúa como segundo mensajero de hormonas.",
+      "c) Fosfodiéster y enlaces de hidrógeno (0,4 p). Los enlaces fosfodiéster unen los nucleótidos de cada cadena; los puentes de hidrógeno unen las bases complementarias de las dos cadenas (A-T por dos, G-C por tres).",
+      "d) Estructural: forman parte de los ácidos nucleicos, cromosomas y ribosomas. Energética: transfieren la energía acumulada en los enlaces fosfato (ATP) (0,8 p). El ATP se hidroliza a ADP + Pi y libera energía para las reacciones que la necesitan; se regenera en la respiración y la fotosíntesis."
     ],
     "palabras_clave": [
       "AMPc",
@@ -28930,10 +28930,10 @@
     "tipo": "respuesta breve",
     "pregunta": "Defina los siguientes términos: a) evolución biológica [0,5]; b) estructura homóloga u órgano homólogo [0,5]; c) selección natural [0,5]; d) mutación [0,5].",
     "respuesta": [
-      "a) Evolución: proceso de aparición de nuevas especies por variaciones fenotípicas y genéticas que se suceden generación tras generación y llevan a la adaptación al ambiente (0,5 p).",
-      "b) Homólogas: origen evolutivo común y estructura interna similar, aunque puedan tener funciones distintas (0,5 p).",
-      "c) Selección natural: explica la supervivencia de los individuos mejor adaptados, favoreciendo los fenotipos con más posibilidades de sobrevivir (0,5 p).",
-      "d) Mutación: alteración en el material genético (0,5 p)."
+      "a) Evolución: proceso de aparición de nuevas especies por variaciones fenotípicas y genéticas que se suceden generación tras generación y llevan a la adaptación al ambiente (0,5 p). Según la teoría sintética, cambian las frecuencias de los alelos en las poblaciones a lo largo de las generaciones.",
+      "b) Homólogas: origen evolutivo común y estructura interna similar, aunque puedan tener funciones distintas (0,5 p). Por ejemplo, el brazo humano, el ala del murciélago y la aleta de la ballena tienen los mismos huesos; indican un antepasado común (evolución divergente).",
+      "c) Selección natural: explica la supervivencia de los individuos mejor adaptados, favoreciendo los fenotipos con más posibilidades de sobrevivir (0,5 p). Los individuos con caracteres más favorables en un ambiente dejan más descendencia, y sus alelos aumentan de frecuencia en la población; la propusieron Darwin y Wallace.",
+      "d) Mutación: alteración en el material genético (0,5 p). Si afecta a las células germinales se hereda; es la fuente original de alelos nuevos, la materia prima de la evolución."
     ],
     "palabras_clave": [
       "adaptación al ambiente",
@@ -28987,11 +28987,11 @@
     "tipo": "respuesta breve",
     "pregunta": "Defina los siguientes términos: a) inmunidad adquirida o adaptativa [0,4]; b) inmunidad natural [0,4]; c) inmunidad pasiva [0,4]; d) enfermedad autoinmune [0,4]; e) inmunodeficiencia [0,4].",
     "respuesta": [
-      "a) Adquirida: la que se contrae tras un contacto con un antígeno (0,4 p).",
-      "b) Natural: la producida por mecanismos biológicos naturales (por ejemplo, una infección) (0,4 p).",
-      "c) Pasiva: el individuo no elabora la respuesta (sueroterapia o a través de la madre) (0,4 p).",
-      "d) Autoinmune: la respuesta destruye moléculas o células propias (0,4 p).",
-      "e) Inmunodeficiencia: incapacidad del sistema inmunitario para defender al organismo (0,4 p)."
+      "a) Adquirida: la que se contrae tras un contacto con un antígeno (0,4 p). Es específica y tiene memoria; la realizan los linfocitos B y T.",
+      "b) Natural: la producida por mecanismos biológicos naturales (por ejemplo, una infección) (0,4 p). Puede ser activa, al pasar una enfermedad, o pasiva, por los anticuerpos que pasan de la madre al hijo por la placenta o la leche.",
+      "c) Pasiva: el individuo no elabora la respuesta (sueroterapia o a través de la madre) (0,4 p). Se reciben anticuerpos ya formados: actúa de inmediato, pero es temporal y no deja memoria.",
+      "d) Autoinmune: la respuesta destruye moléculas o células propias (0,4 p). El sistema inmunitario pierde la tolerancia frente a lo propio; por ejemplo, la diabetes de tipo 1 o la artritis reumatoide.",
+      "e) Inmunodeficiencia: incapacidad del sistema inmunitario para defender al organismo (0,4 p). Puede ser congénita, como la de los «niños burbuja», o adquirida, como el sida, en el que el VIH destruye los linfocitos T colaboradores."
     ],
     "palabras_clave": [
       "a través de la madre",
@@ -29015,9 +29015,9 @@
     "tipo": "respuesta breve",
     "pregunta": "Las alcachofas y otras verduras sufren un pardeamiento (oscurecimiento) al poco tiempo de ser cortadas. Esto se debe a la acción de enzimas que oxidan determinados compuestos de estos alimentos. Existen tres formas de evitar este pardeamiento: a) reducir la exposición de estos alimentos al oxígeno [0,4]; b) añadir compuestos ácidos [0,3]; c) calentar las verduras en agua hirviendo [0,3]. Explique razonadamente por qué no se produce el pardeamiento en estos tres casos.",
     "respuesta": [
-      "a) Sin oxígeno las enzimas no pueden catalizar la reacción y no se forman los compuestos pardos (0,4 p).",
-      "b) Con ácidos las enzimas se desnaturalizan por la bajada del pH (0,3 p).",
-      "c) El calor desnaturaliza las enzimas y pierden su actividad (0,3 p)."
+      "a) Sin oxígeno las enzimas no pueden catalizar la reacción y no se forman los compuestos pardos (0,4 p). El O₂ es uno de los sustratos de la reacción; por eso, si se sumergen en agua, apenas se oscurecen.",
+      "b) Con ácidos las enzimas se desnaturalizan por la bajada del pH (0,3 p). Cada enzima tiene un pH óptimo; un ácido, como el zumo de limón, cambia las cargas de los aminoácidos del centro activo y la enzima deja de actuar.",
+      "c) El calor desnaturaliza las enzimas y pierden su actividad (0,3 p). El calor rompe los enlaces débiles que mantienen la forma de la enzima y el centro activo deja de reconocer al sustrato."
     ],
     "palabras_clave": [
       "desnaturaliza las enzimas",
@@ -29037,8 +29037,8 @@
     "tipo": "respuesta breve",
     "pregunta": "Suponga una célula animal con cuatro pares de cromosomas que sufre una mitosis. Cada una de las células resultantes sufre posteriormente una meiosis. a) ¿Cuántas células se han producido al final del proceso? [0,5] b) ¿Cuál sería la dotación cromosómica que tiene cada una de las células tras cada división? [0,5] Razone todas las respuestas.",
     "respuesta": [
-      "a) 8 células: la mitosis da 2, y la meiosis de cada una da 4 (0,5 p).",
-      "b) Tras la mitosis: 2n = 8 (se mantiene la dotación). Tras la meiosis: n = 4, por la separación de los cromosomas homólogos (0,5 p)."
+      "a) 8 células: la mitosis da 2, y la meiosis de cada una da 4 (0,5 p). La mitosis forma 2 células, y cada meiosis, 4: 2 × 4 = 8.",
+      "b) Tras la mitosis: 2n = 8 (se mantiene la dotación). Tras la meiosis: n = 4, por la separación de los cromosomas homólogos (0,5 p). La mitosis produce células idénticas a la madre, con 8 cromosomas; en la meiosis I se separan los cromosomas homólogos, lo que reduce el número a la mitad, y en la meiosis II se separan las cromátidas."
     ],
     "palabras_clave": [
       "2",
@@ -29185,8 +29185,8 @@
     "tipo": "respuesta breve",
     "pregunta": "La siguiente imagen representa un tipo de herencia de grupos sanguíneos. Indique: a) El fenotipo (grupo sanguíneo) de cada progenitor [0,2]. b) El fenotipo (grupo sanguíneo) y el genotipo de cada descendiente (D1, D2, D3, D4) [0,8].",
     "respuesta": [
-      "a) Progenitor 1: grupo A; progenitor 2: grupo B (no vale A0 ni B0 como fenotipo) (0,2 p).",
-      "b) D1: grupo A, A0; D2: grupo AB, AB; D3: grupo B, B0; D4: grupo 0, 00 (0,8 p)."
+      "a) Progenitor 1: grupo A; progenitor 2: grupo B (no vale A0 ni B0 como fenotipo) (0,2 p). Los alelos A y B son codominantes y los dos dominan sobre el 0.",
+      "b) D1: grupo A, A0; D2: grupo AB, AB; D3: grupo B, B0; D4: grupo 0, 00 (0,8 p). Para que nazca un hijo del grupo 0 (00), los dos progenitores tienen que llevar el alelo 0: son A0 y B0, y cada uno de los cuatro grupos aparece con una probabilidad de 1/4."
     ],
     "palabras_clave": [
       "grupo 0, 00",
@@ -29210,8 +29210,8 @@
     "pregunta": "En relación con la imagen adjunta, conteste a las siguientes cuestiones: a) ¿Qué agente infeccioso está representado? [0,2] b) ¿Qué indican los números del 1 al 5? [0,5] c) ¿Cómo se denominan estos tipos de agentes infecciosos cuando poseen la estructura señalada con el número 2? ¿Y aquellos que carecen de dicha estructura? [0,3]",
     "respuesta": [
       "a) VIH (virus del SIDA) (0,2 p).",
-      "b) 1: glucoproteína (espículas); 2: bicapa lipídica (envoltura); 3: cápsida; 4: ARN; 5: transcriptasa inversa (0,5 p).",
-      "c) Con envoltura: virus envueltos; sin ella: virus desnudos (0,3 p)."
+      "b) 1: glucoproteína (espículas); 2: bicapa lipídica (envoltura); 3: cápsida; 4: ARN; 5: transcriptasa inversa (0,5 p). Es un retrovirus: tiene dos copias de ARN de una cadena; la transcriptasa inversa fabrica ADN a partir de ese ARN. Las glucoproteínas se unen al receptor CD4 de los linfocitos T colaboradores.",
+      "c) Con envoltura: virus envueltos; sin ella: virus desnudos (0,3 p). La envoltura es una bicapa lipídica que el virus toma de la membrana de la célula al salir de ella."
     ],
     "palabras_clave": [
       "ARN",
@@ -29236,9 +29236,9 @@
     "tipo": "respuesta breve",
     "pregunta": "En relación con los procesos alérgicos que se muestran en la figura: a) Identifique la molécula 1 [0,2]. b) Señale el tipo de célula indicada con el número 2 [0,1]. c) Indique el nombre de la molécula 3 [0,2]. d) Indique el nombre de la sustancia señalada con el número 4 [0,2]. e) Señale un efecto en el organismo de la molécula 4 [0,3].",
     "respuesta": [
-      "a) IgE (0,2 p). b) Mastocito (también basófilo) (0,1 p).",
-      "c) Alérgeno (0,2 p). d) Histamina (0,2 p).",
-      "e) Aumento de la permeabilidad vascular, atracción de macrófagos, aumento de la secreción exocrina. Uno (0,3 p)."
+      "a) IgE (0,2 p). b) Mastocito (también basófilo) (0,1 p). En el primer contacto con el alérgeno se producen IgE, que se unen a los mastocitos (sensibilización).",
+      "c) Alérgeno (0,2 p). d) Histamina (0,2 p). En los contactos siguientes, el alérgeno se une a la IgE de los mastocitos, que liberan histamina.",
+      "e) Aumento de la permeabilidad vascular, atracción de macrófagos, aumento de la secreción exocrina. Uno (0,3 p). Por ejemplo, la vasodilatación causa enrojecimiento e hinchazón, y la contracción de los bronquios, dificultad para respirar; en casos graves se produce un choque anafiláctico."
     ],
     "palabras_clave": [
       "Alérgeno",
@@ -29349,9 +29349,9 @@
     "tipo": "respuesta breve",
     "pregunta": "En relación con la tabla adjunta:MicroorganismoGrupoProductos industrialesSaccharomyceslevadura1Streptococcus, Lactobacillus2yogurPenicillium34a) Copie y complete los números del 1 al 4 [1]. b) ¿Qué proceso bioquímico realiza Saccharomyces para la obtención del producto 1? [0,2] ¿cuál es el sustrato inicial y los productos finales de dicho proceso? [0,3] c) Cite dos grupos de microorganismos diferentes a los representados en la tabla e indique su organización celular [0,5].",
     "respuesta": [
-      "a) 1: pan, cerveza o vino; 2: bacteria; 3: moho (hongo microscópico); 4: penicilina (antibióticos) (1 p).",
-      "b) Fermentación alcohólica (0,2 p); sustrato: azúcares; productos: etanol y CO₂ (0,3 p).",
-      "c) Algas (eucariotas) y protozoos (eucariotas) (0,5 p)."
+      "a) 1: pan, cerveza o vino; 2: bacteria; 3: moho (hongo microscópico); 4: penicilina (antibióticos) (1 p). Las bacterias lácticas transforman la lactosa de la leche en ácido láctico, que coagula las proteínas; Penicillium es un hongo filamentoso que produce penicilina, el primer antibiótico, descubierto por Fleming.",
+      "b) Fermentación alcohólica (0,2 p); sustrato: azúcares; productos: etanol y CO₂ (0,3 p). Sin oxígeno, las levaduras degradan la glucosa en la glucólisis y el pirúvico se transforma en etanol y CO₂, para regenerar el NAD⁺. En el pan, el CO₂ hace subir la masa.",
+      "c) Algas (eucariotas) y protozoos (eucariotas) (0,5 p). Las algas tienen cloroplastos y pared de celulosa; los protozoos son heterótrofos y no tienen pared."
     ],
     "palabras_clave": [
       "Algas (eucariotas)",
@@ -29376,9 +29376,9 @@
     "tipo": "respuesta breve",
     "pregunta": "a) Defina los términos antígeno y anticuerpo [0,8]. b) Indique la naturaleza química de ambos [0,4]. c) Justifique el hecho de que un anticuerpo pueda comportarse como un antígeno [0,8].",
     "respuesta": [
-      "a) Antígeno: molécula que induce la respuesta del sistema inmunitario. Anticuerpo: molécula producida por las células plasmáticas (linfocitos B) ante un antígeno, al que se une específicamente (0,8 p).",
-      "b) Antígenos: proteicos o polisacarídicos (también algunos lípidos); anticuerpos: glucoproteínas (0,4 p).",
-      "c) El anticuerpo es una proteína: en otro organismo puede no reconocerse como propia y provocar una respuesta inmune (0,8 p)."
+      "a) Antígeno: molécula que induce la respuesta del sistema inmunitario. Anticuerpo: molécula producida por las células plasmáticas (linfocitos B) ante un antígeno, al que se une específicamente (0,8 p). La parte del antígeno que reconoce el anticuerpo es el epítopo; los anticuerpos tienen forma de Y, con dos sitios de unión al antígeno.",
+      "b) Antígenos: proteicos o polisacarídicos (también algunos lípidos); anticuerpos: glucoproteínas (0,4 p). Los antígenos suelen ser moléculas grandes.",
+      "c) El anticuerpo es una proteína: en otro organismo puede no reconocerse como propia y provocar una respuesta inmune (0,8 p). Por eso los sueros de caballo pueden provocar una reacción del sistema inmunitario del paciente cuando se repiten las dosis."
     ],
     "palabras_clave": [
       "células plasmáticas (linfocitos B)",
@@ -29443,8 +29443,8 @@
     "tipo": "respuesta breve",
     "pregunta": "La talasemia es una enfermedad hereditaria de la sangre del ser humano que produce anemia. La anemia severa (talasemia mayor) aparece en individuos homocigóticos (TᴹTᴹ) y un tipo más benigno de anemia (talasemia menor) en los heterocigóticos (TᴹTᴺ). Los individuos sanos son homocigóticos (TᴺTᴺ). Si todos los individuos con talasemia mayor mueren antes de la madurez sexual, conteste de forma razonada a las siguientes preguntas realizando los cruzamientos correspondientes: a) ¿qué porcentaje de adultos de la F1 puede esperarse que sea sano en apareamientos de talasémicos menores con sanos? [0,5]; b) ¿qué fracción de individuos adultos de la F1 serán anémicos en cruzamientos entre talasémicos menores? [0,5]",
     "respuesta": [
-      "a) TᴹTᴺ × TᴺTᴺ: los talasémicos menores dan gametos Tᴹ y Tᴺ y los sanos solo Tᴺ, así que el 50 % de la F1 serán TᴺTᴺ (sanos) (0,5 p).",
-      "b) TᴹTᴺ × TᴹTᴺ: el ¼ TᴹTᴹ muere; de los adultos, ⅔ serán talasémicos menores (anémicos) y ⅓ sanos (0,5 p)."
+      "a) TᴹTᴺ × TᴺTᴺ: los talasémicos menores dan gametos Tᴹ y Tᴺ y los sanos solo Tᴺ, así que el 50 % de la F1 serán TᴺTᴺ (sanos) (0,5 p). Ninguno de los dos alelos domina por completo: el heterocigoto tiene un fenotipo intermedio. En este cruce no nacen TᴹTᴹ.",
+      "b) TᴹTᴺ × TᴹTᴺ: el ¼ TᴹTᴹ muere; de los adultos, ⅔ serán talasémicos menores (anémicos) y ⅓ sanos (0,5 p). Es un alelo letal en homocigosis: de cada cuatro descendientes, uno muere antes de la madurez; de los tres que llegan a adultos, dos tienen talasemia menor."
     ],
     "palabras_clave": [
       "50 %",
@@ -29467,10 +29467,10 @@
     "tipo": "respuesta breve",
     "pregunta": "En un laboratorio se cultivan cuatro microorganismos (A, B, C y D) en un medio con todos los nutrientes y las condiciones necesarias para su crecimiento. A continuación, se varía una condición en cada uno de los cultivos. La siguiente tabla muestra los resultados obtenidos en las diferentes condiciones; el signo + indica crecimiento y el signo – que no hubo crecimiento.MicroorganismoMedio con penicilinaMedio con inhibidor de fotosíntesisMedio con inhibidor de síntesis de quitinaA+++B–++C+–+D++–Identifique el tipo de microorganismo presente en cada cultivo. Razone las respuestas [1].",
     "respuesta": [
-      "A: protozoo: sin pared y no fotosintético (0,25 p).",
-      "B: bacteria: la penicilina inhibe la síntesis de la pared bacteriana (0,25 p).",
-      "C: alga: no crece sin fotosíntesis (0,25 p).",
-      "D: levadura: su pared es de quitina (0,25 p)."
+      "A: protozoo: sin pared y no fotosintético (0,25 p). Los protozoos tampoco tienen quitina.",
+      "B: bacteria: la penicilina inhibe la síntesis de la pared bacteriana (0,25 p). La pared bacteriana es de peptidoglucano (mureína); sin ella la bacteria estalla por la presión osmótica.",
+      "C: alga: no crece sin fotosíntesis (0,25 p). Las algas son autótrofas: necesitan la fotosíntesis para fabricar su materia orgánica.",
+      "D: levadura: su pared es de quitina (0,25 p). Los hongos, como las levaduras, tienen pared de quitina; las algas la tienen de celulosa."
     ],
     "palabras_clave": [
       "alga",
@@ -29495,8 +29495,8 @@
     "tipo": "respuesta breve",
     "pregunta": "Al inocular un determinado antígeno a dos gemelos univitelinos (genéticamente idénticos), se observa que el pico máximo de producción de anticuerpos ocurre a los 20 días en el gemelo A y a los 5 días en el gemelo B. a) Proponga una explicación que justifique la diferencia en la respuesta inmune de ambos [0,5]. b) Si se analiza la sangre de cada gemelo en ese pico máximo de producción, ¿existiría alguna diferencia en los tipos de anticuerpos de ambos? Razone la respuesta [0,5].",
     "respuesta": [
-      "a) El gemelo B ya había estado expuesto al antígeno: tiene una respuesta secundaria, más rápida; el A, una respuesta primaria, más lenta (0,5 p).",
-      "b) Sí: en A predominaría la IgM (respuesta primaria) y en B la IgG (respuesta secundaria) (0,5 p)."
+      "a) El gemelo B ya había estado expuesto al antígeno: tiene una respuesta secundaria, más rápida; el A, una respuesta primaria, más lenta (0,5 p). El gemelo B tiene linfocitos B y T de memoria frente a ese antígeno, por una infección o vacunación anterior; aunque los dos son genéticamente idénticos, la memoria inmunológica se adquiere con la experiencia de cada uno.",
+      "b) Sí: en A predominaría la IgM (respuesta primaria) y en B la IgG (respuesta secundaria) (0,5 p). En la respuesta secundaria también aumenta mucho la cantidad de anticuerpos."
     ],
     "palabras_clave": [
       "IgG",
@@ -29518,10 +29518,10 @@
     "tipo": "respuesta breve",
     "pregunta": "En relación con la figura adjunta, conteste a las siguientes preguntas: a) ¿Qué molécula está representada en la imagen y qué tipo de estructura presenta? [0,3] b) ¿Cómo se denominan los monómeros que la forman? [0,2] c) ¿Qué parte de estos monómeros se encuentra proyectada hacia fuera? [0,2] d) Indique qué enlaces mantienen esta estructura [0,3].",
     "respuesta": [
-      "a) Proteína con estructura en α-hélice (0,3 p).",
+      "a) Proteína con estructura en α-hélice (0,3 p). Es una estructura secundaria: la cadena se enrolla en espiral dextrógira, con unos 3,6 aminoácidos por vuelta.",
       "b) Aminoácidos (0,2 p).",
-      "c) Las cadenas laterales (radicales R) (0,2 p).",
-      "d) Enlaces de hidrógeno y enlaces peptídicos (0,3 p)."
+      "c) Las cadenas laterales (radicales R) (0,2 p). Los grupos C=O y N–H de los enlaces peptídicos quedan en el eje de la hélice.",
+      "d) Enlaces de hidrógeno y enlaces peptídicos (0,3 p). Cada puente de hidrógeno une el C=O de un aminoácido con el N–H del cuarto siguiente; los enlaces peptídicos forman la cadena."
     ],
     "palabras_clave": [
       "Aminoácidos",
@@ -29545,8 +29545,8 @@
     "pregunta": "En relación con la imagen adjunta, conteste a las siguientes cuestiones: a) ¿Qué tipo de transporte de membrana representa la imagen en su conjunto? [0,2] b) ¿Qué procesos específicos se representan con las letras A, B y C? [0,3] c) ¿Cómo se denominan los orgánulos, estructuras o moléculas representadas con los números del 1 al 5? [0,5]",
     "respuesta": [
       "a) Endocitosis (0,2 p).",
-      "b) A: fagocitosis; B: pinocitosis; C: endocitosis mediada por receptor (0,3 p).",
-      "c) 1: pseudópodos; 2: fagosoma; 3: vesícula pinocítica; 4: vesícula endocítica; 5: receptor de membrana (0,5 p)."
+      "b) A: fagocitosis; B: pinocitosis; C: endocitosis mediada por receptor (0,3 p). En la fagocitosis se engloban partículas grandes, como bacterias; en la pinocitosis, líquido con moléculas disueltas; en la mediada por receptor, solo las moléculas que se unen a receptores específicos de la membrana, como el colesterol unido a las LDL.",
+      "c) 1: pseudópodos; 2: fagosoma; 3: vesícula pinocítica; 4: vesícula endocítica; 5: receptor de membrana (0,5 p). El fagosoma se fusiona después con lisosomas, que digieren su contenido."
     ],
     "palabras_clave": [
       "Endocitosis",
@@ -29573,8 +29573,8 @@
     "pregunta": "En relación con la figura adjunta: a) Identifique las moléculas o estructuras señaladas con los números del 1 al 4 [0,4]. b) Señale los procesos indicados con las letras A, B, C y D [0,4]. c) Indique en qué compartimentos de la célula eucariótica se producen los procesos A y D [0,2].",
     "respuesta": [
       "a) 1: ADN; 2: ARNm; 3: proteína; 4: ribosoma (0,4 p).",
-      "b) A: replicación; B: transcripción; C: transcripción inversa; D: traducción (0,4 p).",
-      "c) A: núcleo; D: citoplasma (también mitocondria y cloroplasto) (0,2 p)."
+      "b) A: replicación; B: transcripción; C: transcripción inversa; D: traducción (0,4 p). Es el dogma central de la biología molecular: el ADN se replica, se transcribe a ARN y este se traduce a proteínas; la transcripción inversa la realizan los retrovirus, como el VIH.",
+      "c) A: núcleo; D: citoplasma (también mitocondria y cloroplasto) (0,2 p). La replicación también ocurre en mitocondrias y cloroplastos, que tienen ADN propio."
     ],
     "palabras_clave": [
       "ADN",
@@ -29602,9 +29602,9 @@
     "pregunta": "En la siguiente figura se ilustra la producción de insulina humana por un microorganismo: a) Identifique qué tipo de microorganismo está señalado con 1 y cuál es su organización celular [0,2]. b) Indique qué representan las estructuras señaladas con 2 y 3 [0,3]. c) ¿Qué debe contener la estructura 2 para que se pueda obtener el producto final insulina? [0,2] d) Indique qué proceso se representa en 4 [0,3].",
     "respuesta": [
       "a) Bacteria, procariota (0,2 p).",
-      "b) 2: plásmido; 3: ADN (cromosoma bacteriano) (0,3 p).",
-      "c) El gen de la insulina (0,2 p).",
-      "d) Crecimiento bacteriano (se admite selección de bacterias con el gen integrado) (0,3 p)."
+      "b) 2: plásmido; 3: ADN (cromosoma bacteriano) (0,3 p). El plásmido es una pequeña molécula de ADN circular que se usa como vector.",
+      "c) El gen de la insulina (0,2 p). Se usa un gen sin intrones, porque las bacterias no pueden eliminarlos; se inserta en el plásmido cortando los dos ADN con la misma enzima de restricción y uniéndolos con la ADN ligasa. Las bacterias lo expresan porque el código genético es universal.",
+      "d) Crecimiento bacteriano (se admite selección de bacterias con el gen integrado) (0,3 p). Las bacterias se multiplican muy deprisa; cada una conserva el plásmido y produce insulina, que después se extrae y se purifica."
     ],
     "palabras_clave": [
       "ADN",
