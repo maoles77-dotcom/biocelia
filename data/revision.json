@@ -1,0 +1,15 @@
+{
+  "generado": "2026-10-26",
+  "herramienta": "tools/revisor.html",
+  "nota": "Decisiones humanas. Las aprobadas pasan a verificado=true al fusionarlas.",
+  "preguntas": [
+    {
+      "id": "docx-b1-tema-5-acidos-nucleicos-14-126",
+      "estado": "descartada",
+      "bloque": null,
+      "tema": null,
+      "nota": "Retirada hasta tener una imagen buena: la figura extraída no lleva las letras A, B, C, D y E que pide la pregunta (en el Word eran cuadros de texto superpuestos)."
+    }
+  ],
+  "figuras": []
+}

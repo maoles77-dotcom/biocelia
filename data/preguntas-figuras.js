@@ -2,7 +2,7 @@
    Generado por tools/integrar_figuras.py el 2026-10-26.
    NO editar a mano: se regenera. Para cambiar una pregunta, edítala
    en el revisor y vuelve a ejecutar el script.
-   153 preguntas con figura, vinculadas por posición en el
+   152 preguntas con figura, vinculadas por posición en el
    documento de origen.
    ══════════════════════════════════════════════════════════════ */
 window.BIOCELIA_FIGURAS = [
@@ -822,28 +822,6 @@ window.BIOCELIA_FIGURAS = [
   "origen": {
    "documento": "B1.TEMA 5. ACIDOS NUCLEICOS.docx",
    "figura": "figdocx-b1-tema-5-acidos-nucleicos-image13",
-   "examen_anio": null,
-   "verificado": false
-  }
- },
- {
-  "id": "docx-b1-tema-5-acidos-nucleicos-14-126",
-  "block": "Biomoléculas",
-  "topic": "Tema 5 · Acidos nucleicos",
-  "isNew": true,
-  "hasImg": true,
-  "imgSrc": "assets/figuras/docx/b1-tema-5-acidos-nucleicos/image14.webp",
-  "imgThumb": "assets/figuras/docx/b1-tema-5-acidos-nucleicos/image14.thumb.webp",
-  "imageDesc": null,
-  "q": "<b>14.- En relación con las imágenes adjuntas, responda las siguientes preguntas:</b><br>a) ¿Qué tipo de molécula se representa en los cuadros 1 y 2? [0,2]. Identifique los componentes A, B, C y D [0,4]. Nombre los cuatro compuestos posibles que pueden ocupar la posición A [0,2] y los cuatro que pueden ocupar la posición E [0,2].<br>b) Cuando muchas moléculas de tipo 1 se asocian linealmente, ¿cómo se llama el enlace que las mantiene unidas? [0,2]. ¿Qué grupos químicos intervienen en la formación de este enlace? [0,2]. ¿Qué nombre recibe la macromolécula formada por gran cantidad de monómeros de tipo 1 [0,2]. ¿Qué función desempeña en la célula la macromolécula formada por monómeros de tipo 2? [0,2]. ¿Están presentes ambas macromoléculas en todos los seres celulares y acelulares? [0,2].",
-  "c": [
-   "a) 1: ribonucleótido; 2: desoxirribonucleótido. A: base nitrogenada; B: ácido fosfórico; C: ribosa; D: desoxirribosa. En el ribonucleótido: adenina, guanina, citosina y uracilo; en el desoxirribonucleótido: adenina, guanina, citosina y timina.",
-   "b) Enlace nucleotídico (fosfodiéster), entre el grupo fosfato del C5′ de un nucleótido y el ─OH del C3′ de otro. ARN. El ADN se encarga de albergar la información genética necesaria para el correcto funcionamiento celular. En los seres celulares hay de los dos tipos, pero en los acelulares, como los virus, habrá solo uno de los dos, según sean virus de ARN o virus de ADN."
-  ],
-  "f": "Pregunta y figura transcritas de «B1.TEMA 5. ACIDOS NUCLEICOS.docx». La solución mostrada es la del propio documento.",
-  "origen": {
-   "documento": "B1.TEMA 5. ACIDOS NUCLEICOS.docx",
-   "figura": "figdocx-b1-tema-5-acidos-nucleicos-image14",
    "examen_anio": null,
    "verificado": false
   }
