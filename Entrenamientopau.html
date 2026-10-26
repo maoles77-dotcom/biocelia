@@ -225,6 +225,7 @@
   #card { display: none; margin-top: 22px; }
 
   /* ─── BADGE DE BLOQUE CON COLOR POR MATERIA ─── */
+  .q-codigo{margin:.5rem 0 0;font:500 .74rem/1.3 ui-monospace,Consolas,monospace;color:#6b7280;user-select:all}
   .badge {
     display: inline-block;
     padding: 5px 13px;
@@ -466,6 +467,8 @@
       <span id="badgeNew" class="badge badge-new" style="display:none" aria-label="Pregunta del modelo competencial">Competencial</span>
     </div>
 
+    <p id="qCodigo" class="q-codigo" title="Indica este código si encuentras un error en la pregunta"></p>
+
     <div id="imgContainer" class="img-box" aria-hidden="true"></div>
 
     <div id="qText" class="question"></div>
@@ -510,6 +513,7 @@ const database = [
   // ── BIOMOLÉCULAS ──────────────────────────────────────────
 
   {
+    "id": "ent-001",
     "block": "Genética y Biotecnología",
     "topic": "Edición Genómica (CRISPR-Cas9) y Terapia Génica",
     "isNew": true,
@@ -524,6 +528,7 @@ const database = [
     "f": "Pregunta de máxima actualidad. Asegúrate de definir con precisión el rol del 'ARN guía' y la 'Enzima Cas9'. Para la parte ética, el tribunal exige la palabra 'heredabilidad' al hablar de la terapia en la línea germinal."
   },
   {
+    "id": "ent-002",
     "block": "Genética",
     "topic": "Replicación del ADN en Procariotas",
     "isNew": true,
@@ -539,6 +544,7 @@ const database = [
     "f": "Tip PAU: Imprescindible mencionar la direccionalidad 5'->3' para justificar por qué una hebra es continua y la otra fragmentada. La nomenclatura 'hebra adelantada' y 'rezagada' es la exigida."
   },
   {
+    "id": "ent-003",
     "block": "Célula",
     "topic": "Teoría Celular y Nutrición",
     "isNew": false,
@@ -553,6 +559,7 @@ const database = [
     "f": "Tip PAU: La distinción fundamental es que el cloroplasto almacena energía química en enlaces orgánicos, mientras que la mitocondria es la 'central eléctrica' que debe extraer esa energía en forma de ATP."
   },
   {
+    "id": "ent-004",
     "block": "Metabolismo",
     "topic": "Fosforilación oxidativa y Ciclo de Krebs",
     "isNew": false,
@@ -566,6 +573,7 @@ const database = [
     "f": "Tip PAU: No olvides especificar 'matriz mitocondrial' para Krebs. Si no especificas la dependencia de la cadena respiratoria para Krebs, la respuesta no es completa."
   },
   {
+    "id": "ent-005",
     "block": "Biomoléculas",
     "topic": "Lípidos: Clasificación y función",
     "isNew": false,
@@ -579,6 +587,7 @@ const database = [
     "f": "Tip PAU: Recuerda siempre que la reacción inversa es saponificación (si hay base) o hidrólisis (si hay agua y enzimas)."
   },
   {
+    "id": "ent-006",
     "block": "Genética",
     "topic": "Replicación del ADN (Técnica PCR)",
     "isNew": true,
@@ -595,6 +604,7 @@ const database = [
     "f": "Tip PAU: La palabra 'termoestable' para la Taq polimerasa es innegociable."
   },
   {
+    "id": "ent-007",
     "block": "Biomoléculas",
     "topic": "Estructura Proteica y Código Genético (AlphaFold)",
     "isNew": true,
@@ -608,6 +618,7 @@ const database = [
     "f": "Es un ejercicio excelente de integración. El concepto clave del último apartado es que el código genético es 'DEGENERADO' (evita decir redundante). En el apartado b, recalca la resistencia del enlace covalente peptídico frente a las interacciones débiles."
   },
   {
+    "id": "ent-008",
     "block": "Metabolismo",
     "topic": "Descarboxilación oxidativa y Ciclo de Krebs",
     "isNew": true,
@@ -622,6 +633,7 @@ const database = [
     "f": "Pregunta encadenada muy completa. El apartado de por qué Krebs es aeróbico sin usar O2 es crítico: la respuesta correcta debe mencionar la dependencia estricta de la cadena de transporte electrónico para reoxidar el NAD+/FAD."
   },
   {
+    "id": "ent-009",
     "block": "Metabolismo",
     "topic": "Cadena Respiratoria y Fosforilación Oxidativa",
     "isNew": true,
@@ -635,6 +647,7 @@ const database = [
     "f": "Para identificar la membrana impermeable a iones, debes apoyarte en el modelo de bicapa lipídica. Al describir el papel del Oxígeno (W), usa invariablemente la expresión 'Aceptor final de electrones'."
   },
   {
+    "id": "ent-010",
     "block": "Inmunología",
     "topic": "Anticuerpos neutralizantes y el VIH",
     "isNew": true,
@@ -648,6 +661,7 @@ const database = [
     "f": "El evaluador busca la clasificación estricta de la sueroterapia: 'Artificial' (intervención médica) y 'Pasiva' (el paciente recibe las armas, no las fabrica). La fase biológica a nombrar es la 'Fijación/Adsorción'."
   },
   {
+    "id": "ent-011",
     "block": "Inmunología",
     "topic": "Sueroterapia y evasión viral (Ébola)",
     "isNew": true,
@@ -661,6 +675,7 @@ const database = [
     "f": "Siempre que pregunten por qué el cuerpo tarda en defenderse ante la primera infección, la respuesta canónica debe describir las fases de la Respuesta Primaria: reconocimiento, selección clonal y producción de células efectoras."
   },
   {
+    "id": "ent-012",
     "block": "Biomoléculas",
     "topic": "Enlace peptídico y puentes disulfuro (Insulina)",
     "isNew": true,
@@ -674,6 +689,7 @@ const database = [
     "f": "Exigen saber dibujar la formulación del enlace peptídico básico (el grupo CO-NH). Las características innegociables del enlace peptídico a citar son: 'covalente amida', 'coplanar' y 'rígido por carácter de doble enlace'."
   },
   {
+    "id": "ent-013",
     "block": "Biomoléculas",
     "topic": "Esterificación y propiedades de Triacilglicéridos",
     "isNew": true,
@@ -687,6 +703,7 @@ const database = [
     "f": "Al citar la reacción inversa a la esterificación es conveniente priorizar el término biológico 'saponificación' si se usan bases o 'hidrólisis'. Recuerda destacar el carácter anfipático de los ácidos grasos."
   },
   {
+    "id": "ent-014",
     "block": "Célula",
     "topic": "Microscopía y observación de orgánulos celulares",
     "isNew": false,
@@ -700,6 +717,7 @@ const database = [
     "f": "Si enumeras las diferencias, evita formulaciones negativas (ej. 'no tiene centriolos'); céntrate en citar las estructuras afirmativas y exclusivas de la célula vegetal, como exigen los estándares de calificación."
   },
   {
+    "id": "ent-015",
     "block": "Metabolismo",
     "topic": "Anabolismo autótrofo y heterótrofo",
     "isNew": false,
@@ -713,6 +731,7 @@ const database = [
     "f": "La distinción clave que evalúa el tribunal es el origen del sustrato de carbono: Inocuo/Inorgánico (CO2) en autótrofos frente al Orgánico en heterótrofos, y el origen de la energía (Luz vs ATP químico)."
   },
     {
+    "id": "ent-016",
     "block": "Biomoléculas",
     "topic": "Triacilglicéridos y fosfolípidos",
     "isNew": false,
@@ -726,6 +745,7 @@ const database = [
     "f": "Términos obligatorios según criterios: 'esterificación', 'saponificable' y 'anfipático'. Diferencia con claridad la función de reserva del triacilglicérido frente a la función estructural del fosfolípido."
   },
   {
+    "id": "ent-017",
     "block": "Célula",
     "topic": "Interfase, mitosis y citocinesis celular",
     "isNew": false,
@@ -740,6 +760,7 @@ const database = [
     "f": "Es fundamental mencionar la 'replicación del ADN' en la fase S. Para la citocinesis, el corrector exige literalmente los términos 'anillo contráctil' (célula animal) y 'fragmoplasto' (célula vegetal)."
   },
   {
+    "id": "ent-018",
     "block": "Genética",
     "topic": "Características de Transcripción y Traducción",
     "isNew": false,
@@ -753,6 +774,7 @@ const database = [
     "f": "En la descripción de la transcripción debes mencionar explícitamente a la enzima 'ARN polimerasa'. El tribunal valorará positivamente que indiques la direccionalidad de lectura (3'->5') y de síntesis (5'->3')."
   },
   {
+    "id": "ent-019",
     "block": "Inmunología",
     "topic": "Alteraciones del sistema inmunitario",
     "isNew": false,
@@ -767,6 +789,7 @@ const database = [
     "f": "Las definiciones deben ser técnicas y precisas. Palabras clave exigidas: 'desproporcionada' para hipersensibilidad, 'pérdida de tolerancia a lo propio' para autoinmunidad, e 'incapacidad funcional' para inmunodeficiencia."
   },
   {
+    "id": "ent-020",
     "block": "Célula",
     "topic": "Transporte de iones e inhibición enzimática",
     "isNew": true,
@@ -780,6 +803,7 @@ const database = [
     "f": "Pregunta competencial de aplicación directa. Menciona explícitamente que el transporte de iones es 'en contra de gradiente'. Demostrar conocimiento sobre la estequiometría de la bomba (expulsión de Sodio e introducción de Potasio) consolida la máxima calificación."
   },
   {
+    "id": "ent-021",
     "block": "Genética",
     "topic": "Bases moleculares de la variabilidad: Mutación y Meiosis",
     "isNew": true,
@@ -793,6 +817,7 @@ const database = [
     "f": "Para explicar la meiosis debes usar la terminología 'intercambio de fragmentos entre cromátidas NO hermanas de cromosomas homólogos'. Relaciona claramente la variabilidad asexual exclusivamente con la 'mutación'."
   },
   {
+    "id": "ent-022",
     "block": "Microbiología",
     "topic": "Ciclo lítico de un bacteriófago",
     "isNew": false,
@@ -809,6 +834,7 @@ const database = [
     "f": "Identifica siempre a los virus con la expresión 'parásitos intracelulares obligados'. Enumera las 5 fases en orden y recalca que en la penetración, el virus 'inyecta el ácido nucleico, quedando la cápsida en el exterior'."
   },
   {
+    "id": "ent-023",
     "block": "Metabolismo",
     "topic": "Herbicidas y la fase fotoquímica",
     "isNew": true,
@@ -822,6 +848,7 @@ const database = [
     "f": "Palabras técnicas exigidas en la redacción: 'Fotofosforilación' y 'Ciclo de Calvin'. La clave competencial es justificar la dependencia funcional: la fase independiente de la luz fracasa sin el ATP/NADPH proveniente de los tilacoides."
   },
   {
+    "id": "ent-024",
     "block": "Genética",
     "topic": "Replicación bidireccional y semiconservativa",
     "isNew": false,
@@ -836,6 +863,7 @@ const database = [
     "f": "Error típico que resta puntuación: mencionar solo el núcleo como lugar de replicación, olvidando citar a las mitocondrias y cloroplastos. Al definir 'semiconservativa', emplea el paralelismo de 'cadena original' frente a 'cadena de nueva síntesis'."
   },
   {
+    "id": "ent-025",
     "block": "Biomoléculas",
     "topic": "Niveles estructurales y enlace peptídico",
     "isNew": false,
@@ -850,6 +878,7 @@ const database = [
     "f": "Es imperativo puntualizar, al mencionar el enlace peptídico, que se produce la 'liberación de una molécula de H2O'. Diferencia con nitidez los puentes de hidrógeno de la estructura secundaria (entre los grupos del esqueleto central) de los enlaces originados en la estructura terciaria (interacción entre radicales R)."
   },
 {
+"id": "ent-026",
 "block": "Inmunología",
 "topic": "Mecanismos de acción de los anticuerpos",
 "isNew": false,
@@ -863,6 +892,7 @@ const database = [
 "f": "No confundas opsonización con fagocitosis. La opsonización es únicamente el 'marcaje' o condimentación previa para que el macrófago posterior opere con muchísima más avidez."
 },
 {
+    "id": "ent-027",
     "block": "Genética",
     "topic": "Leyes de Chargaff y ácidos nucleicos virales",
     "isNew": true,
@@ -877,6 +907,7 @@ const database = [
     "f": "Trampa enorme de selectividad: No intentes calcular bases en virus monocatenarios, simplemente escribe que 'no es posible calcularlo por carecer de cadena complementaria'. Ojo con el ARN: usa URACILO, si pones Timina te anulan el apartado."
   },
   {
+    "id": "ent-028",
     "block": "Genética",
     "topic": "Herencia mendeliana (Alelos recesivos)",
     "isNew": true,
@@ -891,6 +922,7 @@ const database = [
     "f": "Asegúrate de escribir explícitamente los genotipos (Aa x Aa) y la proporción (25%) para justificar el primer apartado. Esta deducción es la base para resolver árboles genealógicos."
   },
   {
+    "id": "ent-029",
     "block": "Genética",
     "topic": "Equivalencia genómica y diferenciación celular",
     "isNew": true,
@@ -905,6 +937,7 @@ const database = [
     "f": "Palabra clave obligatoria: 'Regulación de la EXPRESIÓN GÉNICA DIFERENCIAL'. No basta con decir que 'usan genes distintos', hay que decir que los expresan o silencian."
   },
   {
+    "id": "ent-030",
     "block": "Metabolismo",
     "topic": "Ciclo de Krebs y Transporte Electrónico",
     "isNew": false,
@@ -918,6 +951,7 @@ const database = [
     "f": "Tip PAU: Para la justificación de 'aeróbico', menciona siempre la dependencia de la reoxidación de coenzimas en la cadena respiratoria. La falta de este detalle suele restar puntuación."
   },
   {
+    "id": "ent-031",
     "block": "Metabolismo",
     "topic": "Cadena Respiratoria y Fosforilación Oxidativa",
     "isNew": false,
@@ -931,6 +965,7 @@ const database = [
     "f": "Tip PAU: La impermeabilidad de la bicapa a los protones es el concepto clave que justifica la existencia de la ATP sintasa."
   },
   {
+    "id": "ent-032",
     "block": "Inmunología",
     "topic": "Inmunidad y Anticuerpos",
     "isNew": false,
@@ -946,6 +981,7 @@ const database = [
     "f": "Tip PAU: Recuerda siempre que las regiones variables (4) son las que confieren la especificidad antigénica."
   },
   {
+    "id": "ent-033",
     "block": "Inmunología",
     "topic": "Dinámica de la respuesta inmune",
     "isNew": false,
@@ -961,6 +997,7 @@ const database = [
     "f": "Tip PAU: La diferencia temporal en la curva B es el sello distintivo de la 'memoria inmunológica'."
   },
   {
+    "id": "ent-034",
     "block": "Inmunología",
     "topic": "Inmunidad pasiva natural materno-fetal",
     "isNew": true,
@@ -974,6 +1011,7 @@ const database = [
     "f": "El corrector exige que nombres a los anticuerpos 'IgG'. Es la única inmunoglobulina que cruza la placenta humana."
   },
   {
+    "id": "ent-035",
     "block": "Inmunología",
     "topic": "Origen, función y maduración de Linfocitos B",
     "isNew": false,
@@ -990,6 +1028,7 @@ const database = [
     "f": "En el apartado a), no digas solo 'en los huesos', usa el término 'Médula Ósea ROJA'. En el c) y d) es un fallo común llamarlos 'Linfocitos B activados'; la terminología PAU exige que los llames 'CÉLULAS PLASMÁTICAS'."
   },
   {
+    "id": "ent-036",
     "block": "Genética",
     "topic": "Fuentes de la variabilidad genética",
     "isNew": false,
@@ -1004,6 +1043,7 @@ const database = [
     "f": "En la definición de recombinación, las palabras 'cromátidas NO hermanas' son la clave que evalúa el tribunal. En la importancia biológica, es indispensable enlazar directamente la variabilidad genética a la 'evolución por Selección Natural'."
   },
   {
+    "id": "ent-037",
     "block": "Biomoléculas",
     "topic": "Diferencias generales entre ADN y ARN",
     "isNew": false,
@@ -1018,6 +1058,7 @@ const database = [
     "f": "Asegúrate de responder al apartado b) de forma paralela (Desoxirribosa frente a Ribosa / Timina frente a Uracilo). En la estructura, las palabras clave absolutas son 'Bicatenaria' frente a 'Monocatenaria'."
   },
 {
+"id": "ent-038",
 "block": "Metabolismo",
 "topic": "Glucólisis y destinos del ácido pirúvico",
 "isNew": false,
@@ -1033,6 +1074,7 @@ const database = [
 "f": "Palabra clave en la fosforilación: GRADIENTE DE PROTONES. Error típico: decir que en anaerobiosis el piruvato da ATP; la fermentación del piruvato en sí no da ATP, solo regenera NAD+ para que la glucólisis no se detenga."
 },
 {
+"id": "ent-039",
 "block": "Biomoléculas",
 "topic": "Niveles estructurales y desnaturalización de proteínas",
 "isNew": false,
@@ -1049,6 +1091,7 @@ const database = [
 "f": "El corrector exige que para la estructura primaria hables del 'enlace peptídico' y para la secundaria de los 'puentes de hidrógeno'. Trampa: decir que en la desnaturalización se rompe la proteína. Solo se despliega, el enlace peptídico permanece intacto."
 },
 {
+"id": "ent-040",
 "block": "Célula",
 "topic": "Mecanismos de transporte de membrana",
 "isNew": false,
@@ -1064,6 +1107,7 @@ const database = [
 "f": "En difusión y transporte activo es imperativo mencionar hacia dónde va el gradiente ('a favor' o 'en contra') y el consumo o no de ATP. Pinocitosis es para 'líquidos/solutos' y fagocitosis para 'grandes sólidos'."
 },
 {
+"id": "ent-041",
 "block": "Genética",
 "topic": "Ácidos nucleicos y Dogma Central",
 "isNew": false,
@@ -1080,6 +1124,7 @@ const database = [
 "f": "Es un fallo gravísimo decir que el ADN tiene uracilo o el ARN tiene timina. En los esquemas de ADN exige siempre indicar que las cadenas son antiparalelas (5'-3' y 3'-5')."
 },
 {
+"id": "ent-042",
 "block": "Genética",
 "topic": "Esquema del flujo de la información genética",
 "isNew": false,
@@ -1096,6 +1141,7 @@ const database = [
 "f": "Al describir el proceso B (traducción), el corrector andaluz exige dividirlo claramente en las tres etapas formales: Iniciación, Elongación y Terminación. Palabra clave en el código genético: DEGENERADO."
 },
 {
+"id": "ent-043",
 "block": "Microbiología",
 "topic": "Usos biotecnológicos de los microorganismos",
 "isNew": false,
@@ -1110,6 +1156,7 @@ const database = [
 "f": "Pregunta muy agradecida. Ojo con la clasificación: las bacterias hacen yogur (fermentación láctica) y los hongos/levaduras hacen vino o pan (fermentación alcohólica). No los mezcles."
 },
 {
+"id": "ent-044",
 "block": "Genética",
 "topic": "Retrocruzamiento y herencia de grupos sanguíneos",
 "isNew": false,
@@ -1124,6 +1171,7 @@ const database = [
 "f": "Para el razonamiento de la segunda parte, la palabra estrella es CODOMINANCIA. El cruzamiento prueba solo sirve para desenmascarar portadores ocultos en casos de dominancia completa."
 },
 {
+"id": "ent-045",
 "block": "Célula",
 "topic": "Componentes del núcleo interfásico",
 "isNew": false,
@@ -1138,6 +1186,7 @@ const database = [
 "f": "Separa muy bien la cromatina del nucleolo. La cromatina tiene el ADN de herencia normal, mientras que el nucleolo está especializado única y exclusivamente en fabricar la maquinaria de los ribosomas."
 },
 {
+"id": "ent-046",
 "block": "Biomoléculas",
 "topic": "Polímeros informativos y enlaces nucleotídicos",
 "isNew": false,
@@ -1152,6 +1201,7 @@ const database = [
 "f": "Es imprescindible usar el lenguaje espacial 5' y 3' para describir el enlace fosfodiéster. No sirve decir 'se une el fosfato al azúcar', hay que dar la localización exacta del carbono."
 },
 {
+"id": "ent-047",
 "block": "Microbiología",
 "topic": "Eutrofización y bacterias aerobias",
 "isNew": true,
@@ -1166,6 +1216,7 @@ const database = [
 "f": "El concepto estrella que el corrector andaluz quiere leer en tu examen es 'EUTROFIZACIÓN'. Tienes que culpar de la falta de oxígeno directamente al 'aumento de la respiración celular de las bacterias descomponedoras aerobias'."
 },
 {
+"id": "ent-048",
 "block": "Célula",
 "topic": "Glucocálix y receptores de toxinas",
 "isNew": true,
@@ -1179,6 +1230,7 @@ const database = [
 "f": "En Selectividad, siempre que hablen de azúcares por fuera de una célula humana apuntan directamente al GLUCOCÁLIX. Las palabras 'huella dactilar celular' o 'reconocimiento e identidad' suman muchos puntos."
 },
 {
+"id": "ent-049",
 "block": "Célula",
 "topic": "Demanda metabólica y abundancia mitocondrial",
 "isNew": true,
@@ -1193,6 +1245,7 @@ const database = [
 "f": "Es un ejercicio de sentido común biofísico. Vincula estrictamente la abundancia del orgánulo con la palabra mágica 'Gasto o Requerimiento energético de ATP'. Si explicas para qué usa cada célula esa energía, bordarás la respuesta."
 },
 {
+"id": "ent-050",
 "block": "Microbiología",
 "topic": "Ciclo atípico de los retrovirus (Transcriptasa inversa)",
 "isNew": true,
@@ -1207,6 +1260,7 @@ const database = [
 "f": "Palabra que garantiza la nota: TRANSCRIPTASA INVERSA. Además, no olvides que esta enzima no la fabrica la célula humana, el virus la tiene que llevar empaquetada físicamente dentro de su propia cápsida para usarla nada más entrar."
 },
 {
+"id": "ent-051",
 "block": "Célula",
 "topic": "Nucleolo y síntesis ribosómica vital",
 "isNew": true,
@@ -1221,6 +1275,7 @@ const database = [
 "f": "La trampa está en el decalaje de tiempo (pasan unos días). El nucleolo no hace proteínas, hace RIBOSOMAS. Tienes que argumentar el agotamiento y la falta de reposición de la maquinaria ribosomal en el citosol para ligar de forma maestra causa y efecto."
 },
 {
+"id": "ent-052",
 "block": "Metabolismo",
 "topic": "Desnaturalización térmica frente a actividad de catalasa",
 "isNew": true,
@@ -1235,6 +1290,7 @@ const database = [
 "f": "Es un experimento PAU histórico de 'cajón'. Las dos palabras que sustentan la calificación global son 'Enzima CATALASA' para el burbujeo y 'DESNATURALIZACIÓN proteica del centro activo' por las altas temperaturas del hervor."
 },
   {
+    "id": "ent-053",
     "block": "Biomoléculas",
     "topic": "Conceptos y cinética de las enzimas",
     "isNew": false,
@@ -1250,6 +1306,7 @@ const database = [
     "f": "Definir una enzima solo como un 'acelerador' es insuficiente y resta puntos; debes añadir que lo consigue 'reduciendo la energía de activación'. Al justificar el pH y la temperatura, el término químico 'desnaturalización' es OBLIGATORIO."
   },
   {
+    "id": "ent-054",
     "block": "Metabolismo",
     "topic": "Balance gaseoso celular en algas vs animales",
     "isNew": true,
@@ -1264,6 +1321,7 @@ const database = [
     "f": "Trampa clásica evaluativa: Muchos alumnos creen que si hay luz las células vegetales 'solo fotosintetizan y no respiran'. La respiración mitocondrial es continua (24h), pero la fotosíntesis en el día produce tal magnitud de oxígeno que enmascara (en el balance neto de los gases del frasco) al escaso oxígeno consumido por la respiración."
   },
   {
+    "id": "ent-055",
     "block": "Célula",
     "topic": "Ribosomas 70S vs 80S (Implicación endosimbiótica)",
     "isNew": true,
@@ -1278,6 +1336,7 @@ const database = [
     "f": "Esta pregunta sirve al tribunal para discernir un examen de sobresaliente. Indicar de inicio que el paciente humano tiene un citosol con ribosomas 80S asegura casi toda la nota, pero recordar que las profundidades de la mitocondria humana conservan el linaje de ribosomas 70S primitivos demuestra un dominio magistral biológico integrador de la Teoría Endosimbiótica."
   },
   {
+    "id": "ent-056",
     "block": "Biomoléculas",
     "topic": "Hidrólisis de Nucleótidos y el ATP",
     "isNew": false,
@@ -1293,6 +1352,7 @@ const database = [
     "f": "En la resolución del apartado c), se exige pericia de lectura del enunciado: solicita los lazos que 'soportan la estructura BICATENARIA'. No resulta válido bajo ninguna circunstancia anatómica mencionar superficialmente sólo el obvio enlace monómero-monómero fosfodiéster, debes incrustar e introducir de forma obligatoria la mención a los 'puentes de hidrógeno transversales' que fusionan biológicamente a las dos cadenas vecinas."
   },
   {
+    "id": "ent-057",
     "block": "Biomoléculas",
     "topic": "Monosacáridos (Clasificación química fundamental)",
     "isNew": false,
@@ -1307,6 +1367,7 @@ const database = [
     "f": "Una redacción de definición bioquímica de carácter estricto no alberga florituras; debes indicar en tu examen o papel: 'cadenas alifáticas polialcohólicas ataviadas de forma indispensable con un grupo base carbonilo' (o bien como sinónimo polihidroxialdehídos / polihidroxicetonas). No cometas el error básico e inmaduro de argumentar y esgrimir infantilmente que un monosacárido es 'un cristal azúcar dulce o sacarina alimenticia', eso a nivel de bachillerato no puntúa ni resulta definitorio en la escala académica PAU."
   },
   {
+"id": "ent-058",
 "block": "Genética",
 "topic": "Leyes de Chargaff y ácidos nucleicos virales",
 "isNew": true,
@@ -1320,6 +1381,7 @@ const database = [
 "f": "Trampa clásica de Selectividad: No intentes inventar cálculos para virus de cadena simple. El objetivo del tribunal es que demuestres que sabes que la proporción solo funciona si hay 'complementariedad de bases' en cadenas dobles."
 },
 {
+"id": "ent-059",
 "block": "Genética",
 "topic": "Herencia mendeliana (Alelos recesivos ocultos)",
 "isNew": true,
@@ -1334,6 +1396,7 @@ const database = [
 "f": "Para obtener el punto completo, es innegociable escribir en tu folio las letras de los genotipos (Aa x Aa) y mencionar el concepto de 'portador sano'. Sin el cruce escrito, te penalizarán."
 },
 {
+"id": "ent-060",
 "block": "Genética",
 "topic": "Equivalencia genómica y Diferenciación celular",
 "isNew": true,
@@ -1348,6 +1411,7 @@ const database = [
 "f": "El dogma obligatorio que el tribunal busca leer es 'Regulación de la EXPRESIÓN GÉNICA DIFERENCIAL'. No te limites a decir que 'usan partes distintas del ADN'; debes hablar de genes que se 'transcriben' o 'silencian'."
 },
 {
+"id": "ent-061",
 "block": "Inmunología",
 "topic": "Inmunidad pasiva natural (Barrera placentaria)",
 "isNew": true,
@@ -1361,6 +1425,7 @@ const database = [
 "f": "En el temario andaluz, es crítico memorizar que la 'IgG' es la ÚNICA inmunoglobulina que dispone del pasaporte químico para cruzar la placenta. Mencionar anticuerpos en general te restará nota por falta de precisión."
 },
 {
+"id": "ent-062",
 "block": "Inmunología",
 "topic": "Origen, función y maduración de Linfocitos B",
 "isNew": false,
@@ -1377,6 +1442,7 @@ const database = [
 "f": "Es un fallo castigado históricamente referirse a las fábricas de anticuerpos como simples 'Linfocitos B activados'; la terminología PAU exige llamarlas 'CÉLULAS PLASMÁTICAS'. Para el lugar de origen, no sirve poner 'huesos', especifica 'Médula Ósea Roja'."
 },
 {
+"id": "ent-063",
 "block": "Biomoléculas",
 "topic": "Clasificación y toxicidad de las Vitaminas",
 "isNew": false,
@@ -1391,6 +1457,7 @@ const database = [
 "f": "Palabra clave absoluta: COENZIMAS. Las vitaminas no dan energía, 'ayudan' a las enzimas a funcionar. La regla mnemotécnica para las liposolubles es K-E-D-A; todas las demás van por la orina y no intoxican."
 },
 {
+"id": "ent-064",
 "block": "Biomoléculas",
 "topic": "Laboratorio: Glúcidos y poder reductor",
 "isNew": true,
@@ -1407,6 +1474,7 @@ const database = [
 "f": "Es un ejercicio PAU de máximo nivel. El concepto que te dará todos los puntos es 'Enlace dicarbonílico o entre carbonos anoméricos' para justificar por qué la sacarosa no reduce; y usar la palabra 'Hidrólisis' para explicar el efecto del ácido."
 },
 {
+"id": "ent-065",
 "block": "Biomoléculas",
 "topic": "Bases nitrogenadas y enlace por puentes de hidrógeno",
 "isNew": false,
@@ -1422,6 +1490,7 @@ const database = [
 "f": "Regla mnemotécnica clásica: 'AGua Pura' (Adenina y Guanina son Púricas); las largas (Citosina, Timina, Uracilo) son las Pirimidínicas. Falla frecuentemente el número de puentes: C-G siempre requiere más energía para romperse porque tiene 3 anclajes."
 },
 {
+"id": "ent-066",
 "block": "Microbiología",
 "topic": "Experimento de fermentación (Yogur casero)",
 "isNew": true,
@@ -1437,6 +1506,7 @@ const database = [
 "f": "No basta con decir 'en el A sí y en el resto no'. El evaluador quiere que apliques todo tu temario de forma transversal: frío = inactividad enzimática; calor extremo = desnaturalización proteica; antibiótico = lisis de pared bacteriana."
 },
 {
+"id": "ent-067",
 "block": "Microbiología",
 "topic": "Análisis taxonómico de microorganismos en agua",
 "isNew": true,
@@ -1452,6 +1522,7 @@ const database = [
 "f": "Trampa: Muchos alumnos creen que si un bicho hace la fotosíntesis tiene que ser un alga a la fuerza. ¡Ojo a las Cianobacterias! Son bacterias (procariotas sin núcleo) y son las mayores oxigenadoras del planeta. La clave final de los ribosomas dobles en eucariotas da el punto cumbre."
 },
 {
+"id": "ent-068",
 "block": "Célula",
 "topic": "Destrucción experimental del Nucléolo celular",
 "isNew": true,
@@ -1466,6 +1537,7 @@ const database = [
 "f": "Esquema causa-efecto vital: Fármaco -> No nucléolo -> No hay ARN ribosómico -> No hay Ribosomas -> No hay Traducción -> No hay Proteínas -> Muerte. No caigas en la simplificación de decir que el nucléolo 'hace proteínas directamente', el nucléolo solo empaqueta la fábrica (el ribosoma)."
 },
 {
+"id": "ent-069",
 "block": "Célula",
 "topic": "Digestión intracelular y Endomembranas",
 "isNew": false,
@@ -1481,6 +1553,7 @@ const database = [
 "f": "Es un ejercicio visual soberbio. Observa las flechas de la imagen: si lo que se va a digerir viene rebotado desde el exterior de la célula es HETEROfagia. Si el cuerpo a digerir es un orgánulo propio (de ahí que haya dibujada una pequeña mitocondria envuelta), es AUTOfagia de reciclaje."
 },
 {
+"id": "ent-070",
 "block": "Célula",
 "topic": "Estructura interna del Cloroplasto y Genomas",
 "isNew": false,
@@ -1496,6 +1569,7 @@ const database = [
 "f": "Esquema mudo clásico. Si el dibujo señala granos sueltos y un hilo circular en un plasto o mitocondria, te están poniendo un 'puente de plata' para que saques a relucir obligatoriamente la Teoría Endosimbiótica de Margulis. Eso dispara la nota del examen."
 },
 {
+"id": "ent-071",
 "block": "Metabolismo",
 "topic": "Interpretación general del Ciclo de Krebs",
 "isNew": false,
@@ -1512,6 +1586,7 @@ const database = [
 "f": "Es vital relacionar el 'destino de los NADH' que te piden en el apartado E con el siguiente eslabón inevitable de la fábrica: la 'Cadena respiratoria en las crestas mitocondriales'. El ciclo de Krebs de por sí da poca energía útil; su misión es 'ordeñar' los electrones para mandarlos a la cadena."
 },
 {
+"id": "ent-072",
 "block": "Biotecnología",
 "topic": "Edición genómica de precisión (Técnica CRISPR-Cas9)",
 "isNew": true,
@@ -1525,6 +1600,7 @@ const database = [
 "f": "Pregunta modernísima que ya copa los currículos de PAU de la nueva década (Premio Nobel de Química 2020). Tienes que usar la metáfora de 'guía/GPS' para el ARN y el de 'tijera endonucleasa de precisión' para la Cas9. Aprende este sistema, porque será pregunta obligatoria en unos años."
 },
 {
+"id": "ent-073",
 "block": "Microbiología",
 "topic": "Mecanismos de transferencia horizontal de ADN",
 "isNew": false,
@@ -1538,6 +1614,7 @@ const database = [
 "f": "Para sacar el máximo, debes asociar una palabra maestra a cada método: Conjugación = 'Pili celular'. Transformación = 'ADN desnudo libre'. Transducción = 'Vector vírico o Fago'."
 },
 {
+"id": "ent-074",
 "block": "Biotecnología",
 "topic": "Clonación animal y células madre",
 "isNew": true,
@@ -1552,6 +1629,7 @@ const database = [
 "f": "Palabra clave indispensable al referirte a las células madre: 'PLURIPOTENTES'. Señala sin lugar a dudas que en la terapéutica jamás hay útero materno de por medio, el tejido se madura en placas de Petri de cristal."
 },
 {
+"id": "ent-075",
 "block": "Genética",
 "topic": "Alelos letales (Ratones de Cuénot)",
 "isNew": true,
@@ -1566,6 +1644,7 @@ const database = [
 "f": "El ardid para obtener el punto absoluto radica en que menciones imperativamente que el genotipo anómalo 'AA' muere EN FASE PRENATAL/EMBRIONARIA, y al recalcular la división debes utilizar un denominador de 3, no el clásico denominador de 4."
 },
 {
+"id": "ent-076",
 "block": "Célula",
 "topic": "Apoptosis vs Necrosis",
 "isNew": false,
@@ -1580,6 +1659,7 @@ const database = [
 "f": "Subraya incansablemente que en la necrosis existe ROTURA INCONTROLADA Y VERTIDO lo cual es causante directo e inexorable de la INFLAMACIÓN, antítesis rotunda del empaquetado seguro de los silenciosos y discretos 'cuerpos apoptóticos'."
 },
 {
+"id": "ent-077",
 "block": "Célula",
 "topic": "Desintoxicación y síntesis lipídica (REL)",
 "isNew": true,
@@ -1594,6 +1674,7 @@ const database = [
 "f": "Jamás aseveres perezosamente que el retículo liso sencillamente 'fabrica grasas'. El corrector escaneará y rebuscará ávidamente los binomios 'FOSFOLÍPIDOS DE MEMBRANA' y el dogma de la 'DETOXIFICACIÓN'."
 },
 {
+"id": "ent-078",
 "block": "Biomoléculas",
 "topic": "Clasificación y toxicidad de las vitaminas",
 "isNew": true,
@@ -1608,6 +1689,7 @@ const database = [
 "f": "Es un pecado original de PAU aseverar en las aulas que las vitaminas proporcionan o insuflan calorías; haz una declaración categórica de que no reportan aporte energético per se, sino que asisten catalíticamente. Fundamenta tu razonamiento médico-químico toxicofisiológico esgrimiendo con agudeza las raíces de 'lipofilicidad apolar' unidas a la 'inviabilidad y colapso renal de filtración de aceites y grasas'."
 },
 {
+"id": "ent-079",
 "block": "Genética",
 "topic": "Mecanismo de reparación por escisión de bases",
 "isNew": false,
@@ -1622,6 +1704,7 @@ const database = [
 "f": "Cerciórate fehacientemente de no mezclar e hibridar a la ADN Polimerasa líder (la ruidosa del número III) con la minuciosa Polimerasa I que protagoniza la etapa final reparadora tapón de pequeños nichos; este último punto diferencia una respuesta anodina generalizada de otra quirúrgicamente experta ante ojos severos y ávidos del calificador."
 },
 {
+"id": "ent-080",
 "block": "Metabolismo",
 "topic": "Vías anaeróbicas atípicas y degradación de proteínas",
 "isNew": true,
@@ -1636,6 +1719,7 @@ const database = [
 "f": "Para acotar conceptualmente un excelente punto exento de trabas y rebotes debes esgrimir obligatoria e infaliblemente el sustantivo 'SUSTRATO PROTEICO' para acorralar la descomposición putrefacta carnívora contraponiéndolo indisolublemente y en contraposición férrea al 'SUSTRATO ÚNICO GLÚCIDO HIDRATO CARBONO' que vertebra la ruta universal de las fermentaciones tradicionales agrarias de bodega de las uvas azucaradas de mosto."
 },
 {
+"id": "ent-081",
 "block": "Genética",
 "topic": "Paradoja del Genoma y Splicing alternativo",
 "isNew": true,
@@ -1650,6 +1734,7 @@ const database = [
 "f": "Es de vital importancia incrustar en negrita ineludible en el epicentro de la resolución evaluada la distinción prístina tajante e indubitable imperante excluyente e infalible sobre el binomio de los EXONES y los genes o intrusos silenciados de INTRONES para cimentar una armazón y nota exenta y blindada de mermas e imprecisiones terminológicas fútiles fatales o baladí perdiendo valiosísimos puntos PAU autonómicos evaluadores censores."
 },
 {
+"id": "ent-082",
 "block": "Biotecnología",
 "topic": "Producción in vitro de Ac monoclonales",
 "isNew": true,
@@ -1664,6 +1749,7 @@ const database = [
 "f": "Es un mantra o dictado de dogma andaluz innegociable en el tribunal que destiles y desgranés el milagroso dualismo simbiótico funcional e incuestionable del injerto al enumerar por un flanco a los progenitores que cimentan el éxito del quimerismo: el 'Linfocito B y el Mieloma/Tumor'. Recalca ciegamente e innegociablemente la distinción de que la corona de fabricar y manufacturar la globulina pura y delinear en sus planos del anticuerpo específico reposa íntegramente de facto exclusiva biológicamente por el frágil B linfático murino, en tanto que la batuta, pócima del grial e indómito motor o fuente de la vida eterna y la exultante fiera maquinaria de la inmortalidad ilimitada proliferativa in vitro obedece exclusivamente o viene blindada y donada blindada y fiera por el lastre oscuro neoplásico genético herético fiero y tumoral ciego abisal del monstruo clonado estirpe mieloide de la célula enferma y monstruo tumoral cáncer puro patológico celular oscuro canceroso cáncer ciego neoplásico mieloma."
 },
 {
+"id": "ent-083",
 "block": "Metabolismo",
 "topic": "Actividad enzimática, pH y Temperatura",
 "isNew": true,
@@ -1676,6 +1762,7 @@ const database = [
 "f": "Consejo PAU: La respuesta para ambos apartados se basa en la misma palabra clave: DESNATURALIZACIÓN. Explica siempre que se rompen los 'enlaces débiles' y se pierde la forma del 'centro activo'."
 },
 {
+"id": "ent-084",
 "block": "Biomoléculas",
 "topic": "Homopolisacáridos: Almidón vs Celulosa",
 "isNew": false,
@@ -1690,6 +1777,7 @@ const database = [
 "f": "Error típico: confundir los enlaces. La celulosa tiene enlaces BETA (por eso es estructural y no la digerimos) y el almidón/glucógeno tienen enlaces ALFA (reserva)."
 },
 {
+"id": "ent-085",
 "block": "Biomoléculas",
 "topic": "Triacilglicéridos y fosfolípidos",
 "isNew": false,
@@ -1703,6 +1791,7 @@ const database = [
 "f": "La palabra obligatoria para definir las propiedades del fosfolípido es ANFIPÁTICO. No olvides mencionar la 'esterificación' en la descripción estructural."
 },
 {
+"id": "ent-086",
 "block": "Metabolismo",
 "topic": "Inhibición enzimática",
 "isNew": false,
@@ -1717,6 +1806,7 @@ const database = [
 "f": "Trampa: no confundas competitiva (se une al centro activo) con no competitiva (se une a una zona distinta). Cita los 'enlaces covalentes' para explicar por qué es irreversible."
 },
 {
+"id": "ent-087",
 "block": "Célula",
 "topic": "Ciclo celular y Citocinesis",
 "isNew": false,
@@ -1731,6 +1821,7 @@ const database = [
 "f": "Las palabras clave innegociables en el apartado d) son 'anillo contráctil' y 'fragmoplasto'. En la interfase, no olvides que en la fase S se duplica el ADN."
 },
 {
+"id": "ent-088",
 "block": "Célula",
 "topic": "Célula animal vs Célula vegetal",
 "isNew": false,
@@ -1745,6 +1836,7 @@ const database = [
 "f": "Error típico: decir que las células vegetales no tienen mitocondrias (sí tienen, respiran las 24 horas). Las diferencias deben ser componentes absolutos (pared, cloroplasto, centriolos)."
 },
 {
+"id": "ent-089",
 "block": "Célula",
 "topic": "Mecanismos de transporte a través de membrana",
 "isNew": false,
@@ -1759,6 +1851,7 @@ const database = [
 "f": "Si te piden modalidades de transporte pasivo y respondes 'ósmosis y difusión', el tribunal de PAU Andalucía te quitará nota. Piden Difusión Simple y Facilitada."
 },
 {
+"id": "ent-090",
 "block": "Metabolismo",
 "topic": "Procesos fermentativos y su uso industrial",
 "isNew": false,
@@ -1772,6 +1865,7 @@ const database = [
 "f": "Las tres características innegociables son: anaeróbico, aceptor final orgánico y bajo rendimiento energético por oxidación parcial."
 },
 {
+"id": "ent-091",
 "block": "Inmunología",
 "topic": "Mimetismo molecular en protozoos",
 "isNew": true,
@@ -1785,6 +1879,7 @@ const database = [
 "f": "Es una pregunta de deducción brillante. La clave es explicar que el sistema inmune tiene 'tolerancia a lo propio'. Si el protozoo se disfraza de célula humana, burla esa detección (evasión antigénica)."
 },
 {
+"id": "ent-092",
 "block": "Inmunología",
 "topic": "Inmunidad innata, adquirida, sueros y vacunas",
 "isNew": false,
@@ -1799,6 +1894,7 @@ const database = [
 "f": "Es fundamental usar la combinación exacta de palabras 'activa/pasiva' y 'artificial'. En la inmunidad innata recalca siempre que 'carece de memoria'."
 },
 {
+"id": "ent-093",
 "block": "Biotecnología",
 "topic": "Microorganismos en la industria y plásmidos",
 "isNew": false,
@@ -1812,6 +1908,7 @@ const database = [
 "f": "Asegúrate de emparejar correctamente el nombre del microorganismo con su producto exacto. En la explicación de los plásmidos, la palabra clave innegociable que busca el tribunal es 'vector de transferencia o clonación'."
 },
 {
+"id": "ent-094",
 "block": "Célula",
 "topic": "Inhibición del aparato de Golgi",
 "isNew": true,
@@ -1825,6 +1922,7 @@ const database = [
 "f": "El corrector evaluará si comprendes que el RER y el Golgi trabajan en cadena (vía secretora del sistema de endomembranas). Menciona la 'cara trans' al hablar de la génesis de los lisosomas."
 },
 {
+"id": "ent-095",
 "block": "Metabolismo",
 "topic": "Anabolismo vs Catabolismo (Fotosíntesis y Respiración)",
 "isNew": false,
@@ -1839,6 +1937,7 @@ const database = [
 "f": "No te quedes a medias en la justificación: debes explicar de forma explícita qué pasa con la MATERIA (de simple a compleja o viceversa) y qué pasa con la ENERGÍA (se consume o se libera)."
 },
 {
+"id": "ent-096",
 "block": "Genética",
 "topic": "Efectos de una mutación puntual por sustitución",
 "isNew": true,
@@ -1854,6 +1953,7 @@ const database = [
 "f": "Es una de las preguntas de razonamiento genético más completas y evaluadas en PAU. Para la máxima puntuación, tienes que detallar obligatoriamente los TRES desenlaces posibles y utilizar la palabra 'código genético DEGENERADO'."
 },
 {
+"id": "ent-097",
 "block": "Inmunología",
 "topic": "Tipos de respuesta frente a infecciones locales y graves",
 "isNew": true,
@@ -1867,6 +1967,7 @@ const database = [
 "f": "Contrasta fuertemente la inmunidad 'Innata/Inespecífica' (rápida, macrófagos, inflamación) frente a la 'Adquirida/Específica' (lenta, linfocitos, anticuerpos)."
 },
 {
+"id": "ent-098",
 "block": "Microbiología",
 "topic": "Salazón como método de conservación",
 "isNew": true,
@@ -1880,6 +1981,7 @@ const database = [
 "f": "Palabras obligatorias: Medio HIPERTÓNICO, ÓSMOSIS y PLASMÓLISIS celular bacteriana. Sin esos tres conceptos, tu razonamiento será calificado como vulgar o incompleto."
 },
 {
+"id": "ent-099",
 "block": "Genética",
 "topic": "Mutación y evolución en poblaciones asexuales",
 "isNew": true,
@@ -1893,6 +1995,7 @@ const database = [
 "f": "El esquema es matemático: Sin sexo = no hay recombinación. Sin recombinación + sin mutación = 0 variabilidad. Sin variabilidad = la selección natural no tiene dónde elegir. Conclusión: Evolución cero."
 },
 {
+"id": "ent-100",
 "block": "Célula",
 "topic": "Despolimerización inducida de microtúbulos",
 "isNew": true,
@@ -1906,6 +2009,7 @@ const database = [
 "f": "Las tres deducciones clásicas sobre los microtúbulos de Selectividad en una sola pregunta: bloquean el HUSO ACROMÁTICO animal, bloquean el FLAGELO eucariota, pero son absolutamente inútiles contra bacterias (que no tienen citoesqueleto análogo)."
 },
 {
+"id": "ent-101",
 "block": "Genética",
 "topic": "Traducción y tipos de ARN",
 "isNew": false,
@@ -1922,6 +2026,7 @@ const database = [
 "f": "Palabra clave OBLIGATORIA: 'Complementariedad' para justificar el encaje entre codón y anticodón. Error típico: afirmar que la traducción puede ocurrir dentro del núcleo de eucariotas."
 },
 {
+"id": "ent-102",
 "block": "Célula",
 "topic": "Componentes de la célula procariota",
 "isNew": false,
@@ -1938,6 +2043,7 @@ const database = [
 "f": "Al citar diferencias, usa las negaciones fuertes: 'CARECE de verdadero núcleo' y 'CARECE de sistema de endomembranas'. No uses la palabra 'pared' como diferencia, ya que las eucariotas vegetales también la tienen (aunque de celulosa)."
 },
 {
+"id": "ent-103",
 "block": "Genética",
 "topic": "Hemicigosis y herencia ligada al sexo",
 "isNew": true,
@@ -1952,6 +2058,7 @@ const database = [
 "f": "Término estrella: HEMICIGÓTICO. Si razonas que 'como solo tienen un cromosoma X no pueden tener dos alelos distintos', te darán nota, pero acuñar la hemicigosis garantiza el pleno del punto."
 },
 {
+"id": "ent-104",
 "block": "Inmunología",
 "topic": "Inmunidad pasiva y linfocitos T",
 "isNew": false,
@@ -1966,6 +2073,7 @@ const database = [
 "f": "En 'Respuesta celular', la palabra vetada es ANTICUERPOS (eso es respuesta humoral). Define la celular basándote siempre en el binomio 'Linfocitos T / Lisis directa'."
 },
 {
+"id": "ent-105",
 "block": "Célula",
 "topic": "Orgánulos comunes y específicos",
 "isNew": false,
@@ -1979,6 +2087,7 @@ const database = [
 "f": "Los ribosomas o el citoesqueleto no valen aquí porque el enunciado pide específicamente orgánulos MEMBRANOSOS. Ojo con leer el enunciado a la ligera."
 },
 {
+"id": "ent-106",
 "block": "Metabolismo",
 "topic": "Temperatura, pH y cinética enzimática",
 "isNew": false,
@@ -1992,6 +2101,7 @@ const database = [
 "f": "Jamás uses el verbo 'destruir' o 'matar' a la enzima. La enzima es una molécula inerte que se DESNATURALIZA perdiendo su conformación espacial o arquitectónica nativa."
 },
 {
+"id": "ent-107",
 "block": "Célula",
 "topic": "Endocitosis vs Transportadores iónicos",
 "isNew": true,
@@ -2005,6 +2115,7 @@ const database = [
 "f": "Es un ejercicio de proporcionalidad celular. Las proteínas de canal o permeasas son 'agujeros a medida' para átomos; la fagocitosis es la ingestión a escala de microorganismos."
 },
 {
+"id": "ent-108",
 "block": "Inmunología",
 "topic": "Análisis de curva de inmunidad (Primaria vs Secundaria)",
 "isNew": true,
@@ -2020,6 +2131,7 @@ const database = [
 "f": "Error típico: decir que en la respuesta primaria actúan los macrófagos y en la secundaria los linfocitos. Ambos usan linfocitos, pero en la secundaria están los 'de memoria' esperando preparados en el cuartel."
 },
 {
+"id": "ent-109",
 "block": "Biomoléculas",
 "topic": "Enlace fosfodiéster y Watson/Crick",
 "isNew": false,
@@ -2034,6 +2146,7 @@ const database = [
 "f": "No confundas el enlace intracatenario (fosfodiéster, vertical a lo largo de la hebra) con el enlace intercatenario (puentes de hidrógeno, transversal entre hebras). Ambos son imprescindibles para pintar la doble hélice."
 },
 {
+"id": "ent-110",
 "block": "Biotecnología",
 "topic": "Biorremediación de mareas negras marinas",
 "isNew": true,
@@ -2047,6 +2160,7 @@ const database = [
 "f": "Conceptos de oro: Debes decir que las bacterias actúan 'oxidando o metabolizando como alimento' los hidrocarburos pesados. Nunca digas que las bacterias se 'comen' físicamente el petróleo cual aspiradora, metabolizan moléculas."
 },
 {
+"id": "ent-111",
 "block": "Genética",
 "topic": "Replicación asimétrica: Fragmentos de Okazaki",
 "isNew": true,
@@ -2061,6 +2175,7 @@ const database = [
 "f": "Es un fallo de suspenso inminente olvidar detallar que la polimerasa LÉE de 3' a 5' pero SINTETIZA el ADN nuevo de 5' a 3'. Expresa muy bien esa direccionalidad numérica."
 },
 {
+"id": "ent-112",
 "block": "Célula",
 "topic": "Red del Citoesqueleto: Filamentos y Uniones",
 "isNew": false,
@@ -2075,6 +2190,7 @@ const database = [
 "f": "Si el examinador pide clasificación de menor a mayor grosor, alterarla resta medio punto automáticamente. Palabra estrella para los microtúbulos: la proteína DÍMERO DE TUBULINA."
 },
 {
+"id": "ent-113",
 "block": "Inmunología",
 "topic": "Respuesta inespecífica de Inflamación local",
 "isNew": true,
@@ -2089,6 +2205,7 @@ const database = [
 "f": "Toda inflamación de manual cuenta con 3 actos. No te dejes la Diapédesis (el paso literal de la célula por el tubo sanguíneo), ni justificar de dónde proviene el calor y la hinchazón (afluencia brutal de plasma y glóbulos)."
 },
 {
+"id": "ent-114",
 "block": "Metabolismo",
 "topic": "Beta-oxidación de las reservas lipídicas",
 "isNew": false,
@@ -2103,6 +2220,7 @@ const database = [
 "f": "Es un pecado capital afirmar que los lípidos sufren 'Glucólisis'. Recuerda la regla de Lynen: los ácidos grasos se tajan en eslabones de DOS en DOS carbonos llamados Acetil-CoA."
 },
 {
+"id": "ent-115",
 "block": "Biomoléculas",
 "topic": "Terpenos y Esteroides (Insaponificables)",
 "isNew": false,
@@ -2117,6 +2235,7 @@ const database = [
 "f": "Nunca uses el comodín facilón de 'Lípido insaponificable es el que no hace jabón'. Esa no es una definición bioquímica válida, es una redundancia. Di que 'Cae fuera de este grupo por la AUSENCIA de un esqueleto con Ácidos Grasos'."
 },
 {
+"id": "ent-116",
 "block": "Célula",
 "topic": "Nucleolo celular y ensamblaje ribosómico",
 "isNew": false,
@@ -2130,6 +2249,7 @@ const database = [
 "f": "Ojo porque muchos examinados creen que el ribosoma maduro completo sale surfeando alegremente desde el núcleo. Es falso. Las subunidades ribosómicas (mayor y menor) salen desacopladas por separado, y sólo engarzan su muela en el exterior sobre un mensajero."
 },
 {
+"id": "ent-117",
 "block": "Genética",
 "topic": "Deleción génica vs Sustitución silenciosa",
 "isNew": true,
@@ -2143,6 +2263,7 @@ const database = [
 "f": "Mantra supremo andaluz de la deleción y adición genética: Tienes que imprimir la frase 'Corrimiento del marco o de la pauta de lectura'. Ese concepto, más la palabra 'codón Stop prematuro' certifica un 10 rotundo en la corrección."
 },
 {
+"id": "ent-118",
 "block": "Genética",
 "topic": "Ploidía cromosómica (Metafase y Meiosis gamética)",
 "isNew": true,
@@ -2157,6 +2278,7 @@ const database = [
 "f": "Regla matemática inexpugnable que has de vigilar a hierro: En toda metafase ordinaria celular, multiplica sistemáticamente tu número '2n' total por dos para adivinar las cromátidas. En todo espermatozoide y óvulo terminado, el montante de cromosomas siempre será igualitario e idéntico a las cromátidas (divide '2n' a la mitad para ambos). El examinador penaliza la equivocación de cromátida-metafásica gravísimamente."
 },
 {
+"id": "ent-119",
 "block": "Biomoléculas",
 "topic": "Tipos de ARN y sus funciones",
 "isNew": false,
@@ -2171,6 +2293,7 @@ const database = [
 "f": "Es imprescindible asociar cada ARN con su papel concreto en la TRADUCCIÓN. Ojo: el ARNr forma la 'estructura' del ribosoma, no digas solo que 'está en el ribosoma'."
 },
 {
+"id": "ent-120",
 "block":"Célula",
 "topic":"Ósmosis en células vegetales (turgencia y plasmólisis)",
 "isNew":true,
@@ -2180,6 +2303,7 @@ const database = [
 "f":"Palabra clave obligatoria: ÓSMOSIS. El truco es darse cuenta de que una célula vegetal sin pared se comporta biofísicamente de forma idéntica a una célula animal (glóbulo rojo). Debes mencionar la lisis en el medio hipotónico."
 },
 {
+"id": "ent-121",
 "block":"Genética",
 "topic":"Mutación puntual y código degenerado",
 "isNew":true,
@@ -2189,6 +2313,7 @@ const database = [
 "f":"Término absolutamente OBLIGATORIO: 'código genético DEGENERADO'. Tienes que explicar la cadena de sucesos lógicos: ADN mutado -> codón sinónimo -> aminoácido idéntico -> proteína intacta."
 },
 {
+"id": "ent-122",
 "block":"Metabolismo",
 "topic":"Inhibición del Ciclo de Krebs",
 "isNew":true,
@@ -2198,6 +2323,7 @@ const database = [
 "f":"Trampa: Muchos alumnos asumen que si la mitocondria falla, el ATP cae a cero absoluto. Debes recordar que la glucólisis citosólica aporta una ínfima parte (2 ATP) si se activa la vía fermentativa."
 },
 {
+"id": "ent-123",
 "block":"Biomoléculas",
 "topic":"Actividad enzimática y pH (Desnaturalización)",
 "isNew":true,
@@ -2207,6 +2333,7 @@ const database = [
 "f":"La respuesta debe girar íntegramente en torno a la DESNATURALIZACIÓN proteica inducida por el pH. Deja claro que la enzima no 'desaparece', sino que su 'centro activo se deforma'."
 },
 {
+"id": "ent-124",
 "block":"Inmunología",
 "topic":"Clasificación de los tipos de inmunidad",
 "isNew":true,
@@ -2216,6 +2343,7 @@ const database = [
 "f":"El corrector tiene una plantilla innegociable. En cada apartado debes citar SIEMPRE los tres adjetivos combinados: origen (natural/artificial) + acción (activa/pasiva) + memoria (temporal/duradera). Si omites uno, te restan puntuación."
 },
 {
+"id": "ent-125",
 "block":"Biotecnología",
 "topic":"Terapia génica y uso de virus como vectores",
 "isNew":true,
@@ -2225,6 +2353,7 @@ const database = [
 "f":"Palabras clave insustituibles: 'Gen sano funcional', 'Vector biológico/transferencia' e 'Inofensivos/Sin patogenicidad'. El tribunal evaluará si explicas por qué el virus no enfermará a la persona."
 },
 {
+"id": "ent-126",
 "block":"Genética",
 "topic":"Interpretación de pedigrí (autosómico recesivo)",
 "isNew":true,
@@ -2235,6 +2364,7 @@ const database = [
 "f":"En la interpretación de árboles o pedigrís, grábate la regla de oro andaluza: 'Dos padres fenotípicamente idénticos que tienen un hijo de fenotipo distinto evidencian de facto que los padres son heterocigotos y el rasgo novedoso del hijo es el recesivo'."
 },
 {
+"id": "ent-127",
 "block":"Célula",
 "topic":"Cloroplastos vs Mitocondrias (Orgánulos transductores)",
 "isNew":false,
@@ -2244,6 +2374,7 @@ const database = [
 "f":"El examinador puntúa fuertemente que uses la terminología molecular propia de la Teoría Endosimbiótica ('ADN circular' y 'ribosomas 70S') para sus similitudes. En el apartado energético, huye de simplezas como 'hacen ATP'; diferencia el origen primigenio del impulso."
 },
 {
+"id": "ent-128",
 "block":"Metabolismo",
 "topic":"Dependencia mitocondrial letal en plantas",
 "isNew":true,
@@ -2253,6 +2384,7 @@ const database = [
 "f":"Falla típica monumental: creer que las plantas 'respiran de noche y hacen la fotosíntesis de día'. Corrige ese mito; las células vegetales respiran activamente oxígeno en sus mitocondrias las 24 horas del reloj incesantemente. Bloquear la respiración mata."
 },
 {
+"id": "ent-129",
 "block":"Biomoléculas",
 "topic":"Especificidad proteica y rechazo inmunológico",
 "isNew":true,
@@ -2262,6 +2394,7 @@ const database = [
 "f":"El encadenamiento lógico que busca el tribunal es impecable: ADN -> Secuencia aminoacídica -> Forma tridimensional de la Glucoproteína de Membrana -> Detección de Antígeno exógeno. La expresión mágica que suma nota es 'Complejo Mayor de Histocompatibilidad (MHC)'."
 },
 {
+"id": "ent-130",
 "block":"Célula",
 "topic":"Modelo del mosaico fluido de membrana",
 "isNew":false,
@@ -2271,6 +2404,7 @@ const database = [
 "f":"El tribunal chequeará en tu respuesta si usas los vocablos 'Movimientos de desplazamiento lateral', 'Colesterol como tampón térmico' y sobre todo el concepto asimétrico de 'Glucocálix'. Evita relatar un amasijo; describe primero el ladrillo (lípidos) y luego el adorno asimétrico (glúcidos extracelulares)."
 },
 {
+"id": "ent-131",
 "block":"Microbiología",
 "topic":"Diferenciación de formas acelulares infectivas",
 "isNew":false,
@@ -2280,6 +2414,7 @@ const database = [
 "f":"Las afirmaciones que valen el punto completo deben ser tajantes: En el viroide tienes que escribir 'ARN DESNUDO sin atisbo de cápsida alguna'. En el prión has de subrayar 'PROTEÍNA SIN atisbo de ácido nucleico u orden genética'. Son los estandartes biológicos."
 },
 {
+"id": "ent-132",
 "block":"Inmunología",
 "topic":"Terapia con Anticuerpos Monoclonales en Oncología",
 "isNew":true,
@@ -2289,6 +2424,7 @@ const database = [
 "f":"El concepto rector es que un anticuerpo, por muy caro o monoclonal que sea, no es más que una simple 'proteína que se desgasta y orina', y que si no espoleas a la 'fábrica celular original de linfocitos' con el antígeno, no cimentas cimientos biológicos para el futuro."
 },
 {
+"id": "ent-133",
 "block":"Genética",
 "topic":"Implicación evolutiva de mutaciones somáticas y germinales",
 "isNew":true,
@@ -2298,6 +2434,7 @@ const database = [
 "f":"Es uno de los supuestos andaluces más clásicos. El error garrafal reside en despistarse relatando un tratado oncológico sobre el cáncer; ve crudo, raso e implacable al grano evolutivo y herético: 'La mutación somática o de cuerpo fenecido jamás cruza la barrera generacional; la mutación germinal, del gameto seminal, es la que pilota y rige la selección darwiniana'."
 },
 {
+"id": "ent-134",
 "block":"Biomoléculas",
 "topic":"ATP y enlaces fosfoanhídrido",
 "isNew":false,
@@ -2307,6 +2444,7 @@ const database = [
 "f":"Bajo esta extensa literatura se esconde la norma áurea de todo evaluador biólogo a la hora de corregir de un rápido y severo plumazo esta cuestión atemporal: Si el candidato o examinando titubea, duda y omite acuñar en el folio en blanco la palabra sagrada de 'ENLACE FOSFOANHÍDRIDO', la balanza del punto le será restada drásticamente. Fíjate sagazmente en blindar en tu memoria además el binomio estructural fundamental: la molécula porta exclusivamente azúcar 'RIBOSA', resultaría una negligencia mortal describirla con desoxirribosa."
 },
 {
+"id": "ent-135",
 "block": "Célula",
 "topic": "Mecanismos de endocitosis",
 "isNew": false,
@@ -2322,6 +2460,7 @@ const database = [
 "f": "Palabras clave que puntúan: 'invaginación' para endocitosis y 'fusión de membranas' para exocitosis. No olvides la proteína CLATRINA en la endocitosis mediada por receptor."
 },
 {
+"id": "ent-136",
 "block": "Inmunología",
 "topic": "Antígenos, anticuerpos y su estructura",
 "isNew": false,
@@ -2336,6 +2475,7 @@ const database = [
 "f": "Palabras clave obligatorias: 'células plasmáticas' (no Linfocitos B inmaduros) y 'puentes disulfuro'. Recuerda que el anticuerpo NO destruye al antígeno por sí solo, únicamente lo 'neutraliza' o lo 'marca'."
 },
 {
+"id": "ent-137",
 "block": "Metabolismo",
 "topic": "Fermentación láctica muscular y fatiga",
 "isNew": true,
@@ -2350,6 +2490,7 @@ const database = [
 "f": "Debes dejar meridianamente claro que el propósito de la fermentación es 'regenerar el NAD+' para salvar la glucólisis. Relaciona la fatiga estrictamente con la 'disminución del pH' causada por el lactato."
 },
 {
+"id": "ent-138",
 "block": "Genética",
 "topic": "Cariotipo y cromosomas homólogos",
 "isNew": false,
@@ -2364,6 +2505,7 @@ const database = [
 "f": "No confundas nunca 'cromátidas hermanas' (copias idénticas unidas tras la replicación) con 'cromosomas homólogos' (mismos genes pero pueden portar alelos distintos de padre y madre)."
 },
 {
+"id": "ent-139",
 "block": "Biomoléculas",
 "topic": "Enlace O-glucosídico y disacáridos",
 "isNew": false,
@@ -2379,6 +2521,7 @@ const database = [
 "f": "Es OBLIGATORIO mencionar que 'se libera una molécula de agua (H2O)'. Trampa habitual de nervios: equivocarse de monómeros al hidrolizar. La sacarosa no son dos glucosas, eso es la maltosa."
 },
 {
+"id": "ent-140",
 "block": "Microbiología",
 "topic": "Quimiosíntesis y bacterias",
 "isNew": false,
@@ -2393,6 +2536,7 @@ const database = [
 "f": "Para el punto completo debes diferenciar radicalmente que aquí NO hay energía de la luz (fotosíntesis), sino energía química de oxidaciones. Si nombras el 'Ciclo de Calvin' en la segunda fase, asegurarás la nota."
 },
 {
+"id": "ent-141",
 "block": "Biotecnología",
 "topic": "Plantas transgénicas (Maíz Bt)",
 "isNew": true,
@@ -2408,6 +2552,7 @@ const database = [
 "f": "Usa todo el arsenal biotecnológico para explicar el proceso de ADN recombinante: 'enzimas de restricción', 'plásmido/vector', 'ADN ligasa' y 'transformación'. Sin estas herramientas, la respuesta no es de Bachillerato."
 },
 {
+"id": "ent-142",
 "block": "Metabolismo",
 "topic": "Características y balance de la Glucólisis",
 "isNew": false,
@@ -2422,6 +2567,7 @@ const database = [
 "f": "Trampa: Si te preguntan por el ATP neto final de la glucólisis, pon '2 ATP'. Aunque fabrica 4 en la fase de beneficios, gasta 2 en la fase de inversión. Recordar el 'Citosol' es imprescindible."
 },
 {
+"id": "ent-143",
 "block": "Genética",
 "topic": "Recombinación genética (Sobrecruzamiento meiótico)",
 "isNew": false,
@@ -2436,6 +2582,7 @@ const database = [
 "f": "Concepto crítico para no sacar un cero: debes puntualizar que el intercambio es entre 'cromátidas NO hermanas de cromosomas homólogos'. Cruzar dos cromátidas hermanas es inútil porque son clones de ADN idéntico."
 },
 {
+"id": "ent-144",
 "block": "Célula",
 "topic": "Transporte de membrana (Difusión simple vs facilitada)",
 "isNew": false,
@@ -2451,6 +2598,7 @@ const database = [
 "f": "Es fundamental matizar que AMBAS difusiones son a favor de gradiente y sin gasto de energía química (ATP). El tribunal examinará qué ejemplos pones: nunca digas que la glucosa o el sodio pasan por difusión simple."
 },
 {
+"id": "ent-145",
 "block": "Inmunología",
 "topic": "Macrófagos y presentación de antígenos",
 "isNew": false,
@@ -2465,6 +2613,7 @@ const database = [
 "f": "El evaluador quiere ver cómo enlazas la inmunidad innata con la adquirida. Debes utilizar el término técnico 'Célula Presentadora de Antígenos (CPA)' y referirte a las moléculas del 'MHC' en la membrana del macrófago."
 },
 {
+"id": "ent-146",
 "block": "Biotecnología",
 "topic": "Clonación reproductiva (Oveja Dolly)",
 "isNew": true,
@@ -2479,6 +2628,7 @@ const database = [
 "f": "¡La trampa maestra de la clonación! Aunque es un 'clon', una oveja no aporta toda la genética. El núcleo es de la donante celular, pero los genes orgánulo-mitocondriales van siempre en el citoplasma del óvulo hueco."
 },
 {
+"id": "ent-147",
 "block": "Genética",
 "topic": "Dogma central de la biología y los retrovirus",
 "isNew": false,
@@ -2493,6 +2643,7 @@ const database = [
 "f": "Dibuja mentalmente las tres flechas del dogma. La excepción crucial es la flecha de retroceso del ARN al ADN genómico. El nombre de la enzima, 'Transcriptasa inversa', vale medio punto de forma automática."
 },
 {
+"id": "ent-148",
 "block": "Biomoléculas",
 "topic": "Desnaturalización diferencial (ADN vs Enzimas)",
 "isNew": true,
@@ -2507,6 +2658,7 @@ const database = [
 "f": "Es un contraste biológico crítico de Selectividad. Mientras las proteínas suelen 'cocerse' y morir funcionalmente (desnaturalización térmica irreversible), la simpleza de los puentes de hidrógeno del ADN permite que se separen y se vuelvan a pegar (renaturalización). Esta es la mismísima base teórica que hace posible el funcionamiento clínico de las máquinas de la PCR."
 },
 {
+"id": "ent-149",
 "block": "Célula",
 "topic": "Fluidez de membrana y colesterol",
 "isNew": true,
@@ -2520,6 +2672,7 @@ const database = [
 "f": "Palabra clave obligatoria: EMPAQUETAMIENTO o fuerzas de Van der Waals. Es fundamental explicar que el colesterol 'estorba' a los fosfolípidos cuando intentan congelarse o compactarse."
 },
 {
+"id": "ent-150",
 "block": "Metabolismo",
 "topic": "Quimiosíntesis vs Fotosíntesis",
 "isNew": false,
@@ -2534,6 +2687,7 @@ const database = [
 "f": "Cuidado con la trampa típica: la quimiosíntesis TAMBIÉN fija CO2 y crea materia orgánica. La diferencia central radica en el origen de la energía (química vs luminosa)."
 },
 {
+"id": "ent-151",
 "block": "Biomoléculas",
 "topic": "Enlace O-glucosídico y poder reductor",
 "isNew": false,
@@ -2548,6 +2702,7 @@ const database = [
 "f": "Tienes que usar estrictamente los términos enlace 'monocarbonílico' y 'dicarbonílico'. Relaciona el poder reductor directamente con tener el carbono anomérico LIBRE."
 },
 {
+"id": "ent-152",
 "block": "Genética",
 "topic": "Mutaciones puntuales y código genético degenerado",
 "isNew": true,
@@ -2562,6 +2717,7 @@ const database = [
 "f": "Obligatorio usar los términos: Código genético 'DEGENERADO' y 'CORRIMIENTO DEL MARCO DE LECTURA'. Sin esas dos expresiones de rigor no te darán la nota completa."
 },
 {
+"id": "ent-153",
 "block": "Inmunología",
 "topic": "Estructura y función de anticuerpos",
 "isNew": false,
@@ -2578,6 +2734,7 @@ const database = [
 "f": "Menciona a las 'CÉLULAS PLASMÁTICAS' y no solo linfocitos B. En la descripción exige citar los 'puentes disulfuro' y ubicar la variabilidad en los extremos de la Y."
 },
 {
+"id": "ent-154",
 "block": "Biotecnología",
 "topic": "Biorremediación en vertidos tóxicos",
 "isNew": true,
@@ -2592,6 +2749,7 @@ const database = [
 "f": "La clave del razonamiento es que las bacterias no 'recogen' el petróleo como una esponja, sino que lo usan como 'fuente de carbono y energía' (se lo comen y degradan). Esa es la respuesta biológica que da puntos."
 },
 {
+"id": "ent-155",
 "block": "Microbiología",
 "topic": "Reproducción y parasexualidad bacteriana",
 "isNew": false,
@@ -2606,6 +2764,7 @@ const database = [
 "f": "Distingue perfectamente los vectores: Conjugación exige el PELO SEXUAL o PILUS, Transducción exige un VIRUS BACTERIÓFAGO. Si los cruzas o confundes, la puntuación de esa mitad del ejercicio será cero."
 },
 {
+"id": "ent-156",
 "block": "Biomoléculas",
 "topic": "Aminoácidos esenciales e ingesta de nitrógeno",
 "isNew": true,
@@ -2620,6 +2779,7 @@ const database = [
 "f": "El corazón de esta respuesta es nombrar el elemento NITRÓGENO. Razona que, por muchas grasas o azúcares que comas, a tu cuerpo le falta el bloque químico (N) para montar el grupo amino."
 },
 {
+"id": "ent-157",
 "block": "Metabolismo",
 "topic": "Factores que afectan a la fotosíntesis (CO2 y Tª)",
 "isNew": true,
@@ -2633,6 +2793,7 @@ const database = [
 "f": "Palabras clave: 'sustrato limitante/Ciclo de Calvin' para la primera parte, y 'actividad enzimática/energía cinética' para la segunda. No digas que el frío desnaturaliza a las enzimas (el calor excesivo las desnaturaliza, el frío las inactiva o ralentiza)."
 },
 {
+"id": "ent-158",
 "block": "Biotecnología",
 "topic": "Producción de insulina e ingeniería genética",
 "isNew": true,
@@ -2647,6 +2808,7 @@ const database = [
 "f": "La frase mágica e imprescindible aquí es UNIVERSALIDAD DEL CÓDIGO GENÉTICO. Sin ella, el corrector dará por inválido el fundamento teórico del razonamiento."
 },
 {
+"id": "ent-159",
 "block": "Biomoléculas",
 "topic": "Niveles estructurales de las proteínas",
 "isNew": false,
@@ -2664,6 +2826,7 @@ const database = [
 "f": "Error súper común: decir que el pH o el calor afectan a la estructura primaria. La desnaturalización solo rompe los 'enlaces débiles' del nivel 2, 3 y 4; la cadena lineal primaria no se hidroliza ni se rompe."
 },
 {
+"id": "ent-160",
 "block": "Genética",
 "topic": "Inhibición de ARN polimerasas (Dogma central)",
 "isNew": true,
@@ -2677,6 +2840,7 @@ const database = [
 "f": "Trampa de altísimo nivel: casi todos los alumnos dicen que la replicación 'no se ve afectada' porque usa ADN polimerasas. El corrector busca que recuerdes que la enzima PRIMASA responsable del cebador de Okazaki es, bioquímicamente, una ARN polimerasa."
 },
 {
+"id": "ent-161",
 "block": "Metabolismo",
 "topic": "Respiración celular en mitocondria",
 "isNew": false,
@@ -2696,6 +2860,7 @@ const database = [
 "f": "Es un mapa ciego brutal del catabolismo aerobio. La pregunta clave es el 'por qué': debes citar obligatoriamente la IMPERMEABILIDAD DE LA MEMBRANA INTERNA A LOS PROTONES para justificar la síntesis quimiosmótica."
 },
 {
+"id": "ent-162",
 "block": "Célula",
 "topic": "Inhibición de microtúbulos en flagelos",
 "isNew": true,
@@ -2710,6 +2875,7 @@ const database = [
 "f": "Esquema lógico PAU: Flagelo -> Microtúbulos -> TUBULINA. Si en tu razonamiento te saltas la palabra clave 'tubulina', te darán solo la mitad de la puntuación."
 },
 {
+"id": "ent-163",
 "block": "Inmunología",
 "topic": "Inmunosupresores y enfermedades autoinmunes",
 "isNew": true,
@@ -2722,6 +2888,7 @@ const database = [
 "f": "No te quedes en decir que la pastilla 'baja las defensas'. Exige usar terminología específica: 'fallo de reconocimiento de autoantígenos' y 'riesgo de padecer una infección oportunista grave'."
 },
 {
+"id": "ent-164",
 "block": "Célula",
 "topic": "Permeabilidad de membrana (esteroides vs proteínas)",
 "isNew": true,
@@ -2736,6 +2903,7 @@ const database = [
 "f": "En Selectividad, el corrector compara cómo describes la naturaleza de la molécula con la de la membrana. Para los esteroides usa siempre LIPOSOLUBLE/APOLAR; para la membrana di interior HIDROFÓBICO."
 },
 {
+"id": "ent-165",
 "block": "Célula",
 "topic": "Tráfico vesicular (RER y Golgi)",
 "isNew": false,
@@ -2752,6 +2920,7 @@ const database = [
 "f": "Es imperativo emplear el lenguaje técnico: 'Cara cis', 'Cara trans', 'Vesículas de transición' y 'Dictiosomas'. Todo el proceso forma la 'vía secretora'."
 },
 {
+"id": "ent-166",
 "block": "Genética",
 "topic": "Retrocruzamiento o Cruzamiento Prueba",
 "isNew": false,
@@ -2766,6 +2935,7 @@ const database = [
 "f": "Explica la teoría como si hicieras el problema de Punnett. El fundamento del razonamiento reposa sobre que el progenitor prueba ('aa') es incapaz de ocultar lo que aporta el individuo problema."
 },
 {
+"id": "ent-167",
 "block": "Biomoléculas",
 "topic": "Propiedades y funciones del agua",
 "isNew": false,
@@ -2780,6 +2950,7 @@ const database = [
 "f": "Es imperdonable definir la estructura del agua sin las palabras mágicas 'DIPOLO' y 'PUENTES DE HIDRÓGENO'. Distingue conceptualmente entre refrigeración temporal (sudor = vaporización) y termorregulación continua (ambiente interno = calor específico)."
 },
 {
+"id": "ent-168",
 "block": "Biomoléculas",
 "topic": "Ácidos grasos, esterificación y saponificación",
 "isNew": false,
@@ -2794,6 +2965,7 @@ const database = [
 "f": "Si no hablas de la 'liberación de la molécula de H2O' al formar el enlace éster, perderás puntos vitales. Recuerda que la saponificación exige estrictamente el medio de una 'base química fuerte', no vale con decir que se mezcla con agua."
 },
 {
+"id": "ent-169",
 "block": "Célula",
 "topic": "Ósmosis en eritrocitos (crenación y hemólisis)",
 "isNew": true,
@@ -2808,6 +2980,7 @@ const database = [
 "f": "Es básico nombrar correctamente los fenómenos terminales de la ósmosis en células animales: utiliza el término 'CRENACIÓN' para el encogimiento y la palabra 'HEMÓLISIS' para el estallido."
 },
 {
+"id": "ent-170",
 "block": "Genética",
 "topic": "Genética AB0 y factor Rh",
 "isNew": true,
@@ -2823,6 +2996,7 @@ const database = [
 "f": "No limites el ejercicio a dar solo porcentajes. En Selectividad te obligan a escribir de dónde sacas que el padre no es RR, así que tienes que redactar la frase que aluda al primogénito para salvar la puntuación completa."
 },
 {
+"id": "ent-171",
 "block": "Microbiología",
 "topic": "Esterilización vs Pasteurización",
 "isNew": false,
@@ -2836,6 +3010,7 @@ const database = [
 "f": "El evaluador penalizará severamente si no nombras el aniquilamiento de las FORMAS DE RESISTENCIA (esporas bacterianas o endosporas). Exclusivamente la esterilización acaba con el ciclo latente de supervivencia bacteriana."
 },
 {
+"id": "ent-172",
 "block": "Microbiología",
 "topic": "Mecanismos de resistencia bacteriana (Transferencia horizontal)",
 "isNew": true,
@@ -2850,6 +3025,7 @@ const database = [
 "f": "Demuestra rigor evolutivo: El antibiótico es exclusivamente un agente físico de selección, nunca de inducción mutacional. Debes citar obligatoriamente la transferencia móvil de 'plásmidos' por vías de 'recombinación parasexual' o conjugación celular."
 },
 {
+"id": "ent-173",
 "block": "Genética",
 "topic": "Agentes mutagénicos y dímeros de timina",
 "isNew": true,
@@ -2864,6 +3040,7 @@ const database = [
 "f": "Es un punto innegociable en los criterios indicar que el dímero es una unión por la vía 'covalente' de la hélice, lo que conlleva una insalvable 'distorsión geométrica/espacial de la hebra', el auténtico obstáculo topológico para las proteínas transcripcionales."
 },
 {
+"id": "ent-174",
 "block": "Célula",
 "topic": "Microtúbulos y el ciclo celular (Colchicina)",
 "isNew": true,
@@ -2878,18 +3055,21 @@ const database = [
 "f": "El nervio del ejercicio, o palabra-baliza evaluativa para los tribunales andaluces será forzosamente tu alusión ineludible al 'huso acromático'. Tu pericia descansa en hilvanar la deducción de que, sin estos raíles microtubulares, la mitosis siempre languidece frenada en 'metafase'."
 },
   {
+    "id": "ent-175",
     block:"Biomoléculas", topic:"Lípidos en la dieta mediterránea", isNew:true, hasImg:false,
     q:"En la dieta mediterránea interesa disminuir la grasa saturada y aumentar la insaturada.<br>a) ¿A qué tipo de biomoléculas pertenecen el colesterol y las grasas? [0,5]<br>b) ¿Qué significa grasa saturada e insaturada? [0,5]<br>c) Explica la función del colesterol en las células animales. [1]",
     c:["a) Pertenecen a los lípidos. El colesterol es un esteroide (insaponificable) y las grasas son acilglicéridos (saponificables).","b) Saturada: ácidos grasos sin dobles enlaces (suelen ser sólidos). Insaturada: poseen uno o más dobles enlaces que curvan la cadena (suelen ser líquidos/aceites).","c) En células animales el colesterol se intercala entre los fosfolípidos regulando la fluidez y dando estabilidad mecánica a la membrana plasmática."],
     f:"Trampa clásica: el colesterol SOLO existe en membranas de células animales, nunca en las vegetales."
   },
   {
+    "id": "ent-176",
     block:"Biomoléculas", topic:"Desnaturalización del colágeno", isNew:true, hasImg:false,
     q:"El colágeno es una proteína de aspecto blanquecino que forma parte de tendones ofreciendo gran resistencia mecánica. Al hervir el colágeno se obtiene gelatina, una sustancia muy blanda. Explica razonadamente la causa bioquímica de este cambio. [2]",
     c:["El calor extremo de la ebullición provoca la desnaturalización térmica de la proteína.","La energía térmica rompe los enlaces débiles (puentes de hidrógeno) que mantienen la estructura secundaria, terciaria y cuaternaria de la triple hélice del colágeno.","Al perder su conformación tridimensional, pierde su resistencia y su función biológica, convirtiéndose en una masa amorfa (gelatina)."],
     f:"Fundamental añadir: aunque hierva, la estructura primaria (secuencia de aa y enlaces peptídicos) NO se rompe."
   },
 {
+"id": "ent-177",
 "block":"Metabolismo",
 "topic":"Herbicida y bloqueo de la fotosíntesis",
 "isNew":true,
@@ -2899,6 +3079,7 @@ const database = [
 "f":"Palabras clave obligatorias: ATP, NADPH y Ciclo de Calvin. Debes explicar que el fallo en la primera fase deja sin energía ni poder reductor a la segunda."
 },
 {
+"id": "ent-178",
 "block":"Biomoléculas",
 "topic":"Reserva energética: lípidos vs glúcidos",
 "isNew":true,
@@ -2908,6 +3089,7 @@ const database = [
 "f":"Error típico: decir solo que los lípidos dan 'más energía'. Tienes que explicar el factor biológico del peso/volumen usando la palabra clave ANHIDRO para justificar la movilidad."
 },
 {
+"id": "ent-179",
 "block":"Inmunología",
 "topic":"Respuesta inmunitaria celular y humoral",
 "isNew":false,
@@ -2917,6 +3099,7 @@ const database = [
 "f":"Es imprescindible usar el término 'células plasmáticas' para la humoral. Trampa: decir que los Linfocitos T fabrican anticuerpos (solo los fabrican las células plasmáticas derivadas de los B)."
 },
 {
+"id": "ent-180",
 "block":"Célula",
 "topic":"Estructura y función de los lisosomas",
 "isNew":false,
@@ -2926,6 +3109,7 @@ const database = [
 "f":"Palabra clave obligatoria: ENZIMAS HIDROLÍTICAS o digestivas ácidas. No confundas autofagia (reciclaje de orgánulos propios) con autolisis (muerte y destrucción celular)."
 },
 {
+"id": "ent-181",
 "block":"Genética",
 "topic":"Ley de Chargaff y temperatura de desnaturalización",
 "isNew":true,
@@ -2935,6 +3119,7 @@ const database = [
 "f":"Tienes que mencionar la equivalencia o regla de Chargaff. La clave absoluta del razonamiento son los 3 PUENTES DE HIDRÓGENO de los pares C-G frente a los 2 de A-T."
 },
 {
+"id": "ent-182",
 "block":"Microbiología",
 "topic":"Penicilina y diana de los antibióticos",
 "isNew":true,
@@ -2944,6 +3129,7 @@ const database = [
 "f":"Obligatorio mencionar que la célula eucariota animal 'CARECE DE PARED CELULAR'. Error típico: decir que la penicilina mata virus (los virus se tratan con antivirales, nunca con antibióticos)."
 },
 {
+"id": "ent-183",
 "block":"Biomoléculas",
 "topic":"Ácidos grasos y punto de fusión",
 "isNew":true,
@@ -2953,6 +3139,7 @@ const database = [
 "f":"Palabras clave obligatorias: FUERZAS DE VAN DER WAALS e INSATURACIONES. Relaciona el doble enlace con el pliegue espacial de la cadena."
 },
 {
+"id": "ent-184",
 "block":"Célula",
 "topic":"Transporte activo vs difusión facilitada",
 "isNew":false,
@@ -2962,6 +3149,7 @@ const database = [
 "f":"No olvides nombrar cómo afecta al ATP (gastas o no gastas) y hacia dónde va el gradiente (a favor o en contra). La 'bomba de Sodio-Potasio' es la palabra mágica del transporte activo."
 },
 {
+"id": "ent-185",
 "block":"Genética",
 "topic":"Mutaciones génicas, cromosómicas y genómicas",
 "isNew":false,
@@ -2971,6 +3159,7 @@ const database = [
 "f":"Error típico: confundir deleción génica (se pierde un solo nucleótido) con deleción cromosómica (se pierde un bloque grande del cromosoma). Especifica siempre la escala de la alteración."
 },
 {
+"id": "ent-186",
 "block":"Biomoléculas",
 "topic":"Especificidad y componentes enzimáticos",
 "isNew":false,
@@ -2980,6 +3169,7 @@ const database = [
 "f":"Para que la definición de enzima sea correcta debes decir que 'disminuye la energía de activación'. El centro activo es una REGIÓN TRIDIMENSIONAL, no lo definas como una molécula separada."
 },
 {
+"id": "ent-187",
 "block":"Biotecnología",
 "topic":"Herramientas de ingeniería genética",
 "isNew":false,
@@ -2989,6 +3179,7 @@ const database = [
 "f":"Usa el símil: Plásmido = 'vector/vehículo'. Enzimas de restricción = 'tijeras/corte'. Así garantizas que has comprendido la base de formar un ADN recombinante."
 },
 {
+"id": "ent-188",
 "block":"Genética",
 "topic":"Bloqueo de la ARN polimerasa (Transcripción)",
 "isNew":true,
@@ -2998,6 +3189,7 @@ const database = [
 "f":"Especifica que la ARN Polimerasa II forma 'ARN MENSAJERO'. El razonamiento debe ser un flujo lógico dominó: no ADN>ARN -> no ARN>Proteína -> Muerte."
 },
 {
+"id": "ent-189",
 "block":"Célula",
 "topic":"Citocinesis y huso acromático",
 "isNew":false,
@@ -3008,6 +3200,7 @@ const database = [
 "f":"Obligatorio usar los términos: 'placa ecuatorial', 'anillo contráctil' y 'fragmoplasto'. Fíjate bien en la imagen: si los cromosomas no están en parejas de homólogos es mitosis."
 },
 {
+"id": "ent-190",
 "block":"Microbiología",
 "topic":"Ciclos biogeoquímicos del Nitrógeno",
 "isNew":false,
@@ -3017,6 +3210,7 @@ const database = [
 "f":"Trampa típica: pensar que las fijadoras y desnitrificantes hacen lo mismo. Asegúrate de mostrar que el ciclo es un bucle: las fijadoras introducen el gas atmosférico a los seres vivos, y las desnitrificantes devuelven el gas del suelo a la atmósfera."
 },
 {
+"id": "ent-191",
 "block":"Genética",
 "topic":"Herencia ligada al sexo: Hemofilia",
 "isNew":true,
@@ -3026,30 +3220,35 @@ const database = [
 "f":"Haz siempre el cuadro de Punnett y fíjate muy bien qué te pregunta. Si dice 'probabilidad de sus HIJOS VARONES', el cálculo es solo sobre la mitad masculina del cuadro (el 100% son los XY), no sobre el total de la descendencia."
 },
   {
+    "id": "ent-192",
     block:"Biomoléculas", topic:"Proteínas (Nobel Química 2024)", isNew:true, hasImg:false,
     q:"<b>Contexto:</b> El Nobel de Química 2024 premió el diseño y predicción de la estructura proteica mediante IA (Baker, Hassabis y Jumper).<br><br>a) Explique los niveles de complejidad estructural de una proteína. ¿A cuál/es hace referencia el texto? Razone. [1]<br>b) ¿Por qué es importante conocer la estructura tridimensional de las proteínas? [0,5]<br>c) ¿Qué zona de la enzima es clave para el diseño de fármacos y qué efecto podría tener el fármaco? [0,5]",
     c:["a) Niveles: Primaria (secuencia aa), Secundaria (hélice/lámina), Terciaria (plegamiento 3D funcional) y Cuaternaria (unión subunidades). El texto refiere a secundaria, terciaria y cuaternaria por la mención a la estructura tridimensional.","b) La estructura tridimensional determina la función biológica específica de la proteína. Sin forma correcta, no hay función.","c) El centro activo es la zona clave. Un fármaco puede actuar como inhibidor, bloqueando el sitio y alterando la actividad enzimática."],
     f:"Tip PAU: La función depende de la forma. Si se pierde la forma (desnaturalización), se pierde la función."
   },
   {
+    "id": "ent-193",
     block:"Biomoléculas", topic:"Glúcidos — importancia biológica", isNew:false, hasImg:false,
     q:"Explique la importancia biológica de los siguientes glúcidos: glucosa, ribosa, almidón y celulosa. [2]",
     c:["Glucosa: principal fuente de energía inmediata para la célula.","Ribosa: componente estructural de nucleótidos y del ARN.","Almidón: principal polisacárido de reserva energética en células vegetales.","Celulosa: componente estructural principal de las paredes celulares vegetales."],
     f:"Distingue siempre: función energética (glucosa/almidón) vs función estructural (ribosa/celulosa)."
   },
   {
+    "id": "ent-194",
     block:"Biomoléculas", topic:"Vitaminas: clasificación y avitaminosis", isNew:false, hasImg:false,
     q:"Defina vitamina [0,4]. Realice una clasificación explicando el criterio utilizado [0,6] y cite dos ejemplos de cada grupo [0,4]. Explique el término 'avitaminosis' [0,6].",
     c:["Definición: sustancias orgánicas de composición muy variada, necesarias en pequeñas cantidades para el correcto funcionamiento metabólico y que el organismo no puede sintetizar en cantidad suficiente.","Clasificación por solubilidad: Liposolubles (A, D, E, K) e Hidrosolubles (C y grupo B).","Avitaminosis: cuadro patológico producido por la carencia de una o varias vitaminas."],
     f:"Regla de oro para recordar las liposolubles: KEDA (K, E, D, A). Las demás, al agua."
   },
   {
+    "id": "ent-195",
     block:"Biomoléculas", topic:"Clasificación de lípidos — esteroides", isNew:false, hasImg:false,
     q:"Una biomolécula es insoluble en agua y NO hidrolizable. El laboratorio indica que es un triacilglicérido. ¿Está de acuerdo? [0,5] Un análisis posterior revela 4 anillos cíclicos. ¿De qué molécula se trata? Razone [0,5].",
     c:["No estoy de acuerdo. Los triacilglicéridos son insolubles en agua pero SÍ son hidrolizables (saponificables), ya que poseen enlaces éster que se pueden romper.","Se trata de un esteroide (lípido insaponificable), caracterizado por ser insoluble, no hidrolizable y poseer una estructura basada en el anillo esterano (ciclopentanoperhidrofenantreno)."],
     f:"Palabras clave para detectar esteroides: 'anillos cíclicos' + 'insaponificable'. Si aparecen las dos, es un esteroide."
   },
   {
+    "id": "ent-196",
     block:"Biomoléculas", topic:"El agua: propiedades y funciones biológicas", isNew:false, hasImg:true,
     imageDesc:"Estructura de la molécula de agua y sus dipolos. Ángulo de enlace H-O-H = 104,5°",
     q:"Describa [0,5] y dibuje [0,3] la estructura de la molécula de agua. Enumere cuatro propiedades físico-químicas y relaciónelas con sus funciones biológicas. [1,2]",
@@ -3057,18 +3256,21 @@ const database = [
     f:"Vital mencionar el carácter dipolar del agua para explicar los puentes de hidrógeno, responsables de casi todas sus propiedades."
   },
   {
+    "id": "ent-197",
     block:"Biomoléculas", topic:"Moléculas hidrofílicas, hidrofóbicas y anfipáticas", isNew:false, hasImg:false,
     q:"Defina molécula hidrofílica [0,3], hidrofóbica [0,3] y anfipática [0,3]. Indica un ejemplo de biomolécula de cada una [0,3]. Explica el comportamiento de las moléculas anfipáticas en el agua y relaciónalo con las membranas. [0,8]",
     c:["Hidrofílica: afinidad por el agua (ej. glucosa). Hidrofóbica: repele el agua (ej. triglicérido). Anfipática: tiene una parte polar y otra apolar (ej. fosfolípido).","Comportamiento en agua: las moléculas anfipáticas forman bicapas o micelas ocultando las colas apolares y exponiendo las cabezas polares. Es la base de la estructura de la membrana plasmática."],
     f:"Los fosfolípidos son el ejemplo perfecto de molécula anfipática y la base del modelo del mosaico fluido de Singer y Nicholson."
   },
   {
+    "id": "ent-198",
     block:"Biomoléculas", topic:"Aminoácidos y enlace peptídico", isNew:false, hasImg:false,
     q:"Defina los aminoácidos [0,4], escriba su fórmula general [0,4] y clasifíquelos en función de sus radicales [0,6]. Describa el enlace peptídico y cite dos de sus características [0,6].",
     c:["Aminoácido: molécula orgánica con un grupo amino (-NH₂) y un grupo carboxilo (-COOH) unidos a un carbono central.","Fórmula: C central unido a -H, -NH₂, -COOH y radical variable (R). Clasificación: ácidos, básicos, neutros polares y neutros apolares.","Enlace peptídico: unión covalente entre el -COOH de un aa y el -NH₂ de otro con liberación de agua. Características: covalente, plano/rígido (carácter parcial de doble enlace)."],
     f:"El enlace peptídico es rígido porque tiene carácter de doble enlace parcial. Esto impide la rotación libre y da estructura a la cadena."
   },
   {
+    "id": "ent-199",
     block:"Biomoléculas", topic:"Ácidos nucleicos: diferencias ADN y ARN", isNew:false, hasImg:false,
     q:"Indique cuatro diferencias químicas, estructurales y/o funcionales precisas entre las moléculas de ADN y ARN eucariótico [1].",
     c:["1. Pentosa: Desoxirribosa en ADN vs Ribosa en ARN.","2. Base nitrogenada variable: Timina en ADN vs Uracilo en ARN.","3. Estructura: ADN bicatenario (doble hélice) vs ARN generalmente monocatenario.","4. Función: ADN almacena información genética; ARN ejecuta las órdenes para sintetizar proteínas (ARNm, ARNt, ARNr)."],
@@ -3077,6 +3279,7 @@ const database = [
 
   // ── GENÉTICA ─────────────────────────────────────────────
   {
+    "id": "ent-200",
     block:"Genética", topic:"ADN y ARN: transcripción y traducción", isNew:false, hasImg:true,
     imageDesc:"Esquema del flujo de información genética: ADN → ARNm → Proteína, con indicación de los lugares celulares",
     q:"Realice un esquema de una molécula de ADN y una de ARNm. [0,6] Cite otros tipos de ARN existentes. [0,3] Defina transcripción y traducción. [0,8] Indique dónde tienen lugar en célula procariótica y eucariótica. [0,3]",
@@ -3084,12 +3287,14 @@ const database = [
     f:"En procariotas la traducción puede empezar antes de que termine la transcripción, porque no hay separación física entre ambos procesos."
   },
   {
+    "id": "ent-201",
     block:"Genética", topic:"Código genético: características", isNew:false, hasImg:false,
     q:"Explique qué se entiende por código genético [0,6]. Defina los términos codón y anticodón [0,5]. ¿Qué son los codones sin sentido o de terminación? [0,4]. Describa dos características del código genético. [0,5]",
     c:["Código genético: correspondencia entre tripletes de bases del ARNm y los aminoácidos que codifican.","Codón: triplete de nucleótidos en el ARNm. Anticodón: triplete complementario en el ARNt.","Codones de terminación: UAA, UAG, UGA. No codifican aminoácidos; señalan el fin de la traducción.","Características: Universal (compartido por casi todos los seres vivos) y Degenerado (varios codones para el mismo aminoácido)."],
     f:"'Degenerado' no es negativo: significa redundante. Esta redundancia protege al genoma frente a las mutaciones silenciosas."
   },
   {
+    "id": "ent-202",
     block:"Genética", topic:"Replicación del ADN: semiconservativa y bidireccional", isNew:true, hasImg:true,
     imageDesc:"Esquema de la horquilla de replicación con helicasa, ADN polimerasa, cebadores, SSB y topoisomerasa señalados",
     q:"¿Qué significa que la replicación del ADN es semiconservativa y bidireccional? [0,8] Explique la relación fundamental entre este proceso y la posterior división por mitosis [0,5].",
@@ -3097,60 +3302,70 @@ const database = [
     f:"La mitosis es solo el 'repartidor'. La verdadera magia de copiar la información para que nada se pierda ocurre antes, en la replicación."
   },
   {
+    "id": "ent-203",
     block:"Genética", topic:"Concepto de mutación y agentes mutagénicos", isNew:false, hasImg:false,
     q:"Defina mutación e indique qué es un agente mutagénico, citando dos ejemplos. ¿Por qué las mutaciones, a pesar de causar enfermedades, son biológicamente fundamentales? [1,5]",
     c:["Mutación: alteración aleatoria y transmisible en la secuencia o cantidad del material genético (ADN).","Agente mutagénico: factor físico, químico o biológico que aumenta la frecuencia de mutación (ej. radiación UV, benzopireno).","Importancia: son la fuente primaria de variabilidad genética, creando nuevos alelos sobre los que actúa la selección natural y permitiendo la evolución."],
     f:"Las mutaciones suelen tener mala fama, pero sin ellas todos los seres vivos seríamos clones de la primera bacteria y nos habríamos extinguido."
   },
   {
+    "id": "ent-204",
     block:"Genética", topic:"Conceptos básicos de genética", isNew:false, hasImg:false,
     q:"Defina: gen, genotipo, fenotipo, alelo y locus. [2]",
     c:["Gen: fragmento de ADN con información para un carácter hereditario.","Genotipo: conjunto de alelos de todos los genes de un individuo.","Fenotipo: manifestación observable del genotipo, influenciada también por el ambiente.","Alelo: cada una de las formas alternativas de un gen.","Locus: lugar físico que ocupa un gen en el cromosoma."],
     f:"Plural de locus = loci. No confundas alelo (variante de un gen) con gen (el carácter en sí)."
   },
   {
+    "id": "ent-205",
     block:"Genética", topic:"Dogma central: inactivación de ARN polimerasas", isNew:false, hasImg:false,
     q:"Suponga que se inactivan todas las ARN polimerasas de una célula. Explique razonadamente cómo se verían afectados a corto plazo: la replicación [0,4], la transcripción [0,3] y la traducción [0,3].",
     c:["Transcripción: no se produciría en absoluto, ya que es la función directa y exclusiva de las ARN polimerasas.","Replicación: se detendría. La ADN polimerasa necesita cebadores de ARN (sintetizados por la primasa, un tipo de ARN polimerasa) para iniciar la síntesis.","Traducción: se acabaría deteniendo, ya que depende de la existencia de ARNm, ARNt y ARNr, todos sintetizados por ARN polimerasas."],
     f:"Trampa clásica: para REPLICAR ADN también se necesita la ARN polimerasa (primasa) para fabricar los cebadores. No solo para transcribir."
   },
   {
+    "id": "ent-206",
     block:"Genética", topic:"Herencia autosómica recesiva", isNew:false, hasImg:false,
     q:"¿Cómo es posible que una persona manifieste una enfermedad hereditaria que ninguno de sus padres muestra? ¿Sería posible que los descendientes de esta persona NO padecieran la enfermedad? Razone mediante cruces. [1]",
     c:["Es posible si la enfermedad está determinada por un alelo recesivo (a) y ambos padres sanos son portadores heterocigotos (Aa × Aa). El hijo hereda el alelo 'a' de ambos (aa).","Sus descendientes no padecerán la enfermedad si él (aa) tiene hijos con una persona sana homocigota (AA). Toda la descendencia será Aa (portadora sana)."],
     f:"Si una enfermedad 'se salta' una generación y aparece en hijos de padres sanos, ES RECESIVA. No hay excepción."
   },
   {
+    "id": "ent-207",
     block:"Genética", topic:"Grupos sanguíneos y determinación de paternidad", isNew:true, hasImg:false,
     q:"Antonio (Grupo A), Andrés (Grupo B) y Juan (Grupo O) reclaman la paternidad de un niño AB. La madre es del Grupo B. Razone genotípicamente quién es el verdadero padre [1].",
     c:["Niño: Grupo AB (genotipo Iᴬ Iᴮ). Debe recibir un alelo Iᴬ y otro Iᴮ, uno de cada progenitor.","Madre: Grupo B (Iᴮ Iᴮ o Iᴮ i). Solo puede aportar Iᴮ al niño.","Por tanto, el padre biológico está obligado a aportar Iᴬ.","Resolución: Antonio (A, genotipo Iᴬ i o Iᴬ Iᴬ) es el único que posee el alelo Iᴬ. Andrés (B) y Juan (ii) son genéticamente incapaces de ser los padres."],
     f:"Un niño AB es la prueba definitiva de que ambos padres tienen alelos dominantes distintos. La herencia del AB es como un 'certificado de paternidad'."
   },
   {
+    "id": "ent-208",
     block:"Genética", topic:"Herencia ligada al sexo: daltonismo", isNew:true, hasImg:false,
     q:"El daltonismo es una enfermedad ligada al cromosoma X. Un hombre daltónico tiene hijos con una mujer sana cuya madre era daltónica.<br>a) Indica los genotipos de los padres. [0,5]<br>b) ¿Qué probabilidad hay de que tengan una hija daltónica? [0,5]",
     c:["a) Padre: XᵈY (daltónico). Madre: XᴰXᵈ (portadora, porque recibió Xᵈ de su madre daltónica XᵈXᵈ).","b) Cruce: XᵈY × XᴰXᵈ. Hijas posibles: 50% sanas portadoras (XᴰXᵈ) y 50% daltónicas (XᵈXᵈ). Probabilidad de hija daltónica: 50%."],
     f:"Los hombres nunca son portadores en enfermedades ligadas al X: o están sanos o están enfermos (no pueden tener el alelo 'escondido')."
   },
   {
+    "id": "ent-209",
     block:"Genética", topic:"Dihibridismo mendeliano (9:3:3:1)", isNew:false, hasImg:false,
     q:"Una planta de hojas compuestas y aserradas se cruza con otra de hojas simples y lobuladas. Genotipo F1 [0,2], fenotipo F1 [0,2] y proporciones de la F2 [0,6]. (C: compuestas, c: simples; A: lobuladas, a: aserradas)",
     c:["F1: genotipo CcAa. Fenotipo: 100% Compuestas y Lobuladas.","F2 (tabla de Punnett 4×4): 9/16 Compuestas-Lobuladas : 3/16 Compuestas-Aserradas : 3/16 Simples-Lobuladas : 1/16 Simples-Aserradas."],
     f:"Dihibridismo clásico de Mendel: siempre aplica la tabla de Punnett de 16 cuadros para obtener la proporción 9:3:3:1."
   },
   {
+    "id": "ent-210",
     block:"Genética", topic:"Anemia falciforme — mutación y estructura proteica", isNew:false, hasImg:false,
     q:"La secuencia normal de hemoglobina es: -Val-His-Leu-Thr-Pro-Glu-Glu-. En anemia falciforme es: -Val-His-Leu-Thr-Pro-Val-Glu-. Explica razonadamente por qué esta alteración causa una grave enfermedad [1].",
     c:["Se ha producido una mutación génica por sustitución que cambia el aminoácido glutamato por valina en la posición 6.","Este cambio altera la estructura primaria de la proteína, lo que provoca un mal plegamiento en sus estructuras terciaria y cuaternaria.","Al perder su conformación nativa, la hemoglobina se deforma (deformando el glóbulo rojo en forma de hoz) y pierde su capacidad de transportar oxígeno adecuadamente."],
     f:"Efecto dominó: si falla la primaria (secuencia) → falla el plegamiento 3D (terciaria) → si falla la forma, se pierde la función."
   },
   {
+    "id": "ent-211",
     block:"Genética", topic:"Cálculo de células y cromosomas: mitosis + meiosis", isNew:false, hasImg:false,
     q:"Una célula vegetal con 3 pares de cromosomas (2n=6) sufre una mitosis. Cada una de las células hijas resultantes sufre posteriormente una meiosis. ¿Cuántas células se habrán producido [0,5] y cuántos cromosomas tendrá cada una? [0,5]",
     c:["Tras la mitosis: 2 células diploides idénticas, con 6 cromosomas (2n=6).","Tras la meiosis de cada una: 4 células por cada célula → 2 × 4 = 8 células en total.","Cromosomas finales: la meiosis es reduccional → cada una de las 8 células tendrá 3 cromosomas (n=3)."],
     f:"Multiplicación rápida: Mitosis da ×2. Meiosis da ×4. Total: 2×4 = 8. Mitosis conserva diploide, meiosis reduce a haploide."
   },
   {
+    "id": "ent-212",
     block:"Genética", topic:"Localizaciones celulares de los principales procesos", isNew:false, hasImg:false,
     q:"Indica la localización celular en eucariotas de: a) síntesis de proteínas, b) glucólisis, c) ciclo de Krebs, d) ciclo de Calvin, e) transcripción, f) fase lumínica fotosíntesis, g) cadena respiratoria, h) digestión lisosómica, i) beta-oxidación, j) síntesis de lípidos. [2] (0,2 cada una)",
     c:["a) Ribosomas (libres o en RER). b) Citosol. c) Matriz mitocondrial. d) Estroma del cloroplasto. e) Núcleo. f) Tilacoides. g) Crestas mitocondriales. h) Lisosomas. i) Matriz mitocondrial. j) Retículo Endoplasmático Liso (REL)."],
@@ -3159,6 +3374,7 @@ const database = [
 
   // ── CÉLULA ───────────────────────────────────────────────
   {
+    "id": "ent-213",
     block:"Célula", topic:"Sistema de endomembranas: lipasa pancreática", isNew:false, hasImg:true,
     imageDesc:"Esquema del sistema de endomembranas: RER, Aparato de Golgi y vesículas de secreción",
     q:"La lipasa pancreática es una glucoproteína (enzima digestiva). Justifique el modo de transporte celular empleado para salir al exterior y el camino que recorre desde su síntesis hasta su secreción. [2]",
@@ -3166,6 +3382,7 @@ const database = [
     f:"El 'camino de secreción' es siempre el mismo: Ribosoma → RER → Golgi → Vesícula → Exocitosis. Memorízalo como una ruta."
   },
   {
+    "id": "ent-214",
     block:"Célula", topic:"Teoría endosimbiótica: pruebas moleculares", isNew:true, hasImg:true,
     imageDesc:"Esquema de la teoría endosimbiótica mostrando la fagocitosis de bacterias aerobias y fotosintéticas por una célula eucariota primitiva",
     q:"Explique brevemente la teoría endosimbiótica y aporte al menos dos pruebas estructurales o moleculares que la avalen sobre el origen de mitocondrias y cloroplastos. [1]",
@@ -3173,6 +3390,7 @@ const database = [
     f:"Para el corrector PAU es vital mencionar 'ADN circular' y 'ribosomas 70S'. Son las huellas dactilares bacterianas que avalan la teoría."
   },
   {
+    "id": "ent-215",
     block:"Célula", topic:"Cáncer y fármacos antimitóticos", isNew:true, hasImg:true,
     imageDesc:"Esquema de mitosis normal frente a crecimiento celular descontrolado formando un tumor",
     q:"El cáncer se produce por alteración en los genes que controlan el ciclo celular. ¿Cuál es la consecuencia directa en la célula tumoral? [0,5] Los fármacos antimitóticos inhiben la formación de microtúbulos: ¿qué proceso detienen y por qué afectan al crecimiento del tumor? [0,5]",
@@ -3180,12 +3398,14 @@ const database = [
     f:"Sin microtúbulos no hay huso, sin huso no hay separación de cromosomas, sin separación la célula no se divide. El tumor se frena."
   },
   {
+    "id": "ent-216",
     block:"Célula", topic:"Citoesqueleto: flagelos de Chlamydomonas", isNew:false, hasImg:false,
     q:"Si a un alga <i>Chlamydomonas</i> se le cortan los flagelos, los regenera en dos horas. Sin embargo, en presencia de cicloheximida (inhibidor de la síntesis de proteínas), no se produce la regeneración. Explique razonadamente estos hechos [1].",
     c:["Los flagelos están formados estructuralmente por microtúbulos, que están compuestos por la proteína tubulina.","Al inhibirse la síntesis de proteínas con la cicloheximida, la célula no puede fabricar nueva tubulina, careciendo de los 'ladrillos' necesarios para regenerar la estructura del flagelo."],
     f:"Relaciona siempre las estructuras celulares con su composición molecular. Si bloquean proteínas, bloquean flagelos, cilios y el huso mitótico."
   },
   {
+    "id": "ent-217",
     block:"Célula", topic:"Membrana: fluidez y modelo mosaico fluido", isNew:true, hasImg:true,
     imageDesc:"Esquema de fusión celular (ratón + oveja): proteínas de membrana de ambas especies se mezclan progresivamente en 1 hora",
     q:"Se fusionan una célula de ratón y una de oveja. Inicialmente, las proteínas de membrana quedan en hemicapas separadas. Una hora después aparecen totalmente mezcladas. Explica razonadamente este hecho basándote en la estructura de la membrana [1].",
@@ -3193,6 +3413,7 @@ const database = [
     f:"La membrana no es un muro de ladrillos fijos. Es un 'mar de aceite' donde las proteínas flotan y se desplazan libremente, como barcos en el agua."
   },
   {
+    "id": "ent-218",
     block:"Célula", topic:"Ciclo celular: gráfica de contenido en ADN", isNew:false, hasImg:true,
     imageDesc:"Gráfica de variación del contenido de ADN a lo largo del ciclo celular: G1 (2C), S (subida), G2 (4C), Mitosis (caída a 2C)",
     q:"Defina ciclo celular [0,5]. Cite en qué fase ocurren la replicación, transcripción, traducción y reparto del material hereditario [0,5]. Representa gráficamente cómo varía el contenido de ADN durante el ciclo. [1]",
@@ -3200,18 +3421,21 @@ const database = [
     f:"Clásico de examen: en la gráfica la fase S tiene pendiente ascendente y la mitosis una caída vertical. Márcala siempre."
   },
   {
+    "id": "ent-219",
     block:"Célula", topic:"Mitosis: droga inhibidora de microtúbulos", isNew:false, hasImg:false,
     q:"Indique a qué etapa del ciclo celular afecta una droga que inhibe la polimerización de los microtúbulos. Razone la respuesta. [1]",
     c:["Etapa afectada: Fase M (Mitosis o Meiosis).","Razonamiento: la polimerización de microtúbulos es esencial para formar el huso acromático. Sin microtúbulos no se pueden separar las cromátidas hermanas hacia los polos opuestos, por lo que la división celular se detiene."],
     f:"Microtúbulos = huso acromático = separación de cromosomas. Sin uno, los demás no funcionan."
   },
   {
+    "id": "ent-220",
     block:"Célula", topic:"Transporte de membrana: pasivo, activo y vesicular", isNew:false, hasImg:false,
     q:"Indique las características del transporte pasivo y del transporte activo [0,8]. Defina pinocitosis, fagocitosis y exocitosis. [1,2]",
     c:["Transporte pasivo: a favor de gradiente, sin gasto energético (difusión simple a través de la bicapa o difusión facilitada vía proteínas de canal/transportadoras).","Transporte activo: contra gradiente, con gasto de ATP y mediado por proteínas de membrana (ej. bomba Na⁺/K⁺).","Pinocitosis: ingestión de líquidos mediante pequeñas vesículas. Fagocitosis: ingestión de partículas sólidas grandes (bacterias). Exocitosis: expulsión de materiales al exterior celular mediante fusión de vesículas con la membrana."],
     f:"El transporte pasivo puede ser simple (a través de la bicapa) o facilitado (vía proteínas). En el activo siempre hay consumo de ATP."
   },
   {
+    "id": "ent-221",
     block:"Célula", topic:"Orgánulos con membrana (Mosaico Fluido) y funciones de RER y Golgi", isNew:false, hasImg:true,
     imageDesc:"Célula animal y sus orgánulos membranosos",
     q:"Nombre seis orgánulos cuyas membranas cumplan el modelo de Mosaico Fluido [0,3]. Indique dos funciones del RER y dos del Aparato de Golgi. [0,4]",
@@ -3219,12 +3443,14 @@ const database = [
     f:"Los ribosomas NO entran en esta lista porque carecen de membrana. El Golgi siempre va después del RER en el camino de secreción."
   },
   {
+    "id": "ent-222",
     block:"Célula", topic:"Procariotas sin mitocondria: ¿siempre anaerobios?", isNew:false, hasImg:false,
     q:"Las células procariotas carecen de mitocondrias. ¿Implica esto que todas son de metabolismo anaerobio obligado? Razone la respuesta [1].",
     c:["No. Muchas bacterias son aerobias estrictas o facultativas.","Pueden realizar respiración celular porque poseen toda la maquinaria enzimática necesaria (cadena de transporte de electrones y ATP-sintasa) incrustada en pliegues de su propia membrana plasmática (mesosomas), sin necesidad de orgánulos especializados."],
     f:"Trampa clásica: sin mitocondria no significa sin oxígeno. Las bacterias aerobias usan su membrana plasmática como si fuera una cresta mitocondrial."
   },
   {
+    "id": "ent-223",
     block:"Célula", topic:"Modelos celulares: procariota vs eucariota, animal vs vegetal", isNew:false, hasImg:true,
     imageDesc:"Comparativa esquemática de célula procariota, eucariota animal y eucariota vegetal",
     q:"Dibuje una célula procariótica y una eucariótica [0,8]. Cite tres diferencias entre células procarióticas y eucarióticas [0,6] y tres entre células animales y vegetales. [0,6]",
@@ -3234,6 +3460,7 @@ const database = [
 
   // ── METABOLISMO ──────────────────────────────────────────
   {
+    "id": "ent-224",
     block:"Metabolismo", topic:"Fermentación alcohólica vs respiración aerobia", isNew:true, hasImg:true,
     imageDesc:"Gráfica: tiempo vs concentración de glucosa, etanol y CO₂. En t2 se agota el O₂ y se inicia la fermentación alcohólica",
     q:"Se inoculan levaduras en un medio cerrado con glucosa. Observando la gráfica: a) ¿A qué se debe la disminución de glucosa de t1 a t2? [0,3] b) ¿Por qué la glucosa baja más bruscamente a partir de t2? [0,4] c) ¿Por qué empieza a aparecer etanol a partir de t2? [0,3]",
@@ -3241,18 +3468,21 @@ const database = [
     f:"Piénsalo como un coche: la fermentación gasta muchísima 'gasolina' (glucosa) porque el motor es muy poco eficiente sin oxígeno."
   },
   {
+    "id": "ent-225",
     block:"Metabolismo", topic:"Diferencia energética: fermentación vs respiración", isNew:false, hasImg:false,
     q:"Explique la diferencia entre la rentabilidad energética de la fermentación y de la respiración celular aerobia, justificándolo por el grado de oxidación de la glucosa. [1]",
     c:["Respiración: oxida completamente la glucosa hasta CO₂ y H₂O, extrayendo toda su energía → alto rendimiento (36-38 ATP).","Fermentación: oxidación parcial. Los productos finales (lactato o etanol) son moléculas orgánicas que aún contienen energía → rendimiento muy bajo (solo 2 ATP de la glucólisis)."],
     f:"Fermentar es como dejar el plato a medias. Respirar es comértelo hasta que no queda nada (solo expulsas humo: CO₂)."
   },
   {
+    "id": "ent-226",
     block:"Metabolismo", topic:"Inhibición por cianuro: cadena respiratoria", isNew:false, hasImg:false,
     q:"El cianuro es un veneno que bloquea una enzima del transporte electrónico. Indica razonadamente el efecto inmediato en el consumo de O₂ y en la síntesis de ATP mitocondrial. [1]",
     c:["Consumo de O₂: se detendría de inmediato. Al bloquearse la cadena, los electrones no pueden fluir ni llegar al O₂, que es el aceptor final.","Síntesis de ATP: cesaría. Sin transporte de electrones no se bombean protones al espacio intermembranoso, no hay gradiente protónico y la ATP-sintasa no puede funcionar."],
     f:"El O₂ espera al final de la cadena para recoger los electrones. Si los electrones se atascan por el veneno, el O₂ no se consume y el ATP no se genera."
   },
   {
+    "id": "ent-227",
     block:"Metabolismo", topic:"Temperatura y actividad enzimática: inactivación vs desnaturalización", isNew:true, hasImg:true,
     imageDesc:"Gráfica de actividad enzimática vs temperatura: curva de enzima humana (pico 37°C) y de bacteria termófila (pico 80°C)",
     q:"Se observa la actividad de la Enzima A (humana) y la Enzima B (de bacteria termófila).<br>a) ¿Qué ocurre con ambas enzimas a 0°C? [0,5]<br>b) ¿Qué le ocurre a la Enzima A a 50°C? Razone a nivel molecular [0,5].",
@@ -3260,60 +3490,70 @@ const database = [
     f:"¡El frío duerme a la enzima, el calor extremo la achicharra! No confundas inactivación reversible (frío) con desnaturalización irreversible (calor excesivo)."
   },
   {
+    "id": "ent-228",
     block:"Metabolismo", topic:"Fiebre leve vs fiebre letal: cinética enzimática", isNew:false, hasImg:false,
     q:"Cuando aparece fiebre leve, en una primera etapa se acelera el metabolismo. Sin embargo, una temperatura excesiva (por encima de 42°C) puede causar la muerte. Explique razonadamente ambas situaciones a nivel molecular [1].",
     c:["Fiebre leve: un aumento moderado de temperatura incrementa la energía cinética de las moléculas, aumentando la probabilidad de choque efectivo enzima-sustrato y acelerando el metabolismo.","Fiebre letal: al superar el umbral de temperatura óptima, la agitación molecular rompe los enlaces débiles (puentes de H) de las enzimas, provocando su desnaturalización irreversible. Las reacciones vitales se detienen."],
     f:"Temperatura: arma de doble filo. Un poco de calor da velocidad; demasiado calor 'fríe' la estructura 3D de las proteínas."
   },
   {
+    "id": "ent-229",
     block:"Metabolismo", topic:"Fotosíntesis: fotosistema, fotofosforilación y ATP", isNew:false, hasImg:false,
     q:"Explique las fases de la fotosíntesis. [1] Indica la localización de los fotosistemas y cómo funciona uno. [0,5] Explica la obtención de ATP fotosintético. [0,5]",
     c:["Fases: Fotoquímica (en tilacoides, produce ATP y NADPH y libera O₂ por fotólisis del agua) y Biosintética o Ciclo de Calvin (en estroma, fija CO₂ para producir glúcidos).","Fotosistemas: en la membrana tilacoidal. Los pigmentos captan luz y transfieren energía al centro de reacción, que libera electrones excitados para la cadena de transporte.","ATP fotosintético: mediante fotofosforilación, acoplada al gradiente de protones generado por la cadena de transporte electrónico en los tilacoides."],
     f:"Terminología PAU correcta: 'fase fotoquímica' y 'fase biosintética' (o ciclo de Calvin). NO usar 'luminosa' ni 'oscura'."
   },
   {
+    "id": "ent-230",
     block:"Metabolismo", topic:"Rendimiento fotosintético y factores limitantes", isNew:false, hasImg:false,
     q:"En un invernadero se enriquece la atmósfera en CO₂. El Grupo 1 está a temperatura cálida y el Grupo 2 a baja temperatura. ¿Cómo afecta el exceso de CO₂ al Grupo 1? [0,5] ¿Qué grupo tendrá mayor rendimiento fotosintético y por qué? [0,5]",
     c:["Grupo 1: el aumento de CO₂ incrementará la tasa fotosintética (más sustrato para el ciclo de Calvin) hasta alcanzar un punto de saturación.","El Grupo 1 tendrá mayor rendimiento. En el Grupo 2, aunque hay mucho CO₂, la baja temperatura ralentiza la actividad enzimática (Rubisco y demás), actuando como factor limitante."],
     f:"Fotosíntesis = fábrica. Si tienes mucha materia prima (CO₂) pero los trabajadores tienen frío (enzimas lentas), la producción no aumenta."
   },
   {
+    "id": "ent-231",
     block:"Metabolismo", topic:"Fase lumínica vs oscura: fotofosforilación cíclica y acíclica", isNew:false, hasImg:false,
     q:"Tras irradiar con UV a unos microorganismos, solo pueden realizar fotofosforilación cíclica, quedando inactiva la acíclica. Como consecuencia el Ciclo de Calvin se paraliza. Da una explicación razonada [1].",
     c:["El ciclo de Calvin necesita dos cosas: ATP (energía) y NADPH (poder reductor).","La fotofosforilación cíclica produce exclusivamente ATP, pero no genera la fotólisis del agua ni NADPH. Al faltar el poder reductor (NADPH), el ciclo de Calvin no puede fijar el CO₂ y se detiene."],
     f:"La vía cíclica es un 'parche' para obtener ATP extra. Sin la vía acíclica no hay NADPH ni O₂, y sin NADPH no se construye materia orgánica."
   },
   {
+    "id": "ent-232",
     block:"Metabolismo", topic:"Respiración sin fotosíntesis: semilla en oscuridad", isNew:false, hasImg:false,
     q:"Se siembra una semilla en una maceta y se introduce en una habitación totalmente oscura. Al cabo de unos días ha germinado y presenta hojas. ¿La planta ha consumido o liberado O₂ y CO₂ en estos días? Razone la respuesta [1].",
     c:["En total oscuridad la planta no ha podido realizar fotosíntesis → no ha liberado O₂ ni consumido CO₂ mediante esa vía.","Para germinar y crecer, la semilla necesita energía (ATP), que obtiene de sus reservas energéticas mediante respiración celular aerobia.","Por consiguiente, la planta ha consumido O₂ del ambiente y ha liberado CO₂ como producto de desecho de la respiración."],
     f:"Trampa mortal: las plantas SIEMPRE respiran las 24 horas del día. La fotosíntesis solo ocurre si hay luz, pero la respiración es continua."
   },
   {
+    "id": "ent-233",
     block:"Metabolismo", topic:"Ciclo de Krebs: concepto, compuestos y diferencia con Calvin", isNew:false, hasImg:false,
     q:"Defina el ciclo de Krebs [0,4]. Cite los dos compuestos para comenzar el ciclo [0,4]. Nombre los productos que ceden electrones a la cadena de transporte [0,4]. Diferencie con el ciclo de Calvin respecto al ATP. [0,8]",
     c:["Ciclo de Krebs: vía metabólica de oxidación de grupos acetilo para producir CO₂, GTP y poder reductor.","Compuestos iniciales: Oxaloacetato y Acetil-CoA.","Productos que ceden electrones: NADH y FADH₂.","Diferencia con Calvin: ciclo de Krebs produce ATP (catabólico) mientras que el ciclo de Calvin consume ATP (anabólico)."],
     f:"El ciclo de Krebs ocurre en la matriz mitocondrial y es la vía central del metabolismo aerobio. Calvin ocurre en el estroma del cloroplasto. Ubicaciones opuestas, dirección energética opuesta."
   },
   {
+    "id": "ent-234",
     block:"Metabolismo", topic:"ATP y NAD+: funciones en el metabolismo", isNew:false, hasImg:false,
     q:"Indique los tipos de seres vivos según su fuente de energía [0,2]. Explique el funcionamiento del ATP y del NAD⁺. [0,8]",
     c:["Tipos: Fotótrofos (luz) y Quimiótrofos (reacciones químicas de oxidación).","ATP: almacena energía en sus enlaces fosfato de alta energía. Al hidrolizarse (ATP → ADP + Pi) libera energía para el trabajo celular. Es la 'moneda energética'.","NAD⁺: coenzima transportadora de electrones y protones (poder reductor). Se reduce a NADH al captar dos electrones y un H⁺."],
     f:"ATP = moneda energética. NAD⁺ = transportador de electrones. Sin estas dos herramientas el metabolismo no funciona."
   },
   {
+    "id": "ent-235",
     block:"Metabolismo", topic:"Catabolismo de lípidos: triglicéridos y beta-oxidación", isNew:true, hasImg:false,
     q:"Un ácido graso de 18 carbonos se degrada para obtener energía.<br>a) ¿Cómo se llama la molécula de reserva de grasa y dónde se almacena? [0,3]<br>b) ¿Cómo se llama la ruta de degradación y dónde ocurre? [0,2]<br>c) Calcula el rendimiento de NADH y FADH₂ para este ácido graso de 18C. [0,5]",
     c:["a) Triglicéridos (triacilgliceroles). Se almacenan en el citoplasma (hialoplasma) de los adipocitos.","b) Beta-oxidación (hélice de Lynen). Ocurre en la matriz mitocondrial.","c) Ácido graso 18C → 8 vueltas de β-oxidación → 9 Acetil-CoA. β-oxidación genera: 8 NADH + 8 FADH₂. Ciclo de Krebs (9 Acetil-CoA × 3 NADH + 1 FADH₂): 27 NADH + 9 FADH₂. TOTAL: 35 NADH y 17 FADH₂."],
     f:"Fórmula: para un ácido graso de N carbonos → (N/2)-1 vueltas de β-oxidación y N/2 Acetil-CoA. Para 18C: 8 vueltas y 9 Acetil-CoA."
   },
   {
+    "id": "ent-236",
     block:"Metabolismo", topic:"Enzimas: energía de activación y factores", isNew:false, hasImg:false,
     q:"Defina energía de activación de las reacciones enzimáticas [0,2]. Cite tres factores cuya variación pueda modificar la velocidad de las reacciones enzimáticas [0,3] y explique el fundamento de su acción. [1,5]",
     c:["Energía de activación: energía necesaria para que los reactivos se transformen en productos. Las enzimas la reducen estabilizando el estado de transición.","Factores: concentración de sustrato, pH y temperatura.","Fundamento: la velocidad aumenta con el sustrato hasta la saturación de todos los centros activos (Vmax). El pH y la temperatura tienen un valor óptimo; fuera de él, la enzima se desnaturaliza y pierde actividad."],
     f:"Fundamental: al pH y temperatura extremos la enzima se desnaturaliza porque se rompe su estructura terciaria y se inutiliza el centro activo."
   },
   {
+    "id": "ent-237",
     block:"Metabolismo", topic:"Rutas metabólicas integradas: glucólisis, respiración y fermentación", isNew:true, hasImg:true,
     imageDesc:"Esquema de rutas de degradación de la glucosa: Glucólisis (1), Fermentación alcohólica (2), Fermentación láctica (3), Descarboxilación del piruvato (4), Ciclo de Krebs (5), Cadena respiratoria (6), Respiración aerobia total (7)",
     q:"Analice la imagen de las rutas metabólicas (1 al 7):<br>a) Nombre los procesos del 1 al 7. [0,7]<br>b) ¿Dónde ocurren los procesos 1, 2 y 3? [0,3]<br>c) Cite microorganismos para los procesos 2 y 3 y sus productos de interés. [0,6]<br>d) ¿Qué procesos se llevan a cabo en anaerobiosis? [0,4]",
@@ -3323,12 +3563,14 @@ const database = [
 
   // ── BIOTECNOLOGÍA ────────────────────────────────────────
   {
+    "id": "ent-238",
     block:"Biotecnología", topic:"Antibióticos: uso correcto y resistencias", isNew:false, hasImg:false,
     q:"¿Por qué los médicos recetan antibióticos en unos casos y en otros no? [0,5] ¿Qué problemas causa su uso indiscriminado? [0,5]",
     c:["Uso: se recetan solo para infecciones bacterianas; son ineficaces contra virus porque atacan estructuras bacterianas (como la pared de peptidoglicano) que los virus no poseen.","Problemas: aparición de cepas bacterianas resistentes (resistencia a antibióticos) y eliminación de la microbiota beneficiosa del organismo."],
     f:"Los antibióticos atacan estructuras bacterianas específicas que los virus no tienen. Usarlos contra virus no solo no funciona, sino que genera superbacterias."
   },
   {
+    "id": "ent-239",
     block:"Biotecnología", topic:"Ingeniería genética: producción de insulina", isNew:true, hasImg:true,
     imageDesc:"Esquema de producción de insulina humana por bacterias: gen → plásmido → ADN recombinante → transformación bacteriana → fermentación → purificación",
     q:"La insulina se produce hoy mediante ADN recombinante. Describe brevemente los principales pasos en el proceso de producción de insulina humana mediante ingeniería genética. [0,75]",
@@ -3336,12 +3578,14 @@ const database = [
     f:"Clave: se usa ADNc y NO el gen genómico, porque las bacterias carecen de spliceosoma para eliminar los intrones del pre-ARNm humano."
   },
   {
+    "id": "ent-240",
     block:"Biotecnología", topic:"Universalidad del código genético e intrones", isNew:false, hasImg:false,
     q:"Si introducimos el gen maduro de la insulina en una bacteria, sintetiza la proteína idéntica. Pero si insertamos el gen extraído directamente del ADN humano, la bacteria produce una proteína defectuosa. Razona ambos hechos [1].",
     c:["1er hecho: La bacteria fabrica la proteína idéntica porque el Código Genético es universal: los mismos codones codifican los mismos aminoácidos en bacterias y en humanos.","2º hecho: El ADN humano contiene exones (con información) e intrones (sin información). Las células humanas realizan splicing (maduración del ARNm) para eliminar los intrones. Las bacterias carecen de este mecanismo, por lo que traducen también los intrones, creando una proteína larga y no funcional."],
     f:"Código universal = mismo diccionario. Sin maduración de ARNm = las bacterias no pueden 'tachar' los fragmentos inútiles del ADN humano."
   },
   {
+    "id": "ent-241",
     block:"Biotecnología", topic:"PCR: técnica y Taq polimerasa", isNew:true, hasImg:true,
     imgSrc:"",
     imageDesc:"Ciclo de temperaturas de la PCR: desnaturalización (95°C), hibridación de cebadores (55-65°C), extensión (72°C)",
@@ -3350,12 +3594,14 @@ const database = [
     f:"Sin Taq polimerasa no habría PCR. La resistencia al calor de esta enzima fue el descubrimiento que hizo posible revolucionar el diagnóstico forense, clínico y científico."
   },
   {
+    "id": "ent-242",
     block:"Biotecnología", topic:"Biorremediación: concepto y aplicaciones", isNew:true, hasImg:false,
     q:"¿En qué consiste la biorremediación [0,5] y qué utilidades presenta para el medio ambiente? [0,5]",
     c:["Biorremediación: uso biotecnológico de microorganismos (bacterias, hongos) o plantas para degradar, transformar o eliminar contaminantes del medio ambiente.","Ejemplos: 1) Bacterias que degradan hidrocarburos en mareas negras. 2) Plantas hiperacumuladoras que absorben metales pesados del suelo (fitorremediación). 3) Tratamiento de aguas residuales con microorganismos. 4) Bacterias que degradan plásticos (ej. Ideonella sakaiensis)."],
     f:"La biorremediación es la estrategia ecológica menos agresiva para limpiar contaminación: usamos los propios seres vivos como 'barrenderos' del planeta."
   },
   {
+    "id": "ent-243",
     block:"Biotecnología", topic:"Ciclo lítico de un bacteriófago", isNew:false, hasImg:true,
     imageDesc:"Ciclo lítico de un bacteriófago: adsorción → penetración → eclipse → ensamblaje → lisis",
     q:"Describa el ciclo lítico de un bacteriófago. [2]",
@@ -3363,6 +3609,7 @@ const database = [
     f:"En la fase de eclipse no se ven virus completos dentro de la célula porque sus componentes están ensamblándose por separado. Solo al final aparecen los viriones completos."
   },
   {
+    "id": "ent-244",
     block:"Biotecnología", topic:"Síndrome DiGeorge, diabetes tipo 1 e insulina recombinante", isNew:true, hasImg:false,
     q:"<b>Contexto:</b> En el Síndrome de DiGeorge el timo no se desarrolla bien. La diabetes mellitus tipo 1 es una enfermedad en la que el sistema inmune destruye las células beta del páncreas.<br><br>a) ¿A qué patología da lugar el Síndrome de DiGeorge? Razona cómo afecta al sistema inmune. [0,5]<br>b) ¿Qué respuesta específica se ve afectada esencialmente y por qué? [0,25]<br>c) Clasifica el trasplante de timo según la relación donante-receptor. [0,25]<br>d) ¿En qué patología se encuadra la diabetes tipo 1? [0,25]",
     c:["a) Inmunodeficiencia (primaria/congénita). El timo es donde maduran los linfocitos T; sin timo funcional la producción de linfocitos T está muy mermada.","b) Respuesta celular, ya que los linfocitos T son sus efectores principales (destrucción de células infectadas y regulación de otros linfocitos).","c) Aloinjerto (alotrasplante): trasplante entre individuos de la misma especie genéticamente diferentes.","d) Autoinmunidad: el sistema inmune ataca y destruye células propias (las células beta del páncreas)."],
@@ -3371,18 +3618,21 @@ const database = [
 
   // ── INMUNOLOGÍA ──────────────────────────────────────────
   {
+    "id": "ent-245",
     block:"Inmunología", topic:"Autotrasplante vs alotrasplante: MHC e inmunosupresores", isNew:false, hasImg:false,
     q:"A un paciente quemado con autotrasplante de su propia piel no se le administran inmunosupresores. A un trasplantado de corazón de un donante externo, sí. Razone esta decisión médica. [1]",
     c:["Autotrasplante: las células tienen los mismos antígenos de histocompatibilidad (MHC). El sistema inmune las reconoce como propias y no genera rechazo.","Alotrasplante (donante externo): las células ajenas tienen un MHC diferente. El sistema inmune reconoce el órgano como extraño y desata una respuesta celular (linfocitos T citotóxicos) para destruirlo. Los inmunosupresores paralizan este ataque."],
     f:"La clave en trasplantes es siempre el 'Reconocimiento de lo Propio vs No Propio'. Si el MHC no coincide, el sistema inmune ataca."
   },
   {
+    "id": "ent-246",
     block:"Inmunología", topic:"Artritis reumatoide: autoinmunidad e inmunosupresores", isNew:false, hasImg:false,
     q:"La artritis reumatoide es una enfermedad autoinmune tratada con inmunosupresores. Explica razonadamente por qué se usa este tratamiento [0,5] y qué efecto negativo puede tener en el paciente [0,5].",
     c:["En la autoinmunidad el sistema inmune ataca tejidos propios. Los inmunosupresores se usan para atenuar esta respuesta destructiva, aliviando los síntomas.","Efecto negativo: deprimen el sistema inmune a nivel global (inmunodeficiencia inducida), dejando al paciente mucho más vulnerable ante infecciones por bacterias, virus y otros patógenos oportunistas."],
     f:"Un inmunosupresor te salva de ti mismo pero te deja desprotegido ante el mundo exterior. Es el precio de frenar la autoinmunidad."
   },
   {
+    "id": "ent-247",
     block:"Inmunología", topic:"Leche materna: inmunoglobulinas e inmunidad pasiva", isNew:true, hasImg:true,
     imageDesc:"Imagen comparando bebé tomando leche materna y bebé con leche de fórmula",
     q:"La leche materna posee sustancias inmunes que no tienen las leches de fórmula.<br>a) ¿Qué sustancias son y a qué grupo de biomoléculas pertenecen? [0,5]<br>b) ¿La inmunidad que adquiere el recién nacido por esta vía es activa o pasiva? [0,25]<br>c) ¿Por qué vía natural adquirió inmunidad antes de nacer? [0,25]",
@@ -3390,36 +3640,42 @@ const database = [
     f:"La leche materna es un 'suero' natural. Al igual que el suero artificial, presta anticuerpos, pero NO activa la memoria inmunológica del bebé."
   },
   {
+    "id": "ent-248",
     block:"Inmunología", topic:"Sueroterapia de urgencia: Ébola", isNew:false, hasImg:false,
     q:"¿Por qué a los infectados graves de Ébola se les trata con suero de pacientes que han superado la infección? [0,5] ¿Por qué sus propias defensas no actúan de manera inmediata? [0,5]",
     c:["Se trata con suero porque contiene anticuerpos específicos ya formados, proporcionando inmunidad pasiva inmediata capaz de neutralizar el virus antes de que cause daños letales.","Las defensas propias (inmunidad activa) no son inmediatas porque se trata de una respuesta primaria: el sistema requiere tiempo para reconocer el antígeno, proliferar y fabricar anticuerpos desde cero (unos 10-15 días)."],
     f:"En patologías fulminantes (Ébola, veneno de serpiente) no puedes esperar a que el paciente 'aprenda' a luchar. Hay que inyectarle las 'tropas ya entrenadas' (suero con anticuerpos)."
   },
   {
+    "id": "ent-249",
     block:"Inmunología", topic:"Memoria inmunológica: gripe A y ancianos de 1950", isNew:false, hasImg:false,
     q:"Ante un brote de gripe A, se consideran de bajo riesgo los mayores de 50 años que vivieron la epidemia de 1950. Explica por qué y por qué no es necesario vacunarlas. [1]",
     c:["Bajo riesgo: porque estuvieron en contacto previo con el virus o uno antigénicamente similar.","Tienen memoria inmunológica (linfocitos B y T de memoria) que reconoce rápidamente al virus y monta una respuesta secundaria potente antes de que la enfermedad progrese.","No necesitan vacunarse porque su memoria inmunológica ya actúa como 'vacuna natural'."],
     f:"La memoria inmunológica tras una respuesta primaria puede durar décadas. Es la base de la inmunidad de por vida que confieren algunas vacunas o enfermedades."
   },
   {
+    "id": "ent-250",
     block:"Inmunología", topic:"Vacunación vs sueroterapia: erradicación de enfermedades", isNew:false, hasImg:false,
     q:"La viruela fue erradicada mediante vacunación masiva. ¿Por qué no se puede erradicar la gripe usando el mismo plan? [0,5] Si se hubiera usado sueroterapia masiva en lugar de vacunas, ¿habría tenido el mismo éxito? [0,5]",
     c:["Gripe: el virus Influenza tiene una tasa de mutación muy alta en sus antígenos de superficie. Los anticuerpos de memoria de un año no sirven para la cepa mutada del año siguiente, requiriendo vacunas actualizadas cada temporada.","Sueroterapia masiva en viruela: habría fracasado. El suero inyecta anticuerpos de duración temporal pero NO activa linfocitos de memoria en la población. Sin memoria inmunológica colectiva, la enfermedad no se erradica."],
     f:"Vacuna = memoria a largo plazo en toda la población. Suero = auxilio inmediato sin memoria. Para erradicar una enfermedad de la Tierra, toda la población necesita memoria inmunológica."
   },
   {
+    "id": "ent-251",
     block:"Inmunología", topic:"Conceptos de inmunidad: tipos y definiciones", isNew:false, hasImg:false,
     q:"Defina: respuesta inmunitaria, hipersensibilidad (alergia), autoinmunidad e inmunodeficiencia. [2]",
     c:["Respuesta inmunitaria: reacción del sistema inmune ante moléculas extrañas (antígenos).","Hipersensibilidad: respuesta exagerada ante un antígeno inocuo (alérgeno). Mediada por IgE y mastocitos.","Autoinmunidad: error del sistema que ataca moléculas o tejidos propios del organismo.","Inmunodeficiencia: incapacidad del sistema inmune para defender al organismo frente a infecciones."],
     f:"Ejemplos para el examen: Alergia (al polen), Autoinmunidad (Diabetes tipo I, lupus), Inmunodeficiencia (SIDA)."
   },
   {
+    "id": "ent-252",
     block:"Inmunología", topic:"Respuesta celular: linfocitos T y macrófagos", isNew:false, hasImg:false,
     q:"Explique en qué consiste la respuesta inmunitaria celular [0,6]. Nombre las células implicadas [0,4]. Indique dos funciones de cada tipo celular. [1]",
     c:["Respuesta celular: mediada por células que atacan directamente a células infectadas o tumorales, o coordinan la respuesta inmune.","Linfocitos T citotóxicos (CD8+): destruyen células infectadas por virus liberando perforinas y granzimas. Linfocitos T colaboradores (CD4+): activan otras células inmunes mediante la secreción de interleucinas.","Macrófagos: fagocitan y digieren patógenos; presentan antígenos a los linfocitos T."],
     f:"La inmunidad celular es la defensa principal frente a virus que ya están dentro de las células. Los anticuerpos (inmunidad humoral) no pueden entrar a las células."
   },
   {
+    "id": "ent-253",
     block:"Inmunología", topic:"Inmunidad activa vs pasiva: natural y artificial", isNew:false, hasImg:false,
     q:"Defina: inmunidad congénita o innata, adquirida o adaptativa, natural e inmunidad artificial. [2]",
     c:["Innata: barreras naturales y células inespecíficas presentes desde el nacimiento (piel, macrófagos, NK).","Adaptativa: respuesta específica que se desarrolla tras el contacto con el antígeno (linfocitos T y B).","Natural: obtenida por procesos biológicos (padecer la enfermedad o transferencia materna).","Artificial: obtenida por técnicas médicas (vacunas = activa artificial; sueros = pasiva artificial)."],
@@ -3428,6 +3684,7 @@ const database = [
 
   // ── MICROBIOLOGÍA ────────────────────────────────────────
   {
+    "id": "ent-254",
     block:"Microbiología", topic:"Bacterias: componentes y funciones", isNew:false, hasImg:true,
     imageDesc:"Esquema de una bacteria típica mostrando: cápsula, pared celular (peptidoglicano), membrana plasmática, nucleoide (ADN circular), plásmido, ribosomas 70S, flagelos, pili",
     q:"Dibuje una bacteria [0,3] e identifique 7 componentes [0,7]. Cite la función de 5 de ellos [1].",
@@ -3435,6 +3692,7 @@ const database = [
     f:"Error frecuente: no pongas mitocondrias ni núcleo. Las bacterias son PROCARIOTAS. Tampoco tienen membrana nuclear ni orgánulos membranosos."
   },
   {
+    "id": "ent-255",
     block:"Microbiología", topic:"Virus y ciclos: lítico vs lisogénico", isNew:false, hasImg:true,
     imageDesc:"Ciclo lítico y ciclo lisogénico de un bacteriófago con todas sus fases",
     q:"Diferencia el ciclo lítico del ciclo lisogénico de un bacteriófago [1,5]. Menciona qué es un profago [0,5].",
@@ -3442,6 +3700,7 @@ const database = [
     f:"En el ciclo lisogénico el virus no mata a la célula huésped de inmediato. Es como un 'virus durmiente' dentro del ADN bacteriano."
   },
   {
+    "id": "ent-256",
     block:"Microbiología", topic:"Antibiograma: interpretación y elección de antibiótico", isNew:true, hasImg:true,
     imageDesc:"Placa de antibiograma con dos discos: el disco A sin halo de inhibición (bacteria resistente) y el disco B con gran halo de inhibición (bacteria sensible)",
     q:"En un antibiograma la bacteria crece pegada al disco del antibiótico A, pero deja un gran espacio vacío alrededor del disco B. Interpreta los resultados [0,5] y razona cuál elegirías para el tratamiento [0,5].",
@@ -3449,6 +3708,7 @@ const database = [
     f:"A mayor diámetro del halo de inhibición, mayor eficacia del antibiótico. Halo nulo = resistencia total."
   },
   {
+    "id": "ent-257",
     block:"Microbiología", topic:"Retrovirus y dogma central: VIH y transcriptasa inversa", isNew:true, hasImg:true,
     imageDesc:"Esquema del ciclo del VIH: inyección del ARN viral → retrotranscripción a ADN bicatenario → integración como provirus → transcripción → traducción de proteínas virales → ensamblaje y lisis",
     q:"El virus del VIH contiene ARN monocatenario, pero su material genético acaba integrado en el ADN del linfocito T huésped. Indica qué enzima viral es responsable [0,3], qué proceso realiza exactamente [0,4] y por qué se considera una excepción al Dogma Central de la Biología Molecular [0,3].",
@@ -3456,6 +3716,7 @@ const database = [
     f:"Transcriptasa INVERSA = marcha atrás en la autopista de la genética. ARN→ADN es el flujo inverso que define a los retrovirus. Es la diana de los antirretrovirales contra el VIH."
   },
   {
+    "id": "ent-258",
     block:"Microbiología", topic:"Conceptos básicos: microorganismo, bacteriófago, hongo, biotecnología", isNew:false, hasImg:false,
     q:"Defina los términos: microorganismo, bacteriófago, hongo, biotecnología y ciclo lítico. [2]",
     c:["Microorganismo: ser vivo visible solo al microscopio.","Bacteriófago: virus que infecta bacterias.","Hongo: organismo eucariota heterótrofo con pared celular de quitina.","Biotecnología: uso de sistemas biológicos (microorganismos, células, enzimas) para obtener productos o procesos de interés.","Ciclo lítico: ciclo viral que termina con la muerte y rotura de la célula hospedadora y la liberación de nuevos virus."],
@@ -3690,6 +3951,9 @@ function mostrarPregunta(q) {
   badgeNew.setAttribute('aria-label',
     q.anio ? `Pregunta de ${q.etiqueta || 'la PAU de ' + q.anio}` : 'Pregunta del modelo competencial');
   badgeNew.style.display = (q.isNew || q.anio) ? 'inline-block' : 'none';
+
+  // Código de la pregunta, para poder señalar errores
+  document.getElementById('qCodigo').textContent = q.id ? 'Código: ' + q.id : '';
 
   // Imagen
   const imgCont = document.getElementById('imgContainer');
