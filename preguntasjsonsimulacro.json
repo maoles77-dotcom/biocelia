@@ -27988,7 +27988,7 @@
     "bloque": "Biomoléculas",
     "tema": "ARN frente a ADN: componentes y enlaces",
     "tipo": "simulacro",
-    "pregunta": "En relación con la imagen: a) Identifique a qué tipo de macromolécula pertenecen los esquemas A y B. Indique de manera razonada una característica que permita diferenciar entre A y B. (0,6) b) Identifique las moléculas señaladas con los números 1, 2, 3, 4 y 5. ¿Qué representan las líneas punteadas de la macromolécula “B”? ¿Qué tipo de enlace es el señalado como 6? (0,9) c) Indique la localización de la molécula “B” en la célula procariota y eucariota. (0,5) (2 puntos)",
+    "pregunta": "En relación con la imagen: a) Identifique a qué tipo de macromolécula pertenecen los esquemas A y B. Indique de manera razonada una característica que permita diferenciar entre A y B. (0,6) [0,7] b) Identifique las moléculas señaladas con los números 1, 2, 3, 4 y 5. ¿Qué representan las líneas punteadas de la macromolécula “B”? ¿Qué tipo de enlace es el señalado como 6? (0,9) [0,65] c) Indique la localización de la molécula “B” en la célula procariota y eucariota. (0,5) [0,65] (2 puntos)",
     "respuesta": [
       "a) Ambos son ácidos nucleicos: A es ARN y B es ADN. A tiene uracilo (U) y es monocatenario; B tiene timina (T) y es bicatenario.",
       "b) 1: nucleótido (desoxirribonucleótido); 2: grupo fosfato; 3: pentosa (desoxirribosa); 4: bases nitrogenadas; 5: nucleótido (ribonucleótido). Las líneas punteadas son puentes de hidrógeno entre bases complementarias (2 entre A y T, 3 entre G y C). El enlace 6 es un enlace fosfodiéster.",
@@ -28006,7 +28006,7 @@
     "bloque": "Biomoléculas",
     "tema": "Celulosa y almidón",
     "tipo": "simulacro",
-    "pregunta": "Respecto a las moléculas biológicas: a) Indique qué tipo de biomolécula es la celulosa, su función y localización. ¿Cómo se llama y de qué tipo es el enlace que se produce entre los monómeros constituyentes de la celulosa? (0,7) b) Indique las unidades monoméricas que componen el almidón, los tipos de polímeros que lo constituyen y los tipos de enlace que se forman. ¿En qué tipo de células se encuentra esta molécula y cuál es su función? (1,3) (2 puntos)",
+    "pregunta": "Respecto a las moléculas biológicas: a) Indique qué tipo de biomolécula es la celulosa, su función y localización. ¿Cómo se llama y de qué tipo es el enlace que se produce entre los monómeros constituyentes de la celulosa? (0,7) [1] b) Indique las unidades monoméricas que componen el almidón, los tipos de polímeros que lo constituyen y los tipos de enlace que se forman. ¿En qué tipo de células se encuentra esta molécula y cuál es su función? (1,3) [1] (2 puntos)",
     "respuesta": [
       "a) La celulosa es un polisacárido (homopolisacárido de β-glucosa) con función estructural: forma la pared celular de las células vegetales. Sus monómeros se unen por enlaces O-glucosídicos β(1→4).",
       "b) El almidón está formado por α-glucosa. Tiene dos polímeros: la amilosa, lineal, con enlaces α(1→4), y la amilopectina, ramificada, con enlaces α(1→4) y ramificaciones α(1→6). Se encuentra en las células vegetales (amiloplastos, cloroplastos) y su función es la reserva energética."

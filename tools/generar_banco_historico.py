@@ -181,10 +181,43 @@ def construir(anios):
 RE_NOTA = re.compile(r'\[\s*\d+(?:[.,]\d+)?\s*\]|\(\s*(?:Calificaci[oó]n\s+)?\d+(?:[.,]\d+)?\s*(?:puntos?|p\.?)\s*\)', re.I)
 
 
+RE_APARTADO = re.compile(r'(?:(?<=^)|(?<=<br>)|(?<=\s))([a-h])\)\s')
+
+
 def con_nota(q, puntos):
     """Si el enunciado no indica ninguna nota (exámenes que solo la dan por pregunta),
-    se muestra al final la nota total oficial, para que el alumnado sepa cuánto vale."""
-    return q if RE_NOTA.search(q) else f"{q} <i>({texto_puntos(puntos)})</i>"
+    se muestra al final la nota total oficial, para que el alumnado sepa cuánto vale,
+    y, si tiene apartados, un reparto entre ellos propuesto por BioCelia (en morado)."""
+    if RE_NOTA.search(q):
+        return q
+    return f"{repartir(q, puntos)} <i>({texto_puntos(puntos)})</i>"
+
+
+def repartir(q, puntos):
+    """Añade al final de cada apartado a), b), c)… su parte de la nota, a partes iguales
+    en pasos de 0,05 (lo que sobra va a los primeros)."""
+    marcas, siguiente = [], 'a'
+    for m in RE_APARTADO.finditer(q):
+        if m.group(1) == siguiente:
+            marcas.append(m.start())
+            siguiente = chr(ord(siguiente) + 1)
+    n = len(marcas)
+    if n < 2 or '?' in q[:marcas[0]]:
+        # Sin apartados, o con preguntas antes del a): los apartados no son toda la pregunta
+        return q
+    centesimas = round(puntos * 100)
+    base = centesimas // n // 5 * 5
+    sobra = (centesimas - base * n) // 5
+    notas = [base + (5 if k < sobra else 0) for k in range(n)]
+    cortes = marcas[1:] + [len(q)]
+    trozos, inicio = [q[:marcas[0]]], marcas[0]
+    for corte, nota in zip(cortes, notas):
+        trozo = q[inicio:corte]
+        fin = re.search(r'(\s*(?:<br>\s*)*)$', trozo).start()
+        nota_txt = f"{nota / 100:.2f}".rstrip('0').rstrip('.').replace('.', ',')
+        trozos.append(f'{trozo[:fin]} <span class="redactado">[{nota_txt}]</span>{trozo[fin:]}')
+        inicio = corte
+    return ''.join(trozos)
 
 
 def texto_puntos(puntos):
