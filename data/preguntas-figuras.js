@@ -2,7 +2,7 @@
    Generado por tools/integrar_figuras.py el 2026-10-26.
    NO editar a mano: se regenera. Para cambiar una pregunta, edítala
    en el revisor y vuelve a ejecutar el script.
-   152 preguntas con figura, vinculadas por posición en el
+   153 preguntas con figura, vinculadas por posición en el
    documento de origen.
    ══════════════════════════════════════════════════════════════ */
 window.BIOCELIA_FIGURAS = [
@@ -176,16 +176,17 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b1-tema-2-glucidos/image6.webp",
   "imgThumb": "assets/figuras/docx/b1-tema-2-glucidos/image6.thumb.webp",
   "imageDesc": null,
-  "q": "<b>2. En relación con la figura adjunta, conteste a las siguientes preguntas:</b><br>a) ¿Cómo se llama la molécula representada? [0,2]<br>b) ¿Qué nombre recibe cada uno de los monómeros por los que está formada? [0,2]<br>c) ¿Cómo se denomina el enlace entre los dos monómeros? [0,2]<br>d) Nombre la reacción de rotura del citado enlace [0,2].<br>e) Cite dos propiedades de la molécula [0,2].<br>f) Nombre una función de dicha molécula [0,2].<br>g) Cite tres sustancias formadas exclusivamente por la unión de cientos o miles de monómeros del tipo A [0,3].<br>h) Indique la función biológica que desempeñan [0,3].",
+  "q": "<b>2. En relación con la figura adjunta, conteste a las siguientes preguntas:</b><br>a) ¿Cómo se llama la molécula representada? [0,2]<br>b) ¿Qué nombre recibe cada uno de los monómeros por los que está formada? [0,2]<br>c) ¿Cómo se denomina el enlace entre los dos monómeros? [0,2]<br>d) Nombre la reacción de rotura del citado enlace [0,2].<br>e) Cite dos propiedades de la molécula [0,2].<br>f) Nombre una función de dicha molécula [0,2].<br>g) Cite tres sustancias formadas exclusivamente por la unión de cientos o miles de monómeros del tipo A [0,3].<br>h) Indique la función biológica que desempeñan [0,3].<br>i) Indique el tipo de células eucarióticas en las que podemos encontrarlas [0,4].",
   "c": [
    "a) Sacarosa.",
    "b) Glucosa y fructosa.",
-   "c) O-Glucosídico.",
-   "d) Hidrolisis.",
-   "e) Es soluble y carece de poder reductor",
-   "f) Energética.",
-   "g) Almidón, celulosa y glucogeno.",
-   "h) Almidon y glucogeno: reserva energética; celulosa: funcion estructural. i) En células vegetales podemos encontrar almidon y celulosa, y en células animales encontramos al glucogeno."
+   "c) O-glucosídico.",
+   "d) Hidrólisis.",
+   "e) Es soluble y carece de poder reductor.",
+   "f) Energética.",
+   "g) Almidón, celulosa y glucógeno.",
+   "h) Almidón y glucógeno: reserva energética; celulosa: función estructural.",
+   "i) En células vegetales podemos encontrar almidón y celulosa, y en células animales, glucógeno."
   ],
   "f": "Pregunta y figura transcritas de «B1.TEMA 2. GLUCIDOS.docx». La solución mostrada es la del propio documento.",
   "origen": {
@@ -204,7 +205,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b1-tema-3-lipidos/image2.webp",
   "imgThumb": "assets/figuras/docx/b1-tema-3-lipidos/image2.thumb.webp",
   "imageDesc": null,
-  "q": "<b>2. La figura adjunta muestra la forma típica de representar dos moléculas A y B.</b><br>a) Indique de qué moléculas se trata [0,2].<br>b) Indique la composición de 1 y 2 en la molécula A [0,4].<br>c) Las moléculas A y B forman parte de una estructura celular,indique cuál[0,2]. d) Clasifique las moléculas A y B según su capacidad de reaccionar con una base fuerte [0,2]",
+  "q": "<b>2. La figura adjunta muestra la forma típica de representar dos moléculas A y B.</b><br>a) Indique de qué moléculas se trata [0,2].<br>b) Indique la composición de 1 y 2 en la molécula A [0,4].<br>c) Las moléculas A y B forman parte de una estructura celular: indique cuál [0,2].<br>d) Clasifique las moléculas A y B según su capacidad de reaccionar con una base fuerte [0,2].",
   "c": [
    "a) A: fosfolípido; B: colesterol",
    "b) 1: cabeza polar compuesta por un alcohol y un grupo fosfato; 2: colas hidrofóbicas constituidas por ácidos grasos ....",
@@ -333,9 +334,13 @@ window.BIOCELIA_FIGURAS = [
   "imageDesc": null,
   "q": "<b>12.- El dibujo muestra la forma común de representar esquemáticamente a un tipo de biomolécula.</b><br>a) Indique de qué biomolécula se trata [0,2]. ¿Qué representa y cuál es la naturaleza química de los componentes señalados con los números 1 y 2? [0,8].<br>b) Las biomoléculas en cuestión son uno de los principales componentes de una importante estructura celular. Cite cuál es esta estructura [0,2], indique cómo se organizan en ella estas biomoléculas [0,4] y justifique por qué lo hacen de esa manera [0,4].",
   "c": [
-   "a) Fosfolípido"
+   "a) <mark class=\"clave-criterio\">Fosfolípido</mark> (0,2 p).",
+   "a) 1: <mark class=\"clave-criterio\">cabeza polar hidrofílica</mark> (<mark class=\"clave-criterio\">grupo fosfato y aminoalcohol</mark>); 2: <mark class=\"clave-criterio\">colas apolares hidrofóbicas</mark> (<mark class=\"clave-criterio\">ácidos grasos</mark>). 0,4 p cada uno (0,8 p). <span class=\"redactado\">Los ácidos grasos se unen a la glicerina por enlaces éster; el fosfato se une al carbono 3 de la glicerina y a un aminoalcohol, como la colina.</span>",
+   "b) <mark class=\"clave-criterio\">Membranas celulares</mark> (0,2 p).",
+   "b) Forman una <mark class=\"clave-criterio\">bicapa</mark> con las <mark class=\"clave-criterio\">cabezas polares hacia el exterior</mark>, en contacto con el agua, y las <mark class=\"clave-criterio\">colas hidrofóbicas hacia el interior</mark> (0,4 p). <span class=\"redactado\">Las cabezas quedan hacia el medio acuoso del interior y del exterior de la célula, y las colas, en el centro, aisladas del agua; las uniones entre ellas son débiles, por eso la bicapa es fluida.</span>",
+   "b) Se debe a su <mark class=\"clave-criterio\">naturaleza anfipática</mark> (0,4 p). <span class=\"redactado\">Las cabezas polares son afines al agua y las colas apolares la repelen; en un medio acuoso se colocan de forma espontánea en la disposición más estable, la bicapa.</span>"
   ],
-  "f": "Pregunta y figura transcritas de «B1.TEMA 3. LIPIDOS.docx». La solución mostrada es la del propio documento.",
+  "f": "Pregunta y figura transcritas de «B1.TEMA 3. LIPIDOS.docx». La solución es la de los criterios oficiales de la PAU de Andalucía (2012), con las palabras clave resaltadas; en morado, explicaciones de BioCelia.",
   "origen": {
    "documento": "B1.TEMA 3. LIPIDOS.docx",
    "figura": "figdocx-b1-tema-3-lipidos-image12",
@@ -375,16 +380,18 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b1-tema-4-proteinas/image3.webp",
   "imgThumb": "assets/figuras/docx/b1-tema-4-proteinas/image3.thumb.webp",
   "imageDesc": null,
-  "q": "<b>3. En relación con las imágenes adjuntas, conteste las siguientes cuestiones: La Figura A representa una reacción entre dos biomoléculas.a) ¿Cómo se denominan las biomoléculas señaladas con los números 1 y 2? [0,1].</b><br>b) ¿Cuántos monómeros distintos de ese tipo existen en los seres vivos [0,1].<br>c) ¿En qué se diferencian? [0,1].<br>d) ¿Qué nombre recibe la molécula señalada con el número 3 de la Figura A? [0,1].<br>e) ¿Qué representa la Figura B? [0,2].<br>f) Indique qué representan los números 1, 2, 3 y 4 de la Figura B [0,4].<br>g) ¿Cómo se denomina el enlace señalado por la flecha en la Figura A? [0,2].<br>h) Cite dos características de dicho enlace [0,4].",
+  "q": "<b>3. En relación con las imágenes adjuntas, conteste las siguientes cuestiones: La Figura A representa una reacción entre dos biomoléculas.</b><br>a) ¿Cómo se denominan las biomoléculas señaladas con los números 1 y 2? [0,1].<br>b) ¿Cuántos monómeros distintos de ese tipo existen en los seres vivos [0,1].<br>c) ¿En qué se diferencian? [0,1].<br>d) ¿Qué nombre recibe la molécula señalada con el número 3 de la Figura A? [0,1].<br>e) ¿Qué representa la Figura B? [0,2].<br>f) Indique qué representan los números 1, 2, 3 y 4 de la Figura B [0,4].<br>g) ¿Cómo se denomina el enlace señalado por la flecha en la Figura A? [0,2].<br>h) Cite dos características de dicho enlace [0,4].<br>i) Identifique dos tipos de enlaces que mantengan la estructura número 3 de la Figura B [0,2].<br>j) Si hubiese un gran cambio de pH o de temperatura, indique una consecuencia que se produciría en la Figura B-4 <span class=\"redactado\">[0,2]</span>.",
   "c": [
-   "a) Aminoácidos.",
-   "b) Existen 20 aminoácidos diferentes en la naturaleza.",
-   "c) En el radical R",
-   "d) Dipéptido",
-   "e) Representa los distintos niveles de estructura de las proteínas (se aceptará también plegamiento de proteínas",
-   "f) 1: estructura primaria, 2: secundaria, 3: terciaria, 4: cuaternaria",
-   "g) Enlace peptídico",
-   "h) Es covalente, y tiene carácter de doble enlace, por lo que no puede girar"
+   "a) Aminoácidos.",
+   "b) Existen 20 aminoácidos diferentes en la naturaleza.",
+   "c) En el radical R.",
+   "d) Dipéptido.",
+   "e) Representa los distintos niveles de estructura de las proteínas (se aceptará también plegamiento de proteínas).",
+   "f) 1: estructura primaria; 2: secundaria; 3: terciaria; 4: cuaternaria.",
+   "g) Enlace peptídico.",
+   "h) Es covalente, y tiene carácter de doble enlace, por lo que no puede girar.",
+   "i) Interacciones hidrofóbicas y fuerzas de Van der Waals.",
+   "j) Se produciría una desnaturalización."
   ],
   "f": "Pregunta y figura transcritas de «B1.TEMA 4. PROTEINAS.docx». La solución mostrada es la del propio documento.",
   "origen": {
@@ -405,10 +412,13 @@ window.BIOCELIA_FIGURAS = [
   "imageDesc": null,
   "q": "<b>4. En relación con la imagen adjunta, conteste a las siguientes cuestiones:</b><br>a) ¿Qué tipo de biomoléculas están representadas? [0,1]. Escriba la fórmula del compuesto que se formará al unirse estas tres biomoléculas en el orden establecido [0,5], señalando con un recuadro los enlaces que se forman [0,1]. Indique el nombre que recibe la molécula resultante [0,1] y el nombre de los enlaces que se establecen en la nueva biomolécula [0,1]. Cite una característica de este enlace [0,1].<br>b) ¿Qué nombre reciben las macromoléculas biológicas formadas por gran cantidad de este tipo de biomoléculas [0,15]. Enumere cuatro de las funciones de estas macromoléculas [0,4]. Nombre tres orgánulos que estén implicados en su síntesis y en su maduración [0,45].",
   "c": [
-   "a) Amionacidos. FORMULA DE UN TRIPEPTIDO CON DOS ENLACES PEPTIDICOS. Tripeptido con dos enlaces peptídicos. Es un enlace covalente.",
-   "b) Proteinas. Funcion defensiva, nutritiva, estructural y reguladora. Ribosomas, RER y aparato de Golgi."
+   "a) <mark class=\"clave-criterio\">Aminoácidos</mark> (0,1 p).",
+   "a) <mark class=\"clave-criterio\">Fórmula del tripéptido</mark> (0,5 p) con los <mark class=\"clave-criterio\">enlaces identificados</mark> (0,1 p). <mark class=\"clave-criterio\">Tripéptido</mark> (0,1 p); <mark class=\"clave-criterio\">enlace peptídico</mark> (0,1 p). <span class=\"redactado\">El enlace se forma entre el grupo carboxilo de un aminoácido y el grupo amino del siguiente, con liberación de una molécula de agua (reacción de condensación).</span>",
+   "a) Característica: <mark class=\"clave-criterio\">covalente</mark>, <mark class=\"clave-criterio\">carácter parcial de doble enlace</mark>, <mark class=\"clave-criterio\">coplanario</mark>, <mark class=\"clave-criterio\">sin giro</mark>. Una (0,1 p). <span class=\"redactado\">El carácter de doble enlace parcial impide el giro, de modo que los átomos del enlace quedan en un mismo plano; solo pueden girar los enlaces del carbono α, lo que determina el plegamiento de la cadena.</span>",
+   "b) <mark class=\"clave-criterio\">Proteínas</mark> (0,15 p). Funciones: <mark class=\"clave-criterio\">enzimática</mark>, <mark class=\"clave-criterio\">transporte</mark>, <mark class=\"clave-criterio\">contracción</mark>, <mark class=\"clave-criterio\">estructural</mark>, <mark class=\"clave-criterio\">reserva</mark>, <mark class=\"clave-criterio\">inmunidad</mark>, <mark class=\"clave-criterio\">hormonal</mark>. Cuatro, a 0,1 p (0,4 p).",
+   "b) <mark class=\"clave-criterio\">Ribosomas, RER y complejo de Golgi</mark>. 0,15 p cada uno (0,45 p). <span class=\"redactado\">En los ribosomas se sintetiza la cadena; las proteínas de membrana y de secreción entran en el RER, donde se pliegan y comienzan a glucosilarse, y en el Golgi maduran y se empaquetan.</span>"
   ],
-  "f": "Pregunta y figura transcritas de «B1.TEMA 4. PROTEINAS.docx». La solución mostrada es la del propio documento.",
+  "f": "Pregunta y figura transcritas de «B1.TEMA 4. PROTEINAS.docx». La solución es la de los criterios oficiales de la PAU de Andalucía (2016), con las palabras clave resaltadas; en morado, explicaciones de BioCelia.",
   "origen": {
    "documento": "B1.TEMA 4. PROTEINAS.docx",
    "figura": "figdocx-b1-tema-4-proteinas-image5",
@@ -471,9 +481,12 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b1-tema-4-proteinas/image9.webp",
   "imgThumb": "assets/figuras/docx/b1-tema-4-proteinas/image9.thumb.webp",
   "imageDesc": null,
-  "q": "<b>8.- La figura 1 corresponde a una hormona constituida por la unión de 51 unidades representadas por bolas blancas (Cys, Cisteína) y oscuras. La figura 2 corresponde a la estructura básica de cada una de estas unidades.</b><br>a) ¿A qué grupo de macromoléculas pertenece esta hormona? [0,25]. Escriba la fórmula del compuesto que se formará al unirse dos de estas unidades como la de la figura 2 [0,25].<br>b) ¿Qué tipo de enlace se establece entre ellas? [0,2]. Cite dos características de dicho enlace [0,3].",
-  "c": [],
-  "f": "Pregunta y figura transcritas de «B1.TEMA 4. PROTEINAS.docx». El documento no incluía solución para esta pregunta.",
+  "q": "<b>8.- La figura 1 corresponde a una hormona constituida por la unión de 51 unidades representadas por bolas blancas (Cys, Cisteína) y oscuras. La figura 2 corresponde a la estructura básica de cada una de estas unidades.</b><br>a) ¿A qué grupo de macromoléculas pertenece esta hormona? [0,25]. Escriba la fórmula del compuesto que se formará al unirse dos de estas unidades como la de la figura 2 [0,25]. ¿Qué tipo de enlace se establece entre ellas? [0,2]. Cite dos características de dicho enlace [0,3].<br>b) ¿Qué tipo de enlace se establece entre las moléculas indicadas como Cys? [0,5]. Explique por qué las macromoléculas como las de la figura 1 presentan una gran variedad a pesar de estar todas constituidas por las mismas unidades [0,5].",
+  "c": [
+   "a) Es una proteína o polipéptido formada por dos cadenas polipeptídicas. Fórmula de dos aminoácidos unidos (dipéptido). Es un enlace peptídico, que es covalente y con carácter de doble enlace, por lo que sus átomos están en un mismo plano, sin rotación.",
+   "b) Enlace por puentes disulfuro. Porque, aunque estén formadas por las mismas unidades, al haber 20 aminoácidos distintos, las posibles combinaciones dan lugar a un número enorme de proteínas posibles."
+  ],
+  "f": "Pregunta y figura transcritas de «B1.TEMA 4. PROTEINAS.docx». La solución mostrada es la del propio documento.",
   "origen": {
    "documento": "B1.TEMA 4. PROTEINAS.docx",
    "figura": "figdocx-b1-tema-4-proteinas-image9",
@@ -492,8 +505,8 @@ window.BIOCELIA_FIGURAS = [
   "imageDesc": null,
   "q": "<b>9.- En relación con la imagen adjunta, conteste las siguientes cuestiones:</b><br>a) ¿Qué tipo de biomolécula representa? [0,1]. Indique los nombres de los grupos químicos de los recuadros señalados con los números 1 y 2 [0,3]. ¿Qué representa R? [0,1]. ¿Qué nombre reciben las macromoléculas biológicas formadas por gran cantidad de monómeros de este tipo? [0,1]. Enumere cuatro de las funciones biológicas de estas macromoléculas [0,4].<br>b) Indique qué nombre recibe el compuesto que se forma al unirse dos biomoléculas como la representada [0,1] y dibújelo [0,5]. Indique el nombre que recibe el enlace que se forma entre estas biomoléculas [0,2] y cite dos características de este enlace [0,2].",
   "c": [
-   "a) Aminoácido. 1: grupo amino (─NH2); 2: grupo carboxilo (─COOH)La R es la cadena lateral o radical de los aminoácidos unido al carbono alfa. Proteínas. Funciones: acción enzimática, transporte, movimiento e inmunidad,",
-   "b) Dipéptido. DIBUJO DE UN DIPEPTIDO. Enlace peptídico. Es un enlace covalente, que aunque es enlace simple, los atomos de C y N se situan en el mismo plano y no pueden girar, por lo que tienen un comportamiento de doble enlace."
+   "a) Aminoácido. 1: grupo amino (─NH₂); 2: grupo carboxilo (─COOH). La R es la cadena lateral o radical de los aminoácidos, unido al carbono alfa. Proteínas. Funciones: acción enzimática, transporte, movimiento e inmunidad.",
+   "b) Dipéptido. Dibujo de un dipéptido. Enlace peptídico. Es un enlace covalente que, aunque es enlace simple, los átomos de C y N se sitúan en el mismo plano y no pueden girar, por lo que tiene un comportamiento de doble enlace."
   ],
   "f": "Pregunta y figura transcritas de «B1.TEMA 4. PROTEINAS.docx». La solución mostrada es la del propio documento.",
   "origen": {
@@ -539,7 +552,7 @@ window.BIOCELIA_FIGURAS = [
    "a) Cadena A: ADN. Cadena B: ARN",
    "b) Nucleótidos",
    "c) Azúcar pentosa, base nitrogenada y grupo fostato",
-   "d) El azúcar pentosa es desoxirribosa en el ADN y ribosa en el ARN."
+   "d) El azúcar pentosa es desoxirribosa en el ADN y ribosa en el ARN. La timina es una base nitrogenada del ADN, y el uracilo es una base nitrogenada del ARN."
   ],
   "f": "Pregunta y figura transcritas de «B1.TEMA 5. ACIDOS NUCLEICOS.docx». La solución mostrada es la del propio documento.",
   "origen": {
@@ -662,8 +675,14 @@ window.BIOCELIA_FIGURAS = [
   "imgThumb": "assets/figuras/docx/b1-tema-5-acidos-nucleicos/image6.thumb.webp",
   "imageDesc": null,
   "q": "<b>6.- En relación con la figura adjunta, que representa una molécula de ADN, conteste las siguientes cuestiones:</b><br>a) ¿Qué representan las líneas de puntos que unen las moléculas marcadas con los números 1 y 4 y las indicadas con los números 2 y 3? [0,3]. Nombre las moléculas que están unidas por tres líneas de puntos y las que están unidas por dos [0,4]. ¿Qué señala el recuadro número 5? [0,3].<br>b) Explique qué es la complementariedad de bases en el ADN y razone su importancia en la replicación [0,5]. ¿Qué quiere decir que la replicación del ADN es semiconservativa? [0,5].",
-  "c": [],
-  "f": "Pregunta y figura transcritas de «B1.TEMA 5. ACIDOS NUCLEICOS.docx». El documento no incluía solución para esta pregunta.",
+  "c": [
+   "a) <mark class=\"clave-criterio\">Puentes de hidrógeno</mark> (0,3 p).",
+   "a) 1: <mark class=\"clave-criterio\">citosina</mark>; 2: <mark class=\"clave-criterio\">adenina</mark>; 3: <mark class=\"clave-criterio\">timina</mark>; 4: <mark class=\"clave-criterio\">guanina</mark> (tres puentes entre 1 y 4; dos entre 2 y 3). 0,1 p cada una (0,4 p). <span class=\"redactado\">Los pares G-C están unidos por tres puentes de hidrógeno y los A-T, por dos.</span>",
+   "a) Recuadro: <mark class=\"clave-criterio\">nucleótido</mark> (0,3 p). <span class=\"redactado\">Cada nucleótido tiene un fosfato, una desoxirribosa y una base nitrogenada.</span>",
+   "b) <mark class=\"clave-criterio\">Apareamiento específico de bases</mark> en el interior de la doble hélice, unidas por puentes de hidrógeno; gracias a él la duplicación de la cadena es <mark class=\"clave-criterio\">exacta</mark> (0,5 p). <span class=\"redactado\">Una base púrica se aparea siempre con una pirimidínica; así la secuencia de una cadena determina la de la otra, y cada cadena sirve de molde para fabricar su complementaria.</span>",
+   "b) Es semiconservativa porque cada molécula de ADN resultante posee una <mark class=\"clave-criterio\">cadena vieja y otra de nueva síntesis</mark> (0,5 p). <span class=\"redactado\">Lo demostraron Meselson y Stahl con nitrógeno pesado (¹⁵N).</span>"
+  ],
+  "f": "Pregunta y figura transcritas de «B1.TEMA 5. ACIDOS NUCLEICOS.docx». La solución es la de los criterios oficiales de la PAU de Andalucía (2010), con las palabras clave resaltadas; en morado, explicaciones de BioCelia.",
   "origen": {
    "documento": "B1.TEMA 5. ACIDOS NUCLEICOS.docx",
    "figura": "figdocx-b1-tema-5-acidos-nucleicos-image6",
@@ -703,8 +722,11 @@ window.BIOCELIA_FIGURAS = [
   "imgThumb": "assets/figuras/docx/b1-tema-5-acidos-nucleicos/image9.thumb.webp",
   "imageDesc": null,
   "q": "<b>9.- En relación con la figura adjunta, conteste las siguientes cuestiones:</b><br>a) ¿Qué macromolécula representa la figura? [0,3]. ¿Qué tipos de monómeros la forman [0,1] y cuáles son los componentes de los mismos? [0,3]. Nombre los enlaces que se establecen entre los monómeros [0,3].<br>b) Describa la estructura secundaria de esta macromolécula [1].",
-  "c": [],
-  "f": "Pregunta y figura transcritas de «B1.TEMA 5. ACIDOS NUCLEICOS.docx». El documento no incluía solución para esta pregunta.",
+  "c": [
+   "a) Es una molécula de ADN bicatenario, formada por la unión de desoxirribonucleótidos. Estos están formados por una desoxirribosa, un ácido fosfórico y una base nitrogenada. Los nucleótidos de una misma cadena se unen entre sí mediante enlaces fosfodiéster, y sus bases se emparejan con las de la otra cadena por puentes de hidrógeno (2 entre A y T, y 3 entre G y C).",
+   "b) La estructura secundaria de esta molécula consiste en una doble hélice dextrógira, con cadenas antiparalelas: mientras una de ellas va en sentido 5′→3′, la otra va en sentido 3′→5′. Las cadenas se unen por puentes de hidrógeno entre bases complementarias, que es lo que mantiene estable la molécula de ADN."
+  ],
+  "f": "Pregunta y figura transcritas de «B1.TEMA 5. ACIDOS NUCLEICOS.docx». La solución mostrada es la del propio documento.",
   "origen": {
    "documento": "B1.TEMA 5. ACIDOS NUCLEICOS.docx",
    "figura": "figdocx-b1-tema-5-acidos-nucleicos-image9",
@@ -722,8 +744,11 @@ window.BIOCELIA_FIGURAS = [
   "imgThumb": "assets/figuras/docx/b1-tema-5-acidos-nucleicos/image10.thumb.webp",
   "imageDesc": null,
   "q": "<b>10.- A la vista de la imagen, responda las siguientes cuestiones:</b><br>a) ¿Qué tipo de monómeros están implicados en la reacción? [0,2]. ¿Cuáles son sus componentes? [0,2]. Indique el nombre de las posibles bases que puedan formar parte de ellos [0,2]. Describa dos funciones de estos monómeros [0,4].<br>b) ¿Qué nombre recibe el enlace que se produce entre los monómeros? [0,2]. Indique los grupos químicos que intervienen en su formación [0,2]. ¿Qué nombre reciben las moléculas biológicas formadas por gran cantidad de monómeros unidos por enlaces de este tipo? [0,2]. ¿Qué enzima interviene en la reacción de polimerización? [0,2]. Indique en qué lugares de la célula se realiza este proceso [0,2].",
-  "c": [],
-  "f": "Pregunta y figura transcritas de «B1.TEMA 5. ACIDOS NUCLEICOS.docx». El documento no incluía solución para esta pregunta.",
+  "c": [
+   "a) Desoxirribonucleótidos. Formados por una desoxirribosa, un ácido fosfórico y una base nitrogenada: adenina, timina, guanina y citosina. Intervienen en el almacenamiento y transmisión de la información genética formando parte del ADN; los nucleótidos intervienen también en procesos de transferencia de energía, como el ATP o el GTP.",
+   "b) Enlace nucleotídico (fosfodiéster) entre nucleótidos de la misma cadena. El enlace se produce entre el ácido fosfórico del C5′ de un nucleótido y un grupo ─OH del C3′ de otro. ADN. Interviene la ADN polimerasa. En el núcleo, las mitocondrias y los cloroplastos."
+  ],
+  "f": "Pregunta y figura transcritas de «B1.TEMA 5. ACIDOS NUCLEICOS.docx». La solución mostrada es la del propio documento.",
   "origen": {
    "documento": "B1.TEMA 5. ACIDOS NUCLEICOS.docx",
    "figura": "figdocx-b1-tema-5-acidos-nucleicos-image10",
@@ -741,8 +766,15 @@ window.BIOCELIA_FIGURAS = [
   "imgThumb": "assets/figuras/docx/b1-tema-5-acidos-nucleicos/image11.thumb.webp",
   "imageDesc": null,
   "q": "<b>11.- En relación con la imagen adjunta, conteste las siguientes cuestiones:</b><br>a) ¿Qué tipo de macromolécula representa la imagen? [0,2]. Nombre y describa la estructura de los monómeros que la forman [0,4]. Nombre el enlace que se establece entre los monómeros [0,2]. ¿Cuál es el significado de la notación 5´ 3´? [0,2].<br>b) Cite tres tipos de esta macromolécula [0,3] e indique la función que desempeña cada uno de ellos [0,6]. ¿Cuál de estos tipos presenta algunos de sus monómeros apareados? [0,1].",
-  "c": [],
-  "f": "Pregunta y figura transcritas de «B1.TEMA 5. ACIDOS NUCLEICOS.docx». El documento no incluía solución para esta pregunta.",
+  "c": [
+   "a) <mark class=\"clave-criterio\">Ácido ribonucleico (ARN)</mark> (0,2 p).",
+   "a) <mark class=\"clave-criterio\">Ribonucleótidos</mark> (0,1 p): <mark class=\"clave-criterio\">ribosa</mark> unida por el <mark class=\"clave-criterio\">C5 a un fosfato</mark> y por el <mark class=\"clave-criterio\">C1 a una base</mark> (A, G, C o U) (0,3 p). <span class=\"redactado\">El fosfato se une al carbono 5′ por un enlace éster y la base, al carbono 1′ por un enlace N-glucosídico.</span>",
+   "a) <mark class=\"clave-criterio\">Enlace fosfodiéster</mark> (0,2 p). La notación indica la <mark class=\"clave-criterio\">orientación de la molécula</mark> (0,2 p). <span class=\"redactado\">El enlace fosfodiéster une el carbono 3′ de un nucleótido con el 5′ del siguiente; la cadena tiene así un extremo 5′, con el fosfato libre, y otro 3′, con el –OH libre, y se sintetiza y se lee en sentido 5'→3'.</span>",
+   "b) <mark class=\"clave-criterio\">ARNm, ARNr y ARNt</mark> (0,3 p).",
+   "b) ARNm: <mark class=\"clave-criterio\">lleva la información genética a los ribosomas</mark>; ARNr: <mark class=\"clave-criterio\">estructura de los ribosomas</mark>; ARNt: <mark class=\"clave-criterio\">transporta los aminoácidos</mark> al ribosoma. 0,2 p cada uno (0,6 p).",
+   "b) El <mark class=\"clave-criterio\">ARNt</mark> (0,1 p). <span class=\"redactado\">El ARNt se pliega en forma de hoja de trébol porque algunas de sus bases son complementarias y se aparean, formando tramos de doble cadena.</span>"
+  ],
+  "f": "Pregunta y figura transcritas de «B1.TEMA 5. ACIDOS NUCLEICOS.docx». La solución es la de los criterios oficiales de la PAU de Andalucía (2013), con las palabras clave resaltadas; en morado, explicaciones de BioCelia.",
   "origen": {
    "documento": "B1.TEMA 5. ACIDOS NUCLEICOS.docx",
    "figura": "figdocx-b1-tema-5-acidos-nucleicos-image11",
@@ -760,8 +792,11 @@ window.BIOCELIA_FIGURAS = [
   "imgThumb": "assets/figuras/docx/b1-tema-5-acidos-nucleicos/image12.thumb.webp",
   "imageDesc": null,
   "q": "<b>12.- En relación con la figura adjunta, conteste las siguientes cuestiones:</b><br>a) ¿Qué representa el conjunto de las figuras? [0,4]. ¿Qué representan las figuras indicadas con las letras A, B y F? [0,6].<br>b) ¿Cuál o cuáles de esas estructuras se pueden observar al microscopio óptico y cuándo se observan? [0,5]. ¿Cuál es la finalidad de que la estructura representada en A acabe dando lugar a la estructura representada en F? [0,5].",
-  "c": [],
-  "f": "Pregunta y figura transcritas de «B1.TEMA 5. ACIDOS NUCLEICOS.docx». El documento no incluía solución para esta pregunta.",
+  "c": [
+   "a) Los niveles de empaquetamiento del ADN hasta llegar a los cromosomas mitóticos. A: molécula de ADN de doble cadena; B: conjunto de nucleosomas o estructura en «collar de perlas»; F: cromosoma mitótico.",
+   "b) Solo se puede observar el cromosoma mitótico, durante la división celular. La finalidad es empaquetar la larga molécula de ADN para facilitar el reparto equitativo del material genético en la división celular."
+  ],
+  "f": "Pregunta y figura transcritas de «B1.TEMA 5. ACIDOS NUCLEICOS.docx». La solución mostrada es la del propio documento.",
   "origen": {
    "documento": "B1.TEMA 5. ACIDOS NUCLEICOS.docx",
    "figura": "figdocx-b1-tema-5-acidos-nucleicos-image12",
@@ -800,9 +835,12 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b1-tema-5-acidos-nucleicos/image14.webp",
   "imgThumb": "assets/figuras/docx/b1-tema-5-acidos-nucleicos/image14.thumb.webp",
   "imageDesc": null,
-  "q": "<b>14.- En relación con las imágenes adjuntas, responda las siguientes preguntas: CBADE12CBADE12</b><br>a) ¿Qué tipo de molécula se representa en los cuadros 1 y 2? [0,2]. Identifique los componentes A, B, C y D [0,4]. Nombre los cuatro compuestos posibles que pueden ocupar la posición A [0,2] y los cuatro que pueden ocupar la posición E [0,2].<br>b) Cuando muchas moléculas de tipo 1 se asocian linealmente, ¿cómo se llama el enlace que las mantiene unidas? [0,2]. ¿Qué grupos químicos intervienen en la formación de este enlace? [0,2]. ¿Qué nombre recibe la macromolécula formada por gran cantidad de monómeros de tipo 1 [0,2]. ¿Qué función desempeña en la célula la macromolécula formada por monómeros de tipo 2? [0,2]. ¿Están presentes ambas macromoléculas en todos los seres celulares y acelulares? [0,2].",
-  "c": [],
-  "f": "Pregunta y figura transcritas de «B1.TEMA 5. ACIDOS NUCLEICOS.docx». El documento no incluía solución para esta pregunta.",
+  "q": "<b>14.- En relación con las imágenes adjuntas, responda las siguientes preguntas:</b><br>a) ¿Qué tipo de molécula se representa en los cuadros 1 y 2? [0,2]. Identifique los componentes A, B, C y D [0,4]. Nombre los cuatro compuestos posibles que pueden ocupar la posición A [0,2] y los cuatro que pueden ocupar la posición E [0,2].<br>b) Cuando muchas moléculas de tipo 1 se asocian linealmente, ¿cómo se llama el enlace que las mantiene unidas? [0,2]. ¿Qué grupos químicos intervienen en la formación de este enlace? [0,2]. ¿Qué nombre recibe la macromolécula formada por gran cantidad de monómeros de tipo 1 [0,2]. ¿Qué función desempeña en la célula la macromolécula formada por monómeros de tipo 2? [0,2]. ¿Están presentes ambas macromoléculas en todos los seres celulares y acelulares? [0,2].",
+  "c": [
+   "a) 1: ribonucleótido; 2: desoxirribonucleótido. A: base nitrogenada; B: ácido fosfórico; C: ribosa; D: desoxirribosa. En el ribonucleótido: adenina, guanina, citosina y uracilo; en el desoxirribonucleótido: adenina, guanina, citosina y timina.",
+   "b) Enlace nucleotídico (fosfodiéster), entre el grupo fosfato del C5′ de un nucleótido y el ─OH del C3′ de otro. ARN. El ADN se encarga de albergar la información genética necesaria para el correcto funcionamiento celular. En los seres celulares hay de los dos tipos, pero en los acelulares, como los virus, habrá solo uno de los dos, según sean virus de ARN o virus de ADN."
+  ],
+  "f": "Pregunta y figura transcritas de «B1.TEMA 5. ACIDOS NUCLEICOS.docx». La solución mostrada es la del propio documento.",
   "origen": {
    "documento": "B1.TEMA 5. ACIDOS NUCLEICOS.docx",
    "figura": "figdocx-b1-tema-5-acidos-nucleicos-image14",
@@ -821,8 +859,8 @@ window.BIOCELIA_FIGURAS = [
   "imageDesc": null,
   "q": "<b>14.-En relación con la figura adjunta, responda las siguientes cuestiones:</b><br>a) ¿Qué macromolécula está representada en la figura A? [0,1]. ¿Cómo se denominan sus monómeros y cuál es su composición? [0,4]. Nombre las parejas de bases nitrogenadas identificadas con las letras “a” y “b”, Indique cuáles de ellas son bases pirimidínicas y cuáles son bases púricas y el tipo de enlace que se establece entre dichas bases [0,5].<br>b) ¿En qué compartimentos de una célula eucariótica se localiza la macromolécula representada en la figura A [0,3] y qué función desempeña? [0,2] Cite cinco características de la molécula representada en la figura A [0,5].",
   "c": [
-   "a) Molécula de ADN. Nucleótidos, formados por la unión de una molécula de desoxirribosa, una de ácido fosfórico y una base nitrogenada. En la “a”, timina-adenina, que son bases pirimidínica y púrica, respectivamente; y en la “b”, citosina-guanina, que son bases pirimidínica y púrica, respectivamente. Estan unidas por puentes de hidrógeno 0,5 puntos",
-   "b) La molécula de ADN se localiza en el núcleo, mitocondrias y cloroplastos. Se encarga de contener y transmitir la información genética. Esta constituida por dos cadenas de desoxirribonucleótidos, unidas por puentes de hidrógeno, son dextrógiras, antiparalelas, complementarias, con una acnhura de 2 nm, y enrollamiento plectonémico"
+   "a) Molécula de ADN. Nucleótidos, formados por la unión de una molécula de desoxirribosa, una de ácido fosfórico y una base nitrogenada. En la «a», timina-adenina, que son bases pirimidínica y púrica, respectivamente; y en la «b», citosina-guanina, que son bases pirimidínica y púrica, respectivamente. Están unidas por puentes de hidrógeno.",
+   "b) La molécula de ADN se localiza en el núcleo, las mitocondrias y los cloroplastos. Se encarga de contener y transmitir la información genética. Está constituida por dos cadenas de desoxirribonucleótidos unidas por puentes de hidrógeno; son dextrógiras, antiparalelas y complementarias, con una anchura de 2 nm y enrollamiento plectonémico."
   ],
   "f": "Pregunta y figura transcritas de «B1.TEMA 5. ACIDOS NUCLEICOS.docx». La solución mostrada es la del propio documento.",
   "origen": {
@@ -891,17 +929,38 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b1-tema-6-enzimas-y-vitaminas/image3.webp",
   "imgThumb": "assets/figuras/docx/b1-tema-6-enzimas-y-vitaminas/image3.thumb.webp",
   "imageDesc": null,
-  "q": "<b>3. Al investigar el efecto de la temperatura sobre la velocidad de una reacción enzimática se obtuvo la siguiente tabla Proponga una explicación razonada al conjunto de resultados registrados en la misma [1]. El incremento de la temperatura aumenta la velocidad de reacción porque favorece la probabilidad de formación de complejos enzima-sustrato. Sin embargo, a partir de una determinada temperatura (entre 40 y 45 ºC en este caso) la velocidad disminuye por la desnaturalización de las enzimas ya que son proteínas, y la desnaturalziacion provoca perdida de función, y con ello perdida de actividad catalítica. 4. En relación con la figura adjunta:</b><br>a) Identifique los procesos que se representan en A y B [0,4] y b) cada una de las moléculas señaladas con los números del 1 al 6 [0,6].<br>c) Explique cómo evoluciona la cantidad de las sustancias 2 y 4 con el tiempo en cada uno de los casos [0,5]. d) ¿En qué caso podría aparecer la sustancia 4 en el proceso B? [0,5]",
+  "q": "<b>3. Al investigar el efecto de la temperatura sobre la velocidad de una reacción enzimática se obtuvo la siguiente tabla. Proponga una explicación razonada al conjunto de resultados registrados en la misma [1].</b>",
   "c": [
-   "a) A: reacción enzimática; B: inhibición enzimática (competitiva)",
-   "b) 1: enzima; 2: sustratos; 3: complejo enzima-sustrato; 4: productos; 5: inhibidor; 6: complejo enzima-inhibidor",
-   "c) En el proceso A la sustancia 2 se irá agotando, y la sustancia 4 irá aumentando, ya que la enzima transforma la sustancia 2 (sustrato) en el producto 4 (producto)explicar cómo aumenta la cantidad de producto (sustancia 4) mientras que disminuye la de sustrato (sustancia 2). En el proceso B, al estar la enzima bloqueada por el inhibidor, la cantidad de sustrato se mantiene constante, y al no poder realizar la acción, pues no aparecen los productos.",
-   "d) Para que en el proceso B aparezca la sustancia 4, el producto, la inhibición del proceso B ha de revertirse. Otra opción es añadir mas sustratos, eso haría que las enzimas tuvieran mas posibilidades de contactar con el sustrato que con el inhibidor."
+   "El incremento de la temperatura aumenta la velocidad de reacción porque favorece la probabilidad de formación de complejos enzima-sustrato. Sin embargo, a partir de una determinada temperatura (entre 40 y 45 ºC en este caso) la velocidad disminuye por la desnaturalización de las enzimas, ya que son proteínas, y la desnaturalización provoca pérdida de función, y con ello pérdida de actividad catalítica."
   ],
   "f": "Pregunta y figura transcritas de «B1.TEMA 6. ENZIMAS Y VITAMINAS.docx». La solución mostrada es la del propio documento.",
   "origen": {
    "documento": "B1.TEMA 6. ENZIMAS Y VITAMINAS.docx",
    "figura": "figdocx-b1-tema-6-enzimas-y-vitaminas-image3",
+   "examen_anio": null,
+   "verificado": false
+  }
+ },
+ {
+  "id": "docx-b1-tema-6-enzimas-y-vitaminas-04-148b",
+  "block": "Biomoléculas",
+  "topic": "Tema 6 · Enzimas y vitaminas",
+  "isNew": true,
+  "hasImg": true,
+  "imgSrc": "assets/figuras/docx/b1-tema-6-enzimas-y-vitaminas/image4.webp",
+  "imgThumb": "assets/figuras/docx/b1-tema-6-enzimas-y-vitaminas/image4.thumb.webp",
+  "imageDesc": null,
+  "q": "<b>4. En relación con la figura adjunta:</b><br>a) Identifique los procesos que se representan en A y B [0,4].<br>b) Identifique cada una de las moléculas señaladas con los números del 1 al 6 [0,6].<br>c) Explique cómo evoluciona la cantidad de las sustancias 2 y 4 con el tiempo en cada uno de los casos [0,5].<br>d) ¿En qué caso podría aparecer la sustancia 4 en el proceso B? [0,5]",
+  "c": [
+   "a) A: reacción enzimática; B: inhibición enzimática (competitiva).",
+   "b) 1: enzima; 2: sustratos; 3: complejo enzima-sustrato; 4: productos; 5: inhibidor; 6: complejo enzima-inhibidor.",
+   "c) En el proceso A la sustancia 2 se irá agotando y la sustancia 4 irá aumentando, ya que la enzima transforma la sustancia 2 (sustrato) en la 4 (producto). En el proceso B, al estar la enzima bloqueada por el inhibidor, la cantidad de sustrato se mantiene constante y, al no poder realizarse la reacción, no aparecen los productos.",
+   "d) Para que en el proceso B aparezca la sustancia 4, el producto, la inhibición ha de revertirse. Otra opción es añadir más sustrato: eso haría que las enzimas tuvieran más posibilidades de contactar con el sustrato que con el inhibidor."
+  ],
+  "f": "Pregunta y figura transcritas de «B1.TEMA 6. ENZIMAS Y VITAMINAS.docx». La solución mostrada es la del propio documento.",
+  "origen": {
+   "documento": "B1.TEMA 6. ENZIMAS Y VITAMINAS.docx",
+   "figura": "figdocx-b1-tema-6-enzimas-y-vitaminas-image4",
    "examen_anio": null,
    "verificado": false
   }
@@ -963,10 +1022,12 @@ window.BIOCELIA_FIGURAS = [
   "imageDesc": null,
   "q": "<b>8.- En relación con la figura adjunta, en la que se representa un enzima, su sustrato y dos inhibidores, conteste las siguientes cuestiones:</b><br>a) Describa qué ocurre en los procesos A y B [1].<br>b) Realice un dibujo y describa qué ocurriría en una reacción con la enzima en presencia de su sustrato y del inhibidor 2 [0,5]. Indique qué ocurre en el proceso A si se produce un cambio brusco en el pH o en la temperatura [0,5].",
   "c": [
-   "a) En el proceso A se produce una reacción enzimática, el enzima se une con el sustrato por el centro activo formando el complejo enzima-sustrato. Se produce la catálisis y se libera el enzima y los productos de la reacción.",
-   "b) DIBUJO CON INHIBIDOR COMPETITIVO UNIENDOSE A LA ENZIMA"
+   "a) A: <mark class=\"clave-criterio\">reacción enzimática</mark>: la enzima se une al sustrato por el <mark class=\"clave-criterio\">centro activo</mark>, forma el <mark class=\"clave-criterio\">complejo enzima-sustrato</mark>, se produce la catálisis y se <mark class=\"clave-criterio\">liberan la enzima y los productos</mark> (0,5 p).",
+   "a) B: <mark class=\"clave-criterio\">inhibición</mark>: el inhibidor se une a la enzima y <mark class=\"clave-criterio\">modifica el centro activo</mark>, que <mark class=\"clave-criterio\">no puede unirse al sustrato</mark> (0,5 p).",
+   "b) Dibujo de una <mark class=\"clave-criterio\">inhibición competitiva</mark> (0,25 p): el inhibidor 2, <mark class=\"clave-criterio\">análogo del sustrato</mark>, <mark class=\"clave-criterio\">ocupa el centro activo</mark> y <mark class=\"clave-criterio\">ralentiza la reacción</mark> (0,25 p).",
+   "b) Fuera del <mark class=\"clave-criterio\">pH y temperatura óptimos</mark> la actividad <mark class=\"clave-criterio\">se ralentiza</mark> y puede llegar a la <mark class=\"clave-criterio\">desnaturalización</mark> (0,5 p)."
   ],
-  "f": "Pregunta y figura transcritas de «B1.TEMA 6. ENZIMAS Y VITAMINAS.docx». La solución mostrada es la del propio documento.",
+  "f": "Pregunta y figura transcritas de «B1.TEMA 6. ENZIMAS Y VITAMINAS.docx». La solución es la de los criterios oficiales de la PAU de Andalucía (2014), con las palabras clave resaltadas; en morado, explicaciones de BioCelia.",
   "origen": {
    "documento": "B1.TEMA 6. ENZIMAS Y VITAMINAS.docx",
    "figura": "figdocx-b1-tema-6-enzimas-y-vitaminas-image8",
@@ -1009,7 +1070,7 @@ window.BIOCELIA_FIGURAS = [
   "c": [
    "a) Meiosis",
    "b) A: Metafase I; B: Anafase I",
-   "c) 1: placa ecuatorial; 2: centriolos; 3: huso acromático; 4: cromosomas; 5 bivalentes o tétradas (pareja de cromosomas",
+   "c) 1: placa ecuatorial; 2: centriolos; 3: huso acromático; 4: cromosomas; 5: bivalentes o tétradas (pareja de cromosomas homólogos); 6: centrómero; 7: cromátida.",
    "d) T telofase I",
    "e) Desaparición de los microtúbulos, formación de la envoltura nuclear, descondensación cromosómica",
    "f) Los colores representan el intercambio de material genético (recombinación)"
@@ -1060,11 +1121,12 @@ window.BIOCELIA_FIGURAS = [
   "imageDesc": null,
   "q": "<b>6. En relación con la figura adjunta, que muestra una célula cuyo número de cromosomas es 2n=4 y las letras “A”, “a”, “B”, “b” representan alelos de los genes situados en dichos cromosomas, conteste las siguientes cuestiones:</b><br>a) ¿A qué tipo de división celular hace alusión la figura? [0,2].<br>b) ¿Qué fase de la división representa? [0,2].<br>c) Nombre los componentes celulares señalados con los números 1, 2 y 3 [0,3].<br>d) ¿En qué́ tipo de célula eucariótica se desarrolla este tipo de división celular? [0,1].<br>e) Al finalizar el proceso de división celular, indique el número de células resultantes y el número de cromosomas de cada una de ellas [0,2].<br>f) Nombre la fase de la división celular anterior a la representada [0,1].<br>g) Explique los principales acontecimientos que tienen lugar durante la misma [0,5].<br>h) Señale dos razones que indiquen la importancia biológica de este tipo de división celular [0,4].",
   "c": [
-   "a) A la meiosisb) Metafase I",
-   "c) 1: Cromosoma (cromátida). 2: Centrosoma (centriolo). 3: Huso acromático o mitótico",
-   "d) En las células germinales",
-   "e) Cuatro células, con un cromosoma cada una",
-   "f) Profase I",
+   "a) A la meiosis.",
+   "b) Metafase I.",
+   "c) 1: Cromosoma (cromátida). 2: Centrosoma (centriolo). 3: Huso acromático o mitótico.",
+   "d) En las células germinales.",
+   "e) Cuatro células, con un cromosoma cada una.",
+   "f) Profase I.",
    "g) Se condensa el material genético, apareciendo los cromosomas. Se aparean los cromosomas homólogos e intercambian fragmentos entre sus cromátidas, en un proceso denominado recombinación genética. Los puntos por los que intercambian esos fragmentos se denominan quiasmas, haciendo que los cromosomas homólogos permanezcan unidos, formando tétradas o bivalentes. Por último desaparece la envoltura nuclear.",
    "h) Reducir el número de cromosoma a la mitad, para regenerar el número de cromosomas de la especie en la unión de gametos (fecundación), y aumentar la variabilidad genética."
   ],
@@ -1107,7 +1169,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b2-tema-10-ciclo-celular/image9.webp",
   "imgThumb": "assets/figuras/docx/b2-tema-10-ciclo-celular/image9.thumb.webp",
   "imageDesc": null,
-  "q": "<b>8. A la vista del esquema responda razonadamente a las siguientes preguntas: 132132</b><br>a) Indique qué momento del ciclo celular representan los esquemas arriba indicados [0,3], lo que señalan los números [0,3], y describa los fenómenos celulares que ocurren en A, B y C [0,4].<br>b) Diga si los dibujos corresponden a una célula animal o vegetal [0,2]. Indique, razonando la respuesta, dos características en las que se basa [0,8].",
+  "q": "<b>8. A la vista del esquema responda razonadamente a las siguientes preguntas:</b><br>a) Indique qué momento del ciclo celular representan los esquemas arriba indicados [0,3], lo que señalan los números [0,3], y describa los fenómenos celulares que ocurren en A, B y C [0,4].<br>b) Diga si los dibujos corresponden a una célula animal o vegetal [0,2]. Indique, razonando la respuesta, dos características en las que se basa [0,8].",
   "c": [
    "a) Se trata de la fase M o fase de división celular. 1: Cromosoma; 2: centriolo; 3: Huso mitótico o acromático. Los procesos A, B y C corresponden a la profase. En esta etapa de la división, la cromatina se empaqueta en cromosomas visibles al microscopio óptico, cada centriolo irá a un polo de la célula mientras se van polimerizando los husos mitóticos o acromáticos y comenzará la despolimerización de la envoltura nuclear.",
    "b) Se trata de una célula animal. Se puede observar la existencia de centriolos, estructuras exclusivas en células animales, y la citocinesis o división del citoplasma se está produciendo por un surco de segmentación ocasionado por un anillo contráctil."
@@ -1153,8 +1215,8 @@ window.BIOCELIA_FIGURAS = [
   "imageDesc": null,
   "q": "<b>10. En relación con la figura adjunta, conteste las siguientes cuestiones:</b><br>a) ¿Qué momento del ciclo celular representa cada uno de los esquemas indicados? Ordénelos secuencialmente [0,4]. Nombre todos los componentes celulares representados en el esquema C [0,3]. Basándose en dos características, indique si los esquemas corresponden a una célula procariótica, eucariótica animal o eucariótica vegetal [0,3].<br>b) ¿Cuál es la finalidad de este proceso en su conjunto? [0,4], ¿qué significado biológico tiene? [0,4] y ¿en qué células tiene lugar? [0,2].",
   "c": [
-   "a) Representa la etapa de división celular o mitosis. La secuencia ordenada sería B: profase; D: metafase; C: anafase y A: telofase y citocinesis. En el esquema C se puede observar los cromosomas, los microtúbulos y los centríolos",
-   "b) La finalidad de la mitosis es obtener dos células hijas idénticas genéticamente entre sí y a la célula de la que proceden"
+   "a) Representa la etapa de división celular o mitosis. La secuencia ordenada sería B: profase; D: metafase; C: anafase, y A: telofase y citocinesis. En el esquema C se pueden observar los cromosomas, los microtúbulos y los centriolos. Se trata de una célula animal, pues presenta centriolos, no tiene pared celular y la citocinesis es por estrangulamiento.",
+   "b) La finalidad de la mitosis es obtener dos células hijas idénticas genéticamente entre sí y a la célula de la que proceden. Su significado es el mantenimiento del número de cromosomas característico de la especie, el desarrollo embrionario, el crecimiento y el recambio celular en los organismos pluricelulares, y la reproducción en los organismos unicelulares asexuales. Tiene lugar en las células somáticas de vegetales y animales."
   ],
   "f": "Pregunta y figura transcritas de «B2.TEMA 10. CICLO CELULAR.docx». La solución mostrada es la del propio documento.",
   "origen": {
@@ -1175,10 +1237,10 @@ window.BIOCELIA_FIGURAS = [
   "imageDesc": null,
   "q": "<b>11. En relación con la figura adjunta, conteste las siguientes cuestiones:</b><br>a) ¿Qué etapa de la mitosis representa el esquema? [0,1]. Explique lo que ocurre en esta etapa [0,6]. Indique dos razones que justifiquen el tipo celular que representa [0,3].<br>b) Describa brevemente las etapas anteriores a la representada en la imagen [0,6]. ¿Qué significado biológico tiene el proceso en su conjunto? [0,4].",
   "c": [
-   "a) Se trata de una telofase (o anafase tardía). Las cromátidas han emigrado a los polos y comienzan a descondensarse. Se regenera la envoltura nuclear, y comienza la citocinesis o división citoplasmática por tabicación, formándose el fragmoplasto a partir de vesículas del aparato de Golgi. S trata de una célula vegetal, porque se observa pared celular y se está formando el fragmoplasto o tabique central.",
-   "b) CONTESTADA ANTERIORMENTE. DESCRIPCION Y SIGNIFICADO DE MITOSIS"
+   "a) Se trata de una telofase (o anafase tardía). Las cromátidas han emigrado a los polos y comienzan a descondensarse. Se regenera la envoltura nuclear y comienza la citocinesis o división citoplasmática por tabicación, formándose el fragmoplasto a partir de vesículas del aparato de Golgi. Se trata de una célula vegetal, porque se observa pared celular y se está formando el fragmoplasto o tabique central.",
+   "b) <span class=\"redactado\">Profase: condensación de los cromosomas, formación del huso acromático y desaparición del nucléolo y de la envoltura nuclear. Metafase: los cromosomas, con su máxima condensación, se sitúan en la placa ecuatorial, unidos a los microtúbulos del huso por los cinetocoros. Anafase: se separan los centrómeros y las cromátidas hermanas emigran hacia los polos. Significado biológico: se obtienen células hijas con idéntica información genética que la célula madre; en los pluricelulares permite el crecimiento, el desarrollo y la renovación de los tejidos, y en los unicelulares es una forma de reproducción asexual.</span>"
   ],
-  "f": "Pregunta y figura transcritas de «B2.TEMA 10. CICLO CELULAR.docx». La solución mostrada es la del propio documento.",
+  "f": "Pregunta y figura transcritas de «B2.TEMA 10. CICLO CELULAR.docx». Donde el documento no traía la solución, la ha redactado BioCelia (en morado) a partir de los criterios oficiales de la PAU.",
   "origen": {
    "documento": "B2.TEMA 10. CICLO CELULAR.docx",
    "figura": "figdocx-b2-tema-10-ciclo-celular-image13",
@@ -1220,7 +1282,7 @@ window.BIOCELIA_FIGURAS = [
   "q": "<b>15. En relación con la figura adjunta, conteste las siguientes cuestiones:</b><br>a) ¿Qué representa la gráfica 1? [0,4]. Explique cómo cambia el contenido de ADN desde la fase A hasta la fase G [0,6].<br>b) ¿Qué función tiene el cambio en el contenido de ADN que se representa en la gráfica 1? [0,4]. Suponiendo que los cromosomas fueran visibles a lo largo de todo el ciclo, ¿en qué fases, desde la C a la G, de la gráfica 1 encontraría las estructuras cromosómicas (1 a 4) que se muestran en la figura 2? [0,6].",
   "c": [
    "a) El cambio en el contenido de ADN a lo largo de la meiosis. En B se duplica la cantidad de ADN como consecuencia de la replicación; en D se reduce la cantidad de ADN a la mitad como consecuencia del reparto de cromosomas homólogos en la primera división de la meiosis; en F se vuelve a reducir la cantidad de ADN como consecuencia de la separación y el reparto de las cromátidas hermanas en la segunda división de la meiosis",
-   "b) Reducir la dotación cromosómica para producir los gametos"
+   "b) Reducir la dotación cromosómica para producir los gametos. La estructura cromosómica 1 está en las fases C o principios de la D, antes de la recombinación; la 2, en G; la 3, en la D después de la recombinación; la 4, en E o principios de la F."
   ],
   "f": "Pregunta y figura transcritas de «B2.TEMA 10. CICLO CELULAR.docx». La solución mostrada es la del propio documento.",
   "origen": {
@@ -1241,8 +1303,8 @@ window.BIOCELIA_FIGURAS = [
   "imageDesc": null,
   "q": "<b>16.- En relación con las figuras adjuntas, responda razonadamente las siguientes cuestiones:</b><br>a) ¿Qué proceso biológico representa el conjunto de figuras? [0,25]. Ponga nombre a los dibujos 1, 2, 3, 4, y ordénelos en la secuencia correcta [0,25]. Identifique e indique la función de los elementos señalados con las letras A y B [0,5].<br>b) Explique qué ocurre en los esquemas 1, 2, 3 y 4 [0,5]. ¿Cuál es el resultado de este proceso y qué significado biológico tiene? [0,5].",
   "c": [
-   "a) Representa una división celular o mitosis. 2: profase, 1: metafase, 4: anafase y 3: telofase",
-   "b) En el esquema 1, en la metafase, los cromosomas, guiados o empujados por los husos acromáticos se sitúan en el medio de la célula, formando la placa ecuatorial. En el esquema 2, en la profase, se condensan los cromosomas, se forma el huso acromático o mitótico, y la envoltura nuclear y el nucléolo desaparecen. En el esquema 3, la telofase, los cromosomas vuelven a descondensarse volviéndose así el nucleolo, y se regenera una nueva envoltura nuclear. Esta etapa suele coincidir o solaparse con el principio de la citocinesis o división del citoplasma. En el esquema 4, en la anafase, debido al acortamiento de los husos mitóticos, los cromosomas se separan y cada cromátida hermana se dirige a cada uno de los polos de la célula."
+   "a) Representa una división celular o mitosis. 2: profase; 1: metafase; 4: anafase, y 3: telofase. A: cromosoma, cuya función es portar la información genética; B: fibras del huso acromático o mitótico, que se encargan de colocar a los cromosomas en su lugar correspondiente y de separar las cromátidas.",
+   "b) En el esquema 1, la metafase, los cromosomas, guiados por el huso acromático, se sitúan en el centro de la célula formando la placa ecuatorial. En el esquema 2, la profase, se condensan los cromosomas, se forma el huso acromático o mitótico y desaparecen la envoltura nuclear y el nucléolo. En el esquema 3, la telofase, los cromosomas vuelven a descondensarse, reaparece el nucléolo y se regenera una nueva envoltura nuclear; esta etapa suele coincidir o solaparse con el principio de la citocinesis o división del citoplasma. En el esquema 4, la anafase, debido al acortamiento de los microtúbulos del huso, se separan las cromátidas hermanas y cada una se dirige a un polo de la célula. Al final del proceso se obtienen dos células hijas con la misma dotación e información genética entre ellas e iguales a la célula madre. Tiene como objetivo incrementar el número de células (crecimiento y desarrollo) y la regeneración de tejidos, y, en el caso de los seres unicelulares, el aumento del número de individuos."
   ],
   "f": "Pregunta y figura transcritas de «B2.TEMA 10. CICLO CELULAR.docx». La solución mostrada es la del propio documento.",
   "origen": {
@@ -1262,8 +1324,11 @@ window.BIOCELIA_FIGURAS = [
   "imgThumb": "assets/figuras/docx/b2-tema-10-ciclo-celular/image20.thumb.webp",
   "imageDesc": null,
   "q": "<b>17. El esquema representa los dos cromosomas homólogos de un dihíbrido para dos genes con dos alelos (A,a; B,b) en el período G2 de la interfase previa a su división meiótica. A partir de esta célula y suponiendo que se da un sobrecruzamiento (quiasma) entre ambos genes, dibuje las células resultantes después de la primera [0,5] y de la segunda división meiótica [0,5].</b>",
-  "c": [],
-  "f": "Pregunta y figura transcritas de «B2.TEMA 10. CICLO CELULAR.docx». El documento no incluía solución para esta pregunta.",
+  "c": [
+   "<span class=\"redactado\">Primera división meiótica: se forman dos células, cada una con uno de los dos cromosomas homólogos, que conserva sus dos cromátidas. Por el sobrecruzamiento entre los dos genes, una cromátida de cada cromosoma es recombinante: una célula lleva un cromosoma con las cromátidas AB y Ab, y la otra, uno con las cromátidas aB y ab.</span>",
+   "<span class=\"redactado\">Segunda división meiótica: se separan las cromátidas y se forman cuatro células haploides, con un solo cromosoma cada una: AB, Ab, aB y ab. Dos tienen las combinaciones de alelos de partida (AB y ab) y dos son recombinantes (Ab y aB).</span>"
+  ],
+  "f": "Pregunta y figura transcritas de «B2.TEMA 10. CICLO CELULAR.docx». Donde el documento no traía la solución, la ha redactado BioCelia (en morado) a partir de los criterios oficiales de la PAU.",
   "origen": {
    "documento": "B2.TEMA 10. CICLO CELULAR.docx",
    "figura": "figdocx-b2-tema-10-ciclo-celular-image20",
@@ -1283,7 +1348,7 @@ window.BIOCELIA_FIGURAS = [
   "q": "<b>18. En relación con las figuras adjuntas, responda las siguientes cuestiones:</b><br>a) Nombre los procesos señalados con las letras A y B [0,4]. ¿Qué fase se señala con el número 1? [0,1]. Describa lo que ocurre en esta fase [0,5].<br>b) Enumere cinco diferencias entre los procesos A y B [0,5]. Indique la importancia biológica de ambos procesos [0,5].",
   "c": [
    "a) El proceso A es una meiosis y el B es una mitosis. Es una profase I meiótica, dónde se produce el apareamiento y la recombinación genética de los cromosomas homólogos",
-   "b) En el A, hay dos divisiones y en el B solo una. En el A se obtienen cuatro células, y en el B solo dos. En el A, las células tienen la mitad de cromosomas, y en la célula B las células tienen los mismos cromosomas que la célula madre. En el proceso A hay recombinación genética y en el B no. Y en el proceso A, se forman bivalentes y el proceso B no. PUEDE HABER MÁS, SOLO CINCO."
+   "b) En el A hay dos divisiones y en el B solo una. En el A se obtienen cuatro células, y en el B solo dos. En el A las células tienen la mitad de cromosomas, y en el B tienen los mismos cromosomas que la célula madre. En el proceso A hay recombinación genética y en el B no. Y en el proceso A se forman bivalentes y en el B no. La importancia de la mitosis es obtener células hijas con idéntica información genética que la célula madre, como medio de reproducción asexual en organismos unicelulares, y para el desarrollo embrionario, el crecimiento y la regeneración celular en organismos pluricelulares. La meiosis se realiza para reducir el número de cromosomas a la mitad en la formación de los gametos, asegurando la dotación cromosómica correcta del cigoto tras la fecundación, y para aumentar la variabilidad genética."
   ],
   "f": "Pregunta y figura transcritas de «B2.TEMA 10. CICLO CELULAR.docx». La solución mostrada es la del propio documento.",
   "origen": {
@@ -1304,10 +1369,12 @@ window.BIOCELIA_FIGURAS = [
   "imageDesc": null,
   "q": "<b>19. En relación con el esquema adjunto, que representa tres fases (1, 2 y 3) de distintos procesos de división celular de un organismo con una dotación cromosómica 2n=4, conteste las siguientes cuestiones:</b><br>a) Indique de qué fases se trata y en qué tipo de división se da cada una de ellas [0,5]. ¿Qué representan en cada caso las estructuras señaladas con las letras A, B, C y D? [0,5].<br>b) ¿Cuál es la finalidad de los distintos tipos de división celular? [0,4]. Dibuje esquemáticamente el proceso de división completo del que forma parte la fase 2 identificando las distintas estructuras [0,6].",
   "c": [
-   "a) 1: anafase de la meiosis I; 2: anafase mitótica; 3: anafase de la meiosis II",
-   "b) La meiosis se realiza para reducir la dotación cromosómica de los gametos, y producir variabilidad genética gracias a la recombinación genética y la segregación cromosómica. La mitosis se realiza para aumentar el número de individuos en caso de organismos unicelulares, o para el desarrollo embrionario, crecimiento y regeneración de tejidos en caso de organismos pluricelulares."
+   "a) 1: <mark class=\"clave-criterio\">anafase de la meiosis I</mark> (0,2 p); 2: <mark class=\"clave-criterio\">anafase mitótica</mark> (0,1 p); 3: <mark class=\"clave-criterio\">anafase de la meiosis II</mark> (0,2 p). <span class=\"redactado\">En la anafase I se separan los homólogos, cada uno con sus dos cromátidas; en la mitótica y en la anafase II se separan las cromátidas hermanas.</span>",
+   "a) A: <mark class=\"clave-criterio\">cromosomas homólogos</mark> (0,2 p); B y C: <mark class=\"clave-criterio\">cromátidas hermanas</mark> (0,15 p); D: <mark class=\"clave-criterio\">microtúbulos</mark> (huso acromático) (0,15 p).",
+   "b) Meiosis: <mark class=\"clave-criterio\">reducir la dotación cromosómica</mark> y <mark class=\"clave-criterio\">producir variabilidad genética</mark> (0,2 p). Mitosis: <mark class=\"clave-criterio\">reproducción y crecimiento</mark> (0,2 p). <span class=\"redactado\">Además, la mitosis permite la reparación de los tejidos y, en los unicelulares, la reproducción asexual.</span>",
+   "b) Esquema de las fases de la mitosis, 0,15 p cada una (0,6 p)."
   ],
-  "f": "Pregunta y figura transcritas de «B2.TEMA 10. CICLO CELULAR.docx». La solución mostrada es la del propio documento.",
+  "f": "Pregunta y figura transcritas de «B2.TEMA 10. CICLO CELULAR.docx». La solución es la de los criterios oficiales de la PAU de Andalucía (2011), con las palabras clave resaltadas; en morado, explicaciones de BioCelia.",
   "origen": {
    "documento": "B2.TEMA 10. CICLO CELULAR.docx",
    "figura": "figdocx-b2-tema-10-ciclo-celular-image22",
@@ -1326,10 +1393,14 @@ window.BIOCELIA_FIGURAS = [
   "imageDesc": null,
   "q": "<b>20. En relación con la imagen adjunta, conteste las siguientes cuestiones:</b><br>a) ¿Qué representa la imagen? [0,1]. ¿Qué representan las letras S y M de la imagen? [0,2]. Explique en qué consisten G1 y G2 [0,5]. ¿Qué nombre recibe el conjunto de las fases G1, S y G2? [0,2].<br>b) Represente gráficamente la variación de la cantidad de ADN a lo largo del proceso [0,5]. Indique dos motivos que justifiquen la importancia de la fase M [0,5].",
   "c": [
-   "a) El ciclo celular",
-   "b) GRAFICA ACTIVIDAD IMÁGENES 12. SIGNIFICADO BIOLOGICO MITOSIS CONTESTADA ANTERIORMENTE"
+   "a) <mark class=\"clave-criterio\">El ciclo celular</mark> (0,1 p).",
+   "a) S: <mark class=\"clave-criterio\">síntesis de ADN</mark>; M: <mark class=\"clave-criterio\">división celular</mark> (0,2 p).",
+   "a) G1: <mark class=\"clave-criterio\">crecimiento y desarrollo</mark>, con <mark class=\"clave-criterio\">transcripción y traducción</mark>; G2: <mark class=\"clave-criterio\">preparación para la división</mark>. 0,25 p cada una (0,5 p). <span class=\"redactado\">En G1 se decide si la célula sigue dividiéndose; las que dejan de hacerlo quedan en G0. En G2 se sintetizan las proteínas de la división, como las del huso, y se comprueba que el ADN se ha replicado bien.</span>",
+   "a) <mark class=\"clave-criterio\">Interfase</mark> (0,2 p).",
+   "b) La gráfica debe mostrar la <mark class=\"clave-criterio\">duplicación de la cantidad de ADN</mark> y que la cantidad final <mark class=\"clave-criterio\">coincide con la inicial</mark> (0,5 p). <span class=\"redactado\">Si la célula tiene 2C de ADN en G1, pasa a 4C al final de la fase S, se mantiene en G2 y vuelve a 2C en cada célula hija tras la división.</span>",
+   "b) Motivos: <mark class=\"clave-criterio\">proliferación celular</mark>, <mark class=\"clave-criterio\">mantenimiento de la información</mark>, <mark class=\"clave-criterio\">reparación de tejidos</mark>, <mark class=\"clave-criterio\">reproducción</mark>. Dos, a 0,25 p (0,5 p). <span class=\"redactado\">En los organismos unicelulares, la mitosis es su forma de reproducción asexual; en los pluricelulares, permite el crecimiento y la renovación de los tejidos.</span>"
   ],
-  "f": "Pregunta y figura transcritas de «B2.TEMA 10. CICLO CELULAR.docx». La solución mostrada es la del propio documento.",
+  "f": "Pregunta y figura transcritas de «B2.TEMA 10. CICLO CELULAR.docx». La solución es la de los criterios oficiales de la PAU de Andalucía (2013), con las palabras clave resaltadas; en morado, explicaciones de BioCelia.",
   "origen": {
    "documento": "B2.TEMA 10. CICLO CELULAR.docx",
    "figura": "figdocx-b2-tema-10-ciclo-celular-image23",
@@ -1348,9 +1419,12 @@ window.BIOCELIA_FIGURAS = [
   "imageDesc": null,
   "q": "<b>21. En relación con la imagen adjunta, conteste las siguientes cuestiones:</b><br>a) Indique a qué tipo de división celular pertenecen las imágenes del esquema [0,1] y en qué tipo de células tiene lugar [0,15]. ¿Qué representan las imágenes numeradas (1 a 5) y en qué fase se produce cada una de ellas? [0,75].<br>b) Indique qué proceso ocurre en el círculo de la imagen número 1 y la importancia biológica del mismo [0,4]. Indique la relación del proceso representado mediante el esquema número 3 con dos aspectos fundamentales de la importancia biológica de este tipo de división [0,6].",
   "c": [
-   "a) Es una meiosis. Se produce en las células de la línea germinal"
+   "a) <mark class=\"clave-criterio\">Meiosis</mark> (0,1 p), en <mark class=\"clave-criterio\">células de la línea germinal</mark> (0,15 p).",
+   "a) 1: <mark class=\"clave-criterio\">apareamiento de homólogos (tétrada)</mark> en <mark class=\"clave-criterio\">profase I</mark>; 2: <mark class=\"clave-criterio\">homólogos apareados y recombinados</mark> en <mark class=\"clave-criterio\">metafase I</mark>; 3: <mark class=\"clave-criterio\">homólogos en anafase I</mark>; 4: <mark class=\"clave-criterio\">cromosomas con dos cromátidas en metafase II</mark>; 5: <mark class=\"clave-criterio\">cromátidas hermanas en anafase II</mark>. 0,15 p cada una (0,75 p).",
+   "b) <mark class=\"clave-criterio\">Recombinación</mark>: intercambio de fragmentos entre <mark class=\"clave-criterio\">cromátidas de homólogos</mark> (0,2 p), fundamental para la <mark class=\"clave-criterio\">variabilidad genética</mark> (0,2 p).",
+   "b) En la anafase I los homólogos van a los polos: se <mark class=\"clave-criterio\">reduce a la mitad</mark> el número de cromosomas (<mark class=\"clave-criterio\">células haploides</mark>), lo que asegura la <mark class=\"clave-criterio\">constancia del número cromosómico tras la fecundación</mark> (0,3 p); y hay <mark class=\"clave-criterio\">reparto al azar</mark> de cromosomas paternos y maternos (<mark class=\"clave-criterio\">segregación</mark>), que aporta <mark class=\"clave-criterio\">variabilidad</mark> (0,3 p)."
   ],
-  "f": "Pregunta y figura transcritas de «B2.TEMA 10. CICLO CELULAR.docx». La solución mostrada es la del propio documento.",
+  "f": "Pregunta y figura transcritas de «B2.TEMA 10. CICLO CELULAR.docx». La solución es la de los criterios oficiales de la PAU de Andalucía (2014), con las palabras clave resaltadas; en morado, explicaciones de BioCelia.",
   "origen": {
    "documento": "B2.TEMA 10. CICLO CELULAR.docx",
    "figura": "figdocx-b2-tema-10-ciclo-celular-image24",
@@ -1369,10 +1443,13 @@ window.BIOCELIA_FIGURAS = [
   "imageDesc": null,
   "q": "<b>22. La imagen muestra una fase de un proceso celular. Conteste a las siguientes cuestiones:</b><br>a) ¿Qué proceso representa? [0,2]. ¿A qué fase de ese proceso corresponde? [0,2]. Describa lo que ocurre en esta fase [0,4]. ¿En qué́ tipo de célula eucariota se desarrolla el proceso representado? [0,2].<br>b) Nombre la fase anterior y la fase posterior a la representada [0,2], y explique con la ayuda de un dibujo lo que sucede en cada una de ellas [0,8].",
   "c": [
-   "a) Meiosis (primera división meiótica). Anafase I. En esta fase los microtúbulos del huso separan los cromosomas homólogos, y cada uno, con sus dos cromátidas sera arrastrado a cada polo celular. Esto ocurre en células germinales",
-   "b) La anterior es la metafase I y la posterior es la telofase I."
+   "a) <mark class=\"clave-criterio\">Meiosis</mark> (0,2 p), <mark class=\"clave-criterio\">anafase I</mark> (0,2 p).",
+   "a) Los <mark class=\"clave-criterio\">microtúbulos</mark> del huso <mark class=\"clave-criterio\">separan los cromosomas homólogos</mark> hacia <mark class=\"clave-criterio\">cada polo</mark> (0,4 p). <span class=\"redactado\">Las cromátidas hermanas siguen unidas por el centrómero; los cromosomas de cada par se reparten al azar entre los dos polos, lo que contribuye a la variabilidad genética.</span>",
+   "a) <mark class=\"clave-criterio\">Célula animal germinal</mark> (0,2 p). <span class=\"redactado\">La meiosis se produce en las células que originan los gametos (o las esporas, en los vegetales).</span>",
+   "b) <mark class=\"clave-criterio\">Metafase I</mark> y <mark class=\"clave-criterio\">telofase I</mark> (0,2 p).",
+   "b) Metafase I: <mark class=\"clave-criterio\">homólogos en el plano medio</mark>, máxima condensación. Telofase I: <mark class=\"clave-criterio\">descondensación</mark>, <mark class=\"clave-criterio\">número haploide</mark> en cada polo, <mark class=\"clave-criterio\">reaparece la envoltura</mark>. 0,4 p cada una (0,8 p). <span class=\"redactado\">En la metafase I los homólogos se colocan por parejas (bivalentes) en el plano ecuatorial, y no cromosomas sueltos, como en la mitosis.</span>"
   ],
-  "f": "Pregunta y figura transcritas de «B2.TEMA 10. CICLO CELULAR.docx». La solución mostrada es la del propio documento.",
+  "f": "Pregunta y figura transcritas de «B2.TEMA 10. CICLO CELULAR.docx». La solución es la de los criterios oficiales de la PAU de Andalucía (2016), con las palabras clave resaltadas; en morado, explicaciones de BioCelia.",
   "origen": {
    "documento": "B2.TEMA 10. CICLO CELULAR.docx",
    "figura": "figdocx-b2-tema-10-ciclo-celular-image25",
@@ -1460,8 +1537,11 @@ window.BIOCELIA_FIGURAS = [
   "imgThumb": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image2.thumb.webp",
   "imageDesc": null,
   "q": "<b>50.- Copie la siguiente tabla y rellene las casillas indicando la presencia (SÍ) o ausencia (NO) de las siguientes moléculas, estructuras u orgánulos en las células eucarióticas animales y vegetales [2].</b>",
-  "c": [],
-  "f": "Pregunta y figura transcritas de «B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx». El documento no incluía solución para esta pregunta.",
+  "c": [
+   "Célula animal: ribosoma 80S <mark class=\"clave-criterio\">SÍ</mark>, núcleo <mark class=\"clave-criterio\">SÍ</mark>, mitocondria <mark class=\"clave-criterio\">SÍ</mark>, membrana <mark class=\"clave-criterio\">SÍ</mark>, cloroplasto <mark class=\"clave-criterio\">NO</mark>, pared <mark class=\"clave-criterio\">NO</mark>, almidón <mark class=\"clave-criterio\">NO</mark>, centriolos <mark class=\"clave-criterio\">SÍ</mark>, carotenos <mark class=\"clave-criterio\">NO</mark>, dictiosomas <mark class=\"clave-criterio\">SÍ</mark>.",
+   "Célula vegetal: ribosoma 80S <mark class=\"clave-criterio\">SÍ</mark>, núcleo <mark class=\"clave-criterio\">SÍ</mark>, mitocondria <mark class=\"clave-criterio\">SÍ</mark>, membrana <mark class=\"clave-criterio\">SÍ</mark>, cloroplasto <mark class=\"clave-criterio\">SÍ</mark>, pared <mark class=\"clave-criterio\">SÍ</mark>, almidón <mark class=\"clave-criterio\">SÍ</mark>, centriolos <mark class=\"clave-criterio\">NO</mark>, carotenos <mark class=\"clave-criterio\">SÍ</mark>, dictiosomas <mark class=\"clave-criterio\">SÍ</mark>. 0,1 p cada casilla (2 p). <span class=\"redactado\">Las células vegetales superiores no tienen centriolos, aunque sí forman huso; el almidón y los carotenos están en los plastos. Las dos tienen dictiosomas (complejo de Golgi).</span>"
+  ],
+  "f": "Pregunta y figura transcritas de «B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx». La solución es la de los criterios oficiales de la PAU de Andalucía (2022), con las palabras clave resaltadas; en morado, explicaciones de BioCelia.",
   "origen": {
    "documento": "B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx",
    "figura": "figdocx-b2-tema-7-8-9-biologia-celular-image2",
@@ -1480,8 +1560,8 @@ window.BIOCELIA_FIGURAS = [
   "imageDesc": null,
   "q": "<b>35.- Tres tipos celulares diferentes (A, B y C) se mantienen en el laboratorio en un medio hipotónico. En estas condiciones, la célula A muere y las células B y C sobreviven. Sin embargo, cuando a las células B y C se les pone en un medio hipotónico y se añaden determinadas enzimas que degradan la pectina, la mureína o la celulosa, se obtienen los siguientes resultados (véase la figura). Indique de forma razonada, para cada una de las células (A, B y C):</b><br>a) cuál es su organización celular [0,15];<br>b) a qué grupo pertenecen [0,15];<br>c) por qué se produce la muerte celular y cómo estarían involucradas las enzimas de degradación (en el caso de las células B y C) en dicha muerte celular [0,7].",
   "c": [
-   "a) A: célula eucariotaB: célula procariotaC: célula eucariota",
-   "b) A: célula animalB: bacteriaC: célula vegetal",
+   "a) A: célula eucariota; B: célula procariota; C: célula eucariota.",
+   "b) A: célula animal; B: bacteria; C: célula vegetal.",
    "c) Célula A: que la célula A muera en un medio hipotónico implica que el agua entra en su interior, provocando su hinchamiento y rotura ya que no tiene ningún tipo de pared celular que evite este fenómeno. La célula B, debido a la presencia de pared celular bacteriana, en un medio hipotónico, la célula sobrevive. Sin embargo, cuando se añade una enzima que degrada la mureína, componente de la pared celular bacteriana, la célula pierde su protección y muere; y la célula C, debido a la presencia de pared celular, en un medio hipotónico, la célula vegetal sobrevive. Sin embargo, su viabilidad se ve afectada cuando se degrada alguno de los componentes de la pared celular, como son las pectinas o la celulosa"
   ],
   "f": "Pregunta y figura transcritas de «B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx». La solución mostrada es la del propio documento.",
@@ -1549,7 +1629,7 @@ window.BIOCELIA_FIGURAS = [
    "a) A: nucleolo; B: heterocromatina; C: poro nuclear; D: eucromatina; E: envoltura nuclear",
    "b) Nucleolo: biosíntesis de componentes de los ribosomas. Heterocromatina: cromatina no activa. Poro nuclear: transporte de moléculas a través de la envoltura nuclear. Eucromatina: cromatina activa. Envoltura nuclear: separa el núcleo del citoplasma",
    "c) Se encuentra en interfase. Tres niveles consecutivos son la doble hélice de ADN, la cadena de nucleosomas o collar de perlas y la fibra de 30 nm o solenoide",
-   "b) Las cromátidas son cada parte longitudinal de un cromosoma metafásico. El centrómero es un estrechamiento o constriccion entre los brazos de una cromátida. Los cromosomas homólogos son cromosomas que forman pareja en un organismo diploide, y que se recombinan durante la meiosis"
+   "d) Las cromátidas son cada parte longitudinal de un cromosoma metafásico. El centrómero es un estrechamiento o constriccion entre los brazos de una cromátida. Los cromosomas homólogos son cromosomas que forman pareja en un organismo diploide, y que se recombinan durante la meiosis"
   ],
   "f": "Pregunta y figura transcritas de «B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx». La solución mostrada es la del propio documento.",
   "origen": {
@@ -1570,11 +1650,13 @@ window.BIOCELIA_FIGURAS = [
   "imageDesc": null,
   "q": "<b>11. En relación con las figuras adjuntas, conteste las siguientes cuestiones</b><br>a) ¿Qué tipos de células están representadas en la imagen A y en la imagen B? [0,2]<br>b) ¿Qué tipo de nutrición tiene la célula A? [0,2]<br>c) ¿Qué tipo de nutrición tiene la célula B? [0,2]<br>d) ¿Qué estructuras están representadas con los números 1, 2, 3 y 4? [0,4]<br>e) Indique dos estructuras características del tipo celular representado en la imagen A que no existan en el tipo celular representado en la imagen B [0,4].<br>f) Cite dos estructuras características del tipo celular representado en la imagen B que no existan en el tipo celular representado en la imagen A [0,4].<br>g) Indique el tipo de citocinesis que presenta cada uno de estos tipos celulares [0,2].",
   "c": [
-   "a) A: célula eucariota animalB: célula eucariota vegetal",
-   "b) Nutricion heterótrofac) Nutricion autótrofa",
-   "d) 1: Núcleo; 2: membrana plasmática o celular; 3: vacuola; 4: pared celular",
-   "e) Centriolos y flagelosf) Cloroplastos y pared celular",
-   "g) Tipo A: estrangulamiento del citoplasma; Tipo B: tabicación"
+   "a) A: célula eucariota animal; B: célula eucariota vegetal.",
+   "b) Nutrición heterótrofa.",
+   "c) Nutrición autótrofa.",
+   "d) 1: núcleo; 2: membrana plasmática o celular; 3: vacuola; 4: pared celular.",
+   "e) Centriolos y flagelos.",
+   "f) Cloroplastos y pared celular.",
+   "g) Tipo A: estrangulamiento del citoplasma; tipo B: tabicación."
   ],
   "f": "Pregunta y figura transcritas de «B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx». La solución mostrada es la del propio documento.",
   "origen": {
@@ -1644,8 +1726,11 @@ window.BIOCELIA_FIGURAS = [
   "imgThumb": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image20.thumb.webp",
   "imageDesc": null,
   "q": "<b>17.- La imagen se corresponde con un componente celular. Responda a las siguientes preguntas:</b><br>a) ¿De qué orgánulo o parte de la célula se trata? [0,1]. Describa su estructura [0,9].<br>b) ¿Qué función celular lleva a cabo? [0,2]. Describa brevemente las etapas en las que tiene lugar el proceso, así como su localización [0,8].",
-  "c": [],
-  "f": "Pregunta y figura transcritas de «B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx». El documento no incluía solución para esta pregunta.",
+  "c": [
+   "a) Se trata de un cloroplasto. Este orgánulo es de doble membrana, con una membrana externa y otra interna que dejan un espacio intermembrana entre ellas. El interior se denomina estroma y contiene una tercera membrana, la membrana tilacoidal. Esta membrana forma unos sáculos denominados tilacoides, que en ocasiones aparecen apilados formando los grana. Este orgánulo también presenta un cromosoma de ADN circular, ribosomas 70S y puede contener gránulos de almidón.",
+   "b) Se encarga de realizar la fotosíntesis en las células vegetales. <span class=\"redactado\">Fase luminosa, en la membrana de los tilacoides: captación de la luz por los fotosistemas, fotólisis del agua (que libera O₂), transporte electrónico y síntesis de ATP y NADPH. Fase oscura o ciclo de Calvin, en el estroma: fijación del CO₂ y su reducción a azúcares sencillos con el ATP y el NADPH de la fase luminosa.</span>"
+  ],
+  "f": "Pregunta y figura transcritas de «B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx». Donde el documento no traía la solución, la ha redactado BioCelia (en morado) a partir de los criterios oficiales de la PAU.",
   "origen": {
    "documento": "B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx",
    "figura": "figdocx-b2-tema-7-8-9-biologia-celular-image20",
@@ -1663,8 +1748,11 @@ window.BIOCELIA_FIGURAS = [
   "imgThumb": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image21.thumb.webp",
   "imageDesc": null,
   "q": "<b>18.- A la vista de los esquemas responda razonadamente a las siguientes preguntas:</b><br>a) Los esquemas 1 y 2 representan dos formas distintas de transporte a través de la membrana: identifíquelas y descríbalas [1].<br>b) Describa la composición química de la membrana plasmática [1].",
-  "c": [],
-  "f": "Pregunta y figura transcritas de «B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx». El documento no incluía solución para esta pregunta.",
+  "c": [
+   "a) En el esquema 1 se trata de transporte activo usando una proteína transportadora, que cambia de conformación y transporta el soluto de un lado a otro de la membrana con gasto de energía, en forma de ATP. Esto ocurre así porque el soluto se transporta en contra de gradiente. En el esquema 2 se observa una difusión simple, un tipo de transporte pasivo, sin gasto de energía, de solutos que pasan directamente a través de la membrana.",
+   "b) Membrana plasmática: <mark class=\"clave-criterio\">bicapa lipídica</mark> (fosfolípidos, colesterol, etc.), con <mark class=\"clave-criterio\">proteínas periféricas y transmembranales</mark> y <mark class=\"clave-criterio\">glúcidos en la capa externa</mark>, que delimita la célula (1 p). <span class=\"redactado\">Lo propusieron Singer y Nicolson (1972). Es fluido porque los lípidos y muchas proteínas se desplazan lateralmente, y es un mosaico porque las proteínas se reparten entre los lípidos. Los glúcidos de la cara externa forman el glucocáliz; las dos caras son distintas (asimetría), y el colesterol regula la fluidez en las células animales.</span>"
+  ],
+  "f": "Pregunta y figura transcritas de «B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx». La solución del apartado b) es la de los criterios oficiales de la PAU de Andalucía (2010) sobre la membrana plasmática; en morado, explicaciones de BioCelia.",
   "origen": {
    "documento": "B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx",
    "figura": "figdocx-b2-tema-7-8-9-biologia-celular-image21",
@@ -1681,9 +1769,10 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image28.webp",
   "imgThumb": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image28.thumb.webp",
   "imageDesc": null,
-  "q": "<b>20.- A la vista del esquema conteste a las siguientes preguntas:</b><br>a) ¿Qué proceso celular representa? [0,25]. ¿Cuáles son los componentes celulares indicados con los números 1, 2 y 4? Enuncie la función que realiza cada uno de ellos en este proceso [0,75].",
+  "q": "<b>20.- A la vista del esquema conteste a las siguientes preguntas:</b><br>a) ¿Qué proceso celular representa? [0,25]. ¿Cuáles son los componentes celulares indicados con los números 1, 2 y 4? Enuncie la función que realiza cada uno de ellos en este proceso [0,75].<br>b) Describa detalladamente dos funciones del componente número 3 [1].",
   "c": [
-   "b) Describa detalladamente dos funciones del"
+   "a) Representa un proceso de secreción. El componente 1 es el núcleo y participa en la transcripción de una molécula de ARNm para permitir la síntesis de proteínas; el componente 2 es el retículo endoplasmático rugoso y se encarga de la síntesis de proteínas, y el componente 4 es una vesícula o gránulo de secreción y se encarga de expulsar su contenido al exterior al fusionarse con la membrana celular.",
+   "b) El componente 3 es el aparato de Golgi y, entre sus muchas funciones, se encarga de la maduración de proteínas: las proteínas recién sintetizadas van al aparato de Golgi y allí son modificadas, por ejemplo mediante la adición de restos glucídicos. El aparato de Golgi también se encarga del transporte de proteínas y lípidos mediante la formación de vesículas que irán a su destino correspondiente."
   ],
   "f": "Pregunta y figura transcritas de «B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx». La solución mostrada es la del propio documento.",
   "origen": {
@@ -1703,8 +1792,11 @@ window.BIOCELIA_FIGURAS = [
   "imgThumb": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image30.thumb.webp",
   "imageDesc": null,
   "q": "<b>21.- A la vista del esquema conteste a las siguientes preguntas:</b><br>a) ¿Qué procesos son los señalados con los números 1, 2 y 3? [0,3]. ¿Cómo se llaman los orgánulos celulares indicados con las letras A, B y C? [0,3]. ¿Qué diferencias hay entre los procesos señalados con los números 1 y 2? [0,4].<br>b) Los orgánulos A, B y C terminan uniéndose al orgánulo 4. ¿Qué nombre tiene ese orgánulo? [0,2]. Explique la función del mismo [1].",
-  "c": [],
-  "f": "Pregunta y figura transcritas de «B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx». El documento no incluía solución para esta pregunta.",
+  "c": [
+   "a) 1: fagocitosis; 2: pinocitosis; 3: autofagia. A: fagosoma o heterofagosoma; B: vesícula pinocítica; C: autofagosoma. En la fagocitosis la célula captura o introduce partículas grandes (macromoléculas, bacterias, virus…), mientras que en la pinocitosis introduce sobre todo líquido o pequeños solutos disueltos.",
+   "b) Se trata de un lisosoma. Se encarga de la digestión celular, ya que contiene en su interior enzimas hidrolíticas que digieren el contenido."
+  ],
+  "f": "Pregunta y figura transcritas de «B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx». La solución mostrada es la del propio documento.",
   "origen": {
    "documento": "B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx",
    "figura": "figdocx-b2-tema-7-8-9-biologia-celular-image30",
@@ -1721,11 +1813,12 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image31.webp",
   "imgThumb": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image31.thumb.webp",
   "imageDesc": null,
-  "q": "<b>22.- A la vista del esquema conteste a las siguientes preguntas:</b><br>a) ¿De qué orgánulo celular se trata? [0,1]. ¿Qué células lo tienen? [0,2]. Identifique los distintos elementos que aparecen en el esquema [0,7].",
+  "q": "<b>22.- A la vista del esquema conteste a las siguientes preguntas:</b><br>a) ¿De qué orgánulo celular se trata? [0,1]. ¿Qué células lo tienen? [0,2]. Identifique los distintos elementos que aparecen en el esquema [0,7].<br>b) Describa brevemente la principal función que realiza este orgánulo e indique en qué partes de su estructura tiene lugar [1].",
   "c": [
-   "b) Describa brevemente la principal función que realiza este"
+   "a) Es una mitocondria. Está presente en todas las células eucariotas. Elementos: membrana mitocondrial externa e interna, crestas mitocondriales, matriz mitocondrial, ribosomas 70S y ADN mitocondrial.",
+   "b) <span class=\"redactado\">Su función principal es la respiración celular: obtener energía (ATP) oxidando compuestos orgánicos. El ciclo de Krebs (y la β-oxidación de los ácidos grasos) tiene lugar en la matriz, y la cadena de transporte electrónico y la fosforilación oxidativa, en la membrana interna (crestas mitocondriales).</span>"
   ],
-  "f": "Pregunta y figura transcritas de «B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx». La solución mostrada es la del propio documento.",
+  "f": "Pregunta y figura transcritas de «B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx». Donde el documento no traía la solución, la ha redactado BioCelia (en morado) a partir de los criterios oficiales de la PAU.",
   "origen": {
    "documento": "B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx",
    "figura": "figdocx-b2-tema-7-8-9-biologia-celular-image31",
@@ -1742,9 +1835,10 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image32.webp",
   "imgThumb": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image32.thumb.webp",
   "imageDesc": null,
-  "q": "<b>23.- A la vista de la imagen, conteste las siguientes cuestiones: A B A B</b><br>a) ¿Qué mecanismos de transporte celular representan las letras A y B del esquema? [0,25]. Comente las características de cada uno de ellos, indicando el tipo de sustancias que se transportan por cada mecanismo [0,75].<br>b) ¿En qué se diferencian estos procesos de transporte del realizado por la bomba de Na+/K+? [1].",
+  "q": "<b>23.- A la vista de la imagen, conteste las siguientes cuestiones:</b><br>a) ¿Qué mecanismos de transporte celular representan las letras A y B del esquema? [0,25]. Comente las características de cada uno de ellos, indicando el tipo de sustancias que se transportan por cada mecanismo [0,75].<br>b) ¿En qué se diferencian estos procesos de transporte del realizado por la bomba de Na+/K+? [1].",
   "c": [
-   "b) La bomba de Na+/K+ se realiza gracias a un transportador y en contra de gradiente por lo que requiere energía, es por tanto, un ejemplo de transporte activo."
+   "a) A: difusión simple; B: transporte mediado por proteínas de canal o difusión facilitada. Ambos se producen a favor de gradiente electroquímico y no requieren energía. Por difusión simple se transportan sustancias liposolubles. Las proteínas de canal transportan iones y moléculas polares sin carga de pequeño tamaño.",
+   "b) La bomba de Na⁺/K⁺ se realiza gracias a un transportador y en contra de gradiente, por lo que requiere energía; es, por tanto, un ejemplo de transporte activo."
   ],
   "f": "Pregunta y figura transcritas de «B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx». La solución mostrada es la del propio documento.",
   "origen": {
@@ -1763,9 +1857,12 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image35.webp",
   "imgThumb": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image35.thumb.webp",
   "imageDesc": null,
-  "q": "<b>25.- En relación con la imagen adjunta, responda las siguientes cuestiones:</b><br>a) Indique si se trata de una célula animal o vegetal [0,2]. Nombre tres criterios en los que se basa para contestar el apartado anterior [0,3]. ¿Qué señala cada número? [0,5].<br>b) Nombre una función de cada una de las estructuras señaladas con los números 2 y 3 [0,5].",
-  "c": [],
-  "f": "Pregunta y figura transcritas de «B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx». El documento no incluía solución para esta pregunta.",
+  "q": "<b>25.- En relación con la imagen adjunta, responda las siguientes cuestiones:</b><br>a) Indique si se trata de una célula animal o vegetal [0,2]. Nombre tres criterios en los que se basa para contestar el apartado anterior [0,3]. ¿Qué señala cada número? [0,5].<br>b) Nombre una función de cada una de las estructuras señaladas con los números 2 y 3 [0,5]. Indique la composición química [0,25] y dos funciones de la estructura señalada con el número 1 [0,25].",
+  "c": [
+   "a) Es una célula animal, ya que carece de cloroplastos, no tiene pared celular y posee centriolos. 1: membrana celular; 2: aparato de Golgi; 3: mitocondria; 4: RER; 5: núcleo o nucléolo.",
+   "b) 2, aparato de Golgi: modificación de proteínas; 3, mitocondria: respiración celular. La membrana celular está formada por fosfolípidos, colesterol y proteínas. Regula el transporte de sustancias entre la célula y el medio extracelular y le da forma a la célula."
+  ],
+  "f": "Pregunta y figura transcritas de «B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx». La solución mostrada es la del propio documento.",
   "origen": {
    "documento": "B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx",
    "figura": "figdocx-b2-tema-7-8-9-biologia-celular-image35",
@@ -1783,8 +1880,11 @@ window.BIOCELIA_FIGURAS = [
   "imgThumb": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image36.thumb.webp",
   "imageDesc": null,
   "q": "<b>27.- En relación con la figura adjunta, responda las siguientes cuestiones:</b><br>a) ¿Qué orgánulo representa? [0,2]. ¿En qué tipo de células se presenta? [0,2]. ¿Dónde se localiza? [0,2]. Describa su estructura [0,4].<br>b) Describa brevemente cómo participa este orgánulo en dos funciones celulares [1].",
-  "c": [],
-  "f": "Pregunta y figura transcritas de «B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx». El documento no incluía solución para esta pregunta.",
+  "c": [
+   "a) Es un centriolo o un corpúsculo basal. Están en células animales. Si se trata de un centriolo, en el citoplasma, cerca del núcleo; si es un corpúsculo basal, en la base de los cilios y flagelos. Está formado por nueve tripletes de microtúbulos; cada triplete tiene un microtúbulo completo y dos incompletos. Entre los tripletes también se sitúan proteínas que ayudan a mantener la estructura unida.",
+   "b) Interviene en la división celular formando el huso acromático de la mitosis y la meiosis, que se encarga de separar los cromosomas y las cromátidas. Interviene en el movimiento celular, ya que forma los corpúsculos basales de cilios y flagelos."
+  ],
+  "f": "Pregunta y figura transcritas de «B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx». La solución mostrada es la del propio documento.",
   "origen": {
    "documento": "B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx",
    "figura": "figdocx-b2-tema-7-8-9-biologia-celular-image36",
@@ -1802,8 +1902,14 @@ window.BIOCELIA_FIGURAS = [
   "imgThumb": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image37.thumb.webp",
   "imageDesc": null,
   "q": "<b>28.- En relación con la imagen adjunta, conteste las siguientes cuestiones:</b><br>a) Indique el nombre de las estructuras u orgánulos celulares señalados por flechas y representados por números [1].<br>b) ¿Cuál es el componente mayoritario de la estructura señalada con el número 1? [0,1]. Cite la principal función de los orgánulos señalados con los números 3, 4, 7, 8 y 9 [0,5]. Indique los números correspondientes a tres orgánulos o estructuras que contengan ADN [0,3]. Indique una función de la estructura señalada con el número 1 [0,1].",
-  "c": [],
-  "f": "Pregunta y figura transcritas de «B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx». El documento no incluía solución para esta pregunta.",
+  "c": [
+   "a) 1: <mark class=\"clave-criterio\">pared celular</mark>; 2: <mark class=\"clave-criterio\">citosol</mark>; 3: <mark class=\"clave-criterio\">cloroplasto</mark>; 4: <mark class=\"clave-criterio\">vacuola</mark>; 5: <mark class=\"clave-criterio\">complejo de Golgi</mark>; 6: <mark class=\"clave-criterio\">citoesqueleto</mark>; 7: <mark class=\"clave-criterio\">nucleolo</mark> (núcleo); 8: <mark class=\"clave-criterio\">retículo endoplasmático rugoso</mark>; 9: <mark class=\"clave-criterio\">mitocondria</mark>; 10: <mark class=\"clave-criterio\">membrana</mark>. 0,1 p cada uno (1 p).",
+   "b) 1: <mark class=\"clave-criterio\">celulosa</mark> (0,1 p).",
+   "b) 3: <mark class=\"clave-criterio\">fotosíntesis</mark>; 4: <mark class=\"clave-criterio\">reserva</mark> de agua y sustancias; 7: <mark class=\"clave-criterio\">síntesis de ARN ribosómico</mark>; 8: <mark class=\"clave-criterio\">síntesis de proteínas</mark>; 9: <mark class=\"clave-criterio\">respiración celular</mark>. 0,1 p cada una (0,5 p). <span class=\"redactado\">En el nucléolo, además, se ensamblan las subunidades de los ribosomas; los ribosomas del RER sintetizan las proteínas de membrana y de secreción.</span>",
+   "b) Con ADN: <mark class=\"clave-criterio\">3, 7 y 9</mark> (0,3 p). <span class=\"redactado\">La información del nucléolo está en el ADN del núcleo; cloroplastos y mitocondrias tienen su propio ADN, circular, como las bacterias.</span>",
+   "b) 1: <mark class=\"clave-criterio\">proteger frente a cambios osmóticos</mark>, función <mark class=\"clave-criterio\">estructural</mark> (0,1 p). <span class=\"redactado\">La pared resiste la presión del agua que entra por ósmosis e impide que la célula estalle en un medio hipotónico.</span>"
+  ],
+  "f": "Pregunta y figura transcritas de «B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx». La solución es la de los criterios oficiales de la PAU de Andalucía (2013), con las palabras clave resaltadas; en morado, explicaciones de BioCelia.",
   "origen": {
    "documento": "B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx",
    "figura": "figdocx-b2-tema-7-8-9-biologia-celular-image37",
@@ -1821,8 +1927,11 @@ window.BIOCELIA_FIGURAS = [
   "imgThumb": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image38.thumb.webp",
   "imageDesc": null,
   "q": "<b>29.- A la vista de la imagen, conteste las siguientes cuestiones:</b><br>a) Indique el nombre del orgánulo o de la estructura celular señalados por cada uno de los números [0,4]. Indique una función de los orgánulos o estructuras 1, 4 y 5 [0,3]. Nombre seis orgánulos celulares cuyas membranas cumplan el modelo de Mosaico Fluido [0,3].<br>b) Nombre dos funciones de la estructura señalada con el número 2 [0,2] y dos de la señalada con el número 7 [0,2]. Indique en qué estructuras u orgánulos celulares, incluidos o no en la figura, se realizan las siguientes actividades celulares: transcripción, traducción, fosforilación oxidativa, glucólisis, respiración y digestión celular [0,6].",
-  "c": [],
-  "f": "Pregunta y figura transcritas de «B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx». El documento no incluía solución para esta pregunta.",
+  "c": [
+   "a) 1: vesículas de secreción; 2: retículo endoplasmático rugoso; 3: núcleo (nucleoplasma, cromatina); 4: nucléolo; 5: poro nuclear; 6: envoltura nuclear; 7: complejo de Golgi; 8: citosol. Funciones: 1: secreción de sustancias; 4: síntesis de ARNr o de ribosomas; 5: regular la entrada y salida de moléculas del núcleo. Orgánulos con membranas según el modelo de mosaico fluido: mitocondria, cloroplasto, RER, REL, aparato de Golgi, lisosomas, núcleo, peroxisomas…",
+   "b) 2 (RER): síntesis de proteínas y modificación de proteínas. 7 (complejo de Golgi): maduración de proteínas y distribución de vesículas. Transcripción: núcleo, nucléolo, mitocondrias y cloroplastos; traducción: ribosomas; fosforilación oxidativa: mitocondria; glucólisis: citoplasma (citosol); respiración: mitocondria; digestión celular: lisosomas."
+  ],
+  "f": "Pregunta y figura transcritas de «B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx». La solución mostrada es la del propio documento.",
   "origen": {
    "documento": "B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx",
    "figura": "figdocx-b2-tema-7-8-9-biologia-celular-image38",
@@ -1840,8 +1949,15 @@ window.BIOCELIA_FIGURAS = [
   "imgThumb": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image39.thumb.webp",
   "imageDesc": null,
   "q": "<b>30.- En relación con la imagen adjunta, conteste las siguientes cuestiones:</b><br>a) Nombre los procesos señalados con las letras A, B y C [0,3]. ¿Qué diferencias hay entre los procesos B y C? [0,5]. ¿Cómo se llaman los orgánulos señalados con los números 1 y 2? [0,2].<br>b) ¿Qué orgánulo es el señalado con el número 3? [0,1]. ¿Cuál es su estructura [0,5]? Cite dos funciones de este orgánulo [0,4].",
-  "c": [],
-  "f": "Pregunta y figura transcritas de «B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx». El documento no incluía solución para esta pregunta.",
+  "c": [
+   "a) A: <mark class=\"clave-criterio\">pinocitosis</mark>; B: <mark class=\"clave-criterio\">fagocitosis o endocitosis</mark>; C: <mark class=\"clave-criterio\">secreción o exocitosis</mark> (0,3 p).",
+   "a) B: <mark class=\"clave-criterio\">entrada</mark> de fluidos o partículas <mark class=\"clave-criterio\">mediante vesículas</mark>; C: <mark class=\"clave-criterio\">salida</mark> de moléculas <mark class=\"clave-criterio\">mediante vesículas</mark>. 0,25 p cada uno (0,5 p).",
+   "a) 1: <mark class=\"clave-criterio\">lisosoma</mark>; 2: <mark class=\"clave-criterio\">fagosoma</mark> (0,2 p).",
+   "b) <mark class=\"clave-criterio\">Complejo de Golgi</mark> (0,1 p).",
+   "b) <mark class=\"clave-criterio\">Cisternas aplanadas y apiladas (dictiosomas)</mark>, con <mark class=\"clave-criterio\">cara cis</mark> (próxima al RER) y <mark class=\"clave-criterio\">cara trans</mark>, y <mark class=\"clave-criterio\">vesículas de transporte y de secreción</mark> (0,5 p).",
+   "b) Funciones: <mark class=\"clave-criterio\">glucosilación</mark>, <mark class=\"clave-criterio\">maduración de proteínas</mark>, <mark class=\"clave-criterio\">secreción</mark>, <mark class=\"clave-criterio\">formación de lisosomas</mark>, síntesis de la pared vegetal. Dos, a 0,2 p (0,4 p)."
+  ],
+  "f": "Pregunta y figura transcritas de «B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx». La solución es la de los criterios oficiales de la PAU de Andalucía (2013), con las palabras clave resaltadas; en morado, explicaciones de BioCelia.",
   "origen": {
    "documento": "B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx",
    "figura": "figdocx-b2-tema-7-8-9-biologia-celular-image39",
@@ -1859,8 +1975,11 @@ window.BIOCELIA_FIGURAS = [
   "imgThumb": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image40.thumb.webp",
   "imageDesc": null,
   "q": "<b>31.- En relación con la imagen adjunta, conteste las siguientes cuestiones:</b><br>a) Indique el tipo celular de que se trata [0,1], basándose en tres características [0,3]. Indique qué números corresponden con las siguientes estructuras: retículo endoplasmático rugoso, retículo endoplasmático liso, mitocondria, y complejo de Golgi [0,4]. ¿Qué funciones tienen las estructuras 3 y 6? [0,2].<br>b) Indique dos funciones de la estructura señalada con el número 7 [0,2], dos funciones de la estructura número 8 [0,2] y otras dos realizadas por la estructura número 1 [0,2]. Nombre dos reinos en los que se pueda encontrar este tipo celular [0,4].",
-  "c": [],
-  "f": "Pregunta y figura transcritas de «B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx». El documento no incluía solución para esta pregunta.",
+  "c": [
+   "a) Es una célula eucariota vegetal, porque tiene cloroplastos y pared celular y no tiene centriolos. RER: 4; REL: 8; mitocondria: 6; complejo de Golgi: 5. La estructura 3 es el cloroplasto y se encarga de realizar la fotosíntesis, mientras que la 6, la mitocondria, se encarga de obtener energía mediante la respiración celular.",
+   "b) La estructura 7, la vacuola, se encarga de almacenar sustancias de desecho y de la regulación osmótica de la célula. La 8, el REL, se encarga de la síntesis de lípidos y de la detoxificación celular, y la 1, la pared celular, da forma a la célula e interviene en la presión de turgencia. Esta célula la podemos ver en el reino Plantas y en el reino Protoctistas (algas)."
+  ],
+  "f": "Pregunta y figura transcritas de «B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx». La solución mostrada es la del propio documento.",
   "origen": {
    "documento": "B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx",
    "figura": "figdocx-b2-tema-7-8-9-biologia-celular-image40",
@@ -1924,8 +2043,13 @@ window.BIOCELIA_FIGURAS = [
   "imgThumb": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image44.thumb.webp",
   "imageDesc": null,
   "q": "<b>36.- En relación con la figura adjunta, conteste a las siguientes cuestiones:</b><br>a) Nombre los procesos indicados con los números 1, 2 y 3[0,3].<br>b) Indique tres diferencias entre los procesos 2 y 3 [0,3].<br>c) Nombre los orgánulos señalados con las letras A, B, C y D[0,2].<br>d) Cite dos funciones del orgánulo C [0,2].",
-  "c": [],
-  "f": "Pregunta y figura transcritas de «B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx». El documento no incluía solución para esta pregunta.",
+  "c": [
+   "a) 1: <mark class=\"clave-criterio\">pinocitosis</mark> (endocitosis); 2: <mark class=\"clave-criterio\">fagocitosis</mark>; 3: <mark class=\"clave-criterio\">exocitosis</mark> (0,3 p).",
+   "b) <mark class=\"clave-criterio\">Finalidad</mark> (entrada o salida), <mark class=\"clave-criterio\">origen y destino de las vesículas</mark>, <mark class=\"clave-criterio\">origen y tipo de sustancias transportadas</mark>. Tres (0,3 p).",
+   "c) A: <mark class=\"clave-criterio\">vesícula pinocítica</mark>; B: <mark class=\"clave-criterio\">fagosoma</mark>; C: <mark class=\"clave-criterio\">complejo de Golgi</mark>; D: <mark class=\"clave-criterio\">lisosoma</mark> (0,2 p).",
+   "d) <mark class=\"clave-criterio\">Transferencia</mark>, <mark class=\"clave-criterio\">maduración de proteínas</mark>, <mark class=\"clave-criterio\">glucosilación</mark>, <mark class=\"clave-criterio\">embalaje de productos de secreción</mark>. Dos (0,2 p)."
+  ],
+  "f": "Pregunta y figura transcritas de «B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx». La solución es la de los criterios oficiales de la PAU de Andalucía (2022), con las palabras clave resaltadas; en morado, explicaciones de BioCelia.",
   "origen": {
    "documento": "B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx",
    "figura": "figdocx-b2-tema-7-8-9-biologia-celular-image44",
@@ -1944,6 +2068,7 @@ window.BIOCELIA_FIGURAS = [
   "imageDesc": null,
   "q": "<b>37.- En relación con la figura adjunta, que muestra una estructura presente en algunas células eucarióticas, conteste a las siguientes cuestiones:</b><br>a) Nombre dos estructuras celulares que podrían estar representadas por la imagen A [0,2] e identifique las partes señaladas con los números 1 y 2 [0,2].<br>b) ¿Qué elementos del citoesqueleto forman parte de dicha estructura? [0,1]<br>c) Relacione los cortes 1 y 2 de la estructura A con las imágenes B, C o D [0,2].<br>d) Indique el nombre de la estructura señalada con el número 3 [0,15].<br>e) ¿Qué otra estructura de la célula eucariótica presenta una organización similar a la que tiene el elemento 2? [0,15]",
   "c": [
+   "a) A: cilios y flagelos; 1: axonema (tallo); 2: corpúsculo basal.",
    "b) Microtúbulos",
    "c) corte 1: C; corte 2: B",
    "d) Membrana plasmática",
@@ -1968,14 +2093,13 @@ window.BIOCELIA_FIGURAS = [
   "imageDesc": null,
   "q": "<b>38.- En relación con la figura adjunta, conteste a las siguientes preguntas:</b><br>a) ¿Qué representa este esquema? [0,2]<br>b) ¿En qué modelo de organización celular se encuentra esta estructura? [0,2]<br>c) ¿Cuáles pueden ser los compartimentos A y B?[0,2]<br>d) ¿Qué propiedad fisicoquímica tienen en común todos los lípidos representados en la imagen?[0,2]<br>e) Indique dos funciones biológicas que podrían desempeñar las proteínas cuando están formando parte de esta estructura [0,2].",
   "c": [
-   "a) Identifique los elementos señalados con",
-   "b) Indique dos funciones de la estructura 1",
-   "c) ¿En qué otra localización de la célula",
-   "a) 1: retículo endoplasmático liso; 2: retículo endoplasmático rugoso; 3: ribosomas; 4: envoltura nuclear",
-   "b) 1: síntesis de lípidos y detoxificación; 2: síntesis de proteínas y plegamiento de proteínas.",
-   "c) En el citosol"
+   "a) <span class=\"redactado\">La membrana plasmática, según el modelo de mosaico fluido: una bicapa de lípidos (fosfolípidos, colesterol y glucolípidos) con proteínas intercaladas y glúcidos unidos a lípidos y proteínas (glucolípidos y glucoproteínas) en la cara externa.</span>",
+   "b) <span class=\"redactado\">En una célula eucariota animal: la presencia de colesterol en la membrana es característica de las células animales.</span>",
+   "c) <span class=\"redactado\">A: medio extracelular (exterior de la célula), porque hacia él se orientan los glúcidos de glucolípidos y glucoproteínas; B: citoplasma (citosol).</span>",
+   "d) <span class=\"redactado\">Son anfipáticos: tienen una parte polar (hidrófila) y otra apolar (hidrófoba); por eso forman la bicapa, con las partes polares hacia el agua y las apolares hacia el interior.</span>",
+   "e) <span class=\"redactado\">Transporte de sustancias a través de la membrana (canales, transportadores, bombas), receptores de señales como hormonas, actividad enzimática, reconocimiento celular y unión entre células. Basta con dos.</span>"
   ],
-  "f": "Pregunta y figura transcritas de «B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx». La solución mostrada es la del propio documento.",
+  "f": "Pregunta y figura transcritas de «B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx». El documento remitía a otra pregunta y la solución que se mostraba no era la de esta: la ha redactado BioCelia (en morado) a partir de los apuntes del tema.",
   "origen": {
    "documento": "B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx",
    "figura": "figdocx-b2-tema-7-8-9-biologia-celular-image46",
@@ -2018,8 +2142,8 @@ window.BIOCELIA_FIGURAS = [
   "q": "<b>1. En relación con la imagen adjunta, conteste a las siguientes cuestiones: (JN 2021, P6 2020)</b><br>a) ¿Qué estructura representa? [0,1]<br>b) Indique el nombre de los compuestos A, B, C, D, E y F y de las localizaciones intracelulares G y H [0,8].<br>c) ¿Qué proceso da lugar a la formación del compuesto F? [0,1]",
   "c": [
    "a) Membrana tilacoidal",
-   "b) A: H2O; B: H+; C: NADP+; D: NADPH; E: ADP; F: ATP;",
-   "c) Fotofosforilación"
+   "b) A: H₂O; B: H⁺; C: NADP⁺; D: NADPH; E: ADP; F: ATP; G: espacio tilacoidal; H: estroma.",
+   "c) Fotofosforilación."
   ],
   "f": "Pregunta y figura transcritas de «B3.TEMA 11-12. METABOLISMO.docx». La solución mostrada es la del propio documento.",
   "origen": {
@@ -2067,8 +2191,9 @@ window.BIOCELIA_FIGURAS = [
   "c": [
    "a) Glucolisis.",
    "b) En células procariotas y eucariotas. En el citosol.",
-   "c) 2 ATP, por cada molécula de glucosad) Ciclo de Krebs, y fermentación láctica",
-   "e) En anaerobiosis, la fosforilación es a nivel de sustrato, y el destino del poder reductor será para reducir el piruvato y regenerar el NAD+",
+   "c) 2 ATP, por cada molécula de glucosa.",
+   "d) Ciclo de Krebs, y fermentación láctica.",
+   "e) En anaerobiosis, la fosforilación es a nivel de sustrato, y el destino del poder reductor será para reducir el piruvato y regenerar el NAD+.",
    "f) En aerobiosis, el ATP se formará por fosforilación oxidativa, y el poder reductor transferirá electrones a la cadena de transporte."
   ],
   "f": "Pregunta y figura transcritas de «B3.TEMA 11-12. METABOLISMO.docx». La solución mostrada es la del propio documento.",
@@ -2090,11 +2215,12 @@ window.BIOCELIA_FIGURAS = [
   "imageDesc": null,
   "q": "<b>6. En relación con el esquema adjunto conteste a las siguientes cuestiones:</b><br>a) Identifique las rutas metabólicas señaladas con los números I y II? [0,4].<br>b) ¿En qué́ lugar de la célula eucariótica ocurre cada una de ellas? [0,4].<br>c) A partir de la ruta II, ¿con qué procesos se completa la obtención de energía contenida en la glucosa? [0,2].<br>d) ¿Qué tipos de organismos llevan a cabo estos procesos de obtención de energía? [0,3].<br>e) ¿En qué́ condiciones no se llevaría a cabo la ruta no II? ¿Qué ruta alternativa podría seguir el ácido pirúvico? [0,4].<br>f) Indique el rendimiento energético de la degradación de la glucosa en condiciones aeróbicas y anaeróbicas [0,3].",
   "c": [
-   "a) I: glucolisis. II: ciclo de Krebsb) I: citoplasma. II: matriz mitocondrial",
-   "c) Con la cadena respiratoria de electrones y la fosforilación oxidativa",
-   "d) Los organismos aerobios",
-   "e) En condiciones anaeróbicas. Entraría en la fermentación para regenerar el NAD+",
-   "f) En aerobiosis generaría 36-38 ATP, mientras que en anaerobiosis solo 2 ATP"
+   "a) I: glucolisis. II: ciclo de Krebs.",
+   "b) I: citoplasma. II: matriz mitocondrial.",
+   "c) Con la cadena respiratoria de electrones y la fosforilación oxidativa.",
+   "d) Los organismos aerobios.",
+   "e) En condiciones anaeróbicas. Entraría en la fermentación para regenerar el NAD+.",
+   "f) En aerobiosis generaría 36-38 ATP, mientras que en anaerobiosis solo 2 ATP."
   ],
   "f": "Pregunta y figura transcritas de «B3.TEMA 11-12. METABOLISMO.docx». La solución mostrada es la del propio documento.",
   "origen": {
@@ -2137,8 +2263,8 @@ window.BIOCELIA_FIGURAS = [
   "imageDesc": null,
   "q": "<b>10.-Observe la figura adjunta y responda razonadamente a las siguientes cuestiones:</b><br>a) Identifique los compuestos representados por los números 1, 2 y 3 y los procesos representados con las letras A y B [0,5]. Comente brevemente lo que ocurre en el proceso señalado con la letra A [0,5].<br>b) Identifique los compuestos representados por los números 4, 5, 6, 7 y 8 [0,5]. Comente brevemente lo que ocurre en el proceso señalado con la letra B [0,5].",
   "c": [
-   "a) 1: proteínas; 2: polisacáridos; 3: lípidos; proceso A: ciclo de Krebs; proceso B: cadena de transporte electrónico. En el ciclo de Krebs, que se inicia con el acetil-CoA procedente de las moléculas orgánicas, se produce la oxidación completa del grupo acetilo.",
-   "b) 4: acetil-CoA; 5: CO₂; 6: NADH; 7: ADP + Pi; 8: ATP. En la cadena de transporte electrónico, los electrones del NADH se transportan mediante reacciones de oxidación-reducción hasta el aceptor final, el O₂, formando H₂O; ocurre en la membrana mitocondrial interna."
+   "a) 1: proteínas; 2: polisacáridos; 3: lípidos; proceso A: ciclo de Krebs; proceso B: cadena de transporte electrónico. En el ciclo de Krebs se producen 8 reacciones en las que se realiza la oxidación completa de una molécula orgánica. Se inicia con el acetil-CoA que se origina a partir de la molécula orgánica inicial (compuestos 1, 2 o 3 de la imagen). Este sufre dos descarboxilaciones, formando dos moléculas de CO₂. La energía química acumulada se libera en forma de GTP y en forma de poder reductor (NADH y FADH₂).",
+   "b) 4: acetil-CoA; 5: CO₂; 6: NADH; 7: ADP + Pi; 8: ATP. En la cadena de transporte electrónico se producen una serie de reacciones de oxidación-reducción en las que los electrones de alto nivel energético del NADH se transportan hasta el aceptor final, el O₂, formando H₂O. Esto ocurre en la membrana mitocondrial interna, y la energía de los electrones se usa para transportar protones en contra de gradiente. Estos protones vuelven luego a la matriz mitocondrial, esta vez a favor de gradiente, y esa energía se acopla a la síntesis de ATP gracias al complejo ATP sintasa."
   ],
   "f": "Pregunta y figura transcritas de «B3.TEMA 11-12. METABOLISMO.docx». La solución mostrada es la del propio documento.",
   "origen": {
@@ -2159,7 +2285,7 @@ window.BIOCELIA_FIGURAS = [
   "imageDesc": null,
   "q": "<b>11.- En relación con el esquema adjunto, conteste las siguientes cuestiones:</b><br>a) ¿Cómo se denomina el conjunto de procesos que representa el esquema? [0,2]. Nombre cada grupo de procesos señalados con las letras A y B y describa brevemente en qué consiste cada uno de ellos [0,8].<br>b) Explique en qué consiste la glucólisis indicando los sustratos iniciales y los productos finales [0,5]. Comente la función del ATP [0,5].",
   "c": [
-   "a) Metabolismo",
+   "a) Metabolismo. A: catabolismo, en el que se degradan moléculas orgánicas en otras más sencillas (inorgánicas) y se produce energía en forma de ATP. B: anabolismo, en el que se forman nuevos enlaces y nuevas moléculas orgánicas con gasto de energía en forma de ATP.",
    "b) Consiste en la degradación de la glucosa. Se parte de unos sustratos iniciales que son la glucosa, el NAD+, el ADP + Pi; y se produce piruvato, NADH, y ATP. El ATP es una molécula intermediaria o transportadora de energía de tal manera que en los procesos anabólicos el ATP se degrada en ADP + Pi + energía; y en los procesos catabólicos el ADP + Pi + energía produce ATP"
   ],
   "f": "Pregunta y figura transcritas de «B3.TEMA 11-12. METABOLISMO.docx». La solución mostrada es la del propio documento.",
@@ -2181,10 +2307,10 @@ window.BIOCELIA_FIGURAS = [
   "imageDesc": null,
   "q": "<b>12. En relación con el esquema adjunto, responda las siguientes cuestiones:</b><br>a) ¿Qué nombre reciben los procesos 1 y 2? [0,25]. ¿En qué lugar de la célula se desarrollan dichos procesos? [0,25]. Describa el destino del piruvato en anaerobiosis [0,5].<br>b) Describa brevemente el proceso 2 nombrando los compuestos iniciales y los productos finales [0,6], e indicando el destino de estos últimos [0,4].",
   "c": [
-   "a) Glucólisis (1) y ciclo de Krebs (2). Lugar de la célula: citosol y matriz mitocondrial respectivamente. El piruvato en anaerobiosis sufrirá un proceso fermentativo. CONTESTADA ANTERIORMENTE.",
-   "b) CONTESTADA ANTERIORMENTE"
+   "a) Glucólisis (1) y ciclo de Krebs (2). Lugar de la célula: citosol y matriz mitocondrial, respectivamente. El piruvato en anaerobiosis sufrirá un proceso fermentativo. <span class=\"redactado\">En la fermentación, el piruvato se reduce con el NADH de la glucólisis, por ejemplo a ácido láctico (fermentación láctica) o a etanol y CO₂ (fermentación alcohólica); así se regenera el NAD⁺ que la glucólisis necesita para continuar.</span>",
+   "b) <span class=\"redactado\">El ciclo de Krebs comienza cuando el acetil-CoA (procedente del piruvato) se une al oxalacetato para formar ácido cítrico, que se oxida en una serie de reacciones hasta regenerar el oxalacetato. Compuestos iniciales: acetil-CoA, NAD⁺, FAD y GDP + Pi. Productos finales: CO₂, NADH, FADH₂ y GTP (equivalente a ATP). Destino: el CO₂ sale de la célula como producto de desecho, y el NADH y el FADH₂ ceden sus electrones a la cadena de transporte electrónico de la membrana mitocondrial interna, donde se obtiene ATP por fosforilación oxidativa.</span>"
   ],
-  "f": "Pregunta y figura transcritas de «B3.TEMA 11-12. METABOLISMO.docx». La solución mostrada es la del propio documento.",
+  "f": "Pregunta y figura transcritas de «B3.TEMA 11-12. METABOLISMO.docx». Donde el documento no traía la solución, la ha redactado BioCelia (en morado) a partir de los criterios oficiales de la PAU.",
   "origen": {
    "documento": "B3.TEMA 11-12. METABOLISMO.docx",
    "figura": "figdocx-b3-tema-11-12-metabolismo-image12",
@@ -2203,10 +2329,10 @@ window.BIOCELIA_FIGURAS = [
   "imageDesc": null,
   "q": "<b>13.- La gráfica representa la variación de la glucosa en un cultivo celular en condiciones anaeróbicas y en el que en un momento dado se añade O al medio. Responda razonadamente las siguientes cuestiones:</b><br>a) Antes de añadir oxígeno, ¿qué proceso metabólico es responsable de la disminución de glucosa en el medio? [0,1]. ¿Qué proceso metabólico se inicia cuando se añade oxígeno al medio? [0,1]. Indique los compartimentos celulares donde se desarrollan los procesos aludidos [0,2]. Describa el orgánulo que participa en el consumo de oxígeno en la célula [0,6].<br>b) Describa el proceso metabólico que utilizan las células para obtener energía en ausencia de O [1].",
   "c": [
-   "a) En ausencia de oxígeno se produce la glucólisis y la fermentación. Al añadir oxígeno se produce la respiración. La glucolisis y la fermentación ocurren en el citosol, y la respiración aerobia en las mitocondrias. Descripción de mitocondria (TEMA ORGNÁNULOS)",
-   "b) Descripción de la glucólisis y de la fermentación CONTESTADA ANTERIORMENTE"
+   "a) En ausencia de oxígeno se produce la glucólisis y la fermentación. Al añadir oxígeno se produce la respiración. La glucólisis y la fermentación ocurren en el citosol, y la respiración aerobia en las mitocondrias. <span class=\"redactado\">La mitocondria tiene dos membranas: la externa, lisa, y la interna, plegada en crestas, que contiene la cadena respiratoria y la ATP sintasa; entre ambas está el espacio intermembrana. En el interior, la matriz contiene ADN circular, ribosomas 70S y las enzimas del ciclo de Krebs y de la β-oxidación. El oxígeno se consume en la membrana interna, como aceptor final de los electrones de la cadena respiratoria.</span>",
+   "b) <span class=\"redactado\">En ausencia de O₂ la célula obtiene energía por fermentación. Primero, la glucólisis, en el citosol, degrada la glucosa a dos moléculas de ácido pirúvico, con una ganancia neta de 2 ATP (por fosforilación a nivel de sustrato) y 2 NADH. Después, el piruvato se reduce con el NADH, por ejemplo a ácido láctico (fermentación láctica) o a etanol y CO₂ (fermentación alcohólica), y se regenera el NAD⁺ necesario para que la glucólisis continúe. El rendimiento es solo de 2 ATP por glucosa, porque la oxidación es incompleta.</span>"
   ],
-  "f": "Pregunta y figura transcritas de «B3.TEMA 11-12. METABOLISMO.docx». La solución mostrada es la del propio documento.",
+  "f": "Pregunta y figura transcritas de «B3.TEMA 11-12. METABOLISMO.docx». Donde el documento no traía la solución, la ha redactado BioCelia (en morado) a partir de los criterios oficiales de la PAU.",
   "origen": {
    "documento": "B3.TEMA 11-12. METABOLISMO.docx",
    "figura": "figdocx-b3-tema-11-12-metabolismo-image13",
@@ -2225,10 +2351,13 @@ window.BIOCELIA_FIGURAS = [
   "imageDesc": null,
   "q": "<b>14.- En relación con la imagen adjunta, conteste las siguientes cuestiones:</b><br>a) ¿Que vía metabólica comprende el conjunto de reacciones que transforman la glucosa en ácido pirúvico? [0,2]. ¿Y las que transforman el ácido pirúvico en ácido láctico? [0,2]. ¿Y las que transforman el ácido pirúvico en etanol? [0,2]. Indique el nombre de la molécula señalada con el número 1 [0,2] y el de la vía metabólica señalada con el número 2 [0,2].<br>b) Explique razonadamente cuál de los tres destinos del ácido pirúvico será más rentable para la célula desde el punto de vista de la obtención de energía [0,4]. Indique el destino del CO2, FADH2 y NADH [0,2]. Defina los términos anabolismo y catabolismo [0,4].",
   "c": [
-   "a) Glucólisis. Fermentación láctica. Fermentación alcohólica. 1: acetil CoA 2: ciclo de Krebs",
-   "b) Desde un punto de vista energético, la entrada del pirúvico en la mitocondria genera más energía pues permite la oxidación total de la molécula de glucosa. El CO2 saldrá de la célula como producto de desecho, el FADH2 y NADH irán a la cadena de transporte electrónico para generar ATP. Definición de anabolismo y catabolismo: CONTESTADA ANTERIORMENTE"
+   "a) Glucosa → ácido pirúvico: <mark class=\"clave-criterio\">glucólisis</mark> (0,2 p). Ácido pirúvico → ácido láctico: <mark class=\"clave-criterio\">fermentación láctica</mark> (0,2 p). Ácido pirúvico → etanol: <mark class=\"clave-criterio\">fermentación alcohólica</mark> (0,2 p).",
+   "Molécula 1: <mark class=\"clave-criterio\">acetil-CoA</mark> (0,2 p). Vía 2: <mark class=\"clave-criterio\">ciclo de Krebs</mark> (0,2 p).",
+   "b) La <mark class=\"clave-criterio\">entrada del pirúvico en la mitocondria</mark> genera <mark class=\"clave-criterio\">más energía</mark> porque permite la <mark class=\"clave-criterio\">oxidación total</mark> de la molécula de glucosa (0,4 p). <span class=\"redactado\">Las fermentaciones solo rinden los 2 ATP de la glucólisis.</span>",
+   "Destino del <mark class=\"clave-criterio\">CO₂</mark>: <mark class=\"clave-criterio\">salir de la célula</mark>; destino del <mark class=\"clave-criterio\">FADH₂ y NADH</mark>: la <mark class=\"clave-criterio\">cadena de transporte electrónico</mark> (0,2 p).",
+   "<mark class=\"clave-criterio\">Anabolismo</mark>: procesos por los que las células <mark class=\"clave-criterio\">sintetizan, con gasto de energía</mark>, las sustancias que las constituyen (0,2 p). <mark class=\"clave-criterio\">Catabolismo</mark>: reacciones cuya finalidad es proporcionar a la célula <mark class=\"clave-criterio\">precursores metabólicos</mark>, <mark class=\"clave-criterio\">energía (ATP)</mark> y <mark class=\"clave-criterio\">poder reductor</mark> (0,2 p)."
   ],
-  "f": "Pregunta y figura transcritas de «B3.TEMA 11-12. METABOLISMO.docx». La solución mostrada es la del propio documento.",
+  "f": "Pregunta y figura transcritas de «B3.TEMA 11-12. METABOLISMO.docx». La solución es la de los criterios oficiales de la PAU de Andalucía (2008), con las palabras clave resaltadas; en morado, explicaciones de BioCelia.",
   "origen": {
    "documento": "B3.TEMA 11-12. METABOLISMO.docx",
    "figura": "figdocx-b3-tema-11-12-metabolismo-image14",
@@ -2247,9 +2376,12 @@ window.BIOCELIA_FIGURAS = [
   "imageDesc": null,
   "q": "<b>15.- A la vista de la imagen, conteste las siguientes cuestiones:</b><br>a) ¿Qué proceso biológico se representa en la figura? [0,2]. ¿En qué orgánulo se realiza? [0,2]. ¿Qué tipo de células lo llevan a cabo? [0,2]. ¿Cuál es la función del agua en este proceso y en qué se transforma? [0,4].<br>b) Describa brevemente qué ocurre en las fases señaladas con los números 1 y 2 [1].",
   "c": [
-   "a) Fotosíntesis. En los cloroplastos. Las células vegetales y algunas bacterias. El agua dona los electrones a la clorofila, transformándose en protones y oxígeno."
+   "a) <mark class=\"clave-criterio\">Fotosíntesis</mark> (0,2 p). <mark class=\"clave-criterio\">Cloroplasto</mark> (0,2 p). <mark class=\"clave-criterio\">Células vegetales</mark> (0,2 p). <span class=\"redactado\">También las algas.</span>",
+   "Papel del agua como <mark class=\"clave-criterio\">donador de electrones</mark> y su transformación en <mark class=\"clave-criterio\">oxígeno molecular</mark> (0,4 p). <span class=\"redactado\">La fotólisis del agua repone los electrones que pierde el fotosistema II.</span>",
+   "b) Fase 1, <mark class=\"clave-criterio\">dependiente de la luz</mark>: <mark class=\"clave-criterio\">captación de luz por los fotosistemas</mark> y <mark class=\"clave-criterio\">fotólisis</mark>, <mark class=\"clave-criterio\">transporte electrónico</mark>, <mark class=\"clave-criterio\">síntesis de ATP</mark> y <mark class=\"clave-criterio\">síntesis de NADPH</mark>. 0,2 p cada proceso (0,8 p).",
+   "Fase 2, <mark class=\"clave-criterio\">ciclo de Calvin</mark> o fase no dependiente de la luz: <mark class=\"clave-criterio\">fijación del carbono</mark> a partir del <mark class=\"clave-criterio\">CO₂</mark> con <mark class=\"clave-criterio\">gasto de ATP y NADPH</mark> (0,2 p)."
   ],
-  "f": "Pregunta y figura transcritas de «B3.TEMA 11-12. METABOLISMO.docx». La solución mostrada es la del propio documento.",
+  "f": "Pregunta y figura transcritas de «B3.TEMA 11-12. METABOLISMO.docx». La solución es la de los criterios oficiales de la PAU de Andalucía (2008), con las palabras clave resaltadas; en morado, explicaciones de BioCelia.",
   "origen": {
    "documento": "B3.TEMA 11-12. METABOLISMO.docx",
    "figura": "figdocx-b3-tema-11-12-metabolismo-image15",
@@ -2291,7 +2423,7 @@ window.BIOCELIA_FIGURAS = [
   "q": "<b>18. En relación con la imagen adjunta, conteste las siguientes cuestiones:</b><br>a) ¿Qué proceso representa la imagen? [0,1]. ¿En qué orgánulo se lleva a cabo? [0,1]. ¿En qué tipo de células? [0,1]. ¿Qué estructura es la señalada con el número 1? [0,1]. ¿Qué proceso ocurre en dicha estructura? [0,1]. ¿Qué papel tiene la luz en dicho proceso? [0,5].<br>b) ¿Qué proceso es el señalado con el número 2? [0,2]. ¿Qué ocurre de forma global en dicho proceso? [0,5]. ¿En qué compartimento del orgánulo tiene lugar? [0,1]. Escriba la ecuación general de lo que sucede de manera conjunta en este orgánulo [0,2].",
   "c": [
    "a) Fotosíntesis . En los cloroplastos. Células vegetales fotosintéticas. Tilacoides apilados formando un granum. Ocurre la fase dependiente de la luz o fase lumínica de la fotosíntesis. La luz proporciona la energía para excitar los electrones de la clorofila de modo que puedan servir para reducir el NADP+ hasta NADPH + H+ a la vez que se forma ATP.",
-   "b) Fase no dependiente de la luz, fase oscura o ciclo de Calvin. Se utiliza la energía obtenida en la fase dependiente de la luz, ATP y NADPH + H+, para reducir el CO2 hasta formar glucosa. Ocurre en el estroma."
+   "b) Fase no dependiente de la luz, fase oscura o ciclo de Calvin. Se utiliza la energía obtenida en la fase dependiente de la luz, ATP y NADPH + H⁺, para reducir el CO₂ hasta formar glucosa. Ocurre en el estroma. Ecuación general de la fotosíntesis: nCO₂ + nH₂O → (CH₂O)n + nO₂."
   ],
   "f": "Pregunta y figura transcritas de «B3.TEMA 11-12. METABOLISMO.docx». La solución mostrada es la del propio documento.",
   "origen": {
@@ -2360,9 +2492,7 @@ window.BIOCELIA_FIGURAS = [
   "q": "<b>21.En relación con la figura adjunta, conteste las siguientes cuestiones:</b><br>a) ¿Qué procesos representan los números 1 y 2? [0,3]. ¿De dónde proceden las dos moléculas de CO2 desprendidas en el proceso número 2? [0,1]. ¿Cuántas vueltas se precisan en el proceso 2 para la degradación total de una molécula de glucosa? [0,2]. ¿Por qué el proceso 2 se considera un proceso catabólico? [0,2]. ¿Por qué se considera un proceso aeróbico si no requiere oxígeno para llevarse a cabo? [0,2].<br>b) ¿De qué ruta procede el ácido pirúvico utilizado en el proceso 1? [0,2]. ¿Qué ocurriría con el ácido pirúvico en ausencia de oxígeno? [0,3]. ¿En qué orgánulo celular se produce el proceso 2? [0,1]. ¿Y en qué compartimento de dicho orgánulo? [0,1]. ¿A partir de qué biomoléculas se puede producir el Acetil-CoA? [0,3].",
   "c": [
    "a) 1: Descarboxilación oxidativa del ácido pirúvico; 2: ciclo de Krebs. Proceden del acetil-CoA. Tiene que dar dos vueltas. Es una ruta catabólica porque sirve para obtener energía. Es una ruta aeróbica porque el oxígeno es el último aceptor de los electrones liberados en el ciclo de Krebs",
-   "b) De la glucólisis. Se produciría una fermentación. En la mitocondria. En la matriz mitocondrial. A partir de glúcidos, lípidos (ácidos grasos) y proteínas (aminoácidos)",
-   "a) Proceso: t1: respiración celular, en mitocondria en eucariotas y en la membrana plasmática en procariotas; y proceso t2 es una fermentación alcohólica",
-   "b) Se genera CO2. Este proceso lo realizan entre otros microorganismos, las levaduras. Son usadas para la elaboración de pan o de cerveza. Otro proceso similar seria la fermentación láctica realizadas por bacterias lácticas."
+   "b) De la glucólisis. Se produciría una fermentación. En la mitocondria. En la matriz mitocondrial. A partir de glúcidos, lípidos (ácidos grasos) y proteínas (aminoácidos)"
   ],
   "f": "Pregunta y figura transcritas de «B3.TEMA 11-12. METABOLISMO.docx». La solución mostrada es la del propio documento.",
   "origen": {
@@ -2451,7 +2581,7 @@ window.BIOCELIA_FIGURAS = [
   "imageDesc": null,
   "q": "<b>3. En relación con la figura adjunta, responda las siguientes preguntas:</b><br>a) Nombre las moléculas representadas con los números 1, 2 y 3 [0,3].<br>b) Cite el nombre del proceso A que permite la síntesis de la molécula número 2 [0,2].<br>c) ¿Qué se representa con el número 5? [0,2]<br>d) Cite el nombre del proceso B que permite la síntesis de la molécula número 4 [0,2].<br>e) Cite el nombre de la macromolécula representada con el número 4 [0,1].",
   "c": [
-   "a) 1: ADN; 2: ARN mensajero",
+   "a) 1: ADN; 2: ARN mensajero inmaduro (transcrito primario); 3: ARN mensajero maduro.",
    "b) A: transcripción",
    "c) 5: ribosoma",
    "d) B: tradución o síntesis de proteínas",
@@ -2522,7 +2652,7 @@ window.BIOCELIA_FIGURAS = [
   "imageDesc": null,
   "q": "<b>6. En relación con la figura adjunta, responda a las siguientes cuestiones:</b><br>a) Nombre las moléculas representadas con los números 1, 2, 4, 5 y 6 [0,5].<br>b) ¿Cómo se denominan los procesos de la figura que se desarrollan en el núcleo? [0,4]<br>c) ¿Qué representa el número 7? [0,1]",
   "c": [
-   "a) 1: ADN; 2: ARN polimerasa;",
+   "a) 1: ADN; 2: ARN polimerasa; 4: ARNm transcrito primario o pre-ARNm; 5: ARN mensajero maduro; 6: polipéptido.",
    "b) Transcripción y maduración",
    "c) Ribosoma o subunidad grande del ribosoma"
   ],
@@ -2546,12 +2676,12 @@ window.BIOCELIA_FIGURAS = [
   "q": "<b>7. En relación con la figura adjunta, responda a las siguientes cuestiones:</b><br>a) Nombre las moléculas A, B y C [0,3].<br>b) Indique cómo se denominan los monómeros de las moléculas B y C [0,2] y cuál es la composición de los monómeros de la molécula C [0,3].<br>c) Nombre los procesos por los que se sintetizan las moléculas A y C [0,2].<br>d) Explique el hecho de que las anotaciones 3' y 5' de la molécula A se sitúen en posiciones opuestas [0,2].<br>e) Describa el proceso por el que se sintetiza la molécula A [0,8].",
   "c": [
    "a) A: ADN; B: ARN polimerasa; C: ARN",
-   "b) B: aminoácidos; C: nucleótidos (o ribonucleótidos)",
+   "b) B: aminoácidos; C: nucleótidos (o ribonucleótidos). Composición de los monómeros de C: ácido fosfórico, pentosa (ribosa) y base nitrogenada.",
    "c) A: duplicación o replicación; C: transcripción",
    "d) Indica que el ADN esta formado por dos cadenas antiparelelas",
-   "e) REPLICACION. CONTESTADA ANTERIORMENTE"
+   "e) Replicación: deben mencionarse <mark class=\"clave-criterio\">ADN</mark>, <mark class=\"clave-criterio\">origen de replicación</mark>, <mark class=\"clave-criterio\">cadenas adelantada y retrasada</mark>, <mark class=\"clave-criterio\">cebador</mark>, <mark class=\"clave-criterio\">fragmentos de Okazaki</mark>, <mark class=\"clave-criterio\">ADN polimerasa</mark> y <mark class=\"clave-criterio\">ligasa</mark>. 0,1 p cada uno (0,8 p). <span class=\"redactado\">La helicasa separa las cadenas en el origen y se forman dos horquillas. La primasa sintetiza un cebador de ARN; la ADN polimerasa añade nucleótidos solo en sentido 5'→3', así que una cadena se sintetiza de forma continua (adelantada) y la otra en fragmentos de Okazaki (retrasada). Después se eliminan los cebadores y la ligasa une los fragmentos.</span>"
   ],
-  "f": "Pregunta y figura transcritas de «B4.TEMA 13. BASE QUÍMICA DE LA HERENCIA.docx». La solución mostrada es la del propio documento.",
+  "f": "Pregunta y figura transcritas de «B4.TEMA 13. BASE QUÍMICA DE LA HERENCIA.docx». La solución del apartado e) es la de los criterios oficiales de la PAU de Andalucía (2012); en morado, explicaciones de BioCelia.",
   "origen": {
    "documento": "B4.TEMA 13. BASE QUÍMICA DE LA HERENCIA.docx",
    "figura": "figdocx-b4-tema-13-base-quimica-de-la-herencia-image8",
@@ -2571,8 +2701,8 @@ window.BIOCELIA_FIGURAS = [
   "q": "<b>8. En relación con el esquema, conteste las siguientes cuestiones:</b><br>a) Nombre los procesos señalados con las letras A, B, C y D [0,4].<br>b) Indique los componentes de las moléculas incluidas en los recuadros [0,6].<br>c) Indique una función de cada una de las moléculas incluidas en los recuadros[0,6].<br>d) ¿Qué enzima cataliza el proceso A? ¿En que consiste el proceso A?[0,2]<br>e) ¿En qué formas biológicas se ha descrito el proceso A? [0,2]",
   "c": [
    "a) A: retrotranscripción; B: traducción; C: replicación; D: transcripción",
-   "b) Composición de ADN: desoxirribosa, grupo fosfato y las bases nitrogenadas A, G, C y T",
-   "c) Funcion del ADN: portador de la información genética,",
+   "b) Composición del ADN: desoxirribosa, grupo fosfato y las bases nitrogenadas A, G, C y T. Composición del ARN: ribosa, grupo fosfato y las bases nitrogenadas A, G, C y U. Composición de las proteínas: aminoácidos.",
+   "c) Función del ADN: portador de la información genética. Función del ARN: traduce la información genética a proteínas. Función de las proteínas: enzimática.",
    "d) Transcriptasa inversa o retrotranscriptasa. Sintetizar ADN usando una hebra de ARN de molde",
    "e) En los virus con ARN (retrovirus)"
   ],
@@ -2599,10 +2729,10 @@ window.BIOCELIA_FIGURAS = [
    "b) A: ARN polimerasa; B: ADN; C: ARN (0,1 punto cada una)",
    "c) Ribonucleótido (nucleótido)",
    "d) ARN mensajero, ARN transferente y ARN ribosómico",
-   "e) CONTESTADA EN PREGUNTA 1 DE BLOQUE A",
+   "e) diferencia entre <mark class=\"clave-criterio\">cadena codificante y cadena molde</mark>, sentido <mark class=\"clave-criterio\">5′ → 3′</mark>, copia de <mark class=\"clave-criterio\">una sola cadena</mark> del ADN, señal de inicio (<mark class=\"clave-criterio\">promotor</mark>), acción de la <mark class=\"clave-criterio\">ARN polimerasa</mark> y <mark class=\"clave-criterio\">señal de terminación</mark> (1 p). <span class=\"redactado\">Iniciación: la ARN polimerasa se une al promotor y separa las dos cadenas. Elongación: lee la cadena molde en sentido 3'→5' y une ribonucleótidos complementarios en sentido 5'→3'; el ARN tiene la misma secuencia que la cadena codificante, con U en lugar de T. Terminación: al llegar a la señal de terminación, se libera el ARN. En eucariotas, después madura (se eliminan los intrones).</span>",
    "f) 1: cadena codificadora; 2: cadena molde"
   ],
-  "f": "Pregunta y figura transcritas de «B4.TEMA 13. BASE QUÍMICA DE LA HERENCIA.docx». La solución mostrada es la del propio documento.",
+  "f": "Pregunta y figura transcritas de «B4.TEMA 13. BASE QUÍMICA DE LA HERENCIA.docx». La solución del apartado e) es la de los criterios oficiales de la PAU de Andalucía (2011) para la descripción de la transcripción; en morado, explicaciones de BioCelia.",
   "origen": {
    "documento": "B4.TEMA 13. BASE QUÍMICA DE LA HERENCIA.docx",
    "figura": "figdocx-b4-tema-13-base-quimica-de-la-herencia-image10",
@@ -2621,12 +2751,12 @@ window.BIOCELIA_FIGURAS = [
   "imageDesc": null,
   "q": "<b>10. En relación con la figura adjunta, responda a las siguientes cuestiones:</b><br>a) ¿Qué proceso biológico representa? [0,2].<br>b) Identifique los elementos señalados con l as letras A, B, C, y D [0,8].<br>c) Indique el tipo de enlace que caracteriza a la molécula C y escriba la reacción de formación de este enlace [0,5]. )<br>d) Indique la composición [0,25] y la función que desempeña el elemento A en este proceso [0,25].",
   "c": [
-   "a) Traduccion o síntesis de proteínas",
-   "b) A: Aminoacil-ARNt o ARNt. B: ARNm. C: péptido en formación. D: Subunidad mayor o ribosoma",
-   "c) Enlace peptídico. DIBUJO DE FORMACION DE ENLACE PEPTIDICO",
-   "d) El ARNt esta formado por ribonucleótidos (ribosa, base nitrogenadas (A, C, G, U) y grupos fosfato). Su función es la de llevar los aminoácidos correspondientes al ribosoma, por complementariedad de su anticodoón con el codón del ARNm"
+   "a) <mark class=\"clave-criterio\">Traducción</mark> o síntesis de proteínas (0,2 p).",
+   "b) A: <mark class=\"clave-criterio\">ARN transferente</mark> o aminoacil-ARN transferente; B: <mark class=\"clave-criterio\">ARN mensajero</mark>; C: <mark class=\"clave-criterio\">polipéptido</mark>; D: <mark class=\"clave-criterio\">ribosoma</mark> o subunidad grande del ribosoma. 0,2 p cada uno (0,8 p).",
+   "c) <mark class=\"clave-criterio\">Enlace peptídico</mark> y reacción de formación (0,5 p). <span class=\"redactado\">Se forma entre el grupo carboxilo de un aminoácido y el grupo amino del siguiente, con liberación de una molécula de agua: R₁–COOH + H₂N–R₂ → R₁–CO–NH–R₂ + H₂O.</span>",
+   "d) Composición del elemento A: <mark class=\"clave-criterio\">ribonucleótidos</mark> (bases nitrogenadas, ribosa y fosfato) (0,25 p). Función: <mark class=\"clave-criterio\">transporta de forma específica los aminoácidos</mark> en la síntesis de proteínas en función de su <mark class=\"clave-criterio\">anticodón</mark> (0,25 p)."
   ],
-  "f": "Pregunta y figura transcritas de «B4.TEMA 13. BASE QUÍMICA DE LA HERENCIA.docx». La solución mostrada es la del propio documento.",
+  "f": "Pregunta y figura transcritas de «B4.TEMA 13. BASE QUÍMICA DE LA HERENCIA.docx». La solución es la de los criterios oficiales de la PAU de Andalucía (2009), con las palabras clave resaltadas; en morado, explicaciones de BioCelia.",
   "origen": {
    "documento": "B4.TEMA 13. BASE QUÍMICA DE LA HERENCIA.docx",
    "figura": "figdocx-b4-tema-13-base-quimica-de-la-herencia-image11",
@@ -2646,7 +2776,7 @@ window.BIOCELIA_FIGURAS = [
   "q": "<b>13. En relación con la figura adjunta, responda las siguientes cuestiones:</b><br>a) Explique qué representa la imagen [0,5]. Cite un ejemplo de agente físico que pueda provocar este cambio [0,1]. Exponga qué consecuencias puede tener el cambio que se observa en relación con la funcionalidad de las proteínas codificadas por esta secuencia [0,4].<br>b) ¿Qué consecuencias puede tener para el individuo? [0,2]. Justifique en qué tipo de célula tiene que ocurrir este fenómeno, en un organismo pluricelular, para que se trasmita a la descendencia [0,4]. Exponga por qué se considera este proceso imprescindible para la evolución [0,4].",
   "c": [
    "a) Representa la sustitución de una base por otra por efecto de un agente mutagénico, físico o químico, es decir una mutación, en este caso puntual. Por ejemplo, una radiacion electromagnética de onda corta. Al sustituirse una base por otra, el codón resultante es diferente, con lo que podría codificar a un aminoácido distinto, lo que a su vez podría, o no, afectar gravemente a la funcionalidad de la proteína",
-   "b) La mutación puede tener consecuencias neutras, perjudiciales o beneficiosas."
+   "b) La mutación puede tener consecuencias neutras, perjudiciales o beneficiosas. Tiene que ocurrir en las células germinales, ya que las células reproductoras son las que transfieren la dotación genética de una generación a la siguiente. Se considera imprescindible porque origina variabilidad genética."
   ],
   "f": "Pregunta y figura transcritas de «B4.TEMA 13. BASE QUÍMICA DE LA HERENCIA.docx». La solución mostrada es la del propio documento.",
   "origen": {
@@ -2667,10 +2797,12 @@ window.BIOCELIA_FIGURAS = [
   "imageDesc": null,
   "q": "<b>14.A la vista del esquema, conteste las siguientes cuestiones:</b><br>a) Indique el nombre del proceso representado por cada letra [0,4]. Asigne cada uno de los siguientes términos al proceso que le corresponde: anticodón, transcriptasa inversa, promotor, aminoácidos, ARN transferente y cebadores [0,6].<br>b) Defina el proceso B [0,5] y el proceso D [0,5].",
   "c": [
-   "a) A: replicación del ADN; B: transcripción; C: transcripción inversa o retrotranscipción; D: traducción",
-   "b) DEFINICION DE TRANSCRIPCIÓN Y TRADUCCIÓN. CONTESTADA ANTERIORMENTE."
+   "a) A: <mark class=\"clave-criterio\">replicación del ADN</mark>; B: <mark class=\"clave-criterio\">transcripción</mark>; C: <mark class=\"clave-criterio\">transcripción inversa</mark>; D: <mark class=\"clave-criterio\">traducción</mark>. 0,1 p cada uno (0,4 p).",
+   "a) Anticodón: traducción; transcriptasa inversa: transcripción inversa; promotor: transcripción; aminoácidos: traducción; ARNt: traducción; cebadores: replicación. 0,1 p cada uno (0,6 p).",
+   "b) Transcripción: síntesis de una cadena de <mark class=\"clave-criterio\">ARN</mark> con la <mark class=\"clave-criterio\">secuencia complementaria</mark> de una cadena de ADN que actúa como <mark class=\"clave-criterio\">molde</mark> (0,5 p).",
+   "b) Traducción: síntesis de una <mark class=\"clave-criterio\">secuencia de aminoácidos</mark> con la información de la secuencia de bases del <mark class=\"clave-criterio\">ARNm</mark> (0,5 p)."
   ],
-  "f": "Pregunta y figura transcritas de «B4.TEMA 13. BASE QUÍMICA DE LA HERENCIA.docx». La solución mostrada es la del propio documento.",
+  "f": "Pregunta y figura transcritas de «B4.TEMA 13. BASE QUÍMICA DE LA HERENCIA.docx». La solución es la de los criterios oficiales de la PAU de Andalucía (2011), con las palabras clave resaltadas; en morado, explicaciones de BioCelia.",
   "origen": {
    "documento": "B4.TEMA 13. BASE QUÍMICA DE LA HERENCIA.docx",
    "figura": "figdocx-b4-tema-13-base-quimica-de-la-herencia-image15",
@@ -2713,10 +2845,13 @@ window.BIOCELIA_FIGURAS = [
   "imageDesc": null,
   "q": "<b>20.- A la vista de la imagen conteste a las siguiente cuestiones:</b><br>a) Indique razonadamente de qué proceso se trata [0,3]. ¿En qué lugar de la célula se produce? [0,1]. ¿Cómo afectaría a este proceso una elevación brusca de la temperatura por encima de los 80ºC? [0,6].<br>b) Explique la composición y estructura de la molécula resultante [0,4]. ¿Cuáles son las posibles funciones de la molécula formada? [0,6].",
   "c": [
-   "a) Transcripción, ya que se esta formando una molecula de ARN, a partir de una doble helice de ADN. Se localización en el núcleo eucariótico o en el citoplasma procariótico (Tambien ocurre en el interior de mitocondrias y cloroplastos)",
-   "b) DEL TEMA DE ACIDOS NUCLEICOS"
+   "a) <mark class=\"clave-criterio\">Transcripción</mark> (presencia de <mark class=\"clave-criterio\">ADN de doble cadena</mark> y <mark class=\"clave-criterio\">una hebra de ARN</mark>) (0,3 p).",
+   "Localización: <mark class=\"clave-criterio\">núcleo</mark> eucariótico o <mark class=\"clave-criterio\">citoplasma</mark> procariótico o <mark class=\"clave-criterio\">mitocondria</mark> o <mark class=\"clave-criterio\">cloroplasto</mark> (0,1 p).",
+   "<mark class=\"clave-criterio\">Desnaturalización del ADN y de las enzimas</mark> (0,6 p). <span class=\"redactado\">Se separarían las cadenas del ADN y la ARN polimerasa perdería su estructura, así que la transcripción se detendría.</span>",
+   "b) Composición y estructura del ARN (0,4 p). <span class=\"redactado\">Ribonucleótidos con ribosa, fosfato y las bases A, G, C y U, unidos por enlaces fosfodiéster en una sola cadena.</span>",
+   "Funciones de los diferentes tipos de ARN, 0,2 p cada uno (0,6 p). <span class=\"redactado\">ARNm: lleva la información al ribosoma; ARNt: transporta los aminoácidos; ARNr: forma los ribosomas.</span>"
   ],
-  "f": "Pregunta y figura transcritas de «B4.TEMA 13. BASE QUÍMICA DE LA HERENCIA.docx». La solución mostrada es la del propio documento.",
+  "f": "Pregunta y figura transcritas de «B4.TEMA 13. BASE QUÍMICA DE LA HERENCIA.docx». La solución es la de los criterios oficiales de la PAU de Andalucía (2002), con las palabras clave resaltadas; en morado, explicaciones de BioCelia.",
   "origen": {
    "documento": "B4.TEMA 13. BASE QUÍMICA DE LA HERENCIA.docx",
    "figura": "figdocx-b4-tema-13-base-quimica-de-la-herencia-image21",
@@ -2735,8 +2870,8 @@ window.BIOCELIA_FIGURAS = [
   "imageDesc": null,
   "q": "<b>21.-Se presenta un fragmento de ADN; la flecha indica el sentido de lectura. Además se muestra el código genético. Conteste las siguientes cuestiones:</b><br>a) Indique la secuencia de bases del ARN mensajero transcrito [0,5] y la secuencia de aminoácidos de la proteína sintetizada [0,5].<br>b) ¿Cómo se llaman los procesos implicados en el apartado anterior? [0,5]. Si se conociese la secuencia de aminoácidos de una proteína, ¿se podría averiguar la secuencia de bases del ADN que la codifica? [0,5]. Razone la respuesta.",
   "c": [
-   "a) AUGCCCUCUAGUGGAGUAAUCCACUGGUAA",
-   "b) Transcripción y traducción."
+   "a) AUGCCCUCUAGUGGAGUAAUCCACUGGUAA. Met-Pro-Ser-Ser-Gly-Val-Ile-His-Trp (stop).",
+   "b) Transcripción y traducción. No se podría conocer la secuencia exacta, ya que el código es degenerado: hay aminoácidos codificados por más de un codón. Además, en el proceso de maduración del ARNm se eliminan secuencias sin información (intrones)."
   ],
   "f": "Pregunta y figura transcritas de «B4.TEMA 13. BASE QUÍMICA DE LA HERENCIA.docx». La solución mostrada es la del propio documento.",
   "origen": {
@@ -2779,10 +2914,11 @@ window.BIOCELIA_FIGURAS = [
   "imageDesc": null,
   "q": "<b>23.- A la vista de la imagen, conteste las siguientes cuestiones:</b><br>a) ¿Qué proceso representa este esquema? [0,2]. Identifique las estructuras y las moléculas que aparecen en el dibujo [0,8].<br>b) Explique cómo se lleva a cabo el proceso representado [1].",
   "c": [
-   "a) Representa una traducción. Se puede observar a un ribosoma, una cadena de ARN mensajero, dos ARN transferentes, y en uno de ellos se observa un péptido en formación con los aminoácidos Met y Leu",
-   "b) EXPLICACION DE TRADUCCION. CONTESTADA ANTERIORMENTE."
+   "a) <mark class=\"clave-criterio\">Traducción</mark> o síntesis proteica (0,2 p).",
+   "<mark class=\"clave-criterio\">Ribosoma</mark>, <mark class=\"clave-criterio\">ARN mensajero</mark>, <mark class=\"clave-criterio\">ARN transferente</mark> y <mark class=\"clave-criterio\">aminoácidos</mark> (0,8 p).",
+   "b) Se mencionarán todas las moléculas de ácido nucleico que intervienen (<mark class=\"clave-criterio\">ARN mensajero</mark>, <mark class=\"clave-criterio\">ARN ribosómico</mark> y <mark class=\"clave-criterio\">ARN transferente</mark>) y la <mark class=\"clave-criterio\">función</mark> que desempeña cada una (1 p). <span class=\"redactado\">El ARNm aporta la secuencia de codones; el ARNr forma el ribosoma y cataliza el enlace peptídico; cada ARNt lleva un aminoácido y lo sitúa según el emparejamiento anticodón-codón.</span>"
   ],
-  "f": "Pregunta y figura transcritas de «B4.TEMA 13. BASE QUÍMICA DE LA HERENCIA.docx». La solución mostrada es la del propio documento.",
+  "f": "Pregunta y figura transcritas de «B4.TEMA 13. BASE QUÍMICA DE LA HERENCIA.docx». La solución es la de los criterios oficiales de la PAU de Andalucía (2003), con las palabras clave resaltadas; en morado, explicaciones de BioCelia.",
   "origen": {
    "documento": "B4.TEMA 13. BASE QUÍMICA DE LA HERENCIA.docx",
    "figura": "figdocx-b4-tema-13-base-quimica-de-la-herencia-image25",
@@ -2802,9 +2938,9 @@ window.BIOCELIA_FIGURAS = [
   "q": "<b>24.- En relación con la figura adjunta, conteste razonadamente las siguientes cuestiones:</b><br>a) ¿Qué proceso representa la figura? [0,25]. Identifique las macromoléculas señaladas con números romanos [0,75].<br>b) Describa cómo se produce dicho proceso [1].",
   "c": [
    "a) Representa el proceso de transcripción. I: ADN (hebra de ADN); II: ARN polimerasa; III: ARN",
-   "b) DESCRIPCION DE TRANSCRIPCION. CONTESTADA ANTERIORMENTE"
+   "b) diferencia entre <mark class=\"clave-criterio\">cadena codificante y cadena molde</mark>, sentido <mark class=\"clave-criterio\">5′ → 3′</mark>, copia de <mark class=\"clave-criterio\">una sola cadena</mark> del ADN, señal de inicio (<mark class=\"clave-criterio\">promotor</mark>), acción de la <mark class=\"clave-criterio\">ARN polimerasa</mark> y <mark class=\"clave-criterio\">señal de terminación</mark> (1 p). <span class=\"redactado\">Iniciación: la ARN polimerasa se une al promotor y separa las dos cadenas. Elongación: lee la cadena molde en sentido 3'→5' y une ribonucleótidos complementarios en sentido 5'→3'; el ARN tiene la misma secuencia que la cadena codificante, con U en lugar de T. Terminación: al llegar a la señal de terminación, se libera el ARN. En eucariotas, después madura (se eliminan los intrones).</span>"
   ],
-  "f": "Pregunta y figura transcritas de «B4.TEMA 13. BASE QUÍMICA DE LA HERENCIA.docx». La solución mostrada es la del propio documento.",
+  "f": "Pregunta y figura transcritas de «B4.TEMA 13. BASE QUÍMICA DE LA HERENCIA.docx». La solución del apartado b) es la de los criterios oficiales de la PAU de Andalucía (2011) para la descripción de la transcripción; en morado, explicaciones de BioCelia.",
   "origen": {
    "documento": "B4.TEMA 13. BASE QUÍMICA DE LA HERENCIA.docx",
    "figura": "figdocx-b4-tema-13-base-quimica-de-la-herencia-image26",
@@ -2823,10 +2959,13 @@ window.BIOCELIA_FIGURAS = [
   "imageDesc": null,
   "q": "<b>26.- En relación con el esquema adjunto, conteste las siguientes cuestiones:</b><br>a) ¿Cómo se denominan cada uno de los pasos indicados con flechas en el esquema [0,2] y dónde se llevan a cabo en una célula eucariótica? [0,2]. Escriba qué codones corresponden a cada uno de los 5 aminoácidos [0,3]. Si una mutación puntual provoca que la primera base de la molécula 2 pase a ser una C en vez de una A, ¿qué cambio se origina en la secuencia de la molécula 3? [0,3].<br>b) Describa brevemente el proceso de síntesis de la molécula 3 e indique las fases de las que consta [1].",
   "c": [
-   "a) Paso de 1 a 2: Transcripción en el nucleo; paso de 2 a 3: traducción en los ribosomas (citosol, RER, mitocrondrias o cloroplastos). Los codones son: AUU (Ile) - CGA (Arg) – UGC (Cys) – GUC (Val) – CUU (Leu). Al cambiar una A por una C, ese codon pasaría a ser CUU que codifica para el aminoacido leucina (Leu).",
-   "b) EXPLICACION DE TRADUCCION. CONTESTADA ANTERIORMENTE."
+   "a) Paso de 1 a 2: <mark class=\"clave-criterio\">transcripción</mark>; paso de 2 a 3: <mark class=\"clave-criterio\">traducción</mark>. 0,1 p cada uno (0,2 p).",
+   "Transcripción: en el <mark class=\"clave-criterio\">núcleo</mark> celular; traducción: en el <mark class=\"clave-criterio\">citoplasma</mark> (ribosomas). 0,1 p cada uno (0,2 p).",
+   "<mark class=\"clave-criterio\">AUU</mark> → Ile, <mark class=\"clave-criterio\">CGA</mark> → Arg, <mark class=\"clave-criterio\">UGC</mark> → Cys, <mark class=\"clave-criterio\">GUC</mark> → Val y <mark class=\"clave-criterio\">CUU</mark> → Leu (0,3 p).",
+   "La <mark class=\"clave-criterio\">isoleucina</mark> (Ile) pasaría a ser <mark class=\"clave-criterio\">leucina</mark> (Leu) (0,3 p). <span class=\"redactado\">AUU pasa a CUU, que codifica Leu.</span>",
+   "b) Se explicará cómo se <mark class=\"clave-criterio\">inicia</mark>, cómo se <mark class=\"clave-criterio\">elonga</mark> y cómo <mark class=\"clave-criterio\">termina</mark> la síntesis de la proteína (deberá mencionarse la unión al <mark class=\"clave-criterio\">ribosoma</mark>, el <mark class=\"clave-criterio\">ARN mensajero</mark>, el <mark class=\"clave-criterio\">ARN de transferencia</mark> y el <mark class=\"clave-criterio\">polipéptido</mark>) (1 p)."
   ],
-  "f": "Pregunta y figura transcritas de «B4.TEMA 13. BASE QUÍMICA DE LA HERENCIA.docx». La solución mostrada es la del propio documento.",
+  "f": "Pregunta y figura transcritas de «B4.TEMA 13. BASE QUÍMICA DE LA HERENCIA.docx». La solución es la de los criterios oficiales de la PAU de Andalucía (2005), con las palabras clave resaltadas; en morado, explicaciones de BioCelia.",
   "origen": {
    "documento": "B4.TEMA 13. BASE QUÍMICA DE LA HERENCIA.docx",
    "figura": "figdocx-b4-tema-13-base-quimica-de-la-herencia-image27",
@@ -2845,8 +2984,8 @@ window.BIOCELIA_FIGURAS = [
   "imageDesc": null,
   "q": "<b>27.- En relación con la figura adjunta que representa el flujo de la información genética, responda las siguientes cuestiones:</b><br>a) Nombre cada uno de los procesos biológicos que se indican con las letras a, b, c y d [0,4]. Relacione cada uno de estos procesos con: ARN polimerasa dependiente de ADN, ribosomas, ADN polimerasa, anticodón, transcriptasa inversa, aminoácidos, ARNt y cebadores de ARN [0,6].<br>b) Exponga la función de cada uno de estos procesos [1].",
   "c": [
-   "a) a: replicación del ADN; b: transcripción; c: transcripción inversa; d: traducción",
-   "b) Replicación: duplicación del material genético imprescindible para su perpetuación y reparto en la división celular"
+   "a) a: replicación del ADN; b: transcripción; c: transcripción inversa; d: traducción. Replicación: ADN polimerasa y cebadores de ARN. Transcripción: ARN polimerasa dependiente de ADN. Transcripción inversa: transcriptasa inversa. Traducción: aminoácidos, ARNt, ribosomas y anticodón.",
+   "b) Replicación: duplicación del material genético, imprescindible para su perpetuación y reparto en la división celular. Transcripción: proceso de copia del ADN en los diferentes tipos de ARN necesarios para la expresión de la información genética. Transcripción inversa: proceso de copia del ARN en ADN, utilizado por los virus con genoma de ARN para realizar su ciclo vital. Traducción: proceso por el que el mensaje genético del ARNm es leído mediante un código que asigna a cada triplete de bases un aminoácido, para realizar la síntesis de proteínas."
   ],
   "f": "Pregunta y figura transcritas de «B4.TEMA 13. BASE QUÍMICA DE LA HERENCIA.docx». La solución mostrada es la del propio documento.",
   "origen": {
@@ -2893,7 +3032,7 @@ window.BIOCELIA_FIGURAS = [
   "c": [
    "a) Presentación de antígenos por los macrófagos a los linfocitos T",
    "b) A: fagocitosis; B: procesamiento del antígeno (digestión); C: presentación del antígeno a los linfocitos T.",
-   "c) 1: macrófago, 2: microorganismo o elemento que es reconocido como extraño por el organismo; 3: antígenos;"
+   "c) 1: macrófago; 2: microorganismo o elemento que es reconocido como extraño por el organismo; 3: antígenos; 4: proteínas del complejo mayor de histocompatibilidad; 5: linfocito T colaborador."
   ],
   "f": "Pregunta y figura transcritas de «B5. TEMA 15. INMUNOLOGÍA.docx». La solución mostrada es la del propio documento.",
   "origen": {
@@ -2939,7 +3078,11 @@ window.BIOCELIA_FIGURAS = [
   "imageDesc": null,
   "q": "<b>5. En relación con la imagen, que representa cuatro formas de adquirir inmunidad, conteste a las siguientes cuestiones:</b><br>a) Tipo de inmunidad que representan A y B [0,2].<br>b) Utilizando los números de la imagen, indique cuáles se corresponden con la adquisición de una inmunidad a largo plazo de tiempo [0,2].<br>c) ¿Y cuáles con una a corto plazo? [0,2]<br>d) ¿En cuáles de ellas se adquiere memoria inmunológica? [0,2]<br>e) Indique si la adquisición de inmunidad en 2 se corresponde con un método con fin curativo o preventivo [0,2].",
   "c": [
-   "a) A: activa; B: pasivab) 1 y 2c) 3 y 4d) En 1 y en 2e) Preventivo"
+   "a) A: activa; B: pasiva.",
+   "b) 1 y 2.",
+   "c) 3 y 4.",
+   "d) En 1 y en 2.",
+   "e) Preventivo."
   ],
   "f": "Pregunta y figura transcritas de «B5. TEMA 15. INMUNOLOGÍA.docx». La solución mostrada es la del propio documento.",
   "origen": {
@@ -2961,9 +3104,10 @@ window.BIOCELIA_FIGURAS = [
   "q": "<b>7. En relación con las figuras adjuntas, conteste a las siguientes cuestiones:</b><br>a) ¿Qué proceso representa la imagen 1? [0,1]<br>b) ¿Qué células pueden realizar este proceso? [0,2]<br>c) ¿Cuál de ellas actúa como célula presentadora de antígenos? [0,2]<br>d) ¿Cómo se denominan las moléculas señaladas con la flecha en la imagen 2? [0,2]<br>e) Cite dos funciones de estas moléculas [0,3].",
   "c": [
    "a) Fagocitosis.",
-   "b) Macrófagos o neutrófilos",
-   "c) Macrófagosd)Anticuerpos (inmunoglobulinas)",
-   "e) Neutralizar, precipitar, aglutinar y opsonizar a los antígenos (SOLO DOS)"
+   "b) Macrófagos o neutrófilos.",
+   "c) Macrófagos.",
+   "d) Anticuerpos (inmunoglobulinas).",
+   "e) Neutralizar, precipitar, aglutinar y opsonizar a los antígenos (basta con dos)."
   ],
   "f": "Pregunta y figura transcritas de «B5. TEMA 15. INMUNOLOGÍA.docx». La solución mostrada es la del propio documento.",
   "origen": {
@@ -3062,7 +3206,7 @@ window.BIOCELIA_FIGURAS = [
   "q": "<b>14. La imagen adjunta representa las inyecciones de un preparado A en una persona y un preparado B en otra persona diferente, así como el tipo de inmunidad que se consigue.</b><br>a) Indique los nombres del tratamiento A y del tratamiento B [0,2] y especifique e indique el contenido de cada preparado [0,3]. Razone, según la finalidad que se persigue, si los tratamientos son preventivos o curativos [0,5].<br>b) Justifique si la inmunidad que se espera conseguir en cada caso es activa o pasiva [0,4] y si es duradera o temporal [0,4]. Cite un proceso natural por el que un organismo pueda desarrollar una respuesta semejante a la del caso A y otro que la genere semejante al caso B [0,2].",
   "c": [
    "a) Tratamiento A: vacuna. Contiene patógenos muertos, o fragmentos de ellos, cualquier molecula que pueda actuar de antígeno. Se trata de un tratamiento preventivo, ya que persigue crear memoria inmunológica para el siguiente contacto con el patógeno. Tratamiento B: Suero, contiene anticuerpos específicos frente al patógeno causante de la enfermedad. Es un tratamiento curativo, que persigue ayudar a superar la enfermedad de una persona ya infectada.",
-   "b) Tratamiento A: Es activa, ya que es el propio organismo el que crea los anticuerpos. Se trata de una inmunidad duradera gracias a la memoria inmunológica. Se puede conseguir de forma natural pasando la enfermedad."
+   "b) Tratamiento A: es activa, ya que es el propio organismo el que crea los anticuerpos. Se trata de una inmunidad duradera gracias a la memoria inmunológica. Se puede conseguir de forma natural pasando la enfermedad. Tratamiento B: es pasiva, porque se inoculan directamente los anticuerpos. Es temporal, porque los anticuerpos tienen una duración determinada. De forma natural se consigue a través de la lactancia materna o por la placenta durante el embarazo."
   ],
   "f": "Pregunta y figura transcritas de «B5. TEMA 15. INMUNOLOGÍA.docx». La solución mostrada es la del propio documento.",
   "origen": {
@@ -3103,9 +3247,12 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b5-tema-15-inmunologia/image16.webp",
   "imgThumb": "assets/figuras/docx/b5-tema-15-inmunologia/image16.thumb.webp",
   "imageDesc": null,
-  "q": "<b>16.- A la vista del esquema, responda razonadamente a las siguientes cuestiones:</b><br>a) Establezca una diferencia entre la respuesta inmunitaria adquirida y no adquirida ante los contactos con el antígeno [0,5] y proponga una explicación para dicha diferencia [0,5]. En la respuesta adquirida específica al tener un primer contacto con el antígeno se produce una reacción pero con el segundo contacto la reacción es mayor. En cambio en la respuesta no adquirida inespecífica en el primer y segundo contacto la respuesta es la misma, no hay variación. Esto ocurre debido a la memoria inmunológica que permite que en el segundo contacto ya haya células activadas frente a ese patógeno, por lo que la respuesta en más eficaz e impide el desarrollo de la enfermedad.<br>b) Explique el significado de los términos específico/inespecífico aplicados a la respuesta inmunitaria [1].",
-  "c": [],
-  "f": "Pregunta y figura transcritas de «B5. TEMA 15. INMUNOLOGÍA.docx». El documento no incluía solución para esta pregunta.",
+  "q": "<b>16.- A la vista del esquema, responda razonadamente a las siguientes cuestiones:</b><br>a) Establezca una diferencia entre la respuesta inmunitaria adquirida y no adquirida ante los contactos con el antígeno [0,5] y proponga una explicación para dicha diferencia [0,5].<br>b) Explique el significado de los términos específico/inespecífico aplicados a la respuesta inmunitaria [1].",
+  "c": [
+   "a) En la respuesta adquirida (específica), al tener un primer contacto con el antígeno se produce una reacción, pero con el segundo contacto la reacción es mayor. En cambio, en la respuesta no adquirida (inespecífica), en el primer y en el segundo contacto la respuesta es la misma, no hay variación. Esto ocurre debido a la memoria inmunológica, que permite que en el segundo contacto ya haya células activadas frente a ese patógeno, por lo que la respuesta es más eficaz e impide el desarrollo de la enfermedad.",
+   "b) La respuesta inespecífica es la misma independientemente del patógeno, mientras que la respuesta específica actúa de forma concreta frente a cada patógeno, mediante células específicas frente a él."
+  ],
+  "f": "Pregunta y figura transcritas de «B5. TEMA 15. INMUNOLOGÍA.docx». La solución mostrada es la del propio documento.",
   "origen": {
    "documento": "B5. TEMA 15. INMUNOLOGÍA.docx",
    "figura": "figdocx-b5-tema-15-inmunologia-image16",
@@ -3124,7 +3271,7 @@ window.BIOCELIA_FIGURAS = [
   "imageDesc": null,
   "q": "<b>17.- La figura adjunta representa una serie de fenómenos de la respuesta inmune. En relación con la misma:</b><br>a) Nombre las etapas indicadas desde las letras A hasta la E [0,5].<br>b) Nombre las células, estructuras y elementos del sistema inmune señaladas con los números del 1 al 5 [0,5].",
   "c": [
-   "a) A: fagocitosis (digestión intracelular)",
+   "a) A: fagocitosis (digestión intracelular) del agente extraño; B: presentación de antígenos a linfocitos T; C: activación de linfocitos B; D: producción de anticuerpos por las células plasmáticas; E: neutralización del agente infeccioso por los anticuerpos.",
    "b) 1: Macrófago; 2: linfocito T; 3: linfocito B; 4: anticuerpo; 5: célula plasmática"
   ],
   "f": "Pregunta y figura transcritas de «B5. TEMA 15. INMUNOLOGÍA.docx». La solución mostrada es la del propio documento.",
@@ -3361,8 +3508,8 @@ window.BIOCELIA_FIGURAS = [
   "imageDesc": null,
   "q": "<b>28.- En relación con la figura adjunta, responda las siguientes cuestiones:</b><br>a) ¿Qué representa la figura? [0,2]. Indique el lugar de maduración de los precursores de las células T y de las células B [0,4]. Cite otros dos órganos del sistema inmunitario e indique una función de cada uno [0,4].<br>b) ¿En qué se diferencian las células plasmáticas de las células de memoria desde el punto de vista estructural y funcional? [0,5]. Indique una función de las células T y una de los macrófagos [0,5].",
   "c": [
-   "a) Representa la maduración de las células del sistema inmunitario. Las células T maduran en el timo y células B en la médula ósea",
-   "b) Las células plasmáticas son las responsables de la respuesta humoral y producen anticuerpos y las células de memoria son las responsables de la memoria inmunológica"
+   "a) Representa la maduración de las células del sistema inmunitario. Las células T maduran en el timo y las células B en la médula ósea. Otros órganos: ganglios linfáticos (almacenamiento de linfocitos) y bazo (activación de linfocitos).",
+   "b) Las células plasmáticas son las responsables de la respuesta humoral y producen anticuerpos, y las células de memoria son las responsables de la memoria inmunológica. Las células T se encargan de coordinar la respuesta celular, y los macrófagos son células presentadoras de antígenos."
   ],
   "f": "Pregunta y figura transcritas de «B5. TEMA 15. INMUNOLOGÍA.docx». La solución mostrada es la del propio documento.",
   "origen": {
@@ -3383,8 +3530,8 @@ window.BIOCELIA_FIGURAS = [
   "imageDesc": null,
   "q": "<b>29.- En relación con la imagen, conteste las siguientes cuestiones:</b><br>a) ¿Qué representa globalmente el esquema? [0,5]. Identifique los elementos de la imagen numerados del 1 al 5 [0,5].<br>b) ¿En qué órganos se originan los elementos 2 y 3? [0,4]. Cite una diferencia entre los elementos 3 y 4 [0,2]. Describa la composición química y la estructura del elemento número 5 [0,4].",
   "c": [
-   "a) Interacción y cooperación entre la inmunidad celular y la humoral",
-   "b) 2: timo; 3: médula ósea"
+   "a) Interacción y cooperación entre la inmunidad celular y la humoral. 1: macrófago; 2: linfocito T; 3: linfocito B; 4: célula plasmática; 5: anticuerpo o inmunoglobulina.",
+   "b) 2: timo; 3: médula ósea. La célula plasmática está especializada en la producción de anticuerpos y presenta un retículo endoplasmático más desarrollado. Los anticuerpos son moléculas proteicas con una pequeña región glucídica, formadas por dos cadenas pesadas y dos cadenas ligeras."
   ],
   "f": "Pregunta y figura transcritas de «B5. TEMA 15. INMUNOLOGÍA.docx». La solución mostrada es la del propio documento.",
   "origen": {
@@ -3405,8 +3552,8 @@ window.BIOCELIA_FIGURAS = [
   "imageDesc": null,
   "q": "<b>30.- En las figuras 1, 2 y 3 de la imagen adjunta se extrae sangre de la cabra A, de la oveja y de la cabra B, respectivamente. A continuación, en los tres casos, se inyecta la sangre a una cabra de tipo A y se analiza una muestra de sangre obtenida de ésta última. En función de estos datos, responda las siguientes cuestiones:</b><br>a) ¿Por qué se produce la lisis (rotura) de los glóbulos rojos de la oveja (figura 2) [0,5] y en cambio no existe lisis en el caso de la cabra A (figura 1)? [0,5].<br>b) ¿Qué debería ocurrir en la figura 3? [0,6]. ¿Qué tipo de moléculas provocan la lisis de los glóbulos rojos de la oveja? [0,2]. ¿Cuál es la naturaleza química de estas moléculas? [0,2]",
   "c": [
-   "a) Porque se produce una reacción antígeno-anticuerpo al ser reconocidos los glóbulos rojos de la oveja",
-   "b) Si las cabras A y B son del mismo tipo no se producirá reacción antígeno-anticuerpo; si son de diferente tipo, ocurrirá como con la sangre del carnero"
+   "a) Porque se produce una reacción antígeno-anticuerpo al ser reconocidos los glóbulos rojos de la oveja como extraños por parte del sistema inmunitario de la cabra A. En la figura 1 no hay lisis porque la cabra no produce anticuerpos contra sus propios antígenos: reconoce los glóbulos rojos como propios.",
+   "b) Si las cabras A y B son del mismo tipo, no se producirá reacción antígeno-anticuerpo; si son de diferente tipo, ocurrirá como con la sangre de la oveja. La lisis la provocan los anticuerpos, que son de naturaleza proteica, con una pequeña región glucídica."
   ],
   "f": "Pregunta y figura transcritas de «B5. TEMA 15. INMUNOLOGÍA.docx». La solución mostrada es la del propio documento.",
   "origen": {
@@ -3426,8 +3573,11 @@ window.BIOCELIA_FIGURAS = [
   "imgThumb": "assets/figuras/docx/b5-tema-15-inmunologia/image31.thumb.webp",
   "imageDesc": null,
   "q": "<b>31.- En relación con la figura adjunta, responda razonadamente las siguientes cuestiones:</b><br>a) ¿Qué representa la gráfica? [0,4]. ¿En cuál de las infecciones se produce mayor cantidad de anticuerpos? [0,2]. ¿En cuál de ellas se produce una respuesta más rápida? [0,2]. ¿Qué respuesta es más duradera? [0,2].<br>b) ¿Por qué las respuestas son diferentes tras una infección primaria o una infección secundaria? [0,5]. ¿En qué consiste la vacunación y que relación guarda con la gráfica? [0,5].",
-  "c": [],
-  "f": "Pregunta y figura transcritas de «B5. TEMA 15. INMUNOLOGÍA.docx». El documento no incluía solución para esta pregunta.",
+  "c": [
+   "a) <span class=\"redactado\">Representa la concentración de anticuerpos en sangre a lo largo del tiempo tras una infección primaria y tras una secundaria por el mismo antígeno. En la infección secundaria se produce mayor cantidad de anticuerpos, la respuesta es más rápida y también más duradera.</span>",
+   "b) <span class=\"redactado\">La respuesta primaria, tras el primer contacto con el antígeno, es lenta y deja linfocitos de memoria; por eso, en un segundo contacto, la respuesta secundaria es más rápida, intensa y eficaz. La vacunación consiste en introducir antígenos (patógenos muertos o atenuados, o fragmentos suyos) para provocar una respuesta primaria y crear memoria inmunológica: si después llega la infección real, se produce directamente una respuesta como la secundaria de la gráfica.</span>"
+  ],
+  "f": "Pregunta y figura transcritas de «B5. TEMA 15. INMUNOLOGÍA.docx». Donde el documento no traía la solución, la ha redactado BioCelia (en morado) a partir de los criterios oficiales de la PAU.",
   "origen": {
    "documento": "B5. TEMA 15. INMUNOLOGÍA.docx",
    "figura": "figdocx-b5-tema-15-inmunologia-image31",
@@ -3446,8 +3596,8 @@ window.BIOCELIA_FIGURAS = [
   "imageDesc": null,
   "q": "<b>32.- En relación con la figura adjunta, conteste las siguientes cuestiones:</b><br>a) Indique el tipo de respuesta que se observa en la figura [0,2]. ¿Cómo se llaman las células I y II representadas en la línea 4 de la figura? [0,3]. ¿Qué función desempeña cada una de ellas? [0,5].<br>b) ¿Cómo se denominan las moléculas representadas por el símbolo Y? [0,2]. ¿Cuál es su naturaleza química? [0,2]. ¿Cuál es su función? [0,3]. ¿Qué es un antígeno? [0,3].",
   "c": [
-   "a) Se trata de una respuesta",
-   "b) Son anticuerpos o inmunoglobulinas"
+   "a) Se trata de una respuesta <span class=\"redactado\">humoral (intervienen linfocitos B, células plasmáticas y anticuerpos)</span>. Las células I son células plasmáticas, y las células II son linfocitos B de memoria. Las células plasmáticas se encargan de fabricar anticuerpos frente al antígeno detectado, y los linfocitos B de memoria se convertirán en células plasmáticas en las sucesivas infecciones del mismo patógeno, provocando una respuesta más rápida y eficaz.",
+   "b) Son anticuerpos o inmunoglobulinas. Son glucoproteínas. Se encargan de facilitar la eliminación del patógeno, bien por sí mismos o colaborando con los macrófagos. Un antígeno es cualquier molécula capaz de desencadenar una respuesta inmunitaria."
   ],
   "f": "Pregunta y figura transcritas de «B5. TEMA 15. INMUNOLOGÍA.docx». La solución mostrada es la del propio documento.",
   "origen": {

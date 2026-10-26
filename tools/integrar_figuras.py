@@ -130,7 +130,8 @@ def main() -> int:
             "q": enunciado_html(p),
             "c": p.get("criterios") or [],
             "f": f"Pregunta y figura transcritas de «{doc}»."
-                 + (" La solución mostrada es la del propio documento."
+                 + ((" " + p["nota_solucion"]) if p.get("nota_solucion") else
+                    " La solución mostrada es la del propio documento."
                     if p.get("tiene_criterios") else
                     " El documento no incluía solución para esta pregunta."),
             "origen": {
