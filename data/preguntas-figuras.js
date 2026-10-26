@@ -1,5 +1,5 @@
 /* ══════════════════════════════════════════════════════════════
-   Generado por tools/integrar_figuras.py el 2026-08-21.
+   Generado por tools/integrar_figuras.py el 2026-10-26.
    NO editar a mano: se regenera. Para cambiar una pregunta, edítala
    en el revisor y vuelve a ejecutar el script.
    152 preguntas con figura, vinculadas por posición en el
@@ -15,7 +15,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b1-tema-1-agua-y-sales/image1.webp",
   "imgThumb": "assets/figuras/docx/b1-tema-1-agua-y-sales/image1.thumb.webp",
   "imageDesc": null,
-  "q": "<b>1. En relación con las imágenes adjuntas, conteste a las siguientes cuestiones:</b><br>a) Identifique las moléculas representadas<br>b) En relación con la imagen A, indique el tipo",
+  "q": "<b>1. En relación con las imágenes adjuntas, conteste a las siguientes cuestiones:</b><br>a) Identifique las moléculas representadas en la imagen A y los fenómenos representados con las letras B, C y D [0,8].<br>b) En relación con la imagen A, indique el tipo de enlace que se establece entre ambas moléculas [0,2].",
   "c": [
    "a) A: agua; B: diálisis; C: difusión; D: ósmosis .",
    "b) Enlace o puentes de hidrógeno"
@@ -81,7 +81,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b1-tema-1-agua-y-sales/image4.webp",
   "imgThumb": "assets/figuras/docx/b1-tema-1-agua-y-sales/image4.thumb.webp",
   "imageDesc": null,
-  "q": "<b>4.- En relación con las imágenes adjuntas, conteste a las siguientes preguntas:</b><br>a) ¿A qué grupo de moléculas pertenece<br>b) ¿Cuál o cuáles de estas moléculas forman<br>c) ¿Cuál o cuáles de ellas pueden formar un<br>d) ¿Cuál o cuáles pueden participar en la",
+  "q": "<b>4.- En relación con las imágenes adjuntas, conteste a las siguientes preguntas:</b><br>a) ¿A qué grupo de moléculas pertenece cada una de ellas? [0,3]<br>b) ¿Cuál o cuáles de estas moléculas forman la sacarosa? Indique sus nombres [0,4].<br>c) ¿Cuál o cuáles de ellas pueden formar un péptido? [0,2]<br>d) ¿Cuál o cuáles pueden participar en la formación de un nucleótido? [0,1]",
   "c": [
    "a) Glúcidos (monosacáridos): 1, 2 y 3; aminoácidos: 4 y 5; lípidos: 6",
    "b) 2: glucosa; 3: fructosa",
@@ -105,9 +105,13 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b1-tema-2-glucidos/image3.webp",
   "imgThumb": "assets/figuras/docx/b1-tema-2-glucidos/image3.thumb.webp",
   "imageDesc": null,
-  "q": "<b>7. Indique dos funciones de los monosacáridos [0,3]. Represente la fórmula de un monosacárido indicando su nombre [0,5] y de un disacárido señalando el tipo de enlace [0,7]. Relacione entre sí los términos de las dos columnas [0,5].</b><br>a) Los monosacáridos tienen función energética, y funcion estructural.<br>b) FORMULA DE GLUCOSA, Y DE UN DISACARIDO.<br>c) A3. B4. C5. D1. E2",
-  "c": [],
-  "f": "Pregunta y figura transcritas de «B1.TEMA 2. GLUCIDOS.docx». El documento no incluía solución para esta pregunta.",
+  "q": "<b>7. Indique dos funciones de los monosacáridos [0,3]. Represente la fórmula de un monosacárido indicando su nombre [0,5] y de un disacárido señalando el tipo de enlace [0,7]. Relacione entre sí los términos de las dos columnas [0,5].</b>",
+  "c": [
+   "Funciones de los monosacáridos: energética y estructural.",
+   "Fórmula de la glucosa (o de otro monosacárido) y de un disacárido, señalando el enlace O-glucosídico.",
+   "Relación entre columnas: A3, B4, C5, D1, E2."
+  ],
+  "f": "Pregunta y figura transcritas de «B1.TEMA 2. GLUCIDOS.docx». La solución mostrada es la del propio documento.",
   "origen": {
    "documento": "B1.TEMA 2. GLUCIDOS.docx",
    "figura": "figdocx-b1-tema-2-glucidos-image3",
@@ -124,9 +128,14 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b1-tema-2-glucidos/image4.webp",
   "imgThumb": "assets/figuras/docx/b1-tema-2-glucidos/image4.thumb.webp",
   "imageDesc": null,
-  "q": "<b>14. En un laboratorio hay 4 tubos que contienen los siguientes compuestos por separado: glucosa, maltosa, sacarosa y almidón.Para saber el tipo de carbohidrato que contiene cada tubo se hacen varias pruebas:</b><br>a) análisis de la solubilidad;<br>b) poder reductor;<br>c) hidrólisis en medio ácido;<br>d) sabor dulce. Tras el análisis se obtienen los siguientes resultados:",
-  "c": [],
-  "f": "Pregunta y figura transcritas de «B1.TEMA 2. GLUCIDOS.docx». El documento no incluía solución para esta pregunta.",
+  "q": "<b>14. En un laboratorio hay 4 tubos que contienen los siguientes compuestos por separado: glucosa, maltosa, sacarosa y almidón. Para saber el tipo de carbohidrato que contiene cada tubo se hacen varias pruebas: a) análisis de la solubilidad; b) poder reductor; c) hidrólisis en medio ácido; d) sabor dulce. Tras el análisis se obtienen los resultados de la tabla. Indique razonadamente qué compuesto de los indicados se encuentra en cada tubo [1].</b>",
+  "c": [
+   "Tubo 1: almidón, porque es el único de los candidatos que es insoluble.",
+   "Tubo 2: glucosa, porque no es hidrolizable y el resto de moléculas sí lo son.",
+   "Tubo 3: sacarosa, el único disacárido no reductor.",
+   "Tubo 4: maltosa, porque concuerda con las características del candidato que queda."
+  ],
+  "f": "Pregunta y figura transcritas de «B1.TEMA 2. GLUCIDOS.docx». La solución mostrada es la del propio documento.",
   "origen": {
    "documento": "B1.TEMA 2. GLUCIDOS.docx",
    "figura": "figdocx-b1-tema-2-glucidos-image4",
@@ -143,7 +152,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b1-tema-2-glucidos/image5.webp",
   "imgThumb": "assets/figuras/docx/b1-tema-2-glucidos/image5.thumb.webp",
   "imageDesc": null,
-  "q": "<b>1. En relación con la figura adjunta, conteste a las siguientes cuestiones:</b><br>a) Indique el nombre de la molécula representada [0,2].<br>b) Cite una función de la misma [0,2].<br>c) Nombre el monómero del recuadro [0,2] y cite su<br>d) ¿Qué tipo de enlace señala la flecha? [0,2]",
+  "q": "<b>1. En relación con la figura adjunta, conteste a las siguientes cuestiones:</b><br>a) Indique el nombre de la molécula representada [0,2].<br>b) Cite una función de la misma [0,2].<br>c) Nombre el monómero del recuadro [0,2] y cite su función principal [0,2].<br>d) ¿Qué tipo de enlace señala la flecha? [0,2]",
   "c": [
    "a) Almidón (amilosa)",
    "b) Reserva energética en vegetales.",
@@ -167,7 +176,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b1-tema-2-glucidos/image6.webp",
   "imgThumb": "assets/figuras/docx/b1-tema-2-glucidos/image6.thumb.webp",
   "imageDesc": null,
-  "q": "<b>2. En relación con la figura adjunta, conteste a las siguientes preguntas:</b><br>a) ¿Cómo se llama la molécula representada? [0,2]<br>b) ¿Qué nombre recibe cada uno de los monómeros<br>c) ¿Cómo se denomina el enlace entre los dos<br>d) Nombre la reacción de rotura del citado enlace [0,2].<br>e) Cite dos propiedades de la molécula [0,2].<br>f) Nombre una función de dicha molécula [0,2].<br>g) Cite tres sustancias formadas exclusivamente por la unión de cientos o miles de monómeros del tipo A [0,3].<br>h) Indique la función biológica que desempeñan [0,3].i) Indique el tipo de células eucarióticas en las que podemos encontrarlas [0,4].",
+  "q": "<b>2. En relación con la figura adjunta, conteste a las siguientes preguntas:</b><br>a) ¿Cómo se llama la molécula representada? [0,2]<br>b) ¿Qué nombre recibe cada uno de los monómeros por los que está formada? [0,2]<br>c) ¿Cómo se denomina el enlace entre los dos monómeros? [0,2]<br>d) Nombre la reacción de rotura del citado enlace [0,2].<br>e) Cite dos propiedades de la molécula [0,2].<br>f) Nombre una función de dicha molécula [0,2].<br>g) Cite tres sustancias formadas exclusivamente por la unión de cientos o miles de monómeros del tipo A [0,3].<br>h) Indique la función biológica que desempeñan [0,3].",
   "c": [
    "a) Sacarosa.",
    "b) Glucosa y fructosa.",
@@ -195,7 +204,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b1-tema-3-lipidos/image2.webp",
   "imgThumb": "assets/figuras/docx/b1-tema-3-lipidos/image2.thumb.webp",
   "imageDesc": null,
-  "q": "<b>2. La figura adjunta muestra la forma típica de representar dos moléculas A y B.</b><br>a) Indique de qué moléculas se trata [0,2].<br>b) Indique la composición de 1 y 2 en la molécula A [0,4].<br>c) Las moléculas A y B forman parte de una estructura",
+  "q": "<b>2. La figura adjunta muestra la forma típica de representar dos moléculas A y B.</b><br>a) Indique de qué moléculas se trata [0,2].<br>b) Indique la composición de 1 y 2 en la molécula A [0,4].<br>c) Las moléculas A y B forman parte de una estructura celular,indique cuál[0,2]. d) Clasifique las moléculas A y B según su capacidad de reaccionar con una base fuerte [0,2]",
   "c": [
    "a) A: fosfolípido; B: colesterol",
    "b) 1: cabeza polar compuesta por un alcohol y un grupo fosfato; 2: colas hidrofóbicas constituidas por ácidos grasos ....",
@@ -219,7 +228,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b1-tema-3-lipidos/image3.webp",
   "imgThumb": "assets/figuras/docx/b1-tema-3-lipidos/image3.thumb.webp",
   "imageDesc": null,
-  "q": "<b>3. En relación con las imágenes adjuntas, conteste las siguientes cuestiones:</b><br>a) ¿A qué grupo de biomoléculas pertenecen<br>b) Identifique las moléculas representadas con<br>c) Indique el nombre de los monómeros<br>d) En cuanto a las moléculas B y D,",
+  "q": "<b>3. En relación con las imágenes adjuntas, conteste las siguientes cuestiones:</b><br>a) ¿A qué grupo de biomoléculas pertenecen todas las moléculas representadas? [0,2]<br>b) Identifique las moléculas representadas con las letras A, B, C y D [0,8].<br>c) Indique el nombre de los monómeros que constituyen la molécula C y el nombre del enlace por el que se unen [0,6].<br>d) En cuanto a las moléculas B y D, cite una función para cada una de ellas [0,4].",
   "c": [
    "a) Lípidos",
    "b) A: ácido graso; B: fosfolípido; C: triacilglicérido; D: esteroide o colesterol",
@@ -243,7 +252,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b1-tema-3-lipidos/image4.webp",
   "imgThumb": "assets/figuras/docx/b1-tema-3-lipidos/image4.thumb.webp",
   "imageDesc": null,
-  "q": "<b>4. En relación con la reacción adjunta conteste a las siguientes preguntas:</b><br>a) ¿Qué nombre recibe la<br>b) Indique el nombre de los<br>c) ¿Qué tipo de enlace señala el<br>d) Indique dónde se puede encontrar<br>e) ¿De qué otra biomolécula es parte fundamental de su composición química el<br>f) El compuesto B se utiliza en la eliminación de las manchas de grasa tanto de la piel como de la ropa. ¿Cómo tiene lugar ese proceso? [0,5]",
+  "q": "<b>4. En relación con la reacción adjunta conteste a las siguientes preguntas:</b><br>a) ¿Qué nombre recibe la reacción representada? [0,2]<br>b) Indique el nombre de los compuestos A, B y C [0,6].<br>c) ¿Qué tipo de enlace señala el número 1? [0,2]<br>d) Indique dónde se puede encontrar habitualmente el compuesto A en un organismo animal y en una célula vegetal [0,3].<br>e) ¿De qué otra biomolécula es parte fundamental de su composición química el compuesto C?[0,2]<br>f) El compuesto B se utiliza en la eliminación de las manchas de grasa tanto de la piel como de la ropa. ¿Cómo tiene lugar ese proceso? [0,5]",
   "c": [
    "a) Saponificación",
    "b) A: triacilglicéridos (triglicéridos); B: sales del ácido graso o jabones; C: glicerol o glicerina",
@@ -269,7 +278,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b1-tema-3-lipidos/image5.webp",
   "imgThumb": "assets/figuras/docx/b1-tema-3-lipidos/image5.thumb.webp",
   "imageDesc": null,
-  "q": "<b>5. En relación con la formula adjunta, conteste las siguientes cuestiones:</b><br>a) ¿Qué tipo de biomolécula representa?<br>b) Indique el nombre de los compuestos incluidos en<br>c) Identifique el tipo de enlace que se establece entre ellos [0,2].<br>d) ¿En qué estructuras celulares se encuentran? [0,3]<br>e) ¿Cuál es el comportamiento de este tipo<br>f) Indique dos tipos de compuestos con los<br>g) En cuanto a su estructura química, ¿qué característica diferencia los compuestos señalados como 3 y 4? [0,2]",
+  "q": "<b>5. En relación con la formula adjunta, conteste las siguientes cuestiones:</b><br>a) ¿Qué tipo de biomolécula representa? [0,2]<br>b) Indique el nombre de los compuestos incluidos en los recuadros 1 y 2 [0,3].<br>c) Identifique el tipo de enlace que se establece entre ellos [0,2].<br>d) ¿En qué estructuras celulares se encuentran? [0,3]<br>e) ¿Cuál es el comportamiento de este tipo de biomoléculas en un medio acuoso? [0,5]<br>f) Indique dos tipos de compuestos con los que puede interaccionar esta biomolécula en las estructuras celulares donde se encuentran [0,3]<br>g) En cuanto a su estructura química, ¿qué característica diferencia los compuestos señalados como 3 y 4? [0,2]",
   "c": [
    "a) Es un lipido saponificable, mas concretamente un fosfolípido",
    "b) En el 1 son las colas de dos acidos grasos, uno de ellos insaturado, y en el 2 es un glicerol",
@@ -296,7 +305,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b1-tema-3-lipidos/image7.webp",
   "imgThumb": "assets/figuras/docx/b1-tema-3-lipidos/image7.thumb.webp",
   "imageDesc": null,
-  "q": "<b>6. La imagen adjunta muestra el esquema de una importante reacción bioquímica. Conteste a las siguientes cuestiones:</b><br>a) Indique los nombres de los reactivos<br>b) ¿Cómo se denomina esta reacción? [0,2]<br>c) ¿Y la reacción inversa? [0,2]<br>d) Cite dos propiedades del reactivo 1 [0,5].<br>e) Cite una función común del compuesto 3<br>f) Cite una función exclusiva de este",
+  "q": "<b>6. La imagen adjunta muestra el esquema de una importante reacción bioquímica. Conteste a las siguientes cuestiones:</b><br>a) Indique los nombres de los reactivos 1 y 2 y el del producto final de la reacción 3 [0,6].<br>b) ¿Cómo se denomina esta reacción? [0,2]<br>c) ¿Y la reacción inversa? [0,2]<br>d) Cite dos propiedades del reactivo 1 [0,5].<br>e) Cite una función común del compuesto 3 en organismos animales y vegetales [0,25].<br>f) Cite una función exclusiva de este compuesto en los organismos animales [0,25].",
   "c": [
    "a) 1: Acidos grasos; 2: Glicerol; 3: triacilglicérido",
    "b) Esterificación",
@@ -343,14 +352,11 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b1-tema-4-proteinas/image2.webp",
   "imgThumb": "assets/figuras/docx/b1-tema-4-proteinas/image2.thumb.webp",
   "imageDesc": null,
-  "q": "<b>2. La figura representa la conformación tridimensional de una proteína y una zona ampliada (región</b><br>a) de la misma.",
+  "q": "<b>2. La figura representa la conformación tridimensional de una proteína y una zona ampliada (región A) de la misma.</b><br>a) ¿Qué tipo de estructura presenta la región A? [0,2]<br>b) ¿Qué tipo de fuerzas o relaciones entre átomos mantiene esta estructura? [0,2]<br>c) ¿Qué otros tipos de estructuras debe tener una proteína formada por una sola cadena polipeptídica para ser funcional? ¿Y una que esté formada por dos o más cadenas polipeptídicas? [0,6]",
   "c": [
-   "a) ¿Qué tipo de estructura presenta",
-   "b) ¿Qué tipo de fuerzas o relaciones",
-   "c) ¿Qué otros tipos de estructuras debe tener",
-   "a) Lámina beta (hoja plegada).",
-   "b) Puentes de hidrógeno .",
-   "c) Proteínas con una cadena: estructura primaria y terciaria. Proteínas con dos o más cadenas: estructura primaria, terciaria y cuaternaria"
+   "a) Lámina beta (hoja plegada).",
+   "b) Puentes de hidrógeno.",
+   "c) Proteínas con una cadena: estructura primaria y terciaria. Proteínas con dos o más cadenas: estructura primaria, terciaria y cuaternaria."
   ],
   "f": "Pregunta y figura transcritas de «B1.TEMA 4. PROTEINAS.docx». La solución mostrada es la del propio documento.",
   "origen": {
@@ -369,7 +375,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b1-tema-4-proteinas/image3.webp",
   "imgThumb": "assets/figuras/docx/b1-tema-4-proteinas/image3.thumb.webp",
   "imageDesc": null,
-  "q": "<b>3. En relación con las imágenes adjuntas, conteste las siguientes cuestiones: La Figura A representa una reacción entre dos biomoléculas.a) ¿Cómo se denominan las biomoléculas señaladas con los números 1 y 2? [0,1].</b><br>b) ¿Cuántos monómeros distintos de<br>c) ¿En qué se diferencian? [0,1].<br>d) ¿Qué nombre recibe la molécula<br>e) ¿Qué representa la Figura B? [0,2].<br>f) Indique qué representan los<br>g) ¿Cómo se denomina el enlace señalado por la flecha en la Figura A? [0,2].<br>h) Cite dos características de dicho enlace [0,4].",
+  "q": "<b>3. En relación con las imágenes adjuntas, conteste las siguientes cuestiones: La Figura A representa una reacción entre dos biomoléculas.a) ¿Cómo se denominan las biomoléculas señaladas con los números 1 y 2? [0,1].</b><br>b) ¿Cuántos monómeros distintos de ese tipo existen en los seres vivos [0,1].<br>c) ¿En qué se diferencian? [0,1].<br>d) ¿Qué nombre recibe la molécula señalada con el número 3 de la Figura A? [0,1].<br>e) ¿Qué representa la Figura B? [0,2].<br>f) Indique qué representan los números 1, 2, 3 y 4 de la Figura B [0,4].<br>g) ¿Cómo se denomina el enlace señalado por la flecha en la Figura A? [0,2].<br>h) Cite dos características de dicho enlace [0,4].",
   "c": [
    "a) Aminoácidos.",
    "b) Existen 20 aminoácidos diferentes en la naturaleza.",
@@ -465,7 +471,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b1-tema-4-proteinas/image9.webp",
   "imgThumb": "assets/figuras/docx/b1-tema-4-proteinas/image9.thumb.webp",
   "imageDesc": null,
-  "q": "<b>8.- La figura 1 corresponde a una hormona constituida por la unión de 51 unidades representadas por bolas blancas (Cys, Cisteína) y oscuras. La figura 2 corresponde a la estructura básica de cada una de estas unidades.</b><br>a) ¿A qué grupo de macromoléculas pertenece esta hormona? [0,25]. Escriba la fórmula del compuesto que se formará al unirse dos de estas unidades como la de la figura 2 [0,25]. ¿Qué tipo de enlace se establece entre ellas? [0,2]. Cite dos características de dicho enlace [0,3].<br>b) ¿Qué tipo de enlace se establece entre las moléculas indicadas como Cys? [0,5]. Explique por qué las macromoléculas como las de la figura 1 presentan una gran variedad a pesar de estar todas constituidas por las mismas unidades [0,5].",
+  "q": "<b>8.- La figura 1 corresponde a una hormona constituida por la unión de 51 unidades representadas por bolas blancas (Cys, Cisteína) y oscuras. La figura 2 corresponde a la estructura básica de cada una de estas unidades.</b><br>a) ¿A qué grupo de macromoléculas pertenece esta hormona? [0,25]. Escriba la fórmula del compuesto que se formará al unirse dos de estas unidades como la de la figura 2 [0,25].<br>b) ¿Qué tipo de enlace se establece entre ellas? [0,2]. Cite dos características de dicho enlace [0,3].",
   "c": [],
   "f": "Pregunta y figura transcritas de «B1.TEMA 4. PROTEINAS.docx». El documento no incluía solución para esta pregunta.",
   "origen": {
@@ -506,9 +512,12 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b1-tema-4-proteinas/image11.webp",
   "imgThumb": "assets/figuras/docx/b1-tema-4-proteinas/image11.thumb.webp",
   "imageDesc": null,
-  "q": "<b>10.- El aspartamo es un edulcorante sintético que se utiliza como sustituto de la sacarosa. No es un glúcido sino que está formado por ácido aspártico y fenilalanina. Teniendo en cuenta la figura adjunta, represente las dos posibles fórmulas estructurales del aspartamo [0,8]. ¿Cómo se llama el enlace que une ambas moléculas? [0,2].</b><br>a) Dibujar los dos dipeptidos",
-  "c": [],
-  "f": "Pregunta y figura transcritas de «B1.TEMA 4. PROTEINAS.docx». El documento no incluía solución para esta pregunta.",
+  "q": "<b>10.- El aspartamo es un edulcorante sintético que se utiliza como sustituto de la sacarosa. No es un glúcido sino que está formado por ácido aspártico y fenilalanina. Teniendo en cuenta la figura adjunta, represente las dos posibles fórmulas estructurales del aspartamo [0,8]. ¿Cómo se llama el enlace que une ambas moléculas? [0,2].</b>",
+  "c": [
+   "Se dibujan los dos dipéptidos posibles: en el primero, el ácido aspártico aporta el grupo COOH y la fenilalanina el NH₂, y en el segundo, al revés.",
+   "Se denomina enlace peptídico."
+  ],
+  "f": "Pregunta y figura transcritas de «B1.TEMA 4. PROTEINAS.docx». La solución mostrada es la del propio documento.",
   "origen": {
    "documento": "B1.TEMA 4. PROTEINAS.docx",
    "figura": "figdocx-b1-tema-4-proteinas-image11",
@@ -525,7 +534,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b1-tema-5-acidos-nucleicos/image1.webp",
   "imgThumb": "assets/figuras/docx/b1-tema-5-acidos-nucleicos/image1.thumb.webp",
   "imageDesc": null,
-  "q": "<b>1. A la vista de la imagen, conteste las siguientes cuestiones:</b><br>a) ¿De qué moléculas formarán<br>b) ¿Cómo se denominan los monómeros que<br>c) Cite los tres componentes que forman cada<br>d) Indique qué dos diferencias fundamentales",
+  "q": "<b>1. A la vista de la imagen, conteste las siguientes cuestiones:</b><br>a) ¿De qué moléculas formarán parte las cadenas A y B? [0,4]<br>b) ¿Cómo se denominan los monómeros que forman las cadenas A y B? [0,1]<br>c) Cite los tres componentes que forman cada uno de esos monómeros [0,3].<br>d) Indique qué dos diferencias fundamentales hay en la composición química de los monómeros de la cadena A y de la B? [0,2].",
   "c": [
    "a) Cadena A: ADN. Cadena B: ARN",
    "b) Nucleótidos",
@@ -549,7 +558,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b1-tema-5-acidos-nucleicos/image2.webp",
   "imgThumb": "assets/figuras/docx/b1-tema-5-acidos-nucleicos/image2.thumb.webp",
   "imageDesc": null,
-  "q": "<b>2. Teniendo en cuenta la figura adjunta, indique:</b><br>a) El nombre de cada una de las<br>b) ¿Cómo se denomina la biomolécula<br>c) ¿Y cuándo se une además la molécula de ácido fosfórico? [0,15]<br>d) Cuando se unen muchas de estas últimas biomoléculas a través de<br>e) Indique una función para la biomolécula del apartado “c” cuando se",
+  "q": "<b>2. Teniendo en cuenta la figura adjunta, indique:</b><br>a) El nombre de cada una de las dos moléculas mostradas [0,3].<br>b) ¿Cómo se denomina la biomolécula que se forma cuando se une a cada una de estas moléculas una base nitrogenada púrica o pirimídica? [0,15]<br>c) ¿Y cuándo se une además la molécula de ácido fosfórico? [0,15]<br>d) Cuando se unen muchas de estas últimas biomoléculas a través de enlaces fosfodiéster, ¿cuál es la función biológica principal del polímero que resulta? [0,2]<br>e) Indique una función para la biomolécula del apartado “c” cuando se encuentra libre no formando parte de un polímero [0,2].",
   "c": [
    "a) A: desoxirribosa (ß-D-2 ́-desoxirribosa); B: ribosa (ß-D-ribosa) .",
    "b) Nucleósido",
@@ -574,7 +583,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b1-tema-5-acidos-nucleicos/image3.webp",
   "imgThumb": "assets/figuras/docx/b1-tema-5-acidos-nucleicos/image3.thumb.webp",
   "imageDesc": null,
-  "q": "<b>3. En relación con la imagen adjunta, conteste a las siguientes cuestiones:</b><br>a) Nombre las moléculas representadas en los<br>b) Indique el nombre de los monómeros que<br>c) Especifique el nombre del enlace covalente<br>d) ¿Qué tipo de molécula se une al extremo 3 ́de la<br>e) Escriba el nombre de la región señalada con la letra<br>f) ¿En qué́ proceso metabólico interviene la molécula",
+  "q": "<b>3. En relación con la imagen adjunta, conteste a las siguientes cuestiones:</b><br>a) Nombre las moléculas representadas en los esquemas A y B [0,2].<br>b) Indique el nombre de los monómeros que constituyen la molécula A [0,1] y la molécula B [0,1].<br>c) Especifique el nombre del enlace covalente que se establece entre los monómeros que originan estas macromoléculas [0,2].<br>d) ¿Qué tipo de molécula se une al extremo 3 ́de la molécula B? [0,1]<br>e) Escriba el nombre de la región señalada con la letra C en la molécula B [0,1].<br>f) ¿En qué́ proceso metabólico interviene la molécula B? [0.2].",
   "c": [
    "a) A: ADN; B: ARN de transferencia",
    "b) A: desoxirribonucleótidos; B: ribonucleótidos",
@@ -600,14 +609,14 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b1-tema-5-acidos-nucleicos/image4.webp",
   "imgThumb": "assets/figuras/docx/b1-tema-5-acidos-nucleicos/image4.thumb.webp",
   "imageDesc": null,
-  "q": "<b>4. En la imagen adjunta se muestra esquemáticamente la estructura de un tipo de biomolécula. Conteste las siguientes cuestiones:</b><br>a) Identifique el tipo de biomolécula representada[0,2].<br>b) Indique los nombres de sus componentes<br>c) Especifique los nombres de los enlaces<br>d) Si la molécula perdiese el componente 3, como consecuencia<br>e) Cite el nombre de tres macromoléculas formadas por la<br>f) Indique el nombre de una molécula del tipo de la representada",
+  "q": "<b>4. En la imagen adjunta se muestra esquemáticamente la estructura de un tipo de biomolécula. Conteste las siguientes cuestiones:</b><br>a) Identifique el tipo de biomolécula representada[0,2].<br>b) Indique los nombres de sus componentes señalados con los números 1, 2 y 3 [0,3].<br>c) Especifique los nombres de los enlaces entre el componente 1 y 2 y entre el componente 1 y 3 [0,4].<br>d) Si la molécula perdiese el componente 3, como consecuencia de una reacción de hidrólisis, ¿cómo se denomina la molécula resultante? [0,1]<br>e) Cite el nombre de tres macromoléculas formadas por la polimerización de este tipo de moléculas y especifique su función [0,9].<br>f) Indique el nombre de una molécula del tipo de la representada que intervenga en el metabolismo energético [0,1].",
   "c": [
    "a) Ribonucleótido (es una ribosa)",
    "b) 1: Ribosa; 2: Base nitrogenada, 3: Fosfato",
    "c) Enlace entre 1 y 2: N-glucosídico y entre 1 y 3: éster fosfórico",
    "d) Nucleósido",
-   "a) ARN mensajero, que porta la información para la síntesis de proteínas, ARN de transferencia, que transfiere aminoácidos a los ribosomas durante la síntesis de proteínas y ARN ribosómico, que se asocia a proteínas para formar los ribosomas.",
-   "b) ATP (adenosín trifosfato)"
+   "e) ARN mensajero, que porta la información para la síntesis de proteínas, ARN de transferencia, que transfiere aminoácidos a los ribosomas durante la síntesis de proteínas y ARN ribosómico, que se asocia a proteínas para formar los ribosomas.",
+   "f) ATP (adenosín trifosfato)"
   ],
   "f": "Pregunta y figura transcritas de «B1.TEMA 5. ACIDOS NUCLEICOS.docx». La solución mostrada es la del propio documento.",
   "origen": {
@@ -626,7 +635,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b1-tema-5-acidos-nucleicos/image5.webp",
   "imgThumb": "assets/figuras/docx/b1-tema-5-acidos-nucleicos/image5.thumb.webp",
   "imageDesc": null,
-  "q": "<b>5. En relación con la figura adjunta, conteste las siguientes cuestiones:</b><br>a) Indique los nombres de las tres moléculas<br>b) Indique el nombre de los monómeros que<br>c) Escriba los nombres de los componentes<br>d) Indique en qué compartimentos de la<br>e) Además de la estructural, cite otra posible función de los monómeros que forman los compuestos representados en la figura [0,2].<br>f) Describa, brevemente, la estructura secundaria de la molécula II [0,4].",
+  "q": "<b>5. En relación con la figura adjunta, conteste las siguientes cuestiones:</b><br>a) Indique los nombres de las tres moléculas representadas con los números I, II y III [0,3].<br>b) Indique el nombre de los monómeros que constituyen estas moléculas [0,15] y el nombre del enlace por el que se unen [0,15].<br>c) Escriba los nombres de los componentes numerados del 1 al 4 en la molécula II [0,4].<br>d) Indique en qué compartimentos de la célula procariótica y de la célula eucariótica se localiza la molécula representada por el número II [0,4].<br>e) Además de la estructural, cite otra posible función de los monómeros que forman los compuestos representados en la figura [0,2].<br>f) Describa, brevemente, la estructura secundaria de la molécula II [0,4].",
   "c": [
    "a) I: ARNm. II: ADN. III: ARNt",
    "b) Está formado por nucleótidos (Ribonucleótidos en I y en III, y desoxirribonucleótidos en II), unidos por enlace nucleotídicos de tipo fosfodiéster",
@@ -832,7 +841,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b1-tema-6-enzimas-y-vitaminas/image1.webp",
   "imgThumb": "assets/figuras/docx/b1-tema-6-enzimas-y-vitaminas/image1.thumb.webp",
   "imageDesc": null,
-  "q": "<b>1. En relación con la imagen adjunta, conteste las siguientes cuestiones:</b><br>a) ¿Cuáles son los valores óptimos de pH de las enzimas A, B y C? [0,3]<br>b) Indique un lugar del tracto digestivo donde podría<br>c) Cite otros dos factores que influyen sobre la actividad enzimática [0,4].",
+  "q": "<b>1. En relación con la imagen adjunta, conteste las siguientes cuestiones:</b><br>a) ¿Cuáles son los valores óptimos de pH de las enzimas A, B y C? [0,3]<br>b) Indique un lugar del tracto digestivo donde podría funcionar la enzima A y otro donde podría funcionar la enzima C [0,3].<br>c) Cite otros dos factores que influyen sobre la actividad enzimática [0,4].",
   "c": [
    "a) Enzima A: 3; Enzima B: 7; Enzima C: 8",
    "b) A: estómago; C: intestino",
@@ -855,7 +864,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b2-tema-10-ciclo-celular/image2.webp",
   "imgThumb": "assets/figuras/docx/b2-tema-10-ciclo-celular/image2.thumb.webp",
   "imageDesc": null,
-  "q": "<b>2. En relación con la figura adjunta, conteste a las siguientes cuestiones:</b><br>a) ¿De qué proceso se trata? [0,1]<br>b) Nombre las fases señaladas con las letras D y H [0,2].<br>c) Indique el nombre de las estructuras que aparecen<br>d) ¿Cuál es la primera fase de la figura (indique la letra)<br>e) ¿Qué proceso tiene lugar en la fase C y<br>f) ¿Cuál es la diferencia entre las fases E e I? [0,1]<br>g) ¿Qué tipo de células se originan al final del proceso y",
+  "q": "<b>2. En relación con la figura adjunta, conteste a las siguientes cuestiones:</b><br>a) ¿De qué proceso se trata? [0,1]<br>b) Nombre las fases señaladas con las letras D y H [0,2].<br>c) Indique el nombre de las estructuras que aparecen dentro del núcleo en la fase B [0,1].<br>d) ¿Cuál es la primera fase de la figura (indique la letra) en la que se aprecia que se ha producido la replicación del ADN? [0,1]<br>e) ¿Qué proceso tiene lugar en la fase C y qué finalidad tiene? [0,2]<br>f) ¿Cuál es la diferencia entre las fases E e I? [0,1]<br>g) ¿Qué tipo de células se originan al final del proceso y cuál es su dotación cromosómica? [0,2]",
   "c": [
    "a) Meiosis",
    "b) D: metafase I; H: metafase II",
@@ -882,7 +891,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b1-tema-6-enzimas-y-vitaminas/image3.webp",
   "imgThumb": "assets/figuras/docx/b1-tema-6-enzimas-y-vitaminas/image3.thumb.webp",
   "imageDesc": null,
-  "q": "<b>3. Al investigar el efecto de la temperatura sobre la velocidad de una reacción enzimática se obtuvo la siguiente tabla Proponga una explicación razonada al conjunto de resultados registrados en la misma [1]. El incremento de la temperatura aumenta la velocidad de reacción porque favorece la probabilidad de formación de complejos enzima-sustrato. Sin embargo, a partir de una determinada temperatura (entre 40 y 45 ºC en este caso) la velocidad disminuye por la desnaturalización de las enzimas ya que son proteínas, y la desnaturalziacion provoca perdida de función, y con ello perdida de actividad catalítica. 4. En relación con la figura adjunta:</b><br>a) Identifique los procesos que se representan<br>c) Explique cómo evoluciona la cantidad",
+  "q": "<b>3. Al investigar el efecto de la temperatura sobre la velocidad de una reacción enzimática se obtuvo la siguiente tabla Proponga una explicación razonada al conjunto de resultados registrados en la misma [1]. El incremento de la temperatura aumenta la velocidad de reacción porque favorece la probabilidad de formación de complejos enzima-sustrato. Sin embargo, a partir de una determinada temperatura (entre 40 y 45 ºC en este caso) la velocidad disminuye por la desnaturalización de las enzimas ya que son proteínas, y la desnaturalziacion provoca perdida de función, y con ello perdida de actividad catalítica. 4. En relación con la figura adjunta:</b><br>a) Identifique los procesos que se representan en A y B [0,4] y b) cada una de las moléculas señaladas con los números del 1 al 6 [0,6].<br>c) Explique cómo evoluciona la cantidad de las sustancias 2 y 4 con el tiempo en cada uno de los casos [0,5]. d) ¿En qué caso podría aparecer la sustancia 4 en el proceso B? [0,5]",
   "c": [
    "a) A: reacción enzimática; B: inhibición enzimática (competitiva)",
    "b) 1: enzima; 2: sustratos; 3: complejo enzima-sustrato; 4: productos; 5: inhibidor; 6: complejo enzima-inhibidor",
@@ -906,7 +915,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b1-tema-6-enzimas-y-vitaminas/image6.webp",
   "imgThumb": "assets/figuras/docx/b1-tema-6-enzimas-y-vitaminas/image6.thumb.webp",
   "imageDesc": null,
-  "q": "<b>6.- Las gráficas representan la actividad de cuatro enzimas en función de la temperatura y el pH. Conteste a las siguientes cuestiones:</b><br>a) ¿Cuál es la temperatura óptima de reacción de la enzima A? ¿Y de la enzima B? [0,25]<br>b) ¿Cuál es el estado de la enzima A a 0 ºC? ¿Y a 50 ºC? [0,25]<br>c) ¿Podría la enzima D catalizar alguna reacción al pH óptimo de la enzima C? [0,25]<br>d) Si situamos las enzimas C y D en un",
+  "q": "<b>6.- Las gráficas representan la actividad de cuatro enzimas en función de la temperatura y el pH. Conteste a las siguientes cuestiones:</b><br>a) ¿Cuál es la temperatura óptima de reacción de la enzima A? ¿Y de la enzima B? [0,25]<br>b) ¿Cuál es el estado de la enzima A a 0 ºC? ¿Y a 50 ºC? [0,25]<br>c) ¿Podría la enzima D catalizar alguna reacción al pH óptimo de la enzima C? [0,25]<br>d) Si situamos las enzimas C y D en un medio con pH ácido, ¿cuál de las dos presentaría más actividad? [0,25]",
   "c": [
    "a) Enzima A: 40ºC; enzima B: 80 ºC",
    "b) 0 ºC: inactiva; 50 ºC: desnaturalizada",
@@ -974,7 +983,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b2-tema-10-ciclo-celular/image3.webp",
   "imgThumb": "assets/figuras/docx/b2-tema-10-ciclo-celular/image3.thumb.webp",
   "imageDesc": null,
-  "q": "<b>3. En un cultivo de células humanas en crecimiento se analiza la cantidad de ADN a distintos tiempos. El resultado se muestra en la siguiente figura:</b><br>a) Indique el nombre de las fases señaladas con<br>b) Indique qué ocurre en cada una",
+  "q": "<b>3. En un cultivo de células humanas en crecimiento se analiza la cantidad de ADN a distintos tiempos. El resultado se muestra en la siguiente figura:</b><br>a) Indique el nombre de las fases señaladas con las letras de la A a la E [0,5].<br>b) Indique qué ocurre en cada una de esas fases [0,5].",
   "c": [
    "a) A: fase G1; B: fase S; C: fase G2; D: mitosis (M, división celular); E: fase G1",
    "b) G1: síntesis de proteínas necesarias para que la célula aumente de tamaño; S: replicación del ADN y síntesis de histonas; G2: duplicación de centriolos y síntesis de proteínas para la mitosis; M: división en dos del núcleo y de la célula"
@@ -1049,7 +1058,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b2-tema-10-ciclo-celular/image7.webp",
   "imgThumb": "assets/figuras/docx/b2-tema-10-ciclo-celular/image7.thumb.webp",
   "imageDesc": null,
-  "q": "<b>6. En relación con la figura adjunta, que muestra una célula cuyo número de cromosomas es 2n=4 y las letras “A”, “a”, “B”, “b” representan alelos de los genes situados en dichos cromosomas, conteste las siguientes cuestiones:</b><br>a) ¿A qué tipo de división celular<br>b) ¿Qué fase de la división representa? [0,2].<br>c) Nombre los componentes celulares<br>d) ¿En qué́ tipo de célula eucariótica<br>e) Al finalizar el proceso de división celular,<br>f) Nombre la fase de la división celular anterior a la<br>g) Explique los principales acontecimientos que<br>h) Señale dos razones que indiquen la importancia biológica de este tipo de división celular [0,4].",
+  "q": "<b>6. En relación con la figura adjunta, que muestra una célula cuyo número de cromosomas es 2n=4 y las letras “A”, “a”, “B”, “b” representan alelos de los genes situados en dichos cromosomas, conteste las siguientes cuestiones:</b><br>a) ¿A qué tipo de división celular hace alusión la figura? [0,2].<br>b) ¿Qué fase de la división representa? [0,2].<br>c) Nombre los componentes celulares señalados con los números 1, 2 y 3 [0,3].<br>d) ¿En qué́ tipo de célula eucariótica se desarrolla este tipo de división celular? [0,1].<br>e) Al finalizar el proceso de división celular, indique el número de células resultantes y el número de cromosomas de cada una de ellas [0,2].<br>f) Nombre la fase de la división celular anterior a la representada [0,1].<br>g) Explique los principales acontecimientos que tienen lugar durante la misma [0,5].<br>h) Señale dos razones que indiquen la importancia biológica de este tipo de división celular [0,4].",
   "c": [
    "a) A la meiosisb) Metafase I",
    "c) 1: Cromosoma (cromátida). 2: Centrosoma (centriolo). 3: Huso acromático o mitótico",
@@ -1076,7 +1085,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b2-tema-10-ciclo-celular/image8.webp",
   "imgThumb": "assets/figuras/docx/b2-tema-10-ciclo-celular/image8.thumb.webp",
   "imageDesc": null,
-  "q": "<b>7. En relación con la figura adjunta, que representa una etapa de la división celular, conteste las siguientes cuestiones.</b><br>a) Indique el nombre de la etapa [0,2]<br>b) Señale si se trata de una célula animal o",
+  "q": "<b>7. En relación con la figura adjunta, que representa una etapa de la división celular, conteste las siguientes cuestiones.</b><br>a) Indique el nombre de la etapa [0,2] y describa los principales acontecimientos que tienen lugar durante la misma [0,8].<br>b) Señale si se trata de una célula animal o vegetal. Razone la respuesta utilizando al menos dos características [0,6]. Nombre las estructuras señaladas del 1 al 4 [0,4].",
   "c": [
    "a) Citocinesis. Se forma un anillo contráctil de filamentos de acina y miosina por debajo de la membrana plasmática. Esto provoca un surco de segmentación que acaba por estrangular todo el citoplasma, separando así a las dos células hijas.",
    "b) Es una célula animal porque se ven los centriolos, y la separación del citoplasma está siendo por un anillo contráctil. 1: Anillo contráctil; 2: Centriolos (centrosoma); 3: filamentos de actina y miosina; 4: envoltura nuclear."
@@ -1164,7 +1173,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b2-tema-10-ciclo-celular/image13.webp",
   "imgThumb": "assets/figuras/docx/b2-tema-10-ciclo-celular/image13.thumb.webp",
   "imageDesc": null,
-  "q": "<b>11. En relación con la figura adjunta, conteste las siguientes cuestiones:</b><br>a) ¿Qué etapa de la mitosis representa<br>b) Describa brevemente las etapas anteriores",
+  "q": "<b>11. En relación con la figura adjunta, conteste las siguientes cuestiones:</b><br>a) ¿Qué etapa de la mitosis representa el esquema? [0,1]. Explique lo que ocurre en esta etapa [0,6]. Indique dos razones que justifiquen el tipo celular que representa [0,3].<br>b) Describa brevemente las etapas anteriores a la representada en la imagen [0,6]. ¿Qué significado biológico tiene el proceso en su conjunto? [0,4].",
   "c": [
    "a) Se trata de una telofase (o anafase tardía). Las cromátidas han emigrado a los polos y comienzan a descondensarse. Se regenera la envoltura nuclear, y comienza la citocinesis o división citoplasmática por tabicación, formándose el fragmoplasto a partir de vesículas del aparato de Golgi. S trata de una célula vegetal, porque se observa pared celular y se está formando el fragmoplasto o tabique central.",
    "b) CONTESTADA ANTERIORMENTE. DESCRIPCION Y SIGNIFICADO DE MITOSIS"
@@ -1380,7 +1389,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b2-tema-10-ciclo-celular/image26.webp",
   "imgThumb": "assets/figuras/docx/b2-tema-10-ciclo-celular/image26.thumb.webp",
   "imageDesc": null,
-  "q": "<b>23. En relación con la figura adjunta, que representa la citocinesis en dos células eucarióticas diferentes, conteste a las siguientes cuestiones:</b><br>a) Indique el tipo celular representado en A y B [0,2].<br>b) Identifique las estructuras señaladas con los números del 1 al 6 [0,3].<br>c) ¿Cuál es la composición de la estructura 2? [0,2]<br>d) ¿Cómo se forma la estructura 5? [0,2]<br>e) Según se muestra en la figura, ¿en qué fase de la mitosis se inicia la",
+  "q": "<b>23. En relación con la figura adjunta, que representa la citocinesis en dos células eucarióticas diferentes, conteste a las siguientes cuestiones:</b><br>a) Indique el tipo celular representado en A y B [0,2].<br>b) Identifique las estructuras señaladas con los números del 1 al 6 [0,3].<br>c) ¿Cuál es la composición de la estructura 2? [0,2]<br>d) ¿Cómo se forma la estructura 5? [0,2]<br>e) Según se muestra en la figura, ¿en qué fase de la mitosis se inicia la citocinesis en la primera célula de la figura B? [0,1]",
   "c": [
    "a) A: célula animal; B: célula vegetal",
    "b) 1: surco de segmentación; 2: anillo contráctil; 3: núcleo; 4: cromosomas; 5: fragmoplasto; 6: pared celular",
@@ -1405,7 +1414,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b2-tema-10-ciclo-celular/image27.webp",
   "imgThumb": "assets/figuras/docx/b2-tema-10-ciclo-celular/image27.thumb.webp",
   "imageDesc": null,
-  "q": "<b>24. En relación con la imagen adjunta, conteste a las siguientes cuestiones:</b><br>a) ¿Qué nombre recibe el proceso<br>b) Indique el nombre de las fases A, B, C,D y E [0,5].<br>c) Ordene estas fases secuencialmente[0,2].<br>d) Indique qué estructura hace posible el proceso representado en B [0,2].",
+  "q": "<b>24. En relación con la imagen adjunta, conteste a las siguientes cuestiones:</b><br>a) ¿Qué nombre recibe el proceso representado? [0,1]<br>b) Indique el nombre de las fases A, B, C,D y E [0,5].<br>c) Ordene estas fases secuencialmente[0,2].<br>d) Indique qué estructura hace posible el proceso representado en B [0,2].",
   "c": [
    "a) División celular (o mitosis)",
    "b) A: telofase; B: citocinesis; C: profase; D: anafase; E: metafase",
@@ -1429,9 +1438,11 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image1.webp",
   "imgThumb": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image1.thumb.webp",
   "imageDesc": null,
-  "q": "<b>18. Copie y complete la siguiente tabla [2]: 1: síntesis de lípidos2: Ribosomas3: cloroplastos4: fotosíntesis 5: vesículas membranosas con enzimas digestivas6: envoltura nuclear con poros, que contiene cromatina y nucleolo7: contener el material genético8: modificación de proteínas y lípidos9: mitocondria10: doble membrana (externa e interna), espacio intermembrana, matriz mitocondrial.</b>",
-  "c": [],
-  "f": "Pregunta y figura transcritas de «B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx». El documento no incluía solución para esta pregunta.",
+  "q": "<b>18. Copie y complete la siguiente tabla [2]:</b>",
+  "c": [
+   "1: síntesis de lípidos; 2: ribosomas; 3: cloroplastos; 4: fotosíntesis; 5: vesículas membranosas con enzimas digestivas; 6: envoltura nuclear con poros, que contiene cromatina y nucléolo; 7: contener el material genético; 8: modificación de proteínas y lípidos; 9: mitocondria; 10: doble membrana (externa e interna), espacio intermembrana y matriz mitocondrial."
+  ],
+  "f": "Pregunta y figura transcritas de «B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx». La solución mostrada es la del propio documento.",
   "origen": {
    "documento": "B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx",
    "figura": "figdocx-b2-tema-7-8-9-biologia-celular-image1",
@@ -1448,7 +1459,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image2.webp",
   "imgThumb": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image2.thumb.webp",
   "imageDesc": null,
-  "q": "<b>50.- Copie la siguiente tabla y rellene las casillas indicando la presencia (SÍ) o ausencia (NO) de las siguientes moléculas, estructuras u orgánulos en las células eucarióticas animales y vegetales [2]. SISISISISISISISISISISISISISISISISISISISISISISISISISISISISISI</b>",
+  "q": "<b>50.- Copie la siguiente tabla y rellene las casillas indicando la presencia (SÍ) o ausencia (NO) de las siguientes moléculas, estructuras u orgánulos en las células eucarióticas animales y vegetales [2].</b>",
   "c": [],
   "f": "Pregunta y figura transcritas de «B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx». El documento no incluía solución para esta pregunta.",
   "origen": {
@@ -1467,7 +1478,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image4.webp",
   "imgThumb": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image4.thumb.webp",
   "imageDesc": null,
-  "q": "<b>35.- Tres tipos celulares diferentes (A, B y</b><br>c) se mantienen en el laboratorio en un medio hipotónico. En estas condiciones, la célula A muere y las células B y C sobreviven. Sin embargo, cuando a las células B y C se les pone en un medio hipotónico y se añaden determinadas enzimas que degradan la pectina, la mureína o la celulosa, se obtienen los siguientes resultados.",
+  "q": "<b>35.- Tres tipos celulares diferentes (A, B y C) se mantienen en el laboratorio en un medio hipotónico. En estas condiciones, la célula A muere y las células B y C sobreviven. Sin embargo, cuando a las células B y C se les pone en un medio hipotónico y se añaden determinadas enzimas que degradan la pectina, la mureína o la celulosa, se obtienen los siguientes resultados (véase la figura). Indique de forma razonada, para cada una de las células (A, B y C):</b><br>a) cuál es su organización celular [0,15];<br>b) a qué grupo pertenecen [0,15];<br>c) por qué se produce la muerte celular y cómo estarían involucradas las enzimas de degradación (en el caso de las células B y C) en dicha muerte celular [0,7].",
   "c": [
    "a) A: célula eucariotaB: célula procariotaC: célula eucariota",
    "b) A: célula animalB: bacteriaC: célula vegetal",
@@ -1490,7 +1501,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image7.webp",
   "imgThumb": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image7.thumb.webp",
   "imageDesc": null,
-  "q": "<b>3. En relación con la figura adjunta, conteste las siguientes cuestiones:</b><br>a) Nombre los dos componentes del citoesqueleto<br>b) Las figuras señaladas con los números del 1",
+  "q": "<b>3. En relación con la figura adjunta, conteste las siguientes cuestiones:</b><br>a) Nombre los dos componentes del citoesqueleto que están representados en A y B [0,2].<br>b) Las figuras señaladas con los números del 1 al 4 representan cuatro funciones desempeñadas por el citoesqueleto. Identifique, en cada caso, de qué función se trata y qué elemento del citoesqueleto la realiza [0,8].",
   "c": [
    "a) A: microtúbulo; B: filamento de actina",
    "b) 1: citocinesis de célula animal, filamentos de actina; 2: desplazamiento del espermatozoide por movimiento del flagelo, microtúbulo; 3: movimiento de cromosomas durante la división celular, microtúbulos; 4: movimiento ameboide, filamentos de actina"
@@ -1512,9 +1523,11 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image8.webp",
   "imgThumb": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image8.thumb.webp",
   "imageDesc": null,
-  "q": "<b>4. Atendiendo a la imagen adjunta, indique el nombre de las estructuras numeradas del 1 al 10 [1]. 1: aparato de Golgi; 2: núcleo; 3: ribosoma; 4: RER; 5: cloroplasto; 6: mitocondria; 7: citoplasma; 8: plasmodesmo; 9: pared celular; 10: vacuola</b>",
-  "c": [],
-  "f": "Pregunta y figura transcritas de «B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx». El documento no incluía solución para esta pregunta.",
+  "q": "<b>4. Atendiendo a la imagen adjunta, indique el nombre de las estructuras numeradas del 1 al 10 [1].</b>",
+  "c": [
+   "1: aparato de Golgi; 2: núcleo; 3: ribosoma; 4: RER; 5: cloroplasto; 6: mitocondria; 7: citoplasma; 8: plasmodesmo; 9: pared celular; 10: vacuola."
+  ],
+  "f": "Pregunta y figura transcritas de «B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx». La solución mostrada es la del propio documento.",
   "origen": {
    "documento": "B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx",
    "figura": "figdocx-b2-tema-7-8-9-biologia-celular-image8",
@@ -1531,7 +1544,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image14.webp",
   "imgThumb": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image14.thumb.webp",
   "imageDesc": null,
-  "q": "<b>10. En relación con la imagen adjunta, en la que se observa el núcleo de una célula eucariota, responda a las siguientes cuestiones:</b><br>a) Identifique los elementos señalados<br>b) Indique una función de cada uno de ellos[0,5].<br>c) Indique en qué fase del ciclo celular se<br>d) Defina los términos: cromátidas, centrómero y",
+  "q": "<b>10. En relación con la imagen adjunta, en la que se observa el núcleo de una célula eucariota, responda a las siguientes cuestiones:</b><br>a) Identifique los elementos señalados con A, B, C, D y E [0,5].<br>b) Indique una función de cada uno de ellos[0,5].<br>c) Indique en qué fase del ciclo celular se encuentra el material genético y cite tres niveles sucesivos de compactación del mismo [0,4].<br>d) Defina los términos: cromátidas, centrómero y cromosomas homólogos [0,6].",
   "c": [
    "a) A: nucleolo; B: heterocromatina; C: poro nuclear; D: eucromatina; E: envoltura nuclear",
    "b) Nucleolo: biosíntesis de componentes de los ribosomas. Heterocromatina: cromatina no activa. Poro nuclear: transporte de moléculas a través de la envoltura nuclear. Eucromatina: cromatina activa. Envoltura nuclear: separa el núcleo del citoplasma",
@@ -1555,7 +1568,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image15.webp",
   "imgThumb": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image15.thumb.webp",
   "imageDesc": null,
-  "q": "<b>11. En relación con las figuras adjuntas, conteste las siguientes cuestiones</b><br>a) ¿Qué tipos de células están<br>b) ¿Qué tipo de nutrición tiene la célula A? [0,2]<br>c) ¿Qué tipo de nutrición tiene la célula B? [0,2]<br>d) ¿Qué estructuras están representadas<br>e) Indique dos estructuras características del tipo<br>f) Cite dos estructuras características del tipo celular<br>g) Indique el tipo de citocinesis que presenta cada",
+  "q": "<b>11. En relación con las figuras adjuntas, conteste las siguientes cuestiones</b><br>a) ¿Qué tipos de células están representadas en la imagen A y en la imagen B? [0,2]<br>b) ¿Qué tipo de nutrición tiene la célula A? [0,2]<br>c) ¿Qué tipo de nutrición tiene la célula B? [0,2]<br>d) ¿Qué estructuras están representadas con los números 1, 2, 3 y 4? [0,4]<br>e) Indique dos estructuras características del tipo celular representado en la imagen A que no existan en el tipo celular representado en la imagen B [0,4].<br>f) Cite dos estructuras características del tipo celular representado en la imagen B que no existan en el tipo celular representado en la imagen A [0,4].<br>g) Indique el tipo de citocinesis que presenta cada uno de estos tipos celulares [0,2].",
   "c": [
    "a) A: célula eucariota animalB: célula eucariota vegetal",
    "b) Nutricion heterótrofac) Nutricion autótrofa",
@@ -1580,7 +1593,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image16.webp",
   "imgThumb": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image16.thumb.webp",
   "imageDesc": null,
-  "q": "<b>12. En relación con las figuras adjuntas, conteste las siguientes cuestiones:</b><br>a) Indique el nombre de los orgánulos representados<br>b) Cite en qué tipos de células podemos encontrar cada<br>c) Mencione la composición de cada uno de ellos [0,2].<br>d) Especifique el lugar de la célula en la que se fabrican<br>e) Indique dos funciones del orgánulo A [0,3].<br>f) Indique una función del orgánulo B [0,2].<br>g) ¿En qué́ lugares de la célula se puede encontrar<br>h) ¿En qué́ lugares de la célula se",
+  "q": "<b>12. En relación con las figuras adjuntas, conteste las siguientes cuestiones:</b><br>a) Indique el nombre de los orgánulos representados con las letras A y B [0,3].<br>b) Cite en qué tipos de células podemos encontrar cada uno de ellos [0,3].<br>c) Mencione la composición de cada uno de ellos [0,2].<br>d) Especifique el lugar de la célula en la que se fabrican los componentes de cada uno de ellos [0,2].<br>e) Indique dos funciones del orgánulo A [0,3].<br>f) Indique una función del orgánulo B [0,2].<br>g) ¿En qué lugares de la célula se puede encontrar el orgánulo A? [0,2]<br>h) ¿En qué lugares de la célula se puede encontrar el orgánulo B? [0,3]",
   "c": [
    "a) A: centriolos o diplosoma; B: ribosoma",
    "b) A: en células eucariotas animales; B: en todas las eucariotas y procariotas",
@@ -1608,7 +1621,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image19.webp",
   "imgThumb": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image19.thumb.webp",
   "imageDesc": null,
-  "q": "<b>15. En relación con el esquema adjunto, conteste a las siguientes cuestiones:</b><br>a) ¿Qué proceso representa el esquema? [0,2].<br>b) ¿Mediante cuál de estos cuatro procesos pasarán las moléculas de CO2, de O2 y de H2O a través de la estructura 1 y qué nombre recibe este proceso? [0,2]. ¿Qué nombre reciben los procesos B y C? [0,2]. Indique el nombre de un proceso del tipo D y mencione una característica del mismo [0,3]. ¿Pueden las células funcionar únicamente con los procesos A, B y C? ¿Por qué́? [0,3].",
+  "q": "<b>15. En relación con el esquema adjunto, conteste a las siguientes cuestiones:</b><br>a) ¿Qué proceso representa el esquema? [0,2]. Identifique la estructura señalada con el número 1 y las moléculas señaladas con el número 2 [0,2]. ¿A qué tipo de biomoléculas pertenecen las moléculas identificadas con el número 3? [0,2]. En función de los requerimientos energéticos es posible clasificar los cuatro procesos señalados como A, B, C y D en dos grupos. Indique el nombre de cada grupo [0,2] y a qué procesos pertenecen cada uno [0,2].<br>b) ¿Mediante cuál de estos cuatro procesos pasarán las moléculas de CO2, de O2 y de H2O a través de la estructura 1 y qué nombre recibe este proceso? [0,2]. ¿Qué nombre reciben los procesos B y C? [0,2]. Indique el nombre de un proceso del tipo D y mencione una característica del mismo [0,3]. ¿Pueden las células funcionar únicamente con los procesos A, B y C? ¿Por qué́? [0,3].",
   "c": [
    "a) El transporte a través de la membrana plasmática. 1: Bicapa lipídica. 2: Fosfolípido. Las moléculas del número 3 son proteínas. Transporte pasivo, sin gasto de energía: A, B, y C. Transporte activo, con gasto de energía: D",
    "b) Por difusión simple. El B y el C es difusión facilitada. Un ejemplo de proceso D es la bomba de Na+-K, q es en contra de gradiente. . El transporte se produce en contra de gradiente. No. Porque el transporte activo es necesario para que las células mantengan la composición iónica intracelular, para importar solutos presentes en el exterior de la célula a menor concentración que en el interior (cualquier respuesta correcta será válida) (una sola respuesta)"
@@ -1649,7 +1662,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image21.webp",
   "imgThumb": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image21.thumb.webp",
   "imageDesc": null,
-  "q": "<b>18.- A la vista de los esquemas responda razonadamente a las siguientes preguntas: 1212a).- Los esquemas 1 y 2 representan dos formas distintas de transporte a través de la membrana: Identifíquelas y descríbalas [1].</b><br>b) Describa la composición química de la membrana plasmática [1].",
+  "q": "<b>18.- A la vista de los esquemas responda razonadamente a las siguientes preguntas:</b><br>a) Los esquemas 1 y 2 representan dos formas distintas de transporte a través de la membrana: identifíquelas y descríbalas [1].<br>b) Describa la composición química de la membrana plasmática [1].",
   "c": [],
   "f": "Pregunta y figura transcritas de «B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx». El documento no incluía solución para esta pregunta.",
   "origen": {
@@ -1668,7 +1681,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image28.webp",
   "imgThumb": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image28.thumb.webp",
   "imageDesc": null,
-  "q": "<b>20.- A la vista del esquema conteste a las siguientes preguntas:</b><br>a) ¿Qué proceso celular representa? [0,25]. ¿Cuáles son",
+  "q": "<b>20.- A la vista del esquema conteste a las siguientes preguntas:</b><br>a) ¿Qué proceso celular representa? [0,25]. ¿Cuáles son los componentes celulares indicados con los números 1, 2 y 4? Enuncie la función que realiza cada uno de ellos en este proceso [0,75].",
   "c": [
    "b) Describa detalladamente dos funciones del"
   ],
@@ -1708,7 +1721,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image31.webp",
   "imgThumb": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image31.thumb.webp",
   "imageDesc": null,
-  "q": "<b>22.- A la vista del esquema conteste a las siguientes preguntas:</b><br>a) ¿De qué orgánulo celular se trata? [0,1]. ¿Qué células lo",
+  "q": "<b>22.- A la vista del esquema conteste a las siguientes preguntas:</b><br>a) ¿De qué orgánulo celular se trata? [0,1]. ¿Qué células lo tienen? [0,2]. Identifique los distintos elementos que aparecen en el esquema [0,7].",
   "c": [
    "b) Describa brevemente la principal función que realiza este"
   ],
@@ -1750,7 +1763,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image35.webp",
   "imgThumb": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image35.thumb.webp",
   "imageDesc": null,
-  "q": "<b>25.- En relación con la imagen adjunta, responda las siguientes cuestiones:</b><br>a) Indique si se trata de una célula animal<br>b) Nombre una función de cada una de las",
+  "q": "<b>25.- En relación con la imagen adjunta, responda las siguientes cuestiones:</b><br>a) Indique si se trata de una célula animal o vegetal [0,2]. Nombre tres criterios en los que se basa para contestar el apartado anterior [0,3]. ¿Qué señala cada número? [0,5].<br>b) Nombre una función de cada una de las estructuras señaladas con los números 2 y 3 [0,5].",
   "c": [],
   "f": "Pregunta y figura transcritas de «B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx». El documento no incluía solución para esta pregunta.",
   "origen": {
@@ -1864,9 +1877,12 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image41.webp",
   "imgThumb": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image41.thumb.webp",
   "imageDesc": null,
-  "q": "<b>32.- A la vista de la figura adjunta, conteste a las siguientes cuestiones: ¿Qué tipo de célula representa el dibujo? [0,1]. Nombre las estructuras numeradas del 1 al 9 [0,9].</b><br>a) Es una célula procariota (bacteria)<br>b) 1: flagelo; 2: plásmido; 3: ribosomas; 4: pared celular; 5: membrana plasmática; 6: capsula; 7: pili o fimbrias; 8: citoplasma; 9: material genético (nucleoide)",
-  "c": [],
-  "f": "Pregunta y figura transcritas de «B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx». El documento no incluía solución para esta pregunta.",
+  "q": "<b>32.- A la vista de la figura adjunta, conteste a las siguientes cuestiones: ¿Qué tipo de célula representa el dibujo? [0,1]. Nombre las estructuras numeradas del 1 al 9 [0,9].</b>",
+  "c": [
+   "Es una célula procariota (bacteria).",
+   "1: flagelo; 2: plásmido; 3: ribosomas; 4: pared celular; 5: membrana plasmática; 6: cápsula; 7: pili o fimbrias; 8: citoplasma; 9: material genético (nucleoide)."
+  ],
+  "f": "Pregunta y figura transcritas de «B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx». La solución mostrada es la del propio documento.",
   "origen": {
    "documento": "B2.TEMA 7-8-9. BIOLOGÍA CELULAR.docx",
    "figura": "figdocx-b2-tema-7-8-9-biologia-celular-image41",
@@ -1883,7 +1899,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image42.webp",
   "imgThumb": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image42.thumb.webp",
   "imageDesc": null,
-  "q": "<b>34.- En relación con la figura adjunta, conteste a las siguientes cuestiones:</b><br>a) ¿Qué orgánulo está representado? [0,1]<br>b) Identifique los elementos señalados con<br>c) Indique el nombre de las estructuras A y B<br>d) ¿En qué otra localización de la célula",
+  "q": "<b>34.- En relación con la figura adjunta, conteste a las siguientes cuestiones:</b><br>a) ¿Qué orgánulo está representado? [0,1]<br>b) Identifique los elementos señalados con los números del 1al 5 [0,5].<br>c) Indique el nombre de las estructuras A y B y en qué lugar del orgánulo se encuentran cada una de ellas [0,3].<br>d) ¿En qué otra localización de la célula eucariótica se encuentra la estructura B con exactamente las mismas características? [0,1]",
   "c": [
    "a) Cloroplasto",
    "b) 1: membrana externa; 2: membrana interna; 3: estroma; 4: grana; 5: tilacoide",
@@ -1926,7 +1942,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image45.webp",
   "imgThumb": "assets/figuras/docx/b2-tema-7-8-9-biologia-celular/image45.thumb.webp",
   "imageDesc": null,
-  "q": "<b>37.- En relación con la figura adjunta, que muestra una estructura presente en algunas células eucarióticas, conteste a las siguientes cuestiones:</b><br>a) Nombre dos estructuras celulares<br>b) ¿Qué elementos del citoesqueleto forman<br>c) Relacione los cortes 1 y 2 de la<br>d) Indique el nombre de la estructura<br>e) ¿Qué otra estructura de la célula",
+  "q": "<b>37.- En relación con la figura adjunta, que muestra una estructura presente en algunas células eucarióticas, conteste a las siguientes cuestiones:</b><br>a) Nombre dos estructuras celulares que podrían estar representadas por la imagen A [0,2] e identifique las partes señaladas con los números 1 y 2 [0,2].<br>b) ¿Qué elementos del citoesqueleto forman parte de dicha estructura? [0,1]<br>c) Relacione los cortes 1 y 2 de la estructura A con las imágenes B, C o D [0,2].<br>d) Indique el nombre de la estructura señalada con el número 3 [0,15].<br>e) ¿Qué otra estructura de la célula eucariótica presenta una organización similar a la que tiene el elemento 2? [0,15]",
   "c": [
    "b) Microtúbulos",
    "c) corte 1: C; corte 2: B",
@@ -1999,7 +2015,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b3-tema-11-12-metabolismo/image1.webp",
   "imgThumb": "assets/figuras/docx/b3-tema-11-12-metabolismo/image1.thumb.webp",
   "imageDesc": null,
-  "q": "<b>1. En relación con la imagen adjunta, conteste a las siguientes cuestiones: (JN 2021, P6 2020)</b><br>a) ¿Qué estructura representa? [0,1]<br>b) Indique el nombre de los compuestos A, B, C, D,<br>c) ¿Qué proceso da lugar a la formación",
+  "q": "<b>1. En relación con la imagen adjunta, conteste a las siguientes cuestiones: (JN 2021, P6 2020)</b><br>a) ¿Qué estructura representa? [0,1]<br>b) Indique el nombre de los compuestos A, B, C, D, E y F y de las localizaciones intracelulares G y H [0,8].<br>c) ¿Qué proceso da lugar a la formación del compuesto F? [0,1]",
   "c": [
    "a) Membrana tilacoidal",
    "b) A: H2O; B: H+; C: NADP+; D: NADPH; E: ADP; F: ATP;",
@@ -2022,7 +2038,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b3-tema-11-12-metabolismo/image2.webp",
   "imgThumb": "assets/figuras/docx/b3-tema-11-12-metabolismo/image2.thumb.webp",
   "imageDesc": null,
-  "q": "<b>2. El siguiente esquema representa un proceso básico en algunos organismos:</b><br>a) Indique cómo se denomina el proceso representado [0,25].<br>b) ¿En qué́ orgánulo tiene lugar dicho proceso? [0,25].<br>c) Indique los nombres de las moléculas<br>d) ¿Cuál es el significado biológico<br>e) ¿Cuál es el destino de las moléculas obtenidas al final de",
+  "q": "<b>2. El siguiente esquema representa un proceso básico en algunos organismos:</b><br>a) Indique cómo se denomina el proceso representado [0,25].<br>b) ¿En qué́ orgánulo tiene lugar dicho proceso? [0,25].<br>c) Indique los nombres de las moléculas o procesos señalados con los números del 1 al 5. [0,5].<br>d) ¿Cuál es el significado biológico del proceso representado?[0,5]<br>e) ¿Cuál es el destino de las moléculas obtenidas al final de este proceso?[0,5]",
   "c": [
    "a) Fase dependiente de la luz de la fotosíntesis (cadena de transporte de electrones y fotofosforilación)",
    "b) Cloroplasto",
@@ -2119,9 +2135,12 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b3-tema-11-12-metabolismo/image10.webp",
   "imgThumb": "assets/figuras/docx/b3-tema-11-12-metabolismo/image10.thumb.webp",
   "imageDesc": null,
-  "q": "<b>10.-Observe la figura adjunta y responda razonadamente a las siguientes cuestiones:</b><br>a) Identifique los compuestos representados<br>b) Identifique los compuestos representados por",
-  "c": [],
-  "f": "Pregunta y figura transcritas de «B3.TEMA 11-12. METABOLISMO.docx». El documento no incluía solución para esta pregunta.",
+  "q": "<b>10.-Observe la figura adjunta y responda razonadamente a las siguientes cuestiones:</b><br>a) Identifique los compuestos representados por los números 1, 2 y 3 y los procesos representados con las letras A y B [0,5]. Comente brevemente lo que ocurre en el proceso señalado con la letra A [0,5].<br>b) Identifique los compuestos representados por los números 4, 5, 6, 7 y 8 [0,5]. Comente brevemente lo que ocurre en el proceso señalado con la letra B [0,5].",
+  "c": [
+   "a) 1: proteínas; 2: polisacáridos; 3: lípidos; proceso A: ciclo de Krebs; proceso B: cadena de transporte electrónico. En el ciclo de Krebs, que se inicia con el acetil-CoA procedente de las moléculas orgánicas, se produce la oxidación completa del grupo acetilo.",
+   "b) 4: acetil-CoA; 5: CO₂; 6: NADH; 7: ADP + Pi; 8: ATP. En la cadena de transporte electrónico, los electrones del NADH se transportan mediante reacciones de oxidación-reducción hasta el aceptor final, el O₂, formando H₂O; ocurre en la membrana mitocondrial interna."
+  ],
+  "f": "Pregunta y figura transcritas de «B3.TEMA 11-12. METABOLISMO.docx». La solución mostrada es la del propio documento.",
   "origen": {
    "documento": "B3.TEMA 11-12. METABOLISMO.docx",
    "figura": "figdocx-b3-tema-11-12-metabolismo-image10",
@@ -2362,7 +2381,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b3-tema-11-12-metabolismo/image23.webp",
   "imgThumb": "assets/figuras/docx/b3-tema-11-12-metabolismo/image23.thumb.webp",
   "imageDesc": null,
-  "q": "<b>23. En relación con la figura adjunta, conteste a las siguientes cuestiones:</b><br>a) ¿Qué proceso biológico se representa en la<br>b) Identifique a qué corresponde cada número del",
+  "q": "<b>23. En relación con la figura adjunta, conteste a las siguientes cuestiones:</b><br>a) ¿Qué proceso biológico se representa en la figura? [0,2]<br>b) Identifique a qué corresponde cada número del 1 al 8 [0,8].",
   "c": [
    "a) Fase dependiente de la luz de la fotosíntesis (fase luminosa)",
    "b) 1: luz; 2: agua; 3: oxígeno; 4: protones (H+); 5: NADP+; 6: NADPH; 7: ADP+Pi; 8: ATP"
@@ -2384,9 +2403,11 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b4-tema-13-base-quimica-de-la-herencia/image1.webp",
   "imgThumb": "assets/figuras/docx/b4-tema-13-base-quimica-de-la-herencia/image1.thumb.webp",
   "imageDesc": null,
-  "q": "<b>34. Usando los símbolos adjuntos, dibuje una cadena de ADN que tenga la secuencia 5’-ATCG-3’ [0,5]. Dibuje también una molécula de ARN con la secuencia complementaria a la molécula de ADN anterior [0,5]. USAR LOS SIMBOLOS UNIENDO EL 5´DE UN NUCLEOTIDO CON EL 3´DEL NUCLEOTIDO DE ARRIBA PONIENDO EL “P” ENTRE ELLOS, Y LA BASE CORRESPONDIENTE EN EL CARBONO A LA DERECHA DEL OXIGENO.</b>",
-  "c": [],
-  "f": "Pregunta y figura transcritas de «B4.TEMA 13. BASE QUÍMICA DE LA HERENCIA.docx». El documento no incluía solución para esta pregunta.",
+  "q": "<b>34. Usando los símbolos adjuntos, dibuje una cadena de ADN que tenga la secuencia 5’-ATCG-3’ [0,5]. Dibuje también una molécula de ARN con la secuencia complementaria a la molécula de ADN anterior [0,5].</b>",
+  "c": [
+   "Se usan los símbolos uniendo el carbono 5′ de un nucleótido con el 3′ del nucleótido de arriba, con el fosfato (P) entre ellos, y la base correspondiente en el carbono a la derecha del oxígeno."
+  ],
+  "f": "Pregunta y figura transcritas de «B4.TEMA 13. BASE QUÍMICA DE LA HERENCIA.docx». La solución mostrada es la del propio documento.",
   "origen": {
    "documento": "B4.TEMA 13. BASE QUÍMICA DE LA HERENCIA.docx",
    "figura": "figdocx-b4-tema-13-base-quimica-de-la-herencia-image1",
@@ -2403,7 +2424,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b4-tema-13-base-quimica-de-la-herencia/image2.webp",
   "imgThumb": "assets/figuras/docx/b4-tema-13-base-quimica-de-la-herencia/image2.thumb.webp",
   "imageDesc": null,
-  "q": "<b>1. En relación con la figura adjunta, conteste las siguientes cuestiones:</b><br>a) Indique el nombre de las moléculas 1, 2 y 3 [0,3].<br>b) ¿Qué representan las letras A y B? [0,2]<br>c) Cite los procesos realizados por A y por B [0,2].<br>d) Indique en qué lugar de la célula eucariótica se<br>e) Nombre una molécula similar a 2 y que",
+  "q": "<b>1. En relación con la figura adjunta, conteste las siguientes cuestiones:</b><br>a) Indique el nombre de las moléculas 1, 2 y 3 [0,3].<br>b) ¿Qué representan las letras A y B? [0,2]<br>c) Cite los procesos realizados por A y por B [0,2].<br>d) Indique en qué lugar de la célula eucariótica se produce cada uno de los dos procesos [0,2].<br>e) Nombre una molécula similar a 2 y que forme parte de B [0,1].",
   "c": [
    "a) 1: ADN; 2: ARN mensajero; 3: proteína o cadena polipeptídica",
    "b) A: ARN polimerasa; B: ribosoma",
@@ -2428,7 +2449,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b4-tema-13-base-quimica-de-la-herencia/image4.webp",
   "imgThumb": "assets/figuras/docx/b4-tema-13-base-quimica-de-la-herencia/image4.thumb.webp",
   "imageDesc": null,
-  "q": "<b>3. En relación con la figura adjunta, responda las siguientes preguntas:</b><br>a) Nombre las moléculas representadas con los números<br>b) Cite el nombre del proceso A que<br>c) ¿Qué se representa con el número 5? [0,2]<br>d) Cite el nombre del proceso B que permite<br>e) Cite el nombre de la macromolécula representada",
+  "q": "<b>3. En relación con la figura adjunta, responda las siguientes preguntas:</b><br>a) Nombre las moléculas representadas con los números 1, 2 y 3 [0,3].<br>b) Cite el nombre del proceso A que permite la síntesis de la molécula número 2 [0,2].<br>c) ¿Qué se representa con el número 5? [0,2]<br>d) Cite el nombre del proceso B que permite la síntesis de la molécula número 4 [0,2].<br>e) Cite el nombre de la macromolécula representada con el número 4 [0,1].",
   "c": [
    "a) 1: ADN; 2: ARN mensajero",
    "b) A: transcripción",
@@ -2453,7 +2474,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b4-tema-13-base-quimica-de-la-herencia/image5.webp",
   "imgThumb": "assets/figuras/docx/b4-tema-13-base-quimica-de-la-herencia/image5.thumb.webp",
   "imageDesc": null,
-  "q": "<b>4. En relación con la figura adjunta, conteste a las siguientes cuestiones:</b><br>a) ¿Qué proceso se representa en las figuras<br>b) ¿En qué grupos de organismos se<br>c) Indique qué partes del proceso<br>d) Indique el nombre de la molécula señalada con el",
+  "q": "<b>4. En relación con la figura adjunta, conteste a las siguientes cuestiones:</b><br>a) ¿Qué proceso se representa en las figuras A y B? [0,2]<br>b) ¿En qué grupos de organismos se produce el proceso representado en la figura A? ¿Y en la B? [0,2]<br>c) Indique qué partes del proceso están señaladas con los números 1 y 2 [0,2].<br>d) Indique el nombre de la molécula señalada con el número 3 y de la porción señalada con el número 4 [0,4].",
   "c": [
    "a) Replicación del ADN",
    "b) A: bacterias (procariotas); B: eucariotas",
@@ -2477,7 +2498,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b4-tema-13-base-quimica-de-la-herencia/image6.webp",
   "imgThumb": "assets/figuras/docx/b4-tema-13-base-quimica-de-la-herencia/image6.thumb.webp",
   "imageDesc": null,
-  "q": "<b>5. En relación con la figura adjunta, responda a las siguientes cuestiones:</b><br>a) Indique qué estructura representa la figura [0,2].<br>b) Nombre las partes señaladas con",
+  "q": "<b>5. En relación con la figura adjunta, responda a las siguientes cuestiones:</b><br>a) Indique qué estructura representa la figura [0,2].<br>b) Nombre las partes señaladas con números del 1 al 4 [0,8].",
   "c": [
    "a) Cromosoma (metafásico)",
    "b) 1: centrómero; 2: brazos; 3: cromátidas; 4: telómeros"
@@ -2499,7 +2520,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b4-tema-13-base-quimica-de-la-herencia/image7.webp",
   "imgThumb": "assets/figuras/docx/b4-tema-13-base-quimica-de-la-herencia/image7.thumb.webp",
   "imageDesc": null,
-  "q": "<b>6. En relación con la figura adjunta, responda a las siguientes cuestiones:</b><br>a) Nombre las moléculas representadas<br>b) ¿Cómo se denominan los procesos de<br>c) ¿Qué representa el número 7? [0,1]",
+  "q": "<b>6. En relación con la figura adjunta, responda a las siguientes cuestiones:</b><br>a) Nombre las moléculas representadas con los números 1, 2, 4, 5 y 6 [0,5].<br>b) ¿Cómo se denominan los procesos de la figura que se desarrollan en el núcleo? [0,4]<br>c) ¿Qué representa el número 7? [0,1]",
   "c": [
    "a) 1: ADN; 2: ARN polimerasa;",
    "b) Transcripción y maduración",
@@ -2522,7 +2543,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b4-tema-13-base-quimica-de-la-herencia/image8.webp",
   "imgThumb": "assets/figuras/docx/b4-tema-13-base-quimica-de-la-herencia/image8.thumb.webp",
   "imageDesc": null,
-  "q": "<b>7. En relación con la figura adjunta, responda a las siguientes cuestiones:</b><br>a) Nombre las moléculas A, B y C [0,3].<br>b) Indique cómo se denominan los monómeros<br>c) Nombre los procesos por los que se sintetizan las<br>d) Explique el hecho de que las anotaciones 3' y 5' de<br>e) Describa el proceso por el que se sintetiza la",
+  "q": "<b>7. En relación con la figura adjunta, responda a las siguientes cuestiones:</b><br>a) Nombre las moléculas A, B y C [0,3].<br>b) Indique cómo se denominan los monómeros de las moléculas B y C [0,2] y cuál es la composición de los monómeros de la molécula C [0,3].<br>c) Nombre los procesos por los que se sintetizan las moléculas A y C [0,2].<br>d) Explique el hecho de que las anotaciones 3' y 5' de la molécula A se sitúen en posiciones opuestas [0,2].<br>e) Describa el proceso por el que se sintetiza la molécula A [0,8].",
   "c": [
    "a) A: ADN; B: ARN polimerasa; C: ARN",
    "b) B: aminoácidos; C: nucleótidos (o ribonucleótidos)",
@@ -2598,7 +2619,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b4-tema-13-base-quimica-de-la-herencia/image11.webp",
   "imgThumb": "assets/figuras/docx/b4-tema-13-base-quimica-de-la-herencia/image11.thumb.webp",
   "imageDesc": null,
-  "q": "<b>10. En relación con la figura adjunta, responda a las siguientes cuestiones:</b><br>a) ¿Qué proceso biológico representa? [0,2].<br>b) Identifique los elementos señalados con l<br>c) Indique el tipo de enlace que caracteriza<br>d) Indique la composición [0,25] y la",
+  "q": "<b>10. En relación con la figura adjunta, responda a las siguientes cuestiones:</b><br>a) ¿Qué proceso biológico representa? [0,2].<br>b) Identifique los elementos señalados con l as letras A, B, C, y D [0,8].<br>c) Indique el tipo de enlace que caracteriza a la molécula C y escriba la reacción de formación de este enlace [0,5]. )<br>d) Indique la composición [0,25] y la función que desempeña el elemento A en este proceso [0,25].",
   "c": [
    "a) Traduccion o síntesis de proteínas",
    "b) A: Aminoacil-ARNt o ARNt. B: ARNm. C: péptido en formación. D: Subunidad mayor o ribosoma",
@@ -2844,7 +2865,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b5-tema-15-inmunologia/image1.webp",
   "imgThumb": "assets/figuras/docx/b5-tema-15-inmunologia/image1.thumb.webp",
   "imageDesc": null,
-  "q": "<b>1. En relación con la figura adjunta, conteste a las siguientes preguntas:</b><br>a) ¿Qué tipo de molécula representa la imagen? [0,2]<br>b) ¿En qué́ tipo de respuesta inmunitaria humoral es<br>c) Indique qué cadenas polipeptídicas forman el monómero<br>d) Indique, en un organismo, dónde se localiza",
+  "q": "<b>1. En relación con la figura adjunta, conteste a las siguientes preguntas:</b><br>a) ¿Qué tipo de molécula representa la imagen? [0,2]<br>b) ¿En qué́ tipo de respuesta inmunitaria humoral es predominante? [0,2]<br>c) Indique qué cadenas polipeptídicas forman el monómero señalado con el recuadro [0,4].<br>d) Indique, en un organismo, dónde se localiza la molécula representada [0,2].",
   "c": [
    "a) IgM",
    "b) Respuesta primaria",
@@ -2891,7 +2912,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b5-tema-15-inmunologia/image4.webp",
   "imgThumb": "assets/figuras/docx/b5-tema-15-inmunologia/image4.thumb.webp",
   "imageDesc": null,
-  "q": "<b>4. En relación con la figura adjunta que representa distintos procedimientos experimentales cuya finalidad es evitar la muerte causada por un patógeno, responda a las siguientes cuestiones:</b><br>a) ¿Qué tipo de tratamiento se está́ utilizando en<br>b) En el caso 2, ¿qué células son las que actúan<br>c) ¿De qué otra manera, por vía natural, podría el<br>d) ¿Qué tipo de tratamiento se utiliza en el caso 3 al<br>e) ¿Qué ocurrirá́ con los componentes de la sustancia B",
+  "q": "<b>4. En relación con la figura adjunta que representa distintos procedimientos experimentales cuya finalidad es evitar la muerte causada por un patógeno, responda a las siguientes cuestiones:</b><br>a) ¿Qué tipo de tratamiento se está́ utilizando en el caso 2 al inyectar la sustancia A? [0,2]<br>b) En el caso 2, ¿qué células son las que actúan para protegerlo de la acción del patógeno? [0,2]<br>c) ¿De qué otra manera, por vía natural, podría el ratón del caso 2 evitar la muerte? [0,2]<br>d) ¿Qué tipo de tratamiento se utiliza en el caso 3 al inyectar la sustancia B (extraída del ratón vivo del caso 2)? [0,2]<br>e) ¿Qué ocurrirá́ con los componentes de la sustancia B pasados unos meses? [0,2]",
   "c": [
    "a) Vacuna",
    "b) Linfocitos de memoria",
@@ -2937,7 +2958,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b5-tema-15-inmunologia/image7.webp",
   "imgThumb": "assets/figuras/docx/b5-tema-15-inmunologia/image7.thumb.webp",
   "imageDesc": null,
-  "q": "<b>7. En relación con las figuras adjuntas, conteste a las siguientes cuestiones:</b><br>a) ¿Qué proceso representa la imagen 1? [0,1]<br>b) ¿Qué células pueden realizar este proceso? [0,2]<br>c) ¿Cuál de ellas actúa como célula presentadora<br>d) ¿Cómo se denominan las moléculas señaladas<br>e) Cite dos funciones de estas moléculas [0,3].",
+  "q": "<b>7. En relación con las figuras adjuntas, conteste a las siguientes cuestiones:</b><br>a) ¿Qué proceso representa la imagen 1? [0,1]<br>b) ¿Qué células pueden realizar este proceso? [0,2]<br>c) ¿Cuál de ellas actúa como célula presentadora de antígenos? [0,2]<br>d) ¿Cómo se denominan las moléculas señaladas con la flecha en la imagen 2? [0,2]<br>e) Cite dos funciones de estas moléculas [0,3].",
   "c": [
    "a) Fagocitosis.",
    "b) Macrófagos o neutrófilos",
@@ -2961,7 +2982,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b5-tema-15-inmunologia/image9.webp",
   "imgThumb": "assets/figuras/docx/b5-tema-15-inmunologia/image9.thumb.webp",
   "imageDesc": null,
-  "q": "<b>9. En relación con la figura adjunta, conteste a las siguientes cuestiones:</b><br>a) ¿Qué tipo de molécula representa la imagen? [0,2]<br>b) ¿Cuál es su naturaleza química? [0,1]<br>c) ¿Qué indican los números 1, 2 y 3? [0,3]<br>d) ¿Qué indican las letras C y V? [0,2]<br>e) ¿Qué células la producen? [0,2]<br>f) Indica los distintos tipos que hay",
+  "q": "<b>9. En relación con la figura adjunta, conteste a las siguientes cuestiones:</b><br>a) ¿Qué tipo de molécula representa la imagen? [0,2]<br>b) ¿Cuál es su naturaleza química? [0,1]<br>c) ¿Qué indican los números 1, 2 y 3? [0,3]<br>d) ¿Qué indican las letras C y V? [0,2]<br>e) ¿Qué células la producen? [0,2]<br>f) Indica los distintos tipos que hay [0,5].",
   "c": [
    "a) Anticuerpo o inmunoglobulina",
    "b) Proteica (glucoproteica)",
@@ -3014,7 +3035,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b5-tema-15-inmunologia/image13.webp",
   "imgThumb": "assets/figuras/docx/b5-tema-15-inmunologia/image13.thumb.webp",
   "imageDesc": null,
-  "q": "<b>13. En relación a la figura, conteste a las siguientes preguntas:</b><br>a) Indique los elementos o células numerados del 1 al 7 [0,7].<br>b) Nombre los procesos representados con<br>c) ¿En qué se diferencian las células señaladas<br>d) Indique una función de la célula representada con el",
+  "q": "<b>13. En relación a la figura, conteste a las siguientes preguntas:</b><br>a) Indique los elementos o células numerados del 1 al 7 [0,7].<br>b) Nombre los procesos representados con las letras A, B y C [0,3].<br>c) ¿En qué se diferencian las células señaladas con el número 5 de las células del número 6, desde el punto de vista funcional? [0,5]<br>d) Indique una función de la célula representada con el número 2 y una de la representada con el número 4 [0,5].",
   "c": [
    "a) 1:Microorganismo patógeno o antígeno; 2: macrófago; 3: linfocito B, 4: linfocito T; 5: células plasmáticas; 6: linfocitos B de memoria; 7: anticuerpos",
    "b) A: fagocitosis; B: presentación de antígenos a los linfocitos B; C: presentación de antígenos a los linfocitos T",
@@ -3082,7 +3103,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b5-tema-15-inmunologia/image16.webp",
   "imgThumb": "assets/figuras/docx/b5-tema-15-inmunologia/image16.thumb.webp",
   "imageDesc": null,
-  "q": "<b>16.- A la vista del esquema, responda razonadamente a las siguientes cuestiones:</b><br>a) Establezca una diferencia entre la respuesta inmunitaria adquirida y no adquirida ante los contactos con el antígeno [0,5] y proponga una explicación para dicha diferencia [0,5].<br>b) Explique el significado de los términos específico/inespecífico aplicados a la respuesta inmunitaria [1].",
+  "q": "<b>16.- A la vista del esquema, responda razonadamente a las siguientes cuestiones:</b><br>a) Establezca una diferencia entre la respuesta inmunitaria adquirida y no adquirida ante los contactos con el antígeno [0,5] y proponga una explicación para dicha diferencia [0,5]. En la respuesta adquirida específica al tener un primer contacto con el antígeno se produce una reacción pero con el segundo contacto la reacción es mayor. En cambio en la respuesta no adquirida inespecífica en el primer y segundo contacto la respuesta es la misma, no hay variación. Esto ocurre debido a la memoria inmunológica que permite que en el segundo contacto ya haya células activadas frente a ese patógeno, por lo que la respuesta en más eficaz e impide el desarrollo de la enfermedad.<br>b) Explique el significado de los términos específico/inespecífico aplicados a la respuesta inmunitaria [1].",
   "c": [],
   "f": "Pregunta y figura transcritas de «B5. TEMA 15. INMUNOLOGÍA.docx». El documento no incluía solución para esta pregunta.",
   "origen": {
@@ -3101,7 +3122,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b5-tema-15-inmunologia/image17.webp",
   "imgThumb": "assets/figuras/docx/b5-tema-15-inmunologia/image17.thumb.webp",
   "imageDesc": null,
-  "q": "<b>17.- La figura adjunta representa una serie de fenómenos de la respuesta inmune. En relación con la misma:</b><br>a) Nombre las etapas indicadas desde las<br>b) Nombre las células, estructuras y",
+  "q": "<b>17.- La figura adjunta representa una serie de fenómenos de la respuesta inmune. En relación con la misma:</b><br>a) Nombre las etapas indicadas desde las letras A hasta la E [0,5].<br>b) Nombre las células, estructuras y elementos del sistema inmune señaladas con los números del 1 al 5 [0,5].",
   "c": [
    "a) A: fagocitosis (digestión intracelular)",
    "b) 1: Macrófago; 2: linfocito T; 3: linfocito B; 4: anticuerpo; 5: célula plasmática"
@@ -3123,7 +3144,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b5-tema-15-inmunologia/image18.webp",
   "imgThumb": "assets/figuras/docx/b5-tema-15-inmunologia/image18.thumb.webp",
   "imageDesc": null,
-  "q": "<b>18.- En relación con las alteraciones del sistema inmunitario, que se ejemplifican en la figura adjunta:</b><br>a) Señale el tipo de inmunodeficiencia<br>b) Identifique el elemento señalado<br>c) Indique el tipo de reacción inmunológica<br>d) Cite dos ejemplos de enfermedades",
+  "q": "<b>18.- En relación con las alteraciones del sistema inmunitario, que se ejemplifican en la figura adjunta:</b><br>a) Señale el tipo de inmunodeficiencia representada en el caso A [0,2].<br>b) Identifique el elemento señalado con el número 1 en el caso A [0,2].<br>c) Indique el tipo de reacción inmunológica representada en el caso B [0,2].<br>d) Cite dos ejemplos de enfermedades del caso B [0,4].",
   "c": [
    "a) Inmunodeficiencia adquirida",
    "b) VIH (retrovirus)",
@@ -3147,7 +3168,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b5-tema-15-inmunologia/image19.webp",
   "imgThumb": "assets/figuras/docx/b5-tema-15-inmunologia/image19.thumb.webp",
   "imageDesc": null,
-  "q": "<b>19.- En relación con la imagen adjunta, responda a las siguientes cuestiones:</b><br>a) ¿Qué molécula representa la imagen? [0,2]<br>b) ¿Qué células la sintetizan y en qué tipo de respuesta<br>c) ¿Qué representan los números 1, 2, 3 y 4? [0,4]<br>d) ¿Qué tipo de unión se representa con el número 5? [0,1]",
+  "q": "<b>19.- En relación con la imagen adjunta, responda a las siguientes cuestiones:</b><br>a) ¿Qué molécula representa la imagen? [0,2]<br>b) ¿Qué células la sintetizan y en qué tipo de respuesta inmunológica participa? [0,3]<br>c) ¿Qué representan los números 1, 2, 3 y 4? [0,4]<br>d) ¿Qué tipo de unión se representa con el número 5? [0,1]",
   "c": [
    "a) Anticuerpo (inmunoglobulina)",
    "b) Los linfocitos B o células plasmáticas. Participan en la",
@@ -3171,7 +3192,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b5-tema-15-inmunologia/image20.webp",
   "imgThumb": "assets/figuras/docx/b5-tema-15-inmunologia/image20.thumb.webp",
   "imageDesc": null,
-  "q": "<b>20.- En relación con la figura adjunta, que muestra un proceso celular:</b><br>a) Identifique las células o moléculas indicadas<br>b) Nombre el proceso ilustrado en la imagen<br>c) ¿En qué células se sintetizan las moléculas C?<br>d) ¿Cómo se llama el proceso de interacción",
+  "q": "<b>20.- En relación con la figura adjunta, que muestra un proceso celular:</b><br>a) Identifique las células o moléculas indicadas como A, B, C y D [0,4].<br>b) Nombre el proceso ilustrado en la imagen encuadrada de la derecha [0,2].<br>c) ¿En qué células se sintetizan las moléculas C? [0,2]<br>d) ¿Cómo se llama el proceso de interacción entre B y C y que está representado con la letra E? [0,2]",
   "c": [
    "a) A: fagocito (macrófago); B: antígeno (patógeno, bacteria, etc.); C: anticuerpo (IgG); D: receptor de anticuerpo (receptor de IgG)",
    "b) Fagocitosis",
@@ -3195,7 +3216,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b5-tema-15-inmunologia/image21.webp",
   "imgThumb": "assets/figuras/docx/b5-tema-15-inmunologia/image21.thumb.webp",
   "imageDesc": null,
-  "q": "<b>21.- En relación con los procesos alérgicos que se muestran en la figura:</b><br>a) Identifique la molécula 1 [0,2].<br>b) Señale el tipo de célula indicada con el número<br>c) Indique el nombre de la molécula 3 [0,2].<br>d) Indique el nombre de la sustancia señalada con<br>e) Señale un efecto en el organismo de la",
+  "q": "<b>21.- En relación con los procesos alérgicos que se muestran en la figura:</b><br>a) Identifique la molécula 1 [0,2].<br>b) Señale el tipo de célula indicada con el número 2 [0,1].<br>c) Indique el nombre de la molécula 3 [0,2].<br>d) Indique el nombre de la sustancia señalada con el número 4 [0,2].<br>e) Señale un efecto en el organismo de la molécula 4 [0,3].",
   "c": [
    "a) IgE",
    "b) Mastocito",
@@ -3220,7 +3241,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b5-tema-15-inmunologia/image22.webp",
   "imgThumb": "assets/figuras/docx/b5-tema-15-inmunologia/image22.thumb.webp",
   "imageDesc": null,
-  "q": "<b>22.- La imagen adjunta representa dos tipos de tratamientos (1 y 2) empleados para conseguir una inmunización artificial:</b><br>a) ¿Qué contiene la vacuna que se<br>b) ¿Qué se administra en el tratamiento 2?<br>c) Indique, en cada caso, si tras administrar el<br>d) ¿Cuál de ellos es un tratamiento preventivo<br>e) Cite un proceso natural por el que un organismo pueda",
+  "q": "<b>22.- La imagen adjunta representa dos tipos de tratamientos (1 y 2) empleados para conseguir una inmunización artificial:</b><br>a) ¿Qué contiene la vacuna que se administra en el tratamiento 1?[0,1]<br>b) ¿Qué se administra en el tratamiento 2? ¿Qué nombre recibe este tratamiento 2? [0,2]<br>c) Indique, en cada caso, si tras administrar el tratamiento se consigue una inmunidad de tipo humoral o celular [0,3].<br>d) ¿Cuál de ellos es un tratamiento preventivo y cuál curativo? [0,2]<br>e) Cite un proceso natural por el que un organismo pueda desarrollar una respuesta semejante a la que se consigue con el tratamiento 1 y otro que genere una respuesta semejante a la que se consigue cuando se emplea el tratamiento 2 [0,2].",
   "c": [
    "a) Cualquier sustancia antigénica, como un agente infeccioso debilitado.",
    "b) Anticuerpos; sueroterapia",
@@ -3245,7 +3266,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b5-tema-15-inmunologia/image23.webp",
   "imgThumb": "assets/figuras/docx/b5-tema-15-inmunologia/image23.thumb.webp",
   "imageDesc": null,
-  "q": "<b>23.- La imagen adjunta representa dos formas diferentes de alimentar a un recién nacido, la lactancia materna y la lactancia artificial con leche de fórmula. La tendencia actual en pediatría es recomendar la lactancia materna:</b><br>a) En relación con el sistema inmunitario, ¿qué sustancias presentes en la leche materna no poseen las leches de fórmula? [0,2] ¿A qué grupo de biomoléculas pertenecen dichas sustancias? [0,2]<br>b) Indique si la inmunidad que adquiere el recién nacido a través de la leche materna es activa o pasiva [0,2].<br>c) ¿Qué otra vía natural permite al recién nacido adquirir este tipo de<br>d) ¿Cuál es la diferencia entre las sustancias inmunitarias que recibe el",
+  "q": "<b>23.- La imagen adjunta representa dos formas diferentes de alimentar a un recién nacido, la lactancia materna y la lactancia artificial con leche de fórmula. La tendencia actual en pediatría es recomendar la lactancia materna:</b><br>a) En relación con el sistema inmunitario, ¿qué sustancias presentes en la leche materna no poseen las leches de fórmula? [0,2] ¿A qué grupo de biomoléculas pertenecen dichas sustancias? [0,2]<br>b) Indique si la inmunidad que adquiere el recién nacido a través de la leche materna es activa o pasiva [0,2].<br>c) ¿Qué otra vía natural permite al recién nacido adquirir este tipo de inmunidad? [0,2]<br>d) ¿Cuál es la diferencia entre las sustancias inmunitarias que recibe el recién nacido por esta otra vía natural y las que recibe con la leche materna? [0,2]",
   "c": [
    "a) Anticuerpos o inmunoglobulinas); Son proteínas",
    "b) Se trata de inmunidad pasiva",
@@ -3269,7 +3290,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b5-tema-15-inmunologia/image24.webp",
   "imgThumb": "assets/figuras/docx/b5-tema-15-inmunologia/image24.thumb.webp",
   "imageDesc": null,
-  "q": "<b>24.- En relación con las imágenes adjuntas, responda a las siguientes cuestiones:</b><br>a) ¿Cómo se denominan en general las<br>b) Indique los nombres de las reacciones<br>c) Cite otra reacción de este tipo diferente",
+  "q": "<b>24.- En relación con las imágenes adjuntas, responda a las siguientes cuestiones:</b><br>a) ¿Cómo se denominan en general las reacciones inmunológicas representadas? [0,2]<br>b) Indique los nombres de las reacciones representadas en las imágenes A y B [0,6].<br>c) Cite otra reacción de este tipo diferente a las que aparecen en las imágenes [0,2].",
   "c": [
    "a) De forma general son reacciones antígeno-anticuerpo",
    "b) A: opsonización (neutralización); B: aglutinación",
@@ -3292,7 +3313,7 @@ window.BIOCELIA_FIGURAS = [
   "imgSrc": "assets/figuras/docx/b5-tema-15-inmunologia/image25.webp",
   "imgThumb": "assets/figuras/docx/b5-tema-15-inmunologia/image25.thumb.webp",
   "imageDesc": null,
-  "q": "<b>25.- En relación con la imagen adjunta, conteste a las siguientes cuestiones:</b><br>a) Indique tres diferencias existentes entre las<br>b) ¿Qué tipo de células se originan tras la fase A y<br>c) ¿Qué células son las que producen los",
+  "q": "<b>25.- En relación con la imagen adjunta, conteste a las siguientes cuestiones:</b><br>a) Indique tres diferencias existentes entre las respuestas inmunológicas representadas en A y B [0,6].<br>b) ¿Qué tipo de células se originan tras la fase A y dan lugar a la respuesta en la fase B? [0,2]<br>c) ¿Qué células son las que producen los anticuerpos? [0,2]",
   "c": [
    "a) La respuesta A es más lenta, menos intensa y no actúan células de memoria, mientas que en la respuesta B si participan células de memoria, por lo que la respuesta es más rápida e intensa.",
    "b) Linfocitos B de memoria",

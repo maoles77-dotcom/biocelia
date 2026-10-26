@@ -146,6 +146,7 @@ def construir(anios):
 
                 entrenamiento.append({
                     **comun,
+                    'q': con_nota(comun['q'], puntos),
                     'isNew': False,
                     'puntos': puntos,
                     'f': (f"{origen_texto} "
@@ -154,7 +155,7 @@ def construir(anios):
                                          'oficiales de corrección: son las que puntúan.')),
                 })
                 if puntos >= 2:
-                    simulacro.append({**comun, 'isNew': comun['competencial']})
+                    simulacro.append({**comun, 'q': con_nota(comun['q'], puntos), 'isNew': comun['competencial']})
                 else:
                     de_un_punto.setdefault(opcion, []).append(comun)
             for grupo in de_un_punto.values():
@@ -174,6 +175,16 @@ def construir(anios):
                 (q for q in candidatas if q['block'] == sueltas_anio[0]['block']), candidatas[0])
             simulacro.append(unir(sueltas_anio[0], otra))
     return entrenamiento, simulacro
+
+
+# Notas escritas en el enunciado: [0,5], (0,4 puntos), (Calificación 1 punto), (0.5 P)…
+RE_NOTA = re.compile(r'\[\s*\d+(?:[.,]\d+)?\s*\]|\(\s*(?:Calificaci[oó]n\s+)?\d+(?:[.,]\d+)?\s*(?:puntos?|p\.?)\s*\)', re.I)
+
+
+def con_nota(q, puntos):
+    """Si el enunciado no indica ninguna nota (exámenes que solo la dan por pregunta),
+    se muestra al final la nota total oficial, para que el alumnado sepa cuánto vale."""
+    return q if RE_NOTA.search(q) else f"{q} <i>({texto_puntos(puntos)})</i>"
 
 
 def texto_puntos(puntos):

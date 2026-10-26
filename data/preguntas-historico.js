@@ -1,5 +1,5 @@
 /* ══════════════════════════════════════════════════════════════
-   Generado por tools/generar_banco_historico.py el 2026-10-20.
+   Generado por tools/generar_banco_historico.py el 2026-10-26.
    NO editar a mano: se regenera desde data/historico/pau-*.json.
    1467 preguntas para Entrenamiento y 1119 para Simulacro,
    de exámenes PAU oficiales con sus criterios de corrección.
@@ -2328,7 +2328,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": false,
    "puntos": 1,
    "competencial": false,
-   "q": "Explique qué reacción desarrolla la enzima que cataliza la siguiente reacción:<br>Lactosa + agua → glucosa + galactosa",
+   "q": "Explique qué reacción desarrolla la enzima que cataliza la siguiente reacción:<br>Lactosa + agua → glucosa + galactosa <i>(1 punto)</i>",
    "c": [
     "La acción que desarrolla es la <mark class=\"clave-criterio\">hidrólisis de la lactosa</mark>, por <mark class=\"clave-criterio\">rotura del enlace O-glucosídico</mark> mediante la introducción de una <mark class=\"clave-criterio\">molécula de agua</mark> (1 p). <span class=\"redactado\">La enzima es la lactasa, una hidrolasa.</span>"
    ],
@@ -2655,7 +2655,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": false,
    "puntos": 1,
    "competencial": false,
-   "q": "Indique dos razones que expliquen el hecho de que los virus sean parásitos obligados.",
+   "q": "Indique dos razones que expliquen el hecho de que los virus sean parásitos obligados. <i>(1 punto)</i>",
    "c": [
     "Porque <mark class=\"clave-criterio\">carecen de las enzimas</mark> necesarias para fabricar sus componentes (ácido nucleico, cápsida) y <mark class=\"clave-criterio\">no tienen ribosomas</mark>, por lo que deben utilizar los de las células parasitadas, etc. Solo dos, 0,5 p cada una (1 p). <span class=\"redactado\">Tampoco producen ATP: sin metabolismo propio, fuera de la célula son partículas inertes.</span>"
    ],
@@ -29690,7 +29690,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": true,
    "puntos": 1.25,
    "competencial": true,
-   "q": "Defina inhibición competitiva y no competitiva. Dibuje una enzima llevando a cabo su reacción, y la misma reacción en presencia de un inhibidor competitivo, y de un inhibidor no competitivo (3 imágenes). Señale en la figura 1 cuál de estas tres reacciones corresponde con cada una de las opciones, y razónelo en función de la Vmax y la Km.",
+   "q": "Defina inhibición competitiva y no competitiva. Dibuje una enzima llevando a cabo su reacción, y la misma reacción en presencia de un inhibidor competitivo, y de un inhibidor no competitivo (3 imágenes). Señale en la figura 1 cuál de estas tres reacciones corresponde con cada una de las opciones, y razónelo en función de la Vmax y la Km. <i>(1,25 puntos)</i>",
    "c": [
     "<span class=\"redactado\">Inhibición competitiva: el inhibidor, parecido al sustrato, compite con él por el centro activo; se supera aumentando la concentración de sustrato. Inhibición no competitiva: el inhibidor se une a la enzima en otro lugar distinto del centro activo y cambia su forma, de modo que la enzima no puede actuar aunque haya mucho sustrato.</span>",
     "<span class=\"redactado\">Dibujos: 1) enzima con el sustrato encajado en el centro activo, que se transforma en productos; 2) el inhibidor competitivo ocupa el centro activo e impide la entrada del sustrato; 3) el inhibidor no competitivo se une a otra zona y deforma el centro activo.</span>",
@@ -29719,7 +29719,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": false,
    "puntos": 1.25,
    "competencial": false,
-   "q": "Los lípidos: cite las propiedades físicas que permiten agruparlos en un mismo grupo, así como tres funciones que desarrollan en los seres vivos. Defina el concepto de saponificación, y dibuje en un mismo esquema tanto la reacción de saponificación como su inversa (que deberá nombrar), señalando y nombrando los grupos que participan en ella.",
+   "q": "Los lípidos: cite las propiedades físicas que permiten agruparlos en un mismo grupo, así como tres funciones que desarrollan en los seres vivos. Defina el concepto de saponificación, y dibuje en un mismo esquema tanto la reacción de saponificación como su inversa (que deberá nombrar), señalando y nombrando los grupos que participan en ella. <i>(1,25 puntos)</i>",
    "c": [
     "<span class=\"redactado\">Son un grupo heterogéneo que se agrupa por sus propiedades físicas: son insolubles (o poco solubles) en agua y solubles en disolventes orgánicos apolares (éter, cloroformo, benceno); tienen brillo graso y son untuosos al tacto. Funciones: energética de reserva (triacilglicéridos), estructural (fosfolípidos y colesterol de las membranas), reguladora u hormonal (hormonas esteroideas), vitamínica (A, D, E, K), aislante térmico y protectora.</span>",
     "<span class=\"redactado\">Saponificación: hidrólisis alcalina de un éster (de los ácidos grasos con la glicerina en un triacilglicérido) con una base fuerte (NaOH o KOH), en la que se forman sales de ácidos grasos (jabones) y glicerina.</span>",
@@ -29745,7 +29745,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": true,
    "puntos": 1.25,
    "competencial": true,
-   "q": "¿A qué grupo de biomoléculas pertenecen las dos representadas en la figura 2? ¿Qué macromolécula resulta de la polimerización de cada una de estas moléculas? Indique el nombre de los componentes señalados con las letras A, B, C y D, y cite los cuatro compuestos posibles que pueden ocupar la posición B. Especifique el tipo de enlace bioquímico que aparece entre los componentes B y C y entre A y C, y dibuje las reacciones de formación de: a) el enlace entre B y C; b) el enlace entre A y C.",
+   "q": "¿A qué grupo de biomoléculas pertenecen las dos representadas en la figura 2? ¿Qué macromolécula resulta de la polimerización de cada una de estas moléculas? Indique el nombre de los componentes señalados con las letras A, B, C y D, y cite los cuatro compuestos posibles que pueden ocupar la posición B. Especifique el tipo de enlace bioquímico que aparece entre los componentes B y C y entre A y C, y dibuje las reacciones de formación de: a) el enlace entre B y C; b) el enlace entre A y C. <i>(1,25 puntos)</i>",
    "c": [
     "<span class=\"redactado\">Son nucleótidos (de adenina): 1, un ribonucleótido (adenosín monofosfato, AMP), y 2, un desoxirribonucleótido (desoxiadenosín monofosfato, dAMP). Al polimerizarse, los ribonucleótidos forman ARN y los desoxirribonucleótidos, ADN.</span>",
     "<span class=\"redactado\">A, ácido fosfórico (grupo fosfato); B, base nitrogenada (adenina); C, pentosa ribosa; D, pentosa desoxirribosa (sin –OH en el carbono 2'). En la posición B de un ribonucleótido pueden estar adenina, guanina, citosina y uracilo.</span>",
@@ -29775,7 +29775,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": false,
    "puntos": 1.25,
    "competencial": false,
-   "q": "Haga un dibujo y explique brevemente los ciclos lítico y lisogénico de un virus, detallando qué proceso tiene lugar en cada paso.",
+   "q": "Haga un dibujo y explique brevemente los ciclos lítico y lisogénico de un virus, detallando qué proceso tiene lugar en cada paso. <i>(1,25 puntos)</i>",
    "c": [
     "<span class=\"redactado\">Ciclo lítico (por ejemplo, de un bacteriófago): 1) fijación o adsorción: el virus se une a receptores de la superficie de la célula; 2) penetración: inyecta su ácido nucleico (la cápsida queda fuera); 3) eclipse, replicación y síntesis: el ácido nucleico vírico toma el control de la célula, que replica el genoma vírico y sintetiza las proteínas de la cápsida; 4) ensamblaje: se forman nuevos viriones; 5) liberación: la célula se rompe (lisis) y salen los virus, que infectan otras células.</span>",
     "<span class=\"redactado\">Ciclo lisogénico: tras la penetración, el ADN vírico se integra en el cromosoma bacteriano (profago) y se replica con él en cada división, sin dañar a la célula (bacteria lisogénica). Ante ciertos estímulos (radiación UV, sustancias químicas) el profago se separa (inducción) y empieza un ciclo lítico.</span>"
@@ -29800,7 +29800,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": false,
    "puntos": 1.25,
    "competencial": true,
-   "q": "La insulina es una hormona producida en el páncreas que controla el metabolismo de la glucosa. Su déficit o ausencia provoca la diabetes. Actualmente la industria farmacéutica produce insulina humana a partir de un cultivo bacteriano. Razone cómo es esto posible siendo dos organismos (el ser humano y la bacteria) tan diferentes.",
+   "q": "La insulina es una hormona producida en el páncreas que controla el metabolismo de la glucosa. Su déficit o ausencia provoca la diabetes. Actualmente la industria farmacéutica produce insulina humana a partir de un cultivo bacteriano. Razone cómo es esto posible siendo dos organismos (el ser humano y la bacteria) tan diferentes. <i>(1,25 puntos)</i>",
    "c": [
     "<span class=\"redactado\">Mediante ingeniería genética (ADN recombinante): el gen humano de la insulina (su ADNc, sin intrones, obtenido del ARNm con la transcriptasa inversa, ya que las bacterias no pueden eliminar intrones) se corta con enzimas de restricción y se une con la ADN ligasa a un plásmido, que se introduce en bacterias como E. coli. Las bacterias transformadas se multiplican y fabrican insulina humana.</span>",
     "<span class=\"redactado\">Es posible porque el código genético es universal: el mismo codón codifica el mismo aminoácido en el ser humano y en la bacteria, y ambos usan los mismos mecanismos básicos de transcripción y traducción. Por eso la bacteria lee el gen humano y sintetiza la misma proteína.</span>"
@@ -29825,7 +29825,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": false,
    "puntos": 1.25,
    "competencial": false,
-   "q": "Explique la transformación de los diversos carbohidratos durante la elaboración del pan, los microorganismos responsables, y el tipo de fermentación que tiene lugar, indicando los productos finales del proceso.",
+   "q": "Explique la transformación de los diversos carbohidratos durante la elaboración del pan, los microorganismos responsables, y el tipo de fermentación que tiene lugar, indicando los productos finales del proceso. <i>(1,25 puntos)</i>",
    "c": [
     "<span class=\"redactado\">El almidón de la harina se hidroliza por las amilasas (de la propia harina) a maltosa, y la maltosa, por la maltasa de las levaduras, a glucosa. Las levaduras (Saccharomyces cerevisiae) fermentan la glucosa por fermentación alcohólica: C₆H₁₂O₆ → 2 CH₃–CH₂OH + 2 CO₂. El CO₂ queda atrapado en la masa (en la red de gluten) y la hace subir (esponjosa); el etanol se evapora durante la cocción.</span>"
    ],
@@ -29849,7 +29849,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": false,
    "puntos": 1.25,
    "competencial": false,
-   "q": "¿Qué es una vacuna? Mencione y describa dos formas de inmunización diferentes. ¿Qué es un suero inmune? Compare una vacuna con un suero inmune, mencionando al menos una ventaja de cada uno frente al otro.",
+   "q": "¿Qué es una vacuna? Mencione y describa dos formas de inmunización diferentes. ¿Qué es un suero inmune? Compare una vacuna con un suero inmune, mencionando al menos una ventaja de cada uno frente al otro. <i>(1,25 puntos)</i>",
    "c": [
     "<span class=\"redactado\">Una vacuna es un preparado de antígenos (microorganismos muertos o atenuados, toxoides, fragmentos o ARNm que codifica un antígeno) que provoca una respuesta inmunitaria primaria, sin causar la enfermedad, y genera memoria.</span>",
     "<span class=\"redactado\">Formas de inmunización: activa, cuando el propio organismo produce anticuerpos y células de memoria (natural, al pasar la infección; artificial, con vacunas); pasiva, cuando recibe anticuerpos ya formados (natural, de la madre por la placenta o la leche; artificial, con sueros).</span>",
@@ -29876,7 +29876,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": false,
    "puntos": 1.25,
    "competencial": false,
-   "q": "Explique en qué consiste la respuesta inmune primaria y secundaria frente a un antígeno. ¿Qué células son las responsables de la respuesta secundaria? Dibuje una gráfica que ilustre este fenómeno, en la que se represente la concentración de anticuerpos específicos frente al tiempo, señalando los momentos de exposición al antígeno.",
+   "q": "Explique en qué consiste la respuesta inmune primaria y secundaria frente a un antígeno. ¿Qué células son las responsables de la respuesta secundaria? Dibuje una gráfica que ilustre este fenómeno, en la que se represente la concentración de anticuerpos específicos frente al tiempo, señalando los momentos de exposición al antígeno. <i>(1,25 puntos)</i>",
    "c": [
     "<span class=\"redactado\">Respuesta primaria: tras el primer contacto con el antígeno, hay un periodo de latencia de varios días en el que se seleccionan y proliferan los linfocitos específicos; se producen pocos anticuerpos (sobre todo IgM) y durante poco tiempo, y se forman células de memoria. Respuesta secundaria: en un segundo contacto con el mismo antígeno, la respuesta es más rápida, más intensa (muchos más anticuerpos, sobre todo IgG) y más duradera.</span>",
     "<span class=\"redactado\">Responsables: los linfocitos B y T de memoria generados en la respuesta primaria.</span>",
@@ -29902,7 +29902,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": false,
    "puntos": 1.25,
    "competencial": false,
-   "q": "Indique dónde se localizan las siguientes funciones o procesos en una célula eucariótica:<br>a) síntesis de proteínas; b) glucólisis; c) ciclo de Krebs; d) ciclo de Calvin; e) transformación de energía luminosa en energía química; f) cadena respiratoria; g) oxidación de los ácidos grasos.",
+   "q": "Indique dónde se localizan las siguientes funciones o procesos en una célula eucariótica:<br>a) síntesis de proteínas; b) glucólisis; c) ciclo de Krebs; d) ciclo de Calvin; e) transformación de energía luminosa en energía química; f) cadena respiratoria; g) oxidación de los ácidos grasos. <i>(1,25 puntos)</i>",
    "c": [
     "<span class=\"redactado\">a) En los ribosomas (libres en el citosol o unidos al retículo endoplasmático rugoso; también en mitocondrias y cloroplastos). b) En el citosol. c) En la matriz mitocondrial. d) En el estroma del cloroplasto. e) En la membrana de los tilacoides de los cloroplastos (fase luminosa). f) En la membrana mitocondrial interna (crestas). g) En la matriz mitocondrial (β-oxidación), y también en los peroxisomas.</span>"
    ],
@@ -29926,7 +29926,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": true,
    "puntos": 1.25,
    "competencial": true,
-   "q": "¿Qué tipo de célula se representa en la figura 3? Razone su respuesta, y nombre los componentes señalados en la misma, así como una función de cada uno de ellos.",
+   "q": "¿Qué tipo de célula se representa en la figura 3? Razone su respuesta, y nombre los componentes señalados en la misma, así como una función de cada uno de ellos. <i>(1,25 puntos)</i>",
    "c": [
     "<span class=\"redactado\">Es una célula eucariota animal: tiene núcleo y orgánulos membranosos, centrosoma con centriolos y lisosomas, y no tiene pared celular ni cloroplastos.</span>",
     "<span class=\"redactado\">Componentes (de arriba abajo; los rótulos no llevan número): núcleo, que contiene el ADN y dirige la actividad celular; nucléolo, síntesis del ARNr y montaje de las subunidades de los ribosomas; retículo endoplasmático rugoso, síntesis de proteínas de membrana y de secreción; retículo endoplasmático liso, síntesis de lípidos y detoxificación; aparato de Golgi, modificación, empaquetado y secreción de sustancias; mitocondria, respiración celular y obtención de ATP; vacuola, almacén de sustancias; centrosoma (centriolos), organiza los microtúbulos y el huso acromático; citoesqueleto, forma, movimiento y transporte intracelular; membrana plasmática, límite celular y transporte selectivo.</span>"
@@ -29954,7 +29954,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": false,
    "puntos": 1.25,
    "competencial": false,
-   "q": "Señale tres diferencias entre mitosis y meiosis. Respecto a esta última, explique por qué es importante para la reproducción sexual y la variabilidad de las especies. Por último, describa la diferencia fundamental entre anafase I y anafase II de la meiosis.",
+   "q": "Señale tres diferencias entre mitosis y meiosis. Respecto a esta última, explique por qué es importante para la reproducción sexual y la variabilidad de las especies. Por último, describa la diferencia fundamental entre anafase I y anafase II de la meiosis. <i>(1,25 puntos)</i>",
    "c": [
     "<span class=\"redactado\">Diferencias: la mitosis tiene una división y la meiosis dos; la mitosis da dos células hijas y la meiosis cuatro; en la mitosis las hijas son diploides (2n) y genéticamente iguales a la madre, y en la meiosis son haploides (n) y distintas; en la meiosis hay apareamiento de homólogos y sobrecruzamiento, que no se dan en la mitosis; la mitosis ocurre en células somáticas y la meiosis en las germinales.</span>",
     "<span class=\"redactado\">Importancia: la meiosis reduce a la mitad el número de cromosomas de los gametos, así que en la fecundación se recupera la dotación diploide de la especie y se mantiene constante de generación en generación. Además, genera variabilidad por el sobrecruzamiento (recombinación) en la profase I y por la segregación al azar de los cromosomas homólogos en la anafase I.</span>",
@@ -29980,7 +29980,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": true,
    "puntos": 1.25,
    "competencial": true,
-   "q": "Escriba la secuencia de la molécula de ARNm que resulta de la transcripción del siguiente fragmento de ADN, 5'-ATGAACAGGCCATGA-3', y la secuencia de aminoácidos resultante de la traducción de dicho ARNm. Use la información de la figura 4.<br>¿Cuántas mutaciones silenciosas podrían producirse en ese fragmento de ADN?",
+   "q": "Escriba la secuencia de la molécula de ARNm que resulta de la transcripción del siguiente fragmento de ADN, 5'-ATGAACAGGCCATGA-3', y la secuencia de aminoácidos resultante de la traducción de dicho ARNm. Use la información de la figura 4.<br>¿Cuántas mutaciones silenciosas podrían producirse en ese fragmento de ADN? <i>(1,25 puntos)</i>",
    "c": [
     "<span class=\"redactado\">El fragmento empieza por ATG y termina por TGA, así que corresponde a la hebra codificante: el ARNm tiene la misma secuencia con U: 5'-AUG AAC AGG CCA UGA-3', que se traduce como Met-Asn-Arg-Pro (UGA es codón de parada). Si se tomara el fragmento como hebra molde, el ARNm sería el complementario y antiparalelo: 5'-UCAUGGCCUGUUCAU-3'.</span>",
     "<span class=\"redactado\">Una mutación silenciosa cambia una base sin cambiar el aminoácido. Con sustituciones de una sola base, según la tabla: AUG (Met), ninguna; AAC (Asn), 1 (AAU); AGG (Arg), 2 (AGA y CGG); CCA (Pro), 3 (CCU, CCC y CCG). En total, 6; habría una más si se cuenta UGA → UAA, que sigue siendo de parada.</span>"
@@ -30008,7 +30008,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": true,
    "puntos": 1.25,
    "competencial": true,
-   "q": "En la figura 5 aparece el árbol genealógico de una familia, muchos de cuyos miembros presentan un lunar característico. La presencia de este carácter se indica en color negro, y está determinado por un solo gen. Indique si el alelo que determina la presencia del lunar es dominante o recesivo. Razone la respuesta detallando posibles genotipos de todos los individuos. ¿Podría tratarse de un gen ligado al sexo? Razone la respuesta.",
+   "q": "En la figura 5 aparece el árbol genealógico de una familia, muchos de cuyos miembros presentan un lunar característico. La presencia de este carácter se indica en color negro, y está determinado por un solo gen. Indique si el alelo que determina la presencia del lunar es dominante o recesivo. Razone la respuesta detallando posibles genotipos de todos los individuos. ¿Podría tratarse de un gen ligado al sexo? Razone la respuesta. <i>(1,25 puntos)</i>",
    "c": [
     "<span class=\"redactado\">Es dominante: I-3 e I-4 tienen el lunar y tienen hijos sin él (II-6 y II-7); lo mismo ocurre con II-3 y II-4 (III-3 y III-4). Si fuera recesivo, dos padres con el lunar solo podrían tener hijos con lunar.</span>",
     "<span class=\"redactado\">Con L (lunar) y l (sin lunar): I-1 ll; I-2 Ll (tiene una hija sin lunar, II-2); I-3 Ll e I-4 Ll; II-1 Ll; II-2 ll; II-3 Ll; II-4 Ll (tiene hijos sin lunar); II-5 LL o Ll; II-6 ll; II-7 ll; III-1 y III-2 LL o Ll; III-3 y III-4 ll.</span>",
@@ -30037,7 +30037,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": false,
    "puntos": 1.25,
    "competencial": false,
-   "q": "Haga un esquema de la replicación del ADN, señalando las diversas proteínas que intervienen en la misma y especificando su función.",
+   "q": "Haga un esquema de la replicación del ADN, señalando las diversas proteínas que intervienen en la misma y especificando su función. <i>(1,25 puntos)</i>",
    "c": [
     "<span class=\"redactado\">El esquema debe mostrar una horquilla de replicación con la hebra conductora (continua) y la retardada (fragmentos de Okazaki), cada hebra nueva antiparalela a su molde y creciendo en sentido 5'→3'.</span>",
     "<span class=\"redactado\">Proteínas: helicasa, rompe los puentes de hidrógeno y separa las hebras; topoisomerasas (girasa), eliminan las tensiones del superenrollamiento; proteínas SSB, mantienen separadas las hebras sencillas; primasa, sintetiza los cebadores de ARN; ADN polimerasa III (en procariotas), alarga las cadenas añadiendo nucleótidos complementarios en sentido 5'→3' a partir del cebador y corrige errores; ADN polimerasa I, retira los cebadores y rellena los huecos con ADN; ADN ligasa, une los fragmentos de Okazaki.</span>"
@@ -33078,7 +33078,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": true,
    "puntos": 2,
    "competencial": true,
-   "q": "<b>En relación con la imagen:</b><br>a) Identifique a qué tipo de macromolécula pertenecen los esquemas A y B. Indique de manera razonada una característica que permita diferenciar entre A y B. (0,6)<br>b) Identifique las moléculas señaladas con los números 1, 2, 3, 4 y 5. ¿Qué representan las líneas punteadas de la macromolécula “B”? ¿Qué tipo de enlace es el señalado como 6? (0,9)<br>c) Indique la localización de la molécula “B” en la célula procariota y eucariota. (0,5)",
+   "q": "<b>En relación con la imagen:</b><br>a) Identifique a qué tipo de macromolécula pertenecen los esquemas A y B. Indique de manera razonada una característica que permita diferenciar entre A y B. (0,6)<br>b) Identifique las moléculas señaladas con los números 1, 2, 3, 4 y 5. ¿Qué representan las líneas punteadas de la macromolécula “B”? ¿Qué tipo de enlace es el señalado como 6? (0,9)<br>c) Indique la localización de la molécula “B” en la célula procariota y eucariota. (0,5) <i>(2 puntos)</i>",
    "c": [
     "<span class=\"redactado\">a) Ambos son ácidos nucleicos: A es ARN y B es ADN. A tiene uracilo (U) y es monocatenario; B tiene timina (T) y es bicatenario.</span>",
     "<span class=\"redactado\">b) 1: nucleótido (desoxirribonucleótido); 2: grupo fosfato; 3: pentosa (desoxirribosa); 4: bases nitrogenadas; 5: nucleótido (ribonucleótido). Las líneas punteadas son puentes de hidrógeno entre bases complementarias (2 entre A y T, 3 entre G y C). El enlace 6 es un enlace fosfodiéster.</span>",
@@ -33107,7 +33107,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": false,
    "puntos": 2,
    "competencial": false,
-   "q": "<b>Respecto a las moléculas biológicas:</b><br>a) Indique qué tipo de biomolécula es la celulosa, su función y localización. ¿Cómo se llama y de qué tipo es el enlace que se produce entre los monómeros constituyentes de la celulosa? (0,7)<br>b) Indique las unidades monoméricas que componen el almidón, los tipos de polímeros que lo constituyen y los tipos de enlace que se forman. ¿En qué tipo de células se encuentra esta molécula y cuál es su función? (1,3)",
+   "q": "<b>Respecto a las moléculas biológicas:</b><br>a) Indique qué tipo de biomolécula es la celulosa, su función y localización. ¿Cómo se llama y de qué tipo es el enlace que se produce entre los monómeros constituyentes de la celulosa? (0,7)<br>b) Indique las unidades monoméricas que componen el almidón, los tipos de polímeros que lo constituyen y los tipos de enlace que se forman. ¿En qué tipo de células se encuentra esta molécula y cuál es su función? (1,3) <i>(2 puntos)</i>",
    "c": [
     "<span class=\"redactado\">a) La celulosa es un polisacárido (homopolisacárido de β-glucosa) con función estructural: forma la pared celular de las células vegetales. Sus monómeros se unen por enlaces O-glucosídicos β(1→4).</span>",
     "<span class=\"redactado\">b) El almidón está formado por α-glucosa. Tiene dos polímeros: la amilosa, lineal, con enlaces α(1→4), y la amilopectina, ramificada, con enlaces α(1→4) y ramificaciones α(1→6). Se encuentra en las células vegetales (amiloplastos, cloroplastos) y su función es la reserva energética.</span>"
@@ -33132,7 +33132,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": false,
    "puntos": 1.5,
    "competencial": false,
-   "q": "<b>Conteste a las siguientes cuestiones sobre la organización celular:</b><br>a) Cite una función de cada uno de los siguientes orgánulos: lisosomas, retículo endoplasmático liso, aparato de Golgi y nucléolo. (0,8)<br>b) Señale dos diferencias entre el transporte pasivo y el transporte activo, y cite un ejemplo para cada uno de ellos. (0,7)",
+   "q": "<b>Conteste a las siguientes cuestiones sobre la organización celular:</b><br>a) Cite una función de cada uno de los siguientes orgánulos: lisosomas, retículo endoplasmático liso, aparato de Golgi y nucléolo. (0,8)<br>b) Señale dos diferencias entre el transporte pasivo y el transporte activo, y cite un ejemplo para cada uno de ellos. (0,7) <i>(1,5 puntos)</i>",
    "c": [
     "<span class=\"redactado\">a) Lisosomas: digestión intracelular. REL: síntesis de lípidos y detoxificación. Aparato de Golgi: maduración, glucosilación y empaquetado de proteínas para su secreción. Nucléolo: síntesis del ARN ribosómico y formación de las subunidades de los ribosomas.</span>",
     "<span class=\"redactado\">b) El transporte pasivo va a favor de gradiente y sin gasto de energía; el activo va en contra de gradiente y consume ATP. Ejemplos: difusión simple del O₂ o difusión facilitada de la glucosa (pasivo); bomba de Na⁺/K⁺ (activo).</span>"
@@ -33157,7 +33157,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": true,
    "puntos": 1.5,
    "competencial": true,
-   "q": "<b>Con referencia a los procesos de división celular.</b><br>a) Identifique el tipo de división celular y el nombre de las fases representadas en las figuras. Ordene cronológicamente estas fases e indique si se corresponde con una célula animal o vegetal. (0,7)<br>b) Indique dos acontecimientos que tienen lugar en «B» y en «C». (0,8)",
+   "q": "<b>Con referencia a los procesos de división celular.</b><br>a) Identifique el tipo de división celular y el nombre de las fases representadas en las figuras. Ordene cronológicamente estas fases e indique si se corresponde con una célula animal o vegetal. (0,7)<br>b) Indique dos acontecimientos que tienen lugar en «B» y en «C». (0,8) <i>(1,5 puntos)</i>",
    "c": [
     "<span class=\"redactado\">a) Es una mitosis. A: metafase; B: profase; C: telofase; D: anafase. Orden: B → A → D → C. Es una célula animal: tiene centriolos y ásteres y se divide por estrangulamiento.</span>",
     "<span class=\"redactado\">b) En B (profase): los cromosomas se condensan, se forma el huso acromático entre los centrosomas y desaparecen el nucléolo y la envoltura nuclear. En C (telofase): los cromosomas se descondensan, reaparecen la envoltura nuclear y el nucléolo, y comienza la citocinesis con el surco de segmentación.</span>"
@@ -33185,7 +33185,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": true,
    "puntos": 1.5,
    "competencial": true,
-   "q": "<b>Observe la imagen adjunta:</b><br>a) Nombre los procesos numerados del 1 al 8 e indique en qué parte de la célula tienen lugar. (0,8)<br>b) Indique en cuál de estas rutas se forma poder reductor en forma de NADH. (0,4)<br>c) Defina los términos gluconeogénesis y glucogenogénesis. (0,3)",
+   "q": "<b>Observe la imagen adjunta:</b><br>a) Nombre los procesos numerados del 1 al 8 e indique en qué parte de la célula tienen lugar. (0,8)<br>b) Indique en cuál de estas rutas se forma poder reductor en forma de NADH. (0,4)<br>c) Defina los términos gluconeogénesis y glucogenogénesis. (0,3) <i>(1,5 puntos)</i>",
    "c": [
     "<span class=\"redactado\">a) 1: glucólisis (citosol); 2: fermentación alcohólica (citosol); 3: fermentación láctica (citosol); 4: descarboxilación oxidativa del piruvato (matriz mitocondrial); 5: ciclo de Krebs (matriz mitocondrial); 6: β-oxidación de los ácidos grasos (matriz mitocondrial); 7: cadena de transporte de electrones (membrana mitocondrial interna); 8: fosforilación oxidativa (membrana mitocondrial interna, ATP sintasa).</span>",
     "<span class=\"redactado\">b) Se forma NADH en la glucólisis (1), la descarboxilación oxidativa (4), el ciclo de Krebs (5) y la β-oxidación (6).</span>",
@@ -33214,7 +33214,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": false,
    "puntos": 1.5,
    "competencial": false,
-   "q": "<b>En relación con la fotosíntesis conteste a las siguientes cuestiones:</b><br>a) ¿Por qué necesitan agua los cloroplastos? Razone la respuesta. (0,8)<br>b) ¿Qué es un fotosistema? (0,5)<br>c) ¿Cuántas moléculas de CO₂ se tendrán que incorporar al ciclo de Calvin para dar lugar a una molécula de sacarosa? (0,2)",
+   "q": "<b>En relación con la fotosíntesis conteste a las siguientes cuestiones:</b><br>a) ¿Por qué necesitan agua los cloroplastos? Razone la respuesta. (0,8)<br>b) ¿Qué es un fotosistema? (0,5)<br>c) ¿Cuántas moléculas de CO₂ se tendrán que incorporar al ciclo de Calvin para dar lugar a una molécula de sacarosa? (0,2) <i>(1,5 puntos)</i>",
    "c": [
     "<span class=\"redactado\">a) En la fase luminosa, la fotólisis del agua repone los electrones que pierde el fotosistema II al excitarse con la luz; además libera protones, que contribuyen al gradiente para sintetizar ATP, y oxígeno. Sin agua no habría flujo de electrones ni se formarían ATP y NADPH.</span>",
     "<span class=\"redactado\">b) Un complejo de proteínas y pigmentos (clorofilas y carotenoides) de la membrana de los tilacoides, con una antena que capta la luz y un centro de reacción con una clorofila que cede electrones a la cadena de transporte.</span>",
@@ -33240,7 +33240,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": false,
    "puntos": 1.5,
    "competencial": false,
-   "q": "<b>Conteste las siguientes cuestiones:</b><br>a) Enumere y explique cuatro características fundamentales del código genético. (1,0)<br>b) Dado el siguiente fragmento de ADN de la cadena codificante: 5'ATG TTT GGC TAA 3', escriba su cadena complementaria y la del ARNm correspondiente, indicando la polaridad. (0,5)",
+   "q": "<b>Conteste las siguientes cuestiones:</b><br>a) Enumere y explique cuatro características fundamentales del código genético. (1,0)<br>b) Dado el siguiente fragmento de ADN de la cadena codificante: 5'ATG TTT GGC TAA 3', escriba su cadena complementaria y la del ARNm correspondiente, indicando la polaridad. (0,5) <i>(1,5 puntos)</i>",
    "c": [
     "<span class=\"redactado\">a) Universal: el mismo en casi todos los seres vivos. Degenerado: varios codones pueden codificar el mismo aminoácido. Sin ambigüedad: cada codón corresponde a un solo aminoácido. Sin solapamiento y sin comas: se lee de tres en tres, de forma continua, desde un codón de inicio (AUG) hasta uno de parada.</span>",
     "<span class=\"redactado\">b) Cadena complementaria (molde): 3'-TAC AAA CCG ATT-5'. ARNm: 5'-AUG UUU GGC UAA-3'.</span>"
@@ -33265,7 +33265,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": false,
    "puntos": 1.5,
    "competencial": false,
-   "q": "<b>Conteste las siguientes cuestiones:</b><br>a) Represente esquemáticamente los siguientes tipos de mutación: substitución, inserción y deleción, e indique a qué grupo de mutaciones pertenecen. Analice su impacto en la traducción de proteínas. (1,0)<br>b) Relacione el concepto de mutación con la evolución, explicando cómo puede influir en la selección natural. (0,5)",
+   "q": "<b>Conteste las siguientes cuestiones:</b><br>a) Represente esquemáticamente los siguientes tipos de mutación: substitución, inserción y deleción, e indique a qué grupo de mutaciones pertenecen. Analice su impacto en la traducción de proteínas. (1,0)<br>b) Relacione el concepto de mutación con la evolución, explicando cómo puede influir en la selección natural. (0,5) <i>(1,5 puntos)</i>",
    "c": [
     "<span class=\"redactado\">a) Son mutaciones génicas o puntuales. Por ejemplo, con ATG TTT GGC: sustitución ATG TCT GGC (cambia una base); inserción ATG TAT TGG C (se añade una base); deleción ATG TTG GC (se pierde una base). La sustitución cambia como mucho un codón: puede ser silenciosa, cambiar un aminoácido o crear un codón de parada. La inserción y la deleción (si no son de tres bases) desplazan la pauta de lectura y cambian todos los aminoácidos siguientes.</span>",
     "<span class=\"redactado\">b) Las mutaciones son la fuente primaria de variabilidad genética. La selección natural actúa sobre esa variabilidad: las mutaciones que dan ventaja en un ambiente aumentan su frecuencia porque sus portadores sobreviven y se reproducen más, y las perjudiciales se eliminan.</span>"
@@ -33290,7 +33290,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": false,
    "puntos": 1.5,
    "competencial": false,
-   "q": "<b>Conteste las siguientes cuestiones:</b><br>a) Explique en qué consiste la tecnología CRISPR-Cas, indicando dos elementos necesarios para su realización. Enumere tres posibles aplicaciones. (1,0)<br>b) Respecto al sistema inmunitario, defina las barreras externas o primarias. Enumere dos de ellas. (0,5)",
+   "q": "<b>Conteste las siguientes cuestiones:</b><br>a) Explique en qué consiste la tecnología CRISPR-Cas, indicando dos elementos necesarios para su realización. Enumere tres posibles aplicaciones. (1,0)<br>b) Respecto al sistema inmunitario, defina las barreras externas o primarias. Enumere dos de ellas. (0,5) <i>(1,5 puntos)</i>",
    "c": [
     "<span class=\"redactado\">a) Es una herramienta de edición genética basada en un sistema de defensa bacteriano: un ARN guía reconoce una secuencia concreta del ADN y la endonucleasa Cas9 la corta, de modo que se puede eliminar, corregir o insertar un gen. Elementos: la proteína Cas9 y el ARN guía. Aplicaciones: terapia génica de enfermedades hereditarias, mejora de cultivos y animales, y modelos de enfermedades en investigación.</span>",
     "<span class=\"redactado\">b) Son las defensas inespecíficas que impiden la entrada de patógenos en el organismo. Ejemplos: la piel (queratina, descamación) y las mucosas (moco, cilios); también secreciones como la lisozima de las lágrimas o el ácido del estómago.</span>"
@@ -33315,7 +33315,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": false,
    "puntos": 1.5,
    "competencial": false,
-   "q": "<b>Conteste las siguientes cuestiones:</b><br>a) Indique dos procesos fermentativos industriales, dos productos obtenidos en cada uno de ellos y especifique el tipo de microrganismos que intervienen en cada uno. (0,5)<br>b) Indique un tipo celular que participe en la respuesta inmune innata y otro que participe en la respuesta específica o adquirida. Explique su función en cada una de ellas. (1,0)",
+   "q": "<b>Conteste las siguientes cuestiones:</b><br>a) Indique dos procesos fermentativos industriales, dos productos obtenidos en cada uno de ellos y especifique el tipo de microrganismos que intervienen en cada uno. (0,5)<br>b) Indique un tipo celular que participe en la respuesta inmune innata y otro que participe en la respuesta específica o adquirida. Explique su función en cada una de ellas. (1,0) <i>(1,5 puntos)</i>",
    "c": [
     "<span class=\"redactado\">a) Fermentación alcohólica: pan y vino (o cerveza), por levaduras (Saccharomyces). Fermentación láctica: yogur y queso, por bacterias lácticas (Lactobacillus, Streptococcus).</span>",
     "<span class=\"redactado\">b) Innata: el macrófago (o el neutrófilo), que fagocita a los patógenos y, en el caso del macrófago, presenta antígenos a los linfocitos T. Adquirida: el linfocito B, que al reconocer un antígeno se diferencia en célula plasmática productora de anticuerpos específicos y en células de memoria (o el linfocito T, que coordina la respuesta y destruye células infectadas).</span>"
@@ -36979,7 +36979,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": false,
    "puntos": 1,
    "competencial": true,
-   "q": "<b>La huella hídrica es un indicador de la sostenibilidad que estima el uso de agua dulce, tanto directo como indirecto, por parte de un consumidor o productor. El objetivo es la concienciación y óptima gestión de este recurso limitado. (Fuente: FAO.org)</b><br>a) Nombra 3 funciones del agua que sean de importancia biológica.<br>b) ¿Qué se entiende por sustancias hidrófobas?<br>c) Cita un ejemplo de una sustancia hidrófoba y otro de una sustancia hidrófila.<br>d) ¿Qué es una solución tampón o buffer?",
+   "q": "<b>La huella hídrica es un indicador de la sostenibilidad que estima el uso de agua dulce, tanto directo como indirecto, por parte de un consumidor o productor. El objetivo es la concienciación y óptima gestión de este recurso limitado. (Fuente: FAO.org)</b><br>a) Nombra 3 funciones del agua que sean de importancia biológica.<br>b) ¿Qué se entiende por sustancias hidrófobas?<br>c) Cita un ejemplo de una sustancia hidrófoba y otro de una sustancia hidrófila.<br>d) ¿Qué es una solución tampón o buffer? <i>(1 punto)</i>",
    "c": [
     "<span class=\"redactado\">a) Por ejemplo: disolvente de la mayoría de las sustancias (medio donde ocurren las reacciones y transporte de nutrientes y desechos), termorreguladora (por su elevado calor específico y calor de vaporización) y estructural (mantiene la turgencia de las células). También participa como reactivo (hidrólisis, fotosíntesis) y amortigua golpes (líquido sinovial, cefalorraquídeo).</span>",
     "<span class=\"redactado\">b) Son sustancias apolares, que no forman puentes de hidrógeno ni interacciones con el agua, por lo que no se disuelven en ella: se agrupan entre sí y se separan del agua.</span>",
@@ -37006,7 +37006,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": false,
    "puntos": 1,
    "competencial": true,
-   "q": "<b>En el folleto divulgativo se informa «La alergia a la leche (más concretamente, a sus componentes como la caseína, la β-lactoglobulina…) no es lo mismo que la intolerancia a la <u>lactosa</u>, debida a que las persona tienen una ausencia o bajo nivel de la <u>lactasa</u>». (Fuente: Agencia Española de Seguridad Alimentaria y Nutrición, AESAN). (En el original, lactosa y lactasa aparecen en negrita.)</b><br>a) Indica las unidades estructurales de cada una de las biomoléculas del texto (negrita).<br>b) Indica el nombre del enlace de unión de las citadas unidades básicas.<br>c) Dibuja la estructura básica y común de las unidades que constituyen la lactasa.<br>d) Indica cuál es la composición de un heterósido.",
+   "q": "<b>En el folleto divulgativo se informa «La alergia a la leche (más concretamente, a sus componentes como la caseína, la β-lactoglobulina…) no es lo mismo que la intolerancia a la <u>lactosa</u>, debida a que las persona tienen una ausencia o bajo nivel de la <u>lactasa</u>». (Fuente: Agencia Española de Seguridad Alimentaria y Nutrición, AESAN). (En el original, lactosa y lactasa aparecen en negrita.)</b><br>a) Indica las unidades estructurales de cada una de las biomoléculas del texto (negrita).<br>b) Indica el nombre del enlace de unión de las citadas unidades básicas.<br>c) Dibuja la estructura básica y común de las unidades que constituyen la lactasa.<br>d) Indica cuál es la composición de un heterósido. <i>(1 punto)</i>",
    "c": [
     "<span class=\"redactado\">a) La lactosa es un disacárido formado por dos monosacáridos: β-D-galactosa y D-glucosa. La lactasa es una enzima, es decir, una proteína: sus unidades son los aminoácidos.</span>",
     "<span class=\"redactado\">b) En la lactosa, un enlace O-glucosídico β(1→4). En la lactasa, el enlace peptídico (entre el grupo carboxilo de un aminoácido y el amino del siguiente).</span>",
@@ -37033,7 +37033,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": true,
    "puntos": 1,
    "competencial": true,
-   "q": "<b>La OMS considera una dieta equilibrada en nutrientes la que contiene aproximadamente la siguiente proporción en kcal: las proteínas no deben sobrepasar el 15%; los <u>lípidos</u> no deben sobrepasar el 30% y los <u>glúcidos</u> es el resto hasta el 100%. (En el original, lípidos y glúcidos aparecen en negrita.)</b><br>a) La imagen adjunta corresponde a distintos componentes moleculares. Identifica y especifica aquellos que pueden ser componentes del grupo de biomoléculas resaltadas en negrita en el texto.<br>b) Polímeros con glucosa son el almidón y el glucógeno, indica la función de cada uno.<br>c) Indica cuál es la composición de un heteropolisacárido.<br>d) Indica qué molécula glucosídica es constituyente de cada tipo de ácido nucleico.",
+   "q": "<b>La OMS considera una dieta equilibrada en nutrientes la que contiene aproximadamente la siguiente proporción en kcal: las proteínas no deben sobrepasar el 15%; los <u>lípidos</u> no deben sobrepasar el 30% y los <u>glúcidos</u> es el resto hasta el 100%. (En el original, lípidos y glúcidos aparecen en negrita.)</b><br>a) La imagen adjunta corresponde a distintos componentes moleculares. Identifica y especifica aquellos que pueden ser componentes del grupo de biomoléculas resaltadas en negrita en el texto.<br>b) Polímeros con glucosa son el almidón y el glucógeno, indica la función de cada uno.<br>c) Indica cuál es la composición de un heteropolisacárido.<br>d) Indica qué molécula glucosídica es constituyente de cada tipo de ácido nucleico. <i>(1 punto)</i>",
    "c": [
     "<span class=\"redactado\">a) Lípidos: la molécula 1, un fosfolípido (ácido fosfatídico: glicerol esterificado con dos ácidos grasos, palmítico, y con ácido fosfórico). Glúcidos: la 3, D-glucosa (aldohexosa, monosacárido, en forma lineal), y la 4, sacarosa (disacárido de glucosa y fructosa). La 2 es un nucleótido (citidina monofosfato), propio de los ácidos nucleicos, aunque contiene una pentosa, la ribosa.</span>",
     "<span class=\"redactado\">b) Los dos son polisacáridos de reserva energética: el almidón en los vegetales (en amiloplastos de semillas y tubérculos) y el glucógeno en los animales (sobre todo en el hígado y los músculos) y en los hongos.</span>",
@@ -37063,7 +37063,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": false,
    "puntos": 1,
    "competencial": false,
-   "q": "<b>El aceite de oliva, considerado como el oro líquido, es un ingrediente clave de la dieta mediterránea. Presenta un alto contenido de ácido oleico.</b><br>a) En respuesta a la reacción de saponificación, ¿a qué tipo de lípido correspondería el que contenga el ácido oleico?<br>b) ¿Qué significa que son moléculas anfipáticas?<br>c) ¿Qué significa que un ácido graso es insaturado?<br>d) El ácido oleico es abundante en la membrana plasmática (papel estructural). Indica otra función de los lípidos diferente a las mencionadas.",
+   "q": "<b>El aceite de oliva, considerado como el oro líquido, es un ingrediente clave de la dieta mediterránea. Presenta un alto contenido de ácido oleico.</b><br>a) En respuesta a la reacción de saponificación, ¿a qué tipo de lípido correspondería el que contenga el ácido oleico?<br>b) ¿Qué significa que son moléculas anfipáticas?<br>c) ¿Qué significa que un ácido graso es insaturado?<br>d) El ácido oleico es abundante en la membrana plasmática (papel estructural). Indica otra función de los lípidos diferente a las mencionadas. <i>(1 punto)</i>",
    "c": [
     "<span class=\"redactado\">a) A un lípido saponificable, ya que contiene ácidos grasos (como los triacilglicéridos del aceite): con una base fuerte (NaOH o KOH) forma jabón y glicerina.</span>",
     "<span class=\"redactado\">b) Que tienen una parte polar o hidrófila, que interacciona con el agua, y otra apolar o hidrófoba, que la rechaza.</span>",
@@ -37090,7 +37090,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": false,
    "puntos": 1,
    "competencial": true,
-   "q": "<b>El Premio Nobel de Química 2024 reconoce la gran aportación al campo de biología molecular. La mitad del premio ha sido para David Baker, por el diseño computacional que permite construir tipos completamente nuevos de proteínas. La otra mitad para Demis Hassabis y John Jumper que desarrollaron 'AlphaFold', un modelo de IA capaz de predecir la forma exacta de las proteínas a partir de su secuencia genética. (Fuente: Nobelprize.org).</b><br>a) Indica los niveles de estructuración en las proteínas.<br>b) Cita los tipos de estructura terciaria de las proteínas.<br>c) Define los conceptos de: holoproteínas y heteroproteínas.<br>d) Define grupo prostético.",
+   "q": "<b>El Premio Nobel de Química 2024 reconoce la gran aportación al campo de biología molecular. La mitad del premio ha sido para David Baker, por el diseño computacional que permite construir tipos completamente nuevos de proteínas. La otra mitad para Demis Hassabis y John Jumper que desarrollaron 'AlphaFold', un modelo de IA capaz de predecir la forma exacta de las proteínas a partir de su secuencia genética. (Fuente: Nobelprize.org).</b><br>a) Indica los niveles de estructuración en las proteínas.<br>b) Cita los tipos de estructura terciaria de las proteínas.<br>c) Define los conceptos de: holoproteínas y heteroproteínas.<br>d) Define grupo prostético. <i>(1 punto)</i>",
    "c": [
     "<span class=\"redactado\">a) Estructura primaria (secuencia de aminoácidos), secundaria (α-hélice, lámina β), terciaria (plegamiento tridimensional de la cadena) y cuaternaria (asociación de varias cadenas polipeptídicas).</span>",
     "<span class=\"redactado\">b) Fibrosa o filamentosa (alargada, insoluble, estructural; colágeno, queratina) y globular (esférica, soluble; enzimas, hemoglobina).</span>",
@@ -37117,7 +37117,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": false,
    "puntos": 1,
    "competencial": true,
-   "q": "<b>Falso mito: «El huevo es malo para el colesterol». El huevo es un alimento muy completo y saludable. Es cierto que su yema es rica en colesterol, pero no hay que olvidar que el huevo posee también proteínas, vitaminas y minerales. (Fuente: https://estilosdevidasaludable.sanidad.gob.es)</b><br>a) Indica la función biológica que desempeña el colesterol en la célula.<br>b) Cita una hormona derivada de algún compuesto perteneciente al mismo grupo de biomoléculas que el colesterol.<br>c) Cita una vitamina hidrosoluble y otra liposoluble.<br>d) ¿Qué sucedería a las proteínas si se sometiesen a altas temperaturas?",
+   "q": "<b>Falso mito: «El huevo es malo para el colesterol». El huevo es un alimento muy completo y saludable. Es cierto que su yema es rica en colesterol, pero no hay que olvidar que el huevo posee también proteínas, vitaminas y minerales. (Fuente: https://estilosdevidasaludable.sanidad.gob.es)</b><br>a) Indica la función biológica que desempeña el colesterol en la célula.<br>b) Cita una hormona derivada de algún compuesto perteneciente al mismo grupo de biomoléculas que el colesterol.<br>c) Cita una vitamina hidrosoluble y otra liposoluble.<br>d) ¿Qué sucedería a las proteínas si se sometiesen a altas temperaturas? <i>(1 punto)</i>",
    "c": [
     "<span class=\"redactado\">a) Es un componente estructural de las membranas plasmáticas de las células animales, donde regula la fluidez y da estabilidad; además es precursor de las hormonas esteroideas, de la vitamina D y de los ácidos biliares.</span>",
     "<span class=\"redactado\">b) Una hormona esteroidea, como la testosterona, el estradiol, la progesterona, el cortisol o la aldosterona.</span>",
@@ -37144,7 +37144,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": true,
    "puntos": 1,
    "competencial": true,
-   "q": "<b>Las siglas ATP, NADP, FAD corresponden a moléculas con gran importancia para el funcionamiento celular.</b><br>a) Indica la composición (unidad) básica de dichas moléculas.<br>b) Indica la principal función de cada una de las moléculas.<br>c) ¿Qué tipo de enlace en el ATP contiene alta energía?<br>d) La figura adjunta esquematiza una macromolécula que contiene similares unidades, identifica a la misma e indica cuál es su principal función.",
+   "q": "<b>Las siglas ATP, NADP, FAD corresponden a moléculas con gran importancia para el funcionamiento celular.</b><br>a) Indica la composición (unidad) básica de dichas moléculas.<br>b) Indica la principal función de cada una de las moléculas.<br>c) ¿Qué tipo de enlace en el ATP contiene alta energía?<br>d) La figura adjunta esquematiza una macromolécula que contiene similares unidades, identifica a la misma e indica cuál es su principal función. <i>(1 punto)</i>",
    "c": [
     "<span class=\"redactado\">a) Son nucleótidos: el ATP es un nucleótido (adenina + ribosa + tres fosfatos) y el NADP y el FAD son dinucleótidos (dos nucleótidos unidos por sus fosfatos).</span>",
     "<span class=\"redactado\">b) ATP: almacena y transfiere energía química en las reacciones celulares (moneda energética). NADP: coenzima que transporta electrones e hidrógeno (poder reductor), sobre todo en el anabolismo, como en la fotosíntesis (NADPH). FAD: coenzima que transporta electrones e hidrógeno en reacciones de oxidación-reducción del catabolismo (ciclo de Krebs, β-oxidación) como FADH₂.</span>",
@@ -37174,7 +37174,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": false,
    "puntos": 1,
    "competencial": true,
-   "q": "<b>Los ratones comparten aproximadamente el 85% de su ADN con los seres humanos, ello explica por qué estos animales son tan utilizados en investigaciones biomédicas. Se ha descubierto que compartimos aproximadamente el 60% de nuestro ADN con los plátanos. Puede parecer desconcertante, pero la clave radica en los mecanismos celulares básicos que compartimos. Los procesos incluyen, entre otros: la respiración celular, la transcripción y traducción y replicación del material genético.</b><br>a) Definición de los procesos: transcripción, traducción y replicación.<br>b) Indica dónde se producen los procesos de transcripción y traducción en una célula animal.<br>c) Indica dónde se producen los procesos de transcripción y traducción en una célula vegetal.",
+   "q": "<b>Los ratones comparten aproximadamente el 85% de su ADN con los seres humanos, ello explica por qué estos animales son tan utilizados en investigaciones biomédicas. Se ha descubierto que compartimos aproximadamente el 60% de nuestro ADN con los plátanos. Puede parecer desconcertante, pero la clave radica en los mecanismos celulares básicos que compartimos. Los procesos incluyen, entre otros: la respiración celular, la transcripción y traducción y replicación del material genético.</b><br>a) Definición de los procesos: transcripción, traducción y replicación.<br>b) Indica dónde se producen los procesos de transcripción y traducción en una célula animal.<br>c) Indica dónde se producen los procesos de transcripción y traducción en una célula vegetal. <i>(1 punto)</i>",
    "c": [
     "<span class=\"redactado\">a) Transcripción: síntesis de ARN a partir de una hebra molde de ADN. Traducción: síntesis de una proteína en los ribosomas según la secuencia de codones del ARNm. Replicación: duplicación del ADN, semiconservativa, en la que cada hebra sirve de molde para una nueva.</span>",
     "<span class=\"redactado\">b) Transcripción en el núcleo y en las mitocondrias; traducción en los ribosomas del citoplasma (libres o en el RER) y en los de las mitocondrias.</span>",
@@ -37200,7 +37200,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": false,
    "puntos": 1,
    "competencial": true,
-   "q": "<b>Investigadores en EEUU y Reino Unido componen el mayor árbol genealógico de la historia, pues representa a todos los humanos vivos del planeta Tierra. El genoma de cada persona contiene 3.000 millones de letras que compilan todas las instrucciones necesarias para que su organismo funcione correctamente. (Fuente: Elpais.com, 2022)</b><br>a) Define genoma.<br>b) Indica cuál es la dotación genética de la especie humana, especificando cuántos son autosomas.<br>c) Indica la naturaleza química de los millones de letras que conforman el genoma.<br>d) Diferencia entre mutación génica y genómica.",
+   "q": "<b>Investigadores en EEUU y Reino Unido componen el mayor árbol genealógico de la historia, pues representa a todos los humanos vivos del planeta Tierra. El genoma de cada persona contiene 3.000 millones de letras que compilan todas las instrucciones necesarias para que su organismo funcione correctamente. (Fuente: Elpais.com, 2022)</b><br>a) Define genoma.<br>b) Indica cuál es la dotación genética de la especie humana, especificando cuántos son autosomas.<br>c) Indica la naturaleza química de los millones de letras que conforman el genoma.<br>d) Diferencia entre mutación génica y genómica. <i>(1 punto)</i>",
    "c": [
     "<span class=\"redactado\">a) El conjunto de toda la información genética (todo el ADN, con sus genes) de una célula o de un organismo o especie.</span>",
     "<span class=\"redactado\">b) 2n = 46 cromosomas en las células somáticas: 44 autosomas (22 pares) y 2 cromosomas sexuales (XX en la mujer, XY en el hombre). Los gametos tienen n = 23.</span>",
@@ -37227,7 +37227,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": true,
    "puntos": 1,
    "competencial": true,
-   "q": "<b>Dada la siguiente secuencia de unidades constituyentes de un tipo de ácido nucleico 3' TACCCCGCGATACGTATT 5' y teniendo en cuenta la tabla adjunta correspondiente al código genético:</b><br>a) Indica la secuencia de subunidades que constituirán parte del polipéptido.<br>b) Indica qué orgánulo participa en este proceso de síntesis.<br>c) Indica dos características del código genético.",
+   "q": "<b>Dada la siguiente secuencia de unidades constituyentes de un tipo de ácido nucleico 3' TACCCCGCGATACGTATT 5' y teniendo en cuenta la tabla adjunta correspondiente al código genético:</b><br>a) Indica la secuencia de subunidades que constituirán parte del polipéptido.<br>b) Indica qué orgánulo participa en este proceso de síntesis.<br>c) Indica dos características del código genético. <i>(1 punto)</i>",
    "c": [
     "<span class=\"redactado\">a) La secuencia es de ADN (tiene T) y actúa de molde: se transcribe a ARNm 5' AUG GGG CGC UAU GCA UAA 3', que se traduce como Met-Gly-Arg-Tyr-Ala; UAA es un codón de parada.</span>",
     "<span class=\"redactado\">b) El ribosoma.</span>",
@@ -37256,7 +37256,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": true,
    "puntos": 1,
    "competencial": true,
-   "q": "<b>La apitoxina es el veneno secretado por las abejas. Cuando el aguijón de una abeja obrera es introducido en la piel, unos 0,1 a 0,3 mg de esta sustancia es inyectada con un efecto citotóxico, provoca la destrucción de las membranas celulares.</b><br>a) La figura corresponde a la estructura vital que es la membrana plasmática, identifica los componentes enumerados en el esquema.<br>b) Con algún componente de la figura relaciona las funciones siguientes: el reconocimiento celular, la fluidez y el transporte de moléculas.<br>c) ¿Qué significa el término de mosaico fluido?<br>d) Ciertas células eucariotas presentan otra estructura externa, además de la representada en el esquema. ¿A qué estructura nos referimos?",
+   "q": "<b>La apitoxina es el veneno secretado por las abejas. Cuando el aguijón de una abeja obrera es introducido en la piel, unos 0,1 a 0,3 mg de esta sustancia es inyectada con un efecto citotóxico, provoca la destrucción de las membranas celulares.</b><br>a) La figura corresponde a la estructura vital que es la membrana plasmática, identifica los componentes enumerados en el esquema.<br>b) Con algún componente de la figura relaciona las funciones siguientes: el reconocimiento celular, la fluidez y el transporte de moléculas.<br>c) ¿Qué significa el término de mosaico fluido?<br>d) Ciertas células eucariotas presentan otra estructura externa, además de la representada en el esquema. ¿A qué estructura nos referimos? <i>(1 punto)</i>",
    "c": [
     "<span class=\"redactado\">a) 1, una monocapa de fosfolípidos; 2, bicapa lipídica; 3, proteína integral (transmembrana); 4, glucolípido (oligosacárido unido a un lípido); 5, glucoproteína (oligosacárido unido a una proteína); 6, proteína periférica (en la cara interna).</span>",
     "<span class=\"redactado\">b) Reconocimiento celular: los glúcidos de glucolípidos y glucoproteínas (4 y 5), que forman el glucocáliz. Fluidez: los lípidos de la bicapa (fosfolípidos, 1 y 2), que se desplazan lateralmente. Transporte de moléculas: las proteínas integrales (3), como canales y transportadores.</span>",
@@ -37286,7 +37286,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": true,
    "puntos": 1,
    "competencial": true,
-   "q": "<b>Los camélidos del Viejo y Nuevo Mundo presentan un cariotipo muy conservado, 2n = 74. Las células iniciales (A1 y B1) han sido tomadas de un dromedario (Camelus dromedarius). Cada célula sigue una vía de división diferente.</b><br>a) Identifica los procesos de división A y B.<br>b) Indica el nombre de las fases numeradas como 1, 2, 3 y 4.<br>c) Indica la dotación cromosómica de las células resultantes de cada proceso de división.<br>d) ¿Qué tipo de células sufren cada proceso de división celular?",
+   "q": "<b>Los camélidos del Viejo y Nuevo Mundo presentan un cariotipo muy conservado, 2n = 74. Las células iniciales (A1 y B1) han sido tomadas de un dromedario (Camelus dromedarius). Cada célula sigue una vía de división diferente.</b><br>a) Identifica los procesos de división A y B.<br>b) Indica el nombre de las fases numeradas como 1, 2, 3 y 4.<br>c) Indica la dotación cromosómica de las células resultantes de cada proceso de división.<br>d) ¿Qué tipo de células sufren cada proceso de división celular? <i>(1 punto)</i>",
    "c": [
     "<span class=\"redactado\">a) A es una mitosis (una división, dos células hijas). B es una meiosis (dos divisiones sucesivas, cuatro células hijas).</span>",
     "<span class=\"redactado\">b) 1, profase (mitótica); 2, metafase I (bivalentes en la placa ecuatorial); 3, anafase I (hacia la telofase I: los cromosomas homólogos van a los polos); 4, profase II (o metafase II), ya en las dos células de la primera división.</span>",
@@ -37316,7 +37316,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": true,
    "puntos": 1,
    "competencial": true,
-   "q": "<b>Característica de ciertas células es su compartimentación interna formando un complejo sistema de endomembranas interrelacionado con un intenso tráfico de vesículas celulares.</b><br>a) Identifica el orgánulo indicado con una X en el esquema.<br>b) Además del transporte, cita otra misión fundamental del orgánulo X.<br>c) ¿Qué orgánulo (Y) se forma a partir de una vesícula que se desprende del orgánulo X cargada de enzimas?<br>d) ¿Cuál es la función del orgánulo Y?",
+   "q": "<b>Característica de ciertas células es su compartimentación interna formando un complejo sistema de endomembranas interrelacionado con un intenso tráfico de vesículas celulares.</b><br>a) Identifica el orgánulo indicado con una X en el esquema.<br>b) Además del transporte, cita otra misión fundamental del orgánulo X.<br>c) ¿Qué orgánulo (Y) se forma a partir de una vesícula que se desprende del orgánulo X cargada de enzimas?<br>d) ¿Cuál es la función del orgánulo Y? <i>(1 punto)</i>",
    "c": [
     "<span class=\"redactado\">a) El aparato de Golgi (dictiosoma).</span>",
     "<span class=\"redactado\">b) La modificación y maduración de proteínas y lípidos (por ejemplo, la glucosilación), su clasificación y empaquetado en vesículas; en las células vegetales sintetiza polisacáridos de la pared.</span>",
@@ -37346,7 +37346,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": false,
    "puntos": 1,
    "competencial": true,
-   "q": "<b>Las enfermedades mitocondriales son un grupo de trastornos metabólicos, los síntomas dependen de la cantidad de mitocondrias defectuosas y dónde están en el organismo. A veces, sólo un órgano, tejido o tipo de célula se ve afectado.</b><br>a) Indica qué tipo de organismo tiene este orgánulo: algas, bacterias, hongos y/o protozoos aerobios.<br>b) Cita la principal función de las mitocondrias.<br>c) La fermentación es otro proceso metabólico. Indica dónde se produce en el interior celular.<br>d) Indica cuál es el objetivo y el resultado final del proceso fermentativo en una célula humana.",
+   "q": "<b>Las enfermedades mitocondriales son un grupo de trastornos metabólicos, los síntomas dependen de la cantidad de mitocondrias defectuosas y dónde están en el organismo. A veces, sólo un órgano, tejido o tipo de célula se ve afectado.</b><br>a) Indica qué tipo de organismo tiene este orgánulo: algas, bacterias, hongos y/o protozoos aerobios.<br>b) Cita la principal función de las mitocondrias.<br>c) La fermentación es otro proceso metabólico. Indica dónde se produce en el interior celular.<br>d) Indica cuál es el objetivo y el resultado final del proceso fermentativo en una célula humana. <i>(1 punto)</i>",
    "c": [
     "<span class=\"redactado\">a) Las algas, los hongos y los protozoos aerobios, que son eucariotas. Las bacterias no tienen mitocondrias (son procariotas).</span>",
     "<span class=\"redactado\">b) La respiración celular aerobia: obtienen la mayor parte del ATP de la célula (ciclo de Krebs, cadena respiratoria y fosforilación oxidativa).</span>",
@@ -37373,7 +37373,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": true,
    "puntos": 1,
    "competencial": true,
-   "q": "<b>Un tubérculo comestible es Solanum tuberosum, conocido comúnmente como papa o patata. La imagen adjunta esquematiza una parte esencial de un proceso metabólico que se realiza en esta especie.</b><br>a) Indica en qué orgánulo tiene lugar.<br>b) Indica el nombre que recibe este conjunto de reacciones.<br>c) Identifica los elementos (del 1 al 9) que participan en el proceso. (Algunos de los elementos se corresponden con más de un nº).<br>d) Indica qué aporta la molécula correspondiente al nº 8 del esquema a la vía anabólica característica de este orgánulo.",
+   "q": "<b>Un tubérculo comestible es Solanum tuberosum, conocido comúnmente como papa o patata. La imagen adjunta esquematiza una parte esencial de un proceso metabólico que se realiza en esta especie.</b><br>a) Indica en qué orgánulo tiene lugar.<br>b) Indica el nombre que recibe este conjunto de reacciones.<br>c) Identifica los elementos (del 1 al 9) que participan en el proceso. (Algunos de los elementos se corresponden con más de un nº).<br>d) Indica qué aporta la molécula correspondiente al nº 8 del esquema a la vía anabólica característica de este orgánulo. <i>(1 punto)</i>",
    "c": [
     "<span class=\"redactado\">a) En el cloroplasto, en la membrana de los tilacoides.</span>",
     "<span class=\"redactado\">b) Fase luminosa de la fotosíntesis (transporte electrónico no cíclico o acíclico y fotofosforilación).</span>",
@@ -37403,7 +37403,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": true,
    "puntos": 1,
    "competencial": true,
-   "q": "<b>El picudo (Diocalandra frumenti) es un insecto que amenaza, entre otras especies, a la palmera canaria (Phoenix canariensis), la cual tiene un enorme interés botánico, científico, ecológico, cultural, económico y paisajístico, y por ello está considerada como símbolo vegetal de la Comunidad Autónoma de Canarias.</b><br>a) En el esquema se representan una serie de procesos indicados con los nº 1, 2 y 3. Identifica cada uno de ellos.<br>b) Indica en qué condiciones, aerobia o anaerobia, se requiere para el conjunto de los procesos.<br>c) Indica en el interior de qué orgánulo se están produciendo los procesos.<br>d) Especifica si en su conjunto es una vía anabólica o catabólica.",
+   "q": "<b>El picudo (Diocalandra frumenti) es un insecto que amenaza, entre otras especies, a la palmera canaria (Phoenix canariensis), la cual tiene un enorme interés botánico, científico, ecológico, cultural, económico y paisajístico, y por ello está considerada como símbolo vegetal de la Comunidad Autónoma de Canarias.</b><br>a) En el esquema se representan una serie de procesos indicados con los nº 1, 2 y 3. Identifica cada uno de ellos.<br>b) Indica en qué condiciones, aerobia o anaerobia, se requiere para el conjunto de los procesos.<br>c) Indica en el interior de qué orgánulo se están produciendo los procesos.<br>d) Especifica si en su conjunto es una vía anabólica o catabólica. <i>(1 punto)</i>",
    "c": [
     "<span class=\"redactado\">a) 1, ciclo de Krebs (ciclo de los ácidos tricarboxílicos); 2, cadena de transporte electrónico (cadena respiratoria); 3, fosforilación oxidativa (síntesis de ATP por la ATP sintasa, por quimiosmosis).</span>",
     "<span class=\"redactado\">b) Aerobias: el O₂ es el aceptor final de los electrones de la cadena respiratoria, y sin él se detienen la cadena y, al no regenerarse el NAD⁺ y el FAD, el ciclo de Krebs.</span>",
@@ -37433,7 +37433,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": false,
    "puntos": 1,
    "competencial": true,
-   "q": "<b>En la escena de un crimen, la policía científica ha encontrado una pequeña muestra de sangre, lo cual implica mínima cantidad de ADN. Los investigadores del equipo de criminalista necesitan obtener suficiente material genético para poder compararlo con el de los sospechosos y así identificar al posible culpable. Para ello, deben seleccionar una técnica:</b><br>a) Indica y describe en qué consiste la técnica utilizada por los investigadores, mencionando los pasos básicos del proceso.<br>b) Además de su utilidad en investigaciones criminales, indica 2 aplicaciones en otros ámbitos.<br>c) Nombra la enzima que es requerida para llevar a cabo este procedimiento y el tipo de organismo del que se obtiene.",
+   "q": "<b>En la escena de un crimen, la policía científica ha encontrado una pequeña muestra de sangre, lo cual implica mínima cantidad de ADN. Los investigadores del equipo de criminalista necesitan obtener suficiente material genético para poder compararlo con el de los sospechosos y así identificar al posible culpable. Para ello, deben seleccionar una técnica:</b><br>a) Indica y describe en qué consiste la técnica utilizada por los investigadores, mencionando los pasos básicos del proceso.<br>b) Además de su utilidad en investigaciones criminales, indica 2 aplicaciones en otros ámbitos.<br>c) Nombra la enzima que es requerida para llevar a cabo este procedimiento y el tipo de organismo del que se obtiene. <i>(1 punto)</i>",
    "c": [
     "<span class=\"redactado\">a) La PCR (reacción en cadena de la polimerasa), que amplifica millones de veces un fragmento de ADN in vitro. Cada ciclo tiene tres pasos: desnaturalización (unos 95 ºC, se separan las hebras), hibridación (unos 50-65 ºC, los cebadores se unen a los extremos de la secuencia) y extensión (72 ºC, la ADN polimerasa sintetiza las hebras nuevas). Se repite unos 30 ciclos y el número de copias se duplica en cada uno.</span>",
     "<span class=\"redactado\">b) Por ejemplo, el diagnóstico de enfermedades infecciosas (detección de virus, como en las pruebas de COVID-19) o genéticas, las pruebas de paternidad, o el estudio de ADN antiguo en evolución y paleontología.</span>",
@@ -37459,7 +37459,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": false,
    "puntos": 1,
    "competencial": true,
-   "q": "<b>Un equipo de investigación ha descubierto una nueva especie de organismo marino con potencial para la producción de fármacos. Para conocer mejor sus características y poder aprovechar sus compuestos bioactivos, los científicos necesitan conocer su genoma.</b><br>a) Explica una técnica de biología molecular que se pueda emplear para conocer el genoma de este nuevo organismo.<br>b) Durante la investigación, la muestra de ADN se ha contaminado con material genético de otros organismos marinos. ¿Qué técnica se puede utilizar para separar fragmentos de ADN según su tamaño y así facilitar la identificación de la secuencia del organismo estudiado? Explica su funcionamiento.<br>c) Si se lograra utilizar principios activos de este organismo como sustancias eliminadoras de petróleo, ¿con qué tipo de biotecnología lo relacionarías?",
+   "q": "<b>Un equipo de investigación ha descubierto una nueva especie de organismo marino con potencial para la producción de fármacos. Para conocer mejor sus características y poder aprovechar sus compuestos bioactivos, los científicos necesitan conocer su genoma.</b><br>a) Explica una técnica de biología molecular que se pueda emplear para conocer el genoma de este nuevo organismo.<br>b) Durante la investigación, la muestra de ADN se ha contaminado con material genético de otros organismos marinos. ¿Qué técnica se puede utilizar para separar fragmentos de ADN según su tamaño y así facilitar la identificación de la secuencia del organismo estudiado? Explica su funcionamiento.<br>c) Si se lograra utilizar principios activos de este organismo como sustancias eliminadoras de petróleo, ¿con qué tipo de biotecnología lo relacionarías? <i>(1 punto)</i>",
    "c": [
     "<span class=\"redactado\">a) La secuenciación del ADN, que determina el orden de sus nucleótidos. En el método de Sanger, una ADN polimerasa copia el fragmento en presencia de didesoxinucleótidos marcados, que detienen la síntesis; se obtienen fragmentos de todos los tamaños que se separan por electroforesis, y la base final de cada uno revela la secuencia. Hoy se usan técnicas de secuenciación masiva, que leen millones de fragmentos a la vez y los ensamblan informáticamente.</span>",
     "<span class=\"redactado\">b) La electroforesis en gel (de agarosa): el ADN, con carga negativa por sus fosfatos, se coloca en pocillos y se aplica un campo eléctrico; los fragmentos migran hacia el polo positivo a través del gel, y los pequeños avanzan más que los grandes, así que quedan separados en bandas según su tamaño, que se comparan con un marcador de tamaños conocidos.</span>",
@@ -37485,7 +37485,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": false,
    "puntos": 1,
    "competencial": true,
-   "q": "<b>Un mismo grupo de turistas, con igual origen, transporte…, a las pocas horas de llegar al destino en condiciones de calima (fenómeno meteorológico responsable de emisión de partículas, no antropogénica o tóxica por sí mismas, a la atmósfera), algunos de los turistas (G-2) presentan síntomas de problemas respiratorios, irritación ocular, entre otras. El Centro médico informa que corresponde a una enfermedad NO transmisible. Transcurrido un tiempo, y dado las condiciones de algunos pasajeros denominados como G-2_B, se realizan pruebas clínicas y se diagnostican que están expuestos a un choque anafiláctico. En base a la información expuesta, razona la respuesta a las siguientes cuestiones:</b><br>a) Motivo por el cual no se menciona al G-1 de turistas (sin síntomas) en el enunciado.<br>b) Motivo de la reacción del G-2.<br>c) Qué prueba clínica puede facilitar el diagnóstico al G-2_B.<br>d) La consecuencia de un choque anafiláctico.",
+   "q": "<b>Un mismo grupo de turistas, con igual origen, transporte…, a las pocas horas de llegar al destino en condiciones de calima (fenómeno meteorológico responsable de emisión de partículas, no antropogénica o tóxica por sí mismas, a la atmósfera), algunos de los turistas (G-2) presentan síntomas de problemas respiratorios, irritación ocular, entre otras. El Centro médico informa que corresponde a una enfermedad NO transmisible. Transcurrido un tiempo, y dado las condiciones de algunos pasajeros denominados como G-2_B, se realizan pruebas clínicas y se diagnostican que están expuestos a un choque anafiláctico. En base a la información expuesta, razona la respuesta a las siguientes cuestiones:</b><br>a) Motivo por el cual no se menciona al G-1 de turistas (sin síntomas) en el enunciado.<br>b) Motivo de la reacción del G-2.<br>c) Qué prueba clínica puede facilitar el diagnóstico al G-2_B.<br>d) La consecuencia de un choque anafiláctico. <i>(1 punto)</i>",
    "c": [
     "<span class=\"redactado\">a) Porque no presentan reacción: no están sensibilizados frente a las partículas de la calima, que no son tóxicas ni infecciosas por sí mismas; su sistema inmunitario las tolera y no responde de forma exagerada.</span>",
     "<span class=\"redactado\">b) Es una reacción de hipersensibilidad inmediata (alergia): las partículas actúan como alérgenos en personas sensibilizadas, que tienen IgE específicas unidas a los mastocitos y basófilos; al unirse el alérgeno, estas células liberan histamina y otros mediadores que causan inflamación, broncoconstricción, moco e irritación ocular.</span>",
@@ -37512,7 +37512,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": false,
    "puntos": 1,
    "competencial": true,
-   "q": "<b>La fiebre amarilla es una enfermedad viral que es endémica en ciertos países tropicales. La recomendación es tomar medidas de prevención si se tiene intención de visitarlos. La información de los prospectos de los siguientes compuestos es:<br>- Compuesto A con inmunoglobulinas humanas para un amplio espectro de antígenos.<br>- Compuesto B con antígenos inactivados del virus de la fiebre amarilla.<br>Conteste de forma razonada, qué compuesto tomaría ante sus posibilidades de decisión:</b><br>a) Si su intención es viajar mañana a una de estas regiones tropicales.<br>b) Si tiene planeado realizar el viaje dentro de unos meses y su estancia es prolongada.",
+   "q": "<b>La fiebre amarilla es una enfermedad viral que es endémica en ciertos países tropicales. La recomendación es tomar medidas de prevención si se tiene intención de visitarlos. La información de los prospectos de los siguientes compuestos es:<br>- Compuesto A con inmunoglobulinas humanas para un amplio espectro de antígenos.<br>- Compuesto B con antígenos inactivados del virus de la fiebre amarilla.<br>Conteste de forma razonada, qué compuesto tomaría ante sus posibilidades de decisión:</b><br>a) Si su intención es viajar mañana a una de estas regiones tropicales.<br>b) Si tiene planeado realizar el viaje dentro de unos meses y su estancia es prolongada. <i>(1 punto)</i>",
    "c": [
     "<span class=\"redactado\">a) El compuesto A, un suero (inmunoglobulinas ya formadas): da inmunidad pasiva artificial, inmediata, porque los anticuerpos actúan desde el primer momento; pero dura poco (semanas), ya que los anticuerpos se degradan y no se forman células de memoria. La vacuna B no protegería a tiempo, porque la respuesta primaria tarda días o semanas en desarrollarse.</span>",
     "<span class=\"redactado\">b) El compuesto B, la vacuna: da inmunidad activa artificial; el organismo fabrica sus propios anticuerpos y células de memoria frente al virus. Tarda en establecerse, pero hay tiempo hasta el viaje, y es duradera, adecuada para una estancia larga.</span>"
@@ -37537,7 +37537,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": false,
    "puntos": 1.25,
    "competencial": false,
-   "q": "Dibuje las reacciones de formación de los enlaces O-glucosídico, éster y peptídico, nombrando los grupos que participan y los productos que se forman. Mencione un ejemplo de biomolécula que contenga cada uno de dichos enlaces.",
+   "q": "Dibuje las reacciones de formación de los enlaces O-glucosídico, éster y peptídico, nombrando los grupos que participan y los productos que se forman. Mencione un ejemplo de biomolécula que contenga cada uno de dichos enlaces. <i>(1,25 puntos)</i>",
    "c": [
     "<span class=\"redactado\">Los tres se forman por condensación, con liberación de una molécula de agua; se rompen por hidrólisis.</span>",
     "<span class=\"redactado\">O-glucosídico: el –OH del carbono anomérico (hemiacetálico o hemicetálico) de un monosacárido reacciona con un –OH de otro: monosacárido–OH + HO–monosacárido → monosacárido–O–monosacárido + H₂O. Ejemplo: maltosa, sacarosa, almidón, celulosa.</span>",
@@ -37564,7 +37564,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": false,
    "puntos": 1.25,
    "competencial": true,
-   "q": "Escriba un texto de no más de 10 líneas en el que se relacionen de manera coherente, dentro de un fenómeno biológico, los siguientes conceptos: enzima, centro activo, velocidad máxima, desnaturalización.",
+   "q": "Escriba un texto de no más de 10 líneas en el que se relacionen de manera coherente, dentro de un fenómeno biológico, los siguientes conceptos: enzima, centro activo, velocidad máxima, desnaturalización. <i>(1,25 puntos)</i>",
    "c": [
     "<span class=\"redactado\">Ejemplo: En la digestión, la amilasa de la saliva es una enzima, un biocatalizador de naturaleza proteica que acelera la hidrólisis del almidón al disminuir su energía de activación. El almidón (sustrato) se une a una región concreta de la enzima, el centro activo, cuya forma y aminoácidos son complementarios a él, y allí se rompen los enlaces. Si aumenta la concentración de almidón, la velocidad de la reacción crece hasta alcanzar la velocidad máxima, cuando todos los centros activos están ocupados (la enzima está saturada). Al llegar al estómago, el pH muy ácido provoca la desnaturalización de la amilasa: pierde su estructura terciaria, se deforma el centro activo y deja de funcionar.</span>"
    ],
@@ -37588,7 +37588,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": true,
    "puntos": 1.25,
    "competencial": true,
-   "q": "A partir de la siguiente secuencia codificante de nucleótidos (5'-CGACCCCTCATAGGCAAACACCGCTATATC-3')<br>a) Razone si se trata de ADN o ARN.<br>b) Determine la secuencia de aminoácidos a la que dará lugar, usando la Figura 2 adjunta.<br>c) Escriba una secuencia alternativa con una mutación que resulte en el cambio del aminoácido Pro por Thr.",
+   "q": "A partir de la siguiente secuencia codificante de nucleótidos (5'-CGACCCCTCATAGGCAAACACCGCTATATC-3')<br>a) Razone si se trata de ADN o ARN.<br>b) Determine la secuencia de aminoácidos a la que dará lugar, usando la Figura 2 adjunta.<br>c) Escriba una secuencia alternativa con una mutación que resulte en el cambio del aminoácido Pro por Thr. <i>(1,25 puntos)</i>",
    "c": [
     "<span class=\"redactado\">a) Es ADN, porque contiene timina (T) y no uracilo (U).</span>",
     "<span class=\"redactado\">b) Al ser la hebra codificante, el ARNm tiene la misma secuencia con U: 5'-CGA CCC CUC AUA GGC AAA CAC CGC UAU AUC-3'. Aminoácidos: Arg-Pro-Leu-Met-Gly-Lys-His-Arg-Tyr-Ile. Ojo: la Figura 2 agrupa AUA con Met, pero en el código genético estándar AUA codifica Ile (Arg-Pro-Leu-Ile-…); AUA es Met solo en el código mitocondrial de vertebrados.</span>",
@@ -37617,7 +37617,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": false,
    "puntos": 1.25,
    "competencial": false,
-   "q": "Indique cuáles de las siguientes afirmaciones son correctas y cuáles no. Razone brevemente en cada caso su respuesta.<br>a) Todas las mutaciones son fenotípicamente perjudiciales para los individuos que las padecen.<br>b) Las mutaciones suponen una fuente importante de variación alélica.<br>c) Las mutaciones génicas pueden ocurrir cuando un agente mutagénico incide sobre una proteína alterando irreversiblemente su funcionalidad.<br>d) Un gen mutado puede codificar para una proteína con la función alterada.<br>e) Una mutación en un gameto humano siempre tiene un efecto perjudicial.",
+   "q": "Indique cuáles de las siguientes afirmaciones son correctas y cuáles no. Razone brevemente en cada caso su respuesta.<br>a) Todas las mutaciones son fenotípicamente perjudiciales para los individuos que las padecen.<br>b) Las mutaciones suponen una fuente importante de variación alélica.<br>c) Las mutaciones génicas pueden ocurrir cuando un agente mutagénico incide sobre una proteína alterando irreversiblemente su funcionalidad.<br>d) Un gen mutado puede codificar para una proteína con la función alterada.<br>e) Una mutación en un gameto humano siempre tiene un efecto perjudicial. <i>(1,25 puntos)</i>",
    "c": [
     "<span class=\"redactado\">a) Falsa: muchas son neutras (silenciosas, por la degeneración del código, o en ADN no codificante) y algunas son beneficiosas; solo una parte es perjudicial.</span>",
     "<span class=\"redactado\">b) Correcta: las mutaciones son la fuente primaria de nuevos alelos, sobre los que actúa la selección natural.</span>",
@@ -37645,7 +37645,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": false,
    "puntos": 1.25,
    "competencial": false,
-   "q": "Dibuje una meiosis completa de una célula 2n=4, nombrando cada una de las fases de las que se compone. Señale una diferencia entre la I división meiótica entre machos y hembras de humanos.",
+   "q": "Dibuje una meiosis completa de una célula 2n=4, nombrando cada una de las fases de las que se compone. Señale una diferencia entre la I división meiótica entre machos y hembras de humanos. <i>(1,25 puntos)</i>",
    "c": [
     "<span class=\"redactado\">El dibujo debe mostrar dos pares de cromosomas homólogos (cuatro cromosomas de dos cromátidas). Primera división (reduccional): profase I (los homólogos se aparean formando 2 bivalentes y hay sobrecruzamiento), metafase I (los bivalentes en la placa ecuatorial), anafase I (cada homólogo va a un polo) y telofase I: dos células n = 2, con cromosomas de dos cromátidas. Segunda división (ecuacional): profase II, metafase II (2 cromosomas en la placa), anafase II (se separan las cromátidas hermanas) y telofase II: cuatro células n = 2, con cromosomas de una cromátida.</span>",
     "<span class=\"redactado\">Diferencia en la primera división: en el hombre la citocinesis es igual y da dos espermatocitos secundarios iguales, y la meiosis empieza en la pubertad y es continua; en la mujer la citocinesis es desigual y da un ovocito secundario grande y un corpúsculo polar pequeño, y la profase I empieza antes del nacimiento y queda detenida hasta la pubertad, cuando se completa la primera división en cada ciclo antes de la ovulación.</span>"
@@ -37670,7 +37670,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": true,
    "puntos": 1.25,
    "competencial": true,
-   "q": "a) Identifique el orgánulo celular representado en la microfotografía, y b) nombre las estructuras numeradas.<br>c) Nombre dos procesos fundamentales para la célula que tienen lugar en este orgánulo, y d) explique su importancia.",
+   "q": "a) Identifique el orgánulo celular representado en la microfotografía, y b) nombre las estructuras numeradas.<br>c) Nombre dos procesos fundamentales para la célula que tienen lugar en este orgánulo, y d) explique su importancia. <i>(1,25 puntos)</i>",
    "c": [
     "<span class=\"redactado\">a) El núcleo (en interfase).</span>",
     "<span class=\"redactado\">b) 1, envoltura nuclear (doble membrana); 2, eucromatina (cromatina laxa, más clara); 3, poro nuclear; 4, heterocromatina (cromatina condensada, oscura, junto a la envoltura); 5, nucléolo.</span>",
@@ -37700,7 +37700,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": false,
    "puntos": 1.25,
    "competencial": false,
-   "q": "Describa el modelo de mosaico fluido de membrana, y cite al menos 3 de sus funciones. Represéntelo con un dibujo en el que aparezcan claramente señalados los distintos tipos de lípidos, proteínas y glúcidos que la conforman.",
+   "q": "Describa el modelo de mosaico fluido de membrana, y cite al menos 3 de sus funciones. Represéntelo con un dibujo en el que aparezcan claramente señalados los distintos tipos de lípidos, proteínas y glúcidos que la conforman. <i>(1,25 puntos)</i>",
    "c": [
     "<span class=\"redactado\">Modelo de Singer y Nicolson (1972): la membrana es una bicapa de lípidos anfipáticos (fosfolípidos, glucolípidos y colesterol en las animales) con las colas hidrófobas hacia dentro y las cabezas polares hacia el agua. En ella se insertan proteínas integrales (algunas transmembrana) y, en las superficies, proteínas periféricas, como piezas de un mosaico. Es fluida: lípidos y proteínas se desplazan lateralmente. Es asimétrica: los glúcidos (oligosacáridos de glucolípidos y glucoproteínas) solo están en la cara externa, donde forman el glucocáliz.</span>",
     "<span class=\"redactado\">Funciones: límite de la célula que separa el medio interno del externo; transporte selectivo de sustancias (permeabilidad selectiva); reconocimiento celular y recepción de señales (receptores); endocitosis y exocitosis; uniones entre células.</span>",
@@ -37726,7 +37726,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": false,
    "puntos": 1.25,
    "competencial": false,
-   "q": "Los ácidos grasos son una importante fuente de carbono y energía para la célula. ¿Cómo se denomina el proceso por el que se incorporan al ciclo de Krebs? Nombre y explique brevemente las diferentes fases en que se divide, y su localización intracelular.",
+   "q": "Los ácidos grasos son una importante fuente de carbono y energía para la célula. ¿Cómo se denomina el proceso por el que se incorporan al ciclo de Krebs? Nombre y explique brevemente las diferentes fases en que se divide, y su localización intracelular. <i>(1,25 puntos)</i>",
    "c": [
     "<span class=\"redactado\">Es la β-oxidación (hélice de Lynen).</span>",
     "<span class=\"redactado\">1) Activación, en el citosol (en la membrana mitocondrial externa): el ácido graso se une a la coenzima A con gasto de ATP (que pasa a AMP + PPi) y forma acil-CoA. 2) Entrada en la mitocondria: el grupo acilo atraviesa la membrana interna unido a la carnitina y en la matriz vuelve a formar acil-CoA. 3) β-oxidación, en la matriz mitocondrial: en cada vuelta hay cuatro reacciones (oxidación con FAD, hidratación, oxidación con NAD⁺ y tiólisis con CoA) que separan un acetil-CoA (2 C) y producen 1 FADH₂ y 1 NADH; se repite hasta que toda la cadena se convierte en acetil-CoA, que entra en el ciclo de Krebs. También hay β-oxidación en los peroxisomas.</span>"
@@ -37751,7 +37751,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": false,
    "puntos": 1.25,
    "competencial": false,
-   "q": "¿En qué consiste la glucólisis? Dibuje la reacción global de la glucólisis, indicando el nombre de todos los elementos que forman parte de la reacción. ¿Cuáles son los dos tipos de degradación que puede seguir el producto final de la glucólisis? Compárelos a nivel de productos finales y cantidad de energía generada.",
+   "q": "¿En qué consiste la glucólisis? Dibuje la reacción global de la glucólisis, indicando el nombre de todos los elementos que forman parte de la reacción. ¿Cuáles son los dos tipos de degradación que puede seguir el producto final de la glucólisis? Compárelos a nivel de productos finales y cantidad de energía generada. <i>(1,25 puntos)</i>",
    "c": [
     "<span class=\"redactado\">La glucólisis es la ruta catabólica del citosol, anaerobia, en la que una molécula de glucosa (6 C) se oxida y se rompe en dos de piruvato (3 C), con una ganancia neta de 2 ATP (por fosforilación a nivel de sustrato) y 2 NADH.</span>",
     "<span class=\"redactado\">Reacción global: glucosa + 2 NAD⁺ + 2 ADP + 2 Pi → 2 piruvato (ácido pirúvico) + 2 NADH + 2 H⁺ + 2 ATP + 2 H₂O.</span>",
@@ -37777,7 +37777,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": true,
    "puntos": 1.25,
    "competencial": true,
-   "q": "¿Qué proceso se encuentra representado en la Figura 1? Nombre los espacios intracelulares A y B, y los compuestos B, C, D, E, F, G y H. ¿Cuál es la fuente de energía que permite la síntesis del compuesto H?",
+   "q": "¿Qué proceso se encuentra representado en la Figura 1? Nombre los espacios intracelulares A y B, y los compuestos B, C, D, E, F, G y H. ¿Cuál es la fuente de energía que permite la síntesis del compuesto H? <i>(1,25 puntos)</i>",
    "c": [
     "<span class=\"redactado\">Es la fase luminosa de la fotosíntesis (transporte electrónico no cíclico y fotofosforilación) en la membrana del tilacoide.</span>",
     "<span class=\"redactado\">A, estroma del cloroplasto; B, lumen o espacio intratilacoidal. C, H₂O; D, H⁺ (protones); E, NADP⁺; F, NADPH; G, ADP + Pi; H, ATP.</span>",
@@ -37806,7 +37806,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": false,
    "puntos": 1.25,
    "competencial": false,
-   "q": "Los microorganismos están implicados en diversos procesos industriales para obtener productos alimenticios como vino, cerveza, etc. a) ¿Cuál es el proceso metabólico que tiene lugar en estos productos? b) ¿Qué tipo de microorganismo (y su nombre) lo lleva a cabo? c) Escriba el balance global de esta reacción. Cite otro proceso similar en el que el producto de la reacción sea diferente, indique el alimento producido, el microorganismo involucrado, y el balance global de la reacción.",
+   "q": "Los microorganismos están implicados en diversos procesos industriales para obtener productos alimenticios como vino, cerveza, etc. a) ¿Cuál es el proceso metabólico que tiene lugar en estos productos? b) ¿Qué tipo de microorganismo (y su nombre) lo lleva a cabo? c) Escriba el balance global de esta reacción. Cite otro proceso similar en el que el producto de la reacción sea diferente, indique el alimento producido, el microorganismo involucrado, y el balance global de la reacción. <i>(1,25 puntos)</i>",
    "c": [
     "<span class=\"redactado\">a) La fermentación alcohólica.</span>",
     "<span class=\"redactado\">b) Levaduras (hongos unicelulares), sobre todo Saccharomyces cerevisiae.</span>",
@@ -37833,7 +37833,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": false,
    "puntos": 1.25,
    "competencial": false,
-   "q": "Comente brevemente los conceptos: ingeniería genética y biotecnología, indicando el papel de la primera en el desarrollo de la segunda. Cite algún producto biotecnológico que se obtenga por intervención de la ingeniería genética y otro en el que esta no intervenga.",
+   "q": "Comente brevemente los conceptos: ingeniería genética y biotecnología, indicando el papel de la primera en el desarrollo de la segunda. Cite algún producto biotecnológico que se obtenga por intervención de la ingeniería genética y otro en el que esta no intervenga. <i>(1,25 puntos)</i>",
    "c": [
     "<span class=\"redactado\">Biotecnología: uso de seres vivos, sus células o sus componentes para obtener productos o servicios útiles (alimentos, fármacos, depuración…). Ingeniería genética: conjunto de técnicas que permiten manipular el ADN, aislar genes, modificarlos y transferirlos de un organismo a otro (ADN recombinante).</span>",
     "<span class=\"redactado\">La ingeniería genética ha impulsado la biotecnología moderna: permite crear organismos modificados genéticamente que fabrican productos nuevos o en mayor cantidad. Producto con ingeniería genética: la insulina humana producida por bacterias (E. coli) transgénicas, o el maíz Bt. Producto sin ella: el pan, el vino, la cerveza o el yogur (biotecnología tradicional).</span>"
@@ -37858,7 +37858,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": false,
    "puntos": 1.25,
    "competencial": true,
-   "q": "Los gemelos univitelinos presentan un genoma idéntico. En una pareja de gemelos univitelinos que se infectaron simultáneamente con SARS-CoV2, sin embargo, uno de ellos produjo una gran cantidad de anticuerpos en una semana, que el otro gemelo tardó tres semanas en producir. Razone del modo más completo posible los posibles escenarios que justificarían este comportamiento, dibujando en una gráfica uno de ellos.",
+   "q": "Los gemelos univitelinos presentan un genoma idéntico. En una pareja de gemelos univitelinos que se infectaron simultáneamente con SARS-CoV2, sin embargo, uno de ellos produjo una gran cantidad de anticuerpos en una semana, que el otro gemelo tardó tres semanas en producir. Razone del modo más completo posible los posibles escenarios que justificarían este comportamiento, dibujando en una gráfica uno de ellos. <i>(1,25 puntos)</i>",
    "c": [
     "<span class=\"redactado\">Escenario principal: el gemelo rápido ya había estado en contacto con el antígeno, por una infección anterior o por la vacuna, y tenía linfocitos B y T de memoria; dio una respuesta secundaria, rápida, intensa y con más IgG. El otro tuvo su primer contacto y dio una respuesta primaria, con un periodo de latencia más largo, menos anticuerpos y sobre todo IgM al principio.</span>",
     "<span class=\"redactado\">Otros escenarios: el gemelo lento tenía el sistema inmunitario debilitado (inmunodeficiencia adquirida, tratamiento inmunosupresor, otra enfermedad, malnutrición o estrés), o recibió una dosis de virus distinta; a igual genoma, la experiencia inmunitaria y el ambiente pueden ser diferentes.</span>",
@@ -38152,7 +38152,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": true,
    "puntos": 2.5,
    "competencial": true,
-   "q": "<b>TEXTO: Los 250.000 gallegos con diabetes de tipo 2 tendrán una asistencia integral. Los recursos tecnológicos a disposición de los facultativos para el tratamiento de la diabetes han experimentado una revolución en los últimos años a cuenta de los sensores digitales —que permiten una lectura automática de los niveles de glucosa al minuto— y de las bombas de insulina —que la administran de forma continuada, sin necesidad de estar pendiente de los pinchazos—. De la combinación de ambos sistemas, y con inteligencia artificial de por medio, se espera el próximo gran salto adelante, que es lo que se conoce como «páncreas artificial». Frente al tipo 2, la «diabetes del adulto», que, «cuanto mayor te haces, más posibilidades tienes de desarrollarla», lo fundamental es la «prevención», porque, aunque no se puede evitar ni curar como enfermedad crónica que es, sí se puede, cuanto menos, «retrasar su evolución». (Adaptado de: La Voz de Galicia, 1 de diciembre de 2023)</b><br>1.1. Identifique en el texto dos avances biotecnológicos e indique sus aportaciones al tratamiento de la diabetes.<br>1.2. Explique, brevemente, cómo la biotecnología se puede utilizar para producir insulina. En la explicación deben aparecer las siguientes palabras clave: bacteria(s), enzima(s) de restricción, insulina, plásmido(s), recombinante(s).<br>1.3. Uno de los alimentos que se debe limitar en la dieta en personas con diabetes tipo 2 y, en general, en toda la población es el azúcar. Identifique la molécula de azúcar entre las moléculas (A, B, C) de la figura, e indique su nombre científico. ¿A qué tipo y subtipo de moléculas orgánicas pertenece?<br>1.4. Cuando la molécula de azúcar es metabolizada, da lugar a la liberación de dos monómeros. Indique el nombre de la enzima responsable y el de los monómeros liberados.<br>1.5. Pese a los avances tecnológicos, ¿qué medida sigue siendo fundamental en la diabetes tipo 2? Cite dos ejemplos concretos.",
+   "q": "<b>TEXTO: Los 250.000 gallegos con diabetes de tipo 2 tendrán una asistencia integral. Los recursos tecnológicos a disposición de los facultativos para el tratamiento de la diabetes han experimentado una revolución en los últimos años a cuenta de los sensores digitales —que permiten una lectura automática de los niveles de glucosa al minuto— y de las bombas de insulina —que la administran de forma continuada, sin necesidad de estar pendiente de los pinchazos—. De la combinación de ambos sistemas, y con inteligencia artificial de por medio, se espera el próximo gran salto adelante, que es lo que se conoce como «páncreas artificial». Frente al tipo 2, la «diabetes del adulto», que, «cuanto mayor te haces, más posibilidades tienes de desarrollarla», lo fundamental es la «prevención», porque, aunque no se puede evitar ni curar como enfermedad crónica que es, sí se puede, cuanto menos, «retrasar su evolución». (Adaptado de: La Voz de Galicia, 1 de diciembre de 2023)</b><br>1.1. Identifique en el texto dos avances biotecnológicos e indique sus aportaciones al tratamiento de la diabetes.<br>1.2. Explique, brevemente, cómo la biotecnología se puede utilizar para producir insulina. En la explicación deben aparecer las siguientes palabras clave: bacteria(s), enzima(s) de restricción, insulina, plásmido(s), recombinante(s).<br>1.3. Uno de los alimentos que se debe limitar en la dieta en personas con diabetes tipo 2 y, en general, en toda la población es el azúcar. Identifique la molécula de azúcar entre las moléculas (A, B, C) de la figura, e indique su nombre científico. ¿A qué tipo y subtipo de moléculas orgánicas pertenece?<br>1.4. Cuando la molécula de azúcar es metabolizada, da lugar a la liberación de dos monómeros. Indique el nombre de la enzima responsable y el de los monómeros liberados.<br>1.5. Pese a los avances tecnológicos, ¿qué medida sigue siendo fundamental en la diabetes tipo 2? Cite dos ejemplos concretos. <i>(2,5 puntos)</i>",
    "c": [
     "<span class=\"redactado\">1.1) Los sensores digitales de glucosa, que miden de forma continua y automática la glucemia, y las bombas de insulina, que la administran de forma continua sin pinchazos. Su combinación con inteligencia artificial daría lugar al «páncreas artificial», que ajustaría automáticamente la dosis de insulina a la glucosa medida.</span>",
     "<span class=\"redactado\">1.2) Se aísla el gen humano de la insulina y se corta, junto con un plásmido bacteriano, con la misma enzima de restricción, de modo que quedan extremos complementarios; la ADN ligasa une el gen al plásmido y se obtiene un plásmido recombinante. Este se introduce en bacterias (por ejemplo, E. coli), que se seleccionan y se cultivan a gran escala; al multiplicarse expresan el gen y producen insulina humana recombinante, que se extrae y se purifica.</span>",
@@ -65796,7 +65796,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": true,
    "puntos": 2,
    "competencial": true,
-   "q": "<b>En relación con la imagen:</b><br>a) Identifique a qué tipo de macromolécula pertenecen los esquemas A y B. Indique de manera razonada una característica que permita diferenciar entre A y B. (0,6)<br>b) Identifique las moléculas señaladas con los números 1, 2, 3, 4 y 5. ¿Qué representan las líneas punteadas de la macromolécula “B”? ¿Qué tipo de enlace es el señalado como 6? (0,9)<br>c) Indique la localización de la molécula “B” en la célula procariota y eucariota. (0,5)",
+   "q": "<b>En relación con la imagen:</b><br>a) Identifique a qué tipo de macromolécula pertenecen los esquemas A y B. Indique de manera razonada una característica que permita diferenciar entre A y B. (0,6)<br>b) Identifique las moléculas señaladas con los números 1, 2, 3, 4 y 5. ¿Qué representan las líneas punteadas de la macromolécula “B”? ¿Qué tipo de enlace es el señalado como 6? (0,9)<br>c) Indique la localización de la molécula “B” en la célula procariota y eucariota. (0,5) <i>(2 puntos)</i>",
    "c": [
     "<span class=\"redactado\">a) Ambos son ácidos nucleicos: A es ARN y B es ADN. A tiene uracilo (U) y es monocatenario; B tiene timina (T) y es bicatenario.</span>",
     "<span class=\"redactado\">b) 1: nucleótido (desoxirribonucleótido); 2: grupo fosfato; 3: pentosa (desoxirribosa); 4: bases nitrogenadas; 5: nucleótido (ribonucleótido). Las líneas punteadas son puentes de hidrógeno entre bases complementarias (2 entre A y T, 3 entre G y C). El enlace 6 es un enlace fosfodiéster.</span>",
@@ -65824,7 +65824,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": false,
    "puntos": 2,
    "competencial": false,
-   "q": "<b>Respecto a las moléculas biológicas:</b><br>a) Indique qué tipo de biomolécula es la celulosa, su función y localización. ¿Cómo se llama y de qué tipo es el enlace que se produce entre los monómeros constituyentes de la celulosa? (0,7)<br>b) Indique las unidades monoméricas que componen el almidón, los tipos de polímeros que lo constituyen y los tipos de enlace que se forman. ¿En qué tipo de células se encuentra esta molécula y cuál es su función? (1,3)",
+   "q": "<b>Respecto a las moléculas biológicas:</b><br>a) Indique qué tipo de biomolécula es la celulosa, su función y localización. ¿Cómo se llama y de qué tipo es el enlace que se produce entre los monómeros constituyentes de la celulosa? (0,7)<br>b) Indique las unidades monoméricas que componen el almidón, los tipos de polímeros que lo constituyen y los tipos de enlace que se forman. ¿En qué tipo de células se encuentra esta molécula y cuál es su función? (1,3) <i>(2 puntos)</i>",
    "c": [
     "<span class=\"redactado\">a) La celulosa es un polisacárido (homopolisacárido de β-glucosa) con función estructural: forma la pared celular de las células vegetales. Sus monómeros se unen por enlaces O-glucosídicos β(1→4).</span>",
     "<span class=\"redactado\">b) El almidón está formado por α-glucosa. Tiene dos polímeros: la amilosa, lineal, con enlaces α(1→4), y la amilopectina, ramificada, con enlaces α(1→4) y ramificaciones α(1→6). Se encuentra en las células vegetales (amiloplastos, cloroplastos) y su función es la reserva energética.</span>"
@@ -69941,7 +69941,7 @@ window.BIOCELIA_HISTORICO = {
    "hasImg": true,
    "puntos": 2.5,
    "competencial": true,
-   "q": "<b>TEXTO: Los 250.000 gallegos con diabetes de tipo 2 tendrán una asistencia integral. Los recursos tecnológicos a disposición de los facultativos para el tratamiento de la diabetes han experimentado una revolución en los últimos años a cuenta de los sensores digitales —que permiten una lectura automática de los niveles de glucosa al minuto— y de las bombas de insulina —que la administran de forma continuada, sin necesidad de estar pendiente de los pinchazos—. De la combinación de ambos sistemas, y con inteligencia artificial de por medio, se espera el próximo gran salto adelante, que es lo que se conoce como «páncreas artificial». Frente al tipo 2, la «diabetes del adulto», que, «cuanto mayor te haces, más posibilidades tienes de desarrollarla», lo fundamental es la «prevención», porque, aunque no se puede evitar ni curar como enfermedad crónica que es, sí se puede, cuanto menos, «retrasar su evolución». (Adaptado de: La Voz de Galicia, 1 de diciembre de 2023)</b><br>1.1. Identifique en el texto dos avances biotecnológicos e indique sus aportaciones al tratamiento de la diabetes.<br>1.2. Explique, brevemente, cómo la biotecnología se puede utilizar para producir insulina. En la explicación deben aparecer las siguientes palabras clave: bacteria(s), enzima(s) de restricción, insulina, plásmido(s), recombinante(s).<br>1.3. Uno de los alimentos que se debe limitar en la dieta en personas con diabetes tipo 2 y, en general, en toda la población es el azúcar. Identifique la molécula de azúcar entre las moléculas (A, B, C) de la figura, e indique su nombre científico. ¿A qué tipo y subtipo de moléculas orgánicas pertenece?<br>1.4. Cuando la molécula de azúcar es metabolizada, da lugar a la liberación de dos monómeros. Indique el nombre de la enzima responsable y el de los monómeros liberados.<br>1.5. Pese a los avances tecnológicos, ¿qué medida sigue siendo fundamental en la diabetes tipo 2? Cite dos ejemplos concretos.",
+   "q": "<b>TEXTO: Los 250.000 gallegos con diabetes de tipo 2 tendrán una asistencia integral. Los recursos tecnológicos a disposición de los facultativos para el tratamiento de la diabetes han experimentado una revolución en los últimos años a cuenta de los sensores digitales —que permiten una lectura automática de los niveles de glucosa al minuto— y de las bombas de insulina —que la administran de forma continuada, sin necesidad de estar pendiente de los pinchazos—. De la combinación de ambos sistemas, y con inteligencia artificial de por medio, se espera el próximo gran salto adelante, que es lo que se conoce como «páncreas artificial». Frente al tipo 2, la «diabetes del adulto», que, «cuanto mayor te haces, más posibilidades tienes de desarrollarla», lo fundamental es la «prevención», porque, aunque no se puede evitar ni curar como enfermedad crónica que es, sí se puede, cuanto menos, «retrasar su evolución». (Adaptado de: La Voz de Galicia, 1 de diciembre de 2023)</b><br>1.1. Identifique en el texto dos avances biotecnológicos e indique sus aportaciones al tratamiento de la diabetes.<br>1.2. Explique, brevemente, cómo la biotecnología se puede utilizar para producir insulina. En la explicación deben aparecer las siguientes palabras clave: bacteria(s), enzima(s) de restricción, insulina, plásmido(s), recombinante(s).<br>1.3. Uno de los alimentos que se debe limitar en la dieta en personas con diabetes tipo 2 y, en general, en toda la población es el azúcar. Identifique la molécula de azúcar entre las moléculas (A, B, C) de la figura, e indique su nombre científico. ¿A qué tipo y subtipo de moléculas orgánicas pertenece?<br>1.4. Cuando la molécula de azúcar es metabolizada, da lugar a la liberación de dos monómeros. Indique el nombre de la enzima responsable y el de los monómeros liberados.<br>1.5. Pese a los avances tecnológicos, ¿qué medida sigue siendo fundamental en la diabetes tipo 2? Cite dos ejemplos concretos. <i>(2,5 puntos)</i>",
    "c": [
     "<span class=\"redactado\">1.1) Los sensores digitales de glucosa, que miden de forma continua y automática la glucemia, y las bombas de insulina, que la administran de forma continua sin pinchazos. Su combinación con inteligencia artificial daría lugar al «páncreas artificial», que ajustaría automáticamente la dosis de insulina a la glucosa medida.</span>",
     "<span class=\"redactado\">1.2) Se aísla el gen humano de la insulina y se corta, junto con un plásmido bacteriano, con la misma enzima de restricción, de modo que quedan extremos complementarios; la ADN ligasa une el gen al plásmido y se obtiene un plásmido recombinante. Este se introduce en bacterias (por ejemplo, E. coli), que se seleccionan y se cultivan a gran escala; al multiplicarse expresan el gen y producen insulina humana recombinante, que se extrae y se purifica.</span>",

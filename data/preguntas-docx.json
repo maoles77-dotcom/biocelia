@@ -631,12 +631,12 @@
       "apartados": [
         {
           "letra": "a",
-          "texto": "Identifique las moléculas representadas",
+          "texto": "Identifique las moléculas representadas en la imagen A y los fenómenos representados con las letras B, C y D [0,8].",
           "puntos": null
         },
         {
           "letra": "b",
-          "texto": "En relación con la imagen A, indique el tipo",
+          "texto": "En relación con la imagen A, indique el tipo de enlace que se establece entre ambas moléculas [0,2].",
           "puntos": null
         }
       ],
@@ -793,22 +793,22 @@
       "apartados": [
         {
           "letra": "a",
-          "texto": "¿A qué grupo de moléculas pertenece",
+          "texto": "¿A qué grupo de moléculas pertenece cada una de ellas? [0,3]",
           "puntos": null
         },
         {
           "letra": "b",
-          "texto": "¿Cuál o cuáles de estas moléculas forman",
+          "texto": "¿Cuál o cuáles de estas moléculas forman la sacarosa? Indique sus nombres [0,4].",
           "puntos": null
         },
         {
           "letra": "c",
-          "texto": "¿Cuál o cuáles de ellas pueden formar un",
+          "texto": "¿Cuál o cuáles de ellas pueden formar un péptido? [0,2]",
           "puntos": null
         },
         {
           "letra": "d",
-          "texto": "¿Cuál o cuáles pueden participar en la",
+          "texto": "¿Cuál o cuáles pueden participar en la formación de un nucleótido? [0,1]",
           "puntos": null
         }
       ],
@@ -916,26 +916,14 @@
       "tipo": "competencial",
       "dificultad": null,
       "enunciado": "7. Indique dos funciones de los monosacáridos [0,3]. Represente la fórmula de un monosacárido indicando su nombre [0,5] y de un disacárido señalando el tipo de enlace [0,7]. Relacione entre sí los términos de las dos columnas [0,5].",
-      "apartados": [
-        {
-          "letra": "a",
-          "texto": "Los monosacáridos tienen función energética, y funcion estructural.",
-          "puntos": null
-        },
-        {
-          "letra": "b",
-          "texto": "FORMULA DE GLUCOSA, Y DE UN DISACARIDO.",
-          "puntos": null
-        },
-        {
-          "letra": "c",
-          "texto": "A3. B4. C5. D1. E2",
-          "puntos": null
-        }
-      ],
+      "apartados": [],
       "puntos_total": null,
-      "criterios": [],
-      "tiene_criterios": false,
+      "criterios": [
+        "Funciones de los monosacáridos: energética y estructural.",
+        "Fórmula de la glucosa (o de otro monosacárido) y de un disacárido, señalando el enlace O-glucosídico.",
+        "Relación entre columnas: A3, B4, C5, D1, E2."
+      ],
+      "tiene_criterios": true,
       "tip": null,
       "imagen": {
         "figura_id": "figdocx-b1-tema-2-glucidos-image3",
@@ -959,7 +947,8 @@
         "confianza_troceo": "media",
         "secuencia_apartados_limpia": true,
         "sospechas": [],
-        "nota": "Transcripción literal. Requiere revisión humana antes de publicarse."
+        "nota": "Transcripción literal. Requiere revisión humana antes de publicarse.",
+        "revision_2026_10": "Corregida a mano con el Word original (o con el enunciado oficial si el Word estaba incompleto)."
       }
     },
     {
@@ -1348,32 +1337,16 @@
       ],
       "tipo": "competencial",
       "dificultad": null,
-      "enunciado": "14. En un laboratorio hay 4 tubos que contienen los siguientes compuestos por separado: glucosa, maltosa, sacarosa y almidón.Para saber el tipo de carbohidrato que contiene cada tubo se hacen varias pruebas:",
-      "apartados": [
-        {
-          "letra": "a",
-          "texto": "análisis de la solubilidad;",
-          "puntos": null
-        },
-        {
-          "letra": "b",
-          "texto": "poder reductor;",
-          "puntos": null
-        },
-        {
-          "letra": "c",
-          "texto": "hidrólisis en medio ácido;",
-          "puntos": null
-        },
-        {
-          "letra": "d",
-          "texto": "sabor dulce. Tras el análisis se obtienen los siguientes resultados:",
-          "puntos": null
-        }
-      ],
+      "enunciado": "14. En un laboratorio hay 4 tubos que contienen los siguientes compuestos por separado: glucosa, maltosa, sacarosa y almidón. Para saber el tipo de carbohidrato que contiene cada tubo se hacen varias pruebas: a) análisis de la solubilidad; b) poder reductor; c) hidrólisis en medio ácido; d) sabor dulce. Tras el análisis se obtienen los resultados de la tabla. Indique razonadamente qué compuesto de los indicados se encuentra en cada tubo [1].",
+      "apartados": [],
       "puntos_total": null,
-      "criterios": [],
-      "tiene_criterios": false,
+      "criterios": [
+        "Tubo 1: almidón, porque es el único de los candidatos que es insoluble.",
+        "Tubo 2: glucosa, porque no es hidrolizable y el resto de moléculas sí lo son.",
+        "Tubo 3: sacarosa, el único disacárido no reductor.",
+        "Tubo 4: maltosa, porque concuerda con las características del candidato que queda."
+      ],
+      "tiene_criterios": true,
       "tip": null,
       "imagen": {
         "figura_id": "figdocx-b1-tema-2-glucidos-image4",
@@ -1397,7 +1370,8 @@
         "confianza_troceo": "media",
         "secuencia_apartados_limpia": true,
         "sospechas": [],
-        "nota": "Transcripción literal. Requiere revisión humana antes de publicarse."
+        "nota": "Transcripción literal. Requiere revisión humana antes de publicarse.",
+        "revision_2026_10": "Corregida a mano con el Word original (o con el enunciado oficial si el Word estaba incompleto)."
       }
     },
     {
@@ -1504,7 +1478,7 @@
         },
         {
           "letra": "c",
-          "texto": "Nombre el monómero del recuadro [0,2] y cite su",
+          "texto": "Nombre el monómero del recuadro [0,2] y cite su función principal [0,2].",
           "puntos": 0.2
         },
         {
@@ -1566,12 +1540,12 @@
         },
         {
           "letra": "b",
-          "texto": "¿Qué nombre recibe cada uno de los monómeros",
+          "texto": "¿Qué nombre recibe cada uno de los monómeros por los que está formada? [0,2]",
           "puntos": null
         },
         {
           "letra": "c",
-          "texto": "¿Cómo se denomina el enlace entre los dos",
+          "texto": "¿Cómo se denomina el enlace entre los dos monómeros? [0,2]",
           "puntos": null
         },
         {
@@ -1596,7 +1570,7 @@
         },
         {
           "letra": "h",
-          "texto": "Indique la función biológica que desempeñan [0,3].i) Indique el tipo de células eucarióticas en las que podemos encontrarlas [0,4].",
+          "texto": "Indique la función biológica que desempeñan [0,3].",
           "puntos": 0.3
         }
       ],
@@ -2579,7 +2553,7 @@
         },
         {
           "letra": "c",
-          "texto": "Las moléculas A y B forman parte de una estructura",
+          "texto": "Las moléculas A y B forman parte de una estructura celular,indique cuál[0,2]. d) Clasifique las moléculas A y B según su capacidad de reaccionar con una base fuerte [0,2]",
           "puntos": null
         }
       ],
@@ -2630,22 +2604,22 @@
       "apartados": [
         {
           "letra": "a",
-          "texto": "¿A qué grupo de biomoléculas pertenecen",
+          "texto": "¿A qué grupo de biomoléculas pertenecen todas las moléculas representadas? [0,2]",
           "puntos": null
         },
         {
           "letra": "b",
-          "texto": "Identifique las moléculas representadas con",
+          "texto": "Identifique las moléculas representadas con las letras A, B, C y D [0,8].",
           "puntos": null
         },
         {
           "letra": "c",
-          "texto": "Indique el nombre de los monómeros",
+          "texto": "Indique el nombre de los monómeros que constituyen la molécula C y el nombre del enlace por el que se unen [0,6].",
           "puntos": null
         },
         {
           "letra": "d",
-          "texto": "En cuanto a las moléculas B y D,",
+          "texto": "En cuanto a las moléculas B y D, cite una función para cada una de ellas [0,4].",
           "puntos": null
         }
       ],
@@ -2696,27 +2670,27 @@
       "apartados": [
         {
           "letra": "a",
-          "texto": "¿Qué nombre recibe la",
+          "texto": "¿Qué nombre recibe la reacción representada? [0,2]",
           "puntos": null
         },
         {
           "letra": "b",
-          "texto": "Indique el nombre de los",
+          "texto": "Indique el nombre de los compuestos A, B y C [0,6].",
           "puntos": null
         },
         {
           "letra": "c",
-          "texto": "¿Qué tipo de enlace señala el",
+          "texto": "¿Qué tipo de enlace señala el número 1? [0,2]",
           "puntos": null
         },
         {
           "letra": "d",
-          "texto": "Indique dónde se puede encontrar",
+          "texto": "Indique dónde se puede encontrar habitualmente el compuesto A en un organismo animal y en una célula vegetal [0,3].",
           "puntos": null
         },
         {
           "letra": "e",
-          "texto": "¿De qué otra biomolécula es parte fundamental de su composición química el",
+          "texto": "¿De qué otra biomolécula es parte fundamental de su composición química el compuesto C?[0,2]",
           "puntos": null
         },
         {
@@ -2774,12 +2748,12 @@
       "apartados": [
         {
           "letra": "a",
-          "texto": "¿Qué tipo de biomolécula representa?",
+          "texto": "¿Qué tipo de biomolécula representa? [0,2]",
           "puntos": null
         },
         {
           "letra": "b",
-          "texto": "Indique el nombre de los compuestos incluidos en",
+          "texto": "Indique el nombre de los compuestos incluidos en los recuadros 1 y 2 [0,3].",
           "puntos": null
         },
         {
@@ -2794,12 +2768,12 @@
         },
         {
           "letra": "e",
-          "texto": "¿Cuál es el comportamiento de este tipo",
+          "texto": "¿Cuál es el comportamiento de este tipo de biomoléculas en un medio acuoso? [0,5]",
           "puntos": null
         },
         {
           "letra": "f",
-          "texto": "Indique dos tipos de compuestos con los",
+          "texto": "Indique dos tipos de compuestos con los que puede interaccionar esta biomolécula en las estructuras celulares donde se encuentran [0,3]",
           "puntos": null
         },
         {
@@ -2844,7 +2818,8 @@
         "confianza_troceo": "alta",
         "secuencia_apartados_limpia": true,
         "sospechas": [],
-        "nota": "Transcripción literal. Requiere revisión humana antes de publicarse."
+        "nota": "Transcripción literal. Requiere revisión humana antes de publicarse.",
+        "revision_2026_10": "Corregida a mano con el Word original (o con el enunciado oficial si el Word estaba incompleto)."
       }
     },
     {
@@ -2860,7 +2835,7 @@
       "apartados": [
         {
           "letra": "a",
-          "texto": "Indique los nombres de los reactivos",
+          "texto": "Indique los nombres de los reactivos 1 y 2 y el del producto final de la reacción 3 [0,6].",
           "puntos": null
         },
         {
@@ -2880,12 +2855,12 @@
         },
         {
           "letra": "e",
-          "texto": "Cite una función común del compuesto 3",
+          "texto": "Cite una función común del compuesto 3 en organismos animales y vegetales [0,25].",
           "puntos": null
         },
         {
           "letra": "f",
-          "texto": "Cite una función exclusiva de este",
+          "texto": "Cite una función exclusiva de este compuesto en los organismos animales [0,25].",
           "puntos": null
         }
       ],
@@ -3718,22 +3693,29 @@
       ],
       "tipo": "competencial",
       "dificultad": null,
-      "enunciado": "2. La figura representa la conformación tridimensional de una proteína y una zona ampliada (región",
+      "enunciado": "2. La figura representa la conformación tridimensional de una proteína y una zona ampliada (región A) de la misma.",
       "apartados": [
         {
           "letra": "a",
-          "texto": "de la misma.",
+          "texto": "¿Qué tipo de estructura presenta la región A? [0,2]",
+          "puntos": null
+        },
+        {
+          "letra": "b",
+          "texto": "¿Qué tipo de fuerzas o relaciones entre átomos mantiene esta estructura? [0,2]",
+          "puntos": null
+        },
+        {
+          "letra": "c",
+          "texto": "¿Qué otros tipos de estructuras debe tener una proteína formada por una sola cadena polipeptídica para ser funcional? ¿Y una que esté formada por dos o más cadenas polipeptídicas? [0,6]",
           "puntos": null
         }
       ],
       "puntos_total": null,
       "criterios": [
-        "a) ¿Qué tipo de estructura presenta",
-        "b) ¿Qué tipo de fuerzas o relaciones",
-        "c) ¿Qué otros tipos de estructuras debe tener",
-        "a) Lámina beta (hoja plegada).",
-        "b) Puentes de hidrógeno .",
-        "c) Proteínas con una cadena: estructura primaria y terciaria. Proteínas con dos o más cadenas: estructura primaria, terciaria y cuaternaria"
+        "a) Lámina beta (hoja plegada).",
+        "b) Puentes de hidrógeno.",
+        "c) Proteínas con una cadena: estructura primaria y terciaria. Proteínas con dos o más cadenas: estructura primaria, terciaria y cuaternaria."
       ],
       "tiene_criterios": true,
       "tip": null,
@@ -3759,7 +3741,8 @@
         "confianza_troceo": "alta",
         "secuencia_apartados_limpia": true,
         "sospechas": [],
-        "nota": "Transcripción literal. Requiere revisión humana antes de publicarse."
+        "nota": "Transcripción literal. Requiere revisión humana antes de publicarse.",
+        "revision_2026_10": "Corregida a mano con el Word original (o con el enunciado oficial si el Word estaba incompleto)."
       }
     },
     {
@@ -3775,7 +3758,7 @@
       "apartados": [
         {
           "letra": "b",
-          "texto": "¿Cuántos monómeros distintos de",
+          "texto": "¿Cuántos monómeros distintos de ese tipo existen en los seres vivos [0,1].",
           "puntos": null
         },
         {
@@ -3785,7 +3768,7 @@
         },
         {
           "letra": "d",
-          "texto": "¿Qué nombre recibe la molécula",
+          "texto": "¿Qué nombre recibe la molécula señalada con el número 3 de la Figura A? [0,1].",
           "puntos": null
         },
         {
@@ -3795,7 +3778,7 @@
         },
         {
           "letra": "f",
-          "texto": "Indique qué representan los",
+          "texto": "Indique qué representan los números 1, 2, 3 y 4 de la Figura B [0,4].",
           "puntos": null
         },
         {
@@ -4082,12 +4065,12 @@
       "apartados": [
         {
           "letra": "a",
-          "texto": "¿A qué grupo de macromoléculas pertenece esta hormona? [0,25]. Escriba la fórmula del compuesto que se formará al unirse dos de estas unidades como la de la figura 2 [0,25]. ¿Qué tipo de enlace se establece entre ellas? [0,2]. Cite dos características de dicho enlace [0,3].",
+          "texto": "¿A qué grupo de macromoléculas pertenece esta hormona? [0,25]. Escriba la fórmula del compuesto que se formará al unirse dos de estas unidades como la de la figura 2 [0,25].",
           "puntos": 0.25
         },
         {
           "letra": "b",
-          "texto": "¿Qué tipo de enlace se establece entre las moléculas indicadas como Cys? [0,5]. Explique por qué las macromoléculas como las de la figura 1 presentan una gran variedad a pesar de estar todas constituidas por las mismas unidades [0,5].",
+          "texto": "¿Qué tipo de enlace se establece entre ellas? [0,2]. Cite dos características de dicho enlace [0,3].",
           "puntos": 0.5
         }
       ],
@@ -4184,16 +4167,13 @@
       "tipo": "competencial",
       "dificultad": null,
       "enunciado": "10.- El aspartamo es un edulcorante sintético que se utiliza como sustituto de la sacarosa. No es un glúcido sino que está formado por ácido aspártico y fenilalanina. Teniendo en cuenta la figura adjunta, represente las dos posibles fórmulas estructurales del aspartamo [0,8]. ¿Cómo se llama el enlace que une ambas moléculas? [0,2].",
-      "apartados": [
-        {
-          "letra": "a",
-          "texto": "Dibujar los dos dipeptidos",
-          "puntos": null
-        }
-      ],
+      "apartados": [],
       "puntos_total": null,
-      "criterios": [],
-      "tiene_criterios": false,
+      "criterios": [
+        "Se dibujan los dos dipéptidos posibles: en el primero, el ácido aspártico aporta el grupo COOH y la fenilalanina el NH₂, y en el segundo, al revés.",
+        "Se denomina enlace peptídico."
+      ],
+      "tiene_criterios": true,
       "tip": null,
       "imagen": {
         "figura_id": "figdocx-b1-tema-4-proteinas-image11",
@@ -4217,7 +4197,8 @@
         "confianza_troceo": "media",
         "secuencia_apartados_limpia": true,
         "sospechas": [],
-        "nota": "Transcripción literal. Requiere revisión humana antes de publicarse."
+        "nota": "Transcripción literal. Requiere revisión humana antes de publicarse.",
+        "revision_2026_10": "Corregida a mano con el Word original (o con el enunciado oficial si el Word estaba incompleto)."
       }
     },
     {
@@ -5112,22 +5093,22 @@
       "apartados": [
         {
           "letra": "a",
-          "texto": "¿De qué moléculas formarán",
+          "texto": "¿De qué moléculas formarán parte las cadenas A y B? [0,4]",
           "puntos": null
         },
         {
           "letra": "b",
-          "texto": "¿Cómo se denominan los monómeros que",
+          "texto": "¿Cómo se denominan los monómeros que forman las cadenas A y B? [0,1]",
           "puntos": null
         },
         {
           "letra": "c",
-          "texto": "Cite los tres componentes que forman cada",
+          "texto": "Cite los tres componentes que forman cada uno de esos monómeros [0,3].",
           "puntos": null
         },
         {
           "letra": "d",
-          "texto": "Indique qué dos diferencias fundamentales",
+          "texto": "Indique qué dos diferencias fundamentales hay en la composición química de los monómeros de la cadena A y de la B? [0,2].",
           "puntos": null
         }
       ],
@@ -5178,12 +5159,12 @@
       "apartados": [
         {
           "letra": "a",
-          "texto": "El nombre de cada una de las",
+          "texto": "El nombre de cada una de las dos moléculas mostradas [0,3].",
           "puntos": null
         },
         {
           "letra": "b",
-          "texto": "¿Cómo se denomina la biomolécula",
+          "texto": "¿Cómo se denomina la biomolécula que se forma cuando se une a cada una de estas moléculas una base nitrogenada púrica o pirimídica? [0,15]",
           "puntos": null
         },
         {
@@ -5193,12 +5174,12 @@
         },
         {
           "letra": "d",
-          "texto": "Cuando se unen muchas de estas últimas biomoléculas a través de",
+          "texto": "Cuando se unen muchas de estas últimas biomoléculas a través de enlaces fosfodiéster, ¿cuál es la función biológica principal del polímero que resulta? [0,2]",
           "puntos": null
         },
         {
           "letra": "e",
-          "texto": "Indique una función para la biomolécula del apartado “c” cuando se",
+          "texto": "Indique una función para la biomolécula del apartado “c” cuando se encuentra libre no formando parte de un polímero [0,2].",
           "puntos": null
         }
       ],
@@ -5250,32 +5231,32 @@
       "apartados": [
         {
           "letra": "a",
-          "texto": "Nombre las moléculas representadas en los",
+          "texto": "Nombre las moléculas representadas en los esquemas A y B [0,2].",
           "puntos": null
         },
         {
           "letra": "b",
-          "texto": "Indique el nombre de los monómeros que",
+          "texto": "Indique el nombre de los monómeros que constituyen la molécula A [0,1] y la molécula B [0,1].",
           "puntos": null
         },
         {
           "letra": "c",
-          "texto": "Especifique el nombre del enlace covalente",
+          "texto": "Especifique el nombre del enlace covalente que se establece entre los monómeros que originan estas macromoléculas [0,2].",
           "puntos": null
         },
         {
           "letra": "d",
-          "texto": "¿Qué tipo de molécula se une al extremo 3 ́de la",
+          "texto": "¿Qué tipo de molécula se une al extremo 3 ́de la molécula B? [0,1]",
           "puntos": null
         },
         {
           "letra": "e",
-          "texto": "Escriba el nombre de la región señalada con la letra",
+          "texto": "Escriba el nombre de la región señalada con la letra C en la molécula B [0,1].",
           "puntos": null
         },
         {
           "letra": "f",
-          "texto": "¿En qué́ proceso metabólico interviene la molécula",
+          "texto": "¿En qué́ proceso metabólico interviene la molécula B? [0.2].",
           "puntos": null
         }
       ],
@@ -5333,27 +5314,27 @@
         },
         {
           "letra": "b",
-          "texto": "Indique los nombres de sus componentes",
+          "texto": "Indique los nombres de sus componentes señalados con los números 1, 2 y 3 [0,3].",
           "puntos": null
         },
         {
           "letra": "c",
-          "texto": "Especifique los nombres de los enlaces",
+          "texto": "Especifique los nombres de los enlaces entre el componente 1 y 2 y entre el componente 1 y 3 [0,4].",
           "puntos": null
         },
         {
           "letra": "d",
-          "texto": "Si la molécula perdiese el componente 3, como consecuencia",
+          "texto": "Si la molécula perdiese el componente 3, como consecuencia de una reacción de hidrólisis, ¿cómo se denomina la molécula resultante? [0,1]",
           "puntos": null
         },
         {
           "letra": "e",
-          "texto": "Cite el nombre de tres macromoléculas formadas por la",
+          "texto": "Cite el nombre de tres macromoléculas formadas por la polimerización de este tipo de moléculas y especifique su función [0,9].",
           "puntos": null
         },
         {
           "letra": "f",
-          "texto": "Indique el nombre de una molécula del tipo de la representada",
+          "texto": "Indique el nombre de una molécula del tipo de la representada que intervenga en el metabolismo energético [0,1].",
           "puntos": null
         }
       ],
@@ -5363,8 +5344,8 @@
         "b) 1: Ribosa; 2: Base nitrogenada, 3: Fosfato",
         "c) Enlace entre 1 y 2: N-glucosídico y entre 1 y 3: éster fosfórico",
         "d) Nucleósido",
-        "a) ARN mensajero, que porta la información para la síntesis de proteínas, ARN de transferencia, que transfiere aminoácidos a los ribosomas durante la síntesis de proteínas y ARN ribosómico, que se asocia a proteínas para formar los ribosomas.",
-        "b) ATP (adenosín trifosfato)"
+        "e) ARN mensajero, que porta la información para la síntesis de proteínas, ARN de transferencia, que transfiere aminoácidos a los ribosomas durante la síntesis de proteínas y ARN ribosómico, que se asocia a proteínas para formar los ribosomas.",
+        "f) ATP (adenosín trifosfato)"
       ],
       "tiene_criterios": true,
       "tip": null,
@@ -5390,7 +5371,8 @@
         "confianza_troceo": "alta",
         "secuencia_apartados_limpia": true,
         "sospechas": [],
-        "nota": "Transcripción literal. Requiere revisión humana antes de publicarse."
+        "nota": "Transcripción literal. Requiere revisión humana antes de publicarse.",
+        "revision_2026_10": "Corregida a mano con el Word original (o con el enunciado oficial si el Word estaba incompleto)."
       }
     },
     {
@@ -5406,22 +5388,22 @@
       "apartados": [
         {
           "letra": "a",
-          "texto": "Indique los nombres de las tres moléculas",
+          "texto": "Indique los nombres de las tres moléculas representadas con los números I, II y III [0,3].",
           "puntos": null
         },
         {
           "letra": "b",
-          "texto": "Indique el nombre de los monómeros que",
+          "texto": "Indique el nombre de los monómeros que constituyen estas moléculas [0,15] y el nombre del enlace por el que se unen [0,15].",
           "puntos": null
         },
         {
           "letra": "c",
-          "texto": "Escriba los nombres de los componentes",
+          "texto": "Escriba los nombres de los componentes numerados del 1 al 4 en la molécula II [0,4].",
           "puntos": null
         },
         {
           "letra": "d",
-          "texto": "Indique en qué compartimentos de la",
+          "texto": "Indique en qué compartimentos de la célula procariótica y de la célula eucariótica se localiza la molécula representada por el número II [0,4].",
           "puntos": null
         },
         {
@@ -6742,7 +6724,7 @@
         },
         {
           "letra": "b",
-          "texto": "Indique un lugar del tracto digestivo donde podría",
+          "texto": "Indique un lugar del tracto digestivo donde podría funcionar la enzima A y otro donde podría funcionar la enzima C [0,3].",
           "puntos": null
         },
         {
@@ -6807,17 +6789,17 @@
         },
         {
           "letra": "c",
-          "texto": "Indique el nombre de las estructuras que aparecen",
+          "texto": "Indique el nombre de las estructuras que aparecen dentro del núcleo en la fase B [0,1].",
           "puntos": null
         },
         {
           "letra": "d",
-          "texto": "¿Cuál es la primera fase de la figura (indique la letra)",
+          "texto": "¿Cuál es la primera fase de la figura (indique la letra) en la que se aprecia que se ha producido la replicación del ADN? [0,1]",
           "puntos": null
         },
         {
           "letra": "e",
-          "texto": "¿Qué proceso tiene lugar en la fase C y",
+          "texto": "¿Qué proceso tiene lugar en la fase C y qué finalidad tiene? [0,2]",
           "puntos": null
         },
         {
@@ -6827,7 +6809,7 @@
         },
         {
           "letra": "g",
-          "texto": "¿Qué tipo de células se originan al final del proceso y",
+          "texto": "¿Qué tipo de células se originan al final del proceso y cuál es su dotación cromosómica? [0,2]",
           "puntos": null
         }
       ],
@@ -6882,12 +6864,12 @@
       "apartados": [
         {
           "letra": "a",
-          "texto": "Identifique los procesos que se representan",
+          "texto": "Identifique los procesos que se representan en A y B [0,4] y b) cada una de las moléculas señaladas con los números del 1 al 6 [0,6].",
           "puntos": null
         },
         {
           "letra": "c",
-          "texto": "Explique cómo evoluciona la cantidad",
+          "texto": "Explique cómo evoluciona la cantidad de las sustancias 2 y 4 con el tiempo en cada uno de los casos [0,5]. d) ¿En qué caso podría aparecer la sustancia 4 en el proceso B? [0,5]",
           "puntos": null
         }
       ],
@@ -6955,7 +6937,7 @@
         },
         {
           "letra": "d",
-          "texto": "Si situamos las enzimas C y D en un",
+          "texto": "Si situamos las enzimas C y D en un medio con pH ácido, ¿cuál de las dos presentaría más actividad? [0,25]",
           "puntos": null
         }
       ],
@@ -9136,12 +9118,12 @@
       "apartados": [
         {
           "letra": "a",
-          "texto": "Indique el nombre de las fases señaladas con",
+          "texto": "Indique el nombre de las fases señaladas con las letras de la A a la E [0,5].",
           "puntos": null
         },
         {
           "letra": "b",
-          "texto": "Indique qué ocurre en cada una",
+          "texto": "Indique qué ocurre en cada una de esas fases [0,5].",
           "puntos": null
         }
       ],
@@ -9355,7 +9337,7 @@
       "apartados": [
         {
           "letra": "a",
-          "texto": "¿A qué tipo de división celular",
+          "texto": "¿A qué tipo de división celular hace alusión la figura? [0,2].",
           "puntos": null
         },
         {
@@ -9365,27 +9347,27 @@
         },
         {
           "letra": "c",
-          "texto": "Nombre los componentes celulares",
+          "texto": "Nombre los componentes celulares señalados con los números 1, 2 y 3 [0,3].",
           "puntos": null
         },
         {
           "letra": "d",
-          "texto": "¿En qué́ tipo de célula eucariótica",
+          "texto": "¿En qué́ tipo de célula eucariótica se desarrolla este tipo de división celular? [0,1].",
           "puntos": null
         },
         {
           "letra": "e",
-          "texto": "Al finalizar el proceso de división celular,",
+          "texto": "Al finalizar el proceso de división celular, indique el número de células resultantes y el número de cromosomas de cada una de ellas [0,2].",
           "puntos": null
         },
         {
           "letra": "f",
-          "texto": "Nombre la fase de la división celular anterior a la",
+          "texto": "Nombre la fase de la división celular anterior a la representada [0,1].",
           "puntos": null
         },
         {
           "letra": "g",
-          "texto": "Explique los principales acontecimientos que",
+          "texto": "Explique los principales acontecimientos que tienen lugar durante la misma [0,5].",
           "puntos": null
         },
         {
@@ -9444,12 +9426,12 @@
       "apartados": [
         {
           "letra": "a",
-          "texto": "Indique el nombre de la etapa [0,2]",
+          "texto": "Indique el nombre de la etapa [0,2] y describa los principales acontecimientos que tienen lugar durante la misma [0,8].",
           "puntos": 0.2
         },
         {
           "letra": "b",
-          "texto": "Señale si se trata de una célula animal o",
+          "texto": "Señale si se trata de una célula animal o vegetal. Razone la respuesta utilizando al menos dos características [0,6]. Nombre las estructuras señaladas del 1 al 4 [0,4].",
           "puntos": null
         }
       ],
@@ -9660,12 +9642,12 @@
       "apartados": [
         {
           "letra": "a",
-          "texto": "¿Qué etapa de la mitosis representa",
+          "texto": "¿Qué etapa de la mitosis representa el esquema? [0,1]. Explique lo que ocurre en esta etapa [0,6]. Indique dos razones que justifiquen el tipo celular que representa [0,3].",
           "puntos": null
         },
         {
           "letra": "b",
-          "texto": "Describa brevemente las etapas anteriores",
+          "texto": "Describa brevemente las etapas anteriores a la representada en la imagen [0,6]. ¿Qué significado biológico tiene el proceso en su conjunto? [0,4].",
           "puntos": null
         }
       ],
@@ -10306,7 +10288,7 @@
         },
         {
           "letra": "e",
-          "texto": "Según se muestra en la figura, ¿en qué fase de la mitosis se inicia la",
+          "texto": "Según se muestra en la figura, ¿en qué fase de la mitosis se inicia la citocinesis en la primera célula de la figura B? [0,1]",
           "puntos": null
         }
       ],
@@ -10358,7 +10340,7 @@
       "apartados": [
         {
           "letra": "a",
-          "texto": "¿Qué nombre recibe el proceso",
+          "texto": "¿Qué nombre recibe el proceso representado? [0,1]",
           "puntos": null
         },
         {
@@ -10939,11 +10921,13 @@
       ],
       "tipo": "competencial",
       "dificultad": null,
-      "enunciado": "18. Copie y complete la siguiente tabla [2]: 1: síntesis de lípidos2: Ribosomas3: cloroplastos4: fotosíntesis 5: vesículas membranosas con enzimas digestivas6: envoltura nuclear con poros, que contiene cromatina y nucleolo7: contener el material genético8: modificación de proteínas y lípidos9: mitocondria10: doble membrana (externa e interna), espacio intermembrana, matriz mitocondrial.",
+      "enunciado": "18. Copie y complete la siguiente tabla [2]:",
       "apartados": [],
       "puntos_total": null,
-      "criterios": [],
-      "tiene_criterios": false,
+      "criterios": [
+        "1: síntesis de lípidos; 2: ribosomas; 3: cloroplastos; 4: fotosíntesis; 5: vesículas membranosas con enzimas digestivas; 6: envoltura nuclear con poros, que contiene cromatina y nucléolo; 7: contener el material genético; 8: modificación de proteínas y lípidos; 9: mitocondria; 10: doble membrana (externa e interna), espacio intermembrana y matriz mitocondrial."
+      ],
+      "tiene_criterios": true,
       "tip": null,
       "imagen": {
         "figura_id": "figdocx-b2-tema-7-8-9-biologia-celular-image1",
@@ -10967,7 +10951,8 @@
         "confianza_troceo": "media",
         "secuencia_apartados_limpia": true,
         "sospechas": [],
-        "nota": "Transcripción literal. Requiere revisión humana antes de publicarse."
+        "nota": "Transcripción literal. Requiere revisión humana antes de publicarse.",
+        "revision_2026_10": "Corregida a mano con el Word original (o con el enunciado oficial si el Word estaba incompleto)."
       }
     },
     {
@@ -12082,7 +12067,7 @@
       ],
       "tipo": "competencial",
       "dificultad": null,
-      "enunciado": "50.- Copie la siguiente tabla y rellene las casillas indicando la presencia (SÍ) o ausencia (NO) de las siguientes moléculas, estructuras u orgánulos en las células eucarióticas animales y vegetales [2]. SISISISISISISISISISISISISISISISISISISISISISISISISISISISISISI",
+      "enunciado": "50.- Copie la siguiente tabla y rellene las casillas indicando la presencia (SÍ) o ausencia (NO) de las siguientes moléculas, estructuras u orgánulos en las células eucarióticas animales y vegetales [2].",
       "apartados": [],
       "puntos_total": null,
       "criterios": [],
@@ -12110,7 +12095,8 @@
         "confianza_troceo": "media",
         "secuencia_apartados_limpia": true,
         "sospechas": [],
-        "nota": "Transcripción literal. Requiere revisión humana antes de publicarse."
+        "nota": "Transcripción literal. Requiere revisión humana antes de publicarse.",
+        "revision_2026_10": "Corregida a mano con el Word original (o con el enunciado oficial si el Word estaba incompleto)."
       }
     },
     {
@@ -13377,11 +13363,21 @@
       ],
       "tipo": "competencial",
       "dificultad": null,
-      "enunciado": "35.- Tres tipos celulares diferentes (A, B y",
+      "enunciado": "35.- Tres tipos celulares diferentes (A, B y C) se mantienen en el laboratorio en un medio hipotónico. En estas condiciones, la célula A muere y las células B y C sobreviven. Sin embargo, cuando a las células B y C se les pone en un medio hipotónico y se añaden determinadas enzimas que degradan la pectina, la mureína o la celulosa, se obtienen los siguientes resultados (véase la figura). Indique de forma razonada, para cada una de las células (A, B y C):",
       "apartados": [
         {
+          "letra": "a",
+          "texto": "cuál es su organización celular [0,15];",
+          "puntos": null
+        },
+        {
+          "letra": "b",
+          "texto": "a qué grupo pertenecen [0,15];",
+          "puntos": null
+        },
+        {
           "letra": "c",
-          "texto": "se mantienen en el laboratorio en un medio hipotónico. En estas condiciones, la célula A muere y las células B y C sobreviven. Sin embargo, cuando a las células B y C se les pone en un medio hipotónico y se añaden determinadas enzimas que degradan la pectina, la mureína o la celulosa, se obtienen los siguientes resultados.",
+          "texto": "por qué se produce la muerte celular y cómo estarían involucradas las enzimas de degradación (en el caso de las células B y C) en dicha muerte celular [0,7].",
           "puntos": null
         }
       ],
@@ -13415,7 +13411,8 @@
         "confianza_troceo": "alta",
         "secuencia_apartados_limpia": true,
         "sospechas": [],
-        "nota": "Transcripción literal. Requiere revisión humana antes de publicarse."
+        "nota": "Transcripción literal. Requiere revisión humana antes de publicarse.",
+        "revision_2026_10": "Corregida a mano con el Word original (o con el enunciado oficial si el Word estaba incompleto)."
       }
     },
     {
@@ -13593,12 +13590,12 @@
       "apartados": [
         {
           "letra": "a",
-          "texto": "Nombre los dos componentes del citoesqueleto",
+          "texto": "Nombre los dos componentes del citoesqueleto que están representados en A y B [0,2].",
           "puntos": null
         },
         {
           "letra": "b",
-          "texto": "Las figuras señaladas con los números del 1",
+          "texto": "Las figuras señaladas con los números del 1 al 4 representan cuatro funciones desempeñadas por el citoesqueleto. Identifique, en cada caso, de qué función se trata y qué elemento del citoesqueleto la realiza [0,8].",
           "puntos": null
         }
       ],
@@ -13644,11 +13641,13 @@
       ],
       "tipo": "competencial",
       "dificultad": null,
-      "enunciado": "4. Atendiendo a la imagen adjunta, indique el nombre de las estructuras numeradas del 1 al 10 [1]. 1: aparato de Golgi; 2: núcleo; 3: ribosoma; 4: RER; 5: cloroplasto; 6: mitocondria; 7: citoplasma; 8: plasmodesmo; 9: pared celular; 10: vacuola",
+      "enunciado": "4. Atendiendo a la imagen adjunta, indique el nombre de las estructuras numeradas del 1 al 10 [1].",
       "apartados": [],
       "puntos_total": null,
-      "criterios": [],
-      "tiene_criterios": false,
+      "criterios": [
+        "1: aparato de Golgi; 2: núcleo; 3: ribosoma; 4: RER; 5: cloroplasto; 6: mitocondria; 7: citoplasma; 8: plasmodesmo; 9: pared celular; 10: vacuola."
+      ],
+      "tiene_criterios": true,
       "tip": null,
       "imagen": {
         "figura_id": "figdocx-b2-tema-7-8-9-biologia-celular-image8",
@@ -13672,7 +13671,8 @@
         "confianza_troceo": "media",
         "secuencia_apartados_limpia": true,
         "sospechas": [],
-        "nota": "Transcripción literal. Requiere revisión humana antes de publicarse."
+        "nota": "Transcripción literal. Requiere revisión humana antes de publicarse.",
+        "revision_2026_10": "Corregida a mano con el Word original (o con el enunciado oficial si el Word estaba incompleto)."
       }
     },
     {
@@ -13910,7 +13910,7 @@
       "apartados": [
         {
           "letra": "a",
-          "texto": "Identifique los elementos señalados",
+          "texto": "Identifique los elementos señalados con A, B, C, D y E [0,5].",
           "puntos": null
         },
         {
@@ -13920,12 +13920,12 @@
         },
         {
           "letra": "c",
-          "texto": "Indique en qué fase del ciclo celular se",
+          "texto": "Indique en qué fase del ciclo celular se encuentra el material genético y cite tres niveles sucesivos de compactación del mismo [0,4].",
           "puntos": null
         },
         {
           "letra": "d",
-          "texto": "Defina los términos: cromátidas, centrómero y",
+          "texto": "Defina los términos: cromátidas, centrómero y cromosomas homólogos [0,6].",
           "puntos": null
         }
       ],
@@ -13976,37 +13976,37 @@
       "apartados": [
         {
           "letra": "a",
-          "texto": "¿Qué tipos de células están",
+          "texto": "¿Qué tipos de células están representadas en la imagen A y en la imagen B? [0,2]",
           "puntos": null
         },
         {
           "letra": "b",
-          "texto": "¿Qué tipo de nutrición tiene la célula A? [0,2]",
-          "puntos": 0.2
+          "texto": "¿Qué tipo de nutrición tiene la célula A? [0,2]",
+          "puntos": null
         },
         {
           "letra": "c",
-          "texto": "¿Qué tipo de nutrición tiene la célula B? [0,2]",
-          "puntos": 0.2
+          "texto": "¿Qué tipo de nutrición tiene la célula B? [0,2]",
+          "puntos": null
         },
         {
           "letra": "d",
-          "texto": "¿Qué estructuras están representadas",
+          "texto": "¿Qué estructuras están representadas con los números 1, 2, 3 y 4? [0,4]",
           "puntos": null
         },
         {
           "letra": "e",
-          "texto": "Indique dos estructuras características del tipo",
+          "texto": "Indique dos estructuras características del tipo celular representado en la imagen A que no existan en el tipo celular representado en la imagen B [0,4].",
           "puntos": null
         },
         {
           "letra": "f",
-          "texto": "Cite dos estructuras características del tipo celular",
+          "texto": "Cite dos estructuras características del tipo celular representado en la imagen B que no existan en el tipo celular representado en la imagen A [0,4].",
           "puntos": null
         },
         {
           "letra": "g",
-          "texto": "Indique el tipo de citocinesis que presenta cada",
+          "texto": "Indique el tipo de citocinesis que presenta cada uno de estos tipos celulares [0,2].",
           "puntos": null
         }
       ],
@@ -14042,7 +14042,8 @@
         "confianza_troceo": "alta",
         "secuencia_apartados_limpia": true,
         "sospechas": [],
-        "nota": "Transcripción literal. Requiere revisión humana antes de publicarse."
+        "nota": "Transcripción literal. Requiere revisión humana antes de publicarse.",
+        "revision_2026_10": "Corregida a mano con el Word original (o con el enunciado oficial si el Word estaba incompleto)."
       }
     },
     {
@@ -14058,42 +14059,42 @@
       "apartados": [
         {
           "letra": "a",
-          "texto": "Indique el nombre de los orgánulos representados",
+          "texto": "Indique el nombre de los orgánulos representados con las letras A y B [0,3].",
           "puntos": null
         },
         {
           "letra": "b",
-          "texto": "Cite en qué tipos de células podemos encontrar cada",
+          "texto": "Cite en qué tipos de células podemos encontrar cada uno de ellos [0,3].",
           "puntos": null
         },
         {
           "letra": "c",
           "texto": "Mencione la composición de cada uno de ellos [0,2].",
-          "puntos": 0.2
+          "puntos": null
         },
         {
           "letra": "d",
-          "texto": "Especifique el lugar de la célula en la que se fabrican",
+          "texto": "Especifique el lugar de la célula en la que se fabrican los componentes de cada uno de ellos [0,2].",
           "puntos": null
         },
         {
           "letra": "e",
           "texto": "Indique dos funciones del orgánulo A [0,3].",
-          "puntos": 0.3
+          "puntos": null
         },
         {
           "letra": "f",
           "texto": "Indique una función del orgánulo B [0,2].",
-          "puntos": 0.2
+          "puntos": null
         },
         {
           "letra": "g",
-          "texto": "¿En qué́ lugares de la célula se puede encontrar",
+          "texto": "¿En qué lugares de la célula se puede encontrar el orgánulo A? [0,2]",
           "puntos": null
         },
         {
           "letra": "h",
-          "texto": "¿En qué́ lugares de la célula se",
+          "texto": "¿En qué lugares de la célula se puede encontrar el orgánulo B? [0,3]",
           "puntos": null
         }
       ],
@@ -14132,7 +14133,8 @@
         "confianza_troceo": "alta",
         "secuencia_apartados_limpia": true,
         "sospechas": [],
-        "nota": "Transcripción literal. Requiere revisión humana antes de publicarse."
+        "nota": "Transcripción literal. Requiere revisión humana antes de publicarse.",
+        "revision_2026_10": "Corregida a mano con el Word original (o con el enunciado oficial si el Word estaba incompleto)."
       }
     },
     {
@@ -14242,7 +14244,7 @@
       "apartados": [
         {
           "letra": "a",
-          "texto": "¿Qué proceso representa el esquema? [0,2].",
+          "texto": "¿Qué proceso representa el esquema? [0,2]. Identifique la estructura señalada con el número 1 y las moléculas señaladas con el número 2 [0,2]. ¿A qué tipo de biomoléculas pertenecen las moléculas identificadas con el número 3? [0,2]. En función de los requerimientos energéticos es posible clasificar los cuatro procesos señalados como A, B, C y D en dos grupos. Indique el nombre de cada grupo [0,2] y a qué procesos pertenecen cada uno [0,2].",
           "puntos": 0.2
         },
         {
@@ -14343,8 +14345,13 @@
       ],
       "tipo": "competencial",
       "dificultad": null,
-      "enunciado": "18.- A la vista de los esquemas responda razonadamente a las siguientes preguntas: 1212a).- Los esquemas 1 y 2 representan dos formas distintas de transporte a través de la membrana: Identifíquelas y descríbalas [1].",
+      "enunciado": "18.- A la vista de los esquemas responda razonadamente a las siguientes preguntas:",
       "apartados": [
+        {
+          "letra": "a",
+          "texto": "Los esquemas 1 y 2 representan dos formas distintas de transporte a través de la membrana: identifíquelas y descríbalas [1].",
+          "puntos": 1.0
+        },
         {
           "letra": "b",
           "texto": "Describa la composición química de la membrana plasmática [1].",
@@ -14442,7 +14449,7 @@
       "apartados": [
         {
           "letra": "a",
-          "texto": "¿Qué proceso celular representa? [0,25]. ¿Cuáles son",
+          "texto": "¿Qué proceso celular representa? [0,25]. ¿Cuáles son los componentes celulares indicados con los números 1, 2 y 4? Enuncie la función que realiza cada uno de ellos en este proceso [0,75].",
           "puntos": 0.25
         }
       ],
@@ -14541,7 +14548,7 @@
       "apartados": [
         {
           "letra": "a",
-          "texto": "¿De qué orgánulo celular se trata? [0,1]. ¿Qué células lo",
+          "texto": "¿De qué orgánulo celular se trata? [0,1]. ¿Qué células lo tienen? [0,2]. Identifique los distintos elementos que aparecen en el esquema [0,7].",
           "puntos": 0.1
         }
       ],
@@ -14691,12 +14698,12 @@
       "apartados": [
         {
           "letra": "a",
-          "texto": "Indique si se trata de una célula animal",
+          "texto": "Indique si se trata de una célula animal o vegetal [0,2]. Nombre tres criterios en los que se basa para contestar el apartado anterior [0,3]. ¿Qué señala cada número? [0,5].",
           "puntos": null
         },
         {
           "letra": "b",
-          "texto": "Nombre una función de cada una de las",
+          "texto": "Nombre una función de cada una de las estructuras señaladas con los números 2 y 3 [0,5].",
           "puntos": null
         }
       ],
@@ -14994,21 +15001,13 @@
       "tipo": "competencial",
       "dificultad": null,
       "enunciado": "32.- A la vista de la figura adjunta, conteste a las siguientes cuestiones: ¿Qué tipo de célula representa el dibujo? [0,1]. Nombre las estructuras numeradas del 1 al 9 [0,9].",
-      "apartados": [
-        {
-          "letra": "a",
-          "texto": "Es una célula procariota (bacteria)",
-          "puntos": null
-        },
-        {
-          "letra": "b",
-          "texto": "1: flagelo; 2: plásmido; 3: ribosomas; 4: pared celular; 5: membrana plasmática; 6: capsula; 7: pili o fimbrias; 8: citoplasma; 9: material genético (nucleoide)",
-          "puntos": null
-        }
-      ],
+      "apartados": [],
       "puntos_total": null,
-      "criterios": [],
-      "tiene_criterios": false,
+      "criterios": [
+        "Es una célula procariota (bacteria).",
+        "1: flagelo; 2: plásmido; 3: ribosomas; 4: pared celular; 5: membrana plasmática; 6: cápsula; 7: pili o fimbrias; 8: citoplasma; 9: material genético (nucleoide)."
+      ],
+      "tiene_criterios": true,
       "tip": null,
       "imagen": {
         "figura_id": "figdocx-b2-tema-7-8-9-biologia-celular-image41",
@@ -15032,7 +15031,8 @@
         "confianza_troceo": "media",
         "secuencia_apartados_limpia": true,
         "sospechas": [],
-        "nota": "Transcripción literal. Requiere revisión humana antes de publicarse."
+        "nota": "Transcripción literal. Requiere revisión humana antes de publicarse.",
+        "revision_2026_10": "Corregida a mano con el Word original (o con el enunciado oficial si el Word estaba incompleto)."
       }
     },
     {
@@ -15053,17 +15053,17 @@
         },
         {
           "letra": "b",
-          "texto": "Identifique los elementos señalados con",
+          "texto": "Identifique los elementos señalados con los números del 1al 5 [0,5].",
           "puntos": null
         },
         {
           "letra": "c",
-          "texto": "Indique el nombre de las estructuras A y B",
+          "texto": "Indique el nombre de las estructuras A y B y en qué lugar del orgánulo se encuentran cada una de ellas [0,3].",
           "puntos": null
         },
         {
           "letra": "d",
-          "texto": "¿En qué otra localización de la célula",
+          "texto": "¿En qué otra localización de la célula eucariótica se encuentra la estructura B con exactamente las mismas características? [0,1]",
           "puntos": null
         }
       ],
@@ -15237,27 +15237,27 @@
       "apartados": [
         {
           "letra": "a",
-          "texto": "Nombre dos estructuras celulares",
+          "texto": "Nombre dos estructuras celulares que podrían estar representadas por la imagen A [0,2] e identifique las partes señaladas con los números 1 y 2 [0,2].",
           "puntos": null
         },
         {
           "letra": "b",
-          "texto": "¿Qué elementos del citoesqueleto forman",
+          "texto": "¿Qué elementos del citoesqueleto forman parte de dicha estructura? [0,1]",
           "puntos": null
         },
         {
           "letra": "c",
-          "texto": "Relacione los cortes 1 y 2 de la",
+          "texto": "Relacione los cortes 1 y 2 de la estructura A con las imágenes B, C o D [0,2].",
           "puntos": null
         },
         {
           "letra": "d",
-          "texto": "Indique el nombre de la estructura",
+          "texto": "Indique el nombre de la estructura señalada con el número 3 [0,15].",
           "puntos": null
         },
         {
           "letra": "e",
-          "texto": "¿Qué otra estructura de la célula",
+          "texto": "¿Qué otra estructura de la célula eucariótica presenta una organización similar a la que tiene el elemento 2? [0,15]",
           "puntos": null
         }
       ],
@@ -17367,12 +17367,12 @@
         },
         {
           "letra": "b",
-          "texto": "Indique el nombre de los compuestos A, B, C, D,",
+          "texto": "Indique el nombre de los compuestos A, B, C, D, E y F y de las localizaciones intracelulares G y H [0,8].",
           "puntos": null
         },
         {
           "letra": "c",
-          "texto": "¿Qué proceso da lugar a la formación",
+          "texto": "¿Qué proceso da lugar a la formación del compuesto F? [0,1]",
           "puntos": null
         }
       ],
@@ -17432,17 +17432,17 @@
         },
         {
           "letra": "c",
-          "texto": "Indique los nombres de las moléculas",
+          "texto": "Indique los nombres de las moléculas o procesos señalados con los números del 1 al 5. [0,5].",
           "puntos": null
         },
         {
           "letra": "d",
-          "texto": "¿Cuál es el significado biológico",
+          "texto": "¿Cuál es el significado biológico del proceso representado?[0,5]",
           "puntos": null
         },
         {
           "letra": "e",
-          "texto": "¿Cuál es el destino de las moléculas obtenidas al final de",
+          "texto": "¿Cuál es el destino de las moléculas obtenidas al final de este proceso?[0,5]",
           "puntos": null
         }
       ],
@@ -17807,18 +17807,21 @@
       "apartados": [
         {
           "letra": "a",
-          "texto": "Identifique los compuestos representados",
+          "texto": "Identifique los compuestos representados por los números 1, 2 y 3 y los procesos representados con las letras A y B [0,5]. Comente brevemente lo que ocurre en el proceso señalado con la letra A [0,5].",
           "puntos": null
         },
         {
           "letra": "b",
-          "texto": "Identifique los compuestos representados por",
+          "texto": "Identifique los compuestos representados por los números 4, 5, 6, 7 y 8 [0,5]. Comente brevemente lo que ocurre en el proceso señalado con la letra B [0,5].",
           "puntos": null
         }
       ],
       "puntos_total": null,
-      "criterios": [],
-      "tiene_criterios": false,
+      "criterios": [
+        "a) 1: proteínas; 2: polisacáridos; 3: lípidos; proceso A: ciclo de Krebs; proceso B: cadena de transporte electrónico. En el ciclo de Krebs, que se inicia con el acetil-CoA procedente de las moléculas orgánicas, se produce la oxidación completa del grupo acetilo.",
+        "b) 4: acetil-CoA; 5: CO₂; 6: NADH; 7: ADP + Pi; 8: ATP. En la cadena de transporte electrónico, los electrones del NADH se transportan mediante reacciones de oxidación-reducción hasta el aceptor final, el O₂, formando H₂O; ocurre en la membrana mitocondrial interna."
+      ],
+      "tiene_criterios": true,
       "tip": null,
       "imagen": {
         "figura_id": "figdocx-b3-tema-11-12-metabolismo-image10",
@@ -17842,7 +17845,8 @@
         "confianza_troceo": "media",
         "secuencia_apartados_limpia": true,
         "sospechas": [],
-        "nota": "Transcripción literal. Requiere revisión humana antes de publicarse."
+        "nota": "Transcripción literal. Requiere revisión humana antes de publicarse.",
+        "revision_2026_10": "Corregida a mano con el Word original (o con el enunciado oficial si el Word estaba incompleto)."
       }
     },
     {
@@ -18467,12 +18471,12 @@
       "apartados": [
         {
           "letra": "a",
-          "texto": "¿Qué proceso biológico se representa en la",
+          "texto": "¿Qué proceso biológico se representa en la figura? [0,2]",
           "puntos": null
         },
         {
           "letra": "b",
-          "texto": "Identifique a qué corresponde cada número del",
+          "texto": "Identifique a qué corresponde cada número del 1 al 8 [0,8].",
           "puntos": null
         }
       ],
@@ -20198,11 +20202,13 @@
       ],
       "tipo": "competencial",
       "dificultad": null,
-      "enunciado": "34. Usando los símbolos adjuntos, dibuje una cadena de ADN que tenga la secuencia 5’-ATCG-3’ [0,5]. Dibuje también una molécula de ARN con la secuencia complementaria a la molécula de ADN anterior [0,5]. USAR LOS SIMBOLOS UNIENDO EL 5´DE UN NUCLEOTIDO CON EL 3´DEL NUCLEOTIDO DE ARRIBA PONIENDO EL “P” ENTRE ELLOS, Y LA BASE CORRESPONDIENTE EN EL CARBONO A LA DERECHA DEL OXIGENO.",
+      "enunciado": "34. Usando los símbolos adjuntos, dibuje una cadena de ADN que tenga la secuencia 5’-ATCG-3’ [0,5]. Dibuje también una molécula de ARN con la secuencia complementaria a la molécula de ADN anterior [0,5].",
       "apartados": [],
       "puntos_total": null,
-      "criterios": [],
-      "tiene_criterios": false,
+      "criterios": [
+        "Se usan los símbolos uniendo el carbono 5′ de un nucleótido con el 3′ del nucleótido de arriba, con el fosfato (P) entre ellos, y la base correspondiente en el carbono a la derecha del oxígeno."
+      ],
+      "tiene_criterios": true,
       "tip": null,
       "imagen": {
         "figura_id": "figdocx-b4-tema-13-base-quimica-de-la-herencia-image1",
@@ -20226,7 +20232,8 @@
         "confianza_troceo": "media",
         "secuencia_apartados_limpia": true,
         "sospechas": [],
-        "nota": "Transcripción literal. Requiere revisión humana antes de publicarse."
+        "nota": "Transcripción literal. Requiere revisión humana antes de publicarse.",
+        "revision_2026_10": "Corregida a mano con el Word original (o con el enunciado oficial si el Word estaba incompleto)."
       }
     },
     {
@@ -20555,12 +20562,12 @@
         },
         {
           "letra": "d",
-          "texto": "Indique en qué lugar de la célula eucariótica se",
+          "texto": "Indique en qué lugar de la célula eucariótica se produce cada uno de los dos procesos [0,2].",
           "puntos": null
         },
         {
           "letra": "e",
-          "texto": "Nombre una molécula similar a 2 y que",
+          "texto": "Nombre una molécula similar a 2 y que forme parte de B [0,1].",
           "puntos": null
         }
       ],
@@ -20674,12 +20681,12 @@
       "apartados": [
         {
           "letra": "a",
-          "texto": "Nombre las moléculas representadas con los números",
+          "texto": "Nombre las moléculas representadas con los números 1, 2 y 3 [0,3].",
           "puntos": null
         },
         {
           "letra": "b",
-          "texto": "Cite el nombre del proceso A que",
+          "texto": "Cite el nombre del proceso A que permite la síntesis de la molécula número 2 [0,2].",
           "puntos": null
         },
         {
@@ -20689,12 +20696,12 @@
         },
         {
           "letra": "d",
-          "texto": "Cite el nombre del proceso B que permite",
+          "texto": "Cite el nombre del proceso B que permite la síntesis de la molécula número 4 [0,2].",
           "puntos": null
         },
         {
           "letra": "e",
-          "texto": "Cite el nombre de la macromolécula representada",
+          "texto": "Cite el nombre de la macromolécula representada con el número 4 [0,1].",
           "puntos": null
         }
       ],
@@ -20746,22 +20753,22 @@
       "apartados": [
         {
           "letra": "a",
-          "texto": "¿Qué proceso se representa en las figuras",
+          "texto": "¿Qué proceso se representa en las figuras A y B? [0,2]",
           "puntos": null
         },
         {
           "letra": "b",
-          "texto": "¿En qué grupos de organismos se",
+          "texto": "¿En qué grupos de organismos se produce el proceso representado en la figura A? ¿Y en la B? [0,2]",
           "puntos": null
         },
         {
           "letra": "c",
-          "texto": "Indique qué partes del proceso",
+          "texto": "Indique qué partes del proceso están señaladas con los números 1 y 2 [0,2].",
           "puntos": null
         },
         {
           "letra": "d",
-          "texto": "Indique el nombre de la molécula señalada con el",
+          "texto": "Indique el nombre de la molécula señalada con el número 3 y de la porción señalada con el número 4 [0,4].",
           "puntos": null
         }
       ],
@@ -20817,7 +20824,7 @@
         },
         {
           "letra": "b",
-          "texto": "Nombre las partes señaladas con",
+          "texto": "Nombre las partes señaladas con números del 1 al 4 [0,8].",
           "puntos": null
         }
       ],
@@ -20866,12 +20873,12 @@
       "apartados": [
         {
           "letra": "a",
-          "texto": "Nombre las moléculas representadas",
+          "texto": "Nombre las moléculas representadas con los números 1, 2, 4, 5 y 6 [0,5].",
           "puntos": null
         },
         {
           "letra": "b",
-          "texto": "¿Cómo se denominan los procesos de",
+          "texto": "¿Cómo se denominan los procesos de la figura que se desarrollan en el núcleo? [0,4]",
           "puntos": null
         },
         {
@@ -20931,22 +20938,22 @@
         },
         {
           "letra": "b",
-          "texto": "Indique cómo se denominan los monómeros",
+          "texto": "Indique cómo se denominan los monómeros de las moléculas B y C [0,2] y cuál es la composición de los monómeros de la molécula C [0,3].",
           "puntos": null
         },
         {
           "letra": "c",
-          "texto": "Nombre los procesos por los que se sintetizan las",
+          "texto": "Nombre los procesos por los que se sintetizan las moléculas A y C [0,2].",
           "puntos": null
         },
         {
           "letra": "d",
-          "texto": "Explique el hecho de que las anotaciones 3' y 5' de",
+          "texto": "Explique el hecho de que las anotaciones 3' y 5' de la molécula A se sitúen en posiciones opuestas [0,2].",
           "puntos": null
         },
         {
           "letra": "e",
-          "texto": "Describa el proceso por el que se sintetiza la",
+          "texto": "Describa el proceso por el que se sintetiza la molécula A [0,8].",
           "puntos": null
         }
       ],
@@ -21153,17 +21160,17 @@
         },
         {
           "letra": "b",
-          "texto": "Identifique los elementos señalados con l",
+          "texto": "Identifique los elementos señalados con l as letras A, B, C, y D [0,8].",
           "puntos": null
         },
         {
           "letra": "c",
-          "texto": "Indique el tipo de enlace que caracteriza",
+          "texto": "Indique el tipo de enlace que caracteriza a la molécula C y escriba la reacción de formación de este enlace [0,5]. )",
           "puntos": null
         },
         {
           "letra": "d",
-          "texto": "Indique la composición [0,25] y la",
+          "texto": "Indique la composición [0,25] y la función que desempeña el elemento A en este proceso [0,25].",
           "puntos": 0.25
         }
       ],
@@ -24931,17 +24938,17 @@
         },
         {
           "letra": "b",
-          "texto": "¿En qué́ tipo de respuesta inmunitaria humoral es",
+          "texto": "¿En qué́ tipo de respuesta inmunitaria humoral es predominante? [0,2]",
           "puntos": null
         },
         {
           "letra": "c",
-          "texto": "Indique qué cadenas polipeptídicas forman el monómero",
+          "texto": "Indique qué cadenas polipeptídicas forman el monómero señalado con el recuadro [0,4].",
           "puntos": null
         },
         {
           "letra": "d",
-          "texto": "Indique, en un organismo, dónde se localiza",
+          "texto": "Indique, en un organismo, dónde se localiza la molécula representada [0,2].",
           "puntos": null
         }
       ],
@@ -25052,27 +25059,27 @@
       "apartados": [
         {
           "letra": "a",
-          "texto": "¿Qué tipo de tratamiento se está́ utilizando en",
+          "texto": "¿Qué tipo de tratamiento se está́ utilizando en el caso 2 al inyectar la sustancia A? [0,2]",
           "puntos": null
         },
         {
           "letra": "b",
-          "texto": "En el caso 2, ¿qué células son las que actúan",
+          "texto": "En el caso 2, ¿qué células son las que actúan para protegerlo de la acción del patógeno? [0,2]",
           "puntos": null
         },
         {
           "letra": "c",
-          "texto": "¿De qué otra manera, por vía natural, podría el",
+          "texto": "¿De qué otra manera, por vía natural, podría el ratón del caso 2 evitar la muerte? [0,2]",
           "puntos": null
         },
         {
           "letra": "d",
-          "texto": "¿Qué tipo de tratamiento se utiliza en el caso 3 al",
+          "texto": "¿Qué tipo de tratamiento se utiliza en el caso 3 al inyectar la sustancia B (extraída del ratón vivo del caso 2)? [0,2]",
           "puntos": null
         },
         {
           "letra": "e",
-          "texto": "¿Qué ocurrirá́ con los componentes de la sustancia B",
+          "texto": "¿Qué ocurrirá́ con los componentes de la sustancia B pasados unos meses? [0,2]",
           "puntos": null
         }
       ],
@@ -25261,12 +25268,12 @@
         },
         {
           "letra": "c",
-          "texto": "¿Cuál de ellas actúa como célula presentadora",
+          "texto": "¿Cuál de ellas actúa como célula presentadora de antígenos? [0,2]",
           "puntos": null
         },
         {
           "letra": "d",
-          "texto": "¿Cómo se denominan las moléculas señaladas",
+          "texto": "¿Cómo se denominan las moléculas señaladas con la flecha en la imagen 2? [0,2]",
           "puntos": null
         },
         {
@@ -25347,7 +25354,7 @@
         },
         {
           "letra": "f",
-          "texto": "Indica los distintos tipos que hay",
+          "texto": "Indica los distintos tipos que hay [0,5].",
           "puntos": null
         }
       ],
@@ -25384,7 +25391,8 @@
         "confianza_troceo": "alta",
         "secuencia_apartados_limpia": true,
         "sospechas": [],
-        "nota": "Transcripción literal. Requiere revisión humana antes de publicarse."
+        "nota": "Transcripción literal. Requiere revisión humana antes de publicarse.",
+        "revision_2026_10": "Corregida a mano con el Word original (o con el enunciado oficial si el Word estaba incompleto)."
       }
     },
     {
@@ -25561,17 +25569,17 @@
         },
         {
           "letra": "b",
-          "texto": "Nombre los procesos representados con",
+          "texto": "Nombre los procesos representados con las letras A, B y C [0,3].",
           "puntos": null
         },
         {
           "letra": "c",
-          "texto": "¿En qué se diferencian las células señaladas",
+          "texto": "¿En qué se diferencian las células señaladas con el número 5 de las células del número 6, desde el punto de vista funcional? [0,5]",
           "puntos": null
         },
         {
           "letra": "d",
-          "texto": "Indique una función de la célula representada con el",
+          "texto": "Indique una función de la célula representada con el número 2 y una de la representada con el número 4 [0,5].",
           "puntos": null
         }
       ],
@@ -25730,7 +25738,7 @@
       "apartados": [
         {
           "letra": "a",
-          "texto": "Establezca una diferencia entre la respuesta inmunitaria adquirida y no adquirida ante los contactos con el antígeno [0,5] y proponga una explicación para dicha diferencia [0,5].",
+          "texto": "Establezca una diferencia entre la respuesta inmunitaria adquirida y no adquirida ante los contactos con el antígeno [0,5] y proponga una explicación para dicha diferencia [0,5]. En la respuesta adquirida específica al tener un primer contacto con el antígeno se produce una reacción pero con el segundo contacto la reacción es mayor. En cambio en la respuesta no adquirida inespecífica en el primer y segundo contacto la respuesta es la misma, no hay variación. Esto ocurre debido a la memoria inmunológica que permite que en el segundo contacto ya haya células activadas frente a ese patógeno, por lo que la respuesta en más eficaz e impide el desarrollo de la enfermedad.",
           "puntos": 0.5
         },
         {
@@ -25781,12 +25789,12 @@
       "apartados": [
         {
           "letra": "a",
-          "texto": "Nombre las etapas indicadas desde las",
+          "texto": "Nombre las etapas indicadas desde las letras A hasta la E [0,5].",
           "puntos": null
         },
         {
           "letra": "b",
-          "texto": "Nombre las células, estructuras y",
+          "texto": "Nombre las células, estructuras y elementos del sistema inmune señaladas con los números del 1 al 5 [0,5].",
           "puntos": null
         }
       ],
@@ -25835,22 +25843,22 @@
       "apartados": [
         {
           "letra": "a",
-          "texto": "Señale el tipo de inmunodeficiencia",
+          "texto": "Señale el tipo de inmunodeficiencia representada en el caso A [0,2].",
           "puntos": null
         },
         {
           "letra": "b",
-          "texto": "Identifique el elemento señalado",
+          "texto": "Identifique el elemento señalado con el número 1 en el caso A [0,2].",
           "puntos": null
         },
         {
           "letra": "c",
-          "texto": "Indique el tipo de reacción inmunológica",
+          "texto": "Indique el tipo de reacción inmunológica representada en el caso B [0,2].",
           "puntos": null
         },
         {
           "letra": "d",
-          "texto": "Cite dos ejemplos de enfermedades",
+          "texto": "Cite dos ejemplos de enfermedades del caso B [0,4].",
           "puntos": null
         }
       ],
@@ -25906,7 +25914,7 @@
         },
         {
           "letra": "b",
-          "texto": "¿Qué células la sintetizan y en qué tipo de respuesta",
+          "texto": "¿Qué células la sintetizan y en qué tipo de respuesta inmunológica participa? [0,3]",
           "puntos": null
         },
         {
@@ -25967,22 +25975,22 @@
       "apartados": [
         {
           "letra": "a",
-          "texto": "Identifique las células o moléculas indicadas",
+          "texto": "Identifique las células o moléculas indicadas como A, B, C y D [0,4].",
           "puntos": null
         },
         {
           "letra": "b",
-          "texto": "Nombre el proceso ilustrado en la imagen",
+          "texto": "Nombre el proceso ilustrado en la imagen encuadrada de la derecha [0,2].",
           "puntos": null
         },
         {
           "letra": "c",
-          "texto": "¿En qué células se sintetizan las moléculas C?",
+          "texto": "¿En qué células se sintetizan las moléculas C? [0,2]",
           "puntos": null
         },
         {
           "letra": "d",
-          "texto": "¿Cómo se llama el proceso de interacción",
+          "texto": "¿Cómo se llama el proceso de interacción entre B y C y que está representado con la letra E? [0,2]",
           "puntos": null
         }
       ],
@@ -26038,7 +26046,7 @@
         },
         {
           "letra": "b",
-          "texto": "Señale el tipo de célula indicada con el número",
+          "texto": "Señale el tipo de célula indicada con el número 2 [0,1].",
           "puntos": null
         },
         {
@@ -26048,12 +26056,12 @@
         },
         {
           "letra": "d",
-          "texto": "Indique el nombre de la sustancia señalada con",
+          "texto": "Indique el nombre de la sustancia señalada con el número 4 [0,2].",
           "puntos": null
         },
         {
           "letra": "e",
-          "texto": "Señale un efecto en el organismo de la",
+          "texto": "Señale un efecto en el organismo de la molécula 4 [0,3].",
           "puntos": null
         }
       ],
@@ -26105,27 +26113,27 @@
       "apartados": [
         {
           "letra": "a",
-          "texto": "¿Qué contiene la vacuna que se",
+          "texto": "¿Qué contiene la vacuna que se administra en el tratamiento 1?[0,1]",
           "puntos": null
         },
         {
           "letra": "b",
-          "texto": "¿Qué se administra en el tratamiento 2?",
+          "texto": "¿Qué se administra en el tratamiento 2? ¿Qué nombre recibe este tratamiento 2? [0,2]",
           "puntos": null
         },
         {
           "letra": "c",
-          "texto": "Indique, en cada caso, si tras administrar el",
+          "texto": "Indique, en cada caso, si tras administrar el tratamiento se consigue una inmunidad de tipo humoral o celular [0,3].",
           "puntos": null
         },
         {
           "letra": "d",
-          "texto": "¿Cuál de ellos es un tratamiento preventivo",
+          "texto": "¿Cuál de ellos es un tratamiento preventivo y cuál curativo? [0,2]",
           "puntos": null
         },
         {
           "letra": "e",
-          "texto": "Cite un proceso natural por el que un organismo pueda",
+          "texto": "Cite un proceso natural por el que un organismo pueda desarrollar una respuesta semejante a la que se consigue con el tratamiento 1 y otro que genere una respuesta semejante a la que se consigue cuando se emplea el tratamiento 2 [0,2].",
           "puntos": null
         }
       ],
@@ -26187,12 +26195,12 @@
         },
         {
           "letra": "c",
-          "texto": "¿Qué otra vía natural permite al recién nacido adquirir este tipo de",
+          "texto": "¿Qué otra vía natural permite al recién nacido adquirir este tipo de inmunidad? [0,2]",
           "puntos": null
         },
         {
           "letra": "d",
-          "texto": "¿Cuál es la diferencia entre las sustancias inmunitarias que recibe el",
+          "texto": "¿Cuál es la diferencia entre las sustancias inmunitarias que recibe el recién nacido por esta otra vía natural y las que recibe con la leche materna? [0,2]",
           "puntos": null
         }
       ],
@@ -26243,17 +26251,17 @@
       "apartados": [
         {
           "letra": "a",
-          "texto": "¿Cómo se denominan en general las",
+          "texto": "¿Cómo se denominan en general las reacciones inmunológicas representadas? [0,2]",
           "puntos": null
         },
         {
           "letra": "b",
-          "texto": "Indique los nombres de las reacciones",
+          "texto": "Indique los nombres de las reacciones representadas en las imágenes A y B [0,6].",
           "puntos": null
         },
         {
           "letra": "c",
-          "texto": "Cite otra reacción de este tipo diferente",
+          "texto": "Cite otra reacción de este tipo diferente a las que aparecen en las imágenes [0,2].",
           "puntos": null
         }
       ],
@@ -26303,17 +26311,17 @@
       "apartados": [
         {
           "letra": "a",
-          "texto": "Indique tres diferencias existentes entre las",
+          "texto": "Indique tres diferencias existentes entre las respuestas inmunológicas representadas en A y B [0,6].",
           "puntos": null
         },
         {
           "letra": "b",
-          "texto": "¿Qué tipo de células se originan tras la fase A y",
+          "texto": "¿Qué tipo de células se originan tras la fase A y dan lugar a la respuesta en la fase B? [0,2]",
           "puntos": null
         },
         {
           "letra": "c",
-          "texto": "¿Qué células son las que producen los",
+          "texto": "¿Qué células son las que producen los anticuerpos? [0,2]",
           "puntos": null
         }
       ],
