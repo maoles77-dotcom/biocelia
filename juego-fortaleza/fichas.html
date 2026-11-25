@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fichas · Crónicas de la Fortaleza Celular</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="juego.css">
+<style>
+  @page { size: A4 portrait; margin: 10mm; }
+  .controles { max-width: 980px; margin: 18px auto; padding: 16px 20px; background: var(--pergamino); border: 2px solid var(--borde); border-radius: 12px; }
+  .pagina { width: 190mm; margin: 0 auto 8mm; background: #fff; padding: 4mm; }
+  .grupo { margin: 0 0 4mm; break-inside: avoid; }
+  .grupo h3 { font: 700 10pt Cinzel, serif; margin: 0 0 1.5mm; }
+  .fila { display: flex; flex-wrap: wrap; gap: 2mm; }
+  .ficha { width: 17mm; height: 17mm; border-radius: 50%; display: grid; place-items: center; text-align: center; font: 700 8.5pt Cinzel, serif; border: .5mm solid #3b2a14; line-height: 1; }
+  .ficha small { display: block; font: 500 5.5pt 'Cormorant Garamond', serif; }
+  .atp { background: radial-gradient(circle at 35% 35%, #ffe58a, #e0a21a); }
+  .glc { background: #ffffff; border-radius: 3mm; clip-path: polygon(25% 3%, 75% 3%, 100% 50%, 75% 97%, 25% 97%, 0 50%); border: 0; outline: 0; background-color: #f4f4ec; box-shadow: inset 0 0 0 .6mm #3b2a14; }
+  .aa { background: #f2b3a8; }
+  .nuc { background: #b9cdf5; }
+  .lip { background: #f7c98b; }
+  .prot { background: #d6c2ef; border-radius: 4mm; }
+  .arnm { width: 30mm; height: 12mm; border-radius: 6mm 2mm 6mm 2mm; background: #f6ead0; }
+  .sello { width: 13mm; height: 13mm; background: #b03a2e; color: #fff4dd; border-color: #6b1a12; }
+  .golgi { width: 11mm; height: 11mm; background: #e4d2a3; }
+  .mala { background: #4b5a3a; color: #f0f7d8; }
+  .virus { background: #6b2d6b; color: #fde9ff; }
+  .marca { width: 14mm; height: 14mm; background: #2b4a6b; color: #fff; }
+  .hito { width: 30mm; height: 14mm; border-radius: 3mm; background: #e6f2e7; }
+  .peon { width: 30mm; height: 62mm; border: .4mm dashed #8a7550; display: flex; flex-direction: column; }
+  .peon div { flex: 1; display: grid; place-items: center; text-align: center; font: 700 8pt Cinzel, serif; padding: 1mm; }
+  .peon .arriba { transform: rotate(180deg); border-bottom: .3mm dotted #8a7550; }
+  .peon .base { flex: .35; background: #eadcbc; font-size: 6pt; }
+  @media print {
+    .controles { display: none; }
+    .pagina { margin: 0; padding: 0; }
+    body { background: #fff; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    .salto { break-before: page; }
+  }
+</style>
+</head>
+<body>
+<div class="controles no-imprimir">
+  <h1 class="titulo" style="margin:0 0 6px;font-size:1.5rem">Fichas y peones para imprimir</h1>
+  <p style="margin:0 0 8px">Un juego completo para una mesa. Para el Duelo de reinos imprime dos copias. Si las pegas sobre cartulina duran mucho más.</p>
+  <p style="margin:0"><a class="boton secundario" href="index.html">← Volver</a> <button class="boton" onclick="window.print()">Imprimir</button></p>
+  <p class="nota aviso-visitas" style="margin:6px 0 0">Esta web registra visitas de forma anónima, sin cookies ni datos personales.</p>
+</div>
+<div class="pagina" id="hoja"></div>
+<script>
+const G = [
+  ['ATP · la moneda del reino', 30, 'ficha atp', 'ATP'],
+  ['Glucosa', 18, 'ficha glc', 'Glc'],
+  ['Aminoácidos', 18, 'ficha aa', 'aa<small>aminoácido</small>'],
+  ['Nucleótidos', 14, 'ficha nuc', 'N<small>nucleótido</small>'],
+  ['Lípidos', 10, 'ficha lip', 'Líp<small>lípido</small>'],
+  ['Pergaminos de ARNm', 10, 'ficha arnm', 'ARNm<small>pergamino</small>'],
+  ['Proteínas (en el citosol, la tubulina)', 10, 'ficha prot', 'Prot<small>proteína</small>'],
+  ['Sellos de Golgi: ponlos encima de una proteína madura', 8, 'ficha golgi', 'G'],
+  ['Sellos del Tribunal', 16, 'ficha sello', 'T<small>sello</small>'],
+  ['Amenazas', 0, '', ''],
+];
+const MALAS = [['Bacteria', 3, 'mala'], ['Fagosoma', 3, 'mala'], ['Virus', 2, 'virus'], ['Plaga', 2, 'mala'], ['Veneno', 2, 'virus']];
+const HITOS = [['ADN replicado', 2], ['Huso montado', 2], ['Orgánulo envejecido', 1], ['Permeasas cerradas', 1]];
+const PEONES = ['Maestre de la Biblioteca', 'Maestra Forjadora', 'Alquimista', 'Capitana del Puerto', 'Guardián de la Muralla',
+                'Señor de la Fragua', 'Carcelera de la Mazmorra', 'Guardiana del Sol', 'Señora del Aljibe'];
+let h = '';
+for (const [tit, n, cls, txt] of G) {
+  if (!n) continue;
+  h += `<div class="grupo"><h3>${tit} (${n})</h3><div class="fila">${Array(n).fill(`<span class="${cls}">${txt}</span>`).join('')}</div></div>`;
+}
+h += `<div class="grupo"><h3>Amenazas</h3><div class="fila">${MALAS.map(([t, n, c]) => Array(n).fill(`<span class="ficha ${c}">${t}</span>`).join('')).join('')}</div></div>`;
+h += `<div class="grupo"><h3>Marcadores e hitos</h3><div class="fila"><span class="ficha marca">Homeo-<br>stasis</span><span class="ficha marca">Ronda</span>${HITOS.map(([t, n]) => Array(n).fill(`<span class="ficha hito">${t}</span>`).join('')).join('')}</div></div>`;
+h += `<div class="grupo salto"><h3>Peones de papel: recorta, dobla por la línea de puntos y pega la base</h3><div class="fila">${PEONES.map(p => `<div class="peon"><div class="arriba">${p}</div><div>${p}</div><div class="base">base</div></div>`).join('')}</div></div>`;
+document.getElementById('hoja').innerHTML = h;
+</script>
+<script data-goatcounter="https://biocelia.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+</body>
+</html>

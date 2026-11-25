@@ -1,0 +1,60 @@
+/* Crónicas de la Fortaleza Celular · estilos comunes (pantalla e impresión) */
+:root {
+  --pergamino: #f3e6c6;
+  --pergamino-2: #ead7ab;
+  --tinta: #3b2a14;
+  --tinta-suave: #6b4a1e;
+  --borde: #8d7247;
+  --A: #c98a1b; --B: #2f62d6; --C: #1f8a5b; --D: #c0392b; --E: #7b4bb7; --F: #0a8fa8;
+  --ok: #1f8a5b;
+  --ko: #b03a2e;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #e6d3a6;
+  color: var(--tinta);
+  font: 17px/1.55 'Cormorant Garamond', Georgia, serif;
+}
+h1, h2, h3, .titulo { font-family: Cinzel, Georgia, serif; color: var(--tinta); }
+a { color: #7a3b12; }
+.hoja {
+  max-width: 980px;
+  margin: 24px auto;
+  padding: 36px 44px;
+  background: var(--pergamino);
+  border: 2px solid var(--borde);
+  border-radius: 14px;
+  box-shadow: 0 6px 24px rgba(60, 40, 10, .25);
+}
+.hoja h1 { margin: 0 0 4px; font-size: 2.1rem; text-align: center; }
+.subtitulo { text-align: center; font-style: italic; color: var(--tinta-suave); margin: 0 0 18px; }
+.hoja h2 { border-bottom: 2px solid var(--borde); padding-bottom: 4px; margin-top: 30px; font-size: 1.35rem; }
+.hoja h3 { font-size: 1.08rem; margin: 18px 0 6px; }
+.caja { border: 2px solid var(--borde); background: #f8efd6; border-radius: 10px; padding: 12px 16px; margin: 14px 0; }
+.caja.clave { border-color: var(--ko); background: #fbe9e2; }
+.caja.idea { border-color: var(--C); background: #e6f2e7; }
+table { width: 100%; border-collapse: collapse; margin: 10px 0; font-size: .95rem; }
+th, td { border: 1px solid var(--borde); padding: 5px 8px; vertical-align: top; text-align: left; }
+th { background: var(--pergamino-2); font-family: Cinzel, Georgia, serif; font-size: .85rem; }
+.mazo { display: inline-block; min-width: 1.6em; padding: 0 .35em; border-radius: 1em; color: #fff; font-family: Cinzel, Georgia, serif; font-weight: 700; text-align: center; font-size: .85em; }
+.mazo.A { background: var(--A); } .mazo.B { background: var(--B); } .mazo.C { background: var(--C); }
+.mazo.D { background: var(--D); } .mazo.E { background: var(--E); } .mazo.F { background: var(--F); }
+.acciones-pagina { text-align: center; margin: 8px 0 0; }
+.boton {
+  display: inline-block; margin: 4px; padding: 8px 16px; border-radius: 8px;
+  background: #7a3b12; color: #fff8e6; text-decoration: none; font-family: Cinzel, Georgia, serif; border: 0; cursor: pointer; font-size: .95rem;
+}
+.boton.secundario { background: #f8efd6; color: #7a3b12; border: 2px solid #7a3b12; }
+.nota { font-size: .9rem; color: var(--tinta-suave); font-style: italic; }
+@media (max-width: 640px) {
+  .hoja { margin: 0; padding: 20px 16px; border-radius: 0; }
+  table { font-size: .85rem; }
+}
+@media print {
+  body { background: #fff; }
+  .hoja { box-shadow: none; border: 0; margin: 0; padding: 0; max-width: none; background: #fff; }
+  .no-imprimir { display: none !important; }
+  h2 { break-after: avoid; }
+  table, .caja { break-inside: avoid; }
+}

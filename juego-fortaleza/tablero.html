@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tablero · Crónicas de la Fortaleza Celular</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="juego.css">
+<style>
+  @page { size: A3 landscape; margin: 0; }
+  .controles { max-width: 980px; margin: 18px auto; padding: 16px 20px; background: var(--pergamino); border: 2px solid var(--borde); border-radius: 12px; }
+  .cara { display: block; width: 100%; max-width: 1400px; margin: 0 auto 20px; }
+  @media print {
+    .controles { display: none; }
+    .cara { width: 420mm; height: 297mm; max-width: none; margin: 0; break-after: page; }
+    body { background: #fff; }
+  }
+</style>
+</head>
+<body>
+<div class="controles no-imprimir">
+  <h1 class="titulo" style="margin:0 0 6px;font-size:1.5rem">El tablero</h1>
+  <p style="margin:0 0 8px">Dos caras: la célula animal y la célula vegetal. Imprime cada una en A3 apaisado, sin márgenes, o en dos A4 y únelas con cinta. Si las pegas espalda con espalda sobre cartón tendrás un tablero de dos caras.</p>
+  <p style="margin:0">
+    <a class="boton secundario" href="index.html">← Volver</a>
+    <button class="boton" onclick="window.print()">Imprimir las dos caras (A3)</button>
+    <a class="boton secundario" href="tablero-animal.svg" download>Descargar cara A (SVG)</a>
+    <a class="boton secundario" href="tablero-vegetal.svg" download>Descargar cara B (SVG)</a>
+  </p>
+  <p class="nota aviso-visitas" style="margin:6px 0 0">Esta web registra visitas de forma anónima, sin cookies ni datos personales.</p>
+</div>
+<img class="cara" src="tablero-animal.svg" alt="Tablero, cara A: la célula animal como fortaleza, con la muralla (membrana), la Gran Biblioteca (núcleo), la Forja del RER, el Taller de Alquimia (REL), el Puerto de Golgi, la Mazmorra Ácida (lisosoma), la Fragua de la Mitocondria, el Centrosoma, la Plaza del Citosol y las puertas de la muralla.">
+<img class="cara" src="tablero-vegetal.svg" alt="Tablero, cara B: la célula vegetal, con la empalizada (pared celular), la Torre del Sol (cloroplasto), el Gran Aljibe (vacuola), los Polos del Huso y los demás orgánulos.">
+<script>
+// Con <img>, el SVG no puede cargar las fuentes de la web: si la página se sirve por http, se incrusta el SVG.
+document.querySelectorAll('img.cara').forEach(img => {
+  fetch(img.getAttribute('src')).then(r => r.ok ? r.text() : Promise.reject()).then(t => {
+    const d = document.createElement('div'); d.innerHTML = t;
+    const svg = d.querySelector('svg'); svg.classList.add('cara'); svg.setAttribute('role', 'img');
+    svg.setAttribute('aria-label', img.alt); svg.removeAttribute('width'); svg.removeAttribute('height');
+    img.replaceWith(svg);
+  }).catch(() => {});
+});
+</script>
+<script data-goatcounter="https://biocelia.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+</body>
+</html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reglamento · Crónicas de la Fortaleza Celular</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="juego.css">
+</head>
+<body>
+<main class="hoja">
+  <h1>Crónicas de la Fortaleza Celular</h1>
+  <p class="subtitulo">Reglamento · prototipo de prueba · de 2 a 8 jugadores · 25 a 60 minutos</p>
+  <p class="acciones-pagina no-imprimir">
+    <a class="boton secundario" href="index.html">← Volver al juego</a>
+    <button class="boton" onclick="window.print()">Imprimir el reglamento</button>
+  </p>
+
+  <h2>1. La idea</h2>
+  <p>Cada célula es una fortaleza. La <b>muralla</b> es la membrana, la <b>Gran Biblioteca</b> es el núcleo, las <b>forjas</b> y los <b>talleres</b> son el retículo endoplasmático, el <b>Puerto</b> es el aparato de Golgi, las <b>fraguas</b> son las mitocondrias… y la moneda del reino es el <b>ATP</b>. Los jugadores son los gremios que hacen funcionar la fortaleza: traen materias primas, copian pergaminos (ARNm), forjan proteínas, las envían por el Puerto y defienden la célula de las amenazas.</p>
+  <div class="caja clave">
+    <b>La regla de oro: la Prueba del Tribunal.</b> Para que un orgánulo funcione hay que responder una pregunta con las <b>palabras clave exactas</b>. Como en la PAU, un sinónimo no vale: «la replicación avanza a ambos lados» no es «bidireccional».
+  </div>
+
+  <h2>2. Componentes</h2>
+  <ul>
+    <li><b>Tablero de dos caras</b>: cara A, la célula animal; cara B, la célula vegetal. Se imprime en A3.</li>
+    <li><b>Cartas del Tribunal</b>: 90 preguntas en seis mazos, uno por bloque: <span class="mazo A">A</span> Biomoléculas, <span class="mazo B">B</span> Genética molecular, <span class="mazo C">C</span> Biología celular, <span class="mazo D">D</span> Metabolismo, <span class="mazo E">E</span> Microorganismos y biotecnología y <span class="mazo F">F</span> Inmunología.</li>
+    <li><b>Cartas de amenaza y suceso</b> (19), <b>misiones</b> (8), <b>gremios</b> (9), <b>trampas</b> (20), <b>fichas de orgánulo</b> (11) y <b>cartas de ayuda</b>.</li>
+    <li><b>Fichas</b>: ATP, glucosa, aminoácidos, nucleótidos, lípidos, pergaminos de ARNm, proteínas, sellos de Golgi, sellos del Tribunal y amenazas (bacteria, virus, plaga, veneno).</li>
+    <li>Un <b>peón por gremio</b>: piezas impresas en 3D o las figuras recortables.</li>
+    <li>Un reloj de 30 segundos (vale el del móvil o el mazo digital).</li>
+  </ul>
+  <p>Las cartas con 🐾 solo se usan con la célula animal; las que llevan 🌿, solo con la vegetal; las que no llevan ninguna, con las dos.</p>
+
+  <h2>3. Preparación</h2>
+  <ol>
+    <li>Elegid la cara del tablero y apartad las cartas que no sirven para esa célula.</li>
+    <li>Barajad por separado cada mazo del Tribunal y el mazo de amenazas.</li>
+    <li>Cada jugador elige un <b>gremio</b> de esa célula y pone su peón en el lugar de inicio que indica su carta. Con 6 o más jugadores, jugad en <b>parejas</b>: cada pareja lleva un gremio y decide en voz baja.</li>
+    <li>Marcadores: <b>Homeostasis</b> en 10 y <b>Ronda</b> en 1. Reserva común de <b>6 ATP</b>. Cada gremio recibe <b>1 glucosa</b>.</li>
+    <li>Preparad las misiones según el modo de juego (apartado 7).</li>
+  </ol>
+
+  <h2>4. La ronda</h2>
+  <ol>
+    <li><b>Amenaza</b> (desde la ronda 2): se revela la primera carta de amenazas y se aplica. Alguien lee en voz alta su «¿Por qué?».</li>
+    <li><b>Turnos</b>: cada gremio, por orden, hace <b>3 acciones</b> (4 si sois 3 gremios o menos).</li>
+    <li><b>Fin de ronda</b>:
+      <ul>
+        <li>La fortaleza paga <b>1 ATP de gasto basal</b>. Si no puede, pierde 1 de Homeostasis.</li>
+        <li>Se aplican los daños de las amenazas que sigan activas.</li>
+        <li>Se avanza el marcador de ronda.</li>
+      </ul>
+    </li>
+  </ol>
+
+  <h2>5. Las acciones</h2>
+  <p>En tu turno puedes repetir acciones y hacerlas en cualquier orden.</p>
+  <ul>
+    <li><b>Moverte</b> a un lugar unido por un camino. Por las <b>calzadas de microtúbulos</b> (los caminos anchos) puedes avanzar hasta 3 lugares seguidos con una sola acción.</li>
+    <li><b>Recoger</b>, solo en las puertas de la muralla:
+      <ul>
+        <li><b>Puerta de las Permeasas</b> (difusión facilitada, a favor de gradiente): 2 fichas gratis, a elegir entre glucosa, aminoácidos y nucleótidos.</li>
+        <li><b>Torre de la Bomba</b> (transporte activo, en contra de gradiente): pagas 1 ATP y tomas 3 fichas. Funciona aunque las permeasas estén cerradas.</li>
+      </ul>
+    </li>
+    <li><b>Activar</b> el orgánulo en el que estás: pagas el coste, superas la Prueba del Tribunal y obtienes el resultado (tabla).</li>
+    <li><b>Entregar</b>: dar fichas a otro peón que esté en tu mismo lugar, o dejar lo que pide una misión en el lugar que indica.</li>
+  </ul>
+  <p>Cada peón lleva como máximo <b>4 fichas</b>. En los modos cooperativos el ATP es común: se paga desde cualquier lugar, porque la energía llega a toda la célula.</p>
+
+  <h3>Qué hace cada orgánulo</h3>
+  <table>
+    <thead><tr><th>Lugar</th><th>Acción</th><th>Coste</th><th>Resultado</th><th>Mazo</th></tr></thead>
+    <tbody>
+      <tr><td>Gran Biblioteca (núcleo)</td><td>Transcribir</td><td>1 nucleótido + 1 ATP</td><td>1 pergamino de ARNm</td><td><span class="mazo B">B</span></td></tr>
+      <tr><td></td><td>Replicar el ADN</td><td>2 nucleótidos + 2 ATP</td><td>ADN replicado (misión de división)</td><td><span class="mazo B">B</span></td></tr>
+      <tr><td>Forja del RER</td><td>Traducir</td><td>1 ARNm + 2 aminoácidos + 1 ATP</td><td>1 proteína de secreción o de membrana</td><td><span class="mazo A">A</span></td></tr>
+      <tr><td>Plaza del Citosol</td><td>Fermentar</td><td>1 glucosa</td><td>1 ATP</td><td><span class="mazo D">D</span></td></tr>
+      <tr><td></td><td>Ribosomas libres</td><td>1 ARNm + 2 aminoácidos + 1 ATP</td><td>1 proteína del citosol (por ejemplo, tubulina)</td><td><span class="mazo A">A</span></td></tr>
+      <tr><td>Fragua (mitocondria)</td><td>Respirar</td><td>1 glucosa o 1 lípido</td><td>4 ATP</td><td><span class="mazo D">D</span></td></tr>
+      <tr><td>Taller de Alquimia (REL)</td><td>Fabricar lípidos</td><td>1 glucosa + 1 ATP</td><td>2 lípidos</td><td><span class="mazo A">A</span></td></tr>
+      <tr><td></td><td>Destoxificar</td><td>1 ATP</td><td>retira un veneno</td><td><span class="mazo A">A</span></td></tr>
+      <tr><td>Puerto de Golgi</td><td>Madurar</td><td>1 proteína + 1 ATP</td><td>proteína madura (ponle un sello de Golgi)</td><td><span class="mazo C">C</span></td></tr>
+      <tr><td></td><td>🌿 Material de pared o fragmoplasto</td><td>1 glucosa + 1 ATP</td><td>1 vesícula de pared</td><td><span class="mazo C">C</span></td></tr>
+      <tr><td>Muelle de Vesículas</td><td>Exocitosis</td><td>—</td><td>entregas lo que pide una misión (sin Tribunal)</td><td>—</td></tr>
+      <tr><td></td><td>🐾 Capturar una bacteria (fagocitosis)</td><td>1 ATP</td><td>fagosoma: llévalo a la Mazmorra</td><td><span class="mazo E">E</span></td></tr>
+      <tr><td>Mazmorra Ácida (lisosoma) 🐾</td><td>Digerir un fagosoma</td><td>—</td><td>retira la bacteria; recuperas 1 aminoácido y 1 nucleótido</td><td><span class="mazo F">F</span></td></tr>
+      <tr><td>Mazmorra 🐾 o Gran Aljibe 🌿</td><td>Autofagia</td><td>1 ATP</td><td>repara un orgánulo envejecido</td><td><span class="mazo F">F</span> / <span class="mazo C">C</span></td></tr>
+      <tr><td>Centrosoma 🐾 o Polos del Huso 🌿</td><td>Montar el huso</td><td>1 proteína del citosol + 2 ATP</td><td>huso montado (misión de división)</td><td><span class="mazo C">C</span></td></tr>
+      <tr><td>Torre del Sol (cloroplasto) 🌿</td><td>Fotosíntesis</td><td>—</td><td>2 glucosas</td><td><span class="mazo D">D</span></td></tr>
+    </tbody>
+  </table>
+  <div class="caja idea">
+    <b>Biología escondida en las reglas.</b>
+    <ul>
+      <li>La Fragua da <b>4 ATP</b> por glucosa y la fermentación, solo <b>1</b>. En la célula real la diferencia es aún mayor: 36-38 ATP frente a 2.</li>
+      <li>En la cara vegetal, la Torre del Sol da glucosa, no ATP: el ATP de la fase luminosa se gasta en el ciclo de Calvin. Por eso la célula vegetal también necesita sus mitocondrias.</li>
+      <li>Las proteínas de secreción y de membrana siguen la ruta Biblioteca → Forja → Puerto → Muelle, igual que en la célula: núcleo → RER → Golgi → membrana.</li>
+    </ul>
+  </div>
+
+  <h2>6. La Prueba del Tribunal</h2>
+  <ol>
+    <li>El jugador de tu izquierda roba una carta del mazo del color del lugar y lee la pregunta en voz alta. Si está la profesora o el profesor, hace de Tribunal. En el modo Duelo, lee la pregunta el equipo rival.</li>
+    <li>Tienes <b>30 segundos</b>. En los modos cooperativos el grupo puede deliberar, pero responde una sola persona.</li>
+    <li>El Tribunal cuenta cuántas <b>palabras clave</b> de la carta has dicho:
+      <ul>
+        <li><b>Todas</b>: la acción sale bien y ganáis un <b>Sello del Tribunal</b>.</li>
+        <li><b>Alguna, pero no todas</b>: la acción sale bien, pero cuesta <b>1 ATP más</b>. Una respuesta incompleta gasta energía.</li>
+        <li><b>Ninguna</b>: la acción falla. No pagas el coste, pero pierdes la acción.</li>
+      </ul>
+    </li>
+    <li>El Tribunal lee la respuesta completa en voz alta y la carta va al fondo de su mazo.</li>
+  </ol>
+  <p><b>Sellos del Tribunal.</b> En los modos cooperativos, 2 sellos sirven para recuperar 1 de Homeostasis o para anular la amenaza que acaba de salir. En los competitivos, para enviar una amenaza a un rival.</p>
+
+  <h3>Las trampas ☠</h3>
+  <p>Algunos caminos tienen una casilla de calavera. Cuando la cruzas, el Tribunal roba una carta de <b>trampa</b> y lee en voz alta su afirmación, que contiene un error típico de examen. Tienes 30 segundos para decir qué está mal y corregirlo con la <b>palabra clave</b> de la carta.</p>
+  <ul>
+    <li>Si lo corriges: ganáis un sello del Tribunal.</li>
+    <li>Si no: pierdes 1 ATP. Tu movimiento continúa igualmente.</li>
+  </ul>
+  <p>Los errores de las trampas son los que más puntos cuestan en la PAU, entre ellos los que señaló la Ponencia de noviembre de 2026.</p>
+
+  <h3>Las fichas de orgánulo</h3>
+  <p>Cada lugar del tablero tiene su ficha, con cuatro partes:</p>
+  <ul>
+    <li><b>Anatomía</b>: cómo es el orgánulo.</li>
+    <li><b>Poder</b>: las palabras clave que piden los criterios.</li>
+    <li><b>Conexión</b>: con qué otro orgánulo trabaja.</li>
+    <li><b>Trampa</b>: el error típico.</li>
+  </ul>
+  <p>Los anillos indican cuántas membranas tiene el orgánulo: ninguna, una o dos. Cada gremio tiene a la vista la ficha de su orgánulo; sirve para preparar las respuestas del Tribunal y, después de la partida, para estudiar.</p>
+
+  <h2>7. Modos de juego</h2>
+  <h3>A · Primer día en la fortaleza · cooperativo · 25 minutos</h3>
+  <p>La partida para aprender. No hay amenazas.</p>
+  <ul>
+    <li>Misiones en la célula animal: «Secretar una hormona» y «Guardar reservas».</li>
+    <li>Misiones en la célula vegetal: «Reforzar la pared» y «Guardar reservas».</li>
+  </ul>
+  <p>Ganáis cuando completáis las dos.</p>
+
+  <h3>B · Asedio · cooperativo · 50 minutos · ideal para 3 a 5 jugadores</h3>
+  <ul>
+    <li>Robad 3 misiones al azar de la célula elegida.</li>
+    <li>Ganáis si las completáis antes de que acabe la <b>ronda 8</b>.</li>
+    <li>Perdéis si la <b>Homeostasis llega a 0</b>.</li>
+  </ul>
+  <p>Al completar una misión, aplicad su premio.</p>
+
+  <h3>C · Carrera de la división · competitivo · de 2 a 4 jugadores o parejas</h3>
+  <ul>
+    <li>Cada jugador tiene su propio ATP: empieza con <b>4 ATP</b> y 1 glucosa, y solo puede pagar con lo suyo.</li>
+    <li>Gana quien complete primero la misión <b>«Expansión del reino»</b> (la división celular).</li>
+    <li>Las amenazas salen igual y afectan a todos. Las que quitan Homeostasis quitan, en su lugar, 1 ATP a cada jugador.</li>
+    <li>Cada puerta da como mucho <b>6 fichas por ronda</b> entre todos: las materias primas son escasas.</li>
+    <li>Con 2 sellos del Tribunal puedes robar la primera carta de amenazas y aplicársela a un rival. Si no le afecta a su tipo de célula, se pierde, y debes explicar en voz alta por qué no le afecta.</li>
+  </ul>
+
+  <h3>D · Duelo de reinos · competitivo por equipos · de 4 a 8 jugadores</h3>
+  <ul>
+    <li>Hacen falta dos tableros: un equipo juega con la célula animal y el otro con la vegetal.</li>
+    <li>Cada equipo juega un Asedio con 3 misiones de su célula. Las rondas son simultáneas: primero juega un equipo y luego el otro.</li>
+    <li>El Tribunal de cada equipo lo hace el equipo rival.</li>
+    <li>Con 2 sellos, un equipo puede enviar la siguiente amenaza al rival. Si no afecta a su célula, el rival explica por qué y no le pasa nada. Por ejemplo, un medio hipotónico no daña a la célula vegetal: tiene pared.</li>
+    <li>Gana el primer equipo que complete sus 3 misiones. Un equipo que llega a 0 de Homeostasis pierde.</li>
+  </ul>
+  <p class="nota">Para un grupo de 7: Duelo de reinos, 4 contra 3. El equipo de 3 juega con 4 acciones por gremio.</p>
+
+  <h2>8. Después de la partida</h2>
+  <p>Cada jugador apunta las cartas del Tribunal que no supo responder entera, con sus palabras clave, y las repasa en el <a href="mazo.html">mazo digital</a> o en <a href="../Entrenamientopau.html">Entrenamiento</a>. Para la próxima partida, esas cartas pueden ir arriba de su mazo.</p>
+
+  <p class="nota">Prototipo de BioCelia para probar en clase. Las respuestas y palabras clave de las cartas siguen los apuntes de BioCelia y los criterios oficiales de la PAU de Andalucía.</p>
+  <style>@media print{.aviso-visitas{display:none!important}}</style>
+  <p class="aviso-visitas nota">Esta web registra visitas de forma anónima, sin cookies ni datos personales.</p>
+</main>
+<script data-goatcounter="https://biocelia.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+</body>
+</html>

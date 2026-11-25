@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mazo digital · Crónicas de la Fortaleza Celular</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="juego.css">
+<style>
+  .mesa { max-width: 900px; margin: 18px auto; padding: 0 16px; }
+  .botonera { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin: 10px 0 16px; }
+  .botonera button { border: 0; border-radius: 10px; padding: 10px 14px; color: #fff; font: 700 1rem Cinzel, serif; cursor: pointer; min-width: 64px; }
+  .botonera button small { display: block; font: 500 .72rem 'Cormorant Garamond', serif; }
+  .carta-grande { background: var(--pergamino); border: 4px solid var(--c, #8d7247); border-radius: 18px; padding: 26px 30px; min-height: 300px; box-shadow: 0 8px 26px rgba(60, 40, 10, .3); }
+  .carta-grande .tipo { font: 700 .95rem Cinzel, serif; color: var(--c); text-transform: uppercase; }
+  .carta-grande .preg { font: 700 clamp(1.4rem, 3.6vw, 2.3rem)/1.25 'Cormorant Garamond', Georgia, serif; margin: 12px 0 18px; }
+  .reloj { font: 700 2.2rem Cinzel, serif; text-align: center; color: var(--tinta); }
+  .reloj.fin { color: var(--ko); }
+  .resp { font-size: 1.25rem; border-top: 2px solid #b9a27a; padding-top: 12px; }
+  .clave { display: inline-block; background: #fff3c4; border: 2px solid #d9b44a; border-radius: 8px; padding: 2px 10px; margin: 4px 6px 0 0; font-weight: 700; font-size: 1.2rem; }
+  .oculto { display: none; }
+  .por { margin-top: 14px; font-style: italic; background: #efe2c2; border-radius: 10px; padding: 10px 14px; }
+</style>
+</head>
+<body>
+<div class="mesa">
+  <h1 class="titulo" style="text-align:center;margin:10px 0 0">Mazo digital del Tribunal</h1>
+  <p class="nota" style="text-align:center;margin:4px 0">Proyéctalo o úsalo en el móvil en lugar de las cartas impresas. Las preguntas no se repiten hasta que se acaba el mazo.</p>
+  <div class="botonera" id="botonera"></div>
+  <div class="carta-grande" id="carta"><p style="text-align:center;margin-top:90px" class="nota">Elige un mazo para robar una carta.</p></div>
+  <p class="acciones-pagina">
+    <button class="boton oculto" id="verResp">Ver la respuesta</button>
+    <a class="boton secundario" href="index.html">← Volver al juego</a>
+  </p>
+  <p class="nota aviso-visitas" style="text-align:center">Esta web registra visitas de forma anónima, sin cookies ni datos personales.</p>
+</div>
+<script src="datos.js"></script>
+<script>
+const F = window.FORTALEZA;
+const esc = t => String(t).replace(/&/g, '&amp;').replace(/</g, '&lt;');
+const restantes = {};
+let reloj = null;
+function barajar(a) { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+function robar(clave, fuente) {
+  if (!restantes[clave] || !restantes[clave].length) restantes[clave] = barajar(fuente);
+  return restantes[clave].pop();
+}
+function pararReloj() { if (reloj) { clearInterval(reloj); reloj = null; } }
+function pregunta(m) {
+  pararReloj();
+  const p = robar(m, F.preguntas.filter(x => x.mazo === m));
+  const col = F.mazos[m].color;
+  const c = document.getElementById('carta');
+  c.style.setProperty('--c', col);
+  c.innerHTML = `<div class="tipo">Tribunal · ${m} · ${esc(F.mazos[m].nombre)}</div>
+    <div class="preg">${esc(p.pregunta)}</div>
+    <div class="reloj" id="cuenta">30</div>
+    <div class="resp oculto" id="resp">${esc(p.respuesta)}<br>${p.claves.map(k => `<span class="clave">${esc(k)}</span>`).join('')}</div>`;
+  const b = document.getElementById('verResp');
+  b.classList.remove('oculto');
+  b.onclick = () => { pararReloj(); document.getElementById('resp').classList.remove('oculto'); b.classList.add('oculto'); };
+  let t = 30;
+  reloj = setInterval(() => {
+    t--; const e = document.getElementById('cuenta'); if (!e) return pararReloj();
+    e.textContent = t > 0 ? t : '¡Tiempo!'; if (t <= 0) { e.classList.add('fin'); pararReloj(); }
+  }, 1000);
+}
+function amenaza(celula) {
+  pararReloj();
+  const a = robar('amenaza-' + celula, F.amenazas.filter(x => x.celula === 'ambas' || x.celula === celula).flatMap(x => Array(x.copias).fill(x)));
+  const c = document.getElementById('carta');
+  c.style.setProperty('--c', a.tipo === 'suceso' ? '#1f8a5b' : '#8c2f1f');
+  c.innerHTML = `<div class="tipo">${a.tipo === 'suceso' ? 'Suceso favorable' : 'Amenaza'} · célula ${celula}</div>
+    <div class="preg">${esc(a.nombre)}</div><div class="resp" style="border:0;padding:0">${esc(a.efecto)}</div>
+    <div class="por"><b>¿Por qué?</b> ${esc(a.porque)}</div>`;
+  document.getElementById('verResp').classList.add('oculto');
+}
+const bot = document.getElementById('botonera');
+for (const [m, d] of Object.entries(F.mazos)) {
+  const b = document.createElement('button');
+  b.style.background = d.color; b.innerHTML = `${m}<small>${esc(d.nombre)}</small>`;
+  b.onclick = () => pregunta(m); bot.appendChild(b);
+}
+for (const cel of ['animal', 'vegetal']) {
+  const b = document.createElement('button');
+  b.style.background = '#8c2f1f'; b.innerHTML = `Amenaza<small>célula ${cel}</small>`;
+  b.onclick = () => amenaza(cel); bot.appendChild(b);
+}
+</script>
+<script data-goatcounter="https://biocelia.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+</body>
+</html>

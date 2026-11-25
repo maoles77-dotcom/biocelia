@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cartas · Crónicas de la Fortaleza Celular</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="juego.css">
+<style>
+  @page { size: A4 portrait; margin: 8mm; }
+  .controles { max-width: 980px; margin: 18px auto; padding: 16px 20px; background: var(--pergamino); border: 2px solid var(--borde); border-radius: 12px; }
+  .controles label { margin-right: 14px; white-space: nowrap; }
+  .pliego { display: grid; grid-template-columns: repeat(3, 63mm); gap: 0; justify-content: center; margin: 0 auto 10mm; page-break-after: always; break-after: page; }
+  .carta {
+    width: 63mm; height: 88mm; padding: 4mm 4mm 3mm; position: relative; overflow: hidden;
+    background: #f6ead0; border: .3mm dashed #b9a27a; display: flex; flex-direction: column;
+    font-size: 9.3pt; line-height: 1.22;
+  }
+  .carta .marco { position: absolute; inset: 2mm; border: .6mm solid var(--c, #8d7247); border-radius: 3mm; pointer-events: none; }
+  .carta .cab { display: flex; align-items: center; gap: 2mm; margin-bottom: 1.5mm; }
+  .carta .letra { width: 8mm; height: 8mm; border-radius: 50%; background: var(--c); color: #fff; font: 700 12pt Cinzel, serif; display: grid; place-items: center; flex: none; }
+  .carta .tipo { font: 700 7.4pt Cinzel, serif; color: var(--c); text-transform: uppercase; letter-spacing: .03em; }
+  .carta .nombre { font: 700 11pt Cinzel, serif; margin: 0 0 1.5mm; line-height: 1.1; }
+  .carta .preg { font-size: 10.5pt; font-weight: 700; line-height: 1.2; }
+  .carta .sep { border-top: .3mm solid #b9a27a; margin: 2mm 0 1.5mm; }
+  .carta .resp { font-size: 8.8pt; }
+  .carta .claves { margin-top: auto; font-size: 8.4pt; }
+  .carta .claves b { font-family: Cinzel, serif; font-size: 7pt; color: var(--c); }
+  .carta .clave { display: inline-block; background: #fff3c4; border: .25mm solid #d9b44a; border-radius: 1mm; padding: 0 1mm; margin: .3mm .4mm 0 0; font-weight: 700; }
+  .carta .pie { font-size: 6.8pt; color: #8a7550; text-align: right; margin-top: 1mm; }
+  .carta .por { margin-top: auto; font-size: 8.2pt; font-style: italic; color: #4f3a1a; background: #efe2c2; border-radius: 1.5mm; padding: 1.2mm 1.6mm; }
+  .carta ol { margin: 0; padding-left: 4.5mm; font-size: 8.8pt; }
+  .carta .premio { margin-top: auto; font-size: 8.6pt; font-weight: 700; color: #1f6b43; }
+  .carta .icono { font-size: 9pt; margin-left: auto; }
+  .carta.densa ol { font-size: 7.6pt; }
+  .carta .anillos { font: 700 7.4pt Cinzel, serif; color: #6b2a14; margin: -1mm 0 1mm; }
+  .carta.organulo { font-size: 7.9pt; line-height: 1.18; }
+  .carta.organulo .sec { margin: .8mm 0; }
+  .carta.organulo .sec b { font: 700 6.8pt Cinzel, serif; color: #6b2a14; display: block; }
+  .carta.organulo .clave { font-size: 7.4pt; }
+  .carta .por.trampa { background: #e9e3d0; color: #3b3a2c; font-style: normal; }
+  .carta.densa .por, .carta.densa .premio { font-size: 7.4pt; }
+  .carta.densa .nombre { font-size: 10pt; }
+  .carta.resp-oculta .resp, .carta.resp-oculta .claves { display: none; }
+  @media print {
+    .controles { display: none; }
+    .pliego { margin: 0 auto; }
+    body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
+</style>
+</head>
+<body>
+<div class="controles no-imprimir">
+  <h1 class="titulo" style="margin:0 0 6px;font-size:1.5rem">Cartas para imprimir</h1>
+  <p style="margin:0 0 8px">Nueve cartas por hoja A4 (63 × 88 mm, el tamaño de las cartas de juego). Imprime al 100 % y recorta por la línea discontinua. Elige qué imprimir:</p>
+  <p style="margin:0 0 8px">
+    <label><input type="checkbox" value="gremios" checked> Gremios</label>
+    <label><input type="checkbox" value="misiones" checked> Misiones</label>
+    <label><input type="checkbox" value="amenazas" checked> Amenazas</label>
+    <label><input type="checkbox" value="organulos" checked> Fichas de orgánulo</label>
+    <label><input type="checkbox" value="trampas" checked> Trampas</label>
+    <label><input type="checkbox" value="ayuda" checked> Cartas de ayuda</label>
+    <label><input type="checkbox" value="preguntas" checked> Preguntas del Tribunal</label>
+  </p>
+  <p style="margin:0 0 8px">Célula:
+    <label><input type="radio" name="celula" value="todas" checked> las dos</label>
+    <label><input type="radio" name="celula" value="animal"> solo animal</label>
+    <label><input type="radio" name="celula" value="vegetal"> solo vegetal</label>
+  </p>
+  <p style="margin:0">
+    <a class="boton secundario" href="index.html">← Volver</a>
+    <button class="boton" onclick="window.print()">Imprimir</button>
+    <span class="nota" id="cuenta"></span>
+  </p>
+  <p class="nota aviso-visitas" style="margin:6px 0 0">Esta web registra visitas de forma anónima, sin cookies ni datos personales.
+  </p>
+</div>
+<div id="cartas"></div>
+<script src="datos.js"></script>
+<script>
+const F = window.FORTALEZA;
+const esc = t => String(t).replace(/&/g, '&amp;').replace(/</g, '&lt;');
+const icono = c => c === 'animal' ? '🐾' : c === 'vegetal' ? '🌿' : '';
+const sirve = (c, celula) => celula === 'todas' || c === 'ambas' || c === celula;
+
+function cartaPregunta(p) {
+  const m = F.mazos[p.mazo];
+  return `<div class="carta" style="--c:${m.color}"><span class="marco"></span>
+    <div class="cab"><span class="letra">${p.mazo}</span><span class="tipo">Tribunal · ${esc(m.nombre)}</span></div>
+    <div class="preg">${esc(p.pregunta)}</div>
+    <div class="sep"></div>
+    <div class="resp">${esc(p.respuesta)}</div>
+    <div class="claves"><b>Palabras clave:</b><br>${p.claves.map(c => `<span class="clave">${esc(c)}</span>`).join(' ')}</div>
+    <div class="pie">${p.id}</div></div>`;
+}
+function cartaAmenaza(a) {
+  const c = a.tipo === 'suceso' ? '#1f8a5b' : '#8c2f1f';
+  return `<div class="carta" style="--c:${c}"><span class="marco"></span>
+    <div class="cab"><span class="tipo">${a.tipo === 'suceso' ? 'Suceso favorable' : 'Amenaza'}</span><span class="icono">${icono(a.celula)}</span></div>
+    <div class="nombre">${esc(a.nombre)}</div>
+    <div class="resp">${esc(a.efecto)}</div>
+    <div class="por"><b>¿Por qué?</b> ${esc(a.porque)}</div></div>`;
+}
+function cartaMision(m) {
+  const densa = m.pasos.join(' ').length > 220 ? ' densa' : '';
+  return `<div class="carta${densa}" style="--c:#7a3b12"><span class="marco"></span>
+    <div class="cab"><span class="tipo">Misión${m.modo === 'ambos' ? ' · todos los modos' : ''}</span><span class="icono">${icono(m.celula)}</span></div>
+    <div class="nombre">${esc(m.nombre)}</div>
+    <ol>${m.pasos.map(p => `<li>${esc(p)}</li>`).join('')}</ol>
+    <div class="premio">Premio: ${esc(m.premio)}</div>
+    <div class="por">${esc(m.porque)}</div></div>`;
+}
+function cartaGremio(g) {
+  return `<div class="carta" style="--c:#2b4a6b"><span class="marco"></span>
+    <div class="cab"><span class="tipo">Gremio · ${esc(g.organulo)}</span><span class="icono">${icono(g.celula)}</span></div>
+    <div class="nombre">${esc(g.nombre)}</div>
+    <div class="resp"><b>Empieza en:</b> ${esc(g.inicio)}</div>
+    <div class="sep"></div>
+    <div class="resp"><b>Poder:</b> ${esc(g.poder)}</div>
+    <div class="por">Representas: <b>${esc(g.organulo)}</b>. Cuando otro gremio active tu orgánulo, puedes ayudarle a preparar la respuesta del Tribunal.</div></div>`;
+}
+const anillos = n => n === 0 ? '<span class="anillos">sin membrana</span>'
+  : `<span class="anillos">${'◯'.repeat(n)} ${n === 1 ? '1 membrana' : 'doble membrana'}</span>`;
+function cartaOrganulo(o) {
+  return `<div class="carta organulo" style="--c:#6b2a14"><span class="marco"></span>
+    <div class="cab"><span class="tipo">Orgánulo · ${esc(o.lugar)}</span><span class="icono">${icono(o.celula)}</span></div>
+    <div class="nombre">${esc(o.organulo)}</div>${anillos(o.membranas)}
+    <div class="sec"><b>Anatomía</b> ${esc(o.anatomia)}</div>
+    <div class="sec"><b>Poder</b> ${o.poder.map(c => `<span class="clave">${esc(c)}</span>`).join(' ')}</div>
+    <div class="sec"><b>Conexión</b> ${esc(o.conexion)}</div>
+    <div class="por trampa"><b>☠ Trampa</b> ${esc(o.trampa)}</div></div>`;
+}
+function cartaTrampa(t) {
+  return `<div class="carta" style="--c:#3b3a2c"><span class="marco"></span>
+    <div class="cab"><span class="letra" style="background:#3b3a2c">☠</span><span class="tipo">Trampa · encuentra el error</span></div>
+    <div class="preg">«${esc(t.afirmacion)}»</div>
+    <div class="sep"></div>
+    <div class="resp"><b>Corrección:</b> ${esc(t.correccion)}</div>
+    <div class="claves"><b>Palabra clave:</b><br><span class="clave">${esc(t.clave)}</span></div>
+    <div class="pie">${t.id}</div></div>`;
+}
+function cartaAyuda() {
+  return `<div class="carta" style="--c:#2b4a6b;font-size:8.2pt"><span class="marco"></span>
+    <div class="cab"><span class="tipo">Ayuda · tu turno</span></div>
+    <div class="nombre" style="font-size:10pt">3 acciones (4 si sois 3 o menos)</div>
+    <div class="resp"><b>Moverte</b> 1 lugar (o hasta 3 por calzada de microtúbulos).<br>
+    <b>Recoger</b> en una puerta: Permeasas, 2 fichas gratis; Bomba, 1 ATP → 3 fichas.<br>
+    <b>Activar</b> tu orgánulo: coste + Tribunal.<br>
+    <b>Entregar</b> fichas o cumplir un paso de misión.</div>
+    <div class="sep"></div>
+    <div class="resp"><b>Tribunal:</b> todas las palabras clave → sello · alguna → +1 ATP · ninguna → falla.<br>
+    <b>☠ Trampa</b> al cruzarla: corrige el error → sello; si no, −1 ATP.<br>
+    <b>Fin de ronda:</b> 1 ATP de gasto basal y daños de las amenazas.<br>Llevas como máximo 4 fichas.</div></div>`;
+}
+
+function pintar() {
+  const tipos = [...document.querySelectorAll('.controles input[type=checkbox]:checked')].map(i => i.value);
+  const celula = document.querySelector('input[name=celula]:checked').value;
+  const lista = [];
+  if (tipos.includes('gremios')) F.gremios.filter(g => sirve(g.celula, celula)).forEach(g => lista.push(cartaGremio(g)));
+  if (tipos.includes('misiones')) F.misiones.filter(m => sirve(m.celula, celula)).forEach(m => lista.push(cartaMision(m)));
+  if (tipos.includes('amenazas')) F.amenazas.filter(a => sirve(a.celula, celula)).forEach(a => { for (let i = 0; i < a.copias; i++) lista.push(cartaAmenaza(a)); });
+  if (tipos.includes('organulos')) F.organulos.filter(o => sirve(o.celula, celula)).forEach(o => lista.push(cartaOrganulo(o)));
+  if (tipos.includes('trampas')) F.trampas.forEach(t => lista.push(cartaTrampa(t)));
+  if (tipos.includes('ayuda')) for (let i = 0; i < 5; i++) lista.push(cartaAyuda());
+  if (tipos.includes('preguntas')) F.preguntas.forEach(p => lista.push(cartaPregunta(p)));
+  let html = '';
+  for (let i = 0; i < lista.length; i += 9) html += `<div class="pliego">${lista.slice(i, i + 9).join('')}</div>`;
+  document.getElementById('cartas').innerHTML = html;
+  document.getElementById('cuenta').textContent = `${lista.length} cartas · ${Math.ceil(lista.length / 9)} hojas`;
+}
+document.querySelectorAll('.controles input').forEach(i => i.addEventListener('change', pintar));
+pintar();
+</script>
+<script data-goatcounter="https://biocelia.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+</body>
+</html>
