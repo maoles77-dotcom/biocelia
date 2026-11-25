@@ -39,3 +39,6 @@ LIBROSBIOLOGÍA/
 
 # ─── Excepción: PDF de los apuntes generados por BioCelia ───
 !temas/pdf/*.pdf
+
+# Paquete de piezas 3D del juego (el resto de .zip sigue ignorado)
+!juego-fortaleza/piezas-3d.zip
